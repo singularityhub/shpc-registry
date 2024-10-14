@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/percolator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/percolator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/percolator/container.yaml"
-updated_at: "2024-10-13 11:16:41.586580"
-latest: "3.6.5--h6351f2a_0"
+updated_at: "2024-10-14 03:35:23.011390"
+latest: "3.7.1--h6351f2a_0"
 container_url: "https://biocontainers.pro/tools/percolator"
 
 versions:
  - "3.5--hfd1433f_1"
  - "3.6.5--h6351f2a_0"
+ - "3.7.1--h6351f2a_0"
 description: "shpc-registry automated BioContainers addition for percolator"
-config: {"url": "https://biocontainers.pro/tools/percolator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for percolator", "latest": {"3.6.5--h6351f2a_0": "sha256:8e1282f46ef47d950605cc0be4797cedef4b2f70fe552519350d48510b6987af"}, "tags": {"3.5--hfd1433f_1": "sha256:4ce8cd765f340f4fb6c0775a018326dd700953ac55cc1c7fe8c55da633c7d817", "3.6.5--h6351f2a_0": "sha256:8e1282f46ef47d950605cc0be4797cedef4b2f70fe552519350d48510b6987af"}, "docker": "quay.io/biocontainers/percolator"}
+config: {"url": "https://biocontainers.pro/tools/percolator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for percolator", "latest": {"3.7.1--h6351f2a_0": "sha256:9931ae0159b6176c6d38f64a7ef6d6d82899c44510487a053acc6cf0b76f8354"}, "tags": {"3.5--hfd1433f_1": "sha256:4ce8cd765f340f4fb6c0775a018326dd700953ac55cc1c7fe8c55da633c7d817", "3.6.5--h6351f2a_0": "sha256:8e1282f46ef47d950605cc0be4797cedef4b2f70fe552519350d48510b6987af", "3.7.1--h6351f2a_0": "sha256:9931ae0159b6176c6d38f64a7ef6d6d82899c44510487a053acc6cf0b76f8354"}, "docker": "quay.io/biocontainers/percolator"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/percolator.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/percolator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/percolator:3.6.5--h6351f2a_0
+$ shpc install quay.io/biocontainers/percolator:3.7.1--h6351f2a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/percolator/3.6.5--h6351f2a_0
-$ module help quay.io/biocontainers/percolator/3.6.5--h6351f2a_0
+$ module load quay.io/biocontainers/percolator/3.7.1--h6351f2a_0
+$ module help quay.io/biocontainers/percolator/3.7.1--h6351f2a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

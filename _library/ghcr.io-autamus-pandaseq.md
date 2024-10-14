@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pandaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/pandaseq/container.yaml"
-updated_at: "2024-10-13 10:38:05.783921"
+updated_at: "2024-10-14 02:55:24.613802"
 latest: "2.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pandaseq"
 aliases:

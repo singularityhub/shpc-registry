@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-convert-binary-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-convert-binary-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-convert-binary-c/container.yaml"
-updated_at: "2024-10-13 11:08:22.296010"
-latest: "0.84--pl5321h4ac6f70_3"
+updated_at: "2024-10-14 03:26:55.908078"
+latest: "0.85--pl5321h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/perl-convert-binary-c"
 aliases:
  - "ccconfig"
@@ -15,8 +15,9 @@ versions:
  - "0.84--pl5321h9f5acd7_1"
  - "0.84--pl5321h9f5acd7_2"
  - "0.84--pl5321h4ac6f70_3"
+ - "0.85--pl5321h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for perl-convert-binary-c"
-config: {"url": "https://biocontainers.pro/tools/perl-convert-binary-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-convert-binary-c", "latest": {"0.84--pl5321h4ac6f70_3": "sha256:62f2118316c10d668f620f1b39c4ba2857ad52147c3af3172354023567f6987a"}, "tags": {"0.84--pl5321h9f5acd7_1": "sha256:e6e39cf20f8d688220197cfc3d3e584a9002c0ac4ad89b7493e0d67cc0f7ccd2", "0.84--pl5321h9f5acd7_2": "sha256:22a7aff8c72a3057d0d9a921cb4e6fbf385d62e83b0b6b3af0968e0ff72c0bfd", "0.84--pl5321h4ac6f70_3": "sha256:62f2118316c10d668f620f1b39c4ba2857ad52147c3af3172354023567f6987a"}, "docker": "quay.io/biocontainers/perl-convert-binary-c", "aliases": {"ccconfig": "/usr/local/bin/ccconfig", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-convert-binary-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-convert-binary-c", "latest": {"0.85--pl5321h4ac6f70_1": "sha256:27064325139b02511b5cd2fb951cc87a4ceffb96898b07ba23005ca5f17f25a1"}, "tags": {"0.84--pl5321h9f5acd7_1": "sha256:e6e39cf20f8d688220197cfc3d3e584a9002c0ac4ad89b7493e0d67cc0f7ccd2", "0.84--pl5321h9f5acd7_2": "sha256:22a7aff8c72a3057d0d9a921cb4e6fbf385d62e83b0b6b3af0968e0ff72c0bfd", "0.84--pl5321h4ac6f70_3": "sha256:62f2118316c10d668f620f1b39c4ba2857ad52147c3af3172354023567f6987a", "0.85--pl5321h4ac6f70_1": "sha256:27064325139b02511b5cd2fb951cc87a4ceffb96898b07ba23005ca5f17f25a1"}, "docker": "quay.io/biocontainers/perl-convert-binary-c", "aliases": {"ccconfig": "/usr/local/bin/ccconfig", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-convert-binary-c.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-convert-binary-c
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-convert-binary-c:0.84--pl5321h4ac6f70_3
+$ shpc install quay.io/biocontainers/perl-convert-binary-c:0.85--pl5321h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-convert-binary-c/0.84--pl5321h4ac6f70_3
-$ module help quay.io/biocontainers/perl-convert-binary-c/0.84--pl5321h4ac6f70_3
+$ module load quay.io/biocontainers/perl-convert-binary-c/0.85--pl5321h4ac6f70_1
+$ module help quay.io/biocontainers/perl-convert-binary-c/0.85--pl5321h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

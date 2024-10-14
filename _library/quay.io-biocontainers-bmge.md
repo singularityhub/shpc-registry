@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmge/container.yaml"
-updated_at: "2024-10-13 10:46:15.398707"
+updated_at: "2024-10-14 03:03:54.881781"
 latest: "1.12--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bmge"
 aliases:

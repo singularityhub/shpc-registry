@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rambo-k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rambo-k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rambo-k/container.yaml"
-updated_at: "2024-10-13 10:54:54.415603"
+updated_at: "2024-10-14 03:12:50.171065"
 latest: "1.21--1"
 container_url: "https://biocontainers.pro/tools/rambo-k"
 aliases:

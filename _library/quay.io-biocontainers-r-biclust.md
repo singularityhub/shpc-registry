@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biclust/container.yaml"
-updated_at: "2024-10-13 11:10:56.014031"
+updated_at: "2024-10-14 03:29:35.586574"
 latest: "1.2.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-biclust"
 aliases:

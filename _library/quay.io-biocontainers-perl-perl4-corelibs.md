@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perl4-corelibs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl4-corelibs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl4-corelibs/container.yaml"
-updated_at: "2024-10-13 10:41:05.377004"
+updated_at: "2024-10-14 02:58:31.828243"
 latest: "0.004--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-perl4-corelibs"
 aliases:

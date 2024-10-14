@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvelo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvelo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvelo/container.yaml"
-updated_at: "2024-10-13 10:59:39.934232"
+updated_at: "2024-10-14 03:17:52.502469"
 latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scvelo"
 aliases:

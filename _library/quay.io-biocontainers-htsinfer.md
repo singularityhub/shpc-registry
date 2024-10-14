@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htsinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htsinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htsinfer/container.yaml"
-updated_at: "2024-10-13 10:58:58.575729"
+updated_at: "2024-10-14 03:17:09.297937"
 latest: "0.11.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/htsinfer"
 aliases:

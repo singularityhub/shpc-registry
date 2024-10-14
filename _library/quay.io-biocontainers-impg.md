@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/impg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/impg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/impg/container.yaml"
-updated_at: "2024-10-13 10:45:36.139777"
-latest: "0.2.0--h4349ce8_0"
+updated_at: "2024-10-14 03:03:14.839788"
+latest: "0.2.1--h4349ce8_1"
 container_url: "https://biocontainers.pro/tools/impg"
 aliases:
  - "impg"
 versions:
  - "0.2.0--h4349ce8_0"
+ - "0.2.1--h4349ce8_1"
 description: "singularity registry hpc automated addition for impg"
-config: {"url": "https://biocontainers.pro/tools/impg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for impg", "latest": {"0.2.0--h4349ce8_0": "sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae"}, "tags": {"0.2.0--h4349ce8_0": "sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae"}, "docker": "quay.io/biocontainers/impg", "aliases": {"impg": "/usr/local/bin/impg"}}
+config: {"url": "https://biocontainers.pro/tools/impg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for impg", "latest": {"0.2.1--h4349ce8_1": "sha256:45a731507d9680cac61e31f33d479310148c8d3e1e4bc4393e38af3a2f715536"}, "tags": {"0.2.0--h4349ce8_0": "sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae", "0.2.1--h4349ce8_1": "sha256:45a731507d9680cac61e31f33d479310148c8d3e1e4bc4393e38af3a2f715536"}, "docker": "quay.io/biocontainers/impg", "aliases": {"impg": "/usr/local/bin/impg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/impg.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/impg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/impg:0.2.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/impg:0.2.1--h4349ce8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/impg/0.2.0--h4349ce8_0
-$ module help quay.io/biocontainers/impg/0.2.0--h4349ce8_0
+$ module load quay.io/biocontainers/impg/0.2.1--h4349ce8_1
+$ module help quay.io/biocontainers/impg/0.2.1--h4349ce8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

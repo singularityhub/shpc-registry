@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mass2chem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mass2chem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mass2chem/container.yaml"
-updated_at: "2024-10-13 10:48:23.403887"
+updated_at: "2024-10-14 03:06:05.189573"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mass2chem"
 aliases:

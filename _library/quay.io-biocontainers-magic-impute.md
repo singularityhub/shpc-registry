@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magic-impute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magic-impute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magic-impute/container.yaml"
-updated_at: "2024-10-13 10:43:14.731512"
+updated_at: "2024-10-14 03:00:48.764094"
 latest: "3.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/magic-impute"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_structure_checking"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
-updated_at: "2024-10-13 11:16:18.115261"
-latest: "3.13.4--pyhca03a8a_0"
+updated_at: "2024-10-14 03:34:59.168261"
+latest: "3.13.5--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/biobb_structure_checking"
 aliases:
  - "check_structure"
@@ -27,8 +27,9 @@ versions:
  - "3.13.0--pyhca03a8a_0"
  - "3.13.3--pyhca03a8a_0"
  - "3.13.4--pyhca03a8a_0"
+ - "3.13.5--pyhdc42f0e_0"
 description: "shpc-registry automated BioContainers addition for biobb_structure_checking"
-config: {"url": "https://biocontainers.pro/tools/biobb_structure_checking", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_structure_checking", "latest": {"3.13.4--pyhca03a8a_0": "sha256:191062dfae859a0beb89bb032f8427278891e94c9d888a319ed21cf1ea17391a"}, "tags": {"3.9.9--pyhb7b1952_0": "sha256:847ce89ff50a2bbde106cc836f150ce6c65f4e7beacd874132418f8d3c6874ac", "3.10.1--pyhb7b1952_0": "sha256:38ae250f320a4c6c14a7d3601a949c50fc6bcfe1370576cb6442255e136194da", "3.9.11--pyhb7b1952_1": "sha256:70ebca073d86fbf2df904fa4ac78dcf32b2ef976d8407462f82edb04d515c91d", "3.12.1--pyhca03a8a_0": "sha256:b00e7e2495c7821143a766d25882642fd036913e3845ce36ea43a05ebe03d176", "3.13.0--pyhca03a8a_0": "sha256:24e7ed4b672fd388503586be66dd3ff9e4853430a33b435a2cec1b258a4a5cc7", "3.13.3--pyhca03a8a_0": "sha256:4a5b42c909b6c504210830dfcdb43706ddc8ae6054f8bd5669f24db974c136ab", "3.13.4--pyhca03a8a_0": "sha256:191062dfae859a0beb89bb032f8427278891e94c9d888a319ed21cf1ea17391a"}, "docker": "quay.io/biocontainers/biobb_structure_checking", "aliases": {"check_structure": "/usr/local/bin/check_structure", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_structure_checking", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_structure_checking", "latest": {"3.13.5--pyhdc42f0e_0": "sha256:a87f60fd5046115cac870ca6e6101a30c2f715c6c0c2eb00a837907733d66bc8"}, "tags": {"3.9.9--pyhb7b1952_0": "sha256:847ce89ff50a2bbde106cc836f150ce6c65f4e7beacd874132418f8d3c6874ac", "3.10.1--pyhb7b1952_0": "sha256:38ae250f320a4c6c14a7d3601a949c50fc6bcfe1370576cb6442255e136194da", "3.9.11--pyhb7b1952_1": "sha256:70ebca073d86fbf2df904fa4ac78dcf32b2ef976d8407462f82edb04d515c91d", "3.12.1--pyhca03a8a_0": "sha256:b00e7e2495c7821143a766d25882642fd036913e3845ce36ea43a05ebe03d176", "3.13.0--pyhca03a8a_0": "sha256:24e7ed4b672fd388503586be66dd3ff9e4853430a33b435a2cec1b258a4a5cc7", "3.13.3--pyhca03a8a_0": "sha256:4a5b42c909b6c504210830dfcdb43706ddc8ae6054f8bd5669f24db974c136ab", "3.13.4--pyhca03a8a_0": "sha256:191062dfae859a0beb89bb032f8427278891e94c9d888a319ed21cf1ea17391a", "3.13.5--pyhdc42f0e_0": "sha256:a87f60fd5046115cac870ca6e6101a30c2f715c6c0c2eb00a837907733d66bc8"}, "docker": "quay.io/biocontainers/biobb_structure_checking", "aliases": {"check_structure": "/usr/local/bin/check_structure", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_structure_checking.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/biobb_structure_checking
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_structure_checking:3.13.4--pyhca03a8a_0
+$ shpc install quay.io/biocontainers/biobb_structure_checking:3.13.5--pyhdc42f0e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_structure_checking/3.13.4--pyhca03a8a_0
-$ module help quay.io/biocontainers/biobb_structure_checking/3.13.4--pyhca03a8a_0
+$ module load quay.io/biocontainers/biobb_structure_checking/3.13.5--pyhdc42f0e_0
+$ module help quay.io/biocontainers/biobb_structure_checking/3.13.5--pyhdc42f0e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
