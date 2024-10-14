@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-a4reporting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-a4reporting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-a4reporting/container.yaml"
-updated_at: "2024-10-14 03:02:10.673313"
+updated_at: "2024-10-14 16:56:44.080255"
 latest: "1.50.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-a4reporting"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/palantir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/palantir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/palantir/container.yaml"
-updated_at: "2024-10-14 02:57:33.905891"
+updated_at: "2024-10-14 17:22:14.082072"
 latest: "1.3.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/palantir"
 aliases:
