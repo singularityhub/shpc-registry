@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treeio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
-updated_at: "2024-10-14 17:28:33.260479"
+updated_at: "2024-10-15 03:31:21.979851"
 latest: "1.26.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-treeio"
 aliases:

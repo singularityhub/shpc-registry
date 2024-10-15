@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-r3cseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r3cseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r3cseq/container.yaml"
-updated_at: "2024-10-14 16:52:59.928706"
+updated_at: "2024-10-15 02:56:48.301709"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r3cseq"
 

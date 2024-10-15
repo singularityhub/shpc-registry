@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trf/container.yaml"
-updated_at: "2024-10-14 17:22:51.609910"
+updated_at: "2024-10-15 03:25:47.264957"
 latest: "4.09--2"
 container_url: "https://biocontainers.pro/tools/trf"
 aliases:

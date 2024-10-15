@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gotohscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotohscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotohscan/container.yaml"
-updated_at: "2024-10-14 17:23:48.053647"
+updated_at: "2024-10-15 03:26:42.538316"
 latest: "1.3--h031d066_6"
 container_url: "https://biocontainers.pro/tools/gotohscan"
 aliases:
