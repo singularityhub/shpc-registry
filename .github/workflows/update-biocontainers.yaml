@@ -22,7 +22,7 @@ jobs:
       run: |
         export PATH="/usr/share/miniconda/bin:$PATH"
         source activate cache
-        pip install -r .github/scripts/dev-requirements.txt
+        pip install --break-system-packages -r .github/scripts/dev-requirements.txt
         python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
         head /tmp/biocontainers.txt
 
