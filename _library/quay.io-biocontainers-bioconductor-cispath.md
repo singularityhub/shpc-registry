@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cispath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cispath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cispath/container.yaml"
-updated_at: "2024-10-15 03:20:38.216110"
+updated_at: "2024-10-16 03:22:04.584656"
 latest: "1.42.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cispath"
 

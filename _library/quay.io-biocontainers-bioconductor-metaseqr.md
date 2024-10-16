@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metaseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaseqr/container.yaml"
-updated_at: "2024-10-15 03:38:20.796466"
+updated_at: "2024-10-16 03:39:51.606386"
 latest: "1.28.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaseqr"
 

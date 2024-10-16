@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raerdata/container.yaml"
-updated_at: "2024-10-15 03:12:04.497311"
+updated_at: "2024-10-16 03:13:14.063097"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raerdata"
 aliases:
