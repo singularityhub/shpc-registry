@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dockq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dockq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dockq/container.yaml"
-updated_at: "2024-10-16 03:13:28.601647"
+updated_at: "2024-10-16 03:50:43.698304"
 latest: "2.1.3--py312h031d066_0"
 container_url: "https://biocontainers.pro/tools/dockq"
 aliases:
