@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cenote-taker3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cenote-taker3
 latest:
-  3.3.1--pyhdfd78af_0: sha256:aab14c29f240663b8ac68ad19dede647a0a46dff5c56973ef98e605e7e7f64a2
+  3.3.2--pyhdfd78af_0: sha256:c8fe2d1c6787a18b5e691bb23806c1d009fa6083039a677546ff6caeb4c324da
 tags:
   3.2.0--pyhdfd78af_0: sha256:f3328aa82bf73c2ea075ecab3c73bf4a19f8d8e71c9703e7e2168da70a033fce
   3.2.1--pyhdfd78af_0: sha256:8d8ca5f74be74d2f52f277ef93806de367f3af2f377ea47683f7b935d2216f67
   3.3.1--pyhdfd78af_0: sha256:aab14c29f240663b8ac68ad19dede647a0a46dff5c56973ef98e605e7e7f64a2
+  3.3.2--pyhdfd78af_0: sha256:c8fe2d1c6787a18b5e691bb23806c1d009fa6083039a677546ff6caeb4c324da
 docker: quay.io/biocontainers/cenote-taker3
 aliases:
   MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter

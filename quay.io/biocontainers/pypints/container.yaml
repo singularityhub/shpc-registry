@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pypints
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pypints
 latest:
-  1.1.9--pyh7cba7a3_0: sha256:4d3adf464bbed7efa19ceddea312236e0124af28002696a7b62cd5b898e364d4
+  1.1.14--pyh7e72e81_0: sha256:cca13a6a1f717f2174b7869550645e59c70f477477f6b80061a6b1ea4ec4e61a
 tags:
   1.1.8--pyh7cba7a3_0: sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44
   1.1.9--pyh7cba7a3_0: sha256:4d3adf464bbed7efa19ceddea312236e0124af28002696a7b62cd5b898e364d4
+  1.1.14--pyh7e72e81_0: sha256:cca13a6a1f717f2174b7869550645e59c70f477477f6b80061a6b1ea4ec4e61a
 docker: quay.io/biocontainers/pypints
 aliases:
   pints_boundary_extender: /usr/local/bin/pints_boundary_extender
