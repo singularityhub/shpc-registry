@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xdg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xdg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xdg/container.yaml"
-updated_at: "2024-10-17 03:22:49.249912"
+updated_at: "2024-10-17 18:47:07.610604"
 latest: "1.0.5--py36_0"
 container_url: "https://biocontainers.pro/tools/xdg"
 aliases:

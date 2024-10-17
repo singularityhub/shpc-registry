@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/updio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/updio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/updio/container.yaml"
-updated_at: "2024-10-17 03:32:08.010667"
+updated_at: "2024-10-17 18:56:50.142442"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/updio"
 aliases:

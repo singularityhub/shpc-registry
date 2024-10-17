@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/planemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/planemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/planemo/container.yaml"
-updated_at: "2024-10-17 03:17:34.392263"
+updated_at: "2024-10-17 18:41:45.297288"
 latest: "0.75.26--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/planemo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gapseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapseq/container.yaml"
-updated_at: "2024-10-17 03:16:24.983456"
+updated_at: "2024-10-17 18:40:34.639637"
 latest: "1.3.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gapseq"
 aliases:
