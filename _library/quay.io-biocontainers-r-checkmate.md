@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-checkmate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-checkmate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-checkmate/container.yaml"
-updated_at: "2024-10-16 03:51:22.055000"
+updated_at: "2024-10-17 03:07:40.178657"
 latest: "1.8.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-checkmate"
 aliases:

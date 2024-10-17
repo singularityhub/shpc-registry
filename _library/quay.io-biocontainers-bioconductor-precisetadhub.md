@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-precisetadhub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-precisetadhub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-precisetadhub/container.yaml"
-updated_at: "2024-10-16 03:36:03.351389"
+updated_at: "2024-10-17 03:18:11.795056"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-precisetadhub"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pypints"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypints/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypints/container.yaml"
-updated_at: "2024-10-16 03:47:02.356604"
-latest: "1.1.9--pyh7cba7a3_0"
+updated_at: "2024-10-17 03:21:12.263451"
+latest: "1.1.14--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pypints"
 aliases:
  - "pints_boundary_extender"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.1.8--pyh7cba7a3_0"
  - "1.1.9--pyh7cba7a3_0"
+ - "1.1.14--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for pypints"
-config: {"url": "https://biocontainers.pro/tools/pypints", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypints", "latest": {"1.1.9--pyh7cba7a3_0": "sha256:4d3adf464bbed7efa19ceddea312236e0124af28002696a7b62cd5b898e364d4"}, "tags": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44", "1.1.9--pyh7cba7a3_0": "sha256:4d3adf464bbed7efa19ceddea312236e0124af28002696a7b62cd5b898e364d4"}, "docker": "quay.io/biocontainers/pypints", "aliases": {"pints_boundary_extender": "/usr/local/bin/pints_boundary_extender", "pints_caller": "/usr/local/bin/pints_caller", "pints_normalizer": "/usr/local/bin/pints_normalizer", "pints_visualizer": "/usr/local/bin/pints_visualizer", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
+config: {"url": "https://biocontainers.pro/tools/pypints", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypints", "latest": {"1.1.14--pyh7e72e81_0": "sha256:cca13a6a1f717f2174b7869550645e59c70f477477f6b80061a6b1ea4ec4e61a"}, "tags": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44", "1.1.9--pyh7cba7a3_0": "sha256:4d3adf464bbed7efa19ceddea312236e0124af28002696a7b62cd5b898e364d4", "1.1.14--pyh7e72e81_0": "sha256:cca13a6a1f717f2174b7869550645e59c70f477477f6b80061a6b1ea4ec4e61a"}, "docker": "quay.io/biocontainers/pypints", "aliases": {"pints_boundary_extender": "/usr/local/bin/pints_boundary_extender", "pints_caller": "/usr/local/bin/pints_caller", "pints_normalizer": "/usr/local/bin/pints_normalizer", "pints_visualizer": "/usr/local/bin/pints_visualizer", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypints.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pypints
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pypints:1.1.9--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pypints:1.1.14--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pypints/1.1.9--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pypints/1.1.9--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pypints/1.1.14--pyh7e72e81_0
+$ module help quay.io/biocontainers/pypints/1.1.14--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

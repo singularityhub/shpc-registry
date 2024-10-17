@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnv_facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv_facets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv_facets/container.yaml"
-updated_at: "2024-10-16 04:11:51.776795"
-latest: "0.16.1--py312r43h8537716_0"
+updated_at: "2024-10-17 03:27:57.487102"
+latest: "0.16.1--py312r43h8537716_1"
 container_url: "https://biocontainers.pro/tools/cnv_facets"
 aliases:
  - "cnv_facets.R"
@@ -28,8 +28,9 @@ versions:
  - "0.13.0--r351h14c3975_1"
  - "0.12.1--r351h14c3975_1"
  - "0.16.1--py312r43h8537716_0"
+ - "0.16.1--py312r43h8537716_1"
 description: "shpc-registry automated BioContainers addition for cnv_facets"
-config: {"url": "https://biocontainers.pro/tools/cnv_facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnv_facets", "latest": {"0.16.1--py312r43h8537716_0": "sha256:59649860966fcf905af41a2a8abc7d4ff971af1cdabd3edfca3025e66d133210"}, "tags": {"v0.11.3--r351_2": "sha256:668dee88779c1e7138df38ed6aeb2f90c3dece38654d8432f155f0385887f863", "0.16.0--py38r36h4b26f60_1": "sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a", "0.15.0--r36h4b26f60_1": "sha256:5d47cc0dfe8607e4a5ae2358c7ac0de5192a1a2e1c88eb07e1d5f03afcf75e96", "0.14.0--r351h14c3975_1": "sha256:2addeafcc321dbcfaccc578750aa75cc1eca8e724645177ce98f0cf6dcda2b13", "0.13.0--r351h14c3975_1": "sha256:f15a9c30823ba2fa30426d680ad2a314be376a0e3a66a99a62b14d2a83a1a68b", "0.12.1--r351h14c3975_1": "sha256:19fd41d942db4c7e7e48e329be6238914cc5ab92aca649981ec4fe014cbae87c", "0.16.1--py312r43h8537716_0": "sha256:59649860966fcf905af41a2a8abc7d4ff971af1cdabd3edfca3025e66d133210"}, "docker": "quay.io/biocontainers/cnv_facets", "aliases": {"cnv_facets.R": "/usr/local/bin/cnv_facets.R", "snp-pileup": "/usr/local/bin/snp-pileup", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/cnv_facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnv_facets", "latest": {"0.16.1--py312r43h8537716_1": "sha256:7fccd936b648bb9e7fc8e3f71cd237af54812b326fabe93415b54c8f1b0f3890"}, "tags": {"v0.11.3--r351_2": "sha256:668dee88779c1e7138df38ed6aeb2f90c3dece38654d8432f155f0385887f863", "0.16.0--py38r36h4b26f60_1": "sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a", "0.15.0--r36h4b26f60_1": "sha256:5d47cc0dfe8607e4a5ae2358c7ac0de5192a1a2e1c88eb07e1d5f03afcf75e96", "0.14.0--r351h14c3975_1": "sha256:2addeafcc321dbcfaccc578750aa75cc1eca8e724645177ce98f0cf6dcda2b13", "0.13.0--r351h14c3975_1": "sha256:f15a9c30823ba2fa30426d680ad2a314be376a0e3a66a99a62b14d2a83a1a68b", "0.12.1--r351h14c3975_1": "sha256:19fd41d942db4c7e7e48e329be6238914cc5ab92aca649981ec4fe014cbae87c", "0.16.1--py312r43h8537716_0": "sha256:59649860966fcf905af41a2a8abc7d4ff971af1cdabd3edfca3025e66d133210", "0.16.1--py312r43h8537716_1": "sha256:7fccd936b648bb9e7fc8e3f71cd237af54812b326fabe93415b54c8f1b0f3890"}, "docker": "quay.io/biocontainers/cnv_facets", "aliases": {"cnv_facets.R": "/usr/local/bin/cnv_facets.R", "snp-pileup": "/usr/local/bin/snp-pileup", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnv_facets.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/cnv_facets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnv_facets:0.16.1--py312r43h8537716_0
+$ shpc install quay.io/biocontainers/cnv_facets:0.16.1--py312r43h8537716_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnv_facets/0.16.1--py312r43h8537716_0
-$ module help quay.io/biocontainers/cnv_facets/0.16.1--py312r43h8537716_0
+$ module load quay.io/biocontainers/cnv_facets/0.16.1--py312r43h8537716_1
+$ module help quay.io/biocontainers/cnv_facets/0.16.1--py312r43h8537716_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
