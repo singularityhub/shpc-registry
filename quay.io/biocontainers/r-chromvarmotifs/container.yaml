@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-chromvarmotifs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-chromvarmotifs
+latest:
+  0.2.0--r41hdfd78af_0: sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce
+tags:
+  0.2.0--r41hdfd78af_0: sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce
+docker: quay.io/biocontainers/r-chromvarmotifs

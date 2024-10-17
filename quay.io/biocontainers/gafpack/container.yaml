@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gafpack
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gafpack
+latest:
+  0.1.0--h4349ce8_0: sha256:df4babed8bc7dee369accc91560f8f8172cebbf65b233fecb0f3674f312e5529
+tags:
+  0.1.0--h4349ce8_0: sha256:df4babed8bc7dee369accc91560f8f8172cebbf65b233fecb0f3674f312e5529
+docker: quay.io/biocontainers/gafpack
+aliases:
+  gafpack: /usr/local/bin/gafpack
