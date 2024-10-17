@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/r-archr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-archr
+latest:
+  1.0.2--r41hdbdd923_0: sha256:c332222f5ccfca2753766aec679b0f9dd1c29bfa7fe66b0853e8b552aca63337
+tags:
+  1.0.2--r41hdbdd923_0: sha256:c332222f5ccfca2753766aec679b0f9dd1c29bfa7fe66b0853e8b552aca63337
+docker: quay.io/biocontainers/r-archr
+aliases:
+  pandoc: /usr/local/bin/pandoc

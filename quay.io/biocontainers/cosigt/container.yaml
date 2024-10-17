@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cosigt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cosigt
+latest:
+  0.1.2--he881be0_0: sha256:c80ecefd2216bf6cb1fd8f0d9effb51662d8cc561dad34d2dea60fe5e407caff
+tags:
+  0.1.2--he881be0_0: sha256:c80ecefd2216bf6cb1fd8f0d9effb51662d8cc561dad34d2dea60fe5e407caff
+docker: quay.io/biocontainers/cosigt
+aliases:
+  cosigt: /usr/local/bin/cosigt
