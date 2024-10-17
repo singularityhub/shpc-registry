@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mgatk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgatk
 latest:
-  0.7.0--pyhdfd78af_1: sha256:d8f447fd40a21b32a8e908ea8f5cfd48508a69e77b853e06801e0599a599cd2d
+  0.7.0--pyhdfd78af_2: sha256:36f533a88a792705774bfad2c95959057dc278cd96a3c77030194b0d5a423bc8
 tags:
   0.7.0--pyhdfd78af_0: sha256:9d5325c3ca62339e0c875b6fef5865ee3b8523eaffcd4a2e34cff49234124c06
   0.7.0--pyhdfd78af_1: sha256:d8f447fd40a21b32a8e908ea8f5cfd48508a69e77b853e06801e0599a599cd2d
+  0.7.0--pyhdfd78af_2: sha256:36f533a88a792705774bfad2c95959057dc278cd96a3c77030194b0d5a423bc8
 docker: quay.io/biocontainers/mgatk
 aliases:
   mgatk: /usr/local/bin/mgatk

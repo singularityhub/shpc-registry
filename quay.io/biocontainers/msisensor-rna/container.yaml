@@ -5,6 +5,7 @@ latest:
   0.1.6a--pyhdfd78af_0: sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061
 tags:
   0.1.6a--pyhdfd78af_0: sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061
+  0.1.6--pyhdfd78af_0: sha256:8ec1ba85dffda7f44944c6b704dc3f2df03b9477f49af0c145abf4770a807d48
 docker: quay.io/biocontainers/msisensor-rna
 aliases:
   msisensor-rna: /usr/local/bin/msisensor-rna
