@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pout2mzid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pout2mzid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pout2mzid/container.yaml"
-updated_at: "2024-10-17 18:21:10.086374"
+updated_at: "2024-10-18 02:59:19.115136"
 latest: "0.3.03--boost1.62_2"
 container_url: "https://biocontainers.pro/tools/pout2mzid"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgatk/container.yaml"
-updated_at: "2024-10-17 18:33:23.193267"
-latest: "0.7.0--pyhdfd78af_1"
+updated_at: "2024-10-18 03:11:28.609842"
+latest: "0.7.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/mgatk"
 aliases:
  - "mgatk"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.7.0--pyhdfd78af_0"
  - "0.7.0--pyhdfd78af_1"
+ - "0.7.0--pyhdfd78af_2"
 description: "singularity registry hpc automated addition for mgatk"
-config: {"url": "https://biocontainers.pro/tools/mgatk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgatk", "latest": {"0.7.0--pyhdfd78af_1": "sha256:d8f447fd40a21b32a8e908ea8f5cfd48508a69e77b853e06801e0599a599cd2d"}, "tags": {"0.7.0--pyhdfd78af_0": "sha256:9d5325c3ca62339e0c875b6fef5865ee3b8523eaffcd4a2e34cff49234124c06", "0.7.0--pyhdfd78af_1": "sha256:d8f447fd40a21b32a8e908ea8f5cfd48508a69e77b853e06801e0599a599cd2d"}, "docker": "quay.io/biocontainers/mgatk", "aliases": {"mgatk": "/usr/local/bin/mgatk", "mgatk-del": "/usr/local/bin/mgatk-del", "mgatk-del-find": "/usr/local/bin/mgatk-del-find", "jwebserver": "/usr/local/bin/jwebserver", "picard": "/usr/local/bin/picard", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "jpackage": "/usr/local/bin/jpackage", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py"}}
+config: {"url": "https://biocontainers.pro/tools/mgatk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgatk", "latest": {"0.7.0--pyhdfd78af_2": "sha256:36f533a88a792705774bfad2c95959057dc278cd96a3c77030194b0d5a423bc8"}, "tags": {"0.7.0--pyhdfd78af_0": "sha256:9d5325c3ca62339e0c875b6fef5865ee3b8523eaffcd4a2e34cff49234124c06", "0.7.0--pyhdfd78af_1": "sha256:d8f447fd40a21b32a8e908ea8f5cfd48508a69e77b853e06801e0599a599cd2d", "0.7.0--pyhdfd78af_2": "sha256:36f533a88a792705774bfad2c95959057dc278cd96a3c77030194b0d5a423bc8"}, "docker": "quay.io/biocontainers/mgatk", "aliases": {"mgatk": "/usr/local/bin/mgatk", "mgatk-del": "/usr/local/bin/mgatk-del", "mgatk-del-find": "/usr/local/bin/mgatk-del-find", "jwebserver": "/usr/local/bin/jwebserver", "picard": "/usr/local/bin/picard", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "jpackage": "/usr/local/bin/jpackage", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgatk.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/mgatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgatk:0.7.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/mgatk:0.7.0--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgatk/0.7.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/mgatk/0.7.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/mgatk/0.7.0--pyhdfd78af_2
+$ module help quay.io/biocontainers/mgatk/0.7.0--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

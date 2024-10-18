@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jellyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jellyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jellyfish/container.yaml"
-updated_at: "2024-10-17 18:30:43.926707"
+updated_at: "2024-10-18 03:08:50.705962"
 latest: "2.2.10--h6bb024c_1"
 container_url: "https://biocontainers.pro/tools/jellyfish"
 aliases:

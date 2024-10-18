@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-powsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-powsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-powsc/container.yaml"
-updated_at: "2024-10-17 18:31:33.191897"
+updated_at: "2024-10-18 03:09:40.896914"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-powsc"
 

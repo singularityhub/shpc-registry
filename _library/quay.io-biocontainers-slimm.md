@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slimm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slimm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slimm/container.yaml"
-updated_at: "2024-10-17 18:45:47.200595"
+updated_at: "2024-10-18 03:23:35.200531"
 latest: "0.3.4--h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/slimm"
 aliases:

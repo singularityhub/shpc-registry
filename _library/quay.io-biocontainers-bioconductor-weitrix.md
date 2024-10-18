@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-weitrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weitrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weitrix/container.yaml"
-updated_at: "2024-10-17 18:52:52.470815"
+updated_at: "2024-10-18 03:30:40.087160"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weitrix"
 

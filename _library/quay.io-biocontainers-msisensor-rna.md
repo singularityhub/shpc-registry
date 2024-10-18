@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msisensor-rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor-rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor-rna/container.yaml"
-updated_at: "2024-10-17 18:42:33.403020"
+updated_at: "2024-10-18 03:20:21.989613"
 latest: "0.1.6a--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msisensor-rna"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.1.6a--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for msisensor-rna"
-config: {"url": "https://biocontainers.pro/tools/msisensor-rna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msisensor-rna", "latest": {"0.1.6a--pyhdfd78af_0": "sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061"}, "tags": {"0.1.6a--pyhdfd78af_0": "sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061"}, "docker": "quay.io/biocontainers/msisensor-rna", "aliases": {"msisensor-rna": "/usr/local/bin/msisensor-rna", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/msisensor-rna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msisensor-rna", "latest": {"0.1.6a--pyhdfd78af_0": "sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061"}, "tags": {"0.1.6a--pyhdfd78af_0": "sha256:f2c62b8834f2ff06236a6b766675fe7412448036f6a95572a65737711c4a2061", "0.1.6--pyhdfd78af_0": "sha256:8ec1ba85dffda7f44944c6b704dc3f2df03b9477f49af0c145abf4770a807d48"}, "docker": "quay.io/biocontainers/msisensor-rna", "aliases": {"msisensor-rna": "/usr/local/bin/msisensor-rna", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msisensor-rna.

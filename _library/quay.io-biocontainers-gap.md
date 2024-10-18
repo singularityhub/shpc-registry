@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gap/container.yaml"
-updated_at: "2024-10-17 18:20:06.486512"
+updated_at: "2024-10-18 02:58:13.294958"
 latest: "4.8.10--0"
 container_url: "https://biocontainers.pro/tools/gap"
 

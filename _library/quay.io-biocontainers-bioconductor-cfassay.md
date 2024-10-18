@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cfassay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cfassay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cfassay/container.yaml"
-updated_at: "2024-10-17 18:50:03.936469"
+updated_at: "2024-10-18 03:27:55.024475"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cfassay"
 

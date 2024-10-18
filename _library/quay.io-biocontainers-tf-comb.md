@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tf-comb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tf-comb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tf-comb/container.yaml"
-updated_at: "2024-10-17 18:30:49.348409"
+updated_at: "2024-10-18 03:08:56.196630"
 latest: "1.1--py39hec7c8de_0"
 container_url: "https://biocontainers.pro/tools/tf-comb"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-which"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-which/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-which/container.yaml"
-updated_at: "2024-10-17 18:59:20.753744"
+updated_at: "2024-10-18 03:36:59.271259"
 latest: "1.23--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-file-which"
 aliases:
