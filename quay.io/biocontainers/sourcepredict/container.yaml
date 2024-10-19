@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sourcepredict
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sourcepredict
 latest:
-  0.5--pyhdfd78af_0: sha256:22f8c6cecfcef908dcc4ba910b7f5969bd03dbf0e0d3adb297bf09cb7034967c
+  0.5.1--pyhdfd78af_0: sha256:ae40bd6bbb6272099bfb9192d97bcdceccc9d6bdcf321299a3ea236a359217ca
 tags:
   0.5--pyhdfd78af_0: sha256:22f8c6cecfcef908dcc4ba910b7f5969bd03dbf0e0d3adb297bf09cb7034967c
+  0.5.1--pyhdfd78af_0: sha256:ae40bd6bbb6272099bfb9192d97bcdceccc9d6bdcf321299a3ea236a359217ca
 docker: quay.io/biocontainers/sourcepredict
 aliases:
   h5delete: /usr/local/bin/h5delete

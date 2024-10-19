@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/srahunter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for srahunter
 latest:
-  0.0.2--pyhdfd78af_0: sha256:8c7419267577e6fbeb027ec5405b5c2e9a469786bf61d65eac4c2d6d93811360
+  0.0.3--pyhdfd78af_0: sha256:1666b9c456e788a77538f33937e65b7796840c99f1dbcf9a8d67153ba373ee74
 tags:
   0.0.2--pyhdfd78af_0: sha256:8c7419267577e6fbeb027ec5405b5c2e9a469786bf61d65eac4c2d6d93811360
+  0.0.3--pyhdfd78af_0: sha256:1666b9c456e788a77538f33937e65b7796840c99f1dbcf9a8d67153ba373ee74
 docker: quay.io/biocontainers/srahunter
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3
