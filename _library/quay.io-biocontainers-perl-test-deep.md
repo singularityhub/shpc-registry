@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-deep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-deep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-deep/container.yaml"
-updated_at: "2024-10-18 03:37:05.360906"
+updated_at: "2024-10-19 03:34:33.140450"
 latest: "1.130--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-deep"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grndata/container.yaml"
-updated_at: "2024-10-18 03:09:39.118135"
+updated_at: "2024-10-19 03:05:53.908105"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grndata"
 

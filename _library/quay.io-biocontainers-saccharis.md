@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/saccharis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saccharis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saccharis/container.yaml"
-updated_at: "2024-10-18 03:21:56.337761"
+updated_at: "2024-10-19 03:18:37.678311"
 latest: "2.0.1.dev21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/saccharis"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cssam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cssam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cssam/container.yaml"
-updated_at: "2024-10-18 02:53:57.173170"
+updated_at: "2024-10-19 02:50:24.948966"
 latest: "1.4--r43h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/r-cssam"
 

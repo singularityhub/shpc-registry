@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-kubernetes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-kubernetes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-kubernetes/container.yaml"
-updated_at: "2024-10-18 03:41:28.416510"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2024-10-19 03:39:09.661706"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-kubernetes"
 aliases:
  - "wsdump"
@@ -26,8 +26,9 @@ versions:
  - "0.1.5--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-kubernetes"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-kubernetes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-kubernetes", "latest": {"0.2.1--pyhdfd78af_0": "sha256:e78b28b3c1a0eb1052a81028aae6cff010c0b69797f17a0b778b3796f9852e8f"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:6aab8d09f4e04e77cbac75eca157ebe0892bf18579fe6fa5307fdba96a93967c", "0.1.5--pyhdfd78af_0": "sha256:3a4d25d89cf7136112c973dcb6cb8e2adfe36a1d614ddd3dcdf08659b81daeb7", "0.2.0--pyhdfd78af_0": "sha256:6ef8336b32f92ec32d1fbbc8790adb84f0ff3f0505222b6bb745ac93c31b6bc5", "0.2.1--pyhdfd78af_0": "sha256:e78b28b3c1a0eb1052a81028aae6cff010c0b69797f17a0b778b3796f9852e8f"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-kubernetes", "aliases": {"wsdump": "/usr/local/bin/wsdump", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-kubernetes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-kubernetes", "latest": {"0.2.2--pyhdfd78af_0": "sha256:772e08bf063bdeab075c2a1c9ba57b837b09288ad3817ca0a45061cfe3f10a24"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:6aab8d09f4e04e77cbac75eca157ebe0892bf18579fe6fa5307fdba96a93967c", "0.1.5--pyhdfd78af_0": "sha256:3a4d25d89cf7136112c973dcb6cb8e2adfe36a1d614ddd3dcdf08659b81daeb7", "0.2.0--pyhdfd78af_0": "sha256:6ef8336b32f92ec32d1fbbc8790adb84f0ff3f0505222b6bb745ac93c31b6bc5", "0.2.1--pyhdfd78af_0": "sha256:e78b28b3c1a0eb1052a81028aae6cff010c0b69797f17a0b778b3796f9852e8f", "0.2.2--pyhdfd78af_0": "sha256:772e08bf063bdeab075c2a1c9ba57b837b09288ad3817ca0a45061cfe3f10a24"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-kubernetes", "aliases": {"wsdump": "/usr/local/bin/wsdump", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-kubernetes.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-kubernetes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-kubernetes:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-kubernetes:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-kubernetes/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-kubernetes/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-kubernetes/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-kubernetes/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
