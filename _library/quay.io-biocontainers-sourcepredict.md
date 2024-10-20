@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sourcepredict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourcepredict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourcepredict/container.yaml"
-updated_at: "2024-10-19 03:05:04.145443"
-latest: "0.5--pyhdfd78af_0"
+updated_at: "2024-10-20 03:13:17.257757"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sourcepredict"
 aliases:
  - "h5delete"
@@ -37,8 +37,9 @@ aliases:
  - "hwloc-calc"
 versions:
  - "0.5--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sourcepredict"
-config: {"url": "https://biocontainers.pro/tools/sourcepredict", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sourcepredict", "latest": {"0.5--pyhdfd78af_0": "sha256:22f8c6cecfcef908dcc4ba910b7f5969bd03dbf0e0d3adb297bf09cb7034967c"}, "tags": {"0.5--pyhdfd78af_0": "sha256:22f8c6cecfcef908dcc4ba910b7f5969bd03dbf0e0d3adb297bf09cb7034967c"}, "docker": "quay.io/biocontainers/sourcepredict", "aliases": {"h5delete": "/usr/local/bin/h5delete", "sourcepredict": "/usr/local/bin/sourcepredict", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
+config: {"url": "https://biocontainers.pro/tools/sourcepredict", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sourcepredict", "latest": {"0.5.1--pyhdfd78af_0": "sha256:ae40bd6bbb6272099bfb9192d97bcdceccc9d6bdcf321299a3ea236a359217ca"}, "tags": {"0.5--pyhdfd78af_0": "sha256:22f8c6cecfcef908dcc4ba910b7f5969bd03dbf0e0d3adb297bf09cb7034967c", "0.5.1--pyhdfd78af_0": "sha256:ae40bd6bbb6272099bfb9192d97bcdceccc9d6bdcf321299a3ea236a359217ca"}, "docker": "quay.io/biocontainers/sourcepredict", "aliases": {"h5delete": "/usr/local/bin/h5delete", "sourcepredict": "/usr/local/bin/sourcepredict", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sourcepredict.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/sourcepredict
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sourcepredict:0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sourcepredict:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sourcepredict/0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/sourcepredict/0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/sourcepredict/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/sourcepredict/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

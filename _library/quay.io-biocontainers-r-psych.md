@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-psych"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-psych/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-psych/container.yaml"
-updated_at: "2024-10-19 03:09:19.684801"
+updated_at: "2024-10-20 03:17:31.588499"
 latest: "crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout"
 container_url: "https://biocontainers.pro/tools/r-psych"
 aliases:

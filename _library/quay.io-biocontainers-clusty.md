@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/clusty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clusty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clusty/container.yaml"
-updated_at: "2024-10-19 03:36:52.520931"
-latest: "1.0.0--hdbdd923_1"
+updated_at: "2024-10-20 03:43:09.456977"
+latest: "1.1.1--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/clusty"
 aliases:
  - "clusty"
 versions:
  - "1.0.0--hdbdd923_1"
+ - "1.1.1--hdbdd923_0"
 description: "singularity registry hpc automated addition for clusty"
-config: {"url": "https://biocontainers.pro/tools/clusty", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clusty", "latest": {"1.0.0--hdbdd923_1": "sha256:d68ae51f541cd5d7dfa185c25770cbf4cd6f8e96ca1601c07a6ed3bfdbfbccdc"}, "tags": {"1.0.0--hdbdd923_1": "sha256:d68ae51f541cd5d7dfa185c25770cbf4cd6f8e96ca1601c07a6ed3bfdbfbccdc"}, "docker": "quay.io/biocontainers/clusty", "aliases": {"clusty": "/usr/local/bin/clusty"}}
+config: {"url": "https://biocontainers.pro/tools/clusty", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clusty", "latest": {"1.1.1--hdbdd923_0": "sha256:cc6213fb0b6b90e8845377727d19c0258ffc22124c4165d726b24ef983228175"}, "tags": {"1.0.0--hdbdd923_1": "sha256:d68ae51f541cd5d7dfa185c25770cbf4cd6f8e96ca1601c07a6ed3bfdbfbccdc", "1.1.1--hdbdd923_0": "sha256:cc6213fb0b6b90e8845377727d19c0258ffc22124c4165d726b24ef983228175"}, "docker": "quay.io/biocontainers/clusty", "aliases": {"clusty": "/usr/local/bin/clusty"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clusty.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/clusty
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clusty:1.0.0--hdbdd923_1
+$ shpc install quay.io/biocontainers/clusty:1.1.1--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clusty/1.0.0--hdbdd923_1
-$ module help quay.io/biocontainers/clusty/1.0.0--hdbdd923_1
+$ module load quay.io/biocontainers/clusty/1.1.1--hdbdd923_0
+$ module help quay.io/biocontainers/clusty/1.1.1--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

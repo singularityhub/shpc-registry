@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-facopy.annot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-facopy.annot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-facopy.annot/container.yaml"
-updated_at: "2024-10-19 03:03:54.105458"
+updated_at: "2024-10-20 03:12:07.121135"
 latest: "1.6.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-facopy.annot"
 aliases:

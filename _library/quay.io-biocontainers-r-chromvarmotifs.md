@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-chromvarmotifs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
-updated_at: "2024-10-19 03:30:02.782641"
+updated_at: "2024-10-20 03:36:47.059190"
 latest: "0.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-chromvarmotifs"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
+ - "0.2.0--r42hdfd78af_0"
 description: "singularity registry hpc automated addition for r-chromvarmotifs"
-config: {"url": "https://biocontainers.pro/tools/r-chromvarmotifs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromvarmotifs", "latest": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce"}, "docker": "quay.io/biocontainers/r-chromvarmotifs"}
+config: {"url": "https://biocontainers.pro/tools/r-chromvarmotifs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromvarmotifs", "latest": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce", "0.2.0--r42hdfd78af_0": "sha256:e698b59642ca9d5c624139798614bf4c1704ce7e36eb88eaacb72ca8e9b7f2a2"}, "docker": "quay.io/biocontainers/r-chromvarmotifs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-chromvarmotifs.

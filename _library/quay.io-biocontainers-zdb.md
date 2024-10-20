@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zdb/container.yaml"
-updated_at: "2024-10-19 03:04:49.064085"
+updated_at: "2024-10-20 03:13:02.197355"
 latest: "1.3.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zdb"
 aliases:

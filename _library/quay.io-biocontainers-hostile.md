@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hostile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hostile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hostile/container.yaml"
-updated_at: "2024-10-19 03:32:06.499106"
+updated_at: "2024-10-20 03:38:42.236051"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hostile"
 aliases:
