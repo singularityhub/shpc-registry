@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/confindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/confindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/confindr/container.yaml"
-updated_at: "2024-10-20 03:15:31.859328"
+updated_at: "2024-10-21 03:14:19.572744"
 latest: "0.8.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/confindr"
 aliases:

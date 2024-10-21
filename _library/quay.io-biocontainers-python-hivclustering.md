@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-hivclustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-hivclustering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-hivclustering/container.yaml"
-updated_at: "2024-10-20 03:24:43.984969"
-latest: "1.6.8--pyhdfd78af_0"
+updated_at: "2024-10-21 03:23:56.649659"
+latest: "1.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/python-hivclustering"
 aliases:
  - "TNS"
@@ -37,8 +37,9 @@ versions:
  - "1.6.5--pyhdfd78af_0"
  - "1.6.7--pyhdfd78af_0"
  - "1.6.8--pyhdfd78af_0"
+ - "1.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for python-hivclustering"
-config: {"url": "https://biocontainers.pro/tools/python-hivclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hivclustering", "latest": {"1.6.8--pyhdfd78af_0": "sha256:1b7394513b6aaf6880abb8b8cff05fbc8b6167f120e7b313525d925dc2592e6a"}, "tags": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf", "1.6.5--pyhdfd78af_0": "sha256:50fea2e62f2d42dd74b9e16f03f0c21036d63f24db22e642a10e3339bca54990", "1.6.7--pyhdfd78af_0": "sha256:afb5c0fc23e8330afe6398042c46ef9576e6ca2fab4f8d49fc24e0f9d18c81ec", "1.6.8--pyhdfd78af_0": "sha256:1b7394513b6aaf6880abb8b8cff05fbc8b6167f120e7b313525d925dc2592e6a"}, "docker": "quay.io/biocontainers/python-hivclustering", "aliases": {"TNS": "/usr/local/bin/TNS", "bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "ccache-swig": "/usr/local/bin/ccache-swig", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "hivnetworkannotate": "/usr/local/bin/hivnetworkannotate", "hivnetworkcsv": "/usr/local/bin/hivnetworkcsv", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "swig": "/usr/local/bin/swig", "translate": "/usr/local/bin/translate", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/python-hivclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hivclustering", "latest": {"1.8.0--pyhdfd78af_0": "sha256:998124087261fced20ab080bf6d602ce6f554cbc33f7cf20f50366053fc31891"}, "tags": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf", "1.6.5--pyhdfd78af_0": "sha256:50fea2e62f2d42dd74b9e16f03f0c21036d63f24db22e642a10e3339bca54990", "1.6.7--pyhdfd78af_0": "sha256:afb5c0fc23e8330afe6398042c46ef9576e6ca2fab4f8d49fc24e0f9d18c81ec", "1.6.8--pyhdfd78af_0": "sha256:1b7394513b6aaf6880abb8b8cff05fbc8b6167f120e7b313525d925dc2592e6a", "1.8.0--pyhdfd78af_0": "sha256:998124087261fced20ab080bf6d602ce6f554cbc33f7cf20f50366053fc31891"}, "docker": "quay.io/biocontainers/python-hivclustering", "aliases": {"TNS": "/usr/local/bin/TNS", "bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "ccache-swig": "/usr/local/bin/ccache-swig", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "hivnetworkannotate": "/usr/local/bin/hivnetworkannotate", "hivnetworkcsv": "/usr/local/bin/hivnetworkcsv", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "swig": "/usr/local/bin/swig", "translate": "/usr/local/bin/translate", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-hivclustering.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/python-hivclustering
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-hivclustering:1.6.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/python-hivclustering:1.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-hivclustering/1.6.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/python-hivclustering/1.6.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/python-hivclustering/1.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/python-hivclustering/1.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

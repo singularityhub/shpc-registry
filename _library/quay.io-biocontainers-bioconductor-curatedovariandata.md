@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedovariandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedovariandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedovariandata/container.yaml"
-updated_at: "2024-10-20 03:32:29.274960"
+updated_at: "2024-10-21 03:32:00.230674"
 latest: "1.40.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedovariandata"
 

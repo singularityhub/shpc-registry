@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopenms/container.yaml"
-updated_at: "2024-10-20 03:10:21.392120"
+updated_at: "2024-10-21 03:08:56.949632"
 latest: "3.1.0--py310h9b8898c_0"
 container_url: "https://biocontainers.pro/tools/pyopenms"
 aliases:

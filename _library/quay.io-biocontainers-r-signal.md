@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-signal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-signal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-signal/container.yaml"
-updated_at: "2024-10-20 03:19:00.420959"
+updated_at: "2024-10-21 03:17:58.223789"
 latest: "0.7_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-signal"
 aliases:

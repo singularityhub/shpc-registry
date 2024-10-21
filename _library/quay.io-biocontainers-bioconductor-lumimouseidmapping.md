@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumimouseidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumimouseidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumimouseidmapping/container.yaml"
-updated_at: "2024-10-20 03:32:13.350685"
+updated_at: "2024-10-21 03:31:43.884428"
 latest: "1.10.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumimouseidmapping"
 

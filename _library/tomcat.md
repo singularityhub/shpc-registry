@@ -4,8 +4,8 @@ name:  "tomcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/tomcat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/tomcat/container.yaml"
-updated_at: "2024-10-20 03:46:33.270652"
-latest: "11.0"
+updated_at: "2024-10-21 03:46:25.464540"
+latest: "11-jdk21"
 container_url: "https://hub.docker.com/_/tomcat"
 
 versions:
@@ -23,8 +23,10 @@ versions:
  - "11.0"
  - "10-jdk21-openjdk"
  - "10-jdk21"
+ - "11"
+ - "11-jdk21"
 description: "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies"
-config: {"docker": "tomcat", "url": "https://hub.docker.com/_/tomcat", "maintainer": "@vsoch", "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies", "filter": ["^(?!jdk1[1-7]).*$"], "latest": {"11.0": "sha256:f36ccaf3117b1c825f26a7d0c1adad700c4a4e8146bee6fa812eb9c1e8dbba29"}, "tags": {"10.0.5-jdk11-adoptopenjdk-hotspot": "sha256:a7418f29d3dd7ad20bcf052b3b6dc2777d118344286c6374bc447fb217a97c08", "10.0.6-jdk11-adoptopenjdk-hotspot": "sha256:c0019c8254bc1017f64e6ffd1612e25b50abca78d98d25f9ff8023e8999f0384", "10.0.7-jdk11-adoptopenjdk-hotspot": "sha256:d75c50123194e5533dd8b397175fab79c9dff69ed5c0bada70be5dff6d8fcc6d", "10.0.8-jdk11-adoptopenjdk-hotspot": "sha256:98ae9e70b3bd2129c2ef83179c38bc902e613f433c6222c88b2c1a2f3bdfd1ec", "10.1.0": "sha256:741cbf2fb47000cf9d231657d1440c5e96dca9bb9175a985501d153cd6ae875d", "latest": "sha256:0298f25ea8171042fe610457ff0fd72382d36a144eae4483e2784bbbae31d68b", "10": "sha256:0298f25ea8171042fe610457ff0fd72382d36a144eae4483e2784bbbae31d68b", "10-jdk17": "sha256:015fd8c5cea4c039eb9437d1fde33bbaa417374c63d91e8a2b65eb8cf824e398", "10-jdk16": "sha256:06894e19b914a4e491580d54091ac248d53b0c4c474ff9e55e97e27d9adb45d5", "10-jdk15": "sha256:822bc61a43b972b5f784af5f8f40ce077399c06cfa724fc1cd60ea687f5d9828", "10-jdk14": "sha256:e97bde5b2bba850a96ba59b5500e9448216c989c0061a4e7e5c8d9d64185a36e", "11.0": "sha256:f36ccaf3117b1c825f26a7d0c1adad700c4a4e8146bee6fa812eb9c1e8dbba29", "10-jdk21-openjdk": "sha256:33e5dab5e662882c87c87813a5a4709c9cc918b7388304b60781c0521ca6e7f2", "10-jdk21": "sha256:0298f25ea8171042fe610457ff0fd72382d36a144eae4483e2784bbbae31d68b"}}
+config: {"docker": "tomcat", "url": "https://hub.docker.com/_/tomcat", "maintainer": "@vsoch", "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies", "filter": ["^(?!jdk1[1-7]).*$"], "latest": {"11-jdk21": "sha256:f46d3d7f37cdd4c0e25940bf0cb6df07ee222728b921292a3a53fc058b73f348"}, "tags": {"10.0.5-jdk11-adoptopenjdk-hotspot": "sha256:a7418f29d3dd7ad20bcf052b3b6dc2777d118344286c6374bc447fb217a97c08", "10.0.6-jdk11-adoptopenjdk-hotspot": "sha256:c0019c8254bc1017f64e6ffd1612e25b50abca78d98d25f9ff8023e8999f0384", "10.0.7-jdk11-adoptopenjdk-hotspot": "sha256:d75c50123194e5533dd8b397175fab79c9dff69ed5c0bada70be5dff6d8fcc6d", "10.0.8-jdk11-adoptopenjdk-hotspot": "sha256:98ae9e70b3bd2129c2ef83179c38bc902e613f433c6222c88b2c1a2f3bdfd1ec", "10.1.0": "sha256:741cbf2fb47000cf9d231657d1440c5e96dca9bb9175a985501d153cd6ae875d", "latest": "sha256:f46d3d7f37cdd4c0e25940bf0cb6df07ee222728b921292a3a53fc058b73f348", "10": "sha256:a51a6a0a68a289359a205d9bc35bfe66648de7b94efba2314bdb994367f6bc6b", "10-jdk17": "sha256:13d6c562f4a6d96c435528cfca188a67cc8214c6860358afb248129c76278727", "10-jdk16": "sha256:06894e19b914a4e491580d54091ac248d53b0c4c474ff9e55e97e27d9adb45d5", "10-jdk15": "sha256:822bc61a43b972b5f784af5f8f40ce077399c06cfa724fc1cd60ea687f5d9828", "10-jdk14": "sha256:e97bde5b2bba850a96ba59b5500e9448216c989c0061a4e7e5c8d9d64185a36e", "11.0": "sha256:f46d3d7f37cdd4c0e25940bf0cb6df07ee222728b921292a3a53fc058b73f348", "10-jdk21-openjdk": "sha256:33e5dab5e662882c87c87813a5a4709c9cc918b7388304b60781c0521ca6e7f2", "10-jdk21": "sha256:a51a6a0a68a289359a205d9bc35bfe66648de7b94efba2314bdb994367f6bc6b", "11": "sha256:f46d3d7f37cdd4c0e25940bf0cb6df07ee222728b921292a3a53fc058b73f348", "11-jdk21": "sha256:f46d3d7f37cdd4c0e25940bf0cb6df07ee222728b921292a3a53fc058b73f348"}}
 ---
 
 This module is a singularity container wrapper for tomcat.
@@ -39,7 +41,7 @@ $ shpc install tomcat
 Or a specific version:
 
 ```bash
-$ shpc install tomcat:11.0
+$ shpc install tomcat:11-jdk21
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load tomcat/11.0
-$ module help tomcat/11.0
+$ module load tomcat/11-jdk21
+$ module help tomcat/11-jdk21
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

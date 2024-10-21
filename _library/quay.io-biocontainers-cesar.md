@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cesar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cesar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cesar/container.yaml"
-updated_at: "2024-10-20 03:35:20.052705"
+updated_at: "2024-10-21 03:34:54.320494"
 latest: "1.01--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/cesar"
 aliases:

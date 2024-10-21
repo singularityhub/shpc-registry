@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kinship2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kinship2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kinship2/container.yaml"
-updated_at: "2024-10-20 03:40:00.641933"
+updated_at: "2024-10-21 03:39:41.547460"
 latest: "1.6.4--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-kinship2"
 aliases:
