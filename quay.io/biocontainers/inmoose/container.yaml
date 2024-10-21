@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/inmoose
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for inmoose
+latest:
+  0.7.2--py310h24e864b_0: sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f
+tags:
+  0.7.2--py310h24e864b_0: sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f
+docker: quay.io/biocontainers/inmoose
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  natsort: /usr/local/bin/natsort
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tjbench: /usr/local/bin/tjbench
+  brotli: /usr/local/bin/brotli
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug

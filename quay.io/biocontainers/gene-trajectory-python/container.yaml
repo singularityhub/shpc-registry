@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/gene-trajectory-python
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gene-trajectory-python
+latest:
+  1.0.4--pyhdfd78af_0: sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
+tags:
+  1.0.4--pyhdfd78af_0: sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
+docker: quay.io/biocontainers/gene-trajectory-python
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  igraph: /usr/local/bin/igraph
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  scanpy: /usr/local/bin/scanpy
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  h5delete: /usr/local/bin/h5delete
