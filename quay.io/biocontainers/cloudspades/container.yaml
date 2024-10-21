@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/cloudspades
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cloudspades
+latest:
+  3.16.0--h6dccd9a_2: sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c
+tags:
+  3.16.0--h6dccd9a_2: sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c
+docker: quay.io/biocontainers/cloudspades
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  spades-convert-bin-to-fasta: /usr/local/bin/spades-convert-bin-to-fasta
+  spades-gsimplifier: /usr/local/bin/spades-gsimplifier
+  spades-kmer-estimating: /usr/local/bin/spades-kmer-estimating
+  spades-read-filter: /usr/local/bin/spades-read-filter
+  spades-bwa: /usr/local/bin/spades-bwa
+  spades-core: /usr/local/bin/spades-core
+  spades-corrector-core: /usr/local/bin/spades-corrector-core
+  spades-gbuilder: /usr/local/bin/spades-gbuilder
+  spades-gmapper: /usr/local/bin/spades-gmapper
+  spades-hammer: /usr/local/bin/spades-hammer
+  spades-ionhammer: /usr/local/bin/spades-ionhammer
+  spades-kmercount: /usr/local/bin/spades-kmercount
+  metaspades.py: /usr/local/bin/metaspades.py
+  plasmidspades.py: /usr/local/bin/plasmidspades.py
+  rnaspades.py: /usr/local/bin/rnaspades.py
+  spades.py: /usr/local/bin/spades.py
+  spades_init.py: /usr/local/bin/spades_init.py
