@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-smap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-smap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-smap/container.yaml"
-updated_at: "2024-10-21 03:43:20.012864"
+updated_at: "2024-10-21 03:50:20.128249"
 latest: "5.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-smap"
 aliases:

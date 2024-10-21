@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/saspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saspector/container.yaml"
-updated_at: "2024-10-21 03:03:10.541090"
+updated_at: "2024-10-21 03:12:06.697493"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/saspector"
 aliases:

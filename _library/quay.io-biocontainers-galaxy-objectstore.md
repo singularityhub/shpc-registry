@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-objectstore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
-updated_at: "2024-10-21 03:43:37.187504"
+updated_at: "2024-10-21 03:50:36.855146"
 latest: "24.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-objectstore"
 aliases:

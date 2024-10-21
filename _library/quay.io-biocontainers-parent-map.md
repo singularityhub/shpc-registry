@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parent-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parent-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parent-map/container.yaml"
-updated_at: "2024-10-21 03:33:10.109510"
+updated_at: "2024-10-21 03:40:32.154897"
 latest: "1.1.2--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/parent-map"
 aliases:

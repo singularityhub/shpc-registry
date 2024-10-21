@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-extract-use"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-extract-use/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-extract-use/container.yaml"
-updated_at: "2024-10-21 03:42:36.545513"
+updated_at: "2024-10-21 03:49:37.690851"
 latest: "1.043--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-module-extract-use"
 aliases:
