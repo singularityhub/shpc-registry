@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orthofinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthofinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthofinder/container.yaml"
-updated_at: "2024-10-21 03:36:04.050362"
-latest: "2.5.5--hdfd78af_2"
+updated_at: "2024-10-22 03:25:31.762295"
+latest: "3.0.1b1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orthofinder"
 aliases:
  - "convert_orthofinder_tree_ids.py"
@@ -31,8 +31,9 @@ versions:
  - "2.5.5--hdfd78af_0"
  - "2.5.5--hdfd78af_1"
  - "2.5.5--hdfd78af_2"
+ - "3.0.1b1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for orthofinder"
-config: {"url": "https://biocontainers.pro/tools/orthofinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orthofinder", "latest": {"2.5.5--hdfd78af_2": "sha256:e8b23ee8908a249b42d2f6fc403bef557fc9f529a9eee650cc8e3c2a91d25180"}, "tags": {"2.5.4--hdfd78af_0": "sha256:d71c5b9c9661e3ca7a612f9109a9f57627a2edecd418e8472608c3c0ef05ef5c", "2.5.5--hdfd78af_0": "sha256:bd66e60d628b9fa9f776964e690937fbe62b06b3bdb4fe86de9ec1f3c42a74e0", "2.5.5--hdfd78af_1": "sha256:f036538ad1a3d0d587ead34ca661062a4bdf49e42e5e0b0aa09c11b8d21feb44", "2.5.5--hdfd78af_2": "sha256:e8b23ee8908a249b42d2f6fc403bef557fc9f529a9eee650cc8e3c2a91d25180"}, "docker": "quay.io/biocontainers/orthofinder", "aliases": {"convert_orthofinder_tree_ids.py": "/usr/local/bin/convert_orthofinder_tree_ids.py", "fastme": "/usr/local/bin/fastme", "iqtree2": "/usr/local/bin/iqtree2", "make_ultrametric.py": "/usr/local/bin/make_ultrametric.py", "orthofinder": "/usr/local/bin/orthofinder", "primary_transcript.py": "/usr/local/bin/primary_transcript.py", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "iqtree": "/usr/local/bin/iqtree", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
+config: {"url": "https://biocontainers.pro/tools/orthofinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orthofinder", "latest": {"3.0.1b1--hdfd78af_0": "sha256:2873a5b1c510082671ca46d393297bf947e5333a1bb8a4f74b426ba20fd705fe"}, "tags": {"2.5.4--hdfd78af_0": "sha256:d71c5b9c9661e3ca7a612f9109a9f57627a2edecd418e8472608c3c0ef05ef5c", "2.5.5--hdfd78af_0": "sha256:bd66e60d628b9fa9f776964e690937fbe62b06b3bdb4fe86de9ec1f3c42a74e0", "2.5.5--hdfd78af_1": "sha256:f036538ad1a3d0d587ead34ca661062a4bdf49e42e5e0b0aa09c11b8d21feb44", "2.5.5--hdfd78af_2": "sha256:e8b23ee8908a249b42d2f6fc403bef557fc9f529a9eee650cc8e3c2a91d25180", "3.0.1b1--hdfd78af_0": "sha256:2873a5b1c510082671ca46d393297bf947e5333a1bb8a4f74b426ba20fd705fe"}, "docker": "quay.io/biocontainers/orthofinder", "aliases": {"convert_orthofinder_tree_ids.py": "/usr/local/bin/convert_orthofinder_tree_ids.py", "fastme": "/usr/local/bin/fastme", "iqtree2": "/usr/local/bin/iqtree2", "make_ultrametric.py": "/usr/local/bin/make_ultrametric.py", "orthofinder": "/usr/local/bin/orthofinder", "primary_transcript.py": "/usr/local/bin/primary_transcript.py", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "iqtree": "/usr/local/bin/iqtree", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orthofinder.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/orthofinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orthofinder:2.5.5--hdfd78af_2
+$ shpc install quay.io/biocontainers/orthofinder:3.0.1b1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orthofinder/2.5.5--hdfd78af_2
-$ module help quay.io/biocontainers/orthofinder/2.5.5--hdfd78af_2
+$ module load quay.io/biocontainers/orthofinder/3.0.1b1--hdfd78af_0
+$ module help quay.io/biocontainers/orthofinder/3.0.1b1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

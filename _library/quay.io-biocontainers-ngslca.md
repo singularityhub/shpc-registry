@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngslca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngslca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngslca/container.yaml"
-updated_at: "2024-10-21 03:36:05.168447"
+updated_at: "2024-10-22 03:25:32.942302"
 latest: "1.0.5--hf5e1c6e_3"
 container_url: "https://biocontainers.pro/tools/ngslca"
 aliases:

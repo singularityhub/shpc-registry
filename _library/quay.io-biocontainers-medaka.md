@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/medaka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medaka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medaka/container.yaml"
-updated_at: "2024-10-21 03:06:58.260980"
-latest: "2.0.0--py311hfd2b166_0"
+updated_at: "2024-10-22 02:54:48.796957"
+latest: "2.0.1--py38h8774169_0"
 container_url: "https://biocontainers.pro/tools/medaka"
 aliases:
  - "check_compression"
@@ -41,8 +41,9 @@ versions:
  - "1.7.2--py38h6239ad4_1"
  - "1.6.1--py38h84d2cc8_2"
  - "2.0.0--py311hfd2b166_0"
+ - "2.0.1--py38h8774169_0"
 description: "shpc-registry automated BioContainers addition for medaka"
-config: {"url": "https://biocontainers.pro/tools/medaka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medaka", "latest": {"2.0.0--py311hfd2b166_0": "sha256:8d2a21ca0f28b18187f690995bc8bc58394495515b31d843613644570da8903a"}, "tags": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8", "1.11.3--py39h05d5c5e_0": "sha256:ac4af46fe8046c60f78f72aad077e445319d1b8b985288e9460ae5fbe846c326", "1.10.0--py310h87e71ce_0": "sha256:42f43198c4ac7429eb09d1aa9fa89ed07f0d7c0ea547c6166e50cbfba0140e47", "1.8.0--py38hdaa7744_0": "sha256:777dc707f163a3b56b5e18f066cfac3c3fc96ef029332e7c0bdd1db81ada412f", "1.7.2--py38h6239ad4_1": "sha256:0b62b4b1162d74865ddd9480c2165592e2eca51d3819afcc16b9904824251e11", "1.6.1--py38h84d2cc8_2": "sha256:6d250f5507e74b0b613ecf16949df43b609b00f0ce5b458cf4ff2890b2870c8b", "2.0.0--py311hfd2b166_0": "sha256:8d2a21ca0f28b18187f690995bc8bc58394495515b31d843613644570da8903a"}, "docker": "quay.io/biocontainers/medaka", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "minimap2.py": "/usr/local/bin/minimap2.py", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tar": "/usr/local/bin/tar", "igzip": "/usr/local/bin/igzip", "gff2gff.py": "/usr/local/bin/gff2gff.py", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco"}}
+config: {"url": "https://biocontainers.pro/tools/medaka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medaka", "latest": {"2.0.1--py38h8774169_0": "sha256:ddd58ae50f9c77db7c62b72a8cafc3d6284b3596bc05715897e7bc1c9bb1fcc7"}, "tags": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8", "1.11.3--py39h05d5c5e_0": "sha256:ac4af46fe8046c60f78f72aad077e445319d1b8b985288e9460ae5fbe846c326", "1.10.0--py310h87e71ce_0": "sha256:42f43198c4ac7429eb09d1aa9fa89ed07f0d7c0ea547c6166e50cbfba0140e47", "1.8.0--py38hdaa7744_0": "sha256:777dc707f163a3b56b5e18f066cfac3c3fc96ef029332e7c0bdd1db81ada412f", "1.7.2--py38h6239ad4_1": "sha256:0b62b4b1162d74865ddd9480c2165592e2eca51d3819afcc16b9904824251e11", "1.6.1--py38h84d2cc8_2": "sha256:6d250f5507e74b0b613ecf16949df43b609b00f0ce5b458cf4ff2890b2870c8b", "2.0.0--py311hfd2b166_0": "sha256:8d2a21ca0f28b18187f690995bc8bc58394495515b31d843613644570da8903a", "2.0.1--py38h8774169_0": "sha256:ddd58ae50f9c77db7c62b72a8cafc3d6284b3596bc05715897e7bc1c9bb1fcc7"}, "docker": "quay.io/biocontainers/medaka", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "minimap2.py": "/usr/local/bin/minimap2.py", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tar": "/usr/local/bin/tar", "igzip": "/usr/local/bin/igzip", "gff2gff.py": "/usr/local/bin/gff2gff.py", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/medaka.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/medaka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/medaka:2.0.0--py311hfd2b166_0
+$ shpc install quay.io/biocontainers/medaka:2.0.1--py38h8774169_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/medaka/2.0.0--py311hfd2b166_0
-$ module help quay.io/biocontainers/medaka/2.0.0--py311hfd2b166_0
+$ module load quay.io/biocontainers/medaka/2.0.1--py38h8774169_0
+$ module help quay.io/biocontainers/medaka/2.0.1--py38h8774169_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmer-db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer-db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmer-db/container.yaml"
-updated_at: "2024-10-21 03:50:15.352996"
-latest: "1.11.1--hdcf5f25_2"
+updated_at: "2024-10-22 03:40:08.871083"
+latest: "2.2.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/kmer-db"
 aliases:
  - "kmer-db"
@@ -13,8 +13,9 @@ versions:
  - "1.9.4--hd03093a_1"
  - "1.11.1--hd03093a_0"
  - "1.11.1--hdcf5f25_2"
+ - "2.2.2--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for kmer-db"
-config: {"url": "https://biocontainers.pro/tools/kmer-db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-db", "latest": {"1.11.1--hdcf5f25_2": "sha256:dd7887758d4459f5390a978acb3d2be9aee1be106f23a95b6a2cbfa7cbfc0031"}, "tags": {"1.9.4--hd03093a_1": "sha256:88e69e42a7990d16651420b61616795fa82e01f1947ddceb9765756384db3346", "1.11.1--hd03093a_0": "sha256:aea5183fa63441fcf90e265c58bdf11156d429bf416e7ad15781fce078d79774", "1.11.1--hdcf5f25_2": "sha256:dd7887758d4459f5390a978acb3d2be9aee1be106f23a95b6a2cbfa7cbfc0031"}, "docker": "quay.io/biocontainers/kmer-db", "aliases": {"kmer-db": "/usr/local/bin/kmer-db"}}
+config: {"url": "https://biocontainers.pro/tools/kmer-db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-db", "latest": {"2.2.2--h9ee0642_0": "sha256:d9b7bec14f9d5ad78179e80beff399691d7fceb080dc93e9e0249cc0deab11c9"}, "tags": {"1.9.4--hd03093a_1": "sha256:88e69e42a7990d16651420b61616795fa82e01f1947ddceb9765756384db3346", "1.11.1--hd03093a_0": "sha256:aea5183fa63441fcf90e265c58bdf11156d429bf416e7ad15781fce078d79774", "1.11.1--hdcf5f25_2": "sha256:dd7887758d4459f5390a978acb3d2be9aee1be106f23a95b6a2cbfa7cbfc0031", "2.2.2--h9ee0642_0": "sha256:d9b7bec14f9d5ad78179e80beff399691d7fceb080dc93e9e0249cc0deab11c9"}, "docker": "quay.io/biocontainers/kmer-db", "aliases": {"kmer-db": "/usr/local/bin/kmer-db"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmer-db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kmer-db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmer-db:1.11.1--hdcf5f25_2
+$ shpc install quay.io/biocontainers/kmer-db:2.2.2--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmer-db/1.11.1--hdcf5f25_2
-$ module help quay.io/biocontainers/kmer-db/1.11.1--hdcf5f25_2
+$ module load quay.io/biocontainers/kmer-db/2.2.2--h9ee0642_0
+$ module help quay.io/biocontainers/kmer-db/2.2.2--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
