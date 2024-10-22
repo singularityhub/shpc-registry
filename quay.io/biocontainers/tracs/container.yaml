@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tracs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tracs
 latest:
-  1.0.0--py312h43eeafb_0: sha256:e8be8e8fc5b746ff8785822510f0f0d70c0f82e6c87dfb12250f384a71d2f3ed
+  1.0.1--py312h43eeafb_1: sha256:129d0d4f0daef1ec00c798036a4da50462ceea9aa88e354814191fb62c94cf64
 tags:
   1.0.0--py312h43eeafb_0: sha256:e8be8e8fc5b746ff8785822510f0f0d70c0f82e6c87dfb12250f384a71d2f3ed
+  1.0.1--py312h43eeafb_1: sha256:129d0d4f0daef1ec00c798036a4da50462ceea9aa88e354814191fb62c94cf64
 docker: quay.io/biocontainers/tracs
 aliases:
   gimme_taxa.py: /usr/local/bin/gimme_taxa.py
