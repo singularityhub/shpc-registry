@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/catfasta2phyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catfasta2phyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catfasta2phyml/container.yaml"
-updated_at: "2024-10-22 03:31:53.578512"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2024-10-23 03:29:02.810074"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/catfasta2phyml"
 aliases:
  - "catfasta2phyml"
 versions:
  - "1.2.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for catfasta2phyml"
-config: {"url": "https://biocontainers.pro/tools/catfasta2phyml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for catfasta2phyml", "latest": {"1.2.0--hdfd78af_0": "sha256:3f950b0242e2aace28f6bd9ea441309085c56ab9a4d762ba60dd3d9c7362034d"}, "tags": {"1.2.0--hdfd78af_0": "sha256:3f950b0242e2aace28f6bd9ea441309085c56ab9a4d762ba60dd3d9c7362034d"}, "docker": "quay.io/biocontainers/catfasta2phyml", "aliases": {"catfasta2phyml": "/usr/local/bin/catfasta2phyml"}}
+config: {"url": "https://biocontainers.pro/tools/catfasta2phyml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for catfasta2phyml", "latest": {"1.2.1--hdfd78af_0": "sha256:bb903db6eecae77b4d7296bee9d461c25be40b2ee64460c83771a3cc7ceb9374"}, "tags": {"1.2.0--hdfd78af_0": "sha256:3f950b0242e2aace28f6bd9ea441309085c56ab9a4d762ba60dd3d9c7362034d", "1.2.1--hdfd78af_0": "sha256:bb903db6eecae77b4d7296bee9d461c25be40b2ee64460c83771a3cc7ceb9374"}, "docker": "quay.io/biocontainers/catfasta2phyml", "aliases": {"catfasta2phyml": "/usr/local/bin/catfasta2phyml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/catfasta2phyml.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/catfasta2phyml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/catfasta2phyml:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/catfasta2phyml:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/catfasta2phyml/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/catfasta2phyml/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/catfasta2phyml/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/catfasta2phyml/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

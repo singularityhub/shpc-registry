@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libcifpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libcifpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libcifpp/container.yaml"
-updated_at: "2024-10-22 03:28:34.319054"
-latest: "7.0.5--h43eeafb_0"
+updated_at: "2024-10-23 03:25:51.128381"
+latest: "7.0.7--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/libcifpp"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "7.0.4--h2202e69_0"
  - "7.0.4--h43eeafb_1"
  - "7.0.5--h43eeafb_0"
+ - "7.0.7--h43eeafb_0"
 description: "singularity registry hpc automated addition for libcifpp"
-config: {"url": "https://biocontainers.pro/tools/libcifpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libcifpp", "latest": {"7.0.5--h43eeafb_0": "sha256:99f1431883aa04214e90d2ea50f43efa974a997b91d108d433b30f90f017bb25"}, "tags": {"5.0.0--h46c59ee_0": "sha256:339abdd36e61aeb29221d0de8d0ceb05f96eec657ca3ffb0d4ba86cb568f2734", "5.0.0--hd9a51b5_2": "sha256:f5870c8cea236d1e532de1024f55ec92a8b0b29cc2e4e55b2b5609cf42578cef", "7.0.4--h2202e69_0": "sha256:6111bbf564d63390387efc6c9652b409594587ab8fdd120169463ed5e21b8142", "7.0.4--h43eeafb_1": "sha256:d6b7ca791e5c1d30fd8797323dd8b6599bc3df4f1c0d82ce094cd7f997691798", "7.0.5--h43eeafb_0": "sha256:99f1431883aa04214e90d2ea50f43efa974a997b91d108d433b30f90f017bb25"}, "docker": "quay.io/biocontainers/libcifpp"}
+config: {"url": "https://biocontainers.pro/tools/libcifpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libcifpp", "latest": {"7.0.7--h43eeafb_0": "sha256:764fc4263a884bed707e77270fe40679ca1c9ee5fa733e89125a48fd5c8e9406"}, "tags": {"5.0.0--h46c59ee_0": "sha256:339abdd36e61aeb29221d0de8d0ceb05f96eec657ca3ffb0d4ba86cb568f2734", "5.0.0--hd9a51b5_2": "sha256:f5870c8cea236d1e532de1024f55ec92a8b0b29cc2e4e55b2b5609cf42578cef", "7.0.4--h2202e69_0": "sha256:6111bbf564d63390387efc6c9652b409594587ab8fdd120169463ed5e21b8142", "7.0.4--h43eeafb_1": "sha256:d6b7ca791e5c1d30fd8797323dd8b6599bc3df4f1c0d82ce094cd7f997691798", "7.0.5--h43eeafb_0": "sha256:99f1431883aa04214e90d2ea50f43efa974a997b91d108d433b30f90f017bb25", "7.0.7--h43eeafb_0": "sha256:764fc4263a884bed707e77270fe40679ca1c9ee5fa733e89125a48fd5c8e9406"}, "docker": "quay.io/biocontainers/libcifpp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libcifpp.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/libcifpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libcifpp:7.0.5--h43eeafb_0
+$ shpc install quay.io/biocontainers/libcifpp:7.0.7--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libcifpp/7.0.5--h43eeafb_0
-$ module help quay.io/biocontainers/libcifpp/7.0.5--h43eeafb_0
+$ module load quay.io/biocontainers/libcifpp/7.0.7--h43eeafb_0
+$ module help quay.io/biocontainers/libcifpp/7.0.7--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

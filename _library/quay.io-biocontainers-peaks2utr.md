@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peaks2utr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peaks2utr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peaks2utr/container.yaml"
-updated_at: "2024-10-22 02:57:59.715874"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2024-10-23 02:56:24.989189"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peaks2utr"
 aliases:
  - "macs2"
@@ -41,8 +41,10 @@ versions:
  - "1.2.5--pyhdfd78af_0"
  - "1.2.6--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
+ - "1.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for peaks2utr"
-config: {"url": "https://biocontainers.pro/tools/peaks2utr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peaks2utr", "latest": {"1.3.0--pyhdfd78af_0": "sha256:a35e1901be344778fd6149c5d3cb97e7efbcacba084f1dca1cbe937d572c9a28"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:e0d83f0e33b5b559e14f1a7abcdb77b43161711a0e813db4ae2358ea83708b92", "1.2.5--pyhdfd78af_0": "sha256:39626a0a452eea6af2657891d9d77176186971a21bd43ee912a0728ec6f8aedb", "1.2.6--pyhdfd78af_0": "sha256:a55e14d2b3f77184a68fe4d4037515d0c5d755c6bc7e582b2f045fa9cf19156c", "1.3.0--pyhdfd78af_0": "sha256:a35e1901be344778fd6149c5d3cb97e7efbcacba084f1dca1cbe937d572c9a28"}, "docker": "quay.io/biocontainers/peaks2utr", "aliases": {"macs2": "/usr/local/bin/macs2", "peaks2utr": "/usr/local/bin/peaks2utr", "peaks2utr-demo": "/usr/local/bin/peaks2utr-demo", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap"}}
+config: {"url": "https://biocontainers.pro/tools/peaks2utr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peaks2utr", "latest": {"1.4.0--pyhdfd78af_0": "sha256:2494a78331eebdeb7cae01ea1538d6f11a43c7ebb163eadfced2d1f474251e3a"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:e0d83f0e33b5b559e14f1a7abcdb77b43161711a0e813db4ae2358ea83708b92", "1.2.5--pyhdfd78af_0": "sha256:39626a0a452eea6af2657891d9d77176186971a21bd43ee912a0728ec6f8aedb", "1.2.6--pyhdfd78af_0": "sha256:a55e14d2b3f77184a68fe4d4037515d0c5d755c6bc7e582b2f045fa9cf19156c", "1.3.0--pyhdfd78af_0": "sha256:a35e1901be344778fd6149c5d3cb97e7efbcacba084f1dca1cbe937d572c9a28", "1.4.0--pyhdfd78af_0": "sha256:2494a78331eebdeb7cae01ea1538d6f11a43c7ebb163eadfced2d1f474251e3a", "1.3.3--pyhdfd78af_0": "sha256:69c99dbd57d0bcd48a58229803a96687d605e9d0fcbfb1d95294e30e774b212b"}, "docker": "quay.io/biocontainers/peaks2utr", "aliases": {"macs2": "/usr/local/bin/macs2", "peaks2utr": "/usr/local/bin/peaks2utr", "peaks2utr-demo": "/usr/local/bin/peaks2utr-demo", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peaks2utr.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/peaks2utr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peaks2utr:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/peaks2utr:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peaks2utr/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/peaks2utr/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/peaks2utr/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/peaks2utr/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

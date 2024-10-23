@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tracs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracs/container.yaml"
-updated_at: "2024-10-22 03:23:27.141271"
-latest: "1.0.0--py312h43eeafb_0"
+updated_at: "2024-10-23 03:20:53.426605"
+latest: "1.0.1--py312h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/tracs"
 aliases:
  - "gimme_taxa.py"
@@ -39,8 +39,9 @@ aliases:
  - "ttx"
 versions:
  - "1.0.0--py312h43eeafb_0"
+ - "1.0.1--py312h43eeafb_1"
 description: "singularity registry hpc automated addition for tracs"
-config: {"url": "https://biocontainers.pro/tools/tracs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracs", "latest": {"1.0.0--py312h43eeafb_0": "sha256:e8be8e8fc5b746ff8785822510f0f0d70c0f82e6c87dfb12250f384a71d2f3ed"}, "tags": {"1.0.0--py312h43eeafb_0": "sha256:e8be8e8fc5b746ff8785822510f0f0d70c0f82e6c87dfb12250f384a71d2f3ed"}, "docker": "quay.io/biocontainers/tracs", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "htsbox": "/usr/local/bin/htsbox", "sourmash": "/usr/local/bin/sourmash", "tracs": "/usr/local/bin/tracs", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pyfastx": "/usr/local/bin/pyfastx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "screed": "/usr/local/bin/screed", "numpy-config": "/usr/local/bin/numpy-config", "annot-tsv": "/usr/local/bin/annot-tsv", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
+config: {"url": "https://biocontainers.pro/tools/tracs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracs", "latest": {"1.0.1--py312h43eeafb_1": "sha256:129d0d4f0daef1ec00c798036a4da50462ceea9aa88e354814191fb62c94cf64"}, "tags": {"1.0.0--py312h43eeafb_0": "sha256:e8be8e8fc5b746ff8785822510f0f0d70c0f82e6c87dfb12250f384a71d2f3ed", "1.0.1--py312h43eeafb_1": "sha256:129d0d4f0daef1ec00c798036a4da50462ceea9aa88e354814191fb62c94cf64"}, "docker": "quay.io/biocontainers/tracs", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "htsbox": "/usr/local/bin/htsbox", "sourmash": "/usr/local/bin/sourmash", "tracs": "/usr/local/bin/tracs", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pyfastx": "/usr/local/bin/pyfastx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "screed": "/usr/local/bin/screed", "numpy-config": "/usr/local/bin/numpy-config", "annot-tsv": "/usr/local/bin/annot-tsv", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tracs.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/tracs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tracs:1.0.0--py312h43eeafb_0
+$ shpc install quay.io/biocontainers/tracs:1.0.1--py312h43eeafb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tracs/1.0.0--py312h43eeafb_0
-$ module help quay.io/biocontainers/tracs/1.0.0--py312h43eeafb_0
+$ module load quay.io/biocontainers/tracs/1.0.1--py312h43eeafb_1
+$ module help quay.io/biocontainers/tracs/1.0.1--py312h43eeafb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
