@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/isoquant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for isoquant
 latest:
-  3.6.0--hdfd78af_0: sha256:c37e05f3acbf086dafc5f31d6ad75ada03d082cac02f06d7fda721d13b388656
+  3.6.1--hdfd78af_0: sha256:859ea03c767250c494b0d0743abdde4d34201a6298e4f57befdef032dcae5210
 tags:
   3.0.1--hdfd78af_0: sha256:b4cfdf3f56901d6ab9d5e38a56b33e0f08dc7b74195ef3acf38bba0e919d783d
   3.0.3--hdfd78af_0: sha256:dbfcb8618b911ca598439d7a6a62c18c576993066a898350d6efd360cab89a7f
@@ -16,6 +16,7 @@ tags:
   3.5.0--hdfd78af_0: sha256:b2d7ce13d48546b95762d91f8b9176bcc37188c2e4f57d9512897e37ea2a9723
   3.6.0--hdfd78af_0: sha256:c37e05f3acbf086dafc5f31d6ad75ada03d082cac02f06d7fda721d13b388656
   3.5.2--hdfd78af_0: sha256:a96f72588a750040232b3042ad4c5f41bc74ddbb2f154d4e3230efa2d35d144d
+  3.6.1--hdfd78af_0: sha256:859ea03c767250c494b0d0743abdde4d34201a6298e4f57befdef032dcae5210
 docker: quay.io/biocontainers/isoquant
 aliases:
   isoquant.py: /usr/local/bin/isoquant.py

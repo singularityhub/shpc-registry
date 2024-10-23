@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/parebrick
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for parebrick
 latest:
-  0.5.5--pyhdfd78af_0: sha256:51037107b2fe899b6ef0c9f1988669607e223b9c0263f80e291f88dedda22bc1
+  0.5.7--pyhdfd78af_0: sha256:5d904d74f148463671c33603bb84b376a8f1e4882aa2472291f778ab0ccc8d95
 tags:
   0.3.7--pyhdfd78af_0: sha256:8e71a4e16b1c8eb27673862b46552e8e3bf6864af4e6da81e2426e45b7bef579
   0.4--pyhdfd78af_0: sha256:8c251c33beb730823a595f15a9b021ddd5151f0f6b1fe51059ebea38f21ff30e
   0.5.5--pyhdfd78af_0: sha256:51037107b2fe899b6ef0c9f1988669607e223b9c0263f80e291f88dedda22bc1
+  0.5.7--pyhdfd78af_0: sha256:5d904d74f148463671c33603bb84b376a8f1e4882aa2472291f778ab0ccc8d95
 docker: quay.io/biocontainers/parebrick
 aliases:
   PaReBrick: /usr/local/bin/PaReBrick

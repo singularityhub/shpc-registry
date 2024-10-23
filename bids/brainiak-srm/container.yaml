@@ -1,9 +1,9 @@
 docker: bids/brainiak-srm
 latest:
-  unstable: sha256:28f2c2c234b9b60c43cc5f5f9ed50e390b44fa39c5b30a4ca0bddb2ccd91ded4
+  unstable: sha256:23ccc32c894400ac6b749933472f5e6dbb4541d48d40978d8b1524853241533c
 tags:
   latest: sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430
-  unstable: sha256:28f2c2c234b9b60c43cc5f5f9ed50e390b44fa39c5b30a4ca0bddb2ccd91ded4
+  unstable: sha256:23ccc32c894400ac6b749933472f5e6dbb4541d48d40978d8b1524853241533c
 filter:
 - v*
 maintainer: '@vsoch'
