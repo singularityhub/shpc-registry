@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fastplong
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastplong
+latest:
+  0.2.0--h125f33a_0: sha256:b015a7fc10675cd23f6191ef26e1d8d8cd42453a794587309ceb4785bf065485
+tags:
+  0.2.0--h125f33a_0: sha256:b015a7fc10675cd23f6191ef26e1d8d8cd42453a794587309ceb4785bf065485
+docker: quay.io/biocontainers/fastplong
+aliases:
+  fastplong: /usr/local/bin/fastplong
+  igzip: /usr/local/bin/igzip

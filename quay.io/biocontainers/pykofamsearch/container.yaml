@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/pykofamsearch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pykofamsearch
+latest:
+  2024.10.20--pyh7e72e81_0: sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
+tags:
+  2024.10.20--pyh7e72e81_0: sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
+docker: quay.io/biocontainers/pykofamsearch
+aliases:
+  pykofamsearch: /usr/local/bin/pykofamsearch
+  reformat_enzymes: /usr/local/bin/reformat_enzymes
+  reformat_pykofamsearch: /usr/local/bin/reformat_pykofamsearch
+  serialize_kofam_models: /usr/local/bin/serialize_kofam_models
+  subset_serialized_models: /usr/local/bin/subset_serialized_models
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm

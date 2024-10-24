@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/copernicusmarine
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for copernicusmarine
+latest:
+  1.3.3: sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3
+tags:
+  1.3.3: sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3
+docker: quay.io/biocontainers/copernicusmarine
+aliases:
+  cachier: /usr/local/bin/cachier
+  copernicusmarine: /usr/local/bin/copernicusmarine
+  h5fuse: /usr/local/bin/h5fuse
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  pysemver: /usr/local/bin/pysemver
+  watchmedo: /usr/local/bin/watchmedo
+  dask: /usr/local/bin/dask
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  jp.py: /usr/local/bin/jp.py
+  h5delete: /usr/local/bin/h5delete
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff
+  hdp: /usr/local/bin/hdp

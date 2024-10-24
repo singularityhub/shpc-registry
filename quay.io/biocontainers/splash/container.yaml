@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/splash
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for splash
+latest:
+  2.11.0--py313h9ee0642_0: sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
+tags:
+  2.11.0--py313h9ee0642_0: sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
+docker: quay.io/biocontainers/splash
+aliases:
+  bkc: /usr/local/bin/bkc
+  bkc_dump: /usr/local/bin/bkc_dump
+  build_lookup_table.py: /usr/local/bin/build_lookup_table.py
+  compactors: /usr/local/bin/compactors
+  dsv_manip: /usr/local/bin/dsv_manip
+  fafq_filter: /usr/local/bin/fafq_filter
+  gap_shortener: /usr/local/bin/gap_shortener
+  idle3.13: /usr/local/bin/idle3.13
+  lookup_table: /usr/local/bin/lookup_table
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  read_selector: /usr/local/bin/read_selector
+  satc: /usr/local/bin/satc
+  satc_dump: /usr/local/bin/satc_dump
+  satc_filter: /usr/local/bin/satc_filter
+  satc_merge: /usr/local/bin/satc_merge
+  satc_to_fasta: /usr/local/bin/satc_to_fasta
+  satc_undump: /usr/local/bin/satc_undump
+  sig_anch: /usr/local/bin/sig_anch
+  splash: /usr/local/bin/splash
+  supervised_test.R: /usr/local/bin/supervised_test.R
+  tsv_to_fasta: /usr/local/bin/tsv_to_fasta
+  kmc: /usr/local/bin/kmc
+  kmc_tools: /usr/local/bin/kmc_tools
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh

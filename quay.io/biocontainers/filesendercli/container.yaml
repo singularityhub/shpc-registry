@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/filesendercli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for filesendercli
+latest:
+  3.0.0: sha256:6d1a4183c7d03dd64a99d349ce54b9bd5b2ace3aefe7a96f2ba854726e2a3825
+tags:
+  3.0.0: sha256:6d1a4183c7d03dd64a99d349ce54b9bd5b2ace3aefe7a96f2ba854726e2a3825
+docker: quay.io/biocontainers/filesendercli
+aliases:
+  filesender: /usr/local/bin/filesender
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer

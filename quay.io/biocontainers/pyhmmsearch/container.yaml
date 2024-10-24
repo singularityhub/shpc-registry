@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pyhmmsearch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyhmmsearch
+latest:
+  2024.10.20--pyh7e72e81_0: sha256:94883c85ae516ea270416d3265cc89dbb33a617016263538ae6fb55662df636a
+tags:
+  2024.10.20--pyh7e72e81_0: sha256:94883c85ae516ea270416d3265cc89dbb33a617016263538ae6fb55662df636a
+docker: quay.io/biocontainers/pyhmmsearch
+aliases:
+  pyhmmsearch: /usr/local/bin/pyhmmsearch
+  reformat_pyhmmsearch: /usr/local/bin/reformat_pyhmmsearch
+  serialize_hmm_models: /usr/local/bin/serialize_hmm_models
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/r-saccharis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-saccharis
+latest:
+  1.0.5--r43hdfd78af_0: sha256:b425aa4815583c9389bdf950c4d1164808d4161817e3b3c930ffb8af26ed95c0
+tags:
+  1.0.5--r43hdfd78af_0: sha256:b425aa4815583c9389bdf950c4d1164808d4161817e3b3c930ffb8af26ed95c0
+docker: quay.io/biocontainers/r-saccharis
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
