@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prymer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prymer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prymer/container.yaml"
-updated_at: "2024-10-23 03:03:59.730858"
-latest: "2.1.1--pyhdfd78af_0"
+updated_at: "2024-10-24 03:04:18.577377"
+latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prymer"
 aliases:
  - "amplicon3_core"
@@ -24,8 +24,9 @@ versions:
  - "2.0.0--pyhdfd78af_0"
  - "2.1.1--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_1"
+ - "2.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for prymer"
-config: {"url": "https://biocontainers.pro/tools/prymer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prymer", "latest": {"2.1.1--pyhdfd78af_0": "sha256:b31ea29d6f193625b4772d7935c36cee2ddf411f9e763c583267327d204962df"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:4f7d639e0369dea186635d4d4307f2fe9a87c2a02dab0787ff2ef120adedccd5", "2.1.1--pyhdfd78af_0": "sha256:b31ea29d6f193625b4772d7935c36cee2ddf411f9e763c583267327d204962df", "2.0.0--pyhdfd78af_1": "sha256:5004212429af75148a5360d65a89f5090604a543868e7bf20cdf9e34e57c2eea"}, "docker": "quay.io/biocontainers/prymer", "aliases": {"amplicon3_core": "/usr/local/bin/amplicon3_core", "long_seq_tm_test": "/usr/local/bin/long_seq_tm_test", "ntdpal": "/usr/local/bin/ntdpal", "ntthal": "/usr/local/bin/ntthal", "oligotm": "/usr/local/bin/oligotm", "primer3_core": "/usr/local/bin/primer3_core", "primer3_masker": "/usr/local/bin/primer3_masker", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/prymer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prymer", "latest": {"2.2.0--pyhdfd78af_0": "sha256:30c714816e69a501fb2d0c6d672ffe8e53316e638f7f8ffc45090e9c7f4b3357"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:4f7d639e0369dea186635d4d4307f2fe9a87c2a02dab0787ff2ef120adedccd5", "2.1.1--pyhdfd78af_0": "sha256:b31ea29d6f193625b4772d7935c36cee2ddf411f9e763c583267327d204962df", "2.0.0--pyhdfd78af_1": "sha256:5004212429af75148a5360d65a89f5090604a543868e7bf20cdf9e34e57c2eea", "2.2.0--pyhdfd78af_0": "sha256:30c714816e69a501fb2d0c6d672ffe8e53316e638f7f8ffc45090e9c7f4b3357"}, "docker": "quay.io/biocontainers/prymer", "aliases": {"amplicon3_core": "/usr/local/bin/amplicon3_core", "long_seq_tm_test": "/usr/local/bin/long_seq_tm_test", "ntdpal": "/usr/local/bin/ntdpal", "ntthal": "/usr/local/bin/ntthal", "oligotm": "/usr/local/bin/oligotm", "primer3_core": "/usr/local/bin/primer3_core", "primer3_masker": "/usr/local/bin/primer3_masker", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prymer.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/prymer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prymer:2.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/prymer:2.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prymer/2.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/prymer/2.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/prymer/2.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/prymer/2.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

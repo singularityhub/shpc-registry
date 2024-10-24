@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparrow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparrow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparrow/container.yaml"
-updated_at: "2024-10-23 02:55:46.216737"
+updated_at: "2024-10-24 02:55:42.793919"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparrow"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vvv2_display"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vvv2_display/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vvv2_display/container.yaml"
-updated_at: "2024-10-23 03:34:27.067789"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2024-10-24 03:35:20.327975"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vvv2_display"
 aliases:
  - "convert_tbl2json.py"
@@ -24,8 +24,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vvv2_display"
-config: {"url": "https://biocontainers.pro/tools/vvv2_display", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vvv2_display", "latest": {"0.2.1--pyhdfd78af_0": "sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221"}, "docker": "quay.io/biocontainers/vvv2_display", "aliases": {"convert_tbl2json.py": "/usr/local/bin/convert_tbl2json.py", "convert_vcffile_to_readablefile2.py": "/usr/local/bin/convert_vcffile_to_readablefile2.py", "correct_covdepth_f.py": "/usr/local/bin/correct_covdepth_f.py", "correct_multicontig_vardict_vcf.py": "/usr/local/bin/correct_multicontig_vardict_vcf.py", "visualize_coverage_depth.R": "/usr/local/bin/visualize_coverage_depth.R", "visualize_snp_v4.R": "/usr/local/bin/visualize_snp_v4.R", "vvv2_display.py": "/usr/local/bin/vvv2_display.py", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/vvv2_display", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vvv2_display", "latest": {"0.2.2--pyhdfd78af_0": "sha256:6240714d3065bae647ca5ea3af049c1125d9eb3a2c949b595467b37f031636da"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221", "0.2.2--pyhdfd78af_0": "sha256:6240714d3065bae647ca5ea3af049c1125d9eb3a2c949b595467b37f031636da"}, "docker": "quay.io/biocontainers/vvv2_display", "aliases": {"convert_tbl2json.py": "/usr/local/bin/convert_tbl2json.py", "convert_vcffile_to_readablefile2.py": "/usr/local/bin/convert_vcffile_to_readablefile2.py", "correct_covdepth_f.py": "/usr/local/bin/correct_covdepth_f.py", "correct_multicontig_vardict_vcf.py": "/usr/local/bin/correct_multicontig_vardict_vcf.py", "visualize_coverage_depth.R": "/usr/local/bin/visualize_coverage_depth.R", "visualize_snp_v4.R": "/usr/local/bin/visualize_snp_v4.R", "vvv2_display.py": "/usr/local/bin/vvv2_display.py", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vvv2_display.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vvv2_display
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vvv2_display:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vvv2_display:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vvv2_display/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/vvv2_display/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/vvv2_display/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/vvv2_display/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
