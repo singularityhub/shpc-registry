@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/telosearchlr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telosearchlr
+latest:
+  1.0.1--pyhdfd78af_0: sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
+tags:
+  1.0.1--pyhdfd78af_0: sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
+docker: quay.io/biocontainers/telosearchlr
+aliases:
+  TeloSearchLR.py: /usr/local/bin/TeloSearchLR.py
+  TideHunter: /usr/local/bin/TideHunter
+  bio: /usr/local/bin/bio
+  fasta_filter.py: /usr/local/bin/fasta_filter.py
+  numpy-config: /usr/local/bin/numpy-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  tjbench: /usr/local/bin/tjbench
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
