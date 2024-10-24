@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cocitestats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cocitestats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cocitestats/container.yaml"
-updated_at: "2024-10-24 03:15:05.120110"
+updated_at: "2024-10-24 10:55:38.115325"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cocitestats"
 
