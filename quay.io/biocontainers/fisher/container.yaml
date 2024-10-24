@@ -5,6 +5,7 @@ latest:
   0.1.4--py27h24bf2e0_1: sha256:7dd3eb6bf2e8fb2ce80bcc33d1c2cd5aed058b7c393307b3760aa8ffcf0b6397
 tags:
   0.1.4--py27h24bf2e0_1: sha256:7dd3eb6bf2e8fb2ce80bcc33d1c2cd5aed058b7c393307b3760aa8ffcf0b6397
+  0.1.4: sha256:c7531286e19272759b3af5887760b541514350162a01fe5c0ecf0419b831dddf
 docker: quay.io/biocontainers/fisher
 aliases:
   python2-config: /usr/local/bin/python2-config

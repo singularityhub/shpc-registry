@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/vclean
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vclean
 latest:
-  0.1.5--pyhdfd78af_0: sha256:281d081f3b516c7c347cdf0dfb74e31dac769fbcbd82b4b7eca5e0eb5fa17e12
+  0.2.1--pyhdfd78af_0: sha256:d04530e2daa90a9ac9cf767681b2b531f78b3c0935d3655c23f4563ecabb3f0b
 tags:
   0.0.2--pyhdfd78af_0: sha256:8d716fc6b2981f3798e1f201e35860e3e2cbf9a6e62120ff89f0bb4f7148ba6f
   0.1.5--pyhdfd78af_0: sha256:281d081f3b516c7c347cdf0dfb74e31dac769fbcbd82b4b7eca5e0eb5fa17e12
+  0.2.1--pyhdfd78af_0: sha256:d04530e2daa90a9ac9cf767681b2b531f78b3c0935d3655c23f4563ecabb3f0b
+  0.1.9--pyhdfd78af_0: sha256:5e9235b9b0e8c0f02f8f923374ed9deff32076dbb24e742a401e8555a9c82c3f
 docker: quay.io/biocontainers/vclean
 aliases:
   checkv: /usr/local/bin/checkv
