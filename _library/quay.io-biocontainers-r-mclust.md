@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mclust/container.yaml"
-updated_at: "2024-10-24 11:18:42.847322"
+updated_at: "2024-10-25 03:41:12.568976"
 latest: "5.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-mclust"
 aliases:

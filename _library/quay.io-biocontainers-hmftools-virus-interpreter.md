@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-virus-interpreter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-virus-interpreter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-virus-interpreter/container.yaml"
-updated_at: "2024-10-24 11:08:38.681391"
-latest: "1.3--hdfd78af_0"
+updated_at: "2024-10-25 03:31:11.652716"
+latest: "3.7_beta--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-virus-interpreter"
 aliases:
  - "virusinterpreter"
@@ -36,8 +36,9 @@ aliases:
  - "jconsole"
 versions:
  - "1.3--hdfd78af_0"
+ - "3.7_beta--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-virus-interpreter"
-config: {"url": "https://biocontainers.pro/tools/hmftools-virus-interpreter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-virus-interpreter", "latest": {"1.3--hdfd78af_0": "sha256:4afd72551649e8cfb6c7e5eedc22c54b9fba5c2bc1cf816417b644810ceed4bc"}, "tags": {"1.3--hdfd78af_0": "sha256:4afd72551649e8cfb6c7e5eedc22c54b9fba5c2bc1cf816417b644810ceed4bc"}, "docker": "quay.io/biocontainers/hmftools-virus-interpreter", "aliases": {"virusinterpreter": "/usr/local/bin/virusinterpreter", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-virus-interpreter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-virus-interpreter", "latest": {"3.7_beta--hdfd78af_0": "sha256:7aa51162cf7b8dc8b335c45c1f1ac729959e6959fe3518d55d23291420f91fd8"}, "tags": {"1.3--hdfd78af_0": "sha256:4afd72551649e8cfb6c7e5eedc22c54b9fba5c2bc1cf816417b644810ceed4bc", "3.7_beta--hdfd78af_0": "sha256:7aa51162cf7b8dc8b335c45c1f1ac729959e6959fe3518d55d23291420f91fd8"}, "docker": "quay.io/biocontainers/hmftools-virus-interpreter", "aliases": {"virusinterpreter": "/usr/local/bin/virusinterpreter", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-virus-interpreter.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hmftools-virus-interpreter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-virus-interpreter:1.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-virus-interpreter:3.7_beta--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-virus-interpreter/1.3--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-virus-interpreter/1.3--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-virus-interpreter/3.7_beta--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-virus-interpreter/3.7_beta--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

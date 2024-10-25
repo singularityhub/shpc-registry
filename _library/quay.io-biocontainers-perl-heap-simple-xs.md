@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-heap-simple-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-heap-simple-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-heap-simple-xs/container.yaml"
-updated_at: "2024-10-24 10:52:52.849951"
+updated_at: "2024-10-25 03:15:27.924749"
 latest: "0.10--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-heap-simple-xs"
 aliases:

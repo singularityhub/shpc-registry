@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vclean/container.yaml"
-updated_at: "2024-10-24 10:44:13.281681"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2024-10-25 03:06:40.581354"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vclean"
 aliases:
  - "checkv"
@@ -38,8 +38,10 @@ aliases:
 versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.1.5--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
+ - "0.1.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vclean"
-config: {"url": "https://biocontainers.pro/tools/vclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vclean", "latest": {"0.1.5--pyhdfd78af_0": "sha256:281d081f3b516c7c347cdf0dfb74e31dac769fbcbd82b4b7eca5e0eb5fa17e12"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:8d716fc6b2981f3798e1f201e35860e3e2cbf9a6e62120ff89f0bb4f7148ba6f", "0.1.5--pyhdfd78af_0": "sha256:281d081f3b516c7c347cdf0dfb74e31dac769fbcbd82b4b7eca5e0eb5fa17e12"}, "docker": "quay.io/biocontainers/vclean", "aliases": {"checkv": "/usr/local/bin/checkv", "vclean": "/usr/local/bin/vclean", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs", "ini2xml": "/usr/local/bin/ini2xml", "jsonl2xml": "/usr/local/bin/jsonl2xml"}}
+config: {"url": "https://biocontainers.pro/tools/vclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vclean", "latest": {"0.2.1--pyhdfd78af_0": "sha256:d04530e2daa90a9ac9cf767681b2b531f78b3c0935d3655c23f4563ecabb3f0b"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:8d716fc6b2981f3798e1f201e35860e3e2cbf9a6e62120ff89f0bb4f7148ba6f", "0.1.5--pyhdfd78af_0": "sha256:281d081f3b516c7c347cdf0dfb74e31dac769fbcbd82b4b7eca5e0eb5fa17e12", "0.2.1--pyhdfd78af_0": "sha256:d04530e2daa90a9ac9cf767681b2b531f78b3c0935d3655c23f4563ecabb3f0b", "0.1.9--pyhdfd78af_0": "sha256:5e9235b9b0e8c0f02f8f923374ed9deff32076dbb24e742a401e8555a9c82c3f"}, "docker": "quay.io/biocontainers/vclean", "aliases": {"checkv": "/usr/local/bin/checkv", "vclean": "/usr/local/bin/vclean", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs", "ini2xml": "/usr/local/bin/ini2xml", "jsonl2xml": "/usr/local/bin/jsonl2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vclean.
@@ -54,7 +56,7 @@ $ shpc install quay.io/biocontainers/vclean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vclean:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vclean:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vclean/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/vclean/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/vclean/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/vclean/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

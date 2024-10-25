@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pgrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgrc/container.yaml"
-updated_at: "2024-10-24 10:59:53.502510"
-latest: "2.0--h4ac6f70_0"
+updated_at: "2024-10-25 03:22:30.034772"
+latest: "2.0.1--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/pgrc"
 aliases:
  - "PgRC"
 versions:
  - "2.0--h4ac6f70_0"
+ - "2.0.1--h4ac6f70_0"
 description: "singularity registry hpc automated addition for pgrc"
-config: {"url": "https://biocontainers.pro/tools/pgrc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgrc", "latest": {"2.0--h4ac6f70_0": "sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474"}, "tags": {"2.0--h4ac6f70_0": "sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474"}, "docker": "quay.io/biocontainers/pgrc", "aliases": {"PgRC": "/usr/local/bin/PgRC"}}
+config: {"url": "https://biocontainers.pro/tools/pgrc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgrc", "latest": {"2.0.1--h4ac6f70_0": "sha256:a224c2123eba84051132630e61bdff24208f250a63ece3ef43c56dbef9d85443"}, "tags": {"2.0--h4ac6f70_0": "sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474", "2.0.1--h4ac6f70_0": "sha256:a224c2123eba84051132630e61bdff24208f250a63ece3ef43c56dbef9d85443"}, "docker": "quay.io/biocontainers/pgrc", "aliases": {"PgRC": "/usr/local/bin/PgRC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgrc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pgrc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgrc:2.0--h4ac6f70_0
+$ shpc install quay.io/biocontainers/pgrc:2.0.1--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgrc/2.0--h4ac6f70_0
-$ module help quay.io/biocontainers/pgrc/2.0--h4ac6f70_0
+$ module load quay.io/biocontainers/pgrc/2.0.1--h4ac6f70_0
+$ module help quay.io/biocontainers/pgrc/2.0.1--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/radtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radtk/container.yaml"
-updated_at: "2024-10-24 11:20:10.821319"
+updated_at: "2024-10-25 03:42:40.078564"
 latest: "0.2.0--h919a2d8_0"
 container_url: "https://biocontainers.pro/tools/radtk"
 aliases:
