@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/afpdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for afpdb
 latest:
-  0.2.1--pyhcf36b3e_0: sha256:c5bb11cc658b952b8badb4f5a8b8512001e1d640b547a73924e2fe8c3b60157c
+  0.2.3--pyhcf36b3e_0: sha256:79732fb5072a1f506203ac2dd64994dcce6616cbc77d40e5ab4ca928fd6035db
 tags:
   0.2.1--pyhcf36b3e_0: sha256:c5bb11cc658b952b8badb4f5a8b8512001e1d640b547a73924e2fe8c3b60157c
+  0.2.3--pyhcf36b3e_0: sha256:79732fb5072a1f506203ac2dd64994dcce6616cbc77d40e5ab4ca928fd6035db
 docker: quay.io/biocontainers/afpdb
 aliases:
   numpy-config: /usr/local/bin/numpy-config
