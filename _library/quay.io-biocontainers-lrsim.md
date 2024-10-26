@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrsim/container.yaml"
-updated_at: "2024-10-25 03:24:43.520025"
+updated_at: "2024-10-26 03:17:19.244671"
 latest: "1.0--pl5321hbcd995c_0"
 container_url: "https://biocontainers.pro/tools/lrsim"
 aliases:

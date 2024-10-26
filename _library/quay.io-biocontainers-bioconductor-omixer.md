@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
-updated_at: "2024-10-25 02:57:32.311099"
+updated_at: "2024-10-26 02:50:57.840459"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omixer"
 

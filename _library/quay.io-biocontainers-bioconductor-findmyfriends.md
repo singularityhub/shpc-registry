@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-findmyfriends"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-findmyfriends/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-findmyfriends/container.yaml"
-updated_at: "2024-10-25 03:09:09.366407"
+updated_at: "2024-10-26 03:01:48.020683"
 latest: "1.23.0--r41h619a076_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-findmyfriends"
 aliases:

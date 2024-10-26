@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vanillaice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vanillaice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vanillaice/container.yaml"
-updated_at: "2024-10-25 03:22:54.916028"
+updated_at: "2024-10-26 03:15:30.489844"
 latest: "1.64.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vanillaice"
 

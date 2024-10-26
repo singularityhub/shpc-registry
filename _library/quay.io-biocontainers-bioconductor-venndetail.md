@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-venndetail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-venndetail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-venndetail/container.yaml"
-updated_at: "2024-10-25 03:06:00.445158"
+updated_at: "2024-10-26 02:58:47.535214"
 latest: "1.18.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-venndetail"
 aliases:

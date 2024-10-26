@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msalign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msalign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msalign2/container.yaml"
-updated_at: "2024-10-25 03:07:32.568303"
+updated_at: "2024-10-26 03:00:15.462847"
 latest: "1.0--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/msalign2"
 aliases:

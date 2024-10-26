@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/burrito"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/burrito/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/burrito/container.yaml"
-updated_at: "2024-10-25 03:43:18.663560"
+updated_at: "2024-10-26 03:35:55.165357"
 latest: "0.9.1--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/burrito"
 

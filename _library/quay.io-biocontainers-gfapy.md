@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfapy/container.yaml"
-updated_at: "2024-10-25 03:23:25.915902"
+updated_at: "2024-10-26 03:16:01.790452"
 latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gfapy"
 aliases:

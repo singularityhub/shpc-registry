@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mosaik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosaik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosaik/container.yaml"
-updated_at: "2024-10-25 03:35:02.661594"
+updated_at: "2024-10-26 03:27:39.495773"
 latest: "2.2.26--he941832_4"
 container_url: "https://biocontainers.pro/tools/mosaik"
 aliases:

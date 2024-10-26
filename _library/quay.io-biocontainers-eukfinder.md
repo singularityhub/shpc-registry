@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eukfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukfinder/container.yaml"
-updated_at: "2024-10-25 03:18:24.898262"
+updated_at: "2024-10-26 03:11:01.194179"
 latest: "1.2.3--py36hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/eukfinder"
 aliases:

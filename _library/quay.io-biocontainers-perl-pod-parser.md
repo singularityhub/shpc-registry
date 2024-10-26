@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-parser/container.yaml"
-updated_at: "2024-10-25 02:59:58.114277"
+updated_at: "2024-10-26 02:53:08.466409"
 latest: "1.63--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pod-parser"
 aliases:

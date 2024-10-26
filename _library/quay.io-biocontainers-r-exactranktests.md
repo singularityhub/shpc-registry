@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-exactranktests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-exactranktests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-exactranktests/container.yaml"
-updated_at: "2024-10-25 03:33:27.850792"
+updated_at: "2024-10-26 03:26:05.152745"
 latest: "0.8_29--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-exactranktests"
 aliases:

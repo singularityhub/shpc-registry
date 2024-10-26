@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaquantome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaquantome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaquantome/container.yaml"
-updated_at: "2024-10-25 03:26:09.018433"
+updated_at: "2024-10-26 03:18:44.294345"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaquantome"
 aliases:
