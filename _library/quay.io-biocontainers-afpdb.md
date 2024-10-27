@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/afpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afpdb/container.yaml"
-updated_at: "2024-10-26 02:54:59.422432"
-latest: "0.2.1--pyhcf36b3e_0"
+updated_at: "2024-10-27 03:04:11.292783"
+latest: "0.2.3--pyhcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/afpdb"
 aliases:
  - "numpy-config"
@@ -21,8 +21,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.2.1--pyhcf36b3e_0"
+ - "0.2.3--pyhcf36b3e_0"
 description: "singularity registry hpc automated addition for afpdb"
-config: {"url": "https://biocontainers.pro/tools/afpdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for afpdb", "latest": {"0.2.1--pyhcf36b3e_0": "sha256:c5bb11cc658b952b8badb4f5a8b8512001e1d640b547a73924e2fe8c3b60157c"}, "tags": {"0.2.1--pyhcf36b3e_0": "sha256:c5bb11cc658b952b8badb4f5a8b8512001e1d640b547a73924e2fe8c3b60157c"}, "docker": "quay.io/biocontainers/afpdb", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "tabulate": "/usr/local/bin/tabulate", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/afpdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for afpdb", "latest": {"0.2.3--pyhcf36b3e_0": "sha256:79732fb5072a1f506203ac2dd64994dcce6616cbc77d40e5ab4ca928fd6035db"}, "tags": {"0.2.1--pyhcf36b3e_0": "sha256:c5bb11cc658b952b8badb4f5a8b8512001e1d640b547a73924e2fe8c3b60157c", "0.2.3--pyhcf36b3e_0": "sha256:79732fb5072a1f506203ac2dd64994dcce6616cbc77d40e5ab4ca928fd6035db"}, "docker": "quay.io/biocontainers/afpdb", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "tabulate": "/usr/local/bin/tabulate", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/afpdb.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/afpdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/afpdb:0.2.1--pyhcf36b3e_0
+$ shpc install quay.io/biocontainers/afpdb:0.2.3--pyhcf36b3e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/afpdb/0.2.1--pyhcf36b3e_0
-$ module help quay.io/biocontainers/afpdb/0.2.1--pyhcf36b3e_0
+$ module load quay.io/biocontainers/afpdb/0.2.3--pyhcf36b3e_0
+$ module help quay.io/biocontainers/afpdb/0.2.3--pyhcf36b3e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

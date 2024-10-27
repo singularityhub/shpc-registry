@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/verkko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verkko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verkko/container.yaml"
-updated_at: "2024-10-26 03:12:10.853662"
+updated_at: "2024-10-27 03:21:15.511227"
 latest: "2.2.1--h45dadce_0"
 container_url: "https://biocontainers.pro/tools/verkko"
 

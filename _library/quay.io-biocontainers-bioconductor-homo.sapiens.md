@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-homo.sapiens"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-homo.sapiens/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-homo.sapiens/container.yaml"
-updated_at: "2024-10-26 03:31:25.292052"
+updated_at: "2024-10-27 03:40:28.918724"
 latest: "1.3.1--r43hdfd78af_16"
 container_url: "https://biocontainers.pro/tools/bioconductor-homo.sapiens"
 aliases:

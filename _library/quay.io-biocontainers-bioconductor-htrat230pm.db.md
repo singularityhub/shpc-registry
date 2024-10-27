@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htrat230pm.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htrat230pm.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htrat230pm.db/container.yaml"
-updated_at: "2024-10-26 02:56:32.500159"
+updated_at: "2024-10-27 03:05:44.056390"
 latest: "3.13.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-htrat230pm.db"
 

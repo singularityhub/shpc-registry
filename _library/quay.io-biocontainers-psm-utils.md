@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psm-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psm-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psm-utils/container.yaml"
-updated_at: "2024-10-26 03:10:37.903055"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2024-10-27 03:19:42.804813"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psm-utils"
 aliases:
  - "f2py3.11"
@@ -51,8 +51,9 @@ versions:
  - "0.9.0--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for psm-utils"
-config: {"url": "https://biocontainers.pro/tools/psm-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psm-utils", "latest": {"1.1.0--pyhdfd78af_0": "sha256:dd3d41e256eecbecbd548b0e4ef1a13088c53278f17d606af9793c02076f0469"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:787a40f6cba0557053f735f975d89c70dadb59a435a60aedf53423cd84b1bbe6", "0.2.3--pyhdfd78af_0": "sha256:3cc8c99b5132d78489859d3c83fe35e88926df303988d54d871cbb0eec6418ae", "0.4.1--pyhdfd78af_0": "sha256:03d4624ea11cc3182c1191174c6240f8b554f2f05740e06645a82a217aec2926", "0.7.0--pyhdfd78af_0": "sha256:ce81767c915f4ab76187ec503b9becc4abc2f5ad9d0238ecba234afae096e9f2", "0.6.0--pyhdfd78af_0": "sha256:6ddec97c01d4a05dc68e92c646dd51ee918faa5fa142bf558ede797263558d0d", "0.5.0--pyhdfd78af_0": "sha256:0a2530b46e4aaa100b7388a6fdb2a19b238907ca462bf913808695002c65aa70", "0.7.1--pyhdfd78af_0": "sha256:bd8c0988d0dfb7883d9529c0c2a1b78ef60257e9833c9ad6a1981d4a3a6f65d2", "0.7.2--pyhdfd78af_0": "sha256:40c90ac249e0a3decb98b98484b919a29f63e21caa0dca4acdab649cd5cde3e9", "0.7.4--pyhdfd78af_0": "sha256:a6ead33053af839000bfe1298d77ba396c5d14066aabacee389c0d84d40ce026", "0.8.3--pyhdfd78af_0": "sha256:967d17b6dd9609d5d79b5af030bbedfc77821f5fb249307b79967fab56dea00e", "0.9.0--pyhdfd78af_0": "sha256:75d396071ff5fffb424a03446ec45e9bc9407008ddbe25b6d0aa4918ec57990f", "1.1.0--pyhdfd78af_0": "sha256:dd3d41e256eecbecbd548b0e4ef1a13088c53278f17d606af9793c02076f0469", "1.0.1--pyhdfd78af_0": "sha256:6654cb591416265ea598aed8a02401b1206fb286272c42b28ad0972ec650a976"}, "docker": "quay.io/biocontainers/psm-utils", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "psm-utils": "/usr/local/bin/psm-utils", "psm_utils": "/usr/local/bin/psm_utils", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/psm-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psm-utils", "latest": {"1.1.1--pyhdfd78af_0": "sha256:566efc175db9c8d6ea9535afaf88d510a7840d0f073fe6ae4b7769cd7027e43d"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:787a40f6cba0557053f735f975d89c70dadb59a435a60aedf53423cd84b1bbe6", "0.2.3--pyhdfd78af_0": "sha256:3cc8c99b5132d78489859d3c83fe35e88926df303988d54d871cbb0eec6418ae", "0.4.1--pyhdfd78af_0": "sha256:03d4624ea11cc3182c1191174c6240f8b554f2f05740e06645a82a217aec2926", "0.7.0--pyhdfd78af_0": "sha256:ce81767c915f4ab76187ec503b9becc4abc2f5ad9d0238ecba234afae096e9f2", "0.6.0--pyhdfd78af_0": "sha256:6ddec97c01d4a05dc68e92c646dd51ee918faa5fa142bf558ede797263558d0d", "0.5.0--pyhdfd78af_0": "sha256:0a2530b46e4aaa100b7388a6fdb2a19b238907ca462bf913808695002c65aa70", "0.7.1--pyhdfd78af_0": "sha256:bd8c0988d0dfb7883d9529c0c2a1b78ef60257e9833c9ad6a1981d4a3a6f65d2", "0.7.2--pyhdfd78af_0": "sha256:40c90ac249e0a3decb98b98484b919a29f63e21caa0dca4acdab649cd5cde3e9", "0.7.4--pyhdfd78af_0": "sha256:a6ead33053af839000bfe1298d77ba396c5d14066aabacee389c0d84d40ce026", "0.8.3--pyhdfd78af_0": "sha256:967d17b6dd9609d5d79b5af030bbedfc77821f5fb249307b79967fab56dea00e", "0.9.0--pyhdfd78af_0": "sha256:75d396071ff5fffb424a03446ec45e9bc9407008ddbe25b6d0aa4918ec57990f", "1.1.0--pyhdfd78af_0": "sha256:dd3d41e256eecbecbd548b0e4ef1a13088c53278f17d606af9793c02076f0469", "1.0.1--pyhdfd78af_0": "sha256:6654cb591416265ea598aed8a02401b1206fb286272c42b28ad0972ec650a976", "1.1.1--pyhdfd78af_0": "sha256:566efc175db9c8d6ea9535afaf88d510a7840d0f073fe6ae4b7769cd7027e43d"}, "docker": "quay.io/biocontainers/psm-utils", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "psm-utils": "/usr/local/bin/psm-utils", "psm_utils": "/usr/local/bin/psm_utils", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psm-utils.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/psm-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psm-utils:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/psm-utils:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psm-utils/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/psm-utils/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/psm-utils/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/psm-utils/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

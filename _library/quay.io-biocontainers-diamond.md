@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamond/container.yaml"
-updated_at: "2024-10-26 02:55:07.850938"
-latest: "2.1.9--h43eeafb_0"
+updated_at: "2024-10-27 03:04:19.726361"
+latest: "2.1.10--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/diamond"
 aliases:
  - "diamond"
@@ -13,8 +13,9 @@ versions:
  - "2.0.14--hdcc8f71_0"
  - "2.1.9--h43eeafb_0"
  - "2.0.15--hb97b32f_1"
+ - "2.1.10--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for diamond"
-config: {"url": "https://biocontainers.pro/tools/diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond", "latest": {"2.1.9--h43eeafb_0": "sha256:c3d56ca63d8061357ba0375d8d636519155b5601f6e93b807a827aa988f7e1d8"}, "tags": {"2.0.14--hdcc8f71_0": "sha256:275f3b3c587f8a40a39693db8acd91da8be6f053ff1426863da22061bd4e7957", "2.1.9--h43eeafb_0": "sha256:c3d56ca63d8061357ba0375d8d636519155b5601f6e93b807a827aa988f7e1d8", "2.0.15--hb97b32f_1": "sha256:192e0c2b5b9bffe0d7636af1e24ed83a1f5e3d4a20fcdd9cd62504fdeba6361d"}, "docker": "quay.io/biocontainers/diamond", "aliases": {"diamond": "/usr/local/bin/diamond"}}
+config: {"url": "https://biocontainers.pro/tools/diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond", "latest": {"2.1.10--h43eeafb_2": "sha256:0ba585799731f988fbd20280c49a4406656302c513b7939770f86b7bab983b24"}, "tags": {"2.0.14--hdcc8f71_0": "sha256:275f3b3c587f8a40a39693db8acd91da8be6f053ff1426863da22061bd4e7957", "2.1.9--h43eeafb_0": "sha256:c3d56ca63d8061357ba0375d8d636519155b5601f6e93b807a827aa988f7e1d8", "2.0.15--hb97b32f_1": "sha256:192e0c2b5b9bffe0d7636af1e24ed83a1f5e3d4a20fcdd9cd62504fdeba6361d", "2.1.10--h43eeafb_2": "sha256:0ba585799731f988fbd20280c49a4406656302c513b7939770f86b7bab983b24"}, "docker": "quay.io/biocontainers/diamond", "aliases": {"diamond": "/usr/local/bin/diamond"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diamond.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/diamond
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diamond:2.1.9--h43eeafb_0
+$ shpc install quay.io/biocontainers/diamond:2.1.10--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diamond/2.1.9--h43eeafb_0
-$ module help quay.io/biocontainers/diamond/2.1.9--h43eeafb_0
+$ module load quay.io/biocontainers/diamond/2.1.10--h43eeafb_2
+$ module help quay.io/biocontainers/diamond/2.1.10--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysnptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysnptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysnptools/container.yaml"
-updated_at: "2024-10-26 03:31:16.057538"
+updated_at: "2024-10-27 03:40:19.640615"
 latest: "0.3.13--py27h95a95ce_6"
 container_url: "https://biocontainers.pro/tools/pysnptools"
 aliases:

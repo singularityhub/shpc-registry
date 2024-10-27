@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/capcruncher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/capcruncher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/capcruncher/container.yaml"
-updated_at: "2024-10-26 03:23:43.463568"
+updated_at: "2024-10-27 03:32:48.194571"
 latest: "0.3.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/capcruncher"
 aliases:

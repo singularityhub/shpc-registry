@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pneumo-typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pneumo-typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pneumo-typer/container.yaml"
-updated_at: "2024-10-26 03:32:04.463255"
-latest: "1.0.1--hdfd78af_3"
+updated_at: "2024-10-27 03:41:08.283471"
+latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pneumo-typer"
 aliases:
  - "blastn_vdb"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "1.0.1--hdfd78af_0"
  - "1.0.1--hdfd78af_3"
+ - "1.0.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for pneumo-typer"
-config: {"url": "https://biocontainers.pro/tools/pneumo-typer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pneumo-typer", "latest": {"1.0.1--hdfd78af_3": "sha256:fa2c1338648d49fe2102686d02fc9e0eaf9ec7566e6b7e0f0ad9e2f5a6ca9ca3"}, "tags": {"1.0.1--hdfd78af_0": "sha256:f8247e39ae40c12c44552a3a5590d6143fc47a1c2b52ec1cad58f7ae0c646fc8", "1.0.1--hdfd78af_3": "sha256:fa2c1338648d49fe2102686d02fc9e0eaf9ec7566e6b7e0f0ad9e2f5a6ca9ca3"}, "docker": "quay.io/biocontainers/pneumo-typer", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "faToNib": "/usr/local/bin/faToNib", "gfClient": "/usr/local/bin/gfClient", "nibFrag": "/usr/local/bin/nibFrag", "pneumo-typer": "/usr/local/bin/pneumo-typer", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gfServer": "/usr/local/bin/gfServer", "twoBitToFa": "/usr/local/bin/twoBitToFa", "blat": "/usr/local/bin/blat", "twoBitInfo": "/usr/local/bin/twoBitInfo", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "faToTwoBit": "/usr/local/bin/faToTwoBit", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc", "bp_genbank2gff3": "/usr/local/bin/bp_genbank2gff3", "bp_index": "/usr/local/bin/bp_index", "bp_local_taxonomydb_query": "/usr/local/bin/bp_local_taxonomydb_query", "bp_make_mrna_protein": "/usr/local/bin/bp_make_mrna_protein", "bp_mask_by_search": "/usr/local/bin/bp_mask_by_search", "bp_mrtrans": "/usr/local/bin/bp_mrtrans", "bp_mutate": "/usr/local/bin/bp_mutate", "bp_nexus2nh": "/usr/local/bin/bp_nexus2nh"}}
+config: {"url": "https://biocontainers.pro/tools/pneumo-typer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pneumo-typer", "latest": {"1.0.3--hdfd78af_0": "sha256:92bbad9a73db47762b3ad40ef3bd6a3ecf7e65b3c60622904fd87ed39e59ab0e"}, "tags": {"1.0.1--hdfd78af_0": "sha256:f8247e39ae40c12c44552a3a5590d6143fc47a1c2b52ec1cad58f7ae0c646fc8", "1.0.1--hdfd78af_3": "sha256:fa2c1338648d49fe2102686d02fc9e0eaf9ec7566e6b7e0f0ad9e2f5a6ca9ca3", "1.0.3--hdfd78af_0": "sha256:92bbad9a73db47762b3ad40ef3bd6a3ecf7e65b3c60622904fd87ed39e59ab0e"}, "docker": "quay.io/biocontainers/pneumo-typer", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "faToNib": "/usr/local/bin/faToNib", "gfClient": "/usr/local/bin/gfClient", "nibFrag": "/usr/local/bin/nibFrag", "pneumo-typer": "/usr/local/bin/pneumo-typer", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gfServer": "/usr/local/bin/gfServer", "twoBitToFa": "/usr/local/bin/twoBitToFa", "blat": "/usr/local/bin/blat", "twoBitInfo": "/usr/local/bin/twoBitInfo", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "faToTwoBit": "/usr/local/bin/faToTwoBit", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc", "bp_genbank2gff3": "/usr/local/bin/bp_genbank2gff3", "bp_index": "/usr/local/bin/bp_index", "bp_local_taxonomydb_query": "/usr/local/bin/bp_local_taxonomydb_query", "bp_make_mrna_protein": "/usr/local/bin/bp_make_mrna_protein", "bp_mask_by_search": "/usr/local/bin/bp_mask_by_search", "bp_mrtrans": "/usr/local/bin/bp_mrtrans", "bp_mutate": "/usr/local/bin/bp_mutate", "bp_nexus2nh": "/usr/local/bin/bp_nexus2nh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pneumo-typer.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/pneumo-typer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pneumo-typer:1.0.1--hdfd78af_3
+$ shpc install quay.io/biocontainers/pneumo-typer:1.0.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pneumo-typer/1.0.1--hdfd78af_3
-$ module help quay.io/biocontainers/pneumo-typer/1.0.1--hdfd78af_3
+$ module load quay.io/biocontainers/pneumo-typer/1.0.3--hdfd78af_0
+$ module help quay.io/biocontainers/pneumo-typer/1.0.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

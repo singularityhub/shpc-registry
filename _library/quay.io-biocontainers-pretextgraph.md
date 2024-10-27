@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextgraph/container.yaml"
-updated_at: "2024-10-26 03:27:52.635012"
-latest: "0.0.6--h4ac6f70_3"
+updated_at: "2024-10-27 03:36:56.656156"
+latest: "0.0.7--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/pretextgraph"
 aliases:
  - "PretextGraph"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.0.6--h9f5acd7_1"
  - "0.0.6--h4ac6f70_3"
+ - "0.0.7--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for pretextgraph"
-config: {"url": "https://biocontainers.pro/tools/pretextgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextgraph", "latest": {"0.0.6--h4ac6f70_3": "sha256:7195c78d71b3c6fd74fea35338acdc3001cf90849fbca9d3f7256d99405d3d81"}, "tags": {"0.0.6--h9f5acd7_1": "sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341", "0.0.6--h4ac6f70_3": "sha256:7195c78d71b3c6fd74fea35338acdc3001cf90849fbca9d3f7256d99405d3d81"}, "docker": "quay.io/biocontainers/pretextgraph", "aliases": {"PretextGraph": "/usr/local/bin/PretextGraph", "PretextGraph.avx": "/usr/local/bin/PretextGraph.avx", "PretextGraph.avx2": "/usr/local/bin/PretextGraph.avx2", "PretextGraph.sse41": "/usr/local/bin/PretextGraph.sse41", "PretextGraph.sse42": "/usr/local/bin/PretextGraph.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/pretextgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextgraph", "latest": {"0.0.7--h4ac6f70_0": "sha256:25c2b6f5558bc842d9294ee02844abceb0ec7716c9e299f7def8bf9dbe033d01"}, "tags": {"0.0.6--h9f5acd7_1": "sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341", "0.0.6--h4ac6f70_3": "sha256:7195c78d71b3c6fd74fea35338acdc3001cf90849fbca9d3f7256d99405d3d81", "0.0.7--h4ac6f70_0": "sha256:25c2b6f5558bc842d9294ee02844abceb0ec7716c9e299f7def8bf9dbe033d01"}, "docker": "quay.io/biocontainers/pretextgraph", "aliases": {"PretextGraph": "/usr/local/bin/PretextGraph", "PretextGraph.avx": "/usr/local/bin/PretextGraph.avx", "PretextGraph.avx2": "/usr/local/bin/PretextGraph.avx2", "PretextGraph.sse41": "/usr/local/bin/PretextGraph.sse41", "PretextGraph.sse42": "/usr/local/bin/PretextGraph.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextgraph.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pretextgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextgraph:0.0.6--h4ac6f70_3
+$ shpc install quay.io/biocontainers/pretextgraph:0.0.7--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextgraph/0.0.6--h4ac6f70_3
-$ module help quay.io/biocontainers/pretextgraph/0.0.6--h4ac6f70_3
+$ module load quay.io/biocontainers/pretextgraph/0.0.7--h4ac6f70_0
+$ module help quay.io/biocontainers/pretextgraph/0.0.7--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
