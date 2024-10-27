@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/openms-thirdparty
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openms-thirdparty
 latest:
-  3.2.0--h9ee0642_4: sha256:2547af4ad3d36de7de7658dde46a7dd1f761d3ad642cd23eb5736d72e673891c
+  3.2.0--h9ee0642_5: sha256:4068b79e2f684dbe2a3055e38192d0bea069540ac58ba5d6bb712b8e715bc3de
 tags:
   2.8.0--h9ee0642_3: sha256:4c909e5c1288c6210436bf61757f4c956158d5ff68c427f9becc821aba57a699
   2.8.0--h9ee0642_4: sha256:b6be6724591801021d3a1910b37b0f92a6a349756b77de865ad1bfdb68944147
@@ -14,6 +14,7 @@ tags:
   3.1.0--h9ee0642_3: sha256:e42fe1813b211034338dc10b8851e4af662938c6156d9914646d0dde3568ee18
   3.1.0--h9ee0642_4: sha256:10690e33488ac340dc24094c13ea4b8692372da4ddc7b329bdf5d04883e4327b
   3.2.0--h9ee0642_4: sha256:2547af4ad3d36de7de7658dde46a7dd1f761d3ad642cd23eb5736d72e673891c
+  3.2.0--h9ee0642_5: sha256:4068b79e2f684dbe2a3055e38192d0bea069540ac58ba5d6bb712b8e715bc3de
 docker: quay.io/biocontainers/openms-thirdparty
 aliases:
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/unassigner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unassigner
 latest:
-  1.0.0--pyh7cba7a3_0: sha256:d706fb0fbd1f1c06161f3a1b1b090a701795c4af214ffe452ae3ed74a98a9b26
+  1.0.2--pyh7e72e81_0: sha256:20bb7b8fb631a14f8866fa19652974f4a12b52ba03fe3d90fc06c396b7312339
 tags:
   1.0.0--pyh7cba7a3_0: sha256:d706fb0fbd1f1c06161f3a1b1b090a701795c4af214ffe452ae3ed74a98a9b26
+  1.0.2--pyh7e72e81_0: sha256:20bb7b8fb631a14f8866fa19652974f4a12b52ba03fe3d90fc06c396b7312339
 docker: quay.io/biocontainers/unassigner
 aliases:
   count_mismatches: /usr/local/bin/count_mismatches
