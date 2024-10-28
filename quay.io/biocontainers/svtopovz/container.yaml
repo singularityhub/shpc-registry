@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/svtopovz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svtopovz
+latest:
+  0.1.1--pyhdfd78af_0: sha256:acd7e2e8e5c2e4edc86a8284cba40423ff98b8a2bc018c34e3e311f8347a6de2
+tags:
+  0.1.1--pyhdfd78af_0: sha256:acd7e2e8e5c2e4edc86a8284cba40423ff98b8a2bc018c34e3e311f8347a6de2
+docker: quay.io/biocontainers/svtopovz
+aliases:
+  svtopovz: /usr/local/bin/svtopovz
+  rav1e: /usr/local/bin/rav1e
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
