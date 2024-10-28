@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cobrar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cobrar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cobrar/container.yaml"
-updated_at: "2024-10-27 03:08:59.097148"
+updated_at: "2024-10-28 03:08:56.649664"
 latest: "0.1.0--r43h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/r-cobrar"
 aliases:

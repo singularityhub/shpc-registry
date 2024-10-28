@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unassigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unassigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unassigner/container.yaml"
-updated_at: "2024-10-27 03:21:14.100488"
-latest: "1.0.0--pyh7cba7a3_0"
+updated_at: "2024-10-28 03:21:32.451946"
+latest: "1.0.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/unassigner"
 aliases:
  - "count_mismatches"
@@ -21,8 +21,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0--pyh7cba7a3_0"
+ - "1.0.2--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for unassigner"
-config: {"url": "https://biocontainers.pro/tools/unassigner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unassigner", "latest": {"1.0.0--pyh7cba7a3_0": "sha256:d706fb0fbd1f1c06161f3a1b1b090a701795c4af214ffe452ae3ed74a98a9b26"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:d706fb0fbd1f1c06161f3a1b1b090a701795c4af214ffe452ae3ed74a98a9b26"}, "docker": "quay.io/biocontainers/unassigner", "aliases": {"count_mismatches": "/usr/local/bin/count_mismatches", "pctid_ani_sample": "/usr/local/bin/pctid_ani_sample", "trimragged": "/usr/local/bin/trimragged", "unassign": "/usr/local/bin/unassign", "unassigner": "/usr/local/bin/unassigner", "vsearch": "/usr/local/bin/vsearch", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/unassigner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unassigner", "latest": {"1.0.2--pyh7e72e81_0": "sha256:20bb7b8fb631a14f8866fa19652974f4a12b52ba03fe3d90fc06c396b7312339"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:d706fb0fbd1f1c06161f3a1b1b090a701795c4af214ffe452ae3ed74a98a9b26", "1.0.2--pyh7e72e81_0": "sha256:20bb7b8fb631a14f8866fa19652974f4a12b52ba03fe3d90fc06c396b7312339"}, "docker": "quay.io/biocontainers/unassigner", "aliases": {"count_mismatches": "/usr/local/bin/count_mismatches", "pctid_ani_sample": "/usr/local/bin/pctid_ani_sample", "trimragged": "/usr/local/bin/trimragged", "unassign": "/usr/local/bin/unassign", "unassigner": "/usr/local/bin/unassigner", "vsearch": "/usr/local/bin/vsearch", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unassigner.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/unassigner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unassigner:1.0.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/unassigner:1.0.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unassigner/1.0.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/unassigner/1.0.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/unassigner/1.0.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/unassigner/1.0.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

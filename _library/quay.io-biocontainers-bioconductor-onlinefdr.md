@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-onlinefdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onlinefdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onlinefdr/container.yaml"
-updated_at: "2024-10-27 02:57:50.016466"
+updated_at: "2024-10-28 02:57:50.829822"
 latest: "2.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onlinefdr"
 
