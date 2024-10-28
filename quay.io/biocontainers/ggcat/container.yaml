@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ggcat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ggcat
+latest:
+  1.1.0--hc9368f3_0: sha256:f7e2035f5143323eda8d70be605b34c0c8ea2e55dfa56b1da71bbebc09af45a3
+tags:
+  1.1.0--hc9368f3_0: sha256:f7e2035f5143323eda8d70be605b34c0c8ea2e55dfa56b1da71bbebc09af45a3
+docker: quay.io/biocontainers/ggcat
+aliases:
+  ggcat: /usr/local/bin/ggcat
