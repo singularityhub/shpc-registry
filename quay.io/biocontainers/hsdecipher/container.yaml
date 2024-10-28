@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hsdecipher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hsdecipher
 latest:
-  1.0.0--hdfd78af_1: sha256:1295383471c07aec6df66a6274bfaf541688e24ad88441b11911dedf6432d651
+  1.1.2--hdfd78af_0: sha256:66bdacc6a6537b5c9af787b25b0c0772d827ed2015b5fef67bd17bbf7678a34e
 tags:
   1.0.0--hdfd78af_0: sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a
   1.0.0--hdfd78af_1: sha256:1295383471c07aec6df66a6274bfaf541688e24ad88441b11911dedf6432d651
+  1.1.2--hdfd78af_0: sha256:66bdacc6a6537b5c9af787b25b0c0772d827ed2015b5fef67bd17bbf7678a34e
 docker: quay.io/biocontainers/hsdecipher
 aliases:
   HSD_add_on.py: /usr/local/bin/HSD_add_on.py

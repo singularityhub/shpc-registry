@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/sigprofilermatrixgenerator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sigprofilermatrixgenerator
 latest:
-  1.2.29--pyhdfd78af_0: sha256:3fd7b817208cc11df3b877cf48a4f250a501d1c6cfe25d50091d33617a67ff1b
+  1.2.30--pyhdfd78af_0: sha256:c41dc7ae142251cf32ecc5ab0ac677e09216e30d96986166dc8010f80b7154e5
 tags:
   1.2.26--pyhdfd78af_0: sha256:18d758e38cd289dfed5db8262521d0bcb9a24c73ce59663704e4d626fe9773a1
   1.2.28--pyhdfd78af_0: sha256:052800f83ba8314a0199ddeed468816d2d87edd9897a3f74037ee3e77977b8a1
   1.2.29--pyhdfd78af_0: sha256:3fd7b817208cc11df3b877cf48a4f250a501d1c6cfe25d50091d33617a67ff1b
+  1.2.30--pyhdfd78af_0: sha256:c41dc7ae142251cf32ecc5ab0ac677e09216e30d96986166dc8010f80b7154e5
 docker: quay.io/biocontainers/sigprofilermatrixgenerator
 aliases:
   SigProfilerMatrixGenerator: /usr/local/bin/SigProfilerMatrixGenerator
