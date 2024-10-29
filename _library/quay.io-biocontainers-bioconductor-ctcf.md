@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ctcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctcf/container.yaml"
-updated_at: "2024-10-28 03:42:32.135702"
+updated_at: "2024-10-29 03:45:46.092986"
 latest: "0.99.11--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctcf"
 

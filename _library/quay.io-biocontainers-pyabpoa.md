@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyabpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyabpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyabpoa/container.yaml"
-updated_at: "2024-10-28 03:22:45.162120"
+updated_at: "2024-10-29 03:23:19.283319"
 latest: "1.5.3--py310h1af8fb7_0"
 container_url: "https://biocontainers.pro/tools/pyabpoa"
 aliases:

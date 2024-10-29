@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancercamcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancercamcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancercamcap/container.yaml"
-updated_at: "2024-10-28 03:09:54.563426"
+updated_at: "2024-10-29 03:08:53.959588"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancercamcap"
 

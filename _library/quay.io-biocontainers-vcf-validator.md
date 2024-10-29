@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/vcf-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-validator/container.yaml"
-updated_at: "2024-10-28 03:20:28.605381"
-latest: "0.9.7--h9ee0642_0"
+updated_at: "2024-10-29 03:20:51.609634"
+latest: "0.10.0--h05c6178_1"
 container_url: "https://biocontainers.pro/tools/vcf-validator"
 aliases:
  - "vcf_assembly_checker"
  - "vcf_validator"
 versions:
  - "0.9.7--h9ee0642_0"
+ - "0.10.0--h05c6178_1"
 description: "singularity registry hpc automated addition for vcf-validator"
-config: {"url": "https://biocontainers.pro/tools/vcf-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf-validator", "latest": {"0.9.7--h9ee0642_0": "sha256:b42848a514ba7781cd894af60deb443d96487fc0cd826dd4674457a9c0ddc79e"}, "tags": {"0.9.7--h9ee0642_0": "sha256:b42848a514ba7781cd894af60deb443d96487fc0cd826dd4674457a9c0ddc79e"}, "docker": "quay.io/biocontainers/vcf-validator", "aliases": {"vcf_assembly_checker": "/usr/local/bin/vcf_assembly_checker", "vcf_validator": "/usr/local/bin/vcf_validator"}}
+config: {"url": "https://biocontainers.pro/tools/vcf-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf-validator", "latest": {"0.10.0--h05c6178_1": "sha256:7ce1b513659c52481b6afddfc9360f3f567b1b3a6417a3268a34ad400a55f08a"}, "tags": {"0.9.7--h9ee0642_0": "sha256:b42848a514ba7781cd894af60deb443d96487fc0cd826dd4674457a9c0ddc79e", "0.10.0--h05c6178_1": "sha256:7ce1b513659c52481b6afddfc9360f3f567b1b3a6417a3268a34ad400a55f08a"}, "docker": "quay.io/biocontainers/vcf-validator", "aliases": {"vcf_assembly_checker": "/usr/local/bin/vcf_assembly_checker", "vcf_validator": "/usr/local/bin/vcf_validator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf-validator.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/vcf-validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf-validator:0.9.7--h9ee0642_0
+$ shpc install quay.io/biocontainers/vcf-validator:0.10.0--h05c6178_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf-validator/0.9.7--h9ee0642_0
-$ module help quay.io/biocontainers/vcf-validator/0.9.7--h9ee0642_0
+$ module load quay.io/biocontainers/vcf-validator/0.10.0--h05c6178_1
+$ module help quay.io/biocontainers/vcf-validator/0.10.0--h05c6178_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

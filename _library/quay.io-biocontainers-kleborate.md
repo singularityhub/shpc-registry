@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kleborate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kleborate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kleborate/container.yaml"
-updated_at: "2024-10-28 03:40:29.443184"
-latest: "3.0.9--pyhdfd78af_0"
+updated_at: "2024-10-29 03:43:15.455305"
+latest: "3.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kleborate"
 aliases:
  - "kaptive.py"
@@ -26,8 +26,9 @@ versions:
  - "2.3.2--pyhdfd78af_0"
  - "3.0.5--pyhdfd78af_0"
  - "3.0.9--pyhdfd78af_0"
+ - "3.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for kleborate"
-config: {"url": "https://biocontainers.pro/tools/kleborate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kleborate", "latest": {"3.0.9--pyhdfd78af_0": "sha256:105bcaccd704d9c09d82cfc1a8fb1775e311d99c65499a7344346a83cfabbc1c"}, "tags": {"2.2.0--pyhdfd78af_0": "sha256:503a97f3531f59af5511a1f619ea3a0f4e0d2e5f714f99a30e3a9797be09b19d", "2.3.1--pyhdfd78af_0": "sha256:59c62701bb1013da74c4a758ddd63e15468f02dc0b8f8bb9f480673b8ab8daba", "2.3.2--pyhdfd78af_0": "sha256:8400ad100395918f249cd1f63c00be7fa361881baad46379c21664f0771d6609", "3.0.5--pyhdfd78af_0": "sha256:7145bc2007b576e239c53a1eb66ed38266dbb2d31076f97dc520575f7817f563", "3.0.9--pyhdfd78af_0": "sha256:105bcaccd704d9c09d82cfc1a8fb1775e311d99c65499a7344346a83cfabbc1c"}, "docker": "quay.io/biocontainers/kleborate", "aliases": {"kaptive.py": "/usr/local/bin/kaptive.py", "kleborate": "/usr/local/bin/kleborate", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod"}}
+config: {"url": "https://biocontainers.pro/tools/kleborate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kleborate", "latest": {"3.1.0--pyhdfd78af_0": "sha256:818f9cb5fcc76e7d25ffcfae0caf97dda7d928805c65cc0ec00541e36cd1846e"}, "tags": {"2.2.0--pyhdfd78af_0": "sha256:503a97f3531f59af5511a1f619ea3a0f4e0d2e5f714f99a30e3a9797be09b19d", "2.3.1--pyhdfd78af_0": "sha256:59c62701bb1013da74c4a758ddd63e15468f02dc0b8f8bb9f480673b8ab8daba", "2.3.2--pyhdfd78af_0": "sha256:8400ad100395918f249cd1f63c00be7fa361881baad46379c21664f0771d6609", "3.0.5--pyhdfd78af_0": "sha256:7145bc2007b576e239c53a1eb66ed38266dbb2d31076f97dc520575f7817f563", "3.0.9--pyhdfd78af_0": "sha256:105bcaccd704d9c09d82cfc1a8fb1775e311d99c65499a7344346a83cfabbc1c", "3.1.0--pyhdfd78af_0": "sha256:818f9cb5fcc76e7d25ffcfae0caf97dda7d928805c65cc0ec00541e36cd1846e"}, "docker": "quay.io/biocontainers/kleborate", "aliases": {"kaptive.py": "/usr/local/bin/kaptive.py", "kleborate": "/usr/local/bin/kleborate", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kleborate.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/kleborate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kleborate:3.0.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kleborate:3.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kleborate/3.0.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/kleborate/3.0.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/kleborate/3.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/kleborate/3.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

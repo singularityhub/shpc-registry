@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nucler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucler/container.yaml"
-updated_at: "2024-10-28 03:38:40.761778"
+updated_at: "2024-10-29 03:41:03.030524"
 latest: "2.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucler"
 aliases:

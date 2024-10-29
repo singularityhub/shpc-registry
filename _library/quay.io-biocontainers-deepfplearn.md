@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepfplearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepfplearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepfplearn/container.yaml"
-updated_at: "2024-10-28 03:29:35.486911"
+updated_at: "2024-10-29 03:30:49.872330"
 latest: "2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepfplearn"
 aliases:
