@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/steamboat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for steamboat
+latest:
+  1.0.0--pyhdfd78af_0: sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73
+tags:
+  1.0.0--pyhdfd78af_0: sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73
+docker: quay.io/biocontainers/steamboat
+aliases:
+  gisaid-batch: /usr/local/bin/gisaid-batch
+  executor: /usr/local/bin/executor
+  rich-click: /usr/local/bin/rich-click
+  numpy-config: /usr/local/bin/numpy-config
+  markdown-it: /usr/local/bin/markdown-it
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

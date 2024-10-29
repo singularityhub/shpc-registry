@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/mutyper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mutyper
+latest:
+  1.0.2--py310h7c593f9_0: sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0
+tags:
+  1.0.2--py310h7c593f9_0: sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0
+docker: quay.io/biocontainers/mutyper
+aliases:
+  mutyper: /usr/local/bin/mutyper
+  cyvcf2: /usr/local/bin/cyvcf2
+  annot-tsv: /usr/local/bin/annot-tsv
+  numpy-config: /usr/local/bin/numpy-config
+  coloredlogs: /usr/local/bin/coloredlogs
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  humanfriendly: /usr/local/bin/humanfriendly
+  faidx: /usr/local/bin/faidx
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
