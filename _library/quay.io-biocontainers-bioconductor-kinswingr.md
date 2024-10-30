@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kinswingr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kinswingr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kinswingr/container.yaml"
-updated_at: "2024-10-29 02:55:49.930410"
+updated_at: "2024-10-30 02:54:48.908696"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kinswingr"
 aliases:

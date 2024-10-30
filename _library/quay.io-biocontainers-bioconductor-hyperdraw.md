@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hyperdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hyperdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hyperdraw/container.yaml"
-updated_at: "2024-10-29 03:05:47.929925"
+updated_at: "2024-10-30 03:03:41.328758"
 latest: "1.54.0--r43h92b7604_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hyperdraw"
 aliases:
