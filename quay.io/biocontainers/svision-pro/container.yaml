@@ -1,0 +1,55 @@
+url: https://biocontainers.pro/tools/svision-pro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svision-pro
+latest:
+  2.0--pyhdfd78af_0: sha256:eb8cfd02932e8ff47f955eb2e5accc6bb6bc03a05aeee3e263f0c1d6a0bcc4c8
+tags:
+  2.0--pyhdfd78af_0: sha256:eb8cfd02932e8ff47f955eb2e5accc6bb6bc03a05aeee3e263f0c1d6a0bcc4c8
+docker: quay.io/biocontainers/svision-pro
+aliases:
+  SVision-pro: /usr/local/bin/SVision-pro
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  jiv: /usr/local/bin/jiv
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_model_diagnostics: /usr/local/bin/opencv_model_diagnostics
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  trust: /usr/local/bin/trust
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  x265: /usr/local/bin/x265
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
+  x264: /usr/local/bin/x264
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv
+  psktool: /usr/local/bin/psktool
+  sexp-conv: /usr/local/bin/sexp-conv
+  srptool: /usr/local/bin/srptool
+  ninja: /usr/local/bin/ninja
