@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccplotr/container.yaml"
-updated_at: "2024-10-30 03:24:53.414332"
+updated_at: "2024-10-30 15:57:57.432065"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccplotr"
 aliases:

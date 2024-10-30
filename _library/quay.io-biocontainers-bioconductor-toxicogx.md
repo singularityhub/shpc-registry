@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-toxicogx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-toxicogx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-toxicogx/container.yaml"
-updated_at: "2024-10-30 02:54:45.805464"
+updated_at: "2024-10-30 15:28:10.909834"
 latest: "2.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-toxicogx"
 

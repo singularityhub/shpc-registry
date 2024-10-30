@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-exception"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-exception/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-exception/container.yaml"
-updated_at: "2024-10-30 03:38:08.073261"
+updated_at: "2024-10-30 16:11:47.016892"
 latest: "0.43--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-exception"
 aliases:
