@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/stxtyper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stxtyper
+latest:
+  1.0.25--hdcf5f25_0: sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
+tags:
+  1.0.25--hdcf5f25_0: sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
+docker: quay.io/biocontainers/stxtyper
+aliases:
+  fasta_extract: /usr/local/bin/fasta_extract
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  fasta_check: /usr/local/bin/fasta_check
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  filter-genbank: /usr/local/bin/filter-genbank
+  filter-record: /usr/local/bin/filter-record

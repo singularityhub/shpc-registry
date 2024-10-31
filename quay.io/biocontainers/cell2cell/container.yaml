@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/cell2cell
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cell2cell
+latest:
+  0.7.4--py38h4ac6f70_0: sha256:34cc506e87d9d9ba29917b4f1fadb40ef0c34c29cc9db56b21db48ca914b2b44
+tags:
+  0.7.4--py38h4ac6f70_0: sha256:34cc506e87d9d9ba29917b4f1fadb40ef0c34c29cc9db56b21db48ca914b2b44
+docker: quay.io/biocontainers/cell2cell
+aliases:
+  gseapy: /usr/local/bin/gseapy
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  scanpy: /usr/local/bin/scanpy
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  h5delete: /usr/local/bin/h5delete
+  numba: /usr/local/bin/numba
+  natsort: /usr/local/bin/natsort
+  f2py3.8: /usr/local/bin/f2py3.8
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge

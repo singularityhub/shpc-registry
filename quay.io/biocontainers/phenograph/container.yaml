@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/phenograph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phenograph
+latest:
+  1.5.7--pyhdfd78af_0: sha256:7e92991944242f596d1de7b6e569c6f9264cc338923515b7be3c0fee0b37ce85
+tags:
+  1.5.7--pyhdfd78af_0: sha256:7e92991944242f596d1de7b6e569c6f9264cc338923515b7be3c0fee0b37ce85
+docker: quay.io/biocontainers/phenograph
+aliases:
+  igraph: /usr/local/bin/igraph
+  numpy-config: /usr/local/bin/numpy-config
+  glpsol: /usr/local/bin/glpsol
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

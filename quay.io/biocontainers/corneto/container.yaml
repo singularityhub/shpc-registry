@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/corneto
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for corneto
+latest:
+  1.0.0a0--pyhdfd78af_0: sha256:d69b3ffc69ef3742d0999cb971b6a54d4b81d9f0e4f8a67ad052bd3d0ebd071e
+tags:
+  1.0.0a0--pyhdfd78af_0: sha256:d69b3ffc69ef3742d0999cb971b6a54d4b81d9f0e4f8a67ad052bd3d0ebd071e
+docker: quay.io/biocontainers/corneto
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

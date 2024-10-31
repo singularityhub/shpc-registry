@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/pyscenic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyscenic
+latest:
+  0.12.1--pyhdfd78af_0: sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
+tags:
+  0.12.1--pyhdfd78af_0: sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
+docker: quay.io/biocontainers/pyscenic
+aliases:
+  arboreto_with_multiprocessing.py: /usr/local/bin/arboreto_with_multiprocessing.py
+  checksum-profile: /usr/local/bin/checksum-profile
+  csv2loom: /usr/local/bin/csv2loom
+  db2feather: /usr/local/bin/db2feather
+  elastishadow: /usr/local/bin/elastishadow
+  gmt2regions: /usr/local/bin/gmt2regions
+  invertdb: /usr/local/bin/invertdb
+  protoc-27.5.0: /usr/local/bin/protoc-27.5.0
+  pyscenic: /usr/local/bin/pyscenic
+  loompy: /usr/local/bin/loompy
+  get_gprof: /usr/local/bin/get_gprof
+  dask: /usr/local/bin/dask
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  bokeh: /usr/local/bin/bokeh
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
