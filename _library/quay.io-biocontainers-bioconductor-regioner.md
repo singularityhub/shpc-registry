@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-regioner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regioner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regioner/container.yaml"
-updated_at: "2024-10-31 01:01:17.049832"
+updated_at: "2024-10-31 03:40:01.176115"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regioner"
 aliases:
