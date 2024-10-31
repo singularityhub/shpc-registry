@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ruvcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ruvcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ruvcorr/container.yaml"
-updated_at: "2024-10-31 03:43:26.618158"
+updated_at: "2024-10-31 03:52:34.949251"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ruvcorr"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msgfplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msgfplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msgfplus/container.yaml"
-updated_at: "2024-10-31 03:41:37.770693"
+updated_at: "2024-10-31 03:50:45.438652"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msgfplus"
 aliases:
