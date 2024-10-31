@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusioncatcher-seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusioncatcher-seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher-seqtk/container.yaml"
-updated_at: "2024-10-30 15:52:49.783834"
+updated_at: "2024-10-31 00:44:14.427075"
 latest: "1.2--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/fusioncatcher-seqtk"
 aliases:

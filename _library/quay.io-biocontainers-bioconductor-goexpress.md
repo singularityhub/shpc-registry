@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-goexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-goexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-goexpress/container.yaml"
-updated_at: "2024-10-30 16:06:14.376901"
+updated_at: "2024-10-31 00:57:06.143385"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-goexpress"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transannot/container.yaml"
-updated_at: "2024-10-30 15:31:36.971878"
+updated_at: "2024-10-31 00:23:38.576339"
 latest: "3.70b2a60--pl5321h6a68c12_1"
 container_url: "https://biocontainers.pro/tools/transannot"
 aliases:
