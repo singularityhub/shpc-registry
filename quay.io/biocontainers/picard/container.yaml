@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/picard
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for picard
 latest:
-  3.2.0--hdfd78af_0: sha256:0ba3a90a242cfa06362da145df868e92401c1cc8cd85cc08e85c4a5c9e55ed23
+  3.3.0--hdfd78af_0: sha256:8b95c2742d74ccc04ce56af3ca051b9a418a246be48c9af5239f0274409e495d
 tags:
   2.9.2--py36_1: sha256:2aeca0a7a8985abd6e45e97db6f9cc84f1c3b3439573dc484fa7f86e9e443be5
   2.18.23--0: sha256:ae8e2821c8687a78606f17fafb417eea0de1ac75142ef94d428897f5d6b90876
@@ -16,6 +16,7 @@ tags:
   2.26.11--hdfd78af_0: sha256:229d61d04965e797b9f77dbb56d46a14646abb52c7bcdf0c9586c8382f06f851
   2.25.7--hdfd78af_0: sha256:cdd60185fdc3a479ed6cc918e739fefcf28f3f6853c8ec3f0f5cfce09f8258c9
   3.2.0--hdfd78af_0: sha256:0ba3a90a242cfa06362da145df868e92401c1cc8cd85cc08e85c4a5c9e55ed23
+  3.3.0--hdfd78af_0: sha256:8b95c2742d74ccc04ce56af3ca051b9a418a246be48c9af5239f0274409e495d
 docker: quay.io/biocontainers/picard
 aliases:
   picard: /usr/local/bin/picard

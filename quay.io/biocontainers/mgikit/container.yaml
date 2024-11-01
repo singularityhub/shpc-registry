@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mgikit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgikit
 latest:
-  0.1.6--h4c94732_0: sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4
+  0.1.7--h4c94732_0: sha256:5435e10072dfe3f17d375e750889c0ef4de1a745682049f0079b1eada73c469f
 tags:
   0.1.5--h4c94732_0: sha256:499811e979978077987761492c5d9d7c3af468b2caaf4ad501035e60580a9bf2
   0.1.5--h4c94732_1: sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471
   0.1.6--h4c94732_0: sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4
+  0.1.7--h4c94732_0: sha256:5435e10072dfe3f17d375e750889c0ef4de1a745682049f0079b1eada73c469f
 docker: quay.io/biocontainers/mgikit
 aliases:
   mgikit: /usr/local/bin/mgikit

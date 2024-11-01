@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hsdfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hsdfinder
 latest:
-  1.1.0--hdfd78af_0: sha256:71c58b2eda3d1d860405ec3bd0c6b066436e2a6104cb94fbd01ce66b1d2f2ac7
+  1.1.1--hdfd78af_0: sha256:f5e3b69f66bcb7da1344d11979c3f14bf376eb806430c173ea2565ddd4620b1d
 tags:
   1.0.0--hdfd78af_0: sha256:6af3c4284d891b246ca3430b6cdda32a8ec959a464f9aeba62da9216e05f6bb1
   1.1.0--hdfd78af_0: sha256:71c58b2eda3d1d860405ec3bd0c6b066436e2a6104cb94fbd01ce66b1d2f2ac7
+  1.1.1--hdfd78af_0: sha256:f5e3b69f66bcb7da1344d11979c3f14bf376eb806430c173ea2565ddd4620b1d
 docker: quay.io/biocontainers/hsdfinder
 aliases:
   KO_database.keg: /usr/local/bin/KO_database.keg
