@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openpyxl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openpyxl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openpyxl/container.yaml"
-updated_at: "2024-10-31 03:06:06.562699"
+updated_at: "2024-11-01 03:03:29.133637"
 latest: "2.4.0--py35_0"
 container_url: "https://biocontainers.pro/tools/openpyxl"
 aliases:

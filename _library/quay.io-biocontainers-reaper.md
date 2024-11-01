@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reaper/container.yaml"
-updated_at: "2024-10-31 03:48:21.965077"
+updated_at: "2024-11-01 03:42:30.689773"
 latest: "16.098--hed695b0_3"
 container_url: "https://biocontainers.pro/tools/reaper"
 aliases:

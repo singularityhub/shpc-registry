@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/medusa-data-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medusa-data-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medusa-data-fusion/container.yaml"
-updated_at: "2024-10-31 03:22:51.472357"
+updated_at: "2024-11-01 03:18:57.465210"
 latest: "0.1--pyh5ca1d4c_3"
 container_url: "https://biocontainers.pro/tools/medusa-data-fusion"
 aliases:

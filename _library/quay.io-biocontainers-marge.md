@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marge/container.yaml"
-updated_at: "2024-10-31 03:53:44.344203"
+updated_at: "2024-11-01 03:47:28.101591"
 latest: "1.0--py_2"
 container_url: "https://biocontainers.pro/tools/marge"
 aliases:

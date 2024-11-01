@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-prioritize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-prioritize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-prioritize/container.yaml"
-updated_at: "2024-10-31 03:40:55.210549"
+updated_at: "2024-11-01 03:35:38.832795"
 latest: "0.0.8--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bcbio-prioritize"
 aliases:

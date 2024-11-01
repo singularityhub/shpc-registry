@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wbuild"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wbuild/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wbuild/container.yaml"
-updated_at: "2024-10-31 03:39:33.659706"
+updated_at: "2024-11-01 03:34:23.453787"
 latest: "1.8.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/wbuild"
 aliases:

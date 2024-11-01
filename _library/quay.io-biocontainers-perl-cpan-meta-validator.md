@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-meta-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-validator/container.yaml"
-updated_at: "2024-10-31 03:54:10.108539"
+updated_at: "2024-11-01 03:47:51.892737"
 latest: "2.140640--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-validator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trackhub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trackhub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trackhub/container.yaml"
-updated_at: "2024-10-31 03:35:44.704542"
+updated_at: "2024-11-01 03:30:51.352980"
 latest: "1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/trackhub"
 aliases:

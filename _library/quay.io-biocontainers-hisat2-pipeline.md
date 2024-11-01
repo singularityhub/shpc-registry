@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hisat2-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2-pipeline/container.yaml"
-updated_at: "2024-10-31 03:08:50.166476"
+updated_at: "2024-11-01 03:05:59.774014"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hisat2-pipeline"
 aliases:

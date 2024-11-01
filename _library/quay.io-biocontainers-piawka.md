@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piawka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piawka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piawka/container.yaml"
-updated_at: "2024-10-31 03:43:20.069218"
+updated_at: "2024-11-01 03:37:52.383710"
 latest: "0.7.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piawka"
 aliases:

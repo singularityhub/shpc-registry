@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kneaddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kneaddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kneaddata/container.yaml"
-updated_at: "2024-10-31 03:42:35.818162"
+updated_at: "2024-11-01 03:37:11.443604"
 latest: "0.12.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/kneaddata"
 aliases:
