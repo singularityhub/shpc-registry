@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/auspice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for auspice
 latest:
-  2.58.0--h674ff67_0: sha256:7786e44db6938e1ede025da7ecdc5668cc19d14b40454882a079b12c12e7328f
+  2.59.1--h674ff67_0: sha256:694da154e0a294d6072ce39293b2feb6b4c9b9853d2ef14372b876d31bb3df77
 tags:
   2.39.0--h87f3376_1: sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268
   2.40.0--h87f3376_0: sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6
@@ -27,6 +27,7 @@ tags:
   2.57.0--h674ff67_0: sha256:fe689d05f799561a96b23e8493f0f881edcfd1bb7527468feccd3c59f5db2ae6
   2.56.1--h674ff67_0: sha256:edbf879bd8961f7c9772aa464f8306445cb8e9b2f3c042f90cdb45a7f7e87c0f
   2.58.0--h674ff67_0: sha256:7786e44db6938e1ede025da7ecdc5668cc19d14b40454882a079b12c12e7328f
+  2.59.1--h674ff67_0: sha256:694da154e0a294d6072ce39293b2feb6b4c9b9853d2ef14372b876d31bb3df77
 docker: quay.io/biocontainers/auspice
 aliases:
   auspice: /usr/local/bin/auspice

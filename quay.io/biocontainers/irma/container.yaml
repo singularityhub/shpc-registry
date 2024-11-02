@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/irma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for irma
 latest:
-  1.0.3--pl5321hdfd78af_0: sha256:357d555069f3bb7ff2f70fe2b015c2d51038e306a14fc0b880a9ab0398109124
+  1.2.0--pl5321hdfd78af_0: sha256:6a7d02cd10a6e7ffa28ce9b02fd6c882605c4a5b49ae1f6ef53e601736e3aa3a
 tags:
   1.0.2--pl5321hdfd78af_2: sha256:1ae0ba56c93255dd42011f02887d78decae4b0231940ba47d08c378de1e4ccc9
   1.0.3--pl5321hdfd78af_0: sha256:357d555069f3bb7ff2f70fe2b015c2d51038e306a14fc0b880a9ab0398109124
+  1.2.0--pl5321hdfd78af_0: sha256:6a7d02cd10a6e7ffa28ce9b02fd6c882605c4a5b49ae1f6ef53e601736e3aa3a
+  1.1.4--pl5321hdfd78af_0: sha256:c9de2839bc86cd8add3b685c4a464b80540af15f9654dfc185810c423c91a8f4
 docker: quay.io/biocontainers/irma
 aliases:
   IRMA: /usr/local/bin/IRMA

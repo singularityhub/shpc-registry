@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/galaxy-util
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy-util
 latest:
-  '23.1': sha256:87544d81703d802d4e257406259dadf6ce87990ebeff9c9139ed3a6791ef255a
+  23.2.1: sha256:0d962e684352b149eb101bbeb3768bc6464db131c024cc3c6636b4f21fb061ff
 tags:
   21.9.0--pyhdfd78af_0: sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c
   '23.1': sha256:87544d81703d802d4e257406259dadf6ce87990ebeff9c9139ed3a6791ef255a
+  23.2.1: sha256:0d962e684352b149eb101bbeb3768bc6464db131c024cc3c6636b4f21fb061ff
 docker: quay.io/biocontainers/galaxy-util
 aliases:
   cheetah: /usr/local/bin/cheetah

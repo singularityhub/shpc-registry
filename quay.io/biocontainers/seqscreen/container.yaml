@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/seqscreen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqscreen
 latest:
-  4.3--hdfd78af_0: sha256:540d2bc90dd9154f03a65a0601333cb1ae21c77e57078293fa18ad8f2e4bde40
+  4.3--hdfd78af_1: sha256:9e8cc8370e4573dcc19c80e458f098056445ea6d7ca0ef00d4aa32b44578e2b2
 tags:
   4.0--hdfd78af_0: sha256:8c2734117ced23268008bf5855894a922ca92a1b592e5857602c7db961f457e4
   4.3--hdfd78af_0: sha256:540d2bc90dd9154f03a65a0601333cb1ae21c77e57078293fa18ad8f2e4bde40
   4.2--hdfd78af_0: sha256:563a5b3738881a54315b44aa079c46eaba6a48d115c5b5a172b80d1d51ff3dbb
   4.1--hdfd78af_2: sha256:9f3928d5164bf55e06f952220e68a2cdcba2abc41672c31d97469092304632fd
   4.0--hdfd78af_8: sha256:4d18bc19f2af44450692a4685173769757c4aedbedbe94e2b70e4ca6cce921d9
+  4.3--hdfd78af_1: sha256:9e8cc8370e4573dcc19c80e458f098056445ea6d7ca0ef00d4aa32b44578e2b2
 docker: quay.io/biocontainers/seqscreen
 aliases:
   attr: /usr/local/bin/attr
