@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hsdfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hsdfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hsdfinder/container.yaml"
-updated_at: "2024-11-01 03:38:17.356783"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2024-11-02 03:27:30.283864"
+latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hsdfinder"
 aliases:
  - "KO_database.keg"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.1.0--hdfd78af_0"
+ - "1.1.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for hsdfinder"
-config: {"url": "https://biocontainers.pro/tools/hsdfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hsdfinder", "latest": {"1.1.0--hdfd78af_0": "sha256:71c58b2eda3d1d860405ec3bd0c6b066436e2a6104cb94fbd01ce66b1d2f2ac7"}, "tags": {"1.0.0--hdfd78af_0": "sha256:6af3c4284d891b246ca3430b6cdda32a8ec959a464f9aeba62da9216e05f6bb1", "1.1.0--hdfd78af_0": "sha256:71c58b2eda3d1d860405ec3bd0c6b066436e2a6104cb94fbd01ce66b1d2f2ac7"}, "docker": "quay.io/biocontainers/hsdfinder", "aliases": {"KO_database.keg": "/usr/local/bin/KO_database.keg", "hsd_to_kegg": "/usr/local/bin/hsd_to_kegg", "hsdfinder": "/usr/local/bin/hsdfinder", "operation.py": "/usr/local/bin/operation.py", "pfam.py": "/usr/local/bin/pfam.py", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/hsdfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hsdfinder", "latest": {"1.1.1--hdfd78af_0": "sha256:f5e3b69f66bcb7da1344d11979c3f14bf376eb806430c173ea2565ddd4620b1d"}, "tags": {"1.0.0--hdfd78af_0": "sha256:6af3c4284d891b246ca3430b6cdda32a8ec959a464f9aeba62da9216e05f6bb1", "1.1.0--hdfd78af_0": "sha256:71c58b2eda3d1d860405ec3bd0c6b066436e2a6104cb94fbd01ce66b1d2f2ac7", "1.1.1--hdfd78af_0": "sha256:f5e3b69f66bcb7da1344d11979c3f14bf376eb806430c173ea2565ddd4620b1d"}, "docker": "quay.io/biocontainers/hsdfinder", "aliases": {"KO_database.keg": "/usr/local/bin/KO_database.keg", "hsd_to_kegg": "/usr/local/bin/hsd_to_kegg", "hsdfinder": "/usr/local/bin/hsdfinder", "operation.py": "/usr/local/bin/operation.py", "pfam.py": "/usr/local/bin/pfam.py", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hsdfinder.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hsdfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hsdfinder:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/hsdfinder:1.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hsdfinder/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/hsdfinder/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/hsdfinder/1.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/hsdfinder/1.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

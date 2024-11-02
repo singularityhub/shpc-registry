@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytofqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofqc/container.yaml"
-updated_at: "2024-11-01 03:24:40.248083"
+updated_at: "2024-11-02 03:13:33.490097"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofqc"
 aliases:

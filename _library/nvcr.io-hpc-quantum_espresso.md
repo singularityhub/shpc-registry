@@ -4,8 +4,8 @@ name:  "nvcr.io/hpc/quantum_espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/quantum_espresso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/quantum_espresso/container.yaml"
-updated_at: "2024-11-01 03:49:39.361691"
-latest: "qe-7.1"
+updated_at: "2024-11-02 03:39:09.917528"
+latest: "qe-7.3.1"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "qe-6.8"
  - "qe-7.0"
  - "qe-7.1"
+ - "qe-7.3.1"
 description: "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale based on density-functional theory, plane waves, and pseudopotentials."
-config: {"docker": "nvcr.io/hpc/quantum_espresso", "url": "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags", "maintainer": "@vsoch", "description": "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale based on density-functional theory, plane waves, and pseudopotentials.", "latest": {"qe-7.1": "sha256:e525848fd411302f1e941b34f145a988a0ea2d300e14c93d3deec291c4c88edc"}, "tags": {"v6.7": "sha256:fdcea13eec98f48af813f172be42a40adf4e856d07cfb4ee1fc584d5c4a8f0f9", "qe-6.8": "sha256:1db6a3eae9baa8cbb6c72f227c14d48fd8a8b2548f021c10764608a321525de8", "qe-7.0": "sha256:e117f9df9868b7d7908fabc951719d8bf4a450ef7a9a01cf2e0ed5ab3f2b9651", "qe-7.1": "sha256:e525848fd411302f1e941b34f145a988a0ea2d300e14c93d3deec291c4c88edc"}, "filter": ["v*"], "features": {"gpu": true}}
+config: {"docker": "nvcr.io/hpc/quantum_espresso", "url": "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags", "maintainer": "@vsoch", "description": "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale based on density-functional theory, plane waves, and pseudopotentials.", "latest": {"qe-7.3.1": "sha256:02bf802756ab383553298b4e96be2b8daecfcbf147b1f929a8253c2c011ceccb"}, "tags": {"v6.7": "sha256:fdcea13eec98f48af813f172be42a40adf4e856d07cfb4ee1fc584d5c4a8f0f9", "qe-6.8": "sha256:1db6a3eae9baa8cbb6c72f227c14d48fd8a8b2548f021c10764608a321525de8", "qe-7.0": "sha256:e117f9df9868b7d7908fabc951719d8bf4a450ef7a9a01cf2e0ed5ab3f2b9651", "qe-7.1": "sha256:e525848fd411302f1e941b34f145a988a0ea2d300e14c93d3deec291c4c88edc", "qe-7.3.1": "sha256:02bf802756ab383553298b4e96be2b8daecfcbf147b1f929a8253c2c011ceccb"}, "filter": ["v*"], "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/quantum_espresso.
@@ -29,7 +30,7 @@ $ shpc install nvcr.io/hpc/quantum_espresso
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/quantum_espresso:qe-7.1
+$ shpc install nvcr.io/hpc/quantum_espresso:qe-7.3.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/quantum_espresso/qe-7.1
-$ module help nvcr.io/hpc/quantum_espresso/qe-7.1
+$ module load nvcr.io/hpc/quantum_espresso/qe-7.3.1
+$ module help nvcr.io/hpc/quantum_espresso/qe-7.3.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

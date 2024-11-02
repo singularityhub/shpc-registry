@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-experimenthub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimenthub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimenthub/container.yaml"
-updated_at: "2024-11-01 03:04:38.383387"
+updated_at: "2024-11-02 02:53:03.411643"
 latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimenthub"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-exporter-tidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-exporter-tidy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-exporter-tidy/container.yaml"
-updated_at: "2024-11-01 03:05:47.095184"
+updated_at: "2024-11-02 02:54:13.650147"
 latest: "0.08--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-exporter-tidy"
 aliases:
