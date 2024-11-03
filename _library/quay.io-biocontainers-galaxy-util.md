@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-util/container.yaml"
-updated_at: "2024-11-02 03:12:11.390293"
-latest: "23.1"
+updated_at: "2024-11-03 03:19:09.170597"
+latest: "23.2.1"
 container_url: "https://biocontainers.pro/tools/galaxy-util"
 aliases:
  - "cheetah"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "21.9.0--pyhdfd78af_0"
  - "23.1"
+ - "23.2.1"
 description: "shpc-registry automated BioContainers addition for galaxy-util"
-config: {"url": "https://biocontainers.pro/tools/galaxy-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-util", "latest": {"23.1": "sha256:87544d81703d802d4e257406259dadf6ce87990ebeff9c9139ed3a6791ef255a"}, "tags": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c", "23.1": "sha256:87544d81703d802d4e257406259dadf6ce87990ebeff9c9139ed3a6791ef255a"}, "docker": "quay.io/biocontainers/galaxy-util", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-util", "latest": {"23.2.1": "sha256:0d962e684352b149eb101bbeb3768bc6464db131c024cc3c6636b4f21fb061ff"}, "tags": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c", "23.1": "sha256:87544d81703d802d4e257406259dadf6ce87990ebeff9c9139ed3a6791ef255a", "23.2.1": "sha256:0d962e684352b149eb101bbeb3768bc6464db131c024cc3c6636b4f21fb061ff"}, "docker": "quay.io/biocontainers/galaxy-util", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-util.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/galaxy-util
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-util:23.1
+$ shpc install quay.io/biocontainers/galaxy-util:23.2.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-util/23.1
-$ module help quay.io/biocontainers/galaxy-util/23.1
+$ module load quay.io/biocontainers/galaxy-util/23.2.1
+$ module help quay.io/biocontainers/galaxy-util/23.2.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

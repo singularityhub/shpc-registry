@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-imputelcmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-imputelcmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-imputelcmd/container.yaml"
-updated_at: "2024-11-02 02:54:13.934735"
+updated_at: "2024-11-03 03:01:43.144816"
 latest: "2.1--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-imputelcmd"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scitrack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scitrack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scitrack/container.yaml"
-updated_at: "2024-11-02 03:12:35.681568"
-latest: "2021.5.3--pyhdfd78af_0"
+updated_at: "2024-11-03 03:19:32.781542"
+latest: "2024.10.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scitrack"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "2021.5.3--pyhdfd78af_0"
+ - "2024.10.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scitrack"
-config: {"url": "https://biocontainers.pro/tools/scitrack", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scitrack", "latest": {"2021.5.3--pyhdfd78af_0": "sha256:e43a2a0dfc80aee6c6552f0e903e6ee9c38f95f56c9372e5719964e61f2b2c14"}, "tags": {"2021.5.3--pyhdfd78af_0": "sha256:e43a2a0dfc80aee6c6552f0e903e6ee9c38f95f56c9372e5719964e61f2b2c14"}, "docker": "quay.io/biocontainers/scitrack", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/scitrack", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scitrack", "latest": {"2024.10.8--pyhdfd78af_0": "sha256:8562f5b0e61019d6f4323771b9f56266ab0baa30f01304e16a2bfd6910300061"}, "tags": {"2021.5.3--pyhdfd78af_0": "sha256:e43a2a0dfc80aee6c6552f0e903e6ee9c38f95f56c9372e5719964e61f2b2c14", "2024.10.8--pyhdfd78af_0": "sha256:8562f5b0e61019d6f4323771b9f56266ab0baa30f01304e16a2bfd6910300061"}, "docker": "quay.io/biocontainers/scitrack", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scitrack.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/scitrack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scitrack:2021.5.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scitrack:2024.10.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scitrack/2021.5.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/scitrack/2021.5.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/scitrack/2024.10.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/scitrack/2024.10.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mungesumstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mungesumstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mungesumstats/container.yaml"
-updated_at: "2024-11-02 03:05:19.615789"
+updated_at: "2024-11-03 03:12:29.190790"
 latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mungesumstats"
 

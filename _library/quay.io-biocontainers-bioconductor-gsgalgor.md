@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsgalgor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsgalgor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsgalgor/container.yaml"
-updated_at: "2024-11-02 03:36:09.682616"
+updated_at: "2024-11-03 03:42:26.275177"
 latest: "1.12.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsgalgor"
 

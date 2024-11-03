@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/salty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salty/container.yaml"
-updated_at: "2024-11-02 03:05:21.057000"
+updated_at: "2024-11-03 03:12:30.598641"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/salty"
 aliases:

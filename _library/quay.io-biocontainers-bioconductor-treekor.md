@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treekor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treekor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treekor/container.yaml"
-updated_at: "2024-11-02 02:51:39.094502"
+updated_at: "2024-11-03 02:59:12.713601"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treekor"
 
