@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/blaze2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for blaze2
 latest:
-  2.5.0--pyhdfd78af_0: sha256:5a32e0ea7ee8e7dd04a4310c320fd636adb035d532b31efcbe28bd217ec881f0
+  2.5.1--pyhdfd78af_0: sha256:2e62129fcd62310f8ca8d38123beee8b264c72eaefbaba8e33fdbec176aa5ace
 tags:
   2.2.1--pyhdfd78af_0: sha256:02a9117b49590f1d5aafc0f94a26db158dfff902a4ea1466067b2409c359153e
   2.4.0--pyhdfd78af_0: sha256:8351db0e1317d0e8050b975396ccbe6d9b6245afda560e175aaac83f9e41fccb
   2.5.0--pyhdfd78af_0: sha256:5a32e0ea7ee8e7dd04a4310c320fd636adb035d532b31efcbe28bd217ec881f0
+  2.5.1--pyhdfd78af_0: sha256:2e62129fcd62310f8ca8d38123beee8b264c72eaefbaba8e33fdbec176aa5ace
 docker: quay.io/biocontainers/blaze2
 aliases:
   blaze: /usr/local/bin/blaze
