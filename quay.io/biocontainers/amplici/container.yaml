@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/amplici
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amplici
+latest:
+  2.2--hd50232a_0: sha256:e48a24dabce073d0a224eab3c28a208ada53900e1944cec2c1d8c931e97377b0
+tags:
+  2.2--hd50232a_0: sha256:e48a24dabce073d0a224eab3c28a208ada53900e1944cec2c1d8c931e97377b0
+docker: quay.io/biocontainers/amplici
+aliases:
+  run_AmpliCI: /usr/local/bin/run_AmpliCI
