@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabosignal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabosignal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabosignal/container.yaml"
-updated_at: "2024-11-03 03:22:54.721592"
+updated_at: "2024-11-04 03:23:29.311338"
 latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabosignal"
 aliases:

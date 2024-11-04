@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coptr/container.yaml"
-updated_at: "2024-11-03 03:17:08.738163"
+updated_at: "2024-11-04 03:17:27.756633"
 latest: "1.1.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/coptr"
 aliases:

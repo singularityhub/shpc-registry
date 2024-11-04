@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schema/container.yaml"
-updated_at: "2024-11-03 03:37:08.092039"
+updated_at: "2024-11-04 03:38:23.043131"
 latest: "0.7.0--py_0"
 container_url: "https://biocontainers.pro/tools/schema"
 

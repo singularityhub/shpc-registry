@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rosella"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rosella/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rosella/container.yaml"
-updated_at: "2024-11-03 02:59:49.346112"
-latest: "0.5.4--h8e1a5b0_0"
+updated_at: "2024-11-04 02:59:32.055511"
+latest: "0.5.5--h8e1a5b0_0"
 container_url: "https://biocontainers.pro/tools/rosella"
 aliases:
  - "remove_minimap2_duplicated_headers"
@@ -28,8 +28,9 @@ versions:
  - "0.5.2--h8e1a5b0_0"
  - "0.5.3--h8e1a5b0_0"
  - "0.5.4--h8e1a5b0_0"
+ - "0.5.5--h8e1a5b0_0"
 description: "shpc-registry automated BioContainers addition for rosella"
-config: {"url": "https://biocontainers.pro/tools/rosella", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rosella", "latest": {"0.5.4--h8e1a5b0_0": "sha256:6018222cbfab3c5b64ff9594c9b29e810fd22e7e2fbb6aa6f7e3a4012f0d6ca2"}, "tags": {"0.4.2--h6f8cb4c_1": "sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2", "0.4.2--h8e1a5b0_2": "sha256:3a4d0c0189f5cc296dde835d24491f901cbef447cafff4102fed896e77838268", "0.5.1--h8e1a5b0_0": "sha256:3e3815389e45839026de67cc4c2f34e1006be044d67a8da1a3cf172ec25c39e8", "0.5.2--h8e1a5b0_0": "sha256:909fe34694197733e957c6184813a0641a037e9dcdbe321bfded34fd377bf2b7", "0.5.3--h8e1a5b0_0": "sha256:4f5a544b278d0ef41289c81f7d50e74c21107cf0fa0aedbd9945db8397a00cec", "0.5.4--h8e1a5b0_0": "sha256:6018222cbfab3c5b64ff9594c9b29e810fd22e7e2fbb6aa6f7e3a4012f0d6ca2"}, "docker": "quay.io/biocontainers/rosella", "aliases": {"remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "rosella": "/usr/local/bin/rosella", "starcode": "/usr/local/bin/starcode", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
+config: {"url": "https://biocontainers.pro/tools/rosella", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rosella", "latest": {"0.5.5--h8e1a5b0_0": "sha256:29a921ccd59de40caa6809508545bab8c0acac8befb86bafc8c9f34277e5a3c3"}, "tags": {"0.4.2--h6f8cb4c_1": "sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2", "0.4.2--h8e1a5b0_2": "sha256:3a4d0c0189f5cc296dde835d24491f901cbef447cafff4102fed896e77838268", "0.5.1--h8e1a5b0_0": "sha256:3e3815389e45839026de67cc4c2f34e1006be044d67a8da1a3cf172ec25c39e8", "0.5.2--h8e1a5b0_0": "sha256:909fe34694197733e957c6184813a0641a037e9dcdbe321bfded34fd377bf2b7", "0.5.3--h8e1a5b0_0": "sha256:4f5a544b278d0ef41289c81f7d50e74c21107cf0fa0aedbd9945db8397a00cec", "0.5.4--h8e1a5b0_0": "sha256:6018222cbfab3c5b64ff9594c9b29e810fd22e7e2fbb6aa6f7e3a4012f0d6ca2", "0.5.5--h8e1a5b0_0": "sha256:29a921ccd59de40caa6809508545bab8c0acac8befb86bafc8c9f34277e5a3c3"}, "docker": "quay.io/biocontainers/rosella", "aliases": {"remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "rosella": "/usr/local/bin/rosella", "starcode": "/usr/local/bin/starcode", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rosella.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/rosella
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rosella:0.5.4--h8e1a5b0_0
+$ shpc install quay.io/biocontainers/rosella:0.5.5--h8e1a5b0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rosella/0.5.4--h8e1a5b0_0
-$ module help quay.io/biocontainers/rosella/0.5.4--h8e1a5b0_0
+$ module load quay.io/biocontainers/rosella/0.5.5--h8e1a5b0_0
+$ module help quay.io/biocontainers/rosella/0.5.5--h8e1a5b0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

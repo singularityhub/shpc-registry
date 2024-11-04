@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/voyager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voyager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voyager/container.yaml"
-updated_at: "2024-11-03 03:11:32.652100"
-latest: "0.1.1--hdfd78af_0"
+updated_at: "2024-11-04 03:11:41.198443"
+latest: "0.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/voyager"
 aliases:
  - "voyager-build-cli"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "0.1.0--hdfd78af_0"
  - "0.1.1--hdfd78af_0"
+ - "0.1.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for voyager"
-config: {"url": "https://biocontainers.pro/tools/voyager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for voyager", "latest": {"0.1.1--hdfd78af_0": "sha256:291ff5e9c7d96a359c1a743620af77c5c1bf7f2530de3db2cb1b841598f230b5"}, "tags": {"0.1.0--hdfd78af_0": "sha256:95818ef8131dd39512ca206fe4a50e8ad459f10bb51ae77875bdcc6a918543cc", "0.1.1--hdfd78af_0": "sha256:291ff5e9c7d96a359c1a743620af77c5c1bf7f2530de3db2cb1b841598f230b5"}, "docker": "quay.io/biocontainers/voyager", "aliases": {"voyager-build-cli": "/usr/local/bin/voyager-build-cli", "voyager-cli": "/usr/local/bin/voyager-cli", "voyager-combine-cli": "/usr/local/bin/voyager-combine-cli", "voyager-debug-index": "/usr/local/bin/voyager-debug-index", "voyager-monitor": "/usr/local/bin/voyager-monitor", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
+config: {"url": "https://biocontainers.pro/tools/voyager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for voyager", "latest": {"0.1.2--hdfd78af_0": "sha256:d54f7753cde91ef74a215a53b3932de17f94dcebc5ebc628bfa64339de3f324a"}, "tags": {"0.1.0--hdfd78af_0": "sha256:95818ef8131dd39512ca206fe4a50e8ad459f10bb51ae77875bdcc6a918543cc", "0.1.1--hdfd78af_0": "sha256:291ff5e9c7d96a359c1a743620af77c5c1bf7f2530de3db2cb1b841598f230b5", "0.1.2--hdfd78af_0": "sha256:d54f7753cde91ef74a215a53b3932de17f94dcebc5ebc628bfa64339de3f324a"}, "docker": "quay.io/biocontainers/voyager", "aliases": {"voyager-build-cli": "/usr/local/bin/voyager-build-cli", "voyager-cli": "/usr/local/bin/voyager-cli", "voyager-combine-cli": "/usr/local/bin/voyager-combine-cli", "voyager-debug-index": "/usr/local/bin/voyager-debug-index", "voyager-monitor": "/usr/local/bin/voyager-monitor", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/voyager.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/voyager
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/voyager:0.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/voyager:0.1.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/voyager/0.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/voyager/0.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/voyager/0.1.2--hdfd78af_0
+$ module help quay.io/biocontainers/voyager/0.1.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
