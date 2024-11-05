@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/lofreq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lofreq
 latest:
-  2.1.5--py38h7cf9df2_11: sha256:b24bf1b0fdb83c43b7a82577e7b4fa400a6c05e1b67bdcd04b3e1a20f6712fe3
+  2.1.5--py312he028972_14: sha256:cdab780f441d0d5a48fadcbcd38bc924efbdc2c013ca0a8a4639c58b047f4cc2
 tags:
   2.1.5--py38ha1fcc84_8: sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8
   broken---2.5.1--py38h1bd3507_2: sha256:1b8da7808ef98f526df7781f69dd67775d88d87236e126ec0c2f310a036355ba
   2.1.5--py38h794fc9e_10: sha256:1d586fd2dcc67327f6799c7f0fd17b98906d4282b6ea2e109f1c8286d9350361
   2.1.5--py38h7cf9df2_11: sha256:b24bf1b0fdb83c43b7a82577e7b4fa400a6c05e1b67bdcd04b3e1a20f6712fe3
+  2.1.5--py312he028972_14: sha256:cdab780f441d0d5a48fadcbcd38bc924efbdc2c013ca0a8a4639c58b047f4cc2
 docker: quay.io/biocontainers/lofreq
 aliases:
   lofreq: /usr/local/bin/lofreq

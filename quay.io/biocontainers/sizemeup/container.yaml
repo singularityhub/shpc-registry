@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sizemeup
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sizemeup
 latest:
-  1.2.3--pyhdfd78af_0: sha256:968f9dfb27aeb91ed2c12e83961c2efe9c3ebf52274ed2e3f51fb7138f064caf
+  1.3.0--pyhdfd78af_0: sha256:dd82f4f622137f00a4b1325e77c7e484884b459cd07e0a39d9f599831164cae5
 tags:
   1.2.3--pyhdfd78af_0: sha256:968f9dfb27aeb91ed2c12e83961c2efe9c3ebf52274ed2e3f51fb7138f064caf
+  1.3.0--pyhdfd78af_0: sha256:dd82f4f622137f00a4b1325e77c7e484884b459cd07e0a39d9f599831164cae5
 docker: quay.io/biocontainers/sizemeup
 aliases:
   sizemeup: /usr/local/bin/sizemeup

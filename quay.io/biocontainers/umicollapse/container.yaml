@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/umicollapse
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for umicollapse
 latest:
-  1.0.0--hdfd78af_1: sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8
+  1.1.0--hdfd78af_0: sha256:fa40105b2cd854527d14954c2b3a003f10f511c787cf7984128c21b1ab66cef0
 tags:
   1.0.0--hdfd78af_1: sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8
+  1.1.0--hdfd78af_0: sha256:fa40105b2cd854527d14954c2b3a003f10f511c787cf7984128c21b1ab66cef0
 docker: quay.io/biocontainers/umicollapse
 aliases:
   umicollapse: /usr/local/bin/umicollapse

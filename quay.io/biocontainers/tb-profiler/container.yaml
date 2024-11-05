@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/tb-profiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tb-profiler
 latest:
-  6.3.0--pyhdfd78af_0: sha256:1177de9d0648f3e6a5eabe8d1162aab6be0b7c7fddb0e88ab15db7e315e5b2d9
+  6.4.0--pyhdfd78af_0: sha256:36fdd275f121cb2c1add1a8be292f30889e8a4f4bdaa0ed803423b44b5582f70
 tags:
   4.0.3--pypyh5e36f6f_0: sha256:68bf8f25b462196c1ae5c8b340ee7026fd69f3ae01450e8a31314f494c73d85d
   6.2.0--pyhdfd78af_0: sha256:6538ad17708053e304d8228ab1d7f52106a805d0494a11dcd01f7c06f53094ad
@@ -12,6 +12,7 @@ tags:
   4.4.2--pyh7cba7a3_0: sha256:39572645f2b8519b1ef5100a3ca0d7249ce1910f6d9870c27b8b092564df1e7e
   6.2.1--pyhdfd78af_0: sha256:f3735dc2ca95442ec1dc49fa7fc0578b3075dc13600a31ba19d7ac210a608c2e
   6.3.0--pyhdfd78af_0: sha256:1177de9d0648f3e6a5eabe8d1162aab6be0b7c7fddb0e88ab15db7e315e5b2d9
+  6.4.0--pyhdfd78af_0: sha256:36fdd275f121cb2c1add1a8be292f30889e8a4f4bdaa0ed803423b44b5582f70
 docker: quay.io/biocontainers/tb-profiler
 aliases:
   add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py

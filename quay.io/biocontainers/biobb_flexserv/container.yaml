@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/biobb_flexserv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_flexserv
 latest:
-  4.2.0--pypl5321hdfd78af_0: sha256:2506637841a27653f2b555b6afce85ad50b061cae918aeba5b396635e885a90e
+  5.0.0--pypl5321hdfd78af_0: sha256:22ea2950a325d581c0e736d03727a163366b4021719162c73faa9fbf5a9bc342
 tags:
   3.9.1--pyhdfd78af_1: sha256:5dff87be6311486611b5367b275c79f14b8205fb6cf7ad97351a5e7601aefab5
   4.0.0--pyhdfd78af_0: sha256:62025c9b7269eed02eedadbeab69a2162c9ca6eedc2f09617ea8fecfe5df3a09
@@ -10,6 +10,7 @@ tags:
   4.0.3--pypl5321hdfd78af_0: sha256:a186f95a11b12933c7a99f3f6141292586354a95281e034c529246497bd550bb
   4.1.0--pypl5321hdfd78af_0: sha256:b49637a223de300cbd19da865d0e99c68aeb7fafe6103bc720a32e3435adb63e
   4.2.0--pypl5321hdfd78af_0: sha256:2506637841a27653f2b555b6afce85ad50b061cae918aeba5b396635e885a90e
+  5.0.0--pypl5321hdfd78af_0: sha256:22ea2950a325d581c0e736d03727a163366b4021719162c73faa9fbf5a9bc342
 docker: quay.io/biocontainers/biobb_flexserv
 aliases:
   bd: /usr/local/bin/bd

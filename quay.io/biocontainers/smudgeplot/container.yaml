@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/smudgeplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smudgeplot
 latest:
-  0.3.0--py39r43hff71179_1: sha256:b01ec3f68b3951d8be3cede84b8e39ce484b2b49330ea8325d6f888354140603
+  0.4.0--py311r43hdad781d_0: sha256:f149f44c0cd29591ddc46a1c025fb42dfbff5b009f308c3321e904e562182e0f
 tags:
   0.2.5--py38r41hbff2b2d_0: sha256:9e47c3550abc185291a5466bc5137d4f5f711bb258f3363fe6fe6129ba2c8b62
   0.2.5--py38r42hbff2b2d_1: sha256:b7b1f193b1ed0ab39de60086f6e892cfa415253d233576fef27db493cdf639ba
@@ -10,6 +10,7 @@ tags:
   0.2.5--py310r42h4b81fae_3: sha256:8a19c82f8ab80418c8caaec1bf25ded4ae7927e6c7a3c2863f1f87347abcffd3
   0.2.5--py311r43hdad781d_4: sha256:5a1a237d02b851cdc338229af5e5bedeb9947bdfc52ef8f893e16e1ad212e341
   0.3.0--py39r43hff71179_1: sha256:b01ec3f68b3951d8be3cede84b8e39ce484b2b49330ea8325d6f888354140603
+  0.4.0--py311r43hdad781d_0: sha256:f149f44c0cd29591ddc46a1c025fb42dfbff5b009f308c3321e904e562182e0f
 docker: quay.io/biocontainers/smudgeplot
 aliases:
   smudgeplot.py: /usr/local/bin/smudgeplot.py
