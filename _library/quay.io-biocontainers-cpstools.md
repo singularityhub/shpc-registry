@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cpstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpstools/container.yaml"
-updated_at: "2024-11-04 08:02:00.246775"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2024-11-05 03:03:36.861612"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cpstools"
 aliases:
  - "cpstools"
@@ -19,8 +19,9 @@ versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.0.13--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cpstools"
-config: {"url": "https://biocontainers.pro/tools/cpstools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cpstools", "latest": {"2.0.0--pyhdfd78af_0": "sha256:6dabcaeb6dfcf791395d5afacab918afc68e1f6dfe1a3bb72205e7aebf974ae3"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:65268e0b5137b99eaf798e9ad45296cfd01e9275f3c86d732167b41549b99806", "1.0.13--pyhdfd78af_0": "sha256:a27f850ee691dac04365b3c0d3186fbf08ce314c40b6ffdc845ae9e9750eb589", "2.0.0--pyhdfd78af_0": "sha256:6dabcaeb6dfcf791395d5afacab918afc68e1f6dfe1a3bb72205e7aebf974ae3"}, "docker": "quay.io/biocontainers/cpstools", "aliases": {"cpstools": "/usr/local/bin/cpstools", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/cpstools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cpstools", "latest": {"2.0.2--pyhdfd78af_0": "sha256:ea234c2796a4cdca015b5f7474b5703ac3d177bbea0b516e020d59e53fc8dd1d"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:65268e0b5137b99eaf798e9ad45296cfd01e9275f3c86d732167b41549b99806", "1.0.13--pyhdfd78af_0": "sha256:a27f850ee691dac04365b3c0d3186fbf08ce314c40b6ffdc845ae9e9750eb589", "2.0.0--pyhdfd78af_0": "sha256:6dabcaeb6dfcf791395d5afacab918afc68e1f6dfe1a3bb72205e7aebf974ae3", "2.0.2--pyhdfd78af_0": "sha256:ea234c2796a4cdca015b5f7474b5703ac3d177bbea0b516e020d59e53fc8dd1d"}, "docker": "quay.io/biocontainers/cpstools", "aliases": {"cpstools": "/usr/local/bin/cpstools", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cpstools.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/cpstools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cpstools:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cpstools:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cpstools/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cpstools/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cpstools/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cpstools/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

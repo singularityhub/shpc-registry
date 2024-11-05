@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedops/container.yaml"
-updated_at: "2024-11-04 07:54:15.047549"
+updated_at: "2024-11-05 02:55:21.549079"
 latest: "2.4.41--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/bedops"
 aliases:

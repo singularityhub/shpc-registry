@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxmyphage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxmyphage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxmyphage/container.yaml"
-updated_at: "2024-11-04 08:34:02.313325"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2024-11-05 03:37:19.271681"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxmyphage"
 aliases:
  - "taxmyphage"
@@ -42,8 +42,9 @@ versions:
  - "0.2.8--pyhdfd78af_0"
  - "0.2.9--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for taxmyphage"
-config: {"url": "https://biocontainers.pro/tools/taxmyphage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxmyphage", "latest": {"0.3.1--pyhdfd78af_0": "sha256:16881d9e6211519cf3da51df5359aca7164d5067eac6caacbb9008faf3782fe1"}, "tags": {"0.1.9--pyhdfd78af_0": "sha256:8b46ea32e3328eb038dbc92200a1f83b31833475c575ea0005d0116c11d539da", "0.2.3--pyhdfd78af_0": "sha256:2916f24702c4ef8500741f0c341390448bd31291149851b2257e733bdcccc8af", "0.2.6--pyhdfd78af_0": "sha256:b8fe2e6a9f6adc79895ccdc7c8dcbf8950affd43b15d2ca3f6f25cbba71c2aab", "0.2.7--pyhdfd78af_0": "sha256:1f10ebca3364b6a661166ad57ade34f450706e9215cadea10e1c2080d905a40b", "0.2.8--pyhdfd78af_0": "sha256:0638e0c6615767926f5ceef49480292448c01bf16ad2b823e9c73f8c67352dac", "0.2.9--pyhdfd78af_0": "sha256:5835bd640ad21d3b473b85a7bc05b6a4ecdc5b073e46a655e8f1a5d9afb69e76", "0.3.1--pyhdfd78af_0": "sha256:16881d9e6211519cf3da51df5359aca7164d5067eac6caacbb9008faf3782fe1"}, "docker": "quay.io/biocontainers/taxmyphage", "aliases": {"taxmyphage": "/usr/local/bin/taxmyphage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "blastn_vdb": "/usr/local/bin/blastn_vdb", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/taxmyphage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxmyphage", "latest": {"0.3.3--pyhdfd78af_0": "sha256:6e3275ba06c42f0f2abf5d38fb7c2c0af269c0e14801b309c27addd407578320"}, "tags": {"0.1.9--pyhdfd78af_0": "sha256:8b46ea32e3328eb038dbc92200a1f83b31833475c575ea0005d0116c11d539da", "0.2.3--pyhdfd78af_0": "sha256:2916f24702c4ef8500741f0c341390448bd31291149851b2257e733bdcccc8af", "0.2.6--pyhdfd78af_0": "sha256:b8fe2e6a9f6adc79895ccdc7c8dcbf8950affd43b15d2ca3f6f25cbba71c2aab", "0.2.7--pyhdfd78af_0": "sha256:1f10ebca3364b6a661166ad57ade34f450706e9215cadea10e1c2080d905a40b", "0.2.8--pyhdfd78af_0": "sha256:0638e0c6615767926f5ceef49480292448c01bf16ad2b823e9c73f8c67352dac", "0.2.9--pyhdfd78af_0": "sha256:5835bd640ad21d3b473b85a7bc05b6a4ecdc5b073e46a655e8f1a5d9afb69e76", "0.3.1--pyhdfd78af_0": "sha256:16881d9e6211519cf3da51df5359aca7164d5067eac6caacbb9008faf3782fe1", "0.3.3--pyhdfd78af_0": "sha256:6e3275ba06c42f0f2abf5d38fb7c2c0af269c0e14801b309c27addd407578320"}, "docker": "quay.io/biocontainers/taxmyphage", "aliases": {"taxmyphage": "/usr/local/bin/taxmyphage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "blastn_vdb": "/usr/local/bin/blastn_vdb", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxmyphage.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/taxmyphage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxmyphage:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/taxmyphage:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxmyphage/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/taxmyphage/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/taxmyphage/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/taxmyphage/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

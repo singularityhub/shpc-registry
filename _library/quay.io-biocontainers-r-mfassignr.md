@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-mfassignr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mfassignr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mfassignr/container.yaml"
-updated_at: "2024-11-04 08:18:37.110323"
-latest: "1.1.1--r44hdfd78af_0"
+updated_at: "2024-11-05 03:21:12.736539"
+latest: "1.1.2--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-mfassignr"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.3"
  - "1.1.1--r44hdfd78af_0"
+ - "1.1.2--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-mfassignr"
-config: {"url": "https://biocontainers.pro/tools/r-mfassignr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-mfassignr", "latest": {"1.1.1--r44hdfd78af_0": "sha256:5b7d09513c3b8a2a3010c67931f48a3a0e7a06441a14648c3db28b71334a3ea9"}, "tags": {"1.0.3": "sha256:6cac6c86071e7bbf1a56fd014e58e2d8400213fadc252a95caf6f88971c736fc", "1.1.1--r44hdfd78af_0": "sha256:5b7d09513c3b8a2a3010c67931f48a3a0e7a06441a14648c3db28b71334a3ea9"}, "docker": "quay.io/biocontainers/r-mfassignr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-mfassignr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-mfassignr", "latest": {"1.1.2--r44hdfd78af_0": "sha256:f127d6028a5cdb6f686a561fc3414124a3a70fa68758c306726fcca2d565827e"}, "tags": {"1.0.3": "sha256:6cac6c86071e7bbf1a56fd014e58e2d8400213fadc252a95caf6f88971c736fc", "1.1.1--r44hdfd78af_0": "sha256:5b7d09513c3b8a2a3010c67931f48a3a0e7a06441a14648c3db28b71334a3ea9", "1.1.2--r44hdfd78af_0": "sha256:f127d6028a5cdb6f686a561fc3414124a3a70fa68758c306726fcca2d565827e"}, "docker": "quay.io/biocontainers/r-mfassignr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mfassignr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-mfassignr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mfassignr:1.1.1--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-mfassignr:1.1.2--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mfassignr/1.1.1--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-mfassignr/1.1.1--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-mfassignr/1.1.2--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-mfassignr/1.1.2--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

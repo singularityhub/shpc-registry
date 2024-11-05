@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igfinder/container.yaml"
-updated_at: "2024-11-04 08:30:28.131952"
+updated_at: "2024-11-05 03:33:45.319475"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/igfinder"
 aliases:

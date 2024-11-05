@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-object-pluggable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-object-pluggable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-object-pluggable/container.yaml"
-updated_at: "2024-11-04 08:19:43.543438"
+updated_at: "2024-11-05 03:22:22.952616"
 latest: "0.0014--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-moosex-object-pluggable"
 aliases:

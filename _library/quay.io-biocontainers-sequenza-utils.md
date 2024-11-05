@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequenza-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenza-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenza-utils/container.yaml"
-updated_at: "2024-11-04 08:30:30.215446"
+updated_at: "2024-11-05 03:33:47.304055"
 latest: "3.0.0--py312h719dbc0_7"
 container_url: "https://biocontainers.pro/tools/sequenza-utils"
 aliases:

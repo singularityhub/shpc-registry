@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/teloclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teloclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teloclip/container.yaml"
-updated_at: "2024-11-04 08:00:14.322308"
-latest: "0.0.4--pyhdfd78af_0"
+updated_at: "2024-11-05 03:01:45.392379"
+latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/teloclip"
 aliases:
  - "teloclip"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.0.3--py_1"
  - "0.0.4--pyhdfd78af_0"
+ - "0.0.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for teloclip"
-config: {"url": "https://biocontainers.pro/tools/teloclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for teloclip", "latest": {"0.0.4--pyhdfd78af_0": "sha256:9a549bb822b4b7ed1825cc2f0df222741706b8c20d65accda30c86da6a98a487"}, "tags": {"0.0.3--py_1": "sha256:3ff070db3f94d000c384d6822e6f235ca295cb8e6ce8c28e581cdef72189a23a", "0.0.4--pyhdfd78af_0": "sha256:9a549bb822b4b7ed1825cc2f0df222741706b8c20d65accda30c86da6a98a487"}, "docker": "quay.io/biocontainers/teloclip", "aliases": {"teloclip": "/usr/local/bin/teloclip", "teloclip-extract": "/usr/local/bin/teloclip-extract", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/teloclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for teloclip", "latest": {"0.0.5--pyhdfd78af_0": "sha256:e478bf4b3f83bd225037c6e75193411adb3ea2042f2f823f0a112e6d50731926"}, "tags": {"0.0.3--py_1": "sha256:3ff070db3f94d000c384d6822e6f235ca295cb8e6ce8c28e581cdef72189a23a", "0.0.4--pyhdfd78af_0": "sha256:9a549bb822b4b7ed1825cc2f0df222741706b8c20d65accda30c86da6a98a487", "0.0.5--pyhdfd78af_0": "sha256:e478bf4b3f83bd225037c6e75193411adb3ea2042f2f823f0a112e6d50731926"}, "docker": "quay.io/biocontainers/teloclip", "aliases": {"teloclip": "/usr/local/bin/teloclip", "teloclip-extract": "/usr/local/bin/teloclip-extract", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/teloclip.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/teloclip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/teloclip:0.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/teloclip:0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/teloclip/0.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/teloclip/0.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/teloclip/0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/teloclip/0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
