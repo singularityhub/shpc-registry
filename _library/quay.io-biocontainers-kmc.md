@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmc/container.yaml"
-updated_at: "2024-11-05 03:11:24.817598"
-latest: "3.2.4--h6dccd9a_1"
+updated_at: "2024-11-06 03:08:27.466721"
+latest: "3.2.4--h6dccd9a_2"
 container_url: "https://biocontainers.pro/tools/kmc"
 aliases:
  - "kmc"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "3.2.1--hf1761c0_2"
  - "3.2.4--h6dccd9a_1"
+ - "3.2.4--h6dccd9a_2"
 description: "shpc-registry automated BioContainers addition for kmc"
-config: {"url": "https://biocontainers.pro/tools/kmc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmc", "latest": {"3.2.4--h6dccd9a_1": "sha256:e02813f006a1a3df285f82bab31f539f2d2be2d2871c1f57203e9e4d12f4201e"}, "tags": {"3.2.1--hf1761c0_2": "sha256:caf06b4128b4a848e7782ac1f88e4f9f85e9ee8d4c7e03249168ce79be212e25", "3.2.4--h6dccd9a_1": "sha256:e02813f006a1a3df285f82bab31f539f2d2be2d2871c1f57203e9e4d12f4201e"}, "docker": "quay.io/biocontainers/kmc", "aliases": {"kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools"}}
+config: {"url": "https://biocontainers.pro/tools/kmc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmc", "latest": {"3.2.4--h6dccd9a_2": "sha256:ed0bd6d69caf09e384dad1a838281751b0b27bf463a0d0ddf19ebef242d61568"}, "tags": {"3.2.1--hf1761c0_2": "sha256:caf06b4128b4a848e7782ac1f88e4f9f85e9ee8d4c7e03249168ce79be212e25", "3.2.4--h6dccd9a_1": "sha256:e02813f006a1a3df285f82bab31f539f2d2be2d2871c1f57203e9e4d12f4201e", "3.2.4--h6dccd9a_2": "sha256:ed0bd6d69caf09e384dad1a838281751b0b27bf463a0d0ddf19ebef242d61568"}, "docker": "quay.io/biocontainers/kmc", "aliases": {"kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmc.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/kmc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmc:3.2.4--h6dccd9a_1
+$ shpc install quay.io/biocontainers/kmc:3.2.4--h6dccd9a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmc/3.2.4--h6dccd9a_1
-$ module help quay.io/biocontainers/kmc/3.2.4--h6dccd9a_1
+$ module load quay.io/biocontainers/kmc/3.2.4--h6dccd9a_2
+$ module help quay.io/biocontainers/kmc/3.2.4--h6dccd9a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

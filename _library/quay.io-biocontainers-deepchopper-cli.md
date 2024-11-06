@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepchopper-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
-updated_at: "2024-11-05 03:14:03.207255"
+updated_at: "2024-11-06 03:10:56.248973"
 latest: "1.2.5--py310h77ce02f_0"
 container_url: "https://biocontainers.pro/tools/deepchopper-cli"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.2.5--py310h77ce02f_0"
+ - "1.2.5--py311hbbdcbde_0"
 description: "singularity registry hpc automated addition for deepchopper-cli"
-config: {"url": "https://biocontainers.pro/tools/deepchopper-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepchopper-cli", "latest": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef"}, "tags": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef"}, "docker": "quay.io/biocontainers/deepchopper-cli", "aliases": {"deepchopper-chop": "/usr/local/bin/deepchopper-chop", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/deepchopper-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepchopper-cli", "latest": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef"}, "tags": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef", "1.2.5--py311hbbdcbde_0": "sha256:3c27c10d314ec2d3b765c7793193abbe2617899c4a055a51bc683b26b5634f0b"}, "docker": "quay.io/biocontainers/deepchopper-cli", "aliases": {"deepchopper-chop": "/usr/local/bin/deepchopper-chop", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepchopper-cli.

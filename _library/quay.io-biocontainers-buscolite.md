@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/buscolite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/buscolite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/buscolite/container.yaml"
-updated_at: "2024-11-05 03:07:39.666987"
-latest: "23.10.26--pyhdfd78af_0"
+updated_at: "2024-11-06 03:04:58.195229"
+latest: "24.11.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/buscolite"
 aliases:
  - "PF00225_full.blocks.txt"
@@ -49,8 +49,9 @@ aliases:
  - "autoAugTrain.pl"
 versions:
  - "23.10.26--pyhdfd78af_0"
+ - "24.11.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for buscolite"
-config: {"url": "https://biocontainers.pro/tools/buscolite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for buscolite", "latest": {"23.10.26--pyhdfd78af_0": "sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a"}, "tags": {"23.10.26--pyhdfd78af_0": "sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a"}, "docker": "quay.io/biocontainers/buscolite", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "buscolite": "/usr/local/bin/buscolite", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "miniprot": "/usr/local/bin/miniprot", "pp_simScore": "/usr/local/bin/pp_simScore", "rename_species.pl": "/usr/local/bin/rename_species.pl", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "bamToWig.py": "/usr/local/bin/bamToWig.py", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "augustus2browser.pl": "/usr/local/bin/augustus2browser.pl", "augustus2gbrowse.pl": "/usr/local/bin/augustus2gbrowse.pl", "autoAug.pl": "/usr/local/bin/autoAug.pl", "autoAugPred.pl": "/usr/local/bin/autoAugPred.pl", "autoAugTrain.pl": "/usr/local/bin/autoAugTrain.pl"}}
+config: {"url": "https://biocontainers.pro/tools/buscolite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for buscolite", "latest": {"24.11.3--pyhdfd78af_0": "sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43"}, "tags": {"23.10.26--pyhdfd78af_0": "sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a", "24.11.3--pyhdfd78af_0": "sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43"}, "docker": "quay.io/biocontainers/buscolite", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "buscolite": "/usr/local/bin/buscolite", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "miniprot": "/usr/local/bin/miniprot", "pp_simScore": "/usr/local/bin/pp_simScore", "rename_species.pl": "/usr/local/bin/rename_species.pl", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "bamToWig.py": "/usr/local/bin/bamToWig.py", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "augustus2browser.pl": "/usr/local/bin/augustus2browser.pl", "augustus2gbrowse.pl": "/usr/local/bin/augustus2gbrowse.pl", "autoAug.pl": "/usr/local/bin/autoAug.pl", "autoAugPred.pl": "/usr/local/bin/autoAugPred.pl", "autoAugTrain.pl": "/usr/local/bin/autoAugTrain.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/buscolite.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/buscolite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/buscolite:23.10.26--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/buscolite:24.11.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/buscolite/23.10.26--pyhdfd78af_0
-$ module help quay.io/biocontainers/buscolite/23.10.26--pyhdfd78af_0
+$ module load quay.io/biocontainers/buscolite/24.11.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/buscolite/24.11.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

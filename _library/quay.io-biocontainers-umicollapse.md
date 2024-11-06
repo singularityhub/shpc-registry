@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/umicollapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umicollapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umicollapse/container.yaml"
-updated_at: "2024-11-05 03:10:48.080242"
-latest: "1.0.0--hdfd78af_1"
+updated_at: "2024-11-06 03:07:52.871216"
+latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/umicollapse"
 aliases:
  - "umicollapse"
@@ -36,8 +36,9 @@ aliases:
  - "javap"
 versions:
  - "1.0.0--hdfd78af_1"
+ - "1.1.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for umicollapse"
-config: {"url": "https://biocontainers.pro/tools/umicollapse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umicollapse", "latest": {"1.0.0--hdfd78af_1": "sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8"}, "tags": {"1.0.0--hdfd78af_1": "sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8"}, "docker": "quay.io/biocontainers/umicollapse", "aliases": {"umicollapse": "/usr/local/bin/umicollapse", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
+config: {"url": "https://biocontainers.pro/tools/umicollapse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umicollapse", "latest": {"1.1.0--hdfd78af_0": "sha256:fa40105b2cd854527d14954c2b3a003f10f511c787cf7984128c21b1ab66cef0"}, "tags": {"1.0.0--hdfd78af_1": "sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8", "1.1.0--hdfd78af_0": "sha256:fa40105b2cd854527d14954c2b3a003f10f511c787cf7984128c21b1ab66cef0"}, "docker": "quay.io/biocontainers/umicollapse", "aliases": {"umicollapse": "/usr/local/bin/umicollapse", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umicollapse.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/umicollapse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/umicollapse:1.0.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/umicollapse:1.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/umicollapse/1.0.0--hdfd78af_1
-$ module help quay.io/biocontainers/umicollapse/1.0.0--hdfd78af_1
+$ module load quay.io/biocontainers/umicollapse/1.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/umicollapse/1.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

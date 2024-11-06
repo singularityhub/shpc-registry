@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inmoose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inmoose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inmoose/container.yaml"
-updated_at: "2024-11-05 03:11:01.684776"
+updated_at: "2024-11-06 03:08:05.636710"
 latest: "0.7.2--py310h24e864b_0"
 container_url: "https://biocontainers.pro/tools/inmoose"
 aliases:
@@ -35,8 +35,9 @@ aliases:
  - "h5debug"
 versions:
  - "0.7.2--py310h24e864b_0"
+ - "0.7.2--py39h91a4a08_0"
 description: "singularity registry hpc automated addition for inmoose"
-config: {"url": "https://biocontainers.pro/tools/inmoose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inmoose", "latest": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f"}, "tags": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f"}, "docker": "quay.io/biocontainers/inmoose", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
+config: {"url": "https://biocontainers.pro/tools/inmoose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inmoose", "latest": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f"}, "tags": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f", "0.7.2--py39h91a4a08_0": "sha256:74a3148ff1648720527a8f5b811e137be2f10cafaad2749ab29a9dc154ad15be"}, "docker": "quay.io/biocontainers/inmoose", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/inmoose.
