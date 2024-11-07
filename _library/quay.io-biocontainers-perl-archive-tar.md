@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-archive-tar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
-updated_at: "2024-11-06 02:55:26.657308"
+updated_at: "2024-11-07 02:57:19.814863"
 latest: "2.40--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-tar"
 

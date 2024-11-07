@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdk-inchi-to-svg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdk-inchi-to-svg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdk-inchi-to-svg/container.yaml"
-updated_at: "2024-11-06 03:20:16.980698"
+updated_at: "2024-11-07 03:23:06.037056"
 latest: "0.9--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cdk-inchi-to-svg"
 aliases:

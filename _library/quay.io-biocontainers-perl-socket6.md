@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-socket6"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-socket6/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-socket6/container.yaml"
-updated_at: "2024-11-06 03:01:57.532760"
-latest: "0.29--pl5321h031d066_4"
+updated_at: "2024-11-07 03:04:02.927376"
+latest: "0.29--pl5321h031d066_5"
 container_url: "https://biocontainers.pro/tools/perl-socket6"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.29--pl5321hec16e2b_2"
  - "0.29--pl5321h031d066_4"
+ - "0.29--pl5321h031d066_5"
 description: "shpc-registry automated BioContainers addition for perl-socket6"
-config: {"url": "https://biocontainers.pro/tools/perl-socket6", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-socket6", "latest": {"0.29--pl5321h031d066_4": "sha256:49853d3d0b267cb04fed7e6dfc637f75d8a28a3b748a0bf56054908ac19d0881"}, "tags": {"0.29--pl5321hec16e2b_2": "sha256:01b248b1b460dd96a3c036273b7bc5771be44d3486d07e04751fe0ecf61edd14", "0.29--pl5321h031d066_4": "sha256:49853d3d0b267cb04fed7e6dfc637f75d8a28a3b748a0bf56054908ac19d0881"}, "docker": "quay.io/biocontainers/perl-socket6", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-socket6", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-socket6", "latest": {"0.29--pl5321h031d066_5": "sha256:f38c9ec4b092f419e8b04fc4b919e9cc3146419513b2bb0fdd254e18b1b7ca86"}, "tags": {"0.29--pl5321hec16e2b_2": "sha256:01b248b1b460dd96a3c036273b7bc5771be44d3486d07e04751fe0ecf61edd14", "0.29--pl5321h031d066_4": "sha256:49853d3d0b267cb04fed7e6dfc637f75d8a28a3b748a0bf56054908ac19d0881", "0.29--pl5321h031d066_5": "sha256:f38c9ec4b092f419e8b04fc4b919e9cc3146419513b2bb0fdd254e18b1b7ca86"}, "docker": "quay.io/biocontainers/perl-socket6", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-socket6.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-socket6
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-socket6:0.29--pl5321h031d066_4
+$ shpc install quay.io/biocontainers/perl-socket6:0.29--pl5321h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-socket6/0.29--pl5321h031d066_4
-$ module help quay.io/biocontainers/perl-socket6/0.29--pl5321h031d066_4
+$ module load quay.io/biocontainers/perl-socket6/0.29--pl5321h031d066_5
+$ module help quay.io/biocontainers/perl-socket6/0.29--pl5321h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gb-io"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gb-io/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gb-io/container.yaml"
-updated_at: "2024-11-06 03:35:23.340635"
-latest: "0.3.2--py38hfa1e82d_1"
+updated_at: "2024-11-07 03:38:53.717937"
+latest: "0.3.3--py311h2c52b1d_0"
 container_url: "https://biocontainers.pro/tools/gb-io"
 aliases:
  - "2to3-3.10"
@@ -17,8 +17,9 @@ versions:
  - "0.3.1--py310he6195e5_0"
  - "0.3.2--py38h8fa8eaa_0"
  - "0.3.2--py38hfa1e82d_1"
+ - "0.3.3--py311h2c52b1d_0"
 description: "singularity registry hpc automated addition for gb-io"
-config: {"url": "https://biocontainers.pro/tools/gb-io", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gb-io", "latest": {"0.3.2--py38hfa1e82d_1": "sha256:d6ba5618db0ac6dd0bd188f2a545786e2e4d6b5704731dc890b49cc725268f31"}, "tags": {"0.3.1--py310he6195e5_0": "sha256:47d2b4deb9ad28070dc2446978e35549259300028e01368937d1695cf9866103", "0.3.2--py38h8fa8eaa_0": "sha256:dafc0b9b2b8e2de754462331b009e7e5de015bddf05f8926c9e09968959f638a", "0.3.2--py38hfa1e82d_1": "sha256:d6ba5618db0ac6dd0bd188f2a545786e2e4d6b5704731dc890b49cc725268f31"}, "docker": "quay.io/biocontainers/gb-io", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/gb-io", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gb-io", "latest": {"0.3.3--py311h2c52b1d_0": "sha256:580ee05319d0f402c93ebca89e0b898770e654ae7cfb68ab82375858e97b80e1"}, "tags": {"0.3.1--py310he6195e5_0": "sha256:47d2b4deb9ad28070dc2446978e35549259300028e01368937d1695cf9866103", "0.3.2--py38h8fa8eaa_0": "sha256:dafc0b9b2b8e2de754462331b009e7e5de015bddf05f8926c9e09968959f638a", "0.3.2--py38hfa1e82d_1": "sha256:d6ba5618db0ac6dd0bd188f2a545786e2e4d6b5704731dc890b49cc725268f31", "0.3.3--py311h2c52b1d_0": "sha256:580ee05319d0f402c93ebca89e0b898770e654ae7cfb68ab82375858e97b80e1"}, "docker": "quay.io/biocontainers/gb-io", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gb-io.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/gb-io
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gb-io:0.3.2--py38hfa1e82d_1
+$ shpc install quay.io/biocontainers/gb-io:0.3.3--py311h2c52b1d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gb-io/0.3.2--py38hfa1e82d_1
-$ module help quay.io/biocontainers/gb-io/0.3.2--py38hfa1e82d_1
+$ module load quay.io/biocontainers/gb-io/0.3.3--py311h2c52b1d_0
+$ module help quay.io/biocontainers/gb-io/0.3.3--py311h2c52b1d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

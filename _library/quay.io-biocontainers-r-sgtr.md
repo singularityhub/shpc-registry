@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sgtr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sgtr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sgtr/container.yaml"
-updated_at: "2024-11-06 03:30:52.794876"
+updated_at: "2024-11-07 03:34:10.519233"
 latest: "1.1.4--r43hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/r-sgtr"
 
