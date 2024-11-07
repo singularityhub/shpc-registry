@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/harpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for harpy
 latest:
-  1.9--py312h28adbb1_0: sha256:3ff9ba94f719cdc020291ca371e0489b998313534c1a4f724af1e4538c39652e
+  1.10.1--py311h2a4ad6c_0: sha256:1135041c3f9a35045972a0864a61ae32a9dccb5fa3ef1322d6d1fc39bab3f33b
 tags:
   0.1.1--h9ee0642_1: sha256:fb7e89c536a58654b5ec9b1c880540067ffee635db8ab529b8e38101f3e2639c
   0.1.1--h9ee0642_2: sha256:9cc08cad91946f72edf47d88225595dc888b9b74f6a3711d175f2a7ed866cfaa
@@ -28,6 +28,8 @@ tags:
   1.5--py312h28adbb1_0: sha256:485c18f5c27d67904b74f2865297a17495ff5467c1e0294f897da22158d29d47
   1.9--py312h28adbb1_0: sha256:3ff9ba94f719cdc020291ca371e0489b998313534c1a4f724af1e4538c39652e
   1.8.2--py311h2a4ad6c_0: sha256:7745f6f2c792d203db64d541d40e851171d644f8d67a4734461e5f14230a8904
+  1.10.1--py311h2a4ad6c_0: sha256:1135041c3f9a35045972a0864a61ae32a9dccb5fa3ef1322d6d1fc39bab3f33b
+  1.9--py39h9e0f934_1: sha256:6c666a9aa2f3bdd567e769ea5de838f1780f495f6e61d4fa07bbf2a4a32b3673
 docker: quay.io/biocontainers/harpy
 aliases:
   HAPCUT2: /usr/local/bin/HAPCUT2

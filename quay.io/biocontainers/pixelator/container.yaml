@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pixelator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pixelator
 latest:
-  0.18.2--pyhdfd78af_0: sha256:7a5d8f49e4ab0e55b1067dc6f20e52ecf395560cef6bd00cc9e86b227a0d834c
+  0.18.3--pyhdfd78af_0: sha256:07a3d6a3de9b60fcc1aeb05bae6a22aa0515b5f9d388ab17f168633aa926b913
 tags:
   0.13.1--pyh7cba7a3_0: sha256:e8d8f66592293d1c4d3ca771cc038f0370bc572dfb3292880d294ede10b573ab
   0.14.0--pyh7cba7a3_0: sha256:99f1a819eb9afc8e75a623cc3d1a2093aef957d4ef43131d0612042e7199e522
@@ -10,6 +10,7 @@ tags:
   0.16.2--pyhdfd78af_0: sha256:b66cac3b977db34fe84c5ddc60e74c920dbe959300470040e477632c309c0b1a
   0.17.1--pyhdfd78af_0: sha256:acb61374de876e2ad92c9fcacf8f445b6e84b35d279c5d521a3e4520f3322264
   0.18.2--pyhdfd78af_0: sha256:7a5d8f49e4ab0e55b1067dc6f20e52ecf395560cef6bd00cc9e86b227a0d834c
+  0.18.3--pyhdfd78af_0: sha256:07a3d6a3de9b60fcc1aeb05bae6a22aa0515b5f9d388ab17f168633aa926b913
 docker: quay.io/biocontainers/pixelator
 aliases:
   cmtime: /usr/local/bin/cmtime
