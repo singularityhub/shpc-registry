@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/eagle2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eagle2
+latest:
+  2.4.1--h6a68c12_0: sha256:a24e96516684af1dc13a0357f10626af82511f944feda89fa6c94a0c08a141c4
+tags:
+  2.4.1--h6a68c12_0: sha256:a24e96516684af1dc13a0357f10626af82511f944feda89fa6c94a0c08a141c4
+docker: quay.io/biocontainers/eagle2
+aliases:
+  eagle: /usr/local/bin/eagle
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

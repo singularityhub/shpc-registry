@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-url-encode
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-url-encode
+latest:
+  0.03--pl5321h9ee0642_1: sha256:b7ea33e925c4344852f0004fb0975abd9a42c45c53bd357dad349ab1de99fff5
+tags:
+  0.03--pl5321h9ee0642_1: sha256:b7ea33e925c4344852f0004fb0975abd9a42c45c53bd357dad349ab1de99fff5
+docker: quay.io/biocontainers/perl-url-encode

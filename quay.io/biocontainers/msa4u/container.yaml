@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/msa4u
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for msa4u
+latest:
+  0.4.0--pyh7e72e81_0: sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
+tags:
+  0.4.0--pyh7e72e81_0: sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
+docker: quay.io/biocontainers/msa4u
+aliases:
+  msa4u: /usr/local/bin/msa4u
+  numpy-config: /usr/local/bin/numpy-config
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
