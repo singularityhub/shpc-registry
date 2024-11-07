@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bumphunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bumphunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bumphunter/container.yaml"
-updated_at: "2024-11-07 03:26:04.528265"
+updated_at: "2024-11-07 08:36:09.846656"
 latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bumphunter"
 
