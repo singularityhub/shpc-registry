@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bubblegun
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bubblegun
+latest:
+  1.1.9--pyhdfd78af_0: sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2
+tags:
+  1.1.9--pyhdfd78af_0: sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2
+docker: quay.io/biocontainers/bubblegun
+aliases:
+  BubbleGun: /usr/local/bin/BubbleGun
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

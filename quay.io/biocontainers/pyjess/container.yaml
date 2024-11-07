@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pyjess
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyjess
+latest:
+  0.3.3--py310h7c593f9_0: sha256:b26497d8f602038b90bb66a07137110953ecd733058059ee33f8957532284aa0
+tags:
+  0.3.3--py310h7c593f9_0: sha256:b26497d8f602038b90bb66a07137110953ecd733058059ee33f8957532284aa0
+docker: quay.io/biocontainers/pyjess
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
