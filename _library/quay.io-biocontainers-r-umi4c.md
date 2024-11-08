@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-umi4c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-umi4c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-umi4c/container.yaml"
-updated_at: "2024-11-07 08:25:06.955294"
+updated_at: "2024-11-08 03:15:17.280871"
 latest: "0.0.1--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-umi4c"
 aliases:

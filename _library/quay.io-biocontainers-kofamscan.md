@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kofamscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kofamscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kofamscan/container.yaml"
-updated_at: "2024-11-07 08:29:42.055835"
+updated_at: "2024-11-08 03:19:45.147337"
 latest: "1.3.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/kofamscan"
 aliases:

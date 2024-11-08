@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-buencolors"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-buencolors/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-buencolors/container.yaml"
-updated_at: "2024-11-07 08:15:36.529856"
+updated_at: "2024-11-08 03:05:55.383194"
 latest: "0.5.6--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-buencolors"
 aliases:

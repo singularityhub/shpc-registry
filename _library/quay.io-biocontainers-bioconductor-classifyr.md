@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-classifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-classifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-classifyr/container.yaml"
-updated_at: "2024-11-07 08:21:57.182106"
+updated_at: "2024-11-08 03:12:07.724344"
 latest: "3.6.2--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-classifyr"
 aliases:

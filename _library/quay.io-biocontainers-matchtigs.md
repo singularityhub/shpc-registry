@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/matchtigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchtigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchtigs/container.yaml"
-updated_at: "2024-11-07 08:29:30.816732"
+updated_at: "2024-11-08 03:19:34.402463"
 latest: "2.1.7--h715e4b3_1"
 container_url: "https://biocontainers.pro/tools/matchtigs"
 aliases:
