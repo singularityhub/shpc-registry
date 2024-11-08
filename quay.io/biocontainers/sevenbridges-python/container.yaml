@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/sevenbridges-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sevenbridges-python
 latest:
-  2.11.0--pyhdfd78af_0: sha256:3ac0d943f1d03054aa785b7b6777c6983b11454c8389e869b0adb2c833b62800
+  2.11.1--pyhdfd78af_0: sha256:4f00121801504a2f91f642f162764e35e97137bca2f2912d3fc4e0290add7c03
 tags:
   0.7.2--py27_1: sha256:0e8fdef0018806ce28c6b3f491c0486c453073b6af8fd3cae5eed8dca7ee998b
   0.20.3--py27_0: sha256:e65f1f6ce462592ea2b007d39044ddfe97396721892529fb49586ad76ac0d570
@@ -15,6 +15,7 @@ tags:
   2.9.2--pyhdfd78af_0: sha256:b62dda9ad87b2093e8af2d048533e302311314ae3df91dcd1cebec5d18834b57
   2.8.1--pyhdfd78af_0: sha256:63e71091e20e8e1c176dae318376397c441f9e3cd041ce92dbd6ae067b4c3b96
   2.7.0--pyhdfd78af_0: sha256:6b30ee4a278035d1433b58edfaebd7784b26bf01b0088a66d3c151ef48410674
+  2.11.1--pyhdfd78af_0: sha256:4f00121801504a2f91f642f162764e35e97137bca2f2912d3fc4e0290add7c03
 docker: quay.io/biocontainers/sevenbridges-python
 aliases:
   chardetect: /usr/local/bin/chardetect
