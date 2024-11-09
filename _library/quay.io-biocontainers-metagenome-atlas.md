@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metagenome-atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
-updated_at: "2024-11-08 03:17:16.050370"
-latest: "2.18.2--pyhdfd78af_0"
+updated_at: "2024-11-09 03:11:28.619122"
+latest: "2.19.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metagenome-atlas"
 aliases:
  - "atlas"
@@ -47,8 +47,9 @@ versions:
  - "2.18.1--pyhdfd78af_0"
  - "2.17.2--pyhdfd78af_0"
  - "2.18.2--pyhdfd78af_0"
+ - "2.19.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metagenome-atlas"
-config: {"url": "https://biocontainers.pro/tools/metagenome-atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagenome-atlas", "latest": {"2.18.2--pyhdfd78af_0": "sha256:f052064d54330dd113a29762bf2c0613653a1a00f159970a9c411819162f8823"}, "tags": {"2.9.1--pyhdfd78af_0": "sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca", "2.12.0--pyhdfd78af_1": "sha256:b28317b771a5563b11d20d6ee9b9885794a1aa8f4e6f66af4b09b570bf304342", "2.11.1--pyhdfd78af_0": "sha256:21b22a444df2001b23654a7a2f01d6efee816cfe297e2541f1b57e6897a61e71", "2.10.0--pyhdfd78af_0": "sha256:05cc984118d2f7df96504005260e8e40ae6384c7845e559217f9523c499ce08c", "2.13.1--pyhdfd78af_0": "sha256:a62a7f67d699fc81870b1cfbdee0b396ec6d20ffafdc1891d1ed15a2f7d6fe27", "2.14.0--pyhdfd78af_0": "sha256:a2c5fcc2cb6ad66dac2b2f10076d5b20eb20498e07ef1ceafd7d795e1c2a3471", "2.14.3--pyhdfd78af_0": "sha256:acedf5c417d42fbb2c311130781da9ea3003d6a2cca27afdcf182aa5dabfe006", "2.15.0--pyhdfd78af_0": "sha256:96911626f4f8d15d37a0d78d402fba23bece7c1b69ea4a26828e154d0a70db7d", "2.15.2--pyhdfd78af_0": "sha256:ea1de8f5f5979c32d18c3f8f6ace8210b5aafaea0fa3c218e076ac0ee3a5c368", "2.16.3--pyhdfd78af_0": "sha256:373e8a15e5f20dec380df2bf6989648ff6e4104fea189a8d373d93c7c376f9fe", "2.17.0--pyhdfd78af_0": "sha256:eedd9e6e4b09480281ef5179f324ada159e0c1b872b3ff592d30ed493114346e", "2.18.1--pyhdfd78af_0": "sha256:944f81a82d952f2e4d656f1db12c9c8891fd41fa87ae16d4c8be3bb31261b7ab", "2.17.2--pyhdfd78af_0": "sha256:b42a003d56d5fb81d0568e20bb80ca12eb359bc25efe87ea07e40cffe1dd13ae", "2.18.2--pyhdfd78af_0": "sha256:f052064d54330dd113a29762bf2c0613653a1a00f159970a9c411819162f8823"}, "docker": "quay.io/biocontainers/metagenome-atlas", "aliases": {"atlas": "/usr/local/bin/atlas", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "slugify": "/usr/local/bin/slugify", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh"}}
+config: {"url": "https://biocontainers.pro/tools/metagenome-atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagenome-atlas", "latest": {"2.19.0--pyhdfd78af_0": "sha256:93fac013d3bc5701c86d36328a9a9c07f3af72483f3a3cbc8c1040882db47794"}, "tags": {"2.9.1--pyhdfd78af_0": "sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca", "2.12.0--pyhdfd78af_1": "sha256:b28317b771a5563b11d20d6ee9b9885794a1aa8f4e6f66af4b09b570bf304342", "2.11.1--pyhdfd78af_0": "sha256:21b22a444df2001b23654a7a2f01d6efee816cfe297e2541f1b57e6897a61e71", "2.10.0--pyhdfd78af_0": "sha256:05cc984118d2f7df96504005260e8e40ae6384c7845e559217f9523c499ce08c", "2.13.1--pyhdfd78af_0": "sha256:a62a7f67d699fc81870b1cfbdee0b396ec6d20ffafdc1891d1ed15a2f7d6fe27", "2.14.0--pyhdfd78af_0": "sha256:a2c5fcc2cb6ad66dac2b2f10076d5b20eb20498e07ef1ceafd7d795e1c2a3471", "2.14.3--pyhdfd78af_0": "sha256:acedf5c417d42fbb2c311130781da9ea3003d6a2cca27afdcf182aa5dabfe006", "2.15.0--pyhdfd78af_0": "sha256:96911626f4f8d15d37a0d78d402fba23bece7c1b69ea4a26828e154d0a70db7d", "2.15.2--pyhdfd78af_0": "sha256:ea1de8f5f5979c32d18c3f8f6ace8210b5aafaea0fa3c218e076ac0ee3a5c368", "2.16.3--pyhdfd78af_0": "sha256:373e8a15e5f20dec380df2bf6989648ff6e4104fea189a8d373d93c7c376f9fe", "2.17.0--pyhdfd78af_0": "sha256:eedd9e6e4b09480281ef5179f324ada159e0c1b872b3ff592d30ed493114346e", "2.18.1--pyhdfd78af_0": "sha256:944f81a82d952f2e4d656f1db12c9c8891fd41fa87ae16d4c8be3bb31261b7ab", "2.17.2--pyhdfd78af_0": "sha256:b42a003d56d5fb81d0568e20bb80ca12eb359bc25efe87ea07e40cffe1dd13ae", "2.18.2--pyhdfd78af_0": "sha256:f052064d54330dd113a29762bf2c0613653a1a00f159970a9c411819162f8823", "2.19.0--pyhdfd78af_0": "sha256:93fac013d3bc5701c86d36328a9a9c07f3af72483f3a3cbc8c1040882db47794"}, "docker": "quay.io/biocontainers/metagenome-atlas", "aliases": {"atlas": "/usr/local/bin/atlas", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "slugify": "/usr/local/bin/slugify", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagenome-atlas.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/metagenome-atlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metagenome-atlas:2.18.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metagenome-atlas:2.19.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metagenome-atlas/2.18.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/metagenome-atlas/2.18.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/metagenome-atlas/2.19.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/metagenome-atlas/2.19.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

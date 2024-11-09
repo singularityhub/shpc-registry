@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-crypt-openssl-random"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-crypt-openssl-random/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-crypt-openssl-random/container.yaml"
-updated_at: "2024-11-08 02:57:54.221715"
-latest: "0.11--pl5321h5076881_5"
+updated_at: "2024-11-09 02:52:05.863441"
+latest: "0.11--pl5321h5076881_6"
 container_url: "https://biocontainers.pro/tools/perl-crypt-openssl-random"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.11--pl5321h1f4ba0c_3"
  - "0.11--pl5321h5076881_5"
+ - "0.11--pl5321h5076881_6"
 description: "shpc-registry automated BioContainers addition for perl-crypt-openssl-random"
-config: {"url": "https://biocontainers.pro/tools/perl-crypt-openssl-random", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-crypt-openssl-random", "latest": {"0.11--pl5321h5076881_5": "sha256:6298ee879069611c1d5d1d6675acba4579bd1aecc94edc52b285fbdfbf71b3b1"}, "tags": {"0.11--pl5321h1f4ba0c_3": "sha256:4be3ecad1b8612df912e3c28bf4a9baa632b859f73cd8f2993f4aaad7cef224b", "0.11--pl5321h5076881_5": "sha256:6298ee879069611c1d5d1d6675acba4579bd1aecc94edc52b285fbdfbf71b3b1"}, "docker": "quay.io/biocontainers/perl-crypt-openssl-random", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-crypt-openssl-random", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-crypt-openssl-random", "latest": {"0.11--pl5321h5076881_6": "sha256:db0953c0498623cb27e4f9a9f9cd2834f3a64f3da9559bef9f20687125b19cc9"}, "tags": {"0.11--pl5321h1f4ba0c_3": "sha256:4be3ecad1b8612df912e3c28bf4a9baa632b859f73cd8f2993f4aaad7cef224b", "0.11--pl5321h5076881_5": "sha256:6298ee879069611c1d5d1d6675acba4579bd1aecc94edc52b285fbdfbf71b3b1", "0.11--pl5321h5076881_6": "sha256:db0953c0498623cb27e4f9a9f9cd2834f3a64f3da9559bef9f20687125b19cc9"}, "docker": "quay.io/biocontainers/perl-crypt-openssl-random", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-crypt-openssl-random.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-crypt-openssl-random
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-crypt-openssl-random:0.11--pl5321h5076881_5
+$ shpc install quay.io/biocontainers/perl-crypt-openssl-random:0.11--pl5321h5076881_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-crypt-openssl-random/0.11--pl5321h5076881_5
-$ module help quay.io/biocontainers/perl-crypt-openssl-random/0.11--pl5321h5076881_5
+$ module load quay.io/biocontainers/perl-crypt-openssl-random/0.11--pl5321h5076881_6
+$ module help quay.io/biocontainers/perl-crypt-openssl-random/0.11--pl5321h5076881_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

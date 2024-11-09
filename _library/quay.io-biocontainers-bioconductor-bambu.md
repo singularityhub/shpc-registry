@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bambu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bambu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bambu/container.yaml"
-updated_at: "2024-11-08 03:30:12.280805"
-latest: "3.4.0--r43hf17093f_0"
+updated_at: "2024-11-09 03:24:53.315483"
+latest: "3.4.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bambu"
 aliases:
  - "xgboost"
@@ -18,8 +18,9 @@ versions:
  - "3.0.8--r42hf17093f_1"
  - "3.2.4--r43hf17093f_0"
  - "3.4.0--r43hf17093f_0"
+ - "3.4.0--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-bambu"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bambu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bambu", "latest": {"3.4.0--r43hf17093f_0": "sha256:02e0481d9a1dd87d517147f6cce3159484b67caead2e66f12c4c5171e25a6693"}, "tags": {"2.0.6--r41hc247a5b_1": "sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5", "3.0.1--r42hc247a5b_0": "sha256:15e9236ba5abe34941a3106b28684765c37748b82e9722811a1b4e6749b21304", "3.0.5--r42hc247a5b_0": "sha256:bcbac11f98154c82436dae8f9dbe0820f5d1e39f31f2dd4cb59d887ff50ac33f", "3.0.6--r42hc247a5b_0": "sha256:93b63b7d752a33a20d864810828d1d30eaaa43be34c79eb38add2d11d2dc25ae", "3.0.8--r42hc247a5b_0": "sha256:6a79bba2c1abc9a7c3a2d71e3a2aefd3ab86c6cdb8152ae96c71d5b6242508a2", "3.0.8--r42hf17093f_1": "sha256:f3471d69e85010d27a52830b87d3c894eae2fe6dcecbecb871be43817099f540", "3.2.4--r43hf17093f_0": "sha256:d9527137be709d1960b58f9b2ca5a2949bc73193f8239ca7ccdea0ff64794323", "3.4.0--r43hf17093f_0": "sha256:02e0481d9a1dd87d517147f6cce3159484b67caead2e66f12c4c5171e25a6693"}, "docker": "quay.io/biocontainers/bioconductor-bambu", "aliases": {"xgboost": "/usr/local/bin/xgboost"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bambu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bambu", "latest": {"3.4.0--r43hf17093f_1": "sha256:9688f819bac4b77956dc7e1d9fdd3a87443ce860662ee6a28774a335f28e3e3c"}, "tags": {"2.0.6--r41hc247a5b_1": "sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5", "3.0.1--r42hc247a5b_0": "sha256:15e9236ba5abe34941a3106b28684765c37748b82e9722811a1b4e6749b21304", "3.0.5--r42hc247a5b_0": "sha256:bcbac11f98154c82436dae8f9dbe0820f5d1e39f31f2dd4cb59d887ff50ac33f", "3.0.6--r42hc247a5b_0": "sha256:93b63b7d752a33a20d864810828d1d30eaaa43be34c79eb38add2d11d2dc25ae", "3.0.8--r42hc247a5b_0": "sha256:6a79bba2c1abc9a7c3a2d71e3a2aefd3ab86c6cdb8152ae96c71d5b6242508a2", "3.0.8--r42hf17093f_1": "sha256:f3471d69e85010d27a52830b87d3c894eae2fe6dcecbecb871be43817099f540", "3.2.4--r43hf17093f_0": "sha256:d9527137be709d1960b58f9b2ca5a2949bc73193f8239ca7ccdea0ff64794323", "3.4.0--r43hf17093f_0": "sha256:02e0481d9a1dd87d517147f6cce3159484b67caead2e66f12c4c5171e25a6693", "3.4.0--r43hf17093f_1": "sha256:9688f819bac4b77956dc7e1d9fdd3a87443ce860662ee6a28774a335f28e3e3c"}, "docker": "quay.io/biocontainers/bioconductor-bambu", "aliases": {"xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bambu.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bambu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bambu:3.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-bambu:3.4.0--r43hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bambu/3.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-bambu/3.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-bambu/3.4.0--r43hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-bambu/3.4.0--r43hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

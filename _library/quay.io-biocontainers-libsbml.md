@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libsbml/container.yaml"
-updated_at: "2024-11-08 02:59:45.822503"
+updated_at: "2024-11-09 02:54:00.084981"
 latest: "5.20.4--hd2ed0a0_1"
 container_url: "https://biocontainers.pro/tools/libsbml"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mess/container.yaml"
-updated_at: "2024-11-08 03:13:40.488018"
-latest: "0.9.0--pyhdfd78af_0"
+updated_at: "2024-11-09 03:07:51.530832"
+latest: "0.9.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mess"
 aliases:
  - "mess"
@@ -26,8 +26,9 @@ versions:
  - "0.8.3--pyhdfd78af_0"
  - "0.9.0--pyhdfd78af_0"
  - "0.8.3--pyhdfd78af_1"
+ - "0.9.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for mess"
-config: {"url": "https://biocontainers.pro/tools/mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mess", "latest": {"0.9.0--pyhdfd78af_0": "sha256:1e70b244495418f6fb1a8ec8ca34ed67750e367d692e6f705927b0a932bbb4a6"}, "tags": {"v0.2.1--pyhdfd78af_0": "sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581", "0.2.2--pyhdfd78af_0": "sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74", "0.8.2--pyhdfd78af_0": "sha256:4010dab1edfb9397a29950a8bb31bd7cf85b70c237435693080ae31b029e23c4", "0.8.3--pyhdfd78af_0": "sha256:bad8c2def7b642ea1d220964d2926d3eb42e734caa1bb720c8185c57c2dc0f83", "0.9.0--pyhdfd78af_0": "sha256:1e70b244495418f6fb1a8ec8ca34ed67750e367d692e6f705927b0a932bbb4a6", "0.8.3--pyhdfd78af_1": "sha256:6bfe5ae7647a45e0a18f64c5cfb275b61f2e0f82bb2fad8ecf427385b13d373d"}, "docker": "quay.io/biocontainers/mess", "aliases": {"mess": "/usr/local/bin/mess", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mess", "latest": {"0.9.0--pyhdfd78af_1": "sha256:2c354d0b9e83f43c0506257db3c2a8045fe6b0db27e8ebcb92efe1eae6725f9a"}, "tags": {"v0.2.1--pyhdfd78af_0": "sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581", "0.2.2--pyhdfd78af_0": "sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74", "0.8.2--pyhdfd78af_0": "sha256:4010dab1edfb9397a29950a8bb31bd7cf85b70c237435693080ae31b029e23c4", "0.8.3--pyhdfd78af_0": "sha256:bad8c2def7b642ea1d220964d2926d3eb42e734caa1bb720c8185c57c2dc0f83", "0.9.0--pyhdfd78af_0": "sha256:1e70b244495418f6fb1a8ec8ca34ed67750e367d692e6f705927b0a932bbb4a6", "0.8.3--pyhdfd78af_1": "sha256:6bfe5ae7647a45e0a18f64c5cfb275b61f2e0f82bb2fad8ecf427385b13d373d", "0.9.0--pyhdfd78af_1": "sha256:2c354d0b9e83f43c0506257db3c2a8045fe6b0db27e8ebcb92efe1eae6725f9a"}, "docker": "quay.io/biocontainers/mess", "aliases": {"mess": "/usr/local/bin/mess", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mess.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/mess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mess:0.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mess:0.9.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mess/0.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mess/0.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mess/0.9.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/mess/0.9.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

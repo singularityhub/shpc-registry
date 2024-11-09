@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmultiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmultiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmultiome/container.yaml"
-updated_at: "2024-11-08 03:21:01.559906"
+updated_at: "2024-11-09 03:15:13.684747"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmultiome"
 aliases:
