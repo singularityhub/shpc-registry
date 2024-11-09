@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/strainy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strainy
 latest:
-  1.1--pyh7e72e81_1: sha256:33443a8c754fac6b7dcccdb52d3f3fcd14ade96b2508b96697ec91332d967b76
+  1.2--pyhdfd78af_1: sha256:1e3880dfa9b573b6386f0b5e6d7b188c505c64eafc9dcf85c43ebd6b4a9d781e
 tags:
   1.1--pyh7e72e81_0: sha256:425f31fa4a5ea63b2f84c76d4a02cb84fa2729db1d0435057d0e9a2495aff5d6
   1.1--pyh7e72e81_1: sha256:33443a8c754fac6b7dcccdb52d3f3fcd14ade96b2508b96697ec91332d967b76
+  1.2--pyhdfd78af_1: sha256:1e3880dfa9b573b6386f0b5e6d7b188c505c64eafc9dcf85c43ebd6b4a9d781e
 docker: quay.io/biocontainers/strainy
 aliases:
   community: /usr/local/bin/community

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/argparse2tool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for argparse2tool
 latest:
-  0.4.9--py_0: sha256:766e20ed8a92fabd023266fce3eac979381b8536858e94153180c92eb1d044c7
+  0.5.2--pyhdfd78af_0: sha256:e258c57b857d5da4d48e9d6f86ff7d248bc340fbc932af728aaaf9f5b22f535f
 tags:
   0.4.9--py_0: sha256:766e20ed8a92fabd023266fce3eac979381b8536858e94153180c92eb1d044c7
+  0.5.2--pyhdfd78af_0: sha256:e258c57b857d5da4d48e9d6f86ff7d248bc340fbc932af728aaaf9f5b22f535f
 docker: quay.io/biocontainers/argparse2tool
 aliases:
   argparse2tool: /usr/local/bin/argparse2tool

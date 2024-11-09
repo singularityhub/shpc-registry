@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quota_anchor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quota_anchor
 latest:
-  0.0.1a0--pyhdfd78af_0: sha256:ccd9381bdbb88b28f7770029c205c1fdb339b95a193e5370e597e8b2142732d5
+  0.0.1a1--pyhdfd78af_0: sha256:c49c9090e520f5be503d5daf58a524298011c1b61e9b9ab81be004a149f58e40
 tags:
   0.0.1a0--pyhdfd78af_0: sha256:ccd9381bdbb88b28f7770029c205c1fdb339b95a193e5370e597e8b2142732d5
+  0.0.1a1--pyhdfd78af_0: sha256:c49c9090e520f5be503d5daf58a524298011c1b61e9b9ab81be004a149f58e40
 docker: quay.io/biocontainers/quota_anchor
 aliases:
   anchorwave: /usr/local/bin/anchorwave
