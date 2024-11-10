@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neurodocker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neurodocker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neurodocker/container.yaml"
-updated_at: "2024-11-09 03:12:44.098409"
+updated_at: "2024-11-10 03:20:49.548721"
 latest: "0.5.0--py_0"
 container_url: "https://biocontainers.pro/tools/neurodocker"
 aliases:

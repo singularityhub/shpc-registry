@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quota_anchor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quota_anchor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quota_anchor/container.yaml"
-updated_at: "2024-11-09 02:46:15.734189"
-latest: "0.0.1a0--pyhdfd78af_0"
+updated_at: "2024-11-10 02:54:46.080302"
+latest: "0.0.1a1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quota_anchor"
 aliases:
  - "anchorwave"
@@ -49,8 +49,9 @@ aliases:
  - "gtf_transcript_splicesites"
 versions:
  - "0.0.1a0--pyhdfd78af_0"
+ - "0.0.1a1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for quota_anchor"
-config: {"url": "https://biocontainers.pro/tools/quota_anchor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quota_anchor", "latest": {"0.0.1a0--pyhdfd78af_0": "sha256:ccd9381bdbb88b28f7770029c205c1fdb339b95a193e5370e597e8b2142732d5"}, "tags": {"0.0.1a0--pyhdfd78af_0": "sha256:ccd9381bdbb88b28f7770029c205c1fdb339b95a193e5370e597e8b2142732d5"}, "docker": "quay.io/biocontainers/quota_anchor", "aliases": {"anchorwave": "/usr/local/bin/anchorwave", "anchorwave_avx2": "/usr/local/bin/anchorwave_avx2", "anchorwave_avx512": "/usr/local/bin/anchorwave_avx512", "anchorwave_sse2": "/usr/local/bin/anchorwave_sse2", "anchorwave_sse4.1": "/usr/local/bin/anchorwave_sse4.1", "gffread": "/usr/local/bin/gffread", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap_cat": "/usr/local/bin/gmap_cat", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "indexdb_cat": "/usr/local/bin/indexdb_cat", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "quota_Anchor": "/usr/local/bin/quota_Anchor", "trindex": "/usr/local/bin/trindex", "atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_process": "/usr/local/bin/gmap_process", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites"}}
+config: {"url": "https://biocontainers.pro/tools/quota_anchor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quota_anchor", "latest": {"0.0.1a1--pyhdfd78af_0": "sha256:c49c9090e520f5be503d5daf58a524298011c1b61e9b9ab81be004a149f58e40"}, "tags": {"0.0.1a0--pyhdfd78af_0": "sha256:ccd9381bdbb88b28f7770029c205c1fdb339b95a193e5370e597e8b2142732d5", "0.0.1a1--pyhdfd78af_0": "sha256:c49c9090e520f5be503d5daf58a524298011c1b61e9b9ab81be004a149f58e40"}, "docker": "quay.io/biocontainers/quota_anchor", "aliases": {"anchorwave": "/usr/local/bin/anchorwave", "anchorwave_avx2": "/usr/local/bin/anchorwave_avx2", "anchorwave_avx512": "/usr/local/bin/anchorwave_avx512", "anchorwave_sse2": "/usr/local/bin/anchorwave_sse2", "anchorwave_sse4.1": "/usr/local/bin/anchorwave_sse4.1", "gffread": "/usr/local/bin/gffread", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap_cat": "/usr/local/bin/gmap_cat", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "indexdb_cat": "/usr/local/bin/indexdb_cat", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "quota_Anchor": "/usr/local/bin/quota_Anchor", "trindex": "/usr/local/bin/trindex", "atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_process": "/usr/local/bin/gmap_process", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quota_anchor.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/quota_anchor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quota_anchor:0.0.1a0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/quota_anchor:0.0.1a1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quota_anchor/0.0.1a0--pyhdfd78af_0
-$ module help quay.io/biocontainers/quota_anchor/0.0.1a0--pyhdfd78af_0
+$ module load quay.io/biocontainers/quota_anchor/0.0.1a1--pyhdfd78af_0
+$ module help quay.io/biocontainers/quota_anchor/0.0.1a1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

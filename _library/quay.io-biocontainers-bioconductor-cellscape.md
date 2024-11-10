@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellscape/container.yaml"
-updated_at: "2024-11-09 02:50:26.454463"
+updated_at: "2024-11-10 02:58:44.826954"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellscape"
 aliases:

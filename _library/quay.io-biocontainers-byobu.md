@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/byobu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/byobu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/byobu/container.yaml"
-updated_at: "2024-11-09 03:18:40.031089"
+updated_at: "2024-11-10 03:26:38.499058"
 latest: "5.98--hb42da9c_2"
 container_url: "https://biocontainers.pro/tools/byobu"
 

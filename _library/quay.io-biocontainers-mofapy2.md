@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mofapy2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mofapy2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mofapy2/container.yaml"
-updated_at: "2024-11-09 03:03:16.078500"
-latest: "0.7.1--pyh7cba7a3_0"
+updated_at: "2024-11-10 03:11:29.775985"
+latest: "0.7.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mofapy2"
 aliases:
  - "h5tools_test_utils"
@@ -35,8 +35,9 @@ aliases:
  - "h5redeploy"
 versions:
  - "0.7.1--pyh7cba7a3_0"
+ - "0.7.2--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for mofapy2"
-config: {"url": "https://biocontainers.pro/tools/mofapy2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mofapy2", "latest": {"0.7.1--pyh7cba7a3_0": "sha256:7a6aa9f3d49931e541ceb7ee4e4c720b3e5785dd5c5d7b0c442f6094050122ef"}, "tags": {"0.7.1--pyh7cba7a3_0": "sha256:7a6aa9f3d49931e541ceb7ee4e4c720b3e5785dd5c5d7b0c442f6094050122ef"}, "docker": "quay.io/biocontainers/mofapy2", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
+config: {"url": "https://biocontainers.pro/tools/mofapy2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mofapy2", "latest": {"0.7.2--pyh7e72e81_0": "sha256:a2362ee0d4df7590217d308c3b2b8941cc1ca79dc6ee38914865ffff0f8a9d0a"}, "tags": {"0.7.1--pyh7cba7a3_0": "sha256:7a6aa9f3d49931e541ceb7ee4e4c720b3e5785dd5c5d7b0c442f6094050122ef", "0.7.2--pyh7e72e81_0": "sha256:a2362ee0d4df7590217d308c3b2b8941cc1ca79dc6ee38914865ffff0f8a9d0a"}, "docker": "quay.io/biocontainers/mofapy2", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mofapy2.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/mofapy2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mofapy2:0.7.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/mofapy2:0.7.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mofapy2/0.7.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/mofapy2/0.7.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/mofapy2/0.7.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/mofapy2/0.7.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

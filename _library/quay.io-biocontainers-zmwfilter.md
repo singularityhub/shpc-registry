@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zmwfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zmwfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zmwfilter/container.yaml"
-updated_at: "2024-11-09 02:52:18.676810"
+updated_at: "2024-11-10 03:00:31.872397"
 latest: "1.0.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/zmwfilter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logomaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logomaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logomaker/container.yaml"
-updated_at: "2024-11-09 02:56:11.435562"
+updated_at: "2024-11-10 03:04:26.866238"
 latest: "0.8--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/logomaker"
 aliases:

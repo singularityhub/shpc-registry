@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rlpipes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rlpipes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rlpipes/container.yaml"
-updated_at: "2024-11-09 03:04:29.421718"
+updated_at: "2024-11-10 03:12:44.204310"
 latest: "0.9.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/rlpipes"
 aliases:

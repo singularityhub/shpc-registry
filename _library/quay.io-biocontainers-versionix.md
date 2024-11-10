@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/versionix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/versionix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/versionix/container.yaml"
-updated_at: "2024-11-09 02:59:44.097878"
+updated_at: "2024-11-10 03:07:56.438905"
 latest: "0.99.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/versionix"
 aliases:

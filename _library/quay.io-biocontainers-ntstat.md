@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntstat/container.yaml"
-updated_at: "2024-11-09 02:58:36.797228"
-latest: "1.0.0--py310h84f13bb_0"
+updated_at: "2024-11-10 03:06:49.461835"
+latest: "1.0.1--py38h2123bcc_0"
 container_url: "https://biocontainers.pro/tools/ntstat"
 aliases:
  - "indexlr"
@@ -50,8 +50,9 @@ aliases:
  - "unpigz"
 versions:
  - "1.0.0--py310h84f13bb_0"
+ - "1.0.1--py38h2123bcc_0"
 description: "singularity registry hpc automated addition for ntstat"
-config: {"url": "https://biocontainers.pro/tools/ntstat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntstat", "latest": {"1.0.0--py310h84f13bb_0": "sha256:3629833d95d90af321b182bf2e861e935025bb2172a7eb32397e5244cc2c275c"}, "tags": {"1.0.0--py310h84f13bb_0": "sha256:3629833d95d90af321b182bf2e861e935025bb2172a7eb32397e5244cc2c275c"}, "docker": "quay.io/biocontainers/ntstat", "aliases": {"indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrz": "/usr/local/bin/lrz", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "ntstat": "/usr/local/bin/ntstat", "randseq": "/usr/local/bin/randseq", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "annot-tsv": "/usr/local/bin/annot-tsv", "tar": "/usr/local/bin/tar", "numpy-config": "/usr/local/bin/numpy-config", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/ntstat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntstat", "latest": {"1.0.1--py38h2123bcc_0": "sha256:f0a0437e6aa72480d97ad250f684d4f83edb8928e9ef370b8be63cd1d7e71476"}, "tags": {"1.0.0--py310h84f13bb_0": "sha256:3629833d95d90af321b182bf2e861e935025bb2172a7eb32397e5244cc2c275c", "1.0.1--py38h2123bcc_0": "sha256:f0a0437e6aa72480d97ad250f684d4f83edb8928e9ef370b8be63cd1d7e71476"}, "docker": "quay.io/biocontainers/ntstat", "aliases": {"indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrz": "/usr/local/bin/lrz", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "ntstat": "/usr/local/bin/ntstat", "randseq": "/usr/local/bin/randseq", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "annot-tsv": "/usr/local/bin/annot-tsv", "tar": "/usr/local/bin/tar", "numpy-config": "/usr/local/bin/numpy-config", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntstat.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/ntstat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntstat:1.0.0--py310h84f13bb_0
+$ shpc install quay.io/biocontainers/ntstat:1.0.1--py38h2123bcc_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntstat/1.0.0--py310h84f13bb_0
-$ module help quay.io/biocontainers/ntstat/1.0.0--py310h84f13bb_0
+$ module load quay.io/biocontainers/ntstat/1.0.1--py38h2123bcc_0
+$ module help quay.io/biocontainers/ntstat/1.0.1--py38h2123bcc_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

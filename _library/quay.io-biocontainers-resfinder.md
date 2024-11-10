@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/resfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/resfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/resfinder/container.yaml"
-updated_at: "2024-11-09 02:57:40.311096"
+updated_at: "2024-11-10 03:05:55.002503"
 latest: "4.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/resfinder"
 aliases:

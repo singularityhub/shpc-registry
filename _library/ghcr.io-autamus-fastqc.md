@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/fastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/fastqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/fastqc/container.yaml"
-updated_at: "2024-11-09 02:43:25.208959"
+updated_at: "2024-11-10 02:52:05.756095"
 latest: "0.11.9"
 container_url: "https://github.com/orgs/autamus/packages/container/package/fastqc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/customtkinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/customtkinter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/customtkinter/container.yaml"
-updated_at: "2024-11-09 03:11:06.673189"
+updated_at: "2024-11-10 03:19:15.062413"
 latest: "5.2.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/customtkinter"
 aliases:

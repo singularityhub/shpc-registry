@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-grass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-grass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-grass/container.yaml"
-updated_at: "2024-11-09 03:11:54.191979"
+updated_at: "2024-11-10 03:20:01.231147"
 latest: "1.1.6--2"
 container_url: "https://biocontainers.pro/tools/perl-grass"
 aliases:

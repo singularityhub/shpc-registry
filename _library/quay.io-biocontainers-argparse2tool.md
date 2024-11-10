@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/argparse2tool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argparse2tool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argparse2tool/container.yaml"
-updated_at: "2024-11-09 03:12:15.614148"
-latest: "0.4.9--py_0"
+updated_at: "2024-11-10 03:20:21.932151"
+latest: "0.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/argparse2tool"
 aliases:
  - "argparse2tool"
@@ -21,8 +21,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.4.9--py_0"
+ - "0.5.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for argparse2tool"
-config: {"url": "https://biocontainers.pro/tools/argparse2tool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argparse2tool", "latest": {"0.4.9--py_0": "sha256:766e20ed8a92fabd023266fce3eac979381b8536858e94153180c92eb1d044c7"}, "tags": {"0.4.9--py_0": "sha256:766e20ed8a92fabd023266fce3eac979381b8536858e94153180c92eb1d044c7"}, "docker": "quay.io/biocontainers/argparse2tool", "aliases": {"argparse2tool": "/usr/local/bin/argparse2tool", "argparse2tool_check_path": "/usr/local/bin/argparse2tool_check_path", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/argparse2tool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argparse2tool", "latest": {"0.5.2--pyhdfd78af_0": "sha256:e258c57b857d5da4d48e9d6f86ff7d248bc340fbc932af728aaaf9f5b22f535f"}, "tags": {"0.4.9--py_0": "sha256:766e20ed8a92fabd023266fce3eac979381b8536858e94153180c92eb1d044c7", "0.5.2--pyhdfd78af_0": "sha256:e258c57b857d5da4d48e9d6f86ff7d248bc340fbc932af728aaaf9f5b22f535f"}, "docker": "quay.io/biocontainers/argparse2tool", "aliases": {"argparse2tool": "/usr/local/bin/argparse2tool", "argparse2tool_check_path": "/usr/local/bin/argparse2tool_check_path", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/argparse2tool.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/argparse2tool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/argparse2tool:0.4.9--py_0
+$ shpc install quay.io/biocontainers/argparse2tool:0.5.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/argparse2tool/0.4.9--py_0
-$ module help quay.io/biocontainers/argparse2tool/0.4.9--py_0
+$ module load quay.io/biocontainers/argparse2tool/0.5.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/argparse2tool/0.5.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

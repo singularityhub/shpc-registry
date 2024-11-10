@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/fmsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fmsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fmsi/container.yaml"
-updated_at: "2024-11-09 03:14:24.156027"
-latest: "0.2.4--hdcf5f25_0"
+updated_at: "2024-11-10 03:22:29.984316"
+latest: "0.3.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/fmsi"
 aliases:
  - "fmsi"
 versions:
  - "0.2.4--hdcf5f25_0"
+ - "0.3.1--hdcf5f25_0"
+ - "0.2.4--hdcf5f25_1"
 description: "singularity registry hpc automated addition for fmsi"
-config: {"url": "https://biocontainers.pro/tools/fmsi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fmsi", "latest": {"0.2.4--hdcf5f25_0": "sha256:4212e1972eff71367528d7efd4b107cc52a91d60e43e4a018b79798f67d2118d"}, "tags": {"0.2.4--hdcf5f25_0": "sha256:4212e1972eff71367528d7efd4b107cc52a91d60e43e4a018b79798f67d2118d"}, "docker": "quay.io/biocontainers/fmsi", "aliases": {"fmsi": "/usr/local/bin/fmsi"}}
+config: {"url": "https://biocontainers.pro/tools/fmsi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fmsi", "latest": {"0.3.1--hdcf5f25_0": "sha256:82a74477f66d00c17ea2b7114bd6fd7d42702c179938c2d9cc6395be2bbe1be7"}, "tags": {"0.2.4--hdcf5f25_0": "sha256:4212e1972eff71367528d7efd4b107cc52a91d60e43e4a018b79798f67d2118d", "0.3.1--hdcf5f25_0": "sha256:82a74477f66d00c17ea2b7114bd6fd7d42702c179938c2d9cc6395be2bbe1be7", "0.2.4--hdcf5f25_1": "sha256:f33f6d33ce5d1bfde0ee18b79bb01bdcea9a0a9f77d86bc5f3151a2724967419"}, "docker": "quay.io/biocontainers/fmsi", "aliases": {"fmsi": "/usr/local/bin/fmsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fmsi.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/fmsi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fmsi:0.2.4--hdcf5f25_0
+$ shpc install quay.io/biocontainers/fmsi:0.3.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fmsi/0.2.4--hdcf5f25_0
-$ module help quay.io/biocontainers/fmsi/0.2.4--hdcf5f25_0
+$ module load quay.io/biocontainers/fmsi/0.3.1--hdcf5f25_0
+$ module help quay.io/biocontainers/fmsi/0.3.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

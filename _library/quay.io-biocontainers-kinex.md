@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kinex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinex/container.yaml"
-updated_at: "2024-11-09 02:53:26.391529"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2024-11-10 03:01:39.257748"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kinex"
 aliases:
  - "hwloc-gather-cpuid"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kinex"
-config: {"url": "https://biocontainers.pro/tools/kinex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kinex", "latest": {"1.0.2--pyhdfd78af_0": "sha256:57c54dce8183a8cc72656c43218f45ad9a4164e36ce55f3e18b7b5fcf0442f0a"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:6838b4acb50265e31c5ebe6d1122313eb538af8d59703135d616f75e895135cd", "1.0.2--pyhdfd78af_0": "sha256:57c54dce8183a8cc72656c43218f45ad9a4164e36ce55f3e18b7b5fcf0442f0a"}, "docker": "quay.io/biocontainers/kinex", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/kinex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kinex", "latest": {"1.1.0--pyhdfd78af_0": "sha256:bb914073996538967b50cdcdb79d3f791ed3c9e9f0355db099719fc41ddb7d55"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:6838b4acb50265e31c5ebe6d1122313eb538af8d59703135d616f75e895135cd", "1.0.2--pyhdfd78af_0": "sha256:57c54dce8183a8cc72656c43218f45ad9a4164e36ce55f3e18b7b5fcf0442f0a", "1.1.0--pyhdfd78af_0": "sha256:bb914073996538967b50cdcdb79d3f791ed3c9e9f0355db099719fc41ddb7d55"}, "docker": "quay.io/biocontainers/kinex", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kinex.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/kinex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kinex:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kinex:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kinex/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/kinex/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/kinex/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/kinex/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

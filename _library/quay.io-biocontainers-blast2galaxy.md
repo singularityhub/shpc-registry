@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blast2galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast2galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast2galaxy/container.yaml"
-updated_at: "2024-11-09 03:21:37.941072"
+updated_at: "2024-11-10 03:29:28.527876"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blast2galaxy"
 aliases:

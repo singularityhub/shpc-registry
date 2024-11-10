@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ltr_retriever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_retriever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_retriever/container.yaml"
-updated_at: "2024-11-09 02:49:51.234567"
+updated_at: "2024-11-10 02:58:11.336911"
 latest: "3.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ltr_retriever"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-blima"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blima/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blima/container.yaml"
-updated_at: "2024-11-09 03:09:57.734970"
+updated_at: "2024-11-10 03:18:09.084900"
 latest: "1.36.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blima"
 
