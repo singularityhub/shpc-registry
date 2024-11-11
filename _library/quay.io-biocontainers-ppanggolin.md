@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ppanggolin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppanggolin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppanggolin/container.yaml"
-updated_at: "2024-11-10 03:37:49.909032"
-latest: "2.1.2--py312hf67a6ed_1"
+updated_at: "2024-11-11 03:37:06.403023"
+latest: "2.2.0--py39hff71179_0"
 container_url: "https://biocontainers.pro/tools/ppanggolin"
 aliases:
  - "gawk-5.0.1"
@@ -33,8 +33,9 @@ versions:
  - "1.1.136--py36hc5360cc_1"
  - "2.1.1--py39hff71179_0"
  - "2.1.2--py312hf67a6ed_1"
+ - "2.2.0--py39hff71179_0"
 description: "shpc-registry automated BioContainers addition for ppanggolin"
-config: {"url": "https://biocontainers.pro/tools/ppanggolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppanggolin", "latest": {"2.1.2--py312hf67a6ed_1": "sha256:431a58128ec126e6d7720e9acc4208eb8eb7f7783294f4be2786878126c896c8"}, "tags": {"v0.3.88--py36h516909a_1": "sha256:24940dd298e4db3cd4a99d26b23835b218cb7a5c03cdfb7b5e285bf5d4dbeba2", "1.2.74--py38hbff2b2d_1": "sha256:cc90238050f7954da4ba0da234a309675acd1b22c55e750b98ac63ba1e537fc3", "1.1.136--py37h73a75cf_1": "sha256:ac677fcb63237c628d8a6d0004eed60b2493919a61402e630f502106e76288c6", "1.0.13--py36h516909a_0": "sha256:de0b3cffdf6beb6c3e7fa6c4dbfab675b80f27cd2c012c8205c59fc9490546d2", "1.2.105--py39hbf8eff0_0": "sha256:866d8c387968084e15160ec5e0d9602a4896709bd802a9800e4b0c8c0b42f2ac", "1.2.105--py310h4b81fae_1": "sha256:3d6f75af210f47a192485e94f4a2a7eac228036975023306532f70282285a24b", "2.1.0--py39hff71179_0": "sha256:f578867a62c36caaedb6880b2320143707968413dcc470a6c6203dd2d525a198", "2.0.5--py38h0020b31_1": "sha256:5e3f2aaeb1c6b0d7c216e08b4fe9cb1ed024aa732d4f3376878bdbcb90322225", "1.2.105--py38he5da3d1_1": "sha256:227084d71ec7e64dc10ed4c1d3e4807853299af8035e92ff495113f7d3e89875", "1.1.136--py36hc5360cc_1": "sha256:6bbcfcb11671f7e3a0eb2c932ac60447da22f6dbbce6ef6f3df7d0da15217269", "2.1.1--py39hff71179_0": "sha256:38218b26e6edfb251dbf2373f7005180e47476ab4a615851c981ed85c0a31360", "2.1.2--py312hf67a6ed_1": "sha256:431a58128ec126e6d7720e9acc4208eb8eb7f7783294f4be2786878126c896c8"}, "docker": "quay.io/biocontainers/ppanggolin", "aliases": {"gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "ppanggolin": "/usr/local/bin/ppanggolin", "mmseqs": "/usr/local/bin/mmseqs", "aragorn": "/usr/local/bin/aragorn", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
+config: {"url": "https://biocontainers.pro/tools/ppanggolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppanggolin", "latest": {"2.2.0--py39hff71179_0": "sha256:66f3ab5246922ba34c584acce57588b8a3f08aa046f1e2e46fdf6e47f62bf2be"}, "tags": {"v0.3.88--py36h516909a_1": "sha256:24940dd298e4db3cd4a99d26b23835b218cb7a5c03cdfb7b5e285bf5d4dbeba2", "1.2.74--py38hbff2b2d_1": "sha256:cc90238050f7954da4ba0da234a309675acd1b22c55e750b98ac63ba1e537fc3", "1.1.136--py37h73a75cf_1": "sha256:ac677fcb63237c628d8a6d0004eed60b2493919a61402e630f502106e76288c6", "1.0.13--py36h516909a_0": "sha256:de0b3cffdf6beb6c3e7fa6c4dbfab675b80f27cd2c012c8205c59fc9490546d2", "1.2.105--py39hbf8eff0_0": "sha256:866d8c387968084e15160ec5e0d9602a4896709bd802a9800e4b0c8c0b42f2ac", "1.2.105--py310h4b81fae_1": "sha256:3d6f75af210f47a192485e94f4a2a7eac228036975023306532f70282285a24b", "2.1.0--py39hff71179_0": "sha256:f578867a62c36caaedb6880b2320143707968413dcc470a6c6203dd2d525a198", "2.0.5--py38h0020b31_1": "sha256:5e3f2aaeb1c6b0d7c216e08b4fe9cb1ed024aa732d4f3376878bdbcb90322225", "1.2.105--py38he5da3d1_1": "sha256:227084d71ec7e64dc10ed4c1d3e4807853299af8035e92ff495113f7d3e89875", "1.1.136--py36hc5360cc_1": "sha256:6bbcfcb11671f7e3a0eb2c932ac60447da22f6dbbce6ef6f3df7d0da15217269", "2.1.1--py39hff71179_0": "sha256:38218b26e6edfb251dbf2373f7005180e47476ab4a615851c981ed85c0a31360", "2.1.2--py312hf67a6ed_1": "sha256:431a58128ec126e6d7720e9acc4208eb8eb7f7783294f4be2786878126c896c8", "2.2.0--py39hff71179_0": "sha256:66f3ab5246922ba34c584acce57588b8a3f08aa046f1e2e46fdf6e47f62bf2be"}, "docker": "quay.io/biocontainers/ppanggolin", "aliases": {"gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "ppanggolin": "/usr/local/bin/ppanggolin", "mmseqs": "/usr/local/bin/mmseqs", "aragorn": "/usr/local/bin/aragorn", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ppanggolin.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/ppanggolin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ppanggolin:2.1.2--py312hf67a6ed_1
+$ shpc install quay.io/biocontainers/ppanggolin:2.2.0--py39hff71179_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ppanggolin/2.1.2--py312hf67a6ed_1
-$ module help quay.io/biocontainers/ppanggolin/2.1.2--py312hf67a6ed_1
+$ module load quay.io/biocontainers/ppanggolin/2.2.0--py39hff71179_0
+$ module help quay.io/biocontainers/ppanggolin/2.2.0--py39hff71179_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

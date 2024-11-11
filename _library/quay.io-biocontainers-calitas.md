@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calitas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calitas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calitas/container.yaml"
-updated_at: "2024-11-10 03:28:48.541371"
+updated_at: "2024-11-11 03:28:13.356495"
 latest: "5959343d76d342c252abe0fcffc3a79e332b369d7b5febb4e9d5886614155ea9--0"
 container_url: "https://biocontainers.pro/tools/calitas"
 aliases:

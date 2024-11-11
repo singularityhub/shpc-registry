@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-autonomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-autonomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-autonomics/container.yaml"
-updated_at: "2024-11-10 03:25:58.466306"
+updated_at: "2024-11-11 03:25:22.746892"
 latest: "1.10.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-autonomics"
 
