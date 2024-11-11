@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-spacexr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-spacexr
 latest:
-  2.2.1--r43hdfd78af_0: sha256:95a4352354088a3ea1f7983d97a3d264cbe083d3444713251ce49717f54ec83a
+  2.2.1--r43hdfd78af_1: sha256:26afbc78b1089e0402da4c30ba6bdbc3c3c5d4799d4a4b02a58e212440b150cc
 tags:
   2.2.1--r43hdfd78af_0: sha256:95a4352354088a3ea1f7983d97a3d264cbe083d3444713251ce49717f54ec83a
+  2.2.1--r43hdfd78af_1: sha256:26afbc78b1089e0402da4c30ba6bdbc3c3c5d4799d4a4b02a58e212440b150cc
 docker: quay.io/biocontainers/r-spacexr
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/csvtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for csvtk
 latest:
-  0.30.0--h9ee0642_2: sha256:823983bb6611770d91f053c1dff42e4213d7ec3e345187af96220510b5c53bc3
+  0.31.0--h9ee0642_0: sha256:e73ae7d1626058e06af6023e70945664ee08f55edf2f41fb9aa151b9a6a3f954
 tags:
   0.9.1--0: sha256:f65b8de8066c7356a969fa878bc1d7594ed4a25fbf8ee8d2fd2da18d60b93271
   0.25.0--h9ee0642_0: sha256:f07592f60d3749bfb3df81a23f57d5e709cda30b3c818ac0be699e586bff01b2
@@ -16,6 +16,7 @@ tags:
   0.29.0--h9ee0642_0: sha256:ffe51fde60ad717d1709324259c962499e2641bf35b2c0a7e09dac53f8aa9ffd
   0.30.0--h9ee0642_1: sha256:4a854c8968a07dd908a8c640d31662e98ea2dadab89bb0a5050a0ad6e071abe2
   0.30.0--h9ee0642_2: sha256:823983bb6611770d91f053c1dff42e4213d7ec3e345187af96220510b5c53bc3
+  0.31.0--h9ee0642_0: sha256:e73ae7d1626058e06af6023e70945664ee08f55edf2f41fb9aa151b9a6a3f954
 docker: quay.io/biocontainers/csvtk
 aliases:
   csvtk: /usr/local/bin/csvtk
