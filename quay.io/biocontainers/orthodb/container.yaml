@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/orthodb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orthodb
+latest:
+  0.9.0--pyhdfd78af_0: sha256:7ff0dc63f7ae9555b0a70d1114166cce90985f3371abbfe25418942ffc62d9f9
+tags:
+  0.9.0--pyhdfd78af_0: sha256:7ff0dc63f7ae9555b0a70d1114166cce90985f3371abbfe25418942ffc62d9f9
+docker: quay.io/biocontainers/orthodb
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer
