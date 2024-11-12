@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/konezumiaid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for konezumiaid
 latest:
-  0.3.1--pyhdfd78af_0: sha256:3612f3ac02ebeb0ec0e273dccc5ce87a90aee52085d2d4179afbe7153b0346e7
+  0.3.5--pyhdfd78af_0: sha256:975d5b46447bfe5cbc6d56c57ae5a0c3179a61b0d3c5621a1393689189c7a01a
 tags:
   0.2.2--pyhdfd78af_0: sha256:62bd9917951f5480d93b828c72e05089c93dfbba3d336955cf59ea631601d84f
   0.3.1--pyhdfd78af_0: sha256:3612f3ac02ebeb0ec0e273dccc5ce87a90aee52085d2d4179afbe7153b0346e7
+  0.3.5--pyhdfd78af_0: sha256:975d5b46447bfe5cbc6d56c57ae5a0c3179a61b0d3c5621a1393689189c7a01a
 docker: quay.io/biocontainers/konezumiaid
 aliases:
   konezumiaid: /usr/local/bin/konezumiaid

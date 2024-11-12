@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/trim-galore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trim-galore
 latest:
-  0.6.10--hdfd78af_0: sha256:cd377b728016f5dce52b7a07da5d38cdb0f3d5487ea9b3fa49b8b76f3114befd
+  0.6.10--hdfd78af_1: sha256:1a30e928316d7dc071afba3520a99ed74617e27fa32749d562c6add6786f0d4a
 tags:
   0.6.7--hdfd78af_0: sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608
   0.6.10--hdfd78af_0: sha256:cd377b728016f5dce52b7a07da5d38cdb0f3d5487ea9b3fa49b8b76f3114befd
+  0.6.10--hdfd78af_1: sha256:1a30e928316d7dc071afba3520a99ed74617e27fa32749d562c6add6786f0d4a
 docker: quay.io/biocontainers/trim-galore
 aliases:
   trim_galore: /usr/local/bin/trim_galore
