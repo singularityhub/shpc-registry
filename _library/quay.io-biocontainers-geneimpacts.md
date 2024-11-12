@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geneimpacts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geneimpacts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geneimpacts/container.yaml"
-updated_at: "2024-11-12 03:05:39.236915"
+updated_at: "2024-11-12 03:24:57.045942"
 latest: "0.3.7--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/geneimpacts"
 aliases:

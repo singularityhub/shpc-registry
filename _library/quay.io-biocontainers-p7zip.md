@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/p7zip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/p7zip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/p7zip/container.yaml"
-updated_at: "2024-11-12 03:04:35.227702"
+updated_at: "2024-11-12 03:23:53.265269"
 latest: "16.02"
 container_url: "https://biocontainers.pro/tools/p7zip"
 aliases:

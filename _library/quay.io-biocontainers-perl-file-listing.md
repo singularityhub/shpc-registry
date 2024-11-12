@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-listing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-listing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-listing/container.yaml"
-updated_at: "2024-11-12 02:59:50.053718"
+updated_at: "2024-11-12 03:19:08.516219"
 latest: "6.16--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-listing"
 aliases:

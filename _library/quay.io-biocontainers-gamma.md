@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gamma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gamma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gamma/container.yaml"
-updated_at: "2024-11-12 02:51:44.101069"
+updated_at: "2024-11-12 03:11:02.588392"
 latest: "2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gamma"
 aliases:

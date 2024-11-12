@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/milonga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/milonga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/milonga/container.yaml"
-updated_at: "2024-11-12 03:00:44.715619"
+updated_at: "2024-11-12 03:20:03.229522"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/milonga"
 aliases:
