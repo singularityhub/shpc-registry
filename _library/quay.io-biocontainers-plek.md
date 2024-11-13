@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plek/container.yaml"
-updated_at: "2024-11-13 03:23:52.382084"
+updated_at: "2024-11-13 04:31:25.971401"
 latest: "1.2--py311h9f068be_8"
 container_url: "https://biocontainers.pro/tools/plek"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clippda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clippda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clippda/container.yaml"
-updated_at: "2024-11-13 02:50:59.633298"
+updated_at: "2024-11-13 03:57:42.192486"
 latest: "1.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clippda"
 

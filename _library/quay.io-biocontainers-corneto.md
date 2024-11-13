@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corneto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corneto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corneto/container.yaml"
-updated_at: "2024-11-13 03:07:11.621812"
+updated_at: "2024-11-13 04:14:18.817885"
 latest: "1.0.0a0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/corneto"
 aliases:
