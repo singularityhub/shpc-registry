@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqe/container.yaml"
-updated_at: "2024-11-12 03:53:47.343127"
-latest: "0.3.1--pyh7cba7a3_0"
+updated_at: "2024-11-13 03:38:23.458146"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastqe"
 aliases:
  - "fastqe"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.2.7--pyh5e36f6f_0"
  - "0.3.1--pyh7cba7a3_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fastqe"
-config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.3.1--pyh7cba7a3_0": "sha256:22bcff50de2ba87889bf22a4098e024e6991674897ce68f0e6759fdcc6de384a"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0", "0.3.1--pyh7cba7a3_0": "sha256:22bcff50de2ba87889bf22a4098e024e6991674897ce68f0e6759fdcc6de384a"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.3.3--pyhdfd78af_0": "sha256:3de228135bdf6698394e0b0ab2589cb4c79cfa650215574c6b4b008ad3960de5"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0", "0.3.1--pyh7cba7a3_0": "sha256:22bcff50de2ba87889bf22a4098e024e6991674897ce68f0e6759fdcc6de384a", "0.3.3--pyhdfd78af_0": "sha256:3de228135bdf6698394e0b0ab2589cb4c79cfa650215574c6b4b008ad3960de5"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqe.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/fastqe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastqe:0.3.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/fastqe:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastqe/0.3.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/fastqe/0.3.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/fastqe/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/fastqe/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

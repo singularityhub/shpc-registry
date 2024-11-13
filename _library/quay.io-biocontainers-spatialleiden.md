@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatialleiden"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialleiden/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialleiden/container.yaml"
-updated_at: "2024-11-12 03:41:57.748600"
+updated_at: "2024-11-13 03:26:17.723429"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spatialleiden"
 aliases:

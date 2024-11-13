@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbtamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbtamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbtamr/container.yaml"
-updated_at: "2024-11-12 03:36:27.931155"
+updated_at: "2024-11-13 03:20:50.309476"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tbtamr"
 aliases:

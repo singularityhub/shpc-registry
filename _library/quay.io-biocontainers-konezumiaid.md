@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/konezumiaid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/konezumiaid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/konezumiaid/container.yaml"
-updated_at: "2024-11-12 03:53:20.363619"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2024-11-13 03:37:56.603458"
+latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/konezumiaid"
 aliases:
  - "konezumiaid"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.2.2--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
+ - "0.3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for konezumiaid"
-config: {"url": "https://biocontainers.pro/tools/konezumiaid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for konezumiaid", "latest": {"0.3.1--pyhdfd78af_0": "sha256:3612f3ac02ebeb0ec0e273dccc5ce87a90aee52085d2d4179afbe7153b0346e7"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:62bd9917951f5480d93b828c72e05089c93dfbba3d336955cf59ea631601d84f", "0.3.1--pyhdfd78af_0": "sha256:3612f3ac02ebeb0ec0e273dccc5ce87a90aee52085d2d4179afbe7153b0346e7"}, "docker": "quay.io/biocontainers/konezumiaid", "aliases": {"konezumiaid": "/usr/local/bin/konezumiaid", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12"}}
+config: {"url": "https://biocontainers.pro/tools/konezumiaid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for konezumiaid", "latest": {"0.3.5--pyhdfd78af_0": "sha256:975d5b46447bfe5cbc6d56c57ae5a0c3179a61b0d3c5621a1393689189c7a01a"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:62bd9917951f5480d93b828c72e05089c93dfbba3d336955cf59ea631601d84f", "0.3.1--pyhdfd78af_0": "sha256:3612f3ac02ebeb0ec0e273dccc5ce87a90aee52085d2d4179afbe7153b0346e7", "0.3.5--pyhdfd78af_0": "sha256:975d5b46447bfe5cbc6d56c57ae5a0c3179a61b0d3c5621a1393689189c7a01a"}, "docker": "quay.io/biocontainers/konezumiaid", "aliases": {"konezumiaid": "/usr/local/bin/konezumiaid", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/konezumiaid.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/konezumiaid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/konezumiaid:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/konezumiaid:0.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/konezumiaid/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/konezumiaid/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/konezumiaid/0.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/konezumiaid/0.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

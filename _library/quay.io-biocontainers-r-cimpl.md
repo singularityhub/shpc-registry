@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cimpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cimpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cimpl/container.yaml"
-updated_at: "2024-11-12 03:32:33.550769"
+updated_at: "2024-11-13 03:16:57.282964"
 latest: "1.1--r43h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/r-cimpl"
 aliases:

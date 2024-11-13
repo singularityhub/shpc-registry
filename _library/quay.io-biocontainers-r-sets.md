@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sets/container.yaml"
-updated_at: "2024-11-12 03:19:20.872391"
+updated_at: "2024-11-13 03:03:53.039737"
 latest: "1.0_16--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-sets"
 aliases:

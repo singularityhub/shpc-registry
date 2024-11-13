@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trena/container.yaml"
-updated_at: "2024-11-12 03:53:17.217101"
+updated_at: "2024-11-13 03:37:53.455294"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trena"
 aliases:
