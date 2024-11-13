@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coptr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for coptr
 latest:
-  1.1.4--pyhdfd78af_1: sha256:156348ce73e700d6ab3efd02c42abfd5cfc6dc0f3a2b0a08c4e2ce364592f0e8
+  1.1.4--pyhdfd78af_3: sha256:ff96bfce04ae31fd4b4b9f3ddba8d663c4f4d8e018134de6f2488a1c33c2c27b
 tags:
   1.1.4--pyhdfd78af_1: sha256:156348ce73e700d6ab3efd02c42abfd5cfc6dc0f3a2b0a08c4e2ce364592f0e8
+  1.1.4--pyhdfd78af_3: sha256:ff96bfce04ae31fd4b4b9f3ddba8d663c4f4d8e018134de6f2488a1c33c2c27b
 docker: quay.io/biocontainers/coptr
 aliases:
   coptr: /usr/local/bin/coptr

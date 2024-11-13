@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/decom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for decom
 latest:
-  0.0.32--pyh7cba7a3_0: sha256:6fca49e875cfe2af71c49f2bdf5af6b738d5ed790e284248e7e66662a14fefbc
+  0.0.32--pyhdfd78af_2: sha256:28944e1c4f474657c4d89c5d0c119d007627c4a661f780b4fe92cd7923790e51
 tags:
   0.0.32--pyh7cba7a3_0: sha256:6fca49e875cfe2af71c49f2bdf5af6b738d5ed790e284248e7e66662a14fefbc
+  0.0.32--pyhdfd78af_2: sha256:28944e1c4f474657c4d89c5d0c119d007627c4a661f780b4fe92cd7923790e51
 docker: quay.io/biocontainers/decom
 aliases:
   cmtime: /usr/local/bin/cmtime

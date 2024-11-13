@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hlafreq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hlafreq
 latest:
-  0.0.4--pyhdfd78af_0: sha256:32e19b0c75a958cc0cdccfb5bcf070b3ccc5fa05d861d5e8d8ee16a7cdec780a
+  0.0.5--pyhdfd78af_0: sha256:05b29643ff2c3b418dba560509678cfd7993ffa6988ec279ed9870fbfd1c14b8
 tags:
   0.0.2--pyhdfd78af_0: sha256:cf35cb24c0b74ea410334ef929ff1feb6cce95f95d7280e5875be56a2bb4bbf8
   0.0.3--pyhdfd78af_0: sha256:c7c31f26b8c1fa97398c2641999ce5de883edeabe96ac976582c6f90a0c786c7
   0.0.4--pyhdfd78af_0: sha256:32e19b0c75a958cc0cdccfb5bcf070b3ccc5fa05d861d5e8d8ee16a7cdec780a
+  0.0.5--pyhdfd78af_0: sha256:05b29643ff2c3b418dba560509678cfd7993ffa6988ec279ed9870fbfd1c14b8
 docker: quay.io/biocontainers/hlafreq
 aliases:
   c++: /usr/local/bin/c++
