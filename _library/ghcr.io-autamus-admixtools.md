@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/admixtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/admixtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/admixtools/container.yaml"
-updated_at: "2024-11-13 03:56:57.568848"
+updated_at: "2024-11-14 02:50:56.254192"
 latest: "7.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/admixtools"
 aliases:

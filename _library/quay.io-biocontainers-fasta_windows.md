@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fasta_windows"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta_windows/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta_windows/container.yaml"
-updated_at: "2024-11-13 04:15:47.839186"
+updated_at: "2024-11-14 03:09:41.483480"
 latest: "0.2.4--h031d066_3"
 container_url: "https://biocontainers.pro/tools/fasta_windows"
 aliases:

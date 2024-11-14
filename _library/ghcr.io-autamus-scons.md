@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/scons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/scons/container.yaml"
-updated_at: "2024-11-13 03:56:36.529528"
+updated_at: "2024-11-14 02:50:35.652474"
 latest: "4.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scons"
 aliases:

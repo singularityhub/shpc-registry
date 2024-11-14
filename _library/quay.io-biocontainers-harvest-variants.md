@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/harvest-variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harvest-variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harvest-variants/container.yaml"
-updated_at: "2024-11-13 04:45:37.366012"
+updated_at: "2024-11-14 03:39:16.858195"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/harvest-variants"
 aliases:

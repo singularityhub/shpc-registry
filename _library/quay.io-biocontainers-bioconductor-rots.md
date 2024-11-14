@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rots/container.yaml"
-updated_at: "2024-11-13 03:57:34.093667"
+updated_at: "2024-11-14 02:51:32.980926"
 latest: "1.30.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rots"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/validictory"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/validictory/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/validictory/container.yaml"
-updated_at: "2024-11-13 04:01:28.655717"
+updated_at: "2024-11-14 02:55:26.159209"
 latest: "1.0.1--py36_0"
 container_url: "https://biocontainers.pro/tools/validictory"
 aliases:

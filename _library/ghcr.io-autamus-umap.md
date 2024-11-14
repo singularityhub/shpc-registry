@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/umap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/umap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/umap/container.yaml"
-updated_at: "2024-11-13 03:56:56.409127"
+updated_at: "2024-11-14 02:50:55.120013"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/umap"
 

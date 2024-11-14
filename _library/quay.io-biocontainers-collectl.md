@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/collectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collectl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collectl/container.yaml"
-updated_at: "2024-11-13 04:35:16.676528"
+updated_at: "2024-11-14 03:28:59.379372"
 latest: "4.0.4--pl5.22.0_3"
 container_url: "https://biocontainers.pro/tools/collectl"
 aliases:

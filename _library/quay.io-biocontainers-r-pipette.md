@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pipette"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pipette/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pipette/container.yaml"
-updated_at: "2024-11-13 04:40:53.531448"
+updated_at: "2024-11-14 03:34:35.103539"
 latest: "0.15.2--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-pipette"
 

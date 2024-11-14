@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/optplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optplus/container.yaml"
-updated_at: "2024-11-13 04:16:52.094477"
+updated_at: "2024-11-14 03:10:45.303781"
 latest: "0.2--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/optplus"
 aliases:

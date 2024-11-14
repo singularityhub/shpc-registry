@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methinheritsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
-updated_at: "2024-11-13 04:37:34.237843"
+updated_at: "2024-11-14 03:31:15.125383"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methinheritsim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/halfdeep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/halfdeep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/halfdeep/container.yaml"
-updated_at: "2024-11-13 04:06:21.030734"
+updated_at: "2024-11-14 03:00:17.118729"
 latest: "0.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/halfdeep"
 aliases:

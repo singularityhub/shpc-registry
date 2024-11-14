@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jarvis3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jarvis3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jarvis3/container.yaml"
-updated_at: "2024-11-13 04:13:51.735449"
-latest: "3.7--h031d066_1"
+updated_at: "2024-11-14 03:07:46.484967"
+latest: "3.7--h031d066_2"
 container_url: "https://biocontainers.pro/tools/jarvis3"
 aliases:
  - "JARVIS3"
@@ -15,8 +15,9 @@ aliases:
  - "XScoreD"
 versions:
  - "3.7--h031d066_1"
+ - "3.7--h031d066_2"
 description: "singularity registry hpc automated addition for jarvis3"
-config: {"url": "https://biocontainers.pro/tools/jarvis3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jarvis3", "latest": {"3.7--h031d066_1": "sha256:599b15086e057612cc1cf3d0278d93692df3131130e73b8f4b964d0d1093a982"}, "tags": {"3.7--h031d066_1": "sha256:599b15086e057612cc1cf3d0278d93692df3131130e73b8f4b964d0d1093a982"}, "docker": "quay.io/biocontainers/jarvis3", "aliases": {"JARVIS3": "/usr/local/bin/JARVIS3", "JARVIS3.sh": "/usr/local/bin/JARVIS3.sh", "JARVIS3.sh.bak": "/usr/local/bin/JARVIS3.sh.bak", "XScoreC": "/usr/local/bin/XScoreC", "XScoreD": "/usr/local/bin/XScoreD"}}
+config: {"url": "https://biocontainers.pro/tools/jarvis3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jarvis3", "latest": {"3.7--h031d066_2": "sha256:531cccca30b664bcdeba2cd7154b75e5687a63aa0fedd68174a42b3fa9a9cab1"}, "tags": {"3.7--h031d066_1": "sha256:599b15086e057612cc1cf3d0278d93692df3131130e73b8f4b964d0d1093a982", "3.7--h031d066_2": "sha256:531cccca30b664bcdeba2cd7154b75e5687a63aa0fedd68174a42b3fa9a9cab1"}, "docker": "quay.io/biocontainers/jarvis3", "aliases": {"JARVIS3": "/usr/local/bin/JARVIS3", "JARVIS3.sh": "/usr/local/bin/JARVIS3.sh", "JARVIS3.sh.bak": "/usr/local/bin/JARVIS3.sh.bak", "XScoreC": "/usr/local/bin/XScoreC", "XScoreD": "/usr/local/bin/XScoreD"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jarvis3.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/jarvis3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jarvis3:3.7--h031d066_1
+$ shpc install quay.io/biocontainers/jarvis3:3.7--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jarvis3/3.7--h031d066_1
-$ module help quay.io/biocontainers/jarvis3/3.7--h031d066_1
+$ module load quay.io/biocontainers/jarvis3/3.7--h031d066_2
+$ module help quay.io/biocontainers/jarvis3/3.7--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

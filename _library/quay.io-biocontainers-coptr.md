@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coptr/container.yaml"
-updated_at: "2024-11-13 04:17:45.751099"
-latest: "1.1.4--pyhdfd78af_1"
+updated_at: "2024-11-14 03:11:38.240497"
+latest: "1.1.4--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/coptr"
 aliases:
  - "coptr"
@@ -36,8 +36,9 @@ aliases:
  - "ttx"
 versions:
  - "1.1.4--pyhdfd78af_1"
+ - "1.1.4--pyhdfd78af_3"
 description: "singularity registry hpc automated addition for coptr"
-config: {"url": "https://biocontainers.pro/tools/coptr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coptr", "latest": {"1.1.4--pyhdfd78af_1": "sha256:156348ce73e700d6ab3efd02c42abfd5cfc6dc0f3a2b0a08c4e2ce364592f0e8"}, "tags": {"1.1.4--pyhdfd78af_1": "sha256:156348ce73e700d6ab3efd02c42abfd5cfc6dc0f3a2b0a08c4e2ce364592f0e8"}, "docker": "quay.io/biocontainers/coptr", "aliases": {"coptr": "/usr/local/bin/coptr", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
+config: {"url": "https://biocontainers.pro/tools/coptr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coptr", "latest": {"1.1.4--pyhdfd78af_3": "sha256:ff96bfce04ae31fd4b4b9f3ddba8d663c4f4d8e018134de6f2488a1c33c2c27b"}, "tags": {"1.1.4--pyhdfd78af_1": "sha256:156348ce73e700d6ab3efd02c42abfd5cfc6dc0f3a2b0a08c4e2ce364592f0e8", "1.1.4--pyhdfd78af_3": "sha256:ff96bfce04ae31fd4b4b9f3ddba8d663c4f4d8e018134de6f2488a1c33c2c27b"}, "docker": "quay.io/biocontainers/coptr", "aliases": {"coptr": "/usr/local/bin/coptr", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coptr.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/coptr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coptr:1.1.4--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/coptr:1.1.4--pyhdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coptr/1.1.4--pyhdfd78af_1
-$ module help quay.io/biocontainers/coptr/1.1.4--pyhdfd78af_1
+$ module load quay.io/biocontainers/coptr/1.1.4--pyhdfd78af_3
+$ module help quay.io/biocontainers/coptr/1.1.4--pyhdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
