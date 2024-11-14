@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gzrt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gzrt
+latest:
+  0.8--he4a0461_0: sha256:1486d96c1fe956ef9689d356657ee33e573061ecad2468897d84b1fad4fdf7aa
+tags:
+  0.8--he4a0461_0: sha256:1486d96c1fe956ef9689d356657ee33e573061ecad2468897d84b1fad4fdf7aa
+docker: quay.io/biocontainers/gzrt
+aliases:
+  gzrecover: /usr/local/bin/gzrecover

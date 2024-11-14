@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/r-remapenrich
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-remapenrich
+latest:
+  0.99.0--r43hdfd78af_0: sha256:d3c47c3bef6fc72017c6efef8d71afd8b09d51975f2c19b09d863a3ac767bd8b
+tags:
+  0.99.0--r43hdfd78af_0: sha256:d3c47c3bef6fc72017c6efef8d71afd8b09d51975f2c19b09d863a3ac767bd8b
+docker: quay.io/biocontainers/r-remapenrich
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  hb-info: /usr/local/bin/hb-info
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tjbench: /usr/local/bin/tjbench
