@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splinetimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splinetimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splinetimer/container.yaml"
-updated_at: "2024-11-14 03:11:36.197903"
+updated_at: "2024-11-14 04:23:44.532893"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splinetimer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poolsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poolsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poolsnp/container.yaml"
-updated_at: "2024-11-14 03:06:59.479441"
+updated_at: "2024-11-14 04:19:11.211573"
 latest: "1.0.1--py312h7e72e81_0"
 container_url: "https://biocontainers.pro/tools/poolsnp"
 aliases:
