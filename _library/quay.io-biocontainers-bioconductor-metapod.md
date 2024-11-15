@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metapod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metapod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metapod/container.yaml"
-updated_at: "2024-11-15 02:23:53.770775"
+updated_at: "2024-11-15 03:05:13.936199"
 latest: "1.10.0--r43hf17093f_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-metapod"
 

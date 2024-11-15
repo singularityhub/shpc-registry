@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mantis-msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis-msi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis-msi/container.yaml"
-updated_at: "2024-11-15 03:05:46.061258"
+updated_at: "2024-11-15 03:48:40.568416"
 latest: "1.0.5--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/mantis-msi"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clevrvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clevrvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clevrvis/container.yaml"
-updated_at: "2024-11-15 02:50:21.127475"
+updated_at: "2024-11-15 03:32:24.089353"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clevrvis"
 aliases:

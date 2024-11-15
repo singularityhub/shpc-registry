@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dbd-mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
-updated_at: "2024-11-15 02:46:44.185979"
+updated_at: "2024-11-15 03:28:26.266307"
 latest: "4.050--pl5321h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/perl-dbd-mysql"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xcir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xcir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xcir/container.yaml"
-updated_at: "2024-11-15 02:36:21.049039"
+updated_at: "2024-11-15 03:17:27.455023"
 latest: "1.7.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xcir"
 
