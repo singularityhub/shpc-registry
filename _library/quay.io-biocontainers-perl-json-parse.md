@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-json-parse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-parse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-parse/container.yaml"
-updated_at: "2024-11-14 04:50:21.884315"
+updated_at: "2024-11-15 03:05:05.017643"
 latest: "0.62--pl5321h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/perl-json-parse"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pb-falcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-falcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-falcon/container.yaml"
-updated_at: "2024-11-14 04:20:23.605858"
+updated_at: "2024-11-15 02:35:21.013826"
 latest: "2.2.4--py39he47c912_6"
 container_url: "https://biocontainers.pro/tools/pb-falcon"
 

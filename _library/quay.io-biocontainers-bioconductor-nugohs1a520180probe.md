@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nugohs1a520180probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nugohs1a520180probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nugohs1a520180probe/container.yaml"
-updated_at: "2024-11-14 04:19:33.618029"
+updated_at: "2024-11-15 02:34:28.694583"
 latest: "3.4.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-nugohs1a520180probe"
 

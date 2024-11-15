@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepbinner/container.yaml"
-updated_at: "2024-11-14 04:39:06.025595"
+updated_at: "2024-11-15 02:53:50.041997"
 latest: "0.2.0--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/deepbinner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstatsbig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsbig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsbig/container.yaml"
-updated_at: "2024-11-14 04:51:43.405205"
+updated_at: "2024-11-15 03:06:26.461087"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsbig"
 aliases:

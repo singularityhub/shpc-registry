@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rp2biosensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rp2biosensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rp2biosensor/container.yaml"
-updated_at: "2024-11-14 04:16:05.369794"
+updated_at: "2024-11-15 02:30:54.208709"
 latest: "3.2.1"
 container_url: "https://biocontainers.pro/tools/rp2biosensor"
 aliases:

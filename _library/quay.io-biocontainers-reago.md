@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reago"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reago/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reago/container.yaml"
-updated_at: "2024-11-14 04:45:26.829305"
-latest: "1.1--py34_0"
+updated_at: "2024-11-15 03:00:09.892940"
+latest: "1.1--py35_0"
 container_url: "https://biocontainers.pro/tools/reago"
 aliases:
  - "2to3-3.4"
@@ -22,10 +22,9 @@ aliases:
  - "wish8.5"
  - "pyvenv"
 versions:
- - "1.1--py34_0"
  - "1.1--py35_0"
 description: "shpc-registry automated BioContainers addition for reago"
-config: {"url": "https://biocontainers.pro/tools/reago", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for reago", "latest": {"1.1--py34_0": "sha256:6e1d0e05a5bd28e2eb859c5e808f7bee6d9c844778f60da6b76ff16bc1a5e55a"}, "tags": {"1.1--py34_0": "sha256:6e1d0e05a5bd28e2eb859c5e808f7bee6d9c844778f60da6b76ff16bc1a5e55a", "1.1--py35_0": "sha256:9b857cd2d50246cab0043fae18b9dda231e05aec281156d7afe6df037a50a350"}, "docker": "quay.io/biocontainers/reago", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "reago.py": "/usr/local/bin/reago.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/reago", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for reago", "latest": {"1.1--py35_0": "sha256:9b857cd2d50246cab0043fae18b9dda231e05aec281156d7afe6df037a50a350"}, "tags": {"1.1--py35_0": "sha256:9b857cd2d50246cab0043fae18b9dda231e05aec281156d7afe6df037a50a350"}, "docker": "quay.io/biocontainers/reago", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "reago.py": "/usr/local/bin/reago.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reago.
@@ -40,7 +39,7 @@ $ shpc install quay.io/biocontainers/reago
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reago:1.1--py34_0
+$ shpc install quay.io/biocontainers/reago:1.1--py35_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reago/1.1--py34_0
-$ module help quay.io/biocontainers/reago/1.1--py34_0
+$ module load quay.io/biocontainers/reago/1.1--py35_0
+$ module help quay.io/biocontainers/reago/1.1--py35_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
