@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/get_homologues
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for get_homologues
 latest:
-  3.7.1--hdfd78af_0: sha256:1cac2a2a3a9c47fa864ba866d6023c081e1d90b5686d0f88d2b2f7dbb04cc3b2
+  3.7.2--hdfd78af_0: sha256:af519bfac87233676c424330dc7845bfb77aaf9144c06518b7b799fe22389662
 tags:
   3.5.4--hdfd78af_0: sha256:e94eae46bbb54a17e351758cbe655800afb5abab51f34b75742d7c0bcef79166
   3.5.5--hdfd78af_0: sha256:cd63150c0d7a08c3ac4be260c31e44cda110b4439b107b91d9e9f7107612c0f6
@@ -10,6 +10,7 @@ tags:
   3.6.2--hdfd78af_0: sha256:92f35dc03e687d37ccc2675ce07365611245c129049e4719fe7474ee8c59f21d
   3.6.3--hdfd78af_0: sha256:aa4b977392532fcd9485cef75f80c7751a4bd4f73618950c90042dee7af35472
   3.7.1--hdfd78af_0: sha256:1cac2a2a3a9c47fa864ba866d6023c081e1d90b5686d0f88d2b2f7dbb04cc3b2
+  3.7.2--hdfd78af_0: sha256:af519bfac87233676c424330dc7845bfb77aaf9144c06518b7b799fe22389662
 docker: quay.io/biocontainers/get_homologues
 aliases:
   CHANGES.txt: /usr/local/bin/CHANGES.txt

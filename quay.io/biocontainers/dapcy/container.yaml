@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dapcy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dapcy
 latest:
-  0.1.1--pyhdfd78af_0: sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864
+  1.0.1--pyhdfd78af_0: sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397
 tags:
   0.1.1--pyhdfd78af_0: sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864
+  1.0.1--pyhdfd78af_0: sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397
 docker: quay.io/biocontainers/dapcy
 aliases:
   qconvex: /usr/local/bin/qconvex
