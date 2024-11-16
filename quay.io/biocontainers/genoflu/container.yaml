@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/genoflu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genoflu
 latest:
-  1.03--hdfd78af_0: sha256:ca1c17846d8d6f5b32e5e99128220efc38d4992c86cdcc3403075a1e9ae44c6b
+  1.05--hdfd78af_0: sha256:670deda5539cb3d1abc33e66652fad360b846d5022bc520e1093db157e6e00da
 tags:
   1.0--hdfd78af_0: sha256:827ff2d56128685ce061c09244a6788ccaeee692e32f4d7dfcca193d6397e59a
   1.01--hdfd78af_0: sha256:700abcb4ae89f74e337ccf7d82ce291e9aa3cb712239e34659caf6f462dc1883
   1.02--hdfd78af_0: sha256:2e9cc005c3c6400e9f09bfb4a3417a9d00d0c8f1b6b4ab3bb6e538987bbd8bdd
   1.03--hdfd78af_0: sha256:ca1c17846d8d6f5b32e5e99128220efc38d4992c86cdcc3403075a1e9ae44c6b
+  1.05--hdfd78af_0: sha256:670deda5539cb3d1abc33e66652fad360b846d5022bc520e1093db157e6e00da
+  1.04--hdfd78af_0: sha256:335d71f7a6a0266df69768eae18f0a340a682dd16db5d7ea992ff23ae30b3a88
 docker: quay.io/biocontainers/genoflu
 aliases:
   genoflu.py: /usr/local/bin/genoflu.py

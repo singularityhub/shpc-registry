@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-ole-storage_lite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-ole-storage_lite
 latest:
-  0.20--pl5321h9ee0642_0: sha256:6011de496ac6ba6fd698c53c2180edef97285b6155bc5aaff56d280844c5c547
+  0.22--pl5321hdfd78af_0: sha256:ee5a4630a1eec50c8040aa2a68be58f30af913baf1b3cc7f198da079aca48217
 tags:
   0.20--pl5321h9ee0642_0: sha256:6011de496ac6ba6fd698c53c2180edef97285b6155bc5aaff56d280844c5c547
+  0.22--pl5321hdfd78af_0: sha256:ee5a4630a1eec50c8040aa2a68be58f30af913baf1b3cc7f198da079aca48217
+  0.20--pl5321hdfd78af_1: sha256:818a4b0747d9c9488cedc53663486adacc4487b93f83027546ae4c847d89c38d
 docker: quay.io/biocontainers/perl-ole-storage_lite
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
