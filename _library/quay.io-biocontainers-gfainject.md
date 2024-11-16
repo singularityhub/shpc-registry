@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfainject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfainject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfainject/container.yaml"
-updated_at: "2024-11-15 03:02:07.376002"
+updated_at: "2024-11-16 02:58:56.479224"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/gfainject"
 aliases:

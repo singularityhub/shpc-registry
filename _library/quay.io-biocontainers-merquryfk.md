@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/merquryfk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merquryfk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merquryfk/container.yaml"
-updated_at: "2024-11-15 03:02:05.454166"
-latest: "1.0.0--h4ef89c6_1"
+updated_at: "2024-11-16 02:58:54.757653"
+latest: "1.1.1--h4ef89c6_0"
 container_url: "https://biocontainers.pro/tools/merquryfk"
 aliases:
  - "ASMplot"
@@ -39,8 +39,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--h4ef89c6_1"
+ - "1.1.1--h4ef89c6_0"
 description: "singularity registry hpc automated addition for merquryfk"
-config: {"url": "https://biocontainers.pro/tools/merquryfk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for merquryfk", "latest": {"1.0.0--h4ef89c6_1": "sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d"}, "tags": {"1.0.0--h4ef89c6_1": "sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d"}, "docker": "quay.io/biocontainers/merquryfk", "aliases": {"ASMplot": "/usr/local/bin/ASMplot", "CNplot": "/usr/local/bin/CNplot", "FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "HAPmaker": "/usr/local/bin/HAPmaker", "HAPplot": "/usr/local/bin/HAPplot", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "KatComp": "/usr/local/bin/KatComp", "KatGC": "/usr/local/bin/KatGC", "Logex": "/usr/local/bin/Logex", "MerquryFK": "/usr/local/bin/MerquryFK", "PloidyPlot": "/usr/local/bin/PloidyPlot", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/merquryfk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for merquryfk", "latest": {"1.1.1--h4ef89c6_0": "sha256:0a91dcc5e9ab91637653bdea97f007a0f10c7379826a11d88a11f045a539392e"}, "tags": {"1.0.0--h4ef89c6_1": "sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d", "1.1.1--h4ef89c6_0": "sha256:0a91dcc5e9ab91637653bdea97f007a0f10c7379826a11d88a11f045a539392e"}, "docker": "quay.io/biocontainers/merquryfk", "aliases": {"ASMplot": "/usr/local/bin/ASMplot", "CNplot": "/usr/local/bin/CNplot", "FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "HAPmaker": "/usr/local/bin/HAPmaker", "HAPplot": "/usr/local/bin/HAPplot", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "KatComp": "/usr/local/bin/KatComp", "KatGC": "/usr/local/bin/KatGC", "Logex": "/usr/local/bin/Logex", "MerquryFK": "/usr/local/bin/MerquryFK", "PloidyPlot": "/usr/local/bin/PloidyPlot", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/merquryfk.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/merquryfk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/merquryfk:1.0.0--h4ef89c6_1
+$ shpc install quay.io/biocontainers/merquryfk:1.1.1--h4ef89c6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/merquryfk/1.0.0--h4ef89c6_1
-$ module help quay.io/biocontainers/merquryfk/1.0.0--h4ef89c6_1
+$ module load quay.io/biocontainers/merquryfk/1.1.1--h4ef89c6_0
+$ module help quay.io/biocontainers/merquryfk/1.1.1--h4ef89c6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

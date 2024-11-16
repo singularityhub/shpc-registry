@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flippyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flippyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flippyr/container.yaml"
-updated_at: "2024-11-15 03:40:18.365645"
-latest: "0.5.3--pyh5e36f6f_0"
+updated_at: "2024-11-16 03:35:19.180323"
+latest: "0.6.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/flippyr"
 aliases:
  - "flippyr"
@@ -19,8 +19,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.5.3--pyh5e36f6f_0"
+ - "0.6.1--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for flippyr"
-config: {"url": "https://biocontainers.pro/tools/flippyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flippyr", "latest": {"0.5.3--pyh5e36f6f_0": "sha256:c0f2752b9f3d722096336ade880e5dce12b228dbd5644cd7d9aa598bb8831f73"}, "tags": {"0.5.3--pyh5e36f6f_0": "sha256:c0f2752b9f3d722096336ade880e5dce12b228dbd5644cd7d9aa598bb8831f73"}, "docker": "quay.io/biocontainers/flippyr", "aliases": {"flippyr": "/usr/local/bin/flippyr", "faidx": "/usr/local/bin/faidx", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/flippyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flippyr", "latest": {"0.6.1--pyh7e72e81_0": "sha256:3da124a9f6d18dbf375a1be16815a1f70defa91bbbc18644bed18fc288517202"}, "tags": {"0.5.3--pyh5e36f6f_0": "sha256:c0f2752b9f3d722096336ade880e5dce12b228dbd5644cd7d9aa598bb8831f73", "0.6.1--pyh7e72e81_0": "sha256:3da124a9f6d18dbf375a1be16815a1f70defa91bbbc18644bed18fc288517202"}, "docker": "quay.io/biocontainers/flippyr", "aliases": {"flippyr": "/usr/local/bin/flippyr", "faidx": "/usr/local/bin/faidx", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flippyr.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/flippyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flippyr:0.5.3--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/flippyr:0.6.1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flippyr/0.5.3--pyh5e36f6f_0
-$ module help quay.io/biocontainers/flippyr/0.5.3--pyh5e36f6f_0
+$ module load quay.io/biocontainers/flippyr/0.6.1--pyh7e72e81_0
+$ module help quay.io/biocontainers/flippyr/0.6.1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

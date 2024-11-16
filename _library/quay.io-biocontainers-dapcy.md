@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dapcy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dapcy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dapcy/container.yaml"
-updated_at: "2024-11-15 03:19:09.651389"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-11-16 03:15:48.829828"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dapcy"
 aliases:
  - "qconvex"
@@ -35,8 +35,9 @@ aliases:
  - "bokeh"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dapcy"
-config: {"url": "https://biocontainers.pro/tools/dapcy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dapcy", "latest": {"0.1.1--pyhdfd78af_0": "sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864"}, "docker": "quay.io/biocontainers/dapcy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "dask": "/usr/local/bin/dask", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh"}}
+config: {"url": "https://biocontainers.pro/tools/dapcy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dapcy", "latest": {"1.0.1--pyhdfd78af_0": "sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864", "1.0.1--pyhdfd78af_0": "sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397"}, "docker": "quay.io/biocontainers/dapcy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "dask": "/usr/local/bin/dask", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dapcy.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/dapcy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dapcy:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dapcy:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dapcy/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/dapcy/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/dapcy/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/dapcy/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

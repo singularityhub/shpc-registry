@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/d4binding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/d4binding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/d4binding/container.yaml"
-updated_at: "2024-11-15 03:38:16.991612"
+updated_at: "2024-11-16 03:33:24.351519"
 latest: "0.3.11--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/d4binding"
 aliases:

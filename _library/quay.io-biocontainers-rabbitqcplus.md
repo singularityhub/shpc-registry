@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rabbitqcplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabbitqcplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabbitqcplus/container.yaml"
-updated_at: "2024-11-15 03:41:36.119984"
-latest: "2.2.9--h43eeafb_1"
+updated_at: "2024-11-16 03:36:35.657078"
+latest: "2.3.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/rabbitqcplus"
 aliases:
  - "RabbitQCPlus"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "2.2.9--h43eeafb_0"
  - "2.2.9--h43eeafb_1"
+ - "2.3.0--h43eeafb_0"
 description: "singularity registry hpc automated addition for rabbitqcplus"
-config: {"url": "https://biocontainers.pro/tools/rabbitqcplus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rabbitqcplus", "latest": {"2.2.9--h43eeafb_1": "sha256:1c9b8c4b585ad58016b8ebcd2772fe016d090927d85ede84ec5fccc72e4d4c98"}, "tags": {"2.2.9--h43eeafb_0": "sha256:f51b039b364284aa991e2be51dc9478633cfe395a1fbc47b0abd5347cfde58f9", "2.2.9--h43eeafb_1": "sha256:1c9b8c4b585ad58016b8ebcd2772fe016d090927d85ede84ec5fccc72e4d4c98"}, "docker": "quay.io/biocontainers/rabbitqcplus", "aliases": {"RabbitQCPlus": "/usr/local/bin/RabbitQCPlus", "rabbitqcplus": "/usr/local/bin/rabbitqcplus"}}
+config: {"url": "https://biocontainers.pro/tools/rabbitqcplus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rabbitqcplus", "latest": {"2.3.0--h43eeafb_0": "sha256:321456874f9f938db1eb979abdb99ce12fba7661e6aa1e8180dc253fdd36f657"}, "tags": {"2.2.9--h43eeafb_0": "sha256:f51b039b364284aa991e2be51dc9478633cfe395a1fbc47b0abd5347cfde58f9", "2.2.9--h43eeafb_1": "sha256:1c9b8c4b585ad58016b8ebcd2772fe016d090927d85ede84ec5fccc72e4d4c98", "2.3.0--h43eeafb_0": "sha256:321456874f9f938db1eb979abdb99ce12fba7661e6aa1e8180dc253fdd36f657"}, "docker": "quay.io/biocontainers/rabbitqcplus", "aliases": {"RabbitQCPlus": "/usr/local/bin/RabbitQCPlus", "rabbitqcplus": "/usr/local/bin/rabbitqcplus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rabbitqcplus.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/rabbitqcplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rabbitqcplus:2.2.9--h43eeafb_1
+$ shpc install quay.io/biocontainers/rabbitqcplus:2.3.0--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rabbitqcplus/2.2.9--h43eeafb_1
-$ module help quay.io/biocontainers/rabbitqcplus/2.2.9--h43eeafb_1
+$ module load quay.io/biocontainers/rabbitqcplus/2.3.0--h43eeafb_0
+$ module help quay.io/biocontainers/rabbitqcplus/2.3.0--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

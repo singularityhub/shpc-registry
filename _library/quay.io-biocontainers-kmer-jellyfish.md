@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmer-jellyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
-updated_at: "2024-11-15 03:49:59.382713"
-latest: "2.3.1--py312h4ac6f70_3"
+updated_at: "2024-11-16 03:44:45.204623"
+latest: "2.3.1--py311h2a4ad6c_4"
 container_url: "https://biocontainers.pro/tools/kmer-jellyfish"
 aliases:
  - "jellyfish"
@@ -15,8 +15,9 @@ versions:
  - "2.3.1--h4ac6f70_1"
  - "2.3.1--h4ac6f70_2"
  - "2.3.1--py312h4ac6f70_3"
+ - "2.3.1--py311h2a4ad6c_4"
 description: "shpc-registry automated BioContainers addition for kmer-jellyfish"
-config: {"url": "https://biocontainers.pro/tools/kmer-jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-jellyfish", "latest": {"2.3.1--py312h4ac6f70_3": "sha256:aa42a2cb0d4f08a39fcf51a0504e505fbdb9772446af747bd99280e22acc6ca6"}, "tags": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480", "2.3.1--h4ac6f70_0": "sha256:b5576aff0699c58265800f3a79d727321621c9edca42e4dd9d9095ca4a6924de", "2.3.1--h4ac6f70_1": "sha256:c65a63489d4b22d1bcbaaa8e128f9cc514816a51263083201bacba9cfd3b98a6", "2.3.1--h4ac6f70_2": "sha256:4604b1236f5195ab77bf53ad8287cbb1c49d4e1c777c6887e363c983a64991a9", "2.3.1--py312h4ac6f70_3": "sha256:aa42a2cb0d4f08a39fcf51a0504e505fbdb9772446af747bd99280e22acc6ca6"}, "docker": "quay.io/biocontainers/kmer-jellyfish", "aliases": {"jellyfish": "/usr/local/bin/jellyfish"}}
+config: {"url": "https://biocontainers.pro/tools/kmer-jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-jellyfish", "latest": {"2.3.1--py311h2a4ad6c_4": "sha256:34ec7d5d150599257c01c422247ae5962ce92b8e86241ea9f22b36377693bf44"}, "tags": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480", "2.3.1--h4ac6f70_0": "sha256:b5576aff0699c58265800f3a79d727321621c9edca42e4dd9d9095ca4a6924de", "2.3.1--h4ac6f70_1": "sha256:c65a63489d4b22d1bcbaaa8e128f9cc514816a51263083201bacba9cfd3b98a6", "2.3.1--h4ac6f70_2": "sha256:4604b1236f5195ab77bf53ad8287cbb1c49d4e1c777c6887e363c983a64991a9", "2.3.1--py312h4ac6f70_3": "sha256:aa42a2cb0d4f08a39fcf51a0504e505fbdb9772446af747bd99280e22acc6ca6", "2.3.1--py311h2a4ad6c_4": "sha256:34ec7d5d150599257c01c422247ae5962ce92b8e86241ea9f22b36377693bf44"}, "docker": "quay.io/biocontainers/kmer-jellyfish", "aliases": {"jellyfish": "/usr/local/bin/jellyfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmer-jellyfish.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/kmer-jellyfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmer-jellyfish:2.3.1--py312h4ac6f70_3
+$ shpc install quay.io/biocontainers/kmer-jellyfish:2.3.1--py311h2a4ad6c_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmer-jellyfish/2.3.1--py312h4ac6f70_3
-$ module help quay.io/biocontainers/kmer-jellyfish/2.3.1--py312h4ac6f70_3
+$ module load quay.io/biocontainers/kmer-jellyfish/2.3.1--py311h2a4ad6c_4
+$ module help quay.io/biocontainers/kmer-jellyfish/2.3.1--py311h2a4ad6c_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

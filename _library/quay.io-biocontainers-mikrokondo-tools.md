@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mikrokondo-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mikrokondo-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mikrokondo-tools/container.yaml"
-updated_at: "2024-11-15 03:17:44.144918"
+updated_at: "2024-11-16 03:14:26.501717"
 latest: "0.0.1rc0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mikrokondo-tools"
 aliases:
