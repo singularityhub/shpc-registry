@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/htop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/htop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/htop/container.yaml"
-updated_at: "2024-11-16 02:55:43.234786"
+updated_at: "2024-11-17 03:01:45.773124"
 latest: "3.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/htop"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/reseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reseek/container.yaml"
-updated_at: "2024-11-16 03:33:32.596285"
-latest: "2.0.1--hdbdd923_0"
+updated_at: "2024-11-17 03:39:51.086741"
+latest: "2.02--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/reseek"
 aliases:
  - "reseek"
 versions:
  - "2.0.1--hdbdd923_0"
+ - "2.02--hdbdd923_0"
 description: "singularity registry hpc automated addition for reseek"
-config: {"url": "https://biocontainers.pro/tools/reseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reseek", "latest": {"2.0.1--hdbdd923_0": "sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e"}, "tags": {"2.0.1--hdbdd923_0": "sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e"}, "docker": "quay.io/biocontainers/reseek", "aliases": {"reseek": "/usr/local/bin/reseek"}}
+config: {"url": "https://biocontainers.pro/tools/reseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reseek", "latest": {"2.02--hdbdd923_0": "sha256:69f027e649a341c4e3e69d6c792639d2049d250170de5b4d5936ae7bf4f08f8b"}, "tags": {"2.0.1--hdbdd923_0": "sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e", "2.02--hdbdd923_0": "sha256:69f027e649a341c4e3e69d6c792639d2049d250170de5b4d5936ae7bf4f08f8b"}, "docker": "quay.io/biocontainers/reseek", "aliases": {"reseek": "/usr/local/bin/reseek"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reseek.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/reseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reseek:2.0.1--hdbdd923_0
+$ shpc install quay.io/biocontainers/reseek:2.02--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reseek/2.0.1--hdbdd923_0
-$ module help quay.io/biocontainers/reseek/2.0.1--hdbdd923_0
+$ module load quay.io/biocontainers/reseek/2.02--hdbdd923_0
+$ module help quay.io/biocontainers/reseek/2.02--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

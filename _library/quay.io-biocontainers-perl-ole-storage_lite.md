@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-ole-storage_lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ole-storage_lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ole-storage_lite/container.yaml"
-updated_at: "2024-11-16 03:20:18.449298"
-latest: "0.20--pl5321h9ee0642_0"
+updated_at: "2024-11-17 03:26:20.994023"
+latest: "0.22--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ole-storage_lite"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.20--pl5321h9ee0642_0"
+ - "0.22--pl5321hdfd78af_0"
+ - "0.20--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-ole-storage_lite"
-config: {"url": "https://biocontainers.pro/tools/perl-ole-storage_lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ole-storage_lite", "latest": {"0.20--pl5321h9ee0642_0": "sha256:6011de496ac6ba6fd698c53c2180edef97285b6155bc5aaff56d280844c5c547"}, "tags": {"0.20--pl5321h9ee0642_0": "sha256:6011de496ac6ba6fd698c53c2180edef97285b6155bc5aaff56d280844c5c547"}, "docker": "quay.io/biocontainers/perl-ole-storage_lite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-ole-storage_lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ole-storage_lite", "latest": {"0.22--pl5321hdfd78af_0": "sha256:ee5a4630a1eec50c8040aa2a68be58f30af913baf1b3cc7f198da079aca48217"}, "tags": {"0.20--pl5321h9ee0642_0": "sha256:6011de496ac6ba6fd698c53c2180edef97285b6155bc5aaff56d280844c5c547", "0.22--pl5321hdfd78af_0": "sha256:ee5a4630a1eec50c8040aa2a68be58f30af913baf1b3cc7f198da079aca48217", "0.20--pl5321hdfd78af_1": "sha256:818a4b0747d9c9488cedc53663486adacc4487b93f83027546ae4c847d89c38d"}, "docker": "quay.io/biocontainers/perl-ole-storage_lite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-ole-storage_lite.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-ole-storage_lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-ole-storage_lite:0.20--pl5321h9ee0642_0
+$ shpc install quay.io/biocontainers/perl-ole-storage_lite:0.22--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-ole-storage_lite/0.20--pl5321h9ee0642_0
-$ module help quay.io/biocontainers/perl-ole-storage_lite/0.20--pl5321h9ee0642_0
+$ module load quay.io/biocontainers/perl-ole-storage_lite/0.22--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-ole-storage_lite/0.22--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

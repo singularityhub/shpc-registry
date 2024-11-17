@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-joda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-joda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-joda/container.yaml"
-updated_at: "2024-11-16 03:01:00.756185"
+updated_at: "2024-11-17 03:07:09.104242"
 latest: "1.35.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-joda"
 aliases:

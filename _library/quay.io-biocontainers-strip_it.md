@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strip_it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strip_it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strip_it/container.yaml"
-updated_at: "2024-11-16 03:14:49.222253"
+updated_at: "2024-11-17 03:20:47.289170"
 latest: "1.0.2--h7d875b9_6"
 container_url: "https://biocontainers.pro/tools/strip_it"
 aliases:

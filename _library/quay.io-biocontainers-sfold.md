@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sfold/container.yaml"
-updated_at: "2024-11-16 03:00:50.033218"
-latest: "2.2--pl5321r43h031d066_0"
+updated_at: "2024-11-17 03:06:58.811281"
+latest: "2.2--pl5321r43h031d066_3"
 container_url: "https://biocontainers.pro/tools/sfold"
 aliases:
  - "bp_count.pl"
@@ -34,8 +34,9 @@ aliases:
  - "tjbench"
 versions:
  - "2.2--pl5321r43h031d066_0"
+ - "2.2--pl5321r43h031d066_3"
 description: "singularity registry hpc automated addition for sfold"
-config: {"url": "https://biocontainers.pro/tools/sfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sfold", "latest": {"2.2--pl5321r43h031d066_0": "sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66"}, "tags": {"2.2--pl5321r43h031d066_0": "sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66"}, "docker": "quay.io/biocontainers/sfold", "aliases": {"bp_count.pl": "/usr/local/bin/bp_count.pl", "bprob.X86_64.LINUX": "/usr/local/bin/bprob.X86_64.LINUX", "find.dist.X86_64.LINUX": "/usr/local/bin/find.dist.X86_64.LINUX", "findfe": "/usr/local/bin/findfe", "findfe.X86_64.LINUX": "/usr/local/bin/findfe.X86_64.LINUX", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gcg2bp.pl": "/usr/local/bin/gcg2bp.pl", "getu0.X86_64.LINUX": "/usr/local/bin/getu0.X86_64.LINUX", "getu0.X86_64.SUNOS": "/usr/local/bin/getu0.X86_64.SUNOS", "hybrid_en.pl": "/usr/local/bin/hybrid_en.pl", "sclass.X86_64.LINUX": "/usr/local/bin/sclass.X86_64.LINUX", "sfold": "/usr/local/bin/sfold", "sfold.X86_64.LINUX": "/usr/local/bin/sfold.X86_64.LINUX", "sfold.pl": "/usr/local/bin/sfold.pl", "sfold.pl~": "/usr/local/bin/sfold.pl~", "showsysinfo.sh": "/usr/local/bin/showsysinfo.sh", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/sfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sfold", "latest": {"2.2--pl5321r43h031d066_3": "sha256:f82cb6556b436ebf54d5965494a1ac3213c2425f239efed2a96b2025ae6e4432"}, "tags": {"2.2--pl5321r43h031d066_0": "sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66", "2.2--pl5321r43h031d066_3": "sha256:f82cb6556b436ebf54d5965494a1ac3213c2425f239efed2a96b2025ae6e4432"}, "docker": "quay.io/biocontainers/sfold", "aliases": {"bp_count.pl": "/usr/local/bin/bp_count.pl", "bprob.X86_64.LINUX": "/usr/local/bin/bprob.X86_64.LINUX", "find.dist.X86_64.LINUX": "/usr/local/bin/find.dist.X86_64.LINUX", "findfe": "/usr/local/bin/findfe", "findfe.X86_64.LINUX": "/usr/local/bin/findfe.X86_64.LINUX", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gcg2bp.pl": "/usr/local/bin/gcg2bp.pl", "getu0.X86_64.LINUX": "/usr/local/bin/getu0.X86_64.LINUX", "getu0.X86_64.SUNOS": "/usr/local/bin/getu0.X86_64.SUNOS", "hybrid_en.pl": "/usr/local/bin/hybrid_en.pl", "sclass.X86_64.LINUX": "/usr/local/bin/sclass.X86_64.LINUX", "sfold": "/usr/local/bin/sfold", "sfold.X86_64.LINUX": "/usr/local/bin/sfold.X86_64.LINUX", "sfold.pl": "/usr/local/bin/sfold.pl", "sfold.pl~": "/usr/local/bin/sfold.pl~", "showsysinfo.sh": "/usr/local/bin/showsysinfo.sh", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sfold.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/sfold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sfold:2.2--pl5321r43h031d066_0
+$ shpc install quay.io/biocontainers/sfold:2.2--pl5321r43h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sfold/2.2--pl5321r43h031d066_0
-$ module help quay.io/biocontainers/sfold/2.2--pl5321r43h031d066_0
+$ module load quay.io/biocontainers/sfold/2.2--pl5321r43h031d066_3
+$ module help quay.io/biocontainers/sfold/2.2--pl5321r43h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

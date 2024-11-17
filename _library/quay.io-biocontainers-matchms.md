@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/matchms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchms/container.yaml"
-updated_at: "2024-11-16 03:02:52.075179"
+updated_at: "2024-11-17 03:08:56.275877"
 latest: "0.27.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/matchms"
 aliases:

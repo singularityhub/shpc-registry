@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/muse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muse/container.yaml"
-updated_at: "2024-11-16 03:10:22.804290"
-latest: "1.0.rc--h43eeafb_8"
+updated_at: "2024-11-17 03:16:26.423522"
+latest: "2.1.2--h8a3fdc4_0"
 container_url: "https://biocontainers.pro/tools/muse"
 aliases:
  - "MuSE"
 versions:
  - "1.0.rc--h5b5514e_6"
  - "1.0.rc--h43eeafb_8"
+ - "2.1.2--h8a3fdc4_0"
 description: "shpc-registry automated BioContainers addition for muse"
-config: {"url": "https://biocontainers.pro/tools/muse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muse", "latest": {"1.0.rc--h43eeafb_8": "sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c"}, "tags": {"1.0.rc--h5b5514e_6": "sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed", "1.0.rc--h43eeafb_8": "sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c"}, "docker": "quay.io/biocontainers/muse", "aliases": {"MuSE": "/usr/local/bin/MuSE"}}
+config: {"url": "https://biocontainers.pro/tools/muse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muse", "latest": {"2.1.2--h8a3fdc4_0": "sha256:8e3a56f0b8d839f275abd6783ffc745924defa092b9cce82ba3308b4b7aee377"}, "tags": {"1.0.rc--h5b5514e_6": "sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed", "1.0.rc--h43eeafb_8": "sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c", "2.1.2--h8a3fdc4_0": "sha256:8e3a56f0b8d839f275abd6783ffc745924defa092b9cce82ba3308b4b7aee377"}, "docker": "quay.io/biocontainers/muse", "aliases": {"MuSE": "/usr/local/bin/MuSE"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/muse.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/muse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/muse:1.0.rc--h43eeafb_8
+$ shpc install quay.io/biocontainers/muse:2.1.2--h8a3fdc4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/muse/1.0.rc--h43eeafb_8
-$ module help quay.io/biocontainers/muse/1.0.rc--h43eeafb_8
+$ module load quay.io/biocontainers/muse/2.1.2--h8a3fdc4_0
+$ module help quay.io/biocontainers/muse/2.1.2--h8a3fdc4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

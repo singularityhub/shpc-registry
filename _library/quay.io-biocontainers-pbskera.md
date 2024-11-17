@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbskera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbskera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbskera/container.yaml"
-updated_at: "2024-11-16 03:40:54.557523"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2024-11-17 03:47:11.758076"
+latest: "1.3.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbskera"
 aliases:
  - "skera"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0--hdfd78af_0"
  - "1.1.0--hdfd78af_0"
  - "1.2.0--hdfd78af_0"
+ - "1.3.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for pbskera"
-config: {"url": "https://biocontainers.pro/tools/pbskera", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbskera", "latest": {"1.2.0--hdfd78af_0": "sha256:fdcec73a8b08e57cc2232cfafa2a4b615bf211ccb068400e7cebcc3d78c844f0"}, "tags": {"0.1.0--hdfd78af_0": "sha256:8a78b9f0aad4e26df6d9648451f49df80e096c3f4b96314cab35ea2f4709c34e", "1.1.0--hdfd78af_0": "sha256:752cf06f463a539fbf6b42be73c1deface2a2eea6d8dbfe37e21582ac3f93b26", "1.2.0--hdfd78af_0": "sha256:fdcec73a8b08e57cc2232cfafa2a4b615bf211ccb068400e7cebcc3d78c844f0"}, "docker": "quay.io/biocontainers/pbskera", "aliases": {"skera": "/usr/local/bin/skera"}}
+config: {"url": "https://biocontainers.pro/tools/pbskera", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbskera", "latest": {"1.3.0--hdfd78af_0": "sha256:bb8695ba033a2f58c698996e2918c6f61f3667093de775b1955bbc55c6bd1c67"}, "tags": {"0.1.0--hdfd78af_0": "sha256:8a78b9f0aad4e26df6d9648451f49df80e096c3f4b96314cab35ea2f4709c34e", "1.1.0--hdfd78af_0": "sha256:752cf06f463a539fbf6b42be73c1deface2a2eea6d8dbfe37e21582ac3f93b26", "1.2.0--hdfd78af_0": "sha256:fdcec73a8b08e57cc2232cfafa2a4b615bf211ccb068400e7cebcc3d78c844f0", "1.3.0--hdfd78af_0": "sha256:bb8695ba033a2f58c698996e2918c6f61f3667093de775b1955bbc55c6bd1c67"}, "docker": "quay.io/biocontainers/pbskera", "aliases": {"skera": "/usr/local/bin/skera"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbskera.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pbskera
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbskera:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pbskera:1.3.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbskera/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/pbskera/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/pbskera/1.3.0--hdfd78af_0
+$ module help quay.io/biocontainers/pbskera/1.3.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

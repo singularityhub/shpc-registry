@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophyle/container.yaml"
-updated_at: "2024-11-16 03:17:24.124030"
+updated_at: "2024-11-17 03:23:23.259131"
 latest: "0.3.3.2--py310hdf79db3_2"
 container_url: "https://biocontainers.pro/tools/prophyle"
 aliases:

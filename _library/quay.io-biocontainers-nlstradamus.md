@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nlstradamus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nlstradamus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nlstradamus/container.yaml"
-updated_at: "2024-11-16 02:57:23.320651"
+updated_at: "2024-11-17 03:03:28.150351"
 latest: "1.8--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/nlstradamus"
 aliases:

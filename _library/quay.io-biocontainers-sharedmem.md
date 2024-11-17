@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sharedmem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharedmem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharedmem/container.yaml"
-updated_at: "2024-11-16 03:32:25.470772"
+updated_at: "2024-11-17 03:38:42.499991"
 latest: "0.3.6--py_0"
 container_url: "https://biocontainers.pro/tools/sharedmem"
 aliases:
