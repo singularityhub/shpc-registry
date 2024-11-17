@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/tesorter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tesorter
 latest:
-  1.4.6--pyhdfd78af_1: sha256:36afd35dc05702670756b6c6007fa86465c265601ddf9375fc12618a45002c4f
+  1.4.7--pyhdfd78af_0: sha256:29f996fc932412686e7eb4cc194a5162ca96cacf2041a36093f0f233f7c73cb7
 tags:
   1.3.0--py_0: sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788
   1.4.6--pyhdfd78af_0: sha256:65a6a909483f9a405a7fa5106ea409c981cfb09eee545b6916b54e9347f95081
   1.4.6--pyhdfd78af_1: sha256:36afd35dc05702670756b6c6007fa86465c265601ddf9375fc12618a45002c4f
+  1.4.7--pyhdfd78af_0: sha256:29f996fc932412686e7eb4cc194a5162ca96cacf2041a36093f0f233f7c73cb7
 docker: quay.io/biocontainers/tesorter
 aliases:
   LTR_retriever.py: /usr/local/bin/LTR_retriever.py

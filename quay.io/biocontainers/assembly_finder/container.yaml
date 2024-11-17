@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/assembly_finder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for assembly_finder
 latest:
-  0.7.7--pyhdfd78af_1: sha256:ad51d02f0f5d66629a8c200b89bad7d87d20843c6a9852ce00d88a77d6220840
+  0.8.0--pyhdfd78af_0: sha256:198af881343baf707b83778ecae1b3042abcbf79355b2566ababa00a68ff46e9
 tags:
   0.3.2--pyhdfd78af_1: sha256:c27ad01f4897fd1d85bc7f05cee656ba436982231ec0d820d75e136eeb48a800
   0.4.1--pyhdfd78af_0: sha256:a470bbff52c255846e6cef4c7511741771de67426a1a38b43e7d27724b125c6c
@@ -14,6 +14,7 @@ tags:
   0.7.5--pyhdfd78af_1: sha256:5b459d020623b9fbe357e9070b547e0d069e5c0daed65110730c21561a543769
   0.7.7--pyhdfd78af_0: sha256:e38455f22d03c28d1b4a5e32eb51268846a79718495aeb4d2296f1891d592b63
   0.7.7--pyhdfd78af_1: sha256:ad51d02f0f5d66629a8c200b89bad7d87d20843c6a9852ce00d88a77d6220840
+  0.8.0--pyhdfd78af_0: sha256:198af881343baf707b83778ecae1b3042abcbf79355b2566ababa00a68ff46e9
 docker: quay.io/biocontainers/assembly_finder
 aliases:
   ascli: /usr/local/bin/ascli
