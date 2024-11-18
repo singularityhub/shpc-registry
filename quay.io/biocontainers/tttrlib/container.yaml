@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/tttrlib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tttrlib
+latest:
+  0.25.1--py310hddbaf4e_0: sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35
+tags:
+  0.25.1--py310hddbaf4e_0: sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35
+docker: quay.io/biocontainers/tttrlib
+aliases:
+  tttrlib: /usr/local/bin/tttrlib
+  rav1e: /usr/local/bin/rav1e
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
