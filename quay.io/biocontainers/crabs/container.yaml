@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/crabs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for crabs
 latest:
-  0.1.1--pyhb7b1952_0: sha256:6bf3047cee5fe0672b00646a2c5e68ec0539d8dd0609a6f5576e9fdd6488b1e5
+  1.0.6--pyhdfd78af_0: sha256:40116b39204f3af4157430d51029efc2a52ffed72909a5d6d15f243dc0394f70
 tags:
   0.1.1--pyhb7b1952_0: sha256:6bf3047cee5fe0672b00646a2c5e68ec0539d8dd0609a6f5576e9fdd6488b1e5
+  1.0.6--pyhdfd78af_0: sha256:40116b39204f3af4157430d51029efc2a52ffed72909a5d6d15f243dc0394f70
 docker: quay.io/biocontainers/crabs
 aliases:
   crabs: /usr/local/bin/crabs

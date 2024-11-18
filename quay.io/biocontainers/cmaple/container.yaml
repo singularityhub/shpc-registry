@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cmaple
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cmaple
 latest:
-  1.0.0--hdbdd923_1: sha256:154b5f98bf60f01f48e99bcfaa8209c6e69ddcd06009ccb46f2876517b696f38
+  1.1.0--hdbdd923_0: sha256:4306a76ad1bf9bda7641f8a6c8203485e9afd374823b72af419cdbdf19365a22
 tags:
   1.0.0--hdbdd923_0: sha256:68edc82dc07544bfabdfd4753d5a35ada7c13c2462ccc2d370819e6d0b2f7378
   1.0.0--hdbdd923_1: sha256:154b5f98bf60f01f48e99bcfaa8209c6e69ddcd06009ccb46f2876517b696f38
+  1.1.0--hdbdd923_0: sha256:4306a76ad1bf9bda7641f8a6c8203485e9afd374823b72af419cdbdf19365a22
 docker: quay.io/biocontainers/cmaple
 aliases:
   cmaple: /usr/local/bin/cmaple

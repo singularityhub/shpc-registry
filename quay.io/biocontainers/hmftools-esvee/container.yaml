@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-esvee
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-esvee
 latest:
-  1.0_beta--hdfd78af_2: sha256:84491748a8cbcf53a943e6cd9e38dca35bf56c81c89368789cdfe4f84c28b50b
+  1.0_beta--hdfd78af_5: sha256:1c8205c530619f02b8a80dac335583d32a3bd0375998e514ecd141f74f231296
 tags:
   1.0_beta--hdfd78af_0: sha256:c4040b163c7b18e30e36e3f5a6d05157b19d51450fbe42f70bd99599c061be54
   1.0_beta--hdfd78af_2: sha256:84491748a8cbcf53a943e6cd9e38dca35bf56c81c89368789cdfe4f84c28b50b
+  1.0_beta--hdfd78af_5: sha256:1c8205c530619f02b8a80dac335583d32a3bd0375998e514ecd141f74f231296
 docker: quay.io/biocontainers/hmftools-esvee
 aliases:
   esvee: /usr/local/bin/esvee
