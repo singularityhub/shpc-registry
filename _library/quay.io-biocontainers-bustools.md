@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bustools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bustools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bustools/container.yaml"
-updated_at: "2024-11-17 03:29:57.671695"
-latest: "0.44.0--he1fd2f9_0"
+updated_at: "2024-11-18 03:29:09.893724"
+latest: "0.44.1--he1fd2f9_0"
 container_url: "https://biocontainers.pro/tools/bustools"
 aliases:
  - "bustools"
@@ -29,8 +29,9 @@ versions:
  - "0.43.2--he1fd2f9_1"
  - "0.43.2--he1fd2f9_2"
  - "0.44.0--he1fd2f9_0"
+ - "0.44.1--he1fd2f9_0"
 description: "shpc-registry automated BioContainers addition for bustools"
-config: {"url": "https://biocontainers.pro/tools/bustools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bustools", "latest": {"0.44.0--he1fd2f9_0": "sha256:b4a5ae90844dae00bd6572c82c72a808e0c33a16ab892b0337b0a663868910ec"}, "tags": {"0.41.0--h15996b6_2": "sha256:97f0688f3fc0c4f8f642f52e0b1643e4921b816f1a7855bba5dbe31a904c924c", "0.42.0--h15996b6_0": "sha256:fd56d2b95a3883b71e1291d881a6edee6d3824e120197c4d459d140d09a5b22a", "0.42.0--h1339bb5_2": "sha256:4860c533cc2896e8c39232f20313dbe5c68ae2f69947c15ee5f2f05c16114484", "0.43.0--h1339bb5_0": "sha256:da0076fe9156776215baa4e97d81104ec6e573b99604fdc3a88fda6a4d5be087", "0.43.1--h1339bb5_0": "sha256:7161b58d937aa00dce2e77848ccc27fb517ad2d211a08352541e680338b33489", "0.43.2--h1339bb5_0": "sha256:dc2608fcf4917f6acb1e7445f4f2011af88d6811627654dc4d5abe902028fca0", "0.43.2--he1fd2f9_1": "sha256:a7293219292ba5cf8ff8023a90190252d4d5a336e52d4bbb7cc9ca24e8dfba66", "0.43.2--he1fd2f9_2": "sha256:1498806028f79f80a0a89d5765733a8386bc992749472ecc8d0c18bbc93e8f20", "0.44.0--he1fd2f9_0": "sha256:b4a5ae90844dae00bd6572c82c72a808e0c33a16ab892b0337b0a663868910ec"}, "docker": "quay.io/biocontainers/bustools", "aliases": {"bustools": "/usr/local/bin/bustools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/bustools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bustools", "latest": {"0.44.1--he1fd2f9_0": "sha256:d618abda1155814a9db24f28f0f99e0b3c2b48f8bf42a55789de516253066f81"}, "tags": {"0.41.0--h15996b6_2": "sha256:97f0688f3fc0c4f8f642f52e0b1643e4921b816f1a7855bba5dbe31a904c924c", "0.42.0--h15996b6_0": "sha256:fd56d2b95a3883b71e1291d881a6edee6d3824e120197c4d459d140d09a5b22a", "0.42.0--h1339bb5_2": "sha256:4860c533cc2896e8c39232f20313dbe5c68ae2f69947c15ee5f2f05c16114484", "0.43.0--h1339bb5_0": "sha256:da0076fe9156776215baa4e97d81104ec6e573b99604fdc3a88fda6a4d5be087", "0.43.1--h1339bb5_0": "sha256:7161b58d937aa00dce2e77848ccc27fb517ad2d211a08352541e680338b33489", "0.43.2--h1339bb5_0": "sha256:dc2608fcf4917f6acb1e7445f4f2011af88d6811627654dc4d5abe902028fca0", "0.43.2--he1fd2f9_1": "sha256:a7293219292ba5cf8ff8023a90190252d4d5a336e52d4bbb7cc9ca24e8dfba66", "0.43.2--he1fd2f9_2": "sha256:1498806028f79f80a0a89d5765733a8386bc992749472ecc8d0c18bbc93e8f20", "0.44.0--he1fd2f9_0": "sha256:b4a5ae90844dae00bd6572c82c72a808e0c33a16ab892b0337b0a663868910ec", "0.44.1--he1fd2f9_0": "sha256:d618abda1155814a9db24f28f0f99e0b3c2b48f8bf42a55789de516253066f81"}, "docker": "quay.io/biocontainers/bustools", "aliases": {"bustools": "/usr/local/bin/bustools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bustools.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bustools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bustools:0.44.0--he1fd2f9_0
+$ shpc install quay.io/biocontainers/bustools:0.44.1--he1fd2f9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bustools/0.44.0--he1fd2f9_0
-$ module help quay.io/biocontainers/bustools/0.44.0--he1fd2f9_0
+$ module load quay.io/biocontainers/bustools/0.44.1--he1fd2f9_0
+$ module help quay.io/biocontainers/bustools/0.44.1--he1fd2f9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

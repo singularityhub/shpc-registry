@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kaptive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kaptive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kaptive/container.yaml"
-updated_at: "2024-11-17 03:41:36.543459"
+updated_at: "2024-11-18 03:40:42.605297"
 latest: "3.0.0b5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kaptive"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-memoize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-memoize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-memoize/container.yaml"
-updated_at: "2024-11-17 03:40:17.498260"
+updated_at: "2024-11-18 03:39:24.266904"
 latest: "1.09--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-memoize"
 aliases:

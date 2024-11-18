@@ -4,7 +4,7 @@ name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2024-11-17 03:51:19.125846"
+updated_at: "2024-11-18 03:50:19.328068"
 latest: "2.16.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 

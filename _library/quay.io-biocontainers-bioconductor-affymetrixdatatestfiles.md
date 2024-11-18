@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
-updated_at: "2024-11-17 03:30:26.588483"
+updated_at: "2024-11-18 03:29:38.548867"
 latest: "0.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles"
 

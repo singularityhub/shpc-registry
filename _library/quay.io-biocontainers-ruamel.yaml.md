@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruamel.yaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
-updated_at: "2024-11-17 03:18:27.915945"
+updated_at: "2024-11-18 03:17:45.431415"
 latest: "0.12.13--py35_0"
 container_url: "https://biocontainers.pro/tools/ruamel.yaml"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wham"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wham/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wham/container.yaml"
-updated_at: "2024-11-17 03:31:37.402376"
+updated_at: "2024-11-18 03:30:48.914154"
 latest: "1.8.0.1.2017.05.03--h8b12597_1"
 container_url: "https://biocontainers.pro/tools/wham"
 aliases:
