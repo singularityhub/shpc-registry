@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/breakfast
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for breakfast
 latest:
-  0.4.3--pyhdfd78af_0: sha256:fecbbc15508279c5e923794bfd727f03ded7229d3f80d21201717c8858e7ceb4
+  0.4.5--pyhdfd78af_0: sha256:4283b8c6a2a958bad68755da3921a3af4b3ef7ab8ab44396ab4ae47f9806b0a7
 tags:
   0.4.3--pyhdfd78af_0: sha256:fecbbc15508279c5e923794bfd727f03ded7229d3f80d21201717c8858e7ceb4
+  0.4.5--pyhdfd78af_0: sha256:4283b8c6a2a958bad68755da3921a3af4b3ef7ab8ab44396ab4ae47f9806b0a7
 docker: quay.io/biocontainers/breakfast
 aliases:
   breakfast: /usr/local/bin/breakfast

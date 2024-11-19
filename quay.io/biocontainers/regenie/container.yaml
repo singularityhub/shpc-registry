@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/regenie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for regenie
 latest:
-  3.5--h90dfdf2_0: sha256:df481155a319a3bf4fa6beb70f088f1f93737d1d5e734a80c1946f16e9bbac93
+  4.0--h90dfdf2_1: sha256:d030c052915db3713ac08d28faf5b5ae8b5e2a701326681e5a0d01c01956c532
 tags:
   3.2.1--h2b233e7_0: sha256:fcba678511c3aa20834806a63412cdbb01efdd0936e13867e371c82e530e92f4
   3.2.2.1--h2b233e7_0: sha256:80b207405ae5421d0eae3e005a6b47243a22828125df5b97631198d234231aff
@@ -17,6 +17,8 @@ tags:
   3.4--h90dfdf2_0: sha256:0ecdc8ef33794b93a7757afd880d69aa4d22989f5fc258eda72437f0c6d7659e
   3.4.1--h90dfdf2_0: sha256:c823bc6992c9f2136c1ee143fb7564de930a4a562c043c581f9fd2c5da4bd357
   3.5--h90dfdf2_0: sha256:df481155a319a3bf4fa6beb70f088f1f93737d1d5e734a80c1946f16e9bbac93
+  4.0--h90dfdf2_1: sha256:d030c052915db3713ac08d28faf5b5ae8b5e2a701326681e5a0d01c01956c532
+  3.6--h90dfdf2_0: sha256:97db57179f292ac8cb644914bc7d18b2098949d996c33e09ee771c8c9c954d5d
 docker: quay.io/biocontainers/regenie
 aliases:
   regenie: /usr/local/bin/regenie

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/krakentools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krakentools
 latest:
-  1.2--pyh5e36f6f_0: sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2
+  1.2--pyh7e72e81_1: sha256:d92330044c3df13734272cb8a64e5102d54024747f00991449a57e36b7e0cfda
 tags:
   1.2--pyh5e36f6f_0: sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2
+  1.2--pyh7e72e81_1: sha256:d92330044c3df13734272cb8a64e5102d54024747f00991449a57e36b7e0cfda
 docker: quay.io/biocontainers/krakentools
 aliases:
   alpha_diversity.py: /usr/local/bin/alpha_diversity.py

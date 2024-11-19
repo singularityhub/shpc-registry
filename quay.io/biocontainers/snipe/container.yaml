@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snipe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snipe
 latest:
-  0.1.4--pyhdfd78af_0: sha256:e7d602632c78025633b7ff85f8be4b3c6f1fb842360c44d69be2d2387a505675
+  0.1.6--pyhdfd78af_0: sha256:d8f3149b711e05a802a0da586aa14ef633ed26f0196cc170d6ee5fbef96a4166
 tags:
   0.1.4--pyhdfd78af_0: sha256:e7d602632c78025633b7ff85f8be4b3c6f1fb842360c44d69be2d2387a505675
+  0.1.6--pyhdfd78af_0: sha256:d8f3149b711e05a802a0da586aa14ef633ed26f0196cc170d6ee5fbef96a4166
 docker: quay.io/biocontainers/snipe
 aliases:
   pathos_connect: /usr/local/bin/pathos_connect
