@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longcallr_nn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longcallr_nn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longcallr_nn/container.yaml"
-updated_at: "2024-11-18 16:51:43.071266"
+updated_at: "2024-11-19 03:19:22.803043"
 latest: "0.0.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/longcallr_nn"
 aliases:

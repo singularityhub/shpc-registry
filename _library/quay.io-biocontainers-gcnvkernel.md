@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcnvkernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcnvkernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcnvkernel/container.yaml"
-updated_at: "2024-11-18 16:52:49.013089"
+updated_at: "2024-11-19 03:20:28.619123"
 latest: "0.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gcnvkernel"
 aliases:

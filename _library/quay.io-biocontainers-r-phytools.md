@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phytools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phytools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phytools/container.yaml"
-updated_at: "2024-11-18 16:41:24.015936"
+updated_at: "2024-11-19 03:08:57.532977"
 latest: "0.6_99--r40h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-phytools"
 

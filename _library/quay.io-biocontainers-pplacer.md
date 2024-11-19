@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pplacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pplacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pplacer/container.yaml"
-updated_at: "2024-11-18 16:50:12.323417"
+updated_at: "2024-11-19 03:17:51.806543"
 latest: "1.1.alpha19--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/pplacer"
 aliases:

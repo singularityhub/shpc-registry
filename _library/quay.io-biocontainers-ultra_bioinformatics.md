@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ultra_bioinformatics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
-updated_at: "2024-11-18 17:04:00.333077"
+updated_at: "2024-11-19 03:31:49.786857"
 latest: "0.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/ultra_bioinformatics"
 aliases:

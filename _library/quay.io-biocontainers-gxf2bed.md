@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gxf2bed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxf2bed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxf2bed/container.yaml"
-updated_at: "2024-11-18 17:19:01.788776"
+updated_at: "2024-11-19 03:47:04.276667"
 latest: "0.2.3--h919a2d8_1"
 container_url: "https://biocontainers.pro/tools/gxf2bed"
 aliases:

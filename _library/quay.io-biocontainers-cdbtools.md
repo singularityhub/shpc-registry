@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdbtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdbtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdbtools/container.yaml"
-updated_at: "2024-11-18 17:13:23.793466"
+updated_at: "2024-11-19 03:41:20.102369"
 latest: "0.99--hdcf5f25_10"
 container_url: "https://biocontainers.pro/tools/cdbtools"
 aliases:

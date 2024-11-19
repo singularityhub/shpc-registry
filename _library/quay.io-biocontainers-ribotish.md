@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribotish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotish/container.yaml"
-updated_at: "2024-11-18 17:02:50.311741"
+updated_at: "2024-11-19 03:30:39.308137"
 latest: "0.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribotish"
 aliases:

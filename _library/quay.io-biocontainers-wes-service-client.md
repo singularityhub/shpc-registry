@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wes-service-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wes-service-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wes-service-client/container.yaml"
-updated_at: "2024-11-18 17:01:15.838179"
+updated_at: "2024-11-19 03:29:04.696674"
 latest: "2.7--py_1"
 container_url: "https://biocontainers.pro/tools/wes-service-client"
 aliases:
