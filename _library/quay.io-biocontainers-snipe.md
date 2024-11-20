@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snipe/container.yaml"
-updated_at: "2024-11-19 03:24:14.673257"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2024-11-20 03:23:07.097335"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snipe"
 aliases:
  - "pathos_connect"
@@ -40,8 +40,9 @@ aliases:
  - "brotli"
 versions:
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snipe"
-config: {"url": "https://biocontainers.pro/tools/snipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snipe", "latest": {"0.1.4--pyhdfd78af_0": "sha256:e7d602632c78025633b7ff85f8be4b3c6f1fb842360c44d69be2d2387a505675"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:e7d602632c78025633b7ff85f8be4b3c6f1fb842360c44d69be2d2387a505675"}, "docker": "quay.io/biocontainers/snipe", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "snipe": "/usr/local/bin/snipe", "sourmash": "/usr/local/bin/sourmash", "get_gprof": "/usr/local/bin/get_gprof", "pyfastx": "/usr/local/bin/pyfastx", "screed": "/usr/local/bin/screed", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/snipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snipe", "latest": {"0.1.6--pyhdfd78af_0": "sha256:d8f3149b711e05a802a0da586aa14ef633ed26f0196cc170d6ee5fbef96a4166"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:e7d602632c78025633b7ff85f8be4b3c6f1fb842360c44d69be2d2387a505675", "0.1.6--pyhdfd78af_0": "sha256:d8f3149b711e05a802a0da586aa14ef633ed26f0196cc170d6ee5fbef96a4166"}, "docker": "quay.io/biocontainers/snipe", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "snipe": "/usr/local/bin/snipe", "sourmash": "/usr/local/bin/sourmash", "get_gprof": "/usr/local/bin/get_gprof", "pyfastx": "/usr/local/bin/pyfastx", "screed": "/usr/local/bin/screed", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snipe.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/snipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snipe:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snipe:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snipe/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/snipe/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/snipe/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/snipe/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

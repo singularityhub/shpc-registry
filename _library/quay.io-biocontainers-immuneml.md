@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/immuneml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/immuneml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/immuneml/container.yaml"
-updated_at: "2024-11-19 03:42:18.917654"
+updated_at: "2024-11-20 03:41:12.289916"
 latest: "2.2.6--py38h0020b31_1"
 container_url: "https://biocontainers.pro/tools/immuneml"
 aliases:

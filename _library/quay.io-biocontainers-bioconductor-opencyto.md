@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-opencyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opencyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opencyto/container.yaml"
-updated_at: "2024-11-19 03:17:08.898223"
+updated_at: "2024-11-20 03:16:05.374256"
 latest: "2.14.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-opencyto"
 

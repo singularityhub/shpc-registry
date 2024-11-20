@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adverscarial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adverscarial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adverscarial/container.yaml"
-updated_at: "2024-11-19 03:10:59.816963"
+updated_at: "2024-11-20 03:09:57.547525"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adverscarial"
 aliases:

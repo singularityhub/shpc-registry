@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/breakfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakfast/container.yaml"
-updated_at: "2024-11-19 03:09:07.392447"
-latest: "0.4.3--pyhdfd78af_0"
+updated_at: "2024-11-20 03:08:05.687432"
+latest: "0.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/breakfast"
 aliases:
  - "breakfast"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.4.3--pyhdfd78af_0"
+ - "0.4.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for breakfast"
-config: {"url": "https://biocontainers.pro/tools/breakfast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for breakfast", "latest": {"0.4.3--pyhdfd78af_0": "sha256:fecbbc15508279c5e923794bfd727f03ded7229d3f80d21201717c8858e7ceb4"}, "tags": {"0.4.3--pyhdfd78af_0": "sha256:fecbbc15508279c5e923794bfd727f03ded7229d3f80d21201717c8858e7ceb4"}, "docker": "quay.io/biocontainers/breakfast", "aliases": {"breakfast": "/usr/local/bin/breakfast", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/breakfast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for breakfast", "latest": {"0.4.5--pyhdfd78af_0": "sha256:4283b8c6a2a958bad68755da3921a3af4b3ef7ab8ab44396ab4ae47f9806b0a7"}, "tags": {"0.4.3--pyhdfd78af_0": "sha256:fecbbc15508279c5e923794bfd727f03ded7229d3f80d21201717c8858e7ceb4", "0.4.5--pyhdfd78af_0": "sha256:4283b8c6a2a958bad68755da3921a3af4b3ef7ab8ab44396ab4ae47f9806b0a7"}, "docker": "quay.io/biocontainers/breakfast", "aliases": {"breakfast": "/usr/local/bin/breakfast", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/breakfast.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/breakfast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/breakfast:0.4.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/breakfast:0.4.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/breakfast/0.4.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/breakfast/0.4.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/breakfast/0.4.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/breakfast/0.4.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

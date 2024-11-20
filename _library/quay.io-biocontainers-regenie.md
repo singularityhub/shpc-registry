@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/regenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regenie/container.yaml"
-updated_at: "2024-11-19 03:22:06.445155"
-latest: "3.5--h90dfdf2_0"
+updated_at: "2024-11-20 03:21:00.433283"
+latest: "4.0--h90dfdf2_1"
 container_url: "https://biocontainers.pro/tools/regenie"
 aliases:
  - "regenie"
@@ -23,8 +23,10 @@ versions:
  - "3.4--h90dfdf2_0"
  - "3.4.1--h90dfdf2_0"
  - "3.5--h90dfdf2_0"
+ - "4.0--h90dfdf2_1"
+ - "3.6--h90dfdf2_0"
 description: "shpc-registry automated BioContainers addition for regenie"
-config: {"url": "https://biocontainers.pro/tools/regenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regenie", "latest": {"3.5--h90dfdf2_0": "sha256:df481155a319a3bf4fa6beb70f088f1f93737d1d5e734a80c1946f16e9bbac93"}, "tags": {"3.2.1--h2b233e7_0": "sha256:fcba678511c3aa20834806a63412cdbb01efdd0936e13867e371c82e530e92f4", "3.2.2.1--h2b233e7_0": "sha256:80b207405ae5421d0eae3e005a6b47243a22828125df5b97631198d234231aff", "3.2.3--h2b233e7_0": "sha256:e27627a48b73f8b9445925680fd1ca3e0842481523af310f288ef9179b6313b0", "3.2.5--h2b233e7_0": "sha256:40cefe65158cb0ca2876242fa67c53dc6fee3aac0dd3c9fe6f90f625e409f9b3", "3.2.5.2--h2b233e7_0": "sha256:efe40ca68e341c96357f03e51279faadb2e1b5b6f67183752b35bce3663a1c74", "3.2.6--h2b233e7_0": "sha256:80ba1ecb86d7f8c8a5fcf14ac6dcbe6ecdc7c7126d318d4ed5c35d21919482f3", "3.2.6--h2b233e7_1": "sha256:932d01800cd61494e813e42a7f5828875759b3251bff4a30e00f3cd5ca349ae5", "3.2.7--h2b233e7_0": "sha256:921e8ff311fed17bec735dfe94c19eb6bbb220a9396d951a75887b8358751dd1", "3.2.9--h90dfdf2_0": "sha256:9912ef9d6a3fb0f9aaebc6362b042111e0b649e8228391650e6788819417542a", "3.3--h90dfdf2_0": "sha256:e47ef926671a2e3f1817117089e61309dac5e29ebc6f442510df8b6106fc4cd6", "3.4--h90dfdf2_0": "sha256:0ecdc8ef33794b93a7757afd880d69aa4d22989f5fc258eda72437f0c6d7659e", "3.4.1--h90dfdf2_0": "sha256:c823bc6992c9f2136c1ee143fb7564de930a4a562c043c581f9fd2c5da4bd357", "3.5--h90dfdf2_0": "sha256:df481155a319a3bf4fa6beb70f088f1f93737d1d5e734a80c1946f16e9bbac93"}, "docker": "quay.io/biocontainers/regenie", "aliases": {"regenie": "/usr/local/bin/regenie"}}
+config: {"url": "https://biocontainers.pro/tools/regenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regenie", "latest": {"4.0--h90dfdf2_1": "sha256:d030c052915db3713ac08d28faf5b5ae8b5e2a701326681e5a0d01c01956c532"}, "tags": {"3.2.1--h2b233e7_0": "sha256:fcba678511c3aa20834806a63412cdbb01efdd0936e13867e371c82e530e92f4", "3.2.2.1--h2b233e7_0": "sha256:80b207405ae5421d0eae3e005a6b47243a22828125df5b97631198d234231aff", "3.2.3--h2b233e7_0": "sha256:e27627a48b73f8b9445925680fd1ca3e0842481523af310f288ef9179b6313b0", "3.2.5--h2b233e7_0": "sha256:40cefe65158cb0ca2876242fa67c53dc6fee3aac0dd3c9fe6f90f625e409f9b3", "3.2.5.2--h2b233e7_0": "sha256:efe40ca68e341c96357f03e51279faadb2e1b5b6f67183752b35bce3663a1c74", "3.2.6--h2b233e7_0": "sha256:80ba1ecb86d7f8c8a5fcf14ac6dcbe6ecdc7c7126d318d4ed5c35d21919482f3", "3.2.6--h2b233e7_1": "sha256:932d01800cd61494e813e42a7f5828875759b3251bff4a30e00f3cd5ca349ae5", "3.2.7--h2b233e7_0": "sha256:921e8ff311fed17bec735dfe94c19eb6bbb220a9396d951a75887b8358751dd1", "3.2.9--h90dfdf2_0": "sha256:9912ef9d6a3fb0f9aaebc6362b042111e0b649e8228391650e6788819417542a", "3.3--h90dfdf2_0": "sha256:e47ef926671a2e3f1817117089e61309dac5e29ebc6f442510df8b6106fc4cd6", "3.4--h90dfdf2_0": "sha256:0ecdc8ef33794b93a7757afd880d69aa4d22989f5fc258eda72437f0c6d7659e", "3.4.1--h90dfdf2_0": "sha256:c823bc6992c9f2136c1ee143fb7564de930a4a562c043c581f9fd2c5da4bd357", "3.5--h90dfdf2_0": "sha256:df481155a319a3bf4fa6beb70f088f1f93737d1d5e734a80c1946f16e9bbac93", "4.0--h90dfdf2_1": "sha256:d030c052915db3713ac08d28faf5b5ae8b5e2a701326681e5a0d01c01956c532", "3.6--h90dfdf2_0": "sha256:97db57179f292ac8cb644914bc7d18b2098949d996c33e09ee771c8c9c954d5d"}, "docker": "quay.io/biocontainers/regenie", "aliases": {"regenie": "/usr/local/bin/regenie"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/regenie.
@@ -39,7 +41,7 @@ $ shpc install quay.io/biocontainers/regenie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/regenie:3.5--h90dfdf2_0
+$ shpc install quay.io/biocontainers/regenie:4.0--h90dfdf2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/regenie/3.5--h90dfdf2_0
-$ module help quay.io/biocontainers/regenie/3.5--h90dfdf2_0
+$ module load quay.io/biocontainers/regenie/4.0--h90dfdf2_1
+$ module help quay.io/biocontainers/regenie/4.0--h90dfdf2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

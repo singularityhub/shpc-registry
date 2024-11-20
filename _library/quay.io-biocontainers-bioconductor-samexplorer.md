@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-samexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-samexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-samexplorer/container.yaml"
-updated_at: "2024-11-19 03:13:49.095607"
+updated_at: "2024-11-20 03:12:46.708645"
 latest: "1.13.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-samexplorer"
 aliases:

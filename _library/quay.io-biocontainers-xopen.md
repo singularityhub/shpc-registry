@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xopen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xopen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xopen/container.yaml"
-updated_at: "2024-11-19 03:19:07.179691"
+updated_at: "2024-11-20 03:18:01.697177"
 latest: "0.7.3--py_0"
 container_url: "https://biocontainers.pro/tools/xopen"
 aliases:

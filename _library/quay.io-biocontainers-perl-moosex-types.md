@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-types"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types/container.yaml"
-updated_at: "2024-11-19 03:42:12.487722"
+updated_at: "2024-11-20 03:41:06.185864"
 latest: "0.50--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types"
 

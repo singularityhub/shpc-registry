@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-apcomplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apcomplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apcomplex/container.yaml"
-updated_at: "2024-11-19 03:28:26.092353"
+updated_at: "2024-11-20 03:27:15.839130"
 latest: "2.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-apcomplex"
 
