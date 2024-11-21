@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cooltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cooltools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cooltools/container.yaml"
-updated_at: "2024-11-20 03:45:47.690565"
+updated_at: "2024-11-21 03:45:17.428407"
 latest: "0.7.0--py311h1abe8b6_2"
 container_url: "https://biocontainers.pro/tools/cooltools"
 aliases:

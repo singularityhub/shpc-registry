@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pickgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pickgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pickgene/container.yaml"
-updated_at: "2024-11-20 03:21:08.869406"
+updated_at: "2024-11-21 03:20:58.453762"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pickgene"
 

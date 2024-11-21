@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-scalar-util-numeric"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-scalar-util-numeric/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-scalar-util-numeric/container.yaml"
-updated_at: "2024-11-20 03:25:45.158703"
-latest: "0.40--pl5321h031d066_5"
+updated_at: "2024-11-21 03:25:33.420451"
+latest: "0.40--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-scalar-util-numeric"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.40--pl5321hec16e2b_3"
  - "0.40--pl5321h031d066_5"
+ - "0.40--pl5321h031d066_6"
 description: "shpc-registry automated BioContainers addition for perl-scalar-util-numeric"
-config: {"url": "https://biocontainers.pro/tools/perl-scalar-util-numeric", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-scalar-util-numeric", "latest": {"0.40--pl5321h031d066_5": "sha256:590cfc0921bfff8d37fcfe26294fe21f5598052dcd5b197b87d5a6a148ca493b"}, "tags": {"0.40--pl5321hec16e2b_3": "sha256:266574ab139294d1347b0db32570df571cccabe19857a3f74cbf2d6962f4d724", "0.40--pl5321h031d066_5": "sha256:590cfc0921bfff8d37fcfe26294fe21f5598052dcd5b197b87d5a6a148ca493b"}, "docker": "quay.io/biocontainers/perl-scalar-util-numeric", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-scalar-util-numeric", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-scalar-util-numeric", "latest": {"0.40--pl5321h031d066_6": "sha256:d646b19d47ff1633867fe326a2f698551615e2a74332b69ec8ca49d721a9620e"}, "tags": {"0.40--pl5321hec16e2b_3": "sha256:266574ab139294d1347b0db32570df571cccabe19857a3f74cbf2d6962f4d724", "0.40--pl5321h031d066_5": "sha256:590cfc0921bfff8d37fcfe26294fe21f5598052dcd5b197b87d5a6a148ca493b", "0.40--pl5321h031d066_6": "sha256:d646b19d47ff1633867fe326a2f698551615e2a74332b69ec8ca49d721a9620e"}, "docker": "quay.io/biocontainers/perl-scalar-util-numeric", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-scalar-util-numeric.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-scalar-util-numeric
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-scalar-util-numeric:0.40--pl5321h031d066_5
+$ shpc install quay.io/biocontainers/perl-scalar-util-numeric:0.40--pl5321h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-scalar-util-numeric/0.40--pl5321h031d066_5
-$ module help quay.io/biocontainers/perl-scalar-util-numeric/0.40--pl5321h031d066_5
+$ module load quay.io/biocontainers/perl-scalar-util-numeric/0.40--pl5321h031d066_6
+$ module help quay.io/biocontainers/perl-scalar-util-numeric/0.40--pl5321h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

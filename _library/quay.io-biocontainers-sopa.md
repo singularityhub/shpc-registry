@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sopa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sopa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sopa/container.yaml"
-updated_at: "2024-11-20 03:40:14.908052"
+updated_at: "2024-11-21 03:39:46.083095"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sopa"
 aliases:

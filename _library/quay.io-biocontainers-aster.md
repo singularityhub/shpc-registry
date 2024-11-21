@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aster/container.yaml"
-updated_at: "2024-11-20 03:30:04.797611"
+updated_at: "2024-11-21 03:29:45.378930"
 latest: "1.19--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/aster"
 aliases:

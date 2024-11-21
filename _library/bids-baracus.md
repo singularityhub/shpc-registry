@@ -4,7 +4,7 @@ name:  "bids/baracus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/baracus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/baracus/container.yaml"
-updated_at: "2024-11-20 03:47:18.678388"
+updated_at: "2024-11-21 03:46:48.669596"
 latest: "dev7"
 container_url: "https://hub.docker.com/r/bids/baracus"
 

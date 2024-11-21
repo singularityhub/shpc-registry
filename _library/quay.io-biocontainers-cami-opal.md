@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cami-opal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cami-opal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cami-opal/container.yaml"
-updated_at: "2024-11-20 03:43:54.795853"
+updated_at: "2024-11-21 03:43:24.385519"
 latest: "1.0.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cami-opal"
 aliases:

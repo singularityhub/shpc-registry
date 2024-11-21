@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-allenpvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
-updated_at: "2024-11-20 03:44:13.275867"
+updated_at: "2024-11-21 03:43:42.531818"
 latest: "1.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-allenpvc"
 aliases:

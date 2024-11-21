@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-truncate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-truncate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-truncate/container.yaml"
-updated_at: "2024-11-20 03:15:46.747887"
+updated_at: "2024-11-21 03:15:38.288822"
 latest: "1.100603--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-string-truncate"
 aliases:

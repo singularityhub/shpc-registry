@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enano/container.yaml"
-updated_at: "2024-11-20 03:24:12.639934"
+updated_at: "2024-11-21 03:24:00.880688"
 latest: "1.0--hdcf5f25_6"
 container_url: "https://biocontainers.pro/tools/enano"
 aliases:

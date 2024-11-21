@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meryl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meryl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meryl/container.yaml"
-updated_at: "2024-11-20 02:58:10.015061"
+updated_at: "2024-11-21 02:58:08.320397"
 latest: "1.4--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/meryl"
 aliases:
@@ -19,8 +19,9 @@ versions:
  - "1.3--hdbdd923_2"
  - "1.4--h4ac6f70_1"
  - "1.4.1--h4ac6f70_0"
+ - "1.4.1--h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for meryl"
-config: {"url": "https://biocontainers.pro/tools/meryl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meryl", "latest": {"1.4--h4ac6f70_1": "sha256:0d51ea50813ba9188a9ca1b8813d22b7b36edf81f03aa43654c54b575ff856bc"}, "tags": {"v1.0--hc9558a2_0": "sha256:09fb2dd161e0f96f755dd567d59d12b802fb757af1cc9642c5b851903dbb6099", "1.3--h87f3376_1": "sha256:09d885c2ff293aff190cf2b8f8d022bbb5d590c4b3af8805d9c0536ba4a59faa", "1.2--h1b792b2_1": "sha256:69343475b90a3401e09a4358365ee8c1d807b5ec534b628e324a95ac8d39731f", "1.3--hdbdd923_2": "sha256:9cfe97fba3df7674a5edb91a4eb5a9108c39dcea0732471afaeac98d7c51ba42", "1.4--h4ac6f70_1": "sha256:0d51ea50813ba9188a9ca1b8813d22b7b36edf81f03aa43654c54b575ff856bc", "1.4.1--h4ac6f70_0": "sha256:60ba02cde408b606fc1834ef3261c5abc33796d39bf9640dcee307c256501093"}, "docker": "quay.io/biocontainers/meryl", "aliases": {"meryl": "/usr/local/bin/meryl", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "sequence": "/usr/local/bin/sequence"}}
+config: {"url": "https://biocontainers.pro/tools/meryl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meryl", "latest": {"1.4--h4ac6f70_1": "sha256:0d51ea50813ba9188a9ca1b8813d22b7b36edf81f03aa43654c54b575ff856bc"}, "tags": {"v1.0--hc9558a2_0": "sha256:09fb2dd161e0f96f755dd567d59d12b802fb757af1cc9642c5b851903dbb6099", "1.3--h87f3376_1": "sha256:09d885c2ff293aff190cf2b8f8d022bbb5d590c4b3af8805d9c0536ba4a59faa", "1.2--h1b792b2_1": "sha256:69343475b90a3401e09a4358365ee8c1d807b5ec534b628e324a95ac8d39731f", "1.3--hdbdd923_2": "sha256:9cfe97fba3df7674a5edb91a4eb5a9108c39dcea0732471afaeac98d7c51ba42", "1.4--h4ac6f70_1": "sha256:0d51ea50813ba9188a9ca1b8813d22b7b36edf81f03aa43654c54b575ff856bc", "1.4.1--h4ac6f70_0": "sha256:60ba02cde408b606fc1834ef3261c5abc33796d39bf9640dcee307c256501093", "1.4.1--h4ac6f70_1": "sha256:8163ae0f4f2812c82711ecb523175365d14434a644184a6edde68d4e37b32706"}, "docker": "quay.io/biocontainers/meryl", "aliases": {"meryl": "/usr/local/bin/meryl", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "sequence": "/usr/local/bin/sequence"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meryl.
