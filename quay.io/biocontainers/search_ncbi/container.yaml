@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/search_ncbi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for search_ncbi
+latest:
+  0.1.1--pyhdfd78af_0: sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf
+tags:
+  0.1.1--pyhdfd78af_0: sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf
+docker: quay.io/biocontainers/search_ncbi
+aliases:
+  searchncbi: /usr/local/bin/searchncbi
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
