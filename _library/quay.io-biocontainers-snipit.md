@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snipit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snipit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snipit/container.yaml"
-updated_at: "2024-11-21 03:31:13.621775"
-latest: "1.2--pyhdfd78af_0"
+updated_at: "2024-11-22 03:32:18.210966"
+latest: "1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snipit"
 aliases:
  - "snipit"
@@ -24,8 +24,9 @@ versions:
  - "1.0.7--pyhdfd78af_0"
  - "1.1.2--pyhdfd78af_0"
  - "1.2--pyhdfd78af_0"
+ - "1.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snipit"
-config: {"url": "https://biocontainers.pro/tools/snipit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snipit", "latest": {"1.2--pyhdfd78af_0": "sha256:cf4a494fc527c2aa3909b2b860b5973cd0467a8b80d6b15759e4c75af8a595fe"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:9d75413d3937ba09a76a50e02dcb071fc942dfc75f3b90367fc64f8cf8df1f7e", "1.1.2--pyhdfd78af_0": "sha256:2b04a58552cc774ec06deefe4161dd0ff60b3d5de60a89cf5409a55fd1d8683f", "1.2--pyhdfd78af_0": "sha256:cf4a494fc527c2aa3909b2b860b5973cd0467a8b80d6b15759e4c75af8a595fe"}, "docker": "quay.io/biocontainers/snipit", "aliases": {"snipit": "/usr/local/bin/snipit", "snp_functions.py": "/usr/local/bin/snp_functions.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/snipit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snipit", "latest": {"1.6--pyhdfd78af_0": "sha256:4be233b2a900a6f117c38c55aed0f6bf6883a455be8ca4e0655f2be01ad9ebeb"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:9d75413d3937ba09a76a50e02dcb071fc942dfc75f3b90367fc64f8cf8df1f7e", "1.1.2--pyhdfd78af_0": "sha256:2b04a58552cc774ec06deefe4161dd0ff60b3d5de60a89cf5409a55fd1d8683f", "1.2--pyhdfd78af_0": "sha256:cf4a494fc527c2aa3909b2b860b5973cd0467a8b80d6b15759e4c75af8a595fe", "1.6--pyhdfd78af_0": "sha256:4be233b2a900a6f117c38c55aed0f6bf6883a455be8ca4e0655f2be01ad9ebeb"}, "docker": "quay.io/biocontainers/snipit", "aliases": {"snipit": "/usr/local/bin/snipit", "snp_functions.py": "/usr/local/bin/snp_functions.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snipit.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/snipit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snipit:1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snipit:1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snipit/1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snipit/1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snipit/1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/snipit/1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

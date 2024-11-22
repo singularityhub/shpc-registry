@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-compress-raw-zlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-compress-raw-zlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-compress-raw-zlib/container.yaml"
-updated_at: "2024-11-21 03:37:15.077262"
+updated_at: "2024-11-22 03:38:19.654017"
 latest: "2.105--pl5321h87f3376_0"
 container_url: "https://biocontainers.pro/tools/perl-compress-raw-zlib"
 aliases:

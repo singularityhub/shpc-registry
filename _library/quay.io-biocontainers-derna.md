@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/derna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/derna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/derna/container.yaml"
-updated_at: "2024-11-21 03:32:24.896918"
-latest: "1.0.3--hdbdd923_1"
+updated_at: "2024-11-22 03:33:29.564608"
+latest: "1.0.4--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/derna"
 aliases:
  - "derna"
@@ -13,8 +13,9 @@ versions:
  - "1.0.2--hdbdd923_1"
  - "1.0.3--hdbdd923_0"
  - "1.0.3--hdbdd923_1"
+ - "1.0.4--hdbdd923_0"
 description: "singularity registry hpc automated addition for derna"
-config: {"url": "https://biocontainers.pro/tools/derna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for derna", "latest": {"1.0.3--hdbdd923_1": "sha256:e6283b7b8142aad4fcda40206408a9da0012fcc957bf1dbd9bc72c029b3d5603"}, "tags": {"1.0.2--hdbdd923_1": "sha256:45fb3f1d003076e2a4b67387d787ae2d539c67d0b2e3e5d7f3d94d3d76d1570e", "1.0.3--hdbdd923_0": "sha256:75278bb001953f5d2b95e2e517c659e0d1e19cae5ed43d3462d949e60b992262", "1.0.3--hdbdd923_1": "sha256:e6283b7b8142aad4fcda40206408a9da0012fcc957bf1dbd9bc72c029b3d5603"}, "docker": "quay.io/biocontainers/derna", "aliases": {"derna": "/usr/local/bin/derna"}}
+config: {"url": "https://biocontainers.pro/tools/derna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for derna", "latest": {"1.0.4--hdbdd923_0": "sha256:86fd50da6e5eab5c4cca0839d0f355ec634d4db2d2a9463449546644ee52d6d0"}, "tags": {"1.0.2--hdbdd923_1": "sha256:45fb3f1d003076e2a4b67387d787ae2d539c67d0b2e3e5d7f3d94d3d76d1570e", "1.0.3--hdbdd923_0": "sha256:75278bb001953f5d2b95e2e517c659e0d1e19cae5ed43d3462d949e60b992262", "1.0.3--hdbdd923_1": "sha256:e6283b7b8142aad4fcda40206408a9da0012fcc957bf1dbd9bc72c029b3d5603", "1.0.4--hdbdd923_0": "sha256:86fd50da6e5eab5c4cca0839d0f355ec634d4db2d2a9463449546644ee52d6d0"}, "docker": "quay.io/biocontainers/derna", "aliases": {"derna": "/usr/local/bin/derna"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/derna.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/derna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/derna:1.0.3--hdbdd923_1
+$ shpc install quay.io/biocontainers/derna:1.0.4--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/derna/1.0.3--hdbdd923_1
-$ module help quay.io/biocontainers/derna/1.0.3--hdbdd923_1
+$ module load quay.io/biocontainers/derna/1.0.4--hdbdd923_0
+$ module help quay.io/biocontainers/derna/1.0.4--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scrappie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrappie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrappie/container.yaml"
-updated_at: "2024-11-21 03:44:27.403821"
+updated_at: "2024-11-22 03:45:30.777230"
 latest: "1.4.2--py39pl5321hf437181_6"
 container_url: "https://biocontainers.pro/tools/scrappie"
 aliases:

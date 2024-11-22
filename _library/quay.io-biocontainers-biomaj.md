@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biomaj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biomaj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biomaj/container.yaml"
-updated_at: "2024-11-21 03:26:43.547569"
+updated_at: "2024-11-22 03:27:47.161021"
 latest: "3.0.19--py35_0"
 container_url: "https://biocontainers.pro/tools/biomaj"
 aliases:

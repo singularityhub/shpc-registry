@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snapatac2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snapatac2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snapatac2/container.yaml"
-updated_at: "2024-11-21 03:24:27.905128"
-latest: "2.6.4--py39h801753a_0"
+updated_at: "2024-11-22 03:25:31.109926"
+latest: "2.7.1--py39h9c5b779_0"
 container_url: "https://biocontainers.pro/tools/snapatac2"
 aliases:
  - "h5tools_test_utils"
@@ -39,8 +39,9 @@ versions:
  - "2.5.3--py38he5da3d1_0"
  - "2.5.3--py310h4b81fae_0"
  - "2.6.4--py39h801753a_0"
+ - "2.7.1--py39h9c5b779_0"
 description: "singularity registry hpc automated addition for snapatac2"
-config: {"url": "https://biocontainers.pro/tools/snapatac2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snapatac2", "latest": {"2.6.4--py39h801753a_0": "sha256:43a61025c408d3450129196cb17c7a3a1c35f42e536b7b59230dafaeadd4c62f"}, "tags": {"2.5.1--py38he5da3d1_0": "sha256:0ae158188a2251e0951d5d7b4e44b960d05c36df59ba6a9f987d99b3acffc33c", "2.5.3--py38he5da3d1_0": "sha256:19f96f0ae0cdf3db1bfd067cdd249776a122db13a8491a34fec2d9e8f6b74355", "2.5.3--py310h4b81fae_0": "sha256:a558a70526d6c894ff4355f4cf5c7e2062d06a5053aa423d2f0e59cf49f4f257", "2.6.4--py39h801753a_0": "sha256:43a61025c408d3450129196cb17c7a3a1c35f42e536b7b59230dafaeadd4c62f"}, "docker": "quay.io/biocontainers/snapatac2", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "tjbench": "/usr/local/bin/tjbench", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
+config: {"url": "https://biocontainers.pro/tools/snapatac2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snapatac2", "latest": {"2.7.1--py39h9c5b779_0": "sha256:04bf208eeedfd3bb294558f475188efb5565546b523f0f34803bcc2ed35e6360"}, "tags": {"2.5.1--py38he5da3d1_0": "sha256:0ae158188a2251e0951d5d7b4e44b960d05c36df59ba6a9f987d99b3acffc33c", "2.5.3--py38he5da3d1_0": "sha256:19f96f0ae0cdf3db1bfd067cdd249776a122db13a8491a34fec2d9e8f6b74355", "2.5.3--py310h4b81fae_0": "sha256:a558a70526d6c894ff4355f4cf5c7e2062d06a5053aa423d2f0e59cf49f4f257", "2.6.4--py39h801753a_0": "sha256:43a61025c408d3450129196cb17c7a3a1c35f42e536b7b59230dafaeadd4c62f", "2.7.1--py39h9c5b779_0": "sha256:04bf208eeedfd3bb294558f475188efb5565546b523f0f34803bcc2ed35e6360"}, "docker": "quay.io/biocontainers/snapatac2", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "tjbench": "/usr/local/bin/tjbench", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snapatac2.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/snapatac2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snapatac2:2.6.4--py39h801753a_0
+$ shpc install quay.io/biocontainers/snapatac2:2.7.1--py39h9c5b779_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snapatac2/2.6.4--py39h801753a_0
-$ module help quay.io/biocontainers/snapatac2/2.6.4--py39h801753a_0
+$ module load quay.io/biocontainers/snapatac2/2.7.1--py39h9c5b779_0
+$ module help quay.io/biocontainers/snapatac2/2.7.1--py39h9c5b779_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

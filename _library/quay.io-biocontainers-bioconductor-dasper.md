@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dasper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dasper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dasper/container.yaml"
-updated_at: "2024-11-21 03:20:59.897077"
+updated_at: "2024-11-22 03:22:02.976712"
 latest: "1.9.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dasper"
 
