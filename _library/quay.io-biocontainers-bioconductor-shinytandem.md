@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-shinytandem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinytandem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinytandem/container.yaml"
-updated_at: "2024-11-22 03:45:12.678815"
+updated_at: "2024-11-22 04:40:28.435468"
 latest: "1.26.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinytandem"
 aliases:

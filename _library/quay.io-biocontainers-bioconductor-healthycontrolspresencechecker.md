@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-healthycontrolspresencechecker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/container.yaml"
-updated_at: "2024-11-22 03:20:17.488484"
+updated_at: "2024-11-22 04:15:13.675854"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-healthycontrolspresencechecker"
 aliases:
