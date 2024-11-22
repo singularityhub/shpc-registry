@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/biobambam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobambam
 latest:
-  2.0.183--h4ac6f70_4: sha256:eeef05005bbf9b2e17bcfad4d2a2802d3d9c0ae7b4831562bc30de0fa6f31f53
+  2.0.185--h02148a2_0: sha256:ad13a77bd935f1cfe8efb830edb7ad03a58f6f32f9b5fa6d1e7590198dac7593
 tags:
   2.0.87--h516909a_2: sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673
   2.0.183--h9f5acd7_2: sha256:7dd84cf9303529a40bfb67623196a4004e0fa5eb3eeae2a0867d35744b5ec777
   2.0.183--h4ac6f70_3: sha256:caf8984ba19099114249e67e958d81d66990d7ea7f91fa9b8dfd2a506669fd75
   2.0.183--h4ac6f70_4: sha256:eeef05005bbf9b2e17bcfad4d2a2802d3d9c0ae7b4831562bc30de0fa6f31f53
+  2.0.185--h02148a2_0: sha256:ad13a77bd935f1cfe8efb830edb7ad03a58f6f32f9b5fa6d1e7590198dac7593
 docker: quay.io/biocontainers/biobambam
 aliases:
   bam12auxmerge: /usr/local/bin/bam12auxmerge

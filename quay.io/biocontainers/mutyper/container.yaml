@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mutyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mutyper
 latest:
-  1.0.2--py310h7c593f9_0: sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0
+  1.0.2--py38h0020b31_1: sha256:7ca99cf339667101576c605f5f240f876a02be0fcc6db639b44109e50c5414e0
 tags:
   1.0.2--py310h7c593f9_0: sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0
+  1.0.2--py38h0020b31_1: sha256:7ca99cf339667101576c605f5f240f876a02be0fcc6db639b44109e50c5414e0
 docker: quay.io/biocontainers/mutyper
 aliases:
   mutyper: /usr/local/bin/mutyper

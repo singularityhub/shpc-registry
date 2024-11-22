@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vclust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vclust
 latest:
-  1.2.7--py313h9ee0642_0: sha256:c17dac64eda7c24a1c5556cb88f331c15bd9987607c675bf4fa75c2cda490c1e
+  1.2.8--py313h9ee0642_0: sha256:e057b6e5c765ab20e176052725b016f4fad55c62fcb2d8e804a7a44fc200d9bb
 tags:
   1.2.7--py313h9ee0642_0: sha256:c17dac64eda7c24a1c5556cb88f331c15bd9987607c675bf4fa75c2cda490c1e
+  1.2.8--py313h9ee0642_0: sha256:e057b6e5c765ab20e176052725b016f4fad55c62fcb2d8e804a7a44fc200d9bb
 docker: quay.io/biocontainers/vclust
 aliases:
   idle3.13: /usr/local/bin/idle3.13
