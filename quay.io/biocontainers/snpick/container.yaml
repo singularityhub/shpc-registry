@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snpick
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snpick
+latest:
+  1.0.0--h3f2c17f_0: sha256:5759dec7c0b1304d37ab37fcf65af7fb9589d5cf4439774c4755a97f51c604e8
+tags:
+  1.0.0--h3f2c17f_0: sha256:5759dec7c0b1304d37ab37fcf65af7fb9589d5cf4439774c4755a97f51c604e8
+docker: quay.io/biocontainers/snpick
+aliases:
+  snpick: /usr/local/bin/snpick

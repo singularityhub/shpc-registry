@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/mzpaf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mzpaf
+latest:
+  0.2.0a0--pyh7e72e81_0: sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160
+tags:
+  0.2.0a0--pyh7e72e81_0: sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160
+docker: quay.io/biocontainers/mzpaf
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
