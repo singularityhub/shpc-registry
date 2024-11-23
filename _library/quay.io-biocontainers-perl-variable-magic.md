@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-variable-magic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-variable-magic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-variable-magic/container.yaml"
-updated_at: "2024-11-22 04:15:00.494891"
+updated_at: "2024-11-23 03:14:57.453151"
 latest: "0.63--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-variable-magic"
 aliases:

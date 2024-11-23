@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdfextras"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdfextras/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdfextras/container.yaml"
-updated_at: "2024-11-22 04:34:19.466122"
+updated_at: "2024-11-23 03:33:42.466466"
 latest: "0.4--py27_3"
 container_url: "https://biocontainers.pro/tools/rdfextras"
 aliases:

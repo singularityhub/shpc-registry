@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/boltons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boltons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boltons/container.yaml"
-updated_at: "2024-11-22 04:17:10.641645"
+updated_at: "2024-11-23 03:17:08.181315"
 latest: "16.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/boltons"
 aliases:

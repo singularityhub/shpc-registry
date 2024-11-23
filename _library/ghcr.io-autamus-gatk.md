@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gatk/container.yaml"
-updated_at: "2024-11-22 03:53:44.102088"
+updated_at: "2024-11-23 02:54:15.708938"
 latest: "4.2.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gatk"
 aliases:

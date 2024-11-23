@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbdagcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbdagcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbdagcon/container.yaml"
-updated_at: "2024-11-22 04:37:02.645426"
+updated_at: "2024-11-23 03:36:17.610276"
 latest: "0.1--boost1.64_0"
 container_url: "https://biocontainers.pro/tools/pbdagcon"
 aliases:

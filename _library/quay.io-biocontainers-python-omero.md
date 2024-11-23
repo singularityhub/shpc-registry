@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-omero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-omero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-omero/container.yaml"
-updated_at: "2024-11-22 04:06:16.184827"
+updated_at: "2024-11-23 03:06:33.218357"
 latest: "5.7.1--py_0"
 container_url: "https://biocontainers.pro/tools/python-omero"
 aliases:

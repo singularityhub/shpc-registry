@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydotplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydotplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydotplus/container.yaml"
-updated_at: "2024-11-22 04:34:47.435348"
+updated_at: "2024-11-23 03:34:09.047163"
 latest: "2.0.2--py36_0"
 container_url: "https://biocontainers.pro/tools/pydotplus"
 aliases:

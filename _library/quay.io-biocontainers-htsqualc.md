@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htsqualc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htsqualc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htsqualc/container.yaml"
-updated_at: "2024-11-22 04:34:00.796948"
+updated_at: "2024-11-23 03:33:24.842103"
 latest: "1.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/htsqualc"
 aliases:

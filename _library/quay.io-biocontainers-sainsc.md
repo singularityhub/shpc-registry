@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sainsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sainsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sainsc/container.yaml"
-updated_at: "2024-11-22 03:58:41.241237"
-latest: "0.2.0--py311h5e00ca1_0"
+updated_at: "2024-11-23 02:59:06.791146"
+latest: "0.2.1--py310hec43fc7_1"
 container_url: "https://biocontainers.pro/tools/sainsc"
 aliases:
  - "rav1e"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.1.1--py310hec43fc7_2"
  - "0.2.0--py311h5e00ca1_0"
+ - "0.2.1--py310hec43fc7_1"
 description: "singularity registry hpc automated addition for sainsc"
-config: {"url": "https://biocontainers.pro/tools/sainsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sainsc", "latest": {"0.2.0--py311h5e00ca1_0": "sha256:44f8fe0f0f18d0e5095cb08540da48c7b177caff1c5f1cc77a397e48e6752397"}, "tags": {"0.1.1--py310hec43fc7_2": "sha256:3e2c49122f3ad6f03c825d0e2c0ca66f8287600427866407a51f0f58efeef115", "0.2.0--py311h5e00ca1_0": "sha256:44f8fe0f0f18d0e5095cb08540da48c7b177caff1c5f1cc77a397e48e6752397"}, "docker": "quay.io/biocontainers/sainsc", "aliases": {"rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi"}}
+config: {"url": "https://biocontainers.pro/tools/sainsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sainsc", "latest": {"0.2.1--py310hec43fc7_1": "sha256:aa845db6c55b76519af78d2ba560064ff1138c18bc3a826ac28a9ffe3ad9c0b1"}, "tags": {"0.1.1--py310hec43fc7_2": "sha256:3e2c49122f3ad6f03c825d0e2c0ca66f8287600427866407a51f0f58efeef115", "0.2.0--py311h5e00ca1_0": "sha256:44f8fe0f0f18d0e5095cb08540da48c7b177caff1c5f1cc77a397e48e6752397", "0.2.1--py310hec43fc7_1": "sha256:aa845db6c55b76519af78d2ba560064ff1138c18bc3a826ac28a9ffe3ad9c0b1"}, "docker": "quay.io/biocontainers/sainsc", "aliases": {"rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sainsc.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/sainsc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sainsc:0.2.0--py311h5e00ca1_0
+$ shpc install quay.io/biocontainers/sainsc:0.2.1--py310hec43fc7_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sainsc/0.2.0--py311h5e00ca1_0
-$ module help quay.io/biocontainers/sainsc/0.2.0--py311h5e00ca1_0
+$ module load quay.io/biocontainers/sainsc/0.2.1--py310hec43fc7_1
+$ module help quay.io/biocontainers/sainsc/0.2.1--py310hec43fc7_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

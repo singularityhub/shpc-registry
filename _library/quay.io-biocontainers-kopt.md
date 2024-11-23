@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kopt/container.yaml"
-updated_at: "2024-11-22 04:35:35.071135"
+updated_at: "2024-11-23 03:34:53.678562"
 latest: "0.1.0--pyh145b6a8_2"
 container_url: "https://biocontainers.pro/tools/kopt"
 aliases:

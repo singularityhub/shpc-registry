@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rcx-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rcx-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rcx-tk/container.yaml"
-updated_at: "2024-11-22 04:38:14.702900"
+updated_at: "2024-11-23 03:37:28.459792"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rcx-tk"
 aliases:

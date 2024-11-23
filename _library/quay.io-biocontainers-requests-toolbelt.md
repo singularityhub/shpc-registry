@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-toolbelt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-toolbelt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-toolbelt/container.yaml"
-updated_at: "2024-11-22 04:17:21.537815"
+updated_at: "2024-11-23 03:17:19.506996"
 latest: "0.5.0--py35_0"
 container_url: "https://biocontainers.pro/tools/requests-toolbelt"
 aliases:

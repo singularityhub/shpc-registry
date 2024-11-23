@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-stxtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-stxtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-stxtyper/container.yaml"
-updated_at: "2024-11-22 04:10:33.632534"
-latest: "1.0.25--h4ac6f70_0"
+updated_at: "2024-11-23 03:10:41.598604"
+latest: "1.0.27--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/ncbi-stxtyper"
 aliases:
  - "fasta_extract"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "1.0.24--h4ac6f70_0"
  - "1.0.25--h4ac6f70_0"
+ - "1.0.27--h4ac6f70_0"
 description: "singularity registry hpc automated addition for ncbi-stxtyper"
-config: {"url": "https://biocontainers.pro/tools/ncbi-stxtyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-stxtyper", "latest": {"1.0.25--h4ac6f70_0": "sha256:e8fa710c82c909582ab751e37217f2050d3518bdd16c917f9aad3eabae774fb6"}, "tags": {"1.0.24--h4ac6f70_0": "sha256:626f9ec6752810bac4afc51a988d7ec8a414cf90ec8b18ffa23080be42e0ea93", "1.0.25--h4ac6f70_0": "sha256:e8fa710c82c909582ab751e37217f2050d3518bdd16c917f9aad3eabae774fb6"}, "docker": "quay.io/biocontainers/ncbi-stxtyper", "aliases": {"fasta_extract": "/usr/local/bin/fasta_extract", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "bsmp2info": "/usr/local/bin/bsmp2info", "fasta_check": "/usr/local/bin/fasta_check", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-stxtyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-stxtyper", "latest": {"1.0.27--h4ac6f70_0": "sha256:c669065cc7028269655554d20fa51adbcb297beaec8e630f8b3b69518405c666"}, "tags": {"1.0.24--h4ac6f70_0": "sha256:626f9ec6752810bac4afc51a988d7ec8a414cf90ec8b18ffa23080be42e0ea93", "1.0.25--h4ac6f70_0": "sha256:e8fa710c82c909582ab751e37217f2050d3518bdd16c917f9aad3eabae774fb6", "1.0.27--h4ac6f70_0": "sha256:c669065cc7028269655554d20fa51adbcb297beaec8e630f8b3b69518405c666"}, "docker": "quay.io/biocontainers/ncbi-stxtyper", "aliases": {"fasta_extract": "/usr/local/bin/fasta_extract", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "bsmp2info": "/usr/local/bin/bsmp2info", "fasta_check": "/usr/local/bin/fasta_check", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-stxtyper.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/ncbi-stxtyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-stxtyper:1.0.25--h4ac6f70_0
+$ shpc install quay.io/biocontainers/ncbi-stxtyper:1.0.27--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-stxtyper/1.0.25--h4ac6f70_0
-$ module help quay.io/biocontainers/ncbi-stxtyper/1.0.25--h4ac6f70_0
+$ module load quay.io/biocontainers/ncbi-stxtyper/1.0.27--h4ac6f70_0
+$ module help quay.io/biocontainers/ncbi-stxtyper/1.0.27--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

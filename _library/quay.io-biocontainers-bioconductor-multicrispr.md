@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multicrispr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multicrispr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multicrispr/container.yaml"
-updated_at: "2024-11-22 04:30:55.370301"
+updated_at: "2024-11-23 03:30:28.068461"
 latest: "1.12.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multicrispr"
 

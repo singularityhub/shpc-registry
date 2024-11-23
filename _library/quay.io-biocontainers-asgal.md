@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/asgal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asgal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asgal/container.yaml"
-updated_at: "2024-11-22 04:08:01.687571"
+updated_at: "2024-11-23 03:08:14.561530"
 latest: "1.1.8--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/asgal"
 aliases:

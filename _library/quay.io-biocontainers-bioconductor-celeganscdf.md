@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-celeganscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celeganscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celeganscdf/container.yaml"
-updated_at: "2024-11-22 04:23:55.632053"
+updated_at: "2024-11-23 03:23:46.706064"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-celeganscdf"
 

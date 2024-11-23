@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcen/container.yaml"
-updated_at: "2024-11-22 04:39:02.093912"
+updated_at: "2024-11-23 03:38:13.929064"
 latest: "0.6.3--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/gcen"
 aliases:

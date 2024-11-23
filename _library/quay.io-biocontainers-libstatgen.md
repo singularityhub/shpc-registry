@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libstatgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libstatgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libstatgen/container.yaml"
-updated_at: "2024-11-22 04:07:56.761590"
+updated_at: "2024-11-23 03:08:09.824328"
 latest: "1.0.15--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/libstatgen"
 

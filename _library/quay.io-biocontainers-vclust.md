@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vclust/container.yaml"
-updated_at: "2024-11-22 04:29:31.753779"
-latest: "1.2.7--py313h9ee0642_0"
+updated_at: "2024-11-23 03:29:08.960071"
+latest: "1.2.8--py313h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vclust"
 aliases:
  - "idle3.13"
@@ -15,8 +15,9 @@ aliases:
  - "vclust.py"
 versions:
  - "1.2.7--py313h9ee0642_0"
+ - "1.2.8--py313h9ee0642_0"
 description: "singularity registry hpc automated addition for vclust"
-config: {"url": "https://biocontainers.pro/tools/vclust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vclust", "latest": {"1.2.7--py313h9ee0642_0": "sha256:c17dac64eda7c24a1c5556cb88f331c15bd9987607c675bf4fa75c2cda490c1e"}, "tags": {"1.2.7--py313h9ee0642_0": "sha256:c17dac64eda7c24a1c5556cb88f331c15bd9987607c675bf4fa75c2cda490c1e"}, "docker": "quay.io/biocontainers/vclust", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "vclust.py": "/usr/local/bin/vclust.py"}}
+config: {"url": "https://biocontainers.pro/tools/vclust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vclust", "latest": {"1.2.8--py313h9ee0642_0": "sha256:e057b6e5c765ab20e176052725b016f4fad55c62fcb2d8e804a7a44fc200d9bb"}, "tags": {"1.2.7--py313h9ee0642_0": "sha256:c17dac64eda7c24a1c5556cb88f331c15bd9987607c675bf4fa75c2cda490c1e", "1.2.8--py313h9ee0642_0": "sha256:e057b6e5c765ab20e176052725b016f4fad55c62fcb2d8e804a7a44fc200d9bb"}, "docker": "quay.io/biocontainers/vclust", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "vclust.py": "/usr/local/bin/vclust.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vclust.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/vclust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vclust:1.2.7--py313h9ee0642_0
+$ shpc install quay.io/biocontainers/vclust:1.2.8--py313h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vclust/1.2.7--py313h9ee0642_0
-$ module help quay.io/biocontainers/vclust/1.2.7--py313h9ee0642_0
+$ module load quay.io/biocontainers/vclust/1.2.8--py313h9ee0642_0
+$ module help quay.io/biocontainers/vclust/1.2.8--py313h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

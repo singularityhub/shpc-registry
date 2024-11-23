@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-frmatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frmatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frmatools/container.yaml"
-updated_at: "2024-11-22 04:00:41.096170"
+updated_at: "2024-11-23 03:01:05.079689"
 latest: "1.54.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frmatools"
 

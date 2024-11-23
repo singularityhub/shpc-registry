@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sgdemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sgdemux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sgdemux/container.yaml"
-updated_at: "2024-11-22 04:31:10.087092"
-latest: "1.2.0--h4c94732_2"
+updated_at: "2024-11-23 03:30:41.838348"
+latest: "1.2.0--h4c94732_3"
 container_url: "https://biocontainers.pro/tools/sgdemux"
 aliases:
  - "sgdemux"
@@ -13,8 +13,9 @@ versions:
  - "1.1.1--ha982bd6_0"
  - "1.1.2--ha982bd6_0"
  - "1.2.0--h4c94732_2"
+ - "1.2.0--h4c94732_3"
 description: "singularity registry hpc automated addition for sgdemux"
-config: {"url": "https://biocontainers.pro/tools/sgdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sgdemux", "latest": {"1.2.0--h4c94732_2": "sha256:52b6d3ff954ae8482e06f8bcd181ec305565ae60573522568c01e89305fc5008"}, "tags": {"1.1.1--ha982bd6_0": "sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d", "1.1.2--ha982bd6_0": "sha256:2f521a99f563009375eaacc473d11add529328365da615162d97462cab75a71a", "1.2.0--h4c94732_2": "sha256:52b6d3ff954ae8482e06f8bcd181ec305565ae60573522568c01e89305fc5008"}, "docker": "quay.io/biocontainers/sgdemux", "aliases": {"sgdemux": "/usr/local/bin/sgdemux"}}
+config: {"url": "https://biocontainers.pro/tools/sgdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sgdemux", "latest": {"1.2.0--h4c94732_3": "sha256:82feca5a2560fcaa71a0e5f1721364ceeef3bceb3baaf98c5f7683e0864c022b"}, "tags": {"1.1.1--ha982bd6_0": "sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d", "1.1.2--ha982bd6_0": "sha256:2f521a99f563009375eaacc473d11add529328365da615162d97462cab75a71a", "1.2.0--h4c94732_2": "sha256:52b6d3ff954ae8482e06f8bcd181ec305565ae60573522568c01e89305fc5008", "1.2.0--h4c94732_3": "sha256:82feca5a2560fcaa71a0e5f1721364ceeef3bceb3baaf98c5f7683e0864c022b"}, "docker": "quay.io/biocontainers/sgdemux", "aliases": {"sgdemux": "/usr/local/bin/sgdemux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sgdemux.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/sgdemux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sgdemux:1.2.0--h4c94732_2
+$ shpc install quay.io/biocontainers/sgdemux:1.2.0--h4c94732_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sgdemux/1.2.0--h4c94732_2
-$ module help quay.io/biocontainers/sgdemux/1.2.0--h4c94732_2
+$ module load quay.io/biocontainers/sgdemux/1.2.0--h4c94732_3
+$ module help quay.io/biocontainers/sgdemux/1.2.0--h4c94732_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

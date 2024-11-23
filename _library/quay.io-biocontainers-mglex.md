@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mglex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mglex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mglex/container.yaml"
-updated_at: "2024-11-22 04:35:23.105324"
+updated_at: "2024-11-23 03:34:42.528155"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/mglex"
 aliases:

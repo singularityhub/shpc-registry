@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fithic/container.yaml"
-updated_at: "2024-11-22 04:17:56.236087"
+updated_at: "2024-11-23 03:17:54.488759"
 latest: "2.0.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fithic"
 aliases:

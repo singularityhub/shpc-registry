@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/teloscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teloscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teloscope/container.yaml"
-updated_at: "2024-11-22 03:56:18.601816"
-latest: "0.0.2--hdcf5f25_0"
+updated_at: "2024-11-23 02:56:45.777979"
+latest: "0.0.4--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/teloscope"
 aliases:
  - "teloscope"
 versions:
  - "0.0.2--hdcf5f25_0"
+ - "0.0.4--hdcf5f25_0"
 description: "singularity registry hpc automated addition for teloscope"
-config: {"url": "https://biocontainers.pro/tools/teloscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for teloscope", "latest": {"0.0.2--hdcf5f25_0": "sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8"}, "tags": {"0.0.2--hdcf5f25_0": "sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8"}, "docker": "quay.io/biocontainers/teloscope", "aliases": {"teloscope": "/usr/local/bin/teloscope"}}
+config: {"url": "https://biocontainers.pro/tools/teloscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for teloscope", "latest": {"0.0.4--hdcf5f25_0": "sha256:7cd57bf7997d591a2d07d51642765cbf934e2ecf021dffcc911e4eb7bbe6778e"}, "tags": {"0.0.2--hdcf5f25_0": "sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8", "0.0.4--hdcf5f25_0": "sha256:7cd57bf7997d591a2d07d51642765cbf934e2ecf021dffcc911e4eb7bbe6778e"}, "docker": "quay.io/biocontainers/teloscope", "aliases": {"teloscope": "/usr/local/bin/teloscope"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/teloscope.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/teloscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/teloscope:0.0.2--hdcf5f25_0
+$ shpc install quay.io/biocontainers/teloscope:0.0.4--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/teloscope/0.0.2--hdcf5f25_0
-$ module help quay.io/biocontainers/teloscope/0.0.2--hdcf5f25_0
+$ module load quay.io/biocontainers/teloscope/0.0.4--hdcf5f25_0
+$ module help quay.io/biocontainers/teloscope/0.0.4--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
