@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-bpwrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-bpwrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-bpwrapper/container.yaml"
-updated_at: "2024-11-23 03:28:56.575618"
+updated_at: "2024-11-24 03:37:17.798636"
 latest: "1.15--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-bpwrapper"
 aliases:

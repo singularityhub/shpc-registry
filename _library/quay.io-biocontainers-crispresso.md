@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crispresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispresso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispresso/container.yaml"
-updated_at: "2024-11-23 03:26:04.405533"
+updated_at: "2024-11-24 03:34:25.871863"
 latest: "1.0.13--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/crispresso"
 

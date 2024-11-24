@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dks/container.yaml"
-updated_at: "2024-11-23 03:20:15.869945"
+updated_at: "2024-11-24 03:28:39.841531"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dks"
 

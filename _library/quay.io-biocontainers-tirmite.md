@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tirmite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirmite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirmite/container.yaml"
-updated_at: "2024-11-23 03:25:12.675394"
-latest: "1.1.4--py_0"
+updated_at: "2024-11-24 03:33:34.204154"
+latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tirmite"
 aliases:
  - "tirmite"
@@ -23,8 +23,9 @@ aliases:
  - "mummer"
 versions:
  - "1.1.4--py_0"
+ - "1.1.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tirmite"
-config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.1.4--py_0": "sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6"}, "tags": {"1.1.4--py_0": "sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.1.6--pyhdfd78af_0": "sha256:70102b8820bfc478138fee94e1311005a36708da1f9895667df681076c23c37c"}, "tags": {"1.1.4--py_0": "sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6", "1.1.6--pyhdfd78af_0": "sha256:70102b8820bfc478138fee94e1311005a36708da1f9895667df681076c23c37c"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tirmite.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/tirmite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tirmite:1.1.4--py_0
+$ shpc install quay.io/biocontainers/tirmite:1.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tirmite/1.1.4--py_0
-$ module help quay.io/biocontainers/tirmite/1.1.4--py_0
+$ module load quay.io/biocontainers/tirmite/1.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/tirmite/1.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
