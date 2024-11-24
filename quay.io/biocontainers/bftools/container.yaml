@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bftools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bftools
 latest:
-  6.7.0--hdfd78af_0: sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba
+  8.0.0--hdfd78af_0: sha256:b765b942ec4eef97f00972610837b728eb176b940420d7d53feb723c10fddf1c
 tags:
   6.7.0--hdfd78af_0: sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba
+  8.0.0--hdfd78af_0: sha256:b765b942ec4eef97f00972610837b728eb176b940420d7d53feb723c10fddf1c
 docker: quay.io/biocontainers/bftools
 aliases:
   bf.sh: /usr/local/bin/bf.sh

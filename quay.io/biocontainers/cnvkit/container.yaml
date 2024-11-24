@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cnvkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cnvkit
 latest:
-  0.9.11--pyhdfd78af_0: sha256:270ccd0b5a245b152cce0cfe41edbdfb80357919a8a83a3baf8208d411296090
+  0.9.12--pyhdfd78af_0: sha256:1a16fc023d848c7f1bf23487791ae97e061ebc4243dd69de7b3f765e650da0bd
 tags:
   0.9.6a0--py35_2: sha256:943be342d30c8fa6aae12eeeadfc5c60bb1656ff36c9485536e5803a9b40a8d0
   0.9.10--pyhdfd78af_0: sha256:b39e36f507f83a463b0e32ab047309e14a33fb1d9430f1c64b3a977c5ea16379
   0.9.11--pyhdfd78af_0: sha256:270ccd0b5a245b152cce0cfe41edbdfb80357919a8a83a3baf8208d411296090
+  0.9.12--pyhdfd78af_0: sha256:1a16fc023d848c7f1bf23487791ae97e061ebc4243dd69de7b3f765e650da0bd
 docker: quay.io/biocontainers/cnvkit
 aliases:
   cnv_annotate.py: /usr/local/bin/cnv_annotate.py

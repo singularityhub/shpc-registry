@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hicstuff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hicstuff
 latest:
-  3.2.3--pyhdfd78af_0: sha256:120950adc6919fddda95b673ef27039f8bbd7e9a5f5a72d15afa47c57325cd27
+  3.2.4--pyhdfd78af_0: sha256:385b5465a50f6add5848a63afa84af6f1dd0067fdce0a3b44b81a4fd0e5d476f
 tags:
   3.1.5--pyhdfd78af_0: sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9
   3.1.5--pyhdfd78af_1: sha256:24f8ad66cfe0679fa8d4300c0f8c3b6f24faef3aa97df754f09f6813e3373625
@@ -12,6 +12,7 @@ tags:
   3.1.7--pyhdfd78af_0: sha256:955a3f13e34a565e868b5095b327f7c7403cd1acef63127e7370583b9e9494c8
   3.2.2--pyhdfd78af_0: sha256:40bb6e86d53d933b7b4429618842284731eae36b7a6c8c55db72b4a1095da880
   3.2.3--pyhdfd78af_0: sha256:120950adc6919fddda95b673ef27039f8bbd7e9a5f5a72d15afa47c57325cd27
+  3.2.4--pyhdfd78af_0: sha256:385b5465a50f6add5848a63afa84af6f1dd0067fdce0a3b44b81a4fd0e5d476f
 docker: quay.io/biocontainers/hicstuff
 aliases:
   hicstuff: /usr/local/bin/hicstuff

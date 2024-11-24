@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bayestyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bayestyper
 latest:
-  1.5--h176a8bc_0: sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f
+  1.5--hdcf5f25_3: sha256:5b8da153666c6627c8dfb23cf8bcc6b90df2c8ef05d951342c2a3cadb39686d6
 tags:
   1.5--h176a8bc_0: sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f
+  1.5--hdcf5f25_3: sha256:5b8da153666c6627c8dfb23cf8bcc6b90df2c8ef05d951342c2a3cadb39686d6
 docker: quay.io/biocontainers/bayestyper
 aliases:
   bayesTyper: /usr/local/bin/bayesTyper
