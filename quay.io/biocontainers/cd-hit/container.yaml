@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cd-hit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cd-hit
 latest:
-  4.8.1--h43eeafb_10: sha256:45aa26e5a28840d544e2ead34372b49cad0b427f55c443bbf5850b81c661f577
+  4.8.1--h43eeafb_11: sha256:905ab6f3d2a1c5836ba1b89eced80101da5b37d4db5e9dc70297fa0b5223a04d
 tags:
   4.8.1--h5b5514e_7: sha256:b4144c315bbf544f28179913091a025bf2f2a15161d9cb383d06c36168ece5d3
   4.8.1--h43eeafb_9: sha256:50934f1cd2927a45684d92cbb1102ee507775e582d303ba226cd20beaa957436
   4.8.1--h43eeafb_10: sha256:45aa26e5a28840d544e2ead34372b49cad0b427f55c443bbf5850b81c661f577
+  4.8.1--h43eeafb_11: sha256:905ab6f3d2a1c5836ba1b89eced80101da5b37d4db5e9dc70297fa0b5223a04d
 docker: quay.io/biocontainers/cd-hit

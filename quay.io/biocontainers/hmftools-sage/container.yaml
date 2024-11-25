@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hmftools-sage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-sage
 latest:
-  4.0_beta--hdfd78af_1: sha256:073ede15e21fef2c8a7ba4d7070a18f2e91fba5150860d30560954e192f048f9
+  4.0_beta--hdfd78af_4: sha256:60a0c53ac2fe6ebc6ece1467d0a0beaccbfe6149a6850d7e68c2fbe84b82296e
 tags:
   3.1--hdfd78af_0: sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1
   3.2.3--hdfd78af_0: sha256:9711d591611abea80ceb161042efc4f6684cd276eb416cbeb60bc3da10078ce3
@@ -11,6 +11,7 @@ tags:
   3.4.3--hdfd78af_0: sha256:606410e57eb5eece65ba77a098f6015808af209f5ff8f327ab0dda1ce0d716f0
   3.4.4--hdfd78af_0: sha256:f04ed632a1cbce61c26424dd4547533fdc3ff294165b3e3c0b25f8a72075b65e
   4.0_beta--hdfd78af_1: sha256:073ede15e21fef2c8a7ba4d7070a18f2e91fba5150860d30560954e192f048f9
+  4.0_beta--hdfd78af_4: sha256:60a0c53ac2fe6ebc6ece1467d0a0beaccbfe6149a6850d7e68c2fbe84b82296e
 docker: quay.io/biocontainers/hmftools-sage
 aliases:
   SAGE: /usr/local/bin/SAGE
