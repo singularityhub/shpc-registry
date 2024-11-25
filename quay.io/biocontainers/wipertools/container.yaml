@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/wipertools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for wipertools
+latest:
+  1.1.1--pyhdfd78af_0: sha256:28ce1da54c39fba69af7ad37653bdb09708742ddfc47b2b70117081a59cf5237
+tags:
+  1.1.1--pyhdfd78af_0: sha256:28ce1da54c39fba69af7ad37653bdb09708742ddfc47b2b70117081a59cf5237
+docker: quay.io/biocontainers/wipertools
+aliases:
+  wipertools: /usr/local/bin/wipertools
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

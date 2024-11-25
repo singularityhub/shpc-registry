@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/ega-cryptor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ega-cryptor
+latest:
+  2.0.0--hdfd78af_0: sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
+tags:
+  2.0.0--hdfd78af_0: sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
+docker: quay.io/biocontainers/ega-cryptor
+aliases:
+  ega-cryptor: /usr/local/bin/ega-cryptor
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jaotc: /usr/local/bin/jaotc
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  jjs: /usr/local/bin/jjs
+  pack200: /usr/local/bin/pack200
+  rmic: /usr/local/bin/rmic
+  rmid: /usr/local/bin/rmid
+  unpack200: /usr/local/bin/unpack200
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  tjbench: /usr/local/bin/tjbench
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
