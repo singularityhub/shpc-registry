@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bftools/container.yaml"
-updated_at: "2024-11-24 03:37:29.484650"
-latest: "6.7.0--hdfd78af_0"
+updated_at: "2024-11-25 03:38:09.300407"
+latest: "8.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bftools"
 aliases:
  - "bf.sh"
@@ -32,8 +32,9 @@ aliases:
  - "jdeprscan"
 versions:
  - "6.7.0--hdfd78af_0"
+ - "8.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bftools"
-config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "tiffcomment": "/usr/local/bin/tiffcomment", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan"}}
+config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"8.0.0--hdfd78af_0": "sha256:b765b942ec4eef97f00972610837b728eb176b940420d7d53feb723c10fddf1c"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba", "8.0.0--hdfd78af_0": "sha256:b765b942ec4eef97f00972610837b728eb176b940420d7d53feb723c10fddf1c"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "tiffcomment": "/usr/local/bin/tiffcomment", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bftools.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/bftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bftools:6.7.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/bftools:8.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bftools/6.7.0--hdfd78af_0
-$ module help quay.io/biocontainers/bftools/6.7.0--hdfd78af_0
+$ module load quay.io/biocontainers/bftools/8.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/bftools/8.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eternafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eternafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eternafold/container.yaml"
-updated_at: "2024-11-24 03:03:40.975676"
+updated_at: "2024-11-25 03:02:31.352608"
 latest: "1.3.1--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/eternafold"
 aliases:

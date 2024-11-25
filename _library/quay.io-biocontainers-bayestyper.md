@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bayestyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayestyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayestyper/container.yaml"
-updated_at: "2024-11-24 03:21:53.170098"
-latest: "1.5--h176a8bc_0"
+updated_at: "2024-11-25 03:21:56.489235"
+latest: "1.5--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/bayestyper"
 aliases:
  - "bayesTyper"
  - "bayesTyperTools"
 versions:
  - "1.5--h176a8bc_0"
+ - "1.5--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for bayestyper"
-config: {"url": "https://biocontainers.pro/tools/bayestyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayestyper", "latest": {"1.5--h176a8bc_0": "sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f"}, "tags": {"1.5--h176a8bc_0": "sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f"}, "docker": "quay.io/biocontainers/bayestyper", "aliases": {"bayesTyper": "/usr/local/bin/bayesTyper", "bayesTyperTools": "/usr/local/bin/bayesTyperTools"}}
+config: {"url": "https://biocontainers.pro/tools/bayestyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayestyper", "latest": {"1.5--hdcf5f25_3": "sha256:5b8da153666c6627c8dfb23cf8bcc6b90df2c8ef05d951342c2a3cadb39686d6"}, "tags": {"1.5--h176a8bc_0": "sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f", "1.5--hdcf5f25_3": "sha256:5b8da153666c6627c8dfb23cf8bcc6b90df2c8ef05d951342c2a3cadb39686d6"}, "docker": "quay.io/biocontainers/bayestyper", "aliases": {"bayesTyper": "/usr/local/bin/bayesTyper", "bayesTyperTools": "/usr/local/bin/bayesTyperTools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bayestyper.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bayestyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bayestyper:1.5--h176a8bc_0
+$ shpc install quay.io/biocontainers/bayestyper:1.5--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bayestyper/1.5--h176a8bc_0
-$ module help quay.io/biocontainers/bayestyper/1.5--h176a8bc_0
+$ module load quay.io/biocontainers/bayestyper/1.5--hdcf5f25_3
+$ module help quay.io/biocontainers/bayestyper/1.5--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
