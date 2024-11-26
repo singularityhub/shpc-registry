@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/d4binding
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for d4binding
 latest:
-  0.3.11--hdbdd923_0: sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad
+  0.3.11--hdbdd923_1: sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d
 tags:
   0.3.4--h87f3376_0: sha256:5f55a16b97075b91f86c54ff4dd7fe11324af217880775ab1ee53433517657bb
   0.3.11--hdbdd923_0: sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad
+  0.3.11--hdbdd923_1: sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d
 docker: quay.io/biocontainers/d4binding
 aliases:
   starcode: /usr/local/bin/starcode

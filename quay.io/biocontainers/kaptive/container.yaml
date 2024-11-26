@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/kaptive
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kaptive
 latest:
-  3.0.0b5--pyhdfd78af_0: sha256:49af766ecfbae6c7a2cbb56b5e89df04ee087958769ca200cdff1cf7951a3f9c
+  3.0.0b6--pyhdfd78af_0: sha256:bfaa04fccc59d15bdefe7d56c2cfc030ca209713fca557a7257b7a8541f276b7
 tags:
   0.7.3--py_0: sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62
   2.0.4--hdfd78af_0: sha256:34472fd1e1e09cf792e740ef6030e22199de022be9de6a750f0643a1ae0c1f1c
@@ -10,6 +10,7 @@ tags:
   2.0.6--hdfd78af_0: sha256:854eb710390d79b04d02d7dbf8ce85deb694d9728f3d9378f9e3366c12c7fe87
   3.0.0b1--pyhdfd78af_0: sha256:67d3f302484a5eb16d3f7d90fa559ced50fabb9d53b7552c88863f5eafcac54c
   3.0.0b5--pyhdfd78af_0: sha256:49af766ecfbae6c7a2cbb56b5e89df04ee087958769ca200cdff1cf7951a3f9c
+  3.0.0b6--pyhdfd78af_0: sha256:bfaa04fccc59d15bdefe7d56c2cfc030ca209713fca557a7257b7a8541f276b7
 docker: quay.io/biocontainers/kaptive
 aliases:
   kaptive.py: /usr/local/bin/kaptive.py

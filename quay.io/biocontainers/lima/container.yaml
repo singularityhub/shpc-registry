@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/lima
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lima
 latest:
-  2.9.0--h9ee0642_1: sha256:fc370ba0a93de228990f3cb026fddd610b80e03884df0bb55809c37866d2c80c
+  2.12.0--h9ee0642_1: sha256:eea7a8030e308c1a057b3b4d8c533ef38c51a57653fb9d0a99afe8d2597924c3
 tags:
   2.6.0--h9ee0642_0: sha256:f7d12565ed2c29ae7e8ae524456b1ae4fd466e1f0ed1ea915cd15da29fea44d7
   2.7.1--h9ee0642_0: sha256:c1967046d4cc39b122d25d19f50e2fe57181715e594b51d0043ce23a94788d47
   2.9.0--h9ee0642_1: sha256:fc370ba0a93de228990f3cb026fddd610b80e03884df0bb55809c37866d2c80c
+  2.12.0--h9ee0642_1: sha256:eea7a8030e308c1a057b3b4d8c533ef38c51a57653fb9d0a99afe8d2597924c3
 docker: quay.io/biocontainers/lima
 aliases:
   lima: /usr/local/bin/lima
