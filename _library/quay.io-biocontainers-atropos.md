@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atropos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atropos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atropos/container.yaml"
-updated_at: "2024-11-25 04:24:16.165171"
+updated_at: "2024-11-26 03:43:37.645951"
 latest: "1.1.32--py39hff71179_2"
 container_url: "https://biocontainers.pro/tools/atropos"
 aliases:

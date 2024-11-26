@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-ipc-sharelite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ipc-sharelite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ipc-sharelite/container.yaml"
-updated_at: "2024-11-25 03:46:12.353411"
-latest: "0.17--pl5321h4ac6f70_5"
+updated_at: "2024-11-26 03:06:03.188099"
+latest: "0.17--pl5321h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/perl-ipc-sharelite"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.17--pl5321h9f5acd7_3"
  - "0.17--pl5321h4ac6f70_5"
+ - "0.17--pl5321h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for perl-ipc-sharelite"
-config: {"url": "https://biocontainers.pro/tools/perl-ipc-sharelite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ipc-sharelite", "latest": {"0.17--pl5321h4ac6f70_5": "sha256:7d7f6ceabf1fc4275a4b481f0e3efd23c3c69bc56a297cfaa1f40ee652489dc2"}, "tags": {"0.17--pl5321h9f5acd7_3": "sha256:a878f002e5333e1f8cbbf01a86c7732f94026bf5d26a9faa89a333a6ca1c2c09", "0.17--pl5321h4ac6f70_5": "sha256:7d7f6ceabf1fc4275a4b481f0e3efd23c3c69bc56a297cfaa1f40ee652489dc2"}, "docker": "quay.io/biocontainers/perl-ipc-sharelite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-ipc-sharelite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ipc-sharelite", "latest": {"0.17--pl5321h4ac6f70_6": "sha256:4c9e01e2a79f7884d8794be7c19ab9fbe8bd2efa69ac4f9bca57ef191845436b"}, "tags": {"0.17--pl5321h9f5acd7_3": "sha256:a878f002e5333e1f8cbbf01a86c7732f94026bf5d26a9faa89a333a6ca1c2c09", "0.17--pl5321h4ac6f70_5": "sha256:7d7f6ceabf1fc4275a4b481f0e3efd23c3c69bc56a297cfaa1f40ee652489dc2", "0.17--pl5321h4ac6f70_6": "sha256:4c9e01e2a79f7884d8794be7c19ab9fbe8bd2efa69ac4f9bca57ef191845436b"}, "docker": "quay.io/biocontainers/perl-ipc-sharelite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-ipc-sharelite.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-ipc-sharelite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-ipc-sharelite:0.17--pl5321h4ac6f70_5
+$ shpc install quay.io/biocontainers/perl-ipc-sharelite:0.17--pl5321h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-ipc-sharelite/0.17--pl5321h4ac6f70_5
-$ module help quay.io/biocontainers/perl-ipc-sharelite/0.17--pl5321h4ac6f70_5
+$ module load quay.io/biocontainers/perl-ipc-sharelite/0.17--pl5321h4ac6f70_6
+$ module help quay.io/biocontainers/perl-ipc-sharelite/0.17--pl5321h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cd-hit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cd-hit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cd-hit/container.yaml"
-updated_at: "2024-11-25 04:28:57.145835"
-latest: "4.8.1--h43eeafb_10"
+updated_at: "2024-11-26 03:48:13.454070"
+latest: "4.8.1--h43eeafb_11"
 container_url: "https://biocontainers.pro/tools/cd-hit"
 
 versions:
  - "4.8.1--h5b5514e_7"
  - "4.8.1--h43eeafb_9"
  - "4.8.1--h43eeafb_10"
+ - "4.8.1--h43eeafb_11"
 description: "shpc-registry automated BioContainers addition for cd-hit"
-config: {"url": "https://biocontainers.pro/tools/cd-hit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cd-hit", "latest": {"4.8.1--h43eeafb_10": "sha256:45aa26e5a28840d544e2ead34372b49cad0b427f55c443bbf5850b81c661f577"}, "tags": {"4.8.1--h5b5514e_7": "sha256:b4144c315bbf544f28179913091a025bf2f2a15161d9cb383d06c36168ece5d3", "4.8.1--h43eeafb_9": "sha256:50934f1cd2927a45684d92cbb1102ee507775e582d303ba226cd20beaa957436", "4.8.1--h43eeafb_10": "sha256:45aa26e5a28840d544e2ead34372b49cad0b427f55c443bbf5850b81c661f577"}, "docker": "quay.io/biocontainers/cd-hit"}
+config: {"url": "https://biocontainers.pro/tools/cd-hit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cd-hit", "latest": {"4.8.1--h43eeafb_11": "sha256:905ab6f3d2a1c5836ba1b89eced80101da5b37d4db5e9dc70297fa0b5223a04d"}, "tags": {"4.8.1--h5b5514e_7": "sha256:b4144c315bbf544f28179913091a025bf2f2a15161d9cb383d06c36168ece5d3", "4.8.1--h43eeafb_9": "sha256:50934f1cd2927a45684d92cbb1102ee507775e582d303ba226cd20beaa957436", "4.8.1--h43eeafb_10": "sha256:45aa26e5a28840d544e2ead34372b49cad0b427f55c443bbf5850b81c661f577", "4.8.1--h43eeafb_11": "sha256:905ab6f3d2a1c5836ba1b89eced80101da5b37d4db5e9dc70297fa0b5223a04d"}, "docker": "quay.io/biocontainers/cd-hit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cd-hit.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cd-hit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cd-hit:4.8.1--h43eeafb_10
+$ shpc install quay.io/biocontainers/cd-hit:4.8.1--h43eeafb_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cd-hit/4.8.1--h43eeafb_10
-$ module help quay.io/biocontainers/cd-hit/4.8.1--h43eeafb_10
+$ module load quay.io/biocontainers/cd-hit/4.8.1--h43eeafb_11
+$ module help quay.io/biocontainers/cd-hit/4.8.1--h43eeafb_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

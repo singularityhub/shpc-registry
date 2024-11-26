@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/heliano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heliano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heliano/container.yaml"
-updated_at: "2024-11-25 03:54:05.347091"
+updated_at: "2024-11-26 03:13:50.239499"
 latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/heliano"
 aliases:

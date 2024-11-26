@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ragene21stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ragene21stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ragene21stprobeset.db/container.yaml"
-updated_at: "2024-11-25 03:46:04.757087"
+updated_at: "2024-11-26 03:05:55.705069"
 latest: "8.8.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-ragene21stprobeset.db"
 
