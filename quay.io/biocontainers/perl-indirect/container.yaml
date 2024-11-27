@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-indirect
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-indirect
 latest:
-  0.39--pl5321h031d066_3: sha256:a9b07d07d4b338ae1621407664065279a6aa2c5fb2668a46b73d65899bd0d556
+  0.39--pl5321h031d066_4: sha256:418ee39297e0f12d98e5c67aeb900306440abdd99ead6e5eb184281b349b890c
 tags:
   0.39--pl5321hec16e2b_2: sha256:cc6764f5cac46273579fc35282c3b0ae38c7018929fc7be7210cb5f0706b8af8
   0.39--pl5321h031d066_3: sha256:a9b07d07d4b338ae1621407664065279a6aa2c5fb2668a46b73d65899bd0d556
+  0.39--pl5321h031d066_4: sha256:418ee39297e0f12d98e5c67aeb900306440abdd99ead6e5eb184281b349b890c
 docker: quay.io/biocontainers/perl-indirect
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

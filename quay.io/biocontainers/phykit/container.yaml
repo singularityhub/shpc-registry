@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/phykit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phykit
 latest:
-  2.0.0--pyhdfd78af_0: sha256:47075c813d23e9bad6fc2160b0c717039e59c75f76e5cbed3973743b2b1e0e03
+  2.0.1--pyhdfd78af_0: sha256:decc681e85bbc1c7c6ae985c12bbbdcc6ccfb904c695bc55204531b2701c60cf
 tags:
   1.11.7--pyhdfd78af_0: sha256:ffdcba2863564bc3fa85d40e5bbd18170b4066784078893ee0ed8a3dfb9cc0f1
   1.11.14--pyhdfd78af_0: sha256:c340b1e0f9adf7025a8a50a1296dbb5d25b633d923160d05778730b7701e7f0f
@@ -20,6 +20,7 @@ tags:
   1.19.9--pyhdfd78af_0: sha256:ff31072dadaae81684abf56bfeea2cf6d1f2d2947faf08613998e232a68c6fee
   1.20.0--pyhdfd78af_0: sha256:3921d7c64e8adca027be9ad1f97134f8da3720d8db68a2a66373d5f8a3be66f2
   2.0.0--pyhdfd78af_0: sha256:47075c813d23e9bad6fc2160b0c717039e59c75f76e5cbed3973743b2b1e0e03
+  2.0.1--pyhdfd78af_0: sha256:decc681e85bbc1c7c6ae985c12bbbdcc6ccfb904c695bc55204531b2701c60cf
 docker: quay.io/biocontainers/phykit
 aliases:
   phykit: /usr/local/bin/phykit
