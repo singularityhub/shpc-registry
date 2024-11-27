@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spring/container.yaml"
-updated_at: "2024-11-26 03:18:36.953105"
-latest: "1.1.1--h4ac6f70_2"
+updated_at: "2024-11-27 03:20:04.917210"
+latest: "1.1.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/spring"
 aliases:
  - "spring"
@@ -13,8 +13,9 @@ versions:
  - "1.1.0--h9f5acd7_0"
  - "1.1.0--h4ac6f70_2"
  - "1.1.1--h4ac6f70_2"
+ - "1.1.1--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for spring"
-config: {"url": "https://biocontainers.pro/tools/spring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spring", "latest": {"1.1.1--h4ac6f70_2": "sha256:c3b1a888d5439bdcf99e8af19f3b445259648c3df8290602c5e7ced8efff2b1e"}, "tags": {"1.1.0--h9f5acd7_0": "sha256:cef9815bea26dd1f47e3cb3a2ac71f03ac0c372972bab8e80b43e56bc3ce1a0f", "1.1.0--h4ac6f70_2": "sha256:07f915837048af7a3c36cc13e0f2ee26877c222113f5eed0fad831a9d3814ef4", "1.1.1--h4ac6f70_2": "sha256:c3b1a888d5439bdcf99e8af19f3b445259648c3df8290602c5e7ced8efff2b1e"}, "docker": "quay.io/biocontainers/spring", "aliases": {"spring": "/usr/local/bin/spring"}}
+config: {"url": "https://biocontainers.pro/tools/spring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spring", "latest": {"1.1.1--h4ac6f70_3": "sha256:70d8c77b81b2015a0912570470531e4f92aeaedf764f63686e06949108b9d028"}, "tags": {"1.1.0--h9f5acd7_0": "sha256:cef9815bea26dd1f47e3cb3a2ac71f03ac0c372972bab8e80b43e56bc3ce1a0f", "1.1.0--h4ac6f70_2": "sha256:07f915837048af7a3c36cc13e0f2ee26877c222113f5eed0fad831a9d3814ef4", "1.1.1--h4ac6f70_2": "sha256:c3b1a888d5439bdcf99e8af19f3b445259648c3df8290602c5e7ced8efff2b1e", "1.1.1--h4ac6f70_3": "sha256:70d8c77b81b2015a0912570470531e4f92aeaedf764f63686e06949108b9d028"}, "docker": "quay.io/biocontainers/spring", "aliases": {"spring": "/usr/local/bin/spring"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spring.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/spring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spring:1.1.1--h4ac6f70_2
+$ shpc install quay.io/biocontainers/spring:1.1.1--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spring/1.1.1--h4ac6f70_2
-$ module help quay.io/biocontainers/spring/1.1.1--h4ac6f70_2
+$ module load quay.io/biocontainers/spring/1.1.1--h4ac6f70_3
+$ module help quay.io/biocontainers/spring/1.1.1--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

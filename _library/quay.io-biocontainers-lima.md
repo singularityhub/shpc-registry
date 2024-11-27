@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lima"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lima/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lima/container.yaml"
-updated_at: "2024-11-26 03:02:14.230210"
-latest: "2.9.0--h9ee0642_1"
+updated_at: "2024-11-27 03:04:03.133843"
+latest: "2.12.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/lima"
 aliases:
  - "lima"
@@ -14,8 +14,9 @@ versions:
  - "2.6.0--h9ee0642_0"
  - "2.7.1--h9ee0642_0"
  - "2.9.0--h9ee0642_1"
+ - "2.12.0--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for lima"
-config: {"url": "https://biocontainers.pro/tools/lima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lima", "latest": {"2.9.0--h9ee0642_1": "sha256:fc370ba0a93de228990f3cb026fddd610b80e03884df0bb55809c37866d2c80c"}, "tags": {"2.6.0--h9ee0642_0": "sha256:f7d12565ed2c29ae7e8ae524456b1ae4fd466e1f0ed1ea915cd15da29fea44d7", "2.7.1--h9ee0642_0": "sha256:c1967046d4cc39b122d25d19f50e2fe57181715e594b51d0043ce23a94788d47", "2.9.0--h9ee0642_1": "sha256:fc370ba0a93de228990f3cb026fddd610b80e03884df0bb55809c37866d2c80c"}, "docker": "quay.io/biocontainers/lima", "aliases": {"lima": "/usr/local/bin/lima", "lima-undo": "/usr/local/bin/lima-undo"}}
+config: {"url": "https://biocontainers.pro/tools/lima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lima", "latest": {"2.12.0--h9ee0642_1": "sha256:eea7a8030e308c1a057b3b4d8c533ef38c51a57653fb9d0a99afe8d2597924c3"}, "tags": {"2.6.0--h9ee0642_0": "sha256:f7d12565ed2c29ae7e8ae524456b1ae4fd466e1f0ed1ea915cd15da29fea44d7", "2.7.1--h9ee0642_0": "sha256:c1967046d4cc39b122d25d19f50e2fe57181715e594b51d0043ce23a94788d47", "2.9.0--h9ee0642_1": "sha256:fc370ba0a93de228990f3cb026fddd610b80e03884df0bb55809c37866d2c80c", "2.12.0--h9ee0642_1": "sha256:eea7a8030e308c1a057b3b4d8c533ef38c51a57653fb9d0a99afe8d2597924c3"}, "docker": "quay.io/biocontainers/lima", "aliases": {"lima": "/usr/local/bin/lima", "lima-undo": "/usr/local/bin/lima-undo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lima.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/lima
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lima:2.9.0--h9ee0642_1
+$ shpc install quay.io/biocontainers/lima:2.12.0--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lima/2.9.0--h9ee0642_1
-$ module help quay.io/biocontainers/lima/2.9.0--h9ee0642_1
+$ module load quay.io/biocontainers/lima/2.12.0--h9ee0642_1
+$ module help quay.io/biocontainers/lima/2.12.0--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

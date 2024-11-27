@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms2deepscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2deepscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2deepscore/container.yaml"
-updated_at: "2024-11-26 03:46:56.226991"
-latest: "2.2.0--pyhdfd78af_0"
+updated_at: "2024-11-27 03:48:00.613326"
+latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ms2deepscore"
 aliases:
  - "flatc"
@@ -41,8 +41,10 @@ versions:
  - "1.0.0--pyhdfd78af_0"
  - "2.2.0--pyhdfd78af_0"
  - "2.1.0--pyhdfd78af_0"
+ - "2.4.0--pyhdfd78af_0"
+ - "2.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ms2deepscore"
-config: {"url": "https://biocontainers.pro/tools/ms2deepscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2deepscore", "latest": {"2.2.0--pyhdfd78af_0": "sha256:e84e88e192378ee02861d8c0c569c12bc7e39154c2ad38aaaa5bf7609f9aab7f"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d", "0.5.0--pyhdfd78af_0": "sha256:2cf19f774ace115a269819cf56ba9426a2d8bb990b7baa29b2becd52e4c50a4e", "2.0.0--pyhdfd78af_0": "sha256:642773f6784e0e082127be9bf98b279670a51cdd0f263de27376acb6f7c35a85", "1.0.0--pyhdfd78af_0": "sha256:73ec0ec456b47fa009cc312565a6e127f4286888f7b6b1674f849ca614652b8b", "2.2.0--pyhdfd78af_0": "sha256:e84e88e192378ee02861d8c0c569c12bc7e39154c2ad38aaaa5bf7609f9aab7f", "2.1.0--pyhdfd78af_0": "sha256:d4fdbea41d7b6aec0cbd29ebd910c518fd149fad4fd8fcea05ca3ef37747699e"}, "docker": "quay.io/biocontainers/ms2deepscore", "aliases": {"flatc": "/usr/local/bin/flatc", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aec": "/usr/local/bin/aec", "tjbench": "/usr/local/bin/tjbench", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "numba": "/usr/local/bin/numba", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
+config: {"url": "https://biocontainers.pro/tools/ms2deepscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2deepscore", "latest": {"2.4.0--pyhdfd78af_0": "sha256:a7dbc6b0bb542d6f1e798fdbfe891ae9b986cac2ab08baad8fddfa63354535d1"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d", "0.5.0--pyhdfd78af_0": "sha256:2cf19f774ace115a269819cf56ba9426a2d8bb990b7baa29b2becd52e4c50a4e", "2.0.0--pyhdfd78af_0": "sha256:642773f6784e0e082127be9bf98b279670a51cdd0f263de27376acb6f7c35a85", "1.0.0--pyhdfd78af_0": "sha256:73ec0ec456b47fa009cc312565a6e127f4286888f7b6b1674f849ca614652b8b", "2.2.0--pyhdfd78af_0": "sha256:e84e88e192378ee02861d8c0c569c12bc7e39154c2ad38aaaa5bf7609f9aab7f", "2.1.0--pyhdfd78af_0": "sha256:d4fdbea41d7b6aec0cbd29ebd910c518fd149fad4fd8fcea05ca3ef37747699e", "2.4.0--pyhdfd78af_0": "sha256:a7dbc6b0bb542d6f1e798fdbfe891ae9b986cac2ab08baad8fddfa63354535d1", "2.3.0--pyhdfd78af_0": "sha256:1ce4f9359a0530c56c4773d8d59fa8c8813810cbf2b7815634f5d914f80e5aff"}, "docker": "quay.io/biocontainers/ms2deepscore", "aliases": {"flatc": "/usr/local/bin/flatc", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aec": "/usr/local/bin/aec", "tjbench": "/usr/local/bin/tjbench", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "numba": "/usr/local/bin/numba", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2deepscore.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/ms2deepscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms2deepscore:2.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ms2deepscore:2.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms2deepscore/2.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ms2deepscore/2.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ms2deepscore/2.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ms2deepscore/2.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

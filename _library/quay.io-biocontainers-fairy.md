@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fairy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fairy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fairy/container.yaml"
-updated_at: "2024-11-26 03:21:13.713329"
-latest: "0.5.5--h4ac6f70_0"
+updated_at: "2024-11-27 03:22:38.160518"
+latest: "0.5.7--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/fairy"
 aliases:
  - "fairy"
@@ -13,8 +13,9 @@ versions:
  - "0.5.3--h4ac6f70_0"
  - "0.5.4--h4ac6f70_0"
  - "0.5.5--h4ac6f70_0"
+ - "0.5.7--h4ac6f70_0"
 description: "singularity registry hpc automated addition for fairy"
-config: {"url": "https://biocontainers.pro/tools/fairy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fairy", "latest": {"0.5.5--h4ac6f70_0": "sha256:52693e539afb23cd584aae7213dad6bbea53b50d8da912e53f9e90a0779c4d31"}, "tags": {"0.5.3--h4ac6f70_0": "sha256:a03cae5fdd092ec682ab7b36792379be4b45ca2067c0ce1c92c96e24ac12c44f", "0.5.4--h4ac6f70_0": "sha256:45fc91c2dd6bb21ab17464a718f9f497c8231a51c4916b9a67e3ced46f8c726c", "0.5.5--h4ac6f70_0": "sha256:52693e539afb23cd584aae7213dad6bbea53b50d8da912e53f9e90a0779c4d31"}, "docker": "quay.io/biocontainers/fairy", "aliases": {"fairy": "/usr/local/bin/fairy"}}
+config: {"url": "https://biocontainers.pro/tools/fairy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fairy", "latest": {"0.5.7--h4ac6f70_0": "sha256:2be5cebffb762904254fab1222ead11b748b90fb8a7bb9223d24a2d27956755d"}, "tags": {"0.5.3--h4ac6f70_0": "sha256:a03cae5fdd092ec682ab7b36792379be4b45ca2067c0ce1c92c96e24ac12c44f", "0.5.4--h4ac6f70_0": "sha256:45fc91c2dd6bb21ab17464a718f9f497c8231a51c4916b9a67e3ced46f8c726c", "0.5.5--h4ac6f70_0": "sha256:52693e539afb23cd584aae7213dad6bbea53b50d8da912e53f9e90a0779c4d31", "0.5.7--h4ac6f70_0": "sha256:2be5cebffb762904254fab1222ead11b748b90fb8a7bb9223d24a2d27956755d"}, "docker": "quay.io/biocontainers/fairy", "aliases": {"fairy": "/usr/local/bin/fairy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fairy.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/fairy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fairy:0.5.5--h4ac6f70_0
+$ shpc install quay.io/biocontainers/fairy:0.5.7--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fairy/0.5.5--h4ac6f70_0
-$ module help quay.io/biocontainers/fairy/0.5.5--h4ac6f70_0
+$ module load quay.io/biocontainers/fairy/0.5.7--h4ac6f70_0
+$ module help quay.io/biocontainers/fairy/0.5.7--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

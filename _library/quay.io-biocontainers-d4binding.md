@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/d4binding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/d4binding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/d4binding/container.yaml"
-updated_at: "2024-11-26 03:37:30.343091"
-latest: "0.3.11--hdbdd923_0"
+updated_at: "2024-11-27 03:38:42.248152"
+latest: "0.3.11--hdbdd923_1"
 container_url: "https://biocontainers.pro/tools/d4binding"
 aliases:
  - "starcode"
 versions:
  - "0.3.4--h87f3376_0"
  - "0.3.11--hdbdd923_0"
+ - "0.3.11--hdbdd923_1"
 description: "singularity registry hpc automated addition for d4binding"
-config: {"url": "https://biocontainers.pro/tools/d4binding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for d4binding", "latest": {"0.3.11--hdbdd923_0": "sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad"}, "tags": {"0.3.4--h87f3376_0": "sha256:5f55a16b97075b91f86c54ff4dd7fe11324af217880775ab1ee53433517657bb", "0.3.11--hdbdd923_0": "sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad"}, "docker": "quay.io/biocontainers/d4binding", "aliases": {"starcode": "/usr/local/bin/starcode"}}
+config: {"url": "https://biocontainers.pro/tools/d4binding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for d4binding", "latest": {"0.3.11--hdbdd923_1": "sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d"}, "tags": {"0.3.4--h87f3376_0": "sha256:5f55a16b97075b91f86c54ff4dd7fe11324af217880775ab1ee53433517657bb", "0.3.11--hdbdd923_0": "sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad", "0.3.11--hdbdd923_1": "sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d"}, "docker": "quay.io/biocontainers/d4binding", "aliases": {"starcode": "/usr/local/bin/starcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/d4binding.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/d4binding
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/d4binding:0.3.11--hdbdd923_0
+$ shpc install quay.io/biocontainers/d4binding:0.3.11--hdbdd923_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/d4binding/0.3.11--hdbdd923_0
-$ module help quay.io/biocontainers/d4binding/0.3.11--hdbdd923_0
+$ module load quay.io/biocontainers/d4binding/0.3.11--hdbdd923_1
+$ module help quay.io/biocontainers/d4binding/0.3.11--hdbdd923_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
