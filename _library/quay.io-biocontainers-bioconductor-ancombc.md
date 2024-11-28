@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ancombc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ancombc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ancombc/container.yaml"
-updated_at: "2024-11-27 03:41:41.113890"
+updated_at: "2024-11-28 03:45:45.094631"
 latest: "2.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ancombc"
 

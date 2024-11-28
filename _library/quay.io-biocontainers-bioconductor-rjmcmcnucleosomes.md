@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rjmcmcnucleosomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/container.yaml"
-updated_at: "2024-11-27 03:48:39.172357"
+updated_at: "2024-11-28 03:53:26.679025"
 latest: "1.26.0--r43h7c4fd5e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes"
 aliases:

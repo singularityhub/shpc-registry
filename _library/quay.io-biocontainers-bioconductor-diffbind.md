@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffbind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffbind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffbind/container.yaml"
-updated_at: "2024-11-27 03:48:56.195933"
+updated_at: "2024-11-28 03:53:45.459376"
 latest: "3.12.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffbind"
 

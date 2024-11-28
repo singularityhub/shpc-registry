@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-file-copy-recursive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-copy-recursive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-copy-recursive/container.yaml"
-updated_at: "2024-11-27 03:11:18.675824"
-latest: "0.45--pl5321h031d066_3"
+updated_at: "2024-11-28 03:12:08.025703"
+latest: "0.45--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-file-copy-recursive"
 
 versions:
  - "0.45--pl5321hec16e2b_2"
  - "0.45--pl5321h031d066_3"
+ - "0.45--pl5321h031d066_4"
 description: "shpc-registry automated BioContainers addition for perl-file-copy-recursive"
-config: {"url": "https://biocontainers.pro/tools/perl-file-copy-recursive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-copy-recursive", "latest": {"0.45--pl5321h031d066_3": "sha256:f2d1cbb9c0bc464fb5323f7b786aebc23a5c4340a604123a2bb1e6f4a5b4305e"}, "tags": {"0.45--pl5321hec16e2b_2": "sha256:79f98f3263ea0f188892dc2e6cacbfcb83bcc7b8ce2adda45fd8b0aa577b4840", "0.45--pl5321h031d066_3": "sha256:f2d1cbb9c0bc464fb5323f7b786aebc23a5c4340a604123a2bb1e6f4a5b4305e"}, "docker": "quay.io/biocontainers/perl-file-copy-recursive"}
+config: {"url": "https://biocontainers.pro/tools/perl-file-copy-recursive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-copy-recursive", "latest": {"0.45--pl5321h031d066_4": "sha256:290f5cf994e549d0aad7aac6156bf55423daaa518c14ab3bad6105cc2051dbb0"}, "tags": {"0.45--pl5321hec16e2b_2": "sha256:79f98f3263ea0f188892dc2e6cacbfcb83bcc7b8ce2adda45fd8b0aa577b4840", "0.45--pl5321h031d066_3": "sha256:f2d1cbb9c0bc464fb5323f7b786aebc23a5c4340a604123a2bb1e6f4a5b4305e", "0.45--pl5321h031d066_4": "sha256:290f5cf994e549d0aad7aac6156bf55423daaa518c14ab3bad6105cc2051dbb0"}, "docker": "quay.io/biocontainers/perl-file-copy-recursive"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-copy-recursive.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-file-copy-recursive
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-copy-recursive:0.45--pl5321h031d066_3
+$ shpc install quay.io/biocontainers/perl-file-copy-recursive:0.45--pl5321h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-copy-recursive/0.45--pl5321h031d066_3
-$ module help quay.io/biocontainers/perl-file-copy-recursive/0.45--pl5321h031d066_3
+$ module load quay.io/biocontainers/perl-file-copy-recursive/0.45--pl5321h031d066_4
+$ module help quay.io/biocontainers/perl-file-copy-recursive/0.45--pl5321h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
