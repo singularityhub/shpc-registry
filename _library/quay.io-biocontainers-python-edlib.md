@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-edlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-edlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-edlib/container.yaml"
-updated_at: "2024-11-28 03:45:51.526414"
+updated_at: "2024-11-28 04:26:54.122637"
 latest: "1.3.9--py310h84f13bb_8"
 container_url: "https://biocontainers.pro/tools/python-edlib"
 aliases:

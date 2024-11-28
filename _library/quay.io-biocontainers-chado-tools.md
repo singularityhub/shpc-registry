@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chado-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chado-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chado-tools/container.yaml"
-updated_at: "2024-11-28 03:36:59.021602"
+updated_at: "2024-11-28 04:18:50.804901"
 latest: "0.2.15--py_0"
 container_url: "https://biocontainers.pro/tools/chado-tools"
 aliases:

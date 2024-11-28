@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxbusdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxbusdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxbusdata/container.yaml"
-updated_at: "2024-11-28 03:25:09.116244"
+updated_at: "2024-11-28 04:08:06.523269"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxbusdata"
 

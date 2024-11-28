@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/freddie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freddie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/freddie/container.yaml"
-updated_at: "2024-11-28 03:29:49.669098"
+updated_at: "2024-11-28 04:12:21.308136"
 latest: "0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/freddie"
 aliases:

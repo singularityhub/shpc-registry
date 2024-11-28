@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboloco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboloco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboloco/container.yaml"
-updated_at: "2024-11-28 03:36:36.789533"
+updated_at: "2024-11-28 04:18:30.642569"
 latest: "0.3.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/riboloco"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fiji-simple_omero_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-simple_omero_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-simple_omero_client/container.yaml"
-updated_at: "2024-11-28 03:26:06.824058"
+updated_at: "2024-11-28 04:08:59.016346"
 latest: "5.19.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-simple_omero_client"
 aliases:

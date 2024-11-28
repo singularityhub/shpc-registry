@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/president"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/president/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/president/container.yaml"
-updated_at: "2024-11-28 03:44:17.686271"
+updated_at: "2024-11-28 04:25:28.924637"
 latest: "0.6.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/president"
 aliases:

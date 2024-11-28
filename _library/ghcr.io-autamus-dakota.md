@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/dakota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/dakota/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/dakota/container.yaml"
-updated_at: "2024-11-28 03:01:49.414005"
+updated_at: "2024-11-28 03:46:56.581569"
 latest: "6.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/dakota"
 aliases:

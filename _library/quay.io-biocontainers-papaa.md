@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/papaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/papaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/papaa/container.yaml"
-updated_at: "2024-11-28 03:25:43.127097"
+updated_at: "2024-11-28 04:08:37.373506"
 latest: "0.1.9--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/papaa"
 aliases:
