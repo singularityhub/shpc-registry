@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/polap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for polap
 latest:
-  0.2.6--hdfd78af_0: sha256:88a46603cb29652f2af220a9bb477d07e1237f7e39b5e2b2fbf69dd1ad67af0f
+  0.3.7.3--hdfd78af_1: sha256:31b9b5d3880b9df1a0825f989e40e7ffe91502fe4a128784ee3bfc1e25d17683
 tags:
   0.2.6--hdfd78af_0: sha256:88a46603cb29652f2af220a9bb477d07e1237f7e39b5e2b2fbf69dd1ad67af0f
+  0.3.7.3--hdfd78af_1: sha256:31b9b5d3880b9df1a0825f989e40e7ffe91502fe4a128784ee3bfc1e25d17683
 docker: quay.io/biocontainers/polap
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3
