@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/ntsm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ntsm
+latest:
+  1.2.1--hdcf5f25_0: sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788
+tags:
+  1.2.1--hdcf5f25_0: sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788
+docker: quay.io/biocontainers/ntsm
+aliases:
+  ntsmCount: /usr/local/bin/ntsmCount
+  ntsmEval: /usr/local/bin/ntsmEval
+  ntsmSiteGen: /usr/local/bin/ntsmSiteGen
+  ntsmVCF: /usr/local/bin/ntsmVCF
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  annot-tsv: /usr/local/bin/annot-tsv
+  numpy-config: /usr/local/bin/numpy-config
+  faidx: /usr/local/bin/faidx
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
