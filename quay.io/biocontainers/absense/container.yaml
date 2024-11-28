@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/absense
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for absense
+latest:
+  1.0.1--pyhdfd78af_0: sha256:829eaa1eb9716dbe598efff43a93c10052d570d881c88169acec2a7c37f06572
+tags:
+  1.0.1--pyhdfd78af_0: sha256:829eaa1eb9716dbe598efff43a93c10052d570d881c88169acec2a7c37f06572
+docker: quay.io/biocontainers/absense
+aliases:
+  Plot_abSENSE.py: /usr/local/bin/Plot_abSENSE.py
+  Run_abSENSE.py: /usr/local/bin/Run_abSENSE.py
+  get_gprof: /usr/local/bin/get_gprof
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  f2py3.8: /usr/local/bin/f2py3.8
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

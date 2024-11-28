@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/phyclone
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phyclone
+latest:
+  0.5.1--pyhdfd78af_0: sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e
+tags:
+  0.5.1--pyhdfd78af_0: sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e
+docker: quay.io/biocontainers/phyclone
+aliases:
+  phyclone: /usr/local/bin/phyclone
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  numpy-config: /usr/local/bin/numpy-config
+  numba: /usr/local/bin/numba
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

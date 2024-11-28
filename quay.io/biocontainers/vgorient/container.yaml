@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/vgorient
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vgorient
+latest:
+  0.1.1--pyhdfd78af_0: sha256:83018694cb3d1f94625259f7d559c84885798b2ce31b857800d431e48af3c867
+tags:
+  0.1.1--pyhdfd78af_0: sha256:83018694cb3d1f94625259f7d559c84885798b2ce31b857800d431e48af3c867
+docker: quay.io/biocontainers/vgorient
+aliases:
+  Cutoff_Node.py: /usr/local/bin/Cutoff_Node.py
+  OOP_gfa_parser.py: /usr/local/bin/OOP_gfa_parser.py
+  Rotation_and_Orientation.py: /usr/local/bin/Rotation_and_Orientation.py
+  VG_diterative.py: /usr/local/bin/VG_diterative.py
+  VG_iterative.py: /usr/local/bin/VG_iterative.py
+  cut_and_rot.py: /usr/local/bin/cut_and_rot.py
+  cut_and_rot_orient.py: /usr/local/bin/cut_and_rot_orient.py
+  cut_and_rot_rebuild.py: /usr/local/bin/cut_and_rot_rebuild.py
+  jaccard_dit_wrapper.py: /usr/local/bin/jaccard_dit_wrapper.py
+  kmer_jaccard.py: /usr/local/bin/kmer_jaccard.py
+  kmer_rotation_multiprocessing.py: /usr/local/bin/kmer_rotation_multiprocessing.py
+  noisify.py: /usr/local/bin/noisify.py
+  offset_fasta.py: /usr/local/bin/offset_fasta.py
+  request_fastas.py: /usr/local/bin/request_fastas.py
+  vg: /usr/local/bin/vg
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
