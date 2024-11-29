@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lapmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lapmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lapmix/container.yaml"
-updated_at: "2024-11-28 03:52:51.869750"
+updated_at: "2024-11-29 03:07:58.444221"
 latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lapmix"
 

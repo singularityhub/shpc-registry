@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igor_vdj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igor_vdj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igor_vdj/container.yaml"
-updated_at: "2024-11-28 04:12:43.410254"
+updated_at: "2024-11-29 03:28:42.274505"
 latest: "1.4.0--he1b5a44_0"
 container_url: "https://biocontainers.pro/tools/igor_vdj"
 aliases:

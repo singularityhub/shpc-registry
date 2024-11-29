@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biasaway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biasaway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biasaway/container.yaml"
-updated_at: "2024-11-28 04:21:11.082028"
+updated_at: "2024-11-29 03:37:31.706909"
 latest: "3.3.0--py_0"
 container_url: "https://biocontainers.pro/tools/biasaway"
 aliases:

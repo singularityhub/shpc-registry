@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/secimtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secimtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/secimtools/container.yaml"
-updated_at: "2024-11-28 04:13:39.433989"
+updated_at: "2024-11-29 03:29:40.714574"
 latest: "22.3.23--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/secimtools"
 aliases:
