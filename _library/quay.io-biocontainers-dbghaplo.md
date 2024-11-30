@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dbghaplo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbghaplo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbghaplo/container.yaml"
-updated_at: "2024-11-29 03:39:52.359603"
+updated_at: "2024-11-30 03:33:36.166228"
 latest: "0.0.2--h919a2d8_0"
 container_url: "https://biocontainers.pro/tools/dbghaplo"
 aliases:

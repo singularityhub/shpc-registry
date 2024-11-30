@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/teloscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teloscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teloscope/container.yaml"
-updated_at: "2024-11-29 03:04:37.306146"
+updated_at: "2024-11-30 02:59:20.586812"
 latest: "0.0.4--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/teloscope"
 aliases:

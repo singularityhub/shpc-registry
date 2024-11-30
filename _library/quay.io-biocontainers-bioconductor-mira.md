@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mira/container.yaml"
-updated_at: "2024-11-29 03:22:00.398472"
+updated_at: "2024-11-30 03:16:03.628104"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mira"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dysgu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dysgu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dysgu/container.yaml"
-updated_at: "2024-11-29 03:28:00.901517"
+updated_at: "2024-11-30 03:21:59.004912"
 latest: "1.6.7--py38hbf64fdb_0"
 container_url: "https://biocontainers.pro/tools/dysgu"
 aliases:
