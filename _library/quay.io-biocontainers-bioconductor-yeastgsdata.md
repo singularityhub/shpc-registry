@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeastgsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeastgsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeastgsdata/container.yaml"
-updated_at: "2024-11-30 03:36:40.958946"
+updated_at: "2024-12-01 03:58:19.037574"
 latest: "0.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeastgsdata"
 

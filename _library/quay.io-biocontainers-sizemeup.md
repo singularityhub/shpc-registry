@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sizemeup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sizemeup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sizemeup/container.yaml"
-updated_at: "2024-11-30 03:34:08.436818"
+updated_at: "2024-12-01 03:55:44.466680"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sizemeup"
 aliases:
