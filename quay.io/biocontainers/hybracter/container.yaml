@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hybracter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hybracter
 latest:
-  0.10.0--pyhdfd78af_0: sha256:b4871bc64c66b60074e7de4e61c22601bb8358402919381eeb09f99e8cee4734
+  0.10.1--pyhdfd78af_0: sha256:0ab00427d66d4e60061f6d3fed051b30fa29953779105f7b3d4ebcd4b3cfb5dc
 tags:
   0.1.2--pyhdfd78af_0: sha256:980cfcbbad71ce1742a56685146167b3b32b3df12e14d8a05d5346eb0a5a2c12
   0.2.1--pyhdfd78af_0: sha256:b76818af984f2d2c1795b9a6e62ff32a02eb88dbbd345f2e191f56e3b463f8ea
@@ -16,6 +16,7 @@ tags:
   0.8.0--pyhdfd78af_0: sha256:5a2d53d75454b9cc87e04618833bf85b43241fb1c99b4cd64a964def89eb6cc6
   0.10.0--pyhdfd78af_0: sha256:b4871bc64c66b60074e7de4e61c22601bb8358402919381eeb09f99e8cee4734
   0.9.1--pyhdfd78af_0: sha256:bd5069f8a8bbebe689f29f17568441fc7f77977e9e30c344ddd14069524465ff
+  0.10.1--pyhdfd78af_0: sha256:0ab00427d66d4e60061f6d3fed051b30fa29953779105f7b3d4ebcd4b3cfb5dc
 docker: quay.io/biocontainers/hybracter
 aliases:
   hybracter: /usr/local/bin/hybracter

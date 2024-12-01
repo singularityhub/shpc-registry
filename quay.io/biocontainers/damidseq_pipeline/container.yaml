@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/damidseq_pipeline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for damidseq_pipeline
 latest:
-  1.5.3--pl5321hdfd78af_0: sha256:74d6aa3665ab09cf628a2a159b509b0ebba889189c8733e40c784dd1a779de65
+  1.6--pl5321hdfd78af_0: sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e
 tags:
   1.4--pl5321hdfd78af_5: sha256:9d79de14d9026b53a3b7b7b586bc4324967c5a0466dbf625d0e6e5e30186444f
   1.5.3--pl5321hdfd78af_0: sha256:74d6aa3665ab09cf628a2a159b509b0ebba889189c8733e40c784dd1a779de65
+  1.6--pl5321hdfd78af_0: sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e
 docker: quay.io/biocontainers/damidseq_pipeline
 aliases:
   damidseq_pipeline: /usr/local/bin/damidseq_pipeline
