@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cosia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosia/container.yaml"
-updated_at: "2024-12-01 03:53:08.453436"
+updated_at: "2024-12-02 03:41:31.364195"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosia"
 aliases:

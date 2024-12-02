@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snk/container.yaml"
-updated_at: "2024-12-01 04:02:54.860621"
-latest: "0.30.1--pyhdfd78af_0"
+updated_at: "2024-12-02 03:51:18.438719"
+latest: "0.31.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snk"
 aliases:
  - "art"
@@ -38,8 +38,9 @@ aliases:
  - "clp"
 versions:
  - "0.30.1--pyhdfd78af_0"
+ - "0.31.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snk"
-config: {"url": "https://biocontainers.pro/tools/snk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snk", "latest": {"0.30.1--pyhdfd78af_0": "sha256:caba8e53725c2c2c004db2281e44428504ce5ad0407482cf24e3c9d1a69e953d"}, "tags": {"0.30.1--pyhdfd78af_0": "sha256:caba8e53725c2c2c004db2281e44428504ce5ad0407482cf24e3c9d1a69e953d"}, "docker": "quay.io/biocontainers/snk", "aliases": {"art": "/usr/local/bin/art", "snk": "/usr/local/bin/snk", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "scalar": "/usr/local/bin/scalar", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "markdown-it": "/usr/local/bin/markdown-it", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/snk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snk", "latest": {"0.31.0--pyhdfd78af_0": "sha256:0b37c7619af6483b456680465eef006a98ded4dc052be97209e87a56ef8ebc62"}, "tags": {"0.30.1--pyhdfd78af_0": "sha256:caba8e53725c2c2c004db2281e44428504ce5ad0407482cf24e3c9d1a69e953d", "0.31.0--pyhdfd78af_0": "sha256:0b37c7619af6483b456680465eef006a98ded4dc052be97209e87a56ef8ebc62"}, "docker": "quay.io/biocontainers/snk", "aliases": {"art": "/usr/local/bin/art", "snk": "/usr/local/bin/snk", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "scalar": "/usr/local/bin/scalar", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "markdown-it": "/usr/local/bin/markdown-it", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snk.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/snk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snk:0.30.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snk:0.31.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snk/0.30.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snk/0.30.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snk/0.31.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snk/0.31.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

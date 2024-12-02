@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ptools_bin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ptools_bin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ptools_bin/container.yaml"
-updated_at: "2024-12-01 03:52:34.557877"
+updated_at: "2024-12-02 03:40:58.067969"
 latest: "0.0.7--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ptools_bin"
 aliases:

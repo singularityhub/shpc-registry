@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphlan/container.yaml"
-updated_at: "2024-12-01 03:26:44.037023"
+updated_at: "2024-12-02 03:15:25.671454"
 latest: "1.1.3--2"
 container_url: "https://biocontainers.pro/tools/graphlan"
 aliases:

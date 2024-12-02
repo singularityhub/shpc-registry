@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/notramp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/notramp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/notramp/container.yaml"
-updated_at: "2024-12-01 03:20:36.332477"
-latest: "1.0.5--pyh5e36f6f_0"
+updated_at: "2024-12-02 03:09:23.754394"
+latest: "1.1.7--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/notramp"
 aliases:
  - "notramp"
@@ -21,8 +21,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.5--pyh5e36f6f_0"
+ - "1.1.7--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for notramp"
-config: {"url": "https://biocontainers.pro/tools/notramp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for notramp", "latest": {"1.0.5--pyh5e36f6f_0": "sha256:948e2fa68132c6147a680b79cd4023b28cf0bab39a2534d83e2500c6aeff1607"}, "tags": {"1.0.5--pyh5e36f6f_0": "sha256:948e2fa68132c6147a680b79cd4023b28cf0bab39a2534d83e2500c6aeff1607"}, "docker": "quay.io/biocontainers/notramp", "aliases": {"notramp": "/usr/local/bin/notramp", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/notramp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for notramp", "latest": {"1.1.7--pyh7e72e81_0": "sha256:1bb7762ee5ea6876989d09849f3fadef327d08df05b807c35a9806ecb10fead4"}, "tags": {"1.0.5--pyh5e36f6f_0": "sha256:948e2fa68132c6147a680b79cd4023b28cf0bab39a2534d83e2500c6aeff1607", "1.1.7--pyh7e72e81_0": "sha256:1bb7762ee5ea6876989d09849f3fadef327d08df05b807c35a9806ecb10fead4"}, "docker": "quay.io/biocontainers/notramp", "aliases": {"notramp": "/usr/local/bin/notramp", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/notramp.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/notramp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/notramp:1.0.5--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/notramp:1.1.7--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/notramp/1.0.5--pyh5e36f6f_0
-$ module help quay.io/biocontainers/notramp/1.0.5--pyh5e36f6f_0
+$ module load quay.io/biocontainers/notramp/1.1.7--pyh7e72e81_0
+$ module help quay.io/biocontainers/notramp/1.1.7--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

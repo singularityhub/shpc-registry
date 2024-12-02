@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clame/container.yaml"
-updated_at: "2024-12-01 03:25:23.780881"
+updated_at: "2024-12-02 03:14:06.425529"
 latest: "1.0--he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/clame"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-featureio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-featureio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-featureio/container.yaml"
-updated_at: "2024-12-01 03:55:45.917074"
+updated_at: "2024-12-02 03:44:08.667106"
 latest: "1.6.905--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-bio-featureio"
 aliases:

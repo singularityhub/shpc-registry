@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-json-parse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-parse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-parse/container.yaml"
-updated_at: "2024-12-01 04:05:06.309655"
-latest: "0.62--pl5321h4ac6f70_3"
+updated_at: "2024-12-02 03:53:27.275852"
+latest: "0.62--pl5321h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/perl-json-parse"
 aliases:
  - "validjson"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.62--pl5321h9f5acd7_1"
  - "0.62--pl5321h4ac6f70_3"
+ - "0.62--pl5321h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for perl-json-parse"
-config: {"url": "https://biocontainers.pro/tools/perl-json-parse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-parse", "latest": {"0.62--pl5321h4ac6f70_3": "sha256:47f5fdcbf0877dc6a8753ea3d9cc8b50bb5d1bc2b2f620bab552c6cf2e448ecb"}, "tags": {"0.62--pl5321h9f5acd7_1": "sha256:8562e88fa7afe8c3380586c52352d86292bcf99b9cd15f01eaf915f749da0950", "0.62--pl5321h4ac6f70_3": "sha256:47f5fdcbf0877dc6a8753ea3d9cc8b50bb5d1bc2b2f620bab552c6cf2e448ecb"}, "docker": "quay.io/biocontainers/perl-json-parse", "aliases": {"validjson": "/usr/local/bin/validjson", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-json-parse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-parse", "latest": {"0.62--pl5321h4ac6f70_4": "sha256:ee1be28f7b10059a5c4397e86c7085677ca24ba6038819bc0042c39ce425c512"}, "tags": {"0.62--pl5321h9f5acd7_1": "sha256:8562e88fa7afe8c3380586c52352d86292bcf99b9cd15f01eaf915f749da0950", "0.62--pl5321h4ac6f70_3": "sha256:47f5fdcbf0877dc6a8753ea3d9cc8b50bb5d1bc2b2f620bab552c6cf2e448ecb", "0.62--pl5321h4ac6f70_4": "sha256:ee1be28f7b10059a5c4397e86c7085677ca24ba6038819bc0042c39ce425c512"}, "docker": "quay.io/biocontainers/perl-json-parse", "aliases": {"validjson": "/usr/local/bin/validjson", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json-parse.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-json-parse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json-parse:0.62--pl5321h4ac6f70_3
+$ shpc install quay.io/biocontainers/perl-json-parse:0.62--pl5321h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json-parse/0.62--pl5321h4ac6f70_3
-$ module help quay.io/biocontainers/perl-json-parse/0.62--pl5321h4ac6f70_3
+$ module load quay.io/biocontainers/perl-json-parse/0.62--pl5321h4ac6f70_4
+$ module help quay.io/biocontainers/perl-json-parse/0.62--pl5321h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

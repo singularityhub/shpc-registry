@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-threaded"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-threaded/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-threaded/container.yaml"
-updated_at: "2024-12-01 04:05:58.489319"
+updated_at: "2024-12-02 03:54:17.996097"
 latest: "5.32.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-threaded"
 aliases:

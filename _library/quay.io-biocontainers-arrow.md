@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arrow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arrow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arrow/container.yaml"
-updated_at: "2024-12-01 04:04:03.926215"
+updated_at: "2024-12-02 03:52:26.080549"
 latest: "0.7.0--py36_0"
 container_url: "https://biocontainers.pro/tools/arrow"
 aliases:

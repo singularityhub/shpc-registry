@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mu15v1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu15v1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu15v1.db/container.yaml"
-updated_at: "2024-12-01 04:03:29.056961"
+updated_at: "2024-12-02 03:51:51.843955"
 latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu15v1.db"
 

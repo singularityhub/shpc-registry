@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scimpute/container.yaml"
-updated_at: "2024-12-01 03:33:00.948359"
+updated_at: "2024-12-02 03:21:42.605774"
 latest: "0.0.8--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-scimpute"
 aliases:
