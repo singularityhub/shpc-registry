@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/mirscore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mirscore
+latest:
+  0.3.0--hdfd78af_0: sha256:fc7f9856831f67ca5a0f4c1f268d2e37a21014e6eed7cbaff838611a1df0ebb2
+tags:
+  0.3.0--hdfd78af_0: sha256:fc7f9856831f67ca5a0f4c1f268d2e37a21014e6eed7cbaff838611a1df0ebb2
+docker: quay.io/biocontainers/mirscore
+aliases:
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  hairpinHelper: /usr/local/bin/hairpinHelper
+  miRScore: /usr/local/bin/miRScore
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  cutadapt: /usr/local/bin/cutadapt
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
