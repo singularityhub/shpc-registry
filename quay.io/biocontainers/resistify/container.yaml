@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/resistify
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for resistify
 latest:
-  0.5.1--pyhdfd78af_1: sha256:13ed5844c39a3e46af282c1500373c9333768a20aa78c0f1137655555ee31aeb
+  0.6.2--pyhdfd78af_0: sha256:89267262f4dd7a3b158a8b99d37ed2fbd1679e3880fe52c1de51dd600fcb0f7e
 tags:
   0.1.0--pyhdfd78af_0: sha256:3d53ff55d6a487c67d1d8b7df50b37658a30829ceccce48fcd96c576a5b6fbe7
   0.1.1--pyhdfd78af_0: sha256:bae79c01567b587c9f34d105d545213047d244f580853c727d10be87eea81577
@@ -10,6 +10,8 @@ tags:
   0.3.0--pyhdfd78af_0: sha256:5465c7e8e82f48075284c419aebddf2b971e7a018aeb1e10fc8870eeca8178e2
   0.5.1--pyhdfd78af_1: sha256:13ed5844c39a3e46af282c1500373c9333768a20aa78c0f1137655555ee31aeb
   0.4.0--pyhdfd78af_0: sha256:73570b7969366d8ac559093ed62d18a84827720c929fb358c8c82121f9403b37
+  0.6.2--pyhdfd78af_0: sha256:89267262f4dd7a3b158a8b99d37ed2fbd1679e3880fe52c1de51dd600fcb0f7e
+  0.5.2--pyhdfd78af_0: sha256:c5f918b88f108d902cf7ad329a212ec0b9a4de6add83d6d77657309c7f08bd94
 docker: quay.io/biocontainers/resistify
 aliases:
   resistify: /usr/local/bin/resistify

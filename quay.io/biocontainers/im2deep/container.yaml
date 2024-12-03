@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/im2deep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for im2deep
 latest:
-  0.2.0--pyhdfd78af_0: sha256:be67dbf6e464428caa9f935e67c43dedae4a839ae87dfe9cd2dfdc96343eb5fb
+  0.3.1--pyhdfd78af_0: sha256:3c2826542955647dc93c494ef4451b892889ece4f57dff7b2abfe9f3241d018f
 tags:
   0.1.7--pyhdfd78af_0: sha256:884702964f92c2025e0183122cc4f342fad4da4f23da11c174da894679f738c3
   0.1.8--pyhdfd78af_0: sha256:22dfbfa3bd1bdfc540ff8fb13102b5555e28c51ea2a9b59bb9ca6f256c883681
   0.1.9--pyhdfd78af_0: sha256:5df8b5b56bf6b900395b51c5df975703f92b6e2953a2990db74857a277ad933c
   0.2.0--pyhdfd78af_0: sha256:be67dbf6e464428caa9f935e67c43dedae4a839ae87dfe9cd2dfdc96343eb5fb
+  0.3.1--pyhdfd78af_0: sha256:3c2826542955647dc93c494ef4451b892889ece4f57dff7b2abfe9f3241d018f
 docker: quay.io/biocontainers/im2deep
 aliases:
   deeplc: /usr/local/bin/deeplc

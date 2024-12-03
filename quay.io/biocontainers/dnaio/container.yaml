@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dnaio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dnaio
 latest:
-  1.2.2--py311hdad781d_0: sha256:2ab936b99a8e0ee4a654229d5f41e0227a161a56c5e338ba943611e05469d0cb
+  1.2.3--py313h031d066_0: sha256:2c164ff51adef8b298d83dce09d5178501954dc8405e960b69fb136aa3a1cbc9
 tags:
   0.8.0--py39hbf8eff0_0: sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733
   1.2.0--py38he5da3d1_1: sha256:5af6c6ce593cea2b90fdadfe1a726c2ce4d61f86c3f7ca40053f05db0c0ae1fa
@@ -13,6 +13,7 @@ tags:
   1.2.1--py311hdad781d_1: sha256:04c0bbd7be67d92a545d06cf1d9bca244901ebd585eca41d686fa8ccf8748ca2
   1.2.1--py311hdad781d_2: sha256:4135b3e1e89c179e98f93b66dc9ed479c7b022831cd473d6a6931dc9e4cc93e3
   1.2.2--py311hdad781d_0: sha256:2ab936b99a8e0ee4a654229d5f41e0227a161a56c5e338ba943611e05469d0cb
+  1.2.3--py313h031d066_0: sha256:2c164ff51adef8b298d83dce09d5178501954dc8405e960b69fb136aa3a1cbc9
 docker: quay.io/biocontainers/dnaio
 aliases:
   igzip: /usr/local/bin/igzip
