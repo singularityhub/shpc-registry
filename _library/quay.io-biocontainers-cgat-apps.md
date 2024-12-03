@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgat-apps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-apps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-apps/container.yaml"
-updated_at: "2024-12-02 03:08:10.979203"
-latest: "0.7.2--py310h5aa3a86_1"
+updated_at: "2024-12-03 03:07:54.874118"
+latest: "0.7.10--py310hc1935f2_0"
 container_url: "https://biocontainers.pro/tools/cgat-apps"
 aliases:
  - "bq"
@@ -27,8 +27,9 @@ versions:
  - "0.6.5--py37h179cca4_2"
  - "0.6.5--py38h1c8579b_2"
  - "0.7.2--py310h5aa3a86_1"
+ - "0.7.10--py310hc1935f2_0"
 description: "shpc-registry automated BioContainers addition for cgat-apps"
-config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.7.2--py310h5aa3a86_1": "sha256:5b9bc17ab5081a2624e8f42df54190c637654312a24cf88b7707750b3a8ed508"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b", "0.6.5--py38h1c8579b_2": "sha256:ed8e56c5cba79f942ac349f7ba6d78a1bbe9c96ee55b20c4ec8a80a68c392315", "0.7.2--py310h5aa3a86_1": "sha256:5b9bc17ab5081a2624e8f42df54190c637654312a24cf88b7707750b3a8ed508"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"bq": "/usr/local/bin/bq", "cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.7.10--py310hc1935f2_0": "sha256:4c70332ec1f9472e2980f82d065bc39547e63e58cfaf8a3c4b4efc8f872916de"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b", "0.6.5--py38h1c8579b_2": "sha256:ed8e56c5cba79f942ac349f7ba6d78a1bbe9c96ee55b20c4ec8a80a68c392315", "0.7.2--py310h5aa3a86_1": "sha256:5b9bc17ab5081a2624e8f42df54190c637654312a24cf88b7707750b3a8ed508", "0.7.10--py310hc1935f2_0": "sha256:4c70332ec1f9472e2980f82d065bc39547e63e58cfaf8a3c4b4efc8f872916de"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"bq": "/usr/local/bin/bq", "cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-apps.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/cgat-apps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgat-apps:0.7.2--py310h5aa3a86_1
+$ shpc install quay.io/biocontainers/cgat-apps:0.7.10--py310hc1935f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgat-apps/0.7.2--py310h5aa3a86_1
-$ module help quay.io/biocontainers/cgat-apps/0.7.2--py310h5aa3a86_1
+$ module load quay.io/biocontainers/cgat-apps/0.7.10--py310hc1935f2_0
+$ module help quay.io/biocontainers/cgat-apps/0.7.10--py310hc1935f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
