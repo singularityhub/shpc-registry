@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/taseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taseq
 latest:
-  1.0.0--pyh7e72e81_0: sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3
+  1.1.0--pyh7e72e81_0: sha256:004ce75a7e697df15e9cf674b8157c5f0dc475f2e57627e170a2bd152a2f70c9
 tags:
   1.0.0--pyh7e72e81_0: sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3
+  1.1.0--pyh7e72e81_0: sha256:004ce75a7e697df15e9cf674b8157c5f0dc475f2e57627e170a2bd152a2f70c9
 docker: quay.io/biocontainers/taseq
 aliases:
   taseq: /usr/local/bin/taseq
