@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-microseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-microseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-microseq/container.yaml"
-updated_at: "2024-12-03 04:08:32.265570"
+updated_at: "2024-12-04 03:11:15.832979"
 latest: "1.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-microseq"
 aliases:

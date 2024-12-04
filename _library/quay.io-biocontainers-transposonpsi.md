@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transposonpsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transposonpsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transposonpsi/container.yaml"
-updated_at: "2024-12-03 04:41:06.476800"
+updated_at: "2024-12-04 03:45:23.686632"
 latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/transposonpsi"
 aliases:

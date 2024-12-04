@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-io-compress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-compress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-compress/container.yaml"
-updated_at: "2024-12-03 04:07:51.083029"
-latest: "2.201--pl5321hdbdd923_2"
+updated_at: "2024-12-04 03:10:34.701686"
+latest: "2.201--pl5321hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/perl-io-compress"
 
 versions:
  - "2.201--pl5321h87f3376_0"
  - "2.201--pl5321hdbdd923_2"
+ - "2.201--pl5321hdbdd923_3"
 description: "shpc-registry automated BioContainers addition for perl-io-compress"
-config: {"url": "https://biocontainers.pro/tools/perl-io-compress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-compress", "latest": {"2.201--pl5321hdbdd923_2": "sha256:d3f3d12652640fb994d9e2c0fc875008589297a8c6f3bad7309a881b8e0988c1"}, "tags": {"2.201--pl5321h87f3376_0": "sha256:0144c44a01c57ac54b86676462335fe12620b7fdb2c25822e43c84a652448e79", "2.201--pl5321hdbdd923_2": "sha256:d3f3d12652640fb994d9e2c0fc875008589297a8c6f3bad7309a881b8e0988c1"}, "docker": "quay.io/biocontainers/perl-io-compress"}
+config: {"url": "https://biocontainers.pro/tools/perl-io-compress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-compress", "latest": {"2.201--pl5321hdbdd923_3": "sha256:d680197ec6fa3330032fa9efd1653a40c7f3bc6f9507a22dd30072fbd10be8d4"}, "tags": {"2.201--pl5321h87f3376_0": "sha256:0144c44a01c57ac54b86676462335fe12620b7fdb2c25822e43c84a652448e79", "2.201--pl5321hdbdd923_2": "sha256:d3f3d12652640fb994d9e2c0fc875008589297a8c6f3bad7309a881b8e0988c1", "2.201--pl5321hdbdd923_3": "sha256:d680197ec6fa3330032fa9efd1653a40c7f3bc6f9507a22dd30072fbd10be8d4"}, "docker": "quay.io/biocontainers/perl-io-compress"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-io-compress.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-io-compress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-io-compress:2.201--pl5321hdbdd923_2
+$ shpc install quay.io/biocontainers/perl-io-compress:2.201--pl5321hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-io-compress/2.201--pl5321hdbdd923_2
-$ module help quay.io/biocontainers/perl-io-compress/2.201--pl5321hdbdd923_2
+$ module load quay.io/biocontainers/perl-io-compress/2.201--pl5321hdbdd923_3
+$ module help quay.io/biocontainers/perl-io-compress/2.201--pl5321hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
