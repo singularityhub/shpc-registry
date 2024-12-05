@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/phabox
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phabox
 latest:
-  2.1.0--pyhdfd78af_0: sha256:45f9ca02600aaada1655a5c317c8014688b9e127ad6a347dce32b5bd2b1de3d9
+  2.1.7--pyhdfd78af_0: sha256:667a002486cab4490bd556871a81ffe82d89ae9db0dce361a02f93c5502d0e9d
 tags:
   2.0.0--pyh7e72e81_0: sha256:50ecc67dc9dbd7e950bf7e8d9e5d6081deec3bc43267a1fd42213d9a797c1713
   2.1.0--pyhdfd78af_0: sha256:45f9ca02600aaada1655a5c317c8014688b9e127ad6a347dce32b5bd2b1de3d9
+  2.1.7--pyhdfd78af_0: sha256:667a002486cab4490bd556871a81ffe82d89ae9db0dce361a02f93c5502d0e9d
 docker: quay.io/biocontainers/phabox
 aliases:
   Cherry_single: /usr/local/bin/Cherry_single

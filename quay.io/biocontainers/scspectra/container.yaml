@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scspectra
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scspectra
 latest:
-  0.2.0--pyhdfd78af_0: sha256:d4122618a77ce1238a4d32b15a047a0db6e87057fd030cee55164dfd628bcad5
+  0.2.1--pyhdfd78af_0: sha256:a3596ca9af0ebd98e3102fe55fe7adb9eb2e4b46d312839a1c0b5fc3fcd093f7
 tags:
   0.2.0--pyhdfd78af_0: sha256:d4122618a77ce1238a4d32b15a047a0db6e87057fd030cee55164dfd628bcad5
+  0.2.1--pyhdfd78af_0: sha256:a3596ca9af0ebd98e3102fe55fe7adb9eb2e4b46d312839a1c0b5fc3fcd093f7
 docker: quay.io/biocontainers/scspectra
 aliases:
   qconvex: /usr/local/bin/qconvex
