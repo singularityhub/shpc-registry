@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bigtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigtools/container.yaml"
-updated_at: "2024-12-04 03:22:49.307103"
-latest: "0.5.3--h715e4b3_0"
+updated_at: "2024-12-05 03:22:42.638622"
+latest: "0.5.4--h715e4b3_0"
 container_url: "https://biocontainers.pro/tools/bigtools"
 aliases:
  - "bedgraphtobigwig"
@@ -25,8 +25,9 @@ versions:
  - "0.5.1--h715e4b3_0"
  - "0.5.2--h715e4b3_0"
  - "0.5.3--h715e4b3_0"
+ - "0.5.4--h715e4b3_0"
 description: "singularity registry hpc automated addition for bigtools"
-config: {"url": "https://biocontainers.pro/tools/bigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigtools", "latest": {"0.5.3--h715e4b3_0": "sha256:ae720b65632c7c7e4e6f6bd67bfdc39ad338efcbeda0bab51072e99d531dba3a"}, "tags": {"0.4.1--h031d066_0": "sha256:64fba24fad37fd4d53321adddf46ec21a2de4028ecceb4f099f5434218f836f9", "0.4.2--h031d066_0": "sha256:84001d75d09d8b275336847bd1a57eb2b820f068e7c2fb40fdce30cddf1116e9", "0.4.3--h715e4b3_0": "sha256:b0694cd0b518efa0af32d43f74b02291fd9d29f896cec38da934a30b264d4df1", "0.5.1--h715e4b3_0": "sha256:61e1a0826b1aaa1f76d76a308b28f6871cf487665bd63a63d8486be26dd4724b", "0.5.2--h715e4b3_0": "sha256:ee9573c8ddf2a9cc2beb3cc2fe75e964279dca31f8a2eeed7df2f2c79a1ef742", "0.5.3--h715e4b3_0": "sha256:ae720b65632c7c7e4e6f6bd67bfdc39ad338efcbeda0bab51072e99d531dba3a"}, "docker": "quay.io/biocontainers/bigtools", "aliases": {"bedgraphtobigwig": "/usr/local/bin/bedgraphtobigwig", "bedtobigbed": "/usr/local/bin/bedtobigbed", "bigbedinfo": "/usr/local/bin/bigbedinfo", "bigbedtobed": "/usr/local/bin/bigbedtobed", "bigtools": "/usr/local/bin/bigtools", "bigwigaverageoverbed": "/usr/local/bin/bigwigaverageoverbed", "bigwiginfo": "/usr/local/bin/bigwiginfo", "bigwigmerge": "/usr/local/bin/bigwigmerge", "bigwigtobedgraph": "/usr/local/bin/bigwigtobedgraph", "bigwigvaluesoverbed": "/usr/local/bin/bigwigvaluesoverbed"}}
+config: {"url": "https://biocontainers.pro/tools/bigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigtools", "latest": {"0.5.4--h715e4b3_0": "sha256:335c686bdf72e0cf412fbfe37ea2f6dd72003c95ca8c9f1bae0e07319c4ec793"}, "tags": {"0.4.1--h031d066_0": "sha256:64fba24fad37fd4d53321adddf46ec21a2de4028ecceb4f099f5434218f836f9", "0.4.2--h031d066_0": "sha256:84001d75d09d8b275336847bd1a57eb2b820f068e7c2fb40fdce30cddf1116e9", "0.4.3--h715e4b3_0": "sha256:b0694cd0b518efa0af32d43f74b02291fd9d29f896cec38da934a30b264d4df1", "0.5.1--h715e4b3_0": "sha256:61e1a0826b1aaa1f76d76a308b28f6871cf487665bd63a63d8486be26dd4724b", "0.5.2--h715e4b3_0": "sha256:ee9573c8ddf2a9cc2beb3cc2fe75e964279dca31f8a2eeed7df2f2c79a1ef742", "0.5.3--h715e4b3_0": "sha256:ae720b65632c7c7e4e6f6bd67bfdc39ad338efcbeda0bab51072e99d531dba3a", "0.5.4--h715e4b3_0": "sha256:335c686bdf72e0cf412fbfe37ea2f6dd72003c95ca8c9f1bae0e07319c4ec793"}, "docker": "quay.io/biocontainers/bigtools", "aliases": {"bedgraphtobigwig": "/usr/local/bin/bedgraphtobigwig", "bedtobigbed": "/usr/local/bin/bedtobigbed", "bigbedinfo": "/usr/local/bin/bigbedinfo", "bigbedtobed": "/usr/local/bin/bigbedtobed", "bigtools": "/usr/local/bin/bigtools", "bigwigaverageoverbed": "/usr/local/bin/bigwigaverageoverbed", "bigwiginfo": "/usr/local/bin/bigwiginfo", "bigwigmerge": "/usr/local/bin/bigwigmerge", "bigwigtobedgraph": "/usr/local/bin/bigwigtobedgraph", "bigwigvaluesoverbed": "/usr/local/bin/bigwigvaluesoverbed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigtools.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bigtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bigtools:0.5.3--h715e4b3_0
+$ shpc install quay.io/biocontainers/bigtools:0.5.4--h715e4b3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bigtools/0.5.3--h715e4b3_0
-$ module help quay.io/biocontainers/bigtools/0.5.3--h715e4b3_0
+$ module load quay.io/biocontainers/bigtools/0.5.4--h715e4b3_0
+$ module help quay.io/biocontainers/bigtools/0.5.4--h715e4b3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

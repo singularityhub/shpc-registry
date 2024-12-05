@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lineagespot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lineagespot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lineagespot/container.yaml"
-updated_at: "2024-12-04 03:07:49.752966"
+updated_at: "2024-12-05 03:08:09.830390"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lineagespot"
 aliases:
