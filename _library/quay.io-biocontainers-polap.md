@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polap/container.yaml"
-updated_at: "2024-12-05 03:22:05.561040"
+updated_at: "2024-12-05 03:37:47.326473"
 latest: "0.3.7.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/polap"
 aliases:
