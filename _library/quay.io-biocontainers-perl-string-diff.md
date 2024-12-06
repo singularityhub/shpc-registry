@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-string-diff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-diff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-diff/container.yaml"
-updated_at: "2024-12-05 04:05:16.790212"
-latest: "0.07--pl5321hdfd78af_1"
+updated_at: "2024-12-06 03:47:02.462095"
+latest: "0.08--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-string-diff"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.07--pl5321hdfd78af_1"
+ - "0.08--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-string-diff"
-config: {"url": "https://biocontainers.pro/tools/perl-string-diff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-diff", "latest": {"0.07--pl5321hdfd78af_1": "sha256:d49df2f33579bf0a7319cfc3e6ed1033915d3a63801a683fa004277c630363e3"}, "tags": {"0.07--pl5321hdfd78af_1": "sha256:d49df2f33579bf0a7319cfc3e6ed1033915d3a63801a683fa004277c630363e3"}, "docker": "quay.io/biocontainers/perl-string-diff", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-string-diff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-diff", "latest": {"0.08--pl5321hdfd78af_0": "sha256:984ebafd196a34ed829fdbbcc4b24dc2fc70b2e0ea102e7e3cf8ec5c28c4e7a6"}, "tags": {"0.07--pl5321hdfd78af_1": "sha256:d49df2f33579bf0a7319cfc3e6ed1033915d3a63801a683fa004277c630363e3", "0.08--pl5321hdfd78af_0": "sha256:984ebafd196a34ed829fdbbcc4b24dc2fc70b2e0ea102e7e3cf8ec5c28c4e7a6"}, "docker": "quay.io/biocontainers/perl-string-diff", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-string-diff.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-string-diff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-string-diff:0.07--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-string-diff:0.08--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-string-diff/0.07--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-string-diff/0.07--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-string-diff/0.08--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-string-diff/0.08--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

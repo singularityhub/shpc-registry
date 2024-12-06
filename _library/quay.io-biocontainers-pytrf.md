@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrf/container.yaml"
-updated_at: "2024-12-05 04:07:33.258588"
-latest: "1.3.3--py312hf67a6ed_0"
+updated_at: "2024-12-06 03:49:18.762394"
+latest: "1.4.1--py312h0fa9677_0"
 container_url: "https://biocontainers.pro/tools/pytrf"
 aliases:
  - "pytrf"
@@ -22,8 +22,9 @@ versions:
  - "1.2.1--py39hf95cd2a_1"
  - "1.3.0--py310h7c593f9_1"
  - "1.3.3--py312hf67a6ed_0"
+ - "1.4.1--py312h0fa9677_0"
 description: "singularity registry hpc automated addition for pytrf"
-config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.3.3--py312hf67a6ed_0": "sha256:60d1a8495351a2b2eaf4620923a4210f52bdcccca5f2edaaf7d5086376203bb0"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d", "1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358", "1.3.0--py39hf95cd2a_0": "sha256:5703c1d5a142b1172ad8b1d267d6e969c598d9308606946ee1192fa81c07c42c", "1.2.1--py39hf95cd2a_1": "sha256:4c2cdd9aa2e0a0172bc0aed5fee498eb11a39553a207b0e26e1f946bc1f04c19", "1.3.0--py310h7c593f9_1": "sha256:ce15629125a658da109738ba81718f5c53edbd037163d86c46b946fa9689cfb1", "1.3.3--py312hf67a6ed_0": "sha256:60d1a8495351a2b2eaf4620923a4210f52bdcccca5f2edaaf7d5086376203bb0"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.4.1--py312h0fa9677_0": "sha256:bcd78e70030c44f2f0dea329ffbe1ec6624d40cf4f42712fddfbd66203e96d43"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d", "1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358", "1.3.0--py39hf95cd2a_0": "sha256:5703c1d5a142b1172ad8b1d267d6e969c598d9308606946ee1192fa81c07c42c", "1.2.1--py39hf95cd2a_1": "sha256:4c2cdd9aa2e0a0172bc0aed5fee498eb11a39553a207b0e26e1f946bc1f04c19", "1.3.0--py310h7c593f9_1": "sha256:ce15629125a658da109738ba81718f5c53edbd037163d86c46b946fa9689cfb1", "1.3.3--py312hf67a6ed_0": "sha256:60d1a8495351a2b2eaf4620923a4210f52bdcccca5f2edaaf7d5086376203bb0", "1.4.1--py312h0fa9677_0": "sha256:bcd78e70030c44f2f0dea329ffbe1ec6624d40cf4f42712fddfbd66203e96d43"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytrf.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pytrf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytrf:1.3.3--py312hf67a6ed_0
+$ shpc install quay.io/biocontainers/pytrf:1.4.1--py312h0fa9677_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytrf/1.3.3--py312hf67a6ed_0
-$ module help quay.io/biocontainers/pytrf/1.3.3--py312hf67a6ed_0
+$ module load quay.io/biocontainers/pytrf/1.4.1--py312h0fa9677_0
+$ module help quay.io/biocontainers/pytrf/1.4.1--py312h0fa9677_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spoa/container.yaml"
-updated_at: "2024-12-05 03:34:59.880289"
+updated_at: "2024-12-06 03:17:27.515622"
 latest: "4.1.4--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/spoa"
 aliases:

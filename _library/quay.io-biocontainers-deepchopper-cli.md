@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepchopper-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
-updated_at: "2024-12-05 03:44:09.900208"
-latest: "1.2.5--py310h77ce02f_0"
+updated_at: "2024-12-06 03:26:23.891217"
+latest: "1.2.6--py311hbbdcbde_0"
 container_url: "https://biocontainers.pro/tools/deepchopper-cli"
 aliases:
  - "deepchopper-chop"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.2.5--py310h77ce02f_0"
  - "1.2.5--py311hbbdcbde_0"
+ - "1.2.6--py311hbbdcbde_0"
 description: "singularity registry hpc automated addition for deepchopper-cli"
-config: {"url": "https://biocontainers.pro/tools/deepchopper-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepchopper-cli", "latest": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef"}, "tags": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef", "1.2.5--py311hbbdcbde_0": "sha256:3c27c10d314ec2d3b765c7793193abbe2617899c4a055a51bc683b26b5634f0b"}, "docker": "quay.io/biocontainers/deepchopper-cli", "aliases": {"deepchopper-chop": "/usr/local/bin/deepchopper-chop", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/deepchopper-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepchopper-cli", "latest": {"1.2.6--py311hbbdcbde_0": "sha256:ce203f9353082f9c5a59c3c841eada0a9123336ae07959869a3b0e8a32bbeec8"}, "tags": {"1.2.5--py310h77ce02f_0": "sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef", "1.2.5--py311hbbdcbde_0": "sha256:3c27c10d314ec2d3b765c7793193abbe2617899c4a055a51bc683b26b5634f0b", "1.2.6--py311hbbdcbde_0": "sha256:ce203f9353082f9c5a59c3c841eada0a9123336ae07959869a3b0e8a32bbeec8"}, "docker": "quay.io/biocontainers/deepchopper-cli", "aliases": {"deepchopper-chop": "/usr/local/bin/deepchopper-chop", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepchopper-cli.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/deepchopper-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepchopper-cli:1.2.5--py310h77ce02f_0
+$ shpc install quay.io/biocontainers/deepchopper-cli:1.2.6--py311hbbdcbde_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepchopper-cli/1.2.5--py310h77ce02f_0
-$ module help quay.io/biocontainers/deepchopper-cli/1.2.5--py310h77ce02f_0
+$ module load quay.io/biocontainers/deepchopper-cli/1.2.6--py311hbbdcbde_0
+$ module help quay.io/biocontainers/deepchopper-cli/1.2.6--py311hbbdcbde_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

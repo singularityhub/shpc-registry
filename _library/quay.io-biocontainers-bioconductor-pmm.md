@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pmm/container.yaml"
-updated_at: "2024-12-05 04:00:34.834968"
+updated_at: "2024-12-06 03:42:25.806730"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pmm"
 

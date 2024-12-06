@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scspectra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scspectra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scspectra/container.yaml"
-updated_at: "2024-12-05 03:59:27.412079"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2024-12-06 03:41:19.684968"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scspectra"
 aliases:
  - "qconvex"
@@ -35,8 +35,9 @@ aliases:
  - "lstopo"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scspectra"
-config: {"url": "https://biocontainers.pro/tools/scspectra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scspectra", "latest": {"0.2.0--pyhdfd78af_0": "sha256:d4122618a77ce1238a4d32b15a047a0db6e87057fd030cee55164dfd628bcad5"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:d4122618a77ce1238a4d32b15a047a0db6e87057fd030cee55164dfd628bcad5"}, "docker": "quay.io/biocontainers/scspectra", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "torchrun": "/usr/local/bin/torchrun", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
+config: {"url": "https://biocontainers.pro/tools/scspectra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scspectra", "latest": {"0.2.1--pyhdfd78af_0": "sha256:a3596ca9af0ebd98e3102fe55fe7adb9eb2e4b46d312839a1c0b5fc3fcd093f7"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:d4122618a77ce1238a4d32b15a047a0db6e87057fd030cee55164dfd628bcad5", "0.2.1--pyhdfd78af_0": "sha256:a3596ca9af0ebd98e3102fe55fe7adb9eb2e4b46d312839a1c0b5fc3fcd093f7"}, "docker": "quay.io/biocontainers/scspectra", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "torchrun": "/usr/local/bin/torchrun", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scspectra.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/scspectra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scspectra:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scspectra:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scspectra/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scspectra/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scspectra/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scspectra/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
