@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/survivor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/survivor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/survivor/container.yaml"
-updated_at: "2024-12-06 03:08:39.562106"
+updated_at: "2024-12-07 01:36:43.152021"
 latest: "1.0.7--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/survivor"
 aliases:

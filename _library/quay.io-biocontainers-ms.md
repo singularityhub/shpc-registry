@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms/container.yaml"
-updated_at: "2024-12-06 03:27:25.528204"
+updated_at: "2024-12-07 01:55:57.613971"
 latest: "2014_03_04--0"
 container_url: "https://biocontainers.pro/tools/ms"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnp-fourier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-fourier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-fourier/container.yaml"
-updated_at: "2024-12-06 03:37:16.862600"
+updated_at: "2024-12-07 02:06:10.447640"
 latest: "1.0--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/dnp-fourier"
 aliases:

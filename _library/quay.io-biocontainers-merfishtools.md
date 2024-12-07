@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merfishtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merfishtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merfishtools/container.yaml"
-updated_at: "2024-12-06 03:50:04.130015"
+updated_at: "2024-12-07 02:19:14.117521"
 latest: "1.5.0--py312hb511c5e_2"
 container_url: "https://biocontainers.pro/tools/merfishtools"
 aliases:

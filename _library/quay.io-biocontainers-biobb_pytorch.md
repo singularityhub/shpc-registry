@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_pytorch/container.yaml"
-updated_at: "2024-12-06 03:45:21.328437"
+updated_at: "2024-12-07 02:14:26.220486"
 latest: "4.2.1--pyhad2cae4_0"
 container_url: "https://biocontainers.pro/tools/biobb_pytorch"
 aliases:

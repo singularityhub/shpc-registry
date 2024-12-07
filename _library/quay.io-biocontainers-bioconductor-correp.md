@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-correp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-correp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-correp/container.yaml"
-updated_at: "2024-12-06 03:07:31.149520"
+updated_at: "2024-12-07 01:35:33.109454"
 latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-correp"
 
