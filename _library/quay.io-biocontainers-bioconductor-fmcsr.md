@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fmcsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fmcsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fmcsr/container.yaml"
-updated_at: "2024-12-07 01:44:20.962325"
+updated_at: "2024-12-07 03:15:15.946692"
 latest: "1.44.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fmcsr"
 aliases:

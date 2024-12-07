@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bio_assembly_refinement"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio_assembly_refinement/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio_assembly_refinement/container.yaml"
-updated_at: "2024-12-07 02:03:56.039223"
+updated_at: "2024-12-07 03:35:31.438032"
 latest: "0.5.1--py_2"
 container_url: "https://biocontainers.pro/tools/bio_assembly_refinement"
 aliases:

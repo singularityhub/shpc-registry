@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bgeecall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bgeecall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bgeecall/container.yaml"
-updated_at: "2024-12-07 01:38:38.250647"
+updated_at: "2024-12-07 03:09:17.154763"
 latest: "1.18.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bgeecall"
 aliases:

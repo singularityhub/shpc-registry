@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meningotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meningotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meningotype/container.yaml"
-updated_at: "2024-12-07 01:46:41.293210"
+updated_at: "2024-12-07 03:17:39.473421"
 latest: "0.8.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/meningotype"
 aliases:

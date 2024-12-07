@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gep2pep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gep2pep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gep2pep/container.yaml"
-updated_at: "2024-12-07 01:48:10.760972"
+updated_at: "2024-12-07 03:19:11.195709"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gep2pep"
 aliases:

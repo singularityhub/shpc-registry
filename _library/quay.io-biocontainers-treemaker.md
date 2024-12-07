@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treemaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treemaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treemaker/container.yaml"
-updated_at: "2024-12-07 02:04:09.722370"
+updated_at: "2024-12-07 03:35:45.003134"
 latest: "1.4--pyh9f0ad1d_0"
 container_url: "https://biocontainers.pro/tools/treemaker"
 aliases:

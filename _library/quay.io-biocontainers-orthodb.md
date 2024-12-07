@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthodb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthodb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthodb/container.yaml"
-updated_at: "2024-12-07 02:05:54.159523"
+updated_at: "2024-12-07 03:37:28.635333"
 latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orthodb"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/conduit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/conduit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/conduit/container.yaml"
-updated_at: "2024-12-07 01:30:58.822946"
+updated_at: "2024-12-07 03:01:10.480067"
 latest: "0.7.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/conduit"
 aliases:
