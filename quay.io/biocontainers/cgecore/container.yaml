@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cgecore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgecore
 latest:
-  1.5.6--pyh3252c3a_0: sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700
+  2.0.0--pyhdfd78af_0: sha256:7be541821fb1a26fc37bb99dfc778beb4d9df2fef14618b8deff43b2eb613aab
 tags:
   1.5.6--pyh3252c3a_0: sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700
+  2.0.0--pyhdfd78af_0: sha256:7be541821fb1a26fc37bb99dfc778beb4d9df2fef14618b8deff43b2eb613aab
 docker: quay.io/biocontainers/cgecore
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

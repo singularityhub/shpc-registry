@@ -5,6 +5,7 @@ latest:
   0.25.1--py310hddbaf4e_0: sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35
 tags:
   0.25.1--py310hddbaf4e_0: sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35
+  0.25.1--py38hf32e4b1_0: sha256:2ffc2f0cc4da9e88067cf52dbcd1620cfec14c4b0ff9995b71059caa0f0ca1e0
 docker: quay.io/biocontainers/tttrlib
 aliases:
   tttrlib: /usr/local/bin/tttrlib

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/piawka
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for piawka
 latest:
-  0.8.8--hdfd78af_0: sha256:67ea298a691a4a216224357c93cb4e20450318e256bc5e3b81d7f99c6ee27cd0
+  0.8.9--hdfd78af_0: sha256:d89dcc1f8d17769bab4c3c1ef5ebdf147c00f9e816c70bcc27d9cbeeb4d82626
 tags:
   0.7.10--hdfd78af_0: sha256:d29ebab4fe7aa9adbb0aaa33d7d3ccb9db02df435046de568238e185f21e70db
   0.8.8--hdfd78af_0: sha256:67ea298a691a4a216224357c93cb4e20450318e256bc5e3b81d7f99c6ee27cd0
+  0.8.9--hdfd78af_0: sha256:d89dcc1f8d17769bab4c3c1ef5ebdf147c00f9e816c70bcc27d9cbeeb4d82626
 docker: quay.io/biocontainers/piawka
 aliases:
   aggregate_regions.awk: /usr/local/bin/aggregate_regions.awk

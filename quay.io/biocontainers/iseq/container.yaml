@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/iseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for iseq
 latest:
-  1.2.0--hdfd78af_1: sha256:69272c86565a0f420d7d8781a6891de092d2dc60114ffe6747f705bc46fab98f
+  1.3.0--hdfd78af_0: sha256:45f763ba9289c62929c4a12de9c9dea7bba06e5a16995086cc11f1f4716ac242
 tags:
   1.0.0--hdfd78af_0: sha256:e4fec9ddb37d5445eba0fc2e5cd45e03d910fa56b406f2b7329055f101ed860e
   1.1.0--hdfd78af_0: sha256:4f83d76a233222a8b644a59138149d581230e3aa077f32e2af865692af9fc968
   1.2.0--hdfd78af_1: sha256:69272c86565a0f420d7d8781a6891de092d2dc60114ffe6747f705bc46fab98f
+  1.3.0--hdfd78af_0: sha256:45f763ba9289c62929c4a12de9c9dea7bba06e5a16995086cc11f1f4716ac242
 docker: quay.io/biocontainers/iseq
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
