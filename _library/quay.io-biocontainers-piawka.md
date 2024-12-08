@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piawka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piawka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piawka/container.yaml"
-updated_at: "2024-12-07 03:40:40.868233"
-latest: "0.8.8--hdfd78af_0"
+updated_at: "2024-12-08 03:46:41.904757"
+latest: "0.8.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piawka"
 aliases:
  - "aggregate_regions.awk"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "0.7.10--hdfd78af_0"
  - "0.8.8--hdfd78af_0"
+ - "0.8.9--hdfd78af_0"
 description: "singularity registry hpc automated addition for piawka"
-config: {"url": "https://biocontainers.pro/tools/piawka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piawka", "latest": {"0.8.8--hdfd78af_0": "sha256:67ea298a691a4a216224357c93cb4e20450318e256bc5e3b81d7f99c6ee27cd0"}, "tags": {"0.7.10--hdfd78af_0": "sha256:d29ebab4fe7aa9adbb0aaa33d7d3ccb9db02df435046de568238e185f21e70db", "0.8.8--hdfd78af_0": "sha256:67ea298a691a4a216224357c93cb4e20450318e256bc5e3b81d7f99c6ee27cd0"}, "docker": "quay.io/biocontainers/piawka", "aliases": {"aggregate_regions.awk": "/usr/local/bin/aggregate_regions.awk", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "mawk": "/usr/local/bin/mawk", "piawka": "/usr/local/bin/piawka", "piawka_par.sh": "/usr/local/bin/piawka_par.sh", "summarize_blks.awk": "/usr/local/bin/summarize_blks.awk", "annot-tsv": "/usr/local/bin/annot-tsv", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/piawka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piawka", "latest": {"0.8.9--hdfd78af_0": "sha256:d89dcc1f8d17769bab4c3c1ef5ebdf147c00f9e816c70bcc27d9cbeeb4d82626"}, "tags": {"0.7.10--hdfd78af_0": "sha256:d29ebab4fe7aa9adbb0aaa33d7d3ccb9db02df435046de568238e185f21e70db", "0.8.8--hdfd78af_0": "sha256:67ea298a691a4a216224357c93cb4e20450318e256bc5e3b81d7f99c6ee27cd0", "0.8.9--hdfd78af_0": "sha256:d89dcc1f8d17769bab4c3c1ef5ebdf147c00f9e816c70bcc27d9cbeeb4d82626"}, "docker": "quay.io/biocontainers/piawka", "aliases": {"aggregate_regions.awk": "/usr/local/bin/aggregate_regions.awk", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "mawk": "/usr/local/bin/mawk", "piawka": "/usr/local/bin/piawka", "piawka_par.sh": "/usr/local/bin/piawka_par.sh", "summarize_blks.awk": "/usr/local/bin/summarize_blks.awk", "annot-tsv": "/usr/local/bin/annot-tsv", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piawka.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/piawka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piawka:0.8.8--hdfd78af_0
+$ shpc install quay.io/biocontainers/piawka:0.8.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piawka/0.8.8--hdfd78af_0
-$ module help quay.io/biocontainers/piawka/0.8.8--hdfd78af_0
+$ module load quay.io/biocontainers/piawka/0.8.9--hdfd78af_0
+$ module help quay.io/biocontainers/piawka/0.8.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

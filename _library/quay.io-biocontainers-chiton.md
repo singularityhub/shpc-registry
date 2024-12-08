@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chiton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chiton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chiton/container.yaml"
-updated_at: "2024-12-07 03:48:31.428803"
+updated_at: "2024-12-08 03:54:00.943425"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chiton"
 aliases:

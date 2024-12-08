@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sagenhaft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sagenhaft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sagenhaft/container.yaml"
-updated_at: "2024-12-07 03:42:44.406673"
+updated_at: "2024-12-08 03:48:15.346630"
 latest: "1.72.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sagenhaft"
 

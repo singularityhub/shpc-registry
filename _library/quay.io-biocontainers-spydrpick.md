@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spydrpick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spydrpick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spydrpick/container.yaml"
-updated_at: "2024-12-07 03:07:42.382667"
+updated_at: "2024-12-08 03:15:25.014181"
 latest: "1.2.0--h78a066a_0"
 container_url: "https://biocontainers.pro/tools/spydrpick"
 aliases:

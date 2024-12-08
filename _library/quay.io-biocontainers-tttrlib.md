@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tttrlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tttrlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tttrlib/container.yaml"
-updated_at: "2024-12-07 03:26:28.715639"
+updated_at: "2024-12-08 03:33:14.118849"
 latest: "0.25.1--py310hddbaf4e_0"
 container_url: "https://biocontainers.pro/tools/tttrlib"
 aliases:
@@ -36,8 +36,9 @@ aliases:
  - "qvoronoi"
 versions:
  - "0.25.1--py310hddbaf4e_0"
+ - "0.25.1--py38hf32e4b1_0"
 description: "singularity registry hpc automated addition for tttrlib"
-config: {"url": "https://biocontainers.pro/tools/tttrlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tttrlib", "latest": {"0.25.1--py310hddbaf4e_0": "sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35"}, "tags": {"0.25.1--py310hddbaf4e_0": "sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35"}, "docker": "quay.io/biocontainers/tttrlib", "aliases": {"tttrlib": "/usr/local/bin/tttrlib", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/tttrlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tttrlib", "latest": {"0.25.1--py310hddbaf4e_0": "sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35"}, "tags": {"0.25.1--py310hddbaf4e_0": "sha256:4065eae1f842ba21d920cb5a1716a16d1905ecdada0ac3e8313e483c6cfddb35", "0.25.1--py38hf32e4b1_0": "sha256:2ffc2f0cc4da9e88067cf52dbcd1620cfec14c4b0ff9995b71059caa0f0ca1e0"}, "docker": "quay.io/biocontainers/tttrlib", "aliases": {"tttrlib": "/usr/local/bin/tttrlib", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tttrlib.

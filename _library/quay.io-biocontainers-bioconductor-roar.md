@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roar/container.yaml"
-updated_at: "2024-12-07 03:34:17.398093"
+updated_at: "2024-12-08 03:40:37.684551"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roar"
 aliases:

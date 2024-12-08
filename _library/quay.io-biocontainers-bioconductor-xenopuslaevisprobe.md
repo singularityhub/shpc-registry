@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xenopuslaevisprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xenopuslaevisprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xenopuslaevisprobe/container.yaml"
-updated_at: "2024-12-07 03:39:17.316686"
+updated_at: "2024-12-08 03:45:36.703042"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-xenopuslaevisprobe"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pathogen-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogen-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogen-profiler/container.yaml"
-updated_at: "2024-12-07 03:08:42.169513"
-latest: "4.5.0--pyh7e72e81_1"
+updated_at: "2024-12-08 03:16:20.857983"
+latest: "4.6.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pathogen-profiler"
 aliases:
  - "add_dummy_AD.py"
@@ -44,8 +44,10 @@ versions:
  - "4.3.0--pyh7e72e81_0"
  - "4.4.0--pyh7e72e81_0"
  - "4.5.0--pyh7e72e81_1"
+ - "4.6.0--pyh7e72e81_0"
+ - "4.5.1--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for pathogen-profiler"
-config: {"url": "https://biocontainers.pro/tools/pathogen-profiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathogen-profiler", "latest": {"4.5.0--pyh7e72e81_1": "sha256:93e804bb0398033f5b4befb1e8ab043b467578101dffb73ffe65626f6c9a42d0"}, "tags": {"2.0.1--pypyh5e36f6f_0": "sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2", "2.0.2--pyh7cba7a3_0": "sha256:43b6643d6e3922b88665fe53839f6498b3e767cac488f5cab16f0f00d7b1b17b", "2.0.2--pyh7cba7a3_1": "sha256:8c16c31c6e029645abacdc1ca9a9b019596b6df6bc9d970beeebe9bec5326a4d", "2.0.4--pyh7cba7a3_0": "sha256:96d2df698f5ed3b3434375e4d44db4d98e4ee599f9a84064163b8621e1ed8a3b", "2.0.4--pyh7cba7a3_1": "sha256:0a1051d35b54210269bd7d4adab75f7e9fc89148aa26ca0dc1ab29de187232e8", "3.0.0--pyh7cba7a3_0": "sha256:6412a9cc6114f2051271262ce213154f77dd318bea3ef4bd48a82e985876f2f1", "3.1.0--pyh7cba7a3_0": "sha256:a08a1a64bac5f951123228fd4263b438f3c5fc47d7a2e0129d7121ca717fb90a", "4.1.0--pyh7cba7a3_0": "sha256:55fe3ded3e877e341e3bd0dc70acd5dfa0ae7eed1046a24831fe5f7388b8a3a3", "4.0.0--pyh7cba7a3_0": "sha256:7d01dde3e4c6436e22e91212e7d8c92fc79a008fdcaebbd7e0566fe7501efed7", "4.2.0--pyh7cba7a3_0": "sha256:504b094db3d211b28dbc256e8ccd5decbfdb90d2880b3c539f80278ae662b1d6", "4.2.0--pyh7e72e81_1": "sha256:b1de54a8ed6fe2a5324417b867666cbb99fbfc85896272f09b57e02d20c6d0fa", "4.3.0--pyh7e72e81_0": "sha256:ef57351fe5274ea6a3ef0125239bab85c28962964cf80764e1cda1768fcaf502", "4.4.0--pyh7e72e81_0": "sha256:24334b22f0aa992f4980b1539e3d9ca99c72dbb8cffb871a128a7d4ac4877e22", "4.5.0--pyh7e72e81_1": "sha256:93e804bb0398033f5b4befb1e8ab043b467578101dffb73ffe65626f6c9a42d0"}, "docker": "quay.io/biocontainers/pathogen-profiler", "aliases": {"add_dummy_AD.py": "/usr/local/bin/add_dummy_AD.py", "combine_vcf_variants.py": "/usr/local/bin/combine_vcf_variants.py", "delly": "/usr/local/bin/delly", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "rename_vcf_chrom.py": "/usr/local/bin/rename_vcf_chrom.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "gatk": "/usr/local/bin/gatk", "pilon": "/usr/local/bin/pilon", "tabix++": "/usr/local/bin/tabix++", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk"}}
+config: {"url": "https://biocontainers.pro/tools/pathogen-profiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathogen-profiler", "latest": {"4.6.0--pyh7e72e81_0": "sha256:872052ca817767656e6364c41a5ecf5319f4003a62e2a9383751dc6951104ddb"}, "tags": {"2.0.1--pypyh5e36f6f_0": "sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2", "2.0.2--pyh7cba7a3_0": "sha256:43b6643d6e3922b88665fe53839f6498b3e767cac488f5cab16f0f00d7b1b17b", "2.0.2--pyh7cba7a3_1": "sha256:8c16c31c6e029645abacdc1ca9a9b019596b6df6bc9d970beeebe9bec5326a4d", "2.0.4--pyh7cba7a3_0": "sha256:96d2df698f5ed3b3434375e4d44db4d98e4ee599f9a84064163b8621e1ed8a3b", "2.0.4--pyh7cba7a3_1": "sha256:0a1051d35b54210269bd7d4adab75f7e9fc89148aa26ca0dc1ab29de187232e8", "3.0.0--pyh7cba7a3_0": "sha256:6412a9cc6114f2051271262ce213154f77dd318bea3ef4bd48a82e985876f2f1", "3.1.0--pyh7cba7a3_0": "sha256:a08a1a64bac5f951123228fd4263b438f3c5fc47d7a2e0129d7121ca717fb90a", "4.1.0--pyh7cba7a3_0": "sha256:55fe3ded3e877e341e3bd0dc70acd5dfa0ae7eed1046a24831fe5f7388b8a3a3", "4.0.0--pyh7cba7a3_0": "sha256:7d01dde3e4c6436e22e91212e7d8c92fc79a008fdcaebbd7e0566fe7501efed7", "4.2.0--pyh7cba7a3_0": "sha256:504b094db3d211b28dbc256e8ccd5decbfdb90d2880b3c539f80278ae662b1d6", "4.2.0--pyh7e72e81_1": "sha256:b1de54a8ed6fe2a5324417b867666cbb99fbfc85896272f09b57e02d20c6d0fa", "4.3.0--pyh7e72e81_0": "sha256:ef57351fe5274ea6a3ef0125239bab85c28962964cf80764e1cda1768fcaf502", "4.4.0--pyh7e72e81_0": "sha256:24334b22f0aa992f4980b1539e3d9ca99c72dbb8cffb871a128a7d4ac4877e22", "4.5.0--pyh7e72e81_1": "sha256:93e804bb0398033f5b4befb1e8ab043b467578101dffb73ffe65626f6c9a42d0", "4.6.0--pyh7e72e81_0": "sha256:872052ca817767656e6364c41a5ecf5319f4003a62e2a9383751dc6951104ddb", "4.5.1--pyh7e72e81_0": "sha256:62606867c80deebd083a52660b0aca7ed5e5ae4ec1c6ab4cb4db2fef6aed6200"}, "docker": "quay.io/biocontainers/pathogen-profiler", "aliases": {"add_dummy_AD.py": "/usr/local/bin/add_dummy_AD.py", "combine_vcf_variants.py": "/usr/local/bin/combine_vcf_variants.py", "delly": "/usr/local/bin/delly", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "rename_vcf_chrom.py": "/usr/local/bin/rename_vcf_chrom.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "gatk": "/usr/local/bin/gatk", "pilon": "/usr/local/bin/pilon", "tabix++": "/usr/local/bin/tabix++", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathogen-profiler.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/pathogen-profiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pathogen-profiler:4.5.0--pyh7e72e81_1
+$ shpc install quay.io/biocontainers/pathogen-profiler:4.6.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pathogen-profiler/4.5.0--pyh7e72e81_1
-$ module help quay.io/biocontainers/pathogen-profiler/4.5.0--pyh7e72e81_1
+$ module load quay.io/biocontainers/pathogen-profiler/4.6.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/pathogen-profiler/4.6.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

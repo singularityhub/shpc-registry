@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcsscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcsscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcsscore/container.yaml"
-updated_at: "2024-12-07 03:32:49.860302"
+updated_at: "2024-12-08 03:39:13.402957"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcsscore"
 

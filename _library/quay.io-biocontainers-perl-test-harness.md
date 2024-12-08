@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-harness"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-harness/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-harness/container.yaml"
-updated_at: "2024-12-07 03:17:18.906421"
+updated_at: "2024-12-08 03:24:31.368830"
 latest: "3.44--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-harness"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iseeindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iseeindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iseeindex/container.yaml"
-updated_at: "2024-12-07 03:43:14.957087"
+updated_at: "2024-12-08 03:48:45.344822"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iseeindex"
 aliases:

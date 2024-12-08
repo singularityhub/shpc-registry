@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sigcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigcheck/container.yaml"
-updated_at: "2024-12-07 03:12:21.099858"
+updated_at: "2024-12-08 03:19:45.428438"
 latest: "2.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigcheck"
 

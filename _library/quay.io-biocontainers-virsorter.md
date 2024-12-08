@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virsorter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virsorter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virsorter/container.yaml"
-updated_at: "2024-12-07 03:17:19.786945"
-latest: "2.2.4--pyhdfd78af_1"
+updated_at: "2024-12-08 03:24:32.230708"
+latest: "2.2.4--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/virsorter"
 aliases:
  - "bsdcat"
@@ -34,8 +34,9 @@ versions:
  - "2.2.3--pyhdfd78af_1"
  - "2.2.4--pyhdfd78af_0"
  - "2.2.4--pyhdfd78af_1"
+ - "2.2.4--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for virsorter"
-config: {"url": "https://biocontainers.pro/tools/virsorter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for virsorter", "latest": {"2.2.4--pyhdfd78af_1": "sha256:6905002e63495434a19b776ebc7798f7c062ea2ec497fd104dbbae5048be99c8"}, "tags": {"2.2.3--pyhdfd78af_1": "sha256:a2851ba18ac125181526e95b891621660a304c5736f7beff5016117333759874", "2.2.4--pyhdfd78af_0": "sha256:6c575e0fe01bee3f99daf2281c864923bd5fdecb9e659dcdde4a245678eacbf5", "2.2.4--pyhdfd78af_1": "sha256:6905002e63495434a19b776ebc7798f7c062ea2ec497fd104dbbae5048be99c8"}, "docker": "quay.io/biocontainers/virsorter", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "virsorter": "/usr/local/bin/virsorter", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "pulptest": "/usr/local/bin/pulptest"}}
+config: {"url": "https://biocontainers.pro/tools/virsorter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for virsorter", "latest": {"2.2.4--pyhdfd78af_2": "sha256:9b98a64f5b3bfce78ad1492d1ff4a7e29c20543f8cd02402aeaf8ccb461a7fa4"}, "tags": {"2.2.3--pyhdfd78af_1": "sha256:a2851ba18ac125181526e95b891621660a304c5736f7beff5016117333759874", "2.2.4--pyhdfd78af_0": "sha256:6c575e0fe01bee3f99daf2281c864923bd5fdecb9e659dcdde4a245678eacbf5", "2.2.4--pyhdfd78af_1": "sha256:6905002e63495434a19b776ebc7798f7c062ea2ec497fd104dbbae5048be99c8", "2.2.4--pyhdfd78af_2": "sha256:9b98a64f5b3bfce78ad1492d1ff4a7e29c20543f8cd02402aeaf8ccb461a7fa4"}, "docker": "quay.io/biocontainers/virsorter", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "virsorter": "/usr/local/bin/virsorter", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "pulptest": "/usr/local/bin/pulptest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virsorter.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/virsorter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virsorter:2.2.4--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/virsorter:2.2.4--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virsorter/2.2.4--pyhdfd78af_1
-$ module help quay.io/biocontainers/virsorter/2.2.4--pyhdfd78af_1
+$ module load quay.io/biocontainers/virsorter/2.2.4--pyhdfd78af_2
+$ module help quay.io/biocontainers/virsorter/2.2.4--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
