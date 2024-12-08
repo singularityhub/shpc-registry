@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/halfdeep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for halfdeep
 latest:
-  0.1.0--hdfd78af_0: sha256:4349f8fee359f24fc6ce37d5769692b0e7659e1949a733a8ebaf3f5e01091f3a
+  0.1.0--hdfd78af_1: sha256:f5204cc16fa0c675d4f9f329b087e5a3d6e242913ec08f5dcbfa69f610ce9841
 tags:
   0.1.0--hdfd78af_0: sha256:4349f8fee359f24fc6ce37d5769692b0e7659e1949a733a8ebaf3f5e01091f3a
+  0.1.0--hdfd78af_1: sha256:f5204cc16fa0c675d4f9f329b087e5a3d6e242913ec08f5dcbfa69f610ce9841
 docker: quay.io/biocontainers/halfdeep
 aliases:
   bam_depth.sh: /usr/local/bin/bam_depth.sh

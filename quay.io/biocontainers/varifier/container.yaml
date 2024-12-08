@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/varifier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for varifier
 latest:
-  0.3.1--pyhdfd78af_0: sha256:ad822cf6f08e12986c5bc1a7d2819695728a6ddd749ccb76ad34f202a52bf669
+  0.4.0--pyhdfd78af_0: sha256:69d4d4c18b6006cdbe3929d4fee53aaf40cfd2fdff3eb0c47720fc278c4c84b6
 tags:
   0.3.1--pyhdfd78af_0: sha256:ad822cf6f08e12986c5bc1a7d2819695728a6ddd749ccb76ad34f202a52bf669
+  0.4.0--pyhdfd78af_0: sha256:69d4d4c18b6006cdbe3929d4fee53aaf40cfd2fdff3eb0c47720fc278c4c84b6
 docker: quay.io/biocontainers/varifier
 aliases:
   delta2vcf: /usr/local/bin/delta2vcf

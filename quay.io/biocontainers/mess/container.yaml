@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mess
 latest:
-  0.9.0--pyhdfd78af_1: sha256:2c354d0b9e83f43c0506257db3c2a8045fe6b0db27e8ebcb92efe1eae6725f9a
+  0.10.0--pyhdfd78af_0: sha256:2b8845546facf6edcf161e7e4c5e11078efe5d15efa41cf711450e2e22fe70b7
 tags:
   v0.2.1--pyhdfd78af_0: sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581
   0.2.2--pyhdfd78af_0: sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74
@@ -11,6 +11,8 @@ tags:
   0.9.0--pyhdfd78af_0: sha256:1e70b244495418f6fb1a8ec8ca34ed67750e367d692e6f705927b0a932bbb4a6
   0.8.3--pyhdfd78af_1: sha256:6bfe5ae7647a45e0a18f64c5cfb275b61f2e0f82bb2fad8ecf427385b13d373d
   0.9.0--pyhdfd78af_1: sha256:2c354d0b9e83f43c0506257db3c2a8045fe6b0db27e8ebcb92efe1eae6725f9a
+  0.10.0--pyhdfd78af_0: sha256:2b8845546facf6edcf161e7e4c5e11078efe5d15efa41cf711450e2e22fe70b7
+  0.9.0--pyhdfd78af_2: sha256:060bd2df81e1c9054287a35611a5736255e6b4ec5e52dd0ee5ff170979cd1766
 docker: quay.io/biocontainers/mess
 aliases:
   mess: /usr/local/bin/mess
