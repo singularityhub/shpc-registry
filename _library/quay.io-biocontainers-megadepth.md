@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megadepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megadepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megadepth/container.yaml"
-updated_at: "2024-12-08 03:28:12.755718"
+updated_at: "2024-12-09 03:26:53.600060"
 latest: "1.2.0--h43eeafb_6"
 container_url: "https://biocontainers.pro/tools/megadepth"
 aliases:

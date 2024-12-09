@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/prodigal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/prodigal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/prodigal/container.yaml"
-updated_at: "2024-12-08 03:10:05.624641"
+updated_at: "2024-12-09 03:08:08.140942"
 latest: "2.6.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/prodigal"
 aliases:

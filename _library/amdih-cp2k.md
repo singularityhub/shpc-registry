@@ -4,7 +4,7 @@ name:  "amdih/cp2k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/cp2k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/cp2k/container.yaml"
-updated_at: "2024-12-08 03:09:10.849871"
+updated_at: "2024-12-09 03:07:12.298330"
 latest: "2022.2.amd3"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/cp2k"
 aliases:

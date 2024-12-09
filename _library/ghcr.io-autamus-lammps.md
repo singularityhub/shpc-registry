@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/lammps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/lammps/container.yaml"
-updated_at: "2024-12-08 03:09:13.683119"
+updated_at: "2024-12-09 03:07:15.190939"
 latest: "20220623"
 container_url: "https://github.com/orgs/autamus/packages/container/package/lammps"
 

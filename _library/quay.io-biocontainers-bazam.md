@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bazam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bazam/container.yaml"
-updated_at: "2024-12-08 03:47:32.235173"
+updated_at: "2024-12-09 03:46:44.562229"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bazam"
 aliases:

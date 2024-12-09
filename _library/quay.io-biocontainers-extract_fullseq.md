@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract_fullseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_fullseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_fullseq/container.yaml"
-updated_at: "2024-12-08 03:40:14.783347"
+updated_at: "2024-12-09 03:39:21.120961"
 latest: "3.101--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/extract_fullseq"
 aliases:

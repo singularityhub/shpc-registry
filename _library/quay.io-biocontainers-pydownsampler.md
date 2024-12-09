@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydownsampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydownsampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydownsampler/container.yaml"
-updated_at: "2024-12-08 03:28:23.833607"
+updated_at: "2024-12-09 03:27:04.982743"
 latest: "1.0--py_0"
 container_url: "https://biocontainers.pro/tools/pydownsampler"
 aliases:

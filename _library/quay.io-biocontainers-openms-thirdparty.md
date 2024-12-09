@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openms-thirdparty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openms-thirdparty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openms-thirdparty/container.yaml"
-updated_at: "2024-12-08 03:38:31.254269"
+updated_at: "2024-12-09 03:37:36.193678"
 latest: "3.2.0--h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/openms-thirdparty"
 aliases:

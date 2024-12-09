@@ -4,7 +4,7 @@ name:  "amdih/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/lammps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/lammps/container.yaml"
-updated_at: "2024-12-08 03:09:10.002203"
+updated_at: "2024-12-09 03:07:11.436029"
 latest: "2022.5.04_130"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/lammps"
 aliases:

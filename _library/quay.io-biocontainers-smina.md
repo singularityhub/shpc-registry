@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smina/container.yaml"
-updated_at: "2024-12-08 03:32:59.365211"
+updated_at: "2024-12-09 03:31:50.919113"
 latest: "2017.11.9--0"
 container_url: "https://biocontainers.pro/tools/smina"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rsem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsem/container.yaml"
-updated_at: "2024-12-08 03:12:01.921076"
-latest: "1.3.3--pl5321h0033a41_7"
+updated_at: "2024-12-09 03:10:08.806372"
+latest: "1.3.3--pl5321h43eeafb_9"
 container_url: "https://biocontainers.pro/tools/rsem"
 aliases:
  - "bigWigSummary"
@@ -53,8 +53,9 @@ versions:
  - "1.3.3--pl5321ha04fe3b_5"
  - "1.3.3--pl5321h6b7c446_6"
  - "1.3.3--pl5321h0033a41_7"
+ - "1.3.3--pl5321h43eeafb_9"
 description: "shpc-registry automated BioContainers addition for rsem"
-config: {"url": "https://biocontainers.pro/tools/rsem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsem", "latest": {"1.3.3--pl5321h0033a41_7": "sha256:4d71359d148fed821f557ee737fb3766aaae636e61981c15868bbd102c1e4ddc"}, "tags": {"1.3.3--pl5321ha04fe3b_5": "sha256:e436327fa9811f86220f4ee4dc5da42a75b84c2ddc4307478452fa085cf18a29", "1.3.3--pl5321h6b7c446_6": "sha256:d12e10de995173cc4e0c806746f30363b7ef99cf8d964da2d6a7653bd3068544", "1.3.3--pl5321h0033a41_7": "sha256:4d71359d148fed821f557ee737fb3766aaae636e61981c15868bbd102c1e4ddc"}, "docker": "quay.io/biocontainers/rsem", "aliases": {"bigWigSummary": "/usr/local/bin/bigWigSummary", "convert-sam-for-rsem": "/usr/local/bin/convert-sam-for-rsem", "extract-transcript-to-gene-map-from-trinity": "/usr/local/bin/extract-transcript-to-gene-map-from-trinity", "rsem-bam2readdepth": "/usr/local/bin/rsem-bam2readdepth", "rsem-bam2wig": "/usr/local/bin/rsem-bam2wig", "rsem-build-read-index": "/usr/local/bin/rsem-build-read-index", "rsem-calculate-credibility-intervals": "/usr/local/bin/rsem-calculate-credibility-intervals", "rsem-calculate-expression": "/usr/local/bin/rsem-calculate-expression", "rsem-control-fdr": "/usr/local/bin/rsem-control-fdr", "rsem-extract-reference-transcripts": "/usr/local/bin/rsem-extract-reference-transcripts", "rsem-for-ebseq-calculate-clustering-info": "/usr/local/bin/rsem-for-ebseq-calculate-clustering-info", "rsem-for-ebseq-find-DE": "/usr/local/bin/rsem-for-ebseq-find-DE", "rsem-for-ebseq-generate-ngvector-from-clustering-info": "/usr/local/bin/rsem-for-ebseq-generate-ngvector-from-clustering-info", "rsem-gen-transcript-plots": "/usr/local/bin/rsem-gen-transcript-plots", "rsem-generate-data-matrix": "/usr/local/bin/rsem-generate-data-matrix", "rsem-get-unique": "/usr/local/bin/rsem-get-unique", "rsem-gff3-to-gtf": "/usr/local/bin/rsem-gff3-to-gtf", "rsem-parse-alignments": "/usr/local/bin/rsem-parse-alignments", "rsem-plot-model": "/usr/local/bin/rsem-plot-model", "rsem-plot-transcript-wiggles": "/usr/local/bin/rsem-plot-transcript-wiggles", "rsem-prepare-reference": "/usr/local/bin/rsem-prepare-reference", "rsem-preref": "/usr/local/bin/rsem-preref", "rsem-refseq-extract-primary-assembly": "/usr/local/bin/rsem-refseq-extract-primary-assembly", "rsem-run-ebseq": "/usr/local/bin/rsem-run-ebseq", "rsem-run-em": "/usr/local/bin/rsem-run-em", "rsem-run-gibbs": "/usr/local/bin/rsem-run-gibbs", "rsem-sam-validator": "/usr/local/bin/rsem-sam-validator", "rsem-scan-for-paired-end-reads": "/usr/local/bin/rsem-scan-for-paired-end-reads", "rsem-simulate-reads": "/usr/local/bin/rsem-simulate-reads", "rsem-synthesis-reference-transcripts": "/usr/local/bin/rsem-synthesis-reference-transcripts", "rsem-tbam2gbam": "/usr/local/bin/rsem-tbam2gbam", "config_data": "/usr/local/bin/config_data", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/rsem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsem", "latest": {"1.3.3--pl5321h43eeafb_9": "sha256:43bee13865dad4979eabb64ba0ce45ab79f4b15a4b377360dcd1dbbe2e37bc92"}, "tags": {"1.3.3--pl5321ha04fe3b_5": "sha256:e436327fa9811f86220f4ee4dc5da42a75b84c2ddc4307478452fa085cf18a29", "1.3.3--pl5321h6b7c446_6": "sha256:d12e10de995173cc4e0c806746f30363b7ef99cf8d964da2d6a7653bd3068544", "1.3.3--pl5321h0033a41_7": "sha256:4d71359d148fed821f557ee737fb3766aaae636e61981c15868bbd102c1e4ddc", "1.3.3--pl5321h43eeafb_9": "sha256:43bee13865dad4979eabb64ba0ce45ab79f4b15a4b377360dcd1dbbe2e37bc92"}, "docker": "quay.io/biocontainers/rsem", "aliases": {"bigWigSummary": "/usr/local/bin/bigWigSummary", "convert-sam-for-rsem": "/usr/local/bin/convert-sam-for-rsem", "extract-transcript-to-gene-map-from-trinity": "/usr/local/bin/extract-transcript-to-gene-map-from-trinity", "rsem-bam2readdepth": "/usr/local/bin/rsem-bam2readdepth", "rsem-bam2wig": "/usr/local/bin/rsem-bam2wig", "rsem-build-read-index": "/usr/local/bin/rsem-build-read-index", "rsem-calculate-credibility-intervals": "/usr/local/bin/rsem-calculate-credibility-intervals", "rsem-calculate-expression": "/usr/local/bin/rsem-calculate-expression", "rsem-control-fdr": "/usr/local/bin/rsem-control-fdr", "rsem-extract-reference-transcripts": "/usr/local/bin/rsem-extract-reference-transcripts", "rsem-for-ebseq-calculate-clustering-info": "/usr/local/bin/rsem-for-ebseq-calculate-clustering-info", "rsem-for-ebseq-find-DE": "/usr/local/bin/rsem-for-ebseq-find-DE", "rsem-for-ebseq-generate-ngvector-from-clustering-info": "/usr/local/bin/rsem-for-ebseq-generate-ngvector-from-clustering-info", "rsem-gen-transcript-plots": "/usr/local/bin/rsem-gen-transcript-plots", "rsem-generate-data-matrix": "/usr/local/bin/rsem-generate-data-matrix", "rsem-get-unique": "/usr/local/bin/rsem-get-unique", "rsem-gff3-to-gtf": "/usr/local/bin/rsem-gff3-to-gtf", "rsem-parse-alignments": "/usr/local/bin/rsem-parse-alignments", "rsem-plot-model": "/usr/local/bin/rsem-plot-model", "rsem-plot-transcript-wiggles": "/usr/local/bin/rsem-plot-transcript-wiggles", "rsem-prepare-reference": "/usr/local/bin/rsem-prepare-reference", "rsem-preref": "/usr/local/bin/rsem-preref", "rsem-refseq-extract-primary-assembly": "/usr/local/bin/rsem-refseq-extract-primary-assembly", "rsem-run-ebseq": "/usr/local/bin/rsem-run-ebseq", "rsem-run-em": "/usr/local/bin/rsem-run-em", "rsem-run-gibbs": "/usr/local/bin/rsem-run-gibbs", "rsem-sam-validator": "/usr/local/bin/rsem-sam-validator", "rsem-scan-for-paired-end-reads": "/usr/local/bin/rsem-scan-for-paired-end-reads", "rsem-simulate-reads": "/usr/local/bin/rsem-simulate-reads", "rsem-synthesis-reference-transcripts": "/usr/local/bin/rsem-synthesis-reference-transcripts", "rsem-tbam2gbam": "/usr/local/bin/rsem-tbam2gbam", "config_data": "/usr/local/bin/config_data", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsem.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/rsem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rsem:1.3.3--pl5321h0033a41_7
+$ shpc install quay.io/biocontainers/rsem:1.3.3--pl5321h43eeafb_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rsem/1.3.3--pl5321h0033a41_7
-$ module help quay.io/biocontainers/rsem/1.3.3--pl5321h0033a41_7
+$ module load quay.io/biocontainers/rsem/1.3.3--pl5321h43eeafb_9
+$ module help quay.io/biocontainers/rsem/1.3.3--pl5321h43eeafb_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

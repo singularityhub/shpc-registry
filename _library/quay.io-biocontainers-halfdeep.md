@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/halfdeep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/halfdeep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/halfdeep/container.yaml"
-updated_at: "2024-12-08 03:18:49.578653"
-latest: "0.1.0--hdfd78af_0"
+updated_at: "2024-12-09 03:17:11.190799"
+latest: "0.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/halfdeep"
 aliases:
  - "bam_depth.sh"
@@ -42,8 +42,9 @@ aliases:
  - "basenc"
 versions:
  - "0.1.0--hdfd78af_0"
+ - "0.1.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for halfdeep"
-config: {"url": "https://biocontainers.pro/tools/halfdeep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for halfdeep", "latest": {"0.1.0--hdfd78af_0": "sha256:4349f8fee359f24fc6ce37d5769692b0e7659e1949a733a8ebaf3f5e01091f3a"}, "tags": {"0.1.0--hdfd78af_0": "sha256:4349f8fee359f24fc6ce37d5769692b0e7659e1949a733a8ebaf3f5e01091f3a"}, "docker": "quay.io/biocontainers/halfdeep", "aliases": {"bam_depth.sh": "/usr/local/bin/bam_depth.sh", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "genodsp": "/usr/local/bin/genodsp", "halfdeep.r": "/usr/local/bin/halfdeep.r", "halfdeep.sh": "/usr/local/bin/halfdeep.sh", "scaffold_lengths.py": "/usr/local/bin/scaffold_lengths.py", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawkbug": "/usr/local/bin/gawkbug", "annot-tsv": "/usr/local/bin/annot-tsv", "basenc": "/usr/local/bin/basenc"}}
+config: {"url": "https://biocontainers.pro/tools/halfdeep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for halfdeep", "latest": {"0.1.0--hdfd78af_1": "sha256:f5204cc16fa0c675d4f9f329b087e5a3d6e242913ec08f5dcbfa69f610ce9841"}, "tags": {"0.1.0--hdfd78af_0": "sha256:4349f8fee359f24fc6ce37d5769692b0e7659e1949a733a8ebaf3f5e01091f3a", "0.1.0--hdfd78af_1": "sha256:f5204cc16fa0c675d4f9f329b087e5a3d6e242913ec08f5dcbfa69f610ce9841"}, "docker": "quay.io/biocontainers/halfdeep", "aliases": {"bam_depth.sh": "/usr/local/bin/bam_depth.sh", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "genodsp": "/usr/local/bin/genodsp", "halfdeep.r": "/usr/local/bin/halfdeep.r", "halfdeep.sh": "/usr/local/bin/halfdeep.sh", "scaffold_lengths.py": "/usr/local/bin/scaffold_lengths.py", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawkbug": "/usr/local/bin/gawkbug", "annot-tsv": "/usr/local/bin/annot-tsv", "basenc": "/usr/local/bin/basenc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/halfdeep.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/halfdeep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/halfdeep:0.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/halfdeep:0.1.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/halfdeep/0.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/halfdeep/0.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/halfdeep/0.1.0--hdfd78af_1
+$ module help quay.io/biocontainers/halfdeep/0.1.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wrassp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wrassp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wrassp/container.yaml"
-updated_at: "2024-12-08 03:47:43.838819"
+updated_at: "2024-12-09 03:46:56.345937"
 latest: "0.1.4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-wrassp"
 aliases:

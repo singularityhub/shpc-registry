@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/racon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/racon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/racon/container.yaml"
-updated_at: "2024-12-08 03:29:55.926898"
-latest: "1.5.0--hdcf5f25_4"
+updated_at: "2024-12-09 03:28:40.343319"
+latest: "1.5.0--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/racon"
 aliases:
  - "racon"
@@ -22,8 +22,9 @@ versions:
  - "1.5.0--h21ec9f0_2"
  - "1.5.0--h21ec9f0_3"
  - "1.5.0--hdcf5f25_4"
+ - "1.5.0--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for racon"
-config: {"url": "https://biocontainers.pro/tools/racon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for racon", "latest": {"1.5.0--hdcf5f25_4": "sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd"}, "tags": {"1.5.0--h7ff8a90_0": "sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df", "1.5.0--h21ec9f0_2": "sha256:1f8ba10982e9e534dfcdca612f330f08979ad5a146aac3ca1b1af7df29599130", "1.5.0--h21ec9f0_3": "sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803", "1.5.0--hdcf5f25_4": "sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd"}, "docker": "quay.io/biocontainers/racon", "aliases": {"racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "rampler": "/usr/local/bin/rampler", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/racon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for racon", "latest": {"1.5.0--hdcf5f25_5": "sha256:ac2f5eedb1dfbbd455d7f74d2323f760dd8376333046559018e1efa07994919e"}, "tags": {"1.5.0--h7ff8a90_0": "sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df", "1.5.0--h21ec9f0_2": "sha256:1f8ba10982e9e534dfcdca612f330f08979ad5a146aac3ca1b1af7df29599130", "1.5.0--h21ec9f0_3": "sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803", "1.5.0--hdcf5f25_4": "sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd", "1.5.0--hdcf5f25_5": "sha256:ac2f5eedb1dfbbd455d7f74d2323f760dd8376333046559018e1efa07994919e"}, "docker": "quay.io/biocontainers/racon", "aliases": {"racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "rampler": "/usr/local/bin/rampler", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/racon.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/racon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/racon:1.5.0--hdcf5f25_4
+$ shpc install quay.io/biocontainers/racon:1.5.0--hdcf5f25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/racon/1.5.0--hdcf5f25_4
-$ module help quay.io/biocontainers/racon/1.5.0--hdcf5f25_4
+$ module load quay.io/biocontainers/racon/1.5.0--hdcf5f25_5
+$ module help quay.io/biocontainers/racon/1.5.0--hdcf5f25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

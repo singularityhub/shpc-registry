@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htseq/container.yaml"
-updated_at: "2024-12-08 03:57:23.353268"
+updated_at: "2024-12-09 03:56:44.354257"
 latest: "2.0.5--py39h91a4a08_2"
 container_url: "https://biocontainers.pro/tools/htseq"
 aliases:

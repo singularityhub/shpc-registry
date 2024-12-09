@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sincei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sincei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sincei/container.yaml"
-updated_at: "2024-12-08 03:40:51.576163"
+updated_at: "2024-12-09 03:39:58.463199"
 latest: "0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sincei"
 aliases:

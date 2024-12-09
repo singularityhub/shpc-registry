@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/superdsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superdsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superdsm/container.yaml"
-updated_at: "2024-12-08 03:53:43.936009"
+updated_at: "2024-12-09 03:53:01.092647"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/superdsm"
 aliases:

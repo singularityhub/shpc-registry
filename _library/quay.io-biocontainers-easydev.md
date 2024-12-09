@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easydev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easydev/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easydev/container.yaml"
-updated_at: "2024-12-08 03:51:34.702617"
+updated_at: "2024-12-09 03:50:50.188164"
 latest: "0.9.31--py35_1"
 container_url: "https://biocontainers.pro/tools/easydev"
 aliases:

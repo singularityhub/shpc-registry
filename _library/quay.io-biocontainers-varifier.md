@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varifier/container.yaml"
-updated_at: "2024-12-08 03:53:26.061885"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2024-12-09 03:52:42.940752"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varifier"
 aliases:
  - "delta2vcf"
@@ -22,8 +22,9 @@ aliases:
  - "plotXPEHH.R"
 versions:
  - "0.3.1--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for varifier"
-config: {"url": "https://biocontainers.pro/tools/varifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varifier", "latest": {"0.3.1--pyhdfd78af_0": "sha256:ad822cf6f08e12986c5bc1a7d2819695728a6ddd749ccb76ad34f202a52bf669"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:ad822cf6f08e12986c5bc1a7d2819695728a6ddd749ccb76ad34f202a52bf669"}, "docker": "quay.io/biocontainers/varifier", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "varifier": "/usr/local/bin/varifier", "vt": "/usr/local/bin/vt", "tabix++": "/usr/local/bin/tabix++", "minimap2.py": "/usr/local/bin/minimap2.py", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R"}}
+config: {"url": "https://biocontainers.pro/tools/varifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varifier", "latest": {"0.4.0--pyhdfd78af_0": "sha256:69d4d4c18b6006cdbe3929d4fee53aaf40cfd2fdff3eb0c47720fc278c4c84b6"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:ad822cf6f08e12986c5bc1a7d2819695728a6ddd749ccb76ad34f202a52bf669", "0.4.0--pyhdfd78af_0": "sha256:69d4d4c18b6006cdbe3929d4fee53aaf40cfd2fdff3eb0c47720fc278c4c84b6"}, "docker": "quay.io/biocontainers/varifier", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "varifier": "/usr/local/bin/varifier", "vt": "/usr/local/bin/vt", "tabix++": "/usr/local/bin/tabix++", "minimap2.py": "/usr/local/bin/minimap2.py", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varifier.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/varifier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varifier:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/varifier:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varifier/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/varifier/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/varifier/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/varifier/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
