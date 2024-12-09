@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/predictosaurus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for predictosaurus
+latest:
+  0.2.2--hcb96839_0: sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8
+tags:
+  0.2.2--hcb96839_0: sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8
+docker: quay.io/biocontainers/predictosaurus
+aliases:
+  predictosaurus: /usr/local/bin/predictosaurus

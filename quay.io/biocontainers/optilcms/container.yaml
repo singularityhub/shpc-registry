@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/optilcms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for optilcms
+latest:
+  1.1.0--r43hdfd78af_0: sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
+tags:
+  1.1.0--r43hdfd78af_0: sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
+docker: quay.io/biocontainers/optilcms
+aliases:
+  h5fuse: /usr/local/bin/h5fuse
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pandoc-server: /usr/local/bin/pandoc-server
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  h5delete: /usr/local/bin/h5delete
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal

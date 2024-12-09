@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/phytop
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phytop
+latest:
+  0.3--pyhdc42f0e_0: sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
+tags:
+  0.3--pyhdc42f0e_0: sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
+docker: quay.io/biocontainers/phytop
+aliases:
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  phytop: /usr/local/bin/phytop
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  yat2m: /usr/local/bin/yat2m
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  lame: /usr/local/bin/lame
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime
+  qmltyperegistrar: /usr/local/bin/qmltyperegistrar

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/flexsweep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for flexsweep
+latest:
+  1.0--pyhbffedc5_0: sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2
+tags:
+  1.0--pyhbffedc5_0: sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2
+docker: quay.io/biocontainers/flexsweep
+aliases:
+  checksum-profile: /usr/local/bin/checksum-profile
+  demes: /usr/local/bin/demes
+  elastishadow: /usr/local/bin/elastishadow
+  flexsweep: /usr/local/bin/flexsweep
+  protoc-27.5.0: /usr/local/bin/protoc-27.5.0
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  flatc: /usr/local/bin/flatc
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  dask: /usr/local/bin/dask
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  isympy: /usr/local/bin/isympy
+  nosetests: /usr/local/bin/nosetests
+  torchrun: /usr/local/bin/torchrun
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
