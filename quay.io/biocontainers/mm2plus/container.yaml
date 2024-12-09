@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mm2plus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mm2plus
+latest:
+  1.0--h9ee0642_0: sha256:6b3d32f44b8a530b97267fd5e4a6889210ba9daaceef49b7a5224f29830a7c4e
+tags:
+  1.0--h9ee0642_0: sha256:6b3d32f44b8a530b97267fd5e4a6889210ba9daaceef49b7a5224f29830a7c4e
+docker: quay.io/biocontainers/mm2plus
+aliases:
+  mm2plus: /usr/local/bin/mm2plus
+  mm2plus.avx: /usr/local/bin/mm2plus.avx
+  mm2plus.avx2: /usr/local/bin/mm2plus.avx2
+  mm2plus.avx512: /usr/local/bin/mm2plus.avx512
+  mm2plus.sse4.1: /usr/local/bin/mm2plus.sse4.1
+  mm2plus.sse4.2: /usr/local/bin/mm2plus.sse4.2
