@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mycotools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mycotools
 latest:
-  0.32.5--pyhdfd78af_0: sha256:3863f4d79098898d5c58c3f0241d0caa553d0ecec9ef62b339de4026457d4d6e
+  0.32.6--pyhdfd78af_0: sha256:746337dbb87346d8cb705d7c0a3854868f462ae346ebf6b7efd4bb74602938f4
 tags:
   0.31.35--pyhdfd78af_0: sha256:a90a2adf7b563a03a2b2fdfe3d872209d8d458185ff182073c2dec0edbe0adc4
   0.31.36--pyhdfd78af_0: sha256:a3d947b282d34c4f9acae04142968706ac7604124b5a049ece32df8bdbdfa342
@@ -11,6 +11,7 @@ tags:
   0.31.48--pyhdfd78af_0: sha256:55c59fd2d5a3f45ace521eddef6bf547c09f0d20f179f1db747f1c3caab801be
   0.32.3--pyhdfd78af_0: sha256:77db68d30a94fc2293226ea84681d491a98904f06228c8a63a54e0031cd62428
   0.32.5--pyhdfd78af_0: sha256:3863f4d79098898d5c58c3f0241d0caa553d0ecec9ef62b339de4026457d4d6e
+  0.32.6--pyhdfd78af_0: sha256:746337dbb87346d8cb705d7c0a3854868f462ae346ebf6b7efd4bb74602938f4
 docker: quay.io/biocontainers/mycotools
 aliases:
   acc2fa: /usr/local/bin/acc2fa

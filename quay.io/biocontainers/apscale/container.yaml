@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/apscale
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for apscale
 latest:
-  2.0.3--pyhdfd78af_0: sha256:08b22e084d1fbfc4ccf346521e26fef8d67c74e8773ae2b3442e5eee3a1e5310
+  2.0.4--pyhdfd78af_0: sha256:2ab36f259a8949f1cade3fe7650065ba2ac77a68900f7e2a9fa2497437536ef0
 tags:
   1.5.5--pyhdfd78af_0: sha256:20a12979eebb17044c7bba3251d839639588de59ad369da56c4e04066d0054e1
   1.6.3--pyhdfd78af_0: sha256:d43160d4b16413d3b5008c99fdce6313e4ec78f1e2e5f993447a6771f2d31f78
   1.7.1--pyhdfd78af_0: sha256:e1fa43969efa3d2e4576763e8e29ebb84371947fadf363961294c6bf396da752
   2.0.2--pyhdfd78af_0: sha256:a78ae25d207486327803e739ff4948fd2bb124c8a8313fe28bad60b40e53029d
   2.0.3--pyhdfd78af_0: sha256:08b22e084d1fbfc4ccf346521e26fef8d67c74e8773ae2b3442e5eee3a1e5310
+  2.0.4--pyhdfd78af_0: sha256:2ab36f259a8949f1cade3fe7650065ba2ac77a68900f7e2a9fa2497437536ef0
 docker: quay.io/biocontainers/apscale
 aliases:
   apscale: /usr/local/bin/apscale
