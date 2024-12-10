@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gfainject
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfainject
 latest:
-  0.1.0--h4349ce8_0: sha256:3248af85b4a73103eac9b5fa8f5da7f3918377cbf41173c7a900302f68a041cb
+  0.2.0--h3ab6199_0: sha256:4d7a89e87f033f2efcdcdab2df348d30a80131b09d332425e243cba699df9941
 tags:
   0.1.0--h4349ce8_0: sha256:3248af85b4a73103eac9b5fa8f5da7f3918377cbf41173c7a900302f68a041cb
+  0.2.0--h3ab6199_0: sha256:4d7a89e87f033f2efcdcdab2df348d30a80131b09d332425e243cba699df9941
+  0.1.1--h4c94732_0: sha256:ff47d7a999f43fcf9c2879ed464c26cc9b4997d7f54c00a778ef695822435234
 docker: quay.io/biocontainers/gfainject
 aliases:
   gfainject: /usr/local/bin/gfainject

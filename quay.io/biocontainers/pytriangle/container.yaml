@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pytriangle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pytriangle
 latest:
-  1.0.9--py38h0020b31_9: sha256:499dd52930d88d6eb6266ff1c329584d9e483153b40cfb88cb33da9cc23fbd02
+  1.0.9--py312h0fa9677_10: sha256:cf5e3d9e9baa1d42df8c98de4f5f44326013fc863cfbaa91dbb88ec4079ce799
 tags:
   1.0.9--py27h9801fc8_6: sha256:c1e573322b45eb111c8f36f5ed74a506667e348651de9a896fb5ad3638d4d549
   1.0.9--py39hf95cd2a_8: sha256:48ceecda7d6bfa8ff78d21de430f271a2faa35b7307c26884d58bf5a1eb1e4b4
   1.0.9--py38h0020b31_9: sha256:499dd52930d88d6eb6266ff1c329584d9e483153b40cfb88cb33da9cc23fbd02
+  1.0.9--py312h0fa9677_10: sha256:cf5e3d9e9baa1d42df8c98de4f5f44326013fc863cfbaa91dbb88ec4079ce799
 docker: quay.io/biocontainers/pytriangle
 aliases:
   python2-config: /usr/local/bin/python2-config
