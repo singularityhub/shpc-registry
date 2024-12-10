@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
-updated_at: "2024-12-09 03:55:10.698085"
-latest: "1.43--pl5321he4a0461_4"
+updated_at: "2024-12-10 03:08:53.306477"
+latest: "1.43--pl5321h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/perl-bio-samtools"
 aliases:
  - "bp_aacomp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.43--pl5321h7132678_3"
  - "1.43--pl5321he4a0461_4"
+ - "1.43--pl5321h577a1d6_5"
 description: "shpc-registry automated BioContainers addition for perl-bio-samtools"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-samtools", "latest": {"1.43--pl5321he4a0461_4": "sha256:4fb899b33e91a9f7bb0ab712ee91da5e0ab7a779229f114ef8f030d591b67156"}, "tags": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d", "1.43--pl5321he4a0461_4": "sha256:4fb899b33e91a9f7bb0ab712ee91da5e0ab7a779229f114ef8f030d591b67156"}, "docker": "quay.io/biocontainers/perl-bio-samtools", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-samtools", "latest": {"1.43--pl5321h577a1d6_5": "sha256:506e744162326b31d644e36c5a6b50bf4cd728459ca4adc66a7a8b5a1a2f9010"}, "tags": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d", "1.43--pl5321he4a0461_4": "sha256:4fb899b33e91a9f7bb0ab712ee91da5e0ab7a779229f114ef8f030d591b67156", "1.43--pl5321h577a1d6_5": "sha256:506e744162326b31d644e36c5a6b50bf4cd728459ca4adc66a7a8b5a1a2f9010"}, "docker": "quay.io/biocontainers/perl-bio-samtools", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-samtools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/perl-bio-samtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-samtools:1.43--pl5321he4a0461_4
+$ shpc install quay.io/biocontainers/perl-bio-samtools:1.43--pl5321h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-samtools/1.43--pl5321he4a0461_4
-$ module help quay.io/biocontainers/perl-bio-samtools/1.43--pl5321he4a0461_4
+$ module load quay.io/biocontainers/perl-bio-samtools/1.43--pl5321h577a1d6_5
+$ module help quay.io/biocontainers/perl-bio-samtools/1.43--pl5321h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

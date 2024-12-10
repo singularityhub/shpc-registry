@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-calibrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-calibrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-calibrate/container.yaml"
-updated_at: "2024-12-09 04:37:31.659359"
+updated_at: "2024-12-10 03:51:09.054131"
 latest: "1.7.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-calibrate"
 aliases:

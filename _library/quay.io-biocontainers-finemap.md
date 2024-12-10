@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/finemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/finemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/finemap/container.yaml"
-updated_at: "2024-12-09 04:12:18.291335"
-latest: "1.4.1--0"
+updated_at: "2024-12-10 03:26:13.702872"
+latest: "1.4.2--hb192632_0"
 container_url: "https://biocontainers.pro/tools/finemap"
 aliases:
  - "finemap"
 versions:
  - "1.4.1--0"
+ - "1.4.2--hb192632_0"
 description: "singularity registry hpc automated addition for finemap"
-config: {"url": "https://biocontainers.pro/tools/finemap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for finemap", "latest": {"1.4.1--0": "sha256:6e07321784a93f0814515d36b14c4542bdda982e0fb1faf9b178bf31cd3842af"}, "tags": {"1.4.1--0": "sha256:6e07321784a93f0814515d36b14c4542bdda982e0fb1faf9b178bf31cd3842af"}, "docker": "quay.io/biocontainers/finemap", "aliases": {"finemap": "/usr/local/bin/finemap"}}
+config: {"url": "https://biocontainers.pro/tools/finemap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for finemap", "latest": {"1.4.2--hb192632_0": "sha256:30c1149fe764931e83f9905d32c359514b04e331164cbea3c6eb55949c006aaa"}, "tags": {"1.4.1--0": "sha256:6e07321784a93f0814515d36b14c4542bdda982e0fb1faf9b178bf31cd3842af", "1.4.2--hb192632_0": "sha256:30c1149fe764931e83f9905d32c359514b04e331164cbea3c6eb55949c006aaa"}, "docker": "quay.io/biocontainers/finemap", "aliases": {"finemap": "/usr/local/bin/finemap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/finemap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/finemap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/finemap:1.4.1--0
+$ shpc install quay.io/biocontainers/finemap:1.4.2--hb192632_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/finemap/1.4.1--0
-$ module help quay.io/biocontainers/finemap/1.4.1--0
+$ module load quay.io/biocontainers/finemap/1.4.2--hb192632_0
+$ module help quay.io/biocontainers/finemap/1.4.2--hb192632_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

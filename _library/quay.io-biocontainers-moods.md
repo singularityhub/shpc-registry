@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moods/container.yaml"
-updated_at: "2024-12-09 04:28:08.339055"
+updated_at: "2024-12-10 03:41:47.766703"
 latest: "1.9.4.2--py312h28adbb1_2"
 container_url: "https://biocontainers.pro/tools/moods"
 aliases:

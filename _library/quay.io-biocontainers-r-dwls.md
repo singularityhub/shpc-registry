@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dwls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dwls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dwls/container.yaml"
-updated_at: "2024-12-09 04:00:13.300364"
+updated_at: "2024-12-10 03:14:00.497127"
 latest: "1.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-dwls"
 aliases:
