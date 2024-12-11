@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mustang
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mustang
 latest:
-  3.2.3--h2d50403_1: sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455
+  3.2.4--h9948957_0: sha256:410efe044c30ccd530ab4187792e26abbce0711532f3a5dd0d5bdcf4d2603a6e
 tags:
   3.2.3--h2d50403_1: sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455
+  3.2.4--h9948957_0: sha256:410efe044c30ccd530ab4187792e26abbce0711532f3a5dd0d5bdcf4d2603a6e
 docker: quay.io/biocontainers/mustang
 aliases:
   mustang: /usr/local/bin/mustang
