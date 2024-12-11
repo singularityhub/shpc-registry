@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/gfainject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfainject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfainject/container.yaml"
-updated_at: "2024-12-10 03:09:17.417883"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2024-12-11 03:06:34.344607"
+latest: "0.2.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/gfainject"
 aliases:
  - "gfainject"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.2.0--h3ab6199_0"
+ - "0.1.1--h4c94732_0"
 description: "singularity registry hpc automated addition for gfainject"
-config: {"url": "https://biocontainers.pro/tools/gfainject", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfainject", "latest": {"0.1.0--h4349ce8_0": "sha256:3248af85b4a73103eac9b5fa8f5da7f3918377cbf41173c7a900302f68a041cb"}, "tags": {"0.1.0--h4349ce8_0": "sha256:3248af85b4a73103eac9b5fa8f5da7f3918377cbf41173c7a900302f68a041cb"}, "docker": "quay.io/biocontainers/gfainject", "aliases": {"gfainject": "/usr/local/bin/gfainject"}}
+config: {"url": "https://biocontainers.pro/tools/gfainject", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfainject", "latest": {"0.2.0--h3ab6199_0": "sha256:4d7a89e87f033f2efcdcdab2df348d30a80131b09d332425e243cba699df9941"}, "tags": {"0.1.0--h4349ce8_0": "sha256:3248af85b4a73103eac9b5fa8f5da7f3918377cbf41173c7a900302f68a041cb", "0.2.0--h3ab6199_0": "sha256:4d7a89e87f033f2efcdcdab2df348d30a80131b09d332425e243cba699df9941", "0.1.1--h4c94732_0": "sha256:ff47d7a999f43fcf9c2879ed464c26cc9b4997d7f54c00a778ef695822435234"}, "docker": "quay.io/biocontainers/gfainject", "aliases": {"gfainject": "/usr/local/bin/gfainject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfainject.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/gfainject
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfainject:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/gfainject:0.2.0--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfainject/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/gfainject/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/gfainject/0.2.0--h3ab6199_0
+$ module help quay.io/biocontainers/gfainject/0.2.0--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

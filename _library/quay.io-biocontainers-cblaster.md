@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cblaster/container.yaml"
-updated_at: "2024-12-10 03:43:27.402302"
-latest: "1.3.19--pyhdfd78af_0"
+updated_at: "2024-12-11 03:40:57.620358"
+latest: "1.3.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cblaster"
 aliases:
  - "cblaster"
@@ -26,8 +26,9 @@ versions:
  - "1.3.17--pyhdfd78af_0"
  - "1.3.18--pyhdfd78af_0"
  - "1.3.19--pyhdfd78af_0"
+ - "1.3.20--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cblaster"
-config: {"url": "https://biocontainers.pro/tools/cblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cblaster", "latest": {"1.3.19--pyhdfd78af_0": "sha256:98cfb5fa8bc4689402d23f7fed6b17e8b736efedfecfb57afe56107c92c80ad7"}, "tags": {"1.3.9--pyhb7b1952_0": "sha256:3b41c02e0ae141309bda49bfc64ceecf5737118436dafbce5c5695e33fec776b", "1.3.16--pyhdfd78af_0": "sha256:bc940c124299436f1bf2ec0f0169c153f708e5da2ee4805ff3e04afa72aa4878", "1.3.17--pyhdfd78af_0": "sha256:fcf904d71c58e1b4a063e962adcf420733353096a26219138456342cb0d8b6d7", "1.3.18--pyhdfd78af_0": "sha256:724ab0b3320fa54284569c2ad7475b4eb68295b9d586f39047311868a2044cac", "1.3.19--pyhdfd78af_0": "sha256:98cfb5fa8bc4689402d23f7fed6b17e8b736efedfecfb57afe56107c92c80ad7"}, "docker": "quay.io/biocontainers/cblaster", "aliases": {"cblaster": "/usr/local/bin/cblaster", "clinker": "/usr/local/bin/clinker", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "diamond": "/usr/local/bin/diamond", "faidx": "/usr/local/bin/faidx", "normalizer": "/usr/local/bin/normalizer", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9"}}
+config: {"url": "https://biocontainers.pro/tools/cblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cblaster", "latest": {"1.3.20--pyhdfd78af_0": "sha256:66e7e58f9be48d80a64e69a192bd6359b95e22d59a30ab8525aef043825b6c49"}, "tags": {"1.3.9--pyhb7b1952_0": "sha256:3b41c02e0ae141309bda49bfc64ceecf5737118436dafbce5c5695e33fec776b", "1.3.16--pyhdfd78af_0": "sha256:bc940c124299436f1bf2ec0f0169c153f708e5da2ee4805ff3e04afa72aa4878", "1.3.17--pyhdfd78af_0": "sha256:fcf904d71c58e1b4a063e962adcf420733353096a26219138456342cb0d8b6d7", "1.3.18--pyhdfd78af_0": "sha256:724ab0b3320fa54284569c2ad7475b4eb68295b9d586f39047311868a2044cac", "1.3.19--pyhdfd78af_0": "sha256:98cfb5fa8bc4689402d23f7fed6b17e8b736efedfecfb57afe56107c92c80ad7", "1.3.20--pyhdfd78af_0": "sha256:66e7e58f9be48d80a64e69a192bd6359b95e22d59a30ab8525aef043825b6c49"}, "docker": "quay.io/biocontainers/cblaster", "aliases": {"cblaster": "/usr/local/bin/cblaster", "clinker": "/usr/local/bin/clinker", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "diamond": "/usr/local/bin/diamond", "faidx": "/usr/local/bin/faidx", "normalizer": "/usr/local/bin/normalizer", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cblaster.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/cblaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cblaster:1.3.19--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cblaster:1.3.20--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cblaster/1.3.19--pyhdfd78af_0
-$ module help quay.io/biocontainers/cblaster/1.3.19--pyhdfd78af_0
+$ module load quay.io/biocontainers/cblaster/1.3.20--pyhdfd78af_0
+$ module help quay.io/biocontainers/cblaster/1.3.20--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

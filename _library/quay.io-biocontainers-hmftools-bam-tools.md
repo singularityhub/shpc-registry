@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-bam-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-bam-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-bam-tools/container.yaml"
-updated_at: "2024-12-10 03:36:11.883789"
-latest: "1.3_beta--hdfd78af_0"
+updated_at: "2024-12-11 03:33:37.479711"
+latest: "1.3_beta--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-bam-tools"
 aliases:
  - "jwebserver"
@@ -37,8 +37,9 @@ versions:
  - "1.2--hdfd78af_0"
  - "1.2.1--hdfd78af_0"
  - "1.3_beta--hdfd78af_0"
+ - "1.3_beta--hdfd78af_1"
 description: "singularity registry hpc automated addition for hmftools-bam-tools"
-config: {"url": "https://biocontainers.pro/tools/hmftools-bam-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-bam-tools", "latest": {"1.3_beta--hdfd78af_0": "sha256:5ee5c7d461a21e4fe2250002bfde0d6ebffc004376a3e2f9298fadea368a9fb9"}, "tags": {"1.2--hdfd78af_0": "sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76", "1.2.1--hdfd78af_0": "sha256:95aed7c44e46478902eef630ab8f31c92094abe9d7680a32d837c24e8627711a", "1.3_beta--hdfd78af_0": "sha256:5ee5c7d461a21e4fe2250002bfde0d6ebffc004376a3e2f9298fadea368a9fb9"}, "docker": "quay.io/biocontainers/hmftools-bam-tools", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "bamtools": "/usr/local/bin/bamtools", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-bam-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-bam-tools", "latest": {"1.3_beta--hdfd78af_1": "sha256:a900d3252a9516657d2cc70055eff5ae7e43c262a9463e2d8264f68e5d5f4871"}, "tags": {"1.2--hdfd78af_0": "sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76", "1.2.1--hdfd78af_0": "sha256:95aed7c44e46478902eef630ab8f31c92094abe9d7680a32d837c24e8627711a", "1.3_beta--hdfd78af_0": "sha256:5ee5c7d461a21e4fe2250002bfde0d6ebffc004376a3e2f9298fadea368a9fb9", "1.3_beta--hdfd78af_1": "sha256:a900d3252a9516657d2cc70055eff5ae7e43c262a9463e2d8264f68e5d5f4871"}, "docker": "quay.io/biocontainers/hmftools-bam-tools", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "bamtools": "/usr/local/bin/bamtools", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-bam-tools.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hmftools-bam-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-bam-tools:1.3_beta--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-bam-tools:1.3_beta--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-bam-tools/1.3_beta--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-bam-tools/1.3_beta--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-bam-tools/1.3_beta--hdfd78af_1
+$ module help quay.io/biocontainers/hmftools-bam-tools/1.3_beta--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

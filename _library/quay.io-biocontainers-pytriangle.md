@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytriangle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytriangle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytriangle/container.yaml"
-updated_at: "2024-12-10 03:14:59.235685"
-latest: "1.0.9--py38h0020b31_9"
+updated_at: "2024-12-11 03:12:17.351874"
+latest: "1.0.9--py312h0fa9677_10"
 container_url: "https://biocontainers.pro/tools/pytriangle"
 aliases:
  - "python2-config"
@@ -19,8 +19,9 @@ versions:
  - "1.0.9--py27h9801fc8_6"
  - "1.0.9--py39hf95cd2a_8"
  - "1.0.9--py38h0020b31_9"
+ - "1.0.9--py312h0fa9677_10"
 description: "shpc-registry automated BioContainers addition for pytriangle"
-config: {"url": "https://biocontainers.pro/tools/pytriangle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytriangle", "latest": {"1.0.9--py38h0020b31_9": "sha256:499dd52930d88d6eb6266ff1c329584d9e483153b40cfb88cb33da9cc23fbd02"}, "tags": {"1.0.9--py27h9801fc8_6": "sha256:c1e573322b45eb111c8f36f5ed74a506667e348651de9a896fb5ad3638d4d549", "1.0.9--py39hf95cd2a_8": "sha256:48ceecda7d6bfa8ff78d21de430f271a2faa35b7307c26884d58bf5a1eb1e4b4", "1.0.9--py38h0020b31_9": "sha256:499dd52930d88d6eb6266ff1c329584d9e483153b40cfb88cb33da9cc23fbd02"}, "docker": "quay.io/biocontainers/pytriangle", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pytriangle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytriangle", "latest": {"1.0.9--py312h0fa9677_10": "sha256:cf5e3d9e9baa1d42df8c98de4f5f44326013fc863cfbaa91dbb88ec4079ce799"}, "tags": {"1.0.9--py27h9801fc8_6": "sha256:c1e573322b45eb111c8f36f5ed74a506667e348651de9a896fb5ad3638d4d549", "1.0.9--py39hf95cd2a_8": "sha256:48ceecda7d6bfa8ff78d21de430f271a2faa35b7307c26884d58bf5a1eb1e4b4", "1.0.9--py38h0020b31_9": "sha256:499dd52930d88d6eb6266ff1c329584d9e483153b40cfb88cb33da9cc23fbd02", "1.0.9--py312h0fa9677_10": "sha256:cf5e3d9e9baa1d42df8c98de4f5f44326013fc863cfbaa91dbb88ec4079ce799"}, "docker": "quay.io/biocontainers/pytriangle", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytriangle.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pytriangle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytriangle:1.0.9--py38h0020b31_9
+$ shpc install quay.io/biocontainers/pytriangle:1.0.9--py312h0fa9677_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytriangle/1.0.9--py38h0020b31_9
-$ module help quay.io/biocontainers/pytriangle/1.0.9--py38h0020b31_9
+$ module load quay.io/biocontainers/pytriangle/1.0.9--py312h0fa9677_10
+$ module help quay.io/biocontainers/pytriangle/1.0.9--py312h0fa9677_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

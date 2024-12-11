@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-findit2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-findit2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-findit2/container.yaml"
-updated_at: "2024-12-10 03:45:34.976599"
+updated_at: "2024-12-11 03:43:06.347971"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-findit2"
 aliases:

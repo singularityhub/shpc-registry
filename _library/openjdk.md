@@ -4,8 +4,8 @@ name:  "openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/openjdk/container.yaml"
-updated_at: "2024-12-10 03:55:41.567134"
-latest: "24"
+updated_at: "2024-12-11 03:53:15.021545"
+latest: "25"
 container_url: "https://hub.docker.com/_/openjdk"
 aliases:
  - "jar"
@@ -53,8 +53,9 @@ versions:
  - "22"
  - "24"
  - "23"
+ - "25"
 description: "OpenJDK is an open-source implementation of the Java Platform, Standard Edition."
-config: {"docker": "openjdk", "url": "https://hub.docker.com/_/openjdk", "maintainer": "@vsoch", "description": "OpenJDK is an open-source implementation of the Java Platform, Standard Edition.", "filter": ["^(?!.*ea).*$", "^(?!.*windows).*$", "^(?!.*nanoserver).*$", "^(?!.*oracle).*$"], "latest": {"24": "sha256:87191441653240fad6ddf1af9a74deef19b1f257c8be60e44a5b3d2fd8f13f61"}, "tags": {"16.0.1-buster": "sha256:61f3786a28ed911028f8e7e3b65a57a8a9ed04067d137317d369c9b3bc11b289", "16.0.2": "sha256:bb68f084c2000c8532b1675ca7034f3922f4aa10e9c7126d29551c0ffd6dee8f", "17.0.1": "sha256:0da39ed69dec14f9603e2b916592691cc39341510abdf4255abb1c90b00eb3f4", "17.0.2": "sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8", "latest": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "19": "sha256:4123be55fd6853980020c59e7530d017ea08996abbe71741a51c62f7b7586bee", "19-alpine3.15": "sha256:00b9080d669d1997313721aa3ed907ab1cac2df3019e5781a4682c9511d08bbb", "18": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "18-alpine3.15": "sha256:e5c5b35b831a4f655074a25604130ce53e33567b82c8a7204f0e5641b66d477e", "17": "sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8", "18.0": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "19-alpine3.16": "sha256:1686909f4ca66f3e13463e2b00a1c53808aa155f81ae9a8aad8f4b89420d91ef", "20": "sha256:cbf26a2c1a9c347a907a5ceb2edad13dc0e9cc22464cef5861ac6d278e730322", "21": "sha256:af9de795d1f8d3b6172f6c55ca9ba1c5768baa11bb2dc8af7045c7db9d4c33ac", "22": "sha256:b7d44427f4622d3f6b9a60583e5218ecfa8b4e44f3e01dfd0d9b7d7abba31c9a", "24": "sha256:87191441653240fad6ddf1af9a74deef19b1f257c8be60e44a5b3d2fd8f13f61", "23": "sha256:fd0f3721ad4abbfe393ac1a2672abf4b7f53b5ecd9803a4e2444aa3acd7d398e"}, "aliases": {"jar": "/usr/bin/jar", "jarsigner": "/usr/bin/jarsigner", "java": "/usr/bin/java", "javac": "/usr/bin/javac", "javadoc": "/usr/bin/javadoc", "javap": "/usr/bin/javap", "jcmd": "/usr/bin/jcmd", "jconsole": "/usr/bin/jconsole", "jdb": "/usr/bin/jdb", "jdeprscan": "/usr/bin/jdeprscan", "jdeps": "/usr/bin/jdeps", "jfr": "/usr/bin/jfr", "jhsdb": "/usr/bin/jhsdb", "jimage": "/usr/bin/jimage", "jinfo": "/usr/bin/jinfo", "jlink": "/usr/bin/jlink", "jmap": "/usr/bin/jmap", "jmod": "/usr/bin/jmod", "jobs": "/usr/bin/jobs", "join": "/usr/bin/join", "jpackage": "/usr/bin/jpackage", "jps": "/usr/bin/jps", "jrunscript": "/usr/bin/jrunscript", "jshell": "/usr/bin/jshell", "jstack": "/usr/bin/jstack", "jstat": "/usr/bin/jstat", "jstatd": "/usr/bin/jstatd"}}
+config: {"docker": "openjdk", "url": "https://hub.docker.com/_/openjdk", "maintainer": "@vsoch", "description": "OpenJDK is an open-source implementation of the Java Platform, Standard Edition.", "filter": ["^(?!.*ea).*$", "^(?!.*windows).*$", "^(?!.*nanoserver).*$", "^(?!.*oracle).*$"], "latest": {"25": "sha256:a1524532942ef87969c70e22150a3605ea1599082377522bd048750cac39a3d3"}, "tags": {"16.0.1-buster": "sha256:61f3786a28ed911028f8e7e3b65a57a8a9ed04067d137317d369c9b3bc11b289", "16.0.2": "sha256:bb68f084c2000c8532b1675ca7034f3922f4aa10e9c7126d29551c0ffd6dee8f", "17.0.1": "sha256:0da39ed69dec14f9603e2b916592691cc39341510abdf4255abb1c90b00eb3f4", "17.0.2": "sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8", "latest": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "19": "sha256:4123be55fd6853980020c59e7530d017ea08996abbe71741a51c62f7b7586bee", "19-alpine3.15": "sha256:00b9080d669d1997313721aa3ed907ab1cac2df3019e5781a4682c9511d08bbb", "18": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "18-alpine3.15": "sha256:e5c5b35b831a4f655074a25604130ce53e33567b82c8a7204f0e5641b66d477e", "17": "sha256:528707081fdb9562eb819128a9f85ae7fe000e2fbaeaf9f87662e7b3f38cb7d8", "18.0": "sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f", "19-alpine3.16": "sha256:1686909f4ca66f3e13463e2b00a1c53808aa155f81ae9a8aad8f4b89420d91ef", "20": "sha256:cbf26a2c1a9c347a907a5ceb2edad13dc0e9cc22464cef5861ac6d278e730322", "21": "sha256:af9de795d1f8d3b6172f6c55ca9ba1c5768baa11bb2dc8af7045c7db9d4c33ac", "22": "sha256:b7d44427f4622d3f6b9a60583e5218ecfa8b4e44f3e01dfd0d9b7d7abba31c9a", "24": "sha256:893b4dbab5c52e784c6eb5635575944f6524d5d31a97f096631c6a7d8608eb20", "23": "sha256:fd0f3721ad4abbfe393ac1a2672abf4b7f53b5ecd9803a4e2444aa3acd7d398e", "25": "sha256:a1524532942ef87969c70e22150a3605ea1599082377522bd048750cac39a3d3"}, "aliases": {"jar": "/usr/bin/jar", "jarsigner": "/usr/bin/jarsigner", "java": "/usr/bin/java", "javac": "/usr/bin/javac", "javadoc": "/usr/bin/javadoc", "javap": "/usr/bin/javap", "jcmd": "/usr/bin/jcmd", "jconsole": "/usr/bin/jconsole", "jdb": "/usr/bin/jdb", "jdeprscan": "/usr/bin/jdeprscan", "jdeps": "/usr/bin/jdeps", "jfr": "/usr/bin/jfr", "jhsdb": "/usr/bin/jhsdb", "jimage": "/usr/bin/jimage", "jinfo": "/usr/bin/jinfo", "jlink": "/usr/bin/jlink", "jmap": "/usr/bin/jmap", "jmod": "/usr/bin/jmod", "jobs": "/usr/bin/jobs", "join": "/usr/bin/join", "jpackage": "/usr/bin/jpackage", "jps": "/usr/bin/jps", "jrunscript": "/usr/bin/jrunscript", "jshell": "/usr/bin/jshell", "jstack": "/usr/bin/jstack", "jstat": "/usr/bin/jstat", "jstatd": "/usr/bin/jstatd"}}
 ---
 
 This module is a singularity container wrapper for openjdk.
@@ -69,7 +70,7 @@ $ shpc install openjdk
 Or a specific version:
 
 ```bash
-$ shpc install openjdk:24
+$ shpc install openjdk:25
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load openjdk/24
-$ module help openjdk/24
+$ module load openjdk/25
+$ module help openjdk/25
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
