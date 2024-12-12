@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/jaeger-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jaeger-bio
 latest:
-  1.1.26--pyhdfd78af_0: sha256:c3c6e70c8654d271b6daf6f76d468fafe52cb8183cd1b2d6f0db3c605a038992
+  1.1.30--pyhdfd78af_0: sha256:b30a228830e83ad7000a4987d8dd3574d0007c9b27a5c2fa4552eea9a8c0cec3
 tags:
   1.1.26--pyhdfd78af_0: sha256:c3c6e70c8654d271b6daf6f76d468fafe52cb8183cd1b2d6f0db3c605a038992
+  1.1.30--pyhdfd78af_0: sha256:b30a228830e83ad7000a4987d8dd3574d0007c9b27a5c2fa4552eea9a8c0cec3
 docker: quay.io/biocontainers/jaeger-bio
 aliases:
   Jaeger: /usr/local/bin/Jaeger

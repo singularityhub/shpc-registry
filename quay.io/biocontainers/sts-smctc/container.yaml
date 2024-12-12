@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/sts-smctc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sts-smctc
 latest:
-  1.0--heacdb12_11: sha256:b9b0b7ed6a8672de98ab6aaae7e36985d8a93e98ef2d155b9eae4014e96cbe1f
+  1.0--h0704011_12: sha256:4d36b2e2ce3ca66b4d73860d6eb40e911b5e1b3f4512898f18606736bcb592d9
 tags:
   1.0--h589041f_9: sha256:f84a369cf8f5417fb688ba91adad90bb48a26c832a98cbc45e70e090331e937e
   1.0--heacdb12_11: sha256:b9b0b7ed6a8672de98ab6aaae7e36985d8a93e98ef2d155b9eae4014e96cbe1f
+  1.0--h0704011_12: sha256:4d36b2e2ce3ca66b4d73860d6eb40e911b5e1b3f4512898f18606736bcb592d9
 docker: quay.io/biocontainers/sts-smctc

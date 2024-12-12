@@ -5,6 +5,7 @@ latest:
   0.2.0a0--pyh7e72e81_0: sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160
 tags:
   0.2.0a0--pyh7e72e81_0: sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160
+  0.2.0b0--pyh7e72e81_0: sha256:795c60e7cfa1abecc670244760382747b9656025a5a3fb5b56514bd0b9d3ebfe
 docker: quay.io/biocontainers/mzpaf
 aliases:
   idle3.13: /usr/local/bin/idle3.13

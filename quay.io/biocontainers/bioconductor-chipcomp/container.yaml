@@ -4,7 +4,10 @@ description: shpc-registry automated BioContainers addition for bioconductor-chi
 latest:
   1.32.0--r43ha9d7317_0: sha256:731d32357b281b439466ae2cfb55af8433661cc36749ac125628a341838c0821
 tags:
-  1.8.0--r3.4.1_0: sha256:e9cd8db63e550d9a9656918f08694b0f677aa86f5e2442d7d0a39f3c4536322d
+  1.8.0--r3.4.1_0: 'crane digest quay.io/biocontainers/bioconductor-chipcomp:1.8.0--r3.4.1_0:
+    Get https://quay.io/v2/auth?scope=repository%3Abiocontainers%2Fbioconductor-chipcomp%3Apull&service=quay.io:
+    read tcp [fddf:3978:feb1:d745::c001]:51418->[2600:1f18:483:cf01:289d:c481:b4c:acf4]:443:
+    read: connection reset by peer'
   1.28.0--r42hc0cfd56_0: sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618
   1.24.0--r41hc0cfd56_2: sha256:6c7996496037c75005709d09eaf0bbda3296184dba6c2675fe8b3e6b9ed76d65
   1.22.0--r41hd029910_0: sha256:22a5715f03cad9d4a0de62bb077df1fd6eb924e126ece4c0fb4fa819667c28d5
