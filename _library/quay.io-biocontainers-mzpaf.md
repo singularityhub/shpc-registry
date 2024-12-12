@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mzpaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzpaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzpaf/container.yaml"
-updated_at: "2024-12-11 03:29:58.702315"
+updated_at: "2024-12-12 03:30:09.106247"
 latest: "0.2.0a0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mzpaf"
 aliases:

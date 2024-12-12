@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pwmenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwmenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwmenrich/container.yaml"
-updated_at: "2024-12-11 03:51:28.443033"
+updated_at: "2024-12-12 03:51:56.130726"
 latest: "4.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwmenrich"
 

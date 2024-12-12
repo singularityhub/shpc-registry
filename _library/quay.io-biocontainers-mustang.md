@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mustang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mustang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mustang/container.yaml"
-updated_at: "2024-12-11 03:15:11.063936"
-latest: "3.2.3--h2d50403_1"
+updated_at: "2024-12-12 03:15:41.174248"
+latest: "3.2.4--h9948957_0"
 container_url: "https://biocontainers.pro/tools/mustang"
 aliases:
  - "mustang"
 versions:
  - "3.2.3--h2d50403_1"
+ - "3.2.4--h9948957_0"
 description: "shpc-registry automated BioContainers addition for mustang"
-config: {"url": "https://biocontainers.pro/tools/mustang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mustang", "latest": {"3.2.3--h2d50403_1": "sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455"}, "tags": {"3.2.3--h2d50403_1": "sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455"}, "docker": "quay.io/biocontainers/mustang", "aliases": {"mustang": "/usr/local/bin/mustang"}}
+config: {"url": "https://biocontainers.pro/tools/mustang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mustang", "latest": {"3.2.4--h9948957_0": "sha256:410efe044c30ccd530ab4187792e26abbce0711532f3a5dd0d5bdcf4d2603a6e"}, "tags": {"3.2.3--h2d50403_1": "sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455", "3.2.4--h9948957_0": "sha256:410efe044c30ccd530ab4187792e26abbce0711532f3a5dd0d5bdcf4d2603a6e"}, "docker": "quay.io/biocontainers/mustang", "aliases": {"mustang": "/usr/local/bin/mustang"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mustang.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mustang
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mustang:3.2.3--h2d50403_1
+$ shpc install quay.io/biocontainers/mustang:3.2.4--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mustang/3.2.3--h2d50403_1
-$ module help quay.io/biocontainers/mustang/3.2.3--h2d50403_1
+$ module load quay.io/biocontainers/mustang/3.2.4--h9948957_0
+$ module help quay.io/biocontainers/mustang/3.2.4--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

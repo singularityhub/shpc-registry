@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cluster_vcf_records"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cluster_vcf_records/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cluster_vcf_records/container.yaml"
-updated_at: "2024-12-11 03:50:05.504452"
+updated_at: "2024-12-12 03:50:35.322372"
 latest: "0.13.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cluster_vcf_records"
 aliases:

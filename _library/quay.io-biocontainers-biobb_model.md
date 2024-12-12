@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_model"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_model/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_model/container.yaml"
-updated_at: "2024-12-11 03:21:39.067305"
-latest: "4.2.3--pyhdfd78af_0"
+updated_at: "2024-12-12 03:22:00.956928"
+latest: "5.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_model"
 aliases:
  - "check_structure"
@@ -32,8 +32,9 @@ versions:
  - "4.1.0--pyhdfd78af_0"
  - "4.2.1--pyhdfd78af_0"
  - "4.2.3--pyhdfd78af_0"
+ - "5.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_model"
-config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"4.2.3--pyhdfd78af_0": "sha256:c853766d161b21b9111f5c7c191692f8a58cf320a9415908478d5bbd169db88b"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1", "3.8.1--pyhdfd78af_0": "sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44", "3.9.0--pyhdfd78af_0": "sha256:0e76e79054236535878bf22d408ea1fb7a59fdd49265c4707e48116cbf67e5aa", "4.0.0--pyhdfd78af_0": "sha256:1a1d7a5086ad6f49c828caa14fecf89a95d5c529e974f393551ec2f92406633c", "4.0.1--pyhdfd78af_0": "sha256:44f67be65e6a3d9d05771fd1660bffc52108ddbec9bf4e465c60bb39b05ff3df", "4.1.0--pyhdfd78af_0": "sha256:258fdb6613ea9f36bd832c7b50798954c943320373d4b839053635d48874bb32", "4.2.1--pyhdfd78af_0": "sha256:1f2f1efb7ccaaaa454c6197db0a6a113b3d75ade7bfcec2ce8ed38d09c2989df", "4.2.3--pyhdfd78af_0": "sha256:c853766d161b21b9111f5c7c191692f8a58cf320a9415908478d5bbd169db88b"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"5.0.0--pyhdfd78af_0": "sha256:4267c758794f3b5dd4ab8a3d9618516d0bd1bc6ca5d1ef9d409aebae921b6aa8"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1", "3.8.1--pyhdfd78af_0": "sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44", "3.9.0--pyhdfd78af_0": "sha256:0e76e79054236535878bf22d408ea1fb7a59fdd49265c4707e48116cbf67e5aa", "4.0.0--pyhdfd78af_0": "sha256:1a1d7a5086ad6f49c828caa14fecf89a95d5c529e974f393551ec2f92406633c", "4.0.1--pyhdfd78af_0": "sha256:44f67be65e6a3d9d05771fd1660bffc52108ddbec9bf4e465c60bb39b05ff3df", "4.1.0--pyhdfd78af_0": "sha256:258fdb6613ea9f36bd832c7b50798954c943320373d4b839053635d48874bb32", "4.2.1--pyhdfd78af_0": "sha256:1f2f1efb7ccaaaa454c6197db0a6a113b3d75ade7bfcec2ce8ed38d09c2989df", "4.2.3--pyhdfd78af_0": "sha256:c853766d161b21b9111f5c7c191692f8a58cf320a9415908478d5bbd169db88b", "5.0.0--pyhdfd78af_0": "sha256:4267c758794f3b5dd4ab8a3d9618516d0bd1bc6ca5d1ef9d409aebae921b6aa8"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_model.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/biobb_model
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_model:4.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_model:5.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_model/4.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_model/4.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_model/5.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_model/5.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

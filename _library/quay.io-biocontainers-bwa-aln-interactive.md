@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bwa-aln-interactive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-aln-interactive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-aln-interactive/container.yaml"
-updated_at: "2024-12-11 03:27:15.672147"
-latest: "0.7.18--he4a0461_1"
+updated_at: "2024-12-12 03:27:32.423234"
+latest: "0.7.18--h577a1d6_2"
 container_url: "https://biocontainers.pro/tools/bwa-aln-interactive"
 aliases:
  - "bwa-aln-interactive"
 versions:
  - "0.7.18--he4a0461_0"
  - "0.7.18--he4a0461_1"
+ - "0.7.18--h577a1d6_2"
 description: "singularity registry hpc automated addition for bwa-aln-interactive"
-config: {"url": "https://biocontainers.pro/tools/bwa-aln-interactive", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-aln-interactive", "latest": {"0.7.18--he4a0461_1": "sha256:4a00c21d1c6093a22f0597541f55bfb26fefa5ee3b90ea049a4babaeb542d4ed"}, "tags": {"0.7.18--he4a0461_0": "sha256:eccc46aae5ae9649ef24d0f8be20cddf1875635e7d81e67e3622257a8f2f1eb7", "0.7.18--he4a0461_1": "sha256:4a00c21d1c6093a22f0597541f55bfb26fefa5ee3b90ea049a4babaeb542d4ed"}, "docker": "quay.io/biocontainers/bwa-aln-interactive", "aliases": {"bwa-aln-interactive": "/usr/local/bin/bwa-aln-interactive"}}
+config: {"url": "https://biocontainers.pro/tools/bwa-aln-interactive", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-aln-interactive", "latest": {"0.7.18--h577a1d6_2": "sha256:ca6ac8085aaaf3ff259f67d2bbe4fa71bba027f97bbbc93d5eed7087bdc6c611"}, "tags": {"0.7.18--he4a0461_0": "sha256:eccc46aae5ae9649ef24d0f8be20cddf1875635e7d81e67e3622257a8f2f1eb7", "0.7.18--he4a0461_1": "sha256:4a00c21d1c6093a22f0597541f55bfb26fefa5ee3b90ea049a4babaeb542d4ed", "0.7.18--h577a1d6_2": "sha256:ca6ac8085aaaf3ff259f67d2bbe4fa71bba027f97bbbc93d5eed7087bdc6c611"}, "docker": "quay.io/biocontainers/bwa-aln-interactive", "aliases": {"bwa-aln-interactive": "/usr/local/bin/bwa-aln-interactive"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa-aln-interactive.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bwa-aln-interactive
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa-aln-interactive:0.7.18--he4a0461_1
+$ shpc install quay.io/biocontainers/bwa-aln-interactive:0.7.18--h577a1d6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa-aln-interactive/0.7.18--he4a0461_1
-$ module help quay.io/biocontainers/bwa-aln-interactive/0.7.18--he4a0461_1
+$ module load quay.io/biocontainers/bwa-aln-interactive/0.7.18--h577a1d6_2
+$ module help quay.io/biocontainers/bwa-aln-interactive/0.7.18--h577a1d6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
