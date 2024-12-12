@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-mark-dups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-mark-dups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-mark-dups/container.yaml"
-updated_at: "2024-12-12 03:22:38.877328"
+updated_at: "2024-12-12 03:55:13.774926"
 latest: "1.1.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-mark-dups"
 aliases:

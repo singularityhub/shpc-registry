@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tidk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidk/container.yaml"
-updated_at: "2024-12-12 03:20:34.766607"
+updated_at: "2024-12-12 03:53:09.870665"
 latest: "0.2.63--h2e7e638_1"
 container_url: "https://biocontainers.pro/tools/tidk"
 aliases:

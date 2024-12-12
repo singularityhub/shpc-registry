@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-asurat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asurat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asurat/container.yaml"
-updated_at: "2024-12-12 03:24:46.941284"
+updated_at: "2024-12-12 03:57:21.735635"
 latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asurat"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumihumanidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumihumanidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanidmapping/container.yaml"
-updated_at: "2024-12-12 03:42:57.669664"
+updated_at: "2024-12-12 04:14:55.514958"
 latest: "1.10.1--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumihumanidmapping"
 
