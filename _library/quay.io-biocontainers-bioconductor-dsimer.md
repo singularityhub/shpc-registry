@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dsimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
-updated_at: "2024-12-12 03:52:40.862580"
+updated_at: "2024-12-13 03:21:26.278629"
 latest: "1.6.0--r341hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dsimer"
 aliases:

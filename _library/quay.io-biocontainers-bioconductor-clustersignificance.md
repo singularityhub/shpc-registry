@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clustersignificance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustersignificance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustersignificance/container.yaml"
-updated_at: "2024-12-12 03:50:29.376941"
+updated_at: "2024-12-13 03:19:14.238359"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustersignificance"
 

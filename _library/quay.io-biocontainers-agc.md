@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/agc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agc/container.yaml"
-updated_at: "2024-12-12 04:06:12.353323"
-latest: "3.1--h9ee0642_1"
+updated_at: "2024-12-13 03:35:03.210246"
+latest: "3.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/agc"
 aliases:
  - "agc"
@@ -13,8 +13,10 @@ versions:
  - "3.0--h9ee0642_0"
  - "3.1--h9ee0642_0"
  - "3.1--h9ee0642_1"
+ - "3.2--h9ee0642_0"
+ - "3.1--h9ee0642_2"
 description: "singularity registry hpc automated addition for agc"
-config: {"url": "https://biocontainers.pro/tools/agc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agc", "latest": {"3.1--h9ee0642_1": "sha256:5d578d074cd8c9a7f196a8844601821da4b98115645ec88d174761cf7e535060"}, "tags": {"3.0--h9ee0642_0": "sha256:e1a8b39f5300aa149ce90358b372f48a67881a80b1ad7e0c356f16e20b76f3f9", "3.1--h9ee0642_0": "sha256:9b46430f9e47a76fdd83fbbd06789eb165c76638884f24831c12965eb8d4bda5", "3.1--h9ee0642_1": "sha256:5d578d074cd8c9a7f196a8844601821da4b98115645ec88d174761cf7e535060"}, "docker": "quay.io/biocontainers/agc", "aliases": {"agc": "/usr/local/bin/agc"}}
+config: {"url": "https://biocontainers.pro/tools/agc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agc", "latest": {"3.2--h9ee0642_0": "sha256:5c4343930ab3e58abadd2981523e231f7ee7fd599ccbc94396c2c40fd2bd7eed"}, "tags": {"3.0--h9ee0642_0": "sha256:e1a8b39f5300aa149ce90358b372f48a67881a80b1ad7e0c356f16e20b76f3f9", "3.1--h9ee0642_0": "sha256:9b46430f9e47a76fdd83fbbd06789eb165c76638884f24831c12965eb8d4bda5", "3.1--h9ee0642_1": "sha256:5d578d074cd8c9a7f196a8844601821da4b98115645ec88d174761cf7e535060", "3.2--h9ee0642_0": "sha256:5c4343930ab3e58abadd2981523e231f7ee7fd599ccbc94396c2c40fd2bd7eed", "3.1--h9ee0642_2": "sha256:366875de3384124d2d017bfae5b0747d3abd2df2e782c1ce239ddec909425713"}, "docker": "quay.io/biocontainers/agc", "aliases": {"agc": "/usr/local/bin/agc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/agc.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/agc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/agc:3.1--h9ee0642_1
+$ shpc install quay.io/biocontainers/agc:3.2--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/agc/3.1--h9ee0642_1
-$ module help quay.io/biocontainers/agc/3.1--h9ee0642_1
+$ module load quay.io/biocontainers/agc/3.2--h9ee0642_0
+$ module help quay.io/biocontainers/agc/3.2--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

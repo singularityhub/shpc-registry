@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdust/container.yaml"
-updated_at: "2024-12-12 03:45:36.934690"
-latest: "0.1--hdcf5f25_1"
+updated_at: "2024-12-13 03:14:21.337550"
+latest: "0.1--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/sdust"
 aliases:
  - "sdust"
 versions:
  - "0.1--hdcf5f25_1"
+ - "0.1--h077b44d_2"
 description: "singularity registry hpc automated addition for sdust"
-config: {"url": "https://biocontainers.pro/tools/sdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sdust", "latest": {"0.1--hdcf5f25_1": "sha256:09e66e581edc837b3d25d34f4dac2c5492c1ad7bf979ca414fc8e533d750c3c4"}, "tags": {"0.1--hdcf5f25_1": "sha256:09e66e581edc837b3d25d34f4dac2c5492c1ad7bf979ca414fc8e533d750c3c4"}, "docker": "quay.io/biocontainers/sdust", "aliases": {"sdust": "/usr/local/bin/sdust"}}
+config: {"url": "https://biocontainers.pro/tools/sdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sdust", "latest": {"0.1--h077b44d_2": "sha256:4dc0baa8d4d4104e57379a1abcb359dcb08b793619fbe998a7ba83d2fd4d5b95"}, "tags": {"0.1--hdcf5f25_1": "sha256:09e66e581edc837b3d25d34f4dac2c5492c1ad7bf979ca414fc8e533d750c3c4", "0.1--h077b44d_2": "sha256:4dc0baa8d4d4104e57379a1abcb359dcb08b793619fbe998a7ba83d2fd4d5b95"}, "docker": "quay.io/biocontainers/sdust", "aliases": {"sdust": "/usr/local/bin/sdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sdust.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sdust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sdust:0.1--hdcf5f25_1
+$ shpc install quay.io/biocontainers/sdust:0.1--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sdust/0.1--hdcf5f25_1
-$ module help quay.io/biocontainers/sdust/0.1--hdcf5f25_1
+$ module load quay.io/biocontainers/sdust/0.1--h077b44d_2
+$ module help quay.io/biocontainers/sdust/0.1--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

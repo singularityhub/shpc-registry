@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mzpaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzpaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzpaf/container.yaml"
-updated_at: "2024-12-12 04:02:42.721503"
+updated_at: "2024-12-13 03:31:31.871833"
 latest: "0.2.0a0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mzpaf"
 aliases:
@@ -32,8 +32,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.2.0a0--pyh7e72e81_0"
+ - "0.2.0b0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for mzpaf"
-config: {"url": "https://biocontainers.pro/tools/mzpaf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzpaf", "latest": {"0.2.0a0--pyh7e72e81_0": "sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160"}, "tags": {"0.2.0a0--pyh7e72e81_0": "sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160"}, "docker": "quay.io/biocontainers/mzpaf", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/mzpaf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzpaf", "latest": {"0.2.0a0--pyh7e72e81_0": "sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160"}, "tags": {"0.2.0a0--pyh7e72e81_0": "sha256:60f355b2bfbf21629c582bdce0d16657bc41f80fdba58829f224c13dc1491160", "0.2.0b0--pyh7e72e81_0": "sha256:795c60e7cfa1abecc670244760382747b9656025a5a3fb5b56514bd0b9d3ebfe"}, "docker": "quay.io/biocontainers/mzpaf", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mzpaf.

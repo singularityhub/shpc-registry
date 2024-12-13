@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-obmiti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-obmiti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-obmiti/container.yaml"
-updated_at: "2024-12-12 04:12:35.048537"
+updated_at: "2024-12-13 03:41:32.561387"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-obmiti"
 
