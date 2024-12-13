@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/zamp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zamp
 latest:
-  1.0.0--pyhdfd78af_0: sha256:77b5fdb7d22424931e26b1ba1d4174dbb47ddd7abc6b7b23180756eab513507b
+  1.0.0--pyhdfd78af_1: sha256:6ef80f2f551df8ddcbaf479f1ceb4f43df11ccda57c412282f974df682e13645
 tags:
   1.0.0--pyhdfd78af_0: sha256:77b5fdb7d22424931e26b1ba1d4174dbb47ddd7abc6b7b23180756eab513507b
+  1.0.0--pyhdfd78af_1: sha256:6ef80f2f551df8ddcbaf479f1ceb4f43df11ccda57c412282f974df682e13645
 docker: quay.io/biocontainers/zamp
 aliases:
   apptainer: /usr/local/bin/apptainer

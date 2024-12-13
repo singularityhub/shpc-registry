@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/conifer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for conifer
 latest:
-  1.0.2--he4a0461_0: sha256:579bb7052d2535e466c2cd20263da086409f44a78d4858339e06f77d615ca227
+  1.0.2--h577a1d6_1: sha256:f03434f9cd3e2b886e58aa7d9823d642a352609e592b953221627a879cd765a2
 tags:
   1.0.2--he4a0461_0: sha256:579bb7052d2535e466c2cd20263da086409f44a78d4858339e06f77d615ca227
+  1.0.2--h577a1d6_1: sha256:f03434f9cd3e2b886e58aa7d9823d642a352609e592b953221627a879cd765a2
 docker: quay.io/biocontainers/conifer
 aliases:
   conifer: /usr/local/bin/conifer

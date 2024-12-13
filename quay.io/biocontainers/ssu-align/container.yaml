@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ssu-align
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ssu-align
 latest:
-  0.1.1--h031d066_6: sha256:7699102b69a4502e659769b3931445f162ec56cf4058fe8bb86b5848ec9c8c0b
+  0.1.1--h7b50bb2_7: sha256:276f8f57c6c5631b1f2709cc786c3b1db9a5b05321b363f91b362f22b8f23c41
 tags:
   0.1.1--hec16e2b_4: sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d
   0.1.1--hec16e2b_5: sha256:c00b95b2fd7aa9d0f6c93317441c5550f5eaf906e9795f3fe45d24d45264c6d1
   0.1.1--h031d066_6: sha256:7699102b69a4502e659769b3931445f162ec56cf4058fe8bb86b5848ec9c8c0b
+  0.1.1--h7b50bb2_7: sha256:276f8f57c6c5631b1f2709cc786c3b1db9a5b05321b363f91b362f22b8f23c41
 docker: quay.io/biocontainers/ssu-align
 aliases:
   _ssu-align: /usr/local/bin/_ssu-align

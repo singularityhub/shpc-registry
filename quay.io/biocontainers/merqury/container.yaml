@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/merqury
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for merqury
 latest:
-  1.3--hdfd78af_2: sha256:d29cf65b57a5d5b23ede88b0785878831af3f245a977b04642e7bbc43619ee28
+  1.3--hdfd78af_3: sha256:24d503bcbb95ace376fa7a9dfe8e32ceda2f75acf18498edf791a4e217a81efc
 tags:
   v1.0--0: sha256:9a83df64687dcbd1b03a23882503669b0620ee63f8febe734eeb56d7ddf23210
   1.3--hdfd78af_1: sha256:05c1d4942b1d7c6481591a651bb325f74e2be99a3676f693fd599f8b459652a5
   1.1--hdfd78af_3: sha256:06000df147bf2398e7030e4e54ef0179502268d77baa579f70d52c347f7f82bf
   1.3--hdfd78af_2: sha256:d29cf65b57a5d5b23ede88b0785878831af3f245a977b04642e7bbc43619ee28
+  1.3--hdfd78af_3: sha256:24d503bcbb95ace376fa7a9dfe8e32ceda2f75acf18498edf791a4e217a81efc
 docker: quay.io/biocontainers/merqury
 aliases:
   igvtools: /usr/local/bin/igvtools

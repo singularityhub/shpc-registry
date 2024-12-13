@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/deepfplearn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deepfplearn
 latest:
-  2.0--pyhdfd78af_0: sha256:33e0bc566dfecc6ad322b8a6c82c199cbe480ba4327e5fa5cf825c01e15b7c98
+  2.1--pyh42286b9_1: sha256:01edc3ed6aab2f6b048582478d94bcc2591c97de1d3b1e5b96777241b770195f
 tags:
   1.2--pyhdfd78af_0: sha256:6d1aad0d1db3f80273c301d884d5be9f219bb7879fac144865c3e29dff3723d2
   2.0--pyhdfd78af_0: sha256:33e0bc566dfecc6ad322b8a6c82c199cbe480ba4327e5fa5cf825c01e15b7c98
+  2.1--pyh42286b9_1: sha256:01edc3ed6aab2f6b048582478d94bcc2591c97de1d3b1e5b96777241b770195f
 docker: quay.io/biocontainers/deepfplearn
 aliases:
   dfpl: /usr/local/bin/dfpl

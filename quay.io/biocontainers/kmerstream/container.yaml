@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/kmerstream
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kmerstream
 latest:
-  1.1--hdcf5f25_5: sha256:46fae3d2c60bcd5eceb3a4b0f1fb04a29801ebb182d5bd2372113615e64e81f1
+  1.1--h077b44d_6: sha256:81d4685a724e0cef0f03ff2745176e438e62467a924a4aeb37bac09afd93b79a
 tags:
   1.1--hd03093a_3: sha256:0e23b0fd1581335b41e230e6acedaafb6576d8187b75021da9b7a27c5edbc596
   1.1--hd03093a_4: sha256:5eac6f283be6d2176b24ce61aaf9e56f9ed4650bce2df5e7ceab954926a5ba42
   1.1--hdcf5f25_5: sha256:46fae3d2c60bcd5eceb3a4b0f1fb04a29801ebb182d5bd2372113615e64e81f1
+  1.1--h077b44d_6: sha256:81d4685a724e0cef0f03ff2745176e438e62467a924a4aeb37bac09afd93b79a
 docker: quay.io/biocontainers/kmerstream
 aliases:
   KmerStream: /usr/local/bin/KmerStream
