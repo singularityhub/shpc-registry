@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genrich/container.yaml"
-updated_at: "2024-12-13 03:17:36.025314"
-latest: "0.6.1--he4a0461_4"
+updated_at: "2024-12-14 03:11:19.405326"
+latest: "0.6.1--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/genrich"
 aliases:
  - "Genrich"
@@ -13,8 +13,9 @@ versions:
  - "0.6.1--h7132678_2"
  - "0.6.1--h7132678_3"
  - "0.6.1--he4a0461_4"
+ - "0.6.1--h577a1d6_5"
 description: "shpc-registry automated BioContainers addition for genrich"
-config: {"url": "https://biocontainers.pro/tools/genrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genrich", "latest": {"0.6.1--he4a0461_4": "sha256:a3c00a97bc4eee75ce1481eccbd6977ce9d11ac3153ad31217774ac4cecb8455"}, "tags": {"0.6.1--h7132678_2": "sha256:f6aa2933a4cb8829b7ffa452deffc7a3b79a40f4b04647740d17504a7f86c295", "0.6.1--h7132678_3": "sha256:6808acb0f07c36cfbdb8384bd9124564a522b4b3e66fcbe3fdf0a5eeb844086d", "0.6.1--he4a0461_4": "sha256:a3c00a97bc4eee75ce1481eccbd6977ce9d11ac3153ad31217774ac4cecb8455"}, "docker": "quay.io/biocontainers/genrich", "aliases": {"Genrich": "/usr/local/bin/Genrich"}}
+config: {"url": "https://biocontainers.pro/tools/genrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genrich", "latest": {"0.6.1--h577a1d6_5": "sha256:cbce66a1dd18ff84bac836416e9554a49cb80e6dd1003e0e7d246119562b3fc7"}, "tags": {"0.6.1--h7132678_2": "sha256:f6aa2933a4cb8829b7ffa452deffc7a3b79a40f4b04647740d17504a7f86c295", "0.6.1--h7132678_3": "sha256:6808acb0f07c36cfbdb8384bd9124564a522b4b3e66fcbe3fdf0a5eeb844086d", "0.6.1--he4a0461_4": "sha256:a3c00a97bc4eee75ce1481eccbd6977ce9d11ac3153ad31217774ac4cecb8455", "0.6.1--h577a1d6_5": "sha256:cbce66a1dd18ff84bac836416e9554a49cb80e6dd1003e0e7d246119562b3fc7"}, "docker": "quay.io/biocontainers/genrich", "aliases": {"Genrich": "/usr/local/bin/Genrich"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genrich.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/genrich
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genrich:0.6.1--he4a0461_4
+$ shpc install quay.io/biocontainers/genrich:0.6.1--h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genrich/0.6.1--he4a0461_4
-$ module help quay.io/biocontainers/genrich/0.6.1--he4a0461_4
+$ module load quay.io/biocontainers/genrich/0.6.1--h577a1d6_5
+$ module help quay.io/biocontainers/genrich/0.6.1--h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

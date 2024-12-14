@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/conifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conifer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conifer/container.yaml"
-updated_at: "2024-12-13 03:12:56.131746"
-latest: "1.0.2--he4a0461_0"
+updated_at: "2024-12-14 03:06:34.423924"
+latest: "1.0.2--h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/conifer"
 aliases:
  - "conifer"
@@ -14,8 +14,9 @@ aliases:
  - "taxid_name"
 versions:
  - "1.0.2--he4a0461_0"
+ - "1.0.2--h577a1d6_1"
 description: "singularity registry hpc automated addition for conifer"
-config: {"url": "https://biocontainers.pro/tools/conifer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for conifer", "latest": {"1.0.2--he4a0461_0": "sha256:579bb7052d2535e466c2cd20263da086409f44a78d4858339e06f77d615ca227"}, "tags": {"1.0.2--he4a0461_0": "sha256:579bb7052d2535e466c2cd20263da086409f44a78d4858339e06f77d615ca227"}, "docker": "quay.io/biocontainers/conifer", "aliases": {"conifer": "/usr/local/bin/conifer", "is_a_parent_of_b": "/usr/local/bin/is_a_parent_of_b", "show_ancestors": "/usr/local/bin/show_ancestors", "taxid_name": "/usr/local/bin/taxid_name"}}
+config: {"url": "https://biocontainers.pro/tools/conifer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for conifer", "latest": {"1.0.2--h577a1d6_1": "sha256:f03434f9cd3e2b886e58aa7d9823d642a352609e592b953221627a879cd765a2"}, "tags": {"1.0.2--he4a0461_0": "sha256:579bb7052d2535e466c2cd20263da086409f44a78d4858339e06f77d615ca227", "1.0.2--h577a1d6_1": "sha256:f03434f9cd3e2b886e58aa7d9823d642a352609e592b953221627a879cd765a2"}, "docker": "quay.io/biocontainers/conifer", "aliases": {"conifer": "/usr/local/bin/conifer", "is_a_parent_of_b": "/usr/local/bin/is_a_parent_of_b", "show_ancestors": "/usr/local/bin/show_ancestors", "taxid_name": "/usr/local/bin/taxid_name"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/conifer.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/conifer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/conifer:1.0.2--he4a0461_0
+$ shpc install quay.io/biocontainers/conifer:1.0.2--h577a1d6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/conifer/1.0.2--he4a0461_0
-$ module help quay.io/biocontainers/conifer/1.0.2--he4a0461_0
+$ module load quay.io/biocontainers/conifer/1.0.2--h577a1d6_1
+$ module help quay.io/biocontainers/conifer/1.0.2--h577a1d6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

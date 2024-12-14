@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cryfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryfa/container.yaml"
-updated_at: "2024-12-13 03:17:32.591634"
-latest: "20.04--h4ac6f70_2"
+updated_at: "2024-12-14 03:11:15.939554"
+latest: "20.04--h9948957_3"
 container_url: "https://biocontainers.pro/tools/cryfa"
 aliases:
  - "cryfa"
@@ -14,8 +14,9 @@ versions:
  - "20.04--h9f5acd7_0"
  - "20.04--h9f5acd7_1"
  - "20.04--h4ac6f70_2"
+ - "20.04--h9948957_3"
 description: "shpc-registry automated BioContainers addition for cryfa"
-config: {"url": "https://biocontainers.pro/tools/cryfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryfa", "latest": {"20.04--h4ac6f70_2": "sha256:041708c397f34e61cd008bc6a44628601e4fe0f1b8672cf32f4a648eaad3473b"}, "tags": {"20.04--h9f5acd7_0": "sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20", "20.04--h9f5acd7_1": "sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee", "20.04--h4ac6f70_2": "sha256:041708c397f34e61cd008bc6a44628601e4fe0f1b8672cf32f4a648eaad3473b"}, "docker": "quay.io/biocontainers/cryfa", "aliases": {"cryfa": "/usr/local/bin/cryfa", "keygen": "/usr/local/bin/keygen"}}
+config: {"url": "https://biocontainers.pro/tools/cryfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryfa", "latest": {"20.04--h9948957_3": "sha256:d350c639c942976536b6601c491c0c53ebd5809d170c809589b289d8576b7d02"}, "tags": {"20.04--h9f5acd7_0": "sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20", "20.04--h9f5acd7_1": "sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee", "20.04--h4ac6f70_2": "sha256:041708c397f34e61cd008bc6a44628601e4fe0f1b8672cf32f4a648eaad3473b", "20.04--h9948957_3": "sha256:d350c639c942976536b6601c491c0c53ebd5809d170c809589b289d8576b7d02"}, "docker": "quay.io/biocontainers/cryfa", "aliases": {"cryfa": "/usr/local/bin/cryfa", "keygen": "/usr/local/bin/keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cryfa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/cryfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cryfa:20.04--h4ac6f70_2
+$ shpc install quay.io/biocontainers/cryfa:20.04--h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cryfa/20.04--h4ac6f70_2
-$ module help quay.io/biocontainers/cryfa/20.04--h4ac6f70_2
+$ module load quay.io/biocontainers/cryfa/20.04--h9948957_3
+$ module help quay.io/biocontainers/cryfa/20.04--h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

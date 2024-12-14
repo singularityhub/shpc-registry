@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singlecellsignalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecellsignalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecellsignalr/container.yaml"
-updated_at: "2024-12-13 03:31:28.776916"
+updated_at: "2024-12-14 03:25:22.786174"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecellsignalr"
 

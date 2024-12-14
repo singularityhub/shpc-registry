@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sherpas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sherpas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sherpas/container.yaml"
-updated_at: "2024-12-13 03:11:35.401159"
-latest: "1.0.2--h4ac6f70_5"
+updated_at: "2024-12-14 03:05:11.882605"
+latest: "1.0.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/sherpas"
 aliases:
  - "SHERPAS"
@@ -14,8 +14,9 @@ versions:
  - "1.0.2--h2df963e_3"
  - "1.0.2--h376f1d3_4"
  - "1.0.2--h4ac6f70_5"
+ - "1.0.2--h9948957_6"
 description: "shpc-registry automated BioContainers addition for sherpas"
-config: {"url": "https://biocontainers.pro/tools/sherpas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sherpas", "latest": {"1.0.2--h4ac6f70_5": "sha256:2a1745d7d1ddf4500c3062c8c5b5d5629b9d681bc8419dca934168394020ee67"}, "tags": {"1.0.2--h2df963e_2": "sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b", "1.0.2--h2df963e_3": "sha256:79e346d8b5274eef1555e0a9a95e29d8fae8ab91c14b97f099a54df28e57d544", "1.0.2--h376f1d3_4": "sha256:4b6d6d5d0e8f80798d1546baa76369455235d3de76dcd7f5bc89a3436d3ee271", "1.0.2--h4ac6f70_5": "sha256:2a1745d7d1ddf4500c3062c8c5b5d5629b9d681bc8419dca934168394020ee67"}, "docker": "quay.io/biocontainers/sherpas", "aliases": {"SHERPAS": "/usr/local/bin/SHERPAS"}}
+config: {"url": "https://biocontainers.pro/tools/sherpas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sherpas", "latest": {"1.0.2--h9948957_6": "sha256:0d31b00604e6d78ba13229c7cb130e53e186ee21bdd8810674d7875ae7c230f9"}, "tags": {"1.0.2--h2df963e_2": "sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b", "1.0.2--h2df963e_3": "sha256:79e346d8b5274eef1555e0a9a95e29d8fae8ab91c14b97f099a54df28e57d544", "1.0.2--h376f1d3_4": "sha256:4b6d6d5d0e8f80798d1546baa76369455235d3de76dcd7f5bc89a3436d3ee271", "1.0.2--h4ac6f70_5": "sha256:2a1745d7d1ddf4500c3062c8c5b5d5629b9d681bc8419dca934168394020ee67", "1.0.2--h9948957_6": "sha256:0d31b00604e6d78ba13229c7cb130e53e186ee21bdd8810674d7875ae7c230f9"}, "docker": "quay.io/biocontainers/sherpas", "aliases": {"SHERPAS": "/usr/local/bin/SHERPAS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sherpas.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/sherpas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sherpas:1.0.2--h4ac6f70_5
+$ shpc install quay.io/biocontainers/sherpas:1.0.2--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sherpas/1.0.2--h4ac6f70_5
-$ module help quay.io/biocontainers/sherpas/1.0.2--h4ac6f70_5
+$ module load quay.io/biocontainers/sherpas/1.0.2--h9948957_6
+$ module help quay.io/biocontainers/sherpas/1.0.2--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

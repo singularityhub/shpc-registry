@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zamp/container.yaml"
-updated_at: "2024-12-13 03:47:46.746185"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2024-12-14 03:42:00.978396"
+latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/zamp"
 aliases:
  - "apptainer"
@@ -46,8 +46,9 @@ aliases:
  - "jupyter"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for zamp"
-config: {"url": "https://biocontainers.pro/tools/zamp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zamp", "latest": {"1.0.0--pyhdfd78af_0": "sha256:77b5fdb7d22424931e26b1ba1d4174dbb47ddd7abc6b7b23180756eab513507b"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:77b5fdb7d22424931e26b1ba1d4174dbb47ddd7abc6b7b23180756eab513507b"}, "docker": "quay.io/biocontainers/zamp", "aliases": {"apptainer": "/usr/local/bin/apptainer", "bsdunzip": "/usr/local/bin/bsdunzip", "cnitool": "/usr/local/bin/cnitool", "mksquashfs": "/usr/local/bin/mksquashfs", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "unsquashfs": "/usr/local/bin/unsquashfs", "zamp": "/usr/local/bin/zamp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "numpy-config": "/usr/local/bin/numpy-config", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/zamp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zamp", "latest": {"1.0.0--pyhdfd78af_1": "sha256:6ef80f2f551df8ddcbaf479f1ceb4f43df11ccda57c412282f974df682e13645"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:77b5fdb7d22424931e26b1ba1d4174dbb47ddd7abc6b7b23180756eab513507b", "1.0.0--pyhdfd78af_1": "sha256:6ef80f2f551df8ddcbaf479f1ceb4f43df11ccda57c412282f974df682e13645"}, "docker": "quay.io/biocontainers/zamp", "aliases": {"apptainer": "/usr/local/bin/apptainer", "bsdunzip": "/usr/local/bin/bsdunzip", "cnitool": "/usr/local/bin/cnitool", "mksquashfs": "/usr/local/bin/mksquashfs", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "unsquashfs": "/usr/local/bin/unsquashfs", "zamp": "/usr/local/bin/zamp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "numpy-config": "/usr/local/bin/numpy-config", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zamp.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/zamp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zamp:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/zamp:1.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zamp/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/zamp/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/zamp/1.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/zamp/1.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

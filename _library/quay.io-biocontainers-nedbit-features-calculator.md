@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nedbit-features-calculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nedbit-features-calculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nedbit-features-calculator/container.yaml"
-updated_at: "2024-12-13 03:41:52.273313"
-latest: "1.2--h031d066_1"
+updated_at: "2024-12-14 03:36:00.320942"
+latest: "1.2--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/nedbit-features-calculator"
 aliases:
  - "nedbit-features-calculator"
 versions:
  - "1.2--h031d066_1"
+ - "1.2--h7b50bb2_2"
 description: "singularity registry hpc automated addition for nedbit-features-calculator"
-config: {"url": "https://biocontainers.pro/tools/nedbit-features-calculator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nedbit-features-calculator", "latest": {"1.2--h031d066_1": "sha256:6900fc69acc32c4a8f54d7a17d39a0a00b7b5280622fabdb6599399c6c82dc25"}, "tags": {"1.2--h031d066_1": "sha256:6900fc69acc32c4a8f54d7a17d39a0a00b7b5280622fabdb6599399c6c82dc25"}, "docker": "quay.io/biocontainers/nedbit-features-calculator", "aliases": {"nedbit-features-calculator": "/usr/local/bin/nedbit-features-calculator"}}
+config: {"url": "https://biocontainers.pro/tools/nedbit-features-calculator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nedbit-features-calculator", "latest": {"1.2--h7b50bb2_2": "sha256:1e8e6b89d7d37db7d896c04e70ed6c3f99868ca055095056f0fcc3cec3a080af"}, "tags": {"1.2--h031d066_1": "sha256:6900fc69acc32c4a8f54d7a17d39a0a00b7b5280622fabdb6599399c6c82dc25", "1.2--h7b50bb2_2": "sha256:1e8e6b89d7d37db7d896c04e70ed6c3f99868ca055095056f0fcc3cec3a080af"}, "docker": "quay.io/biocontainers/nedbit-features-calculator", "aliases": {"nedbit-features-calculator": "/usr/local/bin/nedbit-features-calculator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nedbit-features-calculator.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nedbit-features-calculator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nedbit-features-calculator:1.2--h031d066_1
+$ shpc install quay.io/biocontainers/nedbit-features-calculator:1.2--h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nedbit-features-calculator/1.2--h031d066_1
-$ module help quay.io/biocontainers/nedbit-features-calculator/1.2--h031d066_1
+$ module load quay.io/biocontainers/nedbit-features-calculator/1.2--h7b50bb2_2
+$ module help quay.io/biocontainers/nedbit-features-calculator/1.2--h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simba_pbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simba_pbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simba_pbg/container.yaml"
-updated_at: "2024-12-13 03:22:08.399405"
-latest: "1.2--py39hff71179_3"
+updated_at: "2024-12-14 03:15:56.532321"
+latest: "1.2--py310h1fe012e_4"
 container_url: "https://biocontainers.pro/tools/simba_pbg"
 aliases:
  - "hwloc-annotate"
@@ -63,8 +63,9 @@ versions:
  - "1.2--py39hf95cd2a_2"
  - "1.2--py310h4b81fae_2"
  - "1.2--py39hff71179_3"
+ - "1.2--py310h1fe012e_4"
 description: "singularity registry hpc automated addition for simba_pbg"
-config: {"url": "https://biocontainers.pro/tools/simba_pbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simba_pbg", "latest": {"1.2--py39hff71179_3": "sha256:35c5831cdd641a5ae022933702f1738eb2855c6e10c4f3f27634ff5cce0448d0"}, "tags": {"1.2--py39hbf8eff0_0": "sha256:12bff4e2f26e0612142fb693b7695229df6334eaa1ba91d480a2a9de92aa7098", "1.2--py36h91eb985_1": "sha256:4f1afae9b6746916304e449459b9d262160eb17f873c35e10bbc33fcf3958ed4", "1.2--py39hf95cd2a_2": "sha256:14d2bfb9a31ddc9ff1892df101415d88e5d292a17bd1e2d14892dea2f7ab3607", "1.2--py310h4b81fae_2": "sha256:9ab0bf9334563fe621fa6c41e95d24c82a228f20392c7867deeb019aca0fc4f0", "1.2--py39hff71179_3": "sha256:35c5831cdd641a5ae022933702f1738eb2855c6e10c4f3f27634ff5cce0448d0"}, "docker": "quay.io/biocontainers/simba_pbg", "aliases": {"hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "torchbiggraph_config": "/usr/local/bin/torchbiggraph_config", "torchbiggraph_eval": "/usr/local/bin/torchbiggraph_eval", "torchbiggraph_example_fb15k": "/usr/local/bin/torchbiggraph_example_fb15k", "torchbiggraph_example_livejournal": "/usr/local/bin/torchbiggraph_example_livejournal", "torchbiggraph_export_to_tsv": "/usr/local/bin/torchbiggraph_export_to_tsv", "torchbiggraph_import_from_parquet": "/usr/local/bin/torchbiggraph_import_from_parquet", "torchbiggraph_import_from_tsv": "/usr/local/bin/torchbiggraph_import_from_tsv", "torchbiggraph_partitionserver": "/usr/local/bin/torchbiggraph_partitionserver", "torchbiggraph_train": "/usr/local/bin/torchbiggraph_train", "torchrun": "/usr/local/bin/torchrun", "aec": "/usr/local/bin/aec", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
+config: {"url": "https://biocontainers.pro/tools/simba_pbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simba_pbg", "latest": {"1.2--py310h1fe012e_4": "sha256:1d5a04e7622f3c338289ac53ae40b1e31b989148b6ddc7c69ed5c58ca7536cc4"}, "tags": {"1.2--py39hbf8eff0_0": "sha256:12bff4e2f26e0612142fb693b7695229df6334eaa1ba91d480a2a9de92aa7098", "1.2--py36h91eb985_1": "sha256:4f1afae9b6746916304e449459b9d262160eb17f873c35e10bbc33fcf3958ed4", "1.2--py39hf95cd2a_2": "sha256:14d2bfb9a31ddc9ff1892df101415d88e5d292a17bd1e2d14892dea2f7ab3607", "1.2--py310h4b81fae_2": "sha256:9ab0bf9334563fe621fa6c41e95d24c82a228f20392c7867deeb019aca0fc4f0", "1.2--py39hff71179_3": "sha256:35c5831cdd641a5ae022933702f1738eb2855c6e10c4f3f27634ff5cce0448d0", "1.2--py310h1fe012e_4": "sha256:1d5a04e7622f3c338289ac53ae40b1e31b989148b6ddc7c69ed5c58ca7536cc4"}, "docker": "quay.io/biocontainers/simba_pbg", "aliases": {"hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "torchbiggraph_config": "/usr/local/bin/torchbiggraph_config", "torchbiggraph_eval": "/usr/local/bin/torchbiggraph_eval", "torchbiggraph_example_fb15k": "/usr/local/bin/torchbiggraph_example_fb15k", "torchbiggraph_example_livejournal": "/usr/local/bin/torchbiggraph_example_livejournal", "torchbiggraph_export_to_tsv": "/usr/local/bin/torchbiggraph_export_to_tsv", "torchbiggraph_import_from_parquet": "/usr/local/bin/torchbiggraph_import_from_parquet", "torchbiggraph_import_from_tsv": "/usr/local/bin/torchbiggraph_import_from_tsv", "torchbiggraph_partitionserver": "/usr/local/bin/torchbiggraph_partitionserver", "torchbiggraph_train": "/usr/local/bin/torchbiggraph_train", "torchrun": "/usr/local/bin/torchrun", "aec": "/usr/local/bin/aec", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simba_pbg.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/simba_pbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simba_pbg:1.2--py39hff71179_3
+$ shpc install quay.io/biocontainers/simba_pbg:1.2--py310h1fe012e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simba_pbg/1.2--py39hff71179_3
-$ module help quay.io/biocontainers/simba_pbg/1.2--py39hff71179_3
+$ module load quay.io/biocontainers/simba_pbg/1.2--py310h1fe012e_4
+$ module help quay.io/biocontainers/simba_pbg/1.2--py310h1fe012e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

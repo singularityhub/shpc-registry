@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staden_io_lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staden_io_lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staden_io_lib/container.yaml"
-updated_at: "2024-12-13 03:29:42.645472"
-latest: "1.15.0--hbc8f6b7_1"
+updated_at: "2024-12-14 03:23:35.697021"
+latest: "1.15.0--hfc9290b_2"
 container_url: "https://biocontainers.pro/tools/staden_io_lib"
 aliases:
  - "append_sff"
@@ -53,8 +53,9 @@ versions:
  - "1.14.14--ha3e660a_9"
  - "1.15.0--hbc8f6b7_0"
  - "1.15.0--hbc8f6b7_1"
+ - "1.15.0--hfc9290b_2"
 description: "shpc-registry automated BioContainers addition for staden_io_lib"
-config: {"url": "https://biocontainers.pro/tools/staden_io_lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staden_io_lib", "latest": {"1.15.0--hbc8f6b7_1": "sha256:7e409430a32f45529eef62377708c597f63b9e47384ae896b936d3b38bb58d65"}, "tags": {"1.14.14--h9ed8d9f_5": "sha256:68bee137512586171be556687d66f42b8c53f7f9204d9448e9dadfdf57ec0b43", "1.14.14--h9ed8d9f_6": "sha256:e13d527dbc4a47ec0fc595b963c6a7d428eb670219caac74666567f6f6c20d82", "1.14.14--h0191234_7": "sha256:deb68df505b8bcb70a04c2d8f107be279a6ba20dec6631d1596959d3b727cf4a", "1.14.14--h0191234_8": "sha256:bdad7ebc2f77d12a22afc79dcdcbba3efd0822b6443643d104751ade962ff593", "1.14.14--ha3e660a_9": "sha256:61c431388dbe8174e21187543d14edcb11423e6bd6236621ff11cbad37b752e6", "1.15.0--hbc8f6b7_0": "sha256:5de11975686565397c9551bcc1e15f3ee8c300d8270d77405c3c6eea386f11d9", "1.15.0--hbc8f6b7_1": "sha256:7e409430a32f45529eef62377708c597f63b9e47384ae896b936d3b38bb58d65"}, "docker": "quay.io/biocontainers/staden_io_lib", "aliases": {"append_sff": "/usr/local/bin/append_sff", "convert_trace": "/usr/local/bin/convert_trace", "cram_dump": "/usr/local/bin/cram_dump", "cram_filter": "/usr/local/bin/cram_filter", "cram_index": "/usr/local/bin/cram_index", "cram_size": "/usr/local/bin/cram_size", "extract_fastq": "/usr/local/bin/extract_fastq", "extract_qual": "/usr/local/bin/extract_qual", "extract_seq": "/usr/local/bin/extract_seq", "get_comment": "/usr/local/bin/get_comment", "hash_exp": "/usr/local/bin/hash_exp", "hash_extract": "/usr/local/bin/hash_extract", "hash_list": "/usr/local/bin/hash_list", "hash_sff": "/usr/local/bin/hash_sff", "hash_tar": "/usr/local/bin/hash_tar", "index_tar": "/usr/local/bin/index_tar", "io_lib-config": "/usr/local/bin/io_lib-config", "makeSCF": "/usr/local/bin/makeSCF", "scf_dump": "/usr/local/bin/scf_dump", "scf_info": "/usr/local/bin/scf_info", "scf_update": "/usr/local/bin/scf_update", "scram_flagstat": "/usr/local/bin/scram_flagstat", "scram_merge": "/usr/local/bin/scram_merge", "scram_pileup": "/usr/local/bin/scram_pileup", "scram_test": "/usr/local/bin/scram_test", "scramble": "/usr/local/bin/scramble", "srf2fasta": "/usr/local/bin/srf2fasta", "srf2fastq": "/usr/local/bin/srf2fastq", "srf_dump_all": "/usr/local/bin/srf_dump_all", "srf_extract_hash": "/usr/local/bin/srf_extract_hash", "srf_extract_linear": "/usr/local/bin/srf_extract_linear", "srf_filter": "/usr/local/bin/srf_filter", "srf_index_hash": "/usr/local/bin/srf_index_hash", "srf_info": "/usr/local/bin/srf_info", "srf_list": "/usr/local/bin/srf_list", "trace_dump": "/usr/local/bin/trace_dump", "ztr_dump": "/usr/local/bin/ztr_dump"}}
+config: {"url": "https://biocontainers.pro/tools/staden_io_lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staden_io_lib", "latest": {"1.15.0--hfc9290b_2": "sha256:6f44af55effe31cac71287d87a872a9f0b51b911db8f783d81e733ba3f0df57f"}, "tags": {"1.14.14--h9ed8d9f_5": "sha256:68bee137512586171be556687d66f42b8c53f7f9204d9448e9dadfdf57ec0b43", "1.14.14--h9ed8d9f_6": "sha256:e13d527dbc4a47ec0fc595b963c6a7d428eb670219caac74666567f6f6c20d82", "1.14.14--h0191234_7": "sha256:deb68df505b8bcb70a04c2d8f107be279a6ba20dec6631d1596959d3b727cf4a", "1.14.14--h0191234_8": "sha256:bdad7ebc2f77d12a22afc79dcdcbba3efd0822b6443643d104751ade962ff593", "1.14.14--ha3e660a_9": "sha256:61c431388dbe8174e21187543d14edcb11423e6bd6236621ff11cbad37b752e6", "1.15.0--hbc8f6b7_0": "sha256:5de11975686565397c9551bcc1e15f3ee8c300d8270d77405c3c6eea386f11d9", "1.15.0--hbc8f6b7_1": "sha256:7e409430a32f45529eef62377708c597f63b9e47384ae896b936d3b38bb58d65", "1.15.0--hfc9290b_2": "sha256:6f44af55effe31cac71287d87a872a9f0b51b911db8f783d81e733ba3f0df57f"}, "docker": "quay.io/biocontainers/staden_io_lib", "aliases": {"append_sff": "/usr/local/bin/append_sff", "convert_trace": "/usr/local/bin/convert_trace", "cram_dump": "/usr/local/bin/cram_dump", "cram_filter": "/usr/local/bin/cram_filter", "cram_index": "/usr/local/bin/cram_index", "cram_size": "/usr/local/bin/cram_size", "extract_fastq": "/usr/local/bin/extract_fastq", "extract_qual": "/usr/local/bin/extract_qual", "extract_seq": "/usr/local/bin/extract_seq", "get_comment": "/usr/local/bin/get_comment", "hash_exp": "/usr/local/bin/hash_exp", "hash_extract": "/usr/local/bin/hash_extract", "hash_list": "/usr/local/bin/hash_list", "hash_sff": "/usr/local/bin/hash_sff", "hash_tar": "/usr/local/bin/hash_tar", "index_tar": "/usr/local/bin/index_tar", "io_lib-config": "/usr/local/bin/io_lib-config", "makeSCF": "/usr/local/bin/makeSCF", "scf_dump": "/usr/local/bin/scf_dump", "scf_info": "/usr/local/bin/scf_info", "scf_update": "/usr/local/bin/scf_update", "scram_flagstat": "/usr/local/bin/scram_flagstat", "scram_merge": "/usr/local/bin/scram_merge", "scram_pileup": "/usr/local/bin/scram_pileup", "scram_test": "/usr/local/bin/scram_test", "scramble": "/usr/local/bin/scramble", "srf2fasta": "/usr/local/bin/srf2fasta", "srf2fastq": "/usr/local/bin/srf2fastq", "srf_dump_all": "/usr/local/bin/srf_dump_all", "srf_extract_hash": "/usr/local/bin/srf_extract_hash", "srf_extract_linear": "/usr/local/bin/srf_extract_linear", "srf_filter": "/usr/local/bin/srf_filter", "srf_index_hash": "/usr/local/bin/srf_index_hash", "srf_info": "/usr/local/bin/srf_info", "srf_list": "/usr/local/bin/srf_list", "trace_dump": "/usr/local/bin/trace_dump", "ztr_dump": "/usr/local/bin/ztr_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staden_io_lib.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/staden_io_lib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staden_io_lib:1.15.0--hbc8f6b7_1
+$ shpc install quay.io/biocontainers/staden_io_lib:1.15.0--hfc9290b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staden_io_lib/1.15.0--hbc8f6b7_1
-$ module help quay.io/biocontainers/staden_io_lib/1.15.0--hbc8f6b7_1
+$ module load quay.io/biocontainers/staden_io_lib/1.15.0--hfc9290b_2
+$ module help quay.io/biocontainers/staden_io_lib/1.15.0--hfc9290b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

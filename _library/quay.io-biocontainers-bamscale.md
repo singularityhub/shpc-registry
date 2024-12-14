@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamscale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamscale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamscale/container.yaml"
-updated_at: "2024-12-13 03:29:15.308948"
-latest: "0.0.5--h22793e8_9"
+updated_at: "2024-12-14 03:23:07.969225"
+latest: "0.0.9--hf9495ce_0"
 container_url: "https://biocontainers.pro/tools/bamscale"
 aliases:
  - "BAMscale"
@@ -17,8 +17,9 @@ versions:
  - "0.0.5--hccf09c8_7"
  - "0.0.5--h37b53dd_8"
  - "0.0.5--h22793e8_9"
+ - "0.0.9--hf9495ce_0"
 description: "shpc-registry automated BioContainers addition for bamscale"
-config: {"url": "https://biocontainers.pro/tools/bamscale", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamscale", "latest": {"0.0.5--h22793e8_9": "sha256:014da599d1d01cbaedccad11c1e48170f3f6df88268f06871b8abdf6a0cf11f2"}, "tags": {"0.0.5--h380da64_6": "sha256:980935848ed8757eccb5ffe7b6de82221b5516a53b8ecddac1dc99198f0ec45f", "0.0.5--hccf09c8_7": "sha256:7fdce2144d3c8ebf6946596760f4d47ef0b73a6892ba08d262eab4b0b518573e", "0.0.5--h37b53dd_8": "sha256:0d9ec955ba1e5e41642506969bfec3da0243532daa1bb5acd09377dc422910db", "0.0.5--h22793e8_9": "sha256:014da599d1d01cbaedccad11c1e48170f3f6df88268f06871b8abdf6a0cf11f2"}, "docker": "quay.io/biocontainers/bamscale", "aliases": {"BAMscale": "/usr/local/bin/BAMscale", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bamscale", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamscale", "latest": {"0.0.9--hf9495ce_0": "sha256:af1dc4e09ef9562b6831b67eaa0c7a4613b8e3142a276107340a07ef09b9cd39"}, "tags": {"0.0.5--h380da64_6": "sha256:980935848ed8757eccb5ffe7b6de82221b5516a53b8ecddac1dc99198f0ec45f", "0.0.5--hccf09c8_7": "sha256:7fdce2144d3c8ebf6946596760f4d47ef0b73a6892ba08d262eab4b0b518573e", "0.0.5--h37b53dd_8": "sha256:0d9ec955ba1e5e41642506969bfec3da0243532daa1bb5acd09377dc422910db", "0.0.5--h22793e8_9": "sha256:014da599d1d01cbaedccad11c1e48170f3f6df88268f06871b8abdf6a0cf11f2", "0.0.9--hf9495ce_0": "sha256:af1dc4e09ef9562b6831b67eaa0c7a4613b8e3142a276107340a07ef09b9cd39"}, "docker": "quay.io/biocontainers/bamscale", "aliases": {"BAMscale": "/usr/local/bin/BAMscale", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamscale.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bamscale
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamscale:0.0.5--h22793e8_9
+$ shpc install quay.io/biocontainers/bamscale:0.0.9--hf9495ce_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamscale/0.0.5--h22793e8_9
-$ module help quay.io/biocontainers/bamscale/0.0.5--h22793e8_9
+$ module load quay.io/biocontainers/bamscale/0.0.9--hf9495ce_0
+$ module help quay.io/biocontainers/bamscale/0.0.9--hf9495ce_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
