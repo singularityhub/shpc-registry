@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mercurial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mercurial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mercurial/container.yaml"
-updated_at: "2024-12-15 03:09:51.468858"
+updated_at: "2024-12-15 04:06:12.293755"
 latest: "5.8"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mercurial"
 aliases:

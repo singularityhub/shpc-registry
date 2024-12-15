@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parse_mito_blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parse_mito_blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parse_mito_blast/container.yaml"
-updated_at: "2024-12-15 03:47:23.634369"
+updated_at: "2024-12-15 04:44:47.065767"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parse_mito_blast"
 aliases:

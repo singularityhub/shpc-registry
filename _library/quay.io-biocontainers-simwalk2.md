@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simwalk2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simwalk2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simwalk2/container.yaml"
-updated_at: "2024-12-15 03:41:32.758828"
+updated_at: "2024-12-15 04:38:42.662826"
 latest: "2.91--haf399aa_6"
 container_url: "https://biocontainers.pro/tools/simwalk2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ropls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ropls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ropls/container.yaml"
-updated_at: "2024-12-15 03:55:43.646971"
+updated_at: "2024-12-15 04:53:31.517875"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ropls"
 aliases:

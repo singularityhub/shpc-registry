@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyimagingmspec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyimagingmspec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyimagingmspec/container.yaml"
-updated_at: "2024-12-15 03:51:00.851018"
+updated_at: "2024-12-15 04:48:34.310764"
 latest: "0.1.4--py_1"
 container_url: "https://biocontainers.pro/tools/pyimagingmspec"
 aliases:
