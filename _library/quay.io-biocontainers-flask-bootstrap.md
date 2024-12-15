@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-bootstrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-bootstrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-bootstrap/container.yaml"
-updated_at: "2024-12-14 03:41:45.360043"
+updated_at: "2024-12-15 03:30:34.830041"
 latest: "3.3.5.7--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-bootstrap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanospring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanospring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanospring/container.yaml"
-updated_at: "2024-12-14 02:59:52.070587"
+updated_at: "2024-12-15 03:27:28.244194"
 latest: "0.2--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/nanospring"
 aliases:

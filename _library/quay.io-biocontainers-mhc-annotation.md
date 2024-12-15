@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhc-annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhc-annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhc-annotation/container.yaml"
-updated_at: "2024-12-14 03:05:05.453823"
+updated_at: "2024-12-15 03:52:41.793329"
 latest: "0.1.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mhc-annotation"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qsignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qsignature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qsignature/container.yaml"
-updated_at: "2024-12-14 03:40:18.756865"
+updated_at: "2024-12-15 03:20:58.774325"
 latest: "0.1pre--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/qsignature"
 aliases:

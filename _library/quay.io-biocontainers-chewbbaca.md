@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chewbbaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chewbbaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chewbbaca/container.yaml"
-updated_at: "2024-12-14 03:21:15.506057"
+updated_at: "2024-12-15 03:30:41.741923"
 latest: "3.3.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chewbbaca"
 aliases:

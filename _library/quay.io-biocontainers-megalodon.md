@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megalodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megalodon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megalodon/container.yaml"
-updated_at: "2024-12-14 02:59:56.985856"
+updated_at: "2024-12-15 03:30:22.486596"
 latest: "2.5.0--py311hdad781d_2"
 container_url: "https://biocontainers.pro/tools/megalodon"
 aliases:

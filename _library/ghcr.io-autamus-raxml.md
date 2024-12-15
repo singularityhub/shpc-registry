@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/raxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/raxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/raxml/container.yaml"
-updated_at: "2024-12-14 02:58:43.335989"
+updated_at: "2024-12-15 03:09:35.497175"
 latest: "8.2.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/raxml"
 aliases:

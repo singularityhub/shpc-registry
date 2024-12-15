@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mergevcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mergevcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mergevcf/container.yaml"
-updated_at: "2024-12-14 03:05:54.696148"
+updated_at: "2024-12-15 03:18:52.901895"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/mergevcf"
 aliases:

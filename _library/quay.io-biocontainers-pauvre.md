@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pauvre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pauvre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pauvre/container.yaml"
-updated_at: "2024-12-14 03:23:13.126093"
+updated_at: "2024-12-15 03:52:21.726614"
 latest: "0.1924--py_0"
 container_url: "https://biocontainers.pro/tools/pauvre"
 aliases:
