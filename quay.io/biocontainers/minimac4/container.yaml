@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/minimac4
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for minimac4
 latest:
-  4.1.6--hd175d40_0: sha256:acf14632cdc8982bef27e59bc4d88c1d0bd87f1c87c7b665f5be69eb96d08450
+  4.1.6--hcb620b3_1: sha256:d5c1e5a5012aa9a0509824e33c31e445b1238d776478a64e016300581c2b4003
 tags:
   4.1.6--hd175d40_0: sha256:acf14632cdc8982bef27e59bc4d88c1d0bd87f1c87c7b665f5be69eb96d08450
+  4.1.6--hcb620b3_1: sha256:d5c1e5a5012aa9a0509824e33c31e445b1238d776478a64e016300581c2b4003
 docker: quay.io/biocontainers/minimac4
 aliases:
   cget: /usr/local/bin/cget

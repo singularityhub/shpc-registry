@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bedtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bedtools
 latest:
-  2.31.1--hf5e1c6e_2: sha256:38756b5ac5d0368e91e85a3ed80cc40827506ebd63d449f5418befcba899b486
+  2.31.1--h13024bc_3: sha256:ffcd7aa5cd028e8156b8412cc4c88e4f7c4bfa44c4da24ac2737f82116940559
 tags:
   2.30.0--h468198e_3: sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1
   2.31.1--hf5e1c6e_1: sha256:c4627fcfa02d43a3ed0235306a187b9eb44281b60bc4e332163d0fda68ba948a
   2.31.1--hf5e1c6e_2: sha256:38756b5ac5d0368e91e85a3ed80cc40827506ebd63d449f5418befcba899b486
+  2.31.1--h13024bc_3: sha256:ffcd7aa5cd028e8156b8412cc4c88e4f7c4bfa44c4da24ac2737f82116940559
 docker: quay.io/biocontainers/bedtools
 aliases:
   bedtools: /usr/local/bin/bedtools

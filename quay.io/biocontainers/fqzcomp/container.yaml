@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/fqzcomp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fqzcomp
 latest:
-  4.6--hdcf5f25_5: sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39
+  4.6--h077b44d_6: sha256:ed139e6003bdb949fdc64d13970b9bd982a3cf9b511e9e14d2d5b86b2dfc74ce
 tags:
   4.6--hd03093a_3: sha256:d29d9e3242d75e7497e51e17d1a7967ace0da4efd5874a96c568eec56c499367
   4.6--hd03093a_4: sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe
   4.6--hdcf5f25_5: sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39
+  4.6--h077b44d_6: sha256:ed139e6003bdb949fdc64d13970b9bd982a3cf9b511e9e14d2d5b86b2dfc74ce
 docker: quay.io/biocontainers/fqzcomp
 aliases:
   fqz_comp: /usr/local/bin/fqz_comp

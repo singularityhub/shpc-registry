@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gdsfmt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gdsfmt
 latest:
-  1.38.0--r43hf17093f_1: sha256:661f71b394acf2b4f6e868a037fd896cf187fc04bcb46659832c911a3fe61df3
+  1.42.0--r44he5774e6_0: sha256:6d454e4f6f09c3784cc30318e500c42bffd9ffd6bcd0e49062f9c4a30127fda0
 tags:
   1.30.0--r41hc247a5b_2: sha256:0c7c2360e51f3db0eac67d90fb795ae238c2a4c81eec1d1dccfbc60d70c8b034
   1.34.0--r42hc247a5b_0: sha256:42931e2d846efb38e2381feb63236b3a1701be49460c4521b2a7f75df35a33eb
@@ -10,4 +10,5 @@ tags:
   1.36.1--r43hf17093f_0: sha256:5d26d1863544e5b91a3b908bed3216ae6561d588cab4b82d757ea04b1f7414dd
   1.38.0--r43hf17093f_0: sha256:20092e95f7da8f361b9dcf0fa0fe4f446fe267e4b2ae6891d57e3427f982510d
   1.38.0--r43hf17093f_1: sha256:661f71b394acf2b4f6e868a037fd896cf187fc04bcb46659832c911a3fe61df3
+  1.42.0--r44he5774e6_0: sha256:6d454e4f6f09c3784cc30318e500c42bffd9ffd6bcd0e49062f9c4a30127fda0
 docker: quay.io/biocontainers/bioconductor-gdsfmt

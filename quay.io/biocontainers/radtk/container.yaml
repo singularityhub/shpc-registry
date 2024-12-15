@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/radtk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for radtk
 latest:
-  0.2.0--h919a2d8_0: sha256:60862e78c43b8b9e353ac675974cbe88d5aaf131f2ce914af1d35f1efc91b5e4
+  0.2.0--ha6fb395_1: sha256:1942e79803789d32313723339fd063c220627a181b65adaac5a604660f4574a6
 tags:
   0.2.0--h919a2d8_0: sha256:60862e78c43b8b9e353ac675974cbe88d5aaf131f2ce914af1d35f1efc91b5e4
+  0.2.0--ha6fb395_1: sha256:1942e79803789d32313723339fd063c220627a181b65adaac5a604660f4574a6
 docker: quay.io/biocontainers/radtk
 aliases:
   radtk: /usr/local/bin/radtk

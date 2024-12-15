@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/wgsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wgsim
 latest:
-  1.0--he4a0461_7: sha256:be81c52fe7d8e0173f64ead0a11789bf3efca49c9c4411bb307a1456f89172b4
+  1.0--h577a1d6_8: sha256:72ec63be44c0feb746f7cb7f2d3c9f1d20afad31d1425cd7c16010e5814e6b38
 tags:
   1.0--h7132678_5: sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c
   1.0--h7132678_6: sha256:2c6f858bbc2e93fc0d3a48c81511855ea6980cee871a0a26be455257ca639023
   1.0--he4a0461_7: sha256:be81c52fe7d8e0173f64ead0a11789bf3efca49c9c4411bb307a1456f89172b4
+  1.0--h577a1d6_8: sha256:72ec63be44c0feb746f7cb7f2d3c9f1d20afad31d1425cd7c16010e5814e6b38
 docker: quay.io/biocontainers/wgsim
 aliases:
   wgsim: /usr/local/bin/wgsim

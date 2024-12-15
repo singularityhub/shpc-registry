@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/kfoots
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kfoots
 latest:
-  1.0--r43h031d066_10: sha256:c0f9947611d461596a58bb9d5798b993cd0dc0b335062d8875379674f89b5856
+  1.0--r44h7b50bb2_11: sha256:21a35f603382af3ca0d6a4838b3ed1a0fa614d4877b5578c80d6ba5bde548575
 tags:
   1.0--r41hec16e2b_6: sha256:54429ee26edcc2d3e3660c2b1b7782f114a08ee7130f10c301b4fd8f90fe3891
   1.0--r42hec16e2b_7: sha256:b688634c21f205266e83d114018b6bbf0c63db9495db8abd4d13855bf666fbf6
   1.0--r42h031d066_9: sha256:fedbd2a7929fecc1fbb1a2a5e9bfa786f5f008eac0d0b0ef1286b7aaae2652e0
   1.0--r43h031d066_10: sha256:c0f9947611d461596a58bb9d5798b993cd0dc0b335062d8875379674f89b5856
+  1.0--r44h7b50bb2_11: sha256:21a35f603382af3ca0d6a4838b3ed1a0fa614d4877b5578c80d6ba5bde548575
 docker: quay.io/biocontainers/kfoots

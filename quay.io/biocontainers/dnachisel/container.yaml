@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dnachisel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dnachisel
 latest:
-  3.2.11--pyh7cba7a3_0: sha256:149c216473f1318d265b472d8862eec798913dd906337bf98f191ac54a443c84
+  3.2.12--pyh7e72e81_0: sha256:8a7fdb86ca676194486dd9caa0c16ba6ec46c6fcd3ca8336387e1dc5dbfebfce
 tags:
   3.2.9--pyh5e36f6f_0: sha256:2e07e9392dd878f886499351dddfd8f62d7a8431dbcadba852ca88e22452b7b5
   3.2.10--pyh7cba7a3_0: sha256:89f78a6f65464b17223c8bb3f4225ca1c654f60259a45ad4a10a788f1c746dcc
   3.2.11--pyh7cba7a3_0: sha256:149c216473f1318d265b472d8862eec798913dd906337bf98f191ac54a443c84
+  3.2.12--pyh7e72e81_0: sha256:8a7fdb86ca676194486dd9caa0c16ba6ec46c6fcd3ca8336387e1dc5dbfebfce
 docker: quay.io/biocontainers/dnachisel
 aliases:
   dnachisel: /usr/local/bin/dnachisel

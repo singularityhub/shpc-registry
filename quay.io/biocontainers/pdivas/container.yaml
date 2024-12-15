@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pdivas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pdivas
 latest:
-  1.1.0--pyh7cba7a3_0: sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867
+  1.2.0--pyh7e72e81_0: sha256:238ef3a4b2c284610c83a163105354692cdccef3684cf16063c676d56a1f3025
 tags:
   1.1.0--pyh7cba7a3_0: sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867
+  1.2.0--pyh7e72e81_0: sha256:238ef3a4b2c284610c83a163105354692cdccef3684cf16063c676d56a1f3025
 docker: quay.io/biocontainers/pdivas
 aliases:
   pdivas: /usr/local/bin/pdivas

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/provean
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for provean
 latest:
-  1.1.5--hdbdd923_2: sha256:93aa495a461ddf9f261e8873e53635490937a9c7d09c0b646b92ff4061a41c26
+  1.1.5--h503566f_3: sha256:e41d06ff0c642c368b827beef4db3ce95f6f515534b83a4fe3664b2a737a65e9
 tags:
   1.1.5--h87f3376_1: sha256:e3e21b1e0949c6ce71ca91ea86a92e3c51b89c79cbfde6d8388587b7b54c3dc7
   1.1.5--hdbdd923_2: sha256:93aa495a461ddf9f261e8873e53635490937a9c7d09c0b646b92ff4061a41c26
+  1.1.5--h503566f_3: sha256:e41d06ff0c642c368b827beef4db3ce95f6f515534b83a4fe3664b2a737a65e9
 docker: quay.io/biocontainers/provean
 aliases:
   provean: /usr/local/bin/provean

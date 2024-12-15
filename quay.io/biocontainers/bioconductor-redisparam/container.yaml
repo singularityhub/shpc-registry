@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-redisparam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-redisparam
 latest:
-  1.4.0--r43hdfd78af_0: sha256:40f6de79349064d707cf6b1fb1415da20150b146193f76c6e686504575245434
+  1.8.0--r44hdfd78af_0: sha256:c8ca2820db96cad9aba483aaabcf370c0233df0a7d97dfde13acdc3fae84086f
 tags:
   1.0.0--r42hdfd78af_0: sha256:82fd94aeb5c4683d4c45306ddbe6ad179adf1f3640c76e9c7aa12c7c43686cec
   1.2.0--r43hdfd78af_0: sha256:d660b14da32e54e846f17b10f0e68588b6b67631eb32e8769d23fa1adab46498
   1.4.0--r43hdfd78af_0: sha256:40f6de79349064d707cf6b1fb1415da20150b146193f76c6e686504575245434
+  1.8.0--r44hdfd78af_0: sha256:c8ca2820db96cad9aba483aaabcf370c0233df0a7d97dfde13acdc3fae84086f
 docker: quay.io/biocontainers/bioconductor-redisparam

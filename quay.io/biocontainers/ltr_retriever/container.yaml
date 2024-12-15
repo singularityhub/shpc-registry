@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ltr_retriever
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ltr_retriever
 latest:
-  3.0.1--hdfd78af_0: sha256:3f1d1d633b86b7d511c3d4ecdf7cb4d4ed0746c8ab07c9df4fbefaf9f6cef07a
+  3.0.1--hdfd78af_1: sha256:b3d9c7c119a177948f7e3b87ace0bb13b6b371d1e42e955bd13ea9f210234448
 tags:
   2.9.0--hdfd78af_1: sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58
   2.9.4--hdfd78af_0: sha256:cffaf84a6f668d21f8c7b2e21befc6b1b7eb2c151a5706a662209248319d6918
@@ -10,6 +10,7 @@ tags:
   2.9.9--hdfd78af_0: sha256:934751219619c0c32b8be554c73f877090c5404037714a40674d6b10d5dc573c
   3.0.0--hdfd78af_0: sha256:a5b421977e42569a438112a44187657a3e0039f75b570dd30816cded0acc544d
   3.0.1--hdfd78af_0: sha256:3f1d1d633b86b7d511c3d4ecdf7cb4d4ed0746c8ab07c9df4fbefaf9f6cef07a
+  3.0.1--hdfd78af_1: sha256:b3d9c7c119a177948f7e3b87ace0bb13b6b371d1e42e955bd13ea9f210234448
 docker: quay.io/biocontainers/ltr_retriever
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats
