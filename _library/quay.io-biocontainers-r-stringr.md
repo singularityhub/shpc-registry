@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-stringr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-stringr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-stringr/container.yaml"
-updated_at: "2024-12-15 04:42:08.165777"
+updated_at: "2024-12-16 03:43:22.579535"
 latest: "1.1.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-stringr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqsizzle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqsizzle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqsizzle/container.yaml"
-updated_at: "2024-12-15 04:22:21.823320"
+updated_at: "2024-12-16 03:24:01.273860"
 latest: "0.1.4--h8bd2d3b_0"
 container_url: "https://biocontainers.pro/tools/seqsizzle"
 aliases:

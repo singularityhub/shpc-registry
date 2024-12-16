@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/brawn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brawn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brawn/container.yaml"
-updated_at: "2024-12-15 04:23:38.173201"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2024-12-16 03:25:16.930962"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/brawn"
 aliases:
  - "brawn"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for brawn"
-config: {"url": "https://biocontainers.pro/tools/brawn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for brawn", "latest": {"1.0.1--pyhdfd78af_0": "sha256:501b58cbf967ad6e9c8b0acb3169a3b51a18a6c7ec63dd39c01eba27d4c824f0"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:501b58cbf967ad6e9c8b0acb3169a3b51a18a6c7ec63dd39c01eba27d4c824f0"}, "docker": "quay.io/biocontainers/brawn", "aliases": {"brawn": "/usr/local/bin/brawn", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/brawn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for brawn", "latest": {"1.0.2--pyhdfd78af_0": "sha256:7ce40dfb3b8f220fd85069b604cbecaf83a5aa9823ad067a6d6bbf98f7c0bf4e"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:501b58cbf967ad6e9c8b0acb3169a3b51a18a6c7ec63dd39c01eba27d4c824f0", "1.0.2--pyhdfd78af_0": "sha256:7ce40dfb3b8f220fd85069b604cbecaf83a5aa9823ad067a6d6bbf98f7c0bf4e"}, "docker": "quay.io/biocontainers/brawn", "aliases": {"brawn": "/usr/local/bin/brawn", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brawn.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/brawn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/brawn:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/brawn:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/brawn/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/brawn/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/brawn/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/brawn/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

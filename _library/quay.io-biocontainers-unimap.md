@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unimap/container.yaml"
-updated_at: "2024-12-15 04:24:43.590142"
-latest: "0.1--he4a0461_4"
+updated_at: "2024-12-16 03:26:21.234762"
+latest: "0.1--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/unimap"
 aliases:
  - "unimap"
@@ -13,8 +13,9 @@ versions:
  - "0.1--h7132678_2"
  - "0.1--h7132678_3"
  - "0.1--he4a0461_4"
+ - "0.1--h577a1d6_5"
 description: "shpc-registry automated BioContainers addition for unimap"
-config: {"url": "https://biocontainers.pro/tools/unimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unimap", "latest": {"0.1--he4a0461_4": "sha256:0185a8feeb73398a24f845f85639eb78f87156be3a4a424ca9668ec9df3f3bd8"}, "tags": {"0.1--h7132678_2": "sha256:d38a8e17efd24ce27b17113fc1dd206039ae3d25d74290ce37c95c09d7848bbf", "0.1--h7132678_3": "sha256:cbb45aed837fed6860b22e3a2bf39f3e26644ba7c5f6c3391085cabc54116f0c", "0.1--he4a0461_4": "sha256:0185a8feeb73398a24f845f85639eb78f87156be3a4a424ca9668ec9df3f3bd8"}, "docker": "quay.io/biocontainers/unimap", "aliases": {"unimap": "/usr/local/bin/unimap"}}
+config: {"url": "https://biocontainers.pro/tools/unimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unimap", "latest": {"0.1--h577a1d6_5": "sha256:95f846f5f473390f0432743037acc98d73092a3445e881d9ccdc9c2ae2294674"}, "tags": {"0.1--h7132678_2": "sha256:d38a8e17efd24ce27b17113fc1dd206039ae3d25d74290ce37c95c09d7848bbf", "0.1--h7132678_3": "sha256:cbb45aed837fed6860b22e3a2bf39f3e26644ba7c5f6c3391085cabc54116f0c", "0.1--he4a0461_4": "sha256:0185a8feeb73398a24f845f85639eb78f87156be3a4a424ca9668ec9df3f3bd8", "0.1--h577a1d6_5": "sha256:95f846f5f473390f0432743037acc98d73092a3445e881d9ccdc9c2ae2294674"}, "docker": "quay.io/biocontainers/unimap", "aliases": {"unimap": "/usr/local/bin/unimap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unimap.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/unimap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unimap:0.1--he4a0461_4
+$ shpc install quay.io/biocontainers/unimap:0.1--h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unimap/0.1--he4a0461_4
-$ module help quay.io/biocontainers/unimap/0.1--he4a0461_4
+$ module load quay.io/biocontainers/unimap/0.1--h577a1d6_5
+$ module help quay.io/biocontainers/unimap/0.1--h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

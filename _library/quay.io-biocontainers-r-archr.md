@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-archr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-archr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-archr/container.yaml"
-updated_at: "2024-12-15 04:35:49.162741"
-latest: "1.0.2--r41hdbdd923_0"
+updated_at: "2024-12-16 03:37:14.608369"
+latest: "1.0.3--r43hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/r-archr"
 aliases:
  - "pandoc"
 versions:
  - "1.0.2--r41hdbdd923_0"
+ - "1.0.3--r43hdbdd923_0"
 description: "singularity registry hpc automated addition for r-archr"
-config: {"url": "https://biocontainers.pro/tools/r-archr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-archr", "latest": {"1.0.2--r41hdbdd923_0": "sha256:c332222f5ccfca2753766aec679b0f9dd1c29bfa7fe66b0853e8b552aca63337"}, "tags": {"1.0.2--r41hdbdd923_0": "sha256:c332222f5ccfca2753766aec679b0f9dd1c29bfa7fe66b0853e8b552aca63337"}, "docker": "quay.io/biocontainers/r-archr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-archr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-archr", "latest": {"1.0.3--r43hdbdd923_0": "sha256:bef958e2788e5d62170c05ef54c6a37209be20891b73b84e23f1aff7835a9ebc"}, "tags": {"1.0.2--r41hdbdd923_0": "sha256:c332222f5ccfca2753766aec679b0f9dd1c29bfa7fe66b0853e8b552aca63337", "1.0.3--r43hdbdd923_0": "sha256:bef958e2788e5d62170c05ef54c6a37209be20891b73b84e23f1aff7835a9ebc"}, "docker": "quay.io/biocontainers/r-archr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-archr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-archr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-archr:1.0.2--r41hdbdd923_0
+$ shpc install quay.io/biocontainers/r-archr:1.0.3--r43hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-archr/1.0.2--r41hdbdd923_0
-$ module help quay.io/biocontainers/r-archr/1.0.2--r41hdbdd923_0
+$ module load quay.io/biocontainers/r-archr/1.0.3--r43hdbdd923_0
+$ module help quay.io/biocontainers/r-archr/1.0.3--r43hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

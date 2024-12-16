@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnp-mapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-mapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-mapping/container.yaml"
-updated_at: "2024-12-15 04:53:27.823764"
-latest: "1.0--h4ac6f70_3"
+updated_at: "2024-12-16 03:54:32.391850"
+latest: "1.0--h9948957_4"
 container_url: "https://biocontainers.pro/tools/dnp-mapping"
 aliases:
  - "dnp-mapping"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h9f5acd7_1"
  - "1.0--h9f5acd7_2"
  - "1.0--h4ac6f70_3"
+ - "1.0--h9948957_4"
 description: "shpc-registry automated BioContainers addition for dnp-mapping"
-config: {"url": "https://biocontainers.pro/tools/dnp-mapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-mapping", "latest": {"1.0--h4ac6f70_3": "sha256:8b2915e87b3eaa955bb5733550a7320648d6ccdb38a61f59b254284562a90d5c"}, "tags": {"1.0--h9f5acd7_1": "sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f", "1.0--h9f5acd7_2": "sha256:c297de031689c20b202bc674d615aa998181c382d9184ae2ef623015b9bcb24d", "1.0--h4ac6f70_3": "sha256:8b2915e87b3eaa955bb5733550a7320648d6ccdb38a61f59b254284562a90d5c"}, "docker": "quay.io/biocontainers/dnp-mapping", "aliases": {"dnp-mapping": "/usr/local/bin/dnp-mapping"}}
+config: {"url": "https://biocontainers.pro/tools/dnp-mapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-mapping", "latest": {"1.0--h9948957_4": "sha256:742d5de9eec1121629b5d3b712c052bc9989cc4130f290a1d57b6e642444f2ab"}, "tags": {"1.0--h9f5acd7_1": "sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f", "1.0--h9f5acd7_2": "sha256:c297de031689c20b202bc674d615aa998181c382d9184ae2ef623015b9bcb24d", "1.0--h4ac6f70_3": "sha256:8b2915e87b3eaa955bb5733550a7320648d6ccdb38a61f59b254284562a90d5c", "1.0--h9948957_4": "sha256:742d5de9eec1121629b5d3b712c052bc9989cc4130f290a1d57b6e642444f2ab"}, "docker": "quay.io/biocontainers/dnp-mapping", "aliases": {"dnp-mapping": "/usr/local/bin/dnp-mapping"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnp-mapping.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/dnp-mapping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnp-mapping:1.0--h4ac6f70_3
+$ shpc install quay.io/biocontainers/dnp-mapping:1.0--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnp-mapping/1.0--h4ac6f70_3
-$ module help quay.io/biocontainers/dnp-mapping/1.0--h4ac6f70_3
+$ module load quay.io/biocontainers/dnp-mapping/1.0--h9948957_4
+$ module help quay.io/biocontainers/dnp-mapping/1.0--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ltr_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_finder/container.yaml"
-updated_at: "2024-12-15 04:51:57.198911"
-latest: "1.07--h4ac6f70_3"
+updated_at: "2024-12-16 03:53:02.640284"
+latest: "1.07--h9948957_4"
 container_url: "https://biocontainers.pro/tools/ltr_finder"
 aliases:
  - "check_result.pl"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.07--h9f5acd7_2"
  - "1.07--h4ac6f70_3"
+ - "1.07--h9948957_4"
 description: "shpc-registry automated BioContainers addition for ltr_finder"
-config: {"url": "https://biocontainers.pro/tools/ltr_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_finder", "latest": {"1.07--h4ac6f70_3": "sha256:81ad6d01a96bddd5467dbab72d5d7592b6a90c24ca99b45c3e1219c0015e5db7"}, "tags": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309", "1.07--h4ac6f70_3": "sha256:81ad6d01a96bddd5467dbab72d5d7592b6a90c24ca99b45c3e1219c0015e5db7"}, "docker": "quay.io/biocontainers/ltr_finder", "aliases": {"check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_finder", "latest": {"1.07--h9948957_4": "sha256:5511a84df07ed32a9196ee861e8f5b3a1de321eb31515de0759dc0af6920dc4f"}, "tags": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309", "1.07--h4ac6f70_3": "sha256:81ad6d01a96bddd5467dbab72d5d7592b6a90c24ca99b45c3e1219c0015e5db7", "1.07--h9948957_4": "sha256:5511a84df07ed32a9196ee861e8f5b3a1de321eb31515de0759dc0af6920dc4f"}, "docker": "quay.io/biocontainers/ltr_finder", "aliases": {"check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_finder.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/ltr_finder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ltr_finder:1.07--h4ac6f70_3
+$ shpc install quay.io/biocontainers/ltr_finder:1.07--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ltr_finder/1.07--h4ac6f70_3
-$ module help quay.io/biocontainers/ltr_finder/1.07--h4ac6f70_3
+$ module load quay.io/biocontainers/ltr_finder/1.07--h9948957_4
+$ module help quay.io/biocontainers/ltr_finder/1.07--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

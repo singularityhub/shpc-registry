@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/radtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radtk/container.yaml"
-updated_at: "2024-12-15 04:16:59.168494"
-latest: "0.2.0--h919a2d8_0"
+updated_at: "2024-12-16 03:18:42.979411"
+latest: "0.2.0--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/radtk"
 aliases:
  - "radtk"
 versions:
  - "0.2.0--h919a2d8_0"
+ - "0.2.0--ha6fb395_1"
 description: "singularity registry hpc automated addition for radtk"
-config: {"url": "https://biocontainers.pro/tools/radtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for radtk", "latest": {"0.2.0--h919a2d8_0": "sha256:60862e78c43b8b9e353ac675974cbe88d5aaf131f2ce914af1d35f1efc91b5e4"}, "tags": {"0.2.0--h919a2d8_0": "sha256:60862e78c43b8b9e353ac675974cbe88d5aaf131f2ce914af1d35f1efc91b5e4"}, "docker": "quay.io/biocontainers/radtk", "aliases": {"radtk": "/usr/local/bin/radtk"}}
+config: {"url": "https://biocontainers.pro/tools/radtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for radtk", "latest": {"0.2.0--ha6fb395_1": "sha256:1942e79803789d32313723339fd063c220627a181b65adaac5a604660f4574a6"}, "tags": {"0.2.0--h919a2d8_0": "sha256:60862e78c43b8b9e353ac675974cbe88d5aaf131f2ce914af1d35f1efc91b5e4", "0.2.0--ha6fb395_1": "sha256:1942e79803789d32313723339fd063c220627a181b65adaac5a604660f4574a6"}, "docker": "quay.io/biocontainers/radtk", "aliases": {"radtk": "/usr/local/bin/radtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/radtk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/radtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/radtk:0.2.0--h919a2d8_0
+$ shpc install quay.io/biocontainers/radtk:0.2.0--ha6fb395_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/radtk/0.2.0--h919a2d8_0
-$ module help quay.io/biocontainers/radtk/0.2.0--h919a2d8_0
+$ module load quay.io/biocontainers/radtk/0.2.0--ha6fb395_1
+$ module help quay.io/biocontainers/radtk/0.2.0--ha6fb395_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

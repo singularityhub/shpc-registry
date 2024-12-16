@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fqzcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqzcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
-updated_at: "2024-12-15 04:54:11.583864"
-latest: "4.6--hdcf5f25_5"
+updated_at: "2024-12-16 03:55:15.680053"
+latest: "4.6--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/fqzcomp"
 aliases:
  - "fqz_comp"
@@ -13,8 +13,9 @@ versions:
  - "4.6--hd03093a_3"
  - "4.6--hd03093a_4"
  - "4.6--hdcf5f25_5"
+ - "4.6--h077b44d_6"
 description: "shpc-registry automated BioContainers addition for fqzcomp"
-config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "tags": {"4.6--hd03093a_3": "sha256:d29d9e3242d75e7497e51e17d1a7967ace0da4efd5874a96c568eec56c499367", "4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe", "4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
+config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--h077b44d_6": "sha256:ed139e6003bdb949fdc64d13970b9bd982a3cf9b511e9e14d2d5b86b2dfc74ce"}, "tags": {"4.6--hd03093a_3": "sha256:d29d9e3242d75e7497e51e17d1a7967ace0da4efd5874a96c568eec56c499367", "4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe", "4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39", "4.6--h077b44d_6": "sha256:ed139e6003bdb949fdc64d13970b9bd982a3cf9b511e9e14d2d5b86b2dfc74ce"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqzcomp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/fqzcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqzcomp:4.6--hdcf5f25_5
+$ shpc install quay.io/biocontainers/fqzcomp:4.6--h077b44d_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqzcomp/4.6--hdcf5f25_5
-$ module help quay.io/biocontainers/fqzcomp/4.6--hdcf5f25_5
+$ module load quay.io/biocontainers/fqzcomp/4.6--h077b44d_6
+$ module help quay.io/biocontainers/fqzcomp/4.6--h077b44d_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

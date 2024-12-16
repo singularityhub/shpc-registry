@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xtandem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtandem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtandem/container.yaml"
-updated_at: "2024-12-15 04:09:17.920627"
-latest: "15.12.15.2--h7e02a51_9"
+updated_at: "2024-12-16 03:11:06.967960"
+latest: "15.12.15.2--h4464bbb_10"
 container_url: "https://biocontainers.pro/tools/xtandem"
 aliases:
  - "xtandem"
@@ -13,8 +13,9 @@ versions:
  - "15.12.15.2--h072c6ed_6"
  - "15.12.15.2--h7e02a51_8"
  - "15.12.15.2--h7e02a51_9"
+ - "15.12.15.2--h4464bbb_10"
 description: "shpc-registry automated BioContainers addition for xtandem"
-config: {"url": "https://biocontainers.pro/tools/xtandem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtandem", "latest": {"15.12.15.2--h7e02a51_9": "sha256:c6c1a35ef5ec87c6168f5601be56e5ec40adad538f59033d91aa5f5280f0172a"}, "tags": {"15.12.15.2--h072c6ed_6": "sha256:881ed790dc6ea4dcc09c0a30d57645624e5a67b737d2e025e9a3e3cab99ee431", "15.12.15.2--h7e02a51_8": "sha256:2f0afe420396eb3289afabcc5ab7d5c90c14c784ff8e81f880f503092b5967d3", "15.12.15.2--h7e02a51_9": "sha256:c6c1a35ef5ec87c6168f5601be56e5ec40adad538f59033d91aa5f5280f0172a"}, "docker": "quay.io/biocontainers/xtandem", "aliases": {"xtandem": "/usr/local/bin/xtandem"}}
+config: {"url": "https://biocontainers.pro/tools/xtandem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtandem", "latest": {"15.12.15.2--h4464bbb_10": "sha256:090b8fb15c1dd3f4ae8f98236998adbd9794c3c217f9f7640ae9f6514481fce6"}, "tags": {"15.12.15.2--h072c6ed_6": "sha256:881ed790dc6ea4dcc09c0a30d57645624e5a67b737d2e025e9a3e3cab99ee431", "15.12.15.2--h7e02a51_8": "sha256:2f0afe420396eb3289afabcc5ab7d5c90c14c784ff8e81f880f503092b5967d3", "15.12.15.2--h7e02a51_9": "sha256:c6c1a35ef5ec87c6168f5601be56e5ec40adad538f59033d91aa5f5280f0172a", "15.12.15.2--h4464bbb_10": "sha256:090b8fb15c1dd3f4ae8f98236998adbd9794c3c217f9f7640ae9f6514481fce6"}, "docker": "quay.io/biocontainers/xtandem", "aliases": {"xtandem": "/usr/local/bin/xtandem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xtandem.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/xtandem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xtandem:15.12.15.2--h7e02a51_9
+$ shpc install quay.io/biocontainers/xtandem:15.12.15.2--h4464bbb_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xtandem/15.12.15.2--h7e02a51_9
-$ module help quay.io/biocontainers/xtandem/15.12.15.2--h7e02a51_9
+$ module load quay.io/biocontainers/xtandem/15.12.15.2--h4464bbb_10
+$ module help quay.io/biocontainers/xtandem/15.12.15.2--h4464bbb_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

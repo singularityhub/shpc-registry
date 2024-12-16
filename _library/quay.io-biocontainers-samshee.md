@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samshee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samshee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samshee/container.yaml"
-updated_at: "2024-12-15 04:37:08.102751"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2024-12-16 03:38:29.058251"
+latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samshee"
 aliases:
  - "idle3.13"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for samshee"
-config: {"url": "https://biocontainers.pro/tools/samshee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samshee", "latest": {"0.2.2--pyhdfd78af_0": "sha256:d956f97acb38825971a97224a21c33e667e8801063b7c03f93aabed846ef7bc0"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:6c61dab83f761d86dbf4a2e7210ed44bf2b36cc79cc1b7466f14570935976454", "0.2.2--pyhdfd78af_0": "sha256:d956f97acb38825971a97224a21c33e667e8801063b7c03f93aabed846ef7bc0"}, "docker": "quay.io/biocontainers/samshee", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/samshee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samshee", "latest": {"0.2.3--pyhdfd78af_0": "sha256:d3a037a0b76f3dcee60c25067e686b65c06b9bb6aa8ae7054117ac5f4598768a"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:6c61dab83f761d86dbf4a2e7210ed44bf2b36cc79cc1b7466f14570935976454", "0.2.2--pyhdfd78af_0": "sha256:d956f97acb38825971a97224a21c33e667e8801063b7c03f93aabed846ef7bc0", "0.2.3--pyhdfd78af_0": "sha256:d3a037a0b76f3dcee60c25067e686b65c06b9bb6aa8ae7054117ac5f4598768a"}, "docker": "quay.io/biocontainers/samshee", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samshee.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/samshee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samshee:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/samshee:0.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samshee/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/samshee/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/samshee/0.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/samshee/0.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-redisparam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
-updated_at: "2024-12-15 04:53:45.884951"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2024-12-16 03:54:50.293261"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-redisparam"
 
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-redisparam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-redisparam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-redisparam", "latest": {"1.4.0--r43hdfd78af_0": "sha256:40f6de79349064d707cf6b1fb1415da20150b146193f76c6e686504575245434"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:82fd94aeb5c4683d4c45306ddbe6ad179adf1f3640c76e9c7aa12c7c43686cec", "1.2.0--r43hdfd78af_0": "sha256:d660b14da32e54e846f17b10f0e68588b6b67631eb32e8769d23fa1adab46498", "1.4.0--r43hdfd78af_0": "sha256:40f6de79349064d707cf6b1fb1415da20150b146193f76c6e686504575245434"}, "docker": "quay.io/biocontainers/bioconductor-redisparam"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-redisparam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-redisparam", "latest": {"1.8.0--r44hdfd78af_0": "sha256:c8ca2820db96cad9aba483aaabcf370c0233df0a7d97dfde13acdc3fae84086f"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:82fd94aeb5c4683d4c45306ddbe6ad179adf1f3640c76e9c7aa12c7c43686cec", "1.2.0--r43hdfd78af_0": "sha256:d660b14da32e54e846f17b10f0e68588b6b67631eb32e8769d23fa1adab46498", "1.4.0--r43hdfd78af_0": "sha256:40f6de79349064d707cf6b1fb1415da20150b146193f76c6e686504575245434", "1.8.0--r44hdfd78af_0": "sha256:c8ca2820db96cad9aba483aaabcf370c0233df0a7d97dfde13acdc3fae84086f"}, "docker": "quay.io/biocontainers/bioconductor-redisparam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-redisparam.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-redisparam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-redisparam:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-redisparam:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-redisparam/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-redisparam/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-redisparam/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-redisparam/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

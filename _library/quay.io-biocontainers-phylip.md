@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylip/container.yaml"
-updated_at: "2024-12-15 04:25:00.497767"
-latest: "3.697--h470a237_0"
+updated_at: "2024-12-16 03:26:37.970632"
+latest: "3.697--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/phylip"
 aliases:
  - "DrawGram.jar"
@@ -59,8 +59,9 @@ aliases:
  - "idlj"
 versions:
  - "3.697--h470a237_0"
+ - "3.697--h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for phylip"
-config: {"url": "https://biocontainers.pro/tools/phylip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylip", "latest": {"3.697--h470a237_0": "sha256:2ae16be51b934670c61978706ff18b35202834c03c74a88c7f0fe0028ad796be"}, "tags": {"3.697--h470a237_0": "sha256:2ae16be51b934670c61978706ff18b35202834c03c74a88c7f0fe0028ad796be"}, "docker": "quay.io/biocontainers/phylip", "aliases": {"DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapars": "/usr/local/bin/dnapars", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move", "neighbor": "/usr/local/bin/neighbor", "pars": "/usr/local/bin/pars", "penny": "/usr/local/bin/penny", "phylip": "/usr/local/bin/phylip", "proml": "/usr/local/bin/proml", "promlk": "/usr/local/bin/promlk", "protdist": "/usr/local/bin/protdist", "protpars": "/usr/local/bin/protpars", "restdist": "/usr/local/bin/restdist", "restml": "/usr/local/bin/restml", "retree": "/usr/local/bin/retree", "seqboot": "/usr/local/bin/seqboot", "treedist": "/usr/local/bin/treedist", "factor": "/usr/local/bin/factor", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/phylip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylip", "latest": {"3.697--h7b50bb2_2": "sha256:d64c766a650d7e55fbda7efdae88b539101c0d30ab47bc2af40e82e6535f5bd6"}, "tags": {"3.697--h470a237_0": "sha256:2ae16be51b934670c61978706ff18b35202834c03c74a88c7f0fe0028ad796be", "3.697--h7b50bb2_2": "sha256:d64c766a650d7e55fbda7efdae88b539101c0d30ab47bc2af40e82e6535f5bd6"}, "docker": "quay.io/biocontainers/phylip", "aliases": {"DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapars": "/usr/local/bin/dnapars", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move", "neighbor": "/usr/local/bin/neighbor", "pars": "/usr/local/bin/pars", "penny": "/usr/local/bin/penny", "phylip": "/usr/local/bin/phylip", "proml": "/usr/local/bin/proml", "promlk": "/usr/local/bin/promlk", "protdist": "/usr/local/bin/protdist", "protpars": "/usr/local/bin/protpars", "restdist": "/usr/local/bin/restdist", "restml": "/usr/local/bin/restml", "retree": "/usr/local/bin/retree", "seqboot": "/usr/local/bin/seqboot", "treedist": "/usr/local/bin/treedist", "factor": "/usr/local/bin/factor", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylip.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/phylip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylip:3.697--h470a237_0
+$ shpc install quay.io/biocontainers/phylip:3.697--h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylip/3.697--h470a237_0
-$ module help quay.io/biocontainers/phylip/3.697--h470a237_0
+$ module load quay.io/biocontainers/phylip/3.697--h7b50bb2_2
+$ module help quay.io/biocontainers/phylip/3.697--h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

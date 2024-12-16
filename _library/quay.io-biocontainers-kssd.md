@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kssd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kssd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kssd/container.yaml"
-updated_at: "2024-12-15 04:42:47.604857"
-latest: "2.21--he4a0461_2"
+updated_at: "2024-12-16 03:44:01.214432"
+latest: "2.21--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/kssd"
 aliases:
  - "kssd"
@@ -13,8 +13,9 @@ versions:
  - "2.21--h7132678_0"
  - "2.21--h7132678_1"
  - "2.21--he4a0461_2"
+ - "2.21--h577a1d6_3"
 description: "shpc-registry automated BioContainers addition for kssd"
-config: {"url": "https://biocontainers.pro/tools/kssd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kssd", "latest": {"2.21--he4a0461_2": "sha256:dd1d9f16ac714ef3e395cca68fdcb5112d354e6c1a9a5a4a80c41686e8556853"}, "tags": {"2.21--h7132678_0": "sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16", "2.21--h7132678_1": "sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1", "2.21--he4a0461_2": "sha256:dd1d9f16ac714ef3e395cca68fdcb5112d354e6c1a9a5a4a80c41686e8556853"}, "docker": "quay.io/biocontainers/kssd", "aliases": {"kssd": "/usr/local/bin/kssd"}}
+config: {"url": "https://biocontainers.pro/tools/kssd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kssd", "latest": {"2.21--h577a1d6_3": "sha256:59bc0e0b1011ec4b1c6932225e9503693ff542d279f8cdd6d2bc5d83f9d412a4"}, "tags": {"2.21--h7132678_0": "sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16", "2.21--h7132678_1": "sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1", "2.21--he4a0461_2": "sha256:dd1d9f16ac714ef3e395cca68fdcb5112d354e6c1a9a5a4a80c41686e8556853", "2.21--h577a1d6_3": "sha256:59bc0e0b1011ec4b1c6932225e9503693ff542d279f8cdd6d2bc5d83f9d412a4"}, "docker": "quay.io/biocontainers/kssd", "aliases": {"kssd": "/usr/local/bin/kssd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kssd.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kssd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kssd:2.21--he4a0461_2
+$ shpc install quay.io/biocontainers/kssd:2.21--h577a1d6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kssd/2.21--he4a0461_2
-$ module help quay.io/biocontainers/kssd/2.21--he4a0461_2
+$ module load quay.io/biocontainers/kssd/2.21--h577a1d6_3
+$ module help quay.io/biocontainers/kssd/2.21--h577a1d6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

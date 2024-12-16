@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pdivas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdivas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdivas/container.yaml"
-updated_at: "2024-12-15 04:39:25.254250"
-latest: "1.1.0--pyh7cba7a3_0"
+updated_at: "2024-12-16 03:40:43.527367"
+latest: "1.2.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pdivas"
 aliases:
  - "pdivas"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.0--pyh7cba7a3_0"
+ - "1.2.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for pdivas"
-config: {"url": "https://biocontainers.pro/tools/pdivas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pdivas", "latest": {"1.1.0--pyh7cba7a3_0": "sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867"}, "tags": {"1.1.0--pyh7cba7a3_0": "sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867"}, "docker": "quay.io/biocontainers/pdivas", "aliases": {"pdivas": "/usr/local/bin/pdivas", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pdivas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pdivas", "latest": {"1.2.0--pyh7e72e81_0": "sha256:238ef3a4b2c284610c83a163105354692cdccef3684cf16063c676d56a1f3025"}, "tags": {"1.1.0--pyh7cba7a3_0": "sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867", "1.2.0--pyh7e72e81_0": "sha256:238ef3a4b2c284610c83a163105354692cdccef3684cf16063c676d56a1f3025"}, "docker": "quay.io/biocontainers/pdivas", "aliases": {"pdivas": "/usr/local/bin/pdivas", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pdivas.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/pdivas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pdivas:1.1.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pdivas:1.2.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pdivas/1.1.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pdivas/1.1.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pdivas/1.2.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/pdivas/1.2.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

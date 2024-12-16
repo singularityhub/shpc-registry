@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydna_repeatfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydna_repeatfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydna_repeatfinder/container.yaml"
-updated_at: "2024-12-15 04:46:59.612193"
-latest: "0.2.9--py310h84f13bb_1"
+updated_at: "2024-12-16 03:48:09.713222"
+latest: "0.2.9--py312hf731ba3_2"
 container_url: "https://biocontainers.pro/tools/pydna_repeatfinder"
 aliases:
  - "pydna_repeatfinder"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.2.9--py310h84f13bb_1"
  - "0.2.9--py38h2123bcc_1"
+ - "0.2.9--py312hf731ba3_2"
 description: "singularity registry hpc automated addition for pydna_repeatfinder"
-config: {"url": "https://biocontainers.pro/tools/pydna_repeatfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydna_repeatfinder", "latest": {"0.2.9--py310h84f13bb_1": "sha256:98429700526e08da2409406cee03c58f1ad95b7f3c85446da2c0b454a1fc0962"}, "tags": {"0.2.9--py310h84f13bb_1": "sha256:98429700526e08da2409406cee03c58f1ad95b7f3c85446da2c0b454a1fc0962", "0.2.9--py38h2123bcc_1": "sha256:3c3364ad2808a79e391a97a8fc7e1f300210da9b8978bab8d47a8d60cb974e28"}, "docker": "quay.io/biocontainers/pydna_repeatfinder", "aliases": {"pydna_repeatfinder": "/usr/local/bin/pydna_repeatfinder", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pydna_repeatfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydna_repeatfinder", "latest": {"0.2.9--py312hf731ba3_2": "sha256:692655b7a652110907c8825959ba7b64b0816b7a2f6904833972a26c9a07c697"}, "tags": {"0.2.9--py310h84f13bb_1": "sha256:98429700526e08da2409406cee03c58f1ad95b7f3c85446da2c0b454a1fc0962", "0.2.9--py38h2123bcc_1": "sha256:3c3364ad2808a79e391a97a8fc7e1f300210da9b8978bab8d47a8d60cb974e28", "0.2.9--py312hf731ba3_2": "sha256:692655b7a652110907c8825959ba7b64b0816b7a2f6904833972a26c9a07c697"}, "docker": "quay.io/biocontainers/pydna_repeatfinder", "aliases": {"pydna_repeatfinder": "/usr/local/bin/pydna_repeatfinder", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydna_repeatfinder.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pydna_repeatfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydna_repeatfinder:0.2.9--py310h84f13bb_1
+$ shpc install quay.io/biocontainers/pydna_repeatfinder:0.2.9--py312hf731ba3_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydna_repeatfinder/0.2.9--py310h84f13bb_1
-$ module help quay.io/biocontainers/pydna_repeatfinder/0.2.9--py310h84f13bb_1
+$ module load quay.io/biocontainers/pydna_repeatfinder/0.2.9--py312hf731ba3_2
+$ module help quay.io/biocontainers/pydna_repeatfinder/0.2.9--py312hf731ba3_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

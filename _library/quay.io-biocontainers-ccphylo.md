@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ccphylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccphylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccphylo/container.yaml"
-updated_at: "2024-12-15 04:20:27.463829"
-latest: "0.8.2--he4a0461_2"
+updated_at: "2024-12-16 03:22:08.258351"
+latest: "0.8.2--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/ccphylo"
 aliases:
  - "ccphylo"
 versions:
  - "0.8.2--h7132678_0"
  - "0.8.2--he4a0461_2"
+ - "0.8.2--h577a1d6_3"
 description: "singularity registry hpc automated addition for ccphylo"
-config: {"url": "https://biocontainers.pro/tools/ccphylo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ccphylo", "latest": {"0.8.2--he4a0461_2": "sha256:5897aa4f51a05e620ac9ac66ff04d696142859dde3ead10f169a7ee620b24811"}, "tags": {"0.8.2--h7132678_0": "sha256:7b1fd511eed14e02f016ee231db7d3e2c8285dee061c0f094d3ff0d2a45eccae", "0.8.2--he4a0461_2": "sha256:5897aa4f51a05e620ac9ac66ff04d696142859dde3ead10f169a7ee620b24811"}, "docker": "quay.io/biocontainers/ccphylo", "aliases": {"ccphylo": "/usr/local/bin/ccphylo"}}
+config: {"url": "https://biocontainers.pro/tools/ccphylo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ccphylo", "latest": {"0.8.2--h577a1d6_3": "sha256:fccfba6d11853d0aee43f27d8e5fdd621633cedb2010f18dfaa9e7bdb4941708"}, "tags": {"0.8.2--h7132678_0": "sha256:7b1fd511eed14e02f016ee231db7d3e2c8285dee061c0f094d3ff0d2a45eccae", "0.8.2--he4a0461_2": "sha256:5897aa4f51a05e620ac9ac66ff04d696142859dde3ead10f169a7ee620b24811", "0.8.2--h577a1d6_3": "sha256:fccfba6d11853d0aee43f27d8e5fdd621633cedb2010f18dfaa9e7bdb4941708"}, "docker": "quay.io/biocontainers/ccphylo", "aliases": {"ccphylo": "/usr/local/bin/ccphylo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ccphylo.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ccphylo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ccphylo:0.8.2--he4a0461_2
+$ shpc install quay.io/biocontainers/ccphylo:0.8.2--h577a1d6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ccphylo/0.8.2--he4a0461_2
-$ module help quay.io/biocontainers/ccphylo/0.8.2--he4a0461_2
+$ module load quay.io/biocontainers/ccphylo/0.8.2--h577a1d6_3
+$ module help quay.io/biocontainers/ccphylo/0.8.2--h577a1d6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-funrar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-funrar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-funrar/container.yaml"
-updated_at: "2024-12-15 04:52:45.858544"
+updated_at: "2024-12-16 03:53:50.777343"
 latest: "1.2.2--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-funrar"
 aliases:

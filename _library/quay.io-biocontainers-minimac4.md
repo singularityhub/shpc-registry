@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minimac4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimac4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimac4/container.yaml"
-updated_at: "2024-12-15 04:25:11.512518"
-latest: "4.1.6--hd175d40_0"
+updated_at: "2024-12-16 03:26:48.882993"
+latest: "4.1.6--hcb620b3_1"
 container_url: "https://biocontainers.pro/tools/minimac4"
 aliases:
  - "cget"
@@ -41,8 +41,9 @@ aliases:
  - "vcfutils.pl"
 versions:
  - "4.1.6--hd175d40_0"
+ - "4.1.6--hcb620b3_1"
 description: "singularity registry hpc automated addition for minimac4"
-config: {"url": "https://biocontainers.pro/tools/minimac4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minimac4", "latest": {"4.1.6--hd175d40_0": "sha256:acf14632cdc8982bef27e59bc4d88c1d0bd87f1c87c7b665f5be69eb96d08450"}, "tags": {"4.1.6--hd175d40_0": "sha256:acf14632cdc8982bef27e59bc4d88c1d0bd87f1c87c7b665f5be69eb96d08450"}, "docker": "quay.io/biocontainers/minimac4", "aliases": {"cget": "/usr/local/bin/cget", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "minimac4": "/usr/local/bin/minimac4", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "has160-hash": "/usr/local/bin/has160-hash", "idle3.13": "/usr/local/bin/idle3.13", "magnet-link": "/usr/local/bin/magnet-link", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "annot-tsv": "/usr/local/bin/annot-tsv", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/minimac4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minimac4", "latest": {"4.1.6--hcb620b3_1": "sha256:d5c1e5a5012aa9a0509824e33c31e445b1238d776478a64e016300581c2b4003"}, "tags": {"4.1.6--hd175d40_0": "sha256:acf14632cdc8982bef27e59bc4d88c1d0bd87f1c87c7b665f5be69eb96d08450", "4.1.6--hcb620b3_1": "sha256:d5c1e5a5012aa9a0509824e33c31e445b1238d776478a64e016300581c2b4003"}, "docker": "quay.io/biocontainers/minimac4", "aliases": {"cget": "/usr/local/bin/cget", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "minimac4": "/usr/local/bin/minimac4", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "has160-hash": "/usr/local/bin/has160-hash", "idle3.13": "/usr/local/bin/idle3.13", "magnet-link": "/usr/local/bin/magnet-link", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "annot-tsv": "/usr/local/bin/annot-tsv", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minimac4.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/minimac4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minimac4:4.1.6--hd175d40_0
+$ shpc install quay.io/biocontainers/minimac4:4.1.6--hcb620b3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minimac4/4.1.6--hd175d40_0
-$ module help quay.io/biocontainers/minimac4/4.1.6--hd175d40_0
+$ module load quay.io/biocontainers/minimac4/4.1.6--hcb620b3_1
+$ module help quay.io/biocontainers/minimac4/4.1.6--hcb620b3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

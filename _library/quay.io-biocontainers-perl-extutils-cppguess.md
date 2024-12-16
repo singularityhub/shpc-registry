@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-extutils-cppguess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-cppguess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-cppguess/container.yaml"
-updated_at: "2024-12-15 04:20:22.677429"
-latest: "0.26--pl5321h4ac6f70_1"
+updated_at: "2024-12-16 03:22:03.513232"
+latest: "0.26--pl5321h9948957_3"
 container_url: "https://biocontainers.pro/tools/perl-extutils-cppguess"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.26--pl5321h9f5acd7_0"
  - "0.26--pl5321h4ac6f70_1"
+ - "0.26--pl5321h9948957_3"
 description: "shpc-registry automated BioContainers addition for perl-extutils-cppguess"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-cppguess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-cppguess", "latest": {"0.26--pl5321h4ac6f70_1": "sha256:a8b88d8c0676b289d4985da6097001530d65bfc261fae69c8a4093cda3eadd81"}, "tags": {"0.26--pl5321h9f5acd7_0": "sha256:5ebb71cbac97e1752b3e22147e52d9dbbc9dbc88f2ba8f92a09d40cdb73078bc", "0.26--pl5321h4ac6f70_1": "sha256:a8b88d8c0676b289d4985da6097001530d65bfc261fae69c8a4093cda3eadd81"}, "docker": "quay.io/biocontainers/perl-extutils-cppguess", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-cppguess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-cppguess", "latest": {"0.26--pl5321h9948957_3": "sha256:d82f29d8de808339ca5722e2bfd0e155c317823249e9784ddcb83b070c26acfd"}, "tags": {"0.26--pl5321h9f5acd7_0": "sha256:5ebb71cbac97e1752b3e22147e52d9dbbc9dbc88f2ba8f92a09d40cdb73078bc", "0.26--pl5321h4ac6f70_1": "sha256:a8b88d8c0676b289d4985da6097001530d65bfc261fae69c8a4093cda3eadd81", "0.26--pl5321h9948957_3": "sha256:d82f29d8de808339ca5722e2bfd0e155c317823249e9784ddcb83b070c26acfd"}, "docker": "quay.io/biocontainers/perl-extutils-cppguess", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-cppguess.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-extutils-cppguess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-extutils-cppguess:0.26--pl5321h4ac6f70_1
+$ shpc install quay.io/biocontainers/perl-extutils-cppguess:0.26--pl5321h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-extutils-cppguess/0.26--pl5321h4ac6f70_1
-$ module help quay.io/biocontainers/perl-extutils-cppguess/0.26--pl5321h4ac6f70_1
+$ module load quay.io/biocontainers/perl-extutils-cppguess/0.26--pl5321h9948957_3
+$ module help quay.io/biocontainers/perl-extutils-cppguess/0.26--pl5321h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

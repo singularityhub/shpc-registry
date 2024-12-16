@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rust-ncbitaxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-ncbitaxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-ncbitaxonomy/container.yaml"
-updated_at: "2024-12-15 04:30:26.839415"
-latest: "1.0.7--h6e4802e_5"
+updated_at: "2024-12-16 03:32:00.358931"
+latest: "1.0.7--hf9427c6_6"
 container_url: "https://biocontainers.pro/tools/rust-ncbitaxonomy"
 aliases:
  - "taxonomy_filter_fastq"
@@ -15,8 +15,9 @@ versions:
  - "1.0.7--h94d9fb8_2"
  - "1.0.7--h6145f2c_4"
  - "1.0.7--h6e4802e_5"
+ - "1.0.7--hf9427c6_6"
 description: "shpc-registry automated BioContainers addition for rust-ncbitaxonomy"
-config: {"url": "https://biocontainers.pro/tools/rust-ncbitaxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-ncbitaxonomy", "latest": {"1.0.7--h6e4802e_5": "sha256:b87025d6b72e22939041671f84a540613e4c8d03f5318a3a8a80ffefcefee51e"}, "tags": {"1.0.7--h94d9fb8_2": "sha256:2a15e01071448b8ceaa9ae7aea45da2b1f20a38afc8fda5f65099d68193f99a8", "1.0.7--h6145f2c_4": "sha256:31df5df71ebc0fa39dacacea9dfae46c496fc916c0f5811dc4aab39641d5912a", "1.0.7--h6e4802e_5": "sha256:b87025d6b72e22939041671f84a540613e4c8d03f5318a3a8a80ffefcefee51e"}, "docker": "quay.io/biocontainers/rust-ncbitaxonomy", "aliases": {"taxonomy_filter_fastq": "/usr/local/bin/taxonomy_filter_fastq", "taxonomy_filter_refseq": "/usr/local/bin/taxonomy_filter_refseq", "taxonomy_util": "/usr/local/bin/taxonomy_util"}}
+config: {"url": "https://biocontainers.pro/tools/rust-ncbitaxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-ncbitaxonomy", "latest": {"1.0.7--hf9427c6_6": "sha256:3e5b258f55b908a14a47d8d83b90af20f7c5b91318ad74f661a462e3514583b3"}, "tags": {"1.0.7--h94d9fb8_2": "sha256:2a15e01071448b8ceaa9ae7aea45da2b1f20a38afc8fda5f65099d68193f99a8", "1.0.7--h6145f2c_4": "sha256:31df5df71ebc0fa39dacacea9dfae46c496fc916c0f5811dc4aab39641d5912a", "1.0.7--h6e4802e_5": "sha256:b87025d6b72e22939041671f84a540613e4c8d03f5318a3a8a80ffefcefee51e", "1.0.7--hf9427c6_6": "sha256:3e5b258f55b908a14a47d8d83b90af20f7c5b91318ad74f661a462e3514583b3"}, "docker": "quay.io/biocontainers/rust-ncbitaxonomy", "aliases": {"taxonomy_filter_fastq": "/usr/local/bin/taxonomy_filter_fastq", "taxonomy_filter_refseq": "/usr/local/bin/taxonomy_filter_refseq", "taxonomy_util": "/usr/local/bin/taxonomy_util"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-ncbitaxonomy.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/rust-ncbitaxonomy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rust-ncbitaxonomy:1.0.7--h6e4802e_5
+$ shpc install quay.io/biocontainers/rust-ncbitaxonomy:1.0.7--hf9427c6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rust-ncbitaxonomy/1.0.7--h6e4802e_5
-$ module help quay.io/biocontainers/rust-ncbitaxonomy/1.0.7--h6e4802e_5
+$ module load quay.io/biocontainers/rust-ncbitaxonomy/1.0.7--hf9427c6_6
+$ module help quay.io/biocontainers/rust-ncbitaxonomy/1.0.7--hf9427c6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
