@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sfold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sfold
 latest:
-  2.2--pl5321r43h031d066_3: sha256:f82cb6556b436ebf54d5965494a1ac3213c2425f239efed2a96b2025ae6e4432
+  2.2--pl5321r44h7b50bb2_4: sha256:0c3a4398b31526ae2af723190bbf8fd9b5fe577b08a301a7f41f948f846eca2d
 tags:
   2.2--pl5321r43h031d066_0: sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66
   2.2--pl5321r43h031d066_3: sha256:f82cb6556b436ebf54d5965494a1ac3213c2425f239efed2a96b2025ae6e4432
+  2.2--pl5321r44h7b50bb2_4: sha256:0c3a4398b31526ae2af723190bbf8fd9b5fe577b08a301a7f41f948f846eca2d
 docker: quay.io/biocontainers/sfold
 aliases:
   bp_count.pl: /usr/local/bin/bp_count.pl

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-inline-c
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-inline-c
 latest:
-  0.81--pl5321h031d066_2: sha256:52de904ca7a81d5aebd5c59087e0a9d05427feae16a6f343926357900c9db75c
+  0.81--pl5321h7b50bb2_3: sha256:db5b6c1bdebc60f434a00543ccb6c0d62256819e027d63e9b0d583d5ca80274c
 tags:
   0.81--pl5321hec16e2b_1: sha256:a02d8e8184bafcafd8d3fd15c53c413fdf7220ffe6015b247cb44b2a233218c8
   0.81--pl5321h031d066_2: sha256:52de904ca7a81d5aebd5c59087e0a9d05427feae16a6f343926357900c9db75c
+  0.81--pl5321h7b50bb2_3: sha256:db5b6c1bdebc60f434a00543ccb6c0d62256819e027d63e9b0d583d5ca80274c
 docker: quay.io/biocontainers/perl-inline-c
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

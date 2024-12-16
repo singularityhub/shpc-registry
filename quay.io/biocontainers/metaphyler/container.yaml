@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metaphyler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaphyler
 latest:
-  1.25--h031d066_7: sha256:38046cc041aa01de689f1fa1cb80bf85a56261f2b736e125018055204a38c44b
+  1.25--h7b50bb2_8: sha256:436c42f04b4d4c0152715bbd7fa69d19b53cdf0a59adc282e7bf8665900223a0
 tags:
   1.25--hec16e2b_6: sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd
   1.25--h031d066_7: sha256:38046cc041aa01de689f1fa1cb80bf85a56261f2b736e125018055204a38c44b
+  1.25--h7b50bb2_8: sha256:436c42f04b4d4c0152715bbd7fa69d19b53cdf0a59adc282e7bf8665900223a0
 docker: quay.io/biocontainers/metaphyler
 aliases:
   buildMetaphyler.pl: /usr/local/bin/buildMetaphyler.pl

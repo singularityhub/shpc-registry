@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/veryfasttree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for veryfasttree
 latest:
-  4.0.4--h4ac6f70_0: sha256:94a72b91915d66124c89a4b9752c68a00604be8ca74d6b9d1bfbbce036665b73
+  4.0.4--h9948957_1: sha256:acfd1934f8da1c7a2ad185a4894c6a7295f3c55fa351e1721ec1724624454620
 tags:
   3.1.1--h9f5acd7_1: sha256:f61eb7aa8aa0a69a1791d3c702c78d32a5ed85af370c8da20dec66b837eed066
   3.2.0--h9f5acd7_0: sha256:7e5264ed5c77c98926ba6f6e18f713fa46b726b4b3f5fe5fc365c2276f987e06
@@ -11,6 +11,7 @@ tags:
   3.2.1--h4ac6f70_2: sha256:62c98ae016b14751ca7a4f6dd807d8a63c2a1a2d68cc50969a2b39685c11783e
   4.0.03--h4ac6f70_0: sha256:f405576afe74c31ca5895f72718f716dc317e3c82707b9681607f1e4f395876f
   4.0.4--h4ac6f70_0: sha256:94a72b91915d66124c89a4b9752c68a00604be8ca74d6b9d1bfbbce036665b73
+  4.0.4--h9948957_1: sha256:acfd1934f8da1c7a2ad185a4894c6a7295f3c55fa351e1721ec1724624454620
 docker: quay.io/biocontainers/veryfasttree
 aliases:
   VeryFastTree: /usr/local/bin/VeryFastTree

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/seqwish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqwish
 latest:
-  0.7.11--h43eeafb_0: sha256:4ee536d6a2ceac9fa3de2273b11c32029c19a503a1fb0e2c11ad1e37522b42bf
+  0.7.11--h5ca1c30_1: sha256:c0a12b3b625428b57e718349df6630c7e14d77a212e5808ee2f53d7e139afb9d
 tags:
   0.7.6--h5b5514e_1: sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90
   0.7.7--h5b5514e_1: sha256:3101b83e7532c616472607336b18aecf7088ee0314623154ae9fbb7510daee13
@@ -11,6 +11,7 @@ tags:
   0.7.10--h43eeafb_0: sha256:00c849e96cbcdc782bd6f17fa7d18c78b3743491b37675e5790fd620d35d29f7
   0.7.10--h43eeafb_1: sha256:af4a3b2de58468c45043b2d9269cfd1d0dc8ff69a1497196d32a31ac8ebdc078
   0.7.11--h43eeafb_0: sha256:4ee536d6a2ceac9fa3de2273b11c32029c19a503a1fb0e2c11ad1e37522b42bf
+  0.7.11--h5ca1c30_1: sha256:c0a12b3b625428b57e718349df6630c7e14d77a212e5808ee2f53d7e139afb9d
 docker: quay.io/biocontainers/seqwish
 aliases:
   seqwish: /usr/local/bin/seqwish

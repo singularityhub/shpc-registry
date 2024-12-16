@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mapping-iterative-assembler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapping-iterative-assembler
 latest:
-  1.0--hdbdd923_5: sha256:81c1dce388e8fd29641cd5a45f2ee13f1faec8f25f589257a260571323e4c1b1
+  1.0--h503566f_6: sha256:8df7c133f75997da9db108d21ae2a7039de5e8674e0d7b9110fad9d7b9b6dc18
 tags:
   1.0--h87f3376_3: sha256:6651ca06c2ca4c2e5edcbffc92080608f263013205e713f0fd5b0b49ea42edc6
   1.0--hdbdd923_5: sha256:81c1dce388e8fd29641cd5a45f2ee13f1faec8f25f589257a260571323e4c1b1
+  1.0--h503566f_6: sha256:8df7c133f75997da9db108d21ae2a7039de5e8674e0d7b9110fad9d7b9b6dc18
 docker: quay.io/biocontainers/mapping-iterative-assembler
 aliases:
   ccheck: /usr/local/bin/ccheck

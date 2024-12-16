@@ -9,6 +9,7 @@ tags:
   1.3--r40hdfd78af_1: sha256:57716658e0b4d77ffb3ac1a4fc8d41274100beff85f78207adcd591ca9951ac4
   1.3--r36hdfd78af_2: sha256:df2a0fbfb31da63dd4657de8f8585d26ca9fa358979ef1b51b296377344c4aac
   1.3--r40hdfd78af_2: sha256:a646afb8fdad502f087879e3ed0de755e22df313070086f456f36464843907fc
+  1.3.2--r40hdfd78af_0: sha256:8b9314e007592edf17c1fb2e6201c9a9966ed9baf925da5d0bf21954c4f166c0
 docker: quay.io/biocontainers/r-dimsum
 aliases:
   DiMSum: /usr/local/bin/DiMSum

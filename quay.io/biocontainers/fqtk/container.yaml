@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/fqtk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fqtk
 latest:
-  0.3.1--h919a2d8_1: sha256:58205d903801042d4475f1bc3566a35d8cc2a9673228f7052b7ac4dfce5906c4
+  0.3.1--ha6fb395_2: sha256:d64a3db4caf255127d0af0fed3bd51e3ca95a61dff365113680b6364bb89e524
 tags:
   0.2.0--h9f5acd7_0: sha256:14bdfc6ceba1585638ccf09033dfe68882bd0bf75ee5f807596e9d6676f5cbcd
   0.2.1--h9f5acd7_0: sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5
@@ -10,6 +10,7 @@ tags:
   0.2.2--h4ac6f70_0: sha256:5c8e2e815530c5e35f7655a9f7984a7b7302f1186749ff47078b5155a4f0354e
   0.3.0--h4ac6f70_0: sha256:809c83bb231e162e219b8bb68150ee4bd24dc0d058a82d6c755d4a747b2727fd
   0.3.1--h919a2d8_1: sha256:58205d903801042d4475f1bc3566a35d8cc2a9673228f7052b7ac4dfce5906c4
+  0.3.1--ha6fb395_2: sha256:d64a3db4caf255127d0af0fed3bd51e3ca95a61dff365113680b6364bb89e524
 docker: quay.io/biocontainers/fqtk
 aliases:
   fqtk: /usr/local/bin/fqtk

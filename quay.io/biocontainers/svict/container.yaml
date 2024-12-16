@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/svict
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svict
 latest:
-  1.0.1--hdcf5f25_5: sha256:ec4b0a49aef6f45b90ae3cd5ca37ab81d2394802b5dee0d681d2f40408b1fe54
+  1.0.1--h077b44d_6: sha256:81ed2271f58a4a5478a56990b5a5741ef08b077a4c2949e0ad44ce35116c03df
 tags:
   1.0.1--hd03093a_3: sha256:d8cb74d96578e959454d209906996bcac2c441f98cf674a2cee5a0f5472743e9
   1.0.1--hdcf5f25_5: sha256:ec4b0a49aef6f45b90ae3cd5ca37ab81d2394802b5dee0d681d2f40408b1fe54
+  1.0.1--h077b44d_6: sha256:81ed2271f58a4a5478a56990b5a5741ef08b077a4c2949e0ad44ce35116c03df
 docker: quay.io/biocontainers/svict
 aliases:
   svict: /usr/local/bin/svict

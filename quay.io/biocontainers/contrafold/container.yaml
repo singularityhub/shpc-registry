@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/contrafold
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for contrafold
 latest:
-  2.02--h4ac6f70_3: sha256:ac7783d6f69169a24310b6b679d4a00d95148c1f3f8ec7589425c4a4c00b21e4
+  2.02--h9948957_4: sha256:37bc2d26b9a0df7e3d58d77e4cd731d78c78f0c0225438c11b46308066821b3e
 tags:
   2.02--h9f5acd7_1: sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea
   2.02--h4ac6f70_3: sha256:ac7783d6f69169a24310b6b679d4a00d95148c1f3f8ec7589425c4a4c00b21e4
+  2.02--h9948957_4: sha256:37bc2d26b9a0df7e3d58d77e4cd731d78c78f0c0225438c11b46308066821b3e
 docker: quay.io/biocontainers/contrafold
 aliases:
   contrafold: /usr/local/bin/contrafold

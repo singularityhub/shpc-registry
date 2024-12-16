@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hydra-multi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hydra-multi
 latest:
-  0.5.4--py27h43eeafb_3: sha256:350cbc9df652452f41a8220bbf67e0454709e58d9fe677af9e96fc0cb59e6f00
+  0.5.4--py27h5ca1c30_4: sha256:63c22b832d29e83ec661c57a13ad8b119cc25b4dec1bb5d8e0afebbe9dc1914b
 tags:
   0.5.4--py27h5b5514e_2: sha256:766594888b18519ace58e4fc245d9cab7c7af951dc7a6b0589c5b12ff4385e26
   0.5.4--py27h43eeafb_3: sha256:350cbc9df652452f41a8220bbf67e0454709e58d9fe677af9e96fc0cb59e6f00
+  0.5.4--py27h5ca1c30_4: sha256:63c22b832d29e83ec661c57a13ad8b119cc25b4dec1bb5d8e0afebbe9dc1914b
 docker: quay.io/biocontainers/hydra-multi
 aliases:
   assemble-routed-files.sh: /usr/local/bin/assemble-routed-files.sh

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ginpiper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ginpiper
 latest:
-  1.0.0--r43hdfd78af_2: sha256:7807c8097ed40cd9947c1effaf5f6c1af4bd70a5317d6c374c1aa64e2d4a1024
+  1.0.0--r44hdfd78af_3: sha256:42873af95c1c7346c2e4c1e66a9abba16404c6dcb55fc556ede8d135881e1b87
 tags:
   1.0.0--r41hdfd78af_0: sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340
   1.0.0--r42hdfd78af_1: sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db
   1.0.0--r43hdfd78af_2: sha256:7807c8097ed40cd9947c1effaf5f6c1af4bd70a5317d6c374c1aa64e2d4a1024
+  1.0.0--r44hdfd78af_3: sha256:42873af95c1c7346c2e4c1e66a9abba16404c6dcb55fc556ede8d135881e1b87
 docker: quay.io/biocontainers/ginpiper

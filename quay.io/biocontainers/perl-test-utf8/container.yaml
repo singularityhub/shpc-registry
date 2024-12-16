@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-test-utf8
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-test-utf8
 latest:
-  1.01--pl5321hdfd78af_1: sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab
+  1.03--pl5321hdfd78af_0: sha256:991b3301c7c8eac94b88b226231502626130e4c421b2cbb71e8639d3a9cd7bb3
 tags:
   1.01--pl5321hdfd78af_1: sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab
+  1.03--pl5321hdfd78af_0: sha256:991b3301c7c8eac94b88b226231502626130e4c421b2cbb71e8639d3a9cd7bb3
 docker: quay.io/biocontainers/perl-test-utf8
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

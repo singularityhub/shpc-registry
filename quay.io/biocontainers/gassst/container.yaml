@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gassst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gassst
 latest:
-  1.28--hdbdd923_2: sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286
+  1.28--h503566f_3: sha256:e6b335b4289c5bdef26df333b37340a109e3f62a535c510cde23742d464a0732
 tags:
   1.28--h87f3376_0: sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38
   1.28--hdbdd923_2: sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286
+  1.28--h503566f_3: sha256:e6b335b4289c5bdef26df333b37340a109e3f62a535c510cde23742d464a0732
 docker: quay.io/biocontainers/gassst
 aliases:
   Gassst: /usr/local/bin/Gassst

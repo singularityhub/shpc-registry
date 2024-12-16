@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/perl-class-methodmaker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-class-methodmaker
 latest:
-  2.25--pl5321h031d066_0: sha256:1d2948db819367f928ff32f3a327a523819abc4a720bf0fa275592bfb02539f4
+  2.25--pl5321h7b50bb2_1: sha256:9531cdcf43d8a22a8ee7b1be9d6c9823220b46c0c28ca95e9a37469773d75e68
 tags:
   2.24--pl5321hec16e2b_3: sha256:b7dd4e291ef1d243b2394e689e603c7d4410d311dcd916a82c4b94e6af69ab4c
   2.24--pl5321h031d066_4: sha256:1890add8af393388b3b4446ad8a924c61db71335eca4fd0b7a63e7981846fcdb
   2.25--pl5321h031d066_0: sha256:1d2948db819367f928ff32f3a327a523819abc4a720bf0fa275592bfb02539f4
   2.24--pl5321h031d066_5: sha256:bffb2136c0076aa8b91174e625a047c6cae9eab3359645be7545cb5d183678ad
+  2.25--pl5321h7b50bb2_1: sha256:9531cdcf43d8a22a8ee7b1be9d6c9823220b46c0c28ca95e9a37469773d75e68
 docker: quay.io/biocontainers/perl-class-methodmaker
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

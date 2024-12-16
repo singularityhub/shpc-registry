@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fastutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastutils
 latest:
-  0.3--hdcf5f25_4: sha256:748a27be745748a3772407038710c45878c813fb3485e4ff5471fe5f58e59866
+  0.3--h077b44d_5: sha256:cc65af7af459fde2ffa2b5b15d44f247eb848eccd722d8b65cc4cce68b951921
 tags:
   0.3--hd03093a_2: sha256:742f84851fbf62a76365eb2a6e001596e79f7ef3d194c29f53b3e57efaf3b8ab
   0.3--hdcf5f25_4: sha256:748a27be745748a3772407038710c45878c813fb3485e4ff5471fe5f58e59866
+  0.3--h077b44d_5: sha256:cc65af7af459fde2ffa2b5b15d44f247eb848eccd722d8b65cc4cce68b951921
 docker: quay.io/biocontainers/fastutils
 aliases:
   fastutils: /usr/local/bin/fastutils

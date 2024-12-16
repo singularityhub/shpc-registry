@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-singlecellnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-singlecellnet
 latest:
-  0.4.1--r43hdfd78af_5: sha256:2bf62b7fc50da91950acdca693eacf4a7aa5ad9f5a96c1e8bb8cd9027070e391
+  0.4.1--r44hdfd78af_6: sha256:2c56a49648cd4413fb1a7e11e31086d28341189cee0791faa13e9672f891aea1
 tags:
   0.4.1--r41hdfd78af_3: sha256:16a0227b0a261ace6e2b17b29b9e8d90660490e05bb26a556734e3712160a1e7
   0.4.1--r42hdfd78af_4: sha256:910d8f14c35e353aa1159976bdcd06cda09248a24dceebcfec07cc393485b2b9
   0.4.1--r43hdfd78af_5: sha256:2bf62b7fc50da91950acdca693eacf4a7aa5ad9f5a96c1e8bb8cd9027070e391
+  0.4.1--r44hdfd78af_6: sha256:2c56a49648cd4413fb1a7e11e31086d28341189cee0791faa13e9672f891aea1
 docker: quay.io/biocontainers/r-singlecellnet
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
