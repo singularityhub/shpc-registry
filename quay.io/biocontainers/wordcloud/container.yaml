@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/wordcloud
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for wordcloud
+latest:
+  1.9.4: sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd
+tags:
+  1.9.4: sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd
+docker: quay.io/biocontainers/wordcloud
+aliases:
+  wordcloud_cli: /usr/local/bin/wordcloud_cli
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
