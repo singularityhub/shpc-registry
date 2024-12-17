@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/minimap2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minimap2
 latest:
-  2.28--he4a0461_3: sha256:0c397895db3b494baa4f78de7110d516a1a57707d9c7df456634220bffd965ba
+  2.28--h577a1d6_4: sha256:8310d4996f929c1dbde6d2b17b755d211d6e4493ce6cc3d514842cf8df27af80
 tags:
   2.9--1: sha256:75efbdaa8b662c2dbbe9d45e41b36145aeb123b7edf8fd01b10a7dffdd74bdda
   2.24--h7132678_1: sha256:1f23d5cfbefb25ef4f9a0ee5b4f78d3b6cb0b3c955028d80e1d8b00bc97e299a
@@ -17,4 +17,5 @@ tags:
   2.28--he4a0461_0: sha256:da4304094b716fd7ac7ff5738442c117a2e65868d7ec2b790db7e98626c67e79
   2.28--he4a0461_1: sha256:c97a8030f7ef3112e4dac6ace59af9931aec0386725e3c3f3ec30abcda804bd9
   2.28--he4a0461_3: sha256:0c397895db3b494baa4f78de7110d516a1a57707d9c7df456634220bffd965ba
+  2.28--h577a1d6_4: sha256:8310d4996f929c1dbde6d2b17b755d211d6e4493ce6cc3d514842cf8df27af80
 docker: quay.io/biocontainers/minimap2

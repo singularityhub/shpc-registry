@@ -5,16 +5,11 @@ description: CP2K is a quantum chemistry and solid state physics software packag
   material, crystal, and biological systems.
 maintainer: '@cristiandipietrantonio'
 latest:
-  2022.2.amd3: 'crane digest amdih/cp2k:2022.2.amd3: TOOMANYREQUESTS: You have reached
-    your pull rate limit. You may increase the limit by authenticating and upgrading:
-    https://www.docker.com/increase-rate-limit'
+  2022.2.amd3: sha256:ebaf3ab04c3f09e830bc762f271fc25dc9270dc20dd63879b567c6b89006014d
 tags:
   '8.2': sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec
-  2022.2.amd3: 'crane digest amdih/cp2k:2022.2.amd3: TOOMANYREQUESTS: You have reached
-    your pull rate limit. You may increase the limit by authenticating and upgrading:
-    https://www.docker.com/increase-rate-limit'
-  87ec1599: 'crane digest amdih/cp2k:87ec1599: TOOMANYREQUESTS: You have reached your
-    pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
+  2022.2.amd3: sha256:ebaf3ab04c3f09e830bc762f271fc25dc9270dc20dd63879b567c6b89006014d
+  87ec1599: sha256:deee2bb9d342b324feb60adfed6c8db19752a17c9422018460a817a52a681777
 aliases:
 - name: cp2k.popt
   command: /opt/cp2k/bin/cp2k.popt

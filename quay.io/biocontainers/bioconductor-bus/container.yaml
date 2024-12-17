@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bus
 latest:
-  1.58.0--r43hf17093f_1: sha256:8cc1a82386905068617b2cbfbe572a85756e156f5f76e0a48d3ee8f42656992e
+  1.62.0--r44he5774e6_0: sha256:b218918fafdbb3daf4ae35b4b9ddc59bb446e1b52284d554940e2cc72e6817e3
 tags:
   1.50.0--r41hc247a5b_2: sha256:5f33581b8184a90fc5b2e5ed9674d8d24d40d55196fece5282a071bd9a1ced04
   1.54.0--r42hc247a5b_0: sha256:7b6dadc92bb50f3c4fc6bca337ad7aecf8d7cbe2134aa559651db16f8280f4c3
@@ -10,4 +10,5 @@ tags:
   1.56.0--r43hf17093f_0: sha256:1a52dca0fb0df95bf2a9984f569d92230edff23c6541a9f629aae1cbb2b51708
   1.58.0--r43hf17093f_0: sha256:1ddf9b4445d76b2e9ade82063d33e12aaecf8e5f1aa8d7c89ab27a2e79ad9996
   1.58.0--r43hf17093f_1: sha256:8cc1a82386905068617b2cbfbe572a85756e156f5f76e0a48d3ee8f42656992e
+  1.62.0--r44he5774e6_0: sha256:b218918fafdbb3daf4ae35b4b9ddc59bb446e1b52284d554940e2cc72e6817e3
 docker: quay.io/biocontainers/bioconductor-bus

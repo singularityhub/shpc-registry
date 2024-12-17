@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/tatajuba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tatajuba
 latest:
-  1.0.4--he4a0461_3: sha256:ab507a60d16cd67ea7d72814d04319682ce0b7502ed3a9caa2b4f1d0347fc7c5
+  1.0.4--h577a1d6_4: sha256:eae4e03e872ea1feb9124fe4182df95be87bcd0e832e731e9f682e12487eacf4
 tags:
   1.0.4--h7132678_1: sha256:94c0e10fe9d50cfcbc5b910d42cd19c5ff398a6b9b6bcd2e4a612f4e7c2e3ee7
   1.0.4--he4a0461_3: sha256:ab507a60d16cd67ea7d72814d04319682ce0b7502ed3a9caa2b4f1d0347fc7c5
+  1.0.4--h577a1d6_4: sha256:eae4e03e872ea1feb9124fe4182df95be87bcd0e832e731e9f682e12487eacf4
 docker: quay.io/biocontainers/tatajuba
 aliases:
   tatajuba: /usr/local/bin/tatajuba

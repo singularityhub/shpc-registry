@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mirbaseconverter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirbaseconverter
 latest:
-  1.24.0--r43hdfd78af_0: sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137
+  1.30.0--r44hdfd78af_0: sha256:3ea6361189db50d6be6c020877125162033173f3d769f7f51ff757dfac86d019
 tags:
   1.8.0--r36_1: sha256:f12dbec51e4827a70077820ebd49070bbd2af88cb18476c18acd456545a3aa48
   1.22.0--r42hdfd78af_0: sha256:2ba2f859835a3e73100308c62fb18e66b640efbea6a627c3f7a265a9467047f4
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:12bdef3306b1a97208e50595e6a113371a5a75bc26f5415db8482c9e6d85e911
   1.12.0--r40_0: sha256:647b49fc76d1b5c10cfe6cf336810a7bb95d94bc8751e9b1006689e52de63125
   1.24.0--r43hdfd78af_0: sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137
+  1.30.0--r44hdfd78af_0: sha256:3ea6361189db50d6be6c020877125162033173f3d769f7f51ff757dfac86d019
 docker: quay.io/biocontainers/bioconductor-mirbaseconverter
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

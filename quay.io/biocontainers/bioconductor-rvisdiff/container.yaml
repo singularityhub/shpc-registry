@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rvisdiff
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rvisdiff
 latest:
-  1.0.0--r43hdfd78af_0: sha256:4a496db5e21df90ccdabd3d371327abd9011d0a94b58af3eefb20fd300e1674b
+  1.4.0--r44hdfd78af_0: sha256:04b47ee99c9e963ef3bddce28586a8f4c014fb9ec69b68e658b57f9dcf633f34
 tags:
   1.0.0--r43hdfd78af_0: sha256:4a496db5e21df90ccdabd3d371327abd9011d0a94b58af3eefb20fd300e1674b
+  1.4.0--r44hdfd78af_0: sha256:04b47ee99c9e963ef3bddce28586a8f4c014fb9ec69b68e658b57f9dcf633f34
 docker: quay.io/biocontainers/bioconductor-rvisdiff
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

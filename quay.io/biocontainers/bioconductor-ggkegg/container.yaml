@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ggkegg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ggkegg
 latest:
-  1.0.2--r43hdfd78af_0: sha256:86ed7371e206c1aa8ada56847053ca1b7b2ec4ceeff36bbd8a0b42ffdfa51af3
+  1.4.0--r44hdfd78af_0: sha256:f44d38c46845b0642403da4b5f098aa14872d3ab806fac714925ebfd30c69a74
 tags:
   1.0.2--r43hdfd78af_0: sha256:86ed7371e206c1aa8ada56847053ca1b7b2ec4ceeff36bbd8a0b42ffdfa51af3
+  1.4.0--r44hdfd78af_0: sha256:f44d38c46845b0642403da4b5f098aa14872d3ab806fac714925ebfd30c69a74
 docker: quay.io/biocontainers/bioconductor-ggkegg
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

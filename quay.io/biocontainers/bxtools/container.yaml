@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bxtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bxtools
 latest:
-  0.1.0--hf5e1c6e_5: sha256:ac0f562769b0be477f8d91e488262d710021d5814831481e6ab95f197b7f9671
+  0.1.0--h13024bc_6: sha256:64daee8923fd24b9d8be843f5bf5d6c19c6a253f4b45c389b6f5149633f6e847
 tags:
   0.1.0--h468198e_3: sha256:d76f399d5ef3018291ce05240dd19d4ee569d16080da5ef85149cabaf1fbeb0d
   0.1.0--hf5e1c6e_5: sha256:ac0f562769b0be477f8d91e488262d710021d5814831481e6ab95f197b7f9671
+  0.1.0--h13024bc_6: sha256:64daee8923fd24b9d8be843f5bf5d6c19c6a253f4b45c389b6f5149633f6e847
 docker: quay.io/biocontainers/bxtools
 aliases:
   bxtools: /usr/local/bin/bxtools

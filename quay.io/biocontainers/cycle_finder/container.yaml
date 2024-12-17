@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cycle_finder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cycle_finder
 latest:
-  1.0.0--hdbdd923_0: sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a
+  1.0.0--h503566f_1: sha256:ff48686243c9459237cadadf527afc149f1ff1742bbfcf68e990ba45699d1f9e
 tags:
   1.0.0--hdbdd923_0: sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a
+  1.0.0--h503566f_1: sha256:ff48686243c9459237cadadf527afc149f1ff1742bbfcf68e990ba45699d1f9e
 docker: quay.io/biocontainers/cycle_finder
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb

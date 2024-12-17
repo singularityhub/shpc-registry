@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ndexr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ndexr
 latest:
-  1.24.0--r43hdfd78af_0: sha256:afaa69eac896debf3f000587c550f760636475da6dae327100cf9e0f5371deb8
+  1.28.0--r44hdfd78af_0: sha256:7648ae0a79bf824375f9e98b446be42c378de91e48cc940091893bcf774182f4
 tags:
   1.8.0--r36_0: sha256:4fa83b06ef5e71acd779de6e720f7d0cf5313220f90667d10249141471f4f9af
   1.20.0--r42hdfd78af_0: sha256:3ce31f98746d5f821203f15a226791561a2ddb28ea89dfc9f9fbcf9c120fbb62
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:c27b56840cc44eddbb11c479002a9689d91da80ef130ec8b1899a3dd417ef79a
   1.22.0--r43hdfd78af_0: sha256:1367642e581272483c80ce0aecee5cb86cb8c854e1a56f9fb1efd62218fc774c
   1.24.0--r43hdfd78af_0: sha256:afaa69eac896debf3f000587c550f760636475da6dae327100cf9e0f5371deb8
+  1.28.0--r44hdfd78af_0: sha256:7648ae0a79bf824375f9e98b446be42c378de91e48cc940091893bcf774182f4
 docker: quay.io/biocontainers/bioconductor-ndexr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

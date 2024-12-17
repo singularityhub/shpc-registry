@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/haptools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haptools
 latest:
-  0.4.2--pyhdfd78af_0: sha256:a764594bb1bf11a32c9a1a2787b2a517efc4a162ea252cc518f1a3c2b0d29d3f
+  0.5.0--pyhdfd78af_0: sha256:35cbff24475728a92f097f9bea40a2209494f24aab86a7aa9bfcb9dd94b79bcc
 tags:
   0.1.3--pyhdfd78af_0: sha256:95c5c9facc6b2cee7c3d0afaf91ffefba380beb7545893875d36c6b07f2978c3
   0.2.0--pyhdfd78af_0: sha256:324e8d2dd77e8b474a0a551b7052a0ada25fbf89feb0b2dde220f01b453a5378
@@ -10,6 +10,7 @@ tags:
   0.3.0--pyhdfd78af_0: sha256:0137c43e4372e9670583ea3edb09b151cee33462bb6a4935d874176bc9a97405
   0.4.0--pyhdfd78af_0: sha256:25f1f6e7db475729177a5c1e6ede24ba79d47e0f1243d8fe2b478fe2452d60a6
   0.4.2--pyhdfd78af_0: sha256:a764594bb1bf11a32c9a1a2787b2a517efc4a162ea252cc518f1a3c2b0d29d3f
+  0.5.0--pyhdfd78af_0: sha256:35cbff24475728a92f097f9bea40a2209494f24aab86a7aa9bfcb9dd94b79bcc
 docker: quay.io/biocontainers/haptools
 aliases:
   haptools: /usr/local/bin/haptools
