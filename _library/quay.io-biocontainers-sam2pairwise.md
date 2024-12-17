@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sam2pairwise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam2pairwise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam2pairwise/container.yaml"
-updated_at: "2024-12-16 03:14:11.156792"
-latest: "1.0.0--h4ac6f70_0"
+updated_at: "2024-12-17 03:09:22.931639"
+latest: "1.0.0--h9948957_1"
 container_url: "https://biocontainers.pro/tools/sam2pairwise"
 aliases:
  - "sam2pairwise"
 versions:
  - "1.0.0--h4ac6f70_0"
+ - "1.0.0--h9948957_1"
 description: "singularity registry hpc automated addition for sam2pairwise"
-config: {"url": "https://biocontainers.pro/tools/sam2pairwise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sam2pairwise", "latest": {"1.0.0--h4ac6f70_0": "sha256:0d688c7b09c9eaf656cbaca89cfe5c8856577b87573f7fe22d9594d43175117a"}, "tags": {"1.0.0--h4ac6f70_0": "sha256:0d688c7b09c9eaf656cbaca89cfe5c8856577b87573f7fe22d9594d43175117a"}, "docker": "quay.io/biocontainers/sam2pairwise", "aliases": {"sam2pairwise": "/usr/local/bin/sam2pairwise"}}
+config: {"url": "https://biocontainers.pro/tools/sam2pairwise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sam2pairwise", "latest": {"1.0.0--h9948957_1": "sha256:57678c8550db7e2b2b2c315f0108f1e1cacd6024de30aaaae29be6a874eab766"}, "tags": {"1.0.0--h4ac6f70_0": "sha256:0d688c7b09c9eaf656cbaca89cfe5c8856577b87573f7fe22d9594d43175117a", "1.0.0--h9948957_1": "sha256:57678c8550db7e2b2b2c315f0108f1e1cacd6024de30aaaae29be6a874eab766"}, "docker": "quay.io/biocontainers/sam2pairwise", "aliases": {"sam2pairwise": "/usr/local/bin/sam2pairwise"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam2pairwise.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sam2pairwise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sam2pairwise:1.0.0--h4ac6f70_0
+$ shpc install quay.io/biocontainers/sam2pairwise:1.0.0--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sam2pairwise/1.0.0--h4ac6f70_0
-$ module help quay.io/biocontainers/sam2pairwise/1.0.0--h4ac6f70_0
+$ module load quay.io/biocontainers/sam2pairwise/1.0.0--h9948957_1
+$ module help quay.io/biocontainers/sam2pairwise/1.0.0--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

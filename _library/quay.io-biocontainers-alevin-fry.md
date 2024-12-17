@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alevin-fry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alevin-fry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alevin-fry/container.yaml"
-updated_at: "2024-12-16 03:26:55.858098"
-latest: "0.10.0--h919a2d8_0"
+updated_at: "2024-12-17 03:22:07.905724"
+latest: "0.11.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/alevin-fry"
 aliases:
  - "alevin-fry"
@@ -17,8 +17,9 @@ versions:
  - "0.9.0--h919a2d8_0"
  - "0.10.0--h919a2d8_0"
  - "0.9.0--h919a2d8_1"
+ - "0.11.0--ha6fb395_0"
 description: "shpc-registry automated BioContainers addition for alevin-fry"
-config: {"url": "https://biocontainers.pro/tools/alevin-fry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alevin-fry", "latest": {"0.10.0--h919a2d8_0": "sha256:9f41b0ab082b738551505a0a61bb506a42a86c4c913e58e7eb8526b183fa56d6"}, "tags": {"0.8.0--h9f5acd7_0": "sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb", "0.8.1--h9f5acd7_0": "sha256:a354dca356ee686930c886ebaf768325870b8133cd6d68b8039631ee4f145ff8", "0.8.1--h4ac6f70_2": "sha256:72c10bfb3688ae80f5ce6827b66090d80af302eaac7c6304749c91073a21f52c", "0.8.2--h4ac6f70_0": "sha256:9a42a6e8fc644f990781c4f5e286f37c73eaeb37aae689f0a2940fbc4242fd34", "0.9.0--h919a2d8_0": "sha256:b99a3420beba60825d0659d585ece2ad82d1e4ce63cbae656dc67dfed79f9f4c", "0.10.0--h919a2d8_0": "sha256:9f41b0ab082b738551505a0a61bb506a42a86c4c913e58e7eb8526b183fa56d6", "0.9.0--h919a2d8_1": "sha256:2b3e3aa6fc7d8961ce4008ca7369abf6a52969d874b36061b18c139d8b69c4bc"}, "docker": "quay.io/biocontainers/alevin-fry", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry"}}
+config: {"url": "https://biocontainers.pro/tools/alevin-fry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alevin-fry", "latest": {"0.11.0--ha6fb395_0": "sha256:33b70fe7478b188f71d40325d6b14fff714ee141a6ffd1e6caee2b22505970b5"}, "tags": {"0.8.0--h9f5acd7_0": "sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb", "0.8.1--h9f5acd7_0": "sha256:a354dca356ee686930c886ebaf768325870b8133cd6d68b8039631ee4f145ff8", "0.8.1--h4ac6f70_2": "sha256:72c10bfb3688ae80f5ce6827b66090d80af302eaac7c6304749c91073a21f52c", "0.8.2--h4ac6f70_0": "sha256:9a42a6e8fc644f990781c4f5e286f37c73eaeb37aae689f0a2940fbc4242fd34", "0.9.0--h919a2d8_0": "sha256:b99a3420beba60825d0659d585ece2ad82d1e4ce63cbae656dc67dfed79f9f4c", "0.10.0--h919a2d8_0": "sha256:9f41b0ab082b738551505a0a61bb506a42a86c4c913e58e7eb8526b183fa56d6", "0.9.0--h919a2d8_1": "sha256:2b3e3aa6fc7d8961ce4008ca7369abf6a52969d874b36061b18c139d8b69c4bc", "0.11.0--ha6fb395_0": "sha256:33b70fe7478b188f71d40325d6b14fff714ee141a6ffd1e6caee2b22505970b5"}, "docker": "quay.io/biocontainers/alevin-fry", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alevin-fry.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/alevin-fry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alevin-fry:0.10.0--h919a2d8_0
+$ shpc install quay.io/biocontainers/alevin-fry:0.11.0--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alevin-fry/0.10.0--h919a2d8_0
-$ module help quay.io/biocontainers/alevin-fry/0.10.0--h919a2d8_0
+$ module load quay.io/biocontainers/alevin-fry/0.11.0--ha6fb395_0
+$ module help quay.io/biocontainers/alevin-fry/0.11.0--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

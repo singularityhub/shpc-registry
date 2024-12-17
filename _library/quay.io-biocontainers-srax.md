@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/srax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srax/container.yaml"
-updated_at: "2024-12-16 03:54:01.418703"
-latest: "1.5--pl5321ha8f3691_2"
+updated_at: "2024-12-17 03:49:11.368032"
+latest: "1.5--pl5321h05cac1d_3"
 container_url: "https://biocontainers.pro/tools/srax"
 aliases:
  - "envpath"
@@ -22,8 +22,9 @@ aliases:
  - "einsi"
 versions:
  - "1.5--pl5321ha8f3691_2"
+ - "1.5--pl5321h05cac1d_3"
 description: "shpc-registry automated BioContainers addition for srax"
-config: {"url": "https://biocontainers.pro/tools/srax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srax", "latest": {"1.5--pl5321ha8f3691_2": "sha256:6f521a8ef2406b1bf0e8bbda74fe02236859f3a3454692a808ac40366914b816"}, "tags": {"1.5--pl5321ha8f3691_2": "sha256:6f521a8ef2406b1bf0e8bbda74fe02236859f3a3454692a808ac40366914b816"}, "docker": "quay.io/biocontainers/srax", "aliases": {"envpath": "/usr/local/bin/envpath", "sraX": "/usr/local/bin/sraX", "clustalo": "/usr/local/bin/clustalo", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "muscle": "/usr/local/bin/muscle", "diamond": "/usr/local/bin/diamond", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi"}}
+config: {"url": "https://biocontainers.pro/tools/srax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srax", "latest": {"1.5--pl5321h05cac1d_3": "sha256:c8d86b3c54d1450bd8fea71ebeff3c0e902ef235e8a9e6207533bdcca6e492a4"}, "tags": {"1.5--pl5321ha8f3691_2": "sha256:6f521a8ef2406b1bf0e8bbda74fe02236859f3a3454692a808ac40366914b816", "1.5--pl5321h05cac1d_3": "sha256:c8d86b3c54d1450bd8fea71ebeff3c0e902ef235e8a9e6207533bdcca6e492a4"}, "docker": "quay.io/biocontainers/srax", "aliases": {"envpath": "/usr/local/bin/envpath", "sraX": "/usr/local/bin/sraX", "clustalo": "/usr/local/bin/clustalo", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "muscle": "/usr/local/bin/muscle", "diamond": "/usr/local/bin/diamond", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srax.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/srax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/srax:1.5--pl5321ha8f3691_2
+$ shpc install quay.io/biocontainers/srax:1.5--pl5321h05cac1d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/srax/1.5--pl5321ha8f3691_2
-$ module help quay.io/biocontainers/srax/1.5--pl5321ha8f3691_2
+$ module load quay.io/biocontainers/srax/1.5--pl5321h05cac1d_3
+$ module help quay.io/biocontainers/srax/1.5--pl5321h05cac1d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

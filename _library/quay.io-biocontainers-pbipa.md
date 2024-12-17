@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbipa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbipa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbipa/container.yaml"
-updated_at: "2024-12-16 03:45:54.202752"
-latest: "1.8.0--h6ead514_2"
+updated_at: "2024-12-17 03:41:04.555107"
+latest: "1.8.0--h1104d80_3"
 container_url: "https://biocontainers.pro/tools/pbipa"
 aliases:
  - "falconc"
@@ -35,8 +35,9 @@ aliases:
 versions:
  - "1.8.0--hbd632db_1"
  - "1.8.0--h6ead514_2"
+ - "1.8.0--h1104d80_3"
 description: "shpc-registry automated BioContainers addition for pbipa"
-config: {"url": "https://biocontainers.pro/tools/pbipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbipa", "latest": {"1.8.0--h6ead514_2": "sha256:a14f31751647d6d636632974cb1d15bde547f5d7e708d7ba79d591db04de251a"}, "tags": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395", "1.8.0--h6ead514_2": "sha256:a14f31751647d6d636632974cb1d15bde547f5d7e708d7ba79d591db04de251a"}, "docker": "quay.io/biocontainers/pbipa", "aliases": {"falconc": "/usr/local/bin/falconc", "ipa": "/usr/local/bin/ipa", "ipa2-task": "/usr/local/bin/ipa2-task", "ipa2_graph_to_contig": "/usr/local/bin/ipa2_graph_to_contig", "ipa2_ovlp_to_graph": "/usr/local/bin/ipa2_ovlp_to_graph", "ipa_purge_dups": "/usr/local/bin/ipa_purge_dups", "ipa_purge_dups_calcuts": "/usr/local/bin/ipa_purge_dups_calcuts", "ipa_purge_dups_get_seqs": "/usr/local/bin/ipa_purge_dups_get_seqs", "ipa_purge_dups_ngscstat": "/usr/local/bin/ipa_purge_dups_ngscstat", "ipa_purge_dups_pbcstat": "/usr/local/bin/ipa_purge_dups_pbcstat", "ipa_purge_dups_split_fa": "/usr/local/bin/ipa_purge_dups_split_fa", "nighthawk": "/usr/local/bin/nighthawk", "pancake": "/usr/local/bin/pancake", "pblayout": "/usr/local/bin/pblayout", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
+config: {"url": "https://biocontainers.pro/tools/pbipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbipa", "latest": {"1.8.0--h1104d80_3": "sha256:57fc751f1cae3274ae6f46ce987771d78c817713fe940c6c97919e006862a6b2"}, "tags": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395", "1.8.0--h6ead514_2": "sha256:a14f31751647d6d636632974cb1d15bde547f5d7e708d7ba79d591db04de251a", "1.8.0--h1104d80_3": "sha256:57fc751f1cae3274ae6f46ce987771d78c817713fe940c6c97919e006862a6b2"}, "docker": "quay.io/biocontainers/pbipa", "aliases": {"falconc": "/usr/local/bin/falconc", "ipa": "/usr/local/bin/ipa", "ipa2-task": "/usr/local/bin/ipa2-task", "ipa2_graph_to_contig": "/usr/local/bin/ipa2_graph_to_contig", "ipa2_ovlp_to_graph": "/usr/local/bin/ipa2_ovlp_to_graph", "ipa_purge_dups": "/usr/local/bin/ipa_purge_dups", "ipa_purge_dups_calcuts": "/usr/local/bin/ipa_purge_dups_calcuts", "ipa_purge_dups_get_seqs": "/usr/local/bin/ipa_purge_dups_get_seqs", "ipa_purge_dups_ngscstat": "/usr/local/bin/ipa_purge_dups_ngscstat", "ipa_purge_dups_pbcstat": "/usr/local/bin/ipa_purge_dups_pbcstat", "ipa_purge_dups_split_fa": "/usr/local/bin/ipa_purge_dups_split_fa", "nighthawk": "/usr/local/bin/nighthawk", "pancake": "/usr/local/bin/pancake", "pblayout": "/usr/local/bin/pblayout", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbipa.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/pbipa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbipa:1.8.0--h6ead514_2
+$ shpc install quay.io/biocontainers/pbipa:1.8.0--h1104d80_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbipa/1.8.0--h6ead514_2
-$ module help quay.io/biocontainers/pbipa/1.8.0--h6ead514_2
+$ module load quay.io/biocontainers/pbipa/1.8.0--h1104d80_3
+$ module help quay.io/biocontainers/pbipa/1.8.0--h1104d80_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

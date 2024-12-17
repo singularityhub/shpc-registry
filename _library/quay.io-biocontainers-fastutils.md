@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastutils/container.yaml"
-updated_at: "2024-12-16 03:34:20.597623"
-latest: "0.3--hdcf5f25_4"
+updated_at: "2024-12-17 03:29:31.666536"
+latest: "0.3--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/fastutils"
 aliases:
  - "fastutils"
 versions:
  - "0.3--hd03093a_2"
  - "0.3--hdcf5f25_4"
+ - "0.3--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for fastutils"
-config: {"url": "https://biocontainers.pro/tools/fastutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastutils", "latest": {"0.3--hdcf5f25_4": "sha256:748a27be745748a3772407038710c45878c813fb3485e4ff5471fe5f58e59866"}, "tags": {"0.3--hd03093a_2": "sha256:742f84851fbf62a76365eb2a6e001596e79f7ef3d194c29f53b3e57efaf3b8ab", "0.3--hdcf5f25_4": "sha256:748a27be745748a3772407038710c45878c813fb3485e4ff5471fe5f58e59866"}, "docker": "quay.io/biocontainers/fastutils", "aliases": {"fastutils": "/usr/local/bin/fastutils"}}
+config: {"url": "https://biocontainers.pro/tools/fastutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastutils", "latest": {"0.3--h077b44d_5": "sha256:cc65af7af459fde2ffa2b5b15d44f247eb848eccd722d8b65cc4cce68b951921"}, "tags": {"0.3--hd03093a_2": "sha256:742f84851fbf62a76365eb2a6e001596e79f7ef3d194c29f53b3e57efaf3b8ab", "0.3--hdcf5f25_4": "sha256:748a27be745748a3772407038710c45878c813fb3485e4ff5471fe5f58e59866", "0.3--h077b44d_5": "sha256:cc65af7af459fde2ffa2b5b15d44f247eb848eccd722d8b65cc4cce68b951921"}, "docker": "quay.io/biocontainers/fastutils", "aliases": {"fastutils": "/usr/local/bin/fastutils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastutils.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastutils:0.3--hdcf5f25_4
+$ shpc install quay.io/biocontainers/fastutils:0.3--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastutils/0.3--hdcf5f25_4
-$ module help quay.io/biocontainers/fastutils/0.3--hdcf5f25_4
+$ module load quay.io/biocontainers/fastutils/0.3--h077b44d_5
+$ module help quay.io/biocontainers/fastutils/0.3--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

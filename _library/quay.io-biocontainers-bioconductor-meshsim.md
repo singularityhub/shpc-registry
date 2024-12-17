@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meshsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshsim/container.yaml"
-updated_at: "2024-12-16 03:41:15.190646"
+updated_at: "2024-12-17 03:36:25.770139"
 latest: "1.7.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshsim"
 aliases:

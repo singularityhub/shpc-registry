@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gassst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gassst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gassst/container.yaml"
-updated_at: "2024-12-16 03:33:40.031234"
-latest: "1.28--hdbdd923_2"
+updated_at: "2024-12-17 03:28:51.261964"
+latest: "1.28--h503566f_3"
 container_url: "https://biocontainers.pro/tools/gassst"
 aliases:
  - "Gassst"
 versions:
  - "1.28--h87f3376_0"
  - "1.28--hdbdd923_2"
+ - "1.28--h503566f_3"
 description: "singularity registry hpc automated addition for gassst"
-config: {"url": "https://biocontainers.pro/tools/gassst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gassst", "latest": {"1.28--hdbdd923_2": "sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286"}, "tags": {"1.28--h87f3376_0": "sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38", "1.28--hdbdd923_2": "sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286"}, "docker": "quay.io/biocontainers/gassst", "aliases": {"Gassst": "/usr/local/bin/Gassst"}}
+config: {"url": "https://biocontainers.pro/tools/gassst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gassst", "latest": {"1.28--h503566f_3": "sha256:e6b335b4289c5bdef26df333b37340a109e3f62a535c510cde23742d464a0732"}, "tags": {"1.28--h87f3376_0": "sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38", "1.28--hdbdd923_2": "sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286", "1.28--h503566f_3": "sha256:e6b335b4289c5bdef26df333b37340a109e3f62a535c510cde23742d464a0732"}, "docker": "quay.io/biocontainers/gassst", "aliases": {"Gassst": "/usr/local/bin/Gassst"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gassst.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gassst
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gassst:1.28--hdbdd923_2
+$ shpc install quay.io/biocontainers/gassst:1.28--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gassst/1.28--hdbdd923_2
-$ module help quay.io/biocontainers/gassst/1.28--hdbdd923_2
+$ module load quay.io/biocontainers/gassst/1.28--h503566f_3
+$ module help quay.io/biocontainers/gassst/1.28--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

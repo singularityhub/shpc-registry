@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-statistics-r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-r/container.yaml"
-updated_at: "2024-12-16 03:51:18.725307"
-latest: "0.34--pl5321r43hdfd78af_6"
+updated_at: "2024-12-17 03:46:28.548510"
+latest: "0.34--pl5321r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/perl-statistics-r"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "0.34--pl5321r41hdfd78af_4"
  - "0.34--pl5321r42hdfd78af_5"
  - "0.34--pl5321r43hdfd78af_6"
+ - "0.34--pl5321r44hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for perl-statistics-r"
-config: {"url": "https://biocontainers.pro/tools/perl-statistics-r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-statistics-r", "latest": {"0.34--pl5321r43hdfd78af_6": "sha256:2c7fba77bcde3a43b7f18230b95f2262756e6071c9de92ca46121694d7af5f81"}, "tags": {"0.34--pl5321r41hdfd78af_4": "sha256:619e20fb6a280cb1acde2fc836bc20225c3f78d216d12e71edf77b9d3ddfbd5c", "0.34--pl5321r42hdfd78af_5": "sha256:a8619ed060695a10858ee078253324c88e55ea5b62692b1b2a43e4d7ab50bf23", "0.34--pl5321r43hdfd78af_6": "sha256:2c7fba77bcde3a43b7f18230b95f2262756e6071c9de92ca46121694d7af5f81"}, "docker": "quay.io/biocontainers/perl-statistics-r", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-statistics-r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-statistics-r", "latest": {"0.34--pl5321r44hdfd78af_7": "sha256:7d6603b218afbfd2d4ca86d9eeba27f9944831bdb0220b652df8c091e495a842"}, "tags": {"0.34--pl5321r41hdfd78af_4": "sha256:619e20fb6a280cb1acde2fc836bc20225c3f78d216d12e71edf77b9d3ddfbd5c", "0.34--pl5321r42hdfd78af_5": "sha256:a8619ed060695a10858ee078253324c88e55ea5b62692b1b2a43e4d7ab50bf23", "0.34--pl5321r43hdfd78af_6": "sha256:2c7fba77bcde3a43b7f18230b95f2262756e6071c9de92ca46121694d7af5f81", "0.34--pl5321r44hdfd78af_7": "sha256:7d6603b218afbfd2d4ca86d9eeba27f9944831bdb0220b652df8c091e495a842"}, "docker": "quay.io/biocontainers/perl-statistics-r", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-statistics-r.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-statistics-r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-statistics-r:0.34--pl5321r43hdfd78af_6
+$ shpc install quay.io/biocontainers/perl-statistics-r:0.34--pl5321r44hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-statistics-r/0.34--pl5321r43hdfd78af_6
-$ module help quay.io/biocontainers/perl-statistics-r/0.34--pl5321r43hdfd78af_6
+$ module load quay.io/biocontainers/perl-statistics-r/0.34--pl5321r44hdfd78af_7
+$ module help quay.io/biocontainers/perl-statistics-r/0.34--pl5321r44hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

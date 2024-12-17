@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snvphyl-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snvphyl-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snvphyl-tools/container.yaml"
-updated_at: "2024-12-16 03:55:29.656793"
-latest: "1.8.2--pl5321h031d066_8"
+updated_at: "2024-12-17 03:50:39.473181"
+latest: "1.8.2--pl5321h7b50bb2_9"
 container_url: "https://biocontainers.pro/tools/snvphyl-tools"
 aliases:
  - "consolidate_vcfs.pl"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "1.8.2--pl5321hec16e2b_7"
  - "1.8.2--pl5321h031d066_8"
+ - "1.8.2--pl5321h7b50bb2_9"
 description: "shpc-registry automated BioContainers addition for snvphyl-tools"
-config: {"url": "https://biocontainers.pro/tools/snvphyl-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snvphyl-tools", "latest": {"1.8.2--pl5321h031d066_8": "sha256:7596eefba724af0f222d6e326f9262ef569c64983153ff8204c9ec93a683a555"}, "tags": {"1.8.2--pl5321hec16e2b_7": "sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9", "1.8.2--pl5321h031d066_8": "sha256:7596eefba724af0f222d6e326f9262ef569c64983153ff8204c9ec93a683a555"}, "docker": "quay.io/biocontainers/snvphyl-tools", "aliases": {"consolidate_vcfs.pl": "/usr/local/bin/consolidate_vcfs.pl", "core-only.pl": "/usr/local/bin/core-only.pl", "extract_snvs_metaalign.pl": "/usr/local/bin/extract_snvs_metaalign.pl", "filter-positions.pl": "/usr/local/bin/filter-positions.pl", "filter-stats.pl": "/usr/local/bin/filter-stats.pl", "filterVcf.pl": "/usr/local/bin/filterVcf.pl", "filter_unique_basepairs.pl": "/usr/local/bin/filter_unique_basepairs.pl", "find-positions-used.pl": "/usr/local/bin/find-positions-used.pl", "find-repeats.pl": "/usr/local/bin/find-repeats.pl", "positions2phyloviz.pl": "/usr/local/bin/positions2phyloviz.pl", "positions2snv_alignment.pl": "/usr/local/bin/positions2snv_alignment.pl", "positions2snv_invariant_alignment.pl": "/usr/local/bin/positions2snv_invariant_alignment.pl", "rearrange_snv_matrix.pl": "/usr/local/bin/rearrange_snv_matrix.pl", "ref_stats.pl": "/usr/local/bin/ref_stats.pl", "reporter.pl": "/usr/local/bin/reporter.pl", "snv_matrix.pl": "/usr/local/bin/snv_matrix.pl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "tsvToVcf.pl": "/usr/local/bin/tsvToVcf.pl", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "vcf2snv_alignment.pl": "/usr/local/bin/vcf2snv_alignment.pl", "vcftools": "/usr/local/bin/vcftools", "verify_excess_coverage.pl": "/usr/local/bin/verify_excess_coverage.pl", "verify_low_depth.pl": "/usr/local/bin/verify_low_depth.pl", "verify_mapping_quality.pl": "/usr/local/bin/verify_mapping_quality.pl", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/snvphyl-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snvphyl-tools", "latest": {"1.8.2--pl5321h7b50bb2_9": "sha256:2bfb8fc596a49e6e746d83e050e821bd8f0128cd424957dc72145cd4e58cd15c"}, "tags": {"1.8.2--pl5321hec16e2b_7": "sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9", "1.8.2--pl5321h031d066_8": "sha256:7596eefba724af0f222d6e326f9262ef569c64983153ff8204c9ec93a683a555", "1.8.2--pl5321h7b50bb2_9": "sha256:2bfb8fc596a49e6e746d83e050e821bd8f0128cd424957dc72145cd4e58cd15c"}, "docker": "quay.io/biocontainers/snvphyl-tools", "aliases": {"consolidate_vcfs.pl": "/usr/local/bin/consolidate_vcfs.pl", "core-only.pl": "/usr/local/bin/core-only.pl", "extract_snvs_metaalign.pl": "/usr/local/bin/extract_snvs_metaalign.pl", "filter-positions.pl": "/usr/local/bin/filter-positions.pl", "filter-stats.pl": "/usr/local/bin/filter-stats.pl", "filterVcf.pl": "/usr/local/bin/filterVcf.pl", "filter_unique_basepairs.pl": "/usr/local/bin/filter_unique_basepairs.pl", "find-positions-used.pl": "/usr/local/bin/find-positions-used.pl", "find-repeats.pl": "/usr/local/bin/find-repeats.pl", "positions2phyloviz.pl": "/usr/local/bin/positions2phyloviz.pl", "positions2snv_alignment.pl": "/usr/local/bin/positions2snv_alignment.pl", "positions2snv_invariant_alignment.pl": "/usr/local/bin/positions2snv_invariant_alignment.pl", "rearrange_snv_matrix.pl": "/usr/local/bin/rearrange_snv_matrix.pl", "ref_stats.pl": "/usr/local/bin/ref_stats.pl", "reporter.pl": "/usr/local/bin/reporter.pl", "snv_matrix.pl": "/usr/local/bin/snv_matrix.pl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "tsvToVcf.pl": "/usr/local/bin/tsvToVcf.pl", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "vcf2snv_alignment.pl": "/usr/local/bin/vcf2snv_alignment.pl", "vcftools": "/usr/local/bin/vcftools", "verify_excess_coverage.pl": "/usr/local/bin/verify_excess_coverage.pl", "verify_low_depth.pl": "/usr/local/bin/verify_low_depth.pl", "verify_mapping_quality.pl": "/usr/local/bin/verify_mapping_quality.pl", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snvphyl-tools.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/snvphyl-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snvphyl-tools:1.8.2--pl5321h031d066_8
+$ shpc install quay.io/biocontainers/snvphyl-tools:1.8.2--pl5321h7b50bb2_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snvphyl-tools/1.8.2--pl5321h031d066_8
-$ module help quay.io/biocontainers/snvphyl-tools/1.8.2--pl5321h031d066_8
+$ module load quay.io/biocontainers/snvphyl-tools/1.8.2--pl5321h7b50bb2_9
+$ module help quay.io/biocontainers/snvphyl-tools/1.8.2--pl5321h7b50bb2_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

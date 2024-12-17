@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-metadig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metadig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metadig/container.yaml"
-updated_at: "2024-12-16 03:39:52.820842"
-latest: "0.2.1--r43h9ee0642_0"
+updated_at: "2024-12-17 03:35:03.322899"
+latest: "0.2.1--r44h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/r-metadig"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "0.2.1--r43h9ee0642_0"
+ - "0.2.1--r44h9ee0642_1"
 description: "singularity registry hpc automated addition for r-metadig"
-config: {"url": "https://biocontainers.pro/tools/r-metadig", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-metadig", "latest": {"0.2.1--r43h9ee0642_0": "sha256:599bd06aed06a807b8278d57953e77d575e868ca1a55372e2f2cc446ef06568f"}, "tags": {"0.2.1--r43h9ee0642_0": "sha256:599bd06aed06a807b8278d57953e77d575e868ca1a55372e2f2cc446ef06568f"}, "docker": "quay.io/biocontainers/r-metadig", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-metadig", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-metadig", "latest": {"0.2.1--r44h9ee0642_1": "sha256:57a41b7091bc21837a914d1a1efa9e927906d63b131099d326dce6400914eeda"}, "tags": {"0.2.1--r43h9ee0642_0": "sha256:599bd06aed06a807b8278d57953e77d575e868ca1a55372e2f2cc446ef06568f", "0.2.1--r44h9ee0642_1": "sha256:57a41b7091bc21837a914d1a1efa9e927906d63b131099d326dce6400914eeda"}, "docker": "quay.io/biocontainers/r-metadig", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metadig.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-metadig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metadig:0.2.1--r43h9ee0642_0
+$ shpc install quay.io/biocontainers/r-metadig:0.2.1--r44h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metadig/0.2.1--r43h9ee0642_0
-$ module help quay.io/biocontainers/r-metadig/0.2.1--r43h9ee0642_0
+$ module load quay.io/biocontainers/r-metadig/0.2.1--r44h9ee0642_1
+$ module help quay.io/biocontainers/r-metadig/0.2.1--r44h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

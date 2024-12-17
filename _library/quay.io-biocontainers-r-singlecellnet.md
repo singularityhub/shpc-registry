@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-singlecellnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-singlecellnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-singlecellnet/container.yaml"
-updated_at: "2024-12-16 03:31:01.044223"
-latest: "0.4.1--r43hdfd78af_5"
+updated_at: "2024-12-17 03:26:12.642247"
+latest: "0.4.1--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-singlecellnet"
 aliases:
  - "f2py3.9"
@@ -22,8 +22,9 @@ versions:
  - "0.4.1--r41hdfd78af_3"
  - "0.4.1--r42hdfd78af_4"
  - "0.4.1--r43hdfd78af_5"
+ - "0.4.1--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-singlecellnet"
-config: {"url": "https://biocontainers.pro/tools/r-singlecellnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-singlecellnet", "latest": {"0.4.1--r43hdfd78af_5": "sha256:2bf62b7fc50da91950acdca693eacf4a7aa5ad9f5a96c1e8bb8cd9027070e391"}, "tags": {"0.4.1--r41hdfd78af_3": "sha256:16a0227b0a261ace6e2b17b29b9e8d90660490e05bb26a556734e3712160a1e7", "0.4.1--r42hdfd78af_4": "sha256:910d8f14c35e353aa1159976bdcd06cda09248a24dceebcfec07cc393485b2b9", "0.4.1--r43hdfd78af_5": "sha256:2bf62b7fc50da91950acdca693eacf4a7aa5ad9f5a96c1e8bb8cd9027070e391"}, "docker": "quay.io/biocontainers/r-singlecellnet", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
+config: {"url": "https://biocontainers.pro/tools/r-singlecellnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-singlecellnet", "latest": {"0.4.1--r44hdfd78af_6": "sha256:2c56a49648cd4413fb1a7e11e31086d28341189cee0791faa13e9672f891aea1"}, "tags": {"0.4.1--r41hdfd78af_3": "sha256:16a0227b0a261ace6e2b17b29b9e8d90660490e05bb26a556734e3712160a1e7", "0.4.1--r42hdfd78af_4": "sha256:910d8f14c35e353aa1159976bdcd06cda09248a24dceebcfec07cc393485b2b9", "0.4.1--r43hdfd78af_5": "sha256:2bf62b7fc50da91950acdca693eacf4a7aa5ad9f5a96c1e8bb8cd9027070e391", "0.4.1--r44hdfd78af_6": "sha256:2c56a49648cd4413fb1a7e11e31086d28341189cee0791faa13e9672f891aea1"}, "docker": "quay.io/biocontainers/r-singlecellnet", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-singlecellnet.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-singlecellnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-singlecellnet:0.4.1--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/r-singlecellnet:0.4.1--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-singlecellnet/0.4.1--r43hdfd78af_5
-$ module help quay.io/biocontainers/r-singlecellnet/0.4.1--r43hdfd78af_5
+$ module load quay.io/biocontainers/r-singlecellnet/0.4.1--r44hdfd78af_6
+$ module help quay.io/biocontainers/r-singlecellnet/0.4.1--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

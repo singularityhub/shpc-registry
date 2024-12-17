@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/maxit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxit/container.yaml"
-updated_at: "2024-12-16 03:49:08.154760"
-latest: "11.200--hdbdd923_2"
+updated_at: "2024-12-17 03:44:17.930198"
+latest: "11.200--h503566f_3"
 container_url: "https://biocontainers.pro/tools/maxit"
 aliases:
  - "generate_assembly_cif_file"
@@ -15,8 +15,9 @@ versions:
  - "11.200--hdbdd923_0"
  - "11.200--hdbdd923_1"
  - "11.200--hdbdd923_2"
+ - "11.200--h503566f_3"
 description: "singularity registry hpc automated addition for maxit"
-config: {"url": "https://biocontainers.pro/tools/maxit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maxit", "latest": {"11.200--hdbdd923_2": "sha256:594f13fa8eaf60c89b82707abd771e27cb3186699bd6abf01b54b98157960f52"}, "tags": {"11.200--hdbdd923_0": "sha256:08e70c831fa55c86958d9a0baeb81b7fc2803d6142e37deb01ee981b8a066cf8", "11.200--hdbdd923_1": "sha256:26849639b2b5ee3972e89b6f761c3127373d8d4d0a2f21fdf7bc88a5dde64127", "11.200--hdbdd923_2": "sha256:594f13fa8eaf60c89b82707abd771e27cb3186699bd6abf01b54b98157960f52"}, "docker": "quay.io/biocontainers/maxit", "aliases": {"generate_assembly_cif_file": "/usr/local/bin/generate_assembly_cif_file", "maxit": "/usr/local/bin/maxit", "process_entry": "/usr/local/bin/process_entry"}}
+config: {"url": "https://biocontainers.pro/tools/maxit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maxit", "latest": {"11.200--h503566f_3": "sha256:111dad0b5e4c2afa7e076c758dd47ced69174ffc0d31de4d72e75b7ea6cabe0c"}, "tags": {"11.200--hdbdd923_0": "sha256:08e70c831fa55c86958d9a0baeb81b7fc2803d6142e37deb01ee981b8a066cf8", "11.200--hdbdd923_1": "sha256:26849639b2b5ee3972e89b6f761c3127373d8d4d0a2f21fdf7bc88a5dde64127", "11.200--hdbdd923_2": "sha256:594f13fa8eaf60c89b82707abd771e27cb3186699bd6abf01b54b98157960f52", "11.200--h503566f_3": "sha256:111dad0b5e4c2afa7e076c758dd47ced69174ffc0d31de4d72e75b7ea6cabe0c"}, "docker": "quay.io/biocontainers/maxit", "aliases": {"generate_assembly_cif_file": "/usr/local/bin/generate_assembly_cif_file", "maxit": "/usr/local/bin/maxit", "process_entry": "/usr/local/bin/process_entry"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maxit.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/maxit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/maxit:11.200--hdbdd923_2
+$ shpc install quay.io/biocontainers/maxit:11.200--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/maxit/11.200--hdbdd923_2
-$ module help quay.io/biocontainers/maxit/11.200--hdbdd923_2
+$ module load quay.io/biocontainers/maxit/11.200--h503566f_3
+$ module help quay.io/biocontainers/maxit/11.200--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

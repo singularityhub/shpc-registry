@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqwish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqwish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqwish/container.yaml"
-updated_at: "2024-12-16 03:12:36.790532"
-latest: "0.7.11--h43eeafb_0"
+updated_at: "2024-12-17 03:07:48.691284"
+latest: "0.7.11--h5ca1c30_1"
 container_url: "https://biocontainers.pro/tools/seqwish"
 aliases:
  - "seqwish"
@@ -23,8 +23,9 @@ versions:
  - "0.7.10--h43eeafb_0"
  - "0.7.10--h43eeafb_1"
  - "0.7.11--h43eeafb_0"
+ - "0.7.11--h5ca1c30_1"
 description: "shpc-registry automated BioContainers addition for seqwish"
-config: {"url": "https://biocontainers.pro/tools/seqwish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqwish", "latest": {"0.7.11--h43eeafb_0": "sha256:4ee536d6a2ceac9fa3de2273b11c32029c19a503a1fb0e2c11ad1e37522b42bf"}, "tags": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90", "0.7.7--h5b5514e_1": "sha256:3101b83e7532c616472607336b18aecf7088ee0314623154ae9fbb7510daee13", "0.7.8--h5b5514e_0": "sha256:775ebb3f80b4cdec22eb7a3286366a9913425bc19c64fc1fc46432cf58010124", "0.7.9--h43eeafb_2": "sha256:1e93a45d3a5c5f1d3e1f63d6b29930e34b64fe7b0e818407e801814fd0564d31", "0.7.10--h43eeafb_0": "sha256:00c849e96cbcdc782bd6f17fa7d18c78b3743491b37675e5790fd620d35d29f7", "0.7.10--h43eeafb_1": "sha256:af4a3b2de58468c45043b2d9269cfd1d0dc8ff69a1497196d32a31ac8ebdc078", "0.7.11--h43eeafb_0": "sha256:4ee536d6a2ceac9fa3de2273b11c32029c19a503a1fb0e2c11ad1e37522b42bf"}, "docker": "quay.io/biocontainers/seqwish", "aliases": {"seqwish": "/usr/local/bin/seqwish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/seqwish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqwish", "latest": {"0.7.11--h5ca1c30_1": "sha256:c0a12b3b625428b57e718349df6630c7e14d77a212e5808ee2f53d7e139afb9d"}, "tags": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90", "0.7.7--h5b5514e_1": "sha256:3101b83e7532c616472607336b18aecf7088ee0314623154ae9fbb7510daee13", "0.7.8--h5b5514e_0": "sha256:775ebb3f80b4cdec22eb7a3286366a9913425bc19c64fc1fc46432cf58010124", "0.7.9--h43eeafb_2": "sha256:1e93a45d3a5c5f1d3e1f63d6b29930e34b64fe7b0e818407e801814fd0564d31", "0.7.10--h43eeafb_0": "sha256:00c849e96cbcdc782bd6f17fa7d18c78b3743491b37675e5790fd620d35d29f7", "0.7.10--h43eeafb_1": "sha256:af4a3b2de58468c45043b2d9269cfd1d0dc8ff69a1497196d32a31ac8ebdc078", "0.7.11--h43eeafb_0": "sha256:4ee536d6a2ceac9fa3de2273b11c32029c19a503a1fb0e2c11ad1e37522b42bf", "0.7.11--h5ca1c30_1": "sha256:c0a12b3b625428b57e718349df6630c7e14d77a212e5808ee2f53d7e139afb9d"}, "docker": "quay.io/biocontainers/seqwish", "aliases": {"seqwish": "/usr/local/bin/seqwish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqwish.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/seqwish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqwish:0.7.11--h43eeafb_0
+$ shpc install quay.io/biocontainers/seqwish:0.7.11--h5ca1c30_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqwish/0.7.11--h43eeafb_0
-$ module help quay.io/biocontainers/seqwish/0.7.11--h43eeafb_0
+$ module load quay.io/biocontainers/seqwish/0.7.11--h5ca1c30_1
+$ module help quay.io/biocontainers/seqwish/0.7.11--h5ca1c30_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

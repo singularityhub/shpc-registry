@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-test-utf8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
-updated_at: "2024-12-16 03:16:18.620389"
-latest: "1.01--pl5321hdfd78af_1"
+updated_at: "2024-12-17 03:11:30.223549"
+latest: "1.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-utf8"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.01--pl5321hdfd78af_1"
+ - "1.03--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-test-utf8"
-config: {"url": "https://biocontainers.pro/tools/perl-test-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-utf8", "latest": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "tags": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "docker": "quay.io/biocontainers/perl-test-utf8", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-utf8", "latest": {"1.03--pl5321hdfd78af_0": "sha256:991b3301c7c8eac94b88b226231502626130e4c421b2cbb71e8639d3a9cd7bb3"}, "tags": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab", "1.03--pl5321hdfd78af_0": "sha256:991b3301c7c8eac94b88b226231502626130e4c421b2cbb71e8639d3a9cd7bb3"}, "docker": "quay.io/biocontainers/perl-test-utf8", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-utf8.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-test-utf8
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-test-utf8:1.01--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-test-utf8:1.03--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-test-utf8/1.01--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-test-utf8/1.01--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-test-utf8/1.03--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-test-utf8/1.03--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

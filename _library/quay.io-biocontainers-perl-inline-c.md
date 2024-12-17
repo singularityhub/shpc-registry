@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-inline-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-inline-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-inline-c/container.yaml"
-updated_at: "2024-12-16 03:29:52.981639"
-latest: "0.81--pl5321h031d066_2"
+updated_at: "2024-12-17 03:25:04.678364"
+latest: "0.81--pl5321h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/perl-inline-c"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.81--pl5321hec16e2b_1"
  - "0.81--pl5321h031d066_2"
+ - "0.81--pl5321h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for perl-inline-c"
-config: {"url": "https://biocontainers.pro/tools/perl-inline-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-inline-c", "latest": {"0.81--pl5321h031d066_2": "sha256:52de904ca7a81d5aebd5c59087e0a9d05427feae16a6f343926357900c9db75c"}, "tags": {"0.81--pl5321hec16e2b_1": "sha256:a02d8e8184bafcafd8d3fd15c53c413fdf7220ffe6015b247cb44b2a233218c8", "0.81--pl5321h031d066_2": "sha256:52de904ca7a81d5aebd5c59087e0a9d05427feae16a6f343926357900c9db75c"}, "docker": "quay.io/biocontainers/perl-inline-c", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-inline-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-inline-c", "latest": {"0.81--pl5321h7b50bb2_3": "sha256:db5b6c1bdebc60f434a00543ccb6c0d62256819e027d63e9b0d583d5ca80274c"}, "tags": {"0.81--pl5321hec16e2b_1": "sha256:a02d8e8184bafcafd8d3fd15c53c413fdf7220ffe6015b247cb44b2a233218c8", "0.81--pl5321h031d066_2": "sha256:52de904ca7a81d5aebd5c59087e0a9d05427feae16a6f343926357900c9db75c", "0.81--pl5321h7b50bb2_3": "sha256:db5b6c1bdebc60f434a00543ccb6c0d62256819e027d63e9b0d583d5ca80274c"}, "docker": "quay.io/biocontainers/perl-inline-c", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-inline-c.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-inline-c
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-inline-c:0.81--pl5321h031d066_2
+$ shpc install quay.io/biocontainers/perl-inline-c:0.81--pl5321h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-inline-c/0.81--pl5321h031d066_2
-$ module help quay.io/biocontainers/perl-inline-c/0.81--pl5321h031d066_2
+$ module load quay.io/biocontainers/perl-inline-c/0.81--pl5321h7b50bb2_3
+$ module help quay.io/biocontainers/perl-inline-c/0.81--pl5321h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

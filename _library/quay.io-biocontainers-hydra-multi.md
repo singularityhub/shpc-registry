@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hydra-multi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hydra-multi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hydra-multi/container.yaml"
-updated_at: "2024-12-16 03:31:13.886976"
-latest: "0.5.4--py27h43eeafb_3"
+updated_at: "2024-12-17 03:26:25.515528"
+latest: "0.5.4--py27h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/hydra-multi"
 aliases:
  - "assemble-routed-files.sh"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.5.4--py27h5b5514e_2"
  - "0.5.4--py27h43eeafb_3"
+ - "0.5.4--py27h5ca1c30_4"
 description: "shpc-registry automated BioContainers addition for hydra-multi"
-config: {"url": "https://biocontainers.pro/tools/hydra-multi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hydra-multi", "latest": {"0.5.4--py27h43eeafb_3": "sha256:350cbc9df652452f41a8220bbf67e0454709e58d9fe677af9e96fc0cb59e6f00"}, "tags": {"0.5.4--py27h5b5514e_2": "sha256:766594888b18519ace58e4fc245d9cab7c7af951dc7a6b0589c5b12ff4385e26", "0.5.4--py27h43eeafb_3": "sha256:350cbc9df652452f41a8220bbf67e0454709e58d9fe677af9e96fc0cb59e6f00"}, "docker": "quay.io/biocontainers/hydra-multi", "aliases": {"assemble-routed-files.sh": "/usr/local/bin/assemble-routed-files.sh", "bedpeToBam.py": "/usr/local/bin/bedpeToBam.py", "bedpeToBed12.py": "/usr/local/bin/bedpeToBed12.py", "combine-assembled-files.sh": "/usr/local/bin/combine-assembled-files.sh", "dedupDiscordantsMultiPass.py": "/usr/local/bin/dedupDiscordantsMultiPass.py", "extract_all_discordants.sh": "/usr/local/bin/extract_all_discordants.sh", "extract_discordants.py": "/usr/local/bin/extract_discordants.py", "finalizeBreakpoints.py": "/usr/local/bin/finalizeBreakpoints.py", "forceOneClusterPerPairMem.py": "/usr/local/bin/forceOneClusterPerPairMem.py", "frequency.py": "/usr/local/bin/frequency.py", "hydra-assembler": "/usr/local/bin/hydra-assembler", "hydra-ext": "/usr/local/bin/hydra-ext", "hydra-multi.sh": "/usr/local/bin/hydra-multi.sh", "hydra-router": "/usr/local/bin/hydra-router", "hydraToBreakpoint.py": "/usr/local/bin/hydraToBreakpoint.py", "make_hydra_config.py": "/usr/local/bin/make_hydra_config.py", "mergeBreakpoints.py": "/usr/local/bin/mergeBreakpoints.py", "pairDiscordants.py": "/usr/local/bin/pairDiscordants.py", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
+config: {"url": "https://biocontainers.pro/tools/hydra-multi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hydra-multi", "latest": {"0.5.4--py27h5ca1c30_4": "sha256:63c22b832d29e83ec661c57a13ad8b119cc25b4dec1bb5d8e0afebbe9dc1914b"}, "tags": {"0.5.4--py27h5b5514e_2": "sha256:766594888b18519ace58e4fc245d9cab7c7af951dc7a6b0589c5b12ff4385e26", "0.5.4--py27h43eeafb_3": "sha256:350cbc9df652452f41a8220bbf67e0454709e58d9fe677af9e96fc0cb59e6f00", "0.5.4--py27h5ca1c30_4": "sha256:63c22b832d29e83ec661c57a13ad8b119cc25b4dec1bb5d8e0afebbe9dc1914b"}, "docker": "quay.io/biocontainers/hydra-multi", "aliases": {"assemble-routed-files.sh": "/usr/local/bin/assemble-routed-files.sh", "bedpeToBam.py": "/usr/local/bin/bedpeToBam.py", "bedpeToBed12.py": "/usr/local/bin/bedpeToBed12.py", "combine-assembled-files.sh": "/usr/local/bin/combine-assembled-files.sh", "dedupDiscordantsMultiPass.py": "/usr/local/bin/dedupDiscordantsMultiPass.py", "extract_all_discordants.sh": "/usr/local/bin/extract_all_discordants.sh", "extract_discordants.py": "/usr/local/bin/extract_discordants.py", "finalizeBreakpoints.py": "/usr/local/bin/finalizeBreakpoints.py", "forceOneClusterPerPairMem.py": "/usr/local/bin/forceOneClusterPerPairMem.py", "frequency.py": "/usr/local/bin/frequency.py", "hydra-assembler": "/usr/local/bin/hydra-assembler", "hydra-ext": "/usr/local/bin/hydra-ext", "hydra-multi.sh": "/usr/local/bin/hydra-multi.sh", "hydra-router": "/usr/local/bin/hydra-router", "hydraToBreakpoint.py": "/usr/local/bin/hydraToBreakpoint.py", "make_hydra_config.py": "/usr/local/bin/make_hydra_config.py", "mergeBreakpoints.py": "/usr/local/bin/mergeBreakpoints.py", "pairDiscordants.py": "/usr/local/bin/pairDiscordants.py", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hydra-multi.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/hydra-multi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hydra-multi:0.5.4--py27h43eeafb_3
+$ shpc install quay.io/biocontainers/hydra-multi:0.5.4--py27h5ca1c30_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hydra-multi/0.5.4--py27h43eeafb_3
-$ module help quay.io/biocontainers/hydra-multi/0.5.4--py27h43eeafb_3
+$ module load quay.io/biocontainers/hydra-multi/0.5.4--py27h5ca1c30_4
+$ module help quay.io/biocontainers/hydra-multi/0.5.4--py27h5ca1c30_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

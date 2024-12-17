@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genproseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genproseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genproseq/container.yaml"
-updated_at: "2024-12-16 03:38:17.044965"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-12-17 03:33:27.572213"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genproseq"
 aliases:
  - "git2_cli"
@@ -38,8 +38,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.2--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-genproseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genproseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genproseq", "latest": {"1.6.0--r43hdfd78af_0": "sha256:d14b5d8c39e682ed28c594917a41bba9952957a7bbe84f18cb5812b2309ef3fb"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:4ef2707389578ebd7f769efe967cf0e108980d5a593d1f159e8890cf2278243a", "1.4.2--r43hdfd78af_0": "sha256:35adeb0ee1b75b167bce664c089e44a3253541bd2879c20b6ad049ef68bf1d05", "1.6.0--r43hdfd78af_0": "sha256:d14b5d8c39e682ed28c594917a41bba9952957a7bbe84f18cb5812b2309ef3fb"}, "docker": "quay.io/biocontainers/bioconductor-genproseq", "aliases": {"git2_cli": "/usr/local/bin/git2_cli", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genproseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genproseq", "latest": {"1.10.0--r44hdfd78af_0": "sha256:5b5a14f4d7b49e7bbdb944ac7d17498a91dd8d1930680d240a332e5be749a6ff"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:4ef2707389578ebd7f769efe967cf0e108980d5a593d1f159e8890cf2278243a", "1.4.2--r43hdfd78af_0": "sha256:35adeb0ee1b75b167bce664c089e44a3253541bd2879c20b6ad049ef68bf1d05", "1.6.0--r43hdfd78af_0": "sha256:d14b5d8c39e682ed28c594917a41bba9952957a7bbe84f18cb5812b2309ef3fb", "1.10.0--r44hdfd78af_0": "sha256:5b5a14f4d7b49e7bbdb944ac7d17498a91dd8d1930680d240a332e5be749a6ff"}, "docker": "quay.io/biocontainers/bioconductor-genproseq", "aliases": {"git2_cli": "/usr/local/bin/git2_cli", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genproseq.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genproseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genproseq:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genproseq:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genproseq/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genproseq/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genproseq/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genproseq/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-anvilbilling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilbilling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilbilling/container.yaml"
-updated_at: "2024-12-16 03:29:30.874413"
-latest: "1.12.0--r43hdfd78af_1"
+updated_at: "2024-12-17 03:24:42.652438"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilbilling"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_1"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anvilbilling"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilbilling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anvilbilling", "latest": {"1.12.0--r43hdfd78af_1": "sha256:b90d1e7418678040889b1c8e4e3857dc79a99e6e8622328be9f331ea59b8f665"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:716ba39d17a0505c332775698ca850de9ec9dfc5553cfcd0c58bbe20f5637b3b", "1.8.0--r42hdfd78af_0": "sha256:d10cc264490830a536f8d19b8408517c21f4b500793c69a92b994ee4d7138007", "1.10.0--r43hdfd78af_0": "sha256:c8d5390129a1b7c0a4cb0eeb7a54f99c342489decbcdd94d801e382815efd628", "1.12.0--r43hdfd78af_1": "sha256:b90d1e7418678040889b1c8e4e3857dc79a99e6e8622328be9f331ea59b8f665"}, "docker": "quay.io/biocontainers/bioconductor-anvilbilling"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilbilling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anvilbilling", "latest": {"1.16.0--r44hdfd78af_0": "sha256:23869126047d253013095871c25240f5c608f0d0ee716487b65f70a60a2aa733"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:716ba39d17a0505c332775698ca850de9ec9dfc5553cfcd0c58bbe20f5637b3b", "1.8.0--r42hdfd78af_0": "sha256:d10cc264490830a536f8d19b8408517c21f4b500793c69a92b994ee4d7138007", "1.10.0--r43hdfd78af_0": "sha256:c8d5390129a1b7c0a4cb0eeb7a54f99c342489decbcdd94d801e382815efd628", "1.12.0--r43hdfd78af_1": "sha256:b90d1e7418678040889b1c8e4e3857dc79a99e6e8622328be9f331ea59b8f665", "1.16.0--r44hdfd78af_0": "sha256:23869126047d253013095871c25240f5c608f0d0ee716487b65f70a60a2aa733"}, "docker": "quay.io/biocontainers/bioconductor-anvilbilling"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anvilbilling.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anvilbilling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anvilbilling:1.12.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-anvilbilling:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anvilbilling/1.12.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-anvilbilling/1.12.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-anvilbilling/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anvilbilling/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/10x_bamtofastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/10x_bamtofastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/10x_bamtofastq/container.yaml"
-updated_at: "2024-12-16 03:26:33.232044"
-latest: "1.4.1--h87f3376_0"
+updated_at: "2024-12-17 03:21:45.302739"
+latest: "1.4.1"
 container_url: "https://biocontainers.pro/tools/10x_bamtofastq"
 aliases:
  - "bamtofastq"
@@ -13,8 +13,9 @@ versions:
  - "1.4.1--h87f3376_0"
  - "1.4.1"
  - "1.4.1--hdbdd923_2"
+ - "1.4.1--h503566f_3"
 description: "singularity registry hpc automated addition for 10x_bamtofastq"
-config: {"url": "https://biocontainers.pro/tools/10x_bamtofastq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for 10x_bamtofastq", "latest": {"1.4.1--h87f3376_0": "sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981"}, "tags": {"1.4.1--h87f3376_0": "sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981", "1.4.1": "sha256:405ece97fda53a5e3e26a7d11171a3f46e86652c9aaaa02444f096efac450da5", "1.4.1--hdbdd923_2": "sha256:cccdfecf37a2ecd75a8c0a828e2e85e974252d6988c7100c7b47c9f14c2c4999"}, "docker": "quay.io/biocontainers/10x_bamtofastq", "aliases": {"bamtofastq": "/usr/local/bin/bamtofastq"}}
+config: {"url": "https://biocontainers.pro/tools/10x_bamtofastq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for 10x_bamtofastq", "latest": {"1.4.1": "sha256:405ece97fda53a5e3e26a7d11171a3f46e86652c9aaaa02444f096efac450da5"}, "tags": {"1.4.1--h87f3376_0": "sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981", "1.4.1": "sha256:405ece97fda53a5e3e26a7d11171a3f46e86652c9aaaa02444f096efac450da5", "1.4.1--hdbdd923_2": "sha256:cccdfecf37a2ecd75a8c0a828e2e85e974252d6988c7100c7b47c9f14c2c4999", "1.4.1--h503566f_3": "sha256:0b3b50b5003eb5066c84bf06756289b9674ed8b68a1f7ec78b3fcf6e771050a3"}, "docker": "quay.io/biocontainers/10x_bamtofastq", "aliases": {"bamtofastq": "/usr/local/bin/bamtofastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/10x_bamtofastq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/10x_bamtofastq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/10x_bamtofastq:1.4.1--h87f3376_0
+$ shpc install quay.io/biocontainers/10x_bamtofastq:1.4.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/10x_bamtofastq/1.4.1--h87f3376_0
-$ module help quay.io/biocontainers/10x_bamtofastq/1.4.1--h87f3376_0
+$ module load quay.io/biocontainers/10x_bamtofastq/1.4.1
+$ module help quay.io/biocontainers/10x_bamtofastq/1.4.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

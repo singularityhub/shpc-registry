@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mapping-iterative-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapping-iterative-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapping-iterative-assembler/container.yaml"
-updated_at: "2024-12-16 03:45:40.722478"
-latest: "1.0--hdbdd923_5"
+updated_at: "2024-12-17 03:40:51.081693"
+latest: "1.0--h503566f_6"
 container_url: "https://biocontainers.pro/tools/mapping-iterative-assembler"
 aliases:
  - "ccheck"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.0--h87f3376_3"
  - "1.0--hdbdd923_5"
+ - "1.0--h503566f_6"
 description: "shpc-registry automated BioContainers addition for mapping-iterative-assembler"
-config: {"url": "https://biocontainers.pro/tools/mapping-iterative-assembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapping-iterative-assembler", "latest": {"1.0--hdbdd923_5": "sha256:81c1dce388e8fd29641cd5a45f2ee13f1faec8f25f589257a260571323e4c1b1"}, "tags": {"1.0--h87f3376_3": "sha256:6651ca06c2ca4c2e5edcbffc92080608f263013205e713f0fd5b0b49ea42edc6", "1.0--hdbdd923_5": "sha256:81c1dce388e8fd29641cd5a45f2ee13f1faec8f25f589257a260571323e4c1b1"}, "docker": "quay.io/biocontainers/mapping-iterative-assembler", "aliases": {"ccheck": "/usr/local/bin/ccheck", "ma": "/usr/local/bin/ma", "mia": "/usr/local/bin/mia"}}
+config: {"url": "https://biocontainers.pro/tools/mapping-iterative-assembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapping-iterative-assembler", "latest": {"1.0--h503566f_6": "sha256:8df7c133f75997da9db108d21ae2a7039de5e8674e0d7b9110fad9d7b9b6dc18"}, "tags": {"1.0--h87f3376_3": "sha256:6651ca06c2ca4c2e5edcbffc92080608f263013205e713f0fd5b0b49ea42edc6", "1.0--hdbdd923_5": "sha256:81c1dce388e8fd29641cd5a45f2ee13f1faec8f25f589257a260571323e4c1b1", "1.0--h503566f_6": "sha256:8df7c133f75997da9db108d21ae2a7039de5e8674e0d7b9110fad9d7b9b6dc18"}, "docker": "quay.io/biocontainers/mapping-iterative-assembler", "aliases": {"ccheck": "/usr/local/bin/ccheck", "ma": "/usr/local/bin/ma", "mia": "/usr/local/bin/mia"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapping-iterative-assembler.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mapping-iterative-assembler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapping-iterative-assembler:1.0--hdbdd923_5
+$ shpc install quay.io/biocontainers/mapping-iterative-assembler:1.0--h503566f_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapping-iterative-assembler/1.0--hdbdd923_5
-$ module help quay.io/biocontainers/mapping-iterative-assembler/1.0--hdbdd923_5
+$ module load quay.io/biocontainers/mapping-iterative-assembler/1.0--h503566f_6
+$ module help quay.io/biocontainers/mapping-iterative-assembler/1.0--h503566f_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
