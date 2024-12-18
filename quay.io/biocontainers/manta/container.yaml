@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/manta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for manta
 latest:
-  1.6.0--h9ee0642_3: sha256:9211cbbbf60d19aaef6e1bf4a97f5ee4035f6c7521bff596113bd67ab6042d58
+  1.6.0--py27h9948957_4: sha256:d44de1388f24d04da5f57ed6acf0c0790cdce38e91c7eb43fdce6853a3939143
 tags:
   1.6.0--h9ee0642_2: sha256:021aabe5f7314e02e60722c559f6f3c4bb6b1118c2e2ec0eb3095a8c7e431f26
   1.6.0--h9ee0642_3: sha256:9211cbbbf60d19aaef6e1bf4a97f5ee4035f6c7521bff596113bd67ab6042d58
+  1.6.0--py27h9948957_4: sha256:d44de1388f24d04da5f57ed6acf0c0790cdce38e91c7eb43fdce6853a3939143
 docker: quay.io/biocontainers/manta
 aliases:
   configManta.py: /usr/local/bin/configManta.py

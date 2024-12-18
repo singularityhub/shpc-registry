@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/tabixpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tabixpp
 latest:
-  1.1.2--h27d5293_3: sha256:266164fad01c26b29a98ea66d700fabf038c913dc51f6b3f28b5e589362c28e3
+  1.1.2--hbefcdb2_4: sha256:b57a24e663d258176f632cbd2161c9737ab4edfabffdac440db7d8f33461088a
 tags:
   1.1.0--h470d46e_9: sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a
   1.1.0--h470d46e_11: sha256:b818bf817f6a3dc17ad0d88402c2069e3f86ea9e13939150402dafa4d4765b53
@@ -12,6 +12,7 @@ tags:
   1.1.2--hd68fcf3_1: sha256:9845e72f0094446be098e0b88355824c6cc6594c075e3f7d0f657e688993e4fe
   1.1.2--h27d5293_2: sha256:fea1f1f0a7df638135ea02923874fdb95e55026bbda077270204eea9ff96451f
   1.1.2--h27d5293_3: sha256:266164fad01c26b29a98ea66d700fabf038c913dc51f6b3f28b5e589362c28e3
+  1.1.2--hbefcdb2_4: sha256:b57a24e663d258176f632cbd2161c9737ab4edfabffdac440db7d8f33461088a
 docker: quay.io/biocontainers/tabixpp
 aliases:
   tabix++: /usr/local/bin/tabix++

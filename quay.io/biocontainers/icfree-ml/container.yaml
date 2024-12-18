@@ -2,13 +2,16 @@ url: https://biocontainers.pro/tools/icfree-ml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for icfree-ml
 latest:
-  2.5.1--pyhdfd78af_0: sha256:56c04a589a8bcb40e08e4d2b2b803ea0bc8b1dadd0f792c4540f5cf93065c459
+  2.7.0--pyhdfd78af_0: sha256:fb4d72195082b6cda9239589e80bbd31846a402340027c266c51069998582f17
 tags:
   2.3.0--pyhdfd78af_0: sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba
   2.4.0--pyhdfd78af_0: sha256:8746f12cea65be6e3fa2107af5a543d1357ebf027bec3e6aa1f16c2ae85b5659
   2.3.3--pyhdfd78af_0: sha256:30c9985ee33ba1aebac506dfd4848978f3ca469c5f0e6633260af640881ca1f8
   2.5.0--pyhdfd78af_0: sha256:ac56090957a34e2a9f92cf674a80e0ceb819fbf53831dff5b8587465ff1fd302
   2.5.1--pyhdfd78af_0: sha256:56c04a589a8bcb40e08e4d2b2b803ea0bc8b1dadd0f792c4540f5cf93065c459
+  2.7.0--pyhdfd78af_0: sha256:fb4d72195082b6cda9239589e80bbd31846a402340027c266c51069998582f17
+  2.6.0--pyhdfd78af_0: sha256:39f3c2bcadd70cb6d143cb01452d5614f38c43f6ef9e083af4d1c38290234fc7
+  2.5.2--pyhdfd78af_0: sha256:71a88948f3fab7d974a50d0211dfa85e156f10e751a4ba238ad8667496e24fe7
 docker: quay.io/biocontainers/icfree-ml
 aliases:
   numpy-config: /usr/local/bin/numpy-config

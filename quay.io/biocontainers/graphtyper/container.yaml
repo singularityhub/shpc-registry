@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/graphtyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graphtyper
 latest:
-  2.7.7--hcd8136e_0: sha256:65cd1f2a9790a78d9aee9840dcb2fc13f1e7e844adbf3836c3450345c6b0c112
+  2.7.7--h7594796_1: sha256:8ca98d309ad8d6b2ce18ec664fb82952bb1dec14520240d455c3315447576780
 tags:
   2.7.2--h468198e_1: sha256:460157e9b228d9286bcf3a1d0169d6a25c7a46b3e651734adefadfe8ed428b12
   2.7.7--hcd8136e_0: sha256:65cd1f2a9790a78d9aee9840dcb2fc13f1e7e844adbf3836c3450345c6b0c112
+  2.7.7--h7594796_1: sha256:8ca98d309ad8d6b2ce18ec664fb82952bb1dec14520240d455c3315447576780
 docker: quay.io/biocontainers/graphtyper
 aliases:
   graphtyper: /usr/local/bin/graphtyper

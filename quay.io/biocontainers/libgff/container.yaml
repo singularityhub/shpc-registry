@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/libgff
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for libgff
 latest:
-  2.0.0--hdcf5f25_1: sha256:b0c5240ace1f1803bbf5deb787d946f51734a04ba162ff51cc993a943bfadd6d
+  2.0.0--h077b44d_2: sha256:5b237df68d049a16820808b2f7fcb69c4c069cae7123a478805958970403f818
 tags:
   2.0.0--hdcf5f25_1: sha256:b0c5240ace1f1803bbf5deb787d946f51734a04ba162ff51cc993a943bfadd6d
+  2.0.0--h077b44d_2: sha256:5b237df68d049a16820808b2f7fcb69c4c069cae7123a478805958970403f818
 docker: quay.io/biocontainers/libgff

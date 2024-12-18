@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ddct
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ddct
 latest:
-  1.58.0--r43hdfd78af_0: sha256:d314202cc3d4d3d656b6533a22fd6f983d054f10410cae34d3fbf68114952b65
+  1.62.0--r44hdfd78af_0: sha256:74c61a41fbb2b655d43f5a0daa82741d67161b62273f34f9186a1f06bc0a13a8
 tags:
   1.50.0--r41hdfd78af_0: sha256:783b21596d8be4d1aad55aacda5e7db86188939ca2f859c67c4f37abf02f3837
   1.54.0--r42hdfd78af_0: sha256:fe333a1947fad8856ef5bf95c7253452a6b6efb110789cf8417f86020d6cdc6c
   1.56.0--r43hdfd78af_0: sha256:c5c058f828d60f904a361674e8c6c7eb9b6366440bbe5d0fde7b3a0caa59a3a6
   1.58.0--r43hdfd78af_0: sha256:d314202cc3d4d3d656b6533a22fd6f983d054f10410cae34d3fbf68114952b65
+  1.62.0--r44hdfd78af_0: sha256:74c61a41fbb2b655d43f5a0daa82741d67161b62273f34f9186a1f06bc0a13a8
 docker: quay.io/biocontainers/bioconductor-ddct

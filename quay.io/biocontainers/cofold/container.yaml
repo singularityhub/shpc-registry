@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cofold
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cofold
 latest:
-  2.0.4--hdbdd923_7: sha256:0762c8248e925c27eaf086540b9ddbf41bb11e507fcd5cce8d688d962fd5b619
+  2.0.4--h503566f_8: sha256:0cc8adec6a085b207494f6f37838eff2304a1b700bc92eb5fc387053ad63a9ae
 tags:
   2.0.4--h87f3376_5: sha256:b8d24b29b655a4913369e0b1374ae15d10015d7953f49ed582f5bc616baaaacb
   2.0.4--hdbdd923_7: sha256:0762c8248e925c27eaf086540b9ddbf41bb11e507fcd5cce8d688d962fd5b619
+  2.0.4--h503566f_8: sha256:0cc8adec6a085b207494f6f37838eff2304a1b700bc92eb5fc387053ad63a9ae
 docker: quay.io/biocontainers/cofold
 aliases:
   CoFold: /usr/local/bin/CoFold

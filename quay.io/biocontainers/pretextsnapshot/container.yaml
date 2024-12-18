@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pretextsnapshot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pretextsnapshot
 latest:
-  0.0.4--h4ac6f70_3: sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e
+  0.0.4--h9948957_4: sha256:84b2810da9c327fe0c605e40e2060a5059b4f47df208d03c836bb9da1ab83e5b
 tags:
   0.0.4--h9f5acd7_1: sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977
   0.0.4--h4ac6f70_3: sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e
+  0.0.4--h9948957_4: sha256:84b2810da9c327fe0c605e40e2060a5059b4f47df208d03c836bb9da1ab83e5b
 docker: quay.io/biocontainers/pretextsnapshot
 aliases:
   PretextSnapshot: /usr/local/bin/PretextSnapshot

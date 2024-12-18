@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ashlar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ashlar
 latest:
-  1.18.0--pyhdfd78af_0: sha256:bd4a90ea2e63963e192ebb036fba6a9fac161710bf5c558ed2819ff48993e6b3
+  1.19.0--pyhdfd78af_0: sha256:a19579f52dc2bff47dcbe955193acf11d1cd8605410b54d97b9c8836e8610274
 tags:
   1.17.0--pyh5e36f6f_0: sha256:36a3d5238d4d076ed512c9b0e6e129593cc562f1c17691fbb027a6d11aa0b389
   1.18.0--pyhdfd78af_0: sha256:bd4a90ea2e63963e192ebb036fba6a9fac161710bf5c558ed2819ff48993e6b3
+  1.19.0--pyhdfd78af_0: sha256:a19579f52dc2bff47dcbe955193acf11d1cd8605410b54d97b9c8836e8610274
 docker: quay.io/biocontainers/ashlar
 aliases:
   aomdec: /usr/local/bin/aomdec

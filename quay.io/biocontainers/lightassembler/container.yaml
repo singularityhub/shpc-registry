@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/lightassembler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lightassembler
 latest:
-  1.0--hdcf5f25_5: sha256:7c914decd36dc948c1d892745d24428cdee5bd8532d216515f9b7dda052546d0
+  1.0--h077b44d_6: sha256:478cd50456dc444e0852267b1ae7657db747ae9d02393c92028448a97e31c29d
 tags:
   1.0--hd03093a_3: sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3
   1.0--hdcf5f25_5: sha256:7c914decd36dc948c1d892745d24428cdee5bd8532d216515f9b7dda052546d0
+  1.0--h077b44d_6: sha256:478cd50456dc444e0852267b1ae7657db747ae9d02393c92028448a97e31c29d
 docker: quay.io/biocontainers/lightassembler
 aliases:
   LightAssembler: /usr/local/bin/LightAssembler

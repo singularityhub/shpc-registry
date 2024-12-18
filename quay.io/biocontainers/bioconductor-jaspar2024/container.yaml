@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-jaspar2024
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-jaspar2024
 latest:
-  0.99.6--r43hdfd78af_0: sha256:125087b0a620d1ee57ac4374cc65276f9a51e4e5e2b85da50f469095a1b65fd6
+  0.99.6--r44hdfd78af_1: sha256:7365c80bcad4c440a9cb04a709cdf0757c1d1587b2b146b03b1a14ad09551988
 tags:
   0.99.6--r43hdfd78af_0: sha256:125087b0a620d1ee57ac4374cc65276f9a51e4e5e2b85da50f469095a1b65fd6
+  0.99.6--r44hdfd78af_1: sha256:7365c80bcad4c440a9cb04a709cdf0757c1d1587b2b146b03b1a14ad09551988
 docker: quay.io/biocontainers/bioconductor-jaspar2024
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

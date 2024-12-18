@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bloocoo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bloocoo
 latest:
-  1.0.7--h43eeafb_6: sha256:8c58cc0eed5796be1b11dd5665db5f9834fd5ff15e22685cfc66c900c32600f8
+  1.0.7--h5ca1c30_7: sha256:cfe72f1e809a6bd240040c4eb5d226855628ec9a00585e3465dc3cc7d62ec92c
 tags:
   1.0.7--h5b5514e_4: sha256:fd7227f98530192666b8d92564d34893e6216fcc8fc532e24aba5596ce76a84b
   1.0.7--h43eeafb_6: sha256:8c58cc0eed5796be1b11dd5665db5f9834fd5ff15e22685cfc66c900c32600f8
+  1.0.7--h5ca1c30_7: sha256:cfe72f1e809a6bd240040c4eb5d226855628ec9a00585e3465dc3cc7d62ec92c
 docker: quay.io/biocontainers/bloocoo
 aliases:
   Bloocoo: /usr/local/bin/Bloocoo

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/simlord
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simlord
 latest:
-  1.0.4--py39hf95cd2a_3: sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f
+  1.0.4--py39hbcbf7aa_5: sha256:526a35609024e731ca0d2949bb80e2c40438d44229a9ccea551b518fe7f96e19
 tags:
   1.0.4--py310h1425a21_2: sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c
   1.0.4--py39hf95cd2a_3: sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f
   1.0.4--py310h4b81fae_3: sha256:238400df2f47c6bf6241dea5eee6c9fdded24e3c018a47e5cdd97d0df73b7bfb
+  1.0.4--py39hbcbf7aa_5: sha256:526a35609024e731ca0d2949bb80e2c40438d44229a9ccea551b518fe7f96e19
 docker: quay.io/biocontainers/simlord
 aliases:
   simlord: /usr/local/bin/simlord

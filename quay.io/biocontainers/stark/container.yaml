@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/stark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stark
 latest:
-  0.1.1--h4ac6f70_5: sha256:9a444aa099df40a1327abbc41e3b00d1557ee0a893737883a77fc174a6b691f4
+  0.1.1--h9948957_6: sha256:fea9e4142c149b5a2c1f52374f6b691c2715b606d4e3bd156e18ce224d110ddf
 tags:
   0.1.1--h9f5acd7_3: sha256:585f1426bb9cc3d19ffa2a2bb08aaf48e9aa383a7f06210b3cd6dcb6524e9e2b
   0.1.1--h4ac6f70_5: sha256:9a444aa099df40a1327abbc41e3b00d1557ee0a893737883a77fc174a6b691f4
+  0.1.1--h9948957_6: sha256:fea9e4142c149b5a2c1f52374f6b691c2715b606d4e3bd156e18ce224d110ddf
 docker: quay.io/biocontainers/stark
 aliases:
   stark: /usr/local/bin/stark
