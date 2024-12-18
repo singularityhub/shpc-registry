@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/parafly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parafly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parafly/container.yaml"
-updated_at: "2024-12-17 03:31:19.281596"
-latest: "r2013_01_21--hdcf5f25_3"
+updated_at: "2024-12-18 03:15:40.446529"
+latest: "r2013_01_21--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/parafly"
 aliases:
  - "ParaFly"
 versions:
  - "r2013_01_21--1"
  - "r2013_01_21--hdcf5f25_3"
+ - "r2013_01_21--h077b44d_4"
 description: "shpc-registry automated BioContainers addition for parafly"
-config: {"url": "https://biocontainers.pro/tools/parafly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parafly", "latest": {"r2013_01_21--hdcf5f25_3": "sha256:2626c330ded170c597ff4b0c96e5bb14d8a1e3c6862d6845b5d7194f317395da"}, "tags": {"r2013_01_21--1": "sha256:67937a7856b0b804776c77f132e29e46322376206fa9973395e9b713595aadd7", "r2013_01_21--hdcf5f25_3": "sha256:2626c330ded170c597ff4b0c96e5bb14d8a1e3c6862d6845b5d7194f317395da"}, "docker": "quay.io/biocontainers/parafly", "aliases": {"ParaFly": "/usr/local/bin/ParaFly"}}
+config: {"url": "https://biocontainers.pro/tools/parafly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parafly", "latest": {"r2013_01_21--h077b44d_4": "sha256:ad7ce98c73de0f845063a82e42bb2162726c46566e18bf9f421276c8b50f21ac"}, "tags": {"r2013_01_21--1": "sha256:67937a7856b0b804776c77f132e29e46322376206fa9973395e9b713595aadd7", "r2013_01_21--hdcf5f25_3": "sha256:2626c330ded170c597ff4b0c96e5bb14d8a1e3c6862d6845b5d7194f317395da", "r2013_01_21--h077b44d_4": "sha256:ad7ce98c73de0f845063a82e42bb2162726c46566e18bf9f421276c8b50f21ac"}, "docker": "quay.io/biocontainers/parafly", "aliases": {"ParaFly": "/usr/local/bin/ParaFly"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parafly.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/parafly
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parafly:r2013_01_21--hdcf5f25_3
+$ shpc install quay.io/biocontainers/parafly:r2013_01_21--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parafly/r2013_01_21--hdcf5f25_3
-$ module help quay.io/biocontainers/parafly/r2013_01_21--hdcf5f25_3
+$ module load quay.io/biocontainers/parafly/r2013_01_21--h077b44d_4
+$ module help quay.io/biocontainers/parafly/r2013_01_21--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

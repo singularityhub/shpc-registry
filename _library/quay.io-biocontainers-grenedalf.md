@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/grenedalf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grenedalf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grenedalf/container.yaml"
-updated_at: "2024-12-17 03:29:45.856219"
-latest: "0.6.2--h27d5293_0"
+updated_at: "2024-12-18 03:14:07.482705"
+latest: "0.6.2--hbefcdb2_1"
 container_url: "https://biocontainers.pro/tools/grenedalf"
 aliases:
  - "grenedalf"
 versions:
  - "0.6.0--h27d5293_0"
  - "0.6.2--h27d5293_0"
+ - "0.6.2--hbefcdb2_1"
 description: "singularity registry hpc automated addition for grenedalf"
-config: {"url": "https://biocontainers.pro/tools/grenedalf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grenedalf", "latest": {"0.6.2--h27d5293_0": "sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945"}, "tags": {"0.6.0--h27d5293_0": "sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c", "0.6.2--h27d5293_0": "sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945"}, "docker": "quay.io/biocontainers/grenedalf", "aliases": {"grenedalf": "/usr/local/bin/grenedalf"}}
+config: {"url": "https://biocontainers.pro/tools/grenedalf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grenedalf", "latest": {"0.6.2--hbefcdb2_1": "sha256:c70255fbd9e62ffd4a03d54950efe9b34e331510d85aa5f06db66980ef5d900e"}, "tags": {"0.6.0--h27d5293_0": "sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c", "0.6.2--h27d5293_0": "sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945", "0.6.2--hbefcdb2_1": "sha256:c70255fbd9e62ffd4a03d54950efe9b34e331510d85aa5f06db66980ef5d900e"}, "docker": "quay.io/biocontainers/grenedalf", "aliases": {"grenedalf": "/usr/local/bin/grenedalf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grenedalf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/grenedalf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grenedalf:0.6.2--h27d5293_0
+$ shpc install quay.io/biocontainers/grenedalf:0.6.2--hbefcdb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grenedalf/0.6.2--h27d5293_0
-$ module help quay.io/biocontainers/grenedalf/0.6.2--h27d5293_0
+$ module load quay.io/biocontainers/grenedalf/0.6.2--hbefcdb2_1
+$ module help quay.io/biocontainers/grenedalf/0.6.2--hbefcdb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

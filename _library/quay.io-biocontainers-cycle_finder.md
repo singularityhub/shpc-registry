@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cycle_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cycle_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cycle_finder/container.yaml"
-updated_at: "2024-12-17 03:55:46.191312"
-latest: "1.0.0--hdbdd923_0"
+updated_at: "2024-12-18 03:40:56.516625"
+latest: "1.0.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/cycle_finder"
 aliases:
  - "blastn_vdb"
@@ -38,8 +38,9 @@ aliases:
  - "cd-hit-454"
 versions:
  - "1.0.0--hdbdd923_0"
+ - "1.0.0--h503566f_1"
 description: "singularity registry hpc automated addition for cycle_finder"
-config: {"url": "https://biocontainers.pro/tools/cycle_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cycle_finder", "latest": {"1.0.0--hdbdd923_0": "sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a"}, "tags": {"1.0.0--hdbdd923_0": "sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a"}, "docker": "quay.io/biocontainers/cycle_finder", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "cycle_finder": "/usr/local/bin/cycle_finder", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "trf": "/usr/local/bin/trf", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454"}}
+config: {"url": "https://biocontainers.pro/tools/cycle_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cycle_finder", "latest": {"1.0.0--h503566f_1": "sha256:ff48686243c9459237cadadf527afc149f1ff1742bbfcf68e990ba45699d1f9e"}, "tags": {"1.0.0--hdbdd923_0": "sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a", "1.0.0--h503566f_1": "sha256:ff48686243c9459237cadadf527afc149f1ff1742bbfcf68e990ba45699d1f9e"}, "docker": "quay.io/biocontainers/cycle_finder", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "cycle_finder": "/usr/local/bin/cycle_finder", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "trf": "/usr/local/bin/trf", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cycle_finder.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/cycle_finder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cycle_finder:1.0.0--hdbdd923_0
+$ shpc install quay.io/biocontainers/cycle_finder:1.0.0--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cycle_finder/1.0.0--hdbdd923_0
-$ module help quay.io/biocontainers/cycle_finder/1.0.0--hdbdd923_0
+$ module load quay.io/biocontainers/cycle_finder/1.0.0--h503566f_1
+$ module help quay.io/biocontainers/cycle_finder/1.0.0--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

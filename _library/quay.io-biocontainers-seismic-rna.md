@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seismic-rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seismic-rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seismic-rna/container.yaml"
-updated_at: "2024-12-17 03:49:57.844384"
+updated_at: "2024-12-18 03:35:07.792319"
 latest: "0.21.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seismic-rna"
 aliases:

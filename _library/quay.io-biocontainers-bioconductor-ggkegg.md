@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggkegg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggkegg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggkegg/container.yaml"
-updated_at: "2024-12-17 03:16:35.823702"
-latest: "1.0.2--r43hdfd78af_0"
+updated_at: "2024-12-18 03:00:55.466869"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggkegg"
 aliases:
  - "pcre2posix_test"
@@ -35,8 +35,9 @@ aliases:
  - "compare"
 versions:
  - "1.0.2--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ggkegg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggkegg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggkegg", "latest": {"1.0.2--r43hdfd78af_0": "sha256:86ed7371e206c1aa8ada56847053ca1b7b2ec4ceeff36bbd8a0b42ffdfa51af3"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:86ed7371e206c1aa8ada56847053ca1b7b2ec4ceeff36bbd8a0b42ffdfa51af3"}, "docker": "quay.io/biocontainers/bioconductor-ggkegg", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggkegg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggkegg", "latest": {"1.4.0--r44hdfd78af_0": "sha256:f44d38c46845b0642403da4b5f098aa14872d3ab806fac714925ebfd30c69a74"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:86ed7371e206c1aa8ada56847053ca1b7b2ec4ceeff36bbd8a0b42ffdfa51af3", "1.4.0--r44hdfd78af_0": "sha256:f44d38c46845b0642403da4b5f098aa14872d3ab806fac714925ebfd30c69a74"}, "docker": "quay.io/biocontainers/bioconductor-ggkegg", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggkegg.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggkegg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggkegg:1.0.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggkegg:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggkegg/1.0.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggkegg/1.0.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggkegg/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggkegg/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

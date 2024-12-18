@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hicdatalymphoblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
-updated_at: "2024-12-17 03:32:30.799733"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2024-12-18 03:16:51.614227"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.33.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast", "latest": {"1.38.0--r43hdfd78af_0": "sha256:e10661b6b187707633bd16792eeaa1d39a4fc0f539af93e471c6f9165b4ad0cc"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2", "1.33.0--r42hdfd78af_0": "sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22", "1.36.0--r43hdfd78af_0": "sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9", "1.38.0--r43hdfd78af_0": "sha256:e10661b6b187707633bd16792eeaa1d39a4fc0f539af93e471c6f9165b4ad0cc"}, "docker": "quay.io/biocontainers/bioconductor-hicdatalymphoblast"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast", "latest": {"1.42.0--r44hdfd78af_0": "sha256:72d2085014d03df20d4f5f0ea853022b90ba34b7357b020a4c6516694ec3edf6"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2", "1.33.0--r42hdfd78af_0": "sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22", "1.36.0--r43hdfd78af_0": "sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9", "1.38.0--r43hdfd78af_0": "sha256:e10661b6b187707633bd16792eeaa1d39a4fc0f539af93e471c6f9165b4ad0cc", "1.42.0--r44hdfd78af_0": "sha256:72d2085014d03df20d4f5f0ea853022b90ba34b7357b020a4c6516694ec3edf6"}, "docker": "quay.io/biocontainers/bioconductor-hicdatalymphoblast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicdatalymphoblast.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

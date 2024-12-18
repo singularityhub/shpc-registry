@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-harmandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmandata/container.yaml"
-updated_at: "2024-12-17 03:38:33.937383"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-18 03:23:05.702561"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmandata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-harmandata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harmandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmandata", "latest": {"1.30.0--r43hdfd78af_0": "sha256:789d5c80963d77fa6654026a5ec9b9f60096db0b981123fcf5d8266fec61fee9"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:52f95ebe3ef2eb3e6f88476b35c4a2816c83b28c227a37ba0f1fcc1b7fc6546e", "1.25.0--r42hdfd78af_0": "sha256:86bcaade80d990da594722010eebe776d9d12afdb67d6cba3eca634215350888", "1.28.0--r43hdfd78af_0": "sha256:90e15be38df3a01e5f56f16cac359bb7754389e09c5551b1ed0e9fcd114be5fa", "1.30.0--r43hdfd78af_0": "sha256:789d5c80963d77fa6654026a5ec9b9f60096db0b981123fcf5d8266fec61fee9"}, "docker": "quay.io/biocontainers/bioconductor-harmandata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harmandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmandata", "latest": {"1.34.0--r44hdfd78af_0": "sha256:85062747b0a3e1da5cf6be7fc01289584600bf4bb57b3253193a7b3a0c326e70"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:52f95ebe3ef2eb3e6f88476b35c4a2816c83b28c227a37ba0f1fcc1b7fc6546e", "1.25.0--r42hdfd78af_0": "sha256:86bcaade80d990da594722010eebe776d9d12afdb67d6cba3eca634215350888", "1.28.0--r43hdfd78af_0": "sha256:90e15be38df3a01e5f56f16cac359bb7754389e09c5551b1ed0e9fcd114be5fa", "1.30.0--r43hdfd78af_0": "sha256:789d5c80963d77fa6654026a5ec9b9f60096db0b981123fcf5d8266fec61fee9", "1.34.0--r44hdfd78af_0": "sha256:85062747b0a3e1da5cf6be7fc01289584600bf4bb57b3253193a7b3a0c326e70"}, "docker": "quay.io/biocontainers/bioconductor-harmandata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harmandata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-harmandata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-harmandata:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-harmandata:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-harmandata/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-harmandata/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-harmandata/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-harmandata/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

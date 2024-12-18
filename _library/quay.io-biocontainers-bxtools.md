@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bxtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bxtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bxtools/container.yaml"
-updated_at: "2024-12-17 03:38:07.071564"
-latest: "0.1.0--hf5e1c6e_5"
+updated_at: "2024-12-18 03:22:37.578979"
+latest: "0.1.0--h13024bc_6"
 container_url: "https://biocontainers.pro/tools/bxtools"
 aliases:
  - "bxtools"
 versions:
  - "0.1.0--h468198e_3"
  - "0.1.0--hf5e1c6e_5"
+ - "0.1.0--h13024bc_6"
 description: "shpc-registry automated BioContainers addition for bxtools"
-config: {"url": "https://biocontainers.pro/tools/bxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bxtools", "latest": {"0.1.0--hf5e1c6e_5": "sha256:ac0f562769b0be477f8d91e488262d710021d5814831481e6ab95f197b7f9671"}, "tags": {"0.1.0--h468198e_3": "sha256:d76f399d5ef3018291ce05240dd19d4ee569d16080da5ef85149cabaf1fbeb0d", "0.1.0--hf5e1c6e_5": "sha256:ac0f562769b0be477f8d91e488262d710021d5814831481e6ab95f197b7f9671"}, "docker": "quay.io/biocontainers/bxtools", "aliases": {"bxtools": "/usr/local/bin/bxtools"}}
+config: {"url": "https://biocontainers.pro/tools/bxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bxtools", "latest": {"0.1.0--h13024bc_6": "sha256:64daee8923fd24b9d8be843f5bf5d6c19c6a253f4b45c389b6f5149633f6e847"}, "tags": {"0.1.0--h468198e_3": "sha256:d76f399d5ef3018291ce05240dd19d4ee569d16080da5ef85149cabaf1fbeb0d", "0.1.0--hf5e1c6e_5": "sha256:ac0f562769b0be477f8d91e488262d710021d5814831481e6ab95f197b7f9671", "0.1.0--h13024bc_6": "sha256:64daee8923fd24b9d8be843f5bf5d6c19c6a253f4b45c389b6f5149633f6e847"}, "docker": "quay.io/biocontainers/bxtools", "aliases": {"bxtools": "/usr/local/bin/bxtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bxtools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bxtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bxtools:0.1.0--hf5e1c6e_5
+$ shpc install quay.io/biocontainers/bxtools:0.1.0--h13024bc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bxtools/0.1.0--hf5e1c6e_5
-$ module help quay.io/biocontainers/bxtools/0.1.0--hf5e1c6e_5
+$ module load quay.io/biocontainers/bxtools/0.1.0--h13024bc_6
+$ module help quay.io/biocontainers/bxtools/0.1.0--h13024bc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

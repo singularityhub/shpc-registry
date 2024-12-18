@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snostrip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snostrip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snostrip/container.yaml"
-updated_at: "2024-12-17 03:50:04.297820"
-latest: "2.0.2--pl5321hdbdd923_5"
+updated_at: "2024-12-18 03:35:14.449918"
+latest: "2.0.2--pl5321h503566f_6"
 container_url: "https://biocontainers.pro/tools/snostrip"
 aliases:
  - "RNAmultifold"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.0.2--pl5321h87f3376_4"
  - "2.0.2--pl5321hdbdd923_5"
+ - "2.0.2--pl5321h503566f_6"
 description: "shpc-registry automated BioContainers addition for snostrip"
-config: {"url": "https://biocontainers.pro/tools/snostrip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snostrip", "latest": {"2.0.2--pl5321hdbdd923_5": "sha256:edc919a747b94a6e5b00eb9bdad5fa016e6b9b6f3c94bff9357f70131afbd72f"}, "tags": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb", "2.0.2--pl5321hdbdd923_5": "sha256:edc919a747b94a6e5b00eb9bdad5fa016e6b9b6f3c94bff9357f70131afbd72f"}, "docker": "quay.io/biocontainers/snostrip", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "snoStrip.pl": "/usr/local/bin/snoStrip.pl", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/snostrip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snostrip", "latest": {"2.0.2--pl5321h503566f_6": "sha256:2c8e832dc4afc417f7e95d7e602fe2d51483c4f860d9c1963956d4ef316bf455"}, "tags": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb", "2.0.2--pl5321hdbdd923_5": "sha256:edc919a747b94a6e5b00eb9bdad5fa016e6b9b6f3c94bff9357f70131afbd72f", "2.0.2--pl5321h503566f_6": "sha256:2c8e832dc4afc417f7e95d7e602fe2d51483c4f860d9c1963956d4ef316bf455"}, "docker": "quay.io/biocontainers/snostrip", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "snoStrip.pl": "/usr/local/bin/snoStrip.pl", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snostrip.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/snostrip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snostrip:2.0.2--pl5321hdbdd923_5
+$ shpc install quay.io/biocontainers/snostrip:2.0.2--pl5321h503566f_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snostrip/2.0.2--pl5321hdbdd923_5
-$ module help quay.io/biocontainers/snostrip/2.0.2--pl5321hdbdd923_5
+$ module load quay.io/biocontainers/snostrip/2.0.2--pl5321h503566f_6
+$ module help quay.io/biocontainers/snostrip/2.0.2--pl5321h503566f_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spades/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spades/container.yaml"
-updated_at: "2024-12-17 03:20:35.992456"
+updated_at: "2024-12-18 03:04:57.208075"
 latest: "4.0.0--h6dccd9a_3"
 container_url: "https://biocontainers.pro/tools/spades"
 aliases:

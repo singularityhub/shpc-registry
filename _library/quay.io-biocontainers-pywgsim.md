@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pywgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywgsim/container.yaml"
-updated_at: "2024-12-17 03:40:54.849405"
-latest: "0.5.2--py36h91eb985_0"
+updated_at: "2024-12-18 03:25:32.792490"
+latest: "0.5.2--py310h397c9d8_3"
 container_url: "https://biocontainers.pro/tools/pywgsim"
 aliases:
  - "pywgsim"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.5.2--py36h91eb985_0"
  - "0.5.2--py310h1425a21_0"
+ - "0.5.2--py310h397c9d8_3"
 description: "singularity registry hpc automated addition for pywgsim"
-config: {"url": "https://biocontainers.pro/tools/pywgsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywgsim", "latest": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2"}, "tags": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2", "0.5.2--py310h1425a21_0": "sha256:862a6e42a8acc7046e6fdab65c1569414c81a27bf71bc041aaae4e20d145821f"}, "docker": "quay.io/biocontainers/pywgsim", "aliases": {"pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pywgsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywgsim", "latest": {"0.5.2--py310h397c9d8_3": "sha256:419aaebebd10ea85f09b67d748f66ef27badc526157de29f4b52efa63311be31"}, "tags": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2", "0.5.2--py310h1425a21_0": "sha256:862a6e42a8acc7046e6fdab65c1569414c81a27bf71bc041aaae4e20d145821f", "0.5.2--py310h397c9d8_3": "sha256:419aaebebd10ea85f09b67d748f66ef27badc526157de29f4b52efa63311be31"}, "docker": "quay.io/biocontainers/pywgsim", "aliases": {"pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywgsim.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pywgsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pywgsim:0.5.2--py36h91eb985_0
+$ shpc install quay.io/biocontainers/pywgsim:0.5.2--py310h397c9d8_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pywgsim/0.5.2--py36h91eb985_0
-$ module help quay.io/biocontainers/pywgsim/0.5.2--py36h91eb985_0
+$ module load quay.io/biocontainers/pywgsim/0.5.2--py310h397c9d8_3
+$ module help quay.io/biocontainers/pywgsim/0.5.2--py310h397c9d8_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

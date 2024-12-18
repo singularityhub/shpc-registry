@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ndexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ndexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ndexr/container.yaml"
-updated_at: "2024-12-17 03:22:08.923211"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2024-12-18 03:06:30.660560"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ndexr"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ndexr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ndexr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ndexr", "latest": {"1.24.0--r43hdfd78af_0": "sha256:afaa69eac896debf3f000587c550f760636475da6dae327100cf9e0f5371deb8"}, "tags": {"1.8.0--r36_0": "sha256:4fa83b06ef5e71acd779de6e720f7d0cf5313220f90667d10249141471f4f9af", "1.20.0--r42hdfd78af_0": "sha256:3ce31f98746d5f821203f15a226791561a2ddb28ea89dfc9f9fbcf9c120fbb62", "1.16.0--r41hdfd78af_0": "sha256:7807ad549277c802fbaef47acd89a80244b1d1c464711cd4567b4d5c2e78435d", "1.14.0--r41hdfd78af_0": "sha256:f816fe4904266e5f01fa73cba5296c6d43acdbd298304c9330e4e292ecf81655", "1.12.1--r40hdfd78af_0": "sha256:e64408d5f6084004faa04a10826c382192d8a2502bf1900cfd881ac6a840f741", "1.10.0--r40_0": "sha256:c27b56840cc44eddbb11c479002a9689d91da80ef130ec8b1899a3dd417ef79a", "1.22.0--r43hdfd78af_0": "sha256:1367642e581272483c80ce0aecee5cb86cb8c854e1a56f9fb1efd62218fc774c", "1.24.0--r43hdfd78af_0": "sha256:afaa69eac896debf3f000587c550f760636475da6dae327100cf9e0f5371deb8"}, "docker": "quay.io/biocontainers/bioconductor-ndexr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ndexr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ndexr", "latest": {"1.28.0--r44hdfd78af_0": "sha256:7648ae0a79bf824375f9e98b446be42c378de91e48cc940091893bcf774182f4"}, "tags": {"1.8.0--r36_0": "sha256:4fa83b06ef5e71acd779de6e720f7d0cf5313220f90667d10249141471f4f9af", "1.20.0--r42hdfd78af_0": "sha256:3ce31f98746d5f821203f15a226791561a2ddb28ea89dfc9f9fbcf9c120fbb62", "1.16.0--r41hdfd78af_0": "sha256:7807ad549277c802fbaef47acd89a80244b1d1c464711cd4567b4d5c2e78435d", "1.14.0--r41hdfd78af_0": "sha256:f816fe4904266e5f01fa73cba5296c6d43acdbd298304c9330e4e292ecf81655", "1.12.1--r40hdfd78af_0": "sha256:e64408d5f6084004faa04a10826c382192d8a2502bf1900cfd881ac6a840f741", "1.10.0--r40_0": "sha256:c27b56840cc44eddbb11c479002a9689d91da80ef130ec8b1899a3dd417ef79a", "1.22.0--r43hdfd78af_0": "sha256:1367642e581272483c80ce0aecee5cb86cb8c854e1a56f9fb1efd62218fc774c", "1.24.0--r43hdfd78af_0": "sha256:afaa69eac896debf3f000587c550f760636475da6dae327100cf9e0f5371deb8", "1.28.0--r44hdfd78af_0": "sha256:7648ae0a79bf824375f9e98b446be42c378de91e48cc940091893bcf774182f4"}, "docker": "quay.io/biocontainers/bioconductor-ndexr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ndexr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ndexr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ndexr:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ndexr:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ndexr/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ndexr/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ndexr/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ndexr/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
