@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/spclust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spclust
+latest:
+  28.5.19--h425c490_1: sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
+tags:
+  28.5.19--h425c490_1: sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
+docker: quay.io/biocontainers/spclust
+aliases:
+  guispclust: /usr/local/bin/guispclust
+  mpispclust: /usr/local/bin/mpispclust
+  spclust: /usr/local/bin/spclust
+  spclustGMM: /usr/local/bin/spclustGMM
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  shmemrun: /usr/local/bin/shmemrun
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  mpiCC: /usr/local/bin/mpiCC
+  muscle: /usr/local/bin/muscle
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  ompi_info: /usr/local/bin/ompi_info
+  opal_wrapper: /usr/local/bin/opal_wrapper
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/virdig
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virdig
+latest:
+  1.0.0--h5ca1c30_0: sha256:cfd70bdb226074bcb6ba0a6173c08e6db4441713f2c16cbf8a9d450b8a7db8b5
+tags:
+  1.0.0--h5ca1c30_0: sha256:cfd70bdb226074bcb6ba0a6173c08e6db4441713f2c16cbf8a9d450b8a7db8b5
+docker: quay.io/biocontainers/virdig
+aliases:
+  virdig: /usr/local/bin/virdig

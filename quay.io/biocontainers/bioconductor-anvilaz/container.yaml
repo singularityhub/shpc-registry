@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-anvilaz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-anvilaz
+latest:
+  1.0.0--r44hdfd78af_0: sha256:13b135163adc1fa791acd72a66fa706e951ec902bafbce9c03b5535903a499d0
+tags:
+  1.0.0--r44hdfd78af_0: sha256:13b135163adc1fa791acd72a66fa706e951ec902bafbce9c03b5535903a499d0
+docker: quay.io/biocontainers/bioconductor-anvilaz
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

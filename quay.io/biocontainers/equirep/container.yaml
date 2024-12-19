@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/equirep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for equirep
+latest:
+  1.0.0--h9948957_0: sha256:71e502ce177ac87f48609bfdec23bc0ee0284609b1f316e01f311a16225e4e3f
+tags:
+  1.0.0--h9948957_0: sha256:71e502ce177ac87f48609bfdec23bc0ee0284609b1f316e01f311a16225e4e3f
+docker: quay.io/biocontainers/equirep
+aliases:
+  EquiRep: /usr/local/bin/EquiRep

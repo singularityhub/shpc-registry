@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/seshat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seshat
+latest:
+  0.10.0--py313hdfd78af_0: sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
+tags:
+  0.10.0--py313hdfd78af_0: sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
+docker: quay.io/biocontainers/seshat
+aliases:
+  chromedriver-path: /usr/local/bin/chromedriver-path
+  selenium-manager: /usr/local/bin/selenium-manager
+  seshat: /usr/local/bin/seshat
+  wsdump: /usr/local/bin/wsdump
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  jwebserver: /usr/local/bin/jwebserver
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  jpackage: /usr/local/bin/jpackage
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/gpatch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gpatch
+latest:
+  0.3.5--pyhdfd78af_0: sha256:8713a529453f71b61283855c3daadb9ae0f1154a151773d5e14c9b7428021eb2
+tags:
+  0.3.5--pyhdfd78af_0: sha256:8713a529453f71b61283855c3daadb9ae0f1154a151773d5e14c9b7428021eb2
+docker: quay.io/biocontainers/gpatch
+aliases:
+  GPatch: /usr/local/bin/GPatch
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

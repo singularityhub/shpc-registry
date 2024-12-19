@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/paf2chain
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for paf2chain
+latest:
+  0.1.1--h3ab6199_0: sha256:8a39e2681677f6992f09bb875a21fe4e6c2fa20cbdbcc8d177cef193f0153a35
+tags:
+  0.1.1--h3ab6199_0: sha256:8a39e2681677f6992f09bb875a21fe4e6c2fa20cbdbcc8d177cef193f0153a35
+docker: quay.io/biocontainers/paf2chain
+aliases:
+  paf2chain: /usr/local/bin/paf2chain

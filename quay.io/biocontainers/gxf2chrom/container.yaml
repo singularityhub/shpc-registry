@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gxf2chrom
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gxf2chrom
+latest:
+  0.1.0--h9948957_1: sha256:31127824ad4791341c61de409210aa41477f74380cb98d23c9d1b47a0de67576
+tags:
+  0.1.0--h9948957_1: sha256:31127824ad4791341c61de409210aa41477f74380cb98d23c9d1b47a0de67576
+docker: quay.io/biocontainers/gxf2chrom
+aliases:
+  gxf2chrom: /usr/local/bin/gxf2chrom

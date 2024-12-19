@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-biocroxytest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-biocroxytest
+latest:
+  1.2.0--r44hdfd78af_0: sha256:16ce509f1da9e0090b41dfc705877b1d1e4f8c738738350d9d3efbfafb0750ca
+tags:
+  1.2.0--r44hdfd78af_0: sha256:16ce509f1da9e0090b41dfc705877b1d1e4f8c738738350d9d3efbfafb0750ca
+docker: quay.io/biocontainers/bioconductor-biocroxytest
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
