@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomepy/container.yaml"
-updated_at: "2024-12-19 03:47:03.461991"
+updated_at: "2024-12-19 05:05:38.419726"
 latest: "0.16.1--pyh7e72e81_2"
 container_url: "https://biocontainers.pro/tools/genomepy"
 

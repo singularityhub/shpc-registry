@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-venn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-venn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-venn/container.yaml"
-updated_at: "2024-12-19 03:11:22.384448"
+updated_at: "2024-12-19 04:29:51.875514"
 latest: "1.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-venn"
 aliases:

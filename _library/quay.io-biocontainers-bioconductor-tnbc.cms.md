@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tnbc.cms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tnbc.cms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tnbc.cms/container.yaml"
-updated_at: "2024-12-19 03:35:30.373440"
+updated_at: "2024-12-19 04:53:53.883094"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tnbc.cms"
 aliases:
