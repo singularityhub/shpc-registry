@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/imseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for imseq
 latest:
-  1.1.0--hdcf5f25_7: sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598
+  1.1.0--h077b44d_8: sha256:ee8005b112f1641b08e65a54d4ac00bb984728fa0107007be29cba7a31820c42
 tags:
   1.1.0--hd03093a_5: sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c
   1.1.0--hdcf5f25_7: sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598
+  1.1.0--h077b44d_8: sha256:ee8005b112f1641b08e65a54d4ac00bb984728fa0107007be29cba7a31820c42
 docker: quay.io/biocontainers/imseq
 aliases:
   imseq: /usr/local/bin/imseq

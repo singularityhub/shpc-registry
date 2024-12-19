@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ctc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ctc
 latest:
-  1.76.0--r43hdfd78af_0: sha256:7f4c64548c5a66d132d300ea7e967cef5bfd26119fbafc0075d356be1547d5f7
+  1.80.0--r44hdfd78af_0: sha256:ccdadab28062eda93a0d47fe7d973034853fdce9cb6207d5a9b34dbc40ca2c8f
 tags:
   1.68.0--r41hdfd78af_0: sha256:32e71a3f17969d76fe617a15a8b2f9b72ae78ca72acb45b07f74d9ea249dfc9e
   1.72.0--r42hdfd78af_0: sha256:d974a2273bd53348d42ad062b2baa3b25d2bd1594088539e7d5388887b236fd9
   1.74.0--r43hdfd78af_0: sha256:978a7c594723a965729a5e1f5583169167d6ca24314b0f7ce82337e805de0892
   1.76.0--r43hdfd78af_0: sha256:7f4c64548c5a66d132d300ea7e967cef5bfd26119fbafc0075d356be1547d5f7
+  1.80.0--r44hdfd78af_0: sha256:ccdadab28062eda93a0d47fe7d973034853fdce9cb6207d5a9b34dbc40ca2c8f
 docker: quay.io/biocontainers/bioconductor-ctc

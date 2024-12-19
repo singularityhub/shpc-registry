@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dazz_db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dazz_db
 latest:
-  1.0p2--he4a0461_7: sha256:fd806c10db1aba1516307c93d33fc7de87416f23377eee674ef7489317e5076e
+  1.0p2--h577a1d6_8: sha256:f270d183595454c3760acd65689460fc7b6e2e90d1f1fe346c5bb1ec1eb2daf6
 tags:
   1.0p2--h7132678_5: sha256:63780c37204dbffed831851aeedf19894beb07a814a26ab7e04baec771792227
   1.0p2--he4a0461_7: sha256:fd806c10db1aba1516307c93d33fc7de87416f23377eee674ef7489317e5076e
+  1.0p2--h577a1d6_8: sha256:f270d183595454c3760acd65689460fc7b6e2e90d1f1fe346c5bb1ec1eb2daf6
 docker: quay.io/biocontainers/dazz_db
 aliases:
   Catrack: /usr/local/bin/Catrack

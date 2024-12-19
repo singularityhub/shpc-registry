@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/contatester
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for contatester
 latest:
-  1.0.0--py311r43h1a4d1c9_3: sha256:7d54b7199aca380c81e060904ac4d6c63c29a376fd93c23911d20572f4ee8e50
+  1.0.0--py311r44he3b539c_4: sha256:08d2a8a50b31d978fcae0da976b036df48fda9b4aa39ea43b283255925c33ec1
 tags:
   1.0.0--py39r41h9a9d1d7_0: sha256:0b48556965af45e1c5bb53c91e8607be8c9d6620334224602fd87d4413ae0cb4
   1.0.0--py310r42h2f90316_1: sha256:63846ddb7efb9010d20e75f5b63f8ad671bfb00bc6d9a057c1fb35c418cb7455
@@ -10,6 +10,7 @@ tags:
   1.0.0--py38r42h4ef9e6b_2: sha256:e756cdebc02d2a807d257ce29ebab2967f3f118d47251bf276db432c36b3dfea
   1.0.0--py311r43h1a4d1c9_3: sha256:7d54b7199aca380c81e060904ac4d6c63c29a376fd93c23911d20572f4ee8e50
   1.0.0--py38r43h598b33d_3: sha256:1cf66d55a83f0fd6705a86ec8254181745d4be28d8f9da697ef1eeb82fd8ef05
+  1.0.0--py311r44he3b539c_4: sha256:08d2a8a50b31d978fcae0da976b036df48fda9b4aa39ea43b283255925c33ec1
 docker: quay.io/biocontainers/contatester
 aliases:
   calculAllelicBalance.sh: /usr/local/bin/calculAllelicBalance.sh

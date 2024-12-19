@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mdust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mdust
 latest:
-  2006.10.17--h031d066_6: sha256:e3dbeb026f83c40d550c41db16c0c6c55617f67edac54cc488ebd173e1b2d1e5
+  2006.10.17--h7b50bb2_7: sha256:274102d21102f41f9846652c8a65f063971816afc67919440d690d83fbe22ea6
 tags:
   2006.10.17--hec16e2b_4: sha256:6a238cb90621acd3a08c738229cd7d47361bf6350f368b7a494e0421d55d795d
   2006.10.17--h031d066_6: sha256:e3dbeb026f83c40d550c41db16c0c6c55617f67edac54cc488ebd173e1b2d1e5
+  2006.10.17--h7b50bb2_7: sha256:274102d21102f41f9846652c8a65f063971816afc67919440d690d83fbe22ea6
 docker: quay.io/biocontainers/mdust
 aliases:
   mdust: /usr/local/bin/mdust

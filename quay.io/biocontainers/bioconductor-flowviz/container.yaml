@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-flowviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowviz
 latest:
-  1.66.0--r43hdfd78af_0: sha256:85ad25b7cbace54dd91948cbb4dfe4e4b5fe41f38ec5dfff8a4afd2efcc79f19
+  1.70.0--r44hdfd78af_0: sha256:1334395d9cbc5e58cd7edab75df306312f8cb12148da2ffebce3d1c9f6c4d1b9
 tags:
   1.58.0--r41hdfd78af_0: sha256:ddf4d225b40afc541e97271e02c760ac2e4beab62c6f5756d2af9240d2e64cac
   1.62.0--r42hdfd78af_0: sha256:74ab99c7a9fabeaa50feffa1f93f3747a2e8325a71a384e99f72ecaeca704b90
   1.64.0--r43hdfd78af_0: sha256:db46bb0cd07b6648f78703e543a5edcaf8d1d383f73505f90861b971fd494942
   1.66.0--r43hdfd78af_0: sha256:85ad25b7cbace54dd91948cbb4dfe4e4b5fe41f38ec5dfff8a4afd2efcc79f19
+  1.70.0--r44hdfd78af_0: sha256:1334395d9cbc5e58cd7edab75df306312f8cb12148da2ffebce3d1c9f6c4d1b9
 docker: quay.io/biocontainers/bioconductor-flowviz

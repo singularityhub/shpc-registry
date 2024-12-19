@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/genodsp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genodsp
 latest:
-  0.0.3--h031d066_1: sha256:133d777ef2b6661d46bc3deab0dd47aadb298d31bfec2160b08e93c9e522da61
+  0.0.10--h7b50bb2_1: sha256:e33cb58050c4f65b787fe25cc63caef656c72dd8d55acecd1dd07829f4a83030
 tags:
   0.0.3--h031d066_1: sha256:133d777ef2b6661d46bc3deab0dd47aadb298d31bfec2160b08e93c9e522da61
+  0.0.10--h7b50bb2_1: sha256:e33cb58050c4f65b787fe25cc63caef656c72dd8d55acecd1dd07829f4a83030
 docker: quay.io/biocontainers/genodsp
 aliases:
   genodsp: /usr/local/bin/genodsp

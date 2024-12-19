@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/simug
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simug
 latest:
-  1.0.0--hdfd78af_1: sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f
+  1.0.1--hdfd78af_0: sha256:83cc2d300add9d4f8ca47424c414135c1137e9b6aa49508238cea411c4e15504
 tags:
   1.0.0--hdfd78af_1: sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f
+  1.0.1--hdfd78af_0: sha256:83cc2d300add9d4f8ca47424c414135c1137e9b6aa49508238cea411c4e15504
 docker: quay.io/biocontainers/simug
 aliases:
   gunzip: /usr/local/bin/gunzip

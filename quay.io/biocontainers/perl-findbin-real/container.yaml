@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-findbin-real
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-findbin-real
 latest:
-  1.05--pl5321ha8f3691_1: sha256:75cdffa6bc818a07bb870e56b929099be9e7e410e54d1a7e7a28d4d31c4f5bb2
+  1.05--pl5321h05cac1d_2: sha256:182e5dd9b1d804c7ff339f0ccd345a7608f811de3720c21e06f5c5f1acd7d1fa
 tags:
   1.05--pl5321ha8f3691_1: sha256:75cdffa6bc818a07bb870e56b929099be9e7e410e54d1a7e7a28d4d31c4f5bb2
+  1.05--pl5321h05cac1d_2: sha256:182e5dd9b1d804c7ff339f0ccd345a7608f811de3720c21e06f5c5f1acd7d1fa
 docker: quay.io/biocontainers/perl-findbin-real
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

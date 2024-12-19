@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/unmerge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unmerge
 latest:
-  1.0--hdbdd923_4: sha256:e1341f4ff986f996d38d1d7f5d28f932cc81bb4867f7234e0779e6b83d3773c5
+  1.0--h503566f_5: sha256:59b980dc77cbab0546f6cb1611c1eaa1519c2ac7b645a206a4fff07b27f5c96e
 tags:
   1.0--h87f3376_2: sha256:46c2f61eb4dd82219959240b6f3b61692a5d57b1e28ec717e0cafd09dfa421e7
   1.0--hdbdd923_4: sha256:e1341f4ff986f996d38d1d7f5d28f932cc81bb4867f7234e0779e6b83d3773c5
+  1.0--h503566f_5: sha256:59b980dc77cbab0546f6cb1611c1eaa1519c2ac7b645a206a4fff07b27f5c96e
 docker: quay.io/biocontainers/unmerge
 aliases:
   unmerge: /usr/local/bin/unmerge

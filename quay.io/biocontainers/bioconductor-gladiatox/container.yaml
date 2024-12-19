@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-gladiatox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gladiatox
 latest:
-  1.18.0--r43hdfd78af_0: sha256:5e48848e4d11b8aade0c85ad99b893ff5459786093ba6640a132c19214e8d5dc
+  1.22.0--r44hdfd78af_0: sha256:1bd604a9dfde9805058f26a42acd303ef32ecce2babc956ed6b24b1d520eb1db
 tags:
   1.8.0--r41hdfd78af_0: sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573
   1.14.0--r42hdfd78af_0: sha256:8df98944676a8741107e14b4837282bfb5caec90a428edce9c26551163aa190a
   1.10.0--r41hdfd78af_0: sha256:6ab9c7747bdceb46d8f65e43cf9f43b5033519dc1cc461f4620b1ee319f96821
   1.16.0--r43hdfd78af_0: sha256:473944e828743067588c241360efe27253d0315358d058e0328e925e67ecf28e
   1.18.0--r43hdfd78af_0: sha256:5e48848e4d11b8aade0c85ad99b893ff5459786093ba6640a132c19214e8d5dc
+  1.22.0--r44hdfd78af_0: sha256:1bd604a9dfde9805058f26a42acd303ef32ecce2babc956ed6b24b1d520eb1db
 docker: quay.io/biocontainers/bioconductor-gladiatox
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

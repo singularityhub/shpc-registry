@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/biobb_pytorch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_pytorch
 latest:
-  4.2.1--pyhad2cae4_0: sha256:21190b1f03e4aaee6a0df7e3d9f1f4462a2141d116a9c265424cb73fb3a0c609
+  5.0.0--pyhe3c1f20_0: sha256:7521b6235ae0c22ac3c9a10d643ce51d22c3e9bd3d18b71baf919e3fea6bf229
 tags:
   4.1.0--pyhad2cae4_0: sha256:ec36144db9ee879b1e7d320db7658320aa40d67ace5d30fa7490c3d290cd2c5d
   4.1.3--pyhad2cae4_0: sha256:e946850ffcae0e4af6a5026d21bbf717ab31f2972c04d72fae42dbcfe93159f3
   4.2.1--pyhad2cae4_0: sha256:21190b1f03e4aaee6a0df7e3d9f1f4462a2141d116a9c265424cb73fb3a0c609
+  5.0.0--pyhe3c1f20_0: sha256:7521b6235ae0c22ac3c9a10d643ce51d22c3e9bd3d18b71baf919e3fea6bf229
 docker: quay.io/biocontainers/biobb_pytorch
 aliases:
   apply_mdae: /usr/local/bin/apply_mdae

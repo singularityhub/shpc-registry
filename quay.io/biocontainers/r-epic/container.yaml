@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/r-epic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-epic
 latest:
-  1.1.7--r43hdfd78af_1: sha256:b6d618e05e4aec91fd42c5ba6c9a4eaf401aac9dac112fd38c9d3384488bbfdd
+  1.1.7--r44hdfd78af_2: sha256:9a86653773e159d1ad6bd342f3b239c0cb798072195ebad11c7aa581d35bcdf5
 tags:
   1.1--r41hdfd78af_4: sha256:009053ec0f8cfb2d5a547677e497bf8e95f845962adffe23289554a774538c92
   1.1--r42hdfd78af_5: sha256:1fe5e2dd6f1070c1ef1c445647aa5bb205442f2a36f05c0da97e6d4be0aac6d9
   1.1.6--r42hdfd78af_0: sha256:fb01a7408383632f8c60c1667442003c847c599c8a00f2540284099a231b7920
   1.1.7--r42hdfd78af_0: sha256:8857158fb2b37786b75d136b47c93a89502e2a00d575eee996ae1581420c6794
   1.1.7--r43hdfd78af_1: sha256:b6d618e05e4aec91fd42c5ba6c9a4eaf401aac9dac112fd38c9d3384488bbfdd
+  1.1.7--r44hdfd78af_2: sha256:9a86653773e159d1ad6bd342f3b239c0cb798072195ebad11c7aa581d35bcdf5
 docker: quay.io/biocontainers/r-epic
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

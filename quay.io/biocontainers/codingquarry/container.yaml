@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/codingquarry
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for codingquarry
 latest:
-  2.0--py312h28adbb1_9: sha256:d2300835e88bf2bd0fcc7c135ae2874ebf262995806001e6c072b09c3fe46cc7
+  2.0--py310h184ae93_10: sha256:b2b1ec86c0f7601685173070b58755e42d80ed80574174118f8e74dcd787b404
 tags:
   2.0--py38h4a32c8e_6: sha256:4efe1b30b34d49ab74fe0791b3f3fd8b596928ace09bd517e82fb59a541ff8fa
   2.0--py39h1f90b4d_8: sha256:6bce13ef87fb22ace96b8653696836ff8fcb124d0419c245a3b7ba7c51c5b24c
   2.0--py38h2494328_8: sha256:4e23a724e8f71b92018548e6527b60358f37a34513e403f068068ab4481d31f7
   2.0--py312h28adbb1_9: sha256:d2300835e88bf2bd0fcc7c135ae2874ebf262995806001e6c072b09c3fe46cc7
+  2.0--py310h184ae93_10: sha256:b2b1ec86c0f7601685173070b58755e42d80ed80574174118f8e74dcd787b404
 docker: quay.io/biocontainers/codingquarry
 aliases:
   CodingQuarry: /usr/local/bin/CodingQuarry
