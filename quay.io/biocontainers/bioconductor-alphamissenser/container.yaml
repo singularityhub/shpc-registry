@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-alphamissenser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-alphamissenser
+latest:
+  1.2.0--r44hdfd78af_0: sha256:01c4c85d8eb0ad315a7c57d3531a1c9e2f7125fd2aca951ffe49cf9a70930d6f
+tags:
+  1.2.0--r44hdfd78af_0: sha256:01c4c85d8eb0ad315a7c57d3531a1c9e2f7125fd2aca951ffe49cf9a70930d6f
+docker: quay.io/biocontainers/bioconductor-alphamissenser
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

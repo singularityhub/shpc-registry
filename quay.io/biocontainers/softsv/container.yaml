@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/softsv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for softsv
+latest:
+  1.4.2--hb891895_0: sha256:b2f6727d8b11029e33f5aa3b28fc15ac81d87eef5e5842e4c73ce271c8e5fb9f
+tags:
+  1.4.2--hb891895_0: sha256:b2f6727d8b11029e33f5aa3b28fc15ac81d87eef5e5842e4c73ce271c8e5fb9f
+docker: quay.io/biocontainers/softsv
+aliases:
+  SoftSV: /usr/local/bin/SoftSV
+  bamtools: /usr/local/bin/bamtools

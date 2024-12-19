@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-assorthead
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-assorthead
+latest:
+  1.0.0--r44hdfd78af_0: sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411
+tags:
+  1.0.0--r44hdfd78af_0: sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411
+docker: quay.io/biocontainers/bioconductor-assorthead
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

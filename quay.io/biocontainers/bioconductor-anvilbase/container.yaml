@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-anvilbase
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-anvilbase
+latest:
+  1.0.0--r44hdfd78af_0: sha256:832a94bc55c719eda13f287eb9fba93d28ec892b3238a78a2ab752ffea8d57e4
+tags:
+  1.0.0--r44hdfd78af_0: sha256:832a94bc55c719eda13f287eb9fba93d28ec892b3238a78a2ab752ffea8d57e4
+docker: quay.io/biocontainers/bioconductor-anvilbase
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
