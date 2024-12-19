@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rukki"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rukki/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rukki/container.yaml"
-updated_at: "2024-12-18 02:59:16.401064"
-latest: "0.3.0--h919a2d8_0"
+updated_at: "2024-12-19 02:59:58.905269"
+latest: "0.3.0--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/rukki"
 aliases:
  - "rukki"
 versions:
  - "0.3.0--h919a2d8_0"
+ - "0.3.0--ha6fb395_1"
 description: "singularity registry hpc automated addition for rukki"
-config: {"url": "https://biocontainers.pro/tools/rukki", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rukki", "latest": {"0.3.0--h919a2d8_0": "sha256:0127ff5d6f5c3cdefe567911405162dff5d243a03f13152e7e89daf400a7879f"}, "tags": {"0.3.0--h919a2d8_0": "sha256:0127ff5d6f5c3cdefe567911405162dff5d243a03f13152e7e89daf400a7879f"}, "docker": "quay.io/biocontainers/rukki", "aliases": {"rukki": "/usr/local/bin/rukki"}}
+config: {"url": "https://biocontainers.pro/tools/rukki", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rukki", "latest": {"0.3.0--ha6fb395_1": "sha256:bddb7b4599ba5c16abf0d976f79997ecef38c256ef037a0751ef0411202d4768"}, "tags": {"0.3.0--h919a2d8_0": "sha256:0127ff5d6f5c3cdefe567911405162dff5d243a03f13152e7e89daf400a7879f", "0.3.0--ha6fb395_1": "sha256:bddb7b4599ba5c16abf0d976f79997ecef38c256ef037a0751ef0411202d4768"}, "docker": "quay.io/biocontainers/rukki", "aliases": {"rukki": "/usr/local/bin/rukki"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rukki.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rukki
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rukki:0.3.0--h919a2d8_0
+$ shpc install quay.io/biocontainers/rukki:0.3.0--ha6fb395_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rukki/0.3.0--h919a2d8_0
-$ module help quay.io/biocontainers/rukki/0.3.0--h919a2d8_0
+$ module load quay.io/biocontainers/rukki/0.3.0--ha6fb395_1
+$ module help quay.io/biocontainers/rukki/0.3.0--ha6fb395_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

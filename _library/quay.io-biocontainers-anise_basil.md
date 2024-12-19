@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anise_basil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anise_basil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anise_basil/container.yaml"
-updated_at: "2024-12-18 03:02:10.033218"
-latest: "1.2.0--py312hc60241a_8"
+updated_at: "2024-12-19 03:02:55.533685"
+latest: "1.2.0--py312hdcc493e_9"
 container_url: "https://biocontainers.pro/tools/anise_basil"
 aliases:
  - "anise"
@@ -26,8 +26,9 @@ versions:
  - "1.2.0--py38h529b8a6_6"
  - "1.2.0--py310h9da9059_7"
  - "1.2.0--py312hc60241a_8"
+ - "1.2.0--py312hdcc493e_9"
 description: "shpc-registry automated BioContainers addition for anise_basil"
-config: {"url": "https://biocontainers.pro/tools/anise_basil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anise_basil", "latest": {"1.2.0--py312hc60241a_8": "sha256:e6141624c4f5843d660e53fec439eb7dbc95fd2f8b5fed8362fcc0eb38237fc5"}, "tags": {"1.2.0--py36hcb2eddc_3": "sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12", "1.2.0--py39h1442aad_6": "sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7", "1.2.0--py38h529b8a6_6": "sha256:20effeb6391a1d1b7faecfd4d091dcc95170607a60b4b1b650fcac37725d292b", "1.2.0--py310h9da9059_7": "sha256:be72c835025b2170c36b2c06a5edf196137ce9fad38c1eb4a6fb01c631220188", "1.2.0--py312hc60241a_8": "sha256:e6141624c4f5843d660e53fec439eb7dbc95fd2f8b5fed8362fcc0eb38237fc5"}, "docker": "quay.io/biocontainers/anise_basil", "aliases": {"anise": "/usr/local/bin/anise", "basil": "/usr/local/bin/basil", "filter_basil.py": "/usr/local/bin/filter_basil.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/anise_basil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anise_basil", "latest": {"1.2.0--py312hdcc493e_9": "sha256:ad3da57412aa2e94bdac6c00fbecf0fc7f932acdfb5087ed0b67ad900aaf1d45"}, "tags": {"1.2.0--py36hcb2eddc_3": "sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12", "1.2.0--py39h1442aad_6": "sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7", "1.2.0--py38h529b8a6_6": "sha256:20effeb6391a1d1b7faecfd4d091dcc95170607a60b4b1b650fcac37725d292b", "1.2.0--py310h9da9059_7": "sha256:be72c835025b2170c36b2c06a5edf196137ce9fad38c1eb4a6fb01c631220188", "1.2.0--py312hc60241a_8": "sha256:e6141624c4f5843d660e53fec439eb7dbc95fd2f8b5fed8362fcc0eb38237fc5", "1.2.0--py312hdcc493e_9": "sha256:ad3da57412aa2e94bdac6c00fbecf0fc7f932acdfb5087ed0b67ad900aaf1d45"}, "docker": "quay.io/biocontainers/anise_basil", "aliases": {"anise": "/usr/local/bin/anise", "basil": "/usr/local/bin/basil", "filter_basil.py": "/usr/local/bin/filter_basil.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anise_basil.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/anise_basil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anise_basil:1.2.0--py312hc60241a_8
+$ shpc install quay.io/biocontainers/anise_basil:1.2.0--py312hdcc493e_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anise_basil/1.2.0--py312hc60241a_8
-$ module help quay.io/biocontainers/anise_basil/1.2.0--py312hc60241a_8
+$ module load quay.io/biocontainers/anise_basil/1.2.0--py312hdcc493e_9
+$ module help quay.io/biocontainers/anise_basil/1.2.0--py312hdcc493e_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

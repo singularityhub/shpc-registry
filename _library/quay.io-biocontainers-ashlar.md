@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ashlar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ashlar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ashlar/container.yaml"
-updated_at: "2024-12-18 03:17:32.985431"
-latest: "1.18.0--pyhdfd78af_0"
+updated_at: "2024-12-19 03:18:28.644863"
+latest: "1.19.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ashlar"
 aliases:
  - "aomdec"
@@ -44,8 +44,9 @@ aliases:
 versions:
  - "1.17.0--pyh5e36f6f_0"
  - "1.18.0--pyhdfd78af_0"
+ - "1.19.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ashlar"
-config: {"url": "https://biocontainers.pro/tools/ashlar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ashlar", "latest": {"1.18.0--pyhdfd78af_0": "sha256:bd4a90ea2e63963e192ebb036fba6a9fac161710bf5c558ed2819ff48993e6b3"}, "tags": {"1.17.0--pyh5e36f6f_0": "sha256:36a3d5238d4d076ed512c9b0e6e129593cc562f1c17691fbb027a6d11aa0b389", "1.18.0--pyhdfd78af_0": "sha256:bd4a90ea2e63963e192ebb036fba6a9fac161710bf5c558ed2819ff48993e6b3"}, "docker": "quay.io/biocontainers/ashlar", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "ashlar": "/usr/local/bin/ashlar", "dav1d": "/usr/local/bin/dav1d", "make_alignment_movie": "/usr/local/bin/make_alignment_movie", "preview_slide": "/usr/local/bin/preview_slide", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
+config: {"url": "https://biocontainers.pro/tools/ashlar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ashlar", "latest": {"1.19.0--pyhdfd78af_0": "sha256:a19579f52dc2bff47dcbe955193acf11d1cd8605410b54d97b9c8836e8610274"}, "tags": {"1.17.0--pyh5e36f6f_0": "sha256:36a3d5238d4d076ed512c9b0e6e129593cc562f1c17691fbb027a6d11aa0b389", "1.18.0--pyhdfd78af_0": "sha256:bd4a90ea2e63963e192ebb036fba6a9fac161710bf5c558ed2819ff48993e6b3", "1.19.0--pyhdfd78af_0": "sha256:a19579f52dc2bff47dcbe955193acf11d1cd8605410b54d97b9c8836e8610274"}, "docker": "quay.io/biocontainers/ashlar", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "ashlar": "/usr/local/bin/ashlar", "dav1d": "/usr/local/bin/dav1d", "make_alignment_movie": "/usr/local/bin/make_alignment_movie", "preview_slide": "/usr/local/bin/preview_slide", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ashlar.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/ashlar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ashlar:1.18.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ashlar:1.19.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ashlar/1.18.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ashlar/1.18.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ashlar/1.19.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ashlar/1.19.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

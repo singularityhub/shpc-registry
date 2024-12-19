@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcf2bed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf2bed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf2bed/container.yaml"
-updated_at: "2024-12-18 03:17:40.172579"
+updated_at: "2024-12-19 03:18:35.741158"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/gvcf2bed"
 aliases:

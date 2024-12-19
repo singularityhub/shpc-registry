@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/newick_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newick_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newick_utils/container.yaml"
-updated_at: "2024-12-18 03:05:19.474586"
-latest: "1.6--h0a39f1a_8"
+updated_at: "2024-12-19 03:06:06.012393"
+latest: "1.6--hd747bf3_9"
 container_url: "https://biocontainers.pro/tools/newick_utils"
 aliases:
  - "nw_clade"
@@ -30,8 +30,9 @@ versions:
  - "1.6--hec16e2b_5"
  - "1.6--h031d066_7"
  - "1.6--h0a39f1a_8"
+ - "1.6--hd747bf3_9"
 description: "shpc-registry automated BioContainers addition for newick_utils"
-config: {"url": "https://biocontainers.pro/tools/newick_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newick_utils", "latest": {"1.6--h0a39f1a_8": "sha256:b565666a365b2f163800c6b3ee27cae3c2a44144a0ea3529f3b203b0cded0649"}, "tags": {"1.6--hec16e2b_5": "sha256:9bc5359a806cb9d07e0c41d5a9445321c2765a309b6564a0d5482307420c8d76", "1.6--h031d066_7": "sha256:14b7b2cc7069cfc8d9ab0dfba0964e5fb5ac4eecbb1aa518c98b12c824c3b410", "1.6--h0a39f1a_8": "sha256:b565666a365b2f163800c6b3ee27cae3c2a44144a0ea3529f3b203b0cded0649"}, "docker": "quay.io/biocontainers/newick_utils", "aliases": {"nw_clade": "/usr/local/bin/nw_clade", "nw_condense": "/usr/local/bin/nw_condense", "nw_display": "/usr/local/bin/nw_display", "nw_distance": "/usr/local/bin/nw_distance", "nw_duration": "/usr/local/bin/nw_duration", "nw_ed": "/usr/local/bin/nw_ed", "nw_gen": "/usr/local/bin/nw_gen", "nw_indent": "/usr/local/bin/nw_indent", "nw_labels": "/usr/local/bin/nw_labels", "nw_match": "/usr/local/bin/nw_match", "nw_order": "/usr/local/bin/nw_order", "nw_prune": "/usr/local/bin/nw_prune", "nw_rename": "/usr/local/bin/nw_rename", "nw_reroot": "/usr/local/bin/nw_reroot", "nw_stats": "/usr/local/bin/nw_stats", "nw_support": "/usr/local/bin/nw_support", "nw_topology": "/usr/local/bin/nw_topology", "nw_trim": "/usr/local/bin/nw_trim"}}
+config: {"url": "https://biocontainers.pro/tools/newick_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newick_utils", "latest": {"1.6--hd747bf3_9": "sha256:72f5a3b57fc5842cb4e17352cc19ad799b67af33ee1c4d16d63ae8518aef97c0"}, "tags": {"1.6--hec16e2b_5": "sha256:9bc5359a806cb9d07e0c41d5a9445321c2765a309b6564a0d5482307420c8d76", "1.6--h031d066_7": "sha256:14b7b2cc7069cfc8d9ab0dfba0964e5fb5ac4eecbb1aa518c98b12c824c3b410", "1.6--h0a39f1a_8": "sha256:b565666a365b2f163800c6b3ee27cae3c2a44144a0ea3529f3b203b0cded0649", "1.6--hd747bf3_9": "sha256:72f5a3b57fc5842cb4e17352cc19ad799b67af33ee1c4d16d63ae8518aef97c0"}, "docker": "quay.io/biocontainers/newick_utils", "aliases": {"nw_clade": "/usr/local/bin/nw_clade", "nw_condense": "/usr/local/bin/nw_condense", "nw_display": "/usr/local/bin/nw_display", "nw_distance": "/usr/local/bin/nw_distance", "nw_duration": "/usr/local/bin/nw_duration", "nw_ed": "/usr/local/bin/nw_ed", "nw_gen": "/usr/local/bin/nw_gen", "nw_indent": "/usr/local/bin/nw_indent", "nw_labels": "/usr/local/bin/nw_labels", "nw_match": "/usr/local/bin/nw_match", "nw_order": "/usr/local/bin/nw_order", "nw_prune": "/usr/local/bin/nw_prune", "nw_rename": "/usr/local/bin/nw_rename", "nw_reroot": "/usr/local/bin/nw_reroot", "nw_stats": "/usr/local/bin/nw_stats", "nw_support": "/usr/local/bin/nw_support", "nw_topology": "/usr/local/bin/nw_topology", "nw_trim": "/usr/local/bin/nw_trim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/newick_utils.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/newick_utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/newick_utils:1.6--h0a39f1a_8
+$ shpc install quay.io/biocontainers/newick_utils:1.6--hd747bf3_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/newick_utils/1.6--h0a39f1a_8
-$ module help quay.io/biocontainers/newick_utils/1.6--h0a39f1a_8
+$ module load quay.io/biocontainers/newick_utils/1.6--hd747bf3_9
+$ module help quay.io/biocontainers/newick_utils/1.6--hd747bf3_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geuvadistranscriptexpr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/container.yaml"
-updated_at: "2024-12-18 03:29:54.156738"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-19 03:30:32.163958"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geuvadistranscriptexpr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geuvadistranscriptexpr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geuvadistranscriptexpr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geuvadistranscriptexpr", "latest": {"1.30.0--r43hdfd78af_0": "sha256:78d2ef4001b8d24b58423d29aa7c258c4da25969e606090e0a6a7b7c3b60eb4a"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:81dca2db2783d0e7659b4b8b069e298b4d72034ace522f7c7f0979b4260d1c73", "1.25.0--r42hdfd78af_0": "sha256:576a295de248dacdf096357103a163bdedc1fabb8afd95b6f9a34d900756a7b4", "1.28.0--r43hdfd78af_0": "sha256:60474034d6562e3f611779050bad6d2dc23544143ec5d92fc597fce5fba0c8fc", "1.30.0--r43hdfd78af_0": "sha256:78d2ef4001b8d24b58423d29aa7c258c4da25969e606090e0a6a7b7c3b60eb4a"}, "docker": "quay.io/biocontainers/bioconductor-geuvadistranscriptexpr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geuvadistranscriptexpr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geuvadistranscriptexpr", "latest": {"1.34.0--r44hdfd78af_0": "sha256:86016ced2ada3874561ca0e5f09884d6653597cc8c3460ba8cd68be18384a816"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:81dca2db2783d0e7659b4b8b069e298b4d72034ace522f7c7f0979b4260d1c73", "1.25.0--r42hdfd78af_0": "sha256:576a295de248dacdf096357103a163bdedc1fabb8afd95b6f9a34d900756a7b4", "1.28.0--r43hdfd78af_0": "sha256:60474034d6562e3f611779050bad6d2dc23544143ec5d92fc597fce5fba0c8fc", "1.30.0--r43hdfd78af_0": "sha256:78d2ef4001b8d24b58423d29aa7c258c4da25969e606090e0a6a7b7c3b60eb4a", "1.34.0--r44hdfd78af_0": "sha256:86016ced2ada3874561ca0e5f09884d6653597cc8c3460ba8cd68be18384a816"}, "docker": "quay.io/biocontainers/bioconductor-geuvadistranscriptexpr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geuvadistranscriptexpr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geuvadistranscriptexpr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geuvadistranscriptexpr:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geuvadistranscriptexpr:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

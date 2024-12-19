@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-xina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xina/container.yaml"
-updated_at: "2024-12-18 03:00:48.113891"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-12-19 03:01:32.310330"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xina"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xina"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xina", "latest": {"1.20.0--r43hdfd78af_0": "sha256:ef24bbf8d5a13e30f483d49b3e09e0bbef6e568f74ef00b5e6f124c1ee1013a5"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6", "1.16.0--r42hdfd78af_0": "sha256:e897bee45671cbcdd3a8578db9a51a693b179f97a55df4848579016a67f94e79", "1.12.0--r41hdfd78af_0": "sha256:fc662f1d874e40ddf90bcf9e91e90abfea85a079c3aab4d6d0529d934eec11ec", "1.10.0--r41hdfd78af_0": "sha256:75460d1aa403fdbc398008293322de447bdb08bfb2b25281690ef8a82553ca7e", "1.18.0--r43hdfd78af_0": "sha256:7c774658827b01f0b9f319cdb3fdb658cc974633a8dd56f2edba099a6157c5b5", "1.20.0--r43hdfd78af_0": "sha256:ef24bbf8d5a13e30f483d49b3e09e0bbef6e568f74ef00b5e6f124c1ee1013a5"}, "docker": "quay.io/biocontainers/bioconductor-xina", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xina", "latest": {"1.24.0--r44hdfd78af_0": "sha256:e170ab637e07a4dbe69b02517b57b371aff2d38d6212667a26ce873a277a5149"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6", "1.16.0--r42hdfd78af_0": "sha256:e897bee45671cbcdd3a8578db9a51a693b179f97a55df4848579016a67f94e79", "1.12.0--r41hdfd78af_0": "sha256:fc662f1d874e40ddf90bcf9e91e90abfea85a079c3aab4d6d0529d934eec11ec", "1.10.0--r41hdfd78af_0": "sha256:75460d1aa403fdbc398008293322de447bdb08bfb2b25281690ef8a82553ca7e", "1.18.0--r43hdfd78af_0": "sha256:7c774658827b01f0b9f319cdb3fdb658cc974633a8dd56f2edba099a6157c5b5", "1.20.0--r43hdfd78af_0": "sha256:ef24bbf8d5a13e30f483d49b3e09e0bbef6e568f74ef00b5e6f124c1ee1013a5", "1.24.0--r44hdfd78af_0": "sha256:e170ab637e07a4dbe69b02517b57b371aff2d38d6212667a26ce873a277a5149"}, "docker": "quay.io/biocontainers/bioconductor-xina", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xina.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xina
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xina:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-xina:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xina/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-xina/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-xina/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-xina/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

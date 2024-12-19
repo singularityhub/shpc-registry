@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/graphtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphtyper/container.yaml"
-updated_at: "2024-12-18 03:02:33.961979"
-latest: "2.7.7--hcd8136e_0"
+updated_at: "2024-12-19 03:03:19.182815"
+latest: "2.7.7--h7594796_1"
 container_url: "https://biocontainers.pro/tools/graphtyper"
 aliases:
  - "graphtyper"
 versions:
  - "2.7.2--h468198e_1"
  - "2.7.7--hcd8136e_0"
+ - "2.7.7--h7594796_1"
 description: "shpc-registry automated BioContainers addition for graphtyper"
-config: {"url": "https://biocontainers.pro/tools/graphtyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphtyper", "latest": {"2.7.7--hcd8136e_0": "sha256:65cd1f2a9790a78d9aee9840dcb2fc13f1e7e844adbf3836c3450345c6b0c112"}, "tags": {"2.7.2--h468198e_1": "sha256:460157e9b228d9286bcf3a1d0169d6a25c7a46b3e651734adefadfe8ed428b12", "2.7.7--hcd8136e_0": "sha256:65cd1f2a9790a78d9aee9840dcb2fc13f1e7e844adbf3836c3450345c6b0c112"}, "docker": "quay.io/biocontainers/graphtyper", "aliases": {"graphtyper": "/usr/local/bin/graphtyper"}}
+config: {"url": "https://biocontainers.pro/tools/graphtyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphtyper", "latest": {"2.7.7--h7594796_1": "sha256:8ca98d309ad8d6b2ce18ec664fb82952bb1dec14520240d455c3315447576780"}, "tags": {"2.7.2--h468198e_1": "sha256:460157e9b228d9286bcf3a1d0169d6a25c7a46b3e651734adefadfe8ed428b12", "2.7.7--hcd8136e_0": "sha256:65cd1f2a9790a78d9aee9840dcb2fc13f1e7e844adbf3836c3450345c6b0c112", "2.7.7--h7594796_1": "sha256:8ca98d309ad8d6b2ce18ec664fb82952bb1dec14520240d455c3315447576780"}, "docker": "quay.io/biocontainers/graphtyper", "aliases": {"graphtyper": "/usr/local/bin/graphtyper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphtyper.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/graphtyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphtyper:2.7.7--hcd8136e_0
+$ shpc install quay.io/biocontainers/graphtyper:2.7.7--h7594796_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphtyper/2.7.7--hcd8136e_0
-$ module help quay.io/biocontainers/graphtyper/2.7.7--hcd8136e_0
+$ module load quay.io/biocontainers/graphtyper/2.7.7--h7594796_1
+$ module help quay.io/biocontainers/graphtyper/2.7.7--h7594796_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

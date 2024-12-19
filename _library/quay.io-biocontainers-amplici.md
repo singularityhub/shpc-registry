@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/amplici"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplici/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplici/container.yaml"
-updated_at: "2024-12-18 03:17:57.804787"
-latest: "2.2--hd50232a_0"
+updated_at: "2024-12-19 03:18:52.953986"
+latest: "2.2--h2555670_1"
 container_url: "https://biocontainers.pro/tools/amplici"
 aliases:
  - "run_AmpliCI"
 versions:
  - "2.2--hd50232a_0"
+ - "2.2--h2555670_1"
 description: "singularity registry hpc automated addition for amplici"
-config: {"url": "https://biocontainers.pro/tools/amplici", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplici", "latest": {"2.2--hd50232a_0": "sha256:e48a24dabce073d0a224eab3c28a208ada53900e1944cec2c1d8c931e97377b0"}, "tags": {"2.2--hd50232a_0": "sha256:e48a24dabce073d0a224eab3c28a208ada53900e1944cec2c1d8c931e97377b0"}, "docker": "quay.io/biocontainers/amplici", "aliases": {"run_AmpliCI": "/usr/local/bin/run_AmpliCI"}}
+config: {"url": "https://biocontainers.pro/tools/amplici", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplici", "latest": {"2.2--h2555670_1": "sha256:92b7babdd31b9139b57fbc3647a9f8cacca11944d438bb6a7770effed23af907"}, "tags": {"2.2--hd50232a_0": "sha256:e48a24dabce073d0a224eab3c28a208ada53900e1944cec2c1d8c931e97377b0", "2.2--h2555670_1": "sha256:92b7babdd31b9139b57fbc3647a9f8cacca11944d438bb6a7770effed23af907"}, "docker": "quay.io/biocontainers/amplici", "aliases": {"run_AmpliCI": "/usr/local/bin/run_AmpliCI"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplici.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/amplici
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amplici:2.2--hd50232a_0
+$ shpc install quay.io/biocontainers/amplici:2.2--h2555670_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amplici/2.2--hd50232a_0
-$ module help quay.io/biocontainers/amplici/2.2--hd50232a_0
+$ module load quay.io/biocontainers/amplici/2.2--h2555670_1
+$ module help quay.io/biocontainers/amplici/2.2--h2555670_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

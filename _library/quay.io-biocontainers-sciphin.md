@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sciphin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sciphin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sciphin/container.yaml"
-updated_at: "2024-12-18 03:03:52.553822"
-latest: "1.0.1--hdcf5f25_3"
+updated_at: "2024-12-19 03:04:38.523607"
+latest: "1.0.1--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/sciphin"
 aliases:
  - "sciphin"
@@ -13,8 +13,9 @@ versions:
  - "1.0.1--h7ff8a90_1"
  - "1.0.1--h21ec9f0_2"
  - "1.0.1--hdcf5f25_3"
+ - "1.0.1--h077b44d_4"
 description: "singularity registry hpc automated addition for sciphin"
-config: {"url": "https://biocontainers.pro/tools/sciphin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sciphin", "latest": {"1.0.1--hdcf5f25_3": "sha256:1c897d53eac4d95261f58b889a1a1f2ab5cd688e026e478c58a6300780fdf5e0"}, "tags": {"1.0.1--h7ff8a90_1": "sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171", "1.0.1--h21ec9f0_2": "sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6", "1.0.1--hdcf5f25_3": "sha256:1c897d53eac4d95261f58b889a1a1f2ab5cd688e026e478c58a6300780fdf5e0"}, "docker": "quay.io/biocontainers/sciphin", "aliases": {"sciphin": "/usr/local/bin/sciphin"}}
+config: {"url": "https://biocontainers.pro/tools/sciphin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sciphin", "latest": {"1.0.1--h077b44d_4": "sha256:abac69fee96d7f421d8fd37f11024aeea6f73ec73bcd3296555a00b4305ffee8"}, "tags": {"1.0.1--h7ff8a90_1": "sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171", "1.0.1--h21ec9f0_2": "sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6", "1.0.1--hdcf5f25_3": "sha256:1c897d53eac4d95261f58b889a1a1f2ab5cd688e026e478c58a6300780fdf5e0", "1.0.1--h077b44d_4": "sha256:abac69fee96d7f421d8fd37f11024aeea6f73ec73bcd3296555a00b4305ffee8"}, "docker": "quay.io/biocontainers/sciphin", "aliases": {"sciphin": "/usr/local/bin/sciphin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sciphin.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/sciphin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sciphin:1.0.1--hdcf5f25_3
+$ shpc install quay.io/biocontainers/sciphin:1.0.1--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sciphin/1.0.1--hdcf5f25_3
-$ module help quay.io/biocontainers/sciphin/1.0.1--hdcf5f25_3
+$ module load quay.io/biocontainers/sciphin/1.0.1--h077b44d_4
+$ module help quay.io/biocontainers/sciphin/1.0.1--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

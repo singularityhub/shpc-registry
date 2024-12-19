@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meta-apo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-apo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meta-apo/container.yaml"
-updated_at: "2024-12-18 03:40:13.629159"
+updated_at: "2024-12-19 03:40:47.577937"
 latest: "1.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/meta-apo"
 aliases:

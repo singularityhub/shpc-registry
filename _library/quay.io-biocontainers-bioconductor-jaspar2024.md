@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2024"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2024/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2024/container.yaml"
-updated_at: "2024-12-18 03:27:37.681029"
-latest: "0.99.6--r43hdfd78af_0"
+updated_at: "2024-12-19 03:28:21.914259"
+latest: "0.99.6--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2024"
 aliases:
  - "pcre2posix_test"
@@ -27,8 +27,9 @@ aliases:
  - "register-python-argcomplete"
 versions:
  - "0.99.6--r43hdfd78af_0"
+ - "0.99.6--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for bioconductor-jaspar2024"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2024", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-jaspar2024", "latest": {"0.99.6--r43hdfd78af_0": "sha256:125087b0a620d1ee57ac4374cc65276f9a51e4e5e2b85da50f469095a1b65fd6"}, "tags": {"0.99.6--r43hdfd78af_0": "sha256:125087b0a620d1ee57ac4374cc65276f9a51e4e5e2b85da50f469095a1b65fd6"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2024", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2024", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-jaspar2024", "latest": {"0.99.6--r44hdfd78af_1": "sha256:7365c80bcad4c440a9cb04a709cdf0757c1d1587b2b146b03b1a14ad09551988"}, "tags": {"0.99.6--r43hdfd78af_0": "sha256:125087b0a620d1ee57ac4374cc65276f9a51e4e5e2b85da50f469095a1b65fd6", "0.99.6--r44hdfd78af_1": "sha256:7365c80bcad4c440a9cb04a709cdf0757c1d1587b2b146b03b1a14ad09551988"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2024", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2024.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-jaspar2024
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-jaspar2024:0.99.6--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-jaspar2024:0.99.6--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-jaspar2024/0.99.6--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-jaspar2024/0.99.6--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-jaspar2024/0.99.6--r44hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-jaspar2024/0.99.6--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/manta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manta/container.yaml"
-updated_at: "2024-12-18 03:16:02.793917"
-latest: "1.6.0--h9ee0642_3"
+updated_at: "2024-12-19 03:16:57.802412"
+latest: "1.6.0--py27h9948957_4"
 container_url: "https://biocontainers.pro/tools/manta"
 aliases:
  - "configManta.py"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.6.0--h9ee0642_2"
  - "1.6.0--h9ee0642_3"
+ - "1.6.0--py27h9948957_4"
 description: "shpc-registry automated BioContainers addition for manta"
-config: {"url": "https://biocontainers.pro/tools/manta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for manta", "latest": {"1.6.0--h9ee0642_3": "sha256:9211cbbbf60d19aaef6e1bf4a97f5ee4035f6c7521bff596113bd67ab6042d58"}, "tags": {"1.6.0--h9ee0642_2": "sha256:021aabe5f7314e02e60722c559f6f3c4bb6b1118c2e2ec0eb3095a8c7e431f26", "1.6.0--h9ee0642_3": "sha256:9211cbbbf60d19aaef6e1bf4a97f5ee4035f6c7521bff596113bd67ab6042d58"}, "docker": "quay.io/biocontainers/manta", "aliases": {"configManta.py": "/usr/local/bin/configManta.py", "convertInversion.py": "/usr/local/bin/convertInversion.py", "denovo_scoring.py": "/usr/local/bin/denovo_scoring.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/manta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for manta", "latest": {"1.6.0--py27h9948957_4": "sha256:d44de1388f24d04da5f57ed6acf0c0790cdce38e91c7eb43fdce6853a3939143"}, "tags": {"1.6.0--h9ee0642_2": "sha256:021aabe5f7314e02e60722c559f6f3c4bb6b1118c2e2ec0eb3095a8c7e431f26", "1.6.0--h9ee0642_3": "sha256:9211cbbbf60d19aaef6e1bf4a97f5ee4035f6c7521bff596113bd67ab6042d58", "1.6.0--py27h9948957_4": "sha256:d44de1388f24d04da5f57ed6acf0c0790cdce38e91c7eb43fdce6853a3939143"}, "docker": "quay.io/biocontainers/manta", "aliases": {"configManta.py": "/usr/local/bin/configManta.py", "convertInversion.py": "/usr/local/bin/convertInversion.py", "denovo_scoring.py": "/usr/local/bin/denovo_scoring.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/manta.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/manta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/manta:1.6.0--h9ee0642_3
+$ shpc install quay.io/biocontainers/manta:1.6.0--py27h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/manta/1.6.0--h9ee0642_3
-$ module help quay.io/biocontainers/manta/1.6.0--h9ee0642_3
+$ module load quay.io/biocontainers/manta/1.6.0--py27h9948957_4
+$ module help quay.io/biocontainers/manta/1.6.0--py27h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

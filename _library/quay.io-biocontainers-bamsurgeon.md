@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamsurgeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamsurgeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamsurgeon/container.yaml"
-updated_at: "2024-12-18 03:17:31.276189"
+updated_at: "2024-12-19 03:18:26.938951"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamsurgeon"
 aliases:

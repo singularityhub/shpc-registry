@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnamarkmaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnamarkmaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnamarkmaker/container.yaml"
-updated_at: "2024-12-18 03:07:04.508763"
+updated_at: "2024-12-19 03:07:51.380979"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnamarkmaker"
 aliases:

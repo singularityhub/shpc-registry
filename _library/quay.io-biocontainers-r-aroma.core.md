@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-aroma.core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aroma.core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aroma.core/container.yaml"
-updated_at: "2024-12-18 03:23:31.825704"
-latest: "3.3.1--r43h3121a25_0"
+updated_at: "2024-12-19 03:24:22.417173"
+latest: "3.3.1--r44h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-aroma.core"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "3.2.2--r42h3121a25_2"
  - "3.3.0--r43h3121a25_1"
  - "3.3.1--r43h3121a25_0"
+ - "3.3.1--r44h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-aroma.core"
-config: {"url": "https://biocontainers.pro/tools/r-aroma.core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.core", "latest": {"3.3.1--r43h3121a25_0": "sha256:996d690387b67728311e3ed9501b3880491a6e96b4c653774e074fac587072d3"}, "tags": {"3.2.2--r41h3121a25_1": "sha256:99a2048cfa648bf013f4ac1e053d9c0db925aa0445e668fcf0ab45dee5b523b5", "3.3.0--r42h3121a25_0": "sha256:d44b3cd58199079c5a52d5f9aa3c79136d48406ade66ea8f792f741eee7d03e3", "3.2.2--r42h3121a25_2": "sha256:37b53a031ce27380cee6a5acdb1b3fd646f46fbea54ab22381344c9be22f294d", "3.3.0--r43h3121a25_1": "sha256:5b5517a6eb8667fc4d5e88a337008633d3fe040f65a37904e36907fc2da57b91", "3.3.1--r43h3121a25_0": "sha256:996d690387b67728311e3ed9501b3880491a6e96b4c653774e074fac587072d3"}, "docker": "quay.io/biocontainers/r-aroma.core", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-aroma.core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.core", "latest": {"3.3.1--r44h3121a25_1": "sha256:04b8f61566bc5a7d90ecdf095d1cc0b7de0bf8390662f59e39ebd968b0fe78cf"}, "tags": {"3.2.2--r41h3121a25_1": "sha256:99a2048cfa648bf013f4ac1e053d9c0db925aa0445e668fcf0ab45dee5b523b5", "3.3.0--r42h3121a25_0": "sha256:d44b3cd58199079c5a52d5f9aa3c79136d48406ade66ea8f792f741eee7d03e3", "3.2.2--r42h3121a25_2": "sha256:37b53a031ce27380cee6a5acdb1b3fd646f46fbea54ab22381344c9be22f294d", "3.3.0--r43h3121a25_1": "sha256:5b5517a6eb8667fc4d5e88a337008633d3fe040f65a37904e36907fc2da57b91", "3.3.1--r43h3121a25_0": "sha256:996d690387b67728311e3ed9501b3880491a6e96b4c653774e074fac587072d3", "3.3.1--r44h3121a25_1": "sha256:04b8f61566bc5a7d90ecdf095d1cc0b7de0bf8390662f59e39ebd968b0fe78cf"}, "docker": "quay.io/biocontainers/r-aroma.core", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-aroma.core.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-aroma.core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-aroma.core:3.3.1--r43h3121a25_0
+$ shpc install quay.io/biocontainers/r-aroma.core:3.3.1--r44h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-aroma.core/3.3.1--r43h3121a25_0
-$ module help quay.io/biocontainers/r-aroma.core/3.3.1--r43h3121a25_0
+$ module load quay.io/biocontainers/r-aroma.core/3.3.1--r44h3121a25_1
+$ module help quay.io/biocontainers/r-aroma.core/3.3.1--r44h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

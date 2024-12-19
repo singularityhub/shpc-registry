@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-receptloss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
-updated_at: "2024-12-18 03:29:19.590453"
+updated_at: "2024-12-19 03:29:59.088729"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-receptloss"
 
@@ -14,7 +14,7 @@ versions:
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-receptloss"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.14.0--r43hdfd78af_0": "sha256:95b67300a5a1c5f61cfedb6481380fb6313b15cecc730ea45ff1e3b098399f1e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c", "1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2", "1.14.0--r43hdfd78af_0": "sha256:95b67300a5a1c5f61cfedb6481380fb6313b15cecc730ea45ff1e3b098399f1e"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.14.0--r43hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-receptloss:1.14.0--r43hdfd78af_0: unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c", "1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2", "1.14.0--r43hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-receptloss:1.14.0--r43hdfd78af_0: unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-receptloss.

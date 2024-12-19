@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cofold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cofold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cofold/container.yaml"
-updated_at: "2024-12-18 03:08:20.230424"
-latest: "2.0.4--hdbdd923_7"
+updated_at: "2024-12-19 03:09:07.951343"
+latest: "2.0.4--h503566f_8"
 container_url: "https://biocontainers.pro/tools/cofold"
 aliases:
  - "CoFold"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.0.4--h87f3376_5"
  - "2.0.4--hdbdd923_7"
+ - "2.0.4--h503566f_8"
 description: "shpc-registry automated BioContainers addition for cofold"
-config: {"url": "https://biocontainers.pro/tools/cofold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cofold", "latest": {"2.0.4--hdbdd923_7": "sha256:0762c8248e925c27eaf086540b9ddbf41bb11e507fcd5cce8d688d962fd5b619"}, "tags": {"2.0.4--h87f3376_5": "sha256:b8d24b29b655a4913369e0b1374ae15d10015d7953f49ed582f5bc616baaaacb", "2.0.4--hdbdd923_7": "sha256:0762c8248e925c27eaf086540b9ddbf41bb11e507fcd5cce8d688d962fd5b619"}, "docker": "quay.io/biocontainers/cofold", "aliases": {"CoFold": "/usr/local/bin/CoFold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
+config: {"url": "https://biocontainers.pro/tools/cofold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cofold", "latest": {"2.0.4--h503566f_8": "sha256:0cc8adec6a085b207494f6f37838eff2304a1b700bc92eb5fc387053ad63a9ae"}, "tags": {"2.0.4--h87f3376_5": "sha256:b8d24b29b655a4913369e0b1374ae15d10015d7953f49ed582f5bc616baaaacb", "2.0.4--hdbdd923_7": "sha256:0762c8248e925c27eaf086540b9ddbf41bb11e507fcd5cce8d688d962fd5b619", "2.0.4--h503566f_8": "sha256:0cc8adec6a085b207494f6f37838eff2304a1b700bc92eb5fc387053ad63a9ae"}, "docker": "quay.io/biocontainers/cofold", "aliases": {"CoFold": "/usr/local/bin/CoFold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cofold.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cofold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cofold:2.0.4--hdbdd923_7
+$ shpc install quay.io/biocontainers/cofold:2.0.4--h503566f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cofold/2.0.4--hdbdd923_7
-$ module help quay.io/biocontainers/cofold/2.0.4--hdbdd923_7
+$ module load quay.io/biocontainers/cofold/2.0.4--h503566f_8
+$ module help quay.io/biocontainers/cofold/2.0.4--h503566f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

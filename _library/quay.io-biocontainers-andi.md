@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/andi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/andi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/andi/container.yaml"
-updated_at: "2024-12-18 03:36:19.514530"
-latest: "0.14--h47df53c_1"
+updated_at: "2024-12-19 03:36:45.814903"
+latest: "0.14--hfc2f157_2"
 container_url: "https://biocontainers.pro/tools/andi"
 aliases:
  - "andi"
@@ -15,8 +15,9 @@ versions:
  - "0.13--h082502c_4"
  - "0.14--h082502c_0"
  - "0.14--h47df53c_1"
+ - "0.14--hfc2f157_2"
 description: "shpc-registry automated BioContainers addition for andi"
-config: {"url": "https://biocontainers.pro/tools/andi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for andi", "latest": {"0.14--h47df53c_1": "sha256:b726cc7b9f9fa82aa1639f2fb7ac9eabda328a64966e7589ad6111546077fba2"}, "tags": {"0.13--hcde4609_3": "sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428", "0.13--h082502c_4": "sha256:a1e26a176a651eebc2ba2267e759a1cba2f5b22d34f9a7a2f28dd344bb1942a0", "0.14--h082502c_0": "sha256:789fce03d991fcd93122fc820eab76f2b674620a29a66b579fb1c5e3fc4cdfac", "0.14--h47df53c_1": "sha256:b726cc7b9f9fa82aa1639f2fb7ac9eabda328a64966e7589ad6111546077fba2"}, "docker": "quay.io/biocontainers/andi", "aliases": {"andi": "/usr/local/bin/andi", "gsl-randist": "/usr/local/bin/gsl-randist"}}
+config: {"url": "https://biocontainers.pro/tools/andi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for andi", "latest": {"0.14--hfc2f157_2": "sha256:9770a8ea2ab0fb587345d161ea34f5c7ff99367f576d33c0db7e2ef7488b2f22"}, "tags": {"0.13--hcde4609_3": "sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428", "0.13--h082502c_4": "sha256:a1e26a176a651eebc2ba2267e759a1cba2f5b22d34f9a7a2f28dd344bb1942a0", "0.14--h082502c_0": "sha256:789fce03d991fcd93122fc820eab76f2b674620a29a66b579fb1c5e3fc4cdfac", "0.14--h47df53c_1": "sha256:b726cc7b9f9fa82aa1639f2fb7ac9eabda328a64966e7589ad6111546077fba2", "0.14--hfc2f157_2": "sha256:9770a8ea2ab0fb587345d161ea34f5c7ff99367f576d33c0db7e2ef7488b2f22"}, "docker": "quay.io/biocontainers/andi", "aliases": {"andi": "/usr/local/bin/andi", "gsl-randist": "/usr/local/bin/gsl-randist"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/andi.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/andi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/andi:0.14--h47df53c_1
+$ shpc install quay.io/biocontainers/andi:0.14--hfc2f157_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/andi/0.14--h47df53c_1
-$ module help quay.io/biocontainers/andi/0.14--h47df53c_1
+$ module load quay.io/biocontainers/andi/0.14--hfc2f157_2
+$ module help quay.io/biocontainers/andi/0.14--hfc2f157_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

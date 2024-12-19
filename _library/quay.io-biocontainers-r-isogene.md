@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-isogene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-isogene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-isogene/container.yaml"
-updated_at: "2024-12-18 03:28:42.532647"
-latest: "1.0_24--r43h3342da4_7"
+updated_at: "2024-12-19 03:29:23.915589"
+latest: "1.0_24--r44h3342da4_8"
 container_url: "https://biocontainers.pro/tools/r-isogene"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.0_24--r41h3342da4_5"
  - "1.0_24--r42h3342da4_6"
  - "1.0_24--r43h3342da4_7"
+ - "1.0_24--r44h3342da4_8"
 description: "shpc-registry automated BioContainers addition for r-isogene"
-config: {"url": "https://biocontainers.pro/tools/r-isogene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-isogene", "latest": {"1.0_24--r43h3342da4_7": "sha256:15b771775fcafa509c855516ced761ad4229542aabe10d19aeed0c3304ef028e"}, "tags": {"1.0_24--r41h3342da4_5": "sha256:1ed6ea6b917ccca7ac38a8f095bf8db9b441c9b19c1802c99c7248adb44c2a68", "1.0_24--r42h3342da4_6": "sha256:a525b99984c1b83904c9870c7e8b3efd509a123c30aebc04b85e3e14cb468da5", "1.0_24--r43h3342da4_7": "sha256:15b771775fcafa509c855516ced761ad4229542aabe10d19aeed0c3304ef028e"}, "docker": "quay.io/biocontainers/r-isogene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-isogene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-isogene", "latest": {"1.0_24--r44h3342da4_8": "sha256:57b807c5bb4bb38daa23ddb0fdc3df4f1f65319a83bc5ea2ae444c795df24b5a"}, "tags": {"1.0_24--r41h3342da4_5": "sha256:1ed6ea6b917ccca7ac38a8f095bf8db9b441c9b19c1802c99c7248adb44c2a68", "1.0_24--r42h3342da4_6": "sha256:a525b99984c1b83904c9870c7e8b3efd509a123c30aebc04b85e3e14cb468da5", "1.0_24--r43h3342da4_7": "sha256:15b771775fcafa509c855516ced761ad4229542aabe10d19aeed0c3304ef028e", "1.0_24--r44h3342da4_8": "sha256:57b807c5bb4bb38daa23ddb0fdc3df4f1f65319a83bc5ea2ae444c795df24b5a"}, "docker": "quay.io/biocontainers/r-isogene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-isogene.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-isogene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-isogene:1.0_24--r43h3342da4_7
+$ shpc install quay.io/biocontainers/r-isogene:1.0_24--r44h3342da4_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-isogene/1.0_24--r43h3342da4_7
-$ module help quay.io/biocontainers/r-isogene/1.0_24--r43h3342da4_7
+$ module load quay.io/biocontainers/r-isogene/1.0_24--r44h3342da4_8
+$ module help quay.io/biocontainers/r-isogene/1.0_24--r44h3342da4_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

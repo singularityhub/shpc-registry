@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bloocoo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bloocoo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bloocoo/container.yaml"
-updated_at: "2024-12-18 02:59:15.554711"
-latest: "1.0.7--h43eeafb_6"
+updated_at: "2024-12-19 02:59:58.045318"
+latest: "1.0.7--h5ca1c30_7"
 container_url: "https://biocontainers.pro/tools/bloocoo"
 aliases:
  - "Bloocoo"
 versions:
  - "1.0.7--h5b5514e_4"
  - "1.0.7--h43eeafb_6"
+ - "1.0.7--h5ca1c30_7"
 description: "shpc-registry automated BioContainers addition for bloocoo"
-config: {"url": "https://biocontainers.pro/tools/bloocoo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bloocoo", "latest": {"1.0.7--h43eeafb_6": "sha256:8c58cc0eed5796be1b11dd5665db5f9834fd5ff15e22685cfc66c900c32600f8"}, "tags": {"1.0.7--h5b5514e_4": "sha256:fd7227f98530192666b8d92564d34893e6216fcc8fc532e24aba5596ce76a84b", "1.0.7--h43eeafb_6": "sha256:8c58cc0eed5796be1b11dd5665db5f9834fd5ff15e22685cfc66c900c32600f8"}, "docker": "quay.io/biocontainers/bloocoo", "aliases": {"Bloocoo": "/usr/local/bin/Bloocoo"}}
+config: {"url": "https://biocontainers.pro/tools/bloocoo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bloocoo", "latest": {"1.0.7--h5ca1c30_7": "sha256:cfe72f1e809a6bd240040c4eb5d226855628ec9a00585e3465dc3cc7d62ec92c"}, "tags": {"1.0.7--h5b5514e_4": "sha256:fd7227f98530192666b8d92564d34893e6216fcc8fc532e24aba5596ce76a84b", "1.0.7--h43eeafb_6": "sha256:8c58cc0eed5796be1b11dd5665db5f9834fd5ff15e22685cfc66c900c32600f8", "1.0.7--h5ca1c30_7": "sha256:cfe72f1e809a6bd240040c4eb5d226855628ec9a00585e3465dc3cc7d62ec92c"}, "docker": "quay.io/biocontainers/bloocoo", "aliases": {"Bloocoo": "/usr/local/bin/Bloocoo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bloocoo.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bloocoo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bloocoo:1.0.7--h43eeafb_6
+$ shpc install quay.io/biocontainers/bloocoo:1.0.7--h5ca1c30_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bloocoo/1.0.7--h43eeafb_6
-$ module help quay.io/biocontainers/bloocoo/1.0.7--h43eeafb_6
+$ module load quay.io/biocontainers/bloocoo/1.0.7--h5ca1c30_7
+$ module help quay.io/biocontainers/bloocoo/1.0.7--h5ca1c30_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miniprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot/container.yaml"
-updated_at: "2024-12-18 03:26:31.742722"
+updated_at: "2024-12-19 03:27:17.089395"
 latest: "0.13--he4a0461_1"
 container_url: "https://biocontainers.pro/tools/miniprot"
 aliases:

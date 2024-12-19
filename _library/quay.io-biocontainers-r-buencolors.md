@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-buencolors"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-buencolors/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-buencolors/container.yaml"
-updated_at: "2024-12-18 03:37:51.729494"
-latest: "0.5.6--r43hdfd78af_0"
+updated_at: "2024-12-19 03:38:21.327717"
+latest: "0.5.6--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-buencolors"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "0.5.6--r43hdfd78af_0"
+ - "0.5.6--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for r-buencolors"
-config: {"url": "https://biocontainers.pro/tools/r-buencolors", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-buencolors", "latest": {"0.5.6--r43hdfd78af_0": "sha256:88d7d0f064f2a11c05d6084c89521d30a24e732a610f917fcdcf67ed7e2c2196"}, "tags": {"0.5.6--r43hdfd78af_0": "sha256:88d7d0f064f2a11c05d6084c89521d30a24e732a610f917fcdcf67ed7e2c2196"}, "docker": "quay.io/biocontainers/r-buencolors", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-buencolors", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-buencolors", "latest": {"0.5.6--r44hdfd78af_1": "sha256:5e4676d8aedc6ea09806c2a0b2bfa3fe3154a41585de1e4d315946b255017236"}, "tags": {"0.5.6--r43hdfd78af_0": "sha256:88d7d0f064f2a11c05d6084c89521d30a24e732a610f917fcdcf67ed7e2c2196", "0.5.6--r44hdfd78af_1": "sha256:5e4676d8aedc6ea09806c2a0b2bfa3fe3154a41585de1e4d315946b255017236"}, "docker": "quay.io/biocontainers/r-buencolors", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-buencolors.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-buencolors
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-buencolors:0.5.6--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-buencolors:0.5.6--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-buencolors/0.5.6--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-buencolors/0.5.6--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-buencolors/0.5.6--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-buencolors/0.5.6--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
