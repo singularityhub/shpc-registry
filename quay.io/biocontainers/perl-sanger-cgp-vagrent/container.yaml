@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-sanger-cgp-vagrent
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-sanger-cgp-vagrent
 latest:
-  3.7.0--pl5321h031d066_2: sha256:f34e6dd505ed2144019dddbce8b65f498ed73bb404a85c97c8cfe4a1ebeb1f67
+  3.7.0--pl5321h7b50bb2_3: sha256:9d0429fca0aa9c98da336b2558010746d0ebd9e5d095a89bd29092416aca8108
 tags:
   3.7.0--pl5321hec16e2b_1: sha256:21b665ffd2368e55f31813e904c17d6f23490bdb1524424d79f1c89e719bc207
   3.7.0--pl5321h031d066_2: sha256:f34e6dd505ed2144019dddbce8b65f498ed73bb404a85c97c8cfe4a1ebeb1f67
+  3.7.0--pl5321h7b50bb2_3: sha256:9d0429fca0aa9c98da336b2558010746d0ebd9e5d095a89bd29092416aca8108
 docker: quay.io/biocontainers/perl-sanger-cgp-vagrent
 aliases:
   Admin_CacheFileBuilder.pl: /usr/local/bin/Admin_CacheFileBuilder.pl

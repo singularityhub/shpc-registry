@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-minionqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-minionqc
 latest:
-  1.4.2--r43hdfd78af_4: sha256:4378201aab8adeda538754c91bafe349dbd6247c24bb7ce2b614f35921087ad1
+  1.4.2--r44hdfd78af_5: sha256:05122dcc03053245dc879b7c302f55b6c258069a32ae2c9ec681026dd2d49de4
 tags:
   1.4.2--r41hdfd78af_2: sha256:8d3880d789076b195c107ec2c37c995e47d8f4b392b1157b9ec5fe5110fd455b
   1.4.2--r42hdfd78af_3: sha256:739e9022bb4669c1dc689eb9e7100c290652424187a74a70c37b5d74c1baf0d8
   1.4.2--r43hdfd78af_4: sha256:4378201aab8adeda538754c91bafe349dbd6247c24bb7ce2b614f35921087ad1
+  1.4.2--r44hdfd78af_5: sha256:05122dcc03053245dc879b7c302f55b6c258069a32ae2c9ec681026dd2d49de4
 docker: quay.io/biocontainers/r-minionqc
 aliases:
   MinIONQC.R: /usr/local/bin/MinIONQC.R

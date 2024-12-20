@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/super_distance
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for super_distance
 latest:
-  1.1.0--he4a0461_5: sha256:e9542359f8387e8ef66f10f555355d76d783b4048d7d993463dd73c9ba3335b2
+  1.1.0--h577a1d6_6: sha256:7a73ce87a66a72a2d51801ec2f382b69d16f8cbfe0f23c7a7193c5e596511159
 tags:
   1.1.0--h7132678_3: sha256:a61f7dba5e92d4f0fb0cfaf9ad819817f6a07ef6f8237a832ff96b522d7c3ff6
   1.1.0--he4a0461_5: sha256:e9542359f8387e8ef66f10f555355d76d783b4048d7d993463dd73c9ba3335b2
+  1.1.0--h577a1d6_6: sha256:7a73ce87a66a72a2d51801ec2f382b69d16f8cbfe0f23c7a7193c5e596511159
 docker: quay.io/biocontainers/super_distance
 aliases:
   super_distance: /usr/local/bin/super_distance

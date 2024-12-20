@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/abyss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abyss
 latest:
-  2.3.10--h103dbdd_0: sha256:904c0739de64bcbe7b1b88acc8d54b3436f6d3ec67f86e683555aaa999fd526c
+  2.3.10--hf316886_1: sha256:d71be7022b1ade64d95253765c644eb6d5c58e49fbedb409865eb59180989593
 tags:
   2.3.5--h41cdee2_1: sha256:bed6c7d2dad58b24b3e8c1927b61c92c846772c9f77db51eb7f9d3f543030c4d
   2.3.6--h41cdee2_0: sha256:b236b48a0b1a854e2c98dbc7cfd5c7c032c25c708143eccb0cf5bc43c75761d4
@@ -12,6 +12,7 @@ tags:
   2.3.8--h103dbdd_1: sha256:dbafbfde65564127060494b9af925395d53d997160fe95709d894d632a6345af
   2.3.9--h103dbdd_0: sha256:9d758cb7cf7faec8ddb8ed48884b632ea354d5f344c01d6c597aaff76eca9dcc
   2.3.10--h103dbdd_0: sha256:904c0739de64bcbe7b1b88acc8d54b3436f6d3ec67f86e683555aaa999fd526c
+  2.3.10--hf316886_1: sha256:d71be7022b1ade64d95253765c644eb6d5c58e49fbedb409865eb59180989593
 docker: quay.io/biocontainers/abyss
 aliases:
   ABYSS: /usr/local/bin/ABYSS

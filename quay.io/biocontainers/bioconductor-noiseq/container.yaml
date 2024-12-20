@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-noiseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-noiseq
 latest:
-  2.46.0--r43hdfd78af_0: sha256:3af301311852f1021ce49e81d8764b17a7787d6ac587a63f7ca08b2194614fab
+  2.50.0--r44hdfd78af_0: sha256:d68a284887fa85275a4d87710c2c0e0ebf4b9e822bc73a4c1d1148f271bdc783
 tags:
   2.38.0--r41hdfd78af_0: sha256:31bf3b47786beffdef3b5d3513f14e68d998fbe218696a1b5db6c0a97125576b
   2.42.0--r42hdfd78af_0: sha256:06f5be572ae412640d026ffa7fb29b22d38a8e3397964f03b9d0a1964f618eca
   2.44.0--r43hdfd78af_0: sha256:65b1acf7d4cc7bf7ec0104ae47709e810c0b20e03e6f216f10549a6a484ac74a
   2.46.0--r43hdfd78af_0: sha256:3af301311852f1021ce49e81d8764b17a7787d6ac587a63f7ca08b2194614fab
+  2.50.0--r44hdfd78af_0: sha256:d68a284887fa85275a4d87710c2c0e0ebf4b9e822bc73a4c1d1148f271bdc783
 docker: quay.io/biocontainers/bioconductor-noiseq

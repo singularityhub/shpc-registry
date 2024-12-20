@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-furrowseg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-furrowseg
 latest:
-  1.30.0--r43hdfd78af_0: sha256:1e0a44fc6b77d46e1d1abedc0e74d419457ac30d50ec43480a09ba3d1208afa7
+  1.34.0--r44hdfd78af_0: sha256:96815ee62c7723fd1a418851478071c40e47b55519b8ed66539cd249f88f7332
 tags:
   1.22.0--r41hdfd78af_1: sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744
   1.25.0--r42hdfd78af_0: sha256:6ad77fb4a5979b8eb99f9e628e24c5a3e97beb271579ddffafa9e83a9e07fddd
   1.28.0--r43hdfd78af_0: sha256:c5780e5f969d5d1d4d67b16dfd553f9727448240d26e038b89f3c28a5ab96b1c
   1.30.0--r43hdfd78af_0: sha256:1e0a44fc6b77d46e1d1abedc0e74d419457ac30d50ec43480a09ba3d1208afa7
+  1.34.0--r44hdfd78af_0: sha256:96815ee62c7723fd1a418851478071c40e47b55519b8ed66539cd249f88f7332
 docker: quay.io/biocontainers/bioconductor-furrowseg
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

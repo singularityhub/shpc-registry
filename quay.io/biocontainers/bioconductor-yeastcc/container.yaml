@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-yeastcc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-yeastcc
 latest:
-  1.42.0--r43hdfd78af_0: sha256:9f890555f7562ccf81f7906b486b65bfdabdd033cecb4f3dafb8324dbdf4e381
+  1.46.0--r44hdfd78af_0: sha256:c03b377c8a820a82e1ba2dcd8385fb07456e47a4a9388831f58f69cf576be207
 tags:
   1.34.0--r41hdfd78af_1: sha256:f5cfd5d9f8361df668b79be1206dff4f7c5850ee8bda8fc4d94bd4821d425860
   1.38.0--r42hdfd78af_0: sha256:573a4482bd4591dd0a7873edfa66adc8ddb26e8f1b202eb957e2f28ae2aeabed
   1.40.0--r43hdfd78af_0: sha256:3beba01008e60762654f5aca07d9335a6dc769d1003cfc492527fd9cc80236cc
   1.42.0--r43hdfd78af_0: sha256:9f890555f7562ccf81f7906b486b65bfdabdd033cecb4f3dafb8324dbdf4e381
+  1.46.0--r44hdfd78af_0: sha256:c03b377c8a820a82e1ba2dcd8385fb07456e47a4a9388831f58f69cf576be207
 docker: quay.io/biocontainers/bioconductor-yeastcc

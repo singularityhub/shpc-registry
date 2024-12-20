@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-adverscarial
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-adverscarial
 latest:
-  1.0.0--r43hdfd78af_0: sha256:490759fecb9b35f935657b4209de912fa527ebd1a5ea950c80dadc2d7eca4e05
+  1.4.0--r44hdfd78af_0: sha256:5976bd494d368795b8d495527a4b1e1c84b5308e6479c02381b32afc9d3df186
 tags:
   1.0.0--r43hdfd78af_0: sha256:490759fecb9b35f935657b4209de912fa527ebd1a5ea950c80dadc2d7eca4e05
+  1.4.0--r44hdfd78af_0: sha256:5976bd494d368795b8d495527a4b1e1c84b5308e6479c02381b32afc9d3df186
 docker: quay.io/biocontainers/bioconductor-adverscarial
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

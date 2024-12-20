@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/pbfusion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pbfusion
 latest:
-  0.4.1--hdfd78af_0: sha256:82709bf807b26cdcf9afa8ab40490f759264db1a90b8a145ed7928be4840dd17
+  0.5.1--hdfd78af_0: sha256:987658a11fe55fea1368778ca0024a37c47c5319ccdbaa706b220afdd572b4df
 tags:
   0.1.0--hdfd78af_0: sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824
   0.2.2--hdfd78af_0: sha256:aa8d3b936c9c6f1ed75853fd83af7d5e2d0fce4a742e275b82169a52065d567a
   0.3.1--hdfd78af_0: sha256:c5e94d025224cdb8d0df0953c2ebe7b60987fe905c73e7fc3530b474bce4a147
   0.4.0--hdfd78af_0: sha256:0c41532dedbd0e17b2acfef806be530d57a7db227e58b6d1deac41b25fc058b7
   0.4.1--hdfd78af_0: sha256:82709bf807b26cdcf9afa8ab40490f759264db1a90b8a145ed7928be4840dd17
+  0.5.1--hdfd78af_0: sha256:987658a11fe55fea1368778ca0024a37c47c5319ccdbaa706b220afdd572b4df
 docker: quay.io/biocontainers/pbfusion
 aliases:
   gffcache: /usr/local/bin/gffcache

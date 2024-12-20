@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/verse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for verse
 latest:
-  0.1.5--he4a0461_8: sha256:b8bfdf01b3d56a6350b123585184e86b7ad64d3b20b5b9c3ff9c78e8c5812c6f
+  0.1.5--h577a1d6_9: sha256:b7c0dc6ce5ec6e744bf20da15a754eee4c77e851d377dc80b99108d079ffdc70
 tags:
   0.1.5--h7132678_6: sha256:66924b76b75aeab557905ffb3b0b6ba80a170b0338873df67c9bf8209b574170
   0.1.5--he4a0461_8: sha256:b8bfdf01b3d56a6350b123585184e86b7ad64d3b20b5b9c3ff9c78e8c5812c6f
+  0.1.5--h577a1d6_9: sha256:b7c0dc6ce5ec6e744bf20da15a754eee4c77e851d377dc80b99108d079ffdc70
 docker: quay.io/biocontainers/verse
 aliases:
   verse: /usr/local/bin/verse

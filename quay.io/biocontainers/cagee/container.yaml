@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/cagee
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cagee
 latest:
-  1.2--h7071971_0: sha256:a06d01e40ba53873c18426a239b90cd2dfbeb36eec33056e61e30e3be9e1c13f
+  1.2--he96a11b_1: sha256:7310722f7c425149c2901952d36366ba36e7e251ec454aae1fe6ff741a1d0017
 tags:
   1.0--hc5b1d88_0: sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25
   1.0--hc5b1d88_1: sha256:c86b77b43b53d8cd42781268215e948b4c7654932f7f77737d5f240535c87b5e
   1.2--h7071971_0: sha256:a06d01e40ba53873c18426a239b90cd2dfbeb36eec33056e61e30e3be9e1c13f
   1.1.1--h7071971_0: sha256:79ccdc661f0d3b086390ba8f44b03833ee5bda10ef0bcd4264904ba118688004
+  1.2--he96a11b_1: sha256:7310722f7c425149c2901952d36366ba36e7e251ec454aae1fe6ff741a1d0017
 docker: quay.io/biocontainers/cagee
 aliases:
   cagee: /usr/local/bin/cagee

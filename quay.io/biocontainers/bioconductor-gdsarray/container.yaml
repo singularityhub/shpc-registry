@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gdsarray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gdsarray
 latest:
-  1.22.0--r43hdfd78af_0: sha256:f37fc613d4d823fed8416c8acc7c9df8b4e88af9760c50a4697057707db20c69
+  1.26.0--r44hdfd78af_0: sha256:120bcfe29f99dff360727ceb51dc969b4026b45654cc2fb154a5356613152db7
 tags:
   1.8.0--r40_0: sha256:64208985e7e71ce882f62448175fca9e52e41749f100439b104fcaac7837cda4
   1.18.0--r42hdfd78af_0: sha256:be90c656a48f1190be109ae95fae2f54be3eb54a7e0642b7cec544c1fa4c0e05
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:9e92e2b031a31c69139591ad160287cf57a7033fd23ab37bce454b091e69ad65
   1.20.0--r43hdfd78af_0: sha256:aca2e76cdb7f70c9d39d31276ce6e6e73c7a6d2ef8e3895ad488162eee3e3341
   1.22.0--r43hdfd78af_0: sha256:f37fc613d4d823fed8416c8acc7c9df8b4e88af9760c50a4697057707db20c69
+  1.26.0--r44hdfd78af_0: sha256:120bcfe29f99dff360727ceb51dc969b4026b45654cc2fb154a5356613152db7
 docker: quay.io/biocontainers/bioconductor-gdsarray
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

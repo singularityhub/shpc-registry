@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-hilbertvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hilbertvis
 latest:
-  1.60.0--r43ha9d7317_3: sha256:4fc39d7e5864d4ce009b0e562fa81fbaca61412800b07e96ac33fc8b52910277
+  1.64.0--r44h3df3fcb_0: sha256:c6edb089985a478d077b9ff3b092e3bcc1d7f4634cdea998876ef4ebb50fb85c
 tags:
   1.52.0--r41hc0cfd56_2: sha256:19a62d20181ee7ac020ca946c2dacf60b179034ac48f95b5fe08c24f9d9942c8
   1.56.0--r42hc0cfd56_0: sha256:5deea6811e2f1b16c907fd859a7ca6d06c7d8625c212ef25610babe1b4141ed7
@@ -11,4 +11,5 @@ tags:
   1.60.0--r43ha9d7317_1: sha256:f50a91ceee00220c20f727924086ac8f4704e788f9ed70506b8387aa2422c0dc
   1.60.0--r43ha9d7317_2: sha256:3a49279eb8e8626623bafce71f9b56f7e10ee39bf0db2e76dbc7556dd2bb3fd8
   1.60.0--r43ha9d7317_3: sha256:4fc39d7e5864d4ce009b0e562fa81fbaca61412800b07e96ac33fc8b52910277
+  1.64.0--r44h3df3fcb_0: sha256:c6edb089985a478d077b9ff3b092e3bcc1d7f4634cdea998876ef4ebb50fb85c
 docker: quay.io/biocontainers/bioconductor-hilbertvis
