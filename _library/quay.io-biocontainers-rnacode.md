@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnacode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnacode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnacode/container.yaml"
-updated_at: "2024-12-19 04:18:10.504795"
+updated_at: "2024-12-20 02:52:41.368517"
 latest: "0.3--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/rnacode"
 aliases:

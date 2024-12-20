@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-findbin-real"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-findbin-real/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin-real/container.yaml"
-updated_at: "2024-12-19 04:28:23.181529"
-latest: "1.05--pl5321ha8f3691_1"
+updated_at: "2024-12-20 03:03:04.698782"
+latest: "1.05--pl5321h05cac1d_2"
 container_url: "https://biocontainers.pro/tools/perl-findbin-real"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.05--pl5321ha8f3691_1"
+ - "1.05--pl5321h05cac1d_2"
 description: "shpc-registry automated BioContainers addition for perl-findbin-real"
-config: {"url": "https://biocontainers.pro/tools/perl-findbin-real", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin-real", "latest": {"1.05--pl5321ha8f3691_1": "sha256:75cdffa6bc818a07bb870e56b929099be9e7e410e54d1a7e7a28d4d31c4f5bb2"}, "tags": {"1.05--pl5321ha8f3691_1": "sha256:75cdffa6bc818a07bb870e56b929099be9e7e410e54d1a7e7a28d4d31c4f5bb2"}, "docker": "quay.io/biocontainers/perl-findbin-real", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-findbin-real", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin-real", "latest": {"1.05--pl5321h05cac1d_2": "sha256:182e5dd9b1d804c7ff339f0ccd345a7608f811de3720c21e06f5c5f1acd7d1fa"}, "tags": {"1.05--pl5321ha8f3691_1": "sha256:75cdffa6bc818a07bb870e56b929099be9e7e410e54d1a7e7a28d4d31c4f5bb2", "1.05--pl5321h05cac1d_2": "sha256:182e5dd9b1d804c7ff339f0ccd345a7608f811de3720c21e06f5c5f1acd7d1fa"}, "docker": "quay.io/biocontainers/perl-findbin-real", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-findbin-real.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-findbin-real
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-findbin-real:1.05--pl5321ha8f3691_1
+$ shpc install quay.io/biocontainers/perl-findbin-real:1.05--pl5321h05cac1d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-findbin-real/1.05--pl5321ha8f3691_1
-$ module help quay.io/biocontainers/perl-findbin-real/1.05--pl5321ha8f3691_1
+$ module load quay.io/biocontainers/perl-findbin-real/1.05--pl5321h05cac1d_2
+$ module help quay.io/biocontainers/perl-findbin-real/1.05--pl5321h05cac1d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

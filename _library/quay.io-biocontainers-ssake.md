@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssake/container.yaml"
-updated_at: "2024-12-19 04:44:39.452776"
+updated_at: "2024-12-20 03:19:37.435115"
 latest: "4.0--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/ssake"
 aliases:

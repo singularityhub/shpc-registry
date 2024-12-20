@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/genodsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genodsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genodsp/container.yaml"
-updated_at: "2024-12-19 04:57:25.880595"
-latest: "0.0.3--h031d066_1"
+updated_at: "2024-12-20 03:32:30.973951"
+latest: "0.0.10--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/genodsp"
 aliases:
  - "genodsp"
 versions:
  - "0.0.3--h031d066_1"
+ - "0.0.10--h7b50bb2_1"
 description: "singularity registry hpc automated addition for genodsp"
-config: {"url": "https://biocontainers.pro/tools/genodsp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genodsp", "latest": {"0.0.3--h031d066_1": "sha256:133d777ef2b6661d46bc3deab0dd47aadb298d31bfec2160b08e93c9e522da61"}, "tags": {"0.0.3--h031d066_1": "sha256:133d777ef2b6661d46bc3deab0dd47aadb298d31bfec2160b08e93c9e522da61"}, "docker": "quay.io/biocontainers/genodsp", "aliases": {"genodsp": "/usr/local/bin/genodsp"}}
+config: {"url": "https://biocontainers.pro/tools/genodsp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genodsp", "latest": {"0.0.10--h7b50bb2_1": "sha256:e33cb58050c4f65b787fe25cc63caef656c72dd8d55acecd1dd07829f4a83030"}, "tags": {"0.0.3--h031d066_1": "sha256:133d777ef2b6661d46bc3deab0dd47aadb298d31bfec2160b08e93c9e522da61", "0.0.10--h7b50bb2_1": "sha256:e33cb58050c4f65b787fe25cc63caef656c72dd8d55acecd1dd07829f4a83030"}, "docker": "quay.io/biocontainers/genodsp", "aliases": {"genodsp": "/usr/local/bin/genodsp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genodsp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/genodsp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genodsp:0.0.3--h031d066_1
+$ shpc install quay.io/biocontainers/genodsp:0.0.10--h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genodsp/0.0.3--h031d066_1
-$ module help quay.io/biocontainers/genodsp/0.0.3--h031d066_1
+$ module load quay.io/biocontainers/genodsp/0.0.10--h7b50bb2_1
+$ module help quay.io/biocontainers/genodsp/0.0.10--h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

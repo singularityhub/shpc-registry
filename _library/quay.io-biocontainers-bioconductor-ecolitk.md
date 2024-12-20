@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ecolitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolitk/container.yaml"
-updated_at: "2024-12-19 04:59:23.714211"
-latest: "1.74.0--r43hdfd78af_0"
+updated_at: "2024-12-20 03:34:27.108913"
+latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolitk"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
+ - "1.78.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolitk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolitk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolitk", "latest": {"1.74.0--r43hdfd78af_0": "sha256:34b92e4af1bcaa3938f01f686f0d07166245dae1665a6916864c619139ed7808"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:09070fd67b133009372797f5246fcfa11c2e00b0baff508e42b0f1dc6e71de0b", "1.70.0--r42hdfd78af_0": "sha256:7cc33f65feda44634013070417e5049b6ae7e3c55369ac09ea274316ae986acd", "1.72.0--r43hdfd78af_0": "sha256:3069bdd34a01aaaaa37b2926a4f1c71e028cf9938478043ed6ade3942e149b19", "1.74.0--r43hdfd78af_0": "sha256:34b92e4af1bcaa3938f01f686f0d07166245dae1665a6916864c619139ed7808"}, "docker": "quay.io/biocontainers/bioconductor-ecolitk"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolitk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolitk", "latest": {"1.78.0--r44hdfd78af_0": "sha256:cdad29ea973a4bb42df32b18b951f60c2efb7da813d6816079c0b5287261c17c"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:09070fd67b133009372797f5246fcfa11c2e00b0baff508e42b0f1dc6e71de0b", "1.70.0--r42hdfd78af_0": "sha256:7cc33f65feda44634013070417e5049b6ae7e3c55369ac09ea274316ae986acd", "1.72.0--r43hdfd78af_0": "sha256:3069bdd34a01aaaaa37b2926a4f1c71e028cf9938478043ed6ade3942e149b19", "1.74.0--r43hdfd78af_0": "sha256:34b92e4af1bcaa3938f01f686f0d07166245dae1665a6916864c619139ed7808", "1.78.0--r44hdfd78af_0": "sha256:cdad29ea973a4bb42df32b18b951f60c2efb7da813d6816079c0b5287261c17c"}, "docker": "quay.io/biocontainers/bioconductor-ecolitk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolitk.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecolitk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecolitk:1.74.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ecolitk:1.78.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecolitk/1.74.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ecolitk/1.74.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ecolitk/1.78.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ecolitk/1.78.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

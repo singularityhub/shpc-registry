@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mpra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
-updated_at: "2024-12-19 04:55:19.890879"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2024-12-20 03:30:26.395435"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpra"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mpra"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpra", "latest": {"1.24.0--r43hdfd78af_0": "sha256:b1a3702b4cd4e1f98d0529db064d2db6e7738ed3a2e976aa231e0f8e33245346"}, "tags": {"1.8.0--r36_0": "sha256:e79ec3cccbcbbf00a5a7d300c319b7b9163090762d863ada9c9bea539a61db6b", "1.20.0--r42hdfd78af_0": "sha256:043c74a580b900e45e90da149280e04ed3bc43d6c35d86595b3c100dc4110035", "1.16.0--r41hdfd78af_0": "sha256:0292f1526d3fca2e1938687211ea51ddd97fff5b85e6dcea91b5bfcecf71f49a", "1.14.0--r41hdfd78af_0": "sha256:4a0b675262dbe5b94d23d615e659929bfed7536df8de23b204510e8701e0ae3d", "1.12.1--r40hdfd78af_0": "sha256:42afc419e2b683256eabc6a7e044620bbcba2941d58ae6d82392f48dc81a207e", "1.10.0--r40_0": "sha256:dd193ed1b9b3f4d6b4b6e3c818f3fc2413ebd3b0a639d66bf2d59018f834e116", "1.22.0--r43hdfd78af_0": "sha256:f4313a3fbf6bfab0d5fcb1f4ea057d3b6da3c2f2a541754865c23a1b7931e2db", "1.24.0--r43hdfd78af_0": "sha256:b1a3702b4cd4e1f98d0529db064d2db6e7738ed3a2e976aa231e0f8e33245346"}, "docker": "quay.io/biocontainers/bioconductor-mpra", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpra", "latest": {"1.28.0--r43hdfd78af_0": "sha256:93258f840521d3e89178e63c354843454d98590d7d615f5971152e39ba6d6a45"}, "tags": {"1.8.0--r36_0": "sha256:e79ec3cccbcbbf00a5a7d300c319b7b9163090762d863ada9c9bea539a61db6b", "1.20.0--r42hdfd78af_0": "sha256:043c74a580b900e45e90da149280e04ed3bc43d6c35d86595b3c100dc4110035", "1.16.0--r41hdfd78af_0": "sha256:0292f1526d3fca2e1938687211ea51ddd97fff5b85e6dcea91b5bfcecf71f49a", "1.14.0--r41hdfd78af_0": "sha256:4a0b675262dbe5b94d23d615e659929bfed7536df8de23b204510e8701e0ae3d", "1.12.1--r40hdfd78af_0": "sha256:42afc419e2b683256eabc6a7e044620bbcba2941d58ae6d82392f48dc81a207e", "1.10.0--r40_0": "sha256:dd193ed1b9b3f4d6b4b6e3c818f3fc2413ebd3b0a639d66bf2d59018f834e116", "1.22.0--r43hdfd78af_0": "sha256:f4313a3fbf6bfab0d5fcb1f4ea057d3b6da3c2f2a541754865c23a1b7931e2db", "1.24.0--r43hdfd78af_0": "sha256:b1a3702b4cd4e1f98d0529db064d2db6e7738ed3a2e976aa231e0f8e33245346", "1.28.0--r43hdfd78af_0": "sha256:93258f840521d3e89178e63c354843454d98590d7d615f5971152e39ba6d6a45"}, "docker": "quay.io/biocontainers/bioconductor-mpra", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpra.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mpra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mpra:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mpra:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mpra/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mpra/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mpra/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mpra/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

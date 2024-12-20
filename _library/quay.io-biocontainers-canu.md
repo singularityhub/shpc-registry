@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/canu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canu/container.yaml"
-updated_at: "2024-12-19 04:41:21.025686"
-latest: "2.2--ha47f30e_0"
+updated_at: "2024-12-20 03:16:15.303243"
+latest: "2.3--h3fb4750_0"
 container_url: "https://biocontainers.pro/tools/canu"
 aliases:
  - "alignGFA"
@@ -71,8 +71,9 @@ aliases:
 versions:
  - "2.2--ha47f30e_0"
  - "2.1.1--h1b792b2_2"
+ - "2.3--h3fb4750_0"
 description: "shpc-registry automated BioContainers addition for canu"
-config: {"url": "https://biocontainers.pro/tools/canu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canu", "latest": {"2.2--ha47f30e_0": "sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196"}, "tags": {"2.2--ha47f30e_0": "sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196", "2.1.1--h1b792b2_2": "sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4"}, "docker": "quay.io/biocontainers/canu", "aliases": {"alignGFA": "/usr/local/bin/alignGFA", "bogart": "/usr/local/bin/bogart", "canu": "/usr/local/bin/canu", "canu-time": "/usr/local/bin/canu-time", "canu.defaults": "/usr/local/bin/canu.defaults", "correctOverlaps": "/usr/local/bin/correctOverlaps", "draw-tig": "/usr/local/bin/draw-tig", "dumpBlob": "/usr/local/bin/dumpBlob", "edalign": "/usr/local/bin/edalign", "errorEstimate": "/usr/local/bin/errorEstimate", "falconsense": "/usr/local/bin/falconsense", "filterCorrectionLayouts": "/usr/local/bin/filterCorrectionLayouts", "filterCorrectionOverlaps": "/usr/local/bin/filterCorrectionOverlaps", "findErrors": "/usr/local/bin/findErrors", "findErrors-Dump": "/usr/local/bin/findErrors-Dump", "fixErrors": "/usr/local/bin/fixErrors", "generateCorrectionLayouts": "/usr/local/bin/generateCorrectionLayouts", "layoutReads": "/usr/local/bin/layoutReads", "loadCorrectedReads": "/usr/local/bin/loadCorrectedReads", "loadErates": "/usr/local/bin/loadErates", "loadTrimmedReads": "/usr/local/bin/loadTrimmedReads", "mergeRanges": "/usr/local/bin/mergeRanges", "mhapConvert": "/usr/local/bin/mhapConvert", "mmapConvert": "/usr/local/bin/mmapConvert", "ovStoreBucketizer": "/usr/local/bin/ovStoreBucketizer", "ovStoreBuild": "/usr/local/bin/ovStoreBuild", "ovStoreConfig": "/usr/local/bin/ovStoreConfig", "ovStoreDump": "/usr/local/bin/ovStoreDump", "ovStoreIndexer": "/usr/local/bin/ovStoreIndexer", "ovStoreSorter": "/usr/local/bin/ovStoreSorter", "ovStoreStats": "/usr/local/bin/ovStoreStats", "overlapAlign": "/usr/local/bin/overlapAlign", "overlapCheck": "/usr/local/bin/overlapCheck", "overlapConvert": "/usr/local/bin/overlapConvert", "overlapImport": "/usr/local/bin/overlapImport", "overlapInCore": "/usr/local/bin/overlapInCore", "overlapInCorePartition": "/usr/local/bin/overlapInCorePartition", "overlapPair": "/usr/local/bin/overlapPair", "prefixEditDistance-matchLimitGenerate": "/usr/local/bin/prefixEditDistance-matchLimitGenerate", "splitHaplotype": "/usr/local/bin/splitHaplotype", "splitReads": "/usr/local/bin/splitReads", "sqStoreCreate": "/usr/local/bin/sqStoreCreate", "sqStoreDumpFASTQ": "/usr/local/bin/sqStoreDumpFASTQ", "sqStoreDumpMetaData": "/usr/local/bin/sqStoreDumpMetaData", "tgStoreCompress": "/usr/local/bin/tgStoreCompress", "tgStoreDump": "/usr/local/bin/tgStoreDump", "tgStoreLoad": "/usr/local/bin/tgStoreLoad", "tgTigDisplay": "/usr/local/bin/tgTigDisplay", "trimReads": "/usr/local/bin/trimReads", "utgcns": "/usr/local/bin/utgcns", "meryl": "/usr/local/bin/meryl", "chrpath": "/usr/local/bin/chrpath", "gnuplot": "/usr/local/bin/gnuplot", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "sdust": "/usr/local/bin/sdust", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "paftools.js": "/usr/local/bin/paftools.js"}}
+config: {"url": "https://biocontainers.pro/tools/canu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canu", "latest": {"2.3--h3fb4750_0": "sha256:dbdb32f4a7e5b55e172a84081b09742ab253d3f3519a8dd1237a12bbee5cc6bd"}, "tags": {"2.2--ha47f30e_0": "sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196", "2.1.1--h1b792b2_2": "sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4", "2.3--h3fb4750_0": "sha256:dbdb32f4a7e5b55e172a84081b09742ab253d3f3519a8dd1237a12bbee5cc6bd"}, "docker": "quay.io/biocontainers/canu", "aliases": {"alignGFA": "/usr/local/bin/alignGFA", "bogart": "/usr/local/bin/bogart", "canu": "/usr/local/bin/canu", "canu-time": "/usr/local/bin/canu-time", "canu.defaults": "/usr/local/bin/canu.defaults", "correctOverlaps": "/usr/local/bin/correctOverlaps", "draw-tig": "/usr/local/bin/draw-tig", "dumpBlob": "/usr/local/bin/dumpBlob", "edalign": "/usr/local/bin/edalign", "errorEstimate": "/usr/local/bin/errorEstimate", "falconsense": "/usr/local/bin/falconsense", "filterCorrectionLayouts": "/usr/local/bin/filterCorrectionLayouts", "filterCorrectionOverlaps": "/usr/local/bin/filterCorrectionOverlaps", "findErrors": "/usr/local/bin/findErrors", "findErrors-Dump": "/usr/local/bin/findErrors-Dump", "fixErrors": "/usr/local/bin/fixErrors", "generateCorrectionLayouts": "/usr/local/bin/generateCorrectionLayouts", "layoutReads": "/usr/local/bin/layoutReads", "loadCorrectedReads": "/usr/local/bin/loadCorrectedReads", "loadErates": "/usr/local/bin/loadErates", "loadTrimmedReads": "/usr/local/bin/loadTrimmedReads", "mergeRanges": "/usr/local/bin/mergeRanges", "mhapConvert": "/usr/local/bin/mhapConvert", "mmapConvert": "/usr/local/bin/mmapConvert", "ovStoreBucketizer": "/usr/local/bin/ovStoreBucketizer", "ovStoreBuild": "/usr/local/bin/ovStoreBuild", "ovStoreConfig": "/usr/local/bin/ovStoreConfig", "ovStoreDump": "/usr/local/bin/ovStoreDump", "ovStoreIndexer": "/usr/local/bin/ovStoreIndexer", "ovStoreSorter": "/usr/local/bin/ovStoreSorter", "ovStoreStats": "/usr/local/bin/ovStoreStats", "overlapAlign": "/usr/local/bin/overlapAlign", "overlapCheck": "/usr/local/bin/overlapCheck", "overlapConvert": "/usr/local/bin/overlapConvert", "overlapImport": "/usr/local/bin/overlapImport", "overlapInCore": "/usr/local/bin/overlapInCore", "overlapInCorePartition": "/usr/local/bin/overlapInCorePartition", "overlapPair": "/usr/local/bin/overlapPair", "prefixEditDistance-matchLimitGenerate": "/usr/local/bin/prefixEditDistance-matchLimitGenerate", "splitHaplotype": "/usr/local/bin/splitHaplotype", "splitReads": "/usr/local/bin/splitReads", "sqStoreCreate": "/usr/local/bin/sqStoreCreate", "sqStoreDumpFASTQ": "/usr/local/bin/sqStoreDumpFASTQ", "sqStoreDumpMetaData": "/usr/local/bin/sqStoreDumpMetaData", "tgStoreCompress": "/usr/local/bin/tgStoreCompress", "tgStoreDump": "/usr/local/bin/tgStoreDump", "tgStoreLoad": "/usr/local/bin/tgStoreLoad", "tgTigDisplay": "/usr/local/bin/tgTigDisplay", "trimReads": "/usr/local/bin/trimReads", "utgcns": "/usr/local/bin/utgcns", "meryl": "/usr/local/bin/meryl", "chrpath": "/usr/local/bin/chrpath", "gnuplot": "/usr/local/bin/gnuplot", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "sdust": "/usr/local/bin/sdust", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "paftools.js": "/usr/local/bin/paftools.js"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/canu.
@@ -87,7 +88,7 @@ $ shpc install quay.io/biocontainers/canu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/canu:2.2--ha47f30e_0
+$ shpc install quay.io/biocontainers/canu:2.3--h3fb4750_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -99,8 +100,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/canu/2.2--ha47f30e_0
-$ module help quay.io/biocontainers/canu/2.2--ha47f30e_0
+$ module load quay.io/biocontainers/canu/2.3--h3fb4750_0
+$ module help quay.io/biocontainers/canu/2.3--h3fb4750_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

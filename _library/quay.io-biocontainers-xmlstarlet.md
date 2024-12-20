@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmlstarlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmlstarlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmlstarlet/container.yaml"
-updated_at: "2024-12-19 04:50:49.004162"
+updated_at: "2024-12-20 03:25:54.992990"
 latest: "1.6.1"
 container_url: "https://biocontainers.pro/tools/xmlstarlet"
 aliases:

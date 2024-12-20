@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-micropan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-micropan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-micropan/container.yaml"
-updated_at: "2024-12-19 04:20:02.344811"
+updated_at: "2024-12-20 02:54:34.172893"
 latest: "1.2--r351h29659fb_1"
 container_url: "https://biocontainers.pro/tools/r-micropan"
 aliases:

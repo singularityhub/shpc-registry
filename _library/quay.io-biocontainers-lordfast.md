@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lordfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lordfast/container.yaml"
-updated_at: "2024-12-19 04:31:54.724048"
-latest: "0.0.10--h43eeafb_5"
+updated_at: "2024-12-20 03:06:38.867375"
+latest: "0.0.10--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/lordfast"
 aliases:
  - "lordfast"
@@ -13,8 +13,9 @@ versions:
  - "0.0.9--hd28b015_0"
  - "0.0.10--h5b5514e_3"
  - "0.0.10--h43eeafb_5"
+ - "0.0.10--h5ca1c30_6"
 description: "shpc-registry automated BioContainers addition for lordfast"
-config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "tags": {"0.0.9--hd28b015_0": "sha256:b8244dd1a9c2d103ad16d570e3f19aea0fab209f56b3ca3b14d64f4c1f3a0443", "0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd", "0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
+config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.10--h5ca1c30_6": "sha256:3c8fb524bdf55306b59f2c385ea2bb2a2e9f944e84627727bd94bcd7deeaaaae"}, "tags": {"0.0.9--hd28b015_0": "sha256:b8244dd1a9c2d103ad16d570e3f19aea0fab209f56b3ca3b14d64f4c1f3a0443", "0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd", "0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb", "0.0.10--h5ca1c30_6": "sha256:3c8fb524bdf55306b59f2c385ea2bb2a2e9f944e84627727bd94bcd7deeaaaae"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lordfast.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/lordfast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lordfast:0.0.10--h43eeafb_5
+$ shpc install quay.io/biocontainers/lordfast:0.0.10--h5ca1c30_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lordfast/0.0.10--h43eeafb_5
-$ module help quay.io/biocontainers/lordfast/0.0.10--h43eeafb_5
+$ module load quay.io/biocontainers/lordfast/0.0.10--h5ca1c30_6
+$ module help quay.io/biocontainers/lordfast/0.0.10--h5ca1c30_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

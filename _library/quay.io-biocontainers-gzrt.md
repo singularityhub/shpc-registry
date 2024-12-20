@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/gzrt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gzrt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gzrt/container.yaml"
-updated_at: "2024-12-19 04:22:59.622974"
-latest: "0.8--he4a0461_0"
+updated_at: "2024-12-20 02:57:34.657658"
+latest: "0.9.1--h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/gzrt"
 aliases:
  - "gzrecover"
 versions:
  - "0.8--he4a0461_0"
+ - "0.9.1--h577a1d6_1"
+ - "0.8--h577a1d6_1"
 description: "singularity registry hpc automated addition for gzrt"
-config: {"url": "https://biocontainers.pro/tools/gzrt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gzrt", "latest": {"0.8--he4a0461_0": "sha256:1486d96c1fe956ef9689d356657ee33e573061ecad2468897d84b1fad4fdf7aa"}, "tags": {"0.8--he4a0461_0": "sha256:1486d96c1fe956ef9689d356657ee33e573061ecad2468897d84b1fad4fdf7aa"}, "docker": "quay.io/biocontainers/gzrt", "aliases": {"gzrecover": "/usr/local/bin/gzrecover"}}
+config: {"url": "https://biocontainers.pro/tools/gzrt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gzrt", "latest": {"0.9.1--h577a1d6_1": "sha256:361c21f1cceb56313cbef06c7880503c39c54abc8def7c490509158b57d450c2"}, "tags": {"0.8--he4a0461_0": "sha256:1486d96c1fe956ef9689d356657ee33e573061ecad2468897d84b1fad4fdf7aa", "0.9.1--h577a1d6_1": "sha256:361c21f1cceb56313cbef06c7880503c39c54abc8def7c490509158b57d450c2", "0.8--h577a1d6_1": "sha256:0ef24d19bf72b2144f89f5d0853735435dc05ae21b69dfed0e09ebd7261adcf3"}, "docker": "quay.io/biocontainers/gzrt", "aliases": {"gzrecover": "/usr/local/bin/gzrecover"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gzrt.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/gzrt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gzrt:0.8--he4a0461_0
+$ shpc install quay.io/biocontainers/gzrt:0.9.1--h577a1d6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gzrt/0.8--he4a0461_0
-$ module help quay.io/biocontainers/gzrt/0.8--he4a0461_0
+$ module load quay.io/biocontainers/gzrt/0.9.1--h577a1d6_1
+$ module help quay.io/biocontainers/gzrt/0.9.1--h577a1d6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

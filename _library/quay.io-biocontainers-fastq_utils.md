@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq_utils/container.yaml"
-updated_at: "2024-12-19 05:00:54.726194"
-latest: "0.25.2--h50ea8bc_1"
+updated_at: "2024-12-20 03:35:57.689777"
+latest: "0.25.2--h96c455f_2"
 container_url: "https://biocontainers.pro/tools/fastq_utils"
 aliases:
  - "bam2fastq"
@@ -38,8 +38,9 @@ versions:
  - "0.25.1--h20b1175_1"
  - "0.25.2--h20b1175_0"
  - "0.25.2--h50ea8bc_1"
+ - "0.25.2--h96c455f_2"
 description: "shpc-registry automated BioContainers addition for fastq_utils"
-config: {"url": "https://biocontainers.pro/tools/fastq_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq_utils", "latest": {"0.25.2--h50ea8bc_1": "sha256:88808fbd5011163b592c0c9bb90179b97f1cfcd41c9e5373a8ea8bdecaa4c3c2"}, "tags": {"0.25.1--h20b1175_1": "sha256:e8ae637065c59bd201d0927942765153249cf2e286036aa7b18e7adebfc2fd33", "0.25.2--h20b1175_0": "sha256:db261ad9dceb302d83df8c42fb185a4e5665b52bfc6d150c7b3bfec74b90d587", "0.25.2--h50ea8bc_1": "sha256:88808fbd5011163b592c0c9bb90179b97f1cfcd41c9e5373a8ea8bdecaa4c3c2"}, "docker": "quay.io/biocontainers/fastq_utils", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/fastq_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq_utils", "latest": {"0.25.2--h96c455f_2": "sha256:fe4bc6619302ed652d6ea31cc90cedd81c0cb5de74d2a09d49783fc3046730c1"}, "tags": {"0.25.1--h20b1175_1": "sha256:e8ae637065c59bd201d0927942765153249cf2e286036aa7b18e7adebfc2fd33", "0.25.2--h20b1175_0": "sha256:db261ad9dceb302d83df8c42fb185a4e5665b52bfc6d150c7b3bfec74b90d587", "0.25.2--h50ea8bc_1": "sha256:88808fbd5011163b592c0c9bb90179b97f1cfcd41c9e5373a8ea8bdecaa4c3c2", "0.25.2--h96c455f_2": "sha256:fe4bc6619302ed652d6ea31cc90cedd81c0cb5de74d2a09d49783fc3046730c1"}, "docker": "quay.io/biocontainers/fastq_utils", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq_utils.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/fastq_utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq_utils:0.25.2--h50ea8bc_1
+$ shpc install quay.io/biocontainers/fastq_utils:0.25.2--h96c455f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq_utils/0.25.2--h50ea8bc_1
-$ module help quay.io/biocontainers/fastq_utils/0.25.2--h50ea8bc_1
+$ module load quay.io/biocontainers/fastq_utils/0.25.2--h96c455f_2
+$ module help quay.io/biocontainers/fastq_utils/0.25.2--h96c455f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

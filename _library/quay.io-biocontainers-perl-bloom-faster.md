@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bloom-faster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bloom-faster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bloom-faster/container.yaml"
-updated_at: "2024-12-19 05:05:05.824423"
-latest: "1.7--pl5321h031d066_7"
+updated_at: "2024-12-20 03:40:08.161389"
+latest: "1.7--pl5321h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/perl-bloom-faster"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "1.7--pl5321hec16e2b_4"
  - "1.7--pl5321h031d066_6"
  - "1.7--pl5321h031d066_7"
+ - "1.7--pl5321h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for perl-bloom-faster"
-config: {"url": "https://biocontainers.pro/tools/perl-bloom-faster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bloom-faster", "latest": {"1.7--pl5321h031d066_7": "sha256:0af4ec929f40898efea7ffb43d99d378216ff411c8cae24c863e42393f577806"}, "tags": {"1.7--pl5321hec16e2b_4": "sha256:600ff3a8a1ea41bae4e01f3990f9fe913015d4c1d148bc7c06f99c03bffac7f8", "1.7--pl5321h031d066_6": "sha256:7224cc733edda0d6b92e118623115906c53c33f936cf92b0df383a74053d7cca", "1.7--pl5321h031d066_7": "sha256:0af4ec929f40898efea7ffb43d99d378216ff411c8cae24c863e42393f577806"}, "docker": "quay.io/biocontainers/perl-bloom-faster", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bloom-faster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bloom-faster", "latest": {"1.7--pl5321h7b50bb2_8": "sha256:e6e329307e4f5ec336b9d594e69436ca3c305357f2f39d21ff34f685c85b801f"}, "tags": {"1.7--pl5321hec16e2b_4": "sha256:600ff3a8a1ea41bae4e01f3990f9fe913015d4c1d148bc7c06f99c03bffac7f8", "1.7--pl5321h031d066_6": "sha256:7224cc733edda0d6b92e118623115906c53c33f936cf92b0df383a74053d7cca", "1.7--pl5321h031d066_7": "sha256:0af4ec929f40898efea7ffb43d99d378216ff411c8cae24c863e42393f577806", "1.7--pl5321h7b50bb2_8": "sha256:e6e329307e4f5ec336b9d594e69436ca3c305357f2f39d21ff34f685c85b801f"}, "docker": "quay.io/biocontainers/perl-bloom-faster", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bloom-faster.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-bloom-faster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bloom-faster:1.7--pl5321h031d066_7
+$ shpc install quay.io/biocontainers/perl-bloom-faster:1.7--pl5321h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bloom-faster/1.7--pl5321h031d066_7
-$ module help quay.io/biocontainers/perl-bloom-faster/1.7--pl5321h031d066_7
+$ module load quay.io/biocontainers/perl-bloom-faster/1.7--pl5321h7b50bb2_8
+$ module help quay.io/biocontainers/perl-bloom-faster/1.7--pl5321h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

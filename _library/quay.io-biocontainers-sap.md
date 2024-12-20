@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sap/container.yaml"
-updated_at: "2024-12-19 04:29:14.570099"
-latest: "1.1.3--h031d066_4"
+updated_at: "2024-12-20 03:03:56.841921"
+latest: "1.1.3--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/sap"
 aliases:
  - "sap"
 versions:
  - "1.1.3--hec16e2b_2"
  - "1.1.3--h031d066_4"
+ - "1.1.3--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for sap"
-config: {"url": "https://biocontainers.pro/tools/sap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sap", "latest": {"1.1.3--h031d066_4": "sha256:ef8adfbffd7ec491bcb39eb9147ff467b1cdcdfc6c4bb2a67fbde833f4ed4eb4"}, "tags": {"1.1.3--hec16e2b_2": "sha256:611827a2bec2d4e11f2c6b81a2aae89fc0f6241eb9614f8c00d9fdc5aa9031d2", "1.1.3--h031d066_4": "sha256:ef8adfbffd7ec491bcb39eb9147ff467b1cdcdfc6c4bb2a67fbde833f4ed4eb4"}, "docker": "quay.io/biocontainers/sap", "aliases": {"sap": "/usr/local/bin/sap"}}
+config: {"url": "https://biocontainers.pro/tools/sap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sap", "latest": {"1.1.3--h7b50bb2_5": "sha256:cb1f41bcefdb8fd02dd228747bba74cfe86cf0cb06d4cb846f4d065db65f601b"}, "tags": {"1.1.3--hec16e2b_2": "sha256:611827a2bec2d4e11f2c6b81a2aae89fc0f6241eb9614f8c00d9fdc5aa9031d2", "1.1.3--h031d066_4": "sha256:ef8adfbffd7ec491bcb39eb9147ff467b1cdcdfc6c4bb2a67fbde833f4ed4eb4", "1.1.3--h7b50bb2_5": "sha256:cb1f41bcefdb8fd02dd228747bba74cfe86cf0cb06d4cb846f4d065db65f601b"}, "docker": "quay.io/biocontainers/sap", "aliases": {"sap": "/usr/local/bin/sap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sap:1.1.3--h031d066_4
+$ shpc install quay.io/biocontainers/sap:1.1.3--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sap/1.1.3--h031d066_4
-$ module help quay.io/biocontainers/sap/1.1.3--h031d066_4
+$ module load quay.io/biocontainers/sap/1.1.3--h7b50bb2_5
+$ module help quay.io/biocontainers/sap/1.1.3--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

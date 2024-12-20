@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/optimir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optimir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optimir/container.yaml"
-updated_at: "2024-12-19 04:35:50.585414"
+updated_at: "2024-12-20 03:10:39.564060"
 latest: "1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/optimir"
 aliases:

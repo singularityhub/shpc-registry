@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidmarkdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidmarkdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidmarkdown/container.yaml"
-updated_at: "2024-12-19 04:28:21.495170"
+updated_at: "2024-12-20 03:03:02.968244"
 latest: "0.3.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidmarkdown"
 

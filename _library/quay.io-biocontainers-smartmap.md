@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smartmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smartmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smartmap/container.yaml"
-updated_at: "2024-12-19 04:19:19.855328"
-latest: "1.0.0--hdcf5f25_3"
+updated_at: "2024-12-20 02:53:51.376785"
+latest: "1.0.0--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/smartmap"
 aliases:
  - "SmartMap"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.0.0--hd03093a_2"
  - "1.0.0--hdcf5f25_3"
+ - "1.0.0--h077b44d_4"
 description: "shpc-registry automated BioContainers addition for smartmap"
-config: {"url": "https://biocontainers.pro/tools/smartmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smartmap", "latest": {"1.0.0--hdcf5f25_3": "sha256:1d2e90ecb69447900dbd85a34ba6c56905e14aca059ad48c5494da7d384f1837"}, "tags": {"1.0.0--hd03093a_2": "sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201", "1.0.0--hdcf5f25_3": "sha256:1d2e90ecb69447900dbd85a34ba6c56905e14aca059ad48c5494da7d384f1837"}, "docker": "quay.io/biocontainers/smartmap", "aliases": {"SmartMap": "/usr/local/bin/SmartMap", "SmartMapPrep": "/usr/local/bin/SmartMapPrep", "SmartMapRNAPrep": "/usr/local/bin/SmartMapRNAPrep", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/smartmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smartmap", "latest": {"1.0.0--h077b44d_4": "sha256:20ee1e6ab212cdc4f80157e9bbe4e9ab46b72e683af920b0a7393657cbeca77c"}, "tags": {"1.0.0--hd03093a_2": "sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201", "1.0.0--hdcf5f25_3": "sha256:1d2e90ecb69447900dbd85a34ba6c56905e14aca059ad48c5494da7d384f1837", "1.0.0--h077b44d_4": "sha256:20ee1e6ab212cdc4f80157e9bbe4e9ab46b72e683af920b0a7393657cbeca77c"}, "docker": "quay.io/biocontainers/smartmap", "aliases": {"SmartMap": "/usr/local/bin/SmartMap", "SmartMapPrep": "/usr/local/bin/SmartMapPrep", "SmartMapRNAPrep": "/usr/local/bin/SmartMapRNAPrep", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smartmap.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/smartmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smartmap:1.0.0--hdcf5f25_3
+$ shpc install quay.io/biocontainers/smartmap:1.0.0--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smartmap/1.0.0--hdcf5f25_3
-$ module help quay.io/biocontainers/smartmap/1.0.0--hdcf5f25_3
+$ module load quay.io/biocontainers/smartmap/1.0.0--h077b44d_4
+$ module help quay.io/biocontainers/smartmap/1.0.0--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

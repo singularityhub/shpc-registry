@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastq-count"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-count/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-count/container.yaml"
-updated_at: "2024-12-19 04:44:11.683324"
-latest: "0.1.0--h031d066_5"
+updated_at: "2024-12-20 03:19:09.246252"
+latest: "0.1.0--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/fastq-count"
 aliases:
  - "fastq-count"
 versions:
  - "0.1.0--hec16e2b_3"
  - "0.1.0--h031d066_5"
+ - "0.1.0--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for fastq-count"
-config: {"url": "https://biocontainers.pro/tools/fastq-count", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-count", "latest": {"0.1.0--h031d066_5": "sha256:4a487f59d84f79b4fe91709ccb42cf176395f45387e6b590e2de58ca592f19fe"}, "tags": {"0.1.0--hec16e2b_3": "sha256:3caaf46f6f52f5421b4e9988c0f801224338b1bdee18fa9b2c975a0d4675f84c", "0.1.0--h031d066_5": "sha256:4a487f59d84f79b4fe91709ccb42cf176395f45387e6b590e2de58ca592f19fe"}, "docker": "quay.io/biocontainers/fastq-count", "aliases": {"fastq-count": "/usr/local/bin/fastq-count"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-count", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-count", "latest": {"0.1.0--h7b50bb2_6": "sha256:f731e16033c0af1ca7a716b28e149a627d3f0348f8b682c28366960247a2e79a"}, "tags": {"0.1.0--hec16e2b_3": "sha256:3caaf46f6f52f5421b4e9988c0f801224338b1bdee18fa9b2c975a0d4675f84c", "0.1.0--h031d066_5": "sha256:4a487f59d84f79b4fe91709ccb42cf176395f45387e6b590e2de58ca592f19fe", "0.1.0--h7b50bb2_6": "sha256:f731e16033c0af1ca7a716b28e149a627d3f0348f8b682c28366960247a2e79a"}, "docker": "quay.io/biocontainers/fastq-count", "aliases": {"fastq-count": "/usr/local/bin/fastq-count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-count.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastq-count
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-count:0.1.0--h031d066_5
+$ shpc install quay.io/biocontainers/fastq-count:0.1.0--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-count/0.1.0--h031d066_5
-$ module help quay.io/biocontainers/fastq-count/0.1.0--h031d066_5
+$ module load quay.io/biocontainers/fastq-count/0.1.0--h7b50bb2_6
+$ module help quay.io/biocontainers/fastq-count/0.1.0--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

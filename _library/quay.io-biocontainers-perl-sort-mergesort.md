@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sort-mergesort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sort-mergesort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sort-mergesort/container.yaml"
-updated_at: "2024-12-19 04:29:02.888705"
+updated_at: "2024-12-20 03:03:45.114546"
 latest: "0.31--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-sort-mergesort"
 aliases:

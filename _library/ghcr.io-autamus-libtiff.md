@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libtiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libtiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libtiff/container.yaml"
-updated_at: "2024-12-19 04:17:41.037607"
+updated_at: "2024-12-20 02:52:11.858487"
 latest: "4.4.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libtiff"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-seurat-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seurat-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seurat-data/container.yaml"
-updated_at: "2024-12-19 04:35:41.582486"
-latest: "0.2.1--r43h9ee0642_0"
+updated_at: "2024-12-20 03:10:30.346759"
+latest: "0.2.1--r44h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/r-seurat-data"
 aliases:
  - "pcre2posix_test"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.2.1--r43h9ee0642_0"
+ - "0.2.1--r44h9ee0642_1"
 description: "singularity registry hpc automated addition for r-seurat-data"
-config: {"url": "https://biocontainers.pro/tools/r-seurat-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-seurat-data", "latest": {"0.2.1--r43h9ee0642_0": "sha256:06832e01dd21fe6919413e9bb3fc043aa4539ea1d44ec8fc29b5f19f3b991f9f"}, "tags": {"0.2.1--r43h9ee0642_0": "sha256:06832e01dd21fe6919413e9bb3fc043aa4539ea1d44ec8fc29b5f19f3b991f9f"}, "docker": "quay.io/biocontainers/r-seurat-data", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-seurat-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-seurat-data", "latest": {"0.2.1--r44h9ee0642_1": "sha256:de15bd812a41c3dcd6ba243035d141af6f804d5bfc5e2a3653cf834f5345346f"}, "tags": {"0.2.1--r43h9ee0642_0": "sha256:06832e01dd21fe6919413e9bb3fc043aa4539ea1d44ec8fc29b5f19f3b991f9f", "0.2.1--r44h9ee0642_1": "sha256:de15bd812a41c3dcd6ba243035d141af6f804d5bfc5e2a3653cf834f5345346f"}, "docker": "quay.io/biocontainers/r-seurat-data", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seurat-data.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-seurat-data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-seurat-data:0.2.1--r43h9ee0642_0
+$ shpc install quay.io/biocontainers/r-seurat-data:0.2.1--r44h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-seurat-data/0.2.1--r43h9ee0642_0
-$ module help quay.io/biocontainers/r-seurat-data/0.2.1--r43h9ee0642_0
+$ module load quay.io/biocontainers/r-seurat-data/0.2.1--r44h9ee0642_1
+$ module help quay.io/biocontainers/r-seurat-data/0.2.1--r44h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

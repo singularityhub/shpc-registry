@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastsimbac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastsimbac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastsimbac/container.yaml"
-updated_at: "2024-12-19 04:22:48.547198"
-latest: "1.0.1_bd3ad13d8f79--hdbdd923_6"
+updated_at: "2024-12-20 02:57:23.491918"
+latest: "1.0.1_bd3ad13d8f79--h503566f_7"
 container_url: "https://biocontainers.pro/tools/fastsimbac"
 aliases:
  - "fastSimBac"
@@ -21,8 +21,9 @@ versions:
  - "1.0.1_bd3ad13d8f79--h72a8191_3"
  - "1.0.1_bd3ad13d8f79--haf6292c_5"
  - "1.0.1_bd3ad13d8f79--hdbdd923_6"
+ - "1.0.1_bd3ad13d8f79--h503566f_7"
 description: "shpc-registry automated BioContainers addition for fastsimbac"
-config: {"url": "https://biocontainers.pro/tools/fastsimbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastsimbac", "latest": {"1.0.1_bd3ad13d8f79--hdbdd923_6": "sha256:10bdb6c6f1af5ba27846ec57fe3d76edaaab225c521fd7a20bdb2aefaaebed11"}, "tags": {"1.0.1_bd3ad13d8f79--h72a8191_3": "sha256:485c722038a6d6dd632323fbda32ec5c06fab95bf62d6724135286800eff5523", "1.0.1_bd3ad13d8f79--haf6292c_5": "sha256:181f43b670418d919d59242a1e9bf352a9afca5a3ee0b7774d40990137cd6e43", "1.0.1_bd3ad13d8f79--hdbdd923_6": "sha256:10bdb6c6f1af5ba27846ec57fe3d76edaaab225c521fd7a20bdb2aefaaebed11"}, "docker": "quay.io/biocontainers/fastsimbac", "aliases": {"fastSimBac": "/usr/local/bin/fastSimBac", "msformatter": "/usr/local/bin/msformatter", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastsimbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastsimbac", "latest": {"1.0.1_bd3ad13d8f79--h503566f_7": "sha256:e226075c34df2297aecc27bf1b7c8a915c04cfd2011a822ff7cb314035c6aa0f"}, "tags": {"1.0.1_bd3ad13d8f79--h72a8191_3": "sha256:485c722038a6d6dd632323fbda32ec5c06fab95bf62d6724135286800eff5523", "1.0.1_bd3ad13d8f79--haf6292c_5": "sha256:181f43b670418d919d59242a1e9bf352a9afca5a3ee0b7774d40990137cd6e43", "1.0.1_bd3ad13d8f79--hdbdd923_6": "sha256:10bdb6c6f1af5ba27846ec57fe3d76edaaab225c521fd7a20bdb2aefaaebed11", "1.0.1_bd3ad13d8f79--h503566f_7": "sha256:e226075c34df2297aecc27bf1b7c8a915c04cfd2011a822ff7cb314035c6aa0f"}, "docker": "quay.io/biocontainers/fastsimbac", "aliases": {"fastSimBac": "/usr/local/bin/fastSimBac", "msformatter": "/usr/local/bin/msformatter", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastsimbac.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/fastsimbac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastsimbac:1.0.1_bd3ad13d8f79--hdbdd923_6
+$ shpc install quay.io/biocontainers/fastsimbac:1.0.1_bd3ad13d8f79--h503566f_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastsimbac/1.0.1_bd3ad13d8f79--hdbdd923_6
-$ module help quay.io/biocontainers/fastsimbac/1.0.1_bd3ad13d8f79--hdbdd923_6
+$ module load quay.io/biocontainers/fastsimbac/1.0.1_bd3ad13d8f79--h503566f_7
+$ module help quay.io/biocontainers/fastsimbac/1.0.1_bd3ad13d8f79--h503566f_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

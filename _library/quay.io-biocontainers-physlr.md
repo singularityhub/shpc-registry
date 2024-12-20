@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/physlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physlr/container.yaml"
-updated_at: "2024-12-19 04:56:54.389772"
+updated_at: "2024-12-20 03:32:00.096184"
 latest: "1.0.4--py39h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/physlr"
 aliases:

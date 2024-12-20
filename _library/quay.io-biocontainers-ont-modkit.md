@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ont-modkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-modkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-modkit/container.yaml"
-updated_at: "2024-12-19 04:22:11.287509"
+updated_at: "2024-12-20 02:56:45.489605"
 latest: "0.4.1--h5c23e0d_0"
 container_url: "https://biocontainers.pro/tools/ont-modkit"
 aliases:

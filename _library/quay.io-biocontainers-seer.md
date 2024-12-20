@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seer/container.yaml"
-updated_at: "2024-12-19 04:35:57.318727"
+updated_at: "2024-12-20 03:10:46.453345"
 latest: "1.1.4--hb75bb0b_0"
 container_url: "https://biocontainers.pro/tools/seer"
 aliases:

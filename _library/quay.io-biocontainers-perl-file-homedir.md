@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-homedir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
-updated_at: "2024-12-19 04:49:19.459089"
+updated_at: "2024-12-20 03:24:22.498631"
 latest: "1.004--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-file-homedir"
 aliases:

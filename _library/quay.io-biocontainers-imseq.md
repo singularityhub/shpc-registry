@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/imseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imseq/container.yaml"
-updated_at: "2024-12-19 04:22:12.413561"
-latest: "1.1.0--hdcf5f25_7"
+updated_at: "2024-12-20 02:56:46.630221"
+latest: "1.1.0--h077b44d_8"
 container_url: "https://biocontainers.pro/tools/imseq"
 aliases:
  - "imseq"
 versions:
  - "1.1.0--hd03093a_5"
  - "1.1.0--hdcf5f25_7"
+ - "1.1.0--h077b44d_8"
 description: "shpc-registry automated BioContainers addition for imseq"
-config: {"url": "https://biocontainers.pro/tools/imseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imseq", "latest": {"1.1.0--hdcf5f25_7": "sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598"}, "tags": {"1.1.0--hd03093a_5": "sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c", "1.1.0--hdcf5f25_7": "sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598"}, "docker": "quay.io/biocontainers/imseq", "aliases": {"imseq": "/usr/local/bin/imseq"}}
+config: {"url": "https://biocontainers.pro/tools/imseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imseq", "latest": {"1.1.0--h077b44d_8": "sha256:ee8005b112f1641b08e65a54d4ac00bb984728fa0107007be29cba7a31820c42"}, "tags": {"1.1.0--hd03093a_5": "sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c", "1.1.0--hdcf5f25_7": "sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598", "1.1.0--h077b44d_8": "sha256:ee8005b112f1641b08e65a54d4ac00bb984728fa0107007be29cba7a31820c42"}, "docker": "quay.io/biocontainers/imseq", "aliases": {"imseq": "/usr/local/bin/imseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/imseq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/imseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/imseq:1.1.0--hdcf5f25_7
+$ shpc install quay.io/biocontainers/imseq:1.1.0--h077b44d_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/imseq/1.1.0--hdcf5f25_7
-$ module help quay.io/biocontainers/imseq/1.1.0--hdcf5f25_7
+$ module load quay.io/biocontainers/imseq/1.1.0--h077b44d_8
+$ module help quay.io/biocontainers/imseq/1.1.0--h077b44d_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

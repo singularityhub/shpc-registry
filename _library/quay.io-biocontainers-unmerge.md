@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/unmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unmerge/container.yaml"
-updated_at: "2024-12-19 04:32:10.004986"
-latest: "1.0--hdbdd923_4"
+updated_at: "2024-12-20 03:06:54.375088"
+latest: "1.0--h503566f_5"
 container_url: "https://biocontainers.pro/tools/unmerge"
 aliases:
  - "unmerge"
 versions:
  - "1.0--h87f3376_2"
  - "1.0--hdbdd923_4"
+ - "1.0--h503566f_5"
 description: "shpc-registry automated BioContainers addition for unmerge"
-config: {"url": "https://biocontainers.pro/tools/unmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unmerge", "latest": {"1.0--hdbdd923_4": "sha256:e1341f4ff986f996d38d1d7f5d28f932cc81bb4867f7234e0779e6b83d3773c5"}, "tags": {"1.0--h87f3376_2": "sha256:46c2f61eb4dd82219959240b6f3b61692a5d57b1e28ec717e0cafd09dfa421e7", "1.0--hdbdd923_4": "sha256:e1341f4ff986f996d38d1d7f5d28f932cc81bb4867f7234e0779e6b83d3773c5"}, "docker": "quay.io/biocontainers/unmerge", "aliases": {"unmerge": "/usr/local/bin/unmerge"}}
+config: {"url": "https://biocontainers.pro/tools/unmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unmerge", "latest": {"1.0--h503566f_5": "sha256:59b980dc77cbab0546f6cb1611c1eaa1519c2ac7b645a206a4fff07b27f5c96e"}, "tags": {"1.0--h87f3376_2": "sha256:46c2f61eb4dd82219959240b6f3b61692a5d57b1e28ec717e0cafd09dfa421e7", "1.0--hdbdd923_4": "sha256:e1341f4ff986f996d38d1d7f5d28f932cc81bb4867f7234e0779e6b83d3773c5", "1.0--h503566f_5": "sha256:59b980dc77cbab0546f6cb1611c1eaa1519c2ac7b645a206a4fff07b27f5c96e"}, "docker": "quay.io/biocontainers/unmerge", "aliases": {"unmerge": "/usr/local/bin/unmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unmerge.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/unmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unmerge:1.0--hdbdd923_4
+$ shpc install quay.io/biocontainers/unmerge:1.0--h503566f_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unmerge/1.0--hdbdd923_4
-$ module help quay.io/biocontainers/unmerge/1.0--hdbdd923_4
+$ module load quay.io/biocontainers/unmerge/1.0--h503566f_5
+$ module help quay.io/biocontainers/unmerge/1.0--h503566f_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

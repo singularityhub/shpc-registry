@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/break-point-inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/break-point-inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/break-point-inspector/container.yaml"
-updated_at: "2024-12-19 04:46:09.783710"
+updated_at: "2024-12-20 03:21:09.127440"
 latest: "1.5--1"
 container_url: "https://biocontainers.pro/tools/break-point-inspector"
 aliases:

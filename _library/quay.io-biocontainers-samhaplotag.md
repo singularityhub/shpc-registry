@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samhaplotag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samhaplotag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samhaplotag/container.yaml"
-updated_at: "2024-12-19 04:23:22.189825"
-latest: "0.0.4--h4ac6f70_3"
+updated_at: "2024-12-20 02:57:57.645061"
+latest: "0.0.4--h9948957_4"
 container_url: "https://biocontainers.pro/tools/samhaplotag"
 aliases:
  - "10xSpoof"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.0.4--h9f5acd7_1"
  - "0.0.4--h4ac6f70_3"
+ - "0.0.4--h9948957_4"
 description: "shpc-registry automated BioContainers addition for samhaplotag"
-config: {"url": "https://biocontainers.pro/tools/samhaplotag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samhaplotag", "latest": {"0.0.4--h4ac6f70_3": "sha256:64ca167e1a3f282f8b99391b655775a1c2ef3909f29185a77f73ae06bbde6e53"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:10c80be02ecc495c76de9d97d0060548a86591eb99de99fe08c86438c5c0e630", "0.0.4--h4ac6f70_3": "sha256:64ca167e1a3f282f8b99391b655775a1c2ef3909f29185a77f73ae06bbde6e53"}, "docker": "quay.io/biocontainers/samhaplotag", "aliases": {"10xSpoof": "/usr/local/bin/10xSpoof", "16BaseBCGen": "/usr/local/bin/16BaseBCGen", "SamHaplotag": "/usr/local/bin/SamHaplotag"}}
+config: {"url": "https://biocontainers.pro/tools/samhaplotag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samhaplotag", "latest": {"0.0.4--h9948957_4": "sha256:16ade4ced7c768933ad1b81323925826f6e185ebb918230e2f1e5fdbe90eeced"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:10c80be02ecc495c76de9d97d0060548a86591eb99de99fe08c86438c5c0e630", "0.0.4--h4ac6f70_3": "sha256:64ca167e1a3f282f8b99391b655775a1c2ef3909f29185a77f73ae06bbde6e53", "0.0.4--h9948957_4": "sha256:16ade4ced7c768933ad1b81323925826f6e185ebb918230e2f1e5fdbe90eeced"}, "docker": "quay.io/biocontainers/samhaplotag", "aliases": {"10xSpoof": "/usr/local/bin/10xSpoof", "16BaseBCGen": "/usr/local/bin/16BaseBCGen", "SamHaplotag": "/usr/local/bin/SamHaplotag"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samhaplotag.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/samhaplotag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samhaplotag:0.0.4--h4ac6f70_3
+$ shpc install quay.io/biocontainers/samhaplotag:0.0.4--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samhaplotag/0.0.4--h4ac6f70_3
-$ module help quay.io/biocontainers/samhaplotag/0.0.4--h4ac6f70_3
+$ module load quay.io/biocontainers/samhaplotag/0.0.4--h9948957_4
+$ module help quay.io/biocontainers/samhaplotag/0.0.4--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

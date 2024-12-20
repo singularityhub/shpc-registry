@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reads2graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reads2graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reads2graph/container.yaml"
-updated_at: "2024-12-19 04:36:51.073163"
-latest: "1.0.0--hdbdd923_0"
+updated_at: "2024-12-20 03:11:41.306987"
+latest: "1.0.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/reads2graph"
 aliases:
  - "reads2graph"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0--hdbdd923_0"
+ - "1.0.0--h503566f_1"
 description: "singularity registry hpc automated addition for reads2graph"
-config: {"url": "https://biocontainers.pro/tools/reads2graph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reads2graph", "latest": {"1.0.0--hdbdd923_0": "sha256:30e548eabb240900d5ba8562107968e890dc68dc01b504b2e20e710891263d97"}, "tags": {"1.0.0--hdbdd923_0": "sha256:30e548eabb240900d5ba8562107968e890dc68dc01b504b2e20e710891263d97"}, "docker": "quay.io/biocontainers/reads2graph", "aliases": {"reads2graph": "/usr/local/bin/reads2graph", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/reads2graph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reads2graph", "latest": {"1.0.0--h503566f_1": "sha256:1b84406a58b19d45da0378d135433ad61fbc883afb735b7ed2c1a62743c8345e"}, "tags": {"1.0.0--hdbdd923_0": "sha256:30e548eabb240900d5ba8562107968e890dc68dc01b504b2e20e710891263d97", "1.0.0--h503566f_1": "sha256:1b84406a58b19d45da0378d135433ad61fbc883afb735b7ed2c1a62743c8345e"}, "docker": "quay.io/biocontainers/reads2graph", "aliases": {"reads2graph": "/usr/local/bin/reads2graph", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reads2graph.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/reads2graph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reads2graph:1.0.0--hdbdd923_0
+$ shpc install quay.io/biocontainers/reads2graph:1.0.0--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reads2graph/1.0.0--hdbdd923_0
-$ module help quay.io/biocontainers/reads2graph/1.0.0--hdbdd923_0
+$ module load quay.io/biocontainers/reads2graph/1.0.0--h503566f_1
+$ module help quay.io/biocontainers/reads2graph/1.0.0--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

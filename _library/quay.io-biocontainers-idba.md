@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/idba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idba/container.yaml"
-updated_at: "2024-12-19 04:40:32.338570"
+updated_at: "2024-12-20 03:15:26.079925"
 latest: "1.1.3--pl5321h719dbc0_3"
 container_url: "https://biocontainers.pro/tools/idba"
 aliases:

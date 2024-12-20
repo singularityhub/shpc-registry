@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simug"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simug/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simug/container.yaml"
-updated_at: "2024-12-19 05:00:41.827270"
-latest: "1.0.0--hdfd78af_1"
+updated_at: "2024-12-20 03:35:44.791965"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/simug"
 aliases:
  - "gunzip"
@@ -28,8 +28,9 @@ aliases:
  - "podselect"
 versions:
  - "1.0.0--hdfd78af_1"
+ - "1.0.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for simug"
-config: {"url": "https://biocontainers.pro/tools/simug", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simug", "latest": {"1.0.0--hdfd78af_1": "sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f"}, "tags": {"1.0.0--hdfd78af_1": "sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f"}, "docker": "quay.io/biocontainers/simug", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "simuG": "/usr/local/bin/simuG", "uncompress": "/usr/local/bin/uncompress", "vcf2model": "/usr/local/bin/vcf2model", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/simug", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simug", "latest": {"1.0.1--hdfd78af_0": "sha256:83cc2d300add9d4f8ca47424c414135c1137e9b6aa49508238cea411c4e15504"}, "tags": {"1.0.0--hdfd78af_1": "sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f", "1.0.1--hdfd78af_0": "sha256:83cc2d300add9d4f8ca47424c414135c1137e9b6aa49508238cea411c4e15504"}, "docker": "quay.io/biocontainers/simug", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "simuG": "/usr/local/bin/simuG", "uncompress": "/usr/local/bin/uncompress", "vcf2model": "/usr/local/bin/vcf2model", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simug.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/simug
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simug:1.0.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/simug:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simug/1.0.0--hdfd78af_1
-$ module help quay.io/biocontainers/simug/1.0.0--hdfd78af_1
+$ module load quay.io/biocontainers/simug/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/simug/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

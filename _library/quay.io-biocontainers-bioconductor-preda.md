@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-preda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-preda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-preda/container.yaml"
-updated_at: "2024-12-19 04:52:17.596568"
+updated_at: "2024-12-20 03:27:25.359807"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-preda"
 

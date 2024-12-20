@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blend-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blend-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blend-bio/container.yaml"
-updated_at: "2024-12-19 04:21:30.079442"
-latest: "1.0.0--he4a0461_2"
+updated_at: "2024-12-20 02:56:03.603489"
+latest: "1.0.0--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/blend-bio"
 aliases:
  - "blend"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.0--h7132678_0"
  - "1.0.0--he4a0461_2"
+ - "1.0.0--h577a1d6_3"
 description: "singularity registry hpc automated addition for blend-bio"
-config: {"url": "https://biocontainers.pro/tools/blend-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blend-bio", "latest": {"1.0.0--he4a0461_2": "sha256:c617f7e585ebb4ad924fccac22dfae86daa30d373657ba0cf74ae641ca1cf1d7"}, "tags": {"1.0.0--h7132678_0": "sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146", "1.0.0--he4a0461_2": "sha256:c617f7e585ebb4ad924fccac22dfae86daa30d373657ba0cf74ae641ca1cf1d7"}, "docker": "quay.io/biocontainers/blend-bio", "aliases": {"blend": "/usr/local/bin/blend", "sdust": "/usr/local/bin/sdust"}}
+config: {"url": "https://biocontainers.pro/tools/blend-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blend-bio", "latest": {"1.0.0--h577a1d6_3": "sha256:42396c5316f722175c62ff1a7bb7f6bcd4d5c5d83eb8b122f40a0818577e2dc0"}, "tags": {"1.0.0--h7132678_0": "sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146", "1.0.0--he4a0461_2": "sha256:c617f7e585ebb4ad924fccac22dfae86daa30d373657ba0cf74ae641ca1cf1d7", "1.0.0--h577a1d6_3": "sha256:42396c5316f722175c62ff1a7bb7f6bcd4d5c5d83eb8b122f40a0818577e2dc0"}, "docker": "quay.io/biocontainers/blend-bio", "aliases": {"blend": "/usr/local/bin/blend", "sdust": "/usr/local/bin/sdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blend-bio.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/blend-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blend-bio:1.0.0--he4a0461_2
+$ shpc install quay.io/biocontainers/blend-bio:1.0.0--h577a1d6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blend-bio/1.0.0--he4a0461_2
-$ module help quay.io/biocontainers/blend-bio/1.0.0--he4a0461_2
+$ module load quay.io/biocontainers/blend-bio/1.0.0--h577a1d6_3
+$ module help quay.io/biocontainers/blend-bio/1.0.0--h577a1d6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

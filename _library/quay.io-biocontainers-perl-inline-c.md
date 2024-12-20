@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-inline-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-inline-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-inline-c/container.yaml"
-updated_at: "2024-12-19 04:39:38.337707"
+updated_at: "2024-12-20 03:14:31.049119"
 latest: "0.81--pl5321h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/perl-inline-c"
 aliases:

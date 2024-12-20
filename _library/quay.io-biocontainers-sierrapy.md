@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sierrapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sierrapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sierrapy/container.yaml"
-updated_at: "2024-12-19 04:40:26.377200"
+updated_at: "2024-12-20 03:15:20.014881"
 latest: "0.4.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sierrapy"
 aliases:

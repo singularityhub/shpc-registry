@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netresponse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
-updated_at: "2024-12-19 04:35:29.204244"
-latest: "1.62.0--r43ha9d7317_1"
+updated_at: "2024-12-20 03:10:17.674288"
+latest: "1.66.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netresponse"
 aliases:
  - "pandoc-server"
@@ -18,8 +18,9 @@ versions:
  - "1.60.0--r43ha9d7317_0"
  - "1.62.0--r43ha9d7317_0"
  - "1.62.0--r43ha9d7317_1"
+ - "1.66.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netresponse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netresponse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netresponse", "latest": {"1.62.0--r43ha9d7317_1": "sha256:637d73efd9861d2d7c4667e5ef46a8c1c6e59dcc5a059f6a240683983a46ceb9"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20", "1.58.0--r42hc0cfd56_0": "sha256:97264e6f2101467af00754e6f4d231b7bceb8d56035063e66e83360cda199424", "1.58.0--r42ha9d7317_1": "sha256:06fc0f339f7bf89dc5751cfb5ff561e4086abc0eeebc17565871f70083b00188", "1.60.0--r43ha9d7317_0": "sha256:eacc6f27ee0eb07314357f558c377c89e7206835bb0accd97893c983f829e6a7", "1.62.0--r43ha9d7317_0": "sha256:8bec218adf1bcc6088d1ca6fb9ed032e0232c26e1e76802c5e5bb9064c630e35", "1.62.0--r43ha9d7317_1": "sha256:637d73efd9861d2d7c4667e5ef46a8c1c6e59dcc5a059f6a240683983a46ceb9"}, "docker": "quay.io/biocontainers/bioconductor-netresponse", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netresponse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netresponse", "latest": {"1.66.0--r44h3df3fcb_0": "sha256:8df3d0d5c60e6a74277e078b8217bdf68a46172f02813e401be15db2013507d7"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20", "1.58.0--r42hc0cfd56_0": "sha256:97264e6f2101467af00754e6f4d231b7bceb8d56035063e66e83360cda199424", "1.58.0--r42ha9d7317_1": "sha256:06fc0f339f7bf89dc5751cfb5ff561e4086abc0eeebc17565871f70083b00188", "1.60.0--r43ha9d7317_0": "sha256:eacc6f27ee0eb07314357f558c377c89e7206835bb0accd97893c983f829e6a7", "1.62.0--r43ha9d7317_0": "sha256:8bec218adf1bcc6088d1ca6fb9ed032e0232c26e1e76802c5e5bb9064c630e35", "1.62.0--r43ha9d7317_1": "sha256:637d73efd9861d2d7c4667e5ef46a8c1c6e59dcc5a059f6a240683983a46ceb9", "1.66.0--r44h3df3fcb_0": "sha256:8df3d0d5c60e6a74277e078b8217bdf68a46172f02813e401be15db2013507d7"}, "docker": "quay.io/biocontainers/bioconductor-netresponse", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netresponse.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netresponse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netresponse:1.62.0--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-netresponse:1.66.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netresponse/1.62.0--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-netresponse/1.62.0--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-netresponse/1.66.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-netresponse/1.66.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

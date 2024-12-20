@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/consan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consan/container.yaml"
-updated_at: "2024-12-19 04:43:33.983797"
-latest: "1.2--h031d066_5"
+updated_at: "2024-12-20 03:18:30.850691"
+latest: "1.2--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/consan"
 aliases:
  - "bstats"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.2--hec16e2b_3"
  - "1.2--h031d066_5"
+ - "1.2--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for consan"
-config: {"url": "https://biocontainers.pro/tools/consan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consan", "latest": {"1.2--h031d066_5": "sha256:0d0d6a06a7028b2749737530591b4b280ba1ead1611b216dbbdc8570ea40fdec"}, "tags": {"1.2--hec16e2b_3": "sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045", "1.2--h031d066_5": "sha256:0d0d6a06a7028b2749737530591b4b280ba1ead1611b216dbbdc8570ea40fdec"}, "docker": "quay.io/biocontainers/consan", "aliases": {"bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "pModel": "/usr/local/bin/pModel", "scompare": "/usr/local/bin/scompare", "sfold": "/usr/local/bin/sfold", "strain_ml": "/usr/local/bin/strain_ml"}}
+config: {"url": "https://biocontainers.pro/tools/consan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consan", "latest": {"1.2--h7b50bb2_7": "sha256:91ed01bbbd7979a61aa3accf2d756c8cc6e388a97ae22c2164d0fcfde2ee3725"}, "tags": {"1.2--hec16e2b_3": "sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045", "1.2--h031d066_5": "sha256:0d0d6a06a7028b2749737530591b4b280ba1ead1611b216dbbdc8570ea40fdec", "1.2--h7b50bb2_7": "sha256:91ed01bbbd7979a61aa3accf2d756c8cc6e388a97ae22c2164d0fcfde2ee3725"}, "docker": "quay.io/biocontainers/consan", "aliases": {"bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "pModel": "/usr/local/bin/pModel", "scompare": "/usr/local/bin/scompare", "sfold": "/usr/local/bin/sfold", "strain_ml": "/usr/local/bin/strain_ml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/consan.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/consan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/consan:1.2--h031d066_5
+$ shpc install quay.io/biocontainers/consan:1.2--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/consan/1.2--h031d066_5
-$ module help quay.io/biocontainers/consan/1.2--h031d066_5
+$ module load quay.io/biocontainers/consan/1.2--h7b50bb2_7
+$ module help quay.io/biocontainers/consan/1.2--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

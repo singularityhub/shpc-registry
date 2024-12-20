@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-glmgampoi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glmgampoi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glmgampoi/container.yaml"
-updated_at: "2024-12-19 04:42:15.708073"
+updated_at: "2024-12-20 03:17:11.021197"
 latest: "1.14.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glmgampoi"
 
