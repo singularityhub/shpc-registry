@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/aletsch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aletsch
 latest:
-  1.1.3--hdbdd923_0: sha256:82b8b6dc711970b96ba8ebb886f11be49feb8a8e5055b260fd4d2515c67df356
+  1.1.3--h503566f_1: sha256:ebe60cd6b67318605290cae4e5575618d8a6beeea7f7ef4228957b9c1667e0cc
 tags:
   1.0.3--hefd527f_4: sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755
   1.0.3--h66ab1b6_5: sha256:990b58274b1419c87200feed353a842384329364c1eca3e984475dcfe3b91eb0
@@ -11,6 +11,7 @@ tags:
   1.1.1--hdbdd923_1: sha256:4de5414fc4e4bf9b1235a2e239a509a2918cba2378819ed4cbbe292af3d36c22
   1.1.2--hdbdd923_1: sha256:7aa3e7ed25ae1e93bcec5a5a30945d3ba1f34769e636c3c8daf82e8539803305
   1.1.3--hdbdd923_0: sha256:82b8b6dc711970b96ba8ebb886f11be49feb8a8e5055b260fd4d2515c67df356
+  1.1.3--h503566f_1: sha256:ebe60cd6b67318605290cae4e5575618d8a6beeea7f7ef4228957b9c1667e0cc
 docker: quay.io/biocontainers/aletsch
 aliases:
   aletsch: /usr/local/bin/aletsch

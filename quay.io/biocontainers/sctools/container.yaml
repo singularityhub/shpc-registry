@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sctools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sctools
 latest:
-  1.0.0--hdcf5f25_4: sha256:1f1d8d46a4b2dc8f8dd994efb570e2ff67425ece45caa23e1139280745094b51
+  1.0.0--h077b44d_5: sha256:1b63a34ff7b725975d052cd16980e21bf898a03c94ce7cdd597214cdbccec293
 tags:
   1.0.0--hd03093a_2: sha256:6b8a23ce4487ab761d8489d782bacd89b2aa04d3dd8f3ec88e093afcd79010fb
   1.0.0--hdcf5f25_4: sha256:1f1d8d46a4b2dc8f8dd994efb570e2ff67425ece45caa23e1139280745094b51
+  1.0.0--h077b44d_5: sha256:1b63a34ff7b725975d052cd16980e21bf898a03c94ce7cdd597214cdbccec293
 docker: quay.io/biocontainers/sctools
 aliases:
   sctools_demultiplex: /usr/local/bin/sctools_demultiplex

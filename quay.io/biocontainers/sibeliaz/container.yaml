@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sibeliaz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sibeliaz
 latest:
-  1.2.5--hbb2dabb_3: sha256:88c6b9203f92994fd9bbce359e3e8a61d8bc08017266a799a1bac0b23fac7e73
+  1.2.5--hc252753_4: sha256:491d021db9d7486a7074973303c6b9d2ff77a7a8bc1037972dc19fd05486489a
 tags:
   1.2.5--h7bb7ee6_2: sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8
   1.2.5--hbb2dabb_3: sha256:88c6b9203f92994fd9bbce359e3e8a61d8bc08017266a799a1bac0b23fac7e73
+  1.2.5--hc252753_4: sha256:491d021db9d7486a7074973303c6b9d2ff77a7a8bc1037972dc19fd05486489a
 docker: quay.io/biocontainers/sibeliaz
 aliases:
   graphdump: /usr/local/bin/graphdump

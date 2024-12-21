@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-cnorfeeder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cnorfeeder
 latest:
-  1.42.0--r43hdfd78af_0: sha256:1ac7cde54f30f890242d054b1a123b3779720105424ef4a6f6266eeac0f23f0a
+  1.46.0--r44hdfd78af_0: sha256:a4fe53c1eeb9ef1fbb0380aed81b5ffb192b28c9320561b25d3b20d62ce94517
 tags:
   1.34.0--r41hdfd78af_0: sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d
   1.38.0--r42hdfd78af_0: sha256:1a3d64ab13624e08ade0207396eb13ce4e9b3d9a1696a3e7a011fcaf845cf18d
   1.40.0--r43hdfd78af_0: sha256:9430d590c457529061a91d7615fb092d87bd20dbbe31978c056aee1cef8e09eb
   1.42.0--r43hdfd78af_0: sha256:1ac7cde54f30f890242d054b1a123b3779720105424ef4a6f6266eeac0f23f0a
+  1.46.0--r44hdfd78af_0: sha256:a4fe53c1eeb9ef1fbb0380aed81b5ffb192b28c9320561b25d3b20d62ce94517
 docker: quay.io/biocontainers/bioconductor-cnorfeeder
 aliases:
   diffimg: /usr/local/bin/diffimg

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-monocle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-monocle
 latest:
-  2.30.0--r43hf17093f_1: sha256:f1da96f6af3af5c53a68097f6679140b3efc494f7a28223ad3ab0077b877d115
+  2.34.0--r44he5774e6_0: sha256:99084811e4ee1683d404dcf708e0984b26cbe53ee43459dab77b2cd6d99ea776
 tags:
   2.8.0--r341hfc679d8_0: sha256:6771881f0286602d116a97b6b22cafad69ddd45d4d452702a7ddb13941c540de
   2.26.0--r42hc247a5b_0: sha256:e9a8139512f2bd14a5ea1cfd28d2d295d23a58e7f89d0fdc5878f0ab15775fe7
@@ -14,6 +14,7 @@ tags:
   2.28.0--r43hf17093f_0: sha256:7ed6af64d885189e6bbba7101cf4acb3c9ff68ce6d4efb0741b56de7e699bc0b
   2.30.0--r43hf17093f_0: sha256:91c3c3bbf5a9d9f08d5dc1872d71f13cb37790929152ecbaea8ef1b0c940be69
   2.30.0--r43hf17093f_1: sha256:f1da96f6af3af5c53a68097f6679140b3efc494f7a28223ad3ab0077b877d115
+  2.34.0--r44he5774e6_0: sha256:99084811e4ee1683d404dcf708e0984b26cbe53ee43459dab77b2cd6d99ea776
 docker: quay.io/biocontainers/bioconductor-monocle
 aliases:
   wget: /usr/local/bin/wget

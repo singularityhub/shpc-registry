@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/palikiss
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for palikiss
 latest:
-  1.1.0--pl5321h4ac6f70_1: sha256:d60da4d386f30d9fb19cfc2ef6b6a6322b937eca28210eac411a3dee35d02946
+  1.1.0--pl5321h9948957_2: sha256:23235d32b47bc04ffe1afc990460f1233f7ee91a8cf1dd953d24badde6cd5d3f
 tags:
   1.1.0--pl5321h4ac6f70_0: sha256:136f308f3bb9662125d16c4c03aea04946e0a78a4d08fe34b2e2b91507524c45
   1.1.0--pl5321h4ac6f70_1: sha256:d60da4d386f30d9fb19cfc2ef6b6a6322b937eca28210eac411a3dee35d02946
+  1.1.0--pl5321h9948957_2: sha256:23235d32b47bc04ffe1afc990460f1233f7ee91a8cf1dd953d24badde6cd5d3f
 docker: quay.io/biocontainers/palikiss
 aliases:
   addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl

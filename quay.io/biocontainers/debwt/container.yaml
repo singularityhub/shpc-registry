@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/debwt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for debwt
 latest:
-  1.0.1--he4a0461_7: sha256:4079340c9e726e9f5758634be6985e063bb9442b30879179abf5580b9889d577
+  1.0.1--h577a1d6_8: sha256:6e46b096f2376a04aa393ba8696460ba51032f6f3dad74ba82e59b63cf491486
 tags:
   1.0.1--h7132678_5: sha256:bae1b7a22194b702a6a9440f245664a5e6073edfc560c9deb81e457d16edfaf8
   1.0.1--he4a0461_7: sha256:4079340c9e726e9f5758634be6985e063bb9442b30879179abf5580b9889d577
+  1.0.1--h577a1d6_8: sha256:6e46b096f2376a04aa393ba8696460ba51032f6f3dad74ba82e59b63cf491486
 docker: quay.io/biocontainers/debwt
 aliases:
   deBWT: /usr/local/bin/deBWT

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/glimpse-bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for glimpse-bio
 latest:
-  2.0.1--hfd77d35_2: sha256:9fd05378c917a906cd4a4c6e68cdfbc768b99f25f4369aa7f4a1fec93bbe74ce
+  2.0.1--ha5d29c5_3: sha256:bb9579de652942888a20e6add48387e790447589f99b492bb9fc257ba8f5904e
 tags:
   v1.1.1--hd3cd7f2_0: sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207
   1.1.1--h0303221_3: sha256:bd344086b0116b07dfe588efa3fc9bb112ab5cd942409c9d18b1c733178f9bc5
@@ -10,6 +10,7 @@ tags:
   2.0.0--h46b9e50_1: sha256:2f205783a57e2e61d820f40d4105d503b5031df830f1fe1bb162735cdd9b0115
   2.0.1--h46b9e50_1: sha256:6d91bc8703f2cdc26d6a60980fef227059b21f1fae96c6ff1641c55e88ebd179
   2.0.1--hfd77d35_2: sha256:9fd05378c917a906cd4a4c6e68cdfbc768b99f25f4369aa7f4a1fec93bbe74ce
+  2.0.1--ha5d29c5_3: sha256:bb9579de652942888a20e6add48387e790447589f99b492bb9fc257ba8f5904e
 docker: quay.io/biocontainers/glimpse-bio
 aliases:
   GLIMPSE_chunk: /usr/local/bin/GLIMPSE_chunk

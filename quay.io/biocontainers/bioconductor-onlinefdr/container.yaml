@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-onlinefdr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-onlinefdr
 latest:
-  2.10.0--r43hf17093f_0: sha256:a43f677a3758bf5e1d82800c7a7a506d6a041a1fafeeb72e9926590ab9385f04
+  2.14.0--r44he5774e6_0: sha256:f4cd4e88dc8892e102bc9edc23a894e2f654a36b71c7a887635352a38bed284d
 tags:
   2.2.0--r41hc247a5b_2: sha256:b31fc934b6d6b4bcb73be92a10f244e04b6b4c96b5afaf5fc8ca89e76fa863ee
   2.6.0--r42hc247a5b_0: sha256:9163f05f69bfa2e279d458b31a025a24fc29eee1b8d11e013f457111ab902cd7
   2.6.0--r42hf17093f_2: sha256:c5d7399485458f21519aadb528fd49d2a4a1fb7de2e596a8fd937f1359b4f930
   2.8.0--r43hf17093f_0: sha256:2bcdd082e37ca8364d3848effdc187f75799aeb9a8b02274e013ac20dc02fc02
   2.10.0--r43hf17093f_0: sha256:a43f677a3758bf5e1d82800c7a7a506d6a041a1fafeeb72e9926590ab9385f04
+  2.14.0--r44he5774e6_0: sha256:f4cd4e88dc8892e102bc9edc23a894e2f654a36b71c7a887635352a38bed284d
 docker: quay.io/biocontainers/bioconductor-onlinefdr

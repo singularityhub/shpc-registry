@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rhdf5client
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rhdf5client
 latest:
-  1.24.0--r43ha9d7317_0: sha256:07410b6f27cd583c5a7352f98cbc1537eff7e371a3cd5e06629da2299ef46999
+  1.28.0--r44h3df3fcb_0: sha256:78ee67f2c8ecf80836e4f22d889f556b781a60664600a1052d3fe91e592c9d12
 tags:
   1.8.0--r36h516909a_0: sha256:2ddcc7db778c4a9ecc0d389703ac657afc392811b11e07ad4baece504dfa20d7
   1.20.0--r42hc0cfd56_0: sha256:99bc44e1a7a34dbf990992aaa6f33e310889b12cebd19c0a960ca498d859e930
@@ -13,6 +13,7 @@ tags:
   1.20.0--r42ha9d7317_1: sha256:5fb6d8b360bf9902a36c0bef8fc9e2364f8b1074aaccf26865b469ab9e73dead
   1.22.0--r43ha9d7317_0: sha256:06fa4ebd374aa3d63c82fd0560456b9ced6aa4c8b83f19c62f26aae2db454d97
   1.24.0--r43ha9d7317_0: sha256:07410b6f27cd583c5a7352f98cbc1537eff7e371a3cd5e06629da2299ef46999
+  1.28.0--r44h3df3fcb_0: sha256:78ee67f2c8ecf80836e4f22d889f556b781a60664600a1052d3fe91e592c9d12
 docker: quay.io/biocontainers/bioconductor-rhdf5client
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

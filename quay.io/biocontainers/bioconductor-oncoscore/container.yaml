@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-oncoscore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-oncoscore
 latest:
-  1.30.0--r43hdfd78af_0: sha256:415a8dd648a7b78b6f06de3e7c98e91dbfbe6b1af083a47fe8d8efae127b698a
+  1.34.0--r44hdfd78af_0: sha256:f7cee8a9a1c0e21e24b2b48e3876cbe36b6f4f381c7ae0f2fb8abf81b992a74c
 tags:
   1.22.0--r41hdfd78af_0: sha256:dbcd92f5744f2af480a497d1b7cab31a6008d69d294d1c811ef185e5cf8deb54
   1.26.0--r42hdfd78af_0: sha256:9194c0cab458ba32397cc40257e717f200ae5ffc1043d0214d217d161de0533e
   1.28.0--r43hdfd78af_0: sha256:c154e3159462664a77729a181a11dc889f47266b1538d3c83ac6c64ba7485a11
   1.30.0--r43hdfd78af_0: sha256:415a8dd648a7b78b6f06de3e7c98e91dbfbe6b1af083a47fe8d8efae127b698a
+  1.34.0--r44hdfd78af_0: sha256:f7cee8a9a1c0e21e24b2b48e3876cbe36b6f4f381c7ae0f2fb8abf81b992a74c
 docker: quay.io/biocontainers/bioconductor-oncoscore

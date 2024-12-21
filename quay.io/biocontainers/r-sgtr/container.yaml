@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-sgtr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sgtr
 latest:
-  1.1.4--r43hdbdd923_7: sha256:c33b0ae22e34c4e704f780059554ae9f3131f0b7cc457629b8a8299516db13d4
+  1.1.4--r44h503566f_8: sha256:546aa4cff1783e512bea3db353697e585c7f4afe055ac1c3c4bba1fdd654c63c
 tags:
   1.1.4--r41h87f3376_3: sha256:7e1fd32eed4791e3467a5dee6917694b9f49b8149f5b4dddec0a28a515e5a9b1
   1.1.4--r42h87f3376_4: sha256:d468226b192eff5e805cfc6aeeec4ad7fb523dcb03f9f0b3efb370deaa006748
   1.1.4--r42hdbdd923_6: sha256:11cc1c1339ef77c123a288c0cfe3d4747f729498cf6e28d764a1aadf1b4141fd
   1.1.4--r43hdbdd923_7: sha256:c33b0ae22e34c4e704f780059554ae9f3131f0b7cc457629b8a8299516db13d4
+  1.1.4--r44h503566f_8: sha256:546aa4cff1783e512bea3db353697e585c7f4afe055ac1c3c4bba1fdd654c63c
 docker: quay.io/biocontainers/r-sgtr
