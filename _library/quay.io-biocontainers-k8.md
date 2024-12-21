@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/k8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k8/container.yaml"
-updated_at: "2024-12-20 02:57:52.776260"
-latest: "1.2--h6618dc6_3"
+updated_at: "2024-12-21 02:53:09.372099"
+latest: "1.2--he8db53b_5"
 container_url: "https://biocontainers.pro/tools/k8"
 aliases:
  - "k8"
@@ -15,8 +15,9 @@ versions:
  - "1.0--h6618dc6_0"
  - "1.2--h6618dc6_1"
  - "1.2--h6618dc6_3"
+ - "1.2--he8db53b_5"
 description: "shpc-registry automated BioContainers addition for k8"
-config: {"url": "https://biocontainers.pro/tools/k8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for k8", "latest": {"1.2--h6618dc6_3": "sha256:625512f0dbcc90bec6bb542086c17efc3f9aea2f07ff75a6321822a2ffde6bf9"}, "tags": {"0.2.5--hd03093a_2": "sha256:a38324382ff30253f5765d7012f49447c79e7887188e2f37c5167206620074c9", "0.2.5--hdcf5f25_4": "sha256:d75f340daccef624e8e0b69beb94ebbe47253506391183dbba347a099972e14a", "1.0--h6618dc6_0": "sha256:d9e3e42806ffceb191c2fcdf2d943d7fc444fe57ea424cdbf62b57f5e0159b63", "1.2--h6618dc6_1": "sha256:eb9dd804e8257f5225eca04dffe0e59867a7d97d82d2b3d54f4fd9624557d5bf", "1.2--h6618dc6_3": "sha256:625512f0dbcc90bec6bb542086c17efc3f9aea2f07ff75a6321822a2ffde6bf9"}, "docker": "quay.io/biocontainers/k8", "aliases": {"k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/k8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for k8", "latest": {"1.2--he8db53b_5": "sha256:67fb3ce2517aa8ae9129b8b720cdf2b55266651b5331d78311a5eefe3970d69b"}, "tags": {"0.2.5--hd03093a_2": "sha256:a38324382ff30253f5765d7012f49447c79e7887188e2f37c5167206620074c9", "0.2.5--hdcf5f25_4": "sha256:d75f340daccef624e8e0b69beb94ebbe47253506391183dbba347a099972e14a", "1.0--h6618dc6_0": "sha256:d9e3e42806ffceb191c2fcdf2d943d7fc444fe57ea424cdbf62b57f5e0159b63", "1.2--h6618dc6_1": "sha256:eb9dd804e8257f5225eca04dffe0e59867a7d97d82d2b3d54f4fd9624557d5bf", "1.2--h6618dc6_3": "sha256:625512f0dbcc90bec6bb542086c17efc3f9aea2f07ff75a6321822a2ffde6bf9", "1.2--he8db53b_5": "sha256:67fb3ce2517aa8ae9129b8b720cdf2b55266651b5331d78311a5eefe3970d69b"}, "docker": "quay.io/biocontainers/k8", "aliases": {"k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/k8.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/k8
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/k8:1.2--h6618dc6_3
+$ shpc install quay.io/biocontainers/k8:1.2--he8db53b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/k8/1.2--h6618dc6_3
-$ module help quay.io/biocontainers/k8/1.2--h6618dc6_3
+$ module load quay.io/biocontainers/k8/1.2--he8db53b_5
+$ module help quay.io/biocontainers/k8/1.2--he8db53b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

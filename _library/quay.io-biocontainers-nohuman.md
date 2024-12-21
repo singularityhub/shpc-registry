@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nohuman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nohuman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nohuman/container.yaml"
-updated_at: "2024-12-20 03:04:39.137955"
-latest: "0.3.0--h715e4b3_0"
+updated_at: "2024-12-21 02:59:59.936255"
+latest: "0.3.0--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/nohuman"
 aliases:
  - "nohuman"
@@ -39,8 +39,9 @@ versions:
  - "0.1.1--h5076881_0"
  - "0.3.0--h715e4b3_0"
  - "0.2.1--h715e4b3_0"
+ - "0.3.0--hc1c3326_1"
 description: "singularity registry hpc automated addition for nohuman"
-config: {"url": "https://biocontainers.pro/tools/nohuman", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nohuman", "latest": {"0.3.0--h715e4b3_0": "sha256:ac4f3a6e2fb4b211edbda331ce8e1609b975dbfefe9ec4e2e7d472dd4b0e0305"}, "tags": {"0.1.0--h5076881_0": "sha256:35c8b08a3519cbb4ab40a5fb6b7e8f01917bb2d4182de76d0fa098e7294f7df2", "0.1.1--h5076881_0": "sha256:8b744cd6fbc10710709932db31ec2a3485bf045cfb87734c6d6eef98d7c0b626", "0.3.0--h715e4b3_0": "sha256:ac4f3a6e2fb4b211edbda331ce8e1609b975dbfefe9ec4e2e7d472dd4b0e0305", "0.2.1--h715e4b3_0": "sha256:31e82a39c712e95ad521aac5459726085334d3a0332d2ae6bc565c7917b51a94"}, "docker": "quay.io/biocontainers/nohuman", "aliases": {"nohuman": "/usr/local/bin/nohuman", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
+config: {"url": "https://biocontainers.pro/tools/nohuman", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nohuman", "latest": {"0.3.0--hc1c3326_1": "sha256:fdd8f2d52f5e15fd2176454b7d9c410d0b06f2192053ac8a8502c8ab201154d9"}, "tags": {"0.1.0--h5076881_0": "sha256:35c8b08a3519cbb4ab40a5fb6b7e8f01917bb2d4182de76d0fa098e7294f7df2", "0.1.1--h5076881_0": "sha256:8b744cd6fbc10710709932db31ec2a3485bf045cfb87734c6d6eef98d7c0b626", "0.3.0--h715e4b3_0": "sha256:ac4f3a6e2fb4b211edbda331ce8e1609b975dbfefe9ec4e2e7d472dd4b0e0305", "0.2.1--h715e4b3_0": "sha256:31e82a39c712e95ad521aac5459726085334d3a0332d2ae6bc565c7917b51a94", "0.3.0--hc1c3326_1": "sha256:fdd8f2d52f5e15fd2176454b7d9c410d0b06f2192053ac8a8502c8ab201154d9"}, "docker": "quay.io/biocontainers/nohuman", "aliases": {"nohuman": "/usr/local/bin/nohuman", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nohuman.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/nohuman
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nohuman:0.3.0--h715e4b3_0
+$ shpc install quay.io/biocontainers/nohuman:0.3.0--hc1c3326_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nohuman/0.3.0--h715e4b3_0
-$ module help quay.io/biocontainers/nohuman/0.3.0--h715e4b3_0
+$ module load quay.io/biocontainers/nohuman/0.3.0--hc1c3326_1
+$ module help quay.io/biocontainers/nohuman/0.3.0--hc1c3326_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

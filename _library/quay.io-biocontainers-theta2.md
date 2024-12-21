@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/theta2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/theta2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/theta2/container.yaml"
-updated_at: "2024-12-20 03:22:31.894964"
+updated_at: "2024-12-21 03:17:46.326634"
 latest: "0.7--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/theta2"
 aliases:

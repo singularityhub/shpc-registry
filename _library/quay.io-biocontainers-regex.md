@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regex/container.yaml"
-updated_at: "2024-12-20 03:03:41.666785"
+updated_at: "2024-12-21 02:59:02.275379"
 latest: "2016.06.24--py35_1"
 container_url: "https://biocontainers.pro/tools/regex"
 aliases:

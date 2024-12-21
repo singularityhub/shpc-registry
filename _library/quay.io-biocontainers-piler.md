@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piler/container.yaml"
-updated_at: "2024-12-20 03:40:45.517390"
+updated_at: "2024-12-21 03:35:39.782370"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/piler"
 

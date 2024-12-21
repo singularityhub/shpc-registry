@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-loomr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loomr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loomr/container.yaml"
-updated_at: "2024-12-20 03:04:30.702682"
-latest: "0.2.0_beta--r43hdfd78af_5"
+updated_at: "2024-12-21 02:59:51.676370"
+latest: "0.2.0_beta--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-loomr"
 aliases:
  - "h5clear"
@@ -22,8 +22,9 @@ versions:
  - "0.2.0_beta--r41hdfd78af_3"
  - "0.2.0_beta--r42hdfd78af_4"
  - "0.2.0_beta--r43hdfd78af_5"
+ - "0.2.0_beta--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-loomr"
-config: {"url": "https://biocontainers.pro/tools/r-loomr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loomr", "latest": {"0.2.0_beta--r43hdfd78af_5": "sha256:dac731eb492ee6e941c9034a59329c898c69b9d850ac68dcfe22ae71c59c7859"}, "tags": {"0.2.0_beta--r41hdfd78af_3": "sha256:23cb619943d10d6831894b77f296983607183e76e3cd17c0ca7d1eb137b296ab", "0.2.0_beta--r42hdfd78af_4": "sha256:52fee6d41e15ed9123eb069afd66043755a21e1bdeb5a9583cfaf518c96d79e4", "0.2.0_beta--r43hdfd78af_5": "sha256:dac731eb492ee6e941c9034a59329c898c69b9d850ac68dcfe22ae71c59c7859"}, "docker": "quay.io/biocontainers/r-loomr", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/r-loomr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loomr", "latest": {"0.2.0_beta--r44hdfd78af_6": "sha256:a1918b6323b466d096228994afbaccd136fee8eb796f4c2256f30df208ac23c1"}, "tags": {"0.2.0_beta--r41hdfd78af_3": "sha256:23cb619943d10d6831894b77f296983607183e76e3cd17c0ca7d1eb137b296ab", "0.2.0_beta--r42hdfd78af_4": "sha256:52fee6d41e15ed9123eb069afd66043755a21e1bdeb5a9583cfaf518c96d79e4", "0.2.0_beta--r43hdfd78af_5": "sha256:dac731eb492ee6e941c9034a59329c898c69b9d850ac68dcfe22ae71c59c7859", "0.2.0_beta--r44hdfd78af_6": "sha256:a1918b6323b466d096228994afbaccd136fee8eb796f4c2256f30df208ac23c1"}, "docker": "quay.io/biocontainers/r-loomr", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-loomr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-loomr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-loomr:0.2.0_beta--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/r-loomr:0.2.0_beta--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-loomr/0.2.0_beta--r43hdfd78af_5
-$ module help quay.io/biocontainers/r-loomr/0.2.0_beta--r43hdfd78af_5
+$ module load quay.io/biocontainers/r-loomr/0.2.0_beta--r44hdfd78af_6
+$ module help quay.io/biocontainers/r-loomr/0.2.0_beta--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

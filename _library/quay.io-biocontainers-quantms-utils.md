@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quantms-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantms-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantms-utils/container.yaml"
-updated_at: "2024-12-20 02:57:28.069365"
-latest: "0.0.12--pyhdfd78af_0"
+updated_at: "2024-12-21 02:52:44.719064"
+latest: "0.0.18--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/quantms-utils"
 aliases:
  - "deeplc"
@@ -70,8 +70,9 @@ versions:
  - "0.0.9--pyhdfd78af_0"
  - "0.0.11--pyhdfd78af_0"
  - "0.0.12--pyhdfd78af_0"
+ - "0.0.18--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for quantms-utils"
-config: {"url": "https://biocontainers.pro/tools/quantms-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quantms-utils", "latest": {"0.0.12--pyhdfd78af_0": "sha256:7ea79252678b000c07196190adc718389abc6224727b2f05e909d2a35859806d"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d45077ff4f3164613020a4c57658c5118337b1efc4a105f07972179f31b7a54b", "0.0.9--pyhdfd78af_0": "sha256:d580f48ef0c82e32ddcbfa559b58a559571f5a0702fa578bd0533ca1614932fc", "0.0.11--pyhdfd78af_0": "sha256:fc1051c835d11c2790ccbb30f74a4c4082b5c871c195efca74a5b7966a5ca559", "0.0.12--pyhdfd78af_0": "sha256:7ea79252678b000c07196190adc718389abc6224727b2f05e909d2a35859806d"}, "docker": "quay.io/biocontainers/quantms-utils", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "fasta2speclib": "/usr/local/bin/fasta2speclib", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "mokapot": "/usr/local/bin/mokapot", "ms2pip": "/usr/local/bin/ms2pip", "ms2rescore": "/usr/local/bin/ms2rescore", "ms2rescore-gui": "/usr/local/bin/ms2rescore-gui", "ms2rescore-report": "/usr/local/bin/ms2rescore-report", "parse_sdrf": "/usr/local/bin/parse_sdrf", "progressbar": "/usr/local/bin/progressbar", "psm_utils": "/usr/local/bin/psm_utils", "pyaml": "/usr/local/bin/pyaml", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "quantmsutilsc": "/usr/local/bin/quantmsutilsc", "triqler": "/usr/local/bin/triqler", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.1": "/usr/local/bin/wxrc-3.1", "cpuinfo": "/usr/local/bin/cpuinfo", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "xgboost": "/usr/local/bin/xgboost", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print", "SAXCount": "/usr/local/bin/SAXCount", "SAXPrint": "/usr/local/bin/SAXPrint", "SCMPrint": "/usr/local/bin/SCMPrint", "SEnumVal": "/usr/local/bin/SEnumVal", "StdInParse": "/usr/local/bin/StdInParse", "XInclude": "/usr/local/bin/XInclude"}}
+config: {"url": "https://biocontainers.pro/tools/quantms-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quantms-utils", "latest": {"0.0.18--pyh7e72e81_0": "sha256:6ffd092e33bd22af520191dcaa2a95db27e9cf73ae3c2cbe10fef91c5cbd79e7"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d45077ff4f3164613020a4c57658c5118337b1efc4a105f07972179f31b7a54b", "0.0.9--pyhdfd78af_0": "sha256:d580f48ef0c82e32ddcbfa559b58a559571f5a0702fa578bd0533ca1614932fc", "0.0.11--pyhdfd78af_0": "sha256:fc1051c835d11c2790ccbb30f74a4c4082b5c871c195efca74a5b7966a5ca559", "0.0.12--pyhdfd78af_0": "sha256:7ea79252678b000c07196190adc718389abc6224727b2f05e909d2a35859806d", "0.0.18--pyh7e72e81_0": "sha256:6ffd092e33bd22af520191dcaa2a95db27e9cf73ae3c2cbe10fef91c5cbd79e7"}, "docker": "quay.io/biocontainers/quantms-utils", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "fasta2speclib": "/usr/local/bin/fasta2speclib", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "mokapot": "/usr/local/bin/mokapot", "ms2pip": "/usr/local/bin/ms2pip", "ms2rescore": "/usr/local/bin/ms2rescore", "ms2rescore-gui": "/usr/local/bin/ms2rescore-gui", "ms2rescore-report": "/usr/local/bin/ms2rescore-report", "parse_sdrf": "/usr/local/bin/parse_sdrf", "progressbar": "/usr/local/bin/progressbar", "psm_utils": "/usr/local/bin/psm_utils", "pyaml": "/usr/local/bin/pyaml", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "quantmsutilsc": "/usr/local/bin/quantmsutilsc", "triqler": "/usr/local/bin/triqler", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.1": "/usr/local/bin/wxrc-3.1", "cpuinfo": "/usr/local/bin/cpuinfo", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "xgboost": "/usr/local/bin/xgboost", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print", "SAXCount": "/usr/local/bin/SAXCount", "SAXPrint": "/usr/local/bin/SAXPrint", "SCMPrint": "/usr/local/bin/SCMPrint", "SEnumVal": "/usr/local/bin/SEnumVal", "StdInParse": "/usr/local/bin/StdInParse", "XInclude": "/usr/local/bin/XInclude"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quantms-utils.
@@ -86,7 +87,7 @@ $ shpc install quay.io/biocontainers/quantms-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quantms-utils:0.0.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/quantms-utils:0.0.18--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -98,8 +99,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quantms-utils/0.0.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/quantms-utils/0.0.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/quantms-utils/0.0.18--pyh7e72e81_0
+$ module help quay.io/biocontainers/quantms-utils/0.0.18--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

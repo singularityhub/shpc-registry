@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bismark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bismark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bismark/container.yaml"
-updated_at: "2024-12-20 02:51:38.540164"
+updated_at: "2024-12-21 02:47:01.609045"
 latest: "0.23.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bismark"
 aliases:

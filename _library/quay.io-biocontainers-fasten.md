@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fasten"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasten/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasten/container.yaml"
-updated_at: "2024-12-20 03:06:06.445129"
+updated_at: "2024-12-21 03:01:29.581953"
 latest: "0.8.3--h031d066_0"
 container_url: "https://biocontainers.pro/tools/fasten"
 aliases:

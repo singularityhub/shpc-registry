@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-adverscarial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adverscarial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adverscarial/container.yaml"
-updated_at: "2024-12-20 03:00:40.533970"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-12-21 02:55:59.089710"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adverscarial"
 aliases:
  - "pcre2posix_test"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-adverscarial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-adverscarial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-adverscarial", "latest": {"1.0.0--r43hdfd78af_0": "sha256:490759fecb9b35f935657b4209de912fa527ebd1a5ea950c80dadc2d7eca4e05"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:490759fecb9b35f935657b4209de912fa527ebd1a5ea950c80dadc2d7eca4e05"}, "docker": "quay.io/biocontainers/bioconductor-adverscarial", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-adverscarial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-adverscarial", "latest": {"1.4.0--r44hdfd78af_0": "sha256:5976bd494d368795b8d495527a4b1e1c84b5308e6479c02381b32afc9d3df186"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:490759fecb9b35f935657b4209de912fa527ebd1a5ea950c80dadc2d7eca4e05", "1.4.0--r44hdfd78af_0": "sha256:5976bd494d368795b8d495527a4b1e1c84b5308e6479c02381b32afc9d3df186"}, "docker": "quay.io/biocontainers/bioconductor-adverscarial", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-adverscarial.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-adverscarial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-adverscarial:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-adverscarial:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-adverscarial/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-adverscarial/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-adverscarial/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-adverscarial/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mantis_pfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis_pfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis_pfa/container.yaml"
-updated_at: "2024-12-20 03:31:12.628613"
-latest: "1.5.5--py39hff71179_3"
+updated_at: "2024-12-21 03:26:23.197263"
+latest: "1.5.5--py310h1fe012e_4"
 container_url: "https://biocontainers.pro/tools/mantis_pfa"
 aliases:
  - "mantis"
@@ -40,8 +40,9 @@ versions:
  - "1.5.5--py38he5da3d1_2"
  - "1.5.5--py310h4b81fae_2"
  - "1.5.5--py39hff71179_3"
+ - "1.5.5--py310h1fe012e_4"
 description: "singularity registry hpc automated addition for mantis_pfa"
-config: {"url": "https://biocontainers.pro/tools/mantis_pfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis_pfa", "latest": {"1.5.5--py39hff71179_3": "sha256:4fb96a2fb280a6e5b61a0514afffa31aa8460739f86c7f43b27c9244d79ec2ac"}, "tags": {"1.5.5--py310h1425a21_1": "sha256:cbb3560bb7075f82c29ca720d2dcb02bf97e48ece2885903ae6133b298fb96c3", "1.5.5--py38he5da3d1_2": "sha256:b8e2fd481a51f826b44a953f5b22fad0ec4762f3a7c144e3f94717f560f2a557", "1.5.5--py310h4b81fae_2": "sha256:a42cf0f47cc01e5118148b0e15b397c55817eaaf3f1fdedd1d46d225fa00ed79", "1.5.5--py39hff71179_3": "sha256:4fb96a2fb280a6e5b61a0514afffa31aa8460739f86c7f43b27c9244d79ec2ac"}, "docker": "quay.io/biocontainers/mantis_pfa", "aliases": {"mantis": "/usr/local/bin/mantis", "nltk": "/usr/local/bin/nltk", "diamond": "/usr/local/bin/diamond", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw"}}
+config: {"url": "https://biocontainers.pro/tools/mantis_pfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis_pfa", "latest": {"1.5.5--py310h1fe012e_4": "sha256:34d2761ece27bb444719a1b2db13b2e46961b3840bb4145c1a24fd6f9718dddf"}, "tags": {"1.5.5--py310h1425a21_1": "sha256:cbb3560bb7075f82c29ca720d2dcb02bf97e48ece2885903ae6133b298fb96c3", "1.5.5--py38he5da3d1_2": "sha256:b8e2fd481a51f826b44a953f5b22fad0ec4762f3a7c144e3f94717f560f2a557", "1.5.5--py310h4b81fae_2": "sha256:a42cf0f47cc01e5118148b0e15b397c55817eaaf3f1fdedd1d46d225fa00ed79", "1.5.5--py39hff71179_3": "sha256:4fb96a2fb280a6e5b61a0514afffa31aa8460739f86c7f43b27c9244d79ec2ac", "1.5.5--py310h1fe012e_4": "sha256:34d2761ece27bb444719a1b2db13b2e46961b3840bb4145c1a24fd6f9718dddf"}, "docker": "quay.io/biocontainers/mantis_pfa", "aliases": {"mantis": "/usr/local/bin/mantis", "nltk": "/usr/local/bin/nltk", "diamond": "/usr/local/bin/diamond", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mantis_pfa.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/mantis_pfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mantis_pfa:1.5.5--py39hff71179_3
+$ shpc install quay.io/biocontainers/mantis_pfa:1.5.5--py310h1fe012e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mantis_pfa/1.5.5--py39hff71179_3
-$ module help quay.io/biocontainers/mantis_pfa/1.5.5--py39hff71179_3
+$ module load quay.io/biocontainers/mantis_pfa/1.5.5--py310h1fe012e_4
+$ module help quay.io/biocontainers/mantis_pfa/1.5.5--py310h1fe012e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

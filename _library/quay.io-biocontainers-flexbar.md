@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexbar/container.yaml"
-updated_at: "2024-12-20 03:19:21.863469"
-latest: "3.5.0--hf92b6da_10"
+updated_at: "2024-12-21 03:14:41.427140"
+latest: "3.5.0--hdfd68b8_11"
 container_url: "https://biocontainers.pro/tools/flexbar"
 aliases:
  - "flexbar"
@@ -13,8 +13,9 @@ versions:
  - "3.5.0--hf53871c_6"
  - "3.5.0--hac0a8cf_8"
  - "3.5.0--hf92b6da_10"
+ - "3.5.0--hdfd68b8_11"
 description: "shpc-registry automated BioContainers addition for flexbar"
-config: {"url": "https://biocontainers.pro/tools/flexbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flexbar", "latest": {"3.5.0--hf92b6da_10": "sha256:ac4d1d5dd63ba853174805d22d021c119269befacd4fa65b30773b9909096c3a"}, "tags": {"3.5.0--hf53871c_6": "sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9", "3.5.0--hac0a8cf_8": "sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52", "3.5.0--hf92b6da_10": "sha256:ac4d1d5dd63ba853174805d22d021c119269befacd4fa65b30773b9909096c3a"}, "docker": "quay.io/biocontainers/flexbar", "aliases": {"flexbar": "/usr/local/bin/flexbar"}}
+config: {"url": "https://biocontainers.pro/tools/flexbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flexbar", "latest": {"3.5.0--hdfd68b8_11": "sha256:a618900ebe01f63b8650d5f3163489b6368a21c1e3b4d35d8285940f3c6199b7"}, "tags": {"3.5.0--hf53871c_6": "sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9", "3.5.0--hac0a8cf_8": "sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52", "3.5.0--hf92b6da_10": "sha256:ac4d1d5dd63ba853174805d22d021c119269befacd4fa65b30773b9909096c3a", "3.5.0--hdfd68b8_11": "sha256:a618900ebe01f63b8650d5f3163489b6368a21c1e3b4d35d8285940f3c6199b7"}, "docker": "quay.io/biocontainers/flexbar", "aliases": {"flexbar": "/usr/local/bin/flexbar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexbar.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/flexbar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexbar:3.5.0--hf92b6da_10
+$ shpc install quay.io/biocontainers/flexbar:3.5.0--hdfd68b8_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexbar/3.5.0--hf92b6da_10
-$ module help quay.io/biocontainers/flexbar/3.5.0--hf92b6da_10
+$ module load quay.io/biocontainers/flexbar/3.5.0--hdfd68b8_11
+$ module help quay.io/biocontainers/flexbar/3.5.0--hdfd68b8_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

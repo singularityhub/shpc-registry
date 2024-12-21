@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oncoscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncoscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncoscore/container.yaml"
-updated_at: "2024-12-20 02:54:01.711691"
+updated_at: "2024-12-21 02:49:22.735081"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncoscore"
 

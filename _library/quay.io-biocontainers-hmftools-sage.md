@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-sage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sage/container.yaml"
-updated_at: "2024-12-20 03:37:50.285944"
+updated_at: "2024-12-21 03:32:50.015018"
 latest: "4.0_beta--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/hmftools-sage"
 aliases:

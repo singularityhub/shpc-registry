@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-wrench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wrench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wrench/container.yaml"
-updated_at: "2024-12-20 03:33:26.189957"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-12-21 03:28:33.231509"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wrench"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wrench"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wrench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wrench", "latest": {"1.20.0--r43hdfd78af_0": "sha256:15e5adb53cb2e17536695ec38b811fb650a3e413ebf904bc28a69837bfdc4042"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:af5b9eee8db39b7e4fcee50f87e3e34ab81596582aeb60d6247877732181794b", "1.16.0--r42hdfd78af_0": "sha256:98a2bfd15aba33a714b8bee66879dda5ed30e2bb3b6a5b76615f2e6f09a1e34d", "1.12.0--r41hdfd78af_0": "sha256:a24cf5a0bd9202dae56e7f735f2802de6ad10d6d343855f5ee2b99c672b0417b", "1.10.0--r41hdfd78af_0": "sha256:199c071acf8c4c38317845970cedd0e6e977c7db2fa4d4ffcab528af4ac88f9e", "1.18.0--r43hdfd78af_0": "sha256:11f3bffa02a96629a9f28d8ee445b6d91f37e4e2440ee23105d971a3d09c6c62", "1.20.0--r43hdfd78af_0": "sha256:15e5adb53cb2e17536695ec38b811fb650a3e413ebf904bc28a69837bfdc4042"}, "docker": "quay.io/biocontainers/bioconductor-wrench", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wrench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wrench", "latest": {"1.24.0--r44hdfd78af_0": "sha256:d92681f624a49c4f5f9ad7d52c1e51f80c057544871382a49080679e4c526d58"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:af5b9eee8db39b7e4fcee50f87e3e34ab81596582aeb60d6247877732181794b", "1.16.0--r42hdfd78af_0": "sha256:98a2bfd15aba33a714b8bee66879dda5ed30e2bb3b6a5b76615f2e6f09a1e34d", "1.12.0--r41hdfd78af_0": "sha256:a24cf5a0bd9202dae56e7f735f2802de6ad10d6d343855f5ee2b99c672b0417b", "1.10.0--r41hdfd78af_0": "sha256:199c071acf8c4c38317845970cedd0e6e977c7db2fa4d4ffcab528af4ac88f9e", "1.18.0--r43hdfd78af_0": "sha256:11f3bffa02a96629a9f28d8ee445b6d91f37e4e2440ee23105d971a3d09c6c62", "1.20.0--r43hdfd78af_0": "sha256:15e5adb53cb2e17536695ec38b811fb650a3e413ebf904bc28a69837bfdc4042", "1.24.0--r44hdfd78af_0": "sha256:d92681f624a49c4f5f9ad7d52c1e51f80c057544871382a49080679e4c526d58"}, "docker": "quay.io/biocontainers/bioconductor-wrench", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wrench.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wrench
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wrench:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wrench:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wrench/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wrench/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wrench/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wrench/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

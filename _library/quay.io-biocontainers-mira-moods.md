@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mira-moods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira-moods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira-moods/container.yaml"
-updated_at: "2024-12-20 03:11:13.124376"
-latest: "1.9.4.2--py312hfe239e1_1"
+updated_at: "2024-12-21 03:06:38.538074"
+latest: "1.9.4.2--py39he88f293_2"
 container_url: "https://biocontainers.pro/tools/mira-moods"
 aliases:
  - "moods-dna.py"
@@ -21,8 +21,9 @@ versions:
  - "1.9.4.2--py311hcbe9525_0"
  - "1.9.4.2--py311he10ea66_0"
  - "1.9.4.2--py312hfe239e1_1"
+ - "1.9.4.2--py39he88f293_2"
 description: "singularity registry hpc automated addition for mira-moods"
-config: {"url": "https://biocontainers.pro/tools/mira-moods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-moods", "latest": {"1.9.4.2--py312hfe239e1_1": "sha256:dbb6f317848273fb10af6d2cb5d53e2477c451bd3c642947c2c9581842eb343b"}, "tags": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97", "1.9.4.2--py311he10ea66_0": "sha256:3dcba175e580f90d9e2a3ececc2844f34571f1d93e59d4ad9d57dde119fd1ee2", "1.9.4.2--py312hfe239e1_1": "sha256:dbb6f317848273fb10af6d2cb5d53e2477c451bd3c642947c2c9581842eb343b"}, "docker": "quay.io/biocontainers/mira-moods", "aliases": {"moods-dna.py": "/usr/local/bin/moods-dna.py", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/mira-moods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-moods", "latest": {"1.9.4.2--py39he88f293_2": "sha256:0c403a90907ab8facd61b0f620c2f4fa3296a0f805cf9387782ec6194288a62e"}, "tags": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97", "1.9.4.2--py311he10ea66_0": "sha256:3dcba175e580f90d9e2a3ececc2844f34571f1d93e59d4ad9d57dde119fd1ee2", "1.9.4.2--py312hfe239e1_1": "sha256:dbb6f317848273fb10af6d2cb5d53e2477c451bd3c642947c2c9581842eb343b", "1.9.4.2--py39he88f293_2": "sha256:0c403a90907ab8facd61b0f620c2f4fa3296a0f805cf9387782ec6194288a62e"}, "docker": "quay.io/biocontainers/mira-moods", "aliases": {"moods-dna.py": "/usr/local/bin/moods-dna.py", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mira-moods.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mira-moods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mira-moods:1.9.4.2--py312hfe239e1_1
+$ shpc install quay.io/biocontainers/mira-moods:1.9.4.2--py39he88f293_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mira-moods/1.9.4.2--py312hfe239e1_1
-$ module help quay.io/biocontainers/mira-moods/1.9.4.2--py312hfe239e1_1
+$ module load quay.io/biocontainers/mira-moods/1.9.4.2--py39he88f293_2
+$ module help quay.io/biocontainers/mira-moods/1.9.4.2--py39he88f293_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/classpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/classpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/classpro/container.yaml"
-updated_at: "2024-12-20 03:41:06.802084"
-latest: "1.0.2--hfeaf35a_0"
+updated_at: "2024-12-21 03:36:00.839321"
+latest: "1.0.2--hda11466_1"
 container_url: "https://biocontainers.pro/tools/classpro"
 aliases:
  - "ClassGS"
@@ -15,8 +15,9 @@ aliases:
  - "prof2class"
 versions:
  - "1.0.2--hfeaf35a_0"
+ - "1.0.2--hda11466_1"
 description: "singularity registry hpc automated addition for classpro"
-config: {"url": "https://biocontainers.pro/tools/classpro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for classpro", "latest": {"1.0.2--hfeaf35a_0": "sha256:5c0e2aae262cf009a70cbe698ccbd01d9d4744437aedac4cf27c53a646503916"}, "tags": {"1.0.2--hfeaf35a_0": "sha256:5c0e2aae262cf009a70cbe698ccbd01d9d4744437aedac4cf27c53a646503916"}, "docker": "quay.io/biocontainers/classpro", "aliases": {"ClassGS": "/usr/local/bin/ClassGS", "ClassPro": "/usr/local/bin/ClassPro", "class2acc": "/usr/local/bin/class2acc", "class2cns": "/usr/local/bin/class2cns", "prof2class": "/usr/local/bin/prof2class"}}
+config: {"url": "https://biocontainers.pro/tools/classpro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for classpro", "latest": {"1.0.2--hda11466_1": "sha256:8a6b198d2826163771f00e22f3af0df206e119fa7a1347b8490858f83a0d8c9f"}, "tags": {"1.0.2--hfeaf35a_0": "sha256:5c0e2aae262cf009a70cbe698ccbd01d9d4744437aedac4cf27c53a646503916", "1.0.2--hda11466_1": "sha256:8a6b198d2826163771f00e22f3af0df206e119fa7a1347b8490858f83a0d8c9f"}, "docker": "quay.io/biocontainers/classpro", "aliases": {"ClassGS": "/usr/local/bin/ClassGS", "ClassPro": "/usr/local/bin/ClassPro", "class2acc": "/usr/local/bin/class2acc", "class2cns": "/usr/local/bin/class2cns", "prof2class": "/usr/local/bin/prof2class"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/classpro.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/classpro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/classpro:1.0.2--hfeaf35a_0
+$ shpc install quay.io/biocontainers/classpro:1.0.2--hda11466_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/classpro/1.0.2--hfeaf35a_0
-$ module help quay.io/biocontainers/classpro/1.0.2--hfeaf35a_0
+$ module load quay.io/biocontainers/classpro/1.0.2--hda11466_1
+$ module help quay.io/biocontainers/classpro/1.0.2--hda11466_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

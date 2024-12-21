@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chromhmmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
-updated_at: "2024-12-20 03:32:00.380380"
-latest: "0.99.2--r43hdfd78af_4"
+updated_at: "2024-12-21 03:27:09.765717"
+latest: "0.99.2--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromhmmdata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.99.2--r42hdfd78af_2"
  - "0.99.2--r43hdfd78af_3"
  - "0.99.2--r43hdfd78af_4"
+ - "0.99.2--r44hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromhmmdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata", "latest": {"0.99.2--r43hdfd78af_4": "sha256:fba9023cf9bb5dafa8a9aca74ec94e13a71a1239985902fcbdb99fc529700350"}, "tags": {"0.99.2--r41hdfd78af_1": "sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935", "0.99.2--r42hdfd78af_2": "sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd", "0.99.2--r43hdfd78af_3": "sha256:8f4726701c890ca27870bbf9e68f45026fca289bbc2cd1ea33eea92a24a6c90a", "0.99.2--r43hdfd78af_4": "sha256:fba9023cf9bb5dafa8a9aca74ec94e13a71a1239985902fcbdb99fc529700350"}, "docker": "quay.io/biocontainers/bioconductor-chromhmmdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromhmmdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata", "latest": {"0.99.2--r44hdfd78af_5": "sha256:c9cb4c726b40766891dc0a259855accebcb5498d712fdf0c7a2c6f0c3cfd64bd"}, "tags": {"0.99.2--r41hdfd78af_1": "sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935", "0.99.2--r42hdfd78af_2": "sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd", "0.99.2--r43hdfd78af_3": "sha256:8f4726701c890ca27870bbf9e68f45026fca289bbc2cd1ea33eea92a24a6c90a", "0.99.2--r43hdfd78af_4": "sha256:fba9023cf9bb5dafa8a9aca74ec94e13a71a1239985902fcbdb99fc529700350", "0.99.2--r44hdfd78af_5": "sha256:c9cb4c726b40766891dc0a259855accebcb5498d712fdf0c7a2c6f0c3cfd64bd"}, "docker": "quay.io/biocontainers/bioconductor-chromhmmdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromhmmdata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromhmmdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromhmmdata:0.99.2--r43hdfd78af_4
+$ shpc install quay.io/biocontainers/bioconductor-chromhmmdata:0.99.2--r44hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r43hdfd78af_4
-$ module help quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r43hdfd78af_4
+$ module load quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r44hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r44hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

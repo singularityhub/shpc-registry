@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-enhancedvolcano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enhancedvolcano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enhancedvolcano/container.yaml"
-updated_at: "2024-12-20 02:59:42.302395"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-12-21 02:54:59.340408"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enhancedvolcano"
 aliases:
  - "projsync"
@@ -25,8 +25,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-enhancedvolcano"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enhancedvolcano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enhancedvolcano", "latest": {"1.20.0--r43hdfd78af_0": "sha256:1d0d7c462c8ebde86f1c17892277b4802b3df42a9a22cec20b356e375cfad7a7"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ee6850f58a53822b67fafab3464b0dd1c77e1edec8cdaa5056e06be300613ba5", "1.16.0--r42hdfd78af_0": "sha256:b1c792bbf29813bc0f3a747511efc059a55f5371fd8c8b8df4160458db1f33de", "1.12.0--r41hdfd78af_0": "sha256:fd14ea02afbe0ecb29a79e2ad73c3c3781898fdd5323e53280fd66495d6d0927", "1.10.0--r41hdfd78af_0": "sha256:111f783780e05ce24579b324932b9f92ef02af978814636f221c13eebdb2d93f", "1.18.0--r43hdfd78af_0": "sha256:e511f272e1294783c0c218d9595c493948774ca1682d5816c02b38ba732ce3db", "1.20.0--r43hdfd78af_0": "sha256:1d0d7c462c8ebde86f1c17892277b4802b3df42a9a22cec20b356e375cfad7a7"}, "docker": "quay.io/biocontainers/bioconductor-enhancedvolcano", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enhancedvolcano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enhancedvolcano", "latest": {"1.24.0--r44hdfd78af_0": "sha256:0d89240da01897d352806e95dcaba773b6d308cd78001d557578ee4476592a58"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ee6850f58a53822b67fafab3464b0dd1c77e1edec8cdaa5056e06be300613ba5", "1.16.0--r42hdfd78af_0": "sha256:b1c792bbf29813bc0f3a747511efc059a55f5371fd8c8b8df4160458db1f33de", "1.12.0--r41hdfd78af_0": "sha256:fd14ea02afbe0ecb29a79e2ad73c3c3781898fdd5323e53280fd66495d6d0927", "1.10.0--r41hdfd78af_0": "sha256:111f783780e05ce24579b324932b9f92ef02af978814636f221c13eebdb2d93f", "1.18.0--r43hdfd78af_0": "sha256:e511f272e1294783c0c218d9595c493948774ca1682d5816c02b38ba732ce3db", "1.20.0--r43hdfd78af_0": "sha256:1d0d7c462c8ebde86f1c17892277b4802b3df42a9a22cec20b356e375cfad7a7", "1.24.0--r44hdfd78af_0": "sha256:0d89240da01897d352806e95dcaba773b6d308cd78001d557578ee4476592a58"}, "docker": "quay.io/biocontainers/bioconductor-enhancedvolcano", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enhancedvolcano.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enhancedvolcano
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enhancedvolcano:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-enhancedvolcano:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enhancedvolcano/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-enhancedvolcano/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-enhancedvolcano/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-enhancedvolcano/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

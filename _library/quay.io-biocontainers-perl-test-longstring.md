@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-longstring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-longstring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-longstring/container.yaml"
-updated_at: "2024-12-20 03:05:05.048438"
+updated_at: "2024-12-21 03:00:26.089904"
 latest: "0.17--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-longstring"
 aliases:

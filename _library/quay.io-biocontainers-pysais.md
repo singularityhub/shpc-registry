@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pysais"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysais/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysais/container.yaml"
-updated_at: "2024-12-20 03:12:47.980272"
-latest: "1.1.0--py38hf6cf242_1"
+updated_at: "2024-12-21 03:08:12.224135"
+latest: "1.1.0--py312hc9302aa_2"
 container_url: "https://biocontainers.pro/tools/pysais"
 aliases:
  - "cpuinfo"
@@ -37,8 +37,9 @@ versions:
  - "1.1.0--py310hd6be1da_0"
  - "1.1.0--py38h24c8ff8_0"
  - "1.1.0--py38hf6cf242_1"
+ - "1.1.0--py312hc9302aa_2"
 description: "singularity registry hpc automated addition for pysais"
-config: {"url": "https://biocontainers.pro/tools/pysais", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pysais", "latest": {"1.1.0--py38hf6cf242_1": "sha256:5eaa7551a1288ec0f03746efabdec78d49233e671c307b7ccc3338e3155a6325"}, "tags": {"1.1.0--py310hd6be1da_0": "sha256:3111e09770a12d28aa35600356c40baa744caac6b054b53cf8a0027c54908a69", "1.1.0--py38h24c8ff8_0": "sha256:84156842d231f928927b325e72490a8447488e503a44b4b58c1738f457cd5af6", "1.1.0--py38hf6cf242_1": "sha256:5eaa7551a1288ec0f03746efabdec78d49233e671c307b7ccc3338e3155a6325"}, "docker": "quay.io/biocontainers/pysais", "aliases": {"cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
+config: {"url": "https://biocontainers.pro/tools/pysais", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pysais", "latest": {"1.1.0--py312hc9302aa_2": "sha256:89b5a94655b4f3676506407b59804b80f6bee854a9ee388cd901efed1d3c53f9"}, "tags": {"1.1.0--py310hd6be1da_0": "sha256:3111e09770a12d28aa35600356c40baa744caac6b054b53cf8a0027c54908a69", "1.1.0--py38h24c8ff8_0": "sha256:84156842d231f928927b325e72490a8447488e503a44b4b58c1738f457cd5af6", "1.1.0--py38hf6cf242_1": "sha256:5eaa7551a1288ec0f03746efabdec78d49233e671c307b7ccc3338e3155a6325", "1.1.0--py312hc9302aa_2": "sha256:89b5a94655b4f3676506407b59804b80f6bee854a9ee388cd901efed1d3c53f9"}, "docker": "quay.io/biocontainers/pysais", "aliases": {"cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pysais.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/pysais
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pysais:1.1.0--py38hf6cf242_1
+$ shpc install quay.io/biocontainers/pysais:1.1.0--py312hc9302aa_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pysais/1.1.0--py38hf6cf242_1
-$ module help quay.io/biocontainers/pysais/1.1.0--py38hf6cf242_1
+$ module load quay.io/biocontainers/pysais/1.1.0--py312hc9302aa_2
+$ module help quay.io/biocontainers/pysais/1.1.0--py312hc9302aa_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

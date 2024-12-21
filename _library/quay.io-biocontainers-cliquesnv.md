@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cliquesnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cliquesnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cliquesnv/container.yaml"
-updated_at: "2024-12-20 03:40:11.045980"
+updated_at: "2024-12-21 03:35:06.205397"
 latest: "2.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cliquesnv"
 aliases:

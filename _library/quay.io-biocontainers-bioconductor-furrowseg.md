@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-furrowseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
-updated_at: "2024-12-20 03:34:57.164617"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-21 03:30:01.540127"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-furrowseg"
 aliases:
  - "fftw-wisdom"
@@ -17,8 +17,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-furrowseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-furrowseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-furrowseg", "latest": {"1.30.0--r43hdfd78af_0": "sha256:1e0a44fc6b77d46e1d1abedc0e74d419457ac30d50ec43480a09ba3d1208afa7"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744", "1.25.0--r42hdfd78af_0": "sha256:6ad77fb4a5979b8eb99f9e628e24c5a3e97beb271579ddffafa9e83a9e07fddd", "1.28.0--r43hdfd78af_0": "sha256:c5780e5f969d5d1d4d67b16dfd553f9727448240d26e038b89f3c28a5ab96b1c", "1.30.0--r43hdfd78af_0": "sha256:1e0a44fc6b77d46e1d1abedc0e74d419457ac30d50ec43480a09ba3d1208afa7"}, "docker": "quay.io/biocontainers/bioconductor-furrowseg", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-furrowseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-furrowseg", "latest": {"1.34.0--r44hdfd78af_0": "sha256:96815ee62c7723fd1a418851478071c40e47b55519b8ed66539cd249f88f7332"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744", "1.25.0--r42hdfd78af_0": "sha256:6ad77fb4a5979b8eb99f9e628e24c5a3e97beb271579ddffafa9e83a9e07fddd", "1.28.0--r43hdfd78af_0": "sha256:c5780e5f969d5d1d4d67b16dfd553f9727448240d26e038b89f3c28a5ab96b1c", "1.30.0--r43hdfd78af_0": "sha256:1e0a44fc6b77d46e1d1abedc0e74d419457ac30d50ec43480a09ba3d1208afa7", "1.34.0--r44hdfd78af_0": "sha256:96815ee62c7723fd1a418851478071c40e47b55519b8ed66539cd249f88f7332"}, "docker": "quay.io/biocontainers/bioconductor-furrowseg", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-furrowseg.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-furrowseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-furrowseg:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-furrowseg:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-furrowseg/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-furrowseg/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-furrowseg/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-furrowseg/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "postgres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/postgres/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/postgres/container.yaml"
-updated_at: "2024-12-20 03:41:37.491825"
+updated_at: "2024-12-21 03:36:31.283782"
 latest: "16beta3"
 container_url: "https://hub.docker.com/r/_/postgres"
 aliases:

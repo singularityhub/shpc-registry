@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/balrog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/balrog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/balrog/container.yaml"
-updated_at: "2024-12-20 03:12:27.282187"
-latest: "0.5.1--hd03093a_5"
+updated_at: "2024-12-21 03:07:51.951073"
+latest: "0.5.1--he70b90d_6"
 container_url: "https://biocontainers.pro/tools/balrog"
 aliases:
  - "balrog"
@@ -20,8 +20,9 @@ versions:
  - "0.5.1--hd03093a_2"
  - "0.5.1--hd03093a_4"
  - "0.5.1--hd03093a_5"
+ - "0.5.1--he70b90d_6"
 description: "shpc-registry automated BioContainers addition for balrog"
-config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--hd03093a_5": "sha256:5c0366101dd96b83bab476912b231536920c1a5841f63208cfde4b6f926a1a3f"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae", "0.5.1--hd03093a_4": "sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822", "0.5.1--hd03093a_5": "sha256:5c0366101dd96b83bab476912b231536920c1a5841f63208cfde4b6f926a1a3f"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--he70b90d_6": "sha256:d437953ec916692ac50bfed43e719caea702cd2eb16ade61b7476194c9336e4f"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae", "0.5.1--hd03093a_4": "sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822", "0.5.1--hd03093a_5": "sha256:5c0366101dd96b83bab476912b231536920c1a5841f63208cfde4b6f926a1a3f", "0.5.1--he70b90d_6": "sha256:d437953ec916692ac50bfed43e719caea702cd2eb16ade61b7476194c9336e4f"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/balrog.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/balrog
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/balrog:0.5.1--hd03093a_5
+$ shpc install quay.io/biocontainers/balrog:0.5.1--he70b90d_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/balrog/0.5.1--hd03093a_5
-$ module help quay.io/biocontainers/balrog/0.5.1--hd03093a_5
+$ module load quay.io/biocontainers/balrog/0.5.1--he70b90d_6
+$ module help quay.io/biocontainers/balrog/0.5.1--he70b90d_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

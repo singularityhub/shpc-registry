@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dbghaplo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbghaplo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbghaplo/container.yaml"
-updated_at: "2024-12-20 03:08:47.909503"
-latest: "0.0.2--h919a2d8_0"
+updated_at: "2024-12-21 03:04:15.157104"
+latest: "0.0.2--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/dbghaplo"
 aliases:
  - "dbghaplo"
@@ -44,8 +44,9 @@ aliases:
  - "zoom2sam.pl"
 versions:
  - "0.0.2--h919a2d8_0"
+ - "0.0.2--ha6fb395_1"
 description: "singularity registry hpc automated addition for dbghaplo"
-config: {"url": "https://biocontainers.pro/tools/dbghaplo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbghaplo", "latest": {"0.0.2--h919a2d8_0": "sha256:9b1d73b178c93a9f03e71024295512acd3e62453ca924d79a05223fde1b3e9bf"}, "tags": {"0.0.2--h919a2d8_0": "sha256:9b1d73b178c93a9f03e71024295512acd3e62453ca924d79a05223fde1b3e9bf"}, "docker": "quay.io/biocontainers/dbghaplo", "aliases": {"dbghaplo": "/usr/local/bin/dbghaplo", "haplotag_bam": "/usr/local/bin/haplotag_bam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "run_dbghaplo_pipeline": "/usr/local/bin/run_dbghaplo_pipeline", "write_contig_headers_vcf.py": "/usr/local/bin/write_contig_headers_vcf.py", "annot-tsv": "/usr/local/bin/annot-tsv", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/dbghaplo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbghaplo", "latest": {"0.0.2--ha6fb395_1": "sha256:10c29a4b7f3f351800a1c70ef43a3a9889cc5f8fda07575fe55766634466f362"}, "tags": {"0.0.2--h919a2d8_0": "sha256:9b1d73b178c93a9f03e71024295512acd3e62453ca924d79a05223fde1b3e9bf", "0.0.2--ha6fb395_1": "sha256:10c29a4b7f3f351800a1c70ef43a3a9889cc5f8fda07575fe55766634466f362"}, "docker": "quay.io/biocontainers/dbghaplo", "aliases": {"dbghaplo": "/usr/local/bin/dbghaplo", "haplotag_bam": "/usr/local/bin/haplotag_bam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "run_dbghaplo_pipeline": "/usr/local/bin/run_dbghaplo_pipeline", "write_contig_headers_vcf.py": "/usr/local/bin/write_contig_headers_vcf.py", "annot-tsv": "/usr/local/bin/annot-tsv", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dbghaplo.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/dbghaplo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dbghaplo:0.0.2--h919a2d8_0
+$ shpc install quay.io/biocontainers/dbghaplo:0.0.2--ha6fb395_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dbghaplo/0.0.2--h919a2d8_0
-$ module help quay.io/biocontainers/dbghaplo/0.0.2--h919a2d8_0
+$ module load quay.io/biocontainers/dbghaplo/0.0.2--ha6fb395_1
+$ module help quay.io/biocontainers/dbghaplo/0.0.2--ha6fb395_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

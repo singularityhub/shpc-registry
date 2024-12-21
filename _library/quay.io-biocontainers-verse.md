@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verse/container.yaml"
-updated_at: "2024-12-20 03:23:26.699572"
-latest: "0.1.5--he4a0461_8"
+updated_at: "2024-12-21 03:18:39.620541"
+latest: "0.1.5--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/verse"
 aliases:
  - "verse"
 versions:
  - "0.1.5--h7132678_6"
  - "0.1.5--he4a0461_8"
+ - "0.1.5--h577a1d6_9"
 description: "shpc-registry automated BioContainers addition for verse"
-config: {"url": "https://biocontainers.pro/tools/verse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verse", "latest": {"0.1.5--he4a0461_8": "sha256:b8bfdf01b3d56a6350b123585184e86b7ad64d3b20b5b9c3ff9c78e8c5812c6f"}, "tags": {"0.1.5--h7132678_6": "sha256:66924b76b75aeab557905ffb3b0b6ba80a170b0338873df67c9bf8209b574170", "0.1.5--he4a0461_8": "sha256:b8bfdf01b3d56a6350b123585184e86b7ad64d3b20b5b9c3ff9c78e8c5812c6f"}, "docker": "quay.io/biocontainers/verse", "aliases": {"verse": "/usr/local/bin/verse"}}
+config: {"url": "https://biocontainers.pro/tools/verse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verse", "latest": {"0.1.5--h577a1d6_9": "sha256:b7c0dc6ce5ec6e744bf20da15a754eee4c77e851d377dc80b99108d079ffdc70"}, "tags": {"0.1.5--h7132678_6": "sha256:66924b76b75aeab557905ffb3b0b6ba80a170b0338873df67c9bf8209b574170", "0.1.5--he4a0461_8": "sha256:b8bfdf01b3d56a6350b123585184e86b7ad64d3b20b5b9c3ff9c78e8c5812c6f", "0.1.5--h577a1d6_9": "sha256:b7c0dc6ce5ec6e744bf20da15a754eee4c77e851d377dc80b99108d079ffdc70"}, "docker": "quay.io/biocontainers/verse", "aliases": {"verse": "/usr/local/bin/verse"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verse.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/verse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verse:0.1.5--he4a0461_8
+$ shpc install quay.io/biocontainers/verse:0.1.5--h577a1d6_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verse/0.1.5--he4a0461_8
-$ module help quay.io/biocontainers/verse/0.1.5--he4a0461_8
+$ module load quay.io/biocontainers/verse/0.1.5--h577a1d6_9
+$ module help quay.io/biocontainers/verse/0.1.5--h577a1d6_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

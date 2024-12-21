@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-breastcancerunt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breastcancerunt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breastcancerunt/container.yaml"
-updated_at: "2024-12-20 02:56:03.320244"
+updated_at: "2024-12-21 02:51:21.659918"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-breastcancerunt"
 

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/hr2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hr2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hr2/container.yaml"
-updated_at: "2024-12-20 03:14:17.287990"
-latest: "1.04--h4ac6f70_5"
+updated_at: "2024-12-21 03:09:40.370645"
+latest: "1.04--h9948957_6"
 container_url: "https://biocontainers.pro/tools/hr2"
 aliases:
  - "HR2.exe"
 versions:
  - "1.04--h9f5acd7_3"
  - "1.04--h4ac6f70_5"
+ - "1.04--h9948957_6"
 description: "shpc-registry automated BioContainers addition for hr2"
-config: {"url": "https://biocontainers.pro/tools/hr2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hr2", "latest": {"1.04--h4ac6f70_5": "sha256:1195925d26c904a386d24db41b70531098c3b422ad63c6a6b6dc6da5e73c75de"}, "tags": {"1.04--h9f5acd7_3": "sha256:2fb668ba0461272839caae7016c83a25e2a69b2d3388f3c00b5b952d59aa8a7b", "1.04--h4ac6f70_5": "sha256:1195925d26c904a386d24db41b70531098c3b422ad63c6a6b6dc6da5e73c75de"}, "docker": "quay.io/biocontainers/hr2", "aliases": {"HR2.exe": "/usr/local/bin/HR2.exe"}}
+config: {"url": "https://biocontainers.pro/tools/hr2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hr2", "latest": {"1.04--h9948957_6": "sha256:bba53fb7f3347a19bafb4b638b358a047de71b455a9f3d4bb678abce3935d8d5"}, "tags": {"1.04--h9f5acd7_3": "sha256:2fb668ba0461272839caae7016c83a25e2a69b2d3388f3c00b5b952d59aa8a7b", "1.04--h4ac6f70_5": "sha256:1195925d26c904a386d24db41b70531098c3b422ad63c6a6b6dc6da5e73c75de", "1.04--h9948957_6": "sha256:bba53fb7f3347a19bafb4b638b358a047de71b455a9f3d4bb678abce3935d8d5"}, "docker": "quay.io/biocontainers/hr2", "aliases": {"HR2.exe": "/usr/local/bin/HR2.exe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hr2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/hr2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hr2:1.04--h4ac6f70_5
+$ shpc install quay.io/biocontainers/hr2:1.04--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hr2/1.04--h4ac6f70_5
-$ module help quay.io/biocontainers/hr2/1.04--h4ac6f70_5
+$ module load quay.io/biocontainers/hr2/1.04--h9948957_6
+$ module help quay.io/biocontainers/hr2/1.04--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

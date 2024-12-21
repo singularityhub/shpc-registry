@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellmigration"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmigration/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmigration/container.yaml"
-updated_at: "2024-12-20 02:52:30.139825"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-12-21 02:47:52.605796"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmigration"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellmigration"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmigration", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmigration", "latest": {"1.10.0--r43hdfd78af_0": "sha256:8b1ebac0e4ca9959c42dcdd040488f170a772234d5fe262428d83c13dae8e58d"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:e696eab412b7757e4b5f2869f54a4e6eef98fd2d7840c4332129596688438dc0", "1.6.0--r42hdfd78af_0": "sha256:9752665a38303530886526fef2a97e83c155fbdfdc5593f738b6ec8433690901", "1.8.0--r43hdfd78af_0": "sha256:dff465a164399f18c4959e178885656b0f704d0dde158c9532b6780dcf9d313b", "1.10.0--r43hdfd78af_0": "sha256:8b1ebac0e4ca9959c42dcdd040488f170a772234d5fe262428d83c13dae8e58d"}, "docker": "quay.io/biocontainers/bioconductor-cellmigration"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmigration", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmigration", "latest": {"1.14.0--r44hdfd78af_0": "sha256:ff8871d6ef85c7b3c8ddc2d73c44b821ee3161fe04f5c1275ca31de2e4f2b855"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:e696eab412b7757e4b5f2869f54a4e6eef98fd2d7840c4332129596688438dc0", "1.6.0--r42hdfd78af_0": "sha256:9752665a38303530886526fef2a97e83c155fbdfdc5593f738b6ec8433690901", "1.8.0--r43hdfd78af_0": "sha256:dff465a164399f18c4959e178885656b0f704d0dde158c9532b6780dcf9d313b", "1.10.0--r43hdfd78af_0": "sha256:8b1ebac0e4ca9959c42dcdd040488f170a772234d5fe262428d83c13dae8e58d", "1.14.0--r44hdfd78af_0": "sha256:ff8871d6ef85c7b3c8ddc2d73c44b821ee3161fe04f5c1275ca31de2e4f2b855"}, "docker": "quay.io/biocontainers/bioconductor-cellmigration"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellmigration.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellmigration
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellmigration:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellmigration:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellmigration/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellmigration/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellmigration/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellmigration/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqcomplexity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqcomplexity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqcomplexity/container.yaml"
-updated_at: "2024-12-20 02:59:05.161620"
-latest: "0.1.2--he9f29cb_0"
+updated_at: "2024-12-21 02:54:22.491825"
+latest: "0.1.2"
 container_url: "https://biocontainers.pro/tools/seqcomplexity"
 aliases:
  - "seqcomplexity"
@@ -13,8 +13,9 @@ versions:
  - "0.1.2--he9f29cb_0"
  - "0.1.2"
  - "0.1.2--he6968d2_1"
+ - "0.1.2--he734ae2_2"
 description: "singularity registry hpc automated addition for seqcomplexity"
-config: {"url": "https://biocontainers.pro/tools/seqcomplexity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqcomplexity", "latest": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20"}, "tags": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20", "0.1.2": "sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69", "0.1.2--he6968d2_1": "sha256:6e39321ef49a1c53a5658e21113df1062cffff41b340e50ced6e67856d456a25"}, "docker": "quay.io/biocontainers/seqcomplexity", "aliases": {"seqcomplexity": "/usr/local/bin/seqcomplexity"}}
+config: {"url": "https://biocontainers.pro/tools/seqcomplexity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqcomplexity", "latest": {"0.1.2": "sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69"}, "tags": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20", "0.1.2": "sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69", "0.1.2--he6968d2_1": "sha256:6e39321ef49a1c53a5658e21113df1062cffff41b340e50ced6e67856d456a25", "0.1.2--he734ae2_2": "sha256:d73e2fe36772056924d059df28019c2f80ab4a4049ab968baf74b1abe41cbbcd"}, "docker": "quay.io/biocontainers/seqcomplexity", "aliases": {"seqcomplexity": "/usr/local/bin/seqcomplexity"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqcomplexity.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/seqcomplexity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqcomplexity:0.1.2--he9f29cb_0
+$ shpc install quay.io/biocontainers/seqcomplexity:0.1.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqcomplexity/0.1.2--he9f29cb_0
-$ module help quay.io/biocontainers/seqcomplexity/0.1.2--he9f29cb_0
+$ module load quay.io/biocontainers/seqcomplexity/0.1.2
+$ module help quay.io/biocontainers/seqcomplexity/0.1.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

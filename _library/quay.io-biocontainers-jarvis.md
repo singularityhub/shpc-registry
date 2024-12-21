@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/jarvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jarvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jarvis/container.yaml"
-updated_at: "2024-12-20 03:29:42.065282"
-latest: "1.1--h031d066_4"
+updated_at: "2024-12-21 03:24:53.913472"
+latest: "1.1--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/jarvis"
 aliases:
  - "JARVIS"
 versions:
  - "1.1--hec16e2b_2"
  - "1.1--h031d066_4"
+ - "1.1--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for jarvis"
-config: {"url": "https://biocontainers.pro/tools/jarvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jarvis", "latest": {"1.1--h031d066_4": "sha256:117b2e8a7aef1adbd82e04e038237761c5034f411cc4637c989c2ecc43bf57b9"}, "tags": {"1.1--hec16e2b_2": "sha256:f8f4754f154a2e1e85c90c9ba39c782f1e15256969e2db64694f34e17dad1d3b", "1.1--h031d066_4": "sha256:117b2e8a7aef1adbd82e04e038237761c5034f411cc4637c989c2ecc43bf57b9"}, "docker": "quay.io/biocontainers/jarvis", "aliases": {"JARVIS": "/usr/local/bin/JARVIS"}}
+config: {"url": "https://biocontainers.pro/tools/jarvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jarvis", "latest": {"1.1--h7b50bb2_5": "sha256:92feae79d0f07116cc239dfb664422786d02625865cb34246e1abb4614d596d7"}, "tags": {"1.1--hec16e2b_2": "sha256:f8f4754f154a2e1e85c90c9ba39c782f1e15256969e2db64694f34e17dad1d3b", "1.1--h031d066_4": "sha256:117b2e8a7aef1adbd82e04e038237761c5034f411cc4637c989c2ecc43bf57b9", "1.1--h7b50bb2_5": "sha256:92feae79d0f07116cc239dfb664422786d02625865cb34246e1abb4614d596d7"}, "docker": "quay.io/biocontainers/jarvis", "aliases": {"JARVIS": "/usr/local/bin/JARVIS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jarvis.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/jarvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jarvis:1.1--h031d066_4
+$ shpc install quay.io/biocontainers/jarvis:1.1--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jarvis/1.1--h031d066_4
-$ module help quay.io/biocontainers/jarvis/1.1--h031d066_4
+$ module load quay.io/biocontainers/jarvis/1.1--h7b50bb2_5
+$ module help quay.io/biocontainers/jarvis/1.1--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

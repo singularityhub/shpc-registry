@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-sl-feature-extraction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-sl-feature-extraction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-sl-feature-extraction/container.yaml"
-updated_at: "2024-12-20 02:58:48.365311"
+updated_at: "2024-12-21 02:54:05.620114"
 latest: "1.0--pl526_3"
 container_url: "https://biocontainers.pro/tools/metavelvet-sl-feature-extraction"
 aliases:

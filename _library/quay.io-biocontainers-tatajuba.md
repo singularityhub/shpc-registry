@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tatajuba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tatajuba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tatajuba/container.yaml"
-updated_at: "2024-12-20 03:10:56.212738"
+updated_at: "2024-12-21 03:06:21.570164"
 latest: "1.0.4--h577a1d6_4"
 container_url: "https://biocontainers.pro/tools/tatajuba"
 aliases:

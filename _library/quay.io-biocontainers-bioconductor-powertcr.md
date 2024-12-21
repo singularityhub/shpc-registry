@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-powertcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-powertcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-powertcr/container.yaml"
-updated_at: "2024-12-20 03:00:22.933734"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2024-12-21 02:55:41.167369"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-powertcr"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.3--r40hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-powertcr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-powertcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-powertcr", "latest": {"1.22.0--r43hdfd78af_0": "sha256:2cf687e6a480a710a2ae5abf3de1584ea2b0f09af202ad754675871a2ebd8507"}, "tags": {"1.8.0--r40_0": "sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4", "1.18.0--r42hdfd78af_0": "sha256:935bb556ca13b684f2177415399741d59628e8d1067b1263275e1a453ea0116b", "1.14.0--r41hdfd78af_0": "sha256:974fcad928069289b89a809d4aab8c9e9cad8083a32233d3271543f784cbe3dd", "1.12.0--r41hdfd78af_0": "sha256:cfe75392cd2e74d830be05729588a47bda318f6f7f1517ad067ce5c72e7a6c10", "1.10.3--r40hdfd78af_0": "sha256:cfc4f1cc1340b76869947fa8232f338cd6ea11f400291d00c9cfa5c642fb0ae6", "1.20.0--r43hdfd78af_0": "sha256:f9240891144f701d812db1df2e8b3f087cbfdb09b22b5beb2f26c69bcb2ce669", "1.22.0--r43hdfd78af_0": "sha256:2cf687e6a480a710a2ae5abf3de1584ea2b0f09af202ad754675871a2ebd8507"}, "docker": "quay.io/biocontainers/bioconductor-powertcr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-powertcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-powertcr", "latest": {"1.26.0--r44hdfd78af_0": "sha256:33711bf73351763d344f9fb7e0c0ff605f34eaf13d390d69e42037c44b2ef90c"}, "tags": {"1.8.0--r40_0": "sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4", "1.18.0--r42hdfd78af_0": "sha256:935bb556ca13b684f2177415399741d59628e8d1067b1263275e1a453ea0116b", "1.14.0--r41hdfd78af_0": "sha256:974fcad928069289b89a809d4aab8c9e9cad8083a32233d3271543f784cbe3dd", "1.12.0--r41hdfd78af_0": "sha256:cfe75392cd2e74d830be05729588a47bda318f6f7f1517ad067ce5c72e7a6c10", "1.10.3--r40hdfd78af_0": "sha256:cfc4f1cc1340b76869947fa8232f338cd6ea11f400291d00c9cfa5c642fb0ae6", "1.20.0--r43hdfd78af_0": "sha256:f9240891144f701d812db1df2e8b3f087cbfdb09b22b5beb2f26c69bcb2ce669", "1.22.0--r43hdfd78af_0": "sha256:2cf687e6a480a710a2ae5abf3de1584ea2b0f09af202ad754675871a2ebd8507", "1.26.0--r44hdfd78af_0": "sha256:33711bf73351763d344f9fb7e0c0ff605f34eaf13d390d69e42037c44b2ef90c"}, "docker": "quay.io/biocontainers/bioconductor-powertcr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-powertcr.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-powertcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-powertcr:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-powertcr:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-powertcr/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-powertcr/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-powertcr/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-powertcr/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
