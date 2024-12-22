@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-pathifier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pathifier
 latest:
-  1.40.0--r43hdfd78af_0: sha256:ea00555f49be8977beab07fa6e8299c0fa595d80a335a680140d86cb2b7258e4
+  1.44.0--r44hdfd78af_0: sha256:3de6ff1bd1e9e704fd6220704d13bd94c3bc5fbd82b407f4bd1106c0f0ccb004
 tags:
   1.32.0--r41hdfd78af_0: sha256:2de8ba184502b024d6144cd1f4469d74acdd21a84cb98ac9a57d6613513505e7
   1.36.0--r42hdfd78af_0: sha256:6b8dafdbd80c48abf8751efdd0b389dd5118dc89b4d6be03436bc5db9c668874
   1.38.0--r43hdfd78af_0: sha256:8cec56c84bf4572b0de85d0e10620dcb72bb66c3cad2b9a749c1de7be566379f
   1.40.0--r43hdfd78af_0: sha256:ea00555f49be8977beab07fa6e8299c0fa595d80a335a680140d86cb2b7258e4
+  1.44.0--r44hdfd78af_0: sha256:3de6ff1bd1e9e704fd6220704d13bd94c3bc5fbd82b407f4bd1106c0f0ccb004
 docker: quay.io/biocontainers/bioconductor-pathifier

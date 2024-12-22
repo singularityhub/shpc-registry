@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/skc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for skc
 latest:
-  0.1.0--h031d066_0: sha256:6e91d8f0561453cde407802b1b697e36ab41664309af6238db90f69d54d766e2
+  0.1.0--h7b50bb2_1: sha256:56ddc01e248171aa69a37ff87a15fcd5edcfe178c785a58f996c0be065f8a936
 tags:
   0.1.0--h031d066_0: sha256:6e91d8f0561453cde407802b1b697e36ab41664309af6238db90f69d54d766e2
+  0.1.0--h7b50bb2_1: sha256:56ddc01e248171aa69a37ff87a15fcd5edcfe178c785a58f996c0be065f8a936
 docker: quay.io/biocontainers/skc
 aliases:
   skc: /usr/local/bin/skc

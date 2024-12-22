@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/structure
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for structure
 latest:
-  2.3.4--h031d066_6: sha256:f5dead4da22d9f2f1aac5e9b1b60f742d49202a2e7baf97c587e15bf6996cbba
+  2.3.4--h7b50bb2_7: sha256:1295d738ae4ef24497d60930a7af5902f622ab16ec2757bcb69f50afb2f0ab36
 tags:
   2.3.4--hec16e2b_4: sha256:1262296ea0fd9387033f22766b4ada46d8fb1ed475959bc57defe913293eceea
   2.3.4--h031d066_6: sha256:f5dead4da22d9f2f1aac5e9b1b60f742d49202a2e7baf97c587e15bf6996cbba
+  2.3.4--h7b50bb2_7: sha256:1295d738ae4ef24497d60930a7af5902f622ab16ec2757bcb69f50afb2f0ab36
 docker: quay.io/biocontainers/structure
 aliases:
   structure: /usr/local/bin/structure

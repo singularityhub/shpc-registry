@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gb_taxonomy_tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gb_taxonomy_tools
 latest:
-  1.0.1--hdbdd923_5: sha256:8639e375f6934327f2943cdfe95390b20c982034956b43d6dc4db28a824635eb
+  1.0.1--h503566f_6: sha256:b3fe10d254584a144f35c9afc07bcd531b72ebb7a79ff61703a1697df4157824
 tags:
   1.0.1--h87f3376_3: sha256:d8b7b6baa53f8e88b62be2ab8b21b9299d812606c6827852f08c04b2f0d05b62
   1.0.1--hdbdd923_5: sha256:8639e375f6934327f2943cdfe95390b20c982034956b43d6dc4db28a824635eb
+  1.0.1--h503566f_6: sha256:b3fe10d254584a144f35c9afc07bcd531b72ebb7a79ff61703a1697df4157824
 docker: quay.io/biocontainers/gb_taxonomy_tools
 aliases:
   gid-taxid: /usr/local/bin/gid-taxid

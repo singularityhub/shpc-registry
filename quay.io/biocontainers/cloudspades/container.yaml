@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cloudspades
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cloudspades
 latest:
-  3.16.0--h6dccd9a_2: sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c
+  3.16.0--haf24da9_3: sha256:0e502ad0330b185886a3a6f25d6f5843b5fe3b357a1df170a8b59fad1bc7f1a7
 tags:
   3.16.0--h6dccd9a_2: sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c
+  3.16.0--haf24da9_3: sha256:0e502ad0330b185886a3a6f25d6f5843b5fe3b357a1df170a8b59fad1bc7f1a7
 docker: quay.io/biocontainers/cloudspades
 aliases:
   idle3.13: /usr/local/bin/idle3.13

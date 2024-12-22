@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-biocartaimage
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-biocartaimage
 latest:
-  1.0.0--r43hdfd78af_0: sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62
+  1.4.0--r44hdfd78af_0: sha256:0cb90477b4d1ed6ca099fc883977a447f77842bd42e77e103249a46c7950589c
 tags:
   1.0.0--r43hdfd78af_0: sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62
+  1.4.0--r44hdfd78af_0: sha256:0cb90477b4d1ed6ca099fc883977a447f77842bd42e77e103249a46c7950589c
 docker: quay.io/biocontainers/bioconductor-biocartaimage
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

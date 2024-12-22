@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gdrtestdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gdrtestdata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:6d2df32a2a61998abadb4062a7a7b3f81a25ad271e2fc478183d9bda16f2b1f0
+  1.4.0--r44hdfd78af_0: sha256:97f70a3e74ae828c261f2954da5777c89490a191814cc1b851d36ce4034905d2
 tags:
   1.0.0--r43hdfd78af_0: sha256:6d2df32a2a61998abadb4062a7a7b3f81a25ad271e2fc478183d9bda16f2b1f0
+  1.4.0--r44hdfd78af_0: sha256:97f70a3e74ae828c261f2954da5777c89490a191814cc1b851d36ce4034905d2
 docker: quay.io/biocontainers/bioconductor-gdrtestdata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

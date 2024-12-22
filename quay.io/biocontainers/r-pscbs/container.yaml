@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-pscbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pscbs
 latest:
-  0.67.0--r43h3121a25_0: sha256:9eb32d984373f6b9e9e5a2b9a1fe1c6e09d07d5787b56ad5bbc489f7f818f76b
+  0.67.0--r44h3121a25_1: sha256:77c48377713dc810fdf9ba27c49cd9f782b0bf2c1e543034e69db014d455e26f
 tags:
   0.66.0--r41h3121a25_0: sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622
   0.66.0--r42h3121a25_1: sha256:1224df9657373c8a0b3085b26d93196ad61b45f03edf970348e1f0e31495f20a
   0.66.0--r43h3121a25_2: sha256:2564625adc8bee84e11deb12207153e7cfc46ba9e30f236ad8807a76a4e65c47
   0.67.0--r43h3121a25_0: sha256:9eb32d984373f6b9e9e5a2b9a1fe1c6e09d07d5787b56ad5bbc489f7f818f76b
+  0.67.0--r44h3121a25_1: sha256:77c48377713dc810fdf9ba27c49cd9f782b0bf2c1e543034e69db014d455e26f
 docker: quay.io/biocontainers/r-pscbs

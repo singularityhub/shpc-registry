@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-annotationfilter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-annotationfilter
 latest:
-  1.26.0--r43hdfd78af_0: sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3
+  1.30.0--r44hdfd78af_0: sha256:f31292712b235dd6ab322edbe9065b0ae12f79f1b3648c0aaefb09121b65ed11
 tags:
   1.8.0--r36_1: sha256:83cd6c69d6d5e5174d2a2d4d01b5702d6103c253946600769a4e9003b1eac9bc
   1.22.0--r42hdfd78af_0: sha256:99aa0f2334803c8ee3f8a459560817c3d15c096d2314529954e736d00ae09be3
@@ -12,6 +12,7 @@ tags:
   1.12.0--r40_0: sha256:28add3b1bef84f99278a91494ead6beb5a0b37dde973474db8ac2f2eba78e454
   1.24.0--r43hdfd78af_0: sha256:bc00c3478eac233ae21c60240974eea52ccc06d7fe6d1445c925588b94c4411b
   1.26.0--r43hdfd78af_0: sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3
+  1.30.0--r44hdfd78af_0: sha256:f31292712b235dd6ab322edbe9065b0ae12f79f1b3648c0aaefb09121b65ed11
 docker: quay.io/biocontainers/bioconductor-annotationfilter
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

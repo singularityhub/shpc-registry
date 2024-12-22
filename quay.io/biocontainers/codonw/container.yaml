@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/codonw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for codonw
 latest:
-  1.4.4--h031d066_6: sha256:9dfee3836181b1eb2b033c4734c7cb4e2362f0a9b7b7d843a2a0b8c6676db9f5
+  1.4.4--h7b50bb2_7: sha256:25b07dac047a4f6c1fa21f89d524253229e98f07f0ee603a9d371556a6088264
 tags:
   1.4.4--hec16e2b_4: sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74
   1.4.4--hec16e2b_5: sha256:f0ef14381e1a14cdb435b06ed55710c6e8bb74978ff3abe96c7e570837fd0f2a
   1.4.4--h031d066_6: sha256:9dfee3836181b1eb2b033c4734c7cb4e2362f0a9b7b7d843a2a0b8c6676db9f5
+  1.4.4--h7b50bb2_7: sha256:25b07dac047a4f6c1fa21f89d524253229e98f07f0ee603a9d371556a6088264
 docker: quay.io/biocontainers/codonw
 aliases:
   aau: /usr/local/bin/aau

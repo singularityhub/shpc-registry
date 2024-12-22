@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cassiopeia
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cassiopeia
 latest:
-  2.0.0--py310h581d4b6_1: sha256:f5d1e057414288a223eed4b3de7b229419c238a6f4e7bd953a5b80cf3ba6b935
+  2.0.0--py311h93dcfea_2: sha256:4f9b1075386895e29e4102f3f67d9fb03774422524a62ac1d2e8873a9934a8ce
 tags:
   2.0.0--py310h581d4b6_1: sha256:f5d1e057414288a223eed4b3de7b229419c238a6f4e7bd953a5b80cf3ba6b935
+  2.0.0--py311h93dcfea_2: sha256:4f9b1075386895e29e4102f3f67d9fb03774422524a62ac1d2e8873a9934a8ce
 docker: quay.io/biocontainers/cassiopeia
 aliases:
   cassiopeia-preprocess: /usr/local/bin/cassiopeia-preprocess

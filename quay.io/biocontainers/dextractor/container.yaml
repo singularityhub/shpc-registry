@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dextractor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dextractor
 latest:
-  1.0p2--h41d5b99_8: sha256:0e2b3a8438d610cc335fa0fdab03a6edd7155cba935b196a9f49b0abb62e5d26
+  1.0p2--hb2ce006_9: sha256:5cae5f474c0fc605db641f28397213cf6a6e4bae70e13f141228f53a0a38e697
 tags:
   1.0p2--h7a6849f_5: sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96
   1.0p2--he47dfe4_7: sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4
   1.0p2--h41d5b99_8: sha256:0e2b3a8438d610cc335fa0fdab03a6edd7155cba935b196a9f49b0abb62e5d26
+  1.0p2--hb2ce006_9: sha256:5cae5f474c0fc605db641f28397213cf6a6e4bae70e13f141228f53a0a38e697
 docker: quay.io/biocontainers/dextractor
 aliases:
   dex2DB: /usr/local/bin/dex2DB

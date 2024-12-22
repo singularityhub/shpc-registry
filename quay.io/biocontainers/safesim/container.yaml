@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/safesim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for safesim
 latest:
-  0.1.6.8d44580--hcec8cb8_3: sha256:18b14f3f85be9c7c620b900d0d62968585a934410048263d229c6af70e586ddf
+  0.1.6.8d44580--h7d57edc_4: sha256:48c7c5895caade918e9e6d04fdcdbfa06ffb32122a3170e08170351476da39bc
 tags:
   0.1.6.8d44580--h50ba451_0: sha256:c45ddbde013cd30dc29a3960712dd0c5fe3eaecb2d0a0a876aa6fc2412b1eeb8
   0.1.6.8d44580--hac61d04_1: sha256:453957e32d3632d6dd2f48c2ffa1adafb277fac25b275cff6546ef7627a35269
   0.1.6.8d44580--h784672f_2: sha256:332f2023de9e0460ddb9dc361284cf3b3cdee234b70ae415604d0b5577476943
   0.1.6.8d44580--hcec8cb8_3: sha256:18b14f3f85be9c7c620b900d0d62968585a934410048263d229c6af70e586ddf
+  0.1.6.8d44580--h7d57edc_4: sha256:48c7c5895caade918e9e6d04fdcdbfa06ffb32122a3170e08170351476da39bc
 docker: quay.io/biocontainers/safesim
 aliases:
   fastq-grep: /usr/local/bin/fastq-grep

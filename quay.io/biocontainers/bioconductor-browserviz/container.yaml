@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-browserviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-browserviz
 latest:
-  2.24.0--r43hdfd78af_0: sha256:93f363add4b962e91e6666f68bfab98035ffb33d320ad3dae5f7af329051b336
+  2.28.0--r44hdfd78af_0: sha256:a2fdc55e5fcef3962a8320077e1fb1a16c6751f4e465917d0d8964e22340a82f
 tags:
   2.8.0--r36_0: sha256:acf09f938a1f5bd5218a1658c403ec766c69ada3ab4c5698fdb821a3abd019db
   2.20.0--r42hdfd78af_0: sha256:3b5760f07d154039ec3b77180b5b56d21a1233f7068caa63d172a463f0607a26
@@ -11,6 +11,7 @@ tags:
   2.10.0--r40_0: sha256:a26bd550294d83e409037b231a82ece65c01bff3152bb4607b8dc0f67853e859
   2.22.0--r43hdfd78af_0: sha256:89254d97bc5f96b272bd59b9f4200dca5a4050c5f73d4d79fcf16a5a29f68b24
   2.24.0--r43hdfd78af_0: sha256:93f363add4b962e91e6666f68bfab98035ffb33d320ad3dae5f7af329051b336
+  2.28.0--r44hdfd78af_0: sha256:a2fdc55e5fcef3962a8320077e1fb1a16c6751f4e465917d0d8964e22340a82f
 docker: quay.io/biocontainers/bioconductor-browserviz
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-macsr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-macsr
 latest:
-  1.10.0--r43hdfd78af_0: sha256:c4c59964b01e4ef88a00f3101585ef82ed031088b9ce5a1bb1312cc3dce79e25
+  1.14.0--r44hdfd78af_0: sha256:6266fe241c7a57eb0db646f2c20936e47408ccc5240258747fbfb3196edabc63
 tags:
   1.2.0--r41hdfd78af_0: sha256:1f8e7adff13875b90400612be20a09365d9242f034ff1246d0973f97be3af923
   1.6.0--r42hdfd78af_0: sha256:fc69d837a2004402c49dc3a7a4e6b63b21d716ac8a2e4afe79fca719342fcd4c
   1.8.0--r43hdfd78af_0: sha256:70bfbd56d15a1f77123796b9881a0a16df191cbea3ef0795c7f7311baaf28972
   1.10.0--r43hdfd78af_0: sha256:c4c59964b01e4ef88a00f3101585ef82ed031088b9ce5a1bb1312cc3dce79e25
+  1.14.0--r44hdfd78af_0: sha256:6266fe241c7a57eb0db646f2c20936e47408ccc5240258747fbfb3196edabc63
 docker: quay.io/biocontainers/bioconductor-macsr

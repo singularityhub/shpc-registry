@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-lrcelltypemarkers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lrcelltypemarkers
 latest:
-  1.10.0--r43hdfd78af_0: sha256:f3c91415be5a533ce5d8668764bebd3ee6d101e28a618bae96e07ee14cb81596
+  1.14.0--r44hdfd78af_0: sha256:e729c6d8c83b2bb088262b0869b96636f44249699143b79b2f6a3928dc87f09d
 tags:
   1.2.0--r41hdfd78af_1: sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707
   1.6.0--r42hdfd78af_0: sha256:d8554cb695cfe868d350a87637851a34079eb475f84287cd19b9835f4b563536
   1.8.0--r43hdfd78af_0: sha256:83026ad178a6e3c92c38b1b0c71cbbb68a6830ec58cbdd197818a72fa46571b2
   1.10.0--r43hdfd78af_0: sha256:f3c91415be5a533ce5d8668764bebd3ee6d101e28a618bae96e07ee14cb81596
+  1.14.0--r44hdfd78af_0: sha256:e729c6d8c83b2bb088262b0869b96636f44249699143b79b2f6a3928dc87f09d
 docker: quay.io/biocontainers/bioconductor-lrcelltypemarkers

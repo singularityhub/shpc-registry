@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/psmc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psmc
 latest:
-  0.6.5--h43eeafb_3: sha256:39b2f0ee21d1f7960690b71bec83e812ff3fe82e3eea421715477e956d2e32a2
+  0.6.5--h5ca1c30_4: sha256:688be5ba94944c4241f8fdff2bac31331aab72693df8ce91687fd948aff2c46e
 tags:
   0.6.5--h5b5514e_0: sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2
   0.6.5--h43eeafb_2: sha256:7e182e57bf5eb74f0250daff84de814c832f3503e79dda82adb506bb73c0ea0b
   0.6.5--h43eeafb_3: sha256:39b2f0ee21d1f7960690b71bec83e812ff3fe82e3eea421715477e956d2e32a2
+  0.6.5--h5ca1c30_4: sha256:688be5ba94944c4241f8fdff2bac31331aab72693df8ce91687fd948aff2c46e
 docker: quay.io/biocontainers/psmc
 aliases:
   Makefile: /usr/local/bin/Makefile
