@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathphynder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathphynder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathphynder/container.yaml"
-updated_at: "2024-12-21 02:54:37.548172"
+updated_at: "2024-12-22 03:03:31.574483"
 latest: "1.2.3--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pathphynder"
 aliases:

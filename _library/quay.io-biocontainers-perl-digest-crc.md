@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-digest-crc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-crc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-crc/container.yaml"
-updated_at: "2024-12-21 03:34:33.356451"
-latest: "0.23--pl5321h031d066_4"
+updated_at: "2024-12-22 03:43:18.581310"
+latest: "0.23--pl5321h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/perl-digest-crc"
 
 versions:
  - "0.23--pl5321hec16e2b_2"
  - "0.23--pl5321h031d066_4"
+ - "0.23--pl5321h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for perl-digest-crc"
-config: {"url": "https://biocontainers.pro/tools/perl-digest-crc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-crc", "latest": {"0.23--pl5321h031d066_4": "sha256:37459cf4d5af65211a23bd6a4731a122e81b7cc680c103bdcd46475776649676"}, "tags": {"0.23--pl5321hec16e2b_2": "sha256:980dcd83f0f442d4e4db16bf476eed02493ead28e925c31b222a2dfb2acf95b3", "0.23--pl5321h031d066_4": "sha256:37459cf4d5af65211a23bd6a4731a122e81b7cc680c103bdcd46475776649676"}, "docker": "quay.io/biocontainers/perl-digest-crc"}
+config: {"url": "https://biocontainers.pro/tools/perl-digest-crc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-crc", "latest": {"0.23--pl5321h7b50bb2_5": "sha256:b4969fa35940b44f2a3dbccf8ed7444b2cef1319a91aead301cf0d118fb3ccb8"}, "tags": {"0.23--pl5321hec16e2b_2": "sha256:980dcd83f0f442d4e4db16bf476eed02493ead28e925c31b222a2dfb2acf95b3", "0.23--pl5321h031d066_4": "sha256:37459cf4d5af65211a23bd6a4731a122e81b7cc680c103bdcd46475776649676", "0.23--pl5321h7b50bb2_5": "sha256:b4969fa35940b44f2a3dbccf8ed7444b2cef1319a91aead301cf0d118fb3ccb8"}, "docker": "quay.io/biocontainers/perl-digest-crc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-digest-crc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-digest-crc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-digest-crc:0.23--pl5321h031d066_4
+$ shpc install quay.io/biocontainers/perl-digest-crc:0.23--pl5321h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-digest-crc/0.23--pl5321h031d066_4
-$ module help quay.io/biocontainers/perl-digest-crc/0.23--pl5321h031d066_4
+$ module load quay.io/biocontainers/perl-digest-crc/0.23--pl5321h7b50bb2_5
+$ module help quay.io/biocontainers/perl-digest-crc/0.23--pl5321h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

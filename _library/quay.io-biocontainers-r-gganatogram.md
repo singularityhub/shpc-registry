@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-gganatogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gganatogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gganatogram/container.yaml"
-updated_at: "2024-12-21 02:51:00.127946"
-latest: "0.0.1--r43hdfd78af_2"
+updated_at: "2024-12-22 02:59:48.812007"
+latest: "0.0.1--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-gganatogram"
 
 versions:
  - "0.0.1--r41hdfd78af_0"
  - "0.0.1--r42hdfd78af_1"
  - "0.0.1--r43hdfd78af_2"
+ - "0.0.1--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-gganatogram"
-config: {"url": "https://biocontainers.pro/tools/r-gganatogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gganatogram", "latest": {"0.0.1--r43hdfd78af_2": "sha256:35c489b98b82b264af7083e9989f9e6203fa7dc7f4b2a8cc14d0548c8d5696c8"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e", "0.0.1--r42hdfd78af_1": "sha256:c8f55d1b28b626ddc69318ebc183265a4dee149e4f4eeba0af552293004371e7", "0.0.1--r43hdfd78af_2": "sha256:35c489b98b82b264af7083e9989f9e6203fa7dc7f4b2a8cc14d0548c8d5696c8"}, "docker": "quay.io/biocontainers/r-gganatogram"}
+config: {"url": "https://biocontainers.pro/tools/r-gganatogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gganatogram", "latest": {"0.0.1--r44hdfd78af_3": "sha256:95b3e9b4aac336e749984968be4b9dd3c959f3ec8d2dc2dfed949c1a922390e3"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e", "0.0.1--r42hdfd78af_1": "sha256:c8f55d1b28b626ddc69318ebc183265a4dee149e4f4eeba0af552293004371e7", "0.0.1--r43hdfd78af_2": "sha256:35c489b98b82b264af7083e9989f9e6203fa7dc7f4b2a8cc14d0548c8d5696c8", "0.0.1--r44hdfd78af_3": "sha256:95b3e9b4aac336e749984968be4b9dd3c959f3ec8d2dc2dfed949c1a922390e3"}, "docker": "quay.io/biocontainers/r-gganatogram"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gganatogram.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-gganatogram
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gganatogram:0.0.1--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-gganatogram:0.0.1--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gganatogram/0.0.1--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-gganatogram/0.0.1--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-gganatogram/0.0.1--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-gganatogram/0.0.1--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

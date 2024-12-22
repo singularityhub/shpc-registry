@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circminer/container.yaml"
-updated_at: "2024-12-21 03:11:42.616139"
-latest: "0.4.2--h43eeafb_4"
+updated_at: "2024-12-22 03:20:38.065196"
+latest: "0.4.2--h5ca1c30_5"
 container_url: "https://biocontainers.pro/tools/circminer"
 aliases:
  - "circminer"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.4.2--h5b5514e_2"
  - "0.4.2--h43eeafb_4"
+ - "0.4.2--h5ca1c30_5"
 description: "shpc-registry automated BioContainers addition for circminer"
-config: {"url": "https://biocontainers.pro/tools/circminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circminer", "latest": {"0.4.2--h43eeafb_4": "sha256:b709db8edac328de358c2a82ebc6842f1de9ca161cbb95eb04932c74b585d681"}, "tags": {"0.4.2--h5b5514e_2": "sha256:437d7a122f01e68697752befc8a60e2f081bff0e47709b88e66e62169538c5e6", "0.4.2--h43eeafb_4": "sha256:b709db8edac328de358c2a82ebc6842f1de9ca161cbb95eb04932c74b585d681"}, "docker": "quay.io/biocontainers/circminer", "aliases": {"circminer": "/usr/local/bin/circminer", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/circminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circminer", "latest": {"0.4.2--h5ca1c30_5": "sha256:257168c11741511ef42b570603a115baa1c46b8e7e090e88eae9b9dd19fef734"}, "tags": {"0.4.2--h5b5514e_2": "sha256:437d7a122f01e68697752befc8a60e2f081bff0e47709b88e66e62169538c5e6", "0.4.2--h43eeafb_4": "sha256:b709db8edac328de358c2a82ebc6842f1de9ca161cbb95eb04932c74b585d681", "0.4.2--h5ca1c30_5": "sha256:257168c11741511ef42b570603a115baa1c46b8e7e090e88eae9b9dd19fef734"}, "docker": "quay.io/biocontainers/circminer", "aliases": {"circminer": "/usr/local/bin/circminer", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circminer.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/circminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circminer:0.4.2--h43eeafb_4
+$ shpc install quay.io/biocontainers/circminer:0.4.2--h5ca1c30_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circminer/0.4.2--h43eeafb_4
-$ module help quay.io/biocontainers/circminer/0.4.2--h43eeafb_4
+$ module load quay.io/biocontainers/circminer/0.4.2--h5ca1c30_5
+$ module help quay.io/biocontainers/circminer/0.4.2--h5ca1c30_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ledpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ledpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ledpred/container.yaml"
-updated_at: "2024-12-21 03:21:09.813545"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2024-12-22 03:30:03.587150"
+latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ledpred"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.40.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ledpred"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ledpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ledpred", "latest": {"1.36.0--r43hdfd78af_0": "sha256:0a22d3664a5ea35e009d7beaf6f080b9d021e944d75cb921c9def431405177e8"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:e281bd5747c43cad35127502852d92e6f1ba9ad9423cc0ccd912c71bd95749c0", "1.32.0--r42hdfd78af_0": "sha256:bc0d72c206467425a038c7d06bd516ffe7e8d794f1a6ac449ac3ffa4e1cf0a2e", "1.34.0--r43hdfd78af_0": "sha256:99292ddc169699577403f2ecaaa92a110ac5ab6e7cf780ba7f59ab4db876a28e", "1.36.0--r43hdfd78af_0": "sha256:0a22d3664a5ea35e009d7beaf6f080b9d021e944d75cb921c9def431405177e8"}, "docker": "quay.io/biocontainers/bioconductor-ledpred"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ledpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ledpred", "latest": {"1.40.0--r44hdfd78af_0": "sha256:b81b0b3e9cbab360fc6db28c7ea094f81eb217f2a5f0fb4c8ee2af7316fb6662"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:e281bd5747c43cad35127502852d92e6f1ba9ad9423cc0ccd912c71bd95749c0", "1.32.0--r42hdfd78af_0": "sha256:bc0d72c206467425a038c7d06bd516ffe7e8d794f1a6ac449ac3ffa4e1cf0a2e", "1.34.0--r43hdfd78af_0": "sha256:99292ddc169699577403f2ecaaa92a110ac5ab6e7cf780ba7f59ab4db876a28e", "1.36.0--r43hdfd78af_0": "sha256:0a22d3664a5ea35e009d7beaf6f080b9d021e944d75cb921c9def431405177e8", "1.40.0--r44hdfd78af_0": "sha256:b81b0b3e9cbab360fc6db28c7ea094f81eb217f2a5f0fb4c8ee2af7316fb6662"}, "docker": "quay.io/biocontainers/bioconductor-ledpred"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ledpred.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ledpred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ledpred:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ledpred:1.40.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ledpred/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ledpred/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ledpred/1.40.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ledpred/1.40.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

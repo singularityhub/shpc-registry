@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/palikiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/palikiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/palikiss/container.yaml"
-updated_at: "2024-12-21 03:18:15.661392"
-latest: "1.1.0--pl5321h4ac6f70_1"
+updated_at: "2024-12-22 03:27:11.431908"
+latest: "1.1.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/palikiss"
 aliases:
  - "addRNAoptions.pl"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.1.0--pl5321h4ac6f70_0"
  - "1.1.0--pl5321h4ac6f70_1"
+ - "1.1.0--pl5321h9948957_2"
 description: "singularity registry hpc automated addition for palikiss"
-config: {"url": "https://biocontainers.pro/tools/palikiss", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for palikiss", "latest": {"1.1.0--pl5321h4ac6f70_1": "sha256:d60da4d386f30d9fb19cfc2ef6b6a6322b937eca28210eac411a3dee35d02946"}, "tags": {"1.1.0--pl5321h4ac6f70_0": "sha256:136f308f3bb9662125d16c4c03aea04946e0a78a4d08fe34b2e2b91507524c45", "1.1.0--pl5321h4ac6f70_1": "sha256:d60da4d386f30d9fb19cfc2ef6b6a6322b937eca28210eac411a3dee35d02946"}, "docker": "quay.io/biocontainers/palikiss", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "pAliKiss": "/usr/local/bin/pAliKiss", "pAliKiss_enforce": "/usr/local/bin/pAliKiss_enforce", "pAliKiss_enforce_window": "/usr/local/bin/pAliKiss_enforce_window", "pAliKiss_eval": "/usr/local/bin/pAliKiss_eval", "pAliKiss_local": "/usr/local/bin/pAliKiss_local", "pAliKiss_local_window": "/usr/local/bin/pAliKiss_local_window", "pAliKiss_mfe": "/usr/local/bin/pAliKiss_mfe", "pAliKiss_mfe_window": "/usr/local/bin/pAliKiss_mfe_window", "pAliKiss_probs": "/usr/local/bin/pAliKiss_probs", "pAliKiss_probs_window": "/usr/local/bin/pAliKiss_probs_window", "pAliKiss_rep_consensus": "/usr/local/bin/pAliKiss_rep_consensus", "pAliKiss_rep_mis": "/usr/local/bin/pAliKiss_rep_mis", "pAliKiss_sci": "/usr/local/bin/pAliKiss_sci", "pAliKiss_shapes": "/usr/local/bin/pAliKiss_shapes", "pAliKiss_shapes_window": "/usr/local/bin/pAliKiss_shapes_window", "pAliKiss_subopt": "/usr/local/bin/pAliKiss_subopt", "pAliKiss_subopt_window": "/usr/local/bin/pAliKiss_subopt_window"}}
+config: {"url": "https://biocontainers.pro/tools/palikiss", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for palikiss", "latest": {"1.1.0--pl5321h9948957_2": "sha256:23235d32b47bc04ffe1afc990460f1233f7ee91a8cf1dd953d24badde6cd5d3f"}, "tags": {"1.1.0--pl5321h4ac6f70_0": "sha256:136f308f3bb9662125d16c4c03aea04946e0a78a4d08fe34b2e2b91507524c45", "1.1.0--pl5321h4ac6f70_1": "sha256:d60da4d386f30d9fb19cfc2ef6b6a6322b937eca28210eac411a3dee35d02946", "1.1.0--pl5321h9948957_2": "sha256:23235d32b47bc04ffe1afc990460f1233f7ee91a8cf1dd953d24badde6cd5d3f"}, "docker": "quay.io/biocontainers/palikiss", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "pAliKiss": "/usr/local/bin/pAliKiss", "pAliKiss_enforce": "/usr/local/bin/pAliKiss_enforce", "pAliKiss_enforce_window": "/usr/local/bin/pAliKiss_enforce_window", "pAliKiss_eval": "/usr/local/bin/pAliKiss_eval", "pAliKiss_local": "/usr/local/bin/pAliKiss_local", "pAliKiss_local_window": "/usr/local/bin/pAliKiss_local_window", "pAliKiss_mfe": "/usr/local/bin/pAliKiss_mfe", "pAliKiss_mfe_window": "/usr/local/bin/pAliKiss_mfe_window", "pAliKiss_probs": "/usr/local/bin/pAliKiss_probs", "pAliKiss_probs_window": "/usr/local/bin/pAliKiss_probs_window", "pAliKiss_rep_consensus": "/usr/local/bin/pAliKiss_rep_consensus", "pAliKiss_rep_mis": "/usr/local/bin/pAliKiss_rep_mis", "pAliKiss_sci": "/usr/local/bin/pAliKiss_sci", "pAliKiss_shapes": "/usr/local/bin/pAliKiss_shapes", "pAliKiss_shapes_window": "/usr/local/bin/pAliKiss_shapes_window", "pAliKiss_subopt": "/usr/local/bin/pAliKiss_subopt", "pAliKiss_subopt_window": "/usr/local/bin/pAliKiss_subopt_window"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/palikiss.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/palikiss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/palikiss:1.1.0--pl5321h4ac6f70_1
+$ shpc install quay.io/biocontainers/palikiss:1.1.0--pl5321h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/palikiss/1.1.0--pl5321h4ac6f70_1
-$ module help quay.io/biocontainers/palikiss/1.1.0--pl5321h4ac6f70_1
+$ module load quay.io/biocontainers/palikiss/1.1.0--pl5321h9948957_2
+$ module help quay.io/biocontainers/palikiss/1.1.0--pl5321h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

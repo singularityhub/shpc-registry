@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rustynuc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustynuc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustynuc/container.yaml"
-updated_at: "2024-12-21 03:07:46.903591"
-latest: "0.3.1--he4a0461_2"
+updated_at: "2024-12-22 03:16:43.741328"
+latest: "0.3.1--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/rustynuc"
 aliases:
  - "rustynuc"
 versions:
  - "0.3.1--h7132678_0"
  - "0.3.1--he4a0461_2"
+ - "0.3.1--h577a1d6_3"
 description: "shpc-registry automated BioContainers addition for rustynuc"
-config: {"url": "https://biocontainers.pro/tools/rustynuc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustynuc", "latest": {"0.3.1--he4a0461_2": "sha256:ba22698847146cfef931ecaad44ef1a447b91532220a9fe38a9cd8df072a13b6"}, "tags": {"0.3.1--h7132678_0": "sha256:d3f73cb0fc0d06af1d1629af56019bd83770a7483d879e66457dcbf253b2a8fe", "0.3.1--he4a0461_2": "sha256:ba22698847146cfef931ecaad44ef1a447b91532220a9fe38a9cd8df072a13b6"}, "docker": "quay.io/biocontainers/rustynuc", "aliases": {"rustynuc": "/usr/local/bin/rustynuc"}}
+config: {"url": "https://biocontainers.pro/tools/rustynuc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustynuc", "latest": {"0.3.1--h577a1d6_3": "sha256:7fe408bbdf2f46fd4aa481737614508a7a15ba8b7fe2325eb76ad0ec9044473d"}, "tags": {"0.3.1--h7132678_0": "sha256:d3f73cb0fc0d06af1d1629af56019bd83770a7483d879e66457dcbf253b2a8fe", "0.3.1--he4a0461_2": "sha256:ba22698847146cfef931ecaad44ef1a447b91532220a9fe38a9cd8df072a13b6", "0.3.1--h577a1d6_3": "sha256:7fe408bbdf2f46fd4aa481737614508a7a15ba8b7fe2325eb76ad0ec9044473d"}, "docker": "quay.io/biocontainers/rustynuc", "aliases": {"rustynuc": "/usr/local/bin/rustynuc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rustynuc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rustynuc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rustynuc:0.3.1--he4a0461_2
+$ shpc install quay.io/biocontainers/rustynuc:0.3.1--h577a1d6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rustynuc/0.3.1--he4a0461_2
-$ module help quay.io/biocontainers/rustynuc/0.3.1--he4a0461_2
+$ module load quay.io/biocontainers/rustynuc/0.3.1--h577a1d6_3
+$ module help quay.io/biocontainers/rustynuc/0.3.1--h577a1d6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

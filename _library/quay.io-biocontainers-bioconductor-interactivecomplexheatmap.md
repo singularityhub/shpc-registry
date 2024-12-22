@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-interactivecomplexheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interactivecomplexheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interactivecomplexheatmap/container.yaml"
-updated_at: "2024-12-21 03:34:34.190926"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-12-22 03:43:19.429872"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interactivecomplexheatmap"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-interactivecomplexheatmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interactivecomplexheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interactivecomplexheatmap", "latest": {"1.10.0--r43hdfd78af_0": "sha256:7dcd5dcaacab4a432cfe4f9677330e4eb267b6c999d936a805d923a38e7aebdb"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:9e93d082392ea753e1a74868750486ccd3d18f10da8bef222719ef93b3f45f01", "1.6.0--r42hdfd78af_0": "sha256:0a7ff47299e0423427603d3c888781e1134a911269c21a5f4e16381e88120bf6", "1.8.0--r43hdfd78af_0": "sha256:be9f0004c4bad81d5e69ec9a7ac0baf14716143dd8c0b0b28ba5c1efd7605bb7", "1.10.0--r43hdfd78af_0": "sha256:7dcd5dcaacab4a432cfe4f9677330e4eb267b6c999d936a805d923a38e7aebdb"}, "docker": "quay.io/biocontainers/bioconductor-interactivecomplexheatmap", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interactivecomplexheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interactivecomplexheatmap", "latest": {"1.14.0--r44hdfd78af_0": "sha256:da9a263b89b6bfc2499eace34488629e77e0dde8d952f20bd4d4d5f80b789a23"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:9e93d082392ea753e1a74868750486ccd3d18f10da8bef222719ef93b3f45f01", "1.6.0--r42hdfd78af_0": "sha256:0a7ff47299e0423427603d3c888781e1134a911269c21a5f4e16381e88120bf6", "1.8.0--r43hdfd78af_0": "sha256:be9f0004c4bad81d5e69ec9a7ac0baf14716143dd8c0b0b28ba5c1efd7605bb7", "1.10.0--r43hdfd78af_0": "sha256:7dcd5dcaacab4a432cfe4f9677330e4eb267b6c999d936a805d923a38e7aebdb", "1.14.0--r44hdfd78af_0": "sha256:da9a263b89b6bfc2499eace34488629e77e0dde8d952f20bd4d4d5f80b789a23"}, "docker": "quay.io/biocontainers/bioconductor-interactivecomplexheatmap", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interactivecomplexheatmap.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-interactivecomplexheatmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-interactivecomplexheatmap:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-interactivecomplexheatmap:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-interactivecomplexheatmap/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-interactivecomplexheatmap/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-interactivecomplexheatmap/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-interactivecomplexheatmap/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

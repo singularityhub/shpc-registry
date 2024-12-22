@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnorfeeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorfeeder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorfeeder/container.yaml"
-updated_at: "2024-12-21 03:00:20.400996"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2024-12-22 03:09:20.713386"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorfeeder"
 aliases:
  - "diffimg"
@@ -23,8 +23,9 @@ versions:
  - "1.38.0--r42hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnorfeeder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorfeeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorfeeder", "latest": {"1.42.0--r43hdfd78af_0": "sha256:1ac7cde54f30f890242d054b1a123b3779720105424ef4a6f6266eeac0f23f0a"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d", "1.38.0--r42hdfd78af_0": "sha256:1a3d64ab13624e08ade0207396eb13ce4e9b3d9a1696a3e7a011fcaf845cf18d", "1.40.0--r43hdfd78af_0": "sha256:9430d590c457529061a91d7615fb092d87bd20dbbe31978c056aee1cef8e09eb", "1.42.0--r43hdfd78af_0": "sha256:1ac7cde54f30f890242d054b1a123b3779720105424ef4a6f6266eeac0f23f0a"}, "docker": "quay.io/biocontainers/bioconductor-cnorfeeder", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorfeeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorfeeder", "latest": {"1.46.0--r44hdfd78af_0": "sha256:a4fe53c1eeb9ef1fbb0380aed81b5ffb192b28c9320561b25d3b20d62ce94517"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d", "1.38.0--r42hdfd78af_0": "sha256:1a3d64ab13624e08ade0207396eb13ce4e9b3d9a1696a3e7a011fcaf845cf18d", "1.40.0--r43hdfd78af_0": "sha256:9430d590c457529061a91d7615fb092d87bd20dbbe31978c056aee1cef8e09eb", "1.42.0--r43hdfd78af_0": "sha256:1ac7cde54f30f890242d054b1a123b3779720105424ef4a6f6266eeac0f23f0a", "1.46.0--r44hdfd78af_0": "sha256:a4fe53c1eeb9ef1fbb0380aed81b5ffb192b28c9320561b25d3b20d62ce94517"}, "docker": "quay.io/biocontainers/bioconductor-cnorfeeder", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnorfeeder.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnorfeeder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnorfeeder:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnorfeeder:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnorfeeder/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnorfeeder/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnorfeeder/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnorfeeder/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

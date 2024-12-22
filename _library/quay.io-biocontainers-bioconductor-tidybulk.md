@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tidybulk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidybulk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidybulk/container.yaml"
-updated_at: "2024-12-21 03:12:06.988782"
-latest: "1.14.2--r43hdfd78af_0"
+updated_at: "2024-12-22 03:21:02.507295"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidybulk"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.2--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tidybulk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tidybulk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tidybulk", "latest": {"1.14.2--r43hdfd78af_0": "sha256:a7214683405cd426df92d0c2dd6ea01a2c1d174b6f11d16e8ef7005b64949a2b"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:309f25d783e45393b84893712581efa4614a71679e7c4eecc239909bdef6ad9b", "1.10.0--r42hdfd78af_0": "sha256:9985d7ed2dd7cdbb3fb06041e0cbdc15aabd43bdb32b94f2b87561825b1cd39d", "1.12.0--r43hdfd78af_0": "sha256:0fdd08c234b831f952ce3aade3611a2f56029b4ac2036be15f4f2fe6ae66223f", "1.14.2--r43hdfd78af_0": "sha256:a7214683405cd426df92d0c2dd6ea01a2c1d174b6f11d16e8ef7005b64949a2b"}, "docker": "quay.io/biocontainers/bioconductor-tidybulk"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tidybulk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tidybulk", "latest": {"1.18.0--r44hdfd78af_0": "sha256:d433fc451d43dbb4cae52d608c23c3dc93212b4c67fa4dcdb15677d28b20cad6"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:309f25d783e45393b84893712581efa4614a71679e7c4eecc239909bdef6ad9b", "1.10.0--r42hdfd78af_0": "sha256:9985d7ed2dd7cdbb3fb06041e0cbdc15aabd43bdb32b94f2b87561825b1cd39d", "1.12.0--r43hdfd78af_0": "sha256:0fdd08c234b831f952ce3aade3611a2f56029b4ac2036be15f4f2fe6ae66223f", "1.14.2--r43hdfd78af_0": "sha256:a7214683405cd426df92d0c2dd6ea01a2c1d174b6f11d16e8ef7005b64949a2b", "1.18.0--r44hdfd78af_0": "sha256:d433fc451d43dbb4cae52d608c23c3dc93212b4c67fa4dcdb15677d28b20cad6"}, "docker": "quay.io/biocontainers/bioconductor-tidybulk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tidybulk.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tidybulk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tidybulk:1.14.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tidybulk:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tidybulk/1.14.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tidybulk/1.14.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tidybulk/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tidybulk/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

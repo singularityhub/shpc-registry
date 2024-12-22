@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gwascatdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwascatdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwascatdata/container.yaml"
-updated_at: "2024-12-21 03:08:59.113663"
-latest: "0.99.6--r43hdfd78af_5"
+updated_at: "2024-12-22 03:17:56.668557"
+latest: "0.99.6--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwascatdata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.99.6--r42hdfd78af_3"
  - "0.99.6--r43hdfd78af_4"
  - "0.99.6--r43hdfd78af_5"
+ - "0.99.6--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwascatdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascatdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascatdata", "latest": {"0.99.6--r43hdfd78af_5": "sha256:08c2d2d7f64bc1a3ea89326a3c583d8522733a0c39f83cfd9c5659804f9ee1ca"}, "tags": {"0.99.6--r41hdfd78af_2": "sha256:5fb3abad91828c71290b8a0be52464bba439f1988fe573f5acb443210167cb09", "0.99.6--r42hdfd78af_3": "sha256:8d0bd3e668f4faf771aa5bc33f59baa05f1735864b487f082b97dbe7eb81e498", "0.99.6--r43hdfd78af_4": "sha256:a9210eb43e9ebd97fd1124edd95a5f22950dceb6e2bfea4eb2445e9edb1dc087", "0.99.6--r43hdfd78af_5": "sha256:08c2d2d7f64bc1a3ea89326a3c583d8522733a0c39f83cfd9c5659804f9ee1ca"}, "docker": "quay.io/biocontainers/bioconductor-gwascatdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascatdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascatdata", "latest": {"0.99.6--r44hdfd78af_6": "sha256:70e30fa8a25ba59f8a0898fb8b38015f272f17e1e05b9c72c074b3e4ef017959"}, "tags": {"0.99.6--r41hdfd78af_2": "sha256:5fb3abad91828c71290b8a0be52464bba439f1988fe573f5acb443210167cb09", "0.99.6--r42hdfd78af_3": "sha256:8d0bd3e668f4faf771aa5bc33f59baa05f1735864b487f082b97dbe7eb81e498", "0.99.6--r43hdfd78af_4": "sha256:a9210eb43e9ebd97fd1124edd95a5f22950dceb6e2bfea4eb2445e9edb1dc087", "0.99.6--r43hdfd78af_5": "sha256:08c2d2d7f64bc1a3ea89326a3c583d8522733a0c39f83cfd9c5659804f9ee1ca", "0.99.6--r44hdfd78af_6": "sha256:70e30fa8a25ba59f8a0898fb8b38015f272f17e1e05b9c72c074b3e4ef017959"}, "docker": "quay.io/biocontainers/bioconductor-gwascatdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwascatdata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gwascatdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gwascatdata:0.99.6--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-gwascatdata:0.99.6--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gwascatdata/0.99.6--r43hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-gwascatdata/0.99.6--r43hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-gwascatdata/0.99.6--r44hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-gwascatdata/0.99.6--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

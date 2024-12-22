@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merlin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merlin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merlin/container.yaml"
-updated_at: "2024-12-21 02:56:47.972480"
+updated_at: "2024-12-22 03:05:48.998886"
 latest: "1.1.2--hdcf5f25_7"
 container_url: "https://biocontainers.pro/tools/merlin"
 aliases:

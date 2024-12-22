@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-asicsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asicsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asicsdata/container.yaml"
-updated_at: "2024-12-21 02:57:10.362314"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2024-12-22 03:06:12.555085"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asicsdata"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-asicsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asicsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asicsdata", "latest": {"1.22.0--r43hdfd78af_0": "sha256:5938864b5f07f969db5489e5190fd2ffc4248860f9e80b3f23f619d5206c9ae6"}, "tags": {"1.8.0--r40_0": "sha256:51be5dff203b0d988470541e9809b84d1e007084bf57392170aa3a562002c1f1", "1.17.0--r42hdfd78af_0": "sha256:2cb3cccdbc14af5f6fc629eccc46aeedbc63b88af27dd2cb6e071a57a1aa7ab1", "1.14.0--r41hdfd78af_1": "sha256:b9cffed63558f24d40c33160bd2b7e56f6b355521f38a48d04ca9f0ba28cb7f1", "1.12.0--r41hdfd78af_0": "sha256:809e88e18cb28e995780a68e1cbbb3d6f49cb319f28a427fa62a7eca8566e627", "1.20.0--r43hdfd78af_0": "sha256:18c6a10a9346b6441a547a28f46411ff30816caa9a9f6c7a5de4bb7f04ef5fdf", "1.22.0--r43hdfd78af_0": "sha256:5938864b5f07f969db5489e5190fd2ffc4248860f9e80b3f23f619d5206c9ae6"}, "docker": "quay.io/biocontainers/bioconductor-asicsdata", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asicsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asicsdata", "latest": {"1.26.0--r44hdfd78af_0": "sha256:64f4b2f1895461ca1ff322fa0c753eabe772aa542a5ce4dc2a0995ac1b9980b1"}, "tags": {"1.8.0--r40_0": "sha256:51be5dff203b0d988470541e9809b84d1e007084bf57392170aa3a562002c1f1", "1.17.0--r42hdfd78af_0": "sha256:2cb3cccdbc14af5f6fc629eccc46aeedbc63b88af27dd2cb6e071a57a1aa7ab1", "1.14.0--r41hdfd78af_1": "sha256:b9cffed63558f24d40c33160bd2b7e56f6b355521f38a48d04ca9f0ba28cb7f1", "1.12.0--r41hdfd78af_0": "sha256:809e88e18cb28e995780a68e1cbbb3d6f49cb319f28a427fa62a7eca8566e627", "1.20.0--r43hdfd78af_0": "sha256:18c6a10a9346b6441a547a28f46411ff30816caa9a9f6c7a5de4bb7f04ef5fdf", "1.22.0--r43hdfd78af_0": "sha256:5938864b5f07f969db5489e5190fd2ffc4248860f9e80b3f23f619d5206c9ae6", "1.26.0--r44hdfd78af_0": "sha256:64f4b2f1895461ca1ff322fa0c753eabe772aa542a5ce4dc2a0995ac1b9980b1"}, "docker": "quay.io/biocontainers/bioconductor-asicsdata", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asicsdata.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-asicsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-asicsdata:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-asicsdata:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-asicsdata/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-asicsdata/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-asicsdata/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-asicsdata/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

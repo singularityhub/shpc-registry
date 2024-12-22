@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proteinortho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteinortho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteinortho/container.yaml"
-updated_at: "2024-12-21 03:16:35.386496"
-latest: "6.3.3--h70414c8_0"
+updated_at: "2024-12-22 03:25:31.103174"
+latest: "6.3.4--h749629c_0"
 container_url: "https://biocontainers.pro/tools/proteinortho"
 aliases:
  - "proteinortho"
@@ -42,8 +42,9 @@ versions:
  - "6.1.7--hc5fcd1e_0"
  - "6.3.2--h70414c8_0"
  - "6.3.3--h70414c8_0"
+ - "6.3.4--h749629c_0"
 description: "shpc-registry automated BioContainers addition for proteinortho"
-config: {"url": "https://biocontainers.pro/tools/proteinortho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteinortho", "latest": {"6.3.3--h70414c8_0": "sha256:d174dbad0bf924323f7c5c4eb6d8c27820fbd32a25ee03916e58ed8a89bf1744"}, "tags": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc", "6.3.1--h70414c8_0": "sha256:c302c1030c6bb77ed2fcb22d18cdd6aaef30ef6cba3eff3ba6fe8015724f2957", "6.2.3--h70414c8_1": "sha256:fadb5576519ad133f9006966f60dca4f8bb7525243c2c043d2ce74c116349128", "6.1.7--hc5fcd1e_0": "sha256:9082532288cf0a59d637d2d343d57b68803c8dd74e593da477ef9d8a8f6ce293", "6.3.2--h70414c8_0": "sha256:16172ce53f4c4a0d20ff6bcb56e8e3cd47d38842039d22f74223c4c6590236ba", "6.3.3--h70414c8_0": "sha256:d174dbad0bf924323f7c5c4eb6d8c27820fbd32a25ee03916e58ed8a89bf1744"}, "docker": "quay.io/biocontainers/proteinortho", "aliases": {"proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "diamond": "/usr/local/bin/diamond", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/proteinortho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteinortho", "latest": {"6.3.4--h749629c_0": "sha256:99e4abc629b24eda578d9fffc845348ae3f56d637e63c81e1c624470dbf9b607"}, "tags": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc", "6.3.1--h70414c8_0": "sha256:c302c1030c6bb77ed2fcb22d18cdd6aaef30ef6cba3eff3ba6fe8015724f2957", "6.2.3--h70414c8_1": "sha256:fadb5576519ad133f9006966f60dca4f8bb7525243c2c043d2ce74c116349128", "6.1.7--hc5fcd1e_0": "sha256:9082532288cf0a59d637d2d343d57b68803c8dd74e593da477ef9d8a8f6ce293", "6.3.2--h70414c8_0": "sha256:16172ce53f4c4a0d20ff6bcb56e8e3cd47d38842039d22f74223c4c6590236ba", "6.3.3--h70414c8_0": "sha256:d174dbad0bf924323f7c5c4eb6d8c27820fbd32a25ee03916e58ed8a89bf1744", "6.3.4--h749629c_0": "sha256:99e4abc629b24eda578d9fffc845348ae3f56d637e63c81e1c624470dbf9b607"}, "docker": "quay.io/biocontainers/proteinortho", "aliases": {"proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "diamond": "/usr/local/bin/diamond", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteinortho.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/proteinortho
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteinortho:6.3.3--h70414c8_0
+$ shpc install quay.io/biocontainers/proteinortho:6.3.4--h749629c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteinortho/6.3.3--h70414c8_0
-$ module help quay.io/biocontainers/proteinortho/6.3.3--h70414c8_0
+$ module load quay.io/biocontainers/proteinortho/6.3.4--h749629c_0
+$ module help quay.io/biocontainers/proteinortho/6.3.4--h749629c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

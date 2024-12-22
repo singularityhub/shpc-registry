@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aletsch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aletsch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aletsch/container.yaml"
-updated_at: "2024-12-21 03:35:21.050652"
-latest: "1.1.3--hdbdd923_0"
+updated_at: "2024-12-22 03:44:06.451113"
+latest: "1.1.3--h503566f_1"
 container_url: "https://biocontainers.pro/tools/aletsch"
 aliases:
  - "aletsch"
@@ -20,8 +20,9 @@ versions:
  - "1.1.1--hdbdd923_1"
  - "1.1.2--hdbdd923_1"
  - "1.1.3--hdbdd923_0"
+ - "1.1.3--h503566f_1"
 description: "shpc-registry automated BioContainers addition for aletsch"
-config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.1.3--hdbdd923_0": "sha256:82b8b6dc711970b96ba8ebb886f11be49feb8a8e5055b260fd4d2515c67df356"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755", "1.0.3--h66ab1b6_5": "sha256:990b58274b1419c87200feed353a842384329364c1eca3e984475dcfe3b91eb0", "1.0.3--h5642b88_6": "sha256:979a4313a822a4e1e4164ad3119bb9a984e4c38cd569062c2283ebeb91d8b743", "1.1.1--he153687_0": "sha256:96eb0a1c9ddb6e0dd0b10e0ad69254f05694eea14085ec0aad605fcdca8d87c2", "1.1.1--hdbdd923_1": "sha256:4de5414fc4e4bf9b1235a2e239a509a2918cba2378819ed4cbbe292af3d36c22", "1.1.2--hdbdd923_1": "sha256:7aa3e7ed25ae1e93bcec5a5a30945d3ba1f34769e636c3c8daf82e8539803305", "1.1.3--hdbdd923_0": "sha256:82b8b6dc711970b96ba8ebb886f11be49feb8a8e5055b260fd4d2515c67df356"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.1.3--h503566f_1": "sha256:ebe60cd6b67318605290cae4e5575618d8a6beeea7f7ef4228957b9c1667e0cc"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755", "1.0.3--h66ab1b6_5": "sha256:990b58274b1419c87200feed353a842384329364c1eca3e984475dcfe3b91eb0", "1.0.3--h5642b88_6": "sha256:979a4313a822a4e1e4164ad3119bb9a984e4c38cd569062c2283ebeb91d8b743", "1.1.1--he153687_0": "sha256:96eb0a1c9ddb6e0dd0b10e0ad69254f05694eea14085ec0aad605fcdca8d87c2", "1.1.1--hdbdd923_1": "sha256:4de5414fc4e4bf9b1235a2e239a509a2918cba2378819ed4cbbe292af3d36c22", "1.1.2--hdbdd923_1": "sha256:7aa3e7ed25ae1e93bcec5a5a30945d3ba1f34769e636c3c8daf82e8539803305", "1.1.3--hdbdd923_0": "sha256:82b8b6dc711970b96ba8ebb886f11be49feb8a8e5055b260fd4d2515c67df356", "1.1.3--h503566f_1": "sha256:ebe60cd6b67318605290cae4e5575618d8a6beeea7f7ef4228957b9c1667e0cc"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aletsch.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/aletsch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aletsch:1.1.3--hdbdd923_0
+$ shpc install quay.io/biocontainers/aletsch:1.1.3--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aletsch/1.1.3--hdbdd923_0
-$ module help quay.io/biocontainers/aletsch/1.1.3--hdbdd923_0
+$ module load quay.io/biocontainers/aletsch/1.1.3--h503566f_1
+$ module help quay.io/biocontainers/aletsch/1.1.3--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

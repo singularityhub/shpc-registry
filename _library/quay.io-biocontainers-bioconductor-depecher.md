@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-depecher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
-updated_at: "2024-12-21 02:48:49.889649"
-latest: "1.18.0--r43hf17093f_0"
+updated_at: "2024-12-22 02:57:39.087116"
+latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depecher"
 aliases:
  - "f2py3.9"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
  - "1.18.0--r43hf17093f_0"
+ - "1.22.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-depecher"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-depecher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depecher", "latest": {"1.18.0--r43hf17093f_0": "sha256:4665218d7f5098d9adc74c54c6f743dc7155d9ce8c53765baf78037678348d0e"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9", "1.14.0--r42hc247a5b_0": "sha256:d804909a0eb53066c71272b0bdd3c6bae582f7db662f1e957332bbc47f36241b", "1.10.0--r41hc247a5b_2": "sha256:465407401328013759a2e96aae29c39a325d71e2bd9da90eb735abcd67e380fa", "1.14.0--r42hf17093f_1": "sha256:8854a536be55abc993e6b7f94480cf2cec7ac02331e6ae9cb1cec4320cb57513", "1.16.0--r43hf17093f_0": "sha256:40cd03043d4064552d73b285cac35b62c9bb66a3eaf9e112f5409c2580614e9d", "1.18.0--r43hf17093f_0": "sha256:4665218d7f5098d9adc74c54c6f743dc7155d9ce8c53765baf78037678348d0e"}, "docker": "quay.io/biocontainers/bioconductor-depecher", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-depecher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depecher", "latest": {"1.22.0--r44he5774e6_0": "sha256:b79ddfdd5edb7f121d9d993954102df7fc37c3317e3d534ea8d0564c23127e69"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9", "1.14.0--r42hc247a5b_0": "sha256:d804909a0eb53066c71272b0bdd3c6bae582f7db662f1e957332bbc47f36241b", "1.10.0--r41hc247a5b_2": "sha256:465407401328013759a2e96aae29c39a325d71e2bd9da90eb735abcd67e380fa", "1.14.0--r42hf17093f_1": "sha256:8854a536be55abc993e6b7f94480cf2cec7ac02331e6ae9cb1cec4320cb57513", "1.16.0--r43hf17093f_0": "sha256:40cd03043d4064552d73b285cac35b62c9bb66a3eaf9e112f5409c2580614e9d", "1.18.0--r43hf17093f_0": "sha256:4665218d7f5098d9adc74c54c6f743dc7155d9ce8c53765baf78037678348d0e", "1.22.0--r44he5774e6_0": "sha256:b79ddfdd5edb7f121d9d993954102df7fc37c3317e3d534ea8d0564c23127e69"}, "docker": "quay.io/biocontainers/bioconductor-depecher", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-depecher.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-depecher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-depecher:1.18.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-depecher:1.22.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-depecher/1.18.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-depecher/1.18.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-depecher/1.22.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-depecher/1.22.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

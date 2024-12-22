@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/prophasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophasm/container.yaml"
-updated_at: "2024-12-21 03:11:30.024838"
-latest: "0.1.1--hdcf5f25_4"
+updated_at: "2024-12-22 03:20:25.771523"
+latest: "0.1.1--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/prophasm"
 aliases:
  - "prophasm"
 versions:
  - "0.1.1--hd03093a_2"
  - "0.1.1--hdcf5f25_4"
+ - "0.1.1--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for prophasm"
-config: {"url": "https://biocontainers.pro/tools/prophasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophasm", "latest": {"0.1.1--hdcf5f25_4": "sha256:200a2385244d75f12380f7af3c33c68d652aaad87bd251d693744ed803899d72"}, "tags": {"0.1.1--hd03093a_2": "sha256:96c523622d565b62749dba9c97e3e371d423e3905cb35075bac332d6196bc1cf", "0.1.1--hdcf5f25_4": "sha256:200a2385244d75f12380f7af3c33c68d652aaad87bd251d693744ed803899d72"}, "docker": "quay.io/biocontainers/prophasm", "aliases": {"prophasm": "/usr/local/bin/prophasm"}}
+config: {"url": "https://biocontainers.pro/tools/prophasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophasm", "latest": {"0.1.1--h077b44d_5": "sha256:b9a496ec54f772cccbd09b1c21e82e75f7a7a30d917f3353b86f570f40fe7f04"}, "tags": {"0.1.1--hd03093a_2": "sha256:96c523622d565b62749dba9c97e3e371d423e3905cb35075bac332d6196bc1cf", "0.1.1--hdcf5f25_4": "sha256:200a2385244d75f12380f7af3c33c68d652aaad87bd251d693744ed803899d72", "0.1.1--h077b44d_5": "sha256:b9a496ec54f772cccbd09b1c21e82e75f7a7a30d917f3353b86f570f40fe7f04"}, "docker": "quay.io/biocontainers/prophasm", "aliases": {"prophasm": "/usr/local/bin/prophasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophasm.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/prophasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prophasm:0.1.1--hdcf5f25_4
+$ shpc install quay.io/biocontainers/prophasm:0.1.1--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prophasm/0.1.1--hdcf5f25_4
-$ module help quay.io/biocontainers/prophasm/0.1.1--hdcf5f25_4
+$ module load quay.io/biocontainers/prophasm/0.1.1--h077b44d_5
+$ module help quay.io/biocontainers/prophasm/0.1.1--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

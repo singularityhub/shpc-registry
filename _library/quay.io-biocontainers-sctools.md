@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sctools/container.yaml"
-updated_at: "2024-12-21 03:16:15.560628"
-latest: "1.0.0--hdcf5f25_4"
+updated_at: "2024-12-22 03:25:11.124741"
+latest: "1.0.0--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/sctools"
 aliases:
  - "sctools_demultiplex"
 versions:
  - "1.0.0--hd03093a_2"
  - "1.0.0--hdcf5f25_4"
+ - "1.0.0--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for sctools"
-config: {"url": "https://biocontainers.pro/tools/sctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sctools", "latest": {"1.0.0--hdcf5f25_4": "sha256:1f1d8d46a4b2dc8f8dd994efb570e2ff67425ece45caa23e1139280745094b51"}, "tags": {"1.0.0--hd03093a_2": "sha256:6b8a23ce4487ab761d8489d782bacd89b2aa04d3dd8f3ec88e093afcd79010fb", "1.0.0--hdcf5f25_4": "sha256:1f1d8d46a4b2dc8f8dd994efb570e2ff67425ece45caa23e1139280745094b51"}, "docker": "quay.io/biocontainers/sctools", "aliases": {"sctools_demultiplex": "/usr/local/bin/sctools_demultiplex"}}
+config: {"url": "https://biocontainers.pro/tools/sctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sctools", "latest": {"1.0.0--h077b44d_5": "sha256:1b63a34ff7b725975d052cd16980e21bf898a03c94ce7cdd597214cdbccec293"}, "tags": {"1.0.0--hd03093a_2": "sha256:6b8a23ce4487ab761d8489d782bacd89b2aa04d3dd8f3ec88e093afcd79010fb", "1.0.0--hdcf5f25_4": "sha256:1f1d8d46a4b2dc8f8dd994efb570e2ff67425ece45caa23e1139280745094b51", "1.0.0--h077b44d_5": "sha256:1b63a34ff7b725975d052cd16980e21bf898a03c94ce7cdd597214cdbccec293"}, "docker": "quay.io/biocontainers/sctools", "aliases": {"sctools_demultiplex": "/usr/local/bin/sctools_demultiplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sctools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sctools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sctools:1.0.0--hdcf5f25_4
+$ shpc install quay.io/biocontainers/sctools:1.0.0--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sctools/1.0.0--hdcf5f25_4
-$ module help quay.io/biocontainers/sctools/1.0.0--hdcf5f25_4
+$ module load quay.io/biocontainers/sctools/1.0.0--h077b44d_5
+$ module help quay.io/biocontainers/sctools/1.0.0--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

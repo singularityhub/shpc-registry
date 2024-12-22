@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msexperiment/container.yaml"
-updated_at: "2024-12-21 02:54:09.660322"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2024-12-22 03:03:02.012909"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msexperiment"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-msexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msexperiment", "latest": {"1.4.0--r43hdfd78af_0": "sha256:75fda3e72227dcabddbef3b5208e26f0722730ab8abfdbda0504c2ccf0433e27"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:4c9e88ca288416fa5b3529eec809f613ec5a9af4e537e3a8fe36bda9bac5dfdc", "1.2.0--r43hdfd78af_0": "sha256:f9b862c52a1a9d6ac76d7d52f17f6f0fbd48dc952862c407b7e3991d25202058", "1.4.0--r43hdfd78af_0": "sha256:75fda3e72227dcabddbef3b5208e26f0722730ab8abfdbda0504c2ccf0433e27"}, "docker": "quay.io/biocontainers/bioconductor-msexperiment", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msexperiment", "latest": {"1.8.0--r44hdfd78af_0": "sha256:fc7456da6215eee2facc009b9f5a098a54646db6dfbf1f806e9f60f5b98f9560"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:4c9e88ca288416fa5b3529eec809f613ec5a9af4e537e3a8fe36bda9bac5dfdc", "1.2.0--r43hdfd78af_0": "sha256:f9b862c52a1a9d6ac76d7d52f17f6f0fbd48dc952862c407b7e3991d25202058", "1.4.0--r43hdfd78af_0": "sha256:75fda3e72227dcabddbef3b5208e26f0722730ab8abfdbda0504c2ccf0433e27", "1.8.0--r44hdfd78af_0": "sha256:fc7456da6215eee2facc009b9f5a098a54646db6dfbf1f806e9f60f5b98f9560"}, "docker": "quay.io/biocontainers/bioconductor-msexperiment", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msexperiment.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msexperiment:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msexperiment:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msexperiment/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msexperiment/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msexperiment/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msexperiment/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

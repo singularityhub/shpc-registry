@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/emu-pca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emu-pca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emu-pca/container.yaml"
-updated_at: "2024-12-21 03:20:10.699431"
-latest: "1.1--py310h581d4b6_0"
+updated_at: "2024-12-22 03:29:06.881995"
+latest: "1.1--py310h20b60a1_1"
 container_url: "https://biocontainers.pro/tools/emu-pca"
 aliases:
  - "emu"
@@ -18,8 +18,9 @@ versions:
  - "1.0--py310h581d4b6_1"
  - "1.0--py312h1f1cfbb_1"
  - "1.1--py310h581d4b6_0"
+ - "1.1--py310h20b60a1_1"
 description: "singularity registry hpc automated addition for emu-pca"
-config: {"url": "https://biocontainers.pro/tools/emu-pca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emu-pca", "latest": {"1.1--py310h581d4b6_0": "sha256:4af9c03456277fd7af82b28230e66bb3630f6088cfadcf0b0f1477d90bad8968"}, "tags": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376", "1.0--py312h1f1cfbb_1": "sha256:1e48f2f9058bedb8bffee7f8b9b8798ffe31f6c05a26ac39fc60af84ddb47504", "1.1--py310h581d4b6_0": "sha256:4af9c03456277fd7af82b28230e66bb3630f6088cfadcf0b0f1477d90bad8968"}, "docker": "quay.io/biocontainers/emu-pca", "aliases": {"emu": "/usr/local/bin/emu", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/emu-pca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emu-pca", "latest": {"1.1--py310h20b60a1_1": "sha256:ea5fcd2f442eec59210db7bb6baa67d481fedf2e70cc157a885f3cdc6d99a589"}, "tags": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376", "1.0--py312h1f1cfbb_1": "sha256:1e48f2f9058bedb8bffee7f8b9b8798ffe31f6c05a26ac39fc60af84ddb47504", "1.1--py310h581d4b6_0": "sha256:4af9c03456277fd7af82b28230e66bb3630f6088cfadcf0b0f1477d90bad8968", "1.1--py310h20b60a1_1": "sha256:ea5fcd2f442eec59210db7bb6baa67d481fedf2e70cc157a885f3cdc6d99a589"}, "docker": "quay.io/biocontainers/emu-pca", "aliases": {"emu": "/usr/local/bin/emu", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emu-pca.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/emu-pca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/emu-pca:1.1--py310h581d4b6_0
+$ shpc install quay.io/biocontainers/emu-pca:1.1--py310h20b60a1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/emu-pca/1.1--py310h581d4b6_0
-$ module help quay.io/biocontainers/emu-pca/1.1--py310h581d4b6_0
+$ module load quay.io/biocontainers/emu-pca/1.1--py310h20b60a1_1
+$ module help quay.io/biocontainers/emu-pca/1.1--py310h20b60a1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

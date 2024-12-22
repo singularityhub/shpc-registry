@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-time-hires"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-time-hires/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-time-hires/container.yaml"
-updated_at: "2024-12-21 03:05:46.146066"
-latest: "1.9764--pl5321h031d066_5"
+updated_at: "2024-12-22 03:14:43.672493"
+latest: "1.9764--pl5321h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/perl-time-hires"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "1.9764--pl5321hec16e2b_2"
  - "1.9764--pl5321h031d066_4"
  - "1.9764--pl5321h031d066_5"
+ - "1.9764--pl5321h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for perl-time-hires"
-config: {"url": "https://biocontainers.pro/tools/perl-time-hires", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-time-hires", "latest": {"1.9764--pl5321h031d066_5": "sha256:8b63c3372c98ac4d587c339e2aab06bf41337f4b39e6411cc924ebb2873fdd26"}, "tags": {"1.9764--pl5321hec16e2b_2": "sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40", "1.9764--pl5321h031d066_4": "sha256:f2483c5f3a6209bc74f17f806e734dcd12a529714a9930117def4ad27a1b0fd1", "1.9764--pl5321h031d066_5": "sha256:8b63c3372c98ac4d587c339e2aab06bf41337f4b39e6411cc924ebb2873fdd26"}, "docker": "quay.io/biocontainers/perl-time-hires", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-time-hires", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-time-hires", "latest": {"1.9764--pl5321h7b50bb2_6": "sha256:412e0ca88950f4da5d0be0a28c0e055f5ea76cfb0fff8015a7d0464da7b5fe12"}, "tags": {"1.9764--pl5321hec16e2b_2": "sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40", "1.9764--pl5321h031d066_4": "sha256:f2483c5f3a6209bc74f17f806e734dcd12a529714a9930117def4ad27a1b0fd1", "1.9764--pl5321h031d066_5": "sha256:8b63c3372c98ac4d587c339e2aab06bf41337f4b39e6411cc924ebb2873fdd26", "1.9764--pl5321h7b50bb2_6": "sha256:412e0ca88950f4da5d0be0a28c0e055f5ea76cfb0fff8015a7d0464da7b5fe12"}, "docker": "quay.io/biocontainers/perl-time-hires", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-time-hires.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-time-hires
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-time-hires:1.9764--pl5321h031d066_5
+$ shpc install quay.io/biocontainers/perl-time-hires:1.9764--pl5321h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-time-hires/1.9764--pl5321h031d066_5
-$ module help quay.io/biocontainers/perl-time-hires/1.9764--pl5321h031d066_5
+$ module load quay.io/biocontainers/perl-time-hires/1.9764--pl5321h7b50bb2_6
+$ module help quay.io/biocontainers/perl-time-hires/1.9764--pl5321h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

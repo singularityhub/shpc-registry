@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dnp-diprofile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-diprofile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-diprofile/container.yaml"
-updated_at: "2024-12-21 03:07:17.571414"
-latest: "1.0--h6a68c12_6"
+updated_at: "2024-12-22 03:16:14.455953"
+latest: "1.0--hd6d6fdc_7"
 container_url: "https://biocontainers.pro/tools/dnp-diprofile"
 aliases:
  - "dnp-diprofile"
 versions:
  - "1.0--hf1761c0_4"
  - "1.0--h6a68c12_6"
+ - "1.0--hd6d6fdc_7"
 description: "shpc-registry automated BioContainers addition for dnp-diprofile"
-config: {"url": "https://biocontainers.pro/tools/dnp-diprofile", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-diprofile", "latest": {"1.0--h6a68c12_6": "sha256:1d93362e2e79e586c3df34f5f6ca0a52890812694823132a57b199548e3b1339"}, "tags": {"1.0--hf1761c0_4": "sha256:e4001a753e2fa9eac53e20e98a4c3c486271a2ffcae7f1ec629ddbeff6b89386", "1.0--h6a68c12_6": "sha256:1d93362e2e79e586c3df34f5f6ca0a52890812694823132a57b199548e3b1339"}, "docker": "quay.io/biocontainers/dnp-diprofile", "aliases": {"dnp-diprofile": "/usr/local/bin/dnp-diprofile"}}
+config: {"url": "https://biocontainers.pro/tools/dnp-diprofile", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-diprofile", "latest": {"1.0--hd6d6fdc_7": "sha256:10431d7b95ac2fbdf6dac7035511c6bd9227d31051c1ad0fd1bd6c01264b4e3f"}, "tags": {"1.0--hf1761c0_4": "sha256:e4001a753e2fa9eac53e20e98a4c3c486271a2ffcae7f1ec629ddbeff6b89386", "1.0--h6a68c12_6": "sha256:1d93362e2e79e586c3df34f5f6ca0a52890812694823132a57b199548e3b1339", "1.0--hd6d6fdc_7": "sha256:10431d7b95ac2fbdf6dac7035511c6bd9227d31051c1ad0fd1bd6c01264b4e3f"}, "docker": "quay.io/biocontainers/dnp-diprofile", "aliases": {"dnp-diprofile": "/usr/local/bin/dnp-diprofile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnp-diprofile.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dnp-diprofile
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnp-diprofile:1.0--h6a68c12_6
+$ shpc install quay.io/biocontainers/dnp-diprofile:1.0--hd6d6fdc_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnp-diprofile/1.0--h6a68c12_6
-$ module help quay.io/biocontainers/dnp-diprofile/1.0--h6a68c12_6
+$ module load quay.io/biocontainers/dnp-diprofile/1.0--hd6d6fdc_7
+$ module help quay.io/biocontainers/dnp-diprofile/1.0--hd6d6fdc_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/riblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riblast/container.yaml"
-updated_at: "2024-12-21 03:22:16.934801"
-latest: "1.2.0--hdcf5f25_0"
+updated_at: "2024-12-22 03:31:06.985891"
+latest: "1.2.0--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/riblast"
 aliases:
  - "RIblast"
 versions:
  - "1.2.0--hdcf5f25_0"
+ - "1.2.0--h077b44d_1"
 description: "singularity registry hpc automated addition for riblast"
-config: {"url": "https://biocontainers.pro/tools/riblast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riblast", "latest": {"1.2.0--hdcf5f25_0": "sha256:a67330e55d7994ca25e3f4cca1749d41fbf064c2d6778fa6c32213022fd365d9"}, "tags": {"1.2.0--hdcf5f25_0": "sha256:a67330e55d7994ca25e3f4cca1749d41fbf064c2d6778fa6c32213022fd365d9"}, "docker": "quay.io/biocontainers/riblast", "aliases": {"RIblast": "/usr/local/bin/RIblast"}}
+config: {"url": "https://biocontainers.pro/tools/riblast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riblast", "latest": {"1.2.0--h077b44d_1": "sha256:270cce2e05f65357d25d5fbbcc24174963ff0be3a69c281658cc89eb77e3e2fc"}, "tags": {"1.2.0--hdcf5f25_0": "sha256:a67330e55d7994ca25e3f4cca1749d41fbf064c2d6778fa6c32213022fd365d9", "1.2.0--h077b44d_1": "sha256:270cce2e05f65357d25d5fbbcc24174963ff0be3a69c281658cc89eb77e3e2fc"}, "docker": "quay.io/biocontainers/riblast", "aliases": {"RIblast": "/usr/local/bin/RIblast"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riblast.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/riblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riblast:1.2.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/riblast:1.2.0--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riblast/1.2.0--hdcf5f25_0
-$ module help quay.io/biocontainers/riblast/1.2.0--hdcf5f25_0
+$ module load quay.io/biocontainers/riblast/1.2.0--h077b44d_1
+$ module help quay.io/biocontainers/riblast/1.2.0--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
