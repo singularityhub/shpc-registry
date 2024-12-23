@@ -5,6 +5,7 @@ latest:
   0.1.3--py310hec43fc7_0: sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde
 tags:
   0.1.3--py310hec43fc7_0: sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde
+  0.1.3--py39h5b94c0b_0: sha256:3501dcb31e6e5a894dc3e6784ccd48c23a6e5ad1de7c2c8c44a893e6af8c2e69
 docker: quay.io/biocontainers/pyskani
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

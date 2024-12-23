@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-m3drop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-m3drop
 latest:
-  1.28.0--r43hdfd78af_1: sha256:b0383a57f297265f264d321d8fb16d6e2dad6a0f6e25ccceba84ab2843f2eff7
+  1.32.0--r44hdfd78af_0: sha256:98a1331f0d56fbac2ad680ca96b9aaad286188dc10e2064dcc0c21e056661dd7
 tags:
   1.8.1--r351_0: sha256:a31efb69b8a66ec7809d14789a05130310d14fb37a71d307bfe526a33a04fa23
   1.24.0--r42hdfd78af_0: sha256:87d82693a2b4626d9b37f3d90c9b5a807f25396ac2f06cc18c3273e021b12b12
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:0124e008daa2e8ffe21b7da9a7349a4aee05f2b1a3634f136707b02c3280670f
   1.26.0--r43hdfd78af_0: sha256:d85fb2ea3b4b7ca393a38138c1e462e381d95ce0202c0de8672bc7d0b75e8aff
   1.28.0--r43hdfd78af_1: sha256:b0383a57f297265f264d321d8fb16d6e2dad6a0f6e25ccceba84ab2843f2eff7
+  1.32.0--r44hdfd78af_0: sha256:98a1331f0d56fbac2ad680ca96b9aaad286188dc10e2064dcc0c21e056661dd7
 docker: quay.io/biocontainers/bioconductor-m3drop
 aliases:
   c89: /usr/local/bin/c89

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/randfold
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for randfold
 latest:
-  2.0.1--h031d066_6: sha256:5b470be8852a813976fa17b3260f4685f662a83865708a9760197c9091c01278
+  2.0.1--h7b50bb2_7: sha256:a8866177be44c4d4bd32b7b2a204e9cc809cf912158cdfed2bc8b75fa17b7fd2
 tags:
   2.0.1--hec16e2b_4: sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316
   2.0.1--h031d066_6: sha256:5b470be8852a813976fa17b3260f4685f662a83865708a9760197c9091c01278
+  2.0.1--h7b50bb2_7: sha256:a8866177be44c4d4bd32b7b2a204e9cc809cf912158cdfed2bc8b75fa17b7fd2
 docker: quay.io/biocontainers/randfold
 aliases:
   afetch: /usr/local/bin/afetch

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gscreend
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gscreend
 latest:
-  1.14.0--r43hdfd78af_0: sha256:9fa52506c89e56fce5290f4c9113673c5232ca0a8165d1d9a5f9422d3bfd9acb
+  1.20.0--r44hdfd78af_0: sha256:c68186acdaf01d34161caf25110c84ddaef0bba99ec9c75d30ecf9447aa8176c
 tags:
   1.8.0--r41hdfd78af_0: sha256:d86124a467ce21b770bff7700e23fa6fa24af1feb8c63ab3480524adf546e566
   1.12.0--r42hdfd78af_0: sha256:635e9af8202d5fe847b5166c9458d38a99328c7d5d0bf3625b781bdfff1ab4c4
   1.14.0--r43hdfd78af_0: sha256:9fa52506c89e56fce5290f4c9113673c5232ca0a8165d1d9a5f9422d3bfd9acb
+  1.20.0--r44hdfd78af_0: sha256:c68186acdaf01d34161caf25110c84ddaef0bba99ec9c75d30ecf9447aa8176c
 docker: quay.io/biocontainers/bioconductor-gscreend

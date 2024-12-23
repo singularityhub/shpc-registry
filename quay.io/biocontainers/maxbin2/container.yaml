@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/maxbin2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for maxbin2
 latest:
-  2.2.7--hdbdd923_5: sha256:ce29c7f8bb838f172903c7e7cee6ffbcc444fad8af5a9bb537c8c404aeaa6349
+  2.2.7--h503566f_6: sha256:558a3d145afdd7c8849d245a2147627f444004487b8976fd147d5ea0f4b58cc4
 tags:
   2.2.7--h87f3376_4: sha256:ae1bb8288aa49f150d5b2eab1cf2e29b026feba256db94c11827401b5b657a01
   2.2.7--hdbdd923_5: sha256:ce29c7f8bb838f172903c7e7cee6ffbcc444fad8af5a9bb537c8c404aeaa6349
+  2.2.7--h503566f_6: sha256:558a3d145afdd7c8849d245a2147627f444004487b8976fd147d5ea0f4b58cc4
 docker: quay.io/biocontainers/maxbin2
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan

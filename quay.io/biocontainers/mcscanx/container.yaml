@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mcscanx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mcscanx
 latest:
-  0.1--h9948957_0: sha256:e11c3cce3cce5339789302b164747aea4023b70c3da9b6b64161c95f27baf57d
+  1.0.0--h9948957_0: sha256:bdf176aedfe9d1d7f11b58aefe12a96f4e9550a62be05d28809ad0c87832767c
 tags:
   0.1--h9948957_0: sha256:e11c3cce3cce5339789302b164747aea4023b70c3da9b6b64161c95f27baf57d
+  1.0.0--h9948957_0: sha256:bdf176aedfe9d1d7f11b58aefe12a96f4e9550a62be05d28809ad0c87832767c
 docker: quay.io/biocontainers/mcscanx
 aliases:
   MCScanX: /usr/local/bin/MCScanX

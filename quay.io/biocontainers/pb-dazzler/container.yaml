@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pb-dazzler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pb-dazzler
 latest:
-  0.0.1--h031d066_4: sha256:31f9a71563a9da2a8cf5ad5e79d975526cdb859cafef038f882bfc4764818b90
+  0.0.1--h7b50bb2_5: sha256:eb8b09d558e8841c418c8d47207dbdcc3c0d689ce0ec85ef629b8036c5caecd2
 tags:
   0.0.1--hec16e2b_2: sha256:ae0bd4afb8926f1b44a96332bc915446a992736c699538efe31b731a0d96c370
   0.0.1--h031d066_4: sha256:31f9a71563a9da2a8cf5ad5e79d975526cdb859cafef038f882bfc4764818b90
+  0.0.1--h7b50bb2_5: sha256:eb8b09d558e8841c418c8d47207dbdcc3c0d689ce0ec85ef629b8036c5caecd2
 docker: quay.io/biocontainers/pb-dazzler
 aliases:
   Catrack: /usr/local/bin/Catrack

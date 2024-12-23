@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/asgal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for asgal
 latest:
-  1.1.8--h43eeafb_1: sha256:fb27613c2e4f6f7b778850ccac14989b4223e6bec75075abfc9af5c941be5907
+  1.1.8--h5ca1c30_2: sha256:0a5c39a291aef576d2183f5236b05b10afa15d0a9ab47ad5a679b22f6e62c155
 tags:
   1.1.8--h5b5514e_0: sha256:7f7955668f615a790a5bad0439a71382596f54eef59dc3dd97cd2ae010d36455
   1.1.8--h43eeafb_1: sha256:fb27613c2e4f6f7b778850ccac14989b4223e6bec75075abfc9af5c941be5907
+  1.1.8--h5ca1c30_2: sha256:0a5c39a291aef576d2183f5236b05b10afa15d0a9ab47ad5a679b22f6e62c155
 docker: quay.io/biocontainers/asgal
 aliases:
   SpliceAwareAligner: /usr/local/bin/SpliceAwareAligner

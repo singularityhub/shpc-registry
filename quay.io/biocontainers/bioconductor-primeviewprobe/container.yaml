@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-primeviewprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-primeviewprobe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:ae5e7a4e2af2e361f0b3a602005a64eb8620817ad81bd6a64e145bf024428b42
+  2.18.0--r44hdfd78af_13: sha256:fae9d2ae7438b32d344a24213e6779b4a441c9f348b0114f8009a6e4b7ddb02e
 tags:
   2.18.0--r41hdfd78af_9: sha256:14ceacc8c5f2bd82d11de6d1457ab9075255863eb1cfdd452fc0021c960996df
   2.18.0--r42hdfd78af_10: sha256:d6830c721d1fc7b20da5b8f7a81c939726dc38673924b590386d43f262d298ce
   2.18.0--r43hdfd78af_11: sha256:6e77bf1a0c127f5867079b6980dbced3aaa7d027a6b32fc0a53d445a30069e5c
   2.18.0--r43hdfd78af_12: sha256:ae5e7a4e2af2e361f0b3a602005a64eb8620817ad81bd6a64e145bf024428b42
+  2.18.0--r44hdfd78af_13: sha256:fae9d2ae7438b32d344a24213e6779b4a441c9f348b0114f8009a6e4b7ddb02e
 docker: quay.io/biocontainers/bioconductor-primeviewprobe

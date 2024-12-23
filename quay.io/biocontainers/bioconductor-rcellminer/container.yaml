@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rcellminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcellminer
 latest:
-  2.24.0--r43hdfd78af_0: sha256:b8e23eb6d6ca147ef0d335131b86e221b095f4dd7f302aa5b1dc18bd5ef7c58f
+  2.28.0--r44hdfd78af_0: sha256:432ef91e20265244e8b2a5e62e21b7253a33dd0d68c76e572da73edd5dd5b366
 tags:
   2.8.0--r36_1: sha256:5547ef3c55f0dc521a8b1341793f31c4e15ff3549748e58cccb5bd0fb00641ff
   2.20.0--r42hdfd78af_0: sha256:bc265f7c224bde31f4571ef5c9c542d965a80c1a66d5c12d6951b6db7172bb51
@@ -12,6 +12,7 @@ tags:
   2.11.1--r40_0: sha256:8bac4aadf600be3eff84f86bec00a3e93848029d9b7e126818088d9857397587
   2.22.0--r43hdfd78af_0: sha256:40d0e8b037bee66ec887f318c8cd57d6471670df836fb6e4c66794a6895b577c
   2.24.0--r43hdfd78af_0: sha256:b8e23eb6d6ca147ef0d335131b86e221b095f4dd7f302aa5b1dc18bd5ef7c58f
+  2.28.0--r44hdfd78af_0: sha256:432ef91e20265244e8b2a5e62e21b7253a33dd0d68c76e572da73edd5dd5b366
 docker: quay.io/biocontainers/bioconductor-rcellminer
 aliases:
   extcheck: /usr/local/bin/extcheck

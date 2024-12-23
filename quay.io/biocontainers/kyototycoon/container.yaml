@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/kyototycoon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kyototycoon
 latest:
-  20170410--h27c383b_4: sha256:63003a4d2a53e2b54e48a89130b2d1a74834ba647596877ab4e7873f5aa686c4
+  20170410--hbed32c3_5: sha256:d795d93bfbc8e7e2706c0594160c85e9e5d1d84f3f7dcd1d9c616cf54d0c9bed
 tags:
   2017.04.10--hd344e51_3: sha256:6651b8770a005a6cce1af51ae6dbeea7a73b8ba9dadd92249fa796d7dc6fbc0e
   20170410--hf64b9f5_2: sha256:8f514fe6f5129d839b2d060cc58433dfac80f3f7d01cc9da7c450f9c577648ac
@@ -11,6 +11,7 @@ tags:
   20170410--h27c383b_4: sha256:63003a4d2a53e2b54e48a89130b2d1a74834ba647596877ab4e7873f5aa686c4
   20170410--hf64b9f5_3: sha256:344352d5edaa4ffba425ed21025b37449d41829380e619549b5d3cc30e6ea594
   20170410--h27c383b_3: sha256:6e52a27f9957254051e9faaf0beb85e144870a0f7b186afe19295e03f0c134b7
+  20170410--hbed32c3_5: sha256:d795d93bfbc8e7e2706c0594160c85e9e5d1d84f3f7dcd1d9c616cf54d0c9bed
 docker: quay.io/biocontainers/kyototycoon
 aliases:
   kccachetest: /usr/local/bin/kccachetest

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/probeit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for probeit
 latest:
-  2.2--py38hfe239e1_3: sha256:818005954efd214e4975b380c9bd055c08f9545ef8123627d94b5f69d9e37145
+  2.2--py311h8ddd9a4_4: sha256:76cbd11165961e53361f0be6f16c9eff2f20a1212d43598c4b3b720f0dc07d1a
 tags:
   v1.9--py38hc37a69a_1: sha256:a6f818dede4e5c1528dfaef296dcad730de61579254380369f2e8abc148e3dc4
   2.2--py38h8ded8fe_1: sha256:e26ae46557525d14b86447cd9f68d25a3e8173ff7d1693020220f0be59b5c30c
@@ -12,6 +12,7 @@ tags:
   2.0--py36hff8b118_0: sha256:3415f5997f7692645abc767195ca5634e4d3761a1a3403d9fb8177cb371fa6a0
   v1.9--py37h21043fe_1: sha256:b6561c84149c199917eb48f8b1268fb40485271fbb742dcf53b619702f506dea
   2.2--py38hfe239e1_3: sha256:818005954efd214e4975b380c9bd055c08f9545ef8123627d94b5f69d9e37145
+  2.2--py311h8ddd9a4_4: sha256:76cbd11165961e53361f0be6f16c9eff2f20a1212d43598c4b3b720f0dc07d1a
 docker: quay.io/biocontainers/probeit
 aliases:
   genmap: /usr/local/bin/genmap

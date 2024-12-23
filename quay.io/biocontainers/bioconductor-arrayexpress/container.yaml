@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-arrayexpress
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-arrayexpress
 latest:
-  1.62.0--r43hdfd78af_0: sha256:c22771c84a1f860c5f096e6b76ae21f38a97069049defa750ea6402b2bee61ba
+  1.66.0--r44hdfd78af_0: sha256:3803e8833337bed463523b8b2dfdeac4e3db5734fe9ff1b4459d19ecd4d1a6eb
 tags:
   1.54.0--r41hdfd78af_0: sha256:0673ae8333fb0d0f189f294154d272036c2dff69a3da1d380cc19cc77ef2e662
   1.57.0--r42hdfd78af_0: sha256:4776a6852841fe065948b9a63b6449d855860f91e57d7f11063d9bc7f4918ab4
   1.60.0--r43hdfd78af_0: sha256:41f2dbc6ba5702bc33940dfea73ad822fbfd53df817a68d1281ab0d61eef5367
   1.62.0--r43hdfd78af_0: sha256:c22771c84a1f860c5f096e6b76ae21f38a97069049defa750ea6402b2bee61ba
+  1.66.0--r44hdfd78af_0: sha256:3803e8833337bed463523b8b2dfdeac4e3db5734fe9ff1b4459d19ecd4d1a6eb
 docker: quay.io/biocontainers/bioconductor-arrayexpress

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ahwikipathwaysdbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ahwikipathwaysdbs
 latest:
-  0.99.4--r43hdfd78af_5: sha256:15ae93d2d007739aa1484829d46c761f8af574749efa8310fdb7a000b886d28c
+  0.99.4--r44hdfd78af_6: sha256:bd1c955c5d0b6d23cb41cbdc31dd0284474dd0367aa6f7c597994f48f821d2f0
 tags:
   0.99.4--r41hdfd78af_2: sha256:d535a63c9095e254d266bff511d96806d6d861e075bf7ffcae96e11f9a2c9c21
   0.99.4--r42hdfd78af_3: sha256:1f99ca21af10355578eac462270502a186b65b307b57004ee0e4e113bebf4750
   0.99.4--r43hdfd78af_4: sha256:7520c574acd1be4193ef1c91b49023a56c08a0fbf1f7f447783296d27c1d446a
   0.99.4--r43hdfd78af_5: sha256:15ae93d2d007739aa1484829d46c761f8af574749efa8310fdb7a000b886d28c
+  0.99.4--r44hdfd78af_6: sha256:bd1c955c5d0b6d23cb41cbdc31dd0284474dd0367aa6f7c597994f48f821d2f0
 docker: quay.io/biocontainers/bioconductor-ahwikipathwaysdbs

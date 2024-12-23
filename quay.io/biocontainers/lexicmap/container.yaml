@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/lexicmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lexicmap
 latest:
-  0.4.0--h9ee0642_0: sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97
+  0.5.0--h9ee0642_0: sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58
 tags:
   0.4.0--h9ee0642_0: sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97
+  0.5.0--h9ee0642_0: sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58
 docker: quay.io/biocontainers/lexicmap
 aliases:
   lexicmap: /usr/local/bin/lexicmap

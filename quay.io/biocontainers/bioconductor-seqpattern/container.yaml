@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-seqpattern
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seqpattern
 latest:
-  1.34.0--r43hdfd78af_0: sha256:d94b888118101ded859312f7da7e7ef5fbd7865c9372ec470de538c374eebc2c
+  1.38.0--r44hdfd78af_0: sha256:fdae9eb3a69387df8817477e6266936d968cf437d067673f035b3a273c684536
 tags:
   1.8.0--r3.4.1_0: sha256:404be8ff5daa4b3be370448266d99507a61897bcf6fdf60503e44193167a68e9
   1.30.0--r42hdfd78af_0: sha256:bc61d040e3356d1ac7360dafea72c26b4fe1e2a53ca7f9a9e71915d627504569
@@ -12,6 +12,7 @@ tags:
   1.20.0--r40_0: sha256:edc6ceb5bbf41b3fd173227e2547b19f2a7ff2e2bc1a82aeac78109018487649
   1.32.0--r43hdfd78af_0: sha256:da5a2c4d90bf52449ee1fc1be800f419f99f7364b4cc5ed242e1adf23730470a
   1.34.0--r43hdfd78af_0: sha256:d94b888118101ded859312f7da7e7ef5fbd7865c9372ec470de538c374eebc2c
+  1.38.0--r44hdfd78af_0: sha256:fdae9eb3a69387df8817477e6266936d968cf437d067673f035b3a273c684536
 docker: quay.io/biocontainers/bioconductor-seqpattern
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

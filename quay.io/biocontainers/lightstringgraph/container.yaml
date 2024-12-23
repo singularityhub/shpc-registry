@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/lightstringgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lightstringgraph
 latest:
-  0.4.0--h4ac6f70_6: sha256:e53f87e793050ec06e7cc992f0bd975784f6cd8a20ee63a6f724dc970e73420e
+  0.4.0--h9948957_7: sha256:460c3961c8138d875e79762a5eaab87015a790117add94fffe72d5a65aef9ccc
 tags:
   0.4.0--ha04c180_3: sha256:9ebb171ec036d2921aaa7059e4eb74356472eb5d32fdb9571e142626716a8e9a
   0.4.0--hfce7173_5: sha256:8e72b6b91597b324b471a79c8cb05f45d89a64695ef50ba0a2d4e0449dc8bb68
   0.4.0--h4ac6f70_6: sha256:e53f87e793050ec06e7cc992f0bd975784f6cd8a20ee63a6f724dc970e73420e
+  0.4.0--h9948957_7: sha256:460c3961c8138d875e79762a5eaab87015a790117add94fffe72d5a65aef9ccc
 docker: quay.io/biocontainers/lightstringgraph
 aliases:
   graph2asqg: /usr/local/bin/graph2asqg
