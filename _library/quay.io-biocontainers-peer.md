@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/peer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peer/container.yaml"
-updated_at: "2024-12-22 03:03:52.261453"
-latest: "1.3--hdbdd923_0"
+updated_at: "2024-12-23 03:01:08.659782"
+latest: "1.3--h503566f_1"
 container_url: "https://biocontainers.pro/tools/peer"
 aliases:
  - "peertool"
 versions:
  - "1.3--hdbdd923_0"
+ - "1.3--h503566f_1"
 description: "singularity registry hpc automated addition for peer"
-config: {"url": "https://biocontainers.pro/tools/peer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peer", "latest": {"1.3--hdbdd923_0": "sha256:607e2cf162f874b50469508c1b6b5fc4aba154cb309b47765fd59e61648cb4a8"}, "tags": {"1.3--hdbdd923_0": "sha256:607e2cf162f874b50469508c1b6b5fc4aba154cb309b47765fd59e61648cb4a8"}, "docker": "quay.io/biocontainers/peer", "aliases": {"peertool": "/usr/local/bin/peertool"}}
+config: {"url": "https://biocontainers.pro/tools/peer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peer", "latest": {"1.3--h503566f_1": "sha256:d58645effa4443de0a2bef18832f9aaafabfbdb54cc3825389798719525656c4"}, "tags": {"1.3--hdbdd923_0": "sha256:607e2cf162f874b50469508c1b6b5fc4aba154cb309b47765fd59e61648cb4a8", "1.3--h503566f_1": "sha256:d58645effa4443de0a2bef18832f9aaafabfbdb54cc3825389798719525656c4"}, "docker": "quay.io/biocontainers/peer", "aliases": {"peertool": "/usr/local/bin/peertool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/peer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peer:1.3--hdbdd923_0
+$ shpc install quay.io/biocontainers/peer:1.3--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peer/1.3--hdbdd923_0
-$ module help quay.io/biocontainers/peer/1.3--hdbdd923_0
+$ module load quay.io/biocontainers/peer/1.3--h503566f_1
+$ module help quay.io/biocontainers/peer/1.3--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

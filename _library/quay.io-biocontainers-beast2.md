@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2024-12-22 03:11:40.427787"
+updated_at: "2024-12-23 03:09:02.638745"
 latest: "2.6.3--he65b2d3_2"
 container_url: "https://biocontainers.pro/tools/beast2"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-namespace-autoclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
-updated_at: "2024-12-22 03:12:15.593348"
-latest: "0.31--pl5321h4ac6f70_0"
+updated_at: "2024-12-23 03:09:38.690819"
+latest: "0.31--pl5321h9948957_1"
 container_url: "https://biocontainers.pro/tools/perl-namespace-autoclean"
 aliases:
  - "package-stash-conflicts"
@@ -16,8 +16,9 @@ versions:
  - "0.29--pl5321h9f5acd7_1"
  - "0.29--pl5321h4ac6f70_2"
  - "0.31--pl5321h4ac6f70_0"
+ - "0.31--pl5321h9948957_1"
 description: "shpc-registry automated BioContainers addition for perl-namespace-autoclean"
-config: {"url": "https://biocontainers.pro/tools/perl-namespace-autoclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-namespace-autoclean", "latest": {"0.31--pl5321h4ac6f70_0": "sha256:9e51180781af709273d6aa704ef78673185904a0dd07a8bc3a17a2265bc96fdd"}, "tags": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba", "0.29--pl5321h4ac6f70_2": "sha256:bccd791a30e197e8088a8deeccee28b0058c338b024c7121f381ed24978e9bb6", "0.31--pl5321h4ac6f70_0": "sha256:9e51180781af709273d6aa704ef78673185904a0dd07a8bc3a17a2265bc96fdd"}, "docker": "quay.io/biocontainers/perl-namespace-autoclean", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-namespace-autoclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-namespace-autoclean", "latest": {"0.31--pl5321h9948957_1": "sha256:4b9042fc14b82ea1e65de9881babc54a2c6d90ec6acac29a64579e7a371d51cb"}, "tags": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba", "0.29--pl5321h4ac6f70_2": "sha256:bccd791a30e197e8088a8deeccee28b0058c338b024c7121f381ed24978e9bb6", "0.31--pl5321h4ac6f70_0": "sha256:9e51180781af709273d6aa704ef78673185904a0dd07a8bc3a17a2265bc96fdd", "0.31--pl5321h9948957_1": "sha256:4b9042fc14b82ea1e65de9881babc54a2c6d90ec6acac29a64579e7a371d51cb"}, "docker": "quay.io/biocontainers/perl-namespace-autoclean", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-namespace-autoclean.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-namespace-autoclean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-namespace-autoclean:0.31--pl5321h4ac6f70_0
+$ shpc install quay.io/biocontainers/perl-namespace-autoclean:0.31--pl5321h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-namespace-autoclean/0.31--pl5321h4ac6f70_0
-$ module help quay.io/biocontainers/perl-namespace-autoclean/0.31--pl5321h4ac6f70_0
+$ module load quay.io/biocontainers/perl-namespace-autoclean/0.31--pl5321h9948957_1
+$ module help quay.io/biocontainers/perl-namespace-autoclean/0.31--pl5321h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

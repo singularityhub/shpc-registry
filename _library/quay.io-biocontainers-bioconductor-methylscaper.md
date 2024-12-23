@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methylscaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylscaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylscaper/container.yaml"
-updated_at: "2024-12-22 03:33:30.059542"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-12-23 03:32:15.817796"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylscaper"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.4--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylscaper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylscaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylscaper", "latest": {"1.10.0--r43hdfd78af_0": "sha256:ad3fd2c83fdadb209031bf93ef40b49f4ae5a0cab14b24677d6961f2cc430d7e"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:acc9c9cf853dbeebfa7fdf02538e38bbf1279a6d2f6d0a5a8346cdbe049ad92d", "1.6.0--r42hdfd78af_0": "sha256:7005edb2ca3892f56762cad8905b41e33004b8553a618ba8b04b02e9e49f74d2", "1.8.4--r43hdfd78af_0": "sha256:6d9b2c5be02b57ff61b2fdcf0391eaef61d2d735d9c6e71247d68a834c95e0a4", "1.10.0--r43hdfd78af_0": "sha256:ad3fd2c83fdadb209031bf93ef40b49f4ae5a0cab14b24677d6961f2cc430d7e"}, "docker": "quay.io/biocontainers/bioconductor-methylscaper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylscaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylscaper", "latest": {"1.14.0--r44hdfd78af_0": "sha256:e1ca4a0aa29b7b22c73d20a7daa5a3885c9b3c0cd8a537972b3b6e999ffaccb9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:acc9c9cf853dbeebfa7fdf02538e38bbf1279a6d2f6d0a5a8346cdbe049ad92d", "1.6.0--r42hdfd78af_0": "sha256:7005edb2ca3892f56762cad8905b41e33004b8553a618ba8b04b02e9e49f74d2", "1.8.4--r43hdfd78af_0": "sha256:6d9b2c5be02b57ff61b2fdcf0391eaef61d2d735d9c6e71247d68a834c95e0a4", "1.10.0--r43hdfd78af_0": "sha256:ad3fd2c83fdadb209031bf93ef40b49f4ae5a0cab14b24677d6961f2cc430d7e", "1.14.0--r44hdfd78af_0": "sha256:e1ca4a0aa29b7b22c73d20a7daa5a3885c9b3c0cd8a537972b3b6e999ffaccb9"}, "docker": "quay.io/biocontainers/bioconductor-methylscaper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylscaper.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylscaper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylscaper:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methylscaper:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylscaper/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methylscaper/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methylscaper/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylscaper/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

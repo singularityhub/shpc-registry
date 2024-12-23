@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-matchbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matchbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matchbox/container.yaml"
-updated_at: "2024-12-22 03:32:41.435130"
-latest: "1.44.0--r43hdfd78af_0"
+updated_at: "2024-12-23 03:31:24.606243"
+latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matchbox"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.40.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
  - "1.44.0--r43hdfd78af_0"
+ - "1.48.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-matchbox"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-matchbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matchbox", "latest": {"1.44.0--r43hdfd78af_0": "sha256:f4ec53a522155fd401aee61768637090568ef7359c40333be9ffd8f575fda2d0"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:d7766c1f070451cba15401e2cd6555149efef8f41eba4dca94f95a6157d2f7a9", "1.40.0--r42hdfd78af_0": "sha256:0101eb54f8e7c4bf6779b4ba6a366e4414af85316a078e8448cf3ec3fc3ca51c", "1.42.0--r43hdfd78af_0": "sha256:d338d9c48c66cf28dc231fc1043e159f93e15895e173852f9e455975b708d6e1", "1.44.0--r43hdfd78af_0": "sha256:f4ec53a522155fd401aee61768637090568ef7359c40333be9ffd8f575fda2d0"}, "docker": "quay.io/biocontainers/bioconductor-matchbox"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-matchbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matchbox", "latest": {"1.48.0--r44hdfd78af_0": "sha256:02f281c31d7787388a87020827e2e9762474a5322fa62f80b402d919aad7ecba"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:d7766c1f070451cba15401e2cd6555149efef8f41eba4dca94f95a6157d2f7a9", "1.40.0--r42hdfd78af_0": "sha256:0101eb54f8e7c4bf6779b4ba6a366e4414af85316a078e8448cf3ec3fc3ca51c", "1.42.0--r43hdfd78af_0": "sha256:d338d9c48c66cf28dc231fc1043e159f93e15895e173852f9e455975b708d6e1", "1.44.0--r43hdfd78af_0": "sha256:f4ec53a522155fd401aee61768637090568ef7359c40333be9ffd8f575fda2d0", "1.48.0--r44hdfd78af_0": "sha256:02f281c31d7787388a87020827e2e9762474a5322fa62f80b402d919aad7ecba"}, "docker": "quay.io/biocontainers/bioconductor-matchbox"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-matchbox.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-matchbox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-matchbox:1.44.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-matchbox:1.48.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-matchbox/1.44.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-matchbox/1.44.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-matchbox/1.48.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-matchbox/1.48.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

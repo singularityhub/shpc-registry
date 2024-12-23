@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamhash/container.yaml"
-updated_at: "2024-12-22 03:36:25.579260"
-latest: "1.1--h61c8c2d_8"
+updated_at: "2024-12-23 03:35:18.411322"
+latest: "1.1--h35c04b2_9"
 container_url: "https://biocontainers.pro/tools/bamhash"
 aliases:
  - "bamhash_checksum_bam"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.1--h32c79c6_6"
  - "1.1--h61c8c2d_8"
+ - "1.1--h35c04b2_9"
 description: "shpc-registry automated BioContainers addition for bamhash"
-config: {"url": "https://biocontainers.pro/tools/bamhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamhash", "latest": {"1.1--h61c8c2d_8": "sha256:e7345e46be2400fc59a2b61e22595d16545c17a77d12840ccdf18f738cce0c55"}, "tags": {"1.1--h32c79c6_6": "sha256:d0b26d96a0026731feaa4351ebd5e4791f0aebe5836141d8702307f895627ae9", "1.1--h61c8c2d_8": "sha256:e7345e46be2400fc59a2b61e22595d16545c17a77d12840ccdf18f738cce0c55"}, "docker": "quay.io/biocontainers/bamhash", "aliases": {"bamhash_checksum_bam": "/usr/local/bin/bamhash_checksum_bam", "bamhash_checksum_fasta": "/usr/local/bin/bamhash_checksum_fasta", "bamhash_checksum_fastq": "/usr/local/bin/bamhash_checksum_fastq"}}
+config: {"url": "https://biocontainers.pro/tools/bamhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamhash", "latest": {"1.1--h35c04b2_9": "sha256:91862de718c1a9f2df085cc67c28d35d3f4070c255c1ca78f977bc1160958e70"}, "tags": {"1.1--h32c79c6_6": "sha256:d0b26d96a0026731feaa4351ebd5e4791f0aebe5836141d8702307f895627ae9", "1.1--h61c8c2d_8": "sha256:e7345e46be2400fc59a2b61e22595d16545c17a77d12840ccdf18f738cce0c55", "1.1--h35c04b2_9": "sha256:91862de718c1a9f2df085cc67c28d35d3f4070c255c1ca78f977bc1160958e70"}, "docker": "quay.io/biocontainers/bamhash", "aliases": {"bamhash_checksum_bam": "/usr/local/bin/bamhash_checksum_bam", "bamhash_checksum_fasta": "/usr/local/bin/bamhash_checksum_fasta", "bamhash_checksum_fastq": "/usr/local/bin/bamhash_checksum_fastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamhash.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bamhash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamhash:1.1--h61c8c2d_8
+$ shpc install quay.io/biocontainers/bamhash:1.1--h35c04b2_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamhash/1.1--h61c8c2d_8
-$ module help quay.io/biocontainers/bamhash/1.1--h61c8c2d_8
+$ module load quay.io/biocontainers/bamhash/1.1--h35c04b2_9
+$ module help quay.io/biocontainers/bamhash/1.1--h35c04b2_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

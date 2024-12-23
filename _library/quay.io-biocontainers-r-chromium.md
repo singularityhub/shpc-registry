@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-chromium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromium/container.yaml"
-updated_at: "2024-12-22 03:30:22.266483"
+updated_at: "2024-12-23 03:28:56.135907"
 latest: "0.3.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-chromium"
 aliases:

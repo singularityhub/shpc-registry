@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clark/container.yaml"
-updated_at: "2024-12-22 03:12:03.994974"
+updated_at: "2024-12-23 03:09:26.712897"
 latest: "1.2.6.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/clark"
 aliases:

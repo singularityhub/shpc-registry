@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyx/container.yaml"
-updated_at: "2024-12-22 02:59:24.845800"
+updated_at: "2024-12-23 02:56:22.977549"
 latest: "0.14.1--py36_1"
 container_url: "https://biocontainers.pro/tools/pyx"
 aliases:

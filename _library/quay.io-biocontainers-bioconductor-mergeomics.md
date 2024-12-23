@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mergeomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mergeomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mergeomics/container.yaml"
-updated_at: "2024-12-22 03:03:12.017667"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-23 03:00:29.437015"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mergeomics"
 aliases:
  - "ncurses5-config"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mergeomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mergeomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mergeomics", "latest": {"1.30.0--r43hdfd78af_0": "sha256:5e26edfacef78e2ed186317c7574b833033b01cd5bf40e9231e25f88dd95298e"}, "tags": {"1.8.0--r341_0": "sha256:d5c39f25e9783bf7af2814f4ad4e1f10322205cf5dfc471a6de58ea4963abbed", "1.26.0--r42hdfd78af_0": "sha256:7ab8f5eb88d130451a9cef4ca123ad4e98e0286811cd30bf3a33e02cef19fe45", "1.22.0--r41hdfd78af_0": "sha256:b31a4878a686e17465a0c08516773d715b81ab0c7f54d52908fb3f36affc15c3", "1.20.0--r41hdfd78af_0": "sha256:becd5c7f6e081273ab41a8127e5dfb9c24cf80fc3336fc887e8dd222896fc95c", "1.18.0--r40hdfd78af_1": "sha256:015252a0599a541efbda2a507201a0e8a18151e8d7f59b9e4e5e1f5a590173b4", "1.16.0--r40_0": "sha256:7bf62c4e003b237be0544953947016ccf23a220d7e532e48d83b81238df413df", "1.28.0--r43hdfd78af_0": "sha256:ef0031d9329a0b7c1d8c16a29dd39449623ef583052a9c2552b1914d84ec49dc", "1.30.0--r43hdfd78af_0": "sha256:5e26edfacef78e2ed186317c7574b833033b01cd5bf40e9231e25f88dd95298e"}, "docker": "quay.io/biocontainers/bioconductor-mergeomics", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mergeomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mergeomics", "latest": {"1.34.0--r44hdfd78af_0": "sha256:2a8122c54206c843662e18270c3c73b893a4fc726e85f8a062455cb66a0551d9"}, "tags": {"1.8.0--r341_0": "sha256:d5c39f25e9783bf7af2814f4ad4e1f10322205cf5dfc471a6de58ea4963abbed", "1.26.0--r42hdfd78af_0": "sha256:7ab8f5eb88d130451a9cef4ca123ad4e98e0286811cd30bf3a33e02cef19fe45", "1.22.0--r41hdfd78af_0": "sha256:b31a4878a686e17465a0c08516773d715b81ab0c7f54d52908fb3f36affc15c3", "1.20.0--r41hdfd78af_0": "sha256:becd5c7f6e081273ab41a8127e5dfb9c24cf80fc3336fc887e8dd222896fc95c", "1.18.0--r40hdfd78af_1": "sha256:015252a0599a541efbda2a507201a0e8a18151e8d7f59b9e4e5e1f5a590173b4", "1.16.0--r40_0": "sha256:7bf62c4e003b237be0544953947016ccf23a220d7e532e48d83b81238df413df", "1.28.0--r43hdfd78af_0": "sha256:ef0031d9329a0b7c1d8c16a29dd39449623ef583052a9c2552b1914d84ec49dc", "1.30.0--r43hdfd78af_0": "sha256:5e26edfacef78e2ed186317c7574b833033b01cd5bf40e9231e25f88dd95298e", "1.34.0--r44hdfd78af_0": "sha256:2a8122c54206c843662e18270c3c73b893a4fc726e85f8a062455cb66a0551d9"}, "docker": "quay.io/biocontainers/bioconductor-mergeomics", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mergeomics.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mergeomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mergeomics:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mergeomics:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mergeomics/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mergeomics/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mergeomics/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mergeomics/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

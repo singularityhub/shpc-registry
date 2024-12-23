@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cassiopeia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassiopeia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cassiopeia/container.yaml"
-updated_at: "2024-12-22 03:34:50.131716"
-latest: "2.0.0--py310h581d4b6_1"
+updated_at: "2024-12-23 03:33:38.829798"
+latest: "2.0.0--py311h93dcfea_2"
 container_url: "https://biocontainers.pro/tools/cassiopeia"
 aliases:
  - "cassiopeia-preprocess"
@@ -47,8 +47,9 @@ aliases:
  - "lprodump"
 versions:
  - "2.0.0--py310h581d4b6_1"
+ - "2.0.0--py311h93dcfea_2"
 description: "singularity registry hpc automated addition for cassiopeia"
-config: {"url": "https://biocontainers.pro/tools/cassiopeia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cassiopeia", "latest": {"2.0.0--py310h581d4b6_1": "sha256:f5d1e057414288a223eed4b3de7b229419c238a6f4e7bd953a5b80cf3ba6b935"}, "tags": {"2.0.0--py310h581d4b6_1": "sha256:f5d1e057414288a223eed4b3de7b229419c238a6f4e7bd953a5b80cf3ba6b935"}, "docker": "quay.io/biocontainers/cassiopeia", "aliases": {"cassiopeia-preprocess": "/usr/local/bin/cassiopeia-preprocess", "ccphylo": "/usr/local/bin/ccphylo", "itol": "/usr/local/bin/itol", "itolexport": "/usr/local/bin/itolexport", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "shortuuid": "/usr/local/bin/shortuuid", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "pandoc-server": "/usr/local/bin/pandoc-server", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump"}}
+config: {"url": "https://biocontainers.pro/tools/cassiopeia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cassiopeia", "latest": {"2.0.0--py311h93dcfea_2": "sha256:4f9b1075386895e29e4102f3f67d9fb03774422524a62ac1d2e8873a9934a8ce"}, "tags": {"2.0.0--py310h581d4b6_1": "sha256:f5d1e057414288a223eed4b3de7b229419c238a6f4e7bd953a5b80cf3ba6b935", "2.0.0--py311h93dcfea_2": "sha256:4f9b1075386895e29e4102f3f67d9fb03774422524a62ac1d2e8873a9934a8ce"}, "docker": "quay.io/biocontainers/cassiopeia", "aliases": {"cassiopeia-preprocess": "/usr/local/bin/cassiopeia-preprocess", "ccphylo": "/usr/local/bin/ccphylo", "itol": "/usr/local/bin/itol", "itolexport": "/usr/local/bin/itolexport", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "shortuuid": "/usr/local/bin/shortuuid", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "pandoc-server": "/usr/local/bin/pandoc-server", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cassiopeia.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/cassiopeia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cassiopeia:2.0.0--py310h581d4b6_1
+$ shpc install quay.io/biocontainers/cassiopeia:2.0.0--py311h93dcfea_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cassiopeia/2.0.0--py310h581d4b6_1
-$ module help quay.io/biocontainers/cassiopeia/2.0.0--py310h581d4b6_1
+$ module load quay.io/biocontainers/cassiopeia/2.0.0--py311h93dcfea_2
+$ module help quay.io/biocontainers/cassiopeia/2.0.0--py311h93dcfea_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

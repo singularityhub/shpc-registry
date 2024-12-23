@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-snprelate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snprelate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snprelate/container.yaml"
-updated_at: "2024-12-22 03:27:42.064377"
-latest: "1.36.0--r43hf17093f_1"
+updated_at: "2024-12-23 03:26:04.024669"
+latest: "1.40.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snprelate"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.34.1--r43hf17093f_0"
  - "1.36.0--r43hf17093f_0"
  - "1.36.0--r43hf17093f_1"
+ - "1.40.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-snprelate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snprelate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snprelate", "latest": {"1.36.0--r43hf17093f_1": "sha256:ec023a6adefe2f6aac3df0d212e4f5a500fe02c5ef5d105af50c3ec87bcd50c7"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:a0c466bb78c868af1fa6d89a4d565fc75f8796aeb93042504e76e052eabffc4d", "1.32.0--r42hc247a5b_0": "sha256:8aba675bf147fd27d5372ed9c4ad8acbd8068a6ef6631b3b39a5c18c6a941618", "1.32.0--r42hf17093f_1": "sha256:501b57a37529f089852dc59387c09235837a6474c1ed6996853243385c8f160f", "1.34.1--r43hf17093f_0": "sha256:e26bebb203bd0ec0dbea4d5ea1eff197a34ec0710f8c399fad535893ebbdf737", "1.36.0--r43hf17093f_0": "sha256:4c842765a72d09c9d2c4eb3f116bc3fe4b84713e006acc86be0ee8d2cb0a82d9", "1.36.0--r43hf17093f_1": "sha256:ec023a6adefe2f6aac3df0d212e4f5a500fe02c5ef5d105af50c3ec87bcd50c7"}, "docker": "quay.io/biocontainers/bioconductor-snprelate"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snprelate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snprelate", "latest": {"1.40.0--r44he5774e6_0": "sha256:7a3ace2612d7c889a128aa22e7bcb709d9a0541778c7aa7b494e0fee115afa1b"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:a0c466bb78c868af1fa6d89a4d565fc75f8796aeb93042504e76e052eabffc4d", "1.32.0--r42hc247a5b_0": "sha256:8aba675bf147fd27d5372ed9c4ad8acbd8068a6ef6631b3b39a5c18c6a941618", "1.32.0--r42hf17093f_1": "sha256:501b57a37529f089852dc59387c09235837a6474c1ed6996853243385c8f160f", "1.34.1--r43hf17093f_0": "sha256:e26bebb203bd0ec0dbea4d5ea1eff197a34ec0710f8c399fad535893ebbdf737", "1.36.0--r43hf17093f_0": "sha256:4c842765a72d09c9d2c4eb3f116bc3fe4b84713e006acc86be0ee8d2cb0a82d9", "1.36.0--r43hf17093f_1": "sha256:ec023a6adefe2f6aac3df0d212e4f5a500fe02c5ef5d105af50c3ec87bcd50c7", "1.40.0--r44he5774e6_0": "sha256:7a3ace2612d7c889a128aa22e7bcb709d9a0541778c7aa7b494e0fee115afa1b"}, "docker": "quay.io/biocontainers/bioconductor-snprelate"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snprelate.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snprelate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snprelate:1.36.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-snprelate:1.40.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snprelate/1.36.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-snprelate/1.36.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-snprelate/1.40.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-snprelate/1.40.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

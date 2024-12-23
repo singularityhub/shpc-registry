@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/migraine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migraine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migraine/container.yaml"
-updated_at: "2024-12-22 03:30:00.510769"
-latest: "0.6.0--h4ac6f70_3"
+updated_at: "2024-12-23 03:28:33.389505"
+latest: "0.6.0--h9948957_4"
 container_url: "https://biocontainers.pro/tools/migraine"
 aliases:
  - "migraine"
 versions:
  - "0.6.0--h9f5acd7_1"
  - "0.6.0--h4ac6f70_3"
+ - "0.6.0--h9948957_4"
 description: "shpc-registry automated BioContainers addition for migraine"
-config: {"url": "https://biocontainers.pro/tools/migraine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migraine", "latest": {"0.6.0--h4ac6f70_3": "sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d"}, "tags": {"0.6.0--h9f5acd7_1": "sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4", "0.6.0--h4ac6f70_3": "sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d"}, "docker": "quay.io/biocontainers/migraine", "aliases": {"migraine": "/usr/local/bin/migraine"}}
+config: {"url": "https://biocontainers.pro/tools/migraine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migraine", "latest": {"0.6.0--h9948957_4": "sha256:5156de573480e211039d6c9f9ceac25ba930a1833623f50fd5f871a0002ffdd5"}, "tags": {"0.6.0--h9f5acd7_1": "sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4", "0.6.0--h4ac6f70_3": "sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d", "0.6.0--h9948957_4": "sha256:5156de573480e211039d6c9f9ceac25ba930a1833623f50fd5f871a0002ffdd5"}, "docker": "quay.io/biocontainers/migraine", "aliases": {"migraine": "/usr/local/bin/migraine"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/migraine.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/migraine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/migraine:0.6.0--h4ac6f70_3
+$ shpc install quay.io/biocontainers/migraine:0.6.0--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/migraine/0.6.0--h4ac6f70_3
-$ module help quay.io/biocontainers/migraine/0.6.0--h4ac6f70_3
+$ module load quay.io/biocontainers/migraine/0.6.0--h9948957_4
+$ module help quay.io/biocontainers/migraine/0.6.0--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

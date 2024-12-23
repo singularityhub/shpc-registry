@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/dyninst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/dyninst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/dyninst/container.yaml"
-updated_at: "2024-12-22 02:56:23.824207"
+updated_at: "2024-12-23 02:53:09.466816"
 latest: "11.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/dyninst"
 

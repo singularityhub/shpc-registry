@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/predictosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predictosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predictosaurus/container.yaml"
-updated_at: "2024-12-22 03:38:39.277052"
-latest: "0.2.2--hcb96839_0"
+updated_at: "2024-12-23 03:37:40.413331"
+latest: "0.2.6--hcb96839_0"
 container_url: "https://biocontainers.pro/tools/predictosaurus"
 aliases:
  - "predictosaurus"
 versions:
  - "0.2.2--hcb96839_0"
+ - "0.2.6--hcb96839_0"
 description: "singularity registry hpc automated addition for predictosaurus"
-config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
+config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8", "0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/predictosaurus.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/predictosaurus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/predictosaurus:0.2.2--hcb96839_0
+$ shpc install quay.io/biocontainers/predictosaurus:0.2.6--hcb96839_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/predictosaurus/0.2.2--hcb96839_0
-$ module help quay.io/biocontainers/predictosaurus/0.2.2--hcb96839_0
+$ module load quay.io/biocontainers/predictosaurus/0.2.6--hcb96839_0
+$ module help quay.io/biocontainers/predictosaurus/0.2.6--hcb96839_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

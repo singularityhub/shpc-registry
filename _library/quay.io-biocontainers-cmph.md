@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cmph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmph/container.yaml"
-updated_at: "2024-12-22 03:33:30.909445"
-latest: "2.0--h031d066_6"
+updated_at: "2024-12-23 03:32:16.694762"
+latest: "2.0--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/cmph"
 aliases:
  - "cmph"
 versions:
  - "2.0--hec16e2b_4"
  - "2.0--h031d066_6"
+ - "2.0--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for cmph"
-config: {"url": "https://biocontainers.pro/tools/cmph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmph", "latest": {"2.0--h031d066_6": "sha256:99507504300c0347b4e2647743e002c40a3464d5220e5c7f70c63a44379574da"}, "tags": {"2.0--hec16e2b_4": "sha256:27d98fd34f53a01049952c0f677cdd0132aa3915d7924673bb1533ce088a3f1b", "2.0--h031d066_6": "sha256:99507504300c0347b4e2647743e002c40a3464d5220e5c7f70c63a44379574da"}, "docker": "quay.io/biocontainers/cmph", "aliases": {"cmph": "/usr/local/bin/cmph"}}
+config: {"url": "https://biocontainers.pro/tools/cmph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmph", "latest": {"2.0--h7b50bb2_7": "sha256:3e285789ac1c6e4522696b7517384639e20851f502ba3287af28a98401143389"}, "tags": {"2.0--hec16e2b_4": "sha256:27d98fd34f53a01049952c0f677cdd0132aa3915d7924673bb1533ce088a3f1b", "2.0--h031d066_6": "sha256:99507504300c0347b4e2647743e002c40a3464d5220e5c7f70c63a44379574da", "2.0--h7b50bb2_7": "sha256:3e285789ac1c6e4522696b7517384639e20851f502ba3287af28a98401143389"}, "docker": "quay.io/biocontainers/cmph", "aliases": {"cmph": "/usr/local/bin/cmph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cmph.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cmph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cmph:2.0--h031d066_6
+$ shpc install quay.io/biocontainers/cmph:2.0--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cmph/2.0--h031d066_6
-$ module help quay.io/biocontainers/cmph/2.0--h031d066_6
+$ module load quay.io/biocontainers/cmph/2.0--h7b50bb2_7
+$ module help quay.io/biocontainers/cmph/2.0--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

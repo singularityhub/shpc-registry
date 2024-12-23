@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast5seek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast5seek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast5seek/container.yaml"
-updated_at: "2024-12-22 03:19:11.999485"
+updated_at: "2024-12-23 03:16:56.668959"
 latest: "0.1.1--py_1"
 container_url: "https://biocontainers.pro/tools/fast5seek"
 aliases:

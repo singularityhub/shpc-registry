@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2024-12-22 03:43:39.053723"
-latest: "1.21--h50ea8bc_0"
+updated_at: "2024-12-23 03:42:51.949122"
+latest: "1.21--h96c455f_1"
 container_url: "https://biocontainers.pro/tools/samtools"
 aliases:
  - "ace2sam"
@@ -50,8 +50,9 @@ versions:
  - "1.20--h50ea8bc_0"
  - "1.20--h50ea8bc_1"
  - "1.21--h50ea8bc_0"
+ - "1.21--h96c455f_1"
 description: "shpc-registry automated BioContainers addition for samtools"
-config: {"url": "https://biocontainers.pro/tools/samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samtools", "latest": {"1.21--h50ea8bc_0": "sha256:783c6646029a306ec5e4162009dc1a20d8f6c528f7c380e5b4affbf12d9112e5"}, "tags": {"1.10--h2e538c0_3": "sha256:84a8d0c0acec87448a47cefa60c4f4a545887239fcd7984a58b48e7a6ac86390", "1.11--h6270b1f_0": "sha256:141120f19f849b79e05ae2fac981383988445c373b8b5db7f3dd221179af382b", "1.12--h9aed4be_1": "sha256:5fd5f0937adf8a24b5bf7655110e501df78ae51588547c8617f17c3291a723e1", "1.13--h8c37831_0": "sha256:04da5297386dfae2458a93613a8c60216d158ee7cb9f96188dad71c1952f7f72", "1.14--hb421002_0": "sha256:88632c41eba8b94b7a2a1013f422aecf478a0cb278740bcc3a38058c903d61ad", "1.15--h3843a85_0": "sha256:d68e1b5f504dc60eb9f2a02eecbac44a63f144e7d455b3fb1a25323c667ca4c4", "1.19.2--h50ea8bc_1": "sha256:9cd15e719101ae8808e4c3f152cca2bf06f9e1ad8551ed43c1e626cb6afdaa02", "1.18--h50ea8bc_1": "sha256:d98e76a31fc42336a11ee2b7f15a2f7dff7a36bcfd82bd712570411468573ebd", "1.17--hd87286a_2": "sha256:b3b53a23804f421ee67d624af55c3a22cd2a8ff896d39ad38413c63488a286e4", "1.16.1--h00cdaf9_2": "sha256:85f48a5a15fa523ba0edf3797f9e127f56e1ee4ef1d6dc90a757a53498a27c3e", "1.15.1--h6899075_1": "sha256:7b9def45ac8a25153935ca53118c8dbed2ea92a99001c83508fec3f0f6f26802", "1.20--h50ea8bc_0": "sha256:d0ebd10e887e3ddd02d071f1ca7b649dc90dc6fb99a5ffd0f5ebf8611a1f92cc", "1.20--h50ea8bc_1": "sha256:bf80e07e650becfd084db1abde0fe932b50f990a07fa56421ea647b552b5a406", "1.21--h50ea8bc_0": "sha256:783c6646029a306ec5e4162009dc1a20d8f6c528f7c380e5b4affbf12d9112e5"}, "docker": "quay.io/biocontainers/samtools", "aliases": {"ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "libdeflate-gunzip": "/usr/local/bin/libdeflate-gunzip", "libdeflate-gzip": "/usr/local/bin/libdeflate-gzip", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools": "/usr/local/bin/samtools", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "tabix": "/usr/local/bin/tabix", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samtools", "latest": {"1.21--h96c455f_1": "sha256:d1585753f42f3b89a3c64bcb4bf8f5553befd15c1b388d954a8b995e21ecf9a1"}, "tags": {"1.10--h2e538c0_3": "sha256:84a8d0c0acec87448a47cefa60c4f4a545887239fcd7984a58b48e7a6ac86390", "1.11--h6270b1f_0": "sha256:141120f19f849b79e05ae2fac981383988445c373b8b5db7f3dd221179af382b", "1.12--h9aed4be_1": "sha256:5fd5f0937adf8a24b5bf7655110e501df78ae51588547c8617f17c3291a723e1", "1.13--h8c37831_0": "sha256:04da5297386dfae2458a93613a8c60216d158ee7cb9f96188dad71c1952f7f72", "1.14--hb421002_0": "sha256:88632c41eba8b94b7a2a1013f422aecf478a0cb278740bcc3a38058c903d61ad", "1.15--h3843a85_0": "sha256:d68e1b5f504dc60eb9f2a02eecbac44a63f144e7d455b3fb1a25323c667ca4c4", "1.19.2--h50ea8bc_1": "sha256:9cd15e719101ae8808e4c3f152cca2bf06f9e1ad8551ed43c1e626cb6afdaa02", "1.18--h50ea8bc_1": "sha256:d98e76a31fc42336a11ee2b7f15a2f7dff7a36bcfd82bd712570411468573ebd", "1.17--hd87286a_2": "sha256:b3b53a23804f421ee67d624af55c3a22cd2a8ff896d39ad38413c63488a286e4", "1.16.1--h00cdaf9_2": "sha256:85f48a5a15fa523ba0edf3797f9e127f56e1ee4ef1d6dc90a757a53498a27c3e", "1.15.1--h6899075_1": "sha256:7b9def45ac8a25153935ca53118c8dbed2ea92a99001c83508fec3f0f6f26802", "1.20--h50ea8bc_0": "sha256:d0ebd10e887e3ddd02d071f1ca7b649dc90dc6fb99a5ffd0f5ebf8611a1f92cc", "1.20--h50ea8bc_1": "sha256:bf80e07e650becfd084db1abde0fe932b50f990a07fa56421ea647b552b5a406", "1.21--h50ea8bc_0": "sha256:783c6646029a306ec5e4162009dc1a20d8f6c528f7c380e5b4affbf12d9112e5", "1.21--h96c455f_1": "sha256:d1585753f42f3b89a3c64bcb4bf8f5553befd15c1b388d954a8b995e21ecf9a1"}, "docker": "quay.io/biocontainers/samtools", "aliases": {"ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "libdeflate-gunzip": "/usr/local/bin/libdeflate-gunzip", "libdeflate-gzip": "/usr/local/bin/libdeflate-gzip", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools": "/usr/local/bin/samtools", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "tabix": "/usr/local/bin/tabix", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samtools.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/samtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samtools:1.21--h50ea8bc_0
+$ shpc install quay.io/biocontainers/samtools:1.21--h96c455f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samtools/1.21--h50ea8bc_0
-$ module help quay.io/biocontainers/samtools/1.21--h50ea8bc_0
+$ module load quay.io/biocontainers/samtools/1.21--h96c455f_1
+$ module help quay.io/biocontainers/samtools/1.21--h96c455f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

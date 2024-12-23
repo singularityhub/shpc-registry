@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/c-ares"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/c-ares/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/c-ares/container.yaml"
-updated_at: "2024-12-22 03:43:35.423667"
+updated_at: "2024-12-23 03:42:48.278800"
 latest: "1.11.0--h470a237_1"
 container_url: "https://biocontainers.pro/tools/c-ares"
 

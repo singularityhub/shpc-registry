@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-xml-libxslt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-libxslt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-libxslt/container.yaml"
-updated_at: "2024-12-22 03:17:19.581269"
-latest: "2.003000--pl5321h031d066_0"
+updated_at: "2024-12-23 03:14:58.826202"
+latest: "2.003000--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-libxslt"
 aliases:
  - "xml2-config.bak"
@@ -18,8 +18,9 @@ versions:
  - "2.002001--pl5321hec16e2b_0"
  - "2.002001--pl5321h031d066_2"
  - "2.003000--pl5321h031d066_0"
+ - "2.003000--pl5321h7b50bb2_1"
 description: "shpc-registry automated BioContainers addition for perl-xml-libxslt"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-libxslt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-libxslt", "latest": {"2.003000--pl5321h031d066_0": "sha256:b51489ba3080b1df30ad7607d2b84a16b089a5636cbb36b4cfc2430706fabf5a"}, "tags": {"2.002000--pl5321hec16e2b_1": "sha256:d6537980923761e3987021808ce0f0b8a44cdfbd49da8d68d99c345697faaf79", "2.002001--pl5321hec16e2b_0": "sha256:809ce70dc82ab6251878c5d3568d7fb394df721b0c9176cfd420ccb1a5c54cc9", "2.002001--pl5321h031d066_2": "sha256:19a0e2c1701a248675b3b9a73ee365a82128f09a23cfcc321f9af96d7fbdf118", "2.003000--pl5321h031d066_0": "sha256:b51489ba3080b1df30ad7607d2b84a16b089a5636cbb36b4cfc2430706fabf5a"}, "docker": "quay.io/biocontainers/perl-xml-libxslt", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-libxslt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-libxslt", "latest": {"2.003000--pl5321h7b50bb2_1": "sha256:f635e7cc045a5e3325b98c71bc8ce393ee52fd5ce23ae8732acfc44a0849f931"}, "tags": {"2.002000--pl5321hec16e2b_1": "sha256:d6537980923761e3987021808ce0f0b8a44cdfbd49da8d68d99c345697faaf79", "2.002001--pl5321hec16e2b_0": "sha256:809ce70dc82ab6251878c5d3568d7fb394df721b0c9176cfd420ccb1a5c54cc9", "2.002001--pl5321h031d066_2": "sha256:19a0e2c1701a248675b3b9a73ee365a82128f09a23cfcc321f9af96d7fbdf118", "2.003000--pl5321h031d066_0": "sha256:b51489ba3080b1df30ad7607d2b84a16b089a5636cbb36b4cfc2430706fabf5a", "2.003000--pl5321h7b50bb2_1": "sha256:f635e7cc045a5e3325b98c71bc8ce393ee52fd5ce23ae8732acfc44a0849f931"}, "docker": "quay.io/biocontainers/perl-xml-libxslt", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-libxslt.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/perl-xml-libxslt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-xml-libxslt:2.003000--pl5321h031d066_0
+$ shpc install quay.io/biocontainers/perl-xml-libxslt:2.003000--pl5321h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-xml-libxslt/2.003000--pl5321h031d066_0
-$ module help quay.io/biocontainers/perl-xml-libxslt/2.003000--pl5321h031d066_0
+$ module load quay.io/biocontainers/perl-xml-libxslt/2.003000--pl5321h7b50bb2_1
+$ module help quay.io/biocontainers/perl-xml-libxslt/2.003000--pl5321h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

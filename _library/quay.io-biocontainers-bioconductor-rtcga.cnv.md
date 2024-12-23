@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.cnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
-updated_at: "2024-12-22 03:38:30.074950"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-23 03:37:30.364262"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.cnv"
 aliases:
  - "f2py3.10"
@@ -20,8 +20,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.cnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv", "latest": {"1.30.0--r43hdfd78af_0": "sha256:3771289775e2c72d0a9a108ad53004db9ccf1de70b8151f16ef797b44771159e"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4", "1.25.0--r42hdfd78af_0": "sha256:9f382bdee433fa4a81cf18f2e9a89751057b7a24d854cf18b7b95ad7fc4bb7b7", "1.28.0--r43hdfd78af_0": "sha256:56938e95dae041fb692c1806c3496dace6735c10582a68de70c8c3de914db4c3", "1.30.0--r43hdfd78af_0": "sha256:3771289775e2c72d0a9a108ad53004db9ccf1de70b8151f16ef797b44771159e"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.cnv", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.cnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv", "latest": {"1.34.0--r44hdfd78af_0": "sha256:4528c77e4e9d24b3084e8221255d4faae693993be7ea4a814a9fab602b8a9986"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4", "1.25.0--r42hdfd78af_0": "sha256:9f382bdee433fa4a81cf18f2e9a89751057b7a24d854cf18b7b95ad7fc4bb7b7", "1.28.0--r43hdfd78af_0": "sha256:56938e95dae041fb692c1806c3496dace6735c10582a68de70c8c3de914db4c3", "1.30.0--r43hdfd78af_0": "sha256:3771289775e2c72d0a9a108ad53004db9ccf1de70b8151f16ef797b44771159e", "1.34.0--r44hdfd78af_0": "sha256:4528c77e4e9d24b3084e8221255d4faae693993be7ea4a814a9fab602b8a9986"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.cnv", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.cnv.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.cnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.cnv:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.cnv:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.cnv/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rtcga.cnv/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rtcga.cnv/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.cnv/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

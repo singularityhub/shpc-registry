@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cloudspades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cloudspades/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cloudspades/container.yaml"
-updated_at: "2024-12-22 03:25:10.279757"
-latest: "3.16.0--h6dccd9a_2"
+updated_at: "2024-12-23 03:23:15.523494"
+latest: "3.16.0--haf24da9_3"
 container_url: "https://biocontainers.pro/tools/cloudspades"
 aliases:
  - "idle3.13"
@@ -35,8 +35,9 @@ aliases:
  - "spades_init.py"
 versions:
  - "3.16.0--h6dccd9a_2"
+ - "3.16.0--haf24da9_3"
 description: "singularity registry hpc automated addition for cloudspades"
-config: {"url": "https://biocontainers.pro/tools/cloudspades", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cloudspades", "latest": {"3.16.0--h6dccd9a_2": "sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c"}, "tags": {"3.16.0--h6dccd9a_2": "sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c"}, "docker": "quay.io/biocontainers/cloudspades", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py"}}
+config: {"url": "https://biocontainers.pro/tools/cloudspades", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cloudspades", "latest": {"3.16.0--haf24da9_3": "sha256:0e502ad0330b185886a3a6f25d6f5843b5fe3b357a1df170a8b59fad1bc7f1a7"}, "tags": {"3.16.0--h6dccd9a_2": "sha256:fbb7c85521bc0e2c2870dd3852552f1e9dbd8b51841b110095cfdf59df1af58c", "3.16.0--haf24da9_3": "sha256:0e502ad0330b185886a3a6f25d6f5843b5fe3b357a1df170a8b59fad1bc7f1a7"}, "docker": "quay.io/biocontainers/cloudspades", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cloudspades.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/cloudspades
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cloudspades:3.16.0--h6dccd9a_2
+$ shpc install quay.io/biocontainers/cloudspades:3.16.0--haf24da9_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cloudspades/3.16.0--h6dccd9a_2
-$ module help quay.io/biocontainers/cloudspades/3.16.0--h6dccd9a_2
+$ module load quay.io/biocontainers/cloudspades/3.16.0--haf24da9_3
+$ module help quay.io/biocontainers/cloudspades/3.16.0--haf24da9_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cardinalio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardinalio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardinalio/container.yaml"
-updated_at: "2024-12-22 03:05:09.725758"
-latest: "1.0.0--r43hf17093f_0"
+updated_at: "2024-12-23 03:02:23.613229"
+latest: "1.4.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardinalio"
 aliases:
  - "pcre2posix_test"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43hf17093f_0"
+ - "1.4.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-cardinalio"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinalio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cardinalio", "latest": {"1.0.0--r43hf17093f_0": "sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9"}, "docker": "quay.io/biocontainers/bioconductor-cardinalio", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinalio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cardinalio", "latest": {"1.4.0--r44he5774e6_0": "sha256:7fcfbece986d3dbb2662a57247ce45f00a9137942d3899b6a578c40227dc3b46"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9", "1.4.0--r44he5774e6_0": "sha256:7fcfbece986d3dbb2662a57247ce45f00a9137942d3899b6a578c40227dc3b46"}, "docker": "quay.io/biocontainers/bioconductor-cardinalio", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cardinalio.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cardinalio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cardinalio:1.0.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-cardinalio:1.4.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cardinalio/1.0.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-cardinalio/1.0.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-cardinalio/1.4.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-cardinalio/1.4.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

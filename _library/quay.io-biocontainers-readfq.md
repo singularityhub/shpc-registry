@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/readfq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readfq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readfq/container.yaml"
-updated_at: "2024-12-22 03:22:58.593501"
-latest: "2015.08.30--he4a0461_5"
+updated_at: "2024-12-23 03:20:54.439317"
+latest: "2015.08.30--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/readfq"
 aliases:
  - "readfq"
 versions:
  - "2015.08.30--h7132678_3"
  - "2015.08.30--he4a0461_5"
+ - "2015.08.30--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for readfq"
-config: {"url": "https://biocontainers.pro/tools/readfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for readfq", "latest": {"2015.08.30--he4a0461_5": "sha256:8548418415a37572aa1d983f4726063afffc2c5d4ecfd8cd635a75ec00c4698f"}, "tags": {"2015.08.30--h7132678_3": "sha256:cdc93f495618e9544da2ccbe82c5440c1ac29759a2443bd90602408b511be744", "2015.08.30--he4a0461_5": "sha256:8548418415a37572aa1d983f4726063afffc2c5d4ecfd8cd635a75ec00c4698f"}, "docker": "quay.io/biocontainers/readfq", "aliases": {"readfq": "/usr/local/bin/readfq"}}
+config: {"url": "https://biocontainers.pro/tools/readfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for readfq", "latest": {"2015.08.30--h577a1d6_6": "sha256:1f20cfe4b837f01af09707ec836377fce0439e71745a897ab5728ab2686ea206"}, "tags": {"2015.08.30--h7132678_3": "sha256:cdc93f495618e9544da2ccbe82c5440c1ac29759a2443bd90602408b511be744", "2015.08.30--he4a0461_5": "sha256:8548418415a37572aa1d983f4726063afffc2c5d4ecfd8cd635a75ec00c4698f", "2015.08.30--h577a1d6_6": "sha256:1f20cfe4b837f01af09707ec836377fce0439e71745a897ab5728ab2686ea206"}, "docker": "quay.io/biocontainers/readfq", "aliases": {"readfq": "/usr/local/bin/readfq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/readfq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/readfq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/readfq:2015.08.30--he4a0461_5
+$ shpc install quay.io/biocontainers/readfq:2015.08.30--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/readfq/2015.08.30--he4a0461_5
-$ module help quay.io/biocontainers/readfq/2015.08.30--he4a0461_5
+$ module load quay.io/biocontainers/readfq/2015.08.30--h577a1d6_6
+$ module help quay.io/biocontainers/readfq/2015.08.30--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

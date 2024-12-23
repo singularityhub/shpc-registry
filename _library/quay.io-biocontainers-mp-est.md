@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mp-est"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mp-est/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mp-est/container.yaml"
-updated_at: "2024-12-22 03:41:11.034367"
-latest: "3.0.0--h031d066_1"
+updated_at: "2024-12-23 03:40:19.578176"
+latest: "3.0.0--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/mp-est"
 aliases:
  - "mpest"
 versions:
  - "3.0.0--hec16e2b_0"
  - "3.0.0--h031d066_1"
+ - "3.0.0--h7b50bb2_2"
 description: "singularity registry hpc automated addition for mp-est"
-config: {"url": "https://biocontainers.pro/tools/mp-est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mp-est", "latest": {"3.0.0--h031d066_1": "sha256:27d3c57bd36cee6b57bcf885c217d4560c2ee50d79b4571f7ed58424f432c59a"}, "tags": {"3.0.0--hec16e2b_0": "sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043", "3.0.0--h031d066_1": "sha256:27d3c57bd36cee6b57bcf885c217d4560c2ee50d79b4571f7ed58424f432c59a"}, "docker": "quay.io/biocontainers/mp-est", "aliases": {"mpest": "/usr/local/bin/mpest"}}
+config: {"url": "https://biocontainers.pro/tools/mp-est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mp-est", "latest": {"3.0.0--h7b50bb2_2": "sha256:2cad84a4b724a15b68aca3e36cdbc56ae37288171904022f62a648edcf2dfd8e"}, "tags": {"3.0.0--hec16e2b_0": "sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043", "3.0.0--h031d066_1": "sha256:27d3c57bd36cee6b57bcf885c217d4560c2ee50d79b4571f7ed58424f432c59a", "3.0.0--h7b50bb2_2": "sha256:2cad84a4b724a15b68aca3e36cdbc56ae37288171904022f62a648edcf2dfd8e"}, "docker": "quay.io/biocontainers/mp-est", "aliases": {"mpest": "/usr/local/bin/mpest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mp-est.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mp-est
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mp-est:3.0.0--h031d066_1
+$ shpc install quay.io/biocontainers/mp-est:3.0.0--h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mp-est/3.0.0--h031d066_1
-$ module help quay.io/biocontainers/mp-est/3.0.0--h031d066_1
+$ module load quay.io/biocontainers/mp-est/3.0.0--h7b50bb2_2
+$ module help quay.io/biocontainers/mp-est/3.0.0--h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

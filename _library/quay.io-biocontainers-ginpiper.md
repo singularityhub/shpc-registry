@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ginpiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ginpiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ginpiper/container.yaml"
-updated_at: "2024-12-22 03:35:33.205892"
+updated_at: "2024-12-23 03:34:24.285133"
 latest: "1.0.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/ginpiper"
 
