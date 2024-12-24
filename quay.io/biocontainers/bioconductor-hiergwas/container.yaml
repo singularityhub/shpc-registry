@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hiergwas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hiergwas
 latest:
-  1.32.0--r43hdfd78af_1: sha256:d23a4f52cb3f762e0f0c351908a56f6ca38cb3e9d831a4e4a50e92e7cfa91fb6
+  1.36.0--r44hdfd78af_0: sha256:558498f53776118a9b8a42d82fbdedbe17462cbd78cd45d1cbf9a91a4e87da76
 tags:
   1.24.0--r41hdfd78af_0: sha256:3cfde919da0148507c6ade5febdf0ca0cd23a18952a65f870bbc2d3035c5d7ef
   1.28.0--r42hdfd78af_0: sha256:caa10be6053a89cc11eed6dffecde474b5049e910e88ca60f4cab613377f1686
   1.30.0--r43hdfd78af_0: sha256:e2c50ca6e9b93a88a71ee0f118ea702e233da57a8da572bedeec2f20628a1a82
   1.32.0--r43hdfd78af_1: sha256:d23a4f52cb3f762e0f0c351908a56f6ca38cb3e9d831a4e4a50e92e7cfa91fb6
+  1.36.0--r44hdfd78af_0: sha256:558498f53776118a9b8a42d82fbdedbe17462cbd78cd45d1cbf9a91a4e87da76
 docker: quay.io/biocontainers/bioconductor-hiergwas

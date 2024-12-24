@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-cnvmetrics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cnvmetrics
 latest:
-  1.6.0--r43hdfd78af_0: sha256:8ff8a1dabbf023a2397c0a55493128d99eb7b2a9b6bf2cccd14c696a9a1a8c43
+  1.10.0--r44hdfd78af_0: sha256:d91311e4f080ee798c096d5fb92c874eb46b08b989704aa9ffea9b3adef1de69
 tags:
   1.2.0--r42hdfd78af_0: sha256:2f912e74bea168ab54d7f35321004928b8fe27a9f9d890a4e5146f1542074a3e
   1.4.0--r43hdfd78af_0: sha256:8d923adf0eb0d375d7a3add7f55d667912ffbd8bd7646e14e942840e08b29925
   1.6.0--r43hdfd78af_0: sha256:8ff8a1dabbf023a2397c0a55493128d99eb7b2a9b6bf2cccd14c696a9a1a8c43
+  1.10.0--r44hdfd78af_0: sha256:d91311e4f080ee798c096d5fb92c874eb46b08b989704aa9ffea9b3adef1de69
 docker: quay.io/biocontainers/bioconductor-cnvmetrics
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

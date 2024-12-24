@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rustyread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rustyread
 latest:
-  0.4.1--h8bd2d3b_3: sha256:d2b23892dc7514a81049308f667a296832aba673b1a65d19548b3dd3b8954c4d
+  0.4.1--heebf65f_4: sha256:7651e27a57f9ebc8ac2d495039380aa45bbdaf197fd58e503c3aad206137e78a
 tags:
   0.4.1--hc308579_1: sha256:2ef2e411f6a3972971444983dcc8474851104ddb200c2808b9386525c5ccda1a
   0.4.1--h8bd2d3b_3: sha256:d2b23892dc7514a81049308f667a296832aba673b1a65d19548b3dd3b8954c4d
+  0.4.1--heebf65f_4: sha256:7651e27a57f9ebc8ac2d495039380aa45bbdaf197fd58e503c3aad206137e78a
 docker: quay.io/biocontainers/rustyread
 aliases:
   rustyread: /usr/local/bin/rustyread

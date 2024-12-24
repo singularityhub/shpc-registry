@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-snapcount
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snapcount
 latest:
-  1.14.0--r43hdfd78af_0: sha256:8c204f4a79f9e95a62f6bcf01ffe254efb8794c013666f62025cdec46b95a0b8
+  1.18.0--r44hdfd78af_0: sha256:dc6ebd70d8e022f586e3626a614e83a3cbebd6b0ac3755bc73418ff5e8041d1a
 tags:
   1.6.0--r41hdfd78af_0: sha256:5e39dd10e3d117d1ef47ee28bd452bb8672c6058bb4e4164d978bc5e662abcad
   1.10.0--r42hdfd78af_0: sha256:408bdf0b4473f499f87e66305aff5e3996c0de13e48d8888793361b6f6722a15
   1.12.0--r43hdfd78af_0: sha256:8a8c4bc800741d0240ec13dbd5ca080052d3ea14ce995f028cc22bd5d2aabffb
   1.14.0--r43hdfd78af_0: sha256:8c204f4a79f9e95a62f6bcf01ffe254efb8794c013666f62025cdec46b95a0b8
+  1.18.0--r44hdfd78af_0: sha256:dc6ebd70d8e022f586e3626a614e83a3cbebd6b0ac3755bc73418ff5e8041d1a
 docker: quay.io/biocontainers/bioconductor-snapcount

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-virus-interpreter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-virus-interpreter
 latest:
-  3.7_beta--hdfd78af_0: sha256:7aa51162cf7b8dc8b335c45c1f1ac729959e6959fe3518d55d23291420f91fd8
+  3.7_beta--hdfd78af_1: sha256:9206e287283c63627e957d935024a60c871138a87c240f29004b75d52355687c
 tags:
   1.3--hdfd78af_0: sha256:4afd72551649e8cfb6c7e5eedc22c54b9fba5c2bc1cf816417b644810ceed4bc
   3.7_beta--hdfd78af_0: sha256:7aa51162cf7b8dc8b335c45c1f1ac729959e6959fe3518d55d23291420f91fd8
+  3.7_beta--hdfd78af_1: sha256:9206e287283c63627e957d935024a60c871138a87c240f29004b75d52355687c
 docker: quay.io/biocontainers/hmftools-virus-interpreter
 aliases:
   virusinterpreter: /usr/local/bin/virusinterpreter

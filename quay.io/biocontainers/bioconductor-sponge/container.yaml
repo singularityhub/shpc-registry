@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-sponge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sponge
 latest:
-  1.22.0--r43hdfd78af_0: sha256:855f5a42415faaf80e8508e2d824f54b04b4248f4a4665ab1196cb1f296904fe
+  1.28.0--r44hdfd78af_0: sha256:272fd6b840d79198c03c286385d8d861fabb348cc6b7f21860b5159f312f1300
 tags:
   1.8.0--r36_0: sha256:4e1bdce1cef1c3a86b4aed341602eb854b8fd4cf91c0b99d7899b33303fe792d
   1.20.0--r42hdfd78af_0: sha256:478112962ee576e576043b164e0917d7c057bbce46a0dff95c976b75838fd0cc
@@ -11,6 +11,7 @@ tags:
   1.12.0--r40hdfd78af_1: sha256:0257ede206c8810fe85593de4a7dc299f45fce83561ce6c35abdf8494adc1645
   1.10.0--r40_0: sha256:0019b3aa6f74c6cc264695b63720bc68c7501c338f84875d24700f8632a68206
   1.22.0--r43hdfd78af_0: sha256:855f5a42415faaf80e8508e2d824f54b04b4248f4a4665ab1196cb1f296904fe
+  1.28.0--r44hdfd78af_0: sha256:272fd6b840d79198c03c286385d8d861fabb348cc6b7f21860b5159f312f1300
 docker: quay.io/biocontainers/bioconductor-sponge
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

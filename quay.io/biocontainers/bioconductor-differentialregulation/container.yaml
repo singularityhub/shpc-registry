@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-differentialregulation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-differentialregulation
 latest:
-  2.0.2--r43hf17093f_0: sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92
+  2.4.0--r44he5774e6_0: sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c
 tags:
   1.2.0--r42hc247a5b_0: sha256:2bad62e65adc65d6cf5bb3cfd5ef0e3de222911991010551e229abc4f3190e47
   1.2.0--r42hf17093f_1: sha256:49b52d5f4fb0c99e91750acb5a1d5e8e10d14cd6d23550b77c20352e0e24d9f3
   1.4.2--r43hf17093f_0: sha256:580e9e3d8beed11ac2e97638fce305c1ed36f02a98e38f656c76d60b8d070937
   2.0.2--r43hf17093f_0: sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92
+  2.4.0--r44he5774e6_0: sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c
 docker: quay.io/biocontainers/bioconductor-differentialregulation
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

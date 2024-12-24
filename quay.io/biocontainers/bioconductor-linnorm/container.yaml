@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-linnorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-linnorm
 latest:
-  2.26.0--r43hf17093f_1: sha256:fa2bd3c412aab1c83d2fb0001aa47d93c1223444e9e310b19af818e2779f9ccb
+  2.30.0--r44he5774e6_0: sha256:48af3366196256d86d21a88ac9fd648a771702dc136c942539337ef5b187247f
 tags:
   2.8.0--r36he1b5a44_1: sha256:b4a3f68598073b55e30ebdc30fa96a279d5b1713986b0d75623793767596ac2c
   2.22.0--r42hc247a5b_0: sha256:de22bcd924bf67b3869effda720f4f09363d1ba3fade69f0525b3a0d56b41082
@@ -14,6 +14,7 @@ tags:
   2.24.1--r43hf17093f_0: sha256:26f3df135dac59cba54cd965a56434c0c1dbd37269af0d317fe77628f9dbd120
   2.26.0--r43hf17093f_0: sha256:3243982e68a7d8ec18523d1caaf17ed57c72630f38fa562b3b94239e091c544e
   2.26.0--r43hf17093f_1: sha256:fa2bd3c412aab1c83d2fb0001aa47d93c1223444e9e310b19af818e2779f9ccb
+  2.30.0--r44he5774e6_0: sha256:48af3366196256d86d21a88ac9fd648a771702dc136c942539337ef5b187247f
 docker: quay.io/biocontainers/bioconductor-linnorm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

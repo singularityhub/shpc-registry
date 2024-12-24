@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cortexpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cortexpy
 latest:
-  0.46.5--py38h2123bcc_5: sha256:de280176b8ed0103fe2a487bb76ff8d45cce67bb6448023131ae0b58631df114
+  0.46.5--py38h9948957_6: sha256:2a141b230837a7ff2caa85e6f75bc507df6bb99ab8b1bdb3b3a837e15ce68f06
 tags:
   0.46.5--py37h96cfd12_3: sha256:f336a1ba1a233fdfc2e7a2975e0ef18ad94b6b4b9d09ef8b1b2f97fdf3e16698
   0.46.5--py38h2494328_4: sha256:f1a9c80a8b3b792f5268f7acfdfdb63e5db15dab7df821e42e4e7c977174948d
   0.46.5--py38h2123bcc_5: sha256:de280176b8ed0103fe2a487bb76ff8d45cce67bb6448023131ae0b58631df114
+  0.46.5--py38h9948957_6: sha256:2a141b230837a7ff2caa85e6f75bc507df6bb99ab8b1bdb3b3a837e15ce68f06
 docker: quay.io/biocontainers/cortexpy
 aliases:
   cortexpy: /usr/local/bin/cortexpy

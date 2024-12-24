@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cancerdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cancerdata
 latest:
-  1.40.0--r43hdfd78af_0: sha256:31b3bc4bd95672738c278a160dd4407333c3873b91b9ca434b190463b15026fb
+  1.44.0--r44hdfd78af_0: sha256:1a691fbcdbafef1cb5aa7d8815383483e7bfaf8ce54c1734b884b4b53850f8e5
 tags:
   1.32.0--r41hdfd78af_1: sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02
   1.36.0--r42hdfd78af_0: sha256:ecd3d477b2376c6a15de20a20f8ffc13925dbd092de34478f8a33a827eb53cef
   1.38.0--r43hdfd78af_0: sha256:85b4297264916ab7fdefdb74b993e2f13b7855f3f6e51bf0d68123fdb927d230
   1.40.0--r43hdfd78af_0: sha256:31b3bc4bd95672738c278a160dd4407333c3873b91b9ca434b190463b15026fb
+  1.44.0--r44hdfd78af_0: sha256:1a691fbcdbafef1cb5aa7d8815383483e7bfaf8ce54c1734b884b4b53850f8e5
 docker: quay.io/biocontainers/bioconductor-cancerdata

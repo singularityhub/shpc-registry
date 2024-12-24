@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rols
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rols
 latest:
-  2.30.0--r43hdfd78af_0: sha256:3a011a6225129dadcb2d9b32e62e25ff998614fd4fb12046668231457fb0f27f
+  3.2.0--r44hdfd78af_0: sha256:a3236ab7f553948517fa75dcf1adf8ac3426bb862c8b6adcdf160d63623cbf29
 tags:
   2.8.2--r341_0: sha256:325eed9b691ade85e7bccec2216d7e22c38faa3f9e33bf71400b268ae68fe6c4
   2.26.0--r42hdfd78af_0: sha256:1b74fe430bacae217946f52c63b2fd0ee4c59cf7157839e2c07857416f856c9b
@@ -12,6 +12,7 @@ tags:
   2.16.1--r40_0: sha256:3ba947c91d8032f10b41d9d7619db1eb933cc418c9d81b93dddbaf9cd01bc65a
   2.28.0--r43hdfd78af_0: sha256:55d719216fa0311be3ca2f1880e273b032d22bcc3f111e8850dd60d29530f6c3
   2.30.0--r43hdfd78af_0: sha256:3a011a6225129dadcb2d9b32e62e25ff998614fd4fb12046668231457fb0f27f
+  3.2.0--r44hdfd78af_0: sha256:a3236ab7f553948517fa75dcf1adf8ac3426bb862c8b6adcdf160d63623cbf29
 docker: quay.io/biocontainers/bioconductor-rols
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

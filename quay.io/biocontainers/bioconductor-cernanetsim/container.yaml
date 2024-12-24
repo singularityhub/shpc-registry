@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cernanetsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cernanetsim
 latest:
-  1.14.0--r43hdfd78af_0: sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d
+  1.18.0--r44hdfd78af_0: sha256:0f72d140a579620ca700db7a92effdd23e1aba23b2f70f1adc07929549b8fdb7
 tags:
   1.6.0--r41hdfd78af_0: sha256:bd1638693f7e75e6416da47c8115b356928fea61ec93009dfe50c65a5fb1896c
   1.10.0--r42hdfd78af_0: sha256:563f23abcc17c6527af533a88e3dd30a3d26eb348775d4901f1997c240ac467c
   1.12.0--r43hdfd78af_0: sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9
   1.14.0--r43hdfd78af_0: sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d
+  1.18.0--r44hdfd78af_0: sha256:0f72d140a579620ca700db7a92effdd23e1aba23b2f70f1adc07929549b8fdb7
 docker: quay.io/biocontainers/bioconductor-cernanetsim

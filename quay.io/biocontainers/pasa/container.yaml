@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/pasa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pasa
 latest:
-  2.5.3--h4ac6f70_1: sha256:335fd08a3bf79bac2f550d1e32e1179b1bde3e868d51f638762f5711ee214837
+  2.5.3--h9948957_2: sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
 tags:
   2.5.2--h87f3376_0: sha256:969eeabed1ceebf3be4d305442e0aa4b89c5f57896ce6fda939e65c7d22dea62
   2.5.2--hdbdd923_3: sha256:4abcd6adbdf6eaeda313453a7390214830cef924ccf789ee1ca11b95a3bd7efa
   2.5.3--h4ac6f70_0: sha256:8c5229cee4d3d0ccf3431eafac7680aace233f38c58f72bdc4995e6c1d639d72
   2.5.3--h4ac6f70_1: sha256:335fd08a3bf79bac2f550d1e32e1179b1bde3e868d51f638762f5711ee214837
+  2.5.3--h9948957_2: sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
 docker: quay.io/biocontainers/pasa
 aliases:
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs

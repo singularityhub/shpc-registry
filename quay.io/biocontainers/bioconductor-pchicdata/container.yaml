@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-pchicdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pchicdata
 latest:
-  1.30.0--r43hdfd78af_0: sha256:5b6c54831749f77b2eb19d25786f265e56f87a60cbc2440ff99985cd69da1952
+  1.34.0--r44hdfd78af_0: sha256:5b18a3767380ef8c17ecf787dd33d9e6f1122c4a067509f7da65a34b98e3256e
 tags:
   1.8.0--r351_0: sha256:f3e8d34c794abe5790beffc778fa11900b0ba99eb140d56f6a4b0bde4d858b55
   1.25.0--r42hdfd78af_0: sha256:72a25ceae4e7d0009f1224e957e5c7bbcd646c94a7f74d51fc8c469a4efb4269
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:e740e4a8dec773eac03238a09faa3b55c3e7dce39aa22febdd03bcac9a5a6d00
   1.28.0--r43hdfd78af_0: sha256:266d4cee64caf2482d73fd3627eecdee3aa89d64583e40f471e496bf468f4857
   1.30.0--r43hdfd78af_0: sha256:5b6c54831749f77b2eb19d25786f265e56f87a60cbc2440ff99985cd69da1952
+  1.34.0--r44hdfd78af_0: sha256:5b18a3767380ef8c17ecf787dd33d9e6f1122c4a067509f7da65a34b98e3256e
 docker: quay.io/biocontainers/bioconductor-pchicdata
 aliases:
   wget: /usr/local/bin/wget

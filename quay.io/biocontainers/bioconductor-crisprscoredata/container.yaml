@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-crisprscoredata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-crisprscoredata
 latest:
-  1.6.0--r43hdfd78af_0: sha256:6daecb1dfdaf11315c9231f154a0361d3196523dcf19131eb673d905e57908be
+  1.10.0--r44hdfd78af_0: sha256:7cbb19beecd1a0edd761703ecdcc2b2139dadb3b4eb3c4536079412311897600
 tags:
   1.2.0--r42hdfd78af_0: sha256:ab61e9a47debe626f6998ab0b2fc4041a776b9609310a64a4b7b33f5ba53b18c
   1.4.0--r43hdfd78af_0: sha256:f5a075b263d9fe11c347cdc9aebf358fcf654b712674fc9a000e093d6ef3fb43
   1.6.0--r43hdfd78af_0: sha256:6daecb1dfdaf11315c9231f154a0361d3196523dcf19131eb673d905e57908be
+  1.10.0--r44hdfd78af_0: sha256:7cbb19beecd1a0edd761703ecdcc2b2139dadb3b4eb3c4536079412311897600
 docker: quay.io/biocontainers/bioconductor-crisprscoredata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

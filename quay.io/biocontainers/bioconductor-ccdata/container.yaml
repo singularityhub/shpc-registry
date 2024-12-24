@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ccdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ccdata
 latest:
-  1.28.0--r43hdfd78af_0: sha256:7ddd13e75304473bc39d4c25050f22026e69185d770ea6c9e6a4c0ef71af38e6
+  1.32.0--r44hdfd78af_0: sha256:51a22b1e735d5efc4c50bac6a3e0eef71ca4d08797f2e8230afb2bf3298c0eb2
 tags:
   1.8.0--r351_0: sha256:dcbec2bd6334a908d977012c34575b792700841c3a1dd1cc0846340d289e6a1f
   1.24.0--r42hdfd78af_0: sha256:81f28724f77c3188cf45a401701461d8d358cb4cc0fce8b62313b9e12387b410
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:efbde2eda5f28b25ce0a5e164a604cdcb22d0b14d1d8405393629f02e0534f07
   1.26.0--r43hdfd78af_0: sha256:4558486f57fb59a83273f669ca47fb5d4db07a3efc5bffe7fd09a9f0ec8ba87e
   1.28.0--r43hdfd78af_0: sha256:7ddd13e75304473bc39d4c25050f22026e69185d770ea6c9e6a4c0ef71af38e6
+  1.32.0--r44hdfd78af_0: sha256:51a22b1e735d5efc4c50bac6a3e0eef71ca4d08797f2e8230afb2bf3298c0eb2
 docker: quay.io/biocontainers/bioconductor-ccdata
 aliases:
   wget: /usr/local/bin/wget

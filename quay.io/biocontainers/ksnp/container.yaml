@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ksnp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ksnp
 latest:
-  1.0.3--hdcf5f25_1: sha256:1b30d594b3768a1305b1c64dde8d3a3514434521482993123b010dfb56ce8523
+  1.0.3--h077b44d_2: sha256:cf19b3368c9a5c2ac6038bc03bdb6e2ad46146149793b75f4a7b978731e206b9
 tags:
   1.0.3--h146fbdb_0: sha256:8e4d1565d5769ae33cbdc8c4a7ef8eb02b5dffb5de406cce787840fd87173888
   1.0.3--hdcf5f25_1: sha256:1b30d594b3768a1305b1c64dde8d3a3514434521482993123b010dfb56ce8523
+  1.0.3--h077b44d_2: sha256:cf19b3368c9a5c2ac6038bc03bdb6e2ad46146149793b75f4a7b978731e206b9
 docker: quay.io/biocontainers/ksnp
 aliases:
   ksnp: /usr/local/bin/ksnp

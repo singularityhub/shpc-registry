@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-adductomicsr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-adductomicsr
 latest:
-  1.18.0--r43hdfd78af_0: sha256:b804a45cfae41ed7d344255350259714bae954e01663578d7ed49390d785e5de
+  1.22.0--r44hdfd78af_0: sha256:f0900e471e7a90d02fba394bf8a15fc9a75ff8cfb98f80e31d9788a46b2f583d
 tags:
   1.8.0--r41hdfd78af_0: sha256:cc528492ec9521a52d2dc9fefd70f731fd6afd9d4c21b394923041f29e1d2b82
   1.14.0--r42hdfd78af_0: sha256:fdf6f879ce6d0137e7a513ef2a5597d03f4cb06cb63bb46ffb94e2e59b9c8880
   1.10.0--r41hdfd78af_0: sha256:1614186af2a0d9c9c55f6a9d3e8ace3eede5216daa9ce6be65647350926878a8
   1.16.0--r43hdfd78af_0: sha256:ac0cf0dc55f2f34d378d73c308966997439d38a3e73c766fff7045692acd6bd6
   1.18.0--r43hdfd78af_0: sha256:b804a45cfae41ed7d344255350259714bae954e01663578d7ed49390d785e5de
+  1.22.0--r44hdfd78af_0: sha256:f0900e471e7a90d02fba394bf8a15fc9a75ff8cfb98f80e31d9788a46b2f583d
 docker: quay.io/biocontainers/bioconductor-adductomicsr
 aliases:
   zipcmp: /usr/local/bin/zipcmp
