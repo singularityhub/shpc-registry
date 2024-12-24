@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cotan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cotan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cotan/container.yaml"
-updated_at: "2024-12-23 03:12:19.644309"
-latest: "2.2.1--r43hdfd78af_0"
+updated_at: "2024-12-24 03:08:39.335118"
+latest: "2.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cotan"
 
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "2.0.4--r43hdfd78af_0"
  - "2.2.1--r43hdfd78af_0"
+ - "2.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cotan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cotan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cotan", "latest": {"2.2.1--r43hdfd78af_0": "sha256:2b9909c13346db71326392827ff3e6fb795a2b22e5d56bb2621c011ac45e85ff"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:026c04608cc5d435ed3e53e8caac9e4d1ab838bb8f933fce7eed290d93e7e843", "2.0.4--r43hdfd78af_0": "sha256:f0aaad331665ee568d598f154cd326b88cd5fd77cb2ad48531ac82058011636f", "2.2.1--r43hdfd78af_0": "sha256:2b9909c13346db71326392827ff3e6fb795a2b22e5d56bb2621c011ac45e85ff"}, "docker": "quay.io/biocontainers/bioconductor-cotan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cotan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cotan", "latest": {"2.6.0--r44hdfd78af_0": "sha256:e1880746b3cab3e779e5e6ce7d70b6d7b95f61af1109985dfbdd461d9fc2498e"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:026c04608cc5d435ed3e53e8caac9e4d1ab838bb8f933fce7eed290d93e7e843", "2.0.4--r43hdfd78af_0": "sha256:f0aaad331665ee568d598f154cd326b88cd5fd77cb2ad48531ac82058011636f", "2.2.1--r43hdfd78af_0": "sha256:2b9909c13346db71326392827ff3e6fb795a2b22e5d56bb2621c011ac45e85ff", "2.6.0--r44hdfd78af_0": "sha256:e1880746b3cab3e779e5e6ce7d70b6d7b95f61af1109985dfbdd461d9fc2498e"}, "docker": "quay.io/biocontainers/bioconductor-cotan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cotan.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cotan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cotan:2.2.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cotan:2.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cotan/2.2.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cotan/2.2.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cotan/2.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cotan/2.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

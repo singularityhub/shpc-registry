@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sabre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sabre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sabre/container.yaml"
-updated_at: "2024-12-23 03:43:26.056890"
-latest: "1.000--he4a0461_5"
+updated_at: "2024-12-24 03:37:44.177831"
+latest: "1.000--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/sabre"
 aliases:
  - "sabre"
 versions:
  - "1.000--h7132678_3"
  - "1.000--he4a0461_5"
+ - "1.000--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for sabre"
-config: {"url": "https://biocontainers.pro/tools/sabre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sabre", "latest": {"1.000--he4a0461_5": "sha256:7cec9f1d61d9e48e91ebac876da6e3ea6b77a7edad69cbd991a0fc1d8548f360"}, "tags": {"1.000--h7132678_3": "sha256:2ad6f6e463453b4e5471dcb0ff45c082dc4a4aca22b620b6bfde0cd1aa900af7", "1.000--he4a0461_5": "sha256:7cec9f1d61d9e48e91ebac876da6e3ea6b77a7edad69cbd991a0fc1d8548f360"}, "docker": "quay.io/biocontainers/sabre", "aliases": {"sabre": "/usr/local/bin/sabre"}}
+config: {"url": "https://biocontainers.pro/tools/sabre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sabre", "latest": {"1.000--h577a1d6_6": "sha256:d8e63dd6a6d8c202e8911797cfdc05472772a9932ddd3b9626c1e8ad16611269"}, "tags": {"1.000--h7132678_3": "sha256:2ad6f6e463453b4e5471dcb0ff45c082dc4a4aca22b620b6bfde0cd1aa900af7", "1.000--he4a0461_5": "sha256:7cec9f1d61d9e48e91ebac876da6e3ea6b77a7edad69cbd991a0fc1d8548f360", "1.000--h577a1d6_6": "sha256:d8e63dd6a6d8c202e8911797cfdc05472772a9932ddd3b9626c1e8ad16611269"}, "docker": "quay.io/biocontainers/sabre", "aliases": {"sabre": "/usr/local/bin/sabre"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sabre.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sabre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sabre:1.000--he4a0461_5
+$ shpc install quay.io/biocontainers/sabre:1.000--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sabre/1.000--he4a0461_5
-$ module help quay.io/biocontainers/sabre/1.000--he4a0461_5
+$ module load quay.io/biocontainers/sabre/1.000--h577a1d6_6
+$ module help quay.io/biocontainers/sabre/1.000--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

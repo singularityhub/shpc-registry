@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mcscanx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcscanx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcscanx/container.yaml"
-updated_at: "2024-12-23 03:19:28.337783"
-latest: "0.1--h9948957_0"
+updated_at: "2024-12-24 03:15:20.650794"
+latest: "1.0.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/mcscanx"
 aliases:
  - "MCScanX"
@@ -13,8 +13,9 @@ aliases:
  - "duplicate_gene_classifier"
 versions:
  - "0.1--h9948957_0"
+ - "1.0.0--h9948957_0"
 description: "singularity registry hpc automated addition for mcscanx"
-config: {"url": "https://biocontainers.pro/tools/mcscanx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mcscanx", "latest": {"0.1--h9948957_0": "sha256:e11c3cce3cce5339789302b164747aea4023b70c3da9b6b64161c95f27baf57d"}, "tags": {"0.1--h9948957_0": "sha256:e11c3cce3cce5339789302b164747aea4023b70c3da9b6b64161c95f27baf57d"}, "docker": "quay.io/biocontainers/mcscanx", "aliases": {"MCScanX": "/usr/local/bin/MCScanX", "MCScanX_h": "/usr/local/bin/MCScanX_h", "duplicate_gene_classifier": "/usr/local/bin/duplicate_gene_classifier"}}
+config: {"url": "https://biocontainers.pro/tools/mcscanx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mcscanx", "latest": {"1.0.0--h9948957_0": "sha256:bdf176aedfe9d1d7f11b58aefe12a96f4e9550a62be05d28809ad0c87832767c"}, "tags": {"0.1--h9948957_0": "sha256:e11c3cce3cce5339789302b164747aea4023b70c3da9b6b64161c95f27baf57d", "1.0.0--h9948957_0": "sha256:bdf176aedfe9d1d7f11b58aefe12a96f4e9550a62be05d28809ad0c87832767c"}, "docker": "quay.io/biocontainers/mcscanx", "aliases": {"MCScanX": "/usr/local/bin/MCScanX", "MCScanX_h": "/usr/local/bin/MCScanX_h", "duplicate_gene_classifier": "/usr/local/bin/duplicate_gene_classifier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mcscanx.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/mcscanx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mcscanx:0.1--h9948957_0
+$ shpc install quay.io/biocontainers/mcscanx:1.0.0--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mcscanx/0.1--h9948957_0
-$ module help quay.io/biocontainers/mcscanx/0.1--h9948957_0
+$ module load quay.io/biocontainers/mcscanx/1.0.0--h9948957_0
+$ module help quay.io/biocontainers/mcscanx/1.0.0--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fourdndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fourdndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fourdndata/container.yaml"
-updated_at: "2024-12-23 03:18:15.993953"
+updated_at: "2024-12-24 03:14:12.869941"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fourdndata"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viewbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viewbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viewbs/container.yaml"
-updated_at: "2024-12-23 03:10:13.443949"
-latest: "0.1.11--pl5321h031d066_3"
+updated_at: "2024-12-24 03:06:44.175082"
+latest: "0.1.11--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/viewbs"
 aliases:
  - "ViewBS"
@@ -28,8 +28,9 @@ versions:
  - "0.1.9--pl5262h779adbc_0"
  - "0.1.11--pl5321hec16e2b_2"
  - "0.1.11--pl5321h031d066_3"
+ - "0.1.11--pl5321h7b50bb2_4"
 description: "shpc-registry automated BioContainers addition for viewbs"
-config: {"url": "https://biocontainers.pro/tools/viewbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viewbs", "latest": {"0.1.11--pl5321h031d066_3": "sha256:969898388e80363c71823c29493ade49119894fbc54c248cae0d7ca7701060d0"}, "tags": {"0.1.9--pl5262h779adbc_0": "sha256:e6c2ad6c0ad34f6d913df526279f77179af4bb9b38813647558b45dce7105558", "0.1.11--pl5321hec16e2b_2": "sha256:0ef331248994e60823bdc026589577eddd0b76a4504e2c2bb85f8d41319dda76", "0.1.11--pl5321h031d066_3": "sha256:969898388e80363c71823c29493ade49119894fbc54c248cae0d7ca7701060d0"}, "docker": "quay.io/biocontainers/viewbs", "aliases": {"ViewBS": "/usr/local/bin/ViewBS", "brat2bismark.pl": "/usr/local/bin/brat2bismark.pl", "bsseeker2bismark.pl": "/usr/local/bin/bsseeker2bismark.pl", "demo-getopt-long-subcommand": "/usr/local/bin/demo-getopt-long-subcommand", "gff2tab.pl": "/usr/local/bin/gff2tab.pl", "mer_fig.R": "/usr/local/bin/mer_fig.R", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites"}}
+config: {"url": "https://biocontainers.pro/tools/viewbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viewbs", "latest": {"0.1.11--pl5321h7b50bb2_4": "sha256:3c55e89962c2bae91d33c8fb4d9a348cbd7987975fa200270e98e3f19894ea18"}, "tags": {"0.1.9--pl5262h779adbc_0": "sha256:e6c2ad6c0ad34f6d913df526279f77179af4bb9b38813647558b45dce7105558", "0.1.11--pl5321hec16e2b_2": "sha256:0ef331248994e60823bdc026589577eddd0b76a4504e2c2bb85f8d41319dda76", "0.1.11--pl5321h031d066_3": "sha256:969898388e80363c71823c29493ade49119894fbc54c248cae0d7ca7701060d0", "0.1.11--pl5321h7b50bb2_4": "sha256:3c55e89962c2bae91d33c8fb4d9a348cbd7987975fa200270e98e3f19894ea18"}, "docker": "quay.io/biocontainers/viewbs", "aliases": {"ViewBS": "/usr/local/bin/ViewBS", "brat2bismark.pl": "/usr/local/bin/brat2bismark.pl", "bsseeker2bismark.pl": "/usr/local/bin/bsseeker2bismark.pl", "demo-getopt-long-subcommand": "/usr/local/bin/demo-getopt-long-subcommand", "gff2tab.pl": "/usr/local/bin/gff2tab.pl", "mer_fig.R": "/usr/local/bin/mer_fig.R", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viewbs.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/viewbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viewbs:0.1.11--pl5321h031d066_3
+$ shpc install quay.io/biocontainers/viewbs:0.1.11--pl5321h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viewbs/0.1.11--pl5321h031d066_3
-$ module help quay.io/biocontainers/viewbs/0.1.11--pl5321h031d066_3
+$ module load quay.io/biocontainers/viewbs/0.1.11--pl5321h7b50bb2_4
+$ module help quay.io/biocontainers/viewbs/0.1.11--pl5321h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

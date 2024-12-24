@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/toposort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toposort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toposort/container.yaml"
-updated_at: "2024-12-23 03:13:04.150434"
+updated_at: "2024-12-24 03:09:20.506995"
 latest: "1.4--py35_0"
 container_url: "https://biocontainers.pro/tools/toposort"
 aliases:

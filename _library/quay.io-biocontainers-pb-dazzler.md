@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pb-dazzler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-dazzler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-dazzler/container.yaml"
-updated_at: "2024-12-23 02:58:00.077032"
-latest: "0.0.1--h031d066_4"
+updated_at: "2024-12-24 02:55:28.027567"
+latest: "0.0.1--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/pb-dazzler"
 aliases:
  - "Catrack"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "0.0.1--hec16e2b_2"
  - "0.0.1--h031d066_4"
+ - "0.0.1--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for pb-dazzler"
-config: {"url": "https://biocontainers.pro/tools/pb-dazzler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-dazzler", "latest": {"0.0.1--h031d066_4": "sha256:31f9a71563a9da2a8cf5ad5e79d975526cdb859cafef038f882bfc4764818b90"}, "tags": {"0.0.1--hec16e2b_2": "sha256:ae0bd4afb8926f1b44a96332bc915446a992736c699538efe31b731a0d96c370", "0.0.1--h031d066_4": "sha256:31f9a71563a9da2a8cf5ad5e79d975526cdb859cafef038f882bfc4764818b90"}, "docker": "quay.io/biocontainers/pb-dazzler", "aliases": {"Catrack": "/usr/local/bin/Catrack", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DB2Falcon": "/usr/local/bin/DB2Falcon", "DB2fasta": "/usr/local/bin/DB2fasta", "DBdump": "/usr/local/bin/DBdump", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm", "DBshow": "/usr/local/bin/DBshow", "DBsplit": "/usr/local/bin/DBsplit", "DBstats": "/usr/local/bin/DBstats", "HPC.REPmask": "/usr/local/bin/HPC.REPmask", "HPC.TANmask": "/usr/local/bin/HPC.TANmask", "HPC.daligner": "/usr/local/bin/HPC.daligner", "LA4Falcon": "/usr/local/bin/LA4Falcon", "LA4Ice": "/usr/local/bin/LA4Ice", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "REPmask": "/usr/local/bin/REPmask", "TANmask": "/usr/local/bin/TANmask", "daligner": "/usr/local/bin/daligner", "daligner_p": "/usr/local/bin/daligner_p", "datander": "/usr/local/bin/datander", "dexta": "/usr/local/bin/dexta", "fasta2DAM": "/usr/local/bin/fasta2DAM", "fasta2DB": "/usr/local/bin/fasta2DB", "rangen": "/usr/local/bin/rangen", "simulator": "/usr/local/bin/simulator", "undexta": "/usr/local/bin/undexta"}}
+config: {"url": "https://biocontainers.pro/tools/pb-dazzler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-dazzler", "latest": {"0.0.1--h7b50bb2_5": "sha256:eb8b09d558e8841c418c8d47207dbdcc3c0d689ce0ec85ef629b8036c5caecd2"}, "tags": {"0.0.1--hec16e2b_2": "sha256:ae0bd4afb8926f1b44a96332bc915446a992736c699538efe31b731a0d96c370", "0.0.1--h031d066_4": "sha256:31f9a71563a9da2a8cf5ad5e79d975526cdb859cafef038f882bfc4764818b90", "0.0.1--h7b50bb2_5": "sha256:eb8b09d558e8841c418c8d47207dbdcc3c0d689ce0ec85ef629b8036c5caecd2"}, "docker": "quay.io/biocontainers/pb-dazzler", "aliases": {"Catrack": "/usr/local/bin/Catrack", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DB2Falcon": "/usr/local/bin/DB2Falcon", "DB2fasta": "/usr/local/bin/DB2fasta", "DBdump": "/usr/local/bin/DBdump", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm", "DBshow": "/usr/local/bin/DBshow", "DBsplit": "/usr/local/bin/DBsplit", "DBstats": "/usr/local/bin/DBstats", "HPC.REPmask": "/usr/local/bin/HPC.REPmask", "HPC.TANmask": "/usr/local/bin/HPC.TANmask", "HPC.daligner": "/usr/local/bin/HPC.daligner", "LA4Falcon": "/usr/local/bin/LA4Falcon", "LA4Ice": "/usr/local/bin/LA4Ice", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "REPmask": "/usr/local/bin/REPmask", "TANmask": "/usr/local/bin/TANmask", "daligner": "/usr/local/bin/daligner", "daligner_p": "/usr/local/bin/daligner_p", "datander": "/usr/local/bin/datander", "dexta": "/usr/local/bin/dexta", "fasta2DAM": "/usr/local/bin/fasta2DAM", "fasta2DB": "/usr/local/bin/fasta2DB", "rangen": "/usr/local/bin/rangen", "simulator": "/usr/local/bin/simulator", "undexta": "/usr/local/bin/undexta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pb-dazzler.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/pb-dazzler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pb-dazzler:0.0.1--h031d066_4
+$ shpc install quay.io/biocontainers/pb-dazzler:0.0.1--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pb-dazzler/0.0.1--h031d066_4
-$ module help quay.io/biocontainers/pb-dazzler/0.0.1--h031d066_4
+$ module load quay.io/biocontainers/pb-dazzler/0.0.1--h7b50bb2_5
+$ module help quay.io/biocontainers/pb-dazzler/0.0.1--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

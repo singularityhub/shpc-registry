@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-minems2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-minems2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-minems2/container.yaml"
-updated_at: "2024-12-23 03:29:57.634938"
+updated_at: "2024-12-24 03:24:58.836558"
 latest: "0.9.3--r43h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/r-minems2"
 aliases:

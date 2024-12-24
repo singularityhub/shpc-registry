@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clusty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clusty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clusty/container.yaml"
-updated_at: "2024-12-23 03:18:26.564008"
+updated_at: "2024-12-24 03:14:22.846764"
 latest: "1.1.5--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/clusty"
 aliases:

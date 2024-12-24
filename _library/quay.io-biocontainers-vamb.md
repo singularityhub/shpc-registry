@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vamb/container.yaml"
-updated_at: "2024-12-23 03:42:02.246182"
+updated_at: "2024-12-24 03:36:22.257355"
 latest: "3.0.2--py37h8902056_2"
 container_url: "https://biocontainers.pro/tools/vamb"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcellminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
-updated_at: "2024-12-23 03:43:42.145141"
-latest: "2.24.0--r43hdfd78af_0"
+updated_at: "2024-12-24 03:37:59.988096"
+latest: "2.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcellminer"
 aliases:
  - "extcheck"
@@ -27,8 +27,9 @@ versions:
  - "2.11.1--r40_0"
  - "2.22.0--r43hdfd78af_0"
  - "2.24.0--r43hdfd78af_0"
+ - "2.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcellminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminer", "latest": {"2.24.0--r43hdfd78af_0": "sha256:b8e23eb6d6ca147ef0d335131b86e221b095f4dd7f302aa5b1dc18bd5ef7c58f"}, "tags": {"2.8.0--r36_1": "sha256:5547ef3c55f0dc521a8b1341793f31c4e15ff3549748e58cccb5bd0fb00641ff", "2.20.0--r42hdfd78af_0": "sha256:bc265f7c224bde31f4571ef5c9c542d965a80c1a66d5c12d6951b6db7172bb51", "2.16.0--r41hdfd78af_0": "sha256:d3e18b923db23a9b6afe2203520b4ec476ca79997eed92de2360ae9bf9a7d1c1", "2.14.0--r41hdfd78af_0": "sha256:f42c29c2bfb015b883d7319b84fd69a8152481c2c2df761643f31e19d3848a9d", "2.12.1--r40hdfd78af_0": "sha256:972127e1428c9dddd8daf76847131a880a2c90ad50a674becf329407e1433e2e", "2.11.1--r40_0": "sha256:8bac4aadf600be3eff84f86bec00a3e93848029d9b7e126818088d9857397587", "2.22.0--r43hdfd78af_0": "sha256:40d0e8b037bee66ec887f318c8cd57d6471670df836fb6e4c66794a6895b577c", "2.24.0--r43hdfd78af_0": "sha256:b8e23eb6d6ca147ef0d335131b86e221b095f4dd7f302aa5b1dc18bd5ef7c58f"}, "docker": "quay.io/biocontainers/bioconductor-rcellminer", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminer", "latest": {"2.28.0--r44hdfd78af_0": "sha256:432ef91e20265244e8b2a5e62e21b7253a33dd0d68c76e572da73edd5dd5b366"}, "tags": {"2.8.0--r36_1": "sha256:5547ef3c55f0dc521a8b1341793f31c4e15ff3549748e58cccb5bd0fb00641ff", "2.20.0--r42hdfd78af_0": "sha256:bc265f7c224bde31f4571ef5c9c542d965a80c1a66d5c12d6951b6db7172bb51", "2.16.0--r41hdfd78af_0": "sha256:d3e18b923db23a9b6afe2203520b4ec476ca79997eed92de2360ae9bf9a7d1c1", "2.14.0--r41hdfd78af_0": "sha256:f42c29c2bfb015b883d7319b84fd69a8152481c2c2df761643f31e19d3848a9d", "2.12.1--r40hdfd78af_0": "sha256:972127e1428c9dddd8daf76847131a880a2c90ad50a674becf329407e1433e2e", "2.11.1--r40_0": "sha256:8bac4aadf600be3eff84f86bec00a3e93848029d9b7e126818088d9857397587", "2.22.0--r43hdfd78af_0": "sha256:40d0e8b037bee66ec887f318c8cd57d6471670df836fb6e4c66794a6895b577c", "2.24.0--r43hdfd78af_0": "sha256:b8e23eb6d6ca147ef0d335131b86e221b095f4dd7f302aa5b1dc18bd5ef7c58f", "2.28.0--r44hdfd78af_0": "sha256:432ef91e20265244e8b2a5e62e21b7253a33dd0d68c76e572da73edd5dd5b366"}, "docker": "quay.io/biocontainers/bioconductor-rcellminer", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcellminer.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcellminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcellminer:2.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcellminer:2.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcellminer/2.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcellminer/2.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcellminer/2.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcellminer/2.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

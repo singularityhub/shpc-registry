@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minvar/container.yaml"
-updated_at: "2024-12-23 03:24:57.782778"
+updated_at: "2024-12-24 03:20:22.897603"
 latest: "2.2.2--py_1"
 container_url: "https://biocontainers.pro/tools/minvar"
 aliases:

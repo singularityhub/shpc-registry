@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamutil/container.yaml"
-updated_at: "2024-12-23 03:30:56.367369"
-latest: "1.0.15--h43eeafb_5"
+updated_at: "2024-12-24 03:25:53.628473"
+latest: "1.0.15--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/bamutil"
 aliases:
  - "bam"
@@ -13,8 +13,9 @@ versions:
  - "1.0.15--h5b5514e_2"
  - "1.0.15--h43eeafb_4"
  - "1.0.15--h43eeafb_5"
+ - "1.0.15--h5ca1c30_6"
 description: "shpc-registry automated BioContainers addition for bamutil"
-config: {"url": "https://biocontainers.pro/tools/bamutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamutil", "latest": {"1.0.15--h43eeafb_5": "sha256:8ad26abab598d0823e478bc21fba2f3438484f968782a6c54132989654a85ec4"}, "tags": {"1.0.15--h5b5514e_2": "sha256:5a41de1d668490033b07716ddb6bab9ec52656587985ca2f42df9c206f552d0c", "1.0.15--h43eeafb_4": "sha256:1656a1b8d4a1d43dc815c4c2fac94137bfbaec850819c0992bb2f91360c622e9", "1.0.15--h43eeafb_5": "sha256:8ad26abab598d0823e478bc21fba2f3438484f968782a6c54132989654a85ec4"}, "docker": "quay.io/biocontainers/bamutil", "aliases": {"bam": "/usr/local/bin/bam"}}
+config: {"url": "https://biocontainers.pro/tools/bamutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamutil", "latest": {"1.0.15--h5ca1c30_6": "sha256:a530d1b7769cf5e9d7cc0f4414f010caed7c1ab865469bc30db11163a9090de0"}, "tags": {"1.0.15--h5b5514e_2": "sha256:5a41de1d668490033b07716ddb6bab9ec52656587985ca2f42df9c206f552d0c", "1.0.15--h43eeafb_4": "sha256:1656a1b8d4a1d43dc815c4c2fac94137bfbaec850819c0992bb2f91360c622e9", "1.0.15--h43eeafb_5": "sha256:8ad26abab598d0823e478bc21fba2f3438484f968782a6c54132989654a85ec4", "1.0.15--h5ca1c30_6": "sha256:a530d1b7769cf5e9d7cc0f4414f010caed7c1ab865469bc30db11163a9090de0"}, "docker": "quay.io/biocontainers/bamutil", "aliases": {"bam": "/usr/local/bin/bam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamutil.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bamutil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamutil:1.0.15--h43eeafb_5
+$ shpc install quay.io/biocontainers/bamutil:1.0.15--h5ca1c30_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamutil/1.0.15--h43eeafb_5
-$ module help quay.io/biocontainers/bamutil/1.0.15--h43eeafb_5
+$ module load quay.io/biocontainers/bamutil/1.0.15--h5ca1c30_6
+$ module help quay.io/biocontainers/bamutil/1.0.15--h5ca1c30_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

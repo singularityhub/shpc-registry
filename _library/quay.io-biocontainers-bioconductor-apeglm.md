@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-apeglm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apeglm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apeglm/container.yaml"
-updated_at: "2024-12-23 03:40:22.395650"
-latest: "1.24.0--r43hf17093f_1"
+updated_at: "2024-12-24 03:34:46.114559"
+latest: "1.28.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-apeglm"
 aliases:
  - "gio-launch-desktop"
@@ -22,8 +22,9 @@ versions:
  - "1.22.1--r43hf17093f_0"
  - "1.24.0--r43hf17093f_0"
  - "1.24.0--r43hf17093f_1"
+ - "1.28.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-apeglm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-apeglm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apeglm", "latest": {"1.24.0--r43hf17093f_1": "sha256:02dfd9ee511c70a4db5f4e0553bbf0309a832c74e5be707f748bbbe75f9bf611"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:a456ba3aaeca914384d1434113b183100f81f8e6f0b23b57733c09fedbdf18fc", "1.20.0--r42hc247a5b_0": "sha256:e64fde9ccf4db404b61b98db2ff6544fc345fc23970e75ce3809a78b6992f8f4", "1.16.0--r41hc247a5b_2": "sha256:928feb1d766aa96ab8fb56e7c23d2acde94a36ac1de834dc03cf0494aa8e9b59", "1.14.0--r41h399db7b_0": "sha256:a212ad3664cd6925c4124126cb07aa115f9a2c26f02d495ab814916da4ca4438", "1.12.0--r40h399db7b_1": "sha256:bdb87b987dbd2e8d28e0695d296c99152a1b81d5ead4af4c14c397c64bc27343", "1.10.0--r40h5f743cb_0": "sha256:d1e1d9b68910907967e3b0a9480560f60c1e25752363e6997178c261d5b2c493", "1.20.0--r42hf17093f_1": "sha256:eca8f5762bdbd0a2be8f2cf608e5f2dbe098fdf9a3b20db183733fc3ad50c52a", "1.22.1--r43hf17093f_0": "sha256:d896d3dad053d87eb11f58efc2bd9d79f89af148e43d5fc7db50711b4982a59c", "1.24.0--r43hf17093f_0": "sha256:b15689171879341c54568116e90a3717bd440aa85dea3c1618c62efb9beca1cb", "1.24.0--r43hf17093f_1": "sha256:02dfd9ee511c70a4db5f4e0553bbf0309a832c74e5be707f748bbbe75f9bf611"}, "docker": "quay.io/biocontainers/bioconductor-apeglm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-apeglm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apeglm", "latest": {"1.28.0--r44he5774e6_0": "sha256:5fb87382f3d02978d2c03849c4f8ccc201ca50313b16876c6c1fd29219ecce59"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:a456ba3aaeca914384d1434113b183100f81f8e6f0b23b57733c09fedbdf18fc", "1.20.0--r42hc247a5b_0": "sha256:e64fde9ccf4db404b61b98db2ff6544fc345fc23970e75ce3809a78b6992f8f4", "1.16.0--r41hc247a5b_2": "sha256:928feb1d766aa96ab8fb56e7c23d2acde94a36ac1de834dc03cf0494aa8e9b59", "1.14.0--r41h399db7b_0": "sha256:a212ad3664cd6925c4124126cb07aa115f9a2c26f02d495ab814916da4ca4438", "1.12.0--r40h399db7b_1": "sha256:bdb87b987dbd2e8d28e0695d296c99152a1b81d5ead4af4c14c397c64bc27343", "1.10.0--r40h5f743cb_0": "sha256:d1e1d9b68910907967e3b0a9480560f60c1e25752363e6997178c261d5b2c493", "1.20.0--r42hf17093f_1": "sha256:eca8f5762bdbd0a2be8f2cf608e5f2dbe098fdf9a3b20db183733fc3ad50c52a", "1.22.1--r43hf17093f_0": "sha256:d896d3dad053d87eb11f58efc2bd9d79f89af148e43d5fc7db50711b4982a59c", "1.24.0--r43hf17093f_0": "sha256:b15689171879341c54568116e90a3717bd440aa85dea3c1618c62efb9beca1cb", "1.24.0--r43hf17093f_1": "sha256:02dfd9ee511c70a4db5f4e0553bbf0309a832c74e5be707f748bbbe75f9bf611", "1.28.0--r44he5774e6_0": "sha256:5fb87382f3d02978d2c03849c4f8ccc201ca50313b16876c6c1fd29219ecce59"}, "docker": "quay.io/biocontainers/bioconductor-apeglm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-apeglm.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-apeglm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-apeglm:1.24.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-apeglm:1.28.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-apeglm/1.24.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-apeglm/1.24.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-apeglm/1.28.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-apeglm/1.28.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

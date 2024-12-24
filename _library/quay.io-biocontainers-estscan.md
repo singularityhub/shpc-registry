@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/estscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/estscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/estscan/container.yaml"
-updated_at: "2024-12-23 03:42:38.628128"
-latest: "3.0--h031d066_7"
+updated_at: "2024-12-24 03:36:57.519158"
+latest: "3.0--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/estscan"
 aliases:
  - "estscan"
 versions:
  - "3.0--hec16e2b_5"
  - "3.0--h031d066_7"
+ - "3.0--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for estscan"
-config: {"url": "https://biocontainers.pro/tools/estscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for estscan", "latest": {"3.0--h031d066_7": "sha256:0fcc71bbb0929968554b5e7c24d0950f46f79cdf8b1ac3e65515964c9d52d5f9"}, "tags": {"3.0--hec16e2b_5": "sha256:e1cae8e2e2a630e0874baf23b795a4474cc63a04f2839534d36c5c4b8f839892", "3.0--h031d066_7": "sha256:0fcc71bbb0929968554b5e7c24d0950f46f79cdf8b1ac3e65515964c9d52d5f9"}, "docker": "quay.io/biocontainers/estscan", "aliases": {"estscan": "/usr/local/bin/estscan"}}
+config: {"url": "https://biocontainers.pro/tools/estscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for estscan", "latest": {"3.0--h7b50bb2_8": "sha256:ce939b409d92d52e0aa5caad509b51c378e9a060b8aa2b889a4e0f5b533b879d"}, "tags": {"3.0--hec16e2b_5": "sha256:e1cae8e2e2a630e0874baf23b795a4474cc63a04f2839534d36c5c4b8f839892", "3.0--h031d066_7": "sha256:0fcc71bbb0929968554b5e7c24d0950f46f79cdf8b1ac3e65515964c9d52d5f9", "3.0--h7b50bb2_8": "sha256:ce939b409d92d52e0aa5caad509b51c378e9a060b8aa2b889a4e0f5b533b879d"}, "docker": "quay.io/biocontainers/estscan", "aliases": {"estscan": "/usr/local/bin/estscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/estscan.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/estscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/estscan:3.0--h031d066_7
+$ shpc install quay.io/biocontainers/estscan:3.0--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/estscan/3.0--h031d066_7
-$ module help quay.io/biocontainers/estscan/3.0--h031d066_7
+$ module load quay.io/biocontainers/estscan/3.0--h7b50bb2_8
+$ module help quay.io/biocontainers/estscan/3.0--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

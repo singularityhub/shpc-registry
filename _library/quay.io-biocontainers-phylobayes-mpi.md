@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylobayes-mpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylobayes-mpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylobayes-mpi/container.yaml"
-updated_at: "2024-12-23 03:05:23.333664"
+updated_at: "2024-12-24 03:02:15.360666"
 latest: "1.9--h103dbdd_2"
 container_url: "https://biocontainers.pro/tools/phylobayes-mpi"
 aliases:

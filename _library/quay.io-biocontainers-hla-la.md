@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hla-la"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hla-la/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hla-la/container.yaml"
-updated_at: "2024-12-23 03:32:14.336383"
-latest: "1.0.4--hdcf5f25_0"
+updated_at: "2024-12-24 03:27:06.990964"
+latest: "1.0.4--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/hla-la"
 aliases:
  - "HLA-ASM.pl"
@@ -25,8 +25,9 @@ versions:
  - "1.0.3--hd03093a_1"
  - "1.0.3--hdcf5f25_2"
  - "1.0.4--hdcf5f25_0"
+ - "1.0.4--h077b44d_1"
 description: "shpc-registry automated BioContainers addition for hla-la"
-config: {"url": "https://biocontainers.pro/tools/hla-la", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hla-la", "latest": {"1.0.4--hdcf5f25_0": "sha256:8ac3e89bd8e75eb40be1ac4491a378c1cbd2a36b036377e5414114603caa9779"}, "tags": {"1.0.3--hd03093a_0": "sha256:15fd1f4c6d3dead02f82660a684c1186d9b96b37d3e9f8102ce82614fc059716", "1.0.3--hd03093a_1": "sha256:d2586b8356473aa8cb83a76fa675b18b0a9e6f4033f0a8b40bfe557e2df9c988", "1.0.3--hdcf5f25_2": "sha256:219f5af455458a51d4d3562253fe61eee8f6f28419029828ebe715b69241f8a0", "1.0.4--hdcf5f25_0": "sha256:8ac3e89bd8e75eb40be1ac4491a378c1cbd2a36b036377e5414114603caa9779"}, "docker": "quay.io/biocontainers/hla-la", "aliases": {"HLA-ASM.pl": "/usr/local/bin/HLA-ASM.pl", "HLA-LA.pl": "/usr/local/bin/HLA-LA.pl", "picard": "/usr/local/bin/picard", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
+config: {"url": "https://biocontainers.pro/tools/hla-la", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hla-la", "latest": {"1.0.4--h077b44d_1": "sha256:467fa7aa0f61f9ecde23b1e6ebe25705a7093243c5bfa86a9abab9ae6d7041fe"}, "tags": {"1.0.3--hd03093a_0": "sha256:15fd1f4c6d3dead02f82660a684c1186d9b96b37d3e9f8102ce82614fc059716", "1.0.3--hd03093a_1": "sha256:d2586b8356473aa8cb83a76fa675b18b0a9e6f4033f0a8b40bfe557e2df9c988", "1.0.3--hdcf5f25_2": "sha256:219f5af455458a51d4d3562253fe61eee8f6f28419029828ebe715b69241f8a0", "1.0.4--hdcf5f25_0": "sha256:8ac3e89bd8e75eb40be1ac4491a378c1cbd2a36b036377e5414114603caa9779", "1.0.4--h077b44d_1": "sha256:467fa7aa0f61f9ecde23b1e6ebe25705a7093243c5bfa86a9abab9ae6d7041fe"}, "docker": "quay.io/biocontainers/hla-la", "aliases": {"HLA-ASM.pl": "/usr/local/bin/HLA-ASM.pl", "HLA-LA.pl": "/usr/local/bin/HLA-LA.pl", "picard": "/usr/local/bin/picard", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hla-la.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/hla-la
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hla-la:1.0.4--hdcf5f25_0
+$ shpc install quay.io/biocontainers/hla-la:1.0.4--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hla-la/1.0.4--hdcf5f25_0
-$ module help quay.io/biocontainers/hla-la/1.0.4--hdcf5f25_0
+$ module load quay.io/biocontainers/hla-la/1.0.4--h077b44d_1
+$ module help quay.io/biocontainers/hla-la/1.0.4--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

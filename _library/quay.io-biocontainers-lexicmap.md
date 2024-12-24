@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/lexicmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lexicmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lexicmap/container.yaml"
-updated_at: "2024-12-23 03:21:11.258374"
-latest: "0.4.0--h9ee0642_0"
+updated_at: "2024-12-24 03:16:57.370060"
+latest: "0.5.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lexicmap"
 aliases:
  - "lexicmap"
 versions:
  - "0.4.0--h9ee0642_0"
+ - "0.5.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for lexicmap"
-config: {"url": "https://biocontainers.pro/tools/lexicmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lexicmap", "latest": {"0.4.0--h9ee0642_0": "sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97"}, "tags": {"0.4.0--h9ee0642_0": "sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97"}, "docker": "quay.io/biocontainers/lexicmap", "aliases": {"lexicmap": "/usr/local/bin/lexicmap"}}
+config: {"url": "https://biocontainers.pro/tools/lexicmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lexicmap", "latest": {"0.5.0--h9ee0642_0": "sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58"}, "tags": {"0.4.0--h9ee0642_0": "sha256:346ea5daff68dc6c84d878d9cb3cbbb51f5f9a6b047ab1c3250c8052ae44ea97", "0.5.0--h9ee0642_0": "sha256:f7a0a4113745f6a88734558962caf7b61b8608c3ff2e5d85ea73da4381419e58"}, "docker": "quay.io/biocontainers/lexicmap", "aliases": {"lexicmap": "/usr/local/bin/lexicmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lexicmap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/lexicmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lexicmap:0.4.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/lexicmap:0.5.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lexicmap/0.4.0--h9ee0642_0
-$ module help quay.io/biocontainers/lexicmap/0.4.0--h9ee0642_0
+$ module load quay.io/biocontainers/lexicmap/0.5.0--h9ee0642_0
+$ module help quay.io/biocontainers/lexicmap/0.5.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prince"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prince/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prince/container.yaml"
-updated_at: "2024-12-23 03:22:25.432870"
+updated_at: "2024-12-24 03:18:06.288221"
 latest: "2.3--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/prince"
 aliases:

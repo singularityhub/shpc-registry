@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/me-pcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/me-pcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/me-pcr/container.yaml"
-updated_at: "2024-12-23 02:56:49.121396"
-latest: "1.0.6--hdbdd923_0"
+updated_at: "2024-12-24 02:54:26.076590"
+latest: "1.0.6--h503566f_1"
 container_url: "https://biocontainers.pro/tools/me-pcr"
 aliases:
  - "me-PCR"
 versions:
  - "1.0.6--hdbdd923_0"
+ - "1.0.6--h503566f_1"
 description: "singularity registry hpc automated addition for me-pcr"
-config: {"url": "https://biocontainers.pro/tools/me-pcr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for me-pcr", "latest": {"1.0.6--hdbdd923_0": "sha256:3cbe34452e9dd295d9770334d2be894b191d46f456a3d6d36da18fc8105f5cb5"}, "tags": {"1.0.6--hdbdd923_0": "sha256:3cbe34452e9dd295d9770334d2be894b191d46f456a3d6d36da18fc8105f5cb5"}, "docker": "quay.io/biocontainers/me-pcr", "aliases": {"me-PCR": "/usr/local/bin/me-PCR"}}
+config: {"url": "https://biocontainers.pro/tools/me-pcr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for me-pcr", "latest": {"1.0.6--h503566f_1": "sha256:3d0084bbab229a9a9bf97a4c881b83c8d1bad73430e9779ccf36a321a50dc652"}, "tags": {"1.0.6--hdbdd923_0": "sha256:3cbe34452e9dd295d9770334d2be894b191d46f456a3d6d36da18fc8105f5cb5", "1.0.6--h503566f_1": "sha256:3d0084bbab229a9a9bf97a4c881b83c8d1bad73430e9779ccf36a321a50dc652"}, "docker": "quay.io/biocontainers/me-pcr", "aliases": {"me-PCR": "/usr/local/bin/me-PCR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/me-pcr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/me-pcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/me-pcr:1.0.6--hdbdd923_0
+$ shpc install quay.io/biocontainers/me-pcr:1.0.6--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/me-pcr/1.0.6--hdbdd923_0
-$ module help quay.io/biocontainers/me-pcr/1.0.6--hdbdd923_0
+$ module load quay.io/biocontainers/me-pcr/1.0.6--h503566f_1
+$ module help quay.io/biocontainers/me-pcr/1.0.6--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

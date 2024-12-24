@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
-updated_at: "2024-12-23 03:32:49.230789"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-12-24 03:27:40.079274"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stexampledata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -23,8 +23,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stexampledata", "latest": {"1.10.0--r43hdfd78af_0": "sha256:fd9c529d502e4aedc55d03271a282c913d1d0d1dd14b7d9afecae5869d3e60c2"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb", "1.6.0--r42hdfd78af_0": "sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7", "1.8.0--r43hdfd78af_0": "sha256:fc4a5b44013b4bc05a69a1576e5bf9bfe3deccd6ae855b76de14ae393d2f89c6", "1.10.0--r43hdfd78af_0": "sha256:fd9c529d502e4aedc55d03271a282c913d1d0d1dd14b7d9afecae5869d3e60c2"}, "docker": "quay.io/biocontainers/bioconductor-stexampledata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stexampledata", "latest": {"1.14.0--r44hdfd78af_0": "sha256:6c0b7bcb924fb40f6747d5e9e91d984b23e2671e7443c5f7b3719f01a59977c5"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb", "1.6.0--r42hdfd78af_0": "sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7", "1.8.0--r43hdfd78af_0": "sha256:fc4a5b44013b4bc05a69a1576e5bf9bfe3deccd6ae855b76de14ae393d2f89c6", "1.10.0--r43hdfd78af_0": "sha256:fd9c529d502e4aedc55d03271a282c913d1d0d1dd14b7d9afecae5869d3e60c2", "1.14.0--r44hdfd78af_0": "sha256:6c0b7bcb924fb40f6747d5e9e91d984b23e2671e7443c5f7b3719f01a59977c5"}, "docker": "quay.io/biocontainers/bioconductor-stexampledata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stexampledata.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stexampledata:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stexampledata:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stexampledata/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stexampledata/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stexampledata/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stexampledata/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

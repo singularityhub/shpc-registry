@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-brain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brain/container.yaml"
-updated_at: "2024-12-23 02:54:37.291323"
-latest: "1.48.0--r43hdfd78af_0"
+updated_at: "2024-12-24 02:52:25.639105"
+latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brain"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
+ - "1.52.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-brain"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brain", "latest": {"1.48.0--r43hdfd78af_0": "sha256:20ab7c37cd6cacc7aabdcc11a63f4b3a1101ec0b491f2fdcb6ba67dfddb895a8"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:0f385a0efb7516c3352c6a61bb7f5d502603aebc7474291cc2d6df644e4e2363", "1.44.0--r42hdfd78af_0": "sha256:3449f851e0010ddc5a03126c3291ab28693cf562013fa31bbb1bc46070e93115", "1.46.0--r43hdfd78af_0": "sha256:ae0ce38fa1f01dc84ec9f79a1391de335f9e813b84333959104195ea192e7058", "1.48.0--r43hdfd78af_0": "sha256:20ab7c37cd6cacc7aabdcc11a63f4b3a1101ec0b491f2fdcb6ba67dfddb895a8"}, "docker": "quay.io/biocontainers/bioconductor-brain"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brain", "latest": {"1.52.0--r44hdfd78af_0": "sha256:2ed305fc4849ce42bebe9dc735dac9a1ec3984a6a1f380a62f46f88a861d082f"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:0f385a0efb7516c3352c6a61bb7f5d502603aebc7474291cc2d6df644e4e2363", "1.44.0--r42hdfd78af_0": "sha256:3449f851e0010ddc5a03126c3291ab28693cf562013fa31bbb1bc46070e93115", "1.46.0--r43hdfd78af_0": "sha256:ae0ce38fa1f01dc84ec9f79a1391de335f9e813b84333959104195ea192e7058", "1.48.0--r43hdfd78af_0": "sha256:20ab7c37cd6cacc7aabdcc11a63f4b3a1101ec0b491f2fdcb6ba67dfddb895a8", "1.52.0--r44hdfd78af_0": "sha256:2ed305fc4849ce42bebe9dc735dac9a1ec3984a6a1f380a62f46f88a861d082f"}, "docker": "quay.io/biocontainers/bioconductor-brain"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brain.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-brain
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-brain:1.48.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-brain:1.52.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-brain/1.48.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-brain/1.48.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-brain/1.52.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-brain/1.52.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

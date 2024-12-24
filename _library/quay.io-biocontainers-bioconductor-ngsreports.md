@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ngsreports"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ngsreports/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ngsreports/container.yaml"
-updated_at: "2024-12-23 03:32:23.368342"
-latest: "2.4.0--r43hdfd78af_0"
+updated_at: "2024-12-24 03:27:15.608667"
+latest: "2.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ngsreports"
 aliases:
  - "pandoc"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "2.2.4--r43hdfd78af_0"
  - "2.4.0--r43hdfd78af_0"
+ - "2.8.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ngsreports"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ngsreports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngsreports", "latest": {"2.4.0--r43hdfd78af_0": "sha256:f82d7b5ed3d321e4306aca87a80cc15d077680a72dd5845e2b8c9aad580e458a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27", "2.0.0--r42hdfd78af_0": "sha256:9a8c4b120bff007beb5c060b9e3091db19689643953832b06776670cb36b880a", "1.10.0--r41hdfd78af_0": "sha256:f0805db5366c69b5ab012cf76776732a8ac825048efeda8193c049595ad7f4b6", "2.2.4--r43hdfd78af_0": "sha256:67c7b65a91f1dfa4f50e105efef98d54628c17e671491c522773f6d3221ce7ff", "2.4.0--r43hdfd78af_0": "sha256:f82d7b5ed3d321e4306aca87a80cc15d077680a72dd5845e2b8c9aad580e458a"}, "docker": "quay.io/biocontainers/bioconductor-ngsreports", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ngsreports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngsreports", "latest": {"2.8.0--r44hdfd78af_0": "sha256:fbd290c3bc2a3eedd5a9039f66bbd1c227251c3434bb63785fbdbbd186cc6af1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27", "2.0.0--r42hdfd78af_0": "sha256:9a8c4b120bff007beb5c060b9e3091db19689643953832b06776670cb36b880a", "1.10.0--r41hdfd78af_0": "sha256:f0805db5366c69b5ab012cf76776732a8ac825048efeda8193c049595ad7f4b6", "2.2.4--r43hdfd78af_0": "sha256:67c7b65a91f1dfa4f50e105efef98d54628c17e671491c522773f6d3221ce7ff", "2.4.0--r43hdfd78af_0": "sha256:f82d7b5ed3d321e4306aca87a80cc15d077680a72dd5845e2b8c9aad580e458a", "2.8.0--r44hdfd78af_0": "sha256:fbd290c3bc2a3eedd5a9039f66bbd1c227251c3434bb63785fbdbbd186cc6af1"}, "docker": "quay.io/biocontainers/bioconductor-ngsreports", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ngsreports.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ngsreports
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ngsreports:2.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ngsreports:2.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ngsreports/2.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ngsreports/2.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ngsreports/2.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ngsreports/2.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

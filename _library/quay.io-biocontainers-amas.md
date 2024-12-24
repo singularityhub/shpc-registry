@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amas/container.yaml"
-updated_at: "2024-12-23 03:33:47.912721"
+updated_at: "2024-12-24 03:28:35.909543"
 latest: "1.0--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/amas"
 aliases:

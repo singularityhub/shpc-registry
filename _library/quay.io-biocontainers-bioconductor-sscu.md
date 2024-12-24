@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sscu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sscu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sscu/container.yaml"
-updated_at: "2024-12-23 03:00:40.202906"
-latest: "2.32.0--r43hdfd78af_0"
+updated_at: "2024-12-24 02:57:50.598968"
+latest: "2.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sscu"
 aliases:
  - "tclsh8.5"
@@ -21,8 +21,9 @@ versions:
  - "2.18.0--r40_0"
  - "2.30.0--r43hdfd78af_0"
  - "2.32.0--r43hdfd78af_0"
+ - "2.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sscu"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sscu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscu", "latest": {"2.32.0--r43hdfd78af_0": "sha256:44e34d8586de0b12053ebfdb60d58429c4fa15f97bf3cb40f6c2dbb8e9768ef0"}, "tags": {"2.8.0--r3.4.1_0": "sha256:f28a899ab069796988030ad4144a79308904a8d963a96c724cb5991bcb5cccb6", "2.28.0--r42hdfd78af_0": "sha256:48b7b9ffcc04cc05d6a6f11989026d02556c9abe631d3bb1b89d592776ec0521", "2.24.0--r41hdfd78af_0": "sha256:a3c4d93b45659c6ebfac3c7c6d70776a7215ea655ec31576a44cfcb7594c18bd", "2.22.0--r41hdfd78af_0": "sha256:ba7f364fe730aa7c9f5a3006b2ce40253755367e1c406f93d6d837ca68629150", "2.20.0--r40hdfd78af_1": "sha256:71eb1d02c19d3a64a28db6ef3c69c307b536753b7068f5617e64268a1de3a3a6", "2.18.0--r40_0": "sha256:9f3754efa7fe719c2f633e73173d78881a5f033b02d0cad7200032aeec5413c7", "2.30.0--r43hdfd78af_0": "sha256:7184b95729522f8badbe6601a1568f99f8f4f0d906eeced8a80c45eca8bba5bf", "2.32.0--r43hdfd78af_0": "sha256:44e34d8586de0b12053ebfdb60d58429c4fa15f97bf3cb40f6c2dbb8e9768ef0"}, "docker": "quay.io/biocontainers/bioconductor-sscu", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sscu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscu", "latest": {"2.36.0--r44hdfd78af_0": "sha256:00e10538a8e230e20041364120b0b00285abbab53dfae803048c4c0b6a658744"}, "tags": {"2.8.0--r3.4.1_0": "sha256:f28a899ab069796988030ad4144a79308904a8d963a96c724cb5991bcb5cccb6", "2.28.0--r42hdfd78af_0": "sha256:48b7b9ffcc04cc05d6a6f11989026d02556c9abe631d3bb1b89d592776ec0521", "2.24.0--r41hdfd78af_0": "sha256:a3c4d93b45659c6ebfac3c7c6d70776a7215ea655ec31576a44cfcb7594c18bd", "2.22.0--r41hdfd78af_0": "sha256:ba7f364fe730aa7c9f5a3006b2ce40253755367e1c406f93d6d837ca68629150", "2.20.0--r40hdfd78af_1": "sha256:71eb1d02c19d3a64a28db6ef3c69c307b536753b7068f5617e64268a1de3a3a6", "2.18.0--r40_0": "sha256:9f3754efa7fe719c2f633e73173d78881a5f033b02d0cad7200032aeec5413c7", "2.30.0--r43hdfd78af_0": "sha256:7184b95729522f8badbe6601a1568f99f8f4f0d906eeced8a80c45eca8bba5bf", "2.32.0--r43hdfd78af_0": "sha256:44e34d8586de0b12053ebfdb60d58429c4fa15f97bf3cb40f6c2dbb8e9768ef0", "2.36.0--r44hdfd78af_0": "sha256:00e10538a8e230e20041364120b0b00285abbab53dfae803048c4c0b6a658744"}, "docker": "quay.io/biocontainers/bioconductor-sscu", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sscu.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sscu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sscu:2.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sscu:2.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sscu/2.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sscu/2.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sscu/2.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sscu/2.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

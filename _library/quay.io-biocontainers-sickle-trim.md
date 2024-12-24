@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sickle-trim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sickle-trim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sickle-trim/container.yaml"
-updated_at: "2024-12-23 03:17:29.004076"
-latest: "1.33--he4a0461_10"
+updated_at: "2024-12-24 03:13:28.605378"
+latest: "1.33--h577a1d6_11"
 container_url: "https://biocontainers.pro/tools/sickle-trim"
 aliases:
  - "sickle"
@@ -13,8 +13,9 @@ versions:
  - "1.33--h7132678_7"
  - "1.33--he4a0461_9"
  - "1.33--he4a0461_10"
+ - "1.33--h577a1d6_11"
 description: "shpc-registry automated BioContainers addition for sickle-trim"
-config: {"url": "https://biocontainers.pro/tools/sickle-trim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sickle-trim", "latest": {"1.33--he4a0461_10": "sha256:6408258dff0e11f6e8240bbb23e8f931cb79978de86570d5feb671e33ffbb3aa"}, "tags": {"1.33--h7132678_7": "sha256:5488d89b91129983d095ad4392557abdbc25285fe9110426db2105960453a75d", "1.33--he4a0461_9": "sha256:39d01a4bec4635471349b90a7488193504df5942ce576e1b5b64f270183ca640", "1.33--he4a0461_10": "sha256:6408258dff0e11f6e8240bbb23e8f931cb79978de86570d5feb671e33ffbb3aa"}, "docker": "quay.io/biocontainers/sickle-trim", "aliases": {"sickle": "/usr/local/bin/sickle"}}
+config: {"url": "https://biocontainers.pro/tools/sickle-trim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sickle-trim", "latest": {"1.33--h577a1d6_11": "sha256:7b37614ea3ebc02e6f593965934d0ec3e9b23fb06ed121d362d022718034f13d"}, "tags": {"1.33--h7132678_7": "sha256:5488d89b91129983d095ad4392557abdbc25285fe9110426db2105960453a75d", "1.33--he4a0461_9": "sha256:39d01a4bec4635471349b90a7488193504df5942ce576e1b5b64f270183ca640", "1.33--he4a0461_10": "sha256:6408258dff0e11f6e8240bbb23e8f931cb79978de86570d5feb671e33ffbb3aa", "1.33--h577a1d6_11": "sha256:7b37614ea3ebc02e6f593965934d0ec3e9b23fb06ed121d362d022718034f13d"}, "docker": "quay.io/biocontainers/sickle-trim", "aliases": {"sickle": "/usr/local/bin/sickle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sickle-trim.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/sickle-trim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sickle-trim:1.33--he4a0461_10
+$ shpc install quay.io/biocontainers/sickle-trim:1.33--h577a1d6_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sickle-trim/1.33--he4a0461_10
-$ module help quay.io/biocontainers/sickle-trim/1.33--he4a0461_10
+$ module load quay.io/biocontainers/sickle-trim/1.33--h577a1d6_11
+$ module help quay.io/biocontainers/sickle-trim/1.33--h577a1d6_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

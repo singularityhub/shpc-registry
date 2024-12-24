@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lightstringgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightstringgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightstringgraph/container.yaml"
-updated_at: "2024-12-23 02:58:38.706192"
-latest: "0.4.0--h4ac6f70_6"
+updated_at: "2024-12-24 02:56:01.921143"
+latest: "0.4.0--h9948957_7"
 container_url: "https://biocontainers.pro/tools/lightstringgraph"
 aliases:
  - "graph2asqg"
@@ -22,8 +22,9 @@ versions:
  - "0.4.0--ha04c180_3"
  - "0.4.0--hfce7173_5"
  - "0.4.0--h4ac6f70_6"
+ - "0.4.0--h9948957_7"
 description: "shpc-registry automated BioContainers addition for lightstringgraph"
-config: {"url": "https://biocontainers.pro/tools/lightstringgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightstringgraph", "latest": {"0.4.0--h4ac6f70_6": "sha256:e53f87e793050ec06e7cc992f0bd975784f6cd8a20ee63a6f724dc970e73420e"}, "tags": {"0.4.0--ha04c180_3": "sha256:9ebb171ec036d2921aaa7059e4eb74356472eb5d32fdb9571e142626716a8e9a", "0.4.0--hfce7173_5": "sha256:8e72b6b91597b324b471a79c8cb05f45d89a64695ef50ba0a2d4e0449dc8bb68", "0.4.0--h4ac6f70_6": "sha256:e53f87e793050ec06e7cc992f0bd975784f6cd8a20ee63a6f724dc970e73420e"}, "docker": "quay.io/biocontainers/lightstringgraph", "aliases": {"graph2asqg": "/usr/local/bin/graph2asqg", "lsg": "/usr/local/bin/lsg", "redbuild": "/usr/local/bin/redbuild", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/lightstringgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightstringgraph", "latest": {"0.4.0--h9948957_7": "sha256:460c3961c8138d875e79762a5eaab87015a790117add94fffe72d5a65aef9ccc"}, "tags": {"0.4.0--ha04c180_3": "sha256:9ebb171ec036d2921aaa7059e4eb74356472eb5d32fdb9571e142626716a8e9a", "0.4.0--hfce7173_5": "sha256:8e72b6b91597b324b471a79c8cb05f45d89a64695ef50ba0a2d4e0449dc8bb68", "0.4.0--h4ac6f70_6": "sha256:e53f87e793050ec06e7cc992f0bd975784f6cd8a20ee63a6f724dc970e73420e", "0.4.0--h9948957_7": "sha256:460c3961c8138d875e79762a5eaab87015a790117add94fffe72d5a65aef9ccc"}, "docker": "quay.io/biocontainers/lightstringgraph", "aliases": {"graph2asqg": "/usr/local/bin/graph2asqg", "lsg": "/usr/local/bin/lsg", "redbuild": "/usr/local/bin/redbuild", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lightstringgraph.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/lightstringgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lightstringgraph:0.4.0--h4ac6f70_6
+$ shpc install quay.io/biocontainers/lightstringgraph:0.4.0--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lightstringgraph/0.4.0--h4ac6f70_6
-$ module help quay.io/biocontainers/lightstringgraph/0.4.0--h4ac6f70_6
+$ module load quay.io/biocontainers/lightstringgraph/0.4.0--h9948957_7
+$ module help quay.io/biocontainers/lightstringgraph/0.4.0--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

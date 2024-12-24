@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genotypeeval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genotypeeval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genotypeeval/container.yaml"
-updated_at: "2024-12-23 03:23:41.250278"
+updated_at: "2024-12-24 03:19:14.307213"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genotypeeval"
 

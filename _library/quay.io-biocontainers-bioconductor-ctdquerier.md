@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ctdquerier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctdquerier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctdquerier/container.yaml"
-updated_at: "2024-12-23 03:18:54.409889"
+updated_at: "2024-12-24 03:14:49.001930"
 latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctdquerier"
 

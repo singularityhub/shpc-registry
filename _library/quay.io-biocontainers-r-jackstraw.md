@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-jackstraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-jackstraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-jackstraw/container.yaml"
-updated_at: "2024-12-23 03:00:36.698665"
-latest: "1.3.9--r43h3342da4_0"
+updated_at: "2024-12-24 02:57:47.277367"
+latest: "1.3.9--r44h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-jackstraw"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.3.8--r42h3342da4_0"
  - "1.3.8--r43h3342da4_1"
  - "1.3.9--r43h3342da4_0"
+ - "1.3.9--r44h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-jackstraw"
-config: {"url": "https://biocontainers.pro/tools/r-jackstraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-jackstraw", "latest": {"1.3.9--r43h3342da4_0": "sha256:3cb4a450786b73f3eb77208f1894a5d8a1a867065b77987da6f2857651aa50c7"}, "tags": {"1.3--r41h3342da4_6": "sha256:aa8bd336170013f82c5d94fe243272b85cc5ba8ddaee7200fa6deaa6f9cd2a54", "1.3.8--r42h3342da4_0": "sha256:8a395e7a2d4be58a5450ff0033e94de1016770d244dff22b99e3cdfae8cc4ee7", "1.3.8--r43h3342da4_1": "sha256:c0e4e52b7b93faed9c2c7e7c07a55b5de2b98b8f93645df1ee3108d5fc1a6493", "1.3.9--r43h3342da4_0": "sha256:3cb4a450786b73f3eb77208f1894a5d8a1a867065b77987da6f2857651aa50c7"}, "docker": "quay.io/biocontainers/r-jackstraw", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-jackstraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-jackstraw", "latest": {"1.3.9--r44h3342da4_1": "sha256:d28aa6b4cab9a8a296963cd300e29dcd5ee15fb3869cd6683ba3c9342209d982"}, "tags": {"1.3--r41h3342da4_6": "sha256:aa8bd336170013f82c5d94fe243272b85cc5ba8ddaee7200fa6deaa6f9cd2a54", "1.3.8--r42h3342da4_0": "sha256:8a395e7a2d4be58a5450ff0033e94de1016770d244dff22b99e3cdfae8cc4ee7", "1.3.8--r43h3342da4_1": "sha256:c0e4e52b7b93faed9c2c7e7c07a55b5de2b98b8f93645df1ee3108d5fc1a6493", "1.3.9--r43h3342da4_0": "sha256:3cb4a450786b73f3eb77208f1894a5d8a1a867065b77987da6f2857651aa50c7", "1.3.9--r44h3342da4_1": "sha256:d28aa6b4cab9a8a296963cd300e29dcd5ee15fb3869cd6683ba3c9342209d982"}, "docker": "quay.io/biocontainers/r-jackstraw", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-jackstraw.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-jackstraw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-jackstraw:1.3.9--r43h3342da4_0
+$ shpc install quay.io/biocontainers/r-jackstraw:1.3.9--r44h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-jackstraw/1.3.9--r43h3342da4_0
-$ module help quay.io/biocontainers/r-jackstraw/1.3.9--r43h3342da4_0
+$ module load quay.io/biocontainers/r-jackstraw/1.3.9--r44h3342da4_1
+$ module help quay.io/biocontainers/r-jackstraw/1.3.9--r44h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

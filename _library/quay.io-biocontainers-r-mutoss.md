@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-mutoss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mutoss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mutoss/container.yaml"
-updated_at: "2024-12-23 03:05:36.912338"
-latest: "0.1_12--r43h3121a25_7"
+updated_at: "2024-12-24 03:02:28.142710"
+latest: "0.1_12--r44h3121a25_8"
 container_url: "https://biocontainers.pro/tools/r-mutoss"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.1_12--r41h3121a25_5"
  - "0.1_12--r42h3121a25_6"
  - "0.1_12--r43h3121a25_7"
+ - "0.1_12--r44h3121a25_8"
 description: "shpc-registry automated BioContainers addition for r-mutoss"
-config: {"url": "https://biocontainers.pro/tools/r-mutoss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mutoss", "latest": {"0.1_12--r43h3121a25_7": "sha256:f7f3ae48a0c3397258d6078aa7117c751692fd9aeda7c94c9aaefa803598a8c3"}, "tags": {"0.1_12--r41h3121a25_5": "sha256:ea655537de28a5e10262bdafbbcef33694476f6a6938279506e7d84db1187de5", "0.1_12--r42h3121a25_6": "sha256:5da5fc65557967dbc3456d942fdc223cb1a73ec98b80e452863e0711a69078a8", "0.1_12--r43h3121a25_7": "sha256:f7f3ae48a0c3397258d6078aa7117c751692fd9aeda7c94c9aaefa803598a8c3"}, "docker": "quay.io/biocontainers/r-mutoss", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-mutoss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mutoss", "latest": {"0.1_12--r44h3121a25_8": "sha256:f2f3e9bc95a0eb6fd568efad0ed8f425d11cf98a14819f696d8eeb05deb0bacf"}, "tags": {"0.1_12--r41h3121a25_5": "sha256:ea655537de28a5e10262bdafbbcef33694476f6a6938279506e7d84db1187de5", "0.1_12--r42h3121a25_6": "sha256:5da5fc65557967dbc3456d942fdc223cb1a73ec98b80e452863e0711a69078a8", "0.1_12--r43h3121a25_7": "sha256:f7f3ae48a0c3397258d6078aa7117c751692fd9aeda7c94c9aaefa803598a8c3", "0.1_12--r44h3121a25_8": "sha256:f2f3e9bc95a0eb6fd568efad0ed8f425d11cf98a14819f696d8eeb05deb0bacf"}, "docker": "quay.io/biocontainers/r-mutoss", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mutoss.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-mutoss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mutoss:0.1_12--r43h3121a25_7
+$ shpc install quay.io/biocontainers/r-mutoss:0.1_12--r44h3121a25_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mutoss/0.1_12--r43h3121a25_7
-$ module help quay.io/biocontainers/r-mutoss/0.1_12--r43h3121a25_7
+$ module load quay.io/biocontainers/r-mutoss/0.1_12--r44h3121a25_8
+$ module help quay.io/biocontainers/r-mutoss/0.1_12--r44h3121a25_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

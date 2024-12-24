@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/metacortex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacortex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacortex/container.yaml"
-updated_at: "2024-12-23 03:43:46.360867"
-latest: "0.5.1--h031d066_2"
+updated_at: "2024-12-24 03:38:04.170362"
+latest: "0.5.1--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/metacortex"
 aliases:
  - "metacortex"
 versions:
  - "0.5.1--hec16e2b_0"
  - "0.5.1--h031d066_2"
+ - "0.5.1--h7b50bb2_3"
 description: "singularity registry hpc automated addition for metacortex"
-config: {"url": "https://biocontainers.pro/tools/metacortex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacortex", "latest": {"0.5.1--h031d066_2": "sha256:90bfd16ea85898fb61a6757761b6a0df4377330fdecd11a200b738b6660a778e"}, "tags": {"0.5.1--hec16e2b_0": "sha256:f8dc79c38f7432b2d3a6bd12a2b5439f2568986a63b2259bec0932b424acd7f7", "0.5.1--h031d066_2": "sha256:90bfd16ea85898fb61a6757761b6a0df4377330fdecd11a200b738b6660a778e"}, "docker": "quay.io/biocontainers/metacortex", "aliases": {"metacortex": "/usr/local/bin/metacortex"}}
+config: {"url": "https://biocontainers.pro/tools/metacortex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacortex", "latest": {"0.5.1--h7b50bb2_3": "sha256:b4daee8f062622ebf0396feee92696b03242fcbf3b01cf11458f79dc8e32a4e6"}, "tags": {"0.5.1--hec16e2b_0": "sha256:f8dc79c38f7432b2d3a6bd12a2b5439f2568986a63b2259bec0932b424acd7f7", "0.5.1--h031d066_2": "sha256:90bfd16ea85898fb61a6757761b6a0df4377330fdecd11a200b738b6660a778e", "0.5.1--h7b50bb2_3": "sha256:b4daee8f062622ebf0396feee92696b03242fcbf3b01cf11458f79dc8e32a4e6"}, "docker": "quay.io/biocontainers/metacortex", "aliases": {"metacortex": "/usr/local/bin/metacortex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacortex.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/metacortex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacortex:0.5.1--h031d066_2
+$ shpc install quay.io/biocontainers/metacortex:0.5.1--h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacortex/0.5.1--h031d066_2
-$ module help quay.io/biocontainers/metacortex/0.5.1--h031d066_2
+$ module load quay.io/biocontainers/metacortex/0.5.1--h7b50bb2_3
+$ module help quay.io/biocontainers/metacortex/0.5.1--h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

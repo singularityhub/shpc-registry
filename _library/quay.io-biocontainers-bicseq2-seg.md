@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bicseq2-seg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bicseq2-seg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bicseq2-seg/container.yaml"
-updated_at: "2024-12-23 03:30:50.781737"
-latest: "0.7.2--h031d066_5"
+updated_at: "2024-12-24 03:25:48.311150"
+latest: "0.7.2--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/bicseq2-seg"
 aliases:
  - "BICseqMulSample.pl"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "0.7.2--hec16e2b_3"
  - "0.7.2--h031d066_5"
+ - "0.7.2--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for bicseq2-seg"
-config: {"url": "https://biocontainers.pro/tools/bicseq2-seg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bicseq2-seg", "latest": {"0.7.2--h031d066_5": "sha256:fcb6835a9f80e8444e4adb0a75ad39be3044f3c313f316e052379a9aa96ddafd"}, "tags": {"0.7.2--hec16e2b_3": "sha256:84608234d4a71ec86e461f0b9fa73ed10f6069312e2b4b9b2fbf0a31a13106b3", "0.7.2--h031d066_5": "sha256:fcb6835a9f80e8444e4adb0a75ad39be3044f3c313f316e052379a9aa96ddafd"}, "docker": "quay.io/biocontainers/bicseq2-seg", "aliases": {"BICseqMulSample.pl": "/usr/local/bin/BICseqMulSample.pl", "BICseqOneSample.pl": "/usr/local/bin/BICseqOneSample.pl", "BICseqTwoSample.pl": "/usr/local/bin/BICseqTwoSample.pl", "EstLambdaFct": "/usr/local/bin/EstLambdaFct", "MBICseq": "/usr/local/bin/MBICseq", "NBICseq-seg.pl": "/usr/local/bin/NBICseq-seg.pl", "bootstrap": "/usr/local/bin/bootstrap", "combineFile": "/usr/local/bin/combineFile", "combineSegBoostrap.R": "/usr/local/bin/combineSegBoostrap.R", "countRead": "/usr/local/bin/countRead", "genotype": "/usr/local/bin/genotype", "genotype.pl": "/usr/local/bin/genotype.pl", "plotProfile.R": "/usr/local/bin/plotProfile.R", "report.R": "/usr/local/bin/report.R", "reportOneSample.R": "/usr/local/bin/reportOneSample.R", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/bicseq2-seg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bicseq2-seg", "latest": {"0.7.2--h7b50bb2_6": "sha256:e012609af84a9822612158c79d2ba0dab6f7746e10c56a242c17c216ebd36a3a"}, "tags": {"0.7.2--hec16e2b_3": "sha256:84608234d4a71ec86e461f0b9fa73ed10f6069312e2b4b9b2fbf0a31a13106b3", "0.7.2--h031d066_5": "sha256:fcb6835a9f80e8444e4adb0a75ad39be3044f3c313f316e052379a9aa96ddafd", "0.7.2--h7b50bb2_6": "sha256:e012609af84a9822612158c79d2ba0dab6f7746e10c56a242c17c216ebd36a3a"}, "docker": "quay.io/biocontainers/bicseq2-seg", "aliases": {"BICseqMulSample.pl": "/usr/local/bin/BICseqMulSample.pl", "BICseqOneSample.pl": "/usr/local/bin/BICseqOneSample.pl", "BICseqTwoSample.pl": "/usr/local/bin/BICseqTwoSample.pl", "EstLambdaFct": "/usr/local/bin/EstLambdaFct", "MBICseq": "/usr/local/bin/MBICseq", "NBICseq-seg.pl": "/usr/local/bin/NBICseq-seg.pl", "bootstrap": "/usr/local/bin/bootstrap", "combineFile": "/usr/local/bin/combineFile", "combineSegBoostrap.R": "/usr/local/bin/combineSegBoostrap.R", "countRead": "/usr/local/bin/countRead", "genotype": "/usr/local/bin/genotype", "genotype.pl": "/usr/local/bin/genotype.pl", "plotProfile.R": "/usr/local/bin/plotProfile.R", "report.R": "/usr/local/bin/report.R", "reportOneSample.R": "/usr/local/bin/reportOneSample.R", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bicseq2-seg.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bicseq2-seg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bicseq2-seg:0.7.2--h031d066_5
+$ shpc install quay.io/biocontainers/bicseq2-seg:0.7.2--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bicseq2-seg/0.7.2--h031d066_5
-$ module help quay.io/biocontainers/bicseq2-seg/0.7.2--h031d066_5
+$ module load quay.io/biocontainers/bicseq2-seg/0.7.2--h7b50bb2_6
+$ module help quay.io/biocontainers/bicseq2-seg/0.7.2--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-filesys-df"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-filesys-df/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-filesys-df/container.yaml"
-updated_at: "2024-12-23 02:59:03.167338"
-latest: "0.92--pl5321h031d066_8"
+updated_at: "2024-12-24 02:56:23.054318"
+latest: "0.92--pl5321h7b50bb2_9"
 container_url: "https://biocontainers.pro/tools/perl-filesys-df"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "0.92--pl5321hec16e2b_5"
  - "0.92--pl5321h031d066_7"
  - "0.92--pl5321h031d066_8"
+ - "0.92--pl5321h7b50bb2_9"
 description: "shpc-registry automated BioContainers addition for perl-filesys-df"
-config: {"url": "https://biocontainers.pro/tools/perl-filesys-df", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-filesys-df", "latest": {"0.92--pl5321h031d066_8": "sha256:b5e132d0f6c573954e2c62869f85bfd0ed1a89b64e705868f1e53ecbdcec2394"}, "tags": {"0.92--pl5321hec16e2b_5": "sha256:507c9f025eef8d2130f4dd4c58e3a07dec0d8a365debcb1bd6b2596e4074de79", "0.92--pl5321h031d066_7": "sha256:4e81006748c5511a87603e1c051a3b4f6ae2f2d42b36f9777278151be5506057", "0.92--pl5321h031d066_8": "sha256:b5e132d0f6c573954e2c62869f85bfd0ed1a89b64e705868f1e53ecbdcec2394"}, "docker": "quay.io/biocontainers/perl-filesys-df", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-filesys-df", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-filesys-df", "latest": {"0.92--pl5321h7b50bb2_9": "sha256:bf9df19b71e298a9703a9786c9c682bcf52572e0cf580d788c16bc84a5fc648b"}, "tags": {"0.92--pl5321hec16e2b_5": "sha256:507c9f025eef8d2130f4dd4c58e3a07dec0d8a365debcb1bd6b2596e4074de79", "0.92--pl5321h031d066_7": "sha256:4e81006748c5511a87603e1c051a3b4f6ae2f2d42b36f9777278151be5506057", "0.92--pl5321h031d066_8": "sha256:b5e132d0f6c573954e2c62869f85bfd0ed1a89b64e705868f1e53ecbdcec2394", "0.92--pl5321h7b50bb2_9": "sha256:bf9df19b71e298a9703a9786c9c682bcf52572e0cf580d788c16bc84a5fc648b"}, "docker": "quay.io/biocontainers/perl-filesys-df", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-filesys-df.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-filesys-df
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-filesys-df:0.92--pl5321h031d066_8
+$ shpc install quay.io/biocontainers/perl-filesys-df:0.92--pl5321h7b50bb2_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-filesys-df/0.92--pl5321h031d066_8
-$ module help quay.io/biocontainers/perl-filesys-df/0.92--pl5321h031d066_8
+$ module load quay.io/biocontainers/perl-filesys-df/0.92--pl5321h7b50bb2_9
+$ module help quay.io/biocontainers/perl-filesys-df/0.92--pl5321h7b50bb2_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

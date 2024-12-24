@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnali/container.yaml"
-updated_at: "2024-12-23 02:54:44.763653"
+updated_at: "2024-12-24 02:52:32.628106"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gnali"
 aliases:

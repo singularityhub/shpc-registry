@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyskani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyskani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyskani/container.yaml"
-updated_at: "2024-12-23 02:53:53.133400"
+updated_at: "2024-12-24 02:51:44.461153"
 latest: "0.1.3--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/pyskani"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.3--py310hec43fc7_0"
+ - "0.1.3--py39h5b94c0b_0"
 description: "singularity registry hpc automated addition for pyskani"
-config: {"url": "https://biocontainers.pro/tools/pyskani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyskani", "latest": {"0.1.3--py310hec43fc7_0": "sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde"}, "tags": {"0.1.3--py310hec43fc7_0": "sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde"}, "docker": "quay.io/biocontainers/pyskani", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyskani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyskani", "latest": {"0.1.3--py310hec43fc7_0": "sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde"}, "tags": {"0.1.3--py310hec43fc7_0": "sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde", "0.1.3--py39h5b94c0b_0": "sha256:3501dcb31e6e5a894dc3e6784ccd48c23a6e5ad1de7c2c8c44a893e6af8c2e69"}, "docker": "quay.io/biocontainers/pyskani", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyskani.

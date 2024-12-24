@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/woltka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/woltka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/woltka/container.yaml"
-updated_at: "2024-12-23 02:55:12.568406"
+updated_at: "2024-12-24 02:52:58.764450"
 latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/woltka"
 aliases:

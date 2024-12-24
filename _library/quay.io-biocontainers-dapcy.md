@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dapcy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dapcy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dapcy/container.yaml"
-updated_at: "2024-12-23 03:10:25.137558"
+updated_at: "2024-12-24 03:06:55.028453"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dapcy"
 aliases:

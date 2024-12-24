@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mergeomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mergeomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mergeomics/container.yaml"
-updated_at: "2024-12-23 03:00:29.437015"
+updated_at: "2024-12-24 02:57:40.585071"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mergeomics"
 aliases:
