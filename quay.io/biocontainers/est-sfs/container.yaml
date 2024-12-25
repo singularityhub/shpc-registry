@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/est-sfs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for est-sfs
 latest:
-  2.04--h245ed52_0: sha256:6963c02bf8a28926bbd00e20e488d9698dd08b9fd8ae00faf85aa8ce95f4b3ef
+  2.04--h985cbd6_1: sha256:9f6347339072d6b69d345307323b1dfcbc0d6a60499a691944db1b252481633b
 tags:
   2.04--h245ed52_0: sha256:6963c02bf8a28926bbd00e20e488d9698dd08b9fd8ae00faf85aa8ce95f4b3ef
+  2.04--h985cbd6_1: sha256:9f6347339072d6b69d345307323b1dfcbc0d6a60499a691944db1b252481633b
 docker: quay.io/biocontainers/est-sfs
 aliases:
   est-sfs: /usr/local/bin/est-sfs

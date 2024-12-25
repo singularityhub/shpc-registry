@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/perl-crypt-openssl-rsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-crypt-openssl-rsa
 latest:
-  0.33--pl5321h5076881_3: sha256:a07f2b1ce75eac2dff9a552486ca75301937cd202f5f8e2179e3a564c9b3cea6
+  0.33--pl5321hc234bb7_4: sha256:3587ddd359c58b1ad434cf3f953dd87485746cb441eb98e5464feb75d2536d42
 tags:
   0.33--pl5321h1f4ba0c_1: sha256:d2440949b98ff36889e3d6dcfb466bec8d3af09f2cd6811d7b12765c448bdc9e
   0.33--pl5321h5076881_2: sha256:9df9d2ab158ef44c95bf5d4c74824851af635ca430373e6aca090dba42847346
   0.33--pl5321h5076881_3: sha256:a07f2b1ce75eac2dff9a552486ca75301937cd202f5f8e2179e3a564c9b3cea6
+  0.33--pl5321hc234bb7_4: sha256:3587ddd359c58b1ad434cf3f953dd87485746cb441eb98e5464feb75d2536d42
 docker: quay.io/biocontainers/perl-crypt-openssl-rsa
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

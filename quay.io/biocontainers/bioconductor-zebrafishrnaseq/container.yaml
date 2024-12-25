@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq
 latest:
-  1.22.0--r43hdfd78af_0: sha256:6dbca71541aacf83ed6a1962f1507111fe75f5364e120cdfa6625b49cfde38f0
+  1.26.0--r44hdfd78af_0: sha256:74f6aca8fab100f18c1a59c6d4d4799eb978db2c7070a8fa6bef6f8fab01b455
 tags:
   1.9.0--r40_0: sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af
   1.17.0--r42hdfd78af_0: sha256:7679f2ff753439a35ba3f84fc8dece993c9c34189ed804a7ec1e236e20971901
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:6af77b16104be663df98052d37bf6e78be5660eb2048ba5243bee6f9d197bc7e
   1.20.0--r43hdfd78af_0: sha256:af6871245c1e3b31c1bfcbce9d36b99b105464554ec317de0404508e29e0116b
   1.22.0--r43hdfd78af_0: sha256:6dbca71541aacf83ed6a1962f1507111fe75f5364e120cdfa6625b49cfde38f0
+  1.26.0--r44hdfd78af_0: sha256:74f6aca8fab100f18c1a59c6d4d4799eb978db2c7070a8fa6bef6f8fab01b455
 docker: quay.io/biocontainers/bioconductor-zebrafishrnaseq
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

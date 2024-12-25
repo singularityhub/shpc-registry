@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/coils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coils
 latest:
-  2.2.1--h031d066_4: sha256:41d210195b2ef4de535ad7d546458eba7c52ba1c8136bf9d4e0437ce37d6ae4c
+  2.2.1--h7b50bb2_5: sha256:b7ea029f2b8df0fe7597282d20711adfc9f80b980136aeba7bb407a9d6910bd6
 tags:
   2.2.1--hec16e2b_2: sha256:bb6b9ae2ac65d8cdcb0eb51beadeceaa94d43b5441406df33fc4958ee7fc26ee
   2.2.1--h031d066_4: sha256:41d210195b2ef4de535ad7d546458eba7c52ba1c8136bf9d4e0437ce37d6ae4c
+  2.2.1--h7b50bb2_5: sha256:b7ea029f2b8df0fe7597282d20711adfc9f80b980136aeba7bb407a9d6910bd6
 docker: quay.io/biocontainers/coils
 aliases:
   coils-svr.pl: /usr/local/bin/coils-svr.pl

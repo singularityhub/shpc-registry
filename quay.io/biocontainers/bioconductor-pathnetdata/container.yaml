@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-pathnetdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pathnetdata
 latest:
-  1.38.0--r43hdfd78af_0: sha256:ec617466fc5b5c137b9a61d313ff7dbcabf62615921d2825e5b9a0cb7182e8de
+  1.42.0--r44hdfd78af_0: sha256:d458d8a9b6497210790bfe8118dd1b46f35cda307e0398d79c8b3c8ff216ed7f
 tags:
   1.30.0--r41hdfd78af_1: sha256:6a6fa6e4e73a3e6fd8a7b0b85f92d4ef3d3fc08d6b82caf4d17358f22d655698
   1.33.0--r42hdfd78af_0: sha256:00a82b3f54568fe7f7245e15b6d78bbc0c4e78a71d140d55fb34b0321d686a84
   1.36.0--r43hdfd78af_0: sha256:efe05a34d25c2d025fab6c2d0e07316019ea64c61b14f529b56f925a3ecb56b2
   1.38.0--r43hdfd78af_0: sha256:ec617466fc5b5c137b9a61d313ff7dbcabf62615921d2825e5b9a0cb7182e8de
+  1.42.0--r44hdfd78af_0: sha256:d458d8a9b6497210790bfe8118dd1b46f35cda307e0398d79c8b3c8ff216ed7f
 docker: quay.io/biocontainers/bioconductor-pathnetdata

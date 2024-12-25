@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/minirmd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minirmd
 latest:
-  1.1--hdcf5f25_4: sha256:b1e96b1aaf8e78d11c847058e8ca253acb46d02833d43e1cf285383bab9af0a1
+  1.1--h077b44d_5: sha256:6570d46ebf9fcfd0c78aca1599dce73fbe864871290d1cf230d057981e47da22
 tags:
   1.1--hd03093a_2: sha256:874389f8e3335703781c6cb976b2bb1d9937ef6b9b22959b9efef0bb17dbb6a5
   1.1--hdcf5f25_4: sha256:b1e96b1aaf8e78d11c847058e8ca253acb46d02833d43e1cf285383bab9af0a1
+  1.1--h077b44d_5: sha256:6570d46ebf9fcfd0c78aca1599dce73fbe864871290d1cf230d057981e47da22
 docker: quay.io/biocontainers/minirmd
 aliases:
   minirmd: /usr/local/bin/minirmd

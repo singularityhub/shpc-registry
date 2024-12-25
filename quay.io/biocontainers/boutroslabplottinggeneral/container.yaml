@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/boutroslabplottinggeneral
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for boutroslabplottinggeneral
 latest:
-  5.3.4--r43h9ee0642_5: sha256:8024e5ce3ea8b49359ce30b0369ce00456186025361d7b84230a2c5860a7ce70
+  5.3.4--r44h9ee0642_6: sha256:851c408797e2194a29b14c99552f290aa1e3d60c4cb2914fe3a978f131884274
 tags:
   5.3.4--r40_2: sha256:4deca0c85213c8960788c67711723947ff39888a8827f9866ea81d27f4ebb72b
   5.3.4--r43h9ee0642_5: sha256:8024e5ce3ea8b49359ce30b0369ce00456186025361d7b84230a2c5860a7ce70
+  5.3.4--r44h9ee0642_6: sha256:851c408797e2194a29b14c99552f290aa1e3d60c4cb2914fe3a978f131884274
 docker: quay.io/biocontainers/boutroslabplottinggeneral
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

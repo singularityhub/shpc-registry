@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/slow5curl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for slow5curl
 latest:
-  0.2.1--h9bb4366_0: sha256:da3b9817c5bd6cf4a510b00bab17380055a0730808ea2e4f11dd5d588186b8ea
+  0.2.1--h86e5fe9_1: sha256:57c48d4dcc8c2888f27ee0e36612135f618f5d369b3b0b95ba5b5ed442d4c4c5
 tags:
   0.2.0--h9bb4366_0: sha256:591438316c6fa7ffd31bea7f30450160206d8fadc4ea639aaa192b44a1a67426
   0.2.1--h9bb4366_0: sha256:da3b9817c5bd6cf4a510b00bab17380055a0730808ea2e4f11dd5d588186b8ea
+  0.2.1--h86e5fe9_1: sha256:57c48d4dcc8c2888f27ee0e36612135f618f5d369b3b0b95ba5b5ed442d4c4c5
 docker: quay.io/biocontainers/slow5curl
 aliases:
   slow5curl: /usr/local/bin/slow5curl

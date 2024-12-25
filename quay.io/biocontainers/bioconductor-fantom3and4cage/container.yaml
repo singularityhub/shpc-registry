@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-fantom3and4cage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fantom3and4cage
 latest:
-  1.38.0--r43hdfd78af_0: sha256:b3bcb17e4aff97368d197a892347dc37a9ea27ea101d857f11f05f047e0fdc9d
+  1.42.0--r44hdfd78af_0: sha256:b09e847cc4111055ebb1473f5916627beef1b7edccdf733e62d88b22dafa64bd
 tags:
   1.30.0--r41hdfd78af_1: sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581
   1.33.0--r42hdfd78af_0: sha256:4b3ae605c2b8e7e9cc60ff966212a4cc8bdd3e37821c93e2c8666f0c99830dcd
   1.36.0--r43hdfd78af_0: sha256:62747563b09d402553f5eb77c0927a7833e58310106d5a0187a6fc330778fb26
   1.38.0--r43hdfd78af_0: sha256:b3bcb17e4aff97368d197a892347dc37a9ea27ea101d857f11f05f047e0fdc9d
+  1.42.0--r44hdfd78af_0: sha256:b09e847cc4111055ebb1473f5916627beef1b7edccdf733e62d88b22dafa64bd
 docker: quay.io/biocontainers/bioconductor-fantom3and4cage

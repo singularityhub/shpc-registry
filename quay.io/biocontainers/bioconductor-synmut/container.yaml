@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-synmut
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synmut
 latest:
-  1.18.0--r43hdfd78af_0: sha256:a1db92d09f6be635152c372ff7a45a2cbba656d29b6eee57a19741090de82af6
+  1.22.0--r44hdfd78af_0: sha256:5da1487eff224aa668a0ffc6e04bbe59926f50b26bda54919f415b86a75790cf
 tags:
   1.8.0--r41hdfd78af_0: sha256:379d55f88d0f53925b07ccfc075ef03fd3b3c03ead317e576db61f313c97756c
   1.14.0--r42hdfd78af_0: sha256:6aef673ae541b62c3108e258eb0049efd23d444a07efa64f82f2910cd28e0a9d
   1.10.0--r41hdfd78af_0: sha256:7a6f63fc0ec1835aa29d57c116616997bbaab9dc544604ac52f551501abc273c
   1.16.0--r43hdfd78af_0: sha256:f5f20dfe27031a8884a916288373abf4acbc054280fef815549eecc0e6a5fa6e
   1.18.0--r43hdfd78af_0: sha256:a1db92d09f6be635152c372ff7a45a2cbba656d29b6eee57a19741090de82af6
+  1.22.0--r44hdfd78af_0: sha256:5da1487eff224aa668a0ffc6e04bbe59926f50b26bda54919f415b86a75790cf
 docker: quay.io/biocontainers/bioconductor-synmut
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

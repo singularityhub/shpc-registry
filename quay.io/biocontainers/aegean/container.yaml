@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/aegean
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aegean
 latest:
-  0.16.0--hc3aac3a_4: sha256:a9919f2cf6f9b2556b92028b9cf8989130c0f24712ca8886f3ee8b7f6b5c527b
+  0.16.0--h71bfec9_5: sha256:b27edd1c3dc909daba267be9abba041269f8cf7ae26003a9a6e0c293974043f2
 tags:
   0.16.0--hde46a50_3: sha256:3c0b843f958647204a367e1812ce9a9570a776e74d4285a8aeb6be456f158858
   0.16.0--hc3aac3a_4: sha256:a9919f2cf6f9b2556b92028b9cf8989130c0f24712ca8886f3ee8b7f6b5c527b
+  0.16.0--h71bfec9_5: sha256:b27edd1c3dc909daba267be9abba041269f8cf7ae26003a9a6e0c293974043f2
 docker: quay.io/biocontainers/aegean
 aliases:
   canon-gff3: /usr/local/bin/canon-gff3

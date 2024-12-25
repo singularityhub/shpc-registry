@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gloscope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gloscope
 latest:
-  1.0.0--r43hdfd78af_0: sha256:6562ff2135dd7177141e509884e4bebd3a7268e44cdd20e990bbe8dd26576597
+  1.4.0--r44hdfd78af_0: sha256:cc0375a8b7f4e0e8ddf0225b7d09bfdde11fcaa3792d51c20ccfc99d1f143fc8
 tags:
   1.0.0--r43hdfd78af_0: sha256:6562ff2135dd7177141e509884e4bebd3a7268e44cdd20e990bbe8dd26576597
+  1.4.0--r44hdfd78af_0: sha256:cc0375a8b7f4e0e8ddf0225b7d09bfdde11fcaa3792d51c20ccfc99d1f143fc8
 docker: quay.io/biocontainers/bioconductor-gloscope
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
