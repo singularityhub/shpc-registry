@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ampvis2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampvis2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampvis2/container.yaml"
-updated_at: "2024-12-24 03:24:54.415908"
-latest: "2.8.9--r43hdfd78af_0"
+updated_at: "2024-12-25 03:24:37.936230"
+latest: "2.8.9--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-ampvis2"
 aliases:
  - "parsort"
@@ -24,8 +24,9 @@ versions:
  - "2.7.32--r43hdfd78af_2"
  - "2.8.6--r43hdfd78af_0"
  - "2.8.9--r43hdfd78af_0"
+ - "2.8.9--r44hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-ampvis2"
-config: {"url": "https://biocontainers.pro/tools/r-ampvis2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis2", "latest": {"2.8.9--r43hdfd78af_0": "sha256:5047a68544ef012286fb19cb5722a253dfa597a765ec278c123ee79a939b840a"}, "tags": {"2.7.29--r41hdfd78af_0": "sha256:ad1deb36c198dce432cefe9ad48ae474399583d385d3493e77705a94056ba63b", "2.7.32--r42hdfd78af_1": "sha256:1e8e6760936cb7686f09dd7a985e9770b64b570f97f46437e3dbd9e9a6ce9378", "2.7.32--r43hdfd78af_2": "sha256:ebc3aac1359a769dae505bc2400a0c0fd558a90fef39eaa5e69d6d4e2bc2be5b", "2.8.6--r43hdfd78af_0": "sha256:52aaf3451ab03940eb23d989095f36ff0047615247b4da27d4e0d7178fd5acdd", "2.8.9--r43hdfd78af_0": "sha256:5047a68544ef012286fb19cb5722a253dfa597a765ec278c123ee79a939b840a"}, "docker": "quay.io/biocontainers/r-ampvis2", "aliases": {"parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
+config: {"url": "https://biocontainers.pro/tools/r-ampvis2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis2", "latest": {"2.8.9--r44hdfd78af_1": "sha256:cbc5854ba743d0a3a5559c6ed711ee72b160d39ec92f45cdb091d17f6cbc6d11"}, "tags": {"2.7.29--r41hdfd78af_0": "sha256:ad1deb36c198dce432cefe9ad48ae474399583d385d3493e77705a94056ba63b", "2.7.32--r42hdfd78af_1": "sha256:1e8e6760936cb7686f09dd7a985e9770b64b570f97f46437e3dbd9e9a6ce9378", "2.7.32--r43hdfd78af_2": "sha256:ebc3aac1359a769dae505bc2400a0c0fd558a90fef39eaa5e69d6d4e2bc2be5b", "2.8.6--r43hdfd78af_0": "sha256:52aaf3451ab03940eb23d989095f36ff0047615247b4da27d4e0d7178fd5acdd", "2.8.9--r43hdfd78af_0": "sha256:5047a68544ef012286fb19cb5722a253dfa597a765ec278c123ee79a939b840a", "2.8.9--r44hdfd78af_1": "sha256:cbc5854ba743d0a3a5559c6ed711ee72b160d39ec92f45cdb091d17f6cbc6d11"}, "docker": "quay.io/biocontainers/r-ampvis2", "aliases": {"parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ampvis2.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/r-ampvis2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ampvis2:2.8.9--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-ampvis2:2.8.9--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ampvis2/2.8.9--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-ampvis2/2.8.9--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-ampvis2/2.8.9--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-ampvis2/2.8.9--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2016"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2016/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2016/container.yaml"
-updated_at: "2024-12-24 03:05:38.624447"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:04:27.128264"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2016"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.18.0--r40hdfd78af_1"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-jaspar2016"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2016", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2016", "latest": {"1.30.0--r43hdfd78af_0": "sha256:d914adb493ff291b7b9ef965f07903a47808274baee13f8fff2486b45b20781b"}, "tags": {"1.8.0--r341_0": "sha256:2a6214a2997b933eda9c94f68b168c6986ff9ee1f0b81fc061ba5dad552c70e2", "1.26.0--r42hdfd78af_0": "sha256:13dd0ce9b13f1580afcf8fd65511dfaa15edaa976dd920f9edac92c9e3c244d1", "1.25.0--r42hdfd78af_0": "sha256:88ac9d26c142c44470ce526647abf9ce51bc7640cb999f5ecfcdd6fc1baa1472", "1.22.0--r41hdfd78af_1": "sha256:a3f4ea0f91aad1350c4e1c1bd1fc2558708b79f1e3901110df32fa2f97ec7e2e", "1.20.0--r41hdfd78af_0": "sha256:2aa951ebd48fe9247260845578753615a371cdda98772946b58e8a37c8b8d935", "1.18.0--r40hdfd78af_1": "sha256:53f7cec9409364fe80495ed2b040637bd51f25187f4549e24f291465606019d0", "1.28.0--r43hdfd78af_0": "sha256:64248d19929aa505e10fa80e955ebc218eb1618fb3189c7cbcb47777102e4b18", "1.30.0--r43hdfd78af_0": "sha256:d914adb493ff291b7b9ef965f07903a47808274baee13f8fff2486b45b20781b"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2016", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2016", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2016", "latest": {"1.34.0--r44hdfd78af_0": "sha256:a450d3e30985e3d67f43a3e53e60d88dc14c1bef3f0ab17dc1f3d1eb56dbe296"}, "tags": {"1.8.0--r341_0": "sha256:2a6214a2997b933eda9c94f68b168c6986ff9ee1f0b81fc061ba5dad552c70e2", "1.26.0--r42hdfd78af_0": "sha256:13dd0ce9b13f1580afcf8fd65511dfaa15edaa976dd920f9edac92c9e3c244d1", "1.25.0--r42hdfd78af_0": "sha256:88ac9d26c142c44470ce526647abf9ce51bc7640cb999f5ecfcdd6fc1baa1472", "1.22.0--r41hdfd78af_1": "sha256:a3f4ea0f91aad1350c4e1c1bd1fc2558708b79f1e3901110df32fa2f97ec7e2e", "1.20.0--r41hdfd78af_0": "sha256:2aa951ebd48fe9247260845578753615a371cdda98772946b58e8a37c8b8d935", "1.18.0--r40hdfd78af_1": "sha256:53f7cec9409364fe80495ed2b040637bd51f25187f4549e24f291465606019d0", "1.28.0--r43hdfd78af_0": "sha256:64248d19929aa505e10fa80e955ebc218eb1618fb3189c7cbcb47777102e4b18", "1.30.0--r43hdfd78af_0": "sha256:d914adb493ff291b7b9ef965f07903a47808274baee13f8fff2486b45b20781b", "1.34.0--r44hdfd78af_0": "sha256:a450d3e30985e3d67f43a3e53e60d88dc14c1bef3f0ab17dc1f3d1eb56dbe296"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2016", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2016.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-jaspar2016
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-jaspar2016:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-jaspar2016:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-jaspar2016/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-jaspar2016/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-jaspar2016/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-jaspar2016/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

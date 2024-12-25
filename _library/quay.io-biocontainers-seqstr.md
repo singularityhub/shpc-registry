@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqstr/container.yaml"
-updated_at: "2024-12-24 03:37:43.900974"
+updated_at: "2024-12-25 03:38:07.017053"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqstr"
 aliases:

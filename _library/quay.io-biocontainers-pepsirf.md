@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pepsirf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pepsirf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pepsirf/container.yaml"
-updated_at: "2024-12-24 03:28:16.703834"
+updated_at: "2024-12-25 03:28:08.928776"
 latest: "1.6.0--h4056dc3_2"
 container_url: "https://biocontainers.pro/tools/pepsirf"
 aliases:

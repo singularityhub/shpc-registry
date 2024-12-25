@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-psmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psmatch/container.yaml"
-updated_at: "2024-12-24 03:30:09.261314"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:30:07.086572"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psmatch"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-psmatch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-psmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-psmatch", "latest": {"1.6.0--r43hdfd78af_0": "sha256:8f0edc0d46f714ad0f420bac557add4d93e44abf806e82719bca293810a67da0"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:61bee5ae1e48a40fb6f563db6ac8966d27490503d48eafa1c113af5be8868300", "1.4.0--r43hdfd78af_0": "sha256:c89db9c46007a67bdf2c0a87f072f6d37cbf2b777197c6fa11eef6735ef16152", "1.6.0--r43hdfd78af_0": "sha256:8f0edc0d46f714ad0f420bac557add4d93e44abf806e82719bca293810a67da0"}, "docker": "quay.io/biocontainers/bioconductor-psmatch", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-psmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-psmatch", "latest": {"1.10.0--r44hdfd78af_0": "sha256:ba2197f5817d5337f35a44bbfd822deb77aef9f6df4129f574999012e542c544"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:61bee5ae1e48a40fb6f563db6ac8966d27490503d48eafa1c113af5be8868300", "1.4.0--r43hdfd78af_0": "sha256:c89db9c46007a67bdf2c0a87f072f6d37cbf2b777197c6fa11eef6735ef16152", "1.6.0--r43hdfd78af_0": "sha256:8f0edc0d46f714ad0f420bac557add4d93e44abf806e82719bca293810a67da0", "1.10.0--r44hdfd78af_0": "sha256:ba2197f5817d5337f35a44bbfd822deb77aef9f6df4129f574999012e542c544"}, "docker": "quay.io/biocontainers/bioconductor-psmatch", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-psmatch.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-psmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-psmatch:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-psmatch:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-psmatch/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-psmatch/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-psmatch/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-psmatch/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

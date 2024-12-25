@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnvmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvmetrics/container.yaml"
-updated_at: "2024-12-24 03:31:48.755858"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:31:51.765188"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvmetrics"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cnvmetrics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvmetrics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cnvmetrics", "latest": {"1.6.0--r43hdfd78af_0": "sha256:8ff8a1dabbf023a2397c0a55493128d99eb7b2a9b6bf2cccd14c696a9a1a8c43"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2f912e74bea168ab54d7f35321004928b8fe27a9f9d890a4e5146f1542074a3e", "1.4.0--r43hdfd78af_0": "sha256:8d923adf0eb0d375d7a3add7f55d667912ffbd8bd7646e14e942840e08b29925", "1.6.0--r43hdfd78af_0": "sha256:8ff8a1dabbf023a2397c0a55493128d99eb7b2a9b6bf2cccd14c696a9a1a8c43"}, "docker": "quay.io/biocontainers/bioconductor-cnvmetrics", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvmetrics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cnvmetrics", "latest": {"1.10.0--r44hdfd78af_0": "sha256:d91311e4f080ee798c096d5fb92c874eb46b08b989704aa9ffea9b3adef1de69"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2f912e74bea168ab54d7f35321004928b8fe27a9f9d890a4e5146f1542074a3e", "1.4.0--r43hdfd78af_0": "sha256:8d923adf0eb0d375d7a3add7f55d667912ffbd8bd7646e14e942840e08b29925", "1.6.0--r43hdfd78af_0": "sha256:8ff8a1dabbf023a2397c0a55493128d99eb7b2a9b6bf2cccd14c696a9a1a8c43", "1.10.0--r44hdfd78af_0": "sha256:d91311e4f080ee798c096d5fb92c874eb46b08b989704aa9ffea9b3adef1de69"}, "docker": "quay.io/biocontainers/bioconductor-cnvmetrics", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnvmetrics.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnvmetrics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnvmetrics:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnvmetrics:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnvmetrics/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnvmetrics/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnvmetrics/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnvmetrics/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

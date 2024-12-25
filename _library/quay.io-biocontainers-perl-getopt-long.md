@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-getopt-long"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-getopt-long/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-getopt-long/container.yaml"
-updated_at: "2024-12-24 03:14:23.973504"
+updated_at: "2024-12-25 03:13:37.981705"
 latest: "2.58--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-getopt-long"
 

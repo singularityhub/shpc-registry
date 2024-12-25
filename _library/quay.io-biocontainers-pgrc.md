@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgrc/container.yaml"
-updated_at: "2024-12-24 03:19:26.256754"
-latest: "2.0.2--h4ac6f70_0"
+updated_at: "2024-12-25 03:18:54.233074"
+latest: "2.0.2--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pgrc"
 aliases:
  - "PgRC"
@@ -13,8 +13,9 @@ versions:
  - "2.0--h4ac6f70_0"
  - "2.0.1--h4ac6f70_0"
  - "2.0.2--h4ac6f70_0"
+ - "2.0.2--h9948957_1"
 description: "singularity registry hpc automated addition for pgrc"
-config: {"url": "https://biocontainers.pro/tools/pgrc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgrc", "latest": {"2.0.2--h4ac6f70_0": "sha256:ca9712f13e433e996f55505b3dcf394ccf35fec99432a12915da1c0399c2a258"}, "tags": {"2.0--h4ac6f70_0": "sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474", "2.0.1--h4ac6f70_0": "sha256:a224c2123eba84051132630e61bdff24208f250a63ece3ef43c56dbef9d85443", "2.0.2--h4ac6f70_0": "sha256:ca9712f13e433e996f55505b3dcf394ccf35fec99432a12915da1c0399c2a258"}, "docker": "quay.io/biocontainers/pgrc", "aliases": {"PgRC": "/usr/local/bin/PgRC"}}
+config: {"url": "https://biocontainers.pro/tools/pgrc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgrc", "latest": {"2.0.2--h9948957_1": "sha256:790ecc12a8f576c0c1cefe4f5915e27cfcec9cd75cfaf4b8d1b4bacfb9a12784"}, "tags": {"2.0--h4ac6f70_0": "sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474", "2.0.1--h4ac6f70_0": "sha256:a224c2123eba84051132630e61bdff24208f250a63ece3ef43c56dbef9d85443", "2.0.2--h4ac6f70_0": "sha256:ca9712f13e433e996f55505b3dcf394ccf35fec99432a12915da1c0399c2a258", "2.0.2--h9948957_1": "sha256:790ecc12a8f576c0c1cefe4f5915e27cfcec9cd75cfaf4b8d1b4bacfb9a12784"}, "docker": "quay.io/biocontainers/pgrc", "aliases": {"PgRC": "/usr/local/bin/PgRC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgrc.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pgrc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgrc:2.0.2--h4ac6f70_0
+$ shpc install quay.io/biocontainers/pgrc:2.0.2--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgrc/2.0.2--h4ac6f70_0
-$ module help quay.io/biocontainers/pgrc/2.0.2--h4ac6f70_0
+$ module load quay.io/biocontainers/pgrc/2.0.2--h9948957_1
+$ module help quay.io/biocontainers/pgrc/2.0.2--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

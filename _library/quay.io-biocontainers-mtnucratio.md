@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtnucratio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtnucratio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtnucratio/container.yaml"
-updated_at: "2024-12-24 03:32:16.242209"
+updated_at: "2024-12-25 03:32:20.576525"
 latest: "0.7--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/mtnucratio"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cesar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cesar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cesar/container.yaml"
-updated_at: "2024-12-24 03:34:06.606163"
-latest: "1.01--hdbdd923_2"
+updated_at: "2024-12-25 03:34:17.548801"
+latest: "1.01--h503566f_3"
 container_url: "https://biocontainers.pro/tools/cesar"
 aliases:
  - "cesar"
 versions:
  - "1.01--h87f3376_0"
  - "1.01--hdbdd923_2"
+ - "1.01--h503566f_3"
 description: "singularity registry hpc automated addition for cesar"
-config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089", "1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
+config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.01--h503566f_3": "sha256:0856466c1d733781f94d0959fb8adbf2ab968e22acc26a48c775082fa47840fb"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089", "1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81", "1.01--h503566f_3": "sha256:0856466c1d733781f94d0959fb8adbf2ab968e22acc26a48c775082fa47840fb"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cesar.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cesar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cesar:1.01--hdbdd923_2
+$ shpc install quay.io/biocontainers/cesar:1.01--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cesar/1.01--hdbdd923_2
-$ module help quay.io/biocontainers/cesar/1.01--hdbdd923_2
+$ module load quay.io/biocontainers/cesar/1.01--h503566f_3
+$ module help quay.io/biocontainers/cesar/1.01--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

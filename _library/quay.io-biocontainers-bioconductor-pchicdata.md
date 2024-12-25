@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pchicdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pchicdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pchicdata/container.yaml"
-updated_at: "2024-12-24 03:26:03.361201"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:25:49.765024"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pchicdata"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pchicdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pchicdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pchicdata", "latest": {"1.30.0--r43hdfd78af_0": "sha256:5b6c54831749f77b2eb19d25786f265e56f87a60cbc2440ff99985cd69da1952"}, "tags": {"1.8.0--r351_0": "sha256:f3e8d34c794abe5790beffc778fa11900b0ba99eb140d56f6a4b0bde4d858b55", "1.25.0--r42hdfd78af_0": "sha256:72a25ceae4e7d0009f1224e957e5c7bbcd646c94a7f74d51fc8c469a4efb4269", "1.22.1--r41hdfd78af_0": "sha256:54bdc42d3e9f62c940de0051d2c5079b206f6f21f698f003ae7ab1ef5bd45d1a", "1.20.0--r41hdfd78af_0": "sha256:9d3843ab34f3a40b7712e7635da9ec7b62d8371be02c78b57de7c57d2fec298e", "1.18.0--r40hdfd78af_1": "sha256:1bddf40408f5380abb61e6d0ea552e928e7818ba2429b7ffdd2eaee72afd8085", "1.16.0--r40_0": "sha256:e740e4a8dec773eac03238a09faa3b55c3e7dce39aa22febdd03bcac9a5a6d00", "1.28.0--r43hdfd78af_0": "sha256:266d4cee64caf2482d73fd3627eecdee3aa89d64583e40f471e496bf468f4857", "1.30.0--r43hdfd78af_0": "sha256:5b6c54831749f77b2eb19d25786f265e56f87a60cbc2440ff99985cd69da1952"}, "docker": "quay.io/biocontainers/bioconductor-pchicdata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pchicdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pchicdata", "latest": {"1.34.0--r44hdfd78af_0": "sha256:5b18a3767380ef8c17ecf787dd33d9e6f1122c4a067509f7da65a34b98e3256e"}, "tags": {"1.8.0--r351_0": "sha256:f3e8d34c794abe5790beffc778fa11900b0ba99eb140d56f6a4b0bde4d858b55", "1.25.0--r42hdfd78af_0": "sha256:72a25ceae4e7d0009f1224e957e5c7bbcd646c94a7f74d51fc8c469a4efb4269", "1.22.1--r41hdfd78af_0": "sha256:54bdc42d3e9f62c940de0051d2c5079b206f6f21f698f003ae7ab1ef5bd45d1a", "1.20.0--r41hdfd78af_0": "sha256:9d3843ab34f3a40b7712e7635da9ec7b62d8371be02c78b57de7c57d2fec298e", "1.18.0--r40hdfd78af_1": "sha256:1bddf40408f5380abb61e6d0ea552e928e7818ba2429b7ffdd2eaee72afd8085", "1.16.0--r40_0": "sha256:e740e4a8dec773eac03238a09faa3b55c3e7dce39aa22febdd03bcac9a5a6d00", "1.28.0--r43hdfd78af_0": "sha256:266d4cee64caf2482d73fd3627eecdee3aa89d64583e40f471e496bf468f4857", "1.30.0--r43hdfd78af_0": "sha256:5b6c54831749f77b2eb19d25786f265e56f87a60cbc2440ff99985cd69da1952", "1.34.0--r44hdfd78af_0": "sha256:5b18a3767380ef8c17ecf787dd33d9e6f1122c4a067509f7da65a34b98e3256e"}, "docker": "quay.io/biocontainers/bioconductor-pchicdata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pchicdata.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pchicdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pchicdata:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pchicdata:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pchicdata/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pchicdata/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pchicdata/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pchicdata/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromimpute/container.yaml"
-updated_at: "2024-12-24 03:18:13.502359"
-latest: "1.0.3--ha8f3691_1"
+updated_at: "2024-12-25 03:17:38.216353"
+latest: "1.0.3--h05cac1d_2"
 container_url: "https://biocontainers.pro/tools/chromimpute"
 aliases:
  - "ChromImpute"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "1.0.3--ha8f3691_1"
+ - "1.0.3--h05cac1d_2"
 description: "shpc-registry automated BioContainers addition for chromimpute"
-config: {"url": "https://biocontainers.pro/tools/chromimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromimpute", "latest": {"1.0.3--ha8f3691_1": "sha256:e0cc9c33d4fb73ef569fe48c62f37a5495bfe3e7ae02204a279392160e1e90e8"}, "tags": {"1.0.3--ha8f3691_1": "sha256:e0cc9c33d4fb73ef569fe48c62f37a5495bfe3e7ae02204a279392160e1e90e8"}, "docker": "quay.io/biocontainers/chromimpute", "aliases": {"ChromImpute": "/usr/local/bin/ChromImpute", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/chromimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromimpute", "latest": {"1.0.3--h05cac1d_2": "sha256:7787cc182ce0b29f29d8d825bc18c1b714a59f36af780fddc3d2bbb1a654b61a"}, "tags": {"1.0.3--ha8f3691_1": "sha256:e0cc9c33d4fb73ef569fe48c62f37a5495bfe3e7ae02204a279392160e1e90e8", "1.0.3--h05cac1d_2": "sha256:7787cc182ce0b29f29d8d825bc18c1b714a59f36af780fddc3d2bbb1a654b61a"}, "docker": "quay.io/biocontainers/chromimpute", "aliases": {"ChromImpute": "/usr/local/bin/ChromImpute", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromimpute.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/chromimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromimpute:1.0.3--ha8f3691_1
+$ shpc install quay.io/biocontainers/chromimpute:1.0.3--h05cac1d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromimpute/1.0.3--ha8f3691_1
-$ module help quay.io/biocontainers/chromimpute/1.0.3--ha8f3691_1
+$ module load quay.io/biocontainers/chromimpute/1.0.3--h05cac1d_2
+$ module help quay.io/biocontainers/chromimpute/1.0.3--h05cac1d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

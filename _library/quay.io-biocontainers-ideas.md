@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ideas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ideas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ideas/container.yaml"
-updated_at: "2024-12-24 03:20:44.603004"
-latest: "1.20--h4ac6f70_6"
+updated_at: "2024-12-25 03:20:16.593785"
+latest: "1.20--h9948957_7"
 container_url: "https://biocontainers.pro/tools/ideas"
 aliases:
  - "ideas"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.20--h9f5acd7_4"
  - "1.20--h4ac6f70_6"
+ - "1.20--h9948957_7"
 description: "shpc-registry automated BioContainers addition for ideas"
-config: {"url": "https://biocontainers.pro/tools/ideas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ideas", "latest": {"1.20--h4ac6f70_6": "sha256:bba2112b28fcec2f256d8cc86c3d5420fd2e73967b8376c169c19f1e7d4d488a"}, "tags": {"1.20--h9f5acd7_4": "sha256:0d28666a469afe3c471c642cd4d6768de4bda0f7a754af5e0a7bfdcb3bbc8ba5", "1.20--h4ac6f70_6": "sha256:bba2112b28fcec2f256d8cc86c3d5420fd2e73967b8376c169c19f1e7d4d488a"}, "docker": "quay.io/biocontainers/ideas", "aliases": {"ideas": "/usr/local/bin/ideas", "prepMat": "/usr/local/bin/prepMat"}}
+config: {"url": "https://biocontainers.pro/tools/ideas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ideas", "latest": {"1.20--h9948957_7": "sha256:f4499a911be1c854bff458ddf86ef4a6005a2f04f52ae64c21945803335807d2"}, "tags": {"1.20--h9f5acd7_4": "sha256:0d28666a469afe3c471c642cd4d6768de4bda0f7a754af5e0a7bfdcb3bbc8ba5", "1.20--h4ac6f70_6": "sha256:bba2112b28fcec2f256d8cc86c3d5420fd2e73967b8376c169c19f1e7d4d488a", "1.20--h9948957_7": "sha256:f4499a911be1c854bff458ddf86ef4a6005a2f04f52ae64c21945803335807d2"}, "docker": "quay.io/biocontainers/ideas", "aliases": {"ideas": "/usr/local/bin/ideas", "prepMat": "/usr/local/bin/prepMat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ideas.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ideas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ideas:1.20--h4ac6f70_6
+$ shpc install quay.io/biocontainers/ideas:1.20--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ideas/1.20--h4ac6f70_6
-$ module help quay.io/biocontainers/ideas/1.20--h4ac6f70_6
+$ module load quay.io/biocontainers/ideas/1.20--h9948957_7
+$ module help quay.io/biocontainers/ideas/1.20--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-differentialregulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-differentialregulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-differentialregulation/container.yaml"
-updated_at: "2024-12-24 03:37:20.004544"
-latest: "2.0.2--r43hf17093f_0"
+updated_at: "2024-12-25 03:37:41.766156"
+latest: "2.4.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-differentialregulation"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.2.0--r42hf17093f_1"
  - "1.4.2--r43hf17093f_0"
  - "2.0.2--r43hf17093f_0"
+ - "2.4.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-differentialregulation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-differentialregulation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-differentialregulation", "latest": {"2.0.2--r43hf17093f_0": "sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:2bad62e65adc65d6cf5bb3cfd5ef0e3de222911991010551e229abc4f3190e47", "1.2.0--r42hf17093f_1": "sha256:49b52d5f4fb0c99e91750acb5a1d5e8e10d14cd6d23550b77c20352e0e24d9f3", "1.4.2--r43hf17093f_0": "sha256:580e9e3d8beed11ac2e97638fce305c1ed36f02a98e38f656c76d60b8d070937", "2.0.2--r43hf17093f_0": "sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92"}, "docker": "quay.io/biocontainers/bioconductor-differentialregulation", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-differentialregulation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-differentialregulation", "latest": {"2.4.0--r44he5774e6_0": "sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:2bad62e65adc65d6cf5bb3cfd5ef0e3de222911991010551e229abc4f3190e47", "1.2.0--r42hf17093f_1": "sha256:49b52d5f4fb0c99e91750acb5a1d5e8e10d14cd6d23550b77c20352e0e24d9f3", "1.4.2--r43hf17093f_0": "sha256:580e9e3d8beed11ac2e97638fce305c1ed36f02a98e38f656c76d60b8d070937", "2.0.2--r43hf17093f_0": "sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92", "2.4.0--r44he5774e6_0": "sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c"}, "docker": "quay.io/biocontainers/bioconductor-differentialregulation", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-differentialregulation.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-differentialregulation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-differentialregulation:2.0.2--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-differentialregulation:2.4.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-differentialregulation/2.0.2--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-differentialregulation/2.0.2--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-differentialregulation/2.4.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-differentialregulation/2.4.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

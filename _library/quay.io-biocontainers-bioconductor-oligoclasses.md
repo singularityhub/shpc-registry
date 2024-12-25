@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oligoclasses"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oligoclasses/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oligoclasses/container.yaml"
-updated_at: "2024-12-24 03:12:56.074239"
-latest: "1.64.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:12:05.927813"
+latest: "1.68.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oligoclasses"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.60.0--r42hdfd78af_0"
  - "1.62.0--r43hdfd78af_0"
  - "1.64.0--r43hdfd78af_0"
+ - "1.68.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oligoclasses"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oligoclasses", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oligoclasses", "latest": {"1.64.0--r43hdfd78af_0": "sha256:76c3512ecfb2f1e2f1b1b5269dd4d9e248db5e421a45275ecd47f6562e38f3ec"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:4234faac6dde4903be27ee1bb645853a12bb8a9bcbb22c54c077c1eaa3c98c5a", "1.60.0--r42hdfd78af_0": "sha256:d5800b1124e9983639f41880a8108353229cdd1a7c1051e0db0cde098bc4fd2b", "1.62.0--r43hdfd78af_0": "sha256:cc02e3bc0d788bf007eb13bbd59b0b5117fc60899615ed1cfcca5ba3d578c0b5", "1.64.0--r43hdfd78af_0": "sha256:76c3512ecfb2f1e2f1b1b5269dd4d9e248db5e421a45275ecd47f6562e38f3ec"}, "docker": "quay.io/biocontainers/bioconductor-oligoclasses"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oligoclasses", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oligoclasses", "latest": {"1.68.0--r44hdfd78af_0": "sha256:467e8fa60969922bfa7b9e08ed38c209f4ed8d98bdcbe598badd65546615f92d"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:4234faac6dde4903be27ee1bb645853a12bb8a9bcbb22c54c077c1eaa3c98c5a", "1.60.0--r42hdfd78af_0": "sha256:d5800b1124e9983639f41880a8108353229cdd1a7c1051e0db0cde098bc4fd2b", "1.62.0--r43hdfd78af_0": "sha256:cc02e3bc0d788bf007eb13bbd59b0b5117fc60899615ed1cfcca5ba3d578c0b5", "1.64.0--r43hdfd78af_0": "sha256:76c3512ecfb2f1e2f1b1b5269dd4d9e248db5e421a45275ecd47f6562e38f3ec", "1.68.0--r44hdfd78af_0": "sha256:467e8fa60969922bfa7b9e08ed38c209f4ed8d98bdcbe598badd65546615f92d"}, "docker": "quay.io/biocontainers/bioconductor-oligoclasses"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oligoclasses.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oligoclasses
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oligoclasses:1.64.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-oligoclasses:1.68.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oligoclasses/1.64.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-oligoclasses/1.64.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-oligoclasses/1.68.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-oligoclasses/1.68.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

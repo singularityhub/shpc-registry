@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rustyread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustyread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustyread/container.yaml"
-updated_at: "2024-12-24 02:53:39.595598"
-latest: "0.4.1--h8bd2d3b_3"
+updated_at: "2024-12-25 02:51:57.982790"
+latest: "0.4.1--heebf65f_4"
 container_url: "https://biocontainers.pro/tools/rustyread"
 aliases:
  - "rustyread"
 versions:
  - "0.4.1--hc308579_1"
  - "0.4.1--h8bd2d3b_3"
+ - "0.4.1--heebf65f_4"
 description: "shpc-registry automated BioContainers addition for rustyread"
-config: {"url": "https://biocontainers.pro/tools/rustyread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustyread", "latest": {"0.4.1--h8bd2d3b_3": "sha256:d2b23892dc7514a81049308f667a296832aba673b1a65d19548b3dd3b8954c4d"}, "tags": {"0.4.1--hc308579_1": "sha256:2ef2e411f6a3972971444983dcc8474851104ddb200c2808b9386525c5ccda1a", "0.4.1--h8bd2d3b_3": "sha256:d2b23892dc7514a81049308f667a296832aba673b1a65d19548b3dd3b8954c4d"}, "docker": "quay.io/biocontainers/rustyread", "aliases": {"rustyread": "/usr/local/bin/rustyread"}}
+config: {"url": "https://biocontainers.pro/tools/rustyread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustyread", "latest": {"0.4.1--heebf65f_4": "sha256:7651e27a57f9ebc8ac2d495039380aa45bbdaf197fd58e503c3aad206137e78a"}, "tags": {"0.4.1--hc308579_1": "sha256:2ef2e411f6a3972971444983dcc8474851104ddb200c2808b9386525c5ccda1a", "0.4.1--h8bd2d3b_3": "sha256:d2b23892dc7514a81049308f667a296832aba673b1a65d19548b3dd3b8954c4d", "0.4.1--heebf65f_4": "sha256:7651e27a57f9ebc8ac2d495039380aa45bbdaf197fd58e503c3aad206137e78a"}, "docker": "quay.io/biocontainers/rustyread", "aliases": {"rustyread": "/usr/local/bin/rustyread"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rustyread.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rustyread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rustyread:0.4.1--h8bd2d3b_3
+$ shpc install quay.io/biocontainers/rustyread:0.4.1--heebf65f_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rustyread/0.4.1--h8bd2d3b_3
-$ module help quay.io/biocontainers/rustyread/0.4.1--h8bd2d3b_3
+$ module load quay.io/biocontainers/rustyread/0.4.1--heebf65f_4
+$ module help quay.io/biocontainers/rustyread/0.4.1--heebf65f_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

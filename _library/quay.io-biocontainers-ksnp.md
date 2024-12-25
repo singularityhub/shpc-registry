@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ksnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ksnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ksnp/container.yaml"
-updated_at: "2024-12-24 03:26:50.273441"
-latest: "1.0.3--hdcf5f25_1"
+updated_at: "2024-12-25 03:26:38.660030"
+latest: "1.0.3--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/ksnp"
 aliases:
  - "ksnp"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.0.3--h146fbdb_0"
  - "1.0.3--hdcf5f25_1"
+ - "1.0.3--h077b44d_2"
 description: "singularity registry hpc automated addition for ksnp"
-config: {"url": "https://biocontainers.pro/tools/ksnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ksnp", "latest": {"1.0.3--hdcf5f25_1": "sha256:1b30d594b3768a1305b1c64dde8d3a3514434521482993123b010dfb56ce8523"}, "tags": {"1.0.3--h146fbdb_0": "sha256:8e4d1565d5769ae33cbdc8c4a7ef8eb02b5dffb5de406cce787840fd87173888", "1.0.3--hdcf5f25_1": "sha256:1b30d594b3768a1305b1c64dde8d3a3514434521482993123b010dfb56ce8523"}, "docker": "quay.io/biocontainers/ksnp", "aliases": {"ksnp": "/usr/local/bin/ksnp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ksnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ksnp", "latest": {"1.0.3--h077b44d_2": "sha256:cf19b3368c9a5c2ac6038bc03bdb6e2ad46146149793b75f4a7b978731e206b9"}, "tags": {"1.0.3--h146fbdb_0": "sha256:8e4d1565d5769ae33cbdc8c4a7ef8eb02b5dffb5de406cce787840fd87173888", "1.0.3--hdcf5f25_1": "sha256:1b30d594b3768a1305b1c64dde8d3a3514434521482993123b010dfb56ce8523", "1.0.3--h077b44d_2": "sha256:cf19b3368c9a5c2ac6038bc03bdb6e2ad46146149793b75f4a7b978731e206b9"}, "docker": "quay.io/biocontainers/ksnp", "aliases": {"ksnp": "/usr/local/bin/ksnp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ksnp.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ksnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ksnp:1.0.3--hdcf5f25_1
+$ shpc install quay.io/biocontainers/ksnp:1.0.3--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ksnp/1.0.3--hdcf5f25_1
-$ module help quay.io/biocontainers/ksnp/1.0.3--hdcf5f25_1
+$ module load quay.io/biocontainers/ksnp/1.0.3--h077b44d_2
+$ module help quay.io/biocontainers/ksnp/1.0.3--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

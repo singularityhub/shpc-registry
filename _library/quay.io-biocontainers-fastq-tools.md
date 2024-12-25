@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-tools/container.yaml"
-updated_at: "2024-12-24 02:52:36.235982"
-latest: "0.8.3--hbd632db_2"
+updated_at: "2024-12-25 02:50:52.006931"
+latest: "0.8--hed695b0_3"
 container_url: "https://biocontainers.pro/tools/fastq-tools"
 aliases:
  - "fastq-grep"
@@ -21,8 +21,9 @@ versions:
  - "0.8.3--hbd632db_2"
  - "0.8--hed695b0_3"
  - "0.8.3--h6ead514_4"
+ - "0.8.3--h1104d80_5"
 description: "shpc-registry automated BioContainers addition for fastq-tools"
-config: {"url": "https://biocontainers.pro/tools/fastq-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-tools", "latest": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59"}, "tags": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59", "0.8--hed695b0_3": "sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431", "0.8.3--h6ead514_4": "sha256:3d1236810e70c0f224b036e89915df6c8ff4d53da9174844efa4abb6b59febbe"}, "docker": "quay.io/biocontainers/fastq-tools", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-tools", "latest": {"0.8--hed695b0_3": "sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431"}, "tags": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59", "0.8--hed695b0_3": "sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431", "0.8.3--h6ead514_4": "sha256:3d1236810e70c0f224b036e89915df6c8ff4d53da9174844efa4abb6b59febbe", "0.8.3--h1104d80_5": "sha256:725266e6754331326f75a0cb83f9e31311a74537e7b1fac1958f78669d910a44"}, "docker": "quay.io/biocontainers/fastq-tools", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-tools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/fastq-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-tools:0.8.3--hbd632db_2
+$ shpc install quay.io/biocontainers/fastq-tools:0.8--hed695b0_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-tools/0.8.3--hbd632db_2
-$ module help quay.io/biocontainers/fastq-tools/0.8.3--hbd632db_2
+$ module load quay.io/biocontainers/fastq-tools/0.8--hed695b0_3
+$ module help quay.io/biocontainers/fastq-tools/0.8--hed695b0_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

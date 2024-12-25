@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
-updated_at: "2024-12-24 03:26:21.088196"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:26:08.317372"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omixer"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omixer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omixer", "latest": {"1.12.0--r43hdfd78af_0": "sha256:30bbad5f65f590f879e542fb933df39aceddeda9d2cc8cd45ba349f53bda4924"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed", "1.8.0--r42hdfd78af_0": "sha256:341496cc60358a6fef04081663b01e5fcb8ffff51daca196efa48c0ac096dd08", "1.10.0--r43hdfd78af_0": "sha256:45e941c476155979908572f820e3579af26cb5ab22f3dea71a0ec4ad297f4663", "1.12.0--r43hdfd78af_0": "sha256:30bbad5f65f590f879e542fb933df39aceddeda9d2cc8cd45ba349f53bda4924"}, "docker": "quay.io/biocontainers/bioconductor-omixer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omixer", "latest": {"1.16.0--r44hdfd78af_0": "sha256:5fbd1a1e2427e74cca37ca9368ea0584ed09c95b08ef2905350963aa4ac96f9f"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed", "1.8.0--r42hdfd78af_0": "sha256:341496cc60358a6fef04081663b01e5fcb8ffff51daca196efa48c0ac096dd08", "1.10.0--r43hdfd78af_0": "sha256:45e941c476155979908572f820e3579af26cb5ab22f3dea71a0ec4ad297f4663", "1.12.0--r43hdfd78af_0": "sha256:30bbad5f65f590f879e542fb933df39aceddeda9d2cc8cd45ba349f53bda4924", "1.16.0--r44hdfd78af_0": "sha256:5fbd1a1e2427e74cca37ca9368ea0584ed09c95b08ef2905350963aa4ac96f9f"}, "docker": "quay.io/biocontainers/bioconductor-omixer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omixer.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omixer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omixer:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omixer:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omixer/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omixer/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omixer/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omixer/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

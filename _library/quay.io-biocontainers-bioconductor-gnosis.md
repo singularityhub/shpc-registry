@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gnosis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gnosis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gnosis/container.yaml"
-updated_at: "2024-12-24 03:04:11.308446"
+updated_at: "2024-12-25 03:02:55.925918"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gnosis"
 aliases:

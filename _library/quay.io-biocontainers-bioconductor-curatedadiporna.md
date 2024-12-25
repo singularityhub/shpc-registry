@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-curatedadiporna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedadiporna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedadiporna/container.yaml"
-updated_at: "2024-12-24 03:10:11.897403"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:09:13.631697"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedadiporna"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.10.0--r41hdfd78af_1"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedadiporna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadiporna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadiporna", "latest": {"1.18.0--r43hdfd78af_0": "sha256:0abfa5d5819b1367f32900fc46517425116e74b9173b71382e816e940192e1f7"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368", "1.14.0--r42hdfd78af_0": "sha256:309f1f9fd795822fec3a273cb5f380da880e09da1e9a52c04ae2e12bc3204329", "1.10.0--r41hdfd78af_1": "sha256:0755f4d8a99a0d7c291bb61b987a65399acabbf840376a2574a8e52997e13f30", "1.16.0--r43hdfd78af_0": "sha256:87d0058edd96534b6c747dfba47964cc148193c0df7f9766b737194bcd7f592e", "1.18.0--r43hdfd78af_0": "sha256:0abfa5d5819b1367f32900fc46517425116e74b9173b71382e816e940192e1f7"}, "docker": "quay.io/biocontainers/bioconductor-curatedadiporna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadiporna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadiporna", "latest": {"1.22.0--r44hdfd78af_0": "sha256:ce564077933a62b2eae3bbdef4f586af3dc7c0b6c5fe445b4fab85619b1de987"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368", "1.14.0--r42hdfd78af_0": "sha256:309f1f9fd795822fec3a273cb5f380da880e09da1e9a52c04ae2e12bc3204329", "1.10.0--r41hdfd78af_1": "sha256:0755f4d8a99a0d7c291bb61b987a65399acabbf840376a2574a8e52997e13f30", "1.16.0--r43hdfd78af_0": "sha256:87d0058edd96534b6c747dfba47964cc148193c0df7f9766b737194bcd7f592e", "1.18.0--r43hdfd78af_0": "sha256:0abfa5d5819b1367f32900fc46517425116e74b9173b71382e816e940192e1f7", "1.22.0--r44hdfd78af_0": "sha256:ce564077933a62b2eae3bbdef4f586af3dc7c0b6c5fe445b4fab85619b1de987"}, "docker": "quay.io/biocontainers/bioconductor-curatedadiporna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedadiporna.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-curatedadiporna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-curatedadiporna:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-curatedadiporna:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-curatedadiporna/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-curatedadiporna/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-curatedadiporna/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-curatedadiporna/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

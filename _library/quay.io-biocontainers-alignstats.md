@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alignstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignstats/container.yaml"
-updated_at: "2024-12-24 03:36:42.272929"
-latest: "0.10--h031d066_2"
+updated_at: "2024-12-25 03:37:01.854512"
+latest: "0.11--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/alignstats"
 aliases:
  - "alignstats"
@@ -17,8 +17,10 @@ versions:
  - "0.10--hec16e2b_0"
  - "0.10--h031d066_1"
  - "0.10--h031d066_2"
+ - "0.11--h7b50bb2_0"
+ - "0.10--h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for alignstats"
-config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.10--h031d066_2": "sha256:3cfa38fbcb243bb9992e158e5186364c42f4b7d26a9844df052df14b1d72fc58"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b", "0.10--hec16e2b_0": "sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b", "0.10--h031d066_1": "sha256:bf89356d81547c963452f3147a69b36401a9d2475c3a7958f371d69ed0c28978", "0.10--h031d066_2": "sha256:3cfa38fbcb243bb9992e158e5186364c42f4b7d26a9844df052df14b1d72fc58"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.11--h7b50bb2_0": "sha256:f1b9186f2924934889c4f567678bc99f867e12527c43896495a10f4cbf210a13"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b", "0.10--hec16e2b_0": "sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b", "0.10--h031d066_1": "sha256:bf89356d81547c963452f3147a69b36401a9d2475c3a7958f371d69ed0c28978", "0.10--h031d066_2": "sha256:3cfa38fbcb243bb9992e158e5186364c42f4b7d26a9844df052df14b1d72fc58", "0.11--h7b50bb2_0": "sha256:f1b9186f2924934889c4f567678bc99f867e12527c43896495a10f4cbf210a13", "0.10--h7b50bb2_3": "sha256:7362933f782b92bda975ed4d8b6fdd63b48a36f5bc04708c84c6c0ff22095083"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignstats.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/alignstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alignstats:0.10--h031d066_2
+$ shpc install quay.io/biocontainers/alignstats:0.11--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alignstats/0.10--h031d066_2
-$ module help quay.io/biocontainers/alignstats/0.10--h031d066_2
+$ module load quay.io/biocontainers/alignstats/0.11--h7b50bb2_0
+$ module help quay.io/biocontainers/alignstats/0.11--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

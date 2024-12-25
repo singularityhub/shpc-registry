@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/meta-apo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-apo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meta-apo/container.yaml"
-updated_at: "2024-12-24 03:31:41.527881"
-latest: "1.1--h4ac6f70_6"
+updated_at: "2024-12-25 03:31:44.195425"
+latest: "1.1--h9948957_7"
 container_url: "https://biocontainers.pro/tools/meta-apo"
 aliases:
  - "meta-apo-calibrate"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.1--h9f5acd7_4"
  - "1.1--h4ac6f70_6"
+ - "1.1--h9948957_7"
 description: "shpc-registry automated BioContainers addition for meta-apo"
-config: {"url": "https://biocontainers.pro/tools/meta-apo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-apo", "latest": {"1.1--h4ac6f70_6": "sha256:380fc9536a2024a02ec9f70e002b69be13198bbbc8af6932e9ae0e6094faedba"}, "tags": {"1.1--h9f5acd7_4": "sha256:d6bd635509c102b5f0bef9f957111af3d513644900f51c024a2ac46601b024c1", "1.1--h4ac6f70_6": "sha256:380fc9536a2024a02ec9f70e002b69be13198bbbc8af6932e9ae0e6094faedba"}, "docker": "quay.io/biocontainers/meta-apo", "aliases": {"meta-apo-calibrate": "/usr/local/bin/meta-apo-calibrate", "meta-apo-train": "/usr/local/bin/meta-apo-train"}}
+config: {"url": "https://biocontainers.pro/tools/meta-apo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-apo", "latest": {"1.1--h9948957_7": "sha256:bc21df286542c3e9bf9978a1e7901177b73a21741b695b0934be2a8e92b4ff1a"}, "tags": {"1.1--h9f5acd7_4": "sha256:d6bd635509c102b5f0bef9f957111af3d513644900f51c024a2ac46601b024c1", "1.1--h4ac6f70_6": "sha256:380fc9536a2024a02ec9f70e002b69be13198bbbc8af6932e9ae0e6094faedba", "1.1--h9948957_7": "sha256:bc21df286542c3e9bf9978a1e7901177b73a21741b695b0934be2a8e92b4ff1a"}, "docker": "quay.io/biocontainers/meta-apo", "aliases": {"meta-apo-calibrate": "/usr/local/bin/meta-apo-calibrate", "meta-apo-train": "/usr/local/bin/meta-apo-train"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meta-apo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/meta-apo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/meta-apo:1.1--h4ac6f70_6
+$ shpc install quay.io/biocontainers/meta-apo:1.1--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/meta-apo/1.1--h4ac6f70_6
-$ module help quay.io/biocontainers/meta-apo/1.1--h4ac6f70_6
+$ module load quay.io/biocontainers/meta-apo/1.1--h9948957_7
+$ module help quay.io/biocontainers/meta-apo/1.1--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

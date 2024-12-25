@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sponge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sponge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sponge/container.yaml"
-updated_at: "2024-12-24 03:01:34.746041"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:00:12.322188"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sponge"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sponge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sponge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sponge", "latest": {"1.22.0--r43hdfd78af_0": "sha256:855f5a42415faaf80e8508e2d824f54b04b4248f4a4665ab1196cb1f296904fe"}, "tags": {"1.8.0--r36_0": "sha256:4e1bdce1cef1c3a86b4aed341602eb854b8fd4cf91c0b99d7899b33303fe792d", "1.20.0--r42hdfd78af_0": "sha256:478112962ee576e576043b164e0917d7c057bbce46a0dff95c976b75838fd0cc", "1.16.0--r41hdfd78af_0": "sha256:55e0e0c3aa2bd8528ee98232534197e8bb578972b1727f380b6b56f1084d10ab", "1.14.0--r41hdfd78af_0": "sha256:2c532b9b6dc170ebf03594cb2312d51107ae54d1580dd159fd1605126694cb47", "1.12.0--r40hdfd78af_1": "sha256:0257ede206c8810fe85593de4a7dc299f45fce83561ce6c35abdf8494adc1645", "1.10.0--r40_0": "sha256:0019b3aa6f74c6cc264695b63720bc68c7501c338f84875d24700f8632a68206", "1.22.0--r43hdfd78af_0": "sha256:855f5a42415faaf80e8508e2d824f54b04b4248f4a4665ab1196cb1f296904fe"}, "docker": "quay.io/biocontainers/bioconductor-sponge", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sponge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sponge", "latest": {"1.28.0--r44hdfd78af_0": "sha256:272fd6b840d79198c03c286385d8d861fabb348cc6b7f21860b5159f312f1300"}, "tags": {"1.8.0--r36_0": "sha256:4e1bdce1cef1c3a86b4aed341602eb854b8fd4cf91c0b99d7899b33303fe792d", "1.20.0--r42hdfd78af_0": "sha256:478112962ee576e576043b164e0917d7c057bbce46a0dff95c976b75838fd0cc", "1.16.0--r41hdfd78af_0": "sha256:55e0e0c3aa2bd8528ee98232534197e8bb578972b1727f380b6b56f1084d10ab", "1.14.0--r41hdfd78af_0": "sha256:2c532b9b6dc170ebf03594cb2312d51107ae54d1580dd159fd1605126694cb47", "1.12.0--r40hdfd78af_1": "sha256:0257ede206c8810fe85593de4a7dc299f45fce83561ce6c35abdf8494adc1645", "1.10.0--r40_0": "sha256:0019b3aa6f74c6cc264695b63720bc68c7501c338f84875d24700f8632a68206", "1.22.0--r43hdfd78af_0": "sha256:855f5a42415faaf80e8508e2d824f54b04b4248f4a4665ab1196cb1f296904fe", "1.28.0--r44hdfd78af_0": "sha256:272fd6b840d79198c03c286385d8d861fabb348cc6b7f21860b5159f312f1300"}, "docker": "quay.io/biocontainers/bioconductor-sponge", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sponge.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sponge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sponge:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sponge:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sponge/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sponge/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sponge/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sponge/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

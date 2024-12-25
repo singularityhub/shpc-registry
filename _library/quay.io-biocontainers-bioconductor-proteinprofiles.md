@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-proteinprofiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteinprofiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteinprofiles/container.yaml"
-updated_at: "2024-12-24 03:12:06.404536"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2024-12-25 03:11:13.898937"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteinprofiles"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.38.0--r42hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-proteinprofiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proteinprofiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteinprofiles", "latest": {"1.42.0--r43hdfd78af_0": "sha256:c087924138451c941e7e4e003df0f5b296eb683b850b5300583ebd8a90310bf8"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:505385e153c56ce8b33bfcefddfd636bf5379ecc05d1e97a3656f1cf76a64665", "1.38.0--r42hdfd78af_0": "sha256:77f94affd09ed53a927000eee3a06c5684c997f4033ec55400964f1f9d6cee0a", "1.40.0--r43hdfd78af_0": "sha256:aaa0f33c1525e0a456eb66dc927e7e0572aa5648755bf44b7e9d50be2b9b1056", "1.42.0--r43hdfd78af_0": "sha256:c087924138451c941e7e4e003df0f5b296eb683b850b5300583ebd8a90310bf8"}, "docker": "quay.io/biocontainers/bioconductor-proteinprofiles"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proteinprofiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteinprofiles", "latest": {"1.46.0--r44hdfd78af_0": "sha256:98a02c275d8daad695614e0ffddf6a29115d7bb8cd86a81e9cd02ac0376d4969"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:505385e153c56ce8b33bfcefddfd636bf5379ecc05d1e97a3656f1cf76a64665", "1.38.0--r42hdfd78af_0": "sha256:77f94affd09ed53a927000eee3a06c5684c997f4033ec55400964f1f9d6cee0a", "1.40.0--r43hdfd78af_0": "sha256:aaa0f33c1525e0a456eb66dc927e7e0572aa5648755bf44b7e9d50be2b9b1056", "1.42.0--r43hdfd78af_0": "sha256:c087924138451c941e7e4e003df0f5b296eb683b850b5300583ebd8a90310bf8", "1.46.0--r44hdfd78af_0": "sha256:98a02c275d8daad695614e0ffddf6a29115d7bb8cd86a81e9cd02ac0376d4969"}, "docker": "quay.io/biocontainers/bioconductor-proteinprofiles"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proteinprofiles.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-proteinprofiles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-proteinprofiles:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-proteinprofiles:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-proteinprofiles/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-proteinprofiles/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-proteinprofiles/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-proteinprofiles/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-compress-deflate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-compress-deflate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-compress-deflate/container.yaml"
-updated_at: "2024-12-24 02:59:08.246692"
+updated_at: "2024-12-25 02:57:39.988295"
 latest: "2.064--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-compress-deflate"
 aliases:

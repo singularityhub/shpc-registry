@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pangwes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangwes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangwes/container.yaml"
-updated_at: "2024-12-24 03:13:49.805702"
-latest: "0.3.0_alpha--h4ac6f70_0"
+updated_at: "2024-12-25 03:13:02.191844"
+latest: "0.3.0_alpha--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pangwes"
 aliases:
  - "SpydrPick"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.2.0_alpha--h4ac6f70_0"
  - "0.3.0_alpha--h4ac6f70_0"
+ - "0.3.0_alpha--h9948957_1"
 description: "singularity registry hpc automated addition for pangwes"
-config: {"url": "https://biocontainers.pro/tools/pangwes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangwes", "latest": {"0.3.0_alpha--h4ac6f70_0": "sha256:e98ba7713bbc4c42ab14d5b5f8af7b103d74b5808375b24173f4b91de07786f3"}, "tags": {"0.2.0_alpha--h4ac6f70_0": "sha256:b2d7d39eeee3e12ba9e52606c40cb76e884a44f0dc8a89051a8e00fbe3c85908", "0.3.0_alpha--h4ac6f70_0": "sha256:e98ba7713bbc4c42ab14d5b5f8af7b103d74b5808375b24173f4b91de07786f3"}, "docker": "quay.io/biocontainers/pangwes", "aliases": {"SpydrPick": "/usr/local/bin/SpydrPick", "cuttlefish": "/usr/local/bin/cuttlefish", "gfa1_parser": "/usr/local/bin/gfa1_parser", "gwes_plot.r": "/usr/local/bin/gwes_plot.r", "unitig_distance": "/usr/local/bin/unitig_distance", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/pangwes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangwes", "latest": {"0.3.0_alpha--h9948957_1": "sha256:587a399c2dc63a4cb287850953adb7ee0db3f28f7bb85c3e84216e4d227de864"}, "tags": {"0.2.0_alpha--h4ac6f70_0": "sha256:b2d7d39eeee3e12ba9e52606c40cb76e884a44f0dc8a89051a8e00fbe3c85908", "0.3.0_alpha--h4ac6f70_0": "sha256:e98ba7713bbc4c42ab14d5b5f8af7b103d74b5808375b24173f4b91de07786f3", "0.3.0_alpha--h9948957_1": "sha256:587a399c2dc63a4cb287850953adb7ee0db3f28f7bb85c3e84216e4d227de864"}, "docker": "quay.io/biocontainers/pangwes", "aliases": {"SpydrPick": "/usr/local/bin/SpydrPick", "cuttlefish": "/usr/local/bin/cuttlefish", "gfa1_parser": "/usr/local/bin/gfa1_parser", "gwes_plot.r": "/usr/local/bin/gwes_plot.r", "unitig_distance": "/usr/local/bin/unitig_distance", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pangwes.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/pangwes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pangwes:0.3.0_alpha--h4ac6f70_0
+$ shpc install quay.io/biocontainers/pangwes:0.3.0_alpha--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pangwes/0.3.0_alpha--h4ac6f70_0
-$ module help quay.io/biocontainers/pangwes/0.3.0_alpha--h4ac6f70_0
+$ module load quay.io/biocontainers/pangwes/0.3.0_alpha--h9948957_1
+$ module help quay.io/biocontainers/pangwes/0.3.0_alpha--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

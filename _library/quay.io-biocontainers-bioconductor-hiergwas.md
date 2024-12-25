@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hiergwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiergwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiergwas/container.yaml"
-updated_at: "2024-12-24 03:07:09.476504"
-latest: "1.32.0--r43hdfd78af_1"
+updated_at: "2024-12-25 03:06:02.441008"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiergwas"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.28.0--r42hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_1"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hiergwas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hiergwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hiergwas", "latest": {"1.32.0--r43hdfd78af_1": "sha256:d23a4f52cb3f762e0f0c351908a56f6ca38cb3e9d831a4e4a50e92e7cfa91fb6"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:3cfde919da0148507c6ade5febdf0ca0cd23a18952a65f870bbc2d3035c5d7ef", "1.28.0--r42hdfd78af_0": "sha256:caa10be6053a89cc11eed6dffecde474b5049e910e88ca60f4cab613377f1686", "1.30.0--r43hdfd78af_0": "sha256:e2c50ca6e9b93a88a71ee0f118ea702e233da57a8da572bedeec2f20628a1a82", "1.32.0--r43hdfd78af_1": "sha256:d23a4f52cb3f762e0f0c351908a56f6ca38cb3e9d831a4e4a50e92e7cfa91fb6"}, "docker": "quay.io/biocontainers/bioconductor-hiergwas"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hiergwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hiergwas", "latest": {"1.36.0--r44hdfd78af_0": "sha256:558498f53776118a9b8a42d82fbdedbe17462cbd78cd45d1cbf9a91a4e87da76"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:3cfde919da0148507c6ade5febdf0ca0cd23a18952a65f870bbc2d3035c5d7ef", "1.28.0--r42hdfd78af_0": "sha256:caa10be6053a89cc11eed6dffecde474b5049e910e88ca60f4cab613377f1686", "1.30.0--r43hdfd78af_0": "sha256:e2c50ca6e9b93a88a71ee0f118ea702e233da57a8da572bedeec2f20628a1a82", "1.32.0--r43hdfd78af_1": "sha256:d23a4f52cb3f762e0f0c351908a56f6ca38cb3e9d831a4e4a50e92e7cfa91fb6", "1.36.0--r44hdfd78af_0": "sha256:558498f53776118a9b8a42d82fbdedbe17462cbd78cd45d1cbf9a91a4e87da76"}, "docker": "quay.io/biocontainers/bioconductor-hiergwas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hiergwas.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hiergwas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hiergwas:1.32.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-hiergwas:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hiergwas/1.32.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-hiergwas/1.32.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-hiergwas/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hiergwas/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
