@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-epivizrdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epivizrdata
 latest:
-  1.30.0--r43hdfd78af_0: sha256:bc63c3e72912ea87a6ee8260796b9cc965bb0796fa15d2cf4035ae00562dec6f
+  1.34.0--r44hdfd78af_0: sha256:b15c530e63da53806af1bb9d6fe7323f72762415d87c14327bb38118bfdaf0fa
 tags:
   1.8.0--r351_0: sha256:5117003fb5ad778bb916b2e7ff43067f6f905013569db71a577e66d0420af20d
   1.26.0--r42hdfd78af_0: sha256:9fe805cd2c3042d1c08199b46e15f382937d68c968d44e15a63423ad9db3ba8b
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:c55a1556c3cc0a9a53befecb50cca35a2613e81b338d7df7056747bebe526544
   1.28.0--r43hdfd78af_0: sha256:9d394e8b3ba1e777f33a066a97fe7d9f7bd66b6ef5c5415306c6e1a8253ee680
   1.30.0--r43hdfd78af_0: sha256:bc63c3e72912ea87a6ee8260796b9cc965bb0796fa15d2cf4035ae00562dec6f
+  1.34.0--r44hdfd78af_0: sha256:b15c530e63da53806af1bb9d6fe7323f72762415d87c14327bb38118bfdaf0fa
 docker: quay.io/biocontainers/bioconductor-epivizrdata
 aliases:
   wget: /usr/local/bin/wget

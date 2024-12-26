@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/cogent3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cogent3
 latest:
-  2024.7.19a9--pyhdfd78af_0: sha256:6dc4fb77ef8384d8a05fad2e98eba2f6357b62c7618ede61f4253b53807b9efd
+  2024.12.19a1--pyhdfd78af_0: sha256:0dc87528ae847099fe46a0ca874b4497e0703e9e219279be35b8f8db147e390d
 tags:
   2022.8.24a1--pyhdfd78af_0: sha256:1b0138ed723f6016e7ecd6f1fd5c459ca5f1aba1383c448d80d5271e8cdd99fd
   2023.7.18a1--pyhdfd78af_0: sha256:91a8398da9748f6a96f103302338c0e9ea458b49091e374c92de649ac01c02a7
@@ -15,6 +15,8 @@ tags:
   2024.7.19a6--pyhdfd78af_0: sha256:1b75fa6f8f35a496b644ac82e323a8c936b1b703b756b93537b52cc5053288fb
   2024.7.19a8--pyhdfd78af_0: sha256:a6ff051fbc61d075f48997e4d63c2e42f55f2e0345c5da9e244536485e53ef94
   2024.7.19a9--pyhdfd78af_0: sha256:6dc4fb77ef8384d8a05fad2e98eba2f6357b62c7618ede61f4253b53807b9efd
+  2024.12.19a1--pyhdfd78af_0: sha256:0dc87528ae847099fe46a0ca874b4497e0703e9e219279be35b8f8db147e390d
+  2024.11.29a2--pyhdfd78af_0: sha256:779f850f6faa89d90bf50b28b6fdf72e031845d99fe709c27fbde502b5852620
 docker: quay.io/biocontainers/cogent3
 aliases:
   numba: /usr/local/bin/numba

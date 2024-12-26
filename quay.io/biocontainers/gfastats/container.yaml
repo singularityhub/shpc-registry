@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gfastats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gfastats
 latest:
-  1.3.9--hdcf5f25_0: sha256:bd5cd9e372372a87d3e2d4c42d1e83eb9abe76a6c801321add1c809c64a0e4da
+  1.3.9--h077b44d_1: sha256:f202d8ad6aa9b854a5104a4bf3ae56386daad9b5a8e912f2d681e63b830ffef6
 tags:
   1.3.5--hd03093a_0: sha256:0588b0114f6e092cd9492b2f0b5f160cc6b59b001d9ee8929c4b48b13fec0e77
   1.3.6--hd03093a_0: sha256:a36354ca9f8fe248c5c950ba6cfdcdf4003841b4fa8a3d7b066fb60a81713ad6
@@ -11,6 +11,7 @@ tags:
   1.3.7--hdcf5f25_1: sha256:1611759abd36d92bb083b9b5539ccbbddb0de6d90443c695947ba20a115cb611
   1.3.8--hdcf5f25_1: sha256:4133ec485bbddc10e90a067ec1eee115b8b92a191edb8e2651b62498971fcccc
   1.3.9--hdcf5f25_0: sha256:bd5cd9e372372a87d3e2d4c42d1e83eb9abe76a6c801321add1c809c64a0e4da
+  1.3.9--h077b44d_1: sha256:f202d8ad6aa9b854a5104a4bf3ae56386daad9b5a8e912f2d681e63b830ffef6
 docker: quay.io/biocontainers/gfastats
 aliases:
   gfastats: /usr/local/bin/gfastats

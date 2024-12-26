@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tipp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tipp
 latest:
-  1.1.0--py38pl5321hdcf5f25_0: sha256:90b153e191db47203a798c49d1b100df6ef0836128a3a84a45e50b5b7ef66c12
+  1.3.0--py38pl5321h077b44d_0: sha256:e4f406ac4bc0c1a3e6af43914cfe52dce7625eba938a6c8302f54977555bd970
 tags:
   1.1.0--py38pl5321hdcf5f25_0: sha256:90b153e191db47203a798c49d1b100df6ef0836128a3a84a45e50b5b7ef66c12
+  1.3.0--py38pl5321h077b44d_0: sha256:e4f406ac4bc0c1a3e6af43914cfe52dce7625eba938a6c8302f54977555bd970
+  1.2.0--py38pl5321h077b44d_0: sha256:88a8d3c08369289fe7a03a05d55a2f1247b377993974482fb26d51aeecc4ec9d
 docker: quay.io/biocontainers/tipp
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-scarray.sat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scarray.sat
 latest:
-  1.2.0--r43hdfd78af_0: sha256:76bfd1e1535df9f1c2b2d6505e7f476c9b802c60ad7defb5df51c34b320f394c
+  1.6.0--r44hdfd78af_0: sha256:94516822074bfae0c47c05c18b47fe670489ab11713c09779d8a97ead2a1deec
 tags:
   1.0.2--r43hdfd78af_0: sha256:1c4cb00668ed99e023c69a05f63b5a8ca2b5da8adae26d95222594f59a2a82fa
   1.2.0--r43hdfd78af_0: sha256:76bfd1e1535df9f1c2b2d6505e7f476c9b802c60ad7defb5df51c34b320f394c
+  1.6.0--r44hdfd78af_0: sha256:94516822074bfae0c47c05c18b47fe670489ab11713c09779d8a97ead2a1deec
 docker: quay.io/biocontainers/bioconductor-scarray.sat
 aliases:
   geosop: /usr/local/bin/geosop

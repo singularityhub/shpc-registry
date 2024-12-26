@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/captus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for captus
 latest:
-  1.0.1--pyhdfd78af_2: sha256:0a92968d2d353bdf2052d5e1da8fe4fe7253c2b5839ba445a1ffb5fb9f192448
+  1.1.0--pyhdfd78af_0: sha256:b3a95b3ab0ecaedd0402f14777945ca3fec247d0d1e51fab64860f44c591cc24
 tags:
   0.9.91--pyhdfd78af_0: sha256:7b81e5c5d4241d3021b84032a0b38bee159a998528c212a7db6ab9a6d5656ee9
   0.9.91--pyhdfd78af_2: sha256:2ce18ac402d51f5ec4b7977357c3ab09b42af0c3123b265e8079964b298b2151
@@ -13,6 +13,8 @@ tags:
   0.9.99--pyhdfd78af_0: sha256:75dfbd1522701ef48cd6c5c6c7fb3dc7514e5ee8e171f22a81783cf786745369
   1.0.1--pyhdfd78af_1: sha256:97989fc1b119bfd988a0359fc742797704ce9bc49c7ed49d79a412ee022f9e60
   1.0.1--pyhdfd78af_2: sha256:0a92968d2d353bdf2052d5e1da8fe4fe7253c2b5839ba445a1ffb5fb9f192448
+  1.1.0--pyhdfd78af_0: sha256:b3a95b3ab0ecaedd0402f14777945ca3fec247d0d1e51fab64860f44c591cc24
+  1.0.1--pyhdfd78af_4: sha256:2b8cc6d68fec4c0bb5ddaa3fccf2689d3116d9412040c00b72d8eed8b4b5d7c1
 docker: quay.io/biocontainers/captus
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-forks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-forks
 latest:
-  0.36--pl5321h031d066_8: sha256:93a4675476150411440dc6b5525fb0258bba27dee93ccb77f0b289dfe167b1b5
+  0.36--pl5321h7b50bb2_9: sha256:16f7f05a037b3da949734aba21f256012660bf9753f9da5b4dc67a25027858af
 tags:
   0.36--pl5321hec16e2b_7: sha256:ff54359bed5d1c77d428947dd46914a94a597b75f1ce9b7e7329b54895069f70
   0.36--pl5321h031d066_8: sha256:93a4675476150411440dc6b5525fb0258bba27dee93ccb77f0b289dfe167b1b5
+  0.36--pl5321h7b50bb2_9: sha256:16f7f05a037b3da949734aba21f256012660bf9753f9da5b4dc67a25027858af
 docker: quay.io/biocontainers/perl-forks
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

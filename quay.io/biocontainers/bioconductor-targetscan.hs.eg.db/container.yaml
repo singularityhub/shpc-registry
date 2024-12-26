@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-targetscan.hs.eg.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-targetscan.hs.eg.db
 latest:
-  0.6.1--r43hdfd78af_13: sha256:f621fa07424b32f9b66b07af7e08819982762b2c5833d66b67e62598a36f7672
+  0.6.1--r44hdfd78af_14: sha256:724eefbdf887f78bb82fa72125d019ce4a263e3ef177b7c6925d183737f2c0db
 tags:
   0.6.1--r41hdfd78af_9: sha256:bae8ffba00388284ac8a89349c694908924828212d4b10f9cf917a0c57dae96d
   0.6.1--r42hdfd78af_11: sha256:de7bc99a57bd705348ecf63afbc86c936bcc454caee0c34064fdec2e36e3e13a
   0.6.1--r43hdfd78af_12: sha256:90109c6e2c4d6b66e0e25e5ebbf5fe87473bee79ae732b3cc89a21733ddb1f6d
   0.6.1--r43hdfd78af_13: sha256:f621fa07424b32f9b66b07af7e08819982762b2c5833d66b67e62598a36f7672
+  0.6.1--r44hdfd78af_14: sha256:724eefbdf887f78bb82fa72125d019ce4a263e3ef177b7c6925d183737f2c0db
 docker: quay.io/biocontainers/bioconductor-targetscan.hs.eg.db

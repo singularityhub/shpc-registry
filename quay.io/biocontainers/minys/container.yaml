@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/minys
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minys
 latest:
-  1.1--h4ac6f70_5: sha256:5bfe5cf2e3780683c95eeec83fb3e6bcd71a4b57c681049639cec6d652c21f27
+  1.1--h9948957_6: sha256:98d5077077db9e552b617ac4837d0f8c315b78324b41389f5d5bde60aded65be
 tags:
   1.1--h9f5acd7_4: sha256:62ef23cefa617cb10ed631d5633d166f2766159a620d00e778bb674b3e79d67b
   1.1--h4ac6f70_5: sha256:5bfe5cf2e3780683c95eeec83fb3e6bcd71a4b57c681049639cec6d652c21f27
+  1.1--h9948957_6: sha256:98d5077077db9e552b617ac4837d0f8c315b78324b41389f5d5bde60aded65be
 docker: quay.io/biocontainers/minys
 aliases:
   MinYS.py: /usr/local/bin/MinYS.py

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/flexserv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexserv
 latest:
-  1.0.2--h8537716_2: sha256:d6699809506f464a707acb27d48c5145f59dd3dc27c9abafc16a9f77f7d3be91
+  1.0.2--hb2a3317_3: sha256:56f93dbbbcb47516f76efcd965a37f4049e2a4c94825cacf0486e7a2a3951660
 tags:
   1.0.2--h1aed7a7_0: sha256:986a5db952a3b1073feab9cb9caf857d438292b417eff9f3334d61e91222c5d8
   1.0.2--h8537716_2: sha256:d6699809506f464a707acb27d48c5145f59dd3dc27c9abafc16a9f77f7d3be91
+  1.0.2--hb2a3317_3: sha256:56f93dbbbcb47516f76efcd965a37f4049e2a4c94825cacf0486e7a2a3951660
 docker: quay.io/biocontainers/flexserv
 aliases:
   bd: /usr/local/bin/bd

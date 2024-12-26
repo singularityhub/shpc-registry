@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dascrubber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dascrubber
 latest:
-  0.0.1a2--h031d066_6: sha256:1fe21483ca046f64c068e148ba03fe40b67999f08899f79c5b36eaff8125eabd
+  0.0.1a2--h7b50bb2_7: sha256:3e84327376c8b9f2ebc5eff2db184e4072071e85d4c8143b635875b0a55649fc
 tags:
   0.0.1a2--hec16e2b_4: sha256:be3064ed631087420ce88b26912ae3906e48081e81941a6f0ecf566428c888e9
   0.0.1a2--h031d066_6: sha256:1fe21483ca046f64c068e148ba03fe40b67999f08899f79c5b36eaff8125eabd
+  0.0.1a2--h7b50bb2_7: sha256:3e84327376c8b9f2ebc5eff2db184e4072071e85d4c8143b635875b0a55649fc
 docker: quay.io/biocontainers/dascrubber
 aliases:
   DASedit: /usr/local/bin/DASedit

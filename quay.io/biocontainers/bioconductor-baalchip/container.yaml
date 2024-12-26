@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-baalchip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-baalchip
 latest:
-  1.28.0--r43hdfd78af_0: sha256:8fc2dfae49d6023aeaae0041dc2af56f7533e2c0956ca9fa25f983a178b5969c
+  1.32.0--r44hdfd78af_0: sha256:262aebfdd3f95262d1521ddb953ec25668f40f8ac761c69a637d01f1afed9962
 tags:
   1.8.0--r351_0: sha256:1d0ea4f58905f442928163b9150f025e02653f3dd4ed99323bbdcfc3d880b159
   1.24.0--r42hdfd78af_0: sha256:1665558175595aa97932bb840655bfe8689cb89998022bbd8f3c8596b743ff8c
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:24832fcd312c4e786b6056d852d2dfe93d380450b58ae1cfcc325c84c9de7137
   1.26.0--r43hdfd78af_0: sha256:ac8602df3f7dda16e222973b4ea95fb71985ce5eabbcbf8ffda81f975c40cd24
   1.28.0--r43hdfd78af_0: sha256:8fc2dfae49d6023aeaae0041dc2af56f7533e2c0956ca9fa25f983a178b5969c
+  1.32.0--r44hdfd78af_0: sha256:262aebfdd3f95262d1521ddb953ec25668f40f8ac761c69a637d01f1afed9962
 docker: quay.io/biocontainers/bioconductor-baalchip
 aliases:
   wget: /usr/local/bin/wget

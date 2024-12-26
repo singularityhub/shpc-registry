@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-rscudo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rscudo
 latest:
-  1.18.0--r43hdfd78af_0: sha256:3d1429a723cc1f733bd27ccf67120649bfc02e2d5536501ba11e56a24b0b65fc
+  1.22.0--r44hdfd78af_0: sha256:a348515f22ad3e9c714fe802c9580658b0b0428d467f0d945137e3b306bb36ab
 tags:
   1.8.0--r41hdfd78af_0: sha256:2d45e50a4e99b4be80e0cc82f82a5c62ae5424c1c55c0ffd756b953a12fc218f
   1.14.0--r42hdfd78af_0: sha256:2efc202bd1ccfb81f1be1c874b869371d7c2ae087575e3df6e68f052a384a6b5
   1.10.0--r41hdfd78af_0: sha256:858e303aabe8e5cc9d774b083a1c9cadb8b549b2ed367c657dbe2f85eda54167
   1.16.0--r43hdfd78af_0: sha256:89655486b0a361790979655b8994f815480ee581b0b448bcb3a021c13eb226ad
   1.18.0--r43hdfd78af_0: sha256:3d1429a723cc1f733bd27ccf67120649bfc02e2d5536501ba11e56a24b0b65fc
+  1.22.0--r44hdfd78af_0: sha256:a348515f22ad3e9c714fe802c9580658b0b0428d467f0d945137e3b306bb36ab
 docker: quay.io/biocontainers/bioconductor-rscudo
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-plasmodiumanophelesprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plasmodiumanophelesprobe
 latest:
-  2.18.0--r43hdfd78af_13: sha256:628f0cda3711c0fa20b20337bc99160304a81cc61d6fb1c1657d59b2d74f69e1
+  2.18.0--r44hdfd78af_14: sha256:1e7e43e387131fefe97806c85b35d41aec7601bb069c152d96b3ed74c51ebb4f
 tags:
   2.18.0--r41hdfd78af_9: sha256:d6bcd68f8d70280b9021aaec2efcae222fd748ad4f9a46d5296a301a999fb363
   2.18.0--r42hdfd78af_11: sha256:09e59f91d5a6603b7628a1fe7599e7a4f5ce0854fbf7a53103e768da19c068d4
   2.18.0--r43hdfd78af_12: sha256:07674d1c37dc2d802cd8d08b8b89065c36e91440d364091f69512e54c89714c0
   2.18.0--r43hdfd78af_13: sha256:628f0cda3711c0fa20b20337bc99160304a81cc61d6fb1c1657d59b2d74f69e1
+  2.18.0--r44hdfd78af_14: sha256:1e7e43e387131fefe97806c85b35d41aec7601bb069c152d96b3ed74c51ebb4f
 docker: quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe

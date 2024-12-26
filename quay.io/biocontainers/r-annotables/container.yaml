@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-annotables
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-annotables
 latest:
-  0.2.0--r43hdfd78af_1: sha256:ab7126f9c56b36ba8df9193f776ababd379adfea5c641bc2f3fb0664334121e0
+  0.2.0--r44hdfd78af_2: sha256:dbdf000b19beb4dc9ce85a48a22a1f15f7bd88a65106a65d15efa4452bec0761
 tags:
   v0.1.90--r36_3: sha256:13f52ad4a7576075e3397d4ce9e748239409e4aa000b62fd7bf7739ff9dd8058
   0.1.90--r42hdfd78af_4: sha256:c5df97398d54e822d3ac6a499d55d14752ae0d3f9e2fe543285d301dd8615c0a
   0.2.0--r42hdfd78af_0: sha256:930d1c154053673af0dae3d71a18ece7d63687b9f3ff6d54bfa27bdb1587582b
   0.2.0--r43hdfd78af_1: sha256:ab7126f9c56b36ba8df9193f776ababd379adfea5c641bc2f3fb0664334121e0
+  0.2.0--r44hdfd78af_2: sha256:dbdf000b19beb4dc9ce85a48a22a1f15f7bd88a65106a65d15efa4452bec0761
 docker: quay.io/biocontainers/r-annotables
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

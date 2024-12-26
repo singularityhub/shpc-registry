@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ecolik12.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ecolik12.db0
 latest:
-  3.18.0--r43hdfd78af_0: sha256:8327cf7966158c057bf8ec827b954ef5cc4bec5af378dcaba371dedb2356e6ab
+  3.20.0--r44hdfd78af_0: sha256:51ceeaaf55d324e9c56b69b8389c826616e27730f8968972a19210a17945802e
 tags:
   3.8.2--r36_1: sha256:0e0095a0e400242473fb1c05753154d3929d57741aeef3d64a585112e6ded05a
   3.16.0--r42hdfd78af_0: sha256:06fc34596630b1595b8d30e6845582dd45a0649685d8c17d6d9713647936cb28
@@ -12,6 +12,7 @@ tags:
   3.11.2--r40_0: sha256:6756f9a2819efa7744aa0d625f263b686747e41ce6d646e56e03e10635ceaebe
   3.17.0--r43hdfd78af_0: sha256:520ee033cb045e8a7cbbdaa134c5fa3d7c8aaf665035138819208a64cf649822
   3.18.0--r43hdfd78af_0: sha256:8327cf7966158c057bf8ec827b954ef5cc4bec5af378dcaba371dedb2356e6ab
+  3.20.0--r44hdfd78af_0: sha256:51ceeaaf55d324e9c56b69b8389c826616e27730f8968972a19210a17945802e
 docker: quay.io/biocontainers/bioconductor-ecolik12.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
