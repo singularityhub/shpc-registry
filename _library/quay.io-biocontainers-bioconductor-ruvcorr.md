@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ruvcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ruvcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ruvcorr/container.yaml"
-updated_at: "2024-12-25 03:28:36.907090"
-latest: "1.34.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:27:46.988459"
+latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ruvcorr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.30.0--r42hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
+ - "1.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ruvcorr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ruvcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ruvcorr", "latest": {"1.34.0--r43hdfd78af_0": "sha256:915f620d8c13e23ec0ac2008d75a28afeb518670f0d34ac71551d7758b54e42d"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:5f086031f5a59afd9bec21fe56428c0448e792cf05f17f80a516add6deab8055", "1.30.0--r42hdfd78af_0": "sha256:1d22a9012c229a212cc42d9881c5426ecc3a62e30441ae9f26342eb1a7788bfa", "1.32.0--r43hdfd78af_0": "sha256:a9b6133c4dbbe68de90eaf9dc7ee69e9274b681245f89e89dda977e979a30531", "1.34.0--r43hdfd78af_0": "sha256:915f620d8c13e23ec0ac2008d75a28afeb518670f0d34ac71551d7758b54e42d"}, "docker": "quay.io/biocontainers/bioconductor-ruvcorr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ruvcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ruvcorr", "latest": {"1.38.0--r44hdfd78af_0": "sha256:d40bad1524287fb87d3a64d3af2bb0bed72971dc2ae907c8e166bb578ef48a81"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:5f086031f5a59afd9bec21fe56428c0448e792cf05f17f80a516add6deab8055", "1.30.0--r42hdfd78af_0": "sha256:1d22a9012c229a212cc42d9881c5426ecc3a62e30441ae9f26342eb1a7788bfa", "1.32.0--r43hdfd78af_0": "sha256:a9b6133c4dbbe68de90eaf9dc7ee69e9274b681245f89e89dda977e979a30531", "1.34.0--r43hdfd78af_0": "sha256:915f620d8c13e23ec0ac2008d75a28afeb518670f0d34ac71551d7758b54e42d", "1.38.0--r44hdfd78af_0": "sha256:d40bad1524287fb87d3a64d3af2bb0bed72971dc2ae907c8e166bb578ef48a81"}, "docker": "quay.io/biocontainers/bioconductor-ruvcorr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ruvcorr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ruvcorr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ruvcorr:1.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ruvcorr:1.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ruvcorr/1.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ruvcorr/1.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ruvcorr/1.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ruvcorr/1.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

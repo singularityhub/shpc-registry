@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nebulosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nebulosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nebulosa/container.yaml"
-updated_at: "2024-12-25 03:32:05.154082"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:31:05.845299"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nebulosa"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nebulosa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nebulosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nebulosa", "latest": {"1.12.0--r43hdfd78af_0": "sha256:704c0828e0812abf61f16c76c547eaa0679eae1cf3cb86c7ee31726060fa1aa6"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e2e5801e747cf3a459dd83c12cb9919648529656ea584edb7084604250670274", "1.8.0--r42hdfd78af_0": "sha256:5aaf474958fdb0a23fac603970b55dbabd22e9bd745117f6291f8f769962b8f3", "1.10.0--r43hdfd78af_0": "sha256:03c750be0ab5f571813ab8cc2b7a189ffe7db603ba3a78c0a58d78e0955fcbd4", "1.12.0--r43hdfd78af_0": "sha256:704c0828e0812abf61f16c76c547eaa0679eae1cf3cb86c7ee31726060fa1aa6"}, "docker": "quay.io/biocontainers/bioconductor-nebulosa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nebulosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nebulosa", "latest": {"1.16.0--r44hdfd78af_0": "sha256:8f4262aeceb5a74a49072b18a225a43470fb039c4280b8e4319f08b3c5822906"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e2e5801e747cf3a459dd83c12cb9919648529656ea584edb7084604250670274", "1.8.0--r42hdfd78af_0": "sha256:5aaf474958fdb0a23fac603970b55dbabd22e9bd745117f6291f8f769962b8f3", "1.10.0--r43hdfd78af_0": "sha256:03c750be0ab5f571813ab8cc2b7a189ffe7db603ba3a78c0a58d78e0955fcbd4", "1.12.0--r43hdfd78af_0": "sha256:704c0828e0812abf61f16c76c547eaa0679eae1cf3cb86c7ee31726060fa1aa6", "1.16.0--r44hdfd78af_0": "sha256:8f4262aeceb5a74a49072b18a225a43470fb039c4280b8e4319f08b3c5822906"}, "docker": "quay.io/biocontainers/bioconductor-nebulosa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nebulosa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nebulosa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nebulosa:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nebulosa:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nebulosa/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nebulosa/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nebulosa/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nebulosa/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

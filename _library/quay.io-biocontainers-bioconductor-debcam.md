@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-debcam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-debcam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-debcam/container.yaml"
-updated_at: "2024-12-25 03:19:14.306555"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:18:47.745873"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-debcam"
 aliases:
  - "jfr"
@@ -25,8 +25,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-debcam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-debcam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-debcam", "latest": {"1.20.0--r43hdfd78af_0": "sha256:47b416cfe0cdd8bf12661f77cfd7740e80a3870098858dc181d4e872c1f18ab4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf", "1.16.0--r42hdfd78af_0": "sha256:58e6b6fdb4eb3628d9bc9f1c5f8bf35b8491cf202da7679c24714cea16307933", "1.12.0--r41hdfd78af_0": "sha256:69cfcc99d5dce43730b24db135027c2a1b483f4e9db23984094f8548e7e113b6", "1.10.0--r41hdfd78af_0": "sha256:f6c48816b463c43f96a30e5d49a688dc1b9af0c78056face8a6faa7a3882cfab", "1.18.0--r43hdfd78af_0": "sha256:fb36d36abff4bc7ea2eb1da65b77f647be46b6d3666a4f5ebd1235ad3940e35f", "1.20.0--r43hdfd78af_0": "sha256:47b416cfe0cdd8bf12661f77cfd7740e80a3870098858dc181d4e872c1f18ab4"}, "docker": "quay.io/biocontainers/bioconductor-debcam", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-debcam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-debcam", "latest": {"1.24.0--r44hdfd78af_0": "sha256:a7d4f6fd44cacad4c10ae68a26b055a3c3d0c66d4b7f9bff79cd1e23607b4e7c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf", "1.16.0--r42hdfd78af_0": "sha256:58e6b6fdb4eb3628d9bc9f1c5f8bf35b8491cf202da7679c24714cea16307933", "1.12.0--r41hdfd78af_0": "sha256:69cfcc99d5dce43730b24db135027c2a1b483f4e9db23984094f8548e7e113b6", "1.10.0--r41hdfd78af_0": "sha256:f6c48816b463c43f96a30e5d49a688dc1b9af0c78056face8a6faa7a3882cfab", "1.18.0--r43hdfd78af_0": "sha256:fb36d36abff4bc7ea2eb1da65b77f647be46b6d3666a4f5ebd1235ad3940e35f", "1.20.0--r43hdfd78af_0": "sha256:47b416cfe0cdd8bf12661f77cfd7740e80a3870098858dc181d4e872c1f18ab4", "1.24.0--r44hdfd78af_0": "sha256:a7d4f6fd44cacad4c10ae68a26b055a3c3d0c66d4b7f9bff79cd1e23607b4e7c"}, "docker": "quay.io/biocontainers/bioconductor-debcam", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-debcam.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-debcam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-debcam:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-debcam:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-debcam/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-debcam/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-debcam/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-debcam/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

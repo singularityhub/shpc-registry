@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-affyrnadegradation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affyrnadegradation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affyrnadegradation/container.yaml"
-updated_at: "2024-12-25 03:23:55.941218"
-latest: "1.48.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:23:17.158229"
+latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affyrnadegradation"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
+ - "1.52.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affyrnadegradation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affyrnadegradation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affyrnadegradation", "latest": {"1.48.0--r43hdfd78af_0": "sha256:54fcedd1591b3fd7e3f696baa7be2f84bfe3f7a58542502d7c0a0affe4747524"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:3edc7c31da6d298b7be496a2dab2e5403c475d0925cf32aa829a84380eede033", "1.44.0--r42hdfd78af_0": "sha256:021371172d8f2f69f7f98fb4b16b1fd40270dd1979609b2c76c38f42ad14bcf9", "1.46.0--r43hdfd78af_0": "sha256:53d5d7cb137f84665fd6aef9a2d9e872823dbefecf4d80e6173e94edd466a588", "1.48.0--r43hdfd78af_0": "sha256:54fcedd1591b3fd7e3f696baa7be2f84bfe3f7a58542502d7c0a0affe4747524"}, "docker": "quay.io/biocontainers/bioconductor-affyrnadegradation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affyrnadegradation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affyrnadegradation", "latest": {"1.52.0--r44hdfd78af_0": "sha256:678078598ca2e7a3e4268bfa47966d29b32a19db6376905bf3c7a821cbe743b5"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:3edc7c31da6d298b7be496a2dab2e5403c475d0925cf32aa829a84380eede033", "1.44.0--r42hdfd78af_0": "sha256:021371172d8f2f69f7f98fb4b16b1fd40270dd1979609b2c76c38f42ad14bcf9", "1.46.0--r43hdfd78af_0": "sha256:53d5d7cb137f84665fd6aef9a2d9e872823dbefecf4d80e6173e94edd466a588", "1.48.0--r43hdfd78af_0": "sha256:54fcedd1591b3fd7e3f696baa7be2f84bfe3f7a58542502d7c0a0affe4747524", "1.52.0--r44hdfd78af_0": "sha256:678078598ca2e7a3e4268bfa47966d29b32a19db6376905bf3c7a821cbe743b5"}, "docker": "quay.io/biocontainers/bioconductor-affyrnadegradation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affyrnadegradation.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-affyrnadegradation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-affyrnadegradation:1.48.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-affyrnadegradation:1.52.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-affyrnadegradation/1.48.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-affyrnadegradation/1.48.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-affyrnadegradation/1.52.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-affyrnadegradation/1.52.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-mmgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmgenome/container.yaml"
-updated_at: "2024-12-25 03:33:18.708690"
-latest: "0.7.1--r43h9ee0642_6"
+updated_at: "2024-12-26 03:32:15.393834"
+latest: "0.7.1--r44h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-mmgenome"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.7.1--r41h9ee0642_4"
  - "0.7.1--r42h9ee0642_5"
  - "0.7.1--r43h9ee0642_6"
+ - "0.7.1--r44h9ee0642_7"
 description: "shpc-registry automated BioContainers addition for r-mmgenome"
-config: {"url": "https://biocontainers.pro/tools/r-mmgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmgenome", "latest": {"0.7.1--r43h9ee0642_6": "sha256:38d97027827d5537515227eccb6dcc2e15caf4a7a8433fa2993681ca92006ebc"}, "tags": {"0.7.1--r41h9ee0642_4": "sha256:08e92346b5afeff424d8df33965e840ee553546dd85f57d91fa48bfdd236875e", "0.7.1--r42h9ee0642_5": "sha256:f6928fb9360f39289664441bd71f32c22da5aa82985c68fb112d99ad5cc8cb77", "0.7.1--r43h9ee0642_6": "sha256:38d97027827d5537515227eccb6dcc2e15caf4a7a8433fa2993681ca92006ebc"}, "docker": "quay.io/biocontainers/r-mmgenome", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-mmgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmgenome", "latest": {"0.7.1--r44h9ee0642_7": "sha256:094ee9966c6e7b5b749e9da26ed49bf4697bdaabbbfdba299b5e126699914825"}, "tags": {"0.7.1--r41h9ee0642_4": "sha256:08e92346b5afeff424d8df33965e840ee553546dd85f57d91fa48bfdd236875e", "0.7.1--r42h9ee0642_5": "sha256:f6928fb9360f39289664441bd71f32c22da5aa82985c68fb112d99ad5cc8cb77", "0.7.1--r43h9ee0642_6": "sha256:38d97027827d5537515227eccb6dcc2e15caf4a7a8433fa2993681ca92006ebc", "0.7.1--r44h9ee0642_7": "sha256:094ee9966c6e7b5b749e9da26ed49bf4697bdaabbbfdba299b5e126699914825"}, "docker": "quay.io/biocontainers/r-mmgenome", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mmgenome.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-mmgenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mmgenome:0.7.1--r43h9ee0642_6
+$ shpc install quay.io/biocontainers/r-mmgenome:0.7.1--r44h9ee0642_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mmgenome/0.7.1--r43h9ee0642_6
-$ module help quay.io/biocontainers/r-mmgenome/0.7.1--r43h9ee0642_6
+$ module load quay.io/biocontainers/r-mmgenome/0.7.1--r44h9ee0642_7
+$ module help quay.io/biocontainers/r-mmgenome/0.7.1--r44h9ee0642_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

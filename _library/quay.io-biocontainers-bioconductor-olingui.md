@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-olingui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-olingui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-olingui/container.yaml"
-updated_at: "2024-12-25 03:03:44.198802"
-latest: "1.76.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:03:59.805182"
+latest: "1.80.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-olingui"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.72.0--r42hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
  - "1.76.0--r43hdfd78af_0"
+ - "1.80.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-olingui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-olingui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-olingui", "latest": {"1.76.0--r43hdfd78af_0": "sha256:5c2ac14d70801098957030daff4a2b3863729ea65af18e519e9bb39e4c9ae81c"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:0c68bf4faec1de2873b8b7339e31e1ddf8a66a425d336dc47fcfa743c913e3a4", "1.72.0--r42hdfd78af_0": "sha256:f1a06b9f195579d5bf0e6f9e74c3533b1ce177adbe2090e7764203cba2caebe1", "1.74.0--r43hdfd78af_0": "sha256:3b0a390b181a67aec5ff0b583d0db434915d68a096d71e03bb783afc6f844d30", "1.76.0--r43hdfd78af_0": "sha256:5c2ac14d70801098957030daff4a2b3863729ea65af18e519e9bb39e4c9ae81c"}, "docker": "quay.io/biocontainers/bioconductor-olingui"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-olingui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-olingui", "latest": {"1.80.0--r44hdfd78af_0": "sha256:8ce66ec1ef580837af0594933b1cf6473f5977afd7a1cac5c1613bf9e0111108"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:0c68bf4faec1de2873b8b7339e31e1ddf8a66a425d336dc47fcfa743c913e3a4", "1.72.0--r42hdfd78af_0": "sha256:f1a06b9f195579d5bf0e6f9e74c3533b1ce177adbe2090e7764203cba2caebe1", "1.74.0--r43hdfd78af_0": "sha256:3b0a390b181a67aec5ff0b583d0db434915d68a096d71e03bb783afc6f844d30", "1.76.0--r43hdfd78af_0": "sha256:5c2ac14d70801098957030daff4a2b3863729ea65af18e519e9bb39e4c9ae81c", "1.80.0--r44hdfd78af_0": "sha256:8ce66ec1ef580837af0594933b1cf6473f5977afd7a1cac5c1613bf9e0111108"}, "docker": "quay.io/biocontainers/bioconductor-olingui"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-olingui.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-olingui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-olingui:1.76.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-olingui:1.80.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-olingui/1.76.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-olingui/1.76.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-olingui/1.80.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-olingui/1.80.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

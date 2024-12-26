@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rdisop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rdisop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rdisop/container.yaml"
-updated_at: "2024-12-25 03:33:05.921675"
-latest: "1.62.0--r43hf17093f_1"
+updated_at: "2024-12-26 03:32:03.431274"
+latest: "1.66.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rdisop"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.60.0--r43hf17093f_0"
  - "1.62.0--r43hf17093f_1"
  - "1.58.0--r42hf17093f_1"
+ - "1.66.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rdisop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rdisop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rdisop", "latest": {"1.62.0--r43hf17093f_1": "sha256:4227c321482edb5614f3f76d449f379851468b8e3f5841d009cf7dfe6cf144a4"}, "tags": {"1.54.0--r41hc247a5b_2": "sha256:936f04d8dc9733a99aafd8380115c300fa694643a0b5b700ac9240119eb6666d", "1.58.0--r42hc247a5b_0": "sha256:60b7a1e7f83a249e383e2eb98a9b65f862f3b9082ded620f014822f2d412c104", "1.58.0--r42hc247a5b_1": "sha256:acc73757cf00d9195f6bc378118162cf203b18ef65c025c30c7487f334311071", "1.60.0--r43hf17093f_0": "sha256:a1e1f0a318ab9f8a852a3cd8b875089f1d1da990e0670ad1ddd64af6c0fc4271", "1.62.0--r43hf17093f_1": "sha256:4227c321482edb5614f3f76d449f379851468b8e3f5841d009cf7dfe6cf144a4", "1.58.0--r42hf17093f_1": "sha256:f3a1393592e4cbd5b057daa6a18b5f1717a15911f6c727ad66a9756cb6c59cd7"}, "docker": "quay.io/biocontainers/bioconductor-rdisop"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rdisop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rdisop", "latest": {"1.66.0--r44he5774e6_0": "sha256:3f77d40b14616a73941eb72209bec1b61af2adaf21f0f6668ba6d7a27baf9351"}, "tags": {"1.54.0--r41hc247a5b_2": "sha256:936f04d8dc9733a99aafd8380115c300fa694643a0b5b700ac9240119eb6666d", "1.58.0--r42hc247a5b_0": "sha256:60b7a1e7f83a249e383e2eb98a9b65f862f3b9082ded620f014822f2d412c104", "1.58.0--r42hc247a5b_1": "sha256:acc73757cf00d9195f6bc378118162cf203b18ef65c025c30c7487f334311071", "1.60.0--r43hf17093f_0": "sha256:a1e1f0a318ab9f8a852a3cd8b875089f1d1da990e0670ad1ddd64af6c0fc4271", "1.62.0--r43hf17093f_1": "sha256:4227c321482edb5614f3f76d449f379851468b8e3f5841d009cf7dfe6cf144a4", "1.58.0--r42hf17093f_1": "sha256:f3a1393592e4cbd5b057daa6a18b5f1717a15911f6c727ad66a9756cb6c59cd7", "1.66.0--r44he5774e6_0": "sha256:3f77d40b14616a73941eb72209bec1b61af2adaf21f0f6668ba6d7a27baf9351"}, "docker": "quay.io/biocontainers/bioconductor-rdisop"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rdisop.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rdisop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rdisop:1.62.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-rdisop:1.66.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rdisop/1.62.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-rdisop/1.62.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-rdisop/1.66.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-rdisop/1.66.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

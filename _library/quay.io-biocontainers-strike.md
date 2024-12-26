@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/strike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strike/container.yaml"
-updated_at: "2024-12-25 03:32:25.822422"
-latest: "1.2--h4ac6f70_5"
+updated_at: "2024-12-26 03:31:25.583482"
+latest: "1.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/strike"
 aliases:
  - "strike"
 versions:
  - "1.2--h9f5acd7_3"
  - "1.2--h4ac6f70_5"
+ - "1.2--h9948957_6"
 description: "shpc-registry automated BioContainers addition for strike"
-config: {"url": "https://biocontainers.pro/tools/strike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strike", "latest": {"1.2--h4ac6f70_5": "sha256:d708f6e5115c786cd0fddbd815e2a15cd8529caa9edbdce73163a31fec45ae82"}, "tags": {"1.2--h9f5acd7_3": "sha256:b42019e9f07ce957f57bc89a2942682bc50332d0f1bf7277c0ec1ee4d16e8ec1", "1.2--h4ac6f70_5": "sha256:d708f6e5115c786cd0fddbd815e2a15cd8529caa9edbdce73163a31fec45ae82"}, "docker": "quay.io/biocontainers/strike", "aliases": {"strike": "/usr/local/bin/strike"}}
+config: {"url": "https://biocontainers.pro/tools/strike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strike", "latest": {"1.2--h9948957_6": "sha256:be30d25e315a2b24a3a09d7147a1794aa38915d39934434789c3105ba8954633"}, "tags": {"1.2--h9f5acd7_3": "sha256:b42019e9f07ce957f57bc89a2942682bc50332d0f1bf7277c0ec1ee4d16e8ec1", "1.2--h4ac6f70_5": "sha256:d708f6e5115c786cd0fddbd815e2a15cd8529caa9edbdce73163a31fec45ae82", "1.2--h9948957_6": "sha256:be30d25e315a2b24a3a09d7147a1794aa38915d39934434789c3105ba8954633"}, "docker": "quay.io/biocontainers/strike", "aliases": {"strike": "/usr/local/bin/strike"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strike.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/strike
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strike:1.2--h4ac6f70_5
+$ shpc install quay.io/biocontainers/strike:1.2--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strike/1.2--h4ac6f70_5
-$ module help quay.io/biocontainers/strike/1.2--h4ac6f70_5
+$ module load quay.io/biocontainers/strike/1.2--h9948957_6
+$ module help quay.io/biocontainers/strike/1.2--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

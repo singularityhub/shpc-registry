@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beagle-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beagle-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beagle-lib/container.yaml"
-updated_at: "2024-12-25 03:21:32.666180"
-latest: "4.0.1--h4ac6f70_1"
+updated_at: "2024-12-26 03:21:00.161061"
+latest: "4.0.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/beagle-lib"
 aliases:
  - "cups-config"
@@ -23,8 +23,9 @@ versions:
  - "4.0.0--h4ac6f70_2"
  - "4.0.1--h4ac6f70_0"
  - "4.0.1--h4ac6f70_1"
+ - "4.0.1--h9948957_2"
 description: "shpc-registry automated BioContainers addition for beagle-lib"
-config: {"url": "https://biocontainers.pro/tools/beagle-lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beagle-lib", "latest": {"4.0.1--h4ac6f70_1": "sha256:6b5c01abe4f718b8ca5456a6cadd90282d342555d3dc3aa330cd90d33f9ff097"}, "tags": {"4.0.0--h9f5acd7_0": "sha256:026cbb53b3eb273e21e1cc409ecc19dbc2d62955cc9c9c24ebcafed07a4cd2a9", "4.0.0--h4ac6f70_2": "sha256:e105775cb9b9ad34a66800e1b194d36f02bd17a337afedfa2c19c0ddf385c1cf", "4.0.1--h4ac6f70_0": "sha256:458424f5ebf99a6b5c431f68e11ce230797998421a823ee976df79771e6a746f", "4.0.1--h4ac6f70_1": "sha256:6b5c01abe4f718b8ca5456a6cadd90282d342555d3dc3aa330cd90d33f9ff097"}, "docker": "quay.io/biocontainers/beagle-lib", "aliases": {"cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "libtoolize": "/usr/local/bin/libtoolize", "libtool": "/usr/local/bin/libtool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
+config: {"url": "https://biocontainers.pro/tools/beagle-lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beagle-lib", "latest": {"4.0.1--h9948957_2": "sha256:372fddd63b186271ba19529a13d62f3492ee7a1d05f1a94c64d4983b4036bb63"}, "tags": {"4.0.0--h9f5acd7_0": "sha256:026cbb53b3eb273e21e1cc409ecc19dbc2d62955cc9c9c24ebcafed07a4cd2a9", "4.0.0--h4ac6f70_2": "sha256:e105775cb9b9ad34a66800e1b194d36f02bd17a337afedfa2c19c0ddf385c1cf", "4.0.1--h4ac6f70_0": "sha256:458424f5ebf99a6b5c431f68e11ce230797998421a823ee976df79771e6a746f", "4.0.1--h4ac6f70_1": "sha256:6b5c01abe4f718b8ca5456a6cadd90282d342555d3dc3aa330cd90d33f9ff097", "4.0.1--h9948957_2": "sha256:372fddd63b186271ba19529a13d62f3492ee7a1d05f1a94c64d4983b4036bb63"}, "docker": "quay.io/biocontainers/beagle-lib", "aliases": {"cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "libtoolize": "/usr/local/bin/libtoolize", "libtool": "/usr/local/bin/libtool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beagle-lib.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/beagle-lib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beagle-lib:4.0.1--h4ac6f70_1
+$ shpc install quay.io/biocontainers/beagle-lib:4.0.1--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beagle-lib/4.0.1--h4ac6f70_1
-$ module help quay.io/biocontainers/beagle-lib/4.0.1--h4ac6f70_1
+$ module load quay.io/biocontainers/beagle-lib/4.0.1--h9948957_2
+$ module help quay.io/biocontainers/beagle-lib/4.0.1--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

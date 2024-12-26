@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/est-sfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/est-sfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/est-sfs/container.yaml"
-updated_at: "2024-12-25 03:22:58.718099"
-latest: "2.04--h245ed52_0"
+updated_at: "2024-12-26 03:22:22.191417"
+latest: "2.04--h985cbd6_1"
 container_url: "https://biocontainers.pro/tools/est-sfs"
 aliases:
  - "est-sfs"
 versions:
  - "2.04--h245ed52_0"
+ - "2.04--h985cbd6_1"
 description: "singularity registry hpc automated addition for est-sfs"
-config: {"url": "https://biocontainers.pro/tools/est-sfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for est-sfs", "latest": {"2.04--h245ed52_0": "sha256:6963c02bf8a28926bbd00e20e488d9698dd08b9fd8ae00faf85aa8ce95f4b3ef"}, "tags": {"2.04--h245ed52_0": "sha256:6963c02bf8a28926bbd00e20e488d9698dd08b9fd8ae00faf85aa8ce95f4b3ef"}, "docker": "quay.io/biocontainers/est-sfs", "aliases": {"est-sfs": "/usr/local/bin/est-sfs"}}
+config: {"url": "https://biocontainers.pro/tools/est-sfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for est-sfs", "latest": {"2.04--h985cbd6_1": "sha256:9f6347339072d6b69d345307323b1dfcbc0d6a60499a691944db1b252481633b"}, "tags": {"2.04--h245ed52_0": "sha256:6963c02bf8a28926bbd00e20e488d9698dd08b9fd8ae00faf85aa8ce95f4b3ef", "2.04--h985cbd6_1": "sha256:9f6347339072d6b69d345307323b1dfcbc0d6a60499a691944db1b252481633b"}, "docker": "quay.io/biocontainers/est-sfs", "aliases": {"est-sfs": "/usr/local/bin/est-sfs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/est-sfs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/est-sfs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/est-sfs:2.04--h245ed52_0
+$ shpc install quay.io/biocontainers/est-sfs:2.04--h985cbd6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/est-sfs/2.04--h245ed52_0
-$ module help quay.io/biocontainers/est-sfs/2.04--h245ed52_0
+$ module load quay.io/biocontainers/est-sfs/2.04--h985cbd6_1
+$ module help quay.io/biocontainers/est-sfs/2.04--h985cbd6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

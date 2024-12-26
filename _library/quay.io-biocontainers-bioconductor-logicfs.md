@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-logicfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logicfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logicfs/container.yaml"
-updated_at: "2024-12-25 03:38:21.087773"
-latest: "2.22.0--r43hdfd78af_1"
+updated_at: "2024-12-26 03:37:02.249288"
+latest: "2.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logicfs"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "2.10.0--r40hdfd78af_1"
  - "2.20.0--r43hdfd78af_0"
  - "2.22.0--r43hdfd78af_1"
+ - "2.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-logicfs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-logicfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logicfs", "latest": {"2.22.0--r43hdfd78af_1": "sha256:effb72f5255429bf33c4110b7645b52168319640b041997b34170ad396d3827e"}, "tags": {"2.8.0--r40_0": "sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1", "2.18.0--r42hdfd78af_0": "sha256:f1d5332549d775cb4337520fc4cb44a0e6560770933791cffda2ada1ecc2c737", "2.14.0--r41hdfd78af_0": "sha256:a30004a6f351cd1c0b8e130a862555d658e1b26e5c1e8d1c8e57fdbffbc02972", "2.12.0--r41hdfd78af_0": "sha256:9f75074223e3af6ca32dd9531c17f7259b85d3b1631cee04f557be08e6f18fb7", "2.10.0--r40hdfd78af_1": "sha256:47edc04b831003ef9f8921446741df8eac2ede983aa147d0c6400b3ef8164c79", "2.20.0--r43hdfd78af_0": "sha256:d649f4877bd6f907bdd3ac34dbee844bb723acfe905eab2437f5b13cf2e431c5", "2.22.0--r43hdfd78af_1": "sha256:effb72f5255429bf33c4110b7645b52168319640b041997b34170ad396d3827e"}, "docker": "quay.io/biocontainers/bioconductor-logicfs", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-logicfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logicfs", "latest": {"2.26.0--r44hdfd78af_0": "sha256:be1736ee40ed308f2021c10e01d1a323bfd516e373f48e95f7c83702be9baf8f"}, "tags": {"2.8.0--r40_0": "sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1", "2.18.0--r42hdfd78af_0": "sha256:f1d5332549d775cb4337520fc4cb44a0e6560770933791cffda2ada1ecc2c737", "2.14.0--r41hdfd78af_0": "sha256:a30004a6f351cd1c0b8e130a862555d658e1b26e5c1e8d1c8e57fdbffbc02972", "2.12.0--r41hdfd78af_0": "sha256:9f75074223e3af6ca32dd9531c17f7259b85d3b1631cee04f557be08e6f18fb7", "2.10.0--r40hdfd78af_1": "sha256:47edc04b831003ef9f8921446741df8eac2ede983aa147d0c6400b3ef8164c79", "2.20.0--r43hdfd78af_0": "sha256:d649f4877bd6f907bdd3ac34dbee844bb723acfe905eab2437f5b13cf2e431c5", "2.22.0--r43hdfd78af_1": "sha256:effb72f5255429bf33c4110b7645b52168319640b041997b34170ad396d3827e", "2.26.0--r44hdfd78af_0": "sha256:be1736ee40ed308f2021c10e01d1a323bfd516e373f48e95f7c83702be9baf8f"}, "docker": "quay.io/biocontainers/bioconductor-logicfs", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-logicfs.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-logicfs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-logicfs:2.22.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-logicfs:2.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-logicfs/2.22.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-logicfs/2.22.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-logicfs/2.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-logicfs/2.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

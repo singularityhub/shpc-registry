@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/minirmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minirmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minirmd/container.yaml"
-updated_at: "2024-12-25 03:23:29.785977"
-latest: "1.1--hdcf5f25_4"
+updated_at: "2024-12-26 03:22:52.012667"
+latest: "1.1--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/minirmd"
 aliases:
  - "minirmd"
 versions:
  - "1.1--hd03093a_2"
  - "1.1--hdcf5f25_4"
+ - "1.1--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for minirmd"
-config: {"url": "https://biocontainers.pro/tools/minirmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minirmd", "latest": {"1.1--hdcf5f25_4": "sha256:b1e96b1aaf8e78d11c847058e8ca253acb46d02833d43e1cf285383bab9af0a1"}, "tags": {"1.1--hd03093a_2": "sha256:874389f8e3335703781c6cb976b2bb1d9937ef6b9b22959b9efef0bb17dbb6a5", "1.1--hdcf5f25_4": "sha256:b1e96b1aaf8e78d11c847058e8ca253acb46d02833d43e1cf285383bab9af0a1"}, "docker": "quay.io/biocontainers/minirmd", "aliases": {"minirmd": "/usr/local/bin/minirmd"}}
+config: {"url": "https://biocontainers.pro/tools/minirmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minirmd", "latest": {"1.1--h077b44d_5": "sha256:6570d46ebf9fcfd0c78aca1599dce73fbe864871290d1cf230d057981e47da22"}, "tags": {"1.1--hd03093a_2": "sha256:874389f8e3335703781c6cb976b2bb1d9937ef6b9b22959b9efef0bb17dbb6a5", "1.1--hdcf5f25_4": "sha256:b1e96b1aaf8e78d11c847058e8ca253acb46d02833d43e1cf285383bab9af0a1", "1.1--h077b44d_5": "sha256:6570d46ebf9fcfd0c78aca1599dce73fbe864871290d1cf230d057981e47da22"}, "docker": "quay.io/biocontainers/minirmd", "aliases": {"minirmd": "/usr/local/bin/minirmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minirmd.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/minirmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minirmd:1.1--hdcf5f25_4
+$ shpc install quay.io/biocontainers/minirmd:1.1--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minirmd/1.1--hdcf5f25_4
-$ module help quay.io/biocontainers/minirmd/1.1--hdcf5f25_4
+$ module load quay.io/biocontainers/minirmd/1.1--h077b44d_5
+$ module help quay.io/biocontainers/minirmd/1.1--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

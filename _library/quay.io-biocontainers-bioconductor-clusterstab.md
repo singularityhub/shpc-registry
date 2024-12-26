@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterstab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterstab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterstab/container.yaml"
-updated_at: "2024-12-25 03:06:56.023166"
+updated_at: "2024-12-26 03:07:03.131176"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterstab"
 

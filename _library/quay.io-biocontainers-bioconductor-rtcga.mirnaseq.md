@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.mirnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
-updated_at: "2024-12-25 03:21:10.007269"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:20:38.298665"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq"
 aliases:
  - "f2py3.10"
@@ -20,8 +20,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq", "latest": {"1.30.0--r43hdfd78af_0": "sha256:698b921271a14f5ccb0e8e1b8118415e0768a1388e5fbebba69c57e60dabe4f7"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9", "1.25.0--r42hdfd78af_0": "sha256:3b5d56f4d18c6418cba6af4b26642eb23e97471a85b459c0d744db05d6b6bfbd", "1.28.0--r43hdfd78af_0": "sha256:bafd36887560c57ced43f0930f22f2a8e1e7ab61ad1f7b96d3c887358b8a40fa", "1.30.0--r43hdfd78af_0": "sha256:698b921271a14f5ccb0e8e1b8118415e0768a1388e5fbebba69c57e60dabe4f7"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mirnaseq", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq", "latest": {"1.34.0--r44hdfd78af_0": "sha256:1dd536e3d4505e56b1f6a537c0403177d085c1acb627116338846cd26bf91800"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9", "1.25.0--r42hdfd78af_0": "sha256:3b5d56f4d18c6418cba6af4b26642eb23e97471a85b459c0d744db05d6b6bfbd", "1.28.0--r43hdfd78af_0": "sha256:bafd36887560c57ced43f0930f22f2a8e1e7ab61ad1f7b96d3c887358b8a40fa", "1.30.0--r43hdfd78af_0": "sha256:698b921271a14f5ccb0e8e1b8118415e0768a1388e5fbebba69c57e60dabe4f7", "1.34.0--r44hdfd78af_0": "sha256:1dd536e3d4505e56b1f6a537c0403177d085c1acb627116338846cd26bf91800"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mirnaseq", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.mirnaseq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.mirnaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.mirnaseq:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.mirnaseq:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.mirnaseq/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rtcga.mirnaseq/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rtcga.mirnaseq/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.mirnaseq/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

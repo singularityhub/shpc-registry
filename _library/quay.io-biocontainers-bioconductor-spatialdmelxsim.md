@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialdmelxsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialdmelxsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialdmelxsim/container.yaml"
-updated_at: "2024-12-25 03:06:41.782121"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2024-12-26 03:06:49.478303"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialdmelxsim"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.1--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spatialdmelxsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialdmelxsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialdmelxsim", "latest": {"1.8.0--r43hdfd78af_0": "sha256:73f65a7ffca1779e7d076bb73d204fc42cd4815884254b7f9b7915f867ee90e7"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:5686f39ea070aeef48630512f6554086c61a850830bfd1e16f3b41408ba1b687", "1.4.0--r42hdfd78af_0": "sha256:49875f04b5f1c039c937ae3eefff436beeed60b002ea77281075e32fac07715d", "1.6.1--r43hdfd78af_0": "sha256:34862d36d2032f3dc62cba46797841d7ff9e0648f2ff2e311290edd383e2b200", "1.8.0--r43hdfd78af_0": "sha256:73f65a7ffca1779e7d076bb73d204fc42cd4815884254b7f9b7915f867ee90e7"}, "docker": "quay.io/biocontainers/bioconductor-spatialdmelxsim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialdmelxsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialdmelxsim", "latest": {"1.12.0--r44hdfd78af_0": "sha256:2d1c88cb88600962644369dc26995301f7cf35a0779fdc64ef64b961d90347e0"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:5686f39ea070aeef48630512f6554086c61a850830bfd1e16f3b41408ba1b687", "1.4.0--r42hdfd78af_0": "sha256:49875f04b5f1c039c937ae3eefff436beeed60b002ea77281075e32fac07715d", "1.6.1--r43hdfd78af_0": "sha256:34862d36d2032f3dc62cba46797841d7ff9e0648f2ff2e311290edd383e2b200", "1.8.0--r43hdfd78af_0": "sha256:73f65a7ffca1779e7d076bb73d204fc42cd4815884254b7f9b7915f867ee90e7", "1.12.0--r44hdfd78af_0": "sha256:2d1c88cb88600962644369dc26995301f7cf35a0779fdc64ef64b961d90347e0"}, "docker": "quay.io/biocontainers/bioconductor-spatialdmelxsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialdmelxsim.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialdmelxsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialdmelxsim:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialdmelxsim:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialdmelxsim/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialdmelxsim/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialdmelxsim/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialdmelxsim/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

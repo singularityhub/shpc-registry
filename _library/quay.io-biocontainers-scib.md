@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scib/container.yaml"
-updated_at: "2024-12-25 03:33:03.840659"
-latest: "1.1.5--py311h2a4ad6c_1"
+updated_at: "2024-12-26 03:32:01.486778"
+latest: "1.1.6--py39h2de1943_0"
 container_url: "https://biocontainers.pro/tools/scib"
 aliases:
  - "h5tools_test_utils"
@@ -39,8 +39,9 @@ versions:
  - "1.1.4--py310h0dbaff4_0"
  - "1.1.5--py39h1f90b4d_0"
  - "1.1.5--py311h2a4ad6c_1"
+ - "1.1.6--py39h2de1943_0"
 description: "singularity registry hpc automated addition for scib"
-config: {"url": "https://biocontainers.pro/tools/scib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scib", "latest": {"1.1.5--py311h2a4ad6c_1": "sha256:452a033af284710a9084aea1d03de5f01cabfe595de079440e0202d9a52eac75"}, "tags": {"1.1.4--py38h2494328_0": "sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a", "1.1.4--py310h0dbaff4_0": "sha256:5525b76a5f38462f692ceccf88121cfccff3cdd1abf4d8fc3b4d5a6d1288e3a7", "1.1.5--py39h1f90b4d_0": "sha256:c4d33fa1c625fa061ba8e8d7eae97f22e951ab2daf56d8f48b4b337f4af92077", "1.1.5--py311h2a4ad6c_1": "sha256:452a033af284710a9084aea1d03de5f01cabfe595de079440e0202d9a52eac75"}, "docker": "quay.io/biocontainers/scib", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf"}}
+config: {"url": "https://biocontainers.pro/tools/scib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scib", "latest": {"1.1.6--py39h2de1943_0": "sha256:a770f509d4aea68d096d5841af6bbb95bb188bc2de4e226d7047be64aaa2bdf9"}, "tags": {"1.1.4--py38h2494328_0": "sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a", "1.1.4--py310h0dbaff4_0": "sha256:5525b76a5f38462f692ceccf88121cfccff3cdd1abf4d8fc3b4d5a6d1288e3a7", "1.1.5--py39h1f90b4d_0": "sha256:c4d33fa1c625fa061ba8e8d7eae97f22e951ab2daf56d8f48b4b337f4af92077", "1.1.5--py311h2a4ad6c_1": "sha256:452a033af284710a9084aea1d03de5f01cabfe595de079440e0202d9a52eac75", "1.1.6--py39h2de1943_0": "sha256:a770f509d4aea68d096d5841af6bbb95bb188bc2de4e226d7047be64aaa2bdf9"}, "docker": "quay.io/biocontainers/scib", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scib.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/scib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scib:1.1.5--py311h2a4ad6c_1
+$ shpc install quay.io/biocontainers/scib:1.1.6--py39h2de1943_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scib/1.1.5--py311h2a4ad6c_1
-$ module help quay.io/biocontainers/scib/1.1.5--py311h2a4ad6c_1
+$ module load quay.io/biocontainers/scib/1.1.6--py39h2de1943_0
+$ module help quay.io/biocontainers/scib/1.1.6--py39h2de1943_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

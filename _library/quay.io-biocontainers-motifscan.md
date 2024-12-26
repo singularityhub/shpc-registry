@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/motifscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motifscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motifscan/container.yaml"
-updated_at: "2024-12-25 02:55:33.716608"
-latest: "1.3.0--py39hff71179_4"
+updated_at: "2024-12-26 02:56:08.421549"
+latest: "1.3.0--py310h1fe012e_5"
 container_url: "https://biocontainers.pro/tools/motifscan"
 aliases:
  - "motifscan"
@@ -24,8 +24,9 @@ versions:
  - "1.3.0--py39hf95cd2a_3"
  - "1.3.0--py310h4b81fae_3"
  - "1.3.0--py39hff71179_4"
+ - "1.3.0--py310h1fe012e_5"
 description: "shpc-registry automated BioContainers addition for motifscan"
-config: {"url": "https://biocontainers.pro/tools/motifscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motifscan", "latest": {"1.3.0--py39hff71179_4": "sha256:498d28534b0d13fbab802e8ba63ee8018d8d7803e40ef46a170daf9cf183f580"}, "tags": {"1.3.0--py38hbff2b2d_2": "sha256:63ad16bcbd5c1f716b5997e766259830602f1e4d4b97a6652a4366b4d2db5abd", "1.3.0--py39hf95cd2a_3": "sha256:66be1901070099fe880c18399d1facc90abf499fdd9bdc44cf699697a80da99c", "1.3.0--py310h4b81fae_3": "sha256:fdbf6335a1c1946a384864e8142b8ff6d75914f77e4629c31144fb3dab6544bc", "1.3.0--py39hff71179_4": "sha256:498d28534b0d13fbab802e8ba63ee8018d8d7803e40ef46a170daf9cf183f580"}, "docker": "quay.io/biocontainers/motifscan", "aliases": {"motifscan": "/usr/local/bin/motifscan", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.8": "/usr/local/bin/f2py3.8", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/motifscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motifscan", "latest": {"1.3.0--py310h1fe012e_5": "sha256:fe5994e15dc0316e2784e800cdbf17b0257f07b7001224c0d0e17b13665e6b58"}, "tags": {"1.3.0--py38hbff2b2d_2": "sha256:63ad16bcbd5c1f716b5997e766259830602f1e4d4b97a6652a4366b4d2db5abd", "1.3.0--py39hf95cd2a_3": "sha256:66be1901070099fe880c18399d1facc90abf499fdd9bdc44cf699697a80da99c", "1.3.0--py310h4b81fae_3": "sha256:fdbf6335a1c1946a384864e8142b8ff6d75914f77e4629c31144fb3dab6544bc", "1.3.0--py39hff71179_4": "sha256:498d28534b0d13fbab802e8ba63ee8018d8d7803e40ef46a170daf9cf183f580", "1.3.0--py310h1fe012e_5": "sha256:fe5994e15dc0316e2784e800cdbf17b0257f07b7001224c0d0e17b13665e6b58"}, "docker": "quay.io/biocontainers/motifscan", "aliases": {"motifscan": "/usr/local/bin/motifscan", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.8": "/usr/local/bin/f2py3.8", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/motifscan.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/motifscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/motifscan:1.3.0--py39hff71179_4
+$ shpc install quay.io/biocontainers/motifscan:1.3.0--py310h1fe012e_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/motifscan/1.3.0--py39hff71179_4
-$ module help quay.io/biocontainers/motifscan/1.3.0--py39hff71179_4
+$ module load quay.io/biocontainers/motifscan/1.3.0--py310h1fe012e_5
+$ module help quay.io/biocontainers/motifscan/1.3.0--py310h1fe012e_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

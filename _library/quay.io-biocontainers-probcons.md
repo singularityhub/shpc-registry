@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/probcons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probcons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probcons/container.yaml"
-updated_at: "2024-12-25 03:36:30.389690"
-latest: "1.12--h8b12597_1"
+updated_at: "2024-12-26 03:35:17.272966"
+latest: "1.12--h5ca1c30_3"
 container_url: "https://biocontainers.pro/tools/probcons"
 aliases:
  - "probcons"
  - "compare"
 versions:
  - "1.12--h8b12597_1"
+ - "1.12--h5ca1c30_3"
 description: "shpc-registry automated BioContainers addition for probcons"
-config: {"url": "https://biocontainers.pro/tools/probcons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probcons", "latest": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "tags": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "docker": "quay.io/biocontainers/probcons", "aliases": {"probcons": "/usr/local/bin/probcons", "compare": "/usr/local/bin/compare"}}
+config: {"url": "https://biocontainers.pro/tools/probcons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probcons", "latest": {"1.12--h5ca1c30_3": "sha256:589004fa5a07fb0903a724add6b65a084947c4f56648db8d760e6475ec2c3af9"}, "tags": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d", "1.12--h5ca1c30_3": "sha256:589004fa5a07fb0903a724add6b65a084947c4f56648db8d760e6475ec2c3af9"}, "docker": "quay.io/biocontainers/probcons", "aliases": {"probcons": "/usr/local/bin/probcons", "compare": "/usr/local/bin/compare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/probcons.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/probcons
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/probcons:1.12--h8b12597_1
+$ shpc install quay.io/biocontainers/probcons:1.12--h5ca1c30_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/probcons/1.12--h8b12597_1
-$ module help quay.io/biocontainers/probcons/1.12--h8b12597_1
+$ module load quay.io/biocontainers/probcons/1.12--h5ca1c30_3
+$ module help quay.io/biocontainers/probcons/1.12--h5ca1c30_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

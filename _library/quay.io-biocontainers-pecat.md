@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pecat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pecat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pecat/container.yaml"
-updated_at: "2024-12-25 03:31:19.803077"
-latest: "0.0.3--h5b5514e_0"
+updated_at: "2024-12-26 03:30:22.584752"
+latest: "0.0.3--hdb21b49_1"
 container_url: "https://biocontainers.pro/tools/pecat"
 aliases:
  - "pecat.pl"
@@ -27,8 +27,9 @@ versions:
  - "0.0.2--h5b5514e_0"
  - "0.0.2--h5b5514e_1"
  - "0.0.3--h5b5514e_0"
+ - "0.0.3--hdb21b49_1"
 description: "singularity registry hpc automated addition for pecat"
-config: {"url": "https://biocontainers.pro/tools/pecat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pecat", "latest": {"0.0.3--h5b5514e_0": "sha256:b4562cea32e74642996d7f4dfb28a653b537c96d9ba60b775f9ebb7db2812c7c"}, "tags": {"0.0.1--h5b5514e_0": "sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd", "0.0.2--h5b5514e_0": "sha256:1ac01f1a4b68765237f4f1247f03ea3172a8e66afacb973e21758c3b602ed5c7", "0.0.2--h5b5514e_1": "sha256:d063cc678f20416d9a571bf30f3c8258fc4bbbddb92d5dc517e1d07254afa8c9", "0.0.3--h5b5514e_0": "sha256:b4562cea32e74642996d7f4dfb28a653b537c96d9ba60b775f9ebb7db2812c7c"}, "docker": "quay.io/biocontainers/pecat", "aliases": {"pecat.pl": "/usr/local/bin/pecat.pl", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pecat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pecat", "latest": {"0.0.3--hdb21b49_1": "sha256:b48702b208f234f52651ff3dd22acd622b0e812c5aca66e41ac1085dbc472642"}, "tags": {"0.0.1--h5b5514e_0": "sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd", "0.0.2--h5b5514e_0": "sha256:1ac01f1a4b68765237f4f1247f03ea3172a8e66afacb973e21758c3b602ed5c7", "0.0.2--h5b5514e_1": "sha256:d063cc678f20416d9a571bf30f3c8258fc4bbbddb92d5dc517e1d07254afa8c9", "0.0.3--h5b5514e_0": "sha256:b4562cea32e74642996d7f4dfb28a653b537c96d9ba60b775f9ebb7db2812c7c", "0.0.3--hdb21b49_1": "sha256:b48702b208f234f52651ff3dd22acd622b0e812c5aca66e41ac1085dbc472642"}, "docker": "quay.io/biocontainers/pecat", "aliases": {"pecat.pl": "/usr/local/bin/pecat.pl", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pecat.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/pecat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pecat:0.0.3--h5b5514e_0
+$ shpc install quay.io/biocontainers/pecat:0.0.3--hdb21b49_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pecat/0.0.3--h5b5514e_0
-$ module help quay.io/biocontainers/pecat/0.0.3--h5b5514e_0
+$ module load quay.io/biocontainers/pecat/0.0.3--hdb21b49_1
+$ module help quay.io/biocontainers/pecat/0.0.3--hdb21b49_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-crypt-openssl-rsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-crypt-openssl-rsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-crypt-openssl-rsa/container.yaml"
-updated_at: "2024-12-25 03:15:31.166242"
-latest: "0.33--pl5321h5076881_3"
+updated_at: "2024-12-26 03:15:14.427376"
+latest: "0.33--pl5321hc234bb7_4"
 container_url: "https://biocontainers.pro/tools/perl-crypt-openssl-rsa"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "0.33--pl5321h1f4ba0c_1"
  - "0.33--pl5321h5076881_2"
  - "0.33--pl5321h5076881_3"
+ - "0.33--pl5321hc234bb7_4"
 description: "shpc-registry automated BioContainers addition for perl-crypt-openssl-rsa"
-config: {"url": "https://biocontainers.pro/tools/perl-crypt-openssl-rsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-crypt-openssl-rsa", "latest": {"0.33--pl5321h5076881_3": "sha256:a07f2b1ce75eac2dff9a552486ca75301937cd202f5f8e2179e3a564c9b3cea6"}, "tags": {"0.33--pl5321h1f4ba0c_1": "sha256:d2440949b98ff36889e3d6dcfb466bec8d3af09f2cd6811d7b12765c448bdc9e", "0.33--pl5321h5076881_2": "sha256:9df9d2ab158ef44c95bf5d4c74824851af635ca430373e6aca090dba42847346", "0.33--pl5321h5076881_3": "sha256:a07f2b1ce75eac2dff9a552486ca75301937cd202f5f8e2179e3a564c9b3cea6"}, "docker": "quay.io/biocontainers/perl-crypt-openssl-rsa", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-crypt-openssl-rsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-crypt-openssl-rsa", "latest": {"0.33--pl5321hc234bb7_4": "sha256:3587ddd359c58b1ad434cf3f953dd87485746cb441eb98e5464feb75d2536d42"}, "tags": {"0.33--pl5321h1f4ba0c_1": "sha256:d2440949b98ff36889e3d6dcfb466bec8d3af09f2cd6811d7b12765c448bdc9e", "0.33--pl5321h5076881_2": "sha256:9df9d2ab158ef44c95bf5d4c74824851af635ca430373e6aca090dba42847346", "0.33--pl5321h5076881_3": "sha256:a07f2b1ce75eac2dff9a552486ca75301937cd202f5f8e2179e3a564c9b3cea6", "0.33--pl5321hc234bb7_4": "sha256:3587ddd359c58b1ad434cf3f953dd87485746cb441eb98e5464feb75d2536d42"}, "docker": "quay.io/biocontainers/perl-crypt-openssl-rsa", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-crypt-openssl-rsa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-crypt-openssl-rsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-crypt-openssl-rsa:0.33--pl5321h5076881_3
+$ shpc install quay.io/biocontainers/perl-crypt-openssl-rsa:0.33--pl5321hc234bb7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-crypt-openssl-rsa/0.33--pl5321h5076881_3
-$ module help quay.io/biocontainers/perl-crypt-openssl-rsa/0.33--pl5321h5076881_3
+$ module load quay.io/biocontainers/perl-crypt-openssl-rsa/0.33--pl5321hc234bb7_4
+$ module help quay.io/biocontainers/perl-crypt-openssl-rsa/0.33--pl5321hc234bb7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

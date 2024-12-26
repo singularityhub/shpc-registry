@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-schex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-schex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-schex/container.yaml"
-updated_at: "2024-12-25 02:49:37.116411"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2024-12-26 02:50:26.619810"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-schex"
 aliases:
  - "testepsg"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-schex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-schex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-schex", "latest": {"1.16.0--r43hdfd78af_0": "sha256:50967a53ed0f107bbbcdb3afc27cab8ba32ecdad21d74f25ac6a84429887d515"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e946642c5dbc53ff800a46d3c3fc0bcd269cb212e00c9c07c17b7c7c43895c68", "1.12.0--r42hdfd78af_0": "sha256:72804b4533c486d9515dc0a155b077c1806ed55e7bb3d21f8ed758b8c3ff7216", "1.14.0--r43hdfd78af_0": "sha256:9f2dc8bcb19af4a3d67073f85aa7c4ee13c53a1ff9763b32aa5c502908044766", "1.16.0--r43hdfd78af_0": "sha256:50967a53ed0f107bbbcdb3afc27cab8ba32ecdad21d74f25ac6a84429887d515"}, "docker": "quay.io/biocontainers/bioconductor-schex", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-schex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-schex", "latest": {"1.20.0--r44hdfd78af_0": "sha256:87a2b48d536481596aaa38c478a534950b235a25aaf5528223cb6785dba5a467"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e946642c5dbc53ff800a46d3c3fc0bcd269cb212e00c9c07c17b7c7c43895c68", "1.12.0--r42hdfd78af_0": "sha256:72804b4533c486d9515dc0a155b077c1806ed55e7bb3d21f8ed758b8c3ff7216", "1.14.0--r43hdfd78af_0": "sha256:9f2dc8bcb19af4a3d67073f85aa7c4ee13c53a1ff9763b32aa5c502908044766", "1.16.0--r43hdfd78af_0": "sha256:50967a53ed0f107bbbcdb3afc27cab8ba32ecdad21d74f25ac6a84429887d515", "1.20.0--r44hdfd78af_0": "sha256:87a2b48d536481596aaa38c478a534950b235a25aaf5528223cb6785dba5a467"}, "docker": "quay.io/biocontainers/bioconductor-schex", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-schex.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-schex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-schex:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-schex:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-schex/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-schex/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-schex/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-schex/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicexplorer/container.yaml"
-updated_at: "2024-12-25 03:37:37.356331"
-latest: "3.7.5--pyhdfd78af_0"
+updated_at: "2024-12-26 03:36:20.752927"
+latest: "3.7.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicexplorer"
 aliases:
  - "dask-mpi"
@@ -59,8 +59,9 @@ versions:
  - "3.3.1--py_0"
  - "3.7.4--pyhdfd78af_0"
  - "3.7.5--pyhdfd78af_0"
+ - "3.7.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hicexplorer"
-config: {"url": "https://biocontainers.pro/tools/hicexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicexplorer", "latest": {"3.7.5--pyhdfd78af_0": "sha256:3c0a08fffbb47cc01ab71ff59327363af25f699e28e1c82d324f981a70af9477"}, "tags": {"2.2beta--py36_0": "sha256:b4b9284c564f584da3ef53ff4c6063d7f46346ef012406cf09828c45c20f953b", "2.2--py_1": "sha256:ded46ce1009dfbc4f1089e6f961a2aeff609cf330a94080921a1b4ced4c2a542", "3.7.3--pyhdfd78af_0": "sha256:914fc7d5271818f042fca25cb77a7a6c3df525faf376d80e8d039ceddc1b18f3", "3.6--py_0": "sha256:4a1568204f99dd3bd07c05bb1ce14358ddfa2f3434078e0decf1e7d8016735fa", "3.5.3--py_0": "sha256:a9987caa97f97b545b149119cad9e1c9e02df2b017c2fb9461c53dfd499c23d6", "3.4.3--py_1": "sha256:fd9a369efaa4be584ead96525a852859a1afa2124c00c66c189a0664d435e927", "3.3.1--py_0": "sha256:4c1ac82cdbc2d1ca4e1939f54291681d80e2dbf79be4d530b0d8d5d6bbd8399c", "3.7.4--pyhdfd78af_0": "sha256:81b8c6a55067e832bd38bac27f91448839fb40a8ffee367fe51de1db0b47d347", "3.7.5--pyhdfd78af_0": "sha256:3c0a08fffbb47cc01ab71ff59327363af25f699e28e1c82d324f981a70af9477"}, "docker": "quay.io/biocontainers/hicexplorer", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "findRestSite": "/usr/local/bin/findRestSite", "hicAdjustMatrix": "/usr/local/bin/hicAdjustMatrix", "hicAggregateContacts": "/usr/local/bin/hicAggregateContacts", "hicAverageRegions": "/usr/local/bin/hicAverageRegions", "hicBuildMatrix": "/usr/local/bin/hicBuildMatrix", "hicCompareMatrices": "/usr/local/bin/hicCompareMatrices", "hicConvertFormat": "/usr/local/bin/hicConvertFormat", "hicCorrectMatrix": "/usr/local/bin/hicCorrectMatrix", "hicCorrelate": "/usr/local/bin/hicCorrelate", "hicExport": "/usr/local/bin/hicExport", "hicFindEnrichedContacts": "/usr/local/bin/hicFindEnrichedContacts", "hicFindTADs": "/usr/local/bin/hicFindTADs", "hicInfo": "/usr/local/bin/hicInfo", "hicMergeMatrixBins": "/usr/local/bin/hicMergeMatrixBins", "hicNormalize": "/usr/local/bin/hicNormalize", "hicPCA": "/usr/local/bin/hicPCA", "hicPlotAverageRegions": "/usr/local/bin/hicPlotAverageRegions", "hicPlotDistVsCounts": "/usr/local/bin/hicPlotDistVsCounts", "hicPlotMatrix": "/usr/local/bin/hicPlotMatrix", "hicPlotTADs": "/usr/local/bin/hicPlotTADs", "hicPlotViewpoint": "/usr/local/bin/hicPlotViewpoint", "hicQC": "/usr/local/bin/hicQC", "hicSumMatrices": "/usr/local/bin/hicSumMatrices", "hicTransform": "/usr/local/bin/hicTransform", "hicexplorer": "/usr/local/bin/hicexplorer", "make_tracks_file": "/usr/local/bin/make_tracks_file", "pgt": "/usr/local/bin/pgt", "pyGenomeTracks": "/usr/local/bin/pyGenomeTracks", "cooler": "/usr/local/bin/cooler", "unidecode": "/usr/local/bin/unidecode", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "conv-template": "/usr/local/bin/conv-template", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "from-template": "/usr/local/bin/from-template", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh"}}
+config: {"url": "https://biocontainers.pro/tools/hicexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicexplorer", "latest": {"3.7.6--pyhdfd78af_0": "sha256:5611c58152705b65fe18112afa1cb72a1f09a678171e74e8a42fe2d83e3fc02f"}, "tags": {"2.2beta--py36_0": "sha256:b4b9284c564f584da3ef53ff4c6063d7f46346ef012406cf09828c45c20f953b", "2.2--py_1": "sha256:ded46ce1009dfbc4f1089e6f961a2aeff609cf330a94080921a1b4ced4c2a542", "3.7.3--pyhdfd78af_0": "sha256:914fc7d5271818f042fca25cb77a7a6c3df525faf376d80e8d039ceddc1b18f3", "3.6--py_0": "sha256:4a1568204f99dd3bd07c05bb1ce14358ddfa2f3434078e0decf1e7d8016735fa", "3.5.3--py_0": "sha256:a9987caa97f97b545b149119cad9e1c9e02df2b017c2fb9461c53dfd499c23d6", "3.4.3--py_1": "sha256:fd9a369efaa4be584ead96525a852859a1afa2124c00c66c189a0664d435e927", "3.3.1--py_0": "sha256:4c1ac82cdbc2d1ca4e1939f54291681d80e2dbf79be4d530b0d8d5d6bbd8399c", "3.7.4--pyhdfd78af_0": "sha256:81b8c6a55067e832bd38bac27f91448839fb40a8ffee367fe51de1db0b47d347", "3.7.5--pyhdfd78af_0": "sha256:3c0a08fffbb47cc01ab71ff59327363af25f699e28e1c82d324f981a70af9477", "3.7.6--pyhdfd78af_0": "sha256:5611c58152705b65fe18112afa1cb72a1f09a678171e74e8a42fe2d83e3fc02f"}, "docker": "quay.io/biocontainers/hicexplorer", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "findRestSite": "/usr/local/bin/findRestSite", "hicAdjustMatrix": "/usr/local/bin/hicAdjustMatrix", "hicAggregateContacts": "/usr/local/bin/hicAggregateContacts", "hicAverageRegions": "/usr/local/bin/hicAverageRegions", "hicBuildMatrix": "/usr/local/bin/hicBuildMatrix", "hicCompareMatrices": "/usr/local/bin/hicCompareMatrices", "hicConvertFormat": "/usr/local/bin/hicConvertFormat", "hicCorrectMatrix": "/usr/local/bin/hicCorrectMatrix", "hicCorrelate": "/usr/local/bin/hicCorrelate", "hicExport": "/usr/local/bin/hicExport", "hicFindEnrichedContacts": "/usr/local/bin/hicFindEnrichedContacts", "hicFindTADs": "/usr/local/bin/hicFindTADs", "hicInfo": "/usr/local/bin/hicInfo", "hicMergeMatrixBins": "/usr/local/bin/hicMergeMatrixBins", "hicNormalize": "/usr/local/bin/hicNormalize", "hicPCA": "/usr/local/bin/hicPCA", "hicPlotAverageRegions": "/usr/local/bin/hicPlotAverageRegions", "hicPlotDistVsCounts": "/usr/local/bin/hicPlotDistVsCounts", "hicPlotMatrix": "/usr/local/bin/hicPlotMatrix", "hicPlotTADs": "/usr/local/bin/hicPlotTADs", "hicPlotViewpoint": "/usr/local/bin/hicPlotViewpoint", "hicQC": "/usr/local/bin/hicQC", "hicSumMatrices": "/usr/local/bin/hicSumMatrices", "hicTransform": "/usr/local/bin/hicTransform", "hicexplorer": "/usr/local/bin/hicexplorer", "make_tracks_file": "/usr/local/bin/make_tracks_file", "pgt": "/usr/local/bin/pgt", "pyGenomeTracks": "/usr/local/bin/pyGenomeTracks", "cooler": "/usr/local/bin/cooler", "unidecode": "/usr/local/bin/unidecode", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "conv-template": "/usr/local/bin/conv-template", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "from-template": "/usr/local/bin/from-template", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicexplorer.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/hicexplorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicexplorer:3.7.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hicexplorer:3.7.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicexplorer/3.7.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/hicexplorer/3.7.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/hicexplorer/3.7.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/hicexplorer/3.7.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

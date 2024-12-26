@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aegean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aegean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aegean/container.yaml"
-updated_at: "2024-12-25 02:54:32.583618"
-latest: "0.16.0--hc3aac3a_4"
+updated_at: "2024-12-26 02:55:09.852679"
+latest: "0.16.0--h71bfec9_5"
 container_url: "https://biocontainers.pro/tools/aegean"
 aliases:
  - "canon-gff3"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "0.16.0--hde46a50_3"
  - "0.16.0--hc3aac3a_4"
+ - "0.16.0--h71bfec9_5"
 description: "shpc-registry automated BioContainers addition for aegean"
-config: {"url": "https://biocontainers.pro/tools/aegean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aegean", "latest": {"0.16.0--hc3aac3a_4": "sha256:a9919f2cf6f9b2556b92028b9cf8989130c0f24712ca8886f3ee8b7f6b5c527b"}, "tags": {"0.16.0--hde46a50_3": "sha256:3c0b843f958647204a367e1812ce9a9570a776e74d4285a8aeb6be456f158858", "0.16.0--hc3aac3a_4": "sha256:a9919f2cf6f9b2556b92028b9cf8989130c0f24712ca8886f3ee8b7f6b5c527b"}, "docker": "quay.io/biocontainers/aegean", "aliases": {"canon-gff3": "/usr/local/bin/canon-gff3", "gaeval": "/usr/local/bin/gaeval", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "locuspocus": "/usr/local/bin/locuspocus", "parseval": "/usr/local/bin/parseval", "pmrna": "/usr/local/bin/pmrna", "tidygff3": "/usr/local/bin/tidygff3", "xtractore": "/usr/local/bin/xtractore", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/aegean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aegean", "latest": {"0.16.0--h71bfec9_5": "sha256:b27edd1c3dc909daba267be9abba041269f8cf7ae26003a9a6e0c293974043f2"}, "tags": {"0.16.0--hde46a50_3": "sha256:3c0b843f958647204a367e1812ce9a9570a776e74d4285a8aeb6be456f158858", "0.16.0--hc3aac3a_4": "sha256:a9919f2cf6f9b2556b92028b9cf8989130c0f24712ca8886f3ee8b7f6b5c527b", "0.16.0--h71bfec9_5": "sha256:b27edd1c3dc909daba267be9abba041269f8cf7ae26003a9a6e0c293974043f2"}, "docker": "quay.io/biocontainers/aegean", "aliases": {"canon-gff3": "/usr/local/bin/canon-gff3", "gaeval": "/usr/local/bin/gaeval", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "locuspocus": "/usr/local/bin/locuspocus", "parseval": "/usr/local/bin/parseval", "pmrna": "/usr/local/bin/pmrna", "tidygff3": "/usr/local/bin/tidygff3", "xtractore": "/usr/local/bin/xtractore", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aegean.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/aegean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aegean:0.16.0--hc3aac3a_4
+$ shpc install quay.io/biocontainers/aegean:0.16.0--h71bfec9_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aegean/0.16.0--hc3aac3a_4
-$ module help quay.io/biocontainers/aegean/0.16.0--hc3aac3a_4
+$ module load quay.io/biocontainers/aegean/0.16.0--h71bfec9_5
+$ module help quay.io/biocontainers/aegean/0.16.0--h71bfec9_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
