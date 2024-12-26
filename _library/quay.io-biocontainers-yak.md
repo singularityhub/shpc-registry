@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yak/container.yaml"
-updated_at: "2024-12-26 03:18:40.816163"
+updated_at: "2024-12-26 03:33:51.150211"
 latest: "0.1--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/yak"
 aliases:
