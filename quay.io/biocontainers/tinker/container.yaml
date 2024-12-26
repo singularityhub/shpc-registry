@@ -1,0 +1,74 @@
+url: https://biocontainers.pro/tools/tinker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tinker
+latest:
+  8.11.3--h8d36177_0: sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
+tags:
+  8.11.3--h8d36177_0: sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
+docker: quay.io/biocontainers/tinker
+aliases:
+  alchemy: /usr/local/bin/alchemy
+  analyze: /usr/local/bin/analyze
+  anneal: /usr/local/bin/anneal
+  arcedit: /usr/local/bin/arcedit
+  bar: /usr/local/bin/bar
+  correlate: /usr/local/bin/correlate
+  critical: /usr/local/bin/critical
+  crystal: /usr/local/bin/crystal
+  diffuse: /usr/local/bin/diffuse
+  distgeom: /usr/local/bin/distgeom
+  document: /usr/local/bin/document
+  dynamic: /usr/local/bin/dynamic
+  freefix: /usr/local/bin/freefix
+  gda: /usr/local/bin/gda
+  intedit: /usr/local/bin/intedit
+  intxyz: /usr/local/bin/intxyz
+  minimize: /usr/local/bin/minimize
+  minirot: /usr/local/bin/minirot
+  minrigid: /usr/local/bin/minrigid
+  mol2xyz: /usr/local/bin/mol2xyz
+  molxyz: /usr/local/bin/molxyz
+  monte: /usr/local/bin/monte
+  newton: /usr/local/bin/newton
+  newtrot: /usr/local/bin/newtrot
+  nucleic: /usr/local/bin/nucleic
+  optimize: /usr/local/bin/optimize
+  optirot: /usr/local/bin/optirot
+  optrigid: /usr/local/bin/optrigid
+  path: /usr/local/bin/path
+  pdbxyz: /usr/local/bin/pdbxyz
+  polarize: /usr/local/bin/polarize
+  poledit: /usr/local/bin/poledit
+  potential: /usr/local/bin/potential
+  prmedit: /usr/local/bin/prmedit
+  protein: /usr/local/bin/protein
+  pss: /usr/local/bin/pss
+  pssrigid: /usr/local/bin/pssrigid
+  pssrot: /usr/local/bin/pssrot
+  radial: /usr/local/bin/radial
+  saddle: /usr/local/bin/saddle
+  scan: /usr/local/bin/scan
+  sniffer: /usr/local/bin/sniffer
+  spacefill: /usr/local/bin/spacefill
+  spectrum: /usr/local/bin/spectrum
+  superpose: /usr/local/bin/superpose
+  testgrad: /usr/local/bin/testgrad
+  testhess: /usr/local/bin/testhess
+  testpair: /usr/local/bin/testpair
+  testpol: /usr/local/bin/testpol
+  testrot: /usr/local/bin/testrot
+  testsurf: /usr/local/bin/testsurf
+  testvir: /usr/local/bin/testvir
+  timer: /usr/local/bin/timer
+  timerot: /usr/local/bin/timerot
+  torsfit: /usr/local/bin/torsfit
+  valence: /usr/local/bin/valence
+  vibbig: /usr/local/bin/vibbig
+  vibrate: /usr/local/bin/vibrate
+  vibrot: /usr/local/bin/vibrot
+  xtalfit: /usr/local/bin/xtalfit
+  xtalmin: /usr/local/bin/xtalmin
+  xyzedit: /usr/local/bin/xyzedit
+  xyzint: /usr/local/bin/xyzint
+  xyzmol2: /usr/local/bin/xyzmol2
+  xyzpdb: /usr/local/bin/xyzpdb

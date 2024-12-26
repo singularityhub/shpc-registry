@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-dfplyr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-dfplyr
+latest:
+  1.0.0--r44hdfd78af_0: sha256:6a058276b2ac25af34cd55e8f84b3535d74521c0faff65345d71dabf891c5a2c
+tags:
+  1.0.0--r44hdfd78af_0: sha256:6a058276b2ac25af34cd55e8f84b3535d74521c0faff65345d71dabf891c5a2c
+docker: quay.io/biocontainers/bioconductor-dfplyr
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

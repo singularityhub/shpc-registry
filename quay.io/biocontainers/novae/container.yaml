@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/novae
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for novae
+latest:
+  0.2.2--pyhdfd78af_0: sha256:39f922e00500a9bc6601f799c6edd77adec841a391a740025feb0b5851edb7ec
+tags:
+  0.2.2--pyhdfd78af_0: sha256:39f922e00500a9bc6601f799c6edd77adec841a391a740025feb0b5851edb7ec
+docker: quay.io/biocontainers/novae
+aliases:
+  ase: /usr/local/bin/ase
+  ase-build: /usr/local/bin/ase-build
+  ase-db: /usr/local/bin/ase-db
+  ase-gui: /usr/local/bin/ase-gui
+  ase-info: /usr/local/bin/ase-info
+  ase-run: /usr/local/bin/ase-run
+  fabric: /usr/local/bin/fabric
+  h5fuse: /usr/local/bin/h5fuse
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  lightning: /usr/local/bin/lightning
+  protoc-28.2.0: /usr/local/bin/protoc-28.2.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  trimesh: /usr/local/bin/trimesh
+  rav1e: /usr/local/bin/rav1e
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe

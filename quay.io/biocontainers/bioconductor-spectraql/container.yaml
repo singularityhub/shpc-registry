@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-spectraql
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-spectraql
+latest:
+  1.0.0--r44hdfd78af_0: sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1
+tags:
+  1.0.0--r44hdfd78af_0: sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1
+docker: quay.io/biocontainers/bioconductor-spectraql
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

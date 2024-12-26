@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-scmitomut
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-scmitomut
+latest:
+  1.2.0--r44he5774e6_0: sha256:a46a28f79c8b8a78e4b5cce55a79e52e52f6a2d0fd513952b7d8a69523e278a8
+tags:
+  1.2.0--r44he5774e6_0: sha256:a46a28f79c8b8a78e4b5cce55a79e52e52f6a2d0fd513952b7d8a69523e278a8
+docker: quay.io/biocontainers/bioconductor-scmitomut
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

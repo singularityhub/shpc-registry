@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/biox
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biox
+latest:
+  1.0.0--pyhdfd78af_0: sha256:dc03b5a3724669e79154edc661d4b530ed636015b26d1d675d996c9847705c98
+tags:
+  1.0.0--pyhdfd78af_0: sha256:dc03b5a3724669e79154edc661d4b530ed636015b26d1d675d996c9847705c98
+docker: quay.io/biocontainers/biox
+aliases:
+  biox: /usr/local/bin/biox
+  get_gprof: /usr/local/bin/get_gprof
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm

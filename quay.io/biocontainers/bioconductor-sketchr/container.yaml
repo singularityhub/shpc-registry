@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-sketchr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-sketchr
+latest:
+  1.2.0--r44hdfd78af_0: sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4
+tags:
+  1.2.0--r44hdfd78af_0: sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4
+docker: quay.io/biocontainers/bioconductor-sketchr
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

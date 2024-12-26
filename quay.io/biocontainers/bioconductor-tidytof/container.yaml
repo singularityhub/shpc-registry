@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-tidytof
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-tidytof
+latest:
+  1.0.0--r44he5774e6_0: sha256:e26ff301501f313dbcd588691ed362ca84b493a3a978cbe4078d4a17a2e67d70
+tags:
+  1.0.0--r44he5774e6_0: sha256:e26ff301501f313dbcd588691ed362ca84b493a3a978cbe4078d4a17a2e67d70
+docker: quay.io/biocontainers/bioconductor-tidytof
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

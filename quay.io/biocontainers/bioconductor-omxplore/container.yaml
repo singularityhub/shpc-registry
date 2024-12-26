@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/bioconductor-omxplore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-omxplore
+latest:
+  1.0.0--r44hdfd78af_0: sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
+tags:
+  1.0.0--r44hdfd78af_0: sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
+docker: quay.io/biocontainers/bioconductor-omxplore
+aliases:
+  h5fuse: /usr/local/bin/h5fuse
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pandoc-server: /usr/local/bin/pandoc-server
+  numpy-config: /usr/local/bin/numpy-config
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  h5delete: /usr/local/bin/h5delete
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
