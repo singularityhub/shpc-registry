@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/bioconductor-bugphyzz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-bugphyzz
+latest:
+  1.0.0--r44hdfd78af_0: sha256:cfd3f5cb42127d60e4b3c7721aff2099390d8abe06f75b5e7a445c8770514a78
+tags:
+  1.0.0--r44hdfd78af_0: sha256:cfd3f5cb42127d60e4b3c7721aff2099390d8abe06f75b5e7a445c8770514a78
+docker: quay.io/biocontainers/bioconductor-bugphyzz
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  hb-info: /usr/local/bin/hb-info
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tjbench: /usr/local/bin/tjbench

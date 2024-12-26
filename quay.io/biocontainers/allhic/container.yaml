@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/allhic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for allhic
+latest:
+  0.9.14--he881be0_0: sha256:d272bb5c73fdd256c8bbd0349595558f913984645931c12a1d237153e4dc378d
+tags:
+  0.9.14--he881be0_0: sha256:d272bb5c73fdd256c8bbd0349595558f913984645931c12a1d237153e4dc378d
+docker: quay.io/biocontainers/allhic
+aliases:
+  allhic: /usr/local/bin/allhic

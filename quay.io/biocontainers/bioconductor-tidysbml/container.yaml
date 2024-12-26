@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-tidysbml
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-tidysbml
+latest:
+  1.0.0--r44hdfd78af_0: sha256:e12d400e0c1c6c8aecf066ee418fee8a2858316d74420c7fecbe633896c8bbd5
+tags:
+  1.0.0--r44hdfd78af_0: sha256:e12d400e0c1c6c8aecf066ee418fee8a2858316d74420c7fecbe633896c8bbd5
+docker: quay.io/biocontainers/bioconductor-tidysbml
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

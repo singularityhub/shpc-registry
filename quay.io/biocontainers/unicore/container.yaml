@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/unicore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unicore
+latest:
+  1.0.1--h7ef3eeb_0: sha256:ebf035d6f930214a1fda9d8f3580ba192f0a0e0f69305f4421660e08b42b0ca3
+tags:
+  1.0.1--h7ef3eeb_0: sha256:ebf035d6f930214a1fda9d8f3580ba192f0a0e0f69305f4421660e08b42b0ca3
+docker: quay.io/biocontainers/unicore
+aliases:
+  checksum-profile: /usr/local/bin/checksum-profile
+  datasets-cli: /usr/local/bin/datasets-cli
+  elastishadow: /usr/local/bin/elastishadow
+  foldmason: /usr/local/bin/foldmason
+  foldseek: /usr/local/bin/foldseek
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  protoc-28.2.0: /usr/local/bin/protoc-28.2.0
+  spm_decode: /usr/local/bin/spm_decode
+  spm_encode: /usr/local/bin/spm_encode
+  spm_export_vocab: /usr/local/bin/spm_export_vocab
+  spm_normalize: /usr/local/bin/spm_normalize
+  spm_train: /usr/local/bin/spm_train
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  transformers-cli: /usr/local/bin/transformers-cli
+  unicore: /usr/local/bin/unicore
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  get_gprof: /usr/local/bin/get_gprof
+  iqtree2: /usr/local/bin/iqtree2
+  aria2c: /usr/local/bin/aria2c
+  iqtree: /usr/local/bin/iqtree
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS
+  raxmlHPC-PTHREADS-AVX2: /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+  raxmlHPC-PTHREADS-SSE3: /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+  raxmlHPC-SSE3: /usr/local/bin/raxmlHPC-SSE3
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  gawkbug: /usr/local/bin/gawkbug
+  xxhsum: /usr/local/bin/xxhsum
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary

@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/amplicontyper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amplicontyper
+latest:
+  0.1.28--pyhdfd78af_0: sha256:4304d9f7f95e01fd265f132b57ce0ae46f63ba1c16adb32f83d54cd6565eb4fb
+tags:
+  0.1.28--pyhdfd78af_0: sha256:4304d9f7f95e01fd265f132b57ce0ae46f63ba1c16adb32f83d54cd6565eb4fb
+docker: quay.io/biocontainers/amplicontyper
+aliases:
+  check_for_update.py: /usr/local/bin/check_for_update.py
+  classifier_report.py: /usr/local/bin/classifier_report.py
+  classify: /usr/local/bin/classify
+  classify.py: /usr/local/bin/classify.py
+  data_classes.py: /usr/local/bin/data_classes.py
+  genotyper_utilities: /usr/local/bin/genotyper_utilities
+  genotyper_utilities.py: /usr/local/bin/genotyper_utilities.py
+  hierarchy_utils.py: /usr/local/bin/hierarchy_utils.py
+  html_head.txt: /usr/local/bin/html_head.txt
+  input_processing.py: /usr/local/bin/input_processing.py
+  inputs_validation.py: /usr/local/bin/inputs_validation.py
+  map.py: /usr/local/bin/map.py
+  model_manager.py: /usr/local/bin/model_manager.py
+  read_classifier.py: /usr/local/bin/read_classifier.py
+  reporting_classes.py: /usr/local/bin/reporting_classes.py
+  train: /usr/local/bin/train
+  train.py: /usr/local/bin/train.py
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  annot-tsv: /usr/local/bin/annot-tsv
+  numpy-config: /usr/local/bin/numpy-config
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite

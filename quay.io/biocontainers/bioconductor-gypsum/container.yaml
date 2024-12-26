@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-gypsum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-gypsum
+latest:
+  1.2.0--r44hdfd78af_0: sha256:6c9150d892f4eb60f3df279c323871effda5f5232a8661c7cefe247d05eedc3c
+tags:
+  1.2.0--r44hdfd78af_0: sha256:6c9150d892f4eb60f3df279c323871effda5f5232a8661c7cefe247d05eedc3c
+docker: quay.io/biocontainers/bioconductor-gypsum
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

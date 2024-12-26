@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-seahtrue
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-seahtrue
+latest:
+  1.0.0--r44hdfd78af_0: sha256:080113ec08e0f42afd39311c1271d364e5057b848e90c32b737adb865e4d02fc
+tags:
+  1.0.0--r44hdfd78af_0: sha256:080113ec08e0f42afd39311c1271d364e5057b848e90c32b737adb865e4d02fc
+docker: quay.io/biocontainers/bioconductor-seahtrue
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
