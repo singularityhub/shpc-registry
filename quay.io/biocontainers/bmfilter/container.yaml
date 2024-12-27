@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bmfilter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bmfilter
 latest:
-  3.101--h4ac6f70_5: sha256:cc20cb7d0ba73b789e2171b87de3dbdaf785e7506bccb49d849a29be1d0aed39
+  3.101--h9948957_6: sha256:10b740875224d2a893eeda98c489461256e290e10678b3b49fdbbb0e64d346dd
 tags:
   3.101--hc9558a2_3: sha256:c01439297af9a0e35e6843a8b82c3e2854ae283407c9efb8ed44bf17f6e10fee
   3.101--h4ac6f70_5: sha256:cc20cb7d0ba73b789e2171b87de3dbdaf785e7506bccb49d849a29be1d0aed39
+  3.101--h9948957_6: sha256:10b740875224d2a893eeda98c489461256e290e10678b3b49fdbbb0e64d346dd
 docker: quay.io/biocontainers/bmfilter
 aliases:
   bmfilter: /usr/local/bin/bmfilter

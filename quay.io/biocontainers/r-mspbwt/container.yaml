@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-mspbwt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-mspbwt
 latest:
-  0.1.0--r43hdbdd923_1: sha256:35372f23b6fcde386f723125f7515181c5bb76b2fc149e0707025944dc7ccf90
+  0.1.0--r44h503566f_2: sha256:c8e7cda78baeeb5f5429b856e64ea391453c205f915578bdf9c066697a46deeb
 tags:
   0.1.0--r43hdbdd923_1: sha256:35372f23b6fcde386f723125f7515181c5bb76b2fc149e0707025944dc7ccf90
+  0.1.0--r44h503566f_2: sha256:c8e7cda78baeeb5f5429b856e64ea391453c205f915578bdf9c066697a46deeb
 docker: quay.io/biocontainers/r-mspbwt
 aliases:
   STITCH.R: /usr/local/bin/STITCH.R

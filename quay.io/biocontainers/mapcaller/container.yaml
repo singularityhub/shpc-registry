@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/mapcaller
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapcaller
 latest:
-  0.9.9.41--hf5e1c6e_5: sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66
+  0.9.9.41--h13024bc_6: sha256:c7b9e52850b7de1546a7422c261628e934333b6294ef5a3526a056aea0fafe10
 tags:
   0.9.9.7--h9b50bf8_0: sha256:83dd743edebd86d538b56fae4f474123441d954f99397c71f1975b3714fa5db2
   0.9.9.41--h2ccddb4_2: sha256:d4ccf1424a3718221fa5c165eb696a16170b004c33354fc663c03a5b95c830e3
   0.9.9.41--hcd5855d_4: sha256:e0b10a3501aa8bdbc974a362dc10cb6fe3a84c78f22fa7d70f7acfc563252088
   0.9.9.41--hf5e1c6e_5: sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66
+  0.9.9.41--h13024bc_6: sha256:c7b9e52850b7de1546a7422c261628e934333b6294ef5a3526a056aea0fafe10
 docker: quay.io/biocontainers/mapcaller
 aliases:
   MapCaller: /usr/local/bin/MapCaller

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/longreadsum
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longreadsum
 latest:
-  1.3.1--py310h16889fc_2: sha256:813b7fdfbe52cb4b0735b023c1c02fecfa3e4db1da2efd2e8e4dd278bb9f24f4
+  1.3.1--py310h65e1ce4_3: sha256:3c0278514590dcc89bc7c86e51e5a51dadf8ee2907e99fa1cd469fbc57c3e1ef
 tags:
   1.2.0--py310h6d153b4_0: sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb
   1.2.0--py38h5182439_1: sha256:0e31ade7c1c0fff0cc1bb446b00cc2462003ebdde315bc0aabce7e6af826e24c
@@ -11,6 +11,7 @@ tags:
   1.3.1--py38h4177a35_0: sha256:588ad721392f35c48d6d62a472c2a907505dd1cf00273de0a3dc7a30b34ae6a4
   1.2.0--py39h1174caa_1: sha256:dd8e065c581c01d2d61acdbcd4f3ad8ab6cf9e907a9cd155e40e80066ca18b5b
   1.3.1--py310h16889fc_2: sha256:813b7fdfbe52cb4b0735b023c1c02fecfa3e4db1da2efd2e8e4dd278bb9f24f4
+  1.3.1--py310h65e1ce4_3: sha256:3c0278514590dcc89bc7c86e51e5a51dadf8ee2907e99fa1cd469fbc57c3e1ef
 docker: quay.io/biocontainers/longreadsum
 aliases:
   bam_plot.py: /usr/local/bin/bam_plot.py

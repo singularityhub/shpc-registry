@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/lrge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lrge
 latest:
-  0.1.1--h53be72d_0: sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa
+  0.1.3--h9f13da3_1: sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957
 tags:
   0.1.1--h53be72d_0: sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa
+  0.1.3--h9f13da3_1: sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957
 docker: quay.io/biocontainers/lrge
 aliases:
   lrge: /usr/local/bin/lrge

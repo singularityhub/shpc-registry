@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-cleangeostreamr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-cleangeostreamr
 latest:
-  1.0.0--r43hdfd78af_0: sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e
+  1.0.0--r44hdfd78af_1: sha256:cc073d89ec828b75bcfa2c727209a5847eb22ea9ff45c7d4f8b173117854db6a
 tags:
   1.0.0--r43hdfd78af_0: sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e
+  1.0.0--r44hdfd78af_1: sha256:cc073d89ec828b75bcfa2c727209a5847eb22ea9ff45c7d4f8b173117854db6a
 docker: quay.io/biocontainers/r-cleangeostreamr
 aliases:
   bsdunzip: /usr/local/bin/bsdunzip

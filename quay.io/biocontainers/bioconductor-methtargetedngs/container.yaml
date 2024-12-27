@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-methtargetedngs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methtargetedngs
 latest:
-  1.34.0--r43hdfd78af_0: sha256:345805b0ecd5525525d19815d0818d3072065cfb1243fdb5a47514a7d6a041a4
+  1.38.0--r44hdfd78af_0: sha256:1864a15b2cf31c1fe6735770e48ae0d842686e5703996998dc23dca725b414d4
 tags:
   1.8.0--r3.3.2_0: sha256:f2e507232a22d471eba636b21b8915d0a74627ef3fda7a116fb95a4e40b25b22
   1.30.0--r42hdfd78af_0: sha256:f69ed22b33651711f5f497e8969149fd21271d422ddc0a6098b6bf119f94e4ff
@@ -12,6 +12,7 @@ tags:
   1.20.0--r40_0: sha256:4eda8d35a6f82e4bb39785a27c3ad85e1961077050f5972f655476ea5ccf0014
   1.32.0--r43hdfd78af_0: sha256:6c67d3f543dee5825514fee45c12a44ba6fb48e377359fd8446d68699a2eee32
   1.34.0--r43hdfd78af_0: sha256:345805b0ecd5525525d19815d0818d3072065cfb1243fdb5a47514a7d6a041a4
+  1.38.0--r44hdfd78af_0: sha256:1864a15b2cf31c1fe6735770e48ae0d842686e5703996998dc23dca725b414d4
 docker: quay.io/biocontainers/bioconductor-methtargetedngs
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ntcard
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ntcard
 latest:
-  1.2.2--pl5321hdcf5f25_5: sha256:425e77544c4de84ba8cd285af01d8b001ac8f8b8e8e892a578ac6091bc0c054e
+  1.2.2--pl5321h077b44d_6: sha256:69d9f372b5294c455814fb5dce45cfcd8749f1d02831f76a0c5177a11cebbcd1
 tags:
   1.2.2--pl5321hd03093a_2: sha256:a445aa915d02f930ae426e19ddb2b1656da3db034b3b5ecde8a9e4d5256026cd
   1.2.2--pl5321hdcf5f25_4: sha256:6a792af561e9ab6437cbba3e341d81a41790f651401e8d2944b98f7ab68d585c
   1.2.2--pl5321hdcf5f25_5: sha256:425e77544c4de84ba8cd285af01d8b001ac8f8b8e8e892a578ac6091bc0c054e
+  1.2.2--pl5321h077b44d_6: sha256:69d9f372b5294c455814fb5dce45cfcd8749f1d02831f76a0c5177a11cebbcd1
 docker: quay.io/biocontainers/ntcard
 aliases:
   ntcard: /usr/local/bin/ntcard

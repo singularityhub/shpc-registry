@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-nnsvg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-nnsvg
 latest:
-  1.6.0--r43hdfd78af_0: sha256:49b166cee2055c44ebbbdfc2900c830bd18900bf7d96a55ece6b326353f791bc
+  1.10.0--r44hdfd78af_0: sha256:e87aa5e9ea3015ee32b0304ae9a42a4ca2805ef07dee3ef1d6d04bcd0410626f
 tags:
   1.2.0--r42hdfd78af_0: sha256:1dffa1b477d4ba975729a105686279e5ede4af61eee9e0c3d71e2ed8a1ed90a9
   1.4.1--r43hdfd78af_0: sha256:7a3282f821325b36b2b998acdaab5f4bd01c46d9e814360b203d9cff89d337dc
   1.6.0--r43hdfd78af_0: sha256:49b166cee2055c44ebbbdfc2900c830bd18900bf7d96a55ece6b326353f791bc
+  1.10.0--r44hdfd78af_0: sha256:e87aa5e9ea3015ee32b0304ae9a42a4ca2805ef07dee3ef1d6d04bcd0410626f
 docker: quay.io/biocontainers/bioconductor-nnsvg
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

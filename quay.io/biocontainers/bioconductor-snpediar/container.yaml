@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-snpediar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snpediar
 latest:
-  1.28.0--r43hdfd78af_0: sha256:574024ed8def73076cc4f48fe2a4ff13cb647995a319fe7e53bf8e04573ac34e
+  1.32.0--r44hdfd78af_0: sha256:3cb916fd3a77ec70edee85e967f992291aa2c38c5c6bd53a477995151fa44e9f
 tags:
   1.8.0--r351_0: sha256:e5af2d2bfaa3eac55c9c72e597f6a67b43949899f62ac88798cdb8f708958890
   1.24.0--r42hdfd78af_0: sha256:b8fddde3deacfe63c6eea6296bf5a88150af18bfc1ff97f15c335311b59fbdd7
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:98ecb755a0bc173c5e4bd8ef103ece0f956922dbca7ba1da77e2966b85328b19
   1.26.0--r43hdfd78af_0: sha256:f7918226927fcf646e7fa7a03570e90e077db4b96c2e63f62e180a27f3554be4
   1.28.0--r43hdfd78af_0: sha256:574024ed8def73076cc4f48fe2a4ff13cb647995a319fe7e53bf8e04573ac34e
+  1.32.0--r44hdfd78af_0: sha256:3cb916fd3a77ec70edee85e967f992291aa2c38c5c6bd53a477995151fa44e9f
 docker: quay.io/biocontainers/bioconductor-snpediar
 aliases:
   c89: /usr/local/bin/c89

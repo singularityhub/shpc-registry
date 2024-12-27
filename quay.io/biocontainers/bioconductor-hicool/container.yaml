@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hicool
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hicool
 latest:
-  1.2.0--r43hdfd78af_0: sha256:47efabcf10f9cb8990d8b1551156ffae1d7452e1252474e59c4a7fb34e37fc98
+  1.6.0--r44hdfd78af_0: sha256:4eaa275b2f29dd509867f3112aa69fd9712a850c05f2cd0b20a1faf067cc2baa
 tags:
   1.2.0--r43hdfd78af_0: sha256:47efabcf10f9cb8990d8b1551156ffae1d7452e1252474e59c4a7fb34e37fc98
+  1.6.0--r44hdfd78af_0: sha256:4eaa275b2f29dd509867f3112aa69fd9712a850c05f2cd0b20a1faf067cc2baa
 docker: quay.io/biocontainers/bioconductor-hicool
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

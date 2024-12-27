@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/acms
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for acms
 latest:
-  1.3.0--pl5321h4ac6f70_1: sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e
+  1.3.0--pl5321h9948957_2: sha256:3f6a1c89887bd1d02536e51deac651925d7479d2ca981fecbd45a2c027ccdde1
 tags:
   1.3.0--pl5321h4ac6f70_1: sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e
+  1.3.0--pl5321h9948957_2: sha256:3f6a1c89887bd1d02536e51deac651925d7479d2ca981fecbd45a2c027ccdde1
 docker: quay.io/biocontainers/acms
 aliases:
   acmbuild: /usr/local/bin/acmbuild

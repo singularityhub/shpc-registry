@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-msfeatures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msfeatures
 latest:
-  1.10.0--r43hdfd78af_0: sha256:dc77054eb4b2d28bdb9e5cb603245f3fa9a32f02936fb77eb1210d0f87646f12
+  1.14.0--r44hdfd78af_0: sha256:1fe4b7dcbcdbd7a0e7044fd181b08c77c9b08ebbbea219b5bf137f110a4a3c31
 tags:
   1.2.0--r41hdfd78af_0: sha256:f2d00cdfdb0183a0aefae31f14357c9bcffb2e3c80e83342715372c4acbc0668
   1.6.0--r42hdfd78af_0: sha256:ec672eb2c184df7e7dd4dd43e7451cf9dace5e416743edc80c01c4b6b3816bed
   1.8.0--r43hdfd78af_0: sha256:cb5546b586d6f87a1d8d14a153fcb14da05ce1ce81115d936b985853c7063cfb
   1.10.0--r43hdfd78af_0: sha256:dc77054eb4b2d28bdb9e5cb603245f3fa9a32f02936fb77eb1210d0f87646f12
+  1.14.0--r44hdfd78af_0: sha256:1fe4b7dcbcdbd7a0e7044fd181b08c77c9b08ebbbea219b5bf137f110a4a3c31
 docker: quay.io/biocontainers/bioconductor-msfeatures

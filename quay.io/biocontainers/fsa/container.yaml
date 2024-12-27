@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fsa
 latest:
-  1.15.9--h43eeafb_4: sha256:4db7ccea64c9eb25430dd65c1f858c90b76d4d8fdff59b0a470034851bb57c22
+  1.15.9--h5ca1c30_5: sha256:95774baaadd4237496fe83a81d185ad4b6b05b2e8a68bca52d869e5033175fab
 tags:
   1.15.9--h5b5514e_3: sha256:63a805cfa5a45173df51bfa614fd1fde0044f4e83027a8e526afe2efab0472aa
   1.15.9--h43eeafb_4: sha256:4db7ccea64c9eb25430dd65c1f858c90b76d4d8fdff59b0a470034851bb57c22
+  1.15.9--h5ca1c30_5: sha256:95774baaadd4237496fe83a81d185ad4b6b05b2e8a68bca52d869e5033175fab
 docker: quay.io/biocontainers/fsa
 aliases:
   fsa: /usr/local/bin/fsa

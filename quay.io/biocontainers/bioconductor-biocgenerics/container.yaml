@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-biocgenerics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocgenerics
 latest:
-  0.48.1--r43hdfd78af_2: sha256:7cb0421cc0ee9546d7b55add3286efac1feaae6cd8ba74407901b77d1c531ed8
+  0.52.0--r44hdfd78af_0: sha256:90c56bfec588a1d2d69b845e726eb47b1236a14ce72b3e734db94ee357a37e55
 tags:
   0.40.0--r41hdfd78af_0: sha256:6b845ba3261f517db4e9410d3359f40d7ce5a9f27e3ea45f15e17ccbb872951d
   0.44.0--r42hdfd78af_0: sha256:5cd6cb58d911919cb09d8abafe392858b167292c28973eb62726072f834bd332
   0.46.0--r43hdfd78af_0: sha256:6ddb7b519b7f6447cf7f8ac142f89ad26d5728ebff827b92a7bbc0f92adbc37f
   0.48.1--r43hdfd78af_2: sha256:7cb0421cc0ee9546d7b55add3286efac1feaae6cd8ba74407901b77d1c531ed8
+  0.52.0--r44hdfd78af_0: sha256:90c56bfec588a1d2d69b845e726eb47b1236a14ce72b3e734db94ee357a37e55
 docker: quay.io/biocontainers/bioconductor-biocgenerics

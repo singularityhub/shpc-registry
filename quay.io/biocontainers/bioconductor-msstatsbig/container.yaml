@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msstatsbig
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msstatsbig
 latest:
-  1.0.0--r43hdfd78af_0: sha256:bfa382cab6326088799438c7f0c64364c2f4399758d84bacd32fa93712e14bd3
+  1.4.0--r44hdfd78af_0: sha256:009c8a43c7a379e725e4f886424730143643f10d4751a958dc78c8d6d8acaac3
 tags:
   1.0.0--r43hdfd78af_0: sha256:bfa382cab6326088799438c7f0c64364c2f4399758d84bacd32fa93712e14bd3
+  1.4.0--r44hdfd78af_0: sha256:009c8a43c7a379e725e4f886424730143643f10d4751a958dc78c8d6d8acaac3
 docker: quay.io/biocontainers/bioconductor-msstatsbig
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

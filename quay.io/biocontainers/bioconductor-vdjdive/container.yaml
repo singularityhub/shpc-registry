@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-vdjdive
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-vdjdive
 latest:
-  1.4.0--r43hf17093f_0: sha256:6b8e9986b92b4eb7186558df678ffde37eabb4dc022dcaddabbe6c1db35b439a
+  1.8.0--r44he5774e6_0: sha256:51797b1c4c3ccbeb9dc45b909189a2d6ecd846910775da4137865c84e948eb11
 tags:
   1.0.0--r42hdfd78af_0: sha256:61fcf321fe78949634680194abe2e420876f7feb430bc74f5de03c713ffa38a7
   1.2.0--r43hdfd78af_0: sha256:3c79925140f8d46333c596c8fbc579035bd2862aa9041eaf3f16f4fc60d1f508
   1.4.0--r43hf17093f_0: sha256:6b8e9986b92b4eb7186558df678ffde37eabb4dc022dcaddabbe6c1db35b439a
+  1.8.0--r44he5774e6_0: sha256:51797b1c4c3ccbeb9dc45b909189a2d6ecd846910775da4137865c84e948eb11
 docker: quay.io/biocontainers/bioconductor-vdjdive
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

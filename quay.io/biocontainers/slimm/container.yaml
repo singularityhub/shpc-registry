@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/slimm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slimm
 latest:
-  0.3.4--h6a68c12_5: sha256:d7a741cbbfb8282981c8bc833834c24b4fb39b07d86240fa439adca802e0be1a
+  0.3.4--hd6d6fdc_6: sha256:a007e9880696afae9bfd0791779c72d8fe45ac2f11e7165c49027a5b48a23d3f
 tags:
   0.3.4--hf1761c0_3: sha256:f122e5f847a436bfc027174668445ce6c456cf8c57a613e57fb60e6ce0b2188e
   0.3.4--h6a68c12_5: sha256:d7a741cbbfb8282981c8bc833834c24b4fb39b07d86240fa439adca802e0be1a
+  0.3.4--hd6d6fdc_6: sha256:a007e9880696afae9bfd0791779c72d8fe45ac2f11e7165c49027a5b48a23d3f
 docker: quay.io/biocontainers/slimm
 aliases:
   slimm: /usr/local/bin/slimm

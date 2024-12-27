@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/strawc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for strawc
 latest:
-  0.0.2.1--py311ha7e194a_4: sha256:220253feedf573f17735149515a9c12a69a132e1566d05982e16979e30f3d03a
+  0.0.2.1--py39hd112c11_5: sha256:eb1bfa417d7270007663925cc212c79ad4d4a93763e243c06023df71d9b05e26
 tags:
   0.0.2.1--py38h25fca73_1: sha256:3c43fd9d6a5b4e4abe52d2dab616721646bd6c8ee84656c44f0b2f92a4f2d5a0
   0.0.2.1--py39h038aedc_2: sha256:2aba27a125c01f54a0f5d7a95905c074c2ed16ab90a5a38d5c2d86020e195533
   0.0.2.1--py310hb930492_3: sha256:0a2f587bf4ec23235bdb3440f2d12360ce6f007b89c569d6519109885d70ca91
   0.0.2.1--py38h6580cd4_3: sha256:eb24a60e74c8268ce8ea6ac9fbd4bd79c2746eb6af78b96b5112f46dfcd6dc16
   0.0.2.1--py311ha7e194a_4: sha256:220253feedf573f17735149515a9c12a69a132e1566d05982e16979e30f3d03a
+  0.0.2.1--py39hd112c11_5: sha256:eb1bfa417d7270007663925cc212c79ad4d4a93763e243c06023df71d9b05e26
 docker: quay.io/biocontainers/strawc
 aliases:
   pybind11-config: /usr/local/bin/pybind11-config

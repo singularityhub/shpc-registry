@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/nucleosome_prediction
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nucleosome_prediction
 latest:
-  3.0--pl5321hdbdd923_6: sha256:1c2b18ed79e8c7fefd8b25dc38d4ad38a38467931eeec32d7e3a3a7f68b4cf27
+  3.0--pl5321h503566f_7: sha256:39338de365e95f25d2c2b5f791df684ff13b7c1a5b7545c236353b90ee2cce7a
 tags:
   3.0--pl5321h87f3376_4: sha256:0de354adab40e17cfeae3640000f6586044b42dee38be84183e6aab998c408d9
   3.0--pl5321hdbdd923_6: sha256:1c2b18ed79e8c7fefd8b25dc38d4ad38a38467931eeec32d7e3a3a7f68b4cf27
+  3.0--pl5321h503566f_7: sha256:39338de365e95f25d2c2b5f791df684ff13b7c1a5b7545c236353b90ee2cce7a
 docker: quay.io/biocontainers/nucleosome_prediction
 aliases:
   add_column.pl: /usr/local/bin/add_column.pl

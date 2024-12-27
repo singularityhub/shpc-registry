@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/usalign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for usalign
 latest:
-  2024.07.30--hdbdd923_0: sha256:90044c7a56a01255d5ae2ef66833ff28c3916acff2ddbfe3c8ae02b8af6787f9
+  2024.07.30--h503566f_1: sha256:23c065da035f910286d66368f8f62b56c09f2ebf3a93d70209370a66133bac69
 tags:
   2024.07.30--hdbdd923_0: sha256:90044c7a56a01255d5ae2ef66833ff28c3916acff2ddbfe3c8ae02b8af6787f9
+  2024.07.30--h503566f_1: sha256:23c065da035f910286d66368f8f62b56c09f2ebf3a93d70209370a66133bac69
 docker: quay.io/biocontainers/usalign
 aliases:
   HwRMSD: /usr/local/bin/HwRMSD

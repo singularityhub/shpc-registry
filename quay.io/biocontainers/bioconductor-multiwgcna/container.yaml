@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-multiwgcna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-multiwgcna
 latest:
-  1.0.0--r43hdfd78af_0: sha256:94e3ba9b64d6311cfa98b225048a260f913f324f606df448446fecb26270dc1a
+  1.4.0--r44hdfd78af_0: sha256:61ddad3695946968c8e5b97aa82f25e9bbd29b6df40542ef837097e13f67fd3c
 tags:
   1.0.0--r43hdfd78af_0: sha256:94e3ba9b64d6311cfa98b225048a260f913f324f606df448446fecb26270dc1a
+  1.4.0--r44hdfd78af_0: sha256:61ddad3695946968c8e5b97aa82f25e9bbd29b6df40542ef837097e13f67fd3c
 docker: quay.io/biocontainers/bioconductor-multiwgcna
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

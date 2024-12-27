@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/foldmason
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for foldmason
 latest:
-  1.763a428--pl5321hb365157_0: sha256:7c1d4d0b6cbf5ec112228712fb09b31ef36ee4c863e9a8bf5bb846c4fe72b1aa
+  2.7bd21ed--pl5321h5021889_0: sha256:8c381feabb35ee7cb15acd683d0e34a6351245d1988d021a118b1811bd0e8515
 tags:
   1.763a428--pl5321hb365157_0: sha256:7c1d4d0b6cbf5ec112228712fb09b31ef36ee4c863e9a8bf5bb846c4fe72b1aa
+  2.7bd21ed--pl5321h5021889_0: sha256:8c381feabb35ee7cb15acd683d0e34a6351245d1988d021a118b1811bd0e8515
 docker: quay.io/biocontainers/foldmason
 aliases:
   foldmason: /usr/local/bin/foldmason

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-whopgenome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-whopgenome
 latest:
-  0.9.7--r43h21a89ab_9: sha256:7f114de1c8d93e646045e2325f21399dd02b913fe3f7dee8c86ccd1cbcb9c6b7
+  0.9.7--r44he56ddfa_10: sha256:88e501b072bea39c3c1a2d52a43f32e07f17da6109063333cf51a313bac7cc0a
 tags:
   0.9.7--r41hecf12ef_6: sha256:4cd432591ab478c4b526e4b7e92e06ef32339ca1c11fc0211a792553f109af09
   0.9.7--r42hecf12ef_7: sha256:8e1dfe2a78dbfbe1b4383706f50f1bc1813c91fbde4ca5889926daf3b2d5eb2b
   0.9.7--r42h21a89ab_8: sha256:71f763694008a02289f03032037de57f8cd1b1bb6e6f24741bdeef1992c79f34
   0.9.7--r43h21a89ab_9: sha256:7f114de1c8d93e646045e2325f21399dd02b913fe3f7dee8c86ccd1cbcb9c6b7
+  0.9.7--r44he56ddfa_10: sha256:88e501b072bea39c3c1a2d52a43f32e07f17da6109063333cf51a313bac7cc0a
 docker: quay.io/biocontainers/r-whopgenome
