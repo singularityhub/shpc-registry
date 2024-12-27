@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minys"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minys/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minys/container.yaml"
-updated_at: "2024-12-26 03:50:58.346520"
-latest: "1.1--h4ac6f70_5"
+updated_at: "2024-12-27 03:37:19.520141"
+latest: "1.1--h9948957_6"
 container_url: "https://biocontainers.pro/tools/minys"
 aliases:
  - "MinYS.py"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "1.1--h9f5acd7_4"
  - "1.1--h4ac6f70_5"
+ - "1.1--h9948957_6"
 description: "shpc-registry automated BioContainers addition for minys"
-config: {"url": "https://biocontainers.pro/tools/minys", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minys", "latest": {"1.1--h4ac6f70_5": "sha256:5bfe5cf2e3780683c95eeec83fb3e6bcd71a4b57c681049639cec6d652c21f27"}, "tags": {"1.1--h9f5acd7_4": "sha256:62ef23cefa617cb10ed631d5633d166f2766159a620d00e778bb674b3e79d67b", "1.1--h4ac6f70_5": "sha256:5bfe5cf2e3780683c95eeec83fb3e6bcd71a4b57c681049639cec6d652c21f27"}, "docker": "quay.io/biocontainers/minys", "aliases": {"MinYS.py": "/usr/local/bin/MinYS.py", "MindTheGap": "/usr/local/bin/MindTheGap", "average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "enumerate_paths.py": "/usr/local/bin/enumerate_paths.py", "filter_components.py": "/usr/local/bin/filter_components.py", "gatb-h5dump": "/usr/local/bin/gatb-h5dump", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "graph_simplification.py": "/usr/local/bin/graph_simplification.py", "merci": "/usr/local/bin/merci", "minia": "/usr/local/bin/minia", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/minys", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minys", "latest": {"1.1--h9948957_6": "sha256:98d5077077db9e552b617ac4837d0f8c315b78324b41389f5d5bde60aded65be"}, "tags": {"1.1--h9f5acd7_4": "sha256:62ef23cefa617cb10ed631d5633d166f2766159a620d00e778bb674b3e79d67b", "1.1--h4ac6f70_5": "sha256:5bfe5cf2e3780683c95eeec83fb3e6bcd71a4b57c681049639cec6d652c21f27", "1.1--h9948957_6": "sha256:98d5077077db9e552b617ac4837d0f8c315b78324b41389f5d5bde60aded65be"}, "docker": "quay.io/biocontainers/minys", "aliases": {"MinYS.py": "/usr/local/bin/MinYS.py", "MindTheGap": "/usr/local/bin/MindTheGap", "average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "enumerate_paths.py": "/usr/local/bin/enumerate_paths.py", "filter_components.py": "/usr/local/bin/filter_components.py", "gatb-h5dump": "/usr/local/bin/gatb-h5dump", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "graph_simplification.py": "/usr/local/bin/graph_simplification.py", "merci": "/usr/local/bin/merci", "minia": "/usr/local/bin/minia", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minys.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/minys
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minys:1.1--h4ac6f70_5
+$ shpc install quay.io/biocontainers/minys:1.1--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minys/1.1--h4ac6f70_5
-$ module help quay.io/biocontainers/minys/1.1--h4ac6f70_5
+$ module load quay.io/biocontainers/minys/1.1--h9948957_6
+$ module help quay.io/biocontainers/minys/1.1--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

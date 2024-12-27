@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexserv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexserv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexserv/container.yaml"
-updated_at: "2024-12-26 03:05:51.678400"
-latest: "1.0.2--h8537716_2"
+updated_at: "2024-12-27 02:52:09.820993"
+latest: "1.0.2--hb2a3317_3"
 container_url: "https://biocontainers.pro/tools/flexserv"
 aliases:
  - "bd"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.0.2--h1aed7a7_0"
  - "1.0.2--h8537716_2"
+ - "1.0.2--hb2a3317_3"
 description: "singularity registry hpc automated addition for flexserv"
-config: {"url": "https://biocontainers.pro/tools/flexserv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexserv", "latest": {"1.0.2--h8537716_2": "sha256:d6699809506f464a707acb27d48c5145f59dd3dc27c9abafc16a9f77f7d3be91"}, "tags": {"1.0.2--h1aed7a7_0": "sha256:986a5db952a3b1073feab9cb9caf857d438292b417eff9f3334d61e91222c5d8", "1.0.2--h8537716_2": "sha256:d6699809506f464a707acb27d48c5145f59dd3dc27c9abafc16a9f77f7d3be91"}, "docker": "quay.io/biocontainers/flexserv", "aliases": {"bd": "/usr/local/bin/bd", "diaghess": "/usr/local/bin/diaghess", "dmdgoopt": "/usr/local/bin/dmdgoopt", "lorellnma": "/usr/local/bin/lorellnma", "mc-eigen-mdweb.pl": "/usr/local/bin/mc-eigen-mdweb.pl", "mc-eigen.pl": "/usr/local/bin/mc-eigen.pl", "nmanu.pl": "/usr/local/bin/nmanu.pl", "pca_anim_mc.pl": "/usr/local/bin/pca_anim_mc.pl"}}
+config: {"url": "https://biocontainers.pro/tools/flexserv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexserv", "latest": {"1.0.2--hb2a3317_3": "sha256:56f93dbbbcb47516f76efcd965a37f4049e2a4c94825cacf0486e7a2a3951660"}, "tags": {"1.0.2--h1aed7a7_0": "sha256:986a5db952a3b1073feab9cb9caf857d438292b417eff9f3334d61e91222c5d8", "1.0.2--h8537716_2": "sha256:d6699809506f464a707acb27d48c5145f59dd3dc27c9abafc16a9f77f7d3be91", "1.0.2--hb2a3317_3": "sha256:56f93dbbbcb47516f76efcd965a37f4049e2a4c94825cacf0486e7a2a3951660"}, "docker": "quay.io/biocontainers/flexserv", "aliases": {"bd": "/usr/local/bin/bd", "diaghess": "/usr/local/bin/diaghess", "dmdgoopt": "/usr/local/bin/dmdgoopt", "lorellnma": "/usr/local/bin/lorellnma", "mc-eigen-mdweb.pl": "/usr/local/bin/mc-eigen-mdweb.pl", "mc-eigen.pl": "/usr/local/bin/mc-eigen.pl", "nmanu.pl": "/usr/local/bin/nmanu.pl", "pca_anim_mc.pl": "/usr/local/bin/pca_anim_mc.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexserv.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/flexserv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexserv:1.0.2--h8537716_2
+$ shpc install quay.io/biocontainers/flexserv:1.0.2--hb2a3317_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexserv/1.0.2--h8537716_2
-$ module help quay.io/biocontainers/flexserv/1.0.2--h8537716_2
+$ module load quay.io/biocontainers/flexserv/1.0.2--hb2a3317_3
+$ module help quay.io/biocontainers/flexserv/1.0.2--hb2a3317_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

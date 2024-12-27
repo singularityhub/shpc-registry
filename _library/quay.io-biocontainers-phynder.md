@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phynder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynder/container.yaml"
-updated_at: "2024-12-26 03:39:29.791128"
+updated_at: "2024-12-27 03:25:48.032740"
 latest: "1.0--h81da01d_0"
 container_url: "https://biocontainers.pro/tools/phynder"
 aliases:

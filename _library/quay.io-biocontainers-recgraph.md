@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/recgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recgraph/container.yaml"
-updated_at: "2024-12-26 03:26:01.848891"
-latest: "1.0.0--h031d066_0"
+updated_at: "2024-12-27 03:12:07.255401"
+latest: "1.0.0--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/recgraph"
 aliases:
  - "recgraph"
 versions:
  - "1.0.0--h031d066_0"
+ - "1.0.0--h7b50bb2_1"
 description: "singularity registry hpc automated addition for recgraph"
-config: {"url": "https://biocontainers.pro/tools/recgraph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recgraph", "latest": {"1.0.0--h031d066_0": "sha256:3534eba6ca4986a588c86067f458b201764ca85a0b8770ca74e5111a71514beb"}, "tags": {"1.0.0--h031d066_0": "sha256:3534eba6ca4986a588c86067f458b201764ca85a0b8770ca74e5111a71514beb"}, "docker": "quay.io/biocontainers/recgraph", "aliases": {"recgraph": "/usr/local/bin/recgraph"}}
+config: {"url": "https://biocontainers.pro/tools/recgraph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recgraph", "latest": {"1.0.0--h7b50bb2_1": "sha256:a1198a52e671241ccea337a034aa0b6d627b4ce763d96e2293b0c23cfff38ab0"}, "tags": {"1.0.0--h031d066_0": "sha256:3534eba6ca4986a588c86067f458b201764ca85a0b8770ca74e5111a71514beb", "1.0.0--h7b50bb2_1": "sha256:a1198a52e671241ccea337a034aa0b6d627b4ce763d96e2293b0c23cfff38ab0"}, "docker": "quay.io/biocontainers/recgraph", "aliases": {"recgraph": "/usr/local/bin/recgraph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recgraph.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/recgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recgraph:1.0.0--h031d066_0
+$ shpc install quay.io/biocontainers/recgraph:1.0.0--h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recgraph/1.0.0--h031d066_0
-$ module help quay.io/biocontainers/recgraph/1.0.0--h031d066_0
+$ module load quay.io/biocontainers/recgraph/1.0.0--h7b50bb2_1
+$ module help quay.io/biocontainers/recgraph/1.0.0--h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gagedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gagedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gagedata/container.yaml"
-updated_at: "2024-12-26 03:20:39.353079"
-latest: "2.40.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:06:48.666422"
+latest: "2.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gagedata"
 aliases:
  - "tclsh8.5"
@@ -20,8 +20,9 @@ versions:
  - "2.27.0--r40_0"
  - "2.38.0--r43hdfd78af_0"
  - "2.40.0--r43hdfd78af_0"
+ - "2.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gagedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gagedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gagedata", "latest": {"2.40.0--r43hdfd78af_0": "sha256:1d319e4fa85ee9dc4c3bebf5950d1eea909475a57d07be138aa7003cfb4ad677"}, "tags": {"2.8.0--0": "sha256:934badcb60b17e41ad41d2c767a9708c8db45f575378d9d52fcc76fadd38dc74", "2.35.0--r42hdfd78af_0": "sha256:308f061585483671949736e9fccfc24857f9e1a744657e3911db504ee9b6de3e", "2.32.0--r41hdfd78af_1": "sha256:f1c8463b7a3c1fe51a18ad8441fc59a10d812660b4b94421d8b9220f6ed24eae", "2.30.0--r41hdfd78af_0": "sha256:5f4cef48ea8184e2d4c08c8b5a87f863190d65bbd378e46afe408e8c330df9b1", "2.28.0--r40hdfd78af_1": "sha256:914993679a01b14a4150698872b5a6bf8dfedf7f4a29380b9dc4a1531acfb8fb", "2.27.0--r40_0": "sha256:339b43010905a63c8a9f4a8d64d8f41bc50d4ac0daa9951db7293941ef8840a9", "2.38.0--r43hdfd78af_0": "sha256:7d1dfd1b1da44c18c78a2cc2ca388260a315761816033943e3fff9f912d4948c", "2.40.0--r43hdfd78af_0": "sha256:1d319e4fa85ee9dc4c3bebf5950d1eea909475a57d07be138aa7003cfb4ad677"}, "docker": "quay.io/biocontainers/bioconductor-gagedata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gagedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gagedata", "latest": {"2.44.0--r44hdfd78af_0": "sha256:78459a0618d9b779d93a6297b338d2c115dc439efb5cf43246a5310cfedff3ea"}, "tags": {"2.8.0--0": "sha256:934badcb60b17e41ad41d2c767a9708c8db45f575378d9d52fcc76fadd38dc74", "2.35.0--r42hdfd78af_0": "sha256:308f061585483671949736e9fccfc24857f9e1a744657e3911db504ee9b6de3e", "2.32.0--r41hdfd78af_1": "sha256:f1c8463b7a3c1fe51a18ad8441fc59a10d812660b4b94421d8b9220f6ed24eae", "2.30.0--r41hdfd78af_0": "sha256:5f4cef48ea8184e2d4c08c8b5a87f863190d65bbd378e46afe408e8c330df9b1", "2.28.0--r40hdfd78af_1": "sha256:914993679a01b14a4150698872b5a6bf8dfedf7f4a29380b9dc4a1531acfb8fb", "2.27.0--r40_0": "sha256:339b43010905a63c8a9f4a8d64d8f41bc50d4ac0daa9951db7293941ef8840a9", "2.38.0--r43hdfd78af_0": "sha256:7d1dfd1b1da44c18c78a2cc2ca388260a315761816033943e3fff9f912d4948c", "2.40.0--r43hdfd78af_0": "sha256:1d319e4fa85ee9dc4c3bebf5950d1eea909475a57d07be138aa7003cfb4ad677", "2.44.0--r44hdfd78af_0": "sha256:78459a0618d9b779d93a6297b338d2c115dc439efb5cf43246a5310cfedff3ea"}, "docker": "quay.io/biocontainers/bioconductor-gagedata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gagedata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gagedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gagedata:2.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gagedata:2.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gagedata/2.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gagedata/2.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gagedata/2.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gagedata/2.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

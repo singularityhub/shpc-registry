@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/encode-blacklist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/encode-blacklist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/encode-blacklist/container.yaml"
-updated_at: "2024-12-26 03:39:23.265663"
-latest: "2.0--h7a259b3_5"
+updated_at: "2024-12-27 03:25:41.638183"
+latest: "2.0--h06902ac_6"
 container_url: "https://biocontainers.pro/tools/encode-blacklist"
 aliases:
  - "Blacklist"
@@ -14,8 +14,9 @@ versions:
  - "2.0--ha7703dc_3"
  - "2.0--hf393df8_4"
  - "2.0--h7a259b3_5"
+ - "2.0--h06902ac_6"
 description: "shpc-registry automated BioContainers addition for encode-blacklist"
-config: {"url": "https://biocontainers.pro/tools/encode-blacklist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for encode-blacklist", "latest": {"2.0--h7a259b3_5": "sha256:92d085211ffd760ed49948249122b1444c0e32c18f0fc30aeb93baeccba47927"}, "tags": {"2.0--ha7703dc_3": "sha256:adc639d3f09c500df9b82edf3f7f1f7ec636d84c7259036757a5625334323a45", "2.0--hf393df8_4": "sha256:417fe57ca178257398981453e4d21f17c466b5c2e2cde47796b7ed232706684d", "2.0--h7a259b3_5": "sha256:92d085211ffd760ed49948249122b1444c0e32c18f0fc30aeb93baeccba47927"}, "docker": "quay.io/biocontainers/encode-blacklist", "aliases": {"Blacklist": "/usr/local/bin/Blacklist", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/encode-blacklist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for encode-blacklist", "latest": {"2.0--h06902ac_6": "sha256:061e0b96e9e588ecb67169c7b434b536f1764f06fe6c88563411123714d5f55f"}, "tags": {"2.0--ha7703dc_3": "sha256:adc639d3f09c500df9b82edf3f7f1f7ec636d84c7259036757a5625334323a45", "2.0--hf393df8_4": "sha256:417fe57ca178257398981453e4d21f17c466b5c2e2cde47796b7ed232706684d", "2.0--h7a259b3_5": "sha256:92d085211ffd760ed49948249122b1444c0e32c18f0fc30aeb93baeccba47927", "2.0--h06902ac_6": "sha256:061e0b96e9e588ecb67169c7b434b536f1764f06fe6c88563411123714d5f55f"}, "docker": "quay.io/biocontainers/encode-blacklist", "aliases": {"Blacklist": "/usr/local/bin/Blacklist", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/encode-blacklist.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/encode-blacklist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/encode-blacklist:2.0--h7a259b3_5
+$ shpc install quay.io/biocontainers/encode-blacklist:2.0--h06902ac_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/encode-blacklist/2.0--h7a259b3_5
-$ module help quay.io/biocontainers/encode-blacklist/2.0--h7a259b3_5
+$ module load quay.io/biocontainers/encode-blacklist/2.0--h06902ac_6
+$ module help quay.io/biocontainers/encode-blacklist/2.0--h06902ac_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-lymphclon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lymphclon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lymphclon/container.yaml"
-updated_at: "2024-12-26 03:21:00.454674"
-latest: "1.3.0--r43h3121a25_3"
+updated_at: "2024-12-27 03:07:09.750188"
+latest: "1.3.0--r44h3121a25_4"
 container_url: "https://biocontainers.pro/tools/r-lymphclon"
 
 versions:
  - "1.3.0--r42h3121a25_2"
  - "1.3.0--r43h3121a25_3"
+ - "1.3.0--r44h3121a25_4"
 description: "singularity registry hpc automated addition for r-lymphclon"
-config: {"url": "https://biocontainers.pro/tools/r-lymphclon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lymphclon", "latest": {"1.3.0--r43h3121a25_3": "sha256:f7801680148ffcd6419ec7b3b96c7ac508f561770fccc462bdca06adfd2277f5"}, "tags": {"1.3.0--r42h3121a25_2": "sha256:6b34135ab92378c84b52da8b655e52801941650c21b8cd4b451ca6d83950b76c", "1.3.0--r43h3121a25_3": "sha256:f7801680148ffcd6419ec7b3b96c7ac508f561770fccc462bdca06adfd2277f5"}, "docker": "quay.io/biocontainers/r-lymphclon"}
+config: {"url": "https://biocontainers.pro/tools/r-lymphclon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lymphclon", "latest": {"1.3.0--r44h3121a25_4": "sha256:66ff6aa2f0c6fda7d809bca6b7a438225698dd4a136f59b1a9494ad3db303ff6"}, "tags": {"1.3.0--r42h3121a25_2": "sha256:6b34135ab92378c84b52da8b655e52801941650c21b8cd4b451ca6d83950b76c", "1.3.0--r43h3121a25_3": "sha256:f7801680148ffcd6419ec7b3b96c7ac508f561770fccc462bdca06adfd2277f5", "1.3.0--r44h3121a25_4": "sha256:66ff6aa2f0c6fda7d809bca6b7a438225698dd4a136f59b1a9494ad3db303ff6"}, "docker": "quay.io/biocontainers/r-lymphclon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lymphclon.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-lymphclon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lymphclon:1.3.0--r43h3121a25_3
+$ shpc install quay.io/biocontainers/r-lymphclon:1.3.0--r44h3121a25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lymphclon/1.3.0--r43h3121a25_3
-$ module help quay.io/biocontainers/r-lymphclon/1.3.0--r43h3121a25_3
+$ module load quay.io/biocontainers/r-lymphclon/1.3.0--r44h3121a25_4
+$ module help quay.io/biocontainers/r-lymphclon/1.3.0--r44h3121a25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

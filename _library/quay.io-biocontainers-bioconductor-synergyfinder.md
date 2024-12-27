@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-synergyfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synergyfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synergyfinder/container.yaml"
-updated_at: "2024-12-26 03:30:22.686505"
-latest: "3.10.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:16:37.662384"
+latest: "3.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synergyfinder"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "3.6.0--r42hdfd78af_0"
  - "3.8.2--r43hdfd78af_0"
  - "3.10.0--r43hdfd78af_0"
+ - "3.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synergyfinder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synergyfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synergyfinder", "latest": {"3.10.0--r43hdfd78af_0": "sha256:8c16a579527a8e1aed191bfb9221e68b3f1c4e0a1e891780a8bb92ae2d6589dd"}, "tags": {"3.2.2--r41hdfd78af_0": "sha256:438e38e7a30725aae92b1600d0f4685c6f5a6e8a91b20a83a761d7a8495d69ad", "3.6.0--r42hdfd78af_0": "sha256:aeb5efc8ab61be3ec06d34ecbab9e4b05f2c4afb3f260ad020cc9be65efc2380", "3.8.2--r43hdfd78af_0": "sha256:899bfae152d3e7df8f95759988c1d404e1b727ffd8051dcae135ff888a0aeb0b", "3.10.0--r43hdfd78af_0": "sha256:8c16a579527a8e1aed191bfb9221e68b3f1c4e0a1e891780a8bb92ae2d6589dd"}, "docker": "quay.io/biocontainers/bioconductor-synergyfinder", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synergyfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synergyfinder", "latest": {"3.14.0--r44hdfd78af_0": "sha256:e75ec726d91d4257e64b5ba3a06d78a42364ad34415a333f7a994fac59aadab9"}, "tags": {"3.2.2--r41hdfd78af_0": "sha256:438e38e7a30725aae92b1600d0f4685c6f5a6e8a91b20a83a761d7a8495d69ad", "3.6.0--r42hdfd78af_0": "sha256:aeb5efc8ab61be3ec06d34ecbab9e4b05f2c4afb3f260ad020cc9be65efc2380", "3.8.2--r43hdfd78af_0": "sha256:899bfae152d3e7df8f95759988c1d404e1b727ffd8051dcae135ff888a0aeb0b", "3.10.0--r43hdfd78af_0": "sha256:8c16a579527a8e1aed191bfb9221e68b3f1c4e0a1e891780a8bb92ae2d6589dd", "3.14.0--r44hdfd78af_0": "sha256:e75ec726d91d4257e64b5ba3a06d78a42364ad34415a333f7a994fac59aadab9"}, "docker": "quay.io/biocontainers/bioconductor-synergyfinder", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synergyfinder.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synergyfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synergyfinder:3.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-synergyfinder:3.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synergyfinder/3.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-synergyfinder/3.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-synergyfinder/3.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synergyfinder/3.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

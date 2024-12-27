@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dexma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dexma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dexma/container.yaml"
-updated_at: "2024-12-26 03:50:05.481023"
+updated_at: "2024-12-27 03:36:25.763319"
 latest: "1.10.6--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dexma"
 

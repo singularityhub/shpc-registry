@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-weitrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weitrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weitrix/container.yaml"
-updated_at: "2024-12-26 03:42:36.694397"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:28:53.265655"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weitrix"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-weitrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-weitrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-weitrix", "latest": {"1.14.0--r43hdfd78af_0": "sha256:5df2c7e190f3a54677cf521b5bb9ea84e49a0e13a66d10f878666b060e72630b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c5989f3483caadb7bda5a89e558444c312ba72cb45b6e6791c358ecb013be781", "1.10.0--r42hdfd78af_0": "sha256:e8fb4c6e3b18c33e981ba4bd85694016f2ce658718b605f14f34592f0b2b4180", "1.12.0--r43hdfd78af_0": "sha256:233f398adedd98794769fd09ddc69e720d1b845b55429d94eb06c090fc525aa7", "1.14.0--r43hdfd78af_0": "sha256:5df2c7e190f3a54677cf521b5bb9ea84e49a0e13a66d10f878666b060e72630b"}, "docker": "quay.io/biocontainers/bioconductor-weitrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-weitrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-weitrix", "latest": {"1.18.0--r44hdfd78af_0": "sha256:acc50a6a6cbde18be6c2d1c4595aae58ff31e2ddff9eac90a7bf91e53834566b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c5989f3483caadb7bda5a89e558444c312ba72cb45b6e6791c358ecb013be781", "1.10.0--r42hdfd78af_0": "sha256:e8fb4c6e3b18c33e981ba4bd85694016f2ce658718b605f14f34592f0b2b4180", "1.12.0--r43hdfd78af_0": "sha256:233f398adedd98794769fd09ddc69e720d1b845b55429d94eb06c090fc525aa7", "1.14.0--r43hdfd78af_0": "sha256:5df2c7e190f3a54677cf521b5bb9ea84e49a0e13a66d10f878666b060e72630b", "1.18.0--r44hdfd78af_0": "sha256:acc50a6a6cbde18be6c2d1c4595aae58ff31e2ddff9eac90a7bf91e53834566b"}, "docker": "quay.io/biocontainers/bioconductor-weitrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-weitrix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-weitrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-weitrix:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-weitrix:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-weitrix/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-weitrix/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-weitrix/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-weitrix/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

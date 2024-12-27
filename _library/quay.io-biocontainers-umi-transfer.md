@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/umi-transfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umi-transfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umi-transfer/container.yaml"
-updated_at: "2024-12-26 03:31:43.608688"
-latest: "1.5.0--h715e4b3_0"
+updated_at: "2024-12-27 03:18:01.705008"
+latest: "1.5.0--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/umi-transfer"
 aliases:
  - "umi-transfer"
 versions:
  - "1.0.0"
  - "1.5.0--h715e4b3_0"
+ - "1.5.0--hc1c3326_1"
 description: "singularity registry hpc automated addition for umi-transfer"
-config: {"url": "https://biocontainers.pro/tools/umi-transfer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umi-transfer", "latest": {"1.5.0--h715e4b3_0": "sha256:7136e272636ec65bf37a0223e916bc803120adcecd8b4699bfb836b2d95ed99a"}, "tags": {"1.0.0": "sha256:af15b8502f9f7ea504e5f7f2372a7148bcb9bf97612530753a046e2726b115dd", "1.5.0--h715e4b3_0": "sha256:7136e272636ec65bf37a0223e916bc803120adcecd8b4699bfb836b2d95ed99a"}, "docker": "quay.io/biocontainers/umi-transfer", "aliases": {"umi-transfer": "/usr/local/bin/umi-transfer"}}
+config: {"url": "https://biocontainers.pro/tools/umi-transfer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for umi-transfer", "latest": {"1.5.0--hc1c3326_1": "sha256:92638b075daa0c5b669df3949115c7491ceee40a1ba9e3f0ff0b4cff11ae9451"}, "tags": {"1.0.0": "sha256:af15b8502f9f7ea504e5f7f2372a7148bcb9bf97612530753a046e2726b115dd", "1.5.0--h715e4b3_0": "sha256:7136e272636ec65bf37a0223e916bc803120adcecd8b4699bfb836b2d95ed99a", "1.5.0--hc1c3326_1": "sha256:92638b075daa0c5b669df3949115c7491ceee40a1ba9e3f0ff0b4cff11ae9451"}, "docker": "quay.io/biocontainers/umi-transfer", "aliases": {"umi-transfer": "/usr/local/bin/umi-transfer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umi-transfer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/umi-transfer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/umi-transfer:1.5.0--h715e4b3_0
+$ shpc install quay.io/biocontainers/umi-transfer:1.5.0--hc1c3326_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/umi-transfer/1.5.0--h715e4b3_0
-$ module help quay.io/biocontainers/umi-transfer/1.5.0--h715e4b3_0
+$ module load quay.io/biocontainers/umi-transfer/1.5.0--hc1c3326_1
+$ module help quay.io/biocontainers/umi-transfer/1.5.0--hc1c3326_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

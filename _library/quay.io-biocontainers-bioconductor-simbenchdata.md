@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simbenchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simbenchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simbenchdata/container.yaml"
-updated_at: "2024-12-26 03:28:35.507512"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:14:45.188120"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simbenchdata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-simbenchdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simbenchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simbenchdata", "latest": {"1.10.0--r43hdfd78af_0": "sha256:e5629796d6d642eeee2ad1a5028f7669293426e386f7762cbe9b5dd18eb5d5c0"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:681ad4a4edb5165104ddcf4bc507a59755c70ac44039d3c9d69fc07cb7be67db", "1.6.0--r42hdfd78af_0": "sha256:946fb8c6e2ea5db41445b2b4e85fe84fe7d73b1c0e1997740ece0482dcc31c5a", "1.8.0--r43hdfd78af_0": "sha256:45d18edf70abd6303864c138d854f8d86c6b043373a994fef4e66d2783fb28dd", "1.10.0--r43hdfd78af_0": "sha256:e5629796d6d642eeee2ad1a5028f7669293426e386f7762cbe9b5dd18eb5d5c0"}, "docker": "quay.io/biocontainers/bioconductor-simbenchdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simbenchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simbenchdata", "latest": {"1.14.0--r44hdfd78af_0": "sha256:cbd70c88c5ae82a4ca2ec4684cfddda8436b7214fa3c7518c462c90b16435511"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:681ad4a4edb5165104ddcf4bc507a59755c70ac44039d3c9d69fc07cb7be67db", "1.6.0--r42hdfd78af_0": "sha256:946fb8c6e2ea5db41445b2b4e85fe84fe7d73b1c0e1997740ece0482dcc31c5a", "1.8.0--r43hdfd78af_0": "sha256:45d18edf70abd6303864c138d854f8d86c6b043373a994fef4e66d2783fb28dd", "1.10.0--r43hdfd78af_0": "sha256:e5629796d6d642eeee2ad1a5028f7669293426e386f7762cbe9b5dd18eb5d5c0", "1.14.0--r44hdfd78af_0": "sha256:cbd70c88c5ae82a4ca2ec4684cfddda8436b7214fa3c7518c462c90b16435511"}, "docker": "quay.io/biocontainers/bioconductor-simbenchdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simbenchdata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simbenchdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simbenchdata:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-simbenchdata:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simbenchdata/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-simbenchdata/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-simbenchdata/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-simbenchdata/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

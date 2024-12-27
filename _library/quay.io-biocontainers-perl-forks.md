@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-forks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-forks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-forks/container.yaml"
-updated_at: "2024-12-26 03:27:03.108222"
-latest: "0.36--pl5321h031d066_8"
+updated_at: "2024-12-27 03:13:09.431951"
+latest: "0.36--pl5321h7b50bb2_9"
 container_url: "https://biocontainers.pro/tools/perl-forks"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.36--pl5321hec16e2b_7"
  - "0.36--pl5321h031d066_8"
+ - "0.36--pl5321h7b50bb2_9"
 description: "shpc-registry automated BioContainers addition for perl-forks"
-config: {"url": "https://biocontainers.pro/tools/perl-forks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-forks", "latest": {"0.36--pl5321h031d066_8": "sha256:93a4675476150411440dc6b5525fb0258bba27dee93ccb77f0b289dfe167b1b5"}, "tags": {"0.36--pl5321hec16e2b_7": "sha256:ff54359bed5d1c77d428947dd46914a94a597b75f1ce9b7e7329b54895069f70", "0.36--pl5321h031d066_8": "sha256:93a4675476150411440dc6b5525fb0258bba27dee93ccb77f0b289dfe167b1b5"}, "docker": "quay.io/biocontainers/perl-forks", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-forks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-forks", "latest": {"0.36--pl5321h7b50bb2_9": "sha256:16f7f05a037b3da949734aba21f256012660bf9753f9da5b4dc67a25027858af"}, "tags": {"0.36--pl5321hec16e2b_7": "sha256:ff54359bed5d1c77d428947dd46914a94a597b75f1ce9b7e7329b54895069f70", "0.36--pl5321h031d066_8": "sha256:93a4675476150411440dc6b5525fb0258bba27dee93ccb77f0b289dfe167b1b5", "0.36--pl5321h7b50bb2_9": "sha256:16f7f05a037b3da949734aba21f256012660bf9753f9da5b4dc67a25027858af"}, "docker": "quay.io/biocontainers/perl-forks", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-forks.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-forks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-forks:0.36--pl5321h031d066_8
+$ shpc install quay.io/biocontainers/perl-forks:0.36--pl5321h7b50bb2_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-forks/0.36--pl5321h031d066_8
-$ module help quay.io/biocontainers/perl-forks/0.36--pl5321h031d066_8
+$ module load quay.io/biocontainers/perl-forks/0.36--pl5321h7b50bb2_9
+$ module help quay.io/biocontainers/perl-forks/0.36--pl5321h7b50bb2_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

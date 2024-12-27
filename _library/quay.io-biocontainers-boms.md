@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/boms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boms/container.yaml"
-updated_at: "2024-12-26 03:32:36.439791"
-latest: "1.1.0--py310hc31ed2c_1"
+updated_at: "2024-12-27 03:18:54.618178"
+latest: "1.1.0--py310h8ea774a_2"
 container_url: "https://biocontainers.pro/tools/boms"
 aliases:
  - "hwloc-gather-cpuid"
@@ -38,8 +38,9 @@ versions:
  - "1.1.0--py39he10ea66_0"
  - "1.0.5--py39he10ea66_0"
  - "1.1.0--py310hc31ed2c_1"
+ - "1.1.0--py310h8ea774a_2"
 description: "singularity registry hpc automated addition for boms"
-config: {"url": "https://biocontainers.pro/tools/boms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for boms", "latest": {"1.1.0--py310hc31ed2c_1": "sha256:ae4d979a54d8c477e322d409f879069bde09bf2c7a7dadb0c8944002176182a8"}, "tags": {"1.0.5--py310h068649b_0": "sha256:90ab7c19a33728b2dcc1946358c0154d3e9e33e3aa2c890864757cfbe51bb8f7", "1.1.0--py39he10ea66_0": "sha256:9fcd59b119fb09a3c0ec2fc19fff585fbc91d6d8a32f9f1656db571abe34f078", "1.0.5--py39he10ea66_0": "sha256:f160f72536ba4019695bba1d8cf1c726d3122734294ab5d08a6501768fc17d29", "1.1.0--py310hc31ed2c_1": "sha256:ae4d979a54d8c477e322d409f879069bde09bf2c7a7dadb0c8944002176182a8"}, "docker": "quay.io/biocontainers/boms", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/boms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for boms", "latest": {"1.1.0--py310h8ea774a_2": "sha256:28d73a34bc66d3a31599525141f0a6b00e253a1f13637ac5eb787f3e96923bde"}, "tags": {"1.0.5--py310h068649b_0": "sha256:90ab7c19a33728b2dcc1946358c0154d3e9e33e3aa2c890864757cfbe51bb8f7", "1.1.0--py39he10ea66_0": "sha256:9fcd59b119fb09a3c0ec2fc19fff585fbc91d6d8a32f9f1656db571abe34f078", "1.0.5--py39he10ea66_0": "sha256:f160f72536ba4019695bba1d8cf1c726d3122734294ab5d08a6501768fc17d29", "1.1.0--py310hc31ed2c_1": "sha256:ae4d979a54d8c477e322d409f879069bde09bf2c7a7dadb0c8944002176182a8", "1.1.0--py310h8ea774a_2": "sha256:28d73a34bc66d3a31599525141f0a6b00e253a1f13637ac5eb787f3e96923bde"}, "docker": "quay.io/biocontainers/boms", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/boms.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/boms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/boms:1.1.0--py310hc31ed2c_1
+$ shpc install quay.io/biocontainers/boms:1.1.0--py310h8ea774a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/boms/1.1.0--py310hc31ed2c_1
-$ module help quay.io/biocontainers/boms/1.1.0--py310hc31ed2c_1
+$ module load quay.io/biocontainers/boms/1.1.0--py310h8ea774a_2
+$ module help quay.io/biocontainers/boms/1.1.0--py310h8ea774a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

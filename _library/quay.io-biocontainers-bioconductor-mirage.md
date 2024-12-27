@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mirage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirage/container.yaml"
-updated_at: "2024-12-26 03:06:46.966166"
-latest: "1.44.0--r43hdfd78af_0"
+updated_at: "2024-12-27 02:53:04.624973"
+latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirage"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.40.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
  - "1.44.0--r43hdfd78af_0"
+ - "1.48.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirage", "latest": {"1.44.0--r43hdfd78af_0": "sha256:1084f9277b62bd8c2ca824f3c2243547fe95c7d216ebc73493955faa641fd758"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:380030860e91df32ae970ffbb5213ea88303b66b5607c50c4b5d17b6551b863d", "1.40.0--r42hdfd78af_0": "sha256:67473f9f0600c071fd2e9584eb632d5b68e4e7923dbbe1a1d07e7774702c89a2", "1.42.0--r43hdfd78af_0": "sha256:7fcfd7aa78c33ffe171628f98657b0724868bffdb4aff6ff940ecf34c91448f3", "1.44.0--r43hdfd78af_0": "sha256:1084f9277b62bd8c2ca824f3c2243547fe95c7d216ebc73493955faa641fd758"}, "docker": "quay.io/biocontainers/bioconductor-mirage"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirage", "latest": {"1.48.0--r44hdfd78af_0": "sha256:643882aeddef7f7e9f2a19762c7a752501d0e3c3321462a352edf2d531d066fc"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:380030860e91df32ae970ffbb5213ea88303b66b5607c50c4b5d17b6551b863d", "1.40.0--r42hdfd78af_0": "sha256:67473f9f0600c071fd2e9584eb632d5b68e4e7923dbbe1a1d07e7774702c89a2", "1.42.0--r43hdfd78af_0": "sha256:7fcfd7aa78c33ffe171628f98657b0724868bffdb4aff6ff940ecf34c91448f3", "1.44.0--r43hdfd78af_0": "sha256:1084f9277b62bd8c2ca824f3c2243547fe95c7d216ebc73493955faa641fd758", "1.48.0--r44hdfd78af_0": "sha256:643882aeddef7f7e9f2a19762c7a752501d0e3c3321462a352edf2d531d066fc"}, "docker": "quay.io/biocontainers/bioconductor-mirage"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirage.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirage:1.44.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mirage:1.48.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirage/1.44.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mirage/1.44.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mirage/1.48.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mirage/1.48.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

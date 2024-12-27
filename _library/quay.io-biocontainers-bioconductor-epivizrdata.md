@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epivizrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epivizrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epivizrdata/container.yaml"
-updated_at: "2024-12-26 03:28:55.725194"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:15:06.608867"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epivizrdata"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epivizrdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrdata", "latest": {"1.30.0--r43hdfd78af_0": "sha256:bc63c3e72912ea87a6ee8260796b9cc965bb0796fa15d2cf4035ae00562dec6f"}, "tags": {"1.8.0--r351_0": "sha256:5117003fb5ad778bb916b2e7ff43067f6f905013569db71a577e66d0420af20d", "1.26.0--r42hdfd78af_0": "sha256:9fe805cd2c3042d1c08199b46e15f382937d68c968d44e15a63423ad9db3ba8b", "1.22.0--r41hdfd78af_0": "sha256:41a8d765acdac12a687d44b38a368f9b8d800db5cd09538a751839a413cb060c", "1.20.0--r41hdfd78af_0": "sha256:cb5b4b8571bb8af3c44fc006c92541cc8896e64f972162d250f90ed45cd989fc", "1.18.0--r40hdfd78af_1": "sha256:c9e2c461e9197c3921b300e35274873261a935a742f995ad7f1c4380c80686c0", "1.16.0--r40_0": "sha256:c55a1556c3cc0a9a53befecb50cca35a2613e81b338d7df7056747bebe526544", "1.28.0--r43hdfd78af_0": "sha256:9d394e8b3ba1e777f33a066a97fe7d9f7bd66b6ef5c5415306c6e1a8253ee680", "1.30.0--r43hdfd78af_0": "sha256:bc63c3e72912ea87a6ee8260796b9cc965bb0796fa15d2cf4035ae00562dec6f"}, "docker": "quay.io/biocontainers/bioconductor-epivizrdata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrdata", "latest": {"1.34.0--r44hdfd78af_0": "sha256:b15c530e63da53806af1bb9d6fe7323f72762415d87c14327bb38118bfdaf0fa"}, "tags": {"1.8.0--r351_0": "sha256:5117003fb5ad778bb916b2e7ff43067f6f905013569db71a577e66d0420af20d", "1.26.0--r42hdfd78af_0": "sha256:9fe805cd2c3042d1c08199b46e15f382937d68c968d44e15a63423ad9db3ba8b", "1.22.0--r41hdfd78af_0": "sha256:41a8d765acdac12a687d44b38a368f9b8d800db5cd09538a751839a413cb060c", "1.20.0--r41hdfd78af_0": "sha256:cb5b4b8571bb8af3c44fc006c92541cc8896e64f972162d250f90ed45cd989fc", "1.18.0--r40hdfd78af_1": "sha256:c9e2c461e9197c3921b300e35274873261a935a742f995ad7f1c4380c80686c0", "1.16.0--r40_0": "sha256:c55a1556c3cc0a9a53befecb50cca35a2613e81b338d7df7056747bebe526544", "1.28.0--r43hdfd78af_0": "sha256:9d394e8b3ba1e777f33a066a97fe7d9f7bd66b6ef5c5415306c6e1a8253ee680", "1.30.0--r43hdfd78af_0": "sha256:bc63c3e72912ea87a6ee8260796b9cc965bb0796fa15d2cf4035ae00562dec6f", "1.34.0--r44hdfd78af_0": "sha256:b15c530e63da53806af1bb9d6fe7323f72762415d87c14327bb38118bfdaf0fa"}, "docker": "quay.io/biocontainers/bioconductor-epivizrdata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epivizrdata.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epivizrdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epivizrdata:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epivizrdata:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epivizrdata/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epivizrdata/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epivizrdata/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epivizrdata/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

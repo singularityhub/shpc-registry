@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psiclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psiclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psiclass/container.yaml"
-updated_at: "2024-12-26 03:34:32.878486"
-latest: "1.0.3--hdbdd923_4"
+updated_at: "2024-12-27 03:20:54.118091"
+latest: "1.0.3--h503566f_5"
 container_url: "https://biocontainers.pro/tools/psiclass"
 aliases:
  - "add-genename"
@@ -24,8 +24,9 @@ versions:
  - "1.0.3--hdbdd923_2"
  - "1.0.3--hdbdd923_3"
  - "1.0.3--hdbdd923_4"
+ - "1.0.3--h503566f_5"
 description: "shpc-registry automated BioContainers addition for psiclass"
-config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--hdbdd923_4": "sha256:4ba63223a2f0aed538aacca84b9ca74489bb6699637895cbff854a431808b836"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2", "1.0.3--h87f3376_1": "sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e", "1.0.3--hdbdd923_2": "sha256:5659e83ade16829081529f1a05274c98f41206bd407dfc8a52de6a8eacf7f950", "1.0.3--hdbdd923_3": "sha256:89de4bb696ecf98f9aa1cbfc76fc4f07ceae5c3563a5eebd32f6e8689c55cdcf", "1.0.3--hdbdd923_4": "sha256:4ba63223a2f0aed538aacca84b9ca74489bb6699637895cbff854a431808b836"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--h503566f_5": "sha256:28c18b0dcec3f0ebcb6e61b0155b97f4344fd8861ed15ab9833125e22fd77e53"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2", "1.0.3--h87f3376_1": "sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e", "1.0.3--hdbdd923_2": "sha256:5659e83ade16829081529f1a05274c98f41206bd407dfc8a52de6a8eacf7f950", "1.0.3--hdbdd923_3": "sha256:89de4bb696ecf98f9aa1cbfc76fc4f07ceae5c3563a5eebd32f6e8689c55cdcf", "1.0.3--hdbdd923_4": "sha256:4ba63223a2f0aed538aacca84b9ca74489bb6699637895cbff854a431808b836", "1.0.3--h503566f_5": "sha256:28c18b0dcec3f0ebcb6e61b0155b97f4344fd8861ed15ab9833125e22fd77e53"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psiclass.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/psiclass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psiclass:1.0.3--hdbdd923_4
+$ shpc install quay.io/biocontainers/psiclass:1.0.3--h503566f_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psiclass/1.0.3--hdbdd923_4
-$ module help quay.io/biocontainers/psiclass/1.0.3--hdbdd923_4
+$ module load quay.io/biocontainers/psiclass/1.0.3--h503566f_5
+$ module help quay.io/biocontainers/psiclass/1.0.3--h503566f_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

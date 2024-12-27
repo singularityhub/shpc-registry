@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-chbutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chbutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chbutils/container.yaml"
-updated_at: "2024-12-26 03:51:41.328719"
-latest: "0.1_2017_10_26--r43hdfd78af_6"
+updated_at: "2024-12-27 03:38:03.876025"
+latest: "0.1_2017_10_26--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-chbutils"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.1_2017_10_26--r41hdfd78af_4"
  - "0.1_2017_10_26--r42hdfd78af_5"
  - "0.1_2017_10_26--r43hdfd78af_6"
+ - "0.1_2017_10_26--r44hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for r-chbutils"
-config: {"url": "https://biocontainers.pro/tools/r-chbutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-chbutils", "latest": {"0.1_2017_10_26--r43hdfd78af_6": "sha256:90da5e41bf160f256a622296c8874a3fa238b64edaba6db339c43608e42015ab"}, "tags": {"0.1_2017_10_26--r41hdfd78af_4": "sha256:23dfec9157de0a36e5586f4e4565c2a4735685148c4e833cf3d8adbb3f39dbcc", "0.1_2017_10_26--r42hdfd78af_5": "sha256:feec0e448536adb9956e54f9d8cfba060cb04a5422b5e50da5f04cfb80c32c1e", "0.1_2017_10_26--r43hdfd78af_6": "sha256:90da5e41bf160f256a622296c8874a3fa238b64edaba6db339c43608e42015ab"}, "docker": "quay.io/biocontainers/r-chbutils", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-chbutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-chbutils", "latest": {"0.1_2017_10_26--r44hdfd78af_7": "sha256:046cbbe20baf5a7fa106dc259e85fbb9128799939ef52a56bf955c77f7e8bc17"}, "tags": {"0.1_2017_10_26--r41hdfd78af_4": "sha256:23dfec9157de0a36e5586f4e4565c2a4735685148c4e833cf3d8adbb3f39dbcc", "0.1_2017_10_26--r42hdfd78af_5": "sha256:feec0e448536adb9956e54f9d8cfba060cb04a5422b5e50da5f04cfb80c32c1e", "0.1_2017_10_26--r43hdfd78af_6": "sha256:90da5e41bf160f256a622296c8874a3fa238b64edaba6db339c43608e42015ab", "0.1_2017_10_26--r44hdfd78af_7": "sha256:046cbbe20baf5a7fa106dc259e85fbb9128799939ef52a56bf955c77f7e8bc17"}, "docker": "quay.io/biocontainers/r-chbutils", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-chbutils.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-chbutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-chbutils:0.1_2017_10_26--r43hdfd78af_6
+$ shpc install quay.io/biocontainers/r-chbutils:0.1_2017_10_26--r44hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-chbutils/0.1_2017_10_26--r43hdfd78af_6
-$ module help quay.io/biocontainers/r-chbutils/0.1_2017_10_26--r43hdfd78af_6
+$ module load quay.io/biocontainers/r-chbutils/0.1_2017_10_26--r44hdfd78af_7
+$ module help quay.io/biocontainers/r-chbutils/0.1_2017_10_26--r44hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

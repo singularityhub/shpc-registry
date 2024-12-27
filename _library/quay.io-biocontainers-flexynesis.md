@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexynesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexynesis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexynesis/container.yaml"
-updated_at: "2024-12-26 03:17:09.785019"
-latest: "0.2.10--pyhdfd78af_0"
+updated_at: "2024-12-27 03:03:21.423558"
+latest: "0.2.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexynesis"
 aliases:
  - "ase"
@@ -51,8 +51,9 @@ aliases:
  - "imageio_download_bin"
 versions:
  - "0.2.10--pyhdfd78af_0"
+ - "0.2.12--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flexynesis"
-config: {"url": "https://biocontainers.pro/tools/flexynesis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexynesis", "latest": {"0.2.10--pyhdfd78af_0": "sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390"}, "tags": {"0.2.10--pyhdfd78af_0": "sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390"}, "docker": "quay.io/biocontainers/flexynesis", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "fabric": "/usr/local/bin/fabric", "flexynesis": "/usr/local/bin/flexynesis", "flexynesis-cli": "/usr/local/bin/flexynesis-cli", "lightning": "/usr/local/bin/lightning", "papermill": "/usr/local/bin/papermill", "pyaml": "/usr/local/bin/pyaml", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "tiffcomment": "/usr/local/bin/tiffcomment", "jupyter-execute": "/usr/local/bin/jupyter-execute", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin"}}
+config: {"url": "https://biocontainers.pro/tools/flexynesis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexynesis", "latest": {"0.2.12--pyhdfd78af_0": "sha256:03ac884178a773b2330091749c860e8be5d06d97c2c8fe8b8601f0bddc55afa6"}, "tags": {"0.2.10--pyhdfd78af_0": "sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390", "0.2.12--pyhdfd78af_0": "sha256:03ac884178a773b2330091749c860e8be5d06d97c2c8fe8b8601f0bddc55afa6"}, "docker": "quay.io/biocontainers/flexynesis", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "fabric": "/usr/local/bin/fabric", "flexynesis": "/usr/local/bin/flexynesis", "flexynesis-cli": "/usr/local/bin/flexynesis-cli", "lightning": "/usr/local/bin/lightning", "papermill": "/usr/local/bin/papermill", "pyaml": "/usr/local/bin/pyaml", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "tiffcomment": "/usr/local/bin/tiffcomment", "jupyter-execute": "/usr/local/bin/jupyter-execute", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexynesis.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/flexynesis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexynesis:0.2.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flexynesis:0.2.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexynesis/0.2.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/flexynesis/0.2.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/flexynesis/0.2.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/flexynesis/0.2.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

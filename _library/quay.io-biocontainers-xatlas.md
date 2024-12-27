@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xatlas/container.yaml"
-updated_at: "2024-12-26 03:43:00.769489"
-latest: "0.3--h4ac6f70_4"
+updated_at: "2024-12-27 03:29:16.738656"
+latest: "0.3--h9948957_5"
 container_url: "https://biocontainers.pro/tools/xatlas"
 aliases:
  - "xatlas"
@@ -17,8 +17,9 @@ versions:
  - "0.3--hf77a93e_2"
  - "0.3--h84372a0_3"
  - "0.3--h4ac6f70_4"
+ - "0.3--h9948957_5"
 description: "shpc-registry automated BioContainers addition for xatlas"
-config: {"url": "https://biocontainers.pro/tools/xatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xatlas", "latest": {"0.3--h4ac6f70_4": "sha256:91769292d9ce704893c121142668a508209d564df69ca6fb7b3e98a6a239bc01"}, "tags": {"0.3--h28e74a2_1": "sha256:494e35f6fe07fee83815601530e8ba4e8d447665ec62512aa9b04fbe3b503815", "0.3--hf77a93e_2": "sha256:3be11070b4529f1244835fc11742d06dfb5c4caaa93192031103d804bb077f2b", "0.3--h84372a0_3": "sha256:38ccf7959230f784c34d9f6928914c7b8e0f6f098820e027f5fa899b1da7e3dc", "0.3--h4ac6f70_4": "sha256:91769292d9ce704893c121142668a508209d564df69ca6fb7b3e98a6a239bc01"}, "docker": "quay.io/biocontainers/xatlas", "aliases": {"xatlas": "/usr/local/bin/xatlas", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/xatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xatlas", "latest": {"0.3--h9948957_5": "sha256:752c4f860a5f98c6d0c111e1065b888a6c3702957e2a77fe5f489bd94b17f44c"}, "tags": {"0.3--h28e74a2_1": "sha256:494e35f6fe07fee83815601530e8ba4e8d447665ec62512aa9b04fbe3b503815", "0.3--hf77a93e_2": "sha256:3be11070b4529f1244835fc11742d06dfb5c4caaa93192031103d804bb077f2b", "0.3--h84372a0_3": "sha256:38ccf7959230f784c34d9f6928914c7b8e0f6f098820e027f5fa899b1da7e3dc", "0.3--h4ac6f70_4": "sha256:91769292d9ce704893c121142668a508209d564df69ca6fb7b3e98a6a239bc01", "0.3--h9948957_5": "sha256:752c4f860a5f98c6d0c111e1065b888a6c3702957e2a77fe5f489bd94b17f44c"}, "docker": "quay.io/biocontainers/xatlas", "aliases": {"xatlas": "/usr/local/bin/xatlas", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xatlas.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/xatlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xatlas:0.3--h4ac6f70_4
+$ shpc install quay.io/biocontainers/xatlas:0.3--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xatlas/0.3--h4ac6f70_4
-$ module help quay.io/biocontainers/xatlas/0.3--h4ac6f70_4
+$ module load quay.io/biocontainers/xatlas/0.3--h9948957_5
+$ module help quay.io/biocontainers/xatlas/0.3--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

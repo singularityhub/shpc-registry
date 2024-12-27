@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ggbiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
-updated_at: "2024-12-26 03:49:02.552028"
-latest: "0.55--r43h031d066_10"
+updated_at: "2024-12-27 03:35:20.927982"
+latest: "0.55--r44h7b50bb2_11"
 container_url: "https://biocontainers.pro/tools/r-ggbiplot"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.55--r42hec16e2b_7"
  - "0.55--r42h031d066_9"
  - "0.55--r43h031d066_10"
+ - "0.55--r44h7b50bb2_11"
 description: "shpc-registry automated BioContainers addition for r-ggbiplot"
-config: {"url": "https://biocontainers.pro/tools/r-ggbiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggbiplot", "latest": {"0.55--r43h031d066_10": "sha256:ae7debe096088f92da04cf6c39d396c6861c9d7551bbe523a770b77a8df5c282"}, "tags": {"0.55--r41hec16e2b_6": "sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e", "0.55--r42hec16e2b_7": "sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088", "0.55--r42h031d066_9": "sha256:ca309c0cd7943f0c5e2d051dea3f66f7adad0ce51adb40ca72f0da3329c18758", "0.55--r43h031d066_10": "sha256:ae7debe096088f92da04cf6c39d396c6861c9d7551bbe523a770b77a8df5c282"}, "docker": "quay.io/biocontainers/r-ggbiplot"}
+config: {"url": "https://biocontainers.pro/tools/r-ggbiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggbiplot", "latest": {"0.55--r44h7b50bb2_11": "sha256:7efce7f05e002daae68aa50658fb3f584d15c4614cf000fddad13225d44e6787"}, "tags": {"0.55--r41hec16e2b_6": "sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e", "0.55--r42hec16e2b_7": "sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088", "0.55--r42h031d066_9": "sha256:ca309c0cd7943f0c5e2d051dea3f66f7adad0ce51adb40ca72f0da3329c18758", "0.55--r43h031d066_10": "sha256:ae7debe096088f92da04cf6c39d396c6861c9d7551bbe523a770b77a8df5c282", "0.55--r44h7b50bb2_11": "sha256:7efce7f05e002daae68aa50658fb3f584d15c4614cf000fddad13225d44e6787"}, "docker": "quay.io/biocontainers/r-ggbiplot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggbiplot.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-ggbiplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ggbiplot:0.55--r43h031d066_10
+$ shpc install quay.io/biocontainers/r-ggbiplot:0.55--r44h7b50bb2_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ggbiplot/0.55--r43h031d066_10
-$ module help quay.io/biocontainers/r-ggbiplot/0.55--r43h031d066_10
+$ module load quay.io/biocontainers/r-ggbiplot/0.55--r44h7b50bb2_11
+$ module help quay.io/biocontainers/r-ggbiplot/0.55--r44h7b50bb2_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

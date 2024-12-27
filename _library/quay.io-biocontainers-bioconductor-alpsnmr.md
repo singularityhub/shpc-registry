@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alpsnmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
-updated_at: "2024-12-26 03:25:22.438685"
-latest: "4.4.0--r43hdfd78af_0"
+updated_at: "2024-12-27 03:11:27.853916"
+latest: "4.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpsnmr"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "4.0.0--r42hdfd78af_0"
  - "4.2.0--r43hdfd78af_0"
  - "4.4.0--r43hdfd78af_0"
+ - "4.8.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alpsnmr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"4.4.0--r43hdfd78af_0": "sha256:0eb4d8494cb85e39bd6c4cf8eb502b48bb615fcc3116c115890e1d2a09c7945a"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585", "4.0.0--r42hdfd78af_0": "sha256:ec297679c09d6b5613cc31b061f52c6ed615faa86ee8a4cd9788e57f6727002c", "4.2.0--r43hdfd78af_0": "sha256:42491b88b6e0ab0ec93c70ce54022713e70f5150e0fe7011e09addf9919d045d", "4.4.0--r43hdfd78af_0": "sha256:0eb4d8494cb85e39bd6c4cf8eb502b48bb615fcc3116c115890e1d2a09c7945a"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"4.8.0--r44hdfd78af_0": "sha256:14e012dc89fd5f8ee7ae13ca7ab2b14331c7110533a27c5d4fbaa375456e1a38"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585", "4.0.0--r42hdfd78af_0": "sha256:ec297679c09d6b5613cc31b061f52c6ed615faa86ee8a4cd9788e57f6727002c", "4.2.0--r43hdfd78af_0": "sha256:42491b88b6e0ab0ec93c70ce54022713e70f5150e0fe7011e09addf9919d045d", "4.4.0--r43hdfd78af_0": "sha256:0eb4d8494cb85e39bd6c4cf8eb502b48bb615fcc3116c115890e1d2a09c7945a", "4.8.0--r44hdfd78af_0": "sha256:14e012dc89fd5f8ee7ae13ca7ab2b14331c7110533a27c5d4fbaa375456e1a38"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alpsnmr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alpsnmr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alpsnmr:4.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alpsnmr:4.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alpsnmr/4.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alpsnmr/4.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alpsnmr/4.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alpsnmr/4.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/altair-mf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altair-mf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altair-mf/container.yaml"
-updated_at: "2024-12-26 03:20:37.933565"
-latest: "1.0.1--hdcf5f25_3"
+updated_at: "2024-12-27 03:06:47.215921"
+latest: "1.0.1--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/altair-mf"
 aliases:
  - "AltaiR"
@@ -13,8 +13,9 @@ versions:
  - "1.0.1--hd03093a_0"
  - "1.0.1--hdcf5f25_2"
  - "1.0.1--hdcf5f25_3"
+ - "1.0.1--h077b44d_4"
 description: "singularity registry hpc automated addition for altair-mf"
-config: {"url": "https://biocontainers.pro/tools/altair-mf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for altair-mf", "latest": {"1.0.1--hdcf5f25_3": "sha256:a5033b61fdb18efa9166dedb83d7b932124bf16eadc4dd1a35973b672038e88d"}, "tags": {"1.0.1--hd03093a_0": "sha256:ab0a68275b589ed0ddfea848e8940c3e3441f1f81228b7ec4047012fb25c008f", "1.0.1--hdcf5f25_2": "sha256:1f3a445851daa9ff933055eb1133b785b2219b7c9de57c188d7d0141c9bf8518", "1.0.1--hdcf5f25_3": "sha256:a5033b61fdb18efa9166dedb83d7b932124bf16eadc4dd1a35973b672038e88d"}, "docker": "quay.io/biocontainers/altair-mf", "aliases": {"AltaiR": "/usr/local/bin/AltaiR"}}
+config: {"url": "https://biocontainers.pro/tools/altair-mf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for altair-mf", "latest": {"1.0.1--h077b44d_4": "sha256:b3db125030b29b0bbdf5cdf8f70d8fddfcc0cc638fd386fb4f92d77f292e7ca8"}, "tags": {"1.0.1--hd03093a_0": "sha256:ab0a68275b589ed0ddfea848e8940c3e3441f1f81228b7ec4047012fb25c008f", "1.0.1--hdcf5f25_2": "sha256:1f3a445851daa9ff933055eb1133b785b2219b7c9de57c188d7d0141c9bf8518", "1.0.1--hdcf5f25_3": "sha256:a5033b61fdb18efa9166dedb83d7b932124bf16eadc4dd1a35973b672038e88d", "1.0.1--h077b44d_4": "sha256:b3db125030b29b0bbdf5cdf8f70d8fddfcc0cc638fd386fb4f92d77f292e7ca8"}, "docker": "quay.io/biocontainers/altair-mf", "aliases": {"AltaiR": "/usr/local/bin/AltaiR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/altair-mf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/altair-mf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/altair-mf:1.0.1--hdcf5f25_3
+$ shpc install quay.io/biocontainers/altair-mf:1.0.1--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/altair-mf/1.0.1--hdcf5f25_3
-$ module help quay.io/biocontainers/altair-mf/1.0.1--hdcf5f25_3
+$ module load quay.io/biocontainers/altair-mf/1.0.1--h077b44d_4
+$ module help quay.io/biocontainers/altair-mf/1.0.1--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

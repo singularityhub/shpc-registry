@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-illuminaratv1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminaratv1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminaratv1.db/container.yaml"
-updated_at: "2024-12-26 03:19:20.781364"
-latest: "1.26.0--r43hdfd78af_12"
+updated_at: "2024-12-27 03:05:30.880380"
+latest: "1.26.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminaratv1.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.26.0--r42hdfd78af_10"
  - "1.26.0--r43hdfd78af_11"
  - "1.26.0--r43hdfd78af_12"
+ - "1.26.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminaratv1.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminaratv1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminaratv1.db", "latest": {"1.26.0--r43hdfd78af_12": "sha256:7cb8a413808e55c62badabed044c92a5ab794fee8a2181b1577e5f6b43f88bc5"}, "tags": {"1.26.0--r41hdfd78af_9": "sha256:c388b903928c73297e546a4dbbd0b1be00424be620aba7fa89f3c45c544da77b", "1.26.0--r42hdfd78af_10": "sha256:aa5f5cc633fd039cf278f9eddf69b5d2515073d662fc86ab758e18c71e6da29e", "1.26.0--r43hdfd78af_11": "sha256:3f198b6ae0f4a598c491b2f3bcab7264bd845fa78030a5a5b89f6a603684a15a", "1.26.0--r43hdfd78af_12": "sha256:7cb8a413808e55c62badabed044c92a5ab794fee8a2181b1577e5f6b43f88bc5"}, "docker": "quay.io/biocontainers/bioconductor-illuminaratv1.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminaratv1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminaratv1.db", "latest": {"1.26.0--r44hdfd78af_13": "sha256:f7cd2ef1b5a5ee650bfd06b5d5075e9f6d9fcbe098fa1c1b65c487f9b1ea05b2"}, "tags": {"1.26.0--r41hdfd78af_9": "sha256:c388b903928c73297e546a4dbbd0b1be00424be620aba7fa89f3c45c544da77b", "1.26.0--r42hdfd78af_10": "sha256:aa5f5cc633fd039cf278f9eddf69b5d2515073d662fc86ab758e18c71e6da29e", "1.26.0--r43hdfd78af_11": "sha256:3f198b6ae0f4a598c491b2f3bcab7264bd845fa78030a5a5b89f6a603684a15a", "1.26.0--r43hdfd78af_12": "sha256:7cb8a413808e55c62badabed044c92a5ab794fee8a2181b1577e5f6b43f88bc5", "1.26.0--r44hdfd78af_13": "sha256:f7cd2ef1b5a5ee650bfd06b5d5075e9f6d9fcbe098fa1c1b65c487f9b1ea05b2"}, "docker": "quay.io/biocontainers/bioconductor-illuminaratv1.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminaratv1.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-illuminaratv1.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-illuminaratv1.db:1.26.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-illuminaratv1.db:1.26.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-illuminaratv1.db/1.26.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-illuminaratv1.db/1.26.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-illuminaratv1.db/1.26.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-illuminaratv1.db/1.26.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

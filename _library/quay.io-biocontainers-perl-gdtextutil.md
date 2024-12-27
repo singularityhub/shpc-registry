@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-gdtextutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gdtextutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdtextutil/container.yaml"
-updated_at: "2024-12-26 03:39:27.241618"
-latest: "0.86--pl5321h031d066_8"
+updated_at: "2024-12-27 03:25:45.528703"
+latest: "0.86--pl5321h7b50bb2_9"
 container_url: "https://biocontainers.pro/tools/perl-gdtextutil"
 aliases:
  - "bdf2gdfont.pl"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.86--pl5321hec16e2b_7"
  - "0.86--pl5321h031d066_8"
+ - "0.86--pl5321h7b50bb2_9"
 description: "shpc-registry automated BioContainers addition for perl-gdtextutil"
-config: {"url": "https://biocontainers.pro/tools/perl-gdtextutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gdtextutil", "latest": {"0.86--pl5321h031d066_8": "sha256:9c6aba812440fcc2dc20636d3a59b215925c2f8a281f7ee70490d85840220b43"}, "tags": {"0.86--pl5321hec16e2b_7": "sha256:4fa1f9eb462eae0aecfd7fb58e3dd258939ccba6529230f695f3a98ec09cb608", "0.86--pl5321h031d066_8": "sha256:9c6aba812440fcc2dc20636d3a59b215925c2f8a281f7ee70490d85840220b43"}, "docker": "quay.io/biocontainers/perl-gdtextutil", "aliases": {"bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd"}}
+config: {"url": "https://biocontainers.pro/tools/perl-gdtextutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gdtextutil", "latest": {"0.86--pl5321h7b50bb2_9": "sha256:3188af146f1f86889a11041d1c364626125c3049dce17eee4201720ca56151bf"}, "tags": {"0.86--pl5321hec16e2b_7": "sha256:4fa1f9eb462eae0aecfd7fb58e3dd258939ccba6529230f695f3a98ec09cb608", "0.86--pl5321h031d066_8": "sha256:9c6aba812440fcc2dc20636d3a59b215925c2f8a281f7ee70490d85840220b43", "0.86--pl5321h7b50bb2_9": "sha256:3188af146f1f86889a11041d1c364626125c3049dce17eee4201720ca56151bf"}, "docker": "quay.io/biocontainers/perl-gdtextutil", "aliases": {"bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-gdtextutil.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/perl-gdtextutil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-gdtextutil:0.86--pl5321h031d066_8
+$ shpc install quay.io/biocontainers/perl-gdtextutil:0.86--pl5321h7b50bb2_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-gdtextutil/0.86--pl5321h031d066_8
-$ module help quay.io/biocontainers/perl-gdtextutil/0.86--pl5321h031d066_8
+$ module load quay.io/biocontainers/perl-gdtextutil/0.86--pl5321h7b50bb2_9
+$ module help quay.io/biocontainers/perl-gdtextutil/0.86--pl5321h7b50bb2_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

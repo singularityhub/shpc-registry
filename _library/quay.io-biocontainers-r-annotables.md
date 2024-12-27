@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-annotables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-annotables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-annotables/container.yaml"
-updated_at: "2024-12-26 03:09:22.506286"
-latest: "0.2.0--r43hdfd78af_1"
+updated_at: "2024-12-27 02:55:39.445831"
+latest: "0.2.0--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-annotables"
 aliases:
  - "gio-launch-desktop"
@@ -16,8 +16,9 @@ versions:
  - "0.1.90--r42hdfd78af_4"
  - "0.2.0--r42hdfd78af_0"
  - "0.2.0--r43hdfd78af_1"
+ - "0.2.0--r44hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-annotables"
-config: {"url": "https://biocontainers.pro/tools/r-annotables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-annotables", "latest": {"0.2.0--r43hdfd78af_1": "sha256:ab7126f9c56b36ba8df9193f776ababd379adfea5c641bc2f3fb0664334121e0"}, "tags": {"v0.1.90--r36_3": "sha256:13f52ad4a7576075e3397d4ce9e748239409e4aa000b62fd7bf7739ff9dd8058", "0.1.90--r42hdfd78af_4": "sha256:c5df97398d54e822d3ac6a499d55d14752ae0d3f9e2fe543285d301dd8615c0a", "0.2.0--r42hdfd78af_0": "sha256:930d1c154053673af0dae3d71a18ece7d63687b9f3ff6d54bfa27bdb1587582b", "0.2.0--r43hdfd78af_1": "sha256:ab7126f9c56b36ba8df9193f776ababd379adfea5c641bc2f3fb0664334121e0"}, "docker": "quay.io/biocontainers/r-annotables", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-annotables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-annotables", "latest": {"0.2.0--r44hdfd78af_2": "sha256:dbdf000b19beb4dc9ce85a48a22a1f15f7bd88a65106a65d15efa4452bec0761"}, "tags": {"v0.1.90--r36_3": "sha256:13f52ad4a7576075e3397d4ce9e748239409e4aa000b62fd7bf7739ff9dd8058", "0.1.90--r42hdfd78af_4": "sha256:c5df97398d54e822d3ac6a499d55d14752ae0d3f9e2fe543285d301dd8615c0a", "0.2.0--r42hdfd78af_0": "sha256:930d1c154053673af0dae3d71a18ece7d63687b9f3ff6d54bfa27bdb1587582b", "0.2.0--r43hdfd78af_1": "sha256:ab7126f9c56b36ba8df9193f776ababd379adfea5c641bc2f3fb0664334121e0", "0.2.0--r44hdfd78af_2": "sha256:dbdf000b19beb4dc9ce85a48a22a1f15f7bd88a65106a65d15efa4452bec0761"}, "docker": "quay.io/biocontainers/r-annotables", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-annotables.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-annotables
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-annotables:0.2.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/r-annotables:0.2.0--r44hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-annotables/0.2.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/r-annotables/0.2.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/r-annotables/0.2.0--r44hdfd78af_2
+$ module help quay.io/biocontainers/r-annotables/0.2.0--r44hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

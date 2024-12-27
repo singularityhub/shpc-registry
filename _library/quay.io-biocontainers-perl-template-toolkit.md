@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-template-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-template-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-template-toolkit/container.yaml"
-updated_at: "2024-12-26 03:43:32.033602"
-latest: "3.100--pl5321h031d066_2"
+updated_at: "2024-12-27 03:29:47.373084"
+latest: "3.100--pl5321h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/perl-template-toolkit"
 aliases:
  - "imgsize"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "3.100--pl5321hec16e2b_1"
  - "3.100--pl5321h031d066_2"
+ - "3.100--pl5321h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for perl-template-toolkit"
-config: {"url": "https://biocontainers.pro/tools/perl-template-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-template-toolkit", "latest": {"3.100--pl5321h031d066_2": "sha256:c73d964478aa17cb680a89b03acd8f37c1882fb87c5c4d83553a3defe7960b21"}, "tags": {"3.100--pl5321hec16e2b_1": "sha256:f5424fe22b4d38393532e47778ad65dd06f776b2aa8d6bd0978a0b5b26ec11e4", "3.100--pl5321h031d066_2": "sha256:c73d964478aa17cb680a89b03acd8f37c1882fb87c5c4d83553a3defe7960b21"}, "docker": "quay.io/biocontainers/perl-template-toolkit", "aliases": {"imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-template-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-template-toolkit", "latest": {"3.100--pl5321h7b50bb2_3": "sha256:469201538f391d2aa7c3972971c62a29726e7744a7cab44f65b8d915e446b0da"}, "tags": {"3.100--pl5321hec16e2b_1": "sha256:f5424fe22b4d38393532e47778ad65dd06f776b2aa8d6bd0978a0b5b26ec11e4", "3.100--pl5321h031d066_2": "sha256:c73d964478aa17cb680a89b03acd8f37c1882fb87c5c4d83553a3defe7960b21", "3.100--pl5321h7b50bb2_3": "sha256:469201538f391d2aa7c3972971c62a29726e7744a7cab44f65b8d915e446b0da"}, "docker": "quay.io/biocontainers/perl-template-toolkit", "aliases": {"imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-template-toolkit.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-template-toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-template-toolkit:3.100--pl5321h031d066_2
+$ shpc install quay.io/biocontainers/perl-template-toolkit:3.100--pl5321h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-template-toolkit/3.100--pl5321h031d066_2
-$ module help quay.io/biocontainers/perl-template-toolkit/3.100--pl5321h031d066_2
+$ module load quay.io/biocontainers/perl-template-toolkit/3.100--pl5321h7b50bb2_3
+$ module help quay.io/biocontainers/perl-template-toolkit/3.100--pl5321h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

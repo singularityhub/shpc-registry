@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rpsbproc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpsbproc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpsbproc/container.yaml"
-updated_at: "2024-12-26 03:19:58.512283"
-latest: "0.5.0--h6a68c12_1"
+updated_at: "2024-12-27 03:06:08.127561"
+latest: "0.5.0--hd6d6fdc_2"
 container_url: "https://biocontainers.pro/tools/rpsbproc"
 aliases:
  - "rpsbproc"
 versions:
  - "0.5.0--h6a68c12_0"
  - "0.5.0--h6a68c12_1"
+ - "0.5.0--hd6d6fdc_2"
 description: "singularity registry hpc automated addition for rpsbproc"
-config: {"url": "https://biocontainers.pro/tools/rpsbproc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rpsbproc", "latest": {"0.5.0--h6a68c12_1": "sha256:da863cdda114498df7c921620a6f74694cbd6cf20a31070a53f169225616b14c"}, "tags": {"0.5.0--h6a68c12_0": "sha256:9023c179a44a0dd6056f72f183a5de6fc6b4a8c8dca3a1362e141d858bee285b", "0.5.0--h6a68c12_1": "sha256:da863cdda114498df7c921620a6f74694cbd6cf20a31070a53f169225616b14c"}, "docker": "quay.io/biocontainers/rpsbproc", "aliases": {"rpsbproc": "/usr/local/bin/rpsbproc"}}
+config: {"url": "https://biocontainers.pro/tools/rpsbproc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rpsbproc", "latest": {"0.5.0--hd6d6fdc_2": "sha256:42a5def83b193703015b0ac81697b366f0d736953cb6967067781ee5c7861ebe"}, "tags": {"0.5.0--h6a68c12_0": "sha256:9023c179a44a0dd6056f72f183a5de6fc6b4a8c8dca3a1362e141d858bee285b", "0.5.0--h6a68c12_1": "sha256:da863cdda114498df7c921620a6f74694cbd6cf20a31070a53f169225616b14c", "0.5.0--hd6d6fdc_2": "sha256:42a5def83b193703015b0ac81697b366f0d736953cb6967067781ee5c7861ebe"}, "docker": "quay.io/biocontainers/rpsbproc", "aliases": {"rpsbproc": "/usr/local/bin/rpsbproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpsbproc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rpsbproc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rpsbproc:0.5.0--h6a68c12_1
+$ shpc install quay.io/biocontainers/rpsbproc:0.5.0--hd6d6fdc_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rpsbproc/0.5.0--h6a68c12_1
-$ module help quay.io/biocontainers/rpsbproc/0.5.0--h6a68c12_1
+$ module load quay.io/biocontainers/rpsbproc/0.5.0--hd6d6fdc_2
+$ module help quay.io/biocontainers/rpsbproc/0.5.0--hd6d6fdc_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

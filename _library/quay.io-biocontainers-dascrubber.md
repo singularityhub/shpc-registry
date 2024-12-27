@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dascrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dascrubber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dascrubber/container.yaml"
-updated_at: "2024-12-26 03:10:32.557439"
-latest: "0.0.1a2--h031d066_6"
+updated_at: "2024-12-27 02:56:48.590400"
+latest: "0.0.1a2--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/dascrubber"
 aliases:
  - "DASedit"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.0.1a2--hec16e2b_4"
  - "0.0.1a2--h031d066_6"
+ - "0.0.1a2--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for dascrubber"
-config: {"url": "https://biocontainers.pro/tools/dascrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dascrubber", "latest": {"0.0.1a2--h031d066_6": "sha256:1fe21483ca046f64c068e148ba03fe40b67999f08899f79c5b36eaff8125eabd"}, "tags": {"0.0.1a2--hec16e2b_4": "sha256:be3064ed631087420ce88b26912ae3906e48081e81941a6f0ecf566428c888e9", "0.0.1a2--h031d066_6": "sha256:1fe21483ca046f64c068e148ba03fe40b67999f08899f79c5b36eaff8125eabd"}, "docker": "quay.io/biocontainers/dascrubber", "aliases": {"DASedit": "/usr/local/bin/DASedit", "DASmap": "/usr/local/bin/DASmap", "DASpatch": "/usr/local/bin/DASpatch", "DASqv": "/usr/local/bin/DASqv", "DASrealign": "/usr/local/bin/DASrealign", "DAStrim": "/usr/local/bin/DAStrim", "REPqv": "/usr/local/bin/REPqv", "REPtrim": "/usr/local/bin/REPtrim"}}
+config: {"url": "https://biocontainers.pro/tools/dascrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dascrubber", "latest": {"0.0.1a2--h7b50bb2_7": "sha256:3e84327376c8b9f2ebc5eff2db184e4072071e85d4c8143b635875b0a55649fc"}, "tags": {"0.0.1a2--hec16e2b_4": "sha256:be3064ed631087420ce88b26912ae3906e48081e81941a6f0ecf566428c888e9", "0.0.1a2--h031d066_6": "sha256:1fe21483ca046f64c068e148ba03fe40b67999f08899f79c5b36eaff8125eabd", "0.0.1a2--h7b50bb2_7": "sha256:3e84327376c8b9f2ebc5eff2db184e4072071e85d4c8143b635875b0a55649fc"}, "docker": "quay.io/biocontainers/dascrubber", "aliases": {"DASedit": "/usr/local/bin/DASedit", "DASmap": "/usr/local/bin/DASmap", "DASpatch": "/usr/local/bin/DASpatch", "DASqv": "/usr/local/bin/DASqv", "DASrealign": "/usr/local/bin/DASrealign", "DAStrim": "/usr/local/bin/DAStrim", "REPqv": "/usr/local/bin/REPqv", "REPtrim": "/usr/local/bin/REPtrim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dascrubber.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/dascrubber
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dascrubber:0.0.1a2--h031d066_6
+$ shpc install quay.io/biocontainers/dascrubber:0.0.1a2--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dascrubber/0.0.1a2--h031d066_6
-$ module help quay.io/biocontainers/dascrubber/0.0.1a2--h031d066_6
+$ module load quay.io/biocontainers/dascrubber/0.0.1a2--h7b50bb2_7
+$ module help quay.io/biocontainers/dascrubber/0.0.1a2--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

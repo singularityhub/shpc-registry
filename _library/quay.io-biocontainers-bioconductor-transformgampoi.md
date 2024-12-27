@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-transformgampoi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
-updated_at: "2024-12-26 03:25:07.683680"
-latest: "1.8.0--r43hf17093f_0"
+updated_at: "2024-12-27 03:11:13.393636"
+latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transformgampoi"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.4.0--r42hf17093f_1"
  - "1.6.0--r43hf17093f_0"
  - "1.8.0--r43hf17093f_0"
+ - "1.12.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-transformgampoi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transformgampoi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transformgampoi", "latest": {"1.8.0--r43hf17093f_0": "sha256:1fc6be6327fe69e769a46096d4b6bbcf472cf183b16b755dfdb2a0797af46a5b"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6", "1.4.0--r42hc247a5b_0": "sha256:656e38842e804d60ca0afb310cf90d7216254d5f2156d38bd980bc14c9a6ef4e", "1.4.0--r42hf17093f_1": "sha256:4f10c1a0edddaba3f0dc072fee69c198f073de3d8ae6697e6347d3092521a188", "1.6.0--r43hf17093f_0": "sha256:ee86b9fe25529d47c5083360d61053623d8cd372f511f95e49de2cecb423f3d4", "1.8.0--r43hf17093f_0": "sha256:1fc6be6327fe69e769a46096d4b6bbcf472cf183b16b755dfdb2a0797af46a5b"}, "docker": "quay.io/biocontainers/bioconductor-transformgampoi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transformgampoi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transformgampoi", "latest": {"1.12.0--r44he5774e6_0": "sha256:d2ae9303b1d0930e454e2575d69147e7878a8c7e4927b1a0a7daa8f02e549380"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6", "1.4.0--r42hc247a5b_0": "sha256:656e38842e804d60ca0afb310cf90d7216254d5f2156d38bd980bc14c9a6ef4e", "1.4.0--r42hf17093f_1": "sha256:4f10c1a0edddaba3f0dc072fee69c198f073de3d8ae6697e6347d3092521a188", "1.6.0--r43hf17093f_0": "sha256:ee86b9fe25529d47c5083360d61053623d8cd372f511f95e49de2cecb423f3d4", "1.8.0--r43hf17093f_0": "sha256:1fc6be6327fe69e769a46096d4b6bbcf472cf183b16b755dfdb2a0797af46a5b", "1.12.0--r44he5774e6_0": "sha256:d2ae9303b1d0930e454e2575d69147e7878a8c7e4927b1a0a7daa8f02e549380"}, "docker": "quay.io/biocontainers/bioconductor-transformgampoi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transformgampoi.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transformgampoi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transformgampoi:1.8.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-transformgampoi:1.12.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transformgampoi/1.8.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-transformgampoi/1.8.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-transformgampoi/1.12.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-transformgampoi/1.12.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tipp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tipp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tipp/container.yaml"
-updated_at: "2024-12-26 03:45:29.688066"
-latest: "1.1.0--py38pl5321hdcf5f25_0"
+updated_at: "2024-12-27 03:31:43.528650"
+latest: "1.3.0--py38pl5321h077b44d_0"
 container_url: "https://biocontainers.pro/tools/tipp"
 aliases:
  - "GraphAligner"
@@ -59,8 +59,10 @@ aliases:
  - "paftools.js"
 versions:
  - "1.1.0--py38pl5321hdcf5f25_0"
+ - "1.3.0--py38pl5321h077b44d_0"
+ - "1.2.0--py38pl5321h077b44d_0"
 description: "singularity registry hpc automated addition for tipp"
-config: {"url": "https://biocontainers.pro/tools/tipp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tipp", "latest": {"1.1.0--py38pl5321hdcf5f25_0": "sha256:90b153e191db47203a798c49d1b100df6ef0836128a3a84a45e50b5b7ef66c12"}, "tags": {"1.1.0--py38pl5321hdcf5f25_0": "sha256:90b153e191db47203a798c49d1b100df6ef0836128a3a84a45e50b5b7ef66c12"}, "docker": "quay.io/biocontainers/tipp", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "MSA.plot.r": "/usr/local/bin/MSA.plot.r", "TIPP.pl": "/usr/local/bin/TIPP.pl", "TIPP_plastid.pl": "/usr/local/bin/TIPP_plastid.pl", "TIPP_plastid.v2.1.pl": "/usr/local/bin/TIPP_plastid.v2.1.pl", "TIPP_polish.pl": "/usr/local/bin/TIPP_polish.pl", "TIPP_telomere.pl": "/usr/local/bin/TIPP_telomere.pl", "TIPP_telomere_backup.pl": "/usr/local/bin/TIPP_telomere_backup.pl", "graph.plot.r": "/usr/local/bin/graph.plot.r", "html2repeatbed.pl": "/usr/local/bin/html2repeatbed.pl", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "readskmercount": "/usr/local/bin/readskmercount", "readskmercount.cpp": "/usr/local/bin/readskmercount.cpp", "spoa": "/usr/local/bin/spoa", "telomeres.visulization.r": "/usr/local/bin/telomeres.visulization.r", "tiara": "/usr/local/bin/tiara", "tiara-test": "/usr/local/bin/tiara-test", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "pycc": "/usr/local/bin/pycc", "tabulate": "/usr/local/bin/tabulate", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js"}}
+config: {"url": "https://biocontainers.pro/tools/tipp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tipp", "latest": {"1.3.0--py38pl5321h077b44d_0": "sha256:e4f406ac4bc0c1a3e6af43914cfe52dce7625eba938a6c8302f54977555bd970"}, "tags": {"1.1.0--py38pl5321hdcf5f25_0": "sha256:90b153e191db47203a798c49d1b100df6ef0836128a3a84a45e50b5b7ef66c12", "1.3.0--py38pl5321h077b44d_0": "sha256:e4f406ac4bc0c1a3e6af43914cfe52dce7625eba938a6c8302f54977555bd970", "1.2.0--py38pl5321h077b44d_0": "sha256:88a8d3c08369289fe7a03a05d55a2f1247b377993974482fb26d51aeecc4ec9d"}, "docker": "quay.io/biocontainers/tipp", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "MSA.plot.r": "/usr/local/bin/MSA.plot.r", "TIPP.pl": "/usr/local/bin/TIPP.pl", "TIPP_plastid.pl": "/usr/local/bin/TIPP_plastid.pl", "TIPP_plastid.v2.1.pl": "/usr/local/bin/TIPP_plastid.v2.1.pl", "TIPP_polish.pl": "/usr/local/bin/TIPP_polish.pl", "TIPP_telomere.pl": "/usr/local/bin/TIPP_telomere.pl", "TIPP_telomere_backup.pl": "/usr/local/bin/TIPP_telomere_backup.pl", "graph.plot.r": "/usr/local/bin/graph.plot.r", "html2repeatbed.pl": "/usr/local/bin/html2repeatbed.pl", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "readskmercount": "/usr/local/bin/readskmercount", "readskmercount.cpp": "/usr/local/bin/readskmercount.cpp", "spoa": "/usr/local/bin/spoa", "telomeres.visulization.r": "/usr/local/bin/telomeres.visulization.r", "tiara": "/usr/local/bin/tiara", "tiara-test": "/usr/local/bin/tiara-test", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "pycc": "/usr/local/bin/pycc", "tabulate": "/usr/local/bin/tabulate", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tipp.
@@ -75,7 +77,7 @@ $ shpc install quay.io/biocontainers/tipp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tipp:1.1.0--py38pl5321hdcf5f25_0
+$ shpc install quay.io/biocontainers/tipp:1.3.0--py38pl5321h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tipp/1.1.0--py38pl5321hdcf5f25_0
-$ module help quay.io/biocontainers/tipp/1.1.0--py38pl5321hdcf5f25_0
+$ module load quay.io/biocontainers/tipp/1.3.0--py38pl5321h077b44d_0
+$ module help quay.io/biocontainers/tipp/1.3.0--py38pl5321h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

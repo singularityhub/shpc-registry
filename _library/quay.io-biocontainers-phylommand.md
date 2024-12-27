@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylommand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylommand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylommand/container.yaml"
-updated_at: "2024-12-26 03:37:36.246991"
-latest: "1.1.0--hddb7d5f_5"
+updated_at: "2024-12-27 03:23:55.957957"
+latest: "1.1.0--h87e0a26_6"
 container_url: "https://biocontainers.pro/tools/phylommand"
 aliases:
  - "contree"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.1.0--h8961cb6_3"
  - "1.1.0--hddb7d5f_5"
+ - "1.1.0--h87e0a26_6"
 description: "shpc-registry automated BioContainers addition for phylommand"
-config: {"url": "https://biocontainers.pro/tools/phylommand", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylommand", "latest": {"1.1.0--hddb7d5f_5": "sha256:cfe3cd32c99a35c96e3a1e5c33af5dc5d935079fa69f1e6a34ad34e4fdb6c49b"}, "tags": {"1.1.0--h8961cb6_3": "sha256:e96949291bfb6618b7770866ef2b7f55714dc16435ec67343e5061173e255d92", "1.1.0--hddb7d5f_5": "sha256:cfe3cd32c99a35c96e3a1e5c33af5dc5d935079fa69f1e6a34ad34e4fdb6c49b"}, "docker": "quay.io/biocontainers/phylommand", "aliases": {"contree": "/usr/local/bin/contree", "pairalign": "/usr/local/bin/pairalign", "treeator": "/usr/local/bin/treeator", "treebender": "/usr/local/bin/treebender", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/phylommand", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylommand", "latest": {"1.1.0--h87e0a26_6": "sha256:3713cd8313fdbbef64efc7cb59346efb6edd5e7eed87d9a385d23030ed786a96"}, "tags": {"1.1.0--h8961cb6_3": "sha256:e96949291bfb6618b7770866ef2b7f55714dc16435ec67343e5061173e255d92", "1.1.0--hddb7d5f_5": "sha256:cfe3cd32c99a35c96e3a1e5c33af5dc5d935079fa69f1e6a34ad34e4fdb6c49b", "1.1.0--h87e0a26_6": "sha256:3713cd8313fdbbef64efc7cb59346efb6edd5e7eed87d9a385d23030ed786a96"}, "docker": "quay.io/biocontainers/phylommand", "aliases": {"contree": "/usr/local/bin/contree", "pairalign": "/usr/local/bin/pairalign", "treeator": "/usr/local/bin/treeator", "treebender": "/usr/local/bin/treebender", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylommand.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/phylommand
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylommand:1.1.0--hddb7d5f_5
+$ shpc install quay.io/biocontainers/phylommand:1.1.0--h87e0a26_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylommand/1.1.0--hddb7d5f_5
-$ module help quay.io/biocontainers/phylommand/1.1.0--hddb7d5f_5
+$ module load quay.io/biocontainers/phylommand/1.1.0--h87e0a26_6
+$ module help quay.io/biocontainers/phylommand/1.1.0--h87e0a26_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/famsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famsa/container.yaml"
-updated_at: "2024-12-26 03:35:45.137334"
-latest: "2.2.3--h4ac6f70_0"
+updated_at: "2024-12-27 03:22:06.332174"
+latest: "2.2.3--h9948957_1"
 container_url: "https://biocontainers.pro/tools/famsa"
 aliases:
  - "famsa"
@@ -14,8 +14,9 @@ versions:
  - "2.2.2--h4ac6f70_2"
  - "2.2.2--h4ac6f70_3"
  - "2.2.3--h4ac6f70_0"
+ - "2.2.3--h9948957_1"
 description: "shpc-registry automated BioContainers addition for famsa"
-config: {"url": "https://biocontainers.pro/tools/famsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for famsa", "latest": {"2.2.3--h4ac6f70_0": "sha256:a90d9ca73e2e9911c4795e240466ba5826d9ed943571ee29e77c4d5c6fa2dccf"}, "tags": {"2.2.2--h9f5acd7_0": "sha256:7ebd3d06ba7e5e2300ebcb17e7c69becc35032257e4d5c9e3861f523c4be6cdf", "2.2.2--h4ac6f70_2": "sha256:ff0191e94c25a2a9f260a84b167a8feb8435ba857f80434e92b7ff56f7f3913a", "2.2.2--h4ac6f70_3": "sha256:ea767b8fb88cc2bc44e448260d4ab0e33a2625af5ba7c25d265f86fc5d9e28b6", "2.2.3--h4ac6f70_0": "sha256:a90d9ca73e2e9911c4795e240466ba5826d9ed943571ee29e77c4d5c6fa2dccf"}, "docker": "quay.io/biocontainers/famsa", "aliases": {"famsa": "/usr/local/bin/famsa"}}
+config: {"url": "https://biocontainers.pro/tools/famsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for famsa", "latest": {"2.2.3--h9948957_1": "sha256:95f5158039348954dfb09724a9dcdf923aabd49e014028a1977949f509de950a"}, "tags": {"2.2.2--h9f5acd7_0": "sha256:7ebd3d06ba7e5e2300ebcb17e7c69becc35032257e4d5c9e3861f523c4be6cdf", "2.2.2--h4ac6f70_2": "sha256:ff0191e94c25a2a9f260a84b167a8feb8435ba857f80434e92b7ff56f7f3913a", "2.2.2--h4ac6f70_3": "sha256:ea767b8fb88cc2bc44e448260d4ab0e33a2625af5ba7c25d265f86fc5d9e28b6", "2.2.3--h4ac6f70_0": "sha256:a90d9ca73e2e9911c4795e240466ba5826d9ed943571ee29e77c4d5c6fa2dccf", "2.2.3--h9948957_1": "sha256:95f5158039348954dfb09724a9dcdf923aabd49e014028a1977949f509de950a"}, "docker": "quay.io/biocontainers/famsa", "aliases": {"famsa": "/usr/local/bin/famsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/famsa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/famsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/famsa:2.2.3--h4ac6f70_0
+$ shpc install quay.io/biocontainers/famsa:2.2.3--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/famsa/2.2.3--h4ac6f70_0
-$ module help quay.io/biocontainers/famsa/2.2.3--h4ac6f70_0
+$ module load quay.io/biocontainers/famsa/2.2.3--h9948957_1
+$ module help quay.io/biocontainers/famsa/2.2.3--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

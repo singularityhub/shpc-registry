@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mosaics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mosaics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mosaics/container.yaml"
-updated_at: "2024-12-26 03:40:01.336821"
-latest: "2.40.0--pl5321r43hf17093f_0"
+updated_at: "2024-12-27 03:26:19.006657"
+latest: "2.44.0--pl5321r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mosaics"
 aliases:
  - "perl5.22.0"
@@ -27,8 +27,9 @@ versions:
  - "2.26.0--pl526r40h5f743cb_0"
  - "2.38.0--pl5321r43hf17093f_0"
  - "2.40.0--pl5321r43hf17093f_0"
+ - "2.44.0--pl5321r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mosaics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mosaics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mosaics", "latest": {"2.40.0--pl5321r43hf17093f_0": "sha256:1a3a3840ef322fc08abb3ad01db61fe3c87c6b687daa73da2384d4ee24842084"}, "tags": {"2.4.1--0": "sha256:293a404803d64aeb2f19c6cdb42180dbed1d309297f194fd173d3fc97be2109c", "2.36.0--pl5321r42hc247a5b_0": "sha256:b43d169275b96fb421720db6df4eb23b2d8a2dff2a6ecf32df27b8328792b241", "2.32.0--pl5321r41hc247a5b_2": "sha256:b5a4be957da898c81e59dc2e25fc250f0404a86184fa4140d24da985ee1b33f6", "2.30.0--pl5320r41h399db7b_0": "sha256:435d2a51195d1a8aea995dce730880fb90f25eb7ddca60090eb5e477e0601364", "2.28.0--pl530r40h5f743cb_0": "sha256:5befbbd68404051fcc782a292337f3a6efc00750f994b23e47a881ddd9d352ba", "2.26.0--pl526r40h5f743cb_0": "sha256:7f02ff017850501c9c456cffa539a7472c94898e33fcd0bd0bc66756a2a1cf4b", "2.38.0--pl5321r43hf17093f_0": "sha256:bd524a5d7103a191d70f6b71ffcd23fca5d2161e0c3ee3ce4a052c716ac143ff", "2.40.0--pl5321r43hf17093f_0": "sha256:1a3a3840ef322fc08abb3ad01db61fe3c87c6b687daa73da2384d4ee24842084"}, "docker": "quay.io/biocontainers/bioconductor-mosaics", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mosaics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mosaics", "latest": {"2.44.0--pl5321r44he5774e6_0": "sha256:f745fed93e690ab491391e8045e7a5256c21b181085aeb3f9913749571aebc1f"}, "tags": {"2.4.1--0": "sha256:293a404803d64aeb2f19c6cdb42180dbed1d309297f194fd173d3fc97be2109c", "2.36.0--pl5321r42hc247a5b_0": "sha256:b43d169275b96fb421720db6df4eb23b2d8a2dff2a6ecf32df27b8328792b241", "2.32.0--pl5321r41hc247a5b_2": "sha256:b5a4be957da898c81e59dc2e25fc250f0404a86184fa4140d24da985ee1b33f6", "2.30.0--pl5320r41h399db7b_0": "sha256:435d2a51195d1a8aea995dce730880fb90f25eb7ddca60090eb5e477e0601364", "2.28.0--pl530r40h5f743cb_0": "sha256:5befbbd68404051fcc782a292337f3a6efc00750f994b23e47a881ddd9d352ba", "2.26.0--pl526r40h5f743cb_0": "sha256:7f02ff017850501c9c456cffa539a7472c94898e33fcd0bd0bc66756a2a1cf4b", "2.38.0--pl5321r43hf17093f_0": "sha256:bd524a5d7103a191d70f6b71ffcd23fca5d2161e0c3ee3ce4a052c716ac143ff", "2.40.0--pl5321r43hf17093f_0": "sha256:1a3a3840ef322fc08abb3ad01db61fe3c87c6b687daa73da2384d4ee24842084", "2.44.0--pl5321r44he5774e6_0": "sha256:f745fed93e690ab491391e8045e7a5256c21b181085aeb3f9913749571aebc1f"}, "docker": "quay.io/biocontainers/bioconductor-mosaics", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mosaics.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mosaics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mosaics:2.40.0--pl5321r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-mosaics:2.44.0--pl5321r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mosaics/2.40.0--pl5321r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-mosaics/2.40.0--pl5321r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-mosaics/2.44.0--pl5321r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-mosaics/2.44.0--pl5321r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
