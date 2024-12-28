@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-mspbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mspbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mspbwt/container.yaml"
-updated_at: "2024-12-27 03:17:27.088968"
-latest: "0.1.0--r43hdbdd923_1"
+updated_at: "2024-12-28 03:13:16.864546"
+latest: "0.1.0--r44h503566f_2"
 container_url: "https://biocontainers.pro/tools/r-mspbwt"
 aliases:
  - "STITCH.R"
@@ -36,8 +36,9 @@ aliases:
  - "seq_cache_populate.pl"
 versions:
  - "0.1.0--r43hdbdd923_1"
+ - "0.1.0--r44h503566f_2"
 description: "singularity registry hpc automated addition for r-mspbwt"
-config: {"url": "https://biocontainers.pro/tools/r-mspbwt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-mspbwt", "latest": {"0.1.0--r43hdbdd923_1": "sha256:35372f23b6fcde386f723125f7515181c5bb76b2fc149e0707025944dc7ccf90"}, "tags": {"0.1.0--r43hdbdd923_1": "sha256:35372f23b6fcde386f723125f7515181c5bb76b2fc149e0707025944dc7ccf90"}, "docker": "quay.io/biocontainers/r-mspbwt", "aliases": {"STITCH.R": "/usr/local/bin/STITCH.R", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "annot-tsv": "/usr/local/bin/annot-tsv", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
+config: {"url": "https://biocontainers.pro/tools/r-mspbwt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-mspbwt", "latest": {"0.1.0--r44h503566f_2": "sha256:c8e7cda78baeeb5f5429b856e64ea391453c205f915578bdf9c066697a46deeb"}, "tags": {"0.1.0--r43hdbdd923_1": "sha256:35372f23b6fcde386f723125f7515181c5bb76b2fc149e0707025944dc7ccf90", "0.1.0--r44h503566f_2": "sha256:c8e7cda78baeeb5f5429b856e64ea391453c205f915578bdf9c066697a46deeb"}, "docker": "quay.io/biocontainers/r-mspbwt", "aliases": {"STITCH.R": "/usr/local/bin/STITCH.R", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "annot-tsv": "/usr/local/bin/annot-tsv", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mspbwt.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/r-mspbwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mspbwt:0.1.0--r43hdbdd923_1
+$ shpc install quay.io/biocontainers/r-mspbwt:0.1.0--r44h503566f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mspbwt/0.1.0--r43hdbdd923_1
-$ module help quay.io/biocontainers/r-mspbwt/0.1.0--r43hdbdd923_1
+$ module load quay.io/biocontainers/r-mspbwt/0.1.0--r44h503566f_2
+$ module help quay.io/biocontainers/r-mspbwt/0.1.0--r44h503566f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

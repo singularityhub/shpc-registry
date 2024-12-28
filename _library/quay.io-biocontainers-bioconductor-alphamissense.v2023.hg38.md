@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/container.yaml"
-updated_at: "2024-12-27 03:05:50.301763"
-latest: "3.18.2--r43hdfd78af_0"
+updated_at: "2024-12-28 03:01:40.302654"
+latest: "3.18.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-alphamissense.v2023.hg38"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
  - "pandoc"
 versions:
  - "3.18.2--r43hdfd78af_0"
+ - "3.18.2--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for bioconductor-alphamissense.v2023.hg38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alphamissense.v2023.hg38", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alphamissense.v2023.hg38", "latest": {"3.18.2--r43hdfd78af_0": "sha256:b91c97e0c2857f1e7ac689d1507e6f063659afc90a5684d1edb9551437ea033e"}, "tags": {"3.18.2--r43hdfd78af_0": "sha256:b91c97e0c2857f1e7ac689d1507e6f063659afc90a5684d1edb9551437ea033e"}, "docker": "quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alphamissense.v2023.hg38", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alphamissense.v2023.hg38", "latest": {"3.18.2--r44hdfd78af_1": "sha256:7b4ffd5e0338a7bcd7b230528397c43127d68360d69191708e428b4928854483"}, "tags": {"3.18.2--r43hdfd78af_0": "sha256:b91c97e0c2857f1e7ac689d1507e6f063659afc90a5684d1edb9551437ea033e", "3.18.2--r44hdfd78af_1": "sha256:7b4ffd5e0338a7bcd7b230528397c43127d68360d69191708e428b4928854483"}, "docker": "quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38:3.18.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38:3.18.2--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/3.18.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/3.18.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/3.18.2--r44hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/3.18.2--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

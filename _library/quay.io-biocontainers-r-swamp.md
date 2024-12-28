@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-swamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-swamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-swamp/container.yaml"
-updated_at: "2024-12-27 03:26:10.054035"
-latest: "1.5.1--r43h3121a25_5"
+updated_at: "2024-12-28 03:22:03.907154"
+latest: "1.5.1--r44h3121a25_6"
 container_url: "https://biocontainers.pro/tools/r-swamp"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.5.1--r41h3121a25_3"
  - "1.5.1--r42h3121a25_4"
  - "1.5.1--r43h3121a25_5"
+ - "1.5.1--r44h3121a25_6"
 description: "shpc-registry automated BioContainers addition for r-swamp"
-config: {"url": "https://biocontainers.pro/tools/r-swamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-swamp", "latest": {"1.5.1--r43h3121a25_5": "sha256:c92fec8b6d572e2b96d497d0201b93ff7f2f65194af429ca6829141fcaab7ec6"}, "tags": {"1.5.1--r41h3121a25_3": "sha256:e007bdc921ff01e3b86bab3875c1855a426c622a4f1f9be86b279e7d1a2fc0fe", "1.5.1--r42h3121a25_4": "sha256:92bb73f8051a4139ff7bb6f45cb605a278791a03464027dcebb1386fc6f5f73a", "1.5.1--r43h3121a25_5": "sha256:c92fec8b6d572e2b96d497d0201b93ff7f2f65194af429ca6829141fcaab7ec6"}, "docker": "quay.io/biocontainers/r-swamp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-swamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-swamp", "latest": {"1.5.1--r44h3121a25_6": "sha256:bb7e377c8e690966a7aa8a03e259351bf6969eb047fabfdb4aaa62257757d10f"}, "tags": {"1.5.1--r41h3121a25_3": "sha256:e007bdc921ff01e3b86bab3875c1855a426c622a4f1f9be86b279e7d1a2fc0fe", "1.5.1--r42h3121a25_4": "sha256:92bb73f8051a4139ff7bb6f45cb605a278791a03464027dcebb1386fc6f5f73a", "1.5.1--r43h3121a25_5": "sha256:c92fec8b6d572e2b96d497d0201b93ff7f2f65194af429ca6829141fcaab7ec6", "1.5.1--r44h3121a25_6": "sha256:bb7e377c8e690966a7aa8a03e259351bf6969eb047fabfdb4aaa62257757d10f"}, "docker": "quay.io/biocontainers/r-swamp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-swamp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-swamp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-swamp:1.5.1--r43h3121a25_5
+$ shpc install quay.io/biocontainers/r-swamp:1.5.1--r44h3121a25_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-swamp/1.5.1--r43h3121a25_5
-$ module help quay.io/biocontainers/r-swamp/1.5.1--r43h3121a25_5
+$ module load quay.io/biocontainers/r-swamp/1.5.1--r44h3121a25_6
+$ module help quay.io/biocontainers/r-swamp/1.5.1--r44h3121a25_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

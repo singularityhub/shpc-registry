@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/lrge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrge/container.yaml"
-updated_at: "2024-12-27 02:56:55.571508"
-latest: "0.1.1--h53be72d_0"
+updated_at: "2024-12-28 02:52:34.118937"
+latest: "0.1.3--h9f13da3_1"
 container_url: "https://biocontainers.pro/tools/lrge"
 aliases:
  - "lrge"
 versions:
  - "0.1.1--h53be72d_0"
+ - "0.1.3--h9f13da3_1"
 description: "singularity registry hpc automated addition for lrge"
-config: {"url": "https://biocontainers.pro/tools/lrge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrge", "latest": {"0.1.1--h53be72d_0": "sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa"}, "tags": {"0.1.1--h53be72d_0": "sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa"}, "docker": "quay.io/biocontainers/lrge", "aliases": {"lrge": "/usr/local/bin/lrge"}}
+config: {"url": "https://biocontainers.pro/tools/lrge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrge", "latest": {"0.1.3--h9f13da3_1": "sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957"}, "tags": {"0.1.1--h53be72d_0": "sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa", "0.1.3--h9f13da3_1": "sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957"}, "docker": "quay.io/biocontainers/lrge", "aliases": {"lrge": "/usr/local/bin/lrge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lrge.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/lrge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lrge:0.1.1--h53be72d_0
+$ shpc install quay.io/biocontainers/lrge:0.1.3--h9f13da3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lrge/0.1.1--h53be72d_0
-$ module help quay.io/biocontainers/lrge/0.1.1--h53be72d_0
+$ module load quay.io/biocontainers/lrge/0.1.3--h9f13da3_1
+$ module help quay.io/biocontainers/lrge/0.1.3--h9f13da3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

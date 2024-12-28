@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/infernal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/infernal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/infernal/container.yaml"
-updated_at: "2024-12-27 02:53:35.258056"
-latest: "1.1.5--pl5321h031d066_3"
+updated_at: "2024-12-28 02:49:09.686834"
+latest: "1.1.5--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/infernal"
 aliases:
  - "cmalign"
@@ -25,8 +25,9 @@ versions:
  - "1.1.5--pl5321h031d066_1"
  - "1.1.5--pl5321h031d066_2"
  - "1.1.5--pl5321h031d066_3"
+ - "1.1.5--pl5321h7b50bb2_4"
 description: "shpc-registry automated BioContainers addition for infernal"
-config: {"url": "https://biocontainers.pro/tools/infernal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infernal", "latest": {"1.1.5--pl5321h031d066_3": "sha256:d9f003d1ac7cb48f33815b607f28e9629dc41d35a099e4fc923fab8069c881a6"}, "tags": {"1.1.4--pl5321hec16e2b_1": "sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb", "1.1.4--pl5321h031d066_4": "sha256:6d00e938e89e6a0bed59512b56aa70671419202f1f0047499ceb916e2cb960e0", "1.1.5--pl5321h031d066_0": "sha256:f274ce240e9490102ef73530ebbf956db07845da9f55b5965bb90dfdda15fa05", "1.1.5--pl5321h031d066_1": "sha256:42670c8dc51f8e0e8f886eff1774b6bc4ed70410bf634df8dbcfde9a0ebe9d70", "1.1.5--pl5321h031d066_2": "sha256:96b4eeaf9b96abbfecde16e5b0aa0d323bbd7db38b70341590f2253c7ab4c8ae", "1.1.5--pl5321h031d066_3": "sha256:d9f003d1ac7cb48f33815b607f28e9629dc41d35a099e4fc923fab8069c881a6"}, "docker": "quay.io/biocontainers/infernal", "aliases": {"cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/infernal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infernal", "latest": {"1.1.5--pl5321h7b50bb2_4": "sha256:05ae1ca6cc76c27180524bc38c5b1e17adf9377be5b8c644d3e8e707848d4d99"}, "tags": {"1.1.4--pl5321hec16e2b_1": "sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb", "1.1.4--pl5321h031d066_4": "sha256:6d00e938e89e6a0bed59512b56aa70671419202f1f0047499ceb916e2cb960e0", "1.1.5--pl5321h031d066_0": "sha256:f274ce240e9490102ef73530ebbf956db07845da9f55b5965bb90dfdda15fa05", "1.1.5--pl5321h031d066_1": "sha256:42670c8dc51f8e0e8f886eff1774b6bc4ed70410bf634df8dbcfde9a0ebe9d70", "1.1.5--pl5321h031d066_2": "sha256:96b4eeaf9b96abbfecde16e5b0aa0d323bbd7db38b70341590f2253c7ab4c8ae", "1.1.5--pl5321h031d066_3": "sha256:d9f003d1ac7cb48f33815b607f28e9629dc41d35a099e4fc923fab8069c881a6", "1.1.5--pl5321h7b50bb2_4": "sha256:05ae1ca6cc76c27180524bc38c5b1e17adf9377be5b8c644d3e8e707848d4d99"}, "docker": "quay.io/biocontainers/infernal", "aliases": {"cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/infernal.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/infernal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/infernal:1.1.5--pl5321h031d066_3
+$ shpc install quay.io/biocontainers/infernal:1.1.5--pl5321h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/infernal/1.1.5--pl5321h031d066_3
-$ module help quay.io/biocontainers/infernal/1.1.5--pl5321h031d066_3
+$ module load quay.io/biocontainers/infernal/1.1.5--pl5321h7b50bb2_4
+$ module help quay.io/biocontainers/infernal/1.1.5--pl5321h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

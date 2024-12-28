@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/usalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usalign/container.yaml"
-updated_at: "2024-12-27 03:16:12.585618"
-latest: "2024.07.30--hdbdd923_0"
+updated_at: "2024-12-28 03:12:04.600526"
+latest: "2024.07.30--h503566f_1"
 container_url: "https://biocontainers.pro/tools/usalign"
 aliases:
  - "HwRMSD"
@@ -25,8 +25,9 @@ aliases:
  - "TMalign"
 versions:
  - "2024.07.30--hdbdd923_0"
+ - "2024.07.30--h503566f_1"
 description: "singularity registry hpc automated addition for usalign"
-config: {"url": "https://biocontainers.pro/tools/usalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for usalign", "latest": {"2024.07.30--hdbdd923_0": "sha256:90044c7a56a01255d5ae2ef66833ff28c3916acff2ddbfe3c8ae02b8af6787f9"}, "tags": {"2024.07.30--hdbdd923_0": "sha256:90044c7a56a01255d5ae2ef66833ff28c3916acff2ddbfe3c8ae02b8af6787f9"}, "docker": "quay.io/biocontainers/usalign", "aliases": {"HwRMSD": "/usr/local/bin/HwRMSD", "MMalign": "/usr/local/bin/MMalign", "NWalign": "/usr/local/bin/NWalign", "TMscore": "/usr/local/bin/TMscore", "USalign": "/usr/local/bin/USalign", "addChainID": "/usr/local/bin/addChainID", "cif2pdb": "/usr/local/bin/cif2pdb", "pdb2fasta": "/usr/local/bin/pdb2fasta", "pdb2ss": "/usr/local/bin/pdb2ss", "pdb2xyz": "/usr/local/bin/pdb2xyz", "pdbAtomName": "/usr/local/bin/pdbAtomName", "qTMclust": "/usr/local/bin/qTMclust", "se": "/usr/local/bin/se", "xyz_sfetch": "/usr/local/bin/xyz_sfetch", "TMalign": "/usr/local/bin/TMalign"}}
+config: {"url": "https://biocontainers.pro/tools/usalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for usalign", "latest": {"2024.07.30--h503566f_1": "sha256:23c065da035f910286d66368f8f62b56c09f2ebf3a93d70209370a66133bac69"}, "tags": {"2024.07.30--hdbdd923_0": "sha256:90044c7a56a01255d5ae2ef66833ff28c3916acff2ddbfe3c8ae02b8af6787f9", "2024.07.30--h503566f_1": "sha256:23c065da035f910286d66368f8f62b56c09f2ebf3a93d70209370a66133bac69"}, "docker": "quay.io/biocontainers/usalign", "aliases": {"HwRMSD": "/usr/local/bin/HwRMSD", "MMalign": "/usr/local/bin/MMalign", "NWalign": "/usr/local/bin/NWalign", "TMscore": "/usr/local/bin/TMscore", "USalign": "/usr/local/bin/USalign", "addChainID": "/usr/local/bin/addChainID", "cif2pdb": "/usr/local/bin/cif2pdb", "pdb2fasta": "/usr/local/bin/pdb2fasta", "pdb2ss": "/usr/local/bin/pdb2ss", "pdb2xyz": "/usr/local/bin/pdb2xyz", "pdbAtomName": "/usr/local/bin/pdbAtomName", "qTMclust": "/usr/local/bin/qTMclust", "se": "/usr/local/bin/se", "xyz_sfetch": "/usr/local/bin/xyz_sfetch", "TMalign": "/usr/local/bin/TMalign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/usalign.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/usalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/usalign:2024.07.30--hdbdd923_0
+$ shpc install quay.io/biocontainers/usalign:2024.07.30--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/usalign/2024.07.30--hdbdd923_0
-$ module help quay.io/biocontainers/usalign/2024.07.30--hdbdd923_0
+$ module load quay.io/biocontainers/usalign/2024.07.30--h503566f_1
+$ module help quay.io/biocontainers/usalign/2024.07.30--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

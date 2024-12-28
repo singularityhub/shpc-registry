@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/crux-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crux-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crux-toolkit/container.yaml"
-updated_at: "2024-12-27 03:17:50.780972"
-latest: "4.1--hdbdd923_2"
+updated_at: "2024-12-28 03:13:39.935304"
+latest: "4.1--h503566f_3"
 container_url: "https://biocontainers.pro/tools/crux-toolkit"
 aliases:
  - "crux"
 versions:
  - "4.1--h87f3376_0"
  - "4.1--hdbdd923_2"
+ - "4.1--h503566f_3"
 description: "shpc-registry automated BioContainers addition for crux-toolkit"
-config: {"url": "https://biocontainers.pro/tools/crux-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crux-toolkit", "latest": {"4.1--hdbdd923_2": "sha256:62177882be4d11c455e27f0a847b29ad25f4c246ee5a563f2e8019032f73dd20"}, "tags": {"4.1--h87f3376_0": "sha256:0438c28b84c662a60bb8b11f057aefd2045e565928fddb86e639610072c266b0", "4.1--hdbdd923_2": "sha256:62177882be4d11c455e27f0a847b29ad25f4c246ee5a563f2e8019032f73dd20"}, "docker": "quay.io/biocontainers/crux-toolkit", "aliases": {"crux": "/usr/local/bin/crux"}}
+config: {"url": "https://biocontainers.pro/tools/crux-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crux-toolkit", "latest": {"4.1--h503566f_3": "sha256:a93a76749abb529d1340c95d2a2a2d031660e9bde2deac725af8242682b15419"}, "tags": {"4.1--h87f3376_0": "sha256:0438c28b84c662a60bb8b11f057aefd2045e565928fddb86e639610072c266b0", "4.1--hdbdd923_2": "sha256:62177882be4d11c455e27f0a847b29ad25f4c246ee5a563f2e8019032f73dd20", "4.1--h503566f_3": "sha256:a93a76749abb529d1340c95d2a2a2d031660e9bde2deac725af8242682b15419"}, "docker": "quay.io/biocontainers/crux-toolkit", "aliases": {"crux": "/usr/local/bin/crux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crux-toolkit.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/crux-toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crux-toolkit:4.1--hdbdd923_2
+$ shpc install quay.io/biocontainers/crux-toolkit:4.1--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crux-toolkit/4.1--hdbdd923_2
-$ module help quay.io/biocontainers/crux-toolkit/4.1--hdbdd923_2
+$ module load quay.io/biocontainers/crux-toolkit/4.1--h503566f_3
+$ module help quay.io/biocontainers/crux-toolkit/4.1--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/slimm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slimm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slimm/container.yaml"
-updated_at: "2024-12-27 03:22:10.230302"
-latest: "0.3.4--h6a68c12_5"
+updated_at: "2024-12-28 03:17:57.709936"
+latest: "0.3.4--hd6d6fdc_6"
 container_url: "https://biocontainers.pro/tools/slimm"
 aliases:
  - "slimm"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.3.4--hf1761c0_3"
  - "0.3.4--h6a68c12_5"
+ - "0.3.4--hd6d6fdc_6"
 description: "shpc-registry automated BioContainers addition for slimm"
-config: {"url": "https://biocontainers.pro/tools/slimm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slimm", "latest": {"0.3.4--h6a68c12_5": "sha256:d7a741cbbfb8282981c8bc833834c24b4fb39b07d86240fa439adca802e0be1a"}, "tags": {"0.3.4--hf1761c0_3": "sha256:f122e5f847a436bfc027174668445ce6c456cf8c57a613e57fb60e6ce0b2188e", "0.3.4--h6a68c12_5": "sha256:d7a741cbbfb8282981c8bc833834c24b4fb39b07d86240fa439adca802e0be1a"}, "docker": "quay.io/biocontainers/slimm", "aliases": {"slimm": "/usr/local/bin/slimm", "slimm_build": "/usr/local/bin/slimm_build"}}
+config: {"url": "https://biocontainers.pro/tools/slimm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slimm", "latest": {"0.3.4--hd6d6fdc_6": "sha256:a007e9880696afae9bfd0791779c72d8fe45ac2f11e7165c49027a5b48a23d3f"}, "tags": {"0.3.4--hf1761c0_3": "sha256:f122e5f847a436bfc027174668445ce6c456cf8c57a613e57fb60e6ce0b2188e", "0.3.4--h6a68c12_5": "sha256:d7a741cbbfb8282981c8bc833834c24b4fb39b07d86240fa439adca802e0be1a", "0.3.4--hd6d6fdc_6": "sha256:a007e9880696afae9bfd0791779c72d8fe45ac2f11e7165c49027a5b48a23d3f"}, "docker": "quay.io/biocontainers/slimm", "aliases": {"slimm": "/usr/local/bin/slimm", "slimm_build": "/usr/local/bin/slimm_build"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slimm.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/slimm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slimm:0.3.4--h6a68c12_5
+$ shpc install quay.io/biocontainers/slimm:0.3.4--hd6d6fdc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slimm/0.3.4--h6a68c12_5
-$ module help quay.io/biocontainers/slimm/0.3.4--h6a68c12_5
+$ module load quay.io/biocontainers/slimm/0.3.4--hd6d6fdc_6
+$ module help quay.io/biocontainers/slimm/0.3.4--hd6d6fdc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

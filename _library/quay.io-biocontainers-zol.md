@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zol/container.yaml"
-updated_at: "2024-12-27 03:35:04.681608"
+updated_at: "2024-12-28 03:31:05.754731"
 latest: "1.5.8--py310h184ae93_0"
 container_url: "https://biocontainers.pro/tools/zol"
 aliases:

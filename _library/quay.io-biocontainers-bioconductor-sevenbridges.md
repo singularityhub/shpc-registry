@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sevenbridges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sevenbridges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sevenbridges/container.yaml"
-updated_at: "2024-12-27 03:13:53.949176"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2024-12-28 03:09:50.231756"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sevenbridges"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.28.0--r42hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sevenbridges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sevenbridges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sevenbridges", "latest": {"1.32.0--r43hdfd78af_0": "sha256:7e962942ec4167347fe6ec2c4710a53ab272aaae735a2e16d967444a450edf17"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:b73cb5e2300bb999ffccc42bac1b1d3c854ad52100e5ed3ca112500a7153046f", "1.28.0--r42hdfd78af_0": "sha256:93b0a23e94444abed9ed620db62b29aa67921d192cb802c6ac062abb0c0dc3b9", "1.30.0--r43hdfd78af_0": "sha256:a68d37fafcb078458ab85856d0b3fb219405aa25b9348a18d6a3a7763a680d81", "1.32.0--r43hdfd78af_0": "sha256:7e962942ec4167347fe6ec2c4710a53ab272aaae735a2e16d967444a450edf17"}, "docker": "quay.io/biocontainers/bioconductor-sevenbridges"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sevenbridges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sevenbridges", "latest": {"1.36.0--r44hdfd78af_0": "sha256:e418a19231890221039c3e63c1375292f4c2719b00c7efd34549a592a75feac8"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:b73cb5e2300bb999ffccc42bac1b1d3c854ad52100e5ed3ca112500a7153046f", "1.28.0--r42hdfd78af_0": "sha256:93b0a23e94444abed9ed620db62b29aa67921d192cb802c6ac062abb0c0dc3b9", "1.30.0--r43hdfd78af_0": "sha256:a68d37fafcb078458ab85856d0b3fb219405aa25b9348a18d6a3a7763a680d81", "1.32.0--r43hdfd78af_0": "sha256:7e962942ec4167347fe6ec2c4710a53ab272aaae735a2e16d967444a450edf17", "1.36.0--r44hdfd78af_0": "sha256:e418a19231890221039c3e63c1375292f4c2719b00c7efd34549a592a75feac8"}, "docker": "quay.io/biocontainers/bioconductor-sevenbridges"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sevenbridges.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sevenbridges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sevenbridges:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sevenbridges:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sevenbridges/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sevenbridges/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sevenbridges/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sevenbridges/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ipo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
-updated_at: "2024-12-27 03:23:59.019396"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2024-12-28 03:19:49.302416"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipo"
 aliases:
  - "gif2hdf"
@@ -27,8 +27,9 @@ versions:
  - "1.12.0--r36_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ipo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipo", "latest": {"1.28.0--r43hdfd78af_0": "sha256:24eac5375941d2b2b8fff4ce0bc7c96f4d109894d7315be28fd2f37bb8fc0506"}, "tags": {"1.8.1--r351_1": "sha256:5cd31a299384e5391bf5ed2313c2749247d09247667aea716ef08d862afb593a", "1.20.0--r41hdfd78af_0": "sha256:12d6c581d3e148d2362cdfbb7b757bc96cda76d835570c3d7a163e277e736e79", "1.18.0--r41hdfd78af_0": "sha256:167601690dfe2405d787df470af34fb64eec594bb46c2c864fdc035fd411514d", "1.16.0--r40hdfd78af_1": "sha256:33455e074e4d4d5ab5ebb10e4692663cffeba0f617157886e2dd5ba547cf000b", "1.14.0--r40_0": "sha256:e8452aaecbd2c5f3152e4af11de7b225d5bdc030f6f30ce7111663e02dfdc8ec", "1.12.0--r36_0": "sha256:526c2a96b30e20b8ed72cf9d633417f116d8f37c57c8c3de33c730c97064925a", "1.26.0--r43hdfd78af_0": "sha256:bec0a821c29f179f7d82d97178a26151f981c5f0d3d6887e6a8e0a0d4e686fed", "1.28.0--r43hdfd78af_0": "sha256:24eac5375941d2b2b8fff4ce0bc7c96f4d109894d7315be28fd2f37bb8fc0506"}, "docker": "quay.io/biocontainers/bioconductor-ipo", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipo", "latest": {"1.32.0--r44hdfd78af_0": "sha256:00d142b8bdf080b543cc7f926b04f09f60b2ff05c62c247ae16cf2f582d9d308"}, "tags": {"1.8.1--r351_1": "sha256:5cd31a299384e5391bf5ed2313c2749247d09247667aea716ef08d862afb593a", "1.20.0--r41hdfd78af_0": "sha256:12d6c581d3e148d2362cdfbb7b757bc96cda76d835570c3d7a163e277e736e79", "1.18.0--r41hdfd78af_0": "sha256:167601690dfe2405d787df470af34fb64eec594bb46c2c864fdc035fd411514d", "1.16.0--r40hdfd78af_1": "sha256:33455e074e4d4d5ab5ebb10e4692663cffeba0f617157886e2dd5ba547cf000b", "1.14.0--r40_0": "sha256:e8452aaecbd2c5f3152e4af11de7b225d5bdc030f6f30ce7111663e02dfdc8ec", "1.12.0--r36_0": "sha256:526c2a96b30e20b8ed72cf9d633417f116d8f37c57c8c3de33c730c97064925a", "1.26.0--r43hdfd78af_0": "sha256:bec0a821c29f179f7d82d97178a26151f981c5f0d3d6887e6a8e0a0d4e686fed", "1.28.0--r43hdfd78af_0": "sha256:24eac5375941d2b2b8fff4ce0bc7c96f4d109894d7315be28fd2f37bb8fc0506", "1.32.0--r44hdfd78af_0": "sha256:00d142b8bdf080b543cc7f926b04f09f60b2ff05c62c247ae16cf2f582d9d308"}, "docker": "quay.io/biocontainers/bioconductor-ipo", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ipo.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ipo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ipo:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ipo:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ipo/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ipo/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ipo/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ipo/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

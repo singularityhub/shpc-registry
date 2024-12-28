@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quicktree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quicktree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quicktree/container.yaml"
-updated_at: "2024-12-27 03:16:40.294504"
-latest: "2.5--h031d066_6"
+updated_at: "2024-12-28 03:12:31.483974"
+latest: "2.5--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/quicktree"
 aliases:
  - "quicktree"
@@ -13,8 +13,9 @@ versions:
  - "2.5--hec16e2b_2"
  - "2.5--h031d066_4"
  - "2.5--h031d066_6"
+ - "2.5--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for quicktree"
-config: {"url": "https://biocontainers.pro/tools/quicktree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quicktree", "latest": {"2.5--h031d066_6": "sha256:a0f6e98307cd192dd8a8667c8aeb922a66acd0333a5ca9cbabcb8f54a3e39bc2"}, "tags": {"2.5--hec16e2b_2": "sha256:d64436ddbbbf92083b7d7a1acba36192ab78bf45fbfcc360a1c6834e886dcc9a", "2.5--h031d066_4": "sha256:d99994f63ca16fdae59083db0c0690995d58255f114e824640f4923e16589711", "2.5--h031d066_6": "sha256:a0f6e98307cd192dd8a8667c8aeb922a66acd0333a5ca9cbabcb8f54a3e39bc2"}, "docker": "quay.io/biocontainers/quicktree", "aliases": {"quicktree": "/usr/local/bin/quicktree"}}
+config: {"url": "https://biocontainers.pro/tools/quicktree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quicktree", "latest": {"2.5--h7b50bb2_7": "sha256:a36888f8546eaebe63b3121650fbff1b561f169e5fe92ad844d9d0c56ba3a31d"}, "tags": {"2.5--hec16e2b_2": "sha256:d64436ddbbbf92083b7d7a1acba36192ab78bf45fbfcc360a1c6834e886dcc9a", "2.5--h031d066_4": "sha256:d99994f63ca16fdae59083db0c0690995d58255f114e824640f4923e16589711", "2.5--h031d066_6": "sha256:a0f6e98307cd192dd8a8667c8aeb922a66acd0333a5ca9cbabcb8f54a3e39bc2", "2.5--h7b50bb2_7": "sha256:a36888f8546eaebe63b3121650fbff1b561f169e5fe92ad844d9d0c56ba3a31d"}, "docker": "quay.io/biocontainers/quicktree", "aliases": {"quicktree": "/usr/local/bin/quicktree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quicktree.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/quicktree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quicktree:2.5--h031d066_6
+$ shpc install quay.io/biocontainers/quicktree:2.5--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quicktree/2.5--h031d066_6
-$ module help quay.io/biocontainers/quicktree/2.5--h031d066_6
+$ module load quay.io/biocontainers/quicktree/2.5--h7b50bb2_7
+$ module help quay.io/biocontainers/quicktree/2.5--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

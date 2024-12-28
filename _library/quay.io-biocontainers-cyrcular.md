@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/cyrcular"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyrcular/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyrcular/container.yaml"
-updated_at: "2024-12-27 03:14:36.772124"
-latest: "0.3.0--h769f52f_0"
+updated_at: "2024-12-28 03:10:31.966971"
+latest: "0.3.0--ha8ac579_1"
 container_url: "https://biocontainers.pro/tools/cyrcular"
 aliases:
  - "cyrcular"
 versions:
  - "0.3.0--h769f52f_0"
+ - "0.3.0--ha8ac579_1"
 description: "singularity registry hpc automated addition for cyrcular"
-config: {"url": "https://biocontainers.pro/tools/cyrcular", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cyrcular", "latest": {"0.3.0--h769f52f_0": "sha256:a919d60112b607e945cc68f2bed29aa162c0c5eba0e0b8cf8332fda19d5dc61f"}, "tags": {"0.3.0--h769f52f_0": "sha256:a919d60112b607e945cc68f2bed29aa162c0c5eba0e0b8cf8332fda19d5dc61f"}, "docker": "quay.io/biocontainers/cyrcular", "aliases": {"cyrcular": "/usr/local/bin/cyrcular"}}
+config: {"url": "https://biocontainers.pro/tools/cyrcular", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cyrcular", "latest": {"0.3.0--ha8ac579_1": "sha256:ea7996da63d0832f7d09c852fa7b8b1e58df01eb1465aff0d70994a8cc7196bd"}, "tags": {"0.3.0--h769f52f_0": "sha256:a919d60112b607e945cc68f2bed29aa162c0c5eba0e0b8cf8332fda19d5dc61f", "0.3.0--ha8ac579_1": "sha256:ea7996da63d0832f7d09c852fa7b8b1e58df01eb1465aff0d70994a8cc7196bd"}, "docker": "quay.io/biocontainers/cyrcular", "aliases": {"cyrcular": "/usr/local/bin/cyrcular"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyrcular.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/cyrcular
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cyrcular:0.3.0--h769f52f_0
+$ shpc install quay.io/biocontainers/cyrcular:0.3.0--ha8ac579_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cyrcular/0.3.0--h769f52f_0
-$ module help quay.io/biocontainers/cyrcular/0.3.0--h769f52f_0
+$ module load quay.io/biocontainers/cyrcular/0.3.0--ha8ac579_1
+$ module help quay.io/biocontainers/cyrcular/0.3.0--ha8ac579_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

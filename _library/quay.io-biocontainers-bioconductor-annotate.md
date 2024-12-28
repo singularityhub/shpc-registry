@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-annotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotate/container.yaml"
-updated_at: "2024-12-27 02:57:15.998396"
-latest: "1.80.0--r43hdfd78af_0"
+updated_at: "2024-12-28 02:52:55.015110"
+latest: "1.84.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotate"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.76.0--r42hdfd78af_0"
  - "1.78.0--r43hdfd78af_0"
  - "1.80.0--r43hdfd78af_0"
+ - "1.84.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotate", "latest": {"1.80.0--r43hdfd78af_0": "sha256:8cd97e6e7a6ddd4667c6328fa8d44ab58ab0afb6f44b73651ba132546c2a6146"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:f15a08a0e6e21164c6ed949598fc89d22b97012c991336184f45c2bf86d67446", "1.76.0--r42hdfd78af_0": "sha256:03da22ca47e1f3f6a7b264dad595e55a4993d73f8ba857bd3cada0365249e168", "1.78.0--r43hdfd78af_0": "sha256:043970351cf954730c6415b69e618ef179d4398330005df56790fbcd257cadf7", "1.80.0--r43hdfd78af_0": "sha256:8cd97e6e7a6ddd4667c6328fa8d44ab58ab0afb6f44b73651ba132546c2a6146"}, "docker": "quay.io/biocontainers/bioconductor-annotate"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotate", "latest": {"1.84.0--r44hdfd78af_0": "sha256:32ebb3ec3605881f2f363070a02ab809ff83699ead546f74ce3a1d1ee8233141"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:f15a08a0e6e21164c6ed949598fc89d22b97012c991336184f45c2bf86d67446", "1.76.0--r42hdfd78af_0": "sha256:03da22ca47e1f3f6a7b264dad595e55a4993d73f8ba857bd3cada0365249e168", "1.78.0--r43hdfd78af_0": "sha256:043970351cf954730c6415b69e618ef179d4398330005df56790fbcd257cadf7", "1.80.0--r43hdfd78af_0": "sha256:8cd97e6e7a6ddd4667c6328fa8d44ab58ab0afb6f44b73651ba132546c2a6146", "1.84.0--r44hdfd78af_0": "sha256:32ebb3ec3605881f2f363070a02ab809ff83699ead546f74ce3a1d1ee8233141"}, "docker": "quay.io/biocontainers/bioconductor-annotate"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotate.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annotate:1.80.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-annotate:1.84.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annotate/1.80.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-annotate/1.80.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-annotate/1.84.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annotate/1.84.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

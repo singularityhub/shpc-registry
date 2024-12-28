@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsa/container.yaml"
-updated_at: "2024-12-27 03:11:02.265417"
-latest: "1.15.9--h43eeafb_4"
+updated_at: "2024-12-28 03:06:58.769294"
+latest: "1.15.9--h5ca1c30_5"
 container_url: "https://biocontainers.pro/tools/fsa"
 aliases:
  - "fsa"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.15.9--h5b5514e_3"
  - "1.15.9--h43eeafb_4"
+ - "1.15.9--h5ca1c30_5"
 description: "shpc-registry automated BioContainers addition for fsa"
-config: {"url": "https://biocontainers.pro/tools/fsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsa", "latest": {"1.15.9--h43eeafb_4": "sha256:4db7ccea64c9eb25430dd65c1f858c90b76d4d8fdff59b0a470034851bb57c22"}, "tags": {"1.15.9--h5b5514e_3": "sha256:63a805cfa5a45173df51bfa614fd1fde0044f4e83027a8e526afe2efab0472aa", "1.15.9--h43eeafb_4": "sha256:4db7ccea64c9eb25430dd65c1f858c90b76d4d8fdff59b0a470034851bb57c22"}, "docker": "quay.io/biocontainers/fsa", "aliases": {"fsa": "/usr/local/bin/fsa", "gapcleaner": "/usr/local/bin/gapcleaner", "isect_mercator_alignment_gff": "/usr/local/bin/isect_mercator_alignment_gff", "map_coords": "/usr/local/bin/map_coords", "map_gff_coords": "/usr/local/bin/map_gff_coords", "percentid": "/usr/local/bin/percentid", "prot2codon": "/usr/local/bin/prot2codon", "slice_fasta": "/usr/local/bin/slice_fasta", "slice_fasta_gff": "/usr/local/bin/slice_fasta_gff", "slice_mercator_alignment": "/usr/local/bin/slice_mercator_alignment", "translate": "/usr/local/bin/translate"}}
+config: {"url": "https://biocontainers.pro/tools/fsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsa", "latest": {"1.15.9--h5ca1c30_5": "sha256:95774baaadd4237496fe83a81d185ad4b6b05b2e8a68bca52d869e5033175fab"}, "tags": {"1.15.9--h5b5514e_3": "sha256:63a805cfa5a45173df51bfa614fd1fde0044f4e83027a8e526afe2efab0472aa", "1.15.9--h43eeafb_4": "sha256:4db7ccea64c9eb25430dd65c1f858c90b76d4d8fdff59b0a470034851bb57c22", "1.15.9--h5ca1c30_5": "sha256:95774baaadd4237496fe83a81d185ad4b6b05b2e8a68bca52d869e5033175fab"}, "docker": "quay.io/biocontainers/fsa", "aliases": {"fsa": "/usr/local/bin/fsa", "gapcleaner": "/usr/local/bin/gapcleaner", "isect_mercator_alignment_gff": "/usr/local/bin/isect_mercator_alignment_gff", "map_coords": "/usr/local/bin/map_coords", "map_gff_coords": "/usr/local/bin/map_gff_coords", "percentid": "/usr/local/bin/percentid", "prot2codon": "/usr/local/bin/prot2codon", "slice_fasta": "/usr/local/bin/slice_fasta", "slice_fasta_gff": "/usr/local/bin/slice_fasta_gff", "slice_mercator_alignment": "/usr/local/bin/slice_mercator_alignment", "translate": "/usr/local/bin/translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fsa.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/fsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fsa:1.15.9--h43eeafb_4
+$ shpc install quay.io/biocontainers/fsa:1.15.9--h5ca1c30_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fsa/1.15.9--h43eeafb_4
-$ module help quay.io/biocontainers/fsa/1.15.9--h43eeafb_4
+$ module load quay.io/biocontainers/fsa/1.15.9--h5ca1c30_5
+$ module help quay.io/biocontainers/fsa/1.15.9--h5ca1c30_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

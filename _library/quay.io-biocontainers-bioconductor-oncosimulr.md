@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oncosimulr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncosimulr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncosimulr/container.yaml"
-updated_at: "2024-12-27 03:10:14.476211"
-latest: "4.4.0--r43hf17093f_0"
+updated_at: "2024-12-28 03:06:09.715583"
+latest: "4.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncosimulr"
 aliases:
  - "glpsol"
@@ -20,8 +20,9 @@ versions:
  - "3.2.0--r41hc247a5b_2"
  - "4.2.0--r43hf17093f_0"
  - "4.4.0--r43hf17093f_0"
+ - "4.8.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oncosimulr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oncosimulr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncosimulr", "latest": {"4.4.0--r43hf17093f_0": "sha256:035fc7f8e47aa12aae88f854d48fb89a12768a540ffb6420c66e6804cc037a77"}, "tags": {"3.2.0--r41hc247a5b_2": "sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4", "4.2.0--r43hf17093f_0": "sha256:c901f38b593b52cb35dc4d528d44f95d16b3c8c3c06a81fd78d43f0eafbc9bed", "4.4.0--r43hf17093f_0": "sha256:035fc7f8e47aa12aae88f854d48fb89a12768a540ffb6420c66e6804cc037a77"}, "docker": "quay.io/biocontainers/bioconductor-oncosimulr", "aliases": {"glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oncosimulr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncosimulr", "latest": {"4.8.0--r44he5774e6_0": "sha256:bcd0d34b8e86c329f2dda5207b0a137c42e7cc5d5ba1eee2c007aacb1f19a3f8"}, "tags": {"3.2.0--r41hc247a5b_2": "sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4", "4.2.0--r43hf17093f_0": "sha256:c901f38b593b52cb35dc4d528d44f95d16b3c8c3c06a81fd78d43f0eafbc9bed", "4.4.0--r43hf17093f_0": "sha256:035fc7f8e47aa12aae88f854d48fb89a12768a540ffb6420c66e6804cc037a77", "4.8.0--r44he5774e6_0": "sha256:bcd0d34b8e86c329f2dda5207b0a137c42e7cc5d5ba1eee2c007aacb1f19a3f8"}, "docker": "quay.io/biocontainers/bioconductor-oncosimulr", "aliases": {"glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oncosimulr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oncosimulr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oncosimulr:4.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-oncosimulr:4.8.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oncosimulr/4.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-oncosimulr/4.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-oncosimulr/4.8.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-oncosimulr/4.8.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

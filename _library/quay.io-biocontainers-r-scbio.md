@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-scbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scbio/container.yaml"
-updated_at: "2024-12-27 03:17:49.337045"
-latest: "0.1.4--r43hdfd78af_2"
+updated_at: "2024-12-28 03:13:38.505949"
+latest: "0.1.4--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-scbio"
 
 versions:
  - "0.1.4--r41hdfd78af_0"
  - "0.1.4--r42hdfd78af_1"
  - "0.1.4--r43hdfd78af_2"
+ - "0.1.4--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-scbio"
-config: {"url": "https://biocontainers.pro/tools/r-scbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scbio", "latest": {"0.1.4--r43hdfd78af_2": "sha256:747fa3ea89791787ec52f14c398af5b0b5f30dbe88995e8a61e13cfa17982e32"}, "tags": {"0.1.4--r41hdfd78af_0": "sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef", "0.1.4--r42hdfd78af_1": "sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49", "0.1.4--r43hdfd78af_2": "sha256:747fa3ea89791787ec52f14c398af5b0b5f30dbe88995e8a61e13cfa17982e32"}, "docker": "quay.io/biocontainers/r-scbio"}
+config: {"url": "https://biocontainers.pro/tools/r-scbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scbio", "latest": {"0.1.4--r44hdfd78af_3": "sha256:fc19c5a22c207c9fd48d1e667ff27376649bbef24c9b57fcabe1323690d820da"}, "tags": {"0.1.4--r41hdfd78af_0": "sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef", "0.1.4--r42hdfd78af_1": "sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49", "0.1.4--r43hdfd78af_2": "sha256:747fa3ea89791787ec52f14c398af5b0b5f30dbe88995e8a61e13cfa17982e32", "0.1.4--r44hdfd78af_3": "sha256:fc19c5a22c207c9fd48d1e667ff27376649bbef24c9b57fcabe1323690d820da"}, "docker": "quay.io/biocontainers/r-scbio"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scbio.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-scbio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scbio:0.1.4--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-scbio:0.1.4--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scbio/0.1.4--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-scbio/0.1.4--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-scbio/0.1.4--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-scbio/0.1.4--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

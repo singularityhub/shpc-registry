@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-empiricalfdr.deseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
-updated_at: "2024-12-27 03:20:45.342802"
-latest: "1.0.3--r43h3121a25_10"
+updated_at: "2024-12-28 03:16:31.685301"
+latest: "1.0.3--r44h3121a25_11"
 container_url: "https://biocontainers.pro/tools/r-empiricalfdr.deseq2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.0.3--r41h3121a25_8"
  - "1.0.3--r42h3121a25_9"
  - "1.0.3--r43h3121a25_10"
+ - "1.0.3--r44h3121a25_11"
 description: "shpc-registry automated BioContainers addition for r-empiricalfdr.deseq2"
-config: {"url": "https://biocontainers.pro/tools/r-empiricalfdr.deseq2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-empiricalfdr.deseq2", "latest": {"1.0.3--r43h3121a25_10": "sha256:b523e5344095bc8f7d28e9915febd8a40f83931b9eb1d2e4a789a3ca280b445f"}, "tags": {"1.0.3--r41h3121a25_8": "sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc", "1.0.3--r42h3121a25_9": "sha256:f366efd35a62738a2b6168e17b2975c96fdd49ca565f25d65cc9c3fca5ea6eee", "1.0.3--r43h3121a25_10": "sha256:b523e5344095bc8f7d28e9915febd8a40f83931b9eb1d2e4a789a3ca280b445f"}, "docker": "quay.io/biocontainers/r-empiricalfdr.deseq2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-empiricalfdr.deseq2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-empiricalfdr.deseq2", "latest": {"1.0.3--r44h3121a25_11": "sha256:bb1d4d699ea5126ba077d310c2ff8aa931b0f4ce0941e943ca32ba377e3969d7"}, "tags": {"1.0.3--r41h3121a25_8": "sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc", "1.0.3--r42h3121a25_9": "sha256:f366efd35a62738a2b6168e17b2975c96fdd49ca565f25d65cc9c3fca5ea6eee", "1.0.3--r43h3121a25_10": "sha256:b523e5344095bc8f7d28e9915febd8a40f83931b9eb1d2e4a789a3ca280b445f", "1.0.3--r44h3121a25_11": "sha256:bb1d4d699ea5126ba077d310c2ff8aa931b0f4ce0941e943ca32ba377e3969d7"}, "docker": "quay.io/biocontainers/r-empiricalfdr.deseq2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-empiricalfdr.deseq2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-empiricalfdr.deseq2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-empiricalfdr.deseq2:1.0.3--r43h3121a25_10
+$ shpc install quay.io/biocontainers/r-empiricalfdr.deseq2:1.0.3--r44h3121a25_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-empiricalfdr.deseq2/1.0.3--r43h3121a25_10
-$ module help quay.io/biocontainers/r-empiricalfdr.deseq2/1.0.3--r43h3121a25_10
+$ module load quay.io/biocontainers/r-empiricalfdr.deseq2/1.0.3--r44h3121a25_11
+$ module help quay.io/biocontainers/r-empiricalfdr.deseq2/1.0.3--r44h3121a25_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

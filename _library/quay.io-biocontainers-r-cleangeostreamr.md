@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cleangeostreamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cleangeostreamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cleangeostreamr/container.yaml"
-updated_at: "2024-12-27 03:14:48.758053"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-12-28 03:10:43.456113"
+latest: "1.0.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-cleangeostreamr"
 aliases:
  - "bsdunzip"
@@ -45,8 +45,9 @@ aliases:
  - "gdal_rasterize"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.0.0--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for r-cleangeostreamr"
-config: {"url": "https://biocontainers.pro/tools/r-cleangeostreamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cleangeostreamr", "latest": {"1.0.0--r43hdfd78af_0": "sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e"}, "docker": "quay.io/biocontainers/r-cleangeostreamr", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "curate_chemical_data": "/usr/local/bin/curate_chemical_data", "curate_spatial_data": "/usr/local/bin/curate_spatial_data", "fitsverify": "/usr/local/bin/fitsverify", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "pandoc-lua": "/usr/local/bin/pandoc-lua", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "sozip": "/usr/local/bin/sozip", "git2": "/usr/local/bin/git2", "pg_amcheck": "/usr/local/bin/pg_amcheck", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pdfsig": "/usr/local/bin/pdfsig", "pandoc-server": "/usr/local/bin/pandoc-server", "applygeo": "/usr/local/bin/applygeo", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
+config: {"url": "https://biocontainers.pro/tools/r-cleangeostreamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cleangeostreamr", "latest": {"1.0.0--r44hdfd78af_1": "sha256:cc073d89ec828b75bcfa2c727209a5847eb22ea9ff45c7d4f8b173117854db6a"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e", "1.0.0--r44hdfd78af_1": "sha256:cc073d89ec828b75bcfa2c727209a5847eb22ea9ff45c7d4f8b173117854db6a"}, "docker": "quay.io/biocontainers/r-cleangeostreamr", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "curate_chemical_data": "/usr/local/bin/curate_chemical_data", "curate_spatial_data": "/usr/local/bin/curate_spatial_data", "fitsverify": "/usr/local/bin/fitsverify", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "pandoc-lua": "/usr/local/bin/pandoc-lua", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "sozip": "/usr/local/bin/sozip", "git2": "/usr/local/bin/git2", "pg_amcheck": "/usr/local/bin/pg_amcheck", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pdfsig": "/usr/local/bin/pdfsig", "pandoc-server": "/usr/local/bin/pandoc-server", "applygeo": "/usr/local/bin/applygeo", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cleangeostreamr.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/r-cleangeostreamr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cleangeostreamr:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-cleangeostreamr:1.0.0--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cleangeostreamr/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-cleangeostreamr/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-cleangeostreamr/1.0.0--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-cleangeostreamr/1.0.0--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

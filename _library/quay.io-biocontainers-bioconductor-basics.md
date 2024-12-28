@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-basics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basics/container.yaml"
-updated_at: "2024-12-27 03:29:24.796487"
-latest: "2.14.0--r43hf17093f_0"
+updated_at: "2024-12-28 03:25:21.934931"
+latest: "2.18.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basics"
 aliases:
  - "glpsol"
@@ -15,8 +15,9 @@ versions:
  - "2.10.0--r42hf17093f_1"
  - "2.12.3--r43hf17093f_0"
  - "2.14.0--r43hf17093f_0"
+ - "2.18.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basics", "latest": {"2.14.0--r43hf17093f_0": "sha256:03006bdca043b55a3364a87d2b3eecb048ca56111de968a7f15d4418e2395de6"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:352c976fc8e71db491868d8f0a731d846e04c5b24a387cd59d91f7759033b186", "2.10.0--r42hc247a5b_0": "sha256:397b1c3f0909d0ae9ec946a9322eeccbf2afc0f72151a85267101595eaf2bf55", "2.10.0--r42hf17093f_1": "sha256:e9082c77be5323bb00ad3da332c7970d5a34f740e23aaa651ca1b85636e8fd41", "2.12.3--r43hf17093f_0": "sha256:74e52aabfb746b7d34ad0c348f96a047da66220432975d14b3bc46ccfe74cb33", "2.14.0--r43hf17093f_0": "sha256:03006bdca043b55a3364a87d2b3eecb048ca56111de968a7f15d4418e2395de6"}, "docker": "quay.io/biocontainers/bioconductor-basics", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basics", "latest": {"2.18.0--r44he5774e6_0": "sha256:d9faea7dc2956edad8830837b8e65cdf2a1a69b62db91433b4f50e679e32002f"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:352c976fc8e71db491868d8f0a731d846e04c5b24a387cd59d91f7759033b186", "2.10.0--r42hc247a5b_0": "sha256:397b1c3f0909d0ae9ec946a9322eeccbf2afc0f72151a85267101595eaf2bf55", "2.10.0--r42hf17093f_1": "sha256:e9082c77be5323bb00ad3da332c7970d5a34f740e23aaa651ca1b85636e8fd41", "2.12.3--r43hf17093f_0": "sha256:74e52aabfb746b7d34ad0c348f96a047da66220432975d14b3bc46ccfe74cb33", "2.14.0--r43hf17093f_0": "sha256:03006bdca043b55a3364a87d2b3eecb048ca56111de968a7f15d4418e2395de6", "2.18.0--r44he5774e6_0": "sha256:d9faea7dc2956edad8830837b8e65cdf2a1a69b62db91433b4f50e679e32002f"}, "docker": "quay.io/biocontainers/bioconductor-basics", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basics.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basics:2.14.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-basics:2.18.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basics/2.14.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-basics/2.14.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-basics/2.18.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-basics/2.18.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

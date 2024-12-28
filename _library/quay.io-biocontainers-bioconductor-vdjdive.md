@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vdjdive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vdjdive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vdjdive/container.yaml"
-updated_at: "2024-12-27 02:57:09.860610"
-latest: "1.4.0--r43hf17093f_0"
+updated_at: "2024-12-28 02:52:48.743611"
+latest: "1.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vdjdive"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hf17093f_0"
+ - "1.8.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-vdjdive"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vdjdive", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vdjdive", "latest": {"1.4.0--r43hf17093f_0": "sha256:6b8e9986b92b4eb7186558df678ffde37eabb4dc022dcaddabbe6c1db35b439a"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:61fcf321fe78949634680194abe2e420876f7feb430bc74f5de03c713ffa38a7", "1.2.0--r43hdfd78af_0": "sha256:3c79925140f8d46333c596c8fbc579035bd2862aa9041eaf3f16f4fc60d1f508", "1.4.0--r43hf17093f_0": "sha256:6b8e9986b92b4eb7186558df678ffde37eabb4dc022dcaddabbe6c1db35b439a"}, "docker": "quay.io/biocontainers/bioconductor-vdjdive", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vdjdive", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vdjdive", "latest": {"1.8.0--r44he5774e6_0": "sha256:51797b1c4c3ccbeb9dc45b909189a2d6ecd846910775da4137865c84e948eb11"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:61fcf321fe78949634680194abe2e420876f7feb430bc74f5de03c713ffa38a7", "1.2.0--r43hdfd78af_0": "sha256:3c79925140f8d46333c596c8fbc579035bd2862aa9041eaf3f16f4fc60d1f508", "1.4.0--r43hf17093f_0": "sha256:6b8e9986b92b4eb7186558df678ffde37eabb4dc022dcaddabbe6c1db35b439a", "1.8.0--r44he5774e6_0": "sha256:51797b1c4c3ccbeb9dc45b909189a2d6ecd846910775da4137865c84e948eb11"}, "docker": "quay.io/biocontainers/bioconductor-vdjdive", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vdjdive.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vdjdive
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vdjdive:1.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-vdjdive:1.8.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vdjdive/1.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-vdjdive/1.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-vdjdive/1.8.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-vdjdive/1.8.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

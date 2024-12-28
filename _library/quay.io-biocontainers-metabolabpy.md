@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabolabpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolabpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolabpy/container.yaml"
-updated_at: "2024-12-27 03:22:22.758418"
-latest: "0.9.63--pyhdfd78af_0"
+updated_at: "2024-12-28 03:18:10.599315"
+latest: "0.9.65--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolabpy"
 aliases:
  - "metabolabpy"
@@ -31,8 +31,9 @@ versions:
  - "0.9.50--pyhdfd78af_0"
  - "0.9.62--pyhdfd78af_0"
  - "0.9.63--pyhdfd78af_0"
+ - "0.9.65--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metabolabpy"
-config: {"url": "https://biocontainers.pro/tools/metabolabpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabolabpy", "latest": {"0.9.63--pyhdfd78af_0": "sha256:7c4c7ae5c1bbf0cb1d6ab80434695e0533d59da597428332f98744a1eae7e90a"}, "tags": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55", "0.9.46--pyhdfd78af_0": "sha256:f224abdd27b8837d3c743d735069bc1178ddb387f824a27e4ed141657d7e1db1", "0.9.50--pyhdfd78af_0": "sha256:e4ad29be180f636fe1a6bcde91572c9e30c2e517246428912ffd52d0aefe65e7", "0.9.62--pyhdfd78af_0": "sha256:b8f1639336f3b6fb4ae2dccf29195c897b9eafcabd29d6cc2a03a63b4fd949c2", "0.9.63--pyhdfd78af_0": "sha256:7c4c7ae5c1bbf0cb1d6ab80434695e0533d59da597428332f98744a1eae7e90a"}, "docker": "quay.io/biocontainers/metabolabpy", "aliases": {"metabolabpy": "/usr/local/bin/metabolabpy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
+config: {"url": "https://biocontainers.pro/tools/metabolabpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabolabpy", "latest": {"0.9.65--pyhdfd78af_0": "sha256:14f147a18e2c3c4389e0229d9147622f0921430522a709eac5362375d8101b3f"}, "tags": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55", "0.9.46--pyhdfd78af_0": "sha256:f224abdd27b8837d3c743d735069bc1178ddb387f824a27e4ed141657d7e1db1", "0.9.50--pyhdfd78af_0": "sha256:e4ad29be180f636fe1a6bcde91572c9e30c2e517246428912ffd52d0aefe65e7", "0.9.62--pyhdfd78af_0": "sha256:b8f1639336f3b6fb4ae2dccf29195c897b9eafcabd29d6cc2a03a63b4fd949c2", "0.9.63--pyhdfd78af_0": "sha256:7c4c7ae5c1bbf0cb1d6ab80434695e0533d59da597428332f98744a1eae7e90a", "0.9.65--pyhdfd78af_0": "sha256:14f147a18e2c3c4389e0229d9147622f0921430522a709eac5362375d8101b3f"}, "docker": "quay.io/biocontainers/metabolabpy", "aliases": {"metabolabpy": "/usr/local/bin/metabolabpy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabolabpy.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/metabolabpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabolabpy:0.9.63--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metabolabpy:0.9.65--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabolabpy/0.9.63--pyhdfd78af_0
-$ module help quay.io/biocontainers/metabolabpy/0.9.63--pyhdfd78af_0
+$ module load quay.io/biocontainers/metabolabpy/0.9.65--pyhdfd78af_0
+$ module help quay.io/biocontainers/metabolabpy/0.9.65--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

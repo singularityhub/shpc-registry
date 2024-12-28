@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ewce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ewce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ewce/container.yaml"
-updated_at: "2024-12-27 03:33:19.029881"
+updated_at: "2024-12-28 03:29:22.476158"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ewce"
 

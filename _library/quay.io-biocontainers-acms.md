@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/acms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acms/container.yaml"
-updated_at: "2024-12-27 02:51:21.018102"
-latest: "1.3.0--pl5321h4ac6f70_1"
+updated_at: "2024-12-28 02:46:53.518038"
+latest: "1.3.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/acms"
 aliases:
  - "acmbuild"
@@ -28,8 +28,9 @@ aliases:
  - "runhaskell"
 versions:
  - "1.3.0--pl5321h4ac6f70_1"
+ - "1.3.0--pl5321h9948957_2"
 description: "singularity registry hpc automated addition for acms"
-config: {"url": "https://biocontainers.pro/tools/acms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acms", "latest": {"1.3.0--pl5321h4ac6f70_1": "sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e"}, "tags": {"1.3.0--pl5321h4ac6f70_1": "sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e"}, "docker": "quay.io/biocontainers/acms", "aliases": {"acmbuild": "/usr/local/bin/acmbuild", "acmbuild_checkCompatibility": "/usr/local/bin/acmbuild_checkCompatibility", "acmbuild_train": "/usr/local/bin/acmbuild_train", "acmsearch": "/usr/local/bin/acmsearch", "addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "ghc": "/usr/local/bin/ghc", "ghc-8.10.7": "/usr/local/bin/ghc-8.10.7", "ghc-pkg": "/usr/local/bin/ghc-pkg", "ghc-pkg-8.10.7": "/usr/local/bin/ghc-pkg-8.10.7", "ghci": "/usr/local/bin/ghci", "ghci-8.10.7": "/usr/local/bin/ghci-8.10.7", "hp2ps": "/usr/local/bin/hp2ps", "hpc": "/usr/local/bin/hpc", "hsc2hs": "/usr/local/bin/hsc2hs", "runghc": "/usr/local/bin/runghc", "runghc-8.10.7": "/usr/local/bin/runghc-8.10.7", "runhaskell": "/usr/local/bin/runhaskell"}}
+config: {"url": "https://biocontainers.pro/tools/acms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acms", "latest": {"1.3.0--pl5321h9948957_2": "sha256:3f6a1c89887bd1d02536e51deac651925d7479d2ca981fecbd45a2c027ccdde1"}, "tags": {"1.3.0--pl5321h4ac6f70_1": "sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e", "1.3.0--pl5321h9948957_2": "sha256:3f6a1c89887bd1d02536e51deac651925d7479d2ca981fecbd45a2c027ccdde1"}, "docker": "quay.io/biocontainers/acms", "aliases": {"acmbuild": "/usr/local/bin/acmbuild", "acmbuild_checkCompatibility": "/usr/local/bin/acmbuild_checkCompatibility", "acmbuild_train": "/usr/local/bin/acmbuild_train", "acmsearch": "/usr/local/bin/acmsearch", "addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "ghc": "/usr/local/bin/ghc", "ghc-8.10.7": "/usr/local/bin/ghc-8.10.7", "ghc-pkg": "/usr/local/bin/ghc-pkg", "ghc-pkg-8.10.7": "/usr/local/bin/ghc-pkg-8.10.7", "ghci": "/usr/local/bin/ghci", "ghci-8.10.7": "/usr/local/bin/ghci-8.10.7", "hp2ps": "/usr/local/bin/hp2ps", "hpc": "/usr/local/bin/hpc", "hsc2hs": "/usr/local/bin/hsc2hs", "runghc": "/usr/local/bin/runghc", "runghc-8.10.7": "/usr/local/bin/runghc-8.10.7", "runhaskell": "/usr/local/bin/runhaskell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/acms.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/acms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/acms:1.3.0--pl5321h4ac6f70_1
+$ shpc install quay.io/biocontainers/acms:1.3.0--pl5321h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/acms/1.3.0--pl5321h4ac6f70_1
-$ module help quay.io/biocontainers/acms/1.3.0--pl5321h4ac6f70_1
+$ module load quay.io/biocontainers/acms/1.3.0--pl5321h9948957_2
+$ module help quay.io/biocontainers/acms/1.3.0--pl5321h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

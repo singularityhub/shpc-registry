@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/foldmason"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldmason/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldmason/container.yaml"
-updated_at: "2024-12-27 02:56:44.687244"
-latest: "1.763a428--pl5321hb365157_0"
+updated_at: "2024-12-28 02:52:22.974085"
+latest: "2.7bd21ed--pl5321h5021889_0"
 container_url: "https://biocontainers.pro/tools/foldmason"
 aliases:
  - "foldmason"
@@ -18,8 +18,9 @@ aliases:
  - "wget"
 versions:
  - "1.763a428--pl5321hb365157_0"
+ - "2.7bd21ed--pl5321h5021889_0"
 description: "singularity registry hpc automated addition for foldmason"
-config: {"url": "https://biocontainers.pro/tools/foldmason", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldmason", "latest": {"1.763a428--pl5321hb365157_0": "sha256:7c1d4d0b6cbf5ec112228712fb09b31ef36ee4c863e9a8bf5bb846c4fe72b1aa"}, "tags": {"1.763a428--pl5321hb365157_0": "sha256:7c1d4d0b6cbf5ec112228712fb09b31ef36ee4c863e9a8bf5bb846c4fe72b1aa"}, "docker": "quay.io/biocontainers/foldmason", "aliases": {"foldmason": "/usr/local/bin/foldmason", "aria2c": "/usr/local/bin/aria2c", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/foldmason", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldmason", "latest": {"2.7bd21ed--pl5321h5021889_0": "sha256:8c381feabb35ee7cb15acd683d0e34a6351245d1988d021a118b1811bd0e8515"}, "tags": {"1.763a428--pl5321hb365157_0": "sha256:7c1d4d0b6cbf5ec112228712fb09b31ef36ee4c863e9a8bf5bb846c4fe72b1aa", "2.7bd21ed--pl5321h5021889_0": "sha256:8c381feabb35ee7cb15acd683d0e34a6351245d1988d021a118b1811bd0e8515"}, "docker": "quay.io/biocontainers/foldmason", "aliases": {"foldmason": "/usr/local/bin/foldmason", "aria2c": "/usr/local/bin/aria2c", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldmason.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/foldmason
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/foldmason:1.763a428--pl5321hb365157_0
+$ shpc install quay.io/biocontainers/foldmason:2.7bd21ed--pl5321h5021889_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/foldmason/1.763a428--pl5321hb365157_0
-$ module help quay.io/biocontainers/foldmason/1.763a428--pl5321hb365157_0
+$ module load quay.io/biocontainers/foldmason/2.7bd21ed--pl5321h5021889_0
+$ module help quay.io/biocontainers/foldmason/2.7bd21ed--pl5321h5021889_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/crussmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crussmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crussmap/container.yaml"
-updated_at: "2024-12-27 03:06:34.238404"
-latest: "1.0.0--hd728c0f_1"
+updated_at: "2024-12-28 03:02:25.244006"
+latest: "1.0.0--h5f40167_2"
 container_url: "https://biocontainers.pro/tools/crussmap"
 aliases:
  - "crussmap"
 versions:
  - "1.0.0--h86f6036_0"
  - "1.0.0--hd728c0f_1"
+ - "1.0.0--h5f40167_2"
 description: "singularity registry hpc automated addition for crussmap"
-config: {"url": "https://biocontainers.pro/tools/crussmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crussmap", "latest": {"1.0.0--hd728c0f_1": "sha256:0c339f63f187f37e8560abf2f83a9ea11ef436511b600a62922ca80f52f56386"}, "tags": {"1.0.0--h86f6036_0": "sha256:58f5d8238be0f05125eeb118a0f21592ec2c1a502c2894b77c66d85f358a51c3", "1.0.0--hd728c0f_1": "sha256:0c339f63f187f37e8560abf2f83a9ea11ef436511b600a62922ca80f52f56386"}, "docker": "quay.io/biocontainers/crussmap", "aliases": {"crussmap": "/usr/local/bin/crussmap"}}
+config: {"url": "https://biocontainers.pro/tools/crussmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crussmap", "latest": {"1.0.0--h5f40167_2": "sha256:3f2b0f1496053891e50cdd59f50eb2465bf5d87f631e3dd30ae492b9f5a8cc11"}, "tags": {"1.0.0--h86f6036_0": "sha256:58f5d8238be0f05125eeb118a0f21592ec2c1a502c2894b77c66d85f358a51c3", "1.0.0--hd728c0f_1": "sha256:0c339f63f187f37e8560abf2f83a9ea11ef436511b600a62922ca80f52f56386", "1.0.0--h5f40167_2": "sha256:3f2b0f1496053891e50cdd59f50eb2465bf5d87f631e3dd30ae492b9f5a8cc11"}, "docker": "quay.io/biocontainers/crussmap", "aliases": {"crussmap": "/usr/local/bin/crussmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crussmap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/crussmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crussmap:1.0.0--hd728c0f_1
+$ shpc install quay.io/biocontainers/crussmap:1.0.0--h5f40167_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crussmap/1.0.0--hd728c0f_1
-$ module help quay.io/biocontainers/crussmap/1.0.0--hd728c0f_1
+$ module load quay.io/biocontainers/crussmap/1.0.0--h5f40167_2
+$ module help quay.io/biocontainers/crussmap/1.0.0--h5f40167_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

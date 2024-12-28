@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-massir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massir/container.yaml"
-updated_at: "2024-12-27 03:16:27.600442"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2024-12-28 03:12:19.154043"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-massir"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-massir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-massir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massir", "latest": {"1.38.0--r43hdfd78af_0": "sha256:650d5f67558f57a05635007819ce329f29835e47db979a95f0ed2fde107c286a"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:d132c1f741d7ba3da557af179447c4f8c48630e9a70b59a9873784ec351e66e0", "1.34.0--r42hdfd78af_0": "sha256:c1686d39c196557acd1a8cbdbdc98a3a1fd4b0c74370a3bf577ce23b512cfe16", "1.36.0--r43hdfd78af_0": "sha256:38c6cd93c6d661e14c79a528c5538fe70ff274b8ce81cbd206fd0a64acd40268", "1.38.0--r43hdfd78af_0": "sha256:650d5f67558f57a05635007819ce329f29835e47db979a95f0ed2fde107c286a"}, "docker": "quay.io/biocontainers/bioconductor-massir"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-massir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massir", "latest": {"1.42.0--r44hdfd78af_0": "sha256:b91f695f532f777ab3a5f01da5ab328a927d60481ad7dc70e2a822a8560b0e7f"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:d132c1f741d7ba3da557af179447c4f8c48630e9a70b59a9873784ec351e66e0", "1.34.0--r42hdfd78af_0": "sha256:c1686d39c196557acd1a8cbdbdc98a3a1fd4b0c74370a3bf577ce23b512cfe16", "1.36.0--r43hdfd78af_0": "sha256:38c6cd93c6d661e14c79a528c5538fe70ff274b8ce81cbd206fd0a64acd40268", "1.38.0--r43hdfd78af_0": "sha256:650d5f67558f57a05635007819ce329f29835e47db979a95f0ed2fde107c286a", "1.42.0--r44hdfd78af_0": "sha256:b91f695f532f777ab3a5f01da5ab328a927d60481ad7dc70e2a822a8560b0e7f"}, "docker": "quay.io/biocontainers/bioconductor-massir"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-massir.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-massir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-massir:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-massir:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-massir/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-massir/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-massir/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-massir/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clomial/container.yaml"
-updated_at: "2024-12-27 03:30:50.959407"
-latest: "1.38.0--r43hdfd78af_1"
+updated_at: "2024-12-28 03:26:50.827173"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clomial"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_1"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clomial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clomial", "latest": {"1.38.0--r43hdfd78af_1": "sha256:16686488f6c5f866251b1c4680ce2de3f5ab5e4af9626d3f18c0aa880d5ffcc2"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:26d7d2d3b6d8b3a46ab2c600964fb7f66fe316c9d710880c85cf20085017592d", "1.34.0--r42hdfd78af_0": "sha256:b0e237cc75e4afb0552a6a19d3ab2f387ae963d68403ebb5c4df80b6842a3f16", "1.36.0--r43hdfd78af_0": "sha256:bbdfae293fd396e5a65424fe2e4608690bffa1594ced2980b51f03d27bb67ab1", "1.38.0--r43hdfd78af_1": "sha256:16686488f6c5f866251b1c4680ce2de3f5ab5e4af9626d3f18c0aa880d5ffcc2"}, "docker": "quay.io/biocontainers/bioconductor-clomial"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clomial", "latest": {"1.42.0--r44hdfd78af_0": "sha256:deb6114d11c2ba565bc4bb3d930c8b451fb9ee12160f4a4060ffc9eb5d7d3ecb"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:26d7d2d3b6d8b3a46ab2c600964fb7f66fe316c9d710880c85cf20085017592d", "1.34.0--r42hdfd78af_0": "sha256:b0e237cc75e4afb0552a6a19d3ab2f387ae963d68403ebb5c4df80b6842a3f16", "1.36.0--r43hdfd78af_0": "sha256:bbdfae293fd396e5a65424fe2e4608690bffa1594ced2980b51f03d27bb67ab1", "1.38.0--r43hdfd78af_1": "sha256:16686488f6c5f866251b1c4680ce2de3f5ab5e4af9626d3f18c0aa880d5ffcc2", "1.42.0--r44hdfd78af_0": "sha256:deb6114d11c2ba565bc4bb3d930c8b451fb9ee12160f4a4060ffc9eb5d7d3ecb"}, "docker": "quay.io/biocontainers/bioconductor-clomial"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clomial.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clomial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clomial:1.38.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-clomial:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clomial/1.38.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-clomial/1.38.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-clomial/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clomial/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
