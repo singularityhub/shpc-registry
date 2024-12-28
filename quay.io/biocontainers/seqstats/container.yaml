@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/seqstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqstats
 latest:
-  1.0.0--he4a0461_4: sha256:419a12b037e63e5b94a9a4c31602543c80bc21cf69351b69c3a93b57bb520208
+  1.0.0--h577a1d6_5: sha256:b9d89023a64262e7e2325680d139ff8e82403a288db8b91ff54d63b7619b35a9
 tags:
   1.0.0--h7132678_2: sha256:13154910066a24216e77d4a220bd67357903bf2d8ad164c177f5854f835cf9fe
   1.0.0--he4a0461_4: sha256:419a12b037e63e5b94a9a4c31602543c80bc21cf69351b69c3a93b57bb520208
+  1.0.0--h577a1d6_5: sha256:b9d89023a64262e7e2325680d139ff8e82403a288db8b91ff54d63b7619b35a9
 docker: quay.io/biocontainers/seqstats
 aliases:
   seqstats: /usr/local/bin/seqstats

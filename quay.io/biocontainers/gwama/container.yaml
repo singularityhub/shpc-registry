@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gwama
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gwama
 latest:
-  2.2.2--hdcf5f25_4: sha256:09f8629fb9ed99761a83c45bdfd0d2ecad62c7783532c239412f41aa4563b351
+  2.2.2--h077b44d_5: sha256:4cad712d4e45f2bcd0be7f5af2b67e8798aec665fc074d27e9bf57ac51a15631
 tags:
   2.2.2--hd03093a_2: sha256:15ee1d375ef88f4c186063c8cc69070bcfb3f81b91e87c83b296c6ae2bb1b0e4
   2.2.2--hdcf5f25_4: sha256:09f8629fb9ed99761a83c45bdfd0d2ecad62c7783532c239412f41aa4563b351
+  2.2.2--h077b44d_5: sha256:4cad712d4e45f2bcd0be7f5af2b67e8798aec665fc074d27e9bf57ac51a15631
 docker: quay.io/biocontainers/gwama
 aliases:
   GWAMA: /usr/local/bin/GWAMA

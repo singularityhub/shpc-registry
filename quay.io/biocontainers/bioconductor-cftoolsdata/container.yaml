@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cftoolsdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cftoolsdata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:8773f838fa33180bde6ccebcf9b77ab38e453648d2a8db712fe9a7ac211f9d75
+  1.4.0--r44hdfd78af_0: sha256:1184bf4c5517cd088a89ba0db4a34fabdb01872a7cc1f36c6dd69f164a2e8632
 tags:
   1.0.0--r43hdfd78af_0: sha256:8773f838fa33180bde6ccebcf9b77ab38e453648d2a8db712fe9a7ac211f9d75
+  1.4.0--r44hdfd78af_0: sha256:1184bf4c5517cd088a89ba0db4a34fabdb01872a7cc1f36c6dd69f164a2e8632
 docker: quay.io/biocontainers/bioconductor-cftoolsdata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

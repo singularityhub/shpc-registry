@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/metamdbg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metamdbg
 latest:
-  1.0--hdcf5f25_1: sha256:c9f94f7bb8506e0158cea9a90b0f2187ad5910567b47f5835c9ed1d1d33053d0
+  1.1--h077b44d_1: sha256:8eb2c28df9ed532e57831831aabf4ddaad44a97cb7075a63668fe0405c7fa305
 tags:
   0.3--hdcf5f25_0: sha256:9cc2e5a8ca690b4509490afd78b1420a62ce187e55c6c58f2d3f9441103ef748
   1.0--hdcf5f25_1: sha256:c9f94f7bb8506e0158cea9a90b0f2187ad5910567b47f5835c9ed1d1d33053d0
+  1.1--h077b44d_1: sha256:8eb2c28df9ed532e57831831aabf4ddaad44a97cb7075a63668fe0405c7fa305
+  1.0--h077b44d_2: sha256:1f2337f6b0453b5bd0ddc12d8a6b95677972fa37c8b215ddd731ca6147af8ddf
 docker: quay.io/biocontainers/metamdbg
 aliases:
   metaMDBG: /usr/local/bin/metaMDBG

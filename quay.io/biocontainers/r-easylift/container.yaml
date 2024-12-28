@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-easylift
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-easylift
 latest:
-  0.2.1--r43hdfd78af_0: sha256:3cd75fb78166f1cf7f8394f0ae19d0db8d40c1eb10dc99790e8b7591dda678dd
+  0.2.1--r44hdfd78af_1: sha256:dd1828454817b2e074fbce49ce78a3e476eacf7c78dcb9f80f9ea5917ddad46f
 tags:
   0.2.1--r43hdfd78af_0: sha256:3cd75fb78166f1cf7f8394f0ae19d0db8d40c1eb10dc99790e8b7591dda678dd
+  0.2.1--r44hdfd78af_1: sha256:dd1828454817b2e074fbce49ce78a3e476eacf7c78dcb9f80f9ea5917ddad46f
 docker: quay.io/biocontainers/r-easylift
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

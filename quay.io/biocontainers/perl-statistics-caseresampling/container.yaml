@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-statistics-caseresampling
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-statistics-caseresampling
 latest:
-  0.15--pl5321h031d066_4: sha256:00a9a3416b198a9d70599b370c1879045d8eea5ebdf4ecde8294b28f3f443cf7
+  0.15--pl5321h7b50bb2_5: sha256:e8a82fda188f54d94f982403b2b2667f09fab6498519ba08d7c6fdfe1edb3f2c
 tags:
   0.15--pl5321hec16e2b_2: sha256:ee5d83d66f85ae89b541ec987237039b735bcdcc88b65cb997c40cdbd90d1042
   0.15--pl5321h031d066_4: sha256:00a9a3416b198a9d70599b370c1879045d8eea5ebdf4ecde8294b28f3f443cf7
+  0.15--pl5321h7b50bb2_5: sha256:e8a82fda188f54d94f982403b2b2667f09fab6498519ba08d7c6fdfe1edb3f2c
 docker: quay.io/biocontainers/perl-statistics-caseresampling
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

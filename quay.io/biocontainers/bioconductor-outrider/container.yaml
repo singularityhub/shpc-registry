@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-outrider
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-outrider
 latest:
-  1.20.1--r43hf17093f_0: sha256:b6ee3c11fa7325bce06c29c297a6ee173a00ceafaeaa7a4d41f3bd18d3f180bd
+  1.24.0--r44he5774e6_0: sha256:5444b1cf692381cc5feaa4fdb8b09739a17085e6c4db99c73009682de908b98f
 tags:
   1.8.0--r40h399db7b_1: sha256:649ebc8f3b5e92668a5500a95876a5b16e47a9d665f4df7234f79280c98380fc
   1.16.0--r42hc247a5b_0: sha256:fe98bcc5033b3c17b9bae8db1d4511302409811c39b199af99033d717ae640f5
@@ -12,6 +12,7 @@ tags:
   1.18.1--r43hf17093f_0: sha256:63eeb0f963bf8fea1cbba858fc3919d30d5f94181fbcacfbfdbecfc24342a582
   1.20.0--r43hf17093f_0: sha256:1d7ac2a18ea3c316193082d3781f8f2c29cccef53452187d1ff7204018a28780
   1.20.1--r43hf17093f_0: sha256:b6ee3c11fa7325bce06c29c297a6ee173a00ceafaeaa7a4d41f3bd18d3f180bd
+  1.24.0--r44he5774e6_0: sha256:5444b1cf692381cc5feaa4fdb8b09739a17085e6c4db99c73009682de908b98f
 docker: quay.io/biocontainers/bioconductor-outrider
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

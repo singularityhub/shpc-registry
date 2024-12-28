@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-consica
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-consica
 latest:
-  2.0.0--r43hdfd78af_0: sha256:08cf337985a3f2ed656612f3e7823aa25294eb61c3dd07d7b369fe971f03433a
+  2.4.0--r44hdfd78af_0: sha256:0e7a0aebd22bb94c119a4465b96018dfb3d2559acc5a6581fd683a143f159aa0
 tags:
   1.0.0--r42hdfd78af_0: sha256:af54f4dfdbd0d05d6be7d0f0b41d55a514db3c3d8b085c5f195873c7720c58bc
   1.2.0--r43hdfd78af_0: sha256:59a64e344166bf5a74ab16ee8746b51312b7cb3ad8206d1b204db90ddbd98ab3
   2.0.0--r43hdfd78af_0: sha256:08cf337985a3f2ed656612f3e7823aa25294eb61c3dd07d7b369fe971f03433a
+  2.4.0--r44hdfd78af_0: sha256:0e7a0aebd22bb94c119a4465b96018dfb3d2559acc5a6581fd683a143f159aa0
 docker: quay.io/biocontainers/bioconductor-consica
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

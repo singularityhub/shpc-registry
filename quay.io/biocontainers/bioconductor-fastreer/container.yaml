@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-fastreer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-fastreer
 latest:
-  1.6.0--r43hdfd78af_0: sha256:000f73da0baaa9b7ab48ef623cc1992636189cedc578be2cf4708c5601cbd83d
+  1.10.0--r44hdfd78af_0: sha256:c7c700ff43e0a9aeef12ffcf3b886536160aae8ca9d509d03ac9114f1d180473
 tags:
   1.2.0--r42hdfd78af_0: sha256:8072262b1e91e0a75ce3b5ff5279c1651d84417fb9bd571008f9bd12a4e8f5b9
   1.4.0--r43hdfd78af_0: sha256:a3d4e3d90d0b99f34ca617c5f6d99d4d710d4fae9b82324f7f2d85f7a8471f5c
   1.6.0--r43hdfd78af_0: sha256:000f73da0baaa9b7ab48ef623cc1992636189cedc578be2cf4708c5601cbd83d
+  1.10.0--r44hdfd78af_0: sha256:c7c700ff43e0a9aeef12ffcf3b886536160aae8ca9d509d03ac9114f1d180473
 docker: quay.io/biocontainers/bioconductor-fastreer
 aliases:
   jpackage: /usr/local/bin/jpackage

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/zerone
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zerone
 latest:
-  1.0--he4a0461_6: sha256:58e6efb5c3e14466d9ff20db153fd948cc619332252d92ea95f8f97e8d1f0fe2
+  1.0--h577a1d6_7: sha256:8cb6173b48a4cff17addedc7c7cb418a846ac39992a5bba970cf1b38b4294cd4
 tags:
   1.0--h7132678_4: sha256:bf6485873c9659356c16f57d9c641534e6916e77b3d7a58089346a747f3fd72a
   1.0--he4a0461_6: sha256:58e6efb5c3e14466d9ff20db153fd948cc619332252d92ea95f8f97e8d1f0fe2
+  1.0--h577a1d6_7: sha256:8cb6173b48a4cff17addedc7c7cb418a846ac39992a5bba970cf1b38b4294cd4
 docker: quay.io/biocontainers/zerone
 aliases:
   zerone: /usr/local/bin/zerone

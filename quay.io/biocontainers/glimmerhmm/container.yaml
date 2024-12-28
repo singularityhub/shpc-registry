@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/glimmerhmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for glimmerhmm
 latest:
-  3.0.4--pl5321hdbdd923_8: sha256:c3dd7ed64c7ca437dd1847ae0a36d598a62f1317eee2a3e61ce9bfe24028db27
+  3.0.4--pl5321h503566f_9: sha256:7bccd1f4c9b6a7a1afc65bf10f2c3ee1cf2e132cde3031b252fea2dbed979406
 tags:
   3.0.4--pl5321h87f3376_5: sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281
   3.0.4--pl5321hdbdd923_7: sha256:fe4682a91e09f6c74befa2873fde98d780561921acd14306bfdbbed5c52ccee6
   3.0.4--pl5321hdbdd923_8: sha256:c3dd7ed64c7ca437dd1847ae0a36d598a62f1317eee2a3e61ce9bfe24028db27
+  3.0.4--pl5321h503566f_9: sha256:7bccd1f4c9b6a7a1afc65bf10f2c3ee1cf2e132cde3031b252fea2dbed979406
 docker: quay.io/biocontainers/glimmerhmm
 aliases:
   glimmerhmm: /usr/local/bin/glimmerhmm

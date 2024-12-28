@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-matter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-matter
 latest:
-  2.4.0--r43hf17093f_0: sha256:b76f1ea91734e6cf6b4fd1d64b758292527f7253bd23d0c3db9094fcb9d126e0
+  2.8.0--r44he5774e6_0: sha256:6491ab6c23488ead78211c3267a41796fc57893adf5050260b2691bad729e2c2
 tags:
   1.8.3--r351hf484d3e_0: sha256:20a34c35fae8ae2c232c7fd9ac16a459d848e8a38d5362d6176f359c3f14bb4e
   2.0.0--r42hc247a5b_0: sha256:2e8d8dc2a8d6a81784b226aafc8b4411d7e707f8e6f1061979df01c4f50034dc
@@ -13,6 +13,7 @@ tags:
   2.0.0--r42hf17093f_1: sha256:71bf7ad83798095b20a2324ac342eddb5d876b3477e452a6cdcbccf5015a42ac
   2.2.0--r43hf17093f_0: sha256:7c261beee64a3aac5a7712d3d587bf98540ce8924580dbe0a762e19403a38665
   2.4.0--r43hf17093f_0: sha256:b76f1ea91734e6cf6b4fd1d64b758292527f7253bd23d0c3db9094fcb9d126e0
+  2.8.0--r44he5774e6_0: sha256:6491ab6c23488ead78211c3267a41796fc57893adf5050260b2691bad729e2c2
 docker: quay.io/biocontainers/bioconductor-matter
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

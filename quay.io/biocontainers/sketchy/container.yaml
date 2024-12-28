@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sketchy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sketchy
 latest:
-  0.6.0--h031d066_2: sha256:e7605987cec317c7421407bf321f2425152fb050d06f409fadff83923906fbbf
+  0.6.0--h7b50bb2_3: sha256:fbcd8c564875958984eeb0b027a51b17f906ed8c770b962cd489b1e4245f4910
 tags:
   0.6.0--hec16e2b_0: sha256:12541264d0ee2ca34315d9b675dee49a35ef3c74306fac2f4d78c28349d959e8
   0.6.0--h031d066_2: sha256:e7605987cec317c7421407bf321f2425152fb050d06f409fadff83923906fbbf
+  0.6.0--h7b50bb2_3: sha256:fbcd8c564875958984eeb0b027a51b17f906ed8c770b962cd489b1e4245f4910
 docker: quay.io/biocontainers/sketchy
 aliases:
   sketchy: /usr/local/bin/sketchy

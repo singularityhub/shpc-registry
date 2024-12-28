@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/gmtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gmtk
 latest:
-  1.4.4--h1b96c6b_15: sha256:608e62dddd5914940364bf8c94236e16a133b948d7a815a35fa8332ca0743876
+  1.4.4--h4c2f4bb_16: sha256:0e0a59e714b5a1bc81b5273299e58241247b6b0ee95ac53c4e7853b7c9e07c3d
 tags:
   1.4.4--h0326b38_9: sha256:c0e74d5fe9113bb4d6cd7ad25d09b8d1829932683064f3435a6e99a9659c0efb
   1.4.4--h0326b38_12: sha256:7f7538fc809b32ed5fea1b570cfd163e2016bb0753b84a8995c5df62572aa705
   1.4.4--hd959fe9_13: sha256:6ab5ccd320fc5885e35958fb432b3ab087524f5ccb2d8e2e1db2c5fd07e57039
   1.4.4--hd959fe9_14: sha256:c6dc561e6b0b5b6b5a12ecea2cfce06bc1fad6c22f07056755f9a93e599f907f
   1.4.4--h1b96c6b_15: sha256:608e62dddd5914940364bf8c94236e16a133b948d7a815a35fa8332ca0743876
+  1.4.4--h4c2f4bb_16: sha256:0e0a59e714b5a1bc81b5273299e58241247b6b0ee95ac53c4e7853b7c9e07c3d
 docker: quay.io/biocontainers/gmtk
 aliases:
   discrete-mi: /usr/local/bin/discrete-mi

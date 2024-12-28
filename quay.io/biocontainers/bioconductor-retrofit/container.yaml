@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-retrofit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-retrofit
 latest:
-  1.2.0--r43hf17093f_1: sha256:24f594f33a57727e25cffb3804c8dd80a4372853f8ac62f4520b0c11b0445e2d
+  1.6.0--r44he5774e6_0: sha256:c46125869d376de191de6c44f08033acd30bbad2fdbb8a412d1e2f00918a28e5
 tags:
   1.0.0--r43hf17093f_0: sha256:ecefbba1c0eede1ed254f70a133c2b49c74f2350dde81923ae950b0f0750e1cb
   1.2.0--r43hf17093f_1: sha256:24f594f33a57727e25cffb3804c8dd80a4372853f8ac62f4520b0c11b0445e2d
+  1.6.0--r44he5774e6_0: sha256:c46125869d376de191de6c44f08033acd30bbad2fdbb8a412d1e2f00918a28e5
 docker: quay.io/biocontainers/bioconductor-retrofit
 aliases:
   hb-info: /usr/local/bin/hb-info

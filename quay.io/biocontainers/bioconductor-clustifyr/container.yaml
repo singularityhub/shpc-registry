@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-clustifyr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clustifyr
 latest:
-  1.14.0--r43hdfd78af_0: sha256:5f8b3eea3f0b51eb2a0488f9d10e23cdd9ef1b70254968a8c6d229886fd13e5e
+  1.18.0--r44hdfd78af_0: sha256:d5ee1997c9e375670a0fc40c61c7e3ab0f417dc154bec9d7033beb29301d02c9
 tags:
   1.5.1--r41hdfd78af_0: sha256:d0a5d2f90b3ffdc4cfb419b08c3fe0a52946fb778299501e8adfc094153c3844
   1.10.0--r42hdfd78af_0: sha256:db97d1965aa2898ca7bf7ab9ea8d968067ddee4b5b0ffffb29bd96cc382cc866
   1.12.0--r43hdfd78af_0: sha256:50a6cc3c715912cd20c9e7e55fbca4de92acddb7abac9d02f71d91093629e682
   1.14.0--r43hdfd78af_0: sha256:5f8b3eea3f0b51eb2a0488f9d10e23cdd9ef1b70254968a8c6d229886fd13e5e
+  1.18.0--r44hdfd78af_0: sha256:d5ee1997c9e375670a0fc40c61c7e3ab0f417dc154bec9d7033beb29301d02c9
 docker: quay.io/biocontainers/bioconductor-clustifyr

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-agilp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-agilp
 latest:
-  3.34.0--r43hdfd78af_0: sha256:84a1358aaffba24da9135ea24caacdaea706101952f13b18dbc75a9f4f06ae22
+  3.38.0--r44hdfd78af_0: sha256:a8d30dc5ce7e1238511e5dd6c9ff08b9445fe3b4a53929184d6108640b53bbd5
 tags:
   3.8.0--r3.4.1_0: sha256:8ae45624f9b63a952aeeca2a962f1e1f3400e1757f0e417126d85d6bf9ece431
   3.30.0--r42hdfd78af_0: sha256:8bac8634d3d7b43a8a1b897c1602f0d856b0fb0c01d80622bdbb5e667777bcd7
@@ -12,6 +12,7 @@ tags:
   3.20.0--r40_0: sha256:0aeb25c42ecac5d903c9707b4ef773d505bb584a027ebe25adb56f390aa445e2
   3.32.0--r43hdfd78af_0: sha256:e129821ef37e7d85c5deb6d6edc5facb4043dae8f05a4ef3e773bc2ff2006967
   3.34.0--r43hdfd78af_0: sha256:84a1358aaffba24da9135ea24caacdaea706101952f13b18dbc75a9f4f06ae22
+  3.38.0--r44hdfd78af_0: sha256:a8d30dc5ce7e1238511e5dd6c9ff08b9445fe3b4a53929184d6108640b53bbd5
 docker: quay.io/biocontainers/bioconductor-agilp
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

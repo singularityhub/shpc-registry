@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-dorothea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dorothea
 latest:
-  1.14.0--r43hdfd78af_0: sha256:b331cf7a529352f8286adfa85ffbd9e234dca5f71a0d33ae48fc0688704fc749
+  1.18.0--r44hdfd78af_0: sha256:d944ee65bd27437316bda0ddd2c3069096d41a26564cc2c64659931949e3ec1e
 tags:
   1.6.0--r41hdfd78af_1: sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1
   1.10.0--r42hdfd78af_0: sha256:91908a4283ed88e49752c5c95d0556248761e1250b16b02e23a46e28d3f3adcb
   1.12.0--r43hdfd78af_0: sha256:9a6c8b77a60be2254a830e40820a424d6069a49538578c36378d51d6b11bbf03
   1.14.0--r43hdfd78af_0: sha256:b331cf7a529352f8286adfa85ffbd9e234dca5f71a0d33ae48fc0688704fc749
+  1.18.0--r44hdfd78af_0: sha256:d944ee65bd27437316bda0ddd2c3069096d41a26564cc2c64659931949e3ec1e
 docker: quay.io/biocontainers/bioconductor-dorothea

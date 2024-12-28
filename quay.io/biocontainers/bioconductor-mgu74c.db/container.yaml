@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-mgu74c.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mgu74c.db
 latest:
-  3.13.0--r43hdfd78af_4: sha256:0d758ba96dd48e69384beadd2f2e04c6a6bdcfbeda0b416e5894dbad65a2987a
+  3.13.0--r44hdfd78af_5: sha256:38fb4536ec4ab84632e86654162bd9daa484812531b0c3a1ed0aa6f98d3b91bb
 tags:
   3.2.3--r41hdfd78af_7: sha256:44cc5a6996889dc5b8f7fc11f937adb6092a808a8d6b7613eaa5017560e2d037
   3.13.0--r42hdfd78af_2: sha256:89c27e4c51f4815599ccb7cd6612806e95a6dd28141d326cc7b7bee7141900c1
   3.13.0--r43hdfd78af_3: sha256:b57c03a9b5cc5c9dd59017d3b7ea992198ea27706b43aedf7d15952ea4861351
   3.13.0--r43hdfd78af_4: sha256:0d758ba96dd48e69384beadd2f2e04c6a6bdcfbeda0b416e5894dbad65a2987a
+  3.13.0--r44hdfd78af_5: sha256:38fb4536ec4ab84632e86654162bd9daa484812531b0c3a1ed0aa6f98d3b91bb
 docker: quay.io/biocontainers/bioconductor-mgu74c.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

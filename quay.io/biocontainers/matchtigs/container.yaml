@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/matchtigs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for matchtigs
 latest:
-  2.1.7--h715e4b3_1: sha256:7b7c20a4009d3486f0644b37175365f5071c93b5ceb7aecec8d177651472137a
+  2.1.7--hc1c3326_2: sha256:a279d347ccab2d5775c84288874073b98e244f00ef281f267197758ed7782021
 tags:
   1.2.0--hdfd78af_0: sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647
   1.5.3--hec16e2b_0: sha256:a473015e335da9771d76e5187185fa06dd76fc8ff14fa594dbf0cb7c3a3069df
@@ -10,6 +10,7 @@ tags:
   1.5.5--hec16e2b_0: sha256:c1eb21aec5191a05f2fb28d652f1277f192807c6069546567879dcd3367ffe18
   2.1.5--h031d066_0: sha256:389a81e545e041247c44adab0368e6f021e6c00f9d340fee9c9ec916e4c81eff
   2.1.7--h715e4b3_1: sha256:7b7c20a4009d3486f0644b37175365f5071c93b5ceb7aecec8d177651472137a
+  2.1.7--hc1c3326_2: sha256:a279d347ccab2d5775c84288874073b98e244f00ef281f267197758ed7782021
 docker: quay.io/biocontainers/matchtigs
 aliases:
   cargo: /usr/local/bin/cargo

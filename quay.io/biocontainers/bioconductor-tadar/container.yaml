@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tadar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tadar
 latest:
-  1.0.0--r43hdfd78af_0: sha256:5b6e987ae6bdc598d936cb3b0800b82c1e92f3399d49182e8b5d0ef23bba2d09
+  1.4.0--r44hdfd78af_0: sha256:44ea1c3d28e1788f871dd7743b1e85ea226176eecd3470c42275382dfb8e8e00
 tags:
   1.0.0--r43hdfd78af_0: sha256:5b6e987ae6bdc598d936cb3b0800b82c1e92f3399d49182e8b5d0ef23bba2d09
+  1.4.0--r44hdfd78af_0: sha256:44ea1c3d28e1788f871dd7743b1e85ea226176eecd3470c42275382dfb8e8e00
 docker: quay.io/biocontainers/bioconductor-tadar
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

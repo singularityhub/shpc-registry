@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mvicuna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mvicuna
 latest:
-  1.0--h4ac6f70_10: sha256:e00345c62ab115e0cef4180370aca07acc8b18acacc1386b8022df650786449b
+  1.0--h9948957_11: sha256:29ba72cc4ea217de6c86cbb8a28763be7b05920f99467d7f63dc079cbdb925ff
 tags:
   1.0--h9f5acd7_8: sha256:9ffed2da86568ec0049e4e4c5ed84a631251192aa3c849951fdfaa399e7dc744
   1.0--h4ac6f70_10: sha256:e00345c62ab115e0cef4180370aca07acc8b18acacc1386b8022df650786449b
+  1.0--h9948957_11: sha256:29ba72cc4ea217de6c86cbb8a28763be7b05920f99467d7f63dc079cbdb925ff
 docker: quay.io/biocontainers/mvicuna
 aliases:
   mvicuna: /usr/local/bin/mvicuna

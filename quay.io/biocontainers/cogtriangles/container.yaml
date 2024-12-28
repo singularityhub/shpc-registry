@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cogtriangles
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cogtriangles
 latest:
-  2012.04--h4ac6f70_2: sha256:f8085f47ce8b332340520c695ad1faf5113d2655d6cc9526244d672504139770
+  2012.04--h9948957_3: sha256:9c261b22cd5a72bc6a1de716da12db30d53d7e18f1cb1232bfe89f5614e27821
 tags:
   2012.04--h9f5acd7_0: sha256:5866743f34c05d57a7f1d3f3b9192d655a9ed3484be33c9a5613b10eea15f0c6
   2012.04--h4ac6f70_2: sha256:f8085f47ce8b332340520c695ad1faf5113d2655d6cc9526244d672504139770
+  2012.04--h9948957_3: sha256:9c261b22cd5a72bc6a1de716da12db30d53d7e18f1cb1232bfe89f5614e27821
 docker: quay.io/biocontainers/cogtriangles
 aliases:
   COGcognitor: /usr/local/bin/COGcognitor

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mirnameconverter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirnameconverter
 latest:
-  1.30.0--r43hdfd78af_0: sha256:1ef4fe31a7638331e52fd4464e969bdcc25f3d8bc0a93096554f6da17d6b60f9
+  1.34.0--r44hdfd78af_0: sha256:b3037a6ba4adee2d1cf82042b991f5b3878ac46d568822876f037f5c35eea989
 tags:
   1.8.0--r341_0: sha256:c7b8f79045cb73db947d10bc9ac503ebb5d7faff6407038679f2a76988841f1f
   1.26.0--r42hdfd78af_0: sha256:a5e6e1f07807caea248f4870134a01667f5aeb947d2edf647da83ed77e01929f
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:ff1f8c2dfa8d6307e3dbe1f6f57a271ebc489371a412188cd42c06cd5b11e564
   1.28.0--r43hdfd78af_0: sha256:389ca3ceb8499323948849ea93d8351d1381a1501c94f22ff46c524f966b4c0d
   1.30.0--r43hdfd78af_0: sha256:1ef4fe31a7638331e52fd4464e969bdcc25f3d8bc0a93096554f6da17d6b60f9
+  1.34.0--r44hdfd78af_0: sha256:b3037a6ba4adee2d1cf82042b991f5b3878ac46d568822876f037f5c35eea989
 docker: quay.io/biocontainers/bioconductor-mirnameconverter
 aliases:
   wget: /usr/local/bin/wget

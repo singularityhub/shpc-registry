@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gsca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsca
 latest:
-  2.32.0--r43hdfd78af_0: sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6
+  2.36.0--r44hdfd78af_0: sha256:72724154809f8dc3b47e60f93135d4fb2d4e27573746de53d49df1f0689e11c6
 tags:
   2.8.0--r3.4.1_0: sha256:3241633470508940f6ff12beac106131ecd5344b7e2c0c0a2d5caed8b91cffdb
   2.28.0--r42hdfd78af_0: sha256:c896a57c2d94555c1cc1fd45102da36721f34a046e4146b05bc63e3c695c2c6e
@@ -12,6 +12,7 @@ tags:
   2.17.0--r40_0: sha256:1480cd3d8cae4e018b7fc1a1bc8369cad5fe64a10ed70bbca15f86b04a1c2866
   2.30.0--r43hdfd78af_0: sha256:269ead0a8883faecaefd17fbfc90a5ca620ba66a98d9a4bccc559b5841a6ab7b
   2.32.0--r43hdfd78af_0: sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6
+  2.36.0--r44hdfd78af_0: sha256:72724154809f8dc3b47e60f93135d4fb2d4e27573746de53d49df1f0689e11c6
 docker: quay.io/biocontainers/bioconductor-gsca
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

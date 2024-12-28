@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-massarray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-massarray
 latest:
-  1.54.0--r43hdfd78af_1: sha256:0ffe5dc4ccc5cc0f1c52f8aa4dde1472eb2d1d22717579a93f0a618e968052f5
+  1.58.0--r44hdfd78af_0: sha256:5517c6da9ed6b22f0125aa1185c3f2b6ddb8dab5b7f23009d2fa24a257166366
 tags:
   1.46.0--r41hdfd78af_0: sha256:20747a2d7aa4032e5f51aca8c6175dd512c47be519ad0dc35c06984535ab443b
   1.50.0--r42hdfd78af_0: sha256:34145b3900f59b939f65e395176430414939e89fa064be23eee2e1eb21adf60d
   1.52.0--r43hdfd78af_0: sha256:cb77379dd24d78206d1db21f42c1bc61525fdc1c4453758f4ebad8b8dba93711
   1.54.0--r43hdfd78af_1: sha256:0ffe5dc4ccc5cc0f1c52f8aa4dde1472eb2d1d22717579a93f0a618e968052f5
+  1.58.0--r44hdfd78af_0: sha256:5517c6da9ed6b22f0125aa1185c3f2b6ddb8dab5b7f23009d2fa24a257166366
 docker: quay.io/biocontainers/bioconductor-massarray
