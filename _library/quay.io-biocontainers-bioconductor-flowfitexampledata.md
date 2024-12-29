@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowfitexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowfitexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowfitexampledata/container.yaml"
-updated_at: "2024-12-28 03:29:07.734272"
+updated_at: "2024-12-29 03:39:43.177496"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowfitexampledata"
 aliases:

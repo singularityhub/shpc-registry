@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-retrofit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-retrofit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-retrofit/container.yaml"
-updated_at: "2024-12-28 03:02:09.236702"
-latest: "1.2.0--r43hf17093f_1"
+updated_at: "2024-12-29 03:13:00.615805"
+latest: "1.6.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-retrofit"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.0--r43hf17093f_0"
  - "1.2.0--r43hf17093f_1"
+ - "1.6.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-retrofit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-retrofit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-retrofit", "latest": {"1.2.0--r43hf17093f_1": "sha256:24f594f33a57727e25cffb3804c8dd80a4372853f8ac62f4520b0c11b0445e2d"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:ecefbba1c0eede1ed254f70a133c2b49c74f2350dde81923ae950b0f0750e1cb", "1.2.0--r43hf17093f_1": "sha256:24f594f33a57727e25cffb3804c8dd80a4372853f8ac62f4520b0c11b0445e2d"}, "docker": "quay.io/biocontainers/bioconductor-retrofit", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-retrofit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-retrofit", "latest": {"1.6.0--r44he5774e6_0": "sha256:c46125869d376de191de6c44f08033acd30bbad2fdbb8a412d1e2f00918a28e5"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:ecefbba1c0eede1ed254f70a133c2b49c74f2350dde81923ae950b0f0750e1cb", "1.2.0--r43hf17093f_1": "sha256:24f594f33a57727e25cffb3804c8dd80a4372853f8ac62f4520b0c11b0445e2d", "1.6.0--r44he5774e6_0": "sha256:c46125869d376de191de6c44f08033acd30bbad2fdbb8a412d1e2f00918a28e5"}, "docker": "quay.io/biocontainers/bioconductor-retrofit", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-retrofit.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-retrofit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-retrofit:1.2.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-retrofit:1.6.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-retrofit/1.2.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-retrofit/1.2.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-retrofit/1.6.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-retrofit/1.6.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

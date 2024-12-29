@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-opweight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opweight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opweight/container.yaml"
-updated_at: "2024-12-28 03:30:01.617907"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:40:35.920809"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-opweight"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-opweight"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-opweight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opweight", "latest": {"1.24.0--r43hdfd78af_0": "sha256:bb69d56852e9e433d58983b0df1328a27268a4f17d0e408d171e6556bb3aabfc"}, "tags": {"1.8.0--r36_0": "sha256:9351fe1a1b9f3811fc1bb649f7898453e1757d895e49215a3f003dea068ac576", "1.20.0--r42hdfd78af_0": "sha256:35f4a9fb610c1e725ee35db5c8a18ec50e377328281c33b30a0563b4d7ee94f5", "1.16.0--r41hdfd78af_0": "sha256:4a94202e734e80618a38ccafac75d3f1eaddc7c1075ff244a0a657e2ee354cf1", "1.14.0--r41hdfd78af_0": "sha256:1711ec7dfe809f06ae4bb2aebf5ada976504de0c2054914dc4894391d6866d46", "1.12.0--r40hdfd78af_1": "sha256:414a99cc9c9e289cac6eb0e637e0bb1d5b3c1d08a82530ab72297e55d388eb14", "1.10.0--r40_0": "sha256:0b3b9b915b1c1a88a4255019541e43a15e553f1f4191aa23bbfab3267aa5e8da", "1.22.0--r43hdfd78af_0": "sha256:464d1066020bfa99708f2f5f45323684f870cc0a40906b898f4a90b9671fe6f1", "1.24.0--r43hdfd78af_0": "sha256:bb69d56852e9e433d58983b0df1328a27268a4f17d0e408d171e6556bb3aabfc"}, "docker": "quay.io/biocontainers/bioconductor-opweight", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-opweight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opweight", "latest": {"1.28.0--r44hdfd78af_0": "sha256:f7bcd75412d1d3d5fa58a7017d455639b29ac120d6153f78dc7db05cee0bdbc0"}, "tags": {"1.8.0--r36_0": "sha256:9351fe1a1b9f3811fc1bb649f7898453e1757d895e49215a3f003dea068ac576", "1.20.0--r42hdfd78af_0": "sha256:35f4a9fb610c1e725ee35db5c8a18ec50e377328281c33b30a0563b4d7ee94f5", "1.16.0--r41hdfd78af_0": "sha256:4a94202e734e80618a38ccafac75d3f1eaddc7c1075ff244a0a657e2ee354cf1", "1.14.0--r41hdfd78af_0": "sha256:1711ec7dfe809f06ae4bb2aebf5ada976504de0c2054914dc4894391d6866d46", "1.12.0--r40hdfd78af_1": "sha256:414a99cc9c9e289cac6eb0e637e0bb1d5b3c1d08a82530ab72297e55d388eb14", "1.10.0--r40_0": "sha256:0b3b9b915b1c1a88a4255019541e43a15e553f1f4191aa23bbfab3267aa5e8da", "1.22.0--r43hdfd78af_0": "sha256:464d1066020bfa99708f2f5f45323684f870cc0a40906b898f4a90b9671fe6f1", "1.24.0--r43hdfd78af_0": "sha256:bb69d56852e9e433d58983b0df1328a27268a4f17d0e408d171e6556bb3aabfc", "1.28.0--r44hdfd78af_0": "sha256:f7bcd75412d1d3d5fa58a7017d455639b29ac120d6153f78dc7db05cee0bdbc0"}, "docker": "quay.io/biocontainers/bioconductor-opweight", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-opweight.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-opweight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-opweight:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-opweight:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-opweight/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-opweight/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-opweight/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-opweight/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

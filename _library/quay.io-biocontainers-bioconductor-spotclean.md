@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spotclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spotclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spotclean/container.yaml"
-updated_at: "2024-12-28 02:49:11.988130"
-latest: "1.4.1--r43hdfd78af_0"
+updated_at: "2024-12-29 03:00:15.208595"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spotclean"
 aliases:
  - "geosop"
@@ -37,8 +37,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.1--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spotclean"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spotclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spotclean", "latest": {"1.4.1--r43hdfd78af_0": "sha256:3afb997bf5766a0f6c6b626b7a9a2dea62abddb3c06087b65413b8aeea5d70c7"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:d180ee23cfad25f102f5051d47273df524c60bd1a30a797d993e2a6cef04e5ee", "1.2.0--r43hdfd78af_0": "sha256:4faffa9856121ecd0338b9504766dbdd7695909ce82da27ce2c4e5bc407d8aa8", "1.4.1--r43hdfd78af_0": "sha256:3afb997bf5766a0f6c6b626b7a9a2dea62abddb3c06087b65413b8aeea5d70c7"}, "docker": "quay.io/biocontainers/bioconductor-spotclean", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spotclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spotclean", "latest": {"1.8.0--r44hdfd78af_0": "sha256:27d4c398023805f5551619a51bea90686602ce7495c259ce885f23cac50989ea"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:d180ee23cfad25f102f5051d47273df524c60bd1a30a797d993e2a6cef04e5ee", "1.2.0--r43hdfd78af_0": "sha256:4faffa9856121ecd0338b9504766dbdd7695909ce82da27ce2c4e5bc407d8aa8", "1.4.1--r43hdfd78af_0": "sha256:3afb997bf5766a0f6c6b626b7a9a2dea62abddb3c06087b65413b8aeea5d70c7", "1.8.0--r44hdfd78af_0": "sha256:27d4c398023805f5551619a51bea90686602ce7495c259ce885f23cac50989ea"}, "docker": "quay.io/biocontainers/bioconductor-spotclean", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spotclean.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spotclean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spotclean:1.4.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spotclean:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spotclean/1.4.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spotclean/1.4.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spotclean/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spotclean/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strobemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strobemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strobemap/container.yaml"
-updated_at: "2024-12-28 02:55:56.921578"
-latest: "0.0.2--hdcf5f25_3"
+updated_at: "2024-12-29 03:06:54.941579"
+latest: "0.0.2--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/strobemap"
 aliases:
  - "StrobeMap"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.0.2--hd03093a_1"
  - "0.0.2--hdcf5f25_3"
+ - "0.0.2--h077b44d_4"
 description: "shpc-registry automated BioContainers addition for strobemap"
-config: {"url": "https://biocontainers.pro/tools/strobemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strobemap", "latest": {"0.0.2--hdcf5f25_3": "sha256:df6f72e76cea0f58fd03c17cdf441d026b582b0e250697674ac061a2795b8ba1"}, "tags": {"0.0.2--hd03093a_1": "sha256:7eaf99a234386aa26f04a51d2ca660907c4eec60834917c4a15734cb838eb78a", "0.0.2--hdcf5f25_3": "sha256:df6f72e76cea0f58fd03c17cdf441d026b582b0e250697674ac061a2795b8ba1"}, "docker": "quay.io/biocontainers/strobemap", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/strobemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strobemap", "latest": {"0.0.2--h077b44d_4": "sha256:dd41ee6dcf3b8a82a6f8ab1bcc003dd8c7f69c3b3c43669438843e72236bb814"}, "tags": {"0.0.2--hd03093a_1": "sha256:7eaf99a234386aa26f04a51d2ca660907c4eec60834917c4a15734cb838eb78a", "0.0.2--hdcf5f25_3": "sha256:df6f72e76cea0f58fd03c17cdf441d026b582b0e250697674ac061a2795b8ba1", "0.0.2--h077b44d_4": "sha256:dd41ee6dcf3b8a82a6f8ab1bcc003dd8c7f69c3b3c43669438843e72236bb814"}, "docker": "quay.io/biocontainers/strobemap", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strobemap.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/strobemap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strobemap:0.0.2--hdcf5f25_3
+$ shpc install quay.io/biocontainers/strobemap:0.0.2--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strobemap/0.0.2--hdcf5f25_3
-$ module help quay.io/biocontainers/strobemap/0.0.2--hdcf5f25_3
+$ module load quay.io/biocontainers/strobemap/0.0.2--h077b44d_4
+$ module help quay.io/biocontainers/strobemap/0.0.2--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

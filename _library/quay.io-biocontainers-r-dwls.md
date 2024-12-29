@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dwls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dwls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dwls/container.yaml"
-updated_at: "2024-12-28 03:26:01.806490"
-latest: "1.0--r43hdfd78af_4"
+updated_at: "2024-12-29 03:36:40.329629"
+latest: "1.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-dwls"
 aliases:
  - "geosop"
@@ -15,8 +15,9 @@ versions:
  - "1.0--r41hdfd78af_2"
  - "1.0--r42hdfd78af_3"
  - "1.0--r43hdfd78af_4"
+ - "1.0--r44hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-dwls"
-config: {"url": "https://biocontainers.pro/tools/r-dwls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dwls", "latest": {"1.0--r43hdfd78af_4": "sha256:0746b97426dbbbcb19bafe75ffddc748ee88e30dc3a4f364223e5325976ddef8"}, "tags": {"1.0--r41hdfd78af_2": "sha256:b62baa2490dbdb8487f90c2e730aaea8252f76ad183e8e3379381a3c1b6d720c", "1.0--r42hdfd78af_3": "sha256:f752833545af82404231147f9719c2594954e0f2c607913cec711fdf9273dbbc", "1.0--r43hdfd78af_4": "sha256:0746b97426dbbbcb19bafe75ffddc748ee88e30dc3a4f364223e5325976ddef8"}, "docker": "quay.io/biocontainers/r-dwls", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-dwls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dwls", "latest": {"1.0--r44hdfd78af_5": "sha256:4fcfaba4734a44ba888a09b9239761536c016925945f913e8c2907aaace3496a"}, "tags": {"1.0--r41hdfd78af_2": "sha256:b62baa2490dbdb8487f90c2e730aaea8252f76ad183e8e3379381a3c1b6d720c", "1.0--r42hdfd78af_3": "sha256:f752833545af82404231147f9719c2594954e0f2c607913cec711fdf9273dbbc", "1.0--r43hdfd78af_4": "sha256:0746b97426dbbbcb19bafe75ffddc748ee88e30dc3a4f364223e5325976ddef8", "1.0--r44hdfd78af_5": "sha256:4fcfaba4734a44ba888a09b9239761536c016925945f913e8c2907aaace3496a"}, "docker": "quay.io/biocontainers/r-dwls", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dwls.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-dwls
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dwls:1.0--r43hdfd78af_4
+$ shpc install quay.io/biocontainers/r-dwls:1.0--r44hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dwls/1.0--r43hdfd78af_4
-$ module help quay.io/biocontainers/r-dwls/1.0--r43hdfd78af_4
+$ module load quay.io/biocontainers/r-dwls/1.0--r44hdfd78af_5
+$ module help quay.io/biocontainers/r-dwls/1.0--r44hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/verifybamid2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifybamid2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifybamid2/container.yaml"
-updated_at: "2024-12-28 03:08:09.557376"
-latest: "2.0.1--h787ab5b_11"
+updated_at: "2024-12-29 03:18:54.978904"
+latest: "2.0.1--h345183b_12"
 container_url: "https://biocontainers.pro/tools/verifybamid2"
 aliases:
  - "verifybamid2"
@@ -17,8 +17,9 @@ versions:
  - "2.0.1--h6a62bbb_9"
  - "2.0.1--h81e4b3e_10"
  - "2.0.1--h787ab5b_11"
+ - "2.0.1--h345183b_12"
 description: "shpc-registry automated BioContainers addition for verifybamid2"
-config: {"url": "https://biocontainers.pro/tools/verifybamid2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid2", "latest": {"2.0.1--h787ab5b_11": "sha256:4d0c26d4c4cc9b7e1aaf14c12a8058e550b6659b9fd8c83356134df1f2338d3a"}, "tags": {"2.0.1--h19d48f6_8": "sha256:66df5df3fa382b9891bf9426e6d6ec2783b2c01e1a0df333910d2e518ca38083", "2.0.1--h6a62bbb_9": "sha256:f46ce7c1924dd85decb0447cdbbfdedb1e83e6d93382f850eefa9bb8fd1b43d5", "2.0.1--h81e4b3e_10": "sha256:7f0e71d417ab331e5f2378062b3db5b8a47334e0a8f4d46e7d608dbb488ac6b0", "2.0.1--h787ab5b_11": "sha256:4d0c26d4c4cc9b7e1aaf14c12a8058e550b6659b9fd8c83356134df1f2338d3a"}, "docker": "quay.io/biocontainers/verifybamid2", "aliases": {"verifybamid2": "/usr/local/bin/verifybamid2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/verifybamid2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid2", "latest": {"2.0.1--h345183b_12": "sha256:f76cea4cdb05438667c25f3ff054c35536be4109789708c50d5bd9163347db6d"}, "tags": {"2.0.1--h19d48f6_8": "sha256:66df5df3fa382b9891bf9426e6d6ec2783b2c01e1a0df333910d2e518ca38083", "2.0.1--h6a62bbb_9": "sha256:f46ce7c1924dd85decb0447cdbbfdedb1e83e6d93382f850eefa9bb8fd1b43d5", "2.0.1--h81e4b3e_10": "sha256:7f0e71d417ab331e5f2378062b3db5b8a47334e0a8f4d46e7d608dbb488ac6b0", "2.0.1--h787ab5b_11": "sha256:4d0c26d4c4cc9b7e1aaf14c12a8058e550b6659b9fd8c83356134df1f2338d3a", "2.0.1--h345183b_12": "sha256:f76cea4cdb05438667c25f3ff054c35536be4109789708c50d5bd9163347db6d"}, "docker": "quay.io/biocontainers/verifybamid2", "aliases": {"verifybamid2": "/usr/local/bin/verifybamid2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verifybamid2.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/verifybamid2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verifybamid2:2.0.1--h787ab5b_11
+$ shpc install quay.io/biocontainers/verifybamid2:2.0.1--h345183b_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verifybamid2/2.0.1--h787ab5b_11
-$ module help quay.io/biocontainers/verifybamid2/2.0.1--h787ab5b_11
+$ module load quay.io/biocontainers/verifybamid2/2.0.1--h345183b_12
+$ module help quay.io/biocontainers/verifybamid2/2.0.1--h345183b_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

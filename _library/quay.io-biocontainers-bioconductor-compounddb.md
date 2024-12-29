@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-compounddb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compounddb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compounddb/container.yaml"
-updated_at: "2024-12-28 03:11:37.440237"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:22:19.390381"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compounddb"
 aliases:
  - "installBiocDataPackage.sh"
@@ -33,8 +33,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-compounddb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-compounddb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-compounddb", "latest": {"1.6.0--r43hdfd78af_0": "sha256:118574695a076b9be9a58fe5a215c2f2e7a77ebd5ec977cc8703a1420d6b37b1"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:969c55825893fcf6a6ab891762fb37496ac9e243e65658fd10a52aab95a86627", "1.4.0--r43hdfd78af_0": "sha256:da5b501448cf89758c5898b86d838143e087ae7841b4ff237e64cb3a8b52a04a", "1.6.0--r43hdfd78af_0": "sha256:118574695a076b9be9a58fe5a215c2f2e7a77ebd5ec977cc8703a1420d6b37b1"}, "docker": "quay.io/biocontainers/bioconductor-compounddb", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "rsvg-convert": "/usr/local/bin/rsvg-convert", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-compounddb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-compounddb", "latest": {"1.10.0--r44hdfd78af_0": "sha256:c3e3c7d136ca9218e891615d74280e45ec717ff210fc3f0fc465629e0d18c8ca"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:969c55825893fcf6a6ab891762fb37496ac9e243e65658fd10a52aab95a86627", "1.4.0--r43hdfd78af_0": "sha256:da5b501448cf89758c5898b86d838143e087ae7841b4ff237e64cb3a8b52a04a", "1.6.0--r43hdfd78af_0": "sha256:118574695a076b9be9a58fe5a215c2f2e7a77ebd5ec977cc8703a1420d6b37b1", "1.10.0--r44hdfd78af_0": "sha256:c3e3c7d136ca9218e891615d74280e45ec717ff210fc3f0fc465629e0d18c8ca"}, "docker": "quay.io/biocontainers/bioconductor-compounddb", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "rsvg-convert": "/usr/local/bin/rsvg-convert", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-compounddb.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/bioconductor-compounddb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-compounddb:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-compounddb:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-compounddb/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-compounddb/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-compounddb/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-compounddb/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

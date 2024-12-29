@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mvicuna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvicuna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvicuna/container.yaml"
-updated_at: "2024-12-28 03:10:02.740799"
-latest: "1.0--h4ac6f70_10"
+updated_at: "2024-12-29 03:20:46.558515"
+latest: "1.0--h9948957_11"
 container_url: "https://biocontainers.pro/tools/mvicuna"
 aliases:
  - "mvicuna"
 versions:
  - "1.0--h9f5acd7_8"
  - "1.0--h4ac6f70_10"
+ - "1.0--h9948957_11"
 description: "shpc-registry automated BioContainers addition for mvicuna"
-config: {"url": "https://biocontainers.pro/tools/mvicuna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mvicuna", "latest": {"1.0--h4ac6f70_10": "sha256:e00345c62ab115e0cef4180370aca07acc8b18acacc1386b8022df650786449b"}, "tags": {"1.0--h9f5acd7_8": "sha256:9ffed2da86568ec0049e4e4c5ed84a631251192aa3c849951fdfaa399e7dc744", "1.0--h4ac6f70_10": "sha256:e00345c62ab115e0cef4180370aca07acc8b18acacc1386b8022df650786449b"}, "docker": "quay.io/biocontainers/mvicuna", "aliases": {"mvicuna": "/usr/local/bin/mvicuna"}}
+config: {"url": "https://biocontainers.pro/tools/mvicuna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mvicuna", "latest": {"1.0--h9948957_11": "sha256:29ba72cc4ea217de6c86cbb8a28763be7b05920f99467d7f63dc079cbdb925ff"}, "tags": {"1.0--h9f5acd7_8": "sha256:9ffed2da86568ec0049e4e4c5ed84a631251192aa3c849951fdfaa399e7dc744", "1.0--h4ac6f70_10": "sha256:e00345c62ab115e0cef4180370aca07acc8b18acacc1386b8022df650786449b", "1.0--h9948957_11": "sha256:29ba72cc4ea217de6c86cbb8a28763be7b05920f99467d7f63dc079cbdb925ff"}, "docker": "quay.io/biocontainers/mvicuna", "aliases": {"mvicuna": "/usr/local/bin/mvicuna"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mvicuna.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mvicuna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mvicuna:1.0--h4ac6f70_10
+$ shpc install quay.io/biocontainers/mvicuna:1.0--h9948957_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mvicuna/1.0--h4ac6f70_10
-$ module help quay.io/biocontainers/mvicuna/1.0--h4ac6f70_10
+$ module load quay.io/biocontainers/mvicuna/1.0--h9948957_11
+$ module help quay.io/biocontainers/mvicuna/1.0--h9948957_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

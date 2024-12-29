@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-predasampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-predasampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-predasampledata/container.yaml"
-updated_at: "2024-12-28 03:02:09.817373"
-latest: "0.42.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:13:01.175498"
+latest: "0.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-predasampledata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.38.0--r42hdfd78af_0"
  - "0.40.0--r43hdfd78af_0"
  - "0.42.0--r43hdfd78af_0"
+ - "0.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-predasampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-predasampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-predasampledata", "latest": {"0.42.0--r43hdfd78af_0": "sha256:cbd1fcbcdf0e4c0a61f7a30ea30f54fcef51eb871031220cac87c205eedf71bf"}, "tags": {"0.34.0--r41hdfd78af_1": "sha256:2e1995bf7cfd99edbb719aa1d6cf3580f9729351110399851543e8d5a438e9f2", "0.38.0--r42hdfd78af_0": "sha256:01099e1b12af01f0cb55afcdc8899d25cbc8c77ec8e5592ecf9307ed03051dcd", "0.40.0--r43hdfd78af_0": "sha256:6f2d544b4f8d385b3418efa3dca9801dc681a85e3499ef588d3c25d4808c2fe7", "0.42.0--r43hdfd78af_0": "sha256:cbd1fcbcdf0e4c0a61f7a30ea30f54fcef51eb871031220cac87c205eedf71bf"}, "docker": "quay.io/biocontainers/bioconductor-predasampledata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-predasampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-predasampledata", "latest": {"0.46.0--r44hdfd78af_0": "sha256:611869fadebec5cc93fcb13f046950d9082d800e737001cc4d813159fdf66d55"}, "tags": {"0.34.0--r41hdfd78af_1": "sha256:2e1995bf7cfd99edbb719aa1d6cf3580f9729351110399851543e8d5a438e9f2", "0.38.0--r42hdfd78af_0": "sha256:01099e1b12af01f0cb55afcdc8899d25cbc8c77ec8e5592ecf9307ed03051dcd", "0.40.0--r43hdfd78af_0": "sha256:6f2d544b4f8d385b3418efa3dca9801dc681a85e3499ef588d3c25d4808c2fe7", "0.42.0--r43hdfd78af_0": "sha256:cbd1fcbcdf0e4c0a61f7a30ea30f54fcef51eb871031220cac87c205eedf71bf", "0.46.0--r44hdfd78af_0": "sha256:611869fadebec5cc93fcb13f046950d9082d800e737001cc4d813159fdf66d55"}, "docker": "quay.io/biocontainers/bioconductor-predasampledata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-predasampledata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-predasampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-predasampledata:0.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-predasampledata:0.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-predasampledata/0.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-predasampledata/0.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-predasampledata/0.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-predasampledata/0.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/satrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/satrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/satrap/container.yaml"
-updated_at: "2024-12-28 02:56:45.301571"
-latest: "0.2--h4ac6f70_6"
+updated_at: "2024-12-29 03:07:42.526574"
+latest: "0.2--h9948957_7"
 container_url: "https://biocontainers.pro/tools/satrap"
 aliases:
  - "2csfastq_1csfastq"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.2--h9f5acd7_4"
  - "0.2--h4ac6f70_6"
+ - "0.2--h9948957_7"
 description: "shpc-registry automated BioContainers addition for satrap"
-config: {"url": "https://biocontainers.pro/tools/satrap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for satrap", "latest": {"0.2--h4ac6f70_6": "sha256:c7253a080b55a2730a09d36eeb41a82ac888ef0562177006e4c265cf096d16e0"}, "tags": {"0.2--h9f5acd7_4": "sha256:7a8fedacbd66ec9ea029931f76ac926c95ae3b0168088daec30808fde0b8219e", "0.2--h4ac6f70_6": "sha256:c7253a080b55a2730a09d36eeb41a82ac888ef0562177006e4c265cf096d16e0"}, "docker": "quay.io/biocontainers/satrap", "aliases": {"2csfastq_1csfastq": "/usr/local/bin/2csfastq_1csfastq", "cs2bs_assembly": "/usr/local/bin/cs2bs_assembly", "csfasta_to_fastq": "/usr/local/bin/csfasta_to_fastq", "fasta_remove": "/usr/local/bin/fasta_remove", "pass": "/usr/local/bin/pass", "rename_fastq_tag": "/usr/local/bin/rename_fastq_tag", "satrap": "/usr/local/bin/satrap", "cd-hit-est": "/usr/local/bin/cd-hit-est"}}
+config: {"url": "https://biocontainers.pro/tools/satrap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for satrap", "latest": {"0.2--h9948957_7": "sha256:9a21894e672f6f8a680f87031e115d367a587c4e89fb6736561cf936ee974dc3"}, "tags": {"0.2--h9f5acd7_4": "sha256:7a8fedacbd66ec9ea029931f76ac926c95ae3b0168088daec30808fde0b8219e", "0.2--h4ac6f70_6": "sha256:c7253a080b55a2730a09d36eeb41a82ac888ef0562177006e4c265cf096d16e0", "0.2--h9948957_7": "sha256:9a21894e672f6f8a680f87031e115d367a587c4e89fb6736561cf936ee974dc3"}, "docker": "quay.io/biocontainers/satrap", "aliases": {"2csfastq_1csfastq": "/usr/local/bin/2csfastq_1csfastq", "cs2bs_assembly": "/usr/local/bin/cs2bs_assembly", "csfasta_to_fastq": "/usr/local/bin/csfasta_to_fastq", "fasta_remove": "/usr/local/bin/fasta_remove", "pass": "/usr/local/bin/pass", "rename_fastq_tag": "/usr/local/bin/rename_fastq_tag", "satrap": "/usr/local/bin/satrap", "cd-hit-est": "/usr/local/bin/cd-hit-est"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/satrap.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/satrap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/satrap:0.2--h4ac6f70_6
+$ shpc install quay.io/biocontainers/satrap:0.2--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/satrap/0.2--h4ac6f70_6
-$ module help quay.io/biocontainers/satrap/0.2--h4ac6f70_6
+$ module load quay.io/biocontainers/satrap/0.2--h9948957_7
+$ module help quay.io/biocontainers/satrap/0.2--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

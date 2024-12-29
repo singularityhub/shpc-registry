@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gwama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwama/container.yaml"
-updated_at: "2024-12-28 03:12:49.438224"
-latest: "2.2.2--hdcf5f25_4"
+updated_at: "2024-12-29 03:23:30.120888"
+latest: "2.2.2--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/gwama"
 aliases:
  - "GWAMA"
 versions:
  - "2.2.2--hd03093a_2"
  - "2.2.2--hdcf5f25_4"
+ - "2.2.2--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for gwama"
-config: {"url": "https://biocontainers.pro/tools/gwama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gwama", "latest": {"2.2.2--hdcf5f25_4": "sha256:09f8629fb9ed99761a83c45bdfd0d2ecad62c7783532c239412f41aa4563b351"}, "tags": {"2.2.2--hd03093a_2": "sha256:15ee1d375ef88f4c186063c8cc69070bcfb3f81b91e87c83b296c6ae2bb1b0e4", "2.2.2--hdcf5f25_4": "sha256:09f8629fb9ed99761a83c45bdfd0d2ecad62c7783532c239412f41aa4563b351"}, "docker": "quay.io/biocontainers/gwama", "aliases": {"GWAMA": "/usr/local/bin/GWAMA"}}
+config: {"url": "https://biocontainers.pro/tools/gwama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gwama", "latest": {"2.2.2--h077b44d_5": "sha256:4cad712d4e45f2bcd0be7f5af2b67e8798aec665fc074d27e9bf57ac51a15631"}, "tags": {"2.2.2--hd03093a_2": "sha256:15ee1d375ef88f4c186063c8cc69070bcfb3f81b91e87c83b296c6ae2bb1b0e4", "2.2.2--hdcf5f25_4": "sha256:09f8629fb9ed99761a83c45bdfd0d2ecad62c7783532c239412f41aa4563b351", "2.2.2--h077b44d_5": "sha256:4cad712d4e45f2bcd0be7f5af2b67e8798aec665fc074d27e9bf57ac51a15631"}, "docker": "quay.io/biocontainers/gwama", "aliases": {"GWAMA": "/usr/local/bin/GWAMA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gwama.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gwama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gwama:2.2.2--hdcf5f25_4
+$ shpc install quay.io/biocontainers/gwama:2.2.2--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gwama/2.2.2--hdcf5f25_4
-$ module help quay.io/biocontainers/gwama/2.2.2--hdcf5f25_4
+$ module load quay.io/biocontainers/gwama/2.2.2--h077b44d_5
+$ module help quay.io/biocontainers/gwama/2.2.2--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

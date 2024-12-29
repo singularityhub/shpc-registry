@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sketchy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sketchy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sketchy/container.yaml"
-updated_at: "2024-12-28 03:01:01.448209"
-latest: "0.6.0--h031d066_2"
+updated_at: "2024-12-29 03:11:54.201127"
+latest: "0.6.0--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/sketchy"
 aliases:
  - "sketchy"
 versions:
  - "0.6.0--hec16e2b_0"
  - "0.6.0--h031d066_2"
+ - "0.6.0--h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for sketchy"
-config: {"url": "https://biocontainers.pro/tools/sketchy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sketchy", "latest": {"0.6.0--h031d066_2": "sha256:e7605987cec317c7421407bf321f2425152fb050d06f409fadff83923906fbbf"}, "tags": {"0.6.0--hec16e2b_0": "sha256:12541264d0ee2ca34315d9b675dee49a35ef3c74306fac2f4d78c28349d959e8", "0.6.0--h031d066_2": "sha256:e7605987cec317c7421407bf321f2425152fb050d06f409fadff83923906fbbf"}, "docker": "quay.io/biocontainers/sketchy", "aliases": {"sketchy": "/usr/local/bin/sketchy"}}
+config: {"url": "https://biocontainers.pro/tools/sketchy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sketchy", "latest": {"0.6.0--h7b50bb2_3": "sha256:fbcd8c564875958984eeb0b027a51b17f906ed8c770b962cd489b1e4245f4910"}, "tags": {"0.6.0--hec16e2b_0": "sha256:12541264d0ee2ca34315d9b675dee49a35ef3c74306fac2f4d78c28349d959e8", "0.6.0--h031d066_2": "sha256:e7605987cec317c7421407bf321f2425152fb050d06f409fadff83923906fbbf", "0.6.0--h7b50bb2_3": "sha256:fbcd8c564875958984eeb0b027a51b17f906ed8c770b962cd489b1e4245f4910"}, "docker": "quay.io/biocontainers/sketchy", "aliases": {"sketchy": "/usr/local/bin/sketchy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sketchy.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sketchy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sketchy:0.6.0--h031d066_2
+$ shpc install quay.io/biocontainers/sketchy:0.6.0--h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sketchy/0.6.0--h031d066_2
-$ module help quay.io/biocontainers/sketchy/0.6.0--h031d066_2
+$ module load quay.io/biocontainers/sketchy/0.6.0--h7b50bb2_3
+$ module help quay.io/biocontainers/sketchy/0.6.0--h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

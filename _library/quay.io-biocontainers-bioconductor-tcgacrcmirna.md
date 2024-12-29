@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tcgacrcmirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
-updated_at: "2024-12-28 03:30:46.790118"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:41:20.415240"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -19,8 +19,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna", "latest": {"1.22.0--r43hdfd78af_0": "sha256:be574c84191520d5fac784829b83924f3c0803ba82afb9f7daae4e1f83b1be28"}, "tags": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa", "1.18.0--r42hdfd78af_0": "sha256:91166f39f97095b00d0db450a0aa9cbd62418d553a2a50e872ae22272db9ed22", "1.14.0--r41hdfd78af_1": "sha256:f5ee8bf9bf83ab7b951b83ebaa58b84a73c89265dd63644b9ddb79fc990c4f58", "1.12.0--r41hdfd78af_0": "sha256:20202aa0daf0439c0543bd56c9d1762762e56e82481c2fb85d18ec7dee6a21d4", "1.10.0--r40hdfd78af_1": "sha256:fd37e9132e7497d16a44acd7108431dc5bf71a30756a809d21d9e0d1d19d453c", "1.20.0--r43hdfd78af_0": "sha256:750d9f3f6a0e54b44b6ebf67a3b4237e5944270da238db156c8773762e2d71c1", "1.22.0--r43hdfd78af_0": "sha256:be574c84191520d5fac784829b83924f3c0803ba82afb9f7daae4e1f83b1be28"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmirna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna", "latest": {"1.26.0--r44hdfd78af_0": "sha256:895cf0c7e57197c5fdf4b53e8ec28f271e27244cebe467759448d934435abbfb"}, "tags": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa", "1.18.0--r42hdfd78af_0": "sha256:91166f39f97095b00d0db450a0aa9cbd62418d553a2a50e872ae22272db9ed22", "1.14.0--r41hdfd78af_1": "sha256:f5ee8bf9bf83ab7b951b83ebaa58b84a73c89265dd63644b9ddb79fc990c4f58", "1.12.0--r41hdfd78af_0": "sha256:20202aa0daf0439c0543bd56c9d1762762e56e82481c2fb85d18ec7dee6a21d4", "1.10.0--r40hdfd78af_1": "sha256:fd37e9132e7497d16a44acd7108431dc5bf71a30756a809d21d9e0d1d19d453c", "1.20.0--r43hdfd78af_0": "sha256:750d9f3f6a0e54b44b6ebf67a3b4237e5944270da238db156c8773762e2d71c1", "1.22.0--r43hdfd78af_0": "sha256:be574c84191520d5fac784829b83924f3c0803ba82afb9f7daae4e1f83b1be28", "1.26.0--r44hdfd78af_0": "sha256:895cf0c7e57197c5fdf4b53e8ec28f271e27244cebe467759448d934435abbfb"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmirna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgacrcmirna.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tcgacrcmirna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tcgacrcmirna:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tcgacrcmirna:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tcgacrcmirna/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tcgacrcmirna/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tcgacrcmirna/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tcgacrcmirna/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

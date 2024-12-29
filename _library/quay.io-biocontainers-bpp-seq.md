@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bpp-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-seq/container.yaml"
-updated_at: "2024-12-28 02:49:03.655335"
-latest: "2.4.1--h4ac6f70_4"
+updated_at: "2024-12-29 03:00:07.059871"
+latest: "2.4.1--h9948957_5"
 container_url: "https://biocontainers.pro/tools/bpp-seq"
 
 versions:
  - "2.4.1--h9f5acd7_3"
  - "2.4.1--h4ac6f70_4"
+ - "2.4.1--h9948957_5"
 description: "shpc-registry automated BioContainers addition for bpp-seq"
-config: {"url": "https://biocontainers.pro/tools/bpp-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-seq", "latest": {"2.4.1--h4ac6f70_4": "sha256:a7cc354a72275009f10d11cd9ed6f2b13b2dcdaf04547d78e6ce11ac79b1da39"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:489c03f1fd004953f07ddb923b369de9dff640c1c72d6caff8e3abdfc06560ae", "2.4.1--h4ac6f70_4": "sha256:a7cc354a72275009f10d11cd9ed6f2b13b2dcdaf04547d78e6ce11ac79b1da39"}, "docker": "quay.io/biocontainers/bpp-seq"}
+config: {"url": "https://biocontainers.pro/tools/bpp-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-seq", "latest": {"2.4.1--h9948957_5": "sha256:0cf3562525064b185c8663c01dcee79540ea73a2708ae33e63fa8b15b5f7b9a9"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:489c03f1fd004953f07ddb923b369de9dff640c1c72d6caff8e3abdfc06560ae", "2.4.1--h4ac6f70_4": "sha256:a7cc354a72275009f10d11cd9ed6f2b13b2dcdaf04547d78e6ce11ac79b1da39", "2.4.1--h9948957_5": "sha256:0cf3562525064b185c8663c01dcee79540ea73a2708ae33e63fa8b15b5f7b9a9"}, "docker": "quay.io/biocontainers/bpp-seq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpp-seq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bpp-seq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bpp-seq:2.4.1--h4ac6f70_4
+$ shpc install quay.io/biocontainers/bpp-seq:2.4.1--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bpp-seq/2.4.1--h4ac6f70_4
-$ module help quay.io/biocontainers/bpp-seq/2.4.1--h4ac6f70_4
+$ module load quay.io/biocontainers/bpp-seq/2.4.1--h9948957_5
+$ module help quay.io/biocontainers/bpp-seq/2.4.1--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geneattribution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneattribution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneattribution/container.yaml"
-updated_at: "2024-12-28 03:13:29.957808"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:24:10.007210"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneattribution"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneattribution"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneattribution", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneattribution", "latest": {"1.28.0--r43hdfd78af_0": "sha256:1325b2017319e7489ff73b6af94d58d79aa1b91cd9d0d99f88d2b7e46de79de3"}, "tags": {"1.8.0--r351_0": "sha256:44a385b69f419e49501cce911f59659825045df69a17c2c6fe1cd7686d6b8650", "1.24.0--r42hdfd78af_0": "sha256:fbbf21853ec2a62273f86f985dfaf647cf22bb816e04d805b66ae0573c91629c", "1.20.0--r41hdfd78af_0": "sha256:72f94d0e7f55ce3d57448d064c46b3f566838055e1b95e98007c8441c38d9877", "1.18.0--r41hdfd78af_0": "sha256:62b27dd9e72427595edc20ca8e3101b5bca5665c18dae6b04547289e9197ca30", "1.16.0--r40hdfd78af_1": "sha256:ec679c09e2f9529b394a8986b03d7618489e9fa1b70bea91e6559aba8bae0458", "1.14.0--r40_0": "sha256:89d5035c470aa99883b945cd480537b3ae06242ef3640d2461487573e6c06a99", "1.26.0--r43hdfd78af_0": "sha256:05d96ef3bda0e50427ced4bd80f083474bbaee6273afaccfdaaca5abe1b7e971", "1.28.0--r43hdfd78af_0": "sha256:1325b2017319e7489ff73b6af94d58d79aa1b91cd9d0d99f88d2b7e46de79de3"}, "docker": "quay.io/biocontainers/bioconductor-geneattribution", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneattribution", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneattribution", "latest": {"1.32.0--r44hdfd78af_0": "sha256:256f6acf9a699bc9d088417dc56252bc1987f6e15f6b3d2c9f72656c36f735cc"}, "tags": {"1.8.0--r351_0": "sha256:44a385b69f419e49501cce911f59659825045df69a17c2c6fe1cd7686d6b8650", "1.24.0--r42hdfd78af_0": "sha256:fbbf21853ec2a62273f86f985dfaf647cf22bb816e04d805b66ae0573c91629c", "1.20.0--r41hdfd78af_0": "sha256:72f94d0e7f55ce3d57448d064c46b3f566838055e1b95e98007c8441c38d9877", "1.18.0--r41hdfd78af_0": "sha256:62b27dd9e72427595edc20ca8e3101b5bca5665c18dae6b04547289e9197ca30", "1.16.0--r40hdfd78af_1": "sha256:ec679c09e2f9529b394a8986b03d7618489e9fa1b70bea91e6559aba8bae0458", "1.14.0--r40_0": "sha256:89d5035c470aa99883b945cd480537b3ae06242ef3640d2461487573e6c06a99", "1.26.0--r43hdfd78af_0": "sha256:05d96ef3bda0e50427ced4bd80f083474bbaee6273afaccfdaaca5abe1b7e971", "1.28.0--r43hdfd78af_0": "sha256:1325b2017319e7489ff73b6af94d58d79aa1b91cd9d0d99f88d2b7e46de79de3", "1.32.0--r44hdfd78af_0": "sha256:256f6acf9a699bc9d088417dc56252bc1987f6e15f6b3d2c9f72656c36f735cc"}, "docker": "quay.io/biocontainers/bioconductor-geneattribution", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneattribution.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneattribution
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneattribution:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geneattribution:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneattribution/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geneattribution/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geneattribution/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geneattribution/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-adam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adam/container.yaml"
-updated_at: "2024-12-28 03:06:29.097275"
-latest: "1.18.0--r43hf17093f_0"
+updated_at: "2024-12-29 03:17:15.905202"
+latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adam"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.14.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
  - "1.18.0--r43hf17093f_0"
+ - "1.22.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-adam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-adam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adam", "latest": {"1.18.0--r43hf17093f_0": "sha256:303df921fd4fe4c75a7cfb63f1427663f88bd79627346cd29adf24a9280ac654"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:1e7125c4492d7327120b7195b6c99d99ff93d48733ede9f23d758ca745064a9b", "1.14.0--r42hc247a5b_0": "sha256:3777288f029b4e08eb45d9667f2a7dae818014e39e82e59236704b4e577f3ce7", "1.10.0--r41hc247a5b_2": "sha256:bf605d7e17c22c7d076a3bfb5d8c58a647f3893eeb8405e32ff200f4ab7502dd", "1.14.0--r42hf17093f_1": "sha256:39fc7dcc96e2c60d5089b01cd04da192661593f934178482e9385e4f3b8d1ccf", "1.16.0--r43hf17093f_0": "sha256:8a6c2ed35c2c52b71dcc7aa7efad13e091a1c04d4dacd49e33c92041afc0e13b", "1.18.0--r43hf17093f_0": "sha256:303df921fd4fe4c75a7cfb63f1427663f88bd79627346cd29adf24a9280ac654"}, "docker": "quay.io/biocontainers/bioconductor-adam", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-adam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adam", "latest": {"1.22.0--r44he5774e6_0": "sha256:2858d2167387a575be69973a72bd42d37605846d45b1b850c42af1f5526ca235"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:1e7125c4492d7327120b7195b6c99d99ff93d48733ede9f23d758ca745064a9b", "1.14.0--r42hc247a5b_0": "sha256:3777288f029b4e08eb45d9667f2a7dae818014e39e82e59236704b4e577f3ce7", "1.10.0--r41hc247a5b_2": "sha256:bf605d7e17c22c7d076a3bfb5d8c58a647f3893eeb8405e32ff200f4ab7502dd", "1.14.0--r42hf17093f_1": "sha256:39fc7dcc96e2c60d5089b01cd04da192661593f934178482e9385e4f3b8d1ccf", "1.16.0--r43hf17093f_0": "sha256:8a6c2ed35c2c52b71dcc7aa7efad13e091a1c04d4dacd49e33c92041afc0e13b", "1.18.0--r43hf17093f_0": "sha256:303df921fd4fe4c75a7cfb63f1427663f88bd79627346cd29adf24a9280ac654", "1.22.0--r44he5774e6_0": "sha256:2858d2167387a575be69973a72bd42d37605846d45b1b850c42af1f5526ca235"}, "docker": "quay.io/biocontainers/bioconductor-adam", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-adam.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-adam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-adam:1.18.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-adam:1.22.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-adam/1.18.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-adam/1.18.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-adam/1.22.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-adam/1.22.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

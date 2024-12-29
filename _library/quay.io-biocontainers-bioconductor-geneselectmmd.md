@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geneselectmmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
-updated_at: "2024-12-28 02:50:16.508759"
-latest: "2.46.0--r43h9913872_1"
+updated_at: "2024-12-29 03:01:18.357683"
+latest: "2.50.0--r44h4d5c4aa_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneselectmmd"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.44.1--r43h9913872_0"
  - "2.46.0--r43h9913872_0"
  - "2.46.0--r43h9913872_1"
+ - "2.50.0--r44h4d5c4aa_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselectmmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd", "latest": {"2.46.0--r43h9913872_1": "sha256:4396d2aa2ee3cb5f3d979792a2ba1ef86bfb18ef1a313a1f3b2947e2b5af4b7f"}, "tags": {"2.38.0--r41hefde4a7_2": "sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851", "2.42.0--r42hefde4a7_0": "sha256:09e187892d0719335fa33858989f38028264cabb6ed404e4c65cb648e3f760c3", "2.42.0--r42h9913872_1": "sha256:84f3956829a5199ebf8c1722529265c7c9c037d410271c10e730916b6c0cd3c0", "2.44.1--r43h9913872_0": "sha256:e06f0d76beef89adc1b65c61fdc40fa5637d9f31b77761b6dcbed9efcda080e5", "2.46.0--r43h9913872_0": "sha256:a39964fdbb5bcfad6bf0367da44d5f32a843a561ec9de1b44450e515d1305d2c", "2.46.0--r43h9913872_1": "sha256:4396d2aa2ee3cb5f3d979792a2ba1ef86bfb18ef1a313a1f3b2947e2b5af4b7f"}, "docker": "quay.io/biocontainers/bioconductor-geneselectmmd"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselectmmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd", "latest": {"2.50.0--r44h4d5c4aa_0": "sha256:594e2a2ba3227d18a8433c8531cdcfcbd8bae076f51ab70fb99393ea23db2139"}, "tags": {"2.38.0--r41hefde4a7_2": "sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851", "2.42.0--r42hefde4a7_0": "sha256:09e187892d0719335fa33858989f38028264cabb6ed404e4c65cb648e3f760c3", "2.42.0--r42h9913872_1": "sha256:84f3956829a5199ebf8c1722529265c7c9c037d410271c10e730916b6c0cd3c0", "2.44.1--r43h9913872_0": "sha256:e06f0d76beef89adc1b65c61fdc40fa5637d9f31b77761b6dcbed9efcda080e5", "2.46.0--r43h9913872_0": "sha256:a39964fdbb5bcfad6bf0367da44d5f32a843a561ec9de1b44450e515d1305d2c", "2.46.0--r43h9913872_1": "sha256:4396d2aa2ee3cb5f3d979792a2ba1ef86bfb18ef1a313a1f3b2947e2b5af4b7f", "2.50.0--r44h4d5c4aa_0": "sha256:594e2a2ba3227d18a8433c8531cdcfcbd8bae076f51ab70fb99393ea23db2139"}, "docker": "quay.io/biocontainers/bioconductor-geneselectmmd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneselectmmd.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneselectmmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneselectmmd:2.46.0--r43h9913872_1
+$ shpc install quay.io/biocontainers/bioconductor-geneselectmmd:2.50.0--r44h4d5c4aa_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneselectmmd/2.46.0--r43h9913872_1
-$ module help quay.io/biocontainers/bioconductor-geneselectmmd/2.46.0--r43h9913872_1
+$ module load quay.io/biocontainers/bioconductor-geneselectmmd/2.50.0--r44h4d5c4aa_0
+$ module help quay.io/biocontainers/bioconductor-geneselectmmd/2.50.0--r44h4d5c4aa_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

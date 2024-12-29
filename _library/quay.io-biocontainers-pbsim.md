@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pbsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbsim/container.yaml"
-updated_at: "2024-12-28 03:17:42.298409"
-latest: "1.0.3--h4ac6f70_7"
+updated_at: "2024-12-29 03:28:19.346849"
+latest: "1.0.3--h9948957_8"
 container_url: "https://biocontainers.pro/tools/pbsim"
 
 versions:
  - "1.0.3--h9f5acd7_5"
  - "1.0.3--h4ac6f70_7"
+ - "1.0.3--h9948957_8"
 description: "shpc-registry automated BioContainers addition for pbsim"
-config: {"url": "https://biocontainers.pro/tools/pbsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsim", "latest": {"1.0.3--h4ac6f70_7": "sha256:33f57511c6638f850c6a9c1e2ed5553ca0f061d6213b9ca62de275a1341a0b00"}, "tags": {"1.0.3--h9f5acd7_5": "sha256:442e922ff19db7a108815d76d513a0aa6529a4b4fda7587c74c11c1920e53541", "1.0.3--h4ac6f70_7": "sha256:33f57511c6638f850c6a9c1e2ed5553ca0f061d6213b9ca62de275a1341a0b00"}, "docker": "quay.io/biocontainers/pbsim"}
+config: {"url": "https://biocontainers.pro/tools/pbsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsim", "latest": {"1.0.3--h9948957_8": "sha256:11fff1da789ba7002c91387fc68aa9c62484255f348557aa652734f7b55c7a2d"}, "tags": {"1.0.3--h9f5acd7_5": "sha256:442e922ff19db7a108815d76d513a0aa6529a4b4fda7587c74c11c1920e53541", "1.0.3--h4ac6f70_7": "sha256:33f57511c6638f850c6a9c1e2ed5553ca0f061d6213b9ca62de275a1341a0b00", "1.0.3--h9948957_8": "sha256:11fff1da789ba7002c91387fc68aa9c62484255f348557aa652734f7b55c7a2d"}, "docker": "quay.io/biocontainers/pbsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbsim.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pbsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbsim:1.0.3--h4ac6f70_7
+$ shpc install quay.io/biocontainers/pbsim:1.0.3--h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbsim/1.0.3--h4ac6f70_7
-$ module help quay.io/biocontainers/pbsim/1.0.3--h4ac6f70_7
+$ module load quay.io/biocontainers/pbsim/1.0.3--h9948957_8
+$ module help quay.io/biocontainers/pbsim/1.0.3--h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gmtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmtk/container.yaml"
-updated_at: "2024-12-28 03:18:28.600967"
-latest: "1.4.4--h1b96c6b_15"
+updated_at: "2024-12-29 03:29:05.139328"
+latest: "1.4.4--h4c2f4bb_16"
 container_url: "https://biocontainers.pro/tools/gmtk"
 aliases:
  - "discrete-mi"
@@ -54,8 +54,9 @@ versions:
  - "1.4.4--hd959fe9_13"
  - "1.4.4--hd959fe9_14"
  - "1.4.4--h1b96c6b_15"
+ - "1.4.4--h4c2f4bb_16"
 description: "shpc-registry automated BioContainers addition for gmtk"
-config: {"url": "https://biocontainers.pro/tools/gmtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmtk", "latest": {"1.4.4--h1b96c6b_15": "sha256:608e62dddd5914940364bf8c94236e16a133b948d7a815a35fa8332ca0743876"}, "tags": {"1.4.4--h0326b38_9": "sha256:c0e74d5fe9113bb4d6cd7ad25d09b8d1829932683064f3435a6e99a9659c0efb", "1.4.4--h0326b38_12": "sha256:7f7538fc809b32ed5fea1b570cfd163e2016bb0753b84a8995c5df62572aa705", "1.4.4--hd959fe9_13": "sha256:6ab5ccd320fc5885e35958fb432b3ab087524f5ccb2d8e2e1db2c5fd07e57039", "1.4.4--hd959fe9_14": "sha256:c6dc561e6b0b5b6b5a12ecea2cfce06bc1fad6c22f07056755f9a93e599f907f", "1.4.4--h1b96c6b_15": "sha256:608e62dddd5914940364bf8c94236e16a133b948d7a815a35fa8332ca0743876"}, "docker": "quay.io/biocontainers/gmtk", "aliases": {"discrete-mi": "/usr/local/bin/discrete-mi", "fixTri.sh": "/usr/local/bin/fixTri.sh", "generate_random_graph.pl": "/usr/local/bin/generate_random_graph.pl", "gmtkDMLPtrain": "/usr/local/bin/gmtkDMLPtrain", "gmtkDTindex": "/usr/local/bin/gmtkDTindex", "gmtkEMtrain": "/usr/local/bin/gmtkEMtrain", "gmtkJT": "/usr/local/bin/gmtkJT", "gmtkKernel": "/usr/local/bin/gmtkKernel", "gmtkMMItrain": "/usr/local/bin/gmtkMMItrain", "gmtkModelInfo": "/usr/local/bin/gmtkModelInfo", "gmtkNGramIndex": "/usr/local/bin/gmtkNGramIndex", "gmtkOnline": "/usr/local/bin/gmtkOnline", "gmtkParmConvert": "/usr/local/bin/gmtkParmConvert", "gmtkPrint": "/usr/local/bin/gmtkPrint", "gmtkTFmerge": "/usr/local/bin/gmtkTFmerge", "gmtkTie": "/usr/local/bin/gmtkTie", "gmtkTime": "/usr/local/bin/gmtkTime", "gmtkTriangulate": "/usr/local/bin/gmtkTriangulate", "gmtkViterbi": "/usr/local/bin/gmtkViterbi", "obs-cat": "/usr/local/bin/obs-cat", "obs-concat": "/usr/local/bin/obs-concat", "obs-diff": "/usr/local/bin/obs-diff", "obs-info": "/usr/local/bin/obs-info", "obs-print": "/usr/local/bin/obs-print", "obs-skmeans": "/usr/local/bin/obs-skmeans", "obs-stats": "/usr/local/bin/obs-stats", "obs-window": "/usr/local/bin/obs-window", "triangulateGA": "/usr/local/bin/triangulateGA", "triangulateParallel": "/usr/local/bin/triangulateParallel", "triangulateTimings": "/usr/local/bin/triangulateTimings", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/gmtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmtk", "latest": {"1.4.4--h4c2f4bb_16": "sha256:0e0a59e714b5a1bc81b5273299e58241247b6b0ee95ac53c4e7853b7c9e07c3d"}, "tags": {"1.4.4--h0326b38_9": "sha256:c0e74d5fe9113bb4d6cd7ad25d09b8d1829932683064f3435a6e99a9659c0efb", "1.4.4--h0326b38_12": "sha256:7f7538fc809b32ed5fea1b570cfd163e2016bb0753b84a8995c5df62572aa705", "1.4.4--hd959fe9_13": "sha256:6ab5ccd320fc5885e35958fb432b3ab087524f5ccb2d8e2e1db2c5fd07e57039", "1.4.4--hd959fe9_14": "sha256:c6dc561e6b0b5b6b5a12ecea2cfce06bc1fad6c22f07056755f9a93e599f907f", "1.4.4--h1b96c6b_15": "sha256:608e62dddd5914940364bf8c94236e16a133b948d7a815a35fa8332ca0743876", "1.4.4--h4c2f4bb_16": "sha256:0e0a59e714b5a1bc81b5273299e58241247b6b0ee95ac53c4e7853b7c9e07c3d"}, "docker": "quay.io/biocontainers/gmtk", "aliases": {"discrete-mi": "/usr/local/bin/discrete-mi", "fixTri.sh": "/usr/local/bin/fixTri.sh", "generate_random_graph.pl": "/usr/local/bin/generate_random_graph.pl", "gmtkDMLPtrain": "/usr/local/bin/gmtkDMLPtrain", "gmtkDTindex": "/usr/local/bin/gmtkDTindex", "gmtkEMtrain": "/usr/local/bin/gmtkEMtrain", "gmtkJT": "/usr/local/bin/gmtkJT", "gmtkKernel": "/usr/local/bin/gmtkKernel", "gmtkMMItrain": "/usr/local/bin/gmtkMMItrain", "gmtkModelInfo": "/usr/local/bin/gmtkModelInfo", "gmtkNGramIndex": "/usr/local/bin/gmtkNGramIndex", "gmtkOnline": "/usr/local/bin/gmtkOnline", "gmtkParmConvert": "/usr/local/bin/gmtkParmConvert", "gmtkPrint": "/usr/local/bin/gmtkPrint", "gmtkTFmerge": "/usr/local/bin/gmtkTFmerge", "gmtkTie": "/usr/local/bin/gmtkTie", "gmtkTime": "/usr/local/bin/gmtkTime", "gmtkTriangulate": "/usr/local/bin/gmtkTriangulate", "gmtkViterbi": "/usr/local/bin/gmtkViterbi", "obs-cat": "/usr/local/bin/obs-cat", "obs-concat": "/usr/local/bin/obs-concat", "obs-diff": "/usr/local/bin/obs-diff", "obs-info": "/usr/local/bin/obs-info", "obs-print": "/usr/local/bin/obs-print", "obs-skmeans": "/usr/local/bin/obs-skmeans", "obs-stats": "/usr/local/bin/obs-stats", "obs-window": "/usr/local/bin/obs-window", "triangulateGA": "/usr/local/bin/triangulateGA", "triangulateParallel": "/usr/local/bin/triangulateParallel", "triangulateTimings": "/usr/local/bin/triangulateTimings", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmtk.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/gmtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gmtk:1.4.4--h1b96c6b_15
+$ shpc install quay.io/biocontainers/gmtk:1.4.4--h4c2f4bb_16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gmtk/1.4.4--h1b96c6b_15
-$ module help quay.io/biocontainers/gmtk/1.4.4--h1b96c6b_15
+$ module load quay.io/biocontainers/gmtk/1.4.4--h4c2f4bb_16
+$ module help quay.io/biocontainers/gmtk/1.4.4--h4c2f4bb_16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

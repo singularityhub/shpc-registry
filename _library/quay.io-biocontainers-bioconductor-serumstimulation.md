@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-serumstimulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
-updated_at: "2024-12-28 03:12:40.315565"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:23:21.107544"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-serumstimulation"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.33.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-serumstimulation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-serumstimulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-serumstimulation", "latest": {"1.38.0--r43hdfd78af_0": "sha256:595eba62521e7bc3e44cfd325db00420064a23219b39d27d89c6b1c67c1d8b6f"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914", "1.33.0--r42hdfd78af_0": "sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd", "1.36.0--r43hdfd78af_0": "sha256:17382b76ff81676869550482b3af1588086dd40f474f1ea8d6e74061a6218268", "1.38.0--r43hdfd78af_0": "sha256:595eba62521e7bc3e44cfd325db00420064a23219b39d27d89c6b1c67c1d8b6f"}, "docker": "quay.io/biocontainers/bioconductor-serumstimulation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-serumstimulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-serumstimulation", "latest": {"1.42.0--r44hdfd78af_0": "sha256:298114fa9b2a551f58274ac900c5c92d5e91affcbba5704f9b6071a800400e86"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914", "1.33.0--r42hdfd78af_0": "sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd", "1.36.0--r43hdfd78af_0": "sha256:17382b76ff81676869550482b3af1588086dd40f474f1ea8d6e74061a6218268", "1.38.0--r43hdfd78af_0": "sha256:595eba62521e7bc3e44cfd325db00420064a23219b39d27d89c6b1c67c1d8b6f", "1.42.0--r44hdfd78af_0": "sha256:298114fa9b2a551f58274ac900c5c92d5e91affcbba5704f9b6071a800400e86"}, "docker": "quay.io/biocontainers/bioconductor-serumstimulation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-serumstimulation.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-serumstimulation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-serumstimulation:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-serumstimulation:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-serumstimulation/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-serumstimulation/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-serumstimulation/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-serumstimulation/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/merlin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merlin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merlin/container.yaml"
-updated_at: "2024-12-28 02:55:45.472759"
-latest: "1.1.2--hdcf5f25_7"
+updated_at: "2024-12-29 03:06:43.500320"
+latest: "1.1.2--h077b44d_8"
 container_url: "https://biocontainers.pro/tools/merlin"
 aliases:
  - "hapmapConverter"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.1.2--hd03093a_5"
  - "1.1.2--hdcf5f25_7"
+ - "1.1.2--h077b44d_8"
 description: "shpc-registry automated BioContainers addition for merlin"
-config: {"url": "https://biocontainers.pro/tools/merlin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merlin", "latest": {"1.1.2--hdcf5f25_7": "sha256:06a26eb9409dd01b91716025548cbac7d0b46be655aa01a066949bd40b464dec"}, "tags": {"1.1.2--hd03093a_5": "sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380", "1.1.2--hdcf5f25_7": "sha256:06a26eb9409dd01b91716025548cbac7d0b46be655aa01a066949bd40b464dec"}, "docker": "quay.io/biocontainers/merlin", "aliases": {"hapmapConverter": "/usr/local/bin/hapmapConverter", "merlin": "/usr/local/bin/merlin", "merlin-offline": "/usr/local/bin/merlin-offline", "merlin-regress": "/usr/local/bin/merlin-regress", "minx": "/usr/local/bin/minx", "minx-offline": "/usr/local/bin/minx-offline", "pedmerge": "/usr/local/bin/pedmerge", "pedstats": "/usr/local/bin/pedstats", "pedwipe": "/usr/local/bin/pedwipe"}}
+config: {"url": "https://biocontainers.pro/tools/merlin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merlin", "latest": {"1.1.2--h077b44d_8": "sha256:95e202702ffe4de0f61f1bde036ad3504ba2930ec769a0aa40d4b377f1a61216"}, "tags": {"1.1.2--hd03093a_5": "sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380", "1.1.2--hdcf5f25_7": "sha256:06a26eb9409dd01b91716025548cbac7d0b46be655aa01a066949bd40b464dec", "1.1.2--h077b44d_8": "sha256:95e202702ffe4de0f61f1bde036ad3504ba2930ec769a0aa40d4b377f1a61216"}, "docker": "quay.io/biocontainers/merlin", "aliases": {"hapmapConverter": "/usr/local/bin/hapmapConverter", "merlin": "/usr/local/bin/merlin", "merlin-offline": "/usr/local/bin/merlin-offline", "merlin-regress": "/usr/local/bin/merlin-regress", "minx": "/usr/local/bin/minx", "minx-offline": "/usr/local/bin/minx-offline", "pedmerge": "/usr/local/bin/pedmerge", "pedstats": "/usr/local/bin/pedstats", "pedwipe": "/usr/local/bin/pedwipe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/merlin.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/merlin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/merlin:1.1.2--hdcf5f25_7
+$ shpc install quay.io/biocontainers/merlin:1.1.2--h077b44d_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/merlin/1.1.2--hdcf5f25_7
-$ module help quay.io/biocontainers/merlin/1.1.2--hdcf5f25_7
+$ module load quay.io/biocontainers/merlin/1.1.2--h077b44d_8
+$ module help quay.io/biocontainers/merlin/1.1.2--h077b44d_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

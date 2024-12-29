@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-massarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massarray/container.yaml"
-updated_at: "2024-12-28 03:11:28.054784"
-latest: "1.54.0--r43hdfd78af_1"
+updated_at: "2024-12-29 03:22:10.171042"
+latest: "1.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-massarray"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.50.0--r42hdfd78af_0"
  - "1.52.0--r43hdfd78af_0"
  - "1.54.0--r43hdfd78af_1"
+ - "1.58.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-massarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-massarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massarray", "latest": {"1.54.0--r43hdfd78af_1": "sha256:0ffe5dc4ccc5cc0f1c52f8aa4dde1472eb2d1d22717579a93f0a618e968052f5"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:20747a2d7aa4032e5f51aca8c6175dd512c47be519ad0dc35c06984535ab443b", "1.50.0--r42hdfd78af_0": "sha256:34145b3900f59b939f65e395176430414939e89fa064be23eee2e1eb21adf60d", "1.52.0--r43hdfd78af_0": "sha256:cb77379dd24d78206d1db21f42c1bc61525fdc1c4453758f4ebad8b8dba93711", "1.54.0--r43hdfd78af_1": "sha256:0ffe5dc4ccc5cc0f1c52f8aa4dde1472eb2d1d22717579a93f0a618e968052f5"}, "docker": "quay.io/biocontainers/bioconductor-massarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-massarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massarray", "latest": {"1.58.0--r44hdfd78af_0": "sha256:5517c6da9ed6b22f0125aa1185c3f2b6ddb8dab5b7f23009d2fa24a257166366"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:20747a2d7aa4032e5f51aca8c6175dd512c47be519ad0dc35c06984535ab443b", "1.50.0--r42hdfd78af_0": "sha256:34145b3900f59b939f65e395176430414939e89fa064be23eee2e1eb21adf60d", "1.52.0--r43hdfd78af_0": "sha256:cb77379dd24d78206d1db21f42c1bc61525fdc1c4453758f4ebad8b8dba93711", "1.54.0--r43hdfd78af_1": "sha256:0ffe5dc4ccc5cc0f1c52f8aa4dde1472eb2d1d22717579a93f0a618e968052f5", "1.58.0--r44hdfd78af_0": "sha256:5517c6da9ed6b22f0125aa1185c3f2b6ddb8dab5b7f23009d2fa24a257166366"}, "docker": "quay.io/biocontainers/bioconductor-massarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-massarray.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-massarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-massarray:1.54.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-massarray:1.58.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-massarray/1.54.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-massarray/1.54.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-massarray/1.58.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-massarray/1.58.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

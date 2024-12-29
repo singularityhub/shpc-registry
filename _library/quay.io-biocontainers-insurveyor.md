@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/insurveyor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insurveyor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insurveyor/container.yaml"
-updated_at: "2024-12-28 03:10:49.729389"
-latest: "1.1.3--hdcf5f25_1"
+updated_at: "2024-12-29 03:21:32.659512"
+latest: "1.1.3--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/insurveyor"
 aliases:
  - "add_filtering_info"
@@ -33,8 +33,9 @@ versions:
  - "1.1.1--h4ac6f70_1"
  - "1.1.2--h4ac6f70_0"
  - "1.1.3--hdcf5f25_1"
+ - "1.1.3--h077b44d_2"
 description: "singularity registry hpc automated addition for insurveyor"
-config: {"url": "https://biocontainers.pro/tools/insurveyor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for insurveyor", "latest": {"1.1.3--hdcf5f25_1": "sha256:8211adb2f2f8cd2420113cbb02fd20990c9af1a98f8c65c4598c2f27442466c0"}, "tags": {"1.0.2--h9f5acd7_0": "sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03", "1.1.1--h9f5acd7_0": "sha256:89f3afed826d3480ac7db1c2ca30079de7eaef38d0f2d23bbde1a77396e11cbd", "1.1.1--h4ac6f70_1": "sha256:316d19461e69e61bec2202125a26084066fcbfaa50dbb17a1d9cc5c7dd71e938", "1.1.2--h4ac6f70_0": "sha256:ae817d422576d4a4d696e80ef02ac008e8864a64192e06473ef32be4b95c2693", "1.1.3--hdcf5f25_1": "sha256:8211adb2f2f8cd2420113cbb02fd20990c9af1a98f8c65c4598c2f27442466c0"}, "docker": "quay.io/biocontainers/insurveyor", "aliases": {"add_filtering_info": "/usr/local/bin/add_filtering_info", "call_insertions": "/usr/local/bin/call_insertions", "clip_consensus_builder": "/usr/local/bin/clip_consensus_builder", "dc_remapper": "/usr/local/bin/dc_remapper", "filter": "/usr/local/bin/filter", "normalise": "/usr/local/bin/normalise", "random_pos_generator.py": "/usr/local/bin/random_pos_generator.py", "reads_categorizer": "/usr/local/bin/reads_categorizer", "surveyor.py": "/usr/local/bin/surveyor.py", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/insurveyor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for insurveyor", "latest": {"1.1.3--h077b44d_2": "sha256:90d047ddcde43ed8d69a9d1efb319360579ced1b1a03a25037f5051e67aac694"}, "tags": {"1.0.2--h9f5acd7_0": "sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03", "1.1.1--h9f5acd7_0": "sha256:89f3afed826d3480ac7db1c2ca30079de7eaef38d0f2d23bbde1a77396e11cbd", "1.1.1--h4ac6f70_1": "sha256:316d19461e69e61bec2202125a26084066fcbfaa50dbb17a1d9cc5c7dd71e938", "1.1.2--h4ac6f70_0": "sha256:ae817d422576d4a4d696e80ef02ac008e8864a64192e06473ef32be4b95c2693", "1.1.3--hdcf5f25_1": "sha256:8211adb2f2f8cd2420113cbb02fd20990c9af1a98f8c65c4598c2f27442466c0", "1.1.3--h077b44d_2": "sha256:90d047ddcde43ed8d69a9d1efb319360579ced1b1a03a25037f5051e67aac694"}, "docker": "quay.io/biocontainers/insurveyor", "aliases": {"add_filtering_info": "/usr/local/bin/add_filtering_info", "call_insertions": "/usr/local/bin/call_insertions", "clip_consensus_builder": "/usr/local/bin/clip_consensus_builder", "dc_remapper": "/usr/local/bin/dc_remapper", "filter": "/usr/local/bin/filter", "normalise": "/usr/local/bin/normalise", "random_pos_generator.py": "/usr/local/bin/random_pos_generator.py", "reads_categorizer": "/usr/local/bin/reads_categorizer", "surveyor.py": "/usr/local/bin/surveyor.py", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/insurveyor.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/insurveyor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/insurveyor:1.1.3--hdcf5f25_1
+$ shpc install quay.io/biocontainers/insurveyor:1.1.3--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/insurveyor/1.1.3--hdcf5f25_1
-$ module help quay.io/biocontainers/insurveyor/1.1.3--hdcf5f25_1
+$ module load quay.io/biocontainers/insurveyor/1.1.3--h077b44d_2
+$ module help quay.io/biocontainers/insurveyor/1.1.3--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

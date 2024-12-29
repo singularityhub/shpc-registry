@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/oligomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligomap/container.yaml"
-updated_at: "2024-12-28 03:16:30.831476"
-latest: "1.0.1--hdcf5f25_0"
+updated_at: "2024-12-29 03:27:08.658921"
+latest: "1.0.1--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/oligomap"
 aliases:
  - "oligomap"
 versions:
  - "1.0.1--hdcf5f25_0"
+ - "1.0.1--h077b44d_1"
 description: "singularity registry hpc automated addition for oligomap"
-config: {"url": "https://biocontainers.pro/tools/oligomap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oligomap", "latest": {"1.0.1--hdcf5f25_0": "sha256:3c0108ddd21099f961359844a4590a7b88b02be92a952e0ecc36a48597a1599c"}, "tags": {"1.0.1--hdcf5f25_0": "sha256:3c0108ddd21099f961359844a4590a7b88b02be92a952e0ecc36a48597a1599c"}, "docker": "quay.io/biocontainers/oligomap", "aliases": {"oligomap": "/usr/local/bin/oligomap"}}
+config: {"url": "https://biocontainers.pro/tools/oligomap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oligomap", "latest": {"1.0.1--h077b44d_1": "sha256:5d3a54804a4538167363b256fa247275431ea62289aeb7ce50c2d169801734ac"}, "tags": {"1.0.1--hdcf5f25_0": "sha256:3c0108ddd21099f961359844a4590a7b88b02be92a952e0ecc36a48597a1599c", "1.0.1--h077b44d_1": "sha256:5d3a54804a4538167363b256fa247275431ea62289aeb7ce50c2d169801734ac"}, "docker": "quay.io/biocontainers/oligomap", "aliases": {"oligomap": "/usr/local/bin/oligomap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oligomap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/oligomap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oligomap:1.0.1--hdcf5f25_0
+$ shpc install quay.io/biocontainers/oligomap:1.0.1--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oligomap/1.0.1--hdcf5f25_0
-$ module help quay.io/biocontainers/oligomap/1.0.1--hdcf5f25_0
+$ module load quay.io/biocontainers/oligomap/1.0.1--h077b44d_1
+$ module help quay.io/biocontainers/oligomap/1.0.1--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

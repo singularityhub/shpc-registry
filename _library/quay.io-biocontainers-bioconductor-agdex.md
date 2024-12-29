@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-agdex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agdex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agdex/container.yaml"
-updated_at: "2024-12-28 02:50:50.475795"
+updated_at: "2024-12-29 03:01:51.610852"
 latest: "1.50.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agdex"
 

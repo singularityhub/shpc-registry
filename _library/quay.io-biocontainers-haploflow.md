@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haploflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploflow/container.yaml"
-updated_at: "2024-12-28 03:28:50.869662"
-latest: "1.0--h4ac6f70_4"
+updated_at: "2024-12-29 03:39:26.625040"
+latest: "1.0--h9948957_5"
 container_url: "https://biocontainers.pro/tools/haploflow"
 aliases:
  - "haploflow"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h2df963e_1"
  - "1.0--h376f1d3_3"
  - "1.0--h4ac6f70_4"
+ - "1.0--h9948957_5"
 description: "shpc-registry automated BioContainers addition for haploflow"
-config: {"url": "https://biocontainers.pro/tools/haploflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploflow", "latest": {"1.0--h4ac6f70_4": "sha256:4f391df9c456c0846304e7a15254e695358e45a76d910f3f66a1b7b11e30e0f1"}, "tags": {"1.0--h2df963e_1": "sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f", "1.0--h376f1d3_3": "sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220", "1.0--h4ac6f70_4": "sha256:4f391df9c456c0846304e7a15254e695358e45a76d910f3f66a1b7b11e30e0f1"}, "docker": "quay.io/biocontainers/haploflow", "aliases": {"haploflow": "/usr/local/bin/haploflow"}}
+config: {"url": "https://biocontainers.pro/tools/haploflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploflow", "latest": {"1.0--h9948957_5": "sha256:eaf03733093a99a290d6b30af3a4b95543d9accfe63ff37851a0e5de6c02396d"}, "tags": {"1.0--h2df963e_1": "sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f", "1.0--h376f1d3_3": "sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220", "1.0--h4ac6f70_4": "sha256:4f391df9c456c0846304e7a15254e695358e45a76d910f3f66a1b7b11e30e0f1", "1.0--h9948957_5": "sha256:eaf03733093a99a290d6b30af3a4b95543d9accfe63ff37851a0e5de6c02396d"}, "docker": "quay.io/biocontainers/haploflow", "aliases": {"haploflow": "/usr/local/bin/haploflow"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploflow.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/haploflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haploflow:1.0--h4ac6f70_4
+$ shpc install quay.io/biocontainers/haploflow:1.0--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haploflow/1.0--h4ac6f70_4
-$ module help quay.io/biocontainers/haploflow/1.0--h4ac6f70_4
+$ module load quay.io/biocontainers/haploflow/1.0--h9948957_5
+$ module help quay.io/biocontainers/haploflow/1.0--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

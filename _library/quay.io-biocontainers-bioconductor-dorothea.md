@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dorothea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
-updated_at: "2024-12-28 03:11:06.947429"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:21:49.464389"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dorothea"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dorothea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dorothea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dorothea", "latest": {"1.14.0--r43hdfd78af_0": "sha256:b331cf7a529352f8286adfa85ffbd9e234dca5f71a0d33ae48fc0688704fc749"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1", "1.10.0--r42hdfd78af_0": "sha256:91908a4283ed88e49752c5c95d0556248761e1250b16b02e23a46e28d3f3adcb", "1.12.0--r43hdfd78af_0": "sha256:9a6c8b77a60be2254a830e40820a424d6069a49538578c36378d51d6b11bbf03", "1.14.0--r43hdfd78af_0": "sha256:b331cf7a529352f8286adfa85ffbd9e234dca5f71a0d33ae48fc0688704fc749"}, "docker": "quay.io/biocontainers/bioconductor-dorothea"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dorothea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dorothea", "latest": {"1.18.0--r44hdfd78af_0": "sha256:d944ee65bd27437316bda0ddd2c3069096d41a26564cc2c64659931949e3ec1e"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1", "1.10.0--r42hdfd78af_0": "sha256:91908a4283ed88e49752c5c95d0556248761e1250b16b02e23a46e28d3f3adcb", "1.12.0--r43hdfd78af_0": "sha256:9a6c8b77a60be2254a830e40820a424d6069a49538578c36378d51d6b11bbf03", "1.14.0--r43hdfd78af_0": "sha256:b331cf7a529352f8286adfa85ffbd9e234dca5f71a0d33ae48fc0688704fc749", "1.18.0--r44hdfd78af_0": "sha256:d944ee65bd27437316bda0ddd2c3069096d41a26564cc2c64659931949e3ec1e"}, "docker": "quay.io/biocontainers/bioconductor-dorothea"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dorothea.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dorothea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dorothea:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dorothea:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dorothea/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dorothea/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dorothea/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dorothea/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

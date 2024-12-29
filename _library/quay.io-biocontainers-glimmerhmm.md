@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/glimmerhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimmerhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glimmerhmm/container.yaml"
-updated_at: "2024-12-28 03:13:08.242124"
-latest: "3.0.4--pl5321hdbdd923_8"
+updated_at: "2024-12-29 03:23:48.646166"
+latest: "3.0.4--pl5321h503566f_9"
 container_url: "https://biocontainers.pro/tools/glimmerhmm"
 aliases:
  - "glimmerhmm"
@@ -17,8 +17,9 @@ versions:
  - "3.0.4--pl5321h87f3376_5"
  - "3.0.4--pl5321hdbdd923_7"
  - "3.0.4--pl5321hdbdd923_8"
+ - "3.0.4--pl5321h503566f_9"
 description: "shpc-registry automated BioContainers addition for glimmerhmm"
-config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321hdbdd923_8": "sha256:c3dd7ed64c7ca437dd1847ae0a36d598a62f1317eee2a3e61ce9bfe24028db27"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281", "3.0.4--pl5321hdbdd923_7": "sha256:fe4682a91e09f6c74befa2873fde98d780561921acd14306bfdbbed5c52ccee6", "3.0.4--pl5321hdbdd923_8": "sha256:c3dd7ed64c7ca437dd1847ae0a36d598a62f1317eee2a3e61ce9bfe24028db27"}, "docker": "quay.io/biocontainers/glimmerhmm", "aliases": {"glimmerhmm": "/usr/local/bin/glimmerhmm", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321h503566f_9": "sha256:7bccd1f4c9b6a7a1afc65bf10f2c3ee1cf2e132cde3031b252fea2dbed979406"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281", "3.0.4--pl5321hdbdd923_7": "sha256:fe4682a91e09f6c74befa2873fde98d780561921acd14306bfdbbed5c52ccee6", "3.0.4--pl5321hdbdd923_8": "sha256:c3dd7ed64c7ca437dd1847ae0a36d598a62f1317eee2a3e61ce9bfe24028db27", "3.0.4--pl5321h503566f_9": "sha256:7bccd1f4c9b6a7a1afc65bf10f2c3ee1cf2e132cde3031b252fea2dbed979406"}, "docker": "quay.io/biocontainers/glimmerhmm", "aliases": {"glimmerhmm": "/usr/local/bin/glimmerhmm", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimmerhmm.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/glimmerhmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/glimmerhmm:3.0.4--pl5321hdbdd923_8
+$ shpc install quay.io/biocontainers/glimmerhmm:3.0.4--pl5321h503566f_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/glimmerhmm/3.0.4--pl5321hdbdd923_8
-$ module help quay.io/biocontainers/glimmerhmm/3.0.4--pl5321hdbdd923_8
+$ module load quay.io/biocontainers/glimmerhmm/3.0.4--pl5321h503566f_9
+$ module help quay.io/biocontainers/glimmerhmm/3.0.4--pl5321h503566f_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

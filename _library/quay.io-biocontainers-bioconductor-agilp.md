@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-agilp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
-updated_at: "2024-12-28 03:01:34.862957"
-latest: "3.34.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:12:27.033458"
+latest: "3.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agilp"
 aliases:
  - "tclsh8.5"
@@ -21,8 +21,9 @@ versions:
  - "3.20.0--r40_0"
  - "3.32.0--r43hdfd78af_0"
  - "3.34.0--r43hdfd78af_0"
+ - "3.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-agilp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.34.0--r43hdfd78af_0": "sha256:84a1358aaffba24da9135ea24caacdaea706101952f13b18dbc75a9f4f06ae22"}, "tags": {"3.8.0--r3.4.1_0": "sha256:8ae45624f9b63a952aeeca2a962f1e1f3400e1757f0e417126d85d6bf9ece431", "3.30.0--r42hdfd78af_0": "sha256:8bac8634d3d7b43a8a1b897c1602f0d856b0fb0c01d80622bdbb5e667777bcd7", "3.26.0--r41hdfd78af_0": "sha256:c1b0aece99c02a8fba401f575d8ca26153c60c53c626fa0442232f474f94272c", "3.24.0--r41hdfd78af_0": "sha256:d2ce98a8d943f079afdd14960919f98e06b7beb0ba0ed7418dccb3ba5383d120", "3.22.0--r40hdfd78af_1": "sha256:e7a88c058429f350331f5c75ef835c9e0fb5a4c21be207ee0fdb345d6ea86835", "3.20.0--r40_0": "sha256:0aeb25c42ecac5d903c9707b4ef773d505bb584a027ebe25adb56f390aa445e2", "3.32.0--r43hdfd78af_0": "sha256:e129821ef37e7d85c5deb6d6edc5facb4043dae8f05a4ef3e773bc2ff2006967", "3.34.0--r43hdfd78af_0": "sha256:84a1358aaffba24da9135ea24caacdaea706101952f13b18dbc75a9f4f06ae22"}, "docker": "quay.io/biocontainers/bioconductor-agilp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.38.0--r44hdfd78af_0": "sha256:a8d30dc5ce7e1238511e5dd6c9ff08b9445fe3b4a53929184d6108640b53bbd5"}, "tags": {"3.8.0--r3.4.1_0": "sha256:8ae45624f9b63a952aeeca2a962f1e1f3400e1757f0e417126d85d6bf9ece431", "3.30.0--r42hdfd78af_0": "sha256:8bac8634d3d7b43a8a1b897c1602f0d856b0fb0c01d80622bdbb5e667777bcd7", "3.26.0--r41hdfd78af_0": "sha256:c1b0aece99c02a8fba401f575d8ca26153c60c53c626fa0442232f474f94272c", "3.24.0--r41hdfd78af_0": "sha256:d2ce98a8d943f079afdd14960919f98e06b7beb0ba0ed7418dccb3ba5383d120", "3.22.0--r40hdfd78af_1": "sha256:e7a88c058429f350331f5c75ef835c9e0fb5a4c21be207ee0fdb345d6ea86835", "3.20.0--r40_0": "sha256:0aeb25c42ecac5d903c9707b4ef773d505bb584a027ebe25adb56f390aa445e2", "3.32.0--r43hdfd78af_0": "sha256:e129821ef37e7d85c5deb6d6edc5facb4043dae8f05a4ef3e773bc2ff2006967", "3.34.0--r43hdfd78af_0": "sha256:84a1358aaffba24da9135ea24caacdaea706101952f13b18dbc75a9f4f06ae22", "3.38.0--r44hdfd78af_0": "sha256:a8d30dc5ce7e1238511e5dd6c9ff08b9445fe3b4a53929184d6108640b53bbd5"}, "docker": "quay.io/biocontainers/bioconductor-agilp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-agilp.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-agilp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-agilp:3.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-agilp:3.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-agilp/3.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-agilp/3.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-agilp/3.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-agilp/3.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

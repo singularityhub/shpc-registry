@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-allelicimbalance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-allelicimbalance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-allelicimbalance/container.yaml"
-updated_at: "2024-12-28 03:28:29.971303"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:39:06.023130"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-allelicimbalance"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-allelicimbalance"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-allelicimbalance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allelicimbalance", "latest": {"1.40.0--r43hdfd78af_0": "sha256:86682515d370eef2e8c06757fe0dc4cac16618144e5526dd01dce274c1811377"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:3d2e793ce02b2549dcf12cb8f282d3f33cf2cdf85cdb7d48c3796c6043b791f7", "1.36.0--r42hdfd78af_0": "sha256:47585eb6f915d1b142de795a16335679eace87992c02ea1dbccc6cc48c218151", "1.38.0--r43hdfd78af_0": "sha256:a8fe5b5a777dcf5bf722cda841c827644cc9fc8ff802be4ec227556ce083a41a", "1.40.0--r43hdfd78af_0": "sha256:86682515d370eef2e8c06757fe0dc4cac16618144e5526dd01dce274c1811377"}, "docker": "quay.io/biocontainers/bioconductor-allelicimbalance"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-allelicimbalance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allelicimbalance", "latest": {"1.44.0--r44hdfd78af_0": "sha256:c1940e7d6a188c5e5813486f753d34bc784e24c605fdafe4a24fdcd96ca40398"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:3d2e793ce02b2549dcf12cb8f282d3f33cf2cdf85cdb7d48c3796c6043b791f7", "1.36.0--r42hdfd78af_0": "sha256:47585eb6f915d1b142de795a16335679eace87992c02ea1dbccc6cc48c218151", "1.38.0--r43hdfd78af_0": "sha256:a8fe5b5a777dcf5bf722cda841c827644cc9fc8ff802be4ec227556ce083a41a", "1.40.0--r43hdfd78af_0": "sha256:86682515d370eef2e8c06757fe0dc4cac16618144e5526dd01dce274c1811377", "1.44.0--r44hdfd78af_0": "sha256:c1940e7d6a188c5e5813486f753d34bc784e24c605fdafe4a24fdcd96ca40398"}, "docker": "quay.io/biocontainers/bioconductor-allelicimbalance"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-allelicimbalance.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-allelicimbalance
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-allelicimbalance:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-allelicimbalance:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-allelicimbalance/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-allelicimbalance/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-allelicimbalance/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-allelicimbalance/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

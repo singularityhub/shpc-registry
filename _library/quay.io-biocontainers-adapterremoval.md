@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/adapterremoval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adapterremoval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adapterremoval/container.yaml"
-updated_at: "2024-12-28 02:53:43.262966"
-latest: "2.3.4--pl5321h6dccd9a_0"
+updated_at: "2024-12-29 03:04:41.355470"
+latest: "2.3.4--pl5321haf24da9_1"
 container_url: "https://biocontainers.pro/tools/adapterremoval"
 aliases:
  - "AdapterRemoval"
@@ -16,8 +16,9 @@ versions:
  - "2.3.3--pl5321h6dccd9a_2"
  - "2.3.3--pl5321h6dccd9a_3"
  - "2.3.4--pl5321h6dccd9a_0"
+ - "2.3.4--pl5321haf24da9_1"
 description: "shpc-registry automated BioContainers addition for adapterremoval"
-config: {"url": "https://biocontainers.pro/tools/adapterremoval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for adapterremoval", "latest": {"2.3.4--pl5321h6dccd9a_0": "sha256:d7cfa399c45483b1992368199035df4dc829e4026ccb15296519bb2f6b79a54e"}, "tags": {"2.3.3--pl5321h19e8d03_0": "sha256:e0c9cb7d5b6f1306a8147a97a59bf5a8b68915b88a2863a4b1b8c9eb24b21fc3", "2.3.3--pl5321h6dccd9a_2": "sha256:5999669f3537e784919feaf6347efe7ad2b1924a14ee4a31398d3ce15f766dc2", "2.3.3--pl5321h6dccd9a_3": "sha256:2852c4b7caab17fc9d82e96abd305c05307fe28fe8cddb0eb81c511c28c08aa5", "2.3.4--pl5321h6dccd9a_0": "sha256:d7cfa399c45483b1992368199035df4dc829e4026ccb15296519bb2f6b79a54e"}, "docker": "quay.io/biocontainers/adapterremoval", "aliases": {"AdapterRemoval": "/usr/local/bin/AdapterRemoval", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/adapterremoval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for adapterremoval", "latest": {"2.3.4--pl5321haf24da9_1": "sha256:a3f40b914f590e25dc3256b481342c91ca490bc7abda264a73dc3cc9d9808bb5"}, "tags": {"2.3.3--pl5321h19e8d03_0": "sha256:e0c9cb7d5b6f1306a8147a97a59bf5a8b68915b88a2863a4b1b8c9eb24b21fc3", "2.3.3--pl5321h6dccd9a_2": "sha256:5999669f3537e784919feaf6347efe7ad2b1924a14ee4a31398d3ce15f766dc2", "2.3.3--pl5321h6dccd9a_3": "sha256:2852c4b7caab17fc9d82e96abd305c05307fe28fe8cddb0eb81c511c28c08aa5", "2.3.4--pl5321h6dccd9a_0": "sha256:d7cfa399c45483b1992368199035df4dc829e4026ccb15296519bb2f6b79a54e", "2.3.4--pl5321haf24da9_1": "sha256:a3f40b914f590e25dc3256b481342c91ca490bc7abda264a73dc3cc9d9808bb5"}, "docker": "quay.io/biocontainers/adapterremoval", "aliases": {"AdapterRemoval": "/usr/local/bin/AdapterRemoval", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/adapterremoval.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/adapterremoval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/adapterremoval:2.3.4--pl5321h6dccd9a_0
+$ shpc install quay.io/biocontainers/adapterremoval:2.3.4--pl5321haf24da9_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/adapterremoval/2.3.4--pl5321h6dccd9a_0
-$ module help quay.io/biocontainers/adapterremoval/2.3.4--pl5321h6dccd9a_0
+$ module load quay.io/biocontainers/adapterremoval/2.3.4--pl5321haf24da9_1
+$ module help quay.io/biocontainers/adapterremoval/2.3.4--pl5321haf24da9_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

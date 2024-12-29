@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oncosimulr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncosimulr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncosimulr/container.yaml"
-updated_at: "2024-12-28 03:06:09.715583"
+updated_at: "2024-12-29 03:16:56.801718"
 latest: "4.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncosimulr"
 aliases:

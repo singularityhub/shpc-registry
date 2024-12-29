@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/msaprobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaprobs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaprobs/container.yaml"
-updated_at: "2024-12-28 02:50:33.612753"
-latest: "0.9.7--h43eeafb_3"
+updated_at: "2024-12-29 03:01:35.114814"
+latest: "0.9.7--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/msaprobs"
 aliases:
  - "msaprobs"
 versions:
  - "0.9.7--h5b5514e_1"
  - "0.9.7--h43eeafb_3"
+ - "0.9.7--h5ca1c30_4"
 description: "shpc-registry automated BioContainers addition for msaprobs"
-config: {"url": "https://biocontainers.pro/tools/msaprobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaprobs", "latest": {"0.9.7--h43eeafb_3": "sha256:755e7cf6a6f2216125c5a87c6c55ce36890e6daadc23b7af42361dffc90cd224"}, "tags": {"0.9.7--h5b5514e_1": "sha256:8ecc7d4da45d2cd04db6b5ec713f256d2f73634067ff50cd6cbe689117c6e707", "0.9.7--h43eeafb_3": "sha256:755e7cf6a6f2216125c5a87c6c55ce36890e6daadc23b7af42361dffc90cd224"}, "docker": "quay.io/biocontainers/msaprobs", "aliases": {"msaprobs": "/usr/local/bin/msaprobs"}}
+config: {"url": "https://biocontainers.pro/tools/msaprobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaprobs", "latest": {"0.9.7--h5ca1c30_4": "sha256:da671f98dfcadc2e1c2b061be910459968b4369aa0458dc022554b5fff9ffbb3"}, "tags": {"0.9.7--h5b5514e_1": "sha256:8ecc7d4da45d2cd04db6b5ec713f256d2f73634067ff50cd6cbe689117c6e707", "0.9.7--h43eeafb_3": "sha256:755e7cf6a6f2216125c5a87c6c55ce36890e6daadc23b7af42361dffc90cd224", "0.9.7--h5ca1c30_4": "sha256:da671f98dfcadc2e1c2b061be910459968b4369aa0458dc022554b5fff9ffbb3"}, "docker": "quay.io/biocontainers/msaprobs", "aliases": {"msaprobs": "/usr/local/bin/msaprobs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msaprobs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/msaprobs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msaprobs:0.9.7--h43eeafb_3
+$ shpc install quay.io/biocontainers/msaprobs:0.9.7--h5ca1c30_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msaprobs/0.9.7--h43eeafb_3
-$ module help quay.io/biocontainers/msaprobs/0.9.7--h43eeafb_3
+$ module load quay.io/biocontainers/msaprobs/0.9.7--h5ca1c30_4
+$ module help quay.io/biocontainers/msaprobs/0.9.7--h5ca1c30_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

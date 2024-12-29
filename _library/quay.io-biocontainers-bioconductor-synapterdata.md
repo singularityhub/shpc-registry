@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-synapterdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synapterdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synapterdata/container.yaml"
-updated_at: "2024-12-28 02:59:40.428862"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2024-12-29 03:10:34.831361"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synapterdata"
 aliases:
  - "gif2hdf"
@@ -23,8 +23,9 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synapterdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synapterdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapterdata", "latest": {"1.40.0--r43hdfd78af_0": "sha256:a5a368d17028892f8e13912fa83371e83d1edff9229beb621094bf9fe3f45507"}, "tags": {"1.28.0--r40hdfd78af_1": "sha256:c23887882e8b6e50a3a7046b871c77660213bf2d316e6b65c19b3620b14e9bf4", "1.36.0--r42hdfd78af_0": "sha256:34c654347d46423d2343fd71eebd6d8ebbbad735368e84227a9018db1646d4ba", "1.38.0--r43hdfd78af_0": "sha256:70fdaf4461bd43f03ba1f0c19e1f95a9e726c317bdc85c152ba5b08107aa7433", "1.40.0--r43hdfd78af_0": "sha256:a5a368d17028892f8e13912fa83371e83d1edff9229beb621094bf9fe3f45507"}, "docker": "quay.io/biocontainers/bioconductor-synapterdata", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synapterdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapterdata", "latest": {"1.44.0--r44hdfd78af_0": "sha256:03f13e72f871105beac91fe6b69307a7b4f3ea4d7b7ff1dcbaf528abf827abc0"}, "tags": {"1.28.0--r40hdfd78af_1": "sha256:c23887882e8b6e50a3a7046b871c77660213bf2d316e6b65c19b3620b14e9bf4", "1.36.0--r42hdfd78af_0": "sha256:34c654347d46423d2343fd71eebd6d8ebbbad735368e84227a9018db1646d4ba", "1.38.0--r43hdfd78af_0": "sha256:70fdaf4461bd43f03ba1f0c19e1f95a9e726c317bdc85c152ba5b08107aa7433", "1.40.0--r43hdfd78af_0": "sha256:a5a368d17028892f8e13912fa83371e83d1edff9229beb621094bf9fe3f45507", "1.44.0--r44hdfd78af_0": "sha256:03f13e72f871105beac91fe6b69307a7b4f3ea4d7b7ff1dcbaf528abf827abc0"}, "docker": "quay.io/biocontainers/bioconductor-synapterdata", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synapterdata.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synapterdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synapterdata:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-synapterdata:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synapterdata/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-synapterdata/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-synapterdata/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synapterdata/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
