@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libshorah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libshorah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libshorah/container.yaml"
-updated_at: "2024-12-29 03:44:35.616930"
+updated_at: "2024-12-30 03:39:33.718172"
 latest: "1.99.4--py39h641c068_1"
 container_url: "https://biocontainers.pro/tools/libshorah"
 aliases:

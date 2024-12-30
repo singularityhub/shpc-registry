@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recontig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recontig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recontig/container.yaml"
-updated_at: "2024-12-29 03:21:26.768476"
+updated_at: "2024-12-30 03:16:59.071453"
 latest: "1.5.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/recontig"
 aliases:

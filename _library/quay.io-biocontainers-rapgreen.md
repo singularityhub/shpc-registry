@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapgreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapgreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapgreen/container.yaml"
-updated_at: "2024-12-29 03:28:06.619512"
+updated_at: "2024-12-30 03:23:32.088769"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rapgreen"
 aliases:

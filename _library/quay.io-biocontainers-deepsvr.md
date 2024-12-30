@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepsvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepsvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepsvr/container.yaml"
-updated_at: "2024-12-29 03:30:56.785140"
+updated_at: "2024-12-30 03:26:18.868230"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/deepsvr"
 aliases:

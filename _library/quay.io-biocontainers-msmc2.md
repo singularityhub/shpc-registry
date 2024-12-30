@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msmc2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msmc2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msmc2/container.yaml"
-updated_at: "2024-12-29 03:38:33.893778"
+updated_at: "2024-12-30 03:33:39.189691"
 latest: "2.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msmc2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphlite/container.yaml"
-updated_at: "2024-12-29 02:58:57.598050"
+updated_at: "2024-12-30 02:54:51.247786"
 latest: "1.0.5--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/graphlite"
 aliases:

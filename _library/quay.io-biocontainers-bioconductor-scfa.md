@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scfa/container.yaml"
-updated_at: "2024-12-29 03:01:59.170611"
+updated_at: "2024-12-30 02:57:50.459471"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scfa"
 

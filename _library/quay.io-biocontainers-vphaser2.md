@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vphaser2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vphaser2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vphaser2/container.yaml"
-updated_at: "2024-12-29 03:15:56.479990"
+updated_at: "2024-12-30 03:11:34.299480"
 latest: "2.0--h2d38e66_13"
 container_url: "https://biocontainers.pro/tools/vphaser2"
 aliases:
