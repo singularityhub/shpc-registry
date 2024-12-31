@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qtlexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qtlexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qtlexperiment/container.yaml"
-updated_at: "2024-12-30 03:06:18.499827"
+updated_at: "2024-12-31 03:02:46.868611"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qtlexperiment"
 aliases:

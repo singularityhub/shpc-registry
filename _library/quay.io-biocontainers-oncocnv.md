@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncocnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncocnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncocnv/container.yaml"
-updated_at: "2024-12-30 03:28:06.177116"
+updated_at: "2024-12-31 03:24:53.299029"
 latest: "7.0--pl5321r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/oncocnv"
 aliases:

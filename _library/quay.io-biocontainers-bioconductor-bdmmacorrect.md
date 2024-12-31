@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bdmmacorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bdmmacorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bdmmacorrect/container.yaml"
-updated_at: "2024-12-30 03:08:56.543716"
+updated_at: "2024-12-31 03:05:27.559987"
 latest: "1.18.1--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bdmmacorrect"
 aliases:
