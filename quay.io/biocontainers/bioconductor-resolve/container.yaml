@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-resolve
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-resolve
 latest:
-  1.4.0--r43hdfd78af_0: sha256:0eac4a372c4402366d4791a9e365e059b211825a46c771d76fe58d45dbad15c1
+  1.8.0--r44hdfd78af_0: sha256:0cdb42617d2bf0732847573da391584b680a9213e195a998364d6de42519f7d4
 tags:
   1.0.0--r42hdfd78af_0: sha256:ab31fb6ae07a294603f802391674e06907eafa8ee365adc62618170747765c2d
   1.2.0--r43hdfd78af_0: sha256:8976a7e5694edf044e2af04026f7279438adbd1fe7d5126e244536e58d3e3f7e
   1.4.0--r43hdfd78af_0: sha256:0eac4a372c4402366d4791a9e365e059b211825a46c771d76fe58d45dbad15c1
+  1.8.0--r44hdfd78af_0: sha256:0cdb42617d2bf0732847573da391584b680a9213e195a998364d6de42519f7d4
 docker: quay.io/biocontainers/bioconductor-resolve
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

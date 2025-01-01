@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bicseq2-norm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bicseq2-norm
 latest:
-  0.2.4--h031d066_5: sha256:75786d1047ef7d017ab6bb3ff85c1c45786c501d3a7784b25b05e0cecfd590a2
+  0.2.4--h7b50bb2_6: sha256:7670f144704ef79cfb086023792b1d72a6803b5bd29cfbab4b5b7c95f30a5530
 tags:
   0.2.4--hec16e2b_3: sha256:22484736ee5178b8ac49817330a0af73934a13a2cecb1ddbb66839007fe2dc65
   0.2.4--h031d066_5: sha256:75786d1047ef7d017ab6bb3ff85c1c45786c501d3a7784b25b05e0cecfd590a2
+  0.2.4--h7b50bb2_6: sha256:7670f144704ef79cfb086023792b1d72a6803b5bd29cfbab4b5b7c95f30a5530
 docker: quay.io/biocontainers/bicseq2-norm
 aliases:
   BRS: /usr/local/bin/BRS

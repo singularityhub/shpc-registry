@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-experimenthubdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-experimenthubdata
 latest:
-  1.28.0--r43hdfd78af_0: sha256:6a18dd7e14149da83e103ac1d44d9f285611a2a37260302d97e12bf4a1945f75
+  1.32.0--r44hdfd78af_0: sha256:e6848421e8f44be38a8118521e563d7c6616a2302c12f6fc01e89df6d7a1b7d9
 tags:
   1.8.0--r351_0: sha256:ad7037b109b29c26acf5812988bf3fbfe49c8de53b080a7709602759afeb1c96
   1.20.0--r41hdfd78af_0: sha256:4ede104f7af994756750a5e571a64c64e685b029df93361aae5de3d241fc4e33
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hdfd78af_0: sha256:2060f5b2ad6d427a5035023ea8e1907cb54f742315c47b1a5cb607ba67b8e585
   1.26.0--r43hdfd78af_0: sha256:693693df208f97ed98b0720fce471b76134c6beb875d0d27685d49dc43334ef4
   1.28.0--r43hdfd78af_0: sha256:6a18dd7e14149da83e103ac1d44d9f285611a2a37260302d97e12bf4a1945f75
+  1.32.0--r44hdfd78af_0: sha256:e6848421e8f44be38a8118521e563d7c6616a2302c12f6fc01e89df6d7a1b7d9
 docker: quay.io/biocontainers/bioconductor-experimenthubdata
 aliases:
   wget: /usr/local/bin/wget

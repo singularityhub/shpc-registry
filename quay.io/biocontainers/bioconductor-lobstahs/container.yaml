@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-lobstahs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lobstahs
 latest:
-  1.28.0--r43hdfd78af_0: sha256:09f92cbb52f53c07434d31fb350807ea562aa02a1e932c06dd2b524596925ac9
+  1.32.0--r44hdfd78af_0: sha256:3cd7051b07bba7c8e5258b398433b7a70c8158a0356e3aaf2e70515dfdd19786
 tags:
   1.8.1--r351_0: sha256:6c065229050cf07cbea62153537f970cd6ccaad4a3fef12e9446abd3aacbc4c0
   1.18.0--r41hdfd78af_0: sha256:c1970749d13cb73649a43d59633537eace7d83fe3f2fb6c67a5f5d8b6384d0f0
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hdfd78af_0: sha256:9c7787270e90634a0a971d70763bf8081cf8f2d08e018947d9f9c6c0c018db55
   1.26.0--r43hdfd78af_0: sha256:6887a71cf68ca13c53c742e646043f72e476da5f179bb9b27983e94636dd640b
   1.28.0--r43hdfd78af_0: sha256:09f92cbb52f53c07434d31fb350807ea562aa02a1e932c06dd2b524596925ac9
+  1.32.0--r44hdfd78af_0: sha256:3cd7051b07bba7c8e5258b398433b7a70c8158a0356e3aaf2e70515dfdd19786
 docker: quay.io/biocontainers/bioconductor-lobstahs
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

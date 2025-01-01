@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-orthosdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-orthosdata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:218b440ccafed7ef2608020dac4c94e17a229481277d43f5aa0abf02fc3eecb5
+  1.4.0--r44hdfd78af_0: sha256:80c037ccae8d8e5e748f8f414f453c6f579f4a60a239c6af7ba9baf172983c76
 tags:
   1.0.0--r43hdfd78af_0: sha256:218b440ccafed7ef2608020dac4c94e17a229481277d43f5aa0abf02fc3eecb5
+  1.4.0--r44hdfd78af_0: sha256:80c037ccae8d8e5e748f8f414f453c6f579f4a60a239c6af7ba9baf172983c76
 docker: quay.io/biocontainers/bioconductor-orthosdata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/symbiontscreener
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for symbiontscreener
 latest:
-  1.0.0--h43eeafb_1: sha256:3910e2ef083f113ef9ce37af2107e87dc7f70eb30527741da4db7bfa0e713b64
+  1.0.0--h5ca1c30_2: sha256:019a3173f5f4979bed38a523600cdbf081ca5bc7389d96cfd84fd38f2f706733
 tags:
   1.0.0--h5b5514e_0: sha256:e76cc7f707fbbcde08e7bd40f6544bcaa5d479193fe8007431a0a10a462ebbc6
   1.0.0--h43eeafb_1: sha256:3910e2ef083f113ef9ce37af2107e87dc7f70eb30527741da4db7bfa0e713b64
+  1.0.0--h5ca1c30_2: sha256:019a3173f5f4979bed38a523600cdbf081ca5bc7389d96cfd84fd38f2f706733
 docker: quay.io/biocontainers/symbiontscreener
 aliases:
   existDB: /usr/local/bin/existDB

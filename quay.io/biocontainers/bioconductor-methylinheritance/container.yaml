@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-methylinheritance
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylinheritance
 latest:
-  1.26.0--r43hdfd78af_0: sha256:1db62bf27b377b56e987cbc21466488710490a4c5a2e29db62945dd1aa1f986d
+  1.30.0--r44hdfd78af_0: sha256:b1a31f29b068eecf23d74c21e2be5297d3484dfce0bb29eda81609c25e7bdcdd
 tags:
   1.8.0--r36_1: sha256:992e0105e7a6637c8b8e5b3d6ee52477c5f6e15721fcd278f9a6d44a84ea35e1
   1.18.0--r41hdfd78af_0: sha256:4179ec2835184ee657d7ba21c43a0037f7fcd629801cc946c11c7061c468d901
@@ -13,6 +13,7 @@ tags:
   1.22.0--r42hdfd78af_0: sha256:e4ca008514480d910c2ccf2dd21be4e1a261d8f77453d6aaa3dffb89db439e67
   1.24.0--r43hdfd78af_0: sha256:c0bebfd12e507b8794238c328526cc61b8456f074371988c4457f168d298bf39
   1.26.0--r43hdfd78af_0: sha256:1db62bf27b377b56e987cbc21466488710490a4c5a2e29db62945dd1aa1f986d
+  1.30.0--r44hdfd78af_0: sha256:b1a31f29b068eecf23d74c21e2be5297d3484dfce0bb29eda81609c25e7bdcdd
 docker: quay.io/biocontainers/bioconductor-methylinheritance
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

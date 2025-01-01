@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/cobra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cobra
 latest:
-  0.21.0--pyh5e36f6f_1: sha256:86b3e2f5de186eae27c29ef803b61aea121b77d4396e3be1f9520e149218cfcf
+  0.29.1: sha256:2fd2e9768b242c8af9c4d856c47c5fb8ebb00917fd18d7b56f13bbeb848d4cfb
 tags:
   0.4.0b6--py35_0: sha256:66c6346508f61723469acd16f506b0fa45abd394191e875953442ac87420661f
   0.21.0--pyh5e36f6f_1: sha256:86b3e2f5de186eae27c29ef803b61aea121b77d4396e3be1f9520e149218cfcf
@@ -10,6 +10,7 @@ tags:
   0.19.0--pyh864c0ab_0: sha256:965d05da0beb8943616dbceec50ff337f8d0e50eda1856e305f750b27caab84a
   0.18.1--pyh864c0ab_1: sha256:9d0aac96014ca4d7fb9f6532d6d87fb493059b18c816713e8f3b13cb4822dd2f
   0.17.1--py_0: sha256:152632717ab0bfb4a098dda02a4a5fb091d6a9f90bad91195d17609eb5b89e50
+  0.29.1: sha256:2fd2e9768b242c8af9c4d856c47c5fb8ebb00917fd18d7b56f13bbeb848d4cfb
 docker: quay.io/biocontainers/cobra
 aliases:
   glpsol: /usr/local/bin/glpsol

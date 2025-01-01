@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gseamining
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gseamining
 latest:
-  1.12.0--r43hdfd78af_0: sha256:461596ed8b78a49953fa5f7871464b34c60c2295a0de5aded9a8d3bb7c4184b7
+  1.16.0--r44hdfd78af_0: sha256:9a9a28e85efe55b3807dd349f246ecc118d00f108bd5ee1477f60bd1b6191c71
 tags:
   1.4.0--r41hdfd78af_0: sha256:4a92e666d700d905e7fc93e31835df5c8b3b5fb6fdc6a7455f6d75c676e3a96c
   1.8.0--r42hdfd78af_0: sha256:89b012a3d0060ff64e6e5e5a546f2ce8feeac1681c7f6dcf33ab7a137c604d80
   1.10.0--r43hdfd78af_0: sha256:8fe6c254bd83c76de36283565a034c3c5daeecd96da23d3a2dfac725ed4dcc61
   1.12.0--r43hdfd78af_0: sha256:461596ed8b78a49953fa5f7871464b34c60c2295a0de5aded9a8d3bb7c4184b7
+  1.16.0--r44hdfd78af_0: sha256:9a9a28e85efe55b3807dd349f246ecc118d00f108bd5ee1477f60bd1b6191c71
 docker: quay.io/biocontainers/bioconductor-gseamining

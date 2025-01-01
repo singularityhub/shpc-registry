@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/zagros
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zagros
 latest:
-  1.0.0--h733e4d7_9: sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b
+  1.0.0--ha24e720_10: sha256:94eb5acf2eaf047ec1f759a9e5880fd9c5eb59472b9d8cbd759ca56fcca6d41e
 tags:
   1.0.0--h7fd9d64_7: sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1
   1.0.0--h733e4d7_9: sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b
+  1.0.0--ha24e720_10: sha256:94eb5acf2eaf047ec1f759a9e5880fd9c5eb59472b9d8cbd759ca56fcca6d41e
 docker: quay.io/biocontainers/zagros
 aliases:
   extractDEs: /usr/local/bin/extractDEs

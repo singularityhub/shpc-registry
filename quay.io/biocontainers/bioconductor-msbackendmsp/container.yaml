@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msbackendmsp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msbackendmsp
 latest:
-  1.6.0--r43hdfd78af_0: sha256:4785da430a902674e0a076addd8f81d09f517a3730dd6589d0e8a84209fd0720
+  1.10.0--r44hdfd78af_0: sha256:9a2c4ebf873acd33bc5c4f9c2f5acb53fa5d8eae68bcc2e8ddd2eb69b3b9624c
 tags:
   1.2.0--r42hdfd78af_0: sha256:cfcb9e007b019a92234147d0f55926ef1ea879a3fcbbcbc29900027aa57afc76
   1.4.0--r43hdfd78af_0: sha256:0182cb4e3cba6aea4aee810bab8f773f7988eec39f0f64bad3cf69eca2ee50d9
   1.6.0--r43hdfd78af_0: sha256:4785da430a902674e0a076addd8f81d09f517a3730dd6589d0e8a84209fd0720
+  1.10.0--r44hdfd78af_0: sha256:9a2c4ebf873acd33bc5c4f9c2f5acb53fa5d8eae68bcc2e8ddd2eb69b3b9624c
 docker: quay.io/biocontainers/bioconductor-msbackendmsp

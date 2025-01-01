@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-scmultiome
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scmultiome
 latest:
-  1.2.0--r43hdfd78af_0: sha256:23dd846755faa9ec34ce0273910dfaa6ced09ec7f28e0654b949ff679c71d9a6
+  1.6.0--r44hdfd78af_0: sha256:09c37d9db453e1491926c2fa053c3449f484d8a7b7f7d93d12336c0a19fc3dc0
 tags:
   1.0.0--r43hdfd78af_0: sha256:6d38d04a988919c6f36a92f6e45c3fea6546029df3f587ae005354dd06ccdac1
   1.2.0--r43hdfd78af_0: sha256:23dd846755faa9ec34ce0273910dfaa6ced09ec7f28e0654b949ff679c71d9a6
+  1.6.0--r44hdfd78af_0: sha256:09c37d9db453e1491926c2fa053c3449f484d8a7b7f7d93d12336c0a19fc3dc0
 docker: quay.io/biocontainers/bioconductor-scmultiome
 aliases:
   hb-info: /usr/local/bin/hb-info

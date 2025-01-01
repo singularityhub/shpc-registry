@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/abpoa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abpoa
 latest:
-  1.5.3--he4a0461_0: sha256:f2b335e5cbb96ef79b6b76bc996ad2f4dc10d288b01c5ddd45229e897b93148a
+  1.5.3--h577a1d6_1: sha256:9dd10a236188ec5c6f86642c1d17389e7bff9f97b9a28977d4c78f65b9a7515a
 tags:
   1.4.1--h7132678_1: sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d
   1.4.1--h7132678_2: sha256:c0b499af682159c7aa76b6fe79055c6bbe66d7a79aeac679eaae7cef15d9b1f4
@@ -12,6 +12,7 @@ tags:
   1.5.1--he4a0461_1: sha256:a96f35644dc8e8b468f68bfb6c7bc7fc8c36f5e8fbaa2f8231210b6fcea0efb3
   1.5.2--he4a0461_0: sha256:5d89e7b279782ced33cbafd681e627cafd9557064cd0ffe44f5db4365bdf20f5
   1.5.3--he4a0461_0: sha256:f2b335e5cbb96ef79b6b76bc996ad2f4dc10d288b01c5ddd45229e897b93148a
+  1.5.3--h577a1d6_1: sha256:9dd10a236188ec5c6f86642c1d17389e7bff9f97b9a28977d4c78f65b9a7515a
 docker: quay.io/biocontainers/abpoa
 aliases:
   abpoa: /usr/local/bin/abpoa

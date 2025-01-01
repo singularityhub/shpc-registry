@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-xlaevis2probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xlaevis2probe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:9fe8e2c54239e1abdea925977828712a17ea4478a9e1985473a636cb69b3efdf
+  2.18.0--r44hdfd78af_13: sha256:93367fce1c172862bcb899ac5ade28a38bf9b7e559e32bb81745a40f71e3e50c
 tags:
   2.18.0--r41hdfd78af_9: sha256:dcff6c20a711a5443c87ba3b9bd68e9e0cef6e57001141e3a53132ae2110ca64
   2.18.0--r42hdfd78af_10: sha256:2225b3357de39280a685595917e4663174e452baddc623c9de9fe467a3b37fed
   2.18.0--r43hdfd78af_11: sha256:d1b6f42de2c7d6b16edf992ac0150dee0aa69ca32569882cdfda5bc2a78ec4f4
   2.18.0--r43hdfd78af_12: sha256:9fe8e2c54239e1abdea925977828712a17ea4478a9e1985473a636cb69b3efdf
+  2.18.0--r44hdfd78af_13: sha256:93367fce1c172862bcb899ac5ade28a38bf9b7e559e32bb81745a40f71e3e50c
 docker: quay.io/biocontainers/bioconductor-xlaevis2probe

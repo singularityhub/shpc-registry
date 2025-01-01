@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/harvesttools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for harvesttools
 latest:
-  1.2--h139f625_1: sha256:aca6182668c03777cbe14d9298edd9806ab53207296daadefca072af5fb69f0f
+  1.2--ha9fde67_2: sha256:526d060f2f1d2715d827c75fec126b30eb0451933b65e886081551698c9beb2b
 tags:
   1.2--h139f625_1: sha256:aca6182668c03777cbe14d9298edd9806ab53207296daadefca072af5fb69f0f
+  1.2--ha9fde67_2: sha256:526d060f2f1d2715d827c75fec126b30eb0451933b65e886081551698c9beb2b
 docker: quay.io/biocontainers/harvesttools
 aliases:
   harvesttools: /usr/local/bin/harvesttools

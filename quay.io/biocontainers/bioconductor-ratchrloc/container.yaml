@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ratchrloc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ratchrloc
 latest:
-  2.1.6--r43hdfd78af_12: sha256:ed22f17c89ae67774cba26e8cca6490d1b316b1088bf41d85a9b017d8f612a26
+  2.1.6--r44hdfd78af_13: sha256:6a0fe66a815a93e76d7585bbdaf5bad546da01df9007c40f13c5e177cd172e16
 tags:
   2.1.6--r41hdfd78af_9: sha256:78705679c42b2813036ed6e5c8f0cde32ee8696ea18bbe18e9362e34d3da78d5
   2.1.6--r42hdfd78af_10: sha256:d040185ab7477364e98868a1cbf611beb5fc1c48ba4302ab0ecda8cd4d6870b6
   2.1.6--r43hdfd78af_11: sha256:61b4487524d29a6e1700902141728e9bba91ad52fd4eb37e7701ec84064a3fc9
   2.1.6--r43hdfd78af_12: sha256:ed22f17c89ae67774cba26e8cca6490d1b316b1088bf41d85a9b017d8f612a26
+  2.1.6--r44hdfd78af_13: sha256:6a0fe66a815a93e76d7585bbdaf5bad546da01df9007c40f13c5e177cd172e16
 docker: quay.io/biocontainers/bioconductor-ratchrloc

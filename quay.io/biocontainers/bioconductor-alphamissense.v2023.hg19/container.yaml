@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-alphamissense.v2023.hg19
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-alphamissense.v2023.hg19
 latest:
-  3.18.2--r43hdfd78af_0: sha256:1d81ce0dd47da5a0659b06bf99a77ac2296394bd9fa67cc64df8b97e3deab809
+  3.18.2--r44hdfd78af_1: sha256:1db0692081ef0f3be53669acdb6e88fc1b934b047c9b739e814a7c21ea323f61
 tags:
   3.18.2--r43hdfd78af_0: sha256:1d81ce0dd47da5a0659b06bf99a77ac2296394bd9fa67cc64df8b97e3deab809
+  3.18.2--r44hdfd78af_1: sha256:1db0692081ef0f3be53669acdb6e88fc1b934b047c9b739e814a7c21ea323f61
 docker: quay.io/biocontainers/bioconductor-alphamissense.v2023.hg19
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

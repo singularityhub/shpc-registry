@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-biocset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocset
 latest:
-  1.16.0--r43hdfd78af_0: sha256:9a866592f4c37a851ad1d29563fad8c2507d6f1f325d13c96f9d8561ca869a96
+  1.20.0--r44hdfd78af_0: sha256:f715245b8da7262d0f9ddc75c0b64bbfd23c322aff9d6297168b6b770e153046
 tags:
   1.8.0--r41hdfd78af_0: sha256:3a0229fa75b86859d100b37e7c6c885d9739c6c3ee1b36e1a64771be9bb8e747
   1.12.0--r42hdfd78af_0: sha256:f33a3bb23d5901b9b6b212e394ad1bd5c4b245a3fc31c97d22395718269149e9
   1.14.0--r43hdfd78af_0: sha256:52f598e0de9b0c547bac43884c2e30355570520d5780ef6aa4ab8ce2792bbed6
   1.16.0--r43hdfd78af_0: sha256:9a866592f4c37a851ad1d29563fad8c2507d6f1f325d13c96f9d8561ca869a96
+  1.20.0--r44hdfd78af_0: sha256:f715245b8da7262d0f9ddc75c0b64bbfd23c322aff9d6297168b6b770e153046
 docker: quay.io/biocontainers/bioconductor-biocset

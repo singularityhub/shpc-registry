@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cbaf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cbaf
 latest:
-  1.24.0--r43hdfd78af_0: sha256:775f084395eb2910fc1d3c723ff90a8c4fbec3011af1abba8316e680efbe5d4a
+  1.28.0--r44hdfd78af_0: sha256:858d8b6df7b8eba532a44fd2fe0905b01352c86522f071afb315288ac2bbf793
 tags:
   1.8.0--r36_0: sha256:c6ccccac1c8d4eb57ad687ce8e8651f0b17310df60b84f54fb3256ce9609f3ed
   1.16.0--r41hdfd78af_0: sha256:4e864c023123df66481610145f778dc77e4744b50ba1638265c331aea4b77729
@@ -11,6 +11,7 @@ tags:
   1.20.0--r42hdfd78af_0: sha256:4871c7ce78fafab946b6069470165a28f2fb05c5a0a85b2eb2ffc424558f0af1
   1.22.0--r43hdfd78af_0: sha256:e873a48f8dd40b74d83f57fa5c14193996aecf7a03143a13ffed9358567b7aca
   1.24.0--r43hdfd78af_0: sha256:775f084395eb2910fc1d3c723ff90a8c4fbec3011af1abba8316e680efbe5d4a
+  1.28.0--r44hdfd78af_0: sha256:858d8b6df7b8eba532a44fd2fe0905b01352c86522f071afb315288ac2bbf793
 docker: quay.io/biocontainers/bioconductor-cbaf
 aliases:
   extcheck: /usr/local/bin/extcheck

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqcovarimpute
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rnaseqcovarimpute
 latest:
-  1.0.2--r43hdfd78af_0: sha256:829eb535d62afa5ad195c189c27d0a750bf9608d16f4c1436b67706a83184cd0
+  1.4.0--r44hdfd78af_0: sha256:274946c46e03844309b7deaa089b46e985a3ef4b1227a9e7e1d7dadfad3d3e6b
 tags:
   1.0.2--r43hdfd78af_0: sha256:829eb535d62afa5ad195c189c27d0a750bf9608d16f4c1436b67706a83184cd0
+  1.4.0--r44hdfd78af_0: sha256:274946c46e03844309b7deaa089b46e985a3ef4b1227a9e7e1d7dadfad3d3e6b
 docker: quay.io/biocontainers/bioconductor-rnaseqcovarimpute
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
