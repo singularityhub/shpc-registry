@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-probamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-probamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-probamr/container.yaml"
-updated_at: "2024-12-31 03:00:28.054148"
+updated_at: "2025-01-01 03:08:51.600094"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-probamr"
 aliases:

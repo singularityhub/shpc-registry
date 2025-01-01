@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tefinder/container.yaml"
-updated_at: "2024-12-31 03:09:03.731927"
+updated_at: "2025-01-01 03:17:35.097021"
 latest: "2.32--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/tefinder"
 aliases:

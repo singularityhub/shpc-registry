@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tidehunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidehunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidehunter/container.yaml"
-updated_at: "2024-12-31 03:11:29.663909"
+updated_at: "2025-01-01 03:20:02.696259"
 latest: "1.5.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/tidehunter"
 aliases:
