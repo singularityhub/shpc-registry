@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-icens"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icens/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icens/container.yaml"
-updated_at: "2025-01-01 03:25:41.798056"
-latest: "1.74.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:17:14.731818"
+latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icens"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
+ - "1.78.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-icens"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-icens", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icens", "latest": {"1.74.0--r43hdfd78af_0": "sha256:a78a26f2daff7194aca1f2d146bc889bfa37159c936ee2f99e83fc567d87d3c1"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:2229bbad90473854767686694d3bb49f3e2dd24c6e58dc8f506b1f298512b68c", "1.70.0--r42hdfd78af_0": "sha256:c3153b6e4454a2bd443cb714cc3f0999977e2f6451691311921fcf5e7730158e", "1.72.0--r43hdfd78af_0": "sha256:87e3ed0391f27581c516cdf59f305bc7f4576f5c9cf49a5208db3884d33b5bf1", "1.74.0--r43hdfd78af_0": "sha256:a78a26f2daff7194aca1f2d146bc889bfa37159c936ee2f99e83fc567d87d3c1"}, "docker": "quay.io/biocontainers/bioconductor-icens"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-icens", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icens", "latest": {"1.78.0--r44hdfd78af_0": "sha256:58d6bc4f9f55602b95f0b3d264dbf32b6228f48dc1ecedf7dc2e01db8b7341ec"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:2229bbad90473854767686694d3bb49f3e2dd24c6e58dc8f506b1f298512b68c", "1.70.0--r42hdfd78af_0": "sha256:c3153b6e4454a2bd443cb714cc3f0999977e2f6451691311921fcf5e7730158e", "1.72.0--r43hdfd78af_0": "sha256:87e3ed0391f27581c516cdf59f305bc7f4576f5c9cf49a5208db3884d33b5bf1", "1.74.0--r43hdfd78af_0": "sha256:a78a26f2daff7194aca1f2d146bc889bfa37159c936ee2f99e83fc567d87d3c1", "1.78.0--r44hdfd78af_0": "sha256:58d6bc4f9f55602b95f0b3d264dbf32b6228f48dc1ecedf7dc2e01db8b7341ec"}, "docker": "quay.io/biocontainers/bioconductor-icens"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-icens.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-icens
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-icens:1.74.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-icens:1.78.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-icens/1.74.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-icens/1.74.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-icens/1.78.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-icens/1.78.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

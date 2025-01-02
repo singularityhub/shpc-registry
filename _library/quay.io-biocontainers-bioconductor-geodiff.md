@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geodiff/container.yaml"
-updated_at: "2025-01-01 03:32:09.664767"
-latest: "1.8.0--r43hf17093f_0"
+updated_at: "2025-01-02 03:23:35.559269"
+latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geodiff"
 aliases:
  - "f2py3.10"
@@ -21,8 +21,9 @@ versions:
  - "1.4.0--r42hf17093f_1"
  - "1.6.0--r43hf17093f_0"
  - "1.8.0--r43hf17093f_0"
+ - "1.12.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geodiff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geodiff", "latest": {"1.8.0--r43hf17093f_0": "sha256:0f9fa2bebb81f2057628e9805cad90c8ff9eb3ae9b2d503535deeb9f6875a1bd"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:c5814543fc876cf7a5e65fc27792ff2e8d8bb021570a4cc3cbe678c8c3e521b7", "1.4.0--r42hc247a5b_0": "sha256:e48f3f8e9ec4a588bbac52b7d9e07d561d6104e49080e2a1759f397c7a5d79dc", "1.4.0--r42hf17093f_1": "sha256:bbd96ce05ec0ff301e53bc6f1eddc0bb2b02e24dc52c5b4c812352df5deeab93", "1.6.0--r43hf17093f_0": "sha256:d30659c8a531ce17421072ad982c30eff5702efc81d44db5deff218a0c458f22", "1.8.0--r43hf17093f_0": "sha256:0f9fa2bebb81f2057628e9805cad90c8ff9eb3ae9b2d503535deeb9f6875a1bd"}, "docker": "quay.io/biocontainers/bioconductor-geodiff", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geodiff", "latest": {"1.12.0--r44he5774e6_0": "sha256:ed41f4833062714047e47d0786391a7a41c44ba1f48b4d4f5b500e7890d7e198"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:c5814543fc876cf7a5e65fc27792ff2e8d8bb021570a4cc3cbe678c8c3e521b7", "1.4.0--r42hc247a5b_0": "sha256:e48f3f8e9ec4a588bbac52b7d9e07d561d6104e49080e2a1759f397c7a5d79dc", "1.4.0--r42hf17093f_1": "sha256:bbd96ce05ec0ff301e53bc6f1eddc0bb2b02e24dc52c5b4c812352df5deeab93", "1.6.0--r43hf17093f_0": "sha256:d30659c8a531ce17421072ad982c30eff5702efc81d44db5deff218a0c458f22", "1.8.0--r43hf17093f_0": "sha256:0f9fa2bebb81f2057628e9805cad90c8ff9eb3ae9b2d503535deeb9f6875a1bd", "1.12.0--r44he5774e6_0": "sha256:ed41f4833062714047e47d0786391a7a41c44ba1f48b4d4f5b500e7890d7e198"}, "docker": "quay.io/biocontainers/bioconductor-geodiff", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geodiff.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geodiff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geodiff:1.8.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-geodiff:1.12.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geodiff/1.8.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-geodiff/1.8.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-geodiff/1.12.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-geodiff/1.12.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

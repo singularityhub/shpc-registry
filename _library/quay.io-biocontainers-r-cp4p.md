@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cp4p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cp4p/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cp4p/container.yaml"
-updated_at: "2025-01-01 03:23:18.631321"
+updated_at: "2025-01-02 03:14:53.708228"
 latest: "0.3.6--r43h3342da4_6"
 container_url: "https://biocontainers.pro/tools/r-cp4p"
 aliases:

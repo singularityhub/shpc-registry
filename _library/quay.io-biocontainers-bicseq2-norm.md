@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bicseq2-norm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bicseq2-norm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bicseq2-norm/container.yaml"
-updated_at: "2025-01-01 03:10:37.646795"
-latest: "0.2.4--h031d066_5"
+updated_at: "2025-01-02 03:02:24.095069"
+latest: "0.2.4--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/bicseq2-norm"
 aliases:
  - "BRS"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "0.2.4--hec16e2b_3"
  - "0.2.4--h031d066_5"
+ - "0.2.4--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for bicseq2-norm"
-config: {"url": "https://biocontainers.pro/tools/bicseq2-norm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bicseq2-norm", "latest": {"0.2.4--h031d066_5": "sha256:75786d1047ef7d017ab6bb3ff85c1c45786c501d3a7784b25b05e0cecfd590a2"}, "tags": {"0.2.4--hec16e2b_3": "sha256:22484736ee5178b8ac49817330a0af73934a13a2cecb1ddbb66839007fe2dc65", "0.2.4--h031d066_5": "sha256:75786d1047ef7d017ab6bb3ff85c1c45786c501d3a7784b25b05e0cecfd590a2"}, "docker": "quay.io/biocontainers/bicseq2-norm", "aliases": {"BRS": "/usr/local/bin/BRS", "NBICseq-norm.pl": "/usr/local/bin/NBICseq-norm.pl", "PrepPois": "/usr/local/bin/PrepPois", "PrepPoisGAM": "/usr/local/bin/PrepPoisGAM", "combineFile": "/usr/local/bin/combineFile", "compRatio.R": "/usr/local/bin/compRatio.R", "filterCNV": "/usr/local/bin/filterCNV", "normalize.R": "/usr/local/bin/normalize.R", "normalizeGAM.R": "/usr/local/bin/normalizeGAM.R", "plot_RC_vs_GC.R": "/usr/local/bin/plot_RC_vs_GC.R", "purity.R": "/usr/local/bin/purity.R", "purityEM": "/usr/local/bin/purityEM", "random_split": "/usr/local/bin/random_split", "refine.R": "/usr/local/bin/refine.R", "refineGAM.R": "/usr/local/bin/refineGAM.R", "test.mgcv.installed.R": "/usr/local/bin/test.mgcv.installed.R", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/bicseq2-norm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bicseq2-norm", "latest": {"0.2.4--h7b50bb2_6": "sha256:7670f144704ef79cfb086023792b1d72a6803b5bd29cfbab4b5b7c95f30a5530"}, "tags": {"0.2.4--hec16e2b_3": "sha256:22484736ee5178b8ac49817330a0af73934a13a2cecb1ddbb66839007fe2dc65", "0.2.4--h031d066_5": "sha256:75786d1047ef7d017ab6bb3ff85c1c45786c501d3a7784b25b05e0cecfd590a2", "0.2.4--h7b50bb2_6": "sha256:7670f144704ef79cfb086023792b1d72a6803b5bd29cfbab4b5b7c95f30a5530"}, "docker": "quay.io/biocontainers/bicseq2-norm", "aliases": {"BRS": "/usr/local/bin/BRS", "NBICseq-norm.pl": "/usr/local/bin/NBICseq-norm.pl", "PrepPois": "/usr/local/bin/PrepPois", "PrepPoisGAM": "/usr/local/bin/PrepPoisGAM", "combineFile": "/usr/local/bin/combineFile", "compRatio.R": "/usr/local/bin/compRatio.R", "filterCNV": "/usr/local/bin/filterCNV", "normalize.R": "/usr/local/bin/normalize.R", "normalizeGAM.R": "/usr/local/bin/normalizeGAM.R", "plot_RC_vs_GC.R": "/usr/local/bin/plot_RC_vs_GC.R", "purity.R": "/usr/local/bin/purity.R", "purityEM": "/usr/local/bin/purityEM", "random_split": "/usr/local/bin/random_split", "refine.R": "/usr/local/bin/refine.R", "refineGAM.R": "/usr/local/bin/refineGAM.R", "test.mgcv.installed.R": "/usr/local/bin/test.mgcv.installed.R", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bicseq2-norm.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bicseq2-norm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bicseq2-norm:0.2.4--h031d066_5
+$ shpc install quay.io/biocontainers/bicseq2-norm:0.2.4--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bicseq2-norm/0.2.4--h031d066_5
-$ module help quay.io/biocontainers/bicseq2-norm/0.2.4--h031d066_5
+$ module load quay.io/biocontainers/bicseq2-norm/0.2.4--h7b50bb2_6
+$ module help quay.io/biocontainers/bicseq2-norm/0.2.4--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

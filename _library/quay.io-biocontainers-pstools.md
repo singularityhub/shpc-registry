@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pstools/container.yaml"
-updated_at: "2025-01-01 03:35:16.638856"
-latest: "0.2a3--hdcf5f25_3"
+updated_at: "2025-01-02 03:26:40.131699"
+latest: "0.2a3--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/pstools"
 aliases:
  - "pstools"
 versions:
  - "0.2a3--hd03093a_1"
  - "0.2a3--hdcf5f25_3"
+ - "0.2a3--h077b44d_4"
 description: "shpc-registry automated BioContainers addition for pstools"
-config: {"url": "https://biocontainers.pro/tools/pstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pstools", "latest": {"0.2a3--hdcf5f25_3": "sha256:1c1d55dc8f8165b8a79f5554ae2aacc138ba289adc48cef75ce1c4a5555e9ebc"}, "tags": {"0.2a3--hd03093a_1": "sha256:1bea826891be47ef54403e8c67f759f35645aca366d73669e99c131014738c35", "0.2a3--hdcf5f25_3": "sha256:1c1d55dc8f8165b8a79f5554ae2aacc138ba289adc48cef75ce1c4a5555e9ebc"}, "docker": "quay.io/biocontainers/pstools", "aliases": {"pstools": "/usr/local/bin/pstools"}}
+config: {"url": "https://biocontainers.pro/tools/pstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pstools", "latest": {"0.2a3--h077b44d_4": "sha256:af9484e1775494e67137b42a1d7b4d09f56a2b13b5e286aab1c444b3388ab056"}, "tags": {"0.2a3--hd03093a_1": "sha256:1bea826891be47ef54403e8c67f759f35645aca366d73669e99c131014738c35", "0.2a3--hdcf5f25_3": "sha256:1c1d55dc8f8165b8a79f5554ae2aacc138ba289adc48cef75ce1c4a5555e9ebc", "0.2a3--h077b44d_4": "sha256:af9484e1775494e67137b42a1d7b4d09f56a2b13b5e286aab1c444b3388ab056"}, "docker": "quay.io/biocontainers/pstools", "aliases": {"pstools": "/usr/local/bin/pstools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pstools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pstools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pstools:0.2a3--hdcf5f25_3
+$ shpc install quay.io/biocontainers/pstools:0.2a3--h077b44d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pstools/0.2a3--hdcf5f25_3
-$ module help quay.io/biocontainers/pstools/0.2a3--hdcf5f25_3
+$ module load quay.io/biocontainers/pstools/0.2a3--h077b44d_4
+$ module help quay.io/biocontainers/pstools/0.2a3--h077b44d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

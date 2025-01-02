@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-wiggleplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
-updated_at: "2025-01-01 03:15:40.915882"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:07:23.938952"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wiggleplotr"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r42hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wiggleplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr", "latest": {"1.26.0--r43hdfd78af_0": "sha256:0f07cc134009200c5f6811b406ee6b5431c0b88dc4718aef3cf71671dddfb231"}, "tags": {"1.8.0--r36_1": "sha256:d04560d75c469e3f1f19a70d1b26718dd102ebe61b93fe5401699d5e078031a7", "1.18.0--r41hdfd78af_0": "sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566", "1.16.0--r41hdfd78af_0": "sha256:758384c0ace6cf1e807b2d9f84e788d283a30dce3914f53b7747ffcd795a6dac", "1.14.0--r40hdfd78af_1": "sha256:b9ab0bf7439b854913da3650985e1c884c88286b06a9eeadd34f219d340b5eba", "1.12.0--r40_0": "sha256:cc29183ffb30e927d3edd6f1fef42afff35d48ad053aaeb07afac5c317e6a9d3", "1.10.1--r36_0": "sha256:14ff2f3990d3a94f875c773c578d9eb6d2f04ad673b9dc256880a50bc0136f8a", "1.22.0--r42hdfd78af_0": "sha256:d7d5332df2d006e116ef369b66b5a927356c998e87329f49b87eade0fc986590", "1.24.0--r43hdfd78af_0": "sha256:a0e11cfbf2a898950c3f6d81ec753493e44779bfc326a7004af5eadcab4d2569", "1.26.0--r43hdfd78af_0": "sha256:0f07cc134009200c5f6811b406ee6b5431c0b88dc4718aef3cf71671dddfb231"}, "docker": "quay.io/biocontainers/bioconductor-wiggleplotr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wiggleplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr", "latest": {"1.30.0--r44hdfd78af_0": "sha256:1ffe05f74e67e67868d7403e3c1b8de120ede4f86a6ff6ae9327f96c6d715088"}, "tags": {"1.8.0--r36_1": "sha256:d04560d75c469e3f1f19a70d1b26718dd102ebe61b93fe5401699d5e078031a7", "1.18.0--r41hdfd78af_0": "sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566", "1.16.0--r41hdfd78af_0": "sha256:758384c0ace6cf1e807b2d9f84e788d283a30dce3914f53b7747ffcd795a6dac", "1.14.0--r40hdfd78af_1": "sha256:b9ab0bf7439b854913da3650985e1c884c88286b06a9eeadd34f219d340b5eba", "1.12.0--r40_0": "sha256:cc29183ffb30e927d3edd6f1fef42afff35d48ad053aaeb07afac5c317e6a9d3", "1.10.1--r36_0": "sha256:14ff2f3990d3a94f875c773c578d9eb6d2f04ad673b9dc256880a50bc0136f8a", "1.22.0--r42hdfd78af_0": "sha256:d7d5332df2d006e116ef369b66b5a927356c998e87329f49b87eade0fc986590", "1.24.0--r43hdfd78af_0": "sha256:a0e11cfbf2a898950c3f6d81ec753493e44779bfc326a7004af5eadcab4d2569", "1.26.0--r43hdfd78af_0": "sha256:0f07cc134009200c5f6811b406ee6b5431c0b88dc4718aef3cf71671dddfb231", "1.30.0--r44hdfd78af_0": "sha256:1ffe05f74e67e67868d7403e3c1b8de120ede4f86a6ff6ae9327f96c6d715088"}, "docker": "quay.io/biocontainers/bioconductor-wiggleplotr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wiggleplotr.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wiggleplotr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wiggleplotr:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wiggleplotr:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wiggleplotr/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wiggleplotr/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wiggleplotr/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wiggleplotr/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

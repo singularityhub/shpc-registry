@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-config-autoconf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-config-autoconf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-config-autoconf/container.yaml"
-updated_at: "2025-01-01 03:08:05.368966"
-latest: "0.320--pl5321h031d066_2"
+updated_at: "2025-01-02 02:59:55.125260"
+latest: "0.320--pl5321h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/perl-config-autoconf"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.320--pl5321hec16e2b_1"
  - "0.320--pl5321h031d066_2"
+ - "0.320--pl5321h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for perl-config-autoconf"
-config: {"url": "https://biocontainers.pro/tools/perl-config-autoconf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-config-autoconf", "latest": {"0.320--pl5321h031d066_2": "sha256:e68ad2c299219bb05ffcff50a8632363825f1011a16557a376ce48f1e8365c59"}, "tags": {"0.320--pl5321hec16e2b_1": "sha256:3ab164305261354c2e0b3df279a466ac5043770c1eeaa269d916976a2cedfba5", "0.320--pl5321h031d066_2": "sha256:e68ad2c299219bb05ffcff50a8632363825f1011a16557a376ce48f1e8365c59"}, "docker": "quay.io/biocontainers/perl-config-autoconf", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-config-autoconf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-config-autoconf", "latest": {"0.320--pl5321h7b50bb2_3": "sha256:5c978da37e0e65af2dd15b37db92d8a4c644b5d35aa4e3c0e2c5688fe21331e0"}, "tags": {"0.320--pl5321hec16e2b_1": "sha256:3ab164305261354c2e0b3df279a466ac5043770c1eeaa269d916976a2cedfba5", "0.320--pl5321h031d066_2": "sha256:e68ad2c299219bb05ffcff50a8632363825f1011a16557a376ce48f1e8365c59", "0.320--pl5321h7b50bb2_3": "sha256:5c978da37e0e65af2dd15b37db92d8a4c644b5d35aa4e3c0e2c5688fe21331e0"}, "docker": "quay.io/biocontainers/perl-config-autoconf", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-config-autoconf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-config-autoconf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-config-autoconf:0.320--pl5321h031d066_2
+$ shpc install quay.io/biocontainers/perl-config-autoconf:0.320--pl5321h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-config-autoconf/0.320--pl5321h031d066_2
-$ module help quay.io/biocontainers/perl-config-autoconf/0.320--pl5321h031d066_2
+$ module load quay.io/biocontainers/perl-config-autoconf/0.320--pl5321h7b50bb2_3
+$ module help quay.io/biocontainers/perl-config-autoconf/0.320--pl5321h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

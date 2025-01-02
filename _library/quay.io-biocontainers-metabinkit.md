@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabinkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabinkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabinkit/container.yaml"
-updated_at: "2025-01-01 03:46:19.754678"
-latest: "0.2.3--r43h6ead514_2"
+updated_at: "2025-01-02 03:37:46.506249"
+latest: "0.2.3--r44h1104d80_3"
 container_url: "https://biocontainers.pro/tools/metabinkit"
 aliases:
  - "metabin"
@@ -30,8 +30,9 @@ versions:
  - "0.2.3--r42hbd632db_0"
  - "0.2.3--r42h6ead514_1"
  - "0.2.3--r43h6ead514_2"
+ - "0.2.3--r44h1104d80_3"
 description: "shpc-registry automated BioContainers addition for metabinkit"
-config: {"url": "https://biocontainers.pro/tools/metabinkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinkit", "latest": {"0.2.3--r43h6ead514_2": "sha256:2e2a2e18586e0f6ced36bb793a6459a50751c2bbc6a4e6f1f180d1c0bdf8392c"}, "tags": {"0.2.2--r41hbd632db_4": "sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087", "0.2.2--r42hbd632db_5": "sha256:9dc6d509dddda59aa87f4f25a751d9ea789c4217f56996b49b25a560cff451bf", "0.2.3--r42hbd632db_0": "sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0", "0.2.3--r42h6ead514_1": "sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6", "0.2.3--r43h6ead514_2": "sha256:2e2a2e18586e0f6ced36bb793a6459a50751c2bbc6a4e6f1f180d1c0bdf8392c"}, "docker": "quay.io/biocontainers/metabinkit", "aliases": {"metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/metabinkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinkit", "latest": {"0.2.3--r44h1104d80_3": "sha256:1561eea9b58c4adf957472a36e01926dfc272e401d603d4ed633324956fe1f98"}, "tags": {"0.2.2--r41hbd632db_4": "sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087", "0.2.2--r42hbd632db_5": "sha256:9dc6d509dddda59aa87f4f25a751d9ea789c4217f56996b49b25a560cff451bf", "0.2.3--r42hbd632db_0": "sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0", "0.2.3--r42h6ead514_1": "sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6", "0.2.3--r43h6ead514_2": "sha256:2e2a2e18586e0f6ced36bb793a6459a50751c2bbc6a4e6f1f180d1c0bdf8392c", "0.2.3--r44h1104d80_3": "sha256:1561eea9b58c4adf957472a36e01926dfc272e401d603d4ed633324956fe1f98"}, "docker": "quay.io/biocontainers/metabinkit", "aliases": {"metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabinkit.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/metabinkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabinkit:0.2.3--r43h6ead514_2
+$ shpc install quay.io/biocontainers/metabinkit:0.2.3--r44h1104d80_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabinkit/0.2.3--r43h6ead514_2
-$ module help quay.io/biocontainers/metabinkit/0.2.3--r43h6ead514_2
+$ module load quay.io/biocontainers/metabinkit/0.2.3--r44h1104d80_3
+$ module help quay.io/biocontainers/metabinkit/0.2.3--r44h1104d80_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

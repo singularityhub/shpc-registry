@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trnascan-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnascan-se/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
-updated_at: "2025-01-01 03:18:54.594238"
-latest: "2.0.12--pl5321h031d066_1"
+updated_at: "2025-01-02 03:10:34.784283"
+latest: "2.0.12--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/trnascan-se"
 aliases:
  - "EukHighConfidenceFilter"
@@ -33,8 +33,9 @@ versions:
  - "2.0.11--pl5321h031d066_1"
  - "2.0.12--pl5321h031d066_0"
  - "2.0.12--pl5321h031d066_1"
+ - "2.0.12--pl5321h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for trnascan-se"
-config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.12--pl5321h031d066_1": "sha256:f84d6d5e5800006cac57389649ef406abf91e20034ee13eb2df99d20bb5c2ae3"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db", "2.0.11--pl5321hec16e2b_0": "sha256:2481d6ff812e85feade195effde2895c78470c578046a0770b7c87c32050131f", "2.0.11--pl5321h031d066_1": "sha256:c2631d8d3849bad15440f0895212b0b38a55b41023beddb43d243c1efd20c7b2", "2.0.12--pl5321h031d066_0": "sha256:ca31ec2230bb4666af9cc9d2345f6e4de8774240350ee5df349b6e45bf36706b", "2.0.12--pl5321h031d066_1": "sha256:f84d6d5e5800006cac57389649ef406abf91e20034ee13eb2df99d20bb5c2ae3"}, "docker": "quay.io/biocontainers/trnascan-se", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.12--pl5321h7b50bb2_2": "sha256:b1697934598572cca7f512eb31ce969afcc8180ba21c82b058ee536b9b2d05a8"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db", "2.0.11--pl5321hec16e2b_0": "sha256:2481d6ff812e85feade195effde2895c78470c578046a0770b7c87c32050131f", "2.0.11--pl5321h031d066_1": "sha256:c2631d8d3849bad15440f0895212b0b38a55b41023beddb43d243c1efd20c7b2", "2.0.12--pl5321h031d066_0": "sha256:ca31ec2230bb4666af9cc9d2345f6e4de8774240350ee5df349b6e45bf36706b", "2.0.12--pl5321h031d066_1": "sha256:f84d6d5e5800006cac57389649ef406abf91e20034ee13eb2df99d20bb5c2ae3", "2.0.12--pl5321h7b50bb2_2": "sha256:b1697934598572cca7f512eb31ce969afcc8180ba21c82b058ee536b9b2d05a8"}, "docker": "quay.io/biocontainers/trnascan-se", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trnascan-se.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/trnascan-se
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trnascan-se:2.0.12--pl5321h031d066_1
+$ shpc install quay.io/biocontainers/trnascan-se:2.0.12--pl5321h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trnascan-se/2.0.12--pl5321h031d066_1
-$ module help quay.io/biocontainers/trnascan-se/2.0.12--pl5321h031d066_1
+$ module load quay.io/biocontainers/trnascan-se/2.0.12--pl5321h7b50bb2_2
+$ module help quay.io/biocontainers/trnascan-se/2.0.12--pl5321h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-raresim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raresim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raresim/container.yaml"
-updated_at: "2025-01-01 03:27:22.730198"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:18:54.391385"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raresim"
 aliases:
  - "2to3-3.11"
@@ -19,8 +19,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-raresim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-raresim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-raresim", "latest": {"1.6.0--r43hdfd78af_0": "sha256:945321a6556099045047befdfae83373892eb37ad556cbc25d5988729cc27172"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:eb013cfff1d54cab646263acbd551375c1207db74c128f30175450182961e532", "1.4.0--r43hdfd78af_0": "sha256:bf6fe0f329ac16d0b93f7b6dc6bc54640e841956d53ad343ff5f53ac9348e6f6", "1.6.0--r43hdfd78af_0": "sha256:945321a6556099045047befdfae83373892eb37ad556cbc25d5988729cc27172"}, "docker": "quay.io/biocontainers/bioconductor-raresim", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "f2py3.11": "/usr/local/bin/f2py3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-raresim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-raresim", "latest": {"1.10.0--r44hdfd78af_0": "sha256:dd0fd61d4324528a4386e8389b15ad4e04aa89df80a242f2b08599dc5299c3d9"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:eb013cfff1d54cab646263acbd551375c1207db74c128f30175450182961e532", "1.4.0--r43hdfd78af_0": "sha256:bf6fe0f329ac16d0b93f7b6dc6bc54640e841956d53ad343ff5f53ac9348e6f6", "1.6.0--r43hdfd78af_0": "sha256:945321a6556099045047befdfae83373892eb37ad556cbc25d5988729cc27172", "1.10.0--r44hdfd78af_0": "sha256:dd0fd61d4324528a4386e8389b15ad4e04aa89df80a242f2b08599dc5299c3d9"}, "docker": "quay.io/biocontainers/bioconductor-raresim", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "f2py3.11": "/usr/local/bin/f2py3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-raresim.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-raresim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-raresim:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-raresim:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-raresim/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-raresim/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-raresim/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-raresim/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

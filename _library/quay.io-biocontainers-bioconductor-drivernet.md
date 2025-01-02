@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drivernet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drivernet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drivernet/container.yaml"
-updated_at: "2025-01-01 03:13:45.297351"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:05:28.324555"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drivernet"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.38.0--r42hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-drivernet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drivernet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drivernet", "latest": {"1.42.0--r43hdfd78af_0": "sha256:99cf77d2069f17228b75023774e25dbf5c304afd4479e2339be3ba592ea42197"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:1c37126ab6b558d916024e333c5e3152ea8449121a8fca192f2577f7a0b7cc6d", "1.38.0--r42hdfd78af_0": "sha256:85bc29f8e5b90b70fa09c18070a9aea0e0094cebf0dc06e1a2ecb756fac9785b", "1.40.0--r43hdfd78af_0": "sha256:7a14004bb332d3dcf1526ff7b203c32165b18b2459ac15411bd4bbf6aaaaaa9f", "1.42.0--r43hdfd78af_0": "sha256:99cf77d2069f17228b75023774e25dbf5c304afd4479e2339be3ba592ea42197"}, "docker": "quay.io/biocontainers/bioconductor-drivernet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drivernet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drivernet", "latest": {"1.46.0--r44hdfd78af_0": "sha256:287512a9ecd995ddb62fda6717eede0d6823ae8d10b897f90f3a78174ee374fa"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:1c37126ab6b558d916024e333c5e3152ea8449121a8fca192f2577f7a0b7cc6d", "1.38.0--r42hdfd78af_0": "sha256:85bc29f8e5b90b70fa09c18070a9aea0e0094cebf0dc06e1a2ecb756fac9785b", "1.40.0--r43hdfd78af_0": "sha256:7a14004bb332d3dcf1526ff7b203c32165b18b2459ac15411bd4bbf6aaaaaa9f", "1.42.0--r43hdfd78af_0": "sha256:99cf77d2069f17228b75023774e25dbf5c304afd4479e2339be3ba592ea42197", "1.46.0--r44hdfd78af_0": "sha256:287512a9ecd995ddb62fda6717eede0d6823ae8d10b897f90f3a78174ee374fa"}, "docker": "quay.io/biocontainers/bioconductor-drivernet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drivernet.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drivernet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drivernet:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-drivernet:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drivernet/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-drivernet/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-drivernet/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-drivernet/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

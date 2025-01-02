@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/admixtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/admixtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/admixtools/container.yaml"
-updated_at: "2025-01-01 03:18:35.219294"
-latest: "7.0.2--h6a739c9_4"
+updated_at: "2025-01-02 03:10:15.712925"
+latest: "7.0.2--h75d7a4a_5"
 container_url: "https://biocontainers.pro/tools/admixtools"
 aliases:
  - "convertf"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "7.0.2--h2469040_2"
  - "7.0.2--h6a739c9_4"
+ - "7.0.2--h75d7a4a_5"
 description: "shpc-registry automated BioContainers addition for admixtools"
-config: {"url": "https://biocontainers.pro/tools/admixtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for admixtools", "latest": {"7.0.2--h6a739c9_4": "sha256:d36c4dd46423f3a03a643103b5c996c0179d328b5d013be490ca3060ca7cb47a"}, "tags": {"7.0.2--h2469040_2": "sha256:a5f678de46f4eaf6be870bd46f63a137cf8eec027d9c09e890a29e8b6e9c600b", "7.0.2--h6a739c9_4": "sha256:d36c4dd46423f3a03a643103b5c996c0179d328b5d013be490ca3060ca7cb47a"}, "docker": "quay.io/biocontainers/admixtools", "aliases": {"convertf": "/usr/local/bin/convertf", "dof4": "/usr/local/bin/dof4", "dof4a": "/usr/local/bin/dof4a", "dowtjack": "/usr/local/bin/dowtjack", "expfit.sh": "/usr/local/bin/expfit.sh", "gcount": "/usr/local/bin/gcount", "getresult": "/usr/local/bin/getresult", "grabpars": "/usr/local/bin/grabpars", "jackdiff": "/usr/local/bin/jackdiff", "kimf": "/usr/local/bin/kimf", "mergeit": "/usr/local/bin/mergeit", "mkpretty": "/usr/local/bin/mkpretty", "numlines": "/usr/local/bin/numlines", "qp3Pop": "/usr/local/bin/qp3Pop", "qp4diff": "/usr/local/bin/qp4diff", "qpAdm": "/usr/local/bin/qpAdm", "qpBound": "/usr/local/bin/qpBound", "qpDpart": "/usr/local/bin/qpDpart", "qpDstat": "/usr/local/bin/qpDstat", "qpF4ratio": "/usr/local/bin/qpF4ratio", "qpGraph": "/usr/local/bin/qpGraph", "qpWave": "/usr/local/bin/qpWave", "qpdslow": "/usr/local/bin/qpdslow", "qpff3base": "/usr/local/bin/qpff3base", "qpfmv": "/usr/local/bin/qpfmv", "qpfstats": "/usr/local/bin/qpfstats", "qpmix": "/usr/local/bin/qpmix", "qpreroot": "/usr/local/bin/qpreroot", "rexpfit.r": "/usr/local/bin/rexpfit.r", "rolloff": "/usr/local/bin/rolloff", "rolloffp": "/usr/local/bin/rolloffp", "simpjack2": "/usr/local/bin/simpjack2", "wtjack.pl": "/usr/local/bin/wtjack.pl", "xtractcol": "/usr/local/bin/xtractcol", "xtractcolv": "/usr/local/bin/xtractcolv"}}
+config: {"url": "https://biocontainers.pro/tools/admixtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for admixtools", "latest": {"7.0.2--h75d7a4a_5": "sha256:6ff060a6c1ef2264203bb2cb2462556d40162d9d5f232a02ff8079337bb68bd4"}, "tags": {"7.0.2--h2469040_2": "sha256:a5f678de46f4eaf6be870bd46f63a137cf8eec027d9c09e890a29e8b6e9c600b", "7.0.2--h6a739c9_4": "sha256:d36c4dd46423f3a03a643103b5c996c0179d328b5d013be490ca3060ca7cb47a", "7.0.2--h75d7a4a_5": "sha256:6ff060a6c1ef2264203bb2cb2462556d40162d9d5f232a02ff8079337bb68bd4"}, "docker": "quay.io/biocontainers/admixtools", "aliases": {"convertf": "/usr/local/bin/convertf", "dof4": "/usr/local/bin/dof4", "dof4a": "/usr/local/bin/dof4a", "dowtjack": "/usr/local/bin/dowtjack", "expfit.sh": "/usr/local/bin/expfit.sh", "gcount": "/usr/local/bin/gcount", "getresult": "/usr/local/bin/getresult", "grabpars": "/usr/local/bin/grabpars", "jackdiff": "/usr/local/bin/jackdiff", "kimf": "/usr/local/bin/kimf", "mergeit": "/usr/local/bin/mergeit", "mkpretty": "/usr/local/bin/mkpretty", "numlines": "/usr/local/bin/numlines", "qp3Pop": "/usr/local/bin/qp3Pop", "qp4diff": "/usr/local/bin/qp4diff", "qpAdm": "/usr/local/bin/qpAdm", "qpBound": "/usr/local/bin/qpBound", "qpDpart": "/usr/local/bin/qpDpart", "qpDstat": "/usr/local/bin/qpDstat", "qpF4ratio": "/usr/local/bin/qpF4ratio", "qpGraph": "/usr/local/bin/qpGraph", "qpWave": "/usr/local/bin/qpWave", "qpdslow": "/usr/local/bin/qpdslow", "qpff3base": "/usr/local/bin/qpff3base", "qpfmv": "/usr/local/bin/qpfmv", "qpfstats": "/usr/local/bin/qpfstats", "qpmix": "/usr/local/bin/qpmix", "qpreroot": "/usr/local/bin/qpreroot", "rexpfit.r": "/usr/local/bin/rexpfit.r", "rolloff": "/usr/local/bin/rolloff", "rolloffp": "/usr/local/bin/rolloffp", "simpjack2": "/usr/local/bin/simpjack2", "wtjack.pl": "/usr/local/bin/wtjack.pl", "xtractcol": "/usr/local/bin/xtractcol", "xtractcolv": "/usr/local/bin/xtractcolv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/admixtools.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/admixtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/admixtools:7.0.2--h6a739c9_4
+$ shpc install quay.io/biocontainers/admixtools:7.0.2--h75d7a4a_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/admixtools/7.0.2--h6a739c9_4
-$ module help quay.io/biocontainers/admixtools/7.0.2--h6a739c9_4
+$ module load quay.io/biocontainers/admixtools/7.0.2--h75d7a4a_5
+$ module help quay.io/biocontainers/admixtools/7.0.2--h75d7a4a_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cyanofilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
-updated_at: "2025-01-01 03:01:46.239934"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-02 02:53:43.582973"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cyanofilter"
 aliases:
  - "geosop"
@@ -15,8 +15,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cyanofilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cyanofilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyanofilter", "latest": {"1.10.0--r43hdfd78af_0": "sha256:15db4a02f74bc821e2b1de88e70478ffa883c46635064e47f2663e236c1bedc7"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4", "1.6.0--r42hdfd78af_0": "sha256:d7618c0437c0b93ba9cbb62aa5db6791eae6f35e940bf48fa88948b7b1f5de9a", "1.8.0--r43hdfd78af_0": "sha256:3a297ec9789f85f223944d7f51ff40554315d2d4ab92b85f935eac105b9d7291", "1.10.0--r43hdfd78af_0": "sha256:15db4a02f74bc821e2b1de88e70478ffa883c46635064e47f2663e236c1bedc7"}, "docker": "quay.io/biocontainers/bioconductor-cyanofilter", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cyanofilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyanofilter", "latest": {"1.14.0--r44hdfd78af_0": "sha256:79fb6e83ada19b121c35a94368a6fbbc2baf911217a07ce316ae16bb8f338a78"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4", "1.6.0--r42hdfd78af_0": "sha256:d7618c0437c0b93ba9cbb62aa5db6791eae6f35e940bf48fa88948b7b1f5de9a", "1.8.0--r43hdfd78af_0": "sha256:3a297ec9789f85f223944d7f51ff40554315d2d4ab92b85f935eac105b9d7291", "1.10.0--r43hdfd78af_0": "sha256:15db4a02f74bc821e2b1de88e70478ffa883c46635064e47f2663e236c1bedc7", "1.14.0--r44hdfd78af_0": "sha256:79fb6e83ada19b121c35a94368a6fbbc2baf911217a07ce316ae16bb8f338a78"}, "docker": "quay.io/biocontainers/bioconductor-cyanofilter", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cyanofilter.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cyanofilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cyanofilter:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cyanofilter:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cyanofilter/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cyanofilter/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cyanofilter/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cyanofilter/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

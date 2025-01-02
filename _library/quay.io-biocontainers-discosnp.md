@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/discosnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discosnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/discosnp/container.yaml"
-updated_at: "2025-01-01 03:39:26.991302"
-latest: "2.6.2--h43eeafb_4"
+updated_at: "2025-01-02 03:30:46.678769"
+latest: "2.6.2--h5ca1c30_5"
 container_url: "https://biocontainers.pro/tools/discosnp"
 aliases:
  - "SRC_counter"
@@ -37,8 +37,9 @@ versions:
  - "2.6.2--h5b5514e_1"
  - "2.6.2--h43eeafb_3"
  - "2.6.2--h43eeafb_4"
+ - "2.6.2--h5ca1c30_5"
 description: "shpc-registry automated BioContainers addition for discosnp"
-config: {"url": "https://biocontainers.pro/tools/discosnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for discosnp", "latest": {"2.6.2--h43eeafb_4": "sha256:b5a280edbc819047792e4ca0387b301595e078bbb10ba1a5dfe5e8494204c89b"}, "tags": {"2.6.2--h5b5514e_1": "sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0", "2.6.2--h43eeafb_3": "sha256:9b27ccf463c966eae32d2e7bfb809934113ad4e054c4659083a0a6912d09b346", "2.6.2--h43eeafb_4": "sha256:b5a280edbc819047792e4ca0387b301595e078bbb10ba1a5dfe5e8494204c89b"}, "docker": "quay.io/biocontainers/discosnp", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker_ram": "/usr/local/bin/SRC_linker_ram", "dbgh5": "/usr/local/bin/dbgh5", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "kissnp2": "/usr/local/bin/kissnp2", "kissreads2": "/usr/local/bin/kissreads2", "quick_hierarchical_clustering": "/usr/local/bin/quick_hierarchical_clustering", "read_file_names": "/usr/local/bin/read_file_names", "run_discoSnp++.sh": "/usr/local/bin/run_discoSnp++.sh", "run_discoSnp++_ML.sh": "/usr/local/bin/run_discoSnp++_ML.sh", "run_discoSnpRad.sh": "/usr/local/bin/run_discoSnpRad.sh", "short_read_connector.sh": "/usr/local/bin/short_read_connector.sh", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/discosnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for discosnp", "latest": {"2.6.2--h5ca1c30_5": "sha256:c074cc89eed96529b4d712625aaf7ed459cb89ada3c4ec08f0ace530a555da11"}, "tags": {"2.6.2--h5b5514e_1": "sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0", "2.6.2--h43eeafb_3": "sha256:9b27ccf463c966eae32d2e7bfb809934113ad4e054c4659083a0a6912d09b346", "2.6.2--h43eeafb_4": "sha256:b5a280edbc819047792e4ca0387b301595e078bbb10ba1a5dfe5e8494204c89b", "2.6.2--h5ca1c30_5": "sha256:c074cc89eed96529b4d712625aaf7ed459cb89ada3c4ec08f0ace530a555da11"}, "docker": "quay.io/biocontainers/discosnp", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker_ram": "/usr/local/bin/SRC_linker_ram", "dbgh5": "/usr/local/bin/dbgh5", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "kissnp2": "/usr/local/bin/kissnp2", "kissreads2": "/usr/local/bin/kissreads2", "quick_hierarchical_clustering": "/usr/local/bin/quick_hierarchical_clustering", "read_file_names": "/usr/local/bin/read_file_names", "run_discoSnp++.sh": "/usr/local/bin/run_discoSnp++.sh", "run_discoSnp++_ML.sh": "/usr/local/bin/run_discoSnp++_ML.sh", "run_discoSnpRad.sh": "/usr/local/bin/run_discoSnpRad.sh", "short_read_connector.sh": "/usr/local/bin/short_read_connector.sh", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/discosnp.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/discosnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/discosnp:2.6.2--h43eeafb_4
+$ shpc install quay.io/biocontainers/discosnp:2.6.2--h5ca1c30_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/discosnp/2.6.2--h43eeafb_4
-$ module help quay.io/biocontainers/discosnp/2.6.2--h43eeafb_4
+$ module load quay.io/biocontainers/discosnp/2.6.2--h5ca1c30_5
+$ module help quay.io/biocontainers/discosnp/2.6.2--h5ca1c30_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

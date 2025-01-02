@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-affixcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
-updated_at: "2025-01-01 03:06:50.990007"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2025-01-02 02:58:43.140267"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affixcan"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affixcan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affixcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affixcan", "latest": {"1.20.0--r43hdfd78af_0": "sha256:af5c02fd34960e567f0d04da4a2fccd26dc895971b25e1c48b9f233535f8c85a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83", "1.12.0--r41hdfd78af_0": "sha256:292e9c1db6c4d9e924291a679e4903027be74655314a1310f64dd73a7ea5e5aa", "1.10.0--r41hdfd78af_0": "sha256:4bbdcbdb6fc1e8cd2cb0a8571bdf00694ff985e996103a09706ebd1ca7d222b5", "1.16.0--r42hdfd78af_0": "sha256:1c6025ae03332280b2e077a3e6e998cbcbd09fccb25a77b1749cfcfcd198bb5a", "1.18.0--r43hdfd78af_0": "sha256:b65598ecc1554613a64e14f918c71c1e0b56ba2f84daff248f4420e21faea1b3", "1.20.0--r43hdfd78af_0": "sha256:af5c02fd34960e567f0d04da4a2fccd26dc895971b25e1c48b9f233535f8c85a"}, "docker": "quay.io/biocontainers/bioconductor-affixcan", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affixcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affixcan", "latest": {"1.24.0--r44hdfd78af_0": "sha256:68f260bbd3810d422eb327080b78efe8902b83100127c5de598c4e59e8ff2959"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83", "1.12.0--r41hdfd78af_0": "sha256:292e9c1db6c4d9e924291a679e4903027be74655314a1310f64dd73a7ea5e5aa", "1.10.0--r41hdfd78af_0": "sha256:4bbdcbdb6fc1e8cd2cb0a8571bdf00694ff985e996103a09706ebd1ca7d222b5", "1.16.0--r42hdfd78af_0": "sha256:1c6025ae03332280b2e077a3e6e998cbcbd09fccb25a77b1749cfcfcd198bb5a", "1.18.0--r43hdfd78af_0": "sha256:b65598ecc1554613a64e14f918c71c1e0b56ba2f84daff248f4420e21faea1b3", "1.20.0--r43hdfd78af_0": "sha256:af5c02fd34960e567f0d04da4a2fccd26dc895971b25e1c48b9f233535f8c85a", "1.24.0--r44hdfd78af_0": "sha256:68f260bbd3810d422eb327080b78efe8902b83100127c5de598c4e59e8ff2959"}, "docker": "quay.io/biocontainers/bioconductor-affixcan", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affixcan.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-affixcan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-affixcan:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-affixcan:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-affixcan/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-affixcan/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-affixcan/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-affixcan/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

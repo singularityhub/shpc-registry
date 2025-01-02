@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-harman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harman/container.yaml"
-updated_at: "2025-01-01 03:24:20.485102"
-latest: "1.30.0--r43hf17093f_1"
+updated_at: "2025-01-02 03:15:54.459820"
+latest: "1.34.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harman"
 
 versions:
@@ -19,8 +19,9 @@ versions:
  - "1.26.0--r42hf17093f_1"
  - "1.28.0--r43hf17093f_0"
  - "1.30.0--r43hf17093f_1"
+ - "1.34.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-harman"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harman", "latest": {"1.30.0--r43hf17093f_1": "sha256:307b4a661aecf16a4e90143931222491a5b331b894a8f52f831196df7ee565a3"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:0fe108bf8e80f3b6bda77ccd228ed383017b02871080778bcb082b6252ab38bb", "1.22.0--r41hc247a5b_2": "sha256:e5e641269bf7af27455ee10e9161519ad3f70de228de1ce9e06aca7257a64142", "1.20.0--r41h399db7b_0": "sha256:d193ffb7fa59965e752408632e16ad753cc2b028b2956c7eab67f88238cce09a", "1.18.0--r40h399db7b_1": "sha256:4be3fe0af552386f7319da63411731cf70383cd1722390f336adf56019146b76", "1.16.0--r40h5f743cb_0": "sha256:aa6bc75366be03ecd18d037263c30d59bbc54d3650018a8e7e9fc4d2cc7836f1", "1.14.0--r36he1b5a44_0": "sha256:dab33b0a1b5078f70f1676b5569dba503b84ba3746232f5f89181ffb952974ec", "1.26.0--r42hc247a5b_0": "sha256:8889a1695f6ffcfbdb4fbf200d912419b07e1e6a9add6244ae959947d55cd356", "1.26.0--r42hf17093f_1": "sha256:ab0a1f5eef2e4c4a6677fb639d6ecb822e20777b44352ac15db66d5e16f5cd30", "1.28.0--r43hf17093f_0": "sha256:09643af42ab77a1a09b14bb5ab17dc011dba9407f1bbd133eabd514777e79a7e", "1.30.0--r43hf17093f_1": "sha256:307b4a661aecf16a4e90143931222491a5b331b894a8f52f831196df7ee565a3"}, "docker": "quay.io/biocontainers/bioconductor-harman"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harman", "latest": {"1.34.0--r44he5774e6_0": "sha256:0874ebb2295b7588b8242051076488026731f0f1a95f462fa0c0452a708d2578"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:0fe108bf8e80f3b6bda77ccd228ed383017b02871080778bcb082b6252ab38bb", "1.22.0--r41hc247a5b_2": "sha256:e5e641269bf7af27455ee10e9161519ad3f70de228de1ce9e06aca7257a64142", "1.20.0--r41h399db7b_0": "sha256:d193ffb7fa59965e752408632e16ad753cc2b028b2956c7eab67f88238cce09a", "1.18.0--r40h399db7b_1": "sha256:4be3fe0af552386f7319da63411731cf70383cd1722390f336adf56019146b76", "1.16.0--r40h5f743cb_0": "sha256:aa6bc75366be03ecd18d037263c30d59bbc54d3650018a8e7e9fc4d2cc7836f1", "1.14.0--r36he1b5a44_0": "sha256:dab33b0a1b5078f70f1676b5569dba503b84ba3746232f5f89181ffb952974ec", "1.26.0--r42hc247a5b_0": "sha256:8889a1695f6ffcfbdb4fbf200d912419b07e1e6a9add6244ae959947d55cd356", "1.26.0--r42hf17093f_1": "sha256:ab0a1f5eef2e4c4a6677fb639d6ecb822e20777b44352ac15db66d5e16f5cd30", "1.28.0--r43hf17093f_0": "sha256:09643af42ab77a1a09b14bb5ab17dc011dba9407f1bbd133eabd514777e79a7e", "1.30.0--r43hf17093f_1": "sha256:307b4a661aecf16a4e90143931222491a5b331b894a8f52f831196df7ee565a3", "1.34.0--r44he5774e6_0": "sha256:0874ebb2295b7588b8242051076488026731f0f1a95f462fa0c0452a708d2578"}, "docker": "quay.io/biocontainers/bioconductor-harman"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harman.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-harman
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-harman:1.30.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-harman:1.34.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-harman/1.30.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-harman/1.30.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-harman/1.34.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-harman/1.34.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

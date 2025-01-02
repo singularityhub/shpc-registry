@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-resolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-resolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-resolve/container.yaml"
-updated_at: "2025-01-01 03:34:02.896636"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:25:26.906015"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-resolve"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-resolve"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-resolve", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-resolve", "latest": {"1.4.0--r43hdfd78af_0": "sha256:0eac4a372c4402366d4791a9e365e059b211825a46c771d76fe58d45dbad15c1"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:ab31fb6ae07a294603f802391674e06907eafa8ee365adc62618170747765c2d", "1.2.0--r43hdfd78af_0": "sha256:8976a7e5694edf044e2af04026f7279438adbd1fe7d5126e244536e58d3e3f7e", "1.4.0--r43hdfd78af_0": "sha256:0eac4a372c4402366d4791a9e365e059b211825a46c771d76fe58d45dbad15c1"}, "docker": "quay.io/biocontainers/bioconductor-resolve", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-resolve", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-resolve", "latest": {"1.8.0--r44hdfd78af_0": "sha256:0cdb42617d2bf0732847573da391584b680a9213e195a998364d6de42519f7d4"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:ab31fb6ae07a294603f802391674e06907eafa8ee365adc62618170747765c2d", "1.2.0--r43hdfd78af_0": "sha256:8976a7e5694edf044e2af04026f7279438adbd1fe7d5126e244536e58d3e3f7e", "1.4.0--r43hdfd78af_0": "sha256:0eac4a372c4402366d4791a9e365e059b211825a46c771d76fe58d45dbad15c1", "1.8.0--r44hdfd78af_0": "sha256:0cdb42617d2bf0732847573da391584b680a9213e195a998364d6de42519f7d4"}, "docker": "quay.io/biocontainers/bioconductor-resolve", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-resolve.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-resolve
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-resolve:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-resolve:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-resolve/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-resolve/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-resolve/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-resolve/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

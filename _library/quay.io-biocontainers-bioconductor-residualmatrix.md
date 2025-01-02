@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-residualmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-residualmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-residualmatrix/container.yaml"
-updated_at: "2025-01-01 03:12:56.268940"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:04:39.864517"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-residualmatrix"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-residualmatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-residualmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-residualmatrix", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d3b34b46a2e26cd65de05c8c4d50fe81a84719c6fd71dab51f7b67ee4c7dd7c5"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e4a5bb7e77511b76496304f57de9f06f529fae1765d88c13a8f8c1884e0b5c8c", "1.8.0--r42hdfd78af_0": "sha256:60f909fee719423873aa6b7560de05b1874afb8e2c163461e11fc890229fd60e", "1.10.0--r43hdfd78af_0": "sha256:128c4bfa55f0bccda2484e9fd8b1e3925a63c3310dd4ba2034d402e2705a8b27", "1.12.0--r43hdfd78af_0": "sha256:d3b34b46a2e26cd65de05c8c4d50fe81a84719c6fd71dab51f7b67ee4c7dd7c5"}, "docker": "quay.io/biocontainers/bioconductor-residualmatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-residualmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-residualmatrix", "latest": {"1.16.0--r44hdfd78af_0": "sha256:daac77ad91cc4b58169ccc732dffa5741037f272738fc21047862afdeb6a886b"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e4a5bb7e77511b76496304f57de9f06f529fae1765d88c13a8f8c1884e0b5c8c", "1.8.0--r42hdfd78af_0": "sha256:60f909fee719423873aa6b7560de05b1874afb8e2c163461e11fc890229fd60e", "1.10.0--r43hdfd78af_0": "sha256:128c4bfa55f0bccda2484e9fd8b1e3925a63c3310dd4ba2034d402e2705a8b27", "1.12.0--r43hdfd78af_0": "sha256:d3b34b46a2e26cd65de05c8c4d50fe81a84719c6fd71dab51f7b67ee4c7dd7c5", "1.16.0--r44hdfd78af_0": "sha256:daac77ad91cc4b58169ccc732dffa5741037f272738fc21047862afdeb6a886b"}, "docker": "quay.io/biocontainers/bioconductor-residualmatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-residualmatrix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-residualmatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-residualmatrix:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-residualmatrix:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-residualmatrix/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-residualmatrix/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-residualmatrix/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-residualmatrix/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/simwalk2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simwalk2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simwalk2/container.yaml"
-updated_at: "2025-01-01 03:30:38.900232"
-latest: "2.91--haf399aa_6"
+updated_at: "2025-01-02 03:22:05.981723"
+latest: "2.91--h2761816_7"
 container_url: "https://biocontainers.pro/tools/simwalk2"
 aliases:
  - "simwalk2"
 versions:
  - "2.91--hb2e0dee_4"
  - "2.91--haf399aa_6"
+ - "2.91--h2761816_7"
 description: "shpc-registry automated BioContainers addition for simwalk2"
-config: {"url": "https://biocontainers.pro/tools/simwalk2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simwalk2", "latest": {"2.91--haf399aa_6": "sha256:345d56225b17810f048e8edb6e6e57ac4056ee19f69a89ded0e38df27edb6299"}, "tags": {"2.91--hb2e0dee_4": "sha256:ebf2afe6ca3fca8d4827a9542d6711ab1b748fb90958c7b11f7531f0a295571b", "2.91--haf399aa_6": "sha256:345d56225b17810f048e8edb6e6e57ac4056ee19f69a89ded0e38df27edb6299"}, "docker": "quay.io/biocontainers/simwalk2", "aliases": {"simwalk2": "/usr/local/bin/simwalk2"}}
+config: {"url": "https://biocontainers.pro/tools/simwalk2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simwalk2", "latest": {"2.91--h2761816_7": "sha256:a7a72af342f7c797ec5290ce786e82985877fbf9bfacfb5f1486e32de3b01221"}, "tags": {"2.91--hb2e0dee_4": "sha256:ebf2afe6ca3fca8d4827a9542d6711ab1b748fb90958c7b11f7531f0a295571b", "2.91--haf399aa_6": "sha256:345d56225b17810f048e8edb6e6e57ac4056ee19f69a89ded0e38df27edb6299", "2.91--h2761816_7": "sha256:a7a72af342f7c797ec5290ce786e82985877fbf9bfacfb5f1486e32de3b01221"}, "docker": "quay.io/biocontainers/simwalk2", "aliases": {"simwalk2": "/usr/local/bin/simwalk2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simwalk2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/simwalk2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simwalk2:2.91--haf399aa_6
+$ shpc install quay.io/biocontainers/simwalk2:2.91--h2761816_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simwalk2/2.91--haf399aa_6
-$ module help quay.io/biocontainers/simwalk2/2.91--haf399aa_6
+$ module load quay.io/biocontainers/simwalk2/2.91--h2761816_7
+$ module help quay.io/biocontainers/simwalk2/2.91--h2761816_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

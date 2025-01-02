@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-orthosdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthosdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthosdata/container.yaml"
-updated_at: "2025-01-01 03:33:20.199022"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:24:44.784220"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthosdata"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-orthosdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-orthosdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-orthosdata", "latest": {"1.0.0--r43hdfd78af_0": "sha256:218b440ccafed7ef2608020dac4c94e17a229481277d43f5aa0abf02fc3eecb5"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:218b440ccafed7ef2608020dac4c94e17a229481277d43f5aa0abf02fc3eecb5"}, "docker": "quay.io/biocontainers/bioconductor-orthosdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-orthosdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-orthosdata", "latest": {"1.4.0--r44hdfd78af_0": "sha256:80c037ccae8d8e5e748f8f414f453c6f579f4a60a239c6af7ba9baf172983c76"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:218b440ccafed7ef2608020dac4c94e17a229481277d43f5aa0abf02fc3eecb5", "1.4.0--r44hdfd78af_0": "sha256:80c037ccae8d8e5e748f8f414f453c6f579f4a60a239c6af7ba9baf172983c76"}, "docker": "quay.io/biocontainers/bioconductor-orthosdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-orthosdata.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-orthosdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-orthosdata:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-orthosdata:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-orthosdata/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-orthosdata/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-orthosdata/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-orthosdata/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

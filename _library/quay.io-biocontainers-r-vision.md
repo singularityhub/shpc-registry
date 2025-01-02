@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-vision"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vision/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vision/container.yaml"
-updated_at: "2025-01-01 03:25:03.913337"
-latest: "2.0.0--r43h4ac6f70_7"
+updated_at: "2025-01-02 03:16:37.296096"
+latest: "2.0.0--r44h9948957_8"
 container_url: "https://biocontainers.pro/tools/r-vision"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.0.0--r42h9f5acd7_5"
  - "2.0.0--r42h4ac6f70_6"
  - "2.0.0--r43h4ac6f70_7"
+ - "2.0.0--r44h9948957_8"
 description: "shpc-registry automated BioContainers addition for r-vision"
-config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c", "2.0.0--r42h9f5acd7_5": "sha256:f1b0bc4aa30cb27f51d8efe2e2e337fb99ee3bc1007e43dfc9372c16a33e281c", "2.0.0--r42h4ac6f70_6": "sha256:cb0635d018c1f42af0b06373bcbce3b5eafb078ee0e85316ea9270001f3622b8", "2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "docker": "quay.io/biocontainers/r-vision"}
+config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r44h9948957_8": "sha256:3578b2c18a4aefd1ce4688c8ccadd62b5bf105fd3f89e8eaf8b9d82ec1cd52e5"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c", "2.0.0--r42h9f5acd7_5": "sha256:f1b0bc4aa30cb27f51d8efe2e2e337fb99ee3bc1007e43dfc9372c16a33e281c", "2.0.0--r42h4ac6f70_6": "sha256:cb0635d018c1f42af0b06373bcbce3b5eafb078ee0e85316ea9270001f3622b8", "2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19", "2.0.0--r44h9948957_8": "sha256:3578b2c18a4aefd1ce4688c8ccadd62b5bf105fd3f89e8eaf8b9d82ec1cd52e5"}, "docker": "quay.io/biocontainers/r-vision"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vision.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-vision
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-vision:2.0.0--r43h4ac6f70_7
+$ shpc install quay.io/biocontainers/r-vision:2.0.0--r44h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-vision/2.0.0--r43h4ac6f70_7
-$ module help quay.io/biocontainers/r-vision/2.0.0--r43h4ac6f70_7
+$ module load quay.io/biocontainers/r-vision/2.0.0--r44h9948957_8
+$ module help quay.io/biocontainers/r-vision/2.0.0--r44h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

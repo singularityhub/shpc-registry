@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scdd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scdd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scdd/container.yaml"
-updated_at: "2025-01-01 03:13:38.411061"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:05:21.444275"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scdd"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r42hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scdd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scdd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scdd", "latest": {"1.26.0--r43hdfd78af_0": "sha256:701f39176268da033807b1a1283278fd1bec1f940adc2b2747fe8627070f52e9"}, "tags": {"1.8.0--r36_1": "sha256:78bd97a7287a816c7733ac4dfab5e6c39e85a82befbc0bbeff564e03e522be57", "1.18.0--r41hdfd78af_0": "sha256:13d01f7b08bde362ed60b3b7b11617b474bf7995c46eace1392734c75842c1f5", "1.16.0--r41hdfd78af_0": "sha256:9c11a71074cc9b961aa5e11411b5d29610dfb56f51068afd90e7850eea08eb16", "1.14.0--r40hdfd78af_1": "sha256:3e21a3d06a59c21919eebee28569ab12c7eac09b1b7b4bf1ddffd0fbb0554dad", "1.12.0--r40_0": "sha256:e6e1492ea8d732698cea4566ecb411b034b0f03deae5c04d25c33f71ef97c0dc", "1.10.0--r36_0": "sha256:0bc04387bd14518e6ede21096d8af7c32c8375947271aff23a8613f6376da740", "1.22.0--r42hdfd78af_0": "sha256:9800ab289f593513d2d5062dc765b7c4e6ba3af38870aeff1c14f9002cc8d108", "1.24.0--r43hdfd78af_0": "sha256:30d33e5337ba57d046b9df2ca3da974a2cf95249f9a4d02c16465f0e72c54302", "1.26.0--r43hdfd78af_0": "sha256:701f39176268da033807b1a1283278fd1bec1f940adc2b2747fe8627070f52e9"}, "docker": "quay.io/biocontainers/bioconductor-scdd", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scdd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scdd", "latest": {"1.30.0--r44hdfd78af_0": "sha256:90c39a845400589ab0059a435aca040b5e6864e3dcfb2adfbb940efa49a7d6e3"}, "tags": {"1.8.0--r36_1": "sha256:78bd97a7287a816c7733ac4dfab5e6c39e85a82befbc0bbeff564e03e522be57", "1.18.0--r41hdfd78af_0": "sha256:13d01f7b08bde362ed60b3b7b11617b474bf7995c46eace1392734c75842c1f5", "1.16.0--r41hdfd78af_0": "sha256:9c11a71074cc9b961aa5e11411b5d29610dfb56f51068afd90e7850eea08eb16", "1.14.0--r40hdfd78af_1": "sha256:3e21a3d06a59c21919eebee28569ab12c7eac09b1b7b4bf1ddffd0fbb0554dad", "1.12.0--r40_0": "sha256:e6e1492ea8d732698cea4566ecb411b034b0f03deae5c04d25c33f71ef97c0dc", "1.10.0--r36_0": "sha256:0bc04387bd14518e6ede21096d8af7c32c8375947271aff23a8613f6376da740", "1.22.0--r42hdfd78af_0": "sha256:9800ab289f593513d2d5062dc765b7c4e6ba3af38870aeff1c14f9002cc8d108", "1.24.0--r43hdfd78af_0": "sha256:30d33e5337ba57d046b9df2ca3da974a2cf95249f9a4d02c16465f0e72c54302", "1.26.0--r43hdfd78af_0": "sha256:701f39176268da033807b1a1283278fd1bec1f940adc2b2747fe8627070f52e9", "1.30.0--r44hdfd78af_0": "sha256:90c39a845400589ab0059a435aca040b5e6864e3dcfb2adfbb940efa49a7d6e3"}, "docker": "quay.io/biocontainers/bioconductor-scdd", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scdd.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scdd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scdd:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scdd:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scdd/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scdd/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scdd/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scdd/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

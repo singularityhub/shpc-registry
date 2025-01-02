@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/symbiontscreener"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/symbiontscreener/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/symbiontscreener/container.yaml"
-updated_at: "2025-01-01 03:26:22.773970"
-latest: "1.0.0--h43eeafb_1"
+updated_at: "2025-01-02 03:17:55.191300"
+latest: "1.0.0--h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/symbiontscreener"
 aliases:
  - "existDB"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "1.0.0--h5b5514e_0"
  - "1.0.0--h43eeafb_1"
+ - "1.0.0--h5ca1c30_2"
 description: "singularity registry hpc automated addition for symbiontscreener"
-config: {"url": "https://biocontainers.pro/tools/symbiontscreener", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for symbiontscreener", "latest": {"1.0.0--h43eeafb_1": "sha256:3910e2ef083f113ef9ce37af2107e87dc7f70eb30527741da4db7bfa0e713b64"}, "tags": {"1.0.0--h5b5514e_0": "sha256:e76cc7f707fbbcde08e7bd40f6544bcaa5d479193fe8007431a0a10a462ebbc6", "1.0.0--h43eeafb_1": "sha256:3910e2ef083f113ef9ce37af2107e87dc7f70eb30527741da4db7bfa0e713b64"}, "docker": "quay.io/biocontainers/symbiontscreener", "aliases": {"existDB": "/usr/local/bin/existDB", "f2py3.11": "/usr/local/bin/f2py3.11", "kmer-mask": "/usr/local/bin/kmer-mask", "mapMers": "/usr/local/bin/mapMers", "mapMers-depth": "/usr/local/bin/mapMers-depth", "mt19937ar-test": "/usr/local/bin/mt19937ar-test", "positionDB": "/usr/local/bin/positionDB", "simple": "/usr/local/bin/simple", "sysc": "/usr/local/bin/sysc", "test-merStream": "/usr/local/bin/test-merStream", "test-seqCache": "/usr/local/bin/test-seqCache", "test-seqStream": "/usr/local/bin/test-seqStream", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "meryl": "/usr/local/bin/meryl", "seqkit": "/usr/local/bin/seqkit", "jellyfish": "/usr/local/bin/jellyfish", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/symbiontscreener", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for symbiontscreener", "latest": {"1.0.0--h5ca1c30_2": "sha256:019a3173f5f4979bed38a523600cdbf081ca5bc7389d96cfd84fd38f2f706733"}, "tags": {"1.0.0--h5b5514e_0": "sha256:e76cc7f707fbbcde08e7bd40f6544bcaa5d479193fe8007431a0a10a462ebbc6", "1.0.0--h43eeafb_1": "sha256:3910e2ef083f113ef9ce37af2107e87dc7f70eb30527741da4db7bfa0e713b64", "1.0.0--h5ca1c30_2": "sha256:019a3173f5f4979bed38a523600cdbf081ca5bc7389d96cfd84fd38f2f706733"}, "docker": "quay.io/biocontainers/symbiontscreener", "aliases": {"existDB": "/usr/local/bin/existDB", "f2py3.11": "/usr/local/bin/f2py3.11", "kmer-mask": "/usr/local/bin/kmer-mask", "mapMers": "/usr/local/bin/mapMers", "mapMers-depth": "/usr/local/bin/mapMers-depth", "mt19937ar-test": "/usr/local/bin/mt19937ar-test", "positionDB": "/usr/local/bin/positionDB", "simple": "/usr/local/bin/simple", "sysc": "/usr/local/bin/sysc", "test-merStream": "/usr/local/bin/test-merStream", "test-seqCache": "/usr/local/bin/test-seqCache", "test-seqStream": "/usr/local/bin/test-seqStream", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "meryl": "/usr/local/bin/meryl", "seqkit": "/usr/local/bin/seqkit", "jellyfish": "/usr/local/bin/jellyfish", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/symbiontscreener.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/symbiontscreener
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/symbiontscreener:1.0.0--h43eeafb_1
+$ shpc install quay.io/biocontainers/symbiontscreener:1.0.0--h5ca1c30_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/symbiontscreener/1.0.0--h43eeafb_1
-$ module help quay.io/biocontainers/symbiontscreener/1.0.0--h43eeafb_1
+$ module load quay.io/biocontainers/symbiontscreener/1.0.0--h5ca1c30_2
+$ module help quay.io/biocontainers/symbiontscreener/1.0.0--h5ca1c30_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

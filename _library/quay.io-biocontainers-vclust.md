@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vclust/container.yaml"
-updated_at: "2025-01-01 03:28:35.006186"
+updated_at: "2025-01-02 03:20:05.045430"
 latest: "1.2.9--py313h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vclust"
 aliases:

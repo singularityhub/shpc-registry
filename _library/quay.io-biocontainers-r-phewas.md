@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-phewas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phewas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phewas/container.yaml"
-updated_at: "2025-01-01 03:46:38.791750"
-latest: "0.99.6--r43haf399aa_0"
+updated_at: "2025-01-02 03:38:05.096785"
+latest: "0.99.6--r44h2761816_1"
 container_url: "https://biocontainers.pro/tools/r-phewas"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.12.1--r42haf399aa_7"
  - "0.12.1--r43haf399aa_8"
  - "0.99.6--r43haf399aa_0"
+ - "0.99.6--r44h2761816_1"
 description: "shpc-registry automated BioContainers addition for r-phewas"
-config: {"url": "https://biocontainers.pro/tools/r-phewas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phewas", "latest": {"0.99.6--r43haf399aa_0": "sha256:73e63a8782b93967211eff9859a5f4fbd967b6537e3eb513d75ee01884485308"}, "tags": {"0.12.1--r41hb2e0dee_4": "sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540", "0.12.1--r42hb2e0dee_5": "sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab", "0.12.1--r42haf399aa_7": "sha256:3b6a56802ed9fc47bc36f4029f5482624892337c64ffce178666aba8c807e28f", "0.12.1--r43haf399aa_8": "sha256:4ddac93765c0c6582973e078b6d83db4421d272935c3d5298d4a4b5d75179672", "0.99.6--r43haf399aa_0": "sha256:73e63a8782b93967211eff9859a5f4fbd967b6537e3eb513d75ee01884485308"}, "docker": "quay.io/biocontainers/r-phewas"}
+config: {"url": "https://biocontainers.pro/tools/r-phewas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phewas", "latest": {"0.99.6--r44h2761816_1": "sha256:d17d552365b07d6789f45995dd39ff2360a765411245216a7c765912c07594b4"}, "tags": {"0.12.1--r41hb2e0dee_4": "sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540", "0.12.1--r42hb2e0dee_5": "sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab", "0.12.1--r42haf399aa_7": "sha256:3b6a56802ed9fc47bc36f4029f5482624892337c64ffce178666aba8c807e28f", "0.12.1--r43haf399aa_8": "sha256:4ddac93765c0c6582973e078b6d83db4421d272935c3d5298d4a4b5d75179672", "0.99.6--r43haf399aa_0": "sha256:73e63a8782b93967211eff9859a5f4fbd967b6537e3eb513d75ee01884485308", "0.99.6--r44h2761816_1": "sha256:d17d552365b07d6789f45995dd39ff2360a765411245216a7c765912c07594b4"}, "docker": "quay.io/biocontainers/r-phewas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phewas.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-phewas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-phewas:0.99.6--r43haf399aa_0
+$ shpc install quay.io/biocontainers/r-phewas:0.99.6--r44h2761816_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-phewas/0.99.6--r43haf399aa_0
-$ module help quay.io/biocontainers/r-phewas/0.99.6--r43haf399aa_0
+$ module load quay.io/biocontainers/r-phewas/0.99.6--r44h2761816_1
+$ module help quay.io/biocontainers/r-phewas/0.99.6--r44h2761816_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

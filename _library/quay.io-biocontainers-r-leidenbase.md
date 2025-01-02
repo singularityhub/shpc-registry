@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-leidenbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leidenbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leidenbase/container.yaml"
-updated_at: "2025-01-01 03:36:57.942882"
-latest: "0.1.27--r43h126626c_2"
+updated_at: "2025-01-02 03:28:20.568557"
+latest: "0.1.31--r44hf1f7472_0"
 container_url: "https://biocontainers.pro/tools/r-leidenbase"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.1.18--r43h0fba2ca_0"
  - "0.1.27--r43h0fba2ca_1"
  - "0.1.27--r43h126626c_2"
+ - "0.1.31--r44hf1f7472_0"
 description: "shpc-registry automated BioContainers addition for r-leidenbase"
-config: {"url": "https://biocontainers.pro/tools/r-leidenbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leidenbase", "latest": {"0.1.27--r43h126626c_2": "sha256:e9792a74175c837ed2892984a4966e5c8e27e3ad0f62e2b447d0694cfaf11e8f"}, "tags": {"0.1.3--r41h1aed7a7_2": "sha256:43657706238343db9e63c8e1f93281e483ac596397e1053d76667a1390a37d7b", "0.1.12--r42h6efe872_0": "sha256:213a1dbd67ec2ec223be713c0d72b673a03fa94926e40f9bc803b02eebcfdce1", "0.1.18--r43h0fba2ca_0": "sha256:f72cead2c5e3dbdfcaeb73894e065f9226aa20289e8c2dd834030135d9d01480", "0.1.27--r43h0fba2ca_1": "sha256:c2d4151f29d42322355e68ad0fd089978e6a29a725b792855c4d4ea5a25dbb60", "0.1.27--r43h126626c_2": "sha256:e9792a74175c837ed2892984a4966e5c8e27e3ad0f62e2b447d0694cfaf11e8f"}, "docker": "quay.io/biocontainers/r-leidenbase"}
+config: {"url": "https://biocontainers.pro/tools/r-leidenbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leidenbase", "latest": {"0.1.31--r44hf1f7472_0": "sha256:b207ab3721a461f15553c926e11b13a8cca5f6bae075c082026c92cd7869adaa"}, "tags": {"0.1.3--r41h1aed7a7_2": "sha256:43657706238343db9e63c8e1f93281e483ac596397e1053d76667a1390a37d7b", "0.1.12--r42h6efe872_0": "sha256:213a1dbd67ec2ec223be713c0d72b673a03fa94926e40f9bc803b02eebcfdce1", "0.1.18--r43h0fba2ca_0": "sha256:f72cead2c5e3dbdfcaeb73894e065f9226aa20289e8c2dd834030135d9d01480", "0.1.27--r43h0fba2ca_1": "sha256:c2d4151f29d42322355e68ad0fd089978e6a29a725b792855c4d4ea5a25dbb60", "0.1.27--r43h126626c_2": "sha256:e9792a74175c837ed2892984a4966e5c8e27e3ad0f62e2b447d0694cfaf11e8f", "0.1.31--r44hf1f7472_0": "sha256:b207ab3721a461f15553c926e11b13a8cca5f6bae075c082026c92cd7869adaa"}, "docker": "quay.io/biocontainers/r-leidenbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-leidenbase.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-leidenbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-leidenbase:0.1.27--r43h126626c_2
+$ shpc install quay.io/biocontainers/r-leidenbase:0.1.31--r44hf1f7472_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-leidenbase/0.1.27--r43h126626c_2
-$ module help quay.io/biocontainers/r-leidenbase/0.1.27--r43h126626c_2
+$ module load quay.io/biocontainers/r-leidenbase/0.1.31--r44hf1f7472_0
+$ module help quay.io/biocontainers/r-leidenbase/0.1.31--r44hf1f7472_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

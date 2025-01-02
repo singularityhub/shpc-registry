@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orfquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfquant/container.yaml"
-updated_at: "2025-01-01 03:45:13.242270"
-latest: "1.1.0--r43h9ee0642_5"
+updated_at: "2025-01-02 03:36:38.708903"
+latest: "1.1.0--r44h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/orfquant"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.1.0--r41h9ee0642_3"
  - "1.1.0--r42h9ee0642_4"
  - "1.1.0--r43h9ee0642_5"
+ - "1.1.0--r44h9ee0642_6"
 description: "shpc-registry automated BioContainers addition for orfquant"
-config: {"url": "https://biocontainers.pro/tools/orfquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfquant", "latest": {"1.1.0--r43h9ee0642_5": "sha256:3c256e8257885a63267b7d82cbcfe311c08b7aef796c660a5c9c06eeb2374c9f"}, "tags": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f", "1.1.0--r42h9ee0642_4": "sha256:351e60756e3c673266eb64251d10b238b063ce9a33ba5a463c8a554435d46475", "1.1.0--r43h9ee0642_5": "sha256:3c256e8257885a63267b7d82cbcfe311c08b7aef796c660a5c9c06eeb2374c9f"}, "docker": "quay.io/biocontainers/orfquant", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/orfquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfquant", "latest": {"1.1.0--r44h9ee0642_6": "sha256:5e4c63956e71c8dc433eb735fcedf8ec06046789fecd642dc672c48b10032a57"}, "tags": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f", "1.1.0--r42h9ee0642_4": "sha256:351e60756e3c673266eb64251d10b238b063ce9a33ba5a463c8a554435d46475", "1.1.0--r43h9ee0642_5": "sha256:3c256e8257885a63267b7d82cbcfe311c08b7aef796c660a5c9c06eeb2374c9f", "1.1.0--r44h9ee0642_6": "sha256:5e4c63956e71c8dc433eb735fcedf8ec06046789fecd642dc672c48b10032a57"}, "docker": "quay.io/biocontainers/orfquant", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfquant.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/orfquant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orfquant:1.1.0--r43h9ee0642_5
+$ shpc install quay.io/biocontainers/orfquant:1.1.0--r44h9ee0642_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orfquant/1.1.0--r43h9ee0642_5
-$ module help quay.io/biocontainers/orfquant/1.1.0--r43h9ee0642_5
+$ module load quay.io/biocontainers/orfquant/1.1.0--r44h9ee0642_6
+$ module help quay.io/biocontainers/orfquant/1.1.0--r44h9ee0642_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

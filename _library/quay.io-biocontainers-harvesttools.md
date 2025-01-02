@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/harvesttools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harvesttools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harvesttools/container.yaml"
-updated_at: "2025-01-01 03:00:22.378268"
-latest: "1.2--h139f625_1"
+updated_at: "2025-01-02 02:52:20.427881"
+latest: "1.2--ha9fde67_2"
 container_url: "https://biocontainers.pro/tools/harvesttools"
 aliases:
  - "harvesttools"
 versions:
  - "1.2--h139f625_1"
+ - "1.2--ha9fde67_2"
 description: "shpc-registry automated BioContainers addition for harvesttools"
-config: {"url": "https://biocontainers.pro/tools/harvesttools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harvesttools", "latest": {"1.2--h139f625_1": "sha256:aca6182668c03777cbe14d9298edd9806ab53207296daadefca072af5fb69f0f"}, "tags": {"1.2--h139f625_1": "sha256:aca6182668c03777cbe14d9298edd9806ab53207296daadefca072af5fb69f0f"}, "docker": "quay.io/biocontainers/harvesttools", "aliases": {"harvesttools": "/usr/local/bin/harvesttools"}}
+config: {"url": "https://biocontainers.pro/tools/harvesttools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harvesttools", "latest": {"1.2--ha9fde67_2": "sha256:526d060f2f1d2715d827c75fec126b30eb0451933b65e886081551698c9beb2b"}, "tags": {"1.2--h139f625_1": "sha256:aca6182668c03777cbe14d9298edd9806ab53207296daadefca072af5fb69f0f", "1.2--ha9fde67_2": "sha256:526d060f2f1d2715d827c75fec126b30eb0451933b65e886081551698c9beb2b"}, "docker": "quay.io/biocontainers/harvesttools", "aliases": {"harvesttools": "/usr/local/bin/harvesttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/harvesttools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/harvesttools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/harvesttools:1.2--h139f625_1
+$ shpc install quay.io/biocontainers/harvesttools:1.2--ha9fde67_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/harvesttools/1.2--h139f625_1
-$ module help quay.io/biocontainers/harvesttools/1.2--h139f625_1
+$ module load quay.io/biocontainers/harvesttools/1.2--ha9fde67_2
+$ module help quay.io/biocontainers/harvesttools/1.2--ha9fde67_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

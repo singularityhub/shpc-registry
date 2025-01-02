@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcfbub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfbub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfbub/container.yaml"
-updated_at: "2025-01-01 03:36:23.621221"
-latest: "0.1.1--h715e4b3_1"
+updated_at: "2025-01-02 03:27:46.623410"
+latest: "0.1.1--hc1c3326_2"
 container_url: "https://biocontainers.pro/tools/vcfbub"
 aliases:
  - "vcfbub"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0--hec16e2b_0"
  - "0.1.0--h031d066_2"
  - "0.1.1--h715e4b3_1"
+ - "0.1.1--hc1c3326_2"
 description: "singularity registry hpc automated addition for vcfbub"
-config: {"url": "https://biocontainers.pro/tools/vcfbub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfbub", "latest": {"0.1.1--h715e4b3_1": "sha256:19fcc742ce729917facf0d16f582dccc982152eaa6f0ac47a48e4a3cc96d269e"}, "tags": {"0.1.0--hec16e2b_0": "sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd", "0.1.0--h031d066_2": "sha256:54baafe6ebd7076d272cf4f30fc6dffd148516d065f68a229a9f9accd0072df0", "0.1.1--h715e4b3_1": "sha256:19fcc742ce729917facf0d16f582dccc982152eaa6f0ac47a48e4a3cc96d269e"}, "docker": "quay.io/biocontainers/vcfbub", "aliases": {"vcfbub": "/usr/local/bin/vcfbub"}}
+config: {"url": "https://biocontainers.pro/tools/vcfbub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfbub", "latest": {"0.1.1--hc1c3326_2": "sha256:c8818c7645d4d0dc1b398e22a1d27636e68b9b97f8f63cdb0895fb745c1c8ba2"}, "tags": {"0.1.0--hec16e2b_0": "sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd", "0.1.0--h031d066_2": "sha256:54baafe6ebd7076d272cf4f30fc6dffd148516d065f68a229a9f9accd0072df0", "0.1.1--h715e4b3_1": "sha256:19fcc742ce729917facf0d16f582dccc982152eaa6f0ac47a48e4a3cc96d269e", "0.1.1--hc1c3326_2": "sha256:c8818c7645d4d0dc1b398e22a1d27636e68b9b97f8f63cdb0895fb745c1c8ba2"}, "docker": "quay.io/biocontainers/vcfbub", "aliases": {"vcfbub": "/usr/local/bin/vcfbub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfbub.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/vcfbub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfbub:0.1.1--h715e4b3_1
+$ shpc install quay.io/biocontainers/vcfbub:0.1.1--hc1c3326_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfbub/0.1.1--h715e4b3_1
-$ module help quay.io/biocontainers/vcfbub/0.1.1--h715e4b3_1
+$ module load quay.io/biocontainers/vcfbub/0.1.1--hc1c3326_2
+$ module help quay.io/biocontainers/vcfbub/0.1.1--hc1c3326_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

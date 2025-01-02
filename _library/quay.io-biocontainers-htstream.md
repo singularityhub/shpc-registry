@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/htstream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htstream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htstream/container.yaml"
-updated_at: "2025-01-01 03:22:13.247010"
-latest: "1.3.3--hf5e1c6e_5"
+updated_at: "2025-01-02 03:13:49.398606"
+latest: "1.3.3--h13024bc_6"
 container_url: "https://biocontainers.pro/tools/htstream"
 aliases:
  - "hts_AdapterTrimmer"
@@ -30,8 +30,9 @@ versions:
  - "1.3.3--h39f6147_2"
  - "1.3.3--he82b154_4"
  - "1.3.3--hf5e1c6e_5"
+ - "1.3.3--h13024bc_6"
 description: "shpc-registry automated BioContainers addition for htstream"
-config: {"url": "https://biocontainers.pro/tools/htstream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htstream", "latest": {"1.3.3--hf5e1c6e_5": "sha256:8b2f45de7711e0d3ea896bb07b2caf7edaec0206ef769a1d4a3b05fbb32c3996"}, "tags": {"1.3.3--h39f6147_2": "sha256:9a6dfe01cf8c656645abb2c430c529cab66cd9652ba3d1c5f4d1bfc1d9b4f650", "1.3.3--he82b154_4": "sha256:77d16606afea262612acc312bb3d08f2a8cfbc80d1de3ac8aac73edc5a0a7e8b", "1.3.3--hf5e1c6e_5": "sha256:8b2f45de7711e0d3ea896bb07b2caf7edaec0206ef769a1d4a3b05fbb32c3996"}, "docker": "quay.io/biocontainers/htstream", "aliases": {"hts_AdapterTrimmer": "/usr/local/bin/hts_AdapterTrimmer", "hts_CutTrim": "/usr/local/bin/hts_CutTrim", "hts_LengthFilter": "/usr/local/bin/hts_LengthFilter", "hts_NTrimmer": "/usr/local/bin/hts_NTrimmer", "hts_Overlapper": "/usr/local/bin/hts_Overlapper", "hts_PolyATTrim": "/usr/local/bin/hts_PolyATTrim", "hts_Primers": "/usr/local/bin/hts_Primers", "hts_QWindowTrim": "/usr/local/bin/hts_QWindowTrim", "hts_SeqScreener": "/usr/local/bin/hts_SeqScreener", "hts_Stats": "/usr/local/bin/hts_Stats", "hts_SuperDeduper": "/usr/local/bin/hts_SuperDeduper", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/htstream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htstream", "latest": {"1.3.3--h13024bc_6": "sha256:d454c0374dcf37166286779627a66b8f904d70357a18252b27ea800309ad658c"}, "tags": {"1.3.3--h39f6147_2": "sha256:9a6dfe01cf8c656645abb2c430c529cab66cd9652ba3d1c5f4d1bfc1d9b4f650", "1.3.3--he82b154_4": "sha256:77d16606afea262612acc312bb3d08f2a8cfbc80d1de3ac8aac73edc5a0a7e8b", "1.3.3--hf5e1c6e_5": "sha256:8b2f45de7711e0d3ea896bb07b2caf7edaec0206ef769a1d4a3b05fbb32c3996", "1.3.3--h13024bc_6": "sha256:d454c0374dcf37166286779627a66b8f904d70357a18252b27ea800309ad658c"}, "docker": "quay.io/biocontainers/htstream", "aliases": {"hts_AdapterTrimmer": "/usr/local/bin/hts_AdapterTrimmer", "hts_CutTrim": "/usr/local/bin/hts_CutTrim", "hts_LengthFilter": "/usr/local/bin/hts_LengthFilter", "hts_NTrimmer": "/usr/local/bin/hts_NTrimmer", "hts_Overlapper": "/usr/local/bin/hts_Overlapper", "hts_PolyATTrim": "/usr/local/bin/hts_PolyATTrim", "hts_Primers": "/usr/local/bin/hts_Primers", "hts_QWindowTrim": "/usr/local/bin/hts_QWindowTrim", "hts_SeqScreener": "/usr/local/bin/hts_SeqScreener", "hts_Stats": "/usr/local/bin/hts_Stats", "hts_SuperDeduper": "/usr/local/bin/hts_SuperDeduper", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htstream.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/htstream
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/htstream:1.3.3--hf5e1c6e_5
+$ shpc install quay.io/biocontainers/htstream:1.3.3--h13024bc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/htstream/1.3.3--hf5e1c6e_5
-$ module help quay.io/biocontainers/htstream/1.3.3--hf5e1c6e_5
+$ module load quay.io/biocontainers/htstream/1.3.3--h13024bc_6
+$ module help quay.io/biocontainers/htstream/1.3.3--h13024bc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

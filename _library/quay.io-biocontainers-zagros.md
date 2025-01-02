@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zagros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zagros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zagros/container.yaml"
-updated_at: "2025-01-01 03:27:44.924744"
-latest: "1.0.0--h733e4d7_9"
+updated_at: "2025-01-02 03:19:15.958366"
+latest: "1.0.0--ha24e720_10"
 container_url: "https://biocontainers.pro/tools/zagros"
 aliases:
  - "extractDEs"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.0.0--h7fd9d64_7"
  - "1.0.0--h733e4d7_9"
+ - "1.0.0--ha24e720_10"
 description: "shpc-registry automated BioContainers addition for zagros"
-config: {"url": "https://biocontainers.pro/tools/zagros", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zagros", "latest": {"1.0.0--h733e4d7_9": "sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b"}, "tags": {"1.0.0--h7fd9d64_7": "sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1", "1.0.0--h733e4d7_9": "sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b"}, "docker": "quay.io/biocontainers/zagros", "aliases": {"extractDEs": "/usr/local/bin/extractDEs", "thermo": "/usr/local/bin/thermo", "zagros": "/usr/local/bin/zagros"}}
+config: {"url": "https://biocontainers.pro/tools/zagros", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zagros", "latest": {"1.0.0--ha24e720_10": "sha256:94eb5acf2eaf047ec1f759a9e5880fd9c5eb59472b9d8cbd759ca56fcca6d41e"}, "tags": {"1.0.0--h7fd9d64_7": "sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1", "1.0.0--h733e4d7_9": "sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b", "1.0.0--ha24e720_10": "sha256:94eb5acf2eaf047ec1f759a9e5880fd9c5eb59472b9d8cbd759ca56fcca6d41e"}, "docker": "quay.io/biocontainers/zagros", "aliases": {"extractDEs": "/usr/local/bin/extractDEs", "thermo": "/usr/local/bin/thermo", "zagros": "/usr/local/bin/zagros"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zagros.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/zagros
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zagros:1.0.0--h733e4d7_9
+$ shpc install quay.io/biocontainers/zagros:1.0.0--ha24e720_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zagros/1.0.0--h733e4d7_9
-$ module help quay.io/biocontainers/zagros/1.0.0--h733e4d7_9
+$ module load quay.io/biocontainers/zagros/1.0.0--ha24e720_10
+$ module help quay.io/biocontainers/zagros/1.0.0--ha24e720_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

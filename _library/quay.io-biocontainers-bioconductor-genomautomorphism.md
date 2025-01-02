@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomautomorphism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomautomorphism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomautomorphism/container.yaml"
-updated_at: "2025-01-01 03:35:45.844108"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-02 03:27:09.220604"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomautomorphism"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-genomautomorphism"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomautomorphism", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genomautomorphism", "latest": {"1.4.0--r43hdfd78af_0": "sha256:782bb94d5d3f83a091f0a70e6882d7d281da38d37cf521026227e7804a4bc490"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:930f4b444f58b81067b990a18c93a824216420daa7c85dd893cdc654a0adc7e7", "1.2.0--r43hdfd78af_0": "sha256:66ecb1322c72c6e6e08e148bcb11989b6e2915c14d3ed101c297c0d851f76087", "1.4.0--r43hdfd78af_0": "sha256:782bb94d5d3f83a091f0a70e6882d7d281da38d37cf521026227e7804a4bc490"}, "docker": "quay.io/biocontainers/bioconductor-genomautomorphism", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomautomorphism", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genomautomorphism", "latest": {"1.8.0--r44hdfd78af_0": "sha256:f084b9b6ecc96f2e33ebb9f26f760340b6a58b4558f03f2a03c12db17834841a"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:930f4b444f58b81067b990a18c93a824216420daa7c85dd893cdc654a0adc7e7", "1.2.0--r43hdfd78af_0": "sha256:66ecb1322c72c6e6e08e148bcb11989b6e2915c14d3ed101c297c0d851f76087", "1.4.0--r43hdfd78af_0": "sha256:782bb94d5d3f83a091f0a70e6882d7d281da38d37cf521026227e7804a4bc490", "1.8.0--r44hdfd78af_0": "sha256:f084b9b6ecc96f2e33ebb9f26f760340b6a58b4558f03f2a03c12db17834841a"}, "docker": "quay.io/biocontainers/bioconductor-genomautomorphism", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomautomorphism.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomautomorphism
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomautomorphism:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomautomorphism:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomautomorphism/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomautomorphism/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomautomorphism/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomautomorphism/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
