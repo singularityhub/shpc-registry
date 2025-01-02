@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-eztune
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-eztune
 latest:
-  3.1.1--r43h3121a25_0: sha256:48ef0b6e171ec347d6c72a7b367a596a9ebbdf7dca51b2597b8c3210ce2e624f
+  3.1.1--r44h3121a25_1: sha256:bc39167f07d1a170c1a84dfd5c2425543392e1dac2a16896f9adfb35d728cd84
 tags:
   3.1.1--r43h3121a25_0: sha256:48ef0b6e171ec347d6c72a7b367a596a9ebbdf7dca51b2597b8c3210ce2e624f
+  3.1.1--r44h3121a25_1: sha256:bc39167f07d1a170c1a84dfd5c2425543392e1dac2a16896f9adfb35d728cd84
 docker: quay.io/biocontainers/r-eztune
 aliases:
   hb-info: /usr/local/bin/hb-info

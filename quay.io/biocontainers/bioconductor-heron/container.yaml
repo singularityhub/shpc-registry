@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-heron
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-heron
 latest:
-  1.0.0--r43hdfd78af_0: sha256:666a6b4771f9a76ca488f5858c020d1a14e1573ac223c1c9322b147f226956dc
+  1.4.0--r44hdfd78af_0: sha256:e3fe8cd62dfb0fe8ba4f2cfc87db25ef0fa5533ffebd32fe93e68047d220b6df
 tags:
   1.0.0--r43hdfd78af_0: sha256:666a6b4771f9a76ca488f5858c020d1a14e1573ac223c1c9322b147f226956dc
+  1.4.0--r44hdfd78af_0: sha256:e3fe8cd62dfb0fe8ba4f2cfc87db25ef0fa5533ffebd32fe93e68047d220b6df
 docker: quay.io/biocontainers/bioconductor-heron
 aliases:
   bsdunzip: /usr/local/bin/bsdunzip

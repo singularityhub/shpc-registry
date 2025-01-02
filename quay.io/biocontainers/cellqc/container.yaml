@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/cellqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellqc
 latest:
-  0.0.7--pyh7cba7a3_0: sha256:e7a6e0fc8f59583c229318d7f6dc6c23e6a98cdc8aa719573050584410fb3c74
+  0.0.8--pyh7e72e81_0: sha256:83d3248aca234d7a208fc11e21e092a129e5002e8b0855fb5f5e11ea9c2d0b82
 tags:
   0.0.4--pyh7cba7a3_0: sha256:8c58b8245fa141c0e133e1d7c1d9a55e8ad9198ea3ba76f685526b0ec058a7ca
   0.0.6--pyh7cba7a3_0: sha256:7cc9b8bebf872baf2c99c056d5c21af2a6b86d9b66cd2b09243901c18b36f08d
   0.0.6--pyh7cba7a3_1: sha256:503b0f0d69e87a985cbac5e58579e9a18a1fe3fe46b928682009c422a82bf4d5
   0.0.7--pyh7cba7a3_0: sha256:e7a6e0fc8f59583c229318d7f6dc6c23e6a98cdc8aa719573050584410fb3c74
+  0.0.8--pyh7e72e81_0: sha256:83d3248aca234d7a208fc11e21e092a129e5002e8b0855fb5f5e11ea9c2d0b82
 docker: quay.io/biocontainers/cellqc
 aliases:
   cellqc: /usr/local/bin/cellqc

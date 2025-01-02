@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/poa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for poa
 latest:
-  2.0--h031d066_5: sha256:05c85e531ab68c0477693a3f8d6c6d03abb7de5e84d51dbfa6fe20b503e47316
+  2.0--h7b50bb2_6: sha256:1416eb7f0656d85950c7d02e03d9124f1100d099ae1551f9253546df92bf9adc
 tags:
   2.0--hec16e2b_4: sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f
   2.0--h031d066_5: sha256:05c85e531ab68c0477693a3f8d6c6d03abb7de5e84d51dbfa6fe20b503e47316
+  2.0--h7b50bb2_6: sha256:1416eb7f0656d85950c7d02e03d9124f1100d099ae1551f9253546df92bf9adc
 docker: quay.io/biocontainers/poa
 aliases:
   make_pscores.pl: /usr/local/bin/make_pscores.pl

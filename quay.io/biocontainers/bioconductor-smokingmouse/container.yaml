@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-smokingmouse
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-smokingmouse
 latest:
-  1.0.0--r43hdfd78af_0: sha256:7c498fb0b26225a69b2cd183be4412bb9db5d2e9c663bc434cf8827da7a8cf7b
+  1.4.0--r44hdfd78af_0: sha256:4d9adfe0d571a96e7ac0f3350e8505ed2d1f01301a0c0dd98dab9820dcfb3603
 tags:
   1.0.0--r43hdfd78af_0: sha256:7c498fb0b26225a69b2cd183be4412bb9db5d2e9c663bc434cf8827da7a8cf7b
+  1.4.0--r44hdfd78af_0: sha256:4d9adfe0d571a96e7ac0f3350e8505ed2d1f01301a0c0dd98dab9820dcfb3603
 docker: quay.io/biocontainers/bioconductor-smokingmouse
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

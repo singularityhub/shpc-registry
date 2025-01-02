@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-delocal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-delocal
 latest:
-  1.2.0--r43hdfd78af_0: sha256:daa0bb882570df24baa917cbf463c9c0284874f77da0448c3ae335f06c6bb3d4
+  1.6.0--r44hdfd78af_0: sha256:307748ea9f80d18edb024c7b96d89aba0d7a144f9401cb345ab6f1492e96ac6f
 tags:
   1.0.0--r43hdfd78af_0: sha256:1590e75b068d89cb7fe1929c2cb892332c8e2c0f897f0a0d5b91a8f5c1a11e43
   1.2.0--r43hdfd78af_0: sha256:daa0bb882570df24baa917cbf463c9c0284874f77da0448c3ae335f06c6bb3d4
+  1.6.0--r44hdfd78af_0: sha256:307748ea9f80d18edb024c7b96d89aba0d7a144f9401cb345ab6f1492e96ac6f
 docker: quay.io/biocontainers/bioconductor-delocal
 aliases:
   hb-info: /usr/local/bin/hb-info

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-protgear
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-protgear
 latest:
-  1.6.0--r43hdfd78af_0: sha256:bd1edea0ae93387851b8520d5c97be462e49aa6ea34c5ad84c9eaeac33383a4f
+  1.10.0--r44hdfd78af_0: sha256:4570aab41207f1460de2a3a1467629ed5a27b831e71d28456f4ed6350ba4b019
 tags:
   1.2.0--r42hdfd78af_0: sha256:3ed0a8e3b9fc48b9ac0c5d64a5f2af6940b1dc85b34dfbc251b91739ea5a81b5
   1.4.0--r43hdfd78af_0: sha256:29df4cf784e84f3026edc5a9a3268cfa8eb2621111e44c1064c6e44637d38b54
   1.6.0--r43hdfd78af_0: sha256:bd1edea0ae93387851b8520d5c97be462e49aa6ea34c5ad84c9eaeac33383a4f
+  1.10.0--r44hdfd78af_0: sha256:4570aab41207f1460de2a3a1467629ed5a27b831e71d28456f4ed6350ba4b019
 docker: quay.io/biocontainers/bioconductor-protgear
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

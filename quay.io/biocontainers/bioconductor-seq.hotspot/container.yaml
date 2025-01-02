@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-seq.hotspot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-seq.hotspot
 latest:
-  1.2.0--r43hdfd78af_0: sha256:5a7ad050a94c9c8a5ccebf3d84f2854397f9a81a3c3f2a966ff99e43c2b0914a
+  1.6.0--r44hdfd78af_0: sha256:a53450ca6c1af0825d9b41ed498ffbe94132e4d61e962fe428f71b78123aa9fd
 tags:
   1.0.0--r43hdfd78af_0: sha256:4003525a36b89a8781db886620e6e05741fb2b74a7570c1d9d2c801b7059cd03
   1.2.0--r43hdfd78af_0: sha256:5a7ad050a94c9c8a5ccebf3d84f2854397f9a81a3c3f2a966ff99e43c2b0914a
+  1.6.0--r44hdfd78af_0: sha256:a53450ca6c1af0825d9b41ed498ffbe94132e4d61e962fe428f71b78123aa9fd
 docker: quay.io/biocontainers/bioconductor-seq.hotspot
 aliases:
   hb-info: /usr/local/bin/hb-info

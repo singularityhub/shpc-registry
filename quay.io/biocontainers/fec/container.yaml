@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fec
 latest:
-  1.0.1--hd03093a_1: sha256:6ba699b0fb4862361d7767bb839cc8085ac9057eacc129204e018fd21d7c41be
+  1.0.1--he70b90d_2: sha256:4140a382e005e4e563afd71e085398797cad400247068f29a852609c422340fa
 tags:
   1.0.1--hd03093a_0: sha256:016e0785344a50835349b166b566d2d5c15699152c6ad3e114154106dd383084
   1.0.1--hd03093a_1: sha256:6ba699b0fb4862361d7767bb839cc8085ac9057eacc129204e018fd21d7c41be
+  1.0.1--he70b90d_2: sha256:4140a382e005e4e563afd71e085398797cad400247068f29a852609c422340fa
 docker: quay.io/biocontainers/fec
 aliases:
   Fec: /usr/local/bin/Fec

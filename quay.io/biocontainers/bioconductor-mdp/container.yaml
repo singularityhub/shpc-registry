@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mdp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mdp
 latest:
-  1.22.0--r43hdfd78af_0: sha256:40ef8f6e4bff5d5fa9c1af59430ffea4e357cd800b90cf4cf714ecb0aedd36df
+  1.26.0--r44hdfd78af_0: sha256:d8ec6a85db78c22d0ac19f189cc5cd64c5ae7c88e877b3069ada1f7f243d773b
 tags:
   1.8.0--r40_0: sha256:13e978a255b8773c01791d1fa7bff34acc0d07937dc51837cab332a6e1c6769b
   1.14.0--r41hdfd78af_0: sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167
@@ -11,6 +11,7 @@ tags:
   1.18.0--r42hdfd78af_0: sha256:3ca4a63d52e73baf17aea47cd310741c257b5719237ad725fe11a6d0d6bcb905
   1.20.0--r43hdfd78af_0: sha256:8eeed639545fb7a247d4824cb202df7031c910525943902621852709df8fd918
   1.22.0--r43hdfd78af_0: sha256:40ef8f6e4bff5d5fa9c1af59430ffea4e357cd800b90cf4cf714ecb0aedd36df
+  1.26.0--r44hdfd78af_0: sha256:d8ec6a85db78c22d0ac19f189cc5cd64c5ae7c88e877b3069ada1f7f243d773b
 docker: quay.io/biocontainers/bioconductor-mdp
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

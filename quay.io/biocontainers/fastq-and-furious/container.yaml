@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/fastq-and-furious
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-and-furious
 latest:
-  0.3.2--py312hf67a6ed_4: sha256:4293b687989ce2c11aaf60fc3feb54e9f40f88b288b987ac3d8e181f512151ef
+  0.3.2--py311haab0aaa_5: sha256:ec06444bfb2f440d3a80c89d8352de7d6c10fe19718d16554015bf15b37115d8
 tags:
   0.3.2--py39hbf8eff0_0: sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66
   0.3.2--py39hf95cd2a_3: sha256:4095229570443a3f7a69cf6151102123068773ecbd8df2dcad161bb449807bf9
   0.3.2--py38he5da3d1_3: sha256:88aaf9729bb72a20adddd2fa527b42e9603be0083b0d486993d52cc7bd7e53d6
   0.3.2--py312hf67a6ed_4: sha256:4293b687989ce2c11aaf60fc3feb54e9f40f88b288b987ac3d8e181f512151ef
+  0.3.2--py311haab0aaa_5: sha256:ec06444bfb2f440d3a80c89d8352de7d6c10fe19718d16554015bf15b37115d8
 docker: quay.io/biocontainers/fastq-and-furious
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

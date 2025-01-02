@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-biocbook
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-biocbook
 latest:
-  1.0.0--r43hdfd78af_0: sha256:6ce697da9b58d4fe8398651285f01ca77f7a82abe37ad0b753c05c9a3df3508f
+  1.4.0--r44hdfd78af_0: sha256:afc5be3fcfdb19c41a116ca6dd7caea4a7ea402f0f186e7d078232eb106ab43e
 tags:
   1.0.0--r43hdfd78af_0: sha256:6ce697da9b58d4fe8398651285f01ca77f7a82abe37ad0b753c05c9a3df3508f
+  1.4.0--r44hdfd78af_0: sha256:afc5be3fcfdb19c41a116ca6dd7caea4a7ea402f0f186e7d078232eb106ab43e
 docker: quay.io/biocontainers/bioconductor-biocbook
 aliases:
   deno: /usr/local/bin/deno

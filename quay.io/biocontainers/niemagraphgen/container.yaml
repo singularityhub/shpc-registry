@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/niemagraphgen
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for niemagraphgen
 latest:
-  1.0.6--hdbdd923_0: sha256:45cffe05712fc95f2cdb26ee44d598af7d602ec79920a081d592650cd4c60a2f
+  1.0.6--h503566f_1: sha256:00ceff480972175e2e9a2ee69cd433fb706db74e6ea51eeb644a65480b5c23b2
 tags:
   1.0.6--hdbdd923_0: sha256:45cffe05712fc95f2cdb26ee44d598af7d602ec79920a081d592650cd4c60a2f
+  1.0.6--h503566f_1: sha256:00ceff480972175e2e9a2ee69cd433fb706db74e6ea51eeb644a65480b5c23b2
 docker: quay.io/biocontainers/niemagraphgen
 aliases:
   ngg_barabasi_albert: /usr/local/bin/ngg_barabasi_albert

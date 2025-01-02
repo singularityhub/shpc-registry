@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/fastqc-rs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastqc-rs
 latest:
-  0.3.4--h101ab07_0: sha256:538ef5a08a0c619673ca3a6bb6f0d15d0a69d45213300a1d292c42c11cebfbee
+  0.3.4--hd2a40b3_1: sha256:fc512c4aef084bdff061419de6237181cbb5be60460b703b33495591302d3c5e
 tags:
   0.3.2--he9f29cb_1: sha256:f2055f57f051940b57504b49cfddad9e953cf188e381a85f862da23797dae948
   0.3.2--he6968d2_2: sha256:06922bf4202f66690ff57c2198c9d503d17e2c74da53226f48447f2b91a68d9a
   0.3.4--h101ab07_0: sha256:538ef5a08a0c619673ca3a6bb6f0d15d0a69d45213300a1d292c42c11cebfbee
+  0.3.4--hd2a40b3_1: sha256:fc512c4aef084bdff061419de6237181cbb5be60460b703b33495591302d3c5e
 docker: quay.io/biocontainers/fastqc-rs
 aliases:
   fqc: /usr/local/bin/fqc

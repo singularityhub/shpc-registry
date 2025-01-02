@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nim-falcon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nim-falcon
 latest:
-  3.0.2--h18d090a_1: sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348
+  3.0.2--h4b1250d_2: sha256:7cbf7a506d982ee0454cdb826090e2ae50ac1ef2c4492c3b3420c74ec1e3fc53
 tags:
   3.0.2--h18d090a_1: sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348
+  3.0.2--h4b1250d_2: sha256:7cbf7a506d982ee0454cdb826090e2ae50ac1ef2c4492c3b3420c74ec1e3fc53
 docker: quay.io/biocontainers/nim-falcon
 aliases:
   falconc: /usr/local/bin/falconc

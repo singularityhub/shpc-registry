@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-metagxovarian
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metagxovarian
 latest:
-  1.22.0--r43hdfd78af_0: sha256:7a62d08c5eb16c061fe03ebbfe9c0229da3f2271170ecef19138623225435281
+  1.26.0--r44hdfd78af_0: sha256:e22f7c83ec92a999d295a3adb7574186da2448c841ae43993d52a4a77ba998ed
 tags:
   1.8.0--r40_0: sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984
   1.14.0--r41hdfd78af_1: sha256:badbab304588613c8d666119710ae5f006c5fdc6544ba070c8a8cf422254191f
@@ -11,6 +11,7 @@ tags:
   1.18.0--r42hdfd78af_0: sha256:d70f3c4ae1e14f742e7e65920df6e0dfbac2944222887b730d97dd98b359359b
   1.20.0--r43hdfd78af_0: sha256:3a2b645b8b0033b2d3228eca52b68ceaf436d7812e3fc9d061f5de86f79375c5
   1.22.0--r43hdfd78af_0: sha256:7a62d08c5eb16c061fe03ebbfe9c0229da3f2271170ecef19138623225435281
+  1.26.0--r44hdfd78af_0: sha256:e22f7c83ec92a999d295a3adb7574186da2448c841ae43993d52a4a77ba998ed
 docker: quay.io/biocontainers/bioconductor-metagxovarian
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

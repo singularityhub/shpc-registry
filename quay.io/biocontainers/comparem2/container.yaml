@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/comparem2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for comparem2
 latest:
-  2.11.1--hdfd78af_0: sha256:e3c14eaa9c84eafa2dec72a5c0e7ece984f933912ba0556299717e70918fb446
+  2.12.1--hdfd78af_0: sha256:4d5c5f3718e802bcb7d9842f9399a74ca142a463125d11c55ff2bbf03fe41e90
 tags:
   2.8.1--hdfd78af_0: sha256:521e00dab5cdb0073707788fe2bec5ab54f54ddf5439f8e6e86cd4df38ec6018
   2.10.1--hdfd78af_0: sha256:4e3502acc9b0917123ac5ba921fa02a5d1b102ad5a7c999bdad5179ded489967
   2.9.1--hdfd78af_1: sha256:42f7c99d466fa2c169daed1e330c6fb4e41fe7276c6ec5f21eaf98e14d3a3118
   2.8.2--hdfd78af_0: sha256:ac5988c52663935c4660f96a21410c79137abb28cba563724cdd13e1c3506952
   2.11.1--hdfd78af_0: sha256:e3c14eaa9c84eafa2dec72a5c0e7ece984f933912ba0556299717e70918fb446
+  2.12.1--hdfd78af_0: sha256:4d5c5f3718e802bcb7d9842f9399a74ca142a463125d11c55ff2bbf03fe41e90
+  2.11.2--hdfd78af_1: sha256:c7d543daec8bcff42c962220d78c847654d3e801e189502c9197b6a1bd3444b8
 docker: quay.io/biocontainers/comparem2
 aliases:
   archspec: /usr/local/bin/archspec

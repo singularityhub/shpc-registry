@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scider
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scider
 latest:
-  1.0.0--r43hdfd78af_0: sha256:abd0e4c36e61b3db06cef0ed57b69fecc21ca94d6867b75c68dd1744e7119352
+  1.4.0--r44hdfd78af_0: sha256:3245d3ec482dd08406a46ab59216bcd2b50a39601183a9eddf86bb1c3e5a7de6
 tags:
   1.0.0--r43hdfd78af_0: sha256:abd0e4c36e61b3db06cef0ed57b69fecc21ca94d6867b75c68dd1744e7119352
+  1.4.0--r44hdfd78af_0: sha256:3245d3ec482dd08406a46ab59216bcd2b50a39601183a9eddf86bb1c3e5a7de6
 docker: quay.io/biocontainers/bioconductor-scider
 aliases:
   bsdunzip: /usr/local/bin/bsdunzip

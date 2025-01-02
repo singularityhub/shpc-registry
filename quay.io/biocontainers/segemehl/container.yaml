@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/segemehl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for segemehl
 latest:
-  0.3.4--h264e753_10: sha256:f1c855dd1d182051c58ff41fb9ffb1bc19b3a3c9894374b69eb3ccddf1b9d74e
+  0.3.4--h3e6c209_11: sha256:2aa05e3f69611f62a2241c3d2d2d9b32317836533aba59637d636e044d473818
 tags:
   0.3.4--h283732a_7: sha256:02ac65a0b7bcf1c25bf4189be655a4d694c54ca704dd700335e7440b52d832be
   0.3.4--hf7d323f_8: sha256:987c37d4bb73c71bf68cc44d1d091b53f7bdca298489ff975530eebac49503d3
   0.3.4--hfe57441_9: sha256:1a314cc58e0fb937ede97556fc44e9f415b00735a953262c9d686a76bc53d150
   0.3.4--h264e753_10: sha256:f1c855dd1d182051c58ff41fb9ffb1bc19b3a3c9894374b69eb3ccddf1b9d74e
+  0.3.4--h3e6c209_11: sha256:2aa05e3f69611f62a2241c3d2d2d9b32317836533aba59637d636e044d473818
 docker: quay.io/biocontainers/segemehl
 aliases:
   haarz.x: /usr/local/bin/haarz.x

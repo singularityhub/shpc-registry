@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pybedtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybedtools
 latest:
-  0.10.0--py311hc849397_2: sha256:53a0a98641ecf7de51d0876e8174364b9464c6417fdd01492dbcc6f864400f60
+  0.11.0--py310h275bdba_0: sha256:f3e62822f20d527740c4f297209d51010fd9551ebbf8dfb3ab0cddfdb83a4cc6
 tags:
   0.8.2--py36hb377018_1: sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d
   0.9.1--py310h2b6aa90_1: sha256:c9204b177a8095eb4609ed5c2835a02ae453d4eed8ce57e3466c6061f8ab1e31
@@ -10,6 +10,8 @@ tags:
   0.10.0--py39hd65a603_0: sha256:5f3174f01e73c577fb617980e9a05946c5ed84bce15bd4c0f946729def6709a4
   0.10.0--py311hc849397_1: sha256:faec077c3411b7c91036710e9f95014ff9fda37c2189d5f6812ffe15d8c7336b
   0.10.0--py311hc849397_2: sha256:53a0a98641ecf7de51d0876e8174364b9464c6417fdd01492dbcc6f864400f60
+  0.11.0--py310h275bdba_0: sha256:f3e62822f20d527740c4f297209d51010fd9551ebbf8dfb3ab0cddfdb83a4cc6
+  0.10.0--py311h2de2dd3_3: sha256:894f60f9538d70de19aac1943ef3c4d75dbee55617b71d205668026a5cbcb064
 docker: quay.io/biocontainers/pybedtools
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui.data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui.data
 latest:
-  1.22.0--r43hdfd78af_0: sha256:d8586b044ab1ccfba928b3b65bd55c1c5c5465879dca50904688909cbe3079cf
+  1.26.0--r44hdfd78af_0: sha256:d912856ffea8fbdc8853335d2be007895cf81495625ea078cc478b45e8367cd8
 tags:
   1.9.2--r40_0: sha256:5204c72eec34329ae4e07c38db9684d986eb14f11cf71b21e63d3dfaa46db7e1
   1.14.1--r41hdfd78af_0: sha256:673c5044cb349058d145e6feb6b002bcf5e2e56848a895a56e45556c84d060ee
@@ -12,6 +12,7 @@ tags:
   1.17.0--r42hdfd78af_0: sha256:e9a0224524e7fe8ba549bed9c50e0059cc47e600f787fc28fcb6f66b2c85352f
   1.20.0--r43hdfd78af_0: sha256:4d69081deabfb8f98a529d2fc8d6fbea10d0c3922bf23a62f02af29262dbb597
   1.22.0--r43hdfd78af_0: sha256:d8586b044ab1ccfba928b3b65bd55c1c5c5465879dca50904688909cbe3079cf
+  1.26.0--r44hdfd78af_0: sha256:d912856ffea8fbdc8853335d2be007895cf81495625ea078cc478b45e8367cd8
 docker: quay.io/biocontainers/bioconductor-tcgabiolinksgui.data
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

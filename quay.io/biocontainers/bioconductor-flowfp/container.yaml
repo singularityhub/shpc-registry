@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowfp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowfp
 latest:
-  1.60.0--r43ha9d7317_1: sha256:943f625393a5f0b33dd70d26a73ce7ef131d9c208ee6840e51008aacd9dca431
+  1.64.0--r44h3df3fcb_0: sha256:4e42d78df1cd96de2467e693d7f80f5bf72bd85bea17eaaeeaa3f44c3d0cd698
 tags:
   1.52.0--r41hc0cfd56_2: sha256:ce96a5de066a42427c38cee6c22769f742c143c5eed6ae7dcfe7fa91cd914e39
   1.55.0--r42hc0cfd56_0: sha256:b2bc182ff5417117b7b69d6f1d9fadf29a76b99ce5f3d01b577ffc887a6b14f9
@@ -10,4 +10,5 @@ tags:
   1.58.0--r43ha9d7317_0: sha256:4913c2c3f2c068088565ab389c7771bc79b396edc880b604e11f7711e4d92ec9
   1.60.0--r43ha9d7317_0: sha256:112b4ad9535f1d591090809cbcb72a65a3ec37d02916f1da33a438d99eac237c
   1.60.0--r43ha9d7317_1: sha256:943f625393a5f0b33dd70d26a73ce7ef131d9c208ee6840e51008aacd9dca431
+  1.64.0--r44h3df3fcb_0: sha256:4e42d78df1cd96de2467e693d7f80f5bf72bd85bea17eaaeeaa3f44c3d0cd698
 docker: quay.io/biocontainers/bioconductor-flowfp

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-asafe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-asafe
 latest:
-  1.28.0--r43hdfd78af_0: sha256:4b61550e5d85c881e83bb129fe8d7e981b1ac46f279fdd25bb1bf94eafe4706b
+  1.32.0--r44hdfd78af_0: sha256:24ac86f4cd6d7c8099ed95eca84c8e6f5d460b4430128e5ef0a070198fd0ce73
 tags:
   1.8.0--r351_0: sha256:28a3cd50148674cc60a105edc160c8a96ad3e68225ab3c92600d228ee84b8759
   1.20.0--r41hdfd78af_0: sha256:096117497eb78163eb4b30cbc2c2d5499ab9d072f3a4072e15a79dd0e9079b59
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hdfd78af_0: sha256:47651501db411a272571cd45563b7dd2c0af9367d6d36cea843ac5fd66cc807e
   1.26.0--r43hdfd78af_0: sha256:a41823f14cf7bda4586ad6457d878ce0ed44394fe7c8ce9f5d8fba233c81b726
   1.28.0--r43hdfd78af_0: sha256:4b61550e5d85c881e83bb129fe8d7e981b1ac46f279fdd25bb1bf94eafe4706b
+  1.32.0--r44hdfd78af_0: sha256:24ac86f4cd6d7c8099ed95eca84c8e6f5d460b4430128e5ef0a070198fd0ce73
 docker: quay.io/biocontainers/bioconductor-asafe
 aliases:
   c89: /usr/local/bin/c89

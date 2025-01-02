@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ggsc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ggsc
 latest:
-  1.0.2--r43hf17093f_0: sha256:94abfe7023e7f7439cc421299d10efa61ea95288aeb6685dc2e536addf8e0ef0
+  1.4.0--r44he5774e6_0: sha256:f3593aedd0fe896ac97e1507a13f643ff1005c236cf14e996f691e0d75b20261
 tags:
   1.0.2--r43hf17093f_0: sha256:94abfe7023e7f7439cc421299d10efa61ea95288aeb6685dc2e536addf8e0ef0
+  1.4.0--r44he5774e6_0: sha256:f3593aedd0fe896ac97e1507a13f643ff1005c236cf14e996f691e0d75b20261
 docker: quay.io/biocontainers/bioconductor-ggsc
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rbsurv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rbsurv
 latest:
-  2.60.0--r43hdfd78af_0: sha256:82e1d859e830358895f19a53044cd5d90778dee98e61b390343384d25ff8ad05
+  2.64.0--r44hdfd78af_0: sha256:9cca7cfbacf09b33a4d06f50f59508cc5556c413e1378440923208d6c8bea376
 tags:
   2.52.0--r41hdfd78af_0: sha256:a735ef59b33e0e77a1c23ef6790a313658cd9e74e108e60eceb397dc5bb8ca4a
   2.56.0--r42hdfd78af_0: sha256:8007f6cf741733645c5bcd176450afb913f98448122521edf6158254c4253f7b
   2.58.0--r43hdfd78af_0: sha256:947433ab15256ac08c42008fd41c427b4123884e91ea409dcfde529dd3f7fbff
   2.60.0--r43hdfd78af_0: sha256:82e1d859e830358895f19a53044cd5d90778dee98e61b390343384d25ff8ad05
+  2.64.0--r44hdfd78af_0: sha256:9cca7cfbacf09b33a4d06f50f59508cc5556c413e1378440923208d6c8bea376
 docker: quay.io/biocontainers/bioconductor-rbsurv

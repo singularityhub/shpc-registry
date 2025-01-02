@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-somaticcanceralterations
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-somaticcanceralterations
 latest:
-  1.38.0--r43hdfd78af_0: sha256:d65c6f1bc7d065f59bcf0558aba8f672d9d6cc4ef592ccd40048e97eda5ed815
+  1.42.0--r44hdfd78af_0: sha256:14fca4be3305b3da3dce25a5aa64683a9622fdfc133d07d3aa28058ac20aa11e
 tags:
   1.30.0--r41hdfd78af_1: sha256:962b529f5ebcfb7be6011345f2398e05ba1ea54ba12956b126128aed3388fd8a
   1.34.0--r42hdfd78af_0: sha256:d0474102dc84e4342d3ce458b744dad3dd47982ea48863a3316b97f0d47cda6f
   1.36.0--r43hdfd78af_0: sha256:e02afe248ff788accb82f50dce649906cbbd8e47f8d61e0b7b8c06bf1abbb444
   1.38.0--r43hdfd78af_0: sha256:d65c6f1bc7d065f59bcf0558aba8f672d9d6cc4ef592ccd40048e97eda5ed815
+  1.42.0--r44hdfd78af_0: sha256:14fca4be3305b3da3dce25a5aa64683a9622fdfc133d07d3aa28058ac20aa11e
 docker: quay.io/biocontainers/bioconductor-somaticcanceralterations

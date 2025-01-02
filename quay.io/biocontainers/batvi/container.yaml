@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/batvi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for batvi
 latest:
-  1.04--h43eeafb_8: sha256:2e1bc2d1b92d2899e50ff0ae86bec12a2b989dfc583e4c499b3751282ea12367
+  1.04--h5ca1c30_9: sha256:2448e389858e95f14ce5168263c099a772fdcda5036e90ac1380efa18475c699
 tags:
   1.04--h5b5514e_7: sha256:468cc76c6d0cae8151e58a7ff9bc7a274a0c0624f437959a4f4343fbb1b06cb6
   1.04--h43eeafb_8: sha256:2e1bc2d1b92d2899e50ff0ae86bec12a2b989dfc583e4c499b3751282ea12367
+  1.04--h5ca1c30_9: sha256:2448e389858e95f14ce5168263c099a772fdcda5036e90ac1380efa18475c699
 docker: quay.io/biocontainers/batvi
 aliases:
   call_integrations.sh: /usr/local/bin/call_integrations.sh

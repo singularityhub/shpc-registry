@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-pathwaytmb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-pathwaytmb
 latest:
-  0.1.3--r43h3121a25_2: sha256:a55b62456a0fefbc507b68b81b9c09f55fb8a2f1de74e536c17d663991c2965f
+  0.1.3--r44h3121a25_3: sha256:90cf14154edaca7e729eda65af7ef21f7cde21d585ed72f553c59d47b93373cd
 tags:
   0.1.3--r42h3121a25_1: sha256:aee298feaef223b8596331cdbeaecd1fbd62cc3c56012bc98570abe6233493cc
   0.1.3--r43h3121a25_2: sha256:a55b62456a0fefbc507b68b81b9c09f55fb8a2f1de74e536c17d663991c2965f
+  0.1.3--r44h3121a25_3: sha256:90cf14154edaca7e729eda65af7ef21f7cde21d585ed72f553c59d47b93373cd
 docker: quay.io/biocontainers/r-pathwaytmb
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

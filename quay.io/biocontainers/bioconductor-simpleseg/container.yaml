@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-simpleseg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-simpleseg
 latest:
-  1.4.0--r43hdfd78af_0: sha256:4f622046dc3d0eedf87059273e6246ab68be557901ffda84d6aa7adb1ea73c2b
+  1.8.0--r44hdfd78af_0: sha256:f0724f2d20c1168459a1d50b0f21897e1c76ea0fa3b083a5b7f063624e487c1b
 tags:
   1.0.0--r42hdfd78af_0: sha256:2f4e681b971030688ec0f04bb07189de0d9990bc6c5aae6d369166a5efb8d2aa
   1.2.0--r43hdfd78af_0: sha256:3e7fa0709503f2c163ace6658b9d675a373793574ce4ec875eb59e656efb3b29
   1.4.0--r43hdfd78af_0: sha256:4f622046dc3d0eedf87059273e6246ab68be557901ffda84d6aa7adb1ea73c2b
+  1.8.0--r44hdfd78af_0: sha256:f0724f2d20c1168459a1d50b0f21897e1c76ea0fa3b083a5b7f063624e487c1b
 docker: quay.io/biocontainers/bioconductor-simpleseg
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

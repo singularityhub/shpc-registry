@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/qfilt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qfilt
 latest:
-  0.0.1--h4ac6f70_6: sha256:1c7aa521a0d1975fb10963a2368ac192f4929063be518fe7bf327afedeff31b6
+  0.0.1--h9948957_7: sha256:b12ca9b19c1230c7c3750fecfe7f08d6cee301fb6fef45048d1ef81502de3900
 tags:
   0.0.1--h9f5acd7_4: sha256:ac1e2fba0d07cf02a05b695e45b038ccd655d2d2a300448f9047ac32849a7cf4
   0.0.1--h4ac6f70_6: sha256:1c7aa521a0d1975fb10963a2368ac192f4929063be518fe7bf327afedeff31b6
+  0.0.1--h9948957_7: sha256:b12ca9b19c1230c7c3750fecfe7f08d6cee301fb6fef45048d1ef81502de3900
 docker: quay.io/biocontainers/qfilt
 aliases:
   qfilt: /usr/local/bin/qfilt

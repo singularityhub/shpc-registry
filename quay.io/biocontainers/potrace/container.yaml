@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/potrace
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for potrace
 latest:
-  1.11--he4a0461_6: sha256:49dac6feebafdde82f88a845db0d5c7f95854d033a0b4b1bb0bbb23f80f69b97
+  1.11--h577a1d6_7: sha256:bd4b8bc9efc5ef056440dae51f91801262bbfb5c54c8401dbeacffaaed8fb56d
 tags:
   1.11--h7132678_4: sha256:de45921cc951741c62b1a39ec9f605b44aac3431aa84636fcbdbe6362d2a4b46
   1.11--he4a0461_6: sha256:49dac6feebafdde82f88a845db0d5c7f95854d033a0b4b1bb0bbb23f80f69b97
+  1.11--h577a1d6_7: sha256:bd4b8bc9efc5ef056440dae51f91801262bbfb5c54c8401dbeacffaaed8fb56d
 docker: quay.io/biocontainers/potrace
 aliases:
   mkbitmap: /usr/local/bin/mkbitmap

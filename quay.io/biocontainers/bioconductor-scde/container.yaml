@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-scde
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scde
 latest:
-  2.30.0--r43hf17093f_0: sha256:fd80d4a4c999e94e96cb9c89c39c21e1a7c0008b555b7168c688af84e94e6add
+  2.34.0--r44he5774e6_0: sha256:de2a419e8d01bc267aa4fd3359d54429a0546bece3019e27e496b07c18ea2ce8
 tags:
   2.8.0--r351hfc679d8_0: sha256:a5b92fef9324b2b9b85a2bfcfdc4fa550c2e796c259dd3192add2636c9fd781b
   2.22.0--r41hc247a5b_2: sha256:5d14f8e617d9c1894900e3ea17505bfb8de849c7ef41be9bee2154c66ed1cc58
@@ -14,4 +14,5 @@ tags:
   2.26.0--r42hf17093f_1: sha256:72fc275b08649ced3b271bf50e3699f001681353220a7a4efec4e5543d8f81e9
   2.28.2--r43hf17093f_0: sha256:50ebc9059c883072c8cee310ba9c0d4a07669d8cff2710aa44f298e8b55e4fc4
   2.30.0--r43hf17093f_0: sha256:fd80d4a4c999e94e96cb9c89c39c21e1a7c0008b555b7168c688af84e94e6add
+  2.34.0--r44he5774e6_0: sha256:de2a419e8d01bc267aa4fd3359d54429a0546bece3019e27e496b07c18ea2ce8
 docker: quay.io/biocontainers/bioconductor-scde

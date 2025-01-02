@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-splinetimer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-splinetimer
 latest:
-  1.30.0--r43hdfd78af_0: sha256:fe64c4a45e8b45fbb89a81d7b1bc6f0d5c8ed28a9ac72aee0ec06939fb6c7f26
+  1.34.0--r44hdfd78af_0: sha256:344c16d48318b68303f5eeaf1605a02b78cba601c310274ae076075362ae8de3
 tags:
   1.8.0--r341_0: sha256:6cf25efff46d52b69e85ecd0b5fcfad6c8e0bf464cd99ce6a19493139ec88c61
   1.22.0--r41hdfd78af_0: sha256:d73e4a773a65bfcdb9df3e058efb491f3be8c68723ed15fb0d39c723f02a8bce
@@ -13,6 +13,7 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:5f79f76cf5b80f6eac74e39fbeac1a2cb89f7a7694a3d0fb04ac26c998ab6840
   1.28.0--r43hdfd78af_0: sha256:0ac4888eaafe6643de5e8d9887fb8cc2c2bc4caddc1550bb8348c0434aa71c61
   1.30.0--r43hdfd78af_0: sha256:fe64c4a45e8b45fbb89a81d7b1bc6f0d5c8ed28a9ac72aee0ec06939fb6c7f26
+  1.34.0--r44hdfd78af_0: sha256:344c16d48318b68303f5eeaf1605a02b78cba601c310274ae076075362ae8de3
 docker: quay.io/biocontainers/bioconductor-splinetimer
 aliases:
   wget: /usr/local/bin/wget
