@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-fithic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fithic
 latest:
-  1.28.0--r43hf17093f_0: sha256:d69f38451c1473e773719794901adcc71b09454c50bc813ba7688330c21a8c0a
+  1.32.0--r44he5774e6_0: sha256:8c8034cc762a52648c9ec235926551bede0296f96f590aae36eaff888d7d9910
 tags:
   1.8.0--r351hf484d3e_0: sha256:8432324b52b41ee8e92231f6be8b5ede2cdcc25784b491e9cd8e7249f73372cc
   1.24.0--r42hc247a5b_0: sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hf17093f_2: sha256:7b885df90be9f0d076143108302256a5dc079ad8e3da121970f28e7a4b87e18b
   1.26.0--r43hf17093f_0: sha256:36e0a49f7d5291fc0ca654931284ab71eb49b9a066afce9eca903a6322899322
   1.28.0--r43hf17093f_0: sha256:d69f38451c1473e773719794901adcc71b09454c50bc813ba7688330c21a8c0a
+  1.32.0--r44he5774e6_0: sha256:8c8034cc762a52648c9ec235926551bede0296f96f590aae36eaff888d7d9910
 docker: quay.io/biocontainers/bioconductor-fithic
 aliases:
   c89: /usr/local/bin/c89

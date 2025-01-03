@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/quicksect
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quicksect
 latest:
-  0.2.2--py38h0020b31_10: sha256:87d4a86d9f93824958d705780d8fa0f0d14454f39285600bce443176043db6f2
+  0.2.2--py312h0fa9677_11: sha256:24059f5cfe98eb86804ceae74ac6bdee5dd53ea2e2044fb2fcf401018bc27a68
 tags:
   0.2.2--py39hbf8eff0_5: sha256:6a4ff9123a5e59195c23e198516c7ccd330ebfd7e1e41c8b3dab19d2a7588a38
   0.2.2--py310h4b81fae_8: sha256:fec00afad177f7400f45c560636a3191603a327873727420a0402ff223edb0f2
   0.2.2--py38he5da3d1_8: sha256:5f117fc8f24e7050a1ee03c8b73f03bcd3960410b6b789f6757dec7fab76d4f4
   0.2.2--py312hf67a6ed_9: sha256:278753d1b5b179ab6f35adf7d18a50334f13fec165fea1117c3a3ab4f338252c
   0.2.2--py38h0020b31_10: sha256:87d4a86d9f93824958d705780d8fa0f0d14454f39285600bce443176043db6f2
+  0.2.2--py312h0fa9677_11: sha256:24059f5cfe98eb86804ceae74ac6bdee5dd53ea2e2044fb2fcf401018bc27a68
 docker: quay.io/biocontainers/quicksect
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

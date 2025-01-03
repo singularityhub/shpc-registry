@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-regionalpcs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-regionalpcs
 latest:
-  1.0.0--r43hdfd78af_0: sha256:423821fd1faffb45fb33bc66f9fa68a714f50a6928bee2bcc6c810a1278fcb72
+  1.4.0--r44hdfd78af_0: sha256:61063428becf27ab5aa38743a429d92ddea2ad45fb5d04ea44a049f5a0fd9933
 tags:
   1.0.0--r43hdfd78af_0: sha256:423821fd1faffb45fb33bc66f9fa68a714f50a6928bee2bcc6c810a1278fcb72
+  1.4.0--r44hdfd78af_0: sha256:61063428becf27ab5aa38743a429d92ddea2ad45fb5d04ea44a049f5a0fd9933
 docker: quay.io/biocontainers/bioconductor-regionalpcs
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

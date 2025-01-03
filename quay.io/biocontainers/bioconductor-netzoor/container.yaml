@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-netzoor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-netzoor
 latest:
-  1.6.0--r43hdfd78af_0: sha256:a3eb1dd6dbcf563b6eec93f7d1ff223af71c4adf97a7369ae9ecf54667654556
+  1.10.0--r44hdfd78af_0: sha256:094c050ffe543b6dcf3954784d63efd0a45de9e85a73eb861decc694e41f2c84
 tags:
   1.2.0--r42hdfd78af_0: sha256:c146cbbecf487bd2b1b07e16eb6254264b52b66b1fa1a061d027d3e35759b271
   1.4.0--r43hdfd78af_0: sha256:b69eb57ff7316ae8df9dbb754e2d06ed69390aaeb7fbac7c44180672c61aa2a3
   1.6.0--r43hdfd78af_0: sha256:a3eb1dd6dbcf563b6eec93f7d1ff223af71c4adf97a7369ae9ecf54667654556
+  1.10.0--r44hdfd78af_0: sha256:094c050ffe543b6dcf3954784d63efd0a45de9e85a73eb861decc694e41f2c84
 docker: quay.io/biocontainers/bioconductor-netzoor
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

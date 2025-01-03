@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-scavenge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-scavenge
 latest:
-  1.0.2--r43hdfd78af_0: sha256:dec0e1c92617b554bfe523aa8ad9983b5b2d05a48cf747118b8cba6d5cab69a1
+  1.0.2--r44hdfd78af_1: sha256:67d69830f072104dcdfd9c2fedf3562992ce0972c92ebadf121a1f916650a3a5
 tags:
   1.0.2--r43hdfd78af_0: sha256:dec0e1c92617b554bfe523aa8ad9983b5b2d05a48cf747118b8cba6d5cab69a1
+  1.0.2--r44hdfd78af_1: sha256:67d69830f072104dcdfd9c2fedf3562992ce0972c92ebadf121a1f916650a3a5
 docker: quay.io/biocontainers/r-scavenge
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

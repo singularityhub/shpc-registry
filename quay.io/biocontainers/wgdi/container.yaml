@@ -2,13 +2,16 @@ url: https://biocontainers.pro/tools/wgdi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wgdi
 latest:
-  0.6.5--pyhdfd78af_0: sha256:66c016c9a432849cda3ec17e3d07be338c1d17c0249b5ce2cfdb1ba37d300083
+  0.72--pyhdfd78af_0: sha256:a6e06c9176cd4c3538269e3b86a74d22c95435ede781bb918a6e62bdefd0b3b7
 tags:
   0.6.1--pyhdfd78af_0: sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf
   0.6.2--pyhdfd78af_0: sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77
   0.6.3--pyhdfd78af_0: sha256:eaa1a7be35d4c2aa306c9fc48daf798aab7c20bf8df9a6aec3d33353fc7c1abe
   0.6.4--pyhdfd78af_0: sha256:798431848dd975f1a6e8ac80911729b06dd54d41a887d0d27e3654d217376b84
   0.6.5--pyhdfd78af_0: sha256:66c016c9a432849cda3ec17e3d07be338c1d17c0249b5ce2cfdb1ba37d300083
+  0.72--pyhdfd78af_0: sha256:a6e06c9176cd4c3538269e3b86a74d22c95435ede781bb918a6e62bdefd0b3b7
+  0.71--pyhdfd78af_0: sha256:e9aa6b58bbb29d99918bb80fbce4a4374c8fb1991a8544964f9ed18431f1dad7
+  0.7--pyhdfd78af_1: sha256:ed202ce70542b9174abf839a7bf74fd87b6d950d71443a4d925063df946ffd0a
 docker: quay.io/biocontainers/wgdi
 aliases:
   divvier: /usr/local/bin/divvier

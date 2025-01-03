@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-ggspavis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ggspavis
 latest:
-  1.8.0--r43hdfd78af_0: sha256:287c9f374e6a3f0c1a4f5d80702d193dfbaa84c02916775c6bdaaeea320980d6
+  1.12.0--r44hdfd78af_0: sha256:ecec5cf1d7aa88bccb68c6644ef41aa3b7cbeeb98112fee56a4e952c30ccd326
 tags:
   1.0.0--r41hdfd78af_0: sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02
   1.4.0--r42hdfd78af_0: sha256:01b7aec1a9955992be9cf5c634c444d5b8c23d19d9858030d23e5aaf5bd49a8e
   1.6.0--r43hdfd78af_0: sha256:c3832441de0813a315fcc60608429551caf58c2daa202d19bf98233fa9a5d032
   1.8.0--r43hdfd78af_0: sha256:287c9f374e6a3f0c1a4f5d80702d193dfbaa84c02916775c6bdaaeea320980d6
+  1.12.0--r44hdfd78af_0: sha256:ecec5cf1d7aa88bccb68c6644ef41aa3b7cbeeb98112fee56a4e952c30ccd326
 docker: quay.io/biocontainers/bioconductor-ggspavis
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

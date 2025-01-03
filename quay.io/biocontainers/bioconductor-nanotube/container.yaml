@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-nanotube
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nanotube
 latest:
-  1.8.0--r43hdfd78af_0: sha256:2dc267d94f7839dc2a9de9633c7e4c79279d029c0aaa582612b54c749633e1e5
+  1.12.0--r44hdfd78af_0: sha256:c9fe4e2948ea4127ea2f2a2239756b61b9e60bbf12dc1375b097089ff3190b40
 tags:
   1.0.0--r41hdfd78af_0: sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2
   1.4.0--r42hdfd78af_0: sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105
   1.6.0--r43hdfd78af_0: sha256:c5fd3e657203f584a0b68787a54b085207c79201764a301f3f3520aaa594906c
   1.8.0--r43hdfd78af_0: sha256:2dc267d94f7839dc2a9de9633c7e4c79279d029c0aaa582612b54c749633e1e5
+  1.12.0--r44hdfd78af_0: sha256:c9fe4e2948ea4127ea2f2a2239756b61b9e60bbf12dc1375b097089ff3190b40
 docker: quay.io/biocontainers/bioconductor-nanotube

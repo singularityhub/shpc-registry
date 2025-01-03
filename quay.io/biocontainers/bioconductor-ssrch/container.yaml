@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-ssrch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ssrch
 latest:
-  1.18.0--r43hdfd78af_0: sha256:dfbaba823b36552667274469ba5b67712f57672b32c8e0fa5395b150bf37b6cf
+  1.22.0--r44hdfd78af_0: sha256:b69c26bba8341ec457c0f1519425e8503a31725f880940b6c1f1405e1342e1b6
 tags:
   1.8.0--r41hdfd78af_0: sha256:23de792adb33e1511e209cdd321be43227d5bee5209f336220e80a0799efdc9c
   1.14.0--r42hdfd78af_0: sha256:b56ca53ccaaba3b0d860a4b0f7df4db240856e657e11c8f829e457557e43c76c
   1.10.0--r41hdfd78af_0: sha256:53beecdf400679943f0da36fba17735135bd6b421b99b9aff992e55031ab27b2
   1.16.0--r43hdfd78af_0: sha256:63c09e4b4f7da44d42e2e57b3c6876515fb77e0ccb74a6672d3390b5c1019f9d
   1.18.0--r43hdfd78af_0: sha256:dfbaba823b36552667274469ba5b67712f57672b32c8e0fa5395b150bf37b6cf
+  1.22.0--r44hdfd78af_0: sha256:b69c26bba8341ec457c0f1519425e8503a31725f880940b6c1f1405e1342e1b6
 docker: quay.io/biocontainers/bioconductor-ssrch
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-kegglincs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-kegglincs
 latest:
-  1.28.0--r43hdfd78af_0: sha256:06bca47c2fc0ba4d5d9122b62fa37eeebe5f0c7814c171e25f79d12cc93fdd0d
+  1.32.0--r44hdfd78af_0: sha256:3393b8755686b31834c47f9acaa925f2e2e93de30e6c563c856264c7c5f375dd
 tags:
   1.8.0--r351_0: sha256:87757bedaa61cb87356b0c359227dc40a2ca3deb1b92ad5246c9e2d39f53fcb9
   1.20.0--r41hdfd78af_0: sha256:66667297a3e6e5cf6266ed0af0df087f327f5a5149a3f9370e0a621a3dadcbeb
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hdfd78af_0: sha256:253b7a6a0897141f69a63d5e89a2031911530ed666f132107b29895b7ce9d621
   1.26.0--r43hdfd78af_0: sha256:f4a9ad9786f5e83bffefdaf390d32cf88989dfa3ecdcb1940a3fb710869d13ef
   1.28.0--r43hdfd78af_0: sha256:06bca47c2fc0ba4d5d9122b62fa37eeebe5f0c7814c171e25f79d12cc93fdd0d
+  1.32.0--r44hdfd78af_0: sha256:3393b8755686b31834c47f9acaa925f2e2e93de30e6c563c856264c7c5f375dd
 docker: quay.io/biocontainers/bioconductor-kegglincs
 aliases:
   wget: /usr/local/bin/wget

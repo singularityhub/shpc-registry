@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cydar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cydar
 latest:
-  1.26.0--r43hf17093f_0: sha256:50de497b2426e569d32af44ab13f23fe32ab8dcbf1bd103d60ef3c8b7783bf1b
+  1.30.0--r44he5774e6_0: sha256:6879d96771f9bf87050f475065128d5f864ddc3b02626fd2496922ec6fed4954
 tags:
   1.8.0--r36he1b5a44_1: sha256:3d981f2df79e0e9ae3c5f12d24ec6eaadd6e10109e0309f0b80c6eaa4ac06e12
   1.18.0--r41hc247a5b_2: sha256:45d364aac7eecde5d9008481a32f8e6704635be5a9ca7cfc50a9da2f075b7f23
@@ -14,6 +14,7 @@ tags:
   1.22.0--r42hf17093f_1: sha256:bae1e759a88552c1c88ae2ef63d16727eca5ff07ab89709b61d2ce7fc15318a9
   1.24.0--r43hf17093f_0: sha256:34ebc2a698de592857e088d330a84a28f179db730cf7ddd1258de43c87db65b9
   1.26.0--r43hf17093f_0: sha256:50de497b2426e569d32af44ab13f23fe32ab8dcbf1bd103d60ef3c8b7783bf1b
+  1.30.0--r44he5774e6_0: sha256:6879d96771f9bf87050f475065128d5f864ddc3b02626fd2496922ec6fed4954
 docker: quay.io/biocontainers/bioconductor-cydar
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

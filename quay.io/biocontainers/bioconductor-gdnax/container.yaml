@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gdnax
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gdnax
 latest:
-  1.0.0--r43hdfd78af_0: sha256:9736a2f3bcb9d11cb96a4d28e1d799d87879f4a900bcda4df4b86a12417dcc59
+  1.4.0--r44hdfd78af_0: sha256:eb5fe7b8be42dac5456580e043f0da97f39b8fbddf3cc57a42bc88faa99f1679
 tags:
   1.0.0--r43hdfd78af_0: sha256:9736a2f3bcb9d11cb96a4d28e1d799d87879f4a900bcda4df4b86a12417dcc59
+  1.4.0--r44hdfd78af_0: sha256:eb5fe7b8be42dac5456580e043f0da97f39b8fbddf3cc57a42bc88faa99f1679
 docker: quay.io/biocontainers/bioconductor-gdnax
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

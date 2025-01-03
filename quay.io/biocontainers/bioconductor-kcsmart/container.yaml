@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-kcsmart
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-kcsmart
 latest:
-  2.60.0--r43hdfd78af_0: sha256:a54721a8a2b546261dc30aad2468a0624a58c4c150b02a572b23863b589d5a65
+  2.64.0--r44hdfd78af_0: sha256:5c898ee0f918ea5159bbc92fa4dc95d59dd3a678cfe9646976aa6424911cd9df
 tags:
   2.52.0--r41hdfd78af_0: sha256:24c7140dd930db7129265ce407bcbc77be66680c0317df07a1d1e34b38e8d0f1
   2.56.0--r42hdfd78af_0: sha256:73321381600cb437b4223322be11c9584ebe7a9e969429cdb916c954ed6f6554
   2.58.0--r43hdfd78af_0: sha256:5dea3b4d0b746ba3f38f95927d42019ed01492cad434a6e27f3dc2a5073b7f6c
   2.60.0--r43hdfd78af_0: sha256:a54721a8a2b546261dc30aad2468a0624a58c4c150b02a572b23863b589d5a65
+  2.64.0--r44hdfd78af_0: sha256:5c898ee0f918ea5159bbc92fa4dc95d59dd3a678cfe9646976aa6424911cd9df
 docker: quay.io/biocontainers/bioconductor-kcsmart

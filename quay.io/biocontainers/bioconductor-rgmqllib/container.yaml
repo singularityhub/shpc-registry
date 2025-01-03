@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rgmqllib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgmqllib
 latest:
-  1.22.0--r43hdfd78af_0: sha256:c43e0474cfa3836403e910548cf8e9af0a061eef35749712c1b3d424882bee37
+  1.26.0--r44hdfd78af_0: sha256:52e3558404e95c7b678dae106a8715b4a51012ffe320e64ceabe1293b6af22bd
 tags:
   1.9.0--r40_0: sha256:be444842e11e228abb46f9e0ba7b5f68fcec86a5a4fe947c3e96bbf94eb89a74
   1.17.0--r42hdfd78af_0: sha256:f29fe4f30d030496aceb87a2cd35bba6aaf8566bf5bff82f40f2ee32b3cebb19
@@ -12,6 +12,7 @@ tags:
   1.18.0--r42hdfd78af_0: sha256:fc079bd3f59114810f0c81fade76e679016ce0715cb7b446e8a5452648d7c101
   1.20.0--r43hdfd78af_0: sha256:88f1db67081f8e67cdcc08b37a961714927896a9aa5c7fbc4161be0337fd8afe
   1.22.0--r43hdfd78af_0: sha256:c43e0474cfa3836403e910548cf8e9af0a061eef35749712c1b3d424882bee37
+  1.26.0--r44hdfd78af_0: sha256:52e3558404e95c7b678dae106a8715b4a51012ffe320e64ceabe1293b6af22bd
 docker: quay.io/biocontainers/bioconductor-rgmqllib
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v86
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v86
 latest:
-  2.99.0--r43hdfd78af_12: sha256:d0edb2726b960bb7a66037415d3aa10ed731953bca4c8df5ec3f8a17e8d15ff0
+  2.99.0--r44hdfd78af_13: sha256:fee7f74958e4bb00c8a528bee291e6f20a408a9b7afd4c56e78b072851765e49
 tags:
   2.99.0--r41hdfd78af_9: sha256:a41bf55d8ee3fb2d36f7eafd6c9f33822fde52a127e2c80239a4e50f7741a866
   2.99.0--r42hdfd78af_10: sha256:b7a0ed9dd27741ff50c3c7ef8329cbab15dac279185c8bbd6fdcf6cc25defea1
   2.99.0--r43hdfd78af_11: sha256:5c0b12c4deb0120e15a8418ce163cab8a40e48d4919fa1fc5d5755df01075dad
   2.99.0--r43hdfd78af_12: sha256:d0edb2726b960bb7a66037415d3aa10ed731953bca4c8df5ec3f8a17e8d15ff0
+  2.99.0--r44hdfd78af_13: sha256:fee7f74958e4bb00c8a528bee291e6f20a408a9b7afd4c56e78b072851765e49
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metadmg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metadmg
 latest:
-  0.4--h8e173a3_0: sha256:52b4d2986f78289978c53ded9e18c03038672f7064208645b62b244b619f3155
+  0.4--h6ba4bad_1: sha256:120431c5ec94f98b07811b7d4999a284753ca975f9f7be2bd237a4667ce43baa
 tags:
   0.3--h86cbbb3_1: sha256:127245178807baf7a37280aeefeb74b485c5d6b7a4cbd87b7a50da11b3fdd7ac
   0.4--h8e173a3_0: sha256:52b4d2986f78289978c53ded9e18c03038672f7064208645b62b244b619f3155
+  0.4--h6ba4bad_1: sha256:120431c5ec94f98b07811b7d4999a284753ca975f9f7be2bd237a4667ce43baa
 docker: quay.io/biocontainers/metadmg
 aliases:
   compressbam: /usr/local/bin/compressbam

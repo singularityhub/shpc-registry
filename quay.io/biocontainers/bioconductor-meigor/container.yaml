@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-meigor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-meigor
 latest:
-  1.33.0--r43hdfd78af_0: sha256:bc088523c1d63a20468e47ea68ef31e7db76f965c13adc75acf8b02b946441c9
+  1.40.0--r44hdfd78af_0: sha256:74242f229bd60fde9568e0c1ee364062f9ad282fd24826f49add087efde350bd
 tags:
   1.28.0--r41hdfd78af_0: sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed
   1.31.0--r42hdfd78af_0: sha256:0747f99ae27608a294b57a34894b8f24f4124e35d6c0a5cd89910cfa42373494
   1.33.0--r43hdfd78af_0: sha256:bc088523c1d63a20468e47ea68ef31e7db76f965c13adc75acf8b02b946441c9
+  1.40.0--r44hdfd78af_0: sha256:74242f229bd60fde9568e0c1ee364062f9ad282fd24826f49add087efde350bd
 docker: quay.io/biocontainers/bioconductor-meigor
 aliases:
   diffimg: /usr/local/bin/diffimg

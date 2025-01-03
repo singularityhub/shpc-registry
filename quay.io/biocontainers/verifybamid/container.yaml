@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/verifybamid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for verifybamid
 latest:
-  1.1.3--h43eeafb_8: sha256:301ab0f60bbf69f4be566fd5e29e429f80f01fafa588ec8d79cb8bb8cb21f692
+  1.1.3--h5ca1c30_9: sha256:0151f9141569af45e05e63819c24c4a506eb5da7f0f363ab5dc0f8ab7f30281c
 tags:
   1.1.3--h5b5514e_6: sha256:8e721261d0eae5c7b6c24742dd9713cd2878351882c65f2b4903d4df456a6024
   1.1.3--h43eeafb_8: sha256:301ab0f60bbf69f4be566fd5e29e429f80f01fafa588ec8d79cb8bb8cb21f692
+  1.1.3--h5ca1c30_9: sha256:0151f9141569af45e05e63819c24c4a506eb5da7f0f363ab5dc0f8ab7f30281c
 docker: quay.io/biocontainers/verifybamid

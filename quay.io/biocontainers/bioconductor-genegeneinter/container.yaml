@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-genegeneinter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genegeneinter
 latest:
-  1.28.0--r43hf17093f_1: sha256:fd0aefc04af5bf8ce0b6c66521e4c1a6b05d25d32fce04514962bdcf64167d77
+  1.32.0--r44he5774e6_0: sha256:553ba85cdcca1f20929359242c86ecfe8716b4cb429ebd28687055f5be7da63a
 tags:
   1.8.0--r351_0: sha256:5f5b575b52f5f837326d40f734ae608aeef045093667b3d114aaba1de4e62778
   1.20.0--r41hc247a5b_2: sha256:ddd8ee1ac036360a9920f44f99d1c52cb1654e0e2ed3240f76d0323dda478e02
@@ -15,6 +15,7 @@ tags:
   1.26.0--r43hf17093f_0: sha256:e0c4300aa1503ecff90fcd97e436912bc67dc8b8c31f58ab67ca95de194b9524
   1.28.0--r43hf17093f_0: sha256:1b681f54b8f1c911cba7c18c54dd067c35702ded5208beb3fb2be1fd4daae3f8
   1.28.0--r43hf17093f_1: sha256:fd0aefc04af5bf8ce0b6c66521e4c1a6b05d25d32fce04514962bdcf64167d77
+  1.32.0--r44he5774e6_0: sha256:553ba85cdcca1f20929359242c86ecfe8716b4cb429ebd28687055f5be7da63a
 docker: quay.io/biocontainers/bioconductor-genegeneinter
 aliases:
   wget: /usr/local/bin/wget

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-icobra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-icobra
 latest:
-  1.30.0--r43hdfd78af_0: sha256:f1ffe8a0bb25ebbd66188406133bd896b34d78f979c85ab17b568c49bc20170e
+  1.34.0--r44hdfd78af_0: sha256:3487465d7597d9ff99a1a0ee15bea14d141faf07c88d314305cf723a33f3d790
 tags:
   1.8.0--r341_0: sha256:982a8f7a2f3aabf4a32862df5a545421986ccb62e4f555e7b1097a15401a9a20
   1.26.0--r42hdfd78af_0: sha256:ebde2c15749d16a803e0aa66cd8c9821b0369510b9f8d9bd9c225d756743b13d
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:3d224aaf52812b0f1cfa56c119f395479f4242d1e2ab39baa76759e75057285e
   1.28.0--r43hdfd78af_0: sha256:6f79d8d3e4bef2c8836adc982ade82cd3c0b52de1405e0b1030fdf079bff26db
   1.30.0--r43hdfd78af_0: sha256:f1ffe8a0bb25ebbd66188406133bd896b34d78f979c85ab17b568c49bc20170e
+  1.34.0--r44hdfd78af_0: sha256:3487465d7597d9ff99a1a0ee15bea14d141faf07c88d314305cf723a33f3d790
 docker: quay.io/biocontainers/bioconductor-icobra
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

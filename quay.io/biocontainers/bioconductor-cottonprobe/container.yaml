@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cottonprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cottonprobe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:e57212c4d08c5a3d50dde608775efa443c65aa258e0cf04468ee906779979b0a
+  2.18.0--r44hdfd78af_13: sha256:3aab649a9367eed5f4144d65f7eeb187c3448ff907e874a1f5ca574137fe9874
 tags:
   2.18.0--r41hdfd78af_9: sha256:14e413d05ee32c95284fec2eabe470ad6cf45094f61426cc81041a82409193bc
   2.18.0--r42hdfd78af_10: sha256:b5222615b170451ceae5ece6898d1fd7b50d7399cd8d6560d162f134816bb5aa
   2.18.0--r43hdfd78af_11: sha256:376362fc366f94b64bbd7e2a2a4081ed14232117d5fbce295843c865de3b1597
   2.18.0--r43hdfd78af_12: sha256:e57212c4d08c5a3d50dde608775efa443c65aa258e0cf04468ee906779979b0a
+  2.18.0--r44hdfd78af_13: sha256:3aab649a9367eed5f4144d65f7eeb187c3448ff907e874a1f5ca574137fe9874
 docker: quay.io/biocontainers/bioconductor-cottonprobe
