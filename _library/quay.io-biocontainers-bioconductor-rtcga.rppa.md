@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.rppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.rppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.rppa/container.yaml"
-updated_at: "2025-01-02 03:34:51.950039"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:36:50.078385"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.rppa"
 aliases:
  - "f2py3.10"
@@ -20,8 +20,9 @@ versions:
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.rppa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.rppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.rppa", "latest": {"1.30.0--r43hdfd78af_0": "sha256:59b446d54b13747623eaeba91707c951c3081a4a39c622743b5a2335f7438f97"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:e931e8c346264f818bb10e2460dd44173b9fa649e1c7085f93c06283343b7f92", "1.25.0--r42hdfd78af_0": "sha256:fcedc88985c93aa2e06b2991e4b481b25f09d7ab94730980ffb0f871ff14f535", "1.28.0--r43hdfd78af_0": "sha256:d22de3127e270f9fd1520845044b7550f808cdb62da42bfd7f71d8163d3c4a60", "1.30.0--r43hdfd78af_0": "sha256:59b446d54b13747623eaeba91707c951c3081a4a39c622743b5a2335f7438f97"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.rppa", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.rppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.rppa", "latest": {"1.34.0--r44hdfd78af_0": "sha256:32d4a812577a52f3641fd766c9f99b55b44a9619112d6d01d8b0f5f9dc9d736d"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:e931e8c346264f818bb10e2460dd44173b9fa649e1c7085f93c06283343b7f92", "1.25.0--r42hdfd78af_0": "sha256:fcedc88985c93aa2e06b2991e4b481b25f09d7ab94730980ffb0f871ff14f535", "1.28.0--r43hdfd78af_0": "sha256:d22de3127e270f9fd1520845044b7550f808cdb62da42bfd7f71d8163d3c4a60", "1.30.0--r43hdfd78af_0": "sha256:59b446d54b13747623eaeba91707c951c3081a4a39c622743b5a2335f7438f97", "1.34.0--r44hdfd78af_0": "sha256:32d4a812577a52f3641fd766c9f99b55b44a9619112d6d01d8b0f5f9dc9d736d"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.rppa", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.rppa.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.rppa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.rppa:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.rppa:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.rppa/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rtcga.rppa/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rtcga.rppa/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.rppa/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mapscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapscape/container.yaml"
-updated_at: "2025-01-02 03:27:29.452256"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:29:28.877667"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapscape"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r42hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mapscape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mapscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapscape", "latest": {"1.26.0--r43hdfd78af_0": "sha256:1ea6b6253064398e6dbe4b2a6c6a438065fc034520b84d3e8d1b82bd4bbef6f3"}, "tags": {"1.8.0--r361_1": "sha256:b2b784f910e90d344f520702f6e61e2a1142df3b1a79726c302cd25b27a2f36e", "1.18.0--r41hdfd78af_0": "sha256:842eff0a43d02d91bcf8c6c87a315b454a586b73f688b1b45bd6763879fb79c0", "1.16.0--r41hdfd78af_0": "sha256:aae97da97d4bea343e6cde9abe48da9c9238375c5324769a2d1b2530840bc069", "1.14.0--r40hdfd78af_1": "sha256:fe30d6a0e75c95f5acb29692e69a003383ed4b6e8169fad0c9e0beeca69a8223", "1.12.0--r40_0": "sha256:3389570772d177d3bcd83e9185679b04069b554042b6d6790d1d2a5eed79ff07", "1.10.0--r36_0": "sha256:c494bd842465e874b21d734ebce98bced759ed20b296b13bdb7ea44eb6f73c2a", "1.22.0--r42hdfd78af_0": "sha256:aea5ae81218d7318c6f04cef93a1555dfdca0175cc0a63e2147a337b18ea1d27", "1.24.0--r43hdfd78af_0": "sha256:ca248d545f949058165c42fe53775af6a343c77d272aea123a1160bceaa8ca3f", "1.26.0--r43hdfd78af_0": "sha256:1ea6b6253064398e6dbe4b2a6c6a438065fc034520b84d3e8d1b82bd4bbef6f3"}, "docker": "quay.io/biocontainers/bioconductor-mapscape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mapscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapscape", "latest": {"1.30.0--r44hdfd78af_0": "sha256:c76d284ccdf41da3dc09baab7a8d22b3b4836945766059dc38c20e06c74a26bc"}, "tags": {"1.8.0--r361_1": "sha256:b2b784f910e90d344f520702f6e61e2a1142df3b1a79726c302cd25b27a2f36e", "1.18.0--r41hdfd78af_0": "sha256:842eff0a43d02d91bcf8c6c87a315b454a586b73f688b1b45bd6763879fb79c0", "1.16.0--r41hdfd78af_0": "sha256:aae97da97d4bea343e6cde9abe48da9c9238375c5324769a2d1b2530840bc069", "1.14.0--r40hdfd78af_1": "sha256:fe30d6a0e75c95f5acb29692e69a003383ed4b6e8169fad0c9e0beeca69a8223", "1.12.0--r40_0": "sha256:3389570772d177d3bcd83e9185679b04069b554042b6d6790d1d2a5eed79ff07", "1.10.0--r36_0": "sha256:c494bd842465e874b21d734ebce98bced759ed20b296b13bdb7ea44eb6f73c2a", "1.22.0--r42hdfd78af_0": "sha256:aea5ae81218d7318c6f04cef93a1555dfdca0175cc0a63e2147a337b18ea1d27", "1.24.0--r43hdfd78af_0": "sha256:ca248d545f949058165c42fe53775af6a343c77d272aea123a1160bceaa8ca3f", "1.26.0--r43hdfd78af_0": "sha256:1ea6b6253064398e6dbe4b2a6c6a438065fc034520b84d3e8d1b82bd4bbef6f3", "1.30.0--r44hdfd78af_0": "sha256:c76d284ccdf41da3dc09baab7a8d22b3b4836945766059dc38c20e06c74a26bc"}, "docker": "quay.io/biocontainers/bioconductor-mapscape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mapscape.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mapscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mapscape:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mapscape:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mapscape/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mapscape/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mapscape/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mapscape/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

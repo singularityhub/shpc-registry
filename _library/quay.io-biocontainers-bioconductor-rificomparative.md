@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rificomparative"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rificomparative/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rificomparative/container.yaml"
-updated_at: "2025-01-02 03:14:00.359236"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:15:52.059104"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rificomparative"
 aliases:
  - "git2"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.0.1--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rificomparative"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rificomparative", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rificomparative", "latest": {"1.2.0--r43hdfd78af_0": "sha256:66939d37e49f1bc7abb1cc94e86b9bf54122a20ee3ef1b0acea1060151e449d2"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:8425fab55d7be4d450268db2af6b466461a1abbd3e5e34733cb53d97dcb662d1", "1.2.0--r43hdfd78af_0": "sha256:66939d37e49f1bc7abb1cc94e86b9bf54122a20ee3ef1b0acea1060151e449d2"}, "docker": "quay.io/biocontainers/bioconductor-rificomparative", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rificomparative", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rificomparative", "latest": {"1.6.0--r44hdfd78af_0": "sha256:76f6b980ae48f030dba93fb7f56618cfb7da9033024b4a24a28900779667cce2"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:8425fab55d7be4d450268db2af6b466461a1abbd3e5e34733cb53d97dcb662d1", "1.2.0--r43hdfd78af_0": "sha256:66939d37e49f1bc7abb1cc94e86b9bf54122a20ee3ef1b0acea1060151e449d2", "1.6.0--r44hdfd78af_0": "sha256:76f6b980ae48f030dba93fb7f56618cfb7da9033024b4a24a28900779667cce2"}, "docker": "quay.io/biocontainers/bioconductor-rificomparative", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rificomparative.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rificomparative
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rificomparative:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rificomparative:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rificomparative/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rificomparative/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rificomparative/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rificomparative/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

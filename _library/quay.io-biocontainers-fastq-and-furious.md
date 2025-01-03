@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-and-furious"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-and-furious/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-and-furious/container.yaml"
-updated_at: "2025-01-02 03:04:21.913692"
-latest: "0.3.2--py312hf67a6ed_4"
+updated_at: "2025-01-03 03:05:59.209133"
+latest: "0.3.2--py311haab0aaa_5"
 container_url: "https://biocontainers.pro/tools/fastq-and-furious"
 aliases:
  - "2to3-3.9"
@@ -18,8 +18,9 @@ versions:
  - "0.3.2--py39hf95cd2a_3"
  - "0.3.2--py38he5da3d1_3"
  - "0.3.2--py312hf67a6ed_4"
+ - "0.3.2--py311haab0aaa_5"
 description: "shpc-registry automated BioContainers addition for fastq-and-furious"
-config: {"url": "https://biocontainers.pro/tools/fastq-and-furious", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-and-furious", "latest": {"0.3.2--py312hf67a6ed_4": "sha256:4293b687989ce2c11aaf60fc3feb54e9f40f88b288b987ac3d8e181f512151ef"}, "tags": {"0.3.2--py39hbf8eff0_0": "sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66", "0.3.2--py39hf95cd2a_3": "sha256:4095229570443a3f7a69cf6151102123068773ecbd8df2dcad161bb449807bf9", "0.3.2--py38he5da3d1_3": "sha256:88aaf9729bb72a20adddd2fa527b42e9603be0083b0d486993d52cc7bd7e53d6", "0.3.2--py312hf67a6ed_4": "sha256:4293b687989ce2c11aaf60fc3feb54e9f40f88b288b987ac3d8e181f512151ef"}, "docker": "quay.io/biocontainers/fastq-and-furious", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-and-furious", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-and-furious", "latest": {"0.3.2--py311haab0aaa_5": "sha256:ec06444bfb2f440d3a80c89d8352de7d6c10fe19718d16554015bf15b37115d8"}, "tags": {"0.3.2--py39hbf8eff0_0": "sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66", "0.3.2--py39hf95cd2a_3": "sha256:4095229570443a3f7a69cf6151102123068773ecbd8df2dcad161bb449807bf9", "0.3.2--py38he5da3d1_3": "sha256:88aaf9729bb72a20adddd2fa527b42e9603be0083b0d486993d52cc7bd7e53d6", "0.3.2--py312hf67a6ed_4": "sha256:4293b687989ce2c11aaf60fc3feb54e9f40f88b288b987ac3d8e181f512151ef", "0.3.2--py311haab0aaa_5": "sha256:ec06444bfb2f440d3a80c89d8352de7d6c10fe19718d16554015bf15b37115d8"}, "docker": "quay.io/biocontainers/fastq-and-furious", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-and-furious.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/fastq-and-furious
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-and-furious:0.3.2--py312hf67a6ed_4
+$ shpc install quay.io/biocontainers/fastq-and-furious:0.3.2--py311haab0aaa_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-and-furious/0.3.2--py312hf67a6ed_4
-$ module help quay.io/biocontainers/fastq-and-furious/0.3.2--py312hf67a6ed_4
+$ module load quay.io/biocontainers/fastq-and-furious/0.3.2--py311haab0aaa_5
+$ module help quay.io/biocontainers/fastq-and-furious/0.3.2--py311haab0aaa_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

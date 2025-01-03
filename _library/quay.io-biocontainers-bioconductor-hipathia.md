@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hipathia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
-updated_at: "2025-01-02 03:27:36.513168"
-latest: "3.2.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:29:35.924704"
+latest: "3.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hipathia"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "2.14.0--r42hdfd78af_0"
  - "3.0.2--r43hdfd78af_0"
  - "3.2.0--r43hdfd78af_0"
+ - "3.6.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hipathia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hipathia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hipathia", "latest": {"3.2.0--r43hdfd78af_0": "sha256:2e4e6a787e27da776c4819de53778c672ced26a15044aed6816a034e6e85bc25"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28", "2.10.0--r41hdfd78af_0": "sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3", "2.14.0--r42hdfd78af_0": "sha256:11b75a66656a73bad2a1937b3c48ae7324c7a554d5d76d32779056657b6b9afc", "3.0.2--r43hdfd78af_0": "sha256:7024c7996b642f97c183cb37f3ef5ee77f88a4b2c04787f2774ae9cc196e0e35", "3.2.0--r43hdfd78af_0": "sha256:2e4e6a787e27da776c4819de53778c672ced26a15044aed6816a034e6e85bc25"}, "docker": "quay.io/biocontainers/bioconductor-hipathia", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hipathia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hipathia", "latest": {"3.6.0--r44hdfd78af_0": "sha256:c81248f8520dd924831a5a62fec6393c1afee2822919ddb66c7dfb3d34686159"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28", "2.10.0--r41hdfd78af_0": "sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3", "2.14.0--r42hdfd78af_0": "sha256:11b75a66656a73bad2a1937b3c48ae7324c7a554d5d76d32779056657b6b9afc", "3.0.2--r43hdfd78af_0": "sha256:7024c7996b642f97c183cb37f3ef5ee77f88a4b2c04787f2774ae9cc196e0e35", "3.2.0--r43hdfd78af_0": "sha256:2e4e6a787e27da776c4819de53778c672ced26a15044aed6816a034e6e85bc25", "3.6.0--r44hdfd78af_0": "sha256:c81248f8520dd924831a5a62fec6393c1afee2822919ddb66c7dfb3d34686159"}, "docker": "quay.io/biocontainers/bioconductor-hipathia", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hipathia.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hipathia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hipathia:3.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hipathia:3.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hipathia/3.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hipathia/3.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hipathia/3.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hipathia/3.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

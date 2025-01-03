@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-heron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heron/container.yaml"
-updated_at: "2025-01-02 03:23:37.239047"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:25:35.745157"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heron"
 aliases:
  - "bsdunzip"
@@ -42,8 +42,9 @@ aliases:
  - "gdal_rasterize"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-heron"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-heron", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-heron", "latest": {"1.0.0--r43hdfd78af_0": "sha256:666a6b4771f9a76ca488f5858c020d1a14e1573ac223c1c9322b147f226956dc"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:666a6b4771f9a76ca488f5858c020d1a14e1573ac223c1c9322b147f226956dc"}, "docker": "quay.io/biocontainers/bioconductor-heron", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "gdal_footprint": "/usr/local/bin/gdal_footprint", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "sozip": "/usr/local/bin/sozip", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pdfattach": "/usr/local/bin/pdfattach", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-heron", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-heron", "latest": {"1.4.0--r44hdfd78af_0": "sha256:e3fe8cd62dfb0fe8ba4f2cfc87db25ef0fa5533ffebd32fe93e68047d220b6df"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:666a6b4771f9a76ca488f5858c020d1a14e1573ac223c1c9322b147f226956dc", "1.4.0--r44hdfd78af_0": "sha256:e3fe8cd62dfb0fe8ba4f2cfc87db25ef0fa5533ffebd32fe93e68047d220b6df"}, "docker": "quay.io/biocontainers/bioconductor-heron", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "gdal_footprint": "/usr/local/bin/gdal_footprint", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "sozip": "/usr/local/bin/sozip", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pdfattach": "/usr/local/bin/pdfattach", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-heron.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/bioconductor-heron
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-heron:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-heron:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-heron/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-heron/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-heron/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-heron/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

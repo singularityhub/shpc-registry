@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/batvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/batvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/batvi/container.yaml"
-updated_at: "2025-01-02 02:55:00.746333"
-latest: "1.04--h43eeafb_8"
+updated_at: "2025-01-03 02:56:22.086566"
+latest: "1.04--h5ca1c30_9"
 container_url: "https://biocontainers.pro/tools/batvi"
 aliases:
  - "call_integrations.sh"
@@ -47,8 +47,9 @@ aliases:
 versions:
  - "1.04--h5b5514e_7"
  - "1.04--h43eeafb_8"
+ - "1.04--h5ca1c30_9"
 description: "shpc-registry automated BioContainers addition for batvi"
-config: {"url": "https://biocontainers.pro/tools/batvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for batvi", "latest": {"1.04--h43eeafb_8": "sha256:2e1bc2d1b92d2899e50ff0ae86bec12a2b989dfc583e4c499b3751282ea12367"}, "tags": {"1.04--h5b5514e_7": "sha256:468cc76c6d0cae8151e58a7ff9bc7a274a0c0624f437959a4f4343fbb1b06cb6", "1.04--h43eeafb_8": "sha256:2e1bc2d1b92d2899e50ff0ae86bec12a2b989dfc583e4c499b3751282ea12367"}, "docker": "quay.io/biocontainers/batvi", "aliases": {"call_integrations.sh": "/usr/local/bin/call_integrations.sh", "cat_sorted_sam.sh": "/usr/local/bin/cat_sorted_sam.sh", "clean_run.sh": "/usr/local/bin/clean_run.sh", "collate.sh": "/usr/local/bin/collate.sh", "collate_from_file.sh": "/usr/local/bin/collate_from_file.sh", "combine_hits.pl": "/usr/local/bin/combine_hits.pl", "commandline.sh": "/usr/local/bin/commandline.sh", "convert_to_fastq.sh": "/usr/local/bin/convert_to_fastq.sh", "email.sh": "/usr/local/bin/email.sh", "extract_hbv_from_fasta.sh": "/usr/local/bin/extract_hbv_from_fasta.sh", "extract_sam_xargs.sh": "/usr/local/bin/extract_sam_xargs.sh", "extract_unmapped_and_oneside.sh": "/usr/local/bin/extract_unmapped_and_oneside.sh", "extracthbv.sh": "/usr/local/bin/extracthbv.sh", "gen_paths.sh": "/usr/local/bin/gen_paths.sh", "get_blast_hits.sh": "/usr/local/bin/get_blast_hits.sh", "get_reads.pl": "/usr/local/bin/get_reads.pl", "hbvblast.sh": "/usr/local/bin/hbvblast.sh", "join_sam.sh": "/usr/local/bin/join_sam.sh", "manualcompile.sh": "/usr/local/bin/manualcompile.sh", "relabelunbugreads.sh": "/usr/local/bin/relabelunbugreads.sh", "search_text.sh": "/usr/local/bin/search_text.sh", "sort_by_name.sh": "/usr/local/bin/sort_by_name.sh", "unbug.pl": "/usr/local/bin/unbug.pl", "unbug.sh": "/usr/local/bin/unbug.sh", "unbug_xarg.sh": "/usr/local/bin/unbug_xarg.sh", "view_xargs.sh": "/usr/local/bin/view_xargs.sh", "build.sh": "/usr/local/bin/build.sh", "picard": "/usr/local/bin/picard", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
+config: {"url": "https://biocontainers.pro/tools/batvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for batvi", "latest": {"1.04--h5ca1c30_9": "sha256:2448e389858e95f14ce5168263c099a772fdcda5036e90ac1380efa18475c699"}, "tags": {"1.04--h5b5514e_7": "sha256:468cc76c6d0cae8151e58a7ff9bc7a274a0c0624f437959a4f4343fbb1b06cb6", "1.04--h43eeafb_8": "sha256:2e1bc2d1b92d2899e50ff0ae86bec12a2b989dfc583e4c499b3751282ea12367", "1.04--h5ca1c30_9": "sha256:2448e389858e95f14ce5168263c099a772fdcda5036e90ac1380efa18475c699"}, "docker": "quay.io/biocontainers/batvi", "aliases": {"call_integrations.sh": "/usr/local/bin/call_integrations.sh", "cat_sorted_sam.sh": "/usr/local/bin/cat_sorted_sam.sh", "clean_run.sh": "/usr/local/bin/clean_run.sh", "collate.sh": "/usr/local/bin/collate.sh", "collate_from_file.sh": "/usr/local/bin/collate_from_file.sh", "combine_hits.pl": "/usr/local/bin/combine_hits.pl", "commandline.sh": "/usr/local/bin/commandline.sh", "convert_to_fastq.sh": "/usr/local/bin/convert_to_fastq.sh", "email.sh": "/usr/local/bin/email.sh", "extract_hbv_from_fasta.sh": "/usr/local/bin/extract_hbv_from_fasta.sh", "extract_sam_xargs.sh": "/usr/local/bin/extract_sam_xargs.sh", "extract_unmapped_and_oneside.sh": "/usr/local/bin/extract_unmapped_and_oneside.sh", "extracthbv.sh": "/usr/local/bin/extracthbv.sh", "gen_paths.sh": "/usr/local/bin/gen_paths.sh", "get_blast_hits.sh": "/usr/local/bin/get_blast_hits.sh", "get_reads.pl": "/usr/local/bin/get_reads.pl", "hbvblast.sh": "/usr/local/bin/hbvblast.sh", "join_sam.sh": "/usr/local/bin/join_sam.sh", "manualcompile.sh": "/usr/local/bin/manualcompile.sh", "relabelunbugreads.sh": "/usr/local/bin/relabelunbugreads.sh", "search_text.sh": "/usr/local/bin/search_text.sh", "sort_by_name.sh": "/usr/local/bin/sort_by_name.sh", "unbug.pl": "/usr/local/bin/unbug.pl", "unbug.sh": "/usr/local/bin/unbug.sh", "unbug_xarg.sh": "/usr/local/bin/unbug_xarg.sh", "view_xargs.sh": "/usr/local/bin/view_xargs.sh", "build.sh": "/usr/local/bin/build.sh", "picard": "/usr/local/bin/picard", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/batvi.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/batvi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/batvi:1.04--h43eeafb_8
+$ shpc install quay.io/biocontainers/batvi:1.04--h5ca1c30_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/batvi/1.04--h43eeafb_8
-$ module help quay.io/biocontainers/batvi/1.04--h43eeafb_8
+$ module load quay.io/biocontainers/batvi/1.04--h5ca1c30_9
+$ module help quay.io/biocontainers/batvi/1.04--h5ca1c30_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

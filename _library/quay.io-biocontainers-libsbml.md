@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libsbml/container.yaml"
-updated_at: "2025-01-02 03:16:54.101923"
-latest: "5.20.4--hd2ed0a0_1"
+updated_at: "2025-01-03 03:18:47.417535"
+latest: "5.20.4--hd2f072f_2"
 container_url: "https://biocontainers.pro/tools/libsbml"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "5.18.0--h5422e7e_9"
  - "5.18.0--h5422e7e_10"
  - "5.20.4--hd2ed0a0_1"
+ - "5.20.4--hd2f072f_2"
 description: "shpc-registry automated BioContainers addition for libsbml"
-config: {"url": "https://biocontainers.pro/tools/libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsbml", "latest": {"5.20.4--hd2ed0a0_1": "sha256:3ac4455007b8657009286232541aa517b1314a64267495afae1ad86588fee72c"}, "tags": {"5.18.0--h3928612_7": "sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470", "5.18.0--h5422e7e_9": "sha256:cf6380c5ca5451ed7503b517ead60e2f7464d3c5a8b67fe8dd85b3729606a443", "5.18.0--h5422e7e_10": "sha256:1f2dfd8aaffe6c2fb19146da60d2fac5dbf60e5f4c613f5f1191c0d9ed80ce54", "5.20.4--hd2ed0a0_1": "sha256:3ac4455007b8657009286232541aa517b1314a64267495afae1ad86588fee72c"}, "docker": "quay.io/biocontainers/libsbml"}
+config: {"url": "https://biocontainers.pro/tools/libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsbml", "latest": {"5.20.4--hd2f072f_2": "sha256:a3e7e522a0bfaa0d40097813a6175389ce4f63274383acd09d27bece931b8a20"}, "tags": {"5.18.0--h3928612_7": "sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470", "5.18.0--h5422e7e_9": "sha256:cf6380c5ca5451ed7503b517ead60e2f7464d3c5a8b67fe8dd85b3729606a443", "5.18.0--h5422e7e_10": "sha256:1f2dfd8aaffe6c2fb19146da60d2fac5dbf60e5f4c613f5f1191c0d9ed80ce54", "5.20.4--hd2ed0a0_1": "sha256:3ac4455007b8657009286232541aa517b1314a64267495afae1ad86588fee72c", "5.20.4--hd2f072f_2": "sha256:a3e7e522a0bfaa0d40097813a6175389ce4f63274383acd09d27bece931b8a20"}, "docker": "quay.io/biocontainers/libsbml"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libsbml.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/libsbml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libsbml:5.20.4--hd2ed0a0_1
+$ shpc install quay.io/biocontainers/libsbml:5.20.4--hd2f072f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libsbml/5.20.4--hd2ed0a0_1
-$ module help quay.io/biocontainers/libsbml/5.20.4--hd2ed0a0_1
+$ module load quay.io/biocontainers/libsbml/5.20.4--hd2f072f_2
+$ module help quay.io/biocontainers/libsbml/5.20.4--hd2f072f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

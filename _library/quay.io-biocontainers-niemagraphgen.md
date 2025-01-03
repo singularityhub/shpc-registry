@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/niemagraphgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/niemagraphgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/niemagraphgen/container.yaml"
-updated_at: "2025-01-02 03:20:47.029420"
-latest: "1.0.6--hdbdd923_0"
+updated_at: "2025-01-03 03:22:43.418578"
+latest: "1.0.6--h503566f_1"
 container_url: "https://biocontainers.pro/tools/niemagraphgen"
 aliases:
  - "ngg_barabasi_albert"
@@ -19,8 +19,9 @@ aliases:
  - "ngg_ring_lattice"
 versions:
  - "1.0.6--hdbdd923_0"
+ - "1.0.6--h503566f_1"
 description: "singularity registry hpc automated addition for niemagraphgen"
-config: {"url": "https://biocontainers.pro/tools/niemagraphgen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for niemagraphgen", "latest": {"1.0.6--hdbdd923_0": "sha256:45cffe05712fc95f2cdb26ee44d598af7d602ec79920a081d592650cd4c60a2f"}, "tags": {"1.0.6--hdbdd923_0": "sha256:45cffe05712fc95f2cdb26ee44d598af7d602ec79920a081d592650cd4c60a2f"}, "docker": "quay.io/biocontainers/niemagraphgen", "aliases": {"ngg_barabasi_albert": "/usr/local/bin/ngg_barabasi_albert", "ngg_barbell": "/usr/local/bin/ngg_barbell", "ngg_complete": "/usr/local/bin/ngg_complete", "ngg_cycle": "/usr/local/bin/ngg_cycle", "ngg_empty": "/usr/local/bin/ngg_empty", "ngg_erdos_renyi": "/usr/local/bin/ngg_erdos_renyi", "ngg_newman_watts_strogatz": "/usr/local/bin/ngg_newman_watts_strogatz", "ngg_path": "/usr/local/bin/ngg_path", "ngg_ring_lattice": "/usr/local/bin/ngg_ring_lattice"}}
+config: {"url": "https://biocontainers.pro/tools/niemagraphgen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for niemagraphgen", "latest": {"1.0.6--h503566f_1": "sha256:00ceff480972175e2e9a2ee69cd433fb706db74e6ea51eeb644a65480b5c23b2"}, "tags": {"1.0.6--hdbdd923_0": "sha256:45cffe05712fc95f2cdb26ee44d598af7d602ec79920a081d592650cd4c60a2f", "1.0.6--h503566f_1": "sha256:00ceff480972175e2e9a2ee69cd433fb706db74e6ea51eeb644a65480b5c23b2"}, "docker": "quay.io/biocontainers/niemagraphgen", "aliases": {"ngg_barabasi_albert": "/usr/local/bin/ngg_barabasi_albert", "ngg_barbell": "/usr/local/bin/ngg_barbell", "ngg_complete": "/usr/local/bin/ngg_complete", "ngg_cycle": "/usr/local/bin/ngg_cycle", "ngg_empty": "/usr/local/bin/ngg_empty", "ngg_erdos_renyi": "/usr/local/bin/ngg_erdos_renyi", "ngg_newman_watts_strogatz": "/usr/local/bin/ngg_newman_watts_strogatz", "ngg_path": "/usr/local/bin/ngg_path", "ngg_ring_lattice": "/usr/local/bin/ngg_ring_lattice"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/niemagraphgen.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/niemagraphgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/niemagraphgen:1.0.6--hdbdd923_0
+$ shpc install quay.io/biocontainers/niemagraphgen:1.0.6--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/niemagraphgen/1.0.6--hdbdd923_0
-$ module help quay.io/biocontainers/niemagraphgen/1.0.6--hdbdd923_0
+$ module load quay.io/biocontainers/niemagraphgen/1.0.6--h503566f_1
+$ module help quay.io/biocontainers/niemagraphgen/1.0.6--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

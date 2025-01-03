@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rhotermpredict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhotermpredict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rhotermpredict/container.yaml"
-updated_at: "2025-01-02 02:58:47.332220"
+updated_at: "2025-01-03 03:00:10.976936"
 latest: "3.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/rhotermpredict"
 aliases:

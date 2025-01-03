@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bed2gtf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bed2gtf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bed2gtf/container.yaml"
-updated_at: "2025-01-02 03:14:04.676123"
+updated_at: "2025-01-03 03:15:56.361462"
 latest: "1.9.3--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/bed2gtf"
 aliases:

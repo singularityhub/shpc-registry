@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/miniprot-boundary-scorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniprot-boundary-scorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot-boundary-scorer/container.yaml"
-updated_at: "2025-01-02 02:52:15.887680"
-latest: "1.0.0--h4ac6f70_0"
+updated_at: "2025-01-03 02:53:35.107230"
+latest: "1.0.0--h9948957_1"
 container_url: "https://biocontainers.pro/tools/miniprot-boundary-scorer"
 aliases:
  - "miniprot_boundary_scorer"
 versions:
  - "1.0.0--h4ac6f70_0"
+ - "1.0.0--h9948957_1"
 description: "singularity registry hpc automated addition for miniprot-boundary-scorer"
-config: {"url": "https://biocontainers.pro/tools/miniprot-boundary-scorer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for miniprot-boundary-scorer", "latest": {"1.0.0--h4ac6f70_0": "sha256:3a469b4e70a56c81c94fad5d2666304c7ad25402fe37ee563ef88346986560eb"}, "tags": {"1.0.0--h4ac6f70_0": "sha256:3a469b4e70a56c81c94fad5d2666304c7ad25402fe37ee563ef88346986560eb"}, "docker": "quay.io/biocontainers/miniprot-boundary-scorer", "aliases": {"miniprot_boundary_scorer": "/usr/local/bin/miniprot_boundary_scorer"}}
+config: {"url": "https://biocontainers.pro/tools/miniprot-boundary-scorer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for miniprot-boundary-scorer", "latest": {"1.0.0--h9948957_1": "sha256:a88241c75276212400de5b5a6f74f368e29577c68806eec05dd67f8bc3241015"}, "tags": {"1.0.0--h4ac6f70_0": "sha256:3a469b4e70a56c81c94fad5d2666304c7ad25402fe37ee563ef88346986560eb", "1.0.0--h9948957_1": "sha256:a88241c75276212400de5b5a6f74f368e29577c68806eec05dd67f8bc3241015"}, "docker": "quay.io/biocontainers/miniprot-boundary-scorer", "aliases": {"miniprot_boundary_scorer": "/usr/local/bin/miniprot_boundary_scorer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/miniprot-boundary-scorer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/miniprot-boundary-scorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/miniprot-boundary-scorer:1.0.0--h4ac6f70_0
+$ shpc install quay.io/biocontainers/miniprot-boundary-scorer:1.0.0--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/miniprot-boundary-scorer/1.0.0--h4ac6f70_0
-$ module help quay.io/biocontainers/miniprot-boundary-scorer/1.0.0--h4ac6f70_0
+$ module load quay.io/biocontainers/miniprot-boundary-scorer/1.0.0--h9948957_1
+$ module help quay.io/biocontainers/miniprot-boundary-scorer/1.0.0--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

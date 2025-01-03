@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nim-falcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nim-falcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nim-falcon/container.yaml"
-updated_at: "2025-01-02 03:15:06.051404"
-latest: "3.0.2--h18d090a_1"
+updated_at: "2025-01-03 03:16:58.165368"
+latest: "3.0.2--h4b1250d_2"
 container_url: "https://biocontainers.pro/tools/nim-falcon"
 aliases:
  - "falconc"
@@ -17,8 +17,9 @@ aliases:
  - "tabix"
 versions:
  - "3.0.2--h18d090a_1"
+ - "3.0.2--h4b1250d_2"
 description: "shpc-registry automated BioContainers addition for nim-falcon"
-config: {"url": "https://biocontainers.pro/tools/nim-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nim-falcon", "latest": {"3.0.2--h18d090a_1": "sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348"}, "tags": {"3.0.2--h18d090a_1": "sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348"}, "docker": "quay.io/biocontainers/nim-falcon", "aliases": {"falconc": "/usr/local/bin/falconc", "fc_consensus.exe": "/usr/local/bin/fc_consensus.exe", "fc_rr_hctg_track.exe": "/usr/local/bin/fc_rr_hctg_track.exe", "fc_rr_hctg_track2.exe": "/usr/local/bin/fc_rr_hctg_track2.exe", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/nim-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nim-falcon", "latest": {"3.0.2--h4b1250d_2": "sha256:7cbf7a506d982ee0454cdb826090e2ae50ac1ef2c4492c3b3420c74ec1e3fc53"}, "tags": {"3.0.2--h18d090a_1": "sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348", "3.0.2--h4b1250d_2": "sha256:7cbf7a506d982ee0454cdb826090e2ae50ac1ef2c4492c3b3420c74ec1e3fc53"}, "docker": "quay.io/biocontainers/nim-falcon", "aliases": {"falconc": "/usr/local/bin/falconc", "fc_consensus.exe": "/usr/local/bin/fc_consensus.exe", "fc_rr_hctg_track.exe": "/usr/local/bin/fc_rr_hctg_track.exe", "fc_rr_hctg_track2.exe": "/usr/local/bin/fc_rr_hctg_track2.exe", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nim-falcon.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/nim-falcon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nim-falcon:3.0.2--h18d090a_1
+$ shpc install quay.io/biocontainers/nim-falcon:3.0.2--h4b1250d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nim-falcon/3.0.2--h18d090a_1
-$ module help quay.io/biocontainers/nim-falcon/3.0.2--h18d090a_1
+$ module load quay.io/biocontainers/nim-falcon/3.0.2--h4b1250d_2
+$ module help quay.io/biocontainers/nim-falcon/3.0.2--h4b1250d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

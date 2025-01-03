@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-pave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-pave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-pave/container.yaml"
-updated_at: "2025-01-02 02:58:12.967520"
+updated_at: "2025-01-03 02:59:36.442735"
 latest: "1.7_beta--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/hmftools-pave"
 aliases:

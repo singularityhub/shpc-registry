@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/expansionhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expansionhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expansionhunter/container.yaml"
-updated_at: "2025-01-02 02:57:49.123321"
-latest: "5.0.0--h91c6037_3"
+updated_at: "2025-01-03 02:59:12.354520"
+latest: "5.0.0--hd4a82b6_4"
 container_url: "https://biocontainers.pro/tools/expansionhunter"
 aliases:
  - "ExpansionHunter"
@@ -23,8 +23,9 @@ versions:
  - "5.0.0--hf366f20_0"
  - "5.0.0--hf366f20_1"
  - "5.0.0--h91c6037_3"
+ - "5.0.0--hd4a82b6_4"
 description: "shpc-registry automated BioContainers addition for expansionhunter"
-config: {"url": "https://biocontainers.pro/tools/expansionhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunter", "latest": {"5.0.0--h91c6037_3": "sha256:a60c1dc083ebb7c57c032f935566a2bcf0c9a49f9eb1aa7a959d826a60fef949"}, "tags": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271", "5.0.0--hf366f20_0": "sha256:7562052b6f0d8175c86f6c7aabab724826cc2b609cb75157c4000acb00d64126", "5.0.0--hf366f20_1": "sha256:a3a227b4c7652dc6d9b9e39acd3c1faef7a111665fa816132fdcad865f364ed5", "5.0.0--h91c6037_3": "sha256:a60c1dc083ebb7c57c032f935566a2bcf0c9a49f9eb1aa7a959d826a60fef949"}, "docker": "quay.io/biocontainers/expansionhunter", "aliases": {"ExpansionHunter": "/usr/local/bin/ExpansionHunter", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/expansionhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunter", "latest": {"5.0.0--hd4a82b6_4": "sha256:84b7612f1f683c1621c35037a845c7f88d681b15518c3840e8a0c4a7d0b5c42a"}, "tags": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271", "5.0.0--hf366f20_0": "sha256:7562052b6f0d8175c86f6c7aabab724826cc2b609cb75157c4000acb00d64126", "5.0.0--hf366f20_1": "sha256:a3a227b4c7652dc6d9b9e39acd3c1faef7a111665fa816132fdcad865f364ed5", "5.0.0--h91c6037_3": "sha256:a60c1dc083ebb7c57c032f935566a2bcf0c9a49f9eb1aa7a959d826a60fef949", "5.0.0--hd4a82b6_4": "sha256:84b7612f1f683c1621c35037a845c7f88d681b15518c3840e8a0c4a7d0b5c42a"}, "docker": "quay.io/biocontainers/expansionhunter", "aliases": {"ExpansionHunter": "/usr/local/bin/ExpansionHunter", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expansionhunter.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/expansionhunter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/expansionhunter:5.0.0--h91c6037_3
+$ shpc install quay.io/biocontainers/expansionhunter:5.0.0--hd4a82b6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/expansionhunter/5.0.0--h91c6037_3
-$ module help quay.io/biocontainers/expansionhunter/5.0.0--h91c6037_3
+$ module load quay.io/biocontainers/expansionhunter/5.0.0--hd4a82b6_4
+$ module help quay.io/biocontainers/expansionhunter/5.0.0--hd4a82b6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

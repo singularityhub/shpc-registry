@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-motifbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-motifbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-motifbinner/container.yaml"
-updated_at: "2025-01-02 02:55:31.309134"
-latest: "2.0.0--r43hdbdd923_7"
+updated_at: "2025-01-03 02:56:52.892503"
+latest: "2.0.0--r44h503566f_8"
 container_url: "https://biocontainers.pro/tools/r-motifbinner"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "2.0.0--r42h87f3376_5"
  - "2.0.0--r42hdbdd923_6"
  - "2.0.0--r43hdbdd923_7"
+ - "2.0.0--r44h503566f_8"
 description: "shpc-registry automated BioContainers addition for r-motifbinner"
-config: {"url": "https://biocontainers.pro/tools/r-motifbinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-motifbinner", "latest": {"2.0.0--r43hdbdd923_7": "sha256:2d0c27871edbd2e6edec08346665bd3bd86a034c2c1405786a88a1b0aaafd4ee"}, "tags": {"2.0.0--r41h87f3376_4": "sha256:39e936c5c61df4bdd277a6170ab303e07f9ad602a5c6d2c13ac7572b186db362", "2.0.0--r42h87f3376_5": "sha256:6588d623e3d13f12d0d9a9f3c32c2f7b13f9a36e63e73e6a73e6b05c7dd6f216", "2.0.0--r42hdbdd923_6": "sha256:cf8b1a0c98dc8dd390d05b342e660ec8092b2c039834662ccf8e01d51b013ae1", "2.0.0--r43hdbdd923_7": "sha256:2d0c27871edbd2e6edec08346665bd3bd86a034c2c1405786a88a1b0aaafd4ee"}, "docker": "quay.io/biocontainers/r-motifbinner", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-motifbinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-motifbinner", "latest": {"2.0.0--r44h503566f_8": "sha256:17965933b63b99da6a2bc43208022db38dbe36c7346697cdbc03caf6569b972b"}, "tags": {"2.0.0--r41h87f3376_4": "sha256:39e936c5c61df4bdd277a6170ab303e07f9ad602a5c6d2c13ac7572b186db362", "2.0.0--r42h87f3376_5": "sha256:6588d623e3d13f12d0d9a9f3c32c2f7b13f9a36e63e73e6a73e6b05c7dd6f216", "2.0.0--r42hdbdd923_6": "sha256:cf8b1a0c98dc8dd390d05b342e660ec8092b2c039834662ccf8e01d51b013ae1", "2.0.0--r43hdbdd923_7": "sha256:2d0c27871edbd2e6edec08346665bd3bd86a034c2c1405786a88a1b0aaafd4ee", "2.0.0--r44h503566f_8": "sha256:17965933b63b99da6a2bc43208022db38dbe36c7346697cdbc03caf6569b972b"}, "docker": "quay.io/biocontainers/r-motifbinner", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-motifbinner.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-motifbinner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-motifbinner:2.0.0--r43hdbdd923_7
+$ shpc install quay.io/biocontainers/r-motifbinner:2.0.0--r44h503566f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-motifbinner/2.0.0--r43hdbdd923_7
-$ module help quay.io/biocontainers/r-motifbinner/2.0.0--r43hdbdd923_7
+$ module load quay.io/biocontainers/r-motifbinner/2.0.0--r44h503566f_8
+$ module help quay.io/biocontainers/r-motifbinner/2.0.0--r44h503566f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

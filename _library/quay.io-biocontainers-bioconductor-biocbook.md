@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocbook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocbook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocbook/container.yaml"
-updated_at: "2025-01-02 03:32:11.956645"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:34:16.160373"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocbook"
 aliases:
  - "deno"
@@ -20,8 +20,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biocbook"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocbook", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocbook", "latest": {"1.0.0--r43hdfd78af_0": "sha256:6ce697da9b58d4fe8398651285f01ca77f7a82abe37ad0b753c05c9a3df3508f"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6ce697da9b58d4fe8398651285f01ca77f7a82abe37ad0b753c05c9a3df3508f"}, "docker": "quay.io/biocontainers/bioconductor-biocbook", "aliases": {"deno": "/usr/local/bin/deno", "esbuild": "/usr/local/bin/esbuild", "quarto": "/usr/local/bin/quarto", "quarto.js": "/usr/local/bin/quarto.js", "sass": "/usr/local/bin/sass", "git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocbook", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocbook", "latest": {"1.4.0--r44hdfd78af_0": "sha256:afc5be3fcfdb19c41a116ca6dd7caea4a7ea402f0f186e7d078232eb106ab43e"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6ce697da9b58d4fe8398651285f01ca77f7a82abe37ad0b753c05c9a3df3508f", "1.4.0--r44hdfd78af_0": "sha256:afc5be3fcfdb19c41a116ca6dd7caea4a7ea402f0f186e7d078232eb106ab43e"}, "docker": "quay.io/biocontainers/bioconductor-biocbook", "aliases": {"deno": "/usr/local/bin/deno", "esbuild": "/usr/local/bin/esbuild", "quarto": "/usr/local/bin/quarto", "quarto.js": "/usr/local/bin/quarto.js", "sass": "/usr/local/bin/sass", "git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocbook.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocbook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocbook:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocbook:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocbook/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocbook/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocbook/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocbook/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

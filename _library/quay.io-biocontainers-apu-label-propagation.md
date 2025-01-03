@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/apu-label-propagation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apu-label-propagation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apu-label-propagation/container.yaml"
-updated_at: "2025-01-02 03:01:39.047967"
-latest: "1.2--h031d066_2"
+updated_at: "2025-01-03 03:03:09.224915"
+latest: "1.2--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/apu-label-propagation"
 aliases:
  - "apu-label-propagation"
 versions:
  - "1.2--h031d066_2"
+ - "1.2--h7b50bb2_3"
 description: "singularity registry hpc automated addition for apu-label-propagation"
-config: {"url": "https://biocontainers.pro/tools/apu-label-propagation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for apu-label-propagation", "latest": {"1.2--h031d066_2": "sha256:56ad53a43284dd1749dab6779d5712a37d2a17f716c1a7bd6a9cfaca6609c197"}, "tags": {"1.2--h031d066_2": "sha256:56ad53a43284dd1749dab6779d5712a37d2a17f716c1a7bd6a9cfaca6609c197"}, "docker": "quay.io/biocontainers/apu-label-propagation", "aliases": {"apu-label-propagation": "/usr/local/bin/apu-label-propagation"}}
+config: {"url": "https://biocontainers.pro/tools/apu-label-propagation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for apu-label-propagation", "latest": {"1.2--h7b50bb2_3": "sha256:e00cdfb34bf148a8db52f6df482ead9104a2f47ab93e9a6853ab40955d0e8b5c"}, "tags": {"1.2--h031d066_2": "sha256:56ad53a43284dd1749dab6779d5712a37d2a17f716c1a7bd6a9cfaca6609c197", "1.2--h7b50bb2_3": "sha256:e00cdfb34bf148a8db52f6df482ead9104a2f47ab93e9a6853ab40955d0e8b5c"}, "docker": "quay.io/biocontainers/apu-label-propagation", "aliases": {"apu-label-propagation": "/usr/local/bin/apu-label-propagation"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/apu-label-propagation.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/apu-label-propagation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/apu-label-propagation:1.2--h031d066_2
+$ shpc install quay.io/biocontainers/apu-label-propagation:1.2--h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/apu-label-propagation/1.2--h031d066_2
-$ module help quay.io/biocontainers/apu-label-propagation/1.2--h031d066_2
+$ module load quay.io/biocontainers/apu-label-propagation/1.2--h7b50bb2_3
+$ module help quay.io/biocontainers/apu-label-propagation/1.2--h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

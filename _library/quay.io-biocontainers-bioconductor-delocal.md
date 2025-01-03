@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-delocal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delocal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delocal/container.yaml"
-updated_at: "2025-01-02 03:22:53.802234"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:24:51.973063"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delocal"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-delocal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delocal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-delocal", "latest": {"1.2.0--r43hdfd78af_0": "sha256:daa0bb882570df24baa917cbf463c9c0284874f77da0448c3ae335f06c6bb3d4"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:1590e75b068d89cb7fe1929c2cb892332c8e2c0f897f0a0d5b91a8f5c1a11e43", "1.2.0--r43hdfd78af_0": "sha256:daa0bb882570df24baa917cbf463c9c0284874f77da0448c3ae335f06c6bb3d4"}, "docker": "quay.io/biocontainers/bioconductor-delocal", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delocal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-delocal", "latest": {"1.6.0--r44hdfd78af_0": "sha256:307748ea9f80d18edb024c7b96d89aba0d7a144f9401cb345ab6f1492e96ac6f"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:1590e75b068d89cb7fe1929c2cb892332c8e2c0f897f0a0d5b91a8f5c1a11e43", "1.2.0--r43hdfd78af_0": "sha256:daa0bb882570df24baa917cbf463c9c0284874f77da0448c3ae335f06c6bb3d4", "1.6.0--r44hdfd78af_0": "sha256:307748ea9f80d18edb024c7b96d89aba0d7a144f9401cb345ab6f1492e96ac6f"}, "docker": "quay.io/biocontainers/bioconductor-delocal", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delocal.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delocal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delocal:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-delocal:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delocal/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-delocal/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-delocal/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-delocal/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/comparem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comparem2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comparem2/container.yaml"
-updated_at: "2025-01-02 02:52:43.782725"
-latest: "2.11.1--hdfd78af_0"
+updated_at: "2025-01-03 02:54:03.206702"
+latest: "2.12.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/comparem2"
 aliases:
  - "archspec"
@@ -57,8 +57,10 @@ versions:
  - "2.9.1--hdfd78af_1"
  - "2.8.2--hdfd78af_0"
  - "2.11.1--hdfd78af_0"
+ - "2.12.1--hdfd78af_0"
+ - "2.11.2--hdfd78af_1"
 description: "singularity registry hpc automated addition for comparem2"
-config: {"url": "https://biocontainers.pro/tools/comparem2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for comparem2", "latest": {"2.11.1--hdfd78af_0": "sha256:e3c14eaa9c84eafa2dec72a5c0e7ece984f933912ba0556299717e70918fb446"}, "tags": {"2.8.1--hdfd78af_0": "sha256:521e00dab5cdb0073707788fe2bec5ab54f54ddf5439f8e6e86cd4df38ec6018", "2.10.1--hdfd78af_0": "sha256:4e3502acc9b0917123ac5ba921fa02a5d1b102ad5a7c999bdad5179ded489967", "2.9.1--hdfd78af_1": "sha256:42f7c99d466fa2c169daed1e330c6fb4e41fe7276c6ec5f21eaf98e14d3a3118", "2.8.2--hdfd78af_0": "sha256:ac5988c52663935c4660f96a21410c79137abb28cba563724cdd13e1c3506952", "2.11.1--hdfd78af_0": "sha256:e3c14eaa9c84eafa2dec72a5c0e7ece984f933912ba0556299717e70918fb446"}, "docker": "quay.io/biocontainers/comparem2", "aliases": {"archspec": "/usr/local/bin/archspec", "asscom2": "/usr/local/bin/asscom2", "bsdunzip": "/usr/local/bin/bsdunzip", "comparem2": "/usr/local/bin/comparem2", "distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "numpy-config": "/usr/local/bin/numpy-config", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/comparem2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for comparem2", "latest": {"2.12.1--hdfd78af_0": "sha256:4d5c5f3718e802bcb7d9842f9399a74ca142a463125d11c55ff2bbf03fe41e90"}, "tags": {"2.8.1--hdfd78af_0": "sha256:521e00dab5cdb0073707788fe2bec5ab54f54ddf5439f8e6e86cd4df38ec6018", "2.10.1--hdfd78af_0": "sha256:4e3502acc9b0917123ac5ba921fa02a5d1b102ad5a7c999bdad5179ded489967", "2.9.1--hdfd78af_1": "sha256:42f7c99d466fa2c169daed1e330c6fb4e41fe7276c6ec5f21eaf98e14d3a3118", "2.8.2--hdfd78af_0": "sha256:ac5988c52663935c4660f96a21410c79137abb28cba563724cdd13e1c3506952", "2.11.1--hdfd78af_0": "sha256:e3c14eaa9c84eafa2dec72a5c0e7ece984f933912ba0556299717e70918fb446", "2.12.1--hdfd78af_0": "sha256:4d5c5f3718e802bcb7d9842f9399a74ca142a463125d11c55ff2bbf03fe41e90", "2.11.2--hdfd78af_1": "sha256:c7d543daec8bcff42c962220d78c847654d3e801e189502c9197b6a1bd3444b8"}, "docker": "quay.io/biocontainers/comparem2", "aliases": {"archspec": "/usr/local/bin/archspec", "asscom2": "/usr/local/bin/asscom2", "bsdunzip": "/usr/local/bin/bsdunzip", "comparem2": "/usr/local/bin/comparem2", "distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "numpy-config": "/usr/local/bin/numpy-config", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/comparem2.
@@ -73,7 +75,7 @@ $ shpc install quay.io/biocontainers/comparem2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/comparem2:2.11.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/comparem2:2.12.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/comparem2/2.11.1--hdfd78af_0
-$ module help quay.io/biocontainers/comparem2/2.11.1--hdfd78af_0
+$ module load quay.io/biocontainers/comparem2/2.12.1--hdfd78af_0
+$ module help quay.io/biocontainers/comparem2/2.12.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

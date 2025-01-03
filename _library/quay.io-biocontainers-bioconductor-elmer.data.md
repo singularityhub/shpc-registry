@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-elmer.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
-updated_at: "2025-01-02 03:26:05.783780"
-latest: "2.26.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:28:04.835293"
+latest: "2.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-elmer.data"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "2.22.0--r42hdfd78af_0"
  - "2.24.0--r43hdfd78af_0"
  - "2.26.0--r43hdfd78af_0"
+ - "2.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-elmer.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer.data", "latest": {"2.26.0--r43hdfd78af_0": "sha256:17212d588d693d98cccbf239f27a399d1a10810a41c89ffd8fc082906f01901b"}, "tags": {"2.8.0--r36_1": "sha256:4214158821009626eb8d953add8e5ec3afb1b3348bc9374fb687776bf64da810", "2.18.0--r41hdfd78af_1": "sha256:a774b357770b0065eae1262890a3ab39e05c4999c60d1a0354bf502336fc23cb", "2.16.0--r41hdfd78af_0": "sha256:4f8dcd66c23fa9b1f159c52dbd151d78edc9574aade330aa8dad0588ee580007", "2.14.0--r40hdfd78af_1": "sha256:36acc96a59338b4a09f674e25a1b7e9696057789022ae6115b0be2359fa2db1b", "2.12.0--r40_0": "sha256:bbfe2939dc922aeb47eed84e2859c3e375975a00eb513c6503d723a986b8b20c", "2.10.0--r36_0": "sha256:9b7e9825c12c639e32d461501e9d08ab41fd5a6c8b9c1176eea5b9e0e0ec638e", "2.22.0--r42hdfd78af_0": "sha256:7ea808590ce5a7b4eac2d55b1f9766648c8f189a61a5cedfeaffbd337c426605", "2.24.0--r43hdfd78af_0": "sha256:2992b3bea8b1a81a5ae14de63bdaae6d1616183f2eeae871ede40cb6865fee09", "2.26.0--r43hdfd78af_0": "sha256:17212d588d693d98cccbf239f27a399d1a10810a41c89ffd8fc082906f01901b"}, "docker": "quay.io/biocontainers/bioconductor-elmer.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer.data", "latest": {"2.30.0--r44hdfd78af_0": "sha256:b5c8e1a8d02724c9ce4bd87ebf195936a90a87b9898a5ce7608cb33bc10edfee"}, "tags": {"2.8.0--r36_1": "sha256:4214158821009626eb8d953add8e5ec3afb1b3348bc9374fb687776bf64da810", "2.18.0--r41hdfd78af_1": "sha256:a774b357770b0065eae1262890a3ab39e05c4999c60d1a0354bf502336fc23cb", "2.16.0--r41hdfd78af_0": "sha256:4f8dcd66c23fa9b1f159c52dbd151d78edc9574aade330aa8dad0588ee580007", "2.14.0--r40hdfd78af_1": "sha256:36acc96a59338b4a09f674e25a1b7e9696057789022ae6115b0be2359fa2db1b", "2.12.0--r40_0": "sha256:bbfe2939dc922aeb47eed84e2859c3e375975a00eb513c6503d723a986b8b20c", "2.10.0--r36_0": "sha256:9b7e9825c12c639e32d461501e9d08ab41fd5a6c8b9c1176eea5b9e0e0ec638e", "2.22.0--r42hdfd78af_0": "sha256:7ea808590ce5a7b4eac2d55b1f9766648c8f189a61a5cedfeaffbd337c426605", "2.24.0--r43hdfd78af_0": "sha256:2992b3bea8b1a81a5ae14de63bdaae6d1616183f2eeae871ede40cb6865fee09", "2.26.0--r43hdfd78af_0": "sha256:17212d588d693d98cccbf239f27a399d1a10810a41c89ffd8fc082906f01901b", "2.30.0--r44hdfd78af_0": "sha256:b5c8e1a8d02724c9ce4bd87ebf195936a90a87b9898a5ce7608cb33bc10edfee"}, "docker": "quay.io/biocontainers/bioconductor-elmer.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-elmer.data.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-elmer.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-elmer.data:2.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-elmer.data:2.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-elmer.data/2.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-elmer.data/2.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-elmer.data/2.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-elmer.data/2.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

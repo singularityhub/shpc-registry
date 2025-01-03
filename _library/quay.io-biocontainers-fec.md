@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fec/container.yaml"
-updated_at: "2025-01-02 03:18:14.471554"
-latest: "1.0.1--hd03093a_1"
+updated_at: "2025-01-03 03:20:08.705424"
+latest: "1.0.1--he70b90d_2"
 container_url: "https://biocontainers.pro/tools/fec"
 aliases:
  - "Fec"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.1--hd03093a_0"
  - "1.0.1--hd03093a_1"
+ - "1.0.1--he70b90d_2"
 description: "singularity registry hpc automated addition for fec"
-config: {"url": "https://biocontainers.pro/tools/fec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fec", "latest": {"1.0.1--hd03093a_1": "sha256:6ba699b0fb4862361d7767bb839cc8085ac9057eacc129204e018fd21d7c41be"}, "tags": {"1.0.1--hd03093a_0": "sha256:016e0785344a50835349b166b566d2d5c15699152c6ad3e114154106dd383084", "1.0.1--hd03093a_1": "sha256:6ba699b0fb4862361d7767bb839cc8085ac9057eacc129204e018fd21d7c41be"}, "docker": "quay.io/biocontainers/fec", "aliases": {"Fec": "/usr/local/bin/Fec", "parse_sam.py": "/usr/local/bin/parse_sam.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/fec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fec", "latest": {"1.0.1--he70b90d_2": "sha256:4140a382e005e4e563afd71e085398797cad400247068f29a852609c422340fa"}, "tags": {"1.0.1--hd03093a_0": "sha256:016e0785344a50835349b166b566d2d5c15699152c6ad3e114154106dd383084", "1.0.1--hd03093a_1": "sha256:6ba699b0fb4862361d7767bb839cc8085ac9057eacc129204e018fd21d7c41be", "1.0.1--he70b90d_2": "sha256:4140a382e005e4e563afd71e085398797cad400247068f29a852609c422340fa"}, "docker": "quay.io/biocontainers/fec", "aliases": {"Fec": "/usr/local/bin/Fec", "parse_sam.py": "/usr/local/bin/parse_sam.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fec.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/fec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fec:1.0.1--hd03093a_1
+$ shpc install quay.io/biocontainers/fec:1.0.1--he70b90d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fec/1.0.1--hd03093a_1
-$ module help quay.io/biocontainers/fec/1.0.1--hd03093a_1
+$ module load quay.io/biocontainers/fec/1.0.1--he70b90d_2
+$ module help quay.io/biocontainers/fec/1.0.1--he70b90d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

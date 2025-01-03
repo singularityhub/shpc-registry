@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eoulsan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eoulsan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eoulsan/container.yaml"
-updated_at: "2025-01-02 02:55:42.827073"
+updated_at: "2025-01-03 02:57:04.478841"
 latest: "2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eoulsan"
 aliases:

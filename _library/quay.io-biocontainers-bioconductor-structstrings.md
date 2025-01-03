@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-structstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
-updated_at: "2025-01-02 03:22:02.621632"
-latest: "1.18.0--r43ha9d7317_0"
+updated_at: "2025-01-03 03:24:00.106956"
+latest: "1.22.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structstrings"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.14.0--r42ha9d7317_1"
  - "1.16.0--r43ha9d7317_0"
  - "1.18.0--r43ha9d7317_0"
+ - "1.22.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-structstrings"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.18.0--r43ha9d7317_0": "sha256:71c77d71a5cdd43a5eb5e0e973be212ce19b8c0d8c58753e937c0c1e35f2579d"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705", "1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7", "1.14.0--r42hc0cfd56_0": "sha256:90ce1fc9892147f54b442b1b8ece8c66fdc433821018e6117c06031291416789", "1.14.0--r42ha9d7317_1": "sha256:c9f79a96ddb6dfcdd60b02ad08f8c55b45aaa8514543d0073242d86d2353e91b", "1.16.0--r43ha9d7317_0": "sha256:2b88e5bfab2cc2fe42adfc01869aded666b6dcc3128cd8df2fd1e26d76d24e82", "1.18.0--r43ha9d7317_0": "sha256:71c77d71a5cdd43a5eb5e0e973be212ce19b8c0d8c58753e937c0c1e35f2579d"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.22.0--r44h3df3fcb_0": "sha256:9233d28d0cb11e001dc6a7b95c0bc4988536beb164a61c2f98bd74fc862c9d52"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705", "1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7", "1.14.0--r42hc0cfd56_0": "sha256:90ce1fc9892147f54b442b1b8ece8c66fdc433821018e6117c06031291416789", "1.14.0--r42ha9d7317_1": "sha256:c9f79a96ddb6dfcdd60b02ad08f8c55b45aaa8514543d0073242d86d2353e91b", "1.16.0--r43ha9d7317_0": "sha256:2b88e5bfab2cc2fe42adfc01869aded666b6dcc3128cd8df2fd1e26d76d24e82", "1.18.0--r43ha9d7317_0": "sha256:71c77d71a5cdd43a5eb5e0e973be212ce19b8c0d8c58753e937c0c1e35f2579d", "1.22.0--r44h3df3fcb_0": "sha256:9233d28d0cb11e001dc6a7b95c0bc4988536beb164a61c2f98bd74fc862c9d52"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structstrings.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-structstrings
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-structstrings:1.18.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-structstrings:1.22.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-structstrings/1.18.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-structstrings/1.18.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-structstrings/1.22.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-structstrings/1.22.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

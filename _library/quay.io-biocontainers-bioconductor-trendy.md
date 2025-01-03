@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trendy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
-updated_at: "2025-01-02 03:31:43.966353"
-latest: "1.24.1--r43hdfd78af_0"
+updated_at: "2025-01-03 03:33:47.946032"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trendy"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.20.0--r42hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.1--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trendy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trendy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trendy", "latest": {"1.24.1--r43hdfd78af_0": "sha256:79a15585018e36b3e45fe9536c1c2555c3f3a52fd22860463524accdfec21625"}, "tags": {"1.8.0--r36_0": "sha256:9174307b6f00993cf0eb70c483f1f93c363a6a066a9bed57e30597b24f41867c", "1.16.0--r41hdfd78af_0": "sha256:d672a5bf58b460d75db111ee789e36d7421ab31a7025da88fda1e5c402dd54d3", "1.14.0--r41hdfd78af_0": "sha256:467a07f245001a51d8980d915d3a999a7714c44bd035c20e4dfa6589467e578e", "1.12.0--r40hdfd78af_1": "sha256:51ce4863c06411acdcd7fe3319f7bfcd9d64bc8948a45b8a88eae221bfdce5b4", "1.10.0--r40_0": "sha256:5c9dbcb4833994061564cc1dbac93fc8b35669fc36f92027d96b2b80bf29a679", "1.20.0--r42hdfd78af_0": "sha256:33ff81f27f354130efa8bcce26a43dcd94301bc7afede7c9d344ba354bdee726", "1.22.0--r43hdfd78af_0": "sha256:ac6d5512418eb9b118d41143090520570956e781df6e9a3afa3443f01325c673", "1.24.1--r43hdfd78af_0": "sha256:79a15585018e36b3e45fe9536c1c2555c3f3a52fd22860463524accdfec21625"}, "docker": "quay.io/biocontainers/bioconductor-trendy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trendy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trendy", "latest": {"1.28.0--r44hdfd78af_0": "sha256:1eb41ef6b20e315637339240ee569f2d4a3a61432c263b2931e452a88db1ce91"}, "tags": {"1.8.0--r36_0": "sha256:9174307b6f00993cf0eb70c483f1f93c363a6a066a9bed57e30597b24f41867c", "1.16.0--r41hdfd78af_0": "sha256:d672a5bf58b460d75db111ee789e36d7421ab31a7025da88fda1e5c402dd54d3", "1.14.0--r41hdfd78af_0": "sha256:467a07f245001a51d8980d915d3a999a7714c44bd035c20e4dfa6589467e578e", "1.12.0--r40hdfd78af_1": "sha256:51ce4863c06411acdcd7fe3319f7bfcd9d64bc8948a45b8a88eae221bfdce5b4", "1.10.0--r40_0": "sha256:5c9dbcb4833994061564cc1dbac93fc8b35669fc36f92027d96b2b80bf29a679", "1.20.0--r42hdfd78af_0": "sha256:33ff81f27f354130efa8bcce26a43dcd94301bc7afede7c9d344ba354bdee726", "1.22.0--r43hdfd78af_0": "sha256:ac6d5512418eb9b118d41143090520570956e781df6e9a3afa3443f01325c673", "1.24.1--r43hdfd78af_0": "sha256:79a15585018e36b3e45fe9536c1c2555c3f3a52fd22860463524accdfec21625", "1.28.0--r44hdfd78af_0": "sha256:1eb41ef6b20e315637339240ee569f2d4a3a61432c263b2931e452a88db1ce91"}, "docker": "quay.io/biocontainers/bioconductor-trendy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trendy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trendy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trendy:1.24.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trendy:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trendy/1.24.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trendy/1.24.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trendy/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trendy/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

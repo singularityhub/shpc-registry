@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntedit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntedit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntedit/container.yaml"
-updated_at: "2025-01-02 03:00:07.780704"
-latest: "2.1.0--pl5321h077b44d_1"
+updated_at: "2025-01-03 03:01:33.711602"
+latest: "2.1.1--pl5321h077b44d_0"
 container_url: "https://biocontainers.pro/tools/ntedit"
 aliases:
  - "ntedit"
@@ -20,8 +20,9 @@ versions:
  - "2.0.2--pl5321hdcf5f25_2"
  - "2.0.3--pl5321hdcf5f25_0"
  - "2.1.0--pl5321h077b44d_1"
+ - "2.1.1--pl5321h077b44d_0"
 description: "shpc-registry automated BioContainers addition for ntedit"
-config: {"url": "https://biocontainers.pro/tools/ntedit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntedit", "latest": {"2.1.0--pl5321h077b44d_1": "sha256:bef60c433c41424eacf0a98972c4679bbc108db6fbf3ef5213f644090f2d6b3b"}, "tags": {"1.3.5--hd03093a_1": "sha256:2fcaf313a24d22271b8d6e8edf76f678f92d74885e8ad5071485ca38aa823372", "1.3.5--hd03093a_2": "sha256:2cb8c20ff13344b4f256d71a61c2f901eac63322a8bc3132b0deb1e4330d72c3", "1.3.5--hdcf5f25_4": "sha256:081765d7b7032d5dde90f490f713e3c85a7a4fb937ca798caf5237b3a4a041e3", "1.4.3--hdcf5f25_0": "sha256:be3bbcca202eb9b5e68ebfe1919baa4fe96ac33b7db601c35c6dd237c70ecacc", "2.0.2--pl5321h21ec9f0_0": "sha256:248ac199ea85ee894a631008a214d498163a7319f8cba12ab68be509dc92f535", "2.0.2--pl5321hdcf5f25_1": "sha256:adb7875b63d8b8c8bb9959b33445ec25b29481680e33b0e01647e05562e633c6", "2.0.2--pl5321hdcf5f25_2": "sha256:4c9bad153a166a7d4f153e116fa6130805b72fa6be4aa578d72085cad052cffc", "2.0.3--pl5321hdcf5f25_0": "sha256:912663c9f87521ac5ab3b7a8e676a31f48d35b73c2331f4a01da87f794f85095", "2.1.0--pl5321h077b44d_1": "sha256:bef60c433c41424eacf0a98972c4679bbc108db6fbf3ef5213f644090f2d6b3b"}, "docker": "quay.io/biocontainers/ntedit", "aliases": {"ntedit": "/usr/local/bin/ntedit", "nthits": "/usr/local/bin/nthits"}}
+config: {"url": "https://biocontainers.pro/tools/ntedit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntedit", "latest": {"2.1.1--pl5321h077b44d_0": "sha256:e20e536d40c13bce150a2ed3049c05bf39143e652755f3889ce144892092e313"}, "tags": {"1.3.5--hd03093a_1": "sha256:2fcaf313a24d22271b8d6e8edf76f678f92d74885e8ad5071485ca38aa823372", "1.3.5--hd03093a_2": "sha256:2cb8c20ff13344b4f256d71a61c2f901eac63322a8bc3132b0deb1e4330d72c3", "1.3.5--hdcf5f25_4": "sha256:081765d7b7032d5dde90f490f713e3c85a7a4fb937ca798caf5237b3a4a041e3", "1.4.3--hdcf5f25_0": "sha256:be3bbcca202eb9b5e68ebfe1919baa4fe96ac33b7db601c35c6dd237c70ecacc", "2.0.2--pl5321h21ec9f0_0": "sha256:248ac199ea85ee894a631008a214d498163a7319f8cba12ab68be509dc92f535", "2.0.2--pl5321hdcf5f25_1": "sha256:adb7875b63d8b8c8bb9959b33445ec25b29481680e33b0e01647e05562e633c6", "2.0.2--pl5321hdcf5f25_2": "sha256:4c9bad153a166a7d4f153e116fa6130805b72fa6be4aa578d72085cad052cffc", "2.0.3--pl5321hdcf5f25_0": "sha256:912663c9f87521ac5ab3b7a8e676a31f48d35b73c2331f4a01da87f794f85095", "2.1.0--pl5321h077b44d_1": "sha256:bef60c433c41424eacf0a98972c4679bbc108db6fbf3ef5213f644090f2d6b3b", "2.1.1--pl5321h077b44d_0": "sha256:e20e536d40c13bce150a2ed3049c05bf39143e652755f3889ce144892092e313"}, "docker": "quay.io/biocontainers/ntedit", "aliases": {"ntedit": "/usr/local/bin/ntedit", "nthits": "/usr/local/bin/nthits"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntedit.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ntedit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntedit:2.1.0--pl5321h077b44d_1
+$ shpc install quay.io/biocontainers/ntedit:2.1.1--pl5321h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntedit/2.1.0--pl5321h077b44d_1
-$ module help quay.io/biocontainers/ntedit/2.1.0--pl5321h077b44d_1
+$ module load quay.io/biocontainers/ntedit/2.1.1--pl5321h077b44d_0
+$ module help quay.io/biocontainers/ntedit/2.1.1--pl5321h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

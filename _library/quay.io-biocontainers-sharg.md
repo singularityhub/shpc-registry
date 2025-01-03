@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/sharg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharg/container.yaml"
-updated_at: "2025-01-02 03:17:54.603072"
-latest: "1.1.1--h4ac6f70_0"
+updated_at: "2025-01-03 03:19:48.751122"
+latest: "1.1.1--h9948957_1"
 container_url: "https://biocontainers.pro/tools/sharg"
 
 versions:
  - "1.1.1--h4ac6f70_0"
+ - "1.1.1--h9948957_1"
 description: "singularity registry hpc automated addition for sharg"
-config: {"url": "https://biocontainers.pro/tools/sharg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharg", "latest": {"1.1.1--h4ac6f70_0": "sha256:6bca616723eafdb581679add5354eab9c0aa1b1c0fab2d9c004eeb43d5698c89"}, "tags": {"1.1.1--h4ac6f70_0": "sha256:6bca616723eafdb581679add5354eab9c0aa1b1c0fab2d9c004eeb43d5698c89"}, "docker": "quay.io/biocontainers/sharg"}
+config: {"url": "https://biocontainers.pro/tools/sharg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharg", "latest": {"1.1.1--h9948957_1": "sha256:8639802520c99ba666f8afd58540d1b9c35c4dca4588ee80a7c2515b6c3b7c55"}, "tags": {"1.1.1--h4ac6f70_0": "sha256:6bca616723eafdb581679add5354eab9c0aa1b1c0fab2d9c004eeb43d5698c89", "1.1.1--h9948957_1": "sha256:8639802520c99ba666f8afd58540d1b9c35c4dca4588ee80a7c2515b6c3b7c55"}, "docker": "quay.io/biocontainers/sharg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sharg.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/sharg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sharg:1.1.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/sharg:1.1.1--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sharg/1.1.1--h4ac6f70_0
-$ module help quay.io/biocontainers/sharg/1.1.1--h4ac6f70_0
+$ module load quay.io/biocontainers/sharg/1.1.1--h9948957_1
+$ module help quay.io/biocontainers/sharg/1.1.1--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

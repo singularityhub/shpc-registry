@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/piler-cr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piler-cr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piler-cr/container.yaml"
-updated_at: "2025-01-02 03:10:44.422598"
-latest: "1.06--h4ac6f70_4"
+updated_at: "2025-01-03 03:12:32.027579"
+latest: "1.06--h9948957_5"
 container_url: "https://biocontainers.pro/tools/piler-cr"
 aliases:
  - "pilercr"
 versions:
  - "1.06--h9f5acd7_2"
  - "1.06--h4ac6f70_4"
+ - "1.06--h9948957_5"
 description: "shpc-registry automated BioContainers addition for piler-cr"
-config: {"url": "https://biocontainers.pro/tools/piler-cr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piler-cr", "latest": {"1.06--h4ac6f70_4": "sha256:81d4e8b220fd9d93e7a17712bf3f384e6c0e0802c724f25c70046b0c40ea4717"}, "tags": {"1.06--h9f5acd7_2": "sha256:1d7c387480eb9d86d16e70708c9e08d826982b2cfb28b985c9cc6bc7520c8eb9", "1.06--h4ac6f70_4": "sha256:81d4e8b220fd9d93e7a17712bf3f384e6c0e0802c724f25c70046b0c40ea4717"}, "docker": "quay.io/biocontainers/piler-cr", "aliases": {"pilercr": "/usr/local/bin/pilercr"}}
+config: {"url": "https://biocontainers.pro/tools/piler-cr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piler-cr", "latest": {"1.06--h9948957_5": "sha256:949fa0de5308d3d35301d50550ad5808ff5574372770fcebfc23d41aa9fce870"}, "tags": {"1.06--h9f5acd7_2": "sha256:1d7c387480eb9d86d16e70708c9e08d826982b2cfb28b985c9cc6bc7520c8eb9", "1.06--h4ac6f70_4": "sha256:81d4e8b220fd9d93e7a17712bf3f384e6c0e0802c724f25c70046b0c40ea4717", "1.06--h9948957_5": "sha256:949fa0de5308d3d35301d50550ad5808ff5574372770fcebfc23d41aa9fce870"}, "docker": "quay.io/biocontainers/piler-cr", "aliases": {"pilercr": "/usr/local/bin/pilercr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piler-cr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/piler-cr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piler-cr:1.06--h4ac6f70_4
+$ shpc install quay.io/biocontainers/piler-cr:1.06--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piler-cr/1.06--h4ac6f70_4
-$ module help quay.io/biocontainers/piler-cr/1.06--h4ac6f70_4
+$ module load quay.io/biocontainers/piler-cr/1.06--h9948957_5
+$ module help quay.io/biocontainers/piler-cr/1.06--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

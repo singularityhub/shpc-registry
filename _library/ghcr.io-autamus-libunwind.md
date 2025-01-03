@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libunwind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libunwind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libunwind/container.yaml"
-updated_at: "2025-01-02 02:49:40.957343"
+updated_at: "2025-01-03 02:50:57.405134"
 latest: "1.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libunwind"
 

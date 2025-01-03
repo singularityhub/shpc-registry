@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scale4c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
-updated_at: "2025-01-02 03:24:35.270544"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:26:34.234000"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scale4c"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.20.0--r42hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scale4c"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scale4c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scale4c", "latest": {"1.24.0--r43hdfd78af_0": "sha256:65115a70c1c6390e0175525801f3f35a12e65643a8ccae4fa11bab311b87644f"}, "tags": {"1.8.0--r36_0": "sha256:64b075eeaa1607853e9c21d9d240ccde4289d772b3edd76691493765fbe68bea", "1.16.0--r41hdfd78af_0": "sha256:5a54ccb85d28b5eddf9f17fd87bef283bf68cc8507129691c057dc5d2cca4c72", "1.14.0--r41hdfd78af_0": "sha256:aadf465dbd20470b70acaf7d879b7627adb2a3f84f406377879fe18e11ae3271", "1.12.0--r40hdfd78af_1": "sha256:e847fdac70cd3c69f7179f89828096a92aa33b35e79fa52172a1182de51bb17c", "1.10.0--r40_0": "sha256:5e49fb0cd007219f87670e1621b0cd8a06f135b450a4b6346b431a27229338b0", "1.20.0--r42hdfd78af_0": "sha256:eed36875605304332b460b611d1c309bb4f0fc4647dfeafb7273b619e43a6b44", "1.22.0--r43hdfd78af_0": "sha256:afc47d86695dd19addf39082ba0fceeef20eea5537c4d699e81ff3e47cee5dbf", "1.24.0--r43hdfd78af_0": "sha256:65115a70c1c6390e0175525801f3f35a12e65643a8ccae4fa11bab311b87644f"}, "docker": "quay.io/biocontainers/bioconductor-scale4c", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scale4c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scale4c", "latest": {"1.28.0--r44hdfd78af_0": "sha256:a781ac56c9e1400d0c4c9d88f4916de579493a00acab0a11456a2543de41f943"}, "tags": {"1.8.0--r36_0": "sha256:64b075eeaa1607853e9c21d9d240ccde4289d772b3edd76691493765fbe68bea", "1.16.0--r41hdfd78af_0": "sha256:5a54ccb85d28b5eddf9f17fd87bef283bf68cc8507129691c057dc5d2cca4c72", "1.14.0--r41hdfd78af_0": "sha256:aadf465dbd20470b70acaf7d879b7627adb2a3f84f406377879fe18e11ae3271", "1.12.0--r40hdfd78af_1": "sha256:e847fdac70cd3c69f7179f89828096a92aa33b35e79fa52172a1182de51bb17c", "1.10.0--r40_0": "sha256:5e49fb0cd007219f87670e1621b0cd8a06f135b450a4b6346b431a27229338b0", "1.20.0--r42hdfd78af_0": "sha256:eed36875605304332b460b611d1c309bb4f0fc4647dfeafb7273b619e43a6b44", "1.22.0--r43hdfd78af_0": "sha256:afc47d86695dd19addf39082ba0fceeef20eea5537c4d699e81ff3e47cee5dbf", "1.24.0--r43hdfd78af_0": "sha256:65115a70c1c6390e0175525801f3f35a12e65643a8ccae4fa11bab311b87644f", "1.28.0--r44hdfd78af_0": "sha256:a781ac56c9e1400d0c4c9d88f4916de579493a00acab0a11456a2543de41f943"}, "docker": "quay.io/biocontainers/bioconductor-scale4c", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scale4c.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scale4c
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scale4c:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scale4c:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scale4c/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scale4c/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scale4c/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scale4c/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

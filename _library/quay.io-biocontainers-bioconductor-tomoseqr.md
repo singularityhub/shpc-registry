@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tomoseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomoseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomoseqr/container.yaml"
-updated_at: "2025-01-02 03:21:15.995598"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-03 03:23:12.514629"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomoseqr"
 aliases:
  - "SvtAv1DecApp"
@@ -56,8 +56,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-tomoseqr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tomoseqr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tomoseqr", "latest": {"1.6.0--r43hdfd78af_0": "sha256:fdcc44bf0ff2e1b7b6a6a660c75f8fbd037ef988d6a1e3913fb63e415ad8577e"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:dfd29fcdd07576e255707d0a43b171f069dc21ee73cb2f6c961a3a5acecbb115", "1.4.0--r43hdfd78af_0": "sha256:8ef97c1516dcc10e2e128a842085953b2b07979c12d4c0dbf736eb9ed370c641", "1.6.0--r43hdfd78af_0": "sha256:fdcc44bf0ff2e1b7b6a6a660c75f8fbd037ef988d6a1e3913fb63e415ad8577e"}, "docker": "quay.io/biocontainers/bioconductor-tomoseqr", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool", "sexp-conv": "/usr/local/bin/sexp-conv", "srptool": "/usr/local/bin/srptool", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tomoseqr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tomoseqr", "latest": {"1.10.0--r44hdfd78af_0": "sha256:8ad9fb71689a0e3c7f8ab5a327aa7fb0df3d5f3654bda49addd2f097f50ac06d"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:dfd29fcdd07576e255707d0a43b171f069dc21ee73cb2f6c961a3a5acecbb115", "1.4.0--r43hdfd78af_0": "sha256:8ef97c1516dcc10e2e128a842085953b2b07979c12d4c0dbf736eb9ed370c641", "1.6.0--r43hdfd78af_0": "sha256:fdcc44bf0ff2e1b7b6a6a660c75f8fbd037ef988d6a1e3913fb63e415ad8577e", "1.10.0--r44hdfd78af_0": "sha256:8ad9fb71689a0e3c7f8ab5a327aa7fb0df3d5f3654bda49addd2f097f50ac06d"}, "docker": "quay.io/biocontainers/bioconductor-tomoseqr", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool", "sexp-conv": "/usr/local/bin/sexp-conv", "srptool": "/usr/local/bin/srptool", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tomoseqr.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tomoseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tomoseqr:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tomoseqr:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tomoseqr/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tomoseqr/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tomoseqr/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tomoseqr/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

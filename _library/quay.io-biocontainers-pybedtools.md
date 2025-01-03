@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedtools/container.yaml"
-updated_at: "2025-01-02 03:13:45.169785"
-latest: "0.10.0--py311hc849397_2"
+updated_at: "2025-01-03 03:15:36.692941"
+latest: "0.11.0--py310h275bdba_0"
 container_url: "https://biocontainers.pro/tools/pybedtools"
 aliases:
  - "f2py3.6"
@@ -25,8 +25,10 @@ versions:
  - "0.10.0--py39hd65a603_0"
  - "0.10.0--py311hc849397_1"
  - "0.10.0--py311hc849397_2"
+ - "0.11.0--py310h275bdba_0"
+ - "0.10.0--py311h2de2dd3_3"
 description: "shpc-registry automated BioContainers addition for pybedtools"
-config: {"url": "https://biocontainers.pro/tools/pybedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedtools", "latest": {"0.10.0--py311hc849397_2": "sha256:53a0a98641ecf7de51d0876e8174364b9464c6417fdd01492dbcc6f864400f60"}, "tags": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d", "0.9.1--py310h2b6aa90_1": "sha256:c9204b177a8095eb4609ed5c2835a02ae453d4eed8ce57e3466c6061f8ab1e31", "0.8.2--py27h6a42192_1": "sha256:cb917af97726f686b41ec6ca07a946b53543aa321cde068e955b7d69ca378606", "0.10.0--py39hd65a603_0": "sha256:5f3174f01e73c577fb617980e9a05946c5ed84bce15bd4c0f946729def6709a4", "0.10.0--py311hc849397_1": "sha256:faec077c3411b7c91036710e9f95014ff9fda37c2189d5f6812ffe15d8c7336b", "0.10.0--py311hc849397_2": "sha256:53a0a98641ecf7de51d0876e8174364b9464c6417fdd01492dbcc6f864400f60"}, "docker": "quay.io/biocontainers/pybedtools", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/pybedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedtools", "latest": {"0.11.0--py310h275bdba_0": "sha256:f3e62822f20d527740c4f297209d51010fd9551ebbf8dfb3ab0cddfdb83a4cc6"}, "tags": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d", "0.9.1--py310h2b6aa90_1": "sha256:c9204b177a8095eb4609ed5c2835a02ae453d4eed8ce57e3466c6061f8ab1e31", "0.8.2--py27h6a42192_1": "sha256:cb917af97726f686b41ec6ca07a946b53543aa321cde068e955b7d69ca378606", "0.10.0--py39hd65a603_0": "sha256:5f3174f01e73c577fb617980e9a05946c5ed84bce15bd4c0f946729def6709a4", "0.10.0--py311hc849397_1": "sha256:faec077c3411b7c91036710e9f95014ff9fda37c2189d5f6812ffe15d8c7336b", "0.10.0--py311hc849397_2": "sha256:53a0a98641ecf7de51d0876e8174364b9464c6417fdd01492dbcc6f864400f60", "0.11.0--py310h275bdba_0": "sha256:f3e62822f20d527740c4f297209d51010fd9551ebbf8dfb3ab0cddfdb83a4cc6", "0.10.0--py311h2de2dd3_3": "sha256:894f60f9538d70de19aac1943ef3c4d75dbee55617b71d205668026a5cbcb064"}, "docker": "quay.io/biocontainers/pybedtools", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedtools.
@@ -41,7 +43,7 @@ $ shpc install quay.io/biocontainers/pybedtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybedtools:0.10.0--py311hc849397_2
+$ shpc install quay.io/biocontainers/pybedtools:0.11.0--py310h275bdba_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybedtools/0.10.0--py311hc849397_2
-$ module help quay.io/biocontainers/pybedtools/0.10.0--py311hc849397_2
+$ module load quay.io/biocontainers/pybedtools/0.11.0--py310h275bdba_0
+$ module help quay.io/biocontainers/pybedtools/0.11.0--py310h275bdba_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
