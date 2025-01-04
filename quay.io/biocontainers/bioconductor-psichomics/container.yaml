@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-psichomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-psichomics
 latest:
-  1.28.0--r43hf17093f_0: sha256:2bf55277350add7e21e2720f4a040bed0cb94b7d8f32aa6d5eb75cf7253a91fd
+  1.32.0--r44he5774e6_0: sha256:e3c83ce97fa9dc0e1d876bfcf992ccab0bba9b49f96c337e4bd396f43c12a55c
 tags:
   1.8.1--r351hf484d3e_0: sha256:6edda873ce6b949925ed70fe4921e52a183effa000469a8eaa68bddf33ab63d1
   1.20.2--r41hc247a5b_0: sha256:559c8e285296201aa44890289fec4e96c89c8d15ea36c27a54a3e8fb32188572
@@ -14,6 +14,7 @@ tags:
   1.24.0--r42hf17093f_1: sha256:a2e34ecac623e4fa3ed0e35846e39279b8e01e17d1bab1fba1ddb211dd1afd7c
   1.26.0--r43hf17093f_0: sha256:3e3bddec8ab3e651d96eb434bd5c8a2e8e741d6cd745e004eb2f21ea293f9978
   1.28.0--r43hf17093f_0: sha256:2bf55277350add7e21e2720f4a040bed0cb94b7d8f32aa6d5eb75cf7253a91fd
+  1.32.0--r44he5774e6_0: sha256:e3c83ce97fa9dc0e1d876bfcf992ccab0bba9b49f96c337e4bd396f43c12a55c
 docker: quay.io/biocontainers/bioconductor-psichomics
 aliases:
   wget: /usr/local/bin/wget

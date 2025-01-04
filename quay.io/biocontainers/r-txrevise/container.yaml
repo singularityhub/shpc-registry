@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-txrevise
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-txrevise
 latest:
-  2.0--r43hdfd78af_2: sha256:5296ee22584a5b2b6b3d84bc755d413e841d469e6e2d03d0c597415831022244
+  2.0--r44hdfd78af_3: sha256:4f253d4728080f84801aa538120a1e284395ab4b6f20449ac4295267f39bdf66
 tags:
   2.0--r41hdfd78af_0: sha256:7ff14a471665ae32a7663ef189d178793e2e5fb50874e7a62ae12046811303a0
   2.0--r42hdfd78af_1: sha256:70e29b7dec0f98f290aeac7de84600494a045e018c0bf7f26abef7ddbaec696d
   2.0--r43hdfd78af_2: sha256:5296ee22584a5b2b6b3d84bc755d413e841d469e6e2d03d0c597415831022244
+  2.0--r44hdfd78af_3: sha256:4f253d4728080f84801aa538120a1e284395ab4b6f20449ac4295267f39bdf66
 docker: quay.io/biocontainers/r-txrevise

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-chimeraviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chimeraviz
 latest:
-  1.28.0--r43hdfd78af_0: sha256:e8494d66f65921493212e99c0f2cad55f76d1044048f549cba0d3fed8e0e58f9
+  1.32.0--r44hdfd78af_0: sha256:540524ef6aec296b7162093ab4c959eb217ad3081e673b11083ff993a0948467
 tags:
   1.8.0--r351_0: sha256:09ad0047befe251c71fbd6cfdf0514bf29e293ba870680348fa3861ec7c17bb1
   1.20.0--r41hdfd78af_0: sha256:aaf3a820ed47195b8544df481e1391b3c7ccc82f14c81b72844ecab9d1fb2417
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hdfd78af_0: sha256:359e1840fe0668c948229cd8be41aa25cd1470a4bef787a30449beec98be33da
   1.26.0--r43hdfd78af_0: sha256:504a0a3e0298a69ad2749d058cfa69b4e5a9787df889e8ac6834255702fdcb71
   1.28.0--r43hdfd78af_0: sha256:e8494d66f65921493212e99c0f2cad55f76d1044048f549cba0d3fed8e0e58f9
+  1.32.0--r44hdfd78af_0: sha256:540524ef6aec296b7162093ab4c959eb217ad3081e673b11083ff993a0948467
 docker: quay.io/biocontainers/bioconductor-chimeraviz
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

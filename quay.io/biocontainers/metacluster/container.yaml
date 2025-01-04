@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metacluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metacluster
 latest:
-  5.1--h4ac6f70_6: sha256:e01c15f812b89a041aa16a10d93352c7a4b9f533918468a26cbfb0b8f21961a8
+  5.1--h9948957_7: sha256:3eb598a70c1f28bdb9dff0634c00f5b2b45ce063d7a4f615be7c11e188a83b93
 tags:
   5.1--h9f5acd7_4: sha256:332254c868999fcb1ad8329f9f81e48fbe52e35ba76514c866e6351f1ef5fac0
   5.1--h4ac6f70_6: sha256:e01c15f812b89a041aa16a10d93352c7a4b9f533918468a26cbfb0b8f21961a8
+  5.1--h9948957_7: sha256:3eb598a70c1f28bdb9dff0634c00f5b2b45ce063d7a4f615be7c11e188a83b93
 docker: quay.io/biocontainers/metacluster
 aliases:
   MetaCluster4Fast: /usr/local/bin/MetaCluster4Fast

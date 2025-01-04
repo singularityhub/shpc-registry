@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nthits
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nthits
 latest:
-  1.0.3--h4ac6f70_1: sha256:ce89c745a347f2a638dc47d9a4d5c8aa933d2779108738a8ef6ad2e9847489ac
+  1.0.3--h9948957_2: sha256:1a213f9027b30437193d246c59087c7aa1ba1b585a25858fa14ca3b53e8ad7e2
 tags:
   0.0.1--h9f5acd7_2: sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2
   1.0.1--h9f5acd7_0: sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189
@@ -10,6 +10,7 @@ tags:
   1.0.2--h4ac6f70_0: sha256:6ac444bf37cc3f06e3f121863ebabbd747e55b5452a9aed97565325b409b1839
   1.0.3--h4ac6f70_0: sha256:2426ab94a824c4559ccf9f2e55c755690537c64b73bb983eae33a61b14428f3c
   1.0.3--h4ac6f70_1: sha256:ce89c745a347f2a638dc47d9a4d5c8aa933d2779108738a8ef6ad2e9847489ac
+  1.0.3--h9948957_2: sha256:1a213f9027b30437193d246c59087c7aa1ba1b585a25858fa14ca3b53e8ad7e2
 docker: quay.io/biocontainers/nthits
 aliases:
   nthits: /usr/local/bin/nthits

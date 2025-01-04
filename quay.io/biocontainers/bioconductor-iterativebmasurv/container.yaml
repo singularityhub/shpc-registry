@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-iterativebmasurv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iterativebmasurv
 latest:
-  1.60.0--r43hdfd78af_1: sha256:a72e315806840eb7b6f27d0efa45c980e64a2bdc07d606cee4bdb99d80258db3
+  1.64.0--r44hdfd78af_0: sha256:cd22349621e41ab5815e839b66a896963ee4fe1a449151a70c498c6b97a2e9ad
 tags:
   1.52.0--r41hdfd78af_0: sha256:581d3b06b722f2c7f2d2e626d056cce3b675ac6dbda3e7390ce7a1104f7e4138
   1.56.0--r42hdfd78af_0: sha256:d48284301cc9ecbbc32e8a248f027ba486cad4b1e8ca9ffb4630fba0c558f6e8
   1.58.0--r43hdfd78af_0: sha256:cef0425b508d9b6631a445ccf3f2441ef9fae91a5e84c25e5dff42ea030e7131
   1.60.0--r43hdfd78af_1: sha256:a72e315806840eb7b6f27d0efa45c980e64a2bdc07d606cee4bdb99d80258db3
+  1.64.0--r44hdfd78af_0: sha256:cd22349621e41ab5815e839b66a896963ee4fe1a449151a70c498c6b97a2e9ad
 docker: quay.io/biocontainers/bioconductor-iterativebmasurv

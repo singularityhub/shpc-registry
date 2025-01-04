@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/difcover
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for difcover
 latest:
-  3.0.1--h4ac6f70_1: sha256:4e535a7b9c4f02997625d5cf05b03358e9c39bef4fec7aa69457477c23f3083f
+  3.0.1--h9948957_2: sha256:66401e86442a7a65ca942b7108830c1ff30c3b0245f6809f2245d31ead6f11f0
 tags:
   3.0.1--h4ac6f70_1: sha256:4e535a7b9c4f02997625d5cf05b03358e9c39bef4fec7aa69457477c23f3083f
+  3.0.1--h9948957_2: sha256:66401e86442a7a65ca942b7108830c1ff30c3b0245f6809f2245d31ead6f11f0
 docker: quay.io/biocontainers/difcover
 aliases:
   convert_exp_to_dec_in_unionbed.sh: /usr/local/bin/convert_exp_to_dec_in_unionbed.sh

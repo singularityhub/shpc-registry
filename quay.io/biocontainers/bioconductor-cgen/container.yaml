@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-cgen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cgen
 latest:
-  3.38.0--r43h9913872_1: sha256:3fc8521b6678c8712d4d526c964d668064bee0f59866dd8f756d5a643f6727c1
+  3.42.0--r44h4d5c4aa_0: sha256:00066fed53e0dd1abc6e4ef22c9076d4391d08561dd3eabe4eb6bf41cc0d2475
 tags:
   3.30.0--r41hefde4a7_2: sha256:aae7b16f9b984647f1a1e4a21c52ba8650dbd1390ca7f35156045acdbde3a4be
   3.34.0--r42hefde4a7_0: sha256:9aec86d82f54e7ac579e32458680906a498b5e8c5158fe16be73fe26bb01d7be
   3.34.0--r42h9913872_1: sha256:a00ec88c61a50f8d1f21526b9b16fb1aa4403ae8a21adc345c972c6ed462da4f
   3.36.1--r43h9913872_0: sha256:2884fbac6c5185d7e841fb91fef55ce10708be8621dbb94935e27bd9c9c81ebc
   3.38.0--r43h9913872_1: sha256:3fc8521b6678c8712d4d526c964d668064bee0f59866dd8f756d5a643f6727c1
+  3.42.0--r44h4d5c4aa_0: sha256:00066fed53e0dd1abc6e4ef22c9076d4391d08561dd3eabe4eb6bf41cc0d2475
 docker: quay.io/biocontainers/bioconductor-cgen

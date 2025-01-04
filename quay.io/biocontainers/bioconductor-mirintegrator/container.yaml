@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mirintegrator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirintegrator
 latest:
-  1.32.0--r43hdfd78af_0: sha256:b95e3de04fcd83712cd6d6a48d1d4e32294545782b2b861169c47bf1f5d55327
+  1.36.0--r44hdfd78af_0: sha256:604397931ab6b40072eb824a3a48e239c98cce088ed6fbcdeb48f579004b2e4b
 tags:
   1.8.0--r3.4.1_0: sha256:db03f6778b30c02eb967264eff38cc367cf4078222bc1c3516960de4cf189c6f
   1.24.0--r41hdfd78af_0: sha256:03e60d5c1babfa48e78fe55a097fc010b243e7fafdc45b1ad8422d21aefe97bb
@@ -13,6 +13,7 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:33ad79e7030b4d67207ef36ab1965bb13055222b5cdead07ada3ed571f58e0cd
   1.30.0--r43hdfd78af_0: sha256:9df0d04ede54e042efdd888a6dcf45722ab6810349b06ff52aa0ae4ec31a847a
   1.32.0--r43hdfd78af_0: sha256:b95e3de04fcd83712cd6d6a48d1d4e32294545782b2b861169c47bf1f5d55327
+  1.36.0--r44hdfd78af_0: sha256:604397931ab6b40072eb824a3a48e239c98cce088ed6fbcdeb48f579004b2e4b
 docker: quay.io/biocontainers/bioconductor-mirintegrator
 aliases:
   wget: /usr/local/bin/wget

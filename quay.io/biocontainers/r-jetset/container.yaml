@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-jetset
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-jetset
 latest:
-  3.4.0--r43h3121a25_2: sha256:17e3a2686b20ff4e8625725abcbc83a77736ce36154000dd77270a038271e26f
+  3.4.0--r44h3121a25_3: sha256:a96d12b8f98c34af81b13584637c82b3e84af3fad3f64e9fdfc0b0bedc514ff2
 tags:
   3.4.0--r42h3121a25_1: sha256:a393325366394651d9863e82a814cbd14dde1dedd557dadf1e79f99ce369b4b6
   3.4.0--r43h3121a25_2: sha256:17e3a2686b20ff4e8625725abcbc83a77736ce36154000dd77270a038271e26f
+  3.4.0--r44h3121a25_3: sha256:a96d12b8f98c34af81b13584637c82b3e84af3fad3f64e9fdfc0b0bedc514ff2
 docker: quay.io/biocontainers/r-jetset
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

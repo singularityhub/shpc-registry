@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rexposome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rexposome
 latest:
-  1.24.1--r43hdfd78af_0: sha256:58cd00fd84d3252113d51ad583d3c447c480f155a7ce03d86e28024bb62ab64c
+  1.28.0--r44hdfd78af_0: sha256:e4cd2c387abc023b2aca2c22721be48043d5d18ca6c576a87d3a8771596f808e
 tags:
   1.8.0--r36_0: sha256:0d80bc8516a86857a02ff5f49066c42f185aa63554a42202d5d7ec49c3dc6b13
   1.20.0--r42hdfd78af_0: sha256:bb6cfad6921e1fb4b39a347ea9d76f7807da397c54498e524c9dc021e2094c01
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:f0428019ae4bc29b435a0169c5650bf1749ec0f419e078a3c542a797af880cbe
   1.22.0--r43hdfd78af_0: sha256:43ddbcc5c39c87b1a377df3152594107f1852d9ac051d401e08da10975464d7d
   1.24.1--r43hdfd78af_0: sha256:58cd00fd84d3252113d51ad583d3c447c480f155a7ce03d86e28024bb62ab64c
+  1.28.0--r44hdfd78af_0: sha256:e4cd2c387abc023b2aca2c22721be48043d5d18ca6c576a87d3a8771596f808e
 docker: quay.io/biocontainers/bioconductor-rexposome
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

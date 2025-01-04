@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/chromhmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chromhmm
 latest:
-  1.25--hdfd78af_0: sha256:0fab4dce8599ad64183aa9a0e722deb79e302a6a65f87f06aff7119424a463ff
+  1.26--hdfd78af_0: sha256:c93bef6e7d0835634ea22619796f181a561df56d841e0d196eb2a3cde933d8c0
 tags:
   1.23--hdfd78af_0: sha256:e946f36b053df17ad5650dd13b6616e090d7eca40e088e8f7ffa2a87a8ddf2b3
   1.24--hdfd78af_0: sha256:faa842647a2fd38569b6901ceaaea9e2b24ff69907debce0a0f16f49e5a1ec8f
   1.25--hdfd78af_0: sha256:0fab4dce8599ad64183aa9a0e722deb79e302a6a65f87f06aff7119424a463ff
+  1.26--hdfd78af_0: sha256:c93bef6e7d0835634ea22619796f181a561df56d841e0d196eb2a3cde933d8c0
 docker: quay.io/biocontainers/chromhmm
 aliases:
   ChromHMM.sh: /usr/local/bin/ChromHMM.sh

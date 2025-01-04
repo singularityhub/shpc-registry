@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/repeatscout
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for repeatscout
 latest:
-  1.0.7--h031d066_0: sha256:4f35934f006240bdb98674cb832907c3ed430f83f3f2e467d02411dde9909518
+  1.0.7--h7b50bb2_1: sha256:99fdb2f547e1a2e40941c322610d80f4ed047ec8cb77efaef3b1f70a7c83bb7d
 tags:
   1.0.6--hec16e2b_3: sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694
   1.0.7--h031d066_0: sha256:4f35934f006240bdb98674cb832907c3ed430f83f3f2e467d02411dde9909518
+  1.0.7--h7b50bb2_1: sha256:99fdb2f547e1a2e40941c322610d80f4ed047ec8cb77efaef3b1f70a7c83bb7d
 docker: quay.io/biocontainers/repeatscout
 aliases:
   RepeatScout: /usr/local/bin/RepeatScout

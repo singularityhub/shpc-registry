@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-hierinf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hierinf
 latest:
-  1.20.0--r43hdfd78af_0: sha256:103c3cab441ead57266b67d7fb72a2335e0cd98a149719f7bf4d57311669a90f
+  1.24.0--r44hdfd78af_0: sha256:820bf1416e5d843bf4d1869db1c448cc406a992f5301f2cd8e28e9fa5aba13b4
 tags:
   1.8.0--r40hdfd78af_1: sha256:aaefe3a22e8ba7e1404990a69ab996d4543f0c6802cb40bf3686401574d00b27
   1.16.0--r42hdfd78af_0: sha256:9d75169a4c212102ac062a0ae85919a31acf50aadc34a7ecea607339d60d2227
@@ -10,6 +10,7 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:344e3005b9faf263721de8faf4ad7ccc6869a01a8e3aac1e44a7b762daa7cc7e
   1.18.0--r43hdfd78af_0: sha256:b5b29af53443d2c36f73f3ceb1179ed6aca607c9adebb8e7eb665f70a81c479f
   1.20.0--r43hdfd78af_0: sha256:103c3cab441ead57266b67d7fb72a2335e0cd98a149719f7bf4d57311669a90f
+  1.24.0--r44hdfd78af_0: sha256:820bf1416e5d843bf4d1869db1c448cc406a992f5301f2cd8e28e9fa5aba13b4
 docker: quay.io/biocontainers/bioconductor-hierinf
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

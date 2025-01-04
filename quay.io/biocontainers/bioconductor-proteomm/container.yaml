@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-proteomm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-proteomm
 latest:
-  1.20.0--r43hdfd78af_0: sha256:4ce4fb1fa4349cdb8130de57601f5eb19be8160deaf447b5a7c29226d45f956b
+  1.24.0--r44hdfd78af_0: sha256:130b6727dfa5acd500c1624199fb8e6d9586554a76269e7d565ed434f854d7f4
 tags:
   1.8.0--r40hdfd78af_1: sha256:2eabcc21f2ada24c07de4edd32496a60db2729c13a0117505bd9bf227f479b1a
   1.12.0--r41hdfd78af_0: sha256:fb434901857e46997ef511e95413dfb021e541f69d17eb596b42070e87fe6aae
@@ -10,6 +10,7 @@ tags:
   1.16.0--r42hdfd78af_0: sha256:c8dc5d4d0dfacdb83edcb73756b27d247c4775cda30678a896986f1486975202
   1.18.0--r43hdfd78af_0: sha256:cfabd9c5728a1e91effa8e35e601018041f31147c0360f554b4d9810a9db0004
   1.20.0--r43hdfd78af_0: sha256:4ce4fb1fa4349cdb8130de57601f5eb19be8160deaf447b5a7c29226d45f956b
+  1.24.0--r44hdfd78af_0: sha256:130b6727dfa5acd500c1624199fb8e6d9586554a76269e7d565ed434f854d7f4
 docker: quay.io/biocontainers/bioconductor-proteomm
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

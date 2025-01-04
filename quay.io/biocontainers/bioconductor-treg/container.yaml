@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-treg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-treg
 latest:
-  1.6.0--r43hdfd78af_0: sha256:38b9f13d41d9f1073335a718543a1a04cf9f5d12fa89c111d2c112643c9046f8
+  1.10.0--r44hdfd78af_0: sha256:1b36f589832ddd0030c578bbc80463023c36ec0be350541706d114d21a4e757f
 tags:
   1.2.0--r42hdfd78af_0: sha256:4225caff10baf3ed90e4a33209294f8f6229ebf39d78201dc83c0696e95aeee4
   1.4.0--r43hdfd78af_0: sha256:f7ef524df68bf4fd47d601aca8ac603c63030de6aca0e3ea0e89ee6dbb7e0339
   1.6.0--r43hdfd78af_0: sha256:38b9f13d41d9f1073335a718543a1a04cf9f5d12fa89c111d2c112643c9046f8
+  1.10.0--r44hdfd78af_0: sha256:1b36f589832ddd0030c578bbc80463023c36ec0be350541706d114d21a4e757f
 docker: quay.io/biocontainers/bioconductor-treg
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

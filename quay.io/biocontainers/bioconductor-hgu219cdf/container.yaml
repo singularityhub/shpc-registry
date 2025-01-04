@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hgu219cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu219cdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:f261758a1e5bb3c0b96e18ea843a6d07219a13f35eb1e1c30b0697449aa798b3
+  2.18.0--r44hdfd78af_13: sha256:348e82b4cecc323e466a51b06d5f2881cc65c3fff2a689aabd1adf75c1004afe
 tags:
   2.18.0--r41hdfd78af_9: sha256:7f48210849d9bf81edb6a6c5c73da95695b599c49a375182bc6a0b6f3f292cdc
   2.18.0--r42hdfd78af_10: sha256:eaacc7bd6f051981e6d7d51616141815c01e1bf8b6fda910124d422f77a901e0
   2.18.0--r43hdfd78af_11: sha256:2d7e29e1d34407dbf34dd162aca8e95a34445cd475719d47b0e54af23afc3469
   2.18.0--r43hdfd78af_12: sha256:f261758a1e5bb3c0b96e18ea843a6d07219a13f35eb1e1c30b0697449aa798b3
+  2.18.0--r44hdfd78af_13: sha256:348e82b4cecc323e466a51b06d5f2881cc65c3fff2a689aabd1adf75c1004afe
 docker: quay.io/biocontainers/bioconductor-hgu219cdf

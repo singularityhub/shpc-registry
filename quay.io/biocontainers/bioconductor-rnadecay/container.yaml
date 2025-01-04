@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rnadecay
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnadecay
 latest:
-  1.19.0--r43hf17093f_0: sha256:32d6e83eaa04e80e725c3ce329eb77b90b46417d09444999a3d4cb39d3e7b71e
+  1.26.0--r44he5774e6_0: sha256:61a56e83b9394625f730714811b3b3101aa66f7cba6cd42f39b8639c76efea82
 tags:
   1.8.0--r40h5f743cb_0: sha256:15ddd311169153ad60cd8de0703ce208035dce6aa25ebf0a91653d30381591ca
   1.18.0--r42hc247a5b_0: sha256:22381e248e921a3b1d2611b9da641bdaaf5e544660bb05093dd466ad06c8a8fe
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40h399db7b_1: sha256:0fbfa0b23ab0a6490c13492b9efccd953280bb7635d26ee02692506fceb06268
   1.18.0--r42hc247a5b_1: sha256:55b4a9e4a231d10e743f6a6ff0f1ffb1d2b22f6ef171c463c8cbe38a26bf09c1
   1.19.0--r43hf17093f_0: sha256:32d6e83eaa04e80e725c3ce329eb77b90b46417d09444999a3d4cb39d3e7b71e
+  1.26.0--r44he5774e6_0: sha256:61a56e83b9394625f730714811b3b3101aa66f7cba6cd42f39b8639c76efea82
 docker: quay.io/biocontainers/bioconductor-rnadecay
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

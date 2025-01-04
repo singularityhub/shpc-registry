@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-cobrar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-cobrar
 latest:
-  0.1.1--r43h4ac6f70_1: sha256:9ae933335ce65381742f7b6db4cbc69db631bbc83cd380b7eec5759225d63446
+  0.1.1--r44h9948957_2: sha256:2c7e5a74d620d338b45960cd189fce1b23a7ed059e7c138f246e696fcfff871a
 tags:
   0.1.0--r43h4ac6f70_0: sha256:a8c6b2e42bb75a7765953b1149182bdbf5adf0a4e559c6caaae094c4d1499e8c
   0.1.1--r43h4ac6f70_1: sha256:9ae933335ce65381742f7b6db4cbc69db631bbc83cd380b7eec5759225d63446
+  0.1.1--r44h9948957_2: sha256:2c7e5a74d620d338b45960cd189fce1b23a7ed059e7c138f246e696fcfff871a
 docker: quay.io/biocontainers/r-cobrar
 aliases:
   glpsol: /usr/local/bin/glpsol

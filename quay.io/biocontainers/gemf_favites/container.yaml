@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gemf_favites
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gemf_favites
 latest:
-  1.0.3--h031d066_0: sha256:9da81451fad523e4d00c9bb30f61949aab542626490397e98c5b5bd34eea0e1c
+  1.0.3--h7b50bb2_1: sha256:c2d2781378dc425632b92565a0a5e2dce944d446108de3f2b7017ec96b9cff2b
 tags:
   1.0.3--h031d066_0: sha256:9da81451fad523e4d00c9bb30f61949aab542626490397e98c5b5bd34eea0e1c
+  1.0.3--h7b50bb2_1: sha256:c2d2781378dc425632b92565a0a5e2dce944d446108de3f2b7017ec96b9cff2b
 docker: quay.io/biocontainers/gemf_favites
 aliases:
   GEMF: /usr/local/bin/GEMF

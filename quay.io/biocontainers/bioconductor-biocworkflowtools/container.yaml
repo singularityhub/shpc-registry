@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-biocworkflowtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocworkflowtools
 latest:
-  1.28.0--r43hdfd78af_0: sha256:df6b0c33dead8852bc8ec2c8349eae5b321c0f3da6f19e120ebf81e24e928033
+  1.32.0--r44hdfd78af_0: sha256:2e3d12454a2204f8671474b114d5ede5a6f725a0386a95b6535ce22c5046a1fe
 tags:
   1.8.0--r351_0: sha256:48c24b5cbcf6b037f316dd69a5e4a52a04e96cd42f2b545612001dcaad168a4f
   1.24.0--r42hdfd78af_0: sha256:9ad3370b7c4280edede3efd8cd033171c831aa883064bdd9738162b99fb6b9d9
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:f253fbfc0ddbf4fe47e020556964f00b256df7c7ff9fe0171fa5bd9ca32355d4
   1.26.0--r43hdfd78af_0: sha256:8c3baf1e6f3696961e62b08f654efa1e49e4105193a21e259e97032495780fa9
   1.28.0--r43hdfd78af_0: sha256:df6b0c33dead8852bc8ec2c8349eae5b321c0f3da6f19e120ebf81e24e928033
+  1.32.0--r44hdfd78af_0: sha256:2e3d12454a2204f8671474b114d5ede5a6f725a0386a95b6535ce22c5046a1fe
 docker: quay.io/biocontainers/bioconductor-biocworkflowtools
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

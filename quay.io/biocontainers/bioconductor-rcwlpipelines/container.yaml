@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rcwlpipelines
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcwlpipelines
 latest:
-  1.16.0--r43hdfd78af_0: sha256:55fe99fb5022fca15ca1a4ff8e7eb131ac4d530b8fd82d7dc7fd0678d1a373f7
+  1.22.0--r44h71b9176_0: sha256:05910265dcffe07f44d51bdebce727762a1729f176f895b9e2d9733fb353c145
 tags:
   1.8.0--r41hdfd78af_0: sha256:c856038a7cf670f905648cccf353fd28e29db9ac2445ecd4afd073f8636f5f1b
   1.14.0--r42h9d45583_0: sha256:5d6a96e846e2f0d4ee3fb8701b6c0d81c53d6bcf6c2c180542d35547d34e97a0
@@ -10,6 +10,7 @@ tags:
   1.14.0--r42hd6180af_1: sha256:15fbafffffdf715835337a742e83f2f0aa63ac6abf17ff223747fb6039344349
   1.16.0--r43hdfd78af_0: sha256:55fe99fb5022fca15ca1a4ff8e7eb131ac4d530b8fd82d7dc7fd0678d1a373f7
   1.14.0--r42h5284365_1: sha256:a1252fef89e1153068a67f1480fc50dd8ab3c908448e014e5ffd6ab2b451ccc4
+  1.22.0--r44h71b9176_0: sha256:05910265dcffe07f44d51bdebce727762a1729f176f895b9e2d9733fb353c145
 docker: quay.io/biocontainers/bioconductor-rcwlpipelines
 aliases:
   node: /usr/local/bin/node

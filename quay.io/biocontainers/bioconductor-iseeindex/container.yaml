@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-iseeindex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-iseeindex
 latest:
-  1.0.0--r43hdfd78af_0: sha256:cdb7f4b518525dd439fe83f8633f0d2fe6e6929423df78c5fd5c11047783b06f
+  1.4.0--r44hdfd78af_0: sha256:f07dd977abdab39fc0e155d89f76cf89518e6cea41bde803c795463eaa834e9e
 tags:
   1.0.0--r43hdfd78af_0: sha256:cdb7f4b518525dd439fe83f8633f0d2fe6e6929423df78c5fd5c11047783b06f
+  1.4.0--r44hdfd78af_0: sha256:f07dd977abdab39fc0e155d89f76cf89518e6cea41bde803c795463eaa834e9e
 docker: quay.io/biocontainers/bioconductor-iseeindex
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

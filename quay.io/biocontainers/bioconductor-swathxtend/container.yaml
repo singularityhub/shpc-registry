@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-swathxtend
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-swathxtend
 latest:
-  2.24.0--r43hdfd78af_0: sha256:3bda8600a82983b149d4e7f986edf8ae68930e7c73c9a0c8b44a22bf2a5fa1b9
+  2.28.0--r44hdfd78af_0: sha256:7a78327f535550571dbfd8f7e69cf73fc6f51c790057b127e8618e40af969085
 tags:
   2.8.0--r36_0: sha256:9d391d260487e159c42834ff411cc4dfa695933c85a09529c3b2d322a18b1f46
   2.20.0--r42hdfd78af_0: sha256:49857f94ea16e971754b2f37513d2e841d9ded064082c6ed560811dba3273ddf
@@ -12,6 +12,7 @@ tags:
   2.10.0--r40_0: sha256:a97337392e59a858d21c8f37f889a876f90e162e7221b7159bff065b5f05d0bc
   2.22.0--r43hdfd78af_0: sha256:3d01bdf4169296dcdfd819038dd0f8b2e7df5f3f74539df355fea7ad5e537407
   2.24.0--r43hdfd78af_0: sha256:3bda8600a82983b149d4e7f986edf8ae68930e7c73c9a0c8b44a22bf2a5fa1b9
+  2.28.0--r44hdfd78af_0: sha256:7a78327f535550571dbfd8f7e69cf73fc6f51c790057b127e8618e40af969085
 docker: quay.io/biocontainers/bioconductor-swathxtend
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

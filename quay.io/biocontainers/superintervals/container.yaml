@@ -5,6 +5,7 @@ latest:
   0.2.5--py310h8ea774a_0: sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a
 tags:
   0.2.5--py310h8ea774a_0: sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a
+  0.2.5--py312h9c9b0c2_0: sha256:fbc1b23256e4e7bc97f54468be1e245a2bcb0aa4a7288396ec0d86005d6a5e60
 docker: quay.io/biocontainers/superintervals
 aliases:
   cygdb: /usr/local/bin/cygdb

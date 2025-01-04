@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rcellminerdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcellminerdata
 latest:
-  2.24.0--r43hdfd78af_0: sha256:29d489bd7555cc15d40baaca26bd214df204ae9370b0e972c51ccacc654853b1
+  2.28.0--r44hdfd78af_0: sha256:755f6a19052a7867ceb2a33c8c95872c7b8f2c9f7a2f0f3264ccf6c530fd3872
 tags:
   2.8.0--r36_0: sha256:c0de1acd5bd44786a791905a8702ec1141cb3593fade5f2c9662440c42ab2f0d
   2.20.0--r42hdfd78af_0: sha256:ad88be2b0d5547724a380b9c96dba0e8954999aa55736b8d5eadd2d9eecc78db
@@ -12,6 +12,7 @@ tags:
   2.11.2--r40_0: sha256:b1131412201e78add7f73817604cb96fb081943734e26d8a15155adc7541b36e
   2.22.0--r43hdfd78af_0: sha256:60cec265543014dc5a2aab5046ea53c2e36a8004741f4443ec0f04d64af2751d
   2.24.0--r43hdfd78af_0: sha256:29d489bd7555cc15d40baaca26bd214df204ae9370b0e972c51ccacc654853b1
+  2.28.0--r44hdfd78af_0: sha256:755f6a19052a7867ceb2a33c8c95872c7b8f2c9f7a2f0f3264ccf6c530fd3872
 docker: quay.io/biocontainers/bioconductor-rcellminerdata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

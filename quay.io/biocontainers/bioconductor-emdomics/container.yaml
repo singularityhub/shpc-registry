@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-emdomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-emdomics
 latest:
-  2.32.0--r43hdfd78af_0: sha256:d984600dbf83eb07ee56d9b122818e0dc87b5ff6e37dc0330a2c5a431ad68f34
+  2.36.0--r44hdfd78af_0: sha256:80dc7dfc8dec4c216574a6cfe1ae77e377c5273b5e7f7b4720b17f85e23245bb
 tags:
   2.24.0--r41hdfd78af_0: sha256:cee172f799878bc2035ef7fe70d3514d75db443a305db71b402d37fccbe409b6
   2.28.0--r42hdfd78af_0: sha256:7ec38a428177cf19155cc0dacbf3aae8d32f0f75973d4d3979a5dbb64c24e1fc
   2.30.0--r43hdfd78af_0: sha256:9c4b3584808e73a219c3bc6845c25d2188c396662c40725f5e6554e2a07d3894
   2.32.0--r43hdfd78af_0: sha256:d984600dbf83eb07ee56d9b122818e0dc87b5ff6e37dc0330a2c5a431ad68f34
+  2.36.0--r44hdfd78af_0: sha256:80dc7dfc8dec4c216574a6cfe1ae77e377c5273b5e7f7b4720b17f85e23245bb
 docker: quay.io/biocontainers/bioconductor-emdomics

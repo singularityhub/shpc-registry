@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/delly
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for delly
 latest:
-  1.3.1--hf9970c3_0: sha256:32c9310fd13170e8a55caf1f2230488ac2ca27902af5f3c9e0ef850e30a51e51
+  1.3.1--h4d20210_1: sha256:e43568efa9113d7199b4d6467746e7fe334603b603e9c456fabb4154261f7f40
 tags:
   1.1.5--ha41ced6_1: sha256:d6bf4e579f3b588d59e744cfbac51752b9a901af8dae06a22be65f436539dcd7
   1.1.6--ha41ced6_0: sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452
@@ -16,6 +16,7 @@ tags:
   1.2.6--hdcf5f25_4: sha256:663c12e14adc4c44ff6b8f3b298b6cce108c87aebf8fbdf331fbfb839f96053a
   1.2.9--hf9970c3_0: sha256:b0aa33d205c647848b1a53b88433a0fdb35c934829ea7365b73d81c4917f451c
   1.3.1--hf9970c3_0: sha256:32c9310fd13170e8a55caf1f2230488ac2ca27902af5f3c9e0ef850e30a51e51
+  1.3.1--h4d20210_1: sha256:e43568efa9113d7199b4d6467746e7fe334603b603e9c456fabb4154261f7f40
 docker: quay.io/biocontainers/delly
 aliases:
   delly: /usr/local/bin/delly
