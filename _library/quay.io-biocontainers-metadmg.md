@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metadmg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metadmg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metadmg/container.yaml"
-updated_at: "2025-01-03 02:57:07.862407"
-latest: "0.4--h8e173a3_0"
+updated_at: "2025-01-04 02:53:37.540045"
+latest: "0.4--h6ba4bad_1"
 container_url: "https://biocontainers.pro/tools/metadmg"
 aliases:
  - "compressbam"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.3--h86cbbb3_1"
  - "0.4--h8e173a3_0"
+ - "0.4--h6ba4bad_1"
 description: "singularity registry hpc automated addition for metadmg"
-config: {"url": "https://biocontainers.pro/tools/metadmg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metadmg", "latest": {"0.4--h8e173a3_0": "sha256:52b4d2986f78289978c53ded9e18c03038672f7064208645b62b244b619f3155"}, "tags": {"0.3--h86cbbb3_1": "sha256:127245178807baf7a37280aeefeb74b485c5d6b7a4cbd87b7a50da11b3fdd7ac", "0.4--h8e173a3_0": "sha256:52b4d2986f78289978c53ded9e18c03038672f7064208645b62b244b619f3155"}, "docker": "quay.io/biocontainers/metadmg", "aliases": {"compressbam": "/usr/local/bin/compressbam", "metaDMG-cpp": "/usr/local/bin/metaDMG-cpp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/metadmg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metadmg", "latest": {"0.4--h6ba4bad_1": "sha256:120431c5ec94f98b07811b7d4999a284753ca975f9f7be2bd237a4667ce43baa"}, "tags": {"0.3--h86cbbb3_1": "sha256:127245178807baf7a37280aeefeb74b485c5d6b7a4cbd87b7a50da11b3fdd7ac", "0.4--h8e173a3_0": "sha256:52b4d2986f78289978c53ded9e18c03038672f7064208645b62b244b619f3155", "0.4--h6ba4bad_1": "sha256:120431c5ec94f98b07811b7d4999a284753ca975f9f7be2bd237a4667ce43baa"}, "docker": "quay.io/biocontainers/metadmg", "aliases": {"compressbam": "/usr/local/bin/compressbam", "metaDMG-cpp": "/usr/local/bin/metaDMG-cpp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metadmg.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/metadmg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metadmg:0.4--h8e173a3_0
+$ shpc install quay.io/biocontainers/metadmg:0.4--h6ba4bad_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metadmg/0.4--h8e173a3_0
-$ module help quay.io/biocontainers/metadmg/0.4--h8e173a3_0
+$ module load quay.io/biocontainers/metadmg/0.4--h6ba4bad_1
+$ module help quay.io/biocontainers/metadmg/0.4--h6ba4bad_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

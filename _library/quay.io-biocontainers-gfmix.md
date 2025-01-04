@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfmix/container.yaml"
-updated_at: "2025-01-03 03:16:40.650006"
-latest: "1.0.2--hdbdd923_2"
+updated_at: "2025-01-04 03:12:47.835863"
+latest: "1.0.2--h503566f_3"
 container_url: "https://biocontainers.pro/tools/gfmix"
 aliases:
  - "alpha_est_mix_rt"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.0.2--h87f3376_0"
  - "1.0.2--hdbdd923_2"
+ - "1.0.2--h503566f_3"
 description: "singularity registry hpc automated addition for gfmix"
-config: {"url": "https://biocontainers.pro/tools/gfmix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfmix", "latest": {"1.0.2--hdbdd923_2": "sha256:1cfb194290cc6b26a4337c93ef64e02385740ec5ae1f8cd9db93d9fcc1720454"}, "tags": {"1.0.2--h87f3376_0": "sha256:adb9d61278a1f2f5522f63335b1e8fba7b346a96ccae62e76aa5485015f5f7c3", "1.0.2--hdbdd923_2": "sha256:1cfb194290cc6b26a4337c93ef64e02385740ec5ae1f8cd9db93d9fcc1720454"}, "docker": "quay.io/biocontainers/gfmix", "aliases": {"alpha_est_mix_rt": "/usr/local/bin/alpha_est_mix_rt", "gfmix": "/usr/local/bin/gfmix", "rert": "/usr/local/bin/rert", "treecns": "/usr/local/bin/treecns"}}
+config: {"url": "https://biocontainers.pro/tools/gfmix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfmix", "latest": {"1.0.2--h503566f_3": "sha256:6cdf0dd8f6f3a621d22292560e2fbe3d9dfded30bff98c84aa3c363994dbef27"}, "tags": {"1.0.2--h87f3376_0": "sha256:adb9d61278a1f2f5522f63335b1e8fba7b346a96ccae62e76aa5485015f5f7c3", "1.0.2--hdbdd923_2": "sha256:1cfb194290cc6b26a4337c93ef64e02385740ec5ae1f8cd9db93d9fcc1720454", "1.0.2--h503566f_3": "sha256:6cdf0dd8f6f3a621d22292560e2fbe3d9dfded30bff98c84aa3c363994dbef27"}, "docker": "quay.io/biocontainers/gfmix", "aliases": {"alpha_est_mix_rt": "/usr/local/bin/alpha_est_mix_rt", "gfmix": "/usr/local/bin/gfmix", "rert": "/usr/local/bin/rert", "treecns": "/usr/local/bin/treecns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfmix.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/gfmix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfmix:1.0.2--hdbdd923_2
+$ shpc install quay.io/biocontainers/gfmix:1.0.2--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfmix/1.0.2--hdbdd923_2
-$ module help quay.io/biocontainers/gfmix/1.0.2--hdbdd923_2
+$ module load quay.io/biocontainers/gfmix/1.0.2--h503566f_3
+$ module help quay.io/biocontainers/gfmix/1.0.2--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

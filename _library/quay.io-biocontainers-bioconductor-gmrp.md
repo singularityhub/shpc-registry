@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gmrp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmrp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmrp/container.yaml"
-updated_at: "2025-01-03 03:39:40.693887"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-04 03:35:47.471190"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmrp"
 aliases:
  - "wget"
@@ -21,8 +21,9 @@ versions:
  - "1.26.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gmrp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gmrp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmrp", "latest": {"1.30.0--r43hdfd78af_0": "sha256:134b832ae912d4b43362526fa882ea94163e5ecf6a4b8b0c638da299d6ca5f39"}, "tags": {"1.8.1--r341_0": "sha256:7222032d517c8c27caaa27bedc4e92c4181ebc77f069d2530478615af7b3fab9", "1.22.0--r41hdfd78af_0": "sha256:7977b55bedef437d64289324ce54e8dc94adf1e90a8c4304a431ffb21e844de5", "1.20.0--r41hdfd78af_0": "sha256:0c519a7bc8f1615fc25a95866be2154d51c858846b16ce1e3aec1e856a78954b", "1.18.0--r40hdfd78af_1": "sha256:05babf8faee7fa73cad7448b6da4b7423cf5253fa6553ae66e9bc848a7f34fbb", "1.16.0--r40_0": "sha256:fd0481fc152397a45d959fd3a7540cf8f809e9e1e93cd7108d87c65a10baaf6c", "1.14.0--r36_0": "sha256:480a3986e8d56b35154f773e97fa2937b03d0d7b4ca309f92e46f31726cf9289", "1.26.0--r42hdfd78af_0": "sha256:6d8c59ff7b1a53037e2de0c607f06d2b03d71ba6e8fcc61ee19a309181a4b36c", "1.28.0--r43hdfd78af_0": "sha256:dbd2cfa2410c6813146556e6185e6b6754db0112a05f50fdb395c06a6f35e3fd", "1.30.0--r43hdfd78af_0": "sha256:134b832ae912d4b43362526fa882ea94163e5ecf6a4b8b0c638da299d6ca5f39"}, "docker": "quay.io/biocontainers/bioconductor-gmrp", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gmrp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmrp", "latest": {"1.34.0--r44hdfd78af_0": "sha256:9aeba01a0bcb3bc01f66617e733758d5117bb77b1baa5cdb54b97a1a14e9ebf1"}, "tags": {"1.8.1--r341_0": "sha256:7222032d517c8c27caaa27bedc4e92c4181ebc77f069d2530478615af7b3fab9", "1.22.0--r41hdfd78af_0": "sha256:7977b55bedef437d64289324ce54e8dc94adf1e90a8c4304a431ffb21e844de5", "1.20.0--r41hdfd78af_0": "sha256:0c519a7bc8f1615fc25a95866be2154d51c858846b16ce1e3aec1e856a78954b", "1.18.0--r40hdfd78af_1": "sha256:05babf8faee7fa73cad7448b6da4b7423cf5253fa6553ae66e9bc848a7f34fbb", "1.16.0--r40_0": "sha256:fd0481fc152397a45d959fd3a7540cf8f809e9e1e93cd7108d87c65a10baaf6c", "1.14.0--r36_0": "sha256:480a3986e8d56b35154f773e97fa2937b03d0d7b4ca309f92e46f31726cf9289", "1.26.0--r42hdfd78af_0": "sha256:6d8c59ff7b1a53037e2de0c607f06d2b03d71ba6e8fcc61ee19a309181a4b36c", "1.28.0--r43hdfd78af_0": "sha256:dbd2cfa2410c6813146556e6185e6b6754db0112a05f50fdb395c06a6f35e3fd", "1.30.0--r43hdfd78af_0": "sha256:134b832ae912d4b43362526fa882ea94163e5ecf6a4b8b0c638da299d6ca5f39", "1.34.0--r44hdfd78af_0": "sha256:9aeba01a0bcb3bc01f66617e733758d5117bb77b1baa5cdb54b97a1a14e9ebf1"}, "docker": "quay.io/biocontainers/bioconductor-gmrp", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gmrp.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gmrp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gmrp:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gmrp:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gmrp/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gmrp/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gmrp/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gmrp/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

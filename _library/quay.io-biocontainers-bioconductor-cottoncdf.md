@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cottoncdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cottoncdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cottoncdf/container.yaml"
-updated_at: "2025-01-03 03:11:45.782224"
-latest: "2.18.0--r43hdfd78af_12"
+updated_at: "2025-01-04 03:07:56.908722"
+latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-cottoncdf"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.18.0--r42hdfd78af_10"
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
+ - "2.18.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-cottoncdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cottoncdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cottoncdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:91448554e5d8575f6ee5c83e338314245c007442d36cdfb87e7fd7d685ee5ab8"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:b8fbe87417052fd4f8f9bfa8d94107a1f266db1c3f8a32f116efefda1263752e", "2.18.0--r42hdfd78af_10": "sha256:463e703f9e2ed05468b25f970d1934031dc2bedb405718246b19bff0fb76f03e", "2.18.0--r43hdfd78af_11": "sha256:d1f6a106a43bd9245d1eaf6c29b70cde8e9b949a74044e2da1e92d6fec210388", "2.18.0--r43hdfd78af_12": "sha256:91448554e5d8575f6ee5c83e338314245c007442d36cdfb87e7fd7d685ee5ab8"}, "docker": "quay.io/biocontainers/bioconductor-cottoncdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cottoncdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cottoncdf", "latest": {"2.18.0--r44hdfd78af_13": "sha256:e27bfe311f859b1c2ad38f87c3c786279d72a6ddb52930317e8087b391e24f0c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:b8fbe87417052fd4f8f9bfa8d94107a1f266db1c3f8a32f116efefda1263752e", "2.18.0--r42hdfd78af_10": "sha256:463e703f9e2ed05468b25f970d1934031dc2bedb405718246b19bff0fb76f03e", "2.18.0--r43hdfd78af_11": "sha256:d1f6a106a43bd9245d1eaf6c29b70cde8e9b949a74044e2da1e92d6fec210388", "2.18.0--r43hdfd78af_12": "sha256:91448554e5d8575f6ee5c83e338314245c007442d36cdfb87e7fd7d685ee5ab8", "2.18.0--r44hdfd78af_13": "sha256:e27bfe311f859b1c2ad38f87c3c786279d72a6ddb52930317e8087b391e24f0c"}, "docker": "quay.io/biocontainers/bioconductor-cottoncdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cottoncdf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cottoncdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cottoncdf:2.18.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-cottoncdf:2.18.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cottoncdf/2.18.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-cottoncdf/2.18.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-cottoncdf/2.18.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-cottoncdf/2.18.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

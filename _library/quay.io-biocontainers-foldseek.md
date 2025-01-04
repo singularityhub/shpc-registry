@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/foldseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldseek/container.yaml"
-updated_at: "2025-01-03 03:28:59.069331"
-latest: "9.427df8a--pl5321hb365157_1"
+updated_at: "2025-01-04 03:25:06.523212"
+latest: "9.427df8a--pl5321h5021889_2"
 container_url: "https://biocontainers.pro/tools/foldseek"
 aliases:
  - "aria2c"
@@ -27,8 +27,9 @@ versions:
  - "8.ef4e960--pl5321hb365157_1"
  - "9.427df8a--pl5321hb365157_0"
  - "9.427df8a--pl5321hb365157_1"
+ - "9.427df8a--pl5321h5021889_2"
 description: "shpc-registry automated BioContainers addition for foldseek"
-config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"9.427df8a--pl5321hb365157_1": "sha256:c46d6fb854099780597e3adfa48e93c991f4b4d542391c144b9cae4de1ed22f9"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8", "4.645b789--pl5321hf1761c0_0": "sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9", "5.53465f0--pl5321hf1761c0_0": "sha256:176ee099aff34fdb1f333e74ef0ab5a50381a6e987f9018d0a81396d891651ad", "6.29e2557--pl5321hb365157_2": "sha256:05fc55c67452e37c8a631a6bd35d7e7039363dffd3d36bf6e5661385599da718", "8.ef4e960--pl5321hb365157_0": "sha256:56ce158f3250af68a1b5d69d93b0515d2ffb1e80321c6649fd87ae0010db3107", "7.04e0ec8--pl5321hb365157_0": "sha256:4aa710ded9127d0969a67acace515fe8337d1352700c3d889868433491eb72e9", "8.ef4e960--pl5321hb365157_1": "sha256:f194c34439f5110fa12d5fffdd8947a8d7c6f1a0b4761bb67ecd87e13656dcaa", "9.427df8a--pl5321hb365157_0": "sha256:3881cfb43da2a57fb6d9d5572962723e07c35060c6e63e83cba83de814e9d54d", "9.427df8a--pl5321hb365157_1": "sha256:c46d6fb854099780597e3adfa48e93c991f4b4d542391c144b9cae4de1ed22f9"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"9.427df8a--pl5321h5021889_2": "sha256:a9ade9eacd4911cd13a0f4636d2ef70d5e5860d1707dc96f67dc5dffebcfaf64"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8", "4.645b789--pl5321hf1761c0_0": "sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9", "5.53465f0--pl5321hf1761c0_0": "sha256:176ee099aff34fdb1f333e74ef0ab5a50381a6e987f9018d0a81396d891651ad", "6.29e2557--pl5321hb365157_2": "sha256:05fc55c67452e37c8a631a6bd35d7e7039363dffd3d36bf6e5661385599da718", "8.ef4e960--pl5321hb365157_0": "sha256:56ce158f3250af68a1b5d69d93b0515d2ffb1e80321c6649fd87ae0010db3107", "7.04e0ec8--pl5321hb365157_0": "sha256:4aa710ded9127d0969a67acace515fe8337d1352700c3d889868433491eb72e9", "8.ef4e960--pl5321hb365157_1": "sha256:f194c34439f5110fa12d5fffdd8947a8d7c6f1a0b4761bb67ecd87e13656dcaa", "9.427df8a--pl5321hb365157_0": "sha256:3881cfb43da2a57fb6d9d5572962723e07c35060c6e63e83cba83de814e9d54d", "9.427df8a--pl5321hb365157_1": "sha256:c46d6fb854099780597e3adfa48e93c991f4b4d542391c144b9cae4de1ed22f9", "9.427df8a--pl5321h5021889_2": "sha256:a9ade9eacd4911cd13a0f4636d2ef70d5e5860d1707dc96f67dc5dffebcfaf64"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldseek.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/foldseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/foldseek:9.427df8a--pl5321hb365157_1
+$ shpc install quay.io/biocontainers/foldseek:9.427df8a--pl5321h5021889_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/foldseek/9.427df8a--pl5321hb365157_1
-$ module help quay.io/biocontainers/foldseek/9.427df8a--pl5321hb365157_1
+$ module load quay.io/biocontainers/foldseek/9.427df8a--pl5321h5021889_2
+$ module help quay.io/biocontainers/foldseek/9.427df8a--pl5321h5021889_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/autodock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autodock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autodock/container.yaml"
-updated_at: "2025-01-03 03:12:58.820481"
-latest: "4.2.6--h4ac6f70_3"
+updated_at: "2025-01-04 03:09:08.415986"
+latest: "4.2.6--h9948957_4"
 container_url: "https://biocontainers.pro/tools/autodock"
 aliases:
  - "autodock4"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "4.2.6--h9f5acd7_1"
  - "4.2.6--h4ac6f70_3"
+ - "4.2.6--h9948957_4"
 description: "shpc-registry automated BioContainers addition for autodock"
-config: {"url": "https://biocontainers.pro/tools/autodock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autodock", "latest": {"4.2.6--h4ac6f70_3": "sha256:944207a5e88587c5abfa6de54a67a3d4fcc2f2e9b15fc717ebd055b3cba21ed6"}, "tags": {"4.2.6--h9f5acd7_1": "sha256:7e885b64621b5c311b10889785143e580a323ca0281ca515c7c5c8ba475e8399", "4.2.6--h4ac6f70_3": "sha256:944207a5e88587c5abfa6de54a67a3d4fcc2f2e9b15fc717ebd055b3cba21ed6"}, "docker": "quay.io/biocontainers/autodock", "aliases": {"autodock4": "/usr/local/bin/autodock4", "autodock4.omp": "/usr/local/bin/autodock4.omp"}}
+config: {"url": "https://biocontainers.pro/tools/autodock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autodock", "latest": {"4.2.6--h9948957_4": "sha256:879f731b1abfd163f326afa2770bc0b05d36cee7b2288dde42d9bd61030dee8f"}, "tags": {"4.2.6--h9f5acd7_1": "sha256:7e885b64621b5c311b10889785143e580a323ca0281ca515c7c5c8ba475e8399", "4.2.6--h4ac6f70_3": "sha256:944207a5e88587c5abfa6de54a67a3d4fcc2f2e9b15fc717ebd055b3cba21ed6", "4.2.6--h9948957_4": "sha256:879f731b1abfd163f326afa2770bc0b05d36cee7b2288dde42d9bd61030dee8f"}, "docker": "quay.io/biocontainers/autodock", "aliases": {"autodock4": "/usr/local/bin/autodock4", "autodock4.omp": "/usr/local/bin/autodock4.omp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autodock.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/autodock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autodock:4.2.6--h4ac6f70_3
+$ shpc install quay.io/biocontainers/autodock:4.2.6--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autodock/4.2.6--h4ac6f70_3
-$ module help quay.io/biocontainers/autodock/4.2.6--h4ac6f70_3
+$ module load quay.io/biocontainers/autodock/4.2.6--h9948957_4
+$ module help quay.io/biocontainers/autodock/4.2.6--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

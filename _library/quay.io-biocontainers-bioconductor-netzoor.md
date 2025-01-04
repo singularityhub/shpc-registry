@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netzoor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netzoor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netzoor/container.yaml"
-updated_at: "2025-01-03 03:24:00.972579"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-04 03:20:07.681699"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netzoor"
 aliases:
  - "2to3-3.11"
@@ -42,8 +42,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-netzoor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netzoor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-netzoor", "latest": {"1.6.0--r43hdfd78af_0": "sha256:a3eb1dd6dbcf563b6eec93f7d1ff223af71c4adf97a7369ae9ecf54667654556"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:c146cbbecf487bd2b1b07e16eb6254264b52b66b1fa1a061d027d3e35759b271", "1.4.0--r43hdfd78af_0": "sha256:b69eb57ff7316ae8df9dbb754e2d06ed69390aaeb7fbac7c44180672c61aa2a3", "1.6.0--r43hdfd78af_0": "sha256:a3eb1dd6dbcf563b6eec93f7d1ff223af71c4adf97a7369ae9ecf54667654556"}, "docker": "quay.io/biocontainers/bioconductor-netzoor", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netzoor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-netzoor", "latest": {"1.10.0--r44hdfd78af_0": "sha256:094c050ffe543b6dcf3954784d63efd0a45de9e85a73eb861decc694e41f2c84"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:c146cbbecf487bd2b1b07e16eb6254264b52b66b1fa1a061d027d3e35759b271", "1.4.0--r43hdfd78af_0": "sha256:b69eb57ff7316ae8df9dbb754e2d06ed69390aaeb7fbac7c44180672c61aa2a3", "1.6.0--r43hdfd78af_0": "sha256:a3eb1dd6dbcf563b6eec93f7d1ff223af71c4adf97a7369ae9ecf54667654556", "1.10.0--r44hdfd78af_0": "sha256:094c050ffe543b6dcf3954784d63efd0a45de9e85a73eb861decc694e41f2c84"}, "docker": "quay.io/biocontainers/bioconductor-netzoor", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netzoor.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netzoor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netzoor:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-netzoor:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netzoor/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-netzoor/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-netzoor/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netzoor/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

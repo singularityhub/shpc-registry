@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/verifybamid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifybamid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifybamid/container.yaml"
-updated_at: "2025-01-03 03:04:28.314440"
-latest: "1.1.3--h43eeafb_8"
+updated_at: "2025-01-04 03:00:49.233324"
+latest: "1.1.3--h5ca1c30_9"
 container_url: "https://biocontainers.pro/tools/verifybamid"
 
 versions:
  - "1.1.3--h5b5514e_6"
  - "1.1.3--h43eeafb_8"
+ - "1.1.3--h5ca1c30_9"
 description: "shpc-registry automated BioContainers addition for verifybamid"
-config: {"url": "https://biocontainers.pro/tools/verifybamid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid", "latest": {"1.1.3--h43eeafb_8": "sha256:301ab0f60bbf69f4be566fd5e29e429f80f01fafa588ec8d79cb8bb8cb21f692"}, "tags": {"1.1.3--h5b5514e_6": "sha256:8e721261d0eae5c7b6c24742dd9713cd2878351882c65f2b4903d4df456a6024", "1.1.3--h43eeafb_8": "sha256:301ab0f60bbf69f4be566fd5e29e429f80f01fafa588ec8d79cb8bb8cb21f692"}, "docker": "quay.io/biocontainers/verifybamid"}
+config: {"url": "https://biocontainers.pro/tools/verifybamid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid", "latest": {"1.1.3--h5ca1c30_9": "sha256:0151f9141569af45e05e63819c24c4a506eb5da7f0f363ab5dc0f8ab7f30281c"}, "tags": {"1.1.3--h5b5514e_6": "sha256:8e721261d0eae5c7b6c24742dd9713cd2878351882c65f2b4903d4df456a6024", "1.1.3--h43eeafb_8": "sha256:301ab0f60bbf69f4be566fd5e29e429f80f01fafa588ec8d79cb8bb8cb21f692", "1.1.3--h5ca1c30_9": "sha256:0151f9141569af45e05e63819c24c4a506eb5da7f0f363ab5dc0f8ab7f30281c"}, "docker": "quay.io/biocontainers/verifybamid"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verifybamid.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/verifybamid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verifybamid:1.1.3--h43eeafb_8
+$ shpc install quay.io/biocontainers/verifybamid:1.1.3--h5ca1c30_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verifybamid/1.1.3--h43eeafb_8
-$ module help quay.io/biocontainers/verifybamid/1.1.3--h43eeafb_8
+$ module load quay.io/biocontainers/verifybamid/1.1.3--h5ca1c30_9
+$ module help quay.io/biocontainers/verifybamid/1.1.3--h5ca1c30_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

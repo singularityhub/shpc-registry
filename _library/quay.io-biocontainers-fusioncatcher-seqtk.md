@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fusioncatcher-seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusioncatcher-seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher-seqtk/container.yaml"
-updated_at: "2025-01-03 03:00:16.333872"
-latest: "1.2--he4a0461_5"
+updated_at: "2025-01-04 02:56:45.392742"
+latest: "1.2--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/fusioncatcher-seqtk"
 aliases:
  - "seqtk"
 versions:
  - "1.2--h7132678_3"
  - "1.2--he4a0461_5"
+ - "1.2--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for fusioncatcher-seqtk"
-config: {"url": "https://biocontainers.pro/tools/fusioncatcher-seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusioncatcher-seqtk", "latest": {"1.2--he4a0461_5": "sha256:afe63fe3bac4e0d11d30d3a5b834a4f25e6c55c93478e6dd0f6e40b7004c505c"}, "tags": {"1.2--h7132678_3": "sha256:8e6e89febcc6e68afa1057f56e393df260a663115091ad5dede94df658ac08b4", "1.2--he4a0461_5": "sha256:afe63fe3bac4e0d11d30d3a5b834a4f25e6c55c93478e6dd0f6e40b7004c505c"}, "docker": "quay.io/biocontainers/fusioncatcher-seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
+config: {"url": "https://biocontainers.pro/tools/fusioncatcher-seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusioncatcher-seqtk", "latest": {"1.2--h577a1d6_6": "sha256:358de80ce62632ec60e5ba962868922f6ca5750b4e7b1643d5bc326500522e96"}, "tags": {"1.2--h7132678_3": "sha256:8e6e89febcc6e68afa1057f56e393df260a663115091ad5dede94df658ac08b4", "1.2--he4a0461_5": "sha256:afe63fe3bac4e0d11d30d3a5b834a4f25e6c55c93478e6dd0f6e40b7004c505c", "1.2--h577a1d6_6": "sha256:358de80ce62632ec60e5ba962868922f6ca5750b4e7b1643d5bc326500522e96"}, "docker": "quay.io/biocontainers/fusioncatcher-seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusioncatcher-seqtk.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fusioncatcher-seqtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fusioncatcher-seqtk:1.2--he4a0461_5
+$ shpc install quay.io/biocontainers/fusioncatcher-seqtk:1.2--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fusioncatcher-seqtk/1.2--he4a0461_5
-$ module help quay.io/biocontainers/fusioncatcher-seqtk/1.2--he4a0461_5
+$ module load quay.io/biocontainers/fusioncatcher-seqtk/1.2--h577a1d6_6
+$ module help quay.io/biocontainers/fusioncatcher-seqtk/1.2--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

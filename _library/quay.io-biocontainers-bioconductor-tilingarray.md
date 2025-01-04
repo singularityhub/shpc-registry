@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tilingarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
-updated_at: "2025-01-03 03:31:37.762643"
-latest: "1.80.0--r43ha9d7317_0"
+updated_at: "2025-01-04 03:27:43.905850"
+latest: "1.84.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tilingarray"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.76.0--r42ha9d7317_1"
  - "1.78.0--r43ha9d7317_0"
  - "1.80.0--r43ha9d7317_0"
+ - "1.84.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tilingarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tilingarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tilingarray", "latest": {"1.80.0--r43ha9d7317_0": "sha256:83bbb3fa31a82b1122855af9401024b97cbfbf0e75f02d605f3fdb0852ccdf6f"}, "tags": {"1.72.0--r41hc0cfd56_2": "sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005", "1.76.0--r42hc0cfd56_0": "sha256:c0a405188f217da33aeb65dd676e012f0f485e6c612d5df8ef74977cf4eb1c72", "1.76.0--r42ha9d7317_1": "sha256:98714d37d44d0c03accd1185ed29799685bc597a551ee4fd870760e3096907ab", "1.78.0--r43ha9d7317_0": "sha256:eab608b17499fb3f7842f61dcd5ee94d6cfd8f0475f29875c237059e19e6d8c8", "1.80.0--r43ha9d7317_0": "sha256:83bbb3fa31a82b1122855af9401024b97cbfbf0e75f02d605f3fdb0852ccdf6f"}, "docker": "quay.io/biocontainers/bioconductor-tilingarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tilingarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tilingarray", "latest": {"1.84.0--r44h3df3fcb_0": "sha256:5c9449b884a6a04a568c636de8d0f0fea00af6d5da7ff67648087b0084695a05"}, "tags": {"1.72.0--r41hc0cfd56_2": "sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005", "1.76.0--r42hc0cfd56_0": "sha256:c0a405188f217da33aeb65dd676e012f0f485e6c612d5df8ef74977cf4eb1c72", "1.76.0--r42ha9d7317_1": "sha256:98714d37d44d0c03accd1185ed29799685bc597a551ee4fd870760e3096907ab", "1.78.0--r43ha9d7317_0": "sha256:eab608b17499fb3f7842f61dcd5ee94d6cfd8f0475f29875c237059e19e6d8c8", "1.80.0--r43ha9d7317_0": "sha256:83bbb3fa31a82b1122855af9401024b97cbfbf0e75f02d605f3fdb0852ccdf6f", "1.84.0--r44h3df3fcb_0": "sha256:5c9449b884a6a04a568c636de8d0f0fea00af6d5da7ff67648087b0084695a05"}, "docker": "quay.io/biocontainers/bioconductor-tilingarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tilingarray.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tilingarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tilingarray:1.80.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-tilingarray:1.84.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tilingarray/1.80.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-tilingarray/1.80.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-tilingarray/1.84.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-tilingarray/1.84.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

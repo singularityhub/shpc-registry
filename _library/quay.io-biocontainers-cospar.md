@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cospar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cospar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cospar/container.yaml"
-updated_at: "2025-01-03 03:20:59.047296"
+updated_at: "2025-01-04 03:17:06.744941"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cospar"
 aliases:

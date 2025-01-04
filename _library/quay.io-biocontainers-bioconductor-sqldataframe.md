@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sqldataframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sqldataframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sqldataframe/container.yaml"
-updated_at: "2025-01-03 03:04:21.568185"
+updated_at: "2025-01-04 03:00:42.718623"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sqldataframe"
 

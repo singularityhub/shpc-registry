@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biox/container.yaml"
-updated_at: "2025-01-03 03:31:22.009949"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-01-04 03:27:28.594440"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biox"
 aliases:
  - "biox"
@@ -20,8 +20,9 @@ aliases:
  - "tqdm"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biox"
-config: {"url": "https://biocontainers.pro/tools/biox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biox", "latest": {"1.0.0--pyhdfd78af_0": "sha256:dc03b5a3724669e79154edc661d4b530ed636015b26d1d675d996c9847705c98"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:dc03b5a3724669e79154edc661d4b530ed636015b26d1d675d996c9847705c98"}, "docker": "quay.io/biocontainers/biox", "aliases": {"biox": "/usr/local/bin/biox", "get_gprof": "/usr/local/bin/get_gprof", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/biox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biox", "latest": {"1.1.0--pyhdfd78af_0": "sha256:a43227206c1b7d780550515a61ebcf0472b46ae62dfabad997fdd3f7137bd547"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:dc03b5a3724669e79154edc661d4b530ed636015b26d1d675d996c9847705c98", "1.1.0--pyhdfd78af_0": "sha256:a43227206c1b7d780550515a61ebcf0472b46ae62dfabad997fdd3f7137bd547"}, "docker": "quay.io/biocontainers/biox", "aliases": {"biox": "/usr/local/bin/biox", "get_gprof": "/usr/local/bin/get_gprof", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biox.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/biox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biox:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biox:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biox/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biox/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biox/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biox/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

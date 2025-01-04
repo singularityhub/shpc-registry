@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kart/container.yaml"
-updated_at: "2025-01-03 03:10:48.426821"
-latest: "2.5.6--hf5e1c6e_5"
+updated_at: "2025-01-04 03:07:01.021949"
+latest: "2.5.6--h13024bc_6"
 container_url: "https://biocontainers.pro/tools/kart"
 aliases:
  - "bwt_index"
@@ -14,8 +14,9 @@ versions:
  - "2.5.6--h2ccddb4_2"
  - "2.5.6--hcd5855d_4"
  - "2.5.6--hf5e1c6e_5"
+ - "2.5.6--h13024bc_6"
 description: "shpc-registry automated BioContainers addition for kart"
-config: {"url": "https://biocontainers.pro/tools/kart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kart", "latest": {"2.5.6--hf5e1c6e_5": "sha256:486da031add72ca238967ebf764243bed44a7d43fac799f22718f07c031bb65d"}, "tags": {"2.5.6--h2ccddb4_2": "sha256:56652c970bb60463bdecca7402a51fc689e6f4addac1d48263b6461edd9d0f6c", "2.5.6--hcd5855d_4": "sha256:38f49d8c8ab1b68341f1cb3e788c1d5eba7f2197fe267b4a1a8e0b370a829dd2", "2.5.6--hf5e1c6e_5": "sha256:486da031add72ca238967ebf764243bed44a7d43fac799f22718f07c031bb65d"}, "docker": "quay.io/biocontainers/kart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "kart": "/usr/local/bin/kart"}}
+config: {"url": "https://biocontainers.pro/tools/kart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kart", "latest": {"2.5.6--h13024bc_6": "sha256:d03e2d893462ef3b07f39e7a0cc9c0ea18172b12620f04b13debb8c345075b8e"}, "tags": {"2.5.6--h2ccddb4_2": "sha256:56652c970bb60463bdecca7402a51fc689e6f4addac1d48263b6461edd9d0f6c", "2.5.6--hcd5855d_4": "sha256:38f49d8c8ab1b68341f1cb3e788c1d5eba7f2197fe267b4a1a8e0b370a829dd2", "2.5.6--hf5e1c6e_5": "sha256:486da031add72ca238967ebf764243bed44a7d43fac799f22718f07c031bb65d", "2.5.6--h13024bc_6": "sha256:d03e2d893462ef3b07f39e7a0cc9c0ea18172b12620f04b13debb8c345075b8e"}, "docker": "quay.io/biocontainers/kart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "kart": "/usr/local/bin/kart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kart.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/kart
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kart:2.5.6--hf5e1c6e_5
+$ shpc install quay.io/biocontainers/kart:2.5.6--h13024bc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kart/2.5.6--hf5e1c6e_5
-$ module help quay.io/biocontainers/kart/2.5.6--hf5e1c6e_5
+$ module load quay.io/biocontainers/kart/2.5.6--h13024bc_6
+$ module help quay.io/biocontainers/kart/2.5.6--h13024bc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

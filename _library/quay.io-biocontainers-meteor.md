@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meteor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meteor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meteor/container.yaml"
-updated_at: "2025-01-03 03:26:23.783363"
+updated_at: "2025-01-04 03:22:30.475855"
 latest: "2.0.17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/meteor"
 aliases:

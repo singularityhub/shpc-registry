@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coverageanomalyscanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
-updated_at: "2025-01-03 02:54:58.982283"
-latest: "0.2.3--h3e2e0a8_3"
+updated_at: "2025-01-04 02:51:28.800348"
+latest: "0.2.3--h69ac913_4"
 container_url: "https://biocontainers.pro/tools/coverageanomalyscanner"
 aliases:
  - "cas"
@@ -13,8 +13,9 @@ versions:
  - "0.2.3--h47defd3_0"
  - "0.2.3--h77de753_2"
  - "0.2.3--h3e2e0a8_3"
+ - "0.2.3--h69ac913_4"
 description: "singularity registry hpc automated addition for coverageanomalyscanner"
-config: {"url": "https://biocontainers.pro/tools/coverageanomalyscanner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coverageanomalyscanner", "latest": {"0.2.3--h3e2e0a8_3": "sha256:166c6f6662c0ee885250b7b7545e6e50ef54a3c67bed05641a9001e14c961779"}, "tags": {"0.2.3--h47defd3_0": "sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29", "0.2.3--h77de753_2": "sha256:738f6f8e29272f6371bda95c32d6eaf647ccee4d232aebf8669c24b142573b1e", "0.2.3--h3e2e0a8_3": "sha256:166c6f6662c0ee885250b7b7545e6e50ef54a3c67bed05641a9001e14c961779"}, "docker": "quay.io/biocontainers/coverageanomalyscanner", "aliases": {"cas": "/usr/local/bin/cas"}}
+config: {"url": "https://biocontainers.pro/tools/coverageanomalyscanner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coverageanomalyscanner", "latest": {"0.2.3--h69ac913_4": "sha256:1d797bbce430f32160d6d22532ef310af82e62aaecca85af2d5f53df518b1c04"}, "tags": {"0.2.3--h47defd3_0": "sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29", "0.2.3--h77de753_2": "sha256:738f6f8e29272f6371bda95c32d6eaf647ccee4d232aebf8669c24b142573b1e", "0.2.3--h3e2e0a8_3": "sha256:166c6f6662c0ee885250b7b7545e6e50ef54a3c67bed05641a9001e14c961779", "0.2.3--h69ac913_4": "sha256:1d797bbce430f32160d6d22532ef310af82e62aaecca85af2d5f53df518b1c04"}, "docker": "quay.io/biocontainers/coverageanomalyscanner", "aliases": {"cas": "/usr/local/bin/cas"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coverageanomalyscanner.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/coverageanomalyscanner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coverageanomalyscanner:0.2.3--h3e2e0a8_3
+$ shpc install quay.io/biocontainers/coverageanomalyscanner:0.2.3--h69ac913_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coverageanomalyscanner/0.2.3--h3e2e0a8_3
-$ module help quay.io/biocontainers/coverageanomalyscanner/0.2.3--h3e2e0a8_3
+$ module load quay.io/biocontainers/coverageanomalyscanner/0.2.3--h69ac913_4
+$ module help quay.io/biocontainers/coverageanomalyscanner/0.2.3--h69ac913_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

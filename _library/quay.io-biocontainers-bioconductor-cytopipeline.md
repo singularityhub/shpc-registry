@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytopipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytopipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytopipeline/container.yaml"
-updated_at: "2025-01-03 03:21:48.321510"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-04 03:17:55.794548"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytopipeline"
 aliases:
  - "hb-info"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.0.2--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytopipeline"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytopipeline", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytopipeline", "latest": {"1.2.0--r43hdfd78af_0": "sha256:7ef60d790407ea98a21c27c4b6f35e7be8545b100e53c93ac59fc25ec0cccb36"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:370660c89123532c14a05e1a9d1487c99ed633b5db40065f45888732ee909e66", "1.2.0--r43hdfd78af_0": "sha256:7ef60d790407ea98a21c27c4b6f35e7be8545b100e53c93ac59fc25ec0cccb36"}, "docker": "quay.io/biocontainers/bioconductor-cytopipeline", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytopipeline", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytopipeline", "latest": {"1.6.0--r44hdfd78af_0": "sha256:2745e25bf4b4246e0a10e4ef6a29a6f8190df3206c5200e829a6ede60183dc0b"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:370660c89123532c14a05e1a9d1487c99ed633b5db40065f45888732ee909e66", "1.2.0--r43hdfd78af_0": "sha256:7ef60d790407ea98a21c27c4b6f35e7be8545b100e53c93ac59fc25ec0cccb36", "1.6.0--r44hdfd78af_0": "sha256:2745e25bf4b4246e0a10e4ef6a29a6f8190df3206c5200e829a6ede60183dc0b"}, "docker": "quay.io/biocontainers/bioconductor-cytopipeline", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytopipeline.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytopipeline
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytopipeline:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytopipeline:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytopipeline/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytopipeline/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytopipeline/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytopipeline/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

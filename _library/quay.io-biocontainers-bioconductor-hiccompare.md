@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hiccompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiccompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiccompare/container.yaml"
-updated_at: "2025-01-03 02:54:10.958228"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-01-04 02:50:41.178755"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiccompare"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.20.0--r42hdfd78af_0"
  - "1.22.1--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hiccompare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hiccompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hiccompare", "latest": {"1.24.0--r43hdfd78af_0": "sha256:9448311979e38e0629d5d2b1bdd54baeadcb7a3038e9e9d566e03f41e194cd3b"}, "tags": {"1.8.0--r36_0": "sha256:089fade6a1cd33a5c5c7e1d4ca66a95d91c7e777aa15ca14c2818b0bc51926ee", "1.16.0--r41hdfd78af_0": "sha256:24521c52588d7d49af326821df5931e22535e4710e95dceae9c9d621edfc4207", "1.14.0--r41hdfd78af_0": "sha256:3726e872f94cf5cb164ed2d3327bec00a6632afa308a65becf5cee8fc0d6836d", "1.12.0--r40hdfd78af_1": "sha256:6dfa720756eb163ddb8b6ad8d6667957edb2d8112ac51ff905298f1077f200ed", "1.10.0--r40_0": "sha256:92ca7dac8298b1beae8a601af081c6dc9ddd2c4f2b5e2c8caee8a3d3061605a4", "1.20.0--r42hdfd78af_0": "sha256:808ceb517a2ee89749262e486ac99b967a74a04beb2e1417dbeea3e676ef33f2", "1.22.1--r43hdfd78af_0": "sha256:9e5433801cbe433ec019bb98436cb0325054f2e773c21dd2de813a16c9862169", "1.24.0--r43hdfd78af_0": "sha256:9448311979e38e0629d5d2b1bdd54baeadcb7a3038e9e9d566e03f41e194cd3b"}, "docker": "quay.io/biocontainers/bioconductor-hiccompare", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hiccompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hiccompare", "latest": {"1.28.0--r44hdfd78af_0": "sha256:1ab1b08e2057a4e3483bce64f5d48ed0ed001bf2b89b5975173d9abf057586d9"}, "tags": {"1.8.0--r36_0": "sha256:089fade6a1cd33a5c5c7e1d4ca66a95d91c7e777aa15ca14c2818b0bc51926ee", "1.16.0--r41hdfd78af_0": "sha256:24521c52588d7d49af326821df5931e22535e4710e95dceae9c9d621edfc4207", "1.14.0--r41hdfd78af_0": "sha256:3726e872f94cf5cb164ed2d3327bec00a6632afa308a65becf5cee8fc0d6836d", "1.12.0--r40hdfd78af_1": "sha256:6dfa720756eb163ddb8b6ad8d6667957edb2d8112ac51ff905298f1077f200ed", "1.10.0--r40_0": "sha256:92ca7dac8298b1beae8a601af081c6dc9ddd2c4f2b5e2c8caee8a3d3061605a4", "1.20.0--r42hdfd78af_0": "sha256:808ceb517a2ee89749262e486ac99b967a74a04beb2e1417dbeea3e676ef33f2", "1.22.1--r43hdfd78af_0": "sha256:9e5433801cbe433ec019bb98436cb0325054f2e773c21dd2de813a16c9862169", "1.24.0--r43hdfd78af_0": "sha256:9448311979e38e0629d5d2b1bdd54baeadcb7a3038e9e9d566e03f41e194cd3b", "1.28.0--r44hdfd78af_0": "sha256:1ab1b08e2057a4e3483bce64f5d48ed0ed001bf2b89b5975173d9abf057586d9"}, "docker": "quay.io/biocontainers/bioconductor-hiccompare", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hiccompare.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hiccompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hiccompare:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hiccompare:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hiccompare/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hiccompare/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hiccompare/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hiccompare/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

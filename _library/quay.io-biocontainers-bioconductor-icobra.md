@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-icobra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icobra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icobra/container.yaml"
-updated_at: "2025-01-03 03:35:47.440982"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-04 03:31:53.017575"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icobra"
 aliases:
  - "ncurses5-config"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-icobra"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-icobra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icobra", "latest": {"1.30.0--r43hdfd78af_0": "sha256:f1ffe8a0bb25ebbd66188406133bd896b34d78f979c85ab17b568c49bc20170e"}, "tags": {"1.8.0--r341_0": "sha256:982a8f7a2f3aabf4a32862df5a545421986ccb62e4f555e7b1097a15401a9a20", "1.26.0--r42hdfd78af_0": "sha256:ebde2c15749d16a803e0aa66cd8c9821b0369510b9f8d9bd9c225d756743b13d", "1.22.0--r41hdfd78af_0": "sha256:0c008861bd04f6daf9cf5e4ce03105d8e3b24c29dec596748553ac9ed62cf204", "1.20.0--r41hdfd78af_0": "sha256:a76f364083e4bbf04e1d9d3d2567a5d63f93552f363690cfbb257f74899e4793", "1.18.0--r40hdfd78af_1": "sha256:ade3b44aa72fbd72ba78ae2626a0956d43e69691ab55c07af80549c9dbf90746", "1.16.0--r40_0": "sha256:3d224aaf52812b0f1cfa56c119f395479f4242d1e2ab39baa76759e75057285e", "1.28.0--r43hdfd78af_0": "sha256:6f79d8d3e4bef2c8836adc982ade82cd3c0b52de1405e0b1030fdf079bff26db", "1.30.0--r43hdfd78af_0": "sha256:f1ffe8a0bb25ebbd66188406133bd896b34d78f979c85ab17b568c49bc20170e"}, "docker": "quay.io/biocontainers/bioconductor-icobra", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-icobra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icobra", "latest": {"1.34.0--r44hdfd78af_0": "sha256:3487465d7597d9ff99a1a0ee15bea14d141faf07c88d314305cf723a33f3d790"}, "tags": {"1.8.0--r341_0": "sha256:982a8f7a2f3aabf4a32862df5a545421986ccb62e4f555e7b1097a15401a9a20", "1.26.0--r42hdfd78af_0": "sha256:ebde2c15749d16a803e0aa66cd8c9821b0369510b9f8d9bd9c225d756743b13d", "1.22.0--r41hdfd78af_0": "sha256:0c008861bd04f6daf9cf5e4ce03105d8e3b24c29dec596748553ac9ed62cf204", "1.20.0--r41hdfd78af_0": "sha256:a76f364083e4bbf04e1d9d3d2567a5d63f93552f363690cfbb257f74899e4793", "1.18.0--r40hdfd78af_1": "sha256:ade3b44aa72fbd72ba78ae2626a0956d43e69691ab55c07af80549c9dbf90746", "1.16.0--r40_0": "sha256:3d224aaf52812b0f1cfa56c119f395479f4242d1e2ab39baa76759e75057285e", "1.28.0--r43hdfd78af_0": "sha256:6f79d8d3e4bef2c8836adc982ade82cd3c0b52de1405e0b1030fdf079bff26db", "1.30.0--r43hdfd78af_0": "sha256:f1ffe8a0bb25ebbd66188406133bd896b34d78f979c85ab17b568c49bc20170e", "1.34.0--r44hdfd78af_0": "sha256:3487465d7597d9ff99a1a0ee15bea14d141faf07c88d314305cf723a33f3d790"}, "docker": "quay.io/biocontainers/bioconductor-icobra", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-icobra.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-icobra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-icobra:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-icobra:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-icobra/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-icobra/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-icobra/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-icobra/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

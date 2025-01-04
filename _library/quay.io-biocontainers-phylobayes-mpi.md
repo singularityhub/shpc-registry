@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylobayes-mpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylobayes-mpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylobayes-mpi/container.yaml"
-updated_at: "2025-01-03 03:02:49.877059"
-latest: "1.9--h103dbdd_2"
+updated_at: "2025-01-04 02:59:15.161884"
+latest: "1.9--hf316886_3"
 container_url: "https://biocontainers.pro/tools/phylobayes-mpi"
 aliases:
  - "bpcomp"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.9--h5c6ebe3_0"
  - "1.9--h103dbdd_2"
+ - "1.9--hf316886_3"
 description: "shpc-registry automated BioContainers addition for phylobayes-mpi"
-config: {"url": "https://biocontainers.pro/tools/phylobayes-mpi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylobayes-mpi", "latest": {"1.9--h103dbdd_2": "sha256:d3b7cba604d7816ed2efef76a99a01ec2a220cda6ade2dc025040a5d35492495"}, "tags": {"1.9--h5c6ebe3_0": "sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5", "1.9--h103dbdd_2": "sha256:d3b7cba604d7816ed2efef76a99a01ec2a220cda6ade2dc025040a5d35492495"}, "docker": "quay.io/biocontainers/phylobayes-mpi", "aliases": {"bpcomp": "/usr/local/bin/bpcomp", "cvrep": "/usr/local/bin/cvrep", "io_demo": "/usr/local/bin/io_demo", "pb_mpi": "/usr/local/bin/pb_mpi", "readpb_mpi": "/usr/local/bin/readpb_mpi", "tracecomp": "/usr/local/bin/tracecomp", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/phylobayes-mpi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylobayes-mpi", "latest": {"1.9--hf316886_3": "sha256:44379c21734e14f9fa3941817a778fcc3ef50018daf247fda4afea5167ac0f88"}, "tags": {"1.9--h5c6ebe3_0": "sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5", "1.9--h103dbdd_2": "sha256:d3b7cba604d7816ed2efef76a99a01ec2a220cda6ade2dc025040a5d35492495", "1.9--hf316886_3": "sha256:44379c21734e14f9fa3941817a778fcc3ef50018daf247fda4afea5167ac0f88"}, "docker": "quay.io/biocontainers/phylobayes-mpi", "aliases": {"bpcomp": "/usr/local/bin/bpcomp", "cvrep": "/usr/local/bin/cvrep", "io_demo": "/usr/local/bin/io_demo", "pb_mpi": "/usr/local/bin/pb_mpi", "readpb_mpi": "/usr/local/bin/readpb_mpi", "tracecomp": "/usr/local/bin/tracecomp", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylobayes-mpi.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/phylobayes-mpi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylobayes-mpi:1.9--h103dbdd_2
+$ shpc install quay.io/biocontainers/phylobayes-mpi:1.9--hf316886_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylobayes-mpi/1.9--h103dbdd_2
-$ module help quay.io/biocontainers/phylobayes-mpi/1.9--h103dbdd_2
+$ module load quay.io/biocontainers/phylobayes-mpi/1.9--hf316886_3
+$ module help quay.io/biocontainers/phylobayes-mpi/1.9--hf316886_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

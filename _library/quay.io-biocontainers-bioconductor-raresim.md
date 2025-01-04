@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raresim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raresim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raresim/container.yaml"
-updated_at: "2025-01-03 03:20:48.900651"
+updated_at: "2025-01-04 03:16:56.574832"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raresim"
 aliases:

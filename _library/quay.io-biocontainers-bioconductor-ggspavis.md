@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggspavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggspavis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggspavis/container.yaml"
-updated_at: "2025-01-03 03:28:42.092423"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-01-04 03:24:49.519571"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggspavis"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -23,8 +23,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggspavis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggspavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggspavis", "latest": {"1.8.0--r43hdfd78af_0": "sha256:287c9f374e6a3f0c1a4f5d80702d193dfbaa84c02916775c6bdaaeea320980d6"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02", "1.4.0--r42hdfd78af_0": "sha256:01b7aec1a9955992be9cf5c634c444d5b8c23d19d9858030d23e5aaf5bd49a8e", "1.6.0--r43hdfd78af_0": "sha256:c3832441de0813a315fcc60608429551caf58c2daa202d19bf98233fa9a5d032", "1.8.0--r43hdfd78af_0": "sha256:287c9f374e6a3f0c1a4f5d80702d193dfbaa84c02916775c6bdaaeea320980d6"}, "docker": "quay.io/biocontainers/bioconductor-ggspavis", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggspavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggspavis", "latest": {"1.12.0--r44hdfd78af_0": "sha256:ecec5cf1d7aa88bccb68c6644ef41aa3b7cbeeb98112fee56a4e952c30ccd326"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02", "1.4.0--r42hdfd78af_0": "sha256:01b7aec1a9955992be9cf5c634c444d5b8c23d19d9858030d23e5aaf5bd49a8e", "1.6.0--r43hdfd78af_0": "sha256:c3832441de0813a315fcc60608429551caf58c2daa202d19bf98233fa9a5d032", "1.8.0--r43hdfd78af_0": "sha256:287c9f374e6a3f0c1a4f5d80702d193dfbaa84c02916775c6bdaaeea320980d6", "1.12.0--r44hdfd78af_0": "sha256:ecec5cf1d7aa88bccb68c6644ef41aa3b7cbeeb98112fee56a4e952c30ccd326"}, "docker": "quay.io/biocontainers/bioconductor-ggspavis", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggspavis.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggspavis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggspavis:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggspavis:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggspavis/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggspavis/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggspavis/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggspavis/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

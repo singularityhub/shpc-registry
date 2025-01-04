@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scallop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scallop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scallop/container.yaml"
-updated_at: "2025-01-03 03:32:54.346004"
-latest: "0.10.5--hdbdd923_7"
+updated_at: "2025-01-04 03:28:59.787694"
+latest: "0.10.5--h503566f_8"
 container_url: "https://biocontainers.pro/tools/scallop"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.10.5--h66ab1b6_5"
  - "0.10.5--h5642b88_6"
  - "0.10.5--hdbdd923_7"
+ - "0.10.5--h503566f_8"
 description: "shpc-registry automated BioContainers addition for scallop"
-config: {"url": "https://biocontainers.pro/tools/scallop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scallop", "latest": {"0.10.5--hdbdd923_7": "sha256:7a11697b5519131c477f44d2a797cb1880cb3b23ef26e0a91cc9f21dc31f4949"}, "tags": {"0.10.5--hefd527f_4": "sha256:ef2017f4248b84f089ebaa0e7d1fd276d02780494648a75dcfa4ed6c72cf8ed0", "0.10.5--h66ab1b6_5": "sha256:4aa17bddb92fbec06154e75e7a027d6e559637b1736a1528d718308adce17dc9", "0.10.5--h5642b88_6": "sha256:bae2baf00cec926f2cdb2c7cccba7245cd4273557bd111a0722aff3de8a2fcfe", "0.10.5--hdbdd923_7": "sha256:7a11697b5519131c477f44d2a797cb1880cb3b23ef26e0a91cc9f21dc31f4949"}, "docker": "quay.io/biocontainers/scallop"}
+config: {"url": "https://biocontainers.pro/tools/scallop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scallop", "latest": {"0.10.5--h503566f_8": "sha256:7356eff68006b815d06a2980854ae582f6d0bf2d50b96b922007b75e38b95bcc"}, "tags": {"0.10.5--hefd527f_4": "sha256:ef2017f4248b84f089ebaa0e7d1fd276d02780494648a75dcfa4ed6c72cf8ed0", "0.10.5--h66ab1b6_5": "sha256:4aa17bddb92fbec06154e75e7a027d6e559637b1736a1528d718308adce17dc9", "0.10.5--h5642b88_6": "sha256:bae2baf00cec926f2cdb2c7cccba7245cd4273557bd111a0722aff3de8a2fcfe", "0.10.5--hdbdd923_7": "sha256:7a11697b5519131c477f44d2a797cb1880cb3b23ef26e0a91cc9f21dc31f4949", "0.10.5--h503566f_8": "sha256:7356eff68006b815d06a2980854ae582f6d0bf2d50b96b922007b75e38b95bcc"}, "docker": "quay.io/biocontainers/scallop"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scallop.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/scallop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scallop:0.10.5--hdbdd923_7
+$ shpc install quay.io/biocontainers/scallop:0.10.5--h503566f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scallop/0.10.5--hdbdd923_7
-$ module help quay.io/biocontainers/scallop/0.10.5--hdbdd923_7
+$ module load quay.io/biocontainers/scallop/0.10.5--h503566f_8
+$ module help quay.io/biocontainers/scallop/0.10.5--h503566f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

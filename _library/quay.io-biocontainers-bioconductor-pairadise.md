@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pairadise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pairadise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pairadise/container.yaml"
-updated_at: "2025-01-03 03:28:09.343170"
+updated_at: "2025-01-04 03:24:16.703319"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pairadise"
 aliases:

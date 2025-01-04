@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grabix/container.yaml"
-updated_at: "2025-01-03 03:33:12.023332"
-latest: "0.1.8--hdcf5f25_10"
+updated_at: "2025-01-04 03:29:17.580754"
+latest: "0.1.8--h077b44d_11"
 container_url: "https://biocontainers.pro/tools/grabix"
 aliases:
  - "grabix"
@@ -13,8 +13,9 @@ versions:
  - "0.1.8--hd03093a_7"
  - "0.1.8--hdcf5f25_9"
  - "0.1.8--hdcf5f25_10"
+ - "0.1.8--h077b44d_11"
 description: "shpc-registry automated BioContainers addition for grabix"
-config: {"url": "https://biocontainers.pro/tools/grabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grabix", "latest": {"0.1.8--hdcf5f25_10": "sha256:43f92f89d0d33519f480eb49252139424552daac2ce4d95e3b0c6635880c09aa"}, "tags": {"0.1.8--hd03093a_7": "sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8", "0.1.8--hdcf5f25_9": "sha256:10cc7c0b5b9b86cf39558b4ddd76c273966f41faa7500a293ea9fe383613ff3f", "0.1.8--hdcf5f25_10": "sha256:43f92f89d0d33519f480eb49252139424552daac2ce4d95e3b0c6635880c09aa"}, "docker": "quay.io/biocontainers/grabix", "aliases": {"grabix": "/usr/local/bin/grabix"}}
+config: {"url": "https://biocontainers.pro/tools/grabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grabix", "latest": {"0.1.8--h077b44d_11": "sha256:8b3ef76e6d893ef83009458593246c222fce795fea281a30f95a7a88f169729a"}, "tags": {"0.1.8--hd03093a_7": "sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8", "0.1.8--hdcf5f25_9": "sha256:10cc7c0b5b9b86cf39558b4ddd76c273966f41faa7500a293ea9fe383613ff3f", "0.1.8--hdcf5f25_10": "sha256:43f92f89d0d33519f480eb49252139424552daac2ce4d95e3b0c6635880c09aa", "0.1.8--h077b44d_11": "sha256:8b3ef76e6d893ef83009458593246c222fce795fea281a30f95a7a88f169729a"}, "docker": "quay.io/biocontainers/grabix", "aliases": {"grabix": "/usr/local/bin/grabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grabix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/grabix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grabix:0.1.8--hdcf5f25_10
+$ shpc install quay.io/biocontainers/grabix:0.1.8--h077b44d_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grabix/0.1.8--hdcf5f25_10
-$ module help quay.io/biocontainers/grabix/0.1.8--hdcf5f25_10
+$ module load quay.io/biocontainers/grabix/0.1.8--h077b44d_11
+$ module help quay.io/biocontainers/grabix/0.1.8--h077b44d_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sankoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sankoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sankoff/container.yaml"
-updated_at: "2025-01-03 03:32:10.252742"
-latest: "0.2--h4ac6f70_4"
+updated_at: "2025-01-04 03:28:15.904582"
+latest: "0.2--h9948957_5"
 container_url: "https://biocontainers.pro/tools/sankoff"
 aliases:
  - "sankoff"
@@ -20,8 +20,9 @@ versions:
  - "0.2--ha038e3a_1"
  - "0.2--h2374e42_3"
  - "0.2--h4ac6f70_4"
+ - "0.2--h9948957_5"
 description: "singularity registry hpc automated addition for sankoff"
-config: {"url": "https://biocontainers.pro/tools/sankoff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sankoff", "latest": {"0.2--h4ac6f70_4": "sha256:9753d62f1c8de2268c7f24f23c24a906400df52b5a8f7548f55dba27da404f1f"}, "tags": {"0.2--ha038e3a_1": "sha256:755a2ff99e9d2409f94773a1db27f32748a5a19cddad86d72283ca6c41f3c150", "0.2--h2374e42_3": "sha256:c4614b0d8c4ec4936f4bcd7478261b01224a8d7510e1389a229637c2f76f6290", "0.2--h4ac6f70_4": "sha256:9753d62f1c8de2268c7f24f23c24a906400df52b5a8f7548f55dba27da404f1f"}, "docker": "quay.io/biocontainers/sankoff", "aliases": {"sankoff": "/usr/local/bin/sankoff", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/sankoff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sankoff", "latest": {"0.2--h9948957_5": "sha256:c665ea34dd0ad037c9efb057d0ea222bf574fc2f1e440ec2225b3cc08f8d893e"}, "tags": {"0.2--ha038e3a_1": "sha256:755a2ff99e9d2409f94773a1db27f32748a5a19cddad86d72283ca6c41f3c150", "0.2--h2374e42_3": "sha256:c4614b0d8c4ec4936f4bcd7478261b01224a8d7510e1389a229637c2f76f6290", "0.2--h4ac6f70_4": "sha256:9753d62f1c8de2268c7f24f23c24a906400df52b5a8f7548f55dba27da404f1f", "0.2--h9948957_5": "sha256:c665ea34dd0ad037c9efb057d0ea222bf574fc2f1e440ec2225b3cc08f8d893e"}, "docker": "quay.io/biocontainers/sankoff", "aliases": {"sankoff": "/usr/local/bin/sankoff", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sankoff.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/sankoff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sankoff:0.2--h4ac6f70_4
+$ shpc install quay.io/biocontainers/sankoff:0.2--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sankoff/0.2--h4ac6f70_4
-$ module help quay.io/biocontainers/sankoff/0.2--h4ac6f70_4
+$ module load quay.io/biocontainers/sankoff/0.2--h9948957_5
+$ module help quay.io/biocontainers/sankoff/0.2--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
