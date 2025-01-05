@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-iwtomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iwtomics
 latest:
-  1.26.0--r43hdfd78af_0: sha256:a14490e8f995507ab0b56b5a9683748e3a994a4d04766baa353819df1f44c7ef
+  1.30.0--r44hdfd78af_0: sha256:731d2327fc19c57f596f01452294941036994677ec0e514e7a5a4b3ddd4e6ef8
 tags:
   1.8.0--r36_1: sha256:e8739ebee5da551ef6a1698439cc50de0e47da6682a6649eac1e3a83b0766982
   1.22.0--r42hdfd78af_0: sha256:eaf8ba43533a605c87338dc1e5290d1061ccd1640e9dd4a9b0d74e7aae3e3fb7
@@ -12,6 +12,7 @@ tags:
   1.12.0--r40_0: sha256:cecd3ffd6e030286c249aa7d214ed22055f62755b48ecb0d52a3f1af45fad4ac
   1.24.0--r43hdfd78af_0: sha256:ab035f2fb594113e4306be5b6f3f60128ee0f74afbfb3560017cd05a0132d162
   1.26.0--r43hdfd78af_0: sha256:a14490e8f995507ab0b56b5a9683748e3a994a4d04766baa353819df1f44c7ef
+  1.30.0--r44hdfd78af_0: sha256:731d2327fc19c57f596f01452294941036994677ec0e514e7a5a4b3ddd4e6ef8
 docker: quay.io/biocontainers/bioconductor-iwtomics
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tvtb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tvtb
 latest:
-  1.28.0--r43hdfd78af_0: sha256:4e889738e258e9add6f8c60ab88b0d0974ded3c8192dcd28a0b5449146529942
+  1.32.0--r44hdfd78af_0: sha256:a798ce4e2417fc03e769bd932b6b7a236132ee1ba6343f54eb316156eb744a8a
 tags:
   1.8.0--r351_0: sha256:c0507355e757eab43952b882a1815a4efe00c21c92abe3fbd9f232b674d6fda6
   1.20.0--r41hdfd78af_0: sha256:aa4cc522e5b486bfbfee7780982ee857dade5dd437dba18486aa13e3e77091fa
@@ -12,6 +12,7 @@ tags:
   1.12.0--r36_0: sha256:5a8c0478aa1dba628c843ed25688c1cfba49c0e77d580a53130d33690cdcae78
   1.26.0--r43hdfd78af_0: sha256:3832472c58cf2fb646e285bd00a9c7c7ef6d791773b1bf016d4176e92c0e98b3
   1.28.0--r43hdfd78af_0: sha256:4e889738e258e9add6f8c60ab88b0d0974ded3c8192dcd28a0b5449146529942
+  1.32.0--r44hdfd78af_0: sha256:a798ce4e2417fc03e769bd932b6b7a236132ee1ba6343f54eb316156eb744a8a
 docker: quay.io/biocontainers/bioconductor-tvtb
 aliases:
   wget: /usr/local/bin/wget

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowsom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowsom
 latest:
-  2.10.0--r43ha9d7317_1: sha256:093827445f31f4045cfd9a841db94f9eba858996b74ce4204be9e62ba9e8e5ba
+  2.14.0--r44h3df3fcb_0: sha256:dab9caecab81fb8c3b8de1bb002395869377d65822c939be5a6d685b19d6f7b4
 tags:
   2.2.0--r41hc0cfd56_2: sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf
   2.6.0--r42hc0cfd56_0: sha256:2114c1682db0062977fcdb036d3d63ef2f8098d6f4a8aaa45daa202353fd0a67
@@ -10,6 +10,7 @@ tags:
   2.8.0--r43ha9d7317_0: sha256:b0af342211354944a3c2c25646c42902fc419590f57f11aa78be9276e7990b79
   2.10.0--r43ha9d7317_0: sha256:a8f4696bc7f522229bde4953959211bd5b79876691236e0d2251292df2c2bd6b
   2.10.0--r43ha9d7317_1: sha256:093827445f31f4045cfd9a841db94f9eba858996b74ce4204be9e62ba9e8e5ba
+  2.14.0--r44h3df3fcb_0: sha256:dab9caecab81fb8c3b8de1bb002395869377d65822c939be5a6d685b19d6f7b4
 docker: quay.io/biocontainers/bioconductor-flowsom
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-doppelgangr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-doppelgangr
 latest:
-  1.30.0--r43hdfd78af_0: sha256:010ecfd5777669cc2dc9772fad101707430124b6e3178f62be65c604432799f4
+  1.34.0--r44hdfd78af_0: sha256:b001bf36435e3dab75efcc8717a6767aab0da6f9999f859d1e1dcf3d997af2d4
 tags:
   1.8.0--r351_0: sha256:51cc10342ce8ae10a40656f002271735b9a4baceeb9577e17d5dba7b032354a6
   1.22.0--r41hdfd78af_0: sha256:ab32058968a5a07293c1ca522591f2e60bd5c2458f3ed32b62a73a277434e117
@@ -13,4 +13,5 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:4ba2a2d37377bc91e0364507cb654c6eb394f6785d639db9106ad6cecc054965
   1.28.1--r43hdfd78af_0: sha256:9e8ecf7b532ca0d88466c005bd24f1d42300ed28a8ad5fdc0da49934785c1532
   1.30.0--r43hdfd78af_0: sha256:010ecfd5777669cc2dc9772fad101707430124b6e3178f62be65c604432799f4
+  1.34.0--r44hdfd78af_0: sha256:b001bf36435e3dab75efcc8717a6767aab0da6f9999f859d1e1dcf3d997af2d4
 docker: quay.io/biocontainers/bioconductor-doppelgangr

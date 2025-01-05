@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-org.xl.eg.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-org.xl.eg.db
 latest:
-  3.18.0--r43hdfd78af_0: sha256:c8b3a558861cf69d10a26b9bfea4f73e8dde52600b0e98a2436c6650462109f5
+  3.20.0--r44hdfd78af_0: sha256:a54f919e45cc273544d870805b277e027aad83d521f990196113b76e38e67599
 tags:
   3.8.2--r36_1: sha256:ae3b4c665ba9f5a9a82827065162ba353fb32542c347eb6a0408f7f2d4d6950b
   3.14.0--r41hdfd78af_1: sha256:c9ccb2f7fbd53614aeabf991085702fa4de277344e7467fca8ee0970a5fb7664
@@ -13,6 +13,7 @@ tags:
   3.16.0--r42hdfd78af_0: sha256:b16f17988ba37a2daae17e4a8d2d1595561eb6e7511927e6f7dba271a02bb627
   3.17.0--r43hdfd78af_0: sha256:b39f2a0f517740c2ac8883ec73870a2f911884ab06ceab766b79a35fee5330d8
   3.18.0--r43hdfd78af_0: sha256:c8b3a558861cf69d10a26b9bfea4f73e8dde52600b0e98a2436c6650462109f5
+  3.20.0--r44hdfd78af_0: sha256:a54f919e45cc273544d870805b277e027aad83d521f990196113b76e38e67599
 docker: quay.io/biocontainers/bioconductor-org.xl.eg.db
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

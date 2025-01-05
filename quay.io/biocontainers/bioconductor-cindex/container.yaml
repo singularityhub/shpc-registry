@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cindex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cindex
 latest:
-  1.30.0--r43hdfd78af_0: sha256:b89cf91a53666224850d3dad7bb704642e9a08eeaff84e0e62fdd33925729886
+  1.34.0--r44hdfd78af_0: sha256:7514b0aa93aa1d973132598677486e6ed5d5620cd35f732bbc9422b2506b65b8
 tags:
   1.8.0--r351_0: sha256:fdef36a6aed3dc036241e3d7372c1380e28a4bdce159a09da9fde0daef750542
   1.26.0--r42hdfd78af_0: sha256:243da5ab680bcf3624bc3ae9b14bf7a0522971b6af9398a0ffb09373dbf90ef7
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:1d1c9fd3eac12aa43451b93c812a01ce3aadcad48125559c3223620eb4802fa5
   1.28.0--r43hdfd78af_0: sha256:33ed4c507b1d1d277646d18ca6c697b4046156d4e76600c5e71b245c7ad74a0d
   1.30.0--r43hdfd78af_0: sha256:b89cf91a53666224850d3dad7bb704642e9a08eeaff84e0e62fdd33925729886
+  1.34.0--r44hdfd78af_0: sha256:7514b0aa93aa1d973132598677486e6ed5d5620cd35f732bbc9422b2506b65b8
 docker: quay.io/biocontainers/bioconductor-cindex
 aliases:
   wget: /usr/local/bin/wget

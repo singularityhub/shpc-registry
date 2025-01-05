@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/libdivsufsort
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libdivsufsort
 latest:
-  2.0.2--h031d066_9: sha256:8f2e658841b7539b227f12895e2ee0308cf4823e1a419c19a12fe65e9dd59f8d
+  2.0.2--h7b50bb2_10: sha256:1d5eeef9e3599c715ac1d257f66b612b4eed969ec9962b2c57e50ff9e8c14322
 tags:
   2.0.2--hec16e2b_6: sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c
   2.0.2--h031d066_8: sha256:da5ac54d0795bc69c0fd45c233d65e8cb09cd4454b49eca0d7278bfac2cd41e4
   2.0.2--h031d066_9: sha256:8f2e658841b7539b227f12895e2ee0308cf4823e1a419c19a12fe65e9dd59f8d
+  2.0.2--h7b50bb2_10: sha256:1d5eeef9e3599c715ac1d257f66b612b4eed969ec9962b2c57e50ff9e8c14322
 docker: quay.io/biocontainers/libdivsufsort

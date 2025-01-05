@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/splitubam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for splitubam
 latest:
-  0.1.1--hc9368f3_0: sha256:c29614a57ef61f6ad75eb767da6c964a603d0eb60fa2439a5c13769af4e3a85c
+  0.1.1--ha96b9cd_1: sha256:e53835bffec03116f29040c2600030544e3a283ade5a616d880033d7d5cec52a
 tags:
   0.1.1--hc9368f3_0: sha256:c29614a57ef61f6ad75eb767da6c964a603d0eb60fa2439a5c13769af4e3a85c
+  0.1.1--ha96b9cd_1: sha256:e53835bffec03116f29040c2600030544e3a283ade5a616d880033d7d5cec52a
 docker: quay.io/biocontainers/splitubam
 aliases:
   splitubam: /usr/local/bin/splitubam

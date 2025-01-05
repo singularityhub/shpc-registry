@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-targetscoredata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-targetscoredata
 latest:
-  1.38.0--r43hdfd78af_0: sha256:8d44c86f5b135c42f679753df0a57b739a86a1e5e2ae96ec0086cd3c2e7831a2
+  1.42.0--r44hdfd78af_0: sha256:370d8bd7f0a01d5a8d8af1095c68825e9a7408cc53205cad237bb2ef831a39e7
 tags:
   1.30.0--r41hdfd78af_1: sha256:dcfe966c4297bd28b15cebe9de992c1933f81c8c71c3f0ab81e14c6b00c13c19
   1.33.0--r42hdfd78af_0: sha256:184d7af596d450803ed4f44794793f5580c531ff8fd609248383aae877255cf1
   1.36.0--r43hdfd78af_0: sha256:53ce6c5f824c4e873b6b75ba307f993c98d52ea5cfc0155170f8a00737331acc
   1.38.0--r43hdfd78af_0: sha256:8d44c86f5b135c42f679753df0a57b739a86a1e5e2ae96ec0086cd3c2e7831a2
+  1.42.0--r44hdfd78af_0: sha256:370d8bd7f0a01d5a8d8af1095c68825e9a7408cc53205cad237bb2ef831a39e7
 docker: quay.io/biocontainers/bioconductor-targetscoredata

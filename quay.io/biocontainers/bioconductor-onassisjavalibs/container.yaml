@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-onassisjavalibs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-onassisjavalibs
 latest:
-  1.24.0--r43hdfd78af_0: sha256:e0c3d7637a33e67b8868875984454f65668ae0df8a84192619f42cc4aa106b1a
+  1.28.0--r44hdfd78af_0: sha256:d2d216922acc4ed15daf35b0abd825feafc81a4d51184a11c0d8a7bd919dac02
 tags:
   1.8.0--r36_0: sha256:d4789850829fc6cc06e338612d8d651728e516e9218f23dbb5fb8e65a6648bd3
   1.19.0--r42hdfd78af_0: sha256:1705043be1ffa3cc890abd4958a4be011d9ed520ad51f6199fdb661046683821
@@ -12,6 +12,7 @@ tags:
   1.11.0--r40_0: sha256:ac356f96cdf10f60123b4dd397d95ab7dc68250f7fb7a17f3db5be11cebdb91d
   1.22.0--r43hdfd78af_0: sha256:628413fe45ebead4caaf7ffe842e0ceb7e1732337af88492dc7794304699d4c3
   1.24.0--r43hdfd78af_0: sha256:e0c3d7637a33e67b8868875984454f65668ae0df8a84192619f42cc4aa106b1a
+  1.28.0--r44hdfd78af_0: sha256:d2d216922acc4ed15daf35b0abd825feafc81a4d51184a11c0d8a7bd919dac02
 docker: quay.io/biocontainers/bioconductor-onassisjavalibs
 aliases:
   extcheck: /usr/local/bin/extcheck

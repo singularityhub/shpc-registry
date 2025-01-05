@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/flexiplex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexiplex
 latest:
-  1.01--py39h9e0f934_1: sha256:ca2feb82585070075ead7c11c5b3698317f419c760f90d3050e7b01e5d581729
+  1.01--py39h2de1943_2: sha256:7b5f59abd9cfdfa2478ec816fc9df3eba1e81dba44326e224d577aa0e88f0052
 tags:
   0.97.1--py39h1f90b4d_0: sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3
   0.97.1--py39h1f90b4d_1: sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19
@@ -11,6 +11,7 @@ tags:
   0.97.1--py310h0dbaff4_1: sha256:1cd20a7dd3c42b314fc6edbe3642ca5d8a2023ecef74186f8a05d6c2bb92a29b
   1.01--py39h9e0f934_1: sha256:ca2feb82585070075ead7c11c5b3698317f419c760f90d3050e7b01e5d581729
   1.01--py310h84f13bb_1: sha256:b4d046b2b3d4b4a5a1a8dc0bcc533411ee2bd41f52fda791c2e2906c769402e4
+  1.01--py39h2de1943_2: sha256:7b5f59abd9cfdfa2478ec816fc9df3eba1e81dba44326e224d577aa0e88f0052
 docker: quay.io/biocontainers/flexiplex
 aliases:
   flexiplex: /usr/local/bin/flexiplex

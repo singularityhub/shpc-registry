@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-hgvsparser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-hgvsparser
 latest:
-  0.1.0--r43hdfd78af_0: sha256:7a661cccf3035b5718700061e6768f4c31fee7ba50ff9b30a23400f22e353259
+  0.1.0--r44hdfd78af_1: sha256:c85afcca958633e3836386f313c9b589034db47cfff7d56cadfca64c92b4f2b9
 tags:
   0.1.0--r43hdfd78af_0: sha256:7a661cccf3035b5718700061e6768f4c31fee7ba50ff9b30a23400f22e353259
+  0.1.0--r44hdfd78af_1: sha256:c85afcca958633e3836386f313c9b589034db47cfff7d56cadfca64c92b4f2b9
 docker: quay.io/biocontainers/r-hgvsparser
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

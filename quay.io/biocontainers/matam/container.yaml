@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/matam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for matam
 latest:
-  1.6.1--hdcf5f25_1: sha256:3218b2b4e487fca8850240c12b98c66b0ca775e393e527b3afce0429a538e711
+  1.6.1--h077b44d_2: sha256:54eb60c8543641400e9447d2ec76c85653b03234310b03ab8c75daf952c3f422
 tags:
   1.6.0--hd03093a_3: sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367
   1.6.1--hd03093a_0: sha256:d8369f9a38449aa4a51ccd1770bb537144622b350bd3b310af06fe70ac3e0b80
   1.6.1--hdcf5f25_1: sha256:3218b2b4e487fca8850240c12b98c66b0ca775e393e527b3afce0429a538e711
+  1.6.1--h077b44d_2: sha256:54eb60c8543641400e9447d2ec76c85653b03234310b03ab8c75daf952c3f422
 docker: quay.io/biocontainers/matam
 aliases:
   AbundanceStats: /usr/local/bin/AbundanceStats

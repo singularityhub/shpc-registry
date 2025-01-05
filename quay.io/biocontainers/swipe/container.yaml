@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/swipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for swipe
 latest:
-  2.1.1--h5500c7b_4: sha256:12fe01d834bdd9a98e0842ccd1f8fb0fd86d3c0d7adc5fc771c00e7efae6d221
+  2.1.1--hf1d56f0_5: sha256:5967b5fe9c0b7ed622a2b4c445ddd8b384db671ebcb300ec37557b4ac13f9a7c
 tags:
   2.1.1--h37be31f_2: sha256:def432bc3e7b550a33ac11b6140886bbda71937ce5e3f5b9c095e666f3aea3fd
   2.1.1--h5500c7b_4: sha256:12fe01d834bdd9a98e0842ccd1f8fb0fd86d3c0d7adc5fc771c00e7efae6d221
+  2.1.1--hf1d56f0_5: sha256:5967b5fe9c0b7ed622a2b4c445ddd8b384db671ebcb300ec37557b4ac13f9a7c
 docker: quay.io/biocontainers/swipe
 aliases:
   mpiswipe: /usr/local/bin/mpiswipe

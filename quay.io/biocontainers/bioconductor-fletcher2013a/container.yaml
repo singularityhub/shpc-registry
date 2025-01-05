@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-fletcher2013a
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fletcher2013a
 latest:
-  1.38.0--r43hdfd78af_0: sha256:ecf9f04cb9587eba72fea14d3db4900982f610da17897e8f2ff43565c08c4c0e
+  1.42.0--r44hdfd78af_0: sha256:eec6c752cecd4d7933c7e35bb438f034a5cb69630382546286dffbba1c0cc606
 tags:
   1.30.0--r41hdfd78af_1: sha256:58a2048effd700ce9c05c8b65465d88317ee43591dd434c345174048874e2805
   1.34.0--r42hdfd78af_0: sha256:3fe7851b4326f3d599c70f7eda8e1ecee89dd474e006ea5ddba1f8f7a0b9c9f9
   1.36.0--r43hdfd78af_0: sha256:69f26d9c0fe38b07c336867848c066ee99badbe1d45a928457f17b4b021132f0
   1.38.0--r43hdfd78af_0: sha256:ecf9f04cb9587eba72fea14d3db4900982f610da17897e8f2ff43565c08c4c0e
+  1.42.0--r44hdfd78af_0: sha256:eec6c752cecd4d7933c7e35bb438f034a5cb69630382546286dffbba1c0cc606
 docker: quay.io/biocontainers/bioconductor-fletcher2013a

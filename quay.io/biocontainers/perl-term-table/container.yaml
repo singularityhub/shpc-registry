@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/perl-term-table
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-term-table
 latest:
-  0.023--pl5321hdfd78af_0: sha256:a85210a8454604ec0e6cde798b4fd63406e87a13de2d2abf8a1fa430819eebff
+  0.024--pl5321hdfd78af_0: sha256:5b4af0bf8e34dc978156c3a7534c4da256b4a0722d9b07b3c127835ccd01f848
 tags:
   0.016--pl5321hdfd78af_0: sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953
   0.022--pl5321hdfd78af_0: sha256:7717080bc84ffb5f5c73dd86270bd5b782d30d9e3e19d3a00b83a0ca93814013
   0.023--pl5321hdfd78af_0: sha256:a85210a8454604ec0e6cde798b4fd63406e87a13de2d2abf8a1fa430819eebff
+  0.024--pl5321hdfd78af_0: sha256:5b4af0bf8e34dc978156c3a7534c4da256b4a0722d9b07b3c127835ccd01f848
 docker: quay.io/biocontainers/perl-term-table
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gopro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gopro
 latest:
-  1.28.0--r43hf17093f_0: sha256:b81ae978e8a7fab0b40258fa58ffdf01ea51895ace6498dbae0095d4d7760f2e
+  1.32.0--r44he5774e6_0: sha256:9eb9e4878781ba22917ba2abee740a2a17d95ed16861c3c4e107b13b86c63620
 tags:
   1.8.0--r351hf484d3e_0: sha256:9ba1434156dfc2c35ba611f79740b03c9690fd8b52a8359fae96c0ab51ce9f9b
   1.20.0--r41hc247a5b_2: sha256:75efc16c002161a49d7f4ac31d4e4c35ab38a892b11ee02237f140a40f443915
@@ -14,6 +14,7 @@ tags:
   1.24.0--r42hf17093f_1: sha256:24cdf21e3a5d08f065b8ed40617c6c12e30a620baa0918e899ed4c29fcc1eb6c
   1.26.0--r43hf17093f_0: sha256:73b32145cdb313d54d5fb9b5b3144b07c2a87516bddcd35b1caf3671ecb99564
   1.28.0--r43hf17093f_0: sha256:b81ae978e8a7fab0b40258fa58ffdf01ea51895ace6498dbae0095d4d7760f2e
+  1.32.0--r44he5774e6_0: sha256:9eb9e4878781ba22917ba2abee740a2a17d95ed16861c3c4e107b13b86c63620
 docker: quay.io/biocontainers/bioconductor-gopro
 aliases:
   wget: /usr/local/bin/wget

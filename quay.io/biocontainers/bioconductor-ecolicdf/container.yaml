@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ecolicdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ecolicdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:c5721f76182c607a5cae9cb158a230bc503942198b8ad72b1eeee93bb6e22eeb
+  2.18.0--r44hdfd78af_13: sha256:3c797567b51c5fb28dfdb48820ab27e78e7e2ce31e43a8af299575ebc654f0f3
 tags:
   2.18.0--r41hdfd78af_9: sha256:23f59f4548e233697b6439dbe98d36143cf438ed8d8764f90e758df6bf41e6ec
   2.18.0--r42hdfd78af_10: sha256:b090ded1500e7d670ae9553e3f297b79c34e3769513ed72a26b945956682e760
   2.18.0--r43hdfd78af_11: sha256:015a62a261813d11f5ed4f4bc9ff7ee54ca6aa68616fd60354f3fe87314b74be
   2.18.0--r43hdfd78af_12: sha256:c5721f76182c607a5cae9cb158a230bc503942198b8ad72b1eeee93bb6e22eeb
+  2.18.0--r44hdfd78af_13: sha256:3c797567b51c5fb28dfdb48820ab27e78e7e2ce31e43a8af299575ebc654f0f3
 docker: quay.io/biocontainers/bioconductor-ecolicdf

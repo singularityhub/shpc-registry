@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-doscheda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-doscheda
 latest:
-  1.24.0--r43hdfd78af_0: sha256:5424aa3ad6620d05b46e8b3b50efd55f8056321477dcbe006d07d211662c4eaf
+  1.28.0--r44hdfd78af_0: sha256:c90859d9aa1d8c43d08122699c3ec8c4369861cad575879ad77df94d5e80327c
 tags:
   1.8.0--r36_0: sha256:51ffcadf86f87bd1e4ac40444b4d637f75b470dd92eb891509f2b82bdf6a146a
   1.20.0--r42hdfd78af_0: sha256:e2f1b989a9fd0e72c2d356c58ae5d7f16b193ad8909bc2036d364f9ffa2298c7
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:66e00ba8949e760a24ce8cf794cc175b8a152a54601a1d035e7f72403f83f068
   1.22.0--r43hdfd78af_0: sha256:5340e6dc439cdd6e7c43625b96961e0edca9d29cdbfd277dacc9b55d640245c9
   1.24.0--r43hdfd78af_0: sha256:5424aa3ad6620d05b46e8b3b50efd55f8056321477dcbe006d07d211662c4eaf
+  1.28.0--r44hdfd78af_0: sha256:c90859d9aa1d8c43d08122699c3ec8c4369861cad575879ad77df94d5e80327c
 docker: quay.io/biocontainers/bioconductor-doscheda
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

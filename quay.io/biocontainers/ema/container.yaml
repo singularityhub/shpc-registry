@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ema
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ema
 latest:
-  0.7.0--h43eeafb_0: sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9
+  0.7.0--h5ca1c30_1: sha256:129f67fbdf9d00deec8bb14bad359285ae30c2cc8eedda086ac93168074116ea
 tags:
   v0.6.2--hd28b015_1: sha256:cbddfad4a5f9910eccc510e1fabb05d22a27f0315f3d17fe377c9d4ec20fb501
   0.6.2--h5b5514e_4: sha256:6fc471216c51fe15f4266fd787c0fbf31dd267ef83cfa1f953cb723982bb99f9
   0.6.2--h43eeafb_6: sha256:e5eae3e3a74d3d34ed8ba4a93ef68a41428185b05d0b8ff9c727cbc59813f248
   0.7.0--h43eeafb_0: sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9
+  0.7.0--h5ca1c30_1: sha256:129f67fbdf9d00deec8bb14bad359285ae30c2cc8eedda086ac93168074116ea
 docker: quay.io/biocontainers/ema
 aliases:
   ema: /usr/local/bin/ema

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-mapredictdsc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mapredictdsc
 latest:
-  1.40.0--r43hdfd78af_0: sha256:964fca777c9de7b564fbe334b06ae2bb15cbedc2c8eb1b03322689089c8f8b1d
+  1.44.0--r44hdfd78af_0: sha256:1c698997318f25e558eb2c3603c8b43b24096d50742b282e05e42c6d1863ac01
 tags:
   1.32.0--r41hdfd78af_0: sha256:a13c01f8c65cb82cabd49d5bb61f3caaa22d2cd668888688e81b9ab9819b5c4e
   1.36.0--r42hdfd78af_0: sha256:4fffd69b9b5640cfecbf0ab857c3045928d7a66310afcc8a137ddbb8db60d26a
   1.38.0--r43hdfd78af_0: sha256:772cc68d2eb91ab93a3735d4c73e8b9e3f253eb3a1c0d2f2839c5e8f41c386f0
   1.40.0--r43hdfd78af_0: sha256:964fca777c9de7b564fbe334b06ae2bb15cbedc2c8eb1b03322689089c8f8b1d
+  1.44.0--r44hdfd78af_0: sha256:1c698997318f25e558eb2c3603c8b43b24096d50742b282e05e42c6d1863ac01
 docker: quay.io/biocontainers/bioconductor-mapredictdsc

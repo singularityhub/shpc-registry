@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-decontx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-decontx
 latest:
-  1.0.0--r43hf17093f_0: sha256:c23284254ccbac66cf6525e042815aa37c9e88d8d53e8f21d06b4bd58e25d971
+  1.4.0--r44he5774e6_0: sha256:18e434a882ecd5086ca647ef38720ef38de2e1ec90b41de69c3d850c830b7a8e
 tags:
   1.0.0--r43hf17093f_0: sha256:c23284254ccbac66cf6525e042815aa37c9e88d8d53e8f21d06b4bd58e25d971
+  1.4.0--r44he5774e6_0: sha256:18e434a882ecd5086ca647ef38720ef38de2e1ec90b41de69c3d850c830b7a8e
 docker: quay.io/biocontainers/bioconductor-decontx
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

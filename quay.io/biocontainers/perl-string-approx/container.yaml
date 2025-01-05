@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-string-approx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-string-approx
 latest:
-  3.27--pl5321h031d066_4: sha256:7da4081dc31004f9076b43f9a2584de3dc3abacd8a3133db7fddada27f7a38e5
+  3.27--pl5321h7b50bb2_5: sha256:12322787b9a54b4d6824dd38b9034f21fcfc9ec0d223c0d8138c4c8392b16b1a
 tags:
   3.27--pl5321hec16e2b_3: sha256:252a2c8c4b99365d0e85e3a0fd9a34d67c56834418d85c1bd638afe88c82c05b
   3.27--pl5321h031d066_4: sha256:7da4081dc31004f9076b43f9a2584de3dc3abacd8a3133db7fddada27f7a38e5
+  3.27--pl5321h7b50bb2_5: sha256:12322787b9a54b4d6824dd38b9034f21fcfc9ec0d223c0d8138c4c8392b16b1a
 docker: quay.io/biocontainers/perl-string-approx
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
