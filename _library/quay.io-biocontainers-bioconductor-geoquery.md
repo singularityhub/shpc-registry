@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geoquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
-updated_at: "2025-01-04 03:28:33.716807"
-latest: "2.70.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:36:56.403124"
+latest: "2.74.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geoquery"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.66.0--r42hdfd78af_0"
  - "2.68.0--r43hdfd78af_0"
  - "2.70.0--r43hdfd78af_0"
+ - "2.74.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geoquery"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geoquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoquery", "latest": {"2.70.0--r43hdfd78af_0": "sha256:bd9cd8af2b3631987365b1f3454ddabb409099bfc73a3fccc8503176bbe443cd"}, "tags": {"2.62.0--r41hdfd78af_0": "sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253", "2.66.0--r42hdfd78af_0": "sha256:65ede9b8a4f30704b350f11d9a664349a0ae78bfe72be951bac6b5e3e77d5492", "2.68.0--r43hdfd78af_0": "sha256:375d5eb33893e0e30b48cdce5e96f17adfc4e8102e127e59bd44cf54e2c24941", "2.70.0--r43hdfd78af_0": "sha256:bd9cd8af2b3631987365b1f3454ddabb409099bfc73a3fccc8503176bbe443cd"}, "docker": "quay.io/biocontainers/bioconductor-geoquery"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geoquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoquery", "latest": {"2.74.0--r44hdfd78af_0": "sha256:cbd9765f812d35ed5cdf14c9baee034819680234d9e0be2b629ec677e795663e"}, "tags": {"2.62.0--r41hdfd78af_0": "sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253", "2.66.0--r42hdfd78af_0": "sha256:65ede9b8a4f30704b350f11d9a664349a0ae78bfe72be951bac6b5e3e77d5492", "2.68.0--r43hdfd78af_0": "sha256:375d5eb33893e0e30b48cdce5e96f17adfc4e8102e127e59bd44cf54e2c24941", "2.70.0--r43hdfd78af_0": "sha256:bd9cd8af2b3631987365b1f3454ddabb409099bfc73a3fccc8503176bbe443cd", "2.74.0--r44hdfd78af_0": "sha256:cbd9765f812d35ed5cdf14c9baee034819680234d9e0be2b629ec677e795663e"}, "docker": "quay.io/biocontainers/bioconductor-geoquery"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geoquery.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geoquery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geoquery:2.70.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geoquery:2.74.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geoquery/2.70.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geoquery/2.70.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geoquery/2.74.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geoquery/2.74.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

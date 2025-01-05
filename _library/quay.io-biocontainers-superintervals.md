@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/superintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superintervals/container.yaml"
-updated_at: "2025-01-04 03:06:31.608593"
+updated_at: "2025-01-05 03:14:48.428066"
 latest: "0.2.5--py310h8ea774a_0"
 container_url: "https://biocontainers.pro/tools/superintervals"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2.5--py310h8ea774a_0"
+ - "0.2.5--py312h9c9b0c2_0"
 description: "singularity registry hpc automated addition for superintervals"
-config: {"url": "https://biocontainers.pro/tools/superintervals", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superintervals", "latest": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a"}, "tags": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a"}, "docker": "quay.io/biocontainers/superintervals", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/superintervals", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superintervals", "latest": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a"}, "tags": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a", "0.2.5--py312h9c9b0c2_0": "sha256:fbc1b23256e4e7bc97f54468be1e245a2bcb0aa4a7288396ec0d86005d6a5e60"}, "docker": "quay.io/biocontainers/superintervals", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/superintervals.

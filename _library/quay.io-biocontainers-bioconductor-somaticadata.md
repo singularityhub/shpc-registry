@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-somaticadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
-updated_at: "2025-01-04 03:19:02.838505"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:27:23.019334"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somaticadata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.35.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-somaticadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-somaticadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-somaticadata", "latest": {"1.40.0--r43hdfd78af_0": "sha256:af951bc9f431a6ba5491417b33862984d43085f47ecefde480a2d0b2632fb459"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e", "1.35.0--r42hdfd78af_0": "sha256:f72ab277caa9995779ea213e15616a5cc7bddc9de72cb93fb0ecc1abdaf21d3a", "1.38.0--r43hdfd78af_0": "sha256:c5a6096d48127076dc1bad365dc87bcd1c79e75e2532ee67a2f2c6570507908d", "1.40.0--r43hdfd78af_0": "sha256:af951bc9f431a6ba5491417b33862984d43085f47ecefde480a2d0b2632fb459"}, "docker": "quay.io/biocontainers/bioconductor-somaticadata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-somaticadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-somaticadata", "latest": {"1.44.0--r44hdfd78af_0": "sha256:35dd8b457b825c3b0e475ece138b4d076fb1ea81c53eaf4a2fb170f930114bc2"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e", "1.35.0--r42hdfd78af_0": "sha256:f72ab277caa9995779ea213e15616a5cc7bddc9de72cb93fb0ecc1abdaf21d3a", "1.38.0--r43hdfd78af_0": "sha256:c5a6096d48127076dc1bad365dc87bcd1c79e75e2532ee67a2f2c6570507908d", "1.40.0--r43hdfd78af_0": "sha256:af951bc9f431a6ba5491417b33862984d43085f47ecefde480a2d0b2632fb459", "1.44.0--r44hdfd78af_0": "sha256:35dd8b457b825c3b0e475ece138b4d076fb1ea81c53eaf4a2fb170f930114bc2"}, "docker": "quay.io/biocontainers/bioconductor-somaticadata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-somaticadata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-somaticadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-somaticadata:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-somaticadata:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-somaticadata/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-somaticadata/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-somaticadata/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-somaticadata/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

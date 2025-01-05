@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repeatscout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatscout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatscout/container.yaml"
-updated_at: "2025-01-04 03:09:48.890143"
-latest: "1.0.7--h031d066_0"
+updated_at: "2025-01-05 03:18:06.734108"
+latest: "1.0.7--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/repeatscout"
 aliases:
  - "RepeatScout"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.6--hec16e2b_3"
  - "1.0.7--h031d066_0"
+ - "1.0.7--h7b50bb2_1"
 description: "shpc-registry automated BioContainers addition for repeatscout"
-config: {"url": "https://biocontainers.pro/tools/repeatscout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatscout", "latest": {"1.0.7--h031d066_0": "sha256:4f35934f006240bdb98674cb832907c3ed430f83f3f2e467d02411dde9909518"}, "tags": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694", "1.0.7--h031d066_0": "sha256:4f35934f006240bdb98674cb832907c3ed430f83f3f2e467d02411dde9909518"}, "docker": "quay.io/biocontainers/repeatscout", "aliases": {"RepeatScout": "/usr/local/bin/RepeatScout", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/repeatscout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatscout", "latest": {"1.0.7--h7b50bb2_1": "sha256:99fdb2f547e1a2e40941c322610d80f4ed047ec8cb77efaef3b1f70a7c83bb7d"}, "tags": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694", "1.0.7--h031d066_0": "sha256:4f35934f006240bdb98674cb832907c3ed430f83f3f2e467d02411dde9909518", "1.0.7--h7b50bb2_1": "sha256:99fdb2f547e1a2e40941c322610d80f4ed047ec8cb77efaef3b1f70a7c83bb7d"}, "docker": "quay.io/biocontainers/repeatscout", "aliases": {"RepeatScout": "/usr/local/bin/RepeatScout", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repeatscout.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/repeatscout
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repeatscout:1.0.7--h031d066_0
+$ shpc install quay.io/biocontainers/repeatscout:1.0.7--h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repeatscout/1.0.7--h031d066_0
-$ module help quay.io/biocontainers/repeatscout/1.0.7--h031d066_0
+$ module load quay.io/biocontainers/repeatscout/1.0.7--h7b50bb2_1
+$ module help quay.io/biocontainers/repeatscout/1.0.7--h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

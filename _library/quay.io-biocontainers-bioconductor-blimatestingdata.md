@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-blimatestingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
-updated_at: "2025-01-04 03:04:45.660623"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:13:01.944828"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blimatestingdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -17,8 +17,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-blimatestingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata", "latest": {"1.22.0--r43hdfd78af_0": "sha256:ed7854342cf69a6c46120d299a1e1120fde4d8858f337ae86f0c778ff4c53985"}, "tags": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2", "1.17.0--r42hdfd78af_0": "sha256:8d1a247e0f4f0b7393219b19729ee6ae0b2974091000dc6d26416da8920dfe7a", "1.14.0--r41hdfd78af_1": "sha256:8976e75b6078c9ff1e95213fd4d531b0fe6fcfc191e459988e1e32b914702540", "1.12.0--r41hdfd78af_0": "sha256:a618b20908033aa4b83f5ab9fddc3cc6081904084161b94311a2a01b6fd2c1fe", "1.10.0--r40hdfd78af_1": "sha256:1d7818236eaa808f4430a97ca17be81bdc533f87e7848650f439d2439dac64b4", "1.20.0--r43hdfd78af_0": "sha256:46622152c080290a236bba87cec3f6624a9d5271e56507aaf4af9f4f88d74fd5", "1.22.0--r43hdfd78af_0": "sha256:ed7854342cf69a6c46120d299a1e1120fde4d8858f337ae86f0c778ff4c53985"}, "docker": "quay.io/biocontainers/bioconductor-blimatestingdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-blimatestingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata", "latest": {"1.26.0--r44hdfd78af_0": "sha256:e5e14c197236997da95ff21c6cbf482173e8863e4329161a56dc968341124a82"}, "tags": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2", "1.17.0--r42hdfd78af_0": "sha256:8d1a247e0f4f0b7393219b19729ee6ae0b2974091000dc6d26416da8920dfe7a", "1.14.0--r41hdfd78af_1": "sha256:8976e75b6078c9ff1e95213fd4d531b0fe6fcfc191e459988e1e32b914702540", "1.12.0--r41hdfd78af_0": "sha256:a618b20908033aa4b83f5ab9fddc3cc6081904084161b94311a2a01b6fd2c1fe", "1.10.0--r40hdfd78af_1": "sha256:1d7818236eaa808f4430a97ca17be81bdc533f87e7848650f439d2439dac64b4", "1.20.0--r43hdfd78af_0": "sha256:46622152c080290a236bba87cec3f6624a9d5271e56507aaf4af9f4f88d74fd5", "1.22.0--r43hdfd78af_0": "sha256:ed7854342cf69a6c46120d299a1e1120fde4d8858f337ae86f0c778ff4c53985", "1.26.0--r44hdfd78af_0": "sha256:e5e14c197236997da95ff21c6cbf482173e8863e4329161a56dc968341124a82"}, "docker": "quay.io/biocontainers/bioconductor-blimatestingdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-blimatestingdata.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-blimatestingdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-blimatestingdata:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-blimatestingdata:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-blimatestingdata/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-blimatestingdata/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-blimatestingdata/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-blimatestingdata/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

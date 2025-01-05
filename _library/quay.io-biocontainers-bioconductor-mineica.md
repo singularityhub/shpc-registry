@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mineica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mineica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mineica/container.yaml"
-updated_at: "2025-01-04 03:07:47.272983"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:16:04.598796"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mineica"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.38.0--r42hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mineica"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mineica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mineica", "latest": {"1.42.0--r43hdfd78af_0": "sha256:82e074cdef84efc6b5f6754e3a123529c59bef5c5772168d97b4cd245121bad1"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:cb4165668a30a90d5a4cbb9a2d38d4cc4e527839b01259e754f70c06fd3361e2", "1.38.0--r42hdfd78af_0": "sha256:530b1bcf4e754682d6b74bea76a0f00485e67e7118158951cdbcb4a8b72a551f", "1.40.0--r43hdfd78af_0": "sha256:ed40974d47f1c0e443f7bd5a9ac467fe8a1bfadd130925fdd7bbd172fd91b777", "1.42.0--r43hdfd78af_0": "sha256:82e074cdef84efc6b5f6754e3a123529c59bef5c5772168d97b4cd245121bad1"}, "docker": "quay.io/biocontainers/bioconductor-mineica"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mineica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mineica", "latest": {"1.46.0--r44hdfd78af_0": "sha256:5731956d8458be4ac68a81a55b7dc6e1887f33efa160d6da3b3e41dce76cae64"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:cb4165668a30a90d5a4cbb9a2d38d4cc4e527839b01259e754f70c06fd3361e2", "1.38.0--r42hdfd78af_0": "sha256:530b1bcf4e754682d6b74bea76a0f00485e67e7118158951cdbcb4a8b72a551f", "1.40.0--r43hdfd78af_0": "sha256:ed40974d47f1c0e443f7bd5a9ac467fe8a1bfadd130925fdd7bbd172fd91b777", "1.42.0--r43hdfd78af_0": "sha256:82e074cdef84efc6b5f6754e3a123529c59bef5c5772168d97b4cd245121bad1", "1.46.0--r44hdfd78af_0": "sha256:5731956d8458be4ac68a81a55b7dc6e1887f33efa160d6da3b3e41dce76cae64"}, "docker": "quay.io/biocontainers/bioconductor-mineica"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mineica.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mineica
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mineica:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mineica:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mineica/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mineica/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mineica/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mineica/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

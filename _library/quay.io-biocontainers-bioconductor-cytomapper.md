@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytomapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytomapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytomapper/container.yaml"
-updated_at: "2025-01-04 03:03:26.116348"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:11:41.999932"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytomapper"
 aliases:
  - "fftw-wisdom"
@@ -17,8 +17,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytomapper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytomapper", "latest": {"1.14.0--r43hdfd78af_0": "sha256:3c19ba98b17900965ae1e211423f5803bf9cdd47ff739619abb2cdf4538f9bed"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4c52afa7052b9d79277e9e41c70f3c475aed2b721534f095b8c2d8e4fdb5cddc", "1.10.0--r42hdfd78af_0": "sha256:d16906ddfad730ca8599a2090a3aa8ed0fa521da5dfb33bbeef1406e420aad37", "1.12.0--r43hdfd78af_0": "sha256:20c9c1f388851d1aa56864dfcfdea0ab354a4e8859867b409971dafaa9767ea1", "1.14.0--r43hdfd78af_0": "sha256:3c19ba98b17900965ae1e211423f5803bf9cdd47ff739619abb2cdf4538f9bed"}, "docker": "quay.io/biocontainers/bioconductor-cytomapper", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytomapper", "latest": {"1.18.0--r44hdfd78af_0": "sha256:33c65eb3c3a156eb957c62121f812754ddc706ab0cd870e6ab66443ff7912253"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4c52afa7052b9d79277e9e41c70f3c475aed2b721534f095b8c2d8e4fdb5cddc", "1.10.0--r42hdfd78af_0": "sha256:d16906ddfad730ca8599a2090a3aa8ed0fa521da5dfb33bbeef1406e420aad37", "1.12.0--r43hdfd78af_0": "sha256:20c9c1f388851d1aa56864dfcfdea0ab354a4e8859867b409971dafaa9767ea1", "1.14.0--r43hdfd78af_0": "sha256:3c19ba98b17900965ae1e211423f5803bf9cdd47ff739619abb2cdf4538f9bed", "1.18.0--r44hdfd78af_0": "sha256:33c65eb3c3a156eb957c62121f812754ddc706ab0cd870e6ab66443ff7912253"}, "docker": "quay.io/biocontainers/bioconductor-cytomapper", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytomapper.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytomapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytomapper:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytomapper:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytomapper/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytomapper/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytomapper/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytomapper/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

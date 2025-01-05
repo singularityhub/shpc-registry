@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mykrobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykrobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykrobe/container.yaml"
-updated_at: "2025-01-04 03:14:45.506415"
-latest: "0.13.0--py38h59a8061_3"
+updated_at: "2025-01-05 03:23:04.737248"
+latest: "0.13.0--py312h20b014d_4"
 container_url: "https://biocontainers.pro/tools/mykrobe"
 aliases:
  - "install_compass"
@@ -32,8 +32,9 @@ versions:
  - "0.10.0--py39h2add14b_1"
  - "0.9.0--py36h61628e2_3"
  - "0.13.0--py38h59a8061_3"
+ - "0.13.0--py312h20b014d_4"
 description: "shpc-registry automated BioContainers addition for mykrobe"
-config: {"url": "https://biocontainers.pro/tools/mykrobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykrobe", "latest": {"0.13.0--py38h59a8061_3": "sha256:3c61405c2dbc21179eec636531299d0f0ee1e2133a340bc2ac88274a1651dcd2"}, "tags": {"0.9.0--py38h8e3bb3f_3": "sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02", "0.10.0--py37h09c1ff4_1": "sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044", "0.13.0--py38h2214202_0": "sha256:3909ff340be1e590b968c365a6cb89b536e58b2b5756c48d6a4437ad6b848df5", "0.12.2--py39h0163359_1": "sha256:95b3ba7d6150c3d9bc82534886a15bb5ea7ddfbb64b818674182ad13d9052971", "0.11.0--py36hcac48a8_1": "sha256:d3da929c488cf15b541c4efeaabbac1e6cfa74908e2b78e1cfe69192b5a893fe", "0.10.0--py39h2add14b_1": "sha256:3a4505427de01ee2a9cf9c071cfa240fccea4b32a8d62f3cdcc1d6ef88c17a56", "0.9.0--py36h61628e2_3": "sha256:85ccc6f3ae429905f4ee3cf413aabea8b3fa072d5df30bbdf1ad7921ae8a42c4", "0.13.0--py38h59a8061_3": "sha256:3c61405c2dbc21179eec636531299d0f0ee1e2133a340bc2ac88274a1651dcd2"}, "docker": "quay.io/biocontainers/mykrobe", "aliases": {"install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idn2": "/usr/local/bin/idn2", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "wget": "/usr/local/bin/wget", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
+config: {"url": "https://biocontainers.pro/tools/mykrobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykrobe", "latest": {"0.13.0--py312h20b014d_4": "sha256:a1a7cb47ddd55554b13c67faa917617c9216ed50c62ceb242ff5959822982941"}, "tags": {"0.9.0--py38h8e3bb3f_3": "sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02", "0.10.0--py37h09c1ff4_1": "sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044", "0.13.0--py38h2214202_0": "sha256:3909ff340be1e590b968c365a6cb89b536e58b2b5756c48d6a4437ad6b848df5", "0.12.2--py39h0163359_1": "sha256:95b3ba7d6150c3d9bc82534886a15bb5ea7ddfbb64b818674182ad13d9052971", "0.11.0--py36hcac48a8_1": "sha256:d3da929c488cf15b541c4efeaabbac1e6cfa74908e2b78e1cfe69192b5a893fe", "0.10.0--py39h2add14b_1": "sha256:3a4505427de01ee2a9cf9c071cfa240fccea4b32a8d62f3cdcc1d6ef88c17a56", "0.9.0--py36h61628e2_3": "sha256:85ccc6f3ae429905f4ee3cf413aabea8b3fa072d5df30bbdf1ad7921ae8a42c4", "0.13.0--py38h59a8061_3": "sha256:3c61405c2dbc21179eec636531299d0f0ee1e2133a340bc2ac88274a1651dcd2", "0.13.0--py312h20b014d_4": "sha256:a1a7cb47ddd55554b13c67faa917617c9216ed50c62ceb242ff5959822982941"}, "docker": "quay.io/biocontainers/mykrobe", "aliases": {"install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idn2": "/usr/local/bin/idn2", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "wget": "/usr/local/bin/wget", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mykrobe.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/mykrobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mykrobe:0.13.0--py38h59a8061_3
+$ shpc install quay.io/biocontainers/mykrobe:0.13.0--py312h20b014d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mykrobe/0.13.0--py38h59a8061_3
-$ module help quay.io/biocontainers/mykrobe/0.13.0--py38h59a8061_3
+$ module load quay.io/biocontainers/mykrobe/0.13.0--py312h20b014d_4
+$ module help quay.io/biocontainers/mykrobe/0.13.0--py312h20b014d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

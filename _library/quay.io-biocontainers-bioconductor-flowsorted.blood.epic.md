@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.blood.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
-updated_at: "2025-01-04 02:50:45.402283"
-latest: "2.6.0--r43hdfd78af_0"
+updated_at: "2025-01-05 02:58:57.541269"
+latest: "2.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "2.2.0--r42hdfd78af_0"
  - "2.4.2--r43hdfd78af_0"
  - "2.6.0--r43hdfd78af_0"
+ - "2.10.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"2.6.0--r43hdfd78af_0": "sha256:79b5bc6362e5bcdf5c2a67ac17795bea5bd00043cef727477b5e77310b68ab7a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c", "1.12.1--r41hdfd78af_1": "sha256:8f6c12a38d9755b06989f09876bdad656853e4a140a71b4a611e49f35f238528", "1.10.0--r41hdfd78af_0": "sha256:c5e9303e93fd05d981c4c9bbb57d43571a7aa5a0d0dfd6d343eeeacffc4a4d0a", "2.2.0--r42hdfd78af_0": "sha256:44a59f3352bb4d30d0cff1093018f72e9523fd1deff750be1d70dca7b8aac375", "2.4.2--r43hdfd78af_0": "sha256:cc0749d008e4dcd46bbbe0ae650aad9a6a8a41a19c908facc6feba05bfff5598", "2.6.0--r43hdfd78af_0": "sha256:79b5bc6362e5bcdf5c2a67ac17795bea5bd00043cef727477b5e77310b68ab7a"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"2.10.0--r44hdfd78af_0": "sha256:b22d21a40d633202c163104120460f5838841429a6c6bbae27bf9ee5fb47f0c6"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c", "1.12.1--r41hdfd78af_1": "sha256:8f6c12a38d9755b06989f09876bdad656853e4a140a71b4a611e49f35f238528", "1.10.0--r41hdfd78af_0": "sha256:c5e9303e93fd05d981c4c9bbb57d43571a7aa5a0d0dfd6d343eeeacffc4a4d0a", "2.2.0--r42hdfd78af_0": "sha256:44a59f3352bb4d30d0cff1093018f72e9523fd1deff750be1d70dca7b8aac375", "2.4.2--r43hdfd78af_0": "sha256:cc0749d008e4dcd46bbbe0ae650aad9a6a8a41a19c908facc6feba05bfff5598", "2.6.0--r43hdfd78af_0": "sha256:79b5bc6362e5bcdf5c2a67ac17795bea5bd00043cef727477b5e77310b68ab7a", "2.10.0--r44hdfd78af_0": "sha256:b22d21a40d633202c163104120460f5838841429a6c6bbae27bf9ee5fb47f0c6"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.blood.epic.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsorted.blood.epic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsorted.blood.epic:2.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowsorted.blood.epic:2.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsorted.blood.epic/2.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowsorted.blood.epic/2.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowsorted.blood.epic/2.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowsorted.blood.epic/2.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

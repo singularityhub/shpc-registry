@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/vargeno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vargeno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vargeno/container.yaml"
-updated_at: "2025-01-04 02:58:39.464193"
-latest: "1.0.3--h4ac6f70_5"
+updated_at: "2025-01-05 03:06:54.479612"
+latest: "1.0.3--h9948957_6"
 container_url: "https://biocontainers.pro/tools/vargeno"
 aliases:
  - "vargeno"
 versions:
  - "1.0.3--h9f5acd7_3"
  - "1.0.3--h4ac6f70_5"
+ - "1.0.3--h9948957_6"
 description: "shpc-registry automated BioContainers addition for vargeno"
-config: {"url": "https://biocontainers.pro/tools/vargeno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vargeno", "latest": {"1.0.3--h4ac6f70_5": "sha256:56a970ce73ddae4da260b0fda764a0e6b0816e4eb4990c95af3632504c6c7a4d"}, "tags": {"1.0.3--h9f5acd7_3": "sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc", "1.0.3--h4ac6f70_5": "sha256:56a970ce73ddae4da260b0fda764a0e6b0816e4eb4990c95af3632504c6c7a4d"}, "docker": "quay.io/biocontainers/vargeno", "aliases": {"vargeno": "/usr/local/bin/vargeno"}}
+config: {"url": "https://biocontainers.pro/tools/vargeno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vargeno", "latest": {"1.0.3--h9948957_6": "sha256:b101dd04408c1e8324f537f083164f2b3fab0851a72c50525bd829012c7c6cc5"}, "tags": {"1.0.3--h9f5acd7_3": "sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc", "1.0.3--h4ac6f70_5": "sha256:56a970ce73ddae4da260b0fda764a0e6b0816e4eb4990c95af3632504c6c7a4d", "1.0.3--h9948957_6": "sha256:b101dd04408c1e8324f537f083164f2b3fab0851a72c50525bd829012c7c6cc5"}, "docker": "quay.io/biocontainers/vargeno", "aliases": {"vargeno": "/usr/local/bin/vargeno"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vargeno.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/vargeno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vargeno:1.0.3--h4ac6f70_5
+$ shpc install quay.io/biocontainers/vargeno:1.0.3--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vargeno/1.0.3--h4ac6f70_5
-$ module help quay.io/biocontainers/vargeno/1.0.3--h4ac6f70_5
+$ module load quay.io/biocontainers/vargeno/1.0.3--h9948957_6
+$ module help quay.io/biocontainers/vargeno/1.0.3--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

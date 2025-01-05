@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sfld"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sfld/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sfld/container.yaml"
-updated_at: "2025-01-04 03:06:38.689222"
-latest: "1.1--h031d066_3"
+updated_at: "2025-01-05 03:14:55.546728"
+latest: "1.1--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/sfld"
 aliases:
  - "sfld_postprocess"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.1--hec16e2b_2"
  - "1.1--h031d066_3"
+ - "1.1--h7b50bb2_4"
 description: "shpc-registry automated BioContainers addition for sfld"
-config: {"url": "https://biocontainers.pro/tools/sfld", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sfld", "latest": {"1.1--h031d066_3": "sha256:a3c033d339d71bba539405b4b6ddab23173b8708dba8546abb442c3335f7822b"}, "tags": {"1.1--hec16e2b_2": "sha256:7e913dcd8b72f079c24d662a25f8c6086ea80c155f21d2bacd331227931878f7", "1.1--h031d066_3": "sha256:a3c033d339d71bba539405b4b6ddab23173b8708dba8546abb442c3335f7822b"}, "docker": "quay.io/biocontainers/sfld", "aliases": {"sfld_postprocess": "/usr/local/bin/sfld_postprocess", "sfld_preprocess": "/usr/local/bin/sfld_preprocess", "sfld_preprocess.py": "/usr/local/bin/sfld_preprocess.py"}}
+config: {"url": "https://biocontainers.pro/tools/sfld", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sfld", "latest": {"1.1--h7b50bb2_4": "sha256:664470f1be2cad30fff3b3b4a6366bdbe1f5f7712c4688b7cac4c58d8bf8410c"}, "tags": {"1.1--hec16e2b_2": "sha256:7e913dcd8b72f079c24d662a25f8c6086ea80c155f21d2bacd331227931878f7", "1.1--h031d066_3": "sha256:a3c033d339d71bba539405b4b6ddab23173b8708dba8546abb442c3335f7822b", "1.1--h7b50bb2_4": "sha256:664470f1be2cad30fff3b3b4a6366bdbe1f5f7712c4688b7cac4c58d8bf8410c"}, "docker": "quay.io/biocontainers/sfld", "aliases": {"sfld_postprocess": "/usr/local/bin/sfld_postprocess", "sfld_preprocess": "/usr/local/bin/sfld_preprocess", "sfld_preprocess.py": "/usr/local/bin/sfld_preprocess.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sfld.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/sfld
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sfld:1.1--h031d066_3
+$ shpc install quay.io/biocontainers/sfld:1.1--h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sfld/1.1--h031d066_3
-$ module help quay.io/biocontainers/sfld/1.1--h031d066_3
+$ module load quay.io/biocontainers/sfld/1.1--h7b50bb2_4
+$ module help quay.io/biocontainers/sfld/1.1--h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

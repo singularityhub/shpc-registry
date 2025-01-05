@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-txrevise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-txrevise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-txrevise/container.yaml"
-updated_at: "2025-01-04 03:24:13.028966"
-latest: "2.0--r43hdfd78af_2"
+updated_at: "2025-01-05 03:32:34.282096"
+latest: "2.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-txrevise"
 
 versions:
  - "2.0--r41hdfd78af_0"
  - "2.0--r42hdfd78af_1"
  - "2.0--r43hdfd78af_2"
+ - "2.0--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-txrevise"
-config: {"url": "https://biocontainers.pro/tools/r-txrevise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-txrevise", "latest": {"2.0--r43hdfd78af_2": "sha256:5296ee22584a5b2b6b3d84bc755d413e841d469e6e2d03d0c597415831022244"}, "tags": {"2.0--r41hdfd78af_0": "sha256:7ff14a471665ae32a7663ef189d178793e2e5fb50874e7a62ae12046811303a0", "2.0--r42hdfd78af_1": "sha256:70e29b7dec0f98f290aeac7de84600494a045e018c0bf7f26abef7ddbaec696d", "2.0--r43hdfd78af_2": "sha256:5296ee22584a5b2b6b3d84bc755d413e841d469e6e2d03d0c597415831022244"}, "docker": "quay.io/biocontainers/r-txrevise"}
+config: {"url": "https://biocontainers.pro/tools/r-txrevise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-txrevise", "latest": {"2.0--r44hdfd78af_3": "sha256:4f253d4728080f84801aa538120a1e284395ab4b6f20449ac4295267f39bdf66"}, "tags": {"2.0--r41hdfd78af_0": "sha256:7ff14a471665ae32a7663ef189d178793e2e5fb50874e7a62ae12046811303a0", "2.0--r42hdfd78af_1": "sha256:70e29b7dec0f98f290aeac7de84600494a045e018c0bf7f26abef7ddbaec696d", "2.0--r43hdfd78af_2": "sha256:5296ee22584a5b2b6b3d84bc755d413e841d469e6e2d03d0c597415831022244", "2.0--r44hdfd78af_3": "sha256:4f253d4728080f84801aa538120a1e284395ab4b6f20449ac4295267f39bdf66"}, "docker": "quay.io/biocontainers/r-txrevise"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-txrevise.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-txrevise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-txrevise:2.0--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-txrevise:2.0--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-txrevise/2.0--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-txrevise/2.0--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-txrevise/2.0--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-txrevise/2.0--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

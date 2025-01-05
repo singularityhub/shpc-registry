@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/difcover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/difcover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/difcover/container.yaml"
-updated_at: "2025-01-04 02:55:43.020336"
-latest: "3.0.1--h4ac6f70_1"
+updated_at: "2025-01-05 03:03:57.353275"
+latest: "3.0.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/difcover"
 aliases:
  - "convert_exp_to_dec_in_unionbed.sh"
@@ -45,8 +45,9 @@ aliases:
  - "maskFastaFromBed"
 versions:
  - "3.0.1--h4ac6f70_1"
+ - "3.0.1--h9948957_2"
 description: "singularity registry hpc automated addition for difcover"
-config: {"url": "https://biocontainers.pro/tools/difcover", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for difcover", "latest": {"3.0.1--h4ac6f70_1": "sha256:4e535a7b9c4f02997625d5cf05b03358e9c39bef4fec7aa69457477c23f3083f"}, "tags": {"3.0.1--h4ac6f70_1": "sha256:4e535a7b9c4f02997625d5cf05b03358e9c39bef4fec7aa69457477c23f3083f"}, "docker": "quay.io/biocontainers/difcover", "aliases": {"convert_exp_to_dec_in_unionbed.sh": "/usr/local/bin/convert_exp_to_dec_in_unionbed.sh", "from_DNAcopyout_to_p_fragments.sh": "/usr/local/bin/from_DNAcopyout_to_p_fragments.sh", "from_bams_to_unionbed.sh": "/usr/local/bin/from_bams_to_unionbed.sh", "from_ratio_per_window__to__DNAcopy_output.sh": "/usr/local/bin/from_ratio_per_window__to__DNAcopy_output.sh", "from_unionbed_to_ratio_per_window_CC0": "/usr/local/bin/from_unionbed_to_ratio_per_window_CC0", "generate_DNAcopyout_len_histogram.sh": "/usr/local/bin/generate_DNAcopyout_len_histogram.sh", "generate_DNAcopyout_len_vs_scores_histogram_bin0.5.sh": "/usr/local/bin/generate_DNAcopyout_len_vs_scores_histogram_bin0.5.sh", "get_DNAcopyout_with_length_of_intervals.sh": "/usr/local/bin/get_DNAcopyout_with_length_of_intervals.sh", "run_DNAcopy_from_bash.R": "/usr/local/bin/run_DNAcopy_from_bash.R", "run_difcover.sh": "/usr/local/bin/run_difcover.sh", "annot-tsv": "/usr/local/bin/annot-tsv", "shiftBed": "/usr/local/bin/shiftBed", "hb-info": "/usr/local/bin/hb-info", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed"}}
+config: {"url": "https://biocontainers.pro/tools/difcover", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for difcover", "latest": {"3.0.1--h9948957_2": "sha256:66401e86442a7a65ca942b7108830c1ff30c3b0245f6809f2245d31ead6f11f0"}, "tags": {"3.0.1--h4ac6f70_1": "sha256:4e535a7b9c4f02997625d5cf05b03358e9c39bef4fec7aa69457477c23f3083f", "3.0.1--h9948957_2": "sha256:66401e86442a7a65ca942b7108830c1ff30c3b0245f6809f2245d31ead6f11f0"}, "docker": "quay.io/biocontainers/difcover", "aliases": {"convert_exp_to_dec_in_unionbed.sh": "/usr/local/bin/convert_exp_to_dec_in_unionbed.sh", "from_DNAcopyout_to_p_fragments.sh": "/usr/local/bin/from_DNAcopyout_to_p_fragments.sh", "from_bams_to_unionbed.sh": "/usr/local/bin/from_bams_to_unionbed.sh", "from_ratio_per_window__to__DNAcopy_output.sh": "/usr/local/bin/from_ratio_per_window__to__DNAcopy_output.sh", "from_unionbed_to_ratio_per_window_CC0": "/usr/local/bin/from_unionbed_to_ratio_per_window_CC0", "generate_DNAcopyout_len_histogram.sh": "/usr/local/bin/generate_DNAcopyout_len_histogram.sh", "generate_DNAcopyout_len_vs_scores_histogram_bin0.5.sh": "/usr/local/bin/generate_DNAcopyout_len_vs_scores_histogram_bin0.5.sh", "get_DNAcopyout_with_length_of_intervals.sh": "/usr/local/bin/get_DNAcopyout_with_length_of_intervals.sh", "run_DNAcopy_from_bash.R": "/usr/local/bin/run_DNAcopy_from_bash.R", "run_difcover.sh": "/usr/local/bin/run_difcover.sh", "annot-tsv": "/usr/local/bin/annot-tsv", "shiftBed": "/usr/local/bin/shiftBed", "hb-info": "/usr/local/bin/hb-info", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/difcover.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/difcover
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/difcover:3.0.1--h4ac6f70_1
+$ shpc install quay.io/biocontainers/difcover:3.0.1--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/difcover/3.0.1--h4ac6f70_1
-$ module help quay.io/biocontainers/difcover/3.0.1--h4ac6f70_1
+$ module load quay.io/biocontainers/difcover/3.0.1--h9948957_2
+$ module help quay.io/biocontainers/difcover/3.0.1--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

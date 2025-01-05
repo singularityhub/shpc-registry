@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ripat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ripat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ripat/container.yaml"
-updated_at: "2025-01-04 03:10:26.602109"
+updated_at: "2025-01-05 03:18:44.497735"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ripat"
 

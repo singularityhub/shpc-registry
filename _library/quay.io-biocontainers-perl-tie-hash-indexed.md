@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-tie-hash-indexed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-hash-indexed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-hash-indexed/container.yaml"
-updated_at: "2025-01-04 03:04:21.303441"
-latest: "0.08--pl5321h031d066_3"
+updated_at: "2025-01-05 03:12:37.471091"
+latest: "0.08--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/perl-tie-hash-indexed"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.08--pl5321hec16e2b_1"
  - "0.08--pl5321h031d066_3"
+ - "0.08--pl5321h7b50bb2_4"
 description: "shpc-registry automated BioContainers addition for perl-tie-hash-indexed"
-config: {"url": "https://biocontainers.pro/tools/perl-tie-hash-indexed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-hash-indexed", "latest": {"0.08--pl5321h031d066_3": "sha256:ee8b5c3742f0ba51865927fcb66e3dc4754b7428fcf326618dcd84c2efc36c87"}, "tags": {"0.08--pl5321hec16e2b_1": "sha256:e3161fc1de4906bd89f32bcdf6e83d4af41174a7649ca79ae10174de1019b242", "0.08--pl5321h031d066_3": "sha256:ee8b5c3742f0ba51865927fcb66e3dc4754b7428fcf326618dcd84c2efc36c87"}, "docker": "quay.io/biocontainers/perl-tie-hash-indexed", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-tie-hash-indexed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-hash-indexed", "latest": {"0.08--pl5321h7b50bb2_4": "sha256:d1c3d564c5981abf7f422f7e95b4e8918b8caad9e4063e2cc6d01c9c369066c5"}, "tags": {"0.08--pl5321hec16e2b_1": "sha256:e3161fc1de4906bd89f32bcdf6e83d4af41174a7649ca79ae10174de1019b242", "0.08--pl5321h031d066_3": "sha256:ee8b5c3742f0ba51865927fcb66e3dc4754b7428fcf326618dcd84c2efc36c87", "0.08--pl5321h7b50bb2_4": "sha256:d1c3d564c5981abf7f422f7e95b4e8918b8caad9e4063e2cc6d01c9c369066c5"}, "docker": "quay.io/biocontainers/perl-tie-hash-indexed", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-tie-hash-indexed.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-tie-hash-indexed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-tie-hash-indexed:0.08--pl5321h031d066_3
+$ shpc install quay.io/biocontainers/perl-tie-hash-indexed:0.08--pl5321h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-tie-hash-indexed/0.08--pl5321h031d066_3
-$ module help quay.io/biocontainers/perl-tie-hash-indexed/0.08--pl5321h031d066_3
+$ module load quay.io/biocontainers/perl-tie-hash-indexed/0.08--pl5321h7b50bb2_4
+$ module help quay.io/biocontainers/perl-tie-hash-indexed/0.08--pl5321h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

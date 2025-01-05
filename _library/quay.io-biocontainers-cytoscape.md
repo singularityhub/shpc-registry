@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytoscape/container.yaml"
-updated_at: "2025-01-04 03:31:04.269858"
+updated_at: "2025-01-05 03:39:27.528977"
 latest: "3.10.3--he65b2d3_0"
 container_url: "https://biocontainers.pro/tools/cytoscape"
 aliases:

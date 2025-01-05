@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipexoqualexample"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipexoqualexample/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipexoqualexample/container.yaml"
-updated_at: "2025-01-04 02:52:27.531814"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:00:40.370078"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipexoqualexample"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.13.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipexoqualexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample", "latest": {"1.26.0--r43hdfd78af_0": "sha256:cc56d802c3a83f0ea33b0a0c7e550c448cad7487c0c9fc638d0349e4d1f54449"}, "tags": {"1.8.0--r36_1": "sha256:42ce34919e50083dcf978b77229548cfbe00e0e1082b3e29b331f36e8656aef4", "1.21.0--r42hdfd78af_0": "sha256:6a95a8e740a4f8950c4c06c6ffafe88bb4e2a7be4ae2ed15e3dffc13029a0d4c", "1.18.0--r41hdfd78af_1": "sha256:cfdc2414c35081d3e51591f9dbb6323aeca00bc48e807323b4f17351f5df1af4", "1.16.0--r41hdfd78af_0": "sha256:74d1b74689d1cc748b65793438688d8b3625f426096e82d4b39996545a0c31f7", "1.14.0--r40hdfd78af_1": "sha256:62b94b2a79f643933e036a300bea98c50fc1a818b376f4d826577a73adbca169", "1.13.0--r40_0": "sha256:938d9488eb7d5b8a87b35d3b04abd12fa9c0c641984f7a920ba312e547e45caa", "1.24.0--r43hdfd78af_0": "sha256:88a3aad3ffa642820d8f0b8ea3d7a6cf2e2a13eeed06753e8f587514ecec9f41", "1.26.0--r43hdfd78af_0": "sha256:cc56d802c3a83f0ea33b0a0c7e550c448cad7487c0c9fc638d0349e4d1f54449"}, "docker": "quay.io/biocontainers/bioconductor-chipexoqualexample", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipexoqualexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample", "latest": {"1.30.0--r44hdfd78af_0": "sha256:0f7e4b818a65e4e87a1a6fc889dcd8f8190df956895a6947267ad8f425ccf7bc"}, "tags": {"1.8.0--r36_1": "sha256:42ce34919e50083dcf978b77229548cfbe00e0e1082b3e29b331f36e8656aef4", "1.21.0--r42hdfd78af_0": "sha256:6a95a8e740a4f8950c4c06c6ffafe88bb4e2a7be4ae2ed15e3dffc13029a0d4c", "1.18.0--r41hdfd78af_1": "sha256:cfdc2414c35081d3e51591f9dbb6323aeca00bc48e807323b4f17351f5df1af4", "1.16.0--r41hdfd78af_0": "sha256:74d1b74689d1cc748b65793438688d8b3625f426096e82d4b39996545a0c31f7", "1.14.0--r40hdfd78af_1": "sha256:62b94b2a79f643933e036a300bea98c50fc1a818b376f4d826577a73adbca169", "1.13.0--r40_0": "sha256:938d9488eb7d5b8a87b35d3b04abd12fa9c0c641984f7a920ba312e547e45caa", "1.24.0--r43hdfd78af_0": "sha256:88a3aad3ffa642820d8f0b8ea3d7a6cf2e2a13eeed06753e8f587514ecec9f41", "1.26.0--r43hdfd78af_0": "sha256:cc56d802c3a83f0ea33b0a0c7e550c448cad7487c0c9fc638d0349e4d1f54449", "1.30.0--r44hdfd78af_0": "sha256:0f7e4b818a65e4e87a1a6fc889dcd8f8190df956895a6947267ad8f425ccf7bc"}, "docker": "quay.io/biocontainers/bioconductor-chipexoqualexample", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipexoqualexample.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipexoqualexample
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipexoqualexample:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipexoqualexample:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipexoqualexample/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipexoqualexample/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipexoqualexample/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipexoqualexample/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

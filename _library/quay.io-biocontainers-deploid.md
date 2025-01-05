@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deploid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deploid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deploid/container.yaml"
-updated_at: "2025-01-04 03:12:43.599330"
-latest: "0.5--h43eeafb_4"
+updated_at: "2025-01-05 03:21:02.315924"
+latest: "0.5--h5ca1c30_5"
 container_url: "https://biocontainers.pro/tools/deploid"
 aliases:
  - "dEploid"
@@ -14,8 +14,9 @@ versions:
  - "v0.5--h1341992_1"
  - "0.5--h5b5514e_2"
  - "0.5--h43eeafb_4"
+ - "0.5--h5ca1c30_5"
 description: "shpc-registry automated BioContainers addition for deploid"
-config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "tags": {"v0.5--h1341992_1": "sha256:0f0cbbbecc13e8b748d903b4736c6a34212b46b2c90e03b9f2448623bd6393cb", "0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb", "0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
+config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"0.5--h5ca1c30_5": "sha256:cc8013562cc92d1f187ef3bbb88f14406141ffc6ee80d0680918751bd0cf0f2d"}, "tags": {"v0.5--h1341992_1": "sha256:0f0cbbbecc13e8b748d903b4736c6a34212b46b2c90e03b9f2448623bd6393cb", "0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb", "0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16", "0.5--h5ca1c30_5": "sha256:cc8013562cc92d1f187ef3bbb88f14406141ffc6ee80d0680918751bd0cf0f2d"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deploid.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/deploid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deploid:0.5--h43eeafb_4
+$ shpc install quay.io/biocontainers/deploid:0.5--h5ca1c30_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deploid/0.5--h43eeafb_4
-$ module help quay.io/biocontainers/deploid/0.5--h43eeafb_4
+$ module load quay.io/biocontainers/deploid/0.5--h5ca1c30_5
+$ module help quay.io/biocontainers/deploid/0.5--h5ca1c30_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

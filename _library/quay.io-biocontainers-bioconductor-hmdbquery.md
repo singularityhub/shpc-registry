@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hmdbquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmdbquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmdbquery/container.yaml"
-updated_at: "2025-01-04 02:49:49.037028"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-05 02:58:00.832279"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmdbquery"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.1--r40hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hmdbquery"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hmdbquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmdbquery", "latest": {"1.22.0--r43hdfd78af_0": "sha256:d641f143b277e72fbcc498954db7d89895b7a8efc08a3482d956059c02fed2fb"}, "tags": {"1.8.0--r40_0": "sha256:2c91f0c944cca3ef184e7c84e673c1f33a1e7c797196ab7e31ef3173de27936a", "1.18.0--r42hdfd78af_0": "sha256:116c07d2a0af4b7db7b877045adb0fff47641132e74b24ed7119aa7601863477", "1.14.0--r41hdfd78af_0": "sha256:e90d04c759844ccaa281f3cd8ee65f3af9bb240ee6ac5a4d97a8cc46f6afee61", "1.12.0--r41hdfd78af_0": "sha256:310156b65ee1c8d8d46da2046d663dc917fbc121b2ac6464441ae8a3b11ad1c1", "1.10.1--r40hdfd78af_0": "sha256:923837c66ed635f15ceb44c758d32c403a4b136a6a02480e5f39434a4285dae0", "1.20.0--r43hdfd78af_0": "sha256:ff100a4cf7dd2124a5f07e9601277a2beea28877eae5d5c3381459dc4d264e0a", "1.22.0--r43hdfd78af_0": "sha256:d641f143b277e72fbcc498954db7d89895b7a8efc08a3482d956059c02fed2fb"}, "docker": "quay.io/biocontainers/bioconductor-hmdbquery", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hmdbquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmdbquery", "latest": {"1.26.0--r44hdfd78af_0": "sha256:6c38748a31f75dbd71a7334ba0164bae224eaf41a323abde92c2c628d3101ed6"}, "tags": {"1.8.0--r40_0": "sha256:2c91f0c944cca3ef184e7c84e673c1f33a1e7c797196ab7e31ef3173de27936a", "1.18.0--r42hdfd78af_0": "sha256:116c07d2a0af4b7db7b877045adb0fff47641132e74b24ed7119aa7601863477", "1.14.0--r41hdfd78af_0": "sha256:e90d04c759844ccaa281f3cd8ee65f3af9bb240ee6ac5a4d97a8cc46f6afee61", "1.12.0--r41hdfd78af_0": "sha256:310156b65ee1c8d8d46da2046d663dc917fbc121b2ac6464441ae8a3b11ad1c1", "1.10.1--r40hdfd78af_0": "sha256:923837c66ed635f15ceb44c758d32c403a4b136a6a02480e5f39434a4285dae0", "1.20.0--r43hdfd78af_0": "sha256:ff100a4cf7dd2124a5f07e9601277a2beea28877eae5d5c3381459dc4d264e0a", "1.22.0--r43hdfd78af_0": "sha256:d641f143b277e72fbcc498954db7d89895b7a8efc08a3482d956059c02fed2fb", "1.26.0--r44hdfd78af_0": "sha256:6c38748a31f75dbd71a7334ba0164bae224eaf41a323abde92c2c628d3101ed6"}, "docker": "quay.io/biocontainers/bioconductor-hmdbquery", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hmdbquery.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hmdbquery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hmdbquery:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hmdbquery:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hmdbquery/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hmdbquery/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hmdbquery/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hmdbquery/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

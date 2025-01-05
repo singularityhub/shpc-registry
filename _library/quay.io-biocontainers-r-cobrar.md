@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cobrar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cobrar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cobrar/container.yaml"
-updated_at: "2025-01-04 03:26:56.703142"
-latest: "0.1.1--r43h4ac6f70_1"
+updated_at: "2025-01-05 03:35:19.180125"
+latest: "0.1.1--r44h9948957_2"
 container_url: "https://biocontainers.pro/tools/r-cobrar"
 aliases:
  - "glpsol"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.1.0--r43h4ac6f70_0"
  - "0.1.1--r43h4ac6f70_1"
+ - "0.1.1--r44h9948957_2"
 description: "singularity registry hpc automated addition for r-cobrar"
-config: {"url": "https://biocontainers.pro/tools/r-cobrar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cobrar", "latest": {"0.1.1--r43h4ac6f70_1": "sha256:9ae933335ce65381742f7b6db4cbc69db631bbc83cd380b7eec5759225d63446"}, "tags": {"0.1.0--r43h4ac6f70_0": "sha256:a8c6b2e42bb75a7765953b1149182bdbf5adf0a4e559c6caaae094c4d1499e8c", "0.1.1--r43h4ac6f70_1": "sha256:9ae933335ce65381742f7b6db4cbc69db631bbc83cd380b7eec5759225d63446"}, "docker": "quay.io/biocontainers/r-cobrar", "aliases": {"glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-cobrar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cobrar", "latest": {"0.1.1--r44h9948957_2": "sha256:2c7e5a74d620d338b45960cd189fce1b23a7ed059e7c138f246e696fcfff871a"}, "tags": {"0.1.0--r43h4ac6f70_0": "sha256:a8c6b2e42bb75a7765953b1149182bdbf5adf0a4e559c6caaae094c4d1499e8c", "0.1.1--r43h4ac6f70_1": "sha256:9ae933335ce65381742f7b6db4cbc69db631bbc83cd380b7eec5759225d63446", "0.1.1--r44h9948957_2": "sha256:2c7e5a74d620d338b45960cd189fce1b23a7ed059e7c138f246e696fcfff871a"}, "docker": "quay.io/biocontainers/r-cobrar", "aliases": {"glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cobrar.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-cobrar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cobrar:0.1.1--r43h4ac6f70_1
+$ shpc install quay.io/biocontainers/r-cobrar:0.1.1--r44h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cobrar/0.1.1--r43h4ac6f70_1
-$ module help quay.io/biocontainers/r-cobrar/0.1.1--r43h4ac6f70_1
+$ module load quay.io/biocontainers/r-cobrar/0.1.1--r44h9948957_2
+$ module help quay.io/biocontainers/r-cobrar/0.1.1--r44h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

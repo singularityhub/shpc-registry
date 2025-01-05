@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-similarpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-similarpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-similarpeak/container.yaml"
-updated_at: "2025-01-04 02:59:17.693284"
-latest: "1.34.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:07:32.777672"
+latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-similarpeak"
 aliases:
  - "bmp2tiff"
@@ -26,8 +26,9 @@ versions:
  - "1.20.0--r40_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
+ - "1.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-similarpeak"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-similarpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-similarpeak", "latest": {"1.34.0--r43hdfd78af_0": "sha256:2fbba6dcea58ff79a816ec998d3fa2c37b9937a816e70071eee5dc7c5ebf43be"}, "tags": {"1.8.0--r3.3.2_0": "sha256:f44a5c8ba745e4610c7f92090be814df8536aed3610cbc365ba1d65bcbab5815", "1.30.0--r42hdfd78af_0": "sha256:cda15be9a9dc4df3700eb3581bb1e091a6a468f872674c8e5747e65a210df417", "1.26.0--r41hdfd78af_0": "sha256:2e2495a9ac26730bdb7937df5c0e077e6b2ffac2f24a4140c53ab08c76878553", "1.24.0--r41hdfd78af_0": "sha256:8087e35aef19b270df076fccf2fda8cc662b3816ebccffe73b2889514d9e1014", "1.22.0--r40hdfd78af_1": "sha256:1cf2b50e11c66559f03131c716967bb7404bc2878737d35ded9863cf8aef9784", "1.20.0--r40_0": "sha256:ad91b554683a151a100bb0a056c9f4bb3d57edf5bdea39785cc0f6dd6c8545ab", "1.32.0--r43hdfd78af_0": "sha256:cca3176f78a82fbfb3bcc41be987e0ae7d86ce3d732a2e7e2188720ae007be80", "1.34.0--r43hdfd78af_0": "sha256:2fbba6dcea58ff79a816ec998d3fa2c37b9937a816e70071eee5dc7c5ebf43be"}, "docker": "quay.io/biocontainers/bioconductor-similarpeak", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-similarpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-similarpeak", "latest": {"1.38.0--r44hdfd78af_0": "sha256:6660a64bb4748e12747aa2ecf1fef55f4edc83205c348757cdd0439acdb0653c"}, "tags": {"1.8.0--r3.3.2_0": "sha256:f44a5c8ba745e4610c7f92090be814df8536aed3610cbc365ba1d65bcbab5815", "1.30.0--r42hdfd78af_0": "sha256:cda15be9a9dc4df3700eb3581bb1e091a6a468f872674c8e5747e65a210df417", "1.26.0--r41hdfd78af_0": "sha256:2e2495a9ac26730bdb7937df5c0e077e6b2ffac2f24a4140c53ab08c76878553", "1.24.0--r41hdfd78af_0": "sha256:8087e35aef19b270df076fccf2fda8cc662b3816ebccffe73b2889514d9e1014", "1.22.0--r40hdfd78af_1": "sha256:1cf2b50e11c66559f03131c716967bb7404bc2878737d35ded9863cf8aef9784", "1.20.0--r40_0": "sha256:ad91b554683a151a100bb0a056c9f4bb3d57edf5bdea39785cc0f6dd6c8545ab", "1.32.0--r43hdfd78af_0": "sha256:cca3176f78a82fbfb3bcc41be987e0ae7d86ce3d732a2e7e2188720ae007be80", "1.34.0--r43hdfd78af_0": "sha256:2fbba6dcea58ff79a816ec998d3fa2c37b9937a816e70071eee5dc7c5ebf43be", "1.38.0--r44hdfd78af_0": "sha256:6660a64bb4748e12747aa2ecf1fef55f4edc83205c348757cdd0439acdb0653c"}, "docker": "quay.io/biocontainers/bioconductor-similarpeak", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-similarpeak.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-similarpeak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-similarpeak:1.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-similarpeak:1.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-similarpeak/1.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-similarpeak/1.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-similarpeak/1.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-similarpeak/1.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

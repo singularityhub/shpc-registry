@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dinamo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinamo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinamo/container.yaml"
-updated_at: "2025-01-04 03:20:31.831507"
-latest: "1.0--h78569d1_6"
+updated_at: "2025-01-05 03:28:52.164925"
+latest: "1.0--h9948957_7"
 container_url: "https://biocontainers.pro/tools/dinamo"
 aliases:
  - "dinamo"
@@ -15,8 +15,9 @@ versions:
  - "1.0--h376f1d3_5"
  - "1.0--h78569d1_6"
  - "1.0--h4ac6f70_6"
+ - "1.0--h9948957_7"
 description: "shpc-registry automated BioContainers addition for dinamo"
-config: {"url": "https://biocontainers.pro/tools/dinamo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinamo", "latest": {"1.0--h78569d1_6": "sha256:405e20996c492273e564d7ed511830fe746d7a61cd9d3130e7a957ac933d428e"}, "tags": {"1.0--h2df963e_2": "sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3", "1.0--h376f1d3_4": "sha256:64227a611f7a3bc8fc4571cbcd5428d4e6ed4694c7f409c4fb04b46ac9acecde", "1.0--h376f1d3_5": "sha256:1b664ffe850bdf862632e485c4d48bfedd4055d6d78e709f07b51a4a2e7d70e0", "1.0--h78569d1_6": "sha256:405e20996c492273e564d7ed511830fe746d7a61cd9d3130e7a957ac933d428e", "1.0--h4ac6f70_6": "sha256:4a136d45a85d64b8552b50eaa72b9225a14bd5410f4e912bacdf50e38d1d0457"}, "docker": "quay.io/biocontainers/dinamo", "aliases": {"dinamo": "/usr/local/bin/dinamo"}}
+config: {"url": "https://biocontainers.pro/tools/dinamo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinamo", "latest": {"1.0--h9948957_7": "sha256:e7fcc07237130e8ffbb1e3a0ca247d80bb60c151dca41eacd4d0a139bbc255d0"}, "tags": {"1.0--h2df963e_2": "sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3", "1.0--h376f1d3_4": "sha256:64227a611f7a3bc8fc4571cbcd5428d4e6ed4694c7f409c4fb04b46ac9acecde", "1.0--h376f1d3_5": "sha256:1b664ffe850bdf862632e485c4d48bfedd4055d6d78e709f07b51a4a2e7d70e0", "1.0--h78569d1_6": "sha256:405e20996c492273e564d7ed511830fe746d7a61cd9d3130e7a957ac933d428e", "1.0--h4ac6f70_6": "sha256:4a136d45a85d64b8552b50eaa72b9225a14bd5410f4e912bacdf50e38d1d0457", "1.0--h9948957_7": "sha256:e7fcc07237130e8ffbb1e3a0ca247d80bb60c151dca41eacd4d0a139bbc255d0"}, "docker": "quay.io/biocontainers/dinamo", "aliases": {"dinamo": "/usr/local/bin/dinamo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dinamo.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/dinamo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dinamo:1.0--h78569d1_6
+$ shpc install quay.io/biocontainers/dinamo:1.0--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dinamo/1.0--h78569d1_6
-$ module help quay.io/biocontainers/dinamo/1.0--h78569d1_6
+$ module load quay.io/biocontainers/dinamo/1.0--h9948957_7
+$ module help quay.io/biocontainers/dinamo/1.0--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/naf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naf/container.yaml"
-updated_at: "2025-01-04 03:09:43.238338"
-latest: "1.3.0--h031d066_4"
+updated_at: "2025-01-05 03:18:00.985676"
+latest: "1.3.0--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/naf"
 aliases:
  - "ennaf"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.3.0--hec16e2b_2"
  - "1.3.0--h031d066_4"
+ - "1.3.0--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for naf"
-config: {"url": "https://biocontainers.pro/tools/naf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for naf", "latest": {"1.3.0--h031d066_4": "sha256:ea9012c88ba5e8ad460c809cec1a182a4f3d317bad0701dda90155caf8f36338"}, "tags": {"1.3.0--hec16e2b_2": "sha256:80fc33cd777cd2d54eea4e5fcf5742603c35b5b1443418b7e751e45b543ac436", "1.3.0--h031d066_4": "sha256:ea9012c88ba5e8ad460c809cec1a182a4f3d317bad0701dda90155caf8f36338"}, "docker": "quay.io/biocontainers/naf", "aliases": {"ennaf": "/usr/local/bin/ennaf", "unnaf": "/usr/local/bin/unnaf"}}
+config: {"url": "https://biocontainers.pro/tools/naf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for naf", "latest": {"1.3.0--h7b50bb2_5": "sha256:b410d7299bd16ca221299dc6c87e7eab1f7f3413f5a4da3763cd4926dedea727"}, "tags": {"1.3.0--hec16e2b_2": "sha256:80fc33cd777cd2d54eea4e5fcf5742603c35b5b1443418b7e751e45b543ac436", "1.3.0--h031d066_4": "sha256:ea9012c88ba5e8ad460c809cec1a182a4f3d317bad0701dda90155caf8f36338", "1.3.0--h7b50bb2_5": "sha256:b410d7299bd16ca221299dc6c87e7eab1f7f3413f5a4da3763cd4926dedea727"}, "docker": "quay.io/biocontainers/naf", "aliases": {"ennaf": "/usr/local/bin/ennaf", "unnaf": "/usr/local/bin/unnaf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/naf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/naf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/naf:1.3.0--h031d066_4
+$ shpc install quay.io/biocontainers/naf:1.3.0--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/naf/1.3.0--h031d066_4
-$ module help quay.io/biocontainers/naf/1.3.0--h031d066_4
+$ module load quay.io/biocontainers/naf/1.3.0--h7b50bb2_5
+$ module help quay.io/biocontainers/naf/1.3.0--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

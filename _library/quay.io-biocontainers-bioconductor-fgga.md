@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fgga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fgga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fgga/container.yaml"
-updated_at: "2025-01-04 03:29:18.992528"
-latest: "1.9.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:37:41.662013"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fgga"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.9.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fgga"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fgga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fgga", "latest": {"1.9.0--r43hdfd78af_0": "sha256:1a673505b0ca7a6f728f4e0c793d992be8762aa6d2a53c4af7f3882f293d37e3"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b4ff85fc969f01cee3f1cd94098afbc234798aa9eaea9cfa87371c588ac4bd0d", "1.6.0--r42hdfd78af_0": "sha256:27fb08c0f0924b0cfc9328ce67cda13e426c0c861c5aa709b89efe31df6d5099", "1.8.0--r43hdfd78af_0": "sha256:744be844d341df8a1268ecbebed0baf113c63108a3ea054133d342d532f5a544", "1.9.0--r43hdfd78af_0": "sha256:1a673505b0ca7a6f728f4e0c793d992be8762aa6d2a53c4af7f3882f293d37e3"}, "docker": "quay.io/biocontainers/bioconductor-fgga"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fgga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fgga", "latest": {"1.14.0--r44hdfd78af_0": "sha256:dc6b4db1508a67935d2dd73ff2f1c3c8cc9ef4d6a4146a3f4ed0e85489cf4a93"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b4ff85fc969f01cee3f1cd94098afbc234798aa9eaea9cfa87371c588ac4bd0d", "1.6.0--r42hdfd78af_0": "sha256:27fb08c0f0924b0cfc9328ce67cda13e426c0c861c5aa709b89efe31df6d5099", "1.8.0--r43hdfd78af_0": "sha256:744be844d341df8a1268ecbebed0baf113c63108a3ea054133d342d532f5a544", "1.9.0--r43hdfd78af_0": "sha256:1a673505b0ca7a6f728f4e0c793d992be8762aa6d2a53c4af7f3882f293d37e3", "1.14.0--r44hdfd78af_0": "sha256:dc6b4db1508a67935d2dd73ff2f1c3c8cc9ef4d6a4146a3f4ed0e85489cf4a93"}, "docker": "quay.io/biocontainers/bioconductor-fgga"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fgga.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fgga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fgga:1.9.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fgga:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fgga/1.9.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fgga/1.9.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fgga/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fgga/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

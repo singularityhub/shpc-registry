@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cyushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyushuffle/container.yaml"
-updated_at: "2025-01-04 03:35:57.643577"
-latest: "1.1.2--py311hdad781d_6"
+updated_at: "2025-01-05 03:44:22.578036"
+latest: "1.1.2--py39hbcbf7aa_7"
 container_url: "https://biocontainers.pro/tools/cyushuffle"
 aliases:
  - "2to3-3.9"
@@ -18,8 +18,9 @@ versions:
  - "1.1.2--py310h4b81fae_5"
  - "1.1.2--py39hf95cd2a_5"
  - "1.1.2--py311hdad781d_6"
+ - "1.1.2--py39hbcbf7aa_7"
 description: "shpc-registry automated BioContainers addition for cyushuffle"
-config: {"url": "https://biocontainers.pro/tools/cyushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyushuffle", "latest": {"1.1.2--py311hdad781d_6": "sha256:3d7b6b97c5b438b8138ef7547571c96ea76455097ed0ca4c4a7fb2abad871b32"}, "tags": {"1.1.2--py39hbf8eff0_3": "sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357", "1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada", "1.1.2--py39hf95cd2a_5": "sha256:ec4c7424ea1aa08aacde8f68b0c1d24635568c62010aeda2b09c563b96f143de", "1.1.2--py311hdad781d_6": "sha256:3d7b6b97c5b438b8138ef7547571c96ea76455097ed0ca4c4a7fb2abad871b32"}, "docker": "quay.io/biocontainers/cyushuffle", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cyushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyushuffle", "latest": {"1.1.2--py39hbcbf7aa_7": "sha256:c88ce278a39f20fb97f2a49b36b86cf48f41e285934002749718fbb0aa0bc10f"}, "tags": {"1.1.2--py39hbf8eff0_3": "sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357", "1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada", "1.1.2--py39hf95cd2a_5": "sha256:ec4c7424ea1aa08aacde8f68b0c1d24635568c62010aeda2b09c563b96f143de", "1.1.2--py311hdad781d_6": "sha256:3d7b6b97c5b438b8138ef7547571c96ea76455097ed0ca4c4a7fb2abad871b32", "1.1.2--py39hbcbf7aa_7": "sha256:c88ce278a39f20fb97f2a49b36b86cf48f41e285934002749718fbb0aa0bc10f"}, "docker": "quay.io/biocontainers/cyushuffle", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyushuffle.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/cyushuffle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cyushuffle:1.1.2--py311hdad781d_6
+$ shpc install quay.io/biocontainers/cyushuffle:1.1.2--py39hbcbf7aa_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cyushuffle/1.1.2--py311hdad781d_6
-$ module help quay.io/biocontainers/cyushuffle/1.1.2--py311hdad781d_6
+$ module load quay.io/biocontainers/cyushuffle/1.1.2--py39hbcbf7aa_7
+$ module help quay.io/biocontainers/cyushuffle/1.1.2--py39hbcbf7aa_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

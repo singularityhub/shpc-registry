@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pepstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepstat/container.yaml"
-updated_at: "2025-01-04 03:06:05.846173"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:14:22.563709"
+latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepstat"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.40.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pepstat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pepstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepstat", "latest": {"1.36.0--r43hdfd78af_0": "sha256:97a91c55b99cf8fa2887a6a4f5093ae2c5d20acdd20289728ae8e69342734f1d"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:a78c5111a2a6d01c557a86af2a17251c0afaca6e0cf1714e078981e75fb88ae1", "1.32.0--r42hdfd78af_0": "sha256:04c2afe31d342ba8dfec49b912c4ec0cb5ac78d9f595d35c09cb257d0730df7d", "1.34.0--r43hdfd78af_0": "sha256:27a5b22d8903cf5a99af985d070a6a13d11419c72a1636233bed739d6755ac8d", "1.36.0--r43hdfd78af_0": "sha256:97a91c55b99cf8fa2887a6a4f5093ae2c5d20acdd20289728ae8e69342734f1d"}, "docker": "quay.io/biocontainers/bioconductor-pepstat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pepstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepstat", "latest": {"1.40.0--r44hdfd78af_0": "sha256:0b292a6d3186949f63056c9c25f935679090df63d2a86d4be564befc398eb23c"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:a78c5111a2a6d01c557a86af2a17251c0afaca6e0cf1714e078981e75fb88ae1", "1.32.0--r42hdfd78af_0": "sha256:04c2afe31d342ba8dfec49b912c4ec0cb5ac78d9f595d35c09cb257d0730df7d", "1.34.0--r43hdfd78af_0": "sha256:27a5b22d8903cf5a99af985d070a6a13d11419c72a1636233bed739d6755ac8d", "1.36.0--r43hdfd78af_0": "sha256:97a91c55b99cf8fa2887a6a4f5093ae2c5d20acdd20289728ae8e69342734f1d", "1.40.0--r44hdfd78af_0": "sha256:0b292a6d3186949f63056c9c25f935679090df63d2a86d4be564befc398eb23c"}, "docker": "quay.io/biocontainers/bioconductor-pepstat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pepstat.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pepstat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pepstat:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pepstat:1.40.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pepstat/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pepstat/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pepstat/1.40.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pepstat/1.40.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

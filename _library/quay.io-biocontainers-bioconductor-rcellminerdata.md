@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcellminerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcellminerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcellminerdata/container.yaml"
-updated_at: "2025-01-04 03:04:57.855516"
-latest: "2.24.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:13:14.274484"
+latest: "2.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcellminerdata"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "2.11.2--r40_0"
  - "2.22.0--r43hdfd78af_0"
  - "2.24.0--r43hdfd78af_0"
+ - "2.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcellminerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminerdata", "latest": {"2.24.0--r43hdfd78af_0": "sha256:29d489bd7555cc15d40baaca26bd214df204ae9370b0e972c51ccacc654853b1"}, "tags": {"2.8.0--r36_0": "sha256:c0de1acd5bd44786a791905a8702ec1141cb3593fade5f2c9662440c42ab2f0d", "2.20.0--r42hdfd78af_0": "sha256:ad88be2b0d5547724a380b9c96dba0e8954999aa55736b8d5eadd2d9eecc78db", "2.16.0--r41hdfd78af_1": "sha256:bfdd94193770ac74253c38ca343ad699658a639a944544e571f68f332b00ac57", "2.14.0--r41hdfd78af_0": "sha256:f46d36a4ddf90462a5f5a9012f6dc797963b93e1a26e0bd0fc6c4c3832c64f2e", "2.12.0--r40hdfd78af_2": "sha256:dc9dbede0cdc166a818ef1f785e0c72ddbe80bd629cd6e4b12665752c7c16716", "2.11.2--r40_0": "sha256:b1131412201e78add7f73817604cb96fb081943734e26d8a15155adc7541b36e", "2.22.0--r43hdfd78af_0": "sha256:60cec265543014dc5a2aab5046ea53c2e36a8004741f4443ec0f04d64af2751d", "2.24.0--r43hdfd78af_0": "sha256:29d489bd7555cc15d40baaca26bd214df204ae9370b0e972c51ccacc654853b1"}, "docker": "quay.io/biocontainers/bioconductor-rcellminerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminerdata", "latest": {"2.28.0--r44hdfd78af_0": "sha256:755f6a19052a7867ceb2a33c8c95872c7b8f2c9f7a2f0f3264ccf6c530fd3872"}, "tags": {"2.8.0--r36_0": "sha256:c0de1acd5bd44786a791905a8702ec1141cb3593fade5f2c9662440c42ab2f0d", "2.20.0--r42hdfd78af_0": "sha256:ad88be2b0d5547724a380b9c96dba0e8954999aa55736b8d5eadd2d9eecc78db", "2.16.0--r41hdfd78af_1": "sha256:bfdd94193770ac74253c38ca343ad699658a639a944544e571f68f332b00ac57", "2.14.0--r41hdfd78af_0": "sha256:f46d36a4ddf90462a5f5a9012f6dc797963b93e1a26e0bd0fc6c4c3832c64f2e", "2.12.0--r40hdfd78af_2": "sha256:dc9dbede0cdc166a818ef1f785e0c72ddbe80bd629cd6e4b12665752c7c16716", "2.11.2--r40_0": "sha256:b1131412201e78add7f73817604cb96fb081943734e26d8a15155adc7541b36e", "2.22.0--r43hdfd78af_0": "sha256:60cec265543014dc5a2aab5046ea53c2e36a8004741f4443ec0f04d64af2751d", "2.24.0--r43hdfd78af_0": "sha256:29d489bd7555cc15d40baaca26bd214df204ae9370b0e972c51ccacc654853b1", "2.28.0--r44hdfd78af_0": "sha256:755f6a19052a7867ceb2a33c8c95872c7b8f2c9f7a2f0f3264ccf6c530fd3872"}, "docker": "quay.io/biocontainers/bioconductor-rcellminerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcellminerdata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcellminerdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcellminerdata:2.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcellminerdata:2.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcellminerdata/2.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcellminerdata/2.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcellminerdata/2.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcellminerdata/2.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

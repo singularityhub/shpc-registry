@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/scssim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scssim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scssim/container.yaml"
-updated_at: "2025-01-04 02:54:50.062315"
-latest: "1.0--h4ac6f70_4"
+updated_at: "2025-01-05 03:03:04.014071"
+latest: "1.0--h9948957_5"
 container_url: "https://biocontainers.pro/tools/scssim"
 aliases:
  - "scssim"
 versions:
  - "1.0--h9f5acd7_2"
  - "1.0--h4ac6f70_4"
+ - "1.0--h9948957_5"
 description: "shpc-registry automated BioContainers addition for scssim"
-config: {"url": "https://biocontainers.pro/tools/scssim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scssim", "latest": {"1.0--h4ac6f70_4": "sha256:ae28eff2092279184943b9bbbf6640518410fecb89b09f0586735f79e1ae6c85"}, "tags": {"1.0--h9f5acd7_2": "sha256:ff14c7240fbfdc8f92909dbd1c81fade8541da234a439c7e617fd6cd5b15ac3f", "1.0--h4ac6f70_4": "sha256:ae28eff2092279184943b9bbbf6640518410fecb89b09f0586735f79e1ae6c85"}, "docker": "quay.io/biocontainers/scssim", "aliases": {"scssim": "/usr/local/bin/scssim"}}
+config: {"url": "https://biocontainers.pro/tools/scssim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scssim", "latest": {"1.0--h9948957_5": "sha256:5d0c06c84b2759ca99036b8059c5f7abc771beac3b53b983eab74f14c83bd4c6"}, "tags": {"1.0--h9f5acd7_2": "sha256:ff14c7240fbfdc8f92909dbd1c81fade8541da234a439c7e617fd6cd5b15ac3f", "1.0--h4ac6f70_4": "sha256:ae28eff2092279184943b9bbbf6640518410fecb89b09f0586735f79e1ae6c85", "1.0--h9948957_5": "sha256:5d0c06c84b2759ca99036b8059c5f7abc771beac3b53b983eab74f14c83bd4c6"}, "docker": "quay.io/biocontainers/scssim", "aliases": {"scssim": "/usr/local/bin/scssim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scssim.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/scssim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scssim:1.0--h4ac6f70_4
+$ shpc install quay.io/biocontainers/scssim:1.0--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scssim/1.0--h4ac6f70_4
-$ module help quay.io/biocontainers/scssim/1.0--h4ac6f70_4
+$ module load quay.io/biocontainers/scssim/1.0--h9948957_5
+$ module help quay.io/biocontainers/scssim/1.0--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

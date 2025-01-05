@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gsri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsri/container.yaml"
-updated_at: "2025-01-04 02:56:49.068715"
-latest: "2.50.0--r43hdfd78af_0"
+updated_at: "2025-01-05 03:05:03.910056"
+latest: "2.54.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsri"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.46.0--r42hdfd78af_0"
  - "2.48.0--r43hdfd78af_0"
  - "2.50.0--r43hdfd78af_0"
+ - "2.54.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsri"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsri", "latest": {"2.50.0--r43hdfd78af_0": "sha256:cf62fd413875e0d1ab5f19f4135b1726c84d2b2c63267595122622777a398b80"}, "tags": {"2.42.0--r41hdfd78af_0": "sha256:f1960cd105921c9d018e45d23a803bfc8ba2b364f28a06d2a18ea6c4c28a955d", "2.46.0--r42hdfd78af_0": "sha256:ec2edd296f15932b4ca37d871cd0abbbf696cd16945cdc59d63b2cabb6252ee3", "2.48.0--r43hdfd78af_0": "sha256:b69bbabd163d6f22d0267acb2b8f694a67d3c68b949843a5049b583d20fe0ed4", "2.50.0--r43hdfd78af_0": "sha256:cf62fd413875e0d1ab5f19f4135b1726c84d2b2c63267595122622777a398b80"}, "docker": "quay.io/biocontainers/bioconductor-gsri"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsri", "latest": {"2.54.0--r44hdfd78af_0": "sha256:70d23497579e44fb50fabee58a1f498913284020af56c677b70b65caca66fd8c"}, "tags": {"2.42.0--r41hdfd78af_0": "sha256:f1960cd105921c9d018e45d23a803bfc8ba2b364f28a06d2a18ea6c4c28a955d", "2.46.0--r42hdfd78af_0": "sha256:ec2edd296f15932b4ca37d871cd0abbbf696cd16945cdc59d63b2cabb6252ee3", "2.48.0--r43hdfd78af_0": "sha256:b69bbabd163d6f22d0267acb2b8f694a67d3c68b949843a5049b583d20fe0ed4", "2.50.0--r43hdfd78af_0": "sha256:cf62fd413875e0d1ab5f19f4135b1726c84d2b2c63267595122622777a398b80", "2.54.0--r44hdfd78af_0": "sha256:70d23497579e44fb50fabee58a1f498913284020af56c677b70b65caca66fd8c"}, "docker": "quay.io/biocontainers/bioconductor-gsri"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsri.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsri
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsri:2.50.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gsri:2.54.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsri/2.50.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gsri/2.50.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gsri/2.54.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gsri/2.54.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

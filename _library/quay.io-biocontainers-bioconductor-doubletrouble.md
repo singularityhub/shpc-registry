@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-doubletrouble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doubletrouble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doubletrouble/container.yaml"
-updated_at: "2025-01-04 03:25:45.952422"
-latest: "1.2.1--r43hdfd78af_0"
+updated_at: "2025-01-05 03:34:07.876823"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doubletrouble"
 aliases:
  - "hb-info"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.1--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-doubletrouble"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-doubletrouble", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-doubletrouble", "latest": {"1.2.1--r43hdfd78af_0": "sha256:f66063abecd25fd296915a3d6844cab02d2a0524f4eb40bedb13d0ad725e39fd"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:10168141b2714f5664d92b7e1059583b2f642d8fbe63b0bafbf31e604885bcc7", "1.2.1--r43hdfd78af_0": "sha256:f66063abecd25fd296915a3d6844cab02d2a0524f4eb40bedb13d0ad725e39fd"}, "docker": "quay.io/biocontainers/bioconductor-doubletrouble", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-doubletrouble", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-doubletrouble", "latest": {"1.6.0--r44hdfd78af_0": "sha256:245d812703790f21c7a5c9b0eb4b3d2e7503be68304fce719727d9e9b7612303"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:10168141b2714f5664d92b7e1059583b2f642d8fbe63b0bafbf31e604885bcc7", "1.2.1--r43hdfd78af_0": "sha256:f66063abecd25fd296915a3d6844cab02d2a0524f4eb40bedb13d0ad725e39fd", "1.6.0--r44hdfd78af_0": "sha256:245d812703790f21c7a5c9b0eb4b3d2e7503be68304fce719727d9e9b7612303"}, "docker": "quay.io/biocontainers/bioconductor-doubletrouble", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-doubletrouble.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-doubletrouble
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-doubletrouble:1.2.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-doubletrouble:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-doubletrouble/1.2.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-doubletrouble/1.2.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-doubletrouble/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-doubletrouble/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gemf_favites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemf_favites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemf_favites/container.yaml"
-updated_at: "2025-01-04 03:08:12.493249"
-latest: "1.0.3--h031d066_0"
+updated_at: "2025-01-05 03:16:29.920557"
+latest: "1.0.3--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/gemf_favites"
 aliases:
  - "GEMF"
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.3--h031d066_0"
+ - "1.0.3--h7b50bb2_1"
 description: "singularity registry hpc automated addition for gemf_favites"
-config: {"url": "https://biocontainers.pro/tools/gemf_favites", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gemf_favites", "latest": {"1.0.3--h031d066_0": "sha256:9da81451fad523e4d00c9bb30f61949aab542626490397e98c5b5bd34eea0e1c"}, "tags": {"1.0.3--h031d066_0": "sha256:9da81451fad523e4d00c9bb30f61949aab542626490397e98c5b5bd34eea0e1c"}, "docker": "quay.io/biocontainers/gemf_favites", "aliases": {"GEMF": "/usr/local/bin/GEMF", "GEMF_FAVITES.py": "/usr/local/bin/GEMF_FAVITES.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/gemf_favites", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gemf_favites", "latest": {"1.0.3--h7b50bb2_1": "sha256:c2d2781378dc425632b92565a0a5e2dce944d446108de3f2b7017ec96b9cff2b"}, "tags": {"1.0.3--h031d066_0": "sha256:9da81451fad523e4d00c9bb30f61949aab542626490397e98c5b5bd34eea0e1c", "1.0.3--h7b50bb2_1": "sha256:c2d2781378dc425632b92565a0a5e2dce944d446108de3f2b7017ec96b9cff2b"}, "docker": "quay.io/biocontainers/gemf_favites", "aliases": {"GEMF": "/usr/local/bin/GEMF", "GEMF_FAVITES.py": "/usr/local/bin/GEMF_FAVITES.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gemf_favites.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/gemf_favites
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gemf_favites:1.0.3--h031d066_0
+$ shpc install quay.io/biocontainers/gemf_favites:1.0.3--h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gemf_favites/1.0.3--h031d066_0
-$ module help quay.io/biocontainers/gemf_favites/1.0.3--h031d066_0
+$ module load quay.io/biocontainers/gemf_favites/1.0.3--h7b50bb2_1
+$ module help quay.io/biocontainers/gemf_favites/1.0.3--h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
