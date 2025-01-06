@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fann/container.yaml"
-updated_at: "2025-01-05 03:13:08.295054"
-latest: "2.2.0--hdbdd923_6"
+updated_at: "2025-01-06 03:12:59.673312"
+latest: "2.2.0--h503566f_7"
 container_url: "https://biocontainers.pro/tools/fann"
 
 versions:
  - "2.2.0--h87f3376_4"
  - "2.2.0--hdbdd923_6"
+ - "2.2.0--h503566f_7"
 description: "shpc-registry automated BioContainers addition for fann"
-config: {"url": "https://biocontainers.pro/tools/fann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fann", "latest": {"2.2.0--hdbdd923_6": "sha256:c0ab7030caf0f67442c68045a15c6ef38ade4210f3f693af9f302211947c6494"}, "tags": {"2.2.0--h87f3376_4": "sha256:e480b92b8d598028eade0cd49a8a530fd3a5cf200903b883b0b50eddf70b829f", "2.2.0--hdbdd923_6": "sha256:c0ab7030caf0f67442c68045a15c6ef38ade4210f3f693af9f302211947c6494"}, "docker": "quay.io/biocontainers/fann"}
+config: {"url": "https://biocontainers.pro/tools/fann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fann", "latest": {"2.2.0--h503566f_7": "sha256:7a069d8f217f5c21204b8425e16c721ce7f0b41ee27f80eccc8b0beb4dce9afe"}, "tags": {"2.2.0--h87f3376_4": "sha256:e480b92b8d598028eade0cd49a8a530fd3a5cf200903b883b0b50eddf70b829f", "2.2.0--hdbdd923_6": "sha256:c0ab7030caf0f67442c68045a15c6ef38ade4210f3f693af9f302211947c6494", "2.2.0--h503566f_7": "sha256:7a069d8f217f5c21204b8425e16c721ce7f0b41ee27f80eccc8b0beb4dce9afe"}, "docker": "quay.io/biocontainers/fann"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fann.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fann
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fann:2.2.0--hdbdd923_6
+$ shpc install quay.io/biocontainers/fann:2.2.0--h503566f_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fann/2.2.0--hdbdd923_6
-$ module help quay.io/biocontainers/fann/2.2.0--hdbdd923_6
+$ module load quay.io/biocontainers/fann/2.2.0--h503566f_7
+$ module help quay.io/biocontainers/fann/2.2.0--h503566f_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

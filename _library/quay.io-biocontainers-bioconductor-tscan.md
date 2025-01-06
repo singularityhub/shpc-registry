@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
-updated_at: "2025-01-05 03:37:28.207742"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:37:11.022371"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tscan"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscan", "latest": {"1.40.0--r43hdfd78af_0": "sha256:7ce1a350bd3ad8e629c251621b3326032d5e6976e6a695b5297a420e1645dff4"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc", "1.36.0--r42hdfd78af_0": "sha256:83ea7e9dd5324fa7486b482f3a0a4f5446e0b9aae1ec2a656e98f9a6cd034c03", "1.38.0--r43hdfd78af_0": "sha256:f28252834ec82d4b31afbd6f35d8fef3a919a0072812955b7be52caf29dfa48f", "1.40.0--r43hdfd78af_0": "sha256:7ce1a350bd3ad8e629c251621b3326032d5e6976e6a695b5297a420e1645dff4"}, "docker": "quay.io/biocontainers/bioconductor-tscan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscan", "latest": {"1.44.0--r44hdfd78af_0": "sha256:327b3f7ebbd2179b4ba59caeb3f9af9340afcc779eee635a66410ffb10dca8c7"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc", "1.36.0--r42hdfd78af_0": "sha256:83ea7e9dd5324fa7486b482f3a0a4f5446e0b9aae1ec2a656e98f9a6cd034c03", "1.38.0--r43hdfd78af_0": "sha256:f28252834ec82d4b31afbd6f35d8fef3a919a0072812955b7be52caf29dfa48f", "1.40.0--r43hdfd78af_0": "sha256:7ce1a350bd3ad8e629c251621b3326032d5e6976e6a695b5297a420e1645dff4", "1.44.0--r44hdfd78af_0": "sha256:327b3f7ebbd2179b4ba59caeb3f9af9340afcc779eee635a66410ffb10dca8c7"}, "docker": "quay.io/biocontainers/bioconductor-tscan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tscan.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tscan:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tscan:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tscan/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tscan/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tscan/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tscan/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

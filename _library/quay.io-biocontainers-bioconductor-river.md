@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-river"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-river/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-river/container.yaml"
-updated_at: "2025-01-05 03:13:20.805959"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:13:12.027270"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-river"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.12.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-river"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-river", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-river", "latest": {"1.26.0--r43hdfd78af_0": "sha256:660566700292b5fbbc9e7c660eece5e2b971d20bade65c86b234e27db99ae217"}, "tags": {"1.8.0--r36_1": "sha256:dc2a11ec9b0d3d01acd5aabe023da76e1f615eb9f21238427c131e41229332fb", "1.22.0--r42hdfd78af_0": "sha256:29a4c326c4d7bc5051209735c1e569c0eac225697ecb4fdb9bda83729e11ac04", "1.18.0--r41hdfd78af_0": "sha256:93c3a00ce0080193f436a4529cb759017957033a887b43756e161833eb0e5ab0", "1.16.0--r41hdfd78af_0": "sha256:b441213994283bbf17d35409453f729303a55fa9e4ee340f9cf76fdee56f36d1", "1.14.0--r40hdfd78af_1": "sha256:2e9fa73e5a616d78e7c9537a1f49969676d143a66414b85f2c29b058444b750f", "1.12.0--r40_0": "sha256:032a2628307fc79a2154e0df41750042d8fccbf45b081347597d4f4b26915e3b", "1.24.0--r43hdfd78af_0": "sha256:f5f392214d3748eef432acd0edc4b8dfbd4a106aa7633977b2df3e0e1e38a8c7", "1.26.0--r43hdfd78af_0": "sha256:660566700292b5fbbc9e7c660eece5e2b971d20bade65c86b234e27db99ae217"}, "docker": "quay.io/biocontainers/bioconductor-river", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-river", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-river", "latest": {"1.30.0--r44hdfd78af_0": "sha256:c880b4e515406625ff546526247960fa0fe2210df121d32c71a64e4e1dc52925"}, "tags": {"1.8.0--r36_1": "sha256:dc2a11ec9b0d3d01acd5aabe023da76e1f615eb9f21238427c131e41229332fb", "1.22.0--r42hdfd78af_0": "sha256:29a4c326c4d7bc5051209735c1e569c0eac225697ecb4fdb9bda83729e11ac04", "1.18.0--r41hdfd78af_0": "sha256:93c3a00ce0080193f436a4529cb759017957033a887b43756e161833eb0e5ab0", "1.16.0--r41hdfd78af_0": "sha256:b441213994283bbf17d35409453f729303a55fa9e4ee340f9cf76fdee56f36d1", "1.14.0--r40hdfd78af_1": "sha256:2e9fa73e5a616d78e7c9537a1f49969676d143a66414b85f2c29b058444b750f", "1.12.0--r40_0": "sha256:032a2628307fc79a2154e0df41750042d8fccbf45b081347597d4f4b26915e3b", "1.24.0--r43hdfd78af_0": "sha256:f5f392214d3748eef432acd0edc4b8dfbd4a106aa7633977b2df3e0e1e38a8c7", "1.26.0--r43hdfd78af_0": "sha256:660566700292b5fbbc9e7c660eece5e2b971d20bade65c86b234e27db99ae217", "1.30.0--r44hdfd78af_0": "sha256:c880b4e515406625ff546526247960fa0fe2210df121d32c71a64e4e1dc52925"}, "docker": "quay.io/biocontainers/bioconductor-river", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-river.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-river
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-river:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-river:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-river/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-river/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-river/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-river/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-seqsetvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqsetvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqsetvis/container.yaml"
-updated_at: "2025-01-05 03:18:47.034171"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:18:37.933478"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqsetvis"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.18.0--r42hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seqsetvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqsetvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqsetvis", "latest": {"1.22.0--r43hdfd78af_0": "sha256:d242bbe193bb911ffc38a3a4eaa836dfd3863c174664c1b55670ef9ba213446a"}, "tags": {"1.8.0--r40_0": "sha256:c33f5ad4a8ef12fa9e03f53a2c8ebea7bd85d72a59e024ad5984b975d0341b94", "1.14.0--r41hdfd78af_0": "sha256:b6b7c5e816fad4a912e05ce917e55185db01f3c943764a965280f13ea628798a", "1.12.0--r41hdfd78af_0": "sha256:504942bcf4fd6e4a107c136a502b02eb8a684217c17029b3c968f702260e90cd", "1.10.0--r40hdfd78af_1": "sha256:61f8d586f35e5b55a40d626a680a62ade4b71430ae5de3b33a5e7a35f33bf29f", "1.18.0--r42hdfd78af_0": "sha256:d43bb0948eb2c17aa7585d50ecd55d57ff4fe4d51d9e176ed1bc1398c5f4849a", "1.20.0--r43hdfd78af_0": "sha256:384771d6bb17d235430998bea7785a8c6702acc10dc05abb393ab441987ad824", "1.22.0--r43hdfd78af_0": "sha256:d242bbe193bb911ffc38a3a4eaa836dfd3863c174664c1b55670ef9ba213446a"}, "docker": "quay.io/biocontainers/bioconductor-seqsetvis", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqsetvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqsetvis", "latest": {"1.26.0--r44hdfd78af_0": "sha256:71f789dec3136db267d0372efdb4f843ae9dba28f1fda073aad6708456eeda77"}, "tags": {"1.8.0--r40_0": "sha256:c33f5ad4a8ef12fa9e03f53a2c8ebea7bd85d72a59e024ad5984b975d0341b94", "1.14.0--r41hdfd78af_0": "sha256:b6b7c5e816fad4a912e05ce917e55185db01f3c943764a965280f13ea628798a", "1.12.0--r41hdfd78af_0": "sha256:504942bcf4fd6e4a107c136a502b02eb8a684217c17029b3c968f702260e90cd", "1.10.0--r40hdfd78af_1": "sha256:61f8d586f35e5b55a40d626a680a62ade4b71430ae5de3b33a5e7a35f33bf29f", "1.18.0--r42hdfd78af_0": "sha256:d43bb0948eb2c17aa7585d50ecd55d57ff4fe4d51d9e176ed1bc1398c5f4849a", "1.20.0--r43hdfd78af_0": "sha256:384771d6bb17d235430998bea7785a8c6702acc10dc05abb393ab441987ad824", "1.22.0--r43hdfd78af_0": "sha256:d242bbe193bb911ffc38a3a4eaa836dfd3863c174664c1b55670ef9ba213446a", "1.26.0--r44hdfd78af_0": "sha256:71f789dec3136db267d0372efdb4f843ae9dba28f1fda073aad6708456eeda77"}, "docker": "quay.io/biocontainers/bioconductor-seqsetvis", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqsetvis.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seqsetvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seqsetvis:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seqsetvis:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seqsetvis/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seqsetvis/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seqsetvis/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seqsetvis/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

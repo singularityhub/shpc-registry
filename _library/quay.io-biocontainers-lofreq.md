@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lofreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lofreq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lofreq/container.yaml"
-updated_at: "2025-01-05 03:39:45.224218"
-latest: "2.1.5--py312he028972_14"
+updated_at: "2025-01-06 03:39:26.362991"
+latest: "2.1.5--py311hce89694_15"
 container_url: "https://biocontainers.pro/tools/lofreq"
 aliases:
  - "lofreq"
@@ -29,8 +29,9 @@ versions:
  - "2.1.5--py38h794fc9e_10"
  - "2.1.5--py38h7cf9df2_11"
  - "2.1.5--py312he028972_14"
+ - "2.1.5--py311hce89694_15"
 description: "shpc-registry automated BioContainers addition for lofreq"
-config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py312he028972_14": "sha256:cdab780f441d0d5a48fadcbcd38bc924efbdc2c013ca0a8a4639c58b047f4cc2"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8", "broken---2.5.1--py38h1bd3507_2": "sha256:1b8da7808ef98f526df7781f69dd67775d88d87236e126ec0c2f310a036355ba", "2.1.5--py38h794fc9e_10": "sha256:1d586fd2dcc67327f6799c7f0fd17b98906d4282b6ea2e109f1c8286d9350361", "2.1.5--py38h7cf9df2_11": "sha256:b24bf1b0fdb83c43b7a82577e7b4fa400a6c05e1b67bdcd04b3e1a20f6712fe3", "2.1.5--py312he028972_14": "sha256:cdab780f441d0d5a48fadcbcd38bc924efbdc2c013ca0a8a4639c58b047f4cc2"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py311hce89694_15": "sha256:4c48b6f197f00d91dca7d66cf764e5adb916ce5fabdd362e494b8150c1396da3"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8", "broken---2.5.1--py38h1bd3507_2": "sha256:1b8da7808ef98f526df7781f69dd67775d88d87236e126ec0c2f310a036355ba", "2.1.5--py38h794fc9e_10": "sha256:1d586fd2dcc67327f6799c7f0fd17b98906d4282b6ea2e109f1c8286d9350361", "2.1.5--py38h7cf9df2_11": "sha256:b24bf1b0fdb83c43b7a82577e7b4fa400a6c05e1b67bdcd04b3e1a20f6712fe3", "2.1.5--py312he028972_14": "sha256:cdab780f441d0d5a48fadcbcd38bc924efbdc2c013ca0a8a4639c58b047f4cc2", "2.1.5--py311hce89694_15": "sha256:4c48b6f197f00d91dca7d66cf764e5adb916ce5fabdd362e494b8150c1396da3"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lofreq.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/lofreq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lofreq:2.1.5--py312he028972_14
+$ shpc install quay.io/biocontainers/lofreq:2.1.5--py311hce89694_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lofreq/2.1.5--py312he028972_14
-$ module help quay.io/biocontainers/lofreq/2.1.5--py312he028972_14
+$ module load quay.io/biocontainers/lofreq/2.1.5--py311hce89694_15
+$ module help quay.io/biocontainers/lofreq/2.1.5--py311hce89694_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

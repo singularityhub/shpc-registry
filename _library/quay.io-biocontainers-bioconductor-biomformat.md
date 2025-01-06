@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biomformat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomformat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomformat/container.yaml"
-updated_at: "2025-01-05 03:15:14.157569"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:15:04.341526"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomformat"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biomformat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biomformat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomformat", "latest": {"1.30.0--r43hdfd78af_0": "sha256:c46a3e91298415b0aa4d5e130294f2e9aae122d81ea882f7af459063f452c734"}, "tags": {"1.8.0--r351_0": "sha256:17a970f11e808e8f3a30a2490ae3c7b88177f4f49a92030fd0381c873aff9140", "1.26.0--r42hdfd78af_0": "sha256:b626cc9aeda70c955b5d17c11b41cbe2b9fab466621ad2080456163286f3baf0", "1.22.0--r41hdfd78af_0": "sha256:fa26c6b1abea085b296391a64cfdd8ee3d88f118fb8cc047ab9014764b796239", "1.20.0--r41hdfd78af_0": "sha256:64f8d6b13662fec97053122c8e8cd0d25b012c851931edda13116851cdd23a59", "1.18.0--r40hdfd78af_1": "sha256:d56452aea777a469305ad5ba097268689178a11aac9a6f9e24d33b1c1edfa982", "1.16.0--r40_0": "sha256:4239eb75dbedf61842d4e9669461bf7b325e0f9adea79ce5eda9c21d987193d8", "1.28.0--r43hdfd78af_0": "sha256:463ad051acf9ac6875b98a1e5da657204bc8b644af095222927e29552a751a7e", "1.30.0--r43hdfd78af_0": "sha256:c46a3e91298415b0aa4d5e130294f2e9aae122d81ea882f7af459063f452c734"}, "docker": "quay.io/biocontainers/bioconductor-biomformat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biomformat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomformat", "latest": {"1.34.0--r44hdfd78af_0": "sha256:9ba29218d546481581ee76617f3f7945ff85a7df7e5543ef6d667c274d9159ad"}, "tags": {"1.8.0--r351_0": "sha256:17a970f11e808e8f3a30a2490ae3c7b88177f4f49a92030fd0381c873aff9140", "1.26.0--r42hdfd78af_0": "sha256:b626cc9aeda70c955b5d17c11b41cbe2b9fab466621ad2080456163286f3baf0", "1.22.0--r41hdfd78af_0": "sha256:fa26c6b1abea085b296391a64cfdd8ee3d88f118fb8cc047ab9014764b796239", "1.20.0--r41hdfd78af_0": "sha256:64f8d6b13662fec97053122c8e8cd0d25b012c851931edda13116851cdd23a59", "1.18.0--r40hdfd78af_1": "sha256:d56452aea777a469305ad5ba097268689178a11aac9a6f9e24d33b1c1edfa982", "1.16.0--r40_0": "sha256:4239eb75dbedf61842d4e9669461bf7b325e0f9adea79ce5eda9c21d987193d8", "1.28.0--r43hdfd78af_0": "sha256:463ad051acf9ac6875b98a1e5da657204bc8b644af095222927e29552a751a7e", "1.30.0--r43hdfd78af_0": "sha256:c46a3e91298415b0aa4d5e130294f2e9aae122d81ea882f7af459063f452c734", "1.34.0--r44hdfd78af_0": "sha256:9ba29218d546481581ee76617f3f7945ff85a7df7e5543ef6d667c274d9159ad"}, "docker": "quay.io/biocontainers/bioconductor-biomformat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biomformat.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biomformat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biomformat:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biomformat:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biomformat/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biomformat/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biomformat/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biomformat/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

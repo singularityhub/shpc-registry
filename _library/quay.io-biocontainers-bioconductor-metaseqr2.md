@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metaseqr2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaseqr2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaseqr2/container.yaml"
-updated_at: "2025-01-05 03:26:16.993449"
-latest: "1.10.0--r42ha9d7317_1"
+updated_at: "2025-01-06 03:26:05.976593"
+latest: "1.18.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaseqr2"
 aliases:
  - "pandoc-server"
@@ -14,8 +14,9 @@ versions:
  - "1.6.1--r41hc0cfd56_1"
  - "1.10.0--r42hc0cfd56_0"
  - "1.10.0--r42ha9d7317_1"
+ - "1.18.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metaseqr2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metaseqr2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaseqr2", "latest": {"1.10.0--r42ha9d7317_1": "sha256:d60964f9ffe305cc094d85a12619bccfe89569abc548c0f34e066019906f5dd2"}, "tags": {"1.6.1--r41hc0cfd56_1": "sha256:2f6b14e89b698413166d8524afd2ae8f5193db79bbe9d2fa27e63cd8aae9c1e6", "1.10.0--r42hc0cfd56_0": "sha256:45bd486a7fa409b890bb42554bdb931e508b208879517f2ba8f9b0cedf7aa2b3", "1.10.0--r42ha9d7317_1": "sha256:d60964f9ffe305cc094d85a12619bccfe89569abc548c0f34e066019906f5dd2"}, "docker": "quay.io/biocontainers/bioconductor-metaseqr2", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metaseqr2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaseqr2", "latest": {"1.18.0--r44h3df3fcb_0": "sha256:dabb658f42fc15d6f78ae882596e96b712a2dfe6958ca055a7a584823f7361b7"}, "tags": {"1.6.1--r41hc0cfd56_1": "sha256:2f6b14e89b698413166d8524afd2ae8f5193db79bbe9d2fa27e63cd8aae9c1e6", "1.10.0--r42hc0cfd56_0": "sha256:45bd486a7fa409b890bb42554bdb931e508b208879517f2ba8f9b0cedf7aa2b3", "1.10.0--r42ha9d7317_1": "sha256:d60964f9ffe305cc094d85a12619bccfe89569abc548c0f34e066019906f5dd2", "1.18.0--r44h3df3fcb_0": "sha256:dabb658f42fc15d6f78ae882596e96b712a2dfe6958ca055a7a584823f7361b7"}, "docker": "quay.io/biocontainers/bioconductor-metaseqr2", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metaseqr2.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metaseqr2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metaseqr2:1.10.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-metaseqr2:1.18.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metaseqr2/1.10.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-metaseqr2/1.10.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-metaseqr2/1.18.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-metaseqr2/1.18.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

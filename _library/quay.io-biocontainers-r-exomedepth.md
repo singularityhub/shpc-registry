@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-exomedepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-exomedepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-exomedepth/container.yaml"
-updated_at: "2025-01-05 03:27:19.049655"
+updated_at: "2025-01-06 03:27:07.517827"
 latest: "1.1.16--r44h9f7ea62_4"
 container_url: "https://biocontainers.pro/tools/r-exomedepth"
 

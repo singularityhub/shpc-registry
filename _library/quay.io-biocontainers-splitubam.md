@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/splitubam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitubam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitubam/container.yaml"
-updated_at: "2025-01-05 03:23:57.903483"
-latest: "0.1.1--hc9368f3_0"
+updated_at: "2025-01-06 03:23:48.014664"
+latest: "0.1.1--ha96b9cd_1"
 container_url: "https://biocontainers.pro/tools/splitubam"
 aliases:
  - "splitubam"
 versions:
  - "0.1.1--hc9368f3_0"
+ - "0.1.1--ha96b9cd_1"
 description: "singularity registry hpc automated addition for splitubam"
-config: {"url": "https://biocontainers.pro/tools/splitubam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitubam", "latest": {"0.1.1--hc9368f3_0": "sha256:c29614a57ef61f6ad75eb767da6c964a603d0eb60fa2439a5c13769af4e3a85c"}, "tags": {"0.1.1--hc9368f3_0": "sha256:c29614a57ef61f6ad75eb767da6c964a603d0eb60fa2439a5c13769af4e3a85c"}, "docker": "quay.io/biocontainers/splitubam", "aliases": {"splitubam": "/usr/local/bin/splitubam"}}
+config: {"url": "https://biocontainers.pro/tools/splitubam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitubam", "latest": {"0.1.1--ha96b9cd_1": "sha256:e53835bffec03116f29040c2600030544e3a283ade5a616d880033d7d5cec52a"}, "tags": {"0.1.1--hc9368f3_0": "sha256:c29614a57ef61f6ad75eb767da6c964a603d0eb60fa2439a5c13769af4e3a85c", "0.1.1--ha96b9cd_1": "sha256:e53835bffec03116f29040c2600030544e3a283ade5a616d880033d7d5cec52a"}, "docker": "quay.io/biocontainers/splitubam", "aliases": {"splitubam": "/usr/local/bin/splitubam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splitubam.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/splitubam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splitubam:0.1.1--hc9368f3_0
+$ shpc install quay.io/biocontainers/splitubam:0.1.1--ha96b9cd_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splitubam/0.1.1--hc9368f3_0
-$ module help quay.io/biocontainers/splitubam/0.1.1--hc9368f3_0
+$ module load quay.io/biocontainers/splitubam/0.1.1--ha96b9cd_1
+$ module help quay.io/biocontainers/splitubam/0.1.1--ha96b9cd_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

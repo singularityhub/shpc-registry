@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phabox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phabox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phabox/container.yaml"
-updated_at: "2025-01-05 03:26:59.110786"
-latest: "2.1.7--pyhdfd78af_0"
+updated_at: "2025-01-06 03:26:47.798795"
+latest: "2.1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phabox"
 aliases:
  - "Cherry_single"
@@ -48,8 +48,9 @@ versions:
  - "2.0.0--pyh7e72e81_0"
  - "2.1.0--pyhdfd78af_0"
  - "2.1.7--pyhdfd78af_0"
+ - "2.1.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phabox"
-config: {"url": "https://biocontainers.pro/tools/phabox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phabox", "latest": {"2.1.7--pyhdfd78af_0": "sha256:667a002486cab4490bd556871a81ffe82d89ae9db0dce361a02f93c5502d0e9d"}, "tags": {"2.0.0--pyh7e72e81_0": "sha256:50ecc67dc9dbd7e950bf7e8d9e5d6081deec3bc43267a1fd42213d9a797c1713", "2.1.0--pyhdfd78af_0": "sha256:45f9ca02600aaada1655a5c317c8014688b9e127ad6a347dce32b5bd2b1de3d9", "2.1.7--pyhdfd78af_0": "sha256:667a002486cab4490bd556871a81ffe82d89ae9db0dce361a02f93c5502d0e9d"}, "docker": "quay.io/biocontainers/phabox", "aliases": {"Cherry_single": "/usr/local/bin/Cherry_single", "PhaGCN_single": "/usr/local/bin/PhaGCN_single", "PhaMer_single": "/usr/local/bin/PhaMer_single", "PhaTYP_single": "/usr/local/bin/PhaTYP_single", "checksum-profile": "/usr/local/bin/checksum-profile", "datasets-cli": "/usr/local/bin/datasets-cli", "elastishadow": "/usr/local/bin/elastishadow", "huggingface-cli": "/usr/local/bin/huggingface-cli", "phabox": "/usr/local/bin/phabox", "pprodigal": "/usr/local/bin/pprodigal", "transformers-cli": "/usr/local/bin/transformers-cli", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "get_gprof": "/usr/local/bin/get_gprof", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "numpy-config": "/usr/local/bin/numpy-config", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
+config: {"url": "https://biocontainers.pro/tools/phabox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phabox", "latest": {"2.1.10--pyhdfd78af_0": "sha256:952d85ca84ae21ded6e82e9c26bf12ab9e9dbdb36503ae86f45ddd8ad729b5e7"}, "tags": {"2.0.0--pyh7e72e81_0": "sha256:50ecc67dc9dbd7e950bf7e8d9e5d6081deec3bc43267a1fd42213d9a797c1713", "2.1.0--pyhdfd78af_0": "sha256:45f9ca02600aaada1655a5c317c8014688b9e127ad6a347dce32b5bd2b1de3d9", "2.1.7--pyhdfd78af_0": "sha256:667a002486cab4490bd556871a81ffe82d89ae9db0dce361a02f93c5502d0e9d", "2.1.10--pyhdfd78af_0": "sha256:952d85ca84ae21ded6e82e9c26bf12ab9e9dbdb36503ae86f45ddd8ad729b5e7"}, "docker": "quay.io/biocontainers/phabox", "aliases": {"Cherry_single": "/usr/local/bin/Cherry_single", "PhaGCN_single": "/usr/local/bin/PhaGCN_single", "PhaMer_single": "/usr/local/bin/PhaMer_single", "PhaTYP_single": "/usr/local/bin/PhaTYP_single", "checksum-profile": "/usr/local/bin/checksum-profile", "datasets-cli": "/usr/local/bin/datasets-cli", "elastishadow": "/usr/local/bin/elastishadow", "huggingface-cli": "/usr/local/bin/huggingface-cli", "phabox": "/usr/local/bin/phabox", "pprodigal": "/usr/local/bin/pprodigal", "transformers-cli": "/usr/local/bin/transformers-cli", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "get_gprof": "/usr/local/bin/get_gprof", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "numpy-config": "/usr/local/bin/numpy-config", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phabox.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/phabox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phabox:2.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phabox:2.1.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phabox/2.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/phabox/2.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/phabox/2.1.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/phabox/2.1.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

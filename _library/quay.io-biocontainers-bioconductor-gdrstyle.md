@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gdrstyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrstyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrstyle/container.yaml"
-updated_at: "2025-01-05 03:26:01.955559"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:25:51.078213"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrstyle"
 aliases:
  - "git2"
@@ -14,8 +14,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gdrstyle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gdrstyle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdrstyle", "latest": {"1.0.0--r43hdfd78af_0": "sha256:80935e21c9e208433af135e8cfa805a4cc13ba920b1706d88f7f7e7798a493df"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:80935e21c9e208433af135e8cfa805a4cc13ba920b1706d88f7f7e7798a493df"}, "docker": "quay.io/biocontainers/bioconductor-gdrstyle", "aliases": {"git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gdrstyle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdrstyle", "latest": {"1.4.0--r44hdfd78af_0": "sha256:5f0d9159d5b6ba023d905db2f6158f64a62ff8eac1be30895bb982504b51b408"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:80935e21c9e208433af135e8cfa805a4cc13ba920b1706d88f7f7e7798a493df", "1.4.0--r44hdfd78af_0": "sha256:5f0d9159d5b6ba023d905db2f6158f64a62ff8eac1be30895bb982504b51b408"}, "docker": "quay.io/biocontainers/bioconductor-gdrstyle", "aliases": {"git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gdrstyle.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gdrstyle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gdrstyle:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gdrstyle:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gdrstyle/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gdrstyle/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gdrstyle/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gdrstyle/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

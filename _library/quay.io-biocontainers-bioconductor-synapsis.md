@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-synapsis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synapsis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synapsis/container.yaml"
-updated_at: "2025-01-05 03:19:24.371338"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:19:15.628124"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synapsis"
 aliases:
  - "fftw-wisdom"
@@ -17,8 +17,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synapsis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synapsis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapsis", "latest": {"1.8.0--r43hdfd78af_0": "sha256:7426af05ac09ffe817fe3213ecfd1fea6d318057d845d402d8fa4da033de8208"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570", "1.4.0--r42hdfd78af_0": "sha256:74b98438da40e53a5baa210df9e05e802e3ddeaf5769ffcb5f77f36cf1665410", "1.6.0--r43hdfd78af_0": "sha256:9bc0e4b4bc4358b435c723799845402427038393d67ca989c8c2d402bd51468a", "1.8.0--r43hdfd78af_0": "sha256:7426af05ac09ffe817fe3213ecfd1fea6d318057d845d402d8fa4da033de8208"}, "docker": "quay.io/biocontainers/bioconductor-synapsis", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synapsis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapsis", "latest": {"1.12.0--r44hdfd78af_0": "sha256:e870226542cf0ec4bb614fb09347504f18ef2060a49ffb99a1e313433bb498db"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570", "1.4.0--r42hdfd78af_0": "sha256:74b98438da40e53a5baa210df9e05e802e3ddeaf5769ffcb5f77f36cf1665410", "1.6.0--r43hdfd78af_0": "sha256:9bc0e4b4bc4358b435c723799845402427038393d67ca989c8c2d402bd51468a", "1.8.0--r43hdfd78af_0": "sha256:7426af05ac09ffe817fe3213ecfd1fea6d318057d845d402d8fa4da033de8208", "1.12.0--r44hdfd78af_0": "sha256:e870226542cf0ec4bb614fb09347504f18ef2060a49ffb99a1e313433bb498db"}, "docker": "quay.io/biocontainers/bioconductor-synapsis", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synapsis.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synapsis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synapsis:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-synapsis:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synapsis/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-synapsis/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-synapsis/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synapsis/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

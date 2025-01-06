@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fdb.ucsc.trnas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/container.yaml"
-updated_at: "2025-01-05 03:40:09.835456"
+updated_at: "2025-01-06 03:39:50.603831"
 latest: "1.0.1--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.trnas"
 

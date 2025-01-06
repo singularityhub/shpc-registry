@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-hgvsparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hgvsparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hgvsparser/container.yaml"
-updated_at: "2025-01-05 03:27:52.763153"
-latest: "0.1.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:27:41.055079"
+latest: "0.1.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-hgvsparser"
 aliases:
  - "pandoc-lua"
@@ -16,8 +16,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.1.0--r43hdfd78af_0"
+ - "0.1.0--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for r-hgvsparser"
-config: {"url": "https://biocontainers.pro/tools/r-hgvsparser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hgvsparser", "latest": {"0.1.0--r43hdfd78af_0": "sha256:7a661cccf3035b5718700061e6768f4c31fee7ba50ff9b30a23400f22e353259"}, "tags": {"0.1.0--r43hdfd78af_0": "sha256:7a661cccf3035b5718700061e6768f4c31fee7ba50ff9b30a23400f22e353259"}, "docker": "quay.io/biocontainers/r-hgvsparser", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "git2": "/usr/local/bin/git2", "pandoc-server": "/usr/local/bin/pandoc-server", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-hgvsparser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hgvsparser", "latest": {"0.1.0--r44hdfd78af_1": "sha256:c85afcca958633e3836386f313c9b589034db47cfff7d56cadfca64c92b4f2b9"}, "tags": {"0.1.0--r43hdfd78af_0": "sha256:7a661cccf3035b5718700061e6768f4c31fee7ba50ff9b30a23400f22e353259", "0.1.0--r44hdfd78af_1": "sha256:c85afcca958633e3836386f313c9b589034db47cfff7d56cadfca64c92b4f2b9"}, "docker": "quay.io/biocontainers/r-hgvsparser", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "git2": "/usr/local/bin/git2", "pandoc-server": "/usr/local/bin/pandoc-server", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hgvsparser.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-hgvsparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-hgvsparser:0.1.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-hgvsparser:0.1.0--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-hgvsparser/0.1.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-hgvsparser/0.1.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-hgvsparser/0.1.0--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-hgvsparser/0.1.0--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

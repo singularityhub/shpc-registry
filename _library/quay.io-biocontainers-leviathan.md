@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/leviathan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leviathan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leviathan/container.yaml"
-updated_at: "2025-01-05 03:03:44.841591"
-latest: "1.0.2--h4ac6f70_3"
+updated_at: "2025-01-06 03:03:39.233243"
+latest: "1.0.2--h9948957_4"
 container_url: "https://biocontainers.pro/tools/leviathan"
 aliases:
  - "LEVIATHAN"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.2--h9f5acd7_2"
  - "1.0.2--h4ac6f70_3"
+ - "1.0.2--h9948957_4"
 description: "shpc-registry automated BioContainers addition for leviathan"
-config: {"url": "https://biocontainers.pro/tools/leviathan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leviathan", "latest": {"1.0.2--h4ac6f70_3": "sha256:31196b84c9444a49f7f63489108ae38cde3e66ca09565a38e11e618789ad1c08"}, "tags": {"1.0.2--h9f5acd7_2": "sha256:8202932299e05c944ad3033ef0131c0b2c17d54dc4316986c9363a324e1e680b", "1.0.2--h4ac6f70_3": "sha256:31196b84c9444a49f7f63489108ae38cde3e66ca09565a38e11e618789ad1c08"}, "docker": "quay.io/biocontainers/leviathan", "aliases": {"LEVIATHAN": "/usr/local/bin/LEVIATHAN", "LRez": "/usr/local/bin/LRez"}}
+config: {"url": "https://biocontainers.pro/tools/leviathan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leviathan", "latest": {"1.0.2--h9948957_4": "sha256:293db4f75cef2fbb2edab3257003ecef5bba604aec77a26b8bc7b9c0ab2462fe"}, "tags": {"1.0.2--h9f5acd7_2": "sha256:8202932299e05c944ad3033ef0131c0b2c17d54dc4316986c9363a324e1e680b", "1.0.2--h4ac6f70_3": "sha256:31196b84c9444a49f7f63489108ae38cde3e66ca09565a38e11e618789ad1c08", "1.0.2--h9948957_4": "sha256:293db4f75cef2fbb2edab3257003ecef5bba604aec77a26b8bc7b9c0ab2462fe"}, "docker": "quay.io/biocontainers/leviathan", "aliases": {"LEVIATHAN": "/usr/local/bin/LEVIATHAN", "LRez": "/usr/local/bin/LRez"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/leviathan.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/leviathan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/leviathan:1.0.2--h4ac6f70_3
+$ shpc install quay.io/biocontainers/leviathan:1.0.2--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/leviathan/1.0.2--h4ac6f70_3
-$ module help quay.io/biocontainers/leviathan/1.0.2--h4ac6f70_3
+$ module load quay.io/biocontainers/leviathan/1.0.2--h9948957_4
+$ module help quay.io/biocontainers/leviathan/1.0.2--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

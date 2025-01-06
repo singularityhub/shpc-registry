@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-shinymethyl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinymethyl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinymethyl/container.yaml"
-updated_at: "2025-01-05 03:19:39.754877"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:19:31.197079"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinymethyl"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-shinymethyl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-shinymethyl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinymethyl", "latest": {"1.38.0--r43hdfd78af_0": "sha256:7e55e6602805399f22e13518197068d9700ba594e105d74e33003f9693ec8f25"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:bb598efeb2150f87b9a7d4ba0b1f3833212455f7095cc152e1f87d70b9953c21", "1.34.0--r42hdfd78af_0": "sha256:22c80a621d7bcaf3fef8e88ac8479189a0ac865198c9af8663034215e022c974", "1.36.0--r43hdfd78af_0": "sha256:a0e5ae83cc54f5df6936005e5cce2eea3f394a9d0b92ed05ce720a5b36eab615", "1.38.0--r43hdfd78af_0": "sha256:7e55e6602805399f22e13518197068d9700ba594e105d74e33003f9693ec8f25"}, "docker": "quay.io/biocontainers/bioconductor-shinymethyl"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-shinymethyl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinymethyl", "latest": {"1.42.0--r44hdfd78af_0": "sha256:375fc97c4cbed6498b796d656e83bbd8cbc305398e0e78920f927701158d51c7"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:bb598efeb2150f87b9a7d4ba0b1f3833212455f7095cc152e1f87d70b9953c21", "1.34.0--r42hdfd78af_0": "sha256:22c80a621d7bcaf3fef8e88ac8479189a0ac865198c9af8663034215e022c974", "1.36.0--r43hdfd78af_0": "sha256:a0e5ae83cc54f5df6936005e5cce2eea3f394a9d0b92ed05ce720a5b36eab615", "1.38.0--r43hdfd78af_0": "sha256:7e55e6602805399f22e13518197068d9700ba594e105d74e33003f9693ec8f25", "1.42.0--r44hdfd78af_0": "sha256:375fc97c4cbed6498b796d656e83bbd8cbc305398e0e78920f927701158d51c7"}, "docker": "quay.io/biocontainers/bioconductor-shinymethyl"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-shinymethyl.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-shinymethyl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-shinymethyl:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-shinymethyl:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-shinymethyl/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-shinymethyl/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-shinymethyl/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-shinymethyl/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

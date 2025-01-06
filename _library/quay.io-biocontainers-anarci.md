@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anarci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anarci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anarci/container.yaml"
-updated_at: "2025-01-05 03:12:13.331085"
-latest: "2021.02.04--pyhdfd78af_0"
+updated_at: "2025-01-06 03:12:05.230756"
+latest: "2024.05.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anarci"
 aliases:
  - "ANARCI"
@@ -21,8 +21,9 @@ aliases:
  - "esl-alistat"
 versions:
  - "2021.02.04--pyhdfd78af_0"
+ - "2024.05.21--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for anarci"
-config: {"url": "https://biocontainers.pro/tools/anarci", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anarci", "latest": {"2021.02.04--pyhdfd78af_0": "sha256:29e152bd530401e15666dc187e6c56452e5702d817c56b15283304ffda8457ff"}, "tags": {"2021.02.04--pyhdfd78af_0": "sha256:29e152bd530401e15666dc187e6c56452e5702d817c56b15283304ffda8457ff"}, "docker": "quay.io/biocontainers/anarci", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
+config: {"url": "https://biocontainers.pro/tools/anarci", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anarci", "latest": {"2024.05.21--pyhdfd78af_0": "sha256:912eba12fd48cb9e3cbe7b17c68a4f02ab8c80f3fb75e7cfce1096b00c5aaf3b"}, "tags": {"2021.02.04--pyhdfd78af_0": "sha256:29e152bd530401e15666dc187e6c56452e5702d817c56b15283304ffda8457ff", "2024.05.21--pyhdfd78af_0": "sha256:912eba12fd48cb9e3cbe7b17c68a4f02ab8c80f3fb75e7cfce1096b00c5aaf3b"}, "docker": "quay.io/biocontainers/anarci", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anarci.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/anarci
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anarci:2021.02.04--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/anarci:2024.05.21--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anarci/2021.02.04--pyhdfd78af_0
-$ module help quay.io/biocontainers/anarci/2021.02.04--pyhdfd78af_0
+$ module load quay.io/biocontainers/anarci/2024.05.21--pyhdfd78af_0
+$ module help quay.io/biocontainers/anarci/2024.05.21--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-doppelgangr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doppelgangr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doppelgangr/container.yaml"
-updated_at: "2025-01-05 03:19:28.634534"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:19:19.905819"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doppelgangr"
 
 versions:
@@ -18,8 +18,9 @@ versions:
  - "1.26.0--r42hdfd78af_0"
  - "1.28.1--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-doppelgangr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-doppelgangr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doppelgangr", "latest": {"1.30.0--r43hdfd78af_0": "sha256:010ecfd5777669cc2dc9772fad101707430124b6e3178f62be65c604432799f4"}, "tags": {"1.8.0--r351_0": "sha256:51cc10342ce8ae10a40656f002271735b9a4baceeb9577e17d5dba7b032354a6", "1.22.0--r41hdfd78af_0": "sha256:ab32058968a5a07293c1ca522591f2e60bd5c2458f3ed32b62a73a277434e117", "1.20.0--r41hdfd78af_0": "sha256:d582f6beaa58362c54354eae81f50d88503522a601f013fbdd02d3767db49952", "1.18.0--r40hdfd78af_1": "sha256:6d939ee236469b366a9ba3c1b9ea53e76cf3749f85edf09399b6f55ebd985360", "1.16.0--r40_0": "sha256:935fb9f33e78aa51307663e1819808120bb0078db97b2674df23f23d380f9bea", "1.14.0--r36_0": "sha256:fad9e91e5f17f944f237b6f4893951d883650a7529d9cdf05733c11057550b10", "1.26.0--r42hdfd78af_0": "sha256:4ba2a2d37377bc91e0364507cb654c6eb394f6785d639db9106ad6cecc054965", "1.28.1--r43hdfd78af_0": "sha256:9e8ecf7b532ca0d88466c005bd24f1d42300ed28a8ad5fdc0da49934785c1532", "1.30.0--r43hdfd78af_0": "sha256:010ecfd5777669cc2dc9772fad101707430124b6e3178f62be65c604432799f4"}, "docker": "quay.io/biocontainers/bioconductor-doppelgangr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-doppelgangr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doppelgangr", "latest": {"1.34.0--r44hdfd78af_0": "sha256:b001bf36435e3dab75efcc8717a6767aab0da6f9999f859d1e1dcf3d997af2d4"}, "tags": {"1.8.0--r351_0": "sha256:51cc10342ce8ae10a40656f002271735b9a4baceeb9577e17d5dba7b032354a6", "1.22.0--r41hdfd78af_0": "sha256:ab32058968a5a07293c1ca522591f2e60bd5c2458f3ed32b62a73a277434e117", "1.20.0--r41hdfd78af_0": "sha256:d582f6beaa58362c54354eae81f50d88503522a601f013fbdd02d3767db49952", "1.18.0--r40hdfd78af_1": "sha256:6d939ee236469b366a9ba3c1b9ea53e76cf3749f85edf09399b6f55ebd985360", "1.16.0--r40_0": "sha256:935fb9f33e78aa51307663e1819808120bb0078db97b2674df23f23d380f9bea", "1.14.0--r36_0": "sha256:fad9e91e5f17f944f237b6f4893951d883650a7529d9cdf05733c11057550b10", "1.26.0--r42hdfd78af_0": "sha256:4ba2a2d37377bc91e0364507cb654c6eb394f6785d639db9106ad6cecc054965", "1.28.1--r43hdfd78af_0": "sha256:9e8ecf7b532ca0d88466c005bd24f1d42300ed28a8ad5fdc0da49934785c1532", "1.30.0--r43hdfd78af_0": "sha256:010ecfd5777669cc2dc9772fad101707430124b6e3178f62be65c604432799f4", "1.34.0--r44hdfd78af_0": "sha256:b001bf36435e3dab75efcc8717a6767aab0da6f9999f859d1e1dcf3d997af2d4"}, "docker": "quay.io/biocontainers/bioconductor-doppelgangr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-doppelgangr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-doppelgangr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-doppelgangr:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-doppelgangr:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-doppelgangr/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-doppelgangr/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-doppelgangr/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-doppelgangr/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

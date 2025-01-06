@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/container.yaml"
-updated_at: "2025-01-05 03:34:28.114017"
-latest: "3.18.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:34:12.644823"
+latest: "3.19.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.15.0--r42hdfd78af_0"
  - "3.15.0--r43hdfd78af_1"
  - "3.18.0--r43hdfd78af_0"
+ - "3.19.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.refgene", "latest": {"3.18.0--r43hdfd78af_0": "sha256:e0e8043dc1c60b87b828578bb428ff8c24c71168c0b2ff8b77d781120b1e7da8"}, "tags": {"3.13.0--r41hdfd78af_2": "sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b", "3.15.0--r42hdfd78af_0": "sha256:b79dbbce19bce717dc33403f65aec07122d964117bde424e21cd7a3a75a365bc", "3.15.0--r43hdfd78af_1": "sha256:8c4c38b584f05b161f3a970c576b34db1e20ab55a72cfb93e57b4fe80e7201bb", "3.18.0--r43hdfd78af_0": "sha256:e0e8043dc1c60b87b828578bb428ff8c24c71168c0b2ff8b77d781120b1e7da8"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.refgene", "latest": {"3.19.0--r44hdfd78af_0": "sha256:5d800897149e1eb7b90ee9bb8d33ab877622c0a0646707f4bbb75aa6a079acd2"}, "tags": {"3.13.0--r41hdfd78af_2": "sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b", "3.15.0--r42hdfd78af_0": "sha256:b79dbbce19bce717dc33403f65aec07122d964117bde424e21cd7a3a75a365bc", "3.15.0--r43hdfd78af_1": "sha256:8c4c38b584f05b161f3a970c576b34db1e20ab55a72cfb93e57b4fe80e7201bb", "3.18.0--r43hdfd78af_0": "sha256:e0e8043dc1c60b87b828578bb428ff8c24c71168c0b2ff8b77d781120b1e7da8", "3.19.0--r44hdfd78af_0": "sha256:5d800897149e1eb7b90ee9bb8d33ab877622c0a0646707f4bbb75aa6a079acd2"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene:3.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene:3.19.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/3.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/3.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/3.19.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/3.19.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

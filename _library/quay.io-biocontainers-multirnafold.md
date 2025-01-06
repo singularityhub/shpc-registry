@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multirnafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multirnafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multirnafold/container.yaml"
-updated_at: "2025-01-05 03:42:34.590322"
-latest: "2.1--h4ac6f70_0"
+updated_at: "2025-01-06 03:42:13.826080"
+latest: "2.1--h9948957_1"
 container_url: "https://biocontainers.pro/tools/multirnafold"
 aliases:
  - "feature_description"
@@ -16,8 +16,9 @@ aliases:
  - "simfold_pf"
 versions:
  - "2.1--h4ac6f70_0"
+ - "2.1--h9948957_1"
 description: "singularity registry hpc automated addition for multirnafold"
-config: {"url": "https://biocontainers.pro/tools/multirnafold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multirnafold", "latest": {"2.1--h4ac6f70_0": "sha256:76a0ed85af24bd7ff56d7022de81435d92ddc626e4ffd385fa9123e7dffbd4da"}, "tags": {"2.1--h4ac6f70_0": "sha256:76a0ed85af24bd7ff56d7022de81435d92ddc626e4ffd385fa9123e7dffbd4da"}, "docker": "quay.io/biocontainers/multirnafold", "aliases": {"feature_description": "/usr/local/bin/feature_description", "multifold": "/usr/local/bin/multifold", "pairfold": "/usr/local/bin/pairfold", "pairfold-web": "/usr/local/bin/pairfold-web", "simfold": "/usr/local/bin/simfold", "simfold_pf": "/usr/local/bin/simfold_pf"}}
+config: {"url": "https://biocontainers.pro/tools/multirnafold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multirnafold", "latest": {"2.1--h9948957_1": "sha256:2b72340a430dc9f353af60838564eee5955310e64487803a1439f76312dde306"}, "tags": {"2.1--h4ac6f70_0": "sha256:76a0ed85af24bd7ff56d7022de81435d92ddc626e4ffd385fa9123e7dffbd4da", "2.1--h9948957_1": "sha256:2b72340a430dc9f353af60838564eee5955310e64487803a1439f76312dde306"}, "docker": "quay.io/biocontainers/multirnafold", "aliases": {"feature_description": "/usr/local/bin/feature_description", "multifold": "/usr/local/bin/multifold", "pairfold": "/usr/local/bin/pairfold", "pairfold-web": "/usr/local/bin/pairfold-web", "simfold": "/usr/local/bin/simfold", "simfold_pf": "/usr/local/bin/simfold_pf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multirnafold.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/multirnafold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multirnafold:2.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/multirnafold:2.1--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multirnafold/2.1--h4ac6f70_0
-$ module help quay.io/biocontainers/multirnafold/2.1--h4ac6f70_0
+$ module load quay.io/biocontainers/multirnafold/2.1--h9948957_1
+$ module help quay.io/biocontainers/multirnafold/2.1--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

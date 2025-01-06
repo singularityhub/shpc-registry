@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ataqv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ataqv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ataqv/container.yaml"
-updated_at: "2025-01-05 03:11:59.362404"
-latest: "1.3.1--py39h71f8c3f_4"
+updated_at: "2025-01-06 03:11:51.396589"
+latest: "1.3.1--py310h50a2689_5"
 container_url: "https://biocontainers.pro/tools/ataqv"
 aliases:
  - "ataqv"
@@ -25,8 +25,9 @@ versions:
  - "1.3.0--py27h5e5d24b_4"
  - "1.3.1--py39hc3b0e92_2"
  - "1.3.1--py39h71f8c3f_4"
+ - "1.3.1--py310h50a2689_5"
 description: "shpc-registry automated BioContainers addition for ataqv"
-config: {"url": "https://biocontainers.pro/tools/ataqv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ataqv", "latest": {"1.3.1--py39h71f8c3f_4": "sha256:f96ef4d43be3fc9fcba52a5aede701ac0aa6e5da0b5b3a18424e86d2e426b8b4"}, "tags": {"1.3.0--py27h5e5d24b_4": "sha256:e2a89c9badc8f52305001c6435da54fbf8576a55a5281a5a44e12ddc715c843f", "1.3.1--py39hc3b0e92_2": "sha256:a2b002ecb3cff5be65d4f74dcac743f59e98f5282eff54265627968fd5739177", "1.3.1--py39h71f8c3f_4": "sha256:f96ef4d43be3fc9fcba52a5aede701ac0aa6e5da0b5b3a18424e86d2e426b8b4"}, "docker": "quay.io/biocontainers/ataqv", "aliases": {"ataqv": "/usr/local/bin/ataqv", "mkarv": "/usr/local/bin/mkarv", "srvarv": "/usr/local/bin/srvarv", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/ataqv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ataqv", "latest": {"1.3.1--py310h50a2689_5": "sha256:7672c75853bbda177d17f7022a719352708ec527bcad85fb18d31ba4ad6b8cfd"}, "tags": {"1.3.0--py27h5e5d24b_4": "sha256:e2a89c9badc8f52305001c6435da54fbf8576a55a5281a5a44e12ddc715c843f", "1.3.1--py39hc3b0e92_2": "sha256:a2b002ecb3cff5be65d4f74dcac743f59e98f5282eff54265627968fd5739177", "1.3.1--py39h71f8c3f_4": "sha256:f96ef4d43be3fc9fcba52a5aede701ac0aa6e5da0b5b3a18424e86d2e426b8b4", "1.3.1--py310h50a2689_5": "sha256:7672c75853bbda177d17f7022a719352708ec527bcad85fb18d31ba4ad6b8cfd"}, "docker": "quay.io/biocontainers/ataqv", "aliases": {"ataqv": "/usr/local/bin/ataqv", "mkarv": "/usr/local/bin/mkarv", "srvarv": "/usr/local/bin/srvarv", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ataqv.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/ataqv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ataqv:1.3.1--py39h71f8c3f_4
+$ shpc install quay.io/biocontainers/ataqv:1.3.1--py310h50a2689_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ataqv/1.3.1--py39h71f8c3f_4
-$ module help quay.io/biocontainers/ataqv/1.3.1--py39h71f8c3f_4
+$ module load quay.io/biocontainers/ataqv/1.3.1--py310h50a2689_5
+$ module help quay.io/biocontainers/ataqv/1.3.1--py310h50a2689_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

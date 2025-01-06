@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mawk/container.yaml"
-updated_at: "2025-01-05 03:13:54.643764"
-latest: "1.3.4--h031d066_9"
+updated_at: "2025-01-06 03:13:45.712035"
+latest: "1.3.4--h7b50bb2_10"
 container_url: "https://biocontainers.pro/tools/mawk"
 aliases:
  - "mawk"
@@ -14,8 +14,9 @@ versions:
  - "1.3.4--h031d066_7"
  - "1.3.4--h031d066_8"
  - "1.3.4--h031d066_9"
+ - "1.3.4--h7b50bb2_10"
 description: "shpc-registry automated BioContainers addition for mawk"
-config: {"url": "https://biocontainers.pro/tools/mawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mawk", "latest": {"1.3.4--h031d066_9": "sha256:44bf07d3221dba6cef3f997c8fe2b84fab211a98ab84f523dd17893fb14ab71c"}, "tags": {"1.3.4--hec16e2b_5": "sha256:e23c6573aea6bcf47dbf05472750c4d540322874ac83de632c6c348826295566", "1.3.4--h031d066_7": "sha256:793a6f7e2f641288585b0714d097c5c6b146d5d54c72eb000de2dc7bef24a784", "1.3.4--h031d066_8": "sha256:258662fcbe35d322687ddbc66a02541b4508d3fce32d774c2684dc58e46b56e0", "1.3.4--h031d066_9": "sha256:44bf07d3221dba6cef3f997c8fe2b84fab211a98ab84f523dd17893fb14ab71c"}, "docker": "quay.io/biocontainers/mawk", "aliases": {"mawk": "/usr/local/bin/mawk"}}
+config: {"url": "https://biocontainers.pro/tools/mawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mawk", "latest": {"1.3.4--h7b50bb2_10": "sha256:b504f0ee165adb5840a4b0af89794614d1d45a74c115881a0a35e6ec1c51a536"}, "tags": {"1.3.4--hec16e2b_5": "sha256:e23c6573aea6bcf47dbf05472750c4d540322874ac83de632c6c348826295566", "1.3.4--h031d066_7": "sha256:793a6f7e2f641288585b0714d097c5c6b146d5d54c72eb000de2dc7bef24a784", "1.3.4--h031d066_8": "sha256:258662fcbe35d322687ddbc66a02541b4508d3fce32d774c2684dc58e46b56e0", "1.3.4--h031d066_9": "sha256:44bf07d3221dba6cef3f997c8fe2b84fab211a98ab84f523dd17893fb14ab71c", "1.3.4--h7b50bb2_10": "sha256:b504f0ee165adb5840a4b0af89794614d1d45a74c115881a0a35e6ec1c51a536"}, "docker": "quay.io/biocontainers/mawk", "aliases": {"mawk": "/usr/local/bin/mawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mawk.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mawk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mawk:1.3.4--h031d066_9
+$ shpc install quay.io/biocontainers/mawk:1.3.4--h7b50bb2_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mawk/1.3.4--h031d066_9
-$ module help quay.io/biocontainers/mawk/1.3.4--h031d066_9
+$ module load quay.io/biocontainers/mawk/1.3.4--h7b50bb2_10
+$ module help quay.io/biocontainers/mawk/1.3.4--h7b50bb2_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

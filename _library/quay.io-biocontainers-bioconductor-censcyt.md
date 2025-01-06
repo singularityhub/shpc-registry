@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-censcyt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
-updated_at: "2025-01-05 03:19:12.444533"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:19:03.541089"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-censcyt"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-censcyt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-censcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-censcyt", "latest": {"1.10.0--r43hdfd78af_0": "sha256:4921d3cb271a8b31b770c38a35e06425fcd47c7aa0b3962ee98725ae745451eb"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8", "1.6.0--r42hdfd78af_0": "sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8", "1.8.0--r43hdfd78af_0": "sha256:622a3f88a06af8a9a55e6b388d5bb199f6ea0b9cc28fee4cec74aa92afeff791", "1.10.0--r43hdfd78af_0": "sha256:4921d3cb271a8b31b770c38a35e06425fcd47c7aa0b3962ee98725ae745451eb"}, "docker": "quay.io/biocontainers/bioconductor-censcyt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-censcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-censcyt", "latest": {"1.14.0--r44hdfd78af_0": "sha256:2050810d2e685c6902b82a7d898fe3ffbb02e83a4a6775a3d2e355e59e5aaf54"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8", "1.6.0--r42hdfd78af_0": "sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8", "1.8.0--r43hdfd78af_0": "sha256:622a3f88a06af8a9a55e6b388d5bb199f6ea0b9cc28fee4cec74aa92afeff791", "1.10.0--r43hdfd78af_0": "sha256:4921d3cb271a8b31b770c38a35e06425fcd47c7aa0b3962ee98725ae745451eb", "1.14.0--r44hdfd78af_0": "sha256:2050810d2e685c6902b82a7d898fe3ffbb02e83a4a6775a3d2e355e59e5aaf54"}, "docker": "quay.io/biocontainers/bioconductor-censcyt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-censcyt.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-censcyt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-censcyt:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-censcyt:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-censcyt/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-censcyt/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-censcyt/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-censcyt/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastqpuri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqpuri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqpuri/container.yaml"
-updated_at: "2025-01-05 02:59:57.528811"
-latest: "1.0.7--r43h9d449c0_8"
+updated_at: "2025-01-06 02:59:53.410862"
+latest: "1.0.7--r44hb1d24b7_9"
 container_url: "https://biocontainers.pro/tools/fastqpuri"
 aliases:
  - "Qreport"
@@ -20,8 +20,9 @@ versions:
  - "1.0.7--r42h67092d7_5"
  - "1.0.7--r42h9d449c0_7"
  - "1.0.7--r43h9d449c0_8"
+ - "1.0.7--r44hb1d24b7_9"
 description: "shpc-registry automated BioContainers addition for fastqpuri"
-config: {"url": "https://biocontainers.pro/tools/fastqpuri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqpuri", "latest": {"1.0.7--r43h9d449c0_8": "sha256:2e7fe5eb791f39c44fd7d8c1a1af7c01a94a25441debab84a83daae3e4c8f6da"}, "tags": {"1.0.7--r41h67092d7_4": "sha256:986507af918272086f85cdb538c7d0bb18bd641b045c49d2979ed1d68a64ba73", "1.0.7--r42h67092d7_5": "sha256:7176d0119bfe56b6cba82622d97bb443001d24efc8e945be4e751af5d94a1e16", "1.0.7--r42h9d449c0_7": "sha256:8c02f0148dba9a05f61bec9fca5a47a396256783a94038c1728a480e2316caee", "1.0.7--r43h9d449c0_8": "sha256:2e7fe5eb791f39c44fd7d8c1a1af7c01a94a25441debab84a83daae3e4c8f6da"}, "docker": "quay.io/biocontainers/fastqpuri", "aliases": {"Qreport": "/usr/local/bin/Qreport", "Sreport": "/usr/local/bin/Sreport", "makeBloom": "/usr/local/bin/makeBloom", "makeTree": "/usr/local/bin/makeTree", "trimFilter": "/usr/local/bin/trimFilter", "trimFilterPE": "/usr/local/bin/trimFilterPE", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/fastqpuri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqpuri", "latest": {"1.0.7--r44hb1d24b7_9": "sha256:bcf94d0ff562fb99e52bf6131a79b28f165c0439a85bbc21dfb3da0e18a3fef4"}, "tags": {"1.0.7--r41h67092d7_4": "sha256:986507af918272086f85cdb538c7d0bb18bd641b045c49d2979ed1d68a64ba73", "1.0.7--r42h67092d7_5": "sha256:7176d0119bfe56b6cba82622d97bb443001d24efc8e945be4e751af5d94a1e16", "1.0.7--r42h9d449c0_7": "sha256:8c02f0148dba9a05f61bec9fca5a47a396256783a94038c1728a480e2316caee", "1.0.7--r43h9d449c0_8": "sha256:2e7fe5eb791f39c44fd7d8c1a1af7c01a94a25441debab84a83daae3e4c8f6da", "1.0.7--r44hb1d24b7_9": "sha256:bcf94d0ff562fb99e52bf6131a79b28f165c0439a85bbc21dfb3da0e18a3fef4"}, "docker": "quay.io/biocontainers/fastqpuri", "aliases": {"Qreport": "/usr/local/bin/Qreport", "Sreport": "/usr/local/bin/Sreport", "makeBloom": "/usr/local/bin/makeBloom", "makeTree": "/usr/local/bin/makeTree", "trimFilter": "/usr/local/bin/trimFilter", "trimFilterPE": "/usr/local/bin/trimFilterPE", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqpuri.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/fastqpuri
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastqpuri:1.0.7--r43h9d449c0_8
+$ shpc install quay.io/biocontainers/fastqpuri:1.0.7--r44hb1d24b7_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastqpuri/1.0.7--r43h9d449c0_8
-$ module help quay.io/biocontainers/fastqpuri/1.0.7--r43h9d449c0_8
+$ module load quay.io/biocontainers/fastqpuri/1.0.7--r44hb1d24b7_9
+$ module help quay.io/biocontainers/fastqpuri/1.0.7--r44hb1d24b7_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

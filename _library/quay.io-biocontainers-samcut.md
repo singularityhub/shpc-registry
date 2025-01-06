@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/samcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samcut/container.yaml"
-updated_at: "2025-01-05 02:58:14.469135"
-latest: "0.1.1--h4ac6f70_2"
+updated_at: "2025-01-06 02:58:10.994285"
+latest: "0.1.1--h9948957_3"
 container_url: "https://biocontainers.pro/tools/samcut"
 aliases:
  - "samcut"
 versions:
  - "0.1.1--h9f5acd7_0"
  - "0.1.1--h4ac6f70_2"
+ - "0.1.1--h9948957_3"
 description: "singularity registry hpc automated addition for samcut"
-config: {"url": "https://biocontainers.pro/tools/samcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samcut", "latest": {"0.1.1--h4ac6f70_2": "sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f"}, "tags": {"0.1.1--h9f5acd7_0": "sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be", "0.1.1--h4ac6f70_2": "sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f"}, "docker": "quay.io/biocontainers/samcut", "aliases": {"samcut": "/usr/local/bin/samcut"}}
+config: {"url": "https://biocontainers.pro/tools/samcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samcut", "latest": {"0.1.1--h9948957_3": "sha256:f355efd8ae562ceaf5a23fc313fc5f26b50c85976fbf5a6a8addcb7b94c74c57"}, "tags": {"0.1.1--h9f5acd7_0": "sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be", "0.1.1--h4ac6f70_2": "sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f", "0.1.1--h9948957_3": "sha256:f355efd8ae562ceaf5a23fc313fc5f26b50c85976fbf5a6a8addcb7b94c74c57"}, "docker": "quay.io/biocontainers/samcut", "aliases": {"samcut": "/usr/local/bin/samcut"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samcut.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/samcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samcut:0.1.1--h4ac6f70_2
+$ shpc install quay.io/biocontainers/samcut:0.1.1--h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samcut/0.1.1--h4ac6f70_2
-$ module help quay.io/biocontainers/samcut/0.1.1--h4ac6f70_2
+$ module load quay.io/biocontainers/samcut/0.1.1--h9948957_3
+$ module help quay.io/biocontainers/samcut/0.1.1--h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

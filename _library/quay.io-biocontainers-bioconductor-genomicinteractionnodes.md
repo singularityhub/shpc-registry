@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicinteractionnodes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicinteractionnodes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicinteractionnodes/container.yaml"
-updated_at: "2025-01-05 03:01:56.310347"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:01:50.714376"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicinteractionnodes"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-genomicinteractionnodes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicinteractionnodes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genomicinteractionnodes", "latest": {"1.6.0--r43hdfd78af_0": "sha256:ce7cf2a9b08f7d01ff72781adcb0a202b79e82b98a3a384736d79da11a6ac598"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:fead8e3d8c89d7e17b63c98f9da72652b0efbb3bde479bebd59cf0ac2d1cda2a", "1.4.0--r43hdfd78af_0": "sha256:20e6cd0cb54cb294d061b8d70584b54031f20587a1f83895abbf5d6e2fd78b4b", "1.6.0--r43hdfd78af_0": "sha256:ce7cf2a9b08f7d01ff72781adcb0a202b79e82b98a3a384736d79da11a6ac598"}, "docker": "quay.io/biocontainers/bioconductor-genomicinteractionnodes", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicinteractionnodes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-genomicinteractionnodes", "latest": {"1.10.0--r44hdfd78af_0": "sha256:f7b5f853d5d87052320918823d3004ef8c37c0e5295f85b73c8db63e326214bc"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:fead8e3d8c89d7e17b63c98f9da72652b0efbb3bde479bebd59cf0ac2d1cda2a", "1.4.0--r43hdfd78af_0": "sha256:20e6cd0cb54cb294d061b8d70584b54031f20587a1f83895abbf5d6e2fd78b4b", "1.6.0--r43hdfd78af_0": "sha256:ce7cf2a9b08f7d01ff72781adcb0a202b79e82b98a3a384736d79da11a6ac598", "1.10.0--r44hdfd78af_0": "sha256:f7b5f853d5d87052320918823d3004ef8c37c0e5295f85b73c8db63e326214bc"}, "docker": "quay.io/biocontainers/bioconductor-genomicinteractionnodes", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicinteractionnodes.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicinteractionnodes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicinteractionnodes:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicinteractionnodes:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicinteractionnodes/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicinteractionnodes/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicinteractionnodes/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicinteractionnodes/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

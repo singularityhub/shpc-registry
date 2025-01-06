@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmeth/container.yaml"
-updated_at: "2025-01-05 03:28:32.529165"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:28:20.449207"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmeth"
 aliases:
  - "pandoc-citeproc"
@@ -26,8 +26,9 @@ versions:
  - "1.18.0--r42hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scmeth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scmeth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scmeth", "latest": {"1.22.0--r43hdfd78af_0": "sha256:f99ab497bd918a72ae4227b880a2564618685f5496521f3f2e9120962f88382d"}, "tags": {"1.8.0--r40_0": "sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06", "1.14.0--r41hdfd78af_0": "sha256:822128f0017af46f00d6e65ff19b47abc939b53fbcff651f2eac424753c2d72f", "1.12.0--r41hdfd78af_0": "sha256:e85e4005a2487af11c4efc936729795ef23c5d6aca8ac4097fa48ad46999488a", "1.10.0--r40hdfd78af_1": "sha256:d8fc1e90f2d03f480914f0daf49f0ad47085e7016319884c49aada11146183ef", "1.18.0--r42hdfd78af_0": "sha256:c4dd8e311fe68644ff57de674d60fa06fc9191997b9ab92484ef381dc8fc82fe", "1.20.0--r43hdfd78af_0": "sha256:e38cc94a586c5d58a2ce2b1bc7756f4f414ffd7fef09fd432caae9326658881c", "1.22.0--r43hdfd78af_0": "sha256:f99ab497bd918a72ae4227b880a2564618685f5496521f3f2e9120962f88382d"}, "docker": "quay.io/biocontainers/bioconductor-scmeth", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scmeth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scmeth", "latest": {"1.26.0--r44hdfd78af_0": "sha256:6ff245c933ac583c2a9fff977019e74f8190dd288cf66cc52f082bf796e20864"}, "tags": {"1.8.0--r40_0": "sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06", "1.14.0--r41hdfd78af_0": "sha256:822128f0017af46f00d6e65ff19b47abc939b53fbcff651f2eac424753c2d72f", "1.12.0--r41hdfd78af_0": "sha256:e85e4005a2487af11c4efc936729795ef23c5d6aca8ac4097fa48ad46999488a", "1.10.0--r40hdfd78af_1": "sha256:d8fc1e90f2d03f480914f0daf49f0ad47085e7016319884c49aada11146183ef", "1.18.0--r42hdfd78af_0": "sha256:c4dd8e311fe68644ff57de674d60fa06fc9191997b9ab92484ef381dc8fc82fe", "1.20.0--r43hdfd78af_0": "sha256:e38cc94a586c5d58a2ce2b1bc7756f4f414ffd7fef09fd432caae9326658881c", "1.22.0--r43hdfd78af_0": "sha256:f99ab497bd918a72ae4227b880a2564618685f5496521f3f2e9120962f88382d", "1.26.0--r44hdfd78af_0": "sha256:6ff245c933ac583c2a9fff977019e74f8190dd288cf66cc52f082bf796e20864"}, "docker": "quay.io/biocontainers/bioconductor-scmeth", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scmeth.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scmeth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scmeth:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scmeth:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scmeth/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scmeth/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scmeth/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scmeth/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

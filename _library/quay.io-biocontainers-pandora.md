@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pandora"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandora/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandora/container.yaml"
-updated_at: "2025-01-05 03:08:03.707968"
-latest: "0.9.2--h4ac6f70_0"
+updated_at: "2025-01-06 03:07:57.586788"
+latest: "0.9.2--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pandora"
 aliases:
  - "pandora"
@@ -13,8 +13,9 @@ versions:
  - "0.9.1--h9f5acd7_1"
  - "0.9.1--h4ac6f70_2"
  - "0.9.2--h4ac6f70_0"
+ - "0.9.2--h9948957_1"
 description: "shpc-registry automated BioContainers addition for pandora"
-config: {"url": "https://biocontainers.pro/tools/pandora", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandora", "latest": {"0.9.2--h4ac6f70_0": "sha256:5bf5a89ec0b4be4fa4f43cf8632b6245c1b8ded6563e72764e5de300f931ddf0"}, "tags": {"0.9.1--h9f5acd7_1": "sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6", "0.9.1--h4ac6f70_2": "sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8", "0.9.2--h4ac6f70_0": "sha256:5bf5a89ec0b4be4fa4f43cf8632b6245c1b8ded6563e72764e5de300f931ddf0"}, "docker": "quay.io/biocontainers/pandora", "aliases": {"pandora": "/usr/local/bin/pandora"}}
+config: {"url": "https://biocontainers.pro/tools/pandora", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandora", "latest": {"0.9.2--h9948957_1": "sha256:55c636c46188a25353fd3a1fd3d406acb72a2f0d86032736ca476ba218affab8"}, "tags": {"0.9.1--h9f5acd7_1": "sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6", "0.9.1--h4ac6f70_2": "sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8", "0.9.2--h4ac6f70_0": "sha256:5bf5a89ec0b4be4fa4f43cf8632b6245c1b8ded6563e72764e5de300f931ddf0", "0.9.2--h9948957_1": "sha256:55c636c46188a25353fd3a1fd3d406acb72a2f0d86032736ca476ba218affab8"}, "docker": "quay.io/biocontainers/pandora", "aliases": {"pandora": "/usr/local/bin/pandora"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandora.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pandora
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pandora:0.9.2--h4ac6f70_0
+$ shpc install quay.io/biocontainers/pandora:0.9.2--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pandora/0.9.2--h4ac6f70_0
-$ module help quay.io/biocontainers/pandora/0.9.2--h4ac6f70_0
+$ module load quay.io/biocontainers/pandora/0.9.2--h9948957_1
+$ module help quay.io/biocontainers/pandora/0.9.2--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

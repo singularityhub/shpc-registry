@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-perfmeas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-perfmeas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-perfmeas/container.yaml"
-updated_at: "2025-01-05 03:11:06.739222"
-latest: "1.2.5--r43h56115f1_3"
+updated_at: "2025-01-06 03:10:59.146982"
+latest: "1.2.5--r44h5ef9028_4"
 container_url: "https://biocontainers.pro/tools/r-perfmeas"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.2.5--r42h73dbb54_1"
  - "1.2.5--r42h56115f1_2"
  - "1.2.5--r43h56115f1_3"
+ - "1.2.5--r44h5ef9028_4"
 description: "shpc-registry automated BioContainers addition for r-perfmeas"
-config: {"url": "https://biocontainers.pro/tools/r-perfmeas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-perfmeas", "latest": {"1.2.5--r43h56115f1_3": "sha256:2469b97f2a4e8541c566dd5b793e329f8e995fe0f18927765b03f71a487cd2f6"}, "tags": {"1.2.5--r41h73dbb54_0": "sha256:9601f5a971ebdf413b8bcb2b3d8c8d06b083fe847e7e2702287ea3d31af7d922", "1.2.5--r42h73dbb54_1": "sha256:459b4cd99f1173443ff77bb0548508617bf96bf3547d1c6f052b10176ad6aca7", "1.2.5--r42h56115f1_2": "sha256:ec164b341a9276976d494c4db724994c318731b8c316d85b6725a76407de23c4", "1.2.5--r43h56115f1_3": "sha256:2469b97f2a4e8541c566dd5b793e329f8e995fe0f18927765b03f71a487cd2f6"}, "docker": "quay.io/biocontainers/r-perfmeas"}
+config: {"url": "https://biocontainers.pro/tools/r-perfmeas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-perfmeas", "latest": {"1.2.5--r44h5ef9028_4": "sha256:d8168cb12bbd6514a9ee79ce3068852691ac00923cd4f162ac50940aa63abe7f"}, "tags": {"1.2.5--r41h73dbb54_0": "sha256:9601f5a971ebdf413b8bcb2b3d8c8d06b083fe847e7e2702287ea3d31af7d922", "1.2.5--r42h73dbb54_1": "sha256:459b4cd99f1173443ff77bb0548508617bf96bf3547d1c6f052b10176ad6aca7", "1.2.5--r42h56115f1_2": "sha256:ec164b341a9276976d494c4db724994c318731b8c316d85b6725a76407de23c4", "1.2.5--r43h56115f1_3": "sha256:2469b97f2a4e8541c566dd5b793e329f8e995fe0f18927765b03f71a487cd2f6", "1.2.5--r44h5ef9028_4": "sha256:d8168cb12bbd6514a9ee79ce3068852691ac00923cd4f162ac50940aa63abe7f"}, "docker": "quay.io/biocontainers/r-perfmeas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-perfmeas.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-perfmeas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-perfmeas:1.2.5--r43h56115f1_3
+$ shpc install quay.io/biocontainers/r-perfmeas:1.2.5--r44h5ef9028_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-perfmeas/1.2.5--r43h56115f1_3
-$ module help quay.io/biocontainers/r-perfmeas/1.2.5--r43h56115f1_3
+$ module load quay.io/biocontainers/r-perfmeas/1.2.5--r44h5ef9028_4
+$ module help quay.io/biocontainers/r-perfmeas/1.2.5--r44h5ef9028_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

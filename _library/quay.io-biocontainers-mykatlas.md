@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mykatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykatlas/container.yaml"
-updated_at: "2025-01-05 03:09:01.761736"
-latest: "0.6.1--py38h939104b_7"
+updated_at: "2025-01-06 03:08:55.214403"
+latest: "0.6.1--py39hdff8610_8"
 container_url: "https://biocontainers.pro/tools/mykatlas"
 aliases:
  - "atlas"
@@ -25,8 +25,9 @@ versions:
  - "0.6.1--py38ha5a061d_6"
  - "0.6.1--py39h6a678da_6"
  - "0.6.1--py38h939104b_7"
+ - "0.6.1--py39hdff8610_8"
 description: "shpc-registry automated BioContainers addition for mykatlas"
-config: {"url": "https://biocontainers.pro/tools/mykatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykatlas", "latest": {"0.6.1--py38h939104b_7": "sha256:b0df325b0f3e2afde726df857228d85d1413c7f65082531ca445b3572937a72d"}, "tags": {"0.6.1--py27h21c881e_5": "sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20", "0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3", "0.6.1--py39h6a678da_6": "sha256:9e5d8ebda1711238867f3f22aa667ada5d415a57df3dd39575ea561398839b08", "0.6.1--py38h939104b_7": "sha256:b0df325b0f3e2afde726df857228d85d1413c7f65082531ca445b3572937a72d"}, "docker": "quay.io/biocontainers/mykatlas", "aliases": {"atlas": "/usr/local/bin/atlas", "mccortex31": "/usr/local/bin/mccortex31", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/mykatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykatlas", "latest": {"0.6.1--py39hdff8610_8": "sha256:e79d2bd99869d978eeb7da4059c33117c4cc9a64548b1a41b5db6af3f2893467"}, "tags": {"0.6.1--py27h21c881e_5": "sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20", "0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3", "0.6.1--py39h6a678da_6": "sha256:9e5d8ebda1711238867f3f22aa667ada5d415a57df3dd39575ea561398839b08", "0.6.1--py38h939104b_7": "sha256:b0df325b0f3e2afde726df857228d85d1413c7f65082531ca445b3572937a72d", "0.6.1--py39hdff8610_8": "sha256:e79d2bd99869d978eeb7da4059c33117c4cc9a64548b1a41b5db6af3f2893467"}, "docker": "quay.io/biocontainers/mykatlas", "aliases": {"atlas": "/usr/local/bin/atlas", "mccortex31": "/usr/local/bin/mccortex31", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mykatlas.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mykatlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mykatlas:0.6.1--py38h939104b_7
+$ shpc install quay.io/biocontainers/mykatlas:0.6.1--py39hdff8610_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mykatlas/0.6.1--py38h939104b_7
-$ module help quay.io/biocontainers/mykatlas/0.6.1--py38h939104b_7
+$ module load quay.io/biocontainers/mykatlas/0.6.1--py39hdff8610_8
+$ module help quay.io/biocontainers/mykatlas/0.6.1--py39hdff8610_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

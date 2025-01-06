@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-generxcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generxcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generxcluster/container.yaml"
-updated_at: "2025-01-05 03:41:24.293999"
-latest: "1.38.0--r43ha9d7317_0"
+updated_at: "2025-01-06 03:41:04.211613"
+latest: "1.42.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-generxcluster"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.34.0--r42ha9d7317_1"
  - "1.36.0--r43ha9d7317_0"
  - "1.38.0--r43ha9d7317_0"
+ - "1.42.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-generxcluster"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-generxcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generxcluster", "latest": {"1.38.0--r43ha9d7317_0": "sha256:11bef2376a8145df8756364b28c129b388ad0820dfc9ffba8d8c4412d09c8739"}, "tags": {"1.30.0--r41hc0cfd56_2": "sha256:f7efd6b08460fb73df4e389200b2ca8749c6d3807fa3eeaea4acd2553eba606d", "1.34.0--r42hc0cfd56_0": "sha256:efe76aaae4ee8c8d1a1799c3694dea5c43f4e80a0510f70826eb4517b99eac37", "1.34.0--r42ha9d7317_1": "sha256:c9189410c5923dd9a1725bf265e035d780daa698455e3d464e3ee5e662f8f9f8", "1.36.0--r43ha9d7317_0": "sha256:a028f506340e1458bbfe94a01c8525ae60dda0d55c3b38fb2814b74bcd272902", "1.38.0--r43ha9d7317_0": "sha256:11bef2376a8145df8756364b28c129b388ad0820dfc9ffba8d8c4412d09c8739"}, "docker": "quay.io/biocontainers/bioconductor-generxcluster"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-generxcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generxcluster", "latest": {"1.42.0--r44h3df3fcb_0": "sha256:c92ce029463e5d57e1f689714c9823ac118ffe053ac37e505dfd3aa2aca81b69"}, "tags": {"1.30.0--r41hc0cfd56_2": "sha256:f7efd6b08460fb73df4e389200b2ca8749c6d3807fa3eeaea4acd2553eba606d", "1.34.0--r42hc0cfd56_0": "sha256:efe76aaae4ee8c8d1a1799c3694dea5c43f4e80a0510f70826eb4517b99eac37", "1.34.0--r42ha9d7317_1": "sha256:c9189410c5923dd9a1725bf265e035d780daa698455e3d464e3ee5e662f8f9f8", "1.36.0--r43ha9d7317_0": "sha256:a028f506340e1458bbfe94a01c8525ae60dda0d55c3b38fb2814b74bcd272902", "1.38.0--r43ha9d7317_0": "sha256:11bef2376a8145df8756364b28c129b388ad0820dfc9ffba8d8c4412d09c8739", "1.42.0--r44h3df3fcb_0": "sha256:c92ce029463e5d57e1f689714c9823ac118ffe053ac37e505dfd3aa2aca81b69"}, "docker": "quay.io/biocontainers/bioconductor-generxcluster"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-generxcluster.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-generxcluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-generxcluster:1.38.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-generxcluster:1.42.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-generxcluster/1.38.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-generxcluster/1.38.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-generxcluster/1.42.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-generxcluster/1.42.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

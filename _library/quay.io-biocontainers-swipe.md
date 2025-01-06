@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/swipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swipe/container.yaml"
-updated_at: "2025-01-05 03:02:36.570272"
-latest: "2.1.1--h5500c7b_4"
+updated_at: "2025-01-06 03:02:30.575473"
+latest: "2.1.1--hf1d56f0_5"
 container_url: "https://biocontainers.pro/tools/swipe"
 aliases:
  - "mpiswipe"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.1.1--h37be31f_2"
  - "2.1.1--h5500c7b_4"
+ - "2.1.1--hf1d56f0_5"
 description: "shpc-registry automated BioContainers addition for swipe"
-config: {"url": "https://biocontainers.pro/tools/swipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swipe", "latest": {"2.1.1--h5500c7b_4": "sha256:12fe01d834bdd9a98e0842ccd1f8fb0fd86d3c0d7adc5fc771c00e7efae6d221"}, "tags": {"2.1.1--h37be31f_2": "sha256:def432bc3e7b550a33ac11b6140886bbda71937ce5e3f5b9c095e666f3aea3fd", "2.1.1--h5500c7b_4": "sha256:12fe01d834bdd9a98e0842ccd1f8fb0fd86d3c0d7adc5fc771c00e7efae6d221"}, "docker": "quay.io/biocontainers/swipe", "aliases": {"mpiswipe": "/usr/local/bin/mpiswipe", "swipe": "/usr/local/bin/swipe", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/swipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swipe", "latest": {"2.1.1--hf1d56f0_5": "sha256:5967b5fe9c0b7ed622a2b4c445ddd8b384db671ebcb300ec37557b4ac13f9a7c"}, "tags": {"2.1.1--h37be31f_2": "sha256:def432bc3e7b550a33ac11b6140886bbda71937ce5e3f5b9c095e666f3aea3fd", "2.1.1--h5500c7b_4": "sha256:12fe01d834bdd9a98e0842ccd1f8fb0fd86d3c0d7adc5fc771c00e7efae6d221", "2.1.1--hf1d56f0_5": "sha256:5967b5fe9c0b7ed622a2b4c445ddd8b384db671ebcb300ec37557b4ac13f9a7c"}, "docker": "quay.io/biocontainers/swipe", "aliases": {"mpiswipe": "/usr/local/bin/mpiswipe", "swipe": "/usr/local/bin/swipe", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swipe.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/swipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/swipe:2.1.1--h5500c7b_4
+$ shpc install quay.io/biocontainers/swipe:2.1.1--hf1d56f0_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/swipe/2.1.1--h5500c7b_4
-$ module help quay.io/biocontainers/swipe/2.1.1--h5500c7b_4
+$ module load quay.io/biocontainers/swipe/2.1.1--hf1d56f0_5
+$ module help quay.io/biocontainers/swipe/2.1.1--hf1d56f0_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

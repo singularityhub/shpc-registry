@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-myvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-myvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-myvariant/container.yaml"
-updated_at: "2025-01-05 03:06:29.195669"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2025-01-06 03:06:23.661510"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-myvariant"
 aliases:
  - "my_print_defaults"
@@ -26,8 +26,9 @@ versions:
  - "1.28.0--r42hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-myvariant"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-myvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-myvariant", "latest": {"1.32.0--r43hdfd78af_0": "sha256:cea624511b76543b0d778800b6c77fa03dee0ca592b0fa80dc6253cacb2a6e8d"}, "tags": {"1.8.0--r3.4.1_0": "sha256:90714a1b160c93fc0cfe2b6fc9a60fe1bf1aa4a85d2526684ac2c75392f970cb", "1.24.0--r41hdfd78af_0": "sha256:ad6c91abcc66a58e6d9b0ec0e3606003313ad6ba578c7040e1ae3e4a6f81f0aa", "1.22.0--r41hdfd78af_0": "sha256:cef21736e773811829bd9635c5dc739d5b4e88aecd3b73d924dd0a5f78983ef1", "1.20.0--r40hdfd78af_1": "sha256:c34f2e1992b985de636f7f5260e0f497fa983c6733c6b010eb41a154b1d6e380", "1.18.0--r40_0": "sha256:2f89b03fe90bfd5337410c464c614d2c332256dad13d71946387d06a4af8c467", "1.16.0--r36_0": "sha256:2064ed56af525f891621aa71fffe4db55e6131a774dc80bf06148f6574152007", "1.28.0--r42hdfd78af_0": "sha256:6bc6e0abae88119b6398842301c091ccd3f5f78bba28c4530697e667e137ce76", "1.30.0--r43hdfd78af_0": "sha256:b09476581aae71a404bd8ec5b81473d1535894909c67a4a005b825953044b4c9", "1.32.0--r43hdfd78af_0": "sha256:cea624511b76543b0d778800b6c77fa03dee0ca592b0fa80dc6253cacb2a6e8d"}, "docker": "quay.io/biocontainers/bioconductor-myvariant", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-myvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-myvariant", "latest": {"1.36.0--r44hdfd78af_0": "sha256:2324b757855754bea7f672c87d510ceaeb3edb62128c07c4cd53c69219c7a3ff"}, "tags": {"1.8.0--r3.4.1_0": "sha256:90714a1b160c93fc0cfe2b6fc9a60fe1bf1aa4a85d2526684ac2c75392f970cb", "1.24.0--r41hdfd78af_0": "sha256:ad6c91abcc66a58e6d9b0ec0e3606003313ad6ba578c7040e1ae3e4a6f81f0aa", "1.22.0--r41hdfd78af_0": "sha256:cef21736e773811829bd9635c5dc739d5b4e88aecd3b73d924dd0a5f78983ef1", "1.20.0--r40hdfd78af_1": "sha256:c34f2e1992b985de636f7f5260e0f497fa983c6733c6b010eb41a154b1d6e380", "1.18.0--r40_0": "sha256:2f89b03fe90bfd5337410c464c614d2c332256dad13d71946387d06a4af8c467", "1.16.0--r36_0": "sha256:2064ed56af525f891621aa71fffe4db55e6131a774dc80bf06148f6574152007", "1.28.0--r42hdfd78af_0": "sha256:6bc6e0abae88119b6398842301c091ccd3f5f78bba28c4530697e667e137ce76", "1.30.0--r43hdfd78af_0": "sha256:b09476581aae71a404bd8ec5b81473d1535894909c67a4a005b825953044b4c9", "1.32.0--r43hdfd78af_0": "sha256:cea624511b76543b0d778800b6c77fa03dee0ca592b0fa80dc6253cacb2a6e8d", "1.36.0--r44hdfd78af_0": "sha256:2324b757855754bea7f672c87d510ceaeb3edb62128c07c4cd53c69219c7a3ff"}, "docker": "quay.io/biocontainers/bioconductor-myvariant", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-myvariant.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-myvariant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-myvariant:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-myvariant:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-myvariant/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-myvariant/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-myvariant/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-myvariant/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
