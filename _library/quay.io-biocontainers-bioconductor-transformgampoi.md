@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-transformgampoi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
-updated_at: "2025-01-06 03:16:24.610509"
+updated_at: "2025-01-07 03:14:16.176673"
 latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transformgampoi"
 

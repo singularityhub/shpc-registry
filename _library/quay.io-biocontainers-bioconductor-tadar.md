@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tadar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tadar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tadar/container.yaml"
-updated_at: "2025-01-06 03:37:30.482786"
+updated_at: "2025-01-07 03:35:46.237725"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tadar"
 aliases:

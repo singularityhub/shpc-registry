@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-regsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regsplice/container.yaml"
-updated_at: "2025-01-06 03:36:55.491089"
+updated_at: "2025-01-07 03:35:11.489764"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regsplice"
 aliases:

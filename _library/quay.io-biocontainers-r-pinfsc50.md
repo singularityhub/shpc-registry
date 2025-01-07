@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pinfsc50"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pinfsc50/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pinfsc50/container.yaml"
-updated_at: "2025-01-06 03:26:43.871140"
+updated_at: "2025-01-07 03:24:47.618198"
 latest: "1.1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-pinfsc50"
 aliases:

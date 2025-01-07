@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-filterffpe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-filterffpe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-filterffpe/container.yaml"
-updated_at: "2025-01-06 02:59:05.957375"
+updated_at: "2025-01-07 02:56:36.914356"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-filterffpe"
 

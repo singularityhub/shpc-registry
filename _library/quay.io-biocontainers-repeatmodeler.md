@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatmodeler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatmodeler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatmodeler/container.yaml"
-updated_at: "2025-01-06 03:26:56.251779"
+updated_at: "2025-01-07 03:24:59.911527"
 latest: "2.0.6--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repeatmodeler"
 aliases:
