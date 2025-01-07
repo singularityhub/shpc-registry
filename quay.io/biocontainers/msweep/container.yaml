@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/msweep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msweep
 latest:
-  2.2.1--hdbdd923_0: sha256:2e50aa3cca44cadfde16df4422ca8eda264ba4c8cde62d3ad604bbe39db4a520
+  2.2.1--h503566f_1: sha256:603b1a80909dbca706f5fe4f4f6cb6f898386dd6b3ff570abbaf3192e364257c
 tags:
   1.6.3--h87f3376_0: sha256:1f64851d3d1b9baba6036816e1770cdb4e61be4c0c960a0c52ba7d2b3ebc14db
   1.6.3--hdbdd923_2: sha256:6710c75038dee8af6637700f216b0048eb9e9cb3593d1ce82fdc0f23d80eed14
@@ -11,6 +11,7 @@ tags:
   2.1.2--hdbdd923_0: sha256:bf10298f572b9e82495581d3052ad2e83cc84eef51c6a2e70a537510cffe0944
   2.2.0--hdbdd923_0: sha256:6f8f6be820c6c91e725b141d4fe60e18b18c70f94fc6fac83e77e287b91e54f0
   2.2.1--hdbdd923_0: sha256:2e50aa3cca44cadfde16df4422ca8eda264ba4c8cde62d3ad604bbe39db4a520
+  2.2.1--h503566f_1: sha256:603b1a80909dbca706f5fe4f4f6cb6f898386dd6b3ff570abbaf3192e364257c
 docker: quay.io/biocontainers/msweep
 aliases:
   mSWEEP: /usr/local/bin/mSWEEP

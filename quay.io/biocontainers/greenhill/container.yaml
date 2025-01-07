@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/greenhill
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for greenhill
 latest:
-  1.1.0--hf1761c0_1: sha256:2654228946cba744d8f47326edb153190e5bba45b98573b031bb66c1bd29bddf
+  1.1.0--h663a4a6_2: sha256:067757d7f4c43872af3e411fe0fe66d2c518157ec574aa040b7116a6f062e003
 tags:
   1.0.0--hf1761c0_0: sha256:29d9a3b0c0ae4af8193506dad3ca0366d449d398ca93f6cd51aed4d536981cd9
   1.1.0--hf1761c0_0: sha256:940d2eb6e2742e7317509626499ddcc6df0b3540878cfdbd80648bb72a8381bb
   1.1.0--hf1761c0_1: sha256:2654228946cba744d8f47326edb153190e5bba45b98573b031bb66c1bd29bddf
+  1.1.0--h663a4a6_2: sha256:067757d7f4c43872af3e411fe0fe66d2c518157ec574aa040b7116a6f062e003
 docker: quay.io/biocontainers/greenhill
 aliases:
   greenhill: /usr/local/bin/greenhill

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mbkmeans
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mbkmeans
 latest:
-  1.18.0--r43hf17093f_1: sha256:5b2dfe65157615bb2f984ac5a3ce53d5532330d17ce07948e90b1cb160fd5d25
+  1.22.0--r44he5774e6_0: sha256:522ba3bd3304518a1b07379170fdaa15893a60ead1f0d16b6f1444f6f79bc0f4
 tags:
   1.8.0--r41h399db7b_0: sha256:3fdacb8139038de7841daa21d2eef8afe27bfb664ab96d7a45fd35de0f9ff6bb
   1.14.0--r42hc247a5b_0: sha256:c3906fdbf01683ca14769c099a7296bb787249238268b067428e367e0b0ac1a9
@@ -11,6 +11,7 @@ tags:
   1.16.0--r43hf17093f_0: sha256:8cf4295cdbc12ff0222f18d03a72d3b57247c3af1c7699d5b8ce323a311e3355
   1.18.0--r43hf17093f_0: sha256:3bb535d4d299f028d70da966520787a3be5b48af0f8d8838956dfea3f5697be3
   1.18.0--r43hf17093f_1: sha256:5b2dfe65157615bb2f984ac5a3ce53d5532330d17ce07948e90b1cb160fd5d25
+  1.22.0--r44he5774e6_0: sha256:522ba3bd3304518a1b07379170fdaa15893a60ead1f0d16b6f1444f6f79bc0f4
 docker: quay.io/biocontainers/bioconductor-mbkmeans
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

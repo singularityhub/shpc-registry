@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-weberdivechalcdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-weberdivechalcdata
 latest:
-  1.4.0--r43hdfd78af_0: sha256:e3b1a5330641c7620793f2a4bb784646a2d2782a10a1a25df719f635bfc20efd
+  1.8.0--r44hdfd78af_0: sha256:f40af8f2b04a28208c2cf7c41397402dfdd99f6bf0350989e6af9fb2529d80fe
 tags:
   1.0.0--r42hdfd78af_0: sha256:b7390ea6e9da9160756119300a581b4bfef3b9ed4fec7849af112d5049cd6e1f
   1.2.0--r43hdfd78af_0: sha256:da093e2a9800b6e486fe209abc9ed2daad0676dfadc33ddbbca9e7e8e6825ce6
   1.4.0--r43hdfd78af_0: sha256:e3b1a5330641c7620793f2a4bb784646a2d2782a10a1a25df719f635bfc20efd
+  1.8.0--r44hdfd78af_0: sha256:f40af8f2b04a28208c2cf7c41397402dfdd99f6bf0350989e6af9fb2529d80fe
 docker: quay.io/biocontainers/bioconductor-weberdivechalcdata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-simlr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-simlr
 latest:
-  1.28.0--r43hf17093f_0: sha256:6234b16d46ae0507441a473451318b8ea8f4833dd72383de4d629a57222321ef
+  1.32.0--r44he5774e6_0: sha256:d7a007c1324552c5a87ad36f6c67731bc0b50e2b2365f9119f7dcef21f94f8d1
 tags:
   1.8.1--r351hf484d3e_0: sha256:acbe102efede6cb527b4fe0473ed667356ed8630c8b64bc43c4bd46b665834d3
   1.24.0--r42hc247a5b_0: sha256:80daf9ac9dc0515cbca25085943edf9c65e496bacc512fa6d812745fe9c67a43
@@ -13,6 +13,7 @@ tags:
   1.24.0--r42hf17093f_1: sha256:5b298e576a8243643308d8974aff85b799cc2485c65cb758a068f135f23e8442
   1.26.1--r43hf17093f_0: sha256:5e74af4bc64e471d383a2c399bfe7a199162682ce2ce4f5ea6f28eddeecd253c
   1.28.0--r43hf17093f_0: sha256:6234b16d46ae0507441a473451318b8ea8f4833dd72383de4d629a57222321ef
+  1.32.0--r44he5774e6_0: sha256:d7a007c1324552c5a87ad36f6c67731bc0b50e2b2365f9119f7dcef21f94f8d1
 docker: quay.io/biocontainers/bioconductor-simlr
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

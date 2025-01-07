@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mpo.db
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mpo.db
 latest:
-  0.99.7--r43hdfd78af_0: sha256:29b259bce36e8b5106e061f3c6df8094652f326dbf71a7448e537cc768be9cd5
+  0.99.8--r44hdfd78af_0: sha256:da7d17586b629bee779110d0dc3da6cf23f200d7d86425db6e9c7c60d3f53162
 tags:
   0.99.7--r43hdfd78af_0: sha256:29b259bce36e8b5106e061f3c6df8094652f326dbf71a7448e537cc768be9cd5
+  0.99.8--r44hdfd78af_0: sha256:da7d17586b629bee779110d0dc3da6cf23f200d7d86425db6e9c7c60d3f53162
 docker: quay.io/biocontainers/bioconductor-mpo.db
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

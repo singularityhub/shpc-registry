@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-tcga2stat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-tcga2stat
 latest:
-  1.2--r43h3121a25_10: sha256:81823a41be22e0c66f4afccea1b12dfac4f8ec4123a81fdf5b2ea7e0cb2d7e61
+  1.2--r44h3121a25_11: sha256:de82559b193d8882c6e0db86685bc0576ac28f1e5abaa44235507ad7948ab185
 tags:
   1.2--r41h3121a25_8: sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f
   1.2--r42h3121a25_9: sha256:61da1c9fc25af48c5100dcb2b8acf00efccb85d50e537cfd42f133494ede86f1
   1.2--r43h3121a25_10: sha256:81823a41be22e0c66f4afccea1b12dfac4f8ec4123a81fdf5b2ea7e0cb2d7e61
+  1.2--r44h3121a25_11: sha256:de82559b193d8882c6e0db86685bc0576ac28f1e5abaa44235507ad7948ab185
 docker: quay.io/biocontainers/r-tcga2stat
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

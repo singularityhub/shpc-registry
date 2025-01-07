@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gdrutils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gdrutils
 latest:
-  1.0.0--r43hdfd78af_0: sha256:81cfb007c3374a098d4833f02d2a4a47a21d586b872bbebecf396fdcb3d0300a
+  1.4.0--r44hdfd78af_0: sha256:3993a86b7200c622d9cb94da5552746f5f0e919783e570129c43c7896837fbe0
 tags:
   1.0.0--r43hdfd78af_0: sha256:81cfb007c3374a098d4833f02d2a4a47a21d586b872bbebecf396fdcb3d0300a
+  1.4.0--r44hdfd78af_0: sha256:3993a86b7200c622d9cb94da5552746f5f0e919783e570129c43c7896837fbe0
 docker: quay.io/biocontainers/bioconductor-gdrutils
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

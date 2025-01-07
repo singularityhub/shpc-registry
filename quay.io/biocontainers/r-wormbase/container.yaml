@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-wormbase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-wormbase
 latest:
-  0.5.0--r43hdfd78af_0: sha256:b858ffd1214504bdef08a8f2d0f4e50228b24e4c7f953b1c1cddb9c401387ec6
+  0.5.0--r44hdfd78af_1: sha256:9a67f6b55aa96b319770b5bc96517a8dc744e86324a79147555136d7c8af8791
 tags:
   0.4.2--r43hdfd78af_0: sha256:24f79b7d97a445fa75edd192167d1f78aad7244aa3081866971e90dab3c7a406
   0.5.0--r43hdfd78af_0: sha256:b858ffd1214504bdef08a8f2d0f4e50228b24e4c7f953b1c1cddb9c401387ec6
+  0.5.0--r44hdfd78af_1: sha256:9a67f6b55aa96b319770b5bc96517a8dc744e86324a79147555136d7c8af8791
 docker: quay.io/biocontainers/r-wormbase
 aliases:
   hb-info: /usr/local/bin/hb-info

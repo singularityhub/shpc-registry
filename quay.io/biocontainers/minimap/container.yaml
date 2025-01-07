@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/minimap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minimap
 latest:
-  0.2_r124--he4a0461_7: sha256:7a74cd991e5bf37ebef6b05eef29a1c6f8514db911a997c8c49129a682b1593f
+  0.2_r124--h577a1d6_8: sha256:6acf816f7583aa3ba3bebb1885da6f931e18574db2d83356cd80e2080fc608f8
 tags:
   0.2_r124--h7132678_5: sha256:9c29e2f2f305f9eec90e3a45b08fb0a292d77a8e2de8b7426f47d735fcec53ce
   0.2_r124--he4a0461_7: sha256:7a74cd991e5bf37ebef6b05eef29a1c6f8514db911a997c8c49129a682b1593f
+  0.2_r124--h577a1d6_8: sha256:6acf816f7583aa3ba3bebb1885da6f931e18574db2d83356cd80e2080fc608f8
 docker: quay.io/biocontainers/minimap

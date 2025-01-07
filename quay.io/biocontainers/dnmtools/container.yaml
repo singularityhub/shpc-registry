@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dnmtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dnmtools
 latest:
-  1.4.4--h4dfc31f_0: sha256:5979d1bad18499d3f3603c6a5dbe22477afc23aaa494623e6da93eadf1cb7830
+  1.4.4--hb66fcc3_1: sha256:9715a9f7930714f4bad71ba06846539bcc91a7001a88f5594c546bae6a55740b
 tags:
   1.2.1--h9f5acd7_0: sha256:ef65bb16ddfdb036345e434c31fea50167717a170b91a73220ce48edab3cc499
   1.2.1--h4ac6f70_1: sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79
@@ -10,6 +10,7 @@ tags:
   1.4.2--h0432e7c_0: sha256:a7e05346c7a6c343c0dc96aaf502fe456a5db2bc97a2f8b17cd8f07817a03dd3
   1.4.3--h4dfc31f_0: sha256:08b15c5a64e989c486504d9f0c887d20d115686ab947244ef954f98626b1d3ab
   1.4.4--h4dfc31f_0: sha256:5979d1bad18499d3f3603c6a5dbe22477afc23aaa494623e6da93eadf1cb7830
+  1.4.4--hb66fcc3_1: sha256:9715a9f7930714f4bad71ba06846539bcc91a7001a88f5594c546bae6a55740b
 docker: quay.io/biocontainers/dnmtools
 aliases:
   dnmtools: /usr/local/bin/dnmtools

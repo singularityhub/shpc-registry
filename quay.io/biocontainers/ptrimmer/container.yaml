@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ptrimmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ptrimmer
 latest:
-  1.4.0--h50ea8bc_0: sha256:4374f663b77681c9940403a4e2b6e45894cc09b17f8abd2fa5a93147636ca5e3
+  1.4.0--h96c455f_1: sha256:8f23cfbbdb096c09c7a9117243b4e1d4faa0ac6eb0b4684db557f520df0cfcc1
 tags:
   1.3.3--h20b1175_3: sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e
   1.3.3--h50ea8bc_5: sha256:18a091694e62e08b67237af54c6a592ef2887b6e684b90051c04675a5099dd34
   1.4.0--h50ea8bc_0: sha256:4374f663b77681c9940403a4e2b6e45894cc09b17f8abd2fa5a93147636ca5e3
+  1.4.0--h96c455f_1: sha256:8f23cfbbdb096c09c7a9117243b4e1d4faa0ac6eb0b4684db557f520df0cfcc1
 docker: quay.io/biocontainers/ptrimmer
 aliases:
   ptrimmer: /usr/local/bin/ptrimmer

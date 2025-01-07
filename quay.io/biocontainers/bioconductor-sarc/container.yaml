@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sarc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-sarc
 latest:
-  1.0.0--r43hdfd78af_0: sha256:1001f04ae352d8865d8dcea1e763fa90dffeaf9339cc3dbaf917d65dc8666fae
+  1.4.0--r44hdfd78af_0: sha256:6e750e8ee0e8654a0c8ee8e2d152efdaeb6d5a96b8b6c937388ceef698bfe357
 tags:
   1.0.0--r43hdfd78af_0: sha256:1001f04ae352d8865d8dcea1e763fa90dffeaf9339cc3dbaf917d65dc8666fae
+  1.4.0--r44hdfd78af_0: sha256:6e750e8ee0e8654a0c8ee8e2d152efdaeb6d5a96b8b6c937388ceef698bfe357
 docker: quay.io/biocontainers/bioconductor-sarc
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

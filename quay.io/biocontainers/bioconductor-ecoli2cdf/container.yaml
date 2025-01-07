@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ecoli2cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ecoli2cdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:2f4b27e96b62baa362c48c01bdfceba64842ba5786f674ec47757870f3dec510
+  2.18.0--r44hdfd78af_13: sha256:e518add0309b1b3c28c6a727a5fd2e855a44fac04277e48ca3b4fc9bd81f4491
 tags:
   2.18.0--r41hdfd78af_9: sha256:2cc97748e9281a4dbd8f4e55864e52df93eacb8bc55972dda74bd3c461a12d51
   2.18.0--r42hdfd78af_10: sha256:886e119f36d76a2d295a5302edb0df25bbf80c365bfd9210b165a0fbfe5f9fd2
   2.18.0--r43hdfd78af_11: sha256:6d7b8d216f9737aff3ef970e7ae3b2f2df96bccf389ffe38b0c6d24e9f8ef2ac
   2.18.0--r43hdfd78af_12: sha256:2f4b27e96b62baa362c48c01bdfceba64842ba5786f674ec47757870f3dec510
+  2.18.0--r44hdfd78af_13: sha256:e518add0309b1b3c28c6a727a5fd2e855a44fac04277e48ca3b4fc9bd81f4491
 docker: quay.io/biocontainers/bioconductor-ecoli2cdf

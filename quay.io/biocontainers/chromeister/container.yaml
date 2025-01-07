@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/chromeister
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chromeister
 latest:
-  1.5.a--h031d066_5: sha256:7532300abad4fdea7f1bb2bb75d7a93809f47a9ff5d3d20b92b0e13e4caba479
+  1.5.a--h7b50bb2_6: sha256:943b19d2e96e27d3bc2069c8f1e9f621b3b06bd62784407be88cbd40d854cf4c
 tags:
   1.5.a--hec16e2b_3: sha256:930f24d1571a55c3fe4a7b55b28aeb7e9eef565c69dd1042c0367beaf3d3156c
   1.5.a--h031d066_5: sha256:7532300abad4fdea7f1bb2bb75d7a93809f47a9ff5d3d20b92b0e13e4caba479
+  1.5.a--h7b50bb2_6: sha256:943b19d2e96e27d3bc2069c8f1e9f621b3b06bd62784407be88cbd40d854cf4c
 docker: quay.io/biocontainers/chromeister
 aliases:
   CHROMEISTER: /usr/local/bin/CHROMEISTER

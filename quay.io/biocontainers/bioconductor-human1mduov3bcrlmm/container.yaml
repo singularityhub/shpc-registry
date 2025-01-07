@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-human1mduov3bcrlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-human1mduov3bcrlmm
 latest:
-  1.0.4--r43hdfd78af_12: sha256:66cfb24b2f029a6e0f7961840ce055e3e6cebfe0be5de6f2a4b7e290dc84a75a
+  1.0.4--r44hdfd78af_13: sha256:a68dbe6670083886a0f19600d5fb582af5770525cbee55880d941293f57db12e
 tags:
   1.0.4--r41hdfd78af_9: sha256:e7c32ab35e4b2b269a27b3dd4aa2781cca75cac423ad0651ce0753034e57ecd5
   1.0.4--r42hdfd78af_10: sha256:6d8d4c67222dd894f43462dbd00591d38eb9016940f10e5e3b1c3ce46e19a58f
   1.0.4--r43hdfd78af_11: sha256:517f528a52565c7e2067848604e10f3ed375df34e425b5dc9728d2a3ba353d83
   1.0.4--r43hdfd78af_12: sha256:66cfb24b2f029a6e0f7961840ce055e3e6cebfe0be5de6f2a4b7e290dc84a75a
+  1.0.4--r44hdfd78af_13: sha256:a68dbe6670083886a0f19600d5fb582af5770525cbee55880d941293f57db12e
 docker: quay.io/biocontainers/bioconductor-human1mduov3bcrlmm

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/clark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clark
 latest:
-  1.2.6.1--h4ac6f70_4: sha256:1fd597046c826df5d1995f94ff8afc719f3aadd86b0479b025d4a48887365b84
+  1.2.6.1--h9948957_5: sha256:4b4da635a0938367d22c61b0769dfe934855d76717b5c096a67d214acc8efd48
 tags:
   1.2.6.1--h9f5acd7_2: sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473
   1.2.6.1--h4ac6f70_4: sha256:1fd597046c826df5d1995f94ff8afc719f3aadd86b0479b025d4a48887365b84
+  1.2.6.1--h9948957_5: sha256:4b4da635a0938367d22c61b0769dfe934855d76717b5c096a67d214acc8efd48
 docker: quay.io/biocontainers/clark
 aliases:
   CLARK: /usr/local/bin/CLARK

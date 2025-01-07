@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-epicompare
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-epicompare
 latest:
-  1.4.0--r43hdfd78af_0: sha256:0c38037386b463beb1b9b916e34e39a855900f9f77bc0695fe7b91aa8a87fc23
+  1.10.0--r44hdfd78af_0: sha256:593ab481539de230bc97e9d3f8b190a32fd5c54369cba2dc38bb8416b41cdf3a
 tags:
   1.2.0--r42hdfd78af_0: sha256:5d6416c7ecfbb8837ce50da7ed2bd0c747709e4e1509fb8d7057e08c9842ffc0
   1.4.0--r43hdfd78af_0: sha256:0c38037386b463beb1b9b916e34e39a855900f9f77bc0695fe7b91aa8a87fc23
+  1.10.0--r44hdfd78af_0: sha256:593ab481539de230bc97e9d3f8b190a32fd5c54369cba2dc38bb8416b41cdf3a
 docker: quay.io/biocontainers/bioconductor-epicompare
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

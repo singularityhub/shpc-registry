@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/survindel2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for survindel2
 latest:
-  1.1.3--h4ac6f70_0: sha256:9da3ffc0a82d4ebe8404eaf1e3f64bf261908c0e3776ebcecdc5c1527e2cec97
+  1.1.3--h9948957_1: sha256:6424d6e62dc0af01acb0bd4bc1c0e44b871fb5cbe890a905b442b1ddd5d9ad5c
 tags:
   1.1.3--h4ac6f70_0: sha256:9da3ffc0a82d4ebe8404eaf1e3f64bf261908c0e3776ebcecdc5c1527e2cec97
+  1.1.3--h9948957_1: sha256:6424d6e62dc0af01acb0bd4bc1c0e44b871fb5cbe890a905b442b1ddd5d9ad5c
 docker: quay.io/biocontainers/survindel2
 aliases:
   clip_consensus_builder: /usr/local/bin/clip_consensus_builder

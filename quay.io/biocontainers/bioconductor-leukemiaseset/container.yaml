@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-leukemiaseset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-leukemiaseset
 latest:
-  1.38.0--r43hdfd78af_0: sha256:82cb50309ccdf7de7c6fe463f9b86e0a6b1520f99dea4d05c12cb312ab1e285d
+  1.42.0--r44hdfd78af_0: sha256:d7c205ab9a378dbf262a27ae2529c0674b07bb1f734a9bf36ed1f8c376ec34e0
 tags:
   1.30.0--r41hdfd78af_1: sha256:2405678e612b4c233154d10c8f4e72e140ec1828caeb3a92e009ce48f1e7fbc2
   1.34.0--r42hdfd78af_0: sha256:f432cfb52dc68b51a1954580bd3371ea23c981193bbadc7e9e3fcb035dffddc9
   1.36.0--r43hdfd78af_0: sha256:5f6a9d280ebd9084318a7fa13bf9065ede71708a0aace78d369fe8bd00482b4b
   1.38.0--r43hdfd78af_0: sha256:82cb50309ccdf7de7c6fe463f9b86e0a6b1520f99dea4d05c12cb312ab1e285d
+  1.42.0--r44hdfd78af_0: sha256:d7c205ab9a378dbf262a27ae2529c0674b07bb1f734a9bf36ed1f8c376ec34e0
 docker: quay.io/biocontainers/bioconductor-leukemiaseset
