@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnasense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnasense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnasense/container.yaml"
-updated_at: "2025-01-08 03:10:09.180380"
+updated_at: "2025-01-08 06:45:23.236895"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnasense"
 

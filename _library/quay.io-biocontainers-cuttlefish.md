@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cuttlefish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cuttlefish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cuttlefish/container.yaml"
-updated_at: "2025-01-08 03:03:02.226170"
+updated_at: "2025-01-08 06:38:14.477298"
 latest: "2.2.0--h6a68c12_3"
 container_url: "https://biocontainers.pro/tools/cuttlefish"
 aliases:

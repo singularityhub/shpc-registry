@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifive/container.yaml"
-updated_at: "2025-01-08 03:00:25.873687"
+updated_at: "2025-01-08 06:35:36.984464"
 latest: "1.5.7--py27h20e14e4_4"
 container_url: "https://biocontainers.pro/tools/hifive"
 aliases:

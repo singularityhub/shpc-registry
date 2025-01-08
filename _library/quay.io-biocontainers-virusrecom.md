@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virusrecom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virusrecom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virusrecom/container.yaml"
-updated_at: "2025-01-08 03:06:26.535949"
+updated_at: "2025-01-08 06:41:39.426016"
 latest: "1.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virusrecom"
 aliases:

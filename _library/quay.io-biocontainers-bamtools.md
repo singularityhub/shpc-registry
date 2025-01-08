@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamtools/container.yaml"
-updated_at: "2025-01-08 03:06:22.274593"
+updated_at: "2025-01-08 06:41:35.133840"
 latest: "2.5.2--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/bamtools"
 aliases:

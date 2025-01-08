@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedbladderdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedbladderdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedbladderdata/container.yaml"
-updated_at: "2025-01-08 03:24:45.422721"
+updated_at: "2025-01-08 07:00:04.858523"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedbladderdata"
 

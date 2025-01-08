@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapsolo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapsolo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapsolo/container.yaml"
-updated_at: "2025-01-08 03:38:55.031548"
+updated_at: "2025-01-08 07:14:18.144041"
 latest: "2021.10.09--py27hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hapsolo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ampliconduo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
-updated_at: "2025-01-08 02:54:54.145966"
+updated_at: "2025-01-08 06:29:58.282436"
 latest: "1.1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-ampliconduo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tsar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tsar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tsar/container.yaml"
-updated_at: "2025-01-08 03:38:28.840277"
+updated_at: "2025-01-08 07:13:51.214725"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tsar"
 aliases:

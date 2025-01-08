@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggsignif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggsignif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggsignif/container.yaml"
-updated_at: "2025-01-08 03:16:51.005993"
+updated_at: "2025-01-08 06:52:06.975249"
 latest: "0.4.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggsignif"
 aliases:

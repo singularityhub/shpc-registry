@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cif2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cif2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cif2cell/container.yaml"
-updated_at: "2025-01-08 03:16:36.151946"
+updated_at: "2025-01-08 06:51:52.061676"
 latest: "2.0.0a3"
 container_url: "https://biocontainers.pro/tools/cif2cell"
 aliases:

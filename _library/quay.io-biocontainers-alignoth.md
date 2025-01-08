@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignoth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignoth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignoth/container.yaml"
-updated_at: "2025-01-08 03:20:26.348223"
+updated_at: "2025-01-08 06:55:43.659596"
 latest: "0.13.0--hfd07971_1"
 container_url: "https://biocontainers.pro/tools/alignoth"
 aliases:

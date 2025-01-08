@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggdendro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggdendro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggdendro/container.yaml"
-updated_at: "2025-01-08 03:30:50.072359"
+updated_at: "2025-01-08 07:06:11.870984"
 latest: "0.1_17--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggdendro"
 aliases:
