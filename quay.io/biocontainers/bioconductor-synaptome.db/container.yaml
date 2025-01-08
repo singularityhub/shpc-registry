@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-synaptome.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synaptome.db
 latest:
-  0.99.15--r43hdfd78af_0: sha256:b226f17f37bcb70068ca79e60e97c908dbd5e188778a7335c449bb177ed99d35
+  0.99.16--r44hdfd78af_0: sha256:b9f8ea92b9070bf623e29a0804df420350cafece0f6afea74be381cf50885bce
 tags:
   0.99.8--r41hdfd78af_1: sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f
   0.99.12--r42hdfd78af_0: sha256:8f1b7fe30bb9916aacf08bc7165fde57d299081804363b4245006054bc2c7d9d
   0.99.12--r43hdfd78af_1: sha256:0944222026352a79cd014c28db4914b162f3eeabbf1a8a2b6e66e62807bc4f14
   0.99.15--r43hdfd78af_0: sha256:b226f17f37bcb70068ca79e60e97c908dbd5e188778a7335c449bb177ed99d35
+  0.99.16--r44hdfd78af_0: sha256:b9f8ea92b9070bf623e29a0804df420350cafece0f6afea74be381cf50885bce
 docker: quay.io/biocontainers/bioconductor-synaptome.db
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/phylocsfpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylocsfpp
 latest:
-  1.2.0_9643238d--ha666654_6: sha256:41ab92c49619218fa1f148d33fcbffd825e1863018225bc25658979765d83bc2
+  1.2.0_9643238d--heaafb18_7: sha256:99494dd80a6d87ee97d12c70281f88d49abd739da181ba78ecf0b0cc87ae79c4
 tags:
   1.2.0_9643238d--h54ed327_5: sha256:487185b710260ed70141d67f804375985114a58e66b93316df6015b5f8e2db45
   1.2.0_9643238d--ha666654_6: sha256:41ab92c49619218fa1f148d33fcbffd825e1863018225bc25658979765d83bc2
+  1.2.0_9643238d--heaafb18_7: sha256:99494dd80a6d87ee97d12c70281f88d49abd739da181ba78ecf0b0cc87ae79c4
 docker: quay.io/biocontainers/phylocsfpp
 aliases:
   phylocsf++: /usr/local/bin/phylocsf++

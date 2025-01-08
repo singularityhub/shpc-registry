@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/novoalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for novoalign
 latest:
-  4.03.04--h43eeafb_3: sha256:975866a89e6ab0c3ba5a222e4455d0a5c9b5966185eb0040a3af7b1a1f2510b5
+  4.03.04--h5ca1c30_4: sha256:95db3061b1b57e46b41953736b59be2921c8f8dfc681889cf250912aa511da7b
 tags:
   4.03.04--h5b5514e_1: sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed
   4.03.04--h43eeafb_3: sha256:975866a89e6ab0c3ba5a222e4455d0a5c9b5966185eb0040a3af7b1a1f2510b5
+  4.03.04--h5ca1c30_4: sha256:95db3061b1b57e46b41953736b59be2921c8f8dfc681889cf250912aa511da7b
 docker: quay.io/biocontainers/novoalign
 aliases:
   IONTorrent.R: /usr/local/bin/IONTorrent.R

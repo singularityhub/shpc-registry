@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-promise
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-promise
 latest:
-  1.54.0--r43hdfd78af_0: sha256:8132ca2a7940698cd8b60d1d1b22a05d2f9f88670075ded5923117e6ea9cb1d6
+  1.58.0--r44hdfd78af_0: sha256:e140e49545fe2d3bfbf025259527625e08e40bad555addf30db24d9a029ce0be
 tags:
   1.46.0--r41hdfd78af_0: sha256:713f6fa464552a977cc291fdc024e4f972e291a76657d1ae0088de9614ecc9d0
   1.50.0--r42hdfd78af_0: sha256:25c9d70185446d0ea771406f22b6aa74587d03ac9f3684114189f014b4d47643
   1.52.0--r43hdfd78af_0: sha256:f9273205d4930c47305f08eb565fd2209ca8e0fea0aced79affa96a971d95388
   1.54.0--r43hdfd78af_0: sha256:8132ca2a7940698cd8b60d1d1b22a05d2f9f88670075ded5923117e6ea9cb1d6
+  1.58.0--r44hdfd78af_0: sha256:e140e49545fe2d3bfbf025259527625e08e40bad555addf30db24d9a029ce0be
 docker: quay.io/biocontainers/bioconductor-promise

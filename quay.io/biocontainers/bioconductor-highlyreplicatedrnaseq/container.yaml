@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-highlyreplicatedrnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-highlyreplicatedrnaseq
 latest:
-  1.14.0--r43hdfd78af_0: sha256:b9a38093a2cfdf057c5542033d472f3060a51d21b2f8c9330658d40523495342
+  1.18.0--r44hdfd78af_0: sha256:8604bf56e83d0f44a4a19dcc963daee7e5caea258c69d798576f3334877fc56d
 tags:
   1.6.0--r41hdfd78af_1: sha256:f03fcb94608134d2ec0df151879bafb60eaa6078418b3265bafb6b2819cbb35b
   1.10.0--r42hdfd78af_0: sha256:89234c675b7ecd0cc3484a45166912cfa79a3a99b690211c8c0eedbf4971596c
   1.12.0--r43hdfd78af_0: sha256:651b20f1a57d4b78cff7703f3ace8d02cd971896154c6f1a17d16faabce24218
   1.14.0--r43hdfd78af_0: sha256:b9a38093a2cfdf057c5542033d472f3060a51d21b2f8c9330658d40523495342
+  1.18.0--r44hdfd78af_0: sha256:8604bf56e83d0f44a4a19dcc963daee7e5caea258c69d798576f3334877fc56d
 docker: quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq

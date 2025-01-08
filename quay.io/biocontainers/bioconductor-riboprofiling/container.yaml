@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-riboprofiling
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-riboprofiling
 latest:
-  1.32.0--r43hdfd78af_0: sha256:4d743c1db13cb68752cb1d31fe48f897ace91c94dc202b974802287f39a83223
+  1.36.0--r44hdfd78af_0: sha256:06696dfa443c63763d9a8bb87189a252b6cb85940065185d6a410c6904ab78e8
 tags:
   1.7.1--r3.4.1_0: sha256:55c1165b8a1e8d04f66071e5f6f9c7548c12f77caa6e98d72f025cbe8b95da50
   1.24.0--r41hdfd78af_0: sha256:6775a1f7d377fe1a098904a675c30f894169b94e97f8ce8145aa618f25030945
@@ -13,6 +13,7 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:94d950361b7772a8488817c7351b0e63a5ae1937491ec0e79debc33591bfbacd
   1.30.0--r43hdfd78af_0: sha256:538cacc7058f5e78d78f4f4d6d9cb68533ee2bd3c711314e9c84903b3c5a7d1b
   1.32.0--r43hdfd78af_0: sha256:4d743c1db13cb68752cb1d31fe48f897ace91c94dc202b974802287f39a83223
+  1.36.0--r44hdfd78af_0: sha256:06696dfa443c63763d9a8bb87189a252b6cb85940065185d6a410c6904ab78e8
 docker: quay.io/biocontainers/bioconductor-riboprofiling
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

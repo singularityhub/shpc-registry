@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-scthi.data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scthi.data
 latest:
-  1.14.0--r43hdfd78af_0: sha256:9f195c0c7b56cb34a634fdfeff3c6b65e5e093cafcf3235a2bc0566bb95c7edf
+  1.18.0--r44hdfd78af_0: sha256:34924f82f22ef6de0c2de7a406c8ea09aa13db6511b69708d052ec2667da9ec5
 tags:
   1.6.0--r41hdfd78af_1: sha256:28fe2920b3764df74caa1555ddd4ac2f7e30ce7107225aace3ffc96990d457b6
   1.9.0--r42hdfd78af_0: sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c
   1.12.0--r43hdfd78af_0: sha256:7eaefd34601daeddee63edbe7fd55593487abd0e9d73e22b994c8dd901882ee6
   1.14.0--r43hdfd78af_0: sha256:9f195c0c7b56cb34a634fdfeff3c6b65e5e093cafcf3235a2bc0566bb95c7edf
+  1.18.0--r44hdfd78af_0: sha256:34924f82f22ef6de0c2de7a406c8ea09aa13db6511b69708d052ec2667da9ec5
 docker: quay.io/biocontainers/bioconductor-scthi.data

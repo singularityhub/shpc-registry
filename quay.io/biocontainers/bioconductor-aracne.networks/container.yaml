@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-aracne.networks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aracne.networks
 latest:
-  1.28.0--r43hdfd78af_0: sha256:a8faac9cca952ac39112fa65fb5e713cd9cf9f73b5a703fc637720866ca4cc1f
+  1.32.0--r44hdfd78af_0: sha256:db3d8e5cc7effe0032116572c6631e6f88b22c31ad90275d6a772f754da58638
 tags:
   1.8.0--r351_0: sha256:1afd43afcad4686efebde278df33e090783d41315bea5ec716dacb7bd22dfadb
   1.24.0--r42hdfd78af_0: sha256:525edb1e63db3d08b9929d4c08cf17ab02a5e7c1d38cbfbf8942560c73486732
@@ -12,6 +12,7 @@ tags:
   1.15.0--r40_0: sha256:71b2ff39ebe1722960d9cde92cb4a78adbe28938f904f0a848afb3462f11403f
   1.26.0--r43hdfd78af_0: sha256:d6efe9e038337d3dbd8566a4997bafccb98576f8b944d56f34db28de2d2f0456
   1.28.0--r43hdfd78af_0: sha256:a8faac9cca952ac39112fa65fb5e713cd9cf9f73b5a703fc637720866ca4cc1f
+  1.32.0--r44hdfd78af_0: sha256:db3d8e5cc7effe0032116572c6631e6f88b22c31ad90275d6a772f754da58638
 docker: quay.io/biocontainers/bioconductor-aracne.networks
 aliases:
   wget: /usr/local/bin/wget

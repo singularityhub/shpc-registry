@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-constand
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-constand
 latest:
-  1.10.0--r43hdfd78af_0: sha256:cbd4c8c125b876a6c1d4170e4fa97eafe5ec29363dd33f347f075e79a5088dad
+  1.14.0--r44hdfd78af_0: sha256:367ff54037da8e8582b1458899d40d07f5bafdc51f1f79ff907fda9335f969d1
 tags:
   1.2.0--r41hdfd78af_0: sha256:55f6d60456d356bae51df3abd54e9605d5a43ca0cef3959d2e71249efb9d1616
   1.6.0--r42hdfd78af_0: sha256:466f730f050de3de17892fcfffc9c45b3505aaa130654a4924cdbbef66c1bd1a
   1.8.0--r43hdfd78af_0: sha256:b3be7d08f2c3d222be48325153157432f995c3f2da16b9d4cca377d7e8fc014f
   1.10.0--r43hdfd78af_0: sha256:cbd4c8c125b876a6c1d4170e4fa97eafe5ec29363dd33f347f075e79a5088dad
+  1.14.0--r44hdfd78af_0: sha256:367ff54037da8e8582b1458899d40d07f5bafdc51f1f79ff907fda9335f969d1
 docker: quay.io/biocontainers/bioconductor-constand

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rnaalishapes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnaalishapes
 latest:
-  2.5.0--pl5321h4ac6f70_1: sha256:b55087c363ef855f7ecf0ac2e1142fe84a6b5167c77e45ad50b8a1add8f4d814
+  2.5.0--pl5321h9948957_2: sha256:3aa534e39cf2076e2d1052746c3489ff317ea23ebe5410f1abbf8d49221e0daa
 tags:
   2.5.0--pl5321h4ac6f70_0: sha256:8e5d586d85db641713abf171a19923bfc473e4b7aa00b2e2a05127e829ee0fb0
   2.5.0--pl5321h4ac6f70_1: sha256:b55087c363ef855f7ecf0ac2e1142fe84a6b5167c77e45ad50b8a1add8f4d814
+  2.5.0--pl5321h9948957_2: sha256:3aa534e39cf2076e2d1052746c3489ff317ea23ebe5410f1abbf8d49221e0daa
 docker: quay.io/biocontainers/rnaalishapes
 aliases:
   RNAalishapes: /usr/local/bin/RNAalishapes

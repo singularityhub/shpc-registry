@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/moni
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for moni
 latest:
-  0.2.2--py310h3d55dab_0: sha256:c263b48d8c1b10380d7aac920c3d30e2a57b3a512615d5f20609895c4a9619c4
+  0.2.2--py310h026fc6c_1: sha256:6276e3947f52a1f493119ad9196f8647e085a7555f24ca360a4cdf39f466d5ca
 tags:
   0.2.2--py310h3d55dab_0: sha256:c263b48d8c1b10380d7aac920c3d30e2a57b3a512615d5f20609895c4a9619c4
   0.2.2--py312h9b99d9e_0: sha256:b21bfdfd1e2692369eeb347a759743df8897abc559960df115159d4802bfd623
+  0.2.2--py310h026fc6c_1: sha256:6276e3947f52a1f493119ad9196f8647e085a7555f24ca360a4cdf39f466d5ca
 docker: quay.io/biocontainers/moni
 aliases:
   SlpEncBuild: /usr/local/bin/SlpEncBuild

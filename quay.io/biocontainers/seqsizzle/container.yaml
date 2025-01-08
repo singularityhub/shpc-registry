@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seqsizzle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqsizzle
 latest:
-  0.1.4--h8bd2d3b_0: sha256:7e2c45fbcf4d6059307b8e16c78d5a6959da1e40f28cdaae2ab3a650ea49d931
+  0.1.5--h790517f_1: sha256:e2efaf873809abd976ec09a5dc7e82fc3adcbfebf659be3cd332d8658b5ee868
 tags:
   0.1.4--h8bd2d3b_0: sha256:7e2c45fbcf4d6059307b8e16c78d5a6959da1e40f28cdaae2ab3a650ea49d931
+  0.1.5--h790517f_1: sha256:e2efaf873809abd976ec09a5dc7e82fc3adcbfebf659be3cd332d8658b5ee868
 docker: quay.io/biocontainers/seqsizzle
 aliases:
   seqsizzle: /usr/local/bin/seqsizzle

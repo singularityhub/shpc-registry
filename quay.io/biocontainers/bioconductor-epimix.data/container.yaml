@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-epimix.data
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-epimix.data
 latest:
-  1.4.0--r43hdfd78af_0: sha256:f6f49bf8379e687c0275e18c6976d49794e9b54b0a8ff4be09cd5f079d81c4e7
+  1.8.0--r44hdfd78af_0: sha256:3e1010401ece505776392063c3f9e4eba343a8069e58a9cbcf9ad13d11f6ff2d
 tags:
   1.0.0--r42hdfd78af_0: sha256:8de7f9ed123cd59804f255a3a337793513269805ba6fac5a16bb7ada37ea20bc
   1.2.2--r43hdfd78af_0: sha256:210abd8cc88006978dc95a1b21a3a79cbd41f6592a4496cf87fa5831ea2fbd58
   1.4.0--r43hdfd78af_0: sha256:f6f49bf8379e687c0275e18c6976d49794e9b54b0a8ff4be09cd5f079d81c4e7
+  1.8.0--r44hdfd78af_0: sha256:3e1010401ece505776392063c3f9e4eba343a8069e58a9cbcf9ad13d11f6ff2d
 docker: quay.io/biocontainers/bioconductor-epimix.data
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

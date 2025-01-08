@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-clusterstab
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clusterstab
 latest:
-  1.74.0--r43hdfd78af_0: sha256:4871565c505f79dc7c4144184cb04dec2f12d55ab5e2e9e2b0e2340c989cbf2d
+  1.78.0--r44hdfd78af_0: sha256:bff448ca0e536753f65fbd71961b70cf236a5b9e468b23439ea09a2f6569ec1c
 tags:
   1.66.0--r41hdfd78af_0: sha256:500f3a29035eb0fb305838fb8d0cf2eea3d45f36c12012e46e436a0b55b9f9de
   1.70.0--r42hdfd78af_0: sha256:883cbe94302238d5aeae8a5c51abf29bde5ca10050e159206f95e7c91cc5e681
   1.72.0--r43hdfd78af_0: sha256:69f41cf78c8e328af4ae750125753056742993d6c3e92a1e61f1684c71d644d5
   1.74.0--r43hdfd78af_0: sha256:4871565c505f79dc7c4144184cb04dec2f12d55ab5e2e9e2b0e2340c989cbf2d
+  1.78.0--r44hdfd78af_0: sha256:bff448ca0e536753f65fbd71961b70cf236a5b9e468b23439ea09a2f6569ec1c
 docker: quay.io/biocontainers/bioconductor-clusterstab

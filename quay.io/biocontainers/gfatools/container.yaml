@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gfatools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gfatools
 latest:
-  0.5--he4a0461_4: sha256:64a4f8e6838e2d259ea5da2d3c4001d1254adab364c87a0ee3e75966751810c4
+  0.5--h577a1d6_5: sha256:cdb1a77adaab3a25de0a57d36b219d3c30a98c3d9b6932b5755fbd73c15b3141
 tags:
   0.5--h7132678_2: sha256:77e9c818a3cb314c50b2ed086aa3e3054dedac0eab3f7d7b3338d8dfa66ddbdd
   0.5--he4a0461_4: sha256:64a4f8e6838e2d259ea5da2d3c4001d1254adab364c87a0ee3e75966751810c4
+  0.5--h577a1d6_5: sha256:cdb1a77adaab3a25de0a57d36b219d3c30a98c3d9b6932b5755fbd73c15b3141
 docker: quay.io/biocontainers/gfatools
 aliases:
   gfatools: /usr/local/bin/gfatools

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-sanger-cgp-vcf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-sanger-cgp-vcf
 latest:
-  2.2.1--pl5321h031d066_9: sha256:d0215f1e28aecb4ee2c485ee361cf83b2952470613222f88791131ea478a9888
+  2.2.1--pl5321h7b50bb2_10: sha256:357ffbdf309116c9b27da06deb2dc47fb7d8abb1381374b23eed595ae15542b0
 tags:
   2.2.1--pl5321hec16e2b_8: sha256:238013390bcedc5c200dbc28c6a26557fd9a0ef7a3c4025169987366c07b8f92
   2.2.1--pl5321h031d066_9: sha256:d0215f1e28aecb4ee2c485ee361cf83b2952470613222f88791131ea478a9888
+  2.2.1--pl5321h7b50bb2_10: sha256:357ffbdf309116c9b27da06deb2dc47fb7d8abb1381374b23eed595ae15542b0
 docker: quay.io/biocontainers/perl-sanger-cgp-vcf
 aliases:
   cgpAppendIdsToVcf.pl: /usr/local/bin/cgpAppendIdsToVcf.pl

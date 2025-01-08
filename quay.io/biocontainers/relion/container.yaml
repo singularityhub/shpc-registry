@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/relion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for relion
 latest:
-  4.0.2--hb1c4ac9_1: sha256:4435df8af4bb4e6072114a53cc0e555d4e0e33c76df9613771e0e9dab287877d
+  4.0.2--h9dc3d2a_2: sha256:2fe5a9a32e5cad33320c41bef1c9d64f4fec945eb85bc8e4ec1f0d5b2a5d1a81
 tags:
   4.0.0--h70dad7d_0: sha256:e547ef5555acb5a650d41e9c38de2e54949970108348da6dcf0514ccfc3acd50
   4.0.1--h70dad7d_0: sha256:90887619252dae24b75d7380fbfad5007b8739db55a8a98075113be18f2452d2
@@ -10,6 +10,7 @@ tags:
   4.0.1--hb1c4ac9_3: sha256:5635fe7e0fffb5adc207b7da8c90222dc929316b91bafc87942ce881869b22da
   4.0.2--hb1c4ac9_0: sha256:2ec314f574ba3afb012e52659006e239c14e277ff7d1328d698109081ca34693
   4.0.2--hb1c4ac9_1: sha256:4435df8af4bb4e6072114a53cc0e555d4e0e33c76df9613771e0e9dab287877d
+  4.0.2--h9dc3d2a_2: sha256:2fe5a9a32e5cad33320c41bef1c9d64f4fec945eb85bc8e4ec1f0d5b2a5d1a81
 docker: quay.io/biocontainers/relion
 aliases:
   relion_align_symmetry: /usr/local/bin/relion_align_symmetry

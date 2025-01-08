@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-curatedatlasqueryr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-curatedatlasqueryr
 latest:
-  1.0.0--r43hdfd78af_0: sha256:cab04550c09850e146c45471bd604bfa5e0c0f9b88104b1ef2698be536ae5451
+  1.4.0--r44hdfd78af_0: sha256:f02fb443f023086d1820c8806488d7088e164dcd33bf7995f96eb374c47647ec
 tags:
   1.0.0--r43hdfd78af_0: sha256:cab04550c09850e146c45471bd604bfa5e0c0f9b88104b1ef2698be536ae5451
+  1.4.0--r44hdfd78af_0: sha256:f02fb443f023086d1820c8806488d7088e164dcd33bf7995f96eb374c47647ec
 docker: quay.io/biocontainers/bioconductor-curatedatlasqueryr
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

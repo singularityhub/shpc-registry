@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rseqan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rseqan
 latest:
-  1.22.0--r43hf17093f_1: sha256:ef78976e45075a07072d4d3b8e4b1549765b66f2a35486654b0ddab61867af58
+  1.26.0--r44he5774e6_0: sha256:f36b9175582936ec8ca66b48c6e695c9103e69cdbcb1a2c9b5e0422563a3b41e
 tags:
   1.8.0--r40h5f743cb_0: sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf
   1.18.0--r42hc247a5b_0: sha256:220e8b177aceffed50fc3d2c4e6716b3e416dd6b12a45eee8d4fa41bef0fba86
@@ -12,6 +12,7 @@ tags:
   1.18.0--r42hf17093f_2: sha256:5d409e47e3226b17e7d47ef6d21b5e2d758bfcf32c92851b9d8d443781f6e16a
   1.20.0--r43hf17093f_0: sha256:e2b36ea73d709f223b60f30b77a22bc83304e6f9934602193ec4463514e20517
   1.22.0--r43hf17093f_1: sha256:ef78976e45075a07072d4d3b8e4b1549765b66f2a35486654b0ddab61867af58
+  1.26.0--r44he5774e6_0: sha256:f36b9175582936ec8ca66b48c6e695c9103e69cdbcb1a2c9b5e0422563a3b41e
 docker: quay.io/biocontainers/bioconductor-rseqan
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

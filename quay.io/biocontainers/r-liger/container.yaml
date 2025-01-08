@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-liger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-liger
 latest:
-  2.1.0--r43hd0834be_0: sha256:c3dc25491aedb6641ad826c681ce9e4fe4bc2f9bd468718ca649ac0de1c227da
+  2.1.0--r44h165a49b_2: sha256:9ec1c6f3e58465443518fcb66e681f664a99d9d7e9260f09a1d86472c3e7b8e1
 tags:
   1.0.0--r41h3b3379e_1: sha256:bc852d337eac33592fb472f8609d0cc5794e94c3026bf534fab5a0453410a786
   1.0.0--r42h3b3379e_2: sha256:caefaf04cc1bdc4aec5b0bd3569a90f2cf00dbbb58623327dc26b63fc83caae4
@@ -11,6 +11,7 @@ tags:
   1.0.1--r43hd0834be_0: sha256:50d99cdc48b97b4e3b1609fa71f4ad7335cd451b3d086afbdb4af9fa9d0b0b4a
   2.0.1--r43hd0834be_0: sha256:5fc71f7bb4f1e9ec03aef973154fb3413aa692b883be42b502865580476688aa
   2.1.0--r43hd0834be_0: sha256:c3dc25491aedb6641ad826c681ce9e4fe4bc2f9bd468718ca649ac0de1c227da
+  2.1.0--r44h165a49b_2: sha256:9ec1c6f3e58465443518fcb66e681f664a99d9d7e9260f09a1d86472c3e7b8e1
 docker: quay.io/biocontainers/r-liger
 aliases:
   numba: /usr/local/bin/numba
