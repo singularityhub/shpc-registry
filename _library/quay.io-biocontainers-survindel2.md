@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/survindel2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/survindel2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/survindel2/container.yaml"
-updated_at: "2025-01-07 03:10:33.126799"
-latest: "1.1.3--h4ac6f70_0"
+updated_at: "2025-01-08 03:07:51.396342"
+latest: "1.1.3--h9948957_1"
 container_url: "https://biocontainers.pro/tools/survindel2"
 aliases:
  - "clip_consensus_builder"
@@ -33,8 +33,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1.3--h4ac6f70_0"
+ - "1.1.3--h9948957_1"
 description: "singularity registry hpc automated addition for survindel2"
-config: {"url": "https://biocontainers.pro/tools/survindel2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for survindel2", "latest": {"1.1.3--h4ac6f70_0": "sha256:9da3ffc0a82d4ebe8404eaf1e3f64bf261908c0e3776ebcecdc5c1527e2cec97"}, "tags": {"1.1.3--h4ac6f70_0": "sha256:9da3ffc0a82d4ebe8404eaf1e3f64bf261908c0e3776ebcecdc5c1527e2cec97"}, "docker": "quay.io/biocontainers/survindel2", "aliases": {"clip_consensus_builder": "/usr/local/bin/clip_consensus_builder", "dp_clusterer": "/usr/local/bin/dp_clusterer", "features.py": "/usr/local/bin/features.py", "merge_identical_calls": "/usr/local/bin/merge_identical_calls", "normalise": "/usr/local/bin/normalise", "random_pos_generator.py": "/usr/local/bin/random_pos_generator.py", "reads_categorizer": "/usr/local/bin/reads_categorizer", "survindel2.py": "/usr/local/bin/survindel2.py", "survindel2_run_classifier.py": "/usr/local/bin/survindel2_run_classifier.py", "survindel2_train_classifier.py": "/usr/local/bin/survindel2_train_classifier.py", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/survindel2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for survindel2", "latest": {"1.1.3--h9948957_1": "sha256:6424d6e62dc0af01acb0bd4bc1c0e44b871fb5cbe890a905b442b1ddd5d9ad5c"}, "tags": {"1.1.3--h4ac6f70_0": "sha256:9da3ffc0a82d4ebe8404eaf1e3f64bf261908c0e3776ebcecdc5c1527e2cec97", "1.1.3--h9948957_1": "sha256:6424d6e62dc0af01acb0bd4bc1c0e44b871fb5cbe890a905b442b1ddd5d9ad5c"}, "docker": "quay.io/biocontainers/survindel2", "aliases": {"clip_consensus_builder": "/usr/local/bin/clip_consensus_builder", "dp_clusterer": "/usr/local/bin/dp_clusterer", "features.py": "/usr/local/bin/features.py", "merge_identical_calls": "/usr/local/bin/merge_identical_calls", "normalise": "/usr/local/bin/normalise", "random_pos_generator.py": "/usr/local/bin/random_pos_generator.py", "reads_categorizer": "/usr/local/bin/reads_categorizer", "survindel2.py": "/usr/local/bin/survindel2.py", "survindel2_run_classifier.py": "/usr/local/bin/survindel2_run_classifier.py", "survindel2_train_classifier.py": "/usr/local/bin/survindel2_train_classifier.py", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/survindel2.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/survindel2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/survindel2:1.1.3--h4ac6f70_0
+$ shpc install quay.io/biocontainers/survindel2:1.1.3--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/survindel2/1.1.3--h4ac6f70_0
-$ module help quay.io/biocontainers/survindel2/1.1.3--h4ac6f70_0
+$ module load quay.io/biocontainers/survindel2/1.1.3--h9948957_1
+$ module help quay.io/biocontainers/survindel2/1.1.3--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

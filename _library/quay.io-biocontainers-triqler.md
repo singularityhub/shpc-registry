@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/triqler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/triqler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/triqler/container.yaml"
-updated_at: "2025-01-07 03:20:08.995300"
+updated_at: "2025-01-08 03:17:15.325635"
 latest: "0.6.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/triqler"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-leukemiaseset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-leukemiaseset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-leukemiaseset/container.yaml"
-updated_at: "2025-01-07 03:37:42.618239"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:34:45.950718"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-leukemiaseset"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-leukemiaseset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-leukemiaseset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leukemiaseset", "latest": {"1.38.0--r43hdfd78af_0": "sha256:82cb50309ccdf7de7c6fe463f9b86e0a6b1520f99dea4d05c12cb312ab1e285d"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:2405678e612b4c233154d10c8f4e72e140ec1828caeb3a92e009ce48f1e7fbc2", "1.34.0--r42hdfd78af_0": "sha256:f432cfb52dc68b51a1954580bd3371ea23c981193bbadc7e9e3fcb035dffddc9", "1.36.0--r43hdfd78af_0": "sha256:5f6a9d280ebd9084318a7fa13bf9065ede71708a0aace78d369fe8bd00482b4b", "1.38.0--r43hdfd78af_0": "sha256:82cb50309ccdf7de7c6fe463f9b86e0a6b1520f99dea4d05c12cb312ab1e285d"}, "docker": "quay.io/biocontainers/bioconductor-leukemiaseset"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-leukemiaseset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leukemiaseset", "latest": {"1.42.0--r44hdfd78af_0": "sha256:d7c205ab9a378dbf262a27ae2529c0674b07bb1f734a9bf36ed1f8c376ec34e0"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:2405678e612b4c233154d10c8f4e72e140ec1828caeb3a92e009ce48f1e7fbc2", "1.34.0--r42hdfd78af_0": "sha256:f432cfb52dc68b51a1954580bd3371ea23c981193bbadc7e9e3fcb035dffddc9", "1.36.0--r43hdfd78af_0": "sha256:5f6a9d280ebd9084318a7fa13bf9065ede71708a0aace78d369fe8bd00482b4b", "1.38.0--r43hdfd78af_0": "sha256:82cb50309ccdf7de7c6fe463f9b86e0a6b1520f99dea4d05c12cb312ab1e285d", "1.42.0--r44hdfd78af_0": "sha256:d7c205ab9a378dbf262a27ae2529c0674b07bb1f734a9bf36ed1f8c376ec34e0"}, "docker": "quay.io/biocontainers/bioconductor-leukemiaseset"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-leukemiaseset.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-leukemiaseset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-leukemiaseset:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-leukemiaseset:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-leukemiaseset/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-leukemiaseset/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-leukemiaseset/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-leukemiaseset/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

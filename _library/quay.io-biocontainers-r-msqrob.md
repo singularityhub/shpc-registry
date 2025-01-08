@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-msqrob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-msqrob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-msqrob/container.yaml"
-updated_at: "2025-01-07 03:07:43.102061"
+updated_at: "2025-01-08 03:05:05.421371"
 latest: "0.7.7--r44hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-msqrob"
 aliases:

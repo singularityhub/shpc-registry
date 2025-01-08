@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccsmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccsmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccsmeth/container.yaml"
-updated_at: "2025-01-07 03:35:30.007529"
+updated_at: "2025-01-08 03:32:30.073491"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ccsmeth"
 aliases:

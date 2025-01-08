@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rrvgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rrvgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rrvgo/container.yaml"
-updated_at: "2025-01-07 02:58:11.126329"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-08 02:55:34.048807"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rrvgo"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rrvgo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rrvgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrvgo", "latest": {"1.14.0--r43hdfd78af_0": "sha256:83110e983194e25d2088fb95341b826755a4c0308cb5a126aa5858bf2cd2486b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:ce506aa0bb51320cea491d407e70a79c650e5e6dcf0111470051f81d44b9b164", "1.10.0--r42hdfd78af_0": "sha256:7728272f645ae55c3a999b052b7824b0d3da2ceb37bea2e402ec16da5db8f689", "1.12.0--r43hdfd78af_0": "sha256:4add18b4988e3f2147d5d3975b5f213eead4e92d95be18e1b644918e8b293184", "1.14.0--r43hdfd78af_0": "sha256:83110e983194e25d2088fb95341b826755a4c0308cb5a126aa5858bf2cd2486b"}, "docker": "quay.io/biocontainers/bioconductor-rrvgo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rrvgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrvgo", "latest": {"1.18.0--r44hdfd78af_0": "sha256:368e6bfac6bd34c79d46ea956bb922b8ace4d76bb43592c7d72b0786c6d95727"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:ce506aa0bb51320cea491d407e70a79c650e5e6dcf0111470051f81d44b9b164", "1.10.0--r42hdfd78af_0": "sha256:7728272f645ae55c3a999b052b7824b0d3da2ceb37bea2e402ec16da5db8f689", "1.12.0--r43hdfd78af_0": "sha256:4add18b4988e3f2147d5d3975b5f213eead4e92d95be18e1b644918e8b293184", "1.14.0--r43hdfd78af_0": "sha256:83110e983194e25d2088fb95341b826755a4c0308cb5a126aa5858bf2cd2486b", "1.18.0--r44hdfd78af_0": "sha256:368e6bfac6bd34c79d46ea956bb922b8ace4d76bb43592c7d72b0786c6d95727"}, "docker": "quay.io/biocontainers/bioconductor-rrvgo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rrvgo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rrvgo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rrvgo:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rrvgo:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rrvgo/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rrvgo/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rrvgo/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rrvgo/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

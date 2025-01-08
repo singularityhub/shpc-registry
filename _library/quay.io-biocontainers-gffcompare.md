@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffcompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffcompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffcompare/container.yaml"
-updated_at: "2025-01-07 03:19:04.600012"
+updated_at: "2025-01-08 03:16:13.313316"
 latest: "0.12.6--h9948957_4"
 container_url: "https://biocontainers.pro/tools/gffcompare"
 aliases:

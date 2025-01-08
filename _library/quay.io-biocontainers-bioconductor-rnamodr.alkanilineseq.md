@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/container.yaml"
-updated_at: "2025-01-07 03:05:53.212033"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:03:14.823063"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.alkanilineseq"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnamodr.alkanilineseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.alkanilineseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.alkanilineseq", "latest": {"1.16.0--r43hdfd78af_0": "sha256:5a46a193660949012d4141af658ce76686df62fd8047dc6211eb159b44a64dab"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:35be0dd65c38b2c2f3e8cf20563d44a9b450dc00a5b1325b7063e31800aa7365", "1.12.0--r42hdfd78af_0": "sha256:ddb6dbee8ef70074e083953047c1b99adbcd4fcfb3a2520fbff756e4e521cb6f", "1.14.0--r43hdfd78af_0": "sha256:0a1478a9960538805b8f30c7d65b766c81e60c4702327019ed43fd3380156893", "1.16.0--r43hdfd78af_0": "sha256:5a46a193660949012d4141af658ce76686df62fd8047dc6211eb159b44a64dab"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.alkanilineseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.alkanilineseq", "latest": {"1.20.0--r44hdfd78af_0": "sha256:44b4cc7c81d09448a1b47b88d63b322ed6fffa3fb23d8b8fe3843370943a5dcb"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:35be0dd65c38b2c2f3e8cf20563d44a9b450dc00a5b1325b7063e31800aa7365", "1.12.0--r42hdfd78af_0": "sha256:ddb6dbee8ef70074e083953047c1b99adbcd4fcfb3a2520fbff756e4e521cb6f", "1.14.0--r43hdfd78af_0": "sha256:0a1478a9960538805b8f30c7d65b766c81e60c4702327019ed43fd3380156893", "1.16.0--r43hdfd78af_0": "sha256:5a46a193660949012d4141af658ce76686df62fd8047dc6211eb159b44a64dab", "1.20.0--r44hdfd78af_0": "sha256:44b4cc7c81d09448a1b47b88d63b322ed6fffa3fb23d8b8fe3843370943a5dcb"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eigensoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eigensoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eigensoft/container.yaml"
-updated_at: "2025-01-07 03:00:56.902569"
-latest: "8.0.0--h6a739c9_5"
+updated_at: "2025-01-08 02:58:19.648939"
+latest: "8.0.0--h75d7a4a_6"
 container_url: "https://biocontainers.pro/tools/eigensoft"
 aliases:
  - "baseprog"
@@ -28,8 +28,9 @@ versions:
  - "8.0.0--h6a739c9_3"
  - "8.0.0--h6a739c9_4"
  - "8.0.0--h6a739c9_5"
+ - "8.0.0--h75d7a4a_6"
 description: "shpc-registry automated BioContainers addition for eigensoft"
-config: {"url": "https://biocontainers.pro/tools/eigensoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eigensoft", "latest": {"8.0.0--h6a739c9_5": "sha256:1d005974285ff0d25fd8dd6ae41d2033e218983847493f97e86f8dda5b918d87"}, "tags": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e", "8.0.0--h2469040_1": "sha256:3b9a72b2081b685fbb21802396c9a08436b5c333c87b1010899828cb4c81d02a", "8.0.0--h6a739c9_3": "sha256:cf1b307bb5395b1f39317f3c8c177f96f6adbb38b6237de7acad090e7a3bc6ba", "8.0.0--h6a739c9_4": "sha256:ee41b744392c271567f8fc308881ecd346d7efa1206d80624696973886fd543e", "8.0.0--h6a739c9_5": "sha256:1d005974285ff0d25fd8dd6ae41d2033e218983847493f97e86f8dda5b918d87"}, "docker": "quay.io/biocontainers/eigensoft", "aliases": {"baseprog": "/usr/local/bin/baseprog", "convertf": "/usr/local/bin/convertf", "eigenstrat": "/usr/local/bin/eigenstrat", "eigenstratQTL": "/usr/local/bin/eigenstratQTL", "mergeit": "/usr/local/bin/mergeit", "pca": "/usr/local/bin/pca", "pcatoy": "/usr/local/bin/pcatoy", "smarteigenstrat": "/usr/local/bin/smarteigenstrat", "smartpca": "/usr/local/bin/smartpca", "smartrel": "/usr/local/bin/smartrel", "smshrink": "/usr/local/bin/smshrink", "twstats": "/usr/local/bin/twstats", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/eigensoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eigensoft", "latest": {"8.0.0--h75d7a4a_6": "sha256:e07d61d0d8decf83e275ee39e40436778b8fbbad4355cf12c0cc4aa7fa6940dd"}, "tags": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e", "8.0.0--h2469040_1": "sha256:3b9a72b2081b685fbb21802396c9a08436b5c333c87b1010899828cb4c81d02a", "8.0.0--h6a739c9_3": "sha256:cf1b307bb5395b1f39317f3c8c177f96f6adbb38b6237de7acad090e7a3bc6ba", "8.0.0--h6a739c9_4": "sha256:ee41b744392c271567f8fc308881ecd346d7efa1206d80624696973886fd543e", "8.0.0--h6a739c9_5": "sha256:1d005974285ff0d25fd8dd6ae41d2033e218983847493f97e86f8dda5b918d87", "8.0.0--h75d7a4a_6": "sha256:e07d61d0d8decf83e275ee39e40436778b8fbbad4355cf12c0cc4aa7fa6940dd"}, "docker": "quay.io/biocontainers/eigensoft", "aliases": {"baseprog": "/usr/local/bin/baseprog", "convertf": "/usr/local/bin/convertf", "eigenstrat": "/usr/local/bin/eigenstrat", "eigenstratQTL": "/usr/local/bin/eigenstratQTL", "mergeit": "/usr/local/bin/mergeit", "pca": "/usr/local/bin/pca", "pcatoy": "/usr/local/bin/pcatoy", "smarteigenstrat": "/usr/local/bin/smarteigenstrat", "smartpca": "/usr/local/bin/smartpca", "smartrel": "/usr/local/bin/smartrel", "smshrink": "/usr/local/bin/smshrink", "twstats": "/usr/local/bin/twstats", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eigensoft.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/eigensoft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eigensoft:8.0.0--h6a739c9_5
+$ shpc install quay.io/biocontainers/eigensoft:8.0.0--h75d7a4a_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eigensoft/8.0.0--h6a739c9_5
-$ module help quay.io/biocontainers/eigensoft/8.0.0--h6a739c9_5
+$ module load quay.io/biocontainers/eigensoft/8.0.0--h75d7a4a_6
+$ module help quay.io/biocontainers/eigensoft/8.0.0--h75d7a4a_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

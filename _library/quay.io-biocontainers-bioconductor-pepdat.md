@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pepdat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
-updated_at: "2025-01-07 03:38:54.191080"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:35:58.970643"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepdat"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pepdat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pepdat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepdat", "latest": {"1.22.0--r43hdfd78af_0": "sha256:9f50b0b7fab634a267ee34e7dd9da0c7ef43b7dcb620c84bf27605ed82f4986b"}, "tags": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb", "1.18.0--r42hdfd78af_0": "sha256:8f12e01b626b95b3796025d8030ba6813cda8d43e693dc4feee57f20037ca955", "1.14.0--r41hdfd78af_1": "sha256:184358187c6a4cae59b7157f92c58298b69b24a50a311d1ba70400962d608236", "1.12.0--r41hdfd78af_0": "sha256:bc49e77b957866eada7f8accf4b21d798ae1c79ab065855b14e6175c6ea5cefd", "1.10.0--r40hdfd78af_1": "sha256:4f95d9e31a627d2284fed4d0d2d4b7d8ed8cffe2709fd712ecd4fa4b569d013f", "1.20.0--r43hdfd78af_0": "sha256:4d1b226140514c5ced1ec8da80c8cdbd6734244f91b4a1cb35fa09ad71b6f2ce", "1.22.0--r43hdfd78af_0": "sha256:9f50b0b7fab634a267ee34e7dd9da0c7ef43b7dcb620c84bf27605ed82f4986b"}, "docker": "quay.io/biocontainers/bioconductor-pepdat", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pepdat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepdat", "latest": {"1.26.0--r44hdfd78af_0": "sha256:0e4bee52058d4aba9dabd9bf0f5280dcf149e502b28d58bbcdb5d87539a9374c"}, "tags": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb", "1.18.0--r42hdfd78af_0": "sha256:8f12e01b626b95b3796025d8030ba6813cda8d43e693dc4feee57f20037ca955", "1.14.0--r41hdfd78af_1": "sha256:184358187c6a4cae59b7157f92c58298b69b24a50a311d1ba70400962d608236", "1.12.0--r41hdfd78af_0": "sha256:bc49e77b957866eada7f8accf4b21d798ae1c79ab065855b14e6175c6ea5cefd", "1.10.0--r40hdfd78af_1": "sha256:4f95d9e31a627d2284fed4d0d2d4b7d8ed8cffe2709fd712ecd4fa4b569d013f", "1.20.0--r43hdfd78af_0": "sha256:4d1b226140514c5ced1ec8da80c8cdbd6734244f91b4a1cb35fa09ad71b6f2ce", "1.22.0--r43hdfd78af_0": "sha256:9f50b0b7fab634a267ee34e7dd9da0c7ef43b7dcb620c84bf27605ed82f4986b", "1.26.0--r44hdfd78af_0": "sha256:0e4bee52058d4aba9dabd9bf0f5280dcf149e502b28d58bbcdb5d87539a9374c"}, "docker": "quay.io/biocontainers/bioconductor-pepdat", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pepdat.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pepdat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pepdat:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pepdat:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pepdat/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pepdat/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pepdat/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pepdat/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

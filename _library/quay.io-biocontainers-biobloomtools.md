@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobloomtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobloomtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobloomtools/container.yaml"
-updated_at: "2025-01-07 03:30:10.387774"
-latest: "2.3.5--hdcf5f25_5"
+updated_at: "2025-01-08 03:27:14.694634"
+latest: "2.3.5--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/biobloomtools"
 aliases:
  - "biobloomcategorizer"
@@ -16,8 +16,9 @@ versions:
  - "2.3.5--hb7da652_0"
  - "2.3.5--h4056dc3_2"
  - "2.3.5--hdcf5f25_5"
+ - "2.3.5--h077b44d_6"
 description: "singularity registry hpc automated addition for biobloomtools"
-config: {"url": "https://biocontainers.pro/tools/biobloomtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobloomtools", "latest": {"2.3.5--hdcf5f25_5": "sha256:2bf489ef793df4b27c30ba99e8c6073fad512f87c9e3cee27797e81d911dca3d"}, "tags": {"2.3.5--hb7da652_0": "sha256:3eb5c822c7ea2d65c8b60b571580858a3187e20d2a8c3f53cd065f7db48e8957", "2.3.5--h4056dc3_2": "sha256:bcbb6d0fb08621ad3a79c05343e1a43e483bd5036a02c5df35b3692c1a6bed52", "2.3.5--hdcf5f25_5": "sha256:2bf489ef793df4b27c30ba99e8c6073fad512f87c9e3cee27797e81d911dca3d"}, "docker": "quay.io/biocontainers/biobloomtools", "aliases": {"biobloomcategorizer": "/usr/local/bin/biobloomcategorizer", "biobloommaker": "/usr/local/bin/biobloommaker", "biobloommicategorizer": "/usr/local/bin/biobloommicategorizer", "biobloommimaker": "/usr/local/bin/biobloommimaker"}}
+config: {"url": "https://biocontainers.pro/tools/biobloomtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobloomtools", "latest": {"2.3.5--h077b44d_6": "sha256:83962f123b2d3d413b411bfb65326629d9a99007579b2de1e337ebc610d16562"}, "tags": {"2.3.5--hb7da652_0": "sha256:3eb5c822c7ea2d65c8b60b571580858a3187e20d2a8c3f53cd065f7db48e8957", "2.3.5--h4056dc3_2": "sha256:bcbb6d0fb08621ad3a79c05343e1a43e483bd5036a02c5df35b3692c1a6bed52", "2.3.5--hdcf5f25_5": "sha256:2bf489ef793df4b27c30ba99e8c6073fad512f87c9e3cee27797e81d911dca3d", "2.3.5--h077b44d_6": "sha256:83962f123b2d3d413b411bfb65326629d9a99007579b2de1e337ebc610d16562"}, "docker": "quay.io/biocontainers/biobloomtools", "aliases": {"biobloomcategorizer": "/usr/local/bin/biobloomcategorizer", "biobloommaker": "/usr/local/bin/biobloommaker", "biobloommicategorizer": "/usr/local/bin/biobloommicategorizer", "biobloommimaker": "/usr/local/bin/biobloommimaker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobloomtools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/biobloomtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobloomtools:2.3.5--hdcf5f25_5
+$ shpc install quay.io/biocontainers/biobloomtools:2.3.5--h077b44d_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobloomtools/2.3.5--hdcf5f25_5
-$ module help quay.io/biocontainers/biobloomtools/2.3.5--hdcf5f25_5
+$ module load quay.io/biocontainers/biobloomtools/2.3.5--h077b44d_6
+$ module help quay.io/biocontainers/biobloomtools/2.3.5--h077b44d_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pctgcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
-updated_at: "2025-01-07 03:00:11.260913"
-latest: "0.3.0--r43h9ee0642_4"
+updated_at: "2025-01-08 02:57:33.918323"
+latest: "0.3.0--r44h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-pctgcdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.3.0--r41h9ee0642_2"
  - "0.3.0--r42h9ee0642_3"
  - "0.3.0--r43h9ee0642_4"
+ - "0.3.0--r44h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for r-pctgcdata"
-config: {"url": "https://biocontainers.pro/tools/r-pctgcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pctgcdata", "latest": {"0.3.0--r43h9ee0642_4": "sha256:d3e4d47aa33201cebdf6889f2c6be59dbd737017b332436aa79ef4bb2734b5da"}, "tags": {"0.3.0--r41h9ee0642_2": "sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991", "0.3.0--r42h9ee0642_3": "sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9", "0.3.0--r43h9ee0642_4": "sha256:d3e4d47aa33201cebdf6889f2c6be59dbd737017b332436aa79ef4bb2734b5da"}, "docker": "quay.io/biocontainers/r-pctgcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-pctgcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pctgcdata", "latest": {"0.3.0--r44h9ee0642_5": "sha256:e438ce202dc6b7cbe4df4c61aa989e1963b2cadfa1fb251703c86b991f73278a"}, "tags": {"0.3.0--r41h9ee0642_2": "sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991", "0.3.0--r42h9ee0642_3": "sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9", "0.3.0--r43h9ee0642_4": "sha256:d3e4d47aa33201cebdf6889f2c6be59dbd737017b332436aa79ef4bb2734b5da", "0.3.0--r44h9ee0642_5": "sha256:e438ce202dc6b7cbe4df4c61aa989e1963b2cadfa1fb251703c86b991f73278a"}, "docker": "quay.io/biocontainers/r-pctgcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pctgcdata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-pctgcdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pctgcdata:0.3.0--r43h9ee0642_4
+$ shpc install quay.io/biocontainers/r-pctgcdata:0.3.0--r44h9ee0642_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pctgcdata/0.3.0--r43h9ee0642_4
-$ module help quay.io/biocontainers/r-pctgcdata/0.3.0--r43h9ee0642_4
+$ module load quay.io/biocontainers/r-pctgcdata/0.3.0--r44h9ee0642_5
+$ module help quay.io/biocontainers/r-pctgcdata/0.3.0--r44h9ee0642_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

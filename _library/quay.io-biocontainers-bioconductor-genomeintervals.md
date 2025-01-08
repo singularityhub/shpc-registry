@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomeintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomeintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomeintervals/container.yaml"
-updated_at: "2025-01-07 02:53:57.257711"
-latest: "1.58.0--r43hdfd78af_0"
+updated_at: "2025-01-08 02:51:27.525737"
+latest: "1.62.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomeintervals"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.54.0--r42hdfd78af_0"
  - "1.56.0--r43hdfd78af_0"
  - "1.58.0--r43hdfd78af_0"
+ - "1.62.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomeintervals"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomeintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomeintervals", "latest": {"1.58.0--r43hdfd78af_0": "sha256:d3ba3622fb3b23face34991056852bb27770af939c77412875f272acfc38b0a1"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:95d8e7a3d49a15af4c8dce8dbe8843fe23b610c5fb859f2aaaab67273de4132f", "1.54.0--r42hdfd78af_0": "sha256:c84e050822f7adb249195922e8c9619badcc9cf57c4bef453b5e875c69eaa81a", "1.56.0--r43hdfd78af_0": "sha256:bb4e0ac7ea25b76600c55d9a531730916abed38a25d419286ad0481408202c40", "1.58.0--r43hdfd78af_0": "sha256:d3ba3622fb3b23face34991056852bb27770af939c77412875f272acfc38b0a1"}, "docker": "quay.io/biocontainers/bioconductor-genomeintervals"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomeintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomeintervals", "latest": {"1.62.0--r44hdfd78af_0": "sha256:a964d628c840b1bf371f50d6060b7ad3b9e545b09f028d20aa4c1a1462930509"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:95d8e7a3d49a15af4c8dce8dbe8843fe23b610c5fb859f2aaaab67273de4132f", "1.54.0--r42hdfd78af_0": "sha256:c84e050822f7adb249195922e8c9619badcc9cf57c4bef453b5e875c69eaa81a", "1.56.0--r43hdfd78af_0": "sha256:bb4e0ac7ea25b76600c55d9a531730916abed38a25d419286ad0481408202c40", "1.58.0--r43hdfd78af_0": "sha256:d3ba3622fb3b23face34991056852bb27770af939c77412875f272acfc38b0a1", "1.62.0--r44hdfd78af_0": "sha256:a964d628c840b1bf371f50d6060b7ad3b9e545b09f028d20aa4c1a1462930509"}, "docker": "quay.io/biocontainers/bioconductor-genomeintervals"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomeintervals.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomeintervals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomeintervals:1.58.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomeintervals:1.62.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomeintervals/1.58.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomeintervals/1.58.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomeintervals/1.62.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomeintervals/1.62.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

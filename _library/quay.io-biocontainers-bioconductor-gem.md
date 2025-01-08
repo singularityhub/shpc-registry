@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gem/container.yaml"
-updated_at: "2025-01-07 03:29:56.352657"
-latest: "1.28.0--r43hdfd78af_1"
+updated_at: "2025-01-08 03:27:01.102205"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gem"
 aliases:
  - "c89"
@@ -19,8 +19,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_1"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gem", "latest": {"1.28.0--r43hdfd78af_1": "sha256:4c2976598a8e00533859a5d16110431ab91ce97b73a13784241eeb86c6909a60"}, "tags": {"1.8.0--r351_0": "sha256:873506be8eecc0b7e4c612e1edd45429da7d1b2be98bc8c86c862d39cfef0f56", "1.24.0--r42hdfd78af_0": "sha256:99957cdc77198254aabe6c77e7a35fa276377d5b90aed03da8310c0421e7b475", "1.20.0--r41hdfd78af_0": "sha256:b12cc92ecf8f3e02e398dbb77d845950d2cd73a60956d41df3744271c3666625", "1.18.0--r41hdfd78af_0": "sha256:dfccac9e7a7e1c7fc916ae352fcc6871eba62be9da436274ee1c64624b056a63", "1.16.0--r40hdfd78af_1": "sha256:78d67122908f66a566a097deedc792c1978e4cb3b353ce92bf4a26d948325aa9", "1.14.0--r40_0": "sha256:40170d422558a4098991fd948fdfb9d038cbe16a7ec5a5b85e1eca853f5a4550", "1.26.0--r43hdfd78af_0": "sha256:69cacc4ee15281af67a66a1c0f4428287185bbc88653eedcc5d41198ba8face9", "1.28.0--r43hdfd78af_1": "sha256:4c2976598a8e00533859a5d16110431ab91ce97b73a13784241eeb86c6909a60"}, "docker": "quay.io/biocontainers/bioconductor-gem", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gem", "latest": {"1.32.0--r44hdfd78af_0": "sha256:f54b9dd8b12b7389aeaca4e633255b42d0d279aa410b0666340d18db3284b2d6"}, "tags": {"1.8.0--r351_0": "sha256:873506be8eecc0b7e4c612e1edd45429da7d1b2be98bc8c86c862d39cfef0f56", "1.24.0--r42hdfd78af_0": "sha256:99957cdc77198254aabe6c77e7a35fa276377d5b90aed03da8310c0421e7b475", "1.20.0--r41hdfd78af_0": "sha256:b12cc92ecf8f3e02e398dbb77d845950d2cd73a60956d41df3744271c3666625", "1.18.0--r41hdfd78af_0": "sha256:dfccac9e7a7e1c7fc916ae352fcc6871eba62be9da436274ee1c64624b056a63", "1.16.0--r40hdfd78af_1": "sha256:78d67122908f66a566a097deedc792c1978e4cb3b353ce92bf4a26d948325aa9", "1.14.0--r40_0": "sha256:40170d422558a4098991fd948fdfb9d038cbe16a7ec5a5b85e1eca853f5a4550", "1.26.0--r43hdfd78af_0": "sha256:69cacc4ee15281af67a66a1c0f4428287185bbc88653eedcc5d41198ba8face9", "1.28.0--r43hdfd78af_1": "sha256:4c2976598a8e00533859a5d16110431ab91ce97b73a13784241eeb86c6909a60", "1.32.0--r44hdfd78af_0": "sha256:f54b9dd8b12b7389aeaca4e633255b42d0d279aa410b0666340d18db3284b2d6"}, "docker": "quay.io/biocontainers/bioconductor-gem", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gem.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gem:1.28.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-gem:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gem/1.28.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-gem/1.28.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-gem/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gem/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

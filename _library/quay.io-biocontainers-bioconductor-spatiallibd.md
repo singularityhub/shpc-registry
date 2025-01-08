@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatiallibd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatiallibd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatiallibd/container.yaml"
-updated_at: "2025-01-07 03:05:04.895716"
-latest: "1.14.1--r43hdfd78af_0"
+updated_at: "2025-01-08 03:02:27.693031"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatiallibd"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -23,8 +23,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.1--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spatiallibd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatiallibd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatiallibd", "latest": {"1.14.1--r43hdfd78af_0": "sha256:28e49e1041dffeb6eea824eee03be6f5a08b0e1d449fa0573d55838c9303d94c"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f", "1.10.0--r42hdfd78af_0": "sha256:5a5519539f1f948e939a93280b5217705a98cd53fc8bfb1741ee857fe51cdaeb", "1.12.0--r43hdfd78af_0": "sha256:74b79abaaca9da568d53b71ac2516f496fc94be2329a5c036df8b11e4df91db5", "1.14.1--r43hdfd78af_0": "sha256:28e49e1041dffeb6eea824eee03be6f5a08b0e1d449fa0573d55838c9303d94c"}, "docker": "quay.io/biocontainers/bioconductor-spatiallibd", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatiallibd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatiallibd", "latest": {"1.18.0--r44hdfd78af_0": "sha256:03d916d9acdb0b3c14aad6ca791f5a4923ed881710a69bdf0793dd47dd14e878"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f", "1.10.0--r42hdfd78af_0": "sha256:5a5519539f1f948e939a93280b5217705a98cd53fc8bfb1741ee857fe51cdaeb", "1.12.0--r43hdfd78af_0": "sha256:74b79abaaca9da568d53b71ac2516f496fc94be2329a5c036df8b11e4df91db5", "1.14.1--r43hdfd78af_0": "sha256:28e49e1041dffeb6eea824eee03be6f5a08b0e1d449fa0573d55838c9303d94c", "1.18.0--r44hdfd78af_0": "sha256:03d916d9acdb0b3c14aad6ca791f5a4923ed881710a69bdf0793dd47dd14e878"}, "docker": "quay.io/biocontainers/bioconductor-spatiallibd", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatiallibd.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatiallibd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatiallibd:1.14.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatiallibd:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatiallibd/1.14.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatiallibd/1.14.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatiallibd/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatiallibd/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sprinkles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sprinkles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sprinkles/container.yaml"
-updated_at: "2025-01-07 02:56:13.538138"
+updated_at: "2025-01-08 02:53:39.449065"
 latest: "0.4.6--py35_1"
 container_url: "https://biocontainers.pro/tools/sprinkles"
 aliases:

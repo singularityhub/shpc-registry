@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/demultiplexer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demultiplexer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demultiplexer/container.yaml"
-updated_at: "2025-01-07 03:25:43.230205"
+updated_at: "2025-01-08 03:22:49.685216"
 latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/demultiplexer"
 aliases:

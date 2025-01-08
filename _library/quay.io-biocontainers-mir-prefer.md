@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mir-prefer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mir-prefer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mir-prefer/container.yaml"
-updated_at: "2025-01-07 03:27:16.270653"
+updated_at: "2025-01-08 03:24:23.792219"
 latest: "0.24--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/mir-prefer"
 aliases:

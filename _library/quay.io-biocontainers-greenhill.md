@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/greenhill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/greenhill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/greenhill/container.yaml"
-updated_at: "2025-01-07 03:26:25.140236"
-latest: "1.1.0--hf1761c0_1"
+updated_at: "2025-01-08 03:23:32.237450"
+latest: "1.1.0--h663a4a6_2"
 container_url: "https://biocontainers.pro/tools/greenhill"
 aliases:
  - "greenhill"
@@ -31,8 +31,9 @@ versions:
  - "1.0.0--hf1761c0_0"
  - "1.1.0--hf1761c0_0"
  - "1.1.0--hf1761c0_1"
+ - "1.1.0--h663a4a6_2"
 description: "singularity registry hpc automated addition for greenhill"
-config: {"url": "https://biocontainers.pro/tools/greenhill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for greenhill", "latest": {"1.1.0--hf1761c0_1": "sha256:2654228946cba744d8f47326edb153190e5bba45b98573b031bb66c1bd29bddf"}, "tags": {"1.0.0--hf1761c0_0": "sha256:29d9a3b0c0ae4af8193506dad3ca0366d449d398ca93f6cd51aed4d536981cd9", "1.1.0--hf1761c0_0": "sha256:940d2eb6e2742e7317509626499ddcc6df0b3540878cfdbd80648bb72a8381bb", "1.1.0--hf1761c0_1": "sha256:2654228946cba744d8f47326edb153190e5bba45b98573b031bb66c1bd29bddf"}, "docker": "quay.io/biocontainers/greenhill", "aliases": {"greenhill": "/usr/local/bin/greenhill", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/greenhill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for greenhill", "latest": {"1.1.0--h663a4a6_2": "sha256:067757d7f4c43872af3e411fe0fe66d2c518157ec574aa040b7116a6f062e003"}, "tags": {"1.0.0--hf1761c0_0": "sha256:29d9a3b0c0ae4af8193506dad3ca0366d449d398ca93f6cd51aed4d536981cd9", "1.1.0--hf1761c0_0": "sha256:940d2eb6e2742e7317509626499ddcc6df0b3540878cfdbd80648bb72a8381bb", "1.1.0--hf1761c0_1": "sha256:2654228946cba744d8f47326edb153190e5bba45b98573b031bb66c1bd29bddf", "1.1.0--h663a4a6_2": "sha256:067757d7f4c43872af3e411fe0fe66d2c518157ec574aa040b7116a6f062e003"}, "docker": "quay.io/biocontainers/greenhill", "aliases": {"greenhill": "/usr/local/bin/greenhill", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/greenhill.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/greenhill
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/greenhill:1.1.0--hf1761c0_1
+$ shpc install quay.io/biocontainers/greenhill:1.1.0--h663a4a6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/greenhill/1.1.0--hf1761c0_1
-$ module help quay.io/biocontainers/greenhill/1.1.0--hf1761c0_1
+$ module load quay.io/biocontainers/greenhill/1.1.0--h663a4a6_2
+$ module help quay.io/biocontainers/greenhill/1.1.0--h663a4a6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiqc-bcbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc-bcbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc-bcbio/container.yaml"
-updated_at: "2025-01-07 03:05:16.735333"
+updated_at: "2025-01-08 03:02:38.786707"
 latest: "0.2.9--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/multiqc-bcbio"
 aliases:

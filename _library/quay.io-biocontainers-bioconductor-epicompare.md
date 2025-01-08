@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epicompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epicompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epicompare/container.yaml"
-updated_at: "2025-01-07 02:55:09.683933"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-08 02:52:37.458192"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epicompare"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-epicompare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epicompare", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epicompare", "latest": {"1.4.0--r43hdfd78af_0": "sha256:0c38037386b463beb1b9b916e34e39a855900f9f77bc0695fe7b91aa8a87fc23"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:5d6416c7ecfbb8837ce50da7ed2bd0c747709e4e1509fb8d7057e08c9842ffc0", "1.4.0--r43hdfd78af_0": "sha256:0c38037386b463beb1b9b916e34e39a855900f9f77bc0695fe7b91aa8a87fc23"}, "docker": "quay.io/biocontainers/bioconductor-epicompare", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epicompare", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epicompare", "latest": {"1.10.0--r44hdfd78af_0": "sha256:593ab481539de230bc97e9d3f8b190a32fd5c54369cba2dc38bb8416b41cdf3a"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:5d6416c7ecfbb8837ce50da7ed2bd0c747709e4e1509fb8d7057e08c9842ffc0", "1.4.0--r43hdfd78af_0": "sha256:0c38037386b463beb1b9b916e34e39a855900f9f77bc0695fe7b91aa8a87fc23", "1.10.0--r44hdfd78af_0": "sha256:593ab481539de230bc97e9d3f8b190a32fd5c54369cba2dc38bb8416b41cdf3a"}, "docker": "quay.io/biocontainers/bioconductor-epicompare", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epicompare.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epicompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epicompare:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epicompare:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epicompare/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epicompare/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epicompare/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epicompare/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

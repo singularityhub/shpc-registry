@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mpo.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpo.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpo.db/container.yaml"
-updated_at: "2025-01-07 03:36:55.831139"
-latest: "0.99.7--r43hdfd78af_0"
+updated_at: "2025-01-08 03:33:58.399336"
+latest: "0.99.8--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpo.db"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
  - "pandoc"
 versions:
  - "0.99.7--r43hdfd78af_0"
+ - "0.99.8--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mpo.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpo.db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mpo.db", "latest": {"0.99.7--r43hdfd78af_0": "sha256:29b259bce36e8b5106e061f3c6df8094652f326dbf71a7448e537cc768be9cd5"}, "tags": {"0.99.7--r43hdfd78af_0": "sha256:29b259bce36e8b5106e061f3c6df8094652f326dbf71a7448e537cc768be9cd5"}, "docker": "quay.io/biocontainers/bioconductor-mpo.db", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpo.db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mpo.db", "latest": {"0.99.8--r44hdfd78af_0": "sha256:da7d17586b629bee779110d0dc3da6cf23f200d7d86425db6e9c7c60d3f53162"}, "tags": {"0.99.7--r43hdfd78af_0": "sha256:29b259bce36e8b5106e061f3c6df8094652f326dbf71a7448e537cc768be9cd5", "0.99.8--r44hdfd78af_0": "sha256:da7d17586b629bee779110d0dc3da6cf23f200d7d86425db6e9c7c60d3f53162"}, "docker": "quay.io/biocontainers/bioconductor-mpo.db", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpo.db.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mpo.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mpo.db:0.99.7--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mpo.db:0.99.8--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mpo.db/0.99.7--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mpo.db/0.99.7--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mpo.db/0.99.8--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mpo.db/0.99.8--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

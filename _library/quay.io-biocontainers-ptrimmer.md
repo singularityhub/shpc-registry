@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ptrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ptrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ptrimmer/container.yaml"
-updated_at: "2025-01-07 03:10:03.118636"
-latest: "1.4.0--h50ea8bc_0"
+updated_at: "2025-01-08 03:07:24.584339"
+latest: "1.4.0--h96c455f_1"
 container_url: "https://biocontainers.pro/tools/ptrimmer"
 aliases:
  - "ptrimmer"
@@ -13,8 +13,9 @@ versions:
  - "1.3.3--h20b1175_3"
  - "1.3.3--h50ea8bc_5"
  - "1.4.0--h50ea8bc_0"
+ - "1.4.0--h96c455f_1"
 description: "shpc-registry automated BioContainers addition for ptrimmer"
-config: {"url": "https://biocontainers.pro/tools/ptrimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ptrimmer", "latest": {"1.4.0--h50ea8bc_0": "sha256:4374f663b77681c9940403a4e2b6e45894cc09b17f8abd2fa5a93147636ca5e3"}, "tags": {"1.3.3--h20b1175_3": "sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e", "1.3.3--h50ea8bc_5": "sha256:18a091694e62e08b67237af54c6a592ef2887b6e684b90051c04675a5099dd34", "1.4.0--h50ea8bc_0": "sha256:4374f663b77681c9940403a4e2b6e45894cc09b17f8abd2fa5a93147636ca5e3"}, "docker": "quay.io/biocontainers/ptrimmer", "aliases": {"ptrimmer": "/usr/local/bin/ptrimmer"}}
+config: {"url": "https://biocontainers.pro/tools/ptrimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ptrimmer", "latest": {"1.4.0--h96c455f_1": "sha256:8f23cfbbdb096c09c7a9117243b4e1d4faa0ac6eb0b4684db557f520df0cfcc1"}, "tags": {"1.3.3--h20b1175_3": "sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e", "1.3.3--h50ea8bc_5": "sha256:18a091694e62e08b67237af54c6a592ef2887b6e684b90051c04675a5099dd34", "1.4.0--h50ea8bc_0": "sha256:4374f663b77681c9940403a4e2b6e45894cc09b17f8abd2fa5a93147636ca5e3", "1.4.0--h96c455f_1": "sha256:8f23cfbbdb096c09c7a9117243b4e1d4faa0ac6eb0b4684db557f520df0cfcc1"}, "docker": "quay.io/biocontainers/ptrimmer", "aliases": {"ptrimmer": "/usr/local/bin/ptrimmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ptrimmer.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ptrimmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ptrimmer:1.4.0--h50ea8bc_0
+$ shpc install quay.io/biocontainers/ptrimmer:1.4.0--h96c455f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ptrimmer/1.4.0--h50ea8bc_0
-$ module help quay.io/biocontainers/ptrimmer/1.4.0--h50ea8bc_0
+$ module load quay.io/biocontainers/ptrimmer/1.4.0--h96c455f_1
+$ module help quay.io/biocontainers/ptrimmer/1.4.0--h96c455f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/icescreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icescreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icescreen/container.yaml"
-updated_at: "2025-01-07 03:21:57.112336"
+updated_at: "2025-01-08 03:19:00.556710"
 latest: "1.3.2--py312h7e72e81_1"
 container_url: "https://biocontainers.pro/tools/icescreen"
 aliases:

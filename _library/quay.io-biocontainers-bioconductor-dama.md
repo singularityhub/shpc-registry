@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dama/container.yaml"
-updated_at: "2025-01-07 03:26:03.914495"
-latest: "1.74.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:23:10.712391"
+latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dama"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
+ - "1.78.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dama"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dama", "latest": {"1.74.0--r43hdfd78af_0": "sha256:dde39e19e279a8d62e686e37f3d2543b87db9e8018bb0aecba5737d822d6fa39"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:5538621d1dd4e6a27f6a89e24d7f6c04d970ebe66f36f300334731e037801a48", "1.70.0--r42hdfd78af_0": "sha256:c135414007bd676ca5094beaceed4d80c42141ab80e825907b44c2f956fef5ae", "1.72.0--r43hdfd78af_0": "sha256:f6063e6289ef8a03588f1e1bd9afd6399c5230ccfaa8ac3e2ed54f4646d2ba63", "1.74.0--r43hdfd78af_0": "sha256:dde39e19e279a8d62e686e37f3d2543b87db9e8018bb0aecba5737d822d6fa39"}, "docker": "quay.io/biocontainers/bioconductor-dama"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dama", "latest": {"1.78.0--r44hdfd78af_0": "sha256:d300474f5abf37d5ba56036d020fb1d70cdda5f90e58139cdb3fa443725244f0"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:5538621d1dd4e6a27f6a89e24d7f6c04d970ebe66f36f300334731e037801a48", "1.70.0--r42hdfd78af_0": "sha256:c135414007bd676ca5094beaceed4d80c42141ab80e825907b44c2f956fef5ae", "1.72.0--r43hdfd78af_0": "sha256:f6063e6289ef8a03588f1e1bd9afd6399c5230ccfaa8ac3e2ed54f4646d2ba63", "1.74.0--r43hdfd78af_0": "sha256:dde39e19e279a8d62e686e37f3d2543b87db9e8018bb0aecba5737d822d6fa39", "1.78.0--r44hdfd78af_0": "sha256:d300474f5abf37d5ba56036d020fb1d70cdda5f90e58139cdb3fa443725244f0"}, "docker": "quay.io/biocontainers/bioconductor-dama"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dama.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dama:1.74.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dama:1.78.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dama/1.74.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dama/1.74.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dama/1.78.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dama/1.78.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

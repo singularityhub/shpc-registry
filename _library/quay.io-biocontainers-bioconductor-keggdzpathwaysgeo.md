@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-keggdzpathwaysgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/container.yaml"
-updated_at: "2025-01-07 02:57:23.890366"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-08 02:54:47.889171"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggdzpathwaysgeo"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-keggdzpathwaysgeo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-keggdzpathwaysgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggdzpathwaysgeo", "latest": {"1.40.0--r43hdfd78af_0": "sha256:d4c8781353372c9d393df4d65f541a11e2029a8147659cdd8573a67957233c69"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:62935199fcab49a780ac514e8d628866104088c31014d64ba6fee66faadf6147", "1.36.0--r42hdfd78af_0": "sha256:3c25968acf1d2b90db39206a8649d9a0354f45d7ca465e5d942dd9800eb6ce09", "1.38.0--r43hdfd78af_0": "sha256:a22846e38c405943a932bdcea0ff81fdaa649266d39d6532e6554bc8accd707f", "1.40.0--r43hdfd78af_0": "sha256:d4c8781353372c9d393df4d65f541a11e2029a8147659cdd8573a67957233c69"}, "docker": "quay.io/biocontainers/bioconductor-keggdzpathwaysgeo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-keggdzpathwaysgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggdzpathwaysgeo", "latest": {"1.44.0--r44hdfd78af_0": "sha256:e438d7450e697b8499fa148b1fb035d19654118b8b0ba7547ea592a55d48beba"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:62935199fcab49a780ac514e8d628866104088c31014d64ba6fee66faadf6147", "1.36.0--r42hdfd78af_0": "sha256:3c25968acf1d2b90db39206a8649d9a0354f45d7ca465e5d942dd9800eb6ce09", "1.38.0--r43hdfd78af_0": "sha256:a22846e38c405943a932bdcea0ff81fdaa649266d39d6532e6554bc8accd707f", "1.40.0--r43hdfd78af_0": "sha256:d4c8781353372c9d393df4d65f541a11e2029a8147659cdd8573a67957233c69", "1.44.0--r44hdfd78af_0": "sha256:e438d7450e697b8499fa148b1fb035d19654118b8b0ba7547ea592a55d48beba"}, "docker": "quay.io/biocontainers/bioconductor-keggdzpathwaysgeo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-keggdzpathwaysgeo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-keggdzpathwaysgeo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-keggdzpathwaysgeo:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-keggdzpathwaysgeo:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-keggdzpathwaysgeo/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

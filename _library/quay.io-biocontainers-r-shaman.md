@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-shaman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shaman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shaman/container.yaml"
-updated_at: "2025-01-07 03:31:18.684611"
-latest: "2.0--r43hdfd78af_6"
+updated_at: "2025-01-08 03:28:21.123726"
+latest: "2.0--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-shaman"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "2.0--r41hdfd78af_4"
  - "2.0--r42hdfd78af_5"
  - "2.0--r43hdfd78af_6"
+ - "2.0--r44hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for r-shaman"
-config: {"url": "https://biocontainers.pro/tools/r-shaman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shaman", "latest": {"2.0--r43hdfd78af_6": "sha256:6f01259f74aae67ce1c0346f5bb4429211c7b5e531f42253ac492dfd7ec4096d"}, "tags": {"2.0--r41hdfd78af_4": "sha256:62cea04adac401b2f54635cde6ae6434637fc7c2c87eab04a5a02614f9dea757", "2.0--r42hdfd78af_5": "sha256:adb121c69553532c3345e0142ca13d7663c5e369d711a7bfd9dd7032c033a385", "2.0--r43hdfd78af_6": "sha256:6f01259f74aae67ce1c0346f5bb4429211c7b5e531f42253ac492dfd7ec4096d"}, "docker": "quay.io/biocontainers/r-shaman", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-shaman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shaman", "latest": {"2.0--r44hdfd78af_7": "sha256:c5f39501707972d7e3fa335b0a745014d1f74354899d0449950954fcd85ac440"}, "tags": {"2.0--r41hdfd78af_4": "sha256:62cea04adac401b2f54635cde6ae6434637fc7c2c87eab04a5a02614f9dea757", "2.0--r42hdfd78af_5": "sha256:adb121c69553532c3345e0142ca13d7663c5e369d711a7bfd9dd7032c033a385", "2.0--r43hdfd78af_6": "sha256:6f01259f74aae67ce1c0346f5bb4429211c7b5e531f42253ac492dfd7ec4096d", "2.0--r44hdfd78af_7": "sha256:c5f39501707972d7e3fa335b0a745014d1f74354899d0449950954fcd85ac440"}, "docker": "quay.io/biocontainers/r-shaman", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shaman.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-shaman
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-shaman:2.0--r43hdfd78af_6
+$ shpc install quay.io/biocontainers/r-shaman:2.0--r44hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-shaman/2.0--r43hdfd78af_6
-$ module help quay.io/biocontainers/r-shaman/2.0--r43hdfd78af_6
+$ module load quay.io/biocontainers/r-shaman/2.0--r44hdfd78af_7
+$ module help quay.io/biocontainers/r-shaman/2.0--r44hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ucell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ucell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ucell/container.yaml"
-updated_at: "2025-01-07 03:13:09.388940"
-latest: "2.6.2--r43hdfd78af_0"
+updated_at: "2025-01-08 03:10:25.638099"
+latest: "2.10.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ucell"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "2.2.0--r42hdfd78af_0"
  - "2.4.0--r43hdfd78af_0"
  - "2.6.2--r43hdfd78af_0"
+ - "2.10.1--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ucell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ucell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ucell", "latest": {"2.6.2--r43hdfd78af_0": "sha256:3b84aedff3c915b1e83dc4b9bdf1681b6cc36c7f15d2ff9b1ed497ebd555c877"}, "tags": {"2.2.0--r42hdfd78af_0": "sha256:13501ccf48dd4674db18accef58af1a8178021e586796d28b1c0440e64f5d852", "2.4.0--r43hdfd78af_0": "sha256:09508c0994675a761ba2e809344d8d54e2b950e9410f9b3fcaa1442801e6db8f", "2.6.2--r43hdfd78af_0": "sha256:3b84aedff3c915b1e83dc4b9bdf1681b6cc36c7f15d2ff9b1ed497ebd555c877"}, "docker": "quay.io/biocontainers/bioconductor-ucell", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ucell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ucell", "latest": {"2.10.1--r44hdfd78af_0": "sha256:83749dca889fe666c4ef747955dc91eaa0af4fba503cf1505f4a297e4a1d3a88"}, "tags": {"2.2.0--r42hdfd78af_0": "sha256:13501ccf48dd4674db18accef58af1a8178021e586796d28b1c0440e64f5d852", "2.4.0--r43hdfd78af_0": "sha256:09508c0994675a761ba2e809344d8d54e2b950e9410f9b3fcaa1442801e6db8f", "2.6.2--r43hdfd78af_0": "sha256:3b84aedff3c915b1e83dc4b9bdf1681b6cc36c7f15d2ff9b1ed497ebd555c877", "2.10.1--r44hdfd78af_0": "sha256:83749dca889fe666c4ef747955dc91eaa0af4fba503cf1505f4a297e4a1d3a88"}, "docker": "quay.io/biocontainers/bioconductor-ucell", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ucell.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ucell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ucell:2.6.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ucell:2.10.1--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ucell/2.6.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ucell/2.6.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ucell/2.10.1--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ucell/2.10.1--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

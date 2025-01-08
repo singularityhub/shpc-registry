@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-weberdivechalcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weberdivechalcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weberdivechalcdata/container.yaml"
-updated_at: "2025-01-07 03:38:27.379943"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:35:31.639237"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weberdivechalcdata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -37,8 +37,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-weberdivechalcdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-weberdivechalcdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-weberdivechalcdata", "latest": {"1.4.0--r43hdfd78af_0": "sha256:e3b1a5330641c7620793f2a4bb784646a2d2782a10a1a25df719f635bfc20efd"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b7390ea6e9da9160756119300a581b4bfef3b9ed4fec7849af112d5049cd6e1f", "1.2.0--r43hdfd78af_0": "sha256:da093e2a9800b6e486fe209abc9ed2daad0676dfadc33ddbbca9e7e8e6825ce6", "1.4.0--r43hdfd78af_0": "sha256:e3b1a5330641c7620793f2a4bb784646a2d2782a10a1a25df719f635bfc20efd"}, "docker": "quay.io/biocontainers/bioconductor-weberdivechalcdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-weberdivechalcdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-weberdivechalcdata", "latest": {"1.8.0--r44hdfd78af_0": "sha256:f40af8f2b04a28208c2cf7c41397402dfdd99f6bf0350989e6af9fb2529d80fe"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b7390ea6e9da9160756119300a581b4bfef3b9ed4fec7849af112d5049cd6e1f", "1.2.0--r43hdfd78af_0": "sha256:da093e2a9800b6e486fe209abc9ed2daad0676dfadc33ddbbca9e7e8e6825ce6", "1.4.0--r43hdfd78af_0": "sha256:e3b1a5330641c7620793f2a4bb784646a2d2782a10a1a25df719f635bfc20efd", "1.8.0--r44hdfd78af_0": "sha256:f40af8f2b04a28208c2cf7c41397402dfdd99f6bf0350989e6af9fb2529d80fe"}, "docker": "quay.io/biocontainers/bioconductor-weberdivechalcdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-weberdivechalcdata.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-weberdivechalcdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-weberdivechalcdata:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-weberdivechalcdata:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-weberdivechalcdata/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-weberdivechalcdata/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-weberdivechalcdata/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-weberdivechalcdata/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

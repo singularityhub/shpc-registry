@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyphy/container.yaml"
-updated_at: "2025-01-07 03:09:58.687030"
+updated_at: "2025-01-08 03:07:20.310648"
 latest: "0.4.3--py_0"
 container_url: "https://biocontainers.pro/tools/phyphy"
 aliases:

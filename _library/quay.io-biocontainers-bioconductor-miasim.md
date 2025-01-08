@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-miasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miasim/container.yaml"
-updated_at: "2025-01-07 03:38:51.678095"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:35:56.396521"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miasim"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-miasim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-miasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-miasim", "latest": {"1.8.0--r43hdfd78af_0": "sha256:e270f4e353106542743c0b9eb91578e9d446902a4c059194d3337022b5755d56"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:81851e2e601e89d43957d634afb11774eb000940c19099e91d9a8bb6908004d3", "1.4.0--r42hdfd78af_0": "sha256:7f29aed5ddf6b438ffb436485e46cc28bcf59c159da7536defa87f1445da8289", "1.6.0--r43hdfd78af_0": "sha256:1109aecf2f9cd40a1a2c89620f2d971936f6b66c5ce57873aabe326a554f357a", "1.8.0--r43hdfd78af_0": "sha256:e270f4e353106542743c0b9eb91578e9d446902a4c059194d3337022b5755d56"}, "docker": "quay.io/biocontainers/bioconductor-miasim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-miasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-miasim", "latest": {"1.12.0--r44hdfd78af_0": "sha256:0157bf9e895619817d977c77ce7d3a984303c769432ef96a767bccee1e404373"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:81851e2e601e89d43957d634afb11774eb000940c19099e91d9a8bb6908004d3", "1.4.0--r42hdfd78af_0": "sha256:7f29aed5ddf6b438ffb436485e46cc28bcf59c159da7536defa87f1445da8289", "1.6.0--r43hdfd78af_0": "sha256:1109aecf2f9cd40a1a2c89620f2d971936f6b66c5ce57873aabe326a554f357a", "1.8.0--r43hdfd78af_0": "sha256:e270f4e353106542743c0b9eb91578e9d446902a4c059194d3337022b5755d56", "1.12.0--r44hdfd78af_0": "sha256:0157bf9e895619817d977c77ce7d3a984303c769432ef96a767bccee1e404373"}, "docker": "quay.io/biocontainers/bioconductor-miasim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-miasim.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-miasim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-miasim:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-miasim:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-miasim/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-miasim/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-miasim/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-miasim/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

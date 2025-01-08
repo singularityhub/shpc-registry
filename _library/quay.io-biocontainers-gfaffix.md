@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfaffix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfaffix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfaffix/container.yaml"
-updated_at: "2025-01-07 03:25:23.395224"
-latest: "0.1.5--h031d066_0"
+updated_at: "2025-01-08 03:22:29.408983"
+latest: "0.2.0--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/gfaffix"
 aliases:
  - "gfaffix"
@@ -14,8 +14,10 @@ versions:
  - "0.1.4--h031d066_2"
  - "0.1.5--h031d066_0"
  - "0.1.5b--h031d066_0"
+ - "0.2.0--hc1c3326_1"
+ - "0.1.5b--h7b50bb2_1"
 description: "shpc-registry automated BioContainers addition for gfaffix"
-config: {"url": "https://biocontainers.pro/tools/gfaffix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfaffix", "latest": {"0.1.5--h031d066_0": "sha256:dba00b00cb527db7bc65082cc8eba7ac7e4e45201c00eb9947a82ba621fc6e2b"}, "tags": {"0.1.4--hec16e2b_0": "sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607", "0.1.4--h031d066_2": "sha256:f60080d6f5f2297ebaee98a93666f1815a094da6d1f8e1404b7917c2c14337cb", "0.1.5--h031d066_0": "sha256:dba00b00cb527db7bc65082cc8eba7ac7e4e45201c00eb9947a82ba621fc6e2b", "0.1.5b--h031d066_0": "sha256:a95f9dca2d450e3b510f02a7927039431b8c37c425eddecdb33c63c5bdf0ff4b"}, "docker": "quay.io/biocontainers/gfaffix", "aliases": {"gfaffix": "/usr/local/bin/gfaffix"}}
+config: {"url": "https://biocontainers.pro/tools/gfaffix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfaffix", "latest": {"0.2.0--hc1c3326_1": "sha256:769699c57328e760baec21abadd08cdc5b1cd40d67429ddceffbb1f6774a0d5a"}, "tags": {"0.1.4--hec16e2b_0": "sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607", "0.1.4--h031d066_2": "sha256:f60080d6f5f2297ebaee98a93666f1815a094da6d1f8e1404b7917c2c14337cb", "0.1.5--h031d066_0": "sha256:dba00b00cb527db7bc65082cc8eba7ac7e4e45201c00eb9947a82ba621fc6e2b", "0.1.5b--h031d066_0": "sha256:a95f9dca2d450e3b510f02a7927039431b8c37c425eddecdb33c63c5bdf0ff4b", "0.2.0--hc1c3326_1": "sha256:769699c57328e760baec21abadd08cdc5b1cd40d67429ddceffbb1f6774a0d5a", "0.1.5b--h7b50bb2_1": "sha256:18a8767d39001847a4e34188bcdc6ff40244a8b69ff6405a9034062622736fb6"}, "docker": "quay.io/biocontainers/gfaffix", "aliases": {"gfaffix": "/usr/local/bin/gfaffix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfaffix.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/gfaffix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfaffix:0.1.5--h031d066_0
+$ shpc install quay.io/biocontainers/gfaffix:0.2.0--hc1c3326_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfaffix/0.1.5--h031d066_0
-$ module help quay.io/biocontainers/gfaffix/0.1.5--h031d066_0
+$ module load quay.io/biocontainers/gfaffix/0.2.0--hc1c3326_1
+$ module help quay.io/biocontainers/gfaffix/0.2.0--hc1c3326_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peewee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peewee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peewee/container.yaml"
-updated_at: "2025-01-07 03:23:22.686873"
+updated_at: "2025-01-08 03:20:26.634840"
 latest: "2.8.0--py36_1"
 container_url: "https://biocontainers.pro/tools/peewee"
 aliases:

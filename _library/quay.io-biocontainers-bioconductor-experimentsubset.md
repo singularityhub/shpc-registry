@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-experimentsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimentsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimentsubset/container.yaml"
-updated_at: "2025-01-07 03:02:20.578610"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-08 02:59:44.163084"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimentsubset"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -23,8 +23,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-experimentsubset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-experimentsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimentsubset", "latest": {"1.12.0--r43hdfd78af_0": "sha256:1099f2c4480d4f8f9a4ea8596afb4ec6e9cdce72d2d5ace7b3f265971b76af12"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:080e1c8c37e62ba1f8b5bb98c9fb60a1d490fae9a2247e11d5469a78b11a2e1b", "1.8.0--r42hdfd78af_0": "sha256:95cf44d7396f51f44543e539a0bdd540fb2c4bc870c24f80426495f8340cf4c2", "1.10.0--r43hdfd78af_0": "sha256:a1472c326d85f255d48d70107216ff80b49ce6a3e7629aa243ba9a8983a524a1", "1.12.0--r43hdfd78af_0": "sha256:1099f2c4480d4f8f9a4ea8596afb4ec6e9cdce72d2d5ace7b3f265971b76af12"}, "docker": "quay.io/biocontainers/bioconductor-experimentsubset", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-experimentsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimentsubset", "latest": {"1.16.0--r44hdfd78af_0": "sha256:de599de53d5494f30427f9fa9121192d45e5a5917331068e594504301ff24d25"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:080e1c8c37e62ba1f8b5bb98c9fb60a1d490fae9a2247e11d5469a78b11a2e1b", "1.8.0--r42hdfd78af_0": "sha256:95cf44d7396f51f44543e539a0bdd540fb2c4bc870c24f80426495f8340cf4c2", "1.10.0--r43hdfd78af_0": "sha256:a1472c326d85f255d48d70107216ff80b49ce6a3e7629aa243ba9a8983a524a1", "1.12.0--r43hdfd78af_0": "sha256:1099f2c4480d4f8f9a4ea8596afb4ec6e9cdce72d2d5ace7b3f265971b76af12", "1.16.0--r44hdfd78af_0": "sha256:de599de53d5494f30427f9fa9121192d45e5a5917331068e594504301ff24d25"}, "docker": "quay.io/biocontainers/bioconductor-experimentsubset", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-experimentsubset.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-experimentsubset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-experimentsubset:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-experimentsubset:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-experimentsubset/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-experimentsubset/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-experimentsubset/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-experimentsubset/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

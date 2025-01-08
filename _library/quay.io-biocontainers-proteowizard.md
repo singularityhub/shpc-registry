@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteowizard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteowizard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteowizard/container.yaml"
-updated_at: "2025-01-07 03:23:24.094526"
+updated_at: "2025-01-08 03:20:28.072121"
 latest: "3_0_9992--h2d50403_2"
 container_url: "https://biocontainers.pro/tools/proteowizard"
 aliases:

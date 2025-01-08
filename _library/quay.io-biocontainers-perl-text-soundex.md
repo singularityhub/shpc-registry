@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-soundex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-soundex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-soundex/container.yaml"
-updated_at: "2025-01-07 03:23:27.165252"
+updated_at: "2025-01-08 03:20:31.231510"
 latest: "3.05--0"
 container_url: "https://biocontainers.pro/tools/perl-text-soundex"
 aliases:

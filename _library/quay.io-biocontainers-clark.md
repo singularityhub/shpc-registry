@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clark/container.yaml"
-updated_at: "2025-01-07 03:08:54.741633"
-latest: "1.2.6.1--h4ac6f70_4"
+updated_at: "2025-01-08 03:06:17.089772"
+latest: "1.2.6.1--h9948957_5"
 container_url: "https://biocontainers.pro/tools/clark"
 aliases:
  - "CLARK"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.2.6.1--h9f5acd7_2"
  - "1.2.6.1--h4ac6f70_4"
+ - "1.2.6.1--h9948957_5"
 description: "shpc-registry automated BioContainers addition for clark"
-config: {"url": "https://biocontainers.pro/tools/clark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clark", "latest": {"1.2.6.1--h4ac6f70_4": "sha256:1fd597046c826df5d1995f94ff8afc719f3aadd86b0479b025d4a48887365b84"}, "tags": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473", "1.2.6.1--h4ac6f70_4": "sha256:1fd597046c826df5d1995f94ff8afc719f3aadd86b0479b025d4a48887365b84"}, "docker": "quay.io/biocontainers/clark", "aliases": {"CLARK": "/usr/local/bin/CLARK", "CLARK-S": "/usr/local/bin/CLARK-S", "CLARK-l": "/usr/local/bin/CLARK-l", "converter": "/usr/local/bin/converter", "dscriptMaker": "/usr/local/bin/dscriptMaker", "exeSeq": "/usr/local/bin/exeSeq", "extractSeqs": "/usr/local/bin/extractSeqs", "getAbundance": "/usr/local/bin/getAbundance", "getAccssnTaxID": "/usr/local/bin/getAccssnTaxID", "getConfidenceDensity": "/usr/local/bin/getConfidenceDensity", "getGammaDensity": "/usr/local/bin/getGammaDensity", "getTargetSpecificKmersStat": "/usr/local/bin/getTargetSpecificKmersStat", "getTargetsDef": "/usr/local/bin/getTargetsDef", "getfilesToTaxNodes": "/usr/local/bin/getfilesToTaxNodes", "makeSummaryTables": "/usr/local/bin/makeSummaryTables", "tar": "/usr/local/bin/tar"}}
+config: {"url": "https://biocontainers.pro/tools/clark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clark", "latest": {"1.2.6.1--h9948957_5": "sha256:4b4da635a0938367d22c61b0769dfe934855d76717b5c096a67d214acc8efd48"}, "tags": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473", "1.2.6.1--h4ac6f70_4": "sha256:1fd597046c826df5d1995f94ff8afc719f3aadd86b0479b025d4a48887365b84", "1.2.6.1--h9948957_5": "sha256:4b4da635a0938367d22c61b0769dfe934855d76717b5c096a67d214acc8efd48"}, "docker": "quay.io/biocontainers/clark", "aliases": {"CLARK": "/usr/local/bin/CLARK", "CLARK-S": "/usr/local/bin/CLARK-S", "CLARK-l": "/usr/local/bin/CLARK-l", "converter": "/usr/local/bin/converter", "dscriptMaker": "/usr/local/bin/dscriptMaker", "exeSeq": "/usr/local/bin/exeSeq", "extractSeqs": "/usr/local/bin/extractSeqs", "getAbundance": "/usr/local/bin/getAbundance", "getAccssnTaxID": "/usr/local/bin/getAccssnTaxID", "getConfidenceDensity": "/usr/local/bin/getConfidenceDensity", "getGammaDensity": "/usr/local/bin/getGammaDensity", "getTargetSpecificKmersStat": "/usr/local/bin/getTargetSpecificKmersStat", "getTargetsDef": "/usr/local/bin/getTargetsDef", "getfilesToTaxNodes": "/usr/local/bin/getfilesToTaxNodes", "makeSummaryTables": "/usr/local/bin/makeSummaryTables", "tar": "/usr/local/bin/tar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clark.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/clark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clark:1.2.6.1--h4ac6f70_4
+$ shpc install quay.io/biocontainers/clark:1.2.6.1--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clark/1.2.6.1--h4ac6f70_4
-$ module help quay.io/biocontainers/clark/1.2.6.1--h4ac6f70_4
+$ module load quay.io/biocontainers/clark/1.2.6.1--h9948957_5
+$ module help quay.io/biocontainers/clark/1.2.6.1--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

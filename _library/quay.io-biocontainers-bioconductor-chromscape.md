@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chromscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromscape/container.yaml"
-updated_at: "2025-01-07 03:12:40.358724"
-latest: "1.12.0--r43hf17093f_0"
+updated_at: "2025-01-08 03:09:56.620767"
+latest: "1.16.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromscape"
 aliases:
  - "pandoc-server"
@@ -17,8 +17,9 @@ versions:
  - "1.8.0--r42hf17093f_1"
  - "1.10.0--r43hf17093f_0"
  - "1.12.0--r43hf17093f_0"
+ - "1.16.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromscape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromscape", "latest": {"1.12.0--r43hf17093f_0": "sha256:512d07c26bbe320b07dcd4183fc64c0f334b765feaf0890da76790132ec02e87"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:4dae9f97dfb806e221126735c10e9b996922615194df9cf0846434a57b5c8ecc", "1.8.0--r42hc247a5b_0": "sha256:130c607c31cde9c515d9788fb863aa7c02221c78a56a9d7babfcb771dfdd3c32", "1.8.0--r42hf17093f_1": "sha256:bda182c80bde85d9e93361b8c565ad6d24b8a407d4db8aca3e2679db0ab716c0", "1.10.0--r43hf17093f_0": "sha256:88385c3736f66e785f391f8eb3c5a65bb11963f7a454f49f9071f47db58b1158", "1.12.0--r43hf17093f_0": "sha256:512d07c26bbe320b07dcd4183fc64c0f334b765feaf0890da76790132ec02e87"}, "docker": "quay.io/biocontainers/bioconductor-chromscape", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromscape", "latest": {"1.16.0--r44he5774e6_0": "sha256:e7f3df5641815180ff4029766dcf3762bd876ea0f42f509d01b8bf2f69566a44"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:4dae9f97dfb806e221126735c10e9b996922615194df9cf0846434a57b5c8ecc", "1.8.0--r42hc247a5b_0": "sha256:130c607c31cde9c515d9788fb863aa7c02221c78a56a9d7babfcb771dfdd3c32", "1.8.0--r42hf17093f_1": "sha256:bda182c80bde85d9e93361b8c565ad6d24b8a407d4db8aca3e2679db0ab716c0", "1.10.0--r43hf17093f_0": "sha256:88385c3736f66e785f391f8eb3c5a65bb11963f7a454f49f9071f47db58b1158", "1.12.0--r43hf17093f_0": "sha256:512d07c26bbe320b07dcd4183fc64c0f334b765feaf0890da76790132ec02e87", "1.16.0--r44he5774e6_0": "sha256:e7f3df5641815180ff4029766dcf3762bd876ea0f42f509d01b8bf2f69566a44"}, "docker": "quay.io/biocontainers/bioconductor-chromscape", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromscape.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromscape:1.12.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-chromscape:1.16.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromscape/1.12.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-chromscape/1.12.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-chromscape/1.16.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-chromscape/1.16.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

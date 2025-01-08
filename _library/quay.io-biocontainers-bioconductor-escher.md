@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-escher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-escher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-escher/container.yaml"
-updated_at: "2025-01-07 03:16:07.898066"
+updated_at: "2025-01-08 03:13:20.278380"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-escher"
 aliases:

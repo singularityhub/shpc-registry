@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-graphat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graphat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graphat/container.yaml"
-updated_at: "2025-01-07 03:14:46.879322"
-latest: "1.74.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:12:01.223026"
+latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-graphat"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
+ - "1.78.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-graphat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-graphat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphat", "latest": {"1.74.0--r43hdfd78af_0": "sha256:2e836a7a4f02cb8b7d82aadc4dd3d8ac38405c33e7bbd755a06c1958d5a4e688"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:9ea4e82629e22eee490537368ca749e36bcc38ac48508778b9476b08bc5b4ad0", "1.70.0--r42hdfd78af_0": "sha256:8516f40bb5783ba1387736aea371380d762c2121eaf199283cdb70b5e3d4caee", "1.72.0--r43hdfd78af_0": "sha256:f71441484b368a32a67d5a3d93e7851d25975292a181fb0a603a4815cba94900", "1.74.0--r43hdfd78af_0": "sha256:2e836a7a4f02cb8b7d82aadc4dd3d8ac38405c33e7bbd755a06c1958d5a4e688"}, "docker": "quay.io/biocontainers/bioconductor-graphat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-graphat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphat", "latest": {"1.78.0--r44hdfd78af_0": "sha256:106bc12fc07c6713887a112513fefbe251d16df7677068304a5257596236141c"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:9ea4e82629e22eee490537368ca749e36bcc38ac48508778b9476b08bc5b4ad0", "1.70.0--r42hdfd78af_0": "sha256:8516f40bb5783ba1387736aea371380d762c2121eaf199283cdb70b5e3d4caee", "1.72.0--r43hdfd78af_0": "sha256:f71441484b368a32a67d5a3d93e7851d25975292a181fb0a603a4815cba94900", "1.74.0--r43hdfd78af_0": "sha256:2e836a7a4f02cb8b7d82aadc4dd3d8ac38405c33e7bbd755a06c1958d5a4e688", "1.78.0--r44hdfd78af_0": "sha256:106bc12fc07c6713887a112513fefbe251d16df7677068304a5257596236141c"}, "docker": "quay.io/biocontainers/bioconductor-graphat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-graphat.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-graphat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-graphat:1.74.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-graphat:1.78.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-graphat/1.74.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-graphat/1.74.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-graphat/1.78.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-graphat/1.78.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

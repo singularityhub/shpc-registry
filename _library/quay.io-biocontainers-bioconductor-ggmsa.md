@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
-updated_at: "2025-01-07 03:41:44.322113"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:38:51.876245"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggmsa"
 aliases:
  - "projsync"
@@ -21,8 +21,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggmsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggmsa", "latest": {"1.8.0--r43hdfd78af_0": "sha256:fefe6cd9664eae6fcfecbf50636627e136eca6bf928bf4d8a8b58083963d78ea"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e", "1.4.0--r42hdfd78af_0": "sha256:a284b6bff1109922682871e81d611e93efa2097ad0b428a6d3ca7db74c19baa8", "1.8.0--r43hdfd78af_0": "sha256:fefe6cd9664eae6fcfecbf50636627e136eca6bf928bf4d8a8b58083963d78ea"}, "docker": "quay.io/biocontainers/bioconductor-ggmsa", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggmsa", "latest": {"1.12.0--r44hdfd78af_0": "sha256:f208eedbc965b5e0ee24f93b9c724873f170ec99e7f04133b477dc4229babd02"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e", "1.4.0--r42hdfd78af_0": "sha256:a284b6bff1109922682871e81d611e93efa2097ad0b428a6d3ca7db74c19baa8", "1.8.0--r43hdfd78af_0": "sha256:fefe6cd9664eae6fcfecbf50636627e136eca6bf928bf4d8a8b58083963d78ea", "1.12.0--r44hdfd78af_0": "sha256:f208eedbc965b5e0ee24f93b9c724873f170ec99e7f04133b477dc4229babd02"}, "docker": "quay.io/biocontainers/bioconductor-ggmsa", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggmsa.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggmsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggmsa:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggmsa:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggmsa/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggmsa/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggmsa/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggmsa/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

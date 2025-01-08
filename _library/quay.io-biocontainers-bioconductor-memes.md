@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-memes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-memes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-memes/container.yaml"
-updated_at: "2025-01-07 03:27:50.397247"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:24:58.310621"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-memes"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-memes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-memes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-memes", "latest": {"1.10.0--r43hdfd78af_0": "sha256:bcfe6a2cdfcf6e9cf6cc9f37a8a5ad6d4b8eca4d314b6eb773a70450074cb7af"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96", "1.6.0--r42hdfd78af_0": "sha256:20da95e8493ea40cb46761c59b32ceb9df06f58e1bfd617ef7265032b49d42db", "1.8.0--r43hdfd78af_0": "sha256:6abd145df32038730fa07a2d9e2cafcad0f41111dba7020bf5a62edd203036ac", "1.10.0--r43hdfd78af_0": "sha256:bcfe6a2cdfcf6e9cf6cc9f37a8a5ad6d4b8eca4d314b6eb773a70450074cb7af"}, "docker": "quay.io/biocontainers/bioconductor-memes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-memes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-memes", "latest": {"1.14.0--r44hdfd78af_0": "sha256:bd3f3e8360b56be14c37b608f9ad5eac1933dae74439b208a53fbe3a945c86c2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96", "1.6.0--r42hdfd78af_0": "sha256:20da95e8493ea40cb46761c59b32ceb9df06f58e1bfd617ef7265032b49d42db", "1.8.0--r43hdfd78af_0": "sha256:6abd145df32038730fa07a2d9e2cafcad0f41111dba7020bf5a62edd203036ac", "1.10.0--r43hdfd78af_0": "sha256:bcfe6a2cdfcf6e9cf6cc9f37a8a5ad6d4b8eca4d314b6eb773a70450074cb7af", "1.14.0--r44hdfd78af_0": "sha256:bd3f3e8360b56be14c37b608f9ad5eac1933dae74439b208a53fbe3a945c86c2"}, "docker": "quay.io/biocontainers/bioconductor-memes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-memes.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-memes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-memes:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-memes:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-memes/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-memes/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-memes/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-memes/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

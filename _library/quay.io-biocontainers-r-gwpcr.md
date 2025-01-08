@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-gwpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwpcr/container.yaml"
-updated_at: "2025-01-07 02:58:22.134754"
-latest: "1.0.4--r43h031d066_5"
+updated_at: "2025-01-08 02:55:45.006480"
+latest: "1.0.4--r44h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/r-gwpcr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.0.4--r42hec16e2b_2"
  - "1.0.4--r42h031d066_4"
  - "1.0.4--r43h031d066_5"
+ - "1.0.4--r44h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for r-gwpcr"
-config: {"url": "https://biocontainers.pro/tools/r-gwpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwpcr", "latest": {"1.0.4--r43h031d066_5": "sha256:ca3c67d8009236446c4a266e1bb29b1affda58f3b84c24719eed89faac976f3f"}, "tags": {"1.0.4--r41hec16e2b_1": "sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e", "1.0.4--r42hec16e2b_2": "sha256:b0966e176075725c824f72fe88a275fbf48ea1fca2c68315dfa1f8f0555293e0", "1.0.4--r42h031d066_4": "sha256:ea0c4e6ebb482b1ed203fea1e5a64bbd0e59491b772ab2a259ca478cc2466b3a", "1.0.4--r43h031d066_5": "sha256:ca3c67d8009236446c4a266e1bb29b1affda58f3b84c24719eed89faac976f3f"}, "docker": "quay.io/biocontainers/r-gwpcr"}
+config: {"url": "https://biocontainers.pro/tools/r-gwpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwpcr", "latest": {"1.0.4--r44h7b50bb2_6": "sha256:9067868b11045c2d81c6be2d30cee329e65878b44aafba16574a5c4fe666fef4"}, "tags": {"1.0.4--r41hec16e2b_1": "sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e", "1.0.4--r42hec16e2b_2": "sha256:b0966e176075725c824f72fe88a275fbf48ea1fca2c68315dfa1f8f0555293e0", "1.0.4--r42h031d066_4": "sha256:ea0c4e6ebb482b1ed203fea1e5a64bbd0e59491b772ab2a259ca478cc2466b3a", "1.0.4--r43h031d066_5": "sha256:ca3c67d8009236446c4a266e1bb29b1affda58f3b84c24719eed89faac976f3f", "1.0.4--r44h7b50bb2_6": "sha256:9067868b11045c2d81c6be2d30cee329e65878b44aafba16574a5c4fe666fef4"}, "docker": "quay.io/biocontainers/r-gwpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gwpcr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-gwpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gwpcr:1.0.4--r43h031d066_5
+$ shpc install quay.io/biocontainers/r-gwpcr:1.0.4--r44h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gwpcr/1.0.4--r43h031d066_5
-$ module help quay.io/biocontainers/r-gwpcr/1.0.4--r43h031d066_5
+$ module load quay.io/biocontainers/r-gwpcr/1.0.4--r44h7b50bb2_6
+$ module help quay.io/biocontainers/r-gwpcr/1.0.4--r44h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

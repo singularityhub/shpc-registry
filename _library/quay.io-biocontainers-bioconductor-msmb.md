@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmb/container.yaml"
-updated_at: "2025-01-07 03:05:42.894507"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2025-01-08 03:03:04.506208"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmb"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msmb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msmb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmb", "latest": {"1.20.0--r43hdfd78af_0": "sha256:1906e01a53fb785ad2d2d03258680ef2a015b0b870a4387e15105ff8c19959da"}, "tags": {"1.8.0--r40hdfd78af_0": "sha256:7b6cd660c3e94c3024638632e3452bfe989e883e7f898819b4a4707dfeb65119", "1.15.2--r42hdfd78af_0": "sha256:9756cbbee0c4e8483ab42072a8170b32a2ab4383da9eab1ee8d86704103253ef", "1.12.0--r41hdfd78af_1": "sha256:2f9290c3360fbb51695cb0f753f61dd5f3fa5f462e1e01a0fd834560c61851ea", "1.10.0--r41hdfd78af_0": "sha256:004fe9e7bb8d4a38725621a9e2e86d0fc318a0845860bdf439dc7e1a9673a2e1", "1.18.0--r43hdfd78af_0": "sha256:692099c2f5327d2c2a2a385e3f113b99c398cf187cd3e39423a88a059a583f77", "1.20.0--r43hdfd78af_0": "sha256:1906e01a53fb785ad2d2d03258680ef2a015b0b870a4387e15105ff8c19959da"}, "docker": "quay.io/biocontainers/bioconductor-msmb", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msmb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmb", "latest": {"1.24.0--r44hdfd78af_0": "sha256:2945606bf186251f9b0b687ef2c39a8fd2c83d0e53f2cad71fecca3747ef028f"}, "tags": {"1.8.0--r40hdfd78af_0": "sha256:7b6cd660c3e94c3024638632e3452bfe989e883e7f898819b4a4707dfeb65119", "1.15.2--r42hdfd78af_0": "sha256:9756cbbee0c4e8483ab42072a8170b32a2ab4383da9eab1ee8d86704103253ef", "1.12.0--r41hdfd78af_1": "sha256:2f9290c3360fbb51695cb0f753f61dd5f3fa5f462e1e01a0fd834560c61851ea", "1.10.0--r41hdfd78af_0": "sha256:004fe9e7bb8d4a38725621a9e2e86d0fc318a0845860bdf439dc7e1a9673a2e1", "1.18.0--r43hdfd78af_0": "sha256:692099c2f5327d2c2a2a385e3f113b99c398cf187cd3e39423a88a059a583f77", "1.20.0--r43hdfd78af_0": "sha256:1906e01a53fb785ad2d2d03258680ef2a015b0b870a4387e15105ff8c19959da", "1.24.0--r44hdfd78af_0": "sha256:2945606bf186251f9b0b687ef2c39a8fd2c83d0e53f2cad71fecca3747ef028f"}, "docker": "quay.io/biocontainers/bioconductor-msmb", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msmb.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msmb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msmb:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msmb:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msmb/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msmb/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msmb/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msmb/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

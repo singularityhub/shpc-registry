@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scallop2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scallop2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scallop2/container.yaml"
-updated_at: "2025-01-07 02:57:45.780175"
+updated_at: "2025-01-08 02:55:09.192413"
 latest: "1.1.2--h503566f_7"
 container_url: "https://biocontainers.pro/tools/scallop2"
 aliases:

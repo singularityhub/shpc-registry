@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scale4c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
-updated_at: "2025-01-07 03:28:52.753423"
+updated_at: "2025-01-08 03:26:00.195008"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scale4c"
 aliases:
