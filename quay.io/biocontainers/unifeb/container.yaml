@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/unifeb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unifeb
+latest:
+  0.1.1--h3ab6199_0: sha256:625598953ecce1d52eebc5ffa5a24c00d4f9c5fa33f4672456ea410ec91d7c3a
+tags:
+  0.1.1--h3ab6199_0: sha256:625598953ecce1d52eebc5ffa5a24c00d4f9c5fa33f4672456ea410ec91d7c3a
+docker: quay.io/biocontainers/unifeb
+aliases:
+  unifeb: /usr/local/bin/unifeb

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/mumemto
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mumemto
+latest:
+  1.1.1--py310h184ae93_2: sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a
+tags:
+  1.1.1--py310h184ae93_2: sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a
+docker: quay.io/biocontainers/mumemto
+aliases:
+  mumemto: /usr/local/bin/mumemto
+  mumemto_exec: /usr/local/bin/mumemto_exec
+  newscanNT.x: /usr/local/bin/newscanNT.x
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  numba: /usr/local/bin/numba
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

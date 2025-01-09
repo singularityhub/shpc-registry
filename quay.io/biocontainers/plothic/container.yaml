@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/plothic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plothic
+latest:
+  0.4.17--pyh684dba6_0: sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64
+tags:
+  0.4.17--pyh684dba6_0: sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64
+docker: quay.io/biocontainers/plothic
+aliases:
+  plothic: /usr/local/bin/plothic
+  pybind11-config: /usr/local/bin/pybind11-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

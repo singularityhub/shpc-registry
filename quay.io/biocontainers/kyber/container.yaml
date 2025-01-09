@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kyber
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kyber
+latest:
+  0.6.0d--ha6fb395_0: sha256:ccca8e7e9ba9c98e16ee5ef559c840aa275d152bced41c5842a9a0a0561abdb1
+tags:
+  0.6.0d--ha6fb395_0: sha256:ccca8e7e9ba9c98e16ee5ef559c840aa275d152bced41c5842a9a0a0561abdb1
+docker: quay.io/biocontainers/kyber
+aliases:
+  kyber: /usr/local/bin/kyber
