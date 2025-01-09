@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lemur
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-lemur
 latest:
-  1.0.4--r43hf17093f_0: sha256:1d813df9afecd89b23e1478a7d2e28ea648ed7ad4419461b9d075741bdb68c06
+  1.4.0--r44he5774e6_0: sha256:202e5d39c9ba6b9fc74104a1aad91d869a9dd42621f5017c7cc0eafd097352f9
 tags:
   1.0.4--r43hf17093f_0: sha256:1d813df9afecd89b23e1478a7d2e28ea648ed7ad4419461b9d075741bdb68c06
+  1.4.0--r44he5774e6_0: sha256:202e5d39c9ba6b9fc74104a1aad91d869a9dd42621f5017c7cc0eafd097352f9
 docker: quay.io/biocontainers/bioconductor-lemur
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

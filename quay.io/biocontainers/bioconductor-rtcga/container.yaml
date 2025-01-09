@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga
 latest:
-  1.32.0--r43hdfd78af_0: sha256:90dc666563db8aef3536d7f13cfc802a76db0804ca67aad90e5200ad350fd942
+  1.36.0--r44hdfd78af_0: sha256:cbf5c0b5df4fa480db7db528b90f8e16ffccc2590898ff9e0648a3af5e5e7673
 tags:
   1.8.0--r3.4.1_0: sha256:68716b7bd8d056e728d499d8c77c9f64f49d3f9f539d6ae1bdd89c020c68899d
   1.28.0--r42hdfd78af_0: sha256:1d7aecbad268cc044be332dae77a14b4f5735e60aa1d2a03fc71e56a46df2c9c
@@ -12,4 +12,5 @@ tags:
   1.18.0--r40_0: sha256:b44dfe37164a920fd72c115b38eb4bbf07dd3f77ce9c5774a644a04bf70d1b1d
   1.30.0--r43hdfd78af_0: sha256:f4da8d42a0a256e0c1801ad517b759f10909d3506afd8adfe9ecefc2f0db20c0
   1.32.0--r43hdfd78af_0: sha256:90dc666563db8aef3536d7f13cfc802a76db0804ca67aad90e5200ad350fd942
+  1.36.0--r44hdfd78af_0: sha256:cbf5c0b5df4fa480db7db528b90f8e16ffccc2590898ff9e0648a3af5e5e7673
 docker: quay.io/biocontainers/bioconductor-rtcga

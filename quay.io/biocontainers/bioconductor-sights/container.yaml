@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-sights
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sights
 latest:
-  1.28.0--r43hdfd78af_0: sha256:7bf39acaf0152ccc6ee30b007a85499c0abfb95232fb818b2cde7d36d55ea0d6
+  1.32.0--r44hdfd78af_0: sha256:816f7995390c472614423564c15a2c5425235e747c28b1af8d42d0fb646307aa
 tags:
   1.8.1--r351_0: sha256:e38d89c641d36ad9272e5f12b6a91255230602caa3b5e4c430387191c85b28f1
   1.24.0--r42hdfd78af_0: sha256:ea47e6b15eddc8f2a7c14abc58d9dfa6b16ecc9ee2ddf7d93dba3cc4f79abdec
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:f70278485266dfede0cd679ee50892639ea365da8a196761435004374df56f5e
   1.26.0--r43hdfd78af_0: sha256:b165a75ee2960e3288945005d5807ec9fd0c7ecbd7fd84a09c7d52588ab4a44f
   1.28.0--r43hdfd78af_0: sha256:7bf39acaf0152ccc6ee30b007a85499c0abfb95232fb818b2cde7d36d55ea0d6
+  1.32.0--r44hdfd78af_0: sha256:816f7995390c472614423564c15a2c5425235e747c28b1af8d42d0fb646307aa
 docker: quay.io/biocontainers/bioconductor-sights
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

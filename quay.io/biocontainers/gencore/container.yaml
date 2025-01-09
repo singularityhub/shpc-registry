@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gencore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gencore
 latest:
-  0.17.2--h122430f_2: sha256:7e39bc1a1e3d525183ba1fcef515c5bbdda71d110569f70eec8b3fb4680833b9
+  0.17.2--he5ce664_3: sha256:306e96b52edf573f101ce2899249dffbfcff5c421dc3b2179d4418f78f411744
 tags:
   0.17.2--h12f7fa2_1: sha256:3dd2342c4121701cd9b56c1b39e1f558b33b361ae9c5497e8c0df4210a83fe46
   0.17.2--h122430f_2: sha256:7e39bc1a1e3d525183ba1fcef515c5bbdda71d110569f70eec8b3fb4680833b9
+  0.17.2--he5ce664_3: sha256:306e96b52edf573f101ce2899249dffbfcff5c421dc3b2179d4418f78f411744
 docker: quay.io/biocontainers/gencore
 aliases:
   gencore: /usr/local/bin/gencore

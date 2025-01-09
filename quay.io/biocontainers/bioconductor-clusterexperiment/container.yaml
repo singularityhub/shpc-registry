@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-clusterexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clusterexperiment
 latest:
-  2.22.0--r43hf17093f_0: sha256:3e687116c19eee2c04db407f2352dd6b299d101efcdfed4ed805ea321152a787
+  2.26.0--r44he5774e6_0: sha256:44ce469fc3f8d57fb9ecd804c9ac059bcc7d7f1b58698cfdd9a39eaacaf1d63a
 tags:
   2.8.0--r40h5f743cb_0: sha256:de3b7b9f62615b2fa70792eceae781bb4de6f8386944e3d2573acecb57bc2ff9
   2.18.0--r42hc247a5b_0: sha256:820145399e4ddc5576fd7ba20639ba2efcff3067bc8490f6da581405e15eff18
@@ -12,6 +12,7 @@ tags:
   2.18.0--r42hf17093f_1: sha256:b5d0a3b9bbea1aee346f97843b4517c0172392150228db07734b1450ba5b7115
   2.20.0--r43hf17093f_0: sha256:7e574a47db18d73f22036ad507f55a4a64ec2e6994af059cbb33f52a124493c0
   2.22.0--r43hf17093f_0: sha256:3e687116c19eee2c04db407f2352dd6b299d101efcdfed4ed805ea321152a787
+  2.26.0--r44he5774e6_0: sha256:44ce469fc3f8d57fb9ecd804c9ac059bcc7d7f1b58698cfdd9a39eaacaf1d63a
 docker: quay.io/biocontainers/bioconductor-clusterexperiment
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

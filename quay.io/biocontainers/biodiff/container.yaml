@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/biodiff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biodiff
 latest:
-  0.2.2--h031d066_5: sha256:96e9668360a138be5353ddce294eb366e332e0ab7798f3966362d2c5db75dbc3
+  0.2.2--h7b50bb2_6: sha256:3e6bb31ad454fbae7380af68e7f2e80515a4508b87804da07e04d32558db763b
 tags:
   0.2.2--hec16e2b_4: sha256:4a7e24a29c6514cfa76032b92c7e9f3a41a05b323768419443c1f4ae5f65aef4
   0.2.2--h031d066_5: sha256:96e9668360a138be5353ddce294eb366e332e0ab7798f3966362d2c5db75dbc3
+  0.2.2--h7b50bb2_6: sha256:3e6bb31ad454fbae7380af68e7f2e80515a4508b87804da07e04d32558db763b
 docker: quay.io/biocontainers/biodiff
 aliases:
   biodiff: /usr/local/bin/biodiff

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rolde
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rolde
 latest:
-  1.6.0--r43hdfd78af_0: sha256:5120adf54b604d8bf5d6eff18b39725df1db4e4cdc7f8cc0e64494e254d1f00d
+  1.10.0--r44hdfd78af_0: sha256:1a55c2db990973e6331d88cd2c892cfa80cf7719969d7d3463ffd7472d554167
 tags:
   1.2.0--r42hdfd78af_0: sha256:22941992d6c2696a8b2974a07321320b0922d3fc646dda75e9e0ef8ca8986701
   1.4.0--r43hdfd78af_0: sha256:920faec909484941cbfd05f21f05c799b7a798a6f1f08247e3fcd24f1e711d17
   1.6.0--r43hdfd78af_0: sha256:5120adf54b604d8bf5d6eff18b39725df1db4e4cdc7f8cc0e64494e254d1f00d
+  1.10.0--r44hdfd78af_0: sha256:1a55c2db990973e6331d88cd2c892cfa80cf7719969d7d3463ffd7472d554167
 docker: quay.io/biocontainers/bioconductor-rolde
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

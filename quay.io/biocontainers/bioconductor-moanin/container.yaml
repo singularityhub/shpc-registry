@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-moanin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moanin
 latest:
-  1.10.0--r43hdfd78af_0: sha256:5699d5e2cf21f2fccfc9f5c80fd0ae4a1d6ef8cac5c6d6820f018f31b5c87088
+  1.14.0--r44hdfd78af_0: sha256:b61406fcf6d4c0449396137c9380349e432ddc5c0d669c741ce9443f4a7716b3
 tags:
   1.2.0--r41hdfd78af_0: sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5
   1.6.0--r42hdfd78af_0: sha256:a074f22bfb1fea4cb395a7fcdf4699306efa7e3c243c40606c78fde61a0bf6a2
   1.8.0--r43hdfd78af_0: sha256:bc2709412de791961b751f873da2929b11ba183665703ab43d45bf805c95813e
   1.10.0--r43hdfd78af_0: sha256:5699d5e2cf21f2fccfc9f5c80fd0ae4a1d6ef8cac5c6d6820f018f31b5c87088
+  1.14.0--r44hdfd78af_0: sha256:b61406fcf6d4c0449396137c9380349e432ddc5c0d669c741ce9443f4a7716b3
 docker: quay.io/biocontainers/bioconductor-moanin

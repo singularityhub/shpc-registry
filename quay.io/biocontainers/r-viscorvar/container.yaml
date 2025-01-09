@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-viscorvar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-viscorvar
 latest:
-  0.9--r43hdfd78af_2: sha256:14a0a5c20b22815ce071fc77d8a2f153544fe509c443c05d26be6e7498ffb344
+  0.9--r44hdfd78af_3: sha256:265a73ac3db881334b809b58f7d4e71c4af9762b70bf926025f1d45aa4f0d993
 tags:
   0.9--r41hdfd78af_0: sha256:552a66ed7f207f3a455688c675dfacb2236be4aac2f7aa62c7861bcbe4457f8d
   0.9--r42hdfd78af_1: sha256:d2d9aee5bbd0520a76a2bec2f93fd4027a62528c75466c8c2b471f17debcbc46
   0.9--r43hdfd78af_2: sha256:14a0a5c20b22815ce071fc77d8a2f153544fe509c443c05d26be6e7498ffb344
+  0.9--r44hdfd78af_3: sha256:265a73ac3db881334b809b58f7d4e71c4af9762b70bf926025f1d45aa4f0d993
 docker: quay.io/biocontainers/r-viscorvar
 aliases:
   pandoc: /usr/local/bin/pandoc

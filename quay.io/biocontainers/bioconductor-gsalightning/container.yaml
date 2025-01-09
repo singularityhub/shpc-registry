@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gsalightning
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsalightning
 latest:
-  1.30.0--r43hdfd78af_0: sha256:ef791dea9973ab71a4ee11fdc8cc8ad8dea0c9b2f5bc11976b14910975cb4be8
+  1.34.0--r44hdfd78af_0: sha256:69c34e87033194f18db51a579926efb223cbfc27cffc8497095db365e09dc231
 tags:
   1.8.0--r341_0: sha256:ede0e3b219c29211dcdbbf469dac26b4e8602e444f1e9b92385dcbf4dad1053c
   1.26.0--r42hdfd78af_0: sha256:360580432e0f8d4afd7d3b90e6d36d656ff7963069395e5adbec0f717d4c6a1a
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:fb4e74dec5d1a6e1091c702ae83fe35df3d6d62071ec7cf3b313fb565af497f4
   1.28.0--r43hdfd78af_0: sha256:165042a2ae5a8d5ad2508edeb066100c39d22e8d209c1873cc8219310c637fb7
   1.30.0--r43hdfd78af_0: sha256:ef791dea9973ab71a4ee11fdc8cc8ad8dea0c9b2f5bc11976b14910975cb4be8
+  1.34.0--r44hdfd78af_0: sha256:69c34e87033194f18db51a579926efb223cbfc27cffc8497095db365e09dc231
 docker: quay.io/biocontainers/bioconductor-gsalightning
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

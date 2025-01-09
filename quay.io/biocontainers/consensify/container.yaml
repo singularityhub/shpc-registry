@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/consensify
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for consensify
 latest:
-  2.4.0--hdcf5f25_1: sha256:de3328f8446bf945753224b7f59896fa2cfa7e4e2d27f5cdee01cba258835923
+  2.4.0--h077b44d_2: sha256:0acffd9269917997663df8e5047d5b8a05b34c248c520a84ab9ed58ba0bf0872
 tags:
   2.4.0--hdcf5f25_1: sha256:de3328f8446bf945753224b7f59896fa2cfa7e4e2d27f5cdee01cba258835923
+  2.4.0--h077b44d_2: sha256:0acffd9269917997663df8e5047d5b8a05b34c248c520a84ab9ed58ba0bf0872
 docker: quay.io/biocontainers/consensify
 aliases:
   consensify_c: /usr/local/bin/consensify_c

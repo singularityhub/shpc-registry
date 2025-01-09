@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-confessdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-confessdata
 latest:
-  1.30.0--r43hdfd78af_0: sha256:534b4447403adf4377554b658d3351d5559033d60f0ecab572faf3b011f8c2ca
+  1.34.0--r44hdfd78af_0: sha256:17f6296051f4864608c69045d827c085ddaa660e0a1ba898f5cd196e88d72d3a
 tags:
   1.22.0--r41hdfd78af_1: sha256:9dc597a2dc14c4224136490c14bc1cfcf94cb052d1c82d765bfd77440d0d913c
   1.26.0--r42hdfd78af_0: sha256:ff7ff9d9b31e825c8d43de26c750097028e9172170aebd4313efb24260c64387
   1.28.0--r43hdfd78af_0: sha256:ba0f9f1f508aed6283b114f228d09aa142391876e7c7f0f1f5a5fcbde2667c07
   1.30.0--r43hdfd78af_0: sha256:534b4447403adf4377554b658d3351d5559033d60f0ecab572faf3b011f8c2ca
+  1.34.0--r44hdfd78af_0: sha256:17f6296051f4864608c69045d827c085ddaa660e0a1ba898f5cd196e88d72d3a
 docker: quay.io/biocontainers/bioconductor-confessdata

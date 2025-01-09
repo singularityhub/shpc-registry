@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-moonlight2r
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-moonlight2r
 latest:
-  1.0.0--r43hdfd78af_0: sha256:ec768d903177ca4272d87e56634452592924911d8ea1aeb0a92881718848ca12
+  1.4.0--r44hdfd78af_0: sha256:bc737efa945c18c22bbd874bf3eab3240de34eb499d07f937719c340ae539a0c
 tags:
   1.0.0--r43hdfd78af_0: sha256:ec768d903177ca4272d87e56634452592924911d8ea1aeb0a92881718848ca12
+  1.4.0--r44hdfd78af_0: sha256:bc737efa945c18c22bbd874bf3eab3240de34eb499d07f937719c340ae539a0c
 docker: quay.io/biocontainers/bioconductor-moonlight2r
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

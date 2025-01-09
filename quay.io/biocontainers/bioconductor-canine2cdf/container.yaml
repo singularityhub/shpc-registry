@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-canine2cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-canine2cdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:fae7e468e949bc3e22f23e572ede5c18560c064772523e8ba62c73bd21256ab6
+  2.18.0--r44hdfd78af_13: sha256:96e85927f106f9d1edae2ae2173168a5c747290ddbaa016a15e767da2b325b62
 tags:
   2.18.0--r41hdfd78af_9: sha256:f7fbc8b89b7245aa6cf9cefd84dd7fb5137a332b0af4c299d337518fec246c49
   2.18.0--r42hdfd78af_10: sha256:f633cf311371ce69ceee5d2658939ec0544e2675b310fd9cf7bd07b948d7c5de
   2.18.0--r43hdfd78af_11: sha256:5076413f91ce3bcbf8a38fb8b9c6331838571c8c583ead51943651a6f3543557
   2.18.0--r43hdfd78af_12: sha256:fae7e468e949bc3e22f23e572ede5c18560c064772523e8ba62c73bd21256ab6
+  2.18.0--r44hdfd78af_13: sha256:96e85927f106f9d1edae2ae2173168a5c747290ddbaa016a15e767da2b325b62
 docker: quay.io/biocontainers/bioconductor-canine2cdf

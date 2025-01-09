@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-multiassayexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-multiassayexperiment
 latest:
-  1.28.0--r43hdfd78af_0: sha256:ec19b8f2b6c44e5d38c91a9b992900c2f7fd215c56f587e8b3c299e9a9025fb7
+  1.32.0--r44hdfd78af_0: sha256:9fdb60120bbbeb7160ca735af82ce68ec4b3eb56554f99780947981da57da201
 tags:
   1.8.1--r351_0: sha256:e2253b83a7ae27f5c5b6639352eed27d2bc3002c2072c3ad727ff226675f189b
   1.24.0--r42hdfd78af_0: sha256:bae54a9065ae6c8940f36859ee88eb952f258efa52e5c5897b5dba10d09a6930
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:0b4625feab8dba5586b07735ef343cbc5d25a822ba5b7576f43b75d530f41e33
   1.26.0--r43hdfd78af_0: sha256:3d0825880121cc7ac7d60479f11dbc71557403081071ef8595966b3a4133d43a
   1.28.0--r43hdfd78af_0: sha256:ec19b8f2b6c44e5d38c91a9b992900c2f7fd215c56f587e8b3c299e9a9025fb7
+  1.32.0--r44hdfd78af_0: sha256:9fdb60120bbbeb7160ca735af82ce68ec4b3eb56554f99780947981da57da201
 docker: quay.io/biocontainers/bioconductor-multiassayexperiment
 aliases:
   wget: /usr/local/bin/wget

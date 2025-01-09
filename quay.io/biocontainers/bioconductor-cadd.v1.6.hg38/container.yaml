@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cadd.v1.6.hg38
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cadd.v1.6.hg38
 latest:
-  3.18.1--r43hdfd78af_0: sha256:a92058fa17bfe9b0ee8b96f622ce0ca63b9238e7c7ab0b6fb925211346727b92
+  3.18.1--r44hdfd78af_1: sha256:3e3f9b1314b6ca0012f8aeb2cdb5626863e74659fc09ff72dd67436d36861e03
 tags:
   3.18.1--r43hdfd78af_0: sha256:a92058fa17bfe9b0ee8b96f622ce0ca63b9238e7c7ab0b6fb925211346727b92
+  3.18.1--r44hdfd78af_1: sha256:3e3f9b1314b6ca0012f8aeb2cdb5626863e74659fc09ff72dd67436d36861e03
 docker: quay.io/biocontainers/bioconductor-cadd.v1.6.hg38
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

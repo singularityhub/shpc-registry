@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ancestry_hmm-s
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ancestry_hmm-s
 latest:
-  0.9.0.2--h4ac6f70_5: sha256:42287b7e0aa78a58f612ec980f5b145f1e291ae2a5cfe9cd39c9ca0497c23704
+  0.9.0.2--h9948957_6: sha256:23a3898df2586f7f2b47ea014a9d0658e29bc7427c4250d73dd6dabbad8455a8
 tags:
   0.9.0.2--h9f5acd7_2: sha256:45389bb27d51b1db2b38ebc2f39cc8cc0f40b6e3c0e40aeace2b199fa0ef4d18
   0.9.0.2--h4ac6f70_4: sha256:80b8b5a56b3a3400d1c53df8b517d8a56fbe1f1f41f0c2e4ffe82d38ca41a879
   0.9.0.2--h4ac6f70_5: sha256:42287b7e0aa78a58f612ec980f5b145f1e291ae2a5cfe9cd39c9ca0497c23704
+  0.9.0.2--h9948957_6: sha256:23a3898df2586f7f2b47ea014a9d0658e29bc7427c4250d73dd6dabbad8455a8
 docker: quay.io/biocontainers/ancestry_hmm-s
 aliases:
   ahmm-s: /usr/local/bin/ahmm-s

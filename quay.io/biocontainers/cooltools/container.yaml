@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/cooltools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cooltools
 latest:
-  0.7.1--py311h1abe8b6_0: sha256:38ce428f3eea6be383d9b3d3805896de460c7c64100e4a3e5c49146f9f714f35
+  0.7.1--py310h20b60a1_1: sha256:bb6a4bd33fe5f2bbefd02b37c44cbb8f36bd147a57a23f8bac0e848586d22ef8
 tags:
   0.5.1--py37h37892f8_1: sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0
   0.5.2--py39h5371cbf_1: sha256:5222c15e76def0f9472cbaf8a5bb5f4f1fca48beb99349478c9503868d4ffb34
@@ -13,6 +13,7 @@ tags:
   0.7.0--py310hd6be1da_1: sha256:45f08644b253e2b2df2c77c404984e98353558cf7a043a9c1b0f35810f16b2da
   0.7.0--py311h1abe8b6_2: sha256:32e78771662ffe95b23d060e4e1cdce89e429d283fedf5f99c9e275ed8e26654
   0.7.1--py311h1abe8b6_0: sha256:38ce428f3eea6be383d9b3d3805896de460c7c64100e4a3e5c49146f9f714f35
+  0.7.1--py310h20b60a1_1: sha256:bb6a4bd33fe5f2bbefd02b37c44cbb8f36bd147a57a23f8bac0e848586d22ef8
 docker: quay.io/biocontainers/cooltools
 aliases:
   cooltools: /usr/local/bin/cooltools

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ibridges
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ibridges
 latest:
-  1.2.0--pyhdfd78af_0: sha256:0c003705e6f3e74318052e10815b82221ff4b18c6ad9029d8d71c6faaf90e6ad
+  1.3.0--pyhdfd78af_0: sha256:e66ea37c2a223f2211b9dc4bdc185b7393cce0d8a7b7da66f1196935872b3967
 tags:
   1.2.0--pyhdfd78af_0: sha256:0c003705e6f3e74318052e10815b82221ff4b18c6ad9029d8d71c6faaf90e6ad
+  1.3.0--pyhdfd78af_0: sha256:e66ea37c2a223f2211b9dc4bdc185b7393cce0d8a7b7da66f1196935872b3967
 docker: quay.io/biocontainers/ibridges
 aliases:
   ibridges: /usr/local/bin/ibridges

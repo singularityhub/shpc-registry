@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pardre
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pardre
 latest:
-  2.2.5--h6b557da_3: sha256:e1d15390cf060fe7f0969af06f20621b96764c4db4770dfe8a2a59926310713e
+  2.2.5--h2aad775_4: sha256:0806b8ba51aa9aef21e1ca3ea2f2a823aba0bc86037e3e5ea622f116ebe66b3e
 tags:
   2.2.5--h0dae2d6_1: sha256:3e7261629fa2463d5fabdaaec28989482234e1f7bb35dfe97cafd8af259e1817
   2.2.5--h6b557da_3: sha256:e1d15390cf060fe7f0969af06f20621b96764c4db4770dfe8a2a59926310713e
+  2.2.5--h2aad775_4: sha256:0806b8ba51aa9aef21e1ca3ea2f2a823aba0bc86037e3e5ea622f116ebe66b3e
 docker: quay.io/biocontainers/pardre
 aliases:
   ParDRe: /usr/local/bin/ParDRe

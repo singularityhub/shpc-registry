@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-hicdoc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hicdoc
 latest:
-  1.4.0--r43hf17093f_0: sha256:5b612521af9c220eb42d033ceb110ac90c074e96d30d102ee52b8589710b3d70
+  1.8.0--r44h77050f0_0: sha256:84a09e97442b71a67d63c35da2144a22654f68b995b62c45ad0e03c5071ff1eb
 tags:
   1.0.0--r42hc247a5b_0: sha256:85a63afe227928fb05d652e14bb798ee6fb4dd853dcc773831e8e9b7ed1e626c
   1.0.0--r42hf17093f_1: sha256:151afa3a6ae3a52b313a3577e7fc7641c7405e23084b6e8cdd111f0348485361
   1.2.0--r43hf17093f_0: sha256:411b3a42fd34b646eaa9f91c3b79cf7a0bf607b3d947885d541c04f0089543b0
   1.4.0--r43hf17093f_0: sha256:5b612521af9c220eb42d033ceb110ac90c074e96d30d102ee52b8589710b3d70
+  1.8.0--r44h77050f0_0: sha256:84a09e97442b71a67d63c35da2144a22654f68b995b62c45ad0e03c5071ff1eb
 docker: quay.io/biocontainers/bioconductor-hicdoc
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

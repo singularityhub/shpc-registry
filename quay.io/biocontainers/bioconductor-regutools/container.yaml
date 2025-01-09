@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-regutools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-regutools
 latest:
-  1.14.0--r43hdfd78af_0: sha256:b526c6242e4d977a9b2cbb43ba9cf9fd5e8fb2c0bb7bbf9f342073998cc9f6e1
+  1.18.0--r44hdfd78af_0: sha256:98c04b5afc3918736c8ed121250da5b8a2d1777e57f3e63995e1c0586a3e42d2
 tags:
   1.6.0--r41hdfd78af_0: sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f
   1.10.0--r42hdfd78af_0: sha256:187435ab02e47e19fd7e0f224686d157a66a5707c0462deebfac102d0e48a00b
   1.12.0--r43hdfd78af_0: sha256:baf768f23182d890ff3eb5bdedf9bedfe0b54f23ee1001cd1473b4f04057cbd4
   1.14.0--r43hdfd78af_0: sha256:b526c6242e4d977a9b2cbb43ba9cf9fd5e8fb2c0bb7bbf9f342073998cc9f6e1
+  1.18.0--r44hdfd78af_0: sha256:98c04b5afc3918736c8ed121250da5b8a2d1777e57f3e63995e1c0586a3e42d2
 docker: quay.io/biocontainers/bioconductor-regutools
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-minems2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-minems2
 latest:
-  0.9.3--r43h4ac6f70_7: sha256:c86e143c8ac816de78d5e6650b89e8c1ec5fc35fe0da26390ce838f61a742d37
+  0.9.3--r44h9948957_8: sha256:0b7e1ade03118bf7c27c97749ea446835983f17fc33c147e5e3f3fbc9392865b
 tags:
   0.9.3--r41h9f5acd7_4: sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086
   0.9.3--r42h9f5acd7_5: sha256:076b470f07729cca1d06921ac812496b0a3ff18d5472326881cdc59141dc1500
   0.9.3--r42h4ac6f70_6: sha256:38cbd498e19e7a15912d99a51dfa1bb96274328a170cf8a69e1eb911dc076875
   0.9.3--r43h4ac6f70_7: sha256:c86e143c8ac816de78d5e6650b89e8c1ec5fc35fe0da26390ce838f61a742d37
+  0.9.3--r44h9948957_8: sha256:0b7e1ade03118bf7c27c97749ea446835983f17fc33c147e5e3f3fbc9392865b
 docker: quay.io/biocontainers/r-minems2
 aliases:
   zipcmp: /usr/local/bin/zipcmp

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-vplotr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vplotr
 latest:
-  1.12.1--r43hdfd78af_0: sha256:e1c65869be65a22e459b50c5d38796e547e51a4e29b70dd972f1c3b27bd15f09
+  1.16.0--r44hdfd78af_0: sha256:837eb787904f0d42d1e6b134c1f581eb6faf1cef4b81cf45a579c6a110184acd
 tags:
   1.4.0--r41hdfd78af_0: sha256:eb9697bbd8daba492c48a0f6b16350ca6d1f086e9d674e8c09e7e303f23a02a1
   1.8.0--r42hdfd78af_0: sha256:cc06929d5245d2d98399539e1279b314c327194e94d1612198170ed653081c3c
   1.10.0--r43hdfd78af_0: sha256:262533fb491c322b7ffb60a19c18938aa152df049fe225e94489364be495b987
   1.12.1--r43hdfd78af_0: sha256:e1c65869be65a22e459b50c5d38796e547e51a4e29b70dd972f1c3b27bd15f09
+  1.16.0--r44hdfd78af_0: sha256:837eb787904f0d42d1e6b134c1f581eb6faf1cef4b81cf45a579c6a110184acd
 docker: quay.io/biocontainers/bioconductor-vplotr

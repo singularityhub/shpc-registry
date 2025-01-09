@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-geotcgadata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-geotcgadata
 latest:
-  2.2.0--r43hdfd78af_0: sha256:2c597a02bc47cc729891e8884bb688fae7ada4afdad5d0ce3265d12db4c02226
+  2.6.0--r44hdfd78af_0: sha256:0693c6dbe6131da17e9fd06dcdfc41987af4a7f8ffc7a4f3d992b3405f29ede3
 tags:
   2.0.0--r43hdfd78af_0: sha256:9a8f86d539b093bd6ec2fa2ae1e30efe1de542e13d6fd35526072256a5343956
   2.2.0--r43hdfd78af_0: sha256:2c597a02bc47cc729891e8884bb688fae7ada4afdad5d0ce3265d12db4c02226
+  2.6.0--r44hdfd78af_0: sha256:0693c6dbe6131da17e9fd06dcdfc41987af4a7f8ffc7a4f3d992b3405f29ede3
 docker: quay.io/biocontainers/bioconductor-geotcgadata
 aliases:
   hb-info: /usr/local/bin/hb-info

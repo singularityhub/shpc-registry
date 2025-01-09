@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-metabinr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-metabinr
 latest:
-  1.4.0--r43hdfd78af_0: sha256:e0b197f27206110fbec6af1a5752bcf334e686bf5519b43d49f830fb987d69b8
+  1.8.0--r44hdfd78af_0: sha256:8f78250b4d55a365c3c1701e09fb6923f6ff899aea82733963a066768c4c0685
 tags:
   1.0.0--r42hdfd78af_0: sha256:8d9ece7014102c0ec5c1162c30c78d0e03c7f21e30b312b872002db627d6b13c
   1.2.0--r43hdfd78af_0: sha256:41427838185fe7dcc2f1f0dfba86b40f4359f718c3dd0d60d0a039576b9ba88e
   1.4.0--r43hdfd78af_0: sha256:e0b197f27206110fbec6af1a5752bcf334e686bf5519b43d49f830fb987d69b8
+  1.8.0--r44hdfd78af_0: sha256:8f78250b4d55a365c3c1701e09fb6923f6ff899aea82733963a066768c4c0685
 docker: quay.io/biocontainers/bioconductor-metabinr
 aliases:
   jpackage: /usr/local/bin/jpackage

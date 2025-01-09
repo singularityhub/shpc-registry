@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase1.grch38
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase1.grch38
 latest:
-  3.10.0--r43hdfd78af_9: sha256:aa537e954b09abdce5ef24b61ae4e18caf5cf79408ba175423335cc7918d3537
+  3.10.0--r44hdfd78af_10: sha256:3a53a03ac78d0ca9df677d41748151ddc293c312113fe17b4a5bafb0f8957a23
 tags:
   3.7.0--r36_2: sha256:99266d856c7a9077deb776f529f5783b2c7fd1efa29544301ec7c9dbf0137469
   3.10.0--r42hdfd78af_7: sha256:286bfcc5389923c1cf576d3911113c780796d1acad23ab28351ad0e6789a20c4
   3.10.0--r43hdfd78af_8: sha256:26bf7c854b6fcb221f44252bb789dada148f177ac39aa97b5b882e91137dba2d
   3.10.0--r43hdfd78af_9: sha256:aa537e954b09abdce5ef24b61ae4e18caf5cf79408ba175423335cc7918d3537
+  3.10.0--r44hdfd78af_10: sha256:3a53a03ac78d0ca9df677d41748151ddc293c312113fe17b4a5bafb0f8957a23
 docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

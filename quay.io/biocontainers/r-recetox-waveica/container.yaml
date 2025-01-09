@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-recetox-waveica
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-recetox-waveica
 latest:
-  0.2.0--r43hdfd78af_2: sha256:2bbda83bd774299b3f9c2c9c9a4b20501215c6d06eceda39117c789c660903fb
+  0.2.0--r44hdfd78af_3: sha256:e03adf603465ba23640cd215398fa92ba42a9940cecfed498dd166eaacb69d78
 tags:
   0.2.0--r41hdfd78af_0: sha256:da5346275d105b6983eee9d0e0bac791f9f051dfcda1061d246408c59d192b9e
   0.2.0--r42hdfd78af_1: sha256:da3a15f086c9149feca4ec65d74bebb5530df78605bd8f06a8535a36924c8487
   0.2.0--r43hdfd78af_2: sha256:2bbda83bd774299b3f9c2c9c9a4b20501215c6d06eceda39117c789c660903fb
+  0.2.0--r44hdfd78af_3: sha256:e03adf603465ba23640cd215398fa92ba42a9940cecfed498dd166eaacb69d78
 docker: quay.io/biocontainers/r-recetox-waveica
