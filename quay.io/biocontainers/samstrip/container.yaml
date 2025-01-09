@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/samstrip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for samstrip
+latest:
+  0.2.1--h4349ce8_0: sha256:34c6f9766209924a2b555ff67b74d4c1db00116aeee25c4cdc4a2cc83abac7a7
+tags:
+  0.2.1--h4349ce8_0: sha256:34c6f9766209924a2b555ff67b74d4c1db00116aeee25c4cdc4a2cc83abac7a7
+docker: quay.io/biocontainers/samstrip
+aliases:
+  samstrip: /usr/local/bin/samstrip

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/bioconductor-broadseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-broadseq
+latest:
+  1.0.0--r44hdfd78af_0: sha256:678a7b7b5f4b2f75a076b93a94b9d9579f74a2a86bf0acfcc4868f57655e2dab
+tags:
+  1.0.0--r44hdfd78af_0: sha256:678a7b7b5f4b2f75a076b93a94b9d9579f74a2a86bf0acfcc4868f57655e2dab
+docker: quay.io/biocontainers/bioconductor-broadseq
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pandoc-server: /usr/local/bin/pandoc-server
+  numpy-config: /usr/local/bin/numpy-config
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tjbench: /usr/local/bin/tjbench

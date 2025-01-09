@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pdb2fasta
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pdb2fasta
+latest:
+  1.0--h7b50bb2_0: sha256:dd0148ce168eb9111f9c55ef9474071990f0078cb15d5d8ed52b5ad469391879
+tags:
+  1.0--h7b50bb2_0: sha256:dd0148ce168eb9111f9c55ef9474071990f0078cb15d5d8ed52b5ad469391879
+docker: quay.io/biocontainers/pdb2fasta
+aliases:
+  pdb2fasta: /usr/local/bin/pdb2fasta
