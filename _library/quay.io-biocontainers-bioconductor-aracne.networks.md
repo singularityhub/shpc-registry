@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-aracne.networks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aracne.networks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aracne.networks/container.yaml"
-updated_at: "2025-01-08 07:11:48.394830"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:59:50.333298"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aracne.networks"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.15.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-aracne.networks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-aracne.networks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aracne.networks", "latest": {"1.28.0--r43hdfd78af_0": "sha256:a8faac9cca952ac39112fa65fb5e713cd9cf9f73b5a703fc637720866ca4cc1f"}, "tags": {"1.8.0--r351_0": "sha256:1afd43afcad4686efebde278df33e090783d41315bea5ec716dacb7bd22dfadb", "1.24.0--r42hdfd78af_0": "sha256:525edb1e63db3d08b9929d4c08cf17ab02a5e7c1d38cbfbf8942560c73486732", "1.20.0--r41hdfd78af_1": "sha256:8462003ca910dbb4f88adb98745a5f66b74a691b2c94eefd2183fa551b309bf2", "1.18.0--r41hdfd78af_0": "sha256:055b69db012c5bef78200704b11dfcc0ab37bcd1e599e0f6dd6391489f48885c", "1.16.0--r40hdfd78af_1": "sha256:99148e4d4104c18e0703a34f9075c4b8747908e3cb0717544999a7be0c626bd1", "1.15.0--r40_0": "sha256:71b2ff39ebe1722960d9cde92cb4a78adbe28938f904f0a848afb3462f11403f", "1.26.0--r43hdfd78af_0": "sha256:d6efe9e038337d3dbd8566a4997bafccb98576f8b944d56f34db28de2d2f0456", "1.28.0--r43hdfd78af_0": "sha256:a8faac9cca952ac39112fa65fb5e713cd9cf9f73b5a703fc637720866ca4cc1f"}, "docker": "quay.io/biocontainers/bioconductor-aracne.networks", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-aracne.networks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aracne.networks", "latest": {"1.32.0--r44hdfd78af_0": "sha256:db3d8e5cc7effe0032116572c6631e6f88b22c31ad90275d6a772f754da58638"}, "tags": {"1.8.0--r351_0": "sha256:1afd43afcad4686efebde278df33e090783d41315bea5ec716dacb7bd22dfadb", "1.24.0--r42hdfd78af_0": "sha256:525edb1e63db3d08b9929d4c08cf17ab02a5e7c1d38cbfbf8942560c73486732", "1.20.0--r41hdfd78af_1": "sha256:8462003ca910dbb4f88adb98745a5f66b74a691b2c94eefd2183fa551b309bf2", "1.18.0--r41hdfd78af_0": "sha256:055b69db012c5bef78200704b11dfcc0ab37bcd1e599e0f6dd6391489f48885c", "1.16.0--r40hdfd78af_1": "sha256:99148e4d4104c18e0703a34f9075c4b8747908e3cb0717544999a7be0c626bd1", "1.15.0--r40_0": "sha256:71b2ff39ebe1722960d9cde92cb4a78adbe28938f904f0a848afb3462f11403f", "1.26.0--r43hdfd78af_0": "sha256:d6efe9e038337d3dbd8566a4997bafccb98576f8b944d56f34db28de2d2f0456", "1.28.0--r43hdfd78af_0": "sha256:a8faac9cca952ac39112fa65fb5e713cd9cf9f73b5a703fc637720866ca4cc1f", "1.32.0--r44hdfd78af_0": "sha256:db3d8e5cc7effe0032116572c6631e6f88b22c31ad90275d6a772f754da58638"}, "docker": "quay.io/biocontainers/bioconductor-aracne.networks", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-aracne.networks.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-aracne.networks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-aracne.networks:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-aracne.networks:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-aracne.networks/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-aracne.networks/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-aracne.networks/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-aracne.networks/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

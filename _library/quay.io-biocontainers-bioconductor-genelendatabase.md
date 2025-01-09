@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genelendatabase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genelendatabase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genelendatabase/container.yaml"
-updated_at: "2025-01-08 06:55:44.233746"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:44:00.649763"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genelendatabase"
 aliases:
  - "pngcp"
@@ -26,8 +26,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genelendatabase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genelendatabase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genelendatabase", "latest": {"1.38.0--r43hdfd78af_0": "sha256:511f8ff7f11d6eaba4817896135ebfc7cd8b005783096c6d99e0fa2af0637620"}, "tags": {"1.6.0--0": "sha256:081739cc66d24cee3a5548491d52713d1e9ccd062f508a6c2aaac16bf2c2b125", "1.30.0--r41hdfd78af_1": "sha256:1b08e3072d9580d3749baf113048c2d9e57d1d7ea9e6b9877107345b822eeb69", "1.28.0--r41hdfd78af_0": "sha256:7bfdec26a7d01fd4bd68e6e0ef22ce16c79e812f852487df1ad23a4735187ae7", "1.26.0--r40hdfd78af_1": "sha256:e42e20d86e86be6e3a7e9c441a690ccbf5d87550a6d4063167b2e2e1b1dd1925", "1.24.0--r40_0": "sha256:a87549821bb452151dbf1d85276525fe036ddd568b154c934951caa498be0b7a", "1.22.0--r36_0": "sha256:3feefeaef89d768eaa9d25307cf040b5f645894d91c791e22e95d810715de908", "1.34.0--r42hdfd78af_0": "sha256:d831717d45cc86501aba18d3a0a3d7bb4820a77f0d24acf04a880d0fef877d11", "1.36.0--r43hdfd78af_0": "sha256:8c556766b6ea0718bd997229f2cc33ce02bd399363ea1195c1f549b97890da62", "1.38.0--r43hdfd78af_0": "sha256:511f8ff7f11d6eaba4817896135ebfc7cd8b005783096c6d99e0fa2af0637620"}, "docker": "quay.io/biocontainers/bioconductor-genelendatabase", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genelendatabase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genelendatabase", "latest": {"1.42.0--r44hdfd78af_0": "sha256:805bf231e193fb32d7eb4235fe71e05c2a856613bdb95cc6a16718f9aaf7fe31"}, "tags": {"1.6.0--0": "sha256:081739cc66d24cee3a5548491d52713d1e9ccd062f508a6c2aaac16bf2c2b125", "1.30.0--r41hdfd78af_1": "sha256:1b08e3072d9580d3749baf113048c2d9e57d1d7ea9e6b9877107345b822eeb69", "1.28.0--r41hdfd78af_0": "sha256:7bfdec26a7d01fd4bd68e6e0ef22ce16c79e812f852487df1ad23a4735187ae7", "1.26.0--r40hdfd78af_1": "sha256:e42e20d86e86be6e3a7e9c441a690ccbf5d87550a6d4063167b2e2e1b1dd1925", "1.24.0--r40_0": "sha256:a87549821bb452151dbf1d85276525fe036ddd568b154c934951caa498be0b7a", "1.22.0--r36_0": "sha256:3feefeaef89d768eaa9d25307cf040b5f645894d91c791e22e95d810715de908", "1.34.0--r42hdfd78af_0": "sha256:d831717d45cc86501aba18d3a0a3d7bb4820a77f0d24acf04a880d0fef877d11", "1.36.0--r43hdfd78af_0": "sha256:8c556766b6ea0718bd997229f2cc33ce02bd399363ea1195c1f549b97890da62", "1.38.0--r43hdfd78af_0": "sha256:511f8ff7f11d6eaba4817896135ebfc7cd8b005783096c6d99e0fa2af0637620", "1.42.0--r44hdfd78af_0": "sha256:805bf231e193fb32d7eb4235fe71e05c2a856613bdb95cc6a16718f9aaf7fe31"}, "docker": "quay.io/biocontainers/bioconductor-genelendatabase", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genelendatabase.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genelendatabase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genelendatabase:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genelendatabase:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genelendatabase/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genelendatabase/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genelendatabase/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genelendatabase/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

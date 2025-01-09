@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowpeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowpeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowpeaks/container.yaml"
-updated_at: "2025-01-08 07:07:05.223248"
-latest: "1.48.0--r43h7c4fd5e_2"
+updated_at: "2025-01-09 03:55:06.765653"
+latest: "1.52.0--r44h310a8c3_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowpeaks"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.46.0--r43h7c4fd5e_0"
  - "1.48.0--r43h7c4fd5e_0"
  - "1.48.0--r43h7c4fd5e_2"
+ - "1.52.0--r44h310a8c3_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowpeaks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowpeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowpeaks", "latest": {"1.48.0--r43h7c4fd5e_2": "sha256:a524a6cf9d947a9bce03301af4026c335cb29c592ca9ea97bb8dac7ffebe44f7"}, "tags": {"1.40.0--r41hd4b0f26_3": "sha256:c70678760e26f13209281686175015c3dd2f8aa6bc155840984ddd88915bf57c", "1.44.0--r42hd4b0f26_0": "sha256:daeeeb47c13c7a8893efb42822c0a120bde01109b789b6e4e7a235a4e5ba1406", "1.44.0--r42h7c4fd5e_2": "sha256:b4710f6f27ff5f8fb20790a98aa838d07c812e671dd596e4ea85260fd2fc9d88", "1.46.0--r43h7c4fd5e_0": "sha256:57f1798bac0400c09f3e09123877e93046c3d311b63bf30d2a17a6f698df33bf", "1.48.0--r43h7c4fd5e_0": "sha256:1964fa38d22a9e48c0a48c3a2a0313c960a022a1755244e11cb80a77616c395e", "1.48.0--r43h7c4fd5e_2": "sha256:a524a6cf9d947a9bce03301af4026c335cb29c592ca9ea97bb8dac7ffebe44f7"}, "docker": "quay.io/biocontainers/bioconductor-flowpeaks"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowpeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowpeaks", "latest": {"1.52.0--r44h310a8c3_0": "sha256:e2a5576c4702148ad769c6a17052dd7a04afe6ec666912ae1f16d02b36449440"}, "tags": {"1.40.0--r41hd4b0f26_3": "sha256:c70678760e26f13209281686175015c3dd2f8aa6bc155840984ddd88915bf57c", "1.44.0--r42hd4b0f26_0": "sha256:daeeeb47c13c7a8893efb42822c0a120bde01109b789b6e4e7a235a4e5ba1406", "1.44.0--r42h7c4fd5e_2": "sha256:b4710f6f27ff5f8fb20790a98aa838d07c812e671dd596e4ea85260fd2fc9d88", "1.46.0--r43h7c4fd5e_0": "sha256:57f1798bac0400c09f3e09123877e93046c3d311b63bf30d2a17a6f698df33bf", "1.48.0--r43h7c4fd5e_0": "sha256:1964fa38d22a9e48c0a48c3a2a0313c960a022a1755244e11cb80a77616c395e", "1.48.0--r43h7c4fd5e_2": "sha256:a524a6cf9d947a9bce03301af4026c335cb29c592ca9ea97bb8dac7ffebe44f7", "1.52.0--r44h310a8c3_0": "sha256:e2a5576c4702148ad769c6a17052dd7a04afe6ec666912ae1f16d02b36449440"}, "docker": "quay.io/biocontainers/bioconductor-flowpeaks"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowpeaks.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowpeaks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowpeaks:1.48.0--r43h7c4fd5e_2
+$ shpc install quay.io/biocontainers/bioconductor-flowpeaks:1.52.0--r44h310a8c3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowpeaks/1.48.0--r43h7c4fd5e_2
-$ module help quay.io/biocontainers/bioconductor-flowpeaks/1.48.0--r43h7c4fd5e_2
+$ module load quay.io/biocontainers/bioconductor-flowpeaks/1.52.0--r44h310a8c3_0
+$ module help quay.io/biocontainers/bioconductor-flowpeaks/1.52.0--r44h310a8c3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

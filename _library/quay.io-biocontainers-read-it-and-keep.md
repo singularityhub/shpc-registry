@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/read-it-and-keep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/read-it-and-keep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/read-it-and-keep/container.yaml"
-updated_at: "2025-01-08 06:45:51.750867"
-latest: "0.3.0--h43eeafb_2"
+updated_at: "2025-01-09 03:34:19.832890"
+latest: "0.3.0--h5ca1c30_3"
 container_url: "https://biocontainers.pro/tools/read-it-and-keep"
 aliases:
  - "readItAndKeep"
 versions:
  - "0.3.0--h5b5514e_0"
  - "0.3.0--h43eeafb_2"
+ - "0.3.0--h5ca1c30_3"
 description: "shpc-registry automated BioContainers addition for read-it-and-keep"
-config: {"url": "https://biocontainers.pro/tools/read-it-and-keep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for read-it-and-keep", "latest": {"0.3.0--h43eeafb_2": "sha256:95b0c1cc513ae19ba9709bd0d35f0f40183a76854029591a18222b55a3b99044"}, "tags": {"0.3.0--h5b5514e_0": "sha256:124bf5498e453a898d5754c57d494c0adc9351d1b8652a00b84f8954ef807a3d", "0.3.0--h43eeafb_2": "sha256:95b0c1cc513ae19ba9709bd0d35f0f40183a76854029591a18222b55a3b99044"}, "docker": "quay.io/biocontainers/read-it-and-keep", "aliases": {"readItAndKeep": "/usr/local/bin/readItAndKeep"}}
+config: {"url": "https://biocontainers.pro/tools/read-it-and-keep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for read-it-and-keep", "latest": {"0.3.0--h5ca1c30_3": "sha256:599a0a2227c39c04562eb74c1693a92117d193eb5eafcb667573f31ac1e3fe4c"}, "tags": {"0.3.0--h5b5514e_0": "sha256:124bf5498e453a898d5754c57d494c0adc9351d1b8652a00b84f8954ef807a3d", "0.3.0--h43eeafb_2": "sha256:95b0c1cc513ae19ba9709bd0d35f0f40183a76854029591a18222b55a3b99044", "0.3.0--h5ca1c30_3": "sha256:599a0a2227c39c04562eb74c1693a92117d193eb5eafcb667573f31ac1e3fe4c"}, "docker": "quay.io/biocontainers/read-it-and-keep", "aliases": {"readItAndKeep": "/usr/local/bin/readItAndKeep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/read-it-and-keep.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/read-it-and-keep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/read-it-and-keep:0.3.0--h43eeafb_2
+$ shpc install quay.io/biocontainers/read-it-and-keep:0.3.0--h5ca1c30_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/read-it-and-keep/0.3.0--h43eeafb_2
-$ module help quay.io/biocontainers/read-it-and-keep/0.3.0--h43eeafb_2
+$ module load quay.io/biocontainers/read-it-and-keep/0.3.0--h5ca1c30_3
+$ module help quay.io/biocontainers/read-it-and-keep/0.3.0--h5ca1c30_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

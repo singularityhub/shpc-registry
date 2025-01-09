@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-batchqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-batchqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-batchqc/container.yaml"
-updated_at: "2025-01-08 06:30:53.702463"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:19:29.844277"
+latest: "2.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-batchqc"
 aliases:
  - "pandoc-citeproc"
@@ -22,8 +22,9 @@ versions:
  - "1.26.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "2.2.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-batchqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-batchqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-batchqc", "latest": {"1.30.0--r43hdfd78af_0": "sha256:5daec6ea50ee7e4431da215980cf53060d52c1b588366756ce41cb5979f1faf7"}, "tags": {"1.8.1--r341_0": "sha256:7510e86c5fe4b948f675c3d72684a8f822640fbf66e2482798b3435cb297a4d6", "1.22.0--r41hdfd78af_0": "sha256:2aab3e97b6fd52d50ebaf54e25e27fe559c9e8aba2d7d5264c5102b57d3fa81b", "1.20.0--r41hdfd78af_0": "sha256:f9de4d493be98a61e1506a44fa85617808844d12e33540c078879ccebdec2a39", "1.18.0--r40hdfd78af_1": "sha256:2e36c9adfb19e53d748fd5c38afcc2611126933059f367dabcb48058d4aad4df", "1.16.0--r40_0": "sha256:b63f47ef0f9718439e4e9958d0f080ebbcdb8a3390eb76b51152485daad2541d", "1.14.0--r36_0": "sha256:c192a969dcff99375318e997928e8996c1ae1589eece1588205e7bce7441e01e", "1.26.0--r42hdfd78af_0": "sha256:7bfda4d1528ebe90b50c20b31251bed6544867bc24ae4947879b2975c03cad27", "1.28.0--r43hdfd78af_0": "sha256:c522f53a5f7b10bb3f60a0435e70257f831f7e98990f4e768463950728d96ff0", "1.30.0--r43hdfd78af_0": "sha256:5daec6ea50ee7e4431da215980cf53060d52c1b588366756ce41cb5979f1faf7"}, "docker": "quay.io/biocontainers/bioconductor-batchqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-batchqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-batchqc", "latest": {"2.2.0--r44hdfd78af_0": "sha256:bb3f581b1134076d1e0509ad1cfb532a0cd94721347ccc14b1c10205ff9158ef"}, "tags": {"1.8.1--r341_0": "sha256:7510e86c5fe4b948f675c3d72684a8f822640fbf66e2482798b3435cb297a4d6", "1.22.0--r41hdfd78af_0": "sha256:2aab3e97b6fd52d50ebaf54e25e27fe559c9e8aba2d7d5264c5102b57d3fa81b", "1.20.0--r41hdfd78af_0": "sha256:f9de4d493be98a61e1506a44fa85617808844d12e33540c078879ccebdec2a39", "1.18.0--r40hdfd78af_1": "sha256:2e36c9adfb19e53d748fd5c38afcc2611126933059f367dabcb48058d4aad4df", "1.16.0--r40_0": "sha256:b63f47ef0f9718439e4e9958d0f080ebbcdb8a3390eb76b51152485daad2541d", "1.14.0--r36_0": "sha256:c192a969dcff99375318e997928e8996c1ae1589eece1588205e7bce7441e01e", "1.26.0--r42hdfd78af_0": "sha256:7bfda4d1528ebe90b50c20b31251bed6544867bc24ae4947879b2975c03cad27", "1.28.0--r43hdfd78af_0": "sha256:c522f53a5f7b10bb3f60a0435e70257f831f7e98990f4e768463950728d96ff0", "1.30.0--r43hdfd78af_0": "sha256:5daec6ea50ee7e4431da215980cf53060d52c1b588366756ce41cb5979f1faf7", "2.2.0--r44hdfd78af_0": "sha256:bb3f581b1134076d1e0509ad1cfb532a0cd94721347ccc14b1c10205ff9158ef"}, "docker": "quay.io/biocontainers/bioconductor-batchqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-batchqc.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-batchqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-batchqc:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-batchqc:2.2.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-batchqc/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-batchqc/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-batchqc/2.2.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-batchqc/2.2.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

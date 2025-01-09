@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cexor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
-updated_at: "2025-01-08 06:36:37.332355"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:25:07.915920"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cexor"
 aliases:
  - "pngcp"
@@ -25,8 +25,9 @@ versions:
  - "1.24.0--r36_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cexor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cexor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cexor", "latest": {"1.40.0--r43hdfd78af_0": "sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d"}, "tags": {"1.8.0--0": "sha256:7ae73aab2091888b7a0076e175799a865cd3c3220b1f3dd89b6616ec76d82086", "1.36.0--r42hdfd78af_0": "sha256:cab1466e1e9d385cbd4b48a15577a8d24a063a0ed17f49e5292d63ea7d8def5d", "1.32.0--r41hdfd78af_0": "sha256:27e0f57cf3764c57ba0caf27c95a1acacfe29d0f9e668d079f600981906ddb4e", "1.28.0--r40hdfd78af_1": "sha256:782b6981faaa4fb5200284f3f740792cf1a377fb02e0c36cee87802467b6b20a", "1.26.0--r40_0": "sha256:7624b5ce44868ba6bdd465e70390b172bdddd72d72dbf565f7dd1a6a2cb34a50", "1.24.0--r36_0": "sha256:b4a6d7e4c8cfc3cbacab430aae31fb0c03dd6515a0bca942cbf89a2374c93cf1", "1.38.0--r43hdfd78af_0": "sha256:a70d360219c22ba9d79fd08c4befe43faa55aeea1415b501018858691fcb0ae4", "1.40.0--r43hdfd78af_0": "sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d"}, "docker": "quay.io/biocontainers/bioconductor-cexor", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cexor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cexor", "latest": {"1.44.0--r44hdfd78af_0": "sha256:5defc8293229d86eaf9dd2f3f706a1efe0c683e7d0d29fd61e87e4382946fa95"}, "tags": {"1.8.0--0": "sha256:7ae73aab2091888b7a0076e175799a865cd3c3220b1f3dd89b6616ec76d82086", "1.36.0--r42hdfd78af_0": "sha256:cab1466e1e9d385cbd4b48a15577a8d24a063a0ed17f49e5292d63ea7d8def5d", "1.32.0--r41hdfd78af_0": "sha256:27e0f57cf3764c57ba0caf27c95a1acacfe29d0f9e668d079f600981906ddb4e", "1.28.0--r40hdfd78af_1": "sha256:782b6981faaa4fb5200284f3f740792cf1a377fb02e0c36cee87802467b6b20a", "1.26.0--r40_0": "sha256:7624b5ce44868ba6bdd465e70390b172bdddd72d72dbf565f7dd1a6a2cb34a50", "1.24.0--r36_0": "sha256:b4a6d7e4c8cfc3cbacab430aae31fb0c03dd6515a0bca942cbf89a2374c93cf1", "1.38.0--r43hdfd78af_0": "sha256:a70d360219c22ba9d79fd08c4befe43faa55aeea1415b501018858691fcb0ae4", "1.40.0--r43hdfd78af_0": "sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d", "1.44.0--r44hdfd78af_0": "sha256:5defc8293229d86eaf9dd2f3f706a1efe0c683e7d0d29fd61e87e4382946fa95"}, "docker": "quay.io/biocontainers/bioconductor-cexor", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cexor.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cexor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cexor:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cexor:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cexor/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cexor/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cexor/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cexor/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

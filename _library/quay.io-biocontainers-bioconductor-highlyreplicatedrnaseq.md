@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/container.yaml"
-updated_at: "2025-01-08 06:46:01.452217"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:34:29.413000"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-highlyreplicatedrnaseq"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-highlyreplicatedrnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-highlyreplicatedrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-highlyreplicatedrnaseq", "latest": {"1.14.0--r43hdfd78af_0": "sha256:b9a38093a2cfdf057c5542033d472f3060a51d21b2f8c9330658d40523495342"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:f03fcb94608134d2ec0df151879bafb60eaa6078418b3265bafb6b2819cbb35b", "1.10.0--r42hdfd78af_0": "sha256:89234c675b7ecd0cc3484a45166912cfa79a3a99b690211c8c0eedbf4971596c", "1.12.0--r43hdfd78af_0": "sha256:651b20f1a57d4b78cff7703f3ace8d02cd971896154c6f1a17d16faabce24218", "1.14.0--r43hdfd78af_0": "sha256:b9a38093a2cfdf057c5542033d472f3060a51d21b2f8c9330658d40523495342"}, "docker": "quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-highlyreplicatedrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-highlyreplicatedrnaseq", "latest": {"1.18.0--r44hdfd78af_0": "sha256:8604bf56e83d0f44a4a19dcc963daee7e5caea258c69d798576f3334877fc56d"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:f03fcb94608134d2ec0df151879bafb60eaa6078418b3265bafb6b2819cbb35b", "1.10.0--r42hdfd78af_0": "sha256:89234c675b7ecd0cc3484a45166912cfa79a3a99b690211c8c0eedbf4971596c", "1.12.0--r43hdfd78af_0": "sha256:651b20f1a57d4b78cff7703f3ace8d02cd971896154c6f1a17d16faabce24218", "1.14.0--r43hdfd78af_0": "sha256:b9a38093a2cfdf057c5542033d472f3060a51d21b2f8c9330658d40523495342", "1.18.0--r44hdfd78af_0": "sha256:8604bf56e83d0f44a4a19dcc963daee7e5caea258c69d798576f3334877fc56d"}, "docker": "quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

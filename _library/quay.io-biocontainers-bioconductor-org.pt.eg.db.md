@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.pt.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.pt.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.pt.eg.db/container.yaml"
-updated_at: "2025-01-08 06:46:27.639718"
-latest: "3.18.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:34:54.575508"
+latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.pt.eg.db"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "3.11.1--r40_0"
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
+ - "3.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.pt.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pt.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pt.eg.db", "latest": {"3.18.0--r43hdfd78af_0": "sha256:40e5edc2869baa5c0942fd46ca43d395179058d6b4f049de15a6ef366991541b"}, "tags": {"3.8.2--r36_1": "sha256:4f8701a374d2af32bde72a93b9c52391a2b320bf534aefdfff724fe9dceccef3", "3.16.0--r42hdfd78af_0": "sha256:af827f557d1cf6978bac7071434ddf2c2a57609b5a4a93de42de503755fd5876", "3.14.0--r41hdfd78af_1": "sha256:fc96ee0e1df81ffd659b35e4df12ca8f07f7eb234d335be25811889d64f58b14", "3.13.0--r41hdfd78af_0": "sha256:a3b7cbd553eae9fb9ac1f4bda182143ea170c84dc1e6b3632ff2c55383f6ce71", "3.12.0--r40hdfd78af_1": "sha256:0e63baf64c69844738b7871bcad9694502d3e0bf16bfe50901ed846fc6824b02", "3.11.1--r40_0": "sha256:0ddbff15554bf5fb189ab30d457fb8f6a0245055b31dbf65e22ab3bbd93c34e7", "3.17.0--r43hdfd78af_0": "sha256:43e8f7479a14e33dc6ad57a4a12dd7ba0ee7456d5f9ef6e0d454533234ca54fb", "3.18.0--r43hdfd78af_0": "sha256:40e5edc2869baa5c0942fd46ca43d395179058d6b4f049de15a6ef366991541b"}, "docker": "quay.io/biocontainers/bioconductor-org.pt.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pt.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pt.eg.db", "latest": {"3.20.0--r44hdfd78af_0": "sha256:11cc5c884661f20f7202be36b05726cea6787b356395cbfb5878a291f97fa024"}, "tags": {"3.8.2--r36_1": "sha256:4f8701a374d2af32bde72a93b9c52391a2b320bf534aefdfff724fe9dceccef3", "3.16.0--r42hdfd78af_0": "sha256:af827f557d1cf6978bac7071434ddf2c2a57609b5a4a93de42de503755fd5876", "3.14.0--r41hdfd78af_1": "sha256:fc96ee0e1df81ffd659b35e4df12ca8f07f7eb234d335be25811889d64f58b14", "3.13.0--r41hdfd78af_0": "sha256:a3b7cbd553eae9fb9ac1f4bda182143ea170c84dc1e6b3632ff2c55383f6ce71", "3.12.0--r40hdfd78af_1": "sha256:0e63baf64c69844738b7871bcad9694502d3e0bf16bfe50901ed846fc6824b02", "3.11.1--r40_0": "sha256:0ddbff15554bf5fb189ab30d457fb8f6a0245055b31dbf65e22ab3bbd93c34e7", "3.17.0--r43hdfd78af_0": "sha256:43e8f7479a14e33dc6ad57a4a12dd7ba0ee7456d5f9ef6e0d454533234ca54fb", "3.18.0--r43hdfd78af_0": "sha256:40e5edc2869baa5c0942fd46ca43d395179058d6b4f049de15a6ef366991541b", "3.20.0--r44hdfd78af_0": "sha256:11cc5c884661f20f7202be36b05726cea6787b356395cbfb5878a291f97fa024"}, "docker": "quay.io/biocontainers/bioconductor-org.pt.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.pt.eg.db.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.pt.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.pt.eg.db:3.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-org.pt.eg.db:3.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.pt.eg.db/3.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-org.pt.eg.db/3.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-org.pt.eg.db/3.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-org.pt.eg.db/3.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

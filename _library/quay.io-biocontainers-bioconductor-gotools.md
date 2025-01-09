@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gotools/container.yaml"
-updated_at: "2025-01-08 06:50:49.254854"
-latest: "1.76.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:39:11.023927"
+latest: "1.80.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gotools"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.72.0--r42hdfd78af_0"
  - "1.74.0--r43hdfd78af_0"
  - "1.76.0--r43hdfd78af_0"
+ - "1.80.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gotools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gotools", "latest": {"1.76.0--r43hdfd78af_0": "sha256:656d609494706cb44a38465db4ef41bd07d975ee3af9d6c0d2cd9afbde6ba9bf"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:d967fc8b1b3eab8964f35b55dfe2ea7200c6814f04620642ca4caae25e7a50c5", "1.72.0--r42hdfd78af_0": "sha256:c1760931424192f47535f89191bd5327b377103534d53c063dd1f0d1b6f04b0d", "1.74.0--r43hdfd78af_0": "sha256:1c47a58c67eb863af0238a0797c4272554642fd39faebcbc136bf6170346493b", "1.76.0--r43hdfd78af_0": "sha256:656d609494706cb44a38465db4ef41bd07d975ee3af9d6c0d2cd9afbde6ba9bf"}, "docker": "quay.io/biocontainers/bioconductor-gotools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gotools", "latest": {"1.80.0--r44hdfd78af_0": "sha256:73dbc4fe55abd0be4e3fd195f9170c9ca099a58b6835baebd133da92f1c9f1b0"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:d967fc8b1b3eab8964f35b55dfe2ea7200c6814f04620642ca4caae25e7a50c5", "1.72.0--r42hdfd78af_0": "sha256:c1760931424192f47535f89191bd5327b377103534d53c063dd1f0d1b6f04b0d", "1.74.0--r43hdfd78af_0": "sha256:1c47a58c67eb863af0238a0797c4272554642fd39faebcbc136bf6170346493b", "1.76.0--r43hdfd78af_0": "sha256:656d609494706cb44a38465db4ef41bd07d975ee3af9d6c0d2cd9afbde6ba9bf", "1.80.0--r44hdfd78af_0": "sha256:73dbc4fe55abd0be4e3fd195f9170c9ca099a58b6835baebd133da92f1c9f1b0"}, "docker": "quay.io/biocontainers/bioconductor-gotools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gotools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gotools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gotools:1.76.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gotools:1.80.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gotools/1.76.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gotools/1.76.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gotools/1.80.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gotools/1.80.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimizers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimizers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimizers/container.yaml"
-updated_at: "2025-01-08 07:07:28.051962"
+updated_at: "2025-01-09 03:55:29.533517"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/minimizers"
 aliases:

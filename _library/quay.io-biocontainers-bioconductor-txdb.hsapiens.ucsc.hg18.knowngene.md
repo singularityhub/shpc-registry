@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
-updated_at: "2025-01-08 06:59:14.346556"
-latest: "3.2.2--r43hdfd78af_16"
+updated_at: "2025-01-09 03:47:26.411825"
+latest: "3.2.2--r44hdfd78af_17"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "3.2.2--r42hdfd78af_14"
  - "3.2.2--r43hdfd78af_15"
  - "3.2.2--r43hdfd78af_16"
+ - "3.2.2--r44hdfd78af_17"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r43hdfd78af_16": "sha256:d80d74586053a9ed73c60e6735aab65dcb7ba1d8c653d03d2ca71c4c8f468c09"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32", "3.2.2--r42hdfd78af_14": "sha256:9c4841299fd129d265a411b3d6831c559a8119a8aa2ca1256bc8aae3035f31b6", "3.2.2--r43hdfd78af_15": "sha256:d7a33ab04d6decf72ad215ee70ce55b229e523f89474ef9e08966d16d45e8df6", "3.2.2--r43hdfd78af_16": "sha256:d80d74586053a9ed73c60e6735aab65dcb7ba1d8c653d03d2ca71c4c8f468c09"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r44hdfd78af_17": "sha256:efd33e8394bf113c6c09651f220d13bc11b3f044c42637935e638376c81ac4ef"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32", "3.2.2--r42hdfd78af_14": "sha256:9c4841299fd129d265a411b3d6831c559a8119a8aa2ca1256bc8aae3035f31b6", "3.2.2--r43hdfd78af_15": "sha256:d7a33ab04d6decf72ad215ee70ce55b229e523f89474ef9e08966d16d45e8df6", "3.2.2--r43hdfd78af_16": "sha256:d80d74586053a9ed73c60e6735aab65dcb7ba1d8c653d03d2ca71c4c8f468c09", "3.2.2--r44hdfd78af_17": "sha256:efd33e8394bf113c6c09651f220d13bc11b3f044c42637935e638376c81ac4ef"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene:3.2.2--r43hdfd78af_16
+$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene:3.2.2--r44hdfd78af_17
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r43hdfd78af_16
-$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r43hdfd78af_16
+$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r44hdfd78af_17
+$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r44hdfd78af_17
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

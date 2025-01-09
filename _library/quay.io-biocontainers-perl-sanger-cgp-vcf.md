@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-vcf/container.yaml"
-updated_at: "2025-01-08 06:45:50.889506"
-latest: "2.2.1--pl5321h031d066_9"
+updated_at: "2025-01-09 03:34:18.990487"
+latest: "2.2.1--pl5321h7b50bb2_10"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-vcf"
 aliases:
  - "cgpAppendIdsToVcf.pl"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "2.2.1--pl5321hec16e2b_8"
  - "2.2.1--pl5321h031d066_9"
+ - "2.2.1--pl5321h7b50bb2_10"
 description: "shpc-registry automated BioContainers addition for perl-sanger-cgp-vcf"
-config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-vcf", "latest": {"2.2.1--pl5321h031d066_9": "sha256:d0215f1e28aecb4ee2c485ee361cf83b2952470613222f88791131ea478a9888"}, "tags": {"2.2.1--pl5321hec16e2b_8": "sha256:238013390bcedc5c200dbc28c6a26557fd9a0ef7a3c4025169987366c07b8f92", "2.2.1--pl5321h031d066_9": "sha256:d0215f1e28aecb4ee2c485ee361cf83b2952470613222f88791131ea478a9888"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-vcf", "aliases": {"cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-vcf", "latest": {"2.2.1--pl5321h7b50bb2_10": "sha256:357ffbdf309116c9b27da06deb2dc47fb7d8abb1381374b23eed595ae15542b0"}, "tags": {"2.2.1--pl5321hec16e2b_8": "sha256:238013390bcedc5c200dbc28c6a26557fd9a0ef7a3c4025169987366c07b8f92", "2.2.1--pl5321h031d066_9": "sha256:d0215f1e28aecb4ee2c485ee361cf83b2952470613222f88791131ea478a9888", "2.2.1--pl5321h7b50bb2_10": "sha256:357ffbdf309116c9b27da06deb2dc47fb7d8abb1381374b23eed595ae15542b0"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-vcf", "aliases": {"cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sanger-cgp-vcf.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/perl-sanger-cgp-vcf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sanger-cgp-vcf:2.2.1--pl5321h031d066_9
+$ shpc install quay.io/biocontainers/perl-sanger-cgp-vcf:2.2.1--pl5321h7b50bb2_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sanger-cgp-vcf/2.2.1--pl5321h031d066_9
-$ module help quay.io/biocontainers/perl-sanger-cgp-vcf/2.2.1--pl5321h031d066_9
+$ module load quay.io/biocontainers/perl-sanger-cgp-vcf/2.2.1--pl5321h7b50bb2_10
+$ module help quay.io/biocontainers/perl-sanger-cgp-vcf/2.2.1--pl5321h7b50bb2_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

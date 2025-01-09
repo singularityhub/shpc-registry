@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyrle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrle/container.yaml"
-updated_at: "2025-01-08 06:45:59.730192"
-latest: "0.0.40--py38h0020b31_1"
+updated_at: "2025-01-09 03:34:27.734023"
+latest: "0.0.40--py311haab0aaa_2"
 container_url: "https://biocontainers.pro/tools/pyrle"
 aliases:
  - "tabulate"
@@ -24,8 +24,9 @@ versions:
  - "0.0.39--py39hf95cd2a_0"
  - "0.0.40--py310h4b81fae_0"
  - "0.0.40--py38h0020b31_1"
+ - "0.0.40--py311haab0aaa_2"
 description: "shpc-registry automated BioContainers addition for pyrle"
-config: {"url": "https://biocontainers.pro/tools/pyrle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrle", "latest": {"0.0.40--py38h0020b31_1": "sha256:fa0fbf0d73421ccaaddb15075b63b87d6d7be0c2b13862e525399241668dbdcf"}, "tags": {"0.0.35--py36h91eb985_1": "sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a", "0.0.36--py37h8902056_0": "sha256:6359d9b31596b21bfdace09db2c3768dc143421a16b2e4044307fdbc751dd358", "0.0.39--py39hf95cd2a_0": "sha256:248d0513055866749125f04855d54406dbca877ce978ebe9663a09a5cd323049", "0.0.40--py310h4b81fae_0": "sha256:9fd9e404d9f95153441803a4436574d8b6bb6b24bf32bdb1456195a3bfe09a5a", "0.0.40--py38h0020b31_1": "sha256:fa0fbf0d73421ccaaddb15075b63b87d6d7be0c2b13862e525399241668dbdcf"}, "docker": "quay.io/biocontainers/pyrle", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyrle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrle", "latest": {"0.0.40--py311haab0aaa_2": "sha256:96ba83ec09f2754fa8dc8c25d653489e86645c2f3ab5bd3778e84adf79ccf113"}, "tags": {"0.0.35--py36h91eb985_1": "sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a", "0.0.36--py37h8902056_0": "sha256:6359d9b31596b21bfdace09db2c3768dc143421a16b2e4044307fdbc751dd358", "0.0.39--py39hf95cd2a_0": "sha256:248d0513055866749125f04855d54406dbca877ce978ebe9663a09a5cd323049", "0.0.40--py310h4b81fae_0": "sha256:9fd9e404d9f95153441803a4436574d8b6bb6b24bf32bdb1456195a3bfe09a5a", "0.0.40--py38h0020b31_1": "sha256:fa0fbf0d73421ccaaddb15075b63b87d6d7be0c2b13862e525399241668dbdcf", "0.0.40--py311haab0aaa_2": "sha256:96ba83ec09f2754fa8dc8c25d653489e86645c2f3ab5bd3778e84adf79ccf113"}, "docker": "quay.io/biocontainers/pyrle", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrle.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pyrle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyrle:0.0.40--py38h0020b31_1
+$ shpc install quay.io/biocontainers/pyrle:0.0.40--py311haab0aaa_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyrle/0.0.40--py38h0020b31_1
-$ module help quay.io/biocontainers/pyrle/0.0.40--py38h0020b31_1
+$ module load quay.io/biocontainers/pyrle/0.0.40--py311haab0aaa_2
+$ module help quay.io/biocontainers/pyrle/0.0.40--py311haab0aaa_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

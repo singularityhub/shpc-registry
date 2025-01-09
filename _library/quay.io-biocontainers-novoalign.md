@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/novoalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoalign/container.yaml"
-updated_at: "2025-01-08 06:50:16.818604"
-latest: "4.03.04--h43eeafb_3"
+updated_at: "2025-01-09 03:38:39.364540"
+latest: "4.03.04--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/novoalign"
 aliases:
  - "IONTorrent.R"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "4.03.04--h5b5514e_1"
  - "4.03.04--h43eeafb_3"
+ - "4.03.04--h5ca1c30_4"
 description: "shpc-registry automated BioContainers addition for novoalign"
-config: {"url": "https://biocontainers.pro/tools/novoalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoalign", "latest": {"4.03.04--h43eeafb_3": "sha256:975866a89e6ab0c3ba5a222e4455d0a5c9b5966185eb0040a3af7b1a1f2510b5"}, "tags": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed", "4.03.04--h43eeafb_3": "sha256:975866a89e6ab0c3ba5a222e4455d0a5c9b5966185eb0040a3af7b1a1f2510b5"}, "docker": "quay.io/biocontainers/novoalign", "aliases": {"IONTorrent.R": "/usr/local/bin/IONTorrent.R", "installpackages.R": "/usr/local/bin/installpackages.R", "irqtop": "/usr/local/bin/irqtop", "isnovoindex": "/usr/local/bin/isnovoindex", "lsirq": "/usr/local/bin/lsirq", "novo2maq": "/usr/local/bin/novo2maq", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novolrcleaver": "/usr/local/bin/novolrcleaver", "novolrcorrector": "/usr/local/bin/novolrcorrector", "novolrpolish": "/usr/local/bin/novolrpolish", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "qcalplot.R": "/usr/local/bin/qcalplot.R", "rrbsreference": "/usr/local/bin/rrbsreference", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
+config: {"url": "https://biocontainers.pro/tools/novoalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoalign", "latest": {"4.03.04--h5ca1c30_4": "sha256:95db3061b1b57e46b41953736b59be2921c8f8dfc681889cf250912aa511da7b"}, "tags": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed", "4.03.04--h43eeafb_3": "sha256:975866a89e6ab0c3ba5a222e4455d0a5c9b5966185eb0040a3af7b1a1f2510b5", "4.03.04--h5ca1c30_4": "sha256:95db3061b1b57e46b41953736b59be2921c8f8dfc681889cf250912aa511da7b"}, "docker": "quay.io/biocontainers/novoalign", "aliases": {"IONTorrent.R": "/usr/local/bin/IONTorrent.R", "installpackages.R": "/usr/local/bin/installpackages.R", "irqtop": "/usr/local/bin/irqtop", "isnovoindex": "/usr/local/bin/isnovoindex", "lsirq": "/usr/local/bin/lsirq", "novo2maq": "/usr/local/bin/novo2maq", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novolrcleaver": "/usr/local/bin/novolrcleaver", "novolrcorrector": "/usr/local/bin/novolrcorrector", "novolrpolish": "/usr/local/bin/novolrpolish", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "qcalplot.R": "/usr/local/bin/qcalplot.R", "rrbsreference": "/usr/local/bin/rrbsreference", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novoalign.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/novoalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/novoalign:4.03.04--h43eeafb_3
+$ shpc install quay.io/biocontainers/novoalign:4.03.04--h5ca1c30_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/novoalign/4.03.04--h43eeafb_3
-$ module help quay.io/biocontainers/novoalign/4.03.04--h43eeafb_3
+$ module load quay.io/biocontainers/novoalign/4.03.04--h5ca1c30_4
+$ module help quay.io/biocontainers/novoalign/4.03.04--h5ca1c30_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dashing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dashing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dashing/container.yaml"
-updated_at: "2025-01-08 06:27:42.564657"
-latest: "1.0--h40c17d1_2"
+updated_at: "2025-01-09 03:16:23.659447"
+latest: "1.0--h5b0a936_3"
 container_url: "https://biocontainers.pro/tools/dashing"
 aliases:
  - "dashing"
 versions:
  - "1.0--hfb1f815_0"
  - "1.0--h40c17d1_2"
+ - "1.0--h5b0a936_3"
 description: "shpc-registry automated BioContainers addition for dashing"
-config: {"url": "https://biocontainers.pro/tools/dashing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dashing", "latest": {"1.0--h40c17d1_2": "sha256:45bd9d1a9be72f433438416c5deea42ccdfe018abeb205c73b1a0407cd58d28c"}, "tags": {"1.0--hfb1f815_0": "sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d", "1.0--h40c17d1_2": "sha256:45bd9d1a9be72f433438416c5deea42ccdfe018abeb205c73b1a0407cd58d28c"}, "docker": "quay.io/biocontainers/dashing", "aliases": {"dashing": "/usr/local/bin/dashing"}}
+config: {"url": "https://biocontainers.pro/tools/dashing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dashing", "latest": {"1.0--h5b0a936_3": "sha256:e12e79953f98ef656a1ce13f6032192acbdc1a28125820e2507bba6400e52819"}, "tags": {"1.0--hfb1f815_0": "sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d", "1.0--h40c17d1_2": "sha256:45bd9d1a9be72f433438416c5deea42ccdfe018abeb205c73b1a0407cd58d28c", "1.0--h5b0a936_3": "sha256:e12e79953f98ef656a1ce13f6032192acbdc1a28125820e2507bba6400e52819"}, "docker": "quay.io/biocontainers/dashing", "aliases": {"dashing": "/usr/local/bin/dashing"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dashing.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dashing
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dashing:1.0--h40c17d1_2
+$ shpc install quay.io/biocontainers/dashing:1.0--h5b0a936_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dashing/1.0--h40c17d1_2
-$ module help quay.io/biocontainers/dashing/1.0--h40c17d1_2
+$ module load quay.io/biocontainers/dashing/1.0--h5b0a936_3
+$ module help quay.io/biocontainers/dashing/1.0--h5b0a936_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

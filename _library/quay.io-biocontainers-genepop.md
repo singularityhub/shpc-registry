@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/genepop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genepop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genepop/container.yaml"
-updated_at: "2025-01-08 06:43:13.763386"
-latest: "4.8.2--h4ac6f70_0"
+updated_at: "2025-01-09 03:31:42.510851"
+latest: "4.8.2--h9948957_1"
 container_url: "https://biocontainers.pro/tools/genepop"
 aliases:
  - "Genepop"
 versions:
  - "4.6--0"
  - "4.8.2--h4ac6f70_0"
+ - "4.8.2--h9948957_1"
 description: "shpc-registry automated BioContainers addition for genepop"
-config: {"url": "https://biocontainers.pro/tools/genepop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepop", "latest": {"4.8.2--h4ac6f70_0": "sha256:573a07924c3e5335b1fea0b3301b7c8455a05e92d5cfe743634e9034037cf07c"}, "tags": {"4.6--0": "sha256:90ac36bfcb0882aadc7e365fb540549208fa094e0d23c401ded112c59c5a89bc", "4.8.2--h4ac6f70_0": "sha256:573a07924c3e5335b1fea0b3301b7c8455a05e92d5cfe743634e9034037cf07c"}, "docker": "quay.io/biocontainers/genepop", "aliases": {"Genepop": "/usr/local/bin/Genepop"}}
+config: {"url": "https://biocontainers.pro/tools/genepop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepop", "latest": {"4.8.2--h9948957_1": "sha256:b15663add596d5838b315a7fc363823aeb830d5ecfa2e44af6f95808bb9c9db3"}, "tags": {"4.6--0": "sha256:90ac36bfcb0882aadc7e365fb540549208fa094e0d23c401ded112c59c5a89bc", "4.8.2--h4ac6f70_0": "sha256:573a07924c3e5335b1fea0b3301b7c8455a05e92d5cfe743634e9034037cf07c", "4.8.2--h9948957_1": "sha256:b15663add596d5838b315a7fc363823aeb830d5ecfa2e44af6f95808bb9c9db3"}, "docker": "quay.io/biocontainers/genepop", "aliases": {"Genepop": "/usr/local/bin/Genepop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genepop.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/genepop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genepop:4.8.2--h4ac6f70_0
+$ shpc install quay.io/biocontainers/genepop:4.8.2--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genepop/4.8.2--h4ac6f70_0
-$ module help quay.io/biocontainers/genepop/4.8.2--h4ac6f70_0
+$ module load quay.io/biocontainers/genepop/4.8.2--h9948957_1
+$ module help quay.io/biocontainers/genepop/4.8.2--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

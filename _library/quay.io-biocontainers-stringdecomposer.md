@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stringdecomposer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringdecomposer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringdecomposer/container.yaml"
-updated_at: "2025-01-08 06:50:35.202720"
-latest: "1.1.2--py310h84f13bb_3"
+updated_at: "2025-01-09 03:38:57.228029"
+latest: "1.1.2--py310h184ae93_4"
 container_url: "https://biocontainers.pro/tools/stringdecomposer"
 aliases:
  - "stringdecomposer"
@@ -24,8 +24,9 @@ versions:
  - "1.1.2--py310h0dbaff4_2"
  - "1.1.2--py39h1f90b4d_2"
  - "1.1.2--py310h84f13bb_3"
+ - "1.1.2--py310h184ae93_4"
 description: "shpc-registry automated BioContainers addition for stringdecomposer"
-config: {"url": "https://biocontainers.pro/tools/stringdecomposer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringdecomposer", "latest": {"1.1.2--py310h84f13bb_3": "sha256:bc789c2bd52745c4adc7d2b43086abe19677e646a58e5e5f3490a651c2d7ad5b"}, "tags": {"1.1.2--py36h2ad2d48_1": "sha256:35bf0c6868a75eb0b9acf3bbbbc590eee33ce3ca146abb01fa6633fd6b537dfb", "1.1.2--py310h0dbaff4_2": "sha256:0a0ca3b1a6e2c3ece8d2208da42abce5af5968d6ea018b9a310ed00889cc1974", "1.1.2--py39h1f90b4d_2": "sha256:b1ecee97bfb6f6a1258742246cdaca3d1e15721365ccbab783e26fa9e260f840", "1.1.2--py310h84f13bb_3": "sha256:bc789c2bd52745c4adc7d2b43086abe19677e646a58e5e5f3490a651c2d7ad5b"}, "docker": "quay.io/biocontainers/stringdecomposer", "aliases": {"stringdecomposer": "/usr/local/bin/stringdecomposer", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/stringdecomposer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringdecomposer", "latest": {"1.1.2--py310h184ae93_4": "sha256:083ca3b7bafa833cfa9b8d563b77e634b6d3eaa36a8ac2e33325157fa64a8237"}, "tags": {"1.1.2--py36h2ad2d48_1": "sha256:35bf0c6868a75eb0b9acf3bbbbc590eee33ce3ca146abb01fa6633fd6b537dfb", "1.1.2--py310h0dbaff4_2": "sha256:0a0ca3b1a6e2c3ece8d2208da42abce5af5968d6ea018b9a310ed00889cc1974", "1.1.2--py39h1f90b4d_2": "sha256:b1ecee97bfb6f6a1258742246cdaca3d1e15721365ccbab783e26fa9e260f840", "1.1.2--py310h84f13bb_3": "sha256:bc789c2bd52745c4adc7d2b43086abe19677e646a58e5e5f3490a651c2d7ad5b", "1.1.2--py310h184ae93_4": "sha256:083ca3b7bafa833cfa9b8d563b77e634b6d3eaa36a8ac2e33325157fa64a8237"}, "docker": "quay.io/biocontainers/stringdecomposer", "aliases": {"stringdecomposer": "/usr/local/bin/stringdecomposer", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stringdecomposer.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/stringdecomposer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stringdecomposer:1.1.2--py310h84f13bb_3
+$ shpc install quay.io/biocontainers/stringdecomposer:1.1.2--py310h184ae93_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stringdecomposer/1.1.2--py310h84f13bb_3
-$ module help quay.io/biocontainers/stringdecomposer/1.1.2--py310h84f13bb_3
+$ module load quay.io/biocontainers/stringdecomposer/1.1.2--py310h184ae93_4
+$ module help quay.io/biocontainers/stringdecomposer/1.1.2--py310h184ae93_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

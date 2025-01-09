@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dunovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dunovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dunovo/container.yaml"
-updated_at: "2025-01-08 06:27:43.442294"
-latest: "3.0.2--h031d066_3"
+updated_at: "2025-01-09 03:16:24.504701"
+latest: "3.0.2--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/dunovo"
 aliases:
  - "align-families.py"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "3.0.2--hec16e2b_1"
  - "3.0.2--h031d066_3"
+ - "3.0.2--h7b50bb2_4"
 description: "shpc-registry automated BioContainers addition for dunovo"
-config: {"url": "https://biocontainers.pro/tools/dunovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dunovo", "latest": {"3.0.2--h031d066_3": "sha256:4ec1671bcc7dc76d5ce839c2e7293952c901eae3d08ed0b8f6c6d19b8b47e6c3"}, "tags": {"3.0.2--hec16e2b_1": "sha256:70f36252d65e0aa1d8b625e5a2a08ee8637afc4a1cae9c8ee8ed6b14aad2a07d", "3.0.2--h031d066_3": "sha256:4ec1671bcc7dc76d5ce839c2e7293952c901eae3d08ed0b8f6c6d19b8b47e6c3"}, "docker": "quay.io/biocontainers/dunovo", "aliases": {"align-families.py": "/usr/local/bin/align-families.py", "baralign.sh": "/usr/local/bin/baralign.sh", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "consensus.py": "/usr/local/bin/consensus.py", "correct.py": "/usr/local/bin/correct.py", "dunovo.py": "/usr/local/bin/dunovo.py", "dunovo_parsers.py": "/usr/local/bin/dunovo_parsers.py", "file": "/usr/local/bin/file", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "loeb-2.0.sh": "/usr/local/bin/loeb-2.0.sh", "make-barcodes.awk": "/usr/local/bin/make-barcodes.awk", "make-consensi.py": "/usr/local/bin/make-consensi.py", "make-families.sh": "/usr/local/bin/make-families.sh", "parallel_tools.py": "/usr/local/bin/parallel_tools.py", "precheck.py": "/usr/local/bin/precheck.py", "safety-not-guaranteed.py": "/usr/local/bin/safety-not-guaranteed.py", "seqtools.py": "/usr/local/bin/seqtools.py", "shims.py": "/usr/local/bin/shims.py", "trimmer.py": "/usr/local/bin/trimmer.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0"}}
+config: {"url": "https://biocontainers.pro/tools/dunovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dunovo", "latest": {"3.0.2--h7b50bb2_4": "sha256:7686fff5fb9064a2646b947e5220c5c7e1dedd51b35cfbfe75decde672f6f306"}, "tags": {"3.0.2--hec16e2b_1": "sha256:70f36252d65e0aa1d8b625e5a2a08ee8637afc4a1cae9c8ee8ed6b14aad2a07d", "3.0.2--h031d066_3": "sha256:4ec1671bcc7dc76d5ce839c2e7293952c901eae3d08ed0b8f6c6d19b8b47e6c3", "3.0.2--h7b50bb2_4": "sha256:7686fff5fb9064a2646b947e5220c5c7e1dedd51b35cfbfe75decde672f6f306"}, "docker": "quay.io/biocontainers/dunovo", "aliases": {"align-families.py": "/usr/local/bin/align-families.py", "baralign.sh": "/usr/local/bin/baralign.sh", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "consensus.py": "/usr/local/bin/consensus.py", "correct.py": "/usr/local/bin/correct.py", "dunovo.py": "/usr/local/bin/dunovo.py", "dunovo_parsers.py": "/usr/local/bin/dunovo_parsers.py", "file": "/usr/local/bin/file", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "loeb-2.0.sh": "/usr/local/bin/loeb-2.0.sh", "make-barcodes.awk": "/usr/local/bin/make-barcodes.awk", "make-consensi.py": "/usr/local/bin/make-consensi.py", "make-families.sh": "/usr/local/bin/make-families.sh", "parallel_tools.py": "/usr/local/bin/parallel_tools.py", "precheck.py": "/usr/local/bin/precheck.py", "safety-not-guaranteed.py": "/usr/local/bin/safety-not-guaranteed.py", "seqtools.py": "/usr/local/bin/seqtools.py", "shims.py": "/usr/local/bin/shims.py", "trimmer.py": "/usr/local/bin/trimmer.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dunovo.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/dunovo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dunovo:3.0.2--h031d066_3
+$ shpc install quay.io/biocontainers/dunovo:3.0.2--h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dunovo/3.0.2--h031d066_3
-$ module help quay.io/biocontainers/dunovo/3.0.2--h031d066_3
+$ module load quay.io/biocontainers/dunovo/3.0.2--h7b50bb2_4
+$ module help quay.io/biocontainers/dunovo/3.0.2--h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bcellviper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bcellviper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bcellviper/container.yaml"
-updated_at: "2025-01-08 06:35:46.505853"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:24:17.039836"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bcellviper"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bcellviper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bcellviper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bcellviper", "latest": {"1.38.0--r43hdfd78af_0": "sha256:b60132123436c62e3840f79d577be7ded51b0c283f62603e0f062b053b365b21"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a8a979f5220e7eb2ef61d0d4cd6ebf98858ceefdc664194f671a86b366e88356", "1.34.0--r42hdfd78af_0": "sha256:52390641f5268fa4545b1843a965893c2b121f0d661ec92e54cb10c4f55cc28c", "1.36.0--r43hdfd78af_0": "sha256:897bc962e303e02599d05bf64e08523ddac89f34a006a8262207ab6c567bb0c7", "1.38.0--r43hdfd78af_0": "sha256:b60132123436c62e3840f79d577be7ded51b0c283f62603e0f062b053b365b21"}, "docker": "quay.io/biocontainers/bioconductor-bcellviper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bcellviper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bcellviper", "latest": {"1.42.0--r44hdfd78af_0": "sha256:568fcec5101331271e1bbf12db1d9644296d65df4fc92bf766d7397a651b13b3"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a8a979f5220e7eb2ef61d0d4cd6ebf98858ceefdc664194f671a86b366e88356", "1.34.0--r42hdfd78af_0": "sha256:52390641f5268fa4545b1843a965893c2b121f0d661ec92e54cb10c4f55cc28c", "1.36.0--r43hdfd78af_0": "sha256:897bc962e303e02599d05bf64e08523ddac89f34a006a8262207ab6c567bb0c7", "1.38.0--r43hdfd78af_0": "sha256:b60132123436c62e3840f79d577be7ded51b0c283f62603e0f062b053b365b21", "1.42.0--r44hdfd78af_0": "sha256:568fcec5101331271e1bbf12db1d9644296d65df4fc92bf766d7397a651b13b3"}, "docker": "quay.io/biocontainers/bioconductor-bcellviper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bcellviper.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bcellviper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bcellviper:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bcellviper:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bcellviper/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bcellviper/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bcellviper/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bcellviper/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

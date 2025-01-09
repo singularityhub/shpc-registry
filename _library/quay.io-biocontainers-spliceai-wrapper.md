@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spliceai-wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spliceai-wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spliceai-wrapper/container.yaml"
-updated_at: "2025-01-08 06:27:25.369348"
+updated_at: "2025-01-09 03:16:06.850203"
 latest: "0.1.0--0"
 container_url: "https://biocontainers.pro/tools/spliceai-wrapper"
 aliases:

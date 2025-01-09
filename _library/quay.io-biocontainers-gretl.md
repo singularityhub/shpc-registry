@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gretl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gretl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gretl/container.yaml"
-updated_at: "2025-01-08 06:39:31.065101"
-latest: "0.1.1--h715e4b3_1"
+updated_at: "2025-01-09 03:28:00.772855"
+latest: "0.1.1--hc1c3326_2"
 container_url: "https://biocontainers.pro/tools/gretl"
 aliases:
  - "block.py"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "0.1.0--h715e4b3_0"
  - "0.1.1--h715e4b3_1"
+ - "0.1.1--hc1c3326_2"
 description: "singularity registry hpc automated addition for gretl"
-config: {"url": "https://biocontainers.pro/tools/gretl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gretl", "latest": {"0.1.1--h715e4b3_1": "sha256:2f154ec74981972de835e57b466df67b7cec4ee9e07cfd507b491bdca265f1fc"}, "tags": {"0.1.0--h715e4b3_0": "sha256:94dbc85bb994f011a7786e87034596120d3ae56efaaeb3cfe8d78ea62609b421", "0.1.1--h715e4b3_1": "sha256:2f154ec74981972de835e57b466df67b7cec4ee9e07cfd507b491bdca265f1fc"}, "docker": "quay.io/biocontainers/gretl", "aliases": {"block.py": "/usr/local/bin/block.py", "core.py": "/usr/local/bin/core.py", "gretl": "/usr/local/bin/gretl", "multi.auto.py": "/usr/local/bin/multi.auto.py", "multi.correlate.py": "/usr/local/bin/multi.correlate.py", "multi.heatmap.py": "/usr/local/bin/multi.heatmap.py", "multi.histogram.py": "/usr/local/bin/multi.histogram.py", "multi.scatter.py": "/usr/local/bin/multi.scatter.py", "nwindow.py": "/usr/local/bin/nwindow.py", "path.py": "/usr/local/bin/path.py", "ps.py": "/usr/local/bin/ps.py", "saturation_plotter.py": "/usr/local/bin/saturation_plotter.py", "stats_path.py": "/usr/local/bin/stats_path.py", "window.py": "/usr/local/bin/window.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/gretl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gretl", "latest": {"0.1.1--hc1c3326_2": "sha256:52974a3a1598244121d28813b86f99aa5feb6a9910d1250ad4c4598fa53ca274"}, "tags": {"0.1.0--h715e4b3_0": "sha256:94dbc85bb994f011a7786e87034596120d3ae56efaaeb3cfe8d78ea62609b421", "0.1.1--h715e4b3_1": "sha256:2f154ec74981972de835e57b466df67b7cec4ee9e07cfd507b491bdca265f1fc", "0.1.1--hc1c3326_2": "sha256:52974a3a1598244121d28813b86f99aa5feb6a9910d1250ad4c4598fa53ca274"}, "docker": "quay.io/biocontainers/gretl", "aliases": {"block.py": "/usr/local/bin/block.py", "core.py": "/usr/local/bin/core.py", "gretl": "/usr/local/bin/gretl", "multi.auto.py": "/usr/local/bin/multi.auto.py", "multi.correlate.py": "/usr/local/bin/multi.correlate.py", "multi.heatmap.py": "/usr/local/bin/multi.heatmap.py", "multi.histogram.py": "/usr/local/bin/multi.histogram.py", "multi.scatter.py": "/usr/local/bin/multi.scatter.py", "nwindow.py": "/usr/local/bin/nwindow.py", "path.py": "/usr/local/bin/path.py", "ps.py": "/usr/local/bin/ps.py", "saturation_plotter.py": "/usr/local/bin/saturation_plotter.py", "stats_path.py": "/usr/local/bin/stats_path.py", "window.py": "/usr/local/bin/window.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gretl.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/gretl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gretl:0.1.1--h715e4b3_1
+$ shpc install quay.io/biocontainers/gretl:0.1.1--hc1c3326_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gretl/0.1.1--h715e4b3_1
-$ module help quay.io/biocontainers/gretl/0.1.1--h715e4b3_1
+$ module load quay.io/biocontainers/gretl/0.1.1--hc1c3326_2
+$ module help quay.io/biocontainers/gretl/0.1.1--hc1c3326_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

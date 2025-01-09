@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nemo-age"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nemo-age/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nemo-age/container.yaml"
-updated_at: "2025-01-08 06:51:13.751612"
-latest: "0.30.0--h0432e7c_4"
+updated_at: "2025-01-09 03:39:35.665362"
+latest: "0.30.0--h3053a90_5"
 container_url: "https://biocontainers.pro/tools/nemo-age"
 aliases:
  - "nemoage"
 versions:
  - "0.30.0--h5e66344_2"
  - "0.30.0--h0432e7c_4"
+ - "0.30.0--h3053a90_5"
 description: "shpc-registry automated BioContainers addition for nemo-age"
-config: {"url": "https://biocontainers.pro/tools/nemo-age", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nemo-age", "latest": {"0.30.0--h0432e7c_4": "sha256:3749e78484bebfbacd8b6ca401baead04bdb7af890ccad427d85357e39dbd552"}, "tags": {"0.30.0--h5e66344_2": "sha256:7ecb7253220de4f755847332e05a2cd7719934614530b87a11ffd9744b14decb", "0.30.0--h0432e7c_4": "sha256:3749e78484bebfbacd8b6ca401baead04bdb7af890ccad427d85357e39dbd552"}, "docker": "quay.io/biocontainers/nemo-age", "aliases": {"nemoage": "/usr/local/bin/nemoage"}}
+config: {"url": "https://biocontainers.pro/tools/nemo-age", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nemo-age", "latest": {"0.30.0--h3053a90_5": "sha256:f85195f53b8c76da587f23f5d9abc509b822f81eb635d757990b68fd81fee35d"}, "tags": {"0.30.0--h5e66344_2": "sha256:7ecb7253220de4f755847332e05a2cd7719934614530b87a11ffd9744b14decb", "0.30.0--h0432e7c_4": "sha256:3749e78484bebfbacd8b6ca401baead04bdb7af890ccad427d85357e39dbd552", "0.30.0--h3053a90_5": "sha256:f85195f53b8c76da587f23f5d9abc509b822f81eb635d757990b68fd81fee35d"}, "docker": "quay.io/biocontainers/nemo-age", "aliases": {"nemoage": "/usr/local/bin/nemoage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nemo-age.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nemo-age
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nemo-age:0.30.0--h0432e7c_4
+$ shpc install quay.io/biocontainers/nemo-age:0.30.0--h3053a90_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nemo-age/0.30.0--h0432e7c_4
-$ module help quay.io/biocontainers/nemo-age/0.30.0--h0432e7c_4
+$ module load quay.io/biocontainers/nemo-age/0.30.0--h3053a90_5
+$ module help quay.io/biocontainers/nemo-age/0.30.0--h3053a90_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

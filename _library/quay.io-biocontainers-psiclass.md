@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psiclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psiclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psiclass/container.yaml"
-updated_at: "2025-01-08 06:56:18.506562"
+updated_at: "2025-01-09 03:44:34.369485"
 latest: "1.0.3--h503566f_5"
 container_url: "https://biocontainers.pro/tools/psiclass"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-isobar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isobar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isobar/container.yaml"
-updated_at: "2025-01-08 07:14:37.487661"
-latest: "1.48.0--r43hdfd78af_0"
+updated_at: "2025-01-09 04:02:40.855053"
+latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isobar"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
+ - "1.52.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-isobar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isobar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isobar", "latest": {"1.48.0--r43hdfd78af_0": "sha256:734fe8674f141175c67d79c8b429aebfacbc00dd328b7b7d631c873f9f65d39d"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:06bc967f38b82014860c949c32b88ec60f749ec98d5d80b8477517a04eb25a39", "1.44.0--r42hdfd78af_0": "sha256:fd06ea4eb320f9a45540cf0c62035175cfd93dde2f4762176935144cfd0c9b5d", "1.46.0--r43hdfd78af_0": "sha256:8ecbdbfa01862434c3d0f6e9f9f44a156985133bc4ea2b13770686cbda4a4ab8", "1.48.0--r43hdfd78af_0": "sha256:734fe8674f141175c67d79c8b429aebfacbc00dd328b7b7d631c873f9f65d39d"}, "docker": "quay.io/biocontainers/bioconductor-isobar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isobar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isobar", "latest": {"1.52.0--r44hdfd78af_0": "sha256:f69dde07517b4e7f0823710faaebcc0e2d1a0ac8d8317bf3fc404405cc22e4ea"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:06bc967f38b82014860c949c32b88ec60f749ec98d5d80b8477517a04eb25a39", "1.44.0--r42hdfd78af_0": "sha256:fd06ea4eb320f9a45540cf0c62035175cfd93dde2f4762176935144cfd0c9b5d", "1.46.0--r43hdfd78af_0": "sha256:8ecbdbfa01862434c3d0f6e9f9f44a156985133bc4ea2b13770686cbda4a4ab8", "1.48.0--r43hdfd78af_0": "sha256:734fe8674f141175c67d79c8b429aebfacbc00dd328b7b7d631c873f9f65d39d", "1.52.0--r44hdfd78af_0": "sha256:f69dde07517b4e7f0823710faaebcc0e2d1a0ac8d8317bf3fc404405cc22e4ea"}, "docker": "quay.io/biocontainers/bioconductor-isobar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isobar.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-isobar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-isobar:1.48.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-isobar:1.52.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-isobar/1.48.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-isobar/1.48.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-isobar/1.52.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-isobar/1.52.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

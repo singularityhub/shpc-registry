@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipseeker/container.yaml"
-updated_at: "2025-01-08 06:47:52.209878"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:36:17.756976"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipseeker"
 aliases:
  - "pngcp"
@@ -25,8 +25,9 @@ versions:
  - "1.26.2--r40hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipseeker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseeker", "latest": {"1.38.0--r43hdfd78af_0": "sha256:86476d95a6273b699cfa1d13e2b56c8f8ac09a633198a01253a0f2a6c074bcf5"}, "tags": {"1.6.6--0": "sha256:a938a6b676ee07069ac22c6c2498072922cf8d9707055c8e5854731d10696e84", "1.34.0--r42hdfd78af_0": "sha256:be74454ff70cca6a9a87431634d007362a214de774c9eaa1e887d4bae66852af", "1.32.0--r41hdfd78af_0": "sha256:524a6519d81bdf4d26be54d32dd43842b9a4b5596e67ac365ff1ec339fd6ab5d", "1.30.0--r41hdfd78af_0": "sha256:bdff241ce8a88783e4640d678b7bc5d43656b8d776f51b7d0fff1a12b4d6234a", "1.28.3--r41hdfd78af_1": "sha256:4035285f977f102252556eedf73f6947c0fcc332c39805a50bf5e8ebe4e5de33", "1.26.2--r40hdfd78af_0": "sha256:08e462f14657acf98f758e28f27372d9eacbf0c0f06b8126c524b076ef5a8da6", "1.36.0--r43hdfd78af_0": "sha256:7b2af82a6dce3a3915abe3eb97589a1591e1f8ba046d795171b8cf8b6c572748", "1.38.0--r43hdfd78af_0": "sha256:86476d95a6273b699cfa1d13e2b56c8f8ac09a633198a01253a0f2a6c074bcf5"}, "docker": "quay.io/biocontainers/bioconductor-chipseeker", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseeker", "latest": {"1.42.0--r44hdfd78af_0": "sha256:baaf503e1341208213a94bc4df0add03fa16e31c85939e3cc83d0d85670e86a3"}, "tags": {"1.6.6--0": "sha256:a938a6b676ee07069ac22c6c2498072922cf8d9707055c8e5854731d10696e84", "1.34.0--r42hdfd78af_0": "sha256:be74454ff70cca6a9a87431634d007362a214de774c9eaa1e887d4bae66852af", "1.32.0--r41hdfd78af_0": "sha256:524a6519d81bdf4d26be54d32dd43842b9a4b5596e67ac365ff1ec339fd6ab5d", "1.30.0--r41hdfd78af_0": "sha256:bdff241ce8a88783e4640d678b7bc5d43656b8d776f51b7d0fff1a12b4d6234a", "1.28.3--r41hdfd78af_1": "sha256:4035285f977f102252556eedf73f6947c0fcc332c39805a50bf5e8ebe4e5de33", "1.26.2--r40hdfd78af_0": "sha256:08e462f14657acf98f758e28f27372d9eacbf0c0f06b8126c524b076ef5a8da6", "1.36.0--r43hdfd78af_0": "sha256:7b2af82a6dce3a3915abe3eb97589a1591e1f8ba046d795171b8cf8b6c572748", "1.38.0--r43hdfd78af_0": "sha256:86476d95a6273b699cfa1d13e2b56c8f8ac09a633198a01253a0f2a6c074bcf5", "1.42.0--r44hdfd78af_0": "sha256:baaf503e1341208213a94bc4df0add03fa16e31c85939e3cc83d0d85670e86a3"}, "docker": "quay.io/biocontainers/bioconductor-chipseeker", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipseeker.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipseeker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipseeker:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipseeker:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipseeker/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipseeker/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipseeker/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipseeker/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

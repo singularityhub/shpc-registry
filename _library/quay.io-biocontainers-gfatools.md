@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfatools/container.yaml"
-updated_at: "2025-01-08 06:29:50.043650"
-latest: "0.5--he4a0461_4"
+updated_at: "2025-01-09 03:18:28.108561"
+latest: "0.5--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/gfatools"
 aliases:
  - "gfatools"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.5--h7132678_2"
  - "0.5--he4a0461_4"
+ - "0.5--h577a1d6_5"
 description: "shpc-registry automated BioContainers addition for gfatools"
-config: {"url": "https://biocontainers.pro/tools/gfatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfatools", "latest": {"0.5--he4a0461_4": "sha256:64a4f8e6838e2d259ea5da2d3c4001d1254adab364c87a0ee3e75966751810c4"}, "tags": {"0.5--h7132678_2": "sha256:77e9c818a3cb314c50b2ed086aa3e3054dedac0eab3f7d7b3338d8dfa66ddbdd", "0.5--he4a0461_4": "sha256:64a4f8e6838e2d259ea5da2d3c4001d1254adab364c87a0ee3e75966751810c4"}, "docker": "quay.io/biocontainers/gfatools", "aliases": {"gfatools": "/usr/local/bin/gfatools", "paf2gfa": "/usr/local/bin/paf2gfa"}}
+config: {"url": "https://biocontainers.pro/tools/gfatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfatools", "latest": {"0.5--h577a1d6_5": "sha256:cdb1a77adaab3a25de0a57d36b219d3c30a98c3d9b6932b5755fbd73c15b3141"}, "tags": {"0.5--h7132678_2": "sha256:77e9c818a3cb314c50b2ed086aa3e3054dedac0eab3f7d7b3338d8dfa66ddbdd", "0.5--he4a0461_4": "sha256:64a4f8e6838e2d259ea5da2d3c4001d1254adab364c87a0ee3e75966751810c4", "0.5--h577a1d6_5": "sha256:cdb1a77adaab3a25de0a57d36b219d3c30a98c3d9b6932b5755fbd73c15b3141"}, "docker": "quay.io/biocontainers/gfatools", "aliases": {"gfatools": "/usr/local/bin/gfatools", "paf2gfa": "/usr/local/bin/paf2gfa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfatools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gfatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfatools:0.5--he4a0461_4
+$ shpc install quay.io/biocontainers/gfatools:0.5--h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfatools/0.5--he4a0461_4
-$ module help quay.io/biocontainers/gfatools/0.5--he4a0461_4
+$ module load quay.io/biocontainers/gfatools/0.5--h577a1d6_5
+$ module help quay.io/biocontainers/gfatools/0.5--h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

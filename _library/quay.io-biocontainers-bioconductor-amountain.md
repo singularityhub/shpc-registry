@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-amountain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-amountain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-amountain/container.yaml"
-updated_at: "2025-01-08 06:35:02.059305"
+updated_at: "2025-01-09 03:23:32.807375"
 latest: "1.32.0--r44h34769fb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-amountain"
 aliases:

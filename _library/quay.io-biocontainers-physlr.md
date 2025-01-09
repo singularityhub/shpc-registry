@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/physlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physlr/container.yaml"
-updated_at: "2025-01-08 07:05:47.271984"
-latest: "1.0.4--py39h4ac6f70_6"
+updated_at: "2025-01-09 03:53:50.284277"
+latest: "1.0.4--py39h9948957_7"
 container_url: "https://biocontainers.pro/tools/physlr"
 aliases:
  - "ntcard"
@@ -30,8 +30,9 @@ versions:
  - "1.0.4--py39h2df963e_3"
  - "1.0.4--py39h376f1d3_5"
  - "1.0.4--py39h4ac6f70_6"
+ - "1.0.4--py39h9948957_7"
 description: "singularity registry hpc automated addition for physlr"
-config: {"url": "https://biocontainers.pro/tools/physlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physlr", "latest": {"1.0.4--py39h4ac6f70_6": "sha256:bd5fb1e58a1952de847ad464a8238f7290f6a9c84fe60e3781f002bfcb64830b"}, "tags": {"1.0.4--py39h2df963e_2": "sha256:9d04b07d3ba6f3148cfa9cdeb537fbe6be927ca7126d7483f04f968055df4787", "1.0.4--py39h2df963e_3": "sha256:0354b252da85bffe9d99e170523edaf7186cfd5d7cc4a3ac2af44ab49ac8ce3e", "1.0.4--py39h376f1d3_5": "sha256:2a54f45db8e7c05cad4ca7256d5675aba7496fff045ff408b9d3a184f6d70b06", "1.0.4--py39h4ac6f70_6": "sha256:bd5fb1e58a1952de847ad464a8238f7290f6a9c84fe60e3781f002bfcb64830b"}, "docker": "quay.io/biocontainers/physlr", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthits": "/usr/local/bin/nthits", "nthll": "/usr/local/bin/nthll", "physlr": "/usr/local/bin/physlr", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.7": "/usr/local/bin/pypy3.7", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "python3.7": "/usr/local/bin/python3.7", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/physlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physlr", "latest": {"1.0.4--py39h9948957_7": "sha256:44033a57523fca4a674a348391251439bdafe94c9f6f7d1b392c253e098c164a"}, "tags": {"1.0.4--py39h2df963e_2": "sha256:9d04b07d3ba6f3148cfa9cdeb537fbe6be927ca7126d7483f04f968055df4787", "1.0.4--py39h2df963e_3": "sha256:0354b252da85bffe9d99e170523edaf7186cfd5d7cc4a3ac2af44ab49ac8ce3e", "1.0.4--py39h376f1d3_5": "sha256:2a54f45db8e7c05cad4ca7256d5675aba7496fff045ff408b9d3a184f6d70b06", "1.0.4--py39h4ac6f70_6": "sha256:bd5fb1e58a1952de847ad464a8238f7290f6a9c84fe60e3781f002bfcb64830b", "1.0.4--py39h9948957_7": "sha256:44033a57523fca4a674a348391251439bdafe94c9f6f7d1b392c253e098c164a"}, "docker": "quay.io/biocontainers/physlr", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthits": "/usr/local/bin/nthits", "nthll": "/usr/local/bin/nthll", "physlr": "/usr/local/bin/physlr", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.7": "/usr/local/bin/pypy3.7", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "python3.7": "/usr/local/bin/python3.7", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/physlr.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/physlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/physlr:1.0.4--py39h4ac6f70_6
+$ shpc install quay.io/biocontainers/physlr:1.0.4--py39h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/physlr/1.0.4--py39h4ac6f70_6
-$ module help quay.io/biocontainers/physlr/1.0.4--py39h4ac6f70_6
+$ module load quay.io/biocontainers/physlr/1.0.4--py39h9948957_7
+$ module help quay.io/biocontainers/physlr/1.0.4--py39h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

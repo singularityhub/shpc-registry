@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-orthos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthos/container.yaml"
-updated_at: "2025-01-08 06:29:07.102054"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2025-01-09 03:17:46.505208"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthos"
 aliases:
  - "protoc-24.4.0"
@@ -36,8 +36,9 @@ aliases:
  - "grpc_cpp_plugin"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-orthos"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-orthos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-orthos", "latest": {"1.0.1--r43hdfd78af_0": "sha256:0d93e4420f287adea3d567f7103fb6a1a1fe4cf02bf033a6ae2b907cb42e491c"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:0d93e4420f287adea3d567f7103fb6a1a1fe4cf02bf033a6ae2b907cb42e491c"}, "docker": "quay.io/biocontainers/bioconductor-orthos", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-orthos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-orthos", "latest": {"1.4.0--r44hdfd78af_0": "sha256:58be6f61b70ebf21b1b05d99bc268708b621fe2c2c13d98b97b57e378bc7870b"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:0d93e4420f287adea3d567f7103fb6a1a1fe4cf02bf033a6ae2b907cb42e491c", "1.4.0--r44hdfd78af_0": "sha256:58be6f61b70ebf21b1b05d99bc268708b621fe2c2c13d98b97b57e378bc7870b"}, "docker": "quay.io/biocontainers/bioconductor-orthos", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-orthos.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-orthos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-orthos:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-orthos:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-orthos/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-orthos/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-orthos/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-orthos/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

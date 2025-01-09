@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/soapec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapec/container.yaml"
-updated_at: "2025-01-08 06:48:10.682333"
-latest: "2.03--hdcf5f25_8"
+updated_at: "2025-01-09 03:36:35.765079"
+latest: "2.03--h077b44d_9"
 container_url: "https://biocontainers.pro/tools/soapec"
 aliases:
  - "Corrector_AR"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "2.03--hd03093a_6"
  - "2.03--hdcf5f25_8"
+ - "2.03--h077b44d_9"
 description: "shpc-registry automated BioContainers addition for soapec"
-config: {"url": "https://biocontainers.pro/tools/soapec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapec", "latest": {"2.03--hdcf5f25_8": "sha256:86ece8e8d978baba633b36314e24a9e890059815225e7d1a6b3f8439a240ca08"}, "tags": {"2.03--hd03093a_6": "sha256:b7d7a98d8d124e7aa81a6090b1bdd690dfcd97c77af989622c3abe37542e9ad6", "2.03--hdcf5f25_8": "sha256:86ece8e8d978baba633b36314e24a9e890059815225e7d1a6b3f8439a240ca08"}, "docker": "quay.io/biocontainers/soapec", "aliases": {"Corrector_AR": "/usr/local/bin/Corrector_AR", "Corrector_HA": "/usr/local/bin/Corrector_HA", "KmerFreq_AR": "/usr/local/bin/KmerFreq_AR", "KmerFreq_HA": "/usr/local/bin/KmerFreq_HA"}}
+config: {"url": "https://biocontainers.pro/tools/soapec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapec", "latest": {"2.03--h077b44d_9": "sha256:3075960f34a6ab129ca332f0b7f807ad396ec1c65eed484ca1948ee887b25f52"}, "tags": {"2.03--hd03093a_6": "sha256:b7d7a98d8d124e7aa81a6090b1bdd690dfcd97c77af989622c3abe37542e9ad6", "2.03--hdcf5f25_8": "sha256:86ece8e8d978baba633b36314e24a9e890059815225e7d1a6b3f8439a240ca08", "2.03--h077b44d_9": "sha256:3075960f34a6ab129ca332f0b7f807ad396ec1c65eed484ca1948ee887b25f52"}, "docker": "quay.io/biocontainers/soapec", "aliases": {"Corrector_AR": "/usr/local/bin/Corrector_AR", "Corrector_HA": "/usr/local/bin/Corrector_HA", "KmerFreq_AR": "/usr/local/bin/KmerFreq_AR", "KmerFreq_HA": "/usr/local/bin/KmerFreq_HA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapec.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/soapec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soapec:2.03--hdcf5f25_8
+$ shpc install quay.io/biocontainers/soapec:2.03--h077b44d_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soapec/2.03--hdcf5f25_8
-$ module help quay.io/biocontainers/soapec/2.03--hdcf5f25_8
+$ module load quay.io/biocontainers/soapec/2.03--h077b44d_9
+$ module help quay.io/biocontainers/soapec/2.03--h077b44d_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytokernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytokernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytokernel/container.yaml"
-updated_at: "2025-01-08 07:14:50.843267"
-latest: "1.8.0--r43hf17093f_0"
+updated_at: "2025-01-09 04:02:54.145918"
+latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytokernel"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.4.0--r42hf17093f_1"
  - "1.6.0--r43hf17093f_0"
  - "1.8.0--r43hf17093f_0"
+ - "1.12.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytokernel"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytokernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytokernel", "latest": {"1.8.0--r43hf17093f_0": "sha256:f095bbd85bead5975065e2f4570fe74e572cdc0dd0d4a3fddc1e47f2304a6eb7"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557", "1.4.0--r42hc247a5b_0": "sha256:6d8639891afc5fb013f31cc8ea96e58ce23ec5010f835e4d5934115f29ffff07", "1.4.0--r42hf17093f_1": "sha256:deb0d807bf8495f8be731eb06ccc8c8527b92eb9bed2f30d7c389a1cb0bd85c7", "1.6.0--r43hf17093f_0": "sha256:77497ce95fd810a08c3fa33b3328ef3210b82157bed483d51ceb6d166ccb5160", "1.8.0--r43hf17093f_0": "sha256:f095bbd85bead5975065e2f4570fe74e572cdc0dd0d4a3fddc1e47f2304a6eb7"}, "docker": "quay.io/biocontainers/bioconductor-cytokernel"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytokernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytokernel", "latest": {"1.12.0--r44he5774e6_0": "sha256:df3996cc963a9dc5900f6f9289384142d4f771b70c786b3968ff71ca7b659e1c"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557", "1.4.0--r42hc247a5b_0": "sha256:6d8639891afc5fb013f31cc8ea96e58ce23ec5010f835e4d5934115f29ffff07", "1.4.0--r42hf17093f_1": "sha256:deb0d807bf8495f8be731eb06ccc8c8527b92eb9bed2f30d7c389a1cb0bd85c7", "1.6.0--r43hf17093f_0": "sha256:77497ce95fd810a08c3fa33b3328ef3210b82157bed483d51ceb6d166ccb5160", "1.8.0--r43hf17093f_0": "sha256:f095bbd85bead5975065e2f4570fe74e572cdc0dd0d4a3fddc1e47f2304a6eb7", "1.12.0--r44he5774e6_0": "sha256:df3996cc963a9dc5900f6f9289384142d4f771b70c786b3968ff71ca7b659e1c"}, "docker": "quay.io/biocontainers/bioconductor-cytokernel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytokernel.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytokernel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytokernel:1.8.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-cytokernel:1.12.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytokernel/1.8.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-cytokernel/1.8.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-cytokernel/1.12.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-cytokernel/1.12.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

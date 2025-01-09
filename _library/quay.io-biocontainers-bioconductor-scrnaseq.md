@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scrnaseq/container.yaml"
-updated_at: "2025-01-08 06:28:43.106787"
-latest: "2.16.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:17:23.074568"
+latest: "2.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scrnaseq"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.12.0--r42hdfd78af_0"
  - "2.14.0--r43hdfd78af_0"
  - "2.16.0--r43hdfd78af_0"
+ - "2.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scrnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scrnaseq", "latest": {"2.16.0--r43hdfd78af_0": "sha256:d1601654c70928f427ea17c49f1446c1ae5bb7ad2fc2e1c9e39424ba3d91382c"}, "tags": {"2.8.0--r41hdfd78af_1": "sha256:4709c7aec80879dfa98f424c0689d2c69882c08e0134e6243fe59fee0b0ad419", "2.12.0--r42hdfd78af_0": "sha256:b8a9898bc1c0ca81f24cbee1e637aeab41522ba5d9b8b98364a611d5b5a16b0f", "2.14.0--r43hdfd78af_0": "sha256:dc2864793eb55d2ed6066226f3cc14dd64e05ebeec64708436ab25dc27182ec4", "2.16.0--r43hdfd78af_0": "sha256:d1601654c70928f427ea17c49f1446c1ae5bb7ad2fc2e1c9e39424ba3d91382c"}, "docker": "quay.io/biocontainers/bioconductor-scrnaseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scrnaseq", "latest": {"2.20.0--r44hdfd78af_0": "sha256:1197165dedd151eb7e950f132a1b976a5a05a32c9abc769031d43d4cce0f3111"}, "tags": {"2.8.0--r41hdfd78af_1": "sha256:4709c7aec80879dfa98f424c0689d2c69882c08e0134e6243fe59fee0b0ad419", "2.12.0--r42hdfd78af_0": "sha256:b8a9898bc1c0ca81f24cbee1e637aeab41522ba5d9b8b98364a611d5b5a16b0f", "2.14.0--r43hdfd78af_0": "sha256:dc2864793eb55d2ed6066226f3cc14dd64e05ebeec64708436ab25dc27182ec4", "2.16.0--r43hdfd78af_0": "sha256:d1601654c70928f427ea17c49f1446c1ae5bb7ad2fc2e1c9e39424ba3d91382c", "2.20.0--r44hdfd78af_0": "sha256:1197165dedd151eb7e950f132a1b976a5a05a32c9abc769031d43d4cce0f3111"}, "docker": "quay.io/biocontainers/bioconductor-scrnaseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scrnaseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scrnaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scrnaseq:2.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scrnaseq:2.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scrnaseq/2.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scrnaseq/2.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scrnaseq/2.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scrnaseq/2.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

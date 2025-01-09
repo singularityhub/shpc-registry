@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-glmsparsenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glmsparsenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glmsparsenet/container.yaml"
-updated_at: "2025-01-08 06:52:36.296943"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2025-01-09 03:40:56.678986"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glmsparsenet"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-glmsparsenet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-glmsparsenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glmsparsenet", "latest": {"1.20.0--r43hdfd78af_0": "sha256:2de0c9ba2a186fc3ea65c1f87198a53de012eeb67b76b912ea36377b13781429"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ee7d0efd8232b46685afd3607548df7c2c37e664a5eaf02cde394ec0e7917225", "1.16.0--r42hdfd78af_0": "sha256:d3d238348cabf3cbfac86219ac98dd7628104468d1e58cdbcbe301e171389016", "1.12.0--r41hdfd78af_0": "sha256:19b8ef8e573331afebcc92bf863d43e6c842e39e02fd3dabe830f69afe3375f7", "1.10.0--r41hdfd78af_0": "sha256:0a77b7878c0c0cb2b32e9e28cf22ce4b474c3a57f743729be4a3aab452c713b6", "1.18.0--r43hdfd78af_0": "sha256:fd922d816db5ffc308fec3f5e1bb391d09855c3244a35f631c778f6b5fb4569a", "1.20.0--r43hdfd78af_0": "sha256:2de0c9ba2a186fc3ea65c1f87198a53de012eeb67b76b912ea36377b13781429"}, "docker": "quay.io/biocontainers/bioconductor-glmsparsenet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-glmsparsenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glmsparsenet", "latest": {"1.24.0--r44hdfd78af_0": "sha256:bc32cbefbb992dec3056c749f0f6d558875f77ea168d5221a2ae8016d1442b03"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ee7d0efd8232b46685afd3607548df7c2c37e664a5eaf02cde394ec0e7917225", "1.16.0--r42hdfd78af_0": "sha256:d3d238348cabf3cbfac86219ac98dd7628104468d1e58cdbcbe301e171389016", "1.12.0--r41hdfd78af_0": "sha256:19b8ef8e573331afebcc92bf863d43e6c842e39e02fd3dabe830f69afe3375f7", "1.10.0--r41hdfd78af_0": "sha256:0a77b7878c0c0cb2b32e9e28cf22ce4b474c3a57f743729be4a3aab452c713b6", "1.18.0--r43hdfd78af_0": "sha256:fd922d816db5ffc308fec3f5e1bb391d09855c3244a35f631c778f6b5fb4569a", "1.20.0--r43hdfd78af_0": "sha256:2de0c9ba2a186fc3ea65c1f87198a53de012eeb67b76b912ea36377b13781429", "1.24.0--r44hdfd78af_0": "sha256:bc32cbefbb992dec3056c749f0f6d558875f77ea168d5221a2ae8016d1442b03"}, "docker": "quay.io/biocontainers/bioconductor-glmsparsenet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-glmsparsenet.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-glmsparsenet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-glmsparsenet:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-glmsparsenet:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-glmsparsenet/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-glmsparsenet/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-glmsparsenet/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-glmsparsenet/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

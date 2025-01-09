@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libmaus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmaus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmaus2/container.yaml"
-updated_at: "2025-01-08 06:47:38.758667"
+updated_at: "2025-01-09 03:36:04.567287"
 latest: "2.0.813--ha7e2851_1"
 container_url: "https://biocontainers.pro/tools/libmaus2"
 aliases:

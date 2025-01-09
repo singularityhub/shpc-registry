@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/soapdenovo2-prepare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-prepare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-prepare/container.yaml"
-updated_at: "2025-01-08 06:43:53.481776"
-latest: "2.0--he4a0461_8"
+updated_at: "2025-01-09 03:32:22.429453"
+latest: "2.0--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-prepare"
 aliases:
  - "finalFusion"
 versions:
  - "2.0--h7132678_6"
  - "2.0--he4a0461_8"
+ - "2.0--h577a1d6_9"
 description: "shpc-registry automated BioContainers addition for soapdenovo2-prepare"
-config: {"url": "https://biocontainers.pro/tools/soapdenovo2-prepare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-prepare", "latest": {"2.0--he4a0461_8": "sha256:db855622ff18f988bb3b907d7bc7c510a8e38b7db47e11904a9d0ab707d32622"}, "tags": {"2.0--h7132678_6": "sha256:d25bea9c5457bb13a0ad5254599bb545f555d99900ac9e01c13431443dd76d61", "2.0--he4a0461_8": "sha256:db855622ff18f988bb3b907d7bc7c510a8e38b7db47e11904a9d0ab707d32622"}, "docker": "quay.io/biocontainers/soapdenovo2-prepare", "aliases": {"finalFusion": "/usr/local/bin/finalFusion"}}
+config: {"url": "https://biocontainers.pro/tools/soapdenovo2-prepare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-prepare", "latest": {"2.0--h577a1d6_9": "sha256:e64728de81f9917e41f56aa2455b187d4e565f0aa768473f99530bd28a7b3b35"}, "tags": {"2.0--h7132678_6": "sha256:d25bea9c5457bb13a0ad5254599bb545f555d99900ac9e01c13431443dd76d61", "2.0--he4a0461_8": "sha256:db855622ff18f988bb3b907d7bc7c510a8e38b7db47e11904a9d0ab707d32622", "2.0--h577a1d6_9": "sha256:e64728de81f9917e41f56aa2455b187d4e565f0aa768473f99530bd28a7b3b35"}, "docker": "quay.io/biocontainers/soapdenovo2-prepare", "aliases": {"finalFusion": "/usr/local/bin/finalFusion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapdenovo2-prepare.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/soapdenovo2-prepare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soapdenovo2-prepare:2.0--he4a0461_8
+$ shpc install quay.io/biocontainers/soapdenovo2-prepare:2.0--h577a1d6_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soapdenovo2-prepare/2.0--he4a0461_8
-$ module help quay.io/biocontainers/soapdenovo2-prepare/2.0--he4a0461_8
+$ module load quay.io/biocontainers/soapdenovo2-prepare/2.0--h577a1d6_9
+$ module help quay.io/biocontainers/soapdenovo2-prepare/2.0--h577a1d6_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
