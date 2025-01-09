@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
-updated_at: "2025-01-09 03:41:06.073089"
+updated_at: "2025-01-09 13:51:28.693919"
 latest: "1.14.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellid"
 aliases:

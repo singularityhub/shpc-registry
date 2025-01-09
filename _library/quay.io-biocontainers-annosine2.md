@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annosine2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annosine2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annosine2/container.yaml"
-updated_at: "2025-01-09 03:47:11.870689"
+updated_at: "2025-01-09 13:58:08.004302"
 latest: "2.0.7--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/annosine2"
 aliases:

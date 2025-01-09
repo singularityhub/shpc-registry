@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fmsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fmsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fmsi/container.yaml"
-updated_at: "2025-01-09 03:26:57.978991"
+updated_at: "2025-01-09 13:35:59.913084"
 latest: "0.3.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/fmsi"
 aliases:
