@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gdrcore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gdrcore
 latest:
-  1.0.0--r43hf17093f_0: sha256:f96d88b4795f99af390b162f1d82e7a085ec91a0ced7648330fc1a62c2425c4a
+  1.4.0--r44he5774e6_0: sha256:f8bfad7873aa9264146b173c09d77361cff60e20b393848bd619151d077e8f26
 tags:
   1.0.0--r43hf17093f_0: sha256:f96d88b4795f99af390b162f1d82e7a085ec91a0ced7648330fc1a62c2425c4a
+  1.4.0--r44he5774e6_0: sha256:f8bfad7873aa9264146b173c09d77361cff60e20b393848bd619151d077e8f26
 docker: quay.io/biocontainers/bioconductor-gdrcore
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

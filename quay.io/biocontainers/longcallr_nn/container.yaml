@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/longcallr_nn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longcallr_nn
 latest:
-  0.0.1--pyhdfd78af_1: sha256:76894aa105b48377ce825c4a86f6b487a1639d941c60abe22053e7fe7c387002
+  0.0.2--pyhdfd78af_0: sha256:e6c54519374b10e35649bdb5e6d290000dad23e63867dc5f43f9847d0411365c
 tags:
   0.0.1--pyhdfd78af_0: sha256:ff2b73f88de872ca44d0960a0c5e857cd4eb9cdf9440a5323eba10d377a2d0af
   0.0.1--pyhdfd78af_1: sha256:76894aa105b48377ce825c4a86f6b487a1639d941c60abe22053e7fe7c387002
+  0.0.2--pyhdfd78af_0: sha256:e6c54519374b10e35649bdb5e6d290000dad23e63867dc5f43f9847d0411365c
 docker: quay.io/biocontainers/longcallr_nn
 aliases:
   longcallR_nn: /usr/local/bin/longcallR_nn

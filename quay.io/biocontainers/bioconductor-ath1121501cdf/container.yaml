@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ath1121501cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ath1121501cdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:a93d87d1c2b68b76b199d579da2ae99821fb182d9ea7a97076ab40d15e4bb30f
+  2.18.0--r44hdfd78af_13: sha256:eeb07fd5f36c066edcdea2da8012bd8161d17e3917b7e185c72208d931b05678
 tags:
   2.18.0--r41hdfd78af_9: sha256:138038adff8d35cf898230b5ef0dd92416bc06d8e00b541725abc93a4d8297ed
   2.18.0--r42hdfd78af_10: sha256:924e525b1a4a1b3005f5397fd289737ded2e24370bc0680cb8aee651b2d1f46a
   2.18.0--r43hdfd78af_11: sha256:020fb56c30e069ec74d78a4a8783096b44e1826899909df5f24ca1486ca4f298
   2.18.0--r43hdfd78af_12: sha256:a93d87d1c2b68b76b199d579da2ae99821fb182d9ea7a97076ab40d15e4bb30f
+  2.18.0--r44hdfd78af_13: sha256:eeb07fd5f36c066edcdea2da8012bd8161d17e3917b7e185c72208d931b05678
 docker: quay.io/biocontainers/bioconductor-ath1121501cdf

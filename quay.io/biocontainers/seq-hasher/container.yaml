@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seq-hasher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seq-hasher
 latest:
-  0.1.0--h4349ce8_0: sha256:63909f041a8fa09a996c98b5ab16e0ba31082c657cbd228d85813e68e9f4fcc4
+  0.2.0--h4349ce8_0: sha256:9fe2d04e9f00b181a5426cdad0db7803f30bc6ab029412574b587a153841003b
 tags:
   0.1.0--h4349ce8_0: sha256:63909f041a8fa09a996c98b5ab16e0ba31082c657cbd228d85813e68e9f4fcc4
+  0.2.0--h4349ce8_0: sha256:9fe2d04e9f00b181a5426cdad0db7803f30bc6ab029412574b587a153841003b
 docker: quay.io/biocontainers/seq-hasher
 aliases:
   seq-hasher: /usr/local/bin/seq-hasher

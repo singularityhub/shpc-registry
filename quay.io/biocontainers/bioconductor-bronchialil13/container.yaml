@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-bronchialil13
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bronchialil13
 latest:
-  1.40.0--r43hdfd78af_0: sha256:85f7b8207c74d2dd60f59e3bb0d2116b9fc6dc736a1cca2c037b7010e5f1a530
+  1.44.0--r44hdfd78af_0: sha256:6ad32fe6a37f3bb0db93b2df4592b906d3c3e0be8e13d29879ed7078553573af
 tags:
   1.32.0--r41hdfd78af_1: sha256:aa28300dbc398dde2bef8283de9bf88856eccad1bda88bab934ba853c316e81a
   1.36.0--r42hdfd78af_0: sha256:52b5891e18d1f69308f1aa841e5c4a50193609a0af5c837c23d3b451e69aacd4
   1.38.0--r43hdfd78af_0: sha256:3e5f77628518da7bcd220997fa54df1177c996ea0fc2572691c87a0d0ccfce4c
   1.40.0--r43hdfd78af_0: sha256:85f7b8207c74d2dd60f59e3bb0d2116b9fc6dc736a1cca2c037b7010e5f1a530
+  1.44.0--r44hdfd78af_0: sha256:6ad32fe6a37f3bb0db93b2df4592b906d3c3e0be8e13d29879ed7078553573af
 docker: quay.io/biocontainers/bioconductor-bronchialil13

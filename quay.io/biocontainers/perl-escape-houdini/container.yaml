@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-escape-houdini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-escape-houdini
 latest:
-  0.3.0--pl5321h031d066_3: sha256:e63bfa5f2a2fe0e2832a11e6806eb9f8579b5c25710936782fb0947f0a2b6a5c
+  0.3.0--pl5321h7b50bb2_4: sha256:23a0c6774267d111445e06e046f35111fbb18c836c6a1501ce0dab3b824f713f
 tags:
   0.3.0--pl5321hec16e2b_2: sha256:9ff4d7e4be358aea91b72b97eb91a9bf14120f136e3ab96882bca8dc1aedd70e
   0.3.0--pl5321h031d066_3: sha256:e63bfa5f2a2fe0e2832a11e6806eb9f8579b5c25710936782fb0947f0a2b6a5c
+  0.3.0--pl5321h7b50bb2_4: sha256:23a0c6774267d111445e06e046f35111fbb18c836c6a1501ce0dab3b824f713f
 docker: quay.io/biocontainers/perl-escape-houdini
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

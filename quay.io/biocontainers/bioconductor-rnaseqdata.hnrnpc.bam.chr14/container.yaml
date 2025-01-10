@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaseqdata.hnrnpc.bam.chr14
 latest:
-  0.40.0--r43hdfd78af_0: sha256:3f1c8153e4fb72ee4b0441f54e46ce88e6f9d425b6538fc1396919730336fbec
+  0.44.0--r44hdfd78af_0: sha256:1d56d31939f39eaa87e0ba8de4bccee1a04e4c56d6aae40f10f061ac2cfafcc9
 tags:
   0.32.0--r41hdfd78af_1: sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d
   0.35.0--r42hdfd78af_0: sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3
   0.38.0--r43hdfd78af_0: sha256:ba5bcbd20cd7ec6e0ceb092730e5c3e2e4d7a1c25c1acc2f58d7d4dde0a2371e
   0.40.0--r43hdfd78af_0: sha256:3f1c8153e4fb72ee4b0441f54e46ce88e6f9d425b6538fc1396919730336fbec
+  0.44.0--r44hdfd78af_0: sha256:1d56d31939f39eaa87e0ba8de4bccee1a04e4c56d6aae40f10f061ac2cfafcc9
 docker: quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14

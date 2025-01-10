@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pb-falcon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pb-falcon
 latest:
-  2.2.4--py39he47c912_6: sha256:5be0a47edf9e28b8945e170f20f163c81c34f28537f9edf2d37fd5fff1ecc2eb
+  2.2.4--py311h384fd50_7: sha256:78db731e0578f5987095465963ac259054973d6daa65a8cbe2823fb483404a51
 tags:
   2.2.4--py38ha1fcc84_2: sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487
   2.2.4--py37h6a4bb35_3: sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9
   2.2.4--py39hb7ef6d5_4: sha256:41fec34240293ad57029600b8c7c2d311142d1c0bc087d729bdd6efc2bbeec4b
   2.2.4--py39he47c912_6: sha256:5be0a47edf9e28b8945e170f20f163c81c34f28537f9edf2d37fd5fff1ecc2eb
+  2.2.4--py311h384fd50_7: sha256:78db731e0578f5987095465963ac259054973d6daa65a8cbe2823fb483404a51
 docker: quay.io/biocontainers/pb-falcon

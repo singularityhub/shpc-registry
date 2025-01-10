@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-faahko
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-faahko
 latest:
-  1.42.0--r43hdfd78af_0: sha256:f348a22b7a5eb0d5d4ddbe370e26412383866122b02ebac0f92086a3d0b2124f
+  1.46.0--r44hdfd78af_0: sha256:20c30df9644a6f7fbe7d4674d63f85a644c2ab0f6bfa5b96c68241092ce89884
 tags:
   1.34.0--r41hdfd78af_1: sha256:8b04dbcaf73402ba43d88c2b83891da7d52f4d749cc54a3275ec8e3053564136
   1.38.0--r42hdfd78af_0: sha256:18d818fe3d8e6165a1f845a52e608b35a7af12c662368300376d88827d9d55b0
   1.40.0--r43hdfd78af_0: sha256:830cafa160588687a703dab273062aaa7f199fb204b4d3fb90df2316fc937001
   1.42.0--r43hdfd78af_0: sha256:f348a22b7a5eb0d5d4ddbe370e26412383866122b02ebac0f92086a3d0b2124f
+  1.46.0--r44hdfd78af_0: sha256:20c30df9644a6f7fbe7d4674d63f85a644c2ab0f6bfa5b96c68241092ce89884
 docker: quay.io/biocontainers/bioconductor-faahko
 aliases:
   zipcmp: /usr/local/bin/zipcmp

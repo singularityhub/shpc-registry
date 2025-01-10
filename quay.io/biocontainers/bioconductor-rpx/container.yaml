@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rpx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rpx
 latest:
-  2.10.0--r43hdfd78af_0: sha256:00150582329b8e649b8f827e4aaeb134726fd0d1336a48994e64d73d106d307b
+  2.14.0--r44hdfd78af_0: sha256:4fd06d979546b13b29116755644c705794b1ca3d127a160fe27aaa39148db3ea
 tags:
   2.1.12--r41hdfd78af_0: sha256:06ee8f1d216ca794b4dc97a114461e35c64f21d91ccd6a78e3cf11100d878f9c
   2.6.0--r42hdfd78af_0: sha256:767b67b91b31f746f1413f68345293b1fd733f779cb45528dbf8b7d90fc3b961
   2.8.0--r43hdfd78af_0: sha256:a684616dce30f077df7213e6f8864bc7f4cf6913d5d255410d9ff106604872a0
   2.10.0--r43hdfd78af_0: sha256:00150582329b8e649b8f827e4aaeb134726fd0d1336a48994e64d73d106d307b
+  2.14.0--r44hdfd78af_0: sha256:4fd06d979546b13b29116755644c705794b1ca3d127a160fe27aaa39148db3ea
 docker: quay.io/biocontainers/bioconductor-rpx

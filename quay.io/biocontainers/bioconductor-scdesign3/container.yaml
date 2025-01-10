@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scdesign3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scdesign3
 latest:
-  1.0.0--r43hdfd78af_0: sha256:7ae97023a1b739c3d245c8f23cdffa93c760447ce2e75bd9dd7c169aa17438fa
+  1.4.0--r44hdfd78af_0: sha256:2e672870ed3b15178f38a2cae15eb4fe0941bd9020263c89cbca244e2b0e2aef
 tags:
   1.0.0--r43hdfd78af_0: sha256:7ae97023a1b739c3d245c8f23cdffa93c760447ce2e75bd9dd7c169aa17438fa
+  1.4.0--r44hdfd78af_0: sha256:2e672870ed3b15178f38a2cae15eb4fe0941bd9020263c89cbca244e2b0e2aef
 docker: quay.io/biocontainers/bioconductor-scdesign3
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

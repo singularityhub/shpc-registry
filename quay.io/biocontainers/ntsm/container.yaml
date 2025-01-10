@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ntsm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ntsm
 latest:
-  1.2.1--hdcf5f25_0: sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788
+  1.2.1--h077b44d_1: sha256:4ac5eabc60e514539a494be06926ea45ea5242cb4d056f41bcdf484a49093cce
 tags:
   1.2.1--hdcf5f25_0: sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788
+  1.2.1--h077b44d_1: sha256:4ac5eabc60e514539a494be06926ea45ea5242cb4d056f41bcdf484a49093cce
 docker: quay.io/biocontainers/ntsm
 aliases:
   ntsmCount: /usr/local/bin/ntsmCount

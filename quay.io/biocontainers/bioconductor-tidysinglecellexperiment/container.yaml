@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-tidysinglecellexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tidysinglecellexperiment
 latest:
-  1.12.0--r43hdfd78af_0: sha256:52074eb0b994b0b5daf658a894b51c41787baf1876f44edcaf924d3ba5951803
+  1.16.0--r44hdfd78af_0: sha256:a342ce4c6e1b0883611b3475bd9bc2026e2889f812c75762953e45fe7a0052ab
 tags:
   1.4.0--r41hdfd78af_0: sha256:675a74d04c5c911789d978c5dc2c6a132290e862b772930f5d32854902953f80
   1.8.0--r42hdfd78af_0: sha256:85417eb67f879b3eddeb34605a8a3bcd1f1fdc0edc607fb48a2b48e0cd6bd6f5
   1.10.0--r43hdfd78af_0: sha256:fee4e28dfdd5d9777ce12c7573fa1b27cecf919f89c10c058c2fbc8794e14b23
   1.12.0--r43hdfd78af_0: sha256:52074eb0b994b0b5daf658a894b51c41787baf1876f44edcaf924d3ba5951803
+  1.16.0--r44hdfd78af_0: sha256:a342ce4c6e1b0883611b3475bd9bc2026e2889f812c75762953e45fe7a0052ab
 docker: quay.io/biocontainers/bioconductor-tidysinglecellexperiment

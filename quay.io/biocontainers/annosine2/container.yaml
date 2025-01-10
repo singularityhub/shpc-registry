@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/annosine2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annosine2
 latest:
-  2.0.7--pyh7e72e81_1: sha256:9118bcbbe15b80fcec2dfd6312da3b07b792418ca5b2ddb607c5594753adc34c
+  2.0.8--pyh7e72e81_0: sha256:9df5b17b9786d83e36d3ab185730f0834f9cdce1e21601bb89bb247625d13cc6
 tags:
   1.0.4--pyh7cba7a3_0: sha256:d042ece3e1fc28b04a6ec70ef8ff3fdd1b625f41143a53c498a1d0ddfa4294ca
   2.0.7--pyh7cba7a3_0: sha256:cb0162509ec72b4a746be6641f614681226cf21b0687d601d2532bec353f16f7
   1.0.5--pyh7cba7a3_0: sha256:99a2c20d23999476c670d33a3566ff5a63fff17a37646dba45d53e0580eb7650
   2.0.7--pyh7e72e81_1: sha256:9118bcbbe15b80fcec2dfd6312da3b07b792418ca5b2ddb607c5594753adc34c
+  2.0.8--pyh7e72e81_0: sha256:9df5b17b9786d83e36d3ab185730f0834f9cdce1e21601bb89bb247625d13cc6
 docker: quay.io/biocontainers/annosine2
 aliases:
   RM2Bed.py: /usr/local/bin/RM2Bed.py

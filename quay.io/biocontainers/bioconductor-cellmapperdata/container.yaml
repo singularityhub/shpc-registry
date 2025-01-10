@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cellmapperdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellmapperdata
 latest:
-  1.28.0--r43hdfd78af_0: sha256:13e927bb9254bf583676db76c290407f25fbb3082ad5d7f5d5d286e997460c91
+  1.32.0--r44hdfd78af_0: sha256:54b9ce89adf0e9467f7da7aee23dc0c5da53b3d4a48a0ae3d77a374e5ac8080b
 tags:
   1.8.0--r351_0: sha256:8198dca367d956bbd4d7222aa242bf0974385471b49276298a9560efe2003d7c
   1.24.0--r42hdfd78af_0: sha256:ff2f52b867520079d33f7181083dcb3fad69fa8fd04bdcdeb02003bfe226a67f
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:bfc29996b52830a1921ab2e79b11fab56b384c4dd64b1bde45d4ad169d1b154d
   1.26.0--r43hdfd78af_0: sha256:6fb26fe0c0da2b4f745e1a76b6b9af05df9a820672cecb8f79e3e8280fde835d
   1.28.0--r43hdfd78af_0: sha256:13e927bb9254bf583676db76c290407f25fbb3082ad5d7f5d5d286e997460c91
+  1.32.0--r44hdfd78af_0: sha256:54b9ce89adf0e9467f7da7aee23dc0c5da53b3d4a48a0ae3d77a374e5ac8080b
 docker: quay.io/biocontainers/bioconductor-cellmapperdata
 aliases:
   wget: /usr/local/bin/wget

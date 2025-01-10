@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-degraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-degraph
 latest:
-  1.54.0--r43hdfd78af_0: sha256:a785b5abd23064cfad2dca1362ee8b75e19d1d78e8a9d83bb5c83ca19ceb0fbc
+  1.58.0--r44hdfd78af_0: sha256:8e9d35d0aa102622f79ad52d31dca4357f4b0bec5bbcdb76cb7c90f9a1e060fc
 tags:
   1.46.0--r41hdfd78af_0: sha256:5a0236f1aede8144fa4697f8d3368976bb78389c4ba6754e69783d5864850fe0
   1.50.0--r42hdfd78af_0: sha256:1cb352db50ad49e614b8af9ae0772196bf3f3a4009a8ea94069b87df010cc9af
   1.52.0--r43hdfd78af_0: sha256:d0cc79bdc4c0f9dfc14026961314eab4da20319a00515aa1464c0a375100d839
   1.54.0--r43hdfd78af_0: sha256:a785b5abd23064cfad2dca1362ee8b75e19d1d78e8a9d83bb5c83ca19ceb0fbc
+  1.58.0--r44hdfd78af_0: sha256:8e9d35d0aa102622f79ad52d31dca4357f4b0bec5bbcdb76cb7c90f9a1e060fc
 docker: quay.io/biocontainers/bioconductor-degraph
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape
