@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ratatosk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratatosk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratatosk/container.yaml"
-updated_at: "2025-01-09 13:24:20.524739"
-latest: "0.9.0--hdcf5f25_1"
+updated_at: "2025-01-10 02:56:48.095730"
+latest: "0.9.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/ratatosk"
 aliases:
  - "Ratatosk"
@@ -14,8 +14,9 @@ versions:
  - "0.7.6.3--h43eeafb_2"
  - "0.9.0--hdcf5f25_0"
  - "0.9.0--hdcf5f25_1"
+ - "0.9.0--h077b44d_2"
 description: "singularity registry hpc automated addition for ratatosk"
-config: {"url": "https://biocontainers.pro/tools/ratatosk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ratatosk", "latest": {"0.9.0--hdcf5f25_1": "sha256:a97dbf26fa2ab5e52e9ae198213512b7c3f93dfcbaf2865a5696a7d45571d768"}, "tags": {"0.7.6.3--h5b5514e_0": "sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572", "0.7.6.3--h43eeafb_2": "sha256:19db80414eb8daa0a190d8d8a71c5a89f6253fa1f2968ba69b71661b07ba6b07", "0.9.0--hdcf5f25_0": "sha256:48a9f930a37ead3ac1365ad32ddd5ef8153a196bda773fea7e30ffd6f40f2ad4", "0.9.0--hdcf5f25_1": "sha256:a97dbf26fa2ab5e52e9ae198213512b7c3f93dfcbaf2865a5696a7d45571d768"}, "docker": "quay.io/biocontainers/ratatosk", "aliases": {"Ratatosk": "/usr/local/bin/Ratatosk"}}
+config: {"url": "https://biocontainers.pro/tools/ratatosk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ratatosk", "latest": {"0.9.0--h077b44d_2": "sha256:172c0e7d09614633f51e8a32f09e525d29b7c8f98e63d0161fcd9abe777fadc3"}, "tags": {"0.7.6.3--h5b5514e_0": "sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572", "0.7.6.3--h43eeafb_2": "sha256:19db80414eb8daa0a190d8d8a71c5a89f6253fa1f2968ba69b71661b07ba6b07", "0.9.0--hdcf5f25_0": "sha256:48a9f930a37ead3ac1365ad32ddd5ef8153a196bda773fea7e30ffd6f40f2ad4", "0.9.0--hdcf5f25_1": "sha256:a97dbf26fa2ab5e52e9ae198213512b7c3f93dfcbaf2865a5696a7d45571d768", "0.9.0--h077b44d_2": "sha256:172c0e7d09614633f51e8a32f09e525d29b7c8f98e63d0161fcd9abe777fadc3"}, "docker": "quay.io/biocontainers/ratatosk", "aliases": {"Ratatosk": "/usr/local/bin/Ratatosk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ratatosk.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/ratatosk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ratatosk:0.9.0--hdcf5f25_1
+$ shpc install quay.io/biocontainers/ratatosk:0.9.0--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ratatosk/0.9.0--hdcf5f25_1
-$ module help quay.io/biocontainers/ratatosk/0.9.0--hdcf5f25_1
+$ module load quay.io/biocontainers/ratatosk/0.9.0--h077b44d_2
+$ module help quay.io/biocontainers/ratatosk/0.9.0--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

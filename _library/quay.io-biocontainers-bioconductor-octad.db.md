@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-octad.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-octad.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-octad.db/container.yaml"
-updated_at: "2025-01-09 13:41:38.300753"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:12:55.345537"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-octad.db"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-octad.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-octad.db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-octad.db", "latest": {"1.4.0--r43hdfd78af_0": "sha256:f32c98b693d95e2f64f95a2a16b02d6058d8da0b94676c735726f79db636dfdc"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:31ef4c7620253b11f3e65e6049a95228ceae4f93b92f1c78d68e4ab9910cb672", "1.2.0--r43hdfd78af_0": "sha256:24fda8faeca94a49de3ffc485900ce7e30e021d48926a26237fdf4cc4bb79ab0", "1.4.0--r43hdfd78af_0": "sha256:f32c98b693d95e2f64f95a2a16b02d6058d8da0b94676c735726f79db636dfdc"}, "docker": "quay.io/biocontainers/bioconductor-octad.db", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-octad.db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-octad.db", "latest": {"1.8.0--r44hdfd78af_0": "sha256:8a055deea973510ce456929f7db6d8820983172ee4a33b09a9a88df43a08a7be"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:31ef4c7620253b11f3e65e6049a95228ceae4f93b92f1c78d68e4ab9910cb672", "1.2.0--r43hdfd78af_0": "sha256:24fda8faeca94a49de3ffc485900ce7e30e021d48926a26237fdf4cc4bb79ab0", "1.4.0--r43hdfd78af_0": "sha256:f32c98b693d95e2f64f95a2a16b02d6058d8da0b94676c735726f79db636dfdc", "1.8.0--r44hdfd78af_0": "sha256:8a055deea973510ce456929f7db6d8820983172ee4a33b09a9a88df43a08a7be"}, "docker": "quay.io/biocontainers/bioconductor-octad.db", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-octad.db.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-octad.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-octad.db:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-octad.db:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-octad.db/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-octad.db/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-octad.db/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-octad.db/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipseqdbdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipseqdbdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipseqdbdata/container.yaml"
-updated_at: "2025-01-09 14:13:33.859193"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:42:49.525038"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipseqdbdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.10.0--r41hdfd78af_1"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipseqdbdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseqdbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseqdbdata", "latest": {"1.18.0--r43hdfd78af_0": "sha256:e19f9d687ce8505e6359f5414a22ff6767a9daa251746fb5633e9b7562ad5efc"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1798d36de69a42f2c3225255bad93d5421dedc908baf21d844deab8599e188ea", "1.14.0--r42hdfd78af_0": "sha256:e29afec74570ed887e76f6b3e7e920fe33018cd014a6b9ebc9a462352375201e", "1.10.0--r41hdfd78af_1": "sha256:8983da645500ef2e1fb8532bb49a59c6a85505b2558544fbe927b849e0fce084", "1.16.0--r43hdfd78af_0": "sha256:c874b9d93187cb59def46d0b04b60e474e79b760ff3ec99f690eed73154ad9d6", "1.18.0--r43hdfd78af_0": "sha256:e19f9d687ce8505e6359f5414a22ff6767a9daa251746fb5633e9b7562ad5efc"}, "docker": "quay.io/biocontainers/bioconductor-chipseqdbdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseqdbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseqdbdata", "latest": {"1.22.0--r44hdfd78af_0": "sha256:5f0fd81a6029bd4ae5e68f9b95d188cb37ef37f05032b63a478d4fdc9d4fc5ba"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1798d36de69a42f2c3225255bad93d5421dedc908baf21d844deab8599e188ea", "1.14.0--r42hdfd78af_0": "sha256:e29afec74570ed887e76f6b3e7e920fe33018cd014a6b9ebc9a462352375201e", "1.10.0--r41hdfd78af_1": "sha256:8983da645500ef2e1fb8532bb49a59c6a85505b2558544fbe927b849e0fce084", "1.16.0--r43hdfd78af_0": "sha256:c874b9d93187cb59def46d0b04b60e474e79b760ff3ec99f690eed73154ad9d6", "1.18.0--r43hdfd78af_0": "sha256:e19f9d687ce8505e6359f5414a22ff6767a9daa251746fb5633e9b7562ad5efc", "1.22.0--r44hdfd78af_0": "sha256:5f0fd81a6029bd4ae5e68f9b95d188cb37ef37f05032b63a478d4fdc9d4fc5ba"}, "docker": "quay.io/biocontainers/bioconductor-chipseqdbdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipseqdbdata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipseqdbdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipseqdbdata:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipseqdbdata:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipseqdbdata/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipseqdbdata/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipseqdbdata/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipseqdbdata/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

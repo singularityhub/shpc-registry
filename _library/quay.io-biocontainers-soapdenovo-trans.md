@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/soapdenovo-trans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo-trans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo-trans/container.yaml"
-updated_at: "2025-01-09 13:36:25.336861"
-latest: "1.04--he4a0461_6"
+updated_at: "2025-01-10 03:08:04.351077"
+latest: "1.04--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/soapdenovo-trans"
 aliases:
  - "SOAPdenovo-Trans-127mer"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.04--h7132678_5"
  - "1.04--he4a0461_6"
+ - "1.04--h577a1d6_7"
 description: "shpc-registry automated BioContainers addition for soapdenovo-trans"
-config: {"url": "https://biocontainers.pro/tools/soapdenovo-trans", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo-trans", "latest": {"1.04--he4a0461_6": "sha256:cb0418465bfaf830cb338b4883f1b7ce334cf551988e28b3e16b29fe2a962144"}, "tags": {"1.04--h7132678_5": "sha256:dc453fa932869384698ba29b5cbf4772da90d8516a311c5a6b8d1da939b8c042", "1.04--he4a0461_6": "sha256:cb0418465bfaf830cb338b4883f1b7ce334cf551988e28b3e16b29fe2a962144"}, "docker": "quay.io/biocontainers/soapdenovo-trans", "aliases": {"SOAPdenovo-Trans-127mer": "/usr/local/bin/SOAPdenovo-Trans-127mer", "SOAPdenovo-Trans-31mer": "/usr/local/bin/SOAPdenovo-Trans-31mer"}}
+config: {"url": "https://biocontainers.pro/tools/soapdenovo-trans", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo-trans", "latest": {"1.04--h577a1d6_7": "sha256:326b86aa7e65ff2bcc380e9dbb2597e1bddb06116dd2abf8125e13e8b75e571c"}, "tags": {"1.04--h7132678_5": "sha256:dc453fa932869384698ba29b5cbf4772da90d8516a311c5a6b8d1da939b8c042", "1.04--he4a0461_6": "sha256:cb0418465bfaf830cb338b4883f1b7ce334cf551988e28b3e16b29fe2a962144", "1.04--h577a1d6_7": "sha256:326b86aa7e65ff2bcc380e9dbb2597e1bddb06116dd2abf8125e13e8b75e571c"}, "docker": "quay.io/biocontainers/soapdenovo-trans", "aliases": {"SOAPdenovo-Trans-127mer": "/usr/local/bin/SOAPdenovo-Trans-127mer", "SOAPdenovo-Trans-31mer": "/usr/local/bin/SOAPdenovo-Trans-31mer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapdenovo-trans.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/soapdenovo-trans
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soapdenovo-trans:1.04--he4a0461_6
+$ shpc install quay.io/biocontainers/soapdenovo-trans:1.04--h577a1d6_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soapdenovo-trans/1.04--he4a0461_6
-$ module help quay.io/biocontainers/soapdenovo-trans/1.04--he4a0461_6
+$ module load quay.io/biocontainers/soapdenovo-trans/1.04--h577a1d6_7
+$ module help quay.io/biocontainers/soapdenovo-trans/1.04--h577a1d6_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

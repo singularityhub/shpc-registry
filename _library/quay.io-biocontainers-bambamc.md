@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bambamc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bambamc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bambamc/container.yaml"
-updated_at: "2025-01-09 13:56:22.562676"
-latest: "0.0.50--he4a0461_8"
+updated_at: "2025-01-10 03:26:54.488137"
+latest: "0.0.50--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/bambamc"
 
 versions:
  - "0.0.50--h7132678_5"
  - "0.0.50--he4a0461_7"
  - "0.0.50--he4a0461_8"
+ - "0.0.50--h577a1d6_9"
 description: "shpc-registry automated BioContainers addition for bambamc"
-config: {"url": "https://biocontainers.pro/tools/bambamc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bambamc", "latest": {"0.0.50--he4a0461_8": "sha256:171d0c11da92eb93069986bb3231080779ef68e6256f3ae35e16111c9005f854"}, "tags": {"0.0.50--h7132678_5": "sha256:1747302f343455876f6a7850483e817a8bfbb598c25c2f68faad94a3ba71662e", "0.0.50--he4a0461_7": "sha256:e9dd17d6bf9e8e7a239ec3e670093504d0a80d6c0d6dcda0098ddee5a55e2dc0", "0.0.50--he4a0461_8": "sha256:171d0c11da92eb93069986bb3231080779ef68e6256f3ae35e16111c9005f854"}, "docker": "quay.io/biocontainers/bambamc"}
+config: {"url": "https://biocontainers.pro/tools/bambamc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bambamc", "latest": {"0.0.50--h577a1d6_9": "sha256:2e3505b4da7c80780486e8c2e3cef0f1b02d9ce58c4974dd7c67b6ff0e9d3439"}, "tags": {"0.0.50--h7132678_5": "sha256:1747302f343455876f6a7850483e817a8bfbb598c25c2f68faad94a3ba71662e", "0.0.50--he4a0461_7": "sha256:e9dd17d6bf9e8e7a239ec3e670093504d0a80d6c0d6dcda0098ddee5a55e2dc0", "0.0.50--he4a0461_8": "sha256:171d0c11da92eb93069986bb3231080779ef68e6256f3ae35e16111c9005f854", "0.0.50--h577a1d6_9": "sha256:2e3505b4da7c80780486e8c2e3cef0f1b02d9ce58c4974dd7c67b6ff0e9d3439"}, "docker": "quay.io/biocontainers/bambamc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bambamc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bambamc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bambamc:0.0.50--he4a0461_8
+$ shpc install quay.io/biocontainers/bambamc:0.0.50--h577a1d6_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bambamc/0.0.50--he4a0461_8
-$ module help quay.io/biocontainers/bambamc/0.0.50--he4a0461_8
+$ module load quay.io/biocontainers/bambamc/0.0.50--h577a1d6_9
+$ module help quay.io/biocontainers/bambamc/0.0.50--h577a1d6_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

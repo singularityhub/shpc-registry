@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-turbonorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-turbonorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-turbonorm/container.yaml"
-updated_at: "2025-01-09 13:46:09.594198"
-latest: "1.50.0--r43ha9d7317_0"
+updated_at: "2025-01-10 03:17:09.619092"
+latest: "1.54.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-turbonorm"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.46.0--r42ha9d7317_1"
  - "1.48.0--r43ha9d7317_0"
  - "1.50.0--r43ha9d7317_0"
+ - "1.54.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-turbonorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-turbonorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-turbonorm", "latest": {"1.50.0--r43ha9d7317_0": "sha256:36f18c36cbe4e17917fdcf440733bd3ab85ab461b6b423be2651c250a319e161"}, "tags": {"1.42.0--r41hc0cfd56_2": "sha256:6c8c83fb3f1bfdc51bdfdd03c289fffb2ed70bbc9b88c1a70f53fd291cb3ad59", "1.46.0--r42hc0cfd56_0": "sha256:7639459e855ff0ad59e9f0ca8dc56a09f342305023d882a23588c7b1b9e05511", "1.46.0--r42ha9d7317_1": "sha256:9f5fd72c96aa7cc0a61bd39e6d4c0d8701a9fddc4d09bfe0255016c9ee646788", "1.48.0--r43ha9d7317_0": "sha256:7dc6598cc80147f35d2a89730a5395df9b224ced7bf8da4dcd892638ef5990a8", "1.50.0--r43ha9d7317_0": "sha256:36f18c36cbe4e17917fdcf440733bd3ab85ab461b6b423be2651c250a319e161"}, "docker": "quay.io/biocontainers/bioconductor-turbonorm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-turbonorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-turbonorm", "latest": {"1.54.0--r44h3df3fcb_0": "sha256:b74c237110c04acc02c69178fb9e83244832fbe8bb079f8784798aa669977d99"}, "tags": {"1.42.0--r41hc0cfd56_2": "sha256:6c8c83fb3f1bfdc51bdfdd03c289fffb2ed70bbc9b88c1a70f53fd291cb3ad59", "1.46.0--r42hc0cfd56_0": "sha256:7639459e855ff0ad59e9f0ca8dc56a09f342305023d882a23588c7b1b9e05511", "1.46.0--r42ha9d7317_1": "sha256:9f5fd72c96aa7cc0a61bd39e6d4c0d8701a9fddc4d09bfe0255016c9ee646788", "1.48.0--r43ha9d7317_0": "sha256:7dc6598cc80147f35d2a89730a5395df9b224ced7bf8da4dcd892638ef5990a8", "1.50.0--r43ha9d7317_0": "sha256:36f18c36cbe4e17917fdcf440733bd3ab85ab461b6b423be2651c250a319e161", "1.54.0--r44h3df3fcb_0": "sha256:b74c237110c04acc02c69178fb9e83244832fbe8bb079f8784798aa669977d99"}, "docker": "quay.io/biocontainers/bioconductor-turbonorm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-turbonorm.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-turbonorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-turbonorm:1.50.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-turbonorm:1.54.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-turbonorm/1.50.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-turbonorm/1.50.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-turbonorm/1.54.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-turbonorm/1.54.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

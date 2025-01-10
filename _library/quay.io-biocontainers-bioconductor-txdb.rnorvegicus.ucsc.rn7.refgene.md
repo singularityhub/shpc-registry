@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/container.yaml"
-updated_at: "2025-01-09 13:40:51.336901"
-latest: "3.15.0--r43hdfd78af_2"
+updated_at: "2025-01-10 03:12:11.422249"
+latest: "3.15.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.15.0--r42hdfd78af_0"
  - "3.15.0--r43hdfd78af_1"
  - "3.15.0--r43hdfd78af_2"
+ - "3.15.0--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene", "latest": {"3.15.0--r43hdfd78af_2": "sha256:4a0b3ef637835d127afdf5936cd5dbc23a41d796ba374d4b12e569454ae2e9d8"}, "tags": {"3.14.0--r41hdfd78af_1": "sha256:8d90988103e34742340152e702ec987931788771f7a601e53d39a4c5a7986e7b", "3.15.0--r42hdfd78af_0": "sha256:e094e0f9b50f311e5781387baab333d6337eeaab46ef1d5c0d5567ab72e24320", "3.15.0--r43hdfd78af_1": "sha256:43e4483f61f37f65dca2b90befc464bc2b4d796d0124bfde4b2856b0889aa4c2", "3.15.0--r43hdfd78af_2": "sha256:4a0b3ef637835d127afdf5936cd5dbc23a41d796ba374d4b12e569454ae2e9d8"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene", "latest": {"3.15.0--r44hdfd78af_3": "sha256:43d2cd4840be080420b55dd6b1170ed6facf854e1594a4e731099653b99d5d62"}, "tags": {"3.14.0--r41hdfd78af_1": "sha256:8d90988103e34742340152e702ec987931788771f7a601e53d39a4c5a7986e7b", "3.15.0--r42hdfd78af_0": "sha256:e094e0f9b50f311e5781387baab333d6337eeaab46ef1d5c0d5567ab72e24320", "3.15.0--r43hdfd78af_1": "sha256:43e4483f61f37f65dca2b90befc464bc2b4d796d0124bfde4b2856b0889aa4c2", "3.15.0--r43hdfd78af_2": "sha256:4a0b3ef637835d127afdf5936cd5dbc23a41d796ba374d4b12e569454ae2e9d8", "3.15.0--r44hdfd78af_3": "sha256:43d2cd4840be080420b55dd6b1170ed6facf854e1594a4e731099653b99d5d62"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene:3.15.0--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene:3.15.0--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/3.15.0--r43hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/3.15.0--r43hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/3.15.0--r44hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene/3.15.0--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-aroma.light"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aroma.light/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aroma.light/container.yaml"
-updated_at: "2025-01-09 13:59:31.590206"
-latest: "3.32.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:29:55.206703"
+latest: "3.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aroma.light"
 aliases:
  - "tclsh8.5"
@@ -21,8 +21,9 @@ versions:
  - "3.18.0--r40_0"
  - "3.30.0--r43hdfd78af_0"
  - "3.32.0--r43hdfd78af_0"
+ - "3.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-aroma.light"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-aroma.light", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aroma.light", "latest": {"3.32.0--r43hdfd78af_0": "sha256:226e987d405291edcaae4938c12cf52d8918e8824fa8ebcb5ba9ae618b76a1da"}, "tags": {"3.8.0--r3.4.1_0": "sha256:ed78f75ee6909c6d107fbdb6fe505037da5f9b874c13f0d15a5cdb09effb3b55", "3.28.0--r42hdfd78af_0": "sha256:58cbd4f74438bae7b5986b7527f9e5eaaee9884bac763511a654bb377850f021", "3.24.0--r41hdfd78af_0": "sha256:6f51803d71c4acfb361df60a9b25694e9873bb12d5c7702f52c9eec36824129e", "3.22.0--r41hdfd78af_0": "sha256:bb4e204dc327955a454461f1ee4b0a0da8e0b1d536421c349671e3068b451e0e", "3.20.0--r40hdfd78af_1": "sha256:703e7aa2379bd3b897c20c0211c1727f0afc3224f8aa7a0d7985cfa7ecd78e89", "3.18.0--r40_0": "sha256:996e082e03b45b22f710a56b26783fede2c487791328a7c18bbccd19ff89e21e", "3.30.0--r43hdfd78af_0": "sha256:540f16096f3b7856f95043ee0118e4db4bf249a2434c08095dc8ced96a373fd7", "3.32.0--r43hdfd78af_0": "sha256:226e987d405291edcaae4938c12cf52d8918e8824fa8ebcb5ba9ae618b76a1da"}, "docker": "quay.io/biocontainers/bioconductor-aroma.light", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-aroma.light", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aroma.light", "latest": {"3.36.0--r44hdfd78af_0": "sha256:828d40574113c7899a0f24d0e057caf14f83866250311a2e4eb15dc0f1318015"}, "tags": {"3.8.0--r3.4.1_0": "sha256:ed78f75ee6909c6d107fbdb6fe505037da5f9b874c13f0d15a5cdb09effb3b55", "3.28.0--r42hdfd78af_0": "sha256:58cbd4f74438bae7b5986b7527f9e5eaaee9884bac763511a654bb377850f021", "3.24.0--r41hdfd78af_0": "sha256:6f51803d71c4acfb361df60a9b25694e9873bb12d5c7702f52c9eec36824129e", "3.22.0--r41hdfd78af_0": "sha256:bb4e204dc327955a454461f1ee4b0a0da8e0b1d536421c349671e3068b451e0e", "3.20.0--r40hdfd78af_1": "sha256:703e7aa2379bd3b897c20c0211c1727f0afc3224f8aa7a0d7985cfa7ecd78e89", "3.18.0--r40_0": "sha256:996e082e03b45b22f710a56b26783fede2c487791328a7c18bbccd19ff89e21e", "3.30.0--r43hdfd78af_0": "sha256:540f16096f3b7856f95043ee0118e4db4bf249a2434c08095dc8ced96a373fd7", "3.32.0--r43hdfd78af_0": "sha256:226e987d405291edcaae4938c12cf52d8918e8824fa8ebcb5ba9ae618b76a1da", "3.36.0--r44hdfd78af_0": "sha256:828d40574113c7899a0f24d0e057caf14f83866250311a2e4eb15dc0f1318015"}, "docker": "quay.io/biocontainers/bioconductor-aroma.light", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-aroma.light.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-aroma.light
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-aroma.light:3.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-aroma.light:3.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-aroma.light/3.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-aroma.light/3.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-aroma.light/3.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-aroma.light/3.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

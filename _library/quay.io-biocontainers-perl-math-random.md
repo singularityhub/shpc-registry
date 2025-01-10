@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-math-random"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-random/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-random/container.yaml"
-updated_at: "2025-01-09 13:41:29.181298"
-latest: "0.72--pl5321h031d066_7"
+updated_at: "2025-01-10 03:12:46.960297"
+latest: "0.72--pl5321h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/perl-math-random"
 
 versions:
  - "0.72--pl5321hec16e2b_4"
  - "0.72--pl5321h031d066_6"
  - "0.72--pl5321h031d066_7"
+ - "0.72--pl5321h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for perl-math-random"
-config: {"url": "https://biocontainers.pro/tools/perl-math-random", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-random", "latest": {"0.72--pl5321h031d066_7": "sha256:a283ec1fbf0e76b303808291dc8ee12b41c3323579b5e1d67b1c6055f48f59b9"}, "tags": {"0.72--pl5321hec16e2b_4": "sha256:36ddf2b0c722a0d1648c7902092610da9ae7272c81cb54dadeebee9e7226ac5e", "0.72--pl5321h031d066_6": "sha256:33a3651b4b8bd52c513fb9a5dae04756e1744c219bcfabcdf8b2bc704c62a4ec", "0.72--pl5321h031d066_7": "sha256:a283ec1fbf0e76b303808291dc8ee12b41c3323579b5e1d67b1c6055f48f59b9"}, "docker": "quay.io/biocontainers/perl-math-random"}
+config: {"url": "https://biocontainers.pro/tools/perl-math-random", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-random", "latest": {"0.72--pl5321h7b50bb2_8": "sha256:b31050c48d18b67abded63846a1b437fb2c9caf2a6c9f31f0519f61f16226e34"}, "tags": {"0.72--pl5321hec16e2b_4": "sha256:36ddf2b0c722a0d1648c7902092610da9ae7272c81cb54dadeebee9e7226ac5e", "0.72--pl5321h031d066_6": "sha256:33a3651b4b8bd52c513fb9a5dae04756e1744c219bcfabcdf8b2bc704c62a4ec", "0.72--pl5321h031d066_7": "sha256:a283ec1fbf0e76b303808291dc8ee12b41c3323579b5e1d67b1c6055f48f59b9", "0.72--pl5321h7b50bb2_8": "sha256:b31050c48d18b67abded63846a1b437fb2c9caf2a6c9f31f0519f61f16226e34"}, "docker": "quay.io/biocontainers/perl-math-random"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-math-random.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-math-random
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-math-random:0.72--pl5321h031d066_7
+$ shpc install quay.io/biocontainers/perl-math-random:0.72--pl5321h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-math-random/0.72--pl5321h031d066_7
-$ module help quay.io/biocontainers/perl-math-random/0.72--pl5321h031d066_7
+$ module load quay.io/biocontainers/perl-math-random/0.72--pl5321h7b50bb2_8
+$ module help quay.io/biocontainers/perl-math-random/0.72--pl5321h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

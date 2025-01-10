@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/knotinframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knotinframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knotinframe/container.yaml"
-updated_at: "2025-01-09 13:46:26.391050"
-latest: "2.3.2--h4ac6f70_0"
+updated_at: "2025-01-10 03:17:25.887871"
+latest: "2.3.2--h9948957_1"
 container_url: "https://biocontainers.pro/tools/knotinframe"
 aliases:
  - "addRNAoptions.pl"
@@ -19,8 +19,9 @@ versions:
  - "2.2.14--pl5321h9f5acd7_0"
  - "2.2.14--pl5321h4ac6f70_1"
  - "2.3.2--h4ac6f70_0"
+ - "2.3.2--h9948957_1"
 description: "singularity registry hpc automated addition for knotinframe"
-config: {"url": "https://biocontainers.pro/tools/knotinframe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for knotinframe", "latest": {"2.3.2--h4ac6f70_0": "sha256:761a8ff71c08378254771e5d302257fb035365ebb830f82c3185b754d80e28b8"}, "tags": {"2.2.14--pl5321h9f5acd7_0": "sha256:99b15a33cd982b2e72e14365fe820b883ac07228c32a941e7665894164496e9e", "2.2.14--pl5321h4ac6f70_1": "sha256:8aa6f03fa14453064ed8f1436f187ba849cf79074eeb5464ae5416f237aacf19", "2.3.2--h4ac6f70_0": "sha256:761a8ff71c08378254771e5d302257fb035365ebb830f82c3185b754d80e28b8"}, "docker": "quay.io/biocontainers/knotinframe", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "knotinframe": "/usr/local/bin/knotinframe", "knotinframe_knotted": "/usr/local/bin/knotinframe_knotted", "knotinframe_nested": "/usr/local/bin/knotinframe_nested", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/knotinframe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for knotinframe", "latest": {"2.3.2--h9948957_1": "sha256:c6782e478e641db37fc33b62fee78c0fc7cab1cf654d6ffaabf6539ecd90b240"}, "tags": {"2.2.14--pl5321h9f5acd7_0": "sha256:99b15a33cd982b2e72e14365fe820b883ac07228c32a941e7665894164496e9e", "2.2.14--pl5321h4ac6f70_1": "sha256:8aa6f03fa14453064ed8f1436f187ba849cf79074eeb5464ae5416f237aacf19", "2.3.2--h4ac6f70_0": "sha256:761a8ff71c08378254771e5d302257fb035365ebb830f82c3185b754d80e28b8", "2.3.2--h9948957_1": "sha256:c6782e478e641db37fc33b62fee78c0fc7cab1cf654d6ffaabf6539ecd90b240"}, "docker": "quay.io/biocontainers/knotinframe", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "knotinframe": "/usr/local/bin/knotinframe", "knotinframe_knotted": "/usr/local/bin/knotinframe_knotted", "knotinframe_nested": "/usr/local/bin/knotinframe_nested", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/knotinframe.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/knotinframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/knotinframe:2.3.2--h4ac6f70_0
+$ shpc install quay.io/biocontainers/knotinframe:2.3.2--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/knotinframe/2.3.2--h4ac6f70_0
-$ module help quay.io/biocontainers/knotinframe/2.3.2--h4ac6f70_0
+$ module load quay.io/biocontainers/knotinframe/2.3.2--h9948957_1
+$ module help quay.io/biocontainers/knotinframe/2.3.2--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

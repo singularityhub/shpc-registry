@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scaledmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scaledmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scaledmatrix/container.yaml"
-updated_at: "2025-01-09 14:08:56.098284"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:38:35.454231"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scaledmatrix"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.1--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scaledmatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scaledmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scaledmatrix", "latest": {"1.10.0--r43hdfd78af_0": "sha256:eb22fefc662125ab8e194e0f5d8b54453585bc75ea352b3ac8994cc9a8f71991"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:29b0c7f54a0e6801d4174310c076d17f68a54bbf74811b0e6de77bccd4424192", "1.6.0--r42hdfd78af_0": "sha256:b6cd2b6a53706ac710b8449501c95bcbc293193e5e9dc93fd8227101a508246a", "1.8.1--r43hdfd78af_0": "sha256:68a519abb968b64e5454c625d36d2d11df12c7fdbeeaf1f897ce64a603cc7ade", "1.10.0--r43hdfd78af_0": "sha256:eb22fefc662125ab8e194e0f5d8b54453585bc75ea352b3ac8994cc9a8f71991"}, "docker": "quay.io/biocontainers/bioconductor-scaledmatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scaledmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scaledmatrix", "latest": {"1.14.0--r44hdfd78af_0": "sha256:834f6054c2bf1e24b9a83061f5f27d589dc2f7d1d1df1787068e0730e3250624"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:29b0c7f54a0e6801d4174310c076d17f68a54bbf74811b0e6de77bccd4424192", "1.6.0--r42hdfd78af_0": "sha256:b6cd2b6a53706ac710b8449501c95bcbc293193e5e9dc93fd8227101a508246a", "1.8.1--r43hdfd78af_0": "sha256:68a519abb968b64e5454c625d36d2d11df12c7fdbeeaf1f897ce64a603cc7ade", "1.10.0--r43hdfd78af_0": "sha256:eb22fefc662125ab8e194e0f5d8b54453585bc75ea352b3ac8994cc9a8f71991", "1.14.0--r44hdfd78af_0": "sha256:834f6054c2bf1e24b9a83061f5f27d589dc2f7d1d1df1787068e0730e3250624"}, "docker": "quay.io/biocontainers/bioconductor-scaledmatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scaledmatrix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scaledmatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scaledmatrix:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scaledmatrix:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scaledmatrix/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scaledmatrix/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scaledmatrix/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scaledmatrix/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

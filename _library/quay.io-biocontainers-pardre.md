@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pardre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pardre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pardre/container.yaml"
-updated_at: "2025-01-09 13:23:04.601203"
-latest: "2.2.5--h6b557da_3"
+updated_at: "2025-01-10 02:55:38.293240"
+latest: "2.2.5--h2aad775_4"
 container_url: "https://biocontainers.pro/tools/pardre"
 aliases:
  - "ParDRe"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "2.2.5--h0dae2d6_1"
  - "2.2.5--h6b557da_3"
+ - "2.2.5--h2aad775_4"
 description: "singularity registry hpc automated addition for pardre"
-config: {"url": "https://biocontainers.pro/tools/pardre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pardre", "latest": {"2.2.5--h6b557da_3": "sha256:e1d15390cf060fe7f0969af06f20621b96764c4db4770dfe8a2a59926310713e"}, "tags": {"2.2.5--h0dae2d6_1": "sha256:3e7261629fa2463d5fabdaaec28989482234e1f7bb35dfe97cafd8af259e1817", "2.2.5--h6b557da_3": "sha256:e1d15390cf060fe7f0969af06f20621b96764c4db4770dfe8a2a59926310713e"}, "docker": "quay.io/biocontainers/pardre", "aliases": {"ParDRe": "/usr/local/bin/ParDRe", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc", "mpicxx": "/usr/local/bin/mpicxx", "mpiexec": "/usr/local/bin/mpiexec", "mpif77": "/usr/local/bin/mpif77", "mpif90": "/usr/local/bin/mpif90", "mpirun": "/usr/local/bin/mpirun"}}
+config: {"url": "https://biocontainers.pro/tools/pardre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pardre", "latest": {"2.2.5--h2aad775_4": "sha256:0806b8ba51aa9aef21e1ca3ea2f2a823aba0bc86037e3e5ea622f116ebe66b3e"}, "tags": {"2.2.5--h0dae2d6_1": "sha256:3e7261629fa2463d5fabdaaec28989482234e1f7bb35dfe97cafd8af259e1817", "2.2.5--h6b557da_3": "sha256:e1d15390cf060fe7f0969af06f20621b96764c4db4770dfe8a2a59926310713e", "2.2.5--h2aad775_4": "sha256:0806b8ba51aa9aef21e1ca3ea2f2a823aba0bc86037e3e5ea622f116ebe66b3e"}, "docker": "quay.io/biocontainers/pardre", "aliases": {"ParDRe": "/usr/local/bin/ParDRe", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc", "mpicxx": "/usr/local/bin/mpicxx", "mpiexec": "/usr/local/bin/mpiexec", "mpif77": "/usr/local/bin/mpif77", "mpif90": "/usr/local/bin/mpif90", "mpirun": "/usr/local/bin/mpirun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pardre.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/pardre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pardre:2.2.5--h6b557da_3
+$ shpc install quay.io/biocontainers/pardre:2.2.5--h2aad775_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pardre/2.2.5--h6b557da_3
-$ module help quay.io/biocontainers/pardre/2.2.5--h6b557da_3
+$ module load quay.io/biocontainers/pardre/2.2.5--h2aad775_4
+$ module help quay.io/biocontainers/pardre/2.2.5--h2aad775_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

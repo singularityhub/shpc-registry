@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-recetox-waveica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-waveica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-waveica/container.yaml"
-updated_at: "2025-01-09 13:46:20.961076"
-latest: "0.2.0--r43hdfd78af_2"
+updated_at: "2025-01-10 03:17:20.710860"
+latest: "0.2.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-recetox-waveica"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
  - "0.2.0--r42hdfd78af_1"
  - "0.2.0--r43hdfd78af_2"
+ - "0.2.0--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-recetox-waveica"
-config: {"url": "https://biocontainers.pro/tools/r-recetox-waveica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-waveica", "latest": {"0.2.0--r43hdfd78af_2": "sha256:2bbda83bd774299b3f9c2c9c9a4b20501215c6d06eceda39117c789c660903fb"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:da5346275d105b6983eee9d0e0bac791f9f051dfcda1061d246408c59d192b9e", "0.2.0--r42hdfd78af_1": "sha256:da3a15f086c9149feca4ec65d74bebb5530df78605bd8f06a8535a36924c8487", "0.2.0--r43hdfd78af_2": "sha256:2bbda83bd774299b3f9c2c9c9a4b20501215c6d06eceda39117c789c660903fb"}, "docker": "quay.io/biocontainers/r-recetox-waveica"}
+config: {"url": "https://biocontainers.pro/tools/r-recetox-waveica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-waveica", "latest": {"0.2.0--r44hdfd78af_3": "sha256:e03adf603465ba23640cd215398fa92ba42a9940cecfed498dd166eaacb69d78"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:da5346275d105b6983eee9d0e0bac791f9f051dfcda1061d246408c59d192b9e", "0.2.0--r42hdfd78af_1": "sha256:da3a15f086c9149feca4ec65d74bebb5530df78605bd8f06a8535a36924c8487", "0.2.0--r43hdfd78af_2": "sha256:2bbda83bd774299b3f9c2c9c9a4b20501215c6d06eceda39117c789c660903fb", "0.2.0--r44hdfd78af_3": "sha256:e03adf603465ba23640cd215398fa92ba42a9940cecfed498dd166eaacb69d78"}, "docker": "quay.io/biocontainers/r-recetox-waveica"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-recetox-waveica.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-recetox-waveica
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-recetox-waveica:0.2.0--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-recetox-waveica:0.2.0--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-recetox-waveica/0.2.0--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-recetox-waveica/0.2.0--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-recetox-waveica/0.2.0--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-recetox-waveica/0.2.0--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

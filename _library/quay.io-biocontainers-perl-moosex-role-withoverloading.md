@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-moosex-role-withoverloading"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-role-withoverloading/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-role-withoverloading/container.yaml"
-updated_at: "2025-01-09 14:05:55.310950"
-latest: "0.17--pl5321h4ac6f70_5"
+updated_at: "2025-01-10 03:35:49.241380"
+latest: "0.17--pl5321h9948957_6"
 container_url: "https://biocontainers.pro/tools/perl-moosex-role-withoverloading"
 aliases:
  - "moose-outdated"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.17--pl5321h9f5acd7_4"
  - "0.17--pl5321h4ac6f70_5"
+ - "0.17--pl5321h9948957_6"
 description: "shpc-registry automated BioContainers addition for perl-moosex-role-withoverloading"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-role-withoverloading", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-role-withoverloading", "latest": {"0.17--pl5321h4ac6f70_5": "sha256:9cfe9ad76c22b3fe31a06b0dab36d9c60aff5d4bfb300b9934eeef3ee44808fc"}, "tags": {"0.17--pl5321h9f5acd7_4": "sha256:e33c1aef2328d2f212b969ac25ae65a1d35a4bf88b3eac1d5091b28332642dff", "0.17--pl5321h4ac6f70_5": "sha256:9cfe9ad76c22b3fe31a06b0dab36d9c60aff5d4bfb300b9934eeef3ee44808fc"}, "docker": "quay.io/biocontainers/perl-moosex-role-withoverloading", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-role-withoverloading", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-role-withoverloading", "latest": {"0.17--pl5321h9948957_6": "sha256:16b4f0e08dba20c97b34d29dab28b512dfccb76ac33f7aa003e889a08aa005e7"}, "tags": {"0.17--pl5321h9f5acd7_4": "sha256:e33c1aef2328d2f212b969ac25ae65a1d35a4bf88b3eac1d5091b28332642dff", "0.17--pl5321h4ac6f70_5": "sha256:9cfe9ad76c22b3fe31a06b0dab36d9c60aff5d4bfb300b9934eeef3ee44808fc", "0.17--pl5321h9948957_6": "sha256:16b4f0e08dba20c97b34d29dab28b512dfccb76ac33f7aa003e889a08aa005e7"}, "docker": "quay.io/biocontainers/perl-moosex-role-withoverloading", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-role-withoverloading.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-moosex-role-withoverloading
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-moosex-role-withoverloading:0.17--pl5321h4ac6f70_5
+$ shpc install quay.io/biocontainers/perl-moosex-role-withoverloading:0.17--pl5321h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-moosex-role-withoverloading/0.17--pl5321h4ac6f70_5
-$ module help quay.io/biocontainers/perl-moosex-role-withoverloading/0.17--pl5321h4ac6f70_5
+$ module load quay.io/biocontainers/perl-moosex-role-withoverloading/0.17--pl5321h9948957_6
+$ module help quay.io/biocontainers/perl-moosex-role-withoverloading/0.17--pl5321h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

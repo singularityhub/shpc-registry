@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ancestry_hmm-s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ancestry_hmm-s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ancestry_hmm-s/container.yaml"
-updated_at: "2025-01-09 13:49:52.839586"
-latest: "0.9.0.2--h4ac6f70_5"
+updated_at: "2025-01-10 03:20:37.922318"
+latest: "0.9.0.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/ancestry_hmm-s"
 aliases:
  - "ahmm-s"
@@ -13,8 +13,9 @@ versions:
  - "0.9.0.2--h9f5acd7_2"
  - "0.9.0.2--h4ac6f70_4"
  - "0.9.0.2--h4ac6f70_5"
+ - "0.9.0.2--h9948957_6"
 description: "shpc-registry automated BioContainers addition for ancestry_hmm-s"
-config: {"url": "https://biocontainers.pro/tools/ancestry_hmm-s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ancestry_hmm-s", "latest": {"0.9.0.2--h4ac6f70_5": "sha256:42287b7e0aa78a58f612ec980f5b145f1e291ae2a5cfe9cd39c9ca0497c23704"}, "tags": {"0.9.0.2--h9f5acd7_2": "sha256:45389bb27d51b1db2b38ebc2f39cc8cc0f40b6e3c0e40aeace2b199fa0ef4d18", "0.9.0.2--h4ac6f70_4": "sha256:80b8b5a56b3a3400d1c53df8b517d8a56fbe1f1f41f0c2e4ffe82d38ca41a879", "0.9.0.2--h4ac6f70_5": "sha256:42287b7e0aa78a58f612ec980f5b145f1e291ae2a5cfe9cd39c9ca0497c23704"}, "docker": "quay.io/biocontainers/ancestry_hmm-s", "aliases": {"ahmm-s": "/usr/local/bin/ahmm-s"}}
+config: {"url": "https://biocontainers.pro/tools/ancestry_hmm-s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ancestry_hmm-s", "latest": {"0.9.0.2--h9948957_6": "sha256:23a3898df2586f7f2b47ea014a9d0658e29bc7427c4250d73dd6dabbad8455a8"}, "tags": {"0.9.0.2--h9f5acd7_2": "sha256:45389bb27d51b1db2b38ebc2f39cc8cc0f40b6e3c0e40aeace2b199fa0ef4d18", "0.9.0.2--h4ac6f70_4": "sha256:80b8b5a56b3a3400d1c53df8b517d8a56fbe1f1f41f0c2e4ffe82d38ca41a879", "0.9.0.2--h4ac6f70_5": "sha256:42287b7e0aa78a58f612ec980f5b145f1e291ae2a5cfe9cd39c9ca0497c23704", "0.9.0.2--h9948957_6": "sha256:23a3898df2586f7f2b47ea014a9d0658e29bc7427c4250d73dd6dabbad8455a8"}, "docker": "quay.io/biocontainers/ancestry_hmm-s", "aliases": {"ahmm-s": "/usr/local/bin/ahmm-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ancestry_hmm-s.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ancestry_hmm-s
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ancestry_hmm-s:0.9.0.2--h4ac6f70_5
+$ shpc install quay.io/biocontainers/ancestry_hmm-s:0.9.0.2--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ancestry_hmm-s/0.9.0.2--h4ac6f70_5
-$ module help quay.io/biocontainers/ancestry_hmm-s/0.9.0.2--h4ac6f70_5
+$ module load quay.io/biocontainers/ancestry_hmm-s/0.9.0.2--h9948957_6
+$ module help quay.io/biocontainers/ancestry_hmm-s/0.9.0.2--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

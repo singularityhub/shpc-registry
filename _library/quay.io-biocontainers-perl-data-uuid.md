@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-data-uuid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-uuid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-uuid/container.yaml"
-updated_at: "2025-01-09 13:51:59.931857"
-latest: "1.226--pl5321h4ac6f70_3"
+updated_at: "2025-01-10 03:22:38.476077"
+latest: "1.226--pl5321h9948957_4"
 container_url: "https://biocontainers.pro/tools/perl-data-uuid"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.226--pl5321h9f5acd7_1"
  - "1.226--pl5321h4ac6f70_3"
+ - "1.226--pl5321h9948957_4"
 description: "shpc-registry automated BioContainers addition for perl-data-uuid"
-config: {"url": "https://biocontainers.pro/tools/perl-data-uuid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-uuid", "latest": {"1.226--pl5321h4ac6f70_3": "sha256:04eb2de23ef92e6b3dcc138bc8b851becd6950bba73ea68acd8aa80f1ca991e9"}, "tags": {"1.226--pl5321h9f5acd7_1": "sha256:2c982bcbdda65deeb9b521818babb613cedf20939d318c4731e4adbaeced7c29", "1.226--pl5321h4ac6f70_3": "sha256:04eb2de23ef92e6b3dcc138bc8b851becd6950bba73ea68acd8aa80f1ca991e9"}, "docker": "quay.io/biocontainers/perl-data-uuid", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-data-uuid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-uuid", "latest": {"1.226--pl5321h9948957_4": "sha256:8e492174dc1a92d56fa3cab1bcabb98890adfcc3bfa3ce955a2844511a38b7d7"}, "tags": {"1.226--pl5321h9f5acd7_1": "sha256:2c982bcbdda65deeb9b521818babb613cedf20939d318c4731e4adbaeced7c29", "1.226--pl5321h4ac6f70_3": "sha256:04eb2de23ef92e6b3dcc138bc8b851becd6950bba73ea68acd8aa80f1ca991e9", "1.226--pl5321h9948957_4": "sha256:8e492174dc1a92d56fa3cab1bcabb98890adfcc3bfa3ce955a2844511a38b7d7"}, "docker": "quay.io/biocontainers/perl-data-uuid", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-uuid.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-data-uuid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-data-uuid:1.226--pl5321h4ac6f70_3
+$ shpc install quay.io/biocontainers/perl-data-uuid:1.226--pl5321h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-data-uuid/1.226--pl5321h4ac6f70_3
-$ module help quay.io/biocontainers/perl-data-uuid/1.226--pl5321h4ac6f70_3
+$ module load quay.io/biocontainers/perl-data-uuid/1.226--pl5321h9948957_4
+$ module help quay.io/biocontainers/perl-data-uuid/1.226--pl5321h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

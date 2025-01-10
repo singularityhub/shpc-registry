@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stdeconvolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stdeconvolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stdeconvolve/container.yaml"
-updated_at: "2025-01-09 14:00:56.108995"
+updated_at: "2025-01-10 03:31:13.596759"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stdeconvolve"
 aliases:

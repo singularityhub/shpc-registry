@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fineradstructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fineradstructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fineradstructure/container.yaml"
-updated_at: "2025-01-09 13:25:04.256885"
-latest: "0.3.2r109--hc66845c_6"
+updated_at: "2025-01-10 02:57:28.078318"
+latest: "0.3.2r109--h76b9af2_7"
 container_url: "https://biocontainers.pro/tools/fineradstructure"
 aliases:
  - "RADpainter"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.3.2r109--h5269a4d_4"
  - "0.3.2r109--hc66845c_6"
+ - "0.3.2r109--h76b9af2_7"
 description: "shpc-registry automated BioContainers addition for fineradstructure"
-config: {"url": "https://biocontainers.pro/tools/fineradstructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fineradstructure", "latest": {"0.3.2r109--hc66845c_6": "sha256:e47b3f841063da965f23eb2566d720882fb7332607ae680e7723e6be0de10f08"}, "tags": {"0.3.2r109--h5269a4d_4": "sha256:a1b784484d29614f2da7c53ca3295007e4a6b34bf65969acee22477485856114", "0.3.2r109--hc66845c_6": "sha256:e47b3f841063da965f23eb2566d720882fb7332607ae680e7723e6be0de10f08"}, "docker": "quay.io/biocontainers/fineradstructure", "aliases": {"RADpainter": "/usr/local/bin/RADpainter", "finestructure": "/usr/local/bin/finestructure"}}
+config: {"url": "https://biocontainers.pro/tools/fineradstructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fineradstructure", "latest": {"0.3.2r109--h76b9af2_7": "sha256:8e44382e6ca7b72897a45873e10a975fbdd36fdde0c84c4c552b39142640558b"}, "tags": {"0.3.2r109--h5269a4d_4": "sha256:a1b784484d29614f2da7c53ca3295007e4a6b34bf65969acee22477485856114", "0.3.2r109--hc66845c_6": "sha256:e47b3f841063da965f23eb2566d720882fb7332607ae680e7723e6be0de10f08", "0.3.2r109--h76b9af2_7": "sha256:8e44382e6ca7b72897a45873e10a975fbdd36fdde0c84c4c552b39142640558b"}, "docker": "quay.io/biocontainers/fineradstructure", "aliases": {"RADpainter": "/usr/local/bin/RADpainter", "finestructure": "/usr/local/bin/finestructure"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fineradstructure.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/fineradstructure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fineradstructure:0.3.2r109--hc66845c_6
+$ shpc install quay.io/biocontainers/fineradstructure:0.3.2r109--h76b9af2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fineradstructure/0.3.2r109--hc66845c_6
-$ module help quay.io/biocontainers/fineradstructure/0.3.2r109--hc66845c_6
+$ module load quay.io/biocontainers/fineradstructure/0.3.2r109--h76b9af2_7
+$ module help quay.io/biocontainers/fineradstructure/0.3.2r109--h76b9af2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

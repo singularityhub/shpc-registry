@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntsm/container.yaml"
-updated_at: "2025-01-09 13:34:23.433582"
+updated_at: "2025-01-10 03:06:07.394554"
 latest: "1.2.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/ntsm"
 aliases:

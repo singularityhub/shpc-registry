@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga/container.yaml"
-updated_at: "2025-01-09 13:34:58.469125"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:06:40.885413"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r40_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga", "latest": {"1.32.0--r43hdfd78af_0": "sha256:90dc666563db8aef3536d7f13cfc802a76db0804ca67aad90e5200ad350fd942"}, "tags": {"1.8.0--r3.4.1_0": "sha256:68716b7bd8d056e728d499d8c77c9f64f49d3f9f539d6ae1bdd89c020c68899d", "1.28.0--r42hdfd78af_0": "sha256:1d7aecbad268cc044be332dae77a14b4f5735e60aa1d2a03fc71e56a46df2c9c", "1.24.0--r41hdfd78af_0": "sha256:7bf1c140f44f03a94b9841ed6b939f4ed36e4a8c90ee02362946d7966d984b16", "1.22.0--r41hdfd78af_0": "sha256:ea2aec50ec18dd84152139eb22ea566ce97a02ef767bc46bbe496e57614f7de1", "1.20.0--r40hdfd78af_1": "sha256:892f16cd2623fc99f7a2fa1a5e58d1cfe9faa345cd33d63bf0413962b977dfd4", "1.18.0--r40_0": "sha256:b44dfe37164a920fd72c115b38eb4bbf07dd3f77ce9c5774a644a04bf70d1b1d", "1.30.0--r43hdfd78af_0": "sha256:f4da8d42a0a256e0c1801ad517b759f10909d3506afd8adfe9ecefc2f0db20c0", "1.32.0--r43hdfd78af_0": "sha256:90dc666563db8aef3536d7f13cfc802a76db0804ca67aad90e5200ad350fd942"}, "docker": "quay.io/biocontainers/bioconductor-rtcga"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga", "latest": {"1.36.0--r44hdfd78af_0": "sha256:cbf5c0b5df4fa480db7db528b90f8e16ffccc2590898ff9e0648a3af5e5e7673"}, "tags": {"1.8.0--r3.4.1_0": "sha256:68716b7bd8d056e728d499d8c77c9f64f49d3f9f539d6ae1bdd89c020c68899d", "1.28.0--r42hdfd78af_0": "sha256:1d7aecbad268cc044be332dae77a14b4f5735e60aa1d2a03fc71e56a46df2c9c", "1.24.0--r41hdfd78af_0": "sha256:7bf1c140f44f03a94b9841ed6b939f4ed36e4a8c90ee02362946d7966d984b16", "1.22.0--r41hdfd78af_0": "sha256:ea2aec50ec18dd84152139eb22ea566ce97a02ef767bc46bbe496e57614f7de1", "1.20.0--r40hdfd78af_1": "sha256:892f16cd2623fc99f7a2fa1a5e58d1cfe9faa345cd33d63bf0413962b977dfd4", "1.18.0--r40_0": "sha256:b44dfe37164a920fd72c115b38eb4bbf07dd3f77ce9c5774a644a04bf70d1b1d", "1.30.0--r43hdfd78af_0": "sha256:f4da8d42a0a256e0c1801ad517b759f10909d3506afd8adfe9ecefc2f0db20c0", "1.32.0--r43hdfd78af_0": "sha256:90dc666563db8aef3536d7f13cfc802a76db0804ca67aad90e5200ad350fd942", "1.36.0--r44hdfd78af_0": "sha256:cbf5c0b5df4fa480db7db528b90f8e16ffccc2590898ff9e0648a3af5e5e7673"}, "docker": "quay.io/biocontainers/bioconductor-rtcga"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rtcga:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rtcga/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rtcga/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

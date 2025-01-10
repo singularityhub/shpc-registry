@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alder/container.yaml"
-updated_at: "2025-01-09 13:53:53.561608"
-latest: "1.03--h1d1b5ed_6"
+updated_at: "2025-01-10 03:24:28.827997"
+latest: "1.03--h13c21de_7"
 container_url: "https://biocontainers.pro/tools/alder"
 aliases:
  - "alder"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.03--h12039ba_4"
  - "1.03--h1d1b5ed_6"
+ - "1.03--h13c21de_7"
 description: "shpc-registry automated BioContainers addition for alder"
-config: {"url": "https://biocontainers.pro/tools/alder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alder", "latest": {"1.03--h1d1b5ed_6": "sha256:f3335c12043dbf166e3d9f70b9a3e8948f5319779fd031217c5b1ed27ce4f165"}, "tags": {"1.03--h12039ba_4": "sha256:f5bba5778a833d7cf1216e2f11dfd812920f756940b44cc900d4dabac4e75e59", "1.03--h1d1b5ed_6": "sha256:f3335c12043dbf166e3d9f70b9a3e8948f5319779fd031217c5b1ed27ce4f165"}, "docker": "quay.io/biocontainers/alder", "aliases": {"alder": "/usr/local/bin/alder", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/alder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alder", "latest": {"1.03--h13c21de_7": "sha256:617c80b185a142d7287b0f087a4e12466edb68793285799f814118f5d8f9ccc6"}, "tags": {"1.03--h12039ba_4": "sha256:f5bba5778a833d7cf1216e2f11dfd812920f756940b44cc900d4dabac4e75e59", "1.03--h1d1b5ed_6": "sha256:f3335c12043dbf166e3d9f70b9a3e8948f5319779fd031217c5b1ed27ce4f165", "1.03--h13c21de_7": "sha256:617c80b185a142d7287b0f087a4e12466edb68793285799f814118f5d8f9ccc6"}, "docker": "quay.io/biocontainers/alder", "aliases": {"alder": "/usr/local/bin/alder", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alder.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/alder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alder:1.03--h1d1b5ed_6
+$ shpc install quay.io/biocontainers/alder:1.03--h13c21de_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alder/1.03--h1d1b5ed_6
-$ module help quay.io/biocontainers/alder/1.03--h1d1b5ed_6
+$ module load quay.io/biocontainers/alder/1.03--h13c21de_7
+$ module help quay.io/biocontainers/alder/1.03--h13c21de_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

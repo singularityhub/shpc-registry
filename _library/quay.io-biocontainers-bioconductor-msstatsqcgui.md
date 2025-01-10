@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msstatsqcgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsqcgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsqcgui/container.yaml"
-updated_at: "2025-01-09 13:24:25.750394"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-10 02:56:52.889985"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsqcgui"
 aliases:
  - "pandoc-citeproc"
@@ -26,8 +26,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatsqcgui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsqcgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsqcgui", "latest": {"1.22.0--r43hdfd78af_0": "sha256:dfda89b9fe9a16e1d645d0b3a3201a8bb3c60f5fbd632829f229b975f93ea4bc"}, "tags": {"1.8.0--r40_0": "sha256:cc54b9400b1b94792ec23aeb54a20f3fc23c7fd0112daad570ffa93889ec7fba", "1.18.0--r42hdfd78af_0": "sha256:cff1ff256b42c59bbc6ce6478c753266e13140d8c4c4bbc6da15f1f8985f870c", "1.14.0--r41hdfd78af_0": "sha256:b8df5cc71e308278801454117ee16c4ac04138e1ee58533206beffe63cc00397", "1.12.0--r41hdfd78af_0": "sha256:7d9b9da17a0fd0ae812893474f1b6813cca4e629ab7e522650766df2f94ba7f9", "1.10.0--r40hdfd78af_1": "sha256:3f728102e06752bab9d12ea3b992b2cb1045b2b195c31c8bf6dd3863cda9094a", "1.20.0--r43hdfd78af_0": "sha256:b63ca4cc9a315790d6eca9fd4d9f228c98990fd560218349892e45c82075436d", "1.22.0--r43hdfd78af_0": "sha256:dfda89b9fe9a16e1d645d0b3a3201a8bb3c60f5fbd632829f229b975f93ea4bc"}, "docker": "quay.io/biocontainers/bioconductor-msstatsqcgui", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsqcgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsqcgui", "latest": {"1.26.0--r44hdfd78af_0": "sha256:4f33385d30e1e919002b56ebf3c63dc80d25ab9c1d5e23739a63646460a2130b"}, "tags": {"1.8.0--r40_0": "sha256:cc54b9400b1b94792ec23aeb54a20f3fc23c7fd0112daad570ffa93889ec7fba", "1.18.0--r42hdfd78af_0": "sha256:cff1ff256b42c59bbc6ce6478c753266e13140d8c4c4bbc6da15f1f8985f870c", "1.14.0--r41hdfd78af_0": "sha256:b8df5cc71e308278801454117ee16c4ac04138e1ee58533206beffe63cc00397", "1.12.0--r41hdfd78af_0": "sha256:7d9b9da17a0fd0ae812893474f1b6813cca4e629ab7e522650766df2f94ba7f9", "1.10.0--r40hdfd78af_1": "sha256:3f728102e06752bab9d12ea3b992b2cb1045b2b195c31c8bf6dd3863cda9094a", "1.20.0--r43hdfd78af_0": "sha256:b63ca4cc9a315790d6eca9fd4d9f228c98990fd560218349892e45c82075436d", "1.22.0--r43hdfd78af_0": "sha256:dfda89b9fe9a16e1d645d0b3a3201a8bb3c60f5fbd632829f229b975f93ea4bc", "1.26.0--r44hdfd78af_0": "sha256:4f33385d30e1e919002b56ebf3c63dc80d25ab9c1d5e23739a63646460a2130b"}, "docker": "quay.io/biocontainers/bioconductor-msstatsqcgui", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatsqcgui.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatsqcgui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatsqcgui:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msstatsqcgui:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatsqcgui/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msstatsqcgui/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msstatsqcgui/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msstatsqcgui/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

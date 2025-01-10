@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nxtrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nxtrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nxtrim/container.yaml"
-updated_at: "2025-01-09 13:47:02.515550"
-latest: "0.4.3--hdcf5f25_4"
+updated_at: "2025-01-10 03:17:59.873589"
+latest: "0.4.3--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/nxtrim"
 aliases:
  - "nxtrim"
 versions:
  - "0.4.3--hd03093a_2"
  - "0.4.3--hdcf5f25_4"
+ - "0.4.3--h077b44d_5"
 description: "shpc-registry automated BioContainers addition for nxtrim"
-config: {"url": "https://biocontainers.pro/tools/nxtrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nxtrim", "latest": {"0.4.3--hdcf5f25_4": "sha256:74667439721e0b95fae644bbdc7f9abe5018cfd9eb6bb7209915751332ceaa10"}, "tags": {"0.4.3--hd03093a_2": "sha256:e566bf32a083a96884efd201bc88aa2390a7e80ba023949ef1515cebb9933353", "0.4.3--hdcf5f25_4": "sha256:74667439721e0b95fae644bbdc7f9abe5018cfd9eb6bb7209915751332ceaa10"}, "docker": "quay.io/biocontainers/nxtrim", "aliases": {"nxtrim": "/usr/local/bin/nxtrim"}}
+config: {"url": "https://biocontainers.pro/tools/nxtrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nxtrim", "latest": {"0.4.3--h077b44d_5": "sha256:3cca498eff85cfb77dc792c9007d558e6e0bca6680c412f276199d2b9482838a"}, "tags": {"0.4.3--hd03093a_2": "sha256:e566bf32a083a96884efd201bc88aa2390a7e80ba023949ef1515cebb9933353", "0.4.3--hdcf5f25_4": "sha256:74667439721e0b95fae644bbdc7f9abe5018cfd9eb6bb7209915751332ceaa10", "0.4.3--h077b44d_5": "sha256:3cca498eff85cfb77dc792c9007d558e6e0bca6680c412f276199d2b9482838a"}, "docker": "quay.io/biocontainers/nxtrim", "aliases": {"nxtrim": "/usr/local/bin/nxtrim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nxtrim.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nxtrim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nxtrim:0.4.3--hdcf5f25_4
+$ shpc install quay.io/biocontainers/nxtrim:0.4.3--h077b44d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nxtrim/0.4.3--hdcf5f25_4
-$ module help quay.io/biocontainers/nxtrim/0.4.3--hdcf5f25_4
+$ module load quay.io/biocontainers/nxtrim/0.4.3--h077b44d_5
+$ module help quay.io/biocontainers/nxtrim/0.4.3--h077b44d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

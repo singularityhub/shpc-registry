@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-diffgeneanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
-updated_at: "2025-01-09 14:06:16.774065"
-latest: "1.84.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:36:08.561603"
+latest: "1.88.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.80.0--r42hdfd78af_0"
  - "1.82.0--r43hdfd78af_0"
  - "1.84.0--r43hdfd78af_0"
+ - "1.88.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis", "latest": {"1.84.0--r43hdfd78af_0": "sha256:b4beca502cf7c7519aaa156fb7d737e7a18c86f97fba37580f3f836dcb3bf713"}, "tags": {"1.76.0--r41hdfd78af_0": "sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5", "1.80.0--r42hdfd78af_0": "sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6", "1.82.0--r43hdfd78af_0": "sha256:0bd4ce37377f9d655994c9424fc01f8b659857c1ef584fa6ffe38362ded54fc8", "1.84.0--r43hdfd78af_0": "sha256:b4beca502cf7c7519aaa156fb7d737e7a18c86f97fba37580f3f836dcb3bf713"}, "docker": "quay.io/biocontainers/bioconductor-diffgeneanalysis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis", "latest": {"1.88.0--r44hdfd78af_0": "sha256:3cb02c95d3a18dc38cbe1d403887281746f40fbf799d256fac2ffb58b47166b8"}, "tags": {"1.76.0--r41hdfd78af_0": "sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5", "1.80.0--r42hdfd78af_0": "sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6", "1.82.0--r43hdfd78af_0": "sha256:0bd4ce37377f9d655994c9424fc01f8b659857c1ef584fa6ffe38362ded54fc8", "1.84.0--r43hdfd78af_0": "sha256:b4beca502cf7c7519aaa156fb7d737e7a18c86f97fba37580f3f836dcb3bf713", "1.88.0--r44hdfd78af_0": "sha256:3cb02c95d3a18dc38cbe1d403887281746f40fbf799d256fac2ffb58b47166b8"}, "docker": "quay.io/biocontainers/bioconductor-diffgeneanalysis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffgeneanalysis.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis:1.84.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis:1.88.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diffgeneanalysis/1.84.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diffgeneanalysis/1.84.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diffgeneanalysis/1.88.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diffgeneanalysis/1.88.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

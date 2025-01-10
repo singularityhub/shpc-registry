@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pfamanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pfamanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pfamanalyzer/container.yaml"
-updated_at: "2025-01-09 13:55:20.065344"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:25:54.947822"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pfamanalyzer"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.1--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-pfamanalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pfamanalyzer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-pfamanalyzer", "latest": {"1.2.0--r43hdfd78af_0": "sha256:2f361afcde45953acd61ef8419e1641193fa183001a66447e10ae019197f8229"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:a5d9602cd862a92b1bd3344fd318af4c2c454b6bb4232f8eb05cf5dbb7037875", "1.2.0--r43hdfd78af_0": "sha256:2f361afcde45953acd61ef8419e1641193fa183001a66447e10ae019197f8229"}, "docker": "quay.io/biocontainers/bioconductor-pfamanalyzer", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pfamanalyzer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-pfamanalyzer", "latest": {"1.6.0--r44hdfd78af_0": "sha256:9e3373d182c49cbc0c992acb82451ec92744903cc2f4f6935e37242ca4b23c46"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:a5d9602cd862a92b1bd3344fd318af4c2c454b6bb4232f8eb05cf5dbb7037875", "1.2.0--r43hdfd78af_0": "sha256:2f361afcde45953acd61ef8419e1641193fa183001a66447e10ae019197f8229", "1.6.0--r44hdfd78af_0": "sha256:9e3373d182c49cbc0c992acb82451ec92744903cc2f4f6935e37242ca4b23c46"}, "docker": "quay.io/biocontainers/bioconductor-pfamanalyzer", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pfamanalyzer.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pfamanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pfamanalyzer:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pfamanalyzer:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pfamanalyzer/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pfamanalyzer/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pfamanalyzer/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pfamanalyzer/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

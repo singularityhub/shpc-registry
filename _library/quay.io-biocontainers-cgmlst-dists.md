@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cgmlst-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
-updated_at: "2025-01-09 13:36:30.897178"
-latest: "0.4.0--h031d066_4"
+updated_at: "2025-01-10 03:08:09.513039"
+latest: "0.4.0--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/cgmlst-dists"
 aliases:
  - "cgmlst-dists"
 versions:
  - "0.4.0--hec16e2b_2"
  - "0.4.0--h031d066_4"
+ - "0.4.0--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for cgmlst-dists"
-config: {"url": "https://biocontainers.pro/tools/cgmlst-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgmlst-dists", "latest": {"0.4.0--h031d066_4": "sha256:740ca0e1eacf50f5283b86d1c8f945561cfe05387ba97f7175195e49b734bd49"}, "tags": {"0.4.0--hec16e2b_2": "sha256:b573ee0d0edf1afc64fd3815dfe79b842c05ca9930c73a36bd58f1ec3917c705", "0.4.0--h031d066_4": "sha256:740ca0e1eacf50f5283b86d1c8f945561cfe05387ba97f7175195e49b734bd49"}, "docker": "quay.io/biocontainers/cgmlst-dists", "aliases": {"cgmlst-dists": "/usr/local/bin/cgmlst-dists"}}
+config: {"url": "https://biocontainers.pro/tools/cgmlst-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgmlst-dists", "latest": {"0.4.0--h7b50bb2_5": "sha256:4b84d4f661901c3487668ad785d45c97fa76737e5235e57d3bc76b1977bdca56"}, "tags": {"0.4.0--hec16e2b_2": "sha256:b573ee0d0edf1afc64fd3815dfe79b842c05ca9930c73a36bd58f1ec3917c705", "0.4.0--h031d066_4": "sha256:740ca0e1eacf50f5283b86d1c8f945561cfe05387ba97f7175195e49b734bd49", "0.4.0--h7b50bb2_5": "sha256:4b84d4f661901c3487668ad785d45c97fa76737e5235e57d3bc76b1977bdca56"}, "docker": "quay.io/biocontainers/cgmlst-dists", "aliases": {"cgmlst-dists": "/usr/local/bin/cgmlst-dists"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgmlst-dists.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cgmlst-dists
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgmlst-dists:0.4.0--h031d066_4
+$ shpc install quay.io/biocontainers/cgmlst-dists:0.4.0--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgmlst-dists/0.4.0--h031d066_4
-$ module help quay.io/biocontainers/cgmlst-dists/0.4.0--h031d066_4
+$ module load quay.io/biocontainers/cgmlst-dists/0.4.0--h7b50bb2_5
+$ module help quay.io/biocontainers/cgmlst-dists/0.4.0--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

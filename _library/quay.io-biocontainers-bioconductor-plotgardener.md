@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plotgardener"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
-updated_at: "2025-01-09 13:48:35.208499"
-latest: "1.8.1--r43hf17093f_0"
+updated_at: "2025-01-10 03:19:26.138388"
+latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plotgardener"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.4.1--r42hf17093f_1"
  - "1.6.2--r43hf17093f_0"
  - "1.8.1--r43hf17093f_0"
+ - "1.12.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plotgardener"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgardener", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgardener", "latest": {"1.8.1--r43hf17093f_0": "sha256:4da4c4d6a278183c84ab61dfadef4b33444c283bb1772f4fcd5c1552c3bdf820"}, "tags": {"1.0.17--r41hc247a5b_0": "sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7", "1.4.1--r42hc247a5b_0": "sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb", "1.4.1--r42hf17093f_1": "sha256:2db5c64d49ff68141d140b7bd30e6c979f40ba0c1159caaa50a0498de32ecf0a", "1.6.2--r43hf17093f_0": "sha256:4a65a0e6be7edd5f0a6b7d197d1ebe3d4d3ef5eac3970010689177e352d220fb", "1.8.1--r43hf17093f_0": "sha256:4da4c4d6a278183c84ab61dfadef4b33444c283bb1772f4fcd5c1552c3bdf820"}, "docker": "quay.io/biocontainers/bioconductor-plotgardener"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgardener", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgardener", "latest": {"1.12.0--r44he5774e6_0": "sha256:20033f8f836561be2444524b6ce179aa1b9d4cea106806b13b6fc1d7e7e2737f"}, "tags": {"1.0.17--r41hc247a5b_0": "sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7", "1.4.1--r42hc247a5b_0": "sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb", "1.4.1--r42hf17093f_1": "sha256:2db5c64d49ff68141d140b7bd30e6c979f40ba0c1159caaa50a0498de32ecf0a", "1.6.2--r43hf17093f_0": "sha256:4a65a0e6be7edd5f0a6b7d197d1ebe3d4d3ef5eac3970010689177e352d220fb", "1.8.1--r43hf17093f_0": "sha256:4da4c4d6a278183c84ab61dfadef4b33444c283bb1772f4fcd5c1552c3bdf820", "1.12.0--r44he5774e6_0": "sha256:20033f8f836561be2444524b6ce179aa1b9d4cea106806b13b6fc1d7e7e2737f"}, "docker": "quay.io/biocontainers/bioconductor-plotgardener"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plotgardener.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plotgardener
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plotgardener:1.8.1--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-plotgardener:1.12.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plotgardener/1.8.1--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-plotgardener/1.8.1--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-plotgardener/1.12.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-plotgardener/1.12.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

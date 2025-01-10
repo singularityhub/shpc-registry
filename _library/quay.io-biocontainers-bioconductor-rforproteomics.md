@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rforproteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rforproteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rforproteomics/container.yaml"
-updated_at: "2025-01-09 13:35:38.467072"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:07:19.249425"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rforproteomics"
 aliases:
  - "zipcmp"
@@ -23,8 +23,9 @@ versions:
  - "1.35.1--r42hdfd78af_0"
  - "1.38.1--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rforproteomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rforproteomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rforproteomics", "latest": {"1.40.0--r43hdfd78af_0": "sha256:dde87bb9926114d38d62da00b37f5cd9e1bcf5c62ab3af2eec62bc1d9b04da45"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:3e28c86bd45fe66eb28d7008a6f804da61445965ac5626d549b5c3f986edcd05", "1.35.1--r42hdfd78af_0": "sha256:974a0a35759b339fb5693f0a141c70d4891c04dbfa32d27fe4a410c897202871", "1.38.1--r43hdfd78af_0": "sha256:72e4e877c0ffc40fd18e1eaff89a95a03e8c672ca35de6aa6ccb2b8810c04a7c", "1.40.0--r43hdfd78af_0": "sha256:dde87bb9926114d38d62da00b37f5cd9e1bcf5c62ab3af2eec62bc1d9b04da45"}, "docker": "quay.io/biocontainers/bioconductor-rforproteomics", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rforproteomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rforproteomics", "latest": {"1.44.0--r44hdfd78af_0": "sha256:f5fc0ca506f5812dc9c6460f27fc39a74dac1743658d2770a70d360acaaa19d2"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:3e28c86bd45fe66eb28d7008a6f804da61445965ac5626d549b5c3f986edcd05", "1.35.1--r42hdfd78af_0": "sha256:974a0a35759b339fb5693f0a141c70d4891c04dbfa32d27fe4a410c897202871", "1.38.1--r43hdfd78af_0": "sha256:72e4e877c0ffc40fd18e1eaff89a95a03e8c672ca35de6aa6ccb2b8810c04a7c", "1.40.0--r43hdfd78af_0": "sha256:dde87bb9926114d38d62da00b37f5cd9e1bcf5c62ab3af2eec62bc1d9b04da45", "1.44.0--r44hdfd78af_0": "sha256:f5fc0ca506f5812dc9c6460f27fc39a74dac1743658d2770a70d360acaaa19d2"}, "docker": "quay.io/biocontainers/bioconductor-rforproteomics", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rforproteomics.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rforproteomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rforproteomics:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rforproteomics:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rforproteomics/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rforproteomics/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rforproteomics/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rforproteomics/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

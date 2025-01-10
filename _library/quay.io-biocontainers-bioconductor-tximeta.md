@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tximeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tximeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tximeta/container.yaml"
-updated_at: "2025-01-09 13:44:49.179588"
-latest: "1.20.1--r43hdfd78af_1"
+updated_at: "2025-01-10 03:15:53.609097"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tximeta"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -18,8 +18,9 @@ versions:
  - "1.18.0--r43hdfd78af_0"
  - "1.20.1--r43hdfd78af_0"
  - "1.20.1--r43hdfd78af_1"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tximeta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tximeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tximeta", "latest": {"1.20.1--r43hdfd78af_1": "sha256:9f2a9d39cf4813b3b5f5eac46760a572c3638326a00bba5cd41e25bb96ff1935"}, "tags": {"1.8.4--r40hdfd78af_0": "sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0", "1.16.0--r42hdfd78af_0": "sha256:cf4638831755ec9f847dc454394cd37226914c09c7cafcc404d1e2163afe751b", "1.14.0--r41hdfd78af_0": "sha256:e6985222319ca1d3076c2a966a6d154404441c3f74977a5b1da8ad0efc131be6", "1.12.0--r41hdfd78af_0": "sha256:75a91f805e30083d1ffe30ba220e6c02d9e1034c622caed785a56fec0dccb9b0", "1.10.0--r41hdfd78af_0": "sha256:2b0060c6ef28e4970aaba5c3fb6e573807849846550dbde5621669230ebaaa62", "1.18.0--r43hdfd78af_0": "sha256:5776e85ceee615406b2ecbfcae4df6d9fb35341c789580bfb729cd0f0cc46242", "1.20.1--r43hdfd78af_0": "sha256:3dfeb5c838ed192efaab23476078775ef214bd6b4472fb5b966bfc119e0b77c0", "1.20.1--r43hdfd78af_1": "sha256:9f2a9d39cf4813b3b5f5eac46760a572c3638326a00bba5cd41e25bb96ff1935"}, "docker": "quay.io/biocontainers/bioconductor-tximeta", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tximeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tximeta", "latest": {"1.24.0--r44hdfd78af_0": "sha256:1814ce7a30714716fd93e4bea625e6d5a96e7cefda8303fc23172b71b9dd40cb"}, "tags": {"1.8.4--r40hdfd78af_0": "sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0", "1.16.0--r42hdfd78af_0": "sha256:cf4638831755ec9f847dc454394cd37226914c09c7cafcc404d1e2163afe751b", "1.14.0--r41hdfd78af_0": "sha256:e6985222319ca1d3076c2a966a6d154404441c3f74977a5b1da8ad0efc131be6", "1.12.0--r41hdfd78af_0": "sha256:75a91f805e30083d1ffe30ba220e6c02d9e1034c622caed785a56fec0dccb9b0", "1.10.0--r41hdfd78af_0": "sha256:2b0060c6ef28e4970aaba5c3fb6e573807849846550dbde5621669230ebaaa62", "1.18.0--r43hdfd78af_0": "sha256:5776e85ceee615406b2ecbfcae4df6d9fb35341c789580bfb729cd0f0cc46242", "1.20.1--r43hdfd78af_0": "sha256:3dfeb5c838ed192efaab23476078775ef214bd6b4472fb5b966bfc119e0b77c0", "1.20.1--r43hdfd78af_1": "sha256:9f2a9d39cf4813b3b5f5eac46760a572c3638326a00bba5cd41e25bb96ff1935", "1.24.0--r44hdfd78af_0": "sha256:1814ce7a30714716fd93e4bea625e6d5a96e7cefda8303fc23172b71b9dd40cb"}, "docker": "quay.io/biocontainers/bioconductor-tximeta", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tximeta.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tximeta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tximeta:1.20.1--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-tximeta:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tximeta/1.20.1--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-tximeta/1.20.1--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-tximeta/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tximeta/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

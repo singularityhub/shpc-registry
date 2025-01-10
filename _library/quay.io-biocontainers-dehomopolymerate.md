@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dehomopolymerate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dehomopolymerate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dehomopolymerate/container.yaml"
-updated_at: "2025-01-09 13:53:13.858829"
-latest: "0.4.0--he4a0461_4"
+updated_at: "2025-01-10 03:23:49.272822"
+latest: "0.4.0--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/dehomopolymerate"
 aliases:
  - "dehomopolymerate"
 versions:
  - "0.4.0--h7132678_2"
  - "0.4.0--he4a0461_4"
+ - "0.4.0--h577a1d6_5"
 description: "shpc-registry automated BioContainers addition for dehomopolymerate"
-config: {"url": "https://biocontainers.pro/tools/dehomopolymerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dehomopolymerate", "latest": {"0.4.0--he4a0461_4": "sha256:3836f72b07c52ab37d178164bb093736490225a7755e733a8a035721daeb7f83"}, "tags": {"0.4.0--h7132678_2": "sha256:d2a18c0fb9f6891121952ac40ff09eb8f098b18fb79a51264911467442c8731a", "0.4.0--he4a0461_4": "sha256:3836f72b07c52ab37d178164bb093736490225a7755e733a8a035721daeb7f83"}, "docker": "quay.io/biocontainers/dehomopolymerate", "aliases": {"dehomopolymerate": "/usr/local/bin/dehomopolymerate"}}
+config: {"url": "https://biocontainers.pro/tools/dehomopolymerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dehomopolymerate", "latest": {"0.4.0--h577a1d6_5": "sha256:ee42623954746f6e6f2b358e53db58b3a3b572df284adceac52d5f094e4c57e1"}, "tags": {"0.4.0--h7132678_2": "sha256:d2a18c0fb9f6891121952ac40ff09eb8f098b18fb79a51264911467442c8731a", "0.4.0--he4a0461_4": "sha256:3836f72b07c52ab37d178164bb093736490225a7755e733a8a035721daeb7f83", "0.4.0--h577a1d6_5": "sha256:ee42623954746f6e6f2b358e53db58b3a3b572df284adceac52d5f094e4c57e1"}, "docker": "quay.io/biocontainers/dehomopolymerate", "aliases": {"dehomopolymerate": "/usr/local/bin/dehomopolymerate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dehomopolymerate.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dehomopolymerate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dehomopolymerate:0.4.0--he4a0461_4
+$ shpc install quay.io/biocontainers/dehomopolymerate:0.4.0--h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dehomopolymerate/0.4.0--he4a0461_4
-$ module help quay.io/biocontainers/dehomopolymerate/0.4.0--he4a0461_4
+$ module load quay.io/biocontainers/dehomopolymerate/0.4.0--h577a1d6_5
+$ module help quay.io/biocontainers/dehomopolymerate/0.4.0--h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-donapllp2013"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
-updated_at: "2025-01-09 13:50:00.879453"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-10 03:20:45.642036"
+latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-donapllp2013"
 aliases:
  - "fftw-wisdom"
@@ -17,8 +17,9 @@ versions:
  - "1.35.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-donapllp2013"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-donapllp2013", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-donapllp2013", "latest": {"1.40.0--r43hdfd78af_0": "sha256:40bf1afe92a42662a82dc33df9c5f68e3ca1999f38fd7f4b7a58a50fd59d5581"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c", "1.35.0--r42hdfd78af_0": "sha256:ea960684f90c270430840a661bb5d26e78387ac9402d3e302f3012181ca70df3", "1.38.0--r43hdfd78af_0": "sha256:fb4a7822cab7681239e1c98692be3aeafad0f4c1f4200dafa2ef1ef3440a6315", "1.40.0--r43hdfd78af_0": "sha256:40bf1afe92a42662a82dc33df9c5f68e3ca1999f38fd7f4b7a58a50fd59d5581"}, "docker": "quay.io/biocontainers/bioconductor-donapllp2013", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-donapllp2013", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-donapllp2013", "latest": {"1.44.0--r44hdfd78af_0": "sha256:41f48e2beb8356b3857652342baad550db2b2cfc1654166535d5aa73b839b7cc"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c", "1.35.0--r42hdfd78af_0": "sha256:ea960684f90c270430840a661bb5d26e78387ac9402d3e302f3012181ca70df3", "1.38.0--r43hdfd78af_0": "sha256:fb4a7822cab7681239e1c98692be3aeafad0f4c1f4200dafa2ef1ef3440a6315", "1.40.0--r43hdfd78af_0": "sha256:40bf1afe92a42662a82dc33df9c5f68e3ca1999f38fd7f4b7a58a50fd59d5581", "1.44.0--r44hdfd78af_0": "sha256:41f48e2beb8356b3857652342baad550db2b2cfc1654166535d5aa73b839b7cc"}, "docker": "quay.io/biocontainers/bioconductor-donapllp2013", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-donapllp2013.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-donapllp2013
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-donapllp2013:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-donapllp2013:1.44.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-donapllp2013/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-donapllp2013/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-donapllp2013/1.44.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-donapllp2013/1.44.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

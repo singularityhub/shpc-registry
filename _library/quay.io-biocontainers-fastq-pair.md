@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastq-pair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-pair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-pair/container.yaml"
-updated_at: "2025-01-09 13:27:59.908646"
-latest: "1.0--hdbdd923_5"
+updated_at: "2025-01-10 03:00:09.972669"
+latest: "1.0--h503566f_6"
 container_url: "https://biocontainers.pro/tools/fastq-pair"
 aliases:
  - "fastq_pair"
 versions:
  - "1.0--h87f3376_3"
  - "1.0--hdbdd923_5"
+ - "1.0--h503566f_6"
 description: "shpc-registry automated BioContainers addition for fastq-pair"
-config: {"url": "https://biocontainers.pro/tools/fastq-pair", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-pair", "latest": {"1.0--hdbdd923_5": "sha256:520a373c0d126db156e8b5aedd3ac0049db960360cb889724c2736d7f1295f44"}, "tags": {"1.0--h87f3376_3": "sha256:7d3baecef5283435197244b5c3db6dfb7b51060089e4c464307c90af43262a78", "1.0--hdbdd923_5": "sha256:520a373c0d126db156e8b5aedd3ac0049db960360cb889724c2736d7f1295f44"}, "docker": "quay.io/biocontainers/fastq-pair", "aliases": {"fastq_pair": "/usr/local/bin/fastq_pair"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-pair", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-pair", "latest": {"1.0--h503566f_6": "sha256:d7fb3e77a630a727e204f8da5df8863d1dcbc180adceed73b7b596e413a0eea2"}, "tags": {"1.0--h87f3376_3": "sha256:7d3baecef5283435197244b5c3db6dfb7b51060089e4c464307c90af43262a78", "1.0--hdbdd923_5": "sha256:520a373c0d126db156e8b5aedd3ac0049db960360cb889724c2736d7f1295f44", "1.0--h503566f_6": "sha256:d7fb3e77a630a727e204f8da5df8863d1dcbc180adceed73b7b596e413a0eea2"}, "docker": "quay.io/biocontainers/fastq-pair", "aliases": {"fastq_pair": "/usr/local/bin/fastq_pair"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-pair.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastq-pair
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-pair:1.0--hdbdd923_5
+$ shpc install quay.io/biocontainers/fastq-pair:1.0--h503566f_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-pair/1.0--hdbdd923_5
-$ module help quay.io/biocontainers/fastq-pair/1.0--hdbdd923_5
+$ module load quay.io/biocontainers/fastq-pair/1.0--h503566f_6
+$ module help quay.io/biocontainers/fastq-pair/1.0--h503566f_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
