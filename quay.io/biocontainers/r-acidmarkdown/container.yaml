@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-acidmarkdown
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidmarkdown
 latest:
-  0.3.0--r43hdfd78af_0: sha256:9f5b93b40c09560bf802db64039c83a97b8f5a884db4bf76df971bda7536beea
+  0.3.0--r44hdfd78af_1: sha256:15c973e8fea0d152e09316e74c2f5a5f889ba5ef0d8b17f2a6456dbc89abd4ae
 tags:
   0.1.6--r41hdfd78af_0: sha256:a7edbdc9be1f818ec92106cac309a6119de65fa0ff7c06e725a969eecdce043a
   0.2.5--r42hdfd78af_0: sha256:19bc880273d27f37932f70c9d55a4224b9d948ced3d063ad549baaaea95d91e1
@@ -11,4 +11,5 @@ tags:
   0.2.5--r43hdfd78af_2: sha256:e3405c7b2bc9c78172c68b067ae8d1860867cba14f8738f58d9ba24f4b05b2fb
   0.2.6--r43hdfd78af_0: sha256:ecdde3e4939d5e3abf3cdded41f60136ad46330785ef9b51d71a6cf4f080c852
   0.3.0--r43hdfd78af_0: sha256:9f5b93b40c09560bf802db64039c83a97b8f5a884db4bf76df971bda7536beea
+  0.3.0--r44hdfd78af_1: sha256:15c973e8fea0d152e09316e74c2f5a5f889ba5ef0d8b17f2a6456dbc89abd4ae
 docker: quay.io/biocontainers/r-acidmarkdown

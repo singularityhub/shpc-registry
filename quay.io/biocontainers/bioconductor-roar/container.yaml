@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-roar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-roar
 latest:
-  1.38.0--r43hdfd78af_0: sha256:b834e595cd056cb53d80ff1e4d1d56ebf61b6cb5b2c6111507ff57e763353940
+  1.42.0--r44hdfd78af_0: sha256:281c6472f496e0c6d44027f7a7cbf1c5ab8feab5ad4aa503466e2931e7bd67d7
 tags:
   1.28.0--r41hdfd78af_0: sha256:c00453adb121b1e24c5b48afa5f56d6de68323b52213e87b3e415050ef096b34
   1.34.0--r42hdfd78af_0: sha256:5306d4d08553bffd97fac81b4680738d248ba70c9e3e1d04a3a456ea9c14b7ec
   1.36.0--r43hdfd78af_0: sha256:3bb1e572b14b1fef2eca4e4ce8ac82dfc8a3cca7620379acb23d7eed7fb07021
   1.38.0--r43hdfd78af_0: sha256:b834e595cd056cb53d80ff1e4d1d56ebf61b6cb5b2c6111507ff57e763353940
+  1.42.0--r44hdfd78af_0: sha256:281c6472f496e0c6d44027f7a7cbf1c5ab8feab5ad4aa503466e2931e7bd67d7
 docker: quay.io/biocontainers/bioconductor-roar
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

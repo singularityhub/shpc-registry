@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-anota2seq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anota2seq
 latest:
-  1.24.0--r43hdfd78af_0: sha256:c0cf9ae3fb0b091c86cc42a4606281b2ef1f737919c1c07036986f53224ef967
+  1.28.0--r44hdfd78af_0: sha256:e0410b322bcb79edb306d3d6009a39b4e9c6457d7f201071a6ac1571218894e4
 tags:
   1.8.0--r36_0: sha256:b616416e92a6fdea6eed3f543621afdcab63d4360bd897626b498a9ba5ec87d6
   1.20.0--r42hdfd78af_0: sha256:6e8b5ceab1175a811d7b84c2f6cb62714846626327de4c52f56d4d35257e888c
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:f3e655a0f987b394ec2f6827e60bf50d27a25c7e96955e0a0f7cd082e16f062a
   1.22.0--r43hdfd78af_0: sha256:aa42114419602a0bcdba9698bd415dd08cb75698e6993054c6a0b06e93325d93
   1.24.0--r43hdfd78af_0: sha256:c0cf9ae3fb0b091c86cc42a4606281b2ef1f737919c1c07036986f53224ef967
+  1.28.0--r44hdfd78af_0: sha256:e0410b322bcb79edb306d3d6009a39b4e9c6457d7f201071a6ac1571218894e4
 docker: quay.io/biocontainers/bioconductor-anota2seq
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

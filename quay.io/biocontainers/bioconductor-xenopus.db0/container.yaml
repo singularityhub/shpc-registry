@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-xenopus.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xenopus.db0
 latest:
-  3.18.0--r43hdfd78af_0: sha256:193c734fe7b5fa8e5bd5bb21fe366c101f50659a019e0e04767f64de12f4adff
+  3.20.0--r44hdfd78af_0: sha256:b9fef91ff0ddcbd188b2a891c8debb5a4eb7cbce0c6dd70b267c296e904a2d52
 tags:
   3.8.2--r36_1: sha256:e491cbc06bcfd5344386c05b537526075b28fd9cfdba4672943399de333456bc
   3.16.0--r42hdfd78af_0: sha256:5087b86101a1e17d2d6e7fc3217e8fd5a7647b543674cafb841d1c928c01805e
@@ -12,6 +12,7 @@ tags:
   3.11.2--r40_0: sha256:3591f1b157e15b2668f5279b965864337ccea69177a3a55bfe28baa7efda9e18
   3.17.0--r43hdfd78af_0: sha256:353d5514ec5475288c7af5608d511a4f8763e126f8ab62f82b62dd440dd090dd
   3.18.0--r43hdfd78af_0: sha256:193c734fe7b5fa8e5bd5bb21fe366c101f50659a019e0e04767f64de12f4adff
+  3.20.0--r44hdfd78af_0: sha256:b9fef91ff0ddcbd188b2a891c8debb5a4eb7cbce0c6dd70b267c296e904a2d52
 docker: quay.io/biocontainers/bioconductor-xenopus.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-breastcancerunt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-breastcancerunt
 latest:
-  1.40.0--r43hdfd78af_0: sha256:36cfa8a21d2d2849f9f89d416b3fe92ec2c725a4ea0091d11ff9f91001ca84c0
+  1.44.0--r44hdfd78af_0: sha256:e5d3266c35c077205a96575146d151770ceb73f58f0f1b3da62d6da6b2158b15
 tags:
   1.32.0--r41hdfd78af_1: sha256:5b24e1d47cb32ec8f64308ae53a97253c3cec150286f601b18983d182bf0233a
   1.36.0--r42hdfd78af_0: sha256:4f2125b7f042834efd42e5fc3d69ec564f83ab66862fd54f4e71913de140fc77
   1.38.0--r43hdfd78af_0: sha256:03fbbed473fd33d5f059e0d6db2a2234d88ba9e9be89f985ee3ec744604e5457
   1.40.0--r43hdfd78af_0: sha256:36cfa8a21d2d2849f9f89d416b3fe92ec2c725a4ea0091d11ff9f91001ca84c0
+  1.44.0--r44hdfd78af_0: sha256:e5d3266c35c077205a96575146d151770ceb73f58f0f1b3da62d6da6b2158b15
 docker: quay.io/biocontainers/bioconductor-breastcancerunt

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/geco2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for geco2
 latest:
-  1.1--h031d066_4: sha256:e24af23e3dc0e029ed9a3b51fb3e40aea2599cf2fbdb988dad4342b69dfbce4f
+  1.1--h7b50bb2_5: sha256:68ea549a8be0b9c24c9dded89d73b41047e1a5bc5a85666284b3afc2008a4097
 tags:
   1.1--hec16e2b_2: sha256:07cb2d25452da4e75b8d7a91367497a010598d04cffb7e36d0d31606d93bf0a3
   1.1--h031d066_4: sha256:e24af23e3dc0e029ed9a3b51fb3e40aea2599cf2fbdb988dad4342b69dfbce4f
+  1.1--h7b50bb2_5: sha256:68ea549a8be0b9c24c9dded89d73b41047e1a5bc5a85666284b3afc2008a4097
 docker: quay.io/biocontainers/geco2
 aliases:
   GeCo2: /usr/local/bin/GeCo2

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-simona
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-simona
 latest:
-  1.0.2--pl5321r43hf17093f_0: sha256:fc0d3e33f1bb2c79605b56750ef759dcbd77801f632f24b7df6e5ef191919486
+  1.4.0--pl5321r44he5774e6_0: sha256:0b14ed3da1153ded7dc59dbb4ac1d13be758fd618174f923143ed57306896c98
 tags:
   1.0.2--pl5321r43hf17093f_0: sha256:fc0d3e33f1bb2c79605b56750ef759dcbd77801f632f24b7df6e5ef191919486
+  1.4.0--pl5321r44he5774e6_0: sha256:0b14ed3da1153ded7dc59dbb4ac1d13be758fd618174f923143ed57306896c98
 docker: quay.io/biocontainers/bioconductor-simona
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

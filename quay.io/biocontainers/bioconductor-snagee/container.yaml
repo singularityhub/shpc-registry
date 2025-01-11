@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-snagee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snagee
 latest:
-  1.42.0--r43hdfd78af_0: sha256:59126bd5c7ea0b214cd9f375047d3887324a2f57b2d68dba4cf6c860457fa687
+  1.46.0--r44hdfd78af_0: sha256:40cbb2d691df0525d66fe99c735b556b3f286ea1c426f80cdd31224f6e297f1f
 tags:
   1.34.0--r41hdfd78af_0: sha256:4db541f26a9b567d437068d9270e65d4924b2e5835ec7b0a73e74af85c21abaf
   1.38.0--r42hdfd78af_0: sha256:3bbbde4c1d30801bf2b56e69c4b57ad6cf1ebe921677f1ac9c12369ee85f4b3b
   1.40.0--r43hdfd78af_0: sha256:41b9db1b6978741c64ed440ad51030687dfea5fa6442414f35c993dc345721e0
   1.42.0--r43hdfd78af_0: sha256:59126bd5c7ea0b214cd9f375047d3887324a2f57b2d68dba4cf6c860457fa687
+  1.46.0--r44hdfd78af_0: sha256:40cbb2d691df0525d66fe99c735b556b3f286ea1c426f80cdd31224f6e297f1f
 docker: quay.io/biocontainers/bioconductor-snagee

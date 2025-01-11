@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-schot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-schot
 latest:
-  1.14.0--r43hdfd78af_0: sha256:9694259048336d42a752630e45a2065d73eec781de2ea9125a7e2d7e572f375f
+  1.18.0--r44hdfd78af_0: sha256:7cdc4a14783944975bb759a7c71148e441067156ad72118fe8ae1eb1ccd421e4
 tags:
   1.6.0--r41hdfd78af_0: sha256:7cc91888307f64078ee6e3bc48ed3c65e682ac2d8edf0e4addf0b0c663bab6ca
   1.10.0--r42hdfd78af_0: sha256:c710dc7910f8afa67d074d6edf6dcc27a1d961357252e7dd629563f652e1c8ad
   1.12.0--r43hdfd78af_0: sha256:404d1ce14ca64ae1fb7f55c0a72629e764bcc48bcd08e96534fa7006d3f88e68
   1.14.0--r43hdfd78af_0: sha256:9694259048336d42a752630e45a2065d73eec781de2ea9125a7e2d7e572f375f
+  1.18.0--r44hdfd78af_0: sha256:7cdc4a14783944975bb759a7c71148e441067156ad72118fe8ae1eb1ccd421e4
 docker: quay.io/biocontainers/bioconductor-schot

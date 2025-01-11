@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bayesknockdown
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bayesknockdown
 latest:
-  1.28.0--r43hdfd78af_0: sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0
+  1.32.0--r44hdfd78af_0: sha256:6b3497b99678b0376c778b89605832f06068a74e0cd7196b4dd8bd1ff3d05303
 tags:
   1.8.0--r351_0: sha256:5f4a55061ccf1fc43f93dbc34bbf886dd9d4fd6cef7e35159e4fb32cf9c993ab
   1.24.0--r42hdfd78af_0: sha256:a7a263fd970fa05bdd2bb8e816c9887a60ee8dd05e69c2c2731e2f88c5c09594
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:06232ee75e4e345c3d2ee79f135d8bfd1cba85a3fc6e193e2e6bb0f248f4f824
   1.26.0--r43hdfd78af_0: sha256:f540c86cc98b563f82c978e46735f9fc59ffc7bfff46e09e0b9b5908c4d6b12f
   1.28.0--r43hdfd78af_0: sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0
+  1.32.0--r44hdfd78af_0: sha256:6b3497b99678b0376c778b89605832f06068a74e0cd7196b4dd8bd1ff3d05303
 docker: quay.io/biocontainers/bioconductor-bayesknockdown
 aliases:
   c89: /usr/local/bin/c89

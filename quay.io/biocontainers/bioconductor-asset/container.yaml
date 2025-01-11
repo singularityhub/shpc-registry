@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-asset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-asset
 latest:
-  2.20.0--r43hdfd78af_0: sha256:841ef74654b3467330578ea1a4d9bfb77bb6d751cabfff112f81a61ae29927e8
+  2.24.0--r44hdfd78af_0: sha256:ea2f7f270a32cf23a2edcc7bb86e66857e4175d9412be653e79db6a8fd17feb2
 tags:
   2.8.0--r40hdfd78af_1: sha256:e28e2e52d4827a1429f6ffe3cdf0bef2726ac23fab88eb116e121cf9990ce878
   2.16.0--r42hdfd78af_0: sha256:6991d6250bce9068c320ac10ba618a993b5cd04a738e5e0da1a2f4fde498a8a8
@@ -10,6 +10,7 @@ tags:
   2.10.0--r41hdfd78af_0: sha256:d23c0b8baf16dd651d2623ce0ffafc8280d5f2b974637eb1d64eeac31aa398e9
   2.18.0--r43hdfd78af_0: sha256:af4be3bf0da8c6f57b71b3a698dda821298ee98f810e351053bef7e5b183b646
   2.20.0--r43hdfd78af_0: sha256:841ef74654b3467330578ea1a4d9bfb77bb6d751cabfff112f81a61ae29927e8
+  2.24.0--r44hdfd78af_0: sha256:ea2f7f270a32cf23a2edcc7bb86e66857e4175d9412be653e79db6a8fd17feb2
 docker: quay.io/biocontainers/bioconductor-asset
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

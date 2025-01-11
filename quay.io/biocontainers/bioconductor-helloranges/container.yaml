@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-helloranges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-helloranges
 latest:
-  1.28.0--r43hdfd78af_0: sha256:f294897f3d4c28ed7643c63c63daeb2090f26bb9fdec0ddee486419dd8c8ab52
+  1.32.0--r44hdfd78af_0: sha256:7dc462c59d83347a3d060b46373c3a63546ed569202d7678f08c0df1fb990d6e
 tags:
   1.8.0--r351_0: sha256:673f89afc96549abd20e43ec9b4ccb2feeeb08b9d1d0fa689e75ad8294814e75
   1.24.0--r42hdfd78af_0: sha256:192af8b544e2b7cb6e1a07f8958b7220091e28405d315ff3d587ae97f0024c03
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:f6f8944536b1e927386d423c3b2f2a99a3da413dca75414f4db7066cb0928f48
   1.26.0--r43hdfd78af_0: sha256:2372c280772a5687c03170665637aa68db15e4af98c04dd001ce4bd3e8574a40
   1.28.0--r43hdfd78af_0: sha256:f294897f3d4c28ed7643c63c63daeb2090f26bb9fdec0ddee486419dd8c8ab52
+  1.32.0--r44hdfd78af_0: sha256:7dc462c59d83347a3d060b46373c3a63546ed569202d7678f08c0df1fb990d6e
 docker: quay.io/biocontainers/bioconductor-helloranges
 aliases:
   wget: /usr/local/bin/wget

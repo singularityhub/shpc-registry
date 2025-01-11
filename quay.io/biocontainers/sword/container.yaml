@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sword
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sword
 latest:
-  1.0.4--h4ac6f70_4: sha256:38a1e12a7ab2a5c27fb45a5c14ba5dc9b06ecb1ebd1e36a03fbb123bcd8c7a74
+  1.0.4--h9948957_5: sha256:fdfcc4d8feac3de489c246b6ee12ae7720dd5b4dd1c93aae599c18a2ed526740
 tags:
   1.0.4--h9f5acd7_2: sha256:61184b79d6d96c10de6e9479f9fc6420474edd67a5392b5e3c677194f8d1363d
   1.0.4--h4ac6f70_4: sha256:38a1e12a7ab2a5c27fb45a5c14ba5dc9b06ecb1ebd1e36a03fbb123bcd8c7a74
+  1.0.4--h9948957_5: sha256:fdfcc4d8feac3de489c246b6ee12ae7720dd5b4dd1c93aae599c18a2ed526740
 docker: quay.io/biocontainers/sword
 aliases:
   sword: /usr/local/bin/sword

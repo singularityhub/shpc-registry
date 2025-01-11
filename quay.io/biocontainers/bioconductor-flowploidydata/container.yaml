@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowploidydata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowploidydata
 latest:
-  1.28.0--r43hdfd78af_0: sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a
+  1.32.0--r44hdfd78af_0: sha256:ee932f15dfd09ec2df11ddb1ee52cdbdaebb653c9bd3748adf6e43f7ca2ef49b
 tags:
   1.8.0--r351_0: sha256:d147ec7ab6e1e26fd2b6fd822e4908eb14417fbd42387fdb19f068a038259eec
   1.23.0--r42hdfd78af_0: sha256:e3eb4b6f5bc70a4cd3269b4047c5cb3d97ea3ee5746075adce2e35596c10080b
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:a79fdbdde26efea1514424fcc677d80d8ff3c3122f7a0d19517c3bbaca59abdb
   1.26.0--r43hdfd78af_0: sha256:c3e92b86c04aadd85eb31f35085c9bea18af377b9f5dfcbab8e8727f2a237137
   1.28.0--r43hdfd78af_0: sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a
+  1.32.0--r44hdfd78af_0: sha256:ee932f15dfd09ec2df11ddb1ee52cdbdaebb653c9bd3748adf6e43f7ca2ef49b
 docker: quay.io/biocontainers/bioconductor-flowploidydata
 aliases:
   wget: /usr/local/bin/wget

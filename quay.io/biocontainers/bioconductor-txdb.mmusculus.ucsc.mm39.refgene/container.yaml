@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm39.refge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm39.refgene
 latest:
-  3.18.0--r43hdfd78af_0: sha256:6dd6e020328f6003ebcb96cb3729c88108ab42e7c6bc36fa25e2ff4c7bdd7c1c
+  3.19.0--r44hdfd78af_0: sha256:258bcc8047670ecec0d85705d94dc918e209d62a90238777485176943eb1f37a
 tags:
   3.12.0--r41hdfd78af_4: sha256:793eddf2edc01b3961b03ccb2c7f0576eb985e864e92f351767ef99efb83566a
   3.12.0--r42hdfd78af_5: sha256:c99ff37ab5f91204342128055dc24629d46cef0243e9e0757f75cedf4ef1c447
   3.12.0--r43hdfd78af_6: sha256:f898e4c5cba39e2fdb9ae403af351ec90be8dc4a9349637b7896242d48c0d7f1
   3.18.0--r43hdfd78af_0: sha256:6dd6e020328f6003ebcb96cb3729c88108ab42e7c6bc36fa25e2ff4c7bdd7c1c
+  3.19.0--r44hdfd78af_0: sha256:258bcc8047670ecec0d85705d94dc918e209d62a90238777485176943eb1f37a
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene

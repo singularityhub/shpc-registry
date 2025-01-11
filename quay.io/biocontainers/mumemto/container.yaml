@@ -5,6 +5,7 @@ latest:
   1.1.1--py310h184ae93_2: sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a
 tags:
   1.1.1--py310h184ae93_2: sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a
+  1.1.1--py311he264feb_2: sha256:f546036fa9d76c91d6ed6ce5d3d86569f40f842ca04254be8dee0420d686d363
 docker: quay.io/biocontainers/mumemto
 aliases:
   mumemto: /usr/local/bin/mumemto

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-lymphoseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lymphoseq
 latest:
-  1.30.0--r43hdfd78af_0: sha256:7c0c640412653580dc4e88980582f5fe1bb6b209572ec8fcc37bff9a6ec05ea7
+  1.34.0--r44hdfd78af_0: sha256:a11c6b49f3433d3e38f44252a01fd88524dcc591f51024290fe51bdd92304b78
 tags:
   1.22.0--r41hdfd78af_0: sha256:2ffc4e4b0075dad7b827bdecc5f00cc378fc7afd711fa3b7ee8a568f8af648c6
   1.26.0--r42hdfd78af_0: sha256:b47be6be0d1c98dc47d665375f1896b46256930c01703de0faded78ea3b460d8
   1.28.0--r43hdfd78af_0: sha256:2f5fcda154bf77043a5cc7f9c7d931365989ca5c543eb58b2a8188fb332b7bd7
   1.30.0--r43hdfd78af_0: sha256:7c0c640412653580dc4e88980582f5fe1bb6b209572ec8fcc37bff9a6ec05ea7
+  1.34.0--r44hdfd78af_0: sha256:a11c6b49f3433d3e38f44252a01fd88524dcc591f51024290fe51bdd92304b78
 docker: quay.io/biocontainers/bioconductor-lymphoseq

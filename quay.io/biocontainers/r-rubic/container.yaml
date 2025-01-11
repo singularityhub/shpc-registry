@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-rubic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rubic
 latest:
-  1.0.3--r43hdfd78af_6: sha256:c66adb053ccc1b8b684e3ed0a7eedae696de77422e6e9dbe301180221577eb2e
+  1.0.3--r44hdfd78af_7: sha256:0c2f503fdd049a52d813dbadea754480459ca085c72585469d81c3e287905c0a
 tags:
   1.0.3--r41hdfd78af_4: sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25
   1.0.3--r42hdfd78af_5: sha256:238cb0f20526ff1e8a17e79beee21d880d2cc6514d97d34088f32287efd9dc62
   1.0.3--r43hdfd78af_6: sha256:c66adb053ccc1b8b684e3ed0a7eedae696de77422e6e9dbe301180221577eb2e
+  1.0.3--r44hdfd78af_7: sha256:0c2f503fdd049a52d813dbadea754480459ca085c72585469d81c3e287905c0a
 docker: quay.io/biocontainers/r-rubic
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-scpdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scpdata
 latest:
-  1.10.0--r43hdfd78af_0: sha256:0e27aa2ef90bde5749658f1f8496f59fb56a97da7d7cbf7233bb1d8adad21926
+  1.13.0--r44hdfd78af_0: sha256:b590fd034892d746fff325b2a3bf085f7db7c48a5ffe0ed5ab672d387abe8709
 tags:
   1.2.0--r41hdfd78af_1: sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc
   1.6.0--r42hdfd78af_0: sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb
   1.8.0--r43hdfd78af_0: sha256:9110e3c332539edfa67405da202e420b2ff7fb3faba5a9cf59c0f64d7632e934
   1.10.0--r43hdfd78af_0: sha256:0e27aa2ef90bde5749658f1f8496f59fb56a97da7d7cbf7233bb1d8adad21926
+  1.13.0--r44hdfd78af_0: sha256:b590fd034892d746fff325b2a3bf085f7db7c48a5ffe0ed5ab672d387abe8709
 docker: quay.io/biocontainers/bioconductor-scpdata
 aliases:
   glpsol: /usr/local/bin/glpsol
