@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tn93"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tn93/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tn93/container.yaml"
-updated_at: "2025-01-10 03:01:12.248840"
-latest: "1.0.14--hdbdd923_0"
+updated_at: "2025-01-11 02:57:02.499989"
+latest: "1.0.14--h503566f_1"
 container_url: "https://biocontainers.pro/tools/tn93"
 aliases:
  - "ShortestPathTN93"
@@ -22,8 +22,9 @@ versions:
  - "1.0.9--hdbdd923_2"
  - "1.0.12--hdbdd923_0"
  - "1.0.14--hdbdd923_0"
+ - "1.0.14--h503566f_1"
 description: "shpc-registry automated BioContainers addition for tn93"
-config: {"url": "https://biocontainers.pro/tools/tn93", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tn93", "latest": {"1.0.14--hdbdd923_0": "sha256:86102850a759b10746c9db19fa9acdac97791f920b1decaf1115ec99e15aaa0b"}, "tags": {"1.0.9--h87f3376_0": "sha256:424dbe9f31de15de37e3b5b91daa8770450eae97c241fc9a1197d4b410f7b9e9", "1.0.9--hdbdd923_2": "sha256:a975935402c6a7a1d51e58df242f8aa03adc864ba8b55db5e37d7de0dc339217", "1.0.12--hdbdd923_0": "sha256:83bf531c82c6a87647085f2c222b0452ab3ea0de71e0fff9cd127580249706d9", "1.0.14--hdbdd923_0": "sha256:86102850a759b10746c9db19fa9acdac97791f920b1decaf1115ec99e15aaa0b"}, "docker": "quay.io/biocontainers/tn93", "aliases": {"ShortestPathTN93": "/usr/local/bin/ShortestPathTN93", "fasta_diff": "/usr/local/bin/fasta_diff", "nucfreqsfasta": "/usr/local/bin/nucfreqsfasta", "readreduce": "/usr/local/bin/readreduce", "selectreads": "/usr/local/bin/selectreads", "seqcoverage": "/usr/local/bin/seqcoverage", "seqdiff": "/usr/local/bin/seqdiff", "tn93": "/usr/local/bin/tn93", "tn93-cluster": "/usr/local/bin/tn93-cluster"}}
+config: {"url": "https://biocontainers.pro/tools/tn93", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tn93", "latest": {"1.0.14--h503566f_1": "sha256:80863f30900399f7dc6e0892d30516adeaf5b0e28963b1740718d1a075c8c25c"}, "tags": {"1.0.9--h87f3376_0": "sha256:424dbe9f31de15de37e3b5b91daa8770450eae97c241fc9a1197d4b410f7b9e9", "1.0.9--hdbdd923_2": "sha256:a975935402c6a7a1d51e58df242f8aa03adc864ba8b55db5e37d7de0dc339217", "1.0.12--hdbdd923_0": "sha256:83bf531c82c6a87647085f2c222b0452ab3ea0de71e0fff9cd127580249706d9", "1.0.14--hdbdd923_0": "sha256:86102850a759b10746c9db19fa9acdac97791f920b1decaf1115ec99e15aaa0b", "1.0.14--h503566f_1": "sha256:80863f30900399f7dc6e0892d30516adeaf5b0e28963b1740718d1a075c8c25c"}, "docker": "quay.io/biocontainers/tn93", "aliases": {"ShortestPathTN93": "/usr/local/bin/ShortestPathTN93", "fasta_diff": "/usr/local/bin/fasta_diff", "nucfreqsfasta": "/usr/local/bin/nucfreqsfasta", "readreduce": "/usr/local/bin/readreduce", "selectreads": "/usr/local/bin/selectreads", "seqcoverage": "/usr/local/bin/seqcoverage", "seqdiff": "/usr/local/bin/seqdiff", "tn93": "/usr/local/bin/tn93", "tn93-cluster": "/usr/local/bin/tn93-cluster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tn93.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tn93
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tn93:1.0.14--hdbdd923_0
+$ shpc install quay.io/biocontainers/tn93:1.0.14--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tn93/1.0.14--hdbdd923_0
-$ module help quay.io/biocontainers/tn93/1.0.14--hdbdd923_0
+$ module load quay.io/biocontainers/tn93/1.0.14--h503566f_1
+$ module help quay.io/biocontainers/tn93/1.0.14--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

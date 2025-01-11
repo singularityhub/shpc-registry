@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-metama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metama/container.yaml"
-updated_at: "2025-01-10 02:56:22.713900"
-latest: "3.1.3--r43h3121a25_2"
+updated_at: "2025-01-11 02:52:20.397846"
+latest: "3.1.3--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-metama"
 
 versions:
  - "3.1.3--r41h3121a25_0"
  - "3.1.3--r42h3121a25_1"
  - "3.1.3--r43h3121a25_2"
+ - "3.1.3--r44h3121a25_3"
 description: "shpc-registry automated BioContainers addition for r-metama"
-config: {"url": "https://biocontainers.pro/tools/r-metama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metama", "latest": {"3.1.3--r43h3121a25_2": "sha256:589f5d53f15be00ffc471f061e8bd8650af2542ef588101b6c5d1b76d8588a50"}, "tags": {"3.1.3--r41h3121a25_0": "sha256:a29a5c52a5256267dd8cbd52754cca5e9d501065e9d5fa129812ae7c1f46d004", "3.1.3--r42h3121a25_1": "sha256:575e5f635b599712be9dd8f3951ee6afd13bf709578b0b17ac622f7053d11040", "3.1.3--r43h3121a25_2": "sha256:589f5d53f15be00ffc471f061e8bd8650af2542ef588101b6c5d1b76d8588a50"}, "docker": "quay.io/biocontainers/r-metama"}
+config: {"url": "https://biocontainers.pro/tools/r-metama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metama", "latest": {"3.1.3--r44h3121a25_3": "sha256:75b35aefb4a6af5607de5bc3e24236a6d75bd41efb1c89071d14b221acee1ccd"}, "tags": {"3.1.3--r41h3121a25_0": "sha256:a29a5c52a5256267dd8cbd52754cca5e9d501065e9d5fa129812ae7c1f46d004", "3.1.3--r42h3121a25_1": "sha256:575e5f635b599712be9dd8f3951ee6afd13bf709578b0b17ac622f7053d11040", "3.1.3--r43h3121a25_2": "sha256:589f5d53f15be00ffc471f061e8bd8650af2542ef588101b6c5d1b76d8588a50", "3.1.3--r44h3121a25_3": "sha256:75b35aefb4a6af5607de5bc3e24236a6d75bd41efb1c89071d14b221acee1ccd"}, "docker": "quay.io/biocontainers/r-metama"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metama.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-metama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metama:3.1.3--r43h3121a25_2
+$ shpc install quay.io/biocontainers/r-metama:3.1.3--r44h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metama/3.1.3--r43h3121a25_2
-$ module help quay.io/biocontainers/r-metama/3.1.3--r43h3121a25_2
+$ module load quay.io/biocontainers/r-metama/3.1.3--r44h3121a25_3
+$ module help quay.io/biocontainers/r-metama/3.1.3--r44h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

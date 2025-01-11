@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dialign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dialign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dialign2/container.yaml"
-updated_at: "2025-01-10 03:15:23.194999"
-latest: "2.2.1--h4ac6f70_7"
+updated_at: "2025-01-11 03:10:44.039361"
+latest: "2.2.1--h9948957_8"
 container_url: "https://biocontainers.pro/tools/dialign2"
 aliases:
  - "dialign2-2"
 versions:
  - "2.2.1--h9f5acd7_5"
  - "2.2.1--h4ac6f70_7"
+ - "2.2.1--h9948957_8"
 description: "shpc-registry automated BioContainers addition for dialign2"
-config: {"url": "https://biocontainers.pro/tools/dialign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dialign2", "latest": {"2.2.1--h4ac6f70_7": "sha256:301a69a94f6eef39b34bd32a005752977abd674885481443d8f325992fe8bd3a"}, "tags": {"2.2.1--h9f5acd7_5": "sha256:a0676b93416e999a0495c04109031bf693443b1b6cbb66e17c4c1b8ebd1597a7", "2.2.1--h4ac6f70_7": "sha256:301a69a94f6eef39b34bd32a005752977abd674885481443d8f325992fe8bd3a"}, "docker": "quay.io/biocontainers/dialign2", "aliases": {"dialign2-2": "/usr/local/bin/dialign2-2"}}
+config: {"url": "https://biocontainers.pro/tools/dialign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dialign2", "latest": {"2.2.1--h9948957_8": "sha256:7ec46a592f90edb1420d3b50a25fdcfad4e77932e8287c38387543ce1fc5cf8c"}, "tags": {"2.2.1--h9f5acd7_5": "sha256:a0676b93416e999a0495c04109031bf693443b1b6cbb66e17c4c1b8ebd1597a7", "2.2.1--h4ac6f70_7": "sha256:301a69a94f6eef39b34bd32a005752977abd674885481443d8f325992fe8bd3a", "2.2.1--h9948957_8": "sha256:7ec46a592f90edb1420d3b50a25fdcfad4e77932e8287c38387543ce1fc5cf8c"}, "docker": "quay.io/biocontainers/dialign2", "aliases": {"dialign2-2": "/usr/local/bin/dialign2-2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dialign2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dialign2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dialign2:2.2.1--h4ac6f70_7
+$ shpc install quay.io/biocontainers/dialign2:2.2.1--h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dialign2/2.2.1--h4ac6f70_7
-$ module help quay.io/biocontainers/dialign2/2.2.1--h4ac6f70_7
+$ module load quay.io/biocontainers/dialign2/2.2.1--h9948957_8
+$ module help quay.io/biocontainers/dialign2/2.2.1--h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

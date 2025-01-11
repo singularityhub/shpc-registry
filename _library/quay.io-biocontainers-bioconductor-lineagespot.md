@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lineagespot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lineagespot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lineagespot/container.yaml"
-updated_at: "2025-01-10 02:55:46.321500"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-11 02:51:43.816977"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lineagespot"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-lineagespot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lineagespot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-lineagespot", "latest": {"1.6.0--r43hdfd78af_0": "sha256:31a74aca99170087c98b092dc90c05ba073d4053b4c5313188a4edf27733c0a8"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e88fb6c2ea188dad5e4ac93ef69d4030a87f4624458a8dc6b8ebccabb4315038", "1.4.0--r43hdfd78af_0": "sha256:fa74ac3d992205455a8995df92fbfb411053e9543cc896fcffda5d95ff06c874", "1.6.0--r43hdfd78af_0": "sha256:31a74aca99170087c98b092dc90c05ba073d4053b4c5313188a4edf27733c0a8"}, "docker": "quay.io/biocontainers/bioconductor-lineagespot", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lineagespot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-lineagespot", "latest": {"1.10.0--r44hdfd78af_0": "sha256:aa78684d3f150502587be32c17ea7cd141854a127dce7d05a3a78c80ed64eeeb"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e88fb6c2ea188dad5e4ac93ef69d4030a87f4624458a8dc6b8ebccabb4315038", "1.4.0--r43hdfd78af_0": "sha256:fa74ac3d992205455a8995df92fbfb411053e9543cc896fcffda5d95ff06c874", "1.6.0--r43hdfd78af_0": "sha256:31a74aca99170087c98b092dc90c05ba073d4053b4c5313188a4edf27733c0a8", "1.10.0--r44hdfd78af_0": "sha256:aa78684d3f150502587be32c17ea7cd141854a127dce7d05a3a78c80ed64eeeb"}, "docker": "quay.io/biocontainers/bioconductor-lineagespot", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lineagespot.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lineagespot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lineagespot:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lineagespot:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lineagespot/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lineagespot/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lineagespot/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lineagespot/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

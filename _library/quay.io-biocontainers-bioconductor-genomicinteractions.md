@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicinteractions/container.yaml"
-updated_at: "2025-01-10 02:56:40.455514"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2025-01-11 02:52:38.068312"
+latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicinteractions"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.40.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicinteractions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicinteractions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicinteractions", "latest": {"1.36.0--r43hdfd78af_0": "sha256:6c604266d9fcf7d83e481954ee2b7311f584bc2b0402dad2862c68708e2d81b9"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:e3c4c0754ecc47d2b6815efd2fbcb80eef51eddd5eae63e39e6cd9f7036ea47b", "1.32.0--r42hdfd78af_0": "sha256:884f547602a91b8fa8723e2504e390d9c4fef7cfd468690f992997477a429cef", "1.34.0--r43hdfd78af_0": "sha256:c387486a042f96ca54280e9e9b9c7fd3b8f5d67472c8c1eab1d363fa176a8360", "1.36.0--r43hdfd78af_0": "sha256:6c604266d9fcf7d83e481954ee2b7311f584bc2b0402dad2862c68708e2d81b9"}, "docker": "quay.io/biocontainers/bioconductor-genomicinteractions"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicinteractions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicinteractions", "latest": {"1.40.0--r44hdfd78af_0": "sha256:30187100a1445fae0535dce8dc4f2bc7a625f6e5310666b9a90b55bde7326084"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:e3c4c0754ecc47d2b6815efd2fbcb80eef51eddd5eae63e39e6cd9f7036ea47b", "1.32.0--r42hdfd78af_0": "sha256:884f547602a91b8fa8723e2504e390d9c4fef7cfd468690f992997477a429cef", "1.34.0--r43hdfd78af_0": "sha256:c387486a042f96ca54280e9e9b9c7fd3b8f5d67472c8c1eab1d363fa176a8360", "1.36.0--r43hdfd78af_0": "sha256:6c604266d9fcf7d83e481954ee2b7311f584bc2b0402dad2862c68708e2d81b9", "1.40.0--r44hdfd78af_0": "sha256:30187100a1445fae0535dce8dc4f2bc7a625f6e5310666b9a90b55bde7326084"}, "docker": "quay.io/biocontainers/bioconductor-genomicinteractions"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicinteractions.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicinteractions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicinteractions:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicinteractions:1.40.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicinteractions/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicinteractions/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicinteractions/1.40.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicinteractions/1.40.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

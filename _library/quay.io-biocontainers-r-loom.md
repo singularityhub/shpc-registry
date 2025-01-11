@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-loom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loom/container.yaml"
-updated_at: "2025-01-10 03:13:28.199550"
-latest: "0.2.0.2--r43hdfd78af_6"
+updated_at: "2025-01-11 03:08:52.943998"
+latest: "0.2.0.2--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-loom"
 aliases:
  - "h5clear"
@@ -22,8 +22,9 @@ versions:
  - "0.2.0.2--r41hdfd78af_4"
  - "0.2.0.2--r42hdfd78af_5"
  - "0.2.0.2--r43hdfd78af_6"
+ - "0.2.0.2--r44hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for r-loom"
-config: {"url": "https://biocontainers.pro/tools/r-loom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loom", "latest": {"0.2.0.2--r43hdfd78af_6": "sha256:5d5b33b42a9a831b492851af6d1904610d2a076c835a4e1ab7b8771f4a957cfa"}, "tags": {"0.2.0.2--r41hdfd78af_4": "sha256:c473ada74eb684ea3327b6a3558cadf2742b75d6bef564e38ee0d362c083e2ee", "0.2.0.2--r42hdfd78af_5": "sha256:7812b7235f6f86d16661dfa91216727d01f724966e6fcf96b35a386fa3e83ecf", "0.2.0.2--r43hdfd78af_6": "sha256:5d5b33b42a9a831b492851af6d1904610d2a076c835a4e1ab7b8771f4a957cfa"}, "docker": "quay.io/biocontainers/r-loom", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/r-loom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loom", "latest": {"0.2.0.2--r44hdfd78af_7": "sha256:3ccdb06dbcf026adcbb94af9f49e1b537a4c391baaca6f64b8558eacab8d3ef2"}, "tags": {"0.2.0.2--r41hdfd78af_4": "sha256:c473ada74eb684ea3327b6a3558cadf2742b75d6bef564e38ee0d362c083e2ee", "0.2.0.2--r42hdfd78af_5": "sha256:7812b7235f6f86d16661dfa91216727d01f724966e6fcf96b35a386fa3e83ecf", "0.2.0.2--r43hdfd78af_6": "sha256:5d5b33b42a9a831b492851af6d1904610d2a076c835a4e1ab7b8771f4a957cfa", "0.2.0.2--r44hdfd78af_7": "sha256:3ccdb06dbcf026adcbb94af9f49e1b537a4c391baaca6f64b8558eacab8d3ef2"}, "docker": "quay.io/biocontainers/r-loom", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-loom.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-loom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-loom:0.2.0.2--r43hdfd78af_6
+$ shpc install quay.io/biocontainers/r-loom:0.2.0.2--r44hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-loom/0.2.0.2--r43hdfd78af_6
-$ module help quay.io/biocontainers/r-loom/0.2.0.2--r43hdfd78af_6
+$ module load quay.io/biocontainers/r-loom/0.2.0.2--r44hdfd78af_7
+$ module help quay.io/biocontainers/r-loom/0.2.0.2--r44hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

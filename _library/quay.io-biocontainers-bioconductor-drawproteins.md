@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drawproteins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drawproteins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drawproteins/container.yaml"
-updated_at: "2025-01-10 03:36:51.915015"
+updated_at: "2025-01-11 03:31:43.293470"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drawproteins"
 aliases:

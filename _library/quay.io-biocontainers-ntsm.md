@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntsm/container.yaml"
-updated_at: "2025-01-10 03:06:07.394554"
-latest: "1.2.1--hdcf5f25_0"
+updated_at: "2025-01-11 03:01:51.093577"
+latest: "1.2.1--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/ntsm"
 aliases:
  - "ntsmCount"
@@ -39,8 +39,9 @@ aliases:
  - "samtools.pl"
 versions:
  - "1.2.1--hdcf5f25_0"
+ - "1.2.1--h077b44d_1"
 description: "singularity registry hpc automated addition for ntsm"
-config: {"url": "https://biocontainers.pro/tools/ntsm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsm", "latest": {"1.2.1--hdcf5f25_0": "sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788"}, "tags": {"1.2.1--hdcf5f25_0": "sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788"}, "docker": "quay.io/biocontainers/ntsm", "aliases": {"ntsmCount": "/usr/local/bin/ntsmCount", "ntsmEval": "/usr/local/bin/ntsmEval", "ntsmSiteGen": "/usr/local/bin/ntsmSiteGen", "ntsmVCF": "/usr/local/bin/ntsmVCF", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "faidx": "/usr/local/bin/faidx", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ntsm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsm", "latest": {"1.2.1--h077b44d_1": "sha256:4ac5eabc60e514539a494be06926ea45ea5242cb4d056f41bcdf484a49093cce"}, "tags": {"1.2.1--hdcf5f25_0": "sha256:85a50f4191e752fdf516a228f810df23a0232e03c0bcce7f35d210ea2d3f7788", "1.2.1--h077b44d_1": "sha256:4ac5eabc60e514539a494be06926ea45ea5242cb4d056f41bcdf484a49093cce"}, "docker": "quay.io/biocontainers/ntsm", "aliases": {"ntsmCount": "/usr/local/bin/ntsmCount", "ntsmEval": "/usr/local/bin/ntsmEval", "ntsmSiteGen": "/usr/local/bin/ntsmSiteGen", "ntsmVCF": "/usr/local/bin/ntsmVCF", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "faidx": "/usr/local/bin/faidx", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntsm.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/ntsm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntsm:1.2.1--hdcf5f25_0
+$ shpc install quay.io/biocontainers/ntsm:1.2.1--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntsm/1.2.1--hdcf5f25_0
-$ module help quay.io/biocontainers/ntsm/1.2.1--hdcf5f25_0
+$ module load quay.io/biocontainers/ntsm/1.2.1--h077b44d_1
+$ module help quay.io/biocontainers/ntsm/1.2.1--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

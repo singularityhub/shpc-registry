@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seq-hasher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-hasher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-hasher/container.yaml"
-updated_at: "2025-01-10 03:01:13.681318"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2025-01-11 02:57:03.891513"
+latest: "0.2.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/seq-hasher"
 aliases:
  - "seq-hasher"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.2.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for seq-hasher"
-config: {"url": "https://biocontainers.pro/tools/seq-hasher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seq-hasher", "latest": {"0.1.0--h4349ce8_0": "sha256:63909f041a8fa09a996c98b5ab16e0ba31082c657cbd228d85813e68e9f4fcc4"}, "tags": {"0.1.0--h4349ce8_0": "sha256:63909f041a8fa09a996c98b5ab16e0ba31082c657cbd228d85813e68e9f4fcc4"}, "docker": "quay.io/biocontainers/seq-hasher", "aliases": {"seq-hasher": "/usr/local/bin/seq-hasher"}}
+config: {"url": "https://biocontainers.pro/tools/seq-hasher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seq-hasher", "latest": {"0.2.0--h4349ce8_0": "sha256:9fe2d04e9f00b181a5426cdad0db7803f30bc6ab029412574b587a153841003b"}, "tags": {"0.1.0--h4349ce8_0": "sha256:63909f041a8fa09a996c98b5ab16e0ba31082c657cbd228d85813e68e9f4fcc4", "0.2.0--h4349ce8_0": "sha256:9fe2d04e9f00b181a5426cdad0db7803f30bc6ab029412574b587a153841003b"}, "docker": "quay.io/biocontainers/seq-hasher", "aliases": {"seq-hasher": "/usr/local/bin/seq-hasher"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq-hasher.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seq-hasher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seq-hasher:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/seq-hasher:0.2.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seq-hasher/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/seq-hasher/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/seq-hasher/0.2.0--h4349ce8_0
+$ module help quay.io/biocontainers/seq-hasher/0.2.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

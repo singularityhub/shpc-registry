@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/longcallr_nn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longcallr_nn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longcallr_nn/container.yaml"
-updated_at: "2025-01-10 03:35:04.218959"
-latest: "0.0.1--pyhdfd78af_1"
+updated_at: "2025-01-11 03:29:53.810474"
+latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longcallr_nn"
 aliases:
  - "longcallR_nn"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.0.1--pyhdfd78af_0"
  - "0.0.1--pyhdfd78af_1"
+ - "0.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for longcallr_nn"
-config: {"url": "https://biocontainers.pro/tools/longcallr_nn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longcallr_nn", "latest": {"0.0.1--pyhdfd78af_1": "sha256:76894aa105b48377ce825c4a86f6b487a1639d941c60abe22053e7fe7c387002"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:ff2b73f88de872ca44d0960a0c5e857cd4eb9cdf9440a5323eba10d377a2d0af", "0.0.1--pyhdfd78af_1": "sha256:76894aa105b48377ce825c4a86f6b487a1639d941c60abe22053e7fe7c387002"}, "docker": "quay.io/biocontainers/longcallr_nn", "aliases": {"longcallR_nn": "/usr/local/bin/longcallR_nn", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "protoc": "/usr/local/bin/protoc", "f2py3.9": "/usr/local/bin/f2py3.9", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/longcallr_nn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longcallr_nn", "latest": {"0.0.2--pyhdfd78af_0": "sha256:e6c54519374b10e35649bdb5e6d290000dad23e63867dc5f43f9847d0411365c"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:ff2b73f88de872ca44d0960a0c5e857cd4eb9cdf9440a5323eba10d377a2d0af", "0.0.1--pyhdfd78af_1": "sha256:76894aa105b48377ce825c4a86f6b487a1639d941c60abe22053e7fe7c387002", "0.0.2--pyhdfd78af_0": "sha256:e6c54519374b10e35649bdb5e6d290000dad23e63867dc5f43f9847d0411365c"}, "docker": "quay.io/biocontainers/longcallr_nn", "aliases": {"longcallR_nn": "/usr/local/bin/longcallR_nn", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "protoc": "/usr/local/bin/protoc", "f2py3.9": "/usr/local/bin/f2py3.9", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longcallr_nn.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/longcallr_nn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longcallr_nn:0.0.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/longcallr_nn:0.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longcallr_nn/0.0.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/longcallr_nn/0.0.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/longcallr_nn/0.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/longcallr_nn/0.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

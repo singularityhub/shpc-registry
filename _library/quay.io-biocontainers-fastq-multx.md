@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastq-multx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-multx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-multx/container.yaml"
-updated_at: "2025-01-10 03:09:27.030168"
-latest: "1.4.2--h4ac6f70_4"
+updated_at: "2025-01-11 03:05:02.303336"
+latest: "1.4.2--h9948957_5"
 container_url: "https://biocontainers.pro/tools/fastq-multx"
 aliases:
  - "fastq-multx"
 versions:
  - "1.4.2--h9f5acd7_2"
  - "1.4.2--h4ac6f70_4"
+ - "1.4.2--h9948957_5"
 description: "shpc-registry automated BioContainers addition for fastq-multx"
-config: {"url": "https://biocontainers.pro/tools/fastq-multx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-multx", "latest": {"1.4.2--h4ac6f70_4": "sha256:39553fc57fee5afb3e1c96b5e1ea7ab414e37a7bffe42d3161f398a73ddf77f9"}, "tags": {"1.4.2--h9f5acd7_2": "sha256:cdc4a85646a0a79053076460657ca015c047a49c6c74752080c603699cc4f266", "1.4.2--h4ac6f70_4": "sha256:39553fc57fee5afb3e1c96b5e1ea7ab414e37a7bffe42d3161f398a73ddf77f9"}, "docker": "quay.io/biocontainers/fastq-multx", "aliases": {"fastq-multx": "/usr/local/bin/fastq-multx"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-multx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-multx", "latest": {"1.4.2--h9948957_5": "sha256:a42b48ae64fb1f5ea1e256bd2a5b2b17f044aa473cbe50bf2ef42614c9c96a76"}, "tags": {"1.4.2--h9f5acd7_2": "sha256:cdc4a85646a0a79053076460657ca015c047a49c6c74752080c603699cc4f266", "1.4.2--h4ac6f70_4": "sha256:39553fc57fee5afb3e1c96b5e1ea7ab414e37a7bffe42d3161f398a73ddf77f9", "1.4.2--h9948957_5": "sha256:a42b48ae64fb1f5ea1e256bd2a5b2b17f044aa473cbe50bf2ef42614c9c96a76"}, "docker": "quay.io/biocontainers/fastq-multx", "aliases": {"fastq-multx": "/usr/local/bin/fastq-multx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-multx.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastq-multx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-multx:1.4.2--h4ac6f70_4
+$ shpc install quay.io/biocontainers/fastq-multx:1.4.2--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-multx/1.4.2--h4ac6f70_4
-$ module help quay.io/biocontainers/fastq-multx/1.4.2--h4ac6f70_4
+$ module load quay.io/biocontainers/fastq-multx/1.4.2--h9948957_5
+$ module help quay.io/biocontainers/fastq-multx/1.4.2--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

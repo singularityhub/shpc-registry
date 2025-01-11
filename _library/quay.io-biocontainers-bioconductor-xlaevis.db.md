@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-xlaevis.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xlaevis.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xlaevis.db/container.yaml"
-updated_at: "2025-01-10 03:02:54.412179"
-latest: "3.2.3--r43hdfd78af_12"
+updated_at: "2025-01-11 02:58:42.983482"
+latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-xlaevis.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
  - "3.2.3--r43hdfd78af_12"
+ - "3.2.3--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-xlaevis.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xlaevis.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xlaevis.db", "latest": {"3.2.3--r43hdfd78af_12": "sha256:493bff0a379462532a2f7a7416394571a93258501ef7108c11e6129996e5019b"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:0f501eb5d76b3e0c77eda0393677d6c6b17e31de1357b6c3bf07be4a9ff9b21e", "3.2.3--r42hdfd78af_10": "sha256:d29c1b33c91a7bbe6fe8d6cd6333b0f20b5f3c1ed5d0fddac63e589fc45e3ac2", "3.2.3--r43hdfd78af_11": "sha256:ef8fdbcac1d822505b4ca5841ae4c4b31ff39e6fe86bdb425ac3d654d1f41b5e", "3.2.3--r43hdfd78af_12": "sha256:493bff0a379462532a2f7a7416394571a93258501ef7108c11e6129996e5019b"}, "docker": "quay.io/biocontainers/bioconductor-xlaevis.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xlaevis.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xlaevis.db", "latest": {"3.2.3--r44hdfd78af_13": "sha256:a2d94da5bae7e668148fab11ac046712adcf0b2c772d62e4ebe6e3832bb9e95b"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:0f501eb5d76b3e0c77eda0393677d6c6b17e31de1357b6c3bf07be4a9ff9b21e", "3.2.3--r42hdfd78af_10": "sha256:d29c1b33c91a7bbe6fe8d6cd6333b0f20b5f3c1ed5d0fddac63e589fc45e3ac2", "3.2.3--r43hdfd78af_11": "sha256:ef8fdbcac1d822505b4ca5841ae4c4b31ff39e6fe86bdb425ac3d654d1f41b5e", "3.2.3--r43hdfd78af_12": "sha256:493bff0a379462532a2f7a7416394571a93258501ef7108c11e6129996e5019b", "3.2.3--r44hdfd78af_13": "sha256:a2d94da5bae7e668148fab11ac046712adcf0b2c772d62e4ebe6e3832bb9e95b"}, "docker": "quay.io/biocontainers/bioconductor-xlaevis.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xlaevis.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xlaevis.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xlaevis.db:3.2.3--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-xlaevis.db:3.2.3--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xlaevis.db/3.2.3--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-xlaevis.db/3.2.3--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-xlaevis.db/3.2.3--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-xlaevis.db/3.2.3--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

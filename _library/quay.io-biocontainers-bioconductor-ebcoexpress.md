@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ebcoexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
-updated_at: "2025-01-10 03:13:46.724913"
-latest: "1.46.0--r43ha9d7317_1"
+updated_at: "2025-01-11 03:09:11.052070"
+latest: "1.50.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebcoexpress"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.44.0--r43ha9d7317_0"
  - "1.46.0--r43ha9d7317_0"
  - "1.46.0--r43ha9d7317_1"
+ - "1.50.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ebcoexpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress", "latest": {"1.46.0--r43ha9d7317_1": "sha256:205a6fdc33f019a7a01009485c41461596f196a01d7759f51f79b9fd090e3c07"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a", "1.42.0--r42hc0cfd56_0": "sha256:c330880628ad3113328b47fa41acfdbf6f95c27d85d2d6b78c980f8f8132fe11", "1.42.0--r42ha9d7317_1": "sha256:874a004905056a607cf07a8b2ec6e15e81afdec3a41ac702c680000a1e838e44", "1.44.0--r43ha9d7317_0": "sha256:f0b56bb61eb206aede348d2a33b9256c38614fe33d6b0137240e9e8db1186acc", "1.46.0--r43ha9d7317_0": "sha256:12866f8a8e9b52ac5cf42fd61198718a38630f8c2ac411bf725fb819b104efd1", "1.46.0--r43ha9d7317_1": "sha256:205a6fdc33f019a7a01009485c41461596f196a01d7759f51f79b9fd090e3c07"}, "docker": "quay.io/biocontainers/bioconductor-ebcoexpress"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ebcoexpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress", "latest": {"1.50.0--r44h3df3fcb_0": "sha256:94821ab94cbe57de3e1e805096407c9cc3401987a9622fd49c8cbc690b274f30"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a", "1.42.0--r42hc0cfd56_0": "sha256:c330880628ad3113328b47fa41acfdbf6f95c27d85d2d6b78c980f8f8132fe11", "1.42.0--r42ha9d7317_1": "sha256:874a004905056a607cf07a8b2ec6e15e81afdec3a41ac702c680000a1e838e44", "1.44.0--r43ha9d7317_0": "sha256:f0b56bb61eb206aede348d2a33b9256c38614fe33d6b0137240e9e8db1186acc", "1.46.0--r43ha9d7317_0": "sha256:12866f8a8e9b52ac5cf42fd61198718a38630f8c2ac411bf725fb819b104efd1", "1.46.0--r43ha9d7317_1": "sha256:205a6fdc33f019a7a01009485c41461596f196a01d7759f51f79b9fd090e3c07", "1.50.0--r44h3df3fcb_0": "sha256:94821ab94cbe57de3e1e805096407c9cc3401987a9622fd49c8cbc690b274f30"}, "docker": "quay.io/biocontainers/bioconductor-ebcoexpress"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ebcoexpress.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ebcoexpress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ebcoexpress:1.46.0--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-ebcoexpress:1.50.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ebcoexpress/1.46.0--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-ebcoexpress/1.46.0--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-ebcoexpress/1.50.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-ebcoexpress/1.50.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

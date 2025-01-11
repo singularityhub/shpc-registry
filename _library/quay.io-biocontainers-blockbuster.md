@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/blockbuster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blockbuster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blockbuster/container.yaml"
-updated_at: "2025-01-10 03:38:38.811913"
-latest: "0.0.1.1--h031d066_7"
+updated_at: "2025-01-11 03:33:30.461680"
+latest: "0.0.1.1--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/blockbuster"
 aliases:
  - "blockbuster.x"
 versions:
  - "0.0.1.1--hec16e2b_5"
  - "0.0.1.1--h031d066_7"
+ - "0.0.1.1--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for blockbuster"
-config: {"url": "https://biocontainers.pro/tools/blockbuster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blockbuster", "latest": {"0.0.1.1--h031d066_7": "sha256:da731e2735871a827b3caa58f635b6216609a432cb67e5118b6fdbe17371114f"}, "tags": {"0.0.1.1--hec16e2b_5": "sha256:041e1ad87f7767e493d2a9c916d54d191fbc58f8d201db435f5fae7b7aed61cf", "0.0.1.1--h031d066_7": "sha256:da731e2735871a827b3caa58f635b6216609a432cb67e5118b6fdbe17371114f"}, "docker": "quay.io/biocontainers/blockbuster", "aliases": {"blockbuster.x": "/usr/local/bin/blockbuster.x"}}
+config: {"url": "https://biocontainers.pro/tools/blockbuster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blockbuster", "latest": {"0.0.1.1--h7b50bb2_8": "sha256:5f8a9ae196042055eed6fa4af8d7a7c8a04566fdf65f638981bf1ced3f559de5"}, "tags": {"0.0.1.1--hec16e2b_5": "sha256:041e1ad87f7767e493d2a9c916d54d191fbc58f8d201db435f5fae7b7aed61cf", "0.0.1.1--h031d066_7": "sha256:da731e2735871a827b3caa58f635b6216609a432cb67e5118b6fdbe17371114f", "0.0.1.1--h7b50bb2_8": "sha256:5f8a9ae196042055eed6fa4af8d7a7c8a04566fdf65f638981bf1ced3f559de5"}, "docker": "quay.io/biocontainers/blockbuster", "aliases": {"blockbuster.x": "/usr/local/bin/blockbuster.x"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blockbuster.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/blockbuster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blockbuster:0.0.1.1--h031d066_7
+$ shpc install quay.io/biocontainers/blockbuster:0.0.1.1--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blockbuster/0.0.1.1--h031d066_7
-$ module help quay.io/biocontainers/blockbuster/0.0.1.1--h031d066_7
+$ module load quay.io/biocontainers/blockbuster/0.0.1.1--h7b50bb2_8
+$ module help quay.io/biocontainers/blockbuster/0.0.1.1--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

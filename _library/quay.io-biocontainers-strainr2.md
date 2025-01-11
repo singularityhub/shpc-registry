@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strainr2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainr2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainr2/container.yaml"
-updated_at: "2025-01-10 03:21:35.800331"
-latest: "2.1.0--he4a0461_0"
+updated_at: "2025-01-11 03:16:42.337337"
+latest: "2.1.0--r44h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/strainr2"
 aliases:
  - "Plot.R"
@@ -45,8 +45,9 @@ versions:
  - "1.0.1--py312r43hf67a6ed_1"
  - "2.1.0--he4a0461_0"
  - "2.0.0--r43h031d066_1"
+ - "2.1.0--r44h577a1d6_1"
 description: "singularity registry hpc automated addition for strainr2"
-config: {"url": "https://biocontainers.pro/tools/strainr2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainr2", "latest": {"2.1.0--he4a0461_0": "sha256:0c473e6e86aebd6f5c4cff4bb181240c13a4833a678ea57a10050e57692423ef"}, "tags": {"1.0.0--py312r43h031d066_0": "sha256:874eb1c063b537f4dfdf963bdd8316aa8905605e691f6dcd05039d8b8e6b8420", "1.0.1--py312r43hf67a6ed_1": "sha256:54e7ac8ac4824d1beef139a825c626eacd6533f8272a7e98a7782a07c113eedd", "2.1.0--he4a0461_0": "sha256:0c473e6e86aebd6f5c4cff4bb181240c13a4833a678ea57a10050e57692423ef", "2.0.0--r43h031d066_1": "sha256:365992ee3b7518f169d567bdbd3a9166fcad7d8ff67c7c321bc9c01f129e28a1"}, "docker": "quay.io/biocontainers/strainr2", "aliases": {"Plot.R": "/usr/local/bin/Plot.R", "PreProcessR": "/usr/local/bin/PreProcessR", "StrainR": "/usr/local/bin/StrainR", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "hashcounter.py": "/usr/local/bin/hashcounter.py", "sourmash": "/usr/local/bin/sourmash", "subcontig": "/usr/local/bin/subcontig", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "jwebserver": "/usr/local/bin/jwebserver", "screed": "/usr/local/bin/screed", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh"}}
+config: {"url": "https://biocontainers.pro/tools/strainr2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainr2", "latest": {"2.1.0--r44h577a1d6_1": "sha256:16511c69028e3678f51a2772782bd81921abb8b3a6e363fc6b51d9418187d204"}, "tags": {"1.0.0--py312r43h031d066_0": "sha256:874eb1c063b537f4dfdf963bdd8316aa8905605e691f6dcd05039d8b8e6b8420", "1.0.1--py312r43hf67a6ed_1": "sha256:54e7ac8ac4824d1beef139a825c626eacd6533f8272a7e98a7782a07c113eedd", "2.1.0--he4a0461_0": "sha256:0c473e6e86aebd6f5c4cff4bb181240c13a4833a678ea57a10050e57692423ef", "2.0.0--r43h031d066_1": "sha256:365992ee3b7518f169d567bdbd3a9166fcad7d8ff67c7c321bc9c01f129e28a1", "2.1.0--r44h577a1d6_1": "sha256:16511c69028e3678f51a2772782bd81921abb8b3a6e363fc6b51d9418187d204"}, "docker": "quay.io/biocontainers/strainr2", "aliases": {"Plot.R": "/usr/local/bin/Plot.R", "PreProcessR": "/usr/local/bin/PreProcessR", "StrainR": "/usr/local/bin/StrainR", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "hashcounter.py": "/usr/local/bin/hashcounter.py", "sourmash": "/usr/local/bin/sourmash", "subcontig": "/usr/local/bin/subcontig", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "jwebserver": "/usr/local/bin/jwebserver", "screed": "/usr/local/bin/screed", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainr2.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/strainr2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strainr2:2.1.0--he4a0461_0
+$ shpc install quay.io/biocontainers/strainr2:2.1.0--r44h577a1d6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strainr2/2.1.0--he4a0461_0
-$ module help quay.io/biocontainers/strainr2/2.1.0--he4a0461_0
+$ module load quay.io/biocontainers/strainr2/2.1.0--r44h577a1d6_1
+$ module help quay.io/biocontainers/strainr2/2.1.0--r44h577a1d6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

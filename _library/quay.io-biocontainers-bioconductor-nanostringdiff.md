@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nanostringdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanostringdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanostringdiff/container.yaml"
-updated_at: "2025-01-10 03:38:23.829179"
-latest: "1.32.0--r43hf17093f_0"
+updated_at: "2025-01-11 03:33:15.652726"
+latest: "1.36.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanostringdiff"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.28.0--r42hf17093f_1"
  - "1.30.0--r43hf17093f_0"
  - "1.32.0--r43hf17093f_0"
+ - "1.36.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanostringdiff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanostringdiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanostringdiff", "latest": {"1.32.0--r43hf17093f_0": "sha256:e37d608598c027271bbb37a03ed625681ce24dde22e9a5743104dd38c4f873c3"}, "tags": {"1.24.0--r41hc247a5b_2": "sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07", "1.28.0--r42hc247a5b_0": "sha256:45114bce0d51887391daa34cd9685f2410ca7b11e5f0d170749fb3a7700832ed", "1.28.0--r42hf17093f_1": "sha256:cecb57f449153187d5c28154b7ef53589ee0df9c26edda6d83253deee58f1867", "1.30.0--r43hf17093f_0": "sha256:4aa5d06776d4632e37635e094e4e5b3eee23dbbef24967a20f85b00b3c7d08b7", "1.32.0--r43hf17093f_0": "sha256:e37d608598c027271bbb37a03ed625681ce24dde22e9a5743104dd38c4f873c3"}, "docker": "quay.io/biocontainers/bioconductor-nanostringdiff"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanostringdiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanostringdiff", "latest": {"1.36.0--r44he5774e6_0": "sha256:7e40ae26221564b0f8306ac350341ae1b9f6eec8e3ae94ea453ee74c543826e7"}, "tags": {"1.24.0--r41hc247a5b_2": "sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07", "1.28.0--r42hc247a5b_0": "sha256:45114bce0d51887391daa34cd9685f2410ca7b11e5f0d170749fb3a7700832ed", "1.28.0--r42hf17093f_1": "sha256:cecb57f449153187d5c28154b7ef53589ee0df9c26edda6d83253deee58f1867", "1.30.0--r43hf17093f_0": "sha256:4aa5d06776d4632e37635e094e4e5b3eee23dbbef24967a20f85b00b3c7d08b7", "1.32.0--r43hf17093f_0": "sha256:e37d608598c027271bbb37a03ed625681ce24dde22e9a5743104dd38c4f873c3", "1.36.0--r44he5774e6_0": "sha256:7e40ae26221564b0f8306ac350341ae1b9f6eec8e3ae94ea453ee74c543826e7"}, "docker": "quay.io/biocontainers/bioconductor-nanostringdiff"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanostringdiff.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanostringdiff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanostringdiff:1.32.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-nanostringdiff:1.36.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanostringdiff/1.32.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-nanostringdiff/1.32.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-nanostringdiff/1.36.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-nanostringdiff/1.36.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

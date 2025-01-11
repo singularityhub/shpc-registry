@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-keggrest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
-updated_at: "2025-01-10 03:09:00.027072"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2025-01-11 03:04:36.102565"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggrest"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.38.0--r42hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-keggrest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-keggrest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggrest", "latest": {"1.42.0--r43hdfd78af_0": "sha256:8082d218c0d57a597257bbe6c0a58b522d0c03209b74a44f98abbe8b4490e341"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4", "1.38.0--r42hdfd78af_0": "sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435", "1.40.0--r43hdfd78af_0": "sha256:ce63afe899708c407c53864ff90d830ba997b0e7b56bce00bae5962667fb77e9", "1.42.0--r43hdfd78af_0": "sha256:8082d218c0d57a597257bbe6c0a58b522d0c03209b74a44f98abbe8b4490e341"}, "docker": "quay.io/biocontainers/bioconductor-keggrest"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-keggrest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggrest", "latest": {"1.46.0--r44hdfd78af_0": "sha256:d94cc9d86ed099be970b209d28f5a58aded211f34d425436c2890abeafe295d1"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4", "1.38.0--r42hdfd78af_0": "sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435", "1.40.0--r43hdfd78af_0": "sha256:ce63afe899708c407c53864ff90d830ba997b0e7b56bce00bae5962667fb77e9", "1.42.0--r43hdfd78af_0": "sha256:8082d218c0d57a597257bbe6c0a58b522d0c03209b74a44f98abbe8b4490e341", "1.46.0--r44hdfd78af_0": "sha256:d94cc9d86ed099be970b209d28f5a58aded211f34d425436c2890abeafe295d1"}, "docker": "quay.io/biocontainers/bioconductor-keggrest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-keggrest.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-keggrest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-keggrest:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-keggrest:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-keggrest/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-keggrest/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-keggrest/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-keggrest/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

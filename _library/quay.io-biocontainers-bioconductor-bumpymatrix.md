@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bumpymatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
-updated_at: "2025-01-10 03:02:10.084077"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-11 02:57:59.271214"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bumpymatrix"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bumpymatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix", "latest": {"1.10.0--r43hdfd78af_0": "sha256:2eb718351c4d6286d18db40792d26bf060d9b05bfefc3fe493d525e392801832"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281", "1.6.0--r42hdfd78af_0": "sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69", "1.8.0--r43hdfd78af_0": "sha256:172fc034ee8f93ba28a36d451be10832cac82b673e0cc44eeb42cd13d30bb714", "1.10.0--r43hdfd78af_0": "sha256:2eb718351c4d6286d18db40792d26bf060d9b05bfefc3fe493d525e392801832"}, "docker": "quay.io/biocontainers/bioconductor-bumpymatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bumpymatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix", "latest": {"1.14.0--r44hdfd78af_0": "sha256:c3644400a1ac12f228dfe4f8562bdd4f9f80d4f45b85f486b6c037219d29ccfd"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281", "1.6.0--r42hdfd78af_0": "sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69", "1.8.0--r43hdfd78af_0": "sha256:172fc034ee8f93ba28a36d451be10832cac82b673e0cc44eeb42cd13d30bb714", "1.10.0--r43hdfd78af_0": "sha256:2eb718351c4d6286d18db40792d26bf060d9b05bfefc3fe493d525e392801832", "1.14.0--r44hdfd78af_0": "sha256:c3644400a1ac12f228dfe4f8562bdd4f9f80d4f45b85f486b6c037219d29ccfd"}, "docker": "quay.io/biocontainers/bioconductor-bumpymatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bumpymatrix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bumpymatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bumpymatrix:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bumpymatrix:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bumpymatrix/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bumpymatrix/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bumpymatrix/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bumpymatrix/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

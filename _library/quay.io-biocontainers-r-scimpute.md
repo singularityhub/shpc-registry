@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-scimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scimpute/container.yaml"
-updated_at: "2025-01-10 02:58:04.077729"
-latest: "0.0.8--r43hdfd78af_5"
+updated_at: "2025-01-11 02:53:59.629857"
+latest: "0.0.8--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-scimpute"
 aliases:
  - "parsort"
@@ -22,8 +22,9 @@ versions:
  - "0.0.8--r41hdfd78af_3"
  - "0.0.8--r42hdfd78af_4"
  - "0.0.8--r43hdfd78af_5"
+ - "0.0.8--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-scimpute"
-config: {"url": "https://biocontainers.pro/tools/r-scimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scimpute", "latest": {"0.0.8--r43hdfd78af_5": "sha256:c85972882b56f5302d498a751c51fbb4d3e7a51ae1f82796d787503cc6f61fa3"}, "tags": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569", "0.0.8--r42hdfd78af_4": "sha256:cf4ded2db2bcae2794ec951aa260fc38ae1d56b216e8d6f496ebd6d29f4048d0", "0.0.8--r43hdfd78af_5": "sha256:c85972882b56f5302d498a751c51fbb4d3e7a51ae1f82796d787503cc6f61fa3"}, "docker": "quay.io/biocontainers/r-scimpute", "aliases": {"parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
+config: {"url": "https://biocontainers.pro/tools/r-scimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scimpute", "latest": {"0.0.8--r44hdfd78af_6": "sha256:3863a577486522eeda44c9cfba56895a0b9d048c4f5606d2ce6dc34712ef9045"}, "tags": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569", "0.0.8--r42hdfd78af_4": "sha256:cf4ded2db2bcae2794ec951aa260fc38ae1d56b216e8d6f496ebd6d29f4048d0", "0.0.8--r43hdfd78af_5": "sha256:c85972882b56f5302d498a751c51fbb4d3e7a51ae1f82796d787503cc6f61fa3", "0.0.8--r44hdfd78af_6": "sha256:3863a577486522eeda44c9cfba56895a0b9d048c4f5606d2ce6dc34712ef9045"}, "docker": "quay.io/biocontainers/r-scimpute", "aliases": {"parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scimpute.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-scimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scimpute:0.0.8--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/r-scimpute:0.0.8--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scimpute/0.0.8--r43hdfd78af_5
-$ module help quay.io/biocontainers/r-scimpute/0.0.8--r43hdfd78af_5
+$ module load quay.io/biocontainers/r-scimpute/0.0.8--r44hdfd78af_6
+$ module help quay.io/biocontainers/r-scimpute/0.0.8--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

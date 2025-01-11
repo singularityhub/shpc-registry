@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgs-canopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgs-canopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgs-canopy/container.yaml"
-updated_at: "2025-01-10 03:01:00.886189"
-latest: "1.0--h4ac6f70_8"
+updated_at: "2025-01-11 02:56:51.333775"
+latest: "1.0--h9948957_9"
 container_url: "https://biocontainers.pro/tools/mgs-canopy"
 aliases:
  - "canopy"
@@ -14,8 +14,9 @@ versions:
  - "1.0--h2df963e_5"
  - "1.0--h376f1d3_7"
  - "1.0--h4ac6f70_8"
+ - "1.0--h9948957_9"
 description: "shpc-registry automated BioContainers addition for mgs-canopy"
-config: {"url": "https://biocontainers.pro/tools/mgs-canopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgs-canopy", "latest": {"1.0--h4ac6f70_8": "sha256:952639a2e878bf32d7efc233c4b7b65ea6a6dfa8eba7035acafe09e9b6804342"}, "tags": {"1.0--h2df963e_5": "sha256:82a47c5bf181cd458fda6ff66ddf6e735aa3e1b9f130a90f963f959be1f6d37c", "1.0--h376f1d3_7": "sha256:2a504f4d7a4de5883b4d214d4d40982b81b02295a682e33f5c203dc7520b7db3", "1.0--h4ac6f70_8": "sha256:952639a2e878bf32d7efc233c4b7b65ea6a6dfa8eba7035acafe09e9b6804342"}, "docker": "quay.io/biocontainers/mgs-canopy", "aliases": {"canopy": "/usr/local/bin/canopy", "cc.bin": "/usr/local/bin/cc.bin"}}
+config: {"url": "https://biocontainers.pro/tools/mgs-canopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgs-canopy", "latest": {"1.0--h9948957_9": "sha256:3688c4fcd307199a764e113022e32422adc4ede4fe2f8a924192ff3dd23125cb"}, "tags": {"1.0--h2df963e_5": "sha256:82a47c5bf181cd458fda6ff66ddf6e735aa3e1b9f130a90f963f959be1f6d37c", "1.0--h376f1d3_7": "sha256:2a504f4d7a4de5883b4d214d4d40982b81b02295a682e33f5c203dc7520b7db3", "1.0--h4ac6f70_8": "sha256:952639a2e878bf32d7efc233c4b7b65ea6a6dfa8eba7035acafe09e9b6804342", "1.0--h9948957_9": "sha256:3688c4fcd307199a764e113022e32422adc4ede4fe2f8a924192ff3dd23125cb"}, "docker": "quay.io/biocontainers/mgs-canopy", "aliases": {"canopy": "/usr/local/bin/canopy", "cc.bin": "/usr/local/bin/cc.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgs-canopy.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mgs-canopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgs-canopy:1.0--h4ac6f70_8
+$ shpc install quay.io/biocontainers/mgs-canopy:1.0--h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgs-canopy/1.0--h4ac6f70_8
-$ module help quay.io/biocontainers/mgs-canopy/1.0--h4ac6f70_8
+$ module load quay.io/biocontainers/mgs-canopy/1.0--h9948957_9
+$ module help quay.io/biocontainers/mgs-canopy/1.0--h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

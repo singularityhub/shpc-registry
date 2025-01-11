@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/selscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selscan/container.yaml"
-updated_at: "2025-01-10 03:00:18.414529"
-latest: "1.2.0a--h4dfc31f_6"
+updated_at: "2025-01-11 02:56:09.738421"
+latest: "1.2.0a--hb66fcc3_7"
 container_url: "https://biocontainers.pro/tools/selscan"
 aliases:
  - "norm"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.2.0a--h0fdf51a_4"
  - "1.2.0a--h4dfc31f_6"
+ - "1.2.0a--hb66fcc3_7"
 description: "shpc-registry automated BioContainers addition for selscan"
-config: {"url": "https://biocontainers.pro/tools/selscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selscan", "latest": {"1.2.0a--h4dfc31f_6": "sha256:1f1f0f1993e11b3b7cfa15465f1701f74f5dd14d83e259f2fdb06b7820bf2328"}, "tags": {"1.2.0a--h0fdf51a_4": "sha256:9aecb16dd630cfc483aea257e45608250e388861730e5220ed7a2ccd3750c21e", "1.2.0a--h4dfc31f_6": "sha256:1f1f0f1993e11b3b7cfa15465f1701f74f5dd14d83e259f2fdb06b7820bf2328"}, "docker": "quay.io/biocontainers/selscan", "aliases": {"norm": "/usr/local/bin/norm", "selscan": "/usr/local/bin/selscan"}}
+config: {"url": "https://biocontainers.pro/tools/selscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selscan", "latest": {"1.2.0a--hb66fcc3_7": "sha256:b3020186211d8139923d1691b5e6b601d21088a631a3b8d3d4c6e4c6aaac8f4a"}, "tags": {"1.2.0a--h0fdf51a_4": "sha256:9aecb16dd630cfc483aea257e45608250e388861730e5220ed7a2ccd3750c21e", "1.2.0a--h4dfc31f_6": "sha256:1f1f0f1993e11b3b7cfa15465f1701f74f5dd14d83e259f2fdb06b7820bf2328", "1.2.0a--hb66fcc3_7": "sha256:b3020186211d8139923d1691b5e6b601d21088a631a3b8d3d4c6e4c6aaac8f4a"}, "docker": "quay.io/biocontainers/selscan", "aliases": {"norm": "/usr/local/bin/norm", "selscan": "/usr/local/bin/selscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selscan.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/selscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/selscan:1.2.0a--h4dfc31f_6
+$ shpc install quay.io/biocontainers/selscan:1.2.0a--hb66fcc3_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/selscan/1.2.0a--h4dfc31f_6
-$ module help quay.io/biocontainers/selscan/1.2.0a--h4dfc31f_6
+$ module load quay.io/biocontainers/selscan/1.2.0a--hb66fcc3_7
+$ module help quay.io/biocontainers/selscan/1.2.0a--hb66fcc3_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

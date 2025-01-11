@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annosine2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annosine2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annosine2/container.yaml"
-updated_at: "2025-01-10 03:28:36.714669"
-latest: "2.0.7--pyh7e72e81_1"
+updated_at: "2025-01-11 03:23:23.646001"
+latest: "2.0.8--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/annosine2"
 aliases:
  - "RM2Bed.py"
@@ -48,8 +48,9 @@ versions:
  - "2.0.7--pyh7cba7a3_0"
  - "1.0.5--pyh7cba7a3_0"
  - "2.0.7--pyh7e72e81_1"
+ - "2.0.8--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for annosine2"
-config: {"url": "https://biocontainers.pro/tools/annosine2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annosine2", "latest": {"2.0.7--pyh7e72e81_1": "sha256:9118bcbbe15b80fcec2dfd6312da3b07b792418ca5b2ddb607c5594753adc34c"}, "tags": {"1.0.4--pyh7cba7a3_0": "sha256:d042ece3e1fc28b04a6ec70ef8ff3fdd1b625f41143a53c498a1d0ddfa4294ca", "2.0.7--pyh7cba7a3_0": "sha256:cb0162509ec72b4a746be6641f614681226cf21b0687d601d2532bec353f16f7", "1.0.5--pyh7cba7a3_0": "sha256:99a2c20d23999476c670d33a3566ff5a63fff17a37646dba45d53e0580eb7650", "2.0.7--pyh7e72e81_1": "sha256:9118bcbbe15b80fcec2dfd6312da3b07b792418ca5b2ddb607c5594753adc34c"}, "docker": "quay.io/biocontainers/annosine2", "aliases": {"RM2Bed.py": "/usr/local/bin/RM2Bed.py", "annosine2": "/usr/local/bin/annosine2", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "corepack": "/usr/local/bin/corepack", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "irf": "/usr/local/bin/irf", "makeclusterdb": "/usr/local/bin/makeclusterdb", "maskFile.pl": "/usr/local/bin/maskFile.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "npx": "/usr/local/bin/npx", "rmblastn": "/usr/local/bin/rmblastn", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "trf": "/usr/local/bin/trf", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl"}}
+config: {"url": "https://biocontainers.pro/tools/annosine2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annosine2", "latest": {"2.0.8--pyh7e72e81_0": "sha256:9df5b17b9786d83e36d3ab185730f0834f9cdce1e21601bb89bb247625d13cc6"}, "tags": {"1.0.4--pyh7cba7a3_0": "sha256:d042ece3e1fc28b04a6ec70ef8ff3fdd1b625f41143a53c498a1d0ddfa4294ca", "2.0.7--pyh7cba7a3_0": "sha256:cb0162509ec72b4a746be6641f614681226cf21b0687d601d2532bec353f16f7", "1.0.5--pyh7cba7a3_0": "sha256:99a2c20d23999476c670d33a3566ff5a63fff17a37646dba45d53e0580eb7650", "2.0.7--pyh7e72e81_1": "sha256:9118bcbbe15b80fcec2dfd6312da3b07b792418ca5b2ddb607c5594753adc34c", "2.0.8--pyh7e72e81_0": "sha256:9df5b17b9786d83e36d3ab185730f0834f9cdce1e21601bb89bb247625d13cc6"}, "docker": "quay.io/biocontainers/annosine2", "aliases": {"RM2Bed.py": "/usr/local/bin/RM2Bed.py", "annosine2": "/usr/local/bin/annosine2", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "corepack": "/usr/local/bin/corepack", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "irf": "/usr/local/bin/irf", "makeclusterdb": "/usr/local/bin/makeclusterdb", "maskFile.pl": "/usr/local/bin/maskFile.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "npx": "/usr/local/bin/npx", "rmblastn": "/usr/local/bin/rmblastn", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "trf": "/usr/local/bin/trf", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annosine2.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/annosine2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annosine2:2.0.7--pyh7e72e81_1
+$ shpc install quay.io/biocontainers/annosine2:2.0.8--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annosine2/2.0.7--pyh7e72e81_1
-$ module help quay.io/biocontainers/annosine2/2.0.7--pyh7e72e81_1
+$ module load quay.io/biocontainers/annosine2/2.0.8--pyh7e72e81_0
+$ module help quay.io/biocontainers/annosine2/2.0.8--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
