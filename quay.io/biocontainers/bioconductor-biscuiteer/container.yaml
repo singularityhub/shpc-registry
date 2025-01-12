@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-biscuiteer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biscuiteer
 latest:
-  1.16.0--r43hdfd78af_0: sha256:c27eeb7db56f79e28d3d3881ff4445fc12d3793064be7ada14e521dda9245a10
+  1.20.0--r44hdfd78af_0: sha256:4e4eded71841680a2e147944294acfc9a37d1c5b466cd2af82fd53cc61ba6c80
 tags:
   1.8.0--r41hdfd78af_0: sha256:9ec0bff29f4ae35f22f90a96da9addad0861a56675a4ec4a3bc76611f5828e01
   1.12.0--r42hdfd78af_0: sha256:0307706bd0ef8bb4693558fd623628e034c69e8960891b0dd8841011c0290341
   1.14.0--r43hdfd78af_0: sha256:379483e43d9ed749913e83e8b0707654e54bba3c44b77aa009656fe6f4df712c
   1.16.0--r43hdfd78af_0: sha256:c27eeb7db56f79e28d3d3881ff4445fc12d3793064be7ada14e521dda9245a10
+  1.20.0--r44hdfd78af_0: sha256:4e4eded71841680a2e147944294acfc9a37d1c5b466cd2af82fd53cc61ba6c80
 docker: quay.io/biocontainers/bioconductor-biscuiteer

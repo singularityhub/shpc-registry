@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/gdc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gdc
 latest:
-  2.0--hdcf5f25_5: sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49
+  2.0--h077b44d_6: sha256:a6011fa67f99138497c12a88ee00a3508ee6599665d6fa52582b1edddafda051
 tags:
   2.0--hd03093a_3: sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148
   2.0--hdcf5f25_5: sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49
+  2.0--h077b44d_6: sha256:a6011fa67f99138497c12a88ee00a3508ee6599665d6fa52582b1edddafda051
 docker: quay.io/biocontainers/gdc

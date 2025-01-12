@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-breastcancerupp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-breastcancerupp
 latest:
-  1.40.0--r43hdfd78af_0: sha256:143861953e50e3f648a761912824168d3fb396edf2760a70df5fc19960e895b0
+  1.44.0--r44hdfd78af_0: sha256:34081b56fecf802640db99121f60bc68da5e67ad6b44205f1d07a1becd7a4c01
 tags:
   1.32.0--r41hdfd78af_1: sha256:444b5a400fbc2a2ebf9ba42ea9c82caae95b12a532c49d7462e4f825c41e9ab8
   1.35.0--r42hdfd78af_0: sha256:0d303e5e666120a97598e027a7b50f976ca32325d7349fa4ed1b463dba52929a
   1.38.0--r43hdfd78af_0: sha256:b2d53ff5f06ace91dae30bfe9e101297821d9852417ed34984fde37f06b863da
   1.40.0--r43hdfd78af_0: sha256:143861953e50e3f648a761912824168d3fb396edf2760a70df5fc19960e895b0
+  1.44.0--r44hdfd78af_0: sha256:34081b56fecf802640db99121f60bc68da5e67ad6b44205f1d07a1becd7a4c01
 docker: quay.io/biocontainers/bioconductor-breastcancerupp

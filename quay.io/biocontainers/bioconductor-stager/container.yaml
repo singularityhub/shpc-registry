@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-stager
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-stager
 latest:
-  1.24.0--r43hdfd78af_0: sha256:abd938e512b9d9a965156b1207a58ea27d95cd0b01de80528dc3ca35124efd6a
+  1.28.0--r44hdfd78af_0: sha256:abc116b0071d404b0a05b415502056182bdfbee0e6fce9ecaca81419d11f0931
 tags:
   1.8.0--r36_0: sha256:329a4939499c3f9dadb3db0c00f2f69365b6a5752c6dd4d9410a1138e2bf5433
   1.20.0--r42hdfd78af_0: sha256:b2c8295b6bc8707b85726eb734c8ce8d7a38c2d88d75b94ff2ed9939cd692364
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:024c1a8c3269d94dc4e646939afedd784dfd5d3235af1ca70b4e67856aef1bb0
   1.22.0--r43hdfd78af_0: sha256:4cd4c21186c31599c364a627736910a4b0728a278127946a2bda00d25c48e227
   1.24.0--r43hdfd78af_0: sha256:abd938e512b9d9a965156b1207a58ea27d95cd0b01de80528dc3ca35124efd6a
+  1.28.0--r44hdfd78af_0: sha256:abc116b0071d404b0a05b415502056182bdfbee0e6fce9ecaca81419d11f0931
 docker: quay.io/biocontainers/bioconductor-stager
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

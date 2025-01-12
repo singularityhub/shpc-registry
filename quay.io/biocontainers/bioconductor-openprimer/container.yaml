@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-openprimer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-openprimer
 latest:
-  1.24.0--r43hdfd78af_0: sha256:39f7a36c6de41cddf464492a5db17afc917148329f6a7a010726649311e1f297
+  1.28.0--r44hdfd78af_0: sha256:42e74d3a9118c1f62578c595bc15437c04b223a57ae1f7981900569a320a0e8f
 tags:
   1.8.0--r36_0: sha256:774f505162621df93f735c4e8fd11a9cc921f9399c3b999860584730aabda319
   1.20.0--r42hdfd78af_0: sha256:00995459c26ee039aed6780303742d14585768662cf5990f63c6946b1017f78e
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:96fc264567841229b33e6e713bcc0d7609fa44339ecfeeced2ca4562a6bd2fa3
   1.22.0--r43hdfd78af_0: sha256:e4d05316d0a30f2f199557847bfd05f0c5cbedc19df3eecc4c5d69f0968fd40c
   1.24.0--r43hdfd78af_0: sha256:39f7a36c6de41cddf464492a5db17afc917148329f6a7a010726649311e1f297
+  1.28.0--r44hdfd78af_0: sha256:42e74d3a9118c1f62578c595bc15437c04b223a57ae1f7981900569a320a0e8f
 docker: quay.io/biocontainers/bioconductor-openprimer
 aliases:
   mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb

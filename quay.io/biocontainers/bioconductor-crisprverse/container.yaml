@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-crisprverse
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-crisprverse
 latest:
-  1.4.0--r43hdfd78af_0: sha256:c748864324ea1bda0384368f58b1a46e27bbe144f13df020da44da07727f95be
+  1.8.0--r44hdfd78af_0: sha256:1c78e9e18ae35e003dbe388bad21f20bee64d2d1925eadf7c9b20bc88f4e3cee
 tags:
   1.0.0--r42hdfd78af_0: sha256:21c588d30f27b4f7853012a982b1fd99b61aa1a55614227b3f59ad200756fe8a
   1.2.0--r43hdfd78af_0: sha256:79873891dc196f62f57c6c71b87daabdf4701a4a5d558383c06e5e491a287e95
   1.4.0--r43hdfd78af_0: sha256:c748864324ea1bda0384368f58b1a46e27bbe144f13df020da44da07727f95be
+  1.8.0--r44hdfd78af_0: sha256:1c78e9e18ae35e003dbe388bad21f20bee64d2d1925eadf7c9b20bc88f4e3cee
 docker: quay.io/biocontainers/bioconductor-crisprverse
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

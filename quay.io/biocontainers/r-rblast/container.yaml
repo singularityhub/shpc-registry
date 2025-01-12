@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-rblast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rblast
 latest:
-  0.99.1--r43h9ee0642_7: sha256:fd9da9a91ea204abf27ae89ebb90c7574a0ecd63b76be78d0f617b072a368973
+  0.99.1--r44h9ee0642_8: sha256:4fe6698c5856be988b4ef09ef36c28ed96a463d0ae757294d15817af345fe16b
 tags:
   0.99.1--r41h9ee0642_5: sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd
   0.99.1--r42h9ee0642_6: sha256:c93f946121c8f4aa8872b04ac09df1154226766c8947fbc52a0e1ede01eb4260
   0.99.1--r43h9ee0642_7: sha256:fd9da9a91ea204abf27ae89ebb90c7574a0ecd63b76be78d0f617b072a368973
+  0.99.1--r44h9ee0642_8: sha256:4fe6698c5856be988b4ef09ef36c28ed96a463d0ae757294d15817af345fe16b
 docker: quay.io/biocontainers/r-rblast
 aliases:
   CA.pm: /usr/local/bin/CA.pm

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ghostx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ghostx
 latest:
-  1.3.7--hfc679d8_1: sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a
+  1.3.7--h503566f_2: sha256:44a97393b8719e4c7574c48eda86e88c3c3df6af35441312c4e3bf7adbaf45ca
 tags:
   1.3.7--hfc679d8_1: sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a
+  1.3.7--h503566f_2: sha256:44a97393b8719e4c7574c48eda86e88c3c3df6af35441312c4e3bf7adbaf45ca
 docker: quay.io/biocontainers/ghostx
 aliases:
   ghostx: /usr/local/bin/ghostx

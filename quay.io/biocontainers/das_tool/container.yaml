@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/das_tool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for das_tool
 latest:
-  1.1.7--r43hdfd78af_0: sha256:c7d414f509f0830880dc3eef17d009ec2eb4124b7faca9b22d0708e166baccdf
+  1.1.7--r44hdfd78af_1: sha256:8a523dd78e9b2de9a0e9548cda91e066dee6c6cb5297e5a288150f19315839c8
 tags:
   1.1.5--r41hdfd78af_0: sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab
   1.1.6--r42hdfd78af_0: sha256:db77e6420ddc5e18666251222e7617b5aac4ec0c6215ac48e16b11af9aacdd6e
   1.1.7--r43hdfd78af_0: sha256:c7d414f509f0830880dc3eef17d009ec2eb4124b7faca9b22d0708e166baccdf
+  1.1.7--r44hdfd78af_1: sha256:8a523dd78e9b2de9a0e9548cda91e066dee6c6cb5297e5a288150f19315839c8
 docker: quay.io/biocontainers/das_tool
 aliases:
   Contigs2Bin_to_Fasta.sh: /usr/local/bin/Contigs2Bin_to_Fasta.sh

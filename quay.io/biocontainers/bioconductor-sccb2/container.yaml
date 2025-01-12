@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-sccb2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sccb2
 latest:
-  1.12.0--r43hdfd78af_0: sha256:9c74d6da4e3f5042089342be4e0245dedae8adf9c3dcb9e4cf5af5a50daee181
+  1.16.0--r44hdfd78af_0: sha256:98ce45645427328eda1ca4ed3bf852bd51ec6e8cf805a7f6e7ebdc8e1b901744
 tags:
   1.4.0--r41hdfd78af_0: sha256:f1797104965483ec4c73774b4adc1ea56f6b57ca6d3e23d0984325a42d8f2329
   1.8.0--r42hdfd78af_0: sha256:a822ba8da7e55fa0c7eeee3a6b4e09e46d6097cfc540e588a173f7c13ac7c8ab
   1.10.0--r43hdfd78af_0: sha256:d8c5cdd5b49015d4e96b4e4e88628ff5f8ccd0ec112a60f3a6de4429330c64fb
   1.12.0--r43hdfd78af_0: sha256:9c74d6da4e3f5042089342be4e0245dedae8adf9c3dcb9e4cf5af5a50daee181
+  1.16.0--r44hdfd78af_0: sha256:98ce45645427328eda1ca4ed3bf852bd51ec6e8cf805a7f6e7ebdc8e1b901744
 docker: quay.io/biocontainers/bioconductor-sccb2

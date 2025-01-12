@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/makehub
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for makehub
 latest:
-  1.0.8--hdfd78af_0: sha256:5a984c8df72ce5f49c27d4697c0b1b8c064870a94bce6d4792ee1f4f8ea54375
+  1.0.8--hdfd78af_1: sha256:e091af7adb9cea220b0d2a8f7b97b94a91dfd02f882eda25f5f67788904c1570
 tags:
   1.0.5--1: sha256:372050cd1147afdbb6f9ba74a972da70295dc5fb120f2d30b336541a681cd123
   1.0.6--hdfd78af_0: sha256:a07fc6e72ae8937e6e2a0c1996652ecabd22f4a1da82e00079544587f50b8ed4
   1.0.7--hdfd78af_0: sha256:cf6c037e1360e95b7378c888148619b0001ed46cd2b89d6fa6ff4f6b232a7021
   1.0.8--hdfd78af_0: sha256:5a984c8df72ce5f49c27d4697c0b1b8c064870a94bce6d4792ee1f4f8ea54375
+  1.0.8--hdfd78af_1: sha256:e091af7adb9cea220b0d2a8f7b97b94a91dfd02f882eda25f5f67788904c1570
 docker: quay.io/biocontainers/makehub
 aliases:
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm

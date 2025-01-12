@@ -5,7 +5,7 @@ description: MariaDB Server is one of the most popular database servers in the w
   It’s made by the original developers of MySQL and guaranteed to stay open source.
   Notable users include Wikipedia, DBS Bank and ServiceNow.
 latest:
-  11-ubi9: sha256:69bc66ee2948cc2e412d2d81e5e1950af4b3119acbff3740ec89867732596e9a
+  11-ubi9: sha256:0433a40d2e4749556ae99e1f7f56a6aa518ad42e852772ea265f5048f4c36a87
 tags:
   10.5.9-focal: sha256:36288c675a192bd0a8a99cd6ba0780e31df85f0bfd0cbb204837cd108be3d236
   10.6.0-focal: sha256:6b687eb768f01add603c1474003c62e13d130bfd7030ac5334c9ae6a73d09e0c
@@ -36,7 +36,7 @@ tags:
   '11.2': sha256:8fab5714514314b67ccfcb38a971fd99624d8dd0dc3e1fc365d0504a18b9f4f3
   11.4-rc: sha256:3bf8ed1365f8ed10ebd2e66a8f389d0bc0b16f0951a4e4316e881105aa9291a4
   '11.3': sha256:e101f9db31916a5d4d7d594dd0dd092fb23ab4f499f1d7a7425d1afd4162c4bc
-  11-ubi9: sha256:69bc66ee2948cc2e412d2d81e5e1950af4b3119acbff3740ec89867732596e9a
+  11-ubi9: sha256:0433a40d2e4749556ae99e1f7f56a6aa518ad42e852772ea265f5048f4c36a87
   11.5-noble-rc: sha256:a67640489ba0d28f38a8f5e7880d4c6edd578cfdfca3f1fc06bef21b2d67d6b9
   '11.4': sha256:a3c3ecdba222d33017b1128ae2a5930a3d6b8b21cd6d5e534886e75a523612ee
   11.6-noble-rc: sha256:73fc65b4d9253d0cad7f525148d2e3cf5e8419cf03b99c022bad5f38eb9c495d

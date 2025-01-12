@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/shustring
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shustring
 latest:
-  2.6--h031d066_7: sha256:691800dbb1d7d3f5f24f6798cc0518725ba847a268719ce0373912ea70e82ed3
+  2.6--h7b50bb2_8: sha256:91ca8a696e100e7c2efc498f6137afb7194a22c35a235444981a94bda4be2cae
 tags:
   2.6--hec16e2b_5: sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a
   2.6--hec16e2b_6: sha256:65c8036455f97c684fd7c8d6414f5c204340b1ff1ee471ef386cd3b19cd7c210
   2.6--h031d066_7: sha256:691800dbb1d7d3f5f24f6798cc0518725ba847a268719ce0373912ea70e82ed3
+  2.6--h7b50bb2_8: sha256:91ca8a696e100e7c2efc498f6137afb7194a22c35a235444981a94bda4be2cae
 docker: quay.io/biocontainers/shustring
 aliases:
   shustring: /usr/local/bin/shustring

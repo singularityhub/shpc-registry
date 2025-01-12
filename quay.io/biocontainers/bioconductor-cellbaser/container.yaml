@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cellbaser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellbaser
 latest:
-  1.26.0--r43hdfd78af_0: sha256:cfea70af3896c9ae745214d0e66686adbdd6ad562671f46ec186179c922f4788
+  1.30.0--r44hdfd78af_0: sha256:c129a975a88ae613257b0e93d373847ed992c74053c8aff01f9881a6f7a17eed
 tags:
   1.8.0--r36_1: sha256:82c390d863115c7c013ab5af17ed662328796f08481f8e80f2d271af69c39120
   1.22.0--r42hdfd78af_0: sha256:cf3ac1f16f25768a5567318da7d46ce2c3a9ddfa81ca6c5cd1a60d367ec88213
@@ -12,6 +12,7 @@ tags:
   1.12.0--r40_0: sha256:851084d4978ef10b6212c505cf7e703cf48854a0698fd2f983be7faf975c01d8
   1.24.0--r43hdfd78af_0: sha256:444c24fcd55597bfb79af55fa818bab79915549d8d66820cb250441804822cc5
   1.26.0--r43hdfd78af_0: sha256:cfea70af3896c9ae745214d0e66686adbdd6ad562671f46ec186179c922f4788
+  1.30.0--r44hdfd78af_0: sha256:c129a975a88ae613257b0e93d373847ed992c74053c8aff01f9881a6f7a17eed
 docker: quay.io/biocontainers/bioconductor-cellbaser
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

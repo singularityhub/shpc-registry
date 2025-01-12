@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-humanomni25quadv1bcrlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-humanomni25quadv1bcrlmm
 latest:
-  1.0.2--r43hdfd78af_12: sha256:ba1a1f4f41236fd79e219ec595570fe6a69a40b14f689e5a8cff4a93fddb1026
+  1.0.2--r44hdfd78af_13: sha256:3c4c7fc9394d6fbd60f27b3302b315da663a17f617ebdb3ebbe4ac992c39a281
 tags:
   1.0.2--r41hdfd78af_9: sha256:b66dabb91413048c9d25b2a58bf02ea07bd2764b3804c11d1375da4fe5c8cdef
   1.0.2--r42hdfd78af_10: sha256:80db4110248c92584cd38cdf6fabb61cce82fc6a5c34827d35b0d30761258896
   1.0.2--r43hdfd78af_11: sha256:99c960fbbbe67443ccd99dad181054417d3e6d906c122fa7b36d3efe0b9db4dc
   1.0.2--r43hdfd78af_12: sha256:ba1a1f4f41236fd79e219ec595570fe6a69a40b14f689e5a8cff4a93fddb1026
+  1.0.2--r44hdfd78af_13: sha256:3c4c7fc9394d6fbd60f27b3302b315da663a17f617ebdb3ebbe4ac992c39a281
 docker: quay.io/biocontainers/bioconductor-humanomni25quadv1bcrlmm

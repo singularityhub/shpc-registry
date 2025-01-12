@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-clustersignificance
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clustersignificance
 latest:
-  1.30.0--r43hdfd78af_0: sha256:55d4a252d1d803ac27fdc12d2ec04af800f8b473097b36933ae506b4c752eb1b
+  1.34.0--r44hdfd78af_0: sha256:913ae8db3bea4273db94b8064671a36e98739bd7eb552cec88ea26969eca31ae
 tags:
   1.8.2--r351_0: sha256:cb2358a766b6e00f5475b833679bc4a0b2c6ce4d71cc6313863e2149aa8d0d22
   1.26.0--r42hdfd78af_0: sha256:02bf40627532b42905c6b139fec64de5f92bdcc71111d6f49bed84b3f8dc5779
@@ -12,4 +12,5 @@ tags:
   1.16.0--r40_0: sha256:2b8a56a04ff5aaf93d6f6ae393f41cbed7e16d4177aea6cc879bf4a40dfc0095
   1.28.0--r43hdfd78af_0: sha256:40452b5fdc82303feea54efd6312f00ef49d211c040f9e5e98e60b1eb5aa5bd5
   1.30.0--r43hdfd78af_0: sha256:55d4a252d1d803ac27fdc12d2ec04af800f8b473097b36933ae506b4c752eb1b
+  1.34.0--r44hdfd78af_0: sha256:913ae8db3bea4273db94b8064671a36e98739bd7eb552cec88ea26969eca31ae
 docker: quay.io/biocontainers/bioconductor-clustersignificance

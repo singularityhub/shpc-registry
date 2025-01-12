@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cellxgenedp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cellxgenedp
 latest:
-  1.6.1--r43hdfd78af_0: sha256:d8592ecbc8965ce681bd469a7bb88cc31b7816f36b2e236ff7aa8361e4cd0fab
+  1.10.0--r44hdfd78af_0: sha256:c9201be52b3ccc088c01b8cca3c8154a366a9a4b22c89d3fce61b1ee96cda592
 tags:
   1.2.0--r42hdfd78af_0: sha256:5fe8728f1725cfbe6a8fae60cf676e864ec44bfd7d73e1e9b45a9dcc7cb0bb43
   1.4.0--r43hdfd78af_0: sha256:24e61582ef30d50bba05614891aa9867927945a2771fd90eaada2f5dc712aff8
   1.6.1--r43hdfd78af_0: sha256:d8592ecbc8965ce681bd469a7bb88cc31b7816f36b2e236ff7aa8361e4cd0fab
+  1.10.0--r44hdfd78af_0: sha256:c9201be52b3ccc088c01b8cca3c8154a366a9a4b22c89d3fce61b1ee96cda592
 docker: quay.io/biocontainers/bioconductor-cellxgenedp

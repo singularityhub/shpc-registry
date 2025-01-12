@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mast
 latest:
-  1.28.0--r43hdfd78af_0: sha256:dcc50d8e40111d01f27d5d1aa18e283b116d843852b769b43e91547928191859
+  1.32.0--r44hdfd78af_0: sha256:4fc4f79cda697bd574b57d951d37ec18c2eb252cec1a2ff01803babb05478241
 tags:
   1.8.1--r351_0: sha256:0f40ff71c5e10189574ae0da8a7ec14d2a534e7fc87451c5247fec738000d52e
   1.24.0--r42hdfd78af_0: sha256:1ab6863a6d6c741ca936421bb3c6ae90915799dcdc45272127fe38fb5ad39636
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:e2e216e45fb15c6582593cef2cec009c77a5af6939d4da4ece879b2481530141
   1.26.0--r43hdfd78af_0: sha256:db0f7764249f67eac815501f02ce2adbc872c74f506aa728b1918df74b0fb0f9
   1.28.0--r43hdfd78af_0: sha256:dcc50d8e40111d01f27d5d1aa18e283b116d843852b769b43e91547928191859
+  1.32.0--r44hdfd78af_0: sha256:4fc4f79cda697bd574b57d951d37ec18c2eb252cec1a2ff01803babb05478241
 docker: quay.io/biocontainers/bioconductor-mast
 aliases:
   wget: /usr/local/bin/wget

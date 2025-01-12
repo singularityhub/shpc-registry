@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-geneplast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geneplast
 latest:
-  1.28.0--r43hdfd78af_0: sha256:53a8028f73797e424fd0ee2f03bdd4e5c3c538194b748917ab3a4ed1b993cb6e
+  1.32.0--r44hdfd78af_0: sha256:215a3319c1374bb2173f9270abe7b1a76b72de7de0bc56bf440a77c10021c6ef
 tags:
   1.8.0--r351_0: sha256:dbaf19809134d2586f40ea538980da82fce0878e0a188a1efafd50642972dc24
   1.24.0--r42hdfd78af_0: sha256:fc0f197c6463bb32e1946ebc8fc091267f61814f3fc56424476dfc1c34f682f4
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:d7272e1315ec220e44ff4265060fc04b41757223c89c0478077a02e115314f58
   1.26.0--r43hdfd78af_0: sha256:35934e5e9cef85cc0dcd970c71fd07f10d100c749acbee95fc11da96b16dfc3c
   1.28.0--r43hdfd78af_0: sha256:53a8028f73797e424fd0ee2f03bdd4e5c3c538194b748917ab3a4ed1b993cb6e
+  1.32.0--r44hdfd78af_0: sha256:215a3319c1374bb2173f9270abe7b1a76b72de7de0bc56bf440a77c10021c6ef
 docker: quay.io/biocontainers/bioconductor-geneplast
 aliases:
   c89: /usr/local/bin/c89
