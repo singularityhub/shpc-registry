@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breseq/container.yaml"
-updated_at: "2025-01-11 03:34:08.664557"
+updated_at: "2025-01-12 03:44:00.080628"
 latest: "0.39.0--h077b44d_3"
 container_url: "https://biocontainers.pro/tools/breseq"
 aliases:

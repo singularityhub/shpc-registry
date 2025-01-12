@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-glad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
-updated_at: "2025-01-11 03:23:09.861976"
+updated_at: "2025-01-12 03:32:04.963716"
 latest: "2.66.0--r43h7c4fd5e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glad"
 

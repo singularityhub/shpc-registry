@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-splicewiz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicewiz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicewiz/container.yaml"
-updated_at: "2025-01-11 03:34:20.275086"
-latest: "1.4.0--r43hf17093f_0"
+updated_at: "2025-01-12 03:44:12.517769"
+latest: "1.8.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicewiz"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r42hf17093f_1"
  - "1.2.2--r43hf17093f_0"
  - "1.4.0--r43hf17093f_0"
+ - "1.8.0--r44h77050f0_0"
 description: "singularity registry hpc automated addition for bioconductor-splicewiz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splicewiz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-splicewiz", "latest": {"1.4.0--r43hf17093f_0": "sha256:0efe9ba596cfbd6637b8b01d796b52e9a64919e21abb7e55ed423a992f5f6e52"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:cc9bb70a61b128dc651f73deb2049d0a6e2c9ca3bef4570fb35ce2f3fcf4b6bd", "1.0.0--r42hf17093f_1": "sha256:869ee0feb5a42bad200de2dbab0c956ec7128cf9162e51ad3f97b0626608e9ff", "1.2.2--r43hf17093f_0": "sha256:3b28db3dc6a133556cd1cb010683ff2a9d80565799f9f3b853abfbef19b5772c", "1.4.0--r43hf17093f_0": "sha256:0efe9ba596cfbd6637b8b01d796b52e9a64919e21abb7e55ed423a992f5f6e52"}, "docker": "quay.io/biocontainers/bioconductor-splicewiz", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splicewiz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-splicewiz", "latest": {"1.8.0--r44h77050f0_0": "sha256:7f84550d2f5106372a29feb91f5f49310b5a39abcff376e7767a82a153432007"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:cc9bb70a61b128dc651f73deb2049d0a6e2c9ca3bef4570fb35ce2f3fcf4b6bd", "1.0.0--r42hf17093f_1": "sha256:869ee0feb5a42bad200de2dbab0c956ec7128cf9162e51ad3f97b0626608e9ff", "1.2.2--r43hf17093f_0": "sha256:3b28db3dc6a133556cd1cb010683ff2a9d80565799f9f3b853abfbef19b5772c", "1.4.0--r43hf17093f_0": "sha256:0efe9ba596cfbd6637b8b01d796b52e9a64919e21abb7e55ed423a992f5f6e52", "1.8.0--r44h77050f0_0": "sha256:7f84550d2f5106372a29feb91f5f49310b5a39abcff376e7767a82a153432007"}, "docker": "quay.io/biocontainers/bioconductor-splicewiz", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splicewiz.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-splicewiz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-splicewiz:1.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-splicewiz:1.8.0--r44h77050f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-splicewiz/1.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-splicewiz/1.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-splicewiz/1.8.0--r44h77050f0_0
+$ module help quay.io/biocontainers/bioconductor-splicewiz/1.8.0--r44h77050f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

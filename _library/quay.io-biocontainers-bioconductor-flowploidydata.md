@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowploidydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowploidydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowploidydata/container.yaml"
-updated_at: "2025-01-11 03:28:24.797829"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:37:40.434319"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowploidydata"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowploidydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowploidydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowploidydata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a"}, "tags": {"1.8.0--r351_0": "sha256:d147ec7ab6e1e26fd2b6fd822e4908eb14417fbd42387fdb19f068a038259eec", "1.23.0--r42hdfd78af_0": "sha256:e3eb4b6f5bc70a4cd3269b4047c5cb3d97ea3ee5746075adce2e35596c10080b", "1.20.0--r41hdfd78af_1": "sha256:e23dff443e04071b1ed308f8574db5c68137bd3d665b58f17edd91f52bd09a2f", "1.18.0--r41hdfd78af_0": "sha256:1aa01bfdcbc41d26b46e630499e55468d096fab6da3ace9d77d45073e59a96dc", "1.16.0--r40hdfd78af_1": "sha256:2dbabda43389ff9b906a146bbcdb0e83936596ab67f325e6626933999a5546f4", "1.14.0--r40_0": "sha256:a79fdbdde26efea1514424fcc677d80d8ff3c3122f7a0d19517c3bbaca59abdb", "1.26.0--r43hdfd78af_0": "sha256:c3e92b86c04aadd85eb31f35085c9bea18af377b9f5dfcbab8e8727f2a237137", "1.28.0--r43hdfd78af_0": "sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a"}, "docker": "quay.io/biocontainers/bioconductor-flowploidydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowploidydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowploidydata", "latest": {"1.32.0--r44hdfd78af_0": "sha256:ee932f15dfd09ec2df11ddb1ee52cdbdaebb653c9bd3748adf6e43f7ca2ef49b"}, "tags": {"1.8.0--r351_0": "sha256:d147ec7ab6e1e26fd2b6fd822e4908eb14417fbd42387fdb19f068a038259eec", "1.23.0--r42hdfd78af_0": "sha256:e3eb4b6f5bc70a4cd3269b4047c5cb3d97ea3ee5746075adce2e35596c10080b", "1.20.0--r41hdfd78af_1": "sha256:e23dff443e04071b1ed308f8574db5c68137bd3d665b58f17edd91f52bd09a2f", "1.18.0--r41hdfd78af_0": "sha256:1aa01bfdcbc41d26b46e630499e55468d096fab6da3ace9d77d45073e59a96dc", "1.16.0--r40hdfd78af_1": "sha256:2dbabda43389ff9b906a146bbcdb0e83936596ab67f325e6626933999a5546f4", "1.14.0--r40_0": "sha256:a79fdbdde26efea1514424fcc677d80d8ff3c3122f7a0d19517c3bbaca59abdb", "1.26.0--r43hdfd78af_0": "sha256:c3e92b86c04aadd85eb31f35085c9bea18af377b9f5dfcbab8e8727f2a237137", "1.28.0--r43hdfd78af_0": "sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a", "1.32.0--r44hdfd78af_0": "sha256:ee932f15dfd09ec2df11ddb1ee52cdbdaebb653c9bd3748adf6e43f7ca2ef49b"}, "docker": "quay.io/biocontainers/bioconductor-flowploidydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowploidydata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowploidydata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowploidydata:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowploidydata:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowploidydata/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowploidydata/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowploidydata/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowploidydata/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-imman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imman/container.yaml"
-updated_at: "2025-01-11 03:38:47.743578"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:48:51.003185"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imman"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-imman"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-imman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imman", "latest": {"1.22.0--r43hdfd78af_0": "sha256:4fda47693952adf15d034cb97b1530119cc5649654aa1fb261f08cbd5ecea36d"}, "tags": {"1.7.0--r40_0": "sha256:f5e3ad3a0aa9be642a0ad69ce64f49e817f1d9e5df5839e777697c3415fe6b38", "1.18.0--r42hdfd78af_0": "sha256:efd69ad7b36e5463df92eb7af4fabf8fdd50bfccb2fe1b04279b1572a35c1bf7", "1.14.0--r41hdfd78af_0": "sha256:36148fcf1f82e1c8402a324dd132c26220288307736eb8bfe275d12bb21e4108", "1.12.0--r41hdfd78af_0": "sha256:22b9cc286196369a77a31ffd80d04a1bbca8767cbdc80b73c1bbc8f2724ee9ae", "1.10.0--r40hdfd78af_1": "sha256:f79b1742a6239962603d053121daca0127feda1797e4ae6f1e66ca9843f24ea0", "1.20.0--r43hdfd78af_0": "sha256:cb772906b7a4e1a054a05a15079b23ae1eb13c22f0f81c8a0f7f725aef83ea45", "1.22.0--r43hdfd78af_0": "sha256:4fda47693952adf15d034cb97b1530119cc5649654aa1fb261f08cbd5ecea36d"}, "docker": "quay.io/biocontainers/bioconductor-imman", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-imman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imman", "latest": {"1.26.0--r44hdfd78af_0": "sha256:957ce94014cfe2feefc369f0fd274055455b9cc34b7a17c3fadd0a93971300ca"}, "tags": {"1.7.0--r40_0": "sha256:f5e3ad3a0aa9be642a0ad69ce64f49e817f1d9e5df5839e777697c3415fe6b38", "1.18.0--r42hdfd78af_0": "sha256:efd69ad7b36e5463df92eb7af4fabf8fdd50bfccb2fe1b04279b1572a35c1bf7", "1.14.0--r41hdfd78af_0": "sha256:36148fcf1f82e1c8402a324dd132c26220288307736eb8bfe275d12bb21e4108", "1.12.0--r41hdfd78af_0": "sha256:22b9cc286196369a77a31ffd80d04a1bbca8767cbdc80b73c1bbc8f2724ee9ae", "1.10.0--r40hdfd78af_1": "sha256:f79b1742a6239962603d053121daca0127feda1797e4ae6f1e66ca9843f24ea0", "1.20.0--r43hdfd78af_0": "sha256:cb772906b7a4e1a054a05a15079b23ae1eb13c22f0f81c8a0f7f725aef83ea45", "1.22.0--r43hdfd78af_0": "sha256:4fda47693952adf15d034cb97b1530119cc5649654aa1fb261f08cbd5ecea36d", "1.26.0--r44hdfd78af_0": "sha256:957ce94014cfe2feefc369f0fd274055455b9cc34b7a17c3fadd0a93971300ca"}, "docker": "quay.io/biocontainers/bioconductor-imman", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-imman.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-imman
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-imman:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-imman:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-imman/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-imman/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-imman/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-imman/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tanggle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tanggle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tanggle/container.yaml"
-updated_at: "2025-01-11 03:14:12.098518"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:22:49.268865"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tanggle"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tanggle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tanggle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tanggle", "latest": {"1.8.0--r43hdfd78af_0": "sha256:4a917e331bb622878f0a150ccace080f368be6a825811935825792381dc7e46c"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:c516412090ae64961f14d3387adb1e0e5666b65aea790709a3e6ebf3e7f24950", "1.4.0--r42hdfd78af_0": "sha256:96a4bdaf5178b69aeb23d293f437fad47cc0572321012106b9763fcb3345ace6", "1.6.0--r43hdfd78af_0": "sha256:325fb48f64c90e20346c05aa7604c2825dd141e471bc956e513e13e377af99fc", "1.8.0--r43hdfd78af_0": "sha256:4a917e331bb622878f0a150ccace080f368be6a825811935825792381dc7e46c"}, "docker": "quay.io/biocontainers/bioconductor-tanggle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tanggle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tanggle", "latest": {"1.12.0--r44hdfd78af_0": "sha256:427ddea4a6c043411f6d4c7c70dd4466a249e8c5f03bc9a7793c93b4d8a84ce2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:c516412090ae64961f14d3387adb1e0e5666b65aea790709a3e6ebf3e7f24950", "1.4.0--r42hdfd78af_0": "sha256:96a4bdaf5178b69aeb23d293f437fad47cc0572321012106b9763fcb3345ace6", "1.6.0--r43hdfd78af_0": "sha256:325fb48f64c90e20346c05aa7604c2825dd141e471bc956e513e13e377af99fc", "1.8.0--r43hdfd78af_0": "sha256:4a917e331bb622878f0a150ccace080f368be6a825811935825792381dc7e46c", "1.12.0--r44hdfd78af_0": "sha256:427ddea4a6c043411f6d4c7c70dd4466a249e8c5f03bc9a7793c93b4d8a84ce2"}, "docker": "quay.io/biocontainers/bioconductor-tanggle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tanggle.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tanggle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tanggle:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tanggle:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tanggle/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tanggle/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tanggle/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tanggle/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

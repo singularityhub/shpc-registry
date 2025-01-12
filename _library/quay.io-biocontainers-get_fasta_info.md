@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/get_fasta_info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_fasta_info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_fasta_info/container.yaml"
-updated_at: "2025-01-11 02:56:31.235312"
+updated_at: "2025-01-12 03:04:21.342678"
 latest: "2.4--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/get_fasta_info"
 aliases:

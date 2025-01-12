@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcc/container.yaml"
-updated_at: "2025-01-11 02:53:42.890534"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:01:25.970619"
+latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcc"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
  - "1.38.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.46.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcc", "latest": {"1.42.0--r43hdfd78af_0": "sha256:96e82cc9cd12ea446d4fe13c29c7ce09bb95c59d61cceb36db31b0e0ba5fb4ef"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:2981e39bd757239a32326d71e2e2259ddd1e75ff8b39d2af12955342cd4de595", "1.38.0--r42hdfd78af_0": "sha256:f1c870aa67c1fe8d19b1aee0bbacdc15df9b29922ed5a25b88c47dc1dae0abdd", "1.42.0--r43hdfd78af_0": "sha256:96e82cc9cd12ea446d4fe13c29c7ce09bb95c59d61cceb36db31b0e0ba5fb4ef"}, "docker": "quay.io/biocontainers/bioconductor-tcc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcc", "latest": {"1.46.0--r44hdfd78af_0": "sha256:3c5dfb515701a06e7513df2146449969d3094132e92863a608390d8f1a7f1ad8"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:2981e39bd757239a32326d71e2e2259ddd1e75ff8b39d2af12955342cd4de595", "1.38.0--r42hdfd78af_0": "sha256:f1c870aa67c1fe8d19b1aee0bbacdc15df9b29922ed5a25b88c47dc1dae0abdd", "1.42.0--r43hdfd78af_0": "sha256:96e82cc9cd12ea446d4fe13c29c7ce09bb95c59d61cceb36db31b0e0ba5fb4ef", "1.46.0--r44hdfd78af_0": "sha256:3c5dfb515701a06e7513df2146449969d3094132e92863a608390d8f1a7f1ad8"}, "docker": "quay.io/biocontainers/bioconductor-tcc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tcc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tcc:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tcc:1.46.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tcc/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tcc/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tcc/1.46.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tcc/1.46.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

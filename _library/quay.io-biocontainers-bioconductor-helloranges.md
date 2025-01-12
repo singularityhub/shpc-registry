@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-helloranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-helloranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-helloranges/container.yaml"
-updated_at: "2025-01-11 03:26:18.616184"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:35:23.189406"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-helloranges"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-helloranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-helloranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-helloranges", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f294897f3d4c28ed7643c63c63daeb2090f26bb9fdec0ddee486419dd8c8ab52"}, "tags": {"1.8.0--r351_0": "sha256:673f89afc96549abd20e43ec9b4ccb2feeeb08b9d1d0fa689e75ad8294814e75", "1.24.0--r42hdfd78af_0": "sha256:192af8b544e2b7cb6e1a07f8958b7220091e28405d315ff3d587ae97f0024c03", "1.20.0--r41hdfd78af_0": "sha256:5508a03897455c0746bd2b3d63d02580e32a1f6513f077a53eb3eba5d7e04516", "1.18.0--r41hdfd78af_0": "sha256:77bbb138ba8891dd7e45e4838d3437432baf950a3379eb8132acc1f2e298c92f", "1.16.0--r40hdfd78af_1": "sha256:02e861b74d6bf2a8f2ba2b0979964fb58d96785e9fa2315e9cba01f4bec5c864", "1.14.0--r40_0": "sha256:f6f8944536b1e927386d423c3b2f2a99a3da413dca75414f4db7066cb0928f48", "1.26.0--r43hdfd78af_0": "sha256:2372c280772a5687c03170665637aa68db15e4af98c04dd001ce4bd3e8574a40", "1.28.0--r43hdfd78af_0": "sha256:f294897f3d4c28ed7643c63c63daeb2090f26bb9fdec0ddee486419dd8c8ab52"}, "docker": "quay.io/biocontainers/bioconductor-helloranges", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-helloranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-helloranges", "latest": {"1.32.0--r44hdfd78af_0": "sha256:7dc462c59d83347a3d060b46373c3a63546ed569202d7678f08c0df1fb990d6e"}, "tags": {"1.8.0--r351_0": "sha256:673f89afc96549abd20e43ec9b4ccb2feeeb08b9d1d0fa689e75ad8294814e75", "1.24.0--r42hdfd78af_0": "sha256:192af8b544e2b7cb6e1a07f8958b7220091e28405d315ff3d587ae97f0024c03", "1.20.0--r41hdfd78af_0": "sha256:5508a03897455c0746bd2b3d63d02580e32a1f6513f077a53eb3eba5d7e04516", "1.18.0--r41hdfd78af_0": "sha256:77bbb138ba8891dd7e45e4838d3437432baf950a3379eb8132acc1f2e298c92f", "1.16.0--r40hdfd78af_1": "sha256:02e861b74d6bf2a8f2ba2b0979964fb58d96785e9fa2315e9cba01f4bec5c864", "1.14.0--r40_0": "sha256:f6f8944536b1e927386d423c3b2f2a99a3da413dca75414f4db7066cb0928f48", "1.26.0--r43hdfd78af_0": "sha256:2372c280772a5687c03170665637aa68db15e4af98c04dd001ce4bd3e8574a40", "1.28.0--r43hdfd78af_0": "sha256:f294897f3d4c28ed7643c63c63daeb2090f26bb9fdec0ddee486419dd8c8ab52", "1.32.0--r44hdfd78af_0": "sha256:7dc462c59d83347a3d060b46373c3a63546ed569202d7678f08c0df1fb990d6e"}, "docker": "quay.io/biocontainers/bioconductor-helloranges", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-helloranges.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-helloranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-helloranges:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-helloranges:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-helloranges/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-helloranges/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-helloranges/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-helloranges/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

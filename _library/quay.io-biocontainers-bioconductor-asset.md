@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-asset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asset/container.yaml"
-updated_at: "2025-01-11 03:26:21.877024"
-latest: "2.20.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:35:26.556367"
+latest: "2.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asset"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "2.10.0--r41hdfd78af_0"
  - "2.18.0--r43hdfd78af_0"
  - "2.20.0--r43hdfd78af_0"
+ - "2.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-asset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asset", "latest": {"2.20.0--r43hdfd78af_0": "sha256:841ef74654b3467330578ea1a4d9bfb77bb6d751cabfff112f81a61ae29927e8"}, "tags": {"2.8.0--r40hdfd78af_1": "sha256:e28e2e52d4827a1429f6ffe3cdf0bef2726ac23fab88eb116e121cf9990ce878", "2.16.0--r42hdfd78af_0": "sha256:6991d6250bce9068c320ac10ba618a993b5cd04a738e5e0da1a2f4fde498a8a8", "2.12.0--r41hdfd78af_0": "sha256:8d4ef8749b91d8147e13f5b45fb196eb8d40ae7cf640126b8f5c4d0dac343763", "2.10.0--r41hdfd78af_0": "sha256:d23c0b8baf16dd651d2623ce0ffafc8280d5f2b974637eb1d64eeac31aa398e9", "2.18.0--r43hdfd78af_0": "sha256:af4be3bf0da8c6f57b71b3a698dda821298ee98f810e351053bef7e5b183b646", "2.20.0--r43hdfd78af_0": "sha256:841ef74654b3467330578ea1a4d9bfb77bb6d751cabfff112f81a61ae29927e8"}, "docker": "quay.io/biocontainers/bioconductor-asset", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asset", "latest": {"2.24.0--r44hdfd78af_0": "sha256:ea2f7f270a32cf23a2edcc7bb86e66857e4175d9412be653e79db6a8fd17feb2"}, "tags": {"2.8.0--r40hdfd78af_1": "sha256:e28e2e52d4827a1429f6ffe3cdf0bef2726ac23fab88eb116e121cf9990ce878", "2.16.0--r42hdfd78af_0": "sha256:6991d6250bce9068c320ac10ba618a993b5cd04a738e5e0da1a2f4fde498a8a8", "2.12.0--r41hdfd78af_0": "sha256:8d4ef8749b91d8147e13f5b45fb196eb8d40ae7cf640126b8f5c4d0dac343763", "2.10.0--r41hdfd78af_0": "sha256:d23c0b8baf16dd651d2623ce0ffafc8280d5f2b974637eb1d64eeac31aa398e9", "2.18.0--r43hdfd78af_0": "sha256:af4be3bf0da8c6f57b71b3a698dda821298ee98f810e351053bef7e5b183b646", "2.20.0--r43hdfd78af_0": "sha256:841ef74654b3467330578ea1a4d9bfb77bb6d751cabfff112f81a61ae29927e8", "2.24.0--r44hdfd78af_0": "sha256:ea2f7f270a32cf23a2edcc7bb86e66857e4175d9412be653e79db6a8fd17feb2"}, "docker": "quay.io/biocontainers/bioconductor-asset", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asset.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-asset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-asset:2.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-asset:2.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-asset/2.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-asset/2.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-asset/2.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-asset/2.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

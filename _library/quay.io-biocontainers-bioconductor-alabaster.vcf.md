@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.vcf/container.yaml"
-updated_at: "2025-01-11 03:18:43.880349"
+updated_at: "2025-01-12 03:27:25.403465"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.vcf"
 aliases:

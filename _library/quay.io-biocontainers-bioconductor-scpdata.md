@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scpdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
-updated_at: "2025-01-11 03:16:17.752095"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:24:58.446371"
+latest: "1.13.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpdata"
 aliases:
  - "glpsol"
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.13.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scpdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpdata", "latest": {"1.10.0--r43hdfd78af_0": "sha256:0e27aa2ef90bde5749658f1f8496f59fb56a97da7d7cbf7233bb1d8adad21926"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc", "1.6.0--r42hdfd78af_0": "sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb", "1.8.0--r43hdfd78af_0": "sha256:9110e3c332539edfa67405da202e420b2ff7fb3faba5a9cf59c0f64d7632e934", "1.10.0--r43hdfd78af_0": "sha256:0e27aa2ef90bde5749658f1f8496f59fb56a97da7d7cbf7233bb1d8adad21926"}, "docker": "quay.io/biocontainers/bioconductor-scpdata", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpdata", "latest": {"1.13.0--r44hdfd78af_0": "sha256:b590fd034892d746fff325b2a3bf085f7db7c48a5ffe0ed5ab672d387abe8709"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc", "1.6.0--r42hdfd78af_0": "sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb", "1.8.0--r43hdfd78af_0": "sha256:9110e3c332539edfa67405da202e420b2ff7fb3faba5a9cf59c0f64d7632e934", "1.10.0--r43hdfd78af_0": "sha256:0e27aa2ef90bde5749658f1f8496f59fb56a97da7d7cbf7233bb1d8adad21926", "1.13.0--r44hdfd78af_0": "sha256:b590fd034892d746fff325b2a3bf085f7db7c48a5ffe0ed5ab672d387abe8709"}, "docker": "quay.io/biocontainers/bioconductor-scpdata", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scpdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scpdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scpdata:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scpdata:1.13.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scpdata/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scpdata/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scpdata/1.13.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scpdata/1.13.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

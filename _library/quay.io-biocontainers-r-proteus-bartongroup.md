@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-proteus-bartongroup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-proteus-bartongroup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-proteus-bartongroup/container.yaml"
-updated_at: "2025-01-11 03:20:39.431996"
-latest: "0.2.16--r43hdfd78af_1"
+updated_at: "2025-01-12 03:29:24.375027"
+latest: "0.2.16--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-proteus-bartongroup"
 aliases:
  - "hb-info"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.2.16--r42hdfd78af_0"
  - "0.2.16--r43hdfd78af_1"
+ - "0.2.16--r44hdfd78af_2"
 description: "singularity registry hpc automated addition for r-proteus-bartongroup"
-config: {"url": "https://biocontainers.pro/tools/r-proteus-bartongroup", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-proteus-bartongroup", "latest": {"0.2.16--r43hdfd78af_1": "sha256:ae8682011d6cecd54f2a00078d5be7b37ba452d5d03f0e4ad74b6ea2ffb2268a"}, "tags": {"0.2.16--r42hdfd78af_0": "sha256:ccaff64ed1434cbf03a07c871d20ab0b7530801528934c260275ba39a395b471", "0.2.16--r43hdfd78af_1": "sha256:ae8682011d6cecd54f2a00078d5be7b37ba452d5d03f0e4ad74b6ea2ffb2268a"}, "docker": "quay.io/biocontainers/r-proteus-bartongroup", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-proteus-bartongroup", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-proteus-bartongroup", "latest": {"0.2.16--r44hdfd78af_2": "sha256:9ae049685192b3ffe70c422d8952a5a01d442701ba7cb4241bad2cbb26c6b99c"}, "tags": {"0.2.16--r42hdfd78af_0": "sha256:ccaff64ed1434cbf03a07c871d20ab0b7530801528934c260275ba39a395b471", "0.2.16--r43hdfd78af_1": "sha256:ae8682011d6cecd54f2a00078d5be7b37ba452d5d03f0e4ad74b6ea2ffb2268a", "0.2.16--r44hdfd78af_2": "sha256:9ae049685192b3ffe70c422d8952a5a01d442701ba7cb4241bad2cbb26c6b99c"}, "docker": "quay.io/biocontainers/r-proteus-bartongroup", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-proteus-bartongroup.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-proteus-bartongroup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-proteus-bartongroup:0.2.16--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/r-proteus-bartongroup:0.2.16--r44hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-proteus-bartongroup/0.2.16--r43hdfd78af_1
-$ module help quay.io/biocontainers/r-proteus-bartongroup/0.2.16--r43hdfd78af_1
+$ module load quay.io/biocontainers/r-proteus-bartongroup/0.2.16--r44hdfd78af_2
+$ module help quay.io/biocontainers/r-proteus-bartongroup/0.2.16--r44hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-omada"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omada/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omada/container.yaml"
-updated_at: "2025-01-11 02:54:16.393256"
-latest: "1.4.0--r43hf17093f_1"
+updated_at: "2025-01-12 03:02:00.795428"
+latest: "1.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omada"
 
 versions:
  - "1.0.0--r42hc247a5b_0"
  - "1.1.0--r43hf17093f_0"
  - "1.4.0--r43hf17093f_1"
+ - "1.8.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-omada"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omada", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-omada", "latest": {"1.4.0--r43hf17093f_1": "sha256:2538591dd26b52c47826066ad531ebc2d631bbf23cfff0800a653e29e4d2894d"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:bd77b99037c6ef1be9dca2eb1ec475f74e60faeab009b3f3a7cd3c55b91a18ed", "1.1.0--r43hf17093f_0": "sha256:50a5a430c521be68207cb737575a4e52aee670644cb2054603d9f62a759655bf", "1.4.0--r43hf17093f_1": "sha256:2538591dd26b52c47826066ad531ebc2d631bbf23cfff0800a653e29e4d2894d"}, "docker": "quay.io/biocontainers/bioconductor-omada"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omada", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-omada", "latest": {"1.8.0--r44he5774e6_0": "sha256:ed83b5da09ee01e0f9d9a6c3e1d301f0d7c265e4fcd11e58e709ae2856bce92a"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:bd77b99037c6ef1be9dca2eb1ec475f74e60faeab009b3f3a7cd3c55b91a18ed", "1.1.0--r43hf17093f_0": "sha256:50a5a430c521be68207cb737575a4e52aee670644cb2054603d9f62a759655bf", "1.4.0--r43hf17093f_1": "sha256:2538591dd26b52c47826066ad531ebc2d631bbf23cfff0800a653e29e4d2894d", "1.8.0--r44he5774e6_0": "sha256:ed83b5da09ee01e0f9d9a6c3e1d301f0d7c265e4fcd11e58e709ae2856bce92a"}, "docker": "quay.io/biocontainers/bioconductor-omada"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omada.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omada
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omada:1.4.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-omada:1.8.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omada/1.4.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-omada/1.4.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-omada/1.8.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-omada/1.8.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

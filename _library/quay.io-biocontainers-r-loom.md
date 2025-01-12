@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-loom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loom/container.yaml"
-updated_at: "2025-01-11 03:08:52.943998"
+updated_at: "2025-01-12 03:17:16.375755"
 latest: "0.2.0.2--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-loom"
 aliases:

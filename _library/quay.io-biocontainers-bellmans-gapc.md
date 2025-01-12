@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bellmans-gapc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
-updated_at: "2025-01-11 02:57:13.385414"
-latest: "2024.01.12--h0432e7c_3"
+updated_at: "2025-01-12 03:05:05.477837"
+latest: "2024.01.12--h3053a90_4"
 container_url: "https://biocontainers.pro/tools/bellmans-gapc"
 aliases:
  - "gapc"
@@ -17,8 +17,9 @@ versions:
  - "2024.01.12--hac0e68f_0"
  - "2024.01.12--h0432e7c_1"
  - "2024.01.12--h0432e7c_3"
+ - "2024.01.12--h3053a90_4"
 description: "shpc-registry automated BioContainers addition for bellmans-gapc"
-config: {"url": "https://biocontainers.pro/tools/bellmans-gapc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bellmans-gapc", "latest": {"2024.01.12--h0432e7c_3": "sha256:f65487341a5a4287d73c88f751820062b782e2b4aee2fd9b03c2e8acaf58e5f8"}, "tags": {"2022.07.04--h16d3260_0": "sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b", "2022.07.04--h16d3260_1": "sha256:d3687cbcc0a8a48f7a328c6e1b6bdb3e76000b3c3c165faea609d4de96c3c319", "2022.07.04--hac0e68f_2": "sha256:f341ee1cf4c49a4ed8c45b17c09e5122597475a92e8b8d0bc4bf88cfd9e3cc83", "2023.07.05--hac0e68f_0": "sha256:c8b9a19590d103a8cdc51a99ad7aace89d13968b795798f359e7f8e39abc86a6", "2024.01.12--hac0e68f_0": "sha256:dfee14f73e761687d795568a97d422f47b828f1c857b006fae4e20983ec656bb", "2024.01.12--h0432e7c_1": "sha256:b831ab4e1db31f3e014f51c0c2c086f37dbca046bfb70406f72905d0f6c8e731", "2024.01.12--h0432e7c_3": "sha256:f65487341a5a4287d73c88f751820062b782e2b4aee2fd9b03c2e8acaf58e5f8"}, "docker": "quay.io/biocontainers/bellmans-gapc", "aliases": {"gapc": "/usr/local/bin/gapc"}}
+config: {"url": "https://biocontainers.pro/tools/bellmans-gapc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bellmans-gapc", "latest": {"2024.01.12--h3053a90_4": "sha256:ba4a4b5251884dad1a6aa5644a59086dde15e5b08a40fc1b06cf3555628e7fe8"}, "tags": {"2022.07.04--h16d3260_0": "sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b", "2022.07.04--h16d3260_1": "sha256:d3687cbcc0a8a48f7a328c6e1b6bdb3e76000b3c3c165faea609d4de96c3c319", "2022.07.04--hac0e68f_2": "sha256:f341ee1cf4c49a4ed8c45b17c09e5122597475a92e8b8d0bc4bf88cfd9e3cc83", "2023.07.05--hac0e68f_0": "sha256:c8b9a19590d103a8cdc51a99ad7aace89d13968b795798f359e7f8e39abc86a6", "2024.01.12--hac0e68f_0": "sha256:dfee14f73e761687d795568a97d422f47b828f1c857b006fae4e20983ec656bb", "2024.01.12--h0432e7c_1": "sha256:b831ab4e1db31f3e014f51c0c2c086f37dbca046bfb70406f72905d0f6c8e731", "2024.01.12--h0432e7c_3": "sha256:f65487341a5a4287d73c88f751820062b782e2b4aee2fd9b03c2e8acaf58e5f8", "2024.01.12--h3053a90_4": "sha256:ba4a4b5251884dad1a6aa5644a59086dde15e5b08a40fc1b06cf3555628e7fe8"}, "docker": "quay.io/biocontainers/bellmans-gapc", "aliases": {"gapc": "/usr/local/bin/gapc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bellmans-gapc.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bellmans-gapc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bellmans-gapc:2024.01.12--h0432e7c_3
+$ shpc install quay.io/biocontainers/bellmans-gapc:2024.01.12--h3053a90_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bellmans-gapc/2024.01.12--h0432e7c_3
-$ module help quay.io/biocontainers/bellmans-gapc/2024.01.12--h0432e7c_3
+$ module load quay.io/biocontainers/bellmans-gapc/2024.01.12--h3053a90_4
+$ module help quay.io/biocontainers/bellmans-gapc/2024.01.12--h3053a90_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

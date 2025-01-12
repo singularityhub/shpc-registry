@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multixrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multixrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multixrank/container.yaml"
-updated_at: "2025-01-11 03:15:31.659687"
+updated_at: "2025-01-12 03:24:11.571564"
 latest: "0.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/multixrank"
 aliases:

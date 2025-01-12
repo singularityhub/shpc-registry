@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ctsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctsv/container.yaml"
-updated_at: "2025-01-11 02:52:48.098531"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:00:28.827001"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctsv"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -37,8 +37,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ctsv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ctsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ctsv", "latest": {"1.4.0--r43hdfd78af_0": "sha256:b53ca3f6aa2df91fa5158782c8b325c0fc6ab4e93c26b7d35bd7239e0c912590"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:27e56ddd771c8fa1e9418990f70d1dc33b815eeb31bc355a27cf2bb8a2cf0b5b", "1.2.0--r43hdfd78af_0": "sha256:6524ae968bcc3b8f1b2f2a4bd4437ebdb817d6a237995ccd62f30dc619207c4e", "1.4.0--r43hdfd78af_0": "sha256:b53ca3f6aa2df91fa5158782c8b325c0fc6ab4e93c26b7d35bd7239e0c912590"}, "docker": "quay.io/biocontainers/bioconductor-ctsv", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ctsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ctsv", "latest": {"1.8.0--r44hdfd78af_0": "sha256:6f69cf7a9608a065e5f2eaf76af04ef602647f3e974011e521fbb2c708e02621"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:27e56ddd771c8fa1e9418990f70d1dc33b815eeb31bc355a27cf2bb8a2cf0b5b", "1.2.0--r43hdfd78af_0": "sha256:6524ae968bcc3b8f1b2f2a4bd4437ebdb817d6a237995ccd62f30dc619207c4e", "1.4.0--r43hdfd78af_0": "sha256:b53ca3f6aa2df91fa5158782c8b325c0fc6ab4e93c26b7d35bd7239e0c912590", "1.8.0--r44hdfd78af_0": "sha256:6f69cf7a9608a065e5f2eaf76af04ef602647f3e974011e521fbb2c708e02621"}, "docker": "quay.io/biocontainers/bioconductor-ctsv", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ctsv.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ctsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ctsv:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ctsv:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ctsv/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ctsv/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ctsv/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ctsv/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

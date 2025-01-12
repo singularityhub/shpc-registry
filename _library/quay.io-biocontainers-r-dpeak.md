@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dpeak/container.yaml"
-updated_at: "2025-01-11 03:35:37.252477"
-latest: "2.0.1--r43h4ac6f70_9"
+updated_at: "2025-01-12 03:45:34.326286"
+latest: "2.0.1--r44h9948957_10"
 container_url: "https://biocontainers.pro/tools/r-dpeak"
 aliases:
  - "perl5.32.1"
@@ -15,8 +15,9 @@ versions:
  - "2.0.1--r42h9f5acd7_7"
  - "2.0.1--r42h4ac6f70_8"
  - "2.0.1--r43h4ac6f70_9"
+ - "2.0.1--r44h9948957_10"
 description: "shpc-registry automated BioContainers addition for r-dpeak"
-config: {"url": "https://biocontainers.pro/tools/r-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dpeak", "latest": {"2.0.1--r43h4ac6f70_9": "sha256:20da8e5eaae8e0eeaa54042b4407677525ee3f363d3c32938ee574ebcc231af4"}, "tags": {"2.0.1--r41h9f5acd7_6": "sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64", "2.0.1--r42h9f5acd7_7": "sha256:7302245e5b1ecccc82e5b14c606f4644c5d29ef868c906343bf30d97097ec078", "2.0.1--r42h4ac6f70_8": "sha256:0829952e0878014f03852736f750e1e85946da4c16bd394a313ac9c6cc78cbe1", "2.0.1--r43h4ac6f70_9": "sha256:20da8e5eaae8e0eeaa54042b4407677525ee3f363d3c32938ee574ebcc231af4"}, "docker": "quay.io/biocontainers/r-dpeak", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/r-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dpeak", "latest": {"2.0.1--r44h9948957_10": "sha256:2936623e13ce0d8ce2a8d3538fb3a8b19de92d75eb79e495401b565c412097c2"}, "tags": {"2.0.1--r41h9f5acd7_6": "sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64", "2.0.1--r42h9f5acd7_7": "sha256:7302245e5b1ecccc82e5b14c606f4644c5d29ef868c906343bf30d97097ec078", "2.0.1--r42h4ac6f70_8": "sha256:0829952e0878014f03852736f750e1e85946da4c16bd394a313ac9c6cc78cbe1", "2.0.1--r43h4ac6f70_9": "sha256:20da8e5eaae8e0eeaa54042b4407677525ee3f363d3c32938ee574ebcc231af4", "2.0.1--r44h9948957_10": "sha256:2936623e13ce0d8ce2a8d3538fb3a8b19de92d75eb79e495401b565c412097c2"}, "docker": "quay.io/biocontainers/r-dpeak", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dpeak.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-dpeak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dpeak:2.0.1--r43h4ac6f70_9
+$ shpc install quay.io/biocontainers/r-dpeak:2.0.1--r44h9948957_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dpeak/2.0.1--r43h4ac6f70_9
-$ module help quay.io/biocontainers/r-dpeak/2.0.1--r43h4ac6f70_9
+$ module load quay.io/biocontainers/r-dpeak/2.0.1--r44h9948957_10
+$ module help quay.io/biocontainers/r-dpeak/2.0.1--r44h9948957_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

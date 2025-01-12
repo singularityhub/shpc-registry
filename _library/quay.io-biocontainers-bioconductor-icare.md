@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-icare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icare/container.yaml"
-updated_at: "2025-01-11 02:59:32.534640"
-latest: "1.30.0--r43ha9d7317_1"
+updated_at: "2025-01-12 03:07:29.797942"
+latest: "1.34.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icare"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.26.0--r42ha9d7317_1"
  - "1.28.0--r43ha9d7317_0"
  - "1.30.0--r43ha9d7317_1"
+ - "1.34.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-icare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-icare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icare", "latest": {"1.30.0--r43ha9d7317_1": "sha256:0b471e5a70940cb43ddee6c6dbfa1c7fe6cf8b6e066697d9f34b3745dc0848da"}, "tags": {"1.22.0--r41hc0cfd56_2": "sha256:d96ca382cd12cae3d1da3fbd175563650e5da2715a8cdb0bc760ec2b2df65813", "1.26.0--r42hc0cfd56_0": "sha256:bb5667c3e2a30891dfb825d7b9473df888f3cea16d75391a1e73913c54c67e00", "1.26.0--r42ha9d7317_1": "sha256:2fce62d47fa4ac40ffa7e0eb024f82d050ddf99180e21fa80e321b81af37f7bf", "1.28.0--r43ha9d7317_0": "sha256:852d5fe0617436e6b7b211e0b2704e5dfa407d8da2fa6947bccd2083bda02b3c", "1.30.0--r43ha9d7317_1": "sha256:0b471e5a70940cb43ddee6c6dbfa1c7fe6cf8b6e066697d9f34b3745dc0848da"}, "docker": "quay.io/biocontainers/bioconductor-icare"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-icare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icare", "latest": {"1.34.0--r44h3df3fcb_0": "sha256:d7aefb95506ac35f7216a88d571c43ca390a31ae5a85cf2c6d7ea613cd3c93b5"}, "tags": {"1.22.0--r41hc0cfd56_2": "sha256:d96ca382cd12cae3d1da3fbd175563650e5da2715a8cdb0bc760ec2b2df65813", "1.26.0--r42hc0cfd56_0": "sha256:bb5667c3e2a30891dfb825d7b9473df888f3cea16d75391a1e73913c54c67e00", "1.26.0--r42ha9d7317_1": "sha256:2fce62d47fa4ac40ffa7e0eb024f82d050ddf99180e21fa80e321b81af37f7bf", "1.28.0--r43ha9d7317_0": "sha256:852d5fe0617436e6b7b211e0b2704e5dfa407d8da2fa6947bccd2083bda02b3c", "1.30.0--r43ha9d7317_1": "sha256:0b471e5a70940cb43ddee6c6dbfa1c7fe6cf8b6e066697d9f34b3745dc0848da", "1.34.0--r44h3df3fcb_0": "sha256:d7aefb95506ac35f7216a88d571c43ca390a31ae5a85cf2c6d7ea613cd3c93b5"}, "docker": "quay.io/biocontainers/bioconductor-icare"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-icare.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-icare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-icare:1.30.0--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-icare:1.34.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-icare/1.30.0--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-icare/1.30.0--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-icare/1.34.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-icare/1.34.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

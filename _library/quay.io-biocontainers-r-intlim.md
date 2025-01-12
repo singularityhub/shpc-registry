@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-intlim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-intlim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-intlim/container.yaml"
-updated_at: "2025-01-11 03:39:10.069423"
-latest: "1.1.0--r43hdfd78af_5"
+updated_at: "2025-01-12 03:49:13.607544"
+latest: "1.1.0--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-intlim"
 aliases:
  - "pandoc-citeproc"
@@ -22,8 +22,9 @@ versions:
  - "v.1.1.0--r40_1"
  - "1.1.0--r42hdfd78af_4"
  - "1.1.0--r43hdfd78af_5"
+ - "1.1.0--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-intlim"
-config: {"url": "https://biocontainers.pro/tools/r-intlim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intlim", "latest": {"1.1.0--r43hdfd78af_5": "sha256:fa512a3f85a9fccf7542847816c2fa34c2c436424e94e6f1745941964972f064"}, "tags": {"v.1.1.0--r40_1": "sha256:46955b4ac9f7868fa6532ba4af8af05d2b63102b2ae2be48f2835fd7bd7ff831", "1.1.0--r42hdfd78af_4": "sha256:11cd4db1e650b7270df3dabb5eb27fce123921cb96632b31adf293a3359f1468", "1.1.0--r43hdfd78af_5": "sha256:fa512a3f85a9fccf7542847816c2fa34c2c436424e94e6f1745941964972f064"}, "docker": "quay.io/biocontainers/r-intlim", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-intlim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intlim", "latest": {"1.1.0--r44hdfd78af_6": "sha256:51b6fab3874a741beb3276aadb35553e603981909c7c65892198d865ed2ecdc9"}, "tags": {"v.1.1.0--r40_1": "sha256:46955b4ac9f7868fa6532ba4af8af05d2b63102b2ae2be48f2835fd7bd7ff831", "1.1.0--r42hdfd78af_4": "sha256:11cd4db1e650b7270df3dabb5eb27fce123921cb96632b31adf293a3359f1468", "1.1.0--r43hdfd78af_5": "sha256:fa512a3f85a9fccf7542847816c2fa34c2c436424e94e6f1745941964972f064", "1.1.0--r44hdfd78af_6": "sha256:51b6fab3874a741beb3276aadb35553e603981909c7c65892198d865ed2ecdc9"}, "docker": "quay.io/biocontainers/r-intlim", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-intlim.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-intlim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-intlim:1.1.0--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/r-intlim:1.1.0--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-intlim/1.1.0--r43hdfd78af_5
-$ module help quay.io/biocontainers/r-intlim/1.1.0--r43hdfd78af_5
+$ module load quay.io/biocontainers/r-intlim/1.1.0--r44hdfd78af_6
+$ module help quay.io/biocontainers/r-intlim/1.1.0--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simona/container.yaml"
-updated_at: "2025-01-11 02:58:48.560114"
-latest: "1.0.2--pl5321r43hf17093f_0"
+updated_at: "2025-01-12 03:06:44.361892"
+latest: "1.4.0--pl5321r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simona"
 aliases:
  - "pcre2posix_test"
@@ -14,8 +14,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.2--pl5321r43hf17093f_0"
+ - "1.4.0--pl5321r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-simona"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simona", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simona", "latest": {"1.0.2--pl5321r43hf17093f_0": "sha256:fc0d3e33f1bb2c79605b56750ef759dcbd77801f632f24b7df6e5ef191919486"}, "tags": {"1.0.2--pl5321r43hf17093f_0": "sha256:fc0d3e33f1bb2c79605b56750ef759dcbd77801f632f24b7df6e5ef191919486"}, "docker": "quay.io/biocontainers/bioconductor-simona", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simona", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simona", "latest": {"1.4.0--pl5321r44he5774e6_0": "sha256:0b14ed3da1153ded7dc59dbb4ac1d13be758fd618174f923143ed57306896c98"}, "tags": {"1.0.2--pl5321r43hf17093f_0": "sha256:fc0d3e33f1bb2c79605b56750ef759dcbd77801f632f24b7df6e5ef191919486", "1.4.0--pl5321r44he5774e6_0": "sha256:0b14ed3da1153ded7dc59dbb4ac1d13be758fd618174f923143ed57306896c98"}, "docker": "quay.io/biocontainers/bioconductor-simona", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simona.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simona
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simona:1.0.2--pl5321r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-simona:1.4.0--pl5321r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simona/1.0.2--pl5321r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-simona/1.0.2--pl5321r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-simona/1.4.0--pl5321r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-simona/1.4.0--pl5321r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

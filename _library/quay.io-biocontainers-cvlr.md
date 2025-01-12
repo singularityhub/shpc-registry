@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cvlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cvlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cvlr/container.yaml"
-updated_at: "2025-01-11 03:34:43.981498"
-latest: "1.0--hb312c04_4"
+updated_at: "2025-01-12 03:44:38.053336"
+latest: "1.0--h61e1b1b_5"
 container_url: "https://biocontainers.pro/tools/cvlr"
 aliases:
  - "cvlr-cluster"
@@ -40,8 +40,9 @@ versions:
  - "1.0--h2bab7d6_2"
  - "1.0--hc5c7111_3"
  - "1.0--hb312c04_4"
+ - "1.0--h61e1b1b_5"
 description: "singularity registry hpc automated addition for cvlr"
-config: {"url": "https://biocontainers.pro/tools/cvlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cvlr", "latest": {"1.0--hb312c04_4": "sha256:d3817c38a0494a68ed4b857ffd08a0e3813837caf6e10527b540b679b92def1a"}, "tags": {"1.0--he292522_1": "sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972", "1.0--h2bab7d6_2": "sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c", "1.0--hc5c7111_3": "sha256:9e268037d8454defb4910b040d445bc7ea047ce61b252e53cfbfb1480203e066", "1.0--hb312c04_4": "sha256:d3817c38a0494a68ed4b857ffd08a0e3813837caf6e10527b540b679b92def1a"}, "docker": "quay.io/biocontainers/cvlr", "aliases": {"cvlr-cluster": "/usr/local/bin/cvlr-cluster", "cvlr-meth-of-bam": "/usr/local/bin/cvlr-meth-of-bam", "cvlr-stats.py": "/usr/local/bin/cvlr-stats.py", "cvlrcommon.py": "/usr/local/bin/cvlrcommon.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/cvlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cvlr", "latest": {"1.0--h61e1b1b_5": "sha256:7d422ad24c137ecde1e5b624a0152625ecfa44898c18a353b318a9eedb3cd883"}, "tags": {"1.0--he292522_1": "sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972", "1.0--h2bab7d6_2": "sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c", "1.0--hc5c7111_3": "sha256:9e268037d8454defb4910b040d445bc7ea047ce61b252e53cfbfb1480203e066", "1.0--hb312c04_4": "sha256:d3817c38a0494a68ed4b857ffd08a0e3813837caf6e10527b540b679b92def1a", "1.0--h61e1b1b_5": "sha256:7d422ad24c137ecde1e5b624a0152625ecfa44898c18a353b318a9eedb3cd883"}, "docker": "quay.io/biocontainers/cvlr", "aliases": {"cvlr-cluster": "/usr/local/bin/cvlr-cluster", "cvlr-meth-of-bam": "/usr/local/bin/cvlr-meth-of-bam", "cvlr-stats.py": "/usr/local/bin/cvlr-stats.py", "cvlrcommon.py": "/usr/local/bin/cvlrcommon.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cvlr.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/cvlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cvlr:1.0--hb312c04_4
+$ shpc install quay.io/biocontainers/cvlr:1.0--h61e1b1b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cvlr/1.0--hb312c04_4
-$ module help quay.io/biocontainers/cvlr/1.0--hb312c04_4
+$ module load quay.io/biocontainers/cvlr/1.0--h61e1b1b_5
+$ module help quay.io/biocontainers/cvlr/1.0--h61e1b1b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

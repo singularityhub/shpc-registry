@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm/container.yaml"
-updated_at: "2025-01-11 02:52:23.863879"
+updated_at: "2025-01-12 03:00:03.841788"
 latest: "1.0.1--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-humancytosnp12v2p1hcrlmm"
 

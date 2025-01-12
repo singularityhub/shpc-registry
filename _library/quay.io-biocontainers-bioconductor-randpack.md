@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-randpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-randpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-randpack/container.yaml"
-updated_at: "2025-01-11 03:13:22.665152"
-latest: "1.48.0--r43hdfd78af_0"
+updated_at: "2025-01-12 03:21:56.629562"
+latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-randpack"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
+ - "1.52.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-randpack"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-randpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-randpack", "latest": {"1.48.0--r43hdfd78af_0": "sha256:12f126d930369b3feafc6c2e23cb25678f9a178f58a4e11136ea23306d770a8d"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:c87a95aa0339cd2c2f57969f178bbbf1ee9f68d0feec666d0db8b6e428735192", "1.44.0--r42hdfd78af_0": "sha256:c94e5cb8fe7eaebcd67b92f631e3f98de88b4f2f04b19ea31b18f5915a8d5e85", "1.46.0--r43hdfd78af_0": "sha256:984263645739ab4719d76ff3221d8f63402cd2208de08aa2f0fb14e795738f18", "1.48.0--r43hdfd78af_0": "sha256:12f126d930369b3feafc6c2e23cb25678f9a178f58a4e11136ea23306d770a8d"}, "docker": "quay.io/biocontainers/bioconductor-randpack"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-randpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-randpack", "latest": {"1.52.0--r44hdfd78af_0": "sha256:59f791a15c9e33da56122f183b2c2a796fc331b05d2d68fd3039b338295b7a7c"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:c87a95aa0339cd2c2f57969f178bbbf1ee9f68d0feec666d0db8b6e428735192", "1.44.0--r42hdfd78af_0": "sha256:c94e5cb8fe7eaebcd67b92f631e3f98de88b4f2f04b19ea31b18f5915a8d5e85", "1.46.0--r43hdfd78af_0": "sha256:984263645739ab4719d76ff3221d8f63402cd2208de08aa2f0fb14e795738f18", "1.48.0--r43hdfd78af_0": "sha256:12f126d930369b3feafc6c2e23cb25678f9a178f58a4e11136ea23306d770a8d", "1.52.0--r44hdfd78af_0": "sha256:59f791a15c9e33da56122f183b2c2a796fc331b05d2d68fd3039b338295b7a7c"}, "docker": "quay.io/biocontainers/bioconductor-randpack"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-randpack.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-randpack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-randpack:1.48.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-randpack:1.52.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-randpack/1.48.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-randpack/1.48.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-randpack/1.52.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-randpack/1.52.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

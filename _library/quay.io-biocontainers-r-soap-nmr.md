@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-soap-nmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-soap-nmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-soap-nmr/container.yaml"
-updated_at: "2025-01-11 03:00:34.128902"
-latest: "0.1.0.20170207--r43h9ee0642_6"
+updated_at: "2025-01-12 03:08:33.518368"
+latest: "0.1.0.20170207--r44h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-soap-nmr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0.20170207--r41h9ee0642_4"
  - "0.1.0.20170207--r42h9ee0642_5"
  - "0.1.0.20170207--r43h9ee0642_6"
+ - "0.1.0.20170207--r44h9ee0642_7"
 description: "shpc-registry automated BioContainers addition for r-soap-nmr"
-config: {"url": "https://biocontainers.pro/tools/r-soap-nmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-soap-nmr", "latest": {"0.1.0.20170207--r43h9ee0642_6": "sha256:58f713d1be9c18e32145ad1d41bdc0ed7f364029941f7d63ec351641cfa9379d"}, "tags": {"0.1.0.20170207--r41h9ee0642_4": "sha256:0e164ad2d89248f0a58ca02d0a8af14747632a257907f67bccbf50f0b0328ef2", "0.1.0.20170207--r42h9ee0642_5": "sha256:b49664587cb2dd6633baa50a54ffff232fe2b59a4cbebf17a8c16057752fa986", "0.1.0.20170207--r43h9ee0642_6": "sha256:58f713d1be9c18e32145ad1d41bdc0ed7f364029941f7d63ec351641cfa9379d"}, "docker": "quay.io/biocontainers/r-soap-nmr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-soap-nmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-soap-nmr", "latest": {"0.1.0.20170207--r44h9ee0642_7": "sha256:a5147e714dce7f4e1879549dd15d937c14e9f8d4d27ab253e7cbe2d457c6f284"}, "tags": {"0.1.0.20170207--r41h9ee0642_4": "sha256:0e164ad2d89248f0a58ca02d0a8af14747632a257907f67bccbf50f0b0328ef2", "0.1.0.20170207--r42h9ee0642_5": "sha256:b49664587cb2dd6633baa50a54ffff232fe2b59a4cbebf17a8c16057752fa986", "0.1.0.20170207--r43h9ee0642_6": "sha256:58f713d1be9c18e32145ad1d41bdc0ed7f364029941f7d63ec351641cfa9379d", "0.1.0.20170207--r44h9ee0642_7": "sha256:a5147e714dce7f4e1879549dd15d937c14e9f8d4d27ab253e7cbe2d457c6f284"}, "docker": "quay.io/biocontainers/r-soap-nmr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-soap-nmr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-soap-nmr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-soap-nmr:0.1.0.20170207--r43h9ee0642_6
+$ shpc install quay.io/biocontainers/r-soap-nmr:0.1.0.20170207--r44h9ee0642_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-soap-nmr/0.1.0.20170207--r43h9ee0642_6
-$ module help quay.io/biocontainers/r-soap-nmr/0.1.0.20170207--r43h9ee0642_6
+$ module load quay.io/biocontainers/r-soap-nmr/0.1.0.20170207--r44h9ee0642_7
+$ module help quay.io/biocontainers/r-soap-nmr/0.1.0.20170207--r44h9ee0642_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

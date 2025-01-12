@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/geco2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geco2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geco2/container.yaml"
-updated_at: "2025-01-11 03:24:52.544099"
-latest: "1.1--h031d066_4"
+updated_at: "2025-01-12 03:33:53.008666"
+latest: "1.1--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/geco2"
 aliases:
  - "GeCo2"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.1--hec16e2b_2"
  - "1.1--h031d066_4"
+ - "1.1--h7b50bb2_5"
 description: "shpc-registry automated BioContainers addition for geco2"
-config: {"url": "https://biocontainers.pro/tools/geco2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geco2", "latest": {"1.1--h031d066_4": "sha256:e24af23e3dc0e029ed9a3b51fb3e40aea2599cf2fbdb988dad4342b69dfbce4f"}, "tags": {"1.1--hec16e2b_2": "sha256:07cb2d25452da4e75b8d7a91367497a010598d04cffb7e36d0d31606d93bf0a3", "1.1--h031d066_4": "sha256:e24af23e3dc0e029ed9a3b51fb3e40aea2599cf2fbdb988dad4342b69dfbce4f"}, "docker": "quay.io/biocontainers/geco2", "aliases": {"GeCo2": "/usr/local/bin/GeCo2", "GeDe2": "/usr/local/bin/GeDe2"}}
+config: {"url": "https://biocontainers.pro/tools/geco2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geco2", "latest": {"1.1--h7b50bb2_5": "sha256:68ea549a8be0b9c24c9dded89d73b41047e1a5bc5a85666284b3afc2008a4097"}, "tags": {"1.1--hec16e2b_2": "sha256:07cb2d25452da4e75b8d7a91367497a010598d04cffb7e36d0d31606d93bf0a3", "1.1--h031d066_4": "sha256:e24af23e3dc0e029ed9a3b51fb3e40aea2599cf2fbdb988dad4342b69dfbce4f", "1.1--h7b50bb2_5": "sha256:68ea549a8be0b9c24c9dded89d73b41047e1a5bc5a85666284b3afc2008a4097"}, "docker": "quay.io/biocontainers/geco2", "aliases": {"GeCo2": "/usr/local/bin/GeCo2", "GeDe2": "/usr/local/bin/GeDe2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geco2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/geco2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geco2:1.1--h031d066_4
+$ shpc install quay.io/biocontainers/geco2:1.1--h7b50bb2_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geco2/1.1--h031d066_4
-$ module help quay.io/biocontainers/geco2/1.1--h031d066_4
+$ module load quay.io/biocontainers/geco2/1.1--h7b50bb2_5
+$ module help quay.io/biocontainers/geco2/1.1--h7b50bb2_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

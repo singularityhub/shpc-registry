@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dist_est"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dist_est/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dist_est/container.yaml"
-updated_at: "2025-01-11 03:06:42.349081"
-latest: "1.1--hdbdd923_2"
+updated_at: "2025-01-12 03:15:01.774438"
+latest: "1.1--h503566f_3"
 container_url: "https://biocontainers.pro/tools/dist_est"
 aliases:
  - "dist_est"
 versions:
  - "1.1--h87f3376_0"
  - "1.1--hdbdd923_2"
+ - "1.1--h503566f_3"
 description: "singularity registry hpc automated addition for dist_est"
-config: {"url": "https://biocontainers.pro/tools/dist_est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dist_est", "latest": {"1.1--hdbdd923_2": "sha256:97d8af66966553592b0c5053c19953f45055b152c3f743597766993ed1916511"}, "tags": {"1.1--h87f3376_0": "sha256:86d5415907e2ba76c890f72efcaef9b555158c3b2ca2e4e029dfaf5231209bcc", "1.1--hdbdd923_2": "sha256:97d8af66966553592b0c5053c19953f45055b152c3f743597766993ed1916511"}, "docker": "quay.io/biocontainers/dist_est", "aliases": {"dist_est": "/usr/local/bin/dist_est"}}
+config: {"url": "https://biocontainers.pro/tools/dist_est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dist_est", "latest": {"1.1--h503566f_3": "sha256:b482ec262dac006f7284a55b7b9421bab34c8a67e4ac40769df0da6e366a2f0f"}, "tags": {"1.1--h87f3376_0": "sha256:86d5415907e2ba76c890f72efcaef9b555158c3b2ca2e4e029dfaf5231209bcc", "1.1--hdbdd923_2": "sha256:97d8af66966553592b0c5053c19953f45055b152c3f743597766993ed1916511", "1.1--h503566f_3": "sha256:b482ec262dac006f7284a55b7b9421bab34c8a67e4ac40769df0da6e366a2f0f"}, "docker": "quay.io/biocontainers/dist_est", "aliases": {"dist_est": "/usr/local/bin/dist_est"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dist_est.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dist_est
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dist_est:1.1--hdbdd923_2
+$ shpc install quay.io/biocontainers/dist_est:1.1--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dist_est/1.1--hdbdd923_2
-$ module help quay.io/biocontainers/dist_est/1.1--hdbdd923_2
+$ module load quay.io/biocontainers/dist_est/1.1--h503566f_3
+$ module help quay.io/biocontainers/dist_est/1.1--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

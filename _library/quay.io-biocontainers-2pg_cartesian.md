@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/2pg_cartesian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
-updated_at: "2025-01-11 02:59:37.307234"
+updated_at: "2025-01-12 03:07:34.724594"
 latest: "1.0.1--h503566f_8"
 container_url: "https://biocontainers.pro/tools/2pg_cartesian"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/netcdf-metadata-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netcdf-metadata-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netcdf-metadata-info/container.yaml"
-updated_at: "2025-01-11 03:00:12.724162"
-latest: "1.1.6--h031d066_6"
+updated_at: "2025-01-12 03:08:11.252696"
+latest: "1.1.6--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/netcdf-metadata-info"
 aliases:
  - "netcdf-metadata-info"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.1.6--hec16e2b_4"
  - "1.1.6--h031d066_6"
+ - "1.1.6--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for netcdf-metadata-info"
-config: {"url": "https://biocontainers.pro/tools/netcdf-metadata-info", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netcdf-metadata-info", "latest": {"1.1.6--h031d066_6": "sha256:e9199ab3adb99e9a29b7cc69676fee8d4a28415dab6d3031168479a784c755f1"}, "tags": {"1.1.6--hec16e2b_4": "sha256:1a9c60d505c7aa39284ceca51f70f9f87f486742870e93b0eca531e6aa7d5c98", "1.1.6--h031d066_6": "sha256:e9199ab3adb99e9a29b7cc69676fee8d4a28415dab6d3031168479a784c755f1"}, "docker": "quay.io/biocontainers/netcdf-metadata-info", "aliases": {"netcdf-metadata-info": "/usr/local/bin/netcdf-metadata-info", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/netcdf-metadata-info", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netcdf-metadata-info", "latest": {"1.1.6--h7b50bb2_7": "sha256:4be31ae2984113abd0d8db50b62b2541c037607f8e556d82c617acf94ca8d6c9"}, "tags": {"1.1.6--hec16e2b_4": "sha256:1a9c60d505c7aa39284ceca51f70f9f87f486742870e93b0eca531e6aa7d5c98", "1.1.6--h031d066_6": "sha256:e9199ab3adb99e9a29b7cc69676fee8d4a28415dab6d3031168479a784c755f1", "1.1.6--h7b50bb2_7": "sha256:4be31ae2984113abd0d8db50b62b2541c037607f8e556d82c617acf94ca8d6c9"}, "docker": "quay.io/biocontainers/netcdf-metadata-info", "aliases": {"netcdf-metadata-info": "/usr/local/bin/netcdf-metadata-info", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/netcdf-metadata-info.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/netcdf-metadata-info
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/netcdf-metadata-info:1.1.6--h031d066_6
+$ shpc install quay.io/biocontainers/netcdf-metadata-info:1.1.6--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/netcdf-metadata-info/1.1.6--h031d066_6
-$ module help quay.io/biocontainers/netcdf-metadata-info/1.1.6--h031d066_6
+$ module load quay.io/biocontainers/netcdf-metadata-info/1.1.6--h7b50bb2_7
+$ module help quay.io/biocontainers/netcdf-metadata-info/1.1.6--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
