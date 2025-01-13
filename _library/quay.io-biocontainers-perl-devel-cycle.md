@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-cycle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-cycle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-cycle/container.yaml"
-updated_at: "2025-01-12 03:06:10.695348"
+updated_at: "2025-01-13 03:04:38.235882"
 latest: "1.12--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-devel-cycle"
 aliases:

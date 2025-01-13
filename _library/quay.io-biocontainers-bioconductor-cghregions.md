@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cghregions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
-updated_at: "2025-01-12 03:42:12.549567"
-latest: "1.60.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:40:03.490563"
+latest: "1.64.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cghregions"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.56.0--r42hdfd78af_0"
  - "1.58.0--r43hdfd78af_0"
  - "1.60.0--r43hdfd78af_0"
+ - "1.64.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cghregions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cghregions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghregions", "latest": {"1.60.0--r43hdfd78af_0": "sha256:fa9221b9c95a0f7c8187da20a40518821d0fab62e6870e2652c9d15ed228eb9e"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443", "1.56.0--r42hdfd78af_0": "sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f", "1.58.0--r43hdfd78af_0": "sha256:7df4f801d9a8c8556de5cfa4f4cd000544c95c1271ff71903ac08dfb8e210383", "1.60.0--r43hdfd78af_0": "sha256:fa9221b9c95a0f7c8187da20a40518821d0fab62e6870e2652c9d15ed228eb9e"}, "docker": "quay.io/biocontainers/bioconductor-cghregions"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cghregions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghregions", "latest": {"1.64.0--r44hdfd78af_0": "sha256:51b7c10294bcbcf52b364f9525d32b1ae8eb60555fdf3a18afaa2dd3f4056f08"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443", "1.56.0--r42hdfd78af_0": "sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f", "1.58.0--r43hdfd78af_0": "sha256:7df4f801d9a8c8556de5cfa4f4cd000544c95c1271ff71903ac08dfb8e210383", "1.60.0--r43hdfd78af_0": "sha256:fa9221b9c95a0f7c8187da20a40518821d0fab62e6870e2652c9d15ed228eb9e", "1.64.0--r44hdfd78af_0": "sha256:51b7c10294bcbcf52b364f9525d32b1ae8eb60555fdf3a18afaa2dd3f4056f08"}, "docker": "quay.io/biocontainers/bioconductor-cghregions"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cghregions.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cghregions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cghregions:1.60.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cghregions:1.64.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cghregions/1.60.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cghregions/1.60.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cghregions/1.64.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cghregions/1.64.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

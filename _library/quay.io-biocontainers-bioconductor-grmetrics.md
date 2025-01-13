@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-grmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grmetrics/container.yaml"
-updated_at: "2025-01-12 03:03:22.851678"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:01:41.205837"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grmetrics"
 aliases:
  - "idn2"
@@ -21,8 +21,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-grmetrics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grmetrics", "latest": {"1.28.0--r43hdfd78af_0": "sha256:e2dc0b17e54b40b31011fbaf4687ceb21973bf9fbf9ece8a9cb87f9cd3d05a4c"}, "tags": {"1.8.1--r351_0": "sha256:4f030502a32fd33fceed01a968efb6672904a3527064bb89afdb5ec53463dde4", "1.24.0--r42hdfd78af_0": "sha256:025a479d92f071072bfdc820b6d441c44e6df8cd5641e1be83acdba91e5cbe1a", "1.20.0--r41hdfd78af_0": "sha256:6956732564daeb695474e57f56fac549f426be26b04806e56815b139742ea0e7", "1.18.0--r41hdfd78af_0": "sha256:c3e944db3850810df1c0ccb07c9c5cc0a2744f9c5f035990a4fad70ed5a7c85e", "1.16.0--r40hdfd78af_1": "sha256:22c26f286a334c0f4228677b4f00d870c034e470462c6d94e3613062c34cd0a2", "1.14.0--r40_0": "sha256:efa1ea4ce169912d054b021e05a4af4a8d88e03728ddcb538ccc5c9e88d20dc9", "1.26.0--r43hdfd78af_0": "sha256:257480d4e1a68ca9a73b36b00909638d5649e48826fe6d2e3720a6013ba70265", "1.28.0--r43hdfd78af_0": "sha256:e2dc0b17e54b40b31011fbaf4687ceb21973bf9fbf9ece8a9cb87f9cd3d05a4c"}, "docker": "quay.io/biocontainers/bioconductor-grmetrics", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grmetrics", "latest": {"1.32.0--r44hdfd78af_0": "sha256:d9b1b840f90cb4392ba54f43d03972e714a867e7ef1580cea6d9beb5b87337c7"}, "tags": {"1.8.1--r351_0": "sha256:4f030502a32fd33fceed01a968efb6672904a3527064bb89afdb5ec53463dde4", "1.24.0--r42hdfd78af_0": "sha256:025a479d92f071072bfdc820b6d441c44e6df8cd5641e1be83acdba91e5cbe1a", "1.20.0--r41hdfd78af_0": "sha256:6956732564daeb695474e57f56fac549f426be26b04806e56815b139742ea0e7", "1.18.0--r41hdfd78af_0": "sha256:c3e944db3850810df1c0ccb07c9c5cc0a2744f9c5f035990a4fad70ed5a7c85e", "1.16.0--r40hdfd78af_1": "sha256:22c26f286a334c0f4228677b4f00d870c034e470462c6d94e3613062c34cd0a2", "1.14.0--r40_0": "sha256:efa1ea4ce169912d054b021e05a4af4a8d88e03728ddcb538ccc5c9e88d20dc9", "1.26.0--r43hdfd78af_0": "sha256:257480d4e1a68ca9a73b36b00909638d5649e48826fe6d2e3720a6013ba70265", "1.28.0--r43hdfd78af_0": "sha256:e2dc0b17e54b40b31011fbaf4687ceb21973bf9fbf9ece8a9cb87f9cd3d05a4c", "1.32.0--r44hdfd78af_0": "sha256:d9b1b840f90cb4392ba54f43d03972e714a867e7ef1580cea6d9beb5b87337c7"}, "docker": "quay.io/biocontainers/bioconductor-grmetrics", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grmetrics.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-grmetrics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-grmetrics:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-grmetrics:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-grmetrics/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-grmetrics/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-grmetrics/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-grmetrics/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

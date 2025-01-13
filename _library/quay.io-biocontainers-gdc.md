@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gdc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc/container.yaml"
-updated_at: "2025-01-12 03:30:41.702755"
-latest: "2.0--hdcf5f25_5"
+updated_at: "2025-01-13 03:29:21.081510"
+latest: "2.0--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/gdc"
 
 versions:
  - "2.0--hd03093a_3"
  - "2.0--hdcf5f25_5"
+ - "2.0--h077b44d_6"
 description: "shpc-registry automated BioContainers addition for gdc"
-config: {"url": "https://biocontainers.pro/tools/gdc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc", "latest": {"2.0--hdcf5f25_5": "sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49"}, "tags": {"2.0--hd03093a_3": "sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148", "2.0--hdcf5f25_5": "sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49"}, "docker": "quay.io/biocontainers/gdc"}
+config: {"url": "https://biocontainers.pro/tools/gdc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc", "latest": {"2.0--h077b44d_6": "sha256:a6011fa67f99138497c12a88ee00a3508ee6599665d6fa52582b1edddafda051"}, "tags": {"2.0--hd03093a_3": "sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148", "2.0--hdcf5f25_5": "sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49", "2.0--h077b44d_6": "sha256:a6011fa67f99138497c12a88ee00a3508ee6599665d6fa52582b1edddafda051"}, "docker": "quay.io/biocontainers/gdc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gdc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gdc:2.0--hdcf5f25_5
+$ shpc install quay.io/biocontainers/gdc:2.0--h077b44d_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gdc/2.0--hdcf5f25_5
-$ module help quay.io/biocontainers/gdc/2.0--hdcf5f25_5
+$ module load quay.io/biocontainers/gdc/2.0--h077b44d_6
+$ module help quay.io/biocontainers/gdc/2.0--h077b44d_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

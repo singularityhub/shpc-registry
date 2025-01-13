@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/soapdenovo2-errorcorrection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-errorcorrection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-errorcorrection/container.yaml"
-updated_at: "2025-01-12 02:59:12.583585"
-latest: "2.0--hdcf5f25_8"
+updated_at: "2025-01-13 02:57:16.409591"
+latest: "2.0--h077b44d_9"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-errorcorrection"
 aliases:
  - "ErrorCorrection"
@@ -13,8 +13,9 @@ versions:
  - "2.0--h7ff8a90_5"
  - "2.0--h21ec9f0_7"
  - "2.0--hdcf5f25_8"
+ - "2.0--h077b44d_9"
 description: "shpc-registry automated BioContainers addition for soapdenovo2-errorcorrection"
-config: {"url": "https://biocontainers.pro/tools/soapdenovo2-errorcorrection", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-errorcorrection", "latest": {"2.0--hdcf5f25_8": "sha256:e6798ac2583fd5a55c46a79c4e9c0cdbec2b31c7f3a9da03e33b46afe77cf795"}, "tags": {"2.0--h7ff8a90_5": "sha256:3f43af7f78c29789ad244fd4ff84a8e283f6533dbc4207b5fe78b8b3f37442af", "2.0--h21ec9f0_7": "sha256:d1d06373ce6d654c5ea28c5fccf84f9d34d5bf99057f50ad4fd44bfdc8fe92ab", "2.0--hdcf5f25_8": "sha256:e6798ac2583fd5a55c46a79c4e9c0cdbec2b31c7f3a9da03e33b46afe77cf795"}, "docker": "quay.io/biocontainers/soapdenovo2-errorcorrection", "aliases": {"ErrorCorrection": "/usr/local/bin/ErrorCorrection"}}
+config: {"url": "https://biocontainers.pro/tools/soapdenovo2-errorcorrection", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-errorcorrection", "latest": {"2.0--h077b44d_9": "sha256:00599168ffa9df9749b3d3a52a65c55cabe30cde1111d9694b3306b83cf5b521"}, "tags": {"2.0--h7ff8a90_5": "sha256:3f43af7f78c29789ad244fd4ff84a8e283f6533dbc4207b5fe78b8b3f37442af", "2.0--h21ec9f0_7": "sha256:d1d06373ce6d654c5ea28c5fccf84f9d34d5bf99057f50ad4fd44bfdc8fe92ab", "2.0--hdcf5f25_8": "sha256:e6798ac2583fd5a55c46a79c4e9c0cdbec2b31c7f3a9da03e33b46afe77cf795", "2.0--h077b44d_9": "sha256:00599168ffa9df9749b3d3a52a65c55cabe30cde1111d9694b3306b83cf5b521"}, "docker": "quay.io/biocontainers/soapdenovo2-errorcorrection", "aliases": {"ErrorCorrection": "/usr/local/bin/ErrorCorrection"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapdenovo2-errorcorrection.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/soapdenovo2-errorcorrection
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soapdenovo2-errorcorrection:2.0--hdcf5f25_8
+$ shpc install quay.io/biocontainers/soapdenovo2-errorcorrection:2.0--h077b44d_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soapdenovo2-errorcorrection/2.0--hdcf5f25_8
-$ module help quay.io/biocontainers/soapdenovo2-errorcorrection/2.0--hdcf5f25_8
+$ module load quay.io/biocontainers/soapdenovo2-errorcorrection/2.0--h077b44d_9
+$ module help quay.io/biocontainers/soapdenovo2-errorcorrection/2.0--h077b44d_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

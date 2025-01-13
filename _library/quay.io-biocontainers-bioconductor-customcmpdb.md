@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-customcmpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
-updated_at: "2025-01-12 03:16:06.217987"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:14:49.870963"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-customcmpdb"
 aliases:
  - "rsvg-convert"
@@ -18,8 +18,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-customcmpdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-customcmpdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-customcmpdb", "latest": {"1.12.0--r43hdfd78af_0": "sha256:1779196bd560e1714ab59b956e390e86f99ff65c9208f46ab9a69b723eb4b520"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea", "1.8.0--r42hdfd78af_0": "sha256:909d50ba135892ebf6be1aa67cd9bc3b4da4a6c314a5845ae10ec0c74fba2bef", "1.10.0--r43hdfd78af_0": "sha256:77374b34f19c238e51ffaaed56b6029a87bf4ddd77fdc109ef7d5ffba36ead6b", "1.12.0--r43hdfd78af_0": "sha256:1779196bd560e1714ab59b956e390e86f99ff65c9208f46ab9a69b723eb4b520"}, "docker": "quay.io/biocontainers/bioconductor-customcmpdb", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-customcmpdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-customcmpdb", "latest": {"1.16.0--r44hdfd78af_0": "sha256:0be3022facb2c348d8705564812f5b5bf1cfab21776a93a9d04c2480e2b404d4"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea", "1.8.0--r42hdfd78af_0": "sha256:909d50ba135892ebf6be1aa67cd9bc3b4da4a6c314a5845ae10ec0c74fba2bef", "1.10.0--r43hdfd78af_0": "sha256:77374b34f19c238e51ffaaed56b6029a87bf4ddd77fdc109ef7d5ffba36ead6b", "1.12.0--r43hdfd78af_0": "sha256:1779196bd560e1714ab59b956e390e86f99ff65c9208f46ab9a69b723eb4b520", "1.16.0--r44hdfd78af_0": "sha256:0be3022facb2c348d8705564812f5b5bf1cfab21776a93a9d04c2480e2b404d4"}, "docker": "quay.io/biocontainers/bioconductor-customcmpdb", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-customcmpdb.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-customcmpdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-customcmpdb:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-customcmpdb:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-customcmpdb/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-customcmpdb/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-customcmpdb/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-customcmpdb/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

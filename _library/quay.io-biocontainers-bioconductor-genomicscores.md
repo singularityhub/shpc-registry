@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicscores"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicscores/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicscores/container.yaml"
-updated_at: "2025-01-12 03:03:57.688555"
-latest: "2.14.1--r43hdfd78af_0"
+updated_at: "2025-01-13 03:02:18.666976"
+latest: "2.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicscores"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.10.0--r42hdfd78af_0"
  - "2.12.0--r43hdfd78af_0"
  - "2.14.1--r43hdfd78af_0"
+ - "2.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicscores"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicscores", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicscores", "latest": {"2.14.1--r43hdfd78af_0": "sha256:9052f8de1f55be392d3822200745905f18c11fa8b2665fd6dde57ab739db0caf"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:85e37c88267e15433747d682dd3bf636e7c6ecdc6399c88d1b3f3e06d01c2def", "2.10.0--r42hdfd78af_0": "sha256:a51847a99cfd5f616c478c72095695f6e00f066cba9bc4bb323b58d44e4ecf6a", "2.12.0--r43hdfd78af_0": "sha256:25bafdc8745459e94dda06ac7725f5689dcd2713e0dd54625245fd63f249533f", "2.14.1--r43hdfd78af_0": "sha256:9052f8de1f55be392d3822200745905f18c11fa8b2665fd6dde57ab739db0caf"}, "docker": "quay.io/biocontainers/bioconductor-genomicscores"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicscores", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicscores", "latest": {"2.18.0--r44hdfd78af_0": "sha256:c70dcc1718a12fc4f28c19d3cd69f837c78ff36753ec9210eabed521fe632649"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:85e37c88267e15433747d682dd3bf636e7c6ecdc6399c88d1b3f3e06d01c2def", "2.10.0--r42hdfd78af_0": "sha256:a51847a99cfd5f616c478c72095695f6e00f066cba9bc4bb323b58d44e4ecf6a", "2.12.0--r43hdfd78af_0": "sha256:25bafdc8745459e94dda06ac7725f5689dcd2713e0dd54625245fd63f249533f", "2.14.1--r43hdfd78af_0": "sha256:9052f8de1f55be392d3822200745905f18c11fa8b2665fd6dde57ab739db0caf", "2.18.0--r44hdfd78af_0": "sha256:c70dcc1718a12fc4f28c19d3cd69f837c78ff36753ec9210eabed521fe632649"}, "docker": "quay.io/biocontainers/bioconductor-genomicscores"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicscores.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicscores
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicscores:2.14.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicscores:2.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicscores/2.14.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicscores/2.14.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicscores/2.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicscores/2.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fqtrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqtrim/container.yaml"
-updated_at: "2025-01-12 03:29:30.212962"
-latest: "0.9.7--hdcf5f25_6"
+updated_at: "2025-01-13 03:28:09.314547"
+latest: "0.9.7--h077b44d_7"
 container_url: "https://biocontainers.pro/tools/fqtrim"
 aliases:
  - "fqtrim"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.9.7--hd03093a_4"
  - "0.9.7--hdcf5f25_6"
+ - "0.9.7--h077b44d_7"
 description: "shpc-registry automated BioContainers addition for fqtrim"
-config: {"url": "https://biocontainers.pro/tools/fqtrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtrim", "latest": {"0.9.7--hdcf5f25_6": "sha256:31acbb0d0e2542b2e853b480a641a31f2b4f94f66bb08b6f0149f461c205cfa6"}, "tags": {"0.9.7--hd03093a_4": "sha256:f53b6dbd2e9c794473fa891f72ca03f7d50c3f1fb5ef556bd4eda1b6c6a53fa7", "0.9.7--hdcf5f25_6": "sha256:31acbb0d0e2542b2e853b480a641a31f2b4f94f66bb08b6f0149f461c205cfa6"}, "docker": "quay.io/biocontainers/fqtrim", "aliases": {"fqtrim": "/usr/local/bin/fqtrim", "gtest": "/usr/local/bin/gtest", "threads": "/usr/local/bin/threads"}}
+config: {"url": "https://biocontainers.pro/tools/fqtrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtrim", "latest": {"0.9.7--h077b44d_7": "sha256:3fcf5034ba257b42222c6026e7823d54cda3c39038f95d8c8a1e6f02e5576bf2"}, "tags": {"0.9.7--hd03093a_4": "sha256:f53b6dbd2e9c794473fa891f72ca03f7d50c3f1fb5ef556bd4eda1b6c6a53fa7", "0.9.7--hdcf5f25_6": "sha256:31acbb0d0e2542b2e853b480a641a31f2b4f94f66bb08b6f0149f461c205cfa6", "0.9.7--h077b44d_7": "sha256:3fcf5034ba257b42222c6026e7823d54cda3c39038f95d8c8a1e6f02e5576bf2"}, "docker": "quay.io/biocontainers/fqtrim", "aliases": {"fqtrim": "/usr/local/bin/fqtrim", "gtest": "/usr/local/bin/gtest", "threads": "/usr/local/bin/threads"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqtrim.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fqtrim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqtrim:0.9.7--hdcf5f25_6
+$ shpc install quay.io/biocontainers/fqtrim:0.9.7--h077b44d_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqtrim/0.9.7--hdcf5f25_6
-$ module help quay.io/biocontainers/fqtrim/0.9.7--hdcf5f25_6
+$ module load quay.io/biocontainers/fqtrim/0.9.7--h077b44d_7
+$ module help quay.io/biocontainers/fqtrim/0.9.7--h077b44d_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

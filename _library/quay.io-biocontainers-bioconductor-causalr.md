@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-causalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-causalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-causalr/container.yaml"
-updated_at: "2025-01-12 03:45:31.142635"
-latest: "1.34.0--r43hdfd78af_1"
+updated_at: "2025-01-13 03:43:12.371151"
+latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-causalr"
 aliases:
  - "bmp2tiff"
@@ -26,8 +26,9 @@ versions:
  - "1.20.0--r40_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.34.0--r43hdfd78af_1"
+ - "1.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-causalr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-causalr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-causalr", "latest": {"1.34.0--r43hdfd78af_1": "sha256:22696ea58dd720173d14c1465d5e7ac3740fc5b1c2b89cc73b69b6a97b39148f"}, "tags": {"1.8.0--r3.3.2_0": "sha256:bf0860d48aaadc782374aac2707d716dfe8e10d0986a3aee130df28927626eac", "1.30.0--r42hdfd78af_0": "sha256:d341bb53862460b86500187a9879c1f87d1a9b8b8a38af6e2c52dd974051a79e", "1.26.0--r41hdfd78af_0": "sha256:f2c283a4f739132e1310be2fb0bbc13b24e8632c04a7fdbecbcf23d99ebd3a4f", "1.24.0--r41hdfd78af_0": "sha256:af6bc61378b21563bad42bf08845ffabdb0c7dd28e2dfd4bb8292f23915eff89", "1.22.0--r40hdfd78af_1": "sha256:a6cacc1f36ac7070a9b3a57b75dc4b3210077deadf6170230e7bd8805b798d3f", "1.20.0--r40_0": "sha256:bac4e7a031f4cf99e43dc02ddb5aad1a3fa79ea9eda7c52dc45d63ee04b7e959", "1.32.0--r43hdfd78af_0": "sha256:754ce4f8437b89039c33b6015b1162ede958918b744bfa4a261d8a5def664eb8", "1.34.0--r43hdfd78af_1": "sha256:22696ea58dd720173d14c1465d5e7ac3740fc5b1c2b89cc73b69b6a97b39148f"}, "docker": "quay.io/biocontainers/bioconductor-causalr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-causalr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-causalr", "latest": {"1.38.0--r44hdfd78af_0": "sha256:b1fb67908be7e5381db8b88654d40cf34f939f60d907d893d070e4261eadb9f8"}, "tags": {"1.8.0--r3.3.2_0": "sha256:bf0860d48aaadc782374aac2707d716dfe8e10d0986a3aee130df28927626eac", "1.30.0--r42hdfd78af_0": "sha256:d341bb53862460b86500187a9879c1f87d1a9b8b8a38af6e2c52dd974051a79e", "1.26.0--r41hdfd78af_0": "sha256:f2c283a4f739132e1310be2fb0bbc13b24e8632c04a7fdbecbcf23d99ebd3a4f", "1.24.0--r41hdfd78af_0": "sha256:af6bc61378b21563bad42bf08845ffabdb0c7dd28e2dfd4bb8292f23915eff89", "1.22.0--r40hdfd78af_1": "sha256:a6cacc1f36ac7070a9b3a57b75dc4b3210077deadf6170230e7bd8805b798d3f", "1.20.0--r40_0": "sha256:bac4e7a031f4cf99e43dc02ddb5aad1a3fa79ea9eda7c52dc45d63ee04b7e959", "1.32.0--r43hdfd78af_0": "sha256:754ce4f8437b89039c33b6015b1162ede958918b744bfa4a261d8a5def664eb8", "1.34.0--r43hdfd78af_1": "sha256:22696ea58dd720173d14c1465d5e7ac3740fc5b1c2b89cc73b69b6a97b39148f", "1.38.0--r44hdfd78af_0": "sha256:b1fb67908be7e5381db8b88654d40cf34f939f60d907d893d070e4261eadb9f8"}, "docker": "quay.io/biocontainers/bioconductor-causalr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-causalr.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-causalr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-causalr:1.34.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-causalr:1.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-causalr/1.34.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-causalr/1.34.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-causalr/1.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-causalr/1.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

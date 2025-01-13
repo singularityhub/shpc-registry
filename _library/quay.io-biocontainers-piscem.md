@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piscem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piscem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piscem/container.yaml"
-updated_at: "2025-01-12 03:09:41.883175"
-latest: "0.11.0--h7c313c4_0"
+updated_at: "2025-01-13 03:08:15.557860"
+latest: "0.11.0--h2c3e6c1_1"
 container_url: "https://biocontainers.pro/tools/piscem"
 aliases:
  - "piscem"
@@ -25,8 +25,9 @@ versions:
  - "0.10.3--h7c313c4_0"
  - "0.10.4--h7c313c4_0"
  - "0.11.0--h7c313c4_0"
+ - "0.11.0--h2c3e6c1_1"
 description: "singularity registry hpc automated addition for piscem"
-config: {"url": "https://biocontainers.pro/tools/piscem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piscem", "latest": {"0.11.0--h7c313c4_0": "sha256:7e5125b5736bfbf0c28f77c43b90502d97cf32cfa364643bc3b085a697064a59"}, "tags": {"0.4.3--h52b76fa_0": "sha256:e69951f3697fc1c9b7b4ba5fa3b31c01db5a2e8d60f684d84587bb55339ce716", "0.6.0--h52b76fa_0": "sha256:f68a973ae119249ef22b36583b9a530280e54e5b242a8f3aec1ae890bb00cf6d", "0.5.1--h52b76fa_0": "sha256:d3f0daed723ae8abee2013f21b2c26073b1753dd0626cb0d355e49c19577d782", "0.6.0--h52b76fa_1": "sha256:8e9623dd2007ea746aadd283627680064ac1f3e244d35a47bab70374ac3dc216", "0.6.0--h09b9a2f_2": "sha256:a3476b421adc7f646228d4549f98382aec8a9326f038958705e0b2bb63d27c53", "0.6.1--h09b9a2f_0": "sha256:638f76b0cc75a00735b8caee440de327fa7a5ab8c31cb598da9d3dddb7977871", "0.6.3--h09b9a2f_0": "sha256:fc38783ef8d1ca9d77f833c6b4d9d35fe03adcf5f5ec6f9e89291b6f168cf1a7", "0.7.0--h7c313c4_0": "sha256:123c699b0af36e8211c0c9bf9afd745a0164a3b0965b343a9de74522a856a6c6", "0.7.1--h7c313c4_0": "sha256:19d0dca3936d797e0bae3e2826af3ffde8271861afc7b42e0f5b232d9fcf9565", "0.8.0--h7c313c4_0": "sha256:75dae6599cfe7397e4804bb9e4f48f8966dc3e1cd0c15225cbbeb32c369e4c48", "0.10.2--h7c313c4_1": "sha256:459fb3daece699f9a4b26287a588b4116fd8465b3f95042ae26b5f66bba07659", "0.9.0--h7c313c4_1": "sha256:b9f86483903adc30775b58b0a2bba65c1cbc3a404b11495841b302abc0e73e45", "0.10.3--h7c313c4_0": "sha256:34e98bda8275a02cfe2bc53b6f725d4d5c4fae9c8aea802feab22cf089ee3a9c", "0.10.4--h7c313c4_0": "sha256:ae5c9ec0758d8a5101b262f1f75186fe1fbcc49fa61741c72f540cd7e86619df", "0.11.0--h7c313c4_0": "sha256:7e5125b5736bfbf0c28f77c43b90502d97cf32cfa364643bc3b085a697064a59"}, "docker": "quay.io/biocontainers/piscem", "aliases": {"piscem": "/usr/local/bin/piscem"}}
+config: {"url": "https://biocontainers.pro/tools/piscem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piscem", "latest": {"0.11.0--h2c3e6c1_1": "sha256:13d964b7c1e05c59abcdb9a726da7702f4ddfd45ed90cc7a8f0509603b5fb202"}, "tags": {"0.4.3--h52b76fa_0": "sha256:e69951f3697fc1c9b7b4ba5fa3b31c01db5a2e8d60f684d84587bb55339ce716", "0.6.0--h52b76fa_0": "sha256:f68a973ae119249ef22b36583b9a530280e54e5b242a8f3aec1ae890bb00cf6d", "0.5.1--h52b76fa_0": "sha256:d3f0daed723ae8abee2013f21b2c26073b1753dd0626cb0d355e49c19577d782", "0.6.0--h52b76fa_1": "sha256:8e9623dd2007ea746aadd283627680064ac1f3e244d35a47bab70374ac3dc216", "0.6.0--h09b9a2f_2": "sha256:a3476b421adc7f646228d4549f98382aec8a9326f038958705e0b2bb63d27c53", "0.6.1--h09b9a2f_0": "sha256:638f76b0cc75a00735b8caee440de327fa7a5ab8c31cb598da9d3dddb7977871", "0.6.3--h09b9a2f_0": "sha256:fc38783ef8d1ca9d77f833c6b4d9d35fe03adcf5f5ec6f9e89291b6f168cf1a7", "0.7.0--h7c313c4_0": "sha256:123c699b0af36e8211c0c9bf9afd745a0164a3b0965b343a9de74522a856a6c6", "0.7.1--h7c313c4_0": "sha256:19d0dca3936d797e0bae3e2826af3ffde8271861afc7b42e0f5b232d9fcf9565", "0.8.0--h7c313c4_0": "sha256:75dae6599cfe7397e4804bb9e4f48f8966dc3e1cd0c15225cbbeb32c369e4c48", "0.10.2--h7c313c4_1": "sha256:459fb3daece699f9a4b26287a588b4116fd8465b3f95042ae26b5f66bba07659", "0.9.0--h7c313c4_1": "sha256:b9f86483903adc30775b58b0a2bba65c1cbc3a404b11495841b302abc0e73e45", "0.10.3--h7c313c4_0": "sha256:34e98bda8275a02cfe2bc53b6f725d4d5c4fae9c8aea802feab22cf089ee3a9c", "0.10.4--h7c313c4_0": "sha256:ae5c9ec0758d8a5101b262f1f75186fe1fbcc49fa61741c72f540cd7e86619df", "0.11.0--h7c313c4_0": "sha256:7e5125b5736bfbf0c28f77c43b90502d97cf32cfa364643bc3b085a697064a59", "0.11.0--h2c3e6c1_1": "sha256:13d964b7c1e05c59abcdb9a726da7702f4ddfd45ed90cc7a8f0509603b5fb202"}, "docker": "quay.io/biocontainers/piscem", "aliases": {"piscem": "/usr/local/bin/piscem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piscem.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/piscem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piscem:0.11.0--h7c313c4_0
+$ shpc install quay.io/biocontainers/piscem:0.11.0--h2c3e6c1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piscem/0.11.0--h7c313c4_0
-$ module help quay.io/biocontainers/piscem/0.11.0--h7c313c4_0
+$ module load quay.io/biocontainers/piscem/0.11.0--h2c3e6c1_1
+$ module help quay.io/biocontainers/piscem/0.11.0--h2c3e6c1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

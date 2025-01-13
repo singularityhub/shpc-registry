@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbmm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbmm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbmm2/container.yaml"
-updated_at: "2025-01-12 03:44:27.539515"
-latest: "1.16.0--h9ee0642_0"
+updated_at: "2025-01-13 03:42:11.508194"
+latest: "1.16.99--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbmm2"
 aliases:
  - "pbmm2"
@@ -17,8 +17,9 @@ versions:
  - "1.13.1--h9ee0642_0"
  - "1.14.99--h9ee0642_0"
  - "1.16.0--h9ee0642_0"
+ - "1.16.99--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for pbmm2"
-config: {"url": "https://biocontainers.pro/tools/pbmm2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbmm2", "latest": {"1.16.0--h9ee0642_0": "sha256:4a01f9a3ede68cd018d8d2e79f8773f331f21b35c764ac48b8595709dbd417f7"}, "tags": {"1.9.0--h9ee0642_0": "sha256:0393f964d064053459ae410a0c8d313bbf5cd06b74906c53d13c094cb327ee79", "1.10.0--h9ee0642_0": "sha256:f00bb97c3e6fcec879acb3c5c485a154eae8a0582b84b5a43a3b2dbd168a4b38", "1.12.0--h9ee0642_0": "sha256:d16e5df5bfab75ff2defd2984ec6cb7665473e383045e2a075ea1261ae188861", "1.13.0--h9ee0642_0": "sha256:05cc02e1c9d211430f3862f305ba064af4f3b393ee3bbafd585f49adaef89fb0", "1.13.1--h9ee0642_0": "sha256:5e8ae8904d2e493bcd397293df4a59496afb6f82ee749e6d890ed4a115d080a0", "1.14.99--h9ee0642_0": "sha256:19ca8f306b0c1c61aad0bf914c2a291b9ea9b8437e28dbdb5d76f93b81a0dbdf", "1.16.0--h9ee0642_0": "sha256:4a01f9a3ede68cd018d8d2e79f8773f331f21b35c764ac48b8595709dbd417f7"}, "docker": "quay.io/biocontainers/pbmm2", "aliases": {"pbmm2": "/usr/local/bin/pbmm2"}}
+config: {"url": "https://biocontainers.pro/tools/pbmm2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbmm2", "latest": {"1.16.99--h9ee0642_0": "sha256:acce9b42ea7a60e6dc0307468b9f14443226d4e451ff2a505bb91b628325d707"}, "tags": {"1.9.0--h9ee0642_0": "sha256:0393f964d064053459ae410a0c8d313bbf5cd06b74906c53d13c094cb327ee79", "1.10.0--h9ee0642_0": "sha256:f00bb97c3e6fcec879acb3c5c485a154eae8a0582b84b5a43a3b2dbd168a4b38", "1.12.0--h9ee0642_0": "sha256:d16e5df5bfab75ff2defd2984ec6cb7665473e383045e2a075ea1261ae188861", "1.13.0--h9ee0642_0": "sha256:05cc02e1c9d211430f3862f305ba064af4f3b393ee3bbafd585f49adaef89fb0", "1.13.1--h9ee0642_0": "sha256:5e8ae8904d2e493bcd397293df4a59496afb6f82ee749e6d890ed4a115d080a0", "1.14.99--h9ee0642_0": "sha256:19ca8f306b0c1c61aad0bf914c2a291b9ea9b8437e28dbdb5d76f93b81a0dbdf", "1.16.0--h9ee0642_0": "sha256:4a01f9a3ede68cd018d8d2e79f8773f331f21b35c764ac48b8595709dbd417f7", "1.16.99--h9ee0642_0": "sha256:acce9b42ea7a60e6dc0307468b9f14443226d4e451ff2a505bb91b628325d707"}, "docker": "quay.io/biocontainers/pbmm2", "aliases": {"pbmm2": "/usr/local/bin/pbmm2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbmm2.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pbmm2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbmm2:1.16.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/pbmm2:1.16.99--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbmm2/1.16.0--h9ee0642_0
-$ module help quay.io/biocontainers/pbmm2/1.16.0--h9ee0642_0
+$ module load quay.io/biocontainers/pbmm2/1.16.99--h9ee0642_0
+$ module help quay.io/biocontainers/pbmm2/1.16.99--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/container.yaml"
-updated_at: "2025-01-12 03:07:43.115446"
-latest: "3.10.0--r43hdfd78af_9"
+updated_at: "2025-01-13 03:06:14.500929"
+latest: "3.10.0--r44hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.hs37d5"
 aliases:
  - "gio-launch-desktop"
@@ -16,8 +16,9 @@ versions:
  - "3.10.0--r42hdfd78af_7"
  - "3.10.0--r43hdfd78af_8"
  - "3.10.0--r43hdfd78af_9"
+ - "3.10.0--r44hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.hs37d5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.hs37d5", "latest": {"3.10.0--r43hdfd78af_9": "sha256:3aa9971573287827b032ed77c87ee8f5f96cdea0a075ab6ea788aaefa418c3c6"}, "tags": {"3.8.0--r36_2": "sha256:f57ab2f7a409efe243022836d84a5317ed8f49abd92704003693155c24bc8622", "3.10.0--r42hdfd78af_7": "sha256:c26e12416ea74e2daf40240166e1697a61afb6f09ac2053fc516c90a41fb2d00", "3.10.0--r43hdfd78af_8": "sha256:e96176b03c869bfcf33136bcd238bb02e32ddd126fc7bb3e971a368f0f481abe", "3.10.0--r43hdfd78af_9": "sha256:3aa9971573287827b032ed77c87ee8f5f96cdea0a075ab6ea788aaefa418c3c6"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.hs37d5", "latest": {"3.10.0--r44hdfd78af_10": "sha256:cf93ca8050ad064d85ae5cb585fa168104d559d9a8748ef02076902942e790ea"}, "tags": {"3.8.0--r36_2": "sha256:f57ab2f7a409efe243022836d84a5317ed8f49abd92704003693155c24bc8622", "3.10.0--r42hdfd78af_7": "sha256:c26e12416ea74e2daf40240166e1697a61afb6f09ac2053fc516c90a41fb2d00", "3.10.0--r43hdfd78af_8": "sha256:e96176b03c869bfcf33136bcd238bb02e32ddd126fc7bb3e971a368f0f481abe", "3.10.0--r43hdfd78af_9": "sha256:3aa9971573287827b032ed77c87ee8f5f96cdea0a075ab6ea788aaefa418c3c6", "3.10.0--r44hdfd78af_10": "sha256:cf93ca8050ad064d85ae5cb585fa168104d559d9a8748ef02076902942e790ea"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5:3.10.0--r43hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5:3.10.0--r44hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/3.10.0--r43hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/3.10.0--r43hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/3.10.0--r44hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5/3.10.0--r44hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

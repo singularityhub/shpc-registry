@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-planttfhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-planttfhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-planttfhunter/container.yaml"
-updated_at: "2025-01-12 03:23:03.013453"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:21:45.359560"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-planttfhunter"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-planttfhunter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-planttfhunter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-planttfhunter", "latest": {"1.2.0--r43hdfd78af_0": "sha256:7d20e675f59bdfaef39de81941ae95d587fc1a2e3d986b4374c06f9d4e653ffa"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:d2a1ba3b688c35f7225adf9224132ecbb058f8746bbd7c6f988c8d80b31b0104", "1.2.0--r43hdfd78af_0": "sha256:7d20e675f59bdfaef39de81941ae95d587fc1a2e3d986b4374c06f9d4e653ffa"}, "docker": "quay.io/biocontainers/bioconductor-planttfhunter", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-planttfhunter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-planttfhunter", "latest": {"1.6.0--r44hdfd78af_0": "sha256:cc922c029401b5687b839a9153995749f7f6f0cf49445830dc7468340b2fe314"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:d2a1ba3b688c35f7225adf9224132ecbb058f8746bbd7c6f988c8d80b31b0104", "1.2.0--r43hdfd78af_0": "sha256:7d20e675f59bdfaef39de81941ae95d587fc1a2e3d986b4374c06f9d4e653ffa", "1.6.0--r44hdfd78af_0": "sha256:cc922c029401b5687b839a9153995749f7f6f0cf49445830dc7468340b2fe314"}, "docker": "quay.io/biocontainers/bioconductor-planttfhunter", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-planttfhunter.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-planttfhunter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-planttfhunter:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-planttfhunter:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-planttfhunter/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-planttfhunter/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-planttfhunter/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-planttfhunter/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

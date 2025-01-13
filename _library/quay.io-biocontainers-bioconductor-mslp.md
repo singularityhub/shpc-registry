@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mslp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mslp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mslp/container.yaml"
-updated_at: "2025-01-12 03:04:52.687993"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:03:16.406575"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mslp"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mslp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mslp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mslp", "latest": {"1.4.0--r43hdfd78af_0": "sha256:41acf972f53caccb42499d45ba33469ed6093bab3001f8c3dc42a1dd2c67af6c"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b4bae384089ff6393281eefa587446b8ef5c5af9894acc5d9f542b8de830d261", "1.2.0--r43hdfd78af_0": "sha256:35d6c247fb80d09da712503b6c7e02bdf753e8f18b5f7356c08e0c3ae3ce042b", "1.4.0--r43hdfd78af_0": "sha256:41acf972f53caccb42499d45ba33469ed6093bab3001f8c3dc42a1dd2c67af6c"}, "docker": "quay.io/biocontainers/bioconductor-mslp", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mslp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mslp", "latest": {"1.8.0--r44hdfd78af_0": "sha256:f46119a452d8ff60c9c12f3f581fa7ead02282cbc3fee9907b007ab86fa9c0e5"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b4bae384089ff6393281eefa587446b8ef5c5af9894acc5d9f542b8de830d261", "1.2.0--r43hdfd78af_0": "sha256:35d6c247fb80d09da712503b6c7e02bdf753e8f18b5f7356c08e0c3ae3ce042b", "1.4.0--r43hdfd78af_0": "sha256:41acf972f53caccb42499d45ba33469ed6093bab3001f8c3dc42a1dd2c67af6c", "1.8.0--r44hdfd78af_0": "sha256:f46119a452d8ff60c9c12f3f581fa7ead02282cbc3fee9907b007ab86fa9c0e5"}, "docker": "quay.io/biocontainers/bioconductor-mslp", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mslp.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mslp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mslp:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mslp:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mslp/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mslp/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mslp/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mslp/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

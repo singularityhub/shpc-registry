@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clevrvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clevrvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clevrvis/container.yaml"
-updated_at: "2025-01-12 02:59:27.952187"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-13 02:57:32.323216"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clevrvis"
 aliases:
  - "hb-info"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-clevrvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clevrvis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-clevrvis", "latest": {"1.2.0--r43hdfd78af_0": "sha256:eef0319dac3a0cc252e3f611b3bf658ca8cbb67ba291b9c587c9eca050104c45"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:90f27ac183a7a043a17fec19318632947e32af551ee0fbe67e6b20488daaf80e", "1.2.0--r43hdfd78af_0": "sha256:eef0319dac3a0cc252e3f611b3bf658ca8cbb67ba291b9c587c9eca050104c45"}, "docker": "quay.io/biocontainers/bioconductor-clevrvis", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clevrvis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-clevrvis", "latest": {"1.6.0--r44hdfd78af_0": "sha256:0b6a43a80ef8313ce4535e6b1175b1c6b7c89a0163c0cb8025eb5f9aaf2a1027"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:90f27ac183a7a043a17fec19318632947e32af551ee0fbe67e6b20488daaf80e", "1.2.0--r43hdfd78af_0": "sha256:eef0319dac3a0cc252e3f611b3bf658ca8cbb67ba291b9c587c9eca050104c45", "1.6.0--r44hdfd78af_0": "sha256:0b6a43a80ef8313ce4535e6b1175b1c6b7c89a0163c0cb8025eb5f9aaf2a1027"}, "docker": "quay.io/biocontainers/bioconductor-clevrvis", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clevrvis.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clevrvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clevrvis:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-clevrvis:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clevrvis/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-clevrvis/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-clevrvis/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clevrvis/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

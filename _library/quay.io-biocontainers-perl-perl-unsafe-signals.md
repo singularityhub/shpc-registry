@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-perl-unsafe-signals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl-unsafe-signals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl-unsafe-signals/container.yaml"
-updated_at: "2025-01-12 03:28:58.002254"
-latest: "0.03--pl5321h4ac6f70_8"
+updated_at: "2025-01-13 03:27:37.534777"
+latest: "0.03--pl5321h9948957_9"
 container_url: "https://biocontainers.pro/tools/perl-perl-unsafe-signals"
 aliases:
  - "perl5.32.1"
@@ -15,8 +15,9 @@ versions:
  - "0.03--pl5321h9f5acd7_6"
  - "0.03--pl5321h4ac6f70_7"
  - "0.03--pl5321h4ac6f70_8"
+ - "0.03--pl5321h9948957_9"
 description: "shpc-registry automated BioContainers addition for perl-perl-unsafe-signals"
-config: {"url": "https://biocontainers.pro/tools/perl-perl-unsafe-signals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl-unsafe-signals", "latest": {"0.03--pl5321h4ac6f70_8": "sha256:d3ea15f892aec5a40e1c7e3e51dcb05a2497241c336f3a6ea1b3bbbbc2442045"}, "tags": {"0.03--pl5321h9f5acd7_5": "sha256:a226af0249430febc7f9def6c31ec331c6b5e0600b4e1fd775cc8b7d2f100596", "0.03--pl5321h9f5acd7_6": "sha256:e59a24093c098b57883c9eae43e660784768505ad0fc34813313f6785af7ed7c", "0.03--pl5321h4ac6f70_7": "sha256:5f8eececff8dcec4b015d3bdafded6e8092f0b8182c511893c4a4b25f4a1b39f", "0.03--pl5321h4ac6f70_8": "sha256:d3ea15f892aec5a40e1c7e3e51dcb05a2497241c336f3a6ea1b3bbbbc2442045"}, "docker": "quay.io/biocontainers/perl-perl-unsafe-signals", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-perl-unsafe-signals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl-unsafe-signals", "latest": {"0.03--pl5321h9948957_9": "sha256:ff2d89cb7a1bce42b3463952597826294cb3a23e429265292cd6711120e2c62c"}, "tags": {"0.03--pl5321h9f5acd7_5": "sha256:a226af0249430febc7f9def6c31ec331c6b5e0600b4e1fd775cc8b7d2f100596", "0.03--pl5321h9f5acd7_6": "sha256:e59a24093c098b57883c9eae43e660784768505ad0fc34813313f6785af7ed7c", "0.03--pl5321h4ac6f70_7": "sha256:5f8eececff8dcec4b015d3bdafded6e8092f0b8182c511893c4a4b25f4a1b39f", "0.03--pl5321h4ac6f70_8": "sha256:d3ea15f892aec5a40e1c7e3e51dcb05a2497241c336f3a6ea1b3bbbbc2442045", "0.03--pl5321h9948957_9": "sha256:ff2d89cb7a1bce42b3463952597826294cb3a23e429265292cd6711120e2c62c"}, "docker": "quay.io/biocontainers/perl-perl-unsafe-signals", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-perl-unsafe-signals.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-perl-unsafe-signals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-perl-unsafe-signals:0.03--pl5321h4ac6f70_8
+$ shpc install quay.io/biocontainers/perl-perl-unsafe-signals:0.03--pl5321h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-perl-unsafe-signals/0.03--pl5321h4ac6f70_8
-$ module help quay.io/biocontainers/perl-perl-unsafe-signals/0.03--pl5321h4ac6f70_8
+$ module load quay.io/biocontainers/perl-perl-unsafe-signals/0.03--pl5321h9948957_9
+$ module help quay.io/biocontainers/perl-perl-unsafe-signals/0.03--pl5321h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

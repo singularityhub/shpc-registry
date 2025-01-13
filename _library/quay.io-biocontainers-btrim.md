@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/btrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btrim/container.yaml"
-updated_at: "2025-01-12 03:37:33.364355"
-latest: "1.0.1--h4ac6f70_6"
+updated_at: "2025-01-13 03:35:46.920038"
+latest: "1.0.1--h9948957_7"
 container_url: "https://biocontainers.pro/tools/btrim"
 aliases:
  - "btrim"
@@ -13,8 +13,9 @@ versions:
  - "1.0.1--h9f5acd7_4"
  - "1.0.1--h9f5acd7_5"
  - "1.0.1--h4ac6f70_6"
+ - "1.0.1--h9948957_7"
 description: "shpc-registry automated BioContainers addition for btrim"
-config: {"url": "https://biocontainers.pro/tools/btrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btrim", "latest": {"1.0.1--h4ac6f70_6": "sha256:292ab0dbf1c29bca42b7773b29b74f353e47a0f93e4d25b14d628058aa5de2d8"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa", "1.0.1--h9f5acd7_5": "sha256:036b7d4d517c9beb6b2be5fc92146db14212baf420f037edac729abadd19d9d9", "1.0.1--h4ac6f70_6": "sha256:292ab0dbf1c29bca42b7773b29b74f353e47a0f93e4d25b14d628058aa5de2d8"}, "docker": "quay.io/biocontainers/btrim", "aliases": {"btrim": "/usr/local/bin/btrim"}}
+config: {"url": "https://biocontainers.pro/tools/btrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btrim", "latest": {"1.0.1--h9948957_7": "sha256:6e795ac2b87b60fff9ce75a85a609fa5119b6e59f8f9871f9067bfe440e81c22"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa", "1.0.1--h9f5acd7_5": "sha256:036b7d4d517c9beb6b2be5fc92146db14212baf420f037edac729abadd19d9d9", "1.0.1--h4ac6f70_6": "sha256:292ab0dbf1c29bca42b7773b29b74f353e47a0f93e4d25b14d628058aa5de2d8", "1.0.1--h9948957_7": "sha256:6e795ac2b87b60fff9ce75a85a609fa5119b6e59f8f9871f9067bfe440e81c22"}, "docker": "quay.io/biocontainers/btrim", "aliases": {"btrim": "/usr/local/bin/btrim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/btrim.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/btrim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/btrim:1.0.1--h4ac6f70_6
+$ shpc install quay.io/biocontainers/btrim:1.0.1--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/btrim/1.0.1--h4ac6f70_6
-$ module help quay.io/biocontainers/btrim/1.0.1--h4ac6f70_6
+$ module load quay.io/biocontainers/btrim/1.0.1--h9948957_7
+$ module help quay.io/biocontainers/btrim/1.0.1--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

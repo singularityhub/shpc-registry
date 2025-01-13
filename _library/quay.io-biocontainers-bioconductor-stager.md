@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stager/container.yaml"
-updated_at: "2025-01-12 03:46:39.036411"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-01-13 03:44:18.811559"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stager"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stager"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stager", "latest": {"1.24.0--r43hdfd78af_0": "sha256:abd938e512b9d9a965156b1207a58ea27d95cd0b01de80528dc3ca35124efd6a"}, "tags": {"1.8.0--r36_0": "sha256:329a4939499c3f9dadb3db0c00f2f69365b6a5752c6dd4d9410a1138e2bf5433", "1.20.0--r42hdfd78af_0": "sha256:b2c8295b6bc8707b85726eb734c8ce8d7a38c2d88d75b94ff2ed9939cd692364", "1.16.0--r41hdfd78af_0": "sha256:ac84b99e7fd42f4fe8d4d05a63788ecb2654597d80c65a91eab00c197f99e23e", "1.14.0--r41hdfd78af_0": "sha256:1d0bb92bd4330762402632a170625a687f4546757c72df91d27df0e638c03d84", "1.12.0--r40hdfd78af_1": "sha256:f7a7b75aa7bc9ad329f6437f62d179f8926427d9eb42e94acbbd69b241499616", "1.10.0--r40_0": "sha256:024c1a8c3269d94dc4e646939afedd784dfd5d3235af1ca70b4e67856aef1bb0", "1.22.0--r43hdfd78af_0": "sha256:4cd4c21186c31599c364a627736910a4b0728a278127946a2bda00d25c48e227", "1.24.0--r43hdfd78af_0": "sha256:abd938e512b9d9a965156b1207a58ea27d95cd0b01de80528dc3ca35124efd6a"}, "docker": "quay.io/biocontainers/bioconductor-stager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stager", "latest": {"1.28.0--r44hdfd78af_0": "sha256:abc116b0071d404b0a05b415502056182bdfbee0e6fce9ecaca81419d11f0931"}, "tags": {"1.8.0--r36_0": "sha256:329a4939499c3f9dadb3db0c00f2f69365b6a5752c6dd4d9410a1138e2bf5433", "1.20.0--r42hdfd78af_0": "sha256:b2c8295b6bc8707b85726eb734c8ce8d7a38c2d88d75b94ff2ed9939cd692364", "1.16.0--r41hdfd78af_0": "sha256:ac84b99e7fd42f4fe8d4d05a63788ecb2654597d80c65a91eab00c197f99e23e", "1.14.0--r41hdfd78af_0": "sha256:1d0bb92bd4330762402632a170625a687f4546757c72df91d27df0e638c03d84", "1.12.0--r40hdfd78af_1": "sha256:f7a7b75aa7bc9ad329f6437f62d179f8926427d9eb42e94acbbd69b241499616", "1.10.0--r40_0": "sha256:024c1a8c3269d94dc4e646939afedd784dfd5d3235af1ca70b4e67856aef1bb0", "1.22.0--r43hdfd78af_0": "sha256:4cd4c21186c31599c364a627736910a4b0728a278127946a2bda00d25c48e227", "1.24.0--r43hdfd78af_0": "sha256:abd938e512b9d9a965156b1207a58ea27d95cd0b01de80528dc3ca35124efd6a", "1.28.0--r44hdfd78af_0": "sha256:abc116b0071d404b0a05b415502056182bdfbee0e6fce9ecaca81419d11f0931"}, "docker": "quay.io/biocontainers/bioconductor-stager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stager.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stager
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stager:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stager:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stager/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stager/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stager/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stager/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

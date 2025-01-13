@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bloomfiltertrie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bloomfiltertrie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bloomfiltertrie/container.yaml"
-updated_at: "2025-01-12 03:25:51.536396"
-latest: "0.8.7--h031d066_5"
+updated_at: "2025-01-13 03:24:32.115899"
+latest: "0.8.7--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/bloomfiltertrie"
 aliases:
  - "bft"
@@ -16,8 +16,9 @@ versions:
  - "0.8.7--hec16e2b_3"
  - "0.8.7--hec16e2b_4"
  - "0.8.7--h031d066_5"
+ - "0.8.7--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for bloomfiltertrie"
-config: {"url": "https://biocontainers.pro/tools/bloomfiltertrie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bloomfiltertrie", "latest": {"0.8.7--h031d066_5": "sha256:a31bf024e7ae40fdbf55f0072ece3a9b08ad2423ebf891ca3b215b94ffaf9ab7"}, "tags": {"0.8.7--hec16e2b_3": "sha256:08adec15bffd0c4dda0082d8f33425cf27edf2e044c74eb3a091957daad33103", "0.8.7--hec16e2b_4": "sha256:0d96bdd5c749659bdfeb3d936a408967bb8104f54c5af062a2425ec159608da5", "0.8.7--h031d066_5": "sha256:a31bf024e7ae40fdbf55f0072ece3a9b08ad2423ebf891ca3b215b94ffaf9ab7"}, "docker": "quay.io/biocontainers/bloomfiltertrie", "aliases": {"bft": "/usr/local/bin/bft", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bloomfiltertrie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bloomfiltertrie", "latest": {"0.8.7--h7b50bb2_6": "sha256:3a8fd69c849e4454eabfe492eb859dd66ff990584b19daa3a041bc0a5f87efa8"}, "tags": {"0.8.7--hec16e2b_3": "sha256:08adec15bffd0c4dda0082d8f33425cf27edf2e044c74eb3a091957daad33103", "0.8.7--hec16e2b_4": "sha256:0d96bdd5c749659bdfeb3d936a408967bb8104f54c5af062a2425ec159608da5", "0.8.7--h031d066_5": "sha256:a31bf024e7ae40fdbf55f0072ece3a9b08ad2423ebf891ca3b215b94ffaf9ab7", "0.8.7--h7b50bb2_6": "sha256:3a8fd69c849e4454eabfe492eb859dd66ff990584b19daa3a041bc0a5f87efa8"}, "docker": "quay.io/biocontainers/bloomfiltertrie", "aliases": {"bft": "/usr/local/bin/bft", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bloomfiltertrie.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bloomfiltertrie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bloomfiltertrie:0.8.7--h031d066_5
+$ shpc install quay.io/biocontainers/bloomfiltertrie:0.8.7--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bloomfiltertrie/0.8.7--h031d066_5
-$ module help quay.io/biocontainers/bloomfiltertrie/0.8.7--h031d066_5
+$ module load quay.io/biocontainers/bloomfiltertrie/0.8.7--h7b50bb2_6
+$ module help quay.io/biocontainers/bloomfiltertrie/0.8.7--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

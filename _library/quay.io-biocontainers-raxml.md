@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/raxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raxml/container.yaml"
-updated_at: "2025-01-12 03:17:53.805531"
-latest: "8.2.13--h031d066_2"
+updated_at: "2025-01-13 03:16:40.738875"
+latest: "8.2.13--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/raxml"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "8.2.13--h031d066_0"
  - "8.2.13--h031d066_1"
  - "8.2.13--h031d066_2"
+ - "8.2.13--h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for raxml"
-config: {"url": "https://biocontainers.pro/tools/raxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raxml", "latest": {"8.2.13--h031d066_2": "sha256:3e6b94b25e8e35c46129d93b0cf95c0eb4c00ff992018c77fe05e42552f8b390"}, "tags": {"8.2.9--hec16e2b_5": "sha256:f563217a34a3ae2f4766aa4650851ea91ac0178a906a66dc31223ed7f055518c", "8.2.12--hec16e2b_4": "sha256:30407bd43203e64dfc0f4bd15778b11f75f53101caaa369042c66c457f9bb8a6", "8.2.12--hec16e2b_5": "sha256:bedffbd2dd608c568ad1acbc1a9b2553c5b7c996ccf640fa164237cbdfe34698", "8.2.12--h031d066_6": "sha256:3489e0f63ec040e5ceb1a78f5137eb4c200d015bac5ff3c677d23b031a89f81a", "8.2.13--h031d066_0": "sha256:ae1ae1335c6bb25c2715fc280e0ba08822ac5f208c59fbd5e07b546135e905d8", "8.2.13--h031d066_1": "sha256:74410f897e72c65f3772dae85fdb715c5c28c570caf1a2ca1eba7e72562660fe", "8.2.13--h031d066_2": "sha256:3e6b94b25e8e35c46129d93b0cf95c0eb4c00ff992018c77fe05e42552f8b390"}, "docker": "quay.io/biocontainers/raxml"}
+config: {"url": "https://biocontainers.pro/tools/raxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raxml", "latest": {"8.2.13--h7b50bb2_3": "sha256:e47b7ba67711b46be6461c24df1cf5b7a39ab3aa17fd0c42cef85089a2c80355"}, "tags": {"8.2.9--hec16e2b_5": "sha256:f563217a34a3ae2f4766aa4650851ea91ac0178a906a66dc31223ed7f055518c", "8.2.12--hec16e2b_4": "sha256:30407bd43203e64dfc0f4bd15778b11f75f53101caaa369042c66c457f9bb8a6", "8.2.12--hec16e2b_5": "sha256:bedffbd2dd608c568ad1acbc1a9b2553c5b7c996ccf640fa164237cbdfe34698", "8.2.12--h031d066_6": "sha256:3489e0f63ec040e5ceb1a78f5137eb4c200d015bac5ff3c677d23b031a89f81a", "8.2.13--h031d066_0": "sha256:ae1ae1335c6bb25c2715fc280e0ba08822ac5f208c59fbd5e07b546135e905d8", "8.2.13--h031d066_1": "sha256:74410f897e72c65f3772dae85fdb715c5c28c570caf1a2ca1eba7e72562660fe", "8.2.13--h031d066_2": "sha256:3e6b94b25e8e35c46129d93b0cf95c0eb4c00ff992018c77fe05e42552f8b390", "8.2.13--h7b50bb2_3": "sha256:e47b7ba67711b46be6461c24df1cf5b7a39ab3aa17fd0c42cef85089a2c80355"}, "docker": "quay.io/biocontainers/raxml"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raxml.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/raxml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raxml:8.2.13--h031d066_2
+$ shpc install quay.io/biocontainers/raxml:8.2.13--h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raxml/8.2.13--h031d066_2
-$ module help quay.io/biocontainers/raxml/8.2.13--h031d066_2
+$ module load quay.io/biocontainers/raxml/8.2.13--h7b50bb2_3
+$ module help quay.io/biocontainers/raxml/8.2.13--h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

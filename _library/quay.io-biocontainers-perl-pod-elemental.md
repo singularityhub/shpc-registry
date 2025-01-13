@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-pod-elemental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
-updated_at: "2025-01-12 03:42:24.983216"
-latest: "0.103006--pl5321h031d066_1"
+updated_at: "2025-01-13 03:40:15.457914"
+latest: "0.103006--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/perl-pod-elemental"
 aliases:
  - "moose-outdated"
@@ -17,8 +17,9 @@ versions:
  - "0.103005--pl5321hec16e2b_1"
  - "0.103006--pl5321hec16e2b_0"
  - "0.103006--pl5321h031d066_1"
+ - "0.103006--pl5321h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for perl-pod-elemental"
-config: {"url": "https://biocontainers.pro/tools/perl-pod-elemental", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-elemental", "latest": {"0.103006--pl5321h031d066_1": "sha256:aa3c6f5ab084c1ec3fbafa0fbae619bd63718ecc103c9b38ca4b30cf767add89"}, "tags": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349", "0.103006--pl5321hec16e2b_0": "sha256:6a1bcd87c8c3b4941f5bae289dd618f79a1dd9d751dc9cb3e1ce1fdbc899923b", "0.103006--pl5321h031d066_1": "sha256:aa3c6f5ab084c1ec3fbafa0fbae619bd63718ecc103c9b38ca4b30cf767add89"}, "docker": "quay.io/biocontainers/perl-pod-elemental", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pod-elemental", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-elemental", "latest": {"0.103006--pl5321h7b50bb2_2": "sha256:c4548daee4192c950273106e4c9697c8966a51907766d61f737f8623392f3c4e"}, "tags": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349", "0.103006--pl5321hec16e2b_0": "sha256:6a1bcd87c8c3b4941f5bae289dd618f79a1dd9d751dc9cb3e1ce1fdbc899923b", "0.103006--pl5321h031d066_1": "sha256:aa3c6f5ab084c1ec3fbafa0fbae619bd63718ecc103c9b38ca4b30cf767add89", "0.103006--pl5321h7b50bb2_2": "sha256:c4548daee4192c950273106e4c9697c8966a51907766d61f737f8623392f3c4e"}, "docker": "quay.io/biocontainers/perl-pod-elemental", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pod-elemental.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-pod-elemental
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-pod-elemental:0.103006--pl5321h031d066_1
+$ shpc install quay.io/biocontainers/perl-pod-elemental:0.103006--pl5321h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-pod-elemental/0.103006--pl5321h031d066_1
-$ module help quay.io/biocontainers/perl-pod-elemental/0.103006--pl5321h031d066_1
+$ module load quay.io/biocontainers/perl-pod-elemental/0.103006--pl5321h7b50bb2_2
+$ module help quay.io/biocontainers/perl-pod-elemental/0.103006--pl5321h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

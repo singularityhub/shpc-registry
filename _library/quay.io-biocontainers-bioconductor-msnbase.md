@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msnbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
-updated_at: "2025-01-12 03:40:40.251438"
-latest: "2.28.1--r43hf17093f_1"
+updated_at: "2025-01-13 03:38:32.892656"
+latest: "2.32.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msnbase"
 aliases:
  - "gif2hdf"
@@ -29,8 +29,9 @@ versions:
  - "2.26.0--r43hf17093f_0"
  - "2.28.1--r43hf17093f_0"
  - "2.28.1--r43hf17093f_1"
+ - "2.32.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msnbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msnbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnbase", "latest": {"2.28.1--r43hf17093f_1": "sha256:44cb05095737488995ad2e282534b7b52b9d3a0aa1211c5a1bee0a8fc7bf4aa3"}, "tags": {"2.8.3--r351hf484d3e_0": "sha256:c31355ef38fd7e8eaa680dd098a62c9c3a391ac830076e06f8a7adfd2b126b5a", "2.24.0--r42hc247a5b_0": "sha256:aeffe7cf3115a809dca214bf0095357cb530f25b452616ee34101318ea0dde88", "2.20.4--r41hc247a5b_1": "sha256:236e22f2c3c3887340d531fa3ccbd07b74c85a20800e9e387b7a188d28bb2213", "2.18.0--r41h399db7b_0": "sha256:863b2f8e694a58b1eec7776555a9a8c26539e32cfb0337f3d7bebc217295d7a4", "2.16.1--r40h399db7b_0": "sha256:492fa2735882e1355432efec60750b4652b1582a60038b945350996fc51b41a3", "2.14.1--r40h5f743cb_0": "sha256:ec63bcc7e55a5e1a3a7f2cfd633e86b0e29eaca548b1fbd211a059d6d37a50e8", "2.24.0--r42hf17093f_1": "sha256:dbff7f4b167cb3d208cfe5bbec1c146a17389074519d982f16f9b5aafb85bbd1", "2.26.0--r43hf17093f_0": "sha256:08c6a50e08ca3d7728a0bf5f499145570a691b089a06f57ef25a023a76cc81c4", "2.28.1--r43hf17093f_0": "sha256:675d42b8c1555f2fc147c5af6cab98d6b3f4c334f84a1d261f2df620cdd23c65", "2.28.1--r43hf17093f_1": "sha256:44cb05095737488995ad2e282534b7b52b9d3a0aa1211c5a1bee0a8fc7bf4aa3"}, "docker": "quay.io/biocontainers/bioconductor-msnbase", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msnbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnbase", "latest": {"2.32.0--r44he5774e6_0": "sha256:2c48d6dd66af5d0efe7f7631730bf70f523731962badc59c79b205913df610b8"}, "tags": {"2.8.3--r351hf484d3e_0": "sha256:c31355ef38fd7e8eaa680dd098a62c9c3a391ac830076e06f8a7adfd2b126b5a", "2.24.0--r42hc247a5b_0": "sha256:aeffe7cf3115a809dca214bf0095357cb530f25b452616ee34101318ea0dde88", "2.20.4--r41hc247a5b_1": "sha256:236e22f2c3c3887340d531fa3ccbd07b74c85a20800e9e387b7a188d28bb2213", "2.18.0--r41h399db7b_0": "sha256:863b2f8e694a58b1eec7776555a9a8c26539e32cfb0337f3d7bebc217295d7a4", "2.16.1--r40h399db7b_0": "sha256:492fa2735882e1355432efec60750b4652b1582a60038b945350996fc51b41a3", "2.14.1--r40h5f743cb_0": "sha256:ec63bcc7e55a5e1a3a7f2cfd633e86b0e29eaca548b1fbd211a059d6d37a50e8", "2.24.0--r42hf17093f_1": "sha256:dbff7f4b167cb3d208cfe5bbec1c146a17389074519d982f16f9b5aafb85bbd1", "2.26.0--r43hf17093f_0": "sha256:08c6a50e08ca3d7728a0bf5f499145570a691b089a06f57ef25a023a76cc81c4", "2.28.1--r43hf17093f_0": "sha256:675d42b8c1555f2fc147c5af6cab98d6b3f4c334f84a1d261f2df620cdd23c65", "2.28.1--r43hf17093f_1": "sha256:44cb05095737488995ad2e282534b7b52b9d3a0aa1211c5a1bee0a8fc7bf4aa3", "2.32.0--r44he5774e6_0": "sha256:2c48d6dd66af5d0efe7f7631730bf70f523731962badc59c79b205913df610b8"}, "docker": "quay.io/biocontainers/bioconductor-msnbase", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msnbase.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msnbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msnbase:2.28.1--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-msnbase:2.32.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msnbase/2.28.1--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-msnbase/2.28.1--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-msnbase/2.32.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-msnbase/2.32.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipcomp/container.yaml"
-updated_at: "2025-01-12 03:36:30.284967"
-latest: "1.32.0--r43ha9d7317_0"
+updated_at: "2025-01-13 03:34:51.006904"
+latest: "1.36.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipcomp"
 aliases:
  - "wget"
@@ -23,8 +23,9 @@ versions:
  - "1.28.0--r42ha9d7317_1"
  - "1.30.0--r43ha9d7317_0"
  - "1.32.0--r43ha9d7317_0"
+ - "1.36.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipcomp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipcomp", "latest": {"1.32.0--r43ha9d7317_0": "sha256:731d32357b281b439466ae2cfb55af8433661cc36749ac125628a341838c0821"}, "tags": {"1.8.0--r3.4.1_0": "crane digest quay.io/biocontainers/bioconductor-chipcomp:1.8.0--r3.4.1_0: Get https://quay.io/v2/auth?scope=repository%3Abiocontainers%2Fbioconductor-chipcomp%3Apull&service=quay.io: read tcp [fddf:3978:feb1:d745::c001]:51418->[2600:1f18:483:cf01:289d:c481:b4c:acf4]:443: read: connection reset by peer", "1.28.0--r42hc0cfd56_0": "sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618", "1.24.0--r41hc0cfd56_2": "sha256:6c7996496037c75005709d09eaf0bbda3296184dba6c2675fe8b3e6b9ed76d65", "1.22.0--r41hd029910_0": "sha256:22a5715f03cad9d4a0de62bb077df1fd6eb924e126ece4c0fb4fa819667c28d5", "1.20.0--r40hd029910_2": "sha256:2a1291444a97e9b451d3f00c4594b34d23040a9c4e1fbefe29e076ad4556cf73", "1.18.0--r40h037d062_0": "sha256:b4ab7d51dd1ad62c2ce0d5d834e81b42d7ba245a4d2a649ba12da0a7718e7746", "1.28.0--r42ha9d7317_1": "sha256:fb0b46fedf494a4c4f08493db85ceb1fcbfd52bf21023019e2ddacc6bb027430", "1.30.0--r43ha9d7317_0": "sha256:b04d27f028a42e3a458e6612cf018a7c5c990f7b95cc24aa3cfa5a9309c3f5a9", "1.32.0--r43ha9d7317_0": "sha256:731d32357b281b439466ae2cfb55af8433661cc36749ac125628a341838c0821"}, "docker": "quay.io/biocontainers/bioconductor-chipcomp", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipcomp", "latest": {"1.36.0--r44h3df3fcb_0": "sha256:f5b0f6d9533b8edbbd8eeef435c535fad0aadfb9000e88cec50bdf7e92f2e746"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e9cd8db63e550d9a9656918f08694b0f677aa86f5e2442d7d0a39f3c4536322d", "1.28.0--r42hc0cfd56_0": "sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618", "1.24.0--r41hc0cfd56_2": "sha256:6c7996496037c75005709d09eaf0bbda3296184dba6c2675fe8b3e6b9ed76d65", "1.22.0--r41hd029910_0": "sha256:22a5715f03cad9d4a0de62bb077df1fd6eb924e126ece4c0fb4fa819667c28d5", "1.20.0--r40hd029910_2": "sha256:2a1291444a97e9b451d3f00c4594b34d23040a9c4e1fbefe29e076ad4556cf73", "1.18.0--r40h037d062_0": "sha256:b4ab7d51dd1ad62c2ce0d5d834e81b42d7ba245a4d2a649ba12da0a7718e7746", "1.28.0--r42ha9d7317_1": "sha256:fb0b46fedf494a4c4f08493db85ceb1fcbfd52bf21023019e2ddacc6bb027430", "1.30.0--r43ha9d7317_0": "sha256:b04d27f028a42e3a458e6612cf018a7c5c990f7b95cc24aa3cfa5a9309c3f5a9", "1.32.0--r43ha9d7317_0": "sha256:731d32357b281b439466ae2cfb55af8433661cc36749ac125628a341838c0821", "1.36.0--r44h3df3fcb_0": "sha256:f5b0f6d9533b8edbbd8eeef435c535fad0aadfb9000e88cec50bdf7e92f2e746"}, "docker": "quay.io/biocontainers/bioconductor-chipcomp", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipcomp.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipcomp:1.32.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-chipcomp:1.36.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipcomp/1.32.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-chipcomp/1.32.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-chipcomp/1.36.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-chipcomp/1.36.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
