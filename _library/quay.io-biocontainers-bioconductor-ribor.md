@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ribor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
-updated_at: "2025-01-13 03:33:29.080381"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-14 03:18:36.517361"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribor"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribor", "latest": {"1.14.0--r43hdfd78af_0": "sha256:516fc77c3aa21a96e0dc054fd1bf0470388d1655d487a75d6fcd3ac2b9fcfa0e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f", "1.10.0--r42hdfd78af_0": "sha256:2ec5aced0d6703f7109b5e7793c6ae1cf8bd53e18ab2b2d7d91b09334140b7cd", "1.12.0--r43hdfd78af_0": "sha256:8d1e1caff559154623e4f1efd3d803a136ecc1eb90c146b6f06675eac6dca187", "1.14.0--r43hdfd78af_0": "sha256:516fc77c3aa21a96e0dc054fd1bf0470388d1655d487a75d6fcd3ac2b9fcfa0e"}, "docker": "quay.io/biocontainers/bioconductor-ribor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribor", "latest": {"1.18.0--r44hdfd78af_0": "sha256:ee5eb4feac3fcf34e2bbf00f13e2b5cf03d2dd9d391f5f40368b0476a55d3677"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f", "1.10.0--r42hdfd78af_0": "sha256:2ec5aced0d6703f7109b5e7793c6ae1cf8bd53e18ab2b2d7d91b09334140b7cd", "1.12.0--r43hdfd78af_0": "sha256:8d1e1caff559154623e4f1efd3d803a136ecc1eb90c146b6f06675eac6dca187", "1.14.0--r43hdfd78af_0": "sha256:516fc77c3aa21a96e0dc054fd1bf0470388d1655d487a75d6fcd3ac2b9fcfa0e", "1.18.0--r44hdfd78af_0": "sha256:ee5eb4feac3fcf34e2bbf00f13e2b5cf03d2dd9d391f5f40368b0476a55d3677"}, "docker": "quay.io/biocontainers/bioconductor-ribor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribor.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribor:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ribor:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribor/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ribor/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ribor/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ribor/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

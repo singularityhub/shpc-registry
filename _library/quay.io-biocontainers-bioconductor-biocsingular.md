@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocsingular"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocsingular/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocsingular/container.yaml"
-updated_at: "2025-01-13 03:29:50.020632"
-latest: "1.18.0--r43hf17093f_0"
+updated_at: "2025-01-14 03:14:53.097906"
+latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocsingular"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,10 @@ versions:
  - "1.14.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
  - "1.18.0--r43hf17093f_0"
+ - "1.22.0--r44he5774e6_0"
+ - "1.18.0--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocsingular"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocsingular", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocsingular", "latest": {"1.18.0--r43hf17093f_0": "sha256:546e23c2c35519446a4692020eb8f70c5ef79f2b6372544c7f51406cd1751889"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0", "1.14.0--r42hc247a5b_0": "sha256:7dc3c235d53c2d055e5e07b10dc34623ce34a9ee827d2c3eee76cc11761ea9ec", "1.10.0--r41hc247a5b_2": "sha256:3d886422d26b941dc8dd8a2294b82625400d32f54eeb09d65ce8a56ca2aadcbf", "1.14.0--r42hf17093f_1": "sha256:2a4e4d0870a1db91d93b9a4b628c075bb90893c952975496c4d86129bccc7c32", "1.16.0--r43hf17093f_0": "sha256:8b5f054675cc838b5547efe4cbf1a8997e64c32e83c6010613ae208b7f53067c", "1.18.0--r43hf17093f_0": "sha256:546e23c2c35519446a4692020eb8f70c5ef79f2b6372544c7f51406cd1751889"}, "docker": "quay.io/biocontainers/bioconductor-biocsingular", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocsingular", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocsingular", "latest": {"1.22.0--r44he5774e6_0": "sha256:08c652746690d5617760cbf5c709c6259b647d542f1ba7dc66d2cc8854e4fbf6"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0", "1.14.0--r42hc247a5b_0": "sha256:7dc3c235d53c2d055e5e07b10dc34623ce34a9ee827d2c3eee76cc11761ea9ec", "1.10.0--r41hc247a5b_2": "sha256:3d886422d26b941dc8dd8a2294b82625400d32f54eeb09d65ce8a56ca2aadcbf", "1.14.0--r42hf17093f_1": "sha256:2a4e4d0870a1db91d93b9a4b628c075bb90893c952975496c4d86129bccc7c32", "1.16.0--r43hf17093f_0": "sha256:8b5f054675cc838b5547efe4cbf1a8997e64c32e83c6010613ae208b7f53067c", "1.18.0--r43hf17093f_0": "sha256:546e23c2c35519446a4692020eb8f70c5ef79f2b6372544c7f51406cd1751889", "1.22.0--r44he5774e6_0": "sha256:08c652746690d5617760cbf5c709c6259b647d542f1ba7dc66d2cc8854e4fbf6", "1.18.0--r43hf17093f_1": "sha256:028be9a62568e7a431f758e0269de3fcb31f60a1c1ba5dc6d160a2c48188a8ec"}, "docker": "quay.io/biocontainers/bioconductor-biocsingular", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocsingular.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocsingular
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocsingular:1.18.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-biocsingular:1.22.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocsingular/1.18.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-biocsingular/1.18.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-biocsingular/1.22.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-biocsingular/1.22.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

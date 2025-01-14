@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ectyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ectyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ectyper/container.yaml"
-updated_at: "2025-01-13 03:18:01.581095"
-latest: "1.0.0--pyhdfd78af_1"
+updated_at: "2025-01-14 03:03:14.497542"
+latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ectyper"
 aliases:
  - "ectyper"
@@ -21,8 +21,9 @@ aliases:
  - "index-themes"
 versions:
  - "1.0.0--pyhdfd78af_1"
+ - "2.0.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for ectyper"
-config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {"ectyper": "/usr/local/bin/ectyper", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes"}}
+config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"2.0.0--pyhdfd78af_1": "sha256:2e37d012760687ca305001706211c693c857135c9f3266a98970f9cf68644bf2"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465", "2.0.0--pyhdfd78af_1": "sha256:2e37d012760687ca305001706211c693c857135c9f3266a98970f9cf68644bf2"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {"ectyper": "/usr/local/bin/ectyper", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ectyper.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ectyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ectyper:1.0.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/ectyper:2.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ectyper/1.0.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/ectyper/1.0.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

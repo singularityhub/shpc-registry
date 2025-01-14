@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggrasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggrasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggrasp/container.yaml"
-updated_at: "2025-01-13 03:34:43.368010"
+updated_at: "2025-01-14 03:19:53.514994"
 latest: "1.0--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-ggrasp"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0--r351h6115d3f_2"
 description: "shpc-registry automated BioContainers addition for r-ggrasp"
-config: {"url": "https://biocontainers.pro/tools/r-ggrasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggrasp", "latest": {"1.0--r351h6115d3f_2": "sha256:c57e3c13363f255fa16d067436aa655b85cb2fa0a74376b9900c0ca4eb175210"}, "tags": {"1.0--r351h6115d3f_2": "sha256:c57e3c13363f255fa16d067436aa655b85cb2fa0a74376b9900c0ca4eb175210"}, "docker": "quay.io/biocontainers/r-ggrasp", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggrasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggrasp", "latest": {"1.0--r351h6115d3f_2": "sha256:8cc6e103a23bf53ea48302d181f02e96bfaed1fe238f94e15838a57a2e4a8bc8"}, "tags": {"1.0--r351h6115d3f_2": "sha256:8cc6e103a23bf53ea48302d181f02e96bfaed1fe238f94e15838a57a2e4a8bc8"}, "docker": "quay.io/biocontainers/r-ggrasp", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggrasp.

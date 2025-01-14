@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/hificnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hificnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hificnv/container.yaml"
-updated_at: "2025-01-13 03:21:28.730755"
-latest: "0.1.7--h9ee0642_0"
+updated_at: "2025-01-14 03:06:42.393292"
+latest: "1.0.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/hificnv"
 aliases:
  - "hificnv"
 versions:
  - "0.1.6b--h9ee0642_0"
  - "0.1.7--h9ee0642_0"
+ - "1.0.1--h9ee0642_0"
 description: "singularity registry hpc automated addition for hificnv"
-config: {"url": "https://biocontainers.pro/tools/hificnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hificnv", "latest": {"0.1.7--h9ee0642_0": "sha256:1a3d1839f896011451fd2dd0450444901045954455e3e2e6c31ca9741a644277"}, "tags": {"0.1.6b--h9ee0642_0": "sha256:760a600f74f1fc2f186fc1bbcc221eee2db14b0c1d46f666a0215da32d1a6afc", "0.1.7--h9ee0642_0": "sha256:1a3d1839f896011451fd2dd0450444901045954455e3e2e6c31ca9741a644277"}, "docker": "quay.io/biocontainers/hificnv", "aliases": {"hificnv": "/usr/local/bin/hificnv"}}
+config: {"url": "https://biocontainers.pro/tools/hificnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hificnv", "latest": {"1.0.1--h9ee0642_0": "sha256:739762833c9d1d2aefa4f6cf954deae59c2f4fe082da5f349adb955e759f13ca"}, "tags": {"0.1.6b--h9ee0642_0": "sha256:760a600f74f1fc2f186fc1bbcc221eee2db14b0c1d46f666a0215da32d1a6afc", "0.1.7--h9ee0642_0": "sha256:1a3d1839f896011451fd2dd0450444901045954455e3e2e6c31ca9741a644277", "1.0.1--h9ee0642_0": "sha256:739762833c9d1d2aefa4f6cf954deae59c2f4fe082da5f349adb955e759f13ca"}, "docker": "quay.io/biocontainers/hificnv", "aliases": {"hificnv": "/usr/local/bin/hificnv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hificnv.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/hificnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hificnv:0.1.7--h9ee0642_0
+$ shpc install quay.io/biocontainers/hificnv:1.0.1--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hificnv/0.1.7--h9ee0642_0
-$ module help quay.io/biocontainers/hificnv/0.1.7--h9ee0642_0
+$ module load quay.io/biocontainers/hificnv/1.0.1--h9ee0642_0
+$ module help quay.io/biocontainers/hificnv/1.0.1--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

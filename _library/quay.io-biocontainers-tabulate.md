@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabulate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabulate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabulate/container.yaml"
-updated_at: "2025-01-13 03:44:13.695924"
+updated_at: "2025-01-14 03:29:22.380938"
 latest: "0.7.5--py36_0"
 container_url: "https://biocontainers.pro/tools/tabulate"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.7.5--py36_0"
+ - "0.7.5--py35_0"
 description: "shpc-registry automated BioContainers addition for tabulate"
-config: {"url": "https://biocontainers.pro/tools/tabulate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabulate", "latest": {"0.7.5--py36_0": "sha256:7fed32387ec5d250cd28a426ec331ce41c0086f9a2c5c0cd4b0d5bab1f66e177"}, "tags": {"0.7.5--py36_0": "sha256:7fed32387ec5d250cd28a426ec331ce41c0086f9a2c5c0cd4b0d5bab1f66e177"}, "docker": "quay.io/biocontainers/tabulate", "aliases": {"tabulate": "/usr/local/bin/tabulate", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/tabulate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabulate", "latest": {"0.7.5--py36_0": "sha256:1231d99c895cc89fb67529a6424a23da50b20884149e8cf80401b123eac87386"}, "tags": {"0.7.5--py36_0": "sha256:1231d99c895cc89fb67529a6424a23da50b20884149e8cf80401b123eac87386", "0.7.5--py35_0": "sha256:b5a1cc42b875f958d6036df66e87ec882a8347a47655d61403c764b60cd3258f"}, "docker": "quay.io/biocontainers/tabulate", "aliases": {"tabulate": "/usr/local/bin/tabulate", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tabulate.

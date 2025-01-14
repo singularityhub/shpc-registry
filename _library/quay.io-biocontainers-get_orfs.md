@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/get_orfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_orfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_orfs/container.yaml"
-updated_at: "2025-01-13 03:26:12.509473"
-latest: "1.0.0--hdcf5f25_0"
+updated_at: "2025-01-14 03:11:24.282813"
+latest: "1.1.0--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/get_orfs"
 aliases:
  - "get_orfs"
 versions:
  - "1.0.0--hdcf5f25_0"
+ - "1.1.0--h077b44d_1"
 description: "singularity registry hpc automated addition for get_orfs"
-config: {"url": "https://biocontainers.pro/tools/get_orfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_orfs", "latest": {"1.0.0--hdcf5f25_0": "sha256:96bee6600e0ce1a952b7aba718c26b921da8cda83ecd7dbdc1d505a6a7ce2b05"}, "tags": {"1.0.0--hdcf5f25_0": "sha256:96bee6600e0ce1a952b7aba718c26b921da8cda83ecd7dbdc1d505a6a7ce2b05"}, "docker": "quay.io/biocontainers/get_orfs", "aliases": {"get_orfs": "/usr/local/bin/get_orfs"}}
+config: {"url": "https://biocontainers.pro/tools/get_orfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_orfs", "latest": {"1.1.0--h077b44d_1": "sha256:a16b320fbb7154b9884c6b03c6746062ef54ef9fb1f497ee2f9532f49251642d"}, "tags": {"1.0.0--hdcf5f25_0": "sha256:96bee6600e0ce1a952b7aba718c26b921da8cda83ecd7dbdc1d505a6a7ce2b05", "1.1.0--h077b44d_1": "sha256:a16b320fbb7154b9884c6b03c6746062ef54ef9fb1f497ee2f9532f49251642d"}, "docker": "quay.io/biocontainers/get_orfs", "aliases": {"get_orfs": "/usr/local/bin/get_orfs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/get_orfs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/get_orfs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/get_orfs:1.0.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/get_orfs:1.1.0--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/get_orfs/1.0.0--hdcf5f25_0
-$ module help quay.io/biocontainers/get_orfs/1.0.0--hdcf5f25_0
+$ module load quay.io/biocontainers/get_orfs/1.1.0--h077b44d_1
+$ module help quay.io/biocontainers/get_orfs/1.1.0--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

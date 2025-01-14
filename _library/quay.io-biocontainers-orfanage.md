@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/orfanage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfanage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfanage/container.yaml"
-updated_at: "2025-01-13 03:40:41.879757"
-latest: "1.1.0--ha666654_0"
+updated_at: "2025-01-14 03:25:48.869057"
+latest: "1.2.0--heaafb18_2"
 container_url: "https://biocontainers.pro/tools/orfanage"
 aliases:
  - "orfanage"
 versions:
  - "1.0.4--ha666654_0"
  - "1.1.0--ha666654_0"
+ - "1.2.0--heaafb18_2"
 description: "singularity registry hpc automated addition for orfanage"
-config: {"url": "https://biocontainers.pro/tools/orfanage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orfanage", "latest": {"1.1.0--ha666654_0": "sha256:2ab928831e643e24e3919c12e034b9f18c0f9a2c29fe90a525073bd58683586d"}, "tags": {"1.0.4--ha666654_0": "sha256:e758da6b14f6b1338585cea0c9e1482bd9e6a78901fa5f148d34bb23a4ece3e3", "1.1.0--ha666654_0": "sha256:2ab928831e643e24e3919c12e034b9f18c0f9a2c29fe90a525073bd58683586d"}, "docker": "quay.io/biocontainers/orfanage", "aliases": {"orfanage": "/usr/local/bin/orfanage"}}
+config: {"url": "https://biocontainers.pro/tools/orfanage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orfanage", "latest": {"1.2.0--heaafb18_2": "sha256:05d2ab9cf11151f12ac0f387b19cc637209a884b3c7146a2fa66f14de5843dbc"}, "tags": {"1.0.4--ha666654_0": "sha256:e758da6b14f6b1338585cea0c9e1482bd9e6a78901fa5f148d34bb23a4ece3e3", "1.1.0--ha666654_0": "sha256:2ab928831e643e24e3919c12e034b9f18c0f9a2c29fe90a525073bd58683586d", "1.2.0--heaafb18_2": "sha256:05d2ab9cf11151f12ac0f387b19cc637209a884b3c7146a2fa66f14de5843dbc"}, "docker": "quay.io/biocontainers/orfanage", "aliases": {"orfanage": "/usr/local/bin/orfanage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfanage.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/orfanage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orfanage:1.1.0--ha666654_0
+$ shpc install quay.io/biocontainers/orfanage:1.2.0--heaafb18_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orfanage/1.1.0--ha666654_0
-$ module help quay.io/biocontainers/orfanage/1.1.0--ha666654_0
+$ module load quay.io/biocontainers/orfanage/1.2.0--heaafb18_2
+$ module help quay.io/biocontainers/orfanage/1.2.0--heaafb18_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

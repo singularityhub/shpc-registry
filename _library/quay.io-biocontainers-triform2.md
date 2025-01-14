@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/triform2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/triform2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/triform2/container.yaml"
-updated_at: "2025-01-13 03:11:54.826970"
+updated_at: "2025-01-14 02:57:23.805117"
 latest: "0.0.5--py27r341h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/triform2"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.5--py27r341h24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for triform2"
-config: {"url": "https://biocontainers.pro/tools/triform2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for triform2", "latest": {"0.0.5--py27r341h24bf2e0_1": "sha256:4f6b9a3028b0f7b606c98159c27de48e0d97f76e7fd433f905826598ed39af0f"}, "tags": {"0.0.5--py27r341h24bf2e0_1": "sha256:4f6b9a3028b0f7b606c98159c27de48e0d97f76e7fd433f905826598ed39af0f"}, "docker": "quay.io/biocontainers/triform2", "aliases": {"triform2": "/usr/local/bin/triform2", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/triform2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for triform2", "latest": {"0.0.5--py27r341h24bf2e0_1": "sha256:2f31b310ef2d2a8c0ffe30531c3cf0ed0e5075c3b0bfd5d97fe9755b517f58f8"}, "tags": {"0.0.5--py27r341h24bf2e0_1": "sha256:2f31b310ef2d2a8c0ffe30531c3cf0ed0e5075c3b0bfd5d97fe9755b517f58f8"}, "docker": "quay.io/biocontainers/triform2", "aliases": {"triform2": "/usr/local/bin/triform2", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/triform2.

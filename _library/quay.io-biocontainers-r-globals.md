@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-globals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-globals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-globals/container.yaml"
-updated_at: "2025-01-13 03:44:06.945988"
+updated_at: "2025-01-14 03:29:15.203481"
 latest: "0.7.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-globals"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.7.1--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-globals"
-config: {"url": "https://biocontainers.pro/tools/r-globals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-globals", "latest": {"0.7.1--r3.3.1_0": "sha256:49641b017b850601c73c9a9dcd31eaaf7d4dc97459378f1a4f0f977d1a96f547"}, "tags": {"0.7.1--r3.3.1_0": "sha256:49641b017b850601c73c9a9dcd31eaaf7d4dc97459378f1a4f0f977d1a96f547"}, "docker": "quay.io/biocontainers/r-globals", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-globals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-globals", "latest": {"0.7.1--r3.3.1_0": "sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41"}, "tags": {"0.7.1--r3.3.1_0": "sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41"}, "docker": "quay.io/biocontainers/r-globals", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-globals.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plyranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plyranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plyranges/container.yaml"
-updated_at: "2025-01-13 03:04:48.938387"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-14 02:50:39.426116"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plyranges"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plyranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plyranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plyranges", "latest": {"1.22.0--r43hdfd78af_0": "sha256:2e9cf9b0cbde65e0c39e011c84ea2b4c2f61a1af1a862173c6072ed1e5347c39"}, "tags": {"1.8.0--r40_0": "sha256:cfb38eea2c81ec6f6dfc1b46cbcb6e0a4db04af18e3a0f66dc18f76444b63625", "1.18.0--r42hdfd78af_0": "sha256:78007034eef5c82b6cd58d97c1d3c4d43da0a0d9eded5fa3769bc84ed3d12f88", "1.14.0--r41hdfd78af_0": "sha256:411a84b336c127e5ad578ea571afa24495e5b408ca6afc0a528a2f02e5f60f75", "1.12.0--r41hdfd78af_0": "sha256:0934efc0a3daf11e99ddbc94798635d3360d7202a3e6e1234843ca7b904a6b56", "1.10.0--r40hdfd78af_1": "sha256:9624f3e7fe7fc64426cc1b7eaa33937b60c7c95173492eb684e6b0ce6bba2715", "1.20.0--r43hdfd78af_0": "sha256:87b9cb90b01eb0c7f9b5fc2cc141e66ecb39b0a29701650790a99a9c1d01376d", "1.22.0--r43hdfd78af_0": "sha256:2e9cf9b0cbde65e0c39e011c84ea2b4c2f61a1af1a862173c6072ed1e5347c39"}, "docker": "quay.io/biocontainers/bioconductor-plyranges", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plyranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plyranges", "latest": {"1.26.0--r44hdfd78af_0": "sha256:cf5b2ef9e098f9e0b214027751a4349f2cba226baeb31ff77b8fb34a522cfb3f"}, "tags": {"1.8.0--r40_0": "sha256:cfb38eea2c81ec6f6dfc1b46cbcb6e0a4db04af18e3a0f66dc18f76444b63625", "1.18.0--r42hdfd78af_0": "sha256:78007034eef5c82b6cd58d97c1d3c4d43da0a0d9eded5fa3769bc84ed3d12f88", "1.14.0--r41hdfd78af_0": "sha256:411a84b336c127e5ad578ea571afa24495e5b408ca6afc0a528a2f02e5f60f75", "1.12.0--r41hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-plyranges:1.12.0--r41hdfd78af_0: unrecognized HTTP status: 502 Bad Gateway", "1.10.0--r40hdfd78af_1": "sha256:9624f3e7fe7fc64426cc1b7eaa33937b60c7c95173492eb684e6b0ce6bba2715", "1.20.0--r43hdfd78af_0": "sha256:87b9cb90b01eb0c7f9b5fc2cc141e66ecb39b0a29701650790a99a9c1d01376d", "1.22.0--r43hdfd78af_0": "sha256:2e9cf9b0cbde65e0c39e011c84ea2b4c2f61a1af1a862173c6072ed1e5347c39", "1.26.0--r44hdfd78af_0": "sha256:cf5b2ef9e098f9e0b214027751a4349f2cba226baeb31ff77b8fb34a522cfb3f"}, "docker": "quay.io/biocontainers/bioconductor-plyranges", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plyranges.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plyranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plyranges:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-plyranges:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plyranges/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-plyranges/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-plyranges/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-plyranges/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

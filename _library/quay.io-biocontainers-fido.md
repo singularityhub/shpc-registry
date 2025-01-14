@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fido"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fido/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fido/container.yaml"
-updated_at: "2025-01-13 03:43:12.651138"
-latest: "1.0--h4ac6f70_6"
+updated_at: "2025-01-14 03:28:20.168824"
+latest: "1.0--h9948957_8"
 container_url: "https://biocontainers.pro/tools/fido"
 aliases:
  - "Fido"
@@ -14,8 +14,9 @@ versions:
  - "1.0--h9f5acd7_4"
  - "1.0--h9f5acd7_5"
  - "1.0--h4ac6f70_6"
+ - "1.0--h9948957_8"
 description: "shpc-registry automated BioContainers addition for fido"
-config: {"url": "https://biocontainers.pro/tools/fido", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fido", "latest": {"1.0--h4ac6f70_6": "sha256:6c85b1c93d40937ab34e7f2062bfd03c7a77548a0498960cbf4bd07679eda248"}, "tags": {"1.0--h9f5acd7_4": "sha256:fb93081e2598407c1b8f1867f1defa44ad54d274dfd7b00b1adaf680f6d3434f", "1.0--h9f5acd7_5": "sha256:f73a6450c9886e0e1c999ebae44b4fec4621206cfdda5d79777f5451cc93bba9", "1.0--h4ac6f70_6": "sha256:6c85b1c93d40937ab34e7f2062bfd03c7a77548a0498960cbf4bd07679eda248"}, "docker": "quay.io/biocontainers/fido", "aliases": {"Fido": "/usr/local/bin/Fido", "FidoChooseParameters": "/usr/local/bin/FidoChooseParameters"}}
+config: {"url": "https://biocontainers.pro/tools/fido", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fido", "latest": {"1.0--h9948957_8": "sha256:4e82da57756ce370ea6b80b927309596b244d1223a445dc8f7a9a3f0b4b880f5"}, "tags": {"1.0--h9f5acd7_4": "sha256:fb93081e2598407c1b8f1867f1defa44ad54d274dfd7b00b1adaf680f6d3434f", "1.0--h9f5acd7_5": "sha256:f73a6450c9886e0e1c999ebae44b4fec4621206cfdda5d79777f5451cc93bba9", "1.0--h4ac6f70_6": "sha256:6c85b1c93d40937ab34e7f2062bfd03c7a77548a0498960cbf4bd07679eda248", "1.0--h9948957_8": "sha256:4e82da57756ce370ea6b80b927309596b244d1223a445dc8f7a9a3f0b4b880f5"}, "docker": "quay.io/biocontainers/fido", "aliases": {"Fido": "/usr/local/bin/Fido", "FidoChooseParameters": "/usr/local/bin/FidoChooseParameters"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fido.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fido
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fido:1.0--h4ac6f70_6
+$ shpc install quay.io/biocontainers/fido:1.0--h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fido/1.0--h4ac6f70_6
-$ module help quay.io/biocontainers/fido/1.0--h4ac6f70_6
+$ module load quay.io/biocontainers/fido/1.0--h9948957_8
+$ module help quay.io/biocontainers/fido/1.0--h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

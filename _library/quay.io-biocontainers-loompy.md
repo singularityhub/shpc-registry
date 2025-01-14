@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/loompy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/loompy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/loompy/container.yaml"
-updated_at: "2025-01-13 03:29:23.495761"
+updated_at: "2025-01-14 03:14:27.639425"
 latest: "2.0.16--py_0"
 container_url: "https://biocontainers.pro/tools/loompy"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "2.0.9--py36_0"
  - "2.0.16--py_0"
 description: "shpc-registry automated BioContainers addition for loompy"
-config: {"url": "https://biocontainers.pro/tools/loompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for loompy", "latest": {"2.0.16--py_0": "sha256:8d0c86bb398f427170f11c490d65696228c97e72fdf892f35e56d2e95ddc0712"}, "tags": {"2.0.9--py36_0": "sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5", "2.0.16--py_0": "sha256:8d0c86bb398f427170f11c490d65696228c97e72fdf892f35e56d2e95ddc0712"}, "docker": "quay.io/biocontainers/loompy", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
+config: {"url": "https://biocontainers.pro/tools/loompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for loompy", "latest": {"2.0.16--py_0": "sha256:e9781f23aeaac51d514acd46488342c0e833c212462d512dfa9fbc242c8c16f9"}, "tags": {"2.0.9--py36_0": "sha256:ba571f43e477d75b43b1818b3cab3bea107cea5ca5988b37a787055495288ef3", "2.0.16--py_0": "sha256:e9781f23aeaac51d514acd46488342c0e833c212462d512dfa9fbc242c8c16f9"}, "docker": "quay.io/biocontainers/loompy", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/loompy.

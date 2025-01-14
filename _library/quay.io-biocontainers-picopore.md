@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/picopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picopore/container.yaml"
-updated_at: "2025-01-13 03:14:39.070873"
+updated_at: "2025-01-14 03:00:01.921821"
 latest: "1.2.0--pyh8b68c5b_1"
 container_url: "https://biocontainers.pro/tools/picopore"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "1.2.0--pyh8b68c5b_1"
 description: "shpc-registry automated BioContainers addition for picopore"
-config: {"url": "https://biocontainers.pro/tools/picopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picopore", "latest": {"1.2.0--pyh8b68c5b_1": "sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10"}, "tags": {"1.2.0--pyh8b68c5b_1": "sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10"}, "docker": "quay.io/biocontainers/picopore", "aliases": {"picopore": "/usr/local/bin/picopore", "picopore-realtime": "/usr/local/bin/picopore-realtime", "picopore-rename": "/usr/local/bin/picopore-rename", "picopore-test": "/usr/local/bin/picopore-test", "watchmedo": "/usr/local/bin/watchmedo", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/picopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picopore", "latest": {"1.2.0--pyh8b68c5b_1": "sha256:a53ec10c1d3e267058b18f30639695862b370042464447455a2d176413e84e32"}, "tags": {"1.2.0--pyh8b68c5b_1": "sha256:a53ec10c1d3e267058b18f30639695862b370042464447455a2d176413e84e32"}, "docker": "quay.io/biocontainers/picopore", "aliases": {"picopore": "/usr/local/bin/picopore", "picopore-realtime": "/usr/local/bin/picopore-realtime", "picopore-rename": "/usr/local/bin/picopore-rename", "picopore-test": "/usr/local/bin/picopore-test", "watchmedo": "/usr/local/bin/watchmedo", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/picopore.

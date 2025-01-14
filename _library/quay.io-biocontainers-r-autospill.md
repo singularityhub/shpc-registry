@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-autospill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-autospill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-autospill/container.yaml"
-updated_at: "2025-01-13 03:46:46.688913"
-latest: "0.2.0--r43hdfd78af_2"
+updated_at: "2025-01-14 03:31:55.654552"
+latest: "0.2.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-autospill"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.2.0--r41hdfd78af_0"
  - "0.2.0--r42hdfd78af_1"
  - "0.2.0--r43hdfd78af_2"
+ - "0.2.0--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-autospill"
-config: {"url": "https://biocontainers.pro/tools/r-autospill", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-autospill", "latest": {"0.2.0--r43hdfd78af_2": "sha256:ac3d90f7b89a844b072056596a0d8cee331a96eebd6d56fb579da4132aefd0d4"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c", "0.2.0--r42hdfd78af_1": "sha256:58ceb51d9990c43a9e7bda7ce2002df11a233f34f85f892535942c07d0ebaffd", "0.2.0--r43hdfd78af_2": "sha256:ac3d90f7b89a844b072056596a0d8cee331a96eebd6d56fb579da4132aefd0d4"}, "docker": "quay.io/biocontainers/r-autospill", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-autospill", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-autospill", "latest": {"0.2.0--r44hdfd78af_3": "sha256:28c76cd3f36024b2f1f72773f218ba58c37de5d9a78e54de2ab76ad0acd739b0"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c", "0.2.0--r42hdfd78af_1": "sha256:58ceb51d9990c43a9e7bda7ce2002df11a233f34f85f892535942c07d0ebaffd", "0.2.0--r43hdfd78af_2": "sha256:ac3d90f7b89a844b072056596a0d8cee331a96eebd6d56fb579da4132aefd0d4", "0.2.0--r44hdfd78af_3": "sha256:28c76cd3f36024b2f1f72773f218ba58c37de5d9a78e54de2ab76ad0acd739b0"}, "docker": "quay.io/biocontainers/r-autospill", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-autospill.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-autospill
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-autospill:0.2.0--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-autospill:0.2.0--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-autospill/0.2.0--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-autospill/0.2.0--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-autospill/0.2.0--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-autospill/0.2.0--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-api-python-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-api-python-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-api-python-client/container.yaml"
-updated_at: "2025-01-13 03:07:11.697328"
+updated_at: "2025-01-14 02:52:52.952719"
 latest: "1.4.2--py27_0"
 container_url: "https://biocontainers.pro/tools/google-api-python-client"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.4.2--py27_0"
 description: "shpc-registry automated BioContainers addition for google-api-python-client"
-config: {"url": "https://biocontainers.pro/tools/google-api-python-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-api-python-client", "latest": {"1.4.2--py27_0": "sha256:52559bf6cae8d765456e58b95bbd7f6ab0af1c8659cf537a972a5901abc965b0"}, "tags": {"1.4.2--py27_0": "sha256:52559bf6cae8d765456e58b95bbd7f6ab0af1c8659cf537a972a5901abc965b0"}, "docker": "quay.io/biocontainers/google-api-python-client", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "python2-config": "/usr/local/bin/python2-config"}}
+config: {"url": "https://biocontainers.pro/tools/google-api-python-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-api-python-client", "latest": {"1.4.2--py27_0": "sha256:fa4cc20f0db78f07898571cbd85839eaeb4d5b5768c28aa27ece6ff6747e0324"}, "tags": {"1.4.2--py27_0": "sha256:fa4cc20f0db78f07898571cbd85839eaeb4d5b5768c28aa27ece6ff6747e0324"}, "docker": "quay.io/biocontainers/google-api-python-client", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "python2-config": "/usr/local/bin/python2-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/google-api-python-client.

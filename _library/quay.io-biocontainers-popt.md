@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/popt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popt/container.yaml"
-updated_at: "2025-01-13 03:13:44.453180"
+updated_at: "2025-01-14 02:59:09.133718"
 latest: "1.16--1"
 container_url: "https://biocontainers.pro/tools/popt"
 
 versions:
  - "1.16--1"
 description: "shpc-registry automated BioContainers addition for popt"
-config: {"url": "https://biocontainers.pro/tools/popt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popt", "latest": {"1.16--1": "sha256:b9c8d96a6695522ea21610de3e127588d8111969a620d5d59ad4a2743a955b3f"}, "tags": {"1.16--1": "sha256:b9c8d96a6695522ea21610de3e127588d8111969a620d5d59ad4a2743a955b3f"}, "docker": "quay.io/biocontainers/popt"}
+config: {"url": "https://biocontainers.pro/tools/popt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popt", "latest": {"1.16--1": "sha256:e7ee02d1934164d4ee116288cae2725c8009621789fd0a4ed6fef27d179d33f1"}, "tags": {"1.16--1": "sha256:e7ee02d1934164d4ee116288cae2725c8009621789fd0a4ed6fef27d179d33f1"}, "docker": "quay.io/biocontainers/popt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popt.

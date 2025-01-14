@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdp_classifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp_classifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdp_classifier/container.yaml"
-updated_at: "2025-01-13 03:04:54.104400"
+updated_at: "2025-01-14 02:50:44.171906"
 latest: "2.14--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rdp_classifier"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "2.13--hdfd78af_1"
  - "2.14--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rdp_classifier"
-config: {"url": "https://biocontainers.pro/tools/rdp_classifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp_classifier", "latest": {"2.14--hdfd78af_0": "sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101"}, "tags": {"2.2--2": "sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2", "2.13--hdfd78af_1": "sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609", "2.14--hdfd78af_0": "sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101"}, "docker": "quay.io/biocontainers/rdp_classifier", "aliases": {"rdp_classifier": "/usr/local/bin/rdp_classifier", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/rdp_classifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp_classifier", "latest": {"2.14--hdfd78af_0": "sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101"}, "tags": {"2.2--2": "sha256:580ba3e3d44fcba453b2085f186fd7155e3af5a95e5d2adbd270a6a72a9e55ef", "2.13--hdfd78af_1": "sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609", "2.14--hdfd78af_0": "sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101"}, "docker": "quay.io/biocontainers/rdp_classifier", "aliases": {"rdp_classifier": "/usr/local/bin/rdp_classifier", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdp_classifier.

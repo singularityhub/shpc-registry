@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intervals/container.yaml"
-updated_at: "2025-01-13 03:12:56.993950"
+updated_at: "2025-01-14 02:58:23.866764"
 latest: "0.6.0--py36_0"
 container_url: "https://biocontainers.pro/tools/intervals"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.6.0--py36_0"
 description: "shpc-registry automated BioContainers addition for intervals"
-config: {"url": "https://biocontainers.pro/tools/intervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intervals", "latest": {"0.6.0--py36_0": "sha256:8fb2b70b41a4d62f6a1214a439bf2ea1527d1432b78d2d662004a65839a5e773"}, "tags": {"0.6.0--py36_0": "sha256:8fb2b70b41a4d62f6a1214a439bf2ea1527d1432b78d2d662004a65839a5e773"}, "docker": "quay.io/biocontainers/intervals", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/intervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intervals", "latest": {"0.6.0--py36_0": "sha256:8e13e560e29439a85c1a1009952543dfb6e79afc6cd27d9525238820d9d68558"}, "tags": {"0.6.0--py36_0": "sha256:8e13e560e29439a85c1a1009952543dfb6e79afc6cd27d9525238820d9d68558"}, "docker": "quay.io/biocontainers/intervals", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/intervals.

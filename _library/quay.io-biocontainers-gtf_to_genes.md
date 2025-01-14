@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtf_to_genes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtf_to_genes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtf_to_genes/container.yaml"
-updated_at: "2025-01-13 03:44:34.913199"
+updated_at: "2025-01-14 03:29:43.769805"
 latest: "1.40--py_2"
 container_url: "https://biocontainers.pro/tools/gtf_to_genes"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "1.40--py_2"
 description: "shpc-registry automated BioContainers addition for gtf_to_genes"
-config: {"url": "https://biocontainers.pro/tools/gtf_to_genes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtf_to_genes", "latest": {"1.40--py_2": "sha256:09c2e8d0f4bfee710a087edbfc9ae4ff35247b5a0ced8bf24bf13c2053b9613a"}, "tags": {"1.40--py_2": "sha256:09c2e8d0f4bfee710a087edbfc9ae4ff35247b5a0ced8bf24bf13c2053b9613a"}, "docker": "quay.io/biocontainers/gtf_to_genes", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/gtf_to_genes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtf_to_genes", "latest": {"1.40--py_2": "sha256:d498754e63d09b8a4d9a0deeb3b62e02c6328d96edf4adb4b15b05df0146235a"}, "tags": {"1.40--py_2": "sha256:d498754e63d09b8a4d9a0deeb3b62e02c6328d96edf4adb4b15b05df0146235a"}, "docker": "quay.io/biocontainers/gtf_to_genes", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtf_to_genes.

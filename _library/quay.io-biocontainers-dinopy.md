@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dinopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinopy/container.yaml"
-updated_at: "2025-01-13 03:27:49.680132"
-latest: "2.2.1--py310h0dbaff4_5"
+updated_at: "2025-01-14 03:12:58.619514"
+latest: "3.0.0--py39h1f90b4d_1"
 container_url: "https://biocontainers.pro/tools/dinopy"
 aliases:
  - "f2py3.9"
@@ -18,8 +18,10 @@ versions:
  - "2.2.1--py39hc16433a_2"
  - "2.2.1--py39hc16433a_3"
  - "2.2.1--py310h0dbaff4_5"
+ - "3.0.0--py39h1f90b4d_1"
+ - "2.2.1--py39h1f90b4d_5"
 description: "shpc-registry automated BioContainers addition for dinopy"
-config: {"url": "https://biocontainers.pro/tools/dinopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinopy", "latest": {"2.2.1--py310h0dbaff4_5": "sha256:8069974cdc7b141e53de0e1df7fcc0a498fadcf38812d17c3ceb173fbe411836"}, "tags": {"2.2.1--py39hc16433a_2": "sha256:85e3affae795af461f9ad88366de17edc47fc2232a880d0f67bda2c9fbf28402", "2.2.1--py39hc16433a_3": "sha256:10ef99552ac308f0f45916c22cd24fe2a6b8f56bbf0ed7ad83e51c7ea950d081", "2.2.1--py310h0dbaff4_5": "sha256:8069974cdc7b141e53de0e1df7fcc0a498fadcf38812d17c3ceb173fbe411836"}, "docker": "quay.io/biocontainers/dinopy", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/dinopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinopy", "latest": {"3.0.0--py39h1f90b4d_1": "sha256:528f7387520aade7618f911308c52de40559e31f5efda40d831985c3cd62a595"}, "tags": {"2.2.1--py39hc16433a_2": "sha256:85e3affae795af461f9ad88366de17edc47fc2232a880d0f67bda2c9fbf28402", "2.2.1--py39hc16433a_3": "sha256:10ef99552ac308f0f45916c22cd24fe2a6b8f56bbf0ed7ad83e51c7ea950d081", "2.2.1--py310h0dbaff4_5": "sha256:8069974cdc7b141e53de0e1df7fcc0a498fadcf38812d17c3ceb173fbe411836", "3.0.0--py39h1f90b4d_1": "sha256:528f7387520aade7618f911308c52de40559e31f5efda40d831985c3cd62a595", "2.2.1--py39h1f90b4d_5": "sha256:4ec68f50f12c813b84fa93e89c5395551c2a5bd4b504a0d2c90d9cf01cc4e7b7"}, "docker": "quay.io/biocontainers/dinopy", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dinopy.
@@ -34,7 +36,7 @@ $ shpc install quay.io/biocontainers/dinopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dinopy:2.2.1--py310h0dbaff4_5
+$ shpc install quay.io/biocontainers/dinopy:3.0.0--py39h1f90b4d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dinopy/2.2.1--py310h0dbaff4_5
-$ module help quay.io/biocontainers/dinopy/2.2.1--py310h0dbaff4_5
+$ module load quay.io/biocontainers/dinopy/3.0.0--py39h1f90b4d_1
+$ module help quay.io/biocontainers/dinopy/3.0.0--py39h1f90b4d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

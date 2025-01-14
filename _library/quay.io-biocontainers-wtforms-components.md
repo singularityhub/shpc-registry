@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtforms-components"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtforms-components/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtforms-components/container.yaml"
-updated_at: "2025-01-13 03:09:32.383050"
+updated_at: "2025-01-14 02:55:07.965231"
 latest: "0.10.0--py36_0"
 container_url: "https://biocontainers.pro/tools/wtforms-components"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.10.0--py36_0"
+ - "0.10.0--py35_0"
 description: "shpc-registry automated BioContainers addition for wtforms-components"
-config: {"url": "https://biocontainers.pro/tools/wtforms-components", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-components", "latest": {"0.10.0--py36_0": "sha256:b4644f93e737249673a975e656c6d3b07afb242f38001807eff68b7a1533642f"}, "tags": {"0.10.0--py36_0": "sha256:b4644f93e737249673a975e656c6d3b07afb242f38001807eff68b7a1533642f"}, "docker": "quay.io/biocontainers/wtforms-components", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/wtforms-components", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-components", "latest": {"0.10.0--py36_0": "sha256:1513fca6a5199ec8a9e2773e94d4ffbc28342340dc5f49681d8d98a7a9a5df52"}, "tags": {"0.10.0--py36_0": "sha256:1513fca6a5199ec8a9e2773e94d4ffbc28342340dc5f49681d8d98a7a9a5df52", "0.10.0--py35_0": "sha256:ada6a4ca0df7bbe3e742904cbebd397922efd2360c6d0c908cd91fb151102e3b"}, "docker": "quay.io/biocontainers/wtforms-components", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wtforms-components.

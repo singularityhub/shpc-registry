@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kimod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kimod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kimod/container.yaml"
-updated_at: "2025-01-13 03:21:58.314096"
+updated_at: "2025-01-14 03:07:11.829215"
 latest: "1.15.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kimod"
 
@@ -15,7 +15,7 @@ versions:
  - "1.12.0--r36_1"
  - "1.10.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kimod"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kimod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kimod", "latest": {"1.15.0--r40_0": "sha256:621ee0a4ceca20409a7d9c09d71fda39722f6172b55352d7e763737d685d8836"}, "tags": {"1.8.0--r351_0": "sha256:dec288df1090f703076c9ce884eae19d07d6ccec4cd96fd7c8af87ecf151d272", "1.15.0--r40_0": "sha256:621ee0a4ceca20409a7d9c09d71fda39722f6172b55352d7e763737d685d8836", "1.14.0--r36_0": "sha256:35b7f389d4fd71fff48d10cc560e009f714bd8697e5a730195cf4dd9d58c75e0", "1.12.0--r36_1": "sha256:43fa8825d556edad09f094b0fb78e46abf6a3b636e3313d1a57bbf0c3477da61", "1.10.0--r351_0": "sha256:7febb52d7d5bbbd4dfcf098f04b527d6a66442b449b5e0d5ecfa11cbeb156ce5"}, "docker": "quay.io/biocontainers/bioconductor-kimod"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kimod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kimod", "latest": {"1.15.0--r40_0": "sha256:621ee0a4ceca20409a7d9c09d71fda39722f6172b55352d7e763737d685d8836"}, "tags": {"1.8.0--r351_0": "sha256:b273c54ce4c4004bf64800551d7a6d7d2e29f226d793806afa008cf7c2da7a58", "1.15.0--r40_0": "sha256:621ee0a4ceca20409a7d9c09d71fda39722f6172b55352d7e763737d685d8836", "1.14.0--r36_0": "sha256:526a5d5ff2fcea6304296ed76354a9921e135dc95fff3fb6cfc5a230f319d550", "1.12.0--r36_1": "sha256:340cb94fe1cefdde3328faf2e17b2886597e0bcb2e677dde5043bdda83ac51f3", "1.10.0--r351_0": "sha256:4f3fdc03637b9bd8b5a1fe9780b0b9437e86a71e4ecf6514fbf1775dc77164d7"}, "docker": "quay.io/biocontainers/bioconductor-kimod"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kimod.

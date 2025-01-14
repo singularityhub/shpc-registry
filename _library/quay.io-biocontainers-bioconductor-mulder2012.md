@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mulder2012"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
-updated_at: "2025-01-13 03:16:11.056155"
+updated_at: "2025-01-14 03:01:28.975729"
 latest: "0.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mulder2012"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.26.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mulder2012"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mulder2012", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mulder2012", "latest": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "tags": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "docker": "quay.io/biocontainers/bioconductor-mulder2012", "aliases": {"giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mulder2012", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mulder2012", "latest": {"0.26.0--r36_0": "sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5"}, "tags": {"0.26.0--r36_0": "sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5"}, "docker": "quay.io/biocontainers/bioconductor-mulder2012", "aliases": {"giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mulder2012.

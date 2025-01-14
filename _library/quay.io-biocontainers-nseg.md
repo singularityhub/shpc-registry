@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nseg/container.yaml"
-updated_at: "2025-01-13 03:32:44.398928"
-latest: "1.0.1--h031d066_4"
+updated_at: "2025-01-14 03:17:50.479877"
+latest: "1.0.1--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/nseg"
 aliases:
  - "nmerge"
@@ -14,8 +14,9 @@ versions:
  - "1.0.1--hec16e2b_2"
  - "1.0.1--hec16e2b_3"
  - "1.0.1--h031d066_4"
+ - "1.0.1--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for nseg"
-config: {"url": "https://biocontainers.pro/tools/nseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nseg", "latest": {"1.0.1--h031d066_4": "sha256:7fc8b63329fe94d80458514e53699e17f9085349913a16868d4d3fd7f372cf3c"}, "tags": {"1.0.1--hec16e2b_2": "sha256:ecb65fda2abb6f2e61debff988b14eaaecc09fa340e960b69a10fb3102b35af1", "1.0.1--hec16e2b_3": "sha256:0bdbbbaed595facafbdf0f9ab4ba264fda38febb9663e9b507ab0ea0e979f4fd", "1.0.1--h031d066_4": "sha256:7fc8b63329fe94d80458514e53699e17f9085349913a16868d4d3fd7f372cf3c"}, "docker": "quay.io/biocontainers/nseg", "aliases": {"nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg"}}
+config: {"url": "https://biocontainers.pro/tools/nseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nseg", "latest": {"1.0.1--h7b50bb2_6": "sha256:1cf544f09f6af77927a7b90403d22aba59a9f35250e019b2434ea4fb5936b9b8"}, "tags": {"1.0.1--hec16e2b_2": "sha256:ecb65fda2abb6f2e61debff988b14eaaecc09fa340e960b69a10fb3102b35af1", "1.0.1--hec16e2b_3": "sha256:0bdbbbaed595facafbdf0f9ab4ba264fda38febb9663e9b507ab0ea0e979f4fd", "1.0.1--h031d066_4": "sha256:7fc8b63329fe94d80458514e53699e17f9085349913a16868d4d3fd7f372cf3c", "1.0.1--h7b50bb2_6": "sha256:1cf544f09f6af77927a7b90403d22aba59a9f35250e019b2434ea4fb5936b9b8"}, "docker": "quay.io/biocontainers/nseg", "aliases": {"nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nseg.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/nseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nseg:1.0.1--h031d066_4
+$ shpc install quay.io/biocontainers/nseg:1.0.1--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nseg/1.0.1--h031d066_4
-$ module help quay.io/biocontainers/nseg/1.0.1--h031d066_4
+$ module load quay.io/biocontainers/nseg/1.0.1--h7b50bb2_6
+$ module help quay.io/biocontainers/nseg/1.0.1--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

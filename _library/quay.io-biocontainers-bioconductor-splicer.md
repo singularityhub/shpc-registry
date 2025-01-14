@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicer/container.yaml"
-updated_at: "2025-01-13 03:21:51.287013"
+updated_at: "2025-01-14 03:07:04.844117"
 latest: "1.22.0--r351h470a237_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicer"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.22.0--r351h470a237_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-splicer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicer", "latest": {"1.22.0--r351h470a237_0": "sha256:3565b1c171972813a6b33aa68a8f104ca8b67355e14119f8f4fe0b75595f9e8b"}, "tags": {"1.22.0--r351h470a237_0": "sha256:3565b1c171972813a6b33aa68a8f104ca8b67355e14119f8f4fe0b75595f9e8b"}, "docker": "quay.io/biocontainers/bioconductor-splicer", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicer", "latest": {"1.22.0--r351h470a237_0": "sha256:13d7c230ca02fd0451330e03f8a61beb96c77f41aa76e8ad732abc0e435efec8"}, "tags": {"1.22.0--r351h470a237_0": "sha256:13d7c230ca02fd0451330e03f8a61beb96c77f41aa76e8ad732abc0e435efec8"}, "docker": "quay.io/biocontainers/bioconductor-splicer", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splicer.

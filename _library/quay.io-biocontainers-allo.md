@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/allo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/allo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/allo/container.yaml"
-updated_at: "2025-01-13 03:09:38.983526"
-latest: "1.1.1--pyhdfd78af_1"
+updated_at: "2025-01-14 02:55:14.221776"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/allo"
 aliases:
  - "allo"
@@ -36,8 +36,10 @@ aliases:
  - "pyrsa-keygen"
 versions:
  - "1.1.1--pyhdfd78af_1"
+ - "1.2.0--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for allo"
-config: {"url": "https://biocontainers.pro/tools/allo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for allo", "latest": {"1.1.1--pyhdfd78af_1": "sha256:33427e6f77e008d925f7995e53dd7761f5887b03092b2e9d83589ae5a030e2a2"}, "tags": {"1.1.1--pyhdfd78af_1": "sha256:33427e6f77e008d925f7995e53dd7761f5887b03092b2e9d83589ae5a030e2a2"}, "docker": "quay.io/biocontainers/allo", "aliases": {"allo": "/usr/local/bin/allo", "flatc": "/usr/local/bin/flatc", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "h5delete": "/usr/local/bin/h5delete", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
+config: {"url": "https://biocontainers.pro/tools/allo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for allo", "latest": {"1.2.0--pyhdfd78af_0": "sha256:bb5a7d06ef1875a53801a37fc632af85864c1b7d59644275b86d3e98cdda6ae1"}, "tags": {"1.1.1--pyhdfd78af_1": "sha256:33427e6f77e008d925f7995e53dd7761f5887b03092b2e9d83589ae5a030e2a2", "1.2.0--pyhdfd78af_0": "sha256:bb5a7d06ef1875a53801a37fc632af85864c1b7d59644275b86d3e98cdda6ae1", "1.1.2--pyhdfd78af_0": "sha256:0bcb207cfd5ba1581a05e53eedb37df2da2101f6bab0f131e4e9071ca5d784bd"}, "docker": "quay.io/biocontainers/allo", "aliases": {"allo": "/usr/local/bin/allo", "flatc": "/usr/local/bin/flatc", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "h5delete": "/usr/local/bin/h5delete", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/allo.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/allo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/allo:1.1.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/allo:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/allo/1.1.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/allo/1.1.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/allo/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/allo/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

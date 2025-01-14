@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwakit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwakit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwakit/container.yaml"
-updated_at: "2025-01-13 03:34:18.511827"
-latest: "0.7.17.dev1--hdfd78af_1"
+updated_at: "2025-01-14 03:19:27.572433"
+latest: "0.7.18.dev1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bwakit"
 aliases:
  - "bwa-postalt.js"
@@ -33,8 +33,9 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "0.7.17.dev1--hdfd78af_1"
+ - "0.7.18.dev1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bwakit"
-config: {"url": "https://biocontainers.pro/tools/bwakit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwakit", "latest": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "tags": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "docker": "quay.io/biocontainers/bwakit", "aliases": {"bwa-postalt.js": "/usr/local/bin/bwa-postalt.js", "fermi2": "/usr/local/bin/fermi2", "fermi2.pl": "/usr/local/bin/fermi2.pl", "htsbox": "/usr/local/bin/htsbox", "ropebwt2": "/usr/local/bin/ropebwt2", "run-HLA": "/usr/local/bin/run-HLA", "run-bwamem": "/usr/local/bin/run-bwamem", "run-gen-ref": "/usr/local/bin/run-gen-ref", "samblaster": "/usr/local/bin/samblaster", "trimadap": "/usr/local/bin/trimadap", "typeHLA-selctg.js": "/usr/local/bin/typeHLA-selctg.js", "typeHLA.js": "/usr/local/bin/typeHLA.js", "typeHLA.sh": "/usr/local/bin/typeHLA.sh", "seqtk": "/usr/local/bin/seqtk", "perl5.32.0": "/usr/local/bin/perl5.32.0", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/bwakit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwakit", "latest": {"0.7.18.dev1--hdfd78af_0": "sha256:44405647a7c54404e45a6b3ab63b1307fd1890a40d2077bbbcb340ecd4c8745e"}, "tags": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4", "0.7.18.dev1--hdfd78af_0": "sha256:44405647a7c54404e45a6b3ab63b1307fd1890a40d2077bbbcb340ecd4c8745e"}, "docker": "quay.io/biocontainers/bwakit", "aliases": {"bwa-postalt.js": "/usr/local/bin/bwa-postalt.js", "fermi2": "/usr/local/bin/fermi2", "fermi2.pl": "/usr/local/bin/fermi2.pl", "htsbox": "/usr/local/bin/htsbox", "ropebwt2": "/usr/local/bin/ropebwt2", "run-HLA": "/usr/local/bin/run-HLA", "run-bwamem": "/usr/local/bin/run-bwamem", "run-gen-ref": "/usr/local/bin/run-gen-ref", "samblaster": "/usr/local/bin/samblaster", "trimadap": "/usr/local/bin/trimadap", "typeHLA-selctg.js": "/usr/local/bin/typeHLA-selctg.js", "typeHLA.js": "/usr/local/bin/typeHLA.js", "typeHLA.sh": "/usr/local/bin/typeHLA.sh", "seqtk": "/usr/local/bin/seqtk", "perl5.32.0": "/usr/local/bin/perl5.32.0", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwakit.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/bwakit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwakit:0.7.17.dev1--hdfd78af_1
+$ shpc install quay.io/biocontainers/bwakit:0.7.18.dev1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwakit/0.7.17.dev1--hdfd78af_1
-$ module help quay.io/biocontainers/bwakit/0.7.17.dev1--hdfd78af_1
+$ module load quay.io/biocontainers/bwakit/0.7.18.dev1--hdfd78af_0
+$ module help quay.io/biocontainers/bwakit/0.7.18.dev1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

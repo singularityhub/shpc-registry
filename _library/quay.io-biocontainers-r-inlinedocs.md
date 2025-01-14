@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-inlinedocs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-inlinedocs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-inlinedocs/container.yaml"
-updated_at: "2025-01-13 02:59:10.073507"
+updated_at: "2025-01-14 02:45:30.358044"
 latest: "2013.9.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-inlinedocs"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "2013.9.3--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-inlinedocs"
-config: {"url": "https://biocontainers.pro/tools/r-inlinedocs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inlinedocs", "latest": {"2013.9.3--r3.3.1_0": "sha256:6ef05561b1faca14258f1b314faef3023f5ed0f20f38c404d7aa2bab0ea187a8"}, "tags": {"2013.9.3--r3.3.1_0": "sha256:6ef05561b1faca14258f1b314faef3023f5ed0f20f38c404d7aa2bab0ea187a8"}, "docker": "quay.io/biocontainers/r-inlinedocs", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-inlinedocs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inlinedocs", "latest": {"2013.9.3--r3.3.1_0": "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"2013.9.3--r3.3.1_0": "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/r-inlinedocs", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-inlinedocs.

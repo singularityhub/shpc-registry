@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eukulele"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukulele/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukulele/container.yaml"
-updated_at: "2025-01-13 03:01:30.138473"
-latest: "2.0.7--pyh78b79e7_0"
+updated_at: "2025-01-14 02:47:37.288633"
+latest: "2.0.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/eukulele"
 aliases:
  - "EUKulele"
@@ -31,8 +31,9 @@ versions:
  - "2.0.3--pyh723bec7_0"
  - "2.0.5--pyh723bec7_0"
  - "2.0.7--pyh78b79e7_0"
+ - "2.0.9--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for eukulele"
-config: {"url": "https://biocontainers.pro/tools/eukulele", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukulele", "latest": {"2.0.7--pyh78b79e7_0": "sha256:d0e461691d1e923a0172d48f00694141bc6f21cafbfd3ae4a8f4b8efa870bca4"}, "tags": {"2.0.3--pyh723bec7_0": "sha256:7933d7d1a2a15a96aef32fd3c49edecb5a5850de0c344ff3920a06a135267578", "2.0.5--pyh723bec7_0": "sha256:316003c5cb7e632ca43464a578bae5272af27ac966743cf752c46e673242ee4f", "2.0.7--pyh78b79e7_0": "sha256:d0e461691d1e923a0172d48f00694141bc6f21cafbfd3ae4a8f4b8efa870bca4"}, "docker": "quay.io/biocontainers/eukulele", "aliases": {"EUKulele": "/usr/local/bin/EUKulele", "after_job.sh": "/usr/local/bin/after_job.sh", "concatenate_busco.sh": "/usr/local/bin/concatenate_busco.sh", "configure_busco.sh": "/usr/local/bin/configure_busco.sh", "coordinate_batch.sh": "/usr/local/bin/coordinate_batch.sh", "create_protein_table.py": "/usr/local/bin/create_protein_table.py", "download_database.sh": "/usr/local/bin/download_database.sh", "install_dependencies.sh": "/usr/local/bin/install_dependencies.sh", "run_busco.sh": "/usr/local/bin/run_busco.sh", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "diamond": "/usr/local/bin/diamond", "seedtop": "/usr/local/bin/seedtop", "idn2": "/usr/local/bin/idn2", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
+config: {"url": "https://biocontainers.pro/tools/eukulele", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukulele", "latest": {"2.0.9--pyhdfd78af_1": "sha256:6bc27c53041396a3e96472d06ea91e828706846a33cf46956f5014e6714bad1a"}, "tags": {"2.0.3--pyh723bec7_0": "sha256:7933d7d1a2a15a96aef32fd3c49edecb5a5850de0c344ff3920a06a135267578", "2.0.5--pyh723bec7_0": "sha256:316003c5cb7e632ca43464a578bae5272af27ac966743cf752c46e673242ee4f", "2.0.7--pyh78b79e7_0": "sha256:d0e461691d1e923a0172d48f00694141bc6f21cafbfd3ae4a8f4b8efa870bca4", "2.0.9--pyhdfd78af_1": "sha256:6bc27c53041396a3e96472d06ea91e828706846a33cf46956f5014e6714bad1a"}, "docker": "quay.io/biocontainers/eukulele", "aliases": {"EUKulele": "/usr/local/bin/EUKulele", "after_job.sh": "/usr/local/bin/after_job.sh", "concatenate_busco.sh": "/usr/local/bin/concatenate_busco.sh", "configure_busco.sh": "/usr/local/bin/configure_busco.sh", "coordinate_batch.sh": "/usr/local/bin/coordinate_batch.sh", "create_protein_table.py": "/usr/local/bin/create_protein_table.py", "download_database.sh": "/usr/local/bin/download_database.sh", "install_dependencies.sh": "/usr/local/bin/install_dependencies.sh", "run_busco.sh": "/usr/local/bin/run_busco.sh", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "diamond": "/usr/local/bin/diamond", "seedtop": "/usr/local/bin/seedtop", "idn2": "/usr/local/bin/idn2", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukulele.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/eukulele
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eukulele:2.0.7--pyh78b79e7_0
+$ shpc install quay.io/biocontainers/eukulele:2.0.9--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eukulele/2.0.7--pyh78b79e7_0
-$ module help quay.io/biocontainers/eukulele/2.0.7--pyh78b79e7_0
+$ module load quay.io/biocontainers/eukulele/2.0.9--pyhdfd78af_1
+$ module help quay.io/biocontainers/eukulele/2.0.9--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

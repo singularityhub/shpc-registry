@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-loci2path"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-loci2path/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-loci2path/container.yaml"
-updated_at: "2025-01-13 03:30:49.106604"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-14 03:15:52.014512"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-loci2path"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-loci2path"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-loci2path", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-loci2path", "latest": {"1.22.0--r43hdfd78af_0": "sha256:dc537ac49d4b90824b8f02ad47d8be306361ba23e5450c5b1466c3793c18d678"}, "tags": {"1.8.0--r40_0": "sha256:2b1cc4fdfe687df9ff9219ba34ab84902a55010b3ded5fe6e7d30692fdfd12d7", "1.18.0--r42hdfd78af_0": "sha256:1b7c16a9effdc93902f14f24e26f1bfdaf50569bbc427a072f05eb9530b1f5ad", "1.14.0--r41hdfd78af_0": "sha256:0bed613740e32f19b6b94b8797e65e66a26186bab0c376312c7773ba2257ac6a", "1.12.0--r41hdfd78af_0": "sha256:c23838bc17f293827991cfe300b1671db7cff0f1ad9fb44d59d87cb30d013c0e", "1.10.0--r40hdfd78af_1": "sha256:5f899be07c6eebd7f2625c50f23fdaa3e7d0d3bc7d829cb8217e6872a96ced1c", "1.20.0--r43hdfd78af_0": "sha256:2b4ed9ecf0ea177995f81596cf9edf588eb027ab6fe5c4919269fed11939b875", "1.22.0--r43hdfd78af_0": "sha256:dc537ac49d4b90824b8f02ad47d8be306361ba23e5450c5b1466c3793c18d678"}, "docker": "quay.io/biocontainers/bioconductor-loci2path", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-loci2path", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-loci2path", "latest": {"1.26.0--r44hdfd78af_0": "sha256:cd6a3e80d53127c05f8c1aaf11d8348d625771f6f5877472f4928b9ec5fa2274"}, "tags": {"1.8.0--r40_0": "sha256:2b1cc4fdfe687df9ff9219ba34ab84902a55010b3ded5fe6e7d30692fdfd12d7", "1.18.0--r42hdfd78af_0": "sha256:1b7c16a9effdc93902f14f24e26f1bfdaf50569bbc427a072f05eb9530b1f5ad", "1.14.0--r41hdfd78af_0": "sha256:0bed613740e32f19b6b94b8797e65e66a26186bab0c376312c7773ba2257ac6a", "1.12.0--r41hdfd78af_0": "sha256:c23838bc17f293827991cfe300b1671db7cff0f1ad9fb44d59d87cb30d013c0e", "1.10.0--r40hdfd78af_1": "sha256:5f899be07c6eebd7f2625c50f23fdaa3e7d0d3bc7d829cb8217e6872a96ced1c", "1.20.0--r43hdfd78af_0": "sha256:2b4ed9ecf0ea177995f81596cf9edf588eb027ab6fe5c4919269fed11939b875", "1.22.0--r43hdfd78af_0": "sha256:dc537ac49d4b90824b8f02ad47d8be306361ba23e5450c5b1466c3793c18d678", "1.26.0--r44hdfd78af_0": "sha256:cd6a3e80d53127c05f8c1aaf11d8348d625771f6f5877472f4928b9ec5fa2274"}, "docker": "quay.io/biocontainers/bioconductor-loci2path", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-loci2path.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-loci2path
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-loci2path:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-loci2path:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-loci2path/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-loci2path/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-loci2path/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-loci2path/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

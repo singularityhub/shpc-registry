@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/monovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monovar/container.yaml"
-updated_at: "2025-01-13 03:01:49.673001"
+updated_at: "2025-01-14 02:47:54.899290"
 latest: "v0.0.1--2"
 container_url: "https://biocontainers.pro/tools/monovar"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "v0.0.1--2"
 description: "shpc-registry automated BioContainers addition for monovar"
-config: {"url": "https://biocontainers.pro/tools/monovar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for monovar", "latest": {"v0.0.1--2": "sha256:6242adec0c874a00549039c152c097678969e44cace41721d2ed76424ccafe8e"}, "tags": {"v0.0.1--2": "sha256:6242adec0c874a00549039c152c097678969e44cace41721d2ed76424ccafe8e"}, "docker": "quay.io/biocontainers/monovar", "aliases": {"monovar": "/usr/local/bin/monovar", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/monovar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for monovar", "latest": {"v0.0.1--2": "sha256:62ac37487c35e1b136276feda34f36e42b06a1d1c599de3359f78e691a06ce93"}, "tags": {"v0.0.1--2": "sha256:62ac37487c35e1b136276feda34f36e42b06a1d1c599de3359f78e691a06ce93"}, "docker": "quay.io/biocontainers/monovar", "aliases": {"monovar": "/usr/local/bin/monovar", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/monovar.

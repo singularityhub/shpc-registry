@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samestr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samestr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samestr/container.yaml"
-updated_at: "2025-01-13 03:17:53.153596"
-latest: "1.2024.2.post1--pyhdfd78af_0"
+updated_at: "2025-01-14 03:03:06.423832"
+latest: "1.2024.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samestr"
 aliases:
  - "dump_file.py"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.2023.4--pyhdfd78af_0"
  - "1.2024.2.post1--pyhdfd78af_0"
+ - "1.2024.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for samestr"
-config: {"url": "https://biocontainers.pro/tools/samestr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samestr", "latest": {"1.2024.2.post1--pyhdfd78af_0": "sha256:3495c11e9c233a7e5be4ec836b2b1db47537a1719726814373d4cff16b5cd987"}, "tags": {"1.2023.4--pyhdfd78af_0": "sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a", "1.2024.2.post1--pyhdfd78af_0": "sha256:3495c11e9c233a7e5be4ec836b2b1db47537a1719726814373d4cff16b5cd987"}, "docker": "quay.io/biocontainers/samestr", "aliases": {"dump_file.py": "/usr/local/bin/dump_file.py", "filter_sam.py": "/usr/local/bin/filter_sam.py", "kp2np.py": "/usr/local/bin/kp2np.py", "kpileup.py": "/usr/local/bin/kpileup.py", "samestr": "/usr/local/bin/samestr", "muscle": "/usr/local/bin/muscle", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
+config: {"url": "https://biocontainers.pro/tools/samestr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samestr", "latest": {"1.2024.8--pyhdfd78af_0": "sha256:7467e688bdeb90342c425ab4fa64adeb46f8e1373a5510e06647b8237a586c97"}, "tags": {"1.2023.4--pyhdfd78af_0": "sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a", "1.2024.2.post1--pyhdfd78af_0": "sha256:3495c11e9c233a7e5be4ec836b2b1db47537a1719726814373d4cff16b5cd987", "1.2024.8--pyhdfd78af_0": "sha256:7467e688bdeb90342c425ab4fa64adeb46f8e1373a5510e06647b8237a586c97"}, "docker": "quay.io/biocontainers/samestr", "aliases": {"dump_file.py": "/usr/local/bin/dump_file.py", "filter_sam.py": "/usr/local/bin/filter_sam.py", "kp2np.py": "/usr/local/bin/kp2np.py", "kpileup.py": "/usr/local/bin/kpileup.py", "samestr": "/usr/local/bin/samestr", "muscle": "/usr/local/bin/muscle", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samestr.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/samestr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samestr:1.2024.2.post1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/samestr:1.2024.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samestr/1.2024.2.post1--pyhdfd78af_0
-$ module help quay.io/biocontainers/samestr/1.2024.2.post1--pyhdfd78af_0
+$ module load quay.io/biocontainers/samestr/1.2024.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/samestr/1.2024.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

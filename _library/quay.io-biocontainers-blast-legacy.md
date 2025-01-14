@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blast-legacy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast-legacy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast-legacy/container.yaml"
-updated_at: "2025-01-13 03:23:22.723841"
-latest: "2.2.26--h9ee0642_3"
+updated_at: "2025-01-14 03:08:36.181435"
+latest: "2.2.26--hf7ff83a_5"
 container_url: "https://biocontainers.pro/tools/blast-legacy"
 aliases:
  - "bl2seq"
@@ -20,8 +20,9 @@ aliases:
  - "makemat"
 versions:
  - "2.2.26--h9ee0642_3"
+ - "2.2.26--hf7ff83a_5"
 description: "shpc-registry automated BioContainers addition for blast-legacy"
-config: {"url": "https://biocontainers.pro/tools/blast-legacy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast-legacy", "latest": {"2.2.26--h9ee0642_3": "sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065"}, "tags": {"2.2.26--h9ee0642_3": "sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065"}, "docker": "quay.io/biocontainers/blast-legacy", "aliases": {"bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/blast-legacy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast-legacy", "latest": {"2.2.26--hf7ff83a_5": "sha256:46514456fd7651f66de624e400bc979c4f78d832ff726c916e2843349cdaa4ec"}, "tags": {"2.2.26--h9ee0642_3": "sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065", "2.2.26--hf7ff83a_5": "sha256:46514456fd7651f66de624e400bc979c4f78d832ff726c916e2843349cdaa4ec"}, "docker": "quay.io/biocontainers/blast-legacy", "aliases": {"bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blast-legacy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/blast-legacy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blast-legacy:2.2.26--h9ee0642_3
+$ shpc install quay.io/biocontainers/blast-legacy:2.2.26--hf7ff83a_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blast-legacy/2.2.26--h9ee0642_3
-$ module help quay.io/biocontainers/blast-legacy/2.2.26--h9ee0642_3
+$ module load quay.io/biocontainers/blast-legacy/2.2.26--hf7ff83a_5
+$ module help quay.io/biocontainers/blast-legacy/2.2.26--hf7ff83a_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

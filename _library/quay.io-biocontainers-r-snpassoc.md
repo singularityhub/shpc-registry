@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snpassoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snpassoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snpassoc/container.yaml"
-updated_at: "2025-01-13 03:40:12.262145"
+updated_at: "2025-01-14 03:25:19.680553"
 latest: "1.9_2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-snpassoc"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.9_2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-snpassoc"
-config: {"url": "https://biocontainers.pro/tools/r-snpassoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snpassoc", "latest": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "tags": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "docker": "quay.io/biocontainers/r-snpassoc", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-snpassoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snpassoc", "latest": {"1.9_2--r3.4.1_0": "sha256:204e1bd0cc2548f6e309cecd38f4d52a0a04140e5d72bcc18fe09749cc72bc70"}, "tags": {"1.9_2--r3.4.1_0": "sha256:204e1bd0cc2548f6e309cecd38f4d52a0a04140e5d72bcc18fe09749cc72bc70"}, "docker": "quay.io/biocontainers/r-snpassoc", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-snpassoc.

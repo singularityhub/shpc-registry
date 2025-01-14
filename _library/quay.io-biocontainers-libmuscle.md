@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/libmuscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmuscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmuscle/container.yaml"
-updated_at: "2025-01-13 03:41:01.578108"
+updated_at: "2025-01-14 03:26:07.965537"
 latest: "3.7--h470a237_1"
 container_url: "https://biocontainers.pro/tools/libmuscle"
 
 versions:
  - "3.7--h470a237_1"
 description: "shpc-registry automated BioContainers addition for libmuscle"
-config: {"url": "https://biocontainers.pro/tools/libmuscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmuscle", "latest": {"3.7--h470a237_1": "sha256:bf9fc0fcc57d6c315e3b7c81b639243b3e29a4c5f87e7eb35c846fa6d7a7b0c4"}, "tags": {"3.7--h470a237_1": "sha256:bf9fc0fcc57d6c315e3b7c81b639243b3e29a4c5f87e7eb35c846fa6d7a7b0c4"}, "docker": "quay.io/biocontainers/libmuscle"}
+config: {"url": "https://biocontainers.pro/tools/libmuscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmuscle", "latest": {"3.7--h470a237_1": "sha256:653702fb482a0b91674a1c787db9784f5601f20d1e4474358b68a12cf181ed09"}, "tags": {"3.7--h470a237_1": "sha256:653702fb482a0b91674a1c787db9784f5601f20d1e4474358b68a12cf181ed09"}, "docker": "quay.io/biocontainers/libmuscle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libmuscle.

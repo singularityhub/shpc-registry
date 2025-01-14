@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-wget/container.yaml"
-updated_at: "2025-01-13 03:18:04.193844"
+updated_at: "2025-01-14 03:03:17.070132"
 latest: "3.2--py36_0"
 container_url: "https://biocontainers.pro/tools/python-wget"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.2--py36_0"
 description: "shpc-registry automated BioContainers addition for python-wget"
-config: {"url": "https://biocontainers.pro/tools/python-wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-wget", "latest": {"3.2--py36_0": "sha256:224c872434cc1d6ba6d80cf210ed5a1fbbf516b3b2fcd50a62c57bf1962c269d"}, "tags": {"3.2--py36_0": "sha256:224c872434cc1d6ba6d80cf210ed5a1fbbf516b3b2fcd50a62c57bf1962c269d"}, "docker": "quay.io/biocontainers/python-wget", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/python-wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-wget", "latest": {"3.2--py36_0": "sha256:acc114d58f89f5b8d046e0ba5a82d2fc29d748171d4fdddd0c7265fb5c7075cb"}, "tags": {"3.2--py36_0": "sha256:acc114d58f89f5b8d046e0ba5a82d2fc29d748171d4fdddd0c7265fb5c7075cb"}, "docker": "quay.io/biocontainers/python-wget", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-wget.

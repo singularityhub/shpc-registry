@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cispath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cispath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cispath/container.yaml"
-updated_at: "2025-01-13 03:17:10.127740"
-latest: "1.42.0--r43hf17093f_1"
+updated_at: "2025-01-14 03:02:24.237903"
+latest: "1.46.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cispath"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.38.0--r42hf17093f_2"
  - "1.40.0--r43hf17093f_0"
  - "1.42.0--r43hf17093f_1"
+ - "1.46.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cispath"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cispath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cispath", "latest": {"1.42.0--r43hf17093f_1": "sha256:8365ea5595f5c8a3a1d141424fc9ff43b1250ae5f49b7942062828d524c87b0e"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:5fb1c643bd4f9fedf159806793a9473db91d3f62cb7007b3c95db105b91297d5", "1.38.0--r42hc247a5b_0": "sha256:ef78b9e29badcc41743ae56b54b2e76484ab97eed45fa9a126dd301cf4300525", "1.38.0--r42hc247a5b_1": "sha256:65acba7923e8036702e6130c4d8a1b361c91d91bc2a75c0d8cff0f328cfc51a7", "1.38.0--r42hf17093f_2": "sha256:f6a2213ed1b470a8e67844bc1c517f0c5841ed5850ecd0cb9356d1dee853e270", "1.40.0--r43hf17093f_0": "sha256:feb36906d1b09dbca54d2368323e3d4907ecfa644cdd5ec52d50b9b4d45bee86", "1.42.0--r43hf17093f_1": "sha256:8365ea5595f5c8a3a1d141424fc9ff43b1250ae5f49b7942062828d524c87b0e"}, "docker": "quay.io/biocontainers/bioconductor-cispath"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cispath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cispath", "latest": {"1.46.0--r44he5774e6_0": "sha256:54efc7c557af215a6ced8a63dfffc94b90f414c27919f26a642e57265a9272cd"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:5fb1c643bd4f9fedf159806793a9473db91d3f62cb7007b3c95db105b91297d5", "1.38.0--r42hc247a5b_0": "sha256:ef78b9e29badcc41743ae56b54b2e76484ab97eed45fa9a126dd301cf4300525", "1.38.0--r42hc247a5b_1": "sha256:65acba7923e8036702e6130c4d8a1b361c91d91bc2a75c0d8cff0f328cfc51a7", "1.38.0--r42hf17093f_2": "sha256:f6a2213ed1b470a8e67844bc1c517f0c5841ed5850ecd0cb9356d1dee853e270", "1.40.0--r43hf17093f_0": "sha256:feb36906d1b09dbca54d2368323e3d4907ecfa644cdd5ec52d50b9b4d45bee86", "1.42.0--r43hf17093f_1": "sha256:8365ea5595f5c8a3a1d141424fc9ff43b1250ae5f49b7942062828d524c87b0e", "1.46.0--r44he5774e6_0": "sha256:54efc7c557af215a6ced8a63dfffc94b90f414c27919f26a642e57265a9272cd"}, "docker": "quay.io/biocontainers/bioconductor-cispath"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cispath.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cispath
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cispath:1.42.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-cispath:1.46.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cispath/1.42.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-cispath/1.42.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-cispath/1.46.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-cispath/1.46.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

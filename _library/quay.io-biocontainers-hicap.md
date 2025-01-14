@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicap/container.yaml"
-updated_at: "2025-01-13 03:29:35.871820"
-latest: "1.0.3--py_0"
+updated_at: "2025-01-14 03:14:39.403587"
+latest: "1.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hicap"
 aliases:
  - "hicap"
@@ -21,8 +21,9 @@ aliases:
  - "bt-load"
 versions:
  - "1.0.3--py_0"
+ - "1.0.4--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hicap"
-config: {"url": "https://biocontainers.pro/tools/hicap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicap", "latest": {"1.0.3--py_0": "sha256:451feaefca1d9316caf5eb86476c93fd9217b1cebd3684b6443c2b0d67ad2fdc"}, "tags": {"1.0.3--py_0": "sha256:451feaefca1d9316caf5eb86476c93fd9217b1cebd3684b6443c2b0d67ad2fdc"}, "docker": "quay.io/biocontainers/hicap", "aliases": {"hicap": "/usr/local/bin/hicap", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "prodigal": "/usr/local/bin/prodigal", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
+config: {"url": "https://biocontainers.pro/tools/hicap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicap", "latest": {"1.0.4--pyhdfd78af_1": "sha256:7682262b9e83d8e55d7fd9cc395a2ba62b76b2584632c9137eaba98d2a93a297"}, "tags": {"1.0.3--py_0": "sha256:182ca8d8a1978d42c96ac8431a05d0c52f64346556633931f41edba1c85499cc", "1.0.4--pyhdfd78af_1": "sha256:7682262b9e83d8e55d7fd9cc395a2ba62b76b2584632c9137eaba98d2a93a297"}, "docker": "quay.io/biocontainers/hicap", "aliases": {"hicap": "/usr/local/bin/hicap", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "prodigal": "/usr/local/bin/prodigal", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicap.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/hicap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicap:1.0.3--py_0
+$ shpc install quay.io/biocontainers/hicap:1.0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicap/1.0.3--py_0
-$ module help quay.io/biocontainers/hicap/1.0.3--py_0
+$ module load quay.io/biocontainers/hicap/1.0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/hicap/1.0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

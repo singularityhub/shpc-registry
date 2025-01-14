@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sepp-refgg138"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp-refgg138/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp-refgg138/container.yaml"
-updated_at: "2025-01-13 03:29:19.871310"
+updated_at: "2025-01-14 03:14:24.216289"
 latest: "4.5.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sepp-refgg138"
 
@@ -12,7 +12,7 @@ versions:
  - "v4.3.6--0"
  - "4.5.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for sepp-refgg138"
-config: {"url": "https://biocontainers.pro/tools/sepp-refgg138", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp-refgg138", "latest": {"4.5.1--hdfd78af_1": "sha256:4b170a7388b79c8bdf90931d896e05f2460e26dc3f300217c485d52587d2e34e"}, "tags": {"v4.3.6--0": "sha256:f721c73a1303d78648291763f2f0dbe601b3636b9fed8f98f825ee92e05ace0b", "4.5.1--hdfd78af_1": "sha256:4b170a7388b79c8bdf90931d896e05f2460e26dc3f300217c485d52587d2e34e"}, "docker": "quay.io/biocontainers/sepp-refgg138"}
+config: {"url": "https://biocontainers.pro/tools/sepp-refgg138", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp-refgg138", "latest": {"4.5.1--hdfd78af_1": "sha256:4b170a7388b79c8bdf90931d896e05f2460e26dc3f300217c485d52587d2e34e"}, "tags": {"v4.3.6--0": "sha256:267386483b016ef0286829d5db3f8632fb336ee8d4c451b03d9935d1483cded9", "4.5.1--hdfd78af_1": "sha256:4b170a7388b79c8bdf90931d896e05f2460e26dc3f300217c485d52587d2e34e"}, "docker": "quay.io/biocontainers/sepp-refgg138"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sepp-refgg138.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/talloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/talloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/talloc/container.yaml"
-updated_at: "2025-01-13 03:22:19.147508"
+updated_at: "2025-01-14 03:07:32.623470"
 latest: "2.1.9--0"
 container_url: "https://biocontainers.pro/tools/talloc"
 
 versions:
  - "2.1.9--0"
 description: "shpc-registry automated BioContainers addition for talloc"
-config: {"url": "https://biocontainers.pro/tools/talloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talloc", "latest": {"2.1.9--0": "sha256:55187548fd8f8a225bef01b8352871a2af2159409e2ed0f4051a53a9cdba4fcf"}, "tags": {"2.1.9--0": "sha256:55187548fd8f8a225bef01b8352871a2af2159409e2ed0f4051a53a9cdba4fcf"}, "docker": "quay.io/biocontainers/talloc"}
+config: {"url": "https://biocontainers.pro/tools/talloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talloc", "latest": {"2.1.9--0": "sha256:3b00ae7f39f92fc9ba53bac3a7288ffb5fac3cb0e2d246dd2ac2856f35213620"}, "tags": {"2.1.9--0": "sha256:3b00ae7f39f92fc9ba53bac3a7288ffb5fac3cb0e2d246dd2ac2856f35213620"}, "docker": "quay.io/biocontainers/talloc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/talloc.

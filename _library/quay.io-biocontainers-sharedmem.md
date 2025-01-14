@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sharedmem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharedmem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharedmem/container.yaml"
-updated_at: "2025-01-13 03:29:21.990349"
+updated_at: "2025-01-14 03:14:26.230019"
 latest: "0.3.6--py_0"
 container_url: "https://biocontainers.pro/tools/sharedmem"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.3.6--py_0"
 description: "shpc-registry automated BioContainers addition for sharedmem"
-config: {"url": "https://biocontainers.pro/tools/sharedmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sharedmem", "latest": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "tags": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "docker": "quay.io/biocontainers/sharedmem", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/sharedmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sharedmem", "latest": {"0.3.6--py_0": "sha256:259c5f9ea7e874261a1617acb79d050465b649bda2bf49f9dd3f68c28ae2d5a8"}, "tags": {"0.3.6--py_0": "sha256:259c5f9ea7e874261a1617acb79d050465b649bda2bf49f9dd3f68c28ae2d5a8"}, "docker": "quay.io/biocontainers/sharedmem", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sharedmem.

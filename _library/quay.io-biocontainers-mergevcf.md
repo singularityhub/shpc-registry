@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mergevcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mergevcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mergevcf/container.yaml"
-updated_at: "2025-01-13 03:06:33.322737"
+updated_at: "2025-01-14 02:52:16.644487"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/mergevcf"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.1--py_2"
 description: "shpc-registry automated BioContainers addition for mergevcf"
-config: {"url": "https://biocontainers.pro/tools/mergevcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mergevcf", "latest": {"1.0.1--py_2": "sha256:8381ebadd1b2d6d132451311da2855d397482d4b4695dac0c5562cadcbda9afd"}, "tags": {"1.0.1--py_2": "sha256:8381ebadd1b2d6d132451311da2855d397482d4b4695dac0c5562cadcbda9afd"}, "docker": "quay.io/biocontainers/mergevcf", "aliases": {"mergevcf": "/usr/local/bin/mergevcf", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/mergevcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mergevcf", "latest": {"1.0.1--py_2": "sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39"}, "tags": {"1.0.1--py_2": "sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39"}, "docker": "quay.io/biocontainers/mergevcf", "aliases": {"mergevcf": "/usr/local/bin/mergevcf", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mergevcf.

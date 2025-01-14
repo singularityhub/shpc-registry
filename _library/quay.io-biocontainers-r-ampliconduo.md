@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ampliconduo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
-updated_at: "2025-01-13 03:01:10.012887"
+updated_at: "2025-01-14 02:47:19.664307"
 latest: "1.1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-ampliconduo"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.1--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-ampliconduo"
-config: {"url": "https://biocontainers.pro/tools/r-ampliconduo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampliconduo", "latest": {"1.1--r351h6115d3f_0": "sha256:2b404a215db477d97e77a558a1c7aa2cd5d4254dfb88a2b199e528b4948c4556"}, "tags": {"1.1--r351h6115d3f_0": "sha256:2b404a215db477d97e77a558a1c7aa2cd5d4254dfb88a2b199e528b4948c4556"}, "docker": "quay.io/biocontainers/r-ampliconduo", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ampliconduo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampliconduo", "latest": {"1.1--r351h6115d3f_0": "sha256:b3b99d8612fb302006178029838904c30db3be38557474f64fdbdbb631e182ca"}, "tags": {"1.1--r351h6115d3f_0": "sha256:b3b99d8612fb302006178029838904c30db3be38557474f64fdbdbb631e182ca"}, "docker": "quay.io/biocontainers/r-ampliconduo", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ampliconduo.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plotly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotly/container.yaml"
-updated_at: "2025-01-13 03:30:30.042642"
+updated_at: "2025-01-14 03:15:32.855704"
 latest: "3.1.1"
 container_url: "https://biocontainers.pro/tools/plotly"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.1.1"
 description: "shpc-registry automated BioContainers addition for plotly"
-config: {"url": "https://biocontainers.pro/tools/plotly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotly", "latest": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "tags": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "docker": "quay.io/biocontainers/plotly", "aliases": {"jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/plotly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotly", "latest": {"3.1.1": "sha256:a99e0b61463ce527489975dd23350ef6f421ebc02fcdcdf0099f8536aa65500c"}, "tags": {"3.1.1": "sha256:a99e0b61463ce527489975dd23350ef6f421ebc02fcdcdf0099f8536aa65500c"}, "docker": "quay.io/biocontainers/plotly", "aliases": {"jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plotly.

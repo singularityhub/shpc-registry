@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scelestial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scelestial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scelestial/container.yaml"
-updated_at: "2025-01-13 03:11:19.066751"
-latest: "1.2--h2374e42_2"
+updated_at: "2025-01-14 02:56:49.387821"
+latest: "1.2--h9948957_4"
 container_url: "https://biocontainers.pro/tools/scelestial"
 aliases:
  - "scelestial"
@@ -21,8 +21,9 @@ versions:
  - "1.2--ha038e3a_0"
  - "1.2--ha038e3a_1"
  - "1.2--h2374e42_2"
+ - "1.2--h9948957_4"
 description: "singularity registry hpc automated addition for scelestial"
-config: {"url": "https://biocontainers.pro/tools/scelestial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scelestial", "latest": {"1.2--h2374e42_2": "sha256:befcef4bde2afa24b7a2a481806712b401510506a22fecec0947a4ea5640417e"}, "tags": {"1.2--ha038e3a_0": "sha256:7511424a988ccc7a257b2dafb32ecbca7d0a4a54da768777334626b51f0ec063", "1.2--ha038e3a_1": "sha256:ed4f52989db7c932805a66c30774f579562a921a53747b5688eeabf8a824d31c", "1.2--h2374e42_2": "sha256:befcef4bde2afa24b7a2a481806712b401510506a22fecec0947a4ea5640417e"}, "docker": "quay.io/biocontainers/scelestial", "aliases": {"scelestial": "/usr/local/bin/scelestial", "scelestial-synthesis": "/usr/local/bin/scelestial-synthesis", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/scelestial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scelestial", "latest": {"1.2--h9948957_4": "sha256:7657ebf9ee2954bd8e5fd06b78d127dc480325cba45f76778cd4c9fda500a65c"}, "tags": {"1.2--ha038e3a_0": "sha256:7511424a988ccc7a257b2dafb32ecbca7d0a4a54da768777334626b51f0ec063", "1.2--ha038e3a_1": "sha256:ed4f52989db7c932805a66c30774f579562a921a53747b5688eeabf8a824d31c", "1.2--h2374e42_2": "sha256:befcef4bde2afa24b7a2a481806712b401510506a22fecec0947a4ea5640417e", "1.2--h9948957_4": "sha256:7657ebf9ee2954bd8e5fd06b78d127dc480325cba45f76778cd4c9fda500a65c"}, "docker": "quay.io/biocontainers/scelestial", "aliases": {"scelestial": "/usr/local/bin/scelestial", "scelestial-synthesis": "/usr/local/bin/scelestial-synthesis", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scelestial.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/scelestial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scelestial:1.2--h2374e42_2
+$ shpc install quay.io/biocontainers/scelestial:1.2--h9948957_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scelestial/1.2--h2374e42_2
-$ module help quay.io/biocontainers/scelestial/1.2--h2374e42_2
+$ module load quay.io/biocontainers/scelestial/1.2--h9948957_4
+$ module help quay.io/biocontainers/scelestial/1.2--h9948957_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

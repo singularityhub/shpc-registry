@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggthemes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggthemes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggthemes/container.yaml"
-updated_at: "2025-01-13 03:24:49.663587"
+updated_at: "2025-01-14 03:10:02.150525"
 latest: "3.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ggthemes"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.4.0--r3.3.2_0"
  - "3.4.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-ggthemes"
-config: {"url": "https://biocontainers.pro/tools/r-ggthemes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggthemes", "latest": {"3.4.0--r3.3.2_0": "sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261"}, "tags": {"3.4.0--r3.3.2_0": "sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261", "3.4.0--r3.4.1_0": "sha256:2063b6f31774c35713190cae9f61b583639dca5751d19ee5efd22ec3f976db1a"}, "docker": "quay.io/biocontainers/r-ggthemes", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggthemes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggthemes", "latest": {"3.4.0--r3.3.2_0": "sha256:4229792a8c059f56621e0a24f57449d6930ea2ff68d75cac9ec77728c4492f60"}, "tags": {"3.4.0--r3.3.2_0": "sha256:4229792a8c059f56621e0a24f57449d6930ea2ff68d75cac9ec77728c4492f60", "3.4.0--r3.4.1_0": "sha256:fb0c00b9b001368bb1ba2edaa0857911fb2e36a4d4b56095698dc884d556ec4c"}, "docker": "quay.io/biocontainers/r-ggthemes", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggthemes.

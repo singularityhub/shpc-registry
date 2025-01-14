@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/gap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gap/container.yaml"
-updated_at: "2025-01-13 03:00:13.741823"
+updated_at: "2025-01-14 02:46:29.138353"
 latest: "4.8.10--0"
 container_url: "https://biocontainers.pro/tools/gap"
 
 versions:
  - "4.8.10--0"
 description: "shpc-registry automated BioContainers addition for gap"
-config: {"url": "https://biocontainers.pro/tools/gap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gap", "latest": {"4.8.10--0": "sha256:1d991acc7f47d073a1caba9ed30a9e64117dc7dacf9e139b48d63f947f8e2eaa"}, "tags": {"4.8.10--0": "sha256:1d991acc7f47d073a1caba9ed30a9e64117dc7dacf9e139b48d63f947f8e2eaa"}, "docker": "quay.io/biocontainers/gap"}
+config: {"url": "https://biocontainers.pro/tools/gap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gap", "latest": {"4.8.10--0": "sha256:8f3ac6e4964d5ee6172ad12d3ae2cf14c9d13c0a573c4b0ae5bd9eb3847041b8"}, "tags": {"4.8.10--0": "sha256:8f3ac6e4964d5ee6172ad12d3ae2cf14c9d13c0a573c4b0ae5bd9eb3847041b8"}, "docker": "quay.io/biocontainers/gap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gap.

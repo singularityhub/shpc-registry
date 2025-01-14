@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-slurm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
-updated_at: "2025-01-13 03:43:55.665317"
+updated_at: "2025-01-14 03:29:03.674667"
 latest: "2.58--2"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-slurm"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "2.58--2"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-slurm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm", "latest": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "tags": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "docker": "quay.io/biocontainers/perl-hpc-runner-slurm", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "mcerunner.pl": "/usr/local/bin/mcerunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "dbilogstrip": "/usr/local/bin/dbilogstrip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-slurm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm", "latest": {"2.58--2": "sha256:f06b6fb49dd0c3b321614272b586e29af558cd354837e6b03b07096e872ffd9e"}, "tags": {"2.58--2": "sha256:f06b6fb49dd0c3b321614272b586e29af558cd354837e6b03b07096e872ffd9e"}, "docker": "quay.io/biocontainers/perl-hpc-runner-slurm", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "mcerunner.pl": "/usr/local/bin/mcerunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "dbilogstrip": "/usr/local/bin/dbilogstrip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-slurm.

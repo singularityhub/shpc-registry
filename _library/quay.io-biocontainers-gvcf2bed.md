@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcf2bed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf2bed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf2bed/container.yaml"
-updated_at: "2025-01-13 03:17:39.556188"
+updated_at: "2025-01-14 03:02:52.943110"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/gvcf2bed"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.3.1--py_0"
 description: "shpc-registry automated BioContainers addition for gvcf2bed"
-config: {"url": "https://biocontainers.pro/tools/gvcf2bed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2bed", "latest": {"0.3.1--py_0": "sha256:5529c474981e7b2d8eea0e9c3de25880c5e3fcaa5e745094403b43d5bcc2b46a"}, "tags": {"0.3.1--py_0": "sha256:5529c474981e7b2d8eea0e9c3de25880c5e3fcaa5e745094403b43d5bcc2b46a"}, "docker": "quay.io/biocontainers/gvcf2bed", "aliases": {"gvcf2bed": "/usr/local/bin/gvcf2bed", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "humanfriendly": "/usr/local/bin/humanfriendly", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
+config: {"url": "https://biocontainers.pro/tools/gvcf2bed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2bed", "latest": {"0.3.1--py_0": "sha256:661d909e049a25ee0303a010277d1607f6fe1ecd3898b4759af4bcc0a03c988c"}, "tags": {"0.3.1--py_0": "sha256:661d909e049a25ee0303a010277d1607f6fe1ecd3898b4759af4bcc0a03c988c"}, "docker": "quay.io/biocontainers/gvcf2bed", "aliases": {"gvcf2bed": "/usr/local/bin/gvcf2bed", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "humanfriendly": "/usr/local/bin/humanfriendly", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcf2bed.

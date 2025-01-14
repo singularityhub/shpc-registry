@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beagle/container.yaml"
-updated_at: "2025-01-13 02:59:46.195903"
-latest: "5.4_22Jul22.46e--hdfd78af_0"
+updated_at: "2025-01-14 02:46:03.882892"
+latest: "5.4_29Oct24.c8e--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beagle"
 aliases:
  - "beagle"
@@ -26,8 +26,9 @@ versions:
  - "4.1_21Jan17.6cc.jar--0"
  - "4.0_06Jun17--hdfd78af_3"
  - "5.4_22Jul22.46e--hdfd78af_0"
+ - "5.4_29Oct24.c8e--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for beagle"
-config: {"url": "https://biocontainers.pro/tools/beagle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beagle", "latest": {"5.4_22Jul22.46e--hdfd78af_0": "sha256:7f84b8233f26a199ed1fa9ff898462e27d195cf08ce47d1a7780d68c984991e5"}, "tags": {"beagle_4.0_06Jun17--0": "sha256:fb71419bc25fbd2704b4611e2903f9ab928b1e4644466b842de2aa6786b5d850", "5.2_21Apr21.304--hdfd78af_0": "sha256:6c721589272492d63dc7b9c611f82545247ba8d2c26cdfa2797a7cd8493365e2", "5.1_24Aug19.3e8--hdfd78af_1": "sha256:506d72c61baacb6f906c23b7acb471aec5defa934591e600f4735bc162878484", "4.1_21Jan17.6cc.jar--0": "sha256:dbcfa84da2bbae9c5dd8ee58f75bb0d8d5bcf787200b9be19be8ba58178aae7e", "4.0_06Jun17--hdfd78af_3": "sha256:d1d1f31ddd3044ef8733937ea63de7a249b25da9aaa465c4610bfa48d6757f74", "5.4_22Jul22.46e--hdfd78af_0": "sha256:7f84b8233f26a199ed1fa9ff898462e27d195cf08ce47d1a7780d68c984991e5"}, "docker": "quay.io/biocontainers/beagle", "aliases": {"beagle": "/usr/local/bin/beagle", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/beagle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beagle", "latest": {"5.4_29Oct24.c8e--hdfd78af_0": "sha256:ecd17c75c7db32466d6fd157b68ff50b2a72954c1d6007c93406f17d1be62319"}, "tags": {"beagle_4.0_06Jun17--0": "sha256:df38b79fcb8e3000e509ddc41c9b0aa24b28648b817de3ed6c9b0fa7bfdf1a06", "5.2_21Apr21.304--hdfd78af_0": "sha256:6c721589272492d63dc7b9c611f82545247ba8d2c26cdfa2797a7cd8493365e2", "5.1_24Aug19.3e8--hdfd78af_1": "sha256:506d72c61baacb6f906c23b7acb471aec5defa934591e600f4735bc162878484", "4.1_21Jan17.6cc.jar--0": "sha256:6efda9792b3debeab047383315567c475c64f7d3aa79f2e929a0c32e2ac61fb6", "4.0_06Jun17--hdfd78af_3": "sha256:d1d1f31ddd3044ef8733937ea63de7a249b25da9aaa465c4610bfa48d6757f74", "5.4_22Jul22.46e--hdfd78af_0": "sha256:7f84b8233f26a199ed1fa9ff898462e27d195cf08ce47d1a7780d68c984991e5", "5.4_29Oct24.c8e--hdfd78af_0": "sha256:ecd17c75c7db32466d6fd157b68ff50b2a72954c1d6007c93406f17d1be62319"}, "docker": "quay.io/biocontainers/beagle", "aliases": {"beagle": "/usr/local/bin/beagle", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beagle.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/beagle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beagle:5.4_22Jul22.46e--hdfd78af_0
+$ shpc install quay.io/biocontainers/beagle:5.4_29Oct24.c8e--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beagle/5.4_22Jul22.46e--hdfd78af_0
-$ module help quay.io/biocontainers/beagle/5.4_22Jul22.46e--hdfd78af_0
+$ module load quay.io/biocontainers/beagle/5.4_29Oct24.c8e--hdfd78af_0
+$ module help quay.io/biocontainers/beagle/5.4_29Oct24.c8e--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

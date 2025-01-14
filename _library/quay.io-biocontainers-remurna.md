@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/remurna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remurna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remurna/container.yaml"
-updated_at: "2025-01-13 03:18:37.333935"
+updated_at: "2025-01-14 03:03:50.507577"
 latest: "1.0--0"
 container_url: "https://biocontainers.pro/tools/remurna"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--0"
 description: "shpc-registry automated BioContainers addition for remurna"
-config: {"url": "https://biocontainers.pro/tools/remurna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for remurna", "latest": {"1.0--0": "sha256:b68377ad57ba3aaaab113d92dab9871f1cbc598ea5fcde0dcb69d9f0ca58fe26"}, "tags": {"1.0--0": "sha256:b68377ad57ba3aaaab113d92dab9871f1cbc598ea5fcde0dcb69d9f0ca58fe26"}, "docker": "quay.io/biocontainers/remurna", "aliases": {"remuRNA": "/usr/local/bin/remuRNA"}}
+config: {"url": "https://biocontainers.pro/tools/remurna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for remurna", "latest": {"1.0--0": "sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c"}, "tags": {"1.0--0": "sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c"}, "docker": "quay.io/biocontainers/remurna", "aliases": {"remuRNA": "/usr/local/bin/remuRNA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/remurna.

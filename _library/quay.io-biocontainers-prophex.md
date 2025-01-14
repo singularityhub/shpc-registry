@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prophex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophex/container.yaml"
-updated_at: "2025-01-13 03:04:00.212588"
-latest: "0.1.1--he4a0461_5"
+updated_at: "2025-01-14 02:49:54.525820"
+latest: "0.1.1--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/prophex"
 aliases:
  - "prophex"
@@ -13,8 +13,9 @@ versions:
  - "0.1.1--h7132678_3"
  - "0.1.1--h7132678_4"
  - "0.1.1--he4a0461_5"
+ - "0.1.1--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for prophex"
-config: {"url": "https://biocontainers.pro/tools/prophex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophex", "latest": {"0.1.1--he4a0461_5": "sha256:2ceb8948b221d46cf25f4af238c412d65b646ffbbd4b64da0b8cb48ab4daa976"}, "tags": {"0.1.1--h7132678_3": "sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b", "0.1.1--h7132678_4": "sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824", "0.1.1--he4a0461_5": "sha256:2ceb8948b221d46cf25f4af238c412d65b646ffbbd4b64da0b8cb48ab4daa976"}, "docker": "quay.io/biocontainers/prophex", "aliases": {"prophex": "/usr/local/bin/prophex"}}
+config: {"url": "https://biocontainers.pro/tools/prophex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophex", "latest": {"0.1.1--h577a1d6_6": "sha256:6ff01e3db8ce6d3ab4630d5342dc5a21ca788e9e49267dc83880aba0a5a073eb"}, "tags": {"0.1.1--h7132678_3": "sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b", "0.1.1--h7132678_4": "sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824", "0.1.1--he4a0461_5": "sha256:2ceb8948b221d46cf25f4af238c412d65b646ffbbd4b64da0b8cb48ab4daa976", "0.1.1--h577a1d6_6": "sha256:6ff01e3db8ce6d3ab4630d5342dc5a21ca788e9e49267dc83880aba0a5a073eb"}, "docker": "quay.io/biocontainers/prophex", "aliases": {"prophex": "/usr/local/bin/prophex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophex.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/prophex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prophex:0.1.1--he4a0461_5
+$ shpc install quay.io/biocontainers/prophex:0.1.1--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prophex/0.1.1--he4a0461_5
-$ module help quay.io/biocontainers/prophex/0.1.1--he4a0461_5
+$ module load quay.io/biocontainers/prophex/0.1.1--h577a1d6_6
+$ module help quay.io/biocontainers/prophex/0.1.1--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

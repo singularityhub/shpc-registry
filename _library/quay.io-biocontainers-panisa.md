@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panisa/container.yaml"
-updated_at: "2025-01-13 03:18:45.464521"
-latest: "0.1.6--pyh5e36f6f_0"
+updated_at: "2025-01-14 03:03:58.724769"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panisa"
 aliases:
  - "ISFinder_search.py"
@@ -18,8 +18,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.6--pyh5e36f6f_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for panisa"
-config: {"url": "https://biocontainers.pro/tools/panisa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panisa", "latest": {"0.1.6--pyh5e36f6f_0": "sha256:88139d41293ad0f8452ffab3658b835b3faae7a48a18e1969fff5d7b242b108b"}, "tags": {"0.1.6--pyh5e36f6f_0": "sha256:88139d41293ad0f8452ffab3658b835b3faae7a48a18e1969fff5d7b242b108b"}, "docker": "quay.io/biocontainers/panisa", "aliases": {"ISFinder_search.py": "/usr/local/bin/ISFinder_search.py", "panISa.py": "/usr/local/bin/panISa.py", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/panisa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panisa", "latest": {"0.1.7--pyhdfd78af_0": "sha256:8aab3facb2f13d94f4628f0c6bd2909f8f2c18178f1ad7cfd82363be7fc07c85"}, "tags": {"0.1.6--pyh5e36f6f_0": "sha256:88139d41293ad0f8452ffab3658b835b3faae7a48a18e1969fff5d7b242b108b", "0.1.7--pyhdfd78af_0": "sha256:8aab3facb2f13d94f4628f0c6bd2909f8f2c18178f1ad7cfd82363be7fc07c85"}, "docker": "quay.io/biocontainers/panisa", "aliases": {"ISFinder_search.py": "/usr/local/bin/ISFinder_search.py", "panISa.py": "/usr/local/bin/panISa.py", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panisa.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/panisa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panisa:0.1.6--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/panisa:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panisa/0.1.6--pyh5e36f6f_0
-$ module help quay.io/biocontainers/panisa/0.1.6--pyh5e36f6f_0
+$ module load quay.io/biocontainers/panisa/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/panisa/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

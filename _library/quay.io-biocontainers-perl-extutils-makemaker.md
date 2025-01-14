@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-makemaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-makemaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-makemaker/container.yaml"
-updated_at: "2025-01-13 03:29:04.978992"
+updated_at: "2025-01-14 03:14:09.910253"
 latest: "7.36--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-extutils-makemaker"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "7.36--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-extutils-makemaker"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-makemaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-makemaker", "latest": {"7.36--pl526_1": "sha256:ae43774d344d3a58dd1b4b2e66b66a87db95ebb0e330e0a00b1d92e5c6a57059"}, "tags": {"7.36--pl526_1": "sha256:ae43774d344d3a58dd1b4b2e66b66a87db95ebb0e330e0a00b1d92e5c6a57059"}, "docker": "quay.io/biocontainers/perl-extutils-makemaker", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-makemaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-makemaker", "latest": {"7.36--pl526_1": "sha256:d6dcb2bb6eb080ba0d5d3eba3985c778c0958852f0385207d2d7c57331b9c2e7"}, "tags": {"7.36--pl526_1": "sha256:d6dcb2bb6eb080ba0d5d3eba3985c778c0958852f0385207d2d7c57331b9c2e7"}, "docker": "quay.io/biocontainers/perl-extutils-makemaker", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-makemaker.

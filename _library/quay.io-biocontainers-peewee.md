@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peewee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peewee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peewee/container.yaml"
-updated_at: "2025-01-13 03:27:34.227636"
+updated_at: "2025-01-14 03:12:44.065045"
 latest: "2.8.0--py36_1"
 container_url: "https://biocontainers.pro/tools/peewee"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "2.8.0--py36_1"
+ - "2.8.0--py35_1"
 description: "shpc-registry automated BioContainers addition for peewee"
-config: {"url": "https://biocontainers.pro/tools/peewee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peewee", "latest": {"2.8.0--py36_1": "sha256:0468726d18a2cf3d7f76223bbaf5c6e1758d25e36581a5224458f7eeafe83288"}, "tags": {"2.8.0--py36_1": "sha256:0468726d18a2cf3d7f76223bbaf5c6e1758d25e36581a5224458f7eeafe83288"}, "docker": "quay.io/biocontainers/peewee", "aliases": {"pwiz.py": "/usr/local/bin/pwiz.py", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/peewee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peewee", "latest": {"2.8.0--py36_1": "sha256:2001f00da72418ce8f373dd2a8a8ae96f5ce8379ec361cff114a0ca7c9857051"}, "tags": {"2.8.0--py36_1": "sha256:2001f00da72418ce8f373dd2a8a8ae96f5ce8379ec361cff114a0ca7c9857051", "2.8.0--py35_1": "sha256:a9be22e44b002b5d6951d97227efddc596fabd6a9e0232f070d61c24ef902360"}, "docker": "quay.io/biocontainers/peewee", "aliases": {"pwiz.py": "/usr/local/bin/pwiz.py", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peewee.

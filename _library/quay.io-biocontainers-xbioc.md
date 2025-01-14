@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/xbioc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xbioc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xbioc/container.yaml"
-updated_at: "2025-01-13 03:27:30.931454"
-latest: "0.1.19--r43hdfd78af_3"
+updated_at: "2025-01-14 03:12:40.984243"
+latest: "0.1.19--r44hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/xbioc"
 
 versions:
  - "0.1.19--r41hdfd78af_1"
  - "0.1.19--r42hdfd78af_2"
  - "0.1.19--r43hdfd78af_3"
+ - "0.1.19--r44hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for xbioc"
-config: {"url": "https://biocontainers.pro/tools/xbioc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xbioc", "latest": {"0.1.19--r43hdfd78af_3": "sha256:67f0fa8618f5a5835901c2bf05be4a5a4412623cc05614b3df6802b3815d5535"}, "tags": {"0.1.19--r41hdfd78af_1": "sha256:fcd1ad2a2e190495ef9991531e55658e9c3926026fe1015cba8378fef2ac4d59", "0.1.19--r42hdfd78af_2": "sha256:a6d22d08213224647d141aa0a229ef5a97c26dba8c9d99c8a923bfa3f3d7def4", "0.1.19--r43hdfd78af_3": "sha256:67f0fa8618f5a5835901c2bf05be4a5a4412623cc05614b3df6802b3815d5535"}, "docker": "quay.io/biocontainers/xbioc"}
+config: {"url": "https://biocontainers.pro/tools/xbioc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xbioc", "latest": {"0.1.19--r44hdfd78af_4": "sha256:1ca9801a8fcd6c19dc12ca36c1d812ed23af34af8230ff2be58c4e450498acbc"}, "tags": {"0.1.19--r41hdfd78af_1": "sha256:fcd1ad2a2e190495ef9991531e55658e9c3926026fe1015cba8378fef2ac4d59", "0.1.19--r42hdfd78af_2": "sha256:a6d22d08213224647d141aa0a229ef5a97c26dba8c9d99c8a923bfa3f3d7def4", "0.1.19--r43hdfd78af_3": "sha256:67f0fa8618f5a5835901c2bf05be4a5a4412623cc05614b3df6802b3815d5535", "0.1.19--r44hdfd78af_4": "sha256:1ca9801a8fcd6c19dc12ca36c1d812ed23af34af8230ff2be58c4e450498acbc"}, "docker": "quay.io/biocontainers/xbioc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xbioc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/xbioc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xbioc:0.1.19--r43hdfd78af_3
+$ shpc install quay.io/biocontainers/xbioc:0.1.19--r44hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xbioc/0.1.19--r43hdfd78af_3
-$ module help quay.io/biocontainers/xbioc/0.1.19--r43hdfd78af_3
+$ module load quay.io/biocontainers/xbioc/0.1.19--r44hdfd78af_4
+$ module help quay.io/biocontainers/xbioc/0.1.19--r44hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnahybrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnahybrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnahybrid/container.yaml"
-updated_at: "2025-01-13 02:58:31.605798"
-latest: "2.1.2--h031d066_3"
+updated_at: "2025-01-14 02:44:55.289321"
+latest: "2.1.2--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/rnahybrid"
 aliases:
  - "RNAcalibrate"
@@ -37,8 +37,9 @@ versions:
  - "2.1.2--hec16e2b_1"
  - "2.1.2--hec16e2b_2"
  - "2.1.2--h031d066_3"
+ - "2.1.2--h7b50bb2_4"
 description: "singularity registry hpc automated addition for rnahybrid"
-config: {"url": "https://biocontainers.pro/tools/rnahybrid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnahybrid", "latest": {"2.1.2--h031d066_3": "sha256:1eab119acd684cc93b17c3228b6cc5573196c89026965cacf3b6eeb48c3b1cc5"}, "tags": {"2.1.2--hec16e2b_1": "sha256:e504e8166c19d20e67584cfbcd01d6bf02d2cae9b5debbbbda4bf7d31e14fbe8", "2.1.2--hec16e2b_2": "sha256:56c0eaf1270fcbc01b0b7af7f9811c610557fcd414f774d93427bc79f3db5fbf", "2.1.2--h031d066_3": "sha256:1eab119acd684cc93b17c3228b6cc5573196c89026965cacf3b6eeb48c3b1cc5"}, "docker": "quay.io/biocontainers/rnahybrid", "aliases": {"RNAcalibrate": "/usr/local/bin/RNAcalibrate", "RNAeffective": "/usr/local/bin/RNAeffective", "RNAhybrid": "/usr/local/bin/RNAhybrid", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2", "webpng": "/usr/local/bin/webpng", "annotate": "/usr/local/bin/annotate", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
+config: {"url": "https://biocontainers.pro/tools/rnahybrid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnahybrid", "latest": {"2.1.2--h7b50bb2_4": "sha256:ce165b0b0040c8f90afcc749bcf46527d254aa19f68a32b358772a6ca6a16b98"}, "tags": {"2.1.2--hec16e2b_1": "sha256:e504e8166c19d20e67584cfbcd01d6bf02d2cae9b5debbbbda4bf7d31e14fbe8", "2.1.2--hec16e2b_2": "sha256:56c0eaf1270fcbc01b0b7af7f9811c610557fcd414f774d93427bc79f3db5fbf", "2.1.2--h031d066_3": "sha256:1eab119acd684cc93b17c3228b6cc5573196c89026965cacf3b6eeb48c3b1cc5", "2.1.2--h7b50bb2_4": "sha256:ce165b0b0040c8f90afcc749bcf46527d254aa19f68a32b358772a6ca6a16b98"}, "docker": "quay.io/biocontainers/rnahybrid", "aliases": {"RNAcalibrate": "/usr/local/bin/RNAcalibrate", "RNAeffective": "/usr/local/bin/RNAeffective", "RNAhybrid": "/usr/local/bin/RNAhybrid", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2", "webpng": "/usr/local/bin/webpng", "annotate": "/usr/local/bin/annotate", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnahybrid.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/rnahybrid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnahybrid:2.1.2--h031d066_3
+$ shpc install quay.io/biocontainers/rnahybrid:2.1.2--h7b50bb2_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnahybrid/2.1.2--h031d066_3
-$ module help quay.io/biocontainers/rnahybrid/2.1.2--h031d066_3
+$ module load quay.io/biocontainers/rnahybrid/2.1.2--h7b50bb2_4
+$ module help quay.io/biocontainers/rnahybrid/2.1.2--h7b50bb2_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-diffcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diffcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diffcorr/container.yaml"
-updated_at: "2025-01-13 03:36:57.040841"
-latest: "0.4.3--r43h3342da4_0"
+updated_at: "2025-01-14 03:22:10.570526"
+latest: "0.4.4--r44h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-diffcorr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.4.2--r42h3342da4_1"
  - "0.4.2--r43h3342da4_2"
  - "0.4.3--r43h3342da4_0"
+ - "0.4.4--r44h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-diffcorr"
-config: {"url": "https://biocontainers.pro/tools/r-diffcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diffcorr", "latest": {"0.4.3--r43h3342da4_0": "sha256:f6f6de0ebb0ae4726edee8438eeb961293e72f8f46aa1acd38735e6fe1bce84a"}, "tags": {"0.4.2--r41h3342da4_0": "sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f", "0.4.2--r42h3342da4_1": "sha256:9f558f966ec4e3b952085edf049a91c32020b87b9d6f474a690081fa0f0ac6d7", "0.4.2--r43h3342da4_2": "sha256:283ca1c7588bc40c7c0f6605900675ecc2ad33ee1036d45706cbd7563826dc85", "0.4.3--r43h3342da4_0": "sha256:f6f6de0ebb0ae4726edee8438eeb961293e72f8f46aa1acd38735e6fe1bce84a"}, "docker": "quay.io/biocontainers/r-diffcorr"}
+config: {"url": "https://biocontainers.pro/tools/r-diffcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diffcorr", "latest": {"0.4.4--r44h3342da4_1": "sha256:dad6d2c062d77fccd88cd3284511f5fe0a09d06dd277b4f88ff72b3333bcf095"}, "tags": {"0.4.2--r41h3342da4_0": "sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f", "0.4.2--r42h3342da4_1": "sha256:9f558f966ec4e3b952085edf049a91c32020b87b9d6f474a690081fa0f0ac6d7", "0.4.2--r43h3342da4_2": "sha256:283ca1c7588bc40c7c0f6605900675ecc2ad33ee1036d45706cbd7563826dc85", "0.4.3--r43h3342da4_0": "sha256:f6f6de0ebb0ae4726edee8438eeb961293e72f8f46aa1acd38735e6fe1bce84a", "0.4.4--r44h3342da4_1": "sha256:dad6d2c062d77fccd88cd3284511f5fe0a09d06dd277b4f88ff72b3333bcf095"}, "docker": "quay.io/biocontainers/r-diffcorr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-diffcorr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-diffcorr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-diffcorr:0.4.3--r43h3342da4_0
+$ shpc install quay.io/biocontainers/r-diffcorr:0.4.4--r44h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-diffcorr/0.4.3--r43h3342da4_0
-$ module help quay.io/biocontainers/r-diffcorr/0.4.3--r43h3342da4_0
+$ module load quay.io/biocontainers/r-diffcorr/0.4.4--r44h3342da4_1
+$ module help quay.io/biocontainers/r-diffcorr/0.4.4--r44h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ecopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecopy/container.yaml"
-updated_at: "2025-01-13 03:03:56.567103"
+updated_at: "2025-01-14 02:49:51.142395"
 latest: "0.1.2.2--py35h470a237_1"
 container_url: "https://biocontainers.pro/tools/ecopy"
 
 versions:
  - "0.1.2.2--py35h470a237_1"
+ - "0.1.2.2--py36h470a237_1"
 description: "shpc-registry automated BioContainers addition for ecopy"
-config: {"url": "https://biocontainers.pro/tools/ecopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecopy", "latest": {"0.1.2.2--py35h470a237_1": "sha256:5cef6e66abafa61e09fbe3590259050d1cdd27fc7d7e6fa310fb5f5528e76d65"}, "tags": {"0.1.2.2--py35h470a237_1": "sha256:5cef6e66abafa61e09fbe3590259050d1cdd27fc7d7e6fa310fb5f5528e76d65"}, "docker": "quay.io/biocontainers/ecopy"}
+config: {"url": "https://biocontainers.pro/tools/ecopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecopy", "latest": {"0.1.2.2--py35h470a237_1": "sha256:8fa2dca0a40ca2afa4681ff24992b8d3bf98ba3401c992644d1f50772a71fec2"}, "tags": {"0.1.2.2--py35h470a237_1": "sha256:8fa2dca0a40ca2afa4681ff24992b8d3bf98ba3401c992644d1f50772a71fec2", "0.1.2.2--py36h470a237_1": "sha256:91837b94ce28c2f6c66f9719a445cc71a707817c72c2f113c64a2b81142d417c"}, "docker": "quay.io/biocontainers/ecopy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ecopy.

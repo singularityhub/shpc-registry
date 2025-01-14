@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-garnett"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-garnett/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-garnett/container.yaml"
-updated_at: "2025-01-13 03:10:24.931449"
-latest: "0.2.8--r43hdfd78af_5"
+updated_at: "2025-01-14 02:55:57.361215"
+latest: "0.2.8--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-garnett"
 aliases:
  - "testepsg"
@@ -22,8 +22,9 @@ versions:
  - "0.2.8--r41hdfd78af_3"
  - "0.2.8--r42hdfd78af_4"
  - "0.2.8--r43hdfd78af_5"
+ - "0.2.8--r44hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-garnett"
-config: {"url": "https://biocontainers.pro/tools/r-garnett", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-garnett", "latest": {"0.2.8--r43hdfd78af_5": "sha256:02868b17a3a4924fe24dd6adaa2c9023e88e483382cab1af6cb4e78f888ffc2d"}, "tags": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1", "0.2.8--r42hdfd78af_4": "sha256:6b8ac1ebb43706d01b8a898fc6b0551a2540198476f073165c0a493bd41bf1f9", "0.2.8--r43hdfd78af_5": "sha256:02868b17a3a4924fe24dd6adaa2c9023e88e483382cab1af6cb4e78f888ffc2d"}, "docker": "quay.io/biocontainers/r-garnett", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp"}}
+config: {"url": "https://biocontainers.pro/tools/r-garnett", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-garnett", "latest": {"0.2.8--r44hdfd78af_6": "sha256:4ecae1e2708bebf87417b8658cce1b01424434883782d6553fba76edbe18979a"}, "tags": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1", "0.2.8--r42hdfd78af_4": "sha256:6b8ac1ebb43706d01b8a898fc6b0551a2540198476f073165c0a493bd41bf1f9", "0.2.8--r43hdfd78af_5": "sha256:02868b17a3a4924fe24dd6adaa2c9023e88e483382cab1af6cb4e78f888ffc2d", "0.2.8--r44hdfd78af_6": "sha256:4ecae1e2708bebf87417b8658cce1b01424434883782d6553fba76edbe18979a"}, "docker": "quay.io/biocontainers/r-garnett", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-garnett.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-garnett
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-garnett:0.2.8--r43hdfd78af_5
+$ shpc install quay.io/biocontainers/r-garnett:0.2.8--r44hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-garnett/0.2.8--r43hdfd78af_5
-$ module help quay.io/biocontainers/r-garnett/0.2.8--r43hdfd78af_5
+$ module load quay.io/biocontainers/r-garnett/0.2.8--r44hdfd78af_6
+$ module help quay.io/biocontainers/r-garnett/0.2.8--r44hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

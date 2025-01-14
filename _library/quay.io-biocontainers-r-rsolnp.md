@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rsolnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rsolnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rsolnp/container.yaml"
-updated_at: "2025-01-13 03:05:23.822189"
+updated_at: "2025-01-14 02:51:11.691866"
 latest: "1.16--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rsolnp"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.16--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-rsolnp"
-config: {"url": "https://biocontainers.pro/tools/r-rsolnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rsolnp", "latest": {"1.16--r3.3.1_0": "sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c"}, "tags": {"1.16--r3.3.1_0": "sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c"}, "docker": "quay.io/biocontainers/r-rsolnp", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rsolnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rsolnp", "latest": {"1.16--r3.3.1_0": "sha256:1c0a7d800f9570f73cfea707f579fbff000f85e7ad8161bc7d0232603219e3ab"}, "tags": {"1.16--r3.3.1_0": "sha256:1c0a7d800f9570f73cfea707f579fbff000f85e7ad8161bc7d0232603219e3ab"}, "docker": "quay.io/biocontainers/r-rsolnp", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rsolnp.

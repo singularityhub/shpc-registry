@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-funtoonorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funtoonorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funtoonorm/container.yaml"
-updated_at: "2025-01-13 03:45:16.726448"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2025-01-14 03:30:25.992640"
+latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funtoonorm"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r36_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.30.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-funtoonorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-funtoonorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funtoonorm", "latest": {"1.26.0--r43hdfd78af_0": "sha256:5edd0b963f8969cd5e43c03adbf2457cced4c301ff9c58ddca784e2649da6fc0"}, "tags": {"1.8.0--r36_1": "sha256:875d6306e98638ccd2ed62b4dbea698a8d6d5b94c905ba1d047ba97fffc46fab", "1.22.0--r42hdfd78af_0": "sha256:902b10cb76028ab963feb2f304ef63c96d9ab2f3dca6cc48ce2658d0081a8576", "1.16.0--r41hdfd78af_0": "sha256:4cff16c502d013829013d0751313c3ecf6c6720db35238f04a57e4892a26be98", "1.14.0--r40hdfd78af_1": "sha256:b82ca121854e74100318723e46df39a8c416482bdb022374dc1bc3d77dba6717", "1.12.0--r40_0": "sha256:0d94158cd4bdaac96f826f6cca3036e45970224cb451d923bcbbd643f640dd3b", "1.10.0--r36_0": "sha256:66db075805fe14a9cdfeb3eac54cf9d0ca6ceee583039ffd8a70029b5bfc3935", "1.24.0--r43hdfd78af_0": "sha256:9255b8e743dbee58e11ac59b853d22d7e49116a123ac6cadd598ff6d26fecca1", "1.26.0--r43hdfd78af_0": "sha256:5edd0b963f8969cd5e43c03adbf2457cced4c301ff9c58ddca784e2649da6fc0"}, "docker": "quay.io/biocontainers/bioconductor-funtoonorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-funtoonorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funtoonorm", "latest": {"1.30.0--r44hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-funtoonorm:1.30.0--r44hdfd78af_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"1.8.0--r36_1": "sha256:2d4c42089298d13efeb5fa86859fdfc9d2901ded6087f8f37c9440b676246e7c", "1.22.0--r42hdfd78af_0": "sha256:902b10cb76028ab963feb2f304ef63c96d9ab2f3dca6cc48ce2658d0081a8576", "1.16.0--r41hdfd78af_0": "sha256:4cff16c502d013829013d0751313c3ecf6c6720db35238f04a57e4892a26be98", "1.14.0--r40hdfd78af_1": "sha256:b82ca121854e74100318723e46df39a8c416482bdb022374dc1bc3d77dba6717", "1.12.0--r40_0": "sha256:0d94158cd4bdaac96f826f6cca3036e45970224cb451d923bcbbd643f640dd3b", "1.10.0--r36_0": "sha256:2bd9e580c01c2c3e501761e3a7aca27fe2667783c79c0afab7657527ba9ff265", "1.24.0--r43hdfd78af_0": "sha256:9255b8e743dbee58e11ac59b853d22d7e49116a123ac6cadd598ff6d26fecca1", "1.26.0--r43hdfd78af_0": "sha256:5edd0b963f8969cd5e43c03adbf2457cced4c301ff9c58ddca784e2649da6fc0", "1.30.0--r44hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-funtoonorm:1.30.0--r44hdfd78af_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/bioconductor-funtoonorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-funtoonorm.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-funtoonorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-funtoonorm:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-funtoonorm:1.30.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-funtoonorm/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-funtoonorm/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-funtoonorm/1.30.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-funtoonorm/1.30.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

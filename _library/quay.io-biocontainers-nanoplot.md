@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplot/container.yaml"
-updated_at: "2025-01-13 03:25:47.180317"
-latest: "1.36.1--pyhdfd78af_0"
+updated_at: "2025-01-14 03:10:59.080570"
+latest: "1.43.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/nanoplot"
 aliases:
  - "NanoPlot"
@@ -27,8 +27,13 @@ versions:
  - "1.32.1--py_0"
  - "1.31.0--py_0"
  - "1.30.1--py_0"
+ - "1.43.0--pyhdfd78af_1"
+ - "1.42.0--pyhdfd78af_0"
+ - "1.41.6--pyhdfd78af_0"
+ - "1.40.2--pyhdfd78af_0"
+ - "1.39.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanoplot"
-config: {"url": "https://biocontainers.pro/tools/nanoplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplot", "latest": {"1.36.1--pyhdfd78af_0": "sha256:89592cc9e68e6d4f95d7695f7c70841a638013a4d210a139f0608ded1902af40"}, "tags": {"1.8.1--py36_0": "sha256:4ceaff31ac1534bf1ccdea215a6ca6e248dd3c5ac039994ee2e06979224171b7", "1.36.1--pyhdfd78af_0": "sha256:89592cc9e68e6d4f95d7695f7c70841a638013a4d210a139f0608ded1902af40", "1.35.5--pyhdfd78af_0": "sha256:2218e1ddeddd55857c36bb77d20533ef16fcd45e5f6126b9f895c219daa2c3f0", "1.32.1--py_0": "sha256:03ba69a3f1b359c9cdbaa1275add8cbbe1749908a5c9cc81d81c0498a1536bb8", "1.31.0--py_0": "sha256:949bd5be4f6ce9cb4d0e919751a02cfb1b5108428e2a9cae3c73e2279891183e", "1.30.1--py_0": "sha256:a99cdf02d901dbe170640a709c1529fb94a520101addb7c7e5cc11eb559a3fcf"}, "docker": "quay.io/biocontainers/nanoplot", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "pauvre": "/usr/local/bin/pauvre", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/nanoplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplot", "latest": {"1.43.0--pyhdfd78af_1": "sha256:ead345e36f33aac4f8062e0635baa3c1ba047708680921c37fb53a531d6587cf"}, "tags": {"1.8.1--py36_0": "sha256:b73d5b3c734675e473b3ecea4cd72df9f224877b51f8f8e68693a10b98dc733f", "1.36.1--pyhdfd78af_0": "sha256:89592cc9e68e6d4f95d7695f7c70841a638013a4d210a139f0608ded1902af40", "1.35.5--pyhdfd78af_0": "sha256:2218e1ddeddd55857c36bb77d20533ef16fcd45e5f6126b9f895c219daa2c3f0", "1.32.1--py_0": "sha256:03ba69a3f1b359c9cdbaa1275add8cbbe1749908a5c9cc81d81c0498a1536bb8", "1.31.0--py_0": "sha256:949bd5be4f6ce9cb4d0e919751a02cfb1b5108428e2a9cae3c73e2279891183e", "1.30.1--py_0": "sha256:a99cdf02d901dbe170640a709c1529fb94a520101addb7c7e5cc11eb559a3fcf", "1.43.0--pyhdfd78af_1": "sha256:ead345e36f33aac4f8062e0635baa3c1ba047708680921c37fb53a531d6587cf", "1.42.0--pyhdfd78af_0": "sha256:8eb31b6d172a997cb9bc5b00efc36e0376829dcb7bf3b64fd7490608f2b64cbf", "1.41.6--pyhdfd78af_0": "sha256:06e4ce10ed6c0cbea939eb8fe9df9d9e457734b9fbc872469c2c82805822a5a5", "1.40.2--pyhdfd78af_0": "sha256:8caeeac4d2358a7ec0299a5d04023b1cf04eecc2b2beb963be52c8f9cf99198f", "1.39.0--pyhdfd78af_0": "sha256:75c8f61b1b2c6a8c62c9e622e088b98f3298ac6aa136d9b259d89246295cd7cd"}, "docker": "quay.io/biocontainers/nanoplot", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "pauvre": "/usr/local/bin/pauvre", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoplot.
@@ -43,7 +48,7 @@ $ shpc install quay.io/biocontainers/nanoplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoplot:1.36.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanoplot:1.43.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoplot/1.36.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanoplot/1.36.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanoplot/1.43.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/nanoplot/1.43.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

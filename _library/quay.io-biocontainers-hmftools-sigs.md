@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-sigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sigs/container.yaml"
-updated_at: "2025-01-13 03:45:57.076958"
-latest: "1.2.1--hdfd78af_0"
+updated_at: "2025-01-14 03:31:06.324245"
+latest: "1.2.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-sigs"
 aliases:
  - "sigs"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.1--hdfd78af_0"
  - "1.2.1--hdfd78af_0"
+ - "1.2.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for hmftools-sigs"
-config: {"url": "https://biocontainers.pro/tools/hmftools-sigs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-sigs", "latest": {"1.2.1--hdfd78af_0": "sha256:2aa638eb2a253578f20ed71df593e56a0ec65863c5c27e5a1b44689f4f460d15"}, "tags": {"1.1--hdfd78af_0": "sha256:a1a7c0785568f2acff0aa2adc8e16d58213227857a69406f1348db01cc0a378a", "1.2.1--hdfd78af_0": "sha256:2aa638eb2a253578f20ed71df593e56a0ec65863c5c27e5a1b44689f4f460d15"}, "docker": "quay.io/biocontainers/hmftools-sigs", "aliases": {"sigs": "/usr/local/bin/sigs", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-sigs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-sigs", "latest": {"1.2.1--hdfd78af_1": "sha256:bbc4435c7d2f9680e12999f3786425b7c04ee51813cb8ce32e298ec022e2711a"}, "tags": {"1.1--hdfd78af_0": "sha256:a1a7c0785568f2acff0aa2adc8e16d58213227857a69406f1348db01cc0a378a", "1.2.1--hdfd78af_0": "sha256:2aa638eb2a253578f20ed71df593e56a0ec65863c5c27e5a1b44689f4f460d15", "1.2.1--hdfd78af_1": "sha256:bbc4435c7d2f9680e12999f3786425b7c04ee51813cb8ce32e298ec022e2711a"}, "docker": "quay.io/biocontainers/hmftools-sigs", "aliases": {"sigs": "/usr/local/bin/sigs", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-sigs.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hmftools-sigs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-sigs:1.2.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-sigs:1.2.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-sigs/1.2.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-sigs/1.2.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-sigs/1.2.1--hdfd78af_1
+$ module help quay.io/biocontainers/hmftools-sigs/1.2.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

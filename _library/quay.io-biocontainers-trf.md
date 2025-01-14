@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trf/container.yaml"
-updated_at: "2025-01-13 03:19:58.427676"
+updated_at: "2025-01-14 03:05:11.793437"
 latest: "4.09--2"
 container_url: "https://biocontainers.pro/tools/trf"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "4.09--2"
 description: "shpc-registry automated BioContainers addition for trf"
-config: {"url": "https://biocontainers.pro/tools/trf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trf", "latest": {"4.09--2": "sha256:a60f811670644ce43846bd0185d1c2e60282f38337f16ef98fb67d27b5c34bd5"}, "tags": {"4.09--2": "sha256:a60f811670644ce43846bd0185d1c2e60282f38337f16ef98fb67d27b5c34bd5"}, "docker": "quay.io/biocontainers/trf", "aliases": {"trf": "/usr/local/bin/trf"}}
+config: {"url": "https://biocontainers.pro/tools/trf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trf", "latest": {"4.09--2": "sha256:4a0b67b77a23eb690a07c3db8eee233110adb9001b8072de8cc1e151fd3b6e16"}, "tags": {"4.09--2": "sha256:4a0b67b77a23eb690a07c3db8eee233110adb9001b8072de8cc1e151fd3b6e16"}, "docker": "quay.io/biocontainers/trf", "aliases": {"trf": "/usr/local/bin/trf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trf.

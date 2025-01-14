@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepbgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepbgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepbgc/container.yaml"
-updated_at: "2025-01-13 03:02:31.859373"
+updated_at: "2025-01-14 02:48:33.081907"
 latest: "0.1.31--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/deepbgc"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "0.1.30--pyhca03a8a_2"
  - "0.1.31--pyhca03a8a_0"
 description: "shpc-registry automated BioContainers addition for deepbgc"
-config: {"url": "https://biocontainers.pro/tools/deepbgc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepbgc", "latest": {"0.1.31--pyhca03a8a_0": "sha256:10baf68e2715e281356af1cc84949ea2054ee6c2888e82a6c9e7535331dbc63e"}, "tags": {"0.1.9--py_0": "sha256:5ef5c60c9039dee19ea53f5aba46fec1beea5fe69a40a8d901757ae26fbeddf9", "0.1.30--pyhca03a8a_2": "sha256:3309f4fbb6ca00ef6bde62af358c78ac76da4e3600bb868bed34f13207f438ad", "0.1.31--pyhca03a8a_0": "sha256:10baf68e2715e281356af1cc84949ea2054ee6c2888e82a6c9e7535331dbc63e"}, "docker": "quay.io/biocontainers/deepbgc", "aliases": {"deepbgc": "/usr/local/bin/deepbgc", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
+config: {"url": "https://biocontainers.pro/tools/deepbgc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepbgc", "latest": {"0.1.31--pyhca03a8a_0": "sha256:10baf68e2715e281356af1cc84949ea2054ee6c2888e82a6c9e7535331dbc63e"}, "tags": {"0.1.9--py_0": "sha256:bef4394defc50141b7cf4d584e9c00a1cadddaf473e169123d5192cc06ece849", "0.1.30--pyhca03a8a_2": "sha256:3309f4fbb6ca00ef6bde62af358c78ac76da4e3600bb868bed34f13207f438ad", "0.1.31--pyhca03a8a_0": "sha256:10baf68e2715e281356af1cc84949ea2054ee6c2888e82a6c9e7535331dbc63e"}, "docker": "quay.io/biocontainers/deepbgc", "aliases": {"deepbgc": "/usr/local/bin/deepbgc", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepbgc.

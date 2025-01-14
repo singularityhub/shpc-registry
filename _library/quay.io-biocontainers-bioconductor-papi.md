@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-papi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-papi/container.yaml"
-updated_at: "2025-01-13 03:44:47.618525"
+updated_at: "2025-01-14 03:29:56.614059"
 latest: "1.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-papi"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.26.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-papi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-papi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-papi", "latest": {"1.26.0--r36_0": "sha256:4ba697b1bcaabd515b897251cf32b95dc19ae8b09b65e6449bc907428202ba79"}, "tags": {"1.26.0--r36_0": "sha256:4ba697b1bcaabd515b897251cf32b95dc19ae8b09b65e6449bc907428202ba79"}, "docker": "quay.io/biocontainers/bioconductor-papi", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-papi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-papi", "latest": {"1.26.0--r36_0": "sha256:8c41354ef121edb8dce8db4ac20e6f6d2e9c2172683e5bf081204ab9025ad47f"}, "tags": {"1.26.0--r36_0": "sha256:8c41354ef121edb8dce8db4ac20e6f6d2e9c2172683e5bf081204ab9025ad47f"}, "docker": "quay.io/biocontainers/bioconductor-papi", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-papi.

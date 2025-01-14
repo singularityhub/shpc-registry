@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-vars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-vars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-vars/container.yaml"
-updated_at: "2025-01-13 02:59:07.635389"
+updated_at: "2025-01-14 02:45:28.106356"
 latest: "1.03--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-vars"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.03--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-vars"
-config: {"url": "https://biocontainers.pro/tools/perl-vars", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vars", "latest": {"1.03--pl526_1": "sha256:f9219eb556919ae7e02303d15ba989ad91b7d644f69883883afff80226727bbc"}, "tags": {"1.03--pl526_1": "sha256:f9219eb556919ae7e02303d15ba989ad91b7d644f69883883afff80226727bbc"}, "docker": "quay.io/biocontainers/perl-vars", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-vars", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vars", "latest": {"1.03--pl526_1": "sha256:99b5ec82e28928e45ee4ed7b395bd1583f5ecf47b94ef90faf229fbe5453e059"}, "tags": {"1.03--pl526_1": "sha256:99b5ec82e28928e45ee4ed7b395bd1583f5ecf47b94ef90faf229fbe5453e059"}, "docker": "quay.io/biocontainers/perl-vars", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-vars.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-prolocdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prolocdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prolocdata/container.yaml"
-updated_at: "2025-01-13 03:36:00.116499"
-latest: "1.40.0--r43hdfd78af_0"
+updated_at: "2025-01-14 03:21:12.705891"
+latest: "1.44.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-prolocdata"
 aliases:
  - "zipcmp"
@@ -23,8 +23,9 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
+ - "1.44.0--r44hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-prolocdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prolocdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prolocdata", "latest": {"1.40.0--r43hdfd78af_0": "sha256:02585fe2e4fcd64c6cf84291bae5b87dc672a0c7b279f59e9a3bdcc09ea40803"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:bd39ab3c40222fd707509d138ef7bf4c0a6d4daf0418fb495845b73a235a8276", "1.36.0--r42hdfd78af_0": "sha256:e6392180030885151a8fb0a69b6649bf6d51a77c0b8ccba4e34fe79ee1f4504c", "1.38.0--r43hdfd78af_0": "sha256:8637b5adbf678792a30c8e7b764cebb03495a343c765f76e2dce59dcd0d5088a", "1.40.0--r43hdfd78af_0": "sha256:02585fe2e4fcd64c6cf84291bae5b87dc672a0c7b279f59e9a3bdcc09ea40803"}, "docker": "quay.io/biocontainers/bioconductor-prolocdata", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prolocdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prolocdata", "latest": {"1.44.0--r44hdfd78af_1": "sha256:ce2050c1229ca158bac9dde5a210e8b71a14ce11db201337edb8270eae655d6f"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:bd39ab3c40222fd707509d138ef7bf4c0a6d4daf0418fb495845b73a235a8276", "1.36.0--r42hdfd78af_0": "sha256:e6392180030885151a8fb0a69b6649bf6d51a77c0b8ccba4e34fe79ee1f4504c", "1.38.0--r43hdfd78af_0": "sha256:8637b5adbf678792a30c8e7b764cebb03495a343c765f76e2dce59dcd0d5088a", "1.40.0--r43hdfd78af_0": "sha256:02585fe2e4fcd64c6cf84291bae5b87dc672a0c7b279f59e9a3bdcc09ea40803", "1.44.0--r44hdfd78af_1": "sha256:ce2050c1229ca158bac9dde5a210e8b71a14ce11db201337edb8270eae655d6f"}, "docker": "quay.io/biocontainers/bioconductor-prolocdata", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prolocdata.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prolocdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prolocdata:1.40.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-prolocdata:1.44.0--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prolocdata/1.40.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-prolocdata/1.40.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-prolocdata/1.44.0--r44hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-prolocdata/1.44.0--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

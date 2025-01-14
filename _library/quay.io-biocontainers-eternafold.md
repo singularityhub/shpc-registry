@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/eternafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eternafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eternafold/container.yaml"
-updated_at: "2025-01-13 03:17:09.544378"
-latest: "1.3.1--h4ac6f70_0"
+updated_at: "2025-01-14 03:02:23.681144"
+latest: "1.3.1--h9948957_1"
 container_url: "https://biocontainers.pro/tools/eternafold"
 aliases:
  - "eternafold"
 versions:
  - "1.3.1--h4ac6f70_0"
+ - "1.3.1--h9948957_1"
 description: "singularity registry hpc automated addition for eternafold"
-config: {"url": "https://biocontainers.pro/tools/eternafold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eternafold", "latest": {"1.3.1--h4ac6f70_0": "sha256:06d7af0fc874d33e3a927696edbe080678afb09f944dbd152ecd34fd4cec84e4"}, "tags": {"1.3.1--h4ac6f70_0": "sha256:06d7af0fc874d33e3a927696edbe080678afb09f944dbd152ecd34fd4cec84e4"}, "docker": "quay.io/biocontainers/eternafold", "aliases": {"eternafold": "/usr/local/bin/eternafold"}}
+config: {"url": "https://biocontainers.pro/tools/eternafold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eternafold", "latest": {"1.3.1--h9948957_1": "sha256:4d1b954a5819d35352b74d2465d3af1e1d803253cdeda291e98bd1b8b027c3f6"}, "tags": {"1.3.1--h4ac6f70_0": "sha256:06d7af0fc874d33e3a927696edbe080678afb09f944dbd152ecd34fd4cec84e4", "1.3.1--h9948957_1": "sha256:4d1b954a5819d35352b74d2465d3af1e1d803253cdeda291e98bd1b8b027c3f6"}, "docker": "quay.io/biocontainers/eternafold", "aliases": {"eternafold": "/usr/local/bin/eternafold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eternafold.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/eternafold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eternafold:1.3.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/eternafold:1.3.1--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eternafold/1.3.1--h4ac6f70_0
-$ module help quay.io/biocontainers/eternafold/1.3.1--h4ac6f70_0
+$ module load quay.io/biocontainers/eternafold/1.3.1--h9948957_1
+$ module help quay.io/biocontainers/eternafold/1.3.1--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

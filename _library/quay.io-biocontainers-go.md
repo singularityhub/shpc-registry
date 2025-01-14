@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/go"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/go/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/go/container.yaml"
-updated_at: "2025-01-13 03:32:52.285893"
+updated_at: "2025-01-14 03:17:58.700190"
 latest: "1.11.3"
 container_url: "https://biocontainers.pro/tools/go"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.11.3"
 description: "shpc-registry automated BioContainers addition for go"
-config: {"url": "https://biocontainers.pro/tools/go", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for go", "latest": {"1.11.3": "sha256:96cb667782057597042728273507e8bc1cb218516080896c95c704a8e94a0c24"}, "tags": {"1.11.3": "sha256:96cb667782057597042728273507e8bc1cb218516080896c95c704a8e94a0c24"}, "docker": "quay.io/biocontainers/go", "aliases": {"go": "/usr/local/bin/go", "gofmt": "/usr/local/bin/gofmt"}}
+config: {"url": "https://biocontainers.pro/tools/go", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for go", "latest": {"1.11.3": "sha256:e98137e4ca99231fe9e0a0a26e0d09a14494eccd85e4d54831bc57f02b933eb3"}, "tags": {"1.11.3": "sha256:e98137e4ca99231fe9e0a0a26e0d09a14494eccd85e4d54831bc57f02b933eb3"}, "docker": "quay.io/biocontainers/go", "aliases": {"go": "/usr/local/bin/go", "gofmt": "/usr/local/bin/gofmt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/go.

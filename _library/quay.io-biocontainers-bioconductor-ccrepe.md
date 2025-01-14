@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ccrepe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccrepe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccrepe/container.yaml"
-updated_at: "2025-01-13 02:59:56.897683"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2025-01-14 02:46:13.889636"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccrepe"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccrepe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccrepe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccrepe", "latest": {"1.36.0--r43hdfd78af_0": "sha256:969b9e39d83b3b8a5e6678b382c20c2da7a2f042f5ebbec487e3d3786345f4cb"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:bbb16f069adfe3ecb2b651f119b9e25957b7ea2e22d223ff9f831bfed3729144", "1.34.0--r42hdfd78af_0": "sha256:e742014fc0ecd1f02c9514766a7acfde83dc21674b5d98658b3382c0dd5c953a", "1.36.0--r43hdfd78af_0": "sha256:969b9e39d83b3b8a5e6678b382c20c2da7a2f042f5ebbec487e3d3786345f4cb"}, "docker": "quay.io/biocontainers/bioconductor-ccrepe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccrepe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccrepe", "latest": {"1.42.0--r44hdfd78af_0": "sha256:bdf12fe38826c3cd0289793d53a0dddc9bd235e8e192450c0a9d8c7663a0002d"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:bbb16f069adfe3ecb2b651f119b9e25957b7ea2e22d223ff9f831bfed3729144", "1.34.0--r42hdfd78af_0": "sha256:e742014fc0ecd1f02c9514766a7acfde83dc21674b5d98658b3382c0dd5c953a", "1.36.0--r43hdfd78af_0": "sha256:969b9e39d83b3b8a5e6678b382c20c2da7a2f042f5ebbec487e3d3786345f4cb", "1.42.0--r44hdfd78af_0": "sha256:bdf12fe38826c3cd0289793d53a0dddc9bd235e8e192450c0a9d8c7663a0002d"}, "docker": "quay.io/biocontainers/bioconductor-ccrepe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccrepe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ccrepe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ccrepe:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ccrepe:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ccrepe/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ccrepe/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ccrepe/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ccrepe/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

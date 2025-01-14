@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cite-seq-count"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cite-seq-count/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cite-seq-count/container.yaml"
-updated_at: "2025-01-13 03:39:50.658006"
-latest: "1.4.4--pyhdfd78af_0"
+updated_at: "2025-01-14 03:24:58.815309"
+latest: "1.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cite-seq-count"
 aliases:
  - "CITE-seq-Count"
@@ -22,8 +22,9 @@ aliases:
  - "certutil"
 versions:
  - "1.4.4--pyhdfd78af_0"
+ - "1.4.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cite-seq-count"
-config: {"url": "https://biocontainers.pro/tools/cite-seq-count", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cite-seq-count", "latest": {"1.4.4--pyhdfd78af_0": "sha256:c0c0c966a4405f8be664032e1209e19ff0ae791e8e32bbc387ecb85a89a8b6d8"}, "tags": {"1.4.4--pyhdfd78af_0": "sha256:c0c0c966a4405f8be664032e1209e19ff0ae791e8e32bbc387ecb85a89a8b6d8"}, "docker": "quay.io/biocontainers/cite-seq-count", "aliases": {"CITE-seq-Count": "/usr/local/bin/CITE-seq-Count", "umi_tools": "/usr/local/bin/umi_tools", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "xkbcli": "/usr/local/bin/xkbcli", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil"}}
+config: {"url": "https://biocontainers.pro/tools/cite-seq-count", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cite-seq-count", "latest": {"1.4.5--pyhdfd78af_0": "sha256:5ecad082b85727a52b368a6350e8a278902e016da9fe63ef9a5a2fa967c4807a"}, "tags": {"1.4.4--pyhdfd78af_0": "sha256:c0c0c966a4405f8be664032e1209e19ff0ae791e8e32bbc387ecb85a89a8b6d8", "1.4.5--pyhdfd78af_0": "sha256:5ecad082b85727a52b368a6350e8a278902e016da9fe63ef9a5a2fa967c4807a"}, "docker": "quay.io/biocontainers/cite-seq-count", "aliases": {"CITE-seq-Count": "/usr/local/bin/CITE-seq-Count", "umi_tools": "/usr/local/bin/umi_tools", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "xkbcli": "/usr/local/bin/xkbcli", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cite-seq-count.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/cite-seq-count
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cite-seq-count:1.4.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cite-seq-count:1.4.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cite-seq-count/1.4.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cite-seq-count/1.4.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cite-seq-count/1.4.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/cite-seq-count/1.4.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

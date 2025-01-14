@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgabiolinksgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgabiolinksgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgabiolinksgui/container.yaml"
-updated_at: "2025-01-13 03:15:37.765539"
+updated_at: "2025-01-14 03:00:58.105653"
 latest: "1.23.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui"
 
@@ -16,7 +16,7 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui", "latest": {"1.23.0--r42hdfd78af_0": "sha256:fcdf30e7bb34ce710bb12632f8056fc181bc3904f8ec84804f48a9f57c143199"}, "tags": {"1.8.0--r351_0": "sha256:b4572cfc65fb7d4b04d7c2f2687467f16b22f11dd670acdfc500c546dbf06f90", "1.23.0--r42hdfd78af_0": "sha256:fcdf30e7bb34ce710bb12632f8056fc181bc3904f8ec84804f48a9f57c143199", "1.20.0--r41hdfd78af_0": "sha256:f172f542ddd1e06f99271eda3cbbd6e9b40ec02f8a2806db167e92c452f8a475", "1.18.0--r41hdfd78af_0": "sha256:fa098d933c83fe8dd3f728ca26bf0259d3aa0df56a0052a3a7d0314b85473858", "1.16.0--r40hdfd78af_1": "sha256:730934ac0c284498ea724e14b83077f470043080a2ff01342f59979db1a3a23b", "1.14.0--r40_0": "sha256:be7b5cc83c539bcc13648b867d7e646d18a7d80ae6cef4c9f42625bccf28529b"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinksgui"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui", "latest": {"1.23.0--r42hdfd78af_0": "sha256:fcdf30e7bb34ce710bb12632f8056fc181bc3904f8ec84804f48a9f57c143199"}, "tags": {"1.8.0--r351_0": "sha256:3e7c88a3b92c3ccf04037e368e76c22d5a9c5fdd3c7fe6c94e123054472eb736", "1.23.0--r42hdfd78af_0": "sha256:fcdf30e7bb34ce710bb12632f8056fc181bc3904f8ec84804f48a9f57c143199", "1.20.0--r41hdfd78af_0": "sha256:f172f542ddd1e06f99271eda3cbbd6e9b40ec02f8a2806db167e92c452f8a475", "1.18.0--r41hdfd78af_0": "sha256:fa098d933c83fe8dd3f728ca26bf0259d3aa0df56a0052a3a7d0314b85473858", "1.16.0--r40hdfd78af_1": "sha256:730934ac0c284498ea724e14b83077f470043080a2ff01342f59979db1a3a23b", "1.14.0--r40_0": "sha256:be7b5cc83c539bcc13648b867d7e646d18a7d80ae6cef4c9f42625bccf28529b"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinksgui"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgabiolinksgui.

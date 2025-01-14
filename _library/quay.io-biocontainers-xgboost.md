@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xgboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xgboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xgboost/container.yaml"
-updated_at: "2025-01-13 03:17:55.180363"
+updated_at: "2025-01-14 03:03:08.367273"
 latest: "0.6a2--py27_0"
 container_url: "https://biocontainers.pro/tools/xgboost"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.6a2--py27_0"
 description: "shpc-registry automated BioContainers addition for xgboost"
-config: {"url": "https://biocontainers.pro/tools/xgboost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xgboost", "latest": {"0.6a2--py27_0": "sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e"}, "tags": {"0.6a2--py27_0": "sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e"}, "docker": "quay.io/biocontainers/xgboost", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/xgboost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xgboost", "latest": {"0.6a2--py27_0": "sha256:a701390aad26a113c1087f3816e45f4d815392f87af6dcb64ae6b205d60ac0b1"}, "tags": {"0.6a2--py27_0": "sha256:a701390aad26a113c1087f3816e45f4d815392f87af6dcb64ae6b205d60ac0b1"}, "docker": "quay.io/biocontainers/xgboost", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xgboost.

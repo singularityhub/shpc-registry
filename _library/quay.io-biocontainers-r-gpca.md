@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gpca/container.yaml"
-updated_at: "2025-01-13 03:43:19.434096"
+updated_at: "2025-01-14 03:28:26.969535"
 latest: "1.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-gpca"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-gpca"
-config: {"url": "https://biocontainers.pro/tools/r-gpca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gpca", "latest": {"1.0--r351h6115d3f_1": "sha256:30f772d881fef9251a60e1674ea462e130430228652891c6ead397a35d0d094f"}, "tags": {"1.0--r351h6115d3f_1": "sha256:30f772d881fef9251a60e1674ea462e130430228652891c6ead397a35d0d094f"}, "docker": "quay.io/biocontainers/r-gpca", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-gpca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gpca", "latest": {"1.0--r351h6115d3f_1": "sha256:354d51513aa06c6d4d0747f2b7474265f395ad491a0a4cb2e99c52ca4e4a60b7"}, "tags": {"1.0--r351h6115d3f_1": "sha256:354d51513aa06c6d4d0747f2b7474265f395ad491a0a4cb2e99c52ca4e4a60b7"}, "docker": "quay.io/biocontainers/r-gpca", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gpca.

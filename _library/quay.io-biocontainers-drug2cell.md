@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drug2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drug2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drug2cell/container.yaml"
-updated_at: "2025-01-13 03:29:55.351597"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2025-01-14 03:14:58.222065"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drug2cell"
 aliases:
  - "qconvex"
@@ -35,8 +35,9 @@ aliases:
  - "h5copy"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for drug2cell"
-config: {"url": "https://biocontainers.pro/tools/drug2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drug2cell", "latest": {"0.1.1--pyhdfd78af_0": "sha256:deb7881d2d68995ceca44f0cf4516b543012291bebea30e212f2aa3bf67f3b50"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:deb7881d2d68995ceca44f0cf4516b543012291bebea30e212f2aa3bf67f3b50"}, "docker": "quay.io/biocontainers/drug2cell", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/drug2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drug2cell", "latest": {"0.1.2--pyhdfd78af_0": "sha256:8adb8dac3dc0e661ffdc630cb6eae80f4bafa68a7b8e6d5375da94914e91ef94"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:deb7881d2d68995ceca44f0cf4516b543012291bebea30e212f2aa3bf67f3b50", "0.1.2--pyhdfd78af_0": "sha256:8adb8dac3dc0e661ffdc630cb6eae80f4bafa68a7b8e6d5375da94914e91ef94"}, "docker": "quay.io/biocontainers/drug2cell", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drug2cell.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/drug2cell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drug2cell:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/drug2cell:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drug2cell/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/drug2cell/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/drug2cell/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/drug2cell/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

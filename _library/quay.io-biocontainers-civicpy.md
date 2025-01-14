@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/civicpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/civicpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/civicpy/container.yaml"
-updated_at: "2025-01-13 03:28:53.479996"
-latest: "3.0.0--py310hdfd78af_0"
+updated_at: "2025-01-14 03:13:58.779297"
+latest: "4.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/civicpy"
 aliases:
  - "civicpy"
@@ -19,8 +19,10 @@ aliases:
  - "python3.1"
 versions:
  - "3.0.0--py310hdfd78af_0"
+ - "4.0.0--pyhdfd78af_0"
+ - "3.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for civicpy"
-config: {"url": "https://biocontainers.pro/tools/civicpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for civicpy", "latest": {"3.0.0--py310hdfd78af_0": "sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d"}, "tags": {"3.0.0--py310hdfd78af_0": "sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d"}, "docker": "quay.io/biocontainers/civicpy", "aliases": {"civicpy": "/usr/local/bin/civicpy", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/civicpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for civicpy", "latest": {"4.0.0--pyhdfd78af_0": "sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb"}, "tags": {"3.0.0--py310hdfd78af_0": "sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d", "4.0.0--pyhdfd78af_0": "sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb", "3.1.2--pyhdfd78af_0": "sha256:d92436c92e0fdcfc7ed012d8d6bb87b740bc0a2958dfaba6329783d724effed2"}, "docker": "quay.io/biocontainers/civicpy", "aliases": {"civicpy": "/usr/local/bin/civicpy", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/civicpy.
@@ -35,7 +37,7 @@ $ shpc install quay.io/biocontainers/civicpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/civicpy:3.0.0--py310hdfd78af_0
+$ shpc install quay.io/biocontainers/civicpy:4.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/civicpy/3.0.0--py310hdfd78af_0
-$ module help quay.io/biocontainers/civicpy/3.0.0--py310hdfd78af_0
+$ module load quay.io/biocontainers/civicpy/4.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/civicpy/4.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

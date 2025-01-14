@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-biox-workflow-command"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biox-workflow-command/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biox-workflow-command/container.yaml"
-updated_at: "2025-01-13 03:39:21.943806"
+updated_at: "2025-01-14 03:24:31.377664"
 latest: "2.4.1--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-biox-workflow-command"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "2.4.1--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-biox-workflow-command"
-config: {"url": "https://biocontainers.pro/tools/perl-biox-workflow-command", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-workflow-command", "latest": {"2.4.1--pl526_1": "sha256:63a0b470270b26a3cf34ebe381d861c37b6eddb025a1f3812fb673f5ed86b14c"}, "tags": {"2.4.1--pl526_1": "sha256:63a0b470270b26a3cf34ebe381d861c37b6eddb025a1f3812fb673f5ed86b14c"}, "docker": "quay.io/biocontainers/perl-biox-workflow-command", "aliases": {"biosails-biox-render.py": "/usr/local/bin/biosails-biox-render.py", "biox": "/usr/local/bin/biox", "biox-workflow.pl": "/usr/local/bin/biox-workflow.pl", "mustache.pl": "/usr/local/bin/mustache.pl", "perl-reversion": "/usr/local/bin/perl-reversion", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "json_xs": "/usr/local/bin/json_xs"}}
+config: {"url": "https://biocontainers.pro/tools/perl-biox-workflow-command", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-workflow-command", "latest": {"2.4.1--pl526_1": "sha256:d47a3d5ff2ada7230712154ae7d81fff6f60bdf51123d9cdce22e4e5ec0147c4"}, "tags": {"2.4.1--pl526_1": "sha256:d47a3d5ff2ada7230712154ae7d81fff6f60bdf51123d9cdce22e4e5ec0147c4"}, "docker": "quay.io/biocontainers/perl-biox-workflow-command", "aliases": {"biosails-biox-render.py": "/usr/local/bin/biosails-biox-render.py", "biox": "/usr/local/bin/biox", "biox-workflow.pl": "/usr/local/bin/biox-workflow.pl", "mustache.pl": "/usr/local/bin/mustache.pl", "perl-reversion": "/usr/local/bin/perl-reversion", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "json_xs": "/usr/local/bin/json_xs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-biox-workflow-command.

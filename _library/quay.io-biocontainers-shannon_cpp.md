@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shannon_cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shannon_cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shannon_cpp/container.yaml"
-updated_at: "2025-01-13 03:33:42.087018"
+updated_at: "2025-01-14 03:18:49.809282"
 latest: "0.5.0--py27pl526h5dd6954_0"
 container_url: "https://biocontainers.pro/tools/shannon_cpp"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.5.0--py27pl526h5dd6954_0"
 description: "shpc-registry automated BioContainers addition for shannon_cpp"
-config: {"url": "https://biocontainers.pro/tools/shannon_cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shannon_cpp", "latest": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "tags": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "docker": "quay.io/biocontainers/shannon_cpp", "aliases": {"rcorrector": "/usr/local/bin/rcorrector", "run_rcorrector.pl": "/usr/local/bin/run_rcorrector.pl", "shannon_cpp": "/usr/local/bin/shannon_cpp", "syrupy.py": "/usr/local/bin/syrupy.py", "jellyfish": "/usr/local/bin/jellyfish", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32"}}
+config: {"url": "https://biocontainers.pro/tools/shannon_cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shannon_cpp", "latest": {"0.5.0--py27pl526h5dd6954_0": "sha256:f058c9635221877c0cc01ab2a86f6cbdf5e6fe806ae14a899a49877df0cb681e"}, "tags": {"0.5.0--py27pl526h5dd6954_0": "sha256:f058c9635221877c0cc01ab2a86f6cbdf5e6fe806ae14a899a49877df0cb681e"}, "docker": "quay.io/biocontainers/shannon_cpp", "aliases": {"rcorrector": "/usr/local/bin/rcorrector", "run_rcorrector.pl": "/usr/local/bin/run_rcorrector.pl", "shannon_cpp": "/usr/local/bin/shannon_cpp", "syrupy.py": "/usr/local/bin/syrupy.py", "jellyfish": "/usr/local/bin/jellyfish", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shannon_cpp.

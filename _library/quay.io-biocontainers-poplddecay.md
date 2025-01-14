@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/poplddecay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poplddecay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poplddecay/container.yaml"
-updated_at: "2025-01-13 03:37:27.633117"
-latest: "3.43--hdcf5f25_1"
+updated_at: "2025-01-14 03:22:40.336643"
+latest: "3.43--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/poplddecay"
 aliases:
  - "PopLDdecay"
 versions:
  - "3.43--hdcf5f25_1"
+ - "3.43--h077b44d_2"
 description: "singularity registry hpc automated addition for poplddecay"
-config: {"url": "https://biocontainers.pro/tools/poplddecay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poplddecay", "latest": {"3.43--hdcf5f25_1": "sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0"}, "tags": {"3.43--hdcf5f25_1": "sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0"}, "docker": "quay.io/biocontainers/poplddecay", "aliases": {"PopLDdecay": "/usr/local/bin/PopLDdecay"}}
+config: {"url": "https://biocontainers.pro/tools/poplddecay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poplddecay", "latest": {"3.43--h077b44d_2": "crane digest quay.io/biocontainers/poplddecay:3.43--h077b44d_2: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"3.43--hdcf5f25_1": "sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0", "3.43--h077b44d_2": "crane digest quay.io/biocontainers/poplddecay:3.43--h077b44d_2: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/poplddecay", "aliases": {"PopLDdecay": "/usr/local/bin/PopLDdecay"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poplddecay.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/poplddecay
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poplddecay:3.43--hdcf5f25_1
+$ shpc install quay.io/biocontainers/poplddecay:3.43--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poplddecay/3.43--hdcf5f25_1
-$ module help quay.io/biocontainers/poplddecay/3.43--hdcf5f25_1
+$ module load quay.io/biocontainers/poplddecay/3.43--h077b44d_2
+$ module help quay.io/biocontainers/poplddecay/3.43--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

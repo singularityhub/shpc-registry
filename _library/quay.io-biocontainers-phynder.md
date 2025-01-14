@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phynder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynder/container.yaml"
-updated_at: "2025-01-13 03:33:15.253707"
-latest: "1.0--h81da01d_0"
+updated_at: "2025-01-14 03:18:22.270342"
+latest: "1.0--h566b1c6_4"
 container_url: "https://biocontainers.pro/tools/phynder"
 aliases:
  - "annot-tsv"
@@ -15,8 +15,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0--h81da01d_0"
+ - "1.0--h566b1c6_4"
 description: "singularity registry hpc automated addition for phynder"
-config: {"url": "https://biocontainers.pro/tools/phynder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynder", "latest": {"1.0--h81da01d_0": "sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e"}, "tags": {"1.0--h81da01d_0": "sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e"}, "docker": "quay.io/biocontainers/phynder", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "phynder": "/usr/local/bin/phynder", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/phynder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynder", "latest": {"1.0--h566b1c6_4": "sha256:874592a924e89a7ac96d853e631e1824d07d41d7c216529de8645b3b01e2bb28"}, "tags": {"1.0--h81da01d_0": "sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e", "1.0--h566b1c6_4": "sha256:874592a924e89a7ac96d853e631e1824d07d41d7c216529de8645b3b01e2bb28"}, "docker": "quay.io/biocontainers/phynder", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "phynder": "/usr/local/bin/phynder", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phynder.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/phynder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phynder:1.0--h81da01d_0
+$ shpc install quay.io/biocontainers/phynder:1.0--h566b1c6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phynder/1.0--h81da01d_0
-$ module help quay.io/biocontainers/phynder/1.0--h81da01d_0
+$ module load quay.io/biocontainers/phynder/1.0--h566b1c6_4
+$ module help quay.io/biocontainers/phynder/1.0--h566b1c6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

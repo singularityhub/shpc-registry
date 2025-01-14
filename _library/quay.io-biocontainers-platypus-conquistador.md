@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/platypus-conquistador"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platypus-conquistador/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platypus-conquistador/container.yaml"
-updated_at: "2025-01-13 03:25:48.582267"
+updated_at: "2025-01-14 03:11:00.480902"
 latest: "0.9.0--py_3"
 container_url: "https://biocontainers.pro/tools/platypus-conquistador"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.9.0--py_3"
 description: "shpc-registry automated BioContainers addition for platypus-conquistador"
-config: {"url": "https://biocontainers.pro/tools/platypus-conquistador", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platypus-conquistador", "latest": {"0.9.0--py_3": "sha256:f42b19b89a5148a24001db71c20333a2dd6e7283e7c9e1d99d06a6d55a6ebed0"}, "tags": {"0.9.0--py_3": "sha256:f42b19b89a5148a24001db71c20333a2dd6e7283e7c9e1d99d06a6d55a6ebed0"}, "docker": "quay.io/biocontainers/platypus-conquistador", "aliases": {"iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "platypus": "/usr/local/bin/platypus", "iptest": "/usr/local/bin/iptest", "ipython": "/usr/local/bin/ipython", "natsort": "/usr/local/bin/natsort", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "pygmentize": "/usr/local/bin/pygmentize", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf"}}
+config: {"url": "https://biocontainers.pro/tools/platypus-conquistador", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platypus-conquistador", "latest": {"0.9.0--py_3": "sha256:78590456690e57f228fa41774335944f23cfa59439d7815db2141a2c17d239ca"}, "tags": {"0.9.0--py_3": "sha256:78590456690e57f228fa41774335944f23cfa59439d7815db2141a2c17d239ca"}, "docker": "quay.io/biocontainers/platypus-conquistador", "aliases": {"iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "platypus": "/usr/local/bin/platypus", "iptest": "/usr/local/bin/iptest", "ipython": "/usr/local/bin/ipython", "natsort": "/usr/local/bin/natsort", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "pygmentize": "/usr/local/bin/pygmentize", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/platypus-conquistador.

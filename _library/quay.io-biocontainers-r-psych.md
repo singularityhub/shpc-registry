@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-psych"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-psych/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-psych/container.yaml"
-updated_at: "2025-01-13 03:30:33.154172"
+updated_at: "2025-01-14 03:15:35.958825"
 latest: "crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout"
 container_url: "https://biocontainers.pro/tools/r-psych"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.7.8--r3.4.1_0"
  - "crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout"
 description: "shpc-registry automated BioContainers addition for r-psych"
-config: {"url": "https://biocontainers.pro/tools/r-psych", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-psych", "latest": {"crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "tags": {"1.7.8--r3.4.1_0": "sha256:7a7a30f3c2bfd32542ed99c51dcd58d636c20b3f303780accc40ad1cb7c6ab92", "crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "docker": "quay.io/biocontainers/r-psych", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-psych", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-psych", "latest": {"crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "tags": {"1.7.8--r3.4.1_0": "sha256:7bf69bbbc011a85c5afc3c9b0f9cd5a82501e0fb6ee5a74574b71ad3220404da", "crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "docker": "quay.io/biocontainers/r-psych", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-psych.

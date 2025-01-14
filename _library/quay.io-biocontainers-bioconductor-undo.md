@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-undo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-undo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-undo/container.yaml"
-updated_at: "2025-01-13 03:15:47.367085"
-latest: "1.44.0--r43hdfd78af_0"
+updated_at: "2025-01-14 03:01:07.084745"
+latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-undo"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.40.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
  - "1.44.0--r43hdfd78af_0"
+ - "1.48.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-undo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-undo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-undo", "latest": {"1.44.0--r43hdfd78af_0": "sha256:df0c930a86dfd55372528b3eece28a998d7909f6dd578719c23351f88d0501f7"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:59829ff2fb8c48ae429a37d8cb98313fe7dbdbfe8435ab5a789adc611d1afc0c", "1.40.0--r42hdfd78af_0": "sha256:2024059b861d96c5c7e2398ef8e2c6de7227eaf5e7a0cbdf797299e9e9652753", "1.42.0--r43hdfd78af_0": "sha256:6836444f08ee172867ace677f7ad58da59090f974569fbc4932c224ea65e4c77", "1.44.0--r43hdfd78af_0": "sha256:df0c930a86dfd55372528b3eece28a998d7909f6dd578719c23351f88d0501f7"}, "docker": "quay.io/biocontainers/bioconductor-undo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-undo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-undo", "latest": {"1.48.0--r44hdfd78af_0": "sha256:317527714bf0e6c842cd8a3b2a1196e03e8d5ea5e9dd49fd08ddb193a89030a3"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:59829ff2fb8c48ae429a37d8cb98313fe7dbdbfe8435ab5a789adc611d1afc0c", "1.40.0--r42hdfd78af_0": "sha256:2024059b861d96c5c7e2398ef8e2c6de7227eaf5e7a0cbdf797299e9e9652753", "1.42.0--r43hdfd78af_0": "sha256:6836444f08ee172867ace677f7ad58da59090f974569fbc4932c224ea65e4c77", "1.44.0--r43hdfd78af_0": "sha256:df0c930a86dfd55372528b3eece28a998d7909f6dd578719c23351f88d0501f7", "1.48.0--r44hdfd78af_0": "sha256:317527714bf0e6c842cd8a3b2a1196e03e8d5ea5e9dd49fd08ddb193a89030a3"}, "docker": "quay.io/biocontainers/bioconductor-undo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-undo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-undo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-undo:1.44.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-undo:1.48.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-undo/1.44.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-undo/1.44.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-undo/1.48.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-undo/1.48.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

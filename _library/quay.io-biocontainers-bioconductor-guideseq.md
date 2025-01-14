@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-guideseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-guideseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-guideseq/container.yaml"
-updated_at: "2025-01-13 03:02:53.715340"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2025-01-14 02:48:53.365578"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-guideseq"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.18.0--r40_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-guideseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-guideseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-guideseq", "latest": {"1.32.0--r43hdfd78af_0": "sha256:6fd80e4ed3045cdb240d6a748b83bcf75caae486a32927e7745e6e68161ce633"}, "tags": {"1.8.0--r3.4.1_0": "sha256:1a40b4bff786b60a8c148f83221f3644ef566c0c3ecd7d314c64b79e87c79cba", "1.28.0--r42hdfd78af_0": "sha256:757d52b88f9dcea16403346defb59be96cfbdefe0836c7cbd1b426bb3995c926", "1.24.0--r41hdfd78af_0": "sha256:f3ce88c8538ed78ae6441dcedd351984da6ca6626a087bbf7b8ec086dfe40fb2", "1.22.0--r41hdfd78af_0": "sha256:af10e1a742bf04ea4b6959593b0c16daf2e39c09e64b51d6e30c53aa070556a1", "1.20.0--r40hdfd78af_1": "sha256:3c7a3d26b3918560143ba6611e2a804ced78311dd92dd4c619cbcf46a80e7aae", "1.18.0--r40_0": "sha256:4167b7e9e924045778ba71047722aa59b928cf26461d8e0ef5eb08618521ada4", "1.30.0--r43hdfd78af_0": "sha256:092aff6a9cb4879049a898095d0bc3e5dfae5c0a56ca7eed99580cbc7c8b8dfe", "1.32.0--r43hdfd78af_0": "sha256:6fd80e4ed3045cdb240d6a748b83bcf75caae486a32927e7745e6e68161ce633"}, "docker": "quay.io/biocontainers/bioconductor-guideseq", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-guideseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-guideseq", "latest": {"1.36.0--r44hdfd78af_0": "sha256:90f9db5e90b09d118251a390f9cb08d95263287835f9d84664d0b87b42c6650a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:97215afb004bdd2b59e4e5f972b6bdc228492eb9718815072266b211460f498e", "1.28.0--r42hdfd78af_0": "sha256:757d52b88f9dcea16403346defb59be96cfbdefe0836c7cbd1b426bb3995c926", "1.24.0--r41hdfd78af_0": "sha256:f3ce88c8538ed78ae6441dcedd351984da6ca6626a087bbf7b8ec086dfe40fb2", "1.22.0--r41hdfd78af_0": "sha256:af10e1a742bf04ea4b6959593b0c16daf2e39c09e64b51d6e30c53aa070556a1", "1.20.0--r40hdfd78af_1": "sha256:3c7a3d26b3918560143ba6611e2a804ced78311dd92dd4c619cbcf46a80e7aae", "1.18.0--r40_0": "sha256:4167b7e9e924045778ba71047722aa59b928cf26461d8e0ef5eb08618521ada4", "1.30.0--r43hdfd78af_0": "sha256:092aff6a9cb4879049a898095d0bc3e5dfae5c0a56ca7eed99580cbc7c8b8dfe", "1.32.0--r43hdfd78af_0": "sha256:6fd80e4ed3045cdb240d6a748b83bcf75caae486a32927e7745e6e68161ce633", "1.36.0--r44hdfd78af_0": "sha256:90f9db5e90b09d118251a390f9cb08d95263287835f9d84664d0b87b42c6650a"}, "docker": "quay.io/biocontainers/bioconductor-guideseq", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-guideseq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-guideseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-guideseq:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-guideseq:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-guideseq/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-guideseq/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-guideseq/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-guideseq/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

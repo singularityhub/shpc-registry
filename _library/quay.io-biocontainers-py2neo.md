@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py2neo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py2neo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py2neo/container.yaml"
-updated_at: "2025-01-13 03:09:27.861944"
+updated_at: "2025-01-14 02:55:03.671210"
 latest: "3.1.2--py35_0"
 container_url: "https://biocontainers.pro/tools/py2neo"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "3.1.2--py35_0"
+ - "3.1.2--py34_0"
 description: "shpc-registry automated BioContainers addition for py2neo"
-config: {"url": "https://biocontainers.pro/tools/py2neo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py2neo", "latest": {"3.1.2--py35_0": "sha256:a48f712d98162536f8827600da2ac215bc672393c3f74460d7429100d6b71016"}, "tags": {"3.1.2--py35_0": "sha256:a48f712d98162536f8827600da2ac215bc672393c3f74460d7429100d6b71016"}, "docker": "quay.io/biocontainers/py2neo", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "py2neo": "/usr/local/bin/py2neo", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/py2neo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py2neo", "latest": {"3.1.2--py35_0": "sha256:46bb5d1098b27e5325d512ea239ec0ef21b991ec13ebe74e5c88b1dacd49205d"}, "tags": {"3.1.2--py35_0": "sha256:46bb5d1098b27e5325d512ea239ec0ef21b991ec13ebe74e5c88b1dacd49205d", "3.1.2--py34_0": "sha256:3e8737d36aeebbe50e84c3dbce2a205d91fdb07264f8dc60011a0afc6d04679b"}, "docker": "quay.io/biocontainers/py2neo", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "py2neo": "/usr/local/bin/py2neo", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py2neo.

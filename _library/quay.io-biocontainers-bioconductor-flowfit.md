@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowfit/container.yaml"
-updated_at: "2025-01-13 03:22:39.958479"
+updated_at: "2025-01-14 03:07:53.437446"
 latest: "1.24.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowfit"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.24.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowfit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowfit", "latest": {"1.24.0--r36_0": "sha256:964bd108b617db78fc3f9c5dd8b05f06df7af3fb533856382be6551c3665d8cb"}, "tags": {"1.24.0--r36_0": "sha256:964bd108b617db78fc3f9c5dd8b05f06df7af3fb533856382be6551c3665d8cb"}, "docker": "quay.io/biocontainers/bioconductor-flowfit", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowfit", "latest": {"1.24.0--r36_0": "sha256:c88b1908e77ae573b8d0dc40d63b19054260644fbb372ebc4ec5752702883ea9"}, "tags": {"1.24.0--r36_0": "sha256:c88b1908e77ae573b8d0dc40d63b19054260644fbb372ebc4ec5752702883ea9"}, "docker": "quay.io/biocontainers/bioconductor-flowfit", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowfit.

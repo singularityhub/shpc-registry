@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shape/container.yaml"
-updated_at: "2025-01-13 03:40:55.667374"
+updated_at: "2025-01-14 03:26:02.244016"
 latest: "1.4.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-shape"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.4.2--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-shape"
-config: {"url": "https://biocontainers.pro/tools/r-shape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shape", "latest": {"1.4.2--r3.2.2_0": "sha256:6b49d2ac5150ced92e41f093722d3ce75ee76c26c8786f22d5ccc57b369b7c0d"}, "tags": {"1.4.2--r3.2.2_0": "sha256:6b49d2ac5150ced92e41f093722d3ce75ee76c26c8786f22d5ccc57b369b7c0d"}, "docker": "quay.io/biocontainers/r-shape", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-shape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shape", "latest": {"1.4.2--r3.2.2_0": "sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6"}, "tags": {"1.4.2--r3.2.2_0": "sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6"}, "docker": "quay.io/biocontainers/r-shape", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shape.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/collectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collectl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collectl/container.yaml"
-updated_at: "2025-01-13 03:02:37.973989"
+updated_at: "2025-01-14 02:48:38.711336"
 latest: "4.0.4--pl5.22.0_3"
 container_url: "https://biocontainers.pro/tools/collectl"
 aliases:
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "4.0.4--pl5.22.0_3"
 description: "shpc-registry automated BioContainers addition for collectl"
-config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.0.4--pl5.22.0_3": "sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/collectl.

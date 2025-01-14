@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/verifyidintensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifyidintensity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifyidintensity/container.yaml"
-updated_at: "2025-01-13 03:46:20.461756"
-latest: "0.0.1--h21ec9f0_4"
+updated_at: "2025-01-14 03:31:29.619649"
+latest: "0.0.1--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/verifyidintensity"
 aliases:
  - "verifyIDintensity"
@@ -13,8 +13,9 @@ versions:
  - "0.0.1--h7ff8a90_2"
  - "0.0.1--h7ff8a90_3"
  - "0.0.1--h21ec9f0_4"
+ - "0.0.1--h077b44d_6"
 description: "shpc-registry automated BioContainers addition for verifyidintensity"
-config: {"url": "https://biocontainers.pro/tools/verifyidintensity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifyidintensity", "latest": {"0.0.1--h21ec9f0_4": "sha256:1cbf30f262ddc0ad1559b61f3ea6212b316a10ebb2078218b5907b62e5912dec"}, "tags": {"0.0.1--h7ff8a90_2": "sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65", "0.0.1--h7ff8a90_3": "sha256:6e7e98a8248d6a8cae5b13c9d77c1a8648777325461f829cae66ffb904f383c4", "0.0.1--h21ec9f0_4": "sha256:1cbf30f262ddc0ad1559b61f3ea6212b316a10ebb2078218b5907b62e5912dec"}, "docker": "quay.io/biocontainers/verifyidintensity", "aliases": {"verifyIDintensity": "/usr/local/bin/verifyIDintensity"}}
+config: {"url": "https://biocontainers.pro/tools/verifyidintensity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifyidintensity", "latest": {"0.0.1--h077b44d_6": "sha256:5c833b60e6320aeddf7b04f2b1af40cebf30fa48349f83452b85d2b71364a13d"}, "tags": {"0.0.1--h7ff8a90_2": "sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65", "0.0.1--h7ff8a90_3": "sha256:6e7e98a8248d6a8cae5b13c9d77c1a8648777325461f829cae66ffb904f383c4", "0.0.1--h21ec9f0_4": "sha256:1cbf30f262ddc0ad1559b61f3ea6212b316a10ebb2078218b5907b62e5912dec", "0.0.1--h077b44d_6": "sha256:5c833b60e6320aeddf7b04f2b1af40cebf30fa48349f83452b85d2b71364a13d"}, "docker": "quay.io/biocontainers/verifyidintensity", "aliases": {"verifyIDintensity": "/usr/local/bin/verifyIDintensity"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verifyidintensity.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/verifyidintensity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verifyidintensity:0.0.1--h21ec9f0_4
+$ shpc install quay.io/biocontainers/verifyidintensity:0.0.1--h077b44d_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verifyidintensity/0.0.1--h21ec9f0_4
-$ module help quay.io/biocontainers/verifyidintensity/0.0.1--h21ec9f0_4
+$ module load quay.io/biocontainers/verifyidintensity/0.0.1--h077b44d_6
+$ module help quay.io/biocontainers/verifyidintensity/0.0.1--h077b44d_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
