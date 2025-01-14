@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/platypus-conquistador
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for platypus-conquistador
 latest:
-  0.9.0--py_3: sha256:f42b19b89a5148a24001db71c20333a2dd6e7283e7c9e1d99d06a6d55a6ebed0
+  0.9.0--py_3: sha256:78590456690e57f228fa41774335944f23cfa59439d7815db2141a2c17d239ca
 tags:
-  0.9.0--py_3: sha256:f42b19b89a5148a24001db71c20333a2dd6e7283e7c9e1d99d06a6d55a6ebed0
+  0.9.0--py_3: sha256:78590456690e57f228fa41774335944f23cfa59439d7815db2141a2c17d239ca
 docker: quay.io/biocontainers/platypus-conquistador
 aliases:
   iptest2: /usr/local/bin/iptest2

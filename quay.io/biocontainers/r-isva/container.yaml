@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-isva
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-isva
 latest:
-  1.9--r43h3342da4_6: sha256:b0903660e464823bc7c8d4e4cc75313f7b1c8c758adf64eff352f61e84cb75fc
+  1.9--r44h3342da4_7: sha256:2e40a292a5953297a923ad010b73f365414b88a31169842fec2d041649bfb598
 tags:
   1.9--r41h3342da4_4: sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04
   1.9--r42h3342da4_5: sha256:5ce6abfc68e39133b7a47bc516ff3e25b8b1bce9dc0442ba1b782b07ccde08ef
   1.9--r43h3342da4_6: sha256:b0903660e464823bc7c8d4e4cc75313f7b1c8c758adf64eff352f61e84cb75fc
+  1.9--r44h3342da4_7: sha256:2e40a292a5953297a923ad010b73f365414b88a31169842fec2d041649bfb598
 docker: quay.io/biocontainers/r-isva
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

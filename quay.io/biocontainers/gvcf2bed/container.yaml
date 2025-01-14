@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/gvcf2bed
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gvcf2bed
 latest:
-  0.3.1--py_0: sha256:5529c474981e7b2d8eea0e9c3de25880c5e3fcaa5e745094403b43d5bcc2b46a
+  0.3.1--py_0: sha256:661d909e049a25ee0303a010277d1607f6fe1ecd3898b4759af4bcc0a03c988c
 tags:
-  0.3.1--py_0: sha256:5529c474981e7b2d8eea0e9c3de25880c5e3fcaa5e745094403b43d5bcc2b46a
+  0.3.1--py_0: sha256:661d909e049a25ee0303a010277d1607f6fe1ecd3898b4759af4bcc0a03c988c
 docker: quay.io/biocontainers/gvcf2bed
 aliases:
   gvcf2bed: /usr/local/bin/gvcf2bed

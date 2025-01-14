@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mspuritydata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mspuritydata
 latest:
-  1.30.0--r43hdfd78af_0: sha256:d8163a1bb0495acd1bfa0a2f1455cd76fd3da829e2978bad9be5a9b6cbb0e13c
+  1.34.0--r44hdfd78af_0: sha256:f5383de06e55e1fe2f09fe3e8a72eb8277c59f94ec30b93b0bc4f312be0f69db
 tags:
-  1.8.0--r351_1: sha256:7ec5906ea8fc2961d1b21d158d8111ac27e95d53e750ac44ee374c4308319cd7
+  1.8.0--r351_1: sha256:66d750cb0bd95b2b6c953a90c21220c4ea2d0cd03f154695c5104f4cc5cd9722
   1.25.0--r42hdfd78af_0: sha256:0c0ea25816219068915a8ea15d6c22343b7f731731cc11dd2afa99a28ec53843
   1.22.0--r41hdfd78af_1: sha256:39b057323d6513a70705eba0cbc173d41f77620b74c767c500f6b935c8cd7193
   1.20.0--r41hdfd78af_0: sha256:d72b6d2efcb48c2d80a56b05091b424e37ed19de40bad3c2ac0453198f010cb2
@@ -13,6 +13,7 @@ tags:
   1.26.0--r42hdfd78af_1: sha256:550851787641f8a6a164508f5af9ef30a48029a5e1506e7c4546088aa9d89cf7
   1.28.0--r43hdfd78af_0: sha256:1e79f792ca921fb433edd27e7d32d94c61ecca6a2cb1d85da2499216b1363be5
   1.30.0--r43hdfd78af_0: sha256:d8163a1bb0495acd1bfa0a2f1455cd76fd3da829e2978bad9be5a9b6cbb0e13c
+  1.34.0--r44hdfd78af_0: sha256:f5383de06e55e1fe2f09fe3e8a72eb8277c59f94ec30b93b0bc4f312be0f69db
 docker: quay.io/biocontainers/bioconductor-mspuritydata
 aliases:
   wget: /usr/local/bin/wget

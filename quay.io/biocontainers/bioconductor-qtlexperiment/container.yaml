@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-qtlexperiment
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-qtlexperiment
 latest:
-  1.0.0--r43hdfd78af_0: sha256:44f557a3d502d5e7d0757d5cadd0f832328daaecbd4f0df94a6508a306935afa
+  1.4.0--r44hdfd78af_0: sha256:08b2a312c654eb0414c77d8ff8b0dc1ab9eb3373baf2b18c8faca10cb8adac80
 tags:
   1.0.0--r43hdfd78af_0: sha256:44f557a3d502d5e7d0757d5cadd0f832328daaecbd4f0df94a6508a306935afa
+  1.4.0--r44hdfd78af_0: sha256:08b2a312c654eb0414c77d8ff8b0dc1ab9eb3373baf2b18c8faca10cb8adac80
 docker: quay.io/biocontainers/bioconductor-qtlexperiment
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

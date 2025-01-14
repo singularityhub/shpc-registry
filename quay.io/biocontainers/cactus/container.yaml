@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cactus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cactus
 latest:
-  2019.03.01--py27hdbcaa40_1: sha256:83108f5ae674cfc15a62df068fffc78e6141d7b2ed9a6507bcc8a1aed5eddcab
+  2019.03.01--py27hdbcaa40_1: sha256:2efaf032343025e72dcc192caf63e59a6ec0e4972a87efbb39e67a3f29d905ee
 tags:
-  2019.03.01--py27hdbcaa40_1: sha256:83108f5ae674cfc15a62df068fffc78e6141d7b2ed9a6507bcc8a1aed5eddcab
+  2019.03.01--py27hdbcaa40_1: sha256:2efaf032343025e72dcc192caf63e59a6ec0e4972a87efbb39e67a3f29d905ee
 docker: quay.io/biocontainers/cactus
 aliases:
   3EdgeTests: /usr/local/bin/3EdgeTests

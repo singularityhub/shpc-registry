@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/devider
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for devider
 latest:
-  0.0.1--h919a2d8_1: sha256:b1e7d68a367677bd767e6965d8b6ff38ef0b5e7882217b81f7ef5537ead6504c
+  0.0.1--ha6fb395_2: sha256:10303b656b6c282613c2363d5df449ca7a30f9208cb3c7bf9319191b4a896572
 tags:
   0.0.1--h919a2d8_1: sha256:b1e7d68a367677bd767e6965d8b6ff38ef0b5e7882217b81f7ef5537ead6504c
+  0.0.1--ha6fb395_2: sha256:10303b656b6c282613c2363d5df449ca7a30f9208cb3c7bf9319191b4a896572
 docker: quay.io/biocontainers/devider
 aliases:
   devider: /usr/local/bin/devider

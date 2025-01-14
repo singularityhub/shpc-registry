@@ -8,7 +8,7 @@ latest:
     ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout":
     could not parse reference'
 tags:
-  1.7.8--r3.4.1_0: sha256:7a7a30f3c2bfd32542ed99c51dcd58d636c20b3f303780accc40ad1cb7c6ab92
+  1.7.8--r3.4.1_0: sha256:7bf69bbbc011a85c5afc3c9b0f9cd5a82501e0fb6ee5a74574b71ad3220404da
   'crane ls quay.io/biocontainers/r-psych: unrecognized HTTP status: 504 Gateway Timeout': 'crane
     digest quay.io/biocontainers/r-psych:crane ls quay.io/biocontainers/r-psych: unrecognized
     HTTP status: 504 Gateway Timeout: parsing reference "quay.io/biocontainers/r-psych:crane

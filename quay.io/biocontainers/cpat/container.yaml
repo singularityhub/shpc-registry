@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cpat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cpat
 latest:
-  3.0.5--py38h24c8ff8_0: sha256:5f6682dd067ab96d1bbc45ee0f12793a36a703b638e3604b2fef138e9107c5f3
+  3.0.5--py39hff726c5_3: sha256:ddf62af07050b6138b0da5ef166ff4fecd7f1ebc86304a6823fe27b72e7493ab
 tags:
   3.0.4--py36h40b2fa4_1: sha256:0113650a0fc7cfaee126d3ae94201979fbf84716a89706e82848371eda7f6228
   3.0.4--py38h24c8ff8_2: sha256:c9d74da160d76725e15cb837b797a5e48df51d53658bd8c962d09be5899c7d29
   3.0.5--py38h24c8ff8_0: sha256:5f6682dd067ab96d1bbc45ee0f12793a36a703b638e3604b2fef138e9107c5f3
+  3.0.5--py39hff726c5_3: sha256:ddf62af07050b6138b0da5ef166ff4fecd7f1ebc86304a6823fe27b72e7493ab
 docker: quay.io/biocontainers/cpat
 aliases:
   cpat.py: /usr/local/bin/cpat.py

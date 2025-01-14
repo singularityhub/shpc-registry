@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-autospill
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-autospill
 latest:
-  0.2.0--r43hdfd78af_2: sha256:ac3d90f7b89a844b072056596a0d8cee331a96eebd6d56fb579da4132aefd0d4
+  0.2.0--r44hdfd78af_3: sha256:28c76cd3f36024b2f1f72773f218ba58c37de5d9a78e54de2ab76ad0acd739b0
 tags:
   0.2.0--r41hdfd78af_0: sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c
   0.2.0--r42hdfd78af_1: sha256:58ceb51d9990c43a9e7bda7ce2002df11a233f34f85f892535942c07d0ebaffd
   0.2.0--r43hdfd78af_2: sha256:ac3d90f7b89a844b072056596a0d8cee331a96eebd6d56fb579da4132aefd0d4
+  0.2.0--r44hdfd78af_3: sha256:28c76cd3f36024b2f1f72773f218ba58c37de5d9a78e54de2ab76ad0acd739b0
 docker: quay.io/biocontainers/r-autospill
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rgug4105a.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgug4105a.db
 latest:
-  3.2.3--r43hdfd78af_12: sha256:52819ffe70aa80f79f9fe7aa8559cc659cfe5eb352ad055d1ca5ab29c06efcef
+  3.2.3--r44hdfd78af_13: sha256:d986d4bc37fa9b1779e2be6a5e36bd370c8eb2a41ce45aa4f237d52d67753c52
 tags:
   3.2.3--r41hdfd78af_9: sha256:2852a1fc33340a7919ec7a7eda81703df5e68644a7b1c5e72413c0e3427639c4
   3.2.3--r42hdfd78af_10: sha256:e51d4b7375c3143a2ec1789681678376f299ccef06b8b5eb70deb86047784d5e
   3.2.3--r43hdfd78af_11: sha256:6041d7ac21725435cd308a4cc959e7d41d7b6c035d120e1988ed8c51582fbec4
   3.2.3--r43hdfd78af_12: sha256:52819ffe70aa80f79f9fe7aa8559cc659cfe5eb352ad055d1ca5ab29c06efcef
+  3.2.3--r44hdfd78af_13: sha256:d986d4bc37fa9b1779e2be6a5e36bd370c8eb2a41ce45aa4f237d52d67753c52
 docker: quay.io/biocontainers/bioconductor-rgug4105a.db

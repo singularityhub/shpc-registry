@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/google-api-python-client
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for google-api-python-client
 latest:
-  1.4.2--py27_0: sha256:52559bf6cae8d765456e58b95bbd7f6ab0af1c8659cf537a972a5901abc965b0
+  1.4.2--py27_0: sha256:fa4cc20f0db78f07898571cbd85839eaeb4d5b5768c28aa27ece6ff6747e0324
 tags:
-  1.4.2--py27_0: sha256:52559bf6cae8d765456e58b95bbd7f6ab0af1c8659cf537a972a5901abc965b0
+  1.4.2--py27_0: sha256:fa4cc20f0db78f07898571cbd85839eaeb4d5b5768c28aa27ece6ff6747e0324
 docker: quay.io/biocontainers/google-api-python-client
 aliases:
   smtpd.pyc: /usr/local/bin/smtpd.pyc

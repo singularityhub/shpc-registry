@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/picopore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for picopore
 latest:
-  1.2.0--pyh8b68c5b_1: sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10
+  1.2.0--pyh8b68c5b_1: sha256:a53ec10c1d3e267058b18f30639695862b370042464447455a2d176413e84e32
 tags:
-  1.2.0--pyh8b68c5b_1: sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10
+  1.2.0--pyh8b68c5b_1: sha256:a53ec10c1d3e267058b18f30639695862b370042464447455a2d176413e84e32
 docker: quay.io/biocontainers/picopore
 aliases:
   picopore: /usr/local/bin/picopore

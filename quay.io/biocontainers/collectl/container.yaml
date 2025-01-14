@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/collectl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for collectl
 latest:
-  4.0.4--pl5.22.0_3: sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089
+  4.0.4--pl5.22.0_3: sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0
 tags:
-  4.0.4--pl5.22.0_3: sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089
+  4.0.4--pl5.22.0_3: sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0
 docker: quay.io/biocontainers/collectl
 aliases:
   collectl: /usr/local/bin/collectl

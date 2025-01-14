@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-hpc-runner-slurm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-hpc-runner-slurm
 latest:
-  2.58--2: sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856
+  2.58--2: sha256:f06b6fb49dd0c3b321614272b586e29af558cd354837e6b03b07096e872ffd9e
 tags:
-  2.58--2: sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856
+  2.58--2: sha256:f06b6fb49dd0c3b321614272b586e29af558cd354837e6b03b07096e872ffd9e
 docker: quay.io/biocontainers/perl-hpc-runner-slurm
 aliases:
   cpus.in: /usr/local/bin/cpus.in

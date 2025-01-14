@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rgccacmd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rgccacmd
 latest:
-  3.0.3--r42hdfd78af_0: sha256:26dad6d52266edc3f6d7f3e5bcaaca4f3527588684e96a2e31573fd981e029d0
+  3.0.3--r44hdfd78af_2: sha256:f56960a1d8eba1e46ee2eb7bb9bb56bf4de7b600fd7deaaea87b78f402578cba
 tags:
   3.0.2--r41h9ee0642_0: sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38
   3.0.3--r42hdfd78af_0: sha256:26dad6d52266edc3f6d7f3e5bcaaca4f3527588684e96a2e31573fd981e029d0
+  3.0.3--r44hdfd78af_2: sha256:f56960a1d8eba1e46ee2eb7bb9bb56bf4de7b600fd7deaaea87b78f402578cba
 docker: quay.io/biocontainers/rgccacmd
 aliases:
   idn2: /usr/local/bin/idn2

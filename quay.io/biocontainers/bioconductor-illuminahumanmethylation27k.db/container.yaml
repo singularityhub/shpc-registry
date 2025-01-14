@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation27k.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-illuminahumanmethylation27k.db
 latest:
-  1.4.8--r43hdfd78af_12: sha256:8382a42caa9801d3e7848ceb51248ffab63f2f203907fe72a4d1255c5b9946d3
+  1.4.8--r44hdfd78af_13: sha256:5961461c1d2130d06f9e7229c2bff91104dbe1bd9c7d06c8f138724d040b9220
 tags:
   1.4.8--r41hdfd78af_9: sha256:271f5dcbadfd52e95eca68ce076950a4fe458826a0da1896b8b6cfc75db073c4
   1.4.8--r42hdfd78af_10: sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1
   1.4.8--r43hdfd78af_11: sha256:cdd1ef966712a9cf33e57d3c52bfa2516f70aebc4fbee07af8259da82d441fe8
   1.4.8--r43hdfd78af_12: sha256:8382a42caa9801d3e7848ceb51248ffab63f2f203907fe72a4d1255c5b9946d3
+  1.4.8--r44hdfd78af_13: sha256:5961461c1d2130d06f9e7229c2bff91104dbe1bd9c7d06c8f138724d040b9220
 docker: quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db

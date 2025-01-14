@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for varfish-annotato
 latest:
   0.34--hdfd78af_0: sha256:bfac20b35aef9da04f930ab067b5081d87db4ae0bcb9c92d917ccd25a8a036a1
 tags:
-  0.9--0: sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467
+  0.9--0: sha256:0b303b89e15c7e48712659ba60749099e07f17253cbfea672525b7a3930fd6f6
   0.27--hdfd78af_0: sha256:778d85820cba2fd4a336e9208d066d66fbe9dbce3286c3e5dd12ee39d695c8eb
   0.26--hdfd78af_0: sha256:65632fd7e18b0ba98e72398a98b52ecf75526d55faf0640e9f7cc3defaa0ba84
   0.25--hdfd78af_0: sha256:dd1f080ad7e0b47aa5066455c641ffdb1771358b224423424b8ea35036c6eb06

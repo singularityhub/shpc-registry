@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/remurna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for remurna
 latest:
-  1.0--0: sha256:b68377ad57ba3aaaab113d92dab9871f1cbc598ea5fcde0dcb69d9f0ca58fe26
+  1.0--0: sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c
 tags:
-  1.0--0: sha256:b68377ad57ba3aaaab113d92dab9871f1cbc598ea5fcde0dcb69d9f0ca58fe26
+  1.0--0: sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c
 docker: quay.io/biocontainers/remurna
 aliases:
   remuRNA: /usr/local/bin/remuRNA

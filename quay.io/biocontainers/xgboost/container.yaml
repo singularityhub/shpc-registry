@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/xgboost
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xgboost
 latest:
-  0.6a2--py27_0: sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e
+  0.6a2--py27_0: sha256:a701390aad26a113c1087f3816e45f4d815392f87af6dcb64ae6b205d60ac0b1
 tags:
-  0.6a2--py27_0: sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e
+  0.6a2--py27_0: sha256:a701390aad26a113c1087f3816e45f4d815392f87af6dcb64ae6b205d60ac0b1
 docker: quay.io/biocontainers/xgboost
 aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7

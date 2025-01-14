@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-vars
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-vars
 latest:
-  1.03--pl526_1: sha256:f9219eb556919ae7e02303d15ba989ad91b7d644f69883883afff80226727bbc
+  1.03--pl526_1: sha256:99b5ec82e28928e45ee4ed7b395bd1583f5ecf47b94ef90faf229fbe5453e059
 tags:
-  1.03--pl526_1: sha256:f9219eb556919ae7e02303d15ba989ad91b7d644f69883883afff80226727bbc
+  1.03--pl526_1: sha256:99b5ec82e28928e45ee4ed7b395bd1583f5ecf47b94ef90faf229fbe5453e059
 docker: quay.io/biocontainers/perl-vars
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

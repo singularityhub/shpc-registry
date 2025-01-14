@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/primers
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for primers
 latest:
-  0.5.4--pyhdfd78af_0: sha256:d5a72a1da780398a170d63d5f167e463c1052e6d789e787dcbf1530217e50e97
+  0.5.10--pyhdfd78af_0: sha256:82878031f0be25e752fadfb527df02f0b90bae7d1c22ead447b1db21900a8206
 tags:
   0.5.4--pyhdfd78af_0: sha256:d5a72a1da780398a170d63d5f167e463c1052e6d789e787dcbf1530217e50e97
+  0.5.10--pyhdfd78af_0: sha256:82878031f0be25e752fadfb527df02f0b90bae7d1c22ead447b1db21900a8206
 docker: quay.io/biocontainers/primers
 aliases:
   primers: /usr/local/bin/primers

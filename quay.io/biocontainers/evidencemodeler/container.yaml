@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/evidencemodeler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for evidencemodeler
 latest:
-  2.1.0--hdbdd923_2: sha256:6e2c85d58498318d7ff9664ce739100d2a495351eb8b3d65e101a47a73cd2481
+  2.1.0--h503566f_4: sha256:23a40580cbd0d25de89f10d98d58630e7185c8b00dbe59f463f1532c8728244c
 tags:
-  v1.1.1--0: sha256:b0bc73515c37ca268f53a50929dd4e454ee63c306da04326e04ccee736eceb31
+  v1.1.1--0: sha256:1fc0accf25612d643919a4781d2e94184b35090d2b3da3f389d24a60cf77cb21
   1.1.1--hdfd78af_3: sha256:1b241906bc27843924e692aef5f86c73dc01734c1b8af3b43232a127608285a1
   2.1.0--h87f3376_0: sha256:d6ccd1414e1a8ef3a93343380de1fa93a11a84d8fa3aecda341ed3b2cdac5463
   2.1.0--hdbdd923_1: sha256:112c8e7cd384a4ce5405ca33467dff0f5cfe5b2e1978126c27e33ac717ffd91c
   2.1.0--hdbdd923_2: sha256:6e2c85d58498318d7ff9664ce739100d2a495351eb8b3d65e101a47a73cd2481
+  2.1.0--h503566f_4: sha256:23a40580cbd0d25de89f10d98d58630e7185c8b00dbe59f463f1532c8728244c
 docker: quay.io/biocontainers/evidencemodeler
 aliases:
   evidence_modeler.pl: /usr/local/bin/evidence_modeler.pl

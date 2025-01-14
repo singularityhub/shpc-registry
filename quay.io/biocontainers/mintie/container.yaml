@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mintie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mintie
 latest:
-  0.4.2--hdfd78af_0: sha256:58f3ff5cd1eaf28f3507edeb607b519e458e8312aedbfbae38e1a1c2d91c0103
+  0.4.3--hdfd78af_0: sha256:6cd5171c519dd373a5f2aefe6e708f37e22f12e16c6c91124e3af56a24f212a7
 tags:
   0.4.1--hdfd78af_0: sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb
   0.4.2--hdfd78af_0: sha256:58f3ff5cd1eaf28f3507edeb607b519e458e8312aedbfbae38e1a1c2d91c0103
+  0.4.3--hdfd78af_0: sha256:6cd5171c519dd373a5f2aefe6e708f37e22f12e16c6c91124e3af56a24f212a7
 docker: quay.io/biocontainers/mintie
 aliases:
   SOAPdenovo-Trans-127mer: /usr/local/bin/SOAPdenovo-Trans-127mer

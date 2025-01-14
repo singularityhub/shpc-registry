@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/allo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for allo
 latest:
-  1.1.1--pyhdfd78af_1: sha256:33427e6f77e008d925f7995e53dd7761f5887b03092b2e9d83589ae5a030e2a2
+  1.2.0--pyhdfd78af_0: sha256:bb5a7d06ef1875a53801a37fc632af85864c1b7d59644275b86d3e98cdda6ae1
 tags:
   1.1.1--pyhdfd78af_1: sha256:33427e6f77e008d925f7995e53dd7761f5887b03092b2e9d83589ae5a030e2a2
+  1.2.0--pyhdfd78af_0: sha256:bb5a7d06ef1875a53801a37fc632af85864c1b7d59644275b86d3e98cdda6ae1
+  1.1.2--pyhdfd78af_0: sha256:0bcb207cfd5ba1581a05e53eedb37df2da2101f6bab0f131e4e9071ca5d784bd
 docker: quay.io/biocontainers/allo
 aliases:
   allo: /usr/local/bin/allo

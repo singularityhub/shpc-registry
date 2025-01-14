@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/drug2cell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for drug2cell
 latest:
-  0.1.1--pyhdfd78af_0: sha256:deb7881d2d68995ceca44f0cf4516b543012291bebea30e212f2aa3bf67f3b50
+  0.1.2--pyhdfd78af_0: sha256:8adb8dac3dc0e661ffdc630cb6eae80f4bafa68a7b8e6d5375da94914e91ef94
 tags:
   0.1.1--pyhdfd78af_0: sha256:deb7881d2d68995ceca44f0cf4516b543012291bebea30e212f2aa3bf67f3b50
+  0.1.2--pyhdfd78af_0: sha256:8adb8dac3dc0e661ffdc630cb6eae80f4bafa68a7b8e6d5375da94914e91ef94
 docker: quay.io/biocontainers/drug2cell
 aliases:
   qconvex: /usr/local/bin/qconvex

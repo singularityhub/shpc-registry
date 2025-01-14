@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bwakit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bwakit
 latest:
-  0.7.17.dev1--hdfd78af_1: sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4
+  0.7.18.dev1--hdfd78af_0: sha256:44405647a7c54404e45a6b3ab63b1307fd1890a40d2077bbbcb340ecd4c8745e
 tags:
   0.7.17.dev1--hdfd78af_1: sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4
+  0.7.18.dev1--hdfd78af_0: sha256:44405647a7c54404e45a6b3ab63b1307fd1890a40d2077bbbcb340ecd4c8745e
 docker: quay.io/biocontainers/bwakit
 aliases:
   bwa-postalt.js: /usr/local/bin/bwa-postalt.js

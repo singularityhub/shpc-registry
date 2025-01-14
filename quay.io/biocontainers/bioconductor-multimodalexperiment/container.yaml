@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-multimodalexperiment
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-multimodalexperiment
 latest:
-  1.2.0--r43hdfd78af_0: sha256:b21e24a682cd1424e23ab069cd94df9f9ba9db5e2f2968887c44a4bf9c23fe77
+  1.6.0--r44hdfd78af_0: sha256:fb5955c3705078ad8da49c680b19362086d764b14c02b128a283ae96cb3419db
 tags:
   1.0.0--r43hdfd78af_0: sha256:dc5f3bf9b18ee0df9873551983e7e9afd263f60d71cbfef5af9be6dca2c69887
   1.2.0--r43hdfd78af_0: sha256:b21e24a682cd1424e23ab069cd94df9f9ba9db5e2f2968887c44a4bf9c23fe77
+  1.6.0--r44hdfd78af_0: sha256:fb5955c3705078ad8da49c680b19362086d764b14c02b128a283ae96cb3419db
 docker: quay.io/biocontainers/bioconductor-multimodalexperiment
 aliases:
   hb-info: /usr/local/bin/hb-info

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/python-wget
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-wget
 latest:
-  3.2--py36_0: sha256:224c872434cc1d6ba6d80cf210ed5a1fbbf516b3b2fcd50a62c57bf1962c269d
+  3.2--py36_0: sha256:acc114d58f89f5b8d046e0ba5a82d2fc29d748171d4fdddd0c7265fb5c7075cb
 tags:
-  3.2--py36_0: sha256:224c872434cc1d6ba6d80cf210ed5a1fbbf516b3b2fcd50a62c57bf1962c269d
+  3.2--py36_0: sha256:acc114d58f89f5b8d046e0ba5a82d2fc29d748171d4fdddd0c7265fb5c7075cb
 docker: quay.io/biocontainers/python-wget
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-ggthemes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ggthemes
 latest:
-  3.4.0--r3.3.2_0: sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261
+  3.4.0--r3.3.2_0: sha256:4229792a8c059f56621e0a24f57449d6930ea2ff68d75cac9ec77728c4492f60
 tags:
-  3.4.0--r3.3.2_0: sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261
-  3.4.0--r3.4.1_0: sha256:2063b6f31774c35713190cae9f61b583639dca5751d19ee5efd22ec3f976db1a
+  3.4.0--r3.3.2_0: sha256:4229792a8c059f56621e0a24f57449d6930ea2ff68d75cac9ec77728c4492f60
+  3.4.0--r3.4.1_0: sha256:fb0c00b9b001368bb1ba2edaa0857911fb2e36a4d4b56095698dc884d556ec4c
 docker: quay.io/biocontainers/r-ggthemes
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

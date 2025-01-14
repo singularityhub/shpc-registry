@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dna-nn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dna-nn
 latest:
-  0.1--hdcf5f25_1: sha256:4280b6531853bd3794eafc0e1af334c0f030fd242abc91f30fc985faab5f309d
+  0.1--h077b44d_2: sha256:250a75501f486881314819c576418f514b642365c56b24a3544fe90344971572
 tags:
   0.1--hdcf5f25_1: sha256:4280b6531853bd3794eafc0e1af334c0f030fd242abc91f30fc985faab5f309d
+  0.1--h077b44d_2: sha256:250a75501f486881314819c576418f514b642365c56b24a3544fe90344971572
 docker: quay.io/biocontainers/dna-nn
 aliases:
   dna-brnn: /usr/local/bin/dna-brnn

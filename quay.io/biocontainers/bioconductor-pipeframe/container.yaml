@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/bioconductor-pipeframe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pipeframe
 latest:
-  1.18.0--r43hdfd78af_0: sha256:1ec5e9d0d0d94a6feedde05228e20782380f9e3f9ad7cd33d8b0feb3dd675077
+  1.22.0--r44hdfd78af_0: sha256:f0b3bce62e820235716ca3c89848602c6adc45999360628b568f7b320d68aebe
 tags:
   1.8.0--r41hdfd78af_0: sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2
   1.14.0--r42hdfd78af_0: sha256:6f41636d0900719215e5622392e2fda7fb29e5d11390d75e58972e52653ca7f6
-  1.10.0--r41hdfd78af_0: sha256:5cc2455dc1cf3299eb655ac3e3247aa414ab40dc9119b9d3222fd8f8be068184
+  1.10.0--r41hdfd78af_0: 'crane digest quay.io/biocontainers/bioconductor-pipeframe:1.10.0--r41hdfd78af_0:
+    unrecognized HTTP status: 502 Bad Gateway'
   1.16.0--r43hdfd78af_0: sha256:acc4acf0b7eb1447e4e18c98893a89fa29ca55b3c91edc2895f36575dfca6ef1
   1.18.0--r43hdfd78af_0: sha256:1ec5e9d0d0d94a6feedde05228e20782380f9e3f9ad7cd33d8b0feb3dd675077
+  1.22.0--r44hdfd78af_0: sha256:f0b3bce62e820235716ca3c89848602c6adc45999360628b568f7b320d68aebe
 docker: quay.io/biocontainers/bioconductor-pipeframe
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

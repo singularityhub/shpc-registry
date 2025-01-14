@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mnem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mnem
 latest:
-  1.18.0--r43hf17093f_0: sha256:aa5b0f0f02f53a3ddd96f89f9648d1e662acb35ea404c9464110927a91a27902
+  1.22.0--r44he5774e6_0: sha256:f19bd8d30179bc1437934b5a0de4d5cb604dd195cfea9cf33dadef5a13d66878
 tags:
   1.8.0--r41h399db7b_0: sha256:bda62cdfda52acaebac431bb93799c17bbe102d1310e6f5669b2f7e0745f7cb0
   1.14.0--r42hc247a5b_0: sha256:40cc0a551191bed4f940aeb8474747f9c099a740a5aec7ca7209f5c69dfb04e4
@@ -10,6 +10,8 @@ tags:
   1.14.0--r42hf17093f_1: sha256:fd53b4996430572c9bc2b3e59b2fe492ce6084ad84ed82d62f7a0f113f2eae51
   1.16.0--r43hf17093f_0: sha256:5ff9e9602c8edb8531c7e3bb364f444be18b907b04e3f7f139c5875a64be5bcf
   1.18.0--r43hf17093f_0: sha256:aa5b0f0f02f53a3ddd96f89f9648d1e662acb35ea404c9464110927a91a27902
+  1.22.0--r44he5774e6_0: sha256:f19bd8d30179bc1437934b5a0de4d5cb604dd195cfea9cf33dadef5a13d66878
+  1.18.0--r43hf17093f_1: sha256:e2b380df6e4afb09df647173ee441d4a78812bff35b958df70c1ad4f0a9f550f
 docker: quay.io/biocontainers/bioconductor-mnem
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/wtforms-components
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wtforms-components
 latest:
-  0.10.0--py36_0: sha256:b4644f93e737249673a975e656c6d3b07afb242f38001807eff68b7a1533642f
+  0.10.0--py36_0: sha256:1513fca6a5199ec8a9e2773e94d4ffbc28342340dc5f49681d8d98a7a9a5df52
 tags:
-  0.10.0--py36_0: sha256:b4644f93e737249673a975e656c6d3b07afb242f38001807eff68b7a1533642f
+  0.10.0--py36_0: sha256:1513fca6a5199ec8a9e2773e94d4ffbc28342340dc5f49681d8d98a7a9a5df52
+  0.10.0--py35_0: sha256:ada6a4ca0df7bbe3e742904cbebd397922efd2360c6d0c908cd91fb151102e3b
 docker: quay.io/biocontainers/wtforms-components
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

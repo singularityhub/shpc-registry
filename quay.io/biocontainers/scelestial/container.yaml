@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/scelestial
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scelestial
 latest:
-  1.2--h2374e42_2: sha256:befcef4bde2afa24b7a2a481806712b401510506a22fecec0947a4ea5640417e
+  1.2--h9948957_4: sha256:7657ebf9ee2954bd8e5fd06b78d127dc480325cba45f76778cd4c9fda500a65c
 tags:
   1.2--ha038e3a_0: sha256:7511424a988ccc7a257b2dafb32ecbca7d0a4a54da768777334626b51f0ec063
   1.2--ha038e3a_1: sha256:ed4f52989db7c932805a66c30774f579562a921a53747b5688eeabf8a824d31c
   1.2--h2374e42_2: sha256:befcef4bde2afa24b7a2a481806712b401510506a22fecec0947a4ea5640417e
+  1.2--h9948957_4: sha256:7657ebf9ee2954bd8e5fd06b78d127dc480325cba45f76778cd4c9fda500a65c
 docker: quay.io/biocontainers/scelestial
 aliases:
   scelestial: /usr/local/bin/scelestial

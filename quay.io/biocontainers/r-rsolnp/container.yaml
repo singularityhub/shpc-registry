@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-rsolnp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rsolnp
 latest:
-  1.16--r3.3.1_0: sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c
+  1.16--r3.3.1_0: sha256:1c0a7d800f9570f73cfea707f579fbff000f85e7ad8161bc7d0232603219e3ab
 tags:
-  1.16--r3.3.1_0: sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c
+  1.16--r3.3.1_0: sha256:1c0a7d800f9570f73cfea707f579fbff000f85e7ad8161bc7d0232603219e3ab
 docker: quay.io/biocontainers/r-rsolnp
 aliases:
   uconv: /usr/local/bin/uconv

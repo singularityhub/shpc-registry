@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-r.rsp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-r.rsp
 latest:
-  0.30.0--r3.3.1_0: sha256:2b4bcd1dcfec88acf3dc2ddc0682da1f3b06e2f9955155347ec8326c8053a405
+  0.30.0--r3.3.1_0: sha256:16d188139a3c811dcbae65b3d121423a9375df3191e86b02757d22aba7fcd85c
 tags:
-  0.30.0--r3.3.1_0: sha256:2b4bcd1dcfec88acf3dc2ddc0682da1f3b06e2f9955155347ec8326c8053a405
+  0.30.0--r3.3.1_0: sha256:16d188139a3c811dcbae65b3d121423a9375df3191e86b02757d22aba7fcd85c
 docker: quay.io/biocontainers/r-r.rsp
 aliases:
   uconv: /usr/local/bin/uconv

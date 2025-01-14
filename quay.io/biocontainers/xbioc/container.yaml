@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/xbioc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xbioc
 latest:
-  0.1.19--r43hdfd78af_3: sha256:67f0fa8618f5a5835901c2bf05be4a5a4412623cc05614b3df6802b3815d5535
+  0.1.19--r44hdfd78af_4: sha256:1ca9801a8fcd6c19dc12ca36c1d812ed23af34af8230ff2be58c4e450498acbc
 tags:
   0.1.19--r41hdfd78af_1: sha256:fcd1ad2a2e190495ef9991531e55658e9c3926026fe1015cba8378fef2ac4d59
   0.1.19--r42hdfd78af_2: sha256:a6d22d08213224647d141aa0a229ef5a97c26dba8c9d99c8a923bfa3f3d7def4
   0.1.19--r43hdfd78af_3: sha256:67f0fa8618f5a5835901c2bf05be4a5a4412623cc05614b3df6802b3815d5535
+  0.1.19--r44hdfd78af_4: sha256:1ca9801a8fcd6c19dc12ca36c1d812ed23af34af8230ff2be58c4e450498acbc
 docker: quay.io/biocontainers/xbioc

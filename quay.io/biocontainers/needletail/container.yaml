@@ -5,6 +5,7 @@ latest:
   0.6.1--py310hc7d9715_0: sha256:55a341b1a7ef16606832f4aa3b2aedc2f49f7e67dc1f220410c6eccc92f917fc
 tags:
   0.6.1--py310hc7d9715_0: sha256:55a341b1a7ef16606832f4aa3b2aedc2f49f7e67dc1f220410c6eccc92f917fc
+  0.6.1--py39hfa26904_0: sha256:85ee4348754bdb341218b00169e70cd460a3d9fc7347a0733b19d46a8244c539
 docker: quay.io/biocontainers/needletail
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

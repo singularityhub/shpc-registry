@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-mouse4302frmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mouse4302frmavecs
 latest:
-  1.5.0--r43hdfd78af_12: sha256:728add9094cad1cb8f29dfab1b99988e2f45378d07f5d8c259d1d69c8f6c587d
+  1.5.0--r44hdfd78af_13: sha256:1f13528d4916689094cc392441cf2069809dfc076e819501b87d32e74f196b6a
 tags:
   1.5.0--r41hdfd78af_9: sha256:0b4988d6a0a806ef17218f3b7aa5c739173c7d141ee2c697366586aedb6bf3ab
   1.5.0--r42hdfd78af_10: sha256:d623170a133e79a744c9bcd9a9d05e72ea25a8852709cd2cd81dfa7791d43eb7
   1.5.0--r43hdfd78af_11: sha256:c065c2507148ce2229b3242c99a8844d0c04b01850ad8215b783265ffe5d79d3
   1.5.0--r43hdfd78af_12: sha256:728add9094cad1cb8f29dfab1b99988e2f45378d07f5d8c259d1d69c8f6c587d
+  1.5.0--r44hdfd78af_13: sha256:1f13528d4916689094cc392441cf2069809dfc076e819501b87d32e74f196b6a
 docker: quay.io/biocontainers/bioconductor-mouse4302frmavecs

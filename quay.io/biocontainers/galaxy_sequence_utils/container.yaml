@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/galaxy_sequence_utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy_sequence_utils
 latest:
-  1.1.5--py_0: sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510
+  1.2.0--pyhdfd78af_0: sha256:d3b61b11d565e0238b0b910a48d4926bc863814af7021c52c1eb299b341631a9
 tags:
   1.1.5--py_0: sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510
+  1.2.0--pyhdfd78af_0: sha256:d3b61b11d565e0238b0b910a48d4926bc863814af7021c52c1eb299b341631a9
+  1.1.5--pyhdfd78af_2: sha256:29fd6297d664dd656340f39c2de9022b8bacafb8229b3bfbd060490c3c2995f0
 docker: quay.io/biocontainers/galaxy_sequence_utils
 aliases:
   gx-fastq-combiner: /usr/local/bin/gx-fastq-combiner

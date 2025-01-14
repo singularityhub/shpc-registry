@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tabulate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tabulate
 latest:
-  0.7.5--py36_0: sha256:7fed32387ec5d250cd28a426ec331ce41c0086f9a2c5c0cd4b0d5bab1f66e177
+  0.7.5--py36_0: sha256:1231d99c895cc89fb67529a6424a23da50b20884149e8cf80401b123eac87386
 tags:
-  0.7.5--py36_0: sha256:7fed32387ec5d250cd28a426ec331ce41c0086f9a2c5c0cd4b0d5bab1f66e177
+  0.7.5--py36_0: sha256:1231d99c895cc89fb67529a6424a23da50b20884149e8cf80401b123eac87386
+  0.7.5--py35_0: sha256:b5a1cc42b875f958d6036df66e87ec882a8347a47655d61403c764b60cd3258f
 docker: quay.io/biocontainers/tabulate
 aliases:
   tabulate: /usr/local/bin/tabulate

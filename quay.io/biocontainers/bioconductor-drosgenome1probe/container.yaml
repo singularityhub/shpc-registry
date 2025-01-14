@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-drosgenome1probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drosgenome1probe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:1d4327c95844a0f0e9c0be49151572545c19e26d4b9f97ea4c0ec10eff913c72
+  2.18.0--r44hdfd78af_13: sha256:46734bf6db4c9d79d7f7d72e47c26451e0c2c96edcb13376eed8b4d90476b056
 tags:
   2.18.0--r41hdfd78af_9: sha256:bd1b6315588f6b5f3e1f35650da5c24e394e836de69437a6ded2b52c02832c5e
   2.18.0--r42hdfd78af_10: sha256:b064553cd27a7ee4ae96c01ab2cdd2aa32f866cd16b9fe38215201f4b0402611
   2.18.0--r43hdfd78af_11: sha256:67838d223fac1f285561bb8da9476de378509cf7acb69425960c8dda11d41fd5
   2.18.0--r43hdfd78af_12: sha256:1d4327c95844a0f0e9c0be49151572545c19e26d4b9f97ea4c0ec10eff913c72
+  2.18.0--r44hdfd78af_13: sha256:46734bf6db4c9d79d7f7d72e47c26451e0c2c96edcb13376eed8b4d90476b056
 docker: quay.io/biocontainers/bioconductor-drosgenome1probe

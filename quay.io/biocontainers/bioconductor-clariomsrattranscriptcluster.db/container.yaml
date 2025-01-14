@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-clariomsrattranscriptcluster.d
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clariomsrattranscriptcluster.db
 latest:
-  8.8.0--r43hdfd78af_4: sha256:3ab400582544bb5d5b677008c2b52a864bee69469e47190bc1334c3dcd4085c5
+  8.8.0--r44hdfd78af_5: sha256:a2c89d1bb060af8ec9e31f9a7a3df03b050d3c77e254cd2a32955314ebb665d0
 tags:
   8.8.0--r41hdfd78af_1: sha256:189658ddc5090e08008ae762634f02f58e41480c586cc45868b69d5d4e308516
   8.8.0--r42hdfd78af_2: sha256:e2f0d9807306fb0bd65c6aa601a0bc35f3f9f159adf242ba192715654aa9abb2
   8.8.0--r43hdfd78af_3: sha256:808fa5507058140f5aa15a9a0d40171259c0c449e83757d8ef2d4ce758eed929
   8.8.0--r43hdfd78af_4: sha256:3ab400582544bb5d5b677008c2b52a864bee69469e47190bc1334c3dcd4085c5
+  8.8.0--r44hdfd78af_5: sha256:a2c89d1bb060af8ec9e31f9a7a3df03b050d3c77e254cd2a32955314ebb665d0
 docker: quay.io/biocontainers/bioconductor-clariomsrattranscriptcluster.db

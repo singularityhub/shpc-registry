@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-flowqb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowqb
 latest:
-  2.11.1--r36_1: sha256:95fca607cc4801724c6e342d90887dc06edfc7172231925b6199db31f3ef72c8
+  2.11.1--r36_1: sha256:fa5a3773fdf51e6299478520ec5766c9f600b7c60de955497fef88776f9d6b11
 tags:
-  2.11.1--r36_1: sha256:95fca607cc4801724c6e342d90887dc06edfc7172231925b6199db31f3ef72c8
+  2.11.1--r36_1: sha256:fa5a3773fdf51e6299478520ec5766c9f600b7c60de955497fef88776f9d6b11
 docker: quay.io/biocontainers/bioconductor-flowqb
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-gpca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gpca
 latest:
-  1.0--r351h6115d3f_1: sha256:30f772d881fef9251a60e1674ea462e130430228652891c6ead397a35d0d094f
+  1.0--r351h6115d3f_1: sha256:354d51513aa06c6d4d0747f2b7474265f395ad491a0a4cb2e99c52ca4e4a60b7
 tags:
-  1.0--r351h6115d3f_1: sha256:30f772d881fef9251a60e1674ea462e130430228652891c6ead397a35d0d094f
+  1.0--r351h6115d3f_1: sha256:354d51513aa06c6d4d0747f2b7474265f395ad491a0a4cb2e99c52ca4e4a60b7
 docker: quay.io/biocontainers/r-gpca
 aliases:
   c89: /usr/local/bin/c89

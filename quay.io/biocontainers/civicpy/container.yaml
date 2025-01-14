@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/civicpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for civicpy
 latest:
-  3.0.0--py310hdfd78af_0: sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d
+  4.0.0--pyhdfd78af_0: sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb
 tags:
   3.0.0--py310hdfd78af_0: sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d
+  4.0.0--pyhdfd78af_0: sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb
+  3.1.2--pyhdfd78af_0: sha256:d92436c92e0fdcfc7ed012d8d6bb87b740bc0a2958dfaba6329783d724effed2
 docker: quay.io/biocontainers/civicpy
 aliases:
   civicpy: /usr/local/bin/civicpy

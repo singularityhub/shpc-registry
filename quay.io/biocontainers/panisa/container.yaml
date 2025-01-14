@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/panisa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panisa
 latest:
-  0.1.6--pyh5e36f6f_0: sha256:88139d41293ad0f8452ffab3658b835b3faae7a48a18e1969fff5d7b242b108b
+  0.1.7--pyhdfd78af_0: sha256:8aab3facb2f13d94f4628f0c6bd2909f8f2c18178f1ad7cfd82363be7fc07c85
 tags:
   0.1.6--pyh5e36f6f_0: sha256:88139d41293ad0f8452ffab3658b835b3faae7a48a18e1969fff5d7b242b108b
+  0.1.7--pyhdfd78af_0: sha256:8aab3facb2f13d94f4628f0c6bd2909f8f2c18178f1ad7cfd82363be7fc07c85
 docker: quay.io/biocontainers/panisa
 aliases:
   ISFinder_search.py: /usr/local/bin/ISFinder_search.py

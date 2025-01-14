@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for rdp_classifier
 latest:
   2.14--hdfd78af_0: sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101
 tags:
-  2.2--2: sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2
+  2.2--2: sha256:580ba3e3d44fcba453b2085f186fd7155e3af5a95e5d2adbd270a6a72a9e55ef
   2.13--hdfd78af_1: sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609
   2.14--hdfd78af_0: sha256:fe9d9b037e3d4ebda5e02be9e7e4c5dae21f516f0f382136bbc4cfdcebc5e101
 docker: quay.io/biocontainers/rdp_classifier
