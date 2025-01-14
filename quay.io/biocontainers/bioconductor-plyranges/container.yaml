@@ -7,8 +7,7 @@ tags:
   1.8.0--r40_0: sha256:cfb38eea2c81ec6f6dfc1b46cbcb6e0a4db04af18e3a0f66dc18f76444b63625
   1.18.0--r42hdfd78af_0: sha256:78007034eef5c82b6cd58d97c1d3c4d43da0a0d9eded5fa3769bc84ed3d12f88
   1.14.0--r41hdfd78af_0: sha256:411a84b336c127e5ad578ea571afa24495e5b408ca6afc0a528a2f02e5f60f75
-  1.12.0--r41hdfd78af_0: 'crane digest quay.io/biocontainers/bioconductor-plyranges:1.12.0--r41hdfd78af_0:
-    unrecognized HTTP status: 502 Bad Gateway'
+  1.12.0--r41hdfd78af_0: sha256:0934efc0a3daf11e99ddbc94798635d3360d7202a3e6e1234843ca7b904a6b56
   1.10.0--r40hdfd78af_1: sha256:9624f3e7fe7fc64426cc1b7eaa33937b60c7c95173492eb684e6b0ce6bba2715
   1.20.0--r43hdfd78af_0: sha256:87b9cb90b01eb0c7f9b5fc2cc141e66ecb39b0a29701650790a99a9c1d01376d
   1.22.0--r43hdfd78af_0: sha256:2e9cf9b0cbde65e0c39e011c84ea2b4c2f61a1af1a862173c6072ed1e5347c39

@@ -2,11 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-funtoonorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-funtoonorm
 latest:
-  1.30.0--r44hdfd78af_0: "crane digest quay.io/biocontainers/bioconductor-funtoonorm:1.30.0--r44hdfd78af_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.30.0--r44hdfd78af_0: sha256:202f8af77568142d25de735df8f7d61c49182befb317073964f2b6e7898751e0
 tags:
   1.8.0--r36_1: sha256:2d4c42089298d13efeb5fa86859fdfc9d2901ded6087f8f37c9440b676246e7c
   1.22.0--r42hdfd78af_0: sha256:902b10cb76028ab963feb2f304ef63c96d9ab2f3dca6cc48ce2658d0081a8576
@@ -16,11 +12,7 @@ tags:
   1.10.0--r36_0: sha256:2bd9e580c01c2c3e501761e3a7aca27fe2667783c79c0afab7657527ba9ff265
   1.24.0--r43hdfd78af_0: sha256:9255b8e743dbee58e11ac59b853d22d7e49116a123ac6cadd598ff6d26fecca1
   1.26.0--r43hdfd78af_0: sha256:5edd0b963f8969cd5e43c03adbf2457cced4c301ff9c58ddca784e2649da6fc0
-  1.30.0--r44hdfd78af_0: "crane digest quay.io/biocontainers/bioconductor-funtoonorm:1.30.0--r44hdfd78af_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.30.0--r44hdfd78af_0: sha256:202f8af77568142d25de735df8f7d61c49182befb317073964f2b6e7898751e0
 docker: quay.io/biocontainers/bioconductor-funtoonorm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

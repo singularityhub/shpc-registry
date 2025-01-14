@@ -2,20 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-hermes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hermes
 latest:
-  1.10.0--r44hdfd78af_0: "crane digest quay.io/biocontainers/bioconductor-hermes:1.10.0--r44hdfd78af_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.10.0--r44hdfd78af_0: sha256:eb44459cf7d0a893077b9ba1793b3f9f8c4809f0b6facfc18b58c2eb90cfd678
 tags:
   1.2.0--r42hdfd78af_0: sha256:d0114e87b36438014071a76d0c65b409c8df13c11c8e2c277db9806ad8278cd4
   1.4.0--r43hdfd78af_0: sha256:02b57c7dcd051e48401df3c2985da9c631db79794b126b3e39ade61b64427f6b
   1.6.0--r43hdfd78af_0: sha256:f9adcf11dff91a8ffb697033ad0f01d2e589373c4a3c9502c38131958c0e32ce
-  1.10.0--r44hdfd78af_0: "crane digest quay.io/biocontainers/bioconductor-hermes:1.10.0--r44hdfd78af_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.10.0--r44hdfd78af_0: sha256:eb44459cf7d0a893077b9ba1793b3f9f8c4809f0b6facfc18b58c2eb90cfd678
 docker: quay.io/biocontainers/bioconductor-hermes
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

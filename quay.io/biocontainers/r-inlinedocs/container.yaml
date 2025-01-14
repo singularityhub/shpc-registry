@@ -2,17 +2,9 @@ url: https://biocontainers.pro/tools/r-inlinedocs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-inlinedocs
 latest:
-  2013.9.3--r3.3.1_0: "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  2013.9.3--r3.3.1_0: sha256:e54cfb9f6cdf56ce670ee9151f7f8ecd0dc7b955dd29a64e0250c24d21fec2e8
 tags:
-  2013.9.3--r3.3.1_0: "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  2013.9.3--r3.3.1_0: sha256:e54cfb9f6cdf56ce670ee9151f7f8ecd0dc7b955dd29a64e0250c24d21fec2e8
 docker: quay.io/biocontainers/r-inlinedocs
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules
