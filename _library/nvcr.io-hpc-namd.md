@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/namd/container.yaml"
-updated_at: "2025-01-14 02:42:33.252142"
+updated_at: "2025-01-15 02:44:44.747796"
 latest: "sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 aliases:

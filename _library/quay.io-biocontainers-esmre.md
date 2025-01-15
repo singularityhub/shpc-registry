@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esmre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esmre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esmre/container.yaml"
-updated_at: "2025-01-14 02:47:57.701625"
+updated_at: "2025-01-15 02:50:13.443137"
 latest: "0.3.1--py27_1"
 container_url: "https://biocontainers.pro/tools/esmre"
 aliases:

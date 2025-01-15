@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxor/container.yaml"
-updated_at: "2025-01-14 03:17:33.368079"
+updated_at: "2025-01-15 03:19:55.735227"
 latest: "0.1.3--hc155240_0"
 container_url: "https://biocontainers.pro/tools/taxor"
 aliases:

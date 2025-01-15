@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moda/container.yaml"
-updated_at: "2025-01-14 03:13:04.839619"
+updated_at: "2025-01-15 03:15:30.037876"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moda"
 aliases:

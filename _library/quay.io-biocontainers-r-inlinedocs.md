@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-inlinedocs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-inlinedocs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-inlinedocs/container.yaml"
-updated_at: "2025-01-14 02:45:30.358044"
+updated_at: "2025-01-15 02:47:43.860637"
 latest: "2013.9.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-inlinedocs"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "2013.9.3--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-inlinedocs"
-config: {"url": "https://biocontainers.pro/tools/r-inlinedocs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inlinedocs", "latest": {"2013.9.3--r3.3.1_0": "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"2013.9.3--r3.3.1_0": "crane digest quay.io/biocontainers/r-inlinedocs:2013.9.3--r3.3.1_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/r-inlinedocs", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-inlinedocs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inlinedocs", "latest": {"2013.9.3--r3.3.1_0": "sha256:e54cfb9f6cdf56ce670ee9151f7f8ecd0dc7b955dd29a64e0250c24d21fec2e8"}, "tags": {"2013.9.3--r3.3.1_0": "sha256:e54cfb9f6cdf56ce670ee9151f7f8ecd0dc7b955dd29a64e0250c24d21fec2e8"}, "docker": "quay.io/biocontainers/r-inlinedocs", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-inlinedocs.

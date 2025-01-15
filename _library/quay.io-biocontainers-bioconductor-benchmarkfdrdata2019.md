@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-benchmarkfdrdata2019"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-benchmarkfdrdata2019/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-benchmarkfdrdata2019/container.yaml"
-updated_at: "2025-01-14 02:56:20.167165"
+updated_at: "2025-01-15 02:58:39.185282"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-benchmarkfdrdata2019"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colorid_bv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colorid_bv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colorid_bv/container.yaml"
-updated_at: "2025-01-14 02:48:14.843086"
+updated_at: "2025-01-15 02:50:30.936753"
 latest: "0.1.0--h3ab6199_2"
 container_url: "https://biocontainers.pro/tools/colorid_bv"
 aliases:
