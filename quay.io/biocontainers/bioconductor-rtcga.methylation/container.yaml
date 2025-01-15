@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.methylation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.methylation
 latest:
-  1.30.0--r43hdfd78af_0: sha256:42f98b4f2afe7ce89027996c2c50c07b16efef48b03e113c19814164130f9166
+  1.34.0--r44hdfd78af_0: sha256:728fd699fb377bfeda4c2eb098af6c07f790f5a453a9a49683e4498bababbfe6
 tags:
   1.22.0--r41hdfd78af_1: sha256:72daf79c4a5ce7fef0395c8600bf1b40d39ba6b6cdfb4d5b8fab84c245294baf
   1.25.0--r42hdfd78af_0: sha256:98be2e6e8eefd8afe993c4cf157a79f054c9ee096fa0a87f260af0b535b0aaa6
   1.28.0--r43hdfd78af_0: sha256:1dbd7032db06ab927769fae1783fae105eccec3dc33ae98226d907a4f1ae9488
   1.30.0--r43hdfd78af_0: sha256:42f98b4f2afe7ce89027996c2c50c07b16efef48b03e113c19814164130f9166
+  1.34.0--r44hdfd78af_0: sha256:728fd699fb377bfeda4c2eb098af6c07f790f5a453a9a49683e4498bababbfe6
 docker: quay.io/biocontainers/bioconductor-rtcga.methylation
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

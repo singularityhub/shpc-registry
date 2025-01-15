@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-hgu133plus2cellscore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu133plus2cellscore
 latest:
-  1.22.0--r43hdfd78af_0: sha256:e14f639b2331d6ac4fcf530a105757786c690dd225875e1461a96aa289757220
+  1.26.0--r44hdfd78af_0: sha256:094950f53ddff66b3eda661728d565ff77f69cc8ec52dc8935dc69165705c4c4
 tags:
   1.8.0--r40_0: sha256:0a1f1eb7f150116a7d2e1591610264f82bfb6605eae046218c66cd0a01bf1fc7
   1.18.0--r42hdfd78af_0: sha256:09a4010fa1aafd1287826085f1de65b85c7dfd4aca5d2e76e8e9011e77421168
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:6b17827a5012a1724eef822170a2be9cd7ffd33d1f1055d5d1e368c755157d1f
   1.20.0--r43hdfd78af_0: sha256:527d5f663a6d0f98a82b30482b8168c3079a3bea7a245fc72f281e77dabdde5f
   1.22.0--r43hdfd78af_0: sha256:e14f639b2331d6ac4fcf530a105757786c690dd225875e1461a96aa289757220
+  1.26.0--r44hdfd78af_0: sha256:094950f53ddff66b3eda661728d565ff77f69cc8ec52dc8935dc69165705c4c4
 docker: quay.io/biocontainers/bioconductor-hgu133plus2cellscore
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

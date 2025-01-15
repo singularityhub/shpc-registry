@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ccimpute
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ccimpute
 latest:
-  1.4.0--r43hf17093f_0: sha256:8ed02694399293da29794eee31f24f492443b0d1727358d296ce24a747b91788
+  1.8.0--r44he5774e6_0: sha256:fb15bf5f16f3d1a5121f913fa9cd05639eb304eebce4adc9883d4fab696807bf
 tags:
   1.0.0--r42hc247a5b_0: sha256:f40957655be9ef92a3730ac5d382e2d141bf2367267678d1c5550828efe394e0
   1.0.0--r42hf17093f_1: sha256:f526c0d29141ff79c287829b4208929cd3f12a04bb4fccd72d014a8f67d16d5b
   1.2.1--r43hf17093f_0: sha256:807e33fc4c0471fb55abaa3f27c06072e3aa1c75df7792b8af0170185b0548f8
   1.4.0--r43hf17093f_0: sha256:8ed02694399293da29794eee31f24f492443b0d1727358d296ce24a747b91788
+  1.8.0--r44he5774e6_0: sha256:fb15bf5f16f3d1a5121f913fa9cd05639eb304eebce4adc9883d4fab696807bf
 docker: quay.io/biocontainers/bioconductor-ccimpute

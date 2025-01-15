@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-simffpe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-simffpe
 latest:
-  1.14.0--r43hdfd78af_0: sha256:18d9f3b866b315f66f6ca2a043744dab49f1d3951ed521128065c0431623aa68
+  1.18.0--r44hdfd78af_0: sha256:84d8e1e1bde6511865729412e914e3d52a767b2d71cf1d3efb6b3b1bc120dff4
 tags:
   1.6.0--r41hdfd78af_0: sha256:93af389ab17b1731e280dbbc3fb62c8b9ffc715794f3e1814f75a94a349e0902
   1.10.0--r42hdfd78af_0: sha256:66a1b106d0cf87063ff47237fd40a693a6079971c49b234923ab26e2104dde97
   1.12.0--r43hdfd78af_0: sha256:6652d4593b6cee12d2a4cb4e4ae126b3ae222a5b31ac117ebff9edebeb72a08a
   1.14.0--r43hdfd78af_0: sha256:18d9f3b866b315f66f6ca2a043744dab49f1d3951ed521128065c0431623aa68
+  1.18.0--r44hdfd78af_0: sha256:84d8e1e1bde6511865729412e914e3d52a767b2d71cf1d3efb6b3b1bc120dff4
 docker: quay.io/biocontainers/bioconductor-simffpe

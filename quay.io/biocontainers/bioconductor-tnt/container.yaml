@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tnt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tnt
 latest:
-  1.24.0--r43hdfd78af_0: sha256:dcc8a1d23e803f28d35a4f2163433d44ec9cf3acdcc020c27e0c744c7b7c4b73
+  1.28.0--r44hdfd78af_0: sha256:c65c1a02b612ef307e46a31fe5d9419a814aa858fab177784e89e93a4cbf29cb
 tags:
   1.8.0--r36_0: sha256:7f7dc59359b2f66597957da03b36af86ed53b8c487e3abe63e892ec9ccbabcf8
   1.20.0--r42hdfd78af_0: sha256:ed04ac2f2a2ac5252bfa6a66c4a9e0f18e044c0c5b8391218be91dc08c93effd
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:a8f69c72eca3b1cd121c5cd121d685e57bfc33ecbf3e9ba4adf19a8b71b1bcdf
   1.22.0--r43hdfd78af_0: sha256:2d8bd584bb7bbab7af9d014758152951dc14e86baa81f0e7032ac5650e04613c
   1.24.0--r43hdfd78af_0: sha256:dcc8a1d23e803f28d35a4f2163433d44ec9cf3acdcc020c27e0c744c7b7c4b73
+  1.28.0--r44hdfd78af_0: sha256:c65c1a02b612ef307e46a31fe5d9419a814aa858fab177784e89e93a4cbf29cb
 docker: quay.io/biocontainers/bioconductor-tnt
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

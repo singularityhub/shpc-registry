@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-a4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-a4
 latest:
-  1.50.0--r43hdfd78af_0: sha256:0e55109d79edde4da1a1e94b6a45de0166a851255b26cf9d405f06a08a289109
+  1.54.0--r44hdfd78af_0: sha256:13ef60a586c7de7ff69dd6007e30c74792a1354b0763206109ab69e48beac178
 tags:
   1.42.0--r41hdfd78af_0: sha256:c9c9eafd3a8d51ff88586547996dabf58c08c3783a2c47ced4b7e26db0d63bb6
   1.46.0--r42hdfd78af_0: sha256:8b73e639dc754654c808ed8759865ac2e051874bc92e9b750e00cac04ff77de5
   1.48.0--r43hdfd78af_0: sha256:613fd1a79f18dd4eedf0a4c2b379a08b6cbaf94d475e2ebe0fb25163bcc167bb
   1.50.0--r43hdfd78af_0: sha256:0e55109d79edde4da1a1e94b6a45de0166a851255b26cf9d405f06a08a289109
+  1.54.0--r44hdfd78af_0: sha256:13ef60a586c7de7ff69dd6007e30c74792a1354b0763206109ab69e48beac178
 docker: quay.io/biocontainers/bioconductor-a4

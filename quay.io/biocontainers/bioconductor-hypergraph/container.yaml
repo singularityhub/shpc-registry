@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hypergraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hypergraph
 latest:
-  1.74.0--r43hdfd78af_0: sha256:d040dfc036ba5536759b1eeb430270cbe522025679e7c343c884e9ec67810938
+  1.78.0--r44hdfd78af_0: sha256:7f5bb442a92d46c189853e460479f6fd1012cb261ef74d368a0301d32e3fc64f
 tags:
   1.66.0--r41hdfd78af_0: sha256:ca22484df39003f70ead7a514a4869a995c258c2c023eaab4eea46cea7829dde
   1.70.0--r42hdfd78af_0: sha256:250cbb57628320ea24ccb3902e6941924e6349e9576667988c821ee927cd01f0
   1.72.0--r43hdfd78af_0: sha256:c1181a57fffe7ce09918ec4c6c704768985453444d4d1425eed16931e9ef51e8
   1.74.0--r43hdfd78af_0: sha256:d040dfc036ba5536759b1eeb430270cbe522025679e7c343c884e9ec67810938
+  1.78.0--r44hdfd78af_0: sha256:7f5bb442a92d46c189853e460479f6fd1012cb261ef74d368a0301d32e3fc64f
 docker: quay.io/biocontainers/bioconductor-hypergraph

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-reusedata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-reusedata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:ba191ccbf12afd07007517b2d364aac967ff7765625fe3e03daefad18f396c3f
+  1.6.0--r44hdfd78af_0: sha256:7f6b321e7a24da582720419db7c19361959cf77666120aef7272f75481ccf6c5
 tags:
   1.0.0--r43hdfd78af_0: sha256:ba191ccbf12afd07007517b2d364aac967ff7765625fe3e03daefad18f396c3f
+  1.6.0--r44hdfd78af_0: sha256:7f6b321e7a24da582720419db7c19361959cf77666120aef7272f75481ccf6c5
 docker: quay.io/biocontainers/bioconductor-reusedata
 aliases:
   corepack: /usr/local/bin/corepack

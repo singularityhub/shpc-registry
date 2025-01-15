@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-hgu133plus2.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu133plus2.db
 latest:
-  3.13.0--r43hdfd78af_4: sha256:222353bb8e1b6d6a8a7b220f311deca8ca98b3a72733987769b7c1a9ffb3bbe7
+  3.13.0--r44hdfd78af_5: sha256:6825b2b6ffd6b06384af27f4e34c5912581616f4174a3fe49aab32ff284cd834
 tags:
   3.2.3--r40_9: sha256:c1894e61572e364e5c1ceceff6736f1c329d1018c58dca2906d9b8da4a538006
   3.13.0--r42hdfd78af_2: sha256:8c9fe46f9fc7bbd76ba550844a233991ad78282a188049a76f8486304a438ce5
   3.2.3--r41hdfd78af_11: sha256:56f2529acb2eb1a47fe644f0cc775b148362c2b7532ba9b10e922389a40279e1
   3.13.0--r43hdfd78af_3: sha256:fea81f45b697264f8ce8e605999ffc2e8899e48693c7d04b3b7c02d7b648bb1e
   3.13.0--r43hdfd78af_4: sha256:222353bb8e1b6d6a8a7b220f311deca8ca98b3a72733987769b7c1a9ffb3bbe7
+  3.13.0--r44hdfd78af_5: sha256:6825b2b6ffd6b06384af27f4e34c5912581616f4174a3fe49aab32ff284cd834
 docker: quay.io/biocontainers/bioconductor-hgu133plus2.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

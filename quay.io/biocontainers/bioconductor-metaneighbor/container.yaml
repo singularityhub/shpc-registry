@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-metaneighbor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metaneighbor
 latest:
-  1.22.0--r43hdfd78af_0: sha256:688d52e7cb6a43b1e3d57d4d927997847a1ff9d5176392291398cbad1ee063e4
+  1.26.0--r44hdfd78af_0: sha256:756cfaadba317897ed5ba852248aefbff403cf01760ffdcc6756b153810826ae
 tags:
   1.8.0--r40h5f743cb_0: sha256:f23833c6e80a38c6c17f3984387ad93684b8f210e485ccd6ab7713f85ae34deb
   1.18.0--r42hdfd78af_0: sha256:94fab1e7422ed9e45adae1129603842403cd6a41f454a6006983b8ff467e8d4c
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:54cf3849a22787d97f93ad2ff8d3c5006db6164d9836da72f85f3c50d10c8164
   1.20.0--r43hdfd78af_0: sha256:c121da39d4f207d97afff2b948dae7e001b4a7d0ab8bc102d49d13ea8ad08cf4
   1.22.0--r43hdfd78af_0: sha256:688d52e7cb6a43b1e3d57d4d927997847a1ff9d5176392291398cbad1ee063e4
+  1.26.0--r44hdfd78af_0: sha256:756cfaadba317897ed5ba852248aefbff403cf01760ffdcc6756b153810826ae
 docker: quay.io/biocontainers/bioconductor-metaneighbor
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

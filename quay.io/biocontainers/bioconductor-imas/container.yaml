@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-imas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-imas
 latest:
-  1.26.0--r43hdfd78af_0: sha256:a5336ed77e8e8d292c69178da90cf31bfa7d8332407e1d262b3d6bf72323c9ac
+  1.30.0--r44hdfd78af_0: sha256:84df4ddc56be682c24b98d7af6564502393240598b4d1ba96bbe58968d3cc9ea
 tags:
   1.8.0--r36_1: sha256:e97fa9665a1e25f6bb705407d9e29673b673cee3328e7fbcb00d576f37319133
   1.22.0--r42hdfd78af_0: sha256:34e2c0656425c56de9bdddee2d928c2017cf13f90397c0a6b598b1a2d960b3a6
@@ -12,6 +12,7 @@ tags:
   1.12.0--r40_0: sha256:dd39a73e10d34ae2f471f23464096527de25566150a2eb6d0a31e030272ae62f
   1.24.0--r43hdfd78af_0: sha256:8a27331a9fae9a0f4fec76b2030d427eaa9e06d05e448b3e390f59adc84b6995
   1.26.0--r43hdfd78af_0: sha256:a5336ed77e8e8d292c69178da90cf31bfa7d8332407e1d262b3d6bf72323c9ac
+  1.30.0--r44hdfd78af_0: sha256:84df4ddc56be682c24b98d7af6564502393240598b4d1ba96bbe58968d3cc9ea
 docker: quay.io/biocontainers/bioconductor-imas
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

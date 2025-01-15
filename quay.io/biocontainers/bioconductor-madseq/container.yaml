@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-madseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-madseq
 latest:
-  1.28.0--r43hdfd78af_0: sha256:cf43b6638b920da23b62f00efb646b5cad34cc2031fbd87e0d6d950cee4b8616
+  1.32.0--r44hdfd78af_0: sha256:a751c193e2653d51e81502e6b3b604970aed8ca67d71790d29d66ac2028592b7
 tags:
   1.6.1--r351_0: sha256:2a385c5f272c51064945e13a1054ac36d0677735a19c85438ea5c76fd3754206
   1.24.0--r42hdfd78af_0: sha256:018573516ab061dd24a723093dcfc7be02735ed3964698061360530378114386
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:89306d4ef01bbe83f17f10ae48fd72970597ad0f5dcb4a25d8516fcb2a75510c
   1.26.0--r43hdfd78af_0: sha256:3e17ed671aa0b40a17ab4b0d45c1df2c3a575946f9d4e3b6b991922b3754ef1c
   1.28.0--r43hdfd78af_0: sha256:cf43b6638b920da23b62f00efb646b5cad34cc2031fbd87e0d6d950cee4b8616
+  1.32.0--r44hdfd78af_0: sha256:a751c193e2653d51e81502e6b3b604970aed8ca67d71790d29d66ac2028592b7
 docker: quay.io/biocontainers/bioconductor-madseq
 aliases:
   jags: /usr/local/bin/jags

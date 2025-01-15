@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-motif2site
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-motif2site
 latest:
-  1.6.0--r43hdfd78af_0: sha256:f24b5b4d56df4d59f791652371b09efe18e7d75e6a0ec47a6d484d0fe97fc5e6
+  1.10.0--r44hdfd78af_0: sha256:f7ea4638e1385898966626c2103613599265b27750060af38b4a4995165cb3b5
 tags:
   1.2.0--r42hdfd78af_0: sha256:521d140d17264d57af02a09c2e471db92bd63aa04e676363a8a072d5ebededdd
   1.4.0--r43hdfd78af_0: sha256:6192b3f7962a0579ed700ba5fcf4a864a9650ff360086cc7543bff0ed52c283a
   1.6.0--r43hdfd78af_0: sha256:f24b5b4d56df4d59f791652371b09efe18e7d75e6a0ec47a6d484d0fe97fc5e6
+  1.10.0--r44hdfd78af_0: sha256:f7ea4638e1385898966626c2103613599265b27750060af38b4a4995165cb3b5
 docker: quay.io/biocontainers/bioconductor-motif2site
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

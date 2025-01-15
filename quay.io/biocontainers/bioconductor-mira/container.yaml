@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mira
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mira
 latest:
-  1.24.0--r43hdfd78af_0: sha256:e0b581fa70a34813879c48f8793d504092dd400b007a8fbc4960abce71ddb207
+  1.28.0--r44hdfd78af_0: sha256:9629f19050bf02841bb08eed2b819d9e2914f5cd670d53a172df0556f14d45ec
 tags:
   1.8.0--r36_0: sha256:661884fdf0434269175d813b5be05525f5072c2f513d2c1f2d30d936ab276410
   1.20.0--r42hdfd78af_0: sha256:b92fbb44f148a54702be2304ce2dfb7cad84572a0ec51df1d952acd2393b5a54
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:4228c721015bc363849f100b1a8406c92c74a1cbbd1230d1fd1ecb07e4d2ed6d
   1.22.0--r43hdfd78af_0: sha256:5f6535501c69597fbcb52f07490fd6f433670c71e16718f698a29ecbfd0f8336
   1.24.0--r43hdfd78af_0: sha256:e0b581fa70a34813879c48f8793d504092dd400b007a8fbc4960abce71ddb207
+  1.28.0--r44hdfd78af_0: sha256:9629f19050bf02841bb08eed2b819d9e2914f5cd670d53a172df0556f14d45ec
 docker: quay.io/biocontainers/bioconductor-mira
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

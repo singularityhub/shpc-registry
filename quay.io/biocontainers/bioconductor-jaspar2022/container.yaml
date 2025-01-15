@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-jaspar2022
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-jaspar2022
 latest:
-  0.99.7--r43hdfd78af_1: sha256:1ad1909d0e173285deebe986ecb289df1cdee5511d037e37091e8792911db80c
+  0.99.8--r44hdfd78af_0: sha256:bfccd259d1714ef002d2e1728fb929d466df803ff74a124eec4e61b40644f21d
 tags:
   0.99.7--r42hdfd78af_0: sha256:446931242960b60dbae51cf294a6875c27177d47acc41fc163152dc548b0e14b
   0.99.7--r43hdfd78af_1: sha256:1ad1909d0e173285deebe986ecb289df1cdee5511d037e37091e8792911db80c
+  0.99.8--r44hdfd78af_0: sha256:bfccd259d1714ef002d2e1728fb929d466df803ff74a124eec4e61b40644f21d
 docker: quay.io/biocontainers/bioconductor-jaspar2022
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

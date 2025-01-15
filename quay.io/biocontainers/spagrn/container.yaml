@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/spagrn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spagrn
 latest:
-  1.0.7--pyhca03a8a_0: sha256:fc434905fc81c341cae83643cc244b2d28e76fad0345dc209f8b360e6f52f1ae
+  1.1.0--pyhdfd78af_0: sha256:b00a830277200954fd3795993bf243aaca223d4cc57e8676863e8a2ad15632f3
 tags:
   1.0.4--pyhca03a8a_0: sha256:f1cb25d6b315596d89830e257b9d28e4eacb0173a373242b6ec0c6fc75d651dc
   1.0.7--pyhca03a8a_0: sha256:fc434905fc81c341cae83643cc244b2d28e76fad0345dc209f8b360e6f52f1ae
+  1.1.0--pyhdfd78af_0: sha256:b00a830277200954fd3795993bf243aaca223d4cc57e8676863e8a2ad15632f3
 docker: quay.io/biocontainers/spagrn
 aliases:
   dask: /usr/local/bin/dask

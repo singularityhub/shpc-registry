@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dnashaper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dnashaper
 latest:
-  1.30.0--r43hf17093f_0: sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1
+  1.34.0--r44he5774e6_0: sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795
 tags:
   1.8.0--r351hfc679d8_0: sha256:41aa0a4b61655437b6ddf71b2bc9dfc703e03f57d4818b463095775f8c037973
   1.26.0--r42hc247a5b_0: sha256:fc4fb4be2dd75e600b22dabaf576bf01c0e6e7130d7a97ec7b53d1f10ef7a8f1
@@ -13,6 +13,7 @@ tags:
   1.26.0--r42hf17093f_1: sha256:ff76f1b7a1cacf976a9b914bc90fe361e65b1c41254c92f8f0204f7aa41a245b
   1.28.0--r43hf17093f_0: sha256:53bc1519be67e4dc1857b5196dda4ac34db7ed752d6f43570f4b95e982fd472e
   1.30.0--r43hf17093f_0: sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1
+  1.34.0--r44he5774e6_0: sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795
 docker: quay.io/biocontainers/bioconductor-dnashaper
 aliases:
   wget: /usr/local/bin/wget

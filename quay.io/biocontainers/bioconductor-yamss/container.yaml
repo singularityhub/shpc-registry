@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-yamss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-yamss
 latest:
-  1.28.0--r43hdfd78af_0: sha256:3f86b599dc4e8127b8331b270b84cca3d2f1629beb54e3cae90a20be3b3019fb
+  1.32.0--r44hdfd78af_0: sha256:b8688474d21315aa3774beba6e0a03401ff1839d9f79f91e2115ad07cf5c4bb1
 tags:
   1.8.1--r351_0: sha256:8ed6d8e96627017f3383b3caf80579cf14e3a3ecc8c7b88ad19af87c3a1c5656
   1.24.0--r42hdfd78af_0: sha256:0458875293a27b05b942b0cdd329aa3226f72467be639f0ffdf77f977cbea1ac
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:826b80e79aaa7b30209a780593f10a516c9a28cfe894aa42b9cc5de202a21995
   1.26.0--r43hdfd78af_0: sha256:e771055236a6f418318535d78f44d0a765223f6026c49aa3955650184d92ad93
   1.28.0--r43hdfd78af_0: sha256:3f86b599dc4e8127b8331b270b84cca3d2f1629beb54e3cae90a20be3b3019fb
+  1.32.0--r44hdfd78af_0: sha256:b8688474d21315aa3774beba6e0a03401ff1839d9f79f91e2115ad07cf5c4bb1
 docker: quay.io/biocontainers/bioconductor-yamss
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf
