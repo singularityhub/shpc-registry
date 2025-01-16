@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tekrabber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tekrabber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tekrabber/container.yaml"
-updated_at: "2025-01-15 03:26:20.302028"
-latest: "1.6.0--r43hf17093f_0"
+updated_at: "2025-01-16 03:24:59.562097"
+latest: "1.10.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tekrabber"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.2.0--r42hf17093f_1"
  - "1.4.0--r43hf17093f_0"
  - "1.6.0--r43hf17093f_0"
+ - "1.10.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-tekrabber"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tekrabber", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tekrabber", "latest": {"1.6.0--r43hf17093f_0": "sha256:2f9e84a3c9b20ca966af71e50be6c2e75160d32944a3d24ce88f1e19273e08ac"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:82edf61017dde6fcae80e5027dfe303825030cd145a861ecad8133d81cd50caa", "1.2.0--r42hf17093f_1": "sha256:7a419124582fb114039c60c9fb1e45fdf68023131bdddc24b51d15e96bb587cd", "1.4.0--r43hf17093f_0": "sha256:d2fb0308e6804feb26a02415a697e78df63b9ed4eeea003f612f7baa81f5e303", "1.6.0--r43hf17093f_0": "sha256:2f9e84a3c9b20ca966af71e50be6c2e75160d32944a3d24ce88f1e19273e08ac"}, "docker": "quay.io/biocontainers/bioconductor-tekrabber", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tekrabber", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tekrabber", "latest": {"1.10.0--r44he5774e6_0": "sha256:98d2ee6ac31110f3f8af02932f1b86c32c114ff4c2ee5bf5771b1d865655de36"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:82edf61017dde6fcae80e5027dfe303825030cd145a861ecad8133d81cd50caa", "1.2.0--r42hf17093f_1": "sha256:7a419124582fb114039c60c9fb1e45fdf68023131bdddc24b51d15e96bb587cd", "1.4.0--r43hf17093f_0": "sha256:d2fb0308e6804feb26a02415a697e78df63b9ed4eeea003f612f7baa81f5e303", "1.6.0--r43hf17093f_0": "sha256:2f9e84a3c9b20ca966af71e50be6c2e75160d32944a3d24ce88f1e19273e08ac", "1.10.0--r44he5774e6_0": "sha256:98d2ee6ac31110f3f8af02932f1b86c32c114ff4c2ee5bf5771b1d865655de36"}, "docker": "quay.io/biocontainers/bioconductor-tekrabber", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tekrabber.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tekrabber
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tekrabber:1.6.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-tekrabber:1.10.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tekrabber/1.6.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-tekrabber/1.6.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-tekrabber/1.10.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-tekrabber/1.10.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

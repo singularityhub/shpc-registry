@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
-updated_at: "2025-01-15 03:19:37.455138"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2025-01-16 03:18:19.817786"
+latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmapper"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.32.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellmapper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmapper", "latest": {"1.28.0--r43hdfd78af_0": "sha256:44a6e61541fbca2de61f22785ef919d9450e1f7824266a5d46f896cd626ef6f4"}, "tags": {"1.8.0--r351_0": "sha256:e9ec50d1cdad961b058b4b2a994789c80df26f7c3221466f4629bc560cdcaf97", "1.24.0--r42hdfd78af_0": "sha256:2e4078371fb3c499c49a4782128b408d2d178d9a50fcbe029275bedb69f945d3", "1.20.0--r41hdfd78af_0": "sha256:75445244376a00c71453a27eef5b855292a67274559acdfcbe8df7bbe57de814", "1.18.0--r41hdfd78af_0": "sha256:04b8ecc8aff22afb7464dfbd74849d4f7432e6dedba435d1473d7aad1ca9923d", "1.16.0--r40_0": "sha256:9227920889848aefb0cdf9d6579b4043ca4bf8128df58a80abeb17eec040d0d4", "1.14.0--r40_0": "sha256:095b05d5438657d81569e53b2e843658ab401073378973981d69ad61d168746d", "1.26.0--r43hdfd78af_0": "sha256:46859a1c898f39416c48476bf98ec1e4fd26bbb98c9e0558b1261aa724e4e680", "1.28.0--r43hdfd78af_0": "sha256:44a6e61541fbca2de61f22785ef919d9450e1f7824266a5d46f896cd626ef6f4"}, "docker": "quay.io/biocontainers/bioconductor-cellmapper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmapper", "latest": {"1.32.0--r44hdfd78af_0": "sha256:4b89f667b132dcd7575325a7b1f11b9abc7e771f4e88251ab079fca29c6cc6c1"}, "tags": {"1.8.0--r351_0": "sha256:e9ec50d1cdad961b058b4b2a994789c80df26f7c3221466f4629bc560cdcaf97", "1.24.0--r42hdfd78af_0": "sha256:2e4078371fb3c499c49a4782128b408d2d178d9a50fcbe029275bedb69f945d3", "1.20.0--r41hdfd78af_0": "sha256:75445244376a00c71453a27eef5b855292a67274559acdfcbe8df7bbe57de814", "1.18.0--r41hdfd78af_0": "sha256:04b8ecc8aff22afb7464dfbd74849d4f7432e6dedba435d1473d7aad1ca9923d", "1.16.0--r40_0": "sha256:9227920889848aefb0cdf9d6579b4043ca4bf8128df58a80abeb17eec040d0d4", "1.14.0--r40_0": "sha256:095b05d5438657d81569e53b2e843658ab401073378973981d69ad61d168746d", "1.26.0--r43hdfd78af_0": "sha256:46859a1c898f39416c48476bf98ec1e4fd26bbb98c9e0558b1261aa724e4e680", "1.28.0--r43hdfd78af_0": "sha256:44a6e61541fbca2de61f22785ef919d9450e1f7824266a5d46f896cd626ef6f4", "1.32.0--r44hdfd78af_0": "sha256:4b89f667b132dcd7575325a7b1f11b9abc7e771f4e88251ab079fca29c6cc6c1"}, "docker": "quay.io/biocontainers/bioconductor-cellmapper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellmapper.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellmapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellmapper:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellmapper:1.32.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellmapper/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellmapper/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellmapper/1.32.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellmapper/1.32.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

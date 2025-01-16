@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/survindel2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/survindel2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/survindel2/container.yaml"
-updated_at: "2025-01-15 03:02:32.699743"
+updated_at: "2025-01-16 03:01:19.953648"
 latest: "1.1.3--h9948957_1"
 container_url: "https://biocontainers.pro/tools/survindel2"
 aliases:

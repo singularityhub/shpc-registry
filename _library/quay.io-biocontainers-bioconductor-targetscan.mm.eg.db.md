@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-targetscan.mm.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/container.yaml"
-updated_at: "2025-01-15 02:53:07.326653"
-latest: "0.6.1--r43hdfd78af_12"
+updated_at: "2025-01-16 02:51:57.643097"
+latest: "0.6.1--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetscan.mm.eg.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.6.1--r42hdfd78af_10"
  - "0.6.1--r43hdfd78af_11"
  - "0.6.1--r43hdfd78af_12"
+ - "0.6.1--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetscan.mm.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscan.mm.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscan.mm.eg.db", "latest": {"0.6.1--r43hdfd78af_12": "sha256:f44d59a50c6e0e4c70ab77c2f687536e77d695ceb2e24c5479e65acb16d068d8"}, "tags": {"0.6.1--r41hdfd78af_9": "sha256:e59c1d04db1c3bbe88ca3073fb9aa4e80a8b611befb95f6e6c35eac318bca418", "0.6.1--r42hdfd78af_10": "sha256:373bee41bad87df957ae1212a0db1935f3031c0970663e17ccbf2e80391d720e", "0.6.1--r43hdfd78af_11": "sha256:0931ee031ae17d0bd9f155237529fe7083ddf255d7a084532640b08d46983c83", "0.6.1--r43hdfd78af_12": "sha256:f44d59a50c6e0e4c70ab77c2f687536e77d695ceb2e24c5479e65acb16d068d8"}, "docker": "quay.io/biocontainers/bioconductor-targetscan.mm.eg.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscan.mm.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscan.mm.eg.db", "latest": {"0.6.1--r44hdfd78af_13": "sha256:ea3f2da1f31483fbc357f294ee2d25a7d1cfc92b03220779e4f5f0ed1fbd974e"}, "tags": {"0.6.1--r41hdfd78af_9": "sha256:e59c1d04db1c3bbe88ca3073fb9aa4e80a8b611befb95f6e6c35eac318bca418", "0.6.1--r42hdfd78af_10": "sha256:373bee41bad87df957ae1212a0db1935f3031c0970663e17ccbf2e80391d720e", "0.6.1--r43hdfd78af_11": "sha256:0931ee031ae17d0bd9f155237529fe7083ddf255d7a084532640b08d46983c83", "0.6.1--r43hdfd78af_12": "sha256:f44d59a50c6e0e4c70ab77c2f687536e77d695ceb2e24c5479e65acb16d068d8", "0.6.1--r44hdfd78af_13": "sha256:ea3f2da1f31483fbc357f294ee2d25a7d1cfc92b03220779e4f5f0ed1fbd974e"}, "docker": "quay.io/biocontainers/bioconductor-targetscan.mm.eg.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetscan.mm.eg.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-targetscan.mm.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-targetscan.mm.eg.db:0.6.1--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-targetscan.mm.eg.db:0.6.1--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/0.6.1--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/0.6.1--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/0.6.1--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-targetscan.mm.eg.db/0.6.1--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

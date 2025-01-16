@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-asics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asics/container.yaml"
-updated_at: "2025-01-15 03:06:24.871198"
-latest: "2.18.0--r43hdfd78af_0"
+updated_at: "2025-01-16 03:05:10.735665"
+latest: "2.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asics"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "2.10.0--r41hdfd78af_0"
  - "2.16.0--r43hdfd78af_0"
  - "2.18.0--r43hdfd78af_0"
+ - "2.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-asics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asics", "latest": {"2.18.0--r43hdfd78af_0": "sha256:d2950cbd9b189087f4c44b46b8081ff66092c3714ec0b81ad351f3bfbe7cd453"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:a60ab0f921e328cf0fec906822a08f52c6d94d2c8ddb640bc53480b1b46a7a58", "2.14.0--r42hdfd78af_0": "sha256:2a4b748e72f3a54e608402063ab9ab9ff4630ea63b43204c0b3c4c8335eb4559", "2.10.0--r41hdfd78af_0": "sha256:6474301cfe4fa2c3e78e978056ddeb0705d44068df6b027b1447188e94586970", "2.16.0--r43hdfd78af_0": "sha256:f35c2ab0040941f0c3e7a4ab0ce325e939897fe118f5e7c191d317df2b79a13d", "2.18.0--r43hdfd78af_0": "sha256:d2950cbd9b189087f4c44b46b8081ff66092c3714ec0b81ad351f3bfbe7cd453"}, "docker": "quay.io/biocontainers/bioconductor-asics", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asics", "latest": {"2.22.0--r44hdfd78af_0": "sha256:ec965d5010ae6e8e7f62724928ca52a6c7655c4421695d5a761c66d4261938f9"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:a60ab0f921e328cf0fec906822a08f52c6d94d2c8ddb640bc53480b1b46a7a58", "2.14.0--r42hdfd78af_0": "sha256:2a4b748e72f3a54e608402063ab9ab9ff4630ea63b43204c0b3c4c8335eb4559", "2.10.0--r41hdfd78af_0": "sha256:6474301cfe4fa2c3e78e978056ddeb0705d44068df6b027b1447188e94586970", "2.16.0--r43hdfd78af_0": "sha256:f35c2ab0040941f0c3e7a4ab0ce325e939897fe118f5e7c191d317df2b79a13d", "2.18.0--r43hdfd78af_0": "sha256:d2950cbd9b189087f4c44b46b8081ff66092c3714ec0b81ad351f3bfbe7cd453", "2.22.0--r44hdfd78af_0": "sha256:ec965d5010ae6e8e7f62724928ca52a6c7655c4421695d5a761c66d4261938f9"}, "docker": "quay.io/biocontainers/bioconductor-asics", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asics.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-asics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-asics:2.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-asics:2.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-asics/2.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-asics/2.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-asics/2.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-asics/2.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bubbletree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bubbletree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bubbletree/container.yaml"
-updated_at: "2025-01-15 03:06:56.004586"
-latest: "2.32.0--r43hdfd78af_0"
+updated_at: "2025-01-16 03:05:41.950365"
+latest: "2.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bubbletree"
 aliases:
  - "pandoc-citeproc"
@@ -22,8 +22,9 @@ versions:
  - "2.18.0--r40_0"
  - "2.30.0--r43hdfd78af_0"
  - "2.32.0--r43hdfd78af_0"
+ - "2.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bubbletree"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bubbletree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bubbletree", "latest": {"2.32.0--r43hdfd78af_0": "sha256:450820ce16f1534d6ef46f61f1fe93294c5e7e55d89e14a7cb8151b4b371238b"}, "tags": {"2.8.0--r3.4.1_1": "sha256:db8a4556bf23be2c6555e04ea818c9a93bbcd4a9e46a31fef781f34c6fb77555", "2.28.0--r42hdfd78af_0": "sha256:04c161353e7062a4aea9f7fe57e5a7a768d7914a7de670ad04eb8dd50b293a96", "2.24.0--r41hdfd78af_0": "sha256:c15ff884f5a9c55322770791a016b7bb0d5fc86aac3d886dee4fc408d097afaf", "2.22.0--r41hdfd78af_0": "sha256:00b0413b1c999908c7dc34b0ebc44b3ccf911c2ec0b87134aed178aa45fbff84", "2.20.0--r40hdfd78af_1": "sha256:6cb36450630d116440fa3eff2654aec3d39a3f61f4f9d2e5eba451032d308c14", "2.18.0--r40_0": "sha256:12419db5c1cc89c0fcb2fa599af8eacac33f899d64bbae80965e147af285efff", "2.30.0--r43hdfd78af_0": "sha256:2ceedebff36862ddaeb6fc128f46ef32fb3c33de59871882470ac5629035d046", "2.32.0--r43hdfd78af_0": "sha256:450820ce16f1534d6ef46f61f1fe93294c5e7e55d89e14a7cb8151b4b371238b"}, "docker": "quay.io/biocontainers/bioconductor-bubbletree", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bubbletree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bubbletree", "latest": {"2.36.0--r44hdfd78af_0": "sha256:d36b42c60bfd73eb5c34728a675e9e44f754b8e83592d904f7715660fbf796d6"}, "tags": {"2.8.0--r3.4.1_1": "sha256:db8a4556bf23be2c6555e04ea818c9a93bbcd4a9e46a31fef781f34c6fb77555", "2.28.0--r42hdfd78af_0": "sha256:04c161353e7062a4aea9f7fe57e5a7a768d7914a7de670ad04eb8dd50b293a96", "2.24.0--r41hdfd78af_0": "sha256:c15ff884f5a9c55322770791a016b7bb0d5fc86aac3d886dee4fc408d097afaf", "2.22.0--r41hdfd78af_0": "sha256:00b0413b1c999908c7dc34b0ebc44b3ccf911c2ec0b87134aed178aa45fbff84", "2.20.0--r40hdfd78af_1": "sha256:6cb36450630d116440fa3eff2654aec3d39a3f61f4f9d2e5eba451032d308c14", "2.18.0--r40_0": "sha256:12419db5c1cc89c0fcb2fa599af8eacac33f899d64bbae80965e147af285efff", "2.30.0--r43hdfd78af_0": "sha256:2ceedebff36862ddaeb6fc128f46ef32fb3c33de59871882470ac5629035d046", "2.32.0--r43hdfd78af_0": "sha256:450820ce16f1534d6ef46f61f1fe93294c5e7e55d89e14a7cb8151b4b371238b", "2.36.0--r44hdfd78af_0": "sha256:d36b42c60bfd73eb5c34728a675e9e44f754b8e83592d904f7715660fbf796d6"}, "docker": "quay.io/biocontainers/bioconductor-bubbletree", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bubbletree.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bubbletree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bubbletree:2.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bubbletree:2.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bubbletree/2.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bubbletree/2.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bubbletree/2.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bubbletree/2.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dnashaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnashaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnashaper/container.yaml"
-updated_at: "2025-01-15 03:06:16.852259"
-latest: "1.30.0--r43hf17093f_0"
+updated_at: "2025-01-16 03:05:02.802803"
+latest: "1.34.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnashaper"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.26.0--r42hf17093f_1"
  - "1.28.0--r43hf17093f_0"
  - "1.30.0--r43hf17093f_0"
+ - "1.34.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dnashaper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dnashaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dnashaper", "latest": {"1.30.0--r43hf17093f_0": "sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:41aa0a4b61655437b6ddf71b2bc9dfc703e03f57d4818b463095775f8c037973", "1.26.0--r42hc247a5b_0": "sha256:fc4fb4be2dd75e600b22dabaf576bf01c0e6e7130d7a97ec7b53d1f10ef7a8f1", "1.22.0--r41hc247a5b_2": "sha256:b181907c79d518a07e703c17491d41489b4919d74899da630d0f21d530829fa2", "1.20.0--r41h399db7b_0": "sha256:001f81dae9656fc4bf7571d8626eb40bdeb947284b396b5db3bc8877282f99a0", "1.18.0--r40h399db7b_1": "sha256:feb4132c0fcfa0697976807d52165faba302f052d07f82c3761d9b28c06857ff", "1.16.0--r40h5f743cb_0": "sha256:3f38cb66fb6a0a5d6a18a41c968c15be6b6c18d56dd7fdf4ec8dfc1bf3e5f7bb", "1.26.0--r42hf17093f_1": "sha256:ff76f1b7a1cacf976a9b914bc90fe361e65b1c41254c92f8f0204f7aa41a245b", "1.28.0--r43hf17093f_0": "sha256:53bc1519be67e4dc1857b5196dda4ac34db7ed752d6f43570f4b95e982fd472e", "1.30.0--r43hf17093f_0": "sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1"}, "docker": "quay.io/biocontainers/bioconductor-dnashaper", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dnashaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dnashaper", "latest": {"1.34.0--r44he5774e6_0": "sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:41aa0a4b61655437b6ddf71b2bc9dfc703e03f57d4818b463095775f8c037973", "1.26.0--r42hc247a5b_0": "sha256:fc4fb4be2dd75e600b22dabaf576bf01c0e6e7130d7a97ec7b53d1f10ef7a8f1", "1.22.0--r41hc247a5b_2": "sha256:b181907c79d518a07e703c17491d41489b4919d74899da630d0f21d530829fa2", "1.20.0--r41h399db7b_0": "sha256:001f81dae9656fc4bf7571d8626eb40bdeb947284b396b5db3bc8877282f99a0", "1.18.0--r40h399db7b_1": "sha256:feb4132c0fcfa0697976807d52165faba302f052d07f82c3761d9b28c06857ff", "1.16.0--r40h5f743cb_0": "sha256:3f38cb66fb6a0a5d6a18a41c968c15be6b6c18d56dd7fdf4ec8dfc1bf3e5f7bb", "1.26.0--r42hf17093f_1": "sha256:ff76f1b7a1cacf976a9b914bc90fe361e65b1c41254c92f8f0204f7aa41a245b", "1.28.0--r43hf17093f_0": "sha256:53bc1519be67e4dc1857b5196dda4ac34db7ed752d6f43570f4b95e982fd472e", "1.30.0--r43hf17093f_0": "sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1", "1.34.0--r44he5774e6_0": "sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795"}, "docker": "quay.io/biocontainers/bioconductor-dnashaper", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dnashaper.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dnashaper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dnashaper:1.30.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-dnashaper:1.34.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dnashaper/1.30.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-dnashaper/1.30.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-dnashaper/1.34.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-dnashaper/1.34.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

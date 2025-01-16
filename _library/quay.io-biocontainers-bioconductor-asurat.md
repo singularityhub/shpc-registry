@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-asurat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asurat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asurat/container.yaml"
-updated_at: "2025-01-15 03:27:21.088755"
-latest: "1.6.0--r43hf17093f_0"
+updated_at: "2025-01-16 03:26:00.051590"
+latest: "1.10.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asurat"
 aliases:
  - "installBiocDataPackage.sh"
@@ -30,8 +30,9 @@ versions:
  - "1.4.0--r43hf17093f_0"
  - "1.4.0--r43hf17093f_1"
  - "1.6.0--r43hf17093f_0"
+ - "1.10.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-asurat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asurat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-asurat", "latest": {"1.6.0--r43hf17093f_0": "sha256:6312b24bdbafaeacee919f916ab206b0f9b4b0dd203164d806b8db1eb81e7c1e"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:4a1e738127808b34580f1503c71165713c74dc923d1916d19fcf99534341af4e", "1.2.0--r42hf17093f_1": "sha256:fe2f30328b868c047b42cb5ea9a1ca2ee9a247ce7e8b7f8dc922b3e2645819b4", "1.4.0--r43hf17093f_0": "sha256:6c7d7aa654272288f9819f45158ee723734724232e748dc015e9fa3bc4c806a4", "1.4.0--r43hf17093f_1": "sha256:1a46b9460a8c98cdd9b69b0ba6b48c26ab25f912dbb9a9ea69c72f83f4da0f2a", "1.6.0--r43hf17093f_0": "sha256:6312b24bdbafaeacee919f916ab206b0f9b4b0dd203164d806b8db1eb81e7c1e"}, "docker": "quay.io/biocontainers/bioconductor-asurat", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asurat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-asurat", "latest": {"1.10.0--r44he5774e6_0": "sha256:b5d53589aea852122ea5e65c6466f23fcf77e9de44037eda795682107f4e3076"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:4a1e738127808b34580f1503c71165713c74dc923d1916d19fcf99534341af4e", "1.2.0--r42hf17093f_1": "sha256:fe2f30328b868c047b42cb5ea9a1ca2ee9a247ce7e8b7f8dc922b3e2645819b4", "1.4.0--r43hf17093f_0": "sha256:6c7d7aa654272288f9819f45158ee723734724232e748dc015e9fa3bc4c806a4", "1.4.0--r43hf17093f_1": "sha256:1a46b9460a8c98cdd9b69b0ba6b48c26ab25f912dbb9a9ea69c72f83f4da0f2a", "1.6.0--r43hf17093f_0": "sha256:6312b24bdbafaeacee919f916ab206b0f9b4b0dd203164d806b8db1eb81e7c1e", "1.10.0--r44he5774e6_0": "sha256:b5d53589aea852122ea5e65c6466f23fcf77e9de44037eda795682107f4e3076"}, "docker": "quay.io/biocontainers/bioconductor-asurat", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asurat.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-asurat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-asurat:1.6.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-asurat:1.10.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-asurat/1.6.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-asurat/1.6.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-asurat/1.10.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-asurat/1.10.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

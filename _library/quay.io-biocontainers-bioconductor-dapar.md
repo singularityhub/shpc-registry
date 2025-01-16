@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dapar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
-updated_at: "2025-01-15 03:12:54.584911"
-latest: "1.34.2--r43hdfd78af_0"
+updated_at: "2025-01-16 03:11:38.654533"
+latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dapar"
 aliases:
  - "zipcmp"
@@ -23,8 +23,9 @@ versions:
  - "1.30.0--r42hdfd78af_0"
  - "1.32.2--r43hdfd78af_0"
  - "1.34.2--r43hdfd78af_0"
+ - "1.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dapar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dapar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapar", "latest": {"1.34.2--r43hdfd78af_0": "sha256:3dad23c59ab3ea0de31f2f4e4396007fed682e540910ee67d401621b37d5ab0b"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997", "1.30.0--r42hdfd78af_0": "sha256:24de2f3b94ff74be6e6164e5b4c8d26c7b22e0c8593a722a4cb3a163714c9477", "1.32.2--r43hdfd78af_0": "sha256:85301e7a6b35c7615c5d9c7a6d7e5766a735c9867bb73525d1eaaf3a137fc539", "1.34.2--r43hdfd78af_0": "sha256:3dad23c59ab3ea0de31f2f4e4396007fed682e540910ee67d401621b37d5ab0b"}, "docker": "quay.io/biocontainers/bioconductor-dapar", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dapar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapar", "latest": {"1.38.0--r44hdfd78af_0": "sha256:9dfbdefeb873cfe87d0c512235788c85892a8a3db35cf7c3b67aa2ee731b62d5"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997", "1.30.0--r42hdfd78af_0": "sha256:24de2f3b94ff74be6e6164e5b4c8d26c7b22e0c8593a722a4cb3a163714c9477", "1.32.2--r43hdfd78af_0": "sha256:85301e7a6b35c7615c5d9c7a6d7e5766a735c9867bb73525d1eaaf3a137fc539", "1.34.2--r43hdfd78af_0": "sha256:3dad23c59ab3ea0de31f2f4e4396007fed682e540910ee67d401621b37d5ab0b", "1.38.0--r44hdfd78af_0": "sha256:9dfbdefeb873cfe87d0c512235788c85892a8a3db35cf7c3b67aa2ee731b62d5"}, "docker": "quay.io/biocontainers/bioconductor-dapar", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dapar.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dapar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dapar:1.34.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dapar:1.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dapar/1.34.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dapar/1.34.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dapar/1.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dapar/1.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

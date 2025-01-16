@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rsweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsweep/container.yaml"
-updated_at: "2025-01-15 02:57:51.014851"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-16 02:56:39.937697"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsweep"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rsweep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rsweep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsweep", "latest": {"1.14.0--r43hdfd78af_0": "sha256:ce01e91cdb41dcb2d767d57e069529722a4ae97cf5b3cd176afcbaf1a5715bc9"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:7c73f2f4899d32f930b6ba4fbc24d29dbed46cd12e11208f3bd3e95984bce978", "1.10.0--r42hdfd78af_0": "sha256:3749ca4e28251ea7015c326214faba69e887c488e37cb82791f86d8f541575c9", "1.12.0--r43hdfd78af_0": "sha256:9ca16be396bc98a3f2cb8b7f97628729032baffa0f8642aa5a858cb77a82dbdd", "1.14.0--r43hdfd78af_0": "sha256:ce01e91cdb41dcb2d767d57e069529722a4ae97cf5b3cd176afcbaf1a5715bc9"}, "docker": "quay.io/biocontainers/bioconductor-rsweep"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rsweep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsweep", "latest": {"1.18.0--r44hdfd78af_0": "sha256:94187d51dfc4e56171219f034615c4f22511b8df1291ef169e074fcf8e6c973d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:7c73f2f4899d32f930b6ba4fbc24d29dbed46cd12e11208f3bd3e95984bce978", "1.10.0--r42hdfd78af_0": "sha256:3749ca4e28251ea7015c326214faba69e887c488e37cb82791f86d8f541575c9", "1.12.0--r43hdfd78af_0": "sha256:9ca16be396bc98a3f2cb8b7f97628729032baffa0f8642aa5a858cb77a82dbdd", "1.14.0--r43hdfd78af_0": "sha256:ce01e91cdb41dcb2d767d57e069529722a4ae97cf5b3cd176afcbaf1a5715bc9", "1.18.0--r44hdfd78af_0": "sha256:94187d51dfc4e56171219f034615c4f22511b8df1291ef169e074fcf8e6c973d"}, "docker": "quay.io/biocontainers/bioconductor-rsweep"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rsweep.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rsweep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rsweep:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rsweep:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rsweep/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rsweep/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rsweep/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rsweep/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-category"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-category/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-category/container.yaml"
-updated_at: "2025-01-15 03:25:59.497680"
+updated_at: "2025-01-16 03:24:38.813524"
 latest: "2.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-category"
 

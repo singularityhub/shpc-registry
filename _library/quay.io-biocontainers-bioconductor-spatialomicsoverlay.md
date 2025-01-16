@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialomicsoverlay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialomicsoverlay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialomicsoverlay/container.yaml"
-updated_at: "2025-01-15 02:48:10.081904"
-latest: "1.2.1--r43hdfd78af_0"
+updated_at: "2025-01-16 02:47:02.235606"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialomicsoverlay"
 aliases:
  - "jwebserver"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.1--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spatialomicsoverlay"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialomicsoverlay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spatialomicsoverlay", "latest": {"1.2.1--r43hdfd78af_0": "sha256:cce406de0754a86b6fbf7129951b78915eb1fc885c5f1e488113e9bb65febd95"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:8de92ac035a8cf3f4d0d61cec8bf8b0284fb4e7002f29b88a03c6c446d79e6a0", "1.2.1--r43hdfd78af_0": "sha256:cce406de0754a86b6fbf7129951b78915eb1fc885c5f1e488113e9bb65febd95"}, "docker": "quay.io/biocontainers/bioconductor-spatialomicsoverlay", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "geosop": "/usr/local/bin/geosop", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "geos-config": "/usr/local/bin/geos-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "dvipdf": "/usr/local/bin/dvipdf"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialomicsoverlay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spatialomicsoverlay", "latest": {"1.6.0--r44hdfd78af_0": "sha256:c2a4738a52afb1a69d835cec88b08c767a9791f4dcd2408a35ef7faf8e8c1673"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:8de92ac035a8cf3f4d0d61cec8bf8b0284fb4e7002f29b88a03c6c446d79e6a0", "1.2.1--r43hdfd78af_0": "sha256:cce406de0754a86b6fbf7129951b78915eb1fc885c5f1e488113e9bb65febd95", "1.6.0--r44hdfd78af_0": "sha256:c2a4738a52afb1a69d835cec88b08c767a9791f4dcd2408a35ef7faf8e8c1673"}, "docker": "quay.io/biocontainers/bioconductor-spatialomicsoverlay", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "geosop": "/usr/local/bin/geosop", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "geos-config": "/usr/local/bin/geos-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "dvipdf": "/usr/local/bin/dvipdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialomicsoverlay.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialomicsoverlay
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialomicsoverlay:1.2.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialomicsoverlay:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialomicsoverlay/1.2.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialomicsoverlay/1.2.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialomicsoverlay/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialomicsoverlay/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pullseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pullseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pullseq/container.yaml"
-updated_at: "2025-01-15 02:47:18.537827"
+updated_at: "2025-01-16 02:46:10.701037"
 latest: "1.0.2--h1104d80_10"
 container_url: "https://biocontainers.pro/tools/pullseq"
 aliases:

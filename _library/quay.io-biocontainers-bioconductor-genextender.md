@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genextender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genextender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genextender/container.yaml"
-updated_at: "2025-01-15 03:28:50.482997"
-latest: "1.28.0--r43ha9d7317_1"
+updated_at: "2025-01-16 03:27:29.007292"
+latest: "1.32.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genextender"
 aliases:
  - "pandoc-citeproc"
@@ -24,8 +24,9 @@ versions:
  - "1.26.0--r43ha9d7317_0"
  - "1.28.0--r43ha9d7317_0"
  - "1.28.0--r43ha9d7317_1"
+ - "1.32.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genextender"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genextender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genextender", "latest": {"1.28.0--r43ha9d7317_1": "sha256:2918277a0df58542482cfd7cc7a0352b86f15d291c14be9d13a05c132bfc1fa7"}, "tags": {"1.8.0--r351h14c3975_0": "sha256:1b7c007336009f26d6d9f2d91495f3563ddf44dc4323daf0fce9c4e355ab2349", "1.24.0--r42hc0cfd56_0": "sha256:191d048f843eddd835c491d32bf94caba1c38e6752861b2bea0c7ba1b600ce8b", "1.20.0--r41hc0cfd56_2": "sha256:2f16c8252a57bf624ae18a0475d3efc53c8bcf13f6fca9d96f35fe7c9c28b0fa", "1.18.0--r41hd029910_0": "sha256:34d1f0278a2a229dfe3f16b0414483326c25766f5a1ab2ee9b057ae0bcb9fd16", "1.16.0--r40hd029910_1": "sha256:1b3a1efc347ba4bf2f3a7c820b89646e056ca4aa6641d8d5e6eb93dde793eda3", "1.14.0--r40h037d062_0": "sha256:07d7994b4190a9f2abb9e10841e5ea06427ed0cae4833800fdf1b6311e3c0394", "1.24.0--r42ha9d7317_1": "sha256:e700be8889f6cc17a7f341ea6f0bc69addbce1d75523270a77ba3bf04db1859a", "1.26.0--r43ha9d7317_0": "sha256:87f57b0904ab41ae3bc460cc812df66fc24be8e8d3d17ff276032bdfd38642fd", "1.28.0--r43ha9d7317_0": "sha256:bf70adae4dbd4127bfe01f6971acee2c22c33bc8cdd2369b15482b81e9e38baa", "1.28.0--r43ha9d7317_1": "sha256:2918277a0df58542482cfd7cc7a0352b86f15d291c14be9d13a05c132bfc1fa7"}, "docker": "quay.io/biocontainers/bioconductor-genextender", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genextender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genextender", "latest": {"1.32.0--r44h3df3fcb_0": "sha256:824e36a2dcf437edae8828028750858a8d2894de5a734d94213190e635d6ca59"}, "tags": {"1.8.0--r351h14c3975_0": "sha256:1b7c007336009f26d6d9f2d91495f3563ddf44dc4323daf0fce9c4e355ab2349", "1.24.0--r42hc0cfd56_0": "sha256:191d048f843eddd835c491d32bf94caba1c38e6752861b2bea0c7ba1b600ce8b", "1.20.0--r41hc0cfd56_2": "sha256:2f16c8252a57bf624ae18a0475d3efc53c8bcf13f6fca9d96f35fe7c9c28b0fa", "1.18.0--r41hd029910_0": "sha256:34d1f0278a2a229dfe3f16b0414483326c25766f5a1ab2ee9b057ae0bcb9fd16", "1.16.0--r40hd029910_1": "sha256:1b3a1efc347ba4bf2f3a7c820b89646e056ca4aa6641d8d5e6eb93dde793eda3", "1.14.0--r40h037d062_0": "sha256:07d7994b4190a9f2abb9e10841e5ea06427ed0cae4833800fdf1b6311e3c0394", "1.24.0--r42ha9d7317_1": "sha256:e700be8889f6cc17a7f341ea6f0bc69addbce1d75523270a77ba3bf04db1859a", "1.26.0--r43ha9d7317_0": "sha256:87f57b0904ab41ae3bc460cc812df66fc24be8e8d3d17ff276032bdfd38642fd", "1.28.0--r43ha9d7317_0": "sha256:bf70adae4dbd4127bfe01f6971acee2c22c33bc8cdd2369b15482b81e9e38baa", "1.28.0--r43ha9d7317_1": "sha256:2918277a0df58542482cfd7cc7a0352b86f15d291c14be9d13a05c132bfc1fa7", "1.32.0--r44h3df3fcb_0": "sha256:824e36a2dcf437edae8828028750858a8d2894de5a734d94213190e635d6ca59"}, "docker": "quay.io/biocontainers/bioconductor-genextender", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genextender.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genextender
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genextender:1.28.0--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-genextender:1.32.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genextender/1.28.0--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-genextender/1.28.0--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-genextender/1.32.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-genextender/1.32.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

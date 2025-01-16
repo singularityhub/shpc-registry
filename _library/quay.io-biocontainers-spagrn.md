@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spagrn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spagrn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spagrn/container.yaml"
-updated_at: "2025-01-15 02:53:58.509726"
-latest: "1.0.7--pyhca03a8a_0"
+updated_at: "2025-01-16 02:52:48.563221"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spagrn"
 aliases:
  - "dask"
@@ -47,8 +47,9 @@ aliases:
 versions:
  - "1.0.4--pyhca03a8a_0"
  - "1.0.7--pyhca03a8a_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for spagrn"
-config: {"url": "https://biocontainers.pro/tools/spagrn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spagrn", "latest": {"1.0.7--pyhca03a8a_0": "sha256:fc434905fc81c341cae83643cc244b2d28e76fad0345dc209f8b360e6f52f1ae"}, "tags": {"1.0.4--pyhca03a8a_0": "sha256:f1cb25d6b315596d89830e257b9d28e4eacb0173a373242b6ec0c6fc75d651dc", "1.0.7--pyhca03a8a_0": "sha256:fc434905fc81c341cae83643cc244b2d28e76fad0345dc209f8b360e6f52f1ae"}, "docker": "quay.io/biocontainers/spagrn", "aliases": {"dask": "/usr/local/bin/dask", "elastipubsub5": "/usr/local/bin/elastipubsub5", "io_demo": "/usr/local/bin/io_demo", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "h5delete": "/usr/local/bin/h5delete", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "sha256_profile": "/usr/local/bin/sha256_profile", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "scanpy": "/usr/local/bin/scanpy", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
+config: {"url": "https://biocontainers.pro/tools/spagrn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spagrn", "latest": {"1.1.0--pyhdfd78af_0": "sha256:b00a830277200954fd3795993bf243aaca223d4cc57e8676863e8a2ad15632f3"}, "tags": {"1.0.4--pyhca03a8a_0": "sha256:f1cb25d6b315596d89830e257b9d28e4eacb0173a373242b6ec0c6fc75d651dc", "1.0.7--pyhca03a8a_0": "sha256:fc434905fc81c341cae83643cc244b2d28e76fad0345dc209f8b360e6f52f1ae", "1.1.0--pyhdfd78af_0": "sha256:b00a830277200954fd3795993bf243aaca223d4cc57e8676863e8a2ad15632f3"}, "docker": "quay.io/biocontainers/spagrn", "aliases": {"dask": "/usr/local/bin/dask", "elastipubsub5": "/usr/local/bin/elastipubsub5", "io_demo": "/usr/local/bin/io_demo", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "h5delete": "/usr/local/bin/h5delete", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "sha256_profile": "/usr/local/bin/sha256_profile", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "scanpy": "/usr/local/bin/scanpy", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spagrn.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/spagrn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spagrn:1.0.7--pyhca03a8a_0
+$ shpc install quay.io/biocontainers/spagrn:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spagrn/1.0.7--pyhca03a8a_0
-$ module help quay.io/biocontainers/spagrn/1.0.7--pyhca03a8a_0
+$ module load quay.io/biocontainers/spagrn/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/spagrn/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

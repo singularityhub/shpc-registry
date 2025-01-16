@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cycle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cycle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cycle/container.yaml"
-updated_at: "2025-01-15 03:33:15.918958"
-latest: "1.56.0--r43hdfd78af_0"
+updated_at: "2025-01-16 03:31:53.198467"
+latest: "1.60.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cycle"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.52.0--r42hdfd78af_0"
  - "1.54.0--r43hdfd78af_0"
  - "1.56.0--r43hdfd78af_0"
+ - "1.60.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cycle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cycle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cycle", "latest": {"1.56.0--r43hdfd78af_0": "sha256:8f7dbce30de88896c13476769ebb396303e9e6ea91ecd4392bc47cc0f19c4875"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:81a49e266bdd37853249515739b968aa493c970210b92001b3b16063e74ff8ab", "1.52.0--r42hdfd78af_0": "sha256:5f1875d148858c1d860402a116f0fa6cf8a942f8ce9eea9df7ac90ad8291b794", "1.54.0--r43hdfd78af_0": "sha256:e514b3780585eea9c64149c1b12af3a1a3f6f10cc7a09c4595ec32c949b56220", "1.56.0--r43hdfd78af_0": "sha256:8f7dbce30de88896c13476769ebb396303e9e6ea91ecd4392bc47cc0f19c4875"}, "docker": "quay.io/biocontainers/bioconductor-cycle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cycle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cycle", "latest": {"1.60.0--r44hdfd78af_0": "sha256:c44661e070af9665ef384ba5267402084563b3396ca5d55ca47d3b707182a2f4"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:81a49e266bdd37853249515739b968aa493c970210b92001b3b16063e74ff8ab", "1.52.0--r42hdfd78af_0": "sha256:5f1875d148858c1d860402a116f0fa6cf8a942f8ce9eea9df7ac90ad8291b794", "1.54.0--r43hdfd78af_0": "sha256:e514b3780585eea9c64149c1b12af3a1a3f6f10cc7a09c4595ec32c949b56220", "1.56.0--r43hdfd78af_0": "sha256:8f7dbce30de88896c13476769ebb396303e9e6ea91ecd4392bc47cc0f19c4875", "1.60.0--r44hdfd78af_0": "sha256:c44661e070af9665ef384ba5267402084563b3396ca5d55ca47d3b707182a2f4"}, "docker": "quay.io/biocontainers/bioconductor-cycle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cycle.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cycle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cycle:1.56.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cycle:1.60.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cycle/1.56.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cycle/1.56.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cycle/1.60.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cycle/1.60.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

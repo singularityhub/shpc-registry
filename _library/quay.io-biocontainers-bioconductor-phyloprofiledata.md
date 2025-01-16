@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phyloprofiledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phyloprofiledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phyloprofiledata/container.yaml"
-updated_at: "2025-01-15 03:02:06.449514"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-01-16 03:00:53.559301"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phyloprofiledata"
 aliases:
  - "pandoc-server"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phyloprofiledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phyloprofiledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phyloprofiledata", "latest": {"1.16.0--r43hdfd78af_0": "sha256:46b12350031cf20384474d3ed7b6daccebf0eead4ff86ee48432e89b8a9a16d5"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:4847c039f56034d4a1088733f5bdc0ac704a6d0d32e83cc64daba7a4cdfd56c7", "1.12.0--r42hdfd78af_0": "sha256:c2d5b93513c35410b6db1cb8924423a8f1284007aa343fb57b419fd257aaf9b5", "1.14.0--r43hdfd78af_0": "sha256:07ee524cbbe94ecaa31b1af1755917282a7fbfccdecf4c9cb918bc4885f49d22", "1.16.0--r43hdfd78af_0": "sha256:46b12350031cf20384474d3ed7b6daccebf0eead4ff86ee48432e89b8a9a16d5"}, "docker": "quay.io/biocontainers/bioconductor-phyloprofiledata", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phyloprofiledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phyloprofiledata", "latest": {"1.20.0--r44hdfd78af_0": "sha256:bb58bfb9f820bf6a8df6f3de7a58922948b4b3c22f987910b3a7339d605dc797"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:4847c039f56034d4a1088733f5bdc0ac704a6d0d32e83cc64daba7a4cdfd56c7", "1.12.0--r42hdfd78af_0": "sha256:c2d5b93513c35410b6db1cb8924423a8f1284007aa343fb57b419fd257aaf9b5", "1.14.0--r43hdfd78af_0": "sha256:07ee524cbbe94ecaa31b1af1755917282a7fbfccdecf4c9cb918bc4885f49d22", "1.16.0--r43hdfd78af_0": "sha256:46b12350031cf20384474d3ed7b6daccebf0eead4ff86ee48432e89b8a9a16d5", "1.20.0--r44hdfd78af_0": "sha256:bb58bfb9f820bf6a8df6f3de7a58922948b4b3c22f987910b3a7339d605dc797"}, "docker": "quay.io/biocontainers/bioconductor-phyloprofiledata", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phyloprofiledata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phyloprofiledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phyloprofiledata:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phyloprofiledata:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phyloprofiledata/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phyloprofiledata/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phyloprofiledata/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phyloprofiledata/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

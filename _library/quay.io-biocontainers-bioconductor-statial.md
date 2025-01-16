@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-statial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-statial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-statial/container.yaml"
-updated_at: "2025-01-15 03:22:08.004864"
-latest: "1.4.5--r43hdfd78af_0"
+updated_at: "2025-01-16 03:20:49.000154"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-statial"
 aliases:
  - "pg_amcheck"
@@ -37,8 +37,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.5--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-statial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-statial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-statial", "latest": {"1.4.5--r43hdfd78af_0": "sha256:be8735ba57473f8efee4b9e3027fc542f6389bb6a10b47ddb02fe28365b63d15"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:63d2895b3f00f52e7afc2fbc745022466509ccd4692262d2817781f8d46a8389", "1.2.0--r43hdfd78af_0": "sha256:e6d4c510d0dbbe928b2a11d6d54f3f917e1461fa587769ee6f71a96899bbf605", "1.4.5--r43hdfd78af_0": "sha256:be8735ba57473f8efee4b9e3027fc542f6389bb6a10b47ddb02fe28365b63d15"}, "docker": "quay.io/biocontainers/bioconductor-statial", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-statial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-statial", "latest": {"1.8.0--r44hdfd78af_0": "sha256:f38faff36f885be1236b5e507aed62f350c682fa877c040db7c574073845c2f0"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:63d2895b3f00f52e7afc2fbc745022466509ccd4692262d2817781f8d46a8389", "1.2.0--r43hdfd78af_0": "sha256:e6d4c510d0dbbe928b2a11d6d54f3f917e1461fa587769ee6f71a96899bbf605", "1.4.5--r43hdfd78af_0": "sha256:be8735ba57473f8efee4b9e3027fc542f6389bb6a10b47ddb02fe28365b63d15", "1.8.0--r44hdfd78af_0": "sha256:f38faff36f885be1236b5e507aed62f350c682fa877c040db7c574073845c2f0"}, "docker": "quay.io/biocontainers/bioconductor-statial", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-statial.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-statial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-statial:1.4.5--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-statial:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-statial/1.4.5--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-statial/1.4.5--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-statial/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-statial/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
