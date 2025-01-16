@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-procoil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-procoil
 latest:
-  2.30.0--r43hdfd78af_0: sha256:a5cb26c2d059b6f248fceffdc350c274858720332f7ea789f94c0f41117e9289
+  2.34.0--r44hdfd78af_0: sha256:724a03f478edd522c4f50472bbb1fadaeb2d8acaadf4691bcfaae5de7a442b33
 tags:
   2.8.0--r351_0: sha256:88be303ccf93010b4fb8af4f54b77c2678abb247c92c200cdd0fba6615a97b5b
   2.26.0--r42hdfd78af_0: sha256:974dffe99a43990cb7cf694463812ba6e8959ea4937808768c31840ba0fc22d7
@@ -12,4 +12,5 @@ tags:
   2.16.0--r40_0: sha256:526b160e530a46a7806a75b021e69f853d31c27753fc36c8cd6239cb388b1162
   2.28.0--r43hdfd78af_0: sha256:65d8b04182f4d7cc9359813e4164c51524c1283819c735510a39f9f5e153adfc
   2.30.0--r43hdfd78af_0: sha256:a5cb26c2d059b6f248fceffdc350c274858720332f7ea789f94c0f41117e9289
+  2.34.0--r44hdfd78af_0: sha256:724a03f478edd522c4f50472bbb1fadaeb2d8acaadf4691bcfaae5de7a442b33
 docker: quay.io/biocontainers/bioconductor-procoil

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-cellassign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-cellassign
 latest:
-  0.99.2--r43hdfd78af_6: sha256:786958527c2fc82d402e3b698ff7bb29d134d4f17f3a91ffea56bd4712cc4e4d
+  0.99.2--r44hdfd78af_7: sha256:2739696933ef5cdd9ed73e0bc8312fa345b1d1efd4a60543bfa44bda78824b84
 tags:
   0.99.2--r41hdfd78af_4: sha256:c24eb236dbb89e44d621731bf7f1d375c69304e9e236424dadd2c689cd671507
   0.99.2--r42hdfd78af_5: sha256:3ddf619a3ac5458eafc04be873061d65287304cb2b4e694e24624f9767a5170c
   0.99.2--r43hdfd78af_6: sha256:786958527c2fc82d402e3b698ff7bb29d134d4f17f3a91ffea56bd4712cc4e4d
+  0.99.2--r44hdfd78af_7: sha256:2739696933ef5cdd9ed73e0bc8312fa345b1d1efd4a60543bfa44bda78824b84
 docker: quay.io/biocontainers/r-cellassign
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-inetgrate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-inetgrate
 latest:
-  1.0.0--r43hdfd78af_0: sha256:08786f25853d5c2f3e421569ead5c42bc80cd89d69aa059455c9382565c8e11b
+  1.4.0--r44hdfd78af_0: sha256:e25040dc5f54e9c03b2200e6ee343b82442512699e6c4ea2286d6d60be38d1fd
 tags:
   1.0.0--r43hdfd78af_0: sha256:08786f25853d5c2f3e421569ead5c42bc80cd89d69aa059455c9382565c8e11b
+  1.4.0--r44hdfd78af_0: sha256:e25040dc5f54e9c03b2200e6ee343b82442512699e6c4ea2286d6d60be38d1fd
 docker: quay.io/biocontainers/bioconductor-inetgrate
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

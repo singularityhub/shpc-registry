@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-basejump
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-basejump
 latest:
-  0.18.0--r43hdfd78af_1: sha256:db8774079fc75102adace21b1890b659d65f78ac697d7455fa3f19b734d37649
+  0.18.0--r44hdfd78af_2: sha256:6203209419145b251e5bc8ecf7a7d0ccf9227c1d708bd540f7d13c82ee3f284f
 tags:
   0.9.9--r351_0: sha256:f0c7c3481098a42f6871e31c894d26ad7564a07e3ef80ffa054b34bf09493f7c
   0.14.17--r41hdfd78af_2: sha256:1f245e059fb6c0f1eb7620c33eca863ddcab9e7b996174a48206b34d4d20323e
@@ -15,6 +15,7 @@ tags:
   0.16.5--r42hdfd78af_1: sha256:beb290528a3dfc9a8a1b6e0b3ac307aa33285eaaa0bbd9a1228b1639f7779289
   0.15.0--r41hdfd78af_0: sha256:ac3aac61ec74895c33b45761438ebbc34754e2be841c53318193758f9a4b028c
   0.14.23--r41hdfd78af_0: sha256:1aba157511543c69c78d847c8de465951d9054cf45ed9effc9ed64e90348b815
+  0.18.0--r44hdfd78af_2: sha256:6203209419145b251e5bc8ecf7a7d0ccf9227c1d708bd540f7d13c82ee3f284f
 docker: quay.io/biocontainers/r-basejump
 aliases:
   wget: /usr/local/bin/wget

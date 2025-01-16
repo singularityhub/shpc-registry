@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cordon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cordon
 latest:
-  1.20.0--r43hdfd78af_0: sha256:7713b64d38678f5dc27a7f6178fb9866516f2234d9d1cd35e4287329113bdaae
+  1.24.0--r44hdfd78af_0: sha256:207c37212ce80087ec4b1fb7b22cb81599daa4f79e3b85941125eac8f64dcf82
 tags:
   1.8.0--r40hdfd78af_1: sha256:d9b6f118dda0d5c9d67528e7083092313384d6b4e198434fce507c470fd4c9ce
   1.16.0--r42hdfd78af_0: sha256:8d1eed886f26a06acffb9c7fe8d4f7661b2f43e4d30e8b922ea7edaacaf2954a
@@ -10,6 +10,7 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:5b3c7e9d79f9183f6d933d173b9589f991d93a14ffeb5cefc5431c15d8662cb5
   1.18.0--r43hdfd78af_0: sha256:4155ea70a42d79e30082b50a44eebaa7f815f6b87f457b90a6b9e29f663fd27e
   1.20.0--r43hdfd78af_0: sha256:7713b64d38678f5dc27a7f6178fb9866516f2234d9d1cd35e4287329113bdaae
+  1.24.0--r44hdfd78af_0: sha256:207c37212ce80087ec4b1fb7b22cb81599daa4f79e3b85941125eac8f64dcf82
 docker: quay.io/biocontainers/bioconductor-cordon
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

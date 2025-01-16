@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ebsea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ebsea
 latest:
-  1.30.0--r43hdfd78af_0: sha256:07aa41fb66d9f3cbd45c4cb330c4c46060bb54f821e984d2f99ab5433ea3b896
+  1.34.0--r44hdfd78af_0: sha256:6889ab96880508edb9eee9956fac4885ea3e2861bd8362add2cd0f7aea114383
 tags:
   1.8.0--r351_0: sha256:a0131080c53b535bfd5772dfc567cb2c8422342964d26b85b4ec305a5985e43a
   1.26.0--r42hdfd78af_0: sha256:ac87c0255520af14875eb968245e0232bc8b291ae501a687f5cfd5d8e7425096
@@ -12,4 +12,5 @@ tags:
   1.16.0--r40_0: sha256:03a31952031ac44ed3bddae44f047359027f9c704e2a8cf74d94eff60b580b35
   1.28.0--r43hdfd78af_0: sha256:49a89761e44ab2345ab946d39aa030bfd7b313de28c9d0869e55fe693e285f73
   1.30.0--r43hdfd78af_0: sha256:07aa41fb66d9f3cbd45c4cb330c4c46060bb54f821e984d2f99ab5433ea3b896
+  1.34.0--r44hdfd78af_0: sha256:6889ab96880508edb9eee9956fac4885ea3e2861bd8362add2cd0f7aea114383
 docker: quay.io/biocontainers/bioconductor-ebsea

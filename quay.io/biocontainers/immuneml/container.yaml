@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/immuneml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for immuneml
 latest:
-  3.0.3--h1fe012e_0: sha256:e2a92f08526edd65236b7e1999fd59da9cded2fa46f06feab1ddd49ddc3730f3
+  3.0.9--hbcbf7aa_0: sha256:779623044a6ad0d44673cb668be556f18978fab38fa92c5e78f0d345adbd6008
 tags:
   2.2.0--py39hbf8eff0_0: sha256:60a6ea6a986487ea863598dc0585e75e337dbe36fb6cef5494d54ae135a3a347
   2.2.2--py39hbf8eff0_0: sha256:187e443a396f53f14e95992e87c574ec22cfb0ef8925de47219cb1416ce70310
@@ -14,6 +14,7 @@ tags:
   2.2.6--py39hf95cd2a_0: sha256:44351c8d27e92462fc038d42231d8e394b8402a81004b723a0a1784133425321
   2.2.6--py38h0020b31_1: sha256:4c434ce623eb93cd134cf07b4e0f9003f46c37e1b2a0f5db8461f66921e6f94b
   3.0.3--h1fe012e_0: sha256:e2a92f08526edd65236b7e1999fd59da9cded2fa46f06feab1ddd49ddc3730f3
+  3.0.9--hbcbf7aa_0: sha256:779623044a6ad0d44673cb668be556f18978fab38fa92c5e78f0d345adbd6008
 docker: quay.io/biocontainers/immuneml
 aliases:
   airr-tools: /usr/local/bin/airr-tools

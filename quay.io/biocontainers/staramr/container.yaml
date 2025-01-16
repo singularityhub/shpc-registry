@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/staramr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for staramr
 latest:
-  0.10.0--pyhdfd78af_0: sha256:b7556aab41eddc4bf2e3f4101fae7af0d0e9ddd8ba3cbcec7be9a5c5fbe5946e
+  0.11.0--pyhdfd78af_0: sha256:72ac8e7c4856d87edaf3e47ad92e0164a8871800513cfe25bb2546360f17c34a
 tags:
   0.8.0--pyhdfd78af_1: sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849
   0.9.1--pyhdfd78af_0: sha256:2f9854fe427789f22d2f7bf72a708d6158f422458c5805ecdf979e7f39b5d612
   0.10.0--pyhdfd78af_0: sha256:b7556aab41eddc4bf2e3f4101fae7af0d0e9ddd8ba3cbcec7be9a5c5fbe5946e
+  0.11.0--pyhdfd78af_0: sha256:72ac8e7c4856d87edaf3e47ad92e0164a8871800513cfe25bb2546360f17c34a
 docker: quay.io/biocontainers/staramr
 aliases:
   file: /usr/local/bin/file

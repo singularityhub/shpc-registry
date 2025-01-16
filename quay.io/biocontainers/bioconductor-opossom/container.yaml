@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-opossom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-opossom
 latest:
-  2.20.0--r43hf17093f_0: sha256:ffad6496fa9672c20878d38cb4aad00638fd6a24e3760924bf899a7afcf407e7
+  2.24.0--r44he5774e6_0: sha256:d0714039b86b2716913bd9efbda27804574d7d7666c11b81873c7785b7c73b59
 tags:
   2.8.0--r40h399db7b_1: sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6
   2.16.0--r42hc247a5b_0: sha256:f508b69a45cea98df0145b4d151ba8a4e7ef6127a423a87d6689ab2e2c386aab
@@ -11,6 +11,7 @@ tags:
   2.16.0--r42hf17093f_1: sha256:2635eb069f094a2f1c7fcf0f75565fd381697da6ec3afe4108ff664c34086a9f
   2.18.0--r43hf17093f_0: sha256:4cd86870d3ea89c16963d8454e6e922859db96bb5bffe2a3dcd1b988472b1d76
   2.20.0--r43hf17093f_0: sha256:ffad6496fa9672c20878d38cb4aad00638fd6a24e3760924bf899a7afcf407e7
+  2.24.0--r44he5774e6_0: sha256:d0714039b86b2716913bd9efbda27804574d7d7666c11b81873c7785b7c73b59
 docker: quay.io/biocontainers/bioconductor-opossom
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

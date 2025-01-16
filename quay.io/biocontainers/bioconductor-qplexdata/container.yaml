@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-qplexdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qplexdata
 latest:
-  1.20.0--r43hdfd78af_0: sha256:49f3375800809d0d95cd86fb2bb962e990dcfdda7ed2ba9c21555573a4a939e9
+  1.24.0--r44hdfd78af_0: sha256:3effde8e32893b7797148fd538b580a34996f29b656c3e68871483a2c35873bd
 tags:
   1.8.0--r40hdfd78af_1: sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4
   1.16.0--r42hdfd78af_0: sha256:aa16bca0596c034d2c0c0512e5b0e7f61a45c191431aec649015decd0a20e7f9
@@ -10,6 +10,7 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:f3f2de2557318d152027bbfc5a899dabef479f4128316f8c40f043aece5250b1
   1.18.0--r43hdfd78af_0: sha256:aa7ec75824bf96e8dd7e91718f97ca929a766e3117826273704068bf6130b046
   1.20.0--r43hdfd78af_0: sha256:49f3375800809d0d95cd86fb2bb962e990dcfdda7ed2ba9c21555573a4a939e9
+  1.24.0--r44hdfd78af_0: sha256:3effde8e32893b7797148fd538b580a34996f29b656c3e68871483a2c35873bd
 docker: quay.io/biocontainers/bioconductor-qplexdata
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

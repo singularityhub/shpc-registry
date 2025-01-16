@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-interactionset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-interactionset
 latest:
-  1.30.0--r43hf17093f_1: sha256:d5254e358d92a05378fb6d9c427a1d2b32c91e6c38e00d3deffe42ab34456baf
+  1.34.0--r44he5774e6_0: sha256:e8f3c4e8a6e6bd9585c35f3d357d6bfc335bbc071edd26d0b4c4cad710aa42aa
 tags:
   1.8.0--r351hfc679d8_0: sha256:62037b4b18b467b3ff5e2541057589596a717206d216f5f1dc03e0d21cf689da
   1.26.0--r42hc247a5b_0: sha256:0de4011b1a39ef7a0c972614b3e75d426077635d53a99771fccfed60e84f5a1b
@@ -14,6 +14,7 @@ tags:
   1.28.1--r43hf17093f_0: sha256:2aca6a81b86a6d1b716118656392e0e4a212170478549de0384cc244b1f5c686
   1.30.0--r43hf17093f_0: sha256:4bf64fb457a938739a20d22df9137a22dab757d499928602fb3477d1180aa8d0
   1.30.0--r43hf17093f_1: sha256:d5254e358d92a05378fb6d9c427a1d2b32c91e6c38e00d3deffe42ab34456baf
+  1.34.0--r44he5774e6_0: sha256:e8f3c4e8a6e6bd9585c35f3d357d6bfc335bbc071edd26d0b4c4cad710aa42aa
 docker: quay.io/biocontainers/bioconductor-interactionset
 aliases:
   wget: /usr/local/bin/wget

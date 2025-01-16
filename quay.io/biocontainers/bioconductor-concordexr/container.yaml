@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-concordexr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-concordexr
 latest:
-  1.2.0--r43hdfd78af_0: sha256:d61503c641faa7a78af5dfc121fc45225d6b5aadf92144277091c12fc1374e98
+  1.6.0--r44hdfd78af_0: sha256:dd4358d0c0ac0353227963c56031be232c5e03da7ae9de75c1f972f744babb11
 tags:
   1.0.0--r43hdfd78af_0: sha256:3e4aabdfb74db29bec5684a01f3b0f20121db635b60cdf0f78abc722ccdc6720
   1.2.0--r43hdfd78af_0: sha256:d61503c641faa7a78af5dfc121fc45225d6b5aadf92144277091c12fc1374e98
+  1.6.0--r44hdfd78af_0: sha256:dd4358d0c0ac0353227963c56031be232c5e03da7ae9de75c1f972f744babb11
 docker: quay.io/biocontainers/bioconductor-concordexr
 aliases:
   hb-info: /usr/local/bin/hb-info
