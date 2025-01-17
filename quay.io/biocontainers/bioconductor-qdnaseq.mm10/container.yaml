@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-qdnaseq.mm10
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qdnaseq.mm10
 latest:
-  1.32.0--r43hdfd78af_0: sha256:11a0c4b6e0a39c2b1d60fdc3d85bc2e67a9a657e958ec2c6402a7446dc19ed76
+  1.36.0--r44hdfd78af_0: sha256:e5a037bee8f62d28f74f4b75aafd950c14147f9f58ccb33aaabff890605fe95f
 tags:
   1.8.0--r3.4.1_1: sha256:2083914211afc4b5e49822fc8849a05b9f70b9e30e30791bf7cde03c80aa39b5
   1.28.0--r42hdfd78af_0: sha256:e0593af5e2b4639b73424e72c698341d4e5848b9a3cfb75d99425c1ce00a7bdd
@@ -12,6 +12,7 @@ tags:
   1.18.0--r40_0: sha256:44c75399d3dc415f6f0787a346a6bea803413465112780e7762ae09aaacb49dd
   1.30.0--r43hdfd78af_0: sha256:42d1e5edc4a08f508132042a93bab2d0b8187970e6fca8dbf50261983443d702
   1.32.0--r43hdfd78af_0: sha256:11a0c4b6e0a39c2b1d60fdc3d85bc2e67a9a657e958ec2c6402a7446dc19ed76
+  1.36.0--r44hdfd78af_0: sha256:e5a037bee8f62d28f74f4b75aafd950c14147f9f58ccb33aaabff890605fe95f
 docker: quay.io/biocontainers/bioconductor-qdnaseq.mm10
 aliases:
   wget: /usr/local/bin/wget

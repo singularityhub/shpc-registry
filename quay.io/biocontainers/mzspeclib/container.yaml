@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mzspeclib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mzspeclib
 latest:
-  1.0.1--pyhdfd78af_0: sha256:5adce54d8d71af223161a4c6e5b7a805fe5fb43480e6a5aa4602412bc2853b60
+  1.0.3--pyhdfd78af_0: sha256:04314bb61d76de28d79e400a7e3341b227103a82db68ca786efcb7470bd7add6
 tags:
   1.0.1--pyhdfd78af_0: sha256:5adce54d8d71af223161a4c6e5b7a805fe5fb43480e6a5aa4602412bc2853b60
+  1.0.3--pyhdfd78af_0: sha256:04314bb61d76de28d79e400a7e3341b227103a82db68ca786efcb7470bd7add6
 docker: quay.io/biocontainers/mzspeclib
 aliases:
   mzspeclib: /usr/local/bin/mzspeclib

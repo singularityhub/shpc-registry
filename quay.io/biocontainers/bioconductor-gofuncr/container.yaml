@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gofuncr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gofuncr
 latest:
-  1.22.0--r43hf17093f_0: sha256:b790b7c7ef7f772d4bef8cedd403cc44ac7dfd8f2d2c595323c7c7877c772e1d
+  1.26.0--r44he5774e6_0: sha256:a75e6a89becbd6e4bdb48db4f1fe39566681721e30338d03b7fc9132b4063efb
 tags:
   1.8.0--r40h5f743cb_0: sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b
   1.18.0--r42hc247a5b_0: sha256:b393160b49b12b6d41ea89c90c493bb8c51a90431b244bde77dc8a4c2ee1ce23
@@ -12,6 +12,7 @@ tags:
   1.18.0--r42hf17093f_1: sha256:a50e06decde48cffb1cc48449923c3defe2cb036669ba2ae6b77210d47f529f7
   1.20.0--r43hf17093f_0: sha256:082560bcda6cf5676c27ad1874feeeb61a0bc66704cf1fd63dda43934f4f3bd2
   1.22.0--r43hf17093f_0: sha256:b790b7c7ef7f772d4bef8cedd403cc44ac7dfd8f2d2c595323c7c7877c772e1d
+  1.26.0--r44he5774e6_0: sha256:a75e6a89becbd6e4bdb48db4f1fe39566681721e30338d03b7fc9132b4063efb
 docker: quay.io/biocontainers/bioconductor-gofuncr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

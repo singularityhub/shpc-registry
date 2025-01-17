@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-harmonizr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-harmonizr
 latest:
-  1.0.0--r43hdfd78af_0: sha256:b1fb6c6859921900e403be39be713120ab73f99c7a22ea06c98217303fe8a00d
+  1.4.0--r44hdfd78af_0: sha256:e5712fb8abfb9f0dc258c0ebbc080d320c5023575cab59903706d0a635dbff51
 tags:
   1.0.0--r43hdfd78af_0: sha256:b1fb6c6859921900e403be39be713120ab73f99c7a22ea06c98217303fe8a00d
+  1.4.0--r44hdfd78af_0: sha256:e5712fb8abfb9f0dc258c0ebbc080d320c5023575cab59903706d0a635dbff51
 docker: quay.io/biocontainers/bioconductor-harmonizr
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

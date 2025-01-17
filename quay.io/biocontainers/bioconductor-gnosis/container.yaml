@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gnosis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gnosis
 latest:
-  1.0.0--r43hdfd78af_0: sha256:8e04542f50bb57d8e0504e36b13fd2cade30c72ad7b8807288731accb0a90438
+  1.4.0--r44hdfd78af_0: sha256:c009cf6f4a43c400071f75f0e536bc271f08b52e3e13c36594a22800ce68239a
 tags:
   1.0.0--r43hdfd78af_0: sha256:8e04542f50bb57d8e0504e36b13fd2cade30c72ad7b8807288731accb0a90438
+  1.4.0--r44hdfd78af_0: sha256:c009cf6f4a43c400071f75f0e536bc271f08b52e3e13c36594a22800ce68239a
 docker: quay.io/biocontainers/bioconductor-gnosis
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

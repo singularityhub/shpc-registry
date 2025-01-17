@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-badregionfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-badregionfinder
 latest:
-  1.30.0--r43hdfd78af_0: sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5
+  1.34.0--r44hdfd78af_0: sha256:c7b2a646853da3149757d74c7ca59a617823779fe8ec30390f94477cfa4edb0d
 tags:
   1.8.0--r341_0: sha256:7faf9c21aedd4b8f0b08c5da2d1a80fe8b6f1990281d8b99fa30b89fafabbdae
   1.26.0--r42hdfd78af_0: sha256:82d5b28aaf0cb6c42378384d9054f4cf4c092eb0eb16341de565270de6b60b3a
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40_0: sha256:8865b21097369e1598daa08f2f5417070adf45fbe06abbb542c000290a964303
   1.28.0--r43hdfd78af_0: sha256:af25869fed3320d32a1b72525e31dac6fe712bd371af9c0080ea87cf46fcb723
   1.30.0--r43hdfd78af_0: sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5
+  1.34.0--r44hdfd78af_0: sha256:c7b2a646853da3149757d74c7ca59a617823779fe8ec30390f94477cfa4edb0d
 docker: quay.io/biocontainers/bioconductor-badregionfinder
 aliases:
   wget: /usr/local/bin/wget

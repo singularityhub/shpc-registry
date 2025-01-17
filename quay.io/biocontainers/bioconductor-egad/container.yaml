@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-egad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-egad
 latest:
-  1.30.0--r43hdfd78af_0: sha256:8806f3ca43d707ad649eec133287a7947beeaf8fcbdfc24904cd255f8889fee7
+  1.34.0--r44hdfd78af_0: sha256:d741c20cf17e6235507bcce40f30b19ead5a81a97361c7acfc4b7f7f082a4b15
 tags:
   1.22.0--r41hdfd78af_0: sha256:fda1437f29f0d1317fb6fbe95bb610b3962926e42cb1b8d7d337216c2f8ee85f
   1.26.0--r42hdfd78af_0: sha256:2a980de1e5614638e5eeb4a95d254f9c483d79704e8fecf12ba894772ee1f3ec
   1.28.0--r43hdfd78af_0: sha256:b851ea82584d5c208f84199782a5be203522b2afbda7f7b6a33ac3d3e998b4de
   1.30.0--r43hdfd78af_0: sha256:8806f3ca43d707ad649eec133287a7947beeaf8fcbdfc24904cd255f8889fee7
+  1.34.0--r44hdfd78af_0: sha256:d741c20cf17e6235507bcce40f30b19ead5a81a97361c7acfc4b7f7f082a4b15
 docker: quay.io/biocontainers/bioconductor-egad

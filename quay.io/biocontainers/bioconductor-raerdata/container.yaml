@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-raerdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-raerdata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:2154298d566653676c522bb64d7d9c415c22b2108746b722ee2bbce1f8fb179d
+  1.4.0--r44hdfd78af_0: sha256:dc2e1479b78bd29c705333e294a25c26c10ca3c4746e96ceb122be6f1f47c1ea
 tags:
   1.0.0--r43hdfd78af_0: sha256:2154298d566653676c522bb64d7d9c415c22b2108746b722ee2bbce1f8fb179d
+  1.4.0--r44hdfd78af_0: sha256:dc2e1479b78bd29c705333e294a25c26c10ca3c4746e96ceb122be6f1f47c1ea
 docker: quay.io/biocontainers/bioconductor-raerdata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

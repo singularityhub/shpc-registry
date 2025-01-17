@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-seqgate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seqgate
 latest:
-  1.12.0--r43hdfd78af_0: sha256:380b9d96325aca7a96a2086d5efa2749476d9de77e763af9faf50ab249b21f7c
+  1.16.0--r44hdfd78af_0: sha256:ad86fef0ad203a5e417f8ac3e9f294531560f0875da2f9ac16fbe0032cd4e894
 tags:
   1.4.0--r41hdfd78af_0: sha256:6412bafa8c4fe69362170abf69c35ed305b26aeca2e12dafcf15f81e46e4fa58
   1.8.0--r42hdfd78af_0: sha256:c0974771f9aafc75ea61b794cb55d388a5ec4d78481576bccff99d8e4f3fe37a
   1.10.0--r43hdfd78af_0: sha256:c06c98ce2024e8707f163ac8fd624dff524745d722f3367ec41327051307d9bc
   1.12.0--r43hdfd78af_0: sha256:380b9d96325aca7a96a2086d5efa2749476d9de77e763af9faf50ab249b21f7c
+  1.16.0--r44hdfd78af_0: sha256:ad86fef0ad203a5e417f8ac3e9f294531560f0875da2f9ac16fbe0032cd4e894
 docker: quay.io/biocontainers/bioconductor-seqgate
