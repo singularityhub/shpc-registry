@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sim/container.yaml"
-updated_at: "2025-01-16 03:01:39.655140"
+updated_at: "2025-01-17 03:01:07.155406"
 latest: "1.72.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sim"
 

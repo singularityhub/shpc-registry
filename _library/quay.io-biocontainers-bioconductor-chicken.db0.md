@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chicken.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chicken.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chicken.db0/container.yaml"
-updated_at: "2025-01-16 02:57:22.710850"
-latest: "3.18.0--r43hdfd78af_0"
+updated_at: "2025-01-17 02:56:50.835985"
+latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chicken.db0"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "3.11.2--r40_0"
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
+ - "3.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chicken.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chicken.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chicken.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:ba4fdc34625f14a9732ecffeb11e3f717bc24de778a2de53b14a580a58c75aae"}, "tags": {"3.8.2--r36_1": "sha256:cae50be8fbe09339b8aec6cbfb57b5fbdbdbbf5f4e651b011f286f4c995e8df3", "3.16.0--r42hdfd78af_0": "sha256:23dee022de2fc643355e3206d17421e541b492005929d43d200837dd7a99add5", "3.14.0--r41hdfd78af_1": "sha256:373e42202c5c88b12313fca85bfcc567db8e5823d037dcc1c0a7fa3f1354ef47", "3.13.0--r41hdfd78af_0": "sha256:a729c42345dcc2a32c9e7f49e5678a80ccebc6b2a75fe50e51b87353ad641949", "3.12.0--r40hdfd78af_1": "sha256:afffe0f63b4f8bbe627525cf08a7cf0b4f560376190aafc97ed6238229abe10a", "3.11.2--r40_0": "sha256:72c4616dc485ce1d8285bca208b25b4b56d7a726150d4558cd205dfb7b5c73dc", "3.17.0--r43hdfd78af_0": "sha256:1da5bd421a02a3db51e2cf2287147f246beb4440fd3a9ffb7d75544d304f10f6", "3.18.0--r43hdfd78af_0": "sha256:ba4fdc34625f14a9732ecffeb11e3f717bc24de778a2de53b14a580a58c75aae"}, "docker": "quay.io/biocontainers/bioconductor-chicken.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chicken.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chicken.db0", "latest": {"3.20.0--r44hdfd78af_0": "sha256:a194852ff1c7eecab2114d638fb3073430b4d40f37a8859409ec9fb3c830cfa2"}, "tags": {"3.8.2--r36_1": "sha256:cae50be8fbe09339b8aec6cbfb57b5fbdbdbbf5f4e651b011f286f4c995e8df3", "3.16.0--r42hdfd78af_0": "sha256:23dee022de2fc643355e3206d17421e541b492005929d43d200837dd7a99add5", "3.14.0--r41hdfd78af_1": "sha256:373e42202c5c88b12313fca85bfcc567db8e5823d037dcc1c0a7fa3f1354ef47", "3.13.0--r41hdfd78af_0": "sha256:a729c42345dcc2a32c9e7f49e5678a80ccebc6b2a75fe50e51b87353ad641949", "3.12.0--r40hdfd78af_1": "sha256:afffe0f63b4f8bbe627525cf08a7cf0b4f560376190aafc97ed6238229abe10a", "3.11.2--r40_0": "sha256:72c4616dc485ce1d8285bca208b25b4b56d7a726150d4558cd205dfb7b5c73dc", "3.17.0--r43hdfd78af_0": "sha256:1da5bd421a02a3db51e2cf2287147f246beb4440fd3a9ffb7d75544d304f10f6", "3.18.0--r43hdfd78af_0": "sha256:ba4fdc34625f14a9732ecffeb11e3f717bc24de778a2de53b14a580a58c75aae", "3.20.0--r44hdfd78af_0": "sha256:a194852ff1c7eecab2114d638fb3073430b4d40f37a8859409ec9fb3c830cfa2"}, "docker": "quay.io/biocontainers/bioconductor-chicken.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chicken.db0.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chicken.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chicken.db0:3.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chicken.db0:3.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chicken.db0/3.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chicken.db0/3.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chicken.db0/3.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chicken.db0/3.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

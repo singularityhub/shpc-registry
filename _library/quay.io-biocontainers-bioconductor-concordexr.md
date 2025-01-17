@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-concordexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-concordexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-concordexr/container.yaml"
-updated_at: "2025-01-16 03:26:26.170273"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-17 03:25:55.580872"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-concordexr"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-concordexr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-concordexr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-concordexr", "latest": {"1.2.0--r43hdfd78af_0": "sha256:d61503c641faa7a78af5dfc121fc45225d6b5aadf92144277091c12fc1374e98"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:3e4aabdfb74db29bec5684a01f3b0f20121db635b60cdf0f78abc722ccdc6720", "1.2.0--r43hdfd78af_0": "sha256:d61503c641faa7a78af5dfc121fc45225d6b5aadf92144277091c12fc1374e98"}, "docker": "quay.io/biocontainers/bioconductor-concordexr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-concordexr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-concordexr", "latest": {"1.6.0--r44hdfd78af_0": "sha256:dd4358d0c0ac0353227963c56031be232c5e03da7ae9de75c1f972f744babb11"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:3e4aabdfb74db29bec5684a01f3b0f20121db635b60cdf0f78abc722ccdc6720", "1.2.0--r43hdfd78af_0": "sha256:d61503c641faa7a78af5dfc121fc45225d6b5aadf92144277091c12fc1374e98", "1.6.0--r44hdfd78af_0": "sha256:dd4358d0c0ac0353227963c56031be232c5e03da7ae9de75c1f972f744babb11"}, "docker": "quay.io/biocontainers/bioconductor-concordexr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-concordexr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-concordexr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-concordexr:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-concordexr:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-concordexr/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-concordexr/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-concordexr/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-concordexr/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

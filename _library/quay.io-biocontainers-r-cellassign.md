@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cellassign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cellassign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cellassign/container.yaml"
-updated_at: "2025-01-16 03:09:33.638766"
-latest: "0.99.2--r43hdfd78af_6"
+updated_at: "2025-01-17 03:09:00.894932"
+latest: "0.99.2--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-cellassign"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.99.2--r41hdfd78af_4"
  - "0.99.2--r42hdfd78af_5"
  - "0.99.2--r43hdfd78af_6"
+ - "0.99.2--r44hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for r-cellassign"
-config: {"url": "https://biocontainers.pro/tools/r-cellassign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cellassign", "latest": {"0.99.2--r43hdfd78af_6": "sha256:786958527c2fc82d402e3b698ff7bb29d134d4f17f3a91ffea56bd4712cc4e4d"}, "tags": {"0.99.2--r41hdfd78af_4": "sha256:c24eb236dbb89e44d621731bf7f1d375c69304e9e236424dadd2c689cd671507", "0.99.2--r42hdfd78af_5": "sha256:3ddf619a3ac5458eafc04be873061d65287304cb2b4e694e24624f9767a5170c", "0.99.2--r43hdfd78af_6": "sha256:786958527c2fc82d402e3b698ff7bb29d134d4f17f3a91ffea56bd4712cc4e4d"}, "docker": "quay.io/biocontainers/r-cellassign", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-cellassign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cellassign", "latest": {"0.99.2--r44hdfd78af_7": "sha256:2739696933ef5cdd9ed73e0bc8312fa345b1d1efd4a60543bfa44bda78824b84"}, "tags": {"0.99.2--r41hdfd78af_4": "sha256:c24eb236dbb89e44d621731bf7f1d375c69304e9e236424dadd2c689cd671507", "0.99.2--r42hdfd78af_5": "sha256:3ddf619a3ac5458eafc04be873061d65287304cb2b4e694e24624f9767a5170c", "0.99.2--r43hdfd78af_6": "sha256:786958527c2fc82d402e3b698ff7bb29d134d4f17f3a91ffea56bd4712cc4e4d", "0.99.2--r44hdfd78af_7": "sha256:2739696933ef5cdd9ed73e0bc8312fa345b1d1efd4a60543bfa44bda78824b84"}, "docker": "quay.io/biocontainers/r-cellassign", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cellassign.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-cellassign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cellassign:0.99.2--r43hdfd78af_6
+$ shpc install quay.io/biocontainers/r-cellassign:0.99.2--r44hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cellassign/0.99.2--r43hdfd78af_6
-$ module help quay.io/biocontainers/r-cellassign/0.99.2--r43hdfd78af_6
+$ module load quay.io/biocontainers/r-cellassign/0.99.2--r44hdfd78af_7
+$ module help quay.io/biocontainers/r-cellassign/0.99.2--r44hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/luciphor2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/luciphor2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/luciphor2/container.yaml"
-updated_at: "2025-01-16 03:22:31.142296"
+updated_at: "2025-01-17 03:21:59.924750"
 latest: "2020_04_03--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/luciphor2"
 aliases:
