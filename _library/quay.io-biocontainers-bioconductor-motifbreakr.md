@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-motifbreakr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-motifbreakr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-motifbreakr/container.yaml"
-updated_at: "2025-01-17 02:44:38.321791"
+updated_at: "2025-01-18 02:42:07.630063"
 latest: "2.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-motifbreakr"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ebseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebseq/container.yaml"
-updated_at: "2025-01-17 03:21:23.642633"
+updated_at: "2025-01-18 03:18:19.763496"
 latest: "2.4.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebseq"
 

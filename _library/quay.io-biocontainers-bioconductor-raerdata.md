@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-raerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raerdata/container.yaml"
-updated_at: "2025-01-17 02:44:21.841766"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:41:51.352083"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raerdata"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-raerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-raerdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-raerdata", "latest": {"1.0.0--r43hdfd78af_0": "sha256:2154298d566653676c522bb64d7d9c415c22b2108746b722ee2bbce1f8fb179d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2154298d566653676c522bb64d7d9c415c22b2108746b722ee2bbce1f8fb179d"}, "docker": "quay.io/biocontainers/bioconductor-raerdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-raerdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-raerdata", "latest": {"1.4.0--r44hdfd78af_0": "sha256:dc2e1479b78bd29c705333e294a25c26c10ca3c4746e96ceb122be6f1f47c1ea"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2154298d566653676c522bb64d7d9c415c22b2108746b722ee2bbce1f8fb179d", "1.4.0--r44hdfd78af_0": "sha256:dc2e1479b78bd29c705333e294a25c26c10ca3c4746e96ceb122be6f1f47c1ea"}, "docker": "quay.io/biocontainers/bioconductor-raerdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-raerdata.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-raerdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-raerdata:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-raerdata:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-raerdata/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-raerdata/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-raerdata/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-raerdata/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

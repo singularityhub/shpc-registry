@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-harmonizr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmonizr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmonizr/container.yaml"
-updated_at: "2025-01-17 03:06:24.500414"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-18 03:03:34.206294"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmonizr"
 aliases:
  - "pcre2posix_test"
@@ -27,8 +27,9 @@ aliases:
  - "register-python-argcomplete"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-harmonizr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-harmonizr", "latest": {"1.0.0--r43hdfd78af_0": "sha256:b1fb6c6859921900e403be39be713120ab73f99c7a22ea06c98217303fe8a00d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:b1fb6c6859921900e403be39be713120ab73f99c7a22ea06c98217303fe8a00d"}, "docker": "quay.io/biocontainers/bioconductor-harmonizr", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-harmonizr", "latest": {"1.4.0--r44hdfd78af_0": "sha256:e5712fb8abfb9f0dc258c0ebbc080d320c5023575cab59903706d0a635dbff51"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:b1fb6c6859921900e403be39be713120ab73f99c7a22ea06c98217303fe8a00d", "1.4.0--r44hdfd78af_0": "sha256:e5712fb8abfb9f0dc258c0ebbc080d320c5023575cab59903706d0a635dbff51"}, "docker": "quay.io/biocontainers/bioconductor-harmonizr", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harmonizr.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-harmonizr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-harmonizr:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-harmonizr:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-harmonizr/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-harmonizr/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-harmonizr/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-harmonizr/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

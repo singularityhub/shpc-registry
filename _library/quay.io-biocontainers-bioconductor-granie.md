@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-granie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-granie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-granie/container.yaml"
-updated_at: "2025-01-17 02:49:24.521224"
-latest: "1.6.1--r43hdfd78af_0"
+updated_at: "2025-01-18 02:46:49.854235"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-granie"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.1--r43hdfd78af_0"
  - "1.6.1--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-granie"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-granie", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-granie", "latest": {"1.6.1--r43hdfd78af_0": "sha256:5089154e84721d475aafd52271924b2ea4ac4ca4e38d3d630dd79e9404d28796"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:853e2eefd6cca90598ddb3e59b2a265c6a1b8ca3bcf2391cfc386796319f7881", "1.4.1--r43hdfd78af_0": "sha256:98e6cd3a3270c8aa988b8d3c7c8cab8d58a2a4e1e2733a5a0e4c5c9c414bf243", "1.6.1--r43hdfd78af_0": "sha256:5089154e84721d475aafd52271924b2ea4ac4ca4e38d3d630dd79e9404d28796"}, "docker": "quay.io/biocontainers/bioconductor-granie", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-granie", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-granie", "latest": {"1.10.0--r44hdfd78af_0": "sha256:a4b2f3a02dd56b8ed606d2c625572450041b3f908ece7497a61168f1651e674b"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:853e2eefd6cca90598ddb3e59b2a265c6a1b8ca3bcf2391cfc386796319f7881", "1.4.1--r43hdfd78af_0": "sha256:98e6cd3a3270c8aa988b8d3c7c8cab8d58a2a4e1e2733a5a0e4c5c9c414bf243", "1.6.1--r43hdfd78af_0": "sha256:5089154e84721d475aafd52271924b2ea4ac4ca4e38d3d630dd79e9404d28796", "1.10.0--r44hdfd78af_0": "sha256:a4b2f3a02dd56b8ed606d2c625572450041b3f908ece7497a61168f1651e674b"}, "docker": "quay.io/biocontainers/bioconductor-granie", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-granie.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-granie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-granie:1.6.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-granie:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-granie/1.6.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-granie/1.6.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-granie/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-granie/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

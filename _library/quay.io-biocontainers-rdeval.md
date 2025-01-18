@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rdeval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdeval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdeval/container.yaml"
-updated_at: "2025-01-17 03:14:18.753612"
-latest: "0.0.2--hdcf5f25_1"
+updated_at: "2025-01-18 03:11:21.691407"
+latest: "0.0.4--h35c04b2_0"
 container_url: "https://biocontainers.pro/tools/rdeval"
 aliases:
  - "rdeval"
 versions:
  - "0.0.2--hdcf5f25_1"
+ - "0.0.4--h35c04b2_0"
 description: "singularity registry hpc automated addition for rdeval"
-config: {"url": "https://biocontainers.pro/tools/rdeval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdeval", "latest": {"0.0.2--hdcf5f25_1": "sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24"}, "tags": {"0.0.2--hdcf5f25_1": "sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24"}, "docker": "quay.io/biocontainers/rdeval", "aliases": {"rdeval": "/usr/local/bin/rdeval"}}
+config: {"url": "https://biocontainers.pro/tools/rdeval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdeval", "latest": {"0.0.4--h35c04b2_0": "sha256:0870bbd69e1bca9b639a679077685bf7bb412d545580248ccf290896224038d8"}, "tags": {"0.0.2--hdcf5f25_1": "sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24", "0.0.4--h35c04b2_0": "sha256:0870bbd69e1bca9b639a679077685bf7bb412d545580248ccf290896224038d8"}, "docker": "quay.io/biocontainers/rdeval", "aliases": {"rdeval": "/usr/local/bin/rdeval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdeval.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rdeval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rdeval:0.0.2--hdcf5f25_1
+$ shpc install quay.io/biocontainers/rdeval:0.0.4--h35c04b2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rdeval/0.0.2--hdcf5f25_1
-$ module help quay.io/biocontainers/rdeval/0.0.2--hdcf5f25_1
+$ module load quay.io/biocontainers/rdeval/0.0.4--h35c04b2_0
+$ module help quay.io/biocontainers/rdeval/0.0.4--h35c04b2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

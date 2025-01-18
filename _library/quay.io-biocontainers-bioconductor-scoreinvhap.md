@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scoreinvhap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scoreinvhap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scoreinvhap/container.yaml"
-updated_at: "2025-01-17 02:57:17.462303"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:54:35.335015"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scoreinvhap"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scoreinvhap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scoreinvhap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scoreinvhap", "latest": {"1.24.0--r43hdfd78af_0": "sha256:7bbec2d15519b675cd4cd29a759fc6626211727d839febca2752084336b480b1"}, "tags": {"1.8.0--r36_0": "sha256:6d69e542b16363213a6c3c679e8f7edcd88ff73a31f49e2666467d497b717f0f", "1.20.0--r42hdfd78af_0": "sha256:ee7789c77b3e42c3eafbee69b59e4dfdf4bdb0c9324cdc4db6ef8ab3d27f7fcd", "1.16.0--r41hdfd78af_0": "sha256:5ea36666c22a7a4d7385c411236462da6cf16cb1beb5599117ce71c5b09f7090", "1.14.0--r41hdfd78af_0": "sha256:0b53fa1002133077ad1afabe73016f5baea0dffab637608982fa5070d5001afe", "1.12.1--r40hdfd78af_0": "sha256:9ef6e6a2241cf97abd36df4f3db2c94ed34a93fbb854a25c454e51acc9e420c8", "1.10.0--r40_0": "sha256:7636c982b7402fdccd8ea29b81b36a3edb8664feb95521d8b0437040240974e5", "1.22.0--r43hdfd78af_0": "sha256:4b1d738213f39b8360017626178a585eea6f6b9195024b090a9be22036b5f112", "1.24.0--r43hdfd78af_0": "sha256:7bbec2d15519b675cd4cd29a759fc6626211727d839febca2752084336b480b1"}, "docker": "quay.io/biocontainers/bioconductor-scoreinvhap", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scoreinvhap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scoreinvhap", "latest": {"1.28.0--r44hdfd78af_0": "sha256:c7381d410b0f02294c16d5603ddb0868d048154423f905102ba916915ef6d0f1"}, "tags": {"1.8.0--r36_0": "sha256:6d69e542b16363213a6c3c679e8f7edcd88ff73a31f49e2666467d497b717f0f", "1.20.0--r42hdfd78af_0": "sha256:ee7789c77b3e42c3eafbee69b59e4dfdf4bdb0c9324cdc4db6ef8ab3d27f7fcd", "1.16.0--r41hdfd78af_0": "sha256:5ea36666c22a7a4d7385c411236462da6cf16cb1beb5599117ce71c5b09f7090", "1.14.0--r41hdfd78af_0": "sha256:0b53fa1002133077ad1afabe73016f5baea0dffab637608982fa5070d5001afe", "1.12.1--r40hdfd78af_0": "sha256:9ef6e6a2241cf97abd36df4f3db2c94ed34a93fbb854a25c454e51acc9e420c8", "1.10.0--r40_0": "sha256:7636c982b7402fdccd8ea29b81b36a3edb8664feb95521d8b0437040240974e5", "1.22.0--r43hdfd78af_0": "sha256:4b1d738213f39b8360017626178a585eea6f6b9195024b090a9be22036b5f112", "1.24.0--r43hdfd78af_0": "sha256:7bbec2d15519b675cd4cd29a759fc6626211727d839febca2752084336b480b1", "1.28.0--r44hdfd78af_0": "sha256:c7381d410b0f02294c16d5603ddb0868d048154423f905102ba916915ef6d0f1"}, "docker": "quay.io/biocontainers/bioconductor-scoreinvhap", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scoreinvhap.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scoreinvhap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scoreinvhap:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scoreinvhap:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scoreinvhap/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scoreinvhap/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scoreinvhap/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scoreinvhap/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

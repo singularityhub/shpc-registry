@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-precisiontrialdrawer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
-updated_at: "2025-01-17 03:17:45.081155"
+updated_at: "2025-01-18 03:14:45.029598"
 latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer"
 aliases:

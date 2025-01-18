@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biomartgogenesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomartgogenesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomartgogenesets/container.yaml"
-updated_at: "2025-01-17 02:48:07.957795"
-latest: "0.99.11--r43hdfd78af_0"
+updated_at: "2025-01-18 02:45:34.173076"
+latest: "0.99.11--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomartgogenesets"
 aliases:
  - "pcre2posix_test"
@@ -27,8 +27,9 @@ aliases:
  - "register-python-argcomplete"
 versions:
  - "0.99.11--r43hdfd78af_0"
+ - "0.99.11--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for bioconductor-biomartgogenesets"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biomartgogenesets", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biomartgogenesets", "latest": {"0.99.11--r43hdfd78af_0": "sha256:9c1f027559b8d2c388569ad746ae0ef08021d179c208685f91ba9412aa22cd79"}, "tags": {"0.99.11--r43hdfd78af_0": "sha256:9c1f027559b8d2c388569ad746ae0ef08021d179c208685f91ba9412aa22cd79"}, "docker": "quay.io/biocontainers/bioconductor-biomartgogenesets", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biomartgogenesets", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biomartgogenesets", "latest": {"0.99.11--r44hdfd78af_1": "sha256:e5b0126e57ca21bf267b4642bec26d55e583875529782d70a78594442b330b88"}, "tags": {"0.99.11--r43hdfd78af_0": "sha256:9c1f027559b8d2c388569ad746ae0ef08021d179c208685f91ba9412aa22cd79", "0.99.11--r44hdfd78af_1": "sha256:e5b0126e57ca21bf267b4642bec26d55e583875529782d70a78594442b330b88"}, "docker": "quay.io/biocontainers/bioconductor-biomartgogenesets", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biomartgogenesets.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biomartgogenesets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biomartgogenesets:0.99.11--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biomartgogenesets:0.99.11--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biomartgogenesets/0.99.11--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biomartgogenesets/0.99.11--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biomartgogenesets/0.99.11--r44hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-biomartgogenesets/0.99.11--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-png"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-png/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-png/container.yaml"
-updated_at: "2025-01-17 03:16:00.869078"
+updated_at: "2025-01-18 03:13:02.199906"
 latest: "0.1.7--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-png"
 aliases:

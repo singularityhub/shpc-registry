@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-iseehub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iseehub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iseehub/container.yaml"
-updated_at: "2025-01-17 03:23:45.963666"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-18 03:20:39.742056"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iseehub"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.1.1--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-iseehub"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-iseehub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-iseehub", "latest": {"1.4.0--r43hdfd78af_0": "sha256:f749dc1321f6599c9c17f838979d3bd10039bd60c00550d62993053dc1bf9f0d"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0e3a111a68b48d8b104f494ce4d0a4bfce3ca7d0c6a39f6d15eb8dd1faa1a4e4", "1.1.1--r43hdfd78af_0": "sha256:7caf9d2580f3fd2c971289dbf619db9f43ae95029e2e6beae90d9780bf7e6260", "1.4.0--r43hdfd78af_0": "sha256:f749dc1321f6599c9c17f838979d3bd10039bd60c00550d62993053dc1bf9f0d"}, "docker": "quay.io/biocontainers/bioconductor-iseehub", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-iseehub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-iseehub", "latest": {"1.8.0--r44hdfd78af_0": "sha256:d06993993e7a7f03ad696485e14d38851d285f08a48411dd639cb01e6e4136f1"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0e3a111a68b48d8b104f494ce4d0a4bfce3ca7d0c6a39f6d15eb8dd1faa1a4e4", "1.1.1--r43hdfd78af_0": "sha256:7caf9d2580f3fd2c971289dbf619db9f43ae95029e2e6beae90d9780bf7e6260", "1.4.0--r43hdfd78af_0": "sha256:f749dc1321f6599c9c17f838979d3bd10039bd60c00550d62993053dc1bf9f0d", "1.8.0--r44hdfd78af_0": "sha256:d06993993e7a7f03ad696485e14d38851d285f08a48411dd639cb01e6e4136f1"}, "docker": "quay.io/biocontainers/bioconductor-iseehub", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-iseehub.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-iseehub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-iseehub:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-iseehub:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-iseehub/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-iseehub/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-iseehub/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-iseehub/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

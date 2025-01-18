@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-optimalflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-optimalflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-optimalflow/container.yaml"
-updated_at: "2025-01-17 02:55:07.967783"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:52:28.002786"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-optimalflow"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-optimalflow"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-optimalflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-optimalflow", "latest": {"1.14.0--r43hdfd78af_0": "sha256:13f6c68f353b5425462bacf78a38f66101b1235dc661b58dec51f4c98540a124"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:5c934cf158858a3a375e6bdc1c5ae46e7786283d51ddbee5416484b3e1189d63", "1.10.0--r42hdfd78af_0": "sha256:de174f14e9fbe6b9a9f581dc9c683634b1ce64b353478274c3c7b83e899cb53b", "1.12.0--r43hdfd78af_0": "sha256:5b57ac3940b2ce66b8965f16586c93c0fa9e3a5f252c4c3a54b3ed51d5f7f004", "1.14.0--r43hdfd78af_0": "sha256:13f6c68f353b5425462bacf78a38f66101b1235dc661b58dec51f4c98540a124"}, "docker": "quay.io/biocontainers/bioconductor-optimalflow"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-optimalflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-optimalflow", "latest": {"1.18.0--r44hdfd78af_0": "sha256:c21e6e61e06ae31f3469a76307da574b679827cecb9bd241a85380b5861daecf"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:5c934cf158858a3a375e6bdc1c5ae46e7786283d51ddbee5416484b3e1189d63", "1.10.0--r42hdfd78af_0": "sha256:de174f14e9fbe6b9a9f581dc9c683634b1ce64b353478274c3c7b83e899cb53b", "1.12.0--r43hdfd78af_0": "sha256:5b57ac3940b2ce66b8965f16586c93c0fa9e3a5f252c4c3a54b3ed51d5f7f004", "1.14.0--r43hdfd78af_0": "sha256:13f6c68f353b5425462bacf78a38f66101b1235dc661b58dec51f4c98540a124", "1.18.0--r44hdfd78af_0": "sha256:c21e6e61e06ae31f3469a76307da574b679827cecb9bd241a85380b5861daecf"}, "docker": "quay.io/biocontainers/bioconductor-optimalflow"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-optimalflow.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-optimalflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-optimalflow:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-optimalflow:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-optimalflow/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-optimalflow/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-optimalflow/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-optimalflow/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

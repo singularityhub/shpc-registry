@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/massiveqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/massiveqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/massiveqc/container.yaml"
-updated_at: "2025-01-17 02:46:54.256841"
+updated_at: "2025-01-18 02:44:21.295242"
 latest: "0.1.2--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/massiveqc"
 aliases:

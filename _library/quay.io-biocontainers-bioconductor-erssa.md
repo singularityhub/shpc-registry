@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-erssa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erssa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erssa/container.yaml"
-updated_at: "2025-01-17 03:02:45.908747"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:59:58.668124"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erssa"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-erssa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-erssa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erssa", "latest": {"1.20.0--r43hdfd78af_0": "sha256:1e1d94ff9583acfc7938b56adf0d6444aec5c660dd0b2b00d5f73861a0c48048"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c", "1.16.0--r42hdfd78af_0": "sha256:69e0a9ed8f498fe04b7e42f63dd73329cdae668f25eddb4c7bb7ab019bf4570b", "1.12.0--r41hdfd78af_0": "sha256:08491a6726145828c7a3b2bb91ffed59df4d036dd28e5ca37c8fe45fe1f99774", "1.10.0--r41hdfd78af_0": "sha256:47b451edd788ee9190658f5e005bec67f381011bfad76867c0717d7c625cd4ce", "1.18.0--r43hdfd78af_0": "sha256:02f8d00819d3509fe0469acf1dcb45ac20d00fa76964b15c86c4eb029688cda0", "1.20.0--r43hdfd78af_0": "sha256:1e1d94ff9583acfc7938b56adf0d6444aec5c660dd0b2b00d5f73861a0c48048"}, "docker": "quay.io/biocontainers/bioconductor-erssa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-erssa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erssa", "latest": {"1.24.0--r44hdfd78af_0": "sha256:90bcc9c1f47090c8f7a313220e6b08e9c599adf3b3717e97c23233a7416533f2"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c", "1.16.0--r42hdfd78af_0": "sha256:69e0a9ed8f498fe04b7e42f63dd73329cdae668f25eddb4c7bb7ab019bf4570b", "1.12.0--r41hdfd78af_0": "sha256:08491a6726145828c7a3b2bb91ffed59df4d036dd28e5ca37c8fe45fe1f99774", "1.10.0--r41hdfd78af_0": "sha256:47b451edd788ee9190658f5e005bec67f381011bfad76867c0717d7c625cd4ce", "1.18.0--r43hdfd78af_0": "sha256:02f8d00819d3509fe0469acf1dcb45ac20d00fa76964b15c86c4eb029688cda0", "1.20.0--r43hdfd78af_0": "sha256:1e1d94ff9583acfc7938b56adf0d6444aec5c660dd0b2b00d5f73861a0c48048", "1.24.0--r44hdfd78af_0": "sha256:90bcc9c1f47090c8f7a313220e6b08e9c599adf3b3717e97c23233a7416533f2"}, "docker": "quay.io/biocontainers/bioconductor-erssa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-erssa.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-erssa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-erssa:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-erssa:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-erssa/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-erssa/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-erssa/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-erssa/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

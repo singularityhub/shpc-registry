@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gnosis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gnosis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gnosis/container.yaml"
-updated_at: "2025-01-17 02:57:22.029034"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:54:39.842300"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gnosis"
 aliases:
  - "protoc-24.4.0"
@@ -36,8 +36,9 @@ aliases:
  - "grpc_cpp_plugin"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gnosis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gnosis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gnosis", "latest": {"1.0.0--r43hdfd78af_0": "sha256:8e04542f50bb57d8e0504e36b13fd2cade30c72ad7b8807288731accb0a90438"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:8e04542f50bb57d8e0504e36b13fd2cade30c72ad7b8807288731accb0a90438"}, "docker": "quay.io/biocontainers/bioconductor-gnosis", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gnosis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gnosis", "latest": {"1.4.0--r44hdfd78af_0": "sha256:c009cf6f4a43c400071f75f0e536bc271f08b52e3e13c36594a22800ce68239a"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:8e04542f50bb57d8e0504e36b13fd2cade30c72ad7b8807288731accb0a90438", "1.4.0--r44hdfd78af_0": "sha256:c009cf6f4a43c400071f75f0e536bc271f08b52e3e13c36594a22800ce68239a"}, "docker": "quay.io/biocontainers/bioconductor-gnosis", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gnosis.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gnosis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gnosis:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gnosis:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gnosis/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gnosis/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gnosis/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gnosis/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ncigraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncigraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncigraph/container.yaml"
-updated_at: "2025-01-17 02:52:51.261287"
-latest: "1.50.0--r43hdfd78af_0"
+updated_at: "2025-01-18 02:50:13.536631"
+latest: "1.54.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncigraph"
 aliases:
  - "Cytoscape"
@@ -22,8 +22,9 @@ versions:
  - "1.42.0--r41hdfd78af_0"
  - "1.46.0--r42hdfd78af_0"
  - "1.50.0--r43hdfd78af_0"
+ - "1.54.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ncigraph"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ncigraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncigraph", "latest": {"1.50.0--r43hdfd78af_0": "sha256:6022c3598d02d454e353f622afa45cb71a83f93a1afc4ce472956cfc7e07e5b8"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:d88d8769677d521b1319af45186515bee1140c46853ee8e092935eda8afaba18", "1.46.0--r42hdfd78af_0": "sha256:6f9ab1027aef21eaa19716a414f87568c03852dd30c313ca19cedb24f899b2ec", "1.50.0--r43hdfd78af_0": "sha256:6022c3598d02d454e353f622afa45cb71a83f93a1afc4ce472956cfc7e07e5b8"}, "docker": "quay.io/biocontainers/bioconductor-ncigraph", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ncigraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncigraph", "latest": {"1.54.0--r44hdfd78af_0": "sha256:086f614fd0eb8bca40b10644e6e1f665f732b8668d1fe4f8c3e7b3c64a103415"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:d88d8769677d521b1319af45186515bee1140c46853ee8e092935eda8afaba18", "1.46.0--r42hdfd78af_0": "sha256:6f9ab1027aef21eaa19716a414f87568c03852dd30c313ca19cedb24f899b2ec", "1.50.0--r43hdfd78af_0": "sha256:6022c3598d02d454e353f622afa45cb71a83f93a1afc4ce472956cfc7e07e5b8", "1.54.0--r44hdfd78af_0": "sha256:086f614fd0eb8bca40b10644e6e1f665f732b8668d1fe4f8c3e7b3c64a103415"}, "docker": "quay.io/biocontainers/bioconductor-ncigraph", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ncigraph.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ncigraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ncigraph:1.50.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ncigraph:1.54.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ncigraph/1.50.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ncigraph/1.50.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ncigraph/1.54.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ncigraph/1.54.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

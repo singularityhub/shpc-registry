@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgalaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgalaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgalaxy/container.yaml"
-updated_at: "2025-01-17 03:02:28.858370"
+updated_at: "2025-01-18 02:59:41.847861"
 latest: "1.37.1--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgalaxy"
 
