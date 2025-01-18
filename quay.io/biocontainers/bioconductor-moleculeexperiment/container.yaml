@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-moleculeexperiment
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-moleculeexperiment
 latest:
-  1.2.2--r43hdfd78af_0: sha256:93c84f45c07b87b8e8475981ebc3447aacf4f9ece41047ffc02ded4ad72fa6b6
+  1.6.0--r44hdfd78af_0: sha256:36981018d24387b76b6f28867a8453cc0f880c5da89b9a8c09d4f59017ccc157
 tags:
   1.0.1--r43hdfd78af_0: sha256:9723e84bcc48e0202f749d3a8d7a66a5a21f594fa94814b29a04a20991fb0f34
   1.2.2--r43hdfd78af_0: sha256:93c84f45c07b87b8e8475981ebc3447aacf4f9ece41047ffc02ded4ad72fa6b6
+  1.6.0--r44hdfd78af_0: sha256:36981018d24387b76b6f28867a8453cc0f880c5da89b9a8c09d4f59017ccc157
 docker: quay.io/biocontainers/bioconductor-moleculeexperiment
 aliases:
   sozip: /usr/local/bin/sozip

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-microstasis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-microstasis
 latest:
-  1.2.0--r43hdfd78af_0: sha256:fb708ddf961ceadeff62c4191cb2955c33206b7d0b3b9843111bb2ce55cc568c
+  1.6.0--r44hdfd78af_0: sha256:3a93eaf9267f92d1f78d45c4439bf265ec83936fdca6de1917198430e9292b0b
 tags:
   1.0.0--r43hdfd78af_0: sha256:ff11e728e727525af9a87639e740e532b82395650d09bdef25f4f2e53cb3930e
   1.2.0--r43hdfd78af_0: sha256:fb708ddf961ceadeff62c4191cb2955c33206b7d0b3b9843111bb2ce55cc568c
+  1.6.0--r44hdfd78af_0: sha256:3a93eaf9267f92d1f78d45c4439bf265ec83936fdca6de1917198430e9292b0b
 docker: quay.io/biocontainers/bioconductor-microstasis
 aliases:
   hb-info: /usr/local/bin/hb-info

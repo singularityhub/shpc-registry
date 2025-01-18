@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-iseede
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-iseede
 latest:
-  1.0.0--r43hdfd78af_0: sha256:d6dabf398dadd17a9a231ac7e6d51cb28bcd29d15d8b8d42de3f49cb6566da8b
+  1.4.0--r44hdfd78af_0: sha256:e64cfd3a26588f76a1ebd7c71ed912ff623c96e097f74df98fdf4864054ecc61
 tags:
   1.0.0--r43hdfd78af_0: sha256:d6dabf398dadd17a9a231ac7e6d51cb28bcd29d15d8b8d42de3f49cb6566da8b
+  1.4.0--r44hdfd78af_0: sha256:e64cfd3a26588f76a1ebd7c71ed912ff623c96e097f74df98fdf4864054ecc61
 docker: quay.io/biocontainers/bioconductor-iseede
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

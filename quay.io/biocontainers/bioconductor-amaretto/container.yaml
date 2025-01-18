@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-amaretto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-amaretto
 latest:
-  1.18.0--r43hf17093f_0: sha256:4eb46292b93b839c6e60ea2ad823c8c2a1ffbf6d656490371f2a111ce8ac5525
+  1.22.0--r44he5774e6_0: sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98
 tags:
   1.8.0--r41h399db7b_0: sha256:49355276bdea97b7e66499fe76661ebe36d729e51f05642cbb6f6e54279a198b
   1.13.0--r42hc247a5b_0: sha256:0e98bbc89881b4af5f37d1e63cfe9aa48993d5cbc1e0f3a1b1dd7a01f7398ead
   1.10.0--r41hc247a5b_2: sha256:7001198fe654f446517ba9a7e4caaec0d887b9265dc06c34e73b7a4a7a44906b
   1.16.0--r43hf17093f_0: sha256:47c54667e76381e772c77b941783ef3c9164257d53311d521b1b629582d7d1d0
   1.18.0--r43hf17093f_0: sha256:4eb46292b93b839c6e60ea2ad823c8c2a1ffbf6d656490371f2a111ce8ac5525
+  1.22.0--r44he5774e6_0: sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98
 docker: quay.io/biocontainers/bioconductor-amaretto
 aliases:
   pandoc: /usr/local/bin/pandoc

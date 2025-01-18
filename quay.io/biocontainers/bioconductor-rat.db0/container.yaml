@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rat.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rat.db0
 latest:
-  3.18.0--r43hdfd78af_0: sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23
+  3.20.0--r44hdfd78af_0: sha256:7adf2473f79fd7e76fc76f05c5a5ef22edccef14c89841343aae23de09409e0c
 tags:
   3.8.2--r36_1: sha256:18706af56ca6d7775787d41974153be464433195a888973d23587cfc7bb7e0e3
   3.16.0--r42hdfd78af_0: sha256:8e408fa36e875a6c6202ac5de0d8fa2e1d9796c1f68aaed65b319e12f7a0bc8a
@@ -12,6 +12,7 @@ tags:
   3.11.2--r40_0: sha256:26bdd16523069ed539f3dff1aa58c54366c9bc378f1afc423629aab1475c9540
   3.17.0--r43hdfd78af_0: sha256:ff531241077c50bf2768006d13022942fabf30d658bc1e96f3f262be73aa10aa
   3.18.0--r43hdfd78af_0: sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23
+  3.20.0--r44hdfd78af_0: sha256:7adf2473f79fd7e76fc76f05c5a5ef22edccef14c89841343aae23de09409e0c
 docker: quay.io/biocontainers/bioconductor-rat.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

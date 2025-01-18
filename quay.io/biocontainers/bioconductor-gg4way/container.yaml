@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gg4way
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gg4way
 latest:
-  1.0.0--r43hdfd78af_0: sha256:1e892f16a7a6514127df8654c01db4c8e0335f83c21f669f90b9116902b0c67a
+  1.4.0--r44hdfd78af_0: sha256:d34b2385b4bc5682b5f3d060837925c536cc547340415699d8e6a89777433e87
 tags:
   1.0.0--r43hdfd78af_0: sha256:1e892f16a7a6514127df8654c01db4c8e0335f83c21f669f90b9116902b0c67a
+  1.4.0--r44hdfd78af_0: sha256:d34b2385b4bc5682b5f3d060837925c536cc547340415699d8e6a89777433e87
 docker: quay.io/biocontainers/bioconductor-gg4way
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

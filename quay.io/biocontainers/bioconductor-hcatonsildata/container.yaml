@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hcatonsildata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hcatonsildata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:9ff7411e34ef1c2f07968f6d38738442532a18d7b4c853234884d3df5c7e210d
+  1.4.0--r44hdfd78af_0: sha256:3fd740f9c3c94b55eaa72664a96221b530f329a0eaa80b524d7b01f00908c065
 tags:
   1.0.0--r43hdfd78af_0: sha256:9ff7411e34ef1c2f07968f6d38738442532a18d7b4c853234884d3df5c7e210d
+  1.4.0--r44hdfd78af_0: sha256:3fd740f9c3c94b55eaa72664a96221b530f329a0eaa80b524d7b01f00908c065
 docker: quay.io/biocontainers/bioconductor-hcatonsildata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

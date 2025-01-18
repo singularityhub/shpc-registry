@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mudata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mudata
 latest:
-  1.6.0--r43hdfd78af_0: sha256:de1a5639132795cea0211095d7a26c84c42a313595677df5670e429ed0c721ae
+  1.10.0--r44hdfd78af_0: sha256:a34343b6c2dfa4feb1c3987f2aabfef7a83a0648defe95e3e7f0d9d14d716d23
 tags:
   1.2.0--r42hdfd78af_0: sha256:2fe7a6127da3556b5d6e49f20105b9489ac85ab2b503938174f5ba0f823cb986
   1.4.0--r43hdfd78af_0: sha256:bdccdf4c3a0087c8b4dc6a4734c57d8324a1ed1dbf19a9d3db826227ce693205
   1.6.0--r43hdfd78af_0: sha256:de1a5639132795cea0211095d7a26c84c42a313595677df5670e429ed0c721ae
+  1.10.0--r44hdfd78af_0: sha256:a34343b6c2dfa4feb1c3987f2aabfef7a83a0648defe95e3e7f0d9d14d716d23
 docker: quay.io/biocontainers/bioconductor-mudata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

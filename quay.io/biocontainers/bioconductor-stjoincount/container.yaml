@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-stjoincount
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-stjoincount
 latest:
-  1.4.0--r43hdfd78af_0: sha256:46e004af4178ab5ab82624b616ac691a4051fe1fa571705ff1901f89c724444b
+  1.8.0--r44hdfd78af_0: sha256:f726ed0174452f9dd73e076f71b8320dfb866e73e6ee890a1a458111e31a7ea5
 tags:
   1.0.0--r42hdfd78af_0: sha256:9e7f3a3e72c6f12a44e1b16da44343d1f9d972bab6c8c5602c9df7ea719824ed
   1.2.0--r43hdfd78af_0: sha256:32b34575e1014d13bfaf2b04c9c5d07fca042047a6f3300d8850300ec1210952
   1.4.0--r43hdfd78af_0: sha256:46e004af4178ab5ab82624b616ac691a4051fe1fa571705ff1901f89c724444b
+  1.8.0--r44hdfd78af_0: sha256:f726ed0174452f9dd73e076f71b8320dfb866e73e6ee890a1a458111e31a7ea5
 docker: quay.io/biocontainers/bioconductor-stjoincount
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

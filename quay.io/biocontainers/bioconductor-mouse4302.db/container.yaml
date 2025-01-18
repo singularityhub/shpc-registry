@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-mouse4302.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mouse4302.db
 latest:
-  3.13.0--r43hdfd78af_4: sha256:b2e86b4b01644c5e8b22a5dbf1f096c1b831b27054eb6bfc6a97e9092f228757
+  3.13.0--r44hdfd78af_5: sha256:798474c4b241374af3d4a26e7833d1c126bd213b7febe51a306d30be6e297778
 tags:
   3.2.3--r41hdfd78af_7: sha256:78773372bc84d56d7d01f6faeaa9e522b692d4e09619305d300e6cb40f0a5e07
   3.13.0--r42hdfd78af_2: sha256:a526fc7216bc6f56f6a8560d9bc3b9b81ef8efdf30a352901b8ac6cf19c582a3
   3.13.0--r43hdfd78af_3: sha256:67b1ccd5849681bb79a112ca67c2216f9a730dfaf1547c1282ef3508629a224b
   3.13.0--r43hdfd78af_4: sha256:b2e86b4b01644c5e8b22a5dbf1f096c1b831b27054eb6bfc6a97e9092f228757
+  3.13.0--r44hdfd78af_5: sha256:798474c4b241374af3d4a26e7833d1c126bd213b7febe51a306d30be6e297778
 docker: quay.io/biocontainers/bioconductor-mouse4302.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

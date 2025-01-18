@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/atropos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for atropos
 latest:
-  1.1.32--py39hff71179_2: sha256:95cc1c442be66e981c6400c106782128a9ecfce241ceb29029674f0fdd968f0c
+  1.1.32--py310h1fe012e_3: sha256:68193c99a22c76e6780d1024ac8a4cbd33b05e8838711012623ad5ae1bbc5b77
 tags:
   1.1.31--py39hbf8eff0_2: sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87
   1.1.32--py310h4b81fae_0: sha256:1e9116493e4516c6ee650f2bfceab4f1371124cfeb5b83730d4b6663c27fa90f
   1.1.32--py38he5da3d1_1: sha256:88435a0d9d53c6d21dcdd4129795cc3517a87cc8d74878d677de8ef000ed88b7
   1.1.32--py39hff71179_2: sha256:95cc1c442be66e981c6400c106782128a9ecfce241ceb29029674f0fdd968f0c
+  1.1.32--py310h1fe012e_3: sha256:68193c99a22c76e6780d1024ac8a4cbd33b05e8838711012623ad5ae1bbc5b77
 docker: quay.io/biocontainers/atropos
 aliases:
   atropos: /usr/local/bin/atropos

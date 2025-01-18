@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bindashtree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bindashtree
 latest:
-  0.1.0--h3ab6199_0: sha256:f8e2a48517ae821333fd39d3e535753443a7b3e8d628583295d3b628b7a07908
+  0.1.1--h3ab6199_0: sha256:81c71654ab6879f6c3c968de7bc7486029a23dea0e57fbe38ab047f7ddecec70
 tags:
   0.1.0--h3ab6199_0: sha256:f8e2a48517ae821333fd39d3e535753443a7b3e8d628583295d3b628b7a07908
+  0.1.1--h3ab6199_0: sha256:81c71654ab6879f6c3c968de7bc7486029a23dea0e57fbe38ab047f7ddecec70
 docker: quay.io/biocontainers/bindashtree
 aliases:
   bindashtree: /usr/local/bin/bindashtree

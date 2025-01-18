@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-clustirr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-clustirr
 latest:
-  1.0.0--r43hdfd78af_0: sha256:0731b5bdb457e465bce8b64838c9eedeabf3dc640d314a13c94d97d7b4fbfca5
+  1.4.0--r44he5774e6_0: sha256:901cecd2c18e709090c998f3047ef0bd8f1cf0a3f83779af6d6e694b1b1394cc
 tags:
   1.0.0--r43hdfd78af_0: sha256:0731b5bdb457e465bce8b64838c9eedeabf3dc640d314a13c94d97d7b4fbfca5
+  1.4.0--r44he5774e6_0: sha256:901cecd2c18e709090c998f3047ef0bd8f1cf0a3f83779af6d6e694b1b1394cc
 docker: quay.io/biocontainers/bioconductor-clustirr
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

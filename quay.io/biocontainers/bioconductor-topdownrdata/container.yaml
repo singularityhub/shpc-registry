@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-topdownrdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-topdownrdata
 latest:
-  1.24.0--r43hdfd78af_0: sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a
+  1.28.0--r44hdfd78af_0: sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954
 tags:
   1.8.0--r36_0: sha256:833620ee1ae58e5b0d5a9ea5a76b111cf60d815987d7258cc8b0011d583751f3
   1.20.0--r42hdfd78af_0: sha256:29009bc6201897607a22217344c4cbd4c2441daf380538936a43d381e13b063c
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:38abfed45774cd4b04cc0a503dc4198d696dc5cd6d89f6cc885cadeef1f40272
   1.22.0--r43hdfd78af_0: sha256:aa62359918f668dc422c4f5e8ae5c639e516842d56d2c3e2b0eb82d625a344bf
   1.24.0--r43hdfd78af_0: sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a
+  1.28.0--r44hdfd78af_0: sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954
 docker: quay.io/biocontainers/bioconductor-topdownrdata
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf
