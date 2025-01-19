@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-u133x3pcdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-u133x3pcdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:a5ad36e392ed555aba4ef8ad8321e32a5b5cac2870195fd8c4974406caa04898
+  2.18.0--r44hdfd78af_13: sha256:f0d5bbc8ca60d2c3ccc890cf02f6a18ea43b4e6d46b7270c0fba754092bf9807
 tags:
   2.18.0--r41hdfd78af_9: sha256:34890681a29879b6115b6152f3c659fb59c5ec7ea8bfd119d2f1a2b7e92b3b71
   2.18.0--r42hdfd78af_10: sha256:5cc1639db2c3a61fa53188d1e1a92e1b0a20c602ce5e3b763c0ab877e221b617
   2.18.0--r43hdfd78af_11: sha256:eef9bfee77d7d17da3ca20ff3bf2c2337e6a79e2a3c6128bd21ace74f5984a2b
   2.18.0--r43hdfd78af_12: sha256:a5ad36e392ed555aba4ef8ad8321e32a5b5cac2870195fd8c4974406caa04898
+  2.18.0--r44hdfd78af_13: sha256:f0d5bbc8ca60d2c3ccc890cf02f6a18ea43b4e6d46b7270c0fba754092bf9807
 docker: quay.io/biocontainers/bioconductor-u133x3pcdf

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cytopipelinegui
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cytopipelinegui
 latest:
-  1.0.0--r43hdfd78af_0: sha256:2d11b8e6d1423c3bf8bb141b8ad996efed2785b80cc9dac3b9b81a22969f7e53
+  1.4.0--r44hdfd78af_0: sha256:0bc733cec8b601923224e001975401942ae2b2d69f3e864ae2b0f1eeb599c1d1
 tags:
   1.0.0--r43hdfd78af_0: sha256:2d11b8e6d1423c3bf8bb141b8ad996efed2785b80cc9dac3b9b81a22969f7e53
+  1.4.0--r44hdfd78af_0: sha256:0bc733cec8b601923224e001975401942ae2b2d69f3e864ae2b0f1eeb599c1d1
 docker: quay.io/biocontainers/bioconductor-cytopipelinegui
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gdnainrnaseqdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gdnainrnaseqdata
 latest:
-  1.2.0--r43hdfd78af_0: sha256:baf35b2be846a0f55df0ec34949ae3e8de21d7d32f58ecc643cc8f9bf0fe3540
+  1.6.0--r44hdfd78af_0: sha256:5cce795ad1736df90552c4805d5b63841356ab5d37fe683f80629805c0fcd860
 tags:
   1.0.0--r43hdfd78af_0: sha256:236ea95c74c756b37d8814da93b84655811ce861dbbf446e3ae0d664995f8811
   1.2.0--r43hdfd78af_0: sha256:baf35b2be846a0f55df0ec34949ae3e8de21d7d32f58ecc643cc8f9bf0fe3540
+  1.6.0--r44hdfd78af_0: sha256:5cce795ad1736df90552c4805d5b63841356ab5d37fe683f80629805c0fcd860
 docker: quay.io/biocontainers/bioconductor-gdnainrnaseqdata
 aliases:
   hb-info: /usr/local/bin/hb-info

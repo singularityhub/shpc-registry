@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/strobealign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strobealign
 latest:
-  0.15.0--h5ca1c30_0: sha256:35db78ce6bd3cabb4f7a1d29fb28933584550ef308fd1bee47a0b91e3b6c8a9f
+  0.15.0--h5ca1c30_1: sha256:0b5e48aae7cb7a69b563f38d178b9b9ea2e23d3c88b469c5cd3eed288af2bfd0
 tags:
   0.8.0--h5b5514e_0: sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5
   0.9.0--h5b5514e_0: sha256:d7dc12a30ef323095218d88839e8a1ea88b1e96b13fc62acc620457eb76aa3ff
@@ -15,6 +15,7 @@ tags:
   0.14.0--h43eeafb_0: sha256:25a1b7312078fbd0d420078f179e36c68d043a23cba59c1b93f6d40e9f2cdf8d
   0.15.0--h5ca1c30_0: sha256:35db78ce6bd3cabb4f7a1d29fb28933584550ef308fd1bee47a0b91e3b6c8a9f
   0.14.0--h5ca1c30_1: sha256:3324957e5f8a212f8148e2dfb3d18e1ebc9cca5b07e15ae6c5752b37ca9fc2a9
+  0.15.0--h5ca1c30_1: sha256:0b5e48aae7cb7a69b563f38d178b9b9ea2e23d3c88b469c5cd3eed288af2bfd0
 docker: quay.io/biocontainers/strobealign
 aliases:
   strobealign: /usr/local/bin/strobealign

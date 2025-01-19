@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-oncomix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-oncomix
 latest:
-  1.24.0--r43hdfd78af_0: sha256:be5f5433e2da1e402e131275a5717c367f3f1f9d97cb3db1cc68fcab2edfb78c
+  1.28.0--r44hdfd78af_0: sha256:8b53be003656728edf5e7cc250690dcb228196368ab4dfc81b0b54e60bf7b3a2
 tags:
   1.8.0--r36_0: sha256:f1ff4203c3d738ff815093f8bbec45a978cfcd3560266981f45522599de512a7
   1.20.0--r42hdfd78af_0: sha256:826134bf2f77dde72444d2572290a2669724cd92b9715f19e558ea4c66a856f6
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:04bf08cf5dfa0b9dbec82b84fc0ac90e97c4643e12479e09b3c9c3b3d03c1edd
   1.22.0--r43hdfd78af_0: sha256:1323c97a829c5301a19e1e45031a492035b57dd5a8c22a15d44288ae60d4697b
   1.24.0--r43hdfd78af_0: sha256:be5f5433e2da1e402e131275a5717c367f3f1f9d97cb3db1cc68fcab2edfb78c
+  1.28.0--r44hdfd78af_0: sha256:8b53be003656728edf5e7cc250690dcb228196368ab4dfc81b0b54e60bf7b3a2
 docker: quay.io/biocontainers/bioconductor-oncomix
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-airway
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-airway
 latest:
-  1.22.0--r43hdfd78af_0: sha256:66b4de471e39ea71b27a968c7f4701076dd8abc0de53cf2905e4a13a748c1611
+  1.26.0--r44hdfd78af_0: sha256:2be8cde88d22fb5d36708234f56f45782b94fa28dbc1642d9d283ac91bc0fbe5
 tags:
   1.8.0--r40_0: sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4
   1.18.0--r42hdfd78af_0: sha256:e9e87f9f0915b5c97e57f23df7f12784abd6ca4d086c0e08f9bb66d07d9ca6db
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:b6beb68572e7f9ca9528269d319fecd18200b43ee48ff272b46126deb5974977
   1.20.0--r43hdfd78af_0: sha256:a2a7d59b80ecfcea7e3781962932f2755487f8bef7fda81eee3e440a0c770781
   1.22.0--r43hdfd78af_0: sha256:66b4de471e39ea71b27a968c7f4701076dd8abc0de53cf2905e4a13a748c1611
+  1.26.0--r44hdfd78af_0: sha256:2be8cde88d22fb5d36708234f56f45782b94fa28dbc1642d9d283ac91bc0fbe5
 docker: quay.io/biocontainers/bioconductor-airway
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rjmcmcnucleosomes
 latest:
-  1.26.0--r43h7c4fd5e_0: sha256:e98d32966dc5af203997fa7085af62e8e19687418d1c571bbb2d85bef8cf6822
+  1.30.0--r44he5774e6_0: sha256:2b2a0b5261555a64a344f05335a5c1996ff5d0f36e95f76e367d54ee9d88487f
 tags:
   1.8.0--r36he1b5a44_1: sha256:a4a723f049a54977c2b23c2a62568de41b6ea038aa78764881c26363f7da0817
   1.22.0--r42hc247a5b_0: sha256:49fc71f8d55a6910e6771f40a39186ae7632e1a8351d9121cc00754c301670cc
@@ -13,6 +13,7 @@ tags:
   1.22.0--r42hf17093f_1: sha256:3afabd036eae16d2b0652b038c08220460d7d953ca4e16ea29b7db46a25cf1e6
   1.24.0--r43hf17093f_0: sha256:56eddd9be78c1c59ffe46dc57a7b8a17afebb0893724702ace46562606db16ba
   1.26.0--r43h7c4fd5e_0: sha256:e98d32966dc5af203997fa7085af62e8e19687418d1c571bbb2d85bef8cf6822
+  1.30.0--r44he5774e6_0: sha256:2b2a0b5261555a64a344f05335a5c1996ff5d0f36e95f76e367d54ee9d88487f
 docker: quay.io/biocontainers/bioconductor-rjmcmcnucleosomes
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-omicplotr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omicplotr
 latest:
-  1.22.0--r43hdfd78af_0: sha256:5b3aa1682a6d1cc5d5da85ce1550b782aeb903238f565cee3f79c3318adbd2f6
+  1.26.0--r44hdfd78af_0: sha256:8db7afb65927cffebb4364e8aff7f80a2d27aa77396a25277795b75d3cda2f0e
 tags:
   1.8.0--r40_0: sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c
   1.18.0--r42hdfd78af_0: sha256:4001ee6dea88f3dcd026b5ed6713b858ccb32e0adda274854965d6d040bc0458
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:c23b008d544f9ae373214f313fa455d68ab2afc1d9267b47e8e93f02f6425429
   1.20.0--r43hdfd78af_0: sha256:0619e42458db2f3202409fe11938971d021f54d98cae6d2f451cdf5713bd12c7
   1.22.0--r43hdfd78af_0: sha256:5b3aa1682a6d1cc5d5da85ce1550b782aeb903238f565cee3f79c3318adbd2f6
+  1.26.0--r44hdfd78af_0: sha256:8db7afb65927cffebb4364e8aff7f80a2d27aa77396a25277795b75d3cda2f0e
 docker: quay.io/biocontainers/bioconductor-omicplotr
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

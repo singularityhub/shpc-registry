@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-zenith
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-zenith
 latest:
-  1.4.2--r43hdfd78af_0: sha256:571ae0879469bb275ca9f4236a8bcaa166ef4d00d1e75d63dc3a2a8106b2bd77
+  1.8.0--r44hdfd78af_0: sha256:5a80f2834fee1de12656342e8863879f20d403fef988c507f65a2499e8657371
 tags:
   1.0.0--r42hdfd78af_0: sha256:0fe9923f51652c73b0f5316ae15de106e7ba24b0b84b2039cfdd84fa8dc9de99
   1.2.0--r43hdfd78af_0: sha256:59e6ca7f7cba721980f6b854e8bfd00e7bf62514a5eeb83fe3c9ef0e160fc5d5
   1.4.2--r43hdfd78af_0: sha256:571ae0879469bb275ca9f4236a8bcaa166ef4d00d1e75d63dc3a2a8106b2bd77
+  1.8.0--r44hdfd78af_0: sha256:5a80f2834fee1de12656342e8863879f20d403fef988c507f65a2499e8657371
 docker: quay.io/biocontainers/bioconductor-zenith
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

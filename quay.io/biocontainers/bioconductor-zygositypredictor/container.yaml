@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-zygositypredictor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-zygositypredictor
 latest:
-  1.2.0--r43hdfd78af_0: sha256:008614430dd0bfb9b0e463cce93f8451b1e899ecc44f74116e5931d983f06762
+  1.6.0--r44hdfd78af_0: sha256:8f3a21ece2b2edd2a6d54cb032ed75a5594368eb32db61de83f2d0ebfd1c1f79
 tags:
   1.0.3--r43hdfd78af_0: sha256:a32752f818f95a7ac80c2a73c1d7e3dbf88bf1c274b428227fca3af2a12d60cd
   1.2.0--r43hdfd78af_0: sha256:008614430dd0bfb9b0e463cce93f8451b1e899ecc44f74116e5931d983f06762
+  1.6.0--r44hdfd78af_0: sha256:8f3a21ece2b2edd2a6d54cb032ed75a5594368eb32db61de83f2d0ebfd1c1f79
 docker: quay.io/biocontainers/bioconductor-zygositypredictor
 aliases:
   hb-info: /usr/local/bin/hb-info

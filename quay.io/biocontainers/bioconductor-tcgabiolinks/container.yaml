@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tcgabiolinks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tcgabiolinks
 latest:
-  2.30.0--r43hdfd78af_0: sha256:7e8f6dd9eb9bccf32c82303f7bc551d68b1387f29d8d09333ddf9a8524011a56
+  2.34.0--r44hdfd78af_0: sha256:ff9ece5b47684669534da869a9030f9a192b96f882a19fc1e63bfbbaa37dc19c
 tags:
   2.8.4--r351_0: sha256:35386c1ce6adbda60a899048cf57440758f8a5e4d08919b7648cd71aa045ae82
   2.25.3--r42hdfd78af_0: sha256:66acd002968eb5d8e9d31d54333a0d64385c2faa1d74197a593b6ed9529bbaf6
@@ -12,6 +12,7 @@ tags:
   2.16.0--r40_0: sha256:dba52bff875da6dd69cf077be2efeb9e7428adb34fc09e3ed5d74e2742bf4099
   2.28.3--r43hdfd78af_0: sha256:2b0b967c6478bcdb29796658624a55b3ae4c16f3874c0ea3d0f9bfecfc5a22c8
   2.30.0--r43hdfd78af_0: sha256:7e8f6dd9eb9bccf32c82303f7bc551d68b1387f29d8d09333ddf9a8524011a56
+  2.34.0--r44hdfd78af_0: sha256:ff9ece5b47684669534da869a9030f9a192b96f882a19fc1e63bfbbaa37dc19c
 docker: quay.io/biocontainers/bioconductor-tcgabiolinks
 aliases:
   wget: /usr/local/bin/wget

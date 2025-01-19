@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-huexexonprobesetlocation
 latest:
-  1.15.0--r43hdfd78af_12: sha256:fadec38b1c15f9e882b308b75ca560f0a4264ff6fe7cee30390aa73a340139ed
+  1.15.0--r44hdfd78af_13: sha256:dbe87f9fbefd5cf093cfcafbaf0fb9611f7a25c1ea555a834062bcb06c754457
 tags:
   1.15.0--r41hdfd78af_9: sha256:6cca1c46908581d1a4d4d68b83bcd5b0be1ae2045cea9529163fd45c5946e2f3
   1.15.0--r42hdfd78af_10: sha256:a6473c973419147351e76179d482c363318f3c04aa2fca0c445f3a7abdb806ed
   1.15.0--r43hdfd78af_11: sha256:5b218e6346e288be8e77f5222f8a90524c9e4f1d743e2e9038b22d87dc86daff
   1.15.0--r43hdfd78af_12: sha256:fadec38b1c15f9e882b308b75ca560f0a4264ff6fe7cee30390aa73a340139ed
+  1.15.0--r44hdfd78af_13: sha256:dbe87f9fbefd5cf093cfcafbaf0fb9611f7a25c1ea555a834062bcb06c754457
 docker: quay.io/biocontainers/bioconductor-huexexonprobesetlocation
