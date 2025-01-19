@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-radiogx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-radiogx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-radiogx/container.yaml"
-updated_at: "2025-01-18 03:10:14.984898"
-latest: "2.6.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:21:22.672321"
+latest: "2.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-radiogx"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.2.0--r42hdfd78af_0"
  - "2.4.0--r43hdfd78af_0"
  - "2.6.0--r43hdfd78af_0"
+ - "2.10.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-radiogx"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-radiogx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-radiogx", "latest": {"2.6.0--r43hdfd78af_0": "sha256:dbc8ef57c8204ac2c6f44ad41e3eab034458001593b1d1b5be61b48f9b453a3a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:acaeceeb1d430de49232c80700f89832dff4f94b9b1545bdd91c532878f9f0d7", "2.2.0--r42hdfd78af_0": "sha256:e78c8b1d3f66ceb7015977f899ad34b7e7534a93da1913d2d5faae84708ec2f0", "2.4.0--r43hdfd78af_0": "sha256:215f98a3ca5cd0094e1314c9d2433664c42c1bbab59745410eebad199301d25e", "2.6.0--r43hdfd78af_0": "sha256:dbc8ef57c8204ac2c6f44ad41e3eab034458001593b1d1b5be61b48f9b453a3a"}, "docker": "quay.io/biocontainers/bioconductor-radiogx"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-radiogx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-radiogx", "latest": {"2.10.0--r44hdfd78af_0": "sha256:fbd3d48f8357118e7cc6dd5bef18e2a5b90cfd9983ae2bf786dea1822e2a6409"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:acaeceeb1d430de49232c80700f89832dff4f94b9b1545bdd91c532878f9f0d7", "2.2.0--r42hdfd78af_0": "sha256:e78c8b1d3f66ceb7015977f899ad34b7e7534a93da1913d2d5faae84708ec2f0", "2.4.0--r43hdfd78af_0": "sha256:215f98a3ca5cd0094e1314c9d2433664c42c1bbab59745410eebad199301d25e", "2.6.0--r43hdfd78af_0": "sha256:dbc8ef57c8204ac2c6f44ad41e3eab034458001593b1d1b5be61b48f9b453a3a", "2.10.0--r44hdfd78af_0": "sha256:fbd3d48f8357118e7cc6dd5bef18e2a5b90cfd9983ae2bf786dea1822e2a6409"}, "docker": "quay.io/biocontainers/bioconductor-radiogx"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-radiogx.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-radiogx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-radiogx:2.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-radiogx:2.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-radiogx/2.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-radiogx/2.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-radiogx/2.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-radiogx/2.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

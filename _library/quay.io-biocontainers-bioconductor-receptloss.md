@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-receptloss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
-updated_at: "2025-01-18 03:11:52.813888"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:23:00.813853"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-receptloss"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-receptloss"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.14.0--r43hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-receptloss:1.14.0--r43hdfd78af_0: unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c", "1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2", "1.14.0--r43hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-receptloss:1.14.0--r43hdfd78af_0: unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.18.0--r44hdfd78af_0": "sha256:34d09906796b209a017beb36857d034a3b72c7ba1deffb89459b3cdebcf2672d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c", "1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2", "1.14.0--r43hdfd78af_0": "sha256:95b67300a5a1c5f61cfedb6481380fb6313b15cecc730ea45ff1e3b098399f1e", "1.18.0--r44hdfd78af_0": "sha256:34d09906796b209a017beb36857d034a3b72c7ba1deffb89459b3cdebcf2672d"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-receptloss.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-receptloss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-receptloss:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-receptloss:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-receptloss/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-receptloss/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-receptloss/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-receptloss/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-moleculeexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moleculeexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moleculeexperiment/container.yaml"
-updated_at: "2025-01-18 02:44:09.579278"
-latest: "1.2.2--r43hdfd78af_0"
+updated_at: "2025-01-19 02:54:38.956361"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moleculeexperiment"
 aliases:
  - "sozip"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.1--r43hdfd78af_0"
  - "1.2.2--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-moleculeexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moleculeexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-moleculeexperiment", "latest": {"1.2.2--r43hdfd78af_0": "sha256:93c84f45c07b87b8e8475981ebc3447aacf4f9ece41047ffc02ded4ad72fa6b6"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:9723e84bcc48e0202f749d3a8d7a66a5a21f594fa94814b29a04a20991fb0f34", "1.2.2--r43hdfd78af_0": "sha256:93c84f45c07b87b8e8475981ebc3447aacf4f9ece41047ffc02ded4ad72fa6b6"}, "docker": "quay.io/biocontainers/bioconductor-moleculeexperiment", "aliases": {"sozip": "/usr/local/bin/sozip", "h5delete": "/usr/local/bin/h5delete", "pg_amcheck": "/usr/local/bin/pg_amcheck", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfsig": "/usr/local/bin/pdfsig", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moleculeexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-moleculeexperiment", "latest": {"1.6.0--r44hdfd78af_0": "sha256:36981018d24387b76b6f28867a8453cc0f880c5da89b9a8c09d4f59017ccc157"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:9723e84bcc48e0202f749d3a8d7a66a5a21f594fa94814b29a04a20991fb0f34", "1.2.2--r43hdfd78af_0": "sha256:93c84f45c07b87b8e8475981ebc3447aacf4f9ece41047ffc02ded4ad72fa6b6", "1.6.0--r44hdfd78af_0": "sha256:36981018d24387b76b6f28867a8453cc0f880c5da89b9a8c09d4f59017ccc157"}, "docker": "quay.io/biocontainers/bioconductor-moleculeexperiment", "aliases": {"sozip": "/usr/local/bin/sozip", "h5delete": "/usr/local/bin/h5delete", "pg_amcheck": "/usr/local/bin/pg_amcheck", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfsig": "/usr/local/bin/pdfsig", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moleculeexperiment.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moleculeexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moleculeexperiment:1.2.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-moleculeexperiment:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moleculeexperiment/1.2.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-moleculeexperiment/1.2.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-moleculeexperiment/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-moleculeexperiment/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmft/container.yaml"
-updated_at: "2025-01-18 03:19:01.460501"
+updated_at: "2025-01-19 03:30:11.649187"
 latest: "0.2.1--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/mmft"
 aliases:

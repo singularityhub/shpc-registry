@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cetf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cetf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cetf/container.yaml"
-updated_at: "2025-01-18 03:26:38.570630"
-latest: "1.14.0--r43hf17093f_0"
+updated_at: "2025-01-19 03:37:51.358805"
+latest: "1.18.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cetf"
 aliases:
  - "Cytoscape"
@@ -23,8 +23,9 @@ versions:
  - "1.9.0--r42hc247a5b_0"
  - "1.12.0--r43hf17093f_0"
  - "1.14.0--r43hf17093f_0"
+ - "1.18.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cetf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cetf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cetf", "latest": {"1.14.0--r43hf17093f_0": "sha256:e45482863cd703b3801b211069d7ed137f9cb73defc96a5a87b19725604c1681"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31", "1.9.0--r42hc247a5b_0": "sha256:fd6fb7714ef8e375da5a9d95ed07c882448f558d8ef4582805147db024fe610b", "1.12.0--r43hf17093f_0": "sha256:4a650e3c5fb27f24b775b2c3c075cd5fb02ff093e7dbfa24cacc9cfa112b5324", "1.14.0--r43hf17093f_0": "sha256:e45482863cd703b3801b211069d7ed137f9cb73defc96a5a87b19725604c1681"}, "docker": "quay.io/biocontainers/bioconductor-cetf", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cetf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cetf", "latest": {"1.18.0--r44he5774e6_0": "sha256:923531911ceda59d743766a9d04e6d7797576215fc02cc9d19677d106e276bea"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31", "1.9.0--r42hc247a5b_0": "sha256:fd6fb7714ef8e375da5a9d95ed07c882448f558d8ef4582805147db024fe610b", "1.12.0--r43hf17093f_0": "sha256:4a650e3c5fb27f24b775b2c3c075cd5fb02ff093e7dbfa24cacc9cfa112b5324", "1.14.0--r43hf17093f_0": "sha256:e45482863cd703b3801b211069d7ed137f9cb73defc96a5a87b19725604c1681", "1.18.0--r44he5774e6_0": "sha256:923531911ceda59d743766a9d04e6d7797576215fc02cc9d19677d106e276bea"}, "docker": "quay.io/biocontainers/bioconductor-cetf", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cetf.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cetf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cetf:1.14.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-cetf:1.18.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cetf/1.14.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-cetf/1.14.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-cetf/1.18.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-cetf/1.18.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

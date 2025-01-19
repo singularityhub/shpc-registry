@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-specio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-specio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-specio/container.yaml"
-updated_at: "2025-01-18 02:58:04.346959"
-latest: "0.48--pl5321hdfd78af_0"
+updated_at: "2025-01-19 03:09:06.626431"
+latest: "0.49--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-specio"
 
 versions:
  - "0.48--pl5321hdfd78af_0"
+ - "0.49--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-specio"
-config: {"url": "https://biocontainers.pro/tools/perl-specio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio", "latest": {"0.48--pl5321hdfd78af_0": "sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839"}, "tags": {"0.48--pl5321hdfd78af_0": "sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839"}, "docker": "quay.io/biocontainers/perl-specio"}
+config: {"url": "https://biocontainers.pro/tools/perl-specio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio", "latest": {"0.49--pl5321hdfd78af_0": "sha256:39ead8cbc457b1f7351b4a7d7ae799fe55b795de140af1ca05f2e103411212de"}, "tags": {"0.48--pl5321hdfd78af_0": "sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839", "0.49--pl5321hdfd78af_0": "sha256:39ead8cbc457b1f7351b4a7d7ae799fe55b795de140af1ca05f2e103411212de"}, "docker": "quay.io/biocontainers/perl-specio"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-specio.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-specio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-specio:0.48--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-specio:0.49--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-specio/0.48--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-specio/0.48--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-specio/0.49--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-specio/0.49--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

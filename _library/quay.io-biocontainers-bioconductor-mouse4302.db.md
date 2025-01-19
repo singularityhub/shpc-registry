@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mouse4302.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse4302.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse4302.db/container.yaml"
-updated_at: "2025-01-18 02:44:09.299443"
-latest: "3.13.0--r43hdfd78af_4"
+updated_at: "2025-01-19 02:54:38.665204"
+latest: "3.13.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse4302.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "3.13.0--r42hdfd78af_2"
  - "3.13.0--r43hdfd78af_3"
  - "3.13.0--r43hdfd78af_4"
+ - "3.13.0--r44hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for bioconductor-mouse4302.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse4302.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse4302.db", "latest": {"3.13.0--r43hdfd78af_4": "sha256:b2e86b4b01644c5e8b22a5dbf1f096c1b831b27054eb6bfc6a97e9092f228757"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:78773372bc84d56d7d01f6faeaa9e522b692d4e09619305d300e6cb40f0a5e07", "3.13.0--r42hdfd78af_2": "sha256:a526fc7216bc6f56f6a8560d9bc3b9b81ef8efdf30a352901b8ac6cf19c582a3", "3.13.0--r43hdfd78af_3": "sha256:67b1ccd5849681bb79a112ca67c2216f9a730dfaf1547c1282ef3508629a224b", "3.13.0--r43hdfd78af_4": "sha256:b2e86b4b01644c5e8b22a5dbf1f096c1b831b27054eb6bfc6a97e9092f228757"}, "docker": "quay.io/biocontainers/bioconductor-mouse4302.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse4302.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse4302.db", "latest": {"3.13.0--r44hdfd78af_5": "sha256:798474c4b241374af3d4a26e7833d1c126bd213b7febe51a306d30be6e297778"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:78773372bc84d56d7d01f6faeaa9e522b692d4e09619305d300e6cb40f0a5e07", "3.13.0--r42hdfd78af_2": "sha256:a526fc7216bc6f56f6a8560d9bc3b9b81ef8efdf30a352901b8ac6cf19c582a3", "3.13.0--r43hdfd78af_3": "sha256:67b1ccd5849681bb79a112ca67c2216f9a730dfaf1547c1282ef3508629a224b", "3.13.0--r43hdfd78af_4": "sha256:b2e86b4b01644c5e8b22a5dbf1f096c1b831b27054eb6bfc6a97e9092f228757", "3.13.0--r44hdfd78af_5": "sha256:798474c4b241374af3d4a26e7833d1c126bd213b7febe51a306d30be6e297778"}, "docker": "quay.io/biocontainers/bioconductor-mouse4302.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mouse4302.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mouse4302.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mouse4302.db:3.13.0--r43hdfd78af_4
+$ shpc install quay.io/biocontainers/bioconductor-mouse4302.db:3.13.0--r44hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mouse4302.db/3.13.0--r43hdfd78af_4
-$ module help quay.io/biocontainers/bioconductor-mouse4302.db/3.13.0--r43hdfd78af_4
+$ module load quay.io/biocontainers/bioconductor-mouse4302.db/3.13.0--r44hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-mouse4302.db/3.13.0--r44hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

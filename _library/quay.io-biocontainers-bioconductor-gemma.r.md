@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gemma.r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gemma.r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gemma.r/container.yaml"
-updated_at: "2025-01-18 03:15:58.781476"
-latest: "2.0.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:27:07.935431"
+latest: "3.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gemma.r"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "2.0.0--r43hdfd78af_0"
+ - "3.2.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gemma.r"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gemma.r", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gemma.r", "latest": {"2.0.0--r43hdfd78af_0": "sha256:5a04748603c8b65cd86772380d0e1591f1eb3a54d50f0cc7205a14af726ad55b"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:cd0fce0e6b5aac424036c872a02ebb366c23403546520e41cf5ec5c978ebd379", "1.2.0--r43hdfd78af_0": "sha256:7ccb03e6d6c22a961ff5c0f272a137ba1aeb111f97b67a12d068d6cca18d43bf", "2.0.0--r43hdfd78af_0": "sha256:5a04748603c8b65cd86772380d0e1591f1eb3a54d50f0cc7205a14af726ad55b"}, "docker": "quay.io/biocontainers/bioconductor-gemma.r", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gemma.r", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gemma.r", "latest": {"3.2.0--r44hdfd78af_0": "sha256:286d6651c40e0a0f22a97f3b493e759fdbb6781a66bdc2081ac916129dd6ccc4"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:cd0fce0e6b5aac424036c872a02ebb366c23403546520e41cf5ec5c978ebd379", "1.2.0--r43hdfd78af_0": "sha256:7ccb03e6d6c22a961ff5c0f272a137ba1aeb111f97b67a12d068d6cca18d43bf", "2.0.0--r43hdfd78af_0": "sha256:5a04748603c8b65cd86772380d0e1591f1eb3a54d50f0cc7205a14af726ad55b", "3.2.0--r44hdfd78af_0": "sha256:286d6651c40e0a0f22a97f3b493e759fdbb6781a66bdc2081ac916129dd6ccc4"}, "docker": "quay.io/biocontainers/bioconductor-gemma.r", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gemma.r.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gemma.r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gemma.r:2.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gemma.r:3.2.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gemma.r/2.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gemma.r/2.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gemma.r/3.2.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gemma.r/3.2.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

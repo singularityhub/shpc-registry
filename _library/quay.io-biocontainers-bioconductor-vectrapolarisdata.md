@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vectrapolarisdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vectrapolarisdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vectrapolarisdata/container.yaml"
-updated_at: "2025-01-18 02:50:32.025549"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:01:19.775150"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vectrapolarisdata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -37,8 +37,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-vectrapolarisdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vectrapolarisdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vectrapolarisdata", "latest": {"1.6.0--r43hdfd78af_0": "sha256:1e2212db0b8b4ef0a2c414dcd0d9c33bff630c8b8d6fa94f16022d2c64cb63be"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:8f7b021642ad79b643c5c57fdca59ae5e8811870deed4b7ec650efd548faa539", "1.4.0--r43hdfd78af_0": "sha256:3c3f4830e2006bcf9ecabbd353dca375f2b98eab1f39c1f6438916d7d60eb67c", "1.6.0--r43hdfd78af_0": "sha256:1e2212db0b8b4ef0a2c414dcd0d9c33bff630c8b8d6fa94f16022d2c64cb63be"}, "docker": "quay.io/biocontainers/bioconductor-vectrapolarisdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vectrapolarisdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vectrapolarisdata", "latest": {"1.10.0--r44hdfd78af_0": "sha256:9bb51c3b734dc720e5098c90ff6c852ac4d6a14c74aa55c56fc6e329b4052bd2"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:8f7b021642ad79b643c5c57fdca59ae5e8811870deed4b7ec650efd548faa539", "1.4.0--r43hdfd78af_0": "sha256:3c3f4830e2006bcf9ecabbd353dca375f2b98eab1f39c1f6438916d7d60eb67c", "1.6.0--r43hdfd78af_0": "sha256:1e2212db0b8b4ef0a2c414dcd0d9c33bff630c8b8d6fa94f16022d2c64cb63be", "1.10.0--r44hdfd78af_0": "sha256:9bb51c3b734dc720e5098c90ff6c852ac4d6a14c74aa55c56fc6e329b4052bd2"}, "docker": "quay.io/biocontainers/bioconductor-vectrapolarisdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vectrapolarisdata.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vectrapolarisdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vectrapolarisdata:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-vectrapolarisdata:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vectrapolarisdata/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-vectrapolarisdata/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-vectrapolarisdata/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vectrapolarisdata/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

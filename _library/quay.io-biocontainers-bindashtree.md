@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bindashtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bindashtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bindashtree/container.yaml"
-updated_at: "2025-01-18 02:45:43.691765"
-latest: "0.1.0--h3ab6199_0"
+updated_at: "2025-01-19 02:56:15.592537"
+latest: "0.1.1--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/bindashtree"
 aliases:
  - "bindashtree"
 versions:
  - "0.1.0--h3ab6199_0"
+ - "0.1.1--h3ab6199_0"
 description: "singularity registry hpc automated addition for bindashtree"
-config: {"url": "https://biocontainers.pro/tools/bindashtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bindashtree", "latest": {"0.1.0--h3ab6199_0": "sha256:f8e2a48517ae821333fd39d3e535753443a7b3e8d628583295d3b628b7a07908"}, "tags": {"0.1.0--h3ab6199_0": "sha256:f8e2a48517ae821333fd39d3e535753443a7b3e8d628583295d3b628b7a07908"}, "docker": "quay.io/biocontainers/bindashtree", "aliases": {"bindashtree": "/usr/local/bin/bindashtree"}}
+config: {"url": "https://biocontainers.pro/tools/bindashtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bindashtree", "latest": {"0.1.1--h3ab6199_0": "sha256:81c71654ab6879f6c3c968de7bc7486029a23dea0e57fbe38ab047f7ddecec70"}, "tags": {"0.1.0--h3ab6199_0": "sha256:f8e2a48517ae821333fd39d3e535753443a7b3e8d628583295d3b628b7a07908", "0.1.1--h3ab6199_0": "sha256:81c71654ab6879f6c3c968de7bc7486029a23dea0e57fbe38ab047f7ddecec70"}, "docker": "quay.io/biocontainers/bindashtree", "aliases": {"bindashtree": "/usr/local/bin/bindashtree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bindashtree.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bindashtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bindashtree:0.1.0--h3ab6199_0
+$ shpc install quay.io/biocontainers/bindashtree:0.1.1--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bindashtree/0.1.0--h3ab6199_0
-$ module help quay.io/biocontainers/bindashtree/0.1.0--h3ab6199_0
+$ module load quay.io/biocontainers/bindashtree/0.1.1--h3ab6199_0
+$ module help quay.io/biocontainers/bindashtree/0.1.1--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

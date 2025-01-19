@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dune/container.yaml"
-updated_at: "2025-01-18 03:03:58.858796"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:15:03.942476"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dune"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dune"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dune", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dune", "latest": {"1.14.0--r43hdfd78af_0": "sha256:e2091e1c5bb366eadc2f2632f8452112f4bf33734271357098812ee3e6747fb5"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f985490ff40b2368e41a04d9f252a66223678d7fdc0f31eb65132f1e7a5a6943", "1.10.0--r42hdfd78af_0": "sha256:0ab1950e51b049a2148a4cd7e74186965006b78a40669ea8e8c1238504e3afb0", "1.12.0--r43hdfd78af_0": "sha256:2e41f1595e7623e7a19b7f68ccb2d19462ffddeeaafca70d85857fe4b5493c3b", "1.14.0--r43hdfd78af_0": "sha256:e2091e1c5bb366eadc2f2632f8452112f4bf33734271357098812ee3e6747fb5"}, "docker": "quay.io/biocontainers/bioconductor-dune"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dune", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dune", "latest": {"1.18.0--r44hdfd78af_0": "sha256:abd0e7d3b51b206d8b69b6fe3a6497b9bee47bd23917ee75dba4ba82200fb4c5"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f985490ff40b2368e41a04d9f252a66223678d7fdc0f31eb65132f1e7a5a6943", "1.10.0--r42hdfd78af_0": "sha256:0ab1950e51b049a2148a4cd7e74186965006b78a40669ea8e8c1238504e3afb0", "1.12.0--r43hdfd78af_0": "sha256:2e41f1595e7623e7a19b7f68ccb2d19462ffddeeaafca70d85857fe4b5493c3b", "1.14.0--r43hdfd78af_0": "sha256:e2091e1c5bb366eadc2f2632f8452112f4bf33734271357098812ee3e6747fb5", "1.18.0--r44hdfd78af_0": "sha256:abd0e7d3b51b206d8b69b6fe3a6497b9bee47bd23917ee75dba4ba82200fb4c5"}, "docker": "quay.io/biocontainers/bioconductor-dune"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dune.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dune
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dune:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dune:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dune/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dune/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dune/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dune/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

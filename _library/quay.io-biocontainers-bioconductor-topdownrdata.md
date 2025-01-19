@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-topdownrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topdownrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topdownrdata/container.yaml"
-updated_at: "2025-01-18 03:17:09.996576"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-01-19 03:28:19.616558"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topdownrdata"
 aliases:
  - "gif2hdf"
@@ -27,8 +27,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-topdownrdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-topdownrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topdownrdata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a"}, "tags": {"1.8.0--r36_0": "sha256:833620ee1ae58e5b0d5a9ea5a76b111cf60d815987d7258cc8b0011d583751f3", "1.20.0--r42hdfd78af_0": "sha256:29009bc6201897607a22217344c4cbd4c2441daf380538936a43d381e13b063c", "1.16.0--r41hdfd78af_1": "sha256:bf34de3182a815f4a6d0f3dc3a6bc777a6fb09458c135b14450daae6cdf21e5f", "1.14.0--r41hdfd78af_0": "sha256:a8e5c73144a073e768dc252469130b1e65a8aded2007ddc3d9d7a6b627b37231", "1.12.0--r40hdfd78af_1": "sha256:29f342ee096660a33a6e089d50260a735428079211c7d6b3a5c90b706cc1e913", "1.10.0--r40_0": "sha256:38abfed45774cd4b04cc0a503dc4198d696dc5cd6d89f6cc885cadeef1f40272", "1.22.0--r43hdfd78af_0": "sha256:aa62359918f668dc422c4f5e8ae5c639e516842d56d2c3e2b0eb82d625a344bf", "1.24.0--r43hdfd78af_0": "sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a"}, "docker": "quay.io/biocontainers/bioconductor-topdownrdata", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-topdownrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topdownrdata", "latest": {"1.28.0--r44hdfd78af_0": "sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954"}, "tags": {"1.8.0--r36_0": "sha256:833620ee1ae58e5b0d5a9ea5a76b111cf60d815987d7258cc8b0011d583751f3", "1.20.0--r42hdfd78af_0": "sha256:29009bc6201897607a22217344c4cbd4c2441daf380538936a43d381e13b063c", "1.16.0--r41hdfd78af_1": "sha256:bf34de3182a815f4a6d0f3dc3a6bc777a6fb09458c135b14450daae6cdf21e5f", "1.14.0--r41hdfd78af_0": "sha256:a8e5c73144a073e768dc252469130b1e65a8aded2007ddc3d9d7a6b627b37231", "1.12.0--r40hdfd78af_1": "sha256:29f342ee096660a33a6e089d50260a735428079211c7d6b3a5c90b706cc1e913", "1.10.0--r40_0": "sha256:38abfed45774cd4b04cc0a503dc4198d696dc5cd6d89f6cc885cadeef1f40272", "1.22.0--r43hdfd78af_0": "sha256:aa62359918f668dc422c4f5e8ae5c639e516842d56d2c3e2b0eb82d625a344bf", "1.24.0--r43hdfd78af_0": "sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a", "1.28.0--r44hdfd78af_0": "sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954"}, "docker": "quay.io/biocontainers/bioconductor-topdownrdata", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-topdownrdata.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-topdownrdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-topdownrdata:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-topdownrdata:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-topdownrdata/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-topdownrdata/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-topdownrdata/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-topdownrdata/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
