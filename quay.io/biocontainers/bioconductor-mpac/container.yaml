@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/bioconductor-mpac
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-mpac
+latest:
+  1.0.0--r44hdfd78af_0: sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9
+tags:
+  1.0.0--r44hdfd78af_0: sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9
+docker: quay.io/biocontainers/bioconductor-mpac
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  hb-info: /usr/local/bin/hb-info
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tjbench: /usr/local/bin/tjbench

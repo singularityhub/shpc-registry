@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bioconductor-omicsmlrepor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-omicsmlrepor
+latest:
+  1.0.0--r44hdfd78af_0: sha256:e7f84ca125f1e91f42d64a8813feb779d1f11b3398ee89d6ae0839f7bf7a01f6
+tags:
+  1.0.0--r44hdfd78af_0: sha256:e7f84ca125f1e91f42d64a8813feb779d1f11b3398ee89d6ae0839f7bf7a01f6
+docker: quay.io/biocontainers/bioconductor-omicsmlrepor
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc-server: /usr/local/bin/pandoc-server
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
