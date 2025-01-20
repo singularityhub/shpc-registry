@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/octopusv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for octopusv
+latest:
+  0.1.0--pyhdfd78af_0: sha256:be8ff2e9e70dafce30069526974378aaa3b7da6d37d9df91d8c28b49cd684c17
+tags:
+  0.1.0--pyhdfd78af_0: sha256:be8ff2e9e70dafce30069526974378aaa3b7da6d37d9df91d8c28b49cd684c17
+docker: quay.io/biocontainers/octopusv
+aliases:
+  octopusv: /usr/local/bin/octopusv
+  typer: /usr/local/bin/typer
+  coverage: /usr/local/bin/coverage
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  markdown-it: /usr/local/bin/markdown-it
+  numpy-config: /usr/local/bin/numpy-config
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  natsort: /usr/local/bin/natsort
+  pygmentize: /usr/local/bin/pygmentize
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
