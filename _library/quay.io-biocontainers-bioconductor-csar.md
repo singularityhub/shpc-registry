@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-csar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
-updated_at: "2025-01-19 02:58:04.272050"
-latest: "1.54.0--r43ha9d7317_1"
+updated_at: "2025-01-20 02:55:24.447731"
+latest: "1.58.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csar"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.52.0--r43ha9d7317_0"
  - "1.54.0--r43ha9d7317_0"
  - "1.54.0--r43ha9d7317_1"
+ - "1.58.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-csar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-csar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csar", "latest": {"1.54.0--r43ha9d7317_1": "sha256:7e9efeb94ab9e10032e8b96fff3480437dd50bad7e363000aca2b147805f66f6"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879", "1.50.0--r42hc0cfd56_0": "sha256:852fa603953a9fa0552274f1b231a6d7d169449b6d95ced4614fdf67b83124db", "1.50.0--r42ha9d7317_1": "sha256:2bd2fe27e3db9e4776e6bbb13f4bf13285529f6642852c2b154b2cff195c071b", "1.52.0--r43ha9d7317_0": "sha256:5fbe295a8c85583c962a0a07168c24452f16daba19199d31e9c43b3a6af9068f", "1.54.0--r43ha9d7317_0": "sha256:4f6c5f65d7612e2f1c925aa145ec235475cabb48bd26d9734033e1323b6a9d9a", "1.54.0--r43ha9d7317_1": "sha256:7e9efeb94ab9e10032e8b96fff3480437dd50bad7e363000aca2b147805f66f6"}, "docker": "quay.io/biocontainers/bioconductor-csar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-csar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csar", "latest": {"1.58.0--r44h3df3fcb_0": "sha256:d22108767c07611a96c6402483074ac9328a983a26948a354b25f843f2702e73"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879", "1.50.0--r42hc0cfd56_0": "sha256:852fa603953a9fa0552274f1b231a6d7d169449b6d95ced4614fdf67b83124db", "1.50.0--r42ha9d7317_1": "sha256:2bd2fe27e3db9e4776e6bbb13f4bf13285529f6642852c2b154b2cff195c071b", "1.52.0--r43ha9d7317_0": "sha256:5fbe295a8c85583c962a0a07168c24452f16daba19199d31e9c43b3a6af9068f", "1.54.0--r43ha9d7317_0": "sha256:4f6c5f65d7612e2f1c925aa145ec235475cabb48bd26d9734033e1323b6a9d9a", "1.54.0--r43ha9d7317_1": "sha256:7e9efeb94ab9e10032e8b96fff3480437dd50bad7e363000aca2b147805f66f6", "1.58.0--r44h3df3fcb_0": "sha256:d22108767c07611a96c6402483074ac9328a983a26948a354b25f843f2702e73"}, "docker": "quay.io/biocontainers/bioconductor-csar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-csar.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-csar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-csar:1.54.0--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-csar:1.58.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-csar/1.54.0--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-csar/1.54.0--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-csar/1.58.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-csar/1.58.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clumsid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clumsid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clumsid/container.yaml"
-updated_at: "2025-01-19 03:36:20.835818"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2025-01-20 03:33:59.771536"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clumsid"
 aliases:
  - "zipcmp"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clumsid"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clumsid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clumsid", "latest": {"1.18.0--r43hdfd78af_0": "sha256:0d23b4869e66ddb98a862d7df51601caad21853ab06e38d171efda307f96b214"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:0641f5886f083e28918c7d1581f016c703879fe763ba3cee9e90bb3281827822", "1.14.0--r42hdfd78af_0": "sha256:b26f711cd98afbbecc73caacc1b2884d0a1e757110b39cda4a33aad0955bd8e4", "1.10.0--r41hdfd78af_0": "sha256:03979c98baadb33d7dd93c585f52c9a5a3452338e08314156d145b56795ceffc", "1.16.0--r43hdfd78af_0": "sha256:c0d7c15168aa9a48d67c20ea1ebb83bc25fead10ebf69d1f94ccce81d9befc3c", "1.18.0--r43hdfd78af_0": "sha256:0d23b4869e66ddb98a862d7df51601caad21853ab06e38d171efda307f96b214"}, "docker": "quay.io/biocontainers/bioconductor-clumsid", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clumsid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clumsid", "latest": {"1.22.0--r44hdfd78af_0": "sha256:58a01493d1d9dcd5c17cc825b032474b112604bd377bc6ea2a7c995adec1ee54"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:0641f5886f083e28918c7d1581f016c703879fe763ba3cee9e90bb3281827822", "1.14.0--r42hdfd78af_0": "sha256:b26f711cd98afbbecc73caacc1b2884d0a1e757110b39cda4a33aad0955bd8e4", "1.10.0--r41hdfd78af_0": "sha256:03979c98baadb33d7dd93c585f52c9a5a3452338e08314156d145b56795ceffc", "1.16.0--r43hdfd78af_0": "sha256:c0d7c15168aa9a48d67c20ea1ebb83bc25fead10ebf69d1f94ccce81d9befc3c", "1.18.0--r43hdfd78af_0": "sha256:0d23b4869e66ddb98a862d7df51601caad21853ab06e38d171efda307f96b214", "1.22.0--r44hdfd78af_0": "sha256:58a01493d1d9dcd5c17cc825b032474b112604bd377bc6ea2a7c995adec1ee54"}, "docker": "quay.io/biocontainers/bioconductor-clumsid", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clumsid.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clumsid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clumsid:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-clumsid:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clumsid/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-clumsid/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-clumsid/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clumsid/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

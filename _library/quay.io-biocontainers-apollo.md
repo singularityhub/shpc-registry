@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/apollo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apollo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apollo/container.yaml"
-updated_at: "2025-01-19 02:59:27.819707"
+updated_at: "2025-01-20 02:56:43.942634"
 latest: "4.2.13--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/apollo"
 aliases:

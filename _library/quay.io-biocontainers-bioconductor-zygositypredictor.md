@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-zygositypredictor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zygositypredictor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zygositypredictor/container.yaml"
-updated_at: "2025-01-19 03:32:08.141279"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-20 03:29:42.501721"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zygositypredictor"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.0.3--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-zygositypredictor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zygositypredictor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-zygositypredictor", "latest": {"1.2.0--r43hdfd78af_0": "sha256:008614430dd0bfb9b0e463cce93f8451b1e899ecc44f74116e5931d983f06762"}, "tags": {"1.0.3--r43hdfd78af_0": "sha256:a32752f818f95a7ac80c2a73c1d7e3dbf88bf1c274b428227fca3af2a12d60cd", "1.2.0--r43hdfd78af_0": "sha256:008614430dd0bfb9b0e463cce93f8451b1e899ecc44f74116e5931d983f06762"}, "docker": "quay.io/biocontainers/bioconductor-zygositypredictor", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zygositypredictor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-zygositypredictor", "latest": {"1.6.0--r44hdfd78af_0": "sha256:8f3a21ece2b2edd2a6d54cb032ed75a5594368eb32db61de83f2d0ebfd1c1f79"}, "tags": {"1.0.3--r43hdfd78af_0": "sha256:a32752f818f95a7ac80c2a73c1d7e3dbf88bf1c274b428227fca3af2a12d60cd", "1.2.0--r43hdfd78af_0": "sha256:008614430dd0bfb9b0e463cce93f8451b1e899ecc44f74116e5931d983f06762", "1.6.0--r44hdfd78af_0": "sha256:8f3a21ece2b2edd2a6d54cb032ed75a5594368eb32db61de83f2d0ebfd1c1f79"}, "docker": "quay.io/biocontainers/bioconductor-zygositypredictor", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zygositypredictor.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zygositypredictor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zygositypredictor:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-zygositypredictor:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zygositypredictor/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-zygositypredictor/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-zygositypredictor/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-zygositypredictor/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

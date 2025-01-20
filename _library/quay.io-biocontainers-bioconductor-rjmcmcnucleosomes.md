@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rjmcmcnucleosomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/container.yaml"
-updated_at: "2025-01-19 03:29:45.227198"
-latest: "1.26.0--r43h7c4fd5e_0"
+updated_at: "2025-01-20 03:27:16.616574"
+latest: "1.30.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r42hf17093f_1"
  - "1.24.0--r43hf17093f_0"
  - "1.26.0--r43h7c4fd5e_0"
+ - "1.30.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rjmcmcnucleosomes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rjmcmcnucleosomes", "latest": {"1.26.0--r43h7c4fd5e_0": "sha256:e98d32966dc5af203997fa7085af62e8e19687418d1c571bbb2d85bef8cf6822"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:a4a723f049a54977c2b23c2a62568de41b6ea038aa78764881c26363f7da0817", "1.22.0--r42hc247a5b_0": "sha256:49fc71f8d55a6910e6771f40a39186ae7632e1a8351d9121cc00754c301670cc", "1.18.0--r41hc247a5b_2": "sha256:46aeff41775d188f2d96b9f61992e60d88a7307185c2e01a87b7c350ea425907", "1.16.0--r41h399db7b_0": "sha256:c415b725b4d05172089fcca7502b9c59ccc1df0dac2389c09b1fce6d09cc89f2", "1.14.0--r40h399db7b_1": "sha256:4eae7ed93f481ccd614ff6758574b4fe5cad85863bad72b77f7bb74cd0920a0a", "1.12.0--r40h5f743cb_0": "sha256:0a7c877878de2f03533cb2d9c1aff6816383947126bbca9802f1f0e5b2a95d3e", "1.22.0--r42hf17093f_1": "sha256:3afabd036eae16d2b0652b038c08220460d7d953ca4e16ea29b7db46a25cf1e6", "1.24.0--r43hf17093f_0": "sha256:56eddd9be78c1c59ffe46dc57a7b8a17afebb0893724702ace46562606db16ba", "1.26.0--r43h7c4fd5e_0": "sha256:e98d32966dc5af203997fa7085af62e8e19687418d1c571bbb2d85bef8cf6822"}, "docker": "quay.io/biocontainers/bioconductor-rjmcmcnucleosomes", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rjmcmcnucleosomes", "latest": {"1.30.0--r44he5774e6_0": "sha256:2b2a0b5261555a64a344f05335a5c1996ff5d0f36e95f76e367d54ee9d88487f"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:a4a723f049a54977c2b23c2a62568de41b6ea038aa78764881c26363f7da0817", "1.22.0--r42hc247a5b_0": "sha256:49fc71f8d55a6910e6771f40a39186ae7632e1a8351d9121cc00754c301670cc", "1.18.0--r41hc247a5b_2": "sha256:46aeff41775d188f2d96b9f61992e60d88a7307185c2e01a87b7c350ea425907", "1.16.0--r41h399db7b_0": "sha256:c415b725b4d05172089fcca7502b9c59ccc1df0dac2389c09b1fce6d09cc89f2", "1.14.0--r40h399db7b_1": "sha256:4eae7ed93f481ccd614ff6758574b4fe5cad85863bad72b77f7bb74cd0920a0a", "1.12.0--r40h5f743cb_0": "sha256:0a7c877878de2f03533cb2d9c1aff6816383947126bbca9802f1f0e5b2a95d3e", "1.22.0--r42hf17093f_1": "sha256:3afabd036eae16d2b0652b038c08220460d7d953ca4e16ea29b7db46a25cf1e6", "1.24.0--r43hf17093f_0": "sha256:56eddd9be78c1c59ffe46dc57a7b8a17afebb0893724702ace46562606db16ba", "1.26.0--r43h7c4fd5e_0": "sha256:e98d32966dc5af203997fa7085af62e8e19687418d1c571bbb2d85bef8cf6822", "1.30.0--r44he5774e6_0": "sha256:2b2a0b5261555a64a344f05335a5c1996ff5d0f36e95f76e367d54ee9d88487f"}, "docker": "quay.io/biocontainers/bioconductor-rjmcmcnucleosomes", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rjmcmcnucleosomes.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rjmcmcnucleosomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rjmcmcnucleosomes:1.26.0--r43h7c4fd5e_0
+$ shpc install quay.io/biocontainers/bioconductor-rjmcmcnucleosomes:1.30.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/1.26.0--r43h7c4fd5e_0
-$ module help quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/1.26.0--r43h7c4fd5e_0
+$ module load quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/1.30.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-rjmcmcnucleosomes/1.30.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

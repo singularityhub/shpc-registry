@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panaroo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panaroo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panaroo/container.yaml"
-updated_at: "2025-01-19 03:40:42.984764"
+updated_at: "2025-01-20 03:38:26.498049"
 latest: "1.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panaroo"
 aliases:

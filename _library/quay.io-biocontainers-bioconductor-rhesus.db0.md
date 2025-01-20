@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rhesus.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
-updated_at: "2025-01-19 02:57:51.401198"
-latest: "3.18.0--r43hdfd78af_0"
+updated_at: "2025-01-20 02:55:11.978529"
+latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhesus.db0"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "3.11.2--r40_0"
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
+ - "3.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhesus.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:c1a74e911863a62b744f12c3d76b4fb082cbe8de365b8f2d4ebb94cbcafd4f6f"}, "tags": {"3.8.2--r36_1": "sha256:8553f45642ec3cc089204fca667bcaa018cc359750ba4d04b8d654e372b227ba", "3.16.0--r42hdfd78af_0": "sha256:e19095a292747298f7f14400cb7e70428e636e1982b9868006cd860da65d9860", "3.14.0--r41hdfd78af_1": "sha256:1705ed071177b28128739de86e00b1a2983cada8eae96aa16b6196bddff219cc", "3.13.0--r41hdfd78af_0": "sha256:726128ab21130d056cb9a87fe6cc20edf10ab9f8c93ac66b6711f1f638f94366", "3.12.0--r40hdfd78af_1": "sha256:0b7ee91995fcaca4a5a822075b985194d0222afff9f8b288b40c722df4a7a610", "3.11.2--r40_0": "sha256:52a095d857a2a80088881f7649cacc70655e187d0fd7e3e23ce3c703965dfde5", "3.17.0--r43hdfd78af_0": "sha256:949fc6a6d4aae2818118d2230e228090bc2b4cd051d78bb37cef4ccc3d99ad46", "3.18.0--r43hdfd78af_0": "sha256:c1a74e911863a62b744f12c3d76b4fb082cbe8de365b8f2d4ebb94cbcafd4f6f"}, "docker": "quay.io/biocontainers/bioconductor-rhesus.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhesus.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0", "latest": {"3.20.0--r44hdfd78af_0": "sha256:fd27ef23729b7bdf52747fc3b202808522214f9df6ae61849f1a6fab79e36790"}, "tags": {"3.8.2--r36_1": "sha256:8553f45642ec3cc089204fca667bcaa018cc359750ba4d04b8d654e372b227ba", "3.16.0--r42hdfd78af_0": "sha256:e19095a292747298f7f14400cb7e70428e636e1982b9868006cd860da65d9860", "3.14.0--r41hdfd78af_1": "sha256:1705ed071177b28128739de86e00b1a2983cada8eae96aa16b6196bddff219cc", "3.13.0--r41hdfd78af_0": "sha256:726128ab21130d056cb9a87fe6cc20edf10ab9f8c93ac66b6711f1f638f94366", "3.12.0--r40hdfd78af_1": "sha256:0b7ee91995fcaca4a5a822075b985194d0222afff9f8b288b40c722df4a7a610", "3.11.2--r40_0": "sha256:52a095d857a2a80088881f7649cacc70655e187d0fd7e3e23ce3c703965dfde5", "3.17.0--r43hdfd78af_0": "sha256:949fc6a6d4aae2818118d2230e228090bc2b4cd051d78bb37cef4ccc3d99ad46", "3.18.0--r43hdfd78af_0": "sha256:c1a74e911863a62b744f12c3d76b4fb082cbe8de365b8f2d4ebb94cbcafd4f6f", "3.20.0--r44hdfd78af_0": "sha256:fd27ef23729b7bdf52747fc3b202808522214f9df6ae61849f1a6fab79e36790"}, "docker": "quay.io/biocontainers/bioconductor-rhesus.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhesus.db0.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhesus.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhesus.db0:3.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rhesus.db0:3.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhesus.db0/3.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rhesus.db0/3.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rhesus.db0/3.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rhesus.db0/3.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

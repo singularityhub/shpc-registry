@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cate/container.yaml"
-updated_at: "2025-01-19 03:34:20.642602"
-latest: "1.1.1--r41h3342da4_3"
+updated_at: "2025-01-20 03:31:56.233874"
+latest: "1.1--r40h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-cate"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.1.1--r41h3342da4_3"
  - "1.1--r40h6115d3f_1"
  - "1.1.1--r43h3342da4_5"
+ - "1.1.1--r44h3342da4_6"
 description: "shpc-registry automated BioContainers addition for r-cate"
-config: {"url": "https://biocontainers.pro/tools/r-cate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cate", "latest": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab"}, "tags": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab", "1.1--r40h6115d3f_1": "sha256:a0707b843ee0991c2b112246e94095f9f26ea182b8cda91360b3d7d2aa649f88", "1.1.1--r43h3342da4_5": "sha256:46f87c11c1cc16f8787eeb8a8fec1c2a2064d9a77f6a4bc6ae8861ae1a97f0b4"}, "docker": "quay.io/biocontainers/r-cate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-cate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cate", "latest": {"1.1--r40h6115d3f_1": "sha256:a0707b843ee0991c2b112246e94095f9f26ea182b8cda91360b3d7d2aa649f88"}, "tags": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab", "1.1--r40h6115d3f_1": "sha256:a0707b843ee0991c2b112246e94095f9f26ea182b8cda91360b3d7d2aa649f88", "1.1.1--r43h3342da4_5": "sha256:46f87c11c1cc16f8787eeb8a8fec1c2a2064d9a77f6a4bc6ae8861ae1a97f0b4", "1.1.1--r44h3342da4_6": "sha256:841096e2beed24c0ca63c684d44707536eaa60fa08c64353634412c4508d24f7"}, "docker": "quay.io/biocontainers/r-cate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cate.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-cate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cate:1.1.1--r41h3342da4_3
+$ shpc install quay.io/biocontainers/r-cate:1.1--r40h6115d3f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cate/1.1.1--r41h3342da4_3
-$ module help quay.io/biocontainers/r-cate/1.1.1--r41h3342da4_3
+$ module load quay.io/biocontainers/r-cate/1.1--r40h6115d3f_1
+$ module help quay.io/biocontainers/r-cate/1.1--r40h6115d3f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

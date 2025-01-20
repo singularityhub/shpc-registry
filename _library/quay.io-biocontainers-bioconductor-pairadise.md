@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pairadise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pairadise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pairadise/container.yaml"
-updated_at: "2025-01-19 03:28:36.545500"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2025-01-20 03:26:06.284538"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pairadise"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pairadise"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pairadise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pairadise", "latest": {"1.18.0--r43hdfd78af_0": "sha256:d36cc807ef636a9f7da1f052cc14154414543a57f558eddd75b38f08465e0a2d"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:661802560e9fcbc01d251bd5e59aa4e7a2c2ab2044aebf1177ee5c92996c8b91", "1.14.0--r42hdfd78af_0": "sha256:342a434762064df1882526c214377c4e6ca02d4a3d4713392cb506276857f835", "1.10.0--r41hdfd78af_0": "sha256:26dcb2d7af4f9bb778f9dab78a50414733a03b176c3c546b0d9baee7ff5661dc", "1.16.0--r43hdfd78af_0": "sha256:04101b2b3acdad028f97fd25941b8a68a10042760a6c42b38ecc25eeac881b47", "1.18.0--r43hdfd78af_0": "sha256:d36cc807ef636a9f7da1f052cc14154414543a57f558eddd75b38f08465e0a2d"}, "docker": "quay.io/biocontainers/bioconductor-pairadise", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pairadise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pairadise", "latest": {"1.22.0--r44hdfd78af_0": "sha256:04b6adde34a06ad893cb44028e3c6cb4d553ebbed15456edae56f59d1075b521"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:661802560e9fcbc01d251bd5e59aa4e7a2c2ab2044aebf1177ee5c92996c8b91", "1.14.0--r42hdfd78af_0": "sha256:342a434762064df1882526c214377c4e6ca02d4a3d4713392cb506276857f835", "1.10.0--r41hdfd78af_0": "sha256:26dcb2d7af4f9bb778f9dab78a50414733a03b176c3c546b0d9baee7ff5661dc", "1.16.0--r43hdfd78af_0": "sha256:04101b2b3acdad028f97fd25941b8a68a10042760a6c42b38ecc25eeac881b47", "1.18.0--r43hdfd78af_0": "sha256:d36cc807ef636a9f7da1f052cc14154414543a57f558eddd75b38f08465e0a2d", "1.22.0--r44hdfd78af_0": "sha256:04b6adde34a06ad893cb44028e3c6cb4d553ebbed15456edae56f59d1075b521"}, "docker": "quay.io/biocontainers/bioconductor-pairadise", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pairadise.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pairadise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pairadise:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pairadise:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pairadise/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pairadise/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pairadise/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pairadise/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

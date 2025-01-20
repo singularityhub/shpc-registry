@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dfast/container.yaml"
-updated_at: "2025-01-19 03:36:34.058536"
-latest: "1.3.4--h5ca1c30_0"
+updated_at: "2025-01-20 03:34:13.351932"
+latest: "1.3.4--h5ca1c30_1"
 container_url: "https://biocontainers.pro/tools/dfast"
 aliases:
  - "dfast"
@@ -32,8 +32,9 @@ versions:
  - "1.3.1--h43eeafb_0"
  - "1.3.2--h43eeafb_0"
  - "1.3.4--h5ca1c30_0"
+ - "1.3.4--h5ca1c30_1"
 description: "shpc-registry automated BioContainers addition for dfast"
-config: {"url": "https://biocontainers.pro/tools/dfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast", "latest": {"1.3.4--h5ca1c30_0": "sha256:e40003c8624e17dc254588336590101028c8064022fc82bb1dbf385fde4d41bb"}, "tags": {"1.2.7--h8b12597_0": "sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7", "1.2.18--h5b5514e_1": "sha256:c512c2f4c061493ee88a467c17e93817f8a36ab42c7c0ae1fe2280285716b2e7", "1.2.19--h5b5514e_0": "sha256:508c72a1f47a658af77f4ac5760e9d91177863a562cf79ddcea2071e9266db7d", "1.2.20--h43eeafb_0": "sha256:b1a6fe1e91a0bb2ed0b74d80c5b796f648033ceac65c4e7517244141a1b4b85c", "1.2.21--h43eeafb_0": "sha256:9286c5592b03bcb8d9a214d3cfd69ab794d00833ae80fd5c7c84168038bbbc5a", "1.3.1--h43eeafb_0": "sha256:aec9bd49842d261db9ce913180584c79a0da1fa56113de3d5a21044d1272b260", "1.3.2--h43eeafb_0": "sha256:a5e6e4347e7b67ee5fb15fea0cbba97d390accc059997429f89fd5104885262e", "1.3.4--h5ca1c30_0": "sha256:e40003c8624e17dc254588336590101028c8064022fc82bb1dbf385fde4d41bb"}, "docker": "quay.io/biocontainers/dfast", "aliases": {"dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash"}}
+config: {"url": "https://biocontainers.pro/tools/dfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast", "latest": {"1.3.4--h5ca1c30_1": "sha256:c168fcfa3c5ef09b899429e8560da62a4142f50b956c83512833dad89b3167fb"}, "tags": {"1.2.7--h8b12597_0": "sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7", "1.2.18--h5b5514e_1": "sha256:c512c2f4c061493ee88a467c17e93817f8a36ab42c7c0ae1fe2280285716b2e7", "1.2.19--h5b5514e_0": "sha256:508c72a1f47a658af77f4ac5760e9d91177863a562cf79ddcea2071e9266db7d", "1.2.20--h43eeafb_0": "sha256:b1a6fe1e91a0bb2ed0b74d80c5b796f648033ceac65c4e7517244141a1b4b85c", "1.2.21--h43eeafb_0": "sha256:9286c5592b03bcb8d9a214d3cfd69ab794d00833ae80fd5c7c84168038bbbc5a", "1.3.1--h43eeafb_0": "sha256:aec9bd49842d261db9ce913180584c79a0da1fa56113de3d5a21044d1272b260", "1.3.2--h43eeafb_0": "sha256:a5e6e4347e7b67ee5fb15fea0cbba97d390accc059997429f89fd5104885262e", "1.3.4--h5ca1c30_0": "sha256:e40003c8624e17dc254588336590101028c8064022fc82bb1dbf385fde4d41bb", "1.3.4--h5ca1c30_1": "sha256:c168fcfa3c5ef09b899429e8560da62a4142f50b956c83512833dad89b3167fb"}, "docker": "quay.io/biocontainers/dfast", "aliases": {"dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dfast.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/dfast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dfast:1.3.4--h5ca1c30_0
+$ shpc install quay.io/biocontainers/dfast:1.3.4--h5ca1c30_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dfast/1.3.4--h5ca1c30_0
-$ module help quay.io/biocontainers/dfast/1.3.4--h5ca1c30_0
+$ module load quay.io/biocontainers/dfast/1.3.4--h5ca1c30_1
+$ module help quay.io/biocontainers/dfast/1.3.4--h5ca1c30_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

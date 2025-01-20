@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngscheckmate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngscheckmate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngscheckmate/container.yaml"
-updated_at: "2025-01-19 03:39:38.255429"
-latest: "1.0.1--py27pl5321r40hdfd78af_1"
+updated_at: "2025-01-20 03:37:20.637620"
+latest: "1.0.1--py27pl5321r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ngscheckmate"
 aliases:
  - "ncm.py"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.0--py27r41hdfd78af_3"
  - "1.0.1--py27pl5321r40hdfd78af_1"
+ - "1.0.1--py27pl5321r40hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for ngscheckmate"
-config: {"url": "https://biocontainers.pro/tools/ngscheckmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngscheckmate", "latest": {"1.0.1--py27pl5321r40hdfd78af_1": "sha256:4aab8da0616b9052f71a96c6fa0e323095bb35c50d9d259db3d4c00f2666c3d8"}, "tags": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af", "1.0.1--py27pl5321r40hdfd78af_1": "sha256:4aab8da0616b9052f71a96c6fa0e323095bb35c50d9d259db3d4c00f2666c3d8"}, "docker": "quay.io/biocontainers/ngscheckmate", "aliases": {"ncm.py": "/usr/local/bin/ncm.py", "ncm_fastq.py": "/usr/local/bin/ncm_fastq.py", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
+config: {"url": "https://biocontainers.pro/tools/ngscheckmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngscheckmate", "latest": {"1.0.1--py27pl5321r40hdfd78af_2": "sha256:4ca1b23d00fd2ea562c15354a4aa72082bd32f9422366fc346c5916520f0a959"}, "tags": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af", "1.0.1--py27pl5321r40hdfd78af_1": "sha256:4aab8da0616b9052f71a96c6fa0e323095bb35c50d9d259db3d4c00f2666c3d8", "1.0.1--py27pl5321r40hdfd78af_2": "sha256:4ca1b23d00fd2ea562c15354a4aa72082bd32f9422366fc346c5916520f0a959"}, "docker": "quay.io/biocontainers/ngscheckmate", "aliases": {"ncm.py": "/usr/local/bin/ncm.py", "ncm_fastq.py": "/usr/local/bin/ncm_fastq.py", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngscheckmate.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/ngscheckmate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngscheckmate:1.0.1--py27pl5321r40hdfd78af_1
+$ shpc install quay.io/biocontainers/ngscheckmate:1.0.1--py27pl5321r40hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngscheckmate/1.0.1--py27pl5321r40hdfd78af_1
-$ module help quay.io/biocontainers/ngscheckmate/1.0.1--py27pl5321r40hdfd78af_1
+$ module load quay.io/biocontainers/ngscheckmate/1.0.1--py27pl5321r40hdfd78af_2
+$ module help quay.io/biocontainers/ngscheckmate/1.0.1--py27pl5321r40hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-airway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-airway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-airway/container.yaml"
-updated_at: "2025-01-19 03:02:22.369223"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-20 02:59:32.236324"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-airway"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-airway"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-airway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airway", "latest": {"1.22.0--r43hdfd78af_0": "sha256:66b4de471e39ea71b27a968c7f4701076dd8abc0de53cf2905e4a13a748c1611"}, "tags": {"1.8.0--r40_0": "sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4", "1.18.0--r42hdfd78af_0": "sha256:e9e87f9f0915b5c97e57f23df7f12784abd6ca4d086c0e08f9bb66d07d9ca6db", "1.14.0--r41hdfd78af_1": "sha256:a7ccf9bea0f8bd3fd177dff67be39b7193486a05ef4e2c4bc0c658f4db8889e6", "1.12.0--r41hdfd78af_0": "sha256:e4d3218868c94c6ab3d158c6642f5a149c1e615c1f540302c4e106d4d20bf59e", "1.10.0--r40hdfd78af_1": "sha256:b6beb68572e7f9ca9528269d319fecd18200b43ee48ff272b46126deb5974977", "1.20.0--r43hdfd78af_0": "sha256:a2a7d59b80ecfcea7e3781962932f2755487f8bef7fda81eee3e440a0c770781", "1.22.0--r43hdfd78af_0": "sha256:66b4de471e39ea71b27a968c7f4701076dd8abc0de53cf2905e4a13a748c1611"}, "docker": "quay.io/biocontainers/bioconductor-airway", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-airway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airway", "latest": {"1.26.0--r44hdfd78af_0": "sha256:2be8cde88d22fb5d36708234f56f45782b94fa28dbc1642d9d283ac91bc0fbe5"}, "tags": {"1.8.0--r40_0": "sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4", "1.18.0--r42hdfd78af_0": "sha256:e9e87f9f0915b5c97e57f23df7f12784abd6ca4d086c0e08f9bb66d07d9ca6db", "1.14.0--r41hdfd78af_1": "sha256:a7ccf9bea0f8bd3fd177dff67be39b7193486a05ef4e2c4bc0c658f4db8889e6", "1.12.0--r41hdfd78af_0": "sha256:e4d3218868c94c6ab3d158c6642f5a149c1e615c1f540302c4e106d4d20bf59e", "1.10.0--r40hdfd78af_1": "sha256:b6beb68572e7f9ca9528269d319fecd18200b43ee48ff272b46126deb5974977", "1.20.0--r43hdfd78af_0": "sha256:a2a7d59b80ecfcea7e3781962932f2755487f8bef7fda81eee3e440a0c770781", "1.22.0--r43hdfd78af_0": "sha256:66b4de471e39ea71b27a968c7f4701076dd8abc0de53cf2905e4a13a748c1611", "1.26.0--r44hdfd78af_0": "sha256:2be8cde88d22fb5d36708234f56f45782b94fa28dbc1642d9d283ac91bc0fbe5"}, "docker": "quay.io/biocontainers/bioconductor-airway", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-airway.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-airway
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-airway:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-airway:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-airway/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-airway/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-airway/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-airway/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-citrusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-citrusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-citrusprobe/container.yaml"
-updated_at: "2025-01-19 03:30:04.907690"
-latest: "2.18.0--r43hdfd78af_12"
+updated_at: "2025-01-20 03:27:36.594652"
+latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-citrusprobe"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.18.0--r42hdfd78af_10"
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
+ - "2.18.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-citrusprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-citrusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-citrusprobe", "latest": {"2.18.0--r43hdfd78af_12": "sha256:240af6bd31b808ca48a809a98ee714b7d962df172d36d2e66fa6813ac7d89e33"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:970a81dcce874b80d7c2d294110801fb3e897eb0e7b3ed051c9846b98d13ebb2", "2.18.0--r42hdfd78af_10": "sha256:c971cf1f2e8ad6f96b56b56ba2ddc521605fa47f57866fd6f366acdbc3e32319", "2.18.0--r43hdfd78af_11": "sha256:abfdbadcea10bad17106a1d2392bf31777db1f0f6b63bf93925e257176fc4046", "2.18.0--r43hdfd78af_12": "sha256:240af6bd31b808ca48a809a98ee714b7d962df172d36d2e66fa6813ac7d89e33"}, "docker": "quay.io/biocontainers/bioconductor-citrusprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-citrusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-citrusprobe", "latest": {"2.18.0--r44hdfd78af_13": "sha256:0c17a87a6066a5a946d2cf410da77ee906841ae444a79edb0b29349f01dc215d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:970a81dcce874b80d7c2d294110801fb3e897eb0e7b3ed051c9846b98d13ebb2", "2.18.0--r42hdfd78af_10": "sha256:c971cf1f2e8ad6f96b56b56ba2ddc521605fa47f57866fd6f366acdbc3e32319", "2.18.0--r43hdfd78af_11": "sha256:abfdbadcea10bad17106a1d2392bf31777db1f0f6b63bf93925e257176fc4046", "2.18.0--r43hdfd78af_12": "sha256:240af6bd31b808ca48a809a98ee714b7d962df172d36d2e66fa6813ac7d89e33", "2.18.0--r44hdfd78af_13": "sha256:0c17a87a6066a5a946d2cf410da77ee906841ae444a79edb0b29349f01dc215d"}, "docker": "quay.io/biocontainers/bioconductor-citrusprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-citrusprobe.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-citrusprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-citrusprobe:2.18.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-citrusprobe:2.18.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-citrusprobe/2.18.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-citrusprobe/2.18.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-citrusprobe/2.18.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-citrusprobe/2.18.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

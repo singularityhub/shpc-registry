@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-casper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-casper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-casper/container.yaml"
-updated_at: "2025-01-19 02:58:40.639284"
-latest: "2.36.0--r43hf17093f_1"
+updated_at: "2025-01-20 02:55:59.099299"
+latest: "2.40.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-casper"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.34.0--r43hf17093f_0"
  - "2.36.0--r43hf17093f_0"
  - "2.36.0--r43hf17093f_1"
+ - "2.40.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-casper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-casper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-casper", "latest": {"2.36.0--r43hf17093f_1": "sha256:dae52bc7f00b254a337149ee17150823490e510d87f17185a774027b8ab51f89"}, "tags": {"2.28.0--r41hc247a5b_2": "sha256:b433e51930c4e03a8bec6fa044fe6a44067b4a990e21d53f1e89cd34f56f3229", "2.32.0--r42hc247a5b_0": "sha256:d58e70e0e1caa1edea0e8d886da1e62dad1b4da18f34a27091f0b9de957ae886", "2.32.0--r42hf17093f_1": "sha256:2ae3eb45abd82098899691b1070f30030e0d2f5b0aca6365202887c35df03941", "2.34.0--r43hf17093f_0": "sha256:5a00144994147fa176b6db56e7eae3fcd92357ff77933d9240a86aabb35d83a8", "2.36.0--r43hf17093f_0": "sha256:504fecb4d7c83735490412f6e8128240accc21bd832f71909adc8974f32ac947", "2.36.0--r43hf17093f_1": "sha256:dae52bc7f00b254a337149ee17150823490e510d87f17185a774027b8ab51f89"}, "docker": "quay.io/biocontainers/bioconductor-casper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-casper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-casper", "latest": {"2.40.0--r44he5774e6_0": "sha256:1abf7278501f559e831de53ca4574e29df7570ccefc69b5fd33e073ec7700407"}, "tags": {"2.28.0--r41hc247a5b_2": "sha256:b433e51930c4e03a8bec6fa044fe6a44067b4a990e21d53f1e89cd34f56f3229", "2.32.0--r42hc247a5b_0": "sha256:d58e70e0e1caa1edea0e8d886da1e62dad1b4da18f34a27091f0b9de957ae886", "2.32.0--r42hf17093f_1": "sha256:2ae3eb45abd82098899691b1070f30030e0d2f5b0aca6365202887c35df03941", "2.34.0--r43hf17093f_0": "sha256:5a00144994147fa176b6db56e7eae3fcd92357ff77933d9240a86aabb35d83a8", "2.36.0--r43hf17093f_0": "sha256:504fecb4d7c83735490412f6e8128240accc21bd832f71909adc8974f32ac947", "2.36.0--r43hf17093f_1": "sha256:dae52bc7f00b254a337149ee17150823490e510d87f17185a774027b8ab51f89", "2.40.0--r44he5774e6_0": "sha256:1abf7278501f559e831de53ca4574e29df7570ccefc69b5fd33e073ec7700407"}, "docker": "quay.io/biocontainers/bioconductor-casper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-casper.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-casper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-casper:2.36.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-casper:2.40.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-casper/2.36.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-casper/2.36.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-casper/2.40.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-casper/2.40.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

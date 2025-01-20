@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-eisar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
-updated_at: "2025-01-19 02:59:18.604465"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-01-20 02:56:35.175437"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eisar"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eisar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eisar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eisar", "latest": {"1.14.0--r43hdfd78af_0": "sha256:3075c0638db97de97d54bcf04c1926ad97b84c1f6e9febfb76440302c14dcdf6"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87", "1.10.0--r42hdfd78af_0": "sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058", "1.12.0--r43hdfd78af_0": "sha256:d6915cee001a379493704ba8ee2f4c7b8df5853c9034b3d39fc0f7f925ce1126", "1.14.0--r43hdfd78af_0": "sha256:3075c0638db97de97d54bcf04c1926ad97b84c1f6e9febfb76440302c14dcdf6"}, "docker": "quay.io/biocontainers/bioconductor-eisar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eisar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eisar", "latest": {"1.18.0--r44hdfd78af_0": "sha256:81611703335d3ef6019d441300c332ffcbb1bda78fa2fddbfe46448570cb5f06"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87", "1.10.0--r42hdfd78af_0": "sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058", "1.12.0--r43hdfd78af_0": "sha256:d6915cee001a379493704ba8ee2f4c7b8df5853c9034b3d39fc0f7f925ce1126", "1.14.0--r43hdfd78af_0": "sha256:3075c0638db97de97d54bcf04c1926ad97b84c1f6e9febfb76440302c14dcdf6", "1.18.0--r44hdfd78af_0": "sha256:81611703335d3ef6019d441300c332ffcbb1bda78fa2fddbfe46448570cb5f06"}, "docker": "quay.io/biocontainers/bioconductor-eisar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eisar.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eisar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eisar:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-eisar:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eisar/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-eisar/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-eisar/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-eisar/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drugtargetinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugtargetinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugtargetinteractions/container.yaml"
-updated_at: "2025-01-19 03:07:50.572984"
-latest: "1.10.1--r43hdfd78af_0"
+updated_at: "2025-01-20 03:05:00.087937"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugtargetinteractions"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.1--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-drugtargetinteractions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drugtargetinteractions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugtargetinteractions", "latest": {"1.10.1--r43hdfd78af_0": "sha256:2fa3c40a3a648bcfa3eb3db6ab5628f5cbb83c9fb6248fb8aaf3345841d0c41b"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f4a5fbcdf15387e7a12cbe49a425bba98057888b7b7efb1e9ebedc976f966bad", "1.6.0--r42hdfd78af_0": "sha256:a16b312c10d1d2ce4405d65b40aa7e1dc1f3a4b42b25a510f9022b95f9df44b4", "1.8.0--r43hdfd78af_0": "sha256:f23c3bbeefaaba4e3404749e19410e535cfd280a4d1e865fb97c8b8a7cccf045", "1.10.1--r43hdfd78af_0": "sha256:2fa3c40a3a648bcfa3eb3db6ab5628f5cbb83c9fb6248fb8aaf3345841d0c41b"}, "docker": "quay.io/biocontainers/bioconductor-drugtargetinteractions"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drugtargetinteractions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugtargetinteractions", "latest": {"1.14.0--r44hdfd78af_0": "sha256:f3db2503cc6b721e96e2011d6ed21ce08b53e3b3de202b4daa8423ef65be64e3"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f4a5fbcdf15387e7a12cbe49a425bba98057888b7b7efb1e9ebedc976f966bad", "1.6.0--r42hdfd78af_0": "sha256:a16b312c10d1d2ce4405d65b40aa7e1dc1f3a4b42b25a510f9022b95f9df44b4", "1.8.0--r43hdfd78af_0": "sha256:f23c3bbeefaaba4e3404749e19410e535cfd280a4d1e865fb97c8b8a7cccf045", "1.10.1--r43hdfd78af_0": "sha256:2fa3c40a3a648bcfa3eb3db6ab5628f5cbb83c9fb6248fb8aaf3345841d0c41b", "1.14.0--r44hdfd78af_0": "sha256:f3db2503cc6b721e96e2011d6ed21ce08b53e3b3de202b4daa8423ef65be64e3"}, "docker": "quay.io/biocontainers/bioconductor-drugtargetinteractions"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drugtargetinteractions.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drugtargetinteractions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drugtargetinteractions:1.10.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-drugtargetinteractions:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drugtargetinteractions/1.10.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-drugtargetinteractions/1.10.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-drugtargetinteractions/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-drugtargetinteractions/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
