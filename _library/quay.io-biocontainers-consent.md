@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consent/container.yaml"
-updated_at: "2025-01-20 03:15:45.770167"
+updated_at: "2025-01-20 04:08:16.622205"
 latest: "2.2.2--hdb21b49_4"
 container_url: "https://biocontainers.pro/tools/consent"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glimmerhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimmerhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glimmerhmm/container.yaml"
-updated_at: "2025-01-20 03:15:56.535501"
+updated_at: "2025-01-20 04:08:27.432524"
 latest: "3.0.4--pl5321h503566f_9"
 container_url: "https://biocontainers.pro/tools/glimmerhmm"
 aliases:

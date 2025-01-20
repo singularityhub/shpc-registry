@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sarks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sarks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sarks/container.yaml"
-updated_at: "2025-01-20 03:25:17.168525"
+updated_at: "2025-01-20 04:17:45.685708"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sarks"
 aliases:

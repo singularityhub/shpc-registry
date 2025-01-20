@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_gene_family_aligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_gene_family_aligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_gene_family_aligner/container.yaml"
-updated_at: "2025-01-20 03:37:38.215036"
+updated_at: "2025-01-20 04:29:58.908038"
 latest: "1.0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_gene_family_aligner"
 aliases:
