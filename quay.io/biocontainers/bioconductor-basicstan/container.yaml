@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-basicstan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-basicstan
 latest:
-  1.4.0--r43hf17093f_0: sha256:68a5e7de798e3ee2070cfcb5b3b4b19ef6589eaadc762a90af3fb4b3ff863683
+  1.8.0--r44he5774e6_0: sha256:ce7818ba17d4e36be58b1e128cf9985269148b0cb7e55b13fcd8618a0002144b
 tags:
   1.0.0--r42hc247a5b_0: sha256:507cc6cea8e6199c1c320c2319479d8be4e0c89146cb75a9f9223271a1bf4b28
   1.0.0--r42hf17093f_1: sha256:8cd7faf735c940b2cf4b26608c87480e2b47d5b0fa49e9e1b7124023436ec10e
   1.2.0--r43hf17093f_0: sha256:3a627d58a2203160ff65244db10650cab7b572b404ecef2d7e2d447599d70956
   1.4.0--r43hf17093f_0: sha256:68a5e7de798e3ee2070cfcb5b3b4b19ef6589eaadc762a90af3fb4b3ff863683
+  1.8.0--r44he5774e6_0: sha256:ce7818ba17d4e36be58b1e128cf9985269148b0cb7e55b13fcd8618a0002144b
 docker: quay.io/biocontainers/bioconductor-basicstan
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

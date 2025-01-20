@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-muscdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-muscdata
 latest:
-  1.16.0--r43hdfd78af_0: sha256:a5023c7eee2cae0e4561550e5d00020318ba2c81091a27436da65a593c699324
+  1.20.0--r44hdfd78af_0: sha256:e4def801682415d099e0f5518ba0d3c960c6ba0c0d78221e372e562b435bec73
 tags:
   1.8.0--r41hdfd78af_1: sha256:a5c53c3da7823398ba5a8c3fe02a69e8e7eb0a70aab4b0319d818fc94244e566
   1.12.0--r42hdfd78af_0: sha256:11e610f3d00f33066cab00c8dc4498f0586bab30bb9e5207c9a76fcdfed47419
   1.14.0--r43hdfd78af_0: sha256:9377ff5ba5e0043274591ba497f705905d1fd16ebd88c5c1e974be3dbfc86baa
   1.16.0--r43hdfd78af_0: sha256:a5023c7eee2cae0e4561550e5d00020318ba2c81091a27436da65a593c699324
+  1.20.0--r44hdfd78af_0: sha256:e4def801682415d099e0f5518ba0d3c960c6ba0c0d78221e372e562b435bec73
 docker: quay.io/biocontainers/bioconductor-muscdata

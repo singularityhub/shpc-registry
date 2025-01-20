@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rad_haplotyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rad_haplotyper
 latest:
-  1.1.9--pl5321h031d066_7: sha256:939cdd5b720ca35f6b2b51075ef62555ea89d4e94bce5e0c054a1b38a00ebbef
+  1.1.9--pl5321h7b50bb2_8: sha256:70e575d19a405310e56e584d021212c0387c7a22e21ce7f5003ef674b37940e0
 tags:
   1.1.9--pl5321hec16e2b_6: sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5
   1.1.9--pl5321h031d066_7: sha256:939cdd5b720ca35f6b2b51075ef62555ea89d4e94bce5e0c054a1b38a00ebbef
+  1.1.9--pl5321h7b50bb2_8: sha256:70e575d19a405310e56e584d021212c0387c7a22e21ce7f5003ef674b37940e0
 docker: quay.io/biocontainers/rad_haplotyper
 aliases:
   ErrorCount.sh: /usr/local/bin/ErrorCount.sh

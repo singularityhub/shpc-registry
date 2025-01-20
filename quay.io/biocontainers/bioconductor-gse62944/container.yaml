@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gse62944
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gse62944
 latest:
-  1.30.0--r43hdfd78af_0: sha256:a057c6f1523a089272982490dacec64440d6ed761d8815b3eba6631927fb2846
+  1.34.0--r44hdfd78af_0: sha256:992fd8395d6012ad8402e2f13268f2d64d57547e95d5f73900b7ba1ceba3b58b
 tags:
   1.22.0--r41hdfd78af_1: sha256:b87cfa9ce418b24a2ad996de28029eff283108a673a311cecd3b7508c830793a
   1.26.0--r42hdfd78af_0: sha256:8be8849c43d3629668e5747359c0f8ec9460bb9dfaed87cf31e9898bda47c0fb
   1.28.1--r43hdfd78af_0: sha256:fa1eadff65a80d1613531bc3d3c200f95ee0a76a4357f0060423d843a37c615b
   1.30.0--r43hdfd78af_0: sha256:a057c6f1523a089272982490dacec64440d6ed761d8815b3eba6631927fb2846
+  1.34.0--r44hdfd78af_0: sha256:992fd8395d6012ad8402e2f13268f2d64d57547e95d5f73900b7ba1ceba3b58b
 docker: quay.io/biocontainers/bioconductor-gse62944

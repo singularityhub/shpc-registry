@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-omicsviewer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-omicsviewer
 latest:
-  1.2.0--r42hdfd78af_0: sha256:9508e339ce0b2fc1d053ffe043bb55a780be553df03fea156c2eba704652d066
+  1.10.0--r44hdfd78af_0: sha256:92c2fca14f2caef460cf766491c7a90f103ab77c75b8c2f760eb492ce0caedf6
 tags:
   1.2.0--r42hdfd78af_0: sha256:9508e339ce0b2fc1d053ffe043bb55a780be553df03fea156c2eba704652d066
+  1.10.0--r44hdfd78af_0: sha256:92c2fca14f2caef460cf766491c7a90f103ab77c75b8c2f760eb492ce0caedf6
 docker: quay.io/biocontainers/bioconductor-omicsviewer
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

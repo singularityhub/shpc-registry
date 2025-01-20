@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-tenxio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tenxio
 latest:
-  1.4.0--r43hdfd78af_0: sha256:f278ece782e63136c5e9690c147a6825b2b914c916c1c9552457d8cd30b484c8
+  1.8.0--r44hdfd78af_0: sha256:e73f0d76ce8df94e66e8df43083878931aa5170990870cfb9b0355cdc0cb92b9
 tags:
   1.0.0--r42hdfd78af_0: sha256:08883ed577c7349fc1d5a4d57715cf4c34a9f8fa932688bc4b47897a337163dd
   1.2.0--r43hdfd78af_0: sha256:f195db7757c5ca9bce75020f62c39b516484e712a25f319f99090d3122a448d7
   1.4.0--r43hdfd78af_0: sha256:f278ece782e63136c5e9690c147a6825b2b914c916c1c9552457d8cd30b484c8
+  1.8.0--r44hdfd78af_0: sha256:e73f0d76ce8df94e66e8df43083878931aa5170990870cfb9b0355cdc0cb92b9
 docker: quay.io/biocontainers/bioconductor-tenxio
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

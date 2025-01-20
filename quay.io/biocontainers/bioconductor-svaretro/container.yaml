@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-svaretro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-svaretro
 latest:
-  1.8.0--r43hdfd78af_0: sha256:a94c8313e127b92f1bf3e1485894c0bf7e6f202ada73ecd241679398712f4e0d
+  1.12.0--r44hdfd78af_0: sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318
 tags:
   1.0.0--r41hdfd78af_0: sha256:770cca9735b372122e8edbf58acecfd7f552b0415f396dfbf5615267de7cbc73
   1.4.0--r42hdfd78af_0: sha256:8ba70467b5644eb865f1611d101749cd693bd6a4804d4ab810ccb1e82302ab72
   1.6.0--r43hdfd78af_0: sha256:b11582ced7cec814cd372fd2f43dd6c657ce9a85c8811b612b760bf382896a42
   1.8.0--r43hdfd78af_0: sha256:a94c8313e127b92f1bf3e1485894c0bf7e6f202ada73ecd241679398712f4e0d
+  1.12.0--r44hdfd78af_0: sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318
 docker: quay.io/biocontainers/bioconductor-svaretro

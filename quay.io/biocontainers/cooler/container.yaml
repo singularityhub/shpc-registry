@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/cooler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cooler
 latest:
-  0.10.2--pyhdfd78af_0: sha256:0e268b6322b6614776492573db688798e39f3949167b8b56f502ce84633cb4a8
+  0.10.3--pyhdfd78af_0: sha256:94a13ebc9d99c62ee70fbd44976eb2e9b7b0a8f1453792c372a52ec2505c0307
 tags:
   0.8.7--pyh4c3bd37_0: sha256:cacf523bd8aef663ea3b8eac00196c21d28bae9b9f3b5eab2aead6efa4e13d3e
   0.9.3--pyhdfd78af_0: sha256:4456e3b5c5c5454980f76c980a988a4b6feeb1e209e26fd206b9912abcb16061
   0.8.11--pyh7cba7a3_2: sha256:397b8e497740045a31946c9eb290f34e277100fbd0c0176603591e6f371221a1
   0.10.2--pyhdfd78af_0: sha256:0e268b6322b6614776492573db688798e39f3949167b8b56f502ce84633cb4a8
+  0.10.3--pyhdfd78af_0: sha256:94a13ebc9d99c62ee70fbd44976eb2e9b7b0a8f1453792c372a52ec2505c0307
 docker: quay.io/biocontainers/cooler
 aliases:
   cooler: /usr/local/bin/cooler

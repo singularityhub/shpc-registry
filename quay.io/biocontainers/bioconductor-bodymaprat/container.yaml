@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-bodymaprat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bodymaprat
 latest:
-  1.18.0--r43hdfd78af_0: sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05
+  1.22.0--r44hdfd78af_0: sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675
 tags:
   1.8.0--r41hdfd78af_0: sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04
   1.14.0--r42hdfd78af_0: sha256:3f4cf9bc86a6b185d62ecfcc6fa77caf76d0908e507b27b4fc8ee048a7b35beb
   1.10.0--r41hdfd78af_1: sha256:f80413521129380d75e81ef28e526dbaf35981c4800e7db9167e996cabe6304f
   1.16.0--r43hdfd78af_0: sha256:5e42d5424863a1f10ca7cf6a0995a6775e7bbadd4ef9959da630b26bb321fe16
   1.18.0--r43hdfd78af_0: sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05
+  1.22.0--r44hdfd78af_0: sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675
 docker: quay.io/biocontainers/bioconductor-bodymaprat
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

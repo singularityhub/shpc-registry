@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-seqcat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seqcat
 latest:
-  1.24.0--r43hdfd78af_0: sha256:f7ed03ed8c66649dff2ba8677839a6c1e7414d8a804bf837c3d68ae6b710cb2b
+  1.28.0--r44hdfd78af_0: sha256:477fb74498370dcef014241d0212f9f3d2563fdcc5ae2af467d7ececad23fa86
 tags:
   1.8.0--r36_0: sha256:a6452d96181e57844a0a39caa0f2483d6100c65cca1414b98d696457aac00299
   1.20.0--r42hdfd78af_0: sha256:0236689eadc93ad644d8d4cc4c5fbe7d1fc101b9a7a90971d353408d4a55614f
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:726b93ed9431d5508d3e5033f026acc7d5d10df5ad1399158260486692490f8c
   1.22.0--r43hdfd78af_0: sha256:82c1188246b75c65766c9cf155f9c5f7cf5915f287533b766b5b07270429586b
   1.24.0--r43hdfd78af_0: sha256:f7ed03ed8c66649dff2ba8677839a6c1e7414d8a804bf837c3d68ae6b710cb2b
+  1.28.0--r44hdfd78af_0: sha256:477fb74498370dcef014241d0212f9f3d2563fdcc5ae2af467d7ececad23fa86
 docker: quay.io/biocontainers/bioconductor-seqcat
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

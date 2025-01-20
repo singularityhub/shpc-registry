@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ctdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ctdata
 latest:
-  1.2.0--r43hdfd78af_0: sha256:08c678a4a915fb5ba425a2a19e3a6689207193125fcaf6cace3c232f43e6e15c
+  1.6.0--r44hdfd78af_0: sha256:50f03233e2aac11663a0a4110fe6ed4228b11532c78a8ab3875d758271a9b6b5
 tags:
   1.0.2--r43hdfd78af_0: sha256:6373d3dfb8af3b817df178ecffc8cf182cfb527da7a1aa12d472b9f0428b65fd
   1.2.0--r43hdfd78af_0: sha256:08c678a4a915fb5ba425a2a19e3a6689207193125fcaf6cace3c232f43e6e15c
+  1.6.0--r44hdfd78af_0: sha256:50f03233e2aac11663a0a4110fe6ed4228b11532c78a8ab3875d758271a9b6b5
 docker: quay.io/biocontainers/bioconductor-ctdata
 aliases:
   hb-info: /usr/local/bin/hb-info

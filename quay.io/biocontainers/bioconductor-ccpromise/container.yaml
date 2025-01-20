@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ccpromise
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ccpromise
 latest:
-  1.26.0--r43hdfd78af_0: sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08
+  1.32.0--r44hdfd78af_0: sha256:fc434d025d5040efacca335115ed965ebd6a8e56a9956d1a34b8a8e9f622efb7
 tags:
   1.8.0--r351_0: sha256:be49e3fdf780e625ddc004d11d81d69e54587277d8e08ad19b102556c62143ef
   1.24.0--r42hdfd78af_0: sha256:b941f43c6de49a03320d1f17547404ee505d26639c50c5bd8835939b431334b1
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:ed7c18739aa6147676cc1477b69f0b92c947939fc52ff1402ef7ac54b323a7d0
   1.14.0--r40_0: sha256:852876f638d5c5e40468aeacdce3e4ea684eeff259f4d600a81d763610632d3f
   1.26.0--r43hdfd78af_0: sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08
+  1.32.0--r44hdfd78af_0: sha256:fc434d025d5040efacca335115ed965ebd6a8e56a9956d1a34b8a8e9f622efb7
 docker: quay.io/biocontainers/bioconductor-ccpromise
 aliases:
   c89: /usr/local/bin/c89

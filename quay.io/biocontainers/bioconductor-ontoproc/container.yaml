@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ontoproc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ontoproc
 latest:
-  1.24.0--r43hdfd78af_0: sha256:e742eccd26792d4f10b7ec554c601cd73b732f2da5fb1c918becc270d396231e
+  2.0.0--r44hdfd78af_0: sha256:5e73fc633776a911b01e4bfcaa2737d65cc07486b5a2456d3a1b514cc1229291
 tags:
   1.8.0--r36_0: sha256:9d46d4b6b853bc0d5230735ef2304fbe5bb6a2c8d7305f24e228ff37025c9c72
   1.20.0--r42hdfd78af_0: sha256:7cab9df75b2c05d6301116fae53b2247708727378d424d9f4c66cb6aff7ce8bf
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:b0dfb0c09c4985cba680a16c862aa21e46c103fe022e8a8b559335f871da0541
   1.22.0--r43hdfd78af_0: sha256:37a55aab166489267c89dd5a6032d4426947370bd391b145127a1f5d343a147a
   1.24.0--r43hdfd78af_0: sha256:e742eccd26792d4f10b7ec554c601cd73b732f2da5fb1c918becc270d396231e
+  2.0.0--r44hdfd78af_0: sha256:5e73fc633776a911b01e4bfcaa2737d65cc07486b5a2456d3a1b514cc1229291
 docker: quay.io/biocontainers/bioconductor-ontoproc
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

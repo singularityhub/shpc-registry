@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cytoviewer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cytoviewer
 latest:
-  1.2.0--r43hdfd78af_0: sha256:3453373006b2455a47b8c1123050a95fff5ed99df9f4184f1990de05c81a33d1
+  1.6.0--r44hdfd78af_0: sha256:352b7e1609f870fc67acc61c1e94e77d9c614319cc7015fae6e4c9b3cc696f79
 tags:
   1.0.0--r43hdfd78af_0: sha256:2f4cdf8ca6aa149b78313445f911f9d1990c23307d29391620586aa179b7ea84
   1.2.0--r43hdfd78af_0: sha256:3453373006b2455a47b8c1123050a95fff5ed99df9f4184f1990de05c81a33d1
+  1.6.0--r44hdfd78af_0: sha256:352b7e1609f870fc67acc61c1e94e77d9c614319cc7015fae6e4c9b3cc696f79
 docker: quay.io/biocontainers/bioconductor-cytoviewer
 aliases:
   elastipubsub5: /usr/local/bin/elastipubsub5

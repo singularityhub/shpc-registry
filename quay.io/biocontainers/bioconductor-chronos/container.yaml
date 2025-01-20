@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-chronos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chronos
 latest:
-  1.30.0--r43hdfd78af_0: sha256:6ef75c6a106d7ad6d9842eefa4dcc8afbefd682cdac396d0ddc424eec1acd7d9
+  1.34.0--r44hdfd78af_0: sha256:b51c8a3c0002d6605190757bbf737bbaa5e192b07d042ae97c976e1ee5a28007
 tags:
   1.8.1--r351_0: sha256:06cb7da23a289742364e22ff86458838e2a1a71f6de7e491c223c9eb26e91a6e
   1.26.0--r42hdfd78af_0: sha256:23e573425b594e0cc289be2aa60021d99cdfdd29b58699ba32d25a6be3fc8c10
@@ -12,4 +12,5 @@ tags:
   1.16.0--r40_0: sha256:c3c480ab1aa23599e8ebc1415bb2004028da452b4f2db58b94c89b17f9d60049
   1.28.0--r43hdfd78af_0: sha256:ee174e6aa688a42b0a8efe6253d26b5c31759509f4d87f9a43e8fdc045e59f77
   1.30.0--r43hdfd78af_0: sha256:6ef75c6a106d7ad6d9842eefa4dcc8afbefd682cdac396d0ddc424eec1acd7d9
+  1.34.0--r44hdfd78af_0: sha256:b51c8a3c0002d6605190757bbf737bbaa5e192b07d042ae97c976e1ee5a28007
 docker: quay.io/biocontainers/bioconductor-chronos
