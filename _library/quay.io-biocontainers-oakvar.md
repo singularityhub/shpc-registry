@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oakvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oakvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oakvar/container.yaml"
-updated_at: "2025-01-20 04:14:19.917600"
+updated_at: "2025-01-21 03:17:29.165967"
 latest: "2.12.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oakvar"
 aliases:

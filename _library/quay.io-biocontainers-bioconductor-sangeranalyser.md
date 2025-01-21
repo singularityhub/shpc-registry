@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sangeranalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sangeranalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sangeranalyser/container.yaml"
-updated_at: "2025-01-20 03:56:54.806967"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-21 03:00:16.184818"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sangeranalyser"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sangeranalyser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sangeranalyser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sangeranalyser", "latest": {"1.12.0--r43hdfd78af_0": "sha256:a448f1c4ec40b45f33e7ece38401c2ed473ce4fbf485d3d9f92557285f340491"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c942dc80b19593cc867c70dc109bd21c999d3157276b92f448bf109e3fd54e99", "1.8.0--r42hdfd78af_0": "sha256:d23f36c71ba00e09b51be72fb99700994c3c6f26aa110e95130dee19a6481398", "1.10.0--r43hdfd78af_0": "sha256:39a1722eddb84e11592bb11ea40e276ed10c76d9a26241983c4d43ca083928b4", "1.12.0--r43hdfd78af_0": "sha256:a448f1c4ec40b45f33e7ece38401c2ed473ce4fbf485d3d9f92557285f340491"}, "docker": "quay.io/biocontainers/bioconductor-sangeranalyser", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sangeranalyser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sangeranalyser", "latest": {"1.16.0--r44hdfd78af_0": "sha256:46bd351b4e5b7bd50c738b2b5e53c19eaab6aa8bf99f15d72904af4280ac2224"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c942dc80b19593cc867c70dc109bd21c999d3157276b92f448bf109e3fd54e99", "1.8.0--r42hdfd78af_0": "sha256:d23f36c71ba00e09b51be72fb99700994c3c6f26aa110e95130dee19a6481398", "1.10.0--r43hdfd78af_0": "sha256:39a1722eddb84e11592bb11ea40e276ed10c76d9a26241983c4d43ca083928b4", "1.12.0--r43hdfd78af_0": "sha256:a448f1c4ec40b45f33e7ece38401c2ed473ce4fbf485d3d9f92557285f340491", "1.16.0--r44hdfd78af_0": "sha256:46bd351b4e5b7bd50c738b2b5e53c19eaab6aa8bf99f15d72904af4280ac2224"}, "docker": "quay.io/biocontainers/bioconductor-sangeranalyser", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sangeranalyser.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sangeranalyser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sangeranalyser:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sangeranalyser:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sangeranalyser/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sangeranalyser/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sangeranalyser/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sangeranalyser/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

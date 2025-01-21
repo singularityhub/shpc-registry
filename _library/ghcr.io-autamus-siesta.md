@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/siesta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/siesta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/siesta/container.yaml"
-updated_at: "2025-01-20 03:41:09.120258"
+updated_at: "2025-01-21 02:44:55.085843"
 latest: "4.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/siesta"
 aliases:

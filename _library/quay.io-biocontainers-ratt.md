@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ratt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratt/container.yaml"
-updated_at: "2025-01-20 04:00:17.313654"
+updated_at: "2025-01-21 03:03:36.956412"
 latest: "1.0.3--0"
 container_url: "https://biocontainers.pro/tools/ratt"
 aliases:

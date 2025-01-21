@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-csaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csaw/container.yaml"
-updated_at: "2025-01-20 04:28:35.360641"
-latest: "1.36.0--r43hf17093f_1"
+updated_at: "2025-01-21 03:31:33.287153"
+latest: "1.40.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csaw"
 aliases:
  - "bmp2tiff"
@@ -28,8 +28,9 @@ versions:
  - "1.34.0--r43hf17093f_0"
  - "1.36.0--r43hf17093f_0"
  - "1.36.0--r43hf17093f_1"
+ - "1.40.0--r44h77050f0_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-csaw"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-csaw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csaw", "latest": {"1.36.0--r43hf17093f_1": "sha256:8651500de61850c02e5ebafa0efb394ed022f39ffcb77e3316e1a6a422853577"}, "tags": {"1.6.1--r3.4.1_0": "sha256:8469ffcd9e5dee606d46d8a04d85d8aaa1c1bbc6f2ff9576466fba2c6a501f74", "1.32.0--r42hc247a5b_0": "sha256:312ad5902299099a06de47dc4bd0a86e8110c9e4d2b2d4f787f1d60073baf2c8", "1.28.0--r41hc247a5b_2": "sha256:c409927dbab3663fb8b4716a9ae5a35d61116fbe9654de7a275f73fd65ff86bd", "1.26.0--r41h399db7b_0": "sha256:c0122c9d0c63977e48873f68b14bad4e0b9042344dd7d345365fe2d91f094a1b", "1.24.3--r40h399db7b_0": "sha256:cbdac024d39e8aefdf2374951d74f1079f3653a1dbde9c71195aa0fd1422a570", "1.22.0--r40h5f743cb_0": "sha256:60c07d3a571fd0081dd0f7b0b7a144e7d4bf377396860f397a7581a9ff7bb9cc", "1.32.0--r42hf17093f_1": "sha256:8ee087043354119376f25b9ad99379099f9e9fe9c4290dcfcefa0dd499ad6de7", "1.34.0--r43hf17093f_0": "sha256:55762af2f5c82b482d8c91aea5af2028edbb840d223244ad4eed2dcf856ee8e9", "1.36.0--r43hf17093f_0": "sha256:6816330b2adeec2b0721d931e67fb9d60747fe0157f692cde71003991563aa7b", "1.36.0--r43hf17093f_1": "sha256:8651500de61850c02e5ebafa0efb394ed022f39ffcb77e3316e1a6a422853577"}, "docker": "quay.io/biocontainers/bioconductor-csaw", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-csaw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csaw", "latest": {"1.40.0--r44h77050f0_0": "sha256:29297b09515aefd81ee4b62258efd1d7de54a3baed0a8f6df4a9b808ddf34076"}, "tags": {"1.6.1--r3.4.1_0": "sha256:8469ffcd9e5dee606d46d8a04d85d8aaa1c1bbc6f2ff9576466fba2c6a501f74", "1.32.0--r42hc247a5b_0": "sha256:312ad5902299099a06de47dc4bd0a86e8110c9e4d2b2d4f787f1d60073baf2c8", "1.28.0--r41hc247a5b_2": "sha256:c409927dbab3663fb8b4716a9ae5a35d61116fbe9654de7a275f73fd65ff86bd", "1.26.0--r41h399db7b_0": "sha256:c0122c9d0c63977e48873f68b14bad4e0b9042344dd7d345365fe2d91f094a1b", "1.24.3--r40h399db7b_0": "sha256:cbdac024d39e8aefdf2374951d74f1079f3653a1dbde9c71195aa0fd1422a570", "1.22.0--r40h5f743cb_0": "sha256:60c07d3a571fd0081dd0f7b0b7a144e7d4bf377396860f397a7581a9ff7bb9cc", "1.32.0--r42hf17093f_1": "sha256:8ee087043354119376f25b9ad99379099f9e9fe9c4290dcfcefa0dd499ad6de7", "1.34.0--r43hf17093f_0": "sha256:55762af2f5c82b482d8c91aea5af2028edbb840d223244ad4eed2dcf856ee8e9", "1.36.0--r43hf17093f_0": "sha256:6816330b2adeec2b0721d931e67fb9d60747fe0157f692cde71003991563aa7b", "1.36.0--r43hf17093f_1": "sha256:8651500de61850c02e5ebafa0efb394ed022f39ffcb77e3316e1a6a422853577", "1.40.0--r44h77050f0_0": "sha256:29297b09515aefd81ee4b62258efd1d7de54a3baed0a8f6df4a9b808ddf34076"}, "docker": "quay.io/biocontainers/bioconductor-csaw", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-csaw.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-csaw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-csaw:1.36.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-csaw:1.40.0--r44h77050f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-csaw/1.36.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-csaw/1.36.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-csaw/1.40.0--r44h77050f0_0
+$ module help quay.io/biocontainers/bioconductor-csaw/1.40.0--r44h77050f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

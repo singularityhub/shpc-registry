@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/somaticseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somaticseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somaticseq/container.yaml"
-updated_at: "2025-01-20 04:15:55.560761"
+updated_at: "2025-01-21 03:19:03.561316"
 latest: "3.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/somaticseq"
 aliases:

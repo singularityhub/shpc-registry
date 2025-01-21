@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cwl2wdl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwl2wdl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cwl2wdl/container.yaml"
-updated_at: "2025-01-20 04:25:55.831200"
+updated_at: "2025-01-21 03:28:55.563446"
 latest: "0.1dev44--py_2"
 container_url: "https://biocontainers.pro/tools/cwl2wdl"
 aliases:

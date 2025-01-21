@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/python/container.yaml"
-updated_at: "2025-01-20 03:41:14.493885"
+updated_at: "2025-01-21 02:45:00.339152"
 latest: "3.10.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/python"
 aliases:

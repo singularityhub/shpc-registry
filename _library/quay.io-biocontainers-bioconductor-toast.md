@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-toast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-toast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-toast/container.yaml"
-updated_at: "2025-01-20 04:23:47.482834"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-01-21 03:26:49.004639"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-toast"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-toast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-toast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-toast", "latest": {"1.16.0--r43hdfd78af_0": "sha256:0c8600bb42b94cc1f18dde94bd63d00b0c43dac09ff94af9bdf96ae54cfb6629"}, "tags": {"1.7.1--r41hdfd78af_0": "sha256:b8ecf66124f6a42aeeb40f6d9125b9d60889e4e5d1011cf255f6d9686eb1b86c", "1.12.0--r42hdfd78af_0": "sha256:102812a304623a0f41c77e80f548a6f787c1d34ff36dccc83e1973e5c0af6745", "1.14.0--r43hdfd78af_0": "sha256:df18a50d14293f3327703cbb3d1770d642d07fc2e4ad4166de50a43324927b6f", "1.16.0--r43hdfd78af_0": "sha256:0c8600bb42b94cc1f18dde94bd63d00b0c43dac09ff94af9bdf96ae54cfb6629"}, "docker": "quay.io/biocontainers/bioconductor-toast"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-toast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-toast", "latest": {"1.20.0--r44hdfd78af_0": "sha256:7e39da14cf23b5a27a010d39b353c736747864683493cdce6fa24577dc9bc02d"}, "tags": {"1.7.1--r41hdfd78af_0": "sha256:b8ecf66124f6a42aeeb40f6d9125b9d60889e4e5d1011cf255f6d9686eb1b86c", "1.12.0--r42hdfd78af_0": "sha256:102812a304623a0f41c77e80f548a6f787c1d34ff36dccc83e1973e5c0af6745", "1.14.0--r43hdfd78af_0": "sha256:df18a50d14293f3327703cbb3d1770d642d07fc2e4ad4166de50a43324927b6f", "1.16.0--r43hdfd78af_0": "sha256:0c8600bb42b94cc1f18dde94bd63d00b0c43dac09ff94af9bdf96ae54cfb6629", "1.20.0--r44hdfd78af_0": "sha256:7e39da14cf23b5a27a010d39b353c736747864683493cdce6fa24577dc9bc02d"}, "docker": "quay.io/biocontainers/bioconductor-toast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-toast.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-toast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-toast:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-toast:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-toast/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-toast/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-toast/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-toast/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/astalavista"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astalavista/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astalavista/container.yaml"
-updated_at: "2025-01-20 04:09:44.156208"
+updated_at: "2025-01-21 03:12:57.656539"
 latest: "4.0--1"
 container_url: "https://biocontainers.pro/tools/astalavista"
 aliases:

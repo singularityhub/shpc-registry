@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbcoretools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcoretools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbcoretools/container.yaml"
-updated_at: "2025-01-20 03:52:59.041340"
+updated_at: "2025-01-21 02:56:23.446002"
 latest: "0.8.1--py_1"
 container_url: "https://biocontainers.pro/tools/pbcoretools"
 aliases:

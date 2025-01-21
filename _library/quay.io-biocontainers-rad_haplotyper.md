@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rad_haplotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
-updated_at: "2025-01-20 04:01:33.046234"
-latest: "1.1.9--pl5321h031d066_7"
+updated_at: "2025-01-21 03:04:52.301483"
+latest: "1.1.9--pl5321h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/rad_haplotyper"
 aliases:
  - "ErrorCount.sh"
@@ -51,8 +51,9 @@ aliases:
 versions:
  - "1.1.9--pl5321hec16e2b_6"
  - "1.1.9--pl5321h031d066_7"
+ - "1.1.9--pl5321h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for rad_haplotyper"
-config: {"url": "https://biocontainers.pro/tools/rad_haplotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rad_haplotyper", "latest": {"1.1.9--pl5321h031d066_7": "sha256:939cdd5b720ca35f6b2b51075ef62555ea89d4e94bce5e0c054a1b38a00ebbef"}, "tags": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5", "1.1.9--pl5321h031d066_7": "sha256:939cdd5b720ca35f6b2b51075ef62555ea89d4e94bce5e0c054a1b38a00ebbef"}, "docker": "quay.io/biocontainers/rad_haplotyper", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rad_haplotyper.pl": "/usr/local/bin/rad_haplotyper.pl", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "update_version.sh": "/usr/local/bin/update_version.sh", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/rad_haplotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rad_haplotyper", "latest": {"1.1.9--pl5321h7b50bb2_8": "sha256:70e575d19a405310e56e584d021212c0387c7a22e21ce7f5003ef674b37940e0"}, "tags": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5", "1.1.9--pl5321h031d066_7": "sha256:939cdd5b720ca35f6b2b51075ef62555ea89d4e94bce5e0c054a1b38a00ebbef", "1.1.9--pl5321h7b50bb2_8": "sha256:70e575d19a405310e56e584d021212c0387c7a22e21ce7f5003ef674b37940e0"}, "docker": "quay.io/biocontainers/rad_haplotyper", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rad_haplotyper.pl": "/usr/local/bin/rad_haplotyper.pl", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "update_version.sh": "/usr/local/bin/update_version.sh", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rad_haplotyper.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/rad_haplotyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rad_haplotyper:1.1.9--pl5321h031d066_7
+$ shpc install quay.io/biocontainers/rad_haplotyper:1.1.9--pl5321h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rad_haplotyper/1.1.9--pl5321h031d066_7
-$ module help quay.io/biocontainers/rad_haplotyper/1.1.9--pl5321h031d066_7
+$ module load quay.io/biocontainers/rad_haplotyper/1.1.9--pl5321h7b50bb2_8
+$ module help quay.io/biocontainers/rad_haplotyper/1.1.9--pl5321h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytosnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytosnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytosnake/container.yaml"
-updated_at: "2025-01-20 03:49:00.280247"
+updated_at: "2025-01-21 02:52:28.970012"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cytosnake"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enrichedheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichedheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichedheatmap/container.yaml"
-updated_at: "2025-01-20 03:51:16.525887"
+updated_at: "2025-01-21 02:54:42.473453"
 latest: "1.36.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichedheatmap"
 

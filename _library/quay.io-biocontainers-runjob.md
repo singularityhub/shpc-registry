@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/runjob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/runjob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/runjob/container.yaml"
-updated_at: "2025-01-20 04:10:42.993558"
+updated_at: "2025-01-21 03:13:55.610781"
 latest: "2.10.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/runjob"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prot-scriber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prot-scriber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prot-scriber/container.yaml"
-updated_at: "2025-01-20 04:11:11.020353"
+updated_at: "2025-01-21 03:14:23.145721"
 latest: "0.1.6--hc1c3326_2"
 container_url: "https://biocontainers.pro/tools/prot-scriber"
 aliases:

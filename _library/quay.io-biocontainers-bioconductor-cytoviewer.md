@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytoviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytoviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytoviewer/container.yaml"
-updated_at: "2025-01-20 04:08:45.235346"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-21 03:11:59.727363"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytoviewer"
 aliases:
  - "elastipubsub5"
@@ -44,8 +44,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytoviewer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytoviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytoviewer", "latest": {"1.2.0--r43hdfd78af_0": "sha256:3453373006b2455a47b8c1123050a95fff5ed99df9f4184f1990de05c81a33d1"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2f4cdf8ca6aa149b78313445f911f9d1990c23307d29391620586aa179b7ea84", "1.2.0--r43hdfd78af_0": "sha256:3453373006b2455a47b8c1123050a95fff5ed99df9f4184f1990de05c81a33d1"}, "docker": "quay.io/biocontainers/bioconductor-cytoviewer", "aliases": {"elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "sozip": "/usr/local/bin/sozip", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "pg_amcheck": "/usr/local/bin/pg_amcheck", "h5delete": "/usr/local/bin/h5delete", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfsig": "/usr/local/bin/pdfsig", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "sha256_profile": "/usr/local/bin/sha256_profile", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytoviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytoviewer", "latest": {"1.6.0--r44hdfd78af_0": "sha256:352b7e1609f870fc67acc61c1e94e77d9c614319cc7015fae6e4c9b3cc696f79"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2f4cdf8ca6aa149b78313445f911f9d1990c23307d29391620586aa179b7ea84", "1.2.0--r43hdfd78af_0": "sha256:3453373006b2455a47b8c1123050a95fff5ed99df9f4184f1990de05c81a33d1", "1.6.0--r44hdfd78af_0": "sha256:352b7e1609f870fc67acc61c1e94e77d9c614319cc7015fae6e4c9b3cc696f79"}, "docker": "quay.io/biocontainers/bioconductor-cytoviewer", "aliases": {"elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "sozip": "/usr/local/bin/sozip", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "pg_amcheck": "/usr/local/bin/pg_amcheck", "h5delete": "/usr/local/bin/h5delete", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfsig": "/usr/local/bin/pdfsig", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "sha256_profile": "/usr/local/bin/sha256_profile", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytoviewer.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytoviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytoviewer:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytoviewer:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytoviewer/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytoviewer/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytoviewer/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytoviewer/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

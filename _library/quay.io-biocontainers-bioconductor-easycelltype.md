@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-easycelltype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easycelltype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easycelltype/container.yaml"
-updated_at: "2025-01-20 04:07:12.594178"
+updated_at: "2025-01-21 03:10:28.981633"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easycelltype"
 aliases:

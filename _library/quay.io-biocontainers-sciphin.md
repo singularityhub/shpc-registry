@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sciphin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sciphin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sciphin/container.yaml"
-updated_at: "2025-01-20 03:47:27.270182"
+updated_at: "2025-01-21 02:50:59.044958"
 latest: "1.0.1--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/sciphin"
 aliases:

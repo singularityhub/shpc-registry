@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zinbwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zinbwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zinbwave/container.yaml"
-updated_at: "2025-01-20 04:24:03.291985"
+updated_at: "2025-01-21 03:27:04.668706"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zinbwave"
 aliases:

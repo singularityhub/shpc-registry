@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-escher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-escher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-escher/container.yaml"
-updated_at: "2025-01-20 04:04:19.323776"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-21 03:07:37.448814"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-escher"
 aliases:
  - "git2"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-escher"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-escher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-escher", "latest": {"1.2.0--r43hdfd78af_0": "sha256:2721007ed34480d27cf9aa8cdf9e2de8ed7b449d2ed843553930ef06f86e12f5"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0", "1.2.0--r43hdfd78af_0": "sha256:2721007ed34480d27cf9aa8cdf9e2de8ed7b449d2ed843553930ef06f86e12f5"}, "docker": "quay.io/biocontainers/bioconductor-escher", "aliases": {"git2": "/usr/local/bin/git2", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "hb-info": "/usr/local/bin/hb-info", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-escher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-escher", "latest": {"1.6.0--r44hdfd78af_0": "sha256:152d68937054a64c33d7b067e43f277724787d8f306201e5830c8d261d621341"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0", "1.2.0--r43hdfd78af_0": "sha256:2721007ed34480d27cf9aa8cdf9e2de8ed7b449d2ed843553930ef06f86e12f5", "1.6.0--r44hdfd78af_0": "sha256:152d68937054a64c33d7b067e43f277724787d8f306201e5830c8d261d621341"}, "docker": "quay.io/biocontainers/bioconductor-escher", "aliases": {"git2": "/usr/local/bin/git2", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "hb-info": "/usr/local/bin/hb-info", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-escher.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-escher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-escher:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-escher:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-escher/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-escher/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-escher/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-escher/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

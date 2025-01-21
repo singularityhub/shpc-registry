@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-otubase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-otubase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-otubase/container.yaml"
-updated_at: "2025-01-20 03:47:15.050802"
-latest: "1.52.0--r43hdfd78af_0"
+updated_at: "2025-01-21 02:50:47.173090"
+latest: "1.56.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-otubase"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.48.0--r42hdfd78af_0"
  - "1.50.0--r43hdfd78af_0"
  - "1.52.0--r43hdfd78af_0"
+ - "1.56.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-otubase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-otubase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-otubase", "latest": {"1.52.0--r43hdfd78af_0": "sha256:5faac5b405d540dfc92537decd7a1761325d7e0d1aa2a3d17c4ef7588988ffce"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:52f0b8efd231174b4ea641201566a4a560a5286aa43aeecf6cb48050f90eb8c6", "1.48.0--r42hdfd78af_0": "sha256:ee21251070861c38f614e749c4af9a347b018ed6df9f65985941e6f6675a0a7d", "1.50.0--r43hdfd78af_0": "sha256:f9f8ac5a5c6d55be70ad966983d59858e486d88f6d371679024897cbd09d98f9", "1.52.0--r43hdfd78af_0": "sha256:5faac5b405d540dfc92537decd7a1761325d7e0d1aa2a3d17c4ef7588988ffce"}, "docker": "quay.io/biocontainers/bioconductor-otubase"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-otubase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-otubase", "latest": {"1.56.0--r44hdfd78af_0": "sha256:949a80ca990419f6bd297ee6343c7b566ce5404dcc4915274459a9b63d493f75"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:52f0b8efd231174b4ea641201566a4a560a5286aa43aeecf6cb48050f90eb8c6", "1.48.0--r42hdfd78af_0": "sha256:ee21251070861c38f614e749c4af9a347b018ed6df9f65985941e6f6675a0a7d", "1.50.0--r43hdfd78af_0": "sha256:f9f8ac5a5c6d55be70ad966983d59858e486d88f6d371679024897cbd09d98f9", "1.52.0--r43hdfd78af_0": "sha256:5faac5b405d540dfc92537decd7a1761325d7e0d1aa2a3d17c4ef7588988ffce", "1.56.0--r44hdfd78af_0": "sha256:949a80ca990419f6bd297ee6343c7b566ce5404dcc4915274459a9b63d493f75"}, "docker": "quay.io/biocontainers/bioconductor-otubase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-otubase.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-otubase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-otubase:1.52.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-otubase:1.56.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-otubase/1.52.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-otubase/1.52.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-otubase/1.56.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-otubase/1.56.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

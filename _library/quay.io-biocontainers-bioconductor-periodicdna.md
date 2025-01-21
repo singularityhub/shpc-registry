@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-periodicdna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-periodicdna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-periodicdna/container.yaml"
-updated_at: "2025-01-20 03:56:21.350244"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-21 02:59:43.316530"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-periodicdna"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-periodicdna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-periodicdna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-periodicdna", "latest": {"1.12.0--r43hdfd78af_0": "sha256:0c03fd20870772be97603fd9113f3ceeaa94778102bb68c3599fbf410bc98294"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7", "1.8.0--r42hdfd78af_0": "sha256:99aa4b0433563bee10b5b79390976ed5d47c1e9347dd636e8c27443ccaa28238", "1.10.0--r43hdfd78af_0": "sha256:78c42d234ddb57cc0b90fbb23e15c9679daaa65ef2a0d9832169cb1307f2ab22", "1.12.0--r43hdfd78af_0": "sha256:0c03fd20870772be97603fd9113f3ceeaa94778102bb68c3599fbf410bc98294"}, "docker": "quay.io/biocontainers/bioconductor-periodicdna"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-periodicdna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-periodicdna", "latest": {"1.16.0--r44hdfd78af_0": "sha256:18511f9bdc347d6535808ddf41a347b7a30a361304140e99522c564f3e191a03"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7", "1.8.0--r42hdfd78af_0": "sha256:99aa4b0433563bee10b5b79390976ed5d47c1e9347dd636e8c27443ccaa28238", "1.10.0--r43hdfd78af_0": "sha256:78c42d234ddb57cc0b90fbb23e15c9679daaa65ef2a0d9832169cb1307f2ab22", "1.12.0--r43hdfd78af_0": "sha256:0c03fd20870772be97603fd9113f3ceeaa94778102bb68c3599fbf410bc98294", "1.16.0--r44hdfd78af_0": "sha256:18511f9bdc347d6535808ddf41a347b7a30a361304140e99522c564f3e191a03"}, "docker": "quay.io/biocontainers/bioconductor-periodicdna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-periodicdna.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-periodicdna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-periodicdna:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-periodicdna:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-periodicdna/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-periodicdna/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-periodicdna/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-periodicdna/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

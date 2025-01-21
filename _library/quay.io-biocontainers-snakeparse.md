@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakeparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakeparse/container.yaml"
-updated_at: "2025-01-20 04:08:43.813676"
+updated_at: "2025-01-21 03:11:58.334056"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/snakeparse"
 aliases:

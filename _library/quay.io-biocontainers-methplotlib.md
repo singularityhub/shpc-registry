@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methplotlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methplotlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methplotlib/container.yaml"
-updated_at: "2025-01-20 04:11:46.314316"
+updated_at: "2025-01-21 03:14:57.747123"
 latest: "0.21.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methplotlib"
 aliases:

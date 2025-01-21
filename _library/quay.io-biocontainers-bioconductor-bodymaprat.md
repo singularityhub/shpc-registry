@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bodymaprat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bodymaprat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bodymaprat/container.yaml"
-updated_at: "2025-01-20 04:21:25.457585"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2025-01-21 03:24:28.634144"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bodymaprat"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.10.0--r41hdfd78af_1"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bodymaprat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bodymaprat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bodymaprat", "latest": {"1.18.0--r43hdfd78af_0": "sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04", "1.14.0--r42hdfd78af_0": "sha256:3f4cf9bc86a6b185d62ecfcc6fa77caf76d0908e507b27b4fc8ee048a7b35beb", "1.10.0--r41hdfd78af_1": "sha256:f80413521129380d75e81ef28e526dbaf35981c4800e7db9167e996cabe6304f", "1.16.0--r43hdfd78af_0": "sha256:5e42d5424863a1f10ca7cf6a0995a6775e7bbadd4ef9959da630b26bb321fe16", "1.18.0--r43hdfd78af_0": "sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05"}, "docker": "quay.io/biocontainers/bioconductor-bodymaprat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bodymaprat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bodymaprat", "latest": {"1.22.0--r44hdfd78af_0": "sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04", "1.14.0--r42hdfd78af_0": "sha256:3f4cf9bc86a6b185d62ecfcc6fa77caf76d0908e507b27b4fc8ee048a7b35beb", "1.10.0--r41hdfd78af_1": "sha256:f80413521129380d75e81ef28e526dbaf35981c4800e7db9167e996cabe6304f", "1.16.0--r43hdfd78af_0": "sha256:5e42d5424863a1f10ca7cf6a0995a6775e7bbadd4ef9959da630b26bb321fe16", "1.18.0--r43hdfd78af_0": "sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05", "1.22.0--r44hdfd78af_0": "sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675"}, "docker": "quay.io/biocontainers/bioconductor-bodymaprat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bodymaprat.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bodymaprat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bodymaprat:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bodymaprat:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bodymaprat/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bodymaprat/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bodymaprat/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bodymaprat/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

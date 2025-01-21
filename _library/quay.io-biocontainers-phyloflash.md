@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyloflash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloflash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloflash/container.yaml"
-updated_at: "2025-01-20 04:19:17.941984"
+updated_at: "2025-01-21 03:22:23.019575"
 latest: "3.4.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phyloflash"
 aliases:

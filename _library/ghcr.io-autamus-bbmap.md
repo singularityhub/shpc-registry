@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bbmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bbmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bbmap/container.yaml"
-updated_at: "2025-01-20 03:41:53.381956"
+updated_at: "2025-01-21 02:45:37.925437"
 latest: "38.63"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bbmap"
 
