@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-moe430b.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moe430b.db
 latest:
-  3.13.0--r43hdfd78af_4: sha256:1ec437ef3d35507aa27a8722769a6e2feae66ab3325444a1c6ad0af1d7dcb7db
+  3.13.0--r44hdfd78af_5: sha256:56bfda7ee6008c826b619a4800e44e53488bc36c2468a224bbf91af3bc55809a
 tags:
   3.2.3--r41hdfd78af_7: sha256:bc14af07e6d7d513337b91eeaa793d5c5236df07e179c88f122cefd4f009c986
   3.13.0--r42hdfd78af_2: sha256:3e65ee65dfc16214d7a50c3e4bc4c6de43f8c63dcd1a4c37399b36d48bdc1098
   3.13.0--r43hdfd78af_3: sha256:06b24192e40b3e654818312618c05f90f67440376395c8d38dca8c6885a2d817
   3.13.0--r43hdfd78af_4: sha256:1ec437ef3d35507aa27a8722769a6e2feae66ab3325444a1c6ad0af1d7dcb7db
+  3.13.0--r44hdfd78af_5: sha256:56bfda7ee6008c826b619a4800e44e53488bc36c2468a224bbf91af3bc55809a
 docker: quay.io/biocontainers/bioconductor-moe430b.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

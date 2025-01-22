@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-lumimouseidmapping
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lumimouseidmapping
 latest:
-  1.10.0--r43hdfd78af_12: sha256:f32a616b91bd0a2db4dc4e18ee96c396770401d7f5cf8d48a7f32a58e1a2c6bc
+  1.10.0--r44hdfd78af_13: sha256:a7f00212e34d02afa8ffb090d7d6884be0cbacb7db922544d38f4c26d8736e09
 tags:
   1.10.0--r41hdfd78af_9: sha256:d96777c56a9660436113df3f3acb92f54c62123268738a75efbcbe5395835d19
   1.10.0--r42hdfd78af_10: sha256:8fe50e364a9148cf0a4949bdef7baf09b52b53685b31af02f3b1032d552277b6
   1.10.0--r43hdfd78af_11: sha256:5d217b7c8848d92bdac067e9a1a5f9ed312315bcb965babdd84d3eeae00c7bde
   1.10.0--r43hdfd78af_12: sha256:f32a616b91bd0a2db4dc4e18ee96c396770401d7f5cf8d48a7f32a58e1a2c6bc
+  1.10.0--r44hdfd78af_13: sha256:a7f00212e34d02afa8ffb090d7d6884be0cbacb7db922544d38f4c26d8736e09
 docker: quay.io/biocontainers/bioconductor-lumimouseidmapping

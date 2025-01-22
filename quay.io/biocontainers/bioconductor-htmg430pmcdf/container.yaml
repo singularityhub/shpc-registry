@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-htmg430pmcdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htmg430pmcdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:b446a9c721cc0d0f490ec13bc4e48a24d0e03dc36c73b2840c99ba8ccfb9aec8
+  2.18.0--r44hdfd78af_13: sha256:2e676ab0c4feefdf092bd37ef37a6c4412cbe745dd66da8acbe38ab96743b739
 tags:
   2.18.0--r41hdfd78af_9: sha256:12fef4e06e32ad33b8c5a09aa15b3e5b6bc5ef2a3ae585f057d3078b2e0dbc1e
   2.18.0--r42hdfd78af_10: sha256:6f65609e9550efc1d2dc69ec4e6f5d7b5424a651b5a870f16c01f380215d9d13
   2.18.0--r43hdfd78af_11: sha256:31a10ca5679f3849bde78e1551499cab592925c0df53ccba43152427c8da8111
   2.18.0--r43hdfd78af_12: sha256:b446a9c721cc0d0f490ec13bc4e48a24d0e03dc36c73b2840c99ba8ccfb9aec8
+  2.18.0--r44hdfd78af_13: sha256:2e676ab0c4feefdf092bd37ef37a6c4412cbe745dd66da8acbe38ab96743b739
 docker: quay.io/biocontainers/bioconductor-htmg430pmcdf

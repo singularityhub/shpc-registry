@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-chromium
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-chromium
 latest:
-  0.3.0--r43hdfd78af_1: sha256:87f65594ec48ea05d56470f52856eb0d3c3ea9b51db9124f8b59d448482e75ee
+  0.3.0--r44hdfd78af_2: sha256:018a267b5b2dca157b3ecf34ff7fa2a1ba240eda12d401638020476545bd461b
 tags:
   0.2.1--r42hdfd78af_0: sha256:6a87cf6af0ce888b33645d0b21bdafaa224132230026d06a347773982364c77c
   0.2.1--r43hdfd78af_1: sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de
   0.3.0--r43hdfd78af_0: sha256:c684a039782faeb52b610230c99f4e8762470d6fe841a3ca4a0d2ef26ab22e3c
   0.3.0--r43hdfd78af_1: sha256:87f65594ec48ea05d56470f52856eb0d3c3ea9b51db9124f8b59d448482e75ee
+  0.3.0--r44hdfd78af_2: sha256:018a267b5b2dca157b3ecf34ff7fa2a1ba240eda12d401638020476545bd461b
 docker: quay.io/biocontainers/r-chromium
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

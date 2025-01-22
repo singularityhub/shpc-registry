@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-transcriptogramer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-transcriptogramer
 latest:
-  1.24.0--r43hdfd78af_0: sha256:050f813ecccaeed0ea5457a8cb23b9bf7932e8c6ca59eea0bfe0676cd850eb94
+  1.28.0--r44hdfd78af_0: sha256:fd69791ee7a86aeadfc6fa727cb883c521d0ba48d22e2277de28bda2b5c87033
 tags:
   1.8.0--r36_0: sha256:cb3a766271cefebc72d7d9ba03e101bc535646e26fecd845302350c2bae34f0b
   1.20.0--r42hdfd78af_0: sha256:566f9d514d945b8adab0925736df93da34715c8316674bf7941dd3de2125055b
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:202a73a8e65d63a832dca348dc4f7d101b9965e3b94fca78dd43b0ef7dcae004
   1.22.0--r43hdfd78af_0: sha256:7f4335141cc7f230d1ddb02a0e92e036a40186434ab8786a2ea9b01246fd4811
   1.24.0--r43hdfd78af_0: sha256:050f813ecccaeed0ea5457a8cb23b9bf7932e8c6ca59eea0bfe0676cd850eb94
+  1.28.0--r44hdfd78af_0: sha256:fd69791ee7a86aeadfc6fa727cb883c521d0ba48d22e2277de28bda2b5c87033
 docker: quay.io/biocontainers/bioconductor-transcriptogramer
 aliases:
   giffilter: /usr/local/bin/giffilter

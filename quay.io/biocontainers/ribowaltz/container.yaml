@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ribowaltz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ribowaltz
 latest:
-  2.0--r43hdfd78af_0: sha256:650571dd78442f2dafe041e962976b1fb1451262608eec5057842ef0e66efa7f
+  2.0--r44hdfd78af_1: sha256:74fb7a1471e48cf33d7071f3b70414577a29aec55a3498f1266c392a870a4bba
 tags:
   1.2.0--r41hdfd78af_0: sha256:880cedb414633d44e467c39feed9f85212fc5270c3149a2d966b4fd2cf980426
   1.2.0--r42hdfd78af_1: sha256:ba7e0e4413de7acd6c263f89b6c861265c26598bdb7113b9239d42e5a08694c0
   2.0--r43hdfd78af_0: sha256:650571dd78442f2dafe041e962976b1fb1451262608eec5057842ef0e66efa7f
+  2.0--r44hdfd78af_1: sha256:74fb7a1471e48cf33d7071f3b70414577a29aec55a3498f1266c392a870a4bba
 docker: quay.io/biocontainers/ribowaltz

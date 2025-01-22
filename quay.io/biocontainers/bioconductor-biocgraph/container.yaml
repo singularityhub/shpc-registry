@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-biocgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocgraph
 latest:
-  1.64.0--r43hdfd78af_0: sha256:7f17bd6f0950a9ece9c8fee40d63e1a719cee7f2b5fcbf17d390db9d4c2b69ee
+  1.68.0--r44hdfd78af_0: sha256:9ca53f0f11c6e5e323c291a2f966bcf6a1be086bc0491c2c43617f4e93d8ac7b
 tags:
   1.56.0--r41hdfd78af_0: sha256:da95f36f23344e1375074ee48da7c2d795873a4caf1f3bfbc6352e1a50cfd1db
   1.60.0--r42hdfd78af_0: sha256:f99e0bc062f8ff53b51d8ddcb31e1e1e1fb552ec72af726c5b80c7c4a30570e0
   1.62.0--r43hdfd78af_0: sha256:7e6fab2bf01e44a8611dc80563838f8be26af9907890230051a5a2a8b69fd6ba
   1.64.0--r43hdfd78af_0: sha256:7f17bd6f0950a9ece9c8fee40d63e1a719cee7f2b5fcbf17d390db9d4c2b69ee
+  1.68.0--r44hdfd78af_0: sha256:9ca53f0f11c6e5e323c291a2f966bcf6a1be086bc0491c2c43617f4e93d8ac7b
 docker: quay.io/biocontainers/bioconductor-biocgraph

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cfdnakit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cfdnakit
 latest:
-  1.0.0--r43hdfd78af_0: sha256:943b5ae66df9967175b81602a62fd721505aebd46dcc1ed2357692b8663763c4
+  1.4.0--r44hdfd78af_0: sha256:1fef03d27558d7c8e61d5f1491d08048485a15020d9eb4b479d0dd6016ed56b9
 tags:
   1.0.0--r43hdfd78af_0: sha256:943b5ae66df9967175b81602a62fd721505aebd46dcc1ed2357692b8663763c4
+  1.4.0--r44hdfd78af_0: sha256:1fef03d27558d7c8e61d5f1491d08048485a15020d9eb4b479d0dd6016ed56b9
 docker: quay.io/biocontainers/bioconductor-cfdnakit
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

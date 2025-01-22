@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gsva
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsva
 latest:
-  1.50.0--r43ha9d7317_1: sha256:7ac79927aec585e910a75c8819027637d0150c93aca610ecbf458f3c20e682a9
+  2.0.0--r44h3df3fcb_0: sha256:ffd1fde1b64f7295ec9508a4a6c028f7ba591cbfbb617cb75c986061aec7e54b
 tags:
   1.42.0--r41hc0cfd56_2: sha256:f5a0a282e384289c54aaee024c4898ad7030c3c03ae324626097f457944984a9
   1.46.0--r42hc0cfd56_0: sha256:8e97c964798b56090d6eb8c4c3d33ae785e4e968eb6d01278103948ff3bb0018
@@ -10,4 +10,5 @@ tags:
   1.48.2--r43ha9d7317_0: sha256:62e150489388167de3e87e4c8ee1e792cf4e68d5b3cf3bc46293c15e98540006
   1.50.0--r43ha9d7317_0: sha256:58de5d5e9cb75d569aa8dcd00a2a8d2bb27558519feb531a46e21ea62cfdb449
   1.50.0--r43ha9d7317_1: sha256:7ac79927aec585e910a75c8819027637d0150c93aca610ecbf458f3c20e682a9
+  2.0.0--r44h3df3fcb_0: sha256:ffd1fde1b64f7295ec9508a4a6c028f7ba591cbfbb617cb75c986061aec7e54b
 docker: quay.io/biocontainers/bioconductor-gsva
