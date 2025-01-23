@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/grepq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for grepq
+latest:
+  1.4.1--ha6fb395_0: sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79
+tags:
+  1.4.1--ha6fb395_0: sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79
+docker: quay.io/biocontainers/grepq
+aliases:
+  grepq: /usr/local/bin/grepq

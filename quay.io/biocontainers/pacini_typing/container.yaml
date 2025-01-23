@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/pacini_typing
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pacini_typing
+latest:
+  1.6.4--pyhdfd78af_0: sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916
+tags:
+  1.6.4--pyhdfd78af_0: sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916
+docker: quay.io/biocontainers/pacini_typing
+aliases:
+  Pacini-typing: /usr/local/bin/Pacini-typing
+  pacini_typing: /usr/local/bin/pacini_typing
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc

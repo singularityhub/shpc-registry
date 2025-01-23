@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/linkedsv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for linkedsv
+latest:
+  0.1.0--h077b44d_0: sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
+tags:
+  0.1.0--h077b44d_0: sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
+docker: quay.io/biocontainers/linkedsv
+aliases:
+  bfc: /usr/local/bin/bfc
+  cal_2d_overlapping_barcodes: /usr/local/bin/cal_2d_overlapping_barcodes
+  cal_barcode_depth_from_bcd21: /usr/local/bin/cal_barcode_depth_from_bcd21
+  cal_centroid_from_read_depth: /usr/local/bin/cal_centroid_from_read_depth
+  cal_hap_read_depth_from_bcd21: /usr/local/bin/cal_hap_read_depth_from_bcd21
+  cal_read_depth_from_bcd21: /usr/local/bin/cal_read_depth_from_bcd21
+  cal_twin_win_bcd_cnt: /usr/local/bin/cal_twin_win_bcd_cnt
+  cluster_reads: /usr/local/bin/cluster_reads
+  cnv_detection: /usr/local/bin/cnv_detection
+  extract_barcode_info: /usr/local/bin/extract_barcode_info
+  fermi2: /usr/local/bin/fermi2
+  fermi2.pl: /usr/local/bin/fermi2.pl
+  grid_overlap: /usr/local/bin/grid_overlap
+  hapdip.js: /usr/local/bin/hapdip.js
+  htsbox: /usr/local/bin/htsbox
+  linkedsv.py: /usr/local/bin/linkedsv.py
+  output_bam_coreinfo: /usr/local/bin/output_bam_coreinfo
+  remove_sparse_nodes: /usr/local/bin/remove_sparse_nodes
+  ropebwt2: /usr/local/bin/ropebwt2
+  run-calling: /usr/local/bin/run-calling
+  small_deletion_detection: /usr/local/bin/small_deletion_detection
+  trimadap: /usr/local/bin/trimadap
+  trimadap-mt: /usr/local/bin/trimadap-mt
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  seqtk: /usr/local/bin/seqtk
+  c2ph: /usr/local/bin/c2ph
+  pstruct: /usr/local/bin/pstruct
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  bwa: /usr/local/bin/bwa
+  k8: /usr/local/bin/k8
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
