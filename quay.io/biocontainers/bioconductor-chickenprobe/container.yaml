@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-chickenprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chickenprobe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:0814b3f6cb634d996130807b401e9cca8a38b973bd44eb41191bed2b30ebbbc9
+  2.18.0--r44hdfd78af_13: sha256:a045419c254c61ca9c7cf362d883af8dd61c96f2e3d4eec86032a54f4aa8212a
 tags:
   2.18.0--r41hdfd78af_9: sha256:75205cff718609f59ebceb148c1fef0f80887ddace223d23ba82f524dd2285a9
   2.18.0--r42hdfd78af_10: sha256:3dbc6d94d8623a34d9629c838f7e4ad426aa7d573a471106603bbb531f0069d4
   2.18.0--r43hdfd78af_11: sha256:27b058ab8d6b756a3232ee3466e8b5f48f834e8e18602cc82cda3845a78010c0
   2.18.0--r43hdfd78af_12: sha256:0814b3f6cb634d996130807b401e9cca8a38b973bd44eb41191bed2b30ebbbc9
+  2.18.0--r44hdfd78af_13: sha256:a045419c254c61ca9c7cf362d883af8dd61c96f2e3d4eec86032a54f4aa8212a
 docker: quay.io/biocontainers/bioconductor-chickenprobe

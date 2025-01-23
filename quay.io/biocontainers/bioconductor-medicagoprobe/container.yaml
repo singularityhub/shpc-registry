@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-medicagoprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-medicagoprobe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:ae495d10709da925ab24d22c656fadccc53d38093d417856b6333ca393589620
+  2.18.0--r44hdfd78af_13: sha256:b9e9f3cdd28c9c00e652d2b840bb27022c799cf4ece5e16cc3ea790901686dfd
 tags:
   2.18.0--r41hdfd78af_9: sha256:d6e144fa9e68d28161f45e181d73547dfe863c340983b8906b9322d36e844078
   2.18.0--r42hdfd78af_10: sha256:24be6aa5f312fc8473be65e0d8d9586824a17b36759290e95f1c49a5ef583bdd
   2.18.0--r43hdfd78af_11: sha256:0a6230d52d138bac61f5c39cb18f016fd3e64960eeca3a6dd9d880b8e1799a84
   2.18.0--r43hdfd78af_12: sha256:ae495d10709da925ab24d22c656fadccc53d38093d417856b6333ca393589620
+  2.18.0--r44hdfd78af_13: sha256:b9e9f3cdd28c9c00e652d2b840bb27022c799cf4ece5e16cc3ea790901686dfd
 docker: quay.io/biocontainers/bioconductor-medicagoprobe

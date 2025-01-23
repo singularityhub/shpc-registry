@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mpra-data-access-portal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mpra-data-access-portal
 latest:
-  0.1.9--hdfd78af_0: sha256:7689d85e41e98060da786c9651dd75227cd875da773fb6335031d598cbd48eeb
+  0.1.10--hdfd78af_0: sha256:892a3c96a2ab688b577e2f322f3bc3b7076d935f48e91ef294cdda311287dbfe
 tags:
   0.1.8--hdfd78af_3: sha256:9ede44226d22207714469b96ea96bb0ef2b87f73d3a228579d0f5abbc2c256d7
   0.1.9--hdfd78af_0: sha256:7689d85e41e98060da786c9651dd75227cd875da773fb6335031d598cbd48eeb
+  0.1.10--hdfd78af_0: sha256:892a3c96a2ab688b577e2f322f3bc3b7076d935f48e91ef294cdda311287dbfe
 docker: quay.io/biocontainers/mpra-data-access-portal
 aliases:
   mpra-data-access-portal: /usr/local/bin/mpra-data-access-portal

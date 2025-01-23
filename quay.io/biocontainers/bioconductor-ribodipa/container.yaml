@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-ribodipa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ribodipa
 latest:
-  1.10.0--r43hf17093f_0: sha256:c1fbbcb6f556a016ec96e83f936f7f18bc6dfe95fab85f9a86ecdbafcebf83a3
+  1.14.0--r44he5774e6_0: sha256:2984bf7e5c7e8183b0a9d8fbea04caf106030ce6d43043d60ad0041d8834b5f8
 tags:
   1.2.0--r41hc247a5b_2: sha256:165d551835b06dec6baabe560bcbd092b04f0384d138a63853223d69f3ecaaa8
   1.6.0--r42hc247a5b_0: sha256:3bf82f01877158227c8e0ba801eb0e5d4f11a855d8296b1418d300c39f8f7696
   1.6.0--r42hf17093f_1: sha256:ebf6f42ac8f634438caf65aaab59e6ff85426e3d7a66c3ee99d255e9891e8fd2
   1.8.0--r43hf17093f_0: sha256:b7add84ee9c8014cdedcf1f0bc166223a84fac6f5f04ae9b8a1ed3d25fa96fa1
   1.10.0--r43hf17093f_0: sha256:c1fbbcb6f556a016ec96e83f936f7f18bc6dfe95fab85f9a86ecdbafcebf83a3
+  1.14.0--r44he5774e6_0: sha256:2984bf7e5c7e8183b0a9d8fbea04caf106030ce6d43043d60ad0041d8834b5f8
 docker: quay.io/biocontainers/bioconductor-ribodipa

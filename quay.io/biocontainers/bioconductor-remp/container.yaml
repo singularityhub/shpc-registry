@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-remp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-remp
 latest:
-  1.26.0--r43hdfd78af_0: sha256:16a66c992e793ff5020e47976d4d7ffe93474bd8cbc1d3847ab6a393497a1c38
+  1.30.0--r44hdfd78af_0: sha256:792196a6010862580feaf0fdf420588e38b87110c7f16f9d42d389e696eee1a0
 tags:
   1.8.1--r36_1: sha256:633e95d15055b5d39926840f28c3521fe392c03e262dcf22b27f372e2032b6ab
   1.22.0--r42hdfd78af_0: sha256:fefc1f89a4495a4e09b76cbf0f790576aab8a6bd3640848824e58626ef140f24
@@ -12,6 +12,7 @@ tags:
   1.12.0--r40_0: sha256:22a0a85eb7b6011f9222500dcc12b05c38a5cc182c5993549b04574a7c80cb17
   1.24.0--r43hdfd78af_0: sha256:f3762b4d7650c79bc2ce1f9667e12136e256c36a2a6ec8cfee88a32cc3925600
   1.26.0--r43hdfd78af_0: sha256:16a66c992e793ff5020e47976d4d7ffe93474bd8cbc1d3847ab6a393497a1c38
+  1.30.0--r44hdfd78af_0: sha256:792196a6010862580feaf0fdf420588e38b87110c7f16f9d42d389e696eee1a0
 docker: quay.io/biocontainers/bioconductor-remp
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

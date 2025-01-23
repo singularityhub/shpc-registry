@@ -5,6 +5,7 @@ latest:
   0.6.2--py310h34483ff_0: sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa
 tags:
   0.6.2--py310h34483ff_0: sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa
+  0.6.2--py39h52a3210_0: sha256:4c909ad65edbb4701f1aa9f9e142631c63eee860afd70ae0532e7873f4f7bf66
 docker: quay.io/biocontainers/pycoverm
 aliases:
   numpy-config: /usr/local/bin/numpy-config

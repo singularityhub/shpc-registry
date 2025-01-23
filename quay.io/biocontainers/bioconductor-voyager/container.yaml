@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-voyager
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-voyager
 latest:
-  1.4.0--r43hdfd78af_0: sha256:7d737bdaf9ee3edb0e19802aea698b2a5a68526d6ad3dda8a75a60f7cf3d48c6
+  1.8.1--r44hdfd78af_0: sha256:81c75e228974f45917eafdaf7b18d215a1846be35b8ba3b0954785af6947a73b
 tags:
   1.0.3--r42hdfd78af_0: sha256:75d362cdc99858d11607d5ece6d23a1cbfbec355d2cfd98a2dbe4e87fc7858e7
   1.2.3--r43hdfd78af_0: sha256:8ce055657188466c8421b5127fdd3143731c192c27a6c383fae8f7a7b0e5eacf
   1.4.0--r43hdfd78af_0: sha256:7d737bdaf9ee3edb0e19802aea698b2a5a68526d6ad3dda8a75a60f7cf3d48c6
+  1.8.1--r44hdfd78af_0: sha256:81c75e228974f45917eafdaf7b18d215a1846be35b8ba3b0954785af6947a73b
 docker: quay.io/biocontainers/bioconductor-voyager
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-iseehex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-iseehex
 latest:
-  1.4.0--r43hdfd78af_0: sha256:c4f4389809bffacebc66e5d406b97c2cb326188a155e5b70e5f59a948e811488
+  1.8.0--r44hdfd78af_0: sha256:b59f937a86374162e2ad9197ca7246aeec07f118584cd253fab1a381795ec986
 tags:
   1.0.0--r42hdfd78af_0: sha256:1f555f01dbc25e85851c54dcd7dabb5128a7473689f57a59751726d36a1f9cdf
   1.2.0--r43hdfd78af_0: sha256:425efc8d83301c29274d42481499ef28f4d0a9eb96c9cfcac257631615c083d3
   1.4.0--r43hdfd78af_0: sha256:c4f4389809bffacebc66e5d406b97c2cb326188a155e5b70e5f59a948e811488
+  1.8.0--r44hdfd78af_0: sha256:b59f937a86374162e2ad9197ca7246aeec07f118584cd253fab1a381795ec986
 docker: quay.io/biocontainers/bioconductor-iseehex
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

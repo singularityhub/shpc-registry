@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phyclone
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phyclone
 latest:
-  0.5.1--pyhdfd78af_0: sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e
+  0.6.0--pyhdfd78af_0: sha256:f6724f8b5db9c8495bb7bea5b66935c1441a9864638236c5d3abfc2a4957a0a3
 tags:
   0.5.1--pyhdfd78af_0: sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e
+  0.6.0--pyhdfd78af_0: sha256:f6724f8b5db9c8495bb7bea5b66935c1441a9864638236c5d3abfc2a4957a0a3
 docker: quay.io/biocontainers/phyclone
 aliases:
   phyclone: /usr/local/bin/phyclone

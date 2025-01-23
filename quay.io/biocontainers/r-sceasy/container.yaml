@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-sceasy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sceasy
 latest:
-  0.0.7--r43hdfd78af_2: sha256:d9fb7655a62c0bf09e563382aa4c9b022005df542b79fdaa0bb0e63444cf2f9f
+  0.0.7--r44hdfd78af_3: sha256:2113e87844336622e2d9afba1cb4bcb9ae7f8319440cb6cb728c6700823247d4
 tags:
   0.0.7--r41hdfd78af_0: sha256:295dd6868f6e703f746ad169f477372e5f142a93e2dfdc892b72c008d6143148
   0.0.7--r42hdfd78af_1: sha256:481b632b23f74699acaf4167a1591dece25e3cd4cc0d0f9a3e12ea352253147c
   0.0.7--r43hdfd78af_2: sha256:d9fb7655a62c0bf09e563382aa4c9b022005df542b79fdaa0bb0e63444cf2f9f
+  0.0.7--r44hdfd78af_3: sha256:2113e87844336622e2d9afba1cb4bcb9ae7f8319440cb6cb728c6700823247d4
 docker: quay.io/biocontainers/r-sceasy
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

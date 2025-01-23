@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-epivizrchart
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epivizrchart
 latest:
-  1.24.0--r43hdfd78af_0: sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6
+  1.28.0--r44hdfd78af_0: sha256:e51ca64ce9c070c39ed0cec768dbf23c5f3eb9d7e06dcba83f6b656fb811e428
 tags:
   1.8.0--r36_0: sha256:b89a16352202d096c4f12f05cc7ffceffe15fa6dad75564884aaac6b53a0c89e
   1.20.0--r42hdfd78af_0: sha256:c4327dee9509606e59c624bae0d4047aeec60e12d0ce3040735c417973b7f197
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:213243b2bd2e448407cbc2ebeff5291a3b532ecf1d4a447b08d84034898c0c78
   1.22.0--r43hdfd78af_0: sha256:89cce9c294f7433c64d10dc8972c0c3c55ce8922fca94fece8ab8990bea1548b
   1.24.0--r43hdfd78af_0: sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6
+  1.28.0--r44hdfd78af_0: sha256:e51ca64ce9c070c39ed0cec768dbf23c5f3eb9d7e06dcba83f6b656fb811e428
 docker: quay.io/biocontainers/bioconductor-epivizrchart
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

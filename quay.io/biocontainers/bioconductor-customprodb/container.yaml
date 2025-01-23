@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-customprodb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-customprodb
 latest:
-  1.41.0--r43hdfd78af_0: sha256:22ab8815097a2bdc52d5cb376498fc32cf11cc7cf9cbdd4529a74eabd999f140
+  1.46.0--r44hdfd78af_0: sha256:a06cd9e97e99128fc64f266a0b5f508556a9b9f2469603fd080343ca7e362bd5
 tags:
   1.34.0--r41hdfd78af_0: sha256:22ade8f9d023ca31d86189182a9f5de0c94711f0de26c02bc8498d292b748cf2
   1.38.0--r42hdfd78af_0: sha256:8141d1a0120f1dc73b42512d3c4aa6729e17794ebecd5c07e5a8e00238a83109
   1.40.0--r43hdfd78af_0: sha256:fe776adb4e4d163cd75bed2c7d52cb65e2d36881311e169310ac7c4d924687af
   1.41.0--r43hdfd78af_0: sha256:22ab8815097a2bdc52d5cb376498fc32cf11cc7cf9cbdd4529a74eabd999f140
+  1.46.0--r44hdfd78af_0: sha256:a06cd9e97e99128fc64f266a0b5f508556a9b9f2469603fd080343ca7e362bd5
 docker: quay.io/biocontainers/bioconductor-customprodb
