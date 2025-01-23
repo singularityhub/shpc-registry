@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-extrachips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-extrachips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-extrachips/container.yaml"
-updated_at: "2025-01-22 03:30:20.373840"
-latest: "1.6.0--r43ha9d7317_0"
+updated_at: "2025-01-23 03:09:19.959454"
+latest: "1.10.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-extrachips"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.5--r43ha9d7317_0"
  - "1.6.0--r43ha9d7317_0"
+ - "1.10.0--r44h3df3fcb_0"
 description: "singularity registry hpc automated addition for bioconductor-extrachips"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-extrachips", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-extrachips", "latest": {"1.6.0--r43ha9d7317_0": "sha256:6d4a0046be7c8e69d2c4f59f1ec6a33f269e546ffb61767e7beb1c2155715f87"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:92f7188f38dadcc7b5df1cf85d0e81b398908411a6b5d25ae83980495f75ab9f", "1.4.5--r43ha9d7317_0": "sha256:d77a7ec7fbdfb10d94558f8977cdefe9f0cd50f714680f2d71fcd49a0c078df9", "1.6.0--r43ha9d7317_0": "sha256:6d4a0046be7c8e69d2c4f59f1ec6a33f269e546ffb61767e7beb1c2155715f87"}, "docker": "quay.io/biocontainers/bioconductor-extrachips", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-extrachips", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-extrachips", "latest": {"1.10.0--r44h3df3fcb_0": "sha256:5afab4d27fc72c4462ec54af2218bca75ec27ecba2e186dfcb6f1281a19c8116"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:92f7188f38dadcc7b5df1cf85d0e81b398908411a6b5d25ae83980495f75ab9f", "1.4.5--r43ha9d7317_0": "sha256:d77a7ec7fbdfb10d94558f8977cdefe9f0cd50f714680f2d71fcd49a0c078df9", "1.6.0--r43ha9d7317_0": "sha256:6d4a0046be7c8e69d2c4f59f1ec6a33f269e546ffb61767e7beb1c2155715f87", "1.10.0--r44h3df3fcb_0": "sha256:5afab4d27fc72c4462ec54af2218bca75ec27ecba2e186dfcb6f1281a19c8116"}, "docker": "quay.io/biocontainers/bioconductor-extrachips", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-extrachips.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-extrachips
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-extrachips:1.6.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-extrachips:1.10.0--r44h3df3fcb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-extrachips/1.6.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-extrachips/1.6.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-extrachips/1.10.0--r44h3df3fcb_0
+$ module help quay.io/biocontainers/bioconductor-extrachips/1.10.0--r44h3df3fcb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

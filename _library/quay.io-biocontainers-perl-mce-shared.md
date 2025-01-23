@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mce-shared"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mce-shared/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mce-shared/container.yaml"
-updated_at: "2025-01-22 03:37:08.438588"
+updated_at: "2025-01-23 03:21:32.422576"
 latest: "1.840--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-mce-shared"
 aliases:

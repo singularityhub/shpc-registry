@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-set-object"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-object/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-object/container.yaml"
-updated_at: "2025-01-22 03:09:00.796941"
+updated_at: "2025-01-23 03:18:49.722179"
 latest: "1.42--pl5321h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/perl-set-object"
 aliases:

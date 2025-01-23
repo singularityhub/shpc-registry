@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bisquerna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bisquerna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bisquerna/container.yaml"
-updated_at: "2025-01-22 03:06:57.312852"
+updated_at: "2025-01-23 03:26:27.900108"
 latest: "1.0.5--r44h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-bisquerna"
 aliases:

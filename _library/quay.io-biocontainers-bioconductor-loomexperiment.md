@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-loomexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-loomexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-loomexperiment/container.yaml"
-updated_at: "2025-01-22 03:27:19.436073"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2025-01-23 02:55:31.850254"
+latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-loomexperiment"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.1--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.24.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-loomexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-loomexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-loomexperiment", "latest": {"1.20.0--r43hdfd78af_0": "sha256:c8fdabb74b09452a4567da87b9d0ff830c16a17dbf8e2b990fb76e3f1776daf3"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:1fbfa4e02edb29aae320bf632f2aa1145424995cf45e15ced943088584acec46", "1.16.0--r42hdfd78af_0": "sha256:62d4e98af0ceb5cd30441331373a1efc8e5ca132e1159245280996e5e02ea4bc", "1.12.0--r41hdfd78af_0": "sha256:06545208a1fb07b39e6986d7a973cf35b53fa23e734c808a1df5b7cb7c4a8be8", "1.10.1--r41hdfd78af_0": "sha256:cf269c56b758cca08d940399f3d8a5edf26e238bb04e6710ec1ff77978e4cf7e", "1.18.0--r43hdfd78af_0": "sha256:23ee3d31ca734d6f02de77dec2565801c80b4b67a7aa50e147ba1a9b9b49afef", "1.20.0--r43hdfd78af_0": "sha256:c8fdabb74b09452a4567da87b9d0ff830c16a17dbf8e2b990fb76e3f1776daf3"}, "docker": "quay.io/biocontainers/bioconductor-loomexperiment", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-loomexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-loomexperiment", "latest": {"1.24.0--r44hdfd78af_0": "sha256:42474763689858647a202cb79022ce89d5f7b079560479467abbbb5a50f31969"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:1fbfa4e02edb29aae320bf632f2aa1145424995cf45e15ced943088584acec46", "1.16.0--r42hdfd78af_0": "sha256:62d4e98af0ceb5cd30441331373a1efc8e5ca132e1159245280996e5e02ea4bc", "1.12.0--r41hdfd78af_0": "sha256:06545208a1fb07b39e6986d7a973cf35b53fa23e734c808a1df5b7cb7c4a8be8", "1.10.1--r41hdfd78af_0": "sha256:cf269c56b758cca08d940399f3d8a5edf26e238bb04e6710ec1ff77978e4cf7e", "1.18.0--r43hdfd78af_0": "sha256:23ee3d31ca734d6f02de77dec2565801c80b4b67a7aa50e147ba1a9b9b49afef", "1.20.0--r43hdfd78af_0": "sha256:c8fdabb74b09452a4567da87b9d0ff830c16a17dbf8e2b990fb76e3f1776daf3", "1.24.0--r44hdfd78af_0": "sha256:42474763689858647a202cb79022ce89d5f7b079560479467abbbb5a50f31969"}, "docker": "quay.io/biocontainers/bioconductor-loomexperiment", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-loomexperiment.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-loomexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-loomexperiment:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-loomexperiment:1.24.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-loomexperiment/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-loomexperiment/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-loomexperiment/1.24.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-loomexperiment/1.24.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

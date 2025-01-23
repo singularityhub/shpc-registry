@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-redux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-redux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-redux/container.yaml"
-updated_at: "2025-01-22 03:15:41.928012"
+updated_at: "2025-01-23 03:26:35.037053"
 latest: "1.0_beta--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/hmftools-redux"
 aliases:

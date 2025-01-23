@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-planttfhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-planttfhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-planttfhunter/container.yaml"
-updated_at: "2025-01-22 02:59:44.955492"
+updated_at: "2025-01-23 03:09:36.353242"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-planttfhunter"
 aliases:

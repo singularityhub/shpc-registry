@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/container.yaml"
-updated_at: "2025-01-22 02:56:00.476874"
-latest: "2.3.2--r43hdfd78af_13"
+updated_at: "2025-01-23 02:49:22.977669"
+latest: "2.3.2--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.biomart.igis"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.3.2--r42hdfd78af_11"
  - "2.3.2--r43hdfd78af_12"
  - "2.3.2--r43hdfd78af_13"
+ - "2.3.2--r44hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.biomart.igis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.biomart.igis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.biomart.igis", "latest": {"2.3.2--r43hdfd78af_13": "sha256:4ba700f371ceca7170bed1161f210cb167f482f976d9abc5f0aaa9d421522222"}, "tags": {"2.3.2--r41hdfd78af_9": "sha256:939adc37ef13ac6fa489de25b8e06ccf7c6d1b78f676865fcb18797d8dec6ec9", "2.3.2--r42hdfd78af_11": "sha256:a395b426e6e71539fbcc411c6eaf38dd67f782452a09e88dec62826c31a5cda4", "2.3.2--r43hdfd78af_12": "sha256:4d888fdc6e59afb8d5ccad775b54554f6155f8f972a9e7e811a95626aaee2f23", "2.3.2--r43hdfd78af_13": "sha256:4ba700f371ceca7170bed1161f210cb167f482f976d9abc5f0aaa9d421522222"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.biomart.igis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.biomart.igis", "latest": {"2.3.2--r44hdfd78af_14": "sha256:b4e48adee37098d5ba30bd87d4e525e570e66bbd79ca908441d72c1b8e2e50b1"}, "tags": {"2.3.2--r41hdfd78af_9": "sha256:939adc37ef13ac6fa489de25b8e06ccf7c6d1b78f676865fcb18797d8dec6ec9", "2.3.2--r42hdfd78af_11": "sha256:a395b426e6e71539fbcc411c6eaf38dd67f782452a09e88dec62826c31a5cda4", "2.3.2--r43hdfd78af_12": "sha256:4d888fdc6e59afb8d5ccad775b54554f6155f8f972a9e7e811a95626aaee2f23", "2.3.2--r43hdfd78af_13": "sha256:4ba700f371ceca7170bed1161f210cb167f482f976d9abc5f0aaa9d421522222", "2.3.2--r44hdfd78af_14": "sha256:b4e48adee37098d5ba30bd87d4e525e570e66bbd79ca908441d72c1b8e2e50b1"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis:2.3.2--r43hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis:2.3.2--r44hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/2.3.2--r43hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/2.3.2--r43hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/2.3.2--r44hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/2.3.2--r44hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

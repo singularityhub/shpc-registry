@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ribowaltz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribowaltz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribowaltz/container.yaml"
-updated_at: "2025-01-22 03:36:47.542350"
-latest: "2.0--r43hdfd78af_0"
+updated_at: "2025-01-23 03:00:09.356873"
+latest: "2.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ribowaltz"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.2.0--r42hdfd78af_1"
  - "2.0--r43hdfd78af_0"
+ - "2.0--r44hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for ribowaltz"
-config: {"url": "https://biocontainers.pro/tools/ribowaltz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribowaltz", "latest": {"2.0--r43hdfd78af_0": "sha256:650571dd78442f2dafe041e962976b1fb1451262608eec5057842ef0e66efa7f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:880cedb414633d44e467c39feed9f85212fc5270c3149a2d966b4fd2cf980426", "1.2.0--r42hdfd78af_1": "sha256:ba7e0e4413de7acd6c263f89b6c861265c26598bdb7113b9239d42e5a08694c0", "2.0--r43hdfd78af_0": "sha256:650571dd78442f2dafe041e962976b1fb1451262608eec5057842ef0e66efa7f"}, "docker": "quay.io/biocontainers/ribowaltz"}
+config: {"url": "https://biocontainers.pro/tools/ribowaltz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribowaltz", "latest": {"2.0--r44hdfd78af_1": "sha256:74fb7a1471e48cf33d7071f3b70414577a29aec55a3498f1266c392a870a4bba"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:880cedb414633d44e467c39feed9f85212fc5270c3149a2d966b4fd2cf980426", "1.2.0--r42hdfd78af_1": "sha256:ba7e0e4413de7acd6c263f89b6c861265c26598bdb7113b9239d42e5a08694c0", "2.0--r43hdfd78af_0": "sha256:650571dd78442f2dafe041e962976b1fb1451262608eec5057842ef0e66efa7f", "2.0--r44hdfd78af_1": "sha256:74fb7a1471e48cf33d7071f3b70414577a29aec55a3498f1266c392a870a4bba"}, "docker": "quay.io/biocontainers/ribowaltz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribowaltz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ribowaltz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribowaltz:2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/ribowaltz:2.0--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribowaltz/2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/ribowaltz/2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/ribowaltz/2.0--r44hdfd78af_1
+$ module help quay.io/biocontainers/ribowaltz/2.0--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyopal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopal/container.yaml"
-updated_at: "2025-01-22 03:01:24.854060"
+updated_at: "2025-01-23 03:17:32.179170"
 latest: "0.7.0--py310h8ea774a_1"
 container_url: "https://biocontainers.pro/tools/pyopal"
 aliases:

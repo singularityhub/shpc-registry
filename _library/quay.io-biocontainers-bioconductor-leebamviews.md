@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-leebamviews"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
-updated_at: "2025-01-22 03:29:58.019725"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-23 03:31:53.718444"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-leebamviews"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-leebamviews"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-leebamviews", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leebamviews", "latest": {"1.38.0--r43hdfd78af_0": "sha256:ccdea0e0ddffa8a9f76f9aa78b3d145d092d2dd231a3e9d7d47a399e69d49407"}, "tags": {"1.30.1--r41hdfd78af_1": "sha256:3e6014da428d5add2b26f488e84c917f70892660a0c456fbe5b37537c181e37f", "1.34.0--r42hdfd78af_0": "sha256:ef5060536321e6674e9dbca933654f124387883412c0db4bc60f0a4b243090b8", "1.36.0--r43hdfd78af_0": "sha256:f6367dc2d9e80bcad841fc33ff2713c5f5f8e390a1dd216e2287535cc0789aba", "1.38.0--r43hdfd78af_0": "sha256:ccdea0e0ddffa8a9f76f9aa78b3d145d092d2dd231a3e9d7d47a399e69d49407"}, "docker": "quay.io/biocontainers/bioconductor-leebamviews"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-leebamviews", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leebamviews", "latest": {"1.42.0--r44hdfd78af_0": "sha256:41a32bd5dcccab272573c28c3befc5c059a908d1d260a0db418d953e44e33cb5"}, "tags": {"1.30.1--r41hdfd78af_1": "sha256:3e6014da428d5add2b26f488e84c917f70892660a0c456fbe5b37537c181e37f", "1.34.0--r42hdfd78af_0": "sha256:ef5060536321e6674e9dbca933654f124387883412c0db4bc60f0a4b243090b8", "1.36.0--r43hdfd78af_0": "sha256:f6367dc2d9e80bcad841fc33ff2713c5f5f8e390a1dd216e2287535cc0789aba", "1.38.0--r43hdfd78af_0": "sha256:ccdea0e0ddffa8a9f76f9aa78b3d145d092d2dd231a3e9d7d47a399e69d49407", "1.42.0--r44hdfd78af_0": "sha256:41a32bd5dcccab272573c28c3befc5c059a908d1d260a0db418d953e44e33cb5"}, "docker": "quay.io/biocontainers/bioconductor-leebamviews"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-leebamviews.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-leebamviews
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-leebamviews:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-leebamviews:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-leebamviews/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-leebamviews/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-leebamviews/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-leebamviews/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

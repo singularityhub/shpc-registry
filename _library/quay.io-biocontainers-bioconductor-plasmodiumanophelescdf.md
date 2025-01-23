@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plasmodiumanophelescdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/container.yaml"
-updated_at: "2025-01-22 03:13:24.813612"
-latest: "2.18.0--r43hdfd78af_12"
+updated_at: "2025-01-23 02:50:06.105842"
+latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-plasmodiumanophelescdf"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.18.0--r42hdfd78af_10"
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
+ - "2.18.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-plasmodiumanophelescdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plasmodiumanophelescdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plasmodiumanophelescdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:68981f6fb7b1579b25005b44584955ebe7672c8fff7a34a6cbd9fb443d322ac9"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:c541a2a447b82ff72c7f6f4cd50b0dfb6ace7902152a8b19856b54de695e5f81", "2.18.0--r42hdfd78af_10": "sha256:1787ace18dd030c9e3fc54c853f82135bfc265c8dc5549bae5ef6611f17453c3", "2.18.0--r43hdfd78af_11": "sha256:51928f434c5c2a974e2317dd99ebb4ae14ee9312881bd9501e8ecad79ccc7575", "2.18.0--r43hdfd78af_12": "sha256:68981f6fb7b1579b25005b44584955ebe7672c8fff7a34a6cbd9fb443d322ac9"}, "docker": "quay.io/biocontainers/bioconductor-plasmodiumanophelescdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plasmodiumanophelescdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plasmodiumanophelescdf", "latest": {"2.18.0--r44hdfd78af_13": "sha256:6e3cbebaae64718f2fe9534642a0562bde37aa514fc74e3a2a21585fb065152e"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:c541a2a447b82ff72c7f6f4cd50b0dfb6ace7902152a8b19856b54de695e5f81", "2.18.0--r42hdfd78af_10": "sha256:1787ace18dd030c9e3fc54c853f82135bfc265c8dc5549bae5ef6611f17453c3", "2.18.0--r43hdfd78af_11": "sha256:51928f434c5c2a974e2317dd99ebb4ae14ee9312881bd9501e8ecad79ccc7575", "2.18.0--r43hdfd78af_12": "sha256:68981f6fb7b1579b25005b44584955ebe7672c8fff7a34a6cbd9fb443d322ac9", "2.18.0--r44hdfd78af_13": "sha256:6e3cbebaae64718f2fe9534642a0562bde37aa514fc74e3a2a21585fb065152e"}, "docker": "quay.io/biocontainers/bioconductor-plasmodiumanophelescdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plasmodiumanophelescdf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plasmodiumanophelescdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plasmodiumanophelescdf:2.18.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-plasmodiumanophelescdf:2.18.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/2.18.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/2.18.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/2.18.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-plasmodiumanophelescdf/2.18.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

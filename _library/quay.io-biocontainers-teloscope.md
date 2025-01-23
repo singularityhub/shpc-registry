@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/teloscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teloscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teloscope/container.yaml"
-updated_at: "2025-01-22 03:04:11.776295"
-latest: "0.0.5--h077b44d_0"
+updated_at: "2025-01-23 03:29:46.183152"
+latest: "0.0.7--h35c04b2_0"
 container_url: "https://biocontainers.pro/tools/teloscope"
 aliases:
  - "teloscope"
@@ -13,8 +13,9 @@ versions:
  - "0.0.2--hdcf5f25_0"
  - "0.0.4--hdcf5f25_0"
  - "0.0.5--h077b44d_0"
+ - "0.0.7--h35c04b2_0"
 description: "singularity registry hpc automated addition for teloscope"
-config: {"url": "https://biocontainers.pro/tools/teloscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for teloscope", "latest": {"0.0.5--h077b44d_0": "sha256:15df901f23adea483e373a17a157a415a75fc185c7824ffd42fac9596bd03a18"}, "tags": {"0.0.2--hdcf5f25_0": "sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8", "0.0.4--hdcf5f25_0": "sha256:7cd57bf7997d591a2d07d51642765cbf934e2ecf021dffcc911e4eb7bbe6778e", "0.0.5--h077b44d_0": "sha256:15df901f23adea483e373a17a157a415a75fc185c7824ffd42fac9596bd03a18"}, "docker": "quay.io/biocontainers/teloscope", "aliases": {"teloscope": "/usr/local/bin/teloscope"}}
+config: {"url": "https://biocontainers.pro/tools/teloscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for teloscope", "latest": {"0.0.7--h35c04b2_0": "sha256:d5a96c5b9baafec3005ea5181c58532d0f8fd205c30a52d7d575e8563df3a63b"}, "tags": {"0.0.2--hdcf5f25_0": "sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8", "0.0.4--hdcf5f25_0": "sha256:7cd57bf7997d591a2d07d51642765cbf934e2ecf021dffcc911e4eb7bbe6778e", "0.0.5--h077b44d_0": "sha256:15df901f23adea483e373a17a157a415a75fc185c7824ffd42fac9596bd03a18", "0.0.7--h35c04b2_0": "sha256:d5a96c5b9baafec3005ea5181c58532d0f8fd205c30a52d7d575e8563df3a63b"}, "docker": "quay.io/biocontainers/teloscope", "aliases": {"teloscope": "/usr/local/bin/teloscope"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/teloscope.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/teloscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/teloscope:0.0.5--h077b44d_0
+$ shpc install quay.io/biocontainers/teloscope:0.0.7--h35c04b2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/teloscope/0.0.5--h077b44d_0
-$ module help quay.io/biocontainers/teloscope/0.0.5--h077b44d_0
+$ module load quay.io/biocontainers/teloscope/0.0.7--h35c04b2_0
+$ module help quay.io/biocontainers/teloscope/0.0.7--h35c04b2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

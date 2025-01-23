@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-escape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
-updated_at: "2025-01-22 03:13:34.603806"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-01-23 03:26:04.920585"
+latest: "2.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-escape"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "2.2.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-escape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-escape", "latest": {"1.12.0--r43hdfd78af_0": "sha256:b2d2ac9f7275942a99ff9bb398d2c5023a93521343fbee681a9cdef3bd31d2b9"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a", "1.8.0--r42hdfd78af_0": "sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3", "1.10.0--r43hdfd78af_0": "sha256:c4e9cad88069f14b3de6e5f4c583fc1fd0e72f0cdfba719974f1af9af83e4d56", "1.12.0--r43hdfd78af_0": "sha256:b2d2ac9f7275942a99ff9bb398d2c5023a93521343fbee681a9cdef3bd31d2b9"}, "docker": "quay.io/biocontainers/bioconductor-escape"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-escape", "latest": {"2.2.0--r44hdfd78af_0": "sha256:2d9674ab6527c62b4b5ee46973c6f87d2a44d35a2e76849a2655eb7afbc39840"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a", "1.8.0--r42hdfd78af_0": "sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3", "1.10.0--r43hdfd78af_0": "sha256:c4e9cad88069f14b3de6e5f4c583fc1fd0e72f0cdfba719974f1af9af83e4d56", "1.12.0--r43hdfd78af_0": "sha256:b2d2ac9f7275942a99ff9bb398d2c5023a93521343fbee681a9cdef3bd31d2b9", "2.2.0--r44hdfd78af_0": "sha256:2d9674ab6527c62b4b5ee46973c6f87d2a44d35a2e76849a2655eb7afbc39840"}, "docker": "quay.io/biocontainers/bioconductor-escape"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-escape.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-escape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-escape:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-escape:2.2.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-escape/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-escape/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-escape/2.2.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-escape/2.2.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

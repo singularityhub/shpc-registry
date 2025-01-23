@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rgsepd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgsepd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgsepd/container.yaml"
-updated_at: "2025-01-22 03:28:18.436574"
-latest: "1.34.0--r43hdfd78af_0"
+updated_at: "2025-01-23 03:22:37.245895"
+latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgsepd"
 aliases:
  - "bmp2tiff"
@@ -26,8 +26,9 @@ versions:
  - "1.20.0--r40_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
+ - "1.38.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgsepd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgsepd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgsepd", "latest": {"1.34.0--r43hdfd78af_0": "sha256:3e2f9ad60a8e562c6ac733556310c824c879409ab6eb1008f8679ae0b52db0f6"}, "tags": {"1.8.0--r3.4.1_0": "sha256:c97ea2e341ccccfcc3d72f865ed3401c2bc1db1d9cc58e0fa3112ea6528444af", "1.30.0--r42hdfd78af_0": "sha256:ee7356ba91da7b04fd78900259b0cf1e796d475103368798d3dc78558e4b4b54", "1.26.0--r41hdfd78af_0": "sha256:d6cdd224ba0c58142359a3cf5612497487195f60dde7b5495e86f0d52a3bdc61", "1.24.0--r41hdfd78af_0": "sha256:63c19733a79dc7bb5f1c3718fd232d0064f2d2809c541d33eeecf32b7e8aa8f1", "1.22.0--r40hdfd78af_1": "sha256:22546eaf75f583280d5b8ee11d8a62c0db0d495206686e091baffddae5594ce5", "1.20.0--r40_0": "sha256:4757b4ec532269586a11da4b79404ca943823f0db297a051dc600d703abe619b", "1.32.0--r43hdfd78af_0": "sha256:a1241bef199e40b6f2cc4f4c5a50a671ee35f43e3e57e413b6c6a046b372e579", "1.34.0--r43hdfd78af_0": "sha256:3e2f9ad60a8e562c6ac733556310c824c879409ab6eb1008f8679ae0b52db0f6"}, "docker": "quay.io/biocontainers/bioconductor-rgsepd", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgsepd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgsepd", "latest": {"1.38.0--r44hdfd78af_0": "sha256:3e6e04f4e20ef2030c4359a13e498ba1e3846cdf17c50721d08e6de63e54ba97"}, "tags": {"1.8.0--r3.4.1_0": "sha256:c97ea2e341ccccfcc3d72f865ed3401c2bc1db1d9cc58e0fa3112ea6528444af", "1.30.0--r42hdfd78af_0": "sha256:ee7356ba91da7b04fd78900259b0cf1e796d475103368798d3dc78558e4b4b54", "1.26.0--r41hdfd78af_0": "sha256:d6cdd224ba0c58142359a3cf5612497487195f60dde7b5495e86f0d52a3bdc61", "1.24.0--r41hdfd78af_0": "sha256:63c19733a79dc7bb5f1c3718fd232d0064f2d2809c541d33eeecf32b7e8aa8f1", "1.22.0--r40hdfd78af_1": "sha256:22546eaf75f583280d5b8ee11d8a62c0db0d495206686e091baffddae5594ce5", "1.20.0--r40_0": "sha256:4757b4ec532269586a11da4b79404ca943823f0db297a051dc600d703abe619b", "1.32.0--r43hdfd78af_0": "sha256:a1241bef199e40b6f2cc4f4c5a50a671ee35f43e3e57e413b6c6a046b372e579", "1.34.0--r43hdfd78af_0": "sha256:3e2f9ad60a8e562c6ac733556310c824c879409ab6eb1008f8679ae0b52db0f6", "1.38.0--r44hdfd78af_0": "sha256:3e6e04f4e20ef2030c4359a13e498ba1e3846cdf17c50721d08e6de63e54ba97"}, "docker": "quay.io/biocontainers/bioconductor-rgsepd", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgsepd.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgsepd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgsepd:1.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rgsepd:1.38.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgsepd/1.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rgsepd/1.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rgsepd/1.38.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rgsepd/1.38.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
