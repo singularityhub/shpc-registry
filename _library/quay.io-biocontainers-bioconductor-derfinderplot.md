@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-derfinderplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-derfinderplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-derfinderplot/container.yaml"
-updated_at: "2025-01-23 03:57:31.205583"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2025-01-24 03:16:24.463141"
+latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-derfinderplot"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.40.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-derfinderplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderplot", "latest": {"1.36.0--r43hdfd78af_0": "sha256:5bec74d9cf4bf5a56fa86c357307ffba5323fd86370def2e0f5bddcb2c840259"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde", "1.32.0--r42hdfd78af_0": "sha256:e65346a109d1a133336b39e24ba97a670ddd3d6177d5c0d6b1cd8e3250de35a5", "1.34.0--r43hdfd78af_0": "sha256:b332c84bc60d760eb46279a139c03b64aaa4f060472c53f28a2de84ec0ee9a64", "1.36.0--r43hdfd78af_0": "sha256:5bec74d9cf4bf5a56fa86c357307ffba5323fd86370def2e0f5bddcb2c840259"}, "docker": "quay.io/biocontainers/bioconductor-derfinderplot"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderplot", "latest": {"1.40.0--r44hdfd78af_0": "sha256:32767080fff1b0a86d1721565375f21de2cdf5358cb108a6dd1d32dee91bfcac"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde", "1.32.0--r42hdfd78af_0": "sha256:e65346a109d1a133336b39e24ba97a670ddd3d6177d5c0d6b1cd8e3250de35a5", "1.34.0--r43hdfd78af_0": "sha256:b332c84bc60d760eb46279a139c03b64aaa4f060472c53f28a2de84ec0ee9a64", "1.36.0--r43hdfd78af_0": "sha256:5bec74d9cf4bf5a56fa86c357307ffba5323fd86370def2e0f5bddcb2c840259", "1.40.0--r44hdfd78af_0": "sha256:32767080fff1b0a86d1721565375f21de2cdf5358cb108a6dd1d32dee91bfcac"}, "docker": "quay.io/biocontainers/bioconductor-derfinderplot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-derfinderplot.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-derfinderplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-derfinderplot:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-derfinderplot:1.40.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-derfinderplot/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-derfinderplot/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-derfinderplot/1.40.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-derfinderplot/1.40.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

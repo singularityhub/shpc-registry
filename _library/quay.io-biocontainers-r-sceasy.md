@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sceasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sceasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sceasy/container.yaml"
-updated_at: "2025-01-23 03:45:29.443174"
-latest: "0.0.7--r43hdfd78af_2"
+updated_at: "2025-01-24 03:09:44.581292"
+latest: "0.0.7--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-sceasy"
 aliases:
  - "pg_amcheck"
@@ -22,8 +22,9 @@ versions:
  - "0.0.7--r41hdfd78af_0"
  - "0.0.7--r42hdfd78af_1"
  - "0.0.7--r43hdfd78af_2"
+ - "0.0.7--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-sceasy"
-config: {"url": "https://biocontainers.pro/tools/r-sceasy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sceasy", "latest": {"0.0.7--r43hdfd78af_2": "sha256:d9fb7655a62c0bf09e563382aa4c9b022005df542b79fdaa0bb0e63444cf2f9f"}, "tags": {"0.0.7--r41hdfd78af_0": "sha256:295dd6868f6e703f746ad169f477372e5f142a93e2dfdc892b72c008d6143148", "0.0.7--r42hdfd78af_1": "sha256:481b632b23f74699acaf4167a1591dece25e3cd4cc0d0f9a3e12ea352253147c", "0.0.7--r43hdfd78af_2": "sha256:d9fb7655a62c0bf09e563382aa4c9b022005df542b79fdaa0bb0e63444cf2f9f"}, "docker": "quay.io/biocontainers/r-sceasy", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/r-sceasy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sceasy", "latest": {"0.0.7--r44hdfd78af_3": "sha256:2113e87844336622e2d9afba1cb4bcb9ae7f8319440cb6cb728c6700823247d4"}, "tags": {"0.0.7--r41hdfd78af_0": "sha256:295dd6868f6e703f746ad169f477372e5f142a93e2dfdc892b72c008d6143148", "0.0.7--r42hdfd78af_1": "sha256:481b632b23f74699acaf4167a1591dece25e3cd4cc0d0f9a3e12ea352253147c", "0.0.7--r43hdfd78af_2": "sha256:d9fb7655a62c0bf09e563382aa4c9b022005df542b79fdaa0bb0e63444cf2f9f", "0.0.7--r44hdfd78af_3": "sha256:2113e87844336622e2d9afba1cb4bcb9ae7f8319440cb6cb728c6700823247d4"}, "docker": "quay.io/biocontainers/r-sceasy", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sceasy.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-sceasy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sceasy:0.0.7--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-sceasy:0.0.7--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sceasy/0.0.7--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-sceasy/0.0.7--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-sceasy/0.0.7--r44hdfd78af_3
+$ module help quay.io/biocontainers/r-sceasy/0.0.7--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

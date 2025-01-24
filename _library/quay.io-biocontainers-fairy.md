@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fairy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fairy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fairy/container.yaml"
-updated_at: "2025-01-23 04:06:12.574216"
+updated_at: "2025-01-24 02:54:01.527834"
 latest: "0.5.7--ha6fb395_2"
 container_url: "https://biocontainers.pro/tools/fairy"
 aliases:

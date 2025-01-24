@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycoverm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycoverm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycoverm/container.yaml"
-updated_at: "2025-01-23 03:44:13.502933"
+updated_at: "2025-01-24 03:04:56.227220"
 latest: "0.6.2--py310h34483ff_0"
 container_url: "https://biocontainers.pro/tools/pycoverm"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.6.2--py310h34483ff_0"
+ - "0.6.2--py39h52a3210_0"
 description: "singularity registry hpc automated addition for pycoverm"
-config: {"url": "https://biocontainers.pro/tools/pycoverm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycoverm", "latest": {"0.6.2--py310h34483ff_0": "sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa"}, "tags": {"0.6.2--py310h34483ff_0": "sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa"}, "docker": "quay.io/biocontainers/pycoverm", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pycoverm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycoverm", "latest": {"0.6.2--py310h34483ff_0": "sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa"}, "tags": {"0.6.2--py310h34483ff_0": "sha256:131eba0e65b3bc454e4cf8a6df39c2ec4312fd0bc8c0879378db91bd9ad512fa", "0.6.2--py39h52a3210_0": "sha256:4c909ad65edbb4701f1aa9f9e142631c63eee860afd70ae0532e7873f4f7bf66"}, "docker": "quay.io/biocontainers/pycoverm", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycoverm.

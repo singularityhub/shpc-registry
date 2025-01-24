@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hierinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hierinf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hierinf/container.yaml"
-updated_at: "2025-01-23 03:46:09.044270"
+updated_at: "2025-01-24 03:28:26.400892"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hierinf"
 aliases:

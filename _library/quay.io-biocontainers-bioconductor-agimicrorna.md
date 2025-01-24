@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-agimicrorna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agimicrorna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agimicrorna/container.yaml"
-updated_at: "2025-01-23 03:39:58.783670"
-latest: "2.52.0--r43hdfd78af_0"
+updated_at: "2025-01-24 02:55:11.826571"
+latest: "2.56.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agimicrorna"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.48.0--r42hdfd78af_0"
  - "2.50.0--r43hdfd78af_0"
  - "2.52.0--r43hdfd78af_0"
+ - "2.56.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-agimicrorna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-agimicrorna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agimicrorna", "latest": {"2.52.0--r43hdfd78af_0": "sha256:58d1d3d48b2b290bcb4214732373c7901ec748067dd19ed8422f190cb3fe9077"}, "tags": {"2.44.0--r41hdfd78af_0": "sha256:ebb035fb858af4cd62788acf63ac2c8307f68ca7705ebb52850e8171cf1076ad", "2.48.0--r42hdfd78af_0": "sha256:ce875c2ae3dfcdeda5f4d7c04dfde461288977e22ba270cc6a4807fb643efb41", "2.50.0--r43hdfd78af_0": "sha256:f4c164e6b4fd64d5527940027eff9bffc694c19e378b8a5a9a60fb9f8f5f00a2", "2.52.0--r43hdfd78af_0": "sha256:58d1d3d48b2b290bcb4214732373c7901ec748067dd19ed8422f190cb3fe9077"}, "docker": "quay.io/biocontainers/bioconductor-agimicrorna"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-agimicrorna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agimicrorna", "latest": {"2.56.0--r44hdfd78af_0": "sha256:52780ff0b621ca2e7b0793490f3be13fc4e33e834fc074d59210dcfebf51828c"}, "tags": {"2.44.0--r41hdfd78af_0": "sha256:ebb035fb858af4cd62788acf63ac2c8307f68ca7705ebb52850e8171cf1076ad", "2.48.0--r42hdfd78af_0": "sha256:ce875c2ae3dfcdeda5f4d7c04dfde461288977e22ba270cc6a4807fb643efb41", "2.50.0--r43hdfd78af_0": "sha256:f4c164e6b4fd64d5527940027eff9bffc694c19e378b8a5a9a60fb9f8f5f00a2", "2.52.0--r43hdfd78af_0": "sha256:58d1d3d48b2b290bcb4214732373c7901ec748067dd19ed8422f190cb3fe9077", "2.56.0--r44hdfd78af_0": "sha256:52780ff0b621ca2e7b0793490f3be13fc4e33e834fc074d59210dcfebf51828c"}, "docker": "quay.io/biocontainers/bioconductor-agimicrorna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-agimicrorna.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-agimicrorna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-agimicrorna:2.52.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-agimicrorna:2.56.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-agimicrorna/2.52.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-agimicrorna/2.52.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-agimicrorna/2.56.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-agimicrorna/2.56.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

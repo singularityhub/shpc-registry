@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mdts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mdts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mdts/container.yaml"
-updated_at: "2025-01-23 03:37:43.915592"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-24 02:52:27.086193"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mdts"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mdts"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mdts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdts", "latest": {"1.22.0--r43hdfd78af_0": "sha256:1edda92003edf2860f9909760608481bf9da9b9948635edce1e5a0711859104c"}, "tags": {"1.8.0--r40_0": "sha256:5b6278963b1b6fee4eeee3031afed194879b5e759d6bd5f945da388c76f6f750", "1.18.0--r42hdfd78af_0": "sha256:2c99074046efeaf1f26e4c7b82658136875dd7f3d0dcb3c326b0ef18869a1d22", "1.14.0--r41hdfd78af_0": "sha256:746f12092b4a7cbc9fce7e37f13d32546a06afedc4f48695978555c43796a787", "1.12.0--r41hdfd78af_0": "sha256:5e274ed52d6738303c9db366672450132a9a8d339dee3b0e3065a695c50a72a0", "1.10.0--r40hdfd78af_1": "sha256:0539419c58b33dcb72e8b047e5e83a958b077c1e0302eefb6483ff89d47f07fa", "1.20.0--r43hdfd78af_0": "sha256:70754bd3987b6cf4d5300802a1712a41aa9e56ae6c503b12f035d1a746f5b22e", "1.22.0--r43hdfd78af_0": "sha256:1edda92003edf2860f9909760608481bf9da9b9948635edce1e5a0711859104c"}, "docker": "quay.io/biocontainers/bioconductor-mdts", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mdts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdts", "latest": {"1.26.0--r44hdfd78af_0": "sha256:6b66ca392e7697b83f11b6ae82d5c59acaabb746b1d965ff2fed3255f12dc416"}, "tags": {"1.8.0--r40_0": "sha256:5b6278963b1b6fee4eeee3031afed194879b5e759d6bd5f945da388c76f6f750", "1.18.0--r42hdfd78af_0": "sha256:2c99074046efeaf1f26e4c7b82658136875dd7f3d0dcb3c326b0ef18869a1d22", "1.14.0--r41hdfd78af_0": "sha256:746f12092b4a7cbc9fce7e37f13d32546a06afedc4f48695978555c43796a787", "1.12.0--r41hdfd78af_0": "sha256:5e274ed52d6738303c9db366672450132a9a8d339dee3b0e3065a695c50a72a0", "1.10.0--r40hdfd78af_1": "sha256:0539419c58b33dcb72e8b047e5e83a958b077c1e0302eefb6483ff89d47f07fa", "1.20.0--r43hdfd78af_0": "sha256:70754bd3987b6cf4d5300802a1712a41aa9e56ae6c503b12f035d1a746f5b22e", "1.22.0--r43hdfd78af_0": "sha256:1edda92003edf2860f9909760608481bf9da9b9948635edce1e5a0711859104c", "1.26.0--r44hdfd78af_0": "sha256:6b66ca392e7697b83f11b6ae82d5c59acaabb746b1d965ff2fed3255f12dc416"}, "docker": "quay.io/biocontainers/bioconductor-mdts", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mdts.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mdts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mdts:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mdts:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mdts/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mdts/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mdts/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mdts/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

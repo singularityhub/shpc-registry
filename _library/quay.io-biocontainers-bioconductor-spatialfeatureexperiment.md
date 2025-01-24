@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialfeatureexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialfeatureexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialfeatureexperiment/container.yaml"
-updated_at: "2025-01-23 03:42:43.791842"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-24 03:26:01.384370"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialfeatureexperiment"
 aliases:
  - "pg_amcheck"
@@ -37,8 +37,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.1--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spatialfeatureexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialfeatureexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spatialfeatureexperiment", "latest": {"1.4.0--r43hdfd78af_0": "sha256:939ceb7374e672857355dd1286eaa0441c50b865dd208a142e75e8be827a0f00"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:d31fa80923e0bdef3a39ea4462fc8de404ff5f4941deb40e516b5be4ca3cdc6b", "1.2.1--r43hdfd78af_0": "sha256:21831ed956ad3b6aefa22563bae9fdbc99c773293415fa2c6f943809f4998d50", "1.4.0--r43hdfd78af_0": "sha256:939ceb7374e672857355dd1286eaa0441c50b865dd208a142e75e8be827a0f00"}, "docker": "quay.io/biocontainers/bioconductor-spatialfeatureexperiment", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialfeatureexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spatialfeatureexperiment", "latest": {"1.8.0--r44hdfd78af_0": "sha256:e807c39c141c019255f853fefd3a10f14ed9a740f0760a278bfa3b91dd5d69b0"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:d31fa80923e0bdef3a39ea4462fc8de404ff5f4941deb40e516b5be4ca3cdc6b", "1.2.1--r43hdfd78af_0": "sha256:21831ed956ad3b6aefa22563bae9fdbc99c773293415fa2c6f943809f4998d50", "1.4.0--r43hdfd78af_0": "sha256:939ceb7374e672857355dd1286eaa0441c50b865dd208a142e75e8be827a0f00", "1.8.0--r44hdfd78af_0": "sha256:e807c39c141c019255f853fefd3a10f14ed9a740f0760a278bfa3b91dd5d69b0"}, "docker": "quay.io/biocontainers/bioconductor-spatialfeatureexperiment", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialfeatureexperiment.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialfeatureexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialfeatureexperiment:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialfeatureexperiment:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialfeatureexperiment/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialfeatureexperiment/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialfeatureexperiment/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialfeatureexperiment/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

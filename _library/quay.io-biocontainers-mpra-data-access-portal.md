@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mpra-data-access-portal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpra-data-access-portal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpra-data-access-portal/container.yaml"
-updated_at: "2025-01-23 03:43:06.291436"
-latest: "0.1.9--hdfd78af_0"
+updated_at: "2025-01-24 03:13:37.542145"
+latest: "0.1.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mpra-data-access-portal"
 aliases:
  - "mpra-data-access-portal"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.1.8--hdfd78af_3"
  - "0.1.9--hdfd78af_0"
+ - "0.1.10--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mpra-data-access-portal"
-config: {"url": "https://biocontainers.pro/tools/mpra-data-access-portal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mpra-data-access-portal", "latest": {"0.1.9--hdfd78af_0": "sha256:7689d85e41e98060da786c9651dd75227cd875da773fb6335031d598cbd48eeb"}, "tags": {"0.1.8--hdfd78af_3": "sha256:9ede44226d22207714469b96ea96bb0ef2b87f73d3a228579d0f5abbc2c256d7", "0.1.9--hdfd78af_0": "sha256:7689d85e41e98060da786c9651dd75227cd875da773fb6335031d598cbd48eeb"}, "docker": "quay.io/biocontainers/mpra-data-access-portal", "aliases": {"mpra-data-access-portal": "/usr/local/bin/mpra-data-access-portal", "phantomjs": "/usr/local/bin/phantomjs", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/mpra-data-access-portal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mpra-data-access-portal", "latest": {"0.1.10--hdfd78af_0": "sha256:892a3c96a2ab688b577e2f322f3bc3b7076d935f48e91ef294cdda311287dbfe"}, "tags": {"0.1.8--hdfd78af_3": "sha256:9ede44226d22207714469b96ea96bb0ef2b87f73d3a228579d0f5abbc2c256d7", "0.1.9--hdfd78af_0": "sha256:7689d85e41e98060da786c9651dd75227cd875da773fb6335031d598cbd48eeb", "0.1.10--hdfd78af_0": "sha256:892a3c96a2ab688b577e2f322f3bc3b7076d935f48e91ef294cdda311287dbfe"}, "docker": "quay.io/biocontainers/mpra-data-access-portal", "aliases": {"mpra-data-access-portal": "/usr/local/bin/mpra-data-access-portal", "phantomjs": "/usr/local/bin/phantomjs", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mpra-data-access-portal.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mpra-data-access-portal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mpra-data-access-portal:0.1.9--hdfd78af_0
+$ shpc install quay.io/biocontainers/mpra-data-access-portal:0.1.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mpra-data-access-portal/0.1.9--hdfd78af_0
-$ module help quay.io/biocontainers/mpra-data-access-portal/0.1.9--hdfd78af_0
+$ module load quay.io/biocontainers/mpra-data-access-portal/0.1.10--hdfd78af_0
+$ module help quay.io/biocontainers/mpra-data-access-portal/0.1.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
