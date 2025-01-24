@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rnamodr.ribomethseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnamodr.ribomethseq
 latest:
-  1.16.0--r43hdfd78af_0: sha256:37b7f33406968582791eef8a7955b8be91fa6df61f145633f551c789963f2fb8
+  1.20.0--r44hdfd78af_0: sha256:21b7bb447ac25b879b7e1839f8485c573b7cd746742ce1bf2254036f2f44ae3a
 tags:
   1.8.0--r41hdfd78af_0: sha256:057c1c88a05a64a628437c6a18b7d1c0338a76a158516881d8ede3b06706f482
   1.12.0--r42hdfd78af_0: sha256:8ba560eafc79324b5ce63d6543666b4031f01994895d8e623c02aeb2f2186432
   1.14.0--r43hdfd78af_0: sha256:d5bf985d9cf4b31ba8175909a30a36472846f6edbaccae6804cd7453adda05c1
   1.16.0--r43hdfd78af_0: sha256:37b7f33406968582791eef8a7955b8be91fa6df61f145633f551c789963f2fb8
+  1.20.0--r44hdfd78af_0: sha256:21b7bb447ac25b879b7e1839f8485c573b7cd746742ce1bf2254036f2f44ae3a
 docker: quay.io/biocontainers/bioconductor-rnamodr.ribomethseq

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-somascan.db
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-somascan.db
 latest:
-  0.99.7--r43hdfd78af_0: sha256:2f12d949a19964bdcf5953fe15d5b061001631446e888a25bbf3a6e4865ac3aa
+  0.99.10--r44hdfd78af_0: sha256:f62fa602889831e3c343ff073caea787c234846f4ab1856a7999cfd4232b5e01
 tags:
   0.99.7--r43hdfd78af_0: sha256:2f12d949a19964bdcf5953fe15d5b061001631446e888a25bbf3a6e4865ac3aa
+  0.99.10--r44hdfd78af_0: sha256:f62fa602889831e3c343ff073caea787c234846f4ab1856a7999cfd4232b5e01
 docker: quay.io/biocontainers/bioconductor-somascan.db
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

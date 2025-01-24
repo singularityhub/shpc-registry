@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-eupathdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-eupathdb
 latest:
-  1.0.1--r43hdfd78af_12: sha256:8eac62029c705f59e3f0f0691f86a4322e104357e403ea10761a7b4462858939
+  1.0.1--r44hdfd78af_13: sha256:686dad3bc65c08cced2b3c10c823c033f8dc7190ea7590bca21fc6adaf7abcd5
 tags:
   1.0.1--r41hdfd78af_9: sha256:fa7e853093aafe2efde0ad9843b77dae3735334510b8c533f5a4556a1df57430
   1.0.1--r42hdfd78af_10: sha256:2a3feb5e9161295802a8da73f65f3974112acafc6df80c7d9d9aaedf29025a5a
   1.0.1--r43hdfd78af_11: sha256:c4fe7f0f31879725a73df946a3e3dbbad542da0989705c2a3bef8aae201e3cf4
   1.0.1--r43hdfd78af_12: sha256:8eac62029c705f59e3f0f0691f86a4322e104357e403ea10761a7b4462858939
+  1.0.1--r44hdfd78af_13: sha256:686dad3bc65c08cced2b3c10c823c033f8dc7190ea7590bca21fc6adaf7abcd5
 docker: quay.io/biocontainers/bioconductor-eupathdb

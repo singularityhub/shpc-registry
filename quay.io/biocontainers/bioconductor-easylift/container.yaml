@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-easylift
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-easylift
 latest:
-  1.0.0--r43hdfd78af_0: sha256:34897b9083829d39afe9fde7d33db432c607b8929e8028c9d5103ad5419a3bef
+  1.4.0--r44hdfd78af_0: sha256:3fa460c916d13ed03988d67408b7383a8132e9352d6a3e28c33ae1e631fa20cc
 tags:
   1.0.0--r43hdfd78af_0: sha256:34897b9083829d39afe9fde7d33db432c607b8929e8028c9d5103ad5419a3bef
+  1.4.0--r44hdfd78af_0: sha256:3fa460c916d13ed03988d67408b7383a8132e9352d6a3e28c33ae1e631fa20cc
 docker: quay.io/biocontainers/bioconductor-easylift
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

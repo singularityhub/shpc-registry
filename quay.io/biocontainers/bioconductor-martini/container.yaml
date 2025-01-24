@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-martini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-martini
 latest:
-  1.22.0--r43hf17093f_1: sha256:613f34d47af17b5f732023562cfd232b93e57b7b5c39299fc0aa7630c9aa5470
+  1.26.0--r44he5774e6_0: sha256:ced521beee2d1bab75499a995873a9edd8dd62502e7b05c3e63bddb2904b21e7
 tags:
   1.8.0--r40h5f743cb_0: sha256:89b08de431556324244e831ee4a576dc49f050915dec5cb522275518782c50f9
   1.18.0--r42hc247a5b_0: sha256:18e836e15649697d16c9a406c86dd0125611b8b99b4f381501cb5b654fb9a336
@@ -13,6 +13,7 @@ tags:
   1.20.0--r43hf17093f_0: sha256:3051bb722703a244f4947405470b0c937a82e2873cdf7c8f612a73ab43d16386
   1.22.0--r43hf17093f_0: sha256:ab1622ab00a03d1a8603603c47d76498ffe9167db22242a9b85aab4283b4edb3
   1.22.0--r43hf17093f_1: sha256:613f34d47af17b5f732023562cfd232b93e57b7b5c39299fc0aa7630c9aa5470
+  1.26.0--r44he5774e6_0: sha256:ced521beee2d1bab75499a995873a9edd8dd62502e7b05c3e63bddb2904b21e7
 docker: quay.io/biocontainers/bioconductor-martini
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

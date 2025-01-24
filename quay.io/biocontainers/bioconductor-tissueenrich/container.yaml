@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tissueenrich
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tissueenrich
 latest:
-  1.22.0--r43hdfd78af_0: sha256:641daec747e5a9d8f3cfb7476f28f860bb502881f051d6ea848229bb229e4eaa
+  1.26.0--r44hdfd78af_0: sha256:0b21de751a7240bf18622cf29671e367c296cc46e418b0f0f6730120112a8017
 tags:
   1.8.0--r40_0: sha256:97ab630173e37ed182fe2737096a227ecc1b0cd09fa9c2c9294be12d8be31316
   1.18.0--r42hdfd78af_0: sha256:43422e4cdc3573bd7687b0863d1716c5f9e4a006ca950ac93f1eac1fd6172f1a
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:132f4c63deba9a12f7f217d7aaf4a389796fa72577cf3970c3a48552c4a1b931
   1.20.0--r43hdfd78af_0: sha256:b4cfd38b0155be61be53206ba047400866f9bc65c51b0ea0d40060894da15185
   1.22.0--r43hdfd78af_0: sha256:641daec747e5a9d8f3cfb7476f28f860bb502881f051d6ea848229bb229e4eaa
+  1.26.0--r44hdfd78af_0: sha256:0b21de751a7240bf18622cf29671e367c296cc46e418b0f0f6730120112a8017
 docker: quay.io/biocontainers/bioconductor-tissueenrich
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

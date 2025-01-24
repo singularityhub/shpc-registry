@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pymethylation_utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pymethylation_utils
 latest:
-  0.4.1--pyh7e72e81_0: sha256:c6ff419e0586b762ac5423f085d95bc74cbcbbd51da6c73c1fcecaa126bbf069
+  0.5.2--pyh7e72e81_0: sha256:2212550a923fd36dcb0848a98be779b07cc1571ce1afa87d6f77be917bf5a44b
 tags:
   0.4.1--pyh7e72e81_0: sha256:c6ff419e0586b762ac5423f085d95bc74cbcbbd51da6c73c1fcecaa126bbf069
+  0.5.2--pyh7e72e81_0: sha256:2212550a923fd36dcb0848a98be779b07cc1571ce1afa87d6f77be917bf5a44b
 docker: quay.io/biocontainers/pymethylation_utils
 aliases:
   idle3.13: /usr/local/bin/idle3.13

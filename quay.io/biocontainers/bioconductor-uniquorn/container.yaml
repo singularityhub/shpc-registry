@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-uniquorn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-uniquorn
 latest:
-  2.22.0--r43hdfd78af_0: sha256:eb5c8e889fcdfa299cb03595b86c668791c90432e9e1c99a3488dbc7797b079e
+  2.26.0--r44hdfd78af_0: sha256:bca560a70243a3ffe3bec02ac10659e3c442f175b781219555b67906d9865301
 tags:
   2.8.0--r40_0: sha256:8fc224c01bd3adb5ac9587a49092eb5917eff74bb7b7eacc237d6bc1c3f49cb8
   2.18.0--r42hdfd78af_0: sha256:f79c44d69e58b3e6e49da118391fe72ee374df7cde71d364ec2b1be72c17d634
@@ -11,6 +11,7 @@ tags:
   2.10.0--r40hdfd78af_1: sha256:f5c8facdfd949c4bd414952a35e740126b9d19651b36c9297600a12bcf9c83c3
   2.20.0--r43hdfd78af_0: sha256:0e3aadf7d450270d4eaf87ff3f00039e92c92016a587c0124b62b4c8d2f91fb3
   2.22.0--r43hdfd78af_0: sha256:eb5c8e889fcdfa299cb03595b86c668791c90432e9e1c99a3488dbc7797b079e
+  2.26.0--r44hdfd78af_0: sha256:bca560a70243a3ffe3bec02ac10659e3c442f175b781219555b67906d9865301
 docker: quay.io/biocontainers/bioconductor-uniquorn
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

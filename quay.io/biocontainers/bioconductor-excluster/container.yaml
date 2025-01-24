@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-excluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-excluster
 latest:
-  1.20.0--r43hdfd78af_0: sha256:9531a798091492afda44ccaab74f2fa027574bf2f80762930c5c36f6a0cd9c36
+  1.24.0--r44hdfd78af_0: sha256:e777b718683be0e5ae4f730698b6120fde67281b6304009ab3677768ee9e3f46
 tags:
   1.8.0--r40hdfd78af_1: sha256:693874ace269138376d5ccbf52b092859c749abbae99a13729db0774e05932fb
   1.16.0--r42hdfd78af_0: sha256:c65ef281330c9f63e60b390f834f096294698adc6300e213a17623d0758e2d55
@@ -10,6 +10,7 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:50a4347c8d51b2f710991cb9b9008663bb35937c239e0d457f580df33eee5da4
   1.18.0--r43hdfd78af_0: sha256:f65a944878310afa6d5c4ec5d72d20efd90b7d8367760d744a6f70c9352b18e7
   1.20.0--r43hdfd78af_0: sha256:9531a798091492afda44ccaab74f2fa027574bf2f80762930c5c36f6a0cd9c36
+  1.24.0--r44hdfd78af_0: sha256:e777b718683be0e5ae4f730698b6120fde67281b6304009ab3677768ee9e3f46
 docker: quay.io/biocontainers/bioconductor-excluster
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

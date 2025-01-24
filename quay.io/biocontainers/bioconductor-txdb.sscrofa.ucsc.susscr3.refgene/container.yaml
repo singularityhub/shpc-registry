@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
 latest:
-  3.12.0--r43hdfd78af_7: sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903
+  3.12.0--r44hdfd78af_8: sha256:c15d65c70b5e0735458c183d1f9861e43a02d4aaae954e89d6d7b56024f3122a
 tags:
   3.4.6--r36_1: sha256:f3a3977967d80e17addccde2fe4b5e0f3c074556be6d26956ab33c87794b444f
   3.12.0--r42hdfd78af_5: sha256:8aed5f665cd0ef1d59fb35c99255d444b8060125570f4ede237b3e155275c533
@@ -10,6 +10,7 @@ tags:
   3.10.0--r36_0: sha256:3a3710e9c7b090d7d5459a9971d516194f3ce39779c9d36e5965ab306637bbce
   3.12.0--r43hdfd78af_6: sha256:ed57e0af88fff1cf5b259f52eba5744597ff224c26c96cdedca5aa5b1072098c
   3.12.0--r43hdfd78af_7: sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903
+  3.12.0--r44hdfd78af_8: sha256:c15d65c70b5e0735458c183d1f9861e43a02d4aaae954e89d6d7b56024f3122a
 docker: quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

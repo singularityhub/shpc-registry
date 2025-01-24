@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dominoeffect
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dominoeffect
 latest:
-  1.22.0--r43hdfd78af_0: sha256:1867de9ff80ec316ea71b840db9989982e7a3f83b382de62dd3b6eb0b567d82f
+  1.26.0--r44hdfd78af_0: sha256:f2c8f4dfa893ee5c4c2004c6a50a1b5d1725347c0cdeddb43ea2659680268eec
 tags:
   1.8.0--r40_0: sha256:300412eb13105b9d1e7918d45514353e19c2a1f216cf8310858b343c2b20c743
   1.18.0--r42hdfd78af_0: sha256:cfa7d99c5746bea8413bd13f2509b77bb196667943906199033118b9599d3886
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:508564b492acda016302b5fa3233b905357a928e5d7e5f3dd75eaaf9f27375d9
   1.20.1--r43hdfd78af_0: sha256:e0622ae1d3134721e7593a593e2d6e8b6a40e5ca2ffeccf70ba38b2baa769cc9
   1.22.0--r43hdfd78af_0: sha256:1867de9ff80ec316ea71b840db9989982e7a3f83b382de62dd3b6eb0b567d82f
+  1.26.0--r44hdfd78af_0: sha256:f2c8f4dfa893ee5c4c2004c6a50a1b5d1725347c0cdeddb43ea2659680268eec
 docker: quay.io/biocontainers/bioconductor-dominoeffect
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
