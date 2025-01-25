@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-visse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-visse
 latest:
-  1.10.0--r43hdfd78af_0: sha256:a6e6ab084e0d77649d3fd0eb4d9c9906e2b0f41008217b5e01c5f6cea9dbc955
+  1.14.0--r44hdfd78af_0: sha256:fd072bbcc1b54a9bb1338f281642d8ece64898e7445ae29d9530ae6bf80cf091
 tags:
   1.2.2--r41hdfd78af_0: sha256:0b005632ff78fb32c52954ae2557f944e9ee474e9eeeb7826c6b621a74876193
   1.6.0--r42hdfd78af_0: sha256:b9419359457d69adc7caf3eb549b1f04de45074c08d42988c2a77f7550486619
   1.8.0--r43hdfd78af_0: sha256:90317f108a39073503c38c70538cc2a38b9bd1cd207cf9ab035085e822b7146f
   1.10.0--r43hdfd78af_0: sha256:a6e6ab084e0d77649d3fd0eb4d9c9906e2b0f41008217b5e01c5f6cea9dbc955
+  1.14.0--r44hdfd78af_0: sha256:fd072bbcc1b54a9bb1338f281642d8ece64898e7445ae29d9530ae6bf80cf091
 docker: quay.io/biocontainers/bioconductor-visse

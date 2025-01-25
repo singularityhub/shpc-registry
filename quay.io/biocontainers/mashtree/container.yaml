@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/mashtree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mashtree
 latest:
-  1.4.6--pl5321h7b50bb2_1: sha256:69aef684c46ef37bfea041f210a64eb81a99a25649dc7131ce317b629e48073d
+  1.4.6--pl5321h7b50bb2_2: sha256:1d056dda25ee656eeba44906841c1f61ceee1d147ddaa544e3bc1c096810b49f
 tags:
   1.2.0--pl5321hec16e2b_1: sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab
   1.2.0--pl5321h031d066_2: sha256:955826c1f60bff0f26361a5e91947bdab3689e017f77978bc023c7dc690d46c5
   1.4.5--pl5321h031d066_0: sha256:aac6b53551782aca24a19792c923b0445e860b344e9a8d294c6754825e3d8664
   1.4.6--pl5321h031d066_0: sha256:590a0e41bb56cba0205391ff4c1c9747921dcc5754309f754c4e1e7ed2ec5316
   1.4.6--pl5321h7b50bb2_1: sha256:69aef684c46ef37bfea041f210a64eb81a99a25649dc7131ce317b629e48073d
+  1.4.6--pl5321h7b50bb2_2: sha256:1d056dda25ee656eeba44906841c1f61ceee1d147ddaa544e3bc1c096810b49f
 docker: quay.io/biocontainers/mashtree
 aliases:
   mashtree: /usr/local/bin/mashtree

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-bovine.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bovine.db
 latest:
-  3.13.0--r43hdfd78af_4: sha256:bb4851a94ea32805009ab1f9a9e11ce1461e4e6dcc507783a1881698b8f72b0f
+  3.13.0--r44hdfd78af_5: sha256:1bde4f996e629971f50a5f08ad954bfb6c21273b32112acffc4bcf279b11a990
 tags:
   3.2.3--r41hdfd78af_7: sha256:ffe2bb76898826183c854b12e4dd628561989f5c7869c7bc8d2e66224acf629a
   3.13.0--r42hdfd78af_2: sha256:456906fd17e0206fef3bd82dbd4825777e66e76b437ceeb8f63190a855915ef3
   3.13.0--r43hdfd78af_3: sha256:b3e6e407d3ada2498fcbd192798fbbc37f85ce5130c9a4504713ed5b2586382d
   3.13.0--r43hdfd78af_4: sha256:bb4851a94ea32805009ab1f9a9e11ce1461e4e6dcc507783a1881698b8f72b0f
+  3.13.0--r44hdfd78af_5: sha256:1bde4f996e629971f50a5f08ad954bfb6c21273b32112acffc4bcf279b11a990
 docker: quay.io/biocontainers/bioconductor-bovine.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
