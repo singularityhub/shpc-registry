@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-easylift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easylift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easylift/container.yaml"
-updated_at: "2025-01-24 02:56:47.374614"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-01-25 02:51:10.388300"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easylift"
 aliases:
  - "pcre2posix_test"
@@ -27,8 +27,9 @@ aliases:
  - "register-python-argcomplete"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-easylift"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-easylift", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-easylift", "latest": {"1.0.0--r43hdfd78af_0": "sha256:34897b9083829d39afe9fde7d33db432c607b8929e8028c9d5103ad5419a3bef"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:34897b9083829d39afe9fde7d33db432c607b8929e8028c9d5103ad5419a3bef"}, "docker": "quay.io/biocontainers/bioconductor-easylift", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-easylift", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-easylift", "latest": {"1.4.0--r44hdfd78af_0": "sha256:3fa460c916d13ed03988d67408b7383a8132e9352d6a3e28c33ae1e631fa20cc"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:34897b9083829d39afe9fde7d33db432c607b8929e8028c9d5103ad5419a3bef", "1.4.0--r44hdfd78af_0": "sha256:3fa460c916d13ed03988d67408b7383a8132e9352d6a3e28c33ae1e631fa20cc"}, "docker": "quay.io/biocontainers/bioconductor-easylift", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-easylift.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-easylift
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-easylift:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-easylift:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-easylift/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-easylift/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-easylift/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-easylift/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

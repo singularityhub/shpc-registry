@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rguatlas4k.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rguatlas4k.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rguatlas4k.db/container.yaml"
-updated_at: "2025-01-24 03:35:06.811417"
-latest: "3.2.3--r43hdfd78af_13"
+updated_at: "2025-01-25 03:29:20.093517"
+latest: "3.2.3--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-rguatlas4k.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.2.3--r42hdfd78af_11"
  - "3.2.3--r43hdfd78af_12"
  - "3.2.3--r43hdfd78af_13"
+ - "3.2.3--r44hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-rguatlas4k.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rguatlas4k.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rguatlas4k.db", "latest": {"3.2.3--r43hdfd78af_13": "sha256:640d12dd2037f8b3aad67425cfdc1f8d70f38a74df8182931913a6ccd2314db9"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e0431d918120c3a827095b5b42403f3809da76dd780345e95329199bd8ed1e7e", "3.2.3--r42hdfd78af_11": "sha256:cbd66317c4ef8a4b99300ea9722a9688dd43e6ce1c426ba11ce95a9656f2a3aa", "3.2.3--r43hdfd78af_12": "sha256:899f1222b6ff8a49cf91b9c34e4a71f6892f2db3e0db77304b4378f37e5d27f8", "3.2.3--r43hdfd78af_13": "sha256:640d12dd2037f8b3aad67425cfdc1f8d70f38a74df8182931913a6ccd2314db9"}, "docker": "quay.io/biocontainers/bioconductor-rguatlas4k.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rguatlas4k.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rguatlas4k.db", "latest": {"3.2.3--r44hdfd78af_14": "sha256:26f6770dd40ee65f3c2ebc20a8f598bd889154d9fc7cca874efcc5c8073449a9"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e0431d918120c3a827095b5b42403f3809da76dd780345e95329199bd8ed1e7e", "3.2.3--r42hdfd78af_11": "sha256:cbd66317c4ef8a4b99300ea9722a9688dd43e6ce1c426ba11ce95a9656f2a3aa", "3.2.3--r43hdfd78af_12": "sha256:899f1222b6ff8a49cf91b9c34e4a71f6892f2db3e0db77304b4378f37e5d27f8", "3.2.3--r43hdfd78af_13": "sha256:640d12dd2037f8b3aad67425cfdc1f8d70f38a74df8182931913a6ccd2314db9", "3.2.3--r44hdfd78af_14": "sha256:26f6770dd40ee65f3c2ebc20a8f598bd889154d9fc7cca874efcc5c8073449a9"}, "docker": "quay.io/biocontainers/bioconductor-rguatlas4k.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rguatlas4k.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rguatlas4k.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rguatlas4k.db:3.2.3--r43hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-rguatlas4k.db:3.2.3--r44hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rguatlas4k.db/3.2.3--r43hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-rguatlas4k.db/3.2.3--r43hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-rguatlas4k.db/3.2.3--r44hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-rguatlas4k.db/3.2.3--r44hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

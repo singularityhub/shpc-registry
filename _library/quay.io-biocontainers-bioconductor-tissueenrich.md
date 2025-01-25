@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tissueenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tissueenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tissueenrich/container.yaml"
-updated_at: "2025-01-24 02:50:01.456692"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-25 02:44:22.327366"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tissueenrich"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tissueenrich"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tissueenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tissueenrich", "latest": {"1.22.0--r43hdfd78af_0": "sha256:641daec747e5a9d8f3cfb7476f28f860bb502881f051d6ea848229bb229e4eaa"}, "tags": {"1.8.0--r40_0": "sha256:97ab630173e37ed182fe2737096a227ecc1b0cd09fa9c2c9294be12d8be31316", "1.18.0--r42hdfd78af_0": "sha256:43422e4cdc3573bd7687b0863d1716c5f9e4a006ca950ac93f1eac1fd6172f1a", "1.14.0--r41hdfd78af_0": "sha256:78fa2f4e4b546111bc2459d9aab14a234f3b8493ba745b5a38781b3d4c8ea26f", "1.12.0--r41hdfd78af_0": "sha256:b91245c23e764c0684c3d5f024931c8d5c19c895504881e0d004a1bd669866bd", "1.10.0--r40hdfd78af_1": "sha256:132f4c63deba9a12f7f217d7aaf4a389796fa72577cf3970c3a48552c4a1b931", "1.20.0--r43hdfd78af_0": "sha256:b4cfd38b0155be61be53206ba047400866f9bc65c51b0ea0d40060894da15185", "1.22.0--r43hdfd78af_0": "sha256:641daec747e5a9d8f3cfb7476f28f860bb502881f051d6ea848229bb229e4eaa"}, "docker": "quay.io/biocontainers/bioconductor-tissueenrich", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tissueenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tissueenrich", "latest": {"1.26.0--r44hdfd78af_0": "sha256:0b21de751a7240bf18622cf29671e367c296cc46e418b0f0f6730120112a8017"}, "tags": {"1.8.0--r40_0": "sha256:97ab630173e37ed182fe2737096a227ecc1b0cd09fa9c2c9294be12d8be31316", "1.18.0--r42hdfd78af_0": "sha256:43422e4cdc3573bd7687b0863d1716c5f9e4a006ca950ac93f1eac1fd6172f1a", "1.14.0--r41hdfd78af_0": "sha256:78fa2f4e4b546111bc2459d9aab14a234f3b8493ba745b5a38781b3d4c8ea26f", "1.12.0--r41hdfd78af_0": "sha256:b91245c23e764c0684c3d5f024931c8d5c19c895504881e0d004a1bd669866bd", "1.10.0--r40hdfd78af_1": "sha256:132f4c63deba9a12f7f217d7aaf4a389796fa72577cf3970c3a48552c4a1b931", "1.20.0--r43hdfd78af_0": "sha256:b4cfd38b0155be61be53206ba047400866f9bc65c51b0ea0d40060894da15185", "1.22.0--r43hdfd78af_0": "sha256:641daec747e5a9d8f3cfb7476f28f860bb502881f051d6ea848229bb229e4eaa", "1.26.0--r44hdfd78af_0": "sha256:0b21de751a7240bf18622cf29671e367c296cc46e418b0f0f6730120112a8017"}, "docker": "quay.io/biocontainers/bioconductor-tissueenrich", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tissueenrich.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tissueenrich
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tissueenrich:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tissueenrich:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tissueenrich/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tissueenrich/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tissueenrich/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tissueenrich/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

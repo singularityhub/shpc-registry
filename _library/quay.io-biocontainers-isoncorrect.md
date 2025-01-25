@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isoncorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoncorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoncorrect/container.yaml"
-updated_at: "2025-01-24 02:48:17.686529"
+updated_at: "2025-01-25 02:42:39.057975"
 latest: "0.1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isoncorrect"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-norway981.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
-updated_at: "2025-01-24 02:55:04.491196"
-latest: "3.2.3--r43hdfd78af_12"
+updated_at: "2025-01-25 02:49:26.489068"
+latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-norway981.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
  - "3.2.3--r43hdfd78af_12"
+ - "3.2.3--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-norway981.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-norway981.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norway981.db", "latest": {"3.2.3--r43hdfd78af_12": "sha256:e7611f43a2b60db1546f4ad2f017142a9fb83da70478ad7bfa9defc67f431c57"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42", "3.2.3--r42hdfd78af_10": "sha256:02f613d59a80a43edc3cf003476f1a94e2257eda41607b6392be327648278645", "3.2.3--r43hdfd78af_11": "sha256:18f0c3827199d4593f6eb12850c14714d0e3a9d60177034b515ecd0f97882823", "3.2.3--r43hdfd78af_12": "sha256:e7611f43a2b60db1546f4ad2f017142a9fb83da70478ad7bfa9defc67f431c57"}, "docker": "quay.io/biocontainers/bioconductor-norway981.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-norway981.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norway981.db", "latest": {"3.2.3--r44hdfd78af_13": "sha256:75a9713945d51c861fba82ef807a01753c9d6900b123f5b063a2cedc8d9054f7"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42", "3.2.3--r42hdfd78af_10": "sha256:02f613d59a80a43edc3cf003476f1a94e2257eda41607b6392be327648278645", "3.2.3--r43hdfd78af_11": "sha256:18f0c3827199d4593f6eb12850c14714d0e3a9d60177034b515ecd0f97882823", "3.2.3--r43hdfd78af_12": "sha256:e7611f43a2b60db1546f4ad2f017142a9fb83da70478ad7bfa9defc67f431c57", "3.2.3--r44hdfd78af_13": "sha256:75a9713945d51c861fba82ef807a01753c9d6900b123f5b063a2cedc8d9054f7"}, "docker": "quay.io/biocontainers/bioconductor-norway981.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-norway981.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-norway981.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-norway981.db:3.2.3--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-norway981.db:3.2.3--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

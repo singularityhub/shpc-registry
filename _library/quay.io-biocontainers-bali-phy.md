@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bali-phy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bali-phy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bali-phy/container.yaml"
-updated_at: "2025-01-24 03:28:12.893732"
+updated_at: "2025-01-25 03:22:26.384737"
 latest: "4.0beta16--py313hedd121d_1"
 container_url: "https://biocontainers.pro/tools/bali-phy"
 aliases:

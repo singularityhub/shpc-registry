@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pcxndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcxndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcxndata/container.yaml"
-updated_at: "2025-01-24 03:07:44.726943"
+updated_at: "2025-01-25 03:02:10.745408"
 latest: "2.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcxndata"
 aliases:

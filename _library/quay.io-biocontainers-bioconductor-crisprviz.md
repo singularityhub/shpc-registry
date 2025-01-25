@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crisprviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprviz/container.yaml"
-updated_at: "2025-01-24 03:31:02.385467"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-01-25 03:25:16.984817"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprviz"
 aliases:
  - "2to3-3.11"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-crisprviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprviz", "latest": {"1.4.0--r43hdfd78af_0": "sha256:db453ec2f483d2f621a8995d433874c9df3eebf41bb8024e20aa02f74f66b56f"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:03c62d4dcbb271bb8ef2bf39df77721b56e6f530f31d47234ed5f5d41f083d1d", "1.2.0--r43hdfd78af_0": "sha256:878b7559c53291c406bb90f4cb779126385ba2888badf4c057ca68daaf7ea32a", "1.4.0--r43hdfd78af_0": "sha256:db453ec2f483d2f621a8995d433874c9df3eebf41bb8024e20aa02f74f66b56f"}, "docker": "quay.io/biocontainers/bioconductor-crisprviz", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprviz", "latest": {"1.8.0--r44hdfd78af_0": "sha256:e92805e4e7a6e0967f9b0915eb10ea9f8e76d6751157bad6bff39ae5791d9199"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:03c62d4dcbb271bb8ef2bf39df77721b56e6f530f31d47234ed5f5d41f083d1d", "1.2.0--r43hdfd78af_0": "sha256:878b7559c53291c406bb90f4cb779126385ba2888badf4c057ca68daaf7ea32a", "1.4.0--r43hdfd78af_0": "sha256:db453ec2f483d2f621a8995d433874c9df3eebf41bb8024e20aa02f74f66b56f", "1.8.0--r44hdfd78af_0": "sha256:e92805e4e7a6e0967f9b0915eb10ea9f8e76d6751157bad6bff39ae5791d9199"}, "docker": "quay.io/biocontainers/bioconductor-crisprviz", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprviz.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crisprviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crisprviz:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crisprviz:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crisprviz/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crisprviz/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crisprviz/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crisprviz/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

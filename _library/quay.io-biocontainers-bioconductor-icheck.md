@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-icheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icheck/container.yaml"
-updated_at: "2025-01-24 02:53:28.677021"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2025-01-25 02:47:50.636213"
+latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icheck"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.28.0--r42hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.36.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-icheck"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-icheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icheck", "latest": {"1.32.0--r43hdfd78af_0": "sha256:4174fb7ea4244c6f6a4574aeb85fb66d2a5f79a01cb94bfd6d36816e033ae41e"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:3f35eee52d4f58e9bc9d1a351abccc25df11c42c4c3b1fbc6778e395b9b515d6", "1.28.0--r42hdfd78af_0": "sha256:bba90b4fe2b6e597127f73ef90e763f2ba6fa74678926e60b6606bcef0d55285", "1.30.0--r43hdfd78af_0": "sha256:500c96bec6c5e057b83757faa3d850158162f9a9a47001de9be3598c5e089b3b", "1.32.0--r43hdfd78af_0": "sha256:4174fb7ea4244c6f6a4574aeb85fb66d2a5f79a01cb94bfd6d36816e033ae41e"}, "docker": "quay.io/biocontainers/bioconductor-icheck"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-icheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icheck", "latest": {"1.36.0--r44hdfd78af_0": "sha256:a071c5f06b10e4b58d30e7be85873275dd991e8df3a7f9b42554d2cfb8a671f5"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:3f35eee52d4f58e9bc9d1a351abccc25df11c42c4c3b1fbc6778e395b9b515d6", "1.28.0--r42hdfd78af_0": "sha256:bba90b4fe2b6e597127f73ef90e763f2ba6fa74678926e60b6606bcef0d55285", "1.30.0--r43hdfd78af_0": "sha256:500c96bec6c5e057b83757faa3d850158162f9a9a47001de9be3598c5e089b3b", "1.32.0--r43hdfd78af_0": "sha256:4174fb7ea4244c6f6a4574aeb85fb66d2a5f79a01cb94bfd6d36816e033ae41e", "1.36.0--r44hdfd78af_0": "sha256:a071c5f06b10e4b58d30e7be85873275dd991e8df3a7f9b42554d2cfb8a671f5"}, "docker": "quay.io/biocontainers/bioconductor-icheck"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-icheck.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-icheck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-icheck:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-icheck:1.36.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-icheck/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-icheck/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-icheck/1.36.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-icheck/1.36.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

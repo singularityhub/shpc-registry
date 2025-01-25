@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/container.yaml"
-updated_at: "2025-01-24 02:57:02.389006"
-latest: "8.8.0--r43hdfd78af_4"
+updated_at: "2025-01-25 02:51:25.447867"
+latest: "8.8.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-clariomsrathttranscriptcluster.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "8.8.0--r42hdfd78af_2"
  - "8.8.0--r43hdfd78af_3"
  - "8.8.0--r43hdfd78af_4"
+ - "8.8.0--r44hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for bioconductor-clariomsrathttranscriptcluster.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clariomsrathttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clariomsrathttranscriptcluster.db", "latest": {"8.8.0--r43hdfd78af_4": "sha256:2b541eb0bdb8d31faca33f4c93fb44cbb31aa75fb6771674bd25cc82f92da042"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:ebbee41051384a5872c422615d00d0f63ecefbe518d925a6d9b5ad1f1b253895", "8.8.0--r42hdfd78af_2": "sha256:ce0ea7eefdb2717d041b788501576706392b767d0251cb0f6540a460316d2952", "8.8.0--r43hdfd78af_3": "sha256:874be30950fa546720aad46a7053b9c36e34e2883cf21a0231d5de95856b05fb", "8.8.0--r43hdfd78af_4": "sha256:2b541eb0bdb8d31faca33f4c93fb44cbb31aa75fb6771674bd25cc82f92da042"}, "docker": "quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clariomsrathttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clariomsrathttranscriptcluster.db", "latest": {"8.8.0--r44hdfd78af_5": "sha256:89dd061e80c08bd09ae19b1d061556e32343a040d1a16e465769662b957e9a9f"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:ebbee41051384a5872c422615d00d0f63ecefbe518d925a6d9b5ad1f1b253895", "8.8.0--r42hdfd78af_2": "sha256:ce0ea7eefdb2717d041b788501576706392b767d0251cb0f6540a460316d2952", "8.8.0--r43hdfd78af_3": "sha256:874be30950fa546720aad46a7053b9c36e34e2883cf21a0231d5de95856b05fb", "8.8.0--r43hdfd78af_4": "sha256:2b541eb0bdb8d31faca33f4c93fb44cbb31aa75fb6771674bd25cc82f92da042", "8.8.0--r44hdfd78af_5": "sha256:89dd061e80c08bd09ae19b1d061556e32343a040d1a16e465769662b957e9a9f"}, "docker": "quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db:8.8.0--r43hdfd78af_4
+$ shpc install quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db:8.8.0--r44hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/8.8.0--r43hdfd78af_4
-$ module help quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/8.8.0--r43hdfd78af_4
+$ module load quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/8.8.0--r44hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db/8.8.0--r44hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
