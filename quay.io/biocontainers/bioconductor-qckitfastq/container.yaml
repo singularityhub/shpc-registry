@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-qckitfastq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qckitfastq
 latest:
-  1.18.0--r43hf17093f_0: sha256:243595fdd545742a05c0369f461c4c0968fcc2cef06cfa4fe603f476baa2db62
+  1.22.0--r44h77050f0_0: sha256:9a79a78bcb741660a750e30dda098789bd0f450e24acdf42bb3d507938aa4552
 tags:
   1.8.0--r41h399db7b_0: sha256:a596621359b12ac8814adfa65c1bb8efb10f5e29f0c1753e9e2dc357846ddd68
   1.14.0--r42hc247a5b_0: sha256:7f41209e8eb968276c2466331187ff5770491ca2d192080aa51f1f3c4bef3a11
@@ -10,6 +10,7 @@ tags:
   1.14.0--r42hf17093f_1: sha256:a471a67757ae6ba694d246646294c04abd8a361e91ca1bcbb9a481aafb1e6fe6
   1.16.0--r43hf17093f_0: sha256:e0e72377b737620924a5c4bbc23237793aac077be555889b539c428ce55dec21
   1.18.0--r43hf17093f_0: sha256:243595fdd545742a05c0369f461c4c0968fcc2cef06cfa4fe603f476baa2db62
+  1.22.0--r44h77050f0_0: sha256:9a79a78bcb741660a750e30dda098789bd0f450e24acdf42bb3d507938aa4552
 docker: quay.io/biocontainers/bioconductor-qckitfastq
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

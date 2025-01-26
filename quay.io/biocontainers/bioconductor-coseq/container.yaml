@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-coseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-coseq
 latest:
-  1.26.0--r43hdfd78af_0: sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de
+  1.30.0--r44hdfd78af_0: sha256:e6108323cc8dfabf58249174abb38d0128792f7c25ff98d9576cd584240ef657
 tags:
   1.8.0--r36_1: sha256:8e31bbdbc60a709d4b092d2f1dfc4536da0897f666e2f19ad449a1978cbcbfaa
   1.22.0--r42hdfd78af_0: sha256:152d44d709ec60e7f915c5548ba4ecb2828681d9bebfd878e4c515510439bed5
@@ -12,6 +12,7 @@ tags:
   1.10.0--r36_0: sha256:95ad70366f0fc2daca55fb5a78ce0b2e2fba035dd9e59396368e9fac8315721f
   1.24.0--r43hdfd78af_0: sha256:25e3dc920044827eafa59acae547b60c3340f42a254ae9818c4828f05d129732
   1.26.0--r43hdfd78af_0: sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de
+  1.30.0--r44hdfd78af_0: sha256:e6108323cc8dfabf58249174abb38d0128792f7c25ff98d9576cd584240ef657
 docker: quay.io/biocontainers/bioconductor-coseq
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

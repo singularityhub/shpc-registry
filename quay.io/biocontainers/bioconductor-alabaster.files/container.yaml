@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-alabaster.files
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-alabaster.files
 latest:
-  1.0.0--r43hdfd78af_0: sha256:94f468198fb799f6ad6e5194969fc0c83f52b736fe5c43ad88c291bbe7a5ff62
+  1.4.0--r44hdfd78af_0: sha256:cb883421f77e177c1da0232a3a51e7c5bb497eb117d0f5b6dc0aed3c4f97fd99
 tags:
   1.0.0--r43hdfd78af_0: sha256:94f468198fb799f6ad6e5194969fc0c83f52b736fe5c43ad88c291bbe7a5ff62
+  1.4.0--r44hdfd78af_0: sha256:cb883421f77e177c1da0232a3a51e7c5bb497eb117d0f5b6dc0aed3c4f97fd99
 docker: quay.io/biocontainers/bioconductor-alabaster.files
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

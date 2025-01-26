@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-teqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-teqc
 latest:
-  4.24.0--r43hdfd78af_0: sha256:171a018d7d08a325342bbb05b51db12fa4c7b65469ffac9cedbe87e194ed232a
+  4.28.0--r44hdfd78af_0: sha256:8563bd295630a648e41d1b8bc982f84b113d2a2486795a3a5fe70a898a6235c7
 tags:
   4.8.0--r36_0: sha256:9ab0f48e2b3279e636ac2cd9990921370a369ce89cc72a2fd9951c0bb929f2ea
   4.20.0--r42hdfd78af_0: sha256:1388b85fb0c1baa831214c4797bd3c17805a386a157c2711480d140a769a2202
@@ -12,6 +12,7 @@ tags:
   4.10.0--r40_0: sha256:ae3a565bc7311c94c959ad1534fa5b3c9cf8c88117ea017d933706cadb868888
   4.22.0--r43hdfd78af_0: sha256:2d359c88999ceb241345ffcfb674545c6bd303af8bcdc18ab439a284e9677dbe
   4.24.0--r43hdfd78af_0: sha256:171a018d7d08a325342bbb05b51db12fa4c7b65469ffac9cedbe87e194ed232a
+  4.28.0--r44hdfd78af_0: sha256:8563bd295630a648e41d1b8bc982f84b113d2a2486795a3a5fe70a898a6235c7
 docker: quay.io/biocontainers/bioconductor-teqc
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

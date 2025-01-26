@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-alabaster.mae
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-alabaster.mae
 latest:
-  1.2.0--r43hdfd78af_0: sha256:a92d96e9ef612a7bd0c49627af4e9320494ef97599a137ba610aeb69f140e2b5
+  1.6.0--r44hdfd78af_0: sha256:bc084e21f9edec79a4dcf08617b2f2f32ff70f60119f08bd2dea2837f06ebf5d
 tags:
   1.0.0--r43hdfd78af_0: sha256:fc3b1f4c8e475c4ce297545f39416dfd1d82767d7fbe73bb14a349374e1800e4
   1.2.0--r43hdfd78af_0: sha256:a92d96e9ef612a7bd0c49627af4e9320494ef97599a137ba610aeb69f140e2b5
+  1.6.0--r44hdfd78af_0: sha256:bc084e21f9edec79a4dcf08617b2f2f32ff70f60119f08bd2dea2837f06ebf5d
 docker: quay.io/biocontainers/bioconductor-alabaster.mae
 aliases:
   hb-info: /usr/local/bin/hb-info

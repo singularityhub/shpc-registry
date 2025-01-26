@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/pydamage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pydamage
 latest:
-  0.80--pyhdfd78af_0: sha256:7a904f5c4f87a16b1d4a181b36f2d93486b8ec569e2a5c383fe06c1dbbe08cd3
+  0.90--pyhdfd78af_0: sha256:0a88b6d056a3a08f4387988932e83ad91513cc5f0ce3fd86bb9f69ed69001974
 tags:
   0.70--pyhdfd78af_1: sha256:0954ee8be86210b0934680987865e9af23fe96cee0b2013d97ef5eecaae73f4c
   0.72--pyhdfd78af_0: sha256:eb346f2610b45397ba79a32890bc78389eb29dcfe0afff1cff14f9fbf940aead
   0.71--pyhdfd78af_0: sha256:d3f11647a15021cb0bc5b60676e872312e23a0f4589d3a68165e1e99f8989c2f
   0.80--pyhdfd78af_0: sha256:7a904f5c4f87a16b1d4a181b36f2d93486b8ec569e2a5c383fe06c1dbbe08cd3
+  0.90--pyhdfd78af_0: sha256:0a88b6d056a3a08f4387988932e83ad91513cc5f0ce3fd86bb9f69ed69001974
 docker: quay.io/biocontainers/pydamage
 aliases:
   pydamage: /usr/local/bin/pydamage

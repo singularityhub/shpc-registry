@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-methylclockdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylclockdata
 latest:
-  1.10.0--r43hdfd78af_0: sha256:48ff7f00ea91221111a0b9907aa075db937c7741d789f2bf1d21dc3d65d4b8f5
+  1.14.0--r44hdfd78af_0: sha256:dd6825c6454d827099e22d68cd47bccf0d5f6c4bd2b9b9b01bfc61a4b2d70b71
 tags:
   1.2.0--r41hdfd78af_1: sha256:0e757a85b4daca6b197460d815eff2599186fe73ae1363f5b528fe3f3bca310a
   1.6.0--r42hdfd78af_0: sha256:b00044a226c002ecdbbc56cc9c02a644362fe78df895ef8d15937e215a6d66e1
   1.8.1--r43hdfd78af_0: sha256:60cd083ba203312f65f194cda0dd059cfceedbb4d652759411a1b171eecc69d2
   1.10.0--r43hdfd78af_0: sha256:48ff7f00ea91221111a0b9907aa075db937c7741d789f2bf1d21dc3d65d4b8f5
+  1.14.0--r44hdfd78af_0: sha256:dd6825c6454d827099e22d68cd47bccf0d5f6c4bd2b9b9b01bfc61a4b2d70b71
 docker: quay.io/biocontainers/bioconductor-methylclockdata
