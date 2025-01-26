@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-s4vectors"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-s4vectors/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-s4vectors/container.yaml"
-updated_at: "2025-01-25 02:48:45.826579"
-latest: "0.44.0--r44h3df3fcb_0"
+updated_at: "2025-01-26 02:56:52.990757"
+latest: "0.44.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-s4vectors"
 aliases:
  - "pngcp"
@@ -29,8 +29,9 @@ versions:
  - "0.40.2--r43ha9d7317_1"
  - "0.40.2--r43ha9d7317_2"
  - "0.44.0--r44h3df3fcb_0"
+ - "0.44.0--r44h3df3fcb_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-s4vectors"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-s4vectors", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-s4vectors", "latest": {"0.44.0--r44h3df3fcb_0": "sha256:11f222ad239e8d63ae4b2239eec0716c3d842c5fc9e670ed66b2c19e06204a3e"}, "tags": {"0.9.0--r3.3.1_0": "sha256:c438cddbc73859fcfe13f6152b9f6e73282a9c90e177266eba6f457ca8e64847", "0.36.0--r42hc0cfd56_0": "sha256:862b4a0b019a1498def09a1b1d686ebd9761fd62efd86031d38a282ecdf51328", "0.32.4--r41hc0cfd56_0": "sha256:ecae13119b5bdedbf5e94968e1b7b10a5813ba7dbbddbf4816a26db0e2b42e4f", "0.30.0--r41hd029910_0": "sha256:6e747c686f28bc71a4e9025e93c735ee0db7bd042215159dbb1f0d25d1f778b5", "0.28.1--r40hd029910_0": "sha256:2f0410544e8e7686ab8d0080458b3a01a35db8a2d5479d3ba316376c4b3bbcec", "0.26.0--r40h037d062_0": "sha256:7cd2d8217057744fb40614f6dad09f8e3827ccf6065783fc3564eb6ad19e3f57", "0.36.0--r42ha9d7317_1": "sha256:141e1b3872b7a096003e50b61c73353de99e3f1451aad73018a0d9268e5133f2", "0.38.1--r43ha9d7317_0": "sha256:e414940cc26d9e5d49a35a5d9940f9a73ea7119e5a7a452d140b1f2b2e4b31ea", "0.40.2--r43ha9d7317_1": "sha256:0ed27178b5c6048873e6ffd65ffd27a14542d25ab2a2f6865539c22c11a5bf42", "0.40.2--r43ha9d7317_2": "sha256:888d155ea9b258c7056d115e30b81bb4a0741faff2cf3a78ab00862fdc442648", "0.44.0--r44h3df3fcb_0": "sha256:11f222ad239e8d63ae4b2239eec0716c3d842c5fc9e670ed66b2c19e06204a3e"}, "docker": "quay.io/biocontainers/bioconductor-s4vectors", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-s4vectors", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-s4vectors", "latest": {"0.44.0--r44h3df3fcb_1": "sha256:68e0bcab0089f8501c3127ef1ecd7b80d6a669092b6e1c30e0f4e9b446ff5ca8"}, "tags": {"0.9.0--r3.3.1_0": "sha256:c438cddbc73859fcfe13f6152b9f6e73282a9c90e177266eba6f457ca8e64847", "0.36.0--r42hc0cfd56_0": "sha256:862b4a0b019a1498def09a1b1d686ebd9761fd62efd86031d38a282ecdf51328", "0.32.4--r41hc0cfd56_0": "sha256:ecae13119b5bdedbf5e94968e1b7b10a5813ba7dbbddbf4816a26db0e2b42e4f", "0.30.0--r41hd029910_0": "sha256:6e747c686f28bc71a4e9025e93c735ee0db7bd042215159dbb1f0d25d1f778b5", "0.28.1--r40hd029910_0": "sha256:2f0410544e8e7686ab8d0080458b3a01a35db8a2d5479d3ba316376c4b3bbcec", "0.26.0--r40h037d062_0": "sha256:7cd2d8217057744fb40614f6dad09f8e3827ccf6065783fc3564eb6ad19e3f57", "0.36.0--r42ha9d7317_1": "sha256:141e1b3872b7a096003e50b61c73353de99e3f1451aad73018a0d9268e5133f2", "0.38.1--r43ha9d7317_0": "sha256:e414940cc26d9e5d49a35a5d9940f9a73ea7119e5a7a452d140b1f2b2e4b31ea", "0.40.2--r43ha9d7317_1": "sha256:0ed27178b5c6048873e6ffd65ffd27a14542d25ab2a2f6865539c22c11a5bf42", "0.40.2--r43ha9d7317_2": "sha256:888d155ea9b258c7056d115e30b81bb4a0741faff2cf3a78ab00862fdc442648", "0.44.0--r44h3df3fcb_0": "sha256:11f222ad239e8d63ae4b2239eec0716c3d842c5fc9e670ed66b2c19e06204a3e", "0.44.0--r44h3df3fcb_1": "sha256:68e0bcab0089f8501c3127ef1ecd7b80d6a669092b6e1c30e0f4e9b446ff5ca8"}, "docker": "quay.io/biocontainers/bioconductor-s4vectors", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-s4vectors.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-s4vectors
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-s4vectors:0.44.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-s4vectors:0.44.0--r44h3df3fcb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-s4vectors/0.44.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-s4vectors/0.44.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-s4vectors/0.44.0--r44h3df3fcb_1
+$ module help quay.io/biocontainers/bioconductor-s4vectors/0.44.0--r44h3df3fcb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

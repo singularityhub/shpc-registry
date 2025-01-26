@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lumihumanall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
-updated_at: "2025-01-25 02:53:14.175985"
-latest: "1.22.0--r43hdfd78af_15"
+updated_at: "2025-01-26 03:01:25.841418"
+latest: "1.22.0--r44hdfd78af_16"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumihumanall.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.22.0--r42hdfd78af_13"
  - "1.22.0--r43hdfd78af_14"
  - "1.22.0--r43hdfd78af_15"
+ - "1.22.0--r44hdfd78af_16"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumihumanall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db", "latest": {"1.22.0--r43hdfd78af_15": "sha256:8f6c34b0113df77ae1555272375c7df8acf5cc4a722f0f6c1207b6aeafbdd801"}, "tags": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e", "1.22.0--r42hdfd78af_13": "sha256:2a99ed6f030d0fdb0891fa6da2eb55e3509dc5f027ad3c182bdd36e24370ff19", "1.22.0--r43hdfd78af_14": "sha256:df4e8fc5aa3feae5c3e20c69f9e8b7739f0949d15cdf3f2b118afe514610917d", "1.22.0--r43hdfd78af_15": "sha256:8f6c34b0113df77ae1555272375c7df8acf5cc4a722f0f6c1207b6aeafbdd801"}, "docker": "quay.io/biocontainers/bioconductor-lumihumanall.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumihumanall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db", "latest": {"1.22.0--r44hdfd78af_16": "sha256:cce1bede6aaaf2bafc2caf1b212298760ad9c7c01ac50984af870239c8d575f8"}, "tags": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e", "1.22.0--r42hdfd78af_13": "sha256:2a99ed6f030d0fdb0891fa6da2eb55e3509dc5f027ad3c182bdd36e24370ff19", "1.22.0--r43hdfd78af_14": "sha256:df4e8fc5aa3feae5c3e20c69f9e8b7739f0949d15cdf3f2b118afe514610917d", "1.22.0--r43hdfd78af_15": "sha256:8f6c34b0113df77ae1555272375c7df8acf5cc4a722f0f6c1207b6aeafbdd801", "1.22.0--r44hdfd78af_16": "sha256:cce1bede6aaaf2bafc2caf1b212298760ad9c7c01ac50984af870239c8d575f8"}, "docker": "quay.io/biocontainers/bioconductor-lumihumanall.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumihumanall.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumihumanall.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumihumanall.db:1.22.0--r43hdfd78af_15
+$ shpc install quay.io/biocontainers/bioconductor-lumihumanall.db:1.22.0--r44hdfd78af_16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumihumanall.db/1.22.0--r43hdfd78af_15
-$ module help quay.io/biocontainers/bioconductor-lumihumanall.db/1.22.0--r43hdfd78af_15
+$ module load quay.io/biocontainers/bioconductor-lumihumanall.db/1.22.0--r44hdfd78af_16
+$ module help quay.io/biocontainers/bioconductor-lumihumanall.db/1.22.0--r44hdfd78af_16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

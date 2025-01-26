@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-heron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heron/container.yaml"
-updated_at: "2025-01-25 03:03:43.740598"
+updated_at: "2025-01-26 03:11:43.328559"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heron"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsea/container.yaml"
-updated_at: "2025-01-25 03:18:12.657735"
+updated_at: "2025-01-26 03:26:04.162318"
 latest: "4.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gsea"
 aliases:

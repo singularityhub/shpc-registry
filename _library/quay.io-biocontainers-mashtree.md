@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mashtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashtree/container.yaml"
-updated_at: "2025-01-25 02:44:05.568158"
-latest: "1.4.6--pl5321h7b50bb2_1"
+updated_at: "2025-01-26 02:52:05.202888"
+latest: "1.4.6--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/mashtree"
 aliases:
  - "mashtree"
@@ -32,8 +32,9 @@ versions:
  - "1.4.5--pl5321h031d066_0"
  - "1.4.6--pl5321h031d066_0"
  - "1.4.6--pl5321h7b50bb2_1"
+ - "1.4.6--pl5321h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for mashtree"
-config: {"url": "https://biocontainers.pro/tools/mashtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashtree", "latest": {"1.4.6--pl5321h7b50bb2_1": "sha256:69aef684c46ef37bfea041f210a64eb81a99a25649dc7131ce317b629e48073d"}, "tags": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab", "1.2.0--pl5321h031d066_2": "sha256:955826c1f60bff0f26361a5e91947bdab3689e017f77978bc023c7dc690d46c5", "1.4.5--pl5321h031d066_0": "sha256:aac6b53551782aca24a19792c923b0445e860b344e9a8d294c6754825e3d8664", "1.4.6--pl5321h031d066_0": "sha256:590a0e41bb56cba0205391ff4c1c9747921dcc5754309f754c4e1e7ed2ec5316", "1.4.6--pl5321h7b50bb2_1": "sha256:69aef684c46ef37bfea041f210a64eb81a99a25649dc7131ce317b629e48073d"}, "docker": "quay.io/biocontainers/mashtree", "aliases": {"mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "quicktree": "/usr/local/bin/quicktree", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
+config: {"url": "https://biocontainers.pro/tools/mashtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashtree", "latest": {"1.4.6--pl5321h7b50bb2_2": "sha256:1d056dda25ee656eeba44906841c1f61ceee1d147ddaa544e3bc1c096810b49f"}, "tags": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab", "1.2.0--pl5321h031d066_2": "sha256:955826c1f60bff0f26361a5e91947bdab3689e017f77978bc023c7dc690d46c5", "1.4.5--pl5321h031d066_0": "sha256:aac6b53551782aca24a19792c923b0445e860b344e9a8d294c6754825e3d8664", "1.4.6--pl5321h031d066_0": "sha256:590a0e41bb56cba0205391ff4c1c9747921dcc5754309f754c4e1e7ed2ec5316", "1.4.6--pl5321h7b50bb2_1": "sha256:69aef684c46ef37bfea041f210a64eb81a99a25649dc7131ce317b629e48073d", "1.4.6--pl5321h7b50bb2_2": "sha256:1d056dda25ee656eeba44906841c1f61ceee1d147ddaa544e3bc1c096810b49f"}, "docker": "quay.io/biocontainers/mashtree", "aliases": {"mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "quicktree": "/usr/local/bin/quicktree", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mashtree.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/mashtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mashtree:1.4.6--pl5321h7b50bb2_1
+$ shpc install quay.io/biocontainers/mashtree:1.4.6--pl5321h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mashtree/1.4.6--pl5321h7b50bb2_1
-$ module help quay.io/biocontainers/mashtree/1.4.6--pl5321h7b50bb2_1
+$ module load quay.io/biocontainers/mashtree/1.4.6--pl5321h7b50bb2_2
+$ module help quay.io/biocontainers/mashtree/1.4.6--pl5321h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

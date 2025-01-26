@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k/container.yaml"
-updated_at: "2025-01-25 03:04:46.968171"
+updated_at: "2025-01-26 03:12:45.927855"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.cordblood.450k"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/auriclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/auriclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/auriclass/container.yaml"
-updated_at: "2025-01-25 02:46:55.768806"
+updated_at: "2025-01-26 02:55:00.705270"
 latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/auriclass"
 aliases:

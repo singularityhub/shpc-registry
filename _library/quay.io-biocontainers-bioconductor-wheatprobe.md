@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wheatprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wheatprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wheatprobe/container.yaml"
-updated_at: "2025-01-25 03:02:39.151772"
+updated_at: "2025-01-26 03:10:39.484666"
 latest: "2.18.0--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-wheatprobe"
 

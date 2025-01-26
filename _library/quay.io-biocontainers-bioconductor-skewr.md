@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-skewr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-skewr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-skewr/container.yaml"
-updated_at: "2025-01-25 03:20:38.926529"
+updated_at: "2025-01-26 03:28:29.581332"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-skewr"
 

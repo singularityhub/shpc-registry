@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stacks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stacks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stacks/container.yaml"
-updated_at: "2025-01-25 02:52:26.288630"
-latest: "2.65--h077b44d_1"
+updated_at: "2025-01-26 03:00:39.335111"
+latest: "2.68--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/stacks"
 aliases:
  - "clone_filter"
@@ -49,8 +49,9 @@ versions:
  - "2.60--hd03093a_1"
  - "2.55--h9a82719_1"
  - "2.65--h077b44d_1"
+ - "2.68--h077b44d_1"
 description: "shpc-registry automated BioContainers addition for stacks"
-config: {"url": "https://biocontainers.pro/tools/stacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stacks", "latest": {"2.65--h077b44d_1": "sha256:bc04459699bcf86bf61ab4e481995edb4497204dfeb6add0b7dac9b618f8957c"}, "tags": {"2.53--he513fc3_0": "sha256:b05949757c84d6f35d8ccbb62027252d9dce3a8c22b871a0303d6bb9b274f73d", "2.65--hdcf5f25_0": "sha256:b57740422d27c0279306376cad67feeca27dd4c077d753d449fbf4c66e2ce2a8", "2.64--hd03093a_0": "sha256:ce135754a0e34e8c5b237067694122b5493e82af373bbe39dcfac22d28b16680", "2.61--hd03093a_1": "sha256:bc7bc550912c1bc020c32f6ed99d06778e48c474e2df47c7f52a24eea0c7f004", "2.60--hd03093a_1": "sha256:a383d82a30deab5178413d4414f94de11dd1556de05f43d91cff823a2fb09bef", "2.55--h9a82719_1": "sha256:149871c622cad674ad275e84c0f9592650ad4dddd9a78c1da6b2f0ed87af1f80", "2.65--h077b44d_1": "sha256:bc04459699bcf86bf61ab4e481995edb4497204dfeb6add0b7dac9b618f8957c"}, "docker": "quay.io/biocontainers/stacks", "aliases": {"clone_filter": "/usr/local/bin/clone_filter", "convert_stacks.pl": "/usr/local/bin/convert_stacks.pl", "count_fixed_catalog_snps.py": "/usr/local/bin/count_fixed_catalog_snps.py", "cstacks": "/usr/local/bin/cstacks", "denovo_map.pl": "/usr/local/bin/denovo_map.pl", "extract_interpop_chars.pl": "/usr/local/bin/extract_interpop_chars.pl", "gstacks": "/usr/local/bin/gstacks", "integrate_alignments.py": "/usr/local/bin/integrate_alignments.py", "kmer_filter": "/usr/local/bin/kmer_filter", "phasedstacks": "/usr/local/bin/phasedstacks", "populations": "/usr/local/bin/populations", "process_radtags": "/usr/local/bin/process_radtags", "process_shortreads": "/usr/local/bin/process_shortreads", "ref_map.pl": "/usr/local/bin/ref_map.pl", "sstacks": "/usr/local/bin/sstacks", "stacks-count-reads-per-sample-per-locus": "/usr/local/bin/stacks-count-reads-per-sample-per-locus", "stacks-dist-extract": "/usr/local/bin/stacks-dist-extract", "stacks-gdb": "/usr/local/bin/stacks-gdb", "stacks-hist2d-loci-samples-coverage": "/usr/local/bin/stacks-hist2d-loci-samples-coverage", "stacks-integrate-alignments": "/usr/local/bin/stacks-integrate-alignments", "stacks-samtools-tview": "/usr/local/bin/stacks-samtools-tview", "tsv2bam": "/usr/local/bin/tsv2bam", "ustacks": "/usr/local/bin/ustacks", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "gdlib-config": "/usr/local/bin/gdlib-config", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312"}}
+config: {"url": "https://biocontainers.pro/tools/stacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stacks", "latest": {"2.68--h077b44d_1": "sha256:edf98c50c56ae9d06bcea4c50ec7e974aecae95681c27dc95a3c4ef66cdf04c7"}, "tags": {"2.53--he513fc3_0": "sha256:b05949757c84d6f35d8ccbb62027252d9dce3a8c22b871a0303d6bb9b274f73d", "2.65--hdcf5f25_0": "sha256:b57740422d27c0279306376cad67feeca27dd4c077d753d449fbf4c66e2ce2a8", "2.64--hd03093a_0": "sha256:ce135754a0e34e8c5b237067694122b5493e82af373bbe39dcfac22d28b16680", "2.61--hd03093a_1": "sha256:bc7bc550912c1bc020c32f6ed99d06778e48c474e2df47c7f52a24eea0c7f004", "2.60--hd03093a_1": "sha256:a383d82a30deab5178413d4414f94de11dd1556de05f43d91cff823a2fb09bef", "2.55--h9a82719_1": "sha256:149871c622cad674ad275e84c0f9592650ad4dddd9a78c1da6b2f0ed87af1f80", "2.65--h077b44d_1": "sha256:bc04459699bcf86bf61ab4e481995edb4497204dfeb6add0b7dac9b618f8957c", "2.68--h077b44d_1": "sha256:edf98c50c56ae9d06bcea4c50ec7e974aecae95681c27dc95a3c4ef66cdf04c7"}, "docker": "quay.io/biocontainers/stacks", "aliases": {"clone_filter": "/usr/local/bin/clone_filter", "convert_stacks.pl": "/usr/local/bin/convert_stacks.pl", "count_fixed_catalog_snps.py": "/usr/local/bin/count_fixed_catalog_snps.py", "cstacks": "/usr/local/bin/cstacks", "denovo_map.pl": "/usr/local/bin/denovo_map.pl", "extract_interpop_chars.pl": "/usr/local/bin/extract_interpop_chars.pl", "gstacks": "/usr/local/bin/gstacks", "integrate_alignments.py": "/usr/local/bin/integrate_alignments.py", "kmer_filter": "/usr/local/bin/kmer_filter", "phasedstacks": "/usr/local/bin/phasedstacks", "populations": "/usr/local/bin/populations", "process_radtags": "/usr/local/bin/process_radtags", "process_shortreads": "/usr/local/bin/process_shortreads", "ref_map.pl": "/usr/local/bin/ref_map.pl", "sstacks": "/usr/local/bin/sstacks", "stacks-count-reads-per-sample-per-locus": "/usr/local/bin/stacks-count-reads-per-sample-per-locus", "stacks-dist-extract": "/usr/local/bin/stacks-dist-extract", "stacks-gdb": "/usr/local/bin/stacks-gdb", "stacks-hist2d-loci-samples-coverage": "/usr/local/bin/stacks-hist2d-loci-samples-coverage", "stacks-integrate-alignments": "/usr/local/bin/stacks-integrate-alignments", "stacks-samtools-tview": "/usr/local/bin/stacks-samtools-tview", "tsv2bam": "/usr/local/bin/tsv2bam", "ustacks": "/usr/local/bin/ustacks", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "gdlib-config": "/usr/local/bin/gdlib-config", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stacks.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/stacks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stacks:2.65--h077b44d_1
+$ shpc install quay.io/biocontainers/stacks:2.68--h077b44d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stacks/2.65--h077b44d_1
-$ module help quay.io/biocontainers/stacks/2.65--h077b44d_1
+$ module load quay.io/biocontainers/stacks/2.68--h077b44d_1
+$ module help quay.io/biocontainers/stacks/2.68--h077b44d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

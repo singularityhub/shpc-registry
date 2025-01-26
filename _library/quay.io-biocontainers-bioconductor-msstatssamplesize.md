@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstatssamplesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatssamplesize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatssamplesize/container.yaml"
-updated_at: "2025-01-25 03:01:34.070487"
+updated_at: "2025-01-26 03:09:34.961249"
 latest: "1.13.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatssamplesize"
 

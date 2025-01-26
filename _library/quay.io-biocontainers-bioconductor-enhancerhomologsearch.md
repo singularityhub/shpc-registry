@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-enhancerhomologsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enhancerhomologsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enhancerhomologsearch/container.yaml"
-updated_at: "2025-01-25 03:21:06.849084"
-latest: "1.8.2--r43hf17093f_0"
+updated_at: "2025-01-26 03:28:57.345762"
+latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enhancerhomologsearch"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r42hc247a5b_0"
  - "1.6.1--r43hf17093f_0"
  - "1.8.2--r43hf17093f_0"
+ - "1.12.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-enhancerhomologsearch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enhancerhomologsearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enhancerhomologsearch", "latest": {"1.8.2--r43hf17093f_0": "sha256:f127f6ffecba489f5866fa4f0886269311ab7037ca6e5bf34a6a9b509112b6bf"}, "tags": {"1.0.1--r41hc247a5b_0": "sha256:b6adcc10de7eefdf9bb9d0cc2585062793d17a844c317652d866759a5397215c", "1.4.0--r42hc247a5b_0": "sha256:969e72a414f190c5dc487627a9039c35f910b3174675e86732ed7a9abb626b6b", "1.6.1--r43hf17093f_0": "sha256:5b88e1f86833b8773a5c58208a1305d527379b1c900508c07bbdbb3bc8e777dd", "1.8.2--r43hf17093f_0": "sha256:f127f6ffecba489f5866fa4f0886269311ab7037ca6e5bf34a6a9b509112b6bf"}, "docker": "quay.io/biocontainers/bioconductor-enhancerhomologsearch"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enhancerhomologsearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enhancerhomologsearch", "latest": {"1.12.0--r44he5774e6_0": "sha256:7e1c800548dc0e92c33c09cd76597dd47713fb74f853128b9baf757a87987c4a"}, "tags": {"1.0.1--r41hc247a5b_0": "sha256:b6adcc10de7eefdf9bb9d0cc2585062793d17a844c317652d866759a5397215c", "1.4.0--r42hc247a5b_0": "sha256:969e72a414f190c5dc487627a9039c35f910b3174675e86732ed7a9abb626b6b", "1.6.1--r43hf17093f_0": "sha256:5b88e1f86833b8773a5c58208a1305d527379b1c900508c07bbdbb3bc8e777dd", "1.8.2--r43hf17093f_0": "sha256:f127f6ffecba489f5866fa4f0886269311ab7037ca6e5bf34a6a9b509112b6bf", "1.12.0--r44he5774e6_0": "sha256:7e1c800548dc0e92c33c09cd76597dd47713fb74f853128b9baf757a87987c4a"}, "docker": "quay.io/biocontainers/bioconductor-enhancerhomologsearch"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enhancerhomologsearch.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enhancerhomologsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enhancerhomologsearch:1.8.2--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-enhancerhomologsearch:1.12.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enhancerhomologsearch/1.8.2--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-enhancerhomologsearch/1.8.2--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-enhancerhomologsearch/1.12.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-enhancerhomologsearch/1.12.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

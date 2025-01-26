@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fitdistrplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fitdistrplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fitdistrplus/container.yaml"
-updated_at: "2025-01-25 03:17:56.912444"
+updated_at: "2025-01-26 03:25:48.447965"
 latest: "1.0_6--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fitdistrplus"
 aliases:

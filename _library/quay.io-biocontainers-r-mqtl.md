@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mqtl/container.yaml"
-updated_at: "2025-01-25 03:10:00.503665"
+updated_at: "2025-01-26 03:17:54.816410"
 latest: "1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mqtl"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sparsesignatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
-updated_at: "2025-01-25 03:03:38.674062"
-latest: "2.12.0--r43hdfd78af_0"
+updated_at: "2025-01-26 03:11:38.304122"
+latest: "2.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsesignatures"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.8.0--r42hdfd78af_0"
  - "2.10.0--r43hdfd78af_0"
  - "2.12.0--r43hdfd78af_0"
+ - "2.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsesignatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures", "latest": {"2.12.0--r43hdfd78af_0": "sha256:09d0e98d9803f498de8e750a99352507542070353b50037688dafc17a3e1d757"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e", "2.8.0--r42hdfd78af_0": "sha256:3aa74dbb9bd0969b8c175c2544e218439e85c05d38a2ebd75b7d25b1bfc15f25", "2.10.0--r43hdfd78af_0": "sha256:1ba97bf5075dac69879cd85e609d0969222c1954cd426b8072089b33317006af", "2.12.0--r43hdfd78af_0": "sha256:09d0e98d9803f498de8e750a99352507542070353b50037688dafc17a3e1d757"}, "docker": "quay.io/biocontainers/bioconductor-sparsesignatures"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsesignatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures", "latest": {"2.16.0--r44hdfd78af_0": "sha256:8db3e85c8873de73375c6dde3699459e6276f0358f7e41662be9afb931013aa5"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e", "2.8.0--r42hdfd78af_0": "sha256:3aa74dbb9bd0969b8c175c2544e218439e85c05d38a2ebd75b7d25b1bfc15f25", "2.10.0--r43hdfd78af_0": "sha256:1ba97bf5075dac69879cd85e609d0969222c1954cd426b8072089b33317006af", "2.12.0--r43hdfd78af_0": "sha256:09d0e98d9803f498de8e750a99352507542070353b50037688dafc17a3e1d757", "2.16.0--r44hdfd78af_0": "sha256:8db3e85c8873de73375c6dde3699459e6276f0358f7e41662be9afb931013aa5"}, "docker": "quay.io/biocontainers/bioconductor-sparsesignatures"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsesignatures.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsesignatures
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsesignatures:2.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sparsesignatures:2.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsesignatures/2.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sparsesignatures/2.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sparsesignatures/2.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sparsesignatures/2.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

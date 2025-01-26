@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
-updated_at: "2025-01-25 03:02:14.119290"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2025-01-26 03:10:14.725384"
+latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.42.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k", "latest": {"1.38.0--r43hdfd78af_0": "sha256:a5d0659cd6d847f9e5d00f609ed1ee83cf2c74f400fabadd58944f1176b8eb0a"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00", "1.34.0--r42hdfd78af_0": "sha256:07d7216a43a50ba45e36fa2d4a4c6f11f79fd4e90d700b6e9199861e1fa44fe4", "1.36.0--r43hdfd78af_0": "sha256:16068db3e9437564f7fc0269eb2bea4734e61759e50d13e95e2960b2ba38efd4", "1.38.0--r43hdfd78af_0": "sha256:a5d0659cd6d847f9e5d00f609ed1ee83cf2c74f400fabadd58944f1176b8eb0a"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k", "latest": {"1.42.0--r44hdfd78af_0": "sha256:0816c0789dc7e0b659bd9b173a4bd449cc6278cd432003d49762f564e437c5de"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00", "1.34.0--r42hdfd78af_0": "sha256:07d7216a43a50ba45e36fa2d4a4c6f11f79fd4e90d700b6e9199861e1fa44fe4", "1.36.0--r43hdfd78af_0": "sha256:16068db3e9437564f7fc0269eb2bea4734e61759e50d13e95e2960b2ba38efd4", "1.38.0--r43hdfd78af_0": "sha256:a5d0659cd6d847f9e5d00f609ed1ee83cf2c74f400fabadd58944f1176b8eb0a", "1.42.0--r44hdfd78af_0": "sha256:0816c0789dc7e0b659bd9b173a4bd449cc6278cd432003d49762f564e437c5de"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k:1.42.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.42.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.42.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

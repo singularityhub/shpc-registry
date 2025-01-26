@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ivas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ivas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ivas/container.yaml"
-updated_at: "2025-01-25 02:49:16.381985"
-latest: "2.22.0--r43hdfd78af_0"
+updated_at: "2025-01-26 02:57:24.844666"
+latest: "2.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ivas"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "2.10.0--r40hdfd78af_1"
  - "2.20.0--r43hdfd78af_0"
  - "2.22.0--r43hdfd78af_0"
+ - "2.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ivas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ivas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivas", "latest": {"2.22.0--r43hdfd78af_0": "sha256:a6f4cca118122c6129c890354e827fdc0d393bc2421c4638ed1eebb88693e086"}, "tags": {"2.8.0--r40_0": "sha256:b2218ec5924abf8fe6b6df8405951b5c7eeebba4bb9da8466a7a3b34d5f646db", "2.18.0--r42hdfd78af_0": "sha256:80e8fd1814098bb61b18e0bf4bae1a31f363afc800e0b878b3d345c869c4025c", "2.14.0--r41hdfd78af_0": "sha256:73f2812ff5b08d3ace87a11c5434aef586556af4bbd19765efc305fab0ea4291", "2.12.0--r41hdfd78af_0": "sha256:9dbfb2876cd1ed53ed565c8be95b4a1b06d1ab2898f3124c9a30c160caa5df3d", "2.10.0--r40hdfd78af_1": "sha256:2f4f95f1104b6b8b79f4db418c0cf1e4e0f20fb01cbeb838c2271b58fdab0e7a", "2.20.0--r43hdfd78af_0": "sha256:ed9159e609c1291da9560f4d393b206437262984630c3232efaf154b05be8c03", "2.22.0--r43hdfd78af_0": "sha256:a6f4cca118122c6129c890354e827fdc0d393bc2421c4638ed1eebb88693e086"}, "docker": "quay.io/biocontainers/bioconductor-ivas", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ivas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivas", "latest": {"2.26.0--r44hdfd78af_0": "sha256:515077a4cbf12483c65d5d4561faea1b7cd1bd82e0a3a06966d095bc12dbe616"}, "tags": {"2.8.0--r40_0": "sha256:b2218ec5924abf8fe6b6df8405951b5c7eeebba4bb9da8466a7a3b34d5f646db", "2.18.0--r42hdfd78af_0": "sha256:80e8fd1814098bb61b18e0bf4bae1a31f363afc800e0b878b3d345c869c4025c", "2.14.0--r41hdfd78af_0": "sha256:73f2812ff5b08d3ace87a11c5434aef586556af4bbd19765efc305fab0ea4291", "2.12.0--r41hdfd78af_0": "sha256:9dbfb2876cd1ed53ed565c8be95b4a1b06d1ab2898f3124c9a30c160caa5df3d", "2.10.0--r40hdfd78af_1": "sha256:2f4f95f1104b6b8b79f4db418c0cf1e4e0f20fb01cbeb838c2271b58fdab0e7a", "2.20.0--r43hdfd78af_0": "sha256:ed9159e609c1291da9560f4d393b206437262984630c3232efaf154b05be8c03", "2.22.0--r43hdfd78af_0": "sha256:a6f4cca118122c6129c890354e827fdc0d393bc2421c4638ed1eebb88693e086", "2.26.0--r44hdfd78af_0": "sha256:515077a4cbf12483c65d5d4561faea1b7cd1bd82e0a3a06966d095bc12dbe616"}, "docker": "quay.io/biocontainers/bioconductor-ivas", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ivas.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ivas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ivas:2.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ivas:2.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ivas/2.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ivas/2.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ivas/2.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ivas/2.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

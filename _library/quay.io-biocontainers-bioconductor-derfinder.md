@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-derfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-derfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-derfinder/container.yaml"
-updated_at: "2025-01-25 03:29:05.620277"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2025-01-26 03:36:52.009679"
+latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-derfinder"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.40.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-derfinder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinder", "latest": {"1.36.0--r43hdfd78af_0": "sha256:603c2131dcc2e7325c57a4a348b6c9ddb290e38277195d37aa4a782d93410ef6"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:7fd6b77392a01de04414ac77be6bbfb043df4575cc20066973c8d74f5f0eaa40", "1.32.0--r42hdfd78af_0": "sha256:33adb6dbffed891a17611d910a526c2a34617167517efbfb2380e7fd75f63759", "1.34.0--r43hdfd78af_0": "sha256:155762db1642adf8435549692bc791150798eb5f584afcfa33cdfa7592a25774", "1.36.0--r43hdfd78af_0": "sha256:603c2131dcc2e7325c57a4a348b6c9ddb290e38277195d37aa4a782d93410ef6"}, "docker": "quay.io/biocontainers/bioconductor-derfinder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinder", "latest": {"1.40.0--r44hdfd78af_0": "sha256:84546ba6757084342eee71adfd66ea473f8ea083a968ecf06dac8767b891fa31"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:7fd6b77392a01de04414ac77be6bbfb043df4575cc20066973c8d74f5f0eaa40", "1.32.0--r42hdfd78af_0": "sha256:33adb6dbffed891a17611d910a526c2a34617167517efbfb2380e7fd75f63759", "1.34.0--r43hdfd78af_0": "sha256:155762db1642adf8435549692bc791150798eb5f584afcfa33cdfa7592a25774", "1.36.0--r43hdfd78af_0": "sha256:603c2131dcc2e7325c57a4a348b6c9ddb290e38277195d37aa4a782d93410ef6", "1.40.0--r44hdfd78af_0": "sha256:84546ba6757084342eee71adfd66ea473f8ea083a968ecf06dac8767b891fa31"}, "docker": "quay.io/biocontainers/bioconductor-derfinder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-derfinder.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-derfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-derfinder:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-derfinder:1.40.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-derfinder/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-derfinder/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-derfinder/1.40.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-derfinder/1.40.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liquorice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liquorice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liquorice/container.yaml"
-updated_at: "2025-01-25 03:28:29.421968"
+updated_at: "2025-01-26 03:36:16.080277"
 latest: "0.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liquorice"
 aliases:
