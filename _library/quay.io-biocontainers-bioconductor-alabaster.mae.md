@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.mae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.mae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.mae/container.yaml"
-updated_at: "2025-01-26 03:00:55.557611"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-01-27 03:00:12.503485"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.mae"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-alabaster.mae"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.mae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.mae", "latest": {"1.2.0--r43hdfd78af_0": "sha256:a92d96e9ef612a7bd0c49627af4e9320494ef97599a137ba610aeb69f140e2b5"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:fc3b1f4c8e475c4ce297545f39416dfd1d82767d7fbe73bb14a349374e1800e4", "1.2.0--r43hdfd78af_0": "sha256:a92d96e9ef612a7bd0c49627af4e9320494ef97599a137ba610aeb69f140e2b5"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.mae", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.mae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.mae", "latest": {"1.6.0--r44hdfd78af_0": "sha256:bc084e21f9edec79a4dcf08617b2f2f32ff70f60119f08bd2dea2837f06ebf5d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:fc3b1f4c8e475c4ce297545f39416dfd1d82767d7fbe73bb14a349374e1800e4", "1.2.0--r43hdfd78af_0": "sha256:a92d96e9ef612a7bd0c49627af4e9320494ef97599a137ba610aeb69f140e2b5", "1.6.0--r44hdfd78af_0": "sha256:bc084e21f9edec79a4dcf08617b2f2f32ff70f60119f08bd2dea2837f06ebf5d"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.mae", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alabaster.mae.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alabaster.mae
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alabaster.mae:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alabaster.mae:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alabaster.mae/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alabaster.mae/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alabaster.mae/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alabaster.mae/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

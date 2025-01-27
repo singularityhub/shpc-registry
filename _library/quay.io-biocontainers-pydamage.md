@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydamage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydamage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydamage/container.yaml"
-updated_at: "2025-01-26 03:17:09.288747"
-latest: "0.80--pyhdfd78af_0"
+updated_at: "2025-01-27 03:16:33.535693"
+latest: "0.90--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pydamage"
 aliases:
  - "pydamage"
@@ -24,8 +24,9 @@ versions:
  - "0.72--pyhdfd78af_0"
  - "0.71--pyhdfd78af_0"
  - "0.80--pyhdfd78af_0"
+ - "0.90--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pydamage"
-config: {"url": "https://biocontainers.pro/tools/pydamage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydamage", "latest": {"0.80--pyhdfd78af_0": "sha256:7a904f5c4f87a16b1d4a181b36f2d93486b8ec569e2a5c383fe06c1dbbe08cd3"}, "tags": {"0.70--pyhdfd78af_1": "sha256:0954ee8be86210b0934680987865e9af23fe96cee0b2013d97ef5eecaae73f4c", "0.72--pyhdfd78af_0": "sha256:eb346f2610b45397ba79a32890bc78389eb29dcfe0afff1cff14f9fbf940aead", "0.71--pyhdfd78af_0": "sha256:d3f11647a15021cb0bc5b60676e872312e23a0f4589d3a68165e1e99f8989c2f", "0.80--pyhdfd78af_0": "sha256:7a904f5c4f87a16b1d4a181b36f2d93486b8ec569e2a5c383fe06c1dbbe08cd3"}, "docker": "quay.io/biocontainers/pydamage", "aliases": {"pydamage": "/usr/local/bin/pydamage", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
+config: {"url": "https://biocontainers.pro/tools/pydamage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydamage", "latest": {"0.90--pyhdfd78af_0": "sha256:0a88b6d056a3a08f4387988932e83ad91513cc5f0ce3fd86bb9f69ed69001974"}, "tags": {"0.70--pyhdfd78af_1": "sha256:0954ee8be86210b0934680987865e9af23fe96cee0b2013d97ef5eecaae73f4c", "0.72--pyhdfd78af_0": "sha256:eb346f2610b45397ba79a32890bc78389eb29dcfe0afff1cff14f9fbf940aead", "0.71--pyhdfd78af_0": "sha256:d3f11647a15021cb0bc5b60676e872312e23a0f4589d3a68165e1e99f8989c2f", "0.80--pyhdfd78af_0": "sha256:7a904f5c4f87a16b1d4a181b36f2d93486b8ec569e2a5c383fe06c1dbbe08cd3", "0.90--pyhdfd78af_0": "sha256:0a88b6d056a3a08f4387988932e83ad91513cc5f0ce3fd86bb9f69ed69001974"}, "docker": "quay.io/biocontainers/pydamage", "aliases": {"pydamage": "/usr/local/bin/pydamage", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydamage.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pydamage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydamage:0.80--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pydamage:0.90--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydamage/0.80--pyhdfd78af_0
-$ module help quay.io/biocontainers/pydamage/0.80--pyhdfd78af_0
+$ module load quay.io/biocontainers/pydamage/0.90--pyhdfd78af_0
+$ module help quay.io/biocontainers/pydamage/0.90--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

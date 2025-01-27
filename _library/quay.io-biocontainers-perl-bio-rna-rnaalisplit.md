@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-rna-rnaalisplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-rna-rnaalisplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-rna-rnaalisplit/container.yaml"
-updated_at: "2025-01-26 03:28:36.854521"
+updated_at: "2025-01-27 03:28:06.145685"
 latest: "0.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit"
 aliases:

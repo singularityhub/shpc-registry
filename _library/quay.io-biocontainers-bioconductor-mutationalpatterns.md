@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mutationalpatterns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mutationalpatterns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mutationalpatterns/container.yaml"
-updated_at: "2025-01-26 03:32:14.783381"
-latest: "3.12.0--r43hdfd78af_0"
+updated_at: "2025-01-27 03:31:45.827568"
+latest: "3.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mutationalpatterns"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.8.0--r42hdfd78af_0"
  - "3.10.0--r43hdfd78af_0"
  - "3.12.0--r43hdfd78af_0"
+ - "3.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mutationalpatterns"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mutationalpatterns", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mutationalpatterns", "latest": {"3.12.0--r43hdfd78af_0": "sha256:17d133c1f8c560a592ebc21aef5192c83a1d1e3a7d970d249607f9eea05ef04d"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:2687c568d406af5be76e3032482c90c40ff70ec1a21f54802e8ab0a30a1eda83", "3.8.0--r42hdfd78af_0": "sha256:4a69e7c715d0dc4339241b3634c59c5623be35257a48967d54bd5263a6266ab1", "3.10.0--r43hdfd78af_0": "sha256:3a4fea8780c05c6ea11f2a9ddd8dc75dea582d6d901e86517cdcc5a2032b9bf7", "3.12.0--r43hdfd78af_0": "sha256:17d133c1f8c560a592ebc21aef5192c83a1d1e3a7d970d249607f9eea05ef04d"}, "docker": "quay.io/biocontainers/bioconductor-mutationalpatterns"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mutationalpatterns", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mutationalpatterns", "latest": {"3.16.0--r44hdfd78af_0": "sha256:c58b326d57529e170581d11ba794ccc88bfc480b9372ab5dd212d6dd58eeed2b"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:2687c568d406af5be76e3032482c90c40ff70ec1a21f54802e8ab0a30a1eda83", "3.8.0--r42hdfd78af_0": "sha256:4a69e7c715d0dc4339241b3634c59c5623be35257a48967d54bd5263a6266ab1", "3.10.0--r43hdfd78af_0": "sha256:3a4fea8780c05c6ea11f2a9ddd8dc75dea582d6d901e86517cdcc5a2032b9bf7", "3.12.0--r43hdfd78af_0": "sha256:17d133c1f8c560a592ebc21aef5192c83a1d1e3a7d970d249607f9eea05ef04d", "3.16.0--r44hdfd78af_0": "sha256:c58b326d57529e170581d11ba794ccc88bfc480b9372ab5dd212d6dd58eeed2b"}, "docker": "quay.io/biocontainers/bioconductor-mutationalpatterns"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mutationalpatterns.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mutationalpatterns
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mutationalpatterns:3.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mutationalpatterns:3.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mutationalpatterns/3.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mutationalpatterns/3.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mutationalpatterns/3.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mutationalpatterns/3.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

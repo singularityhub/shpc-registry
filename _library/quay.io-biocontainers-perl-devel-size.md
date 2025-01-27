@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-size"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-size/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-size/container.yaml"
-updated_at: "2025-01-26 03:28:44.411238"
+updated_at: "2025-01-27 03:28:13.754813"
 latest: "0.84--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-devel-size"
 aliases:
