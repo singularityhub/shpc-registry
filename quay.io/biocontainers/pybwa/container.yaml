@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pybwa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pybwa
+latest:
+  1.4.3--py310h397c9d8_0: sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173
+tags:
+  1.4.3--py310h397c9d8_0: sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173
+docker: quay.io/biocontainers/pybwa
+aliases:
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

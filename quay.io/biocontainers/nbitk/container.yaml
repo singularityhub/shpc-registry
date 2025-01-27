@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/nbitk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nbitk
+latest:
+  0.3.2--pyhdfd78af_0: sha256:e20c585af9b573310817d8584e1eec1ef3c91cf2c9a022b65b2bb1de1aec11ef
+tags:
+  0.3.2--pyhdfd78af_0: sha256:e20c585af9b573310817d8584e1eec1ef3c91cf2c9a022b65b2bb1de1aec11ef
+docker: quay.io/biocontainers/nbitk
+aliases:
+  dbicadmin: /usr/local/bin/dbicadmin
+  megatree-loader: /usr/local/bin/megatree-loader
+  megatree-ncbi-loader: /usr/local/bin/megatree-ncbi-loader
+  megatree-phylotree-loader: /usr/local/bin/megatree-phylotree-loader
+  megatree-pruner: /usr/local/bin/megatree-pruner
+  esdcompat: /usr/local/bin/esdcompat
+  raxml-ng: /usr/local/bin/raxml-ng
+  raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  qpaeq: /usr/local/bin/qpaeq
+  jackd: /usr/local/bin/jackd
+  pacmd: /usr/local/bin/pacmd
+  pasuspender: /usr/local/bin/pasuspender
+  pulseaudio: /usr/local/bin/pulseaudio
+  vsearch: /usr/local/bin/vsearch
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  cutadapt: /usr/local/bin/cutadapt
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
