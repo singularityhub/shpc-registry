@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/gaftools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gaftools
+latest:
+  1.1.1--pyhdfd78af_0: sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402
+tags:
+  1.1.1--pyhdfd78af_0: sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402
+docker: quay.io/biocontainers/gaftools
+aliases:
+  gaftools: /usr/local/bin/gaftools
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config

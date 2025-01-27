@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/autobigs-engine
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for autobigs-engine
+latest:
+  0.8.0--pyhdfd78af_0: sha256:7a460891855f43a4fc410c0a9de33b0eab75cf0f9c68e7ad35a8e86f4ab13529
+tags:
+  0.8.0--pyhdfd78af_0: sha256:7a460891855f43a4fc410c0a9de33b0eab75cf0f9c68e7ad35a8e86f4ab13529
+docker: quay.io/biocontainers/autobigs-engine
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
