@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggmanh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggmanh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggmanh/container.yaml"
-updated_at: "2025-01-27 03:09:59.620710"
+updated_at: "2025-01-27 07:04:54.955035"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggmanh"
 aliases:

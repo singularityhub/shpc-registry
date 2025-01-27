@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hca/container.yaml"
-updated_at: "2025-01-27 03:14:46.234716"
+updated_at: "2025-01-27 07:09:47.971883"
 latest: "7.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/hca"
 

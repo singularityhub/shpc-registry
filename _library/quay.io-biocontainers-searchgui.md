@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/searchgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/searchgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/searchgui/container.yaml"
-updated_at: "2025-01-27 03:18:59.988085"
+updated_at: "2025-01-27 07:14:07.633723"
 latest: "4.3.11--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/searchgui"
 aliases:

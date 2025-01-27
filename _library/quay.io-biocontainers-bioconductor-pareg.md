@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pareg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pareg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pareg/container.yaml"
-updated_at: "2025-01-27 03:10:44.233750"
+updated_at: "2025-01-27 07:05:40.417442"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pareg"
 aliases:
