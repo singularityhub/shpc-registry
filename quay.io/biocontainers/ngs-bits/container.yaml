@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ngs-bits
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngs-bits
 latest:
-  2024_11--py313h6fdbb3c_1: sha256:d211ec422500a5b925fca5f4ff27755ed4c7f089fd03027e45641f365a1ab15f
+  2025_01--py313h6fdbb3c_0: sha256:41e444a1ff1ab3d27eddf6d5f93a66c796c7ea072ed06100fb3f650c7560d969
 tags:
   2022_10--py310hf1a0324_1: sha256:0fd9c75e0c99950893cc176945ddeb33cca3c3f1fe9bda809514e4f4fbe41fc8
   2022_11--py311hf1a0324_0: sha256:bcac1e8ce72f29c97d0eeccebc7cb39022090df6f2e2eb8c1a6226df459b1a74
@@ -19,6 +19,7 @@ tags:
   2024_07--py312hd80e9a6_0: sha256:d3259980f93df40f1f7d866a1d2845998aad1fb4ddce329a8d4ae2bd0a86e35a
   2024_11--py312hd80e9a6_0: sha256:e90495eef4d3122cfa0eb5975e67779598b8371b980e47bd92e7e86767b2bfc4
   2024_11--py313h6fdbb3c_1: sha256:d211ec422500a5b925fca5f4ff27755ed4c7f089fd03027e45641f365a1ab15f
+  2025_01--py313h6fdbb3c_0: sha256:41e444a1ff1ab3d27eddf6d5f93a66c796c7ea072ed06100fb3f650c7560d969
 docker: quay.io/biocontainers/ngs-bits
 aliases:
   BamCleanHaloplex: /usr/local/bin/BamCleanHaloplex

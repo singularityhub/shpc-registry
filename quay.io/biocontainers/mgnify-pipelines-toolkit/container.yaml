@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mgnify-pipelines-toolkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgnify-pipelines-toolkit
 latest:
-  0.1.8--pyhdfd78af_0: sha256:c7e8a0f038dda1db4e9b0b5ff6f8223fe7b14797baeb1806a0a57158d0452f07
+  0.2.0--pyhdfd78af_0: sha256:5501e3deda3aed6f5d0590820bcbdccc97a8d17de0f2d204b460a2570a83851c
 tags:
   0.1.0--pyhdfd78af_0: sha256:2c88d8620818ec1a05a9943ea7328d1a4c10cbd5557756441e880ea511dbc7e0
   0.1.1--pyhdfd78af_0: sha256:cff8ea49397260fb96f670e50d5aa1542ebb62d3a58760dee26cdcd9e0fa091f
@@ -12,6 +12,8 @@ tags:
   0.1.5--pyhdfd78af_0: sha256:72dd667296c3b620bf255ad2afc3bd685b04e6aaf745f3aaae65241cf719d73d
   0.1.6--pyhdfd78af_0: sha256:7c8c4d03269806a34da052ef0910df1a0a346de4c3a33428259ab7a9fcc2f9e6
   0.1.8--pyhdfd78af_0: sha256:c7e8a0f038dda1db4e9b0b5ff6f8223fe7b14797baeb1806a0a57158d0452f07
+  0.2.0--pyhdfd78af_0: sha256:5501e3deda3aed6f5d0590820bcbdccc97a8d17de0f2d204b460a2570a83851c
+  0.1.9--pyhdfd78af_0: sha256:db7ba939231dbc9a521f04c173b98251bff65596f64f1d957743448e184e3bdb
 docker: quay.io/biocontainers/mgnify-pipelines-toolkit
 aliases:
   are_there_primers: /usr/local/bin/are_there_primers

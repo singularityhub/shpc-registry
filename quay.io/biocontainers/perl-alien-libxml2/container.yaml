@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-alien-libxml2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-alien-libxml2
 latest:
-  0.17--pl5321hec16e2b_0: sha256:0eb2ce58b6d12cfc45c3a10b4bfae1e5922463984e461e0844db8e79d3f9a963
+  0.17--pl5321h577a1d6_1: sha256:1299cbc836e5762319d91797994a0c5a2dc6eb892b26bcc13c84c4459bebea28
 tags:
   0.17--pl5321hec16e2b_0: sha256:0eb2ce58b6d12cfc45c3a10b4bfae1e5922463984e461e0844db8e79d3f9a963
+  0.17--pl5321h577a1d6_1: sha256:1299cbc836e5762319d91797994a0c5a2dc6eb892b26bcc13c84c4459bebea28
 docker: quay.io/biocontainers/perl-alien-libxml2
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
