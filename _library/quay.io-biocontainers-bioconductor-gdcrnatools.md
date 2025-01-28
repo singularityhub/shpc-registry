@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gdcrnatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdcrnatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdcrnatools/container.yaml"
-updated_at: "2025-01-27 06:58:34.961631"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-01-28 03:01:20.492641"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdcrnatools"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.1--r40hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gdcrnatools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gdcrnatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gdcrnatools", "latest": {"1.22.0--r43hdfd78af_0": "sha256:25a54d02afa1fb8044e23c379cf102c84e9adc4554849cb5dc72f2b4f8c05ea3"}, "tags": {"1.8.0--r40_0": "sha256:6f5bb5388d441cf34cd9a8ea3c178977f68147947c13e399c7901ccb110918b0", "1.18.0--r42hdfd78af_0": "sha256:9a1764ba5316ae85829f84efaf42bbcefd3803043e4af2366222e5e9ca1ec97f", "1.14.0--r41hdfd78af_0": "sha256:febe2d6e63225e03ebebc6a0d2cafa23cf06c03579f708c4ba2f1d98dddc5230", "1.12.0--r41hdfd78af_0": "sha256:9c87c235b9da11e89ebfd41cc64fedc4d7d46f26d399a4fba150b80fb232aae9", "1.10.1--r40hdfd78af_0": "sha256:bceb277d379b4443e55f47b1561eb0a851366f5b0b7d6c2d18841204825fa0bc", "1.20.0--r43hdfd78af_0": "sha256:39a38ce03fc48d2cb5af499370e6bed943a330dfbac69483bc95d772b1777b0f", "1.22.0--r43hdfd78af_0": "sha256:25a54d02afa1fb8044e23c379cf102c84e9adc4554849cb5dc72f2b4f8c05ea3"}, "docker": "quay.io/biocontainers/bioconductor-gdcrnatools", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gdcrnatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gdcrnatools", "latest": {"1.26.0--r44hdfd78af_0": "sha256:a5962fbe77a49293cb2d65262680859e252843ddb0690110fe6c83233b7cc3df"}, "tags": {"1.8.0--r40_0": "sha256:6f5bb5388d441cf34cd9a8ea3c178977f68147947c13e399c7901ccb110918b0", "1.18.0--r42hdfd78af_0": "sha256:9a1764ba5316ae85829f84efaf42bbcefd3803043e4af2366222e5e9ca1ec97f", "1.14.0--r41hdfd78af_0": "sha256:febe2d6e63225e03ebebc6a0d2cafa23cf06c03579f708c4ba2f1d98dddc5230", "1.12.0--r41hdfd78af_0": "sha256:9c87c235b9da11e89ebfd41cc64fedc4d7d46f26d399a4fba150b80fb232aae9", "1.10.1--r40hdfd78af_0": "sha256:bceb277d379b4443e55f47b1561eb0a851366f5b0b7d6c2d18841204825fa0bc", "1.20.0--r43hdfd78af_0": "sha256:39a38ce03fc48d2cb5af499370e6bed943a330dfbac69483bc95d772b1777b0f", "1.22.0--r43hdfd78af_0": "sha256:25a54d02afa1fb8044e23c379cf102c84e9adc4554849cb5dc72f2b4f8c05ea3", "1.26.0--r44hdfd78af_0": "sha256:a5962fbe77a49293cb2d65262680859e252843ddb0690110fe6c83233b7cc3df"}, "docker": "quay.io/biocontainers/bioconductor-gdcrnatools", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gdcrnatools.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gdcrnatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gdcrnatools:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gdcrnatools:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gdcrnatools/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gdcrnatools/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gdcrnatools/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gdcrnatools/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

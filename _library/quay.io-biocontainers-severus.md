@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/severus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/severus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/severus/container.yaml"
-updated_at: "2025-01-27 07:13:56.788266"
-latest: "1.2--pyhdfd78af_0"
+updated_at: "2025-01-28 03:17:45.089719"
+latest: "1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/severus"
 aliases:
  - "severus"
@@ -40,8 +40,9 @@ versions:
  - "1.0--pyhdfd78af_0"
  - "1.1--pyhdfd78af_0"
  - "1.2--pyhdfd78af_0"
+ - "1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for severus"
-config: {"url": "https://biocontainers.pro/tools/severus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for severus", "latest": {"1.2--pyhdfd78af_0": "sha256:5fe46f34a1b39a5d6d9027d7b55723716fedee0c2f9e98ca8ba366f76c67436d"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048", "0.1.2--pyhdfd78af_0": "sha256:5f14f38ccd22324a8e2ec48f85ca58282564d61a11d3c5ab19c2f73829bb6c4c", "1.0--pyhdfd78af_0": "sha256:5ef7f35e92a26f837710c88b11bb288e2d7c935a2c3cf454851ff007200861bc", "1.1--pyhdfd78af_0": "sha256:0085576737dda3c507313f4029a0fe076767e8ba6cc02d01e816d8f07e7cfd17", "1.2--pyhdfd78af_0": "sha256:5fe46f34a1b39a5d6d9027d7b55723716fedee0c2f9e98ca8ba366f76c67436d"}, "docker": "quay.io/biocontainers/severus", "aliases": {"severus": "/usr/local/bin/severus", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
+config: {"url": "https://biocontainers.pro/tools/severus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for severus", "latest": {"1.3--pyhdfd78af_0": "sha256:fb4471e0504d564de78215ae15c081a1bb2022ad51e993eba92bc6fa5052a05d"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048", "0.1.2--pyhdfd78af_0": "sha256:5f14f38ccd22324a8e2ec48f85ca58282564d61a11d3c5ab19c2f73829bb6c4c", "1.0--pyhdfd78af_0": "sha256:5ef7f35e92a26f837710c88b11bb288e2d7c935a2c3cf454851ff007200861bc", "1.1--pyhdfd78af_0": "sha256:0085576737dda3c507313f4029a0fe076767e8ba6cc02d01e816d8f07e7cfd17", "1.2--pyhdfd78af_0": "sha256:5fe46f34a1b39a5d6d9027d7b55723716fedee0c2f9e98ca8ba366f76c67436d", "1.3--pyhdfd78af_0": "sha256:fb4471e0504d564de78215ae15c081a1bb2022ad51e993eba92bc6fa5052a05d"}, "docker": "quay.io/biocontainers/severus", "aliases": {"severus": "/usr/local/bin/severus", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/severus.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/severus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/severus:1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/severus:1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/severus/1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/severus/1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/severus/1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/severus/1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

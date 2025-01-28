@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cat/container.yaml"
-updated_at: "2025-01-27 06:44:27.252393"
-latest: "6.0.1--hdfd78af_0"
+updated_at: "2025-01-28 02:46:15.681960"
+latest: "6.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cat"
 aliases:
  - "CAT"
@@ -25,8 +25,9 @@ versions:
  - "5.2.3--hdfd78af_1"
  - "5.3--hdfd78af_0"
  - "6.0.1--hdfd78af_0"
+ - "6.0.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for cat"
-config: {"url": "https://biocontainers.pro/tools/cat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cat", "latest": {"6.0.1--hdfd78af_0": "sha256:b49a7ea99ee9c0ec761a0ecd1c65e9422be83377489121192f35f8cadae1a0c4"}, "tags": {"5.2.3--hdfd78af_1": "sha256:b3992ecb211f6d2ab5d87cb6d19941ce9e5040fbb9551d0afe46d5e54c4cd971", "5.3--hdfd78af_0": "sha256:df32b3c754d6b8d4242eed88e653b1bfd4a84aa3571bb8815a31efb916665e7d", "6.0.1--hdfd78af_0": "sha256:b49a7ea99ee9c0ec761a0ecd1c65e9422be83377489121192f35f8cadae1a0c4"}, "docker": "quay.io/biocontainers/cat", "aliases": {"CAT": "/usr/local/bin/CAT", "bzcat": "/usr/local/bin/bzcat", "lz4cat": "/usr/local/bin/lz4cat", "lzcat": "/usr/local/bin/lzcat", "xzcat": "/usr/local/bin/xzcat", "zstdcat": "/usr/local/bin/zstdcat", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cat", "latest": {"6.0.1--hdfd78af_1": "sha256:46141a8b0571c83aeb2021b1a1a6aada752e3b36e71f00458bf1f291f3513e1b"}, "tags": {"5.2.3--hdfd78af_1": "sha256:b3992ecb211f6d2ab5d87cb6d19941ce9e5040fbb9551d0afe46d5e54c4cd971", "5.3--hdfd78af_0": "sha256:df32b3c754d6b8d4242eed88e653b1bfd4a84aa3571bb8815a31efb916665e7d", "6.0.1--hdfd78af_0": "sha256:b49a7ea99ee9c0ec761a0ecd1c65e9422be83377489121192f35f8cadae1a0c4", "6.0.1--hdfd78af_1": "sha256:46141a8b0571c83aeb2021b1a1a6aada752e3b36e71f00458bf1f291f3513e1b"}, "docker": "quay.io/biocontainers/cat", "aliases": {"CAT": "/usr/local/bin/CAT", "bzcat": "/usr/local/bin/bzcat", "lz4cat": "/usr/local/bin/lz4cat", "lzcat": "/usr/local/bin/lzcat", "xzcat": "/usr/local/bin/xzcat", "zstdcat": "/usr/local/bin/zstdcat", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cat.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/cat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cat:6.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/cat:6.0.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cat/6.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/cat/6.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/cat/6.0.1--hdfd78af_1
+$ module help quay.io/biocontainers/cat/6.0.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
