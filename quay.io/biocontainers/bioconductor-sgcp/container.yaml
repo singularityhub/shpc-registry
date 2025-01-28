@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-sgcp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-sgcp
 latest:
-  1.2.0--r43hdfd78af_0: sha256:95320069154d0284acf26fa38853a2231cc626c6e56c5078da61e20021fe65e3
+  1.6.0--r44hdfd78af_0: sha256:cdc2b317f8bf10e649c91e5803f134b6871be3fcbb81f25247ff63d7ef874796
 tags:
   1.0.0--r43hdfd78af_0: sha256:2c973d0c0a117ab77d8d7968d8dd592b383cb70cf50c59dd5ed8e62a5179509b
   1.2.0--r43hdfd78af_0: sha256:95320069154d0284acf26fa38853a2231cc626c6e56c5078da61e20021fe65e3
+  1.6.0--r44hdfd78af_0: sha256:cdc2b317f8bf10e649c91e5803f134b6871be3fcbb81f25247ff63d7ef874796
 docker: quay.io/biocontainers/bioconductor-sgcp
 aliases:
   hb-info: /usr/local/bin/hb-info

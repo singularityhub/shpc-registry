@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/kalamari
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kalamari
 latest:
-  5.7.2--pl5321hdfd78af_0: sha256:0179b6af3f79fc99ce98597cff3a1a9976c6d861f599529f66a0fe60b6bb3357
+  5.8.0--pl5321hdfd78af_0: sha256:eac6895626550b9395c9726ad0e8fff0555d0975a956c4db203f6c494530da1d
 tags:
   5.3.2--pl5321h031d066_0: sha256:b2e2f18951be4b6e6e0b070bcc8187e2083471289e029f29342b0b1758e7e410
   5.6.2--pl5321hdfd78af_0: sha256:7b944d7adbe6010ebcce40d05ba346e1db92f238fea1eecaef479de880e5fde3
@@ -13,6 +13,7 @@ tags:
   5.6.3--pl5321hdfd78af_0: sha256:7d667a1eb460b9acf8a59e4c794a037c0246998acc95972f7d194d8c9089a638
   5.7.1--pl5321hdfd78af_0: sha256:182031d7179cb0f10adad18ae84b553d1e42d899756268ebed8738e755ad744b
   5.7.2--pl5321hdfd78af_0: sha256:0179b6af3f79fc99ce98597cff3a1a9976c6d861f599529f66a0fe60b6bb3357
+  5.8.0--pl5321hdfd78af_0: sha256:eac6895626550b9395c9726ad0e8fff0555d0975a956c4db203f6c494530da1d
 docker: quay.io/biocontainers/kalamari
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp

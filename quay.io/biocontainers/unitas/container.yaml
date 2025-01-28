@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/unitas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unitas
 latest:
-  1.6.1--hdfd78af_2: sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d
+  1.6.1--hdfd78af_3: sha256:d14e079077e7778e1a0d9a92cb9e73f28b7e4a5f86f3fde8430dc548758d1998
 tags:
   1.6.1--hdfd78af_2: sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d
+  1.6.1--hdfd78af_3: sha256:d14e079077e7778e1a0d9a92cb9e73f28b7e4a5f86f3fde8430dc548758d1998
 docker: quay.io/biocontainers/unitas
 aliases:
   dnapi.py: /usr/local/bin/dnapi.py

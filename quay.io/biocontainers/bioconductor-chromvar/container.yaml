@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-chromvar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chromvar
 latest:
-  1.24.0--r43hf17093f_0: sha256:dca5723299579ee15f1a2a3d21ae8036beba478e7c5a69ef060afe2ca4c97f4e
+  1.28.0--r44he5774e6_0: sha256:caf4bf3a2d2cc6d009c8d6aab4fed806e778bafee54da774a1c451020feaf2ac
 tags:
   1.8.0--r36he1b5a44_0: sha256:501b23133a0e6284ffae4c11d4de4daf29226ddd532d5b242228f8d4721c4a0c
   1.20.0--r42hc247a5b_0: sha256:7675ca05aee9e0b28fba6e36aea7d26a50002ec05daf239c05e89f41df7db0b4
@@ -13,6 +13,7 @@ tags:
   1.20.0--r42hf17093f_1: sha256:85cb751898e33d01c320aaf92c6c75b0b07232e37523ef0e4f23c4008e2ff693
   1.22.1--r43hf17093f_0: sha256:24b44771f0003280f9a5d8208a4b94c3925bce8e297f2c2cf0e3321d320d9e17
   1.24.0--r43hf17093f_0: sha256:dca5723299579ee15f1a2a3d21ae8036beba478e7c5a69ef060afe2ca4c97f4e
+  1.28.0--r44he5774e6_0: sha256:caf4bf3a2d2cc6d009c8d6aab4fed806e778bafee54da774a1c451020feaf2ac
 docker: quay.io/biocontainers/bioconductor-chromvar
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

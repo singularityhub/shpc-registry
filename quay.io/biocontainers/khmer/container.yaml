@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/khmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for khmer
 latest:
-  3.0.0a3--py37h2c368fa_3: sha256:91c918296f50103ee616f9f0832f19298cbbc6c21927b3afe5d89b5ec9f92523
+  3.0.0a3--py311heabec7a_7: sha256:dadc5f626b089963b527f9a2a65631ccdfd281aebcbabe85fda0bc32372f0405
 tags:
   3.0.0a3--py37h2c368fa_3: sha256:91c918296f50103ee616f9f0832f19298cbbc6c21927b3afe5d89b5ec9f92523
   3.0.0a3--py38h94ffb2d_3: sha256:a1a77dd003cb43dfe61d69436bb833e60d36edfd83cf40bae0a2298870584e50
+  3.0.0a3--py311heabec7a_7: sha256:dadc5f626b089963b527f9a2a65631ccdfd281aebcbabe85fda0bc32372f0405
 docker: quay.io/biocontainers/khmer
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
