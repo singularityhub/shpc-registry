@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/divvier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/divvier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/divvier/container.yaml"
-updated_at: "2025-01-28 02:45:48.102963"
-latest: "1.01--h5b5514e_3"
+updated_at: "2025-01-29 02:44:59.838663"
+latest: "1.01--h5ca1c30_5"
 container_url: "https://biocontainers.pro/tools/divvier"
 aliases:
  - "divvier"
 versions:
  - "1.01--h5b5514e_2"
  - "1.01--h5b5514e_3"
+ - "1.01--h5ca1c30_5"
 description: "shpc-registry automated BioContainers addition for divvier"
-config: {"url": "https://biocontainers.pro/tools/divvier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for divvier", "latest": {"1.01--h5b5514e_3": "sha256:996ecdf6416677fe77736aae9b4a48d3247758607ce03174f9a02d6fa45508cc"}, "tags": {"1.01--h5b5514e_2": "sha256:b3484d47d0b889140177b6d3358d43fd9ede5273a69c0468932be30df64e0082", "1.01--h5b5514e_3": "sha256:996ecdf6416677fe77736aae9b4a48d3247758607ce03174f9a02d6fa45508cc"}, "docker": "quay.io/biocontainers/divvier", "aliases": {"divvier": "/usr/local/bin/divvier"}}
+config: {"url": "https://biocontainers.pro/tools/divvier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for divvier", "latest": {"1.01--h5ca1c30_5": "sha256:9c59dd2dda1b54a3f36c80effe5454d902efc6ca1ed0ef926ae5eb365fff175f"}, "tags": {"1.01--h5b5514e_2": "sha256:b3484d47d0b889140177b6d3358d43fd9ede5273a69c0468932be30df64e0082", "1.01--h5b5514e_3": "sha256:996ecdf6416677fe77736aae9b4a48d3247758607ce03174f9a02d6fa45508cc", "1.01--h5ca1c30_5": "sha256:9c59dd2dda1b54a3f36c80effe5454d902efc6ca1ed0ef926ae5eb365fff175f"}, "docker": "quay.io/biocontainers/divvier", "aliases": {"divvier": "/usr/local/bin/divvier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/divvier.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/divvier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/divvier:1.01--h5b5514e_3
+$ shpc install quay.io/biocontainers/divvier:1.01--h5ca1c30_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/divvier/1.01--h5b5514e_3
-$ module help quay.io/biocontainers/divvier/1.01--h5b5514e_3
+$ module load quay.io/biocontainers/divvier/1.01--h5ca1c30_5
+$ module help quay.io/biocontainers/divvier/1.01--h5ca1c30_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

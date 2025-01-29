@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-globalseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globalseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globalseq/container.yaml"
-updated_at: "2025-01-28 03:08:09.435882"
+updated_at: "2025-01-29 03:07:00.944839"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-globalseq"
 

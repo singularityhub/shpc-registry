@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/container.yaml"
-updated_at: "2025-01-28 03:27:25.557634"
-latest: "2.99.0--r43hdfd78af_12"
+updated_at: "2025-01-29 03:26:47.792033"
+latest: "2.99.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.mmusculus.v79"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.99.0--r42hdfd78af_10"
  - "2.99.0--r43hdfd78af_11"
  - "2.99.0--r43hdfd78af_12"
+ - "2.99.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.mmusculus.v79"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.mmusculus.v79", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.mmusculus.v79", "latest": {"2.99.0--r43hdfd78af_12": "sha256:39f75bf01d2976f38ed79ce4f394ae4ff51c322b79002f2c10a620ee49daa998"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:5006b011fc92b873c6d3be411b7404fe11e2a2a45d3a7bd52e19116284957c32", "2.99.0--r42hdfd78af_10": "sha256:81949a0ab1b09243a445324e9d3143f394668d9e50368ed7fbe9bfc9d8c4a306", "2.99.0--r43hdfd78af_11": "sha256:7c1ca8052c2b88ee3e6c7229dfd1d43f4a5bf74d6665403de8f367504a8431e7", "2.99.0--r43hdfd78af_12": "sha256:39f75bf01d2976f38ed79ce4f394ae4ff51c322b79002f2c10a620ee49daa998"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.mmusculus.v79", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.mmusculus.v79", "latest": {"2.99.0--r44hdfd78af_13": "sha256:ec53c552b75fd5c6c1d89431a8c64ae01114a923a551d897ba73b0141541a018"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:5006b011fc92b873c6d3be411b7404fe11e2a2a45d3a7bd52e19116284957c32", "2.99.0--r42hdfd78af_10": "sha256:81949a0ab1b09243a445324e9d3143f394668d9e50368ed7fbe9bfc9d8c4a306", "2.99.0--r43hdfd78af_11": "sha256:7c1ca8052c2b88ee3e6c7229dfd1d43f4a5bf74d6665403de8f367504a8431e7", "2.99.0--r43hdfd78af_12": "sha256:39f75bf01d2976f38ed79ce4f394ae4ff51c322b79002f2c10a620ee49daa998", "2.99.0--r44hdfd78af_13": "sha256:ec53c552b75fd5c6c1d89431a8c64ae01114a923a551d897ba73b0141541a018"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79:2.99.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79:2.99.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/2.99.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/2.99.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/2.99.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/2.99.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

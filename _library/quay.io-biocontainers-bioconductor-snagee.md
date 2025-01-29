@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snagee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snagee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snagee/container.yaml"
-updated_at: "2025-01-28 03:09:56.098851"
+updated_at: "2025-01-29 03:08:50.010317"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snagee"
 

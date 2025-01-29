@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-template"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-template/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-template/container.yaml"
-updated_at: "2025-01-28 03:24:18.295132"
+updated_at: "2025-01-29 03:23:38.309317"
 latest: "2.97--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-template"
 aliases:

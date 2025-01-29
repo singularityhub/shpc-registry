@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/khmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/khmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/khmer/container.yaml"
-updated_at: "2025-01-28 03:14:51.017166"
-latest: "3.0.0a3--py37h2c368fa_3"
+updated_at: "2025-01-29 03:13:54.014066"
+latest: "3.0.0a3--py311heabec7a_7"
 container_url: "https://biocontainers.pro/tools/khmer"
 aliases:
  - "abundance-dist-single.py"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "3.0.0a3--py37h2c368fa_3"
  - "3.0.0a3--py38h94ffb2d_3"
+ - "3.0.0a3--py311heabec7a_7"
 description: "shpc-registry automated BioContainers addition for khmer"
-config: {"url": "https://biocontainers.pro/tools/khmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for khmer", "latest": {"3.0.0a3--py37h2c368fa_3": "sha256:91c918296f50103ee616f9f0832f19298cbbc6c21927b3afe5d89b5ec9f92523"}, "tags": {"3.0.0a3--py37h2c368fa_3": "sha256:91c918296f50103ee616f9f0832f19298cbbc6c21927b3afe5d89b5ec9f92523", "3.0.0a3--py38h94ffb2d_3": "sha256:a1a77dd003cb43dfe61d69436bb833e60d36edfd83cf40bae0a2298870584e50"}, "docker": "quay.io/biocontainers/khmer", "aliases": {"abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "screed": "/usr/local/bin/screed", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/khmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for khmer", "latest": {"3.0.0a3--py311heabec7a_7": "sha256:dadc5f626b089963b527f9a2a65631ccdfd281aebcbabe85fda0bc32372f0405"}, "tags": {"3.0.0a3--py37h2c368fa_3": "sha256:91c918296f50103ee616f9f0832f19298cbbc6c21927b3afe5d89b5ec9f92523", "3.0.0a3--py38h94ffb2d_3": "sha256:a1a77dd003cb43dfe61d69436bb833e60d36edfd83cf40bae0a2298870584e50", "3.0.0a3--py311heabec7a_7": "sha256:dadc5f626b089963b527f9a2a65631ccdfd281aebcbabe85fda0bc32372f0405"}, "docker": "quay.io/biocontainers/khmer", "aliases": {"abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "screed": "/usr/local/bin/screed", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/khmer.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/khmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/khmer:3.0.0a3--py37h2c368fa_3
+$ shpc install quay.io/biocontainers/khmer:3.0.0a3--py311heabec7a_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/khmer/3.0.0a3--py37h2c368fa_3
-$ module help quay.io/biocontainers/khmer/3.0.0a3--py37h2c368fa_3
+$ module load quay.io/biocontainers/khmer/3.0.0a3--py311heabec7a_7
+$ module help quay.io/biocontainers/khmer/3.0.0a3--py311heabec7a_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

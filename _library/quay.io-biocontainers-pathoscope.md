@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathoscope/container.yaml"
-updated_at: "2025-01-28 03:19:47.008664"
+updated_at: "2025-01-29 03:19:02.415404"
 latest: "2.0.7--py_1"
 container_url: "https://biocontainers.pro/tools/pathoscope"
 aliases:

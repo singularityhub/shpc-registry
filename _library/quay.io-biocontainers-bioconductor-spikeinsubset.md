@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spikeinsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spikeinsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spikeinsubset/container.yaml"
-updated_at: "2025-01-28 03:18:17.261288"
+updated_at: "2025-01-29 03:17:27.685313"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spikeinsubset"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-multitaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-multitaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-multitaper/container.yaml"
-updated_at: "2025-01-28 03:25:55.069634"
+updated_at: "2025-01-29 03:25:21.617781"
 latest: "1.0.11--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-multitaper"
 aliases:

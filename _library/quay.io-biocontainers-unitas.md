@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unitas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitas/container.yaml"
-updated_at: "2025-01-28 02:47:42.519651"
-latest: "1.6.1--hdfd78af_2"
+updated_at: "2025-01-29 02:46:48.730811"
+latest: "1.6.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/unitas"
 aliases:
  - "dnapi.py"
@@ -26,8 +26,9 @@ aliases:
  - "pydoc3.9"
 versions:
  - "1.6.1--hdfd78af_2"
+ - "1.6.1--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for unitas"
-config: {"url": "https://biocontainers.pro/tools/unitas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitas", "latest": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "tags": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "docker": "quay.io/biocontainers/unitas", "aliases": {"dnapi.py": "/usr/local/bin/dnapi.py", "qual_offset.py": "/usr/local/bin/qual_offset.py", "qual_trim.py": "/usr/local/bin/qual_trim.py", "seqmap": "/usr/local/bin/seqmap", "to_fasta.py": "/usr/local/bin/to_fasta.py", "unitas.pl": "/usr/local/bin/unitas.pl", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/unitas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitas", "latest": {"1.6.1--hdfd78af_3": "sha256:d14e079077e7778e1a0d9a92cb9e73f28b7e4a5f86f3fde8430dc548758d1998"}, "tags": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d", "1.6.1--hdfd78af_3": "sha256:d14e079077e7778e1a0d9a92cb9e73f28b7e4a5f86f3fde8430dc548758d1998"}, "docker": "quay.io/biocontainers/unitas", "aliases": {"dnapi.py": "/usr/local/bin/dnapi.py", "qual_offset.py": "/usr/local/bin/qual_offset.py", "qual_trim.py": "/usr/local/bin/qual_trim.py", "seqmap": "/usr/local/bin/seqmap", "to_fasta.py": "/usr/local/bin/to_fasta.py", "unitas.pl": "/usr/local/bin/unitas.pl", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unitas.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/unitas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unitas:1.6.1--hdfd78af_2
+$ shpc install quay.io/biocontainers/unitas:1.6.1--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unitas/1.6.1--hdfd78af_2
-$ module help quay.io/biocontainers/unitas/1.6.1--hdfd78af_2
+$ module load quay.io/biocontainers/unitas/1.6.1--hdfd78af_3
+$ module help quay.io/biocontainers/unitas/1.6.1--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

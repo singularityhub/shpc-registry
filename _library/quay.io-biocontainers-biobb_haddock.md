@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_haddock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_haddock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_haddock/container.yaml"
-updated_at: "2025-01-28 03:14:56.233247"
-latest: "5.0.0--pyhdfd78af_0"
+updated_at: "2025-01-29 03:13:59.065203"
+latest: "5.0.0--pyhdfd78af_4"
 container_url: "https://biocontainers.pro/tools/biobb_haddock"
 aliases:
  - "capri_eval"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "4.2.1--pyhdfd78af_0"
  - "5.0.0--pyhdfd78af_0"
+ - "5.0.0--pyhdfd78af_4"
 description: "singularity registry hpc automated addition for biobb_haddock"
-config: {"url": "https://biocontainers.pro/tools/biobb_haddock", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_haddock", "latest": {"5.0.0--pyhdfd78af_0": "sha256:4ecaffeddb0b949e08f23defb923b6729a82cf6912814743b77e9bc7a0ba0da2"}, "tags": {"4.2.1--pyhdfd78af_0": "sha256:f7e0fa46658ff87f63569da48104cd10a83b0ba453a950be1c6473e0ba8ab335", "5.0.0--pyhdfd78af_0": "sha256:4ecaffeddb0b949e08f23defb923b6729a82cf6912814743b77e9bc7a0ba0da2"}, "docker": "quay.io/biocontainers/biobb_haddock", "aliases": {"capri_eval": "/usr/local/bin/capri_eval", "clust_fcc": "/usr/local/bin/clust_fcc", "em_ref": "/usr/local/bin/em_ref", "flex_ref": "/usr/local/bin/flex_ref", "rigid_body": "/usr/local/bin/rigid_body", "sele_top": "/usr/local/bin/sele_top", "topology": "/usr/local/bin/topology", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_haddock", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_haddock", "latest": {"5.0.0--pyhdfd78af_4": "sha256:02ae442526f3d5a8a7d485f166d9c37826f0fc1100f99910dd463a11b0633e44"}, "tags": {"4.2.1--pyhdfd78af_0": "sha256:f7e0fa46658ff87f63569da48104cd10a83b0ba453a950be1c6473e0ba8ab335", "5.0.0--pyhdfd78af_0": "sha256:4ecaffeddb0b949e08f23defb923b6729a82cf6912814743b77e9bc7a0ba0da2", "5.0.0--pyhdfd78af_4": "sha256:02ae442526f3d5a8a7d485f166d9c37826f0fc1100f99910dd463a11b0633e44"}, "docker": "quay.io/biocontainers/biobb_haddock", "aliases": {"capri_eval": "/usr/local/bin/capri_eval", "clust_fcc": "/usr/local/bin/clust_fcc", "em_ref": "/usr/local/bin/em_ref", "flex_ref": "/usr/local/bin/flex_ref", "rigid_body": "/usr/local/bin/rigid_body", "sele_top": "/usr/local/bin/sele_top", "topology": "/usr/local/bin/topology", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_haddock.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/biobb_haddock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_haddock:5.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_haddock:5.0.0--pyhdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_haddock/5.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_haddock/5.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_haddock/5.0.0--pyhdfd78af_4
+$ module help quay.io/biocontainers/biobb_haddock/5.0.0--pyhdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
