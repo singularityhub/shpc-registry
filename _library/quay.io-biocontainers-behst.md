@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/behst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/behst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/behst/container.yaml"
-updated_at: "2025-01-29 03:30:56.279833"
+updated_at: "2025-01-30 03:27:39.589759"
 latest: "3.8--0"
 container_url: "https://biocontainers.pro/tools/behst"
 aliases:

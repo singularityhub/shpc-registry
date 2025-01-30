@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-chord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-chord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-chord/container.yaml"
-updated_at: "2025-01-29 03:26:51.235519"
+updated_at: "2025-01-30 03:23:39.735395"
 latest: "2.1.0_beta--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/hmftools-chord"
 aliases:

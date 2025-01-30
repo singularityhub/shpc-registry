@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tiff/container.yaml"
-updated_at: "2025-01-29 02:57:31.088663"
+updated_at: "2025-01-30 02:56:17.843537"
 latest: "0.1.5--r3.3.2_2"
 container_url: "https://biocontainers.pro/tools/r-tiff"
 aliases:

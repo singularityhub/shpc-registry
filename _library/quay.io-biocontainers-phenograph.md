@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phenograph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phenograph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phenograph/container.yaml"
-updated_at: "2025-01-29 03:12:04.311903"
+updated_at: "2025-01-30 03:10:06.212415"
 latest: "1.5.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phenograph"
 aliases:
