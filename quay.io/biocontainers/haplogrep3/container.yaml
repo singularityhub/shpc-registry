@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/haplogrep3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for haplogrep3
+latest:
+  3.2.2--hdfd78af_0: sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6
+tags:
+  3.2.2--hdfd78af_0: sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6
+docker: quay.io/biocontainers/haplogrep3
+aliases:
+  haplogrep3: /usr/local/bin/haplogrep3
+  haplogrep3.jar: /usr/local/bin/haplogrep3.jar
+  haplogrep3.yaml: /usr/local/bin/haplogrep3.yaml
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
