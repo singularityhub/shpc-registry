@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-serumstimulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
-updated_at: "2025-01-30 04:01:35.741237"
+updated_at: "2025-01-31 03:32:58.673583"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-serumstimulation"
 

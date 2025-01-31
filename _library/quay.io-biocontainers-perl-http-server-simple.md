@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-server-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-server-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-server-simple/container.yaml"
-updated_at: "2025-01-30 03:23:12.566853"
+updated_at: "2025-01-31 02:56:32.943155"
 latest: "0.52--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-http-server-simple"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/spades/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/spades/container.yaml"
-updated_at: "2025-01-30 03:11:07.789171"
+updated_at: "2025-01-31 02:45:14.197743"
 latest: "3.15.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/spades"
 aliases:

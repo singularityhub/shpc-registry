@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-animalcules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
-updated_at: "2025-01-30 03:22:36.685884"
+updated_at: "2025-01-31 02:56:00.079016"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-animalcules"
 aliases:

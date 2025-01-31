@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgems/container.yaml"
-updated_at: "2025-01-30 03:30:18.317811"
+updated_at: "2025-01-31 03:03:15.694072"
 latest: "1.3.3--h13024bc_2"
 container_url: "https://biocontainers.pro/tools/mgems"
 aliases:

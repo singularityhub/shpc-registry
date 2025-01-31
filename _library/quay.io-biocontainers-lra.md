@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lra/container.yaml"
-updated_at: "2025-01-30 03:12:41.722216"
+updated_at: "2025-01-31 02:46:41.366772"
 latest: "1.3.7.2--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/lra"
 aliases:
