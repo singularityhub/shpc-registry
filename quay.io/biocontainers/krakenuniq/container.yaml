@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/krakenuniq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krakenuniq
 latest:
-  1.0.4--pl5321h6dccd9a_2: sha256:4fe9452e8c84dfb3bbdc86dd5ffde7b6f241ade48414a25fa11b93add8f658b8
+  1.0.4--pl5321h668145b_4: sha256:e5da88e0f37f7d2a28eaf5b1904dcb02a8d47886384419379e7c4ef981f46e30
 tags:
   1.0.1a--pl5321h19e8d03_1: sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e
   1.0.2--pl5321h19e8d03_0: sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab
@@ -11,6 +11,7 @@ tags:
   1.0.4--pl5321h19e8d03_0: sha256:8a93e1ce9c8e21fbe2d3fb3de5a41829a324194797b109017f844aabd4f98f77
   1.0.4--pl5321h6dccd9a_1: sha256:d5e0227fd2641ea7e0d3f2a2124d81d9f1b2f7c462f8db8be031f8af27ab1b2c
   1.0.4--pl5321h6dccd9a_2: sha256:4fe9452e8c84dfb3bbdc86dd5ffde7b6f241ade48414a25fa11b93add8f658b8
+  1.0.4--pl5321h668145b_4: sha256:e5da88e0f37f7d2a28eaf5b1904dcb02a8d47886384419379e7c4ef981f46e30
 docker: quay.io/biocontainers/krakenuniq
 aliases:
   build_taxdb: /usr/local/bin/build_taxdb

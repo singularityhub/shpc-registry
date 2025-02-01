@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/deeptoolsintervals
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deeptoolsintervals
 latest:
-  0.1.9--py312ha9c1134_10: sha256:9436d34b2e6d3933ba95e01cf5a6e8ad4e28bc6d43df80b00d23b509717c4a3d
+  0.1.9--py312ha9c1134_11: sha256:2190dac55fadd1f8e79371eae1ca7487594c7aece249f50baffcd773c26da9b9
 tags:
   0.1.9--py27h9801fc8_4: sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642
   0.1.9--py39h87d955d_5: sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3
@@ -12,6 +12,7 @@ tags:
   0.1.9--py38h4c6a040_8: sha256:1b84468e617d594316114d2b5cc13f4fd3d0e755ef583f415444234347745eb5
   0.1.9--py312h21b0f09_9: sha256:68d5926ba2555c84a29a3c900b7ab74953d6dc682e63310593732920c0e09be0
   0.1.9--py312ha9c1134_10: sha256:9436d34b2e6d3933ba95e01cf5a6e8ad4e28bc6d43df80b00d23b509717c4a3d
+  0.1.9--py312ha9c1134_11: sha256:2190dac55fadd1f8e79371eae1ca7487594c7aece249f50baffcd773c26da9b9
 docker: quay.io/biocontainers/deeptoolsintervals
 aliases:
   python2-config: /usr/local/bin/python2-config

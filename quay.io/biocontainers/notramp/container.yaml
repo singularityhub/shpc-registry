@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/notramp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for notramp
 latest:
-  1.1.7--pyh7e72e81_0: sha256:1bb7762ee5ea6876989d09849f3fadef327d08df05b807c35a9806ecb10fead4
+  1.1.9--pyh7e72e81_0: sha256:6b2f090f8be2d24779a490f85e9ce8fb2d7d8ddada93cb188732d90baed9e6b7
 tags:
   1.0.5--pyh5e36f6f_0: sha256:948e2fa68132c6147a680b79cd4023b28cf0bab39a2534d83e2500c6aeff1607
   1.1.7--pyh7e72e81_0: sha256:1bb7762ee5ea6876989d09849f3fadef327d08df05b807c35a9806ecb10fead4
+  1.1.9--pyh7e72e81_0: sha256:6b2f090f8be2d24779a490f85e9ce8fb2d7d8ddada93cb188732d90baed9e6b7
 docker: quay.io/biocontainers/notramp
 aliases:
   notramp: /usr/local/bin/notramp
