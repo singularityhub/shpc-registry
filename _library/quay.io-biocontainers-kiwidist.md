@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kiwidist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kiwidist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kiwidist/container.yaml"
-updated_at: "2025-01-31 02:50:47.239102"
+updated_at: "2025-02-01 02:56:05.791597"
 latest: "0.3.6--py_3"
 container_url: "https://biocontainers.pro/tools/kiwidist"
 aliases:

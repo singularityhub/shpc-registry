@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mvip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvip/container.yaml"
-updated_at: "2025-01-31 03:26:50.330550"
+updated_at: "2025-02-01 03:32:25.232597"
 latest: "1.1.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mvip"
 aliases:

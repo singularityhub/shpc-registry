@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mob_suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mob_suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mob_suite/container.yaml"
-updated_at: "2025-01-31 03:30:07.129340"
+updated_at: "2025-02-01 03:35:43.107242"
 latest: "3.1.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mob_suite"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgview/container.yaml"
-updated_at: "2025-01-31 03:09:05.333330"
+updated_at: "2025-02-01 03:14:31.328456"
 latest: "1.0--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/cgview"
 aliases:

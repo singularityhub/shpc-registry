@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yacrd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yacrd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yacrd/container.yaml"
-updated_at: "2025-01-31 03:27:03.526267"
+updated_at: "2025-02-01 03:32:38.536392"
 latest: "1.0.0--h790517f_4"
 container_url: "https://biocontainers.pro/tools/yacrd"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-das"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-das/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-das/container.yaml"
-updated_at: "2025-01-31 03:15:30.567749"
+updated_at: "2025-02-01 03:20:59.550215"
 latest: "1.17--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-bio-das"
 aliases:

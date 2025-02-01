@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gmwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gmwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gmwt/container.yaml"
-updated_at: "2025-01-31 02:50:19.682923"
+updated_at: "2025-02-01 02:55:38.043902"
 latest: "1.2--r42h25def4e_1"
 container_url: "https://biocontainers.pro/tools/r-gmwt"
 

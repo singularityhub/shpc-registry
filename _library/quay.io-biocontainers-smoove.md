@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smoove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smoove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smoove/container.yaml"
-updated_at: "2025-01-31 03:22:26.261573"
+updated_at: "2025-02-01 03:27:59.022988"
 latest: "0.2.8--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/smoove"
 aliases:

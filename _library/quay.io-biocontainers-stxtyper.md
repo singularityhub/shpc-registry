@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stxtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stxtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stxtyper/container.yaml"
-updated_at: "2025-01-31 03:28:31.014867"
+updated_at: "2025-02-01 03:34:06.602180"
 latest: "1.0.25--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/stxtyper"
 aliases:

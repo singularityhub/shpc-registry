@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clusterone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clusterone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clusterone/container.yaml"
-updated_at: "2025-01-31 03:07:25.633759"
+updated_at: "2025-02-01 03:12:51.020406"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clusterone"
 aliases:

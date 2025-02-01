@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-encode-locale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-encode-locale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-encode-locale/container.yaml"
-updated_at: "2025-01-31 03:20:17.674214"
+updated_at: "2025-02-01 03:25:48.735556"
 latest: "1.05--pl5321hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/perl-encode-locale"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-vcftools-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
-updated_at: "2025-01-31 03:26:54.268139"
+updated_at: "2025-02-01 03:32:29.196230"
 latest: "0.953--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/perl-vcftools-vcf"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/muscle/container.yaml"
-updated_at: "2025-01-31 02:44:36.790974"
+updated_at: "2025-02-01 02:49:49.220978"
 latest: "3.8.1551"
 container_url: "https://github.com/orgs/autamus/packages/container/package/muscle"
 aliases:

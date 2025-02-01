@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phastaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phastaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phastaf/container.yaml"
-updated_at: "2025-01-31 03:29:38.357513"
+updated_at: "2025-02-01 03:35:14.300340"
 latest: "0.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phastaf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extern"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extern/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extern/container.yaml"
-updated_at: "2025-01-31 02:59:51.936854"
+updated_at: "2025-02-01 03:05:14.840683"
 latest: "0.2.1--py27_1"
 container_url: "https://biocontainers.pro/tools/extern"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/htslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/htslib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/htslib/container.yaml"
-updated_at: "2025-01-31 02:44:33.695404"
+updated_at: "2025-02-01 02:49:45.959769"
 latest: "1.15.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/htslib"
 aliases:

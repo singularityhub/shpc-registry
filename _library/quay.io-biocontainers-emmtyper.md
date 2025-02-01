@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emmtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emmtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emmtyper/container.yaml"
-updated_at: "2025-01-31 03:21:17.724035"
+updated_at: "2025-02-01 03:26:49.222892"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/emmtyper"
 

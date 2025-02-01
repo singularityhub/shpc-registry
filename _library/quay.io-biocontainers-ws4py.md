@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ws4py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ws4py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ws4py/container.yaml"
-updated_at: "2025-01-31 03:18:57.265280"
+updated_at: "2025-02-01 03:24:27.716658"
 latest: "0.3.2--py36_0"
 container_url: "https://biocontainers.pro/tools/ws4py"
 aliases:

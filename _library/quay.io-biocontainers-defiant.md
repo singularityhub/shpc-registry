@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/defiant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/defiant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/defiant/container.yaml"
-updated_at: "2025-01-31 03:11:22.560581"
+updated_at: "2025-02-01 03:16:49.468584"
 latest: "1.1.4--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/defiant"
 aliases:
