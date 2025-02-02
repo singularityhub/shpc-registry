@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/biobb_godmd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_godmd
 latest:
-  5.0.0--pyhdfd78af_0: sha256:ae401561581d0876272ba17edb724ded424923e9e986c1ebf64f4458c341305e
+  5.0.0--pyhdfd78af_1: sha256:6339acf6ea280ef8fdc4a7a555c0bb43053268670843ba02e363936788809b8c
 tags:
   3.8.1--pyhdfd78af_0: sha256:79569e71abad74c1bf0dd2413aace5b6a7b6df422606fe164c680042df5b5d5f
   4.0.0--pyhdfd78af_1: sha256:61efa334cf7b82e8093c8cb23a78d174228b77b81ae3c92ea585abe4b7fe131e
@@ -10,6 +10,7 @@ tags:
   4.1.0--pyhdfd78af_0: sha256:39b692a5ca6a9e58c548ec02f724897fe697fb3dd308e77feffe509f5094c317
   4.2.0--pyhdfd78af_0: sha256:7419932eb0fab810417041a0dd8f8c4ed7f2701d7cbc392c646fdf6bcbd28c6c
   5.0.0--pyhdfd78af_0: sha256:ae401561581d0876272ba17edb724ded424923e9e986c1ebf64f4458c341305e
+  5.0.0--pyhdfd78af_1: sha256:6339acf6ea280ef8fdc4a7a555c0bb43053268670843ba02e363936788809b8c
 docker: quay.io/biocontainers/biobb_godmd
 aliases:
   discrete: /usr/local/bin/discrete

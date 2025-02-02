@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-biocfhir
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-biocfhir
 latest:
-  1.4.0--r43hdfd78af_0: sha256:e331fbd381a2bf991277aa095fdb524c0e39f2f77136e35fc217f290ed294aa1
+  1.8.0--r44hdfd78af_0: sha256:9b8983e6decd6442aa64cb8e1008a21948e33ea7d0d8a5bd7466d2747401c66f
 tags:
   1.0.0--r42hdfd78af_0: sha256:bfc126eebe85e2ebeb4838a5052e8f9adfc11c396c4cda65db2c4560c8b1830b
   1.2.0--r43hdfd78af_0: sha256:f2f955522a3cc22f76ba18829f335ad39dd00aa66bdb4880ffc9fb74e2fbbc24
   1.4.0--r43hdfd78af_0: sha256:e331fbd381a2bf991277aa095fdb524c0e39f2f77136e35fc217f290ed294aa1
+  1.8.0--r44hdfd78af_0: sha256:9b8983e6decd6442aa64cb8e1008a21948e33ea7d0d8a5bd7466d2747401c66f
 docker: quay.io/biocontainers/bioconductor-biocfhir
 aliases:
   glpsol: /usr/local/bin/glpsol

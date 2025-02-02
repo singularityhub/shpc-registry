@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-enrichviewnet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-enrichviewnet
 latest:
-  1.0.0--r43hdfd78af_0: sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da
+  1.4.0--r44hdfd78af_0: sha256:a1ce8b8f255095c85043cdd3967f0a1c8f1a0497f781c0d9becb9f45d5e969c7
 tags:
   1.0.0--r43hdfd78af_0: sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da
+  1.4.0--r44hdfd78af_0: sha256:a1ce8b8f255095c85043cdd3967f0a1c8f1a0497f781c0d9becb9f45d5e969c7
 docker: quay.io/biocontainers/bioconductor-enrichviewnet
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

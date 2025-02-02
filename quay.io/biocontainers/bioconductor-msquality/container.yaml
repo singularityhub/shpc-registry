@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-msquality
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msquality
 latest:
-  1.2.0--r43hdfd78af_0: sha256:11e9191fa91f572c7908ff6c5035f8612fe68502e81757bab6f9731f64128fd5
+  1.6.0--r44hdfd78af_0: sha256:fd9574542e2a0bb0b2d00ac7dd9de49319ec39f4102f2b2b3373b0c142c28876
 tags:
   1.0.0--r43hdfd78af_0: sha256:afed003fc3fb3567c44919dd532fe790a52db59456b570f241b08af06525983f
   1.2.0--r43hdfd78af_0: sha256:11e9191fa91f572c7908ff6c5035f8612fe68502e81757bab6f9731f64128fd5
+  1.6.0--r44hdfd78af_0: sha256:fd9574542e2a0bb0b2d00ac7dd9de49319ec39f4102f2b2b3373b0c142c28876
 docker: quay.io/biocontainers/bioconductor-msquality
 aliases:
   hb-info: /usr/local/bin/hb-info
