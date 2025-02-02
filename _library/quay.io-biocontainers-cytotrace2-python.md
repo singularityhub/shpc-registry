@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cytotrace2-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytotrace2-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytotrace2-python/container.yaml"
-updated_at: "2025-02-01 02:52:14.982479"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2025-02-02 02:50:29.542234"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cytotrace2-python"
 aliases:
  - "cytotrace2"
@@ -37,8 +37,9 @@ aliases:
  - "hwloc-gather-topology"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cytotrace2-python"
-config: {"url": "https://biocontainers.pro/tools/cytotrace2-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cytotrace2-python", "latest": {"0.0.1--pyhdfd78af_0": "sha256:f449c9a6275e4c847d75e62c794b20bbfe48f178f015b966bbbd8a6234336603"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:f449c9a6275e4c847d75e62c794b20bbfe48f178f015b966bbbd8a6234336603"}, "docker": "quay.io/biocontainers/cytotrace2-python", "aliases": {"cytotrace2": "/usr/local/bin/cytotrace2", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
+config: {"url": "https://biocontainers.pro/tools/cytotrace2-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cytotrace2-python", "latest": {"1.1.0--pyhdfd78af_0": "sha256:07ba23a560903a3ab7407fb5cb6336904180644c78c5be8d48904f2d2ee81f50"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:f449c9a6275e4c847d75e62c794b20bbfe48f178f015b966bbbd8a6234336603", "1.1.0--pyhdfd78af_0": "sha256:07ba23a560903a3ab7407fb5cb6336904180644c78c5be8d48904f2d2ee81f50"}, "docker": "quay.io/biocontainers/cytotrace2-python", "aliases": {"cytotrace2": "/usr/local/bin/cytotrace2", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cytotrace2-python.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/cytotrace2-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cytotrace2-python:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cytotrace2-python:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cytotrace2-python/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cytotrace2-python/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cytotrace2-python/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cytotrace2-python/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

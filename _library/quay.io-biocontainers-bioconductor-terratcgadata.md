@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-terratcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-terratcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-terratcgadata/container.yaml"
-updated_at: "2025-02-01 03:21:05.219688"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2025-02-02 03:19:21.245760"
+latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-terratcgadata"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.10.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-terratcgadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-terratcgadata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-terratcgadata", "latest": {"1.6.0--r43hdfd78af_0": "sha256:58a6a23e3f25033f8aa58e8af1d59c67946e0f2df05d4ff77179953f52ce8b3f"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2a36c6fd5da2f73f4351d9c54baf23265cbb57d45ca6752d03742e237e1ec542", "1.4.0--r43hdfd78af_0": "sha256:b6995e8f6d7437b6bc9a613d8aa71b29ea63430d5ae419c25771f641be961026", "1.6.0--r43hdfd78af_0": "sha256:58a6a23e3f25033f8aa58e8af1d59c67946e0f2df05d4ff77179953f52ce8b3f"}, "docker": "quay.io/biocontainers/bioconductor-terratcgadata", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-terratcgadata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-terratcgadata", "latest": {"1.10.0--r44hdfd78af_0": "sha256:a0c1d65514220e3de9b3d52ddfa8ee35bc3b76ea3572ee7690478650cb01bdee"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2a36c6fd5da2f73f4351d9c54baf23265cbb57d45ca6752d03742e237e1ec542", "1.4.0--r43hdfd78af_0": "sha256:b6995e8f6d7437b6bc9a613d8aa71b29ea63430d5ae419c25771f641be961026", "1.6.0--r43hdfd78af_0": "sha256:58a6a23e3f25033f8aa58e8af1d59c67946e0f2df05d4ff77179953f52ce8b3f", "1.10.0--r44hdfd78af_0": "sha256:a0c1d65514220e3de9b3d52ddfa8ee35bc3b76ea3572ee7690478650cb01bdee"}, "docker": "quay.io/biocontainers/bioconductor-terratcgadata", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-terratcgadata.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-terratcgadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-terratcgadata:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-terratcgadata:1.10.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-terratcgadata/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-terratcgadata/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-terratcgadata/1.10.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-terratcgadata/1.10.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

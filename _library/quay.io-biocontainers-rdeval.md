@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdeval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdeval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdeval/container.yaml"
-updated_at: "2025-02-01 02:51:27.775234"
+updated_at: "2025-02-02 02:49:43.353039"
 latest: "0.0.4--h35c04b2_0"
 container_url: "https://biocontainers.pro/tools/rdeval"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-beachmat.hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beachmat.hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beachmat.hdf5/container.yaml"
-updated_at: "2025-02-01 03:22:14.067459"
-latest: "1.0.0--r43hf17093f_0"
+updated_at: "2025-02-02 03:20:29.870061"
+latest: "1.4.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beachmat.hdf5"
 aliases:
  - "pcre2posix_test"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43hf17093f_0"
+ - "1.4.0--r44h77050f0_0"
 description: "singularity registry hpc automated addition for bioconductor-beachmat.hdf5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-beachmat.hdf5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-beachmat.hdf5", "latest": {"1.0.0--r43hf17093f_0": "sha256:549600d1785653d6f988970213eb3cc2cca1ad77eb2cee28e76c33112b0099ae"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:549600d1785653d6f988970213eb3cc2cca1ad77eb2cee28e76c33112b0099ae"}, "docker": "quay.io/biocontainers/bioconductor-beachmat.hdf5", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-beachmat.hdf5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-beachmat.hdf5", "latest": {"1.4.0--r44h77050f0_0": "sha256:660ec618198cbe0096655bee421991d17efb72bf67109ece6e952f0733564066"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:549600d1785653d6f988970213eb3cc2cca1ad77eb2cee28e76c33112b0099ae", "1.4.0--r44h77050f0_0": "sha256:660ec618198cbe0096655bee421991d17efb72bf67109ece6e952f0733564066"}, "docker": "quay.io/biocontainers/bioconductor-beachmat.hdf5", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-beachmat.hdf5.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-beachmat.hdf5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-beachmat.hdf5:1.0.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-beachmat.hdf5:1.4.0--r44h77050f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-beachmat.hdf5/1.0.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-beachmat.hdf5/1.0.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-beachmat.hdf5/1.4.0--r44h77050f0_0
+$ module help quay.io/biocontainers/bioconductor-beachmat.hdf5/1.4.0--r44h77050f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
