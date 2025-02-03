@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sctriangulate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sctriangulate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sctriangulate/container.yaml"
-updated_at: "2025-02-02 03:22:03.878834"
+updated_at: "2025-02-03 03:20:27.144380"
 latest: "0.13.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sctriangulate"
 aliases:

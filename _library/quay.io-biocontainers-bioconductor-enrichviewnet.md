@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-enrichviewnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichviewnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichviewnet/container.yaml"
-updated_at: "2025-02-02 03:34:13.577890"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-02-03 03:32:40.860855"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichviewnet"
 aliases:
  - "Cytoscape"
@@ -35,8 +35,9 @@ aliases:
  - "python-argcomplete-check-easy-install-script"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-enrichviewnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichviewnet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-enrichviewnet", "latest": {"1.0.0--r43hdfd78af_0": "sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da"}, "docker": "quay.io/biocontainers/bioconductor-enrichviewnet", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "curve_keygen": "/usr/local/bin/curve_keygen", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichviewnet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-enrichviewnet", "latest": {"1.4.0--r44hdfd78af_0": "sha256:a1ce8b8f255095c85043cdd3967f0a1c8f1a0497f781c0d9becb9f45d5e969c7"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da", "1.4.0--r44hdfd78af_0": "sha256:a1ce8b8f255095c85043cdd3967f0a1c8f1a0497f781c0d9becb9f45d5e969c7"}, "docker": "quay.io/biocontainers/bioconductor-enrichviewnet", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "curve_keygen": "/usr/local/bin/curve_keygen", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enrichviewnet.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enrichviewnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enrichviewnet:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-enrichviewnet:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enrichviewnet/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-enrichviewnet/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-enrichviewnet/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-enrichviewnet/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
