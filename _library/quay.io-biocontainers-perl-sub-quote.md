@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-quote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-quote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-quote/container.yaml"
-updated_at: "2025-02-03 03:20:54.296843"
+updated_at: "2025-02-03 04:02:01.750492"
 latest: "2.006006--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sub-quote"
 aliases:

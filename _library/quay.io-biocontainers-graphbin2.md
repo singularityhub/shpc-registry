@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphbin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphbin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphbin2/container.yaml"
-updated_at: "2025-02-03 03:20:04.626277"
+updated_at: "2025-02-03 04:01:11.071666"
 latest: "1.3.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/graphbin2"
 aliases:

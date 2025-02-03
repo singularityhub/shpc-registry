@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cemitool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cemitool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cemitool/container.yaml"
-updated_at: "2025-02-03 03:25:44.626573"
+updated_at: "2025-02-03 04:06:57.508052"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cemitool"
 aliases:

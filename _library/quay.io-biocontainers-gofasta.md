@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gofasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gofasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gofasta/container.yaml"
-updated_at: "2025-02-03 03:04:27.101288"
+updated_at: "2025-02-03 03:45:13.711951"
 latest: "1.2.1--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/gofasta"
 aliases:
