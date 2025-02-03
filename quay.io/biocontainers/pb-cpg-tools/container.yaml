@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pb-cpg-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pb-cpg-tools
+latest:
+  3.0.0--h9ee0642_0: sha256:c7d4f999b747e4d5c356669086b929e6eda34249d3e8752ede100cb45faaefb4
+tags:
+  3.0.0--h9ee0642_0: sha256:c7d4f999b747e4d5c356669086b929e6eda34249d3e8752ede100cb45faaefb4
+docker: quay.io/biocontainers/pb-cpg-tools
+aliases:
+  aligned_bam_to_cpg_scores: /usr/local/bin/aligned_bam_to_cpg_scores
