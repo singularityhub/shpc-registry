@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/viloca
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viloca
 latest:
-  1.0.0--pyhdfd78af_0: sha256:02a4255b4b47910b0e99b35c9799c1511c3db2ed524230dd529c6f3e569bf73c
+  1.1.0--pyhdfd78af_0: sha256:58fe14c0c6e51500a8e403af67d3bfbfe625c49dc14b4fd8f09cffc885524d52
 tags:
   1.0.0--pyhdfd78af_0: sha256:02a4255b4b47910b0e99b35c9799c1511c3db2ed524230dd529c6f3e569bf73c
+  1.1.0--pyhdfd78af_0: sha256:58fe14c0c6e51500a8e403af67d3bfbfe625c49dc14b4fd8f09cffc885524d52
 docker: quay.io/biocontainers/viloca
 aliases:
   viloca: /usr/local/bin/viloca

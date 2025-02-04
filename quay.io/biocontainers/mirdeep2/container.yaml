@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mirdeep2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirdeep2
 latest:
-  2.0.1.3--hdfd78af_1: sha256:94afd5adf4401fbb5e4890e2330ce911126e12d9fddc9d7aa1424831116ea257
+  2.0.1.3--hdfd78af_2: sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
 tags:
   2.0.1.3--hdfd78af_1: sha256:94afd5adf4401fbb5e4890e2330ce911126e12d9fddc9d7aa1424831116ea257
+  2.0.1.3--hdfd78af_2: sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
 docker: quay.io/biocontainers/mirdeep2
 aliases:
   afetch: /usr/local/bin/afetch
