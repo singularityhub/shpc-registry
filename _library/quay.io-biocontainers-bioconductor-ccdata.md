@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccdata/container.yaml"
-updated_at: "2025-02-03 04:14:17.328656"
+updated_at: "2025-02-04 03:31:38.349302"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccdata"
 aliases:

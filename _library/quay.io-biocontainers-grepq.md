@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/grepq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grepq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grepq/container.yaml"
-updated_at: "2025-02-03 03:47:35.690086"
-latest: "1.4.1--ha6fb395_0"
+updated_at: "2025-02-04 03:05:32.042172"
+latest: "1.4.7--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/grepq"
 aliases:
  - "grepq"
 versions:
  - "1.4.1--ha6fb395_0"
+ - "1.4.7--ha6fb395_0"
 description: "singularity registry hpc automated addition for grepq"
-config: {"url": "https://biocontainers.pro/tools/grepq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grepq", "latest": {"1.4.1--ha6fb395_0": "sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79"}, "tags": {"1.4.1--ha6fb395_0": "sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79"}, "docker": "quay.io/biocontainers/grepq", "aliases": {"grepq": "/usr/local/bin/grepq"}}
+config: {"url": "https://biocontainers.pro/tools/grepq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grepq", "latest": {"1.4.7--ha6fb395_0": "sha256:fd0df0e593a6f0249ff307b3ae87053fe3402b16aba72e956ea3c5de93686ccb"}, "tags": {"1.4.1--ha6fb395_0": "sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79", "1.4.7--ha6fb395_0": "sha256:fd0df0e593a6f0249ff307b3ae87053fe3402b16aba72e956ea3c5de93686ccb"}, "docker": "quay.io/biocontainers/grepq", "aliases": {"grepq": "/usr/local/bin/grepq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grepq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/grepq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grepq:1.4.1--ha6fb395_0
+$ shpc install quay.io/biocontainers/grepq:1.4.7--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grepq/1.4.1--ha6fb395_0
-$ module help quay.io/biocontainers/grepq/1.4.1--ha6fb395_0
+$ module load quay.io/biocontainers/grepq/1.4.7--ha6fb395_0
+$ module help quay.io/biocontainers/grepq/1.4.7--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

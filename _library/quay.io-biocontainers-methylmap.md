@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methylmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylmap/container.yaml"
-updated_at: "2025-02-03 03:36:35.502144"
-latest: "0.5.6--pyhdfd78af_0"
+updated_at: "2025-02-04 02:54:44.520295"
+latest: "0.5.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methylmap"
 aliases:
  - "methylmap"
@@ -27,8 +27,9 @@ versions:
  - "0.4.6--pyhdfd78af_0"
  - "0.5.4--pyhdfd78af_0"
  - "0.5.6--pyhdfd78af_0"
+ - "0.5.11--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for methylmap"
-config: {"url": "https://biocontainers.pro/tools/methylmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methylmap", "latest": {"0.5.6--pyhdfd78af_0": "sha256:63ea5cb9289221893eeb12fb66c062dfa36fc433abe5183279c60116d29667e5"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:0af2ce7c5a46d068487e9db95fb293191b94bffc4b93a9fe79d6349e3064184e", "0.3.5--pyhdfd78af_0": "sha256:a44e134e8f0f65043e12d25d838ee171a88ccbafaf869ed6c80a947b808bb586", "0.4.6--pyhdfd78af_0": "sha256:67432301d9bc04d6167c51dafc8195f785f64515b15393bdd35db0f163e7bdfe", "0.5.4--pyhdfd78af_0": "sha256:d2d61ff12f25ca1b6e6f080f941f05813b1427c36c82a2d7182038d39610999a", "0.5.6--pyhdfd78af_0": "sha256:63ea5cb9289221893eeb12fb66c062dfa36fc433abe5183279c60116d29667e5"}, "docker": "quay.io/biocontainers/methylmap", "aliases": {"methylmap": "/usr/local/bin/methylmap", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/methylmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methylmap", "latest": {"0.5.11--pyhdfd78af_0": "sha256:ce2ca6d0c20e0a9e3665cc2904d09131ee9ece57be4574410d24d9b527f70fb6"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:0af2ce7c5a46d068487e9db95fb293191b94bffc4b93a9fe79d6349e3064184e", "0.3.5--pyhdfd78af_0": "sha256:a44e134e8f0f65043e12d25d838ee171a88ccbafaf869ed6c80a947b808bb586", "0.4.6--pyhdfd78af_0": "sha256:67432301d9bc04d6167c51dafc8195f785f64515b15393bdd35db0f163e7bdfe", "0.5.4--pyhdfd78af_0": "sha256:d2d61ff12f25ca1b6e6f080f941f05813b1427c36c82a2d7182038d39610999a", "0.5.6--pyhdfd78af_0": "sha256:63ea5cb9289221893eeb12fb66c062dfa36fc433abe5183279c60116d29667e5", "0.5.11--pyhdfd78af_0": "sha256:ce2ca6d0c20e0a9e3665cc2904d09131ee9ece57be4574410d24d9b527f70fb6"}, "docker": "quay.io/biocontainers/methylmap", "aliases": {"methylmap": "/usr/local/bin/methylmap", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylmap.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/methylmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methylmap:0.5.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/methylmap:0.5.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methylmap/0.5.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/methylmap/0.5.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/methylmap/0.5.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/methylmap/0.5.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
