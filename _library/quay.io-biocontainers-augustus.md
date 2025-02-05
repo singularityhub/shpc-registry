@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/augustus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/augustus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/augustus/container.yaml"
-updated_at: "2025-02-04 03:20:05.083837"
+updated_at: "2025-02-05 03:23:16.968962"
 latest: "3.5.0--pl5321heb9362c_5"
 container_url: "https://biocontainers.pro/tools/augustus"
 aliases:

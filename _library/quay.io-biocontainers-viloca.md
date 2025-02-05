@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viloca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viloca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viloca/container.yaml"
-updated_at: "2025-02-04 03:04:09.753749"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-02-05 03:07:19.887145"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viloca"
 aliases:
  - "viloca"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for viloca"
-config: {"url": "https://biocontainers.pro/tools/viloca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viloca", "latest": {"1.0.0--pyhdfd78af_0": "sha256:02a4255b4b47910b0e99b35c9799c1511c3db2ed524230dd529c6f3e569bf73c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:02a4255b4b47910b0e99b35c9799c1511c3db2ed524230dd529c6f3e569bf73c"}, "docker": "quay.io/biocontainers/viloca", "aliases": {"viloca": "/usr/local/bin/viloca", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/viloca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viloca", "latest": {"1.1.0--pyhdfd78af_0": "sha256:58fe14c0c6e51500a8e403af67d3bfbfe625c49dc14b4fd8f09cffc885524d52"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:02a4255b4b47910b0e99b35c9799c1511c3db2ed524230dd529c6f3e569bf73c", "1.1.0--pyhdfd78af_0": "sha256:58fe14c0c6e51500a8e403af67d3bfbfe625c49dc14b4fd8f09cffc885524d52"}, "docker": "quay.io/biocontainers/viloca", "aliases": {"viloca": "/usr/local/bin/viloca", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viloca.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/viloca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viloca:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/viloca:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viloca/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/viloca/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/viloca/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/viloca/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

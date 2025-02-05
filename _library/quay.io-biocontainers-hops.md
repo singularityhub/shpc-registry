@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hops/container.yaml"
-updated_at: "2025-02-04 03:27:56.440839"
-latest: "0.35--hdfd78af_1"
+updated_at: "2025-02-05 03:31:16.852162"
+latest: "0.35--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/hops"
 aliases:
  - "MaltExtract"
@@ -25,8 +25,9 @@ aliases:
  - "orbd"
 versions:
  - "0.35--hdfd78af_1"
+ - "0.35--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for hops"
-config: {"url": "https://biocontainers.pro/tools/hops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hops", "latest": {"0.35--hdfd78af_1": "sha256:7b98b7c806032743291c2d113ca6fadb7d6620485d71011d8661f0790ea357c5"}, "tags": {"0.35--hdfd78af_1": "sha256:7b98b7c806032743291c2d113ca6fadb7d6620485d71011d8661f0790ea357c5"}, "docker": "quay.io/biocontainers/hops", "aliases": {"MaltExtract": "/usr/local/bin/MaltExtract", "hops": "/usr/local/bin/hops", "malt-build": "/usr/local/bin/malt-build", "malt-run": "/usr/local/bin/malt-run", "postprocessing.AMPS.r": "/usr/local/bin/postprocessing.AMPS.r", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/hops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hops", "latest": {"0.35--hdfd78af_2": "sha256:d6b35fc4b89e58ec4cc1f7405bb9333b9247b1288332f129d26f704c8b91c1f5"}, "tags": {"0.35--hdfd78af_1": "sha256:7b98b7c806032743291c2d113ca6fadb7d6620485d71011d8661f0790ea357c5", "0.35--hdfd78af_2": "sha256:d6b35fc4b89e58ec4cc1f7405bb9333b9247b1288332f129d26f704c8b91c1f5"}, "docker": "quay.io/biocontainers/hops", "aliases": {"MaltExtract": "/usr/local/bin/MaltExtract", "hops": "/usr/local/bin/hops", "malt-build": "/usr/local/bin/malt-build", "malt-run": "/usr/local/bin/malt-run", "postprocessing.AMPS.r": "/usr/local/bin/postprocessing.AMPS.r", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hops.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/hops
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hops:0.35--hdfd78af_1
+$ shpc install quay.io/biocontainers/hops:0.35--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hops/0.35--hdfd78af_1
-$ module help quay.io/biocontainers/hops/0.35--hdfd78af_1
+$ module load quay.io/biocontainers/hops/0.35--hdfd78af_2
+$ module help quay.io/biocontainers/hops/0.35--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

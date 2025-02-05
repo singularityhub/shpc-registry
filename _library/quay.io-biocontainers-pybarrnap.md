@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybarrnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybarrnap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybarrnap/container.yaml"
-updated_at: "2025-02-04 02:58:43.004591"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2025-02-05 03:01:53.523352"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pybarrnap"
 aliases:
  - "pybarrnap"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.4.1--pyhdfd78af_0"
  - "0.5.0--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pybarrnap"
-config: {"url": "https://biocontainers.pro/tools/pybarrnap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybarrnap", "latest": {"0.5.0--pyhdfd78af_0": "sha256:75e10395646bfca2a245712cc6f5f1d307c20061bf213ca4f6fc008eec8938e9"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:c655d65772907c31d613135beedf40ab27528b060054624635861124838ae464", "0.5.0--pyhdfd78af_0": "sha256:75e10395646bfca2a245712cc6f5f1d307c20061bf213ca4f6fc008eec8938e9"}, "docker": "quay.io/biocontainers/pybarrnap", "aliases": {"pybarrnap": "/usr/local/bin/pybarrnap", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybarrnap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybarrnap", "latest": {"0.5.1--pyhdfd78af_0": "sha256:e89130dd359b71f5f32a5c47bae1988f2edc36422b9176c8dba7b2d97e2fc6e5"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:c655d65772907c31d613135beedf40ab27528b060054624635861124838ae464", "0.5.0--pyhdfd78af_0": "sha256:75e10395646bfca2a245712cc6f5f1d307c20061bf213ca4f6fc008eec8938e9", "0.5.1--pyhdfd78af_0": "sha256:e89130dd359b71f5f32a5c47bae1988f2edc36422b9176c8dba7b2d97e2fc6e5"}, "docker": "quay.io/biocontainers/pybarrnap", "aliases": {"pybarrnap": "/usr/local/bin/pybarrnap", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybarrnap.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pybarrnap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybarrnap:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pybarrnap:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybarrnap/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pybarrnap/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pybarrnap/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pybarrnap/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

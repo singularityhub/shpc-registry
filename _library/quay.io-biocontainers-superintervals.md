@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/superintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superintervals/container.yaml"
-updated_at: "2025-02-04 03:27:45.979393"
-latest: "0.2.5--py310h8ea774a_0"
+updated_at: "2025-02-05 03:31:06.198337"
+latest: "0.2.9--py39he88f293_0"
 container_url: "https://biocontainers.pro/tools/superintervals"
 aliases:
  - "cygdb"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.2.5--py310h8ea774a_0"
  - "0.2.5--py312h9c9b0c2_0"
+ - "0.2.9--py39he88f293_0"
 description: "singularity registry hpc automated addition for superintervals"
-config: {"url": "https://biocontainers.pro/tools/superintervals", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superintervals", "latest": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a"}, "tags": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a", "0.2.5--py312h9c9b0c2_0": "sha256:fbc1b23256e4e7bc97f54468be1e245a2bcb0aa4a7288396ec0d86005d6a5e60"}, "docker": "quay.io/biocontainers/superintervals", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/superintervals", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superintervals", "latest": {"0.2.9--py39he88f293_0": "sha256:34b01c9f414f08c5085f31c9d459a23c7ba95ce216c83eb743f54504929ad2c0"}, "tags": {"0.2.5--py310h8ea774a_0": "sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a", "0.2.5--py312h9c9b0c2_0": "sha256:fbc1b23256e4e7bc97f54468be1e245a2bcb0aa4a7288396ec0d86005d6a5e60", "0.2.9--py39he88f293_0": "sha256:34b01c9f414f08c5085f31c9d459a23c7ba95ce216c83eb743f54504929ad2c0"}, "docker": "quay.io/biocontainers/superintervals", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/superintervals.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/superintervals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/superintervals:0.2.5--py310h8ea774a_0
+$ shpc install quay.io/biocontainers/superintervals:0.2.9--py39he88f293_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/superintervals/0.2.5--py310h8ea774a_0
-$ module help quay.io/biocontainers/superintervals/0.2.5--py310h8ea774a_0
+$ module load quay.io/biocontainers/superintervals/0.2.9--py39he88f293_0
+$ module help quay.io/biocontainers/superintervals/0.2.9--py39he88f293_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

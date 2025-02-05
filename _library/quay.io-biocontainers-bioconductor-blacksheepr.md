@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-blacksheepr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blacksheepr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blacksheepr/container.yaml"
-updated_at: "2025-02-04 03:03:46.573923"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-02-05 03:06:56.681787"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blacksheepr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-blacksheepr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-blacksheepr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blacksheepr", "latest": {"1.16.0--r43hdfd78af_0": "sha256:897bc4f107fe4897ecc22cbb89ffe06f03783606d0baaf77025af4adbe9a336a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0", "1.12.0--r42hdfd78af_0": "sha256:433eff93da9922b1c567b022bcf69ebf7934c7ac305ffd80dd5e676da210c91f", "1.14.0--r43hdfd78af_0": "sha256:060b918cd7518905e6938c57cda88419f98de9b818f7b22c5d02b0bbee656d43", "1.16.0--r43hdfd78af_0": "sha256:897bc4f107fe4897ecc22cbb89ffe06f03783606d0baaf77025af4adbe9a336a"}, "docker": "quay.io/biocontainers/bioconductor-blacksheepr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-blacksheepr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blacksheepr", "latest": {"1.20.0--r44hdfd78af_0": "sha256:61c77f2fa924705989b6fc2bb562346276250a16b85211a59b540fd923413827"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0", "1.12.0--r42hdfd78af_0": "sha256:433eff93da9922b1c567b022bcf69ebf7934c7ac305ffd80dd5e676da210c91f", "1.14.0--r43hdfd78af_0": "sha256:060b918cd7518905e6938c57cda88419f98de9b818f7b22c5d02b0bbee656d43", "1.16.0--r43hdfd78af_0": "sha256:897bc4f107fe4897ecc22cbb89ffe06f03783606d0baaf77025af4adbe9a336a", "1.20.0--r44hdfd78af_0": "sha256:61c77f2fa924705989b6fc2bb562346276250a16b85211a59b540fd923413827"}, "docker": "quay.io/biocontainers/bioconductor-blacksheepr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-blacksheepr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-blacksheepr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-blacksheepr:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-blacksheepr:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-blacksheepr/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-blacksheepr/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-blacksheepr/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-blacksheepr/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
