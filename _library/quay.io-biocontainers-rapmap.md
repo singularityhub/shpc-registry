@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapmap/container.yaml"
-updated_at: "2025-02-05 03:15:45.864953"
+updated_at: "2025-02-06 03:16:00.298833"
 latest: "0.6.0--hd6d6fdc_6"
 container_url: "https://biocontainers.pro/tools/rapmap"
 aliases:

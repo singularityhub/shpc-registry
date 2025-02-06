@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iwtomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iwtomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iwtomics/container.yaml"
-updated_at: "2025-02-05 03:21:05.119116"
+updated_at: "2025-02-06 03:21:19.525817"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iwtomics"
 aliases:

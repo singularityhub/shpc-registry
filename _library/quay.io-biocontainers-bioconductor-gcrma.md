@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcrma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcrma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcrma/container.yaml"
-updated_at: "2025-02-05 02:49:30.248648"
+updated_at: "2025-02-06 02:49:49.915035"
 latest: "2.78.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcrma"
 

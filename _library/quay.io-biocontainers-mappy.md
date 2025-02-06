@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mappy/container.yaml"
-updated_at: "2025-02-05 03:02:20.964510"
+updated_at: "2025-02-06 03:02:43.115323"
 latest: "2.28--py312h4711d71_3"
 container_url: "https://biocontainers.pro/tools/mappy"
 aliases:

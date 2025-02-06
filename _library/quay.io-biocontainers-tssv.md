@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tssv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tssv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tssv/container.yaml"
-updated_at: "2025-02-05 03:25:28.879439"
+updated_at: "2025-02-06 03:25:43.795951"
 latest: "1.1.2--py310h0dbaff4_3"
 container_url: "https://biocontainers.pro/tools/tssv"
 aliases:

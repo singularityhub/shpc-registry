@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-interface-common"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-common/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-common/container.yaml"
-updated_at: "2025-02-05 03:11:32.342073"
+updated_at: "2025-02-06 03:11:52.997739"
 latest: "1.17.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-common"
 aliases:

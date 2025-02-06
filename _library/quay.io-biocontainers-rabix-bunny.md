@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rabix-bunny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabix-bunny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabix-bunny/container.yaml"
-updated_at: "2025-02-05 03:13:37.707305"
+updated_at: "2025-02-06 03:13:55.377612"
 latest: "1.0.4--hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/rabix-bunny"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humantranscriptomecompendium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humantranscriptomecompendium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humantranscriptomecompendium/container.yaml"
-updated_at: "2025-02-05 03:08:21.083767"
+updated_at: "2025-02-06 03:08:41.361249"
 latest: "1.17.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humantranscriptomecompendium"
 aliases:

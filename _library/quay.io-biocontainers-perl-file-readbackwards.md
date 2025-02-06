@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-readbackwards"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-readbackwards/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-readbackwards/container.yaml"
-updated_at: "2025-02-05 03:35:38.792643"
+updated_at: "2025-02-06 03:35:36.211566"
 latest: "1.06--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-readbackwards"
 aliases:

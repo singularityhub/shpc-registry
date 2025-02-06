@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqarray/container.yaml"
-updated_at: "2025-02-05 03:06:44.410548"
+updated_at: "2025-02-06 03:07:05.314437"
 latest: "1.46.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqarray"
 

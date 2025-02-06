@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netcdf-metadata-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netcdf-metadata-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netcdf-metadata-info/container.yaml"
-updated_at: "2025-02-05 03:12:27.557271"
+updated_at: "2025-02-06 03:12:46.275318"
 latest: "1.1.6--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/netcdf-metadata-info"
 aliases:

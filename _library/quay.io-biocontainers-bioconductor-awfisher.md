@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-awfisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-awfisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-awfisher/container.yaml"
-updated_at: "2025-02-05 03:31:24.653235"
+updated_at: "2025-02-06 03:31:29.442592"
 latest: "1.20.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-awfisher"
 
