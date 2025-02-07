@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mummer4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer4/container.yaml"
-updated_at: "2025-02-06 03:32:07.241342"
-latest: "4.0.0beta2--pl526he1b5a44_5"
+updated_at: "2025-02-07 03:36:52.025582"
+latest: "4.0.1--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/mummer4"
 aliases:
  - "delta2vcf"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "4.0.0rc1--pl5321h87f3376_3"
  - "4.0.0beta2--pl526he1b5a44_5"
+ - "4.0.1--pl5321h9948957_0"
 description: "shpc-registry automated BioContainers addition for mummer4"
-config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.0beta2--pl526he1b5a44_5": "sha256:c7c9dae75dc77acf1852b6e29f1c10f502281e801f12035ec1ec924fd8596449"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1", "4.0.0beta2--pl526he1b5a44_5": "sha256:c7c9dae75dc77acf1852b6e29f1c10f502281e801f12035ec1ec924fd8596449"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns"}}
+config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.1--pl5321h9948957_0": "sha256:71cec8dd8e446a6174504ec55c90481a991815ac8cbda95c5cc1661e4bbfa382"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1", "4.0.0beta2--pl526he1b5a44_5": "sha256:c7c9dae75dc77acf1852b6e29f1c10f502281e801f12035ec1ec924fd8596449", "4.0.1--pl5321h9948957_0": "sha256:71cec8dd8e446a6174504ec55c90481a991815ac8cbda95c5cc1661e4bbfa382"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer4.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mummer4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mummer4:4.0.0beta2--pl526he1b5a44_5
+$ shpc install quay.io/biocontainers/mummer4:4.0.1--pl5321h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mummer4/4.0.0beta2--pl526he1b5a44_5
-$ module help quay.io/biocontainers/mummer4/4.0.0beta2--pl526he1b5a44_5
+$ module load quay.io/biocontainers/mummer4/4.0.1--pl5321h9948957_0
+$ module help quay.io/biocontainers/mummer4/4.0.1--pl5321h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

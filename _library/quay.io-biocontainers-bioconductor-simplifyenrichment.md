@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simplifyenrichment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simplifyenrichment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simplifyenrichment/container.yaml"
-updated_at: "2025-02-06 03:20:38.180463"
+updated_at: "2025-02-07 03:24:32.938578"
 latest: "2.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simplifyenrichment"
 

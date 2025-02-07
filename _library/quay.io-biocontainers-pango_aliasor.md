@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pango_aliasor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pango_aliasor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pango_aliasor/container.yaml"
-updated_at: "2025-02-06 03:23:55.658198"
+updated_at: "2025-02-07 03:28:03.585670"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pango_aliasor"
 aliases:

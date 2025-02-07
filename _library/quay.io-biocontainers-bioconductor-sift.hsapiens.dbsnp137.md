@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp137"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp137/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp137/container.yaml"
-updated_at: "2025-02-06 03:28:50.598622"
+updated_at: "2025-02-07 03:33:24.527493"
 latest: "1.0.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-sift.hsapiens.dbsnp137"
 
