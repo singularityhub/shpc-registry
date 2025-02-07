@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/deeplcretrainer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deeplcretrainer
 latest:
-  1.0.1--pyh7e72e81_0: sha256:d57974916591519a4d415944b0209688461d76c084bd266fc322c86c3d85c3ed
+  1.0.2--pyh7e72e81_0: sha256:57a6832d939b00e47f0749a1d5432393abb31b747ca8728ffcef7ed46ab87b02
 tags:
   0.1.17--pyh7cba7a3_0: sha256:207c0ff610fdc8d2ef7c8158afdf435889daf40531467b1c92225970c7c492ab
   0.1.19--pyh7cba7a3_0: sha256:4131c801a8be3e8b058e0aab9b0be431e19f48d071dd08e7091ed7aa4fb601af
@@ -14,6 +14,7 @@ tags:
   0.2.12--pyh7cba7a3_0: sha256:5f40e1c5e8728f419e9736c9e98f31cd32c70e74c2ac97565fc1d7c627bd4c02
   1.0.0--pyh7e72e81_0: sha256:969a779bef5c933683a670de209b07718065e0a6068e06e756e331b023119ecd
   1.0.1--pyh7e72e81_0: sha256:d57974916591519a4d415944b0209688461d76c084bd266fc322c86c3d85c3ed
+  1.0.2--pyh7e72e81_0: sha256:57a6832d939b00e47f0749a1d5432393abb31b747ca8728ffcef7ed46ab87b02
 docker: quay.io/biocontainers/deeplcretrainer
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11
