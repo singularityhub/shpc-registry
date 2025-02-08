@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-copynumber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-copynumber
 latest:
-  1.38.0--r42hdfd78af_0: sha256:7e7081948aeeb68a66236eebb606eeb1c78d39014bcd4c81da495d89b975abbe
+  1.38.0--r44hdfd78af_1: sha256:548e686ddca3cfc21a891a4d3cc039242104a2765821407ad52d859985e8ce7d
 tags:
   1.34.0--r41hdfd78af_0: sha256:90c45c1f7614ae1d90889193736f77f9e1d5db13d7937f7cedce8733ee1bd468
   1.38.0--r42hdfd78af_0: sha256:7e7081948aeeb68a66236eebb606eeb1c78d39014bcd4c81da495d89b975abbe
+  1.38.0--r44hdfd78af_1: sha256:548e686ddca3cfc21a891a4d3cc039242104a2765821407ad52d859985e8ce7d
 docker: quay.io/biocontainers/bioconductor-copynumber
