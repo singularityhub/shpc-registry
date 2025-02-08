@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-mpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-mpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-mpl/container.yaml"
-updated_at: "2025-02-07 03:31:39.026434"
+updated_at: "2025-02-08 03:23:25.682535"
 latest: "0.5--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-mpl"
 aliases:

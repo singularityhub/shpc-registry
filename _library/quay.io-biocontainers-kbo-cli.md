@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kbo-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kbo-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kbo-cli/container.yaml"
-updated_at: "2025-02-07 03:36:13.641955"
+updated_at: "2025-02-08 03:27:45.963960"
 latest: "0.1.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kbo-cli"
 aliases:

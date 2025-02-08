@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbitk/container.yaml"
-updated_at: "2025-02-07 03:21:04.326797"
+updated_at: "2025-02-08 03:13:23.889849"
 latest: "1.0a17--py_0"
 container_url: "https://biocontainers.pro/tools/ncbitk"
 

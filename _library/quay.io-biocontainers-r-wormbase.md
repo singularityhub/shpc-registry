@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wormbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wormbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wormbase/container.yaml"
-updated_at: "2025-02-07 03:38:20.595955"
+updated_at: "2025-02-08 03:29:46.418720"
 latest: "0.5.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-wormbase"
 aliases:

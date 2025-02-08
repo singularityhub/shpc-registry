@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yapc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yapc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yapc/container.yaml"
-updated_at: "2025-02-07 02:51:55.846474"
+updated_at: "2025-02-08 02:44:34.188214"
 latest: "0.1--py_0"
 container_url: "https://biocontainers.pro/tools/yapc"
 aliases:

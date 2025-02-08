@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hybridexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hybridexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hybridexpress/container.yaml"
-updated_at: "2025-02-07 03:28:22.182611"
+updated_at: "2025-02-08 03:20:20.569989"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hybridexpress"
 aliases:
