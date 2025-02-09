@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/fmsi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fmsi
 latest:
-  0.3.1--h077b44d_1: sha256:72ff5e86e89410f338db345da39d4666c1ebee47baaa4f5991024c128e7a8627
+  0.4.0--h077b44d_0: sha256:4c1ecaf3bb55779ce3d2b07f2107a1187af7a2a40696235e69ce7d9c92c3f24b
 tags:
   0.2.4--hdcf5f25_0: sha256:4212e1972eff71367528d7efd4b107cc52a91d60e43e4a018b79798f67d2118d
   0.3.1--hdcf5f25_0: sha256:82a74477f66d00c17ea2b7114bd6fd7d42702c179938c2d9cc6395be2bbe1be7
   0.2.4--hdcf5f25_1: sha256:f33f6d33ce5d1bfde0ee18b79bb01bdcea9a0a9f77d86bc5f3151a2724967419
   0.3.1--h077b44d_1: sha256:72ff5e86e89410f338db345da39d4666c1ebee47baaa4f5991024c128e7a8627
+  0.4.0--h077b44d_0: sha256:4c1ecaf3bb55779ce3d2b07f2107a1187af7a2a40696235e69ce7d9c92c3f24b
 docker: quay.io/biocontainers/fmsi
 aliases:
   fmsi: /usr/local/bin/fmsi

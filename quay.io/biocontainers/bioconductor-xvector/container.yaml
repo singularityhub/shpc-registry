@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-xvector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xvector
 latest:
-  0.46.0--r44h15a9599_0: sha256:afbb2afdd899d0871c33ecad2c337ccaeec6d63bf08ade3b9437eaa6da114bc4
+  0.46.0--r44h15a9599_2: sha256:2f71e4597e17e47511fde203d2f13af49c771ce1a6f45cb9d00bea5554b4f083
 tags:
   0.34.0--r41hc0cfd56_2: sha256:0d5fa322944c3a1c44b9c19cb5c5f817666a438f3abc6c1c6d99671ec26ae39c
   0.38.0--r42hc0cfd56_0: sha256:72131b05741c1ec091bc34e0d6d709f7315ae09b5c674b597d492cfa89ed3623
@@ -11,4 +11,5 @@ tags:
   0.42.0--r43ha9d7317_1: sha256:2f2b174d32e09f30522c18c7a56271f1abc4621b5c052e7e0570ffc4c1057bac
   0.42.0--r43ha9d7317_2: sha256:a9058107aea84d4123f4d2a62fb048a5311c180c7bd124f2e3d64b51a04b7720
   0.46.0--r44h15a9599_0: sha256:afbb2afdd899d0871c33ecad2c337ccaeec6d63bf08ade3b9437eaa6da114bc4
+  0.46.0--r44h15a9599_2: sha256:2f71e4597e17e47511fde203d2f13af49c771ce1a6f45cb9d00bea5554b4f083
 docker: quay.io/biocontainers/bioconductor-xvector

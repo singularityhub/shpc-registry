@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/quatradis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quatradis
 latest:
-  1.3.2--py311haab0aaa_1: sha256:98cc4586ba7c00aa3147724ec85ba961b04a4bab6bed3d4348512397529190a2
+  1.3.3--py39hbcbf7aa_0: sha256:7bf04632a4471d10a5d0a1b08686c2b645624cd472662197a1a72b59716c7fd5
 tags:
   0.8.3--pyhdfd78af_0: sha256:c1fceccc024b64783e6c5aa38e2cb78f09ae21c96a9049d6c30308d15c88101c
   1.0.1--py310hec16e2b_0: sha256:75fdd8ef18b003465a7ced4769c38e7333d597cab5dc75c32a010b5bd07178d9
@@ -13,6 +13,7 @@ tags:
   1.3.0--py310h031d066_0: sha256:1e7f4d952b8fd3ce88988af47b8ed3e7a6b90c9bd1731d15fe46f7ff235ac5db
   1.3.1--py38h0020b31_0: sha256:58446364815dba8adf477fbbfb87c163df5653f5298c1342f5b66b303ffb5014
   1.3.2--py311haab0aaa_1: sha256:98cc4586ba7c00aa3147724ec85ba961b04a4bab6bed3d4348512397529190a2
+  1.3.3--py39hbcbf7aa_0: sha256:7bf04632a4471d10a5d0a1b08686c2b645624cd472662197a1a72b59716c7fd5
 docker: quay.io/biocontainers/quatradis
 aliases:
   basqcol: /usr/local/bin/basqcol
