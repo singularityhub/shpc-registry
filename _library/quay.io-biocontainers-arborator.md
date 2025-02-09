@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arborator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arborator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arborator/container.yaml"
-updated_at: "2025-02-08 02:57:35.238012"
-latest: "1.0.0--pyhdfd78af_1"
+updated_at: "2025-02-09 03:03:47.180241"
+latest: "1.0.0--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/arborator"
 aliases:
  - "arborator"
@@ -38,8 +38,9 @@ aliases:
  - "io_demo"
 versions:
  - "1.0.0--pyhdfd78af_1"
+ - "1.0.0--pyhdfd78af_3"
 description: "singularity registry hpc automated addition for arborator"
-config: {"url": "https://biocontainers.pro/tools/arborator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for arborator", "latest": {"1.0.0--pyhdfd78af_1": "sha256:be154ce9cdd3f34454de606e699b7a7b0d301698f360c71244089af8875fd71e"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:be154ce9cdd3f34454de606e699b7a7b0d301698f360c71244089af8875fd71e"}, "docker": "quay.io/biocontainers/arborator", "aliases": {"arborator": "/usr/local/bin/arborator", "gas": "/usr/local/bin/gas", "profile_dists": "/usr/local/bin/profile_dists", "cpuinfo": "/usr/local/bin/cpuinfo", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "cmtime": "/usr/local/bin/cmtime", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "io_demo": "/usr/local/bin/io_demo"}}
+config: {"url": "https://biocontainers.pro/tools/arborator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for arborator", "latest": {"1.0.0--pyhdfd78af_3": "sha256:eb0f51aead91f40a0fd44a7c3fe758cc8c901ff6a48a8d2420ed4a20f4ee028b"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:be154ce9cdd3f34454de606e699b7a7b0d301698f360c71244089af8875fd71e", "1.0.0--pyhdfd78af_3": "sha256:eb0f51aead91f40a0fd44a7c3fe758cc8c901ff6a48a8d2420ed4a20f4ee028b"}, "docker": "quay.io/biocontainers/arborator", "aliases": {"arborator": "/usr/local/bin/arborator", "gas": "/usr/local/bin/gas", "profile_dists": "/usr/local/bin/profile_dists", "cpuinfo": "/usr/local/bin/cpuinfo", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "cmtime": "/usr/local/bin/cmtime", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "io_demo": "/usr/local/bin/io_demo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arborator.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/arborator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arborator:1.0.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/arborator:1.0.0--pyhdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arborator/1.0.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/arborator/1.0.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/arborator/1.0.0--pyhdfd78af_3
+$ module help quay.io/biocontainers/arborator/1.0.0--pyhdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

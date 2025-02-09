@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dendropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dendropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dendropy/container.yaml"
-updated_at: "2025-02-08 03:05:50.813525"
-latest: "5.0.1--pyhdfd78af_0"
+updated_at: "2025-02-09 03:10:58.707908"
+latest: "5.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dendropy"
 aliases:
  - "dendropy-format"
@@ -21,8 +21,9 @@ versions:
  - "4.6.0--pyh7cba7a3_0"
  - "4.6.1--pyhdfd78af_0"
  - "5.0.1--pyhdfd78af_0"
+ - "5.0.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dendropy"
-config: {"url": "https://biocontainers.pro/tools/dendropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dendropy", "latest": {"5.0.1--pyhdfd78af_0": "sha256:744606432b791823e9f71bd8a1b5520e29385775f8812051106de9b8039afdae"}, "tags": {"4.5.2--pyh3252c3a_0": "sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0", "4.6.0--pyh7cba7a3_0": "sha256:1778413bbf7b564ce868a80e0af58ab32b93c8b23efe6539fe3000a6ca1ff099", "4.6.1--pyhdfd78af_0": "sha256:f1312713487965ae3470c0ebb6d4e8d0617e55837be3adc8f29aca45a22f5469", "5.0.1--pyhdfd78af_0": "sha256:744606432b791823e9f71bd8a1b5520e29385775f8812051106de9b8039afdae"}, "docker": "quay.io/biocontainers/dendropy", "aliases": {"dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/dendropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dendropy", "latest": {"5.0.6--pyhdfd78af_0": "sha256:96c391d7e2bbd464406d63d9edbb66bc16e6f96a1ad433981761efa5994c29a9"}, "tags": {"4.5.2--pyh3252c3a_0": "sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0", "4.6.0--pyh7cba7a3_0": "sha256:1778413bbf7b564ce868a80e0af58ab32b93c8b23efe6539fe3000a6ca1ff099", "4.6.1--pyhdfd78af_0": "sha256:f1312713487965ae3470c0ebb6d4e8d0617e55837be3adc8f29aca45a22f5469", "5.0.1--pyhdfd78af_0": "sha256:744606432b791823e9f71bd8a1b5520e29385775f8812051106de9b8039afdae", "5.0.6--pyhdfd78af_0": "sha256:96c391d7e2bbd464406d63d9edbb66bc16e6f96a1ad433981761efa5994c29a9"}, "docker": "quay.io/biocontainers/dendropy", "aliases": {"dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dendropy.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/dendropy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dendropy:5.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dendropy:5.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dendropy/5.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/dendropy/5.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/dendropy/5.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/dendropy/5.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plothic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plothic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plothic/container.yaml"
-updated_at: "2025-02-08 03:18:45.374926"
-latest: "0.4.17--pyh684dba6_0"
+updated_at: "2025-02-09 03:22:57.703004"
+latest: "0.4.18--pyh684dba6_0"
 container_url: "https://biocontainers.pro/tools/plothic"
 aliases:
  - "plothic"
@@ -33,8 +33,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.4.17--pyh684dba6_0"
+ - "0.4.18--pyh684dba6_0"
 description: "singularity registry hpc automated addition for plothic"
-config: {"url": "https://biocontainers.pro/tools/plothic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plothic", "latest": {"0.4.17--pyh684dba6_0": "sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64"}, "tags": {"0.4.17--pyh684dba6_0": "sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64"}, "docker": "quay.io/biocontainers/plothic", "aliases": {"plothic": "/usr/local/bin/plothic", "pybind11-config": "/usr/local/bin/pybind11-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/plothic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plothic", "latest": {"0.4.18--pyh684dba6_0": "sha256:7184591be9d212fc2fbcdb5130a170b799a75f66d72815271057feaf740d0a9c"}, "tags": {"0.4.17--pyh684dba6_0": "sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64", "0.4.18--pyh684dba6_0": "sha256:7184591be9d212fc2fbcdb5130a170b799a75f66d72815271057feaf740d0a9c"}, "docker": "quay.io/biocontainers/plothic", "aliases": {"plothic": "/usr/local/bin/plothic", "pybind11-config": "/usr/local/bin/pybind11-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plothic.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/plothic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plothic:0.4.17--pyh684dba6_0
+$ shpc install quay.io/biocontainers/plothic:0.4.18--pyh684dba6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plothic/0.4.17--pyh684dba6_0
-$ module help quay.io/biocontainers/plothic/0.4.17--pyh684dba6_0
+$ module load quay.io/biocontainers/plothic/0.4.18--pyh684dba6_0
+$ module help quay.io/biocontainers/plothic/0.4.18--pyh684dba6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
