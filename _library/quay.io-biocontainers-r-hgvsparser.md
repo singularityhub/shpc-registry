@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hgvsparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hgvsparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hgvsparser/container.yaml"
-updated_at: "2025-02-09 02:54:29.495146"
+updated_at: "2025-02-10 02:54:39.547574"
 latest: "0.1.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-hgvsparser"
 aliases:

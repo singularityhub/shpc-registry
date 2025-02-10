@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snaketool-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snaketool-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snaketool-utils/container.yaml"
-updated_at: "2025-02-09 02:53:58.985936"
+updated_at: "2025-02-10 02:54:07.305050"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snaketool-utils"
 aliases:

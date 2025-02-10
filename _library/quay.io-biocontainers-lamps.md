@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lamps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lamps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lamps/container.yaml"
-updated_at: "2025-02-09 03:35:02.082207"
+updated_at: "2025-02-10 03:38:53.331379"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lamps"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dialign-tx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dialign-tx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dialign-tx/container.yaml"
-updated_at: "2025-02-09 03:10:09.869789"
-latest: "1.0.2--hec16e2b_5"
+updated_at: "2025-02-10 03:12:20.289510"
+latest: "1.0.2--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/dialign-tx"
 aliases:
  - "dialign-tx"
 versions:
  - "1.0.2--hec16e2b_5"
+ - "1.0.2--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for dialign-tx"
-config: {"url": "https://biocontainers.pro/tools/dialign-tx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dialign-tx", "latest": {"1.0.2--hec16e2b_5": "sha256:09819873b45fd58db86e324ad05489bf4b4ce799ab62e733e2b098f500acc675"}, "tags": {"1.0.2--hec16e2b_5": "sha256:09819873b45fd58db86e324ad05489bf4b4ce799ab62e733e2b098f500acc675"}, "docker": "quay.io/biocontainers/dialign-tx", "aliases": {"dialign-tx": "/usr/local/bin/dialign-tx"}}
+config: {"url": "https://biocontainers.pro/tools/dialign-tx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dialign-tx", "latest": {"1.0.2--h7b50bb2_8": "sha256:87f81a252ba26590ff69a0906dd05176f84a320143eb7c96c05c335487a5413a"}, "tags": {"1.0.2--hec16e2b_5": "sha256:09819873b45fd58db86e324ad05489bf4b4ce799ab62e733e2b098f500acc675", "1.0.2--h7b50bb2_8": "sha256:87f81a252ba26590ff69a0906dd05176f84a320143eb7c96c05c335487a5413a"}, "docker": "quay.io/biocontainers/dialign-tx", "aliases": {"dialign-tx": "/usr/local/bin/dialign-tx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dialign-tx.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dialign-tx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dialign-tx:1.0.2--hec16e2b_5
+$ shpc install quay.io/biocontainers/dialign-tx:1.0.2--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dialign-tx/1.0.2--hec16e2b_5
-$ module help quay.io/biocontainers/dialign-tx/1.0.2--hec16e2b_5
+$ module load quay.io/biocontainers/dialign-tx/1.0.2--h7b50bb2_8
+$ module help quay.io/biocontainers/dialign-tx/1.0.2--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

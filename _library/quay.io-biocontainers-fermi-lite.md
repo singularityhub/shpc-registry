@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fermi-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fermi-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fermi-lite/container.yaml"
-updated_at: "2025-02-09 03:35:48.609907"
+updated_at: "2025-02-10 03:39:43.863114"
 latest: "0.1--h577a1d6_8"
 container_url: "https://biocontainers.pro/tools/fermi-lite"
 aliases:

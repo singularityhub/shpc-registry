@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kinex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinex/container.yaml"
-updated_at: "2025-02-09 03:35:27.856338"
+updated_at: "2025-02-10 03:39:21.135970"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kinex"
 aliases:

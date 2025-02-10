@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annembed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annembed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annembed/container.yaml"
-updated_at: "2025-02-09 03:31:22.942977"
-latest: "0.1.7--h503566f_1"
+updated_at: "2025-02-10 03:35:01.770765"
+latest: "0.1.9--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/annembed"
 aliases:
  - "annembed"
@@ -15,8 +15,9 @@ versions:
  - "0.1.4--hdbdd923_0"
  - "0.1.7--hdbdd923_0"
  - "0.1.7--h503566f_1"
+ - "0.1.9--h3ab6199_0"
 description: "singularity registry hpc automated addition for annembed"
-config: {"url": "https://biocontainers.pro/tools/annembed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annembed", "latest": {"0.1.7--h503566f_1": "sha256:380bcfed8d6fe4f1f09d477cca7f874c03caed1997bcb9a6fcea79a0bc9296d6"}, "tags": {"0.1.1--hdbdd923_0": "sha256:076f6e8d4dee428ac1a14e199fa64031735fca3b82e3366a5ea1bdcd4f7b929f", "0.1.2--hdbdd923_0": "sha256:35c900ef8a6e810d727a52c12ec21edda84c8e89c17633517990c9ac620cad2b", "0.1.4--hdbdd923_0": "sha256:d7caaaa5da81d9b5914d63030316d396d7260bd85969009c2ef6607c386479cf", "0.1.7--hdbdd923_0": "sha256:30b4285a24890b89b773c3e1bb021c67c6a17be2c2d34607e31724ececd104cd", "0.1.7--h503566f_1": "sha256:380bcfed8d6fe4f1f09d477cca7f874c03caed1997bcb9a6fcea79a0bc9296d6"}, "docker": "quay.io/biocontainers/annembed", "aliases": {"annembed": "/usr/local/bin/annembed"}}
+config: {"url": "https://biocontainers.pro/tools/annembed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annembed", "latest": {"0.1.9--h3ab6199_0": "sha256:b2d83234af9d1b295b3d03cc3fd4ec5621a34ee86f5101feac99d4063f8cb5f1"}, "tags": {"0.1.1--hdbdd923_0": "sha256:076f6e8d4dee428ac1a14e199fa64031735fca3b82e3366a5ea1bdcd4f7b929f", "0.1.2--hdbdd923_0": "sha256:35c900ef8a6e810d727a52c12ec21edda84c8e89c17633517990c9ac620cad2b", "0.1.4--hdbdd923_0": "sha256:d7caaaa5da81d9b5914d63030316d396d7260bd85969009c2ef6607c386479cf", "0.1.7--hdbdd923_0": "sha256:30b4285a24890b89b773c3e1bb021c67c6a17be2c2d34607e31724ececd104cd", "0.1.7--h503566f_1": "sha256:380bcfed8d6fe4f1f09d477cca7f874c03caed1997bcb9a6fcea79a0bc9296d6", "0.1.9--h3ab6199_0": "sha256:b2d83234af9d1b295b3d03cc3fd4ec5621a34ee86f5101feac99d4063f8cb5f1"}, "docker": "quay.io/biocontainers/annembed", "aliases": {"annembed": "/usr/local/bin/annembed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annembed.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/annembed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annembed:0.1.7--h503566f_1
+$ shpc install quay.io/biocontainers/annembed:0.1.9--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annembed/0.1.7--h503566f_1
-$ module help quay.io/biocontainers/annembed/0.1.7--h503566f_1
+$ module load quay.io/biocontainers/annembed/0.1.9--h3ab6199_0
+$ module help quay.io/biocontainers/annembed/0.1.9--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

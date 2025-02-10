@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grepq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grepq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grepq/container.yaml"
-updated_at: "2025-02-09 03:10:02.925616"
+updated_at: "2025-02-10 03:12:12.835864"
 latest: "1.4.7--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/grepq"
 aliases:
