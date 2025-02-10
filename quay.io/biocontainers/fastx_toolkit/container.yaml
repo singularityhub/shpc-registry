@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fastx_toolkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastx_toolkit
 latest:
-  0.0.14--h503566f_12: sha256:4b4e82b3021483f2e66d8cc976aee3b8c6357b690f3cf53696e80821e885a481
+  0.0.14--h503566f_13: sha256:e77971885e7670fde021856a07edfdc140856eb326ae80185cc0ed625bc02663
 tags:
   0.0.14--he1b5a44_8: sha256:5bcaaf32774ab17dcd0da00d1f0298487c2ed0079302ff4a3a94fcc14e995e91
   0.0.14--h87f3376_10: sha256:ce4316e55413966f2dd1993936b86dbd488ba6f17c9044eefd2fa2e41f220a70
   0.0.14--hdbdd923_11: sha256:da06a6b2e5984f34d2686c7399d37102859a393eadf65bc701aca9a025089742
   0.0.14--h503566f_12: sha256:4b4e82b3021483f2e66d8cc976aee3b8c6357b690f3cf53696e80821e885a481
+  0.0.14--h503566f_13: sha256:e77971885e7670fde021856a07edfdc140856eb326ae80185cc0ed625bc02663
 docker: quay.io/biocontainers/fastx_toolkit

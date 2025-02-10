@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/transannot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for transannot
 latest:
-  3.70b2a60--pl5321h6a68c12_1: sha256:28418c3d7716512fd79b9b1555584466268545b1e90eb7d765a3755598543110
+  4.0.0--pl5321hd6d6fdc_2: sha256:9de6c9c641e97ee699450b88e8dfd7276e8f27d29fa3553b741be052b5f7c87e
 tags:
   1.fa9ebab--pl5321h6a68c12_0: sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51
   3.70b2a60--pl5321h6a68c12_1: sha256:28418c3d7716512fd79b9b1555584466268545b1e90eb7d765a3755598543110
   3.7f1c8e1--pl5321h6a68c12_0: sha256:0178bd67085296f626062265842df772e2c66df4b727010df7730fa439c72308
   3.0.0--h6a68c12_0: sha256:701f2d0e401170d7849cd9586da030d53eaf69abdc1614b7f3c34d1da2beda7f
   3.0.0--hd6d6fdc_1: sha256:9948594b353ede293c849ccb59ef6cb80be98dba51ebbebdb2814b540dc42032
+  4.0.0--pl5321hd6d6fdc_2: sha256:9de6c9c641e97ee699450b88e8dfd7276e8f27d29fa3553b741be052b5f7c87e
 docker: quay.io/biocontainers/transannot
 aliases:
   transannot: /usr/local/bin/transannot

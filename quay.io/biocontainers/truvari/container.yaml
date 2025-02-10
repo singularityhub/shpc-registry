@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/truvari
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for truvari
 latest:
-  5.0.0--pyhdfd78af_0: sha256:25b446537d1bc96725b4042a4fc1f6a688e8381825ee6635bc1e45cb3c5777e4
+  5.1.1--pyhdfd78af_0: sha256:287844ffd531f9e04c1bcb48acc003238cd86e35e2d715c049cafb3b3cd91976
 tags:
   3.5.0--pyhdfd78af_0: sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3
   4.0.0--pyhdfd78af_0: sha256:ae370f515fe240679b2bc151f7e2c2db5a9e704ee811acd85a1c882f2170b808
@@ -12,6 +12,7 @@ tags:
   4.3.0--pyhdfd78af_0: sha256:31e29dd2d82d2146c4960648c30cc0bcead44763dbaa7b867bf006a101b721b3
   4.3.1--pyhdfd78af_0: sha256:e4ecb26232ca0a7b6811da29f57c42ccdbaf99fefe291c5728c3c347bd895c8f
   5.0.0--pyhdfd78af_0: sha256:25b446537d1bc96725b4042a4fc1f6a688e8381825ee6635bc1e45cb3c5777e4
+  5.1.1--pyhdfd78af_0: sha256:287844ffd531f9e04c1bcb48acc003238cd86e35e2d715c049cafb3b3cd91976
 docker: quay.io/biocontainers/truvari
 aliases:
   bwamempy: /usr/local/bin/bwamempy

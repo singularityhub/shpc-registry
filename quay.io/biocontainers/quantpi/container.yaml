@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quantpi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quantpi
 latest:
-  0.2.0--pyh5e36f6f_0: sha256:bac071f4a5508e72ba978b9f7bf7d352871d81f94c2f3933b5115d4955337dd3
+  1.0.0--pyh7e72e81_0: sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
 tags:
   0.2.0--pyh5e36f6f_0: sha256:bac071f4a5508e72ba978b9f7bf7d352871d81f94c2f3933b5115d4955337dd3
+  1.0.0--pyh7e72e81_0: sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
 docker: quay.io/biocontainers/quantpi
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/calisp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for calisp
 latest:
-  3.0.13--pyhdfd78af_0: sha256:fd51a37bf145f28332c54018afdfc7d66e83b9d1fd621057573e620773047c5a
+  3.1--pyhdfd78af_0: sha256:da99ed2c4c8a984ae4d285aac5470fff9de17c286fb40051e749eeed90c095cb
 tags:
   3.0.11--pyhdfd78af_0: sha256:35019850b5cddbbc69b3f8606ac25c5c437fba45cce4ee4b0cc64e2667bc0277
   3.0.12--pyhdfd78af_0: sha256:66b4871afca632e516d69d85b3788a30f2ea8da4c5c5104bbdd2a190eb6f91a8
   3.0.13--pyhdfd78af_0: sha256:fd51a37bf145f28332c54018afdfc7d66e83b9d1fd621057573e620773047c5a
+  3.1--pyhdfd78af_0: sha256:da99ed2c4c8a984ae4d285aac5470fff9de17c286fb40051e749eeed90c095cb
 docker: quay.io/biocontainers/calisp
 aliases:
   calisp: /usr/local/bin/calisp
