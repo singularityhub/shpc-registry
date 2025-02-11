@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-badregionfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-badregionfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-badregionfinder/container.yaml"
-updated_at: "2025-02-10 03:01:00.829660"
+updated_at: "2025-02-11 03:00:15.383838"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-badregionfinder"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ramigo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ramigo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ramigo/container.yaml"
-updated_at: "2025-02-10 02:57:49.225475"
+updated_at: "2025-02-11 02:57:20.002890"
 latest: "1.28.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ramigo"
 aliases:

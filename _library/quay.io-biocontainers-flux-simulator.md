@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flux-simulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flux-simulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flux-simulator/container.yaml"
-updated_at: "2025-02-10 02:54:12.624838"
+updated_at: "2025-02-11 02:53:58.752867"
 latest: "1.2.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/flux-simulator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-crmn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crmn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crmn/container.yaml"
-updated_at: "2025-02-10 03:23:39.437425"
+updated_at: "2025-02-11 03:22:14.379929"
 latest: "0.0.21--r43h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-crmn"
 aliases:

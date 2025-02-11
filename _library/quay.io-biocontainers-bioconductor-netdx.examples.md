@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netdx.examples"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netdx.examples/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netdx.examples/container.yaml"
-updated_at: "2025-02-10 02:55:54.951547"
+updated_at: "2025-02-11 02:55:38.154381"
 latest: "0.99.3--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netdx.examples"
 aliases:

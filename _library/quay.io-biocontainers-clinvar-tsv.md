@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clinvar-tsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinvar-tsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinvar-tsv/container.yaml"
-updated_at: "2025-02-10 03:23:17.133533"
+updated_at: "2025-02-11 03:21:52.008703"
 latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clinvar-tsv"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eukcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukcc/container.yaml"
-updated_at: "2025-02-10 02:52:03.591900"
-latest: "2.1.0--pypyhdfd78af_0"
+updated_at: "2025-02-11 02:51:48.913756"
+latest: "2.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eukcc"
 aliases:
  - "binlinks.py"
@@ -26,8 +26,9 @@ aliases:
  - "qdistancefieldgenerator"
 versions:
  - "2.1.0--pypyhdfd78af_0"
+ - "2.1.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for eukcc"
-config: {"url": "https://biocontainers.pro/tools/eukcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukcc", "latest": {"2.1.0--pypyhdfd78af_0": "sha256:5d12324186ac9d29b62326338aba059c97e51094fc51e87447f61d0b46cb96d4"}, "tags": {"2.1.0--pypyhdfd78af_0": "sha256:5d12324186ac9d29b62326338aba059c97e51094fc51e87447f61d0b46cb96d4"}, "docker": "quay.io/biocontainers/eukcc", "aliases": {"binlinks.py": "/usr/local/bin/binlinks.py", "epa-ng": "/usr/local/bin/epa-ng", "eukcc": "/usr/local/bin/eukcc", "filter_euk_bins.py": "/usr/local/bin/filter_euk_bins.py", "metaeuk": "/usr/local/bin/metaeuk", "shared_markers": "/usr/local/bin/shared_markers", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "ete3": "/usr/local/bin/ete3", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "xkbcli": "/usr/local/bin/xkbcli", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator"}}
+config: {"url": "https://biocontainers.pro/tools/eukcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukcc", "latest": {"2.1.3--pyhdfd78af_0": "sha256:2a09217a7754353fb7f05cd0318d204d3c756c8f7a8f2957ebfa85e566ebb65a"}, "tags": {"2.1.0--pypyhdfd78af_0": "sha256:5d12324186ac9d29b62326338aba059c97e51094fc51e87447f61d0b46cb96d4", "2.1.3--pyhdfd78af_0": "sha256:2a09217a7754353fb7f05cd0318d204d3c756c8f7a8f2957ebfa85e566ebb65a"}, "docker": "quay.io/biocontainers/eukcc", "aliases": {"binlinks.py": "/usr/local/bin/binlinks.py", "epa-ng": "/usr/local/bin/epa-ng", "eukcc": "/usr/local/bin/eukcc", "filter_euk_bins.py": "/usr/local/bin/filter_euk_bins.py", "metaeuk": "/usr/local/bin/metaeuk", "shared_markers": "/usr/local/bin/shared_markers", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "ete3": "/usr/local/bin/ete3", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "xkbcli": "/usr/local/bin/xkbcli", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukcc.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/eukcc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eukcc:2.1.0--pypyhdfd78af_0
+$ shpc install quay.io/biocontainers/eukcc:2.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eukcc/2.1.0--pypyhdfd78af_0
-$ module help quay.io/biocontainers/eukcc/2.1.0--pypyhdfd78af_0
+$ module load quay.io/biocontainers/eukcc/2.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/eukcc/2.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

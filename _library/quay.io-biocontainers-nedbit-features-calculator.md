@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nedbit-features-calculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nedbit-features-calculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nedbit-features-calculator/container.yaml"
-updated_at: "2025-02-10 03:15:09.868999"
+updated_at: "2025-02-11 03:13:51.362014"
 latest: "1.2--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/nedbit-features-calculator"
 aliases:

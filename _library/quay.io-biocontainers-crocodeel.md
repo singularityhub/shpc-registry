@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crocodeel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crocodeel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crocodeel/container.yaml"
-updated_at: "2025-02-10 03:02:22.165148"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2025-02-11 03:01:28.820713"
+latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crocodeel"
 aliases:
  - "crocodeel"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.5--pyhdfd78af_0"
+ - "1.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crocodeel"
-config: {"url": "https://biocontainers.pro/tools/crocodeel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crocodeel", "latest": {"1.0.5--pyhdfd78af_0": "sha256:1cb710d3c09fb2366ffbdba2f83cb36ecee379d2441680acc1c2e3774052efca"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:057f6ae1954a735fc71109effd1373148400cf4ffd3c0b1820e289703ea2a988", "1.0.5--pyhdfd78af_0": "sha256:1cb710d3c09fb2366ffbdba2f83cb36ecee379d2441680acc1c2e3774052efca"}, "docker": "quay.io/biocontainers/crocodeel", "aliases": {"crocodeel": "/usr/local/bin/crocodeel", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/crocodeel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crocodeel", "latest": {"1.0.6--pyhdfd78af_0": "sha256:ed3d98055883265ae4ab86b8f393af842f0bf43e132fadcad309850c4422806c"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:057f6ae1954a735fc71109effd1373148400cf4ffd3c0b1820e289703ea2a988", "1.0.5--pyhdfd78af_0": "sha256:1cb710d3c09fb2366ffbdba2f83cb36ecee379d2441680acc1c2e3774052efca", "1.0.6--pyhdfd78af_0": "sha256:ed3d98055883265ae4ab86b8f393af842f0bf43e132fadcad309850c4422806c"}, "docker": "quay.io/biocontainers/crocodeel", "aliases": {"crocodeel": "/usr/local/bin/crocodeel", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crocodeel.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/crocodeel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crocodeel:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crocodeel:1.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crocodeel/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/crocodeel/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/crocodeel/1.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/crocodeel/1.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

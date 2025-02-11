@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssu-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssu-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssu-align/container.yaml"
-updated_at: "2025-02-10 03:07:31.640690"
+updated_at: "2025-02-11 03:06:23.858077"
 latest: "0.1.1--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/ssu-align"
 aliases:

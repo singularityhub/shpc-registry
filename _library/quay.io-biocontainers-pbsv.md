@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbsv/container.yaml"
-updated_at: "2025-02-10 03:38:01.847569"
+updated_at: "2025-02-11 03:36:36.124520"
 latest: "2.10.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbsv"
 aliases:
