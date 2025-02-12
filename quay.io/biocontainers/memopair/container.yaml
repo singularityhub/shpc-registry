@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/memopair
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for memopair
 latest:
-  0.1.5--h4349ce8_0: sha256:3d23547407241f4dd5c822db78e152e3e220cc8ebc1c424bc35c726f73254ff5
+  0.1.6--h4349ce8_0: sha256:fbb586237575957d3986ab38023eb86bbec42b981d88e92b9e74f3cd538ebf8f
 tags:
   0.1.5--h4349ce8_0: sha256:3d23547407241f4dd5c822db78e152e3e220cc8ebc1c424bc35c726f73254ff5
+  0.1.6--h4349ce8_0: sha256:fbb586237575957d3986ab38023eb86bbec42b981d88e92b9e74f3cd538ebf8f
 docker: quay.io/biocontainers/memopair
 aliases:
   memopair: /usr/local/bin/memopair
