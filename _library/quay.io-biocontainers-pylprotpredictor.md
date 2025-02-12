@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylprotpredictor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylprotpredictor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylprotpredictor/container.yaml"
-updated_at: "2025-02-11 03:13:15.819433"
+updated_at: "2025-02-12 03:12:20.900501"
 latest: "1.0.2--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/pylprotpredictor"
 aliases:

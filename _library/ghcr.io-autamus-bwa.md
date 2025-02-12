@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bwa/container.yaml"
-updated_at: "2025-02-11 02:51:10.227290"
+updated_at: "2025-02-12 02:49:51.609477"
 latest: "0.7.17"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bwa"
 aliases:

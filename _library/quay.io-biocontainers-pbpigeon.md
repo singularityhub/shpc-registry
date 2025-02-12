@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbpigeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbpigeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbpigeon/container.yaml"
-updated_at: "2025-02-11 03:13:24.630934"
+updated_at: "2025-02-12 03:12:29.829328"
 latest: "1.3.0--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pbpigeon"
 aliases:

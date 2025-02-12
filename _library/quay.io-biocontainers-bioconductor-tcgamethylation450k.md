@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgamethylation450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgamethylation450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgamethylation450k/container.yaml"
-updated_at: "2025-02-11 03:23:31.954095"
+updated_at: "2025-02-12 03:22:45.041835"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgamethylation450k"
 

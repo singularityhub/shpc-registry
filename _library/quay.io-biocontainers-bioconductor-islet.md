@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-islet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-islet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-islet/container.yaml"
-updated_at: "2025-02-11 03:04:33.784126"
+updated_at: "2025-02-12 03:03:31.313598"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-islet"
 aliases:

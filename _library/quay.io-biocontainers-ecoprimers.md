@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecoprimers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecoprimers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecoprimers/container.yaml"
-updated_at: "2025-02-11 03:37:13.260127"
+updated_at: "2025-02-12 03:36:42.917945"
 latest: "1.0--h577a1d6_8"
 container_url: "https://biocontainers.pro/tools/ecoprimers"
 aliases:

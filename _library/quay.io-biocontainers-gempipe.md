@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gempipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gempipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gempipe/container.yaml"
-updated_at: "2025-02-11 03:11:02.294285"
+updated_at: "2025-02-12 03:10:05.953526"
 latest: "1.37.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gempipe"
 aliases:

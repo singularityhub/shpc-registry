@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geodl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geodl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geodl/container.yaml"
-updated_at: "2025-02-11 03:16:41.047353"
+updated_at: "2025-02-12 03:15:49.113958"
 latest: "1.0b5.1--py_1"
 container_url: "https://biocontainers.pro/tools/geodl"
 aliases:

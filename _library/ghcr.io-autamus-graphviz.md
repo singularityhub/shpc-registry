@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/graphviz/container.yaml"
-updated_at: "2025-02-11 02:51:07.132801"
+updated_at: "2025-02-12 02:49:48.455490"
 latest: "2.49.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/graphviz"
 aliases:

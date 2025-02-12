@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioservices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioservices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioservices/container.yaml"
-updated_at: "2025-02-11 03:25:44.373093"
+updated_at: "2025-02-12 03:25:00.434603"
 latest: "1.7.11--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/bioservices"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dsh-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dsh-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dsh-bio/container.yaml"
-updated_at: "2025-02-11 03:32:44.333978"
+updated_at: "2025-02-12 03:32:09.465635"
 latest: "2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dsh-bio"
 aliases:

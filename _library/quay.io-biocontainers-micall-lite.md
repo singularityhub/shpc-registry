@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/micall-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micall-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micall-lite/container.yaml"
-updated_at: "2025-02-11 03:36:13.459694"
+updated_at: "2025-02-12 03:35:42.090524"
 latest: "0.1rc5--py311haab0aaa_6"
 container_url: "https://biocontainers.pro/tools/micall-lite"
 aliases:
