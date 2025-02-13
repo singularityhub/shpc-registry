@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-sarks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sarks
 latest:
-  1.14.0--r43hdfd78af_0: sha256:bd4ed2b61c4eb2214a946fc3a7d60c1d56bb04fa29dd143a795b0464091993a2
+  1.18.0--r44hdfd78af_0: sha256:440594b421f53d0175a09a04b3abb053bf8f22697ef30bbc0949ee1d59f07d55
 tags:
   1.6.0--r41hdfd78af_0: sha256:3ce472f0ec4ad6f03981997e09366b76ee1a35531e92b6d5cd6944f2ea5c7c53
   1.10.0--r42hdfd78af_0: sha256:0727daaab00fa45365556f8a226fd51f517f334939b04d94edf234ba842e50c0
   1.12.0--r43hdfd78af_0: sha256:75c710e9ae5fb1afd3125d31fa063bf008d3cb8e29bf0d8c4cee784cff081c59
   1.14.0--r43hdfd78af_0: sha256:bd4ed2b61c4eb2214a946fc3a7d60c1d56bb04fa29dd143a795b0464091993a2
+  1.18.0--r44hdfd78af_0: sha256:440594b421f53d0175a09a04b3abb053bf8f22697ef30bbc0949ee1d59f07d55
 docker: quay.io/biocontainers/bioconductor-sarks
 aliases:
   jfr: /usr/local/bin/jfr

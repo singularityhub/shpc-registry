@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tefinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tefinder
 latest:
-  2.32--h4ac6f70_0: sha256:74475e58667b54fc3b40b8cf2905225710760485c9e46bc206a184d237f93737
+  2.32--h9948957_1: sha256:4c23c89738b03e494eec543e7273d5b03c53e1aec5e872d277162017ddf389c6
 tags:
   2.32--h4ac6f70_0: sha256:74475e58667b54fc3b40b8cf2905225710760485c9e46bc206a184d237f93737
+  2.32--h9948957_1: sha256:4c23c89738b03e494eec543e7273d5b03c53e1aec5e872d277162017ddf389c6
 docker: quay.io/biocontainers/tefinder
 aliases:
   NWalign: /usr/local/bin/NWalign

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tsar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tsar
 latest:
-  1.0.0--r43hdfd78af_0: sha256:2baf6311e573da8da1751c4da7a0101b0b010a24b218ffc7b32005a95869cbbe
+  1.4.0--r44hdfd78af_0: sha256:e89d9370693ee8315841eb0b52f832174b0b78a1f9dd0e73f3530bf559a3bfc9
 tags:
   1.0.0--r43hdfd78af_0: sha256:2baf6311e573da8da1751c4da7a0101b0b010a24b218ffc7b32005a95869cbbe
+  1.4.0--r44hdfd78af_0: sha256:e89d9370693ee8315841eb0b52f832174b0b78a1f9dd0e73f3530bf559a3bfc9
 docker: quay.io/biocontainers/bioconductor-tsar
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

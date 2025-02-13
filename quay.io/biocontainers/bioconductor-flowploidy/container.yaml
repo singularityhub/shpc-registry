@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowploidy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowploidy
 latest:
-  1.28.0--r43hdfd78af_0: sha256:642f539d2b1adecafc97953bd6df6a8b83baa244428352589b12f1e6f673089c
+  1.32.0--r44hdfd78af_0: sha256:543cbafe5a26614cc49960d8287fdfbd43ed3f5d7e8bab918858eae6d92efdb8
 tags:
   1.8.0--r351_0: sha256:eb1607a48cfe5049ee19c53e1bc98df88372ac093c18197327b5a06694c79823
   1.24.0--r42hdfd78af_0: sha256:c13e505924b959fb59ae0b06e7ea3108161b2efd563f30dd24d79f8036fef71b
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40_0: sha256:178dc4ffad4384030064d738a05bf5de25ca360fc3c2e143f3cc721723e230c4
   1.26.0--r43hdfd78af_0: sha256:c3a6e489889f2f7b943b37d462dc12edd5a2ea526e9bbd77ca926ea4406e2a77
   1.28.0--r43hdfd78af_0: sha256:642f539d2b1adecafc97953bd6df6a8b83baa244428352589b12f1e6f673089c
+  1.32.0--r44hdfd78af_0: sha256:543cbafe5a26614cc49960d8287fdfbd43ed3f5d7e8bab918858eae6d92efdb8
 docker: quay.io/biocontainers/bioconductor-flowploidy
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

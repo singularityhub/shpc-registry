@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-flowgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowgraph
 latest:
-  1.10.0--r43hdfd78af_0: sha256:80c1508949a55ff9e59f6efdfea2546c16809c61b82158d5026be516f0a3b1ce
+  1.14.0--r44hdfd78af_0: sha256:0e2011c7a5981671ab41e3f02c9967f6471046b95e85a3d6b7c11d02bdbc058c
 tags:
   1.2.0--r41hdfd78af_0: sha256:492abc66446f7e875174bb84a98685c31d965320ec182504ca929c243efa2444
   1.6.0--r42hdfd78af_0: sha256:bb5bdb5e11b4349f75ab8a20697f6c97ab0ef52a4d89b7034fcddc570e9e397b
   1.8.0--r43hdfd78af_0: sha256:b001625b77d1094fa588af4b5ba4f6b86d451920ee2eb7a170da97c83a6b64fe
   1.10.0--r43hdfd78af_0: sha256:80c1508949a55ff9e59f6efdfea2546c16809c61b82158d5026be516f0a3b1ce
+  1.14.0--r44hdfd78af_0: sha256:0e2011c7a5981671ab41e3f02c9967f6471046b95e85a3d6b7c11d02bdbc058c
 docker: quay.io/biocontainers/bioconductor-flowgraph

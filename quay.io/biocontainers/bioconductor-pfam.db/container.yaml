@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-pfam.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pfam.db
 latest:
-  3.18.0--r43hdfd78af_0: sha256:f0dd7a5436bb351e0decb9eb51ab6d686ba8510b6abbcd7618790960fcb8f6ca
+  3.20.0--r44hdfd78af_0: sha256:34912e28ef1665a995a0792d0ada68f5035313f10088c6b188faa456323dc98b
 tags:
   3.8.2--r36_1: sha256:e0accd9a5e566d9f634ba89c40811b4acfc2892e5cdb75a9e64496c74108f7df
   3.16.0--r42hdfd78af_0: sha256:e248e97c21d1ff95a27671aef425b24a674673c5d082c4ea3eb2900c2280b682
@@ -12,6 +12,7 @@ tags:
   3.10.0--r40_1: sha256:ce4fc9bbbba39d503eb2acb16646b9a6ed2b31de648e1b5f4abf4569889dbca8
   3.17.0--r43hdfd78af_0: sha256:fe6bfe5134b84a60663d3b4b8aca5e5b10efd5f2955a37a99a1658d64af9ab82
   3.18.0--r43hdfd78af_0: sha256:f0dd7a5436bb351e0decb9eb51ab6d686ba8510b6abbcd7618790960fcb8f6ca
+  3.20.0--r44hdfd78af_0: sha256:34912e28ef1665a995a0792d0ada68f5035313f10088c6b188faa456323dc98b
 docker: quay.io/biocontainers/bioconductor-pfam.db
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

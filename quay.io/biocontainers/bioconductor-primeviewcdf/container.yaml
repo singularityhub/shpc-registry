@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-primeviewcdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-primeviewcdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:88c3500839da1dc555a43bcd170f403e6e74b071497244f06d9001bfce328fb9
+  2.18.0--r44hdfd78af_13: sha256:ff060899c14d281a62a30f2953a6c7ec3029fb1192730b1ac8a9e48c48f9d628
 tags:
   2.18.0--r41hdfd78af_9: sha256:ae864a33b326689a1ffe23b9f95f77d6807677c9684588f0d3ef9c5b586e9ea6
   2.18.0--r42hdfd78af_10: sha256:aed6718598157afa26fbb8d4e7dcbdb809f03825efedbac865b9769473476f54
   2.18.0--r43hdfd78af_11: sha256:ca0ac3afe540e1ba860682dc9ca6920b39725d84485a7c9ad2ed958b2552c78e
   2.18.0--r43hdfd78af_12: sha256:88c3500839da1dc555a43bcd170f403e6e74b071497244f06d9001bfce328fb9
+  2.18.0--r44hdfd78af_13: sha256:ff060899c14d281a62a30f2953a6c7ec3029fb1192730b1ac8a9e48c48f9d628
 docker: quay.io/biocontainers/bioconductor-primeviewcdf

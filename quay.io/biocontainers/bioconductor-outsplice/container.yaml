@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-outsplice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-outsplice
 latest:
-  1.2.0--r43hdfd78af_0: sha256:3298b7bc580265c2dd047ef5e23d80f1bc34e69dc82114f8678a27d7fc0cfa6f
+  1.6.0--r44hdfd78af_0: sha256:da794a1dcbd10d7d0b4db50e616f0f0c787c903efc96782677f95a72daf9d50d
 tags:
   1.0.0--r43hdfd78af_0: sha256:dac44c06fb38398a0b798c439f4667426f0e3a72c794137ea13c53bc6d3e99c7
   1.2.0--r43hdfd78af_0: sha256:3298b7bc580265c2dd047ef5e23d80f1bc34e69dc82114f8678a27d7fc0cfa6f
+  1.6.0--r44hdfd78af_0: sha256:da794a1dcbd10d7d0b4db50e616f0f0c787c903efc96782677f95a72daf9d50d
 docker: quay.io/biocontainers/bioconductor-outsplice
 aliases:
   hb-info: /usr/local/bin/hb-info

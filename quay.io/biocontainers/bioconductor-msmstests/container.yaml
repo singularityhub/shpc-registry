@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-msmstests
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msmstests
 latest:
-  1.40.0--r43hdfd78af_0: sha256:3dc0cc70f1f7369fa0b4eadd69d3851968bbc105e02f25757b8ff701fe8d92ac
+  1.44.0--r44hdfd78af_0: sha256:fbae3866e133db9dd67478885727c5aad7576a22b74f9d74036c4032d1a887fa
 tags:
   1.32.0--r41hdfd78af_0: sha256:a81d1e873cbb4281b00ab6cd1bcc55342fe1807a10bb3a6a1ac0f1db2266248f
   1.36.0--r42hdfd78af_0: sha256:3f7830b050bb6df353ad58a4f42d1c6d3bd51e1f93081bc9ec43a8ec22ec2b70
   1.38.0--r43hdfd78af_0: sha256:22dd74a46f696ed24800cdeefa8c245fb30a1a7d27ced94398c70edad9c0095c
   1.40.0--r43hdfd78af_0: sha256:3dc0cc70f1f7369fa0b4eadd69d3851968bbc105e02f25757b8ff701fe8d92ac
+  1.44.0--r44hdfd78af_0: sha256:fbae3866e133db9dd67478885727c5aad7576a22b74f9d74036c4032d1a887fa
 docker: quay.io/biocontainers/bioconductor-msmstests
 aliases:
   zipcmp: /usr/local/bin/zipcmp

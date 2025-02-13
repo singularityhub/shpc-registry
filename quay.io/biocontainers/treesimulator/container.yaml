@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/treesimulator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for treesimulator
 latest:
-  0.2.0--pyhdfd78af_0: sha256:48114eb2a2954aef5f2d3dbb61eea4d2339e85dea86ec7129f88b21764d1d000
+  0.2.1--pyhdfd78af_0: sha256:2bdee29f5069e0954683c67c4fd5ea22dbbf798f0d593566e151b931fc265010
 tags:
   0.1.22--pyhdfd78af_0: sha256:43f049c1076003511d187cae582f0714791580276e17f026d82c22a70db85b55
   0.2.0--pyhdfd78af_0: sha256:48114eb2a2954aef5f2d3dbb61eea4d2339e85dea86ec7129f88b21764d1d000
+  0.2.1--pyhdfd78af_0: sha256:2bdee29f5069e0954683c67c4fd5ea22dbbf798f0d593566e151b931fc265010
 docker: quay.io/biocontainers/treesimulator
 aliases:
   generate_bd: /usr/local/bin/generate_bd

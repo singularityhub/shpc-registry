@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-basic4cseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-basic4cseq
 latest:
-  1.38.0--r43hdfd78af_0: sha256:7d2281cc658c9dd6b8f5c80fa274a243005fd7c94f1a591ac7f5d0f518079311
+  1.42.0--r44hdfd78af_0: sha256:51d0f6d4ca8cf5b2ea8986ca6beb54df8e5940f6930d447436708a601da500d8
 tags:
   1.6.0--r3.4.1_0: sha256:388ac0be503b691e674591b18c03c08006407ae1dda001a50c45582b69c2d918
   1.34.0--r42hdfd78af_0: sha256:03a18eaa7c3989dcdfce04d7f07c0dcededa711bff48e8f805f32eda977b1f45
@@ -12,6 +12,7 @@ tags:
   1.24.0--r40_0: sha256:ecce0dca9f21e5da49fe1ce717e213fde39dceb825fe94f3db8afa6c1d0a7abe
   1.36.0--r43hdfd78af_0: sha256:35335629ac25e8f1366f32e20366ef31402a3af83405177f99a7b3e5bcce8834
   1.38.0--r43hdfd78af_0: sha256:7d2281cc658c9dd6b8f5c80fa274a243005fd7c94f1a591ac7f5d0f518079311
+  1.42.0--r44hdfd78af_0: sha256:51d0f6d4ca8cf5b2ea8986ca6beb54df8e5940f6930d447436708a601da500d8
 docker: quay.io/biocontainers/bioconductor-basic4cseq
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

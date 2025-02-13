@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-phenomis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-phenomis
 latest:
-  1.4.0--r43hdfd78af_0: sha256:c9a3b3f7c8bf377e369688d26cb4e47dd085da8ba3531adb755a894e68bae8ad
+  1.8.0--r44hdfd78af_0: sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884
 tags:
   1.0.0--r42hdfd78af_0: sha256:0ffee7146efe6f8ce8a724c7059703de538e65ccca36cbab7f689fa23d2e98a9
   1.2.0--r43hdfd78af_0: sha256:d8967c96c5361f0507dd74fa38a23cf98cb0e17d25eee94a612caa2bc9a0bc41
   1.4.0--r43hdfd78af_0: sha256:c9a3b3f7c8bf377e369688d26cb4e47dd085da8ba3531adb755a894e68bae8ad
+  1.8.0--r44hdfd78af_0: sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884
 docker: quay.io/biocontainers/bioconductor-phenomis
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

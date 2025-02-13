@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-clusterjudge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clusterjudge
 latest:
-  1.24.0--r43hdfd78af_0: sha256:3dfc96eb00aa08a1d4bd4d6f4b1ee2230e850701286d0dcfca6513335288f2ba
+  1.28.0--r44hdfd78af_0: sha256:b26abe850ee1f57c209851dff0f8fb81400666f48aa561eaa74b470fcf0229c8
 tags:
   1.8.0--r36_0: sha256:eec9c0de94590de05a8f2269615c5cdda5102685339358bc0a604cb0056b2152
   1.20.0--r42hdfd78af_0: sha256:f8da4305c035cca698f0d13d10f87cf76e17ecc69b9b1904d4fe4a90154642d1
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:665d06a9510072e9442d7b01f3e4721d474e6b1d9ad2bbfc73e5a6907e5757bb
   1.22.0--r43hdfd78af_0: sha256:2e12dc429625953e69e4bb8fc42117202647128f2bcd608df3cbec14034699a1
   1.24.0--r43hdfd78af_0: sha256:3dfc96eb00aa08a1d4bd4d6f4b1ee2230e850701286d0dcfca6513335288f2ba
+  1.28.0--r44hdfd78af_0: sha256:b26abe850ee1f57c209851dff0f8fb81400666f48aa561eaa74b470fcf0229c8
 docker: quay.io/biocontainers/bioconductor-clusterjudge
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

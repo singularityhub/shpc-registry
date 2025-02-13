@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cnanorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cnanorm
 latest:
-  1.48.0--r43h9913872_1: sha256:c69fe01a9fb208c6ce19791cd7398b83e2958ffe3693f31924c7558144e02696
+  1.52.0--r44h4d5c4aa_0: sha256:859a7c5cf45f2e574b377a92eaa5e484b6d190d09b8334fca91428fa09c1b937
 tags:
   1.40.0--r41hefde4a7_2: sha256:bd38274857fba5b73c47b49db298bfda396f676e285310a6d0eb281f1dcdd84e
   1.44.0--r42hefde4a7_0: sha256:eab40517346845958da202a5ee78441104c58c1fb74b25c4391400e761a5f2df
@@ -10,4 +10,5 @@ tags:
   1.46.1--r43h9913872_0: sha256:6e9bbdc0db302d1f25923fb30a01da13dc4620640a20062cf8758551e4eb5000
   1.48.0--r43h9913872_0: sha256:808750e62301e298e8640418933a302b948b47a4e3348c7f8bf7c7bfa88e9e7e
   1.48.0--r43h9913872_1: sha256:c69fe01a9fb208c6ce19791cd7398b83e2958ffe3693f31924c7558144e02696
+  1.52.0--r44h4d5c4aa_0: sha256:859a7c5cf45f2e574b377a92eaa5e484b6d190d09b8334fca91428fa09c1b937
 docker: quay.io/biocontainers/bioconductor-cnanorm

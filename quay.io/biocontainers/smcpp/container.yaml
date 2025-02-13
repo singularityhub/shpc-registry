@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/smcpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for smcpp
 latest:
-  1.15.4--py39hac1eaed_0: sha256:071d7d6ed6dfec549957aede4987ccb465cab449227a961107e3bca3cceddca7
+  1.15.4--py39hac1eaed_0: sha256:d84881023ea4d029c866c9ed617c6852eac6929dc8b51628af4da8c653d9be6a
 tags:
-  1.15.4--py39hac1eaed_0: sha256:071d7d6ed6dfec549957aede4987ccb465cab449227a961107e3bca3cceddca7
+  1.15.4--py39hac1eaed_0: sha256:d84881023ea4d029c866c9ed617c6852eac6929dc8b51628af4da8c653d9be6a
 docker: quay.io/biocontainers/smcpp
 aliases:
   ldapadd: /usr/local/bin/ldapadd

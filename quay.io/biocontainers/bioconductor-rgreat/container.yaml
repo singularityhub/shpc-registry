@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rgreat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgreat
 latest:
-  2.4.0--r43hf17093f_0: sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e
+  2.8.0--r44he5774e6_0: sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0
 tags:
   1.8.0--r3.4.1_0: sha256:68eefaae3e3bbed529957988c208480f2ebbc663d2318e7e5c3cdcc22ea97696
   2.0.0--r42hc247a5b_0: sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503
@@ -13,6 +13,7 @@ tags:
   2.0.0--r42hf17093f_1: sha256:a1ad71489ba81985c9e74a045d1487ee9d78790d839721a67024dce00f6795b7
   2.2.0--r43hf17093f_0: sha256:7e90ac841f96446dc730959a0b49a0d192f51e5e9c6c339411c5e755a259ee65
   2.4.0--r43hf17093f_0: sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e
+  2.8.0--r44he5774e6_0: sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0
 docker: quay.io/biocontainers/bioconductor-rgreat
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

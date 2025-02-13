@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fastremap-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastremap-bio
 latest:
-  1.0.0--hdcf5f25_1: sha256:52f5ee29f0757576a8ed0265ba0a6f6863f99fa93b0f6c1efcbdab2ff3e67d0d
+  1.0.0--h077b44d_2: sha256:10096689505b92209977aa4c0c0b3271a093e9e8e18eb7ffdc31f381e8f7c501
 tags:
   1.0.0--hd03093a_0: sha256:f25adec9f93cacaeda45bd1a252d9d2fbfbd613d12842f79b4abda77de483ab9
   1.0.0--hdcf5f25_1: sha256:52f5ee29f0757576a8ed0265ba0a6f6863f99fa93b0f6c1efcbdab2ff3e67d0d
+  1.0.0--h077b44d_2: sha256:10096689505b92209977aa4c0c0b3271a093e9e8e18eb7ffdc31f381e8f7c501
 docker: quay.io/biocontainers/fastremap-bio
 aliases:
   FastRemap: /usr/local/bin/FastRemap

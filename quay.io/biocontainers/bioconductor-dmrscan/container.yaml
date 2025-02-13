@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dmrscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dmrscan
 latest:
-  1.24.0--r43hdfd78af_0: sha256:d6dd5313715f618a8fd9b955b88fc6942936cb3454fe8cca2e6a4418635b7048
+  1.28.0--r44hdfd78af_0: sha256:6a19b770be868e58ab54035f098f17c1074f76228528066ffcc06bb634291b14
 tags:
   1.8.0--r351_0: sha256:4278071d55525f57dc3070ca60f3bb130012bcce84e27e186ef4f848a2297caa
   1.20.0--r42hdfd78af_0: sha256:c3af7caada4e53554c6ffb219be4bd925e3d46af72d87405f91b008ca1d987b8
@@ -12,6 +12,7 @@ tags:
   1.11.0--r36_0: sha256:5d20615d747aa9e34155c74d2b56470c691f1fc7916912e0d99f11b30f0c37bc
   1.22.0--r43hdfd78af_0: sha256:00910363589a5e235b0f681b5093ea5f7bf4297717339dfe9e103cbfb3b342ba
   1.24.0--r43hdfd78af_0: sha256:d6dd5313715f618a8fd9b955b88fc6942936cb3454fe8cca2e6a4418635b7048
+  1.28.0--r44hdfd78af_0: sha256:6a19b770be868e58ab54035f098f17c1074f76228528066ffcc06bb634291b14
 docker: quay.io/biocontainers/bioconductor-dmrscan
 aliases:
   wget: /usr/local/bin/wget

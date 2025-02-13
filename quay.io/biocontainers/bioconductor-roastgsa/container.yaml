@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-roastgsa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-roastgsa
 latest:
-  1.0.0--r43hdfd78af_0: sha256:ceebd6bc70ad861353aa8a5d54b949da0756fc1de963a91e9e3926a5453c625d
+  1.4.0--r44hdfd78af_0: sha256:083cb88c0e5c19f6a203990d0af54ab04926e8a2f48020d8ca1cc01dd520feb3
 tags:
   1.0.0--r43hdfd78af_0: sha256:ceebd6bc70ad861353aa8a5d54b949da0756fc1de963a91e9e3926a5453c625d
+  1.4.0--r44hdfd78af_0: sha256:083cb88c0e5c19f6a203990d0af54ab04926e8a2f48020d8ca1cc01dd520feb3
 docker: quay.io/biocontainers/bioconductor-roastgsa
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

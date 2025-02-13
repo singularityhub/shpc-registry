@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-redeemr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-redeemr
 latest:
-  1.0.0--r43h031d066_0: sha256:566cdd7754321ce11b4a7a66ac31beb26499b18f76253bd0b2a708d1827d2b5d
+  1.0.0--r44h7b50bb2_1: sha256:cf7b8f90fc19cd01e9d4643a00e5e0a22ffb8710efd1c1de5db05763e8dadf69
 tags:
   1.0.0--r43h031d066_0: sha256:566cdd7754321ce11b4a7a66ac31beb26499b18f76253bd0b2a708d1827d2b5d
+  1.0.0--r44h7b50bb2_1: sha256:cf7b8f90fc19cd01e9d4643a00e5e0a22ffb8710efd1c1de5db05763e8dadf69
 docker: quay.io/biocontainers/r-redeemr
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua
