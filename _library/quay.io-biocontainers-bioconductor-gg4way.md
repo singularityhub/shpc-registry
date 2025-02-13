@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gg4way"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gg4way/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gg4way/container.yaml"
-updated_at: "2025-02-12 03:19:58.979454"
+updated_at: "2025-02-13 03:15:43.208709"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gg4way"
 aliases:

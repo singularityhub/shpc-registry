@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sailfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sailfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sailfish/container.yaml"
-updated_at: "2025-02-12 03:06:12.593116"
+updated_at: "2025-02-13 03:35:44.990494"
 latest: "0.10.1--pl5321hf742e08_6"
 container_url: "https://biocontainers.pro/tools/sailfish"
 aliases:

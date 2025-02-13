@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dadaist2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dadaist2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dadaist2/container.yaml"
-updated_at: "2025-02-12 03:36:12.804546"
-latest: "1.3.0--hdfd78af_0"
+updated_at: "2025-02-13 03:22:59.900109"
+latest: "1.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dadaist2"
 
 versions:
  - "1.2.5--hdfd78af_0"
  - "1.3.0--hdfd78af_0"
+ - "1.3.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dadaist2"
-config: {"url": "https://biocontainers.pro/tools/dadaist2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dadaist2", "latest": {"1.3.0--hdfd78af_0": "sha256:ac3a3bfc9d94da5eeb293fb4edae3d105e8bd66cb1a5b2c6afda62b032a49944"}, "tags": {"1.2.5--hdfd78af_0": "sha256:8b77ca72ed269a2b7db38b2d47ba1d76c4789a3a3952bd409af3554533a15c23", "1.3.0--hdfd78af_0": "sha256:ac3a3bfc9d94da5eeb293fb4edae3d105e8bd66cb1a5b2c6afda62b032a49944"}, "docker": "quay.io/biocontainers/dadaist2"}
+config: {"url": "https://biocontainers.pro/tools/dadaist2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dadaist2", "latest": {"1.3.1--hdfd78af_0": "sha256:cec9c07587d356f1cad98cff811fdc50a3cf44bf8f1fa47d7c457ee2ace513ac"}, "tags": {"1.2.5--hdfd78af_0": "sha256:8b77ca72ed269a2b7db38b2d47ba1d76c4789a3a3952bd409af3554533a15c23", "1.3.0--hdfd78af_0": "sha256:ac3a3bfc9d94da5eeb293fb4edae3d105e8bd66cb1a5b2c6afda62b032a49944", "1.3.1--hdfd78af_0": "sha256:cec9c07587d356f1cad98cff811fdc50a3cf44bf8f1fa47d7c457ee2ace513ac"}, "docker": "quay.io/biocontainers/dadaist2"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dadaist2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dadaist2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dadaist2:1.3.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/dadaist2:1.3.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dadaist2/1.3.0--hdfd78af_0
-$ module help quay.io/biocontainers/dadaist2/1.3.0--hdfd78af_0
+$ module load quay.io/biocontainers/dadaist2/1.3.1--hdfd78af_0
+$ module help quay.io/biocontainers/dadaist2/1.3.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

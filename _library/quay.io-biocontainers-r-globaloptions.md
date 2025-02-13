@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-globaloptions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-globaloptions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-globaloptions/container.yaml"
-updated_at: "2025-02-12 03:25:24.276829"
+updated_at: "2025-02-13 03:26:31.345381"
 latest: "0.0.8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-globaloptions"
 aliases:

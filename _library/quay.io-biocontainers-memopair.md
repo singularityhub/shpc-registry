@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/memopair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/memopair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/memopair/container.yaml"
-updated_at: "2025-02-12 03:08:10.392401"
-latest: "0.1.5--h4349ce8_0"
+updated_at: "2025-02-13 03:10:12.367656"
+latest: "0.1.6--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/memopair"
 aliases:
  - "memopair"
 versions:
  - "0.1.5--h4349ce8_0"
+ - "0.1.6--h4349ce8_0"
 description: "singularity registry hpc automated addition for memopair"
-config: {"url": "https://biocontainers.pro/tools/memopair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for memopair", "latest": {"0.1.5--h4349ce8_0": "sha256:3d23547407241f4dd5c822db78e152e3e220cc8ebc1c424bc35c726f73254ff5"}, "tags": {"0.1.5--h4349ce8_0": "sha256:3d23547407241f4dd5c822db78e152e3e220cc8ebc1c424bc35c726f73254ff5"}, "docker": "quay.io/biocontainers/memopair", "aliases": {"memopair": "/usr/local/bin/memopair"}}
+config: {"url": "https://biocontainers.pro/tools/memopair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for memopair", "latest": {"0.1.6--h4349ce8_0": "sha256:fbb586237575957d3986ab38023eb86bbec42b981d88e92b9e74f3cd538ebf8f"}, "tags": {"0.1.5--h4349ce8_0": "sha256:3d23547407241f4dd5c822db78e152e3e220cc8ebc1c424bc35c726f73254ff5", "0.1.6--h4349ce8_0": "sha256:fbb586237575957d3986ab38023eb86bbec42b981d88e92b9e74f3cd538ebf8f"}, "docker": "quay.io/biocontainers/memopair", "aliases": {"memopair": "/usr/local/bin/memopair"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/memopair.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/memopair
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/memopair:0.1.5--h4349ce8_0
+$ shpc install quay.io/biocontainers/memopair:0.1.6--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/memopair/0.1.5--h4349ce8_0
-$ module help quay.io/biocontainers/memopair/0.1.5--h4349ce8_0
+$ module load quay.io/biocontainers/memopair/0.1.6--h4349ce8_0
+$ module help quay.io/biocontainers/memopair/0.1.6--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
