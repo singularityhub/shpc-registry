@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/curves
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for curves
 latest:
-  3.0.2--h6e1f050_3: sha256:04d6935a1953cc195b11a17a555222b5f2715d8891117651cc378d78947e1ca6
+  3.0.3--h70c14e6_1: sha256:89a4b8fd13fa311806e663ce322e77515dc08afe62300a264de7517d717f9440
 tags:
   3.0.0--h8c3ec31_3: sha256:6de1bd555593711bef6d21994b571fc549aa886874a41c74781dc2cf03ae6187
   3.0.2--h6e1f050_3: sha256:04d6935a1953cc195b11a17a555222b5f2715d8891117651cc378d78947e1ca6
+  3.0.3--h70c14e6_1: sha256:89a4b8fd13fa311806e663ce322e77515dc08afe62300a264de7517d717f9440
 docker: quay.io/biocontainers/curves
 aliases:
   AddToBox: /usr/local/bin/AddToBox

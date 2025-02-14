@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nafcodec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nafcodec
 latest:
-  0.2.0--py310hec43fc7_0: sha256:8c2f86d24ad9f17deb4683a7962bd7b7cac62560ff10adfb091555d9d3b0e2e6
+  0.3.1--py310hec43fc7_1: sha256:ff00718beb0c114fcf5e3a71a18e451cfd697c23e6993e70de5ea4e622bce8b1
 tags:
   0.2.0--py310hec43fc7_0: sha256:8c2f86d24ad9f17deb4683a7962bd7b7cac62560ff10adfb091555d9d3b0e2e6
+  0.3.1--py310hec43fc7_1: sha256:ff00718beb0c114fcf5e3a71a18e451cfd697c23e6993e70de5ea4e622bce8b1
+  0.2.0--py39h5b94c0b_0: sha256:c9e23b11ac5b329484a28af10d9d01d632c7261ff033d36873656f6175944e40
 docker: quay.io/biocontainers/nafcodec
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10
