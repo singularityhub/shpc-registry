@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-crmn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crmn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crmn/container.yaml"
-updated_at: "2025-02-13 03:02:08.742076"
-latest: "0.0.21--r43h3342da4_4"
+updated_at: "2025-02-14 02:52:10.848256"
+latest: "0.0.21--r44h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-crmn"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.0.21--r41h3342da4_2"
  - "0.0.21--r42h3342da4_3"
  - "0.0.21--r43h3342da4_4"
+ - "0.0.21--r44h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-crmn"
-config: {"url": "https://biocontainers.pro/tools/r-crmn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-crmn", "latest": {"0.0.21--r43h3342da4_4": "sha256:0cc385064a327ad8800d3ffd9fae2f249cf7729cc4bc39660dbeb7c525db75e2"}, "tags": {"0.0.21--r41h3342da4_2": "sha256:e2bd0d3a647c8f7bf5eb4aae1c1683381db0a32b490e849274bee76f2bf282eb", "0.0.21--r42h3342da4_3": "sha256:288f6551eed28ebde3f79cf524efdcd72cefc6194153e1f830f200dc4e56c249", "0.0.21--r43h3342da4_4": "sha256:0cc385064a327ad8800d3ffd9fae2f249cf7729cc4bc39660dbeb7c525db75e2"}, "docker": "quay.io/biocontainers/r-crmn", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-crmn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-crmn", "latest": {"0.0.21--r44h3342da4_5": "sha256:b1fb8ebfba73b1d8276297b092144ebb5a55b8d6b59d5ed087b9a2bc59fde313"}, "tags": {"0.0.21--r41h3342da4_2": "sha256:e2bd0d3a647c8f7bf5eb4aae1c1683381db0a32b490e849274bee76f2bf282eb", "0.0.21--r42h3342da4_3": "sha256:288f6551eed28ebde3f79cf524efdcd72cefc6194153e1f830f200dc4e56c249", "0.0.21--r43h3342da4_4": "sha256:0cc385064a327ad8800d3ffd9fae2f249cf7729cc4bc39660dbeb7c525db75e2", "0.0.21--r44h3342da4_5": "sha256:b1fb8ebfba73b1d8276297b092144ebb5a55b8d6b59d5ed087b9a2bc59fde313"}, "docker": "quay.io/biocontainers/r-crmn", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-crmn.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-crmn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-crmn:0.0.21--r43h3342da4_4
+$ shpc install quay.io/biocontainers/r-crmn:0.0.21--r44h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-crmn/0.0.21--r43h3342da4_4
-$ module help quay.io/biocontainers/r-crmn/0.0.21--r43h3342da4_4
+$ module load quay.io/biocontainers/r-crmn/0.0.21--r44h3342da4_5
+$ module help quay.io/biocontainers/r-crmn/0.0.21--r44h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
-updated_at: "2025-02-13 03:22:58.512925"
-latest: "2.4.0--r43hf17093f_0"
+updated_at: "2025-02-14 03:12:44.455293"
+latest: "2.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgreat"
 aliases:
  - "bmp2tiff"
@@ -27,8 +27,9 @@ versions:
  - "2.0.0--r42hf17093f_1"
  - "2.2.0--r43hf17093f_0"
  - "2.4.0--r43hf17093f_0"
+ - "2.8.0--r44he5774e6_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgreat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgreat", "latest": {"2.4.0--r43hf17093f_0": "sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e"}, "tags": {"1.8.0--r3.4.1_0": "sha256:68eefaae3e3bbed529957988c208480f2ebbc663d2318e7e5c3cdcc22ea97696", "2.0.0--r42hc247a5b_0": "sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503", "1.26.0--r41hdfd78af_0": "sha256:8faf28c39966b68daa7b052697586985412c296a2d0c7406ce7b09bc111d9810", "1.24.0--r41hdfd78af_0": "sha256:3b11b6ce5e7486b91932fb6282994c7548479eaa4234e172d14764bda53e764e", "1.22.0--r40hdfd78af_1": "sha256:f715eb964d0597f9767206028b2b5e8b8f8a1a3f9b5e35c71437abbf19cc33a2", "1.20.0--r40_0": "sha256:3e8f0450f42d1a61d0cbb4ea5dce15e31d5512aa5eb280f42863f6db55cf460f", "2.0.0--r42hf17093f_1": "sha256:a1ad71489ba81985c9e74a045d1487ee9d78790d839721a67024dce00f6795b7", "2.2.0--r43hf17093f_0": "sha256:7e90ac841f96446dc730959a0b49a0d192f51e5e9c6c339411c5e755a259ee65", "2.4.0--r43hf17093f_0": "sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e"}, "docker": "quay.io/biocontainers/bioconductor-rgreat", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgreat", "latest": {"2.8.0--r44he5774e6_0": "sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0"}, "tags": {"1.8.0--r3.4.1_0": "sha256:68eefaae3e3bbed529957988c208480f2ebbc663d2318e7e5c3cdcc22ea97696", "2.0.0--r42hc247a5b_0": "sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503", "1.26.0--r41hdfd78af_0": "sha256:8faf28c39966b68daa7b052697586985412c296a2d0c7406ce7b09bc111d9810", "1.24.0--r41hdfd78af_0": "sha256:3b11b6ce5e7486b91932fb6282994c7548479eaa4234e172d14764bda53e764e", "1.22.0--r40hdfd78af_1": "sha256:f715eb964d0597f9767206028b2b5e8b8f8a1a3f9b5e35c71437abbf19cc33a2", "1.20.0--r40_0": "sha256:3e8f0450f42d1a61d0cbb4ea5dce15e31d5512aa5eb280f42863f6db55cf460f", "2.0.0--r42hf17093f_1": "sha256:a1ad71489ba81985c9e74a045d1487ee9d78790d839721a67024dce00f6795b7", "2.2.0--r43hf17093f_0": "sha256:7e90ac841f96446dc730959a0b49a0d192f51e5e9c6c339411c5e755a259ee65", "2.4.0--r43hf17093f_0": "sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e", "2.8.0--r44he5774e6_0": "sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0"}, "docker": "quay.io/biocontainers/bioconductor-rgreat", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgreat.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgreat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgreat:2.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-rgreat:2.8.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgreat/2.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-rgreat/2.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-rgreat/2.8.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-rgreat/2.8.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

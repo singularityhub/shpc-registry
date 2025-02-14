@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-erma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erma/container.yaml"
-updated_at: "2025-02-13 03:11:30.589381"
+updated_at: "2025-02-14 03:01:32.530856"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erma"
 aliases:

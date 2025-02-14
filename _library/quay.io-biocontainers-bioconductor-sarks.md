@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sarks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sarks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sarks/container.yaml"
-updated_at: "2025-02-13 03:33:11.456277"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:22:54.274944"
+latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sarks"
 aliases:
  - "jfr"
@@ -23,8 +23,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.18.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sarks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sarks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sarks", "latest": {"1.14.0--r43hdfd78af_0": "sha256:bd4ed2b61c4eb2214a946fc3a7d60c1d56bb04fa29dd143a795b0464091993a2"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:3ce472f0ec4ad6f03981997e09366b76ee1a35531e92b6d5cd6944f2ea5c7c53", "1.10.0--r42hdfd78af_0": "sha256:0727daaab00fa45365556f8a226fd51f517f334939b04d94edf234ba842e50c0", "1.12.0--r43hdfd78af_0": "sha256:75c710e9ae5fb1afd3125d31fa063bf008d3cb8e29bf0d8c4cee784cff081c59", "1.14.0--r43hdfd78af_0": "sha256:bd4ed2b61c4eb2214a946fc3a7d60c1d56bb04fa29dd143a795b0464091993a2"}, "docker": "quay.io/biocontainers/bioconductor-sarks", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sarks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sarks", "latest": {"1.18.0--r44hdfd78af_0": "sha256:440594b421f53d0175a09a04b3abb053bf8f22697ef30bbc0949ee1d59f07d55"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:3ce472f0ec4ad6f03981997e09366b76ee1a35531e92b6d5cd6944f2ea5c7c53", "1.10.0--r42hdfd78af_0": "sha256:0727daaab00fa45365556f8a226fd51f517f334939b04d94edf234ba842e50c0", "1.12.0--r43hdfd78af_0": "sha256:75c710e9ae5fb1afd3125d31fa063bf008d3cb8e29bf0d8c4cee784cff081c59", "1.14.0--r43hdfd78af_0": "sha256:bd4ed2b61c4eb2214a946fc3a7d60c1d56bb04fa29dd143a795b0464091993a2", "1.18.0--r44hdfd78af_0": "sha256:440594b421f53d0175a09a04b3abb053bf8f22697ef30bbc0949ee1d59f07d55"}, "docker": "quay.io/biocontainers/bioconductor-sarks", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sarks.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sarks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sarks:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sarks:1.18.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sarks/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sarks/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sarks/1.18.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sarks/1.18.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

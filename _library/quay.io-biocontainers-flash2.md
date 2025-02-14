@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flash2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flash2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flash2/container.yaml"
-updated_at: "2025-02-13 03:29:45.835290"
+updated_at: "2025-02-14 03:19:30.155685"
 latest: "2.2.00--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/flash2"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-treekor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treekor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treekor/container.yaml"
-updated_at: "2025-02-13 03:26:27.750064"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:16:11.910415"
+latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treekor"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.14.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-treekor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-treekor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treekor", "latest": {"1.10.0--r43hdfd78af_0": "sha256:ceefff2086685330233fad82685ae704cd80cb930452d31956d77b57d57479e2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b048679c87e5f506d259d988c0e89a36c07fb490d1ab08a8985897e82d65beb7", "1.6.0--r42hdfd78af_0": "sha256:9a7f07f441d69092ff76d2b3c6dbe9f7ec6998996da0934f8cc330306e7f5b59", "1.8.0--r43hdfd78af_0": "sha256:3205a752a300213552a02a4b832cfdc7bb6c53bb659b3bf48e825d3d10825309", "1.10.0--r43hdfd78af_0": "sha256:ceefff2086685330233fad82685ae704cd80cb930452d31956d77b57d57479e2"}, "docker": "quay.io/biocontainers/bioconductor-treekor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-treekor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treekor", "latest": {"1.14.0--r44hdfd78af_0": "sha256:5dd4a51b78028bbdbd3ca8a3288eb28be7bdbccb2e9410ff938ee81b581cc121"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b048679c87e5f506d259d988c0e89a36c07fb490d1ab08a8985897e82d65beb7", "1.6.0--r42hdfd78af_0": "sha256:9a7f07f441d69092ff76d2b3c6dbe9f7ec6998996da0934f8cc330306e7f5b59", "1.8.0--r43hdfd78af_0": "sha256:3205a752a300213552a02a4b832cfdc7bb6c53bb659b3bf48e825d3d10825309", "1.10.0--r43hdfd78af_0": "sha256:ceefff2086685330233fad82685ae704cd80cb930452d31956d77b57d57479e2", "1.14.0--r44hdfd78af_0": "sha256:5dd4a51b78028bbdbd3ca8a3288eb28be7bdbccb2e9410ff938ee81b581cc121"}, "docker": "quay.io/biocontainers/bioconductor-treekor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-treekor.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-treekor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-treekor:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-treekor:1.14.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-treekor/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-treekor/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-treekor/1.14.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-treekor/1.14.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

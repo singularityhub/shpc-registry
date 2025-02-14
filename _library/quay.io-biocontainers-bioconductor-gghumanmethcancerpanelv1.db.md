@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/container.yaml"
-updated_at: "2025-02-13 02:54:18.516719"
-latest: "1.4.1--r43hdfd78af_12"
+updated_at: "2025-02-14 02:44:20.257315"
+latest: "1.4.1--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-gghumanmethcancerpanelv1.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.1--r42hdfd78af_10"
  - "1.4.1--r43hdfd78af_11"
  - "1.4.1--r43hdfd78af_12"
+ - "1.4.1--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-gghumanmethcancerpanelv1.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gghumanmethcancerpanelv1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gghumanmethcancerpanelv1.db", "latest": {"1.4.1--r43hdfd78af_12": "sha256:abb62bd19ed778c5f9ae0792de81938de82fccdde3a9095969063ca6bb9004f9"}, "tags": {"1.4.1--r41hdfd78af_9": "sha256:4f26d92cafe0dac833df9a49c0b90e65423f48cbee9b8cf82abbf30498151495", "1.4.1--r42hdfd78af_10": "sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788", "1.4.1--r43hdfd78af_11": "sha256:3318953e43ba43b729cc8474bfb6835e53e48d69531130c1258e8a25f1d170eb", "1.4.1--r43hdfd78af_12": "sha256:abb62bd19ed778c5f9ae0792de81938de82fccdde3a9095969063ca6bb9004f9"}, "docker": "quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gghumanmethcancerpanelv1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gghumanmethcancerpanelv1.db", "latest": {"1.4.1--r44hdfd78af_13": "sha256:31981a487a4839ed02a9d1d4212334c626c9e3c6371ff81936e137ea7d523acf"}, "tags": {"1.4.1--r41hdfd78af_9": "sha256:4f26d92cafe0dac833df9a49c0b90e65423f48cbee9b8cf82abbf30498151495", "1.4.1--r42hdfd78af_10": "sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788", "1.4.1--r43hdfd78af_11": "sha256:3318953e43ba43b729cc8474bfb6835e53e48d69531130c1258e8a25f1d170eb", "1.4.1--r43hdfd78af_12": "sha256:abb62bd19ed778c5f9ae0792de81938de82fccdde3a9095969063ca6bb9004f9", "1.4.1--r44hdfd78af_13": "sha256:31981a487a4839ed02a9d1d4212334c626c9e3c6371ff81936e137ea7d523acf"}, "docker": "quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db:1.4.1--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db:1.4.1--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/1.4.1--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/1.4.1--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/1.4.1--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/1.4.1--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-wpm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
-updated_at: "2025-02-13 03:22:17.754406"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:12:03.427691"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wpm"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wpm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wpm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wpm", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d733032cda3914eba4bdba6f8ea16daf93a2e23f2438b665426093199f06dc7c"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da", "1.8.0--r42hdfd78af_0": "sha256:8b8290fdd0e0223765121045f13874c9aa8704e8a68ffb7d73309f79960870a7", "1.10.0--r43hdfd78af_0": "sha256:9e64d55528f6f5c4949806950fc937108563f95f5172cce651e2e18868437045", "1.12.0--r43hdfd78af_0": "sha256:d733032cda3914eba4bdba6f8ea16daf93a2e23f2438b665426093199f06dc7c"}, "docker": "quay.io/biocontainers/bioconductor-wpm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wpm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wpm", "latest": {"1.16.0--r44hdfd78af_0": "sha256:a7099fed4ef12f91ca7df1a1a3d676e64282eff2b4c4ce8b0f0c40d2e907a148"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da", "1.8.0--r42hdfd78af_0": "sha256:8b8290fdd0e0223765121045f13874c9aa8704e8a68ffb7d73309f79960870a7", "1.10.0--r43hdfd78af_0": "sha256:9e64d55528f6f5c4949806950fc937108563f95f5172cce651e2e18868437045", "1.12.0--r43hdfd78af_0": "sha256:d733032cda3914eba4bdba6f8ea16daf93a2e23f2438b665426093199f06dc7c", "1.16.0--r44hdfd78af_0": "sha256:a7099fed4ef12f91ca7df1a1a3d676e64282eff2b4c4ce8b0f0c40d2e907a148"}, "docker": "quay.io/biocontainers/bioconductor-wpm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wpm.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wpm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wpm:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wpm:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wpm/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wpm/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wpm/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wpm/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

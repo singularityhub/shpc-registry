@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-roastgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roastgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roastgsa/container.yaml"
-updated_at: "2025-02-13 03:28:49.163713"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:18:33.439828"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roastgsa"
 aliases:
  - "pcre2posix_test"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-roastgsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-roastgsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-roastgsa", "latest": {"1.0.0--r43hdfd78af_0": "sha256:ceebd6bc70ad861353aa8a5d54b949da0756fc1de963a91e9e3926a5453c625d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ceebd6bc70ad861353aa8a5d54b949da0756fc1de963a91e9e3926a5453c625d"}, "docker": "quay.io/biocontainers/bioconductor-roastgsa", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-roastgsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-roastgsa", "latest": {"1.4.0--r44hdfd78af_0": "sha256:083cb88c0e5c19f6a203990d0af54ab04926e8a2f48020d8ca1cc01dd520feb3"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ceebd6bc70ad861353aa8a5d54b949da0756fc1de963a91e9e3926a5453c625d", "1.4.0--r44hdfd78af_0": "sha256:083cb88c0e5c19f6a203990d0af54ab04926e8a2f48020d8ca1cc01dd520feb3"}, "docker": "quay.io/biocontainers/bioconductor-roastgsa", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-roastgsa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-roastgsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-roastgsa:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-roastgsa:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-roastgsa/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-roastgsa/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-roastgsa/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-roastgsa/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

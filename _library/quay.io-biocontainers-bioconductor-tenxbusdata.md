@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tenxbusdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxbusdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxbusdata/container.yaml"
-updated_at: "2025-02-13 03:05:09.318050"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-02-14 02:55:11.330909"
+latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxbusdata"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.20.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tenxbusdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxbusdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxbusdata", "latest": {"1.16.0--r43hdfd78af_0": "sha256:0fba18f0f77437368d641a368ae614a90367b76cbc6bf7f3eea6dca7be2c8798"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:50c5643a32be5d5544a3d6e4b288ef94e550e9e10535f25c76bcce22eed27946", "1.12.0--r42hdfd78af_0": "sha256:7c3c5a2d309e69315a0370e057663cf299111cca342d5648cdf70df7f1769b68", "1.14.0--r43hdfd78af_0": "sha256:e3963b90fe8774b273b99f22dfe38b1b4b6804e8ca0c699b2b6503e2951d1199", "1.16.0--r43hdfd78af_0": "sha256:0fba18f0f77437368d641a368ae614a90367b76cbc6bf7f3eea6dca7be2c8798"}, "docker": "quay.io/biocontainers/bioconductor-tenxbusdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxbusdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxbusdata", "latest": {"1.20.0--r44hdfd78af_0": "sha256:07b7f96aadbe501e8319ccec54b1b571696fbe1309caec5e6d8b73f097cb8faa"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:50c5643a32be5d5544a3d6e4b288ef94e550e9e10535f25c76bcce22eed27946", "1.12.0--r42hdfd78af_0": "sha256:7c3c5a2d309e69315a0370e057663cf299111cca342d5648cdf70df7f1769b68", "1.14.0--r43hdfd78af_0": "sha256:e3963b90fe8774b273b99f22dfe38b1b4b6804e8ca0c699b2b6503e2951d1199", "1.16.0--r43hdfd78af_0": "sha256:0fba18f0f77437368d641a368ae614a90367b76cbc6bf7f3eea6dca7be2c8798", "1.20.0--r44hdfd78af_0": "sha256:07b7f96aadbe501e8319ccec54b1b571696fbe1309caec5e6d8b73f097cb8faa"}, "docker": "quay.io/biocontainers/bioconductor-tenxbusdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tenxbusdata.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tenxbusdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tenxbusdata:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tenxbusdata:1.20.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tenxbusdata/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tenxbusdata/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tenxbusdata/1.20.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tenxbusdata/1.20.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

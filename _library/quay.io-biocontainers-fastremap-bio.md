@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastremap-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastremap-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastremap-bio/container.yaml"
-updated_at: "2025-02-13 03:11:48.967263"
-latest: "1.0.0--hdcf5f25_1"
+updated_at: "2025-02-14 03:01:50.922329"
+latest: "1.0.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/fastremap-bio"
 aliases:
  - "FastRemap"
 versions:
  - "1.0.0--hd03093a_0"
  - "1.0.0--hdcf5f25_1"
+ - "1.0.0--h077b44d_2"
 description: "singularity registry hpc automated addition for fastremap-bio"
-config: {"url": "https://biocontainers.pro/tools/fastremap-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastremap-bio", "latest": {"1.0.0--hdcf5f25_1": "sha256:52f5ee29f0757576a8ed0265ba0a6f6863f99fa93b0f6c1efcbdab2ff3e67d0d"}, "tags": {"1.0.0--hd03093a_0": "sha256:f25adec9f93cacaeda45bd1a252d9d2fbfbd613d12842f79b4abda77de483ab9", "1.0.0--hdcf5f25_1": "sha256:52f5ee29f0757576a8ed0265ba0a6f6863f99fa93b0f6c1efcbdab2ff3e67d0d"}, "docker": "quay.io/biocontainers/fastremap-bio", "aliases": {"FastRemap": "/usr/local/bin/FastRemap"}}
+config: {"url": "https://biocontainers.pro/tools/fastremap-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastremap-bio", "latest": {"1.0.0--h077b44d_2": "sha256:10096689505b92209977aa4c0c0b3271a093e9e8e18eb7ffdc31f381e8f7c501"}, "tags": {"1.0.0--hd03093a_0": "sha256:f25adec9f93cacaeda45bd1a252d9d2fbfbd613d12842f79b4abda77de483ab9", "1.0.0--hdcf5f25_1": "sha256:52f5ee29f0757576a8ed0265ba0a6f6863f99fa93b0f6c1efcbdab2ff3e67d0d", "1.0.0--h077b44d_2": "sha256:10096689505b92209977aa4c0c0b3271a093e9e8e18eb7ffdc31f381e8f7c501"}, "docker": "quay.io/biocontainers/fastremap-bio", "aliases": {"FastRemap": "/usr/local/bin/FastRemap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastremap-bio.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastremap-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastremap-bio:1.0.0--hdcf5f25_1
+$ shpc install quay.io/biocontainers/fastremap-bio:1.0.0--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastremap-bio/1.0.0--hdcf5f25_1
-$ module help quay.io/biocontainers/fastremap-bio/1.0.0--hdcf5f25_1
+$ module load quay.io/biocontainers/fastremap-bio/1.0.0--h077b44d_2
+$ module help quay.io/biocontainers/fastremap-bio/1.0.0--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

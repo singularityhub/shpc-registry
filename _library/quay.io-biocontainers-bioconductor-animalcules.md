@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-animalcules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
-updated_at: "2025-02-13 03:25:04.309902"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:14:48.159220"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-animalcules"
 aliases:
  - "f2py3.9"
@@ -20,8 +20,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-animalcules"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-animalcules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-animalcules", "latest": {"1.16.0--r43hdfd78af_0": "sha256:960156b155f487729a0103ab50177398586616a6e00b71314889836b2bfcc735"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da", "1.14.0--r42hdfd78af_0": "sha256:08472aec13b37a128c5aba1e8bd6d656800c3ff5aa840df80519050c2707b540", "1.10.0--r41hdfd78af_0": "sha256:36de1465e16371d4885dd384a73581909d6cbe8955362c18fd37f1d0d07468fa", "1.16.0--r43hdfd78af_0": "sha256:960156b155f487729a0103ab50177398586616a6e00b71314889836b2bfcc735"}, "docker": "quay.io/biocontainers/bioconductor-animalcules", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-animalcules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-animalcules", "latest": {"1.22.0--r44hdfd78af_0": "sha256:8f3794c8df314ebd9eb1e68e1f7f333caeb0bda78881d4ad4725bc7634f05331"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da", "1.14.0--r42hdfd78af_0": "sha256:08472aec13b37a128c5aba1e8bd6d656800c3ff5aa840df80519050c2707b540", "1.10.0--r41hdfd78af_0": "sha256:36de1465e16371d4885dd384a73581909d6cbe8955362c18fd37f1d0d07468fa", "1.16.0--r43hdfd78af_0": "sha256:960156b155f487729a0103ab50177398586616a6e00b71314889836b2bfcc735", "1.22.0--r44hdfd78af_0": "sha256:8f3794c8df314ebd9eb1e68e1f7f333caeb0bda78881d4ad4725bc7634f05331"}, "docker": "quay.io/biocontainers/bioconductor-animalcules", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-animalcules.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-animalcules
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-animalcules:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-animalcules:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-animalcules/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-animalcules/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-animalcules/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-animalcules/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

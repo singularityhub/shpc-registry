@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-gchromvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gchromvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gchromvar/container.yaml"
-updated_at: "2025-02-13 03:38:16.311414"
-latest: "0.3.2--r43hdfd78af_0"
+updated_at: "2025-02-14 03:27:48.272747"
+latest: "0.3.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-gchromvar"
 aliases:
  - "pandoc-lua"
@@ -29,8 +29,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.3.2--r43hdfd78af_0"
+ - "0.3.2--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for r-gchromvar"
-config: {"url": "https://biocontainers.pro/tools/r-gchromvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-gchromvar", "latest": {"0.3.2--r43hdfd78af_0": "sha256:489dda421b06683f4b0d6848a8c9308e6515e34d54c0d7cd2f6055f6fb0599a6"}, "tags": {"0.3.2--r43hdfd78af_0": "sha256:489dda421b06683f4b0d6848a8c9308e6515e34d54c0d7cd2f6055f6fb0599a6"}, "docker": "quay.io/biocontainers/r-gchromvar", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-gchromvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-gchromvar", "latest": {"0.3.2--r44hdfd78af_1": "sha256:d47f8215029052ac63cd24cdc002f9e293affb7eb0cc8861c95e7df9c28a1631"}, "tags": {"0.3.2--r43hdfd78af_0": "sha256:489dda421b06683f4b0d6848a8c9308e6515e34d54c0d7cd2f6055f6fb0599a6", "0.3.2--r44hdfd78af_1": "sha256:d47f8215029052ac63cd24cdc002f9e293affb7eb0cc8861c95e7df9c28a1631"}, "docker": "quay.io/biocontainers/r-gchromvar", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gchromvar.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/r-gchromvar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gchromvar:0.3.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-gchromvar:0.3.2--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gchromvar/0.3.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-gchromvar/0.3.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-gchromvar/0.3.2--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-gchromvar/0.3.2--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

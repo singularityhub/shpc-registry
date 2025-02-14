@@ -4,7 +4,7 @@ name:  "hashicorp/consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/hashicorp/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/hashicorp/consul/container.yaml"
-updated_at: "2025-02-13 03:39:14.844913"
+updated_at: "2025-02-14 03:28:46.891505"
 latest: "1.20.0-rc1"
 container_url: "https://hub.docker.com/r/hashicorp/consul"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.20.0-rc1"
  - "1.20"
 description: "Automatic build of consul based on the current release."
-config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.20.0-rc1": "sha256:03414e75aa7ad410af9c53dd6ef8907db3ff9c910279b43fca369aa01de274c0"}, "tags": {"1.16": "sha256:e4c674e01776d5bd8c6d85462c7fb057b2c5ec46256e2d0ac2737caf122decd7", "1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b", "1.17": "sha256:fa5020e2307bc941e4317207de1ab55f2c7a8cd6b02c0592cce1cd20ec8a7f87", "1.18.0-rc1": "sha256:0e20dd2d4cc42b7efd888334432e5524c58acc37f7fd6541269c61c15afe5328", "1.18": "sha256:946dd0c97e4312dc61574ac25e21e1af8a4d3f6917ac6249e32ebfafdcd01049", "1.19": "sha256:e244c64df77ab3586f177f1692e98575086eb40343dc82a6320f5e79543490eb", "1.20.0-rc1": "sha256:03414e75aa7ad410af9c53dd6ef8907db3ff9c910279b43fca369aa01de274c0", "1.20": "sha256:884b855d051dea677c8f3d3191bab5f079f02595f3f6a04e4c47ac3b84b3e12b"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
+config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.20.0-rc1": "sha256:03414e75aa7ad410af9c53dd6ef8907db3ff9c910279b43fca369aa01de274c0"}, "tags": {"1.16": "sha256:e4c674e01776d5bd8c6d85462c7fb057b2c5ec46256e2d0ac2737caf122decd7", "1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b", "1.17": "sha256:fa5020e2307bc941e4317207de1ab55f2c7a8cd6b02c0592cce1cd20ec8a7f87", "1.18.0-rc1": "sha256:0e20dd2d4cc42b7efd888334432e5524c58acc37f7fd6541269c61c15afe5328", "1.18": "sha256:946dd0c97e4312dc61574ac25e21e1af8a4d3f6917ac6249e32ebfafdcd01049", "1.19": "sha256:e244c64df77ab3586f177f1692e98575086eb40343dc82a6320f5e79543490eb", "1.20.0-rc1": "sha256:03414e75aa7ad410af9c53dd6ef8907db3ff9c910279b43fca369aa01de274c0", "1.20": "sha256:362680481b4888e3ddd411c5b3bf74bc1177b909f157912a44408f92cfc29fac"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
 ---
 
 This module is a singularity container wrapper for hashicorp/consul.

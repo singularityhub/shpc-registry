@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dmrscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
-updated_at: "2025-02-13 02:53:06.182973"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2025-02-14 02:43:08.347275"
+latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrscan"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.11.0--r36_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.28.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmrscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrscan", "latest": {"1.24.0--r43hdfd78af_0": "sha256:d6dd5313715f618a8fd9b955b88fc6942936cb3454fe8cca2e6a4418635b7048"}, "tags": {"1.8.0--r351_0": "sha256:4278071d55525f57dc3070ca60f3bb130012bcce84e27e186ef4f848a2297caa", "1.20.0--r42hdfd78af_0": "sha256:c3af7caada4e53554c6ffb219be4bd925e3d46af72d87405f91b008ca1d987b8", "1.16.0--r41hdfd78af_0": "sha256:fbf67a2e2639b13de28cbdbb1b53a9d573eed23c50a9b620a94743677045a89d", "1.14.0--r41hdfd78af_0": "sha256:697e8c93f7806888fdd45c0efdae60ce39305adab55aa7969075a7d8f0b2b70e", "1.12.0--r40hdfd78af_1": "sha256:802f85458103148b741ba851653b2a627dda319f9306e6d7cd05c78131fa4a90", "1.11.0--r36_0": "sha256:5d20615d747aa9e34155c74d2b56470c691f1fc7916912e0d99f11b30f0c37bc", "1.22.0--r43hdfd78af_0": "sha256:00910363589a5e235b0f681b5093ea5f7bf4297717339dfe9e103cbfb3b342ba", "1.24.0--r43hdfd78af_0": "sha256:d6dd5313715f618a8fd9b955b88fc6942936cb3454fe8cca2e6a4418635b7048"}, "docker": "quay.io/biocontainers/bioconductor-dmrscan", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrscan", "latest": {"1.28.0--r44hdfd78af_0": "sha256:6a19b770be868e58ab54035f098f17c1074f76228528066ffcc06bb634291b14"}, "tags": {"1.8.0--r351_0": "sha256:4278071d55525f57dc3070ca60f3bb130012bcce84e27e186ef4f848a2297caa", "1.20.0--r42hdfd78af_0": "sha256:c3af7caada4e53554c6ffb219be4bd925e3d46af72d87405f91b008ca1d987b8", "1.16.0--r41hdfd78af_0": "sha256:fbf67a2e2639b13de28cbdbb1b53a9d573eed23c50a9b620a94743677045a89d", "1.14.0--r41hdfd78af_0": "sha256:697e8c93f7806888fdd45c0efdae60ce39305adab55aa7969075a7d8f0b2b70e", "1.12.0--r40hdfd78af_1": "sha256:802f85458103148b741ba851653b2a627dda319f9306e6d7cd05c78131fa4a90", "1.11.0--r36_0": "sha256:5d20615d747aa9e34155c74d2b56470c691f1fc7916912e0d99f11b30f0c37bc", "1.22.0--r43hdfd78af_0": "sha256:00910363589a5e235b0f681b5093ea5f7bf4297717339dfe9e103cbfb3b342ba", "1.24.0--r43hdfd78af_0": "sha256:d6dd5313715f618a8fd9b955b88fc6942936cb3454fe8cca2e6a4418635b7048", "1.28.0--r44hdfd78af_0": "sha256:6a19b770be868e58ab54035f098f17c1074f76228528066ffcc06bb634291b14"}, "docker": "quay.io/biocontainers/bioconductor-dmrscan", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmrscan.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dmrscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dmrscan:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dmrscan:1.28.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dmrscan/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dmrscan/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dmrscan/1.28.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dmrscan/1.28.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

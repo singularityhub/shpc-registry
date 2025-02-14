@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tsar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tsar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tsar/container.yaml"
-updated_at: "2025-02-13 03:27:25.979508"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:17:10.320900"
+latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tsar"
 aliases:
  - "protoc-24.4.0"
@@ -36,8 +36,9 @@ aliases:
  - "grpc_cpp_plugin"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.4.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-tsar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tsar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tsar", "latest": {"1.0.0--r43hdfd78af_0": "sha256:2baf6311e573da8da1751c4da7a0101b0b010a24b218ffc7b32005a95869cbbe"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2baf6311e573da8da1751c4da7a0101b0b010a24b218ffc7b32005a95869cbbe"}, "docker": "quay.io/biocontainers/bioconductor-tsar", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tsar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tsar", "latest": {"1.4.0--r44hdfd78af_0": "sha256:e89d9370693ee8315841eb0b52f832174b0b78a1f9dd0e73f3530bf559a3bfc9"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2baf6311e573da8da1751c4da7a0101b0b010a24b218ffc7b32005a95869cbbe", "1.4.0--r44hdfd78af_0": "sha256:e89d9370693ee8315841eb0b52f832174b0b78a1f9dd0e73f3530bf559a3bfc9"}, "docker": "quay.io/biocontainers/bioconductor-tsar", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tsar.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tsar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tsar:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tsar:1.4.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tsar/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tsar/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tsar/1.4.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tsar/1.4.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-moexexonprobesetlocation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moexexonprobesetlocation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moexexonprobesetlocation/container.yaml"
-updated_at: "2025-02-13 03:23:12.404531"
-latest: "1.15.0--r43hdfd78af_12"
+updated_at: "2025-02-14 03:12:58.380695"
+latest: "1.15.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-moexexonprobesetlocation"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.15.0--r42hdfd78af_10"
  - "1.15.0--r43hdfd78af_11"
  - "1.15.0--r43hdfd78af_12"
+ - "1.15.0--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-moexexonprobesetlocation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moexexonprobesetlocation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moexexonprobesetlocation", "latest": {"1.15.0--r43hdfd78af_12": "sha256:4739d09bd9cb4eedb021382b95bbf07277bcc0675c63d7584126d1549c4ae9ec"}, "tags": {"1.15.0--r41hdfd78af_9": "sha256:97b84881eb58246a8327bbd04536db5217baa22a5e41c5ece308f3e1856dd2a0", "1.15.0--r42hdfd78af_10": "sha256:0e8f2922c6c42b28fadfebfc922c412256463568bf9d8eb37855d6ea35602c0e", "1.15.0--r43hdfd78af_11": "sha256:2a9382e89bd611103de7dfe26cfcbc5d7dfdab2f4e6869bb0606f87919d05220", "1.15.0--r43hdfd78af_12": "sha256:4739d09bd9cb4eedb021382b95bbf07277bcc0675c63d7584126d1549c4ae9ec"}, "docker": "quay.io/biocontainers/bioconductor-moexexonprobesetlocation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moexexonprobesetlocation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moexexonprobesetlocation", "latest": {"1.15.0--r44hdfd78af_13": "sha256:a8d4a55efecf041b07d185e09bad7a70fa8eff7d8aca652d66818842caf3c645"}, "tags": {"1.15.0--r41hdfd78af_9": "sha256:97b84881eb58246a8327bbd04536db5217baa22a5e41c5ece308f3e1856dd2a0", "1.15.0--r42hdfd78af_10": "sha256:0e8f2922c6c42b28fadfebfc922c412256463568bf9d8eb37855d6ea35602c0e", "1.15.0--r43hdfd78af_11": "sha256:2a9382e89bd611103de7dfe26cfcbc5d7dfdab2f4e6869bb0606f87919d05220", "1.15.0--r43hdfd78af_12": "sha256:4739d09bd9cb4eedb021382b95bbf07277bcc0675c63d7584126d1549c4ae9ec", "1.15.0--r44hdfd78af_13": "sha256:a8d4a55efecf041b07d185e09bad7a70fa8eff7d8aca652d66818842caf3c645"}, "docker": "quay.io/biocontainers/bioconductor-moexexonprobesetlocation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moexexonprobesetlocation.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moexexonprobesetlocation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moexexonprobesetlocation:1.15.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-moexexonprobesetlocation:1.15.0--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moexexonprobesetlocation/1.15.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-moexexonprobesetlocation/1.15.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-moexexonprobesetlocation/1.15.0--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-moexexonprobesetlocation/1.15.0--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aspera-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aspera-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aspera-cli/container.yaml"
-updated_at: "2025-02-13 03:28:51.124278"
-latest: "4.19.0--hdfd78af_0"
+updated_at: "2025-02-14 03:18:35.402230"
+latest: "4.20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aspera-cli"
 aliases:
  - "ascli"
@@ -32,8 +32,9 @@ versions:
  - "4.14.0--he0b3917_0"
  - "4.14.0--hdfd78af_1"
  - "4.19.0--hdfd78af_0"
+ - "4.20.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for aspera-cli"
-config: {"url": "https://biocontainers.pro/tools/aspera-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aspera-cli", "latest": {"4.19.0--hdfd78af_0": "sha256:543995d090af8e04f7357aded3c2f4d78bfd44b44d2b08ccc7b848fe69c16e77"}, "tags": {"4.14.0--he0b3917_0": "sha256:b30f7b8cddd7ea9da30f24fb508304aa44020b2f29a93512258b6b6eeafddf81", "4.14.0--hdfd78af_1": "sha256:07678dfe3a66d095861841dd147739d0acdfe4b96fca339d68acb3050f12aac2", "4.19.0--hdfd78af_0": "sha256:543995d090af8e04f7357aded3c2f4d78bfd44b44d2b08ccc7b848fe69c16e77"}, "docker": "quay.io/biocontainers/aspera-cli", "aliases": {"ascli": "/usr/local/bin/ascli", "ascp": "/usr/local/bin/ascp", "asession": "/usr/local/bin/asession", "aspera-license": "/usr/local/bin/aspera-license", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
+config: {"url": "https://biocontainers.pro/tools/aspera-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aspera-cli", "latest": {"4.20.0--hdfd78af_0": "sha256:57c76e4fa56ad3751b58450bbc8c7da8a8463ef505106691fb659ba44e83f7d2"}, "tags": {"4.14.0--he0b3917_0": "sha256:b30f7b8cddd7ea9da30f24fb508304aa44020b2f29a93512258b6b6eeafddf81", "4.14.0--hdfd78af_1": "sha256:07678dfe3a66d095861841dd147739d0acdfe4b96fca339d68acb3050f12aac2", "4.19.0--hdfd78af_0": "sha256:543995d090af8e04f7357aded3c2f4d78bfd44b44d2b08ccc7b848fe69c16e77", "4.20.0--hdfd78af_0": "sha256:57c76e4fa56ad3751b58450bbc8c7da8a8463ef505106691fb659ba44e83f7d2"}, "docker": "quay.io/biocontainers/aspera-cli", "aliases": {"ascli": "/usr/local/bin/ascli", "ascp": "/usr/local/bin/ascp", "asession": "/usr/local/bin/asession", "aspera-license": "/usr/local/bin/aspera-license", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aspera-cli.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/aspera-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aspera-cli:4.19.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/aspera-cli:4.20.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aspera-cli/4.19.0--hdfd78af_0
-$ module help quay.io/biocontainers/aspera-cli/4.19.0--hdfd78af_0
+$ module load quay.io/biocontainers/aspera-cli/4.20.0--hdfd78af_0
+$ module help quay.io/biocontainers/aspera-cli/4.20.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

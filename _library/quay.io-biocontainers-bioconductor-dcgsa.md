@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dcgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dcgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dcgsa/container.yaml"
-updated_at: "2025-02-13 03:29:15.220840"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:18:59.473374"
+latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dcgsa"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.16.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.34.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dcgsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dcgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dcgsa", "latest": {"1.30.0--r43hdfd78af_0": "sha256:8d6f7e7ca68d362f2ce3c5dd66cbeff711d9f90b65e0a21ce7287b1d0afcf7fb"}, "tags": {"1.8.0--r351_0": "sha256:67481fc4e089f3cad938bf6a36826a4fd4cfe749c9d1c8935ff4baddfb94e51c", "1.26.0--r42hdfd78af_0": "sha256:9ac558605f0f8019eca0d2c71e9f4f1229c28ee465c77746baf814190f6dfa9d", "1.22.0--r41hdfd78af_0": "sha256:c05588f6b4fa1644d7884b84362d8d542766f90290c3a7a9a979f7a3dc5b0b70", "1.20.0--r41hdfd78af_0": "sha256:641e2574acaedf5ab4d4bc1d09d9cc1a6c7252feb14299d59f596b5f7753b841", "1.18.0--r40hdfd78af_1": "sha256:2572b15f0398c423bdf6167cc9a77bff718da299bca9c6e1dbcd5586531be298", "1.16.0--r40_0": "sha256:bb7bfbd55a4fe0084e28f10fd6edc5d35589fed62c1267caa1e341931ea46870", "1.28.0--r43hdfd78af_0": "sha256:103348eb8f9d90b23ab38851a5b998d56690373494e8d57c95e21f610cb2063b", "1.30.0--r43hdfd78af_0": "sha256:8d6f7e7ca68d362f2ce3c5dd66cbeff711d9f90b65e0a21ce7287b1d0afcf7fb"}, "docker": "quay.io/biocontainers/bioconductor-dcgsa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dcgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dcgsa", "latest": {"1.34.0--r44hdfd78af_0": "sha256:7816aa5cd1552c1c3de1cc98fae0d191cf0c8753fa3f0ea8200de4a9d4383f26"}, "tags": {"1.8.0--r351_0": "sha256:67481fc4e089f3cad938bf6a36826a4fd4cfe749c9d1c8935ff4baddfb94e51c", "1.26.0--r42hdfd78af_0": "sha256:9ac558605f0f8019eca0d2c71e9f4f1229c28ee465c77746baf814190f6dfa9d", "1.22.0--r41hdfd78af_0": "sha256:c05588f6b4fa1644d7884b84362d8d542766f90290c3a7a9a979f7a3dc5b0b70", "1.20.0--r41hdfd78af_0": "sha256:641e2574acaedf5ab4d4bc1d09d9cc1a6c7252feb14299d59f596b5f7753b841", "1.18.0--r40hdfd78af_1": "sha256:2572b15f0398c423bdf6167cc9a77bff718da299bca9c6e1dbcd5586531be298", "1.16.0--r40_0": "sha256:bb7bfbd55a4fe0084e28f10fd6edc5d35589fed62c1267caa1e341931ea46870", "1.28.0--r43hdfd78af_0": "sha256:103348eb8f9d90b23ab38851a5b998d56690373494e8d57c95e21f610cb2063b", "1.30.0--r43hdfd78af_0": "sha256:8d6f7e7ca68d362f2ce3c5dd66cbeff711d9f90b65e0a21ce7287b1d0afcf7fb", "1.34.0--r44hdfd78af_0": "sha256:7816aa5cd1552c1c3de1cc98fae0d191cf0c8753fa3f0ea8200de4a9d4383f26"}, "docker": "quay.io/biocontainers/bioconductor-dcgsa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dcgsa.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dcgsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dcgsa:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dcgsa:1.34.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dcgsa/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dcgsa/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dcgsa/1.34.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dcgsa/1.34.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

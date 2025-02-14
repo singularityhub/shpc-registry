@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hapmap100khind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmap100khind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmap100khind/container.yaml"
-updated_at: "2025-02-13 03:39:00.029840"
-latest: "1.44.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:28:32.026476"
+latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmap100khind"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.39.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
  - "1.44.0--r43hdfd78af_0"
+ - "1.48.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hapmap100khind"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100khind", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100khind", "latest": {"1.44.0--r43hdfd78af_0": "sha256:c9d80df411b019532d828800e554c2cf54012f0a61473bef94c608b11418321d"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:b02c9bd0550c389e5f4de67deb905c2b85d1655f97a4e38ff25f89ce67385bb0", "1.39.0--r42hdfd78af_0": "sha256:aece7f3a2cbf1e9584fdb518ed69e3ae8a6b42fa6ffbc57c72d1420ffd030c6f", "1.42.0--r43hdfd78af_0": "sha256:a30e3063cb2e319c97d4e62ef0fcfd6a12c3cf8098b45f108b4bb8c1c2070872", "1.44.0--r43hdfd78af_0": "sha256:c9d80df411b019532d828800e554c2cf54012f0a61473bef94c608b11418321d"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100khind"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100khind", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100khind", "latest": {"1.48.0--r44hdfd78af_0": "sha256:3adffca122f346009b13503668896a8ccc59fc976e02acd97a9e099280b2ec0a"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:b02c9bd0550c389e5f4de67deb905c2b85d1655f97a4e38ff25f89ce67385bb0", "1.39.0--r42hdfd78af_0": "sha256:aece7f3a2cbf1e9584fdb518ed69e3ae8a6b42fa6ffbc57c72d1420ffd030c6f", "1.42.0--r43hdfd78af_0": "sha256:a30e3063cb2e319c97d4e62ef0fcfd6a12c3cf8098b45f108b4bb8c1c2070872", "1.44.0--r43hdfd78af_0": "sha256:c9d80df411b019532d828800e554c2cf54012f0a61473bef94c608b11418321d", "1.48.0--r44hdfd78af_0": "sha256:3adffca122f346009b13503668896a8ccc59fc976e02acd97a9e099280b2ec0a"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100khind"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hapmap100khind.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hapmap100khind
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hapmap100khind:1.44.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hapmap100khind:1.48.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hapmap100khind/1.44.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hapmap100khind/1.44.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hapmap100khind/1.48.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hapmap100khind/1.48.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

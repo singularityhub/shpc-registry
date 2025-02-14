@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simbu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simbu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simbu/container.yaml"
-updated_at: "2025-02-13 03:30:08.640036"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:19:53.071444"
+latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simbu"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.8.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-simbu"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simbu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simbu", "latest": {"1.4.0--r43hdfd78af_0": "sha256:1ed7784b05d5327823fdf7b81981df8ac250d92435b7a564c8e00991f7967bb3"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:e460f23472da8702591fda02309d492e913ff88cd22895088eca8c6d5d9c72fa", "1.2.0--r43hdfd78af_0": "sha256:5c70901edcabb071386ab2caaa87c97f484fa53f4b71c03b0215c16d183690e5", "1.4.0--r43hdfd78af_0": "sha256:1ed7784b05d5327823fdf7b81981df8ac250d92435b7a564c8e00991f7967bb3"}, "docker": "quay.io/biocontainers/bioconductor-simbu", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simbu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simbu", "latest": {"1.8.0--r44hdfd78af_0": "sha256:6b8b2f69e8b7c109245cc5cb6938cc7e0c2eefc7f2011b0295bf414a70ee087c"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:e460f23472da8702591fda02309d492e913ff88cd22895088eca8c6d5d9c72fa", "1.2.0--r43hdfd78af_0": "sha256:5c70901edcabb071386ab2caaa87c97f484fa53f4b71c03b0215c16d183690e5", "1.4.0--r43hdfd78af_0": "sha256:1ed7784b05d5327823fdf7b81981df8ac250d92435b7a564c8e00991f7967bb3", "1.8.0--r44hdfd78af_0": "sha256:6b8b2f69e8b7c109245cc5cb6938cc7e0c2eefc7f2011b0295bf414a70ee087c"}, "docker": "quay.io/biocontainers/bioconductor-simbu", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simbu.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simbu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simbu:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-simbu:1.8.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simbu/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-simbu/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-simbu/1.8.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-simbu/1.8.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

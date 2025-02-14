@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-redeemr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-redeemr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-redeemr/container.yaml"
-updated_at: "2025-02-13 03:01:25.228473"
-latest: "1.0.0--r43h031d066_0"
+updated_at: "2025-02-14 02:51:27.652084"
+latest: "1.0.0--r44h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/r-redeemr"
 aliases:
  - "pandoc-lua"
@@ -30,8 +30,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r43h031d066_0"
+ - "1.0.0--r44h7b50bb2_1"
 description: "singularity registry hpc automated addition for r-redeemr"
-config: {"url": "https://biocontainers.pro/tools/r-redeemr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-redeemr", "latest": {"1.0.0--r43h031d066_0": "sha256:566cdd7754321ce11b4a7a66ac31beb26499b18f76253bd0b2a708d1827d2b5d"}, "tags": {"1.0.0--r43h031d066_0": "sha256:566cdd7754321ce11b4a7a66ac31beb26499b18f76253bd0b2a708d1827d2b5d"}, "docker": "quay.io/biocontainers/r-redeemr", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-redeemr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-redeemr", "latest": {"1.0.0--r44h7b50bb2_1": "sha256:cf7b8f90fc19cd01e9d4643a00e5e0a22ffb8710efd1c1de5db05763e8dadf69"}, "tags": {"1.0.0--r43h031d066_0": "sha256:566cdd7754321ce11b4a7a66ac31beb26499b18f76253bd0b2a708d1827d2b5d", "1.0.0--r44h7b50bb2_1": "sha256:cf7b8f90fc19cd01e9d4643a00e5e0a22ffb8710efd1c1de5db05763e8dadf69"}, "docker": "quay.io/biocontainers/r-redeemr", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-redeemr.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-redeemr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-redeemr:1.0.0--r43h031d066_0
+$ shpc install quay.io/biocontainers/r-redeemr:1.0.0--r44h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-redeemr/1.0.0--r43h031d066_0
-$ module help quay.io/biocontainers/r-redeemr/1.0.0--r43h031d066_0
+$ module load quay.io/biocontainers/r-redeemr/1.0.0--r44h7b50bb2_1
+$ module help quay.io/biocontainers/r-redeemr/1.0.0--r44h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

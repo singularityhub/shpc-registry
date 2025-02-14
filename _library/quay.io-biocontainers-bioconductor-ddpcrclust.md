@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ddpcrclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ddpcrclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ddpcrclust/container.yaml"
-updated_at: "2025-02-13 03:18:19.988500"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2025-02-14 03:08:11.326363"
+latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ddpcrclust"
 aliases:
  - "geos-config"
@@ -25,8 +25,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.26.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ddpcrclust"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ddpcrclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ddpcrclust", "latest": {"1.22.0--r43hdfd78af_0": "sha256:220c92e7037ce7c3e6d28e3acaba7295353d6632a588a50cf9f8962422c66cdd"}, "tags": {"1.8.0--r40_0": "sha256:c552ef9cc5d7b0dc19ada482549b15140e9ff82043134d82d277e3c4527d696d", "1.18.0--r42hdfd78af_0": "sha256:2b8217c9e81dff494dab295268c5b37b2020896ed029bd6818a192d431577556", "1.14.0--r41hdfd78af_0": "sha256:d9fef7c7297dc6a95903591b52428c9787bdff0705bd49f9ba56a561f652a13c", "1.12.0--r41hdfd78af_0": "sha256:4c4fd008d281ddd78e44ec1915a1d4a51fbf63ea98e6e6be7aa0637d724bf789", "1.10.0--r40hdfd78af_1": "sha256:575fbdc181898c58656d50a89969e1b4e1e0e665b411364ecc1e7a61de23a025", "1.20.0--r43hdfd78af_0": "sha256:45b2e0b6bb7ea510c6968b730b7ed015997c417ca9c033c3175f08a5dec67531", "1.22.0--r43hdfd78af_0": "sha256:220c92e7037ce7c3e6d28e3acaba7295353d6632a588a50cf9f8962422c66cdd"}, "docker": "quay.io/biocontainers/bioconductor-ddpcrclust", "aliases": {"geos-config": "/usr/local/bin/geos-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ddpcrclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ddpcrclust", "latest": {"1.26.0--r44hdfd78af_0": "sha256:abad140626202f9ab19d8c0abffb07b6d2c157d836d1edc043cfc7b7a3f78475"}, "tags": {"1.8.0--r40_0": "sha256:c552ef9cc5d7b0dc19ada482549b15140e9ff82043134d82d277e3c4527d696d", "1.18.0--r42hdfd78af_0": "sha256:2b8217c9e81dff494dab295268c5b37b2020896ed029bd6818a192d431577556", "1.14.0--r41hdfd78af_0": "sha256:d9fef7c7297dc6a95903591b52428c9787bdff0705bd49f9ba56a561f652a13c", "1.12.0--r41hdfd78af_0": "sha256:4c4fd008d281ddd78e44ec1915a1d4a51fbf63ea98e6e6be7aa0637d724bf789", "1.10.0--r40hdfd78af_1": "sha256:575fbdc181898c58656d50a89969e1b4e1e0e665b411364ecc1e7a61de23a025", "1.20.0--r43hdfd78af_0": "sha256:45b2e0b6bb7ea510c6968b730b7ed015997c417ca9c033c3175f08a5dec67531", "1.22.0--r43hdfd78af_0": "sha256:220c92e7037ce7c3e6d28e3acaba7295353d6632a588a50cf9f8962422c66cdd", "1.26.0--r44hdfd78af_0": "sha256:abad140626202f9ab19d8c0abffb07b6d2c157d836d1edc043cfc7b7a3f78475"}, "docker": "quay.io/biocontainers/bioconductor-ddpcrclust", "aliases": {"geos-config": "/usr/local/bin/geos-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ddpcrclust.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ddpcrclust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ddpcrclust:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ddpcrclust:1.26.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ddpcrclust/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ddpcrclust/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ddpcrclust/1.26.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ddpcrclust/1.26.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
