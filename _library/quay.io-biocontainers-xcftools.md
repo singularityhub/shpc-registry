@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xcftools/container.yaml"
-updated_at: "2025-02-14 02:54:55.375774"
+updated_at: "2025-02-14 03:05:10.945907"
 latest: "1.0.7--1"
 container_url: "https://biocontainers.pro/tools/xcftools"
 aliases:

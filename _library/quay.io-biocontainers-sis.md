@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sis/container.yaml"
-updated_at: "2025-02-14 02:48:54.278151"
+updated_at: "2025-02-14 02:59:01.190532"
 latest: "0.1.2--py_3"
 container_url: "https://biocontainers.pro/tools/sis"
 aliases:

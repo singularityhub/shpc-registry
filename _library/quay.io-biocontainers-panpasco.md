@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panpasco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panpasco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panpasco/container.yaml"
-updated_at: "2025-02-14 02:44:18.026379"
+updated_at: "2025-02-14 02:54:11.504869"
 latest: "1.0.1--py38r40_0"
 container_url: "https://biocontainers.pro/tools/panpasco"
 aliases:

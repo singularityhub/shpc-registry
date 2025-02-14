@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/machina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/machina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/machina/container.yaml"
-updated_at: "2025-02-14 03:11:39.631497"
+updated_at: "2025-02-14 03:22:31.753530"
 latest: "1.2--h21ec9f0_7"
 container_url: "https://biocontainers.pro/tools/machina"
 aliases:

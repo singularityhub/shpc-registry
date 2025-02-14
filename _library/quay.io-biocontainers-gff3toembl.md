@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gff3toembl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gff3toembl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gff3toembl/container.yaml"
-updated_at: "2025-02-14 02:47:54.880229"
+updated_at: "2025-02-14 02:58:00.380061"
 latest: "1.1.4--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/gff3toembl"
 aliases:

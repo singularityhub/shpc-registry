@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atlas-metadata-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas-metadata-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas-metadata-validator/container.yaml"
-updated_at: "2025-02-14 02:55:24.154689"
+updated_at: "2025-02-14 03:05:40.615618"
 latest: "1.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atlas-metadata-validator"
 aliases:
