@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dxpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dxpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dxpy/container.yaml"
-updated_at: "2025-02-14 03:07:07.340815"
-latest: "0.387.0--pyh7e72e81_0"
+updated_at: "2025-02-15 03:04:53.575947"
+latest: "0.389.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/dxpy"
 aliases:
  - "dx"
@@ -46,8 +46,10 @@ versions:
  - "0.385.0--pyh7e72e81_0"
  - "0.384.0--pyh7e72e81_0"
  - "0.383.1--pyh7e72e81_0"
+ - "0.389.0--pyh7e72e81_0"
+ - "0.388.0--pyh7e72e81_2"
 description: "shpc-registry automated BioContainers addition for dxpy"
-config: {"url": "https://biocontainers.pro/tools/dxpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxpy", "latest": {"0.387.0--pyh7e72e81_0": "sha256:87c7efdb358448801a8dc4ea1417f5b8b942ffb717416569b99bdd04ef420a88"}, "tags": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca", "0.387.0--pyh7e72e81_0": "sha256:87c7efdb358448801a8dc4ea1417f5b8b942ffb717416569b99bdd04ef420a88", "0.386.0--pyh7e72e81_0": "sha256:21a6912d2cf304e3917bdd9e5da6aeac8d9b0125978bd4fdc965b4aa46eae526", "0.385.0--pyh7e72e81_0": "sha256:bb8cb8afa47d8a3eca79d7295a7e174cccc768994ae8bec0e372dc34ae8c5656", "0.384.0--pyh7e72e81_0": "sha256:9fc15a2f799ba8125a869683a61688da5e79cc9e00a0b35928d6337ade0d428a", "0.383.1--pyh7e72e81_0": "sha256:29b1709d1d9289b551b869c86bbb42355bfd75cd1e611d1973b4faddbaefd14a"}, "docker": "quay.io/biocontainers/dxpy", "aliases": {"dx": "/usr/local/bin/dx", "dx-app-wizard": "/usr/local/bin/dx-app-wizard", "dx-build-app": "/usr/local/bin/dx-build-app", "dx-build-applet": "/usr/local/bin/dx-build-applet", "dx-clone-asset": "/usr/local/bin/dx-clone-asset", "dx-docker": "/usr/local/bin/dx-docker", "dx-download-all-inputs": "/usr/local/bin/dx-download-all-inputs", "dx-fetch-bundled-depends": "/usr/local/bin/dx-fetch-bundled-depends", "dx-generate-dxapp": "/usr/local/bin/dx-generate-dxapp", "dx-jobutil-add-output": "/usr/local/bin/dx-jobutil-add-output", "dx-jobutil-dxlink": "/usr/local/bin/dx-jobutil-dxlink", "dx-jobutil-new-job": "/usr/local/bin/dx-jobutil-new-job", "dx-jobutil-parse-link": "/usr/local/bin/dx-jobutil-parse-link", "dx-jobutil-report-error": "/usr/local/bin/dx-jobutil-report-error", "dx-log-stream": "/usr/local/bin/dx-log-stream", "dx-mount-all-inputs": "/usr/local/bin/dx-mount-all-inputs", "dx-notebook-reconnect": "/usr/local/bin/dx-notebook-reconnect", "dx-print-bash-vars": "/usr/local/bin/dx-print-bash-vars", "dx-upload-all-outputs": "/usr/local/bin/dx-upload-all-outputs", "wsdump": "/usr/local/bin/wsdump", "xattr": "/usr/local/bin/xattr", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/dxpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxpy", "latest": {"0.389.0--pyh7e72e81_0": "sha256:8cd873934ca99a6b20662f8fe44c98d1bd71d533f32879ebc9e8a148d3671daa"}, "tags": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca", "0.387.0--pyh7e72e81_0": "sha256:87c7efdb358448801a8dc4ea1417f5b8b942ffb717416569b99bdd04ef420a88", "0.386.0--pyh7e72e81_0": "sha256:21a6912d2cf304e3917bdd9e5da6aeac8d9b0125978bd4fdc965b4aa46eae526", "0.385.0--pyh7e72e81_0": "sha256:bb8cb8afa47d8a3eca79d7295a7e174cccc768994ae8bec0e372dc34ae8c5656", "0.384.0--pyh7e72e81_0": "sha256:9fc15a2f799ba8125a869683a61688da5e79cc9e00a0b35928d6337ade0d428a", "0.383.1--pyh7e72e81_0": "sha256:29b1709d1d9289b551b869c86bbb42355bfd75cd1e611d1973b4faddbaefd14a", "0.389.0--pyh7e72e81_0": "sha256:8cd873934ca99a6b20662f8fe44c98d1bd71d533f32879ebc9e8a148d3671daa", "0.388.0--pyh7e72e81_2": "sha256:c91f3b22c8341691602827cf5d3ecebdee6585d86ac5f7ef387e55b20a446225"}, "docker": "quay.io/biocontainers/dxpy", "aliases": {"dx": "/usr/local/bin/dx", "dx-app-wizard": "/usr/local/bin/dx-app-wizard", "dx-build-app": "/usr/local/bin/dx-build-app", "dx-build-applet": "/usr/local/bin/dx-build-applet", "dx-clone-asset": "/usr/local/bin/dx-clone-asset", "dx-docker": "/usr/local/bin/dx-docker", "dx-download-all-inputs": "/usr/local/bin/dx-download-all-inputs", "dx-fetch-bundled-depends": "/usr/local/bin/dx-fetch-bundled-depends", "dx-generate-dxapp": "/usr/local/bin/dx-generate-dxapp", "dx-jobutil-add-output": "/usr/local/bin/dx-jobutil-add-output", "dx-jobutil-dxlink": "/usr/local/bin/dx-jobutil-dxlink", "dx-jobutil-new-job": "/usr/local/bin/dx-jobutil-new-job", "dx-jobutil-parse-link": "/usr/local/bin/dx-jobutil-parse-link", "dx-jobutil-report-error": "/usr/local/bin/dx-jobutil-report-error", "dx-log-stream": "/usr/local/bin/dx-log-stream", "dx-mount-all-inputs": "/usr/local/bin/dx-mount-all-inputs", "dx-notebook-reconnect": "/usr/local/bin/dx-notebook-reconnect", "dx-print-bash-vars": "/usr/local/bin/dx-print-bash-vars", "dx-upload-all-outputs": "/usr/local/bin/dx-upload-all-outputs", "wsdump": "/usr/local/bin/wsdump", "xattr": "/usr/local/bin/xattr", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dxpy.
@@ -62,7 +64,7 @@ $ shpc install quay.io/biocontainers/dxpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dxpy:0.387.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/dxpy:0.389.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dxpy/0.387.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/dxpy/0.387.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/dxpy/0.389.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/dxpy/0.389.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

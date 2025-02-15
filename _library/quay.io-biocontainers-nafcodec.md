@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nafcodec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nafcodec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nafcodec/container.yaml"
-updated_at: "2025-02-14 03:33:31.309925"
-latest: "0.2.0--py310hec43fc7_0"
+updated_at: "2025-02-15 03:30:52.470403"
+latest: "0.3.1--py310hec43fc7_1"
 container_url: "https://biocontainers.pro/tools/nafcodec"
 aliases:
  - "2to3-3.10"
@@ -15,8 +15,10 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2.0--py310hec43fc7_0"
+ - "0.3.1--py310hec43fc7_1"
+ - "0.2.0--py39h5b94c0b_0"
 description: "singularity registry hpc automated addition for nafcodec"
-config: {"url": "https://biocontainers.pro/tools/nafcodec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nafcodec", "latest": {"0.2.0--py310hec43fc7_0": "sha256:8c2f86d24ad9f17deb4683a7962bd7b7cac62560ff10adfb091555d9d3b0e2e6"}, "tags": {"0.2.0--py310hec43fc7_0": "sha256:8c2f86d24ad9f17deb4683a7962bd7b7cac62560ff10adfb091555d9d3b0e2e6"}, "docker": "quay.io/biocontainers/nafcodec", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/nafcodec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nafcodec", "latest": {"0.3.1--py310hec43fc7_1": "sha256:ff00718beb0c114fcf5e3a71a18e451cfd697c23e6993e70de5ea4e622bce8b1"}, "tags": {"0.2.0--py310hec43fc7_0": "sha256:8c2f86d24ad9f17deb4683a7962bd7b7cac62560ff10adfb091555d9d3b0e2e6", "0.3.1--py310hec43fc7_1": "sha256:ff00718beb0c114fcf5e3a71a18e451cfd697c23e6993e70de5ea4e622bce8b1", "0.2.0--py39h5b94c0b_0": "sha256:c9e23b11ac5b329484a28af10d9d01d632c7261ff033d36873656f6175944e40"}, "docker": "quay.io/biocontainers/nafcodec", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nafcodec.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/nafcodec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nafcodec:0.2.0--py310hec43fc7_0
+$ shpc install quay.io/biocontainers/nafcodec:0.3.1--py310hec43fc7_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nafcodec/0.2.0--py310hec43fc7_0
-$ module help quay.io/biocontainers/nafcodec/0.2.0--py310hec43fc7_0
+$ module load quay.io/biocontainers/nafcodec/0.3.1--py310hec43fc7_1
+$ module help quay.io/biocontainers/nafcodec/0.3.1--py310hec43fc7_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

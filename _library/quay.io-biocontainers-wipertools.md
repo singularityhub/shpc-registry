@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wipertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wipertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wipertools/container.yaml"
-updated_at: "2025-02-14 03:04:57.926483"
-latest: "1.1.3--pyhdfd78af_0"
+updated_at: "2025-02-15 03:02:47.504073"
+latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wipertools"
 aliases:
  - "wipertools"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.1.1--pyhdfd78af_0"
  - "1.1.3--pyhdfd78af_0"
+ - "1.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for wipertools"
-config: {"url": "https://biocontainers.pro/tools/wipertools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wipertools", "latest": {"1.1.3--pyhdfd78af_0": "sha256:83e34c29867d0e6faf8badc2acfaa025b88179d8ec486e4e11553499516ebfce"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:28ce1da54c39fba69af7ad37653bdb09708742ddfc47b2b70117081a59cf5237", "1.1.3--pyhdfd78af_0": "sha256:83e34c29867d0e6faf8badc2acfaa025b88179d8ec486e4e11553499516ebfce"}, "docker": "quay.io/biocontainers/wipertools", "aliases": {"wipertools": "/usr/local/bin/wipertools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/wipertools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wipertools", "latest": {"1.1.5--pyhdfd78af_0": "sha256:ef6598fa099e600551baef393deb5d0e4ba9b7b283d2b4f6200607a86b95ed6f"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:28ce1da54c39fba69af7ad37653bdb09708742ddfc47b2b70117081a59cf5237", "1.1.3--pyhdfd78af_0": "sha256:83e34c29867d0e6faf8badc2acfaa025b88179d8ec486e4e11553499516ebfce", "1.1.5--pyhdfd78af_0": "sha256:ef6598fa099e600551baef393deb5d0e4ba9b7b283d2b4f6200607a86b95ed6f"}, "docker": "quay.io/biocontainers/wipertools", "aliases": {"wipertools": "/usr/local/bin/wipertools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wipertools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/wipertools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wipertools:1.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/wipertools:1.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wipertools/1.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/wipertools/1.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/wipertools/1.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/wipertools/1.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

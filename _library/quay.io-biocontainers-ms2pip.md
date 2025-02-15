@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms2pip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2pip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2pip/container.yaml"
-updated_at: "2025-02-14 03:00:01.695501"
+updated_at: "2025-02-15 02:57:54.004087"
 latest: "4.1.0--py310h1fe012e_1"
 container_url: "https://biocontainers.pro/tools/ms2pip"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telosearchlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telosearchlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telosearchlr/container.yaml"
-updated_at: "2025-02-14 03:01:10.323193"
+updated_at: "2025-02-15 02:59:01.802162"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telosearchlr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hicberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicberg/container.yaml"
-updated_at: "2025-02-14 03:29:45.367641"
+updated_at: "2025-02-15 03:27:10.991295"
 latest: "1.0.0--py312hcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/hicberg"
 aliases:

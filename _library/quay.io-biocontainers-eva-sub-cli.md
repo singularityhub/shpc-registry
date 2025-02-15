@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eva-sub-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eva-sub-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eva-sub-cli/container.yaml"
-updated_at: "2025-02-14 02:51:07.344567"
+updated_at: "2025-02-15 02:49:18.124366"
 latest: "0.2--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eva-sub-cli"
 aliases:

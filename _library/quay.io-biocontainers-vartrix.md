@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vartrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartrix/container.yaml"
-updated_at: "2025-02-14 03:16:58.089989"
-latest: "1.1.22--h4e4ad14_5"
+updated_at: "2025-02-15 03:14:25.440021"
+latest: "1.1.22--h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/vartrix"
 aliases:
  - "vartrix"
@@ -14,8 +14,9 @@ versions:
  - "1.1.22--hd11b1f6_2"
  - "1.1.22--h27d5293_3"
  - "1.1.22--h4e4ad14_5"
+ - "1.1.22--h9ee0642_6"
 description: "shpc-registry automated BioContainers addition for vartrix"
-config: {"url": "https://biocontainers.pro/tools/vartrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vartrix", "latest": {"1.1.22--h4e4ad14_5": "sha256:044ecd849eb18ad06063769d9a0084a5df52d0c205d5a5d48474f50ab7662928"}, "tags": {"1.1.22--hd11b1f6_1": "sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261", "1.1.22--hd11b1f6_2": "sha256:eeb54bd52048d4934eb6603d9aac116ef536887f7445472f9c6ab67967f2a169", "1.1.22--h27d5293_3": "sha256:69baf827a57cb5ddac4c1d61837a944da6ff55f45839775c669ab620dc729052", "1.1.22--h4e4ad14_5": "sha256:044ecd849eb18ad06063769d9a0084a5df52d0c205d5a5d48474f50ab7662928"}, "docker": "quay.io/biocontainers/vartrix", "aliases": {"vartrix": "/usr/local/bin/vartrix"}}
+config: {"url": "https://biocontainers.pro/tools/vartrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vartrix", "latest": {"1.1.22--h9ee0642_6": "sha256:b1ffca2b4187f46cd48ad0bba7eb0ffcdec4932abf9c32d79de4b06d2e0a39b1"}, "tags": {"1.1.22--hd11b1f6_1": "sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261", "1.1.22--hd11b1f6_2": "sha256:eeb54bd52048d4934eb6603d9aac116ef536887f7445472f9c6ab67967f2a169", "1.1.22--h27d5293_3": "sha256:69baf827a57cb5ddac4c1d61837a944da6ff55f45839775c669ab620dc729052", "1.1.22--h4e4ad14_5": "sha256:044ecd849eb18ad06063769d9a0084a5df52d0c205d5a5d48474f50ab7662928", "1.1.22--h9ee0642_6": "sha256:b1ffca2b4187f46cd48ad0bba7eb0ffcdec4932abf9c32d79de4b06d2e0a39b1"}, "docker": "quay.io/biocontainers/vartrix", "aliases": {"vartrix": "/usr/local/bin/vartrix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vartrix.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/vartrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vartrix:1.1.22--h4e4ad14_5
+$ shpc install quay.io/biocontainers/vartrix:1.1.22--h9ee0642_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vartrix/1.1.22--h4e4ad14_5
-$ module help quay.io/biocontainers/vartrix/1.1.22--h4e4ad14_5
+$ module load quay.io/biocontainers/vartrix/1.1.22--h9ee0642_6
+$ module help quay.io/biocontainers/vartrix/1.1.22--h9ee0642_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
