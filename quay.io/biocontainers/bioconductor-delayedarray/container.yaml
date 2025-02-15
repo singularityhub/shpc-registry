@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-delayedarray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-delayedarray
 latest:
-  0.32.0--r44h3df3fcb_0: sha256:58324711c5386b764682c6a6685dbaccf40438684e15decc9a4f19a42a02e460
+  0.32.0--r44h3df3fcb_1: sha256:f839034f9ad8ccf5d8db949d781abffa94da18a95e3fa05b5f735322f306ee74
 tags:
   0.8.0--r351h14c3975_0: sha256:0b945d7155de70e961ddb914b596ccff70d76c9f0ca0b5360b48e0aa103ef01e
   0.24.0--r42hc0cfd56_0: sha256:af5bfcd1ad096fb66eaea08d137317419856076729d3c0afb084b6432062fd3c
@@ -15,6 +15,7 @@ tags:
   0.28.0--r43ha9d7317_1: sha256:4d170846a1438499c210745aa45dae15c1f21c4a14e12a59d86cdf8285804884
   0.28.0--r43ha9d7317_2: sha256:b32b5f366ef4bc097d634874cdd1fe7570b76b5622716a969caa15b9c55c5c59
   0.32.0--r44h3df3fcb_0: sha256:58324711c5386b764682c6a6685dbaccf40438684e15decc9a4f19a42a02e460
+  0.32.0--r44h3df3fcb_1: sha256:f839034f9ad8ccf5d8db949d781abffa94da18a95e3fa05b5f735322f306ee74
 docker: quay.io/biocontainers/bioconductor-delayedarray
 aliases:
   c89: /usr/local/bin/c89
