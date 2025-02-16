@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigtools/container.yaml"
-updated_at: "2025-02-15 03:24:49.977503"
+updated_at: "2025-02-16 03:31:58.515040"
 latest: "0.5.4--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/bigtools"
 aliases:

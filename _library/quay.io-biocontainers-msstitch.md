@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msstitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msstitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msstitch/container.yaml"
-updated_at: "2025-02-15 03:15:22.728593"
-latest: "3.16--pyhdfd78af_0"
+updated_at: "2025-02-16 03:22:24.948067"
+latest: "3.17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msstitch"
 aliases:
  - "msstitch"
@@ -27,8 +27,9 @@ versions:
  - "3.14--pyhdfd78af_0"
  - "3.15--pyhdfd78af_0"
  - "3.16--pyhdfd78af_0"
+ - "3.17--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msstitch"
-config: {"url": "https://biocontainers.pro/tools/msstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msstitch", "latest": {"3.16--pyhdfd78af_0": "sha256:2811254656851e3868c81af2caa8b7a1b1b8f1d7c07dc07f06bcb969a8a9f955"}, "tags": {"3.9--pyhdfd78af_0": "sha256:22c86ee8f362099c0081c2af88e669429bffcb07ca7b0764c65a4cc749ea0015", "3.11--pyhdfd78af_0": "sha256:e559ceb561205f9e77e1c84b4500d5c206af2ba78548cf4644d453d3005ae3fd", "3.10--pyhdfd78af_0": "sha256:247cb99b9cdfeb7ed6e2a200096574e6108405ad7b6f9dcfa19a24e7fc10fc55", "3.13--pyhdfd78af_0": "sha256:5c49839da79530b941df2fd66b84c8b95bd9dca69f26d76ef2e4dc8427bbfb87", "3.12--pyhdfd78af_0": "sha256:47be4b3f4b66f8a712d9a6ab27e37569720f90dedf3b9293c0fec7c92a5d45ce", "3.14--pyhdfd78af_0": "sha256:e5dda6b879a5c8ca29f2eff32ea46fc78bf201f0c4b77623c0c8316090f95064", "3.15--pyhdfd78af_0": "sha256:257c417314523dc3c9225ee706301bd8f8d4e3c687fa530868bf15c52599c1dc", "3.16--pyhdfd78af_0": "sha256:2811254656851e3868c81af2caa8b7a1b1b8f1d7c07dc07f06bcb969a8a9f955"}, "docker": "quay.io/biocontainers/msstitch", "aliases": {"msstitch": "/usr/local/bin/msstitch", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/msstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msstitch", "latest": {"3.17--pyhdfd78af_0": "sha256:035c27ead23b249d9b86c7ebf0b79e85fda788019ae1dc36ef0b89aa77c21551"}, "tags": {"3.9--pyhdfd78af_0": "sha256:22c86ee8f362099c0081c2af88e669429bffcb07ca7b0764c65a4cc749ea0015", "3.11--pyhdfd78af_0": "sha256:e559ceb561205f9e77e1c84b4500d5c206af2ba78548cf4644d453d3005ae3fd", "3.10--pyhdfd78af_0": "sha256:247cb99b9cdfeb7ed6e2a200096574e6108405ad7b6f9dcfa19a24e7fc10fc55", "3.13--pyhdfd78af_0": "sha256:5c49839da79530b941df2fd66b84c8b95bd9dca69f26d76ef2e4dc8427bbfb87", "3.12--pyhdfd78af_0": "sha256:47be4b3f4b66f8a712d9a6ab27e37569720f90dedf3b9293c0fec7c92a5d45ce", "3.14--pyhdfd78af_0": "sha256:e5dda6b879a5c8ca29f2eff32ea46fc78bf201f0c4b77623c0c8316090f95064", "3.15--pyhdfd78af_0": "sha256:257c417314523dc3c9225ee706301bd8f8d4e3c687fa530868bf15c52599c1dc", "3.16--pyhdfd78af_0": "sha256:2811254656851e3868c81af2caa8b7a1b1b8f1d7c07dc07f06bcb969a8a9f955", "3.17--pyhdfd78af_0": "sha256:035c27ead23b249d9b86c7ebf0b79e85fda788019ae1dc36ef0b89aa77c21551"}, "docker": "quay.io/biocontainers/msstitch", "aliases": {"msstitch": "/usr/local/bin/msstitch", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msstitch.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/msstitch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msstitch:3.16--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/msstitch:3.17--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msstitch/3.16--pyhdfd78af_0
-$ module help quay.io/biocontainers/msstitch/3.16--pyhdfd78af_0
+$ module load quay.io/biocontainers/msstitch/3.17--pyhdfd78af_0
+$ module help quay.io/biocontainers/msstitch/3.17--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

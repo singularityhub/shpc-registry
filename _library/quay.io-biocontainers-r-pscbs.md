@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pscbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscbs/container.yaml"
-updated_at: "2025-02-15 03:06:31.260352"
+updated_at: "2025-02-16 03:13:21.536717"
 latest: "0.67.0--r44h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-pscbs"
 

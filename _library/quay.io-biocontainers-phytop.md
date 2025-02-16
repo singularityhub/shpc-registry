@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phytop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phytop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phytop/container.yaml"
-updated_at: "2025-02-15 03:12:06.851991"
+updated_at: "2025-02-16 03:19:03.759137"
 latest: "0.3--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/phytop"
 aliases:

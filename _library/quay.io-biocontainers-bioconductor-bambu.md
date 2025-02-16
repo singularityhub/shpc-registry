@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bambu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bambu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bambu/container.yaml"
-updated_at: "2025-02-15 03:07:55.287498"
+updated_at: "2025-02-16 03:14:46.419481"
 latest: "3.4.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bambu"
 aliases:

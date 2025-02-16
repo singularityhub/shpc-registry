@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/longstitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longstitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longstitch/container.yaml"
-updated_at: "2025-02-15 03:26:19.355302"
-latest: "1.0.5--hdfd78af_0"
+updated_at: "2025-02-16 03:33:29.760406"
+latest: "1.0.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/longstitch"
 aliases:
  - "LINKS"
@@ -65,8 +65,9 @@ versions:
  - "1.0.4--hdfd78af_0"
  - "1.0.4--hdfd78af_1"
  - "1.0.5--hdfd78af_0"
+ - "1.0.5--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for longstitch"
-config: {"url": "https://biocontainers.pro/tools/longstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longstitch", "latest": {"1.0.5--hdfd78af_0": "sha256:5dea20f18e058e39278701df1ae567b023eb1cb81c029ca8b437f633ee9cd55d"}, "tags": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e", "1.0.4--hdfd78af_0": "sha256:e4593ecb6f232d54c69e41cec168892414fc91eeddd2c345b2b654fec4789b64", "1.0.4--hdfd78af_1": "sha256:95c6aace76922832d89f34ace28d13e387f8777d0d22de8dd39faca441b14981", "1.0.5--hdfd78af_0": "sha256:5dea20f18e058e39278701df1ae567b023eb1cb81c029ca8b437f633ee9cd55d"}, "docker": "quay.io/biocontainers/longstitch", "aliases": {"LINKS": "/usr/local/bin/LINKS", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe", "longstitch": "/usr/local/bin/longstitch", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
+config: {"url": "https://biocontainers.pro/tools/longstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longstitch", "latest": {"1.0.5--hdfd78af_1": "sha256:7742db1c8b9dd3d8737cfbc55a2c688d709f5e532b61a72eba163e8db5d5c7ae"}, "tags": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e", "1.0.4--hdfd78af_0": "sha256:e4593ecb6f232d54c69e41cec168892414fc91eeddd2c345b2b654fec4789b64", "1.0.4--hdfd78af_1": "sha256:95c6aace76922832d89f34ace28d13e387f8777d0d22de8dd39faca441b14981", "1.0.5--hdfd78af_0": "sha256:5dea20f18e058e39278701df1ae567b023eb1cb81c029ca8b437f633ee9cd55d", "1.0.5--hdfd78af_1": "sha256:7742db1c8b9dd3d8737cfbc55a2c688d709f5e532b61a72eba163e8db5d5c7ae"}, "docker": "quay.io/biocontainers/longstitch", "aliases": {"LINKS": "/usr/local/bin/LINKS", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe", "longstitch": "/usr/local/bin/longstitch", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longstitch.
@@ -81,7 +82,7 @@ $ shpc install quay.io/biocontainers/longstitch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longstitch:1.0.5--hdfd78af_0
+$ shpc install quay.io/biocontainers/longstitch:1.0.5--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -93,8 +94,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longstitch/1.0.5--hdfd78af_0
-$ module help quay.io/biocontainers/longstitch/1.0.5--hdfd78af_0
+$ module load quay.io/biocontainers/longstitch/1.0.5--hdfd78af_1
+$ module help quay.io/biocontainers/longstitch/1.0.5--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

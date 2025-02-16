@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/voyager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voyager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voyager/container.yaml"
-updated_at: "2025-02-15 03:21:44.224254"
+updated_at: "2025-02-16 03:28:51.804695"
 latest: "0.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/voyager"
 aliases:
