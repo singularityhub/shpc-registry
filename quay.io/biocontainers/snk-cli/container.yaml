@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/snk-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snk-cli
 latest:
-  0.7.1--pyhdfd78af_0: sha256:c980255b56fa456c90ea018f9530b05eedb60ca3d4e10052e4ad81e790d262d9
+  0.7.2--pyhdfd78af_0: sha256:4c269f4a6373a73f0bf6751dad98f5c8a1c628a8f289811338a77384566563b2
 tags:
   0.5.5--pyhdfd78af_0: sha256:8bcf74b84006572cf2c9918a63743aaf0042c398c9a93e189166ac4facedb04a
   0.7.1--pyhdfd78af_0: sha256:c980255b56fa456c90ea018f9530b05eedb60ca3d4e10052e4ad81e790d262d9
+  0.7.2--pyhdfd78af_0: sha256:4c269f4a6373a73f0bf6751dad98f5c8a1c628a8f289811338a77384566563b2
 docker: quay.io/biocontainers/snk-cli
 aliases:
   art: /usr/local/bin/art

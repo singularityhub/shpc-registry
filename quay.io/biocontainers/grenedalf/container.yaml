@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/grenedalf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grenedalf
 latest:
-  0.6.2--hbefcdb2_1: sha256:c70255fbd9e62ffd4a03d54950efe9b34e331510d85aa5f06db66980ef5d900e
+  0.6.3--hbefcdb2_0: sha256:b2fc748be27626e60b3b0bec50091271345ada25287d61e66a39c29d87df7352
 tags:
   0.6.0--h27d5293_0: sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c
   0.6.2--h27d5293_0: sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945
   0.6.2--hbefcdb2_1: sha256:c70255fbd9e62ffd4a03d54950efe9b34e331510d85aa5f06db66980ef5d900e
+  0.6.3--hbefcdb2_0: sha256:b2fc748be27626e60b3b0bec50091271345ada25287d61e66a39c29d87df7352
 docker: quay.io/biocontainers/grenedalf
 aliases:
   grenedalf: /usr/local/bin/grenedalf
