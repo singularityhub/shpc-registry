@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymzml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymzml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymzml/container.yaml"
-updated_at: "2025-02-16 03:05:50.796068"
-latest: "2.5.10--pyhdfd78af_0"
+updated_at: "2025-02-17 03:04:34.924210"
+latest: "2.5.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pymzml"
 aliases:
  - "f2py3.10"
@@ -22,8 +22,9 @@ versions:
  - "2.5.6--pyhdfd78af_0"
  - "2.5.9--pyhdfd78af_0"
  - "2.5.10--pyhdfd78af_0"
+ - "2.5.11--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pymzml"
-config: {"url": "https://biocontainers.pro/tools/pymzml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymzml", "latest": {"2.5.10--pyhdfd78af_0": "sha256:91540ef91daebc3a013ada318f1809935a19e719fc5a0810838bc889d2c0cf19"}, "tags": {"2.5.2--pyhdfd78af_0": "sha256:3ebc76112579dd8564784c9ac876626705ea4006653ca317f0e77d71fa96f82a", "2.5.3--pyhdfd78af_0": "sha256:545817b3277aa5f22ab0b2c5e63f8961f24cdefaa5681242190ab5e776fd579f", "2.5.5--pyhdfd78af_0": "sha256:c90fff0ce42efaf4396f721aefb85c7885429a878c4fd7698162fa487548d286", "2.5.6--pyhdfd78af_0": "sha256:3891bd3f970cfa3f38059ab9d5141b0bc1b7a5bf9f13942cdef0c6dbf53d4051", "2.5.9--pyhdfd78af_0": "sha256:8ed1849f4170c56fc89e1839681bdc90a669480aa7a3d9a6c960733022affce8", "2.5.10--pyhdfd78af_0": "sha256:91540ef91daebc3a013ada318f1809935a19e719fc5a0810838bc889d2c0cf19"}, "docker": "quay.io/biocontainers/pymzml", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pymzml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymzml", "latest": {"2.5.11--pyhdfd78af_0": "sha256:3636fd2a9da4d33f5568e03ddb18feb06551edf7d9a481b7d06b5c2e8576396b"}, "tags": {"2.5.2--pyhdfd78af_0": "sha256:3ebc76112579dd8564784c9ac876626705ea4006653ca317f0e77d71fa96f82a", "2.5.3--pyhdfd78af_0": "sha256:545817b3277aa5f22ab0b2c5e63f8961f24cdefaa5681242190ab5e776fd579f", "2.5.5--pyhdfd78af_0": "sha256:c90fff0ce42efaf4396f721aefb85c7885429a878c4fd7698162fa487548d286", "2.5.6--pyhdfd78af_0": "sha256:3891bd3f970cfa3f38059ab9d5141b0bc1b7a5bf9f13942cdef0c6dbf53d4051", "2.5.9--pyhdfd78af_0": "sha256:8ed1849f4170c56fc89e1839681bdc90a669480aa7a3d9a6c960733022affce8", "2.5.10--pyhdfd78af_0": "sha256:91540ef91daebc3a013ada318f1809935a19e719fc5a0810838bc889d2c0cf19", "2.5.11--pyhdfd78af_0": "sha256:3636fd2a9da4d33f5568e03ddb18feb06551edf7d9a481b7d06b5c2e8576396b"}, "docker": "quay.io/biocontainers/pymzml", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymzml.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pymzml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymzml:2.5.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pymzml:2.5.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymzml/2.5.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/pymzml/2.5.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/pymzml/2.5.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/pymzml/2.5.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

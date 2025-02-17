@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codingquarry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codingquarry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codingquarry/container.yaml"
-updated_at: "2025-02-16 03:24:57.166626"
+updated_at: "2025-02-17 03:23:20.371111"
 latest: "2.0--py310h184ae93_10"
 container_url: "https://biocontainers.pro/tools/codingquarry"
 aliases:

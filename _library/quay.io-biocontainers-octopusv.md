@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/octopusv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/octopusv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/octopusv/container.yaml"
-updated_at: "2025-02-16 03:16:07.007630"
+updated_at: "2025-02-17 03:14:36.866516"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/octopusv"
 aliases:

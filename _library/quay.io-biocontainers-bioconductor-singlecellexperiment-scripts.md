@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singlecellexperiment-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/container.yaml"
-updated_at: "2025-02-16 03:00:26.026091"
+updated_at: "2025-02-17 02:59:15.749283"
 latest: "0.0.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecellexperiment-scripts"
 aliases:

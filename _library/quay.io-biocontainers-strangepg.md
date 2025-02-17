@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strangepg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strangepg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strangepg/container.yaml"
-updated_at: "2025-02-16 03:40:00.211821"
-latest: "0.8.17--h0ac75b0_0"
+updated_at: "2025-02-17 03:38:09.359026"
+latest: "0.8.18.1--h0ac75b0_0"
 container_url: "https://biocontainers.pro/tools/strangepg"
 aliases:
  - "strawk"
@@ -17,8 +17,9 @@ versions:
  - "0.8.14--h9a53f25_0"
  - "0.8.15--h9a53f25_0"
  - "0.8.17--h0ac75b0_0"
+ - "0.8.18.1--h0ac75b0_0"
 description: "singularity registry hpc automated addition for strangepg"
-config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.8.17--h0ac75b0_0": "sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b", "0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38", "0.8.8--h9a53f25_0": "sha256:c988a26a45d48192a7f08dfe01a64f8942f840b3999376b3fabf63689ec4daaf", "0.8.14--h9a53f25_0": "sha256:6609ba89ba913488bc22cf4db5355243ff9a481e17e5b8e16afefceaefe08e2d", "0.8.15--h9a53f25_0": "sha256:aad2024368fed2c71369185323441195980a5d5977957e6a1bfe5380d2c19ab9", "0.8.17--h0ac75b0_0": "sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
+config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.8.18.1--h0ac75b0_0": "sha256:e935a87c8d6fd84d4814b1e4da9f83d7c903a753155d56663a594e4cf3f044c7"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b", "0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38", "0.8.8--h9a53f25_0": "sha256:c988a26a45d48192a7f08dfe01a64f8942f840b3999376b3fabf63689ec4daaf", "0.8.14--h9a53f25_0": "sha256:6609ba89ba913488bc22cf4db5355243ff9a481e17e5b8e16afefceaefe08e2d", "0.8.15--h9a53f25_0": "sha256:aad2024368fed2c71369185323441195980a5d5977957e6a1bfe5380d2c19ab9", "0.8.17--h0ac75b0_0": "sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19", "0.8.18.1--h0ac75b0_0": "sha256:e935a87c8d6fd84d4814b1e4da9f83d7c903a753155d56663a594e4cf3f044c7"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strangepg.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/strangepg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strangepg:0.8.17--h0ac75b0_0
+$ shpc install quay.io/biocontainers/strangepg:0.8.18.1--h0ac75b0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strangepg/0.8.17--h0ac75b0_0
-$ module help quay.io/biocontainers/strangepg/0.8.17--h0ac75b0_0
+$ module load quay.io/biocontainers/strangepg/0.8.18.1--h0ac75b0_0
+$ module help quay.io/biocontainers/strangepg/0.8.18.1--h0ac75b0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

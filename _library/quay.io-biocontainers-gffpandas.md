@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffpandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffpandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffpandas/container.yaml"
-updated_at: "2025-02-16 03:32:48.409106"
+updated_at: "2025-02-17 03:31:04.768436"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gffpandas"
 aliases:

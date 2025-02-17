@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cogena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogena/container.yaml"
-updated_at: "2025-02-16 03:38:52.854141"
+updated_at: "2025-02-17 03:37:03.626751"
 latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogena"
 
