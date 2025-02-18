@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/eastr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eastr
 latest:
-  1.1.1--py310h275bdba_1: sha256:ff0fd0a4b884f92f66b7be9b89a1395469b4b3d5f0bb470f69a6ca9ba9344966
+  1.1.1--py312h5e9d817_2: sha256:b9d54aae9a0d21c1c6f9855bcad4b68ec2cb904af40342bf49983fda8b7e957d
 tags:
   1.1.1--py310h275bdba_1: sha256:ff0fd0a4b884f92f66b7be9b89a1395469b4b3d5f0bb470f69a6ca9ba9344966
+  1.1.1--py312h5e9d817_2: sha256:b9d54aae9a0d21c1c6f9855bcad4b68ec2cb904af40342bf49983fda8b7e957d
 docker: quay.io/biocontainers/eastr
 aliases:
   eastr: /usr/local/bin/eastr

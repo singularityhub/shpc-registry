@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/perl-gd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-gd
 latest:
-  2.76--pl5321h5b5514e_1: sha256:df5dae5c943b410f5b62a61ef67bcab6b4358f2fbafef8381b816a00e7276a3e
+  2.83--pl5321hc25ab4d_0: sha256:d5037c9b8b21154b198b8fa3d14f5aa717fbc5636af581bf76896fad8d585957
 tags:
   2.76--pl5321h5b5514e_1: sha256:df5dae5c943b410f5b62a61ef67bcab6b4358f2fbafef8381b816a00e7276a3e
+  2.83--pl5321hc25ab4d_0: sha256:d5037c9b8b21154b198b8fa3d14f5aa717fbc5636af581bf76896fad8d585957
 docker: quay.io/biocontainers/perl-gd
