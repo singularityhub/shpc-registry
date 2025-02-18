@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhesusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhesusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhesusprobe/container.yaml"
-updated_at: "2025-02-17 02:59:40.191390"
+updated_at: "2025-02-18 02:54:57.804127"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhesusprobe"
 

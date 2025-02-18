@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-baynorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-baynorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-baynorm/container.yaml"
-updated_at: "2025-02-17 03:37:30.525813"
+updated_at: "2025-02-18 03:32:09.247503"
 latest: "1.24.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-baynorm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-decoupler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decoupler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decoupler/container.yaml"
-updated_at: "2025-02-17 03:04:01.814985"
+updated_at: "2025-02-18 02:59:14.793507"
 latest: "2.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decoupler"
 

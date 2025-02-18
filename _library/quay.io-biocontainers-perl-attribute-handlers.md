@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-attribute-handlers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-attribute-handlers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-attribute-handlers/container.yaml"
-updated_at: "2025-02-17 03:16:47.286951"
+updated_at: "2025-02-18 03:11:47.141000"
 latest: "0.96--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-attribute-handlers"
 aliases:

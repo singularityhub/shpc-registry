@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/erds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/erds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/erds/container.yaml"
-updated_at: "2025-02-17 02:58:43.898213"
+updated_at: "2025-02-18 02:54:02.555465"
 latest: "1.1--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/erds"
 aliases:

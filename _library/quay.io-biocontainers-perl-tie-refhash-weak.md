@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-refhash-weak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-refhash-weak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-refhash-weak/container.yaml"
-updated_at: "2025-02-17 03:23:52.227613"
+updated_at: "2025-02-18 03:18:45.084518"
 latest: "0.09--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-refhash-weak"
 aliases:

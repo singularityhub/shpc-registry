@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/excludonfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/excludonfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/excludonfinder/container.yaml"
-updated_at: "2025-02-17 03:20:29.835429"
+updated_at: "2025-02-18 03:15:26.089189"
 latest: "0.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/excludonfinder"
 aliases:

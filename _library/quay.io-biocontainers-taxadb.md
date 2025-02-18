@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxadb/container.yaml"
-updated_at: "2025-02-17 02:58:17.362550"
+updated_at: "2025-02-18 02:53:36.510297"
 latest: "0.12.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/taxadb"
 aliases:

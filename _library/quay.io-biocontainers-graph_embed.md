@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graph_embed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graph_embed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graph_embed/container.yaml"
-updated_at: "2025-02-17 03:20:05.345376"
+updated_at: "2025-02-18 03:15:01.893571"
 latest: "2.4--py_0"
 container_url: "https://biocontainers.pro/tools/graph_embed"
 aliases:

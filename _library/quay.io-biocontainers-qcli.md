@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcli/container.yaml"
-updated_at: "2025-02-17 03:33:55.419614"
+updated_at: "2025-02-18 03:28:37.528052"
 latest: "0.1.1--py_3"
 container_url: "https://biocontainers.pro/tools/qcli"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snk-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snk-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snk-cli/container.yaml"
-updated_at: "2025-02-17 02:59:28.802808"
-latest: "0.7.1--pyhdfd78af_0"
+updated_at: "2025-02-18 02:54:46.581211"
+latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snk-cli"
 aliases:
  - "art"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.5.5--pyhdfd78af_0"
  - "0.7.1--pyhdfd78af_0"
+ - "0.7.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snk-cli"
-config: {"url": "https://biocontainers.pro/tools/snk-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snk-cli", "latest": {"0.7.1--pyhdfd78af_0": "sha256:c980255b56fa456c90ea018f9530b05eedb60ca3d4e10052e4ad81e790d262d9"}, "tags": {"0.5.5--pyhdfd78af_0": "sha256:8bcf74b84006572cf2c9918a63743aaf0042c398c9a93e189166ac4facedb04a", "0.7.1--pyhdfd78af_0": "sha256:c980255b56fa456c90ea018f9530b05eedb60ca3d4e10052e4ad81e790d262d9"}, "docker": "quay.io/biocontainers/snk-cli", "aliases": {"art": "/usr/local/bin/art", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "markdown-it": "/usr/local/bin/markdown-it", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/snk-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snk-cli", "latest": {"0.7.2--pyhdfd78af_0": "sha256:4c269f4a6373a73f0bf6751dad98f5c8a1c628a8f289811338a77384566563b2"}, "tags": {"0.5.5--pyhdfd78af_0": "sha256:8bcf74b84006572cf2c9918a63743aaf0042c398c9a93e189166ac4facedb04a", "0.7.1--pyhdfd78af_0": "sha256:c980255b56fa456c90ea018f9530b05eedb60ca3d4e10052e4ad81e790d262d9", "0.7.2--pyhdfd78af_0": "sha256:4c269f4a6373a73f0bf6751dad98f5c8a1c628a8f289811338a77384566563b2"}, "docker": "quay.io/biocontainers/snk-cli", "aliases": {"art": "/usr/local/bin/art", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "markdown-it": "/usr/local/bin/markdown-it", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snk-cli.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/snk-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snk-cli:0.7.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snk-cli:0.7.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snk-cli/0.7.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snk-cli/0.7.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snk-cli/0.7.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snk-cli/0.7.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

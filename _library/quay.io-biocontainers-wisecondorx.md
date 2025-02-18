@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wisecondorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wisecondorx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wisecondorx/container.yaml"
-updated_at: "2025-02-17 03:12:09.238066"
+updated_at: "2025-02-18 03:07:14.068397"
 latest: "1.2.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wisecondorx"
 aliases:

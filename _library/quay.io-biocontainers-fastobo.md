@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastobo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastobo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastobo/container.yaml"
-updated_at: "2025-02-17 02:59:14.029857"
-latest: "0.12.3--py310h13f1c22_3"
+updated_at: "2025-02-18 02:54:31.996781"
+latest: "0.13.0--py39h77f74c3_0"
 container_url: "https://biocontainers.pro/tools/fastobo"
 aliases:
  - "2to3-3.7"
@@ -31,8 +31,9 @@ versions:
  - "0.12.3--py38hcbe9525_1"
  - "0.12.3--py38hda86a2d_2"
  - "0.12.3--py310h13f1c22_3"
+ - "0.13.0--py39h77f74c3_0"
 description: "shpc-registry automated BioContainers addition for fastobo"
-config: {"url": "https://biocontainers.pro/tools/fastobo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastobo", "latest": {"0.12.3--py310h13f1c22_3": "sha256:76cf55b69d5cea8d371ec24726055c5fd7240a62dc86f8b41aedf141665458aa"}, "tags": {"0.9.3--py37hfa133b6_0": "sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd", "0.12.1--py39h67e14b5_0": "sha256:895c619807741a5fede2803f5e31c75674584a009a8f1a8a3dfc6140956c1dc4", "0.11.1--py37h675a0cb_1": "sha256:f7e05ca04e1a4016a20c649f1e4bb567c9c9346f8db944b1c4bf0f915b3ee37a", "0.10.1--py38h6ed170a_0": "sha256:f6746300cd2e15cd312c3dde32850a6ecc4dbb263593335c6ca32b224834aab5", "0.12.2--py39h67e14b5_0": "sha256:cd22d7caa9fb316568a89ac6b12612500c002811a31831282f3d0b788e8dd232", "0.12.2--py39h67e14b5_1": "sha256:8761cffce96d433f755a9438cc6c7e203fe966fd4ce55889f39aa2084e70533c", "0.12.3--py39he10ea66_0": "sha256:f3e40730ad2f8d3a027213b442a8d548ceaeb5df4371827c0b2c41fdaa52ee55", "0.11.1--py36h4aaaa08_1": "sha256:682ed00e48cbfe7d514a4e73ca77f667d73616f722e35c71dc1c72be6bf8b130", "0.10.1--py37hfa133b6_0": "sha256:a75fab0a1f90eace15e65dd6173f1d22997b3be8f615d47fca6c6a1f5966cb87", "0.9.3--py36hf0b53f7_0": "sha256:04edb0dcbae847fc647bad271e17d7b86667c8a7c230e665ab29e0107445d102", "0.12.3--py38hcbe9525_1": "sha256:a8d7c12725ce7e9f6a5d7ae0102c5b2f8798ff13e7629289f1d96256c1a37246", "0.12.3--py38hda86a2d_2": "sha256:5b614e382f3e0a9246d8b666d85967e6cee28d03cc1cafeeb8eacb185907f1c1", "0.12.3--py310h13f1c22_3": "sha256:76cf55b69d5cea8d371ec24726055c5fd7240a62dc86f8b41aedf141665458aa"}, "docker": "quay.io/biocontainers/fastobo", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/fastobo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastobo", "latest": {"0.13.0--py39h77f74c3_0": "sha256:17282d3b47106fcf39257bb00430655e8929171057328a186f6e9beb8e8285c1"}, "tags": {"0.9.3--py37hfa133b6_0": "sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd", "0.12.1--py39h67e14b5_0": "sha256:895c619807741a5fede2803f5e31c75674584a009a8f1a8a3dfc6140956c1dc4", "0.11.1--py37h675a0cb_1": "sha256:f7e05ca04e1a4016a20c649f1e4bb567c9c9346f8db944b1c4bf0f915b3ee37a", "0.10.1--py38h6ed170a_0": "sha256:f6746300cd2e15cd312c3dde32850a6ecc4dbb263593335c6ca32b224834aab5", "0.12.2--py39h67e14b5_0": "sha256:cd22d7caa9fb316568a89ac6b12612500c002811a31831282f3d0b788e8dd232", "0.12.2--py39h67e14b5_1": "sha256:8761cffce96d433f755a9438cc6c7e203fe966fd4ce55889f39aa2084e70533c", "0.12.3--py39he10ea66_0": "sha256:f3e40730ad2f8d3a027213b442a8d548ceaeb5df4371827c0b2c41fdaa52ee55", "0.11.1--py36h4aaaa08_1": "sha256:682ed00e48cbfe7d514a4e73ca77f667d73616f722e35c71dc1c72be6bf8b130", "0.10.1--py37hfa133b6_0": "sha256:a75fab0a1f90eace15e65dd6173f1d22997b3be8f615d47fca6c6a1f5966cb87", "0.9.3--py36hf0b53f7_0": "sha256:04edb0dcbae847fc647bad271e17d7b86667c8a7c230e665ab29e0107445d102", "0.12.3--py38hcbe9525_1": "sha256:a8d7c12725ce7e9f6a5d7ae0102c5b2f8798ff13e7629289f1d96256c1a37246", "0.12.3--py38hda86a2d_2": "sha256:5b614e382f3e0a9246d8b666d85967e6cee28d03cc1cafeeb8eacb185907f1c1", "0.12.3--py310h13f1c22_3": "sha256:76cf55b69d5cea8d371ec24726055c5fd7240a62dc86f8b41aedf141665458aa", "0.13.0--py39h77f74c3_0": "sha256:17282d3b47106fcf39257bb00430655e8929171057328a186f6e9beb8e8285c1"}, "docker": "quay.io/biocontainers/fastobo", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastobo.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/fastobo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastobo:0.12.3--py310h13f1c22_3
+$ shpc install quay.io/biocontainers/fastobo:0.13.0--py39h77f74c3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastobo/0.12.3--py310h13f1c22_3
-$ module help quay.io/biocontainers/fastobo/0.12.3--py310h13f1c22_3
+$ module load quay.io/biocontainers/fastobo/0.13.0--py39h77f74c3_0
+$ module help quay.io/biocontainers/fastobo/0.13.0--py39h77f74c3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
