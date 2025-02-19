@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meskit/container.yaml"
-updated_at: "2025-02-18 03:33:24.915867"
+updated_at: "2025-02-19 03:38:12.084486"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meskit"
 

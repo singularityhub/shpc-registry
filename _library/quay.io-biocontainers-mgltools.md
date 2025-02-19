@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgltools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgltools/container.yaml"
-updated_at: "2025-02-18 02:56:51.951528"
+updated_at: "2025-02-19 02:59:50.252582"
 latest: "1.5.7--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/mgltools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/find_circ"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/find_circ/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/find_circ/container.yaml"
-updated_at: "2025-02-18 03:21:27.855531"
+updated_at: "2025-02-19 03:25:43.680923"
 latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/find_circ"
 aliases:

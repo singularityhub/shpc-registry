@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eastr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eastr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eastr/container.yaml"
-updated_at: "2025-02-18 03:10:01.316095"
-latest: "1.1.1--py310h275bdba_1"
+updated_at: "2025-02-19 03:13:43.540435"
+latest: "1.1.1--py312h5e9d817_2"
 container_url: "https://biocontainers.pro/tools/eastr"
 aliases:
  - "eastr"
@@ -36,8 +36,9 @@ aliases:
  - "psl2sam.pl"
 versions:
  - "1.1.1--py310h275bdba_1"
+ - "1.1.1--py312h5e9d817_2"
 description: "singularity registry hpc automated addition for eastr"
-config: {"url": "https://biocontainers.pro/tools/eastr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eastr", "latest": {"1.1.1--py310h275bdba_1": "sha256:ff0fd0a4b884f92f66b7be9b89a1395469b4b3d5f0bb470f69a6ca9ba9344966"}, "tags": {"1.1.1--py310h275bdba_1": "sha256:ff0fd0a4b884f92f66b7be9b89a1395469b4b3d5f0bb470f69a6ca9ba9344966"}, "docker": "quay.io/biocontainers/eastr", "aliases": {"eastr": "/usr/local/bin/eastr", "minimap2.py": "/usr/local/bin/minimap2.py", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/eastr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eastr", "latest": {"1.1.1--py312h5e9d817_2": "sha256:b9d54aae9a0d21c1c6f9855bcad4b68ec2cb904af40342bf49983fda8b7e957d"}, "tags": {"1.1.1--py310h275bdba_1": "sha256:ff0fd0a4b884f92f66b7be9b89a1395469b4b3d5f0bb470f69a6ca9ba9344966", "1.1.1--py312h5e9d817_2": "sha256:b9d54aae9a0d21c1c6f9855bcad4b68ec2cb904af40342bf49983fda8b7e957d"}, "docker": "quay.io/biocontainers/eastr", "aliases": {"eastr": "/usr/local/bin/eastr", "minimap2.py": "/usr/local/bin/minimap2.py", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eastr.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/eastr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eastr:1.1.1--py310h275bdba_1
+$ shpc install quay.io/biocontainers/eastr:1.1.1--py312h5e9d817_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eastr/1.1.1--py310h275bdba_1
-$ module help quay.io/biocontainers/eastr/1.1.1--py310h275bdba_1
+$ module load quay.io/biocontainers/eastr/1.1.1--py312h5e9d817_2
+$ module help quay.io/biocontainers/eastr/1.1.1--py312h5e9d817_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

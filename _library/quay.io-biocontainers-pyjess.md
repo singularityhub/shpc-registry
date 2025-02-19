@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyjess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyjess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyjess/container.yaml"
-updated_at: "2025-02-18 02:58:39.639667"
+updated_at: "2025-02-19 03:01:46.048089"
 latest: "0.4.1--py310h1fe012e_1"
 container_url: "https://biocontainers.pro/tools/pyjess"
 aliases:

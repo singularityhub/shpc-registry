@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/urllib3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/urllib3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/urllib3/container.yaml"
-updated_at: "2025-02-18 02:52:43.843063"
+updated_at: "2025-02-19 02:55:26.363451"
 latest: "1.25.9"
 container_url: "https://biocontainers.pro/tools/urllib3"
 aliases:

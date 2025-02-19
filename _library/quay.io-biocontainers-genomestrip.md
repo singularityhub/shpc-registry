@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomestrip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomestrip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomestrip/container.yaml"
-updated_at: "2025-02-18 03:04:20.753515"
+updated_at: "2025-02-19 03:07:45.678789"
 latest: "2.00.1833--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/genomestrip"
 aliases:

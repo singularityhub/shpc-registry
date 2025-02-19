@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-peach"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-peach/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-peach/container.yaml"
-updated_at: "2025-02-18 03:35:42.265839"
+updated_at: "2025-02-19 03:40:36.230068"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-peach"
 aliases:

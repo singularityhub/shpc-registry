@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-globalancova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globalancova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globalancova/container.yaml"
-updated_at: "2025-02-18 02:59:12.549555"
-latest: "4.24.0--r44h3df3fcb_0"
+updated_at: "2025-02-19 03:02:22.006957"
+latest: "4.24.0--r44h3df3fcb_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-globalancova"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -18,8 +18,9 @@ versions:
  - "4.18.0--r43ha9d7317_0"
  - "4.20.0--r43ha9d7317_0"
  - "4.24.0--r44h3df3fcb_0"
+ - "4.24.0--r44h3df3fcb_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-globalancova"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-globalancova", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globalancova", "latest": {"4.24.0--r44h3df3fcb_0": "sha256:6b8ff780516781196e2aade0fd6e1c8af59e02c3d7c69ef8b996ddeb70a4c55f"}, "tags": {"4.8.0--r40hd029910_1": "sha256:48fa31b9abc9c639ffe18c956bf9cfc4edd3d59502cd6394ba55c5d34ba3439f", "4.16.0--r42hc0cfd56_0": "sha256:e77e6ab8f53f5850c8d7289ffcc2cc474eadd66a15293f0537cf0120214f9702", "4.12.0--r41hc0cfd56_2": "sha256:778cc304a4c36ad072eaf43416d49ed9db07009219130d4f84cbfcb832155a32", "4.10.0--r41hd029910_0": "sha256:1012fd44ec127ec6368902cc4fd45bec8f302c94131cd63d2eccb05ea247e30b", "4.16.0--r42ha9d7317_1": "sha256:304e467341f7dc11b0b1723414f5596f62bc59fd6fcff613e453f0e279f4d219", "4.18.0--r43ha9d7317_0": "sha256:1021a7c6eefde28ec43f329bce4cb12c28271ccec4d2aa7d72df709d0c249627", "4.20.0--r43ha9d7317_0": "sha256:7d1c261aebfe7b5c0b30a1fb3ad2301034a2dc136debb399c7658c436a78769c", "4.24.0--r44h3df3fcb_0": "sha256:6b8ff780516781196e2aade0fd6e1c8af59e02c3d7c69ef8b996ddeb70a4c55f"}, "docker": "quay.io/biocontainers/bioconductor-globalancova", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-globalancova", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globalancova", "latest": {"4.24.0--r44h3df3fcb_2": "sha256:7940928e5cce158d4ec189c7a64ab8cf057a4a41ffd7b48eb20a80b35259d735"}, "tags": {"4.8.0--r40hd029910_1": "sha256:48fa31b9abc9c639ffe18c956bf9cfc4edd3d59502cd6394ba55c5d34ba3439f", "4.16.0--r42hc0cfd56_0": "sha256:e77e6ab8f53f5850c8d7289ffcc2cc474eadd66a15293f0537cf0120214f9702", "4.12.0--r41hc0cfd56_2": "sha256:778cc304a4c36ad072eaf43416d49ed9db07009219130d4f84cbfcb832155a32", "4.10.0--r41hd029910_0": "sha256:1012fd44ec127ec6368902cc4fd45bec8f302c94131cd63d2eccb05ea247e30b", "4.16.0--r42ha9d7317_1": "sha256:304e467341f7dc11b0b1723414f5596f62bc59fd6fcff613e453f0e279f4d219", "4.18.0--r43ha9d7317_0": "sha256:1021a7c6eefde28ec43f329bce4cb12c28271ccec4d2aa7d72df709d0c249627", "4.20.0--r43ha9d7317_0": "sha256:7d1c261aebfe7b5c0b30a1fb3ad2301034a2dc136debb399c7658c436a78769c", "4.24.0--r44h3df3fcb_0": "sha256:6b8ff780516781196e2aade0fd6e1c8af59e02c3d7c69ef8b996ddeb70a4c55f", "4.24.0--r44h3df3fcb_2": "sha256:7940928e5cce158d4ec189c7a64ab8cf057a4a41ffd7b48eb20a80b35259d735"}, "docker": "quay.io/biocontainers/bioconductor-globalancova", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-globalancova.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-globalancova
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-globalancova:4.24.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-globalancova:4.24.0--r44h3df3fcb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-globalancova/4.24.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-globalancova/4.24.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-globalancova/4.24.0--r44h3df3fcb_2
+$ module help quay.io/biocontainers/bioconductor-globalancova/4.24.0--r44h3df3fcb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

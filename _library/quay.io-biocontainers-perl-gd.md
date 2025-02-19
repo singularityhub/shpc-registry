@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-gd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gd/container.yaml"
-updated_at: "2025-02-18 02:59:00.749796"
-latest: "2.76--pl5321h5b5514e_1"
+updated_at: "2025-02-19 03:02:09.356802"
+latest: "2.83--pl5321hc25ab4d_0"
 container_url: "https://biocontainers.pro/tools/perl-gd"
 
 versions:
  - "2.76--pl5321h5b5514e_1"
+ - "2.83--pl5321hc25ab4d_0"
 description: "shpc-registry automated BioContainers addition for perl-gd"
-config: {"url": "https://biocontainers.pro/tools/perl-gd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gd", "latest": {"2.76--pl5321h5b5514e_1": "sha256:df5dae5c943b410f5b62a61ef67bcab6b4358f2fbafef8381b816a00e7276a3e"}, "tags": {"2.76--pl5321h5b5514e_1": "sha256:df5dae5c943b410f5b62a61ef67bcab6b4358f2fbafef8381b816a00e7276a3e"}, "docker": "quay.io/biocontainers/perl-gd"}
+config: {"url": "https://biocontainers.pro/tools/perl-gd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gd", "latest": {"2.83--pl5321hc25ab4d_0": "sha256:d5037c9b8b21154b198b8fa3d14f5aa717fbc5636af581bf76896fad8d585957"}, "tags": {"2.76--pl5321h5b5514e_1": "sha256:df5dae5c943b410f5b62a61ef67bcab6b4358f2fbafef8381b816a00e7276a3e", "2.83--pl5321hc25ab4d_0": "sha256:d5037c9b8b21154b198b8fa3d14f5aa717fbc5636af581bf76896fad8d585957"}, "docker": "quay.io/biocontainers/perl-gd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-gd.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-gd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-gd:2.76--pl5321h5b5514e_1
+$ shpc install quay.io/biocontainers/perl-gd:2.83--pl5321hc25ab4d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-gd/2.76--pl5321h5b5514e_1
-$ module help quay.io/biocontainers/perl-gd/2.76--pl5321h5b5514e_1
+$ module load quay.io/biocontainers/perl-gd/2.83--pl5321hc25ab4d_0
+$ module help quay.io/biocontainers/perl-gd/2.83--pl5321hc25ab4d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

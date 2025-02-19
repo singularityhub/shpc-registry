@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shannon_cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shannon_cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shannon_cpp/container.yaml"
-updated_at: "2025-02-18 03:09:29.406367"
+updated_at: "2025-02-19 03:13:10.073064"
 latest: "0.5.0--py27pl526h5dd6954_0"
 container_url: "https://biocontainers.pro/tools/shannon_cpp"
 aliases:
