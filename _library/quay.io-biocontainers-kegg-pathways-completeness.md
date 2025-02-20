@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kegg-pathways-completeness"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kegg-pathways-completeness/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kegg-pathways-completeness/container.yaml"
-updated_at: "2025-02-19 03:41:59.855875"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2025-02-20 03:42:29.100986"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kegg-pathways-completeness"
 aliases:
  - "generate_hmmtable"
@@ -41,8 +41,10 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.5--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kegg-pathways-completeness"
-config: {"url": "https://biocontainers.pro/tools/kegg-pathways-completeness", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegg-pathways-completeness", "latest": {"1.0.5--pyhdfd78af_0": "sha256:aee0ad42315452f6d106d40ae3d10c218d939437f8a61c16cd4411c57573ba05"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:11667c8175300b4126f275117624d6c603ddc413d5206941b04bfec87312d92e", "1.0.5--pyhdfd78af_0": "sha256:aee0ad42315452f6d106d40ae3d10c218d939437f8a61c16cd4411c57573ba05"}, "docker": "quay.io/biocontainers/kegg-pathways-completeness", "aliases": {"generate_hmmtable": "/usr/local/bin/generate_hmmtable", "give_pathways": "/usr/local/bin/give_pathways", "numpy-config": "/usr/local/bin/numpy-config", "parsing_hmmscan": "/usr/local/bin/parsing_hmmscan", "plot_completeness_graphs": "/usr/local/bin/plot_completeness_graphs", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra"}}
+config: {"url": "https://biocontainers.pro/tools/kegg-pathways-completeness", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegg-pathways-completeness", "latest": {"1.3.0--pyhdfd78af_0": "sha256:6456ac67eb1d218a2aef181e4cbcb209958eb694d6a0a1649603c85f37ee05e2"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:11667c8175300b4126f275117624d6c603ddc413d5206941b04bfec87312d92e", "1.0.5--pyhdfd78af_0": "sha256:aee0ad42315452f6d106d40ae3d10c218d939437f8a61c16cd4411c57573ba05", "1.3.0--pyhdfd78af_0": "sha256:6456ac67eb1d218a2aef181e4cbcb209958eb694d6a0a1649603c85f37ee05e2", "1.2.1--pyhdfd78af_0": "sha256:0768c482b5be21e6b4a21aac12cace5b4132e96f5f037758dd52aa4864e21ced"}, "docker": "quay.io/biocontainers/kegg-pathways-completeness", "aliases": {"generate_hmmtable": "/usr/local/bin/generate_hmmtable", "give_pathways": "/usr/local/bin/give_pathways", "numpy-config": "/usr/local/bin/numpy-config", "parsing_hmmscan": "/usr/local/bin/parsing_hmmscan", "plot_completeness_graphs": "/usr/local/bin/plot_completeness_graphs", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kegg-pathways-completeness.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/kegg-pathways-completeness
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kegg-pathways-completeness:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kegg-pathways-completeness:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kegg-pathways-completeness/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/kegg-pathways-completeness/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/kegg-pathways-completeness/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/kegg-pathways-completeness/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

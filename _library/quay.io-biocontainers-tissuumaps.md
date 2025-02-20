@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tissuumaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tissuumaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tissuumaps/container.yaml"
-updated_at: "2025-02-19 03:28:57.738728"
-latest: "3.2.1.11--pyh7e72e81_0"
+updated_at: "2025-02-20 03:29:15.841069"
+latest: "3.2.1.12--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/tissuumaps"
 aliases:
  - "SvtAv1DecApp"
@@ -64,8 +64,9 @@ versions:
  - "3.2.1.9--pyh7cba7a3_0"
  - "3.2.1.10--pyh7e72e81_0"
  - "3.2.1.11--pyh7e72e81_0"
+ - "3.2.1.12--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for tissuumaps"
-config: {"url": "https://biocontainers.pro/tools/tissuumaps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tissuumaps", "latest": {"3.2.1.11--pyh7e72e81_0": "sha256:43f72e2d385256e263b466556aed5e7e13c72261610e681161f126f78aebe9c7"}, "tags": {"3.1.1.6--pyh7cba7a3_0": "sha256:b0231f61378c0781c2719afc91275689a62ac88535c854c370a9c5785badcfca", "3.2--pyh7cba7a3_0": "sha256:b77dc6a15f5d48a8242be6e5d10a16459bf2249226b89325f120886082939a40", "3.2.1.3--pyh7cba7a3_0": "sha256:94321236a2732b63f38e8e7505af940fe6866e770a9595b8bb5a16f59a569e5d", "3.2.1.6--pyh7cba7a3_0": "sha256:cd1d2063db50446b9ae2c96ab799757d281b6145644bac2816fe6453b6bc739d", "3.2.1.8--pyh7cba7a3_0": "sha256:b126c86de0846059e4f483590bf20950e60d306d21d56fe36732a4146c5d600d", "3.2.1.9--pyh7cba7a3_0": "sha256:4e31ea08303ceaf46eba42ee85387812a18f6fe1513098dd99f83b6dcae1412e", "3.2.1.10--pyh7e72e81_0": "sha256:5cd5e43490f04748695b142ba0304cd5608c535ff84e106b9670d4ff11e4dc46", "3.2.1.11--pyh7e72e81_0": "sha256:43f72e2d385256e263b466556aed5e7e13c72261610e681161f126f78aebe9c7"}, "docker": "quay.io/biocontainers/tissuumaps", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "dec265": "/usr/local/bin/dec265", "gsf": "/usr/local/bin/gsf", "gsf-office-thumbnailer": "/usr/local/bin/gsf-office-thumbnailer", "gsf-vba-dump": "/usr/local/bin/gsf-vba-dump", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hdrcopy": "/usr/local/bin/hdrcopy", "matdump": "/usr/local/bin/matdump", "openslide-quickhash1sum": "/usr/local/bin/openslide-quickhash1sum", "openslide-show-properties": "/usr/local/bin/openslide-show-properties", "openslide-write-png": "/usr/local/bin/openslide-write-png", "rav1e": "/usr/local/bin/rav1e", "tissuumaps": "/usr/local/bin/tissuumaps", "tissuumaps_server": "/usr/local/bin/tissuumaps_server", "vips": "/usr/local/bin/vips", "vipsedit": "/usr/local/bin/vipsedit", "vipsheader": "/usr/local/bin/vipsheader", "vipsprofile": "/usr/local/bin/vipsprofile", "vipsthumbnail": "/usr/local/bin/vipsthumbnail", "x265": "/usr/local/bin/x265", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "pdfsig": "/usr/local/bin/pdfsig", "h5delete": "/usr/local/bin/h5delete", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "flask": "/usr/local/bin/flask", "aec": "/usr/local/bin/aec"}}
+config: {"url": "https://biocontainers.pro/tools/tissuumaps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tissuumaps", "latest": {"3.2.1.12--pyh7e72e81_0": "sha256:eb04914c9aa1a070e1e6739ff7a05a44deae1d41f6a533c703c38c8c667c71dd"}, "tags": {"3.1.1.6--pyh7cba7a3_0": "sha256:b0231f61378c0781c2719afc91275689a62ac88535c854c370a9c5785badcfca", "3.2--pyh7cba7a3_0": "sha256:b77dc6a15f5d48a8242be6e5d10a16459bf2249226b89325f120886082939a40", "3.2.1.3--pyh7cba7a3_0": "sha256:94321236a2732b63f38e8e7505af940fe6866e770a9595b8bb5a16f59a569e5d", "3.2.1.6--pyh7cba7a3_0": "sha256:cd1d2063db50446b9ae2c96ab799757d281b6145644bac2816fe6453b6bc739d", "3.2.1.8--pyh7cba7a3_0": "sha256:b126c86de0846059e4f483590bf20950e60d306d21d56fe36732a4146c5d600d", "3.2.1.9--pyh7cba7a3_0": "sha256:4e31ea08303ceaf46eba42ee85387812a18f6fe1513098dd99f83b6dcae1412e", "3.2.1.10--pyh7e72e81_0": "sha256:5cd5e43490f04748695b142ba0304cd5608c535ff84e106b9670d4ff11e4dc46", "3.2.1.11--pyh7e72e81_0": "sha256:43f72e2d385256e263b466556aed5e7e13c72261610e681161f126f78aebe9c7", "3.2.1.12--pyh7e72e81_0": "sha256:eb04914c9aa1a070e1e6739ff7a05a44deae1d41f6a533c703c38c8c667c71dd"}, "docker": "quay.io/biocontainers/tissuumaps", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "dec265": "/usr/local/bin/dec265", "gsf": "/usr/local/bin/gsf", "gsf-office-thumbnailer": "/usr/local/bin/gsf-office-thumbnailer", "gsf-vba-dump": "/usr/local/bin/gsf-vba-dump", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hdrcopy": "/usr/local/bin/hdrcopy", "matdump": "/usr/local/bin/matdump", "openslide-quickhash1sum": "/usr/local/bin/openslide-quickhash1sum", "openslide-show-properties": "/usr/local/bin/openslide-show-properties", "openslide-write-png": "/usr/local/bin/openslide-write-png", "rav1e": "/usr/local/bin/rav1e", "tissuumaps": "/usr/local/bin/tissuumaps", "tissuumaps_server": "/usr/local/bin/tissuumaps_server", "vips": "/usr/local/bin/vips", "vipsedit": "/usr/local/bin/vipsedit", "vipsheader": "/usr/local/bin/vipsheader", "vipsprofile": "/usr/local/bin/vipsprofile", "vipsthumbnail": "/usr/local/bin/vipsthumbnail", "x265": "/usr/local/bin/x265", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "pdfsig": "/usr/local/bin/pdfsig", "h5delete": "/usr/local/bin/h5delete", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "flask": "/usr/local/bin/flask", "aec": "/usr/local/bin/aec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tissuumaps.
@@ -80,7 +81,7 @@ $ shpc install quay.io/biocontainers/tissuumaps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tissuumaps:3.2.1.11--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/tissuumaps:3.2.1.12--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +93,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tissuumaps/3.2.1.11--pyh7e72e81_0
-$ module help quay.io/biocontainers/tissuumaps/3.2.1.11--pyh7e72e81_0
+$ module load quay.io/biocontainers/tissuumaps/3.2.1.12--pyh7e72e81_0
+$ module help quay.io/biocontainers/tissuumaps/3.2.1.12--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
