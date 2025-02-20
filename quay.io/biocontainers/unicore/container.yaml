@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/unicore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unicore
 latest:
-  1.0.2--h7ef3eeb_0: sha256:066a697bbd949df9766a10565f05b57955ec8d6754a05f12b11add7d4e6c7e04
+  1.1.0--h7ef3eeb_0: sha256:e960167c0f60983c316ccd5831febb67401ff7f35039a52c42ea88aa064db866
 tags:
   1.0.1--h7ef3eeb_0: sha256:ebf035d6f930214a1fda9d8f3580ba192f0a0e0f69305f4421660e08b42b0ca3
   1.0.2--h7ef3eeb_0: sha256:066a697bbd949df9766a10565f05b57955ec8d6754a05f12b11add7d4e6c7e04
+  1.1.0--h7ef3eeb_0: sha256:e960167c0f60983c316ccd5831febb67401ff7f35039a52c42ea88aa064db866
 docker: quay.io/biocontainers/unicore
 aliases:
   checksum-profile: /usr/local/bin/checksum-profile

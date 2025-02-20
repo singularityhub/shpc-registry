@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/emu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for emu
 latest:
-  3.5.0--hdfd78af_0: sha256:8e697088a5964e167f2bf5bda2448d042db723152b45f80bb96865e2d7159bf1
+  3.5.1--hdfd78af_0: sha256:8057200397166f10f76b274036e942f318eeaad2b792db9ee6e5b65b64aaba2e
 tags:
   3.4.4--hdfd78af_1: sha256:90c1fa4bb3d897da054f2f6d83fc0824f43012f8e77d271ab7f623c6319cc342
   3.4.5--hdfd78af_0: sha256:f8ca2c15053708b98e6eda6a12d00dba13a38049aac46cf062d3a6a3819aa235
   3.5.0--hdfd78af_0: sha256:8e697088a5964e167f2bf5bda2448d042db723152b45f80bb96865e2d7159bf1
   3.4.6--hdfd78af_0: sha256:74cbc2ca8233cb47098ca95f37ceb7ae3a630cfc4d4af8688785d78b85e7c665
+  3.5.1--hdfd78af_0: sha256:8057200397166f10f76b274036e942f318eeaad2b792db9ee6e5b65b64aaba2e
 docker: quay.io/biocontainers/emu
 aliases:
   bioawk: /usr/local/bin/bioawk

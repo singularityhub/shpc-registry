@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-crbhits
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-crbhits
 latest:
-  0.0.7--r44h503566f_0: sha256:62676a36c6e80cda84a95f78cd8ca24a16d5f062bfdd7372bc083cdc2abee69a
+  0.0.7--r44h503566f_1: sha256:16278e8e6a9e08175fe0289dc2af012b94621d85e96dd44d6e3c7732744c4171
 tags:
   0.0.4--r42hdbdd923_0: sha256:e096a6d532bdcb4a9c5e0c3bb9319194538d2478ae3355a7b7af1691a21e2d98
   0.0.4--r43hdbdd923_1: sha256:ab7735fe318617fdf05d28d1de36ce16dc489ee394ca39d96e2800151f2f3c82
   0.0.5--r43hdbdd923_0: sha256:523073834317f0e208fd0f5788450159932d39f3f774f91da61bc1aa02b50727
   0.0.7--r44h503566f_0: sha256:62676a36c6e80cda84a95f78cd8ca24a16d5f062bfdd7372bc083cdc2abee69a
+  0.0.7--r44h503566f_1: sha256:16278e8e6a9e08175fe0289dc2af012b94621d85e96dd44d6e3c7732744c4171
 docker: quay.io/biocontainers/r-crbhits
 aliases:
   git2: /usr/local/bin/git2
