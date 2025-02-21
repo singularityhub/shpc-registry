@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnanorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnanorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnanorm/container.yaml"
-updated_at: "2025-02-20 03:37:47.205742"
-latest: "2.1.0--pyhdfd78af_0"
+updated_at: "2025-02-21 03:38:58.589755"
+latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rnanorm"
 aliases:
  - "rnanorm"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "2.1.0--pyhdfd78af_0"
+ - "2.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for rnanorm"
-config: {"url": "https://biocontainers.pro/tools/rnanorm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnanorm", "latest": {"2.1.0--pyhdfd78af_0": "sha256:70b0661c5fe531d48cda08ac4fb7882236fb515b1ddf12474419b055841bc557"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:70b0661c5fe531d48cda08ac4fb7882236fb515b1ddf12474419b055841bc557"}, "docker": "quay.io/biocontainers/rnanorm", "aliases": {"rnanorm": "/usr/local/bin/rnanorm", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/rnanorm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnanorm", "latest": {"2.2.0--pyhdfd78af_0": "sha256:731600c4ecc0cc628a50b477f35c9ffd337cc4c542869f7cb64972bdc7c90cc4"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:70b0661c5fe531d48cda08ac4fb7882236fb515b1ddf12474419b055841bc557", "2.2.0--pyhdfd78af_0": "sha256:731600c4ecc0cc628a50b477f35c9ffd337cc4c542869f7cb64972bdc7c90cc4"}, "docker": "quay.io/biocontainers/rnanorm", "aliases": {"rnanorm": "/usr/local/bin/rnanorm", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnanorm.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/rnanorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnanorm:2.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/rnanorm:2.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnanorm/2.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/rnanorm/2.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/rnanorm/2.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/rnanorm/2.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

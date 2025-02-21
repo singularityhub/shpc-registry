@@ -4,7 +4,7 @@ name:  "bids/aa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/aa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/aa/container.yaml"
-updated_at: "2025-02-20 02:51:57.681976"
+updated_at: "2025-02-21 02:52:16.836404"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/aa"
 

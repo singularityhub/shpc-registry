@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/emu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emu/container.yaml"
-updated_at: "2025-02-20 03:14:25.737008"
-latest: "3.5.0--hdfd78af_0"
+updated_at: "2025-02-21 03:15:05.821636"
+latest: "3.5.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/emu"
 aliases:
  - "bioawk"
@@ -25,8 +25,9 @@ versions:
  - "3.4.5--hdfd78af_0"
  - "3.5.0--hdfd78af_0"
  - "3.4.6--hdfd78af_0"
+ - "3.5.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for emu"
-config: {"url": "https://biocontainers.pro/tools/emu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emu", "latest": {"3.5.0--hdfd78af_0": "sha256:8e697088a5964e167f2bf5bda2448d042db723152b45f80bb96865e2d7159bf1"}, "tags": {"3.4.4--hdfd78af_1": "sha256:90c1fa4bb3d897da054f2f6d83fc0824f43012f8e77d271ab7f623c6319cc342", "3.4.5--hdfd78af_0": "sha256:f8ca2c15053708b98e6eda6a12d00dba13a38049aac46cf062d3a6a3819aa235", "3.5.0--hdfd78af_0": "sha256:8e697088a5964e167f2bf5bda2448d042db723152b45f80bb96865e2d7159bf1", "3.4.6--hdfd78af_0": "sha256:74cbc2ca8233cb47098ca95f37ceb7ae3a630cfc4d4af8688785d78b85e7c665"}, "docker": "quay.io/biocontainers/emu", "aliases": {"bioawk": "/usr/local/bin/bioawk", "emu": "/usr/local/bin/emu", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/emu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emu", "latest": {"3.5.1--hdfd78af_0": "sha256:8057200397166f10f76b274036e942f318eeaad2b792db9ee6e5b65b64aaba2e"}, "tags": {"3.4.4--hdfd78af_1": "sha256:90c1fa4bb3d897da054f2f6d83fc0824f43012f8e77d271ab7f623c6319cc342", "3.4.5--hdfd78af_0": "sha256:f8ca2c15053708b98e6eda6a12d00dba13a38049aac46cf062d3a6a3819aa235", "3.5.0--hdfd78af_0": "sha256:8e697088a5964e167f2bf5bda2448d042db723152b45f80bb96865e2d7159bf1", "3.4.6--hdfd78af_0": "sha256:74cbc2ca8233cb47098ca95f37ceb7ae3a630cfc4d4af8688785d78b85e7c665", "3.5.1--hdfd78af_0": "sha256:8057200397166f10f76b274036e942f318eeaad2b792db9ee6e5b65b64aaba2e"}, "docker": "quay.io/biocontainers/emu", "aliases": {"bioawk": "/usr/local/bin/bioawk", "emu": "/usr/local/bin/emu", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emu.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/emu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/emu:3.5.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/emu:3.5.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/emu/3.5.0--hdfd78af_0
-$ module help quay.io/biocontainers/emu/3.5.0--hdfd78af_0
+$ module load quay.io/biocontainers/emu/3.5.1--hdfd78af_0
+$ module help quay.io/biocontainers/emu/3.5.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

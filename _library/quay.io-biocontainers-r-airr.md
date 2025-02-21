@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-airr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-airr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-airr/container.yaml"
-updated_at: "2025-02-20 03:10:40.622401"
+updated_at: "2025-02-21 03:11:17.461510"
 latest: "1.2.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-airr"
 aliases:
