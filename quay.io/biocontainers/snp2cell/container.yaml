@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snp2cell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snp2cell
 latest:
-  0.2.0--pyhdfd78af_0: sha256:b0d92391c311213a6b3aa707b7fce7bece976b5be2db7519304386251593ae17
+  0.2.1--pyhdfd78af_0: sha256:3a2e089e7f315b35b258ca8ea1d7e613ea757db2b435f7b4f7a99405d26e153e
 tags:
   0.2.0--pyhdfd78af_0: sha256:b0d92391c311213a6b3aa707b7fce7bece976b5be2db7519304386251593ae17
+  0.2.1--pyhdfd78af_0: sha256:3a2e089e7f315b35b258ca8ea1d7e613ea757db2b435f7b4f7a99405d26e153e
 docker: quay.io/biocontainers/snp2cell
 aliases:
   snp2cell: /usr/local/bin/snp2cell

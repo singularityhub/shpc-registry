@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sc-musketeers
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sc-musketeers
 latest:
-  0.3.7--pyhdfd78af_0: sha256:28b83e108555042924f58289364c7513dd66f7182e6a67ada5c2646fb132617e
+  0.4.1--pyhdfd78af_0: sha256:ba18ab0fa1a8c49e3b47a3fa1f5227047668728c7354fa654869d5bdfe1b4321
 tags:
   0.3.7--pyhdfd78af_0: sha256:28b83e108555042924f58289364c7513dd66f7182e6a67ada5c2646fb132617e
+  0.4.1--pyhdfd78af_0: sha256:ba18ab0fa1a8c49e3b47a3fa1f5227047668728c7354fa654869d5bdfe1b4321
 docker: quay.io/biocontainers/sc-musketeers
 aliases:
   dul-receive-pack: /usr/local/bin/dul-receive-pack

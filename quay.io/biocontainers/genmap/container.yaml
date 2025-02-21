@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/genmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genmap
 latest:
-  1.3.0--h87f3376_2: sha256:33fac3318194845d21605cc9df342aeda22d3823f35b351a7d63880da1301c30
+  1.3.0--h9948957_4: sha256:d612d87b83332ac35df20f22eb9bb809f900362063d7e29849ab51bbefee9dd2
 tags:
   1.3.0--h87f3376_2: sha256:33fac3318194845d21605cc9df342aeda22d3823f35b351a7d63880da1301c30
+  1.3.0--h9948957_4: sha256:d612d87b83332ac35df20f22eb9bb809f900362063d7e29849ab51bbefee9dd2
 docker: quay.io/biocontainers/genmap
 aliases:
   genmap: /usr/local/bin/genmap

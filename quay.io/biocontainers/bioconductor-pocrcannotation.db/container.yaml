@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pocrcannotation.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pocrcannotation.db
 latest:
-  3.2.3--r43hdfd78af_11: sha256:26d244927c74206cd50bfbeabb1754d7552101b583e12c1fa7a76604bfd09eed
+  3.2.3--r44hdfd78af_13: sha256:057d0502fe565c11aa1a6ec7c375fb187f4f5294e745fa19f1d7ac427caaaf97
 tags:
   3.2.3--r41hdfd78af_9: sha256:b73b7b056be002568d450d57b779c11345ce7aa48a46a080d6b42d9b950e9668
   3.2.3--r42hdfd78af_10: sha256:e259699a8629da1ceb5f535426a54e89eac1ebd3bbb4e9a71df2c4ae98f5061b
   3.2.3--r43hdfd78af_11: sha256:26d244927c74206cd50bfbeabb1754d7552101b583e12c1fa7a76604bfd09eed
+  3.2.3--r44hdfd78af_13: sha256:057d0502fe565c11aa1a6ec7c375fb187f4f5294e745fa19f1d7ac427caaaf97
 docker: quay.io/biocontainers/bioconductor-pocrcannotation.db

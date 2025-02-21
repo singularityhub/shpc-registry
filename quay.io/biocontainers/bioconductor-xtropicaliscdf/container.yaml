@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-xtropicaliscdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xtropicaliscdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:e15702efb166d4b22452133f0b82e523d63429573aeab992fd6e94d429d9ce78
+  2.18.0--r44hdfd78af_13: sha256:d03ee4535c7ba7a3b2cd75a6cb02a6aa2c36cf49747f8d9999415b303f8142c6
 tags:
   2.18.0--r41hdfd78af_9: sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744
   2.18.0--r42hdfd78af_10: sha256:ef5dacfe8a9aff3b0423b43311419dd81932f930495d7f52e8c21dbaa8833255
   2.18.0--r43hdfd78af_11: sha256:5937dcb0b5eefadbed1c72a406c32f9c40e86c37fedcd1117200dcb87a97c64e
   2.18.0--r43hdfd78af_12: sha256:e15702efb166d4b22452133f0b82e523d63429573aeab992fd6e94d429d9ce78
+  2.18.0--r44hdfd78af_13: sha256:d03ee4535c7ba7a3b2cd75a6cb02a6aa2c36cf49747f8d9999415b303f8142c6
 docker: quay.io/biocontainers/bioconductor-xtropicaliscdf

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-spatialexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spatialexperiment
 latest:
-  1.12.0--r43hdfd78af_0: sha256:6e97c99c3059cea0c0260d1a7b8cf62ff0a51996d6474b8122a8543183674a25
+  1.16.0--r44hdfd78af_0: sha256:0432819fbf1ef116073119113530bafda9f324c9821b396f95f96d7421bb7c32
 tags:
   1.4.0--r41hdfd78af_0: sha256:b1ac1ecad65d211a40864db951be69e4a442eb6259e13ebbe24db34f046a14dd
   1.8.0--r42hdfd78af_0: sha256:13955334a0bc47072c8cafa4a49ee4cac20b5686595cceef2067ee65bdad1863
   1.10.0--r43hdfd78af_0: sha256:ea41eb530cdcf85334ea933b024afc921af82fe3a040f82c37c7914635f52abb
   1.12.0--r43hdfd78af_0: sha256:6e97c99c3059cea0c0260d1a7b8cf62ff0a51996d6474b8122a8543183674a25
+  1.16.0--r44hdfd78af_0: sha256:0432819fbf1ef116073119113530bafda9f324c9821b396f95f96d7421bb7c32
 docker: quay.io/biocontainers/bioconductor-spatialexperiment
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

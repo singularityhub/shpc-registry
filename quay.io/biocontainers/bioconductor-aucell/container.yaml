@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-aucell
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aucell
 latest:
-  1.24.0--r43hdfd78af_0: sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433
+  1.28.0--r44hdfd78af_0: sha256:a2e57fc4fb78f4f7c4bcfffba1f1482a698eb6e5d0cb470124f32d4265453eff
 tags:
   1.8.0--r36_0: sha256:0c65fef4f861d2e3d816948d816e43acada5a81a807d0d8030bb6892afda4431
   1.20.1--r42hdfd78af_0: sha256:c17fda89801092955ea75432b5855862f56137f80a1600861b5b64da122947e7
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40_0: sha256:fb0e10c7e339656f0d22e18c29c69c5cc483ef2ca14b7e81772e25695257a381
   1.22.0--r43hdfd78af_0: sha256:51a3dd45053ee16ff2581a19053ba51bdaa833f79bfdfc9e40854d6b35bd7972
   1.24.0--r43hdfd78af_0: sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433
+  1.28.0--r44hdfd78af_0: sha256:a2e57fc4fb78f4f7c4bcfffba1f1482a698eb6e5d0cb470124f32d4265453eff
 docker: quay.io/biocontainers/bioconductor-aucell
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

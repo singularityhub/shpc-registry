@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-orfik
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-orfik
 latest:
-  1.22.0--r43hf17093f_0: sha256:d1384326b5b520240a24d78015b73b73a02629ad9e376a6b57dc846c21055f55
+  1.26.0--r44he5774e6_0: sha256:fc575620145e312e87808f1bd5155c0561a909dbd14d472fbcd3a2e4b605239b
 tags:
   1.8.1--r40h5f743cb_0: sha256:7c8261edc73a588ea1847ea8a620626a12074f546b56a811845dc7799cdb66d2
   1.18.0--r42hc247a5b_0: sha256:b8a88ed977639ae95196a797548e37823b5c4d0e64c3c7ed5c01e8b828ead521
@@ -12,6 +12,7 @@ tags:
   1.18.0--r42hf17093f_1: sha256:9873b713e7aa82311c8afcf95cf3b46d33af84a452a5cb72b3cd1ea6b99ddd38
   1.20.0--r43hf17093f_0: sha256:02cad29c59853a9d07df419505abe09d7cb34262cc5fafc7a01a300cf4c6ba22
   1.22.0--r43hf17093f_0: sha256:d1384326b5b520240a24d78015b73b73a02629ad9e376a6b57dc846c21055f55
+  1.26.0--r44he5774e6_0: sha256:fc575620145e312e87808f1bd5155c0561a909dbd14d472fbcd3a2e4b605239b
 docker: quay.io/biocontainers/bioconductor-orfik
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

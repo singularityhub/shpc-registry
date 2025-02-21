@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ecoliprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ecoliprobe
 latest:
-  2.18.0--r43hdfd78af_12: sha256:d8a3da750a2b4ced3e59dc838941e4bf7bafa85a0c73e5529e920f4c9219ed82
+  2.18.0--r44hdfd78af_13: sha256:9eaf5a4545dcda74dfeea41867a9d2880486cfd242d81af4719a0d220bceb7af
 tags:
   2.18.0--r41hdfd78af_9: sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0
   2.18.0--r42hdfd78af_10: sha256:aeb5170dd6df9c7e274a4bd6ffecda3f6a5628c92d6643039c0b6650ca0c9075
   2.18.0--r43hdfd78af_11: sha256:3680d16be14535694d572d34d128d00b73b523c45279a91023ad37e5e2b55426
   2.18.0--r43hdfd78af_12: sha256:d8a3da750a2b4ced3e59dc838941e4bf7bafa85a0c73e5529e920f4c9219ed82
+  2.18.0--r44hdfd78af_13: sha256:9eaf5a4545dcda74dfeea41867a9d2880486cfd242d81af4719a0d220bceb7af
 docker: quay.io/biocontainers/bioconductor-ecoliprobe

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-pairedgsea
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-pairedgsea
 latest:
-  1.2.0--r43hdfd78af_0: sha256:431cfc70ecf03a1fd8d084a5b361c64404cda98d3e70cedb9ae7cc7c0b532dc1
+  1.6.0--r44hdfd78af_0: sha256:02a2ca8f8bd88210a7cf8a4e54013439ae824b958c62652ea02b21f1651cff3c
 tags:
   1.0.0--r43hdfd78af_0: sha256:9d4c7a36af5b182ba69f653bde304d414c723e8d95d6a84ef0482a6b58ff10e6
   1.2.0--r43hdfd78af_0: sha256:431cfc70ecf03a1fd8d084a5b361c64404cda98d3e70cedb9ae7cc7c0b532dc1
+  1.6.0--r44hdfd78af_0: sha256:02a2ca8f8bd88210a7cf8a4e54013439ae824b958c62652ea02b21f1651cff3c
 docker: quay.io/biocontainers/bioconductor-pairedgsea
 aliases:
   hb-info: /usr/local/bin/hb-info

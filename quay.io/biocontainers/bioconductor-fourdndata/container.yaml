@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-fourdndata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-fourdndata
 latest:
-  1.2.0--r43hdfd78af_0: sha256:d6efeedce00b5a5aacf792d3b5330aafd563f716d7d05aa1c432c120b0175e6a
+  1.6.0--r44hdfd78af_0: sha256:1f92ce7f66ed9724957980f59c0c953487891d1d1b1eedbdbf55caea0c3776cf
 tags:
   1.0.0--r43hdfd78af_0: sha256:0d454a51c93f3c33466c3ea20df10dc2f40dae70de2e303c0c7666e1fa92ea5f
   1.2.0--r43hdfd78af_0: sha256:d6efeedce00b5a5aacf792d3b5330aafd563f716d7d05aa1c432c120b0175e6a
+  1.6.0--r44hdfd78af_0: sha256:1f92ce7f66ed9724957980f59c0c953487891d1d1b1eedbdbf55caea0c3776cf
 docker: quay.io/biocontainers/bioconductor-fourdndata
 aliases:
   hb-info: /usr/local/bin/hb-info

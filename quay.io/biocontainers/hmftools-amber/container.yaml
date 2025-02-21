@@ -10,6 +10,7 @@ tags:
   4.0.1--hdfd78af_0: sha256:8060c8e9da99a1fa518ac6d32f3026a589c3d3e737c2c2ca025e963a8dea1818
   4.1_beta--hdfd78af_0: sha256:af9b68c982155931c518f3df41ed761287b045a2341ad1d5a8d40c2be53cef41
   4.1_beta--hdfd78af_1: sha256:dd2c085535e2d0793f7fe36974d85babb7c6ea1f206efd5a99e92f20cb1745a5
+  4.1.1--hdfd78af_0: sha256:780604a4fd0e2933852f093b570d159f06a390567069ea1fd22420723a57d340
 docker: quay.io/biocontainers/hmftools-amber
 aliases:
   AMBER: /usr/local/bin/AMBER

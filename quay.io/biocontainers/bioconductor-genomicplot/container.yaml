@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genomicplot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-genomicplot
 latest:
-  1.0.0--r43hdfd78af_0: sha256:5a2f339623498d11d6f6797bc60f66cbb5ce93547a312593c7531af23b7a6c6d
+  1.4.0--r44hdfd78af_0: sha256:8163a500e616e90ba56378e0c439d040d948d9520b3cce9ac0a513caff39dd04
 tags:
   1.0.0--r43hdfd78af_0: sha256:5a2f339623498d11d6f6797bc60f66cbb5ce93547a312593c7531af23b7a6c6d
+  1.4.0--r44hdfd78af_0: sha256:8163a500e616e90ba56378e0c439d040d948d9520b3cce9ac0a513caff39dd04
 docker: quay.io/biocontainers/bioconductor-genomicplot
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

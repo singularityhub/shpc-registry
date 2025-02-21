@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-deconstructsigs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-deconstructsigs
 latest:
-  1.9.0--r43hdfd78af_3: sha256:93fcc597c7a578cae546a9dcfab8b458b5eee01c78d84891f0eb684de9c4152e
+  1.9.0--r44hdfd78af_4: sha256:ca5a84a2beaad76a8f5295a2ecf8473001773a344f0668924f28133713644019
 tags:
   1.9.0--r41hdfd78af_1: sha256:1b0012956d491eed0690488b22dd4eadf7100e9eabb8b7067d99b32caff53bca
   1.9.0--r42hdfd78af_2: sha256:faf1f276dcfffe3792abc93b0d7dd265e9caff3c0ae5ad991fa55eeebd64b706
   1.9.0--r43hdfd78af_3: sha256:93fcc597c7a578cae546a9dcfab8b458b5eee01c78d84891f0eb684de9c4152e
+  1.9.0--r44hdfd78af_4: sha256:ca5a84a2beaad76a8f5295a2ecf8473001773a344f0668924f28133713644019
 docker: quay.io/biocontainers/r-deconstructsigs
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

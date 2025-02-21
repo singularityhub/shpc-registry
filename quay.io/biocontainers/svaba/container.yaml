@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/svaba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svaba
 latest:
-  1.1.0--hf5e1c6e_5: sha256:4a4b1553b8a866da753a38c9ed67c9755c781be40d556ef6bc534f8feb869525
+  1.2.0--h69ac913_1: sha256:c12b1fff188fb141edfa3dc1a9c677c8c3cc947f7b5b359e8c9af4ca73304013
 tags:
   1.1.0--h468198e_3: sha256:d28106577442ab2bb1153208eadd7af371a54e8238ab2d62cf3295419b77018b
   1.1.0--hf5e1c6e_5: sha256:4a4b1553b8a866da753a38c9ed67c9755c781be40d556ef6bc534f8feb869525
+  1.2.0--h69ac913_1: sha256:c12b1fff188fb141edfa3dc1a9c677c8c3cc947f7b5b359e8c9af4ca73304013
 docker: quay.io/biocontainers/svaba
 aliases:
   svaba: /usr/local/bin/svaba

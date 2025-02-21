@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hibed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hibed
 latest:
-  1.0.0--r43hdfd78af_0: sha256:5dc9b2450a532f2133a45521bcb4e41fbf29b1ebaaf63445956e9dc171e6518a
+  1.4.0--r44hdfd78af_0: sha256:5fd32f9dceb37886ab4d154b417beab2f30751cd4cb3d0832b648b026cf2cecc
 tags:
   1.0.0--r43hdfd78af_0: sha256:5dc9b2450a532f2133a45521bcb4e41fbf29b1ebaaf63445956e9dc171e6518a
+  1.4.0--r44hdfd78af_0: sha256:5fd32f9dceb37886ab4d154b417beab2f30751cd4cb3d0832b648b026cf2cecc
 docker: quay.io/biocontainers/bioconductor-hibed
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-findit2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-findit2
 latest:
-  1.8.0--r43hdfd78af_0: sha256:c5ad4977edb19641373310d8fd9d781c36ac5a0e90c7a53bc9f56e85b975d2bd
+  1.12.0--r44hdfd78af_0: sha256:ea5f2d20b7f0fd6cd237443a42440940c8050a8e825927f35d611982e26f5ed2
 tags:
   1.4.0--r42hdfd78af_0: sha256:4ff311ef4c6af28473ac0276fb30f97cfd435876b1780d907a6e0de29d100c5a
   1.6.0--r43hdfd78af_0: sha256:645a45c8f04a65b7d148883b56964e8ccd75076d620cdd3be4137673b762d06a
   1.8.0--r43hdfd78af_0: sha256:c5ad4977edb19641373310d8fd9d781c36ac5a0e90c7a53bc9f56e85b975d2bd
+  1.12.0--r44hdfd78af_0: sha256:ea5f2d20b7f0fd6cd237443a42440940c8050a8e825927f35d611982e26f5ed2
 docker: quay.io/biocontainers/bioconductor-findit2
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

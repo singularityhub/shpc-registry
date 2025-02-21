@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-txcutr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txcutr
 latest:
-  1.8.0--r43hdfd78af_0: sha256:94a503757229f5a87297c526e9ddb6332b917c352dd3a2034a413a083e37724b
+  1.12.0--r44hdfd78af_0: sha256:3d04ffc26184b1e9ce5ab1d65046052316fd1a770b30934399ab47f0cc293e21
 tags:
   1.0.0--r41hdfd78af_0: sha256:27b345fa493c9c9f8952b0a66506d5df258503f951d03f35f778d2b704dc25bf
   1.4.0--r42hdfd78af_0: sha256:74cf4c3f8b4ff172ecfd0e98aaf82edd9b19020ba7a54e894a797eb07aab9f8a
   1.6.0--r43hdfd78af_0: sha256:361efa175386f3896ca5e70709bdf4cd2d068725036a23c84b9e9d3896094177
   1.8.0--r43hdfd78af_0: sha256:94a503757229f5a87297c526e9ddb6332b917c352dd3a2034a413a083e37724b
+  1.12.0--r44hdfd78af_0: sha256:3d04ffc26184b1e9ce5ab1d65046052316fd1a770b30934399ab47f0cc293e21
 docker: quay.io/biocontainers/bioconductor-txcutr

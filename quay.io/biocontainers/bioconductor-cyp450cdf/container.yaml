@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cyp450cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cyp450cdf
 latest:
-  2.18.0--r43hdfd78af_12: sha256:cb9251b17a2a1d1da8bc47d323ccdf51b31cde98d1acea6eb9a187ce0a284cf7
+  2.18.0--r44hdfd78af_13: sha256:6e40122b539eabc175903c0946ed27929d26c2b4cef7bef2677d0c03e64a372d
 tags:
   2.18.0--r41hdfd78af_9: sha256:4edfa5ab04a005a6e5befd561f90d54bc1d9dd73fdf0cfa69deecd6db5f7eea0
   2.18.0--r42hdfd78af_10: sha256:c8f0427a9cc03b1863b563db5a7f3ca9401132db21dfc59dd472b1a6fb76e447
   2.18.0--r43hdfd78af_11: sha256:72f35e3b46aff626041c27040808f7317591535e870a3363e140ff72f0a80e68
   2.18.0--r43hdfd78af_12: sha256:cb9251b17a2a1d1da8bc47d323ccdf51b31cde98d1acea6eb9a187ce0a284cf7
+  2.18.0--r44hdfd78af_13: sha256:6e40122b539eabc175903c0946ed27929d26c2b4cef7bef2677d0c03e64a372d
 docker: quay.io/biocontainers/bioconductor-cyp450cdf
