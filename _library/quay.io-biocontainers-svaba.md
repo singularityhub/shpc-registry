@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/svaba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svaba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svaba/container.yaml"
-updated_at: "2025-02-21 03:35:24.211894"
-latest: "1.1.0--hf5e1c6e_5"
+updated_at: "2025-02-22 03:26:21.754265"
+latest: "1.2.0--h69ac913_1"
 container_url: "https://biocontainers.pro/tools/svaba"
 aliases:
  - "svaba"
 versions:
  - "1.1.0--h468198e_3"
  - "1.1.0--hf5e1c6e_5"
+ - "1.2.0--h69ac913_1"
 description: "shpc-registry automated BioContainers addition for svaba"
-config: {"url": "https://biocontainers.pro/tools/svaba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svaba", "latest": {"1.1.0--hf5e1c6e_5": "sha256:4a4b1553b8a866da753a38c9ed67c9755c781be40d556ef6bc534f8feb869525"}, "tags": {"1.1.0--h468198e_3": "sha256:d28106577442ab2bb1153208eadd7af371a54e8238ab2d62cf3295419b77018b", "1.1.0--hf5e1c6e_5": "sha256:4a4b1553b8a866da753a38c9ed67c9755c781be40d556ef6bc534f8feb869525"}, "docker": "quay.io/biocontainers/svaba", "aliases": {"svaba": "/usr/local/bin/svaba"}}
+config: {"url": "https://biocontainers.pro/tools/svaba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svaba", "latest": {"1.2.0--h69ac913_1": "sha256:c12b1fff188fb141edfa3dc1a9c677c8c3cc947f7b5b359e8c9af4ca73304013"}, "tags": {"1.1.0--h468198e_3": "sha256:d28106577442ab2bb1153208eadd7af371a54e8238ab2d62cf3295419b77018b", "1.1.0--hf5e1c6e_5": "sha256:4a4b1553b8a866da753a38c9ed67c9755c781be40d556ef6bc534f8feb869525", "1.2.0--h69ac913_1": "sha256:c12b1fff188fb141edfa3dc1a9c677c8c3cc947f7b5b359e8c9af4ca73304013"}, "docker": "quay.io/biocontainers/svaba", "aliases": {"svaba": "/usr/local/bin/svaba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svaba.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/svaba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svaba:1.1.0--hf5e1c6e_5
+$ shpc install quay.io/biocontainers/svaba:1.2.0--h69ac913_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svaba/1.1.0--hf5e1c6e_5
-$ module help quay.io/biocontainers/svaba/1.1.0--hf5e1c6e_5
+$ module load quay.io/biocontainers/svaba/1.2.0--h69ac913_1
+$ module help quay.io/biocontainers/svaba/1.2.0--h69ac913_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

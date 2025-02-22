@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fusesom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fusesom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fusesom/container.yaml"
-updated_at: "2025-02-21 03:01:08.817853"
-latest: "1.4.0--r43hf17093f_0"
+updated_at: "2025-02-22 02:55:06.236531"
+latest: "1.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fusesom"
 aliases:
  - "installBiocDataPackage.sh"
@@ -30,8 +30,9 @@ versions:
  - "1.0.0--r42hf17093f_1"
  - "1.2.0--r43hf17093f_0"
  - "1.4.0--r43hf17093f_0"
+ - "1.8.0--r44he5774e6_0"
 description: "singularity registry hpc automated addition for bioconductor-fusesom"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fusesom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fusesom", "latest": {"1.4.0--r43hf17093f_0": "sha256:a71751ce469185928ba0b0c7885d2d1a2132d453f91989d0c6739a361d1e5d63"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:65332b1949816635f2225d26e60e2e4e16d26fd19a063bd55d3d53df5a07d66d", "1.0.0--r42hf17093f_1": "sha256:60dfa15286c193aad720e95db9e307be2dccc33c3f7f28e3fc931d0365666993", "1.2.0--r43hf17093f_0": "sha256:c323b041a1fed6d8be218da1b0ae3a7f06363ded75ad16d66e3794dc5b891586", "1.4.0--r43hf17093f_0": "sha256:a71751ce469185928ba0b0c7885d2d1a2132d453f91989d0c6739a361d1e5d63"}, "docker": "quay.io/biocontainers/bioconductor-fusesom", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fusesom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fusesom", "latest": {"1.8.0--r44he5774e6_0": "sha256:c79c8e55f1816fd83db3b5675fe4dace0f5f7e5a5455c4c454f3b7ffc0dc12fb"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:65332b1949816635f2225d26e60e2e4e16d26fd19a063bd55d3d53df5a07d66d", "1.0.0--r42hf17093f_1": "sha256:60dfa15286c193aad720e95db9e307be2dccc33c3f7f28e3fc931d0365666993", "1.2.0--r43hf17093f_0": "sha256:c323b041a1fed6d8be218da1b0ae3a7f06363ded75ad16d66e3794dc5b891586", "1.4.0--r43hf17093f_0": "sha256:a71751ce469185928ba0b0c7885d2d1a2132d453f91989d0c6739a361d1e5d63", "1.8.0--r44he5774e6_0": "sha256:c79c8e55f1816fd83db3b5675fe4dace0f5f7e5a5455c4c454f3b7ffc0dc12fb"}, "docker": "quay.io/biocontainers/bioconductor-fusesom", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fusesom.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fusesom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fusesom:1.4.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-fusesom:1.8.0--r44he5774e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fusesom/1.4.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-fusesom/1.4.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-fusesom/1.8.0--r44he5774e6_0
+$ module help quay.io/biocontainers/bioconductor-fusesom/1.8.0--r44he5774e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

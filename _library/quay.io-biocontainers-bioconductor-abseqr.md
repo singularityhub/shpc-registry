@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-abseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-abseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-abseqr/container.yaml"
-updated_at: "2025-02-21 02:53:14.126373"
+updated_at: "2025-02-22 02:47:37.208713"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-abseqr"
 aliases:

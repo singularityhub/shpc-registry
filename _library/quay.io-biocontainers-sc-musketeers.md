@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sc-musketeers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sc-musketeers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sc-musketeers/container.yaml"
-updated_at: "2025-02-21 03:27:26.408889"
-latest: "0.3.7--pyhdfd78af_0"
+updated_at: "2025-02-22 03:19:00.805237"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sc-musketeers"
 aliases:
  - "dul-receive-pack"
@@ -45,8 +45,9 @@ aliases:
  - "saved_model_cli"
 versions:
  - "0.3.7--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sc-musketeers"
-config: {"url": "https://biocontainers.pro/tools/sc-musketeers", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sc-musketeers", "latest": {"0.3.7--pyhdfd78af_0": "sha256:28b83e108555042924f58289364c7513dd66f7182e6a67ada5c2646fb132617e"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:28b83e108555042924f58289364c7513dd66f7182e6a67ada5c2646fb132617e"}, "docker": "quay.io/biocontainers/sc-musketeers", "aliases": {"dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "neptune": "/usr/local/bin/neptune", "poetry": "/usr/local/bin/poetry", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "sc-musketeers": "/usr/local/bin/sc-musketeers", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "jsonpointer": "/usr/local/bin/jsonpointer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wsdump": "/usr/local/bin/wsdump", "flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "doesitcache": "/usr/local/bin/doesitcache", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "markdown-it": "/usr/local/bin/markdown-it", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli"}}
+config: {"url": "https://biocontainers.pro/tools/sc-musketeers", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sc-musketeers", "latest": {"0.4.1--pyhdfd78af_0": "sha256:ba18ab0fa1a8c49e3b47a3fa1f5227047668728c7354fa654869d5bdfe1b4321"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:28b83e108555042924f58289364c7513dd66f7182e6a67ada5c2646fb132617e", "0.4.1--pyhdfd78af_0": "sha256:ba18ab0fa1a8c49e3b47a3fa1f5227047668728c7354fa654869d5bdfe1b4321"}, "docker": "quay.io/biocontainers/sc-musketeers", "aliases": {"dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "neptune": "/usr/local/bin/neptune", "poetry": "/usr/local/bin/poetry", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "sc-musketeers": "/usr/local/bin/sc-musketeers", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "jsonpointer": "/usr/local/bin/jsonpointer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wsdump": "/usr/local/bin/wsdump", "flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "doesitcache": "/usr/local/bin/doesitcache", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "markdown-it": "/usr/local/bin/markdown-it", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sc-musketeers.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/sc-musketeers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sc-musketeers:0.3.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sc-musketeers:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sc-musketeers/0.3.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/sc-musketeers/0.3.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/sc-musketeers/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/sc-musketeers/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

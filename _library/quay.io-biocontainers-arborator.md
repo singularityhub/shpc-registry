@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arborator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arborator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arborator/container.yaml"
-updated_at: "2025-02-21 03:29:18.072355"
+updated_at: "2025-02-22 03:20:40.820799"
 latest: "1.0.0--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/arborator"
 aliases:

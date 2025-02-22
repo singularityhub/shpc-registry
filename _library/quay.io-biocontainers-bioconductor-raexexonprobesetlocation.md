@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raexexonprobesetlocation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raexexonprobesetlocation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raexexonprobesetlocation/container.yaml"
-updated_at: "2025-02-21 03:34:57.940401"
+updated_at: "2025-02-22 03:25:57.587657"
 latest: "1.15.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-raexexonprobesetlocation"
 

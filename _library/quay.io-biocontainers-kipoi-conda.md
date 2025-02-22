@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kipoi-conda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoi-conda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoi-conda/container.yaml"
-updated_at: "2025-02-21 03:25:28.073172"
+updated_at: "2025-02-22 03:17:11.363642"
 latest: "0.1.6--py_0"
 container_url: "https://biocontainers.pro/tools/kipoi-conda"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-celldex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
-updated_at: "2025-02-21 03:37:40.362501"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2025-02-22 03:28:29.108444"
+latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celldex"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r42hdfd78af_0"
  - "1.10.1--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.16.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-celldex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celldex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celldex", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d7a1d39c07f00e620e2e72d4b374ddacffd1d0f5e8f89e2ebb189dd299987e62"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3", "1.8.0--r42hdfd78af_0": "sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c", "1.10.1--r43hdfd78af_0": "sha256:562d3eb983ec73f6cd66d97ba9f57d41e25c3e2617d270a46c1bcc6e80ab36e1", "1.12.0--r43hdfd78af_0": "sha256:d7a1d39c07f00e620e2e72d4b374ddacffd1d0f5e8f89e2ebb189dd299987e62"}, "docker": "quay.io/biocontainers/bioconductor-celldex"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celldex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celldex", "latest": {"1.16.0--r44hdfd78af_0": "sha256:c05ce67fd284918880d6fb035a5c5a3321bec2090cf59e25d35ad4901caa509c"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3", "1.8.0--r42hdfd78af_0": "sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c", "1.10.1--r43hdfd78af_0": "sha256:562d3eb983ec73f6cd66d97ba9f57d41e25c3e2617d270a46c1bcc6e80ab36e1", "1.12.0--r43hdfd78af_0": "sha256:d7a1d39c07f00e620e2e72d4b374ddacffd1d0f5e8f89e2ebb189dd299987e62", "1.16.0--r44hdfd78af_0": "sha256:c05ce67fd284918880d6fb035a5c5a3321bec2090cf59e25d35ad4901caa509c"}, "docker": "quay.io/biocontainers/bioconductor-celldex"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celldex.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celldex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celldex:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-celldex:1.16.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celldex/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-celldex/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-celldex/1.16.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-celldex/1.16.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

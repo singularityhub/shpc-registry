@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnarrange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnarrange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnarrange/container.yaml"
-updated_at: "2025-02-21 03:04:21.927648"
-latest: "1.6.2--pyh7cba7a3_0"
+updated_at: "2025-02-22 02:57:59.420785"
+latest: "1.6.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/dnarrange"
 aliases:
  - "dnarrange"
@@ -49,8 +49,9 @@ versions:
  - "1.5.3--pyh5e36f6f_0"
  - "1.6.1--pyh7cba7a3_0"
  - "1.6.2--pyh7cba7a3_0"
+ - "1.6.3--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for dnarrange"
-config: {"url": "https://biocontainers.pro/tools/dnarrange", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnarrange", "latest": {"1.6.2--pyh7cba7a3_0": "sha256:eed13a804712f0b82f5fc2680da9c75b6a23a8381c5825e75de6296435047df4"}, "tags": {"1.5.3--pyh5e36f6f_0": "sha256:1a0c04c0d9d8199965b44c2f22953e7521639ee28e1058fb4d0f60f876c93873", "1.6.1--pyh7cba7a3_0": "sha256:f33ad7a8c171e3f858901a65df76361a29e7c82d0b79f3ae0df0de27c46bb716", "1.6.2--pyh7cba7a3_0": "sha256:eed13a804712f0b82f5fc2680da9c75b6a23a8381c5825e75de6296435047df4"}, "docker": "quay.io/biocontainers/dnarrange", "aliases": {"dnarrange": "/usr/local/bin/dnarrange", "dnarrange-genes": "/usr/local/bin/dnarrange-genes", "dnarrange-link": "/usr/local/bin/dnarrange-link", "dnarrange-merge": "/usr/local/bin/dnarrange-merge", "fasta-nr": "/usr/local/bin/fasta-nr", "fastq-interleave": "/usr/local/bin/fastq-interleave", "lamassemble": "/usr/local/bin/lamassemble", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-merge-batches": "/usr/local/bin/last-merge-batches", "last-multiplot": "/usr/local/bin/last-multiplot", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split5": "/usr/local/bin/last-split5", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal5": "/usr/local/bin/lastal5", "lastdb": "/usr/local/bin/lastdb", "lastdb5": "/usr/local/bin/lastdb5", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "parsort": "/usr/local/bin/parsort", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns"}}
+config: {"url": "https://biocontainers.pro/tools/dnarrange", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnarrange", "latest": {"1.6.3--pyh7e72e81_0": "sha256:1ef8c8162d8c3b45d9148cf2c432cf1e721c48390dd4183257b1c74e9972f862"}, "tags": {"1.5.3--pyh5e36f6f_0": "sha256:1a0c04c0d9d8199965b44c2f22953e7521639ee28e1058fb4d0f60f876c93873", "1.6.1--pyh7cba7a3_0": "sha256:f33ad7a8c171e3f858901a65df76361a29e7c82d0b79f3ae0df0de27c46bb716", "1.6.2--pyh7cba7a3_0": "sha256:eed13a804712f0b82f5fc2680da9c75b6a23a8381c5825e75de6296435047df4", "1.6.3--pyh7e72e81_0": "sha256:1ef8c8162d8c3b45d9148cf2c432cf1e721c48390dd4183257b1c74e9972f862"}, "docker": "quay.io/biocontainers/dnarrange", "aliases": {"dnarrange": "/usr/local/bin/dnarrange", "dnarrange-genes": "/usr/local/bin/dnarrange-genes", "dnarrange-link": "/usr/local/bin/dnarrange-link", "dnarrange-merge": "/usr/local/bin/dnarrange-merge", "fasta-nr": "/usr/local/bin/fasta-nr", "fastq-interleave": "/usr/local/bin/fastq-interleave", "lamassemble": "/usr/local/bin/lamassemble", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-merge-batches": "/usr/local/bin/last-merge-batches", "last-multiplot": "/usr/local/bin/last-multiplot", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split5": "/usr/local/bin/last-split5", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal5": "/usr/local/bin/lastal5", "lastdb": "/usr/local/bin/lastdb", "lastdb5": "/usr/local/bin/lastdb5", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "parsort": "/usr/local/bin/parsort", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnarrange.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/dnarrange
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnarrange:1.6.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/dnarrange:1.6.3--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnarrange/1.6.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/dnarrange/1.6.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/dnarrange/1.6.3--pyh7e72e81_0
+$ module help quay.io/biocontainers/dnarrange/1.6.3--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

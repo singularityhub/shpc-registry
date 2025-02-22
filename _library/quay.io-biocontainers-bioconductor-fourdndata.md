@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fourdndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fourdndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fourdndata/container.yaml"
-updated_at: "2025-02-21 03:13:08.565106"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2025-02-22 03:05:57.652162"
+latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fourdndata"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-fourdndata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fourdndata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fourdndata", "latest": {"1.2.0--r43hdfd78af_0": "sha256:d6efeedce00b5a5aacf792d3b5330aafd563f716d7d05aa1c432c120b0175e6a"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0d454a51c93f3c33466c3ea20df10dc2f40dae70de2e303c0c7666e1fa92ea5f", "1.2.0--r43hdfd78af_0": "sha256:d6efeedce00b5a5aacf792d3b5330aafd563f716d7d05aa1c432c120b0175e6a"}, "docker": "quay.io/biocontainers/bioconductor-fourdndata", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fourdndata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fourdndata", "latest": {"1.6.0--r44hdfd78af_0": "sha256:1f92ce7f66ed9724957980f59c0c953487891d1d1b1eedbdbf55caea0c3776cf"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0d454a51c93f3c33466c3ea20df10dc2f40dae70de2e303c0c7666e1fa92ea5f", "1.2.0--r43hdfd78af_0": "sha256:d6efeedce00b5a5aacf792d3b5330aafd563f716d7d05aa1c432c120b0175e6a", "1.6.0--r44hdfd78af_0": "sha256:1f92ce7f66ed9724957980f59c0c953487891d1d1b1eedbdbf55caea0c3776cf"}, "docker": "quay.io/biocontainers/bioconductor-fourdndata", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fourdndata.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fourdndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fourdndata:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fourdndata:1.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fourdndata/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fourdndata/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fourdndata/1.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fourdndata/1.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

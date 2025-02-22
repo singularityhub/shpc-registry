@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ggcoverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggcoverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggcoverage/container.yaml"
-updated_at: "2025-02-21 03:01:23.235197"
-latest: "0.7.1--r43h3121a25_2"
+updated_at: "2025-02-22 02:55:20.133567"
+latest: "0.7.1--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-ggcoverage"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.7.1--r42h3121a25_1"
  - "0.7.1--r43h3121a25_2"
+ - "0.7.1--r44h3121a25_3"
 description: "singularity registry hpc automated addition for r-ggcoverage"
-config: {"url": "https://biocontainers.pro/tools/r-ggcoverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ggcoverage", "latest": {"0.7.1--r43h3121a25_2": "sha256:2c873efeb78cff1344facdcecb31ec5efb297b83226e56e10aa2eaaa7a8709c6"}, "tags": {"0.7.1--r42h3121a25_1": "sha256:e61cb23e5ac3cb352b36b6a4c8ecb1c790f25718cd49471891e6d6ed9c113764", "0.7.1--r43h3121a25_2": "sha256:2c873efeb78cff1344facdcecb31ec5efb297b83226e56e10aa2eaaa7a8709c6"}, "docker": "quay.io/biocontainers/r-ggcoverage", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggcoverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ggcoverage", "latest": {"0.7.1--r44h3121a25_3": "sha256:a4d44ddaed9bed718797fb00ff579e52a076ae7183af72974c9e2dec0092fb78"}, "tags": {"0.7.1--r42h3121a25_1": "sha256:e61cb23e5ac3cb352b36b6a4c8ecb1c790f25718cd49471891e6d6ed9c113764", "0.7.1--r43h3121a25_2": "sha256:2c873efeb78cff1344facdcecb31ec5efb297b83226e56e10aa2eaaa7a8709c6", "0.7.1--r44h3121a25_3": "sha256:a4d44ddaed9bed718797fb00ff579e52a076ae7183af72974c9e2dec0092fb78"}, "docker": "quay.io/biocontainers/r-ggcoverage", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggcoverage.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/r-ggcoverage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ggcoverage:0.7.1--r43h3121a25_2
+$ shpc install quay.io/biocontainers/r-ggcoverage:0.7.1--r44h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ggcoverage/0.7.1--r43h3121a25_2
-$ module help quay.io/biocontainers/r-ggcoverage/0.7.1--r43h3121a25_2
+$ module load quay.io/biocontainers/r-ggcoverage/0.7.1--r44h3121a25_3
+$ module help quay.io/biocontainers/r-ggcoverage/0.7.1--r44h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

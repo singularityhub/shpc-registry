@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-ampvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampvis/container.yaml"
-updated_at: "2025-02-21 03:39:33.114479"
-latest: "1.27.0--r43h9ee0642_6"
+updated_at: "2025-02-22 03:30:08.525414"
+latest: "1.27.0--r44h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-ampvis"
 
 versions:
  - "1.27.0--r41h9ee0642_4"
  - "1.27.0--r42h9ee0642_5"
  - "1.27.0--r43h9ee0642_6"
+ - "1.27.0--r44h9ee0642_7"
 description: "shpc-registry automated BioContainers addition for r-ampvis"
-config: {"url": "https://biocontainers.pro/tools/r-ampvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis", "latest": {"1.27.0--r43h9ee0642_6": "sha256:d396b61e24af4b9699256fdd71a85d4258b6ea682f794eb2f7a243849efb4459"}, "tags": {"1.27.0--r41h9ee0642_4": "sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4", "1.27.0--r42h9ee0642_5": "sha256:b27ef38ca5c43156ecf172daea440effb2574ffa13830c2ca6575201dd4cbea7", "1.27.0--r43h9ee0642_6": "sha256:d396b61e24af4b9699256fdd71a85d4258b6ea682f794eb2f7a243849efb4459"}, "docker": "quay.io/biocontainers/r-ampvis"}
+config: {"url": "https://biocontainers.pro/tools/r-ampvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis", "latest": {"1.27.0--r44h9ee0642_7": "sha256:80df5b8245eb2b5d85f6f7df2c1ae975d09ac36feb99e96d07bd8338df987e2d"}, "tags": {"1.27.0--r41h9ee0642_4": "sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4", "1.27.0--r42h9ee0642_5": "sha256:b27ef38ca5c43156ecf172daea440effb2574ffa13830c2ca6575201dd4cbea7", "1.27.0--r43h9ee0642_6": "sha256:d396b61e24af4b9699256fdd71a85d4258b6ea682f794eb2f7a243849efb4459", "1.27.0--r44h9ee0642_7": "sha256:80df5b8245eb2b5d85f6f7df2c1ae975d09ac36feb99e96d07bd8338df987e2d"}, "docker": "quay.io/biocontainers/r-ampvis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ampvis.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-ampvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ampvis:1.27.0--r43h9ee0642_6
+$ shpc install quay.io/biocontainers/r-ampvis:1.27.0--r44h9ee0642_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ampvis/1.27.0--r43h9ee0642_6
-$ module help quay.io/biocontainers/r-ampvis/1.27.0--r43h9ee0642_6
+$ module load quay.io/biocontainers/r-ampvis/1.27.0--r44h9ee0642_7
+$ module help quay.io/biocontainers/r-ampvis/1.27.0--r44h9ee0642_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

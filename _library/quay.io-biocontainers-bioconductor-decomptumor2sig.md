@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-decomptumor2sig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
-updated_at: "2025-02-21 03:06:50.364902"
-latest: "2.18.0--r43hdfd78af_0"
+updated_at: "2025-02-22 03:00:16.704934"
+latest: "2.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decomptumor2sig"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "2.10.0--r41hdfd78af_0"
  - "2.16.0--r43hdfd78af_0"
  - "2.18.0--r43hdfd78af_0"
+ - "2.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-decomptumor2sig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig", "latest": {"2.18.0--r43hdfd78af_0": "sha256:03effe2aa1c9e8f6f47e8550f8ad0d3678caa10e6a864da625699a0cc4ada7f2"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9", "2.14.0--r42hdfd78af_0": "sha256:24c14e5b537a900797d3c8bf99702e8dd0ef40d31f70231cf786d938f41b8d63", "2.10.0--r41hdfd78af_0": "sha256:83b7aafaaed346c4be37b968f2a4534937a024f1eb8342219eb8967d6f0df681", "2.16.0--r43hdfd78af_0": "sha256:3ae81b0339605ef98e4ed403c3250da73dc79534cb169fadc32e3e522bea2cf6", "2.18.0--r43hdfd78af_0": "sha256:03effe2aa1c9e8f6f47e8550f8ad0d3678caa10e6a864da625699a0cc4ada7f2"}, "docker": "quay.io/biocontainers/bioconductor-decomptumor2sig", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-decomptumor2sig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig", "latest": {"2.22.0--r44hdfd78af_0": "sha256:775617a11321427e9c99a4e6741fb0701409ae1f747edea479ca6d42e6e8147b"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9", "2.14.0--r42hdfd78af_0": "sha256:24c14e5b537a900797d3c8bf99702e8dd0ef40d31f70231cf786d938f41b8d63", "2.10.0--r41hdfd78af_0": "sha256:83b7aafaaed346c4be37b968f2a4534937a024f1eb8342219eb8967d6f0df681", "2.16.0--r43hdfd78af_0": "sha256:3ae81b0339605ef98e4ed403c3250da73dc79534cb169fadc32e3e522bea2cf6", "2.18.0--r43hdfd78af_0": "sha256:03effe2aa1c9e8f6f47e8550f8ad0d3678caa10e6a864da625699a0cc4ada7f2", "2.22.0--r44hdfd78af_0": "sha256:775617a11321427e9c99a4e6741fb0701409ae1f747edea479ca6d42e6e8147b"}, "docker": "quay.io/biocontainers/bioconductor-decomptumor2sig", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-decomptumor2sig.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-decomptumor2sig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-decomptumor2sig:2.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-decomptumor2sig:2.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-decomptumor2sig/2.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-decomptumor2sig/2.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-decomptumor2sig/2.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-decomptumor2sig/2.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

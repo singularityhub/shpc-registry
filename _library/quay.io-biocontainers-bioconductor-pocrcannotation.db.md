@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pocrcannotation.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pocrcannotation.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pocrcannotation.db/container.yaml"
-updated_at: "2025-02-21 03:11:38.202527"
-latest: "3.2.3--r43hdfd78af_11"
+updated_at: "2025-02-22 03:04:34.367109"
+latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-pocrcannotation.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
+ - "3.2.3--r44hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-pocrcannotation.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pocrcannotation.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pocrcannotation.db", "latest": {"3.2.3--r43hdfd78af_11": "sha256:26d244927c74206cd50bfbeabb1754d7552101b583e12c1fa7a76604bfd09eed"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:b73b7b056be002568d450d57b779c11345ce7aa48a46a080d6b42d9b950e9668", "3.2.3--r42hdfd78af_10": "sha256:e259699a8629da1ceb5f535426a54e89eac1ebd3bbb4e9a71df2c4ae98f5061b", "3.2.3--r43hdfd78af_11": "sha256:26d244927c74206cd50bfbeabb1754d7552101b583e12c1fa7a76604bfd09eed"}, "docker": "quay.io/biocontainers/bioconductor-pocrcannotation.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pocrcannotation.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pocrcannotation.db", "latest": {"3.2.3--r44hdfd78af_13": "sha256:057d0502fe565c11aa1a6ec7c375fb187f4f5294e745fa19f1d7ac427caaaf97"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:b73b7b056be002568d450d57b779c11345ce7aa48a46a080d6b42d9b950e9668", "3.2.3--r42hdfd78af_10": "sha256:e259699a8629da1ceb5f535426a54e89eac1ebd3bbb4e9a71df2c4ae98f5061b", "3.2.3--r43hdfd78af_11": "sha256:26d244927c74206cd50bfbeabb1754d7552101b583e12c1fa7a76604bfd09eed", "3.2.3--r44hdfd78af_13": "sha256:057d0502fe565c11aa1a6ec7c375fb187f4f5294e745fa19f1d7ac427caaaf97"}, "docker": "quay.io/biocontainers/bioconductor-pocrcannotation.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pocrcannotation.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pocrcannotation.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pocrcannotation.db:3.2.3--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-pocrcannotation.db:3.2.3--r44hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pocrcannotation.db/3.2.3--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-pocrcannotation.db/3.2.3--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-pocrcannotation.db/3.2.3--r44hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-pocrcannotation.db/3.2.3--r44hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

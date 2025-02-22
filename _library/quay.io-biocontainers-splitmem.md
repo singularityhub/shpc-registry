@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splitmem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitmem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitmem/container.yaml"
-updated_at: "2025-02-21 03:16:56.539633"
+updated_at: "2025-02-22 03:09:26.919690"
 latest: "1.0--h9948957_7"
 container_url: "https://biocontainers.pro/tools/splitmem"
 aliases:

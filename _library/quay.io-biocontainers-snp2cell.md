@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snp2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp2cell/container.yaml"
-updated_at: "2025-02-21 03:43:38.553378"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-02-22 03:33:50.835834"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snp2cell"
 aliases:
  - "snp2cell"
@@ -37,8 +37,9 @@ aliases:
  - "hwloc-patch"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snp2cell"
-config: {"url": "https://biocontainers.pro/tools/snp2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snp2cell", "latest": {"0.2.0--pyhdfd78af_0": "sha256:b0d92391c311213a6b3aa707b7fce7bece976b5be2db7519304386251593ae17"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:b0d92391c311213a6b3aa707b7fce7bece976b5be2db7519304386251593ae17"}, "docker": "quay.io/biocontainers/snp2cell", "aliases": {"snp2cell": "/usr/local/bin/snp2cell", "typer": "/usr/local/bin/typer", "get_gprof": "/usr/local/bin/get_gprof", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "markdown-it": "/usr/local/bin/markdown-it", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
+config: {"url": "https://biocontainers.pro/tools/snp2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snp2cell", "latest": {"0.2.1--pyhdfd78af_0": "sha256:3a2e089e7f315b35b258ca8ea1d7e613ea757db2b435f7b4f7a99405d26e153e"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:b0d92391c311213a6b3aa707b7fce7bece976b5be2db7519304386251593ae17", "0.2.1--pyhdfd78af_0": "sha256:3a2e089e7f315b35b258ca8ea1d7e613ea757db2b435f7b4f7a99405d26e153e"}, "docker": "quay.io/biocontainers/snp2cell", "aliases": {"snp2cell": "/usr/local/bin/snp2cell", "typer": "/usr/local/bin/typer", "get_gprof": "/usr/local/bin/get_gprof", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "markdown-it": "/usr/local/bin/markdown-it", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp2cell.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/snp2cell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp2cell:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snp2cell:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp2cell/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/snp2cell/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/snp2cell/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/snp2cell/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

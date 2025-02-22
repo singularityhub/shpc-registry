@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cliprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
-updated_at: "2025-02-21 03:34:02.469045"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2025-02-22 03:25:05.702547"
+latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cliprofiler"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.12.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cliprofiler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cliprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliprofiler", "latest": {"1.8.0--r43hdfd78af_0": "sha256:ffee792e263681684bb0f53d4efe6aeb11f05c77b599ef2590f6d25caa9636ca"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56", "1.4.0--r42hdfd78af_0": "sha256:203926549368371b87417d009bff623b93fb5dcab41dec68b9eec2eb81d51338", "1.6.0--r43hdfd78af_0": "sha256:e37e8ba717db5ab5dc46766f233cca4a9c6b56c01f5565d6a3d272a0f200b6b7", "1.8.0--r43hdfd78af_0": "sha256:ffee792e263681684bb0f53d4efe6aeb11f05c77b599ef2590f6d25caa9636ca"}, "docker": "quay.io/biocontainers/bioconductor-cliprofiler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cliprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliprofiler", "latest": {"1.12.0--r44hdfd78af_0": "sha256:ecc371d782976673f0e231df82a9c433f4387a1b7a194123420b6d980f48eba8"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56", "1.4.0--r42hdfd78af_0": "sha256:203926549368371b87417d009bff623b93fb5dcab41dec68b9eec2eb81d51338", "1.6.0--r43hdfd78af_0": "sha256:e37e8ba717db5ab5dc46766f233cca4a9c6b56c01f5565d6a3d272a0f200b6b7", "1.8.0--r43hdfd78af_0": "sha256:ffee792e263681684bb0f53d4efe6aeb11f05c77b599ef2590f6d25caa9636ca", "1.12.0--r44hdfd78af_0": "sha256:ecc371d782976673f0e231df82a9c433f4387a1b7a194123420b6d980f48eba8"}, "docker": "quay.io/biocontainers/bioconductor-cliprofiler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cliprofiler.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cliprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cliprofiler:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cliprofiler:1.12.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cliprofiler/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cliprofiler/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cliprofiler/1.12.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cliprofiler/1.12.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
