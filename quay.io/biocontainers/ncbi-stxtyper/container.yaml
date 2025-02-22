@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ncbi-stxtyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ncbi-stxtyper
 latest:
-  1.0.31--h9948957_0: sha256:51738d7310c988a2aaea3cde8c82e4f1cf84248c241aebfd827586f3f882cf74
+  1.0.40--h9948957_0: sha256:ac64877f50743e542e696f57647a7810464edb87157ef5d3b4645f36df94d78f
 tags:
   1.0.24--h4ac6f70_0: sha256:626f9ec6752810bac4afc51a988d7ec8a414cf90ec8b18ffa23080be42e0ea93
   1.0.25--h4ac6f70_0: sha256:e8fa710c82c909582ab751e37217f2050d3518bdd16c917f9aad3eabae774fb6
   1.0.27--h4ac6f70_0: sha256:c669065cc7028269655554d20fa51adbcb297beaec8e630f8b3b69518405c666
   1.0.31--h9948957_0: sha256:51738d7310c988a2aaea3cde8c82e4f1cf84248c241aebfd827586f3f882cf74
+  1.0.40--h9948957_0: sha256:ac64877f50743e542e696f57647a7810464edb87157ef5d3b4645f36df94d78f
 docker: quay.io/biocontainers/ncbi-stxtyper
 aliases:
   fasta_extract: /usr/local/bin/fasta_extract
