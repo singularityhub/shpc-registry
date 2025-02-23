@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/prymer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for prymer
 latest:
-  3.0.0--pyhdfd78af_0: sha256:bc42f798949e7b31c1d128845b9b8bfb005d89e0c8b30278390756056dfddc80
+  3.0.2--pyhdfd78af_0: sha256:cffee752eb7a9957e62fe90be765f9b4f3b8e752e0003c376c489e8cd4888eb4
 tags:
   2.0.0--pyhdfd78af_0: sha256:4f7d639e0369dea186635d4d4307f2fe9a87c2a02dab0787ff2ef120adedccd5
   2.1.1--pyhdfd78af_0: sha256:b31ea29d6f193625b4772d7935c36cee2ddf411f9e763c583267327d204962df
   2.0.0--pyhdfd78af_1: sha256:5004212429af75148a5360d65a89f5090604a543868e7bf20cdf9e34e57c2eea
   2.2.0--pyhdfd78af_0: sha256:30c714816e69a501fb2d0c6d672ffe8e53316e638f7f8ffc45090e9c7f4b3357
   3.0.0--pyhdfd78af_0: sha256:bc42f798949e7b31c1d128845b9b8bfb005d89e0c8b30278390756056dfddc80
+  3.0.2--pyhdfd78af_0: sha256:cffee752eb7a9957e62fe90be765f9b4f3b8e752e0003c376c489e8cd4888eb4
 docker: quay.io/biocontainers/prymer
 aliases:
   amplicon3_core: /usr/local/bin/amplicon3_core
