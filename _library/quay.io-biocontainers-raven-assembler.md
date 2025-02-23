@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/raven-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raven-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raven-assembler/container.yaml"
-updated_at: "2025-02-22 03:27:25.606022"
-latest: "1.8.3--h5ca1c30_2"
+updated_at: "2025-02-23 03:37:03.161763"
+latest: "1.8.3--h5ca1c30_3"
 container_url: "https://biocontainers.pro/tools/raven-assembler"
 aliases:
  - "raven"
@@ -15,8 +15,9 @@ versions:
  - "1.8.3--h43eeafb_0"
  - "1.8.3--h43eeafb_1"
  - "1.8.3--h5ca1c30_2"
+ - "1.8.3--h5ca1c30_3"
 description: "shpc-registry automated BioContainers addition for raven-assembler"
-config: {"url": "https://biocontainers.pro/tools/raven-assembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raven-assembler", "latest": {"1.8.3--h5ca1c30_2": "sha256:062be64ee8e3013623c9abc1fae41c4891224b8fc9c801130cf1af3559801f83"}, "tags": {"1.8.1--h5b5514e_1": "sha256:1a439066b3b6d95a587984d3225653a785294258ed5fc38c6ab5391a7beba8fe", "1.8.1--h43eeafb_3": "sha256:f4fb9dce3e189cdc0e74e5c3fa0d043e532c507e20e96f44a394a89c94438312", "1.8.3--h43eeafb_0": "sha256:9caef723014bf5da898f69bc9847125fb090d069233b0021c7446c87badf7b9c", "1.8.3--h43eeafb_1": "sha256:8895f23e6207bc862a37cb7ce8dcd504c624c64352a47b7da2ef98bd2dc73a34", "1.8.3--h5ca1c30_2": "sha256:062be64ee8e3013623c9abc1fae41c4891224b8fc9c801130cf1af3559801f83"}, "docker": "quay.io/biocontainers/raven-assembler", "aliases": {"raven": "/usr/local/bin/raven"}}
+config: {"url": "https://biocontainers.pro/tools/raven-assembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raven-assembler", "latest": {"1.8.3--h5ca1c30_3": "sha256:feaca54ec7f07906eb3a97e8f84028163683040793f3df8fb30db8567f56348b"}, "tags": {"1.8.1--h5b5514e_1": "sha256:1a439066b3b6d95a587984d3225653a785294258ed5fc38c6ab5391a7beba8fe", "1.8.1--h43eeafb_3": "sha256:f4fb9dce3e189cdc0e74e5c3fa0d043e532c507e20e96f44a394a89c94438312", "1.8.3--h43eeafb_0": "sha256:9caef723014bf5da898f69bc9847125fb090d069233b0021c7446c87badf7b9c", "1.8.3--h43eeafb_1": "sha256:8895f23e6207bc862a37cb7ce8dcd504c624c64352a47b7da2ef98bd2dc73a34", "1.8.3--h5ca1c30_2": "sha256:062be64ee8e3013623c9abc1fae41c4891224b8fc9c801130cf1af3559801f83", "1.8.3--h5ca1c30_3": "sha256:feaca54ec7f07906eb3a97e8f84028163683040793f3df8fb30db8567f56348b"}, "docker": "quay.io/biocontainers/raven-assembler", "aliases": {"raven": "/usr/local/bin/raven"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raven-assembler.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/raven-assembler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raven-assembler:1.8.3--h5ca1c30_2
+$ shpc install quay.io/biocontainers/raven-assembler:1.8.3--h5ca1c30_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raven-assembler/1.8.3--h5ca1c30_2
-$ module help quay.io/biocontainers/raven-assembler/1.8.3--h5ca1c30_2
+$ module load quay.io/biocontainers/raven-assembler/1.8.3--h5ca1c30_3
+$ module help quay.io/biocontainers/raven-assembler/1.8.3--h5ca1c30_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

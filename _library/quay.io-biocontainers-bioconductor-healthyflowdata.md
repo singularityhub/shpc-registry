@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-healthyflowdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-healthyflowdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-healthyflowdata/container.yaml"
-updated_at: "2025-02-22 02:50:45.826415"
+updated_at: "2025-02-23 02:59:16.279028"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-healthyflowdata"
 

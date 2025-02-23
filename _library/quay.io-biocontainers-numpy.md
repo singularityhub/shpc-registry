@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/numpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/numpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/numpy/container.yaml"
-updated_at: "2025-02-22 03:20:46.370801"
-latest: "1.15.4"
+updated_at: "2025-02-23 03:30:11.076508"
+latest: "2.2.2"
 container_url: "https://biocontainers.pro/tools/numpy"
 aliases:
  - "2to3-3.7"
@@ -19,8 +19,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.15.4"
+ - "2.2.2"
 description: "shpc-registry automated BioContainers addition for numpy"
-config: {"url": "https://biocontainers.pro/tools/numpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for numpy", "latest": {"1.15.4": "sha256:83e185c7064fec9683c9d114df710a3ac33caee7da44de9e252bf5e963ecb8ce"}, "tags": {"1.15.4": "sha256:83e185c7064fec9683c9d114df710a3ac33caee7da44de9e252bf5e963ecb8ce"}, "docker": "quay.io/biocontainers/numpy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/numpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for numpy", "latest": {"2.2.2": "sha256:e3d997552fd17da6344499e38d5a7d5c659db51a492cb3ea541f4ef90aa49f75"}, "tags": {"1.15.4": "sha256:83e185c7064fec9683c9d114df710a3ac33caee7da44de9e252bf5e963ecb8ce", "2.2.2": "sha256:e3d997552fd17da6344499e38d5a7d5c659db51a492cb3ea541f4ef90aa49f75"}, "docker": "quay.io/biocontainers/numpy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/numpy.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/numpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/numpy:1.15.4
+$ shpc install quay.io/biocontainers/numpy:2.2.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/numpy/1.15.4
-$ module help quay.io/biocontainers/numpy/1.15.4
+$ module load quay.io/biocontainers/numpy/2.2.2
+$ module help quay.io/biocontainers/numpy/2.2.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
