@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kakscalculator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kakscalculator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kakscalculator2/container.yaml"
-updated_at: "2025-02-23 03:09:00.184912"
-latest: "2.0.1--h9948957_5"
+updated_at: "2025-02-24 03:09:27.226932"
+latest: "2.0.1--h9948957_6"
 container_url: "https://biocontainers.pro/tools/kakscalculator2"
 aliases:
  - "AXTConvertor"
@@ -15,8 +15,9 @@ versions:
  - "2.0.1--h9f5acd7_2"
  - "2.0.1--h4ac6f70_4"
  - "2.0.1--h9948957_5"
+ - "2.0.1--h9948957_6"
 description: "shpc-registry automated BioContainers addition for kakscalculator2"
-config: {"url": "https://biocontainers.pro/tools/kakscalculator2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kakscalculator2", "latest": {"2.0.1--h9948957_5": "sha256:20390c67b4255ea1475f08bfafa950c616649b72b39f646de72e5c33455ed5b3"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40", "2.0.1--h4ac6f70_4": "sha256:f8e8cf39e32e533e60344df1cc9385128402284f47f40b01bd834931d27f0048", "2.0.1--h9948957_5": "sha256:20390c67b4255ea1475f08bfafa950c616649b72b39f646de72e5c33455ed5b3"}, "docker": "quay.io/biocontainers/kakscalculator2", "aliases": {"AXTConvertor": "/usr/local/bin/AXTConvertor", "ConPairs": "/usr/local/bin/ConPairs", "KaKs_Calculator": "/usr/local/bin/KaKs_Calculator"}}
+config: {"url": "https://biocontainers.pro/tools/kakscalculator2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kakscalculator2", "latest": {"2.0.1--h9948957_6": "sha256:ae157b0f27553d80557083c4472f085f06707361b21c492ccd1105e4a553136f"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40", "2.0.1--h4ac6f70_4": "sha256:f8e8cf39e32e533e60344df1cc9385128402284f47f40b01bd834931d27f0048", "2.0.1--h9948957_5": "sha256:20390c67b4255ea1475f08bfafa950c616649b72b39f646de72e5c33455ed5b3", "2.0.1--h9948957_6": "sha256:ae157b0f27553d80557083c4472f085f06707361b21c492ccd1105e4a553136f"}, "docker": "quay.io/biocontainers/kakscalculator2", "aliases": {"AXTConvertor": "/usr/local/bin/AXTConvertor", "ConPairs": "/usr/local/bin/ConPairs", "KaKs_Calculator": "/usr/local/bin/KaKs_Calculator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kakscalculator2.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/kakscalculator2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kakscalculator2:2.0.1--h9948957_5
+$ shpc install quay.io/biocontainers/kakscalculator2:2.0.1--h9948957_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kakscalculator2/2.0.1--h9948957_5
-$ module help quay.io/biocontainers/kakscalculator2/2.0.1--h9948957_5
+$ module load quay.io/biocontainers/kakscalculator2/2.0.1--h9948957_6
+$ module help quay.io/biocontainers/kakscalculator2/2.0.1--h9948957_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

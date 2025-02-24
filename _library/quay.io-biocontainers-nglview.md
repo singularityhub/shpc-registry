@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nglview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nglview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nglview/container.yaml"
-updated_at: "2025-02-23 03:23:48.116930"
+updated_at: "2025-02-24 03:23:54.459969"
 latest: "1.1.7--py_0"
 container_url: "https://biocontainers.pro/tools/nglview"
 aliases:

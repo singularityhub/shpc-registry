@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydustmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydustmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydustmasker/container.yaml"
-updated_at: "2025-02-23 03:14:26.025670"
-latest: "1.0.0--py310h1fe012e_2"
+updated_at: "2025-02-24 03:14:43.260628"
+latest: "1.0.0--py310hc7d9715_3"
 container_url: "https://biocontainers.pro/tools/pydustmasker"
 aliases:
  - "2to3-3.10"
@@ -17,8 +17,9 @@ versions:
  - "1.0.0--py310h7c593f9_0"
  - "1.0.0--py38h0020b31_1"
  - "1.0.0--py310h1fe012e_2"
+ - "1.0.0--py310hc7d9715_3"
 description: "singularity registry hpc automated addition for pydustmasker"
-config: {"url": "https://biocontainers.pro/tools/pydustmasker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydustmasker", "latest": {"1.0.0--py310h1fe012e_2": "sha256:4a3044e99e0d1858d6d6736a23a9bccc84470dd02f787d8795460219b2c26deb"}, "tags": {"1.0.0--py310h7c593f9_0": "sha256:99dff24cc7577a7d1e88fbdbf22ef477bcc16c84f56436c90f51089fe62f19cb", "1.0.0--py38h0020b31_1": "sha256:37282d928f8b2448186ce89feeef7dfa13d2a8afc874fbd34b4a5d0888523865", "1.0.0--py310h1fe012e_2": "sha256:4a3044e99e0d1858d6d6736a23a9bccc84470dd02f787d8795460219b2c26deb"}, "docker": "quay.io/biocontainers/pydustmasker", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pydustmasker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydustmasker", "latest": {"1.0.0--py310hc7d9715_3": "sha256:c34fdde1c43b0263c50876ec1c8ab5a054dfd7edae1a2d79fd936917dbf341a0"}, "tags": {"1.0.0--py310h7c593f9_0": "sha256:99dff24cc7577a7d1e88fbdbf22ef477bcc16c84f56436c90f51089fe62f19cb", "1.0.0--py38h0020b31_1": "sha256:37282d928f8b2448186ce89feeef7dfa13d2a8afc874fbd34b4a5d0888523865", "1.0.0--py310h1fe012e_2": "sha256:4a3044e99e0d1858d6d6736a23a9bccc84470dd02f787d8795460219b2c26deb", "1.0.0--py310hc7d9715_3": "sha256:c34fdde1c43b0263c50876ec1c8ab5a054dfd7edae1a2d79fd936917dbf341a0"}, "docker": "quay.io/biocontainers/pydustmasker", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydustmasker.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pydustmasker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydustmasker:1.0.0--py310h1fe012e_2
+$ shpc install quay.io/biocontainers/pydustmasker:1.0.0--py310hc7d9715_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydustmasker/1.0.0--py310h1fe012e_2
-$ module help quay.io/biocontainers/pydustmasker/1.0.0--py310h1fe012e_2
+$ module load quay.io/biocontainers/pydustmasker/1.0.0--py310hc7d9715_3
+$ module help quay.io/biocontainers/pydustmasker/1.0.0--py310hc7d9715_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
