@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/runjob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/runjob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/runjob/container.yaml"
-updated_at: "2025-02-24 03:27:13.299721"
-latest: "2.10.6--pyhdfd78af_0"
+updated_at: "2025-02-25 03:27:09.356003"
+latest: "2.10.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/runjob"
 aliases:
  - "qcs"
@@ -26,8 +26,9 @@ versions:
  - "2.10.4--pyhdfd78af_0"
  - "2.10.5--pyhdfd78af_0"
  - "2.10.6--pyhdfd78af_0"
+ - "2.10.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for runjob"
-config: {"url": "https://biocontainers.pro/tools/runjob", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for runjob", "latest": {"2.10.6--pyhdfd78af_0": "sha256:5b580c79ad74dcca4e4439e469c7f34d3426c6b19883922cb856dd9c27d131e5"}, "tags": {"2.10.2--pyhdfd78af_0": "sha256:ca98697092fbbc8fc63c9023681f90e7c0f4b9991cc48a9ff0a1cbfa20b2241a", "2.10.3--pyhdfd78af_0": "sha256:6e2a15c74f62a676ec4dd73988133f06ad08dbf492161d02d2affcaafa9f4831", "2.10.4--pyhdfd78af_0": "sha256:3f30743ba73f42d430309b05b9c3091b323e941577818f6937866d24d01055f4", "2.10.5--pyhdfd78af_0": "sha256:7326994c66aa57e7357e5dd75f5fee66bd5cebaf0cb88bb1dc6fd9bb97ab8072", "2.10.6--pyhdfd78af_0": "sha256:5b580c79ad74dcca4e4439e469c7f34d3426c6b19883922cb856dd9c27d131e5"}, "docker": "quay.io/biocontainers/runjob", "aliases": {"qcs": "/usr/local/bin/qcs", "qs": "/usr/local/bin/qs", "runbatch": "/usr/local/bin/runbatch", "runjob": "/usr/local/bin/runjob", "runsge": "/usr/local/bin/runsge", "runsge0": "/usr/local/bin/runsge0", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/runjob", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for runjob", "latest": {"2.10.9--pyhdfd78af_0": "sha256:cdf439d80606d9b2e3dbb6fd730232b7a80b0ad4dfc5fcd1882cddbb4626ee72"}, "tags": {"2.10.2--pyhdfd78af_0": "sha256:ca98697092fbbc8fc63c9023681f90e7c0f4b9991cc48a9ff0a1cbfa20b2241a", "2.10.3--pyhdfd78af_0": "sha256:6e2a15c74f62a676ec4dd73988133f06ad08dbf492161d02d2affcaafa9f4831", "2.10.4--pyhdfd78af_0": "sha256:3f30743ba73f42d430309b05b9c3091b323e941577818f6937866d24d01055f4", "2.10.5--pyhdfd78af_0": "sha256:7326994c66aa57e7357e5dd75f5fee66bd5cebaf0cb88bb1dc6fd9bb97ab8072", "2.10.6--pyhdfd78af_0": "sha256:5b580c79ad74dcca4e4439e469c7f34d3426c6b19883922cb856dd9c27d131e5", "2.10.9--pyhdfd78af_0": "sha256:cdf439d80606d9b2e3dbb6fd730232b7a80b0ad4dfc5fcd1882cddbb4626ee72"}, "docker": "quay.io/biocontainers/runjob", "aliases": {"qcs": "/usr/local/bin/qcs", "qs": "/usr/local/bin/qs", "runbatch": "/usr/local/bin/runbatch", "runjob": "/usr/local/bin/runjob", "runsge": "/usr/local/bin/runsge", "runsge0": "/usr/local/bin/runsge0", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/runjob.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/runjob
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/runjob:2.10.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/runjob:2.10.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/runjob/2.10.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/runjob/2.10.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/runjob/2.10.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/runjob/2.10.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virchip/container.yaml"
-updated_at: "2025-02-24 03:25:14.525610"
+updated_at: "2025-02-25 03:25:10.409474"
 latest: "1.2.2--py_0"
 container_url: "https://biocontainers.pro/tools/virchip"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samshee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samshee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samshee/container.yaml"
-updated_at: "2025-02-24 03:16:49.907844"
+updated_at: "2025-02-25 03:16:35.511106"
 latest: "0.2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samshee"
 aliases:

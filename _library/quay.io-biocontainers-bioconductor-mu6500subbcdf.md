@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mu6500subbcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu6500subbcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu6500subbcdf/container.yaml"
-updated_at: "2025-02-24 03:15:12.430252"
+updated_at: "2025-02-25 03:14:57.268997"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu6500subbcdf"
 
