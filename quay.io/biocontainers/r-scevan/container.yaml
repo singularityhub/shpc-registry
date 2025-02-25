@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-scevan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-scevan
 latest:
-  1.0.1--r43hdfd78af_0: sha256:dbc201b612f551ebd181ebf70b157951ff6120f78614e32604e2b3b4a12402e1
+  1.0.3--r44hdfd78af_0: sha256:e080974b8778c52d1288674287a7aefe302da782111e3923caef799fc72b4237
 tags:
   1.0.1--r43hdfd78af_0: sha256:dbc201b612f551ebd181ebf70b157951ff6120f78614e32604e2b3b4a12402e1
+  1.0.3--r44hdfd78af_0: sha256:e080974b8778c52d1288674287a7aefe302da782111e3923caef799fc72b4237
 docker: quay.io/biocontainers/r-scevan
 aliases:
   git2: /usr/local/bin/git2
