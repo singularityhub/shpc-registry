@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/amplify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for amplify
 latest:
-  2.0.0--py36hdfd78af_1: sha256:57d0feb347d4c221777dade97279f94989b75c77f5a5101e8da0a2a1fb2742fa
+  2.0.1--py36hdfd78af_0: sha256:db57e1faf9d25b012c3b3f869e5c442991324354e431167dd5f2a530e7c67f42
 tags:
   1.1.0--hdfd78af_0: sha256:787ca694b922f8ee6313d2df2b429ad62940444f8ebc60edc1f9b5e283a24928
   2.0.0--py36hdfd78af_0: sha256:4202d742a883a4b5e76044e32d34320b95221add3fd18e8274cb3bc3b511cd11
   2.0.0--py36hdfd78af_1: sha256:57d0feb347d4c221777dade97279f94989b75c77f5a5101e8da0a2a1fb2742fa
+  2.0.1--py36hdfd78af_0: sha256:db57e1faf9d25b012c3b3f869e5c442991324354e431167dd5f2a530e7c67f42
 docker: quay.io/biocontainers/amplify
 aliases:
   AMPlify: /usr/local/bin/AMPlify

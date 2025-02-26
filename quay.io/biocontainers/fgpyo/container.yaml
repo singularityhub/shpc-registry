@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/fgpyo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fgpyo
 latest:
-  0.8.0--pyhdfd78af_0: sha256:e05e6f254712f840afd86352912526ea0f8049114599163008c9a4ceed45338f
+  1.0.0--pyhdfd78af_0: sha256:11cfea604fe76dfe13acd8daa06856273ab89fc16364ef154df4267d1eeafd2a
 tags:
   0.0.5--pyhdfd78af_0: sha256:84a3d6c8bb8b341403007ed54edf11d218aabadc777a27b7eccb1741d29b05cb
   0.0.6--pyhdfd78af_0: sha256:1e4d36c00d27f78bfea912b4e05dd808da3a4be0b8f45018884d0551eeadb4a6
@@ -18,6 +18,7 @@ tags:
   0.6.0--pyhdfd78af_0: sha256:1e336b72cf0b843117471c8a6a03a074e1ddc18400280c98495777139268f0da
   0.5.0--pyhdfd78af_0: sha256:1c35e0316904fc6d62886e7ed06b44d68ab58dfdd50cf8efa955b885b3f4aaeb
   0.8.0--pyhdfd78af_0: sha256:e05e6f254712f840afd86352912526ea0f8049114599163008c9a4ceed45338f
+  1.0.0--pyhdfd78af_0: sha256:11cfea604fe76dfe13acd8daa06856273ab89fc16364ef154df4267d1eeafd2a
 docker: quay.io/biocontainers/fgpyo
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pysam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pysam
 latest:
-  0.22.1--py311hb456a96_3: sha256:d44ab9be083950da9880de6b786fd47734fdc7047796c551d2567d7e8603a75e
+  0.23.0--py312h47d5410_0: sha256:04fd78849755f644bb973bae9fb63ee728e98ac6566df88ea3819737d2ea3402
 tags:
   0.9.1--py36h92ddc84_6: sha256:5441e9ff21e79d0ffbdfcd8c926c39be15d4ea33bb439fe948cdf198cc93fb43
   0.15.2--py37h1671916_1: sha256:625e8741eea36e4452c87917e4cbbbd8131d0528f5264de503069815d380ff5e
@@ -19,6 +19,7 @@ tags:
   0.22.1--py311h1f0e11c_1: sha256:0afe5afd6d37f76451fef567753f169d10b4945296b53c9b924240387dd4002b
   0.22.1--py39h61809e1_2: sha256:812005cdae395cff59e3ed8f7e022d760a591f080faa68ad323513ddef017e99
   0.22.1--py311hb456a96_3: sha256:d44ab9be083950da9880de6b786fd47734fdc7047796c551d2567d7e8603a75e
+  0.23.0--py312h47d5410_0: sha256:04fd78849755f644bb973bae9fb63ee728e98ac6566df88ea3819737d2ea3402
 docker: quay.io/biocontainers/pysam
 aliases:
   color-chrs.pl: /usr/local/bin/color-chrs.pl

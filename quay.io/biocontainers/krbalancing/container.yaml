@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/krbalancing
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krbalancing
 latest:
-  0.0.5--py312hf731ba3_10: sha256:4fd37cd78d418d71f9636f7ba09dadc0fdbefff30cfac56e0e555ef063a10fb9
+  0.0.5--py311he264feb_11: sha256:c936cbfa5d03e3e8546fd74d27b72ba4e862b7a69c8051543df6aeeb26dac860
 tags:
   0.0.5--py38h4a32c8e_4: sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d
   0.0.5--py310h0dbaff4_7: sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3
@@ -10,6 +10,7 @@ tags:
   0.0.5--py38h2123bcc_8: sha256:bbbd1212a470dbc1bcc7e9034df6736dd0f832344a00268e820545828bced1bf
   0.0.5--py39h9e0f934_9: sha256:04661757dd8b06af92e997b1425f4e81cddf9dc874c989f3bc64d2beb4b3b12a
   0.0.5--py312hf731ba3_10: sha256:4fd37cd78d418d71f9636f7ba09dadc0fdbefff30cfac56e0e555ef063a10fb9
+  0.0.5--py311he264feb_11: sha256:c936cbfa5d03e3e8546fd74d27b72ba4e862b7a69c8051543df6aeeb26dac860
 docker: quay.io/biocontainers/krbalancing
 aliases:
   pybind11-config: /usr/local/bin/pybind11-config

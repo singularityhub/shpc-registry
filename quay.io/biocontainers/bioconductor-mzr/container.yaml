@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mzr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mzr
 latest:
-  2.40.0--r44he5774e6_0: sha256:518dc24994de2747bdce6a9642b7530c6d2bd53f0665c74d18c454b00c766f25
+  2.40.0--r44he5774e6_1: sha256:1c8fd2d5a8dec42d8dd8823055355ed0b72e7ca556c455e2f0d1960f1f9c4c70
 tags:
   2.6.3--r3.3.1_1: sha256:001afbef0096db0e091fbc5e28f87f6b6c9e7ced6665a5e35d8d1641c80e2a43
   2.32.0--r42hc247a5b_0: sha256:8e19367dde1ba85d6230bb63ccb3cd9a04d97f715aee1b6d96b8ca04b2748664
@@ -15,6 +15,7 @@ tags:
   2.36.0--r43hf17093f_0: sha256:d546d35281aa369d2ffcaab237fede6021032ed6c6dc948928ea2a5835281b02
   2.36.0--r43hf17093f_1: sha256:95212d7eb2c86ad42108ee522e2f7a89b62d7f2a6e092ad194bc3384ebadf539
   2.40.0--r44he5774e6_0: sha256:518dc24994de2747bdce6a9642b7530c6d2bd53f0665c74d18c454b00c766f25
+  2.40.0--r44he5774e6_1: sha256:1c8fd2d5a8dec42d8dd8823055355ed0b72e7ca556c455e2f0d1960f1f9c4c70
 docker: quay.io/biocontainers/bioconductor-mzr
 aliases:
   nc-config: /usr/local/bin/nc-config
