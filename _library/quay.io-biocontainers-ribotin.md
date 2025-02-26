@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ribotin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotin/container.yaml"
-updated_at: "2025-02-25 03:23:11.890766"
-latest: "1.3--hdcf5f25_0"
+updated_at: "2025-02-26 03:22:06.535648"
+latest: "1.4--hb891895_0"
 container_url: "https://biocontainers.pro/tools/ribotin"
 aliases:
  - "GraphAligner"
@@ -38,8 +38,9 @@ versions:
  - "1.2--hdcf5f25_0"
  - "1.2--hdcf5f25_1"
  - "1.3--hdcf5f25_0"
+ - "1.4--hb891895_0"
 description: "singularity registry hpc automated addition for ribotin"
-config: {"url": "https://biocontainers.pro/tools/ribotin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ribotin", "latest": {"1.3--hdcf5f25_0": "sha256:5c47f84e6f53574fd72b881af45af011c952a8c9622c066eedea90a0ba33d2c4"}, "tags": {"1.0--hdcf5f25_0": "sha256:445bb1f939a241d4b77837736ecf0086dc3d39651008b3f260458e944db93d54", "1.1--hdcf5f25_0": "sha256:8f40c876437f3a031c9c31c1162cea2be0030709a0c2b89b704f74e708775f3f", "1.2--hdcf5f25_0": "sha256:6a9b3e557af3ce38957535835a12f64c27b262c9dd1fd41ff54b65f4232fe37b", "1.2--hdcf5f25_1": "sha256:a4740c2ef744f93d6a024a35880ead5e07f7da962e63f836881cdb94ae7fbddf", "1.3--hdcf5f25_0": "sha256:5c47f84e6f53574fd72b881af45af011c952a8c9622c066eedea90a0ba33d2c4"}, "docker": "quay.io/biocontainers/ribotin", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "MBG": "/usr/local/bin/MBG", "liftoff": "/usr/local/bin/liftoff", "ribotin-ref": "/usr/local/bin/ribotin-ref", "ribotin-verkko": "/usr/local/bin/ribotin-verkko", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ribotin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ribotin", "latest": {"1.4--hb891895_0": "sha256:3047a798d310308b92b757a0e46d5270187802b6a2751ab89fd33cd480a95ff4"}, "tags": {"1.0--hdcf5f25_0": "sha256:445bb1f939a241d4b77837736ecf0086dc3d39651008b3f260458e944db93d54", "1.1--hdcf5f25_0": "sha256:8f40c876437f3a031c9c31c1162cea2be0030709a0c2b89b704f74e708775f3f", "1.2--hdcf5f25_0": "sha256:6a9b3e557af3ce38957535835a12f64c27b262c9dd1fd41ff54b65f4232fe37b", "1.2--hdcf5f25_1": "sha256:a4740c2ef744f93d6a024a35880ead5e07f7da962e63f836881cdb94ae7fbddf", "1.3--hdcf5f25_0": "sha256:5c47f84e6f53574fd72b881af45af011c952a8c9622c066eedea90a0ba33d2c4", "1.4--hb891895_0": "sha256:3047a798d310308b92b757a0e46d5270187802b6a2751ab89fd33cd480a95ff4"}, "docker": "quay.io/biocontainers/ribotin", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "MBG": "/usr/local/bin/MBG", "liftoff": "/usr/local/bin/liftoff", "ribotin-ref": "/usr/local/bin/ribotin-ref", "ribotin-verkko": "/usr/local/bin/ribotin-verkko", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribotin.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/ribotin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribotin:1.3--hdcf5f25_0
+$ shpc install quay.io/biocontainers/ribotin:1.4--hb891895_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribotin/1.3--hdcf5f25_0
-$ module help quay.io/biocontainers/ribotin/1.3--hdcf5f25_0
+$ module load quay.io/biocontainers/ribotin/1.4--hb891895_0
+$ module help quay.io/biocontainers/ribotin/1.4--hb891895_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

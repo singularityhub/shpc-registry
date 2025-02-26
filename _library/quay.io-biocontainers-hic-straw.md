@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hic-straw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hic-straw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hic-straw/container.yaml"
-updated_at: "2025-02-25 03:39:26.904075"
-latest: "1.3.1--py310h227bcd1_5"
+updated_at: "2025-02-26 03:38:05.193522"
+latest: "1.3.1--py311hb99c5bc_6"
 container_url: "https://biocontainers.pro/tools/hic-straw"
 aliases:
  - "pybind11-config"
@@ -20,8 +20,9 @@ versions:
  - "1.3.1--py310h54163ca_3"
  - "1.3.1--py311h2e16732_4"
  - "1.3.1--py310h227bcd1_5"
+ - "1.3.1--py311hb99c5bc_6"
 description: "singularity registry hpc automated addition for hic-straw"
-config: {"url": "https://biocontainers.pro/tools/hic-straw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hic-straw", "latest": {"1.3.1--py310h227bcd1_5": "sha256:bc5ec26d3924bd3941f22a5af656ccc0ee9d6e6abaf8dc3b046057f916d94299"}, "tags": {"1.3.1--py39hc1feb53_0": "sha256:5ae5c5519433b49a3380233146c62f4031cbbcba07101fd8d38d409abc0136d4", "1.3.1--py38h5e0e482_3": "sha256:dfd1140240fe4fd58d94f81d6568ce883b22604ef31d8dd9aaecf236820fd788", "1.3.1--py310h54163ca_3": "sha256:fd163c815b2706854ebb3ec10fed75f8281a2104851307ad2f79ab67f253a70e", "1.3.1--py311h2e16732_4": "sha256:4b3b5b285e1158d72c3cffd2076e3c097e3ade755863a86c08e37a9a50d4d0b3", "1.3.1--py310h227bcd1_5": "sha256:bc5ec26d3924bd3941f22a5af656ccc0ee9d6e6abaf8dc3b046057f916d94299"}, "docker": "quay.io/biocontainers/hic-straw", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/hic-straw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hic-straw", "latest": {"1.3.1--py311hb99c5bc_6": "sha256:933d103286fddba9be8ee235f67d74aa95031395b786d0f48cf54d6a99c64ccd"}, "tags": {"1.3.1--py39hc1feb53_0": "sha256:5ae5c5519433b49a3380233146c62f4031cbbcba07101fd8d38d409abc0136d4", "1.3.1--py38h5e0e482_3": "sha256:dfd1140240fe4fd58d94f81d6568ce883b22604ef31d8dd9aaecf236820fd788", "1.3.1--py310h54163ca_3": "sha256:fd163c815b2706854ebb3ec10fed75f8281a2104851307ad2f79ab67f253a70e", "1.3.1--py311h2e16732_4": "sha256:4b3b5b285e1158d72c3cffd2076e3c097e3ade755863a86c08e37a9a50d4d0b3", "1.3.1--py310h227bcd1_5": "sha256:bc5ec26d3924bd3941f22a5af656ccc0ee9d6e6abaf8dc3b046057f916d94299", "1.3.1--py311hb99c5bc_6": "sha256:933d103286fddba9be8ee235f67d74aa95031395b786d0f48cf54d6a99c64ccd"}, "docker": "quay.io/biocontainers/hic-straw", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hic-straw.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/hic-straw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hic-straw:1.3.1--py310h227bcd1_5
+$ shpc install quay.io/biocontainers/hic-straw:1.3.1--py311hb99c5bc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hic-straw/1.3.1--py310h227bcd1_5
-$ module help quay.io/biocontainers/hic-straw/1.3.1--py310h227bcd1_5
+$ module load quay.io/biocontainers/hic-straw/1.3.1--py311hb99c5bc_6
+$ module help quay.io/biocontainers/hic-straw/1.3.1--py311hb99c5bc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

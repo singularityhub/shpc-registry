@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bulkanalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bulkanalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bulkanalyser/container.yaml"
-updated_at: "2025-02-25 03:29:57.711633"
+updated_at: "2025-02-26 03:28:44.524602"
 latest: "1.1.0--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-bulkanalyser"
 aliases:

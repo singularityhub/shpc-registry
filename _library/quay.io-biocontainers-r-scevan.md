@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-scevan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scevan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scevan/container.yaml"
-updated_at: "2025-02-25 03:24:01.320610"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2025-02-26 03:22:55.091454"
+latest: "1.0.3--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-scevan"
 aliases:
  - "git2"
@@ -30,8 +30,9 @@ aliases:
  - "register-python-argcomplete"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.0.3--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-scevan"
-config: {"url": "https://biocontainers.pro/tools/r-scevan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-scevan", "latest": {"1.0.1--r43hdfd78af_0": "sha256:dbc201b612f551ebd181ebf70b157951ff6120f78614e32604e2b3b4a12402e1"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:dbc201b612f551ebd181ebf70b157951ff6120f78614e32604e2b3b4a12402e1"}, "docker": "quay.io/biocontainers/r-scevan", "aliases": {"git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/r-scevan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-scevan", "latest": {"1.0.3--r44hdfd78af_0": "sha256:e080974b8778c52d1288674287a7aefe302da782111e3923caef799fc72b4237"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:dbc201b612f551ebd181ebf70b157951ff6120f78614e32604e2b3b4a12402e1", "1.0.3--r44hdfd78af_0": "sha256:e080974b8778c52d1288674287a7aefe302da782111e3923caef799fc72b4237"}, "docker": "quay.io/biocontainers/r-scevan", "aliases": {"git2": "/usr/local/bin/git2", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scevan.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-scevan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scevan:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-scevan:1.0.3--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scevan/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-scevan/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-scevan/1.0.3--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-scevan/1.0.3--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

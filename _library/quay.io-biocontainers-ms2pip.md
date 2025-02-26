@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms2pip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2pip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2pip/container.yaml"
-updated_at: "2025-02-25 03:04:27.644400"
-latest: "4.1.0--py310h1fe012e_1"
+updated_at: "2025-02-26 03:03:45.814983"
+latest: "4.1.0--py312h0fa9677_2"
 container_url: "https://biocontainers.pro/tools/ms2pip"
 aliases:
  - "fasta2speclib"
@@ -32,8 +32,9 @@ versions:
  - "3.10.0--py310h79ef01b_0"
  - "3.9.0--py310h79ef01b_0"
  - "4.1.0--py310h1fe012e_1"
+ - "4.1.0--py312h0fa9677_2"
 description: "shpc-registry automated BioContainers addition for ms2pip"
-config: {"url": "https://biocontainers.pro/tools/ms2pip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms2pip", "latest": {"4.1.0--py310h1fe012e_1": "sha256:f5dc4de71af5a9fe9f6bbac617255fab404e47c20e2b7b12ba5b3a35af5e0339"}, "tags": {"3.9.0--py39h5371cbf_0": "sha256:fedf933dddebdc976c2e1dfc8d629788992e73ce8be20d9e44ffa99184ec559f", "3.10.0--py39h5371cbf_0": "sha256:ac051375ca0e7793f5b39aa0ba909685c2b4dca66e2cf73262fc91da2bec15a7", "3.11.0--py39h5371cbf_0": "sha256:88e78f7813fe4a77779f8e8c33e9688f0d655674d7a034df5d9ecf3ab2646a13", "3.11.0--py310hd6be1da_2": "sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568", "4.0.0.dev4--py310h7147d47_0": "sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35", "4.0.0.dev8--py310h7147d47_0": "sha256:7bf2542a085cff5bb3b53afb7c5721a7839e67fdf2c2816b8d886a5184dc7767", "3.11.0--py38h24c8ff8_2": "sha256:9c0c12a031ca7c03512ab33eda4d81347d91f3bf1269a509cfdcc85363e93a04", "3.10.0--py310h79ef01b_0": "sha256:bb489d7c1658963e6b633dda74ac8820e61c42f503ce142dd3266d43ff22974d", "3.9.0--py310h79ef01b_0": "sha256:ffc917b654da4d94994e55f751a250871bb5773a0695b82639e83429d36b7cd5", "4.1.0--py310h1fe012e_1": "sha256:f5dc4de71af5a9fe9f6bbac617255fab404e47c20e2b7b12ba5b3a35af5e0339"}, "docker": "quay.io/biocontainers/ms2pip", "aliases": {"fasta2speclib": "/usr/local/bin/fasta2speclib", "ms2pip": "/usr/local/bin/ms2pip", "ms2pip-single-prediction": "/usr/local/bin/ms2pip-single-prediction", "xgboost": "/usr/local/bin/xgboost", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/ms2pip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms2pip", "latest": {"4.1.0--py312h0fa9677_2": "sha256:6f6f68a984d2ed1f152342bc9afb0ffced0f90624ccf453d58375fcb36a7ae2f"}, "tags": {"3.9.0--py39h5371cbf_0": "sha256:fedf933dddebdc976c2e1dfc8d629788992e73ce8be20d9e44ffa99184ec559f", "3.10.0--py39h5371cbf_0": "sha256:ac051375ca0e7793f5b39aa0ba909685c2b4dca66e2cf73262fc91da2bec15a7", "3.11.0--py39h5371cbf_0": "sha256:88e78f7813fe4a77779f8e8c33e9688f0d655674d7a034df5d9ecf3ab2646a13", "3.11.0--py310hd6be1da_2": "sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568", "4.0.0.dev4--py310h7147d47_0": "sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35", "4.0.0.dev8--py310h7147d47_0": "sha256:7bf2542a085cff5bb3b53afb7c5721a7839e67fdf2c2816b8d886a5184dc7767", "3.11.0--py38h24c8ff8_2": "sha256:9c0c12a031ca7c03512ab33eda4d81347d91f3bf1269a509cfdcc85363e93a04", "3.10.0--py310h79ef01b_0": "sha256:bb489d7c1658963e6b633dda74ac8820e61c42f503ce142dd3266d43ff22974d", "3.9.0--py310h79ef01b_0": "sha256:ffc917b654da4d94994e55f751a250871bb5773a0695b82639e83429d36b7cd5", "4.1.0--py310h1fe012e_1": "sha256:f5dc4de71af5a9fe9f6bbac617255fab404e47c20e2b7b12ba5b3a35af5e0339", "4.1.0--py312h0fa9677_2": "sha256:6f6f68a984d2ed1f152342bc9afb0ffced0f90624ccf453d58375fcb36a7ae2f"}, "docker": "quay.io/biocontainers/ms2pip", "aliases": {"fasta2speclib": "/usr/local/bin/fasta2speclib", "ms2pip": "/usr/local/bin/ms2pip", "ms2pip-single-prediction": "/usr/local/bin/ms2pip-single-prediction", "xgboost": "/usr/local/bin/xgboost", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2pip.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/ms2pip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms2pip:4.1.0--py310h1fe012e_1
+$ shpc install quay.io/biocontainers/ms2pip:4.1.0--py312h0fa9677_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms2pip/4.1.0--py310h1fe012e_1
-$ module help quay.io/biocontainers/ms2pip/4.1.0--py310h1fe012e_1
+$ module load quay.io/biocontainers/ms2pip/4.1.0--py312h0fa9677_2
+$ module help quay.io/biocontainers/ms2pip/4.1.0--py312h0fa9677_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
