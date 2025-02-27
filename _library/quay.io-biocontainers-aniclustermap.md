@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aniclustermap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aniclustermap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aniclustermap/container.yaml"
-updated_at: "2025-02-26 03:21:37.121803"
+updated_at: "2025-02-27 03:07:12.527410"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aniclustermap"
 aliases:

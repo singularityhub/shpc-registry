@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pysam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysam/container.yaml"
-updated_at: "2025-02-26 03:10:07.801052"
-latest: "0.22.1--py311hb456a96_3"
+updated_at: "2025-02-27 03:08:35.646454"
+latest: "0.23.0--py312h47d5410_0"
 container_url: "https://biocontainers.pro/tools/pysam"
 aliases:
  - "color-chrs.pl"
@@ -34,8 +34,9 @@ versions:
  - "0.22.1--py311h1f0e11c_1"
  - "0.22.1--py39h61809e1_2"
  - "0.22.1--py311hb456a96_3"
+ - "0.23.0--py312h47d5410_0"
 description: "shpc-registry automated BioContainers addition for pysam"
-config: {"url": "https://biocontainers.pro/tools/pysam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysam", "latest": {"0.22.1--py311hb456a96_3": "sha256:d44ab9be083950da9880de6b786fd47734fdc7047796c551d2567d7e8603a75e"}, "tags": {"0.9.1--py36h92ddc84_6": "sha256:5441e9ff21e79d0ffbdfcd8c926c39be15d4ea33bb439fe948cdf198cc93fb43", "0.15.2--py37h1671916_1": "sha256:625e8741eea36e4452c87917e4cbbbd8131d0528f5264de503069815d380ff5e", "0.13.0--py27_htslib1.6_0": "sha256:e24cbb944b06f875fb2b5858106381933f608c5868f84f946aa55290c88f7b5e", "0.12.0.1--py35_htslib1.6_2": "sha256:ce2792b0b2b09c1935d70ebf7c3ad1eb03fdf62b09d88774f615a81ea19c4a61", "0.11.2.2--htslib1.5_2": "sha256:abade42e42833651552e1da960244a1da4ef56581a8f7969f7dae3d7c9a32b4b", "0.10.0--py36h92ddc84_7": "sha256:ed74b7eedfbdd56a051515542a94b0e63607145f05559522d326207f3738a4d6", "0.22.0--py38h15b938a_1": "sha256:bf1c692abbbc42c855779cd5d1f21c2bd7abd35fcc881579715dc8e2bc544df4", "0.21.0--py38h15b938a_1": "sha256:da1149bb0bd8404a06feb0847ff21d431475bcc5b9ef941938255d2737dc3f78", "0.20.0--py27h7835474_0": "sha256:e3c5885235cfe882b0b3c085c6e90cb36aa0023016ed390ac79e48b31ef48ebf", "0.19.1--py39h9abd093_1": "sha256:484905243541dc3f7d46871d9d8af26b59acb52c1cbb5105d5d0d1d6c230d308", "0.18.0--py36hea1697a_2": "sha256:91e53cb84b8a6c9c18d630e3f17743689635cb331d342c1ab94c9cb82bc95c36", "0.22.1--py38h15b938a_0": "sha256:2edb0abc5d33e892f734c0fa0e3d6ac053b22ca036b1b3e1c1a153cc6be34bd7", "0.22.1--py311h1f0e11c_1": "sha256:0afe5afd6d37f76451fef567753f169d10b4945296b53c9b924240387dd4002b", "0.22.1--py39h61809e1_2": "sha256:812005cdae395cff59e3ed8f7e022d760a591f080faa68ad323513ddef017e99", "0.22.1--py311hb456a96_3": "sha256:d44ab9be083950da9880de6b786fd47734fdc7047796c551d2567d7e8603a75e"}, "docker": "quay.io/biocontainers/pysam", "aliases": {"color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/pysam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysam", "latest": {"0.23.0--py312h47d5410_0": "sha256:04fd78849755f644bb973bae9fb63ee728e98ac6566df88ea3819737d2ea3402"}, "tags": {"0.9.1--py36h92ddc84_6": "sha256:5441e9ff21e79d0ffbdfcd8c926c39be15d4ea33bb439fe948cdf198cc93fb43", "0.15.2--py37h1671916_1": "sha256:625e8741eea36e4452c87917e4cbbbd8131d0528f5264de503069815d380ff5e", "0.13.0--py27_htslib1.6_0": "sha256:e24cbb944b06f875fb2b5858106381933f608c5868f84f946aa55290c88f7b5e", "0.12.0.1--py35_htslib1.6_2": "sha256:ce2792b0b2b09c1935d70ebf7c3ad1eb03fdf62b09d88774f615a81ea19c4a61", "0.11.2.2--htslib1.5_2": "sha256:abade42e42833651552e1da960244a1da4ef56581a8f7969f7dae3d7c9a32b4b", "0.10.0--py36h92ddc84_7": "sha256:ed74b7eedfbdd56a051515542a94b0e63607145f05559522d326207f3738a4d6", "0.22.0--py38h15b938a_1": "sha256:bf1c692abbbc42c855779cd5d1f21c2bd7abd35fcc881579715dc8e2bc544df4", "0.21.0--py38h15b938a_1": "sha256:da1149bb0bd8404a06feb0847ff21d431475bcc5b9ef941938255d2737dc3f78", "0.20.0--py27h7835474_0": "sha256:e3c5885235cfe882b0b3c085c6e90cb36aa0023016ed390ac79e48b31ef48ebf", "0.19.1--py39h9abd093_1": "sha256:484905243541dc3f7d46871d9d8af26b59acb52c1cbb5105d5d0d1d6c230d308", "0.18.0--py36hea1697a_2": "sha256:91e53cb84b8a6c9c18d630e3f17743689635cb331d342c1ab94c9cb82bc95c36", "0.22.1--py38h15b938a_0": "sha256:2edb0abc5d33e892f734c0fa0e3d6ac053b22ca036b1b3e1c1a153cc6be34bd7", "0.22.1--py311h1f0e11c_1": "sha256:0afe5afd6d37f76451fef567753f169d10b4945296b53c9b924240387dd4002b", "0.22.1--py39h61809e1_2": "sha256:812005cdae395cff59e3ed8f7e022d760a591f080faa68ad323513ddef017e99", "0.22.1--py311hb456a96_3": "sha256:d44ab9be083950da9880de6b786fd47734fdc7047796c551d2567d7e8603a75e", "0.23.0--py312h47d5410_0": "sha256:04fd78849755f644bb973bae9fb63ee728e98ac6566df88ea3819737d2ea3402"}, "docker": "quay.io/biocontainers/pysam", "aliases": {"color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pysam.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/pysam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pysam:0.22.1--py311hb456a96_3
+$ shpc install quay.io/biocontainers/pysam:0.23.0--py312h47d5410_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pysam/0.22.1--py311hb456a96_3
-$ module help quay.io/biocontainers/pysam/0.22.1--py311hb456a96_3
+$ module load quay.io/biocontainers/pysam/0.23.0--py312h47d5410_0
+$ module help quay.io/biocontainers/pysam/0.23.0--py312h47d5410_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

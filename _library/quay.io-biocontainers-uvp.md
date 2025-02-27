@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uvp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uvp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uvp/container.yaml"
-updated_at: "2025-02-26 03:09:45.950979"
+updated_at: "2025-02-27 02:57:56.759497"
 latest: "2.7.0--py_0"
 container_url: "https://biocontainers.pro/tools/uvp"
 aliases:

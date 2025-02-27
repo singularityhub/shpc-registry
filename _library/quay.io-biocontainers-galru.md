@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galru"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galru/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galru/container.yaml"
-updated_at: "2025-02-26 03:18:31.653361"
+updated_at: "2025-02-27 02:59:43.611277"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/galru"
 aliases:

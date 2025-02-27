@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromatiblock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromatiblock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromatiblock/container.yaml"
-updated_at: "2025-02-26 03:37:21.482528"
+updated_at: "2025-02-27 02:59:06.254735"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/chromatiblock"
 aliases:

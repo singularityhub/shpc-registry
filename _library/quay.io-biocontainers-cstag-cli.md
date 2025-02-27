@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cstag-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cstag-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cstag-cli/container.yaml"
-updated_at: "2025-02-26 03:23:45.964933"
+updated_at: "2025-02-27 03:27:05.176623"
 latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cstag-cli"
 aliases:

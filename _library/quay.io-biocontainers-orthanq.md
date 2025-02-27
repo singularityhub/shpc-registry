@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthanq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthanq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthanq/container.yaml"
-updated_at: "2025-02-26 03:12:25.370775"
+updated_at: "2025-02-27 03:05:46.233507"
 latest: "1.7.9--h5515a42_1"
 container_url: "https://biocontainers.pro/tools/orthanq"
 aliases:

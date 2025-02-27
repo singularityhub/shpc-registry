@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-error"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-error/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-error/container.yaml"
-updated_at: "2025-02-26 03:21:38.238828"
-latest: "0.17029--pl5321hdfd78af_0"
+updated_at: "2025-02-27 03:25:47.874881"
+latest: "0.17030--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-error"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.17029--pl5321hdfd78af_0"
+ - "0.17030--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-error"
-config: {"url": "https://biocontainers.pro/tools/perl-error", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-error", "latest": {"0.17029--pl5321hdfd78af_0": "sha256:b510a060d7d8aadf5810b7f4bead32c9fcea44046d9eb7a8b3b6a91d3d87f034"}, "tags": {"0.17029--pl5321hdfd78af_0": "sha256:b510a060d7d8aadf5810b7f4bead32c9fcea44046d9eb7a8b3b6a91d3d87f034"}, "docker": "quay.io/biocontainers/perl-error", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-error", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-error", "latest": {"0.17030--pl5321hdfd78af_0": "sha256:f2cc16c57d7761b283de8ee42b31dc3eb874e426856cfc4d859374bf52d1fa5a"}, "tags": {"0.17029--pl5321hdfd78af_0": "sha256:b510a060d7d8aadf5810b7f4bead32c9fcea44046d9eb7a8b3b6a91d3d87f034", "0.17030--pl5321hdfd78af_0": "sha256:f2cc16c57d7761b283de8ee42b31dc3eb874e426856cfc4d859374bf52d1fa5a"}, "docker": "quay.io/biocontainers/perl-error", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-error.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-error
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-error:0.17029--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-error:0.17030--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-error/0.17029--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-error/0.17029--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-error/0.17030--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-error/0.17030--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

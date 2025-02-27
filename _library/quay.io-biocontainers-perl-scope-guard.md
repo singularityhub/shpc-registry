@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-scope-guard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-scope-guard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-scope-guard/container.yaml"
-updated_at: "2025-02-26 03:01:58.367151"
+updated_at: "2025-02-27 03:11:10.728095"
 latest: "0.21--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-scope-guard"
 aliases:

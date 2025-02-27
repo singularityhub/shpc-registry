@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/burst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/burst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/burst/container.yaml"
-updated_at: "2025-02-26 02:59:22.121613"
+updated_at: "2025-02-27 03:27:18.867862"
 latest: "v1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/burst"
 aliases:

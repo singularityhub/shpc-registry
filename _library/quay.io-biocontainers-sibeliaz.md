@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sibeliaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sibeliaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sibeliaz/container.yaml"
-updated_at: "2025-02-26 03:25:37.718496"
+updated_at: "2025-02-27 03:06:43.967012"
 latest: "1.2.6--h9948957_0"
 container_url: "https://biocontainers.pro/tools/sibeliaz"
 aliases:
