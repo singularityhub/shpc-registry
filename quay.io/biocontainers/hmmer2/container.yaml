@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hmmer2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmmer2
 latest:
-  2.3.2--h7b50bb2_10: sha256:a72c436ae829b639565a07a48d12a0f5cf7323cebe6d07893423e05fe38679f2
+  2.3.2--h7b50bb2_11: sha256:b151398fa4fc5af3ee314be082ca5998872f3d787d6fabfc242a563b5e6df807
 tags:
   2.3.2--hec16e2b_7: sha256:d60e6e1d1b1a464c63f6cf4f677200c1ff8cf9030ce6477214fae34ba42a56f4
   2.3.2--h031d066_9: sha256:6569ab6291bdf274ee6e805e7a3e59b482a7db37f173c950832b45598e2e7bca
   2.3.2--h7b50bb2_10: sha256:a72c436ae829b639565a07a48d12a0f5cf7323cebe6d07893423e05fe38679f2
+  2.3.2--h7b50bb2_11: sha256:b151398fa4fc5af3ee314be082ca5998872f3d787d6fabfc242a563b5e6df807
 docker: quay.io/biocontainers/hmmer2
 aliases:
   hmmalign2: /usr/local/bin/hmmalign2

@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/tr-trimmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tr-trimmer
 latest:
-  0.2.0--h4349ce8_0: sha256:5e1f6e4d80f364d343f2bf3ca4754346f54064f866f198b7b95b1ad178acfa8f
+  0.4.0--h4349ce8_0: sha256:8dd15f8d569a22c63f1e28f6bc032878cddc1649897a382cb6a596dfd560dd6f
 tags:
   0.1.0--h4349ce8_0: sha256:48c33d78b12c93ff421f8ad5e925839a241fd34d29ee2e66a41c27e696b7da44
   0.2.0--h4349ce8_0: sha256:5e1f6e4d80f364d343f2bf3ca4754346f54064f866f198b7b95b1ad178acfa8f
+  0.4.0--h4349ce8_0: sha256:8dd15f8d569a22c63f1e28f6bc032878cddc1649897a382cb6a596dfd560dd6f
+  0.3.0--h4349ce8_0: sha256:471c6bb8e8d6194018ef50413ae98065f7fbc1a1eb9b58972d6dd4e940760cbf
 docker: quay.io/biocontainers/tr-trimmer
 aliases:
   tr-trimmer: /usr/local/bin/tr-trimmer

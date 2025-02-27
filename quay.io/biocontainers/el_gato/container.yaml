@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/el_gato
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for el_gato
 latest:
-  1.20.2--py311h7e72e81_0: sha256:290364ce4e99093aaa78dcd0d6fb478017ef1aa99fdda02c1e158caa4fcfb550
+  1.21.0--py311h7e72e81_0: sha256:ea07b43b1277d9948016cab3f70c387177ba9c386ad6c139e2552eb176909c27
 tags:
   1.14.4--py311hdfd78af_0: sha256:d28834612de0e736a09a40324290e4152631ed22b4a2ef90e50867c6ee914be6
   1.15.2--py311hdfd78af_0: sha256:343d3b3ba94540ab9482b9c58f7ac6a6162164245c79fceaf84219c2f6e82f1d
@@ -11,6 +11,7 @@ tags:
   1.18.2--py311hdfd78af_0: sha256:6d94cb8840320f293ed7c0c4007cc319b0becf1b7be04a89f8bbce9a08dd0901
   1.20.1--py311h7e72e81_0: sha256:e39b7b10f24a2ea1ca86fb2f300575832f3c75e7c79c772268cfc6b72dc63100
   1.20.2--py311h7e72e81_0: sha256:290364ce4e99093aaa78dcd0d6fb478017ef1aa99fdda02c1e158caa4fcfb550
+  1.21.0--py311h7e72e81_0: sha256:ea07b43b1277d9948016cab3f70c387177ba9c386ad6c139e2552eb176909c27
 docker: quay.io/biocontainers/el_gato
 aliases:
   el_gato.py: /usr/local/bin/el_gato.py
