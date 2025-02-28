@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binchicken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binchicken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binchicken/container.yaml"
-updated_at: "2025-02-27 03:26:51.448015"
+updated_at: "2025-02-28 03:26:39.257102"
 latest: "0.12.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/binchicken"
 aliases:

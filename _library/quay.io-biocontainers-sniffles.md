@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sniffles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sniffles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sniffles/container.yaml"
-updated_at: "2025-02-27 03:41:04.108172"
-latest: "2.5.3--pyhdfd78af_0"
+updated_at: "2025-02-28 03:40:44.191099"
+latest: "2.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sniffles"
 aliases:
  - "sniffles"
@@ -22,8 +22,9 @@ versions:
  - "2.4--pyhdfd78af_0"
  - "2.5.2--pyhdfd78af_0"
  - "2.5.3--pyhdfd78af_0"
+ - "2.6.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sniffles"
-config: {"url": "https://biocontainers.pro/tools/sniffles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sniffles", "latest": {"2.5.3--pyhdfd78af_0": "sha256:dc26bf009abd20786cfc44c40aa2f3dacf12c905f1ad3d3f33da24a02ca7cf7e"}, "tags": {"2.0.7--pyhdfd78af_0": "sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769", "2.2--pyhdfd78af_0": "sha256:feb1c41eae608ebc2c2cb594144bb3c221b87d9bb691d0af6ad06b49fd54573a", "2.3.2--pyhdfd78af_1": "sha256:441c6a4e7e98174ecdc2af4e2c79fbddabd307c63c821e2f408b9ce6a21e9f19", "2.3.3--pyhdfd78af_0": "sha256:f90f43f4b292a05c980ec801edcca5ec2e6080f946f5e955fe70cc2d9d16a723", "2.4--pyhdfd78af_0": "sha256:62c8865168e9d6de67615a06f6b20f2a9e4bc65b4349d7ae4c75d17d22d82597", "2.5.2--pyhdfd78af_0": "sha256:578ae5bfc8147b9aac0687efbbacea9d6e9db7c7a4741554bae4a99643272953", "2.5.3--pyhdfd78af_0": "sha256:dc26bf009abd20786cfc44c40aa2f3dacf12c905f1ad3d3f33da24a02ca7cf7e"}, "docker": "quay.io/biocontainers/sniffles", "aliases": {"sniffles": "/usr/local/bin/sniffles", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/sniffles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sniffles", "latest": {"2.6.0--pyhdfd78af_0": "sha256:658fde9f61b0a4ed89c98bf6a02d05f35f76a86b89f32dd098b0279aa866f6e9"}, "tags": {"2.0.7--pyhdfd78af_0": "sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769", "2.2--pyhdfd78af_0": "sha256:feb1c41eae608ebc2c2cb594144bb3c221b87d9bb691d0af6ad06b49fd54573a", "2.3.2--pyhdfd78af_1": "sha256:441c6a4e7e98174ecdc2af4e2c79fbddabd307c63c821e2f408b9ce6a21e9f19", "2.3.3--pyhdfd78af_0": "sha256:f90f43f4b292a05c980ec801edcca5ec2e6080f946f5e955fe70cc2d9d16a723", "2.4--pyhdfd78af_0": "sha256:62c8865168e9d6de67615a06f6b20f2a9e4bc65b4349d7ae4c75d17d22d82597", "2.5.2--pyhdfd78af_0": "sha256:578ae5bfc8147b9aac0687efbbacea9d6e9db7c7a4741554bae4a99643272953", "2.5.3--pyhdfd78af_0": "sha256:dc26bf009abd20786cfc44c40aa2f3dacf12c905f1ad3d3f33da24a02ca7cf7e", "2.6.0--pyhdfd78af_0": "sha256:658fde9f61b0a4ed89c98bf6a02d05f35f76a86b89f32dd098b0279aa866f6e9"}, "docker": "quay.io/biocontainers/sniffles", "aliases": {"sniffles": "/usr/local/bin/sniffles", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sniffles.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/sniffles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sniffles:2.5.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sniffles:2.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sniffles/2.5.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/sniffles/2.5.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/sniffles/2.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sniffles/2.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

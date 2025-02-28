@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-libwww-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-libwww-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-libwww-perl/container.yaml"
-updated_at: "2025-02-27 02:59:41.871236"
-latest: "6.67--pl5321hdfd78af_0"
+updated_at: "2025-02-28 02:59:43.940685"
+latest: "6.68--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-libwww-perl"
 aliases:
  - "lwp-download"
@@ -16,8 +16,10 @@ aliases:
  - "streamzip"
 versions:
  - "6.67--pl5321hdfd78af_0"
+ - "6.68--pl5321hdfd78af_0"
+ - "6.67--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-libwww-perl"
-config: {"url": "https://biocontainers.pro/tools/perl-libwww-perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-libwww-perl", "latest": {"6.67--pl5321hdfd78af_0": "sha256:3d1546bab8ebc5f110d74385a7e39728b647c8a922d273a954b3c342d9e4c0f0"}, "tags": {"6.67--pl5321hdfd78af_0": "sha256:3d1546bab8ebc5f110d74385a7e39728b647c8a922d273a954b3c342d9e4c0f0"}, "docker": "quay.io/biocontainers/perl-libwww-perl", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-libwww-perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-libwww-perl", "latest": {"6.68--pl5321hdfd78af_0": "sha256:b09b841c68f4951f813d0f48afdb0b43c220409d472960475a555c4882b00fe2"}, "tags": {"6.67--pl5321hdfd78af_0": "sha256:3d1546bab8ebc5f110d74385a7e39728b647c8a922d273a954b3c342d9e4c0f0", "6.68--pl5321hdfd78af_0": "sha256:b09b841c68f4951f813d0f48afdb0b43c220409d472960475a555c4882b00fe2", "6.67--pl5321hdfd78af_1": "sha256:20b1937d6702794ad569df5d30f618ba9f13e12f5242453a0ad7ae90f277011e"}, "docker": "quay.io/biocontainers/perl-libwww-perl", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-libwww-perl.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-libwww-perl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-libwww-perl:6.67--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-libwww-perl:6.68--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-libwww-perl/6.67--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-libwww-perl/6.67--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-libwww-perl/6.68--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-libwww-perl/6.68--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

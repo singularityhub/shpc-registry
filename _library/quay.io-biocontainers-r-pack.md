@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pack/container.yaml"
-updated_at: "2025-02-27 03:23:18.031658"
+updated_at: "2025-02-28 03:22:52.176900"
 latest: "0.1_1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-pack"
 aliases:
