@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hierfstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hierfstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hierfstat/container.yaml"
-updated_at: "2025-02-28 03:28:45.512413"
+updated_at: "2025-03-01 03:32:14.479531"
 latest: "0.04_22--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-hierfstat"
 aliases:

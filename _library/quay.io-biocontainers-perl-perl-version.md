@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-perl-version"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl-version/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl-version/container.yaml"
-updated_at: "2025-02-28 03:29:48.086725"
-latest: "1.013--pl5321hdfd78af_4"
+updated_at: "2025-03-01 03:33:16.331101"
+latest: "1.018--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-perl-version"
 aliases:
  - "perl-reversion"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.013--pl5321hdfd78af_4"
+ - "1.018--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-perl-version"
-config: {"url": "https://biocontainers.pro/tools/perl-perl-version", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl-version", "latest": {"1.013--pl5321hdfd78af_4": "sha256:847c782146e4befdc5f3db27641b3abd69ae1e07e91c0cde749c826a9afb30bd"}, "tags": {"1.013--pl5321hdfd78af_4": "sha256:847c782146e4befdc5f3db27641b3abd69ae1e07e91c0cde749c826a9afb30bd"}, "docker": "quay.io/biocontainers/perl-perl-version", "aliases": {"perl-reversion": "/usr/local/bin/perl-reversion", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-perl-version", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl-version", "latest": {"1.018--pl5321hdfd78af_0": "sha256:5df3a4ed854d3f746b7d8b2a4ab4c1b8c8cdbe118620ecb7c367bf4f7061b7ea"}, "tags": {"1.013--pl5321hdfd78af_4": "sha256:847c782146e4befdc5f3db27641b3abd69ae1e07e91c0cde749c826a9afb30bd", "1.018--pl5321hdfd78af_0": "sha256:5df3a4ed854d3f746b7d8b2a4ab4c1b8c8cdbe118620ecb7c367bf4f7061b7ea"}, "docker": "quay.io/biocontainers/perl-perl-version", "aliases": {"perl-reversion": "/usr/local/bin/perl-reversion", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-perl-version.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-perl-version
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-perl-version:1.013--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-perl-version:1.018--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-perl-version/1.013--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-perl-version/1.013--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-perl-version/1.018--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-perl-version/1.018--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

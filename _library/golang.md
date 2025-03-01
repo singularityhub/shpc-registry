@@ -4,8 +4,8 @@ name:  "golang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/golang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/golang/container.yaml"
-updated_at: "2025-02-28 03:45:03.290000"
-latest: "1-nanoserver-ltsc2022"
+updated_at: "2025-03-01 03:48:12.501801"
+latest: "1-nanoserver-ltsc2025"
 container_url: "https://hub.docker.com/r/_/golang"
 aliases:
  - "go"
@@ -40,8 +40,9 @@ versions:
  - "1.23-rc"
  - "1.23"
  - "1.24-rc"
+ - "1-nanoserver-ltsc2025"
 description: "Go (a.k.a., Golang) is a programming language first developed at Google."
-config: {"docker": "golang", "url": "https://hub.docker.com/r/_/golang", "maintainer": "@vsoch", "description": "Go (a.k.a., Golang) is a programming language first developed at Google.", "latest": {"1-nanoserver-ltsc2022": "sha256:afdf65b8a9678307898c8762e31ab2ceb3ec023761544cdee4e9dcf368282acf"}, "filter": ["^(?!nano).*$", "^(?!windows).*$"], "tags": {"1.16.4-alpine": "sha256:0dc62c5cc2d97657c17ff3bc0224214e10226e245c94317e352ee8a2c54368b4", "1.16.5-alpine": "sha256:45f32e963bb3cc408cfcd01a8e76b2872fb238f602ec5481cd75393da29369c0", "1.17-rc-alpine": "sha256:787111a3069abdb2c4d8c0b27dff2a29cef8b147f8e7a431f5a464ea84ebfa41", "1.17.0": "sha256:7dbfeb9d51c049e8bfe36cf1a4217c7b1ba304bf0eb72d57d0c04f405589f122", "1.17.2": "sha256:124966f5d54a41317ee81ccfe5f849d4f0deef4ed3c5c32c20be855c51c15027", "1.17.3": "sha256:199102125d11c943c927a8a33911ef960ca72c4879e307c7c2e40ceaa72201e3", "1.18-rc": "sha256:2da497bcc0c9ff09d4185907068c6f137d14e8848059971072f2e9cc936aae70", "latest": "sha256:8c10f21bec412f08f73aa7b97ca5ac5f28a39d8a88030ad8a339fd0a781d72b4", "1": "sha256:8c10f21bec412f08f73aa7b97ca5ac5f28a39d8a88030ad8a339fd0a781d72b4", "1.18": "sha256:50c889275d26f816b5314fc99f55425fa76b18fcaf16af255f5d57f09e1f48da", "1.17rc2": "sha256:c5b50f8381dcc9223b63dbb3e9f558eea0650310232bbc2dde8c3b861c60d1b2", "1.17rc2-buster": "sha256:824267ad82d38a31225b61038ac8735b791396d7df2a6c58f761756964ab4d2d", "1.19-rc": "sha256:c0feb14adb4e346527d86f09bdbcdbe33d1dac5876fbc12c567cd90808e6af4c", "1.18-rc-buster": "sha256:9acf37d060418071d7dbad182979fedc8289eaff0105806a0de2d1a389716fa6", "1.19": "sha256:3025bf670b8363ec9f1b4c4f27348e6d9b7fec607c47e401e40df816853e743a", "1.17": "sha256:87262e4a4c7db56158a80a18fefdc4fee5accc41b59cde821e691d05541bbb18", "1.16": "sha256:5f6a4662de3efc6d6bb812d02e9de3d8698eea16b8eb7281f03e6f3e8383018e", "1.20-rc": "sha256:9ae483262c186de21686f37d0467c6cd054f9ef8c7e33a0cec2a5ec1b833e6bc", "1-nanoserver-ltsc2022": "sha256:afdf65b8a9678307898c8762e31ab2ceb3ec023761544cdee4e9dcf368282acf", "1-nanoserver-sac2016": "sha256:7ec07bfc64b92c148d14cbb3aec931676057436286fa09cf25650ef896468bf4", "1-nanoserver-1809": "sha256:bf5647a863d217f6ebe7775629a52e05a41f531f07394b6ed22050ee1c8d1ba0", "1.20": "sha256:8f9af7094d0cb27cc783c697ac5ba25efdc4da35f8526db21f7aebb0b0b4f18a", "1-nanoserver-1803": "sha256:cf40c6df853a26a9ee15cec62ead4e36a07e02aa1c589fe53acfdd6f725b4da7", "1.21": "sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb", "1.22-rc": "sha256:396fe480cfa7f561ca5061f37e5947934f95d725319adfd907ed9a179f4b477b", "1.22": "sha256:d5b17d684180648e16ea974bea677498945e8b619f7b26325958d8d99e97f9ea", "1.23-rc": "sha256:defa4e60851ba610b0e718fd2912709f80cb36f7a39aea5ce366c07370a75bfd", "1.23": "sha256:8c10f21bec412f08f73aa7b97ca5ac5f28a39d8a88030ad8a339fd0a781d72b4", "1.24-rc": "sha256:da300890e39053b59a6ddc2cc58c5aaee4679f580be8bcd7622c80d42b0cace2"}, "aliases": {"go": "/usr/local/go/bin/go", "gofmt": "/usr/local/go/bin/gofmt"}}
+config: {"docker": "golang", "url": "https://hub.docker.com/r/_/golang", "maintainer": "@vsoch", "description": "Go (a.k.a., Golang) is a programming language first developed at Google.", "latest": {"1-nanoserver-ltsc2025": "crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "filter": ["^(?!nano).*$", "^(?!windows).*$"], "tags": {"1.16.4-alpine": "sha256:0dc62c5cc2d97657c17ff3bc0224214e10226e245c94317e352ee8a2c54368b4", "1.16.5-alpine": "sha256:45f32e963bb3cc408cfcd01a8e76b2872fb238f602ec5481cd75393da29369c0", "1.17-rc-alpine": "sha256:787111a3069abdb2c4d8c0b27dff2a29cef8b147f8e7a431f5a464ea84ebfa41", "1.17.0": "sha256:7dbfeb9d51c049e8bfe36cf1a4217c7b1ba304bf0eb72d57d0c04f405589f122", "1.17.2": "sha256:124966f5d54a41317ee81ccfe5f849d4f0deef4ed3c5c32c20be855c51c15027", "1.17.3": "sha256:199102125d11c943c927a8a33911ef960ca72c4879e307c7c2e40ceaa72201e3", "1.18-rc": "sha256:2da497bcc0c9ff09d4185907068c6f137d14e8848059971072f2e9cc936aae70", "latest": "sha256:3f7444391c51a11a039bf0359ee81cc64e663c17d787ad0e637a4de1a3f62a71", "1": "sha256:3f7444391c51a11a039bf0359ee81cc64e663c17d787ad0e637a4de1a3f62a71", "1.18": "sha256:50c889275d26f816b5314fc99f55425fa76b18fcaf16af255f5d57f09e1f48da", "1.17rc2": "sha256:c5b50f8381dcc9223b63dbb3e9f558eea0650310232bbc2dde8c3b861c60d1b2", "1.17rc2-buster": "sha256:824267ad82d38a31225b61038ac8735b791396d7df2a6c58f761756964ab4d2d", "1.19-rc": "sha256:c0feb14adb4e346527d86f09bdbcdbe33d1dac5876fbc12c567cd90808e6af4c", "1.18-rc-buster": "sha256:9acf37d060418071d7dbad182979fedc8289eaff0105806a0de2d1a389716fa6", "1.19": "sha256:3025bf670b8363ec9f1b4c4f27348e6d9b7fec607c47e401e40df816853e743a", "1.17": "sha256:87262e4a4c7db56158a80a18fefdc4fee5accc41b59cde821e691d05541bbb18", "1.16": "sha256:5f6a4662de3efc6d6bb812d02e9de3d8698eea16b8eb7281f03e6f3e8383018e", "1.20-rc": "sha256:9ae483262c186de21686f37d0467c6cd054f9ef8c7e33a0cec2a5ec1b833e6bc", "1-nanoserver-ltsc2022": "sha256:148efe6826398b35408b448a9a9888c8f25e33027e2015eb7f47941c757d358d", "1-nanoserver-sac2016": "sha256:7ec07bfc64b92c148d14cbb3aec931676057436286fa09cf25650ef896468bf4", "1-nanoserver-1809": "sha256:24f47e4539dac6eefdd92bc565e092cd5febdfcebad664364142224cf0464a29", "1.20": "sha256:8f9af7094d0cb27cc783c697ac5ba25efdc4da35f8526db21f7aebb0b0b4f18a", "1-nanoserver-1803": "sha256:cf40c6df853a26a9ee15cec62ead4e36a07e02aa1c589fe53acfdd6f725b4da7", "1.21": "sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb", "1.22-rc": "sha256:396fe480cfa7f561ca5061f37e5947934f95d725319adfd907ed9a179f4b477b", "1.22": "sha256:1cf6c45ba39db9fd6db16922041d074a63c935556a05c5ccb62d181034df7f02", "1.23-rc": "sha256:defa4e60851ba610b0e718fd2912709f80cb36f7a39aea5ce366c07370a75bfd", "1.23": "crane digest golang:1.23: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "1.24-rc": "crane digest golang:1.24-rc: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "1-nanoserver-ltsc2025": "crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": {"go": "/usr/local/go/bin/go", "gofmt": "/usr/local/go/bin/gofmt"}}
 ---
 
 This module is a singularity container wrapper for golang.
@@ -56,7 +57,7 @@ $ shpc install golang
 Or a specific version:
 
 ```bash
-$ shpc install golang:1-nanoserver-ltsc2022
+$ shpc install golang:1-nanoserver-ltsc2025
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load golang/1-nanoserver-ltsc2022
-$ module help golang/1-nanoserver-ltsc2022
+$ module load golang/1-nanoserver-ltsc2025
+$ module help golang/1-nanoserver-ltsc2025
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

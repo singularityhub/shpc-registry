@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tmae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tmae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tmae/container.yaml"
-updated_at: "2025-02-28 03:26:20.251775"
+updated_at: "2025-03-01 03:29:54.973622"
 latest: "1.0.4--r43h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/r-tmae"
 

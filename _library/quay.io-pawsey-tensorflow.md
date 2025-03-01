@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/tensorflow/container.yaml"
-updated_at: "2025-02-28 02:54:31.119489"
-latest: "2.12.1.570-rocm5.6.0"
+updated_at: "2025-03-01 02:58:09.568765"
+latest: "2.13-rocm5.7.3"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
  - "python"
@@ -14,8 +14,9 @@ aliases:
  - "bash"
 versions:
  - "2.12.1.570-rocm5.6.0"
+ - "2.13-rocm5.7.3"
 description: "Pawsey build of TensorFlow for AMD GPUs."
-config: {"docker": "quay.io/pawsey/tensorflow", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of TensorFlow for AMD GPUs.", "latest": {"2.12.1.570-rocm5.6.0": "sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099"}, "tags": {"2.12.1.570-rocm5.6.0": "sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099"}}
+config: {"docker": "quay.io/pawsey/tensorflow", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of TensorFlow for AMD GPUs.", "latest": {"2.13-rocm5.7.3": "sha256:89b76025ac71a29ec11119e0a141c457fb0c528c8f6d04e401de89e79bc65ccd"}, "tags": {"2.12.1.570-rocm5.6.0": "sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099", "2.13-rocm5.7.3": "sha256:89b76025ac71a29ec11119e0a141c457fb0c528c8f6d04e401de89e79bc65ccd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/tensorflow.
@@ -30,7 +31,7 @@ $ shpc install quay.io/pawsey/tensorflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/tensorflow:2.12.1.570-rocm5.6.0
+$ shpc install quay.io/pawsey/tensorflow:2.13-rocm5.7.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/tensorflow/2.12.1.570-rocm5.6.0
-$ module help quay.io/pawsey/tensorflow/2.12.1.570-rocm5.6.0
+$ module load quay.io/pawsey/tensorflow/2.13-rocm5.7.3
+$ module help quay.io/pawsey/tensorflow/2.13-rocm5.7.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
