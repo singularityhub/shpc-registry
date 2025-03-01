@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/colorbrewer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for colorbrewer
 latest:
-  0.2--pyh864c0ab_1: sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec
+  0.3--pyhdfd78af_0: sha256:97fe86d79af9406ed7e1671f7eaf290895bbd80e80835fbe63bb3ae183c164e3
 tags:
   0.2--pyh864c0ab_1: sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec
+  0.3--pyhdfd78af_0: sha256:97fe86d79af9406ed7e1671f7eaf290895bbd80e80835fbe63bb3ae183c164e3
 docker: quay.io/biocontainers/colorbrewer
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -3,7 +3,8 @@ url: https://hub.docker.com/r/rocker/shiny
 maintainer: '@vsoch'
 description: Docker image with R + Shiny.
 latest:
-  4.4.2: sha256:4872209c141fde6caa4249d624e666e8749aa4da08f49acd82aecf689e2bd32c
+  4.4.3: 'crane digest rocker/shiny:4.4.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   4.2.2: sha256:5a01f59096c1b86e283cf9756d8badf8f1760a565b82b0c02112f7ffabb81b8b
   3.6.3: sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625
@@ -13,10 +14,13 @@ tags:
   4.3.0: sha256:15990f645e367bc020233dc6b4f929f98c22c2fb5a5413a294e14d5cd1fe3d38
   4.3.1: sha256:c917230d2ebcae772ffae1192e06ba04125a6b512071d9c36d8e7155d4c8667a
   4.3.2: sha256:882ffd767bc97fa310da50137f7539f548978a354b5e9d1e87b0f6741b81a44b
-  4.3.3: sha256:2552384e06381be996df2cd2d72020bf1c997e929d55e2826a9f9cfbe8d5dc69
+  4.3.3: sha256:d89f38af8a5bb6714e82d1a2987aceacc55fee8dcf21a4b81ee3817d162acfcd
   4.4.0: sha256:a76bfc201e36b5da0727d99737a2e7bf0d9df56e812c6fb08774c59f17dac048
   4.4.1: sha256:c50810df4747090eceb2f94da767ad27ad92dc78f96440577cfb8dbe46431026
-  4.4.2: sha256:4872209c141fde6caa4249d624e666e8749aa4da08f49acd82aecf689e2bd32c
+  4.4.2: 'crane digest rocker/shiny:4.4.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  4.4.3: 'crane digest rocker/shiny:4.4.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:
