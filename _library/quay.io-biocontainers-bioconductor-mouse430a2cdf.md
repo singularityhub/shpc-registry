@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mouse430a2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse430a2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse430a2cdf/container.yaml"
-updated_at: "2025-03-01 03:22:55.914427"
+updated_at: "2025-03-02 03:21:59.566821"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse430a2cdf"
 

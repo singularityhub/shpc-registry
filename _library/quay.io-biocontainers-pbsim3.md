@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbsim3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsim3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbsim3/container.yaml"
-updated_at: "2025-03-01 03:13:40.363376"
-latest: "3.0.4--h9948957_1"
+updated_at: "2025-03-02 03:12:43.450601"
+latest: "3.0.5--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pbsim3"
 aliases:
  - "pbsim"
@@ -15,8 +15,9 @@ versions:
  - "3.0.2--h4ac6f70_0"
  - "3.0.4--h4ac6f70_0"
  - "3.0.4--h9948957_1"
+ - "3.0.5--h9948957_1"
 description: "singularity registry hpc automated addition for pbsim3"
-config: {"url": "https://biocontainers.pro/tools/pbsim3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbsim3", "latest": {"3.0.4--h9948957_1": "sha256:32d1c0a6116fb260f874fa5f2ae39d9c318ed162ce8dd302216a9c2849ce9270"}, "tags": {"3.0.0--h4ac6f70_0": "sha256:940e5060c68c8d6abe39efac4d0d1a7f31033b7058834b3be773372b5a39ddb5", "3.0.1--h4ac6f70_0": "sha256:e7251aaf28ec973c547cc0062c3a52c683e9340c600eb44e953907a053e5b2a4", "3.0.2--h4ac6f70_0": "sha256:1f968e6c3f1627a9d5c92d70a40029d953ed18c5d9786b6b8b52c25697e65d30", "3.0.4--h4ac6f70_0": "sha256:e12bec850b7c9e9db00c8741d28e1577826fefcab4fe2a75bb6ed559893075f6", "3.0.4--h9948957_1": "sha256:32d1c0a6116fb260f874fa5f2ae39d9c318ed162ce8dd302216a9c2849ce9270"}, "docker": "quay.io/biocontainers/pbsim3", "aliases": {"pbsim": "/usr/local/bin/pbsim"}}
+config: {"url": "https://biocontainers.pro/tools/pbsim3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbsim3", "latest": {"3.0.5--h9948957_1": "sha256:7dafbaa72a80f985d0209710ddb78595e67f4f8e94f283c391c1d9912a64516f"}, "tags": {"3.0.0--h4ac6f70_0": "sha256:940e5060c68c8d6abe39efac4d0d1a7f31033b7058834b3be773372b5a39ddb5", "3.0.1--h4ac6f70_0": "sha256:e7251aaf28ec973c547cc0062c3a52c683e9340c600eb44e953907a053e5b2a4", "3.0.2--h4ac6f70_0": "sha256:1f968e6c3f1627a9d5c92d70a40029d953ed18c5d9786b6b8b52c25697e65d30", "3.0.4--h4ac6f70_0": "sha256:e12bec850b7c9e9db00c8741d28e1577826fefcab4fe2a75bb6ed559893075f6", "3.0.4--h9948957_1": "sha256:32d1c0a6116fb260f874fa5f2ae39d9c318ed162ce8dd302216a9c2849ce9270", "3.0.5--h9948957_1": "sha256:7dafbaa72a80f985d0209710ddb78595e67f4f8e94f283c391c1d9912a64516f"}, "docker": "quay.io/biocontainers/pbsim3", "aliases": {"pbsim": "/usr/local/bin/pbsim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbsim3.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pbsim3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbsim3:3.0.4--h9948957_1
+$ shpc install quay.io/biocontainers/pbsim3:3.0.5--h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbsim3/3.0.4--h9948957_1
-$ module help quay.io/biocontainers/pbsim3/3.0.4--h9948957_1
+$ module load quay.io/biocontainers/pbsim3/3.0.5--h9948957_1
+$ module help quay.io/biocontainers/pbsim3/3.0.5--h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

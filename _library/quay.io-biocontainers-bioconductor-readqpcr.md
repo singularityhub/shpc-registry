@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-readqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
-updated_at: "2025-03-01 03:45:56.306598"
+updated_at: "2025-03-02 03:45:06.073665"
 latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-readqpcr"
 

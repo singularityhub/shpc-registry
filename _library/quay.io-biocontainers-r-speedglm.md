@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-speedglm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-speedglm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-speedglm/container.yaml"
-updated_at: "2025-03-01 03:16:23.841153"
+updated_at: "2025-03-02 03:15:27.843220"
 latest: "0.3_1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-speedglm"
 aliases:

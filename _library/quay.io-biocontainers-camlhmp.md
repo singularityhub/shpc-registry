@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/camlhmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/camlhmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/camlhmp/container.yaml"
-updated_at: "2025-03-01 03:17:49.306517"
+updated_at: "2025-03-02 03:16:52.539267"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/camlhmp"
 aliases:

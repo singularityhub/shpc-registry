@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kmsurv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kmsurv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kmsurv/container.yaml"
-updated_at: "2025-03-01 03:31:11.712129"
+updated_at: "2025-03-02 03:30:18.269819"
 latest: "0.1_5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-kmsurv"
 aliases:

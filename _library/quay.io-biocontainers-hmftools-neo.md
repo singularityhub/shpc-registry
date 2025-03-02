@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-neo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-neo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-neo/container.yaml"
-updated_at: "2025-03-01 03:29:09.308070"
+updated_at: "2025-03-02 03:28:15.166323"
 latest: "1.2_beta--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-neo"
 aliases:

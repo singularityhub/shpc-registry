@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgikit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgikit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgikit/container.yaml"
-updated_at: "2025-03-01 03:38:39.875485"
-latest: "0.1.7--h3ab6199_1"
+updated_at: "2025-03-02 03:37:47.097456"
+latest: "1.0.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/mgikit"
 aliases:
  - "mgikit"
@@ -15,8 +15,9 @@ versions:
  - "0.1.6--h4c94732_0"
  - "0.1.7--h4c94732_0"
  - "0.1.7--h3ab6199_1"
+ - "1.0.0--h3ab6199_0"
 description: "singularity registry hpc automated addition for mgikit"
-config: {"url": "https://biocontainers.pro/tools/mgikit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgikit", "latest": {"0.1.7--h3ab6199_1": "sha256:42c9b20b7103cab6327458d39a833d3db81381bec0605c03665f29a7a52c4e38"}, "tags": {"0.1.5--h4c94732_0": "sha256:499811e979978077987761492c5d9d7c3af468b2caaf4ad501035e60580a9bf2", "0.1.5--h4c94732_1": "sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471", "0.1.6--h4c94732_0": "sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4", "0.1.7--h4c94732_0": "sha256:5435e10072dfe3f17d375e750889c0ef4de1a745682049f0079b1eada73c469f", "0.1.7--h3ab6199_1": "sha256:42c9b20b7103cab6327458d39a833d3db81381bec0605c03665f29a7a52c4e38"}, "docker": "quay.io/biocontainers/mgikit", "aliases": {"mgikit": "/usr/local/bin/mgikit"}}
+config: {"url": "https://biocontainers.pro/tools/mgikit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgikit", "latest": {"1.0.0--h3ab6199_0": "sha256:076ba41dd277f0c4c4bd71e11d91089c12880fea632ed0350bfdfb8c28b01ffd"}, "tags": {"0.1.5--h4c94732_0": "sha256:499811e979978077987761492c5d9d7c3af468b2caaf4ad501035e60580a9bf2", "0.1.5--h4c94732_1": "sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471", "0.1.6--h4c94732_0": "sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4", "0.1.7--h4c94732_0": "sha256:5435e10072dfe3f17d375e750889c0ef4de1a745682049f0079b1eada73c469f", "0.1.7--h3ab6199_1": "sha256:42c9b20b7103cab6327458d39a833d3db81381bec0605c03665f29a7a52c4e38", "1.0.0--h3ab6199_0": "sha256:076ba41dd277f0c4c4bd71e11d91089c12880fea632ed0350bfdfb8c28b01ffd"}, "docker": "quay.io/biocontainers/mgikit", "aliases": {"mgikit": "/usr/local/bin/mgikit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgikit.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mgikit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgikit:0.1.7--h3ab6199_1
+$ shpc install quay.io/biocontainers/mgikit:1.0.0--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgikit/0.1.7--h3ab6199_1
-$ module help quay.io/biocontainers/mgikit/0.1.7--h3ab6199_1
+$ module load quay.io/biocontainers/mgikit/1.0.0--h3ab6199_0
+$ module help quay.io/biocontainers/mgikit/1.0.0--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

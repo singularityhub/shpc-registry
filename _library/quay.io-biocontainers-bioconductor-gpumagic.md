@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gpumagic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gpumagic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gpumagic/container.yaml"
-updated_at: "2025-03-01 03:33:38.018101"
+updated_at: "2025-03-02 03:32:45.526753"
 latest: "1.18.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gpumagic"
 aliases:

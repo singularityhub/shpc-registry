@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shellescape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shellescape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shellescape/container.yaml"
-updated_at: "2025-03-01 03:34:41.018025"
+updated_at: "2025-03-02 03:33:49.013919"
 latest: "3.4.1--py_1"
 container_url: "https://biocontainers.pro/tools/shellescape"
 aliases:

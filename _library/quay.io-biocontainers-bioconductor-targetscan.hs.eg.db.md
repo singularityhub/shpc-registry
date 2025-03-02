@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-targetscan.hs.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetscan.hs.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetscan.hs.eg.db/container.yaml"
-updated_at: "2025-03-01 03:27:25.548688"
+updated_at: "2025-03-02 03:26:30.478484"
 latest: "0.6.1--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetscan.hs.eg.db"
 

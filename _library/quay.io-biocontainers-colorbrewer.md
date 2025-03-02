@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/colorbrewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colorbrewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colorbrewer/container.yaml"
-updated_at: "2025-03-01 03:05:24.508378"
-latest: "0.2--pyh864c0ab_1"
+updated_at: "2025-03-02 03:04:26.230603"
+latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/colorbrewer"
 aliases:
  - "2to3-3.8"
@@ -15,8 +15,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.2--pyh864c0ab_1"
+ - "0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for colorbrewer"
-config: {"url": "https://biocontainers.pro/tools/colorbrewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colorbrewer", "latest": {"0.2--pyh864c0ab_1": "sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec"}, "tags": {"0.2--pyh864c0ab_1": "sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec"}, "docker": "quay.io/biocontainers/colorbrewer", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/colorbrewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colorbrewer", "latest": {"0.3--pyhdfd78af_0": "sha256:97fe86d79af9406ed7e1671f7eaf290895bbd80e80835fbe63bb3ae183c164e3"}, "tags": {"0.2--pyh864c0ab_1": "sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec", "0.3--pyhdfd78af_0": "sha256:97fe86d79af9406ed7e1671f7eaf290895bbd80e80835fbe63bb3ae183c164e3"}, "docker": "quay.io/biocontainers/colorbrewer", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/colorbrewer.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/colorbrewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/colorbrewer:0.2--pyh864c0ab_1
+$ shpc install quay.io/biocontainers/colorbrewer:0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/colorbrewer/0.2--pyh864c0ab_1
-$ module help quay.io/biocontainers/colorbrewer/0.2--pyh864c0ab_1
+$ module load quay.io/biocontainers/colorbrewer/0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/colorbrewer/0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
