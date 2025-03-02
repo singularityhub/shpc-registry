@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/grz-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-cli
 latest:
-  0.1.1--pyhdfd78af_0: sha256:3d1d63ab7ff383a0cb440daa3f861042eb043745416cf1caeef8ee06cede240c
+  0.1.4--pyhdfd78af_0: sha256:637966566acc168f4ed8b15c639a7c108fd87e254220da177591ba6430cf0cf7
 tags:
   0.1.1--pyhdfd78af_0: sha256:3d1d63ab7ff383a0cb440daa3f861042eb043745416cf1caeef8ee06cede240c
+  0.1.4--pyhdfd78af_0: sha256:637966566acc168f4ed8b15c639a7c108fd87e254220da177591ba6430cf0cf7
 docker: quay.io/biocontainers/grz-cli
 aliases:
   crypt4gh: /usr/local/bin/crypt4gh
