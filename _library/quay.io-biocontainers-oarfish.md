@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oarfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oarfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oarfish/container.yaml"
-updated_at: "2025-03-02 03:00:24.480130"
-latest: "0.6.5--h5ca1c30_1"
+updated_at: "2025-03-03 02:59:48.356986"
+latest: "0.7.0--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/oarfish"
 aliases:
  - "oarfish"
@@ -19,8 +19,9 @@ versions:
  - "0.5.1--h4349ce8_0"
  - "0.6.5--h43eeafb_0"
  - "0.6.5--h5ca1c30_1"
+ - "0.7.0--h5ca1c30_0"
 description: "singularity registry hpc automated addition for oarfish"
-config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.6.5--h5ca1c30_1": "sha256:a8e8e100ea29e807eefc282b748c7447c4c342b908d37854f7e62c8a1322337c"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166", "0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401", "0.4.0--h4349ce8_0": "sha256:6a6e229e78b74856baf6e8f41530c01a135fb07e644a624c8e16335de4e8c061", "0.3.1--h4349ce8_0": "sha256:ffe25e630dcd9c1a5abeff38a3aec8ead311454ecbec9d09623a07b4617ef780", "0.5.0--h4349ce8_1": "sha256:5a111e7936142a81372611b0967c3edaac69903e124b664f153cc0c8e41d2705", "0.6.2--hc9368f3_0": "sha256:5ba7241bcaf6cf732845ddcadc8539c65fad670bff915c3c97f9af6db10e07f0", "0.5.1--h4349ce8_0": "sha256:1f872b928cf74ce00d2a48eb2bb98b35bb82f88eb1a4606a20c50580f9b743c9", "0.6.5--h43eeafb_0": "sha256:4da3490e760edb07cad53a98fd057f72c8103e2c689ffa06427594fe5d57d4c7", "0.6.5--h5ca1c30_1": "sha256:a8e8e100ea29e807eefc282b748c7447c4c342b908d37854f7e62c8a1322337c"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
+config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.7.0--h5ca1c30_0": "sha256:6167ac7b6a9ff237ceccd0634443a4ea33eee5016fcdb15a7c2b2ab93ad251c1"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166", "0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401", "0.4.0--h4349ce8_0": "sha256:6a6e229e78b74856baf6e8f41530c01a135fb07e644a624c8e16335de4e8c061", "0.3.1--h4349ce8_0": "sha256:ffe25e630dcd9c1a5abeff38a3aec8ead311454ecbec9d09623a07b4617ef780", "0.5.0--h4349ce8_1": "sha256:5a111e7936142a81372611b0967c3edaac69903e124b664f153cc0c8e41d2705", "0.6.2--hc9368f3_0": "sha256:5ba7241bcaf6cf732845ddcadc8539c65fad670bff915c3c97f9af6db10e07f0", "0.5.1--h4349ce8_0": "sha256:1f872b928cf74ce00d2a48eb2bb98b35bb82f88eb1a4606a20c50580f9b743c9", "0.6.5--h43eeafb_0": "sha256:4da3490e760edb07cad53a98fd057f72c8103e2c689ffa06427594fe5d57d4c7", "0.6.5--h5ca1c30_1": "sha256:a8e8e100ea29e807eefc282b748c7447c4c342b908d37854f7e62c8a1322337c", "0.7.0--h5ca1c30_0": "sha256:6167ac7b6a9ff237ceccd0634443a4ea33eee5016fcdb15a7c2b2ab93ad251c1"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oarfish.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/oarfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oarfish:0.6.5--h5ca1c30_1
+$ shpc install quay.io/biocontainers/oarfish:0.7.0--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oarfish/0.6.5--h5ca1c30_1
-$ module help quay.io/biocontainers/oarfish/0.6.5--h5ca1c30_1
+$ module load quay.io/biocontainers/oarfish/0.7.0--h5ca1c30_0
+$ module help quay.io/biocontainers/oarfish/0.7.0--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

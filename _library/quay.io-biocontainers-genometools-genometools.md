@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genometools-genometools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometools-genometools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometools-genometools/container.yaml"
-updated_at: "2025-03-02 03:31:56.551001"
+updated_at: "2025-03-03 03:31:31.076562"
 latest: "1.6.5--py38h234d545_3"
 container_url: "https://biocontainers.pro/tools/genometools-genometools"
 aliases:

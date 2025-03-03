@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-recetox-waveica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-waveica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-waveica/container.yaml"
-updated_at: "2025-03-02 03:08:55.125200"
+updated_at: "2025-03-03 03:08:26.419699"
 latest: "0.2.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-recetox-waveica"
 
