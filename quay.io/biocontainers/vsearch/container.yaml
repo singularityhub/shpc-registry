@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/vsearch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vsearch
 latest:
-  2.29.3--hd6d6fdc_0: sha256:c4dbbab2a62803b3983556750314f1aad1e396c6c213d98bebb1a0bce59948eb
+  2.30.0--hd6d6fdc_0: sha256:0e57b8ef3e4e7947ebdd6b1dd88a3696ce883ec664cae0cd29606e661f6ad1fb
 tags:
   2.9.1--h96824bc_0: sha256:3d96497fa5360f15f24079ec865dddb4ec7d50d4e7eed5ef17aba4758e4434e5
   2.21.1--hf1761c0_1: sha256:9263eefb7cae8774850c82c958c2afa0b55f5d8e57ddeb5142b72ecfef3870a5
@@ -22,6 +22,8 @@ tags:
   2.29.1--h6a68c12_0: sha256:bdd02e8c157650b1fbc6a2670b933af0c675cb35504948bc1abf384d1d6c8077
   2.29.2--hd6d6fdc_0: sha256:bd72013f1a0600af1de85f059a8d1cc46f143eee505c32bacc616b81f643b7b0
   2.29.3--hd6d6fdc_0: sha256:c4dbbab2a62803b3983556750314f1aad1e396c6c213d98bebb1a0bce59948eb
+  2.30.0--hd6d6fdc_0: sha256:0e57b8ef3e4e7947ebdd6b1dd88a3696ce883ec664cae0cd29606e661f6ad1fb
+  2.29.4--hd6d6fdc_0: sha256:00e3b0b26a12f43c11100a7c7e7aa42f74c869f1277df5c2e4c4b939aefcd8e0
 docker: quay.io/biocontainers/vsearch
 aliases:
   vsearch: /usr/local/bin/vsearch

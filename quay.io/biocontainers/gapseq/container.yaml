@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gapseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gapseq
 latest:
-  1.3.1--h9ee0642_0: sha256:139f2e48279218241155c38b8b43770815db4d66faa63c1f1d19f885c6596726
+  1.4.0--h9ee0642_1: sha256:d8b821d8396b41a4f3272732c61a59196a1a95425a179bb7cfb6a4995448ff5e
 tags:
   1.2--h9ee0642_0: sha256:5586c6942acf05643af4d5f0da828a9b0af3a742bf0a4eb43297e82eeae05777
   1.3.1--h9ee0642_0: sha256:139f2e48279218241155c38b8b43770815db4d66faa63c1f1d19f885c6596726
+  1.4.0--h9ee0642_1: sha256:d8b821d8396b41a4f3272732c61a59196a1a95425a179bb7cfb6a4995448ff5e
 docker: quay.io/biocontainers/gapseq
 aliases:
   gapseq: /usr/local/bin/gapseq

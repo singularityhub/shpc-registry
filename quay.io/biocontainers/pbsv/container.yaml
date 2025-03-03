@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pbsv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbsv
 latest:
-  2.10.0--h9ee0642_0: sha256:33d0ac515d0f67d78d8f7754101447a4ae6d2b45849239d7868643fdb5722324
+  2.11.0--h9ee0642_0: sha256:1a738d93598c14adee41f988bb47705b738798c398250741d074caf78628fd7c
 tags:
   2.8.0--h9ee0642_0: sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5
   2.9.0--h9ee0642_0: sha256:254daba162bc2773ea0d8427fadcc74ab517f8f59427da0b955aa2cf8f53c07b
   2.10.0--h9ee0642_0: sha256:33d0ac515d0f67d78d8f7754101447a4ae6d2b45849239d7868643fdb5722324
+  2.11.0--h9ee0642_0: sha256:1a738d93598c14adee41f988bb47705b738798c398250741d074caf78628fd7c
 docker: quay.io/biocontainers/pbsv
 aliases:
   pbsv: /usr/local/bin/pbsv
