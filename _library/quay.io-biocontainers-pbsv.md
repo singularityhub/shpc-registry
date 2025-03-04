@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbsv/container.yaml"
-updated_at: "2025-03-03 03:42:04.269575"
-latest: "2.10.0--h9ee0642_0"
+updated_at: "2025-03-04 03:39:39.112085"
+latest: "2.11.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbsv"
 aliases:
  - "pbsv"
@@ -13,8 +13,9 @@ versions:
  - "2.8.0--h9ee0642_0"
  - "2.9.0--h9ee0642_0"
  - "2.10.0--h9ee0642_0"
+ - "2.11.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for pbsv"
-config: {"url": "https://biocontainers.pro/tools/pbsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsv", "latest": {"2.10.0--h9ee0642_0": "sha256:33d0ac515d0f67d78d8f7754101447a4ae6d2b45849239d7868643fdb5722324"}, "tags": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5", "2.9.0--h9ee0642_0": "sha256:254daba162bc2773ea0d8427fadcc74ab517f8f59427da0b955aa2cf8f53c07b", "2.10.0--h9ee0642_0": "sha256:33d0ac515d0f67d78d8f7754101447a4ae6d2b45849239d7868643fdb5722324"}, "docker": "quay.io/biocontainers/pbsv", "aliases": {"pbsv": "/usr/local/bin/pbsv"}}
+config: {"url": "https://biocontainers.pro/tools/pbsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsv", "latest": {"2.11.0--h9ee0642_0": "sha256:1a738d93598c14adee41f988bb47705b738798c398250741d074caf78628fd7c"}, "tags": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5", "2.9.0--h9ee0642_0": "sha256:254daba162bc2773ea0d8427fadcc74ab517f8f59427da0b955aa2cf8f53c07b", "2.10.0--h9ee0642_0": "sha256:33d0ac515d0f67d78d8f7754101447a4ae6d2b45849239d7868643fdb5722324", "2.11.0--h9ee0642_0": "sha256:1a738d93598c14adee41f988bb47705b738798c398250741d074caf78628fd7c"}, "docker": "quay.io/biocontainers/pbsv", "aliases": {"pbsv": "/usr/local/bin/pbsv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbsv.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pbsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbsv:2.10.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/pbsv:2.11.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbsv/2.10.0--h9ee0642_0
-$ module help quay.io/biocontainers/pbsv/2.10.0--h9ee0642_0
+$ module load quay.io/biocontainers/pbsv/2.11.0--h9ee0642_0
+$ module help quay.io/biocontainers/pbsv/2.11.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-svanumt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svanumt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svanumt/container.yaml"
-updated_at: "2025-03-03 03:13:50.162838"
+updated_at: "2025-03-04 03:12:36.622772"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svanumt"
 

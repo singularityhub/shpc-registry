@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-shortread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shortread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shortread/container.yaml"
-updated_at: "2025-03-03 03:01:49.150703"
+updated_at: "2025-03-04 03:00:58.543390"
 latest: "1.64.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shortread"
 

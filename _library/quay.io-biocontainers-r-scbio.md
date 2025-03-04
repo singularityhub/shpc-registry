@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scbio/container.yaml"
-updated_at: "2025-03-03 03:25:03.813493"
+updated_at: "2025-03-04 03:23:24.060633"
 latest: "0.1.4--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-scbio"
 

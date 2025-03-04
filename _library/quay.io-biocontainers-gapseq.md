@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gapseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapseq/container.yaml"
-updated_at: "2025-03-03 03:12:45.904406"
-latest: "1.3.1--h9ee0642_0"
+updated_at: "2025-03-04 03:11:33.318647"
+latest: "1.4.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/gapseq"
 aliases:
  - "gapseq"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "1.2--h9ee0642_0"
  - "1.3.1--h9ee0642_0"
+ - "1.4.0--h9ee0642_1"
 description: "singularity registry hpc automated addition for gapseq"
-config: {"url": "https://biocontainers.pro/tools/gapseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gapseq", "latest": {"1.3.1--h9ee0642_0": "sha256:139f2e48279218241155c38b8b43770815db4d66faa63c1f1d19f885c6596726"}, "tags": {"1.2--h9ee0642_0": "sha256:5586c6942acf05643af4d5f0da828a9b0af3a742bf0a4eb43297e82eeae05777", "1.3.1--h9ee0642_0": "sha256:139f2e48279218241155c38b8b43770815db4d66faa63c1f1d19f885c6596726"}, "docker": "quay.io/biocontainers/gapseq", "aliases": {"gapseq": "/usr/local/bin/gapseq", "install_archived_sybilSBML.sh": "/usr/local/bin/install_archived_sybilSBML.sh", "update_sequences.sh": "/usr/local/bin/update_sequences.sh", "esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress"}}
+config: {"url": "https://biocontainers.pro/tools/gapseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gapseq", "latest": {"1.4.0--h9ee0642_1": "sha256:d8b821d8396b41a4f3272732c61a59196a1a95425a179bb7cfb6a4995448ff5e"}, "tags": {"1.2--h9ee0642_0": "sha256:5586c6942acf05643af4d5f0da828a9b0af3a742bf0a4eb43297e82eeae05777", "1.3.1--h9ee0642_0": "sha256:139f2e48279218241155c38b8b43770815db4d66faa63c1f1d19f885c6596726", "1.4.0--h9ee0642_1": "sha256:d8b821d8396b41a4f3272732c61a59196a1a95425a179bb7cfb6a4995448ff5e"}, "docker": "quay.io/biocontainers/gapseq", "aliases": {"gapseq": "/usr/local/bin/gapseq", "install_archived_sybilSBML.sh": "/usr/local/bin/install_archived_sybilSBML.sh", "update_sequences.sh": "/usr/local/bin/update_sequences.sh", "esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gapseq.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/gapseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gapseq:1.3.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/gapseq:1.4.0--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gapseq/1.3.1--h9ee0642_0
-$ module help quay.io/biocontainers/gapseq/1.3.1--h9ee0642_0
+$ module load quay.io/biocontainers/gapseq/1.4.0--h9ee0642_1
+$ module help quay.io/biocontainers/gapseq/1.4.0--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
