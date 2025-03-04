@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-vsn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vsn
 latest:
-  3.74.0--r44h3df3fcb_0: sha256:2eb29689e682f1e2ac292fdfefa8e7e688ce6f5d34454dfc0dfbaf9aa9ac3049
+  3.74.0--r44h3df3fcb_1: sha256:331e484811664b9c9d18d77fd6dee0404891bc48b666ff3e191f13f2ee843a7f
 tags:
   3.62.0--r41hc0cfd56_2: sha256:1b3f69b340b2b1b24aee329204bfadf740f27a70ebfb3777808136b9e4fb2adb
   3.66.0--r42hc0cfd56_0: sha256:a4b32f949c74c4bdd85e9f7ac43e9abde1114ce474173437ea15232dcd1ef50c
@@ -11,4 +11,5 @@ tags:
   3.70.0--r43ha9d7317_0: sha256:b09186931094080eb1c42d661f6e10480ca8b19203050561ee25d9d33e25d48a
   3.70.0--r43ha9d7317_1: sha256:1a05247afd1e5504c20a3359a3b5261777445e307540366977a7acbc2f820f9c
   3.74.0--r44h3df3fcb_0: sha256:2eb29689e682f1e2ac292fdfefa8e7e688ce6f5d34454dfc0dfbaf9aa9ac3049
+  3.74.0--r44h3df3fcb_1: sha256:331e484811664b9c9d18d77fd6dee0404891bc48b666ff3e191f13f2ee843a7f
 docker: quay.io/biocontainers/bioconductor-vsn

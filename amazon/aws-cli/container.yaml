@@ -4,11 +4,11 @@ maintainer: '@sarahbeecroft'
 description: The AWS Command Line Interface (AWS CLI) is a unified tool to manage
   your AWS services.
 latest:
-  amd64: sha256:31f66bcdc642ee5b5f8bdfbaf44efa1915808c0e402fa7f4542846d49cd5fdc6
+  amd64: sha256:96038627161ebcca2e58eec392c4396ba65b5b1dfcb47f1962a21a1324b088af
 tags:
   2.13.0: sha256:7590866b360c488028f018e120da4394c799de08a8d8c1b09570cf720867bed5
   2.12.7: sha256:93c39fb5fcf7b8269a7f1e3ee342f446f4c463abdbe924c79f4de2f959a03b3b
-  amd64: sha256:31f66bcdc642ee5b5f8bdfbaf44efa1915808c0e402fa7f4542846d49cd5fdc6
+  amd64: sha256:96038627161ebcca2e58eec392c4396ba65b5b1dfcb47f1962a21a1324b088af
   2.13.15: sha256:ac2c7d3827a8fef1024357ada9c6ccd8d0ce098a85cffd6803a52bb8cb4842ed
   2.13.24: sha256:e6ea5be1036e5f490fd4cd49cf0f7081eaf401a8dd978c524c28666b60a8c1b2
   2.13.32: sha256:c59ac67975129e96448601b92d5a890cdfdaff0f175a3e4eb9cfa32b3995dca6
@@ -37,6 +37,8 @@ tags:
   2.22.28: sha256:7d4b8eec7060e4fb5c19109b5f7ee770d5abe3e3b23b35378be8e27321a90fd0
   2.23.13: sha256:482b05dea6c05081c83a0144df6bf218188985dcacaf10a1021f606d286b9605
   2.22.35: sha256:6977c83ae3dc99f28fcf8276b9ea5eec33833cd5be40574b34112e98113ec7a2
+  2.24.17: sha256:36f83318804066016fd3f734b80864d8a13c84f3af8cde1a5475f018e8c62ec9
+  2.23.15: sha256:91d0dc6cd4caaa93e192292ec95eb5deb5e7642926370ac99b4fad4df9a84451
 aliases:
   aws: /usr/local/aws-cli/v2/current/bin/aws
   aws_completer: /usr/local/aws-cli/v2/current/bin/aws_completer
