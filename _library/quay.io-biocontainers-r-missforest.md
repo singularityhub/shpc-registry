@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-missforest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-missforest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-missforest/container.yaml"
-updated_at: "2025-03-04 03:38:36.183346"
+updated_at: "2025-03-05 03:38:41.726766"
 latest: "1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-missforest"
 aliases:

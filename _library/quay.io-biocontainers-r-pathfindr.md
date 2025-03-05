@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pathfindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pathfindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pathfindr/container.yaml"
-updated_at: "2025-03-04 03:29:46.835821"
-latest: "2.4.1--r43h3121a25_0"
+updated_at: "2025-03-05 03:29:41.280677"
+latest: "2.4.2--r44h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-pathfindr"
 aliases:
  - "clhsdb"
@@ -40,8 +40,9 @@ versions:
  - "2.3.1--r43h3342da4_0"
  - "2.4.0--r43h3121a25_0"
  - "2.4.1--r43h3121a25_0"
+ - "2.4.2--r44h3121a25_0"
 description: "singularity registry hpc automated addition for r-pathfindr"
-config: {"url": "https://biocontainers.pro/tools/r-pathfindr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pathfindr", "latest": {"2.4.1--r43h3121a25_0": "sha256:572e14fa6aa5a91fc161f81537fe6418dd7b9b5c7e012cf74c44d874d40d99a1"}, "tags": {"2.1.0--r43h3342da4_0": "sha256:ba5454b65a7ae9e08c5e622c56b3cce7173580a2c293606771a74f6dc2088c39", "2.2.0--r43h3342da4_0": "sha256:d24913c266ae97ad615faa9a50e6eec6453bfe7c289b8c1daf0e6157e1dac406", "2.3.0--r43h3342da4_0": "sha256:1b37082bc8f766d0ab6b8d1b792430e26b573c15633fa3db1d07c0a861aa35df", "2.3.1--r43h3342da4_0": "sha256:277064b5860866e8bb79ad7a8be449670a6f0a8fc7b21a114f0138d79e345011", "2.4.0--r43h3121a25_0": "sha256:a64393b1a89c07f3d52e731eca9fd044cd80fb6355136c2cbc451efddda22b89", "2.4.1--r43h3121a25_0": "sha256:572e14fa6aa5a91fc161f81537fe6418dd7b9b5c7e012cf74c44d874d40d99a1"}, "docker": "quay.io/biocontainers/r-pathfindr", "aliases": {"clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj"}}
+config: {"url": "https://biocontainers.pro/tools/r-pathfindr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pathfindr", "latest": {"2.4.2--r44h3121a25_0": "sha256:93f0890a52a1d20f84d2e0dda7b54959dd62a9174621cd3bfeebcc2527b252a7"}, "tags": {"2.1.0--r43h3342da4_0": "sha256:ba5454b65a7ae9e08c5e622c56b3cce7173580a2c293606771a74f6dc2088c39", "2.2.0--r43h3342da4_0": "sha256:d24913c266ae97ad615faa9a50e6eec6453bfe7c289b8c1daf0e6157e1dac406", "2.3.0--r43h3342da4_0": "sha256:1b37082bc8f766d0ab6b8d1b792430e26b573c15633fa3db1d07c0a861aa35df", "2.3.1--r43h3342da4_0": "sha256:277064b5860866e8bb79ad7a8be449670a6f0a8fc7b21a114f0138d79e345011", "2.4.0--r43h3121a25_0": "sha256:a64393b1a89c07f3d52e731eca9fd044cd80fb6355136c2cbc451efddda22b89", "2.4.1--r43h3121a25_0": "sha256:572e14fa6aa5a91fc161f81537fe6418dd7b9b5c7e012cf74c44d874d40d99a1", "2.4.2--r44h3121a25_0": "sha256:93f0890a52a1d20f84d2e0dda7b54959dd62a9174621cd3bfeebcc2527b252a7"}, "docker": "quay.io/biocontainers/r-pathfindr", "aliases": {"clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pathfindr.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/r-pathfindr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pathfindr:2.4.1--r43h3121a25_0
+$ shpc install quay.io/biocontainers/r-pathfindr:2.4.2--r44h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pathfindr/2.4.1--r43h3121a25_0
-$ module help quay.io/biocontainers/r-pathfindr/2.4.1--r43h3121a25_0
+$ module load quay.io/biocontainers/r-pathfindr/2.4.2--r44h3121a25_0
+$ module help quay.io/biocontainers/r-pathfindr/2.4.2--r44h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

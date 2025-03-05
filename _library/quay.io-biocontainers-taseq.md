@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taseq/container.yaml"
-updated_at: "2025-03-04 03:14:20.721618"
-latest: "1.1.0--pyh7e72e81_0"
+updated_at: "2025-03-05 03:13:57.552308"
+latest: "1.1.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/taseq"
 aliases:
  - "taseq"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.0.0--pyh7e72e81_0"
  - "1.1.0--pyh7e72e81_0"
+ - "1.1.1--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for taseq"
-config: {"url": "https://biocontainers.pro/tools/taseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taseq", "latest": {"1.1.0--pyh7e72e81_0": "sha256:004ce75a7e697df15e9cf674b8157c5f0dc475f2e57627e170a2bd152a2f70c9"}, "tags": {"1.0.0--pyh7e72e81_0": "sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3", "1.1.0--pyh7e72e81_0": "sha256:004ce75a7e697df15e9cf674b8157c5f0dc475f2e57627e170a2bd152a2f70c9"}, "docker": "quay.io/biocontainers/taseq", "aliases": {"taseq": "/usr/local/bin/taseq", "taseq_draw": "/usr/local/bin/taseq_draw", "taseq_filter": "/usr/local/bin/taseq_filter", "taseq_genotype": "/usr/local/bin/taseq_genotype", "taseq_hapcall": "/usr/local/bin/taseq_hapcall", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "gatk": "/usr/local/bin/gatk", "numpy-config": "/usr/local/bin/numpy-config", "picard": "/usr/local/bin/picard", "annot-tsv": "/usr/local/bin/annot-tsv", "trimmomatic": "/usr/local/bin/trimmomatic", "jpackage": "/usr/local/bin/jpackage", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/taseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taseq", "latest": {"1.1.1--pyh7e72e81_0": "sha256:d87b338fb8ba32b8d26ef002cdf9741b085cdcc947813a11d9b190f74379419f"}, "tags": {"1.0.0--pyh7e72e81_0": "sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3", "1.1.0--pyh7e72e81_0": "sha256:004ce75a7e697df15e9cf674b8157c5f0dc475f2e57627e170a2bd152a2f70c9", "1.1.1--pyh7e72e81_0": "sha256:d87b338fb8ba32b8d26ef002cdf9741b085cdcc947813a11d9b190f74379419f"}, "docker": "quay.io/biocontainers/taseq", "aliases": {"taseq": "/usr/local/bin/taseq", "taseq_draw": "/usr/local/bin/taseq_draw", "taseq_filter": "/usr/local/bin/taseq_filter", "taseq_genotype": "/usr/local/bin/taseq_genotype", "taseq_hapcall": "/usr/local/bin/taseq_hapcall", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "gatk": "/usr/local/bin/gatk", "numpy-config": "/usr/local/bin/numpy-config", "picard": "/usr/local/bin/picard", "annot-tsv": "/usr/local/bin/annot-tsv", "trimmomatic": "/usr/local/bin/trimmomatic", "jpackage": "/usr/local/bin/jpackage", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taseq.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/taseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taseq:1.1.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/taseq:1.1.1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taseq/1.1.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/taseq/1.1.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/taseq/1.1.1--pyh7e72e81_0
+$ module help quay.io/biocontainers/taseq/1.1.1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

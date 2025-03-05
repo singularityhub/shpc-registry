@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htratfocusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htratfocusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htratfocusprobe/container.yaml"
-updated_at: "2025-03-04 03:00:57.702451"
+updated_at: "2025-03-05 03:00:18.806367"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-htratfocusprobe"
 

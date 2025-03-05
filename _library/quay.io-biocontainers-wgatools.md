@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wgatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgatools/container.yaml"
-updated_at: "2025-03-04 03:09:33.525939"
-latest: "0.1.1--hf6a8760_1"
+updated_at: "2025-03-05 03:09:05.066352"
+latest: "1.0.0--hf6a8760_0"
 container_url: "https://biocontainers.pro/tools/wgatools"
 aliases:
  - "wgatools"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0--h7c767d4_1"
  - "0.1.1--h7c767d4_0"
  - "0.1.1--hf6a8760_1"
+ - "1.0.0--hf6a8760_0"
 description: "singularity registry hpc automated addition for wgatools"
-config: {"url": "https://biocontainers.pro/tools/wgatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wgatools", "latest": {"0.1.1--hf6a8760_1": "sha256:36c9d312df021d313df3057409d6650828ba5fce96661e3f432be29e7375abea"}, "tags": {"0.1.0--h7c767d4_1": "sha256:d7eab7965f7ca4fe8c25f98b6382ab87abce14ac42eebc72d184150244a5cabb", "0.1.1--h7c767d4_0": "sha256:262cc07f7d99ec72f7ac5e473afb17537de0e110f561e79662041e1422762d5f", "0.1.1--hf6a8760_1": "sha256:36c9d312df021d313df3057409d6650828ba5fce96661e3f432be29e7375abea"}, "docker": "quay.io/biocontainers/wgatools", "aliases": {"wgatools": "/usr/local/bin/wgatools"}}
+config: {"url": "https://biocontainers.pro/tools/wgatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wgatools", "latest": {"1.0.0--hf6a8760_0": "sha256:94bfaeab50d123cce8ef54f85cb75a646f337027f380b8501b252cbd6587b5ba"}, "tags": {"0.1.0--h7c767d4_1": "sha256:d7eab7965f7ca4fe8c25f98b6382ab87abce14ac42eebc72d184150244a5cabb", "0.1.1--h7c767d4_0": "sha256:262cc07f7d99ec72f7ac5e473afb17537de0e110f561e79662041e1422762d5f", "0.1.1--hf6a8760_1": "sha256:36c9d312df021d313df3057409d6650828ba5fce96661e3f432be29e7375abea", "1.0.0--hf6a8760_0": "sha256:94bfaeab50d123cce8ef54f85cb75a646f337027f380b8501b252cbd6587b5ba"}, "docker": "quay.io/biocontainers/wgatools", "aliases": {"wgatools": "/usr/local/bin/wgatools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgatools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/wgatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wgatools:0.1.1--hf6a8760_1
+$ shpc install quay.io/biocontainers/wgatools:1.0.0--hf6a8760_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wgatools/0.1.1--hf6a8760_1
-$ module help quay.io/biocontainers/wgatools/0.1.1--hf6a8760_1
+$ module load quay.io/biocontainers/wgatools/1.0.0--hf6a8760_0
+$ module help quay.io/biocontainers/wgatools/1.0.0--hf6a8760_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

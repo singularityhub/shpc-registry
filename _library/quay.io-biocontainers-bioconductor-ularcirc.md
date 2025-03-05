@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ularcirc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ularcirc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ularcirc/container.yaml"
-updated_at: "2025-03-04 03:27:00.544640"
+updated_at: "2025-03-05 03:26:51.697970"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ularcirc"
 aliases:

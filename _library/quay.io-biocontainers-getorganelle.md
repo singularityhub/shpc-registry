@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/getorganelle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/getorganelle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/getorganelle/container.yaml"
-updated_at: "2025-03-04 03:09:12.619208"
+updated_at: "2025-03-05 03:08:43.759459"
 latest: "1.7.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/getorganelle"
 aliases:

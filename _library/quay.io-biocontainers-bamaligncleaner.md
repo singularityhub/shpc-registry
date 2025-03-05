@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamaligncleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamaligncleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamaligncleaner/container.yaml"
-updated_at: "2025-03-04 03:05:29.637416"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2025-03-05 03:04:56.456476"
+latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamaligncleaner"
 aliases:
  - "bamAlignCleaner"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2.2--pyhdfd78af_0"
+ - "0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bamaligncleaner"
-config: {"url": "https://biocontainers.pro/tools/bamaligncleaner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamaligncleaner", "latest": {"0.2.2--pyhdfd78af_0": "sha256:b57e7dcb85672b67b721267cd8fb2198cb70db67d97d9522b574cb28bc5e9c87"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:b57e7dcb85672b67b721267cd8fb2198cb70db67d97d9522b574cb28bc5e9c87"}, "docker": "quay.io/biocontainers/bamaligncleaner", "aliases": {"bamAlignCleaner": "/usr/local/bin/bamAlignCleaner", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bamaligncleaner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamaligncleaner", "latest": {"0.3--pyhdfd78af_0": "sha256:f23d870411e92a2aea601bd413fcc60d064156c09dfd2f124d26cbc231b15996"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:b57e7dcb85672b67b721267cd8fb2198cb70db67d97d9522b574cb28bc5e9c87", "0.3--pyhdfd78af_0": "sha256:f23d870411e92a2aea601bd413fcc60d064156c09dfd2f124d26cbc231b15996"}, "docker": "quay.io/biocontainers/bamaligncleaner", "aliases": {"bamAlignCleaner": "/usr/local/bin/bamAlignCleaner", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamaligncleaner.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bamaligncleaner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamaligncleaner:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bamaligncleaner:0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamaligncleaner/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/bamaligncleaner/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/bamaligncleaner/0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/bamaligncleaner/0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
