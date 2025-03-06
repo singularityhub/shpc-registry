@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cistrome-ceas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cistrome-ceas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cistrome-ceas/container.yaml"
-updated_at: "2025-03-06 03:13:36.072917"
+updated_at: "2025-03-06 03:48:20.423455"
 latest: "1.0.2b1--py_2"
 container_url: "https://biocontainers.pro/tools/cistrome-ceas"
 aliases:

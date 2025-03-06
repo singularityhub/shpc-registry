@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparsehash/container.yaml"
-updated_at: "2025-03-06 03:42:58.964863"
+updated_at: "2025-03-06 04:17:51.721844"
 latest: "2.0.3--0"
 container_url: "https://biocontainers.pro/tools/sparsehash"
 

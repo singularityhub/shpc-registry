@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-minion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-minion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-minion/container.yaml"
-updated_at: "2025-03-06 03:08:37.103446"
+updated_at: "2025-03-06 03:43:14.660593"
 latest: "10.31--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-minion"
 aliases:

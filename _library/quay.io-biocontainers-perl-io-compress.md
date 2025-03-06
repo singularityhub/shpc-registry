@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-compress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-compress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-compress/container.yaml"
-updated_at: "2025-03-06 03:34:14.602421"
+updated_at: "2025-03-06 04:09:24.777644"
 latest: "2.201--pl5321h503566f_4"
 container_url: "https://biocontainers.pro/tools/perl-io-compress"
 

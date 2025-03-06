@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adme16cod.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adme16cod.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adme16cod.db/container.yaml"
-updated_at: "2025-03-06 03:31:32.186022"
+updated_at: "2025-03-06 04:06:36.958153"
 latest: "3.4.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-adme16cod.db"
 

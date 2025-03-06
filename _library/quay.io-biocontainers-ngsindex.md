@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsindex/container.yaml"
-updated_at: "2025-03-06 02:58:28.849607"
+updated_at: "2025-03-06 03:32:58.131856"
 latest: "0.1.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ngsindex"
 aliases:

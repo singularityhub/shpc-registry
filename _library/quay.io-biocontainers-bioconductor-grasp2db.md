@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grasp2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
-updated_at: "2025-03-06 03:28:40.205321"
+updated_at: "2025-03-06 04:03:31.721677"
 latest: "1.1.0--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-grasp2db"
 

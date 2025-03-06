@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/open-cravat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/open-cravat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/open-cravat/container.yaml"
-updated_at: "2025-03-06 03:32:39.178380"
+updated_at: "2025-03-06 04:07:47.016163"
 latest: "2.11.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/open-cravat"
 aliases:
