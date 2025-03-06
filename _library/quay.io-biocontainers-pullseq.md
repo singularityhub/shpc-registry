@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pullseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pullseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pullseq/container.yaml"
-updated_at: "2025-03-05 03:05:54.664624"
-latest: "1.0.2--h1104d80_10"
+updated_at: "2025-03-06 03:06:48.499271"
+latest: "1.0.2--h1104d80_11"
 container_url: "https://biocontainers.pro/tools/pullseq"
 aliases:
  - "pullseq"
@@ -14,8 +14,9 @@ versions:
  - "1.0.2--hbd632db_7"
  - "1.0.2--h6ead514_9"
  - "1.0.2--h1104d80_10"
+ - "1.0.2--h1104d80_11"
 description: "shpc-registry automated BioContainers addition for pullseq"
-config: {"url": "https://biocontainers.pro/tools/pullseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pullseq", "latest": {"1.0.2--h1104d80_10": "sha256:5fc1cd87bc2d867c51121c3b09f31f7e8867b6e5aaf76fb058c7cbb1e3f3ff23"}, "tags": {"1.0.2--hbd632db_7": "sha256:18f98b3b5d8373dbbb04c03195580a619a9f136533c96ae9749561ee91db3521", "1.0.2--h6ead514_9": "sha256:cd98cfe9116c1f702c9af93bee2e31bc6da8724ed903bac6717154ad31c39814", "1.0.2--h1104d80_10": "sha256:5fc1cd87bc2d867c51121c3b09f31f7e8867b6e5aaf76fb058c7cbb1e3f3ff23"}, "docker": "quay.io/biocontainers/pullseq", "aliases": {"pullseq": "/usr/local/bin/pullseq", "seqdiff": "/usr/local/bin/seqdiff"}}
+config: {"url": "https://biocontainers.pro/tools/pullseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pullseq", "latest": {"1.0.2--h1104d80_11": "sha256:8c772940d4a2090fa104507b7b07b938471f56c04b487e12e8ca0083c7b9cb05"}, "tags": {"1.0.2--hbd632db_7": "sha256:18f98b3b5d8373dbbb04c03195580a619a9f136533c96ae9749561ee91db3521", "1.0.2--h6ead514_9": "sha256:cd98cfe9116c1f702c9af93bee2e31bc6da8724ed903bac6717154ad31c39814", "1.0.2--h1104d80_10": "sha256:5fc1cd87bc2d867c51121c3b09f31f7e8867b6e5aaf76fb058c7cbb1e3f3ff23", "1.0.2--h1104d80_11": "sha256:8c772940d4a2090fa104507b7b07b938471f56c04b487e12e8ca0083c7b9cb05"}, "docker": "quay.io/biocontainers/pullseq", "aliases": {"pullseq": "/usr/local/bin/pullseq", "seqdiff": "/usr/local/bin/seqdiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pullseq.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/pullseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pullseq:1.0.2--h1104d80_10
+$ shpc install quay.io/biocontainers/pullseq:1.0.2--h1104d80_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pullseq/1.0.2--h1104d80_10
-$ module help quay.io/biocontainers/pullseq/1.0.2--h1104d80_10
+$ module load quay.io/biocontainers/pullseq/1.0.2--h1104d80_11
+$ module help quay.io/biocontainers/pullseq/1.0.2--h1104d80_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

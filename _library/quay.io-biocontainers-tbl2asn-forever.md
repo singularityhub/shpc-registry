@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tbl2asn-forever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
-updated_at: "2025-03-05 03:15:42.403308"
-latest: "25.7.2f--h7b50bb2_5"
+updated_at: "2025-03-06 03:16:34.913221"
+latest: "25.7.2f--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/tbl2asn-forever"
 aliases:
  - "faketime"
@@ -17,8 +17,9 @@ versions:
  - "25.7.2f--hec16e2b_2"
  - "25.7.2f--h031d066_4"
  - "25.7.2f--h7b50bb2_5"
+ - "25.7.2f--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for tbl2asn-forever"
-config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7.2f--h7b50bb2_5": "sha256:417e45c7540cf004146412de73c91d03c646602ea5b6712b17a4782e7f37283b"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33", "25.7.2f--hec16e2b_2": "sha256:642a72422bcc442c22ddf9fb9ca9822eb890809742bd35f1e8a24f1078b0a426", "25.7.2f--h031d066_4": "sha256:a91e3787ab4d735f80533d156756dedf5422cef65b5a7ffbec89464a3840f01c", "25.7.2f--h7b50bb2_5": "sha256:417e45c7540cf004146412de73c91d03c646602ea5b6712b17a4782e7f37283b"}, "docker": "quay.io/biocontainers/tbl2asn-forever", "aliases": {"faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "tbl2asn": "/usr/local/bin/tbl2asn", "idn": "/usr/local/bin/idn"}}
+config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7.2f--h7b50bb2_6": "sha256:8bfa9cd7a981a6bb53b2c7978cc59dd0f88b94a1e1aca771950ed53b13cc4be0"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33", "25.7.2f--hec16e2b_2": "sha256:642a72422bcc442c22ddf9fb9ca9822eb890809742bd35f1e8a24f1078b0a426", "25.7.2f--h031d066_4": "sha256:a91e3787ab4d735f80533d156756dedf5422cef65b5a7ffbec89464a3840f01c", "25.7.2f--h7b50bb2_5": "sha256:417e45c7540cf004146412de73c91d03c646602ea5b6712b17a4782e7f37283b", "25.7.2f--h7b50bb2_6": "sha256:8bfa9cd7a981a6bb53b2c7978cc59dd0f88b94a1e1aca771950ed53b13cc4be0"}, "docker": "quay.io/biocontainers/tbl2asn-forever", "aliases": {"faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "tbl2asn": "/usr/local/bin/tbl2asn", "idn": "/usr/local/bin/idn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbl2asn-forever.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/tbl2asn-forever
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tbl2asn-forever:25.7.2f--h7b50bb2_5
+$ shpc install quay.io/biocontainers/tbl2asn-forever:25.7.2f--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tbl2asn-forever/25.7.2f--h7b50bb2_5
-$ module help quay.io/biocontainers/tbl2asn-forever/25.7.2f--h7b50bb2_5
+$ module load quay.io/biocontainers/tbl2asn-forever/25.7.2f--h7b50bb2_6
+$ module help quay.io/biocontainers/tbl2asn-forever/25.7.2f--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
