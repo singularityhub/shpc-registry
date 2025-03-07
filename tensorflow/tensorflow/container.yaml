@@ -3,7 +3,7 @@ url: https://hub.docker.com/r/tensorflow/tensorflow
 maintainer: '@vsoch'
 description: An end-to-end open source platform for machine learning.
 latest:
-  2.18.0rc0: sha256:d3c9afe0de63f946cd3bc091cd69b6adeba1e71ab69f949580bf8a474f2aafdb
+  2.19.0rc0: sha256:d7915e4106cd66fc5675dbcf188a1a9708591b0b4512a6e237b2f441e2a28caa
 tags:
   2.5.0-custom-op-gpu-ubuntu16: sha256:478bee6f0691b48d74adc3fcffe3e9ececf35df5c02860cc51a2c48b1d92c730
   2.5.0rc0-gpu-jupyter: sha256:9808e04142b09482bb6b3d1738430ae7472a214dd38e086d41e481b376fa9abd
@@ -49,6 +49,7 @@ tags:
   2.17.0: sha256:821b11952acfa67764c1f433a0629747ee49e30a69291811a2dcbef77b67cf33
   2.18.0rc0: sha256:d3c9afe0de63f946cd3bc091cd69b6adeba1e71ab69f949580bf8a474f2aafdb
   2.18.0: sha256:f3be5db24f080b3b228a23eb24f586058b3bec445d81500f95167c70e5473d4e
+  2.19.0rc0: sha256:d7915e4106cd66fc5675dbcf188a1a9708591b0b4512a6e237b2f441e2a28caa
 filter:
 - 2[.]*
 features:

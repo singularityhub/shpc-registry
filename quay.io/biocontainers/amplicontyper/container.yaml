@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/amplicontyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amplicontyper
 latest:
-  0.1.28--pyhdfd78af_0: sha256:4304d9f7f95e01fd265f132b57ce0ae46f63ba1c16adb32f83d54cd6565eb4fb
+  0.1.29--pyhdfd78af_0: sha256:b5e1f69d5fc6acb6638f5143e3650fecbb07155178409c2f971c202714730cae
 tags:
   0.1.28--pyhdfd78af_0: sha256:4304d9f7f95e01fd265f132b57ce0ae46f63ba1c16adb32f83d54cd6565eb4fb
+  0.1.29--pyhdfd78af_0: sha256:b5e1f69d5fc6acb6638f5143e3650fecbb07155178409c2f971c202714730cae
 docker: quay.io/biocontainers/amplicontyper
 aliases:
   check_for_update.py: /usr/local/bin/check_for_update.py

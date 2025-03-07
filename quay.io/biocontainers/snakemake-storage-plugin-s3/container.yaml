@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/snakemake-storage-plugin-s3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-storage-plugin-s3
 latest:
-  0.2.12--pyhdfd78af_0: sha256:e51dc3d5f5337a8df30f9c2f3aac800aade5017a0550a35ee8fd3100fc4fac29
+  0.2.13--pyhdfd78af_0: sha256:64508604e605da235e64f9d73bcdc79e27694348cadeaed365595c20b0f19ab6
 tags:
   0.2.8--pyhdfd78af_1: sha256:12cd4ef702fc9ad87d34f8b9d2948981834a9f25667f3e18c4e41187757a5912
   0.2.10--pyhdfd78af_0: sha256:c44f5aa92defa07728ebc0cf64218b367b43e5b9b964368ce58837cf12ff7b74
   0.2.11--pyhdfd78af_0: sha256:2ce6ac3c565f2c00d57f88d6a5bd3f53108b925397f30c49e57da38f021d0293
   0.2.12--pyhdfd78af_0: sha256:e51dc3d5f5337a8df30f9c2f3aac800aade5017a0550a35ee8fd3100fc4fac29
+  0.2.13--pyhdfd78af_0: sha256:64508604e605da235e64f9d73bcdc79e27694348cadeaed365595c20b0f19ab6
 docker: quay.io/biocontainers/snakemake-storage-plugin-s3
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

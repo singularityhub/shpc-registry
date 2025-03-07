@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/poly-qtlseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for poly-qtlseq
 latest:
-  1.0.1--hdfd78af_0: sha256:0d3530350a30279e3c76acb238dc460dfac97de6c2647cc319e222ed863d9b52
+  1.0.2--hdfd78af_0: sha256:74641383fd3f6e383c428d512a850181e7bf033f71568bd553d9c8d2b393182e
 tags:
   1.0.0--hdfd78af_0: sha256:3578f9f1a064e754e143dd5dddd72aabe472333292801badf5e1607d4fddb7ec
   1.0.1--hdfd78af_0: sha256:0d3530350a30279e3c76acb238dc460dfac97de6c2647cc319e222ed863d9b52
+  1.0.2--hdfd78af_0: sha256:74641383fd3f6e383c428d512a850181e7bf033f71568bd553d9c8d2b393182e
 docker: quay.io/biocontainers/poly-qtlseq
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
