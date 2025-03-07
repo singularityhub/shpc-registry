@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phangorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phangorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phangorn/container.yaml"
-updated_at: "2025-03-06 03:39:03.685844"
+updated_at: "2025-03-07 03:05:22.518654"
 latest: "2.4.0--r341h9d2a408_0"
 container_url: "https://biocontainers.pro/tools/r-phangorn"
 aliases:

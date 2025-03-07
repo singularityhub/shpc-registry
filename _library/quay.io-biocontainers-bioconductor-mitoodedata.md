@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mitoodedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mitoodedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mitoodedata/container.yaml"
-updated_at: "2025-03-06 04:06:29.868209"
+updated_at: "2025-03-07 03:33:36.495070"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mitoodedata"
 aliases:

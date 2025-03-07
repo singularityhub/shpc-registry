@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lola"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lola/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lola/container.yaml"
-updated_at: "2025-03-06 04:10:21.671906"
+updated_at: "2025-03-07 03:37:34.587515"
 latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lola"
 aliases:

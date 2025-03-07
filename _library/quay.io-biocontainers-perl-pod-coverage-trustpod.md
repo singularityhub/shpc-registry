@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-coverage-trustpod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
-updated_at: "2025-03-06 03:44:12.408461"
+updated_at: "2025-03-07 03:10:41.666062"
 latest: "0.100006--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-coverage-trustpod"
 aliases:

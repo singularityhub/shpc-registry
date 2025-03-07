@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tttrlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tttrlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tttrlib/container.yaml"
-updated_at: "2025-03-06 04:17:43.443991"
+updated_at: "2025-03-07 03:45:09.369137"
 latest: "0.25.1--py312hd82e9f0_1"
 container_url: "https://biocontainers.pro/tools/tttrlib"
 aliases:

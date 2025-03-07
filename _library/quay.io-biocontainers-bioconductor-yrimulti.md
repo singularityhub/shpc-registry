@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yrimulti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yrimulti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yrimulti/container.yaml"
-updated_at: "2025-03-06 03:51:16.653318"
+updated_at: "2025-03-07 03:17:59.684010"
 latest: "0.18.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yrimulti"
 aliases:
