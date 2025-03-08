@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomad/container.yaml"
-updated_at: "2025-03-07 03:07:14.661252"
-latest: "1.9.0--pyhdfd78af_1"
+updated_at: "2025-03-08 02:40:14.288764"
+latest: "1.11.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomad"
 aliases:
  - "aria2c"
@@ -57,8 +57,10 @@ versions:
  - "1.8.0--pyhdfd78af_1"
  - "1.8.1--pyhdfd78af_0"
  - "1.9.0--pyhdfd78af_1"
+ - "1.11.0--pyhdfd78af_0"
+ - "1.10.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for genomad"
-config: {"url": "https://biocontainers.pro/tools/genomad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomad", "latest": {"1.9.0--pyhdfd78af_1": "sha256:e99297c938d1d2553062411e1e47f62c7deec2001d5fb6edba3753fdc1dbb8dd"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:037a5d1d219ec45df379bd4662bb66fad128160159d66fdc4545708b46b2446f", "1.5.0--pyhdfd78af_0": "sha256:91b16ca05e8f14b3c92ea98401b3ca6f5c3473cb867a76d4d2b82e0963b88728", "1.5.1--pyhdfd78af_0": "sha256:e51eb4a2c1c6bc4e2d390a4bd7a73905b067b910a174b1572bedec7d6c15c767", "1.5.2--pyhdfd78af_0": "sha256:c4bb0ad5ae5cc747280be1b68ebd73d61fa72abbf0c104980ef15141e4a8c205", "1.6.1--pyhdfd78af_0": "sha256:9c90652b03fde08e4897de699ae981c3dd9764553ce6cec4ab2e8ad0e17c26d3", "1.7.0--pyhdfd78af_0": "sha256:3516afe98505fb8be80296a02d50e6de21eb4066a3a32f677a21e7e45002ba17", "1.7.1--pyhdfd78af_0": "sha256:dfd84cf269748345d6f19224c29459efe84b34bfb0adbcd46881741a83e9420c", "1.7.3--pyhdfd78af_0": "sha256:a388438882604b13399943725b1778f28594864e0960b4a389b5b63d0ab33b88", "1.7.4--pyhdfd78af_0": "sha256:205c5fea96d732078ea71595876d894e32cae0fa522a9b79ffd8414f4bc2366c", "1.7.5--pyhdfd78af_0": "sha256:6b290909bc50bdf6b915390ab15cd7199f36e8d24e6dbb9abcbb7675000b246a", "1.7.6--pyhdfd78af_0": "sha256:5d193cbb3f30a3cc18be2d5b516948cf7abdf353c5be21e8ce57bdb5816ef3cb", "1.8.0--pyhdfd78af_0": "sha256:ef01654b515ca5d9489eee57d36b1571e8b73396d267198c014ba7744a0a87b5", "1.8.0--pyhdfd78af_1": "sha256:64fa6139cc4a71544446c410d054e6ecd56e2e22e4161ab67014b9f6244bde00", "1.8.1--pyhdfd78af_0": "sha256:90fbcd3591ef813b07e10d5feefbf3ae697f75a5378b93e617bc4c832e8f69de", "1.9.0--pyhdfd78af_1": "sha256:e99297c938d1d2553062411e1e47f62c7deec2001d5fb6edba3753fdc1dbb8dd"}, "docker": "quay.io/biocontainers/genomad", "aliases": {"aria2c": "/usr/local/bin/aria2c", "flatc": "/usr/local/bin/flatc", "genomad": "/usr/local/bin/genomad", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "prodigal-gv": "/usr/local/bin/prodigal-gv", "rich-click": "/usr/local/bin/rich-click", "aec": "/usr/local/bin/aec", "mmseqs": "/usr/local/bin/mmseqs", "xgboost": "/usr/local/bin/xgboost", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aragorn": "/usr/local/bin/aragorn", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt"}}
+config: {"url": "https://biocontainers.pro/tools/genomad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomad", "latest": {"1.11.0--pyhdfd78af_0": "sha256:04adff98dcf2e2061d7219fb5ee763a12d8f6117014093efc2c391f43a4a0f6d"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:037a5d1d219ec45df379bd4662bb66fad128160159d66fdc4545708b46b2446f", "1.5.0--pyhdfd78af_0": "sha256:91b16ca05e8f14b3c92ea98401b3ca6f5c3473cb867a76d4d2b82e0963b88728", "1.5.1--pyhdfd78af_0": "sha256:e51eb4a2c1c6bc4e2d390a4bd7a73905b067b910a174b1572bedec7d6c15c767", "1.5.2--pyhdfd78af_0": "sha256:c4bb0ad5ae5cc747280be1b68ebd73d61fa72abbf0c104980ef15141e4a8c205", "1.6.1--pyhdfd78af_0": "sha256:9c90652b03fde08e4897de699ae981c3dd9764553ce6cec4ab2e8ad0e17c26d3", "1.7.0--pyhdfd78af_0": "sha256:3516afe98505fb8be80296a02d50e6de21eb4066a3a32f677a21e7e45002ba17", "1.7.1--pyhdfd78af_0": "sha256:dfd84cf269748345d6f19224c29459efe84b34bfb0adbcd46881741a83e9420c", "1.7.3--pyhdfd78af_0": "sha256:a388438882604b13399943725b1778f28594864e0960b4a389b5b63d0ab33b88", "1.7.4--pyhdfd78af_0": "sha256:205c5fea96d732078ea71595876d894e32cae0fa522a9b79ffd8414f4bc2366c", "1.7.5--pyhdfd78af_0": "sha256:6b290909bc50bdf6b915390ab15cd7199f36e8d24e6dbb9abcbb7675000b246a", "1.7.6--pyhdfd78af_0": "sha256:5d193cbb3f30a3cc18be2d5b516948cf7abdf353c5be21e8ce57bdb5816ef3cb", "1.8.0--pyhdfd78af_0": "sha256:ef01654b515ca5d9489eee57d36b1571e8b73396d267198c014ba7744a0a87b5", "1.8.0--pyhdfd78af_1": "sha256:64fa6139cc4a71544446c410d054e6ecd56e2e22e4161ab67014b9f6244bde00", "1.8.1--pyhdfd78af_0": "sha256:90fbcd3591ef813b07e10d5feefbf3ae697f75a5378b93e617bc4c832e8f69de", "1.9.0--pyhdfd78af_1": "sha256:e99297c938d1d2553062411e1e47f62c7deec2001d5fb6edba3753fdc1dbb8dd", "1.11.0--pyhdfd78af_0": "sha256:04adff98dcf2e2061d7219fb5ee763a12d8f6117014093efc2c391f43a4a0f6d", "1.10.0--pyhdfd78af_1": "sha256:3a3339d77db1f5f2ff0846425b9c47052f2e42c05028ee9ffae09c30948b21f7"}, "docker": "quay.io/biocontainers/genomad", "aliases": {"aria2c": "/usr/local/bin/aria2c", "flatc": "/usr/local/bin/flatc", "genomad": "/usr/local/bin/genomad", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "prodigal-gv": "/usr/local/bin/prodigal-gv", "rich-click": "/usr/local/bin/rich-click", "aec": "/usr/local/bin/aec", "mmseqs": "/usr/local/bin/mmseqs", "xgboost": "/usr/local/bin/xgboost", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aragorn": "/usr/local/bin/aragorn", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomad.
@@ -73,7 +75,7 @@ $ shpc install quay.io/biocontainers/genomad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomad:1.9.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/genomad:1.11.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomad/1.9.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/genomad/1.9.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/genomad/1.11.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/genomad/1.11.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

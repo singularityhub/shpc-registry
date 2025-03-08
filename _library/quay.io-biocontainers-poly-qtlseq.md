@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/poly-qtlseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poly-qtlseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poly-qtlseq/container.yaml"
-updated_at: "2025-03-07 03:40:57.777549"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2025-03-08 03:12:58.489573"
+latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/poly-qtlseq"
 aliases:
  - "pcre2posix_test"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.1--hdfd78af_0"
+ - "1.0.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for poly-qtlseq"
-config: {"url": "https://biocontainers.pro/tools/poly-qtlseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poly-qtlseq", "latest": {"1.0.1--hdfd78af_0": "sha256:0d3530350a30279e3c76acb238dc460dfac97de6c2647cc319e222ed863d9b52"}, "tags": {"1.0.0--hdfd78af_0": "sha256:3578f9f1a064e754e143dd5dddd72aabe472333292801badf5e1607d4fddb7ec", "1.0.1--hdfd78af_0": "sha256:0d3530350a30279e3c76acb238dc460dfac97de6c2647cc319e222ed863d9b52"}, "docker": "quay.io/biocontainers/poly-qtlseq", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "polyQtlseq": "/usr/local/bin/polyQtlseq", "jwebserver": "/usr/local/bin/jwebserver", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "snpEff": "/usr/local/bin/snpEff", "fastp": "/usr/local/bin/fastp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "igzip": "/usr/local/bin/igzip", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools"}}
+config: {"url": "https://biocontainers.pro/tools/poly-qtlseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poly-qtlseq", "latest": {"1.0.2--hdfd78af_0": "sha256:74641383fd3f6e383c428d512a850181e7bf033f71568bd553d9c8d2b393182e"}, "tags": {"1.0.0--hdfd78af_0": "sha256:3578f9f1a064e754e143dd5dddd72aabe472333292801badf5e1607d4fddb7ec", "1.0.1--hdfd78af_0": "sha256:0d3530350a30279e3c76acb238dc460dfac97de6c2647cc319e222ed863d9b52", "1.0.2--hdfd78af_0": "sha256:74641383fd3f6e383c428d512a850181e7bf033f71568bd553d9c8d2b393182e"}, "docker": "quay.io/biocontainers/poly-qtlseq", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "polyQtlseq": "/usr/local/bin/polyQtlseq", "jwebserver": "/usr/local/bin/jwebserver", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "snpEff": "/usr/local/bin/snpEff", "fastp": "/usr/local/bin/fastp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "igzip": "/usr/local/bin/igzip", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poly-qtlseq.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/poly-qtlseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poly-qtlseq:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/poly-qtlseq:1.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poly-qtlseq/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/poly-qtlseq/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/poly-qtlseq/1.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/poly-qtlseq/1.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

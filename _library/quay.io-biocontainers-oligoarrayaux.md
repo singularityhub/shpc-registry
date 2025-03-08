@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oligoarrayaux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
-updated_at: "2025-03-07 03:18:48.898962"
-latest: "3.8--hc9558a2_0"
+updated_at: "2025-03-08 02:51:22.487063"
+latest: "3.8.1--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/oligoarrayaux"
 aliases:
  - "ct-energy"
@@ -17,8 +17,9 @@ aliases:
  - "ss-count.pl"
 versions:
  - "3.8--hc9558a2_0"
+ - "3.8.1--pl5321h9948957_0"
 description: "shpc-registry automated BioContainers addition for oligoarrayaux"
-config: {"url": "https://biocontainers.pro/tools/oligoarrayaux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligoarrayaux", "latest": {"3.8--hc9558a2_0": "sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d"}, "tags": {"3.8--hc9558a2_0": "sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d"}, "docker": "quay.io/biocontainers/oligoarrayaux", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "melt.pl": "/usr/local/bin/melt.pl", "ss-count.pl": "/usr/local/bin/ss-count.pl"}}
+config: {"url": "https://biocontainers.pro/tools/oligoarrayaux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligoarrayaux", "latest": {"3.8.1--pl5321h9948957_0": "sha256:4122e42595e6ef0a8c5f69fae99eb9bdaddfaa770367418e2b609b25398b2d4c"}, "tags": {"3.8--hc9558a2_0": "sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d", "3.8.1--pl5321h9948957_0": "sha256:4122e42595e6ef0a8c5f69fae99eb9bdaddfaa770367418e2b609b25398b2d4c"}, "docker": "quay.io/biocontainers/oligoarrayaux", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "melt.pl": "/usr/local/bin/melt.pl", "ss-count.pl": "/usr/local/bin/ss-count.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oligoarrayaux.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/oligoarrayaux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oligoarrayaux:3.8--hc9558a2_0
+$ shpc install quay.io/biocontainers/oligoarrayaux:3.8.1--pl5321h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oligoarrayaux/3.8--hc9558a2_0
-$ module help quay.io/biocontainers/oligoarrayaux/3.8--hc9558a2_0
+$ module load quay.io/biocontainers/oligoarrayaux/3.8.1--pl5321h9948957_0
+$ module help quay.io/biocontainers/oligoarrayaux/3.8.1--pl5321h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

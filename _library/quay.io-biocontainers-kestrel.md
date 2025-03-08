@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kestrel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kestrel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kestrel/container.yaml"
-updated_at: "2025-03-07 03:29:53.441896"
+updated_at: "2025-03-08 03:02:06.609566"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kestrel"
 aliases:

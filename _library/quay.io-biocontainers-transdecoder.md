@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transdecoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transdecoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transdecoder/container.yaml"
-updated_at: "2025-03-07 03:17:17.238147"
-latest: "5.7.1--pl5321hdfd78af_0"
+updated_at: "2025-03-08 02:49:53.842253"
+latest: "5.7.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/transdecoder"
 aliases:
  - "TransDecoder.LongOrfs"
@@ -50,8 +50,9 @@ versions:
  - "5.5.0--pl5321hdfd78af_5"
  - "5.7.0--pl5321hdfd78af_0"
  - "5.7.1--pl5321hdfd78af_0"
+ - "5.7.1--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for transdecoder"
-config: {"url": "https://biocontainers.pro/tools/transdecoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transdecoder", "latest": {"5.7.1--pl5321hdfd78af_0": "sha256:70c91d42ce5e7b76e8b836f6513cc688fdd997bb4965564d394aa20320de9a2a"}, "tags": {"5.5.0--pl5321hdfd78af_5": "sha256:d4f30461a2ebf0208c5fd186bd75a447b1b86f8c1672d296e6ad7217e3ac8cc9", "5.7.0--pl5321hdfd78af_0": "sha256:6763367def2ce6febcda46d87bd64f6281543151fd36c5c26f5e99e47ebe0a07", "5.7.1--pl5321hdfd78af_0": "sha256:70c91d42ce5e7b76e8b836f6513cc688fdd997bb4965564d394aa20320de9a2a"}, "docker": "quay.io/biocontainers/transdecoder", "aliases": {"TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "db_convert": "/usr/local/bin/db_convert", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
+config: {"url": "https://biocontainers.pro/tools/transdecoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transdecoder", "latest": {"5.7.1--pl5321hdfd78af_1": "sha256:c3e6987b8dc82fa5134861d9f5d2c8e8590a5b0fefc15e68e9f320d9b8df6395"}, "tags": {"5.5.0--pl5321hdfd78af_5": "sha256:d4f30461a2ebf0208c5fd186bd75a447b1b86f8c1672d296e6ad7217e3ac8cc9", "5.7.0--pl5321hdfd78af_0": "sha256:6763367def2ce6febcda46d87bd64f6281543151fd36c5c26f5e99e47ebe0a07", "5.7.1--pl5321hdfd78af_0": "sha256:70c91d42ce5e7b76e8b836f6513cc688fdd997bb4965564d394aa20320de9a2a", "5.7.1--pl5321hdfd78af_1": "sha256:c3e6987b8dc82fa5134861d9f5d2c8e8590a5b0fefc15e68e9f320d9b8df6395"}, "docker": "quay.io/biocontainers/transdecoder", "aliases": {"TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "db_convert": "/usr/local/bin/db_convert", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transdecoder.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/transdecoder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transdecoder:5.7.1--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/transdecoder:5.7.1--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transdecoder/5.7.1--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/transdecoder/5.7.1--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/transdecoder/5.7.1--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/transdecoder/5.7.1--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

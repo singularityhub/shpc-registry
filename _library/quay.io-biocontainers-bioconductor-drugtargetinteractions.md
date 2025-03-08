@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drugtargetinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugtargetinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugtargetinteractions/container.yaml"
-updated_at: "2025-03-07 03:26:55.082853"
+updated_at: "2025-03-08 02:59:13.926487"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugtargetinteractions"
 

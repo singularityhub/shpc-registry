@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghostz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostz/container.yaml"
-updated_at: "2025-03-07 03:38:54.603010"
+updated_at: "2025-03-08 03:10:58.782174"
 latest: "1.0.2--h503566f_6"
 container_url: "https://biocontainers.pro/tools/ghostz"
 aliases:
