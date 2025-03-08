@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pronto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pronto
 latest:
-  2.5.8--pyhdfd78af_0: sha256:663c54be2ab9f47cbb0f6e3634a5bb04bea4252128a0414eeb0bed29599cea5f
+  2.6.0--pyhdfd78af_0: sha256:20dc2082630b2e5aa99085b39a9373e69efbaf7668be49a2ed4e8cbadb68e9c6
 tags:
   2.5.1--pyhdfd78af_0: sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6
   2.5.2--pyhdfd78af_0: sha256:6a403584a79512fb0a02c2cbe7eb548531164ee5f35cb6371c7ab10e4bafed96
@@ -12,6 +12,7 @@ tags:
   2.5.6--pyhdfd78af_0: sha256:9b171a0697ccede6209a936eee1953f60533e37903201e44b1611c0c21b2c58d
   2.5.7--pyhdfd78af_0: sha256:799e2450a7d9f9bb153d8e0e6be50e2788aacc30525ff311ed7f34acb72438c9
   2.5.8--pyhdfd78af_0: sha256:663c54be2ab9f47cbb0f6e3634a5bb04bea4252128a0414eeb0bed29599cea5f
+  2.6.0--pyhdfd78af_0: sha256:20dc2082630b2e5aa99085b39a9373e69efbaf7668be49a2ed4e8cbadb68e9c6
 docker: quay.io/biocontainers/pronto
 aliases:
   x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld

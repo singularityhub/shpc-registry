@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/oases
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oases
 latest:
-  0.2.09--h470a237_1: sha256:96e796304daf5b4f5c9a6d66468df1ea1bea3023d9363e5859fcc988164932eb
+  0.2.09--h7b50bb2_2: sha256:d229f1f52e32c99eaf4f0fd3159e0f8028ee9bb11cffd41f9d41382226d7df3d
 tags:
   0.2.09--h470a237_1: sha256:96e796304daf5b4f5c9a6d66468df1ea1bea3023d9363e5859fcc988164932eb
+  0.2.09--h7b50bb2_2: sha256:d229f1f52e32c99eaf4f0fd3159e0f8028ee9bb11cffd41f9d41382226d7df3d
 docker: quay.io/biocontainers/oases
 aliases:
   oases: /usr/local/bin/oases

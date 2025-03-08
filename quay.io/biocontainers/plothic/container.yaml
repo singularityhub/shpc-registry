@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/plothic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plothic
 latest:
-  0.4.18--pyh684dba6_0: sha256:7184591be9d212fc2fbcdb5130a170b799a75f66d72815271057feaf740d0a9c
+  0.5.0--pyh5707d69_0: sha256:01e8aaf4af37cd1e0fe08aa66ab7d0984f9fd0944000b63da2955ad84e9a17f7
 tags:
   0.4.17--pyh684dba6_0: sha256:139be0151ff624e6735a2c9c1c610baf0da19a9a9dfb73ef2e5518195cab5a64
   0.4.18--pyh684dba6_0: sha256:7184591be9d212fc2fbcdb5130a170b799a75f66d72815271057feaf740d0a9c
+  0.5.0--pyh5707d69_0: sha256:01e8aaf4af37cd1e0fe08aa66ab7d0984f9fd0944000b63da2955ad84e9a17f7
+  0.4.19--pyh684dba6_0: sha256:491051390d72ee9f0ebe73c5a21a803afe2b23a8b71ef97f6d7db38fcc7854c1
 docker: quay.io/biocontainers/plothic
 aliases:
   plothic: /usr/local/bin/plothic

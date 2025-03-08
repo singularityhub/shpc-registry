@@ -8,8 +8,7 @@ filter:
 - ^(?!.*nano).*$
 - ^(?!.*windows).*$
 latest:
-  8.0-rc: 'crane digest mongo:8.0-rc: TOOMANYREQUESTS: You have reached your pull
-    rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
+  8.0-rc: sha256:a58f160bc96d26b48a88142019cf3d4f8eb733d9c6e8cd8558c0d18a23ba9ccb
 tags:
   4.4.5-bionic: sha256:cc8bb8711114fa726ca641f5644791d3d43bdd2c95dac541a5fa2c90a2e6e972
   4.4.6-bionic: sha256:3d0e6df9fd5bc42cbf8ef8bc9e6c4e78f6f26c7157dbd7bdec72d202ab8ebe3a
@@ -19,36 +18,21 @@ tags:
   5.0.3: sha256:4088649f737cf704deaf350ccd5ad8045552c5a0f8a5a2e81c1c23e280db2d80
   5.0.4: sha256:cf9f5df5419319390cc3b5d9abfc2d0d0b149b3e04a6c9936990129e3e29b579
   5.0.5: sha256:079089900e9511a782a59a4276046835189720eb668088869d147d1145cebe14
-  5.0.6: 'crane digest mongo:5.0.6: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  latest: 'crane digest mongo:latest: TOOMANYREQUESTS: You have reached your pull
-    rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '5': 'crane digest mongo:5: TOOMANYREQUESTS: You have reached your pull rate limit.
-    You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '5.0': 'crane digest mongo:5.0: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '4': 'crane digest mongo:4: TOOMANYREQUESTS: You have reached your pull rate limit.
-    You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  4.9-rc: 'crane digest mongo:4.9-rc: TOOMANYREQUESTS: You have reached your pull
-    rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '4.4': 'crane digest mongo:4.4: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '6': 'crane digest mongo:6: TOOMANYREQUESTS: You have reached your pull rate limit.
-    You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '6.0': 'crane digest mongo:6.0: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  7.0-rc: 'crane digest mongo:7.0-rc: TOOMANYREQUESTS: You have reached your pull
-    rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '7': 'crane digest mongo:7: TOOMANYREQUESTS: You have reached your pull rate limit.
-    You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '7.0': 'crane digest mongo:7.0: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  8.0-rc: 'crane digest mongo:8.0-rc: TOOMANYREQUESTS: You have reached your pull
-    rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '8': 'crane digest mongo:8: TOOMANYREQUESTS: You have reached your pull rate limit.
-    You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
-  '8.0': 'crane digest mongo:8.0: TOOMANYREQUESTS: You have reached your pull rate
-    limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit'
+  5.0.6: sha256:fed6248ae0bb0d54c0448eb786c87120737eedc522172ee1536ad47789782348
+  latest: sha256:f6164e498dbaee3966031c1ced1bfa0fd1c4961151b38a770fa6994f4b0dcae7
+  '5': sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495
+  '5.0': sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495
+  '4': sha256:52c42cbab240b3c5b1748582cc13ef46d521ddacae002bbbda645cebed270ec0
+  4.9-rc: sha256:36b78340b10ff47a37428cae7481caf894db191bd2fdebe1834f3b0328d48320
+  '4.4': sha256:52c42cbab240b3c5b1748582cc13ef46d521ddacae002bbbda645cebed270ec0
+  '6': sha256:453e114d98c392b929706b84f56d5f7996704826fcc84ce0c6d4a34c247f46b4
+  '6.0': sha256:453e114d98c392b929706b84f56d5f7996704826fcc84ce0c6d4a34c247f46b4
+  7.0-rc: sha256:c3ba417742494c631a5c630dc9a6c82de7e5da8b7a3b2db1fc44847e2bee52c7
+  '7': sha256:ccac38202342a813cf0bc4568ff6e4a2cf9e59f5ffadb44f6a48028fc88665cd
+  '7.0': sha256:ccac38202342a813cf0bc4568ff6e4a2cf9e59f5ffadb44f6a48028fc88665cd
+  8.0-rc: sha256:a58f160bc96d26b48a88142019cf3d4f8eb733d9c6e8cd8558c0d18a23ba9ccb
+  '8': sha256:f6164e498dbaee3966031c1ced1bfa0fd1c4961151b38a770fa6994f4b0dcae7
+  '8.0': sha256:f6164e498dbaee3966031c1ced1bfa0fd1c4961151b38a770fa6994f4b0dcae7
 aliases:
   mongo: /usr/bin/mongo
   mongod: /usr/bin/mongod

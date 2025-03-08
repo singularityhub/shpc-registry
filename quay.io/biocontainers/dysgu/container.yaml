@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dysgu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dysgu
 latest:
-  1.7.0--py310h0b8f69d_1: sha256:52963a73f9a0b2a73936bfa609b659c023b9fc92b662c8afd94ef4adfb8ff7d1
+  1.8.0--py311h72a6ae7_0: sha256:4da6ae29afef762bbd3276ec8f1f3d328d2a73e5590e1ed8a6e9707712f93fab
 tags:
   1.3.16--py310h0de0465_0: sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894
   1.4.0--py310h770aed0_0: sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c
@@ -15,6 +15,7 @@ tags:
   1.6.6--py39h0c37024_0: sha256:d7b99232d18fdab51bf37fc85bbfa4ca49ca6f4651b045483af99374815bb8bd
   1.6.7--py38hbf64fdb_0: sha256:29a6f39018a6933fb1352a55ec1eafcd3ff4bdae85e2823d624645d46c1b2a75
   1.7.0--py310h0b8f69d_1: sha256:52963a73f9a0b2a73936bfa609b659c023b9fc92b662c8afd94ef4adfb8ff7d1
+  1.8.0--py311h72a6ae7_0: sha256:4da6ae29afef762bbd3276ec8f1f3d328d2a73e5590e1ed8a6e9707712f93fab
 docker: quay.io/biocontainers/dysgu
 aliases:
   dysgu: /usr/local/bin/dysgu
