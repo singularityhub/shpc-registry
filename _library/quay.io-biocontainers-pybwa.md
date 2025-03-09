@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybwa/container.yaml"
-updated_at: "2025-03-08 03:17:17.385299"
-latest: "1.4.6--py312h4711d71_0"
+updated_at: "2025-03-09 03:19:37.350603"
+latest: "1.4.7--py39h0699b22_0"
 container_url: "https://biocontainers.pro/tools/pybwa"
 aliases:
  - "py.test"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.4.3--py310h397c9d8_0"
  - "1.4.6--py312h4711d71_0"
+ - "1.4.7--py39h0699b22_0"
 description: "singularity registry hpc automated addition for pybwa"
-config: {"url": "https://biocontainers.pro/tools/pybwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybwa", "latest": {"1.4.6--py312h4711d71_0": "sha256:ddb510356dec4cea4801d66c1bc61c13e1637c6437ccc4768c38c6708cb5b862"}, "tags": {"1.4.3--py310h397c9d8_0": "sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173", "1.4.6--py312h4711d71_0": "sha256:ddb510356dec4cea4801d66c1bc61c13e1637c6437ccc4768c38c6708cb5b862"}, "docker": "quay.io/biocontainers/pybwa", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybwa", "latest": {"1.4.7--py39h0699b22_0": "sha256:bdfe598f35528578f11a908cf83873254cdf0256df6ab0ad2364b9f3a548d285"}, "tags": {"1.4.3--py310h397c9d8_0": "sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173", "1.4.6--py312h4711d71_0": "sha256:ddb510356dec4cea4801d66c1bc61c13e1637c6437ccc4768c38c6708cb5b862", "1.4.7--py39h0699b22_0": "sha256:bdfe598f35528578f11a908cf83873254cdf0256df6ab0ad2364b9f3a548d285"}, "docker": "quay.io/biocontainers/pybwa", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybwa.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/pybwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybwa:1.4.6--py312h4711d71_0
+$ shpc install quay.io/biocontainers/pybwa:1.4.7--py39h0699b22_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybwa/1.4.6--py312h4711d71_0
-$ module help quay.io/biocontainers/pybwa/1.4.6--py312h4711d71_0
+$ module load quay.io/biocontainers/pybwa/1.4.7--py39h0699b22_0
+$ module help quay.io/biocontainers/pybwa/1.4.7--py39h0699b22_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

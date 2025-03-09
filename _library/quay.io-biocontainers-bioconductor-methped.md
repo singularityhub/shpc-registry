@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methped"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methped/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methped/container.yaml"
-updated_at: "2025-03-08 02:57:28.774970"
+updated_at: "2025-03-09 03:00:42.870423"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methped"
 aliases:

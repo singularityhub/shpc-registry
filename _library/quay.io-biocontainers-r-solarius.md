@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-solarius"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-solarius/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-solarius/container.yaml"
-updated_at: "2025-03-08 02:31:21.741040"
+updated_at: "2025-03-09 02:35:23.096174"
 latest: "0.3.0.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-solarius"
 aliases:

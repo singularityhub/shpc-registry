@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/howdesbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/howdesbt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/howdesbt/container.yaml"
-updated_at: "2025-03-08 03:17:59.708687"
+updated_at: "2025-03-09 03:20:17.455168"
 latest: "2.00.15--h9948957_1"
 container_url: "https://biocontainers.pro/tools/howdesbt"
 aliases:

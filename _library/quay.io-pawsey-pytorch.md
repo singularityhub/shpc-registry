@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/pytorch/container.yaml"
-updated_at: "2025-03-08 02:30:03.665283"
+updated_at: "2025-03-09 02:34:07.054558"
 latest: "2.6.0-rocm6.2.2"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "2.1.0-rocm5.6.0"
  - "2.2.0-rocm5.7.3"
 description: "Pawsey build of PyTorch for AMD GPUs."
-config: {"docker": "quay.io/pawsey/pytorch", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of PyTorch for AMD GPUs.", "latest": {"2.6.0-rocm6.2.2": "sha256:b26852c932f2a26fe9ab8d42e6bf1ac69b34fc1b69221c265b549b08f700e62b"}, "tags": {"2.6.0-rocm6.2.2": "sha256:b26852c932f2a26fe9ab8d42e6bf1ac69b34fc1b69221c265b549b08f700e62b", "2.2.0-rocm5.6.0": "sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff", "2.1.2-rocm5.6.0": "sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073", "2.1.0-rocm5.6.0": "sha256:3dbe6711f170d409cba0e25577859799e97eccb80c3d1b8b6df5bd6cf8c0aea6", "2.2.0-rocm5.7.3": "sha256:378f81d0c2cd1a85723bcad7ada4991d2a87bb5328199966e766031733b7dd8e"}}
+config: {"docker": "quay.io/pawsey/pytorch", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of PyTorch for AMD GPUs.", "latest": {"2.6.0-rocm6.2.2": "sha256:2438e1cee55c05f31fc015ef5ea87f4dde0e271ccd139cd5f866e40eea0ebe76"}, "tags": {"2.6.0-rocm6.2.2": "sha256:2438e1cee55c05f31fc015ef5ea87f4dde0e271ccd139cd5f866e40eea0ebe76", "2.2.0-rocm5.6.0": "sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff", "2.1.2-rocm5.6.0": "sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073", "2.1.0-rocm5.6.0": "sha256:3dbe6711f170d409cba0e25577859799e97eccb80c3d1b8b6df5bd6cf8c0aea6", "2.2.0-rocm5.7.3": "sha256:378f81d0c2cd1a85723bcad7ada4991d2a87bb5328199966e766031733b7dd8e"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/pytorch.
