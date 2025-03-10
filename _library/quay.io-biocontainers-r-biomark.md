@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biomark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biomark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biomark/container.yaml"
-updated_at: "2025-03-09 02:43:11.663640"
+updated_at: "2025-03-10 02:44:11.773997"
 latest: "0.4.5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-biomark"
 aliases:

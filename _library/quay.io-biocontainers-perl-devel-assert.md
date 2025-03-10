@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-assert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-assert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-assert/container.yaml"
-updated_at: "2025-03-09 02:53:17.316478"
+updated_at: "2025-03-10 02:54:33.731592"
 latest: "1.06--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-devel-assert"
 aliases:

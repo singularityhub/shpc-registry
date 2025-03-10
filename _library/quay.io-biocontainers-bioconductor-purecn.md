@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-purecn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-purecn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-purecn/container.yaml"
-updated_at: "2025-03-09 02:52:33.095685"
+updated_at: "2025-03-10 02:53:48.367623"
 latest: "2.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-purecn"
 

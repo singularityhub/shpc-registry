@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hu6800probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hu6800probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hu6800probe/container.yaml"
-updated_at: "2025-03-09 03:00:15.730414"
+updated_at: "2025-03-10 03:01:43.648239"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-hu6800probe"
 

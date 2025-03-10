@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bracken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bracken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bracken/container.yaml"
-updated_at: "2025-03-09 03:05:10.202830"
-latest: "3.0--h9948957_2"
+updated_at: "2025-03-10 03:06:46.087271"
+latest: "3.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/bracken"
 aliases:
  - "bracken"
@@ -37,8 +37,9 @@ versions:
  - "3.0--h4ac6f70_0"
  - "3.0--h4ac6f70_1"
  - "3.0--h9948957_2"
+ - "3.1--h9948957_0"
 description: "shpc-registry automated BioContainers addition for bracken"
-config: {"url": "https://biocontainers.pro/tools/bracken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bracken", "latest": {"3.0--h9948957_2": "sha256:f06dc0824995511315370480fafcc9bcd854ac19bcf06a3d860de80fe1a2de12"}, "tags": {"2.6.2--py39hc16433a_0": "sha256:d9f1cf7dc3630e00bb4689532b94db774cdf0c0855ac5a9c8c85a8f4301bc237", "2.9--py39h1f90b4d_0": "sha256:4451c195fd98e803a73e3a10827535524647be8467cd6529e2f59c4995dfa560", "2.8--py310h0dbaff4_1": "sha256:a90025a7544dce6e41e6a680bd1364ea10594a456933cc520d19ab975436ec3f", "2.7--py310h30d9df9_0": "sha256:d274711096f8d9016885ad9aaaf2502c5b56f307d2a74018c981309ea8a1e1c7", "2.6.2--py27hc30c61c_0": "sha256:19ed676ef28c3c07f17eb05fc276b500fdcb698adae68b73b76498907f13a7fb", "2.9--py39h9e0f934_1": "sha256:28c5e130df2865a8fdab760cf8ee98ba4a38f1900dea7080a9ee1cbdae8c85af", "3.0--h4ac6f70_0": "sha256:580b86e6b0f9c13b3837640643c0537121c5f20f5e3896f1cb847ec8df1ad343", "3.0--h4ac6f70_1": "sha256:47c798fe37add6ae5ac88bdaf7f3df362d0deaf13b0503a15be798c067d82a1a", "3.0--h9948957_2": "sha256:f06dc0824995511315370480fafcc9bcd854ac19bcf06a3d860de80fe1a2de12"}, "docker": "quay.io/biocontainers/bracken", "aliases": {"bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "est_abundance.py": "/usr/local/bin/est_abundance.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
+config: {"url": "https://biocontainers.pro/tools/bracken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bracken", "latest": {"3.1--h9948957_0": "sha256:a951fb8ecb7aa9301513a96b87981aecb878aa798d0c3f0af476b3cbedd2f856"}, "tags": {"2.6.2--py39hc16433a_0": "sha256:d9f1cf7dc3630e00bb4689532b94db774cdf0c0855ac5a9c8c85a8f4301bc237", "2.9--py39h1f90b4d_0": "sha256:4451c195fd98e803a73e3a10827535524647be8467cd6529e2f59c4995dfa560", "2.8--py310h0dbaff4_1": "sha256:a90025a7544dce6e41e6a680bd1364ea10594a456933cc520d19ab975436ec3f", "2.7--py310h30d9df9_0": "sha256:d274711096f8d9016885ad9aaaf2502c5b56f307d2a74018c981309ea8a1e1c7", "2.6.2--py27hc30c61c_0": "sha256:19ed676ef28c3c07f17eb05fc276b500fdcb698adae68b73b76498907f13a7fb", "2.9--py39h9e0f934_1": "sha256:28c5e130df2865a8fdab760cf8ee98ba4a38f1900dea7080a9ee1cbdae8c85af", "3.0--h4ac6f70_0": "sha256:580b86e6b0f9c13b3837640643c0537121c5f20f5e3896f1cb847ec8df1ad343", "3.0--h4ac6f70_1": "sha256:47c798fe37add6ae5ac88bdaf7f3df362d0deaf13b0503a15be798c067d82a1a", "3.0--h9948957_2": "sha256:f06dc0824995511315370480fafcc9bcd854ac19bcf06a3d860de80fe1a2de12", "3.1--h9948957_0": "sha256:a951fb8ecb7aa9301513a96b87981aecb878aa798d0c3f0af476b3cbedd2f856"}, "docker": "quay.io/biocontainers/bracken", "aliases": {"bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "est_abundance.py": "/usr/local/bin/est_abundance.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bracken.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bracken
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bracken:3.0--h9948957_2
+$ shpc install quay.io/biocontainers/bracken:3.1--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bracken/3.0--h9948957_2
-$ module help quay.io/biocontainers/bracken/3.0--h9948957_2
+$ module load quay.io/biocontainers/bracken/3.1--h9948957_0
+$ module help quay.io/biocontainers/bracken/3.1--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
