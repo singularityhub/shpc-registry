@@ -9,7 +9,7 @@ filter:
 - ^(?!.*nanoserver).*$
 - ^(?!.*oracle).*$
 latest:
-  '25': sha256:0f92caffa2857c4a88979c3fa5878d0c14bdceaa2e45f3742fa0d0a12cffbcf1
+  '25': sha256:6406d5d55d277e8036cb24d277d3def100b71de5d62fe20b7bb30b7f17b434e1
 tags:
   16.0.1-buster: sha256:61f3786a28ed911028f8e7e3b65a57a8a9ed04067d137317d369c9b3bc11b289
   16.0.2: sha256:bb68f084c2000c8532b1675ca7034f3922f4aa10e9c7126d29551c0ffd6dee8f
@@ -26,9 +26,9 @@ tags:
   '20': sha256:cbf26a2c1a9c347a907a5ceb2edad13dc0e9cc22464cef5861ac6d278e730322
   '21': sha256:af9de795d1f8d3b6172f6c55ca9ba1c5768baa11bb2dc8af7045c7db9d4c33ac
   '22': sha256:b7d44427f4622d3f6b9a60583e5218ecfa8b4e44f3e01dfd0d9b7d7abba31c9a
-  '24': sha256:d7442e280e3b53342fad7f6f27149d893ecfb7945f7e517118f11acf6efc5104
+  '24': sha256:c05dfad95e78c8cc4687283c0cd00b46f0bb14fcbbceaeab1b91c23595a077fb
   '23': sha256:fd0f3721ad4abbfe393ac1a2672abf4b7f53b5ecd9803a4e2444aa3acd7d398e
-  '25': sha256:0f92caffa2857c4a88979c3fa5878d0c14bdceaa2e45f3742fa0d0a12cffbcf1
+  '25': sha256:6406d5d55d277e8036cb24d277d3def100b71de5d62fe20b7bb30b7f17b434e1
 aliases:
   jar: /usr/bin/jar
   jarsigner: /usr/bin/jarsigner

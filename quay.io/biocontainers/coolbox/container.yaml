@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coolbox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coolbox
 latest:
-  0.3.8--pyhdfd78af_0: sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde
+  0.3.9--pyhdfd78af_0: sha256:5f1c551a13ea50faa72da5cb8988b5176a3be41bd262d302769e005ab9ffa603
 tags:
   0.3.8--pyhdfd78af_0: sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde
+  0.3.9--pyhdfd78af_0: sha256:5f1c551a13ea50faa72da5cb8988b5176a3be41bd262d302769e005ab9ffa603
 docker: quay.io/biocontainers/coolbox
 aliases:
   coolbox: /usr/local/bin/coolbox

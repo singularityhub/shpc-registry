@@ -16,6 +16,7 @@ tags:
   1.13.0--r43h21a89ab_0: sha256:ac8c391221f41a988f1d092c42b2a445851e0b5d8cb9bf8674e92e4c359a0912
   1.14.0--r43h21a89ab_0: sha256:5bb00a5f5046a2b33eb5a2192f3f60069be76e42a361917595d597215359ce5c
   1.14.0--r44he56ddfa_1: sha256:8a29fc8ca752c3b6ceb0eab965d0e472f5f739ee5fbd71a056a63e2ecc8d2f85
+  1.13.0--r44he56ddfa_1: sha256:eaaa8b337d1dc716513689d2b7679f4a3c948d8c98df58185bd135b87f534599
 docker: quay.io/biocontainers/r-signac
 aliases:
   geosop: /usr/local/bin/geosop

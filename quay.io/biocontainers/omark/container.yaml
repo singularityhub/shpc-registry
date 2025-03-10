@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/omark
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for omark
 latest:
-  0.3.0--pyh7cba7a3_0: sha256:64c6a0e8b03869b354217112455d94350bff23dab956e50a6be73e606032a882
+  0.3.1--pyh7e72e81_0: sha256:e0e3a5d89860fbaa6e305c7e76f3aa121a820d52d11111dea3b732960b6e354d
 tags:
   0.3.0--pyh7cba7a3_0: sha256:64c6a0e8b03869b354217112455d94350bff23dab956e50a6be73e606032a882
+  0.3.1--pyh7e72e81_0: sha256:e0e3a5d89860fbaa6e305c7e76f3aa121a820d52d11111dea3b732960b6e354d
 docker: quay.io/biocontainers/omark
 aliases:
   omamer: /usr/local/bin/omamer
