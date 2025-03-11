@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haplotaglr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplotaglr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplotaglr/container.yaml"
-updated_at: "2025-03-10 03:05:14.900994"
-latest: "1.1.9--pyhdfd78af_0"
+updated_at: "2025-03-11 03:27:40.197763"
+latest: "1.1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/haplotaglr"
 aliases:
  - "HaplotagLR"
@@ -34,8 +34,9 @@ versions:
  - "1.1.5--pyhdfd78af_0"
  - "1.1.7--pyhdfd78af_0"
  - "1.1.9--pyhdfd78af_0"
+ - "1.1.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for haplotaglr"
-config: {"url": "https://biocontainers.pro/tools/haplotaglr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplotaglr", "latest": {"1.1.9--pyhdfd78af_0": "sha256:27e5cf1c3ba68ec2ce1744cd31e0e979b42b19c415169d3afaddde283ab742be"}, "tags": {"1.1.4--pyhdfd78af_0": "sha256:46677901cc9c64e1883bb181f8c0b475e243efcd95ab4548d727dd96e9ea684d", "1.1.5--pyhdfd78af_0": "sha256:da3ce196089f4eee82f9f2863e3181510b2efe3807a9150044265a401b53b315", "1.1.7--pyhdfd78af_0": "sha256:b4661672314e0948db81fee22749337171d29a0c17417c9bdc678555ab1f08a7", "1.1.9--pyhdfd78af_0": "sha256:27e5cf1c3ba68ec2ce1744cd31e0e979b42b19c415169d3afaddde283ab742be"}, "docker": "quay.io/biocontainers/haplotaglr", "aliases": {"HaplotagLR": "/usr/local/bin/HaplotagLR", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/haplotaglr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplotaglr", "latest": {"1.1.10--pyhdfd78af_0": "sha256:abd54d7cb8cdf5cdbfe82fcd0739a530dd3773a7556da0cd279ad2641239f09a"}, "tags": {"1.1.4--pyhdfd78af_0": "sha256:46677901cc9c64e1883bb181f8c0b475e243efcd95ab4548d727dd96e9ea684d", "1.1.5--pyhdfd78af_0": "sha256:da3ce196089f4eee82f9f2863e3181510b2efe3807a9150044265a401b53b315", "1.1.7--pyhdfd78af_0": "sha256:b4661672314e0948db81fee22749337171d29a0c17417c9bdc678555ab1f08a7", "1.1.9--pyhdfd78af_0": "sha256:27e5cf1c3ba68ec2ce1744cd31e0e979b42b19c415169d3afaddde283ab742be", "1.1.10--pyhdfd78af_0": "sha256:abd54d7cb8cdf5cdbfe82fcd0739a530dd3773a7556da0cd279ad2641239f09a"}, "docker": "quay.io/biocontainers/haplotaglr", "aliases": {"HaplotagLR": "/usr/local/bin/HaplotagLR", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplotaglr.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/haplotaglr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haplotaglr:1.1.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/haplotaglr:1.1.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haplotaglr/1.1.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/haplotaglr/1.1.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/haplotaglr/1.1.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/haplotaglr/1.1.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

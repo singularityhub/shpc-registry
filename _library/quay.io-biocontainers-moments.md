@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/moments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moments/container.yaml"
-updated_at: "2025-03-10 02:56:52.712491"
-latest: "1.1.16--py38hf6cf242_4"
+updated_at: "2025-03-11 03:19:06.073079"
+latest: "1.3.1--py39hbcbf7aa_0"
 container_url: "https://biocontainers.pro/tools/moments"
 aliases:
  - "f2py3.8"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.1.5--py38h9af456f_0"
  - "1.1.16--py38hf6cf242_4"
+ - "1.3.1--py39hbcbf7aa_0"
 description: "shpc-registry automated BioContainers addition for moments"
-config: {"url": "https://biocontainers.pro/tools/moments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moments", "latest": {"1.1.16--py38hf6cf242_4": "sha256:7c71fb2ee05fec2d677a342fc871aa0568f4fcee6fb29240bcbb2c949f510a87"}, "tags": {"1.1.5--py38h9af456f_0": "sha256:6e5fe05c7146d9dd1c9f82c51428e21252136fe9d0af4e66749d954c2ebcc81a", "1.1.16--py38hf6cf242_4": "sha256:7c71fb2ee05fec2d677a342fc871aa0568f4fcee6fb29240bcbb2c949f510a87"}, "docker": "quay.io/biocontainers/moments", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/moments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moments", "latest": {"1.3.1--py39hbcbf7aa_0": "sha256:5a193f7124179ab168d870549f139a9d726d4e99eef858a10d007461b10f8a40"}, "tags": {"1.1.5--py38h9af456f_0": "sha256:6e5fe05c7146d9dd1c9f82c51428e21252136fe9d0af4e66749d954c2ebcc81a", "1.1.16--py38hf6cf242_4": "sha256:7c71fb2ee05fec2d677a342fc871aa0568f4fcee6fb29240bcbb2c949f510a87", "1.3.1--py39hbcbf7aa_0": "sha256:5a193f7124179ab168d870549f139a9d726d4e99eef858a10d007461b10f8a40"}, "docker": "quay.io/biocontainers/moments", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moments.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/moments
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/moments:1.1.16--py38hf6cf242_4
+$ shpc install quay.io/biocontainers/moments:1.3.1--py39hbcbf7aa_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/moments/1.1.16--py38hf6cf242_4
-$ module help quay.io/biocontainers/moments/1.1.16--py38hf6cf242_4
+$ module load quay.io/biocontainers/moments/1.3.1--py39hbcbf7aa_0
+$ module help quay.io/biocontainers/moments/1.3.1--py39hbcbf7aa_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

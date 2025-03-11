@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rust-gtars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-gtars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-gtars/container.yaml"
-updated_at: "2025-03-10 03:01:18.092698"
-latest: "0.2.0--h4349ce8_1"
+updated_at: "2025-03-11 03:23:40.593505"
+latest: "0.2.4--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/rust-gtars"
 aliases:
  - "gtars"
 versions:
  - "0.2.0--h4349ce8_1"
+ - "0.2.4--h4349ce8_0"
 description: "singularity registry hpc automated addition for rust-gtars"
-config: {"url": "https://biocontainers.pro/tools/rust-gtars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rust-gtars", "latest": {"0.2.0--h4349ce8_1": "sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7"}, "tags": {"0.2.0--h4349ce8_1": "sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7"}, "docker": "quay.io/biocontainers/rust-gtars", "aliases": {"gtars": "/usr/local/bin/gtars"}}
+config: {"url": "https://biocontainers.pro/tools/rust-gtars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rust-gtars", "latest": {"0.2.4--h4349ce8_0": "sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb"}, "tags": {"0.2.0--h4349ce8_1": "sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7", "0.2.4--h4349ce8_0": "sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb"}, "docker": "quay.io/biocontainers/rust-gtars", "aliases": {"gtars": "/usr/local/bin/gtars"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-gtars.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rust-gtars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rust-gtars:0.2.0--h4349ce8_1
+$ shpc install quay.io/biocontainers/rust-gtars:0.2.4--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rust-gtars/0.2.0--h4349ce8_1
-$ module help quay.io/biocontainers/rust-gtars/0.2.0--h4349ce8_1
+$ module load quay.io/biocontainers/rust-gtars/0.2.4--h4349ce8_0
+$ module help quay.io/biocontainers/rust-gtars/0.2.4--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
