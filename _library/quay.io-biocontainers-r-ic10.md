@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ic10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ic10/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ic10/container.yaml"
-updated_at: "2025-03-12 03:31:14.913841"
+updated_at: "2025-03-12 05:08:33.061131"
 latest: "2.0.2--r44h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-ic10"
 aliases:

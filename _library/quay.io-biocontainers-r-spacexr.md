@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-spacexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spacexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spacexr/container.yaml"
-updated_at: "2025-03-12 03:26:52.099803"
-latest: "2.2.1--r43hdfd78af_1"
+updated_at: "2025-03-12 05:04:15.027337"
+latest: "2.2.1--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-spacexr"
 aliases:
  - "pandoc-lua"
@@ -15,10 +15,9 @@ aliases:
  - "tjbench"
 versions:
  - "2.2.1--r43hdfd78af_0"
- - "2.2.1--r43hdfd78af_1"
  - "2.2.1--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for r-spacexr"
-config: {"url": "https://biocontainers.pro/tools/r-spacexr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-spacexr", "latest": {"2.2.1--r43hdfd78af_1": "crane digest quay.io/biocontainers/r-spacexr:2.2.1--r43hdfd78af_1: TAG_EXPIRED: Tag 2.2.1--r43hdfd78af_1 was deleted or has expired. To pull, revive via time machine; map[]"}, "tags": {"2.2.1--r43hdfd78af_0": "sha256:95a4352354088a3ea1f7983d97a3d264cbe083d3444713251ce49717f54ec83a", "2.2.1--r43hdfd78af_1": "crane digest quay.io/biocontainers/r-spacexr:2.2.1--r43hdfd78af_1: TAG_EXPIRED: Tag 2.2.1--r43hdfd78af_1 was deleted or has expired. To pull, revive via time machine; map[]", "2.2.1--r44hdfd78af_1": "sha256:8b56d5fc0d2501d043aa662d9c69dc03198bd2d94a201401a7facadf42ab3a65"}, "docker": "quay.io/biocontainers/r-spacexr", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-spacexr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-spacexr", "latest": {"2.2.1--r44hdfd78af_1": "sha256:8b56d5fc0d2501d043aa662d9c69dc03198bd2d94a201401a7facadf42ab3a65"}, "tags": {"2.2.1--r43hdfd78af_0": "sha256:95a4352354088a3ea1f7983d97a3d264cbe083d3444713251ce49717f54ec83a", "2.2.1--r44hdfd78af_1": "sha256:8b56d5fc0d2501d043aa662d9c69dc03198bd2d94a201401a7facadf42ab3a65"}, "docker": "quay.io/biocontainers/r-spacexr", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spacexr.
@@ -33,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-spacexr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-spacexr:2.2.1--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/r-spacexr:2.2.1--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-spacexr/2.2.1--r43hdfd78af_1
-$ module help quay.io/biocontainers/r-spacexr/2.2.1--r43hdfd78af_1
+$ module load quay.io/biocontainers/r-spacexr/2.2.1--r44hdfd78af_1
+$ module help quay.io/biocontainers/r-spacexr/2.2.1--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

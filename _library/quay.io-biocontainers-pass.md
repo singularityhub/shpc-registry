@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pass/container.yaml"
-updated_at: "2025-03-12 03:09:39.732877"
+updated_at: "2025-03-12 04:47:23.395324"
 latest: "0.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pass"
 aliases:

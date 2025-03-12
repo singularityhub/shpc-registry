@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhcflurry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcflurry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcflurry/container.yaml"
-updated_at: "2025-03-12 03:03:47.099917"
+updated_at: "2025-03-12 04:41:25.514129"
 latest: "2.1.4--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/mhcflurry"
 aliases:
