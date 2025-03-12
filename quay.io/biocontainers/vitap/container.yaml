@@ -6,6 +6,7 @@ latest:
 tags:
   1.5--pyh7e72e81_0: sha256:507c230b06028459c242790604f846e7dff693bbb255c0c725d317088424cc25
   1.7--pyh7e72e81_1: sha256:97c23e032e2f31bcf1eed0a87402e42b6dcf0bd9f384cb7c3b3ac320de222442
+  1.7.1--pyh7e72e81_0: sha256:cf875d69407809b5f8a2d77519d4d896e58e89afbd29937117df309639830bb8
 docker: quay.io/biocontainers/vitap
 aliases:
   VITAP: /usr/local/bin/VITAP

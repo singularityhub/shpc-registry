@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/consent
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for consent
 latest:
-  2.2.2--hdb21b49_4: sha256:488d44434201ff24fc96a31ab1406347479bf2db9e8fe6df1185b271a855fb43
+  2.2.2--h3452944_6: sha256:2aa415fa07d50d79043915351dfd846a78404ec7b3a73dc4368306446effebed
 tags:
   2.2.2--h5b5514e_2: sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940
   2.2.2--h5b5514e_3: sha256:e8aa2c4888e551e61964aa8e01f4056772c2cc93975e595e0ab87ede5bb8f75a
   2.2.2--hdb21b49_4: sha256:488d44434201ff24fc96a31ab1406347479bf2db9e8fe6df1185b271a855fb43
+  2.2.2--h3452944_6: sha256:2aa415fa07d50d79043915351dfd846a78404ec7b3a73dc4368306446effebed
 docker: quay.io/biocontainers/consent
 aliases:
   CONSENT-correct: /usr/local/bin/CONSENT-correct
