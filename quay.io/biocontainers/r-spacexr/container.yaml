@@ -2,14 +2,9 @@ url: https://biocontainers.pro/tools/r-spacexr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-spacexr
 latest:
-  2.2.1--r43hdfd78af_1: 'crane digest quay.io/biocontainers/r-spacexr:2.2.1--r43hdfd78af_1:
-    TAG_EXPIRED: Tag 2.2.1--r43hdfd78af_1 was deleted or has expired. To pull, revive
-    via time machine; map[]'
+  2.2.1--r44hdfd78af_1: sha256:8b56d5fc0d2501d043aa662d9c69dc03198bd2d94a201401a7facadf42ab3a65
 tags:
   2.2.1--r43hdfd78af_0: sha256:95a4352354088a3ea1f7983d97a3d264cbe083d3444713251ce49717f54ec83a
-  2.2.1--r43hdfd78af_1: 'crane digest quay.io/biocontainers/r-spacexr:2.2.1--r43hdfd78af_1:
-    TAG_EXPIRED: Tag 2.2.1--r43hdfd78af_1 was deleted or has expired. To pull, revive
-    via time machine; map[]'
   2.2.1--r44hdfd78af_1: sha256:8b56d5fc0d2501d043aa662d9c69dc03198bd2d94a201401a7facadf42ab3a65
 docker: quay.io/biocontainers/r-spacexr
 aliases:
