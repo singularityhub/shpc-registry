@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/radiantkit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for radiantkit
+latest:
+  0.1.0--pyhdfd78af_1: sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
+tags:
+  0.1.0--pyhdfd78af_1: sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
+docker: quay.io/biocontainers/radiantkit
+aliases:
+  czi2tif: /usr/local/bin/czi2tif
+  czifile: /usr/local/bin/czifile
+  radiantkit: /usr/local/bin/radiantkit
+  rav1e: /usr/local/bin/rav1e
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  markdown-it: /usr/local/bin/markdown-it
+  numpy-config: /usr/local/bin/numpy-config
+  pygmentize: /usr/local/bin/pygmentize
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench

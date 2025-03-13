@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/jacusa2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for jacusa2
+latest:
+  2.0.4--hdfd78af_0: sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
+tags:
+  2.0.4--hdfd78af_0: sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
+docker: quay.io/biocontainers/jacusa2
+aliases:
+  JACUSA2: /usr/local/bin/JACUSA2
+  clhsdb: /usr/local/bin/clhsdb
+  hsdb: /usr/local/bin/hsdb
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd
+  schemagen: /usr/local/bin/schemagen
+  servertool: /usr/local/bin/servertool
+  tnameserv: /usr/local/bin/tnameserv
+  wsgen: /usr/local/bin/wsgen
+  wsimport: /usr/local/bin/wsimport
+  xjc: /usr/local/bin/xjc
+  jfr: /usr/local/bin/jfr
+  jjs: /usr/local/bin/jjs
+  pack200: /usr/local/bin/pack200
+  rmic: /usr/local/bin/rmic
+  rmid: /usr/local/bin/rmid
+  unpack200: /usr/local/bin/unpack200
+  jdeps: /usr/local/bin/jdeps
