@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ionquant
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ionquant
 latest:
-  1.10.12--py312hdfd78af_1: sha256:a111127a3f1b95b0efa231d9f75d36817b9c71db99e7d87d44a0bfe32ec2b0d2
+  1.10.27--py313hdfd78af_0: sha256:cfdcd219e9724052b1fe959964130f2adeaa4c10eb84e86a2a463e9c386c8497
 tags:
   1.10.12--py312hdfd78af_0: sha256:d385dbf1032fa4d67ce1f9f67cc57761317d65123466f1f4a78f78e0e14b2383
   1.10.12--py312hdfd78af_1: sha256:a111127a3f1b95b0efa231d9f75d36817b9c71db99e7d87d44a0bfe32ec2b0d2
+  1.10.27--py313hdfd78af_0: sha256:cfdcd219e9724052b1fe959964130f2adeaa4c10eb84e86a2a463e9c386c8497
 docker: quay.io/biocontainers/ionquant
 aliases:
   ionquant: /usr/local/bin/ionquant

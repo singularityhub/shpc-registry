@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hackgap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hackgap
 latest:
-  1.0.0--pyhdfd78af_0: sha256:5aad88d8dfeb779e748cbd13eb451ae28fae6f583222279df2be14cce347e67f
+  1.0.1--pyhdfd78af_0: sha256:6d229822f643ad7035ffbbc52bff7ca9f0cbc0fd69733b7bdd415b24ea954f36
 tags:
   1.0.0--pyhdfd78af_0: sha256:5aad88d8dfeb779e748cbd13eb451ae28fae6f583222279df2be14cce347e67f
+  1.0.1--pyhdfd78af_0: sha256:6d229822f643ad7035ffbbc52bff7ca9f0cbc0fd69733b7bdd415b24ea954f36
 docker: quay.io/biocontainers/hackgap
 aliases:
   hackgap: /usr/local/bin/hackgap

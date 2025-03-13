@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/percolator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for percolator
 latest:
-  3.7.1--h6351f2a_0: sha256:9931ae0159b6176c6d38f64a7ef6d6d82899c44510487a053acc6cf0b76f8354
+  3.7.1--h3b5f4bd_2: sha256:4a1adac966b750d456068c44aac31dfcacf644460701d2345e18a6093060c2a3
 tags:
   3.5--hfd1433f_1: sha256:4ce8cd765f340f4fb6c0775a018326dd700953ac55cc1c7fe8c55da633c7d817
   3.6.5--h6351f2a_0: sha256:8e1282f46ef47d950605cc0be4797cedef4b2f70fe552519350d48510b6987af
   3.7.1--h6351f2a_0: sha256:9931ae0159b6176c6d38f64a7ef6d6d82899c44510487a053acc6cf0b76f8354
+  3.7.1--h3b5f4bd_2: sha256:4a1adac966b750d456068c44aac31dfcacf644460701d2345e18a6093060c2a3
 docker: quay.io/biocontainers/percolator
