@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-immunogenviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunogenviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunogenviewer/container.yaml"
-updated_at: "2025-03-13 03:08:48.997571"
+updated_at: "2025-03-13 04:45:42.351502"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunogenviewer"
 aliases:
