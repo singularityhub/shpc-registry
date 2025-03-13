@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylca/container.yaml"
-updated_at: "2025-03-12 05:15:50.613607"
+updated_at: "2025-03-13 03:40:06.827100"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/pylca"
 aliases:

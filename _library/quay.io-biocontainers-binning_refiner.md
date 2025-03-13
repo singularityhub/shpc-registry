@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binning_refiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binning_refiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binning_refiner/container.yaml"
-updated_at: "2025-03-12 05:05:12.900293"
+updated_at: "2025-03-13 03:29:30.823514"
 latest: "1.4.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/binning_refiner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dcc/container.yaml"
-updated_at: "2025-03-12 05:00:42.237065"
+updated_at: "2025-03-13 03:24:59.642734"
 latest: "0.5.0--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/dcc"
 aliases:

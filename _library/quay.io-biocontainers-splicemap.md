@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splicemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splicemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splicemap/container.yaml"
-updated_at: "2025-03-12 04:56:55.983533"
+updated_at: "2025-03-13 03:21:11.866333"
 latest: "3.3.5.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/splicemap"
 aliases:
