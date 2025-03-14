@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dxpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dxpy
 latest:
-  0.389.0--pyh7e72e81_0: sha256:8cd873934ca99a6b20662f8fe44c98d1bd71d533f32879ebc9e8a148d3671daa
+  0.392.0--pyhdfd78af_0: sha256:896434eddeaa721645923e796b6553eb4a2a20f1d0904dced051d0427b833194
 tags:
   0.318.1--pyh5e36f6f_0: sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca
   0.387.0--pyh7e72e81_0: sha256:87c7efdb358448801a8dc4ea1417f5b8b942ffb717416569b99bdd04ef420a88
@@ -12,6 +12,9 @@ tags:
   0.383.1--pyh7e72e81_0: sha256:29b1709d1d9289b551b869c86bbb42355bfd75cd1e611d1973b4faddbaefd14a
   0.389.0--pyh7e72e81_0: sha256:8cd873934ca99a6b20662f8fe44c98d1bd71d533f32879ebc9e8a148d3671daa
   0.388.0--pyh7e72e81_2: sha256:c91f3b22c8341691602827cf5d3ecebdee6585d86ac5f7ef387e55b20a446225
+  0.392.0--pyhdfd78af_0: sha256:896434eddeaa721645923e796b6553eb4a2a20f1d0904dced051d0427b833194
+  0.391.0--pyhdfd78af_0: sha256:26cad991e367e640d15151f3f504ad79cfdf1ac4320f9e4f9dd708824e2bd6fc
+  0.390.0--pyh7e72e81_0: sha256:1d6ebbf5fb3dd087f646e4f7bb5c1b485614ffee985d93e7559ccc49dfed6bf2
 docker: quay.io/biocontainers/dxpy
 aliases:
   dx: /usr/local/bin/dx
