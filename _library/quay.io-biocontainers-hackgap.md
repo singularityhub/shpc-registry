@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hackgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hackgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hackgap/container.yaml"
-updated_at: "2025-03-13 05:12:15.129524"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-03-14 03:34:17.735759"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hackgap"
 aliases:
  - "hackgap"
@@ -20,8 +20,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hackgap"
-config: {"url": "https://biocontainers.pro/tools/hackgap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hackgap", "latest": {"1.0.0--pyhdfd78af_0": "sha256:5aad88d8dfeb779e748cbd13eb451ae28fae6f583222279df2be14cce347e67f"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:5aad88d8dfeb779e748cbd13eb451ae28fae6f583222279df2be14cce347e67f"}, "docker": "quay.io/biocontainers/hackgap", "aliases": {"hackgap": "/usr/local/bin/hackgap", "numpy-config": "/usr/local/bin/numpy-config", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/hackgap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hackgap", "latest": {"1.0.1--pyhdfd78af_0": "sha256:6d229822f643ad7035ffbbc52bff7ca9f0cbc0fd69733b7bdd415b24ea954f36"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:5aad88d8dfeb779e748cbd13eb451ae28fae6f583222279df2be14cce347e67f", "1.0.1--pyhdfd78af_0": "sha256:6d229822f643ad7035ffbbc52bff7ca9f0cbc0fd69733b7bdd415b24ea954f36"}, "docker": "quay.io/biocontainers/hackgap", "aliases": {"hackgap": "/usr/local/bin/hackgap", "numpy-config": "/usr/local/bin/numpy-config", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hackgap.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/hackgap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hackgap:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hackgap:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hackgap/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/hackgap/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/hackgap/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/hackgap/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orsum/container.yaml"
-updated_at: "2025-03-13 04:38:36.022776"
-latest: "1.7.0--hdfd78af_0"
+updated_at: "2025-03-14 03:00:20.342898"
+latest: "1.8.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orsum"
 aliases:
  - "orsum.py"
@@ -26,8 +26,9 @@ versions:
  - "1.6.0--hdfd78af_0"
  - "1.5.0--hdfd78af_0"
  - "1.7.0--hdfd78af_0"
+ - "1.8.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for orsum"
-config: {"url": "https://biocontainers.pro/tools/orsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orsum", "latest": {"1.7.0--hdfd78af_0": "sha256:8dff115cd645aa0a3efd0e795997cff9d8b24b9c8d049176b47c389ba20c8c93"}, "tags": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf", "1.6.0--hdfd78af_0": "sha256:d6a52601487d7851b7d105d45252e887071d2743f5cbf35de28737f97339533a", "1.5.0--hdfd78af_0": "sha256:70a0346dc1d8079bd0a51a7d02c6880e74cb8409b83f2c2d7d3665c3faeff789", "1.7.0--hdfd78af_0": "sha256:8dff115cd645aa0a3efd0e795997cff9d8b24b9c8d049176b47c389ba20c8c93"}, "docker": "quay.io/biocontainers/orsum", "aliases": {"orsum.py": "/usr/local/bin/orsum.py", "plotFunctions.py": "/usr/local/bin/plotFunctions.py", "termCombinationLib.py": "/usr/local/bin/termCombinationLib.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/orsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orsum", "latest": {"1.8.0--hdfd78af_0": "sha256:628b3cc7f60e41001852874f89b42ae6b1e3d81dd1efc6618944d69b95d0ec27"}, "tags": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf", "1.6.0--hdfd78af_0": "sha256:d6a52601487d7851b7d105d45252e887071d2743f5cbf35de28737f97339533a", "1.5.0--hdfd78af_0": "sha256:70a0346dc1d8079bd0a51a7d02c6880e74cb8409b83f2c2d7d3665c3faeff789", "1.7.0--hdfd78af_0": "sha256:8dff115cd645aa0a3efd0e795997cff9d8b24b9c8d049176b47c389ba20c8c93", "1.8.0--hdfd78af_0": "sha256:628b3cc7f60e41001852874f89b42ae6b1e3d81dd1efc6618944d69b95d0ec27"}, "docker": "quay.io/biocontainers/orsum", "aliases": {"orsum.py": "/usr/local/bin/orsum.py", "plotFunctions.py": "/usr/local/bin/plotFunctions.py", "termCombinationLib.py": "/usr/local/bin/termCombinationLib.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orsum.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/orsum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orsum:1.7.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/orsum:1.8.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orsum/1.7.0--hdfd78af_0
-$ module help quay.io/biocontainers/orsum/1.7.0--hdfd78af_0
+$ module load quay.io/biocontainers/orsum/1.8.0--hdfd78af_0
+$ module help quay.io/biocontainers/orsum/1.8.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

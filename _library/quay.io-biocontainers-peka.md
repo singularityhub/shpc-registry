@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peka/container.yaml"
-updated_at: "2025-03-13 04:49:18.893273"
+updated_at: "2025-03-14 03:11:29.107053"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peka"
 aliases:

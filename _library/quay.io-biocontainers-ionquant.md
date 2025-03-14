@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ionquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ionquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ionquant/container.yaml"
-updated_at: "2025-03-13 05:05:12.158182"
-latest: "1.10.12--py312hdfd78af_1"
+updated_at: "2025-03-14 03:27:24.901839"
+latest: "1.10.27--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ionquant"
 aliases:
  - "ionquant"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.10.12--py312hdfd78af_0"
  - "1.10.12--py312hdfd78af_1"
+ - "1.10.27--py313hdfd78af_0"
 description: "singularity registry hpc automated addition for ionquant"
-config: {"url": "https://biocontainers.pro/tools/ionquant", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ionquant", "latest": {"1.10.12--py312hdfd78af_1": "sha256:a111127a3f1b95b0efa231d9f75d36817b9c71db99e7d87d44a0bfe32ec2b0d2"}, "tags": {"1.10.12--py312hdfd78af_0": "sha256:d385dbf1032fa4d67ce1f9f67cc57761317d65123466f1f4a78f78e0e14b2383", "1.10.12--py312hdfd78af_1": "sha256:a111127a3f1b95b0efa231d9f75d36817b9c71db99e7d87d44a0bfe32ec2b0d2"}, "docker": "quay.io/biocontainers/ionquant", "aliases": {"ionquant": "/usr/local/bin/ionquant", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
+config: {"url": "https://biocontainers.pro/tools/ionquant", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ionquant", "latest": {"1.10.27--py313hdfd78af_0": "sha256:cfdcd219e9724052b1fe959964130f2adeaa4c10eb84e86a2a463e9c386c8497"}, "tags": {"1.10.12--py312hdfd78af_0": "sha256:d385dbf1032fa4d67ce1f9f67cc57761317d65123466f1f4a78f78e0e14b2383", "1.10.12--py312hdfd78af_1": "sha256:a111127a3f1b95b0efa231d9f75d36817b9c71db99e7d87d44a0bfe32ec2b0d2", "1.10.27--py313hdfd78af_0": "sha256:cfdcd219e9724052b1fe959964130f2adeaa4c10eb84e86a2a463e9c386c8497"}, "docker": "quay.io/biocontainers/ionquant", "aliases": {"ionquant": "/usr/local/bin/ionquant", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ionquant.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/ionquant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ionquant:1.10.12--py312hdfd78af_1
+$ shpc install quay.io/biocontainers/ionquant:1.10.27--py313hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ionquant/1.10.12--py312hdfd78af_1
-$ module help quay.io/biocontainers/ionquant/1.10.12--py312hdfd78af_1
+$ module load quay.io/biocontainers/ionquant/1.10.27--py313hdfd78af_0
+$ module help quay.io/biocontainers/ionquant/1.10.27--py313hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
