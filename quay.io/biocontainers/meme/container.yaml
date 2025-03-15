@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/meme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for meme
 latest:
-  5.5.7--pl5321h1ca524f_1: sha256:127de6607fe71cb1bb384143b72ad69667b20f8fd68a87e28aaefad5262d6db3
+  5.5.7--pl5321h1ca524f_2: sha256:52686bd48a084622fa68a8b647b7feecd5d9fd5ef81260df1be964a5d6580d9d
 tags:
   5.1.1--py36pl526ha39971a_2: sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4
   5.5.5--pl5321hda358d9_0: sha256:5a7a2c7ba931e310f132c7d94aa7505fa0ad717d159011d49881c72fd1ec3c2a
@@ -13,4 +13,5 @@ tags:
   5.5.6--pl5321h4242488_0: sha256:71dbdb1d33046dc8f53966541998c529d1920cd22d6ec9e8579b3bdd07cccbcf
   5.5.7--pl5321hca22f42_0: sha256:9791ce63bef20af1626ec7312c9141c723aab9d0bc9ef80695790671c0367be6
   5.5.7--pl5321h1ca524f_1: sha256:127de6607fe71cb1bb384143b72ad69667b20f8fd68a87e28aaefad5262d6db3
+  5.5.7--pl5321h1ca524f_2: sha256:52686bd48a084622fa68a8b647b7feecd5d9fd5ef81260df1be964a5d6580d9d
 docker: quay.io/biocontainers/meme
