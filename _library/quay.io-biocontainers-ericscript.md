@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ericscript"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ericscript/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ericscript/container.yaml"
-updated_at: "2025-03-14 03:27:03.953052"
+updated_at: "2025-03-15 03:22:43.557509"
 latest: "0.5.5--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/ericscript"
 aliases:

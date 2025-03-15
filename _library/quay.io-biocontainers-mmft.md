@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mmft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmft/container.yaml"
-updated_at: "2025-03-14 03:02:04.900505"
-latest: "0.2.1--hc1c3326_0"
+updated_at: "2025-03-15 02:59:02.498722"
+latest: "0.3.2--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/mmft"
 aliases:
  - "mmft"
 versions:
  - "0.2.1--hc1c3326_0"
+ - "0.3.2--hc1c3326_0"
 description: "singularity registry hpc automated addition for mmft"
-config: {"url": "https://biocontainers.pro/tools/mmft", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmft", "latest": {"0.2.1--hc1c3326_0": "sha256:548b6364a73abb0d9fadc849c8a3d4b7162f00f2a503ce767418d3f743fc862e"}, "tags": {"0.2.1--hc1c3326_0": "sha256:548b6364a73abb0d9fadc849c8a3d4b7162f00f2a503ce767418d3f743fc862e"}, "docker": "quay.io/biocontainers/mmft", "aliases": {"mmft": "/usr/local/bin/mmft"}}
+config: {"url": "https://biocontainers.pro/tools/mmft", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmft", "latest": {"0.3.2--hc1c3326_0": "sha256:0776cfec83b5efd95212fda8c4372c33e3293bf4b6447a3ef3fbd525673798a7"}, "tags": {"0.2.1--hc1c3326_0": "sha256:548b6364a73abb0d9fadc849c8a3d4b7162f00f2a503ce767418d3f743fc862e", "0.3.2--hc1c3326_0": "sha256:0776cfec83b5efd95212fda8c4372c33e3293bf4b6447a3ef3fbd525673798a7"}, "docker": "quay.io/biocontainers/mmft", "aliases": {"mmft": "/usr/local/bin/mmft"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmft.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mmft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmft:0.2.1--hc1c3326_0
+$ shpc install quay.io/biocontainers/mmft:0.3.2--hc1c3326_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmft/0.2.1--hc1c3326_0
-$ module help quay.io/biocontainers/mmft/0.2.1--hc1c3326_0
+$ module load quay.io/biocontainers/mmft/0.3.2--hc1c3326_0
+$ module help quay.io/biocontainers/mmft/0.3.2--hc1c3326_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
