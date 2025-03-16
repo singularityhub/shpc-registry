@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pfam_scan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pfam_scan
 latest:
-  1.6--hdfd78af_4: sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d
+  1.6--hdfd78af_5: sha256:ca6caadcb3b3fb47fc0ee09a0141f86162f24281d5093909271498a34ac00d93
 tags:
   1.6--hdfd78af_4: sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d
+  1.6--hdfd78af_5: sha256:ca6caadcb3b3fb47fc0ee09a0141f86162f24281d5093909271498a34ac00d93
 docker: quay.io/biocontainers/pfam_scan
 aliases:
   pfam_scan.pl: /usr/local/bin/pfam_scan.pl

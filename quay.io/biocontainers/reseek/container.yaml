@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/reseek
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reseek
 latest:
-  2.3--h503566f_0: sha256:c492c4ed79b242595bdfc09f376214010956e5c4af42633cb941b3c07612cdfb
+  2.4--h503566f_0: sha256:fe83355b376878d7ba38cae355cbf51cbd1b8b419d3af5cbd8da75b5b2d9fa4b
 tags:
   2.0.1--hdbdd923_0: sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e
   2.02--hdbdd923_0: sha256:69f027e649a341c4e3e69d6c792639d2049d250170de5b4d5936ae7bf4f08f8b
   2.3--h503566f_0: sha256:c492c4ed79b242595bdfc09f376214010956e5c4af42633cb941b3c07612cdfb
+  2.4--h503566f_0: sha256:fe83355b376878d7ba38cae355cbf51cbd1b8b419d3af5cbd8da75b5b2d9fa4b
 docker: quay.io/biocontainers/reseek
 aliases:
   reseek: /usr/local/bin/reseek

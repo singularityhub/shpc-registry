@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python
 latest:
-  '3.12': sha256:29fccb317d61a9d09ecf432f63bfea512b98f0f3bc3764dc65fbdbc0f02473b5
+  '3.13': sha256:f9ed017ac29f93b1de2d61512ebe583d624d9453f87cd661e76f2e1bfa8b85e6
 tags:
   3.9--1: sha256:d97d2b329b4e44d2e07a9737ba348b185d6a47f34fba0ef301d44d11669cac60
   '3': sha256:77ecd1db5b41f925c7593ad782bf756d001fbe488cefc4685945785e813f6481
@@ -11,4 +11,5 @@ tags:
   '3.12': sha256:29fccb317d61a9d09ecf432f63bfea512b98f0f3bc3764dc65fbdbc0f02473b5
   3.10.4: sha256:6745f24775c46d74a7c6e0f9d9b3b4cb3b14cadf531e9670f8b2fa26d1dbc637
   '3.11': sha256:b322907f8e52b2055ccad4e46848d28a4a5631b403116cc80ddf61ec8601e05e
+  '3.13': sha256:f9ed017ac29f93b1de2d61512ebe583d624d9453f87cd661e76f2e1bfa8b85e6
 docker: quay.io/biocontainers/python
