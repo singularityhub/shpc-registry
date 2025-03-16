@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dazz_db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dazz_db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dazz_db/container.yaml"
-updated_at: "2025-03-15 03:20:39.863320"
+updated_at: "2025-03-16 03:28:29.740774"
 latest: "1.0p2--h577a1d6_8"
 container_url: "https://biocontainers.pro/tools/dazz_db"
 aliases:

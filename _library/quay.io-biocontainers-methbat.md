@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methbat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methbat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methbat/container.yaml"
-updated_at: "2025-03-15 02:59:51.737901"
-latest: "0.13.3--h9ee0642_0"
+updated_at: "2025-03-16 03:07:35.831560"
+latest: "0.14.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/methbat"
 aliases:
  - "methbat"
@@ -14,8 +14,9 @@ versions:
  - "0.13.1--h9ee0642_0"
  - "0.13.2--h9ee0642_0"
  - "0.13.3--h9ee0642_0"
+ - "0.14.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for methbat"
-config: {"url": "https://biocontainers.pro/tools/methbat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methbat", "latest": {"0.13.3--h9ee0642_0": "sha256:4437ddbc1d625317b1312ccb93065ea9d70c8ae9ef699d112df5f36d2098604f"}, "tags": {"0.13.0--h9ee0642_0": "sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf", "0.13.1--h9ee0642_0": "sha256:09a72f141f2858fc1a933ff72bb8105c86693edffa2596c99477cf80bc874068", "0.13.2--h9ee0642_0": "sha256:aa641e65ad03f9688ec36adcb69b2f36fbee84a1af3ddaa7a6ef49fe9bf67650", "0.13.3--h9ee0642_0": "sha256:4437ddbc1d625317b1312ccb93065ea9d70c8ae9ef699d112df5f36d2098604f"}, "docker": "quay.io/biocontainers/methbat", "aliases": {"methbat": "/usr/local/bin/methbat"}}
+config: {"url": "https://biocontainers.pro/tools/methbat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methbat", "latest": {"0.14.0--h9ee0642_0": "sha256:4ebfc97b126909e2de114fb27d71a8efbdc306551297b52734e90a886910ec01"}, "tags": {"0.13.0--h9ee0642_0": "sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf", "0.13.1--h9ee0642_0": "sha256:09a72f141f2858fc1a933ff72bb8105c86693edffa2596c99477cf80bc874068", "0.13.2--h9ee0642_0": "sha256:aa641e65ad03f9688ec36adcb69b2f36fbee84a1af3ddaa7a6ef49fe9bf67650", "0.13.3--h9ee0642_0": "sha256:4437ddbc1d625317b1312ccb93065ea9d70c8ae9ef699d112df5f36d2098604f", "0.14.0--h9ee0642_0": "sha256:4ebfc97b126909e2de114fb27d71a8efbdc306551297b52734e90a886910ec01"}, "docker": "quay.io/biocontainers/methbat", "aliases": {"methbat": "/usr/local/bin/methbat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methbat.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/methbat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methbat:0.13.3--h9ee0642_0
+$ shpc install quay.io/biocontainers/methbat:0.14.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methbat/0.13.3--h9ee0642_0
-$ module help quay.io/biocontainers/methbat/0.13.3--h9ee0642_0
+$ module load quay.io/biocontainers/methbat/0.14.0--h9ee0642_0
+$ module help quay.io/biocontainers/methbat/0.14.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-statistics-ttest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-ttest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-ttest/container.yaml"
-updated_at: "2025-03-15 03:38:42.723319"
+updated_at: "2025-03-16 03:46:39.366718"
 latest: "1.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-statistics-ttest"
 aliases:

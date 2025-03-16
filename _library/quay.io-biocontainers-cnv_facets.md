@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnv_facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv_facets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv_facets/container.yaml"
-updated_at: "2025-03-15 03:35:50.186479"
+updated_at: "2025-03-16 03:43:45.770748"
 latest: "0.16.1--py312r43h8537716_1"
 container_url: "https://biocontainers.pro/tools/cnv_facets"
 aliases:

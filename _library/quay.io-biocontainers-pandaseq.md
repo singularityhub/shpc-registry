@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandaseq/container.yaml"
-updated_at: "2025-03-15 03:24:45.310084"
+updated_at: "2025-03-16 03:32:37.648268"
 latest: "2.11--hb1d24b7_9"
 container_url: "https://biocontainers.pro/tools/pandaseq"
 aliases:
