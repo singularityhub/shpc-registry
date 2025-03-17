@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/illumina-interop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for illumina-interop
 latest:
-  1.3.2--h503566f_1: sha256:26bce1ada6013f2b3028c019ceaced095a9ffc3f5b5588030d40a5d20d490afb
+  1.4.0--h503566f_0: sha256:0dd4cd0309c7e568e55be67fa7ff5e3a554c79b4de3792aacd488eb37aadbb88
 tags:
   1.1.9--he1b5a44_0: sha256:158e011166925ed1ba899c06dc275a5720f243ccbe99f5256af8ec63fa5835a1
   1.2.0--h87f3376_0: sha256:9dc9ef90da1073ff4e3d1ab5e21999f06c73974c9ba5350a523d37d83c696ee4
@@ -16,6 +16,7 @@ tags:
   1.3.1--hdbdd923_1: sha256:7b2245248172948d7b49fbfa6a488d1c3a4b4ed1d1293a76e40f7859ec31d483
   1.3.2--hdbdd923_0: sha256:49f76ff2d267a39b2c03795eedda363f714f4e82e20ba2fa3622b10ad03d49ea
   1.3.2--h503566f_1: sha256:26bce1ada6013f2b3028c019ceaced095a9ffc3f5b5588030d40a5d20d490afb
+  1.4.0--h503566f_0: sha256:0dd4cd0309c7e568e55be67fa7ff5e3a554c79b4de3792aacd488eb37aadbb88
 docker: quay.io/biocontainers/illumina-interop
 aliases:
   interop_aggregate: /usr/local/bin/interop_aggregate
