@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libssw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libssw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libssw/container.yaml"
-updated_at: "2025-03-16 03:27:53.419049"
-latest: "1.1--py27h8f2a353_5"
+updated_at: "2025-03-17 03:26:40.606532"
+latest: "1.2.5--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/libssw"
 aliases:
  - "example_cpp"
@@ -25,8 +25,9 @@ aliases:
  - "python2"
 versions:
  - "1.1--py27h8f2a353_5"
+ - "1.2.5--h5ca1c30_0"
 description: "shpc-registry automated BioContainers addition for libssw"
-config: {"url": "https://biocontainers.pro/tools/libssw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libssw", "latest": {"1.1--py27h8f2a353_5": "sha256:a4b0a269e5ba2624b99c68ad36456749d95186ec8071c81a31e26559aae696d6"}, "tags": {"1.1--py27h8f2a353_5": "sha256:a4b0a269e5ba2624b99c68ad36456749d95186ec8071c81a31e26559aae696d6"}, "docker": "quay.io/biocontainers/libssw", "aliases": {"example_cpp": "/usr/local/bin/example_cpp", "pyssw.py": "/usr/local/bin/pyssw.py", "ssw.jar": "/usr/local/bin/ssw.jar", "ssw_lib.py": "/usr/local/bin/ssw_lib.py", "ssw_test": "/usr/local/bin/ssw_test", "jaotc": "/usr/local/bin/jaotc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/libssw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libssw", "latest": {"1.2.5--h5ca1c30_0": "sha256:de4a7d49dfe0ecf2f024c4f42680dba6b42c85781f5e46864d3fcfd15cba1117"}, "tags": {"1.1--py27h8f2a353_5": "sha256:a4b0a269e5ba2624b99c68ad36456749d95186ec8071c81a31e26559aae696d6", "1.2.5--h5ca1c30_0": "sha256:de4a7d49dfe0ecf2f024c4f42680dba6b42c85781f5e46864d3fcfd15cba1117"}, "docker": "quay.io/biocontainers/libssw", "aliases": {"example_cpp": "/usr/local/bin/example_cpp", "pyssw.py": "/usr/local/bin/pyssw.py", "ssw.jar": "/usr/local/bin/ssw.jar", "ssw_lib.py": "/usr/local/bin/ssw_lib.py", "ssw_test": "/usr/local/bin/ssw_test", "jaotc": "/usr/local/bin/jaotc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libssw.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/libssw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libssw:1.1--py27h8f2a353_5
+$ shpc install quay.io/biocontainers/libssw:1.2.5--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libssw/1.1--py27h8f2a353_5
-$ module help quay.io/biocontainers/libssw/1.1--py27h8f2a353_5
+$ module load quay.io/biocontainers/libssw/1.2.5--h5ca1c30_0
+$ module help quay.io/biocontainers/libssw/1.2.5--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

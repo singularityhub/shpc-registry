@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pfam_scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pfam_scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pfam_scan/container.yaml"
-updated_at: "2025-03-16 03:45:50.969054"
-latest: "1.6--hdfd78af_4"
+updated_at: "2025-03-17 03:44:35.448704"
+latest: "1.6--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pfam_scan"
 aliases:
  - "pfam_scan.pl"
@@ -21,8 +21,9 @@ aliases:
  - "bp_classify_hits_kingdom.pl"
 versions:
  - "1.6--hdfd78af_4"
+ - "1.6--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for pfam_scan"
-config: {"url": "https://biocontainers.pro/tools/pfam_scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pfam_scan", "latest": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "tags": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "docker": "quay.io/biocontainers/pfam_scan", "aliases": {"pfam_scan.pl": "/usr/local/bin/pfam_scan.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pfam_scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pfam_scan", "latest": {"1.6--hdfd78af_5": "sha256:ca6caadcb3b3fb47fc0ee09a0141f86162f24281d5093909271498a34ac00d93"}, "tags": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d", "1.6--hdfd78af_5": "sha256:ca6caadcb3b3fb47fc0ee09a0141f86162f24281d5093909271498a34ac00d93"}, "docker": "quay.io/biocontainers/pfam_scan", "aliases": {"pfam_scan.pl": "/usr/local/bin/pfam_scan.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pfam_scan.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pfam_scan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pfam_scan:1.6--hdfd78af_4
+$ shpc install quay.io/biocontainers/pfam_scan:1.6--hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pfam_scan/1.6--hdfd78af_4
-$ module help quay.io/biocontainers/pfam_scan/1.6--hdfd78af_4
+$ module load quay.io/biocontainers/pfam_scan/1.6--hdfd78af_5
+$ module help quay.io/biocontainers/pfam_scan/1.6--hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
