@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gypsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gypsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gypsum/container.yaml"
-updated_at: "2025-03-17 03:04:30.671995"
+updated_at: "2025-03-18 03:03:55.412010"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gypsum"
 aliases:

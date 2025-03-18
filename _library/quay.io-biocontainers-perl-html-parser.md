@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-parser/container.yaml"
-updated_at: "2025-03-17 03:31:48.389016"
+updated_at: "2025-03-18 03:32:43.139916"
 latest: "3.83--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-html-parser"
 aliases:

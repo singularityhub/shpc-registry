@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kma/container.yaml"
-updated_at: "2025-03-17 03:39:20.834724"
-latest: "1.4.17--h577a1d6_0"
+updated_at: "2025-03-18 03:40:30.450479"
+latest: "1.4.18--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/kma"
 aliases:
  - "kma"
@@ -18,8 +18,9 @@ versions:
  - "1.4.15--he4a0461_0"
  - "1.4.15--h577a1d6_1"
  - "1.4.17--h577a1d6_0"
+ - "1.4.18--h577a1d6_0"
 description: "shpc-registry automated BioContainers addition for kma"
-config: {"url": "https://biocontainers.pro/tools/kma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kma", "latest": {"1.4.17--h577a1d6_0": "sha256:821df8a31ee6dbda277572a2599a8f4bcbd7bcbae65550e3c1c2b51487df9b75"}, "tags": {"1.4.0--h7132678_0": "sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1", "1.4.14--he4a0461_1": "sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed", "1.4.15--he4a0461_0": "sha256:17726ad6e1b3706842f3ace170cad4202b35c0df9cb4ed6481488b6b965ddbab", "1.4.15--h577a1d6_1": "sha256:94fcb31ba51018df299f465095564ecdad4a53af02683c01c5dc9a3255213dd5", "1.4.17--h577a1d6_0": "sha256:821df8a31ee6dbda277572a2599a8f4bcbd7bcbae65550e3c1c2b51487df9b75"}, "docker": "quay.io/biocontainers/kma", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update"}}
+config: {"url": "https://biocontainers.pro/tools/kma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kma", "latest": {"1.4.18--h577a1d6_0": "sha256:376088c358f9327466c7e4199a07df3eb8421e8cb47871fbe262c6b17717933d"}, "tags": {"1.4.0--h7132678_0": "sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1", "1.4.14--he4a0461_1": "sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed", "1.4.15--he4a0461_0": "sha256:17726ad6e1b3706842f3ace170cad4202b35c0df9cb4ed6481488b6b965ddbab", "1.4.15--h577a1d6_1": "sha256:94fcb31ba51018df299f465095564ecdad4a53af02683c01c5dc9a3255213dd5", "1.4.17--h577a1d6_0": "sha256:821df8a31ee6dbda277572a2599a8f4bcbd7bcbae65550e3c1c2b51487df9b75", "1.4.18--h577a1d6_0": "sha256:376088c358f9327466c7e4199a07df3eb8421e8cb47871fbe262c6b17717933d"}, "docker": "quay.io/biocontainers/kma", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kma.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/kma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kma:1.4.17--h577a1d6_0
+$ shpc install quay.io/biocontainers/kma:1.4.18--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kma/1.4.17--h577a1d6_0
-$ module help quay.io/biocontainers/kma/1.4.17--h577a1d6_0
+$ module load quay.io/biocontainers/kma/1.4.18--h577a1d6_0
+$ module help quay.io/biocontainers/kma/1.4.18--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

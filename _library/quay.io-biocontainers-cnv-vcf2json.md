@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnv-vcf2json"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv-vcf2json/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv-vcf2json/container.yaml"
-updated_at: "2025-03-17 03:31:40.349813"
-latest: "1.1.0"
+updated_at: "2025-03-18 03:32:34.827686"
+latest: "2.0.0"
 container_url: "https://biocontainers.pro/tools/cnv-vcf2json"
 aliases:
  - "cnv-vcf2json"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.0.4"
  - "1.1.0"
+ - "2.0.0"
 description: "singularity registry hpc automated addition for cnv-vcf2json"
-config: {"url": "https://biocontainers.pro/tools/cnv-vcf2json", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnv-vcf2json", "latest": {"1.1.0": "sha256:928355d8b338717a9f1399221ac109ae63222118d219631818ffd7e8e5882fe6"}, "tags": {"1.0.4": "sha256:7398abd792c02982d30227a0ac8989f973aff38a38128f4a3359e1453e70006a", "1.1.0": "sha256:928355d8b338717a9f1399221ac109ae63222118d219631818ffd7e8e5882fe6"}, "docker": "quay.io/biocontainers/cnv-vcf2json", "aliases": {"cnv-vcf2json": "/usr/local/bin/cnv-vcf2json", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/cnv-vcf2json", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnv-vcf2json", "latest": {"2.0.0": "sha256:f5824b432bc2121db80a3a98d636a49b3365aaef93cc593941816f357230dfb1"}, "tags": {"1.0.4": "sha256:7398abd792c02982d30227a0ac8989f973aff38a38128f4a3359e1453e70006a", "1.1.0": "sha256:928355d8b338717a9f1399221ac109ae63222118d219631818ffd7e8e5882fe6", "2.0.0": "sha256:f5824b432bc2121db80a3a98d636a49b3365aaef93cc593941816f357230dfb1"}, "docker": "quay.io/biocontainers/cnv-vcf2json", "aliases": {"cnv-vcf2json": "/usr/local/bin/cnv-vcf2json", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnv-vcf2json.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/cnv-vcf2json
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnv-vcf2json:1.1.0
+$ shpc install quay.io/biocontainers/cnv-vcf2json:2.0.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnv-vcf2json/1.1.0
-$ module help quay.io/biocontainers/cnv-vcf2json/1.1.0
+$ module load quay.io/biocontainers/cnv-vcf2json/2.0.0
+$ module help quay.io/biocontainers/cnv-vcf2json/2.0.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
