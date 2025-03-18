@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/autobigs-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for autobigs-cli
 latest:
-  0.4.2--pyhdfd78af_0: sha256:44dd53a7148474ab206ae299d50683dd63d3211bf91332d5e8efa142dd753f5a
+  0.6.5--pyhdfd78af_0: sha256:3002fc6f6275ecd1bce4485a073b29e5d6522794e3d919b39c6db84c7bb47f0a
 tags:
   0.4.2--pyhdfd78af_0: sha256:44dd53a7148474ab206ae299d50683dd63d3211bf91332d5e8efa142dd753f5a
+  0.6.5--pyhdfd78af_0: sha256:3002fc6f6275ecd1bce4485a073b29e5d6522794e3d919b39c6db84c7bb47f0a
+  0.5.0--pyhdfd78af_0: sha256:e0263fd9e2e60f249c3a3f1a060d5d857d306227cf3fca7a7dff7ac3e5f9096e
 docker: quay.io/biocontainers/autobigs-cli
 aliases:
   autoBIGS: /usr/local/bin/autoBIGS

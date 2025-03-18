@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/search_ncbi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for search_ncbi
 latest:
-  0.1.1--pyhdfd78af_0: sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf
+  0.1.2--pyhdfd78af_0: sha256:f7fec3ad6bcb27ed24cbcfac5ca5c7a88dcc60413d77d081e3ad574b53a868f6
 tags:
   0.1.1--pyhdfd78af_0: sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf
+  0.1.2--pyhdfd78af_0: sha256:f7fec3ad6bcb27ed24cbcfac5ca5c7a88dcc60413d77d081e3ad574b53a868f6
 docker: quay.io/biocontainers/search_ncbi
 aliases:
   searchncbi: /usr/local/bin/searchncbi

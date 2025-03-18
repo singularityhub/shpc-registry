@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pbaa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbaa
 latest:
-  1.1.0--h9ee0642_0: sha256:d3b17fcdb45646649e15cf582748f87a8e0ca84da3ac859a4d44decb240bd63b
+  1.2.0--h9ee0642_0: sha256:fa48bd65b2e429af09eaf06541030e812e5bb0de440059b9b34a6e49c87edd04
 tags:
   1.0.3--hdfd78af_0: sha256:6cf5bd5b509c8e65a994a8ba53d8724d5e49cb34ac980cf6363ff92f64dfe4f8
   1.1.0--h9ee0642_0: sha256:d3b17fcdb45646649e15cf582748f87a8e0ca84da3ac859a4d44decb240bd63b
+  1.2.0--h9ee0642_0: sha256:fa48bd65b2e429af09eaf06541030e812e5bb0de440059b9b34a6e49c87edd04
 docker: quay.io/biocontainers/pbaa
 aliases:
   pbaa: /usr/local/bin/pbaa
