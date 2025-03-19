@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bacon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bacon
 latest:
-  1.34.0--r44h3df3fcb_0: sha256:9eb0d01c3392077479bbce9568cfe7ef3383490a10257dee77319f82da33cdc8
+  1.34.0--r44h3df3fcb_1: sha256:41113d588c8913f9a2065bc8e3a27e862a7f309476c88d897fcb822a09b40ed3
 tags:
   1.8.0--r351h470a237_0: sha256:72a9dd704da2e2df84c769c72aad3c79b57f35a092653a926c7284b713b1bcea
   1.26.0--r42hc0cfd56_0: sha256:93884ea1f691e5de3a9534d387407c08ec838e5ef92a375addf55af32ff6b8ab
@@ -14,4 +14,5 @@ tags:
   1.28.0--r43ha9d7317_0: sha256:c7f491459fdc8df219fa281e06b631b1431135c9ba76b5f61955c9171913a705
   1.30.0--r43ha9d7317_0: sha256:ce0e9328c7b8e5267973af431b0e1358aa37bbf9c3ae39ece1adfd27016f7e8e
   1.34.0--r44h3df3fcb_0: sha256:9eb0d01c3392077479bbce9568cfe7ef3383490a10257dee77319f82da33cdc8
+  1.34.0--r44h3df3fcb_1: sha256:41113d588c8913f9a2065bc8e3a27e862a7f309476c88d897fcb822a09b40ed3
 docker: quay.io/biocontainers/bioconductor-bacon

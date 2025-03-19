@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-sereal-decoder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-sereal-decoder
 latest:
-  4.025--pl5321hec16e2b_1: sha256:963ff7dd1c75d62efaa1d81698b45f33fdf0bb66f784b53d96d62cdb4dcc8acb
+  4.025--pl5321h7b50bb2_2: sha256:0db7f3bad5d39784b2448e7a1f407a7efd385a39448be7f4727faba31f50a60c
 tags:
   4.025--pl5321hec16e2b_1: sha256:963ff7dd1c75d62efaa1d81698b45f33fdf0bb66f784b53d96d62cdb4dcc8acb
+  4.025--pl5321h7b50bb2_2: sha256:0db7f3bad5d39784b2448e7a1f407a7efd385a39448be7f4727faba31f50a60c
 docker: quay.io/biocontainers/perl-sereal-decoder
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
