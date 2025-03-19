@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/autobigs-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autobigs-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autobigs-cli/container.yaml"
-updated_at: "2025-03-18 03:35:04.886456"
-latest: "0.4.2--pyhdfd78af_0"
+updated_at: "2025-03-19 03:32:53.240557"
+latest: "0.6.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/autobigs-cli"
 aliases:
  - "autoBIGS"
@@ -16,8 +16,10 @@ aliases:
  - "numpy-config"
 versions:
  - "0.4.2--pyhdfd78af_0"
+ - "0.6.5--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for autobigs-cli"
-config: {"url": "https://biocontainers.pro/tools/autobigs-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autobigs-cli", "latest": {"0.4.2--pyhdfd78af_0": "sha256:44dd53a7148474ab206ae299d50683dd63d3211bf91332d5e8efa142dd753f5a"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:44dd53a7148474ab206ae299d50683dd63d3211bf91332d5e8efa142dd753f5a"}, "docker": "quay.io/biocontainers/autobigs-cli", "aliases": {"autoBIGS": "/usr/local/bin/autoBIGS", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/autobigs-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autobigs-cli", "latest": {"0.6.5--pyhdfd78af_0": "sha256:3002fc6f6275ecd1bce4485a073b29e5d6522794e3d919b39c6db84c7bb47f0a"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:44dd53a7148474ab206ae299d50683dd63d3211bf91332d5e8efa142dd753f5a", "0.6.5--pyhdfd78af_0": "sha256:3002fc6f6275ecd1bce4485a073b29e5d6522794e3d919b39c6db84c7bb47f0a", "0.5.0--pyhdfd78af_0": "sha256:e0263fd9e2e60f249c3a3f1a060d5d857d306227cf3fca7a7dff7ac3e5f9096e"}, "docker": "quay.io/biocontainers/autobigs-cli", "aliases": {"autoBIGS": "/usr/local/bin/autoBIGS", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autobigs-cli.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/autobigs-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autobigs-cli:0.4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/autobigs-cli:0.6.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autobigs-cli/0.4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/autobigs-cli/0.4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/autobigs-cli/0.6.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/autobigs-cli/0.6.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

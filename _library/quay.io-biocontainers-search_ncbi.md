@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/search_ncbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/search_ncbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/search_ncbi/container.yaml"
-updated_at: "2025-03-18 03:30:46.344833"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2025-03-19 03:28:41.515854"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/search_ncbi"
 aliases:
  - "searchncbi"
@@ -19,8 +19,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for search_ncbi"
-config: {"url": "https://biocontainers.pro/tools/search_ncbi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for search_ncbi", "latest": {"0.1.1--pyhdfd78af_0": "sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf"}, "docker": "quay.io/biocontainers/search_ncbi", "aliases": {"searchncbi": "/usr/local/bin/searchncbi", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/search_ncbi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for search_ncbi", "latest": {"0.1.2--pyhdfd78af_0": "sha256:f7fec3ad6bcb27ed24cbcfac5ca5c7a88dcc60413d77d081e3ad574b53a868f6"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:01e06ac641e0820531485f087dba9d4836e2ed8573832eb5cfd05528292289cf", "0.1.2--pyhdfd78af_0": "sha256:f7fec3ad6bcb27ed24cbcfac5ca5c7a88dcc60413d77d081e3ad574b53a868f6"}, "docker": "quay.io/biocontainers/search_ncbi", "aliases": {"searchncbi": "/usr/local/bin/searchncbi", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/search_ncbi.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/search_ncbi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/search_ncbi:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/search_ncbi:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/search_ncbi/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/search_ncbi/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/search_ncbi/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/search_ncbi/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

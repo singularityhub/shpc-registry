@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pbaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbaa/container.yaml"
-updated_at: "2025-03-18 03:18:20.121133"
-latest: "1.1.0--h9ee0642_0"
+updated_at: "2025-03-19 03:16:43.004749"
+latest: "1.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbaa"
 aliases:
  - "pbaa"
 versions:
  - "1.0.3--hdfd78af_0"
  - "1.1.0--h9ee0642_0"
+ - "1.2.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for pbaa"
-config: {"url": "https://biocontainers.pro/tools/pbaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbaa", "latest": {"1.1.0--h9ee0642_0": "sha256:d3b17fcdb45646649e15cf582748f87a8e0ca84da3ac859a4d44decb240bd63b"}, "tags": {"1.0.3--hdfd78af_0": "sha256:6cf5bd5b509c8e65a994a8ba53d8724d5e49cb34ac980cf6363ff92f64dfe4f8", "1.1.0--h9ee0642_0": "sha256:d3b17fcdb45646649e15cf582748f87a8e0ca84da3ac859a4d44decb240bd63b"}, "docker": "quay.io/biocontainers/pbaa", "aliases": {"pbaa": "/usr/local/bin/pbaa"}}
+config: {"url": "https://biocontainers.pro/tools/pbaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbaa", "latest": {"1.2.0--h9ee0642_0": "sha256:fa48bd65b2e429af09eaf06541030e812e5bb0de440059b9b34a6e49c87edd04"}, "tags": {"1.0.3--hdfd78af_0": "sha256:6cf5bd5b509c8e65a994a8ba53d8724d5e49cb34ac980cf6363ff92f64dfe4f8", "1.1.0--h9ee0642_0": "sha256:d3b17fcdb45646649e15cf582748f87a8e0ca84da3ac859a4d44decb240bd63b", "1.2.0--h9ee0642_0": "sha256:fa48bd65b2e429af09eaf06541030e812e5bb0de440059b9b34a6e49c87edd04"}, "docker": "quay.io/biocontainers/pbaa", "aliases": {"pbaa": "/usr/local/bin/pbaa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbaa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pbaa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbaa:1.1.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/pbaa:1.2.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbaa/1.1.0--h9ee0642_0
-$ module help quay.io/biocontainers/pbaa/1.1.0--h9ee0642_0
+$ module load quay.io/biocontainers/pbaa/1.2.0--h9ee0642_0
+$ module help quay.io/biocontainers/pbaa/1.2.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
