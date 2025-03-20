@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/yara"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yara/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yara/container.yaml"
-updated_at: "2025-03-19 03:28:45.973651"
-latest: "1.0.2--h9ee0642_3"
+updated_at: "2025-03-20 03:27:24.524125"
+latest: "1.0.3--hd6d6fdc_0"
 container_url: "https://biocontainers.pro/tools/yara"
 aliases:
  - "yara_indexer"
  - "yara_mapper"
 versions:
  - "1.0.2--h9ee0642_3"
+ - "1.0.3--hd6d6fdc_0"
 description: "shpc-registry automated BioContainers addition for yara"
-config: {"url": "https://biocontainers.pro/tools/yara", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yara", "latest": {"1.0.2--h9ee0642_3": "sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed"}, "tags": {"1.0.2--h9ee0642_3": "sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed"}, "docker": "quay.io/biocontainers/yara", "aliases": {"yara_indexer": "/usr/local/bin/yara_indexer", "yara_mapper": "/usr/local/bin/yara_mapper"}}
+config: {"url": "https://biocontainers.pro/tools/yara", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yara", "latest": {"1.0.3--hd6d6fdc_0": "sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394"}, "tags": {"1.0.2--h9ee0642_3": "sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed", "1.0.3--hd6d6fdc_0": "sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394"}, "docker": "quay.io/biocontainers/yara", "aliases": {"yara_indexer": "/usr/local/bin/yara_indexer", "yara_mapper": "/usr/local/bin/yara_mapper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yara.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/yara
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yara:1.0.2--h9ee0642_3
+$ shpc install quay.io/biocontainers/yara:1.0.3--hd6d6fdc_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yara/1.0.2--h9ee0642_3
-$ module help quay.io/biocontainers/yara/1.0.2--h9ee0642_3
+$ module load quay.io/biocontainers/yara/1.0.3--hd6d6fdc_0
+$ module help quay.io/biocontainers/yara/1.0.3--hd6d6fdc_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

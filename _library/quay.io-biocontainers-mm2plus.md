@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mm2plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mm2plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mm2plus/container.yaml"
-updated_at: "2025-03-19 03:16:18.834342"
+updated_at: "2025-03-20 03:15:00.900815"
 latest: "1.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/mm2plus"
 aliases:

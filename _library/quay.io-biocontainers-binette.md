@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binette"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binette/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binette/container.yaml"
-updated_at: "2025-03-19 03:31:12.184927"
+updated_at: "2025-03-20 03:29:49.374294"
 latest: "1.0.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/binette"
 aliases:

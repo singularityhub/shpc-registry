@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samplot/container.yaml"
-updated_at: "2025-03-19 03:00:47.648842"
+updated_at: "2025-03-20 02:59:28.947006"
 latest: "1.3.0--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/samplot"
 aliases:

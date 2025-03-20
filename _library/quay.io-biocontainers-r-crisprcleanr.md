@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-crisprcleanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crisprcleanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crisprcleanr/container.yaml"
-updated_at: "2025-03-19 03:28:07.426456"
+updated_at: "2025-03-20 03:26:46.387108"
 latest: "3.0.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-crisprcleanr"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sra-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sra-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sra-tools/container.yaml"
-updated_at: "2025-03-19 03:19:11.908097"
+updated_at: "2025-03-20 03:17:54.360070"
 latest: "3.2.0--h4304569_0"
 container_url: "https://biocontainers.pro/tools/sra-tools"
 aliases:

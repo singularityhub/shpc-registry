@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusion-inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-inspector/container.yaml"
-updated_at: "2025-03-19 03:37:49.324738"
+updated_at: "2025-03-20 03:36:23.498391"
 latest: "2.10.0--py312pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fusion-inspector"
 aliases:
