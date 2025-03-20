@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/spp-dcj
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spp-dcj
+latest:
+  2.0.0--pyh7e72e81_0: sha256:1e7991d3c501c6a6333d528c6a71ee7be6fa5cbf9a4003dd08644fd84e467b98
+tags:
+  2.0.0--pyh7e72e81_0: sha256:1e7991d3c501c6a6333d528c6a71ee7be6fa5cbf9a4003dd08644fd84e467b98
+docker: quay.io/biocontainers/spp-dcj
+aliases:
+  spp-dcj: /usr/local/bin/spp-dcj
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/muat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for muat
+latest:
+  0.1.6--pyh7e72e81_0: sha256:dbf2c063d273170de56511c77d1dd70cf18985ee5ab627c349731b92967cfc6f
+tags:
+  0.1.6--pyh7e72e81_0: sha256:dbf2c063d273170de56511c77d1dd70cf18985ee5ab627c349731b92967cfc6f
+docker: quay.io/biocontainers/muat
+aliases:
+  annotate_mutations_with_bed.sh: /usr/local/bin/annotate_mutations_with_bed.sh
+  muat: /usr/local/bin/muat
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  swalign: /usr/local/bin/swalign
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128
+  bam2bed_sge-megarow: /usr/local/bin/bam2bed_sge-megarow
+  bam2bed_sge-typical: /usr/local/bin/bam2bed_sge-typical
+  bam2bed_slurm: /usr/local/bin/bam2bed_slurm
+  bam2bed_slurm-float128: /usr/local/bin/bam2bed_slurm-float128
+  bam2bed_slurm-megarow: /usr/local/bin/bam2bed_slurm-megarow
+  bam2bed_slurm-typical: /usr/local/bin/bam2bed_slurm-typical
+  bam2starch: /usr/local/bin/bam2starch
+  bam2starch-float128: /usr/local/bin/bam2starch-float128
+  bam2starch-megarow: /usr/local/bin/bam2starch-megarow
+  bam2starch-typical: /usr/local/bin/bam2starch-typical
+  bam2starch_gnuParallel: /usr/local/bin/bam2starch_gnuParallel
+  bam2starch_gnuParallel-float128: /usr/local/bin/bam2starch_gnuParallel-float128
+  bam2starch_gnuParallel-megarow: /usr/local/bin/bam2starch_gnuParallel-megarow
+  bam2starch_gnuParallel-typical: /usr/local/bin/bam2starch_gnuParallel-typical

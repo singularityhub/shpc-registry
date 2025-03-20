@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pvga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pvga
+latest:
+  0.1.2--pyh7e72e81_0: sha256:998427d69f99fc6225e1bd4bdafda9a47334efef85ba66b24915a1a57dcd7910
+tags:
+  0.1.2--pyh7e72e81_0: sha256:998427d69f99fc6225e1bd4bdafda9a47334efef85ba66b24915a1a57dcd7910
+docker: quay.io/biocontainers/pvga
+aliases:
+  pvga: /usr/local/bin/pvga
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

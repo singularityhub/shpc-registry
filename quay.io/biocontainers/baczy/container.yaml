@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/baczy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for baczy
+latest:
+  1.0.3--pyhdfd78af_0: sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
+tags:
+  1.0.3--pyhdfd78af_0: sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
+docker: quay.io/biocontainers/baczy
+aliases:
+  baczy: /usr/local/bin/baczy
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  numpy-config: /usr/local/bin/numpy-config
+  tabulate: /usr/local/bin/tabulate
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot

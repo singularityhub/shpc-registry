@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/adas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for adas
+latest:
+  0.1.3--h3ab6199_0: sha256:d64f28f6bcb567cef430e78bf80e741d7fbfd723fb533f17db6283e3a5294792
+tags:
+  0.1.3--h3ab6199_0: sha256:d64f28f6bcb567cef430e78bf80e741d7fbfd723fb533f17db6283e3a5294792
+docker: quay.io/biocontainers/adas
+aliases:
+  adas-build: /usr/local/bin/adas-build
+  adas-chain: /usr/local/bin/adas-chain
+  adas-insert: /usr/local/bin/adas-insert
+  adas-knn: /usr/local/bin/adas-knn
+  adas-search: /usr/local/bin/adas-search
+  usearch: /usr/local/bin/usearch

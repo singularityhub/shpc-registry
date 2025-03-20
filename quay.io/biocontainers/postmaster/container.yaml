@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/postmaster
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for postmaster
+latest:
+  0.1.0--ha6fb395_0: sha256:4d5d721df3f89ff964d9031eb183e443d898d5b1cb02d635b5232660a9aa88b9
+tags:
+  0.1.0--ha6fb395_0: sha256:4d5d721df3f89ff964d9031eb183e443d898d5b1cb02d635b5232660a9aa88b9
+docker: quay.io/biocontainers/postmaster
+aliases:
+  postmaster: /usr/local/bin/postmaster
