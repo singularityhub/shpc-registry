@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ctc-scite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ctc-scite
+latest:
+  1.0.2--h9948957_0: sha256:32221834cd06f88dee0f7e0adf56ad7b924773fe9a16c15ef6a27baf82225c24
+tags:
+  1.0.2--h9948957_0: sha256:32221834cd06f88dee0f7e0adf56ad7b924773fe9a16c15ef6a27baf82225c24
+docker: quay.io/biocontainers/ctc-scite
+aliases:
+  CTC-SCITE: /usr/local/bin/CTC-SCITE

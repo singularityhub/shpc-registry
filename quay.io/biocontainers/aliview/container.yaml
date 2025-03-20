@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/aliview
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aliview
+latest:
+  1.30--hdfd78af_0: sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d
+tags:
+  1.30--hdfd78af_0: sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d
+docker: quay.io/biocontainers/aliview
+aliases:
+  aliview: /usr/local/bin/aliview
+  aliview-test: /usr/local/bin/aliview-test
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo

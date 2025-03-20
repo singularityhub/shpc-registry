@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/a3partitioner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for a3partitioner
+latest:
+  0.1.0--pyhdfd78af_1: sha256:7ce54950ab4b7b431466f81fbabc9e5a82a55959b0add1ac529d8dcab9225b0f
+tags:
+  0.1.0--pyhdfd78af_1: sha256:7ce54950ab4b7b431466f81fbabc9e5a82a55959b0add1ac529d8dcab9225b0f
+docker: quay.io/biocontainers/a3partitioner
+aliases:
+  A3Partitioner: /usr/local/bin/A3Partitioner
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

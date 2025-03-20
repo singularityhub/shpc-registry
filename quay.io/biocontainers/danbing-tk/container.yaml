@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/danbing-tk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for danbing-tk
+latest:
+  1.3.2.5--h9948957_0: sha256:abd729a7da90df8c79b94af631fd5127b9ccd25f89a3ad3eb3ef1c731d30aae1
+tags:
+  1.3.2.5--h9948957_0: sha256:abd729a7da90df8c79b94af631fd5127b9ccd25f89a3ad3eb3ef1c731d30aae1
+docker: quay.io/biocontainers/danbing-tk
+aliases:
+  danbing-tk: /usr/local/bin/danbing-tk
+  danbing-tk-pred: /usr/local/bin/danbing-tk-pred
+  genPanKmers: /usr/local/bin/genPanKmers
+  ktools: /usr/local/bin/ktools
+  vntr2kmers_thread: /usr/local/bin/vntr2kmers_thread

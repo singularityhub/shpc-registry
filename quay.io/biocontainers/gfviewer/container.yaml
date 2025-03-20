@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/gfviewer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gfviewer
+latest:
+  1.0.4--pyhdfd78af_0: sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c
+tags:
+  1.0.4--pyhdfd78af_0: sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c
+docker: quay.io/biocontainers/gfviewer
+aliases:
+  gfviewer: /usr/local/bin/gfviewer
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  chardetect: /usr/local/bin/chardetect
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

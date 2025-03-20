@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/s4pred
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for s4pred
+latest:
+  1.2.0--pyhdfd78af_1: sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa
+tags:
+  1.2.0--pyhdfd78af_1: sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa
+docker: quay.io/biocontainers/s4pred
+aliases:
+  network.py: /usr/local/bin/network.py
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  run_model.py: /usr/local/bin/run_model.py
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  utilities.py: /usr/local/bin/utilities.py
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  numpy-config: /usr/local/bin/numpy-config
+  protoc: /usr/local/bin/protoc

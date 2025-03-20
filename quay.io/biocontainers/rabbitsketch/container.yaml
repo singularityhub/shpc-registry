@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/rabbitsketch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rabbitsketch
+latest:
+  0.1.1--py39h5ca1c30_0: sha256:e83ae4fc237c9c6368d914f5288858503f20a6979ae24097c840edb1104dc0b9
+tags:
+  0.1.1--py39h5ca1c30_0: sha256:e83ae4fc237c9c6368d914f5288858503f20a6979ae24097c840edb1104dc0b9
+docker: quay.io/biocontainers/rabbitsketch
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

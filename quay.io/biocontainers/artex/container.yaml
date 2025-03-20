@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/artex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for artex
+latest:
+  0.2.0--py39h9ee0642_0: sha256:1ad9d09241b0db0fd841b82b2b45f1911800429543831d1718ff61da500f7f59
+tags:
+  0.2.0--py39h9ee0642_0: sha256:1ad9d09241b0db0fd841b82b2b45f1911800429543831d1718ff61da500f7f59
+docker: quay.io/biocontainers/artex
+aliases:
+  artex: /usr/local/bin/artex
+  artex.py: /usr/local/bin/artex.py
+  clair3.py: /usr/local/bin/clair3.py
+  libclair3.c: /usr/local/bin/libclair3.c
+  libclair3.o: /usr/local/bin/libclair3.o
+  longphase: /usr/local/bin/longphase
+  pypy: /usr/local/bin/pypy
+  pypy3: /usr/local/bin/pypy3
+  pypy3.6: /usr/local/bin/pypy3.6
+  run_clair3.sh: /usr/local/bin/run_clair3.sh
+  whatshap: /usr/local/bin/whatshap
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  cpuinfo: /usr/local/bin/cpuinfo
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  tflite_convert: /usr/local/bin/tflite_convert

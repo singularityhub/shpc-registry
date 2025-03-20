@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/metator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metator
+latest:
+  1.3.7--py310h184ae93_0: sha256:7721be1aa351decc23b03a806e671dac57815d17f082e954b3ebf1cdbd0c83f1
+tags:
+  1.3.7--py310h184ae93_0: sha256:7721be1aa351decc23b03a806e671dac57815d17f082e954b3ebf1cdbd0c83f1
+docker: quay.io/biocontainers/metator
+aliases:
+  boostchr.pl: /usr/local/bin/boostchr.pl
+  checkv: /usr/local/bin/checkv
+  column_remover.pl.bak: /usr/local/bin/column_remover.pl.bak
+  create_randompairs.pl: /usr/local/bin/create_randompairs.pl
+  duplicate_header_remover.pl.bak: /usr/local/bin/duplicate_header_remover.pl.bak
+  fragment_4dnpairs.pl.bak: /usr/local/bin/fragment_4dnpairs.pl.bak
+  hicstuff: /usr/local/bin/hicstuff
+  juicer_shortform2pairs.pl.bak: /usr/local/bin/juicer_shortform2pairs.pl.bak
+  merged_nodup2pairs.pl.bak: /usr/local/bin/merged_nodup2pairs.pl.bak
+  metator: /usr/local/bin/metator
+  miComplete: /usr/local/bin/miComplete
+  miCompletelist.sh: /usr/local/bin/miCompletelist.sh
+  old_merged_nodup2pairs.pl.bak: /usr/local/bin/old_merged_nodup2pairs.pl.bak
+  pairtools: /usr/local/bin/pairtools
+  pbgzip: /usr/local/bin/pbgzip
+  prodigal-gv: /usr/local/bin/prodigal-gv
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  cooler: /usr/local/bin/cooler
+  pyfastx: /usr/local/bin/pyfastx
+  get_gprof: /usr/local/bin/get_gprof
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix
+  pairs_merger: /usr/local/bin/pairs_merger
+  process_merged_nodup.sh: /usr/local/bin/process_merged_nodup.sh
+  process_old_merged_nodup.sh: /usr/local/bin/process_old_merged_nodup.sh
+  streamer_1d: /usr/local/bin/streamer_1d
+  dask: /usr/local/bin/dask
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  jwebserver: /usr/local/bin/jwebserver
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
