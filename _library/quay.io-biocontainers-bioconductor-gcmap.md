@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcmap/container.yaml"
-updated_at: "2025-03-20 03:29:04.866560"
+updated_at: "2025-03-20 04:32:06.006636"
 latest: "1.32.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcmap"
 aliases:
