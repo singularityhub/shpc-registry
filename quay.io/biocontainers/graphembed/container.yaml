@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/graphembed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for graphembed
 latest:
-  0.1.2--hdbdd923_0: sha256:10e62d96b6440b659d162781e98444913b335f0f4982090b97c82678952c0c66
+  0.1.4--h4e5be46_0: sha256:7619d4f38296f155746149baef5204f268dcfcbf2f9566dec690b0f558781377
 tags:
   0.1.0--hdbdd923_0: sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4
   0.1.1--hdbdd923_1: sha256:c9b7cb282bd49de4215c586c712f211c628fff7b7f0b72a75d74aa90283d64f6
   0.1.2--hdbdd923_0: sha256:10e62d96b6440b659d162781e98444913b335f0f4982090b97c82678952c0c66
+  0.1.4--h4e5be46_0: sha256:7619d4f38296f155746149baef5204f268dcfcbf2f9566dec690b0f558781377
 docker: quay.io/biocontainers/graphembed
 aliases:
   graphembed: /usr/local/bin/graphembed
