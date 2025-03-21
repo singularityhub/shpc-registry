@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/busco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/busco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/busco/container.yaml"
-updated_at: "2025-03-20 04:48:28.459227"
-latest: "5.8.2--pyhdfd78af_0"
+updated_at: "2025-03-21 03:47:43.195721"
+latest: "5.8.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/busco"
 aliases:
  - "busco"
@@ -47,8 +47,9 @@ versions:
  - "5.7.1--pyhdfd78af_1"
  - "5.8.0--pyhdfd78af_0"
  - "5.8.2--pyhdfd78af_0"
+ - "5.8.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for busco"
-config: {"url": "https://biocontainers.pro/tools/busco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for busco", "latest": {"5.8.2--pyhdfd78af_0": "sha256:b4b41cb8bf8d8f0ff57dc025e93182bbd14c062dbf11b98ef630db823bdd6b0a"}, "tags": {"4.1.2--py37r40_0": "sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1", "5.7.0--pyhdfd78af_0": "sha256:fb9972cb0b77fc29e28f48739c3b370226d02e22223401f9dcb925e8bd1976cd", "5.6.1--pyhdfd78af_0": "sha256:aa724be24b14a1f28f1f02e8a7dc25e498e42282dfb34aad94edc69ce6cb4e16", "5.5.0--pyhdfd78af_0": "sha256:01947bc2d13c5318d8f571603355df73213ec3ce5c24a04ac88572b165062f87", "5.4.7--pyhdfd78af_0": "sha256:f5ef1f64076deb66ed015d0b6692619610eb1de22f0a9741bbf0ea8434d06404", "5.3.2--pyhdfd78af_0": "sha256:900fc79245c3f6df7b2efe986d030c9a5f6fe21f1f000a4e6f09ff41da7def42", "5.7.0--pyhdfd78af_1": "sha256:c674cadefd88d39f9594973a043fc9600680a9054bc826d5b599a647ad7f2604", "5.7.1--pyhdfd78af_0": "sha256:dfdd6716b6ef376bb215fac3de664b4112bd212ef45cfb65a468e4067d4aec5e", "5.7.1--pyhdfd78af_1": "sha256:6f29d159a1f627772af61105c444cbc0aa3f20296fbc9a5a0c170fbb71f7eb7e", "5.8.0--pyhdfd78af_0": "sha256:5261865d844332061506157064abfd6ff3f96520f0f1272451174dd3ee42e4fe", "5.8.2--pyhdfd78af_0": "sha256:b4b41cb8bf8d8f0ff57dc025e93182bbd14c062dbf11b98ef630db823bdd6b0a"}, "docker": "quay.io/biocontainers/busco", "aliases": {"busco": "/usr/local/bin/busco", "busco_configurator.py": "/usr/local/bin/busco_configurator.py", "find": "/usr/local/bin/find", "generate_plot.py": "/usr/local/bin/generate_plot.py", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "locate": "/usr/local/bin/locate", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_abundance.py": "/usr/local/bin/run_abundance.py", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_tipp.py": "/usr/local/bin/run_tipp.py", "run_tipp_tool.py": "/usr/local/bin/run_tipp_tool.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py", "updatedb": "/usr/local/bin/updatedb", "xargs": "/usr/local/bin/xargs", "augustus": "/usr/local/bin/augustus", "bam2hints": "/usr/local/bin/bam2hints", "etraining": "/usr/local/bin/etraining", "fastBlockSearch": "/usr/local/bin/fastBlockSearch", "filterBam": "/usr/local/bin/filterBam", "homGeneMapping": "/usr/local/bin/homGeneMapping", "joingenes": "/usr/local/bin/joingenes", "prepareAlign": "/usr/local/bin/prepareAlign", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer"}}
+config: {"url": "https://biocontainers.pro/tools/busco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for busco", "latest": {"5.8.3--pyhdfd78af_0": "sha256:74dfa85a259b578bfefd7d34d96dcc2434f1999f73663f8c5cf5227066251757"}, "tags": {"4.1.2--py37r40_0": "sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1", "5.7.0--pyhdfd78af_0": "sha256:fb9972cb0b77fc29e28f48739c3b370226d02e22223401f9dcb925e8bd1976cd", "5.6.1--pyhdfd78af_0": "sha256:aa724be24b14a1f28f1f02e8a7dc25e498e42282dfb34aad94edc69ce6cb4e16", "5.5.0--pyhdfd78af_0": "sha256:01947bc2d13c5318d8f571603355df73213ec3ce5c24a04ac88572b165062f87", "5.4.7--pyhdfd78af_0": "sha256:f5ef1f64076deb66ed015d0b6692619610eb1de22f0a9741bbf0ea8434d06404", "5.3.2--pyhdfd78af_0": "sha256:900fc79245c3f6df7b2efe986d030c9a5f6fe21f1f000a4e6f09ff41da7def42", "5.7.0--pyhdfd78af_1": "sha256:c674cadefd88d39f9594973a043fc9600680a9054bc826d5b599a647ad7f2604", "5.7.1--pyhdfd78af_0": "sha256:dfdd6716b6ef376bb215fac3de664b4112bd212ef45cfb65a468e4067d4aec5e", "5.7.1--pyhdfd78af_1": "sha256:6f29d159a1f627772af61105c444cbc0aa3f20296fbc9a5a0c170fbb71f7eb7e", "5.8.0--pyhdfd78af_0": "sha256:5261865d844332061506157064abfd6ff3f96520f0f1272451174dd3ee42e4fe", "5.8.2--pyhdfd78af_0": "sha256:b4b41cb8bf8d8f0ff57dc025e93182bbd14c062dbf11b98ef630db823bdd6b0a", "5.8.3--pyhdfd78af_0": "sha256:74dfa85a259b578bfefd7d34d96dcc2434f1999f73663f8c5cf5227066251757"}, "docker": "quay.io/biocontainers/busco", "aliases": {"busco": "/usr/local/bin/busco", "busco_configurator.py": "/usr/local/bin/busco_configurator.py", "find": "/usr/local/bin/find", "generate_plot.py": "/usr/local/bin/generate_plot.py", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "locate": "/usr/local/bin/locate", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_abundance.py": "/usr/local/bin/run_abundance.py", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_tipp.py": "/usr/local/bin/run_tipp.py", "run_tipp_tool.py": "/usr/local/bin/run_tipp_tool.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py", "updatedb": "/usr/local/bin/updatedb", "xargs": "/usr/local/bin/xargs", "augustus": "/usr/local/bin/augustus", "bam2hints": "/usr/local/bin/bam2hints", "etraining": "/usr/local/bin/etraining", "fastBlockSearch": "/usr/local/bin/fastBlockSearch", "filterBam": "/usr/local/bin/filterBam", "homGeneMapping": "/usr/local/bin/homGeneMapping", "joingenes": "/usr/local/bin/joingenes", "prepareAlign": "/usr/local/bin/prepareAlign", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/busco.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/busco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/busco:5.8.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/busco:5.8.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/busco/5.8.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/busco/5.8.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/busco/5.8.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/busco/5.8.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
