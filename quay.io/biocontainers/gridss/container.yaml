@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gridss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gridss
 latest:
-  2.13.2--h96c455f_4: sha256:c828764004b01eef43a7a127eba5df0dbbe4ad648edc422e8a7df601d626400d
+  2.13.2--h96c455f_5: sha256:ca89393232527733fa688c495c3990c659fb2b98e36d16ca4f53e19ad92f95b8
 tags:
   2.9.4--0: sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd
   2.13.2--h20b1175_1: sha256:886fe9d43ff1068edefe4a07ae8a04c061e2f8e8bcfb7708df9126ac24250562
@@ -12,6 +12,7 @@ tags:
   2.13.2--h50ea8bc_2: sha256:0c2bac7239c7b63052f190fc80cba00f927971a6b37026480f4cfcbcce8636a3
   2.13.2--h50ea8bc_3: sha256:20edbcb22424f8211452e699afb3175b07c32ac61058b899e7a35c356e84e609
   2.13.2--h96c455f_4: sha256:c828764004b01eef43a7a127eba5df0dbbe4ad648edc422e8a7df601d626400d
+  2.13.2--h96c455f_5: sha256:ca89393232527733fa688c495c3990c659fb2b98e36d16ca4f53e19ad92f95b8
 docker: quay.io/biocontainers/gridss
 aliases:
   AllocateEvidence: /usr/local/bin/AllocateEvidence

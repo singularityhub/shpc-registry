@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fusion-filter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fusion-filter
 latest:
-  0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
+  0.5.0--hdfd78af_4: sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
 tags:
   0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
+  0.5.0--hdfd78af_4: sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
 docker: quay.io/biocontainers/fusion-filter
 aliases:
   atoiindex: /usr/local/bin/atoiindex

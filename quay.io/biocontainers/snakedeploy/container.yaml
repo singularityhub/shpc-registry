@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/snakedeploy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakedeploy
 latest:
-  0.10.3--pyhdfd78af_0: sha256:09d3442c15bb5525c84bea140a6e9585459264eb22066a05fb3eb40a11a19a8b
+  0.11.0--pyhdfd78af_0: sha256:73c1e51d04f75b29d30b3684be1f7d33d07aa936b51ac1e3f272c51cd49f27ed
 tags:
   0.8.0--pyhdfd78af_0: sha256:ab1fe650062ca9569927922e032a88c803cdbb676e0c63f0ec914c887c9d1360
   0.8.2--pyhdfd78af_0: sha256:1fbf6bc7e28443f563e977bd9710c5bda4444ae58164368bf60b4ff7aab0b2a3
@@ -11,6 +11,8 @@ tags:
   0.10.0--pyhdfd78af_0: sha256:5076e1ee237b817f6d6f396293637ddd76c8d44184b014bb729eb8a6ec293d8f
   0.10.2--pyhdfd78af_0: sha256:e10af7f4b26a1fb8b203d271f68ba65ac62579b0014df6b7bdd73ca6047af6cf
   0.10.3--pyhdfd78af_0: sha256:09d3442c15bb5525c84bea140a6e9585459264eb22066a05fb3eb40a11a19a8b
+  0.11.0--pyhdfd78af_0: sha256:73c1e51d04f75b29d30b3684be1f7d33d07aa936b51ac1e3f272c51cd49f27ed
+  0.10.4--pyhdfd78af_0: sha256:a49349a1d6c98f4784ce6543e2290a785ae2250393940290a1e3f750e28a836d
 docker: quay.io/biocontainers/snakedeploy
 aliases:
   snakedeploy: /usr/local/bin/snakedeploy
