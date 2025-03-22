@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parent/container.yaml"
-updated_at: "2025-03-21 03:15:43.161857"
+updated_at: "2025-03-22 03:12:25.571065"
 latest: "0.236--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-parent"
 aliases:

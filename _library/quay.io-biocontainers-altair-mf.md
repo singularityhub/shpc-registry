@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/altair-mf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altair-mf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altair-mf/container.yaml"
-updated_at: "2025-03-21 03:48:19.343608"
+updated_at: "2025-03-22 03:45:57.351555"
 latest: "1.0.1--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/altair-mf"
 aliases:

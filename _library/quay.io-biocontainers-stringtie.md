@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stringtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringtie/container.yaml"
-updated_at: "2025-03-21 03:38:35.965382"
+updated_at: "2025-03-22 03:35:59.857113"
 latest: "3.0.0--h29c0135_0"
 container_url: "https://biocontainers.pro/tools/stringtie"
 aliases:

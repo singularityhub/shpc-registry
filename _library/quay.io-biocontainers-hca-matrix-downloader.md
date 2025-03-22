@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hca-matrix-downloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hca-matrix-downloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hca-matrix-downloader/container.yaml"
-updated_at: "2025-03-21 03:30:27.191447"
+updated_at: "2025-03-22 03:27:37.976721"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/hca-matrix-downloader"
 aliases:

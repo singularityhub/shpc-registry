@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-missrows"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-missrows/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-missrows/container.yaml"
-updated_at: "2025-03-21 03:43:26.904611"
+updated_at: "2025-03-22 03:40:59.951969"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-missrows"
 aliases:

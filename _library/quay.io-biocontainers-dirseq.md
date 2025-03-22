@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dirseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dirseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dirseq/container.yaml"
-updated_at: "2025-03-21 03:35:20.391662"
+updated_at: "2025-03-22 03:32:39.395148"
 latest: "0.4.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dirseq"
 aliases:

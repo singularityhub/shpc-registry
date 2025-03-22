@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nucleosome_prediction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucleosome_prediction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucleosome_prediction/container.yaml"
-updated_at: "2025-03-21 03:12:25.700854"
+updated_at: "2025-03-22 03:08:55.438966"
 latest: "3.0--pl5321h503566f_7"
 container_url: "https://biocontainers.pro/tools/nucleosome_prediction"
 aliases:

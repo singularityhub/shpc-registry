@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/feht"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/feht/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/feht/container.yaml"
-updated_at: "2025-03-21 03:00:28.711476"
+updated_at: "2025-03-22 02:56:43.909729"
 latest: "1.1.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/feht"
 aliases:

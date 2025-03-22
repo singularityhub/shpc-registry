@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/latch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/latch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/latch/container.yaml"
-updated_at: "2025-03-21 03:34:29.448067"
-latest: "2.19.11--pyhdfd78af_0"
+updated_at: "2025-03-22 03:31:47.006227"
+latest: "2.57.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/latch"
 aliases:
  - "apython"
@@ -57,8 +57,9 @@ aliases:
  - "pyrsa-priv2pub"
 versions:
  - "2.19.11--pyhdfd78af_0"
+ - "2.57.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for latch"
-config: {"url": "https://biocontainers.pro/tools/latch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for latch", "latest": {"2.19.11--pyhdfd78af_0": "sha256:439b0bf3495c40a02297b70a3c0d90e6b1d3b3120a5c727038abbc52653b27b4"}, "tags": {"2.19.11--pyhdfd78af_0": "sha256:439b0bf3495c40a02297b70a3c0d90e6b1d3b3120a5c727038abbc52653b27b4"}, "docker": "quay.io/biocontainers/latch", "aliases": {"apython": "/usr/local/bin/apython", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "cookiecutter": "/usr/local/bin/cookiecutter", "entrypoint.py": "/usr/local/bin/entrypoint.py", "flyte-cli": "/usr/local/bin/flyte-cli", "flytekit_build_image.sh": "/usr/local/bin/flytekit_build_image.sh", "flytekit_venv": "/usr/local/bin/flytekit_venv", "gql-cli": "/usr/local/bin/gql-cli", "keyring": "/usr/local/bin/keyring", "latch": "/usr/local/bin/latch", "publish.py": "/usr/local/bin/publish.py", "pyflyte": "/usr/local/bin/pyflyte", "pyflyte-execute": "/usr/local/bin/pyflyte-execute", "pyflyte-fast-execute": "/usr/local/bin/pyflyte-fast-execute", "pyflyte-map-execute": "/usr/local/bin/pyflyte-map-execute", "slugify": "/usr/local/bin/slugify", "watchfiles": "/usr/local/bin/watchfiles", "wsdump": "/usr/local/bin/wsdump", "unidecode": "/usr/local/bin/unidecode", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "jp.py": "/usr/local/bin/jp.py", "natsort": "/usr/local/bin/natsort", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
+config: {"url": "https://biocontainers.pro/tools/latch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for latch", "latest": {"2.57.3--pyhdfd78af_0": "sha256:1cde9cd72ed23a643532b4909546b0d8589e37805717e491343a02f9fc756cfc"}, "tags": {"2.19.11--pyhdfd78af_0": "sha256:439b0bf3495c40a02297b70a3c0d90e6b1d3b3120a5c727038abbc52653b27b4", "2.57.3--pyhdfd78af_0": "sha256:1cde9cd72ed23a643532b4909546b0d8589e37805717e491343a02f9fc756cfc"}, "docker": "quay.io/biocontainers/latch", "aliases": {"apython": "/usr/local/bin/apython", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "cookiecutter": "/usr/local/bin/cookiecutter", "entrypoint.py": "/usr/local/bin/entrypoint.py", "flyte-cli": "/usr/local/bin/flyte-cli", "flytekit_build_image.sh": "/usr/local/bin/flytekit_build_image.sh", "flytekit_venv": "/usr/local/bin/flytekit_venv", "gql-cli": "/usr/local/bin/gql-cli", "keyring": "/usr/local/bin/keyring", "latch": "/usr/local/bin/latch", "publish.py": "/usr/local/bin/publish.py", "pyflyte": "/usr/local/bin/pyflyte", "pyflyte-execute": "/usr/local/bin/pyflyte-execute", "pyflyte-fast-execute": "/usr/local/bin/pyflyte-fast-execute", "pyflyte-map-execute": "/usr/local/bin/pyflyte-map-execute", "slugify": "/usr/local/bin/slugify", "watchfiles": "/usr/local/bin/watchfiles", "wsdump": "/usr/local/bin/wsdump", "unidecode": "/usr/local/bin/unidecode", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "jp.py": "/usr/local/bin/jp.py", "natsort": "/usr/local/bin/natsort", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/latch.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/latch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/latch:2.19.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/latch:2.57.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/latch/2.19.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/latch/2.19.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/latch/2.57.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/latch/2.57.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
