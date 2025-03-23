@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/get_fasta_info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_fasta_info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_fasta_info/container.yaml"
-updated_at: "2025-03-22 03:09:14.869752"
-latest: "2.4--h577a1d6_3"
+updated_at: "2025-03-23 03:17:19.688204"
+latest: "2.5.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/get_fasta_info"
 aliases:
  - "get_fasta_info"
@@ -14,8 +14,9 @@ versions:
  - "2.4--h7132678_0"
  - "2.4--he4a0461_2"
  - "2.4--h577a1d6_3"
+ - "2.5.0--h577a1d6_0"
 description: "singularity registry hpc automated addition for get_fasta_info"
-config: {"url": "https://biocontainers.pro/tools/get_fasta_info", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_fasta_info", "latest": {"2.4--h577a1d6_3": "sha256:195afb18e99f17dd70711c7175e2074d9da3830a14cd6df2e9b94bdb9b4ed9e8"}, "tags": {"2.4--h7132678_0": "sha256:1d2e5a089c229cc1215b63ed870f234f3fd5032e1afce41c5c178df2318f09ae", "2.4--he4a0461_2": "sha256:6cd9c895b3b5fb70461dba6fc556c70245fd3f0d293029417f17b85fe57c90d4", "2.4--h577a1d6_3": "sha256:195afb18e99f17dd70711c7175e2074d9da3830a14cd6df2e9b94bdb9b4ed9e8"}, "docker": "quay.io/biocontainers/get_fasta_info", "aliases": {"get_fasta_info": "/usr/local/bin/get_fasta_info", "get_fastq_info": "/usr/local/bin/get_fastq_info"}}
+config: {"url": "https://biocontainers.pro/tools/get_fasta_info", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_fasta_info", "latest": {"2.5.0--h577a1d6_0": "sha256:9a25dd627a230e24aca0c774e04e4a809e60dc2a4bf65e4ba423987890aaa704"}, "tags": {"2.4--h7132678_0": "sha256:1d2e5a089c229cc1215b63ed870f234f3fd5032e1afce41c5c178df2318f09ae", "2.4--he4a0461_2": "sha256:6cd9c895b3b5fb70461dba6fc556c70245fd3f0d293029417f17b85fe57c90d4", "2.4--h577a1d6_3": "sha256:195afb18e99f17dd70711c7175e2074d9da3830a14cd6df2e9b94bdb9b4ed9e8", "2.5.0--h577a1d6_0": "sha256:9a25dd627a230e24aca0c774e04e4a809e60dc2a4bf65e4ba423987890aaa704"}, "docker": "quay.io/biocontainers/get_fasta_info", "aliases": {"get_fasta_info": "/usr/local/bin/get_fasta_info", "get_fastq_info": "/usr/local/bin/get_fastq_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/get_fasta_info.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/get_fasta_info
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/get_fasta_info:2.4--h577a1d6_3
+$ shpc install quay.io/biocontainers/get_fasta_info:2.5.0--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/get_fasta_info/2.4--h577a1d6_3
-$ module help quay.io/biocontainers/get_fasta_info/2.4--h577a1d6_3
+$ module load quay.io/biocontainers/get_fasta_info/2.5.0--h577a1d6_0
+$ module help quay.io/biocontainers/get_fasta_info/2.5.0--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

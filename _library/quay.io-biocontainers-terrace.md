@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/terrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/terrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/terrace/container.yaml"
-updated_at: "2025-03-22 02:56:27.470450"
+updated_at: "2025-03-23 03:04:53.869425"
 latest: "1.1.2--he153687_0"
 container_url: "https://biocontainers.pro/tools/terrace"
 aliases:

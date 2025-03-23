@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/acms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acms/container.yaml"
-updated_at: "2025-03-22 03:37:19.341880"
+updated_at: "2025-03-23 03:44:17.894674"
 latest: "1.3.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/acms"
 aliases:

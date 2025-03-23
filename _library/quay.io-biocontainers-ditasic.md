@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ditasic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ditasic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ditasic/container.yaml"
-updated_at: "2025-03-22 03:04:45.919326"
+updated_at: "2025-03-23 03:13:04.503949"
 latest: "0.2--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/ditasic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bis-snp-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bis-snp-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bis-snp-utils/container.yaml"
-updated_at: "2025-03-22 03:21:50.999607"
+updated_at: "2025-03-23 03:29:19.878736"
 latest: "0.0.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bis-snp-utils"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methrix/container.yaml"
-updated_at: "2025-03-22 03:09:51.351686"
+updated_at: "2025-03-23 03:17:52.934897"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methrix"
 

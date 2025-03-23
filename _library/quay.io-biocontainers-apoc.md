@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/apoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apoc/container.yaml"
-updated_at: "2025-03-22 03:07:17.259232"
+updated_at: "2025-03-23 03:15:31.257934"
 latest: "1b16--hb48dae3_4"
 container_url: "https://biocontainers.pro/tools/apoc"
 aliases:

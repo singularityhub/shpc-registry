@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-nav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-nav/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-nav/container.yaml"
-updated_at: "2025-03-22 03:32:14.810522"
+updated_at: "2025-03-23 03:39:22.812983"
 latest: "0.5--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-nav"
 aliases:

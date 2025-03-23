@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtforms-alchemy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
-updated_at: "2025-03-22 02:57:25.106229"
+updated_at: "2025-03-23 03:05:50.695652"
 latest: "0.16.9--py_0"
 container_url: "https://biocontainers.pro/tools/wtforms-alchemy"
 aliases:

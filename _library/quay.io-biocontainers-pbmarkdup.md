@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbmarkdup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbmarkdup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbmarkdup/container.yaml"
-updated_at: "2025-03-22 03:44:03.990950"
-latest: "1.1.0--h9ee0642_0"
+updated_at: "2025-03-23 03:50:46.379936"
+latest: "1.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbmarkdup"
 aliases:
  - "pbmarkdup"
@@ -13,8 +13,9 @@ versions:
  - "1.0.2--0"
  - "1.0.3--h9ee0642_0"
  - "1.1.0--h9ee0642_0"
+ - "1.2.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for pbmarkdup"
-config: {"url": "https://biocontainers.pro/tools/pbmarkdup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbmarkdup", "latest": {"1.1.0--h9ee0642_0": "sha256:fe95bcac1e809b1230e8526a8feb8d5e6648113439309a68a6de0919c83a5a2d"}, "tags": {"1.0.2--0": "sha256:fa876b4e8673e6b5e77b9c9022d9a61d1796a5a02a29df21c4debc7afababece", "1.0.3--h9ee0642_0": "sha256:4d67bb1b30c687a5ff1318796c0a89cdc4fd5c8a092f4847c97863ed659addcd", "1.1.0--h9ee0642_0": "sha256:fe95bcac1e809b1230e8526a8feb8d5e6648113439309a68a6de0919c83a5a2d"}, "docker": "quay.io/biocontainers/pbmarkdup", "aliases": {"pbmarkdup": "/usr/local/bin/pbmarkdup"}}
+config: {"url": "https://biocontainers.pro/tools/pbmarkdup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbmarkdup", "latest": {"1.2.0--h9ee0642_0": "sha256:f95a56a5bb842d7943650398e8fd4f6db2bb4c9ef674957c539beabf21bc8e02"}, "tags": {"1.0.2--0": "sha256:fa876b4e8673e6b5e77b9c9022d9a61d1796a5a02a29df21c4debc7afababece", "1.0.3--h9ee0642_0": "sha256:4d67bb1b30c687a5ff1318796c0a89cdc4fd5c8a092f4847c97863ed659addcd", "1.1.0--h9ee0642_0": "sha256:fe95bcac1e809b1230e8526a8feb8d5e6648113439309a68a6de0919c83a5a2d", "1.2.0--h9ee0642_0": "sha256:f95a56a5bb842d7943650398e8fd4f6db2bb4c9ef674957c539beabf21bc8e02"}, "docker": "quay.io/biocontainers/pbmarkdup", "aliases": {"pbmarkdup": "/usr/local/bin/pbmarkdup"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbmarkdup.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pbmarkdup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbmarkdup:1.1.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/pbmarkdup:1.2.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbmarkdup/1.1.0--h9ee0642_0
-$ module help quay.io/biocontainers/pbmarkdup/1.1.0--h9ee0642_0
+$ module load quay.io/biocontainers/pbmarkdup/1.2.0--h9ee0642_0
+$ module help quay.io/biocontainers/pbmarkdup/1.2.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

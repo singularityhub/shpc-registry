@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirsynergy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirsynergy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirsynergy/container.yaml"
-updated_at: "2025-03-22 03:11:52.195259"
+updated_at: "2025-03-23 03:19:45.473061"
 latest: "1.23.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirsynergy"
 aliases:

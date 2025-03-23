@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-srnadiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-srnadiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-srnadiff/container.yaml"
-updated_at: "2025-03-22 03:11:52.771698"
+updated_at: "2025-03-23 03:19:46.031309"
 latest: "1.22.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-srnadiff"
 aliases:

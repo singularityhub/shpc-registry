@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tandem-genotypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tandem-genotypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tandem-genotypes/container.yaml"
-updated_at: "2025-03-22 03:36:05.952770"
+updated_at: "2025-03-23 03:43:07.120823"
 latest: "1.9.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/tandem-genotypes"
 aliases:

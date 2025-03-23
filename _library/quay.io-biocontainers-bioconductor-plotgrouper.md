@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plotgrouper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plotgrouper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plotgrouper/container.yaml"
-updated_at: "2025-03-22 03:45:35.572150"
+updated_at: "2025-03-23 03:52:14.882649"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plotgrouper"
 aliases:

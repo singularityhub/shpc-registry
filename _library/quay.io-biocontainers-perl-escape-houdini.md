@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-escape-houdini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-escape-houdini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-escape-houdini/container.yaml"
-updated_at: "2025-03-22 03:26:59.932498"
+updated_at: "2025-03-23 03:34:18.702898"
 latest: "0.3.0--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/perl-escape-houdini"
 aliases:

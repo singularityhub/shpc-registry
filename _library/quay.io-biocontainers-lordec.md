@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lordec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lordec/container.yaml"
-updated_at: "2025-03-22 03:02:37.220856"
+updated_at: "2025-03-23 03:10:57.916542"
 latest: "0.9--h77376b9_3"
 container_url: "https://biocontainers.pro/tools/lordec"
 aliases:

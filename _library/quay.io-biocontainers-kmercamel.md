@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmercamel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmercamel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmercamel/container.yaml"
-updated_at: "2025-03-22 02:56:27.756096"
-latest: "1.0.2--ha119d93_2"
+updated_at: "2025-03-23 03:04:54.146984"
+latest: "2.0.0--ha119d93_0"
 container_url: "https://biocontainers.pro/tools/kmercamel"
 aliases:
  - "kmercamel"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.2--hc4f6fa1_1"
  - "1.0.2--ha119d93_2"
+ - "2.0.0--ha119d93_0"
 description: "singularity registry hpc automated addition for kmercamel"
-config: {"url": "https://biocontainers.pro/tools/kmercamel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmercamel", "latest": {"1.0.2--ha119d93_2": "sha256:3ec068690aea86436331bd6dfc5829261d69505a8e402a4c79d728e89bbad294"}, "tags": {"1.0.2--hc4f6fa1_1": "sha256:c73a9cd0fab7231251c3879d36b99ede97d29d9671fe9295dd93744f0745121e", "1.0.2--ha119d93_2": "sha256:3ec068690aea86436331bd6dfc5829261d69505a8e402a4c79d728e89bbad294"}, "docker": "quay.io/biocontainers/kmercamel", "aliases": {"kmercamel": "/usr/local/bin/kmercamel", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/kmercamel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmercamel", "latest": {"2.0.0--ha119d93_0": "sha256:b38ae3c1ecc2d72d72192a50ad6c7372eab3bc0051d86c7a096bd0b4c27bad25"}, "tags": {"1.0.2--hc4f6fa1_1": "sha256:c73a9cd0fab7231251c3879d36b99ede97d29d9671fe9295dd93744f0745121e", "1.0.2--ha119d93_2": "sha256:3ec068690aea86436331bd6dfc5829261d69505a8e402a4c79d728e89bbad294", "2.0.0--ha119d93_0": "sha256:b38ae3c1ecc2d72d72192a50ad6c7372eab3bc0051d86c7a096bd0b4c27bad25"}, "docker": "quay.io/biocontainers/kmercamel", "aliases": {"kmercamel": "/usr/local/bin/kmercamel", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmercamel.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kmercamel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmercamel:1.0.2--ha119d93_2
+$ shpc install quay.io/biocontainers/kmercamel:2.0.0--ha119d93_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmercamel/1.0.2--ha119d93_2
-$ module help quay.io/biocontainers/kmercamel/1.0.2--ha119d93_2
+$ module load quay.io/biocontainers/kmercamel/2.0.0--ha119d93_0
+$ module help quay.io/biocontainers/kmercamel/2.0.0--ha119d93_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
