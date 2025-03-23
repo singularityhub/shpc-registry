@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-data-dump
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-data-dump
 latest:
-  1.25--pl5321hec16e2b_1: sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503
+  1.25--pl5321h7b50bb2_2: sha256:9303db3377afddd2b9e42ac229699db916072dd033846f9c523bca678bbfc888
 tags:
   1.25--pl5321hec16e2b_1: sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503
+  1.25--pl5321h7b50bb2_2: sha256:9303db3377afddd2b9e42ac229699db916072dd033846f9c523bca678bbfc888
 docker: quay.io/biocontainers/perl-data-dump
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
