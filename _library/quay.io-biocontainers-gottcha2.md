@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gottcha2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gottcha2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gottcha2/container.yaml"
-updated_at: "2025-03-23 03:45:53.891103"
-latest: "2.1.8.8--pyhdfd78af_0"
+updated_at: "2025-03-24 03:47:29.113598"
+latest: "2.1.8.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gottcha2"
 aliases:
  - "cmd.py"
@@ -45,8 +45,9 @@ versions:
  - "2.1.8.6--pyhdfd78af_0"
  - "2.1.8.7--pyhdfd78af_0"
  - "2.1.8.8--pyhdfd78af_0"
+ - "2.1.8.11--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gottcha2"
-config: {"url": "https://biocontainers.pro/tools/gottcha2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gottcha2", "latest": {"2.1.8.8--pyhdfd78af_0": "sha256:1269e8a578e03d45130f7e2753170292ecf914eedf74bc8f1ef3306abc61f4e8"}, "tags": {"2.1.8.5p1--py310h7cba7a3_0": "sha256:ff0e7e4eca64787b819a64dec7de110d7ea09e34549862ad2255f77bac9a94f0", "2.1.8.6--pyhdfd78af_0": "sha256:82ac7c89147c0a3d7ade9d5a1eece4fdf7fc673b181e7b58a70355eaeec904b8", "2.1.8.7--pyhdfd78af_0": "sha256:b6f0f94d41bb607ec28fd8886186101834e28c2bc0ab4973120ecd5f6b3c4147", "2.1.8.8--pyhdfd78af_0": "sha256:1269e8a578e03d45130f7e2753170292ecf914eedf74bc8f1ef3306abc61f4e8"}, "docker": "quay.io/biocontainers/gottcha2", "aliases": {"cmd.py": "/usr/local/bin/cmd.py", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "gottcha2": "/usr/local/bin/gottcha2", "gottcha2.py": "/usr/local/bin/gottcha2.py", "pull_database.py": "/usr/local/bin/pull_database.py", "taxonomy.py": "/usr/local/bin/taxonomy.py", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "biom": "/usr/local/bin/biom", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "sdust": "/usr/local/bin/sdust", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/gottcha2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gottcha2", "latest": {"2.1.8.11--pyhdfd78af_0": "sha256:16943e5500d2b37cc8815109a2500844800393ffffef3870a072e575f1616a8a"}, "tags": {"2.1.8.5p1--py310h7cba7a3_0": "sha256:ff0e7e4eca64787b819a64dec7de110d7ea09e34549862ad2255f77bac9a94f0", "2.1.8.6--pyhdfd78af_0": "sha256:82ac7c89147c0a3d7ade9d5a1eece4fdf7fc673b181e7b58a70355eaeec904b8", "2.1.8.7--pyhdfd78af_0": "sha256:b6f0f94d41bb607ec28fd8886186101834e28c2bc0ab4973120ecd5f6b3c4147", "2.1.8.8--pyhdfd78af_0": "sha256:1269e8a578e03d45130f7e2753170292ecf914eedf74bc8f1ef3306abc61f4e8", "2.1.8.11--pyhdfd78af_0": "sha256:16943e5500d2b37cc8815109a2500844800393ffffef3870a072e575f1616a8a"}, "docker": "quay.io/biocontainers/gottcha2", "aliases": {"cmd.py": "/usr/local/bin/cmd.py", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "gottcha2": "/usr/local/bin/gottcha2", "gottcha2.py": "/usr/local/bin/gottcha2.py", "pull_database.py": "/usr/local/bin/pull_database.py", "taxonomy.py": "/usr/local/bin/taxonomy.py", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "biom": "/usr/local/bin/biom", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "sdust": "/usr/local/bin/sdust", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gottcha2.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/gottcha2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gottcha2:2.1.8.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gottcha2:2.1.8.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gottcha2/2.1.8.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/gottcha2/2.1.8.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/gottcha2/2.1.8.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/gottcha2/2.1.8.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

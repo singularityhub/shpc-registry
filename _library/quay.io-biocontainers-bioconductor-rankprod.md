@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rankprod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rankprod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rankprod/container.yaml"
-updated_at: "2025-03-23 03:41:06.364005"
+updated_at: "2025-03-24 03:42:28.504558"
 latest: "3.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rankprod"
 

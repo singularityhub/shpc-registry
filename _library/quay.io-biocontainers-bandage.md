@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bandage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bandage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bandage/container.yaml"
-updated_at: "2025-03-23 03:08:06.567511"
-latest: "0.8.1--hc9558a2_2"
+updated_at: "2025-03-24 03:08:05.733502"
+latest: "0.9.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/bandage"
 
 versions:
  - "0.8.1--hc9558a2_2"
+ - "0.9.0--h9948957_0"
+ - "0.8.1--h9948957_4"
 description: "shpc-registry automated BioContainers addition for bandage"
-config: {"url": "https://biocontainers.pro/tools/bandage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bandage", "latest": {"0.8.1--hc9558a2_2": "sha256:79ae0ef6de06b68476667458da712bcddd2307bfd69d4cd3061944ab4c448ece"}, "tags": {"0.8.1--hc9558a2_2": "sha256:79ae0ef6de06b68476667458da712bcddd2307bfd69d4cd3061944ab4c448ece"}, "docker": "quay.io/biocontainers/bandage"}
+config: {"url": "https://biocontainers.pro/tools/bandage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bandage", "latest": {"0.9.0--h9948957_0": "sha256:0b0c4b24ea25d67fe48d0f243cf40e7b8c49ae51006b794cac4044438201b6cd"}, "tags": {"0.8.1--hc9558a2_2": "sha256:79ae0ef6de06b68476667458da712bcddd2307bfd69d4cd3061944ab4c448ece", "0.9.0--h9948957_0": "sha256:0b0c4b24ea25d67fe48d0f243cf40e7b8c49ae51006b794cac4044438201b6cd", "0.8.1--h9948957_4": "sha256:57735ad6272a58ac6b008b5ef9394cb6bebd06f4f2efac3625efa29a0a3a9362"}, "docker": "quay.io/biocontainers/bandage"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bandage.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/bandage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bandage:0.8.1--hc9558a2_2
+$ shpc install quay.io/biocontainers/bandage:0.9.0--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bandage/0.8.1--hc9558a2_2
-$ module help quay.io/biocontainers/bandage/0.8.1--hc9558a2_2
+$ module load quay.io/biocontainers/bandage/0.9.0--h9948957_0
+$ module help quay.io/biocontainers/bandage/0.9.0--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

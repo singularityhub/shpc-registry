@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nucleosim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucleosim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucleosim/container.yaml"
-updated_at: "2025-03-23 03:23:47.071851"
+updated_at: "2025-03-24 03:24:27.522998"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucleosim"
 aliases:

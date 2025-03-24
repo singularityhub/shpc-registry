@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/matam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matam/container.yaml"
-updated_at: "2025-03-23 03:13:33.546343"
+updated_at: "2025-03-24 03:13:52.341516"
 latest: "1.6.1--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/matam"
 aliases:

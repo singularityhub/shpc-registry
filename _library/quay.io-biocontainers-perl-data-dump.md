@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-data-dump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-dump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-dump/container.yaml"
-updated_at: "2025-03-23 03:20:58.447397"
-latest: "1.25--pl5321hec16e2b_1"
+updated_at: "2025-03-24 03:21:33.668232"
+latest: "1.25--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/perl-data-dump"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.25--pl5321hec16e2b_1"
+ - "1.25--pl5321h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for perl-data-dump"
-config: {"url": "https://biocontainers.pro/tools/perl-data-dump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-dump", "latest": {"1.25--pl5321hec16e2b_1": "sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503"}, "tags": {"1.25--pl5321hec16e2b_1": "sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503"}, "docker": "quay.io/biocontainers/perl-data-dump", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-data-dump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-dump", "latest": {"1.25--pl5321h7b50bb2_2": "sha256:9303db3377afddd2b9e42ac229699db916072dd033846f9c523bca678bbfc888"}, "tags": {"1.25--pl5321hec16e2b_1": "sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503", "1.25--pl5321h7b50bb2_2": "sha256:9303db3377afddd2b9e42ac229699db916072dd033846f9c523bca678bbfc888"}, "docker": "quay.io/biocontainers/perl-data-dump", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-dump.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-data-dump
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-data-dump:1.25--pl5321hec16e2b_1
+$ shpc install quay.io/biocontainers/perl-data-dump:1.25--pl5321h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-data-dump/1.25--pl5321hec16e2b_1
-$ module help quay.io/biocontainers/perl-data-dump/1.25--pl5321hec16e2b_1
+$ module load quay.io/biocontainers/perl-data-dump/1.25--pl5321h7b50bb2_2
+$ module help quay.io/biocontainers/perl-data-dump/1.25--pl5321h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

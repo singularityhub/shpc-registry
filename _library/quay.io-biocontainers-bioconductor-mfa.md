@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mfa/container.yaml"
-updated_at: "2025-03-23 03:47:04.089294"
+updated_at: "2025-03-24 03:48:44.146820"
 latest: "1.28.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mfa"
 aliases:

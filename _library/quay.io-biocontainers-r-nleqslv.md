@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nleqslv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nleqslv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nleqslv/container.yaml"
-updated_at: "2025-03-23 03:10:38.076298"
+updated_at: "2025-03-24 03:10:46.441519"
 latest: "3.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-nleqslv"
 aliases:

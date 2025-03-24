@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirsponger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirsponger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirsponger/container.yaml"
-updated_at: "2025-03-23 03:46:19.886488"
+updated_at: "2025-03-24 03:47:56.853325"
 latest: "2.10.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirsponger"
 aliases:

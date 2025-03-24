@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rsnps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rsnps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rsnps/container.yaml"
-updated_at: "2025-03-23 03:05:22.678480"
+updated_at: "2025-03-24 03:05:14.949794"
 latest: "0.3.0--r40h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-rsnps"
 aliases:

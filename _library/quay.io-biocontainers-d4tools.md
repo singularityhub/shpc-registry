@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/d4tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/d4tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/d4tools/container.yaml"
-updated_at: "2025-03-23 03:12:44.651652"
+updated_at: "2025-03-24 03:13:00.456351"
 latest: "0.3.11--h3ab6199_2"
 container_url: "https://biocontainers.pro/tools/d4tools"
 aliases:
