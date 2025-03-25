@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-json-validator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-json-validator
 latest:
-  5.14--pl5321hdfd78af_0: sha256:03484c26bbf6043e02b75a8a711eeca45c34a5da2d1aa82bf5857240eb069ded
+  5.15--pl5321hdfd78af_0: sha256:54d2dc1cb08cf67b495abb3ad27f62b9dd0e6d1af01c4b65f14f50c2b40c4263
 tags:
   5.14--pl5321hdfd78af_0: sha256:03484c26bbf6043e02b75a8a711eeca45c34a5da2d1aa82bf5857240eb069ded
+  5.15--pl5321hdfd78af_0: sha256:54d2dc1cb08cf67b495abb3ad27f62b9dd0e6d1af01c4b65f14f50c2b40c4263
 docker: quay.io/biocontainers/perl-json-validator
 aliases:
   hypnotoad: /usr/local/bin/hypnotoad

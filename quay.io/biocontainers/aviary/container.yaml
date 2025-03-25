@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/aviary
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aviary
 latest:
-  0.11.0--pyhdfd78af_0: sha256:ad76a7b025ae3dbdd872acb4cc237a7146a2d9f1d93fb352b9d933738ad32160
+  0.11.1--pyhdfd78af_0: sha256:5b2c0283f46adaf5e8b7f0feb516fdaf0ac69351fbf35a4a6758ab3144c1d49f
 tags:
   0.5.7--pyhdfd78af_0: sha256:98adc9adbd0638865a2e771769b114aec9a41712a403c917713f91ac2573e062
   0.6.0--pyhdfd78af_0: sha256:900032138534430f7c29552a10cecfe82ead374efc3bec8e87e450472b4dd21d
@@ -15,6 +15,7 @@ tags:
   0.9.2--pyhdfd78af_0: sha256:5742957d2a20a1c8af6e85968633021e9092b3ba4bb60b1487c2becbb46e07b3
   0.10.0--pyhdfd78af_0: sha256:7a6397a3d856980a15a6ada099e3ab50a9bc2aa64dc05fbf4939d16ff9827507
   0.11.0--pyhdfd78af_0: sha256:ad76a7b025ae3dbdd872acb4cc237a7146a2d9f1d93fb352b9d933738ad32160
+  0.11.1--pyhdfd78af_0: sha256:5b2c0283f46adaf5e8b7f0feb516fdaf0ac69351fbf35a4a6758ab3144c1d49f
 docker: quay.io/biocontainers/aviary
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh
