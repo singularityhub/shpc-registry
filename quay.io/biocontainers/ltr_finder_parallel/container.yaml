@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ltr_finder_parallel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ltr_finder_parallel
 latest:
-  1.1--hdfd78af_1: sha256:8a7873f711b6ec6af83cf344e81a8497c4af7541bf707a636a23b0dd3fbb87e8
+  1.3--hdfd78af_0: sha256:fb969c0cb3a6f13118ac498004aa166182bf55786a93f2ad73280f4fc66a9c76
 tags:
   1.1--hdfd78af_0: sha256:97ae0f3dbfcda9ccf248acc3d282bcba82855c5e797e62efbab9f4fcc4b86a12
   1.1--hdfd78af_1: sha256:8a7873f711b6ec6af83cf344e81a8497c4af7541bf707a636a23b0dd3fbb87e8
+  1.3--hdfd78af_0: sha256:fb969c0cb3a6f13118ac498004aa166182bf55786a93f2ad73280f4fc66a9c76
 docker: quay.io/biocontainers/ltr_finder_parallel
 aliases:
   LTR_FINDER_parallel: /usr/local/bin/LTR_FINDER_parallel

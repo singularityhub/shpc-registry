@@ -8,6 +8,7 @@ tags:
   3.7_beta--hdfd78af_0: sha256:7aa51162cf7b8dc8b335c45c1f1ac729959e6959fe3518d55d23291420f91fd8
   3.7_beta--hdfd78af_1: sha256:9206e287283c63627e957d935024a60c871138a87c240f29004b75d52355687c
   1.7--hdfd78af_0: sha256:93933f141f4df161fc1ff7b9a59a5a1b94c826f37a02b2ccaf5df13092692383
+  1.7.1--hdfd78af_0: sha256:d4447efb323a1ac79f9d75bc73223f73198ea4f4a6972254d7d2ae40b942ed7f
 docker: quay.io/biocontainers/hmftools-virus-interpreter
 aliases:
   virusinterpreter: /usr/local/bin/virusinterpreter
