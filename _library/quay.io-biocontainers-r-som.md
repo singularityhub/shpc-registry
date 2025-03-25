@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-som"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-som/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-som/container.yaml"
-updated_at: "2025-03-24 03:29:18.461761"
+updated_at: "2025-03-25 03:26:36.188675"
 latest: "0.3_5.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-som"
 aliases:

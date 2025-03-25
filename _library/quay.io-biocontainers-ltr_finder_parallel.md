@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ltr_finder_parallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_finder_parallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_finder_parallel/container.yaml"
-updated_at: "2025-03-24 03:20:44.209920"
-latest: "1.1--hdfd78af_1"
+updated_at: "2025-03-25 03:17:52.428583"
+latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ltr_finder_parallel"
 aliases:
  - "LTR_FINDER_parallel"
@@ -44,8 +44,9 @@ aliases:
 versions:
  - "1.1--hdfd78af_0"
  - "1.1--hdfd78af_1"
+ - "1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for ltr_finder_parallel"
-config: {"url": "https://biocontainers.pro/tools/ltr_finder_parallel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ltr_finder_parallel", "latest": {"1.1--hdfd78af_1": "sha256:8a7873f711b6ec6af83cf344e81a8497c4af7541bf707a636a23b0dd3fbb87e8"}, "tags": {"1.1--hdfd78af_0": "sha256:97ae0f3dbfcda9ccf248acc3d282bcba82855c5e797e62efbab9f4fcc4b86a12", "1.1--hdfd78af_1": "sha256:8a7873f711b6ec6af83cf344e81a8497c4af7541bf707a636a23b0dd3fbb87e8"}, "docker": "quay.io/biocontainers/ltr_finder_parallel", "aliases": {"LTR_FINDER_parallel": "/usr/local/bin/LTR_FINDER_parallel", "check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2", "webpng": "/usr/local/bin/webpng", "annotate": "/usr/local/bin/annotate", "tjbench": "/usr/local/bin/tjbench", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_finder_parallel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ltr_finder_parallel", "latest": {"1.3--hdfd78af_0": "sha256:fb969c0cb3a6f13118ac498004aa166182bf55786a93f2ad73280f4fc66a9c76"}, "tags": {"1.1--hdfd78af_0": "sha256:97ae0f3dbfcda9ccf248acc3d282bcba82855c5e797e62efbab9f4fcc4b86a12", "1.1--hdfd78af_1": "sha256:8a7873f711b6ec6af83cf344e81a8497c4af7541bf707a636a23b0dd3fbb87e8", "1.3--hdfd78af_0": "sha256:fb969c0cb3a6f13118ac498004aa166182bf55786a93f2ad73280f4fc66a9c76"}, "docker": "quay.io/biocontainers/ltr_finder_parallel", "aliases": {"LTR_FINDER_parallel": "/usr/local/bin/LTR_FINDER_parallel", "check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2", "webpng": "/usr/local/bin/webpng", "annotate": "/usr/local/bin/annotate", "tjbench": "/usr/local/bin/tjbench", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_finder_parallel.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/ltr_finder_parallel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ltr_finder_parallel:1.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/ltr_finder_parallel:1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ltr_finder_parallel/1.1--hdfd78af_1
-$ module help quay.io/biocontainers/ltr_finder_parallel/1.1--hdfd78af_1
+$ module load quay.io/biocontainers/ltr_finder_parallel/1.3--hdfd78af_0
+$ module help quay.io/biocontainers/ltr_finder_parallel/1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

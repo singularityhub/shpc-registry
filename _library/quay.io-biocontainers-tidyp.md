@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tidyp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidyp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidyp/container.yaml"
-updated_at: "2025-03-24 03:07:46.199649"
-latest: "1.04--h7b50bb2_7"
+updated_at: "2025-03-25 03:04:20.777756"
+latest: "1.04--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/tidyp"
 aliases:
  - "tidyp"
@@ -13,8 +13,9 @@ versions:
  - "1.04--hec16e2b_4"
  - "1.04--h031d066_6"
  - "1.04--h7b50bb2_7"
+ - "1.04--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for tidyp"
-config: {"url": "https://biocontainers.pro/tools/tidyp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidyp", "latest": {"1.04--h7b50bb2_7": "sha256:8b74836cad6061621ae15b60aaae7ed00896d3c9d5be6f542cf5c82a91b10f23"}, "tags": {"1.04--hec16e2b_4": "sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71", "1.04--h031d066_6": "sha256:35fc739c6c6fca6fe3ff925642e4b8b0c6cbc0c91c7aec6a8996aeb88767667e", "1.04--h7b50bb2_7": "sha256:8b74836cad6061621ae15b60aaae7ed00896d3c9d5be6f542cf5c82a91b10f23"}, "docker": "quay.io/biocontainers/tidyp", "aliases": {"tidyp": "/usr/local/bin/tidyp"}}
+config: {"url": "https://biocontainers.pro/tools/tidyp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidyp", "latest": {"1.04--h7b50bb2_8": "sha256:59f8b883de98a56e04ccea1a6f79b7999d27da38ba1acac0ff4c21e1b8e6a8a0"}, "tags": {"1.04--hec16e2b_4": "sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71", "1.04--h031d066_6": "sha256:35fc739c6c6fca6fe3ff925642e4b8b0c6cbc0c91c7aec6a8996aeb88767667e", "1.04--h7b50bb2_7": "sha256:8b74836cad6061621ae15b60aaae7ed00896d3c9d5be6f542cf5c82a91b10f23", "1.04--h7b50bb2_8": "sha256:59f8b883de98a56e04ccea1a6f79b7999d27da38ba1acac0ff4c21e1b8e6a8a0"}, "docker": "quay.io/biocontainers/tidyp", "aliases": {"tidyp": "/usr/local/bin/tidyp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tidyp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/tidyp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tidyp:1.04--h7b50bb2_7
+$ shpc install quay.io/biocontainers/tidyp:1.04--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tidyp/1.04--h7b50bb2_7
-$ module help quay.io/biocontainers/tidyp/1.04--h7b50bb2_7
+$ module load quay.io/biocontainers/tidyp/1.04--h7b50bb2_8
+$ module help quay.io/biocontainers/tidyp/1.04--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

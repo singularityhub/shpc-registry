@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/foldmason"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldmason/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldmason/container.yaml"
-updated_at: "2025-03-24 03:38:43.819226"
+updated_at: "2025-03-25 03:36:03.647008"
 latest: "2.7bd21ed--pl5321h5021889_0"
 container_url: "https://biocontainers.pro/tools/foldmason"
 aliases:
