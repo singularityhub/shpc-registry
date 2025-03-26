@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hmp2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
-updated_at: "2025-03-25 03:51:38.344354"
+updated_at: "2025-03-26 03:49:43.693738"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmp2data"
 aliases:

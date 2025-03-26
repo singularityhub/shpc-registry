@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kgwasflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kgwasflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kgwasflow/container.yaml"
-updated_at: "2025-03-25 03:32:18.423056"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2025-03-26 03:30:29.083472"
+latest: "1.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/kgwasflow"
 aliases:
  - "jsondiff"
@@ -42,8 +42,9 @@ versions:
  - "1.2.3--pyhdfd78af_0"
  - "1.2.4--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for kgwasflow"
-config: {"url": "https://biocontainers.pro/tools/kgwasflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kgwasflow", "latest": {"1.3.0--pyhdfd78af_0": "sha256:20ccb5dbfd77fb71414e16190c941d522e4b03c6672707b94e4e355dbde10286"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:4f21decf9dc99c21b6409d0be5534312d441d7ec0472d766e6f99eea5b6aa018", "1.2.3--pyhdfd78af_0": "sha256:b1c5d75fcf8711c654b57dbf14f69c4901fc492cefe2465ae6e4fea551cedd46", "1.2.4--pyhdfd78af_0": "sha256:1ac66f27adb7c159b8c3219f8b855679dc804bf60bc181f80ebcdba70476bdda", "1.3.0--pyhdfd78af_0": "sha256:20ccb5dbfd77fb71414e16190c941d522e4b03c6672707b94e4e355dbde10286"}, "docker": "quay.io/biocontainers/kgwasflow", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "kgwasflow": "/usr/local/bin/kgwasflow", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/kgwasflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kgwasflow", "latest": {"1.3.0--pyhdfd78af_1": "sha256:ac44f65262444336d4d59aa96b1e2d49a5d62f319087071d37adaa48cda01df7"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:4f21decf9dc99c21b6409d0be5534312d441d7ec0472d766e6f99eea5b6aa018", "1.2.3--pyhdfd78af_0": "sha256:b1c5d75fcf8711c654b57dbf14f69c4901fc492cefe2465ae6e4fea551cedd46", "1.2.4--pyhdfd78af_0": "sha256:1ac66f27adb7c159b8c3219f8b855679dc804bf60bc181f80ebcdba70476bdda", "1.3.0--pyhdfd78af_0": "sha256:20ccb5dbfd77fb71414e16190c941d522e4b03c6672707b94e4e355dbde10286", "1.3.0--pyhdfd78af_1": "sha256:ac44f65262444336d4d59aa96b1e2d49a5d62f319087071d37adaa48cda01df7"}, "docker": "quay.io/biocontainers/kgwasflow", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "kgwasflow": "/usr/local/bin/kgwasflow", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kgwasflow.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/kgwasflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kgwasflow:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kgwasflow:1.3.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kgwasflow/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/kgwasflow/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/kgwasflow/1.3.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/kgwasflow/1.3.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

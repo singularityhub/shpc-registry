@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-twoddpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-twoddpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-twoddpcr/container.yaml"
-updated_at: "2025-03-25 03:44:33.773211"
+updated_at: "2025-03-26 03:42:41.602699"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-twoddpcr"
 aliases:

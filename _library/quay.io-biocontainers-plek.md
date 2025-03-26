@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plek/container.yaml"
-updated_at: "2025-03-25 03:20:03.162383"
-latest: "1.2--py39he88f293_9"
+updated_at: "2025-03-26 03:18:23.564241"
+latest: "1.2--py310h8ea774a_10"
 container_url: "https://biocontainers.pro/tools/plek"
 aliases:
  - "PLEK"
@@ -34,8 +34,9 @@ versions:
  - "1.2--py38hcbe9525_7"
  - "1.2--py311h9f068be_8"
  - "1.2--py39he88f293_9"
+ - "1.2--py310h8ea774a_10"
 description: "shpc-registry automated BioContainers addition for plek"
-config: {"url": "https://biocontainers.pro/tools/plek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plek", "latest": {"1.2--py39he88f293_9": "sha256:5a6f39771635e183c5a10c67f9c6fc119e019ddfa1bfa2d56b76ec357536ca80"}, "tags": {"1.2--py38h8ded8fe_5": "sha256:ac9e43073c12cd1936311ae7b2dc6dc247c424467aead24ebf6ffd790e8620f9", "1.2--py39he10ea66_7": "sha256:dcb1a49e121b4627a7ed12bba2ca796265812325391ab6160ddb53ebaf755392", "1.2--py38hcbe9525_7": "sha256:afccd6ad0e4c69bc77636169ead8ee9668888bd5bc4f5bc58881bdda56b238d7", "1.2--py311h9f068be_8": "sha256:3ae4b2b4283b237c56c7af0ee3c5a6c28755a386b3f6defac8f78692e8cda4be", "1.2--py39he88f293_9": "sha256:5a6f39771635e183c5a10c67f9c6fc119e019ddfa1bfa2d56b76ec357536ca80"}, "docker": "quay.io/biocontainers/plek", "aliases": {"PLEK": "/usr/local/bin/PLEK", "PLEK.model": "/usr/local/bin/PLEK.model", "PLEK.py": "/usr/local/bin/PLEK.py", "PLEK.range": "/usr/local/bin/PLEK.range", "PLEKModelling.py": "/usr/local/bin/PLEKModelling.py", "PLEK_generate_scripts.R": "/usr/local/bin/PLEK_generate_scripts.R", "PLEK_setup.py": "/usr/local/bin/PLEK_setup.py", "PLEK_spsn": "/usr/local/bin/PLEK_spsn", "svm-easy.py": "/usr/local/bin/svm-easy.py", "svm-subset.py": "/usr/local/bin/svm-subset.py", "svm_grid_modelling.py": "/usr/local/bin/svm_grid_modelling.py", "svm_grid_modelling_singlet.py": "/usr/local/bin/svm_grid_modelling_singlet.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/plek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plek", "latest": {"1.2--py310h8ea774a_10": "sha256:6d7ccf0392b0d7efa2a2d893d08a88410b4b138a7b1ce21fd487c690c574e45c"}, "tags": {"1.2--py38h8ded8fe_5": "sha256:ac9e43073c12cd1936311ae7b2dc6dc247c424467aead24ebf6ffd790e8620f9", "1.2--py39he10ea66_7": "sha256:dcb1a49e121b4627a7ed12bba2ca796265812325391ab6160ddb53ebaf755392", "1.2--py38hcbe9525_7": "sha256:afccd6ad0e4c69bc77636169ead8ee9668888bd5bc4f5bc58881bdda56b238d7", "1.2--py311h9f068be_8": "sha256:3ae4b2b4283b237c56c7af0ee3c5a6c28755a386b3f6defac8f78692e8cda4be", "1.2--py39he88f293_9": "sha256:5a6f39771635e183c5a10c67f9c6fc119e019ddfa1bfa2d56b76ec357536ca80", "1.2--py310h8ea774a_10": "sha256:6d7ccf0392b0d7efa2a2d893d08a88410b4b138a7b1ce21fd487c690c574e45c"}, "docker": "quay.io/biocontainers/plek", "aliases": {"PLEK": "/usr/local/bin/PLEK", "PLEK.model": "/usr/local/bin/PLEK.model", "PLEK.py": "/usr/local/bin/PLEK.py", "PLEK.range": "/usr/local/bin/PLEK.range", "PLEKModelling.py": "/usr/local/bin/PLEKModelling.py", "PLEK_generate_scripts.R": "/usr/local/bin/PLEK_generate_scripts.R", "PLEK_setup.py": "/usr/local/bin/PLEK_setup.py", "PLEK_spsn": "/usr/local/bin/PLEK_spsn", "svm-easy.py": "/usr/local/bin/svm-easy.py", "svm-subset.py": "/usr/local/bin/svm-subset.py", "svm_grid_modelling.py": "/usr/local/bin/svm_grid_modelling.py", "svm_grid_modelling_singlet.py": "/usr/local/bin/svm_grid_modelling_singlet.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plek.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/plek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plek:1.2--py39he88f293_9
+$ shpc install quay.io/biocontainers/plek:1.2--py310h8ea774a_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plek/1.2--py39he88f293_9
-$ module help quay.io/biocontainers/plek/1.2--py39he88f293_9
+$ module load quay.io/biocontainers/plek/1.2--py310h8ea774a_10
+$ module help quay.io/biocontainers/plek/1.2--py310h8ea774a_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

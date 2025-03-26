@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycodestyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycodestyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycodestyle/container.yaml"
-updated_at: "2025-03-25 03:29:12.000206"
+updated_at: "2025-03-26 03:27:22.744515"
 latest: "2.0.0--py36_0"
 container_url: "https://biocontainers.pro/tools/pycodestyle"
 aliases:
