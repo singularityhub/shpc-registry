@@ -16,6 +16,7 @@ tags:
   1.25--hdfd78af_0: sha256:58d3b7ee2788810bccf9ee245f63234c013dcb6af1537f63aa55afdbf4a9cfe8
   2.0_beta--hdfd78af_0: sha256:da4d5209cc2a93f143b0b0ce3cc53ae43cddb7d9e91e44933cd08914e788bd6d
   2.0_beta--hdfd78af_2: sha256:f0ac64903897ab116c33a4676009d511f19290262eb182b3e6d6ea83faa44fff
+  2.0.2--hdfd78af_0: sha256:9f7b5aecc626060e484326af440a77a395d40102e27180f62562d16572febba2
 docker: quay.io/biocontainers/hmftools-linx
 aliases:
   croco-0.6-config: /usr/local/bin/croco-0.6-config

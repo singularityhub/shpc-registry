@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gmap-fusion
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gmap-fusion
 latest:
-  0.4.0--2: sha256:37e430c8fd6dd27bc1ea9a902895b339d639c0fd9927528b175ce385eb05a9a3
+  0.4.0--hdfd78af_3: sha256:1ff6504bdb4d5f72a01c54c39867a2b1120c28b1699b9e3fe9927600cd38571f
 tags:
   0.4.0--2: sha256:37e430c8fd6dd27bc1ea9a902895b339d639c0fd9927528b175ce385eb05a9a3
+  0.4.0--hdfd78af_3: sha256:1ff6504bdb4d5f72a01c54c39867a2b1120c28b1699b9e3fe9927600cd38571f
 docker: quay.io/biocontainers/gmap-fusion
 aliases:
   GMAP-fusion: /usr/local/bin/GMAP-fusion
