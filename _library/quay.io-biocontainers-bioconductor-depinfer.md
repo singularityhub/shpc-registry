@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-depinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depinfer/container.yaml"
-updated_at: "2025-03-26 03:39:13.615190"
+updated_at: "2025-03-27 03:37:46.780490"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depinfer"
 

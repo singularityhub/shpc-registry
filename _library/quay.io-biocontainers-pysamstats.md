@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pysamstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysamstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysamstats/container.yaml"
-updated_at: "2025-03-26 03:41:22.139819"
-latest: "1.1.2--py39h0699b22_13"
+updated_at: "2025-03-27 03:39:49.589858"
+latest: "1.1.2--py311h384fd50_15"
 container_url: "https://biocontainers.pro/tools/pysamstats"
 aliases:
  - "pysamstats"
@@ -25,8 +25,9 @@ versions:
  - "1.1.2--py310h83093d7_11"
  - "1.1.2--py39he47c912_12"
  - "1.1.2--py39h0699b22_13"
+ - "1.1.2--py311h384fd50_15"
 description: "shpc-registry automated BioContainers addition for pysamstats"
-config: {"url": "https://biocontainers.pro/tools/pysamstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysamstats", "latest": {"1.1.2--py39h0699b22_13": "sha256:81563f4fe89108bb7592348aca8ea884be3edbaa3d3358ff2d69c4e0b5d6924d"}, "tags": {"1.1.2--py36haf49e46_9": "sha256:5abf8ce9403e1559842f52fa33935e9e4d14f14f9d5448d8fa65eed9c35dce87", "1.1.2--py38h7cf9df2_10": "sha256:b52c8f44bb8cfa6e3d780bd2ab9a41046df1b2e69375415ab4bf8555a554894c", "1.1.2--py310h83093d7_11": "sha256:dc5e9fd0a9a872beef25f6f552aa0e68566dbf3ee534ffb7746736f6b7746e49", "1.1.2--py39he47c912_12": "sha256:6d87af82f78fd8df399e8a5660f8a690754fd7d2175bbc7af188a8700cc26060", "1.1.2--py39h0699b22_13": "sha256:81563f4fe89108bb7592348aca8ea884be3edbaa3d3358ff2d69c4e0b5d6924d"}, "docker": "quay.io/biocontainers/pysamstats", "aliases": {"pysamstats": "/usr/local/bin/pysamstats", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pysamstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysamstats", "latest": {"1.1.2--py311h384fd50_15": "sha256:1429457c209cbb82931261c20500ef3c8af2538095aaccae33c0636a7f28dfc7"}, "tags": {"1.1.2--py36haf49e46_9": "sha256:5abf8ce9403e1559842f52fa33935e9e4d14f14f9d5448d8fa65eed9c35dce87", "1.1.2--py38h7cf9df2_10": "sha256:b52c8f44bb8cfa6e3d780bd2ab9a41046df1b2e69375415ab4bf8555a554894c", "1.1.2--py310h83093d7_11": "sha256:dc5e9fd0a9a872beef25f6f552aa0e68566dbf3ee534ffb7746736f6b7746e49", "1.1.2--py39he47c912_12": "sha256:6d87af82f78fd8df399e8a5660f8a690754fd7d2175bbc7af188a8700cc26060", "1.1.2--py39h0699b22_13": "sha256:81563f4fe89108bb7592348aca8ea884be3edbaa3d3358ff2d69c4e0b5d6924d", "1.1.2--py311h384fd50_15": "sha256:1429457c209cbb82931261c20500ef3c8af2538095aaccae33c0636a7f28dfc7"}, "docker": "quay.io/biocontainers/pysamstats", "aliases": {"pysamstats": "/usr/local/bin/pysamstats", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pysamstats.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pysamstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pysamstats:1.1.2--py39h0699b22_13
+$ shpc install quay.io/biocontainers/pysamstats:1.1.2--py311h384fd50_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pysamstats/1.1.2--py39h0699b22_13
-$ module help quay.io/biocontainers/pysamstats/1.1.2--py39h0699b22_13
+$ module load quay.io/biocontainers/pysamstats/1.1.2--py311h384fd50_15
+$ module help quay.io/biocontainers/pysamstats/1.1.2--py311h384fd50_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

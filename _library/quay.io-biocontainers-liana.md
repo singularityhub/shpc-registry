@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/liana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liana/container.yaml"
-updated_at: "2025-03-26 03:27:43.638869"
-latest: "1.4.0--pyhdfd78af_1"
+updated_at: "2025-03-27 03:26:54.168876"
+latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liana"
 aliases:
  - "debugpy"
@@ -56,8 +56,9 @@ aliases:
 versions:
  - "1.4.0--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_1"
+ - "1.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for liana"
-config: {"url": "https://biocontainers.pro/tools/liana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for liana", "latest": {"1.4.0--pyhdfd78af_1": "sha256:1f360edcc260a713f9c67f5806147bd1c3b5ecddd82aa09bf39a2dbcbc50d4e1"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:e1a4c873070e4320384a2649fb9c267cf7d5c3fe1c0e846ec8acf984fedc6a89", "1.4.0--pyhdfd78af_1": "sha256:1f360edcc260a713f9c67f5806147bd1c3b5ecddd82aa09bf39a2dbcbc50d4e1"}, "docker": "quay.io/biocontainers/liana", "aliases": {"debugpy": "/usr/local/bin/debugpy", "gseapy": "/usr/local/bin/gseapy", "hypothesis": "/usr/local/bin/hypothesis", "identify-cli": "/usr/local/bin/identify-cli", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-server": "/usr/local/bin/jupyter-server", "nodeenv": "/usr/local/bin/nodeenv", "osqp_demo": "/usr/local/bin/osqp_demo", "osqp_tester": "/usr/local/bin/osqp_tester", "pre-commit": "/usr/local/bin/pre-commit", "pyjson5": "/usr/local/bin/pyjson5", "virtualenv": "/usr/local/bin/virtualenv", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-console": "/usr/local/bin/jupyter-console", "wsdump": "/usr/local/bin/wsdump", "runxlrd.py": "/usr/local/bin/runxlrd.py", "send2trash": "/usr/local/bin/send2trash", "httpx": "/usr/local/bin/httpx", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "pybabel": "/usr/local/bin/pybabel", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "curve_keygen": "/usr/local/bin/curve_keygen", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
+config: {"url": "https://biocontainers.pro/tools/liana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for liana", "latest": {"1.5.1--pyhdfd78af_0": "sha256:6a02ebf1f4de8afac7b13ef4fd7424f66082c335c23aa2dc105b8eb8b32399cc"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:e1a4c873070e4320384a2649fb9c267cf7d5c3fe1c0e846ec8acf984fedc6a89", "1.4.0--pyhdfd78af_1": "sha256:1f360edcc260a713f9c67f5806147bd1c3b5ecddd82aa09bf39a2dbcbc50d4e1", "1.5.1--pyhdfd78af_0": "sha256:6a02ebf1f4de8afac7b13ef4fd7424f66082c335c23aa2dc105b8eb8b32399cc"}, "docker": "quay.io/biocontainers/liana", "aliases": {"debugpy": "/usr/local/bin/debugpy", "gseapy": "/usr/local/bin/gseapy", "hypothesis": "/usr/local/bin/hypothesis", "identify-cli": "/usr/local/bin/identify-cli", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-server": "/usr/local/bin/jupyter-server", "nodeenv": "/usr/local/bin/nodeenv", "osqp_demo": "/usr/local/bin/osqp_demo", "osqp_tester": "/usr/local/bin/osqp_tester", "pre-commit": "/usr/local/bin/pre-commit", "pyjson5": "/usr/local/bin/pyjson5", "virtualenv": "/usr/local/bin/virtualenv", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-console": "/usr/local/bin/jupyter-console", "wsdump": "/usr/local/bin/wsdump", "runxlrd.py": "/usr/local/bin/runxlrd.py", "send2trash": "/usr/local/bin/send2trash", "httpx": "/usr/local/bin/httpx", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "pybabel": "/usr/local/bin/pybabel", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "curve_keygen": "/usr/local/bin/curve_keygen", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/liana.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/liana
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/liana:1.4.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/liana:1.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/liana/1.4.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/liana/1.4.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/liana/1.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/liana/1.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

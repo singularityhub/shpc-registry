@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gmap-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmap-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmap-fusion/container.yaml"
-updated_at: "2025-03-26 03:18:11.027535"
-latest: "0.4.0--2"
+updated_at: "2025-03-27 03:17:48.524792"
+latest: "0.4.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/gmap-fusion"
 aliases:
  - "GMAP-fusion"
@@ -60,8 +60,9 @@ aliases:
  - "db_recover"
 versions:
  - "0.4.0--2"
+ - "0.4.0--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for gmap-fusion"
-config: {"url": "https://biocontainers.pro/tools/gmap-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap-fusion", "latest": {"0.4.0--2": "sha256:37e430c8fd6dd27bc1ea9a902895b339d639c0fd9927528b175ce385eb05a9a3"}, "tags": {"0.4.0--2": "sha256:37e430c8fd6dd27bc1ea9a902895b339d639c0fd9927528b175ce385eb05a9a3"}, "docker": "quay.io/biocontainers/gmap-fusion", "aliases": {"GMAP-fusion": "/usr/local/bin/GMAP-fusion", "atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_process": "/usr/local/bin/gmap_process", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "md_coords": "/usr/local/bin/md_coords", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "sam_sort": "/usr/local/bin/sam_sort", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "gmap": "/usr/local/bin/gmap", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
+config: {"url": "https://biocontainers.pro/tools/gmap-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap-fusion", "latest": {"0.4.0--hdfd78af_3": "sha256:1ff6504bdb4d5f72a01c54c39867a2b1120c28b1699b9e3fe9927600cd38571f"}, "tags": {"0.4.0--2": "sha256:37e430c8fd6dd27bc1ea9a902895b339d639c0fd9927528b175ce385eb05a9a3", "0.4.0--hdfd78af_3": "sha256:1ff6504bdb4d5f72a01c54c39867a2b1120c28b1699b9e3fe9927600cd38571f"}, "docker": "quay.io/biocontainers/gmap-fusion", "aliases": {"GMAP-fusion": "/usr/local/bin/GMAP-fusion", "atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_process": "/usr/local/bin/gmap_process", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "md_coords": "/usr/local/bin/md_coords", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "sam_sort": "/usr/local/bin/sam_sort", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "gmap": "/usr/local/bin/gmap", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmap-fusion.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/gmap-fusion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gmap-fusion:0.4.0--2
+$ shpc install quay.io/biocontainers/gmap-fusion:0.4.0--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gmap-fusion/0.4.0--2
-$ module help quay.io/biocontainers/gmap-fusion/0.4.0--2
+$ module load quay.io/biocontainers/gmap-fusion/0.4.0--hdfd78af_3
+$ module help quay.io/biocontainers/gmap-fusion/0.4.0--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
