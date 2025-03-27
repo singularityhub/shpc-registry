@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metabolabpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metabolabpy
 latest:
-  0.9.67--pyhdfd78af_0: sha256:6f58f042a16e21e793a61061e7a1cabe88329da25a6226cce2069de9e2f37a50
+  0.9.69--pyhdfd78af_0: sha256:55170687b64a925f62a4f84038cad357c16b194d384f749057b1ac19e9298383
 tags:
   0.6.53--pyhdfd78af_0: sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55
   0.9.46--pyhdfd78af_0: sha256:f224abdd27b8837d3c743d735069bc1178ddb387f824a27e4ed141657d7e1db1
@@ -12,6 +12,7 @@ tags:
   0.9.65--pyhdfd78af_0: sha256:14f147a18e2c3c4389e0229d9147622f0921430522a709eac5362375d8101b3f
   0.9.66--pyhdfd78af_0: sha256:368b17b78ce015ca5f8b09865b2024fbd0721d39704dd1921f29506956c907cf
   0.9.67--pyhdfd78af_0: sha256:6f58f042a16e21e793a61061e7a1cabe88329da25a6226cce2069de9e2f37a50
+  0.9.69--pyhdfd78af_0: sha256:55170687b64a925f62a4f84038cad357c16b194d384f749057b1ac19e9298383
 docker: quay.io/biocontainers/metabolabpy
 aliases:
   metabolabpy: /usr/local/bin/metabolabpy
