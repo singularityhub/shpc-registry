@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compass/container.yaml"
-updated_at: "2025-03-27 03:27:45.641415"
+updated_at: "2025-03-28 03:04:43.452113"
 latest: "1.44.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compass"
 aliases:

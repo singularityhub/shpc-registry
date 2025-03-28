@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38/container.yaml"
-updated_at: "2025-03-27 03:52:16.589633"
+updated_at: "2025-03-28 03:28:40.881743"
 latest: "3.7.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.0.1.grch38"
 aliases:

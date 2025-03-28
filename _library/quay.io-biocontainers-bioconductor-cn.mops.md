@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cn.mops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cn.mops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cn.mops/container.yaml"
-updated_at: "2025-03-27 03:35:33.586011"
+updated_at: "2025-03-28 03:12:29.097048"
 latest: "1.52.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cn.mops"
 

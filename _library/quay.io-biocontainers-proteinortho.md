@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteinortho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteinortho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteinortho/container.yaml"
-updated_at: "2025-03-27 03:36:49.427561"
+updated_at: "2025-03-28 03:13:41.125130"
 latest: "6.3.4--h749629c_1"
 container_url: "https://biocontainers.pro/tools/proteinortho"
 aliases:
