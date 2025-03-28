@@ -4,7 +4,7 @@ maintainer: '@vsoch'
 description: Kibana gives shape to any kind of data — structured and unstructured
   — indexed in Elasticsearch.
 latest:
-  8.17.2: sha256:c6caadab69daa22ed0f812494fe6c84a1379dbc4b61e69d122fe1100df7d6c9e
+  8.17.4: sha256:f3e370f8f38a978d5fc5a0fde8ff801ace49725ea2802880c18ee735e0707fc6
 tags:
   7.12.0: sha256:767581addfa1f3c0520774a30c5d872bbc8f833e172d93685baf89c579a1808a
   7.12.1: sha256:e96f8b6a90db0b4ba804f7023922448a1d752a85e77f6c645ec309fa0328627d
@@ -61,6 +61,8 @@ tags:
   8.16.3: sha256:8c5f0c1989fa865f1dbe6fd18f1646dc93abcd857cbe8f7ae2277c0f3fd9813a
   8.17.2: sha256:c6caadab69daa22ed0f812494fe6c84a1379dbc4b61e69d122fe1100df7d6c9e
   8.16.4: sha256:9b32aa01806b6f35146daf1baa8c0f3b2e5e2d818b5128dd8e4d0e49211d780b
+  8.17.4: sha256:f3e370f8f38a978d5fc5a0fde8ff801ace49725ea2802880c18ee735e0707fc6
+  8.16.6: sha256:a3dbc3495e9f3649f404330f2100b04f7d00ef631dc3d16fbf6aa3f35c5988f8
 aliases:
   kibana: /usr/share/kibana/bin/kibana
   kibana-encryption-keys: /usr/share/kibana/bin/kibana-encryption-keys

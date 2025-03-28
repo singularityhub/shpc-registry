@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/corgi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for corgi
 latest:
-  0.4.0--pyhdfd78af_0: sha256:b3ae3f99aea81fa72782d07dac31a8b05ce4315179e3d75e6fe1057c5dc38309
+  0.4.1--pyhdfd78af_0: sha256:b90c58932880822ae88c2c7e96f4b315ffac2bc181f17d53747bbb277ee70b2e
 tags:
   0.4.0--pyhdfd78af_0: sha256:b3ae3f99aea81fa72782d07dac31a8b05ce4315179e3d75e6fe1057c5dc38309
+  0.4.1--pyhdfd78af_0: sha256:b90c58932880822ae88c2c7e96f4b315ffac2bc181f17d53747bbb277ee70b2e
 docker: quay.io/biocontainers/corgi
 aliases:
   alembic: /usr/local/bin/alembic

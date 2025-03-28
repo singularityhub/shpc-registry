@@ -9,6 +9,7 @@ tags:
   3.11--0: sha256:818636262163d94119c10e1d25ca4eff9d83da7abd856a502fc8454fc64e337d
   3.10.1--0: sha256:1c542f08b0732983f3eb2374ae3377a0d95b0baf39fc6983093eee1c48de23d7
   3.12.1--hdfd78af_0: sha256:c738f95858f0e5fcb98d8997e8f95a588dca5e63a4503f6cd488a7e035930b59
+  3.12.1--hdfd78af_1: sha256:d83b6fb2baac4bff5d061b4ff4c65afa355b8f955b29c3f7611053e823ae7584
 docker: quay.io/biocontainers/rtg-tools
 aliases:
   rtg: /usr/local/bin/rtg

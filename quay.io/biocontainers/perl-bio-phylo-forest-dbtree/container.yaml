@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-bio-phylo-forest-dbtree
 latest:
-  0.58--pl5321hdfd78af_1: sha256:25ec6d284052cdc6dc16b68e083feb245dfcde42dbb4e75b2683bfdb28669ded
+  0.58--pl5321hdfd78af_2: sha256:570f24bb0bd79216dd5bc083363261707df9bc8646d71a0aeb457951c00830fb
 tags:
   0.58--pl5321hdfd78af_0: sha256:683d3fae3f17c3f6cb375fd714adb1a8c4b1cb859fec6b7832c2aaac41f667db
   0.58--pl5321hdfd78af_1: sha256:25ec6d284052cdc6dc16b68e083feb245dfcde42dbb4e75b2683bfdb28669ded
+  0.58--pl5321hdfd78af_2: sha256:570f24bb0bd79216dd5bc083363261707df9bc8646d71a0aeb457951c00830fb
 docker: quay.io/biocontainers/perl-bio-phylo-forest-dbtree
 aliases:
   dbicadmin: /usr/local/bin/dbicadmin
