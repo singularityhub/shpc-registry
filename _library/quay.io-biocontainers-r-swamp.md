@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-swamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-swamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-swamp/container.yaml"
-updated_at: "2025-03-28 03:27:14.729668"
+updated_at: "2025-03-29 03:22:30.971500"
 latest: "1.5.1--r44h3121a25_6"
 container_url: "https://biocontainers.pro/tools/r-swamp"
 aliases:

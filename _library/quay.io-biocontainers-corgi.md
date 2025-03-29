@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/corgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corgi/container.yaml"
-updated_at: "2025-03-28 03:11:04.911015"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2025-03-29 03:06:27.931458"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/corgi"
 aliases:
  - "alembic"
@@ -62,8 +62,9 @@ aliases:
  - "gflags_completions.sh"
 versions:
  - "0.4.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for corgi"
-config: {"url": "https://biocontainers.pro/tools/corgi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for corgi", "latest": {"0.4.0--pyhdfd78af_0": "sha256:b3ae3f99aea81fa72782d07dac31a8b05ce4315179e3d75e6fe1057c5dc38309"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:b3ae3f99aea81fa72782d07dac31a8b05ce4315179e3d75e6fe1057c5dc38309"}, "docker": "quay.io/biocontainers/corgi", "aliases": {"alembic": "/usr/local/bin/alembic", "celery": "/usr/local/bin/celery", "configure_accelerate": "/usr/local/bin/configure_accelerate", "cookiecutter": "/usr/local/bin/cookiecutter", "corgi": "/usr/local/bin/corgi", "corgi-train": "/usr/local/bin/corgi-train", "databricks": "/usr/local/bin/databricks", "dbfs": "/usr/local/bin/dbfs", "gunicorn": "/usr/local/bin/gunicorn", "mlflow": "/usr/local/bin/mlflow", "optuna": "/usr/local/bin/optuna", "pathy": "/usr/local/bin/pathy", "pyaml": "/usr/local/bin/pyaml", "pybtex": "/usr/local/bin/pybtex", "pybtex-convert": "/usr/local/bin/pybtex-convert", "pybtex-format": "/usr/local/bin/pybtex-format", "shortuuid": "/usr/local/bin/shortuuid", "slugify": "/usr/local/bin/slugify", "spacy": "/usr/local/bin/spacy", "sqlformat": "/usr/local/bin/sqlformat", "termgraph": "/usr/local/bin/termgraph", "torchapp": "/usr/local/bin/torchapp", "torchapp-imageclassifier": "/usr/local/bin/torchapp-imageclassifier", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "weasel": "/usr/local/bin/weasel", "wsdump": "/usr/local/bin/wsdump", "httpx": "/usr/local/bin/httpx", "pbr": "/usr/local/bin/pbr", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "mako-render": "/usr/local/bin/mako-render", "csv-import": "/usr/local/bin/csv-import", "markdown-it": "/usr/local/bin/markdown-it", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
+config: {"url": "https://biocontainers.pro/tools/corgi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for corgi", "latest": {"0.4.1--pyhdfd78af_0": "sha256:b90c58932880822ae88c2c7e96f4b315ffac2bc181f17d53747bbb277ee70b2e"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:b3ae3f99aea81fa72782d07dac31a8b05ce4315179e3d75e6fe1057c5dc38309", "0.4.1--pyhdfd78af_0": "sha256:b90c58932880822ae88c2c7e96f4b315ffac2bc181f17d53747bbb277ee70b2e"}, "docker": "quay.io/biocontainers/corgi", "aliases": {"alembic": "/usr/local/bin/alembic", "celery": "/usr/local/bin/celery", "configure_accelerate": "/usr/local/bin/configure_accelerate", "cookiecutter": "/usr/local/bin/cookiecutter", "corgi": "/usr/local/bin/corgi", "corgi-train": "/usr/local/bin/corgi-train", "databricks": "/usr/local/bin/databricks", "dbfs": "/usr/local/bin/dbfs", "gunicorn": "/usr/local/bin/gunicorn", "mlflow": "/usr/local/bin/mlflow", "optuna": "/usr/local/bin/optuna", "pathy": "/usr/local/bin/pathy", "pyaml": "/usr/local/bin/pyaml", "pybtex": "/usr/local/bin/pybtex", "pybtex-convert": "/usr/local/bin/pybtex-convert", "pybtex-format": "/usr/local/bin/pybtex-format", "shortuuid": "/usr/local/bin/shortuuid", "slugify": "/usr/local/bin/slugify", "spacy": "/usr/local/bin/spacy", "sqlformat": "/usr/local/bin/sqlformat", "termgraph": "/usr/local/bin/termgraph", "torchapp": "/usr/local/bin/torchapp", "torchapp-imageclassifier": "/usr/local/bin/torchapp-imageclassifier", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "weasel": "/usr/local/bin/weasel", "wsdump": "/usr/local/bin/wsdump", "httpx": "/usr/local/bin/httpx", "pbr": "/usr/local/bin/pbr", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "mako-render": "/usr/local/bin/mako-render", "csv-import": "/usr/local/bin/csv-import", "markdown-it": "/usr/local/bin/markdown-it", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/corgi.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/corgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/corgi:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/corgi:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/corgi/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/corgi/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/corgi/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/corgi/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

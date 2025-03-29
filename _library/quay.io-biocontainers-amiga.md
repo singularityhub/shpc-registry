@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amiga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amiga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amiga/container.yaml"
-updated_at: "2025-03-28 03:40:42.868123"
-latest: "3.0.3--py310h1fe012e_0"
+updated_at: "2025-03-29 03:35:35.122263"
+latest: "3.0.4--py311haab0aaa_0"
 container_url: "https://biocontainers.pro/tools/amiga"
 aliases:
  - "amiga"
@@ -29,8 +29,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "3.0.3--py310h1fe012e_0"
+ - "3.0.4--py311haab0aaa_0"
 description: "singularity registry hpc automated addition for amiga"
-config: {"url": "https://biocontainers.pro/tools/amiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amiga", "latest": {"3.0.3--py310h1fe012e_0": "sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d"}, "tags": {"3.0.3--py310h1fe012e_0": "sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d"}, "docker": "quay.io/biocontainers/amiga", "aliases": {"amiga": "/usr/local/bin/amiga", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/amiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amiga", "latest": {"3.0.4--py311haab0aaa_0": "sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be"}, "tags": {"3.0.3--py310h1fe012e_0": "sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d", "3.0.4--py311haab0aaa_0": "sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be"}, "docker": "quay.io/biocontainers/amiga", "aliases": {"amiga": "/usr/local/bin/amiga", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amiga.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/amiga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amiga:3.0.3--py310h1fe012e_0
+$ shpc install quay.io/biocontainers/amiga:3.0.4--py311haab0aaa_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amiga/3.0.3--py310h1fe012e_0
-$ module help quay.io/biocontainers/amiga/3.0.3--py310h1fe012e_0
+$ module load quay.io/biocontainers/amiga/3.0.4--py311haab0aaa_0
+$ module help quay.io/biocontainers/amiga/3.0.4--py311haab0aaa_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

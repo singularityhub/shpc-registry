@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-phylo-forest-dbtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-phylo-forest-dbtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-phylo-forest-dbtree/container.yaml"
-updated_at: "2025-03-28 03:11:01.335622"
-latest: "0.58--pl5321hdfd78af_1"
+updated_at: "2025-03-29 03:06:24.321851"
+latest: "0.58--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree"
 aliases:
  - "dbicadmin"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "0.58--pl5321hdfd78af_0"
  - "0.58--pl5321hdfd78af_1"
+ - "0.58--pl5321hdfd78af_2"
 description: "singularity registry hpc automated addition for perl-bio-phylo-forest-dbtree"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-bio-phylo-forest-dbtree", "latest": {"0.58--pl5321hdfd78af_1": "sha256:25ec6d284052cdc6dc16b68e083feb245dfcde42dbb4e75b2683bfdb28669ded"}, "tags": {"0.58--pl5321hdfd78af_0": "sha256:683d3fae3f17c3f6cb375fd714adb1a8c4b1cb859fec6b7832c2aaac41f667db", "0.58--pl5321hdfd78af_1": "sha256:25ec6d284052cdc6dc16b68e083feb245dfcde42dbb4e75b2683bfdb28669ded"}, "docker": "quay.io/biocontainers/perl-bio-phylo-forest-dbtree", "aliases": {"dbicadmin": "/usr/local/bin/dbicadmin", "megatree-loader": "/usr/local/bin/megatree-loader", "megatree-ncbi-loader": "/usr/local/bin/megatree-ncbi-loader", "megatree-phylotree-loader": "/usr/local/bin/megatree-phylotree-loader", "megatree-pruner": "/usr/local/bin/megatree-pruner", "config_data": "/usr/local/bin/config_data", "imgsize": "/usr/local/bin/imgsize", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-bio-phylo-forest-dbtree", "latest": {"0.58--pl5321hdfd78af_2": "sha256:570f24bb0bd79216dd5bc083363261707df9bc8646d71a0aeb457951c00830fb"}, "tags": {"0.58--pl5321hdfd78af_0": "sha256:683d3fae3f17c3f6cb375fd714adb1a8c4b1cb859fec6b7832c2aaac41f667db", "0.58--pl5321hdfd78af_1": "sha256:25ec6d284052cdc6dc16b68e083feb245dfcde42dbb4e75b2683bfdb28669ded", "0.58--pl5321hdfd78af_2": "sha256:570f24bb0bd79216dd5bc083363261707df9bc8646d71a0aeb457951c00830fb"}, "docker": "quay.io/biocontainers/perl-bio-phylo-forest-dbtree", "aliases": {"dbicadmin": "/usr/local/bin/dbicadmin", "megatree-loader": "/usr/local/bin/megatree-loader", "megatree-ncbi-loader": "/usr/local/bin/megatree-ncbi-loader", "megatree-phylotree-loader": "/usr/local/bin/megatree-phylotree-loader", "megatree-pruner": "/usr/local/bin/megatree-pruner", "config_data": "/usr/local/bin/config_data", "imgsize": "/usr/local/bin/imgsize", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-phylo-forest-dbtree.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/perl-bio-phylo-forest-dbtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-phylo-forest-dbtree:0.58--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-bio-phylo-forest-dbtree:0.58--pl5321hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-phylo-forest-dbtree/0.58--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-bio-phylo-forest-dbtree/0.58--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-bio-phylo-forest-dbtree/0.58--pl5321hdfd78af_2
+$ module help quay.io/biocontainers/perl-bio-phylo-forest-dbtree/0.58--pl5321hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
