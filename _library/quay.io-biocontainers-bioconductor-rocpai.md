@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rocpai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rocpai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rocpai/container.yaml"
-updated_at: "2025-03-29 03:17:52.801018"
+updated_at: "2025-03-30 03:28:32.121279"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rocpai"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plier/container.yaml"
-updated_at: "2025-03-29 03:26:47.204685"
+updated_at: "2025-03-30 03:37:57.039700"
 latest: "1.76.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plier"
 

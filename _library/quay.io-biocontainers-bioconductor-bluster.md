@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bluster/container.yaml"
-updated_at: "2025-03-29 03:19:07.541130"
+updated_at: "2025-03-30 03:29:50.805456"
 latest: "1.16.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bluster"
 aliases:
