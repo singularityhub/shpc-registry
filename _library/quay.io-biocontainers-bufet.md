@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bufet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bufet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bufet/container.yaml"
-updated_at: "2025-03-30 03:36:01.586633"
+updated_at: "2025-03-31 03:33:58.347228"
 latest: "1.0--py27h470a237_0"
 container_url: "https://biocontainers.pro/tools/bufet"
 aliases:

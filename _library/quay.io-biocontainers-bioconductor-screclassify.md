@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-screclassify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screclassify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screclassify/container.yaml"
-updated_at: "2025-03-30 03:43:01.692454"
+updated_at: "2025-03-31 03:40:37.321113"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screclassify"
 

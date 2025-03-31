@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quota_anchor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quota_anchor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quota_anchor/container.yaml"
-updated_at: "2025-03-30 03:35:30.851591"
+updated_at: "2025-03-31 03:33:29.729163"
 latest: "0.0.1b2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/quota_anchor"
 aliases:

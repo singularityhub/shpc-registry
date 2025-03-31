@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolisakai.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
-updated_at: "2025-03-30 03:47:27.971924"
+updated_at: "2025-03-31 03:44:46.587372"
 latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0"
 aliases:

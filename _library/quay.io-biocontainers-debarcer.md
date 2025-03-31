@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/debarcer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/debarcer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/debarcer/container.yaml"
-updated_at: "2025-03-30 03:44:30.336870"
+updated_at: "2025-03-31 03:41:59.952513"
 latest: "2.1.4--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/debarcer"
 aliases:
