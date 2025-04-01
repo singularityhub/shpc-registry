@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-progress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-progress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-progress/container.yaml"
-updated_at: "2025-03-31 03:36:48.989962"
+updated_at: "2025-04-01 03:43:46.320202"
 latest: "1.0.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-progress"
 aliases:

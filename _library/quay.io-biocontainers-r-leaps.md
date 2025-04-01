@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-leaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leaps/container.yaml"
-updated_at: "2025-03-31 03:47:19.338081"
+updated_at: "2025-04-01 03:54:04.030930"
 latest: "2.9--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-leaps"
 aliases:

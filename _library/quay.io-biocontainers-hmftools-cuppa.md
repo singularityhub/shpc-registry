@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-cuppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cuppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cuppa/container.yaml"
-updated_at: "2025-03-31 03:43:33.048285"
+updated_at: "2025-04-01 03:50:22.029417"
 latest: "2.3.1--py311r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-cuppa"
 aliases:

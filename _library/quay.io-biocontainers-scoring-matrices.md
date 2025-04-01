@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scoring-matrices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoring-matrices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoring-matrices/container.yaml"
-updated_at: "2025-03-31 03:43:18.451122"
+updated_at: "2025-04-01 03:50:07.685400"
 latest: "0.3.0--py313h031d066_0"
 container_url: "https://biocontainers.pro/tools/scoring-matrices"
 aliases:

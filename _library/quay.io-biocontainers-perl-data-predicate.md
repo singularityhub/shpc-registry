@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-predicate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-predicate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-predicate/container.yaml"
-updated_at: "2025-03-31 03:20:08.503573"
+updated_at: "2025-04-01 03:27:19.385283"
 latest: "2.1.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-predicate"
 aliases:

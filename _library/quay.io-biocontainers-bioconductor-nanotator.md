@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotator/container.yaml"
-updated_at: "2025-03-31 03:43:57.941686"
+updated_at: "2025-04-01 03:50:46.466298"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotator"
 aliases:

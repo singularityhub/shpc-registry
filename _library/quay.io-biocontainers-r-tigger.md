@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tigger/container.yaml"
-updated_at: "2025-03-31 03:44:56.527263"
+updated_at: "2025-04-01 03:51:44.220705"
 latest: "0.4.0--r40h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-tigger"
 aliases:

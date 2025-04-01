@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicrexposome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicrexposome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicrexposome/container.yaml"
-updated_at: "2025-03-31 03:36:49.557251"
+updated_at: "2025-04-01 03:43:46.862147"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicrexposome"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piscem-infer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piscem-infer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piscem-infer/container.yaml"
-updated_at: "2025-03-31 03:51:08.815888"
+updated_at: "2025-04-01 03:57:48.620169"
 latest: "0.6.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/piscem-infer"
 aliases:
