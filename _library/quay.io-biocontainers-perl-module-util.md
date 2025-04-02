@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-util/container.yaml"
-updated_at: "2025-04-01 03:19:13.737613"
+updated_at: "2025-04-02 03:07:04.849140"
 latest: "1.09--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-module-util"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.09--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-module-util"
-config: {"url": "https://biocontainers.pro/tools/perl-module-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-util", "latest": {"1.09--pl5321hdfd78af_1": "sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9"}, "tags": {"1.09--pl5321hdfd78af_1": "sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9"}, "docker": "quay.io/biocontainers/perl-module-util", "aliases": {"pm_which": "/usr/local/bin/pm_which", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-util", "latest": {"1.09--pl5321hdfd78af_1": "crane digest quay.io/biocontainers/perl-module-util:1.09--pl5321hdfd78af_1: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"1.09--pl5321hdfd78af_1": "crane digest quay.io/biocontainers/perl-module-util:1.09--pl5321hdfd78af_1: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/perl-module-util", "aliases": {"pm_which": "/usr/local/bin/pm_which", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-util.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ideoviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ideoviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ideoviz/container.yaml"
-updated_at: "2025-04-01 03:29:08.626304"
+updated_at: "2025-04-02 03:16:47.702763"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ideoviz"
 

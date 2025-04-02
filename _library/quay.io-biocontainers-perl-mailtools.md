@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mailtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mailtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mailtools/container.yaml"
-updated_at: "2025-04-01 03:58:00.954667"
+updated_at: "2025-04-02 03:45:24.082031"
 latest: "2.21--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-mailtools"
 aliases:

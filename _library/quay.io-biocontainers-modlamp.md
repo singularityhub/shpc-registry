@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/modlamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modlamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modlamp/container.yaml"
-updated_at: "2025-04-01 03:23:05.207716"
-latest: "4.3.0--pyh7cba7a3_0"
+updated_at: "2025-04-02 03:10:50.130754"
+latest: "4.3.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/modlamp"
 aliases:
  - "example_descriptors.py"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "4.2.1--pyh9f0ad1d_0"
  - "4.3.0--pyh7cba7a3_0"
+ - "4.3.2--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for modlamp"
-config: {"url": "https://biocontainers.pro/tools/modlamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modlamp", "latest": {"4.3.0--pyh7cba7a3_0": "sha256:55d4fd7967a82f590e0427864d9fc18cd52d4387f8e7f2546561d489b1aa813c"}, "tags": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113", "4.3.0--pyh7cba7a3_0": "sha256:55d4fd7967a82f590e0427864d9fc18cd52d4387f8e7f2546561d489b1aa813c"}, "docker": "quay.io/biocontainers/modlamp", "aliases": {"example_descriptors.py": "/usr/local/bin/example_descriptors.py", "example_modlamp.py": "/usr/local/bin/example_modlamp.py", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "protoc": "/usr/local/bin/protoc", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
+config: {"url": "https://biocontainers.pro/tools/modlamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modlamp", "latest": {"4.3.2--pyh7e72e81_0": "sha256:de2aefef9c27aadc515ec69066859d3f267c2e0d5bd262976741f36920b9c2e4"}, "tags": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113", "4.3.0--pyh7cba7a3_0": "sha256:55d4fd7967a82f590e0427864d9fc18cd52d4387f8e7f2546561d489b1aa813c", "4.3.2--pyh7e72e81_0": "sha256:de2aefef9c27aadc515ec69066859d3f267c2e0d5bd262976741f36920b9c2e4"}, "docker": "quay.io/biocontainers/modlamp", "aliases": {"example_descriptors.py": "/usr/local/bin/example_descriptors.py", "example_modlamp.py": "/usr/local/bin/example_modlamp.py", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "protoc": "/usr/local/bin/protoc", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/modlamp.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/modlamp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/modlamp:4.3.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/modlamp:4.3.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/modlamp/4.3.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/modlamp/4.3.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/modlamp/4.3.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/modlamp/4.3.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-gcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-gcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-gcs/container.yaml"
-updated_at: "2025-04-01 03:37:28.698965"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2025-04-02 03:25:05.478172"
+latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-gcs"
 aliases:
  - "protoc-24.4.0"
@@ -35,8 +35,9 @@ versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
  - "1.1.2--pyhdfd78af_0"
+ - "1.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-gcs"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-gcs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-gcs", "latest": {"1.1.2--pyhdfd78af_0": "sha256:16dfb50ca33a93b5801a4071e6642360a84453676ba01ad4a3b794a6595aad3c"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:54ce99bec39b26e088df29176519f677971eae61d26e71cc4d2624e2df205f10", "0.1.4--pyhdfd78af_0": "sha256:cbf27cdec6e2cca45c2d0042d662c03fd1f1e71301c5dbd486c3ed6052ee9bec", "1.0.0--pyhdfd78af_0": "sha256:142b8ffb456c00b046eda2208523b50dcc0d74954681c317b8343e304bc506b8", "1.1.1--pyhdfd78af_0": "sha256:ce69e4e5a85c0390bea8f4be352acc8af33729777a8e0f30e50c0b295032ceb7", "1.1.2--pyhdfd78af_0": "sha256:16dfb50ca33a93b5801a4071e6642360a84453676ba01ad4a3b794a6595aad3c"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-gcs", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-gcs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-gcs", "latest": {"1.1.3--pyhdfd78af_0": "sha256:10847bfdd10cd6e89f5a8f2fe7c0c60fb7b54e8b1ff2edbcbcb1680b6ab7cd74"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:54ce99bec39b26e088df29176519f677971eae61d26e71cc4d2624e2df205f10", "0.1.4--pyhdfd78af_0": "sha256:cbf27cdec6e2cca45c2d0042d662c03fd1f1e71301c5dbd486c3ed6052ee9bec", "1.0.0--pyhdfd78af_0": "sha256:142b8ffb456c00b046eda2208523b50dcc0d74954681c317b8343e304bc506b8", "1.1.1--pyhdfd78af_0": "sha256:ce69e4e5a85c0390bea8f4be352acc8af33729777a8e0f30e50c0b295032ceb7", "1.1.2--pyhdfd78af_0": "sha256:16dfb50ca33a93b5801a4071e6642360a84453676ba01ad4a3b794a6595aad3c", "1.1.3--pyhdfd78af_0": "sha256:10847bfdd10cd6e89f5a8f2fe7c0c60fb7b54e8b1ff2edbcbcb1680b6ab7cd74"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-gcs", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-gcs.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-gcs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-gcs:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-gcs:1.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-gcs/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-gcs/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-gcs/1.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-gcs/1.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

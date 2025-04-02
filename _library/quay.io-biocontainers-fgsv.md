@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgsv/container.yaml"
-updated_at: "2025-04-01 03:43:46.046417"
-latest: "0.2.1--hdfd78af_0"
+updated_at: "2025-04-02 03:31:18.554498"
+latest: "0.2.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fgsv"
 aliases:
  - "fgsv"
@@ -40,8 +40,9 @@ versions:
  - "0.1.1--hdfd78af_0"
  - "0.2.0--hdfd78af_0"
  - "0.2.1--hdfd78af_0"
+ - "0.2.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for fgsv"
-config: {"url": "https://biocontainers.pro/tools/fgsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgsv", "latest": {"0.2.1--hdfd78af_0": "sha256:dcaaf06580e14ca4100809beb163e52725197b19faa308b130fd24ef4b04d969"}, "tags": {"0.0.1--hdfd78af_0": "sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8", "0.0.2--hdfd78af_0": "sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468", "0.1.1--hdfd78af_0": "sha256:16e77d00558bbd86f9ef6337f715866b7d1a327375fc1ffda9a9ee34bba46808", "0.2.0--hdfd78af_0": "sha256:a0a73d3e5067298390aabc0801e9b0fdbb13b6bdee3c0ab60432c8e324b941f2", "0.2.1--hdfd78af_0": "sha256:dcaaf06580e14ca4100809beb163e52725197b19faa308b130fd24ef4b04d969"}, "docker": "quay.io/biocontainers/fgsv", "aliases": {"fgsv": "/usr/local/bin/fgsv", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/fgsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgsv", "latest": {"0.2.1--hdfd78af_1": "sha256:8b6c64c399f4a9e3e0875dcb83a5e78becd3076846f11eaca51567ce5f1c40c3"}, "tags": {"0.0.1--hdfd78af_0": "sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8", "0.0.2--hdfd78af_0": "sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468", "0.1.1--hdfd78af_0": "sha256:16e77d00558bbd86f9ef6337f715866b7d1a327375fc1ffda9a9ee34bba46808", "0.2.0--hdfd78af_0": "sha256:a0a73d3e5067298390aabc0801e9b0fdbb13b6bdee3c0ab60432c8e324b941f2", "0.2.1--hdfd78af_0": "sha256:dcaaf06580e14ca4100809beb163e52725197b19faa308b130fd24ef4b04d969", "0.2.1--hdfd78af_1": "sha256:8b6c64c399f4a9e3e0875dcb83a5e78becd3076846f11eaca51567ce5f1c40c3"}, "docker": "quay.io/biocontainers/fgsv", "aliases": {"fgsv": "/usr/local/bin/fgsv", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgsv.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/fgsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgsv:0.2.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/fgsv:0.2.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgsv/0.2.1--hdfd78af_0
-$ module help quay.io/biocontainers/fgsv/0.2.1--hdfd78af_0
+$ module load quay.io/biocontainers/fgsv/0.2.1--hdfd78af_1
+$ module help quay.io/biocontainers/fgsv/0.2.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

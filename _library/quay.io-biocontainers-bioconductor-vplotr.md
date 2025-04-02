@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vplotr/container.yaml"
-updated_at: "2025-04-01 03:40:18.560926"
+updated_at: "2025-04-02 03:27:53.185763"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vplotr"
 
