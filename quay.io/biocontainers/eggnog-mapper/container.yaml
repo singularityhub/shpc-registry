@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/eggnog-mapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for eggnog-mapper
 latest:
-  2.1.12--pyhdfd78af_1: sha256:fff667a0928a6b5ba026f2c48805fc6b7ca1803bc2a772354c59d2f3d51a3928
+  2.1.12--pyhdfd78af_2: sha256:25b8881852cc240f8e455aa16617fd24528dad06fbd01e5d725d02eb8a1b72b7
 tags:
   2.1.9--pyhdfd78af_0: sha256:c583657bc48787ef25c96a7a78e195dcaf78b3864b37f945b514a81e9f29581b
   2.1.10--pyhdfd78af_0: sha256:59e9957433b320777286281994407748ed21c87f96171f876d48f3a349255ce2
   2.1.11--pyhdfd78af_0: sha256:00c0226f06e558ec26cb048aa5c4700a7f58197885cd35eca01ca61c9707ef53
   2.1.12--pyhdfd78af_0: sha256:d32edadcbcca32d4783e5275f848df1ab23a7df7ce819ac64c161e850ae2b235
   2.1.12--pyhdfd78af_1: sha256:fff667a0928a6b5ba026f2c48805fc6b7ca1803bc2a772354c59d2f3d51a3928
+  2.1.12--pyhdfd78af_2: sha256:25b8881852cc240f8e455aa16617fd24528dad06fbd01e5d725d02eb8a1b72b7
 docker: quay.io/biocontainers/eggnog-mapper
 aliases:
   create_dbs.py: /usr/local/bin/create_dbs.py
