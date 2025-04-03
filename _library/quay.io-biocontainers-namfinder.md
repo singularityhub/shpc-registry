@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/namfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/namfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/namfinder/container.yaml"
-updated_at: "2025-04-02 03:20:05.496241"
-latest: "0.1.3--h077b44d_1"
+updated_at: "2025-04-03 03:19:17.108338"
+latest: "0.1.3--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/namfinder"
 aliases:
  - "namfinder"
 versions:
  - "0.1.3--h4ac6f70_0"
  - "0.1.3--h077b44d_1"
+ - "0.1.3--h077b44d_2"
 description: "singularity registry hpc automated addition for namfinder"
-config: {"url": "https://biocontainers.pro/tools/namfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for namfinder", "latest": {"0.1.3--h077b44d_1": "sha256:f56abc8bb4370aa92a0da7f2a0b735618244ca9bd285dfd178c3bcf900abf8a2"}, "tags": {"0.1.3--h4ac6f70_0": "sha256:722923cbd6b5d4e78c547058f3260693c0d81bca32ac4034acacd2d9a05ee386", "0.1.3--h077b44d_1": "sha256:f56abc8bb4370aa92a0da7f2a0b735618244ca9bd285dfd178c3bcf900abf8a2"}, "docker": "quay.io/biocontainers/namfinder", "aliases": {"namfinder": "/usr/local/bin/namfinder"}}
+config: {"url": "https://biocontainers.pro/tools/namfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for namfinder", "latest": {"0.1.3--h077b44d_2": "sha256:16b578cdf7cd1e92b3946c8dfe91d800a003aa2cf9f5e049f231d4674b5afe47"}, "tags": {"0.1.3--h4ac6f70_0": "sha256:722923cbd6b5d4e78c547058f3260693c0d81bca32ac4034acacd2d9a05ee386", "0.1.3--h077b44d_1": "sha256:f56abc8bb4370aa92a0da7f2a0b735618244ca9bd285dfd178c3bcf900abf8a2", "0.1.3--h077b44d_2": "sha256:16b578cdf7cd1e92b3946c8dfe91d800a003aa2cf9f5e049f231d4674b5afe47"}, "docker": "quay.io/biocontainers/namfinder", "aliases": {"namfinder": "/usr/local/bin/namfinder"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/namfinder.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/namfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/namfinder:0.1.3--h077b44d_1
+$ shpc install quay.io/biocontainers/namfinder:0.1.3--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/namfinder/0.1.3--h077b44d_1
-$ module help quay.io/biocontainers/namfinder/0.1.3--h077b44d_1
+$ module load quay.io/biocontainers/namfinder/0.1.3--h077b44d_2
+$ module help quay.io/biocontainers/namfinder/0.1.3--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

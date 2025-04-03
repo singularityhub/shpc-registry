@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/collect_mgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collect_mgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collect_mgf/container.yaml"
-updated_at: "2025-04-02 03:35:30.657012"
+updated_at: "2025-04-03 03:35:11.301485"
 latest: "1.0--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/collect_mgf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spsimseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spsimseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spsimseq/container.yaml"
-updated_at: "2025-04-02 03:45:42.017651"
+updated_at: "2025-04-03 03:45:34.767322"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spsimseq"
 
