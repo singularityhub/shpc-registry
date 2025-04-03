@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cosg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cosg
 latest:
-  1.0.1--pyh7cba7a3_0: sha256:005f7f2444ff420d6300aa1a2cf7189f108f981255590ec974d390c4d91a44c4
+  1.0.3--pyhdfd78af_0: sha256:75b4f9a2088450240c03d3af1cddc366d3a6482339325ae1032c19b44b86895a
 tags:
   1.0.1--pyh7cba7a3_0: sha256:005f7f2444ff420d6300aa1a2cf7189f108f981255590ec974d390c4d91a44c4
+  1.0.3--pyhdfd78af_0: sha256:75b4f9a2088450240c03d3af1cddc366d3a6482339325ae1032c19b44b86895a
 docker: quay.io/biocontainers/cosg
 aliases:
   h5tools_test_utils: /usr/local/bin/h5tools_test_utils

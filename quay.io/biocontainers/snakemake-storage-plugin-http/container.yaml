@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snakemake-storage-plugin-http
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-storage-plugin-http
 latest:
-  0.2.3--pyhdfd78af_1: sha256:27894a2b08da24791ef84d82634d0dd713dcfa30da094bf92e54f48b6bbd2bb8
+  0.3.0--pyhdfd78af_0: sha256:52e2df68470510bfae0ba9ac0f8de6e3e5bd041ecf7274f5ace0ca343f5861b5
 tags:
   0.2.3--pyhdfd78af_1: sha256:27894a2b08da24791ef84d82634d0dd713dcfa30da094bf92e54f48b6bbd2bb8
+  0.3.0--pyhdfd78af_0: sha256:52e2df68470510bfae0ba9ac0f8de6e3e5bd041ecf7274f5ace0ca343f5861b5
 docker: quay.io/biocontainers/snakemake-storage-plugin-http
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12
