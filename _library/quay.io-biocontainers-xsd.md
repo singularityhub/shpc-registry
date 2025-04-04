@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xsd/container.yaml"
-updated_at: "2025-04-03 03:27:14.766026"
-latest: "4.0.0_dep--h0a036d8_4"
+updated_at: "2025-04-04 03:26:28.763958"
+latest: "4.0.0_dep--h7208437_6"
 container_url: "https://biocontainers.pro/tools/xsd"
 aliases:
  - "xsd"
@@ -21,8 +21,9 @@ aliases:
  - "SAX2Print"
 versions:
  - "4.0.0_dep--h0a036d8_4"
+ - "4.0.0_dep--h7208437_6"
 description: "shpc-registry automated BioContainers addition for xsd"
-config: {"url": "https://biocontainers.pro/tools/xsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xsd", "latest": {"4.0.0_dep--h0a036d8_4": "sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f"}, "tags": {"4.0.0_dep--h0a036d8_4": "sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f"}, "docker": "quay.io/biocontainers/xsd", "aliases": {"xsd": "/usr/local/bin/xsd", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
+config: {"url": "https://biocontainers.pro/tools/xsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xsd", "latest": {"4.0.0_dep--h7208437_6": "sha256:841ecbde14cae330d0cae7d95eb1cbfd2af634e095220d576c499ca06e78438a"}, "tags": {"4.0.0_dep--h0a036d8_4": "sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f", "4.0.0_dep--h7208437_6": "sha256:841ecbde14cae330d0cae7d95eb1cbfd2af634e095220d576c499ca06e78438a"}, "docker": "quay.io/biocontainers/xsd", "aliases": {"xsd": "/usr/local/bin/xsd", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xsd.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/xsd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xsd:4.0.0_dep--h0a036d8_4
+$ shpc install quay.io/biocontainers/xsd:4.0.0_dep--h7208437_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xsd/4.0.0_dep--h0a036d8_4
-$ module help quay.io/biocontainers/xsd/4.0.0_dep--h0a036d8_4
+$ module load quay.io/biocontainers/xsd/4.0.0_dep--h7208437_6
+$ module help quay.io/biocontainers/xsd/4.0.0_dep--h7208437_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

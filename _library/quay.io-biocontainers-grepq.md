@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grepq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grepq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grepq/container.yaml"
-updated_at: "2025-04-03 03:23:41.636820"
-latest: "1.4.9--h6ce8773_0"
+updated_at: "2025-04-04 03:22:58.661482"
+latest: "1.5.4--h6ce8773_0"
 container_url: "https://biocontainers.pro/tools/grepq"
 aliases:
  - "grepq"
@@ -13,8 +13,9 @@ versions:
  - "1.4.1--ha6fb395_0"
  - "1.4.7--ha6fb395_0"
  - "1.4.9--h6ce8773_0"
+ - "1.5.4--h6ce8773_0"
 description: "singularity registry hpc automated addition for grepq"
-config: {"url": "https://biocontainers.pro/tools/grepq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grepq", "latest": {"1.4.9--h6ce8773_0": "sha256:5849fd8253a89de4cd00f62d9315da8860faa7888a8a17c33cb5c1d407ac826a"}, "tags": {"1.4.1--ha6fb395_0": "sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79", "1.4.7--ha6fb395_0": "sha256:fd0df0e593a6f0249ff307b3ae87053fe3402b16aba72e956ea3c5de93686ccb", "1.4.9--h6ce8773_0": "sha256:5849fd8253a89de4cd00f62d9315da8860faa7888a8a17c33cb5c1d407ac826a"}, "docker": "quay.io/biocontainers/grepq", "aliases": {"grepq": "/usr/local/bin/grepq"}}
+config: {"url": "https://biocontainers.pro/tools/grepq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grepq", "latest": {"1.5.4--h6ce8773_0": "sha256:c577d5cf997b82ff496ad88de06f2b1e416151e10e1ccc7ed170880e0e555772"}, "tags": {"1.4.1--ha6fb395_0": "sha256:ff454b701ddd5e8252f3642eaa25c1aecbedbb12f99eed19694d43a9e6e04b79", "1.4.7--ha6fb395_0": "sha256:fd0df0e593a6f0249ff307b3ae87053fe3402b16aba72e956ea3c5de93686ccb", "1.4.9--h6ce8773_0": "sha256:5849fd8253a89de4cd00f62d9315da8860faa7888a8a17c33cb5c1d407ac826a", "1.5.4--h6ce8773_0": "sha256:c577d5cf997b82ff496ad88de06f2b1e416151e10e1ccc7ed170880e0e555772"}, "docker": "quay.io/biocontainers/grepq", "aliases": {"grepq": "/usr/local/bin/grepq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grepq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/grepq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grepq:1.4.9--h6ce8773_0
+$ shpc install quay.io/biocontainers/grepq:1.5.4--h6ce8773_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grepq/1.4.9--h6ce8773_0
-$ module help quay.io/biocontainers/grepq/1.4.9--h6ce8773_0
+$ module load quay.io/biocontainers/grepq/1.5.4--h6ce8773_0
+$ module help quay.io/biocontainers/grepq/1.5.4--h6ce8773_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

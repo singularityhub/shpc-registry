@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cosg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cosg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cosg/container.yaml"
-updated_at: "2025-04-03 03:10:01.434499"
-latest: "1.0.1--pyh7cba7a3_0"
+updated_at: "2025-04-04 03:09:37.076931"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cosg"
 aliases:
  - "h5tools_test_utils"
@@ -36,8 +36,9 @@ aliases:
  - "tqdm"
 versions:
  - "1.0.1--pyh7cba7a3_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cosg"
-config: {"url": "https://biocontainers.pro/tools/cosg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cosg", "latest": {"1.0.1--pyh7cba7a3_0": "sha256:005f7f2444ff420d6300aa1a2cf7189f108f981255590ec974d390c4d91a44c4"}, "tags": {"1.0.1--pyh7cba7a3_0": "sha256:005f7f2444ff420d6300aa1a2cf7189f108f981255590ec974d390c4d91a44c4"}, "docker": "quay.io/biocontainers/cosg", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/cosg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cosg", "latest": {"1.0.3--pyhdfd78af_0": "sha256:75b4f9a2088450240c03d3af1cddc366d3a6482339325ae1032c19b44b86895a"}, "tags": {"1.0.1--pyh7cba7a3_0": "sha256:005f7f2444ff420d6300aa1a2cf7189f108f981255590ec974d390c4d91a44c4", "1.0.3--pyhdfd78af_0": "sha256:75b4f9a2088450240c03d3af1cddc366d3a6482339325ae1032c19b44b86895a"}, "docker": "quay.io/biocontainers/cosg", "aliases": {"h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cosg.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cosg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cosg:1.0.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/cosg:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cosg/1.0.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/cosg/1.0.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/cosg/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/cosg/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
