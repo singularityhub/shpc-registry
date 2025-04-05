@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gbintk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbintk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbintk/container.yaml"
-updated_at: "2025-04-04 03:11:28.428724"
+updated_at: "2025-04-05 03:09:38.115698"
 latest: "1.0.0--py310h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/gbintk"
 aliases:

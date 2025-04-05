@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coreutils/container.yaml"
-updated_at: "2025-04-04 03:17:13.169115"
-latest: "9.3"
+updated_at: "2025-04-05 03:15:35.131854"
+latest: "9.5"
 container_url: "https://biocontainers.pro/tools/coreutils"
 aliases:
  - "basenc"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "8.31--h14c3975_0"
  - "9.3"
+ - "9.5"
 description: "shpc-registry automated BioContainers addition for coreutils"
-config: {"url": "https://biocontainers.pro/tools/coreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coreutils", "latest": {"9.3": "sha256:46c0d357a6d1288393d6d90375ed09bb2d24a728442b1299ff35d856b706f2b4"}, "tags": {"8.31--h14c3975_0": "sha256:3fd9a76e01ea87d65472f2bd8b5248ccbbfb54232585d6d1f5732bae5390dcdd", "9.3": "sha256:46c0d357a6d1288393d6d90375ed09bb2d24a728442b1299ff35d856b706f2b4"}, "docker": "quay.io/biocontainers/coreutils", "aliases": {"basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/coreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coreutils", "latest": {"9.5": "sha256:ef5322d7ebf0036f9b5540fa126a99db3567424c85bf341109cbaa402baf41a8"}, "tags": {"8.31--h14c3975_0": "sha256:3fd9a76e01ea87d65472f2bd8b5248ccbbfb54232585d6d1f5732bae5390dcdd", "9.3": "sha256:46c0d357a6d1288393d6d90375ed09bb2d24a728442b1299ff35d856b706f2b4", "9.5": "sha256:ef5322d7ebf0036f9b5540fa126a99db3567424c85bf341109cbaa402baf41a8"}, "docker": "quay.io/biocontainers/coreutils", "aliases": {"basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coreutils.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/coreutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coreutils:9.3
+$ shpc install quay.io/biocontainers/coreutils:9.5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coreutils/9.3
-$ module help quay.io/biocontainers/coreutils/9.3
+$ module load quay.io/biocontainers/coreutils/9.5
+$ module help quay.io/biocontainers/coreutils/9.5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
