@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/slivar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slivar
 latest:
-  0.3.1--h4e814b3_0: sha256:73ac6d40a879131cc081ba0f77ca1c6c6729be2e950dbcc7745540ca32aa0081
+  0.3.1--h4e814b3_1: sha256:d38b17c15644f2944f50b9a7554f5c51e25cbb0b6ae11bacde83470ebb3b24ba
 tags:
   0.2.7--h2eeb373_0: sha256:2b821cf760c580d6a4da342129a0039706f1d6be335dcf3ef9f649fdc1232b10
   0.2.8--h2eeb373_0: sha256:0ecd57e5a35977964d0394aa6b7a30039df11b3d74efcd28267d023bb81369b3
   0.2.9--h2eeb373_0: sha256:cc2a9a52e1f67dc70d10a4fe493cb04adbc4d746601aad11684eddf5767bc13d
   0.3.0--h4e814b3_2: sha256:c4cc630488cf9cb9a1ca9ab167e29e7785e8f952110a5e39bfa1ea14554da4c0
   0.3.1--h4e814b3_0: sha256:73ac6d40a879131cc081ba0f77ca1c6c6729be2e950dbcc7745540ca32aa0081
+  0.3.1--h4e814b3_1: sha256:d38b17c15644f2944f50b9a7554f5c51e25cbb0b6ae11bacde83470ebb3b24ba
 docker: quay.io/biocontainers/slivar
 aliases:
   pslivar: /usr/local/bin/pslivar

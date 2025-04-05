@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/opticlust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for opticlust
 latest:
-  0.4.1--pyhdfd78af_0: sha256:2550ceda49ec89b2ce6c0ee197be34b6639d228a5c6cb47ba0bd2fa27faa1bee
+  0.4.2--pyhdfd78af_0: sha256:0200069f10669932b19ede84e17907c57c33bcc561c2d10f68c734d0db8d5f6d
 tags:
   0.3.0--pyhdfd78af_0: sha256:ea0ae61adef65a5890f47f353058900e561b74f7f4ae810c15d73c5576840a04
   0.4.1--pyhdfd78af_0: sha256:2550ceda49ec89b2ce6c0ee197be34b6639d228a5c6cb47ba0bd2fa27faa1bee
+  0.4.2--pyhdfd78af_0: sha256:0200069f10669932b19ede84e17907c57c33bcc561c2d10f68c734d0db8d5f6d
 docker: quay.io/biocontainers/opticlust
 aliases:
   igraph: /usr/local/bin/igraph

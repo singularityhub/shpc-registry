@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mspurity
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mspurity
 latest:
-  1.32.0--r44he5774e6_0: sha256:67b2c3d84f14ac0beed2bb01d0b540fad2dc0626d63677450f212105aa92693a
+  1.32.0--r44he5774e6_1: sha256:13f1136172f5e9f52399b1083105ff26e94402d860938822e338c4f228111881
 tags:
   1.8.1--r351hf484d3e_0: sha256:44a3ba3daaa7ffe28acf1db407804f652eb74cd9ff861660d96f9c92a7984ccd
   1.24.0--r42hc247a5b_0: sha256:04caf9524d31c0180f0a62953a5932ed3f3aa158f626b64da177bc5239bdbfe4
@@ -14,6 +14,7 @@ tags:
   1.26.0--r43hf17093f_0: sha256:a1aebda7b15c489baa005c5d0756c33ec9d649889400a3b6580762001280ecc1
   1.28.0--r43hf17093f_0: sha256:67b40329cb0d01383e0080ff93c0dee3caa697a93c018ddea6948025263c6c75
   1.32.0--r44he5774e6_0: sha256:67b2c3d84f14ac0beed2bb01d0b540fad2dc0626d63677450f212105aa92693a
+  1.32.0--r44he5774e6_1: sha256:13f1136172f5e9f52399b1083105ff26e94402d860938822e338c4f228111881
 docker: quay.io/biocontainers/bioconductor-mspurity
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf
