@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/s4pred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/s4pred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/s4pred/container.yaml"
-updated_at: "2025-04-05 02:59:37.623080"
-latest: "1.2.0--pyhdfd78af_1"
+updated_at: "2025-04-06 03:06:10.896099"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/s4pred"
 aliases:
  - "network.py"
@@ -39,8 +39,9 @@ aliases:
  - "protoc"
 versions:
  - "1.2.0--pyhdfd78af_1"
+ - "1.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for s4pred"
-config: {"url": "https://biocontainers.pro/tools/s4pred", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for s4pred", "latest": {"1.2.0--pyhdfd78af_1": "sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa"}, "tags": {"1.2.0--pyhdfd78af_1": "sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa"}, "docker": "quay.io/biocontainers/s4pred", "aliases": {"network.py": "/usr/local/bin/network.py", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "run_model.py": "/usr/local/bin/run_model.py", "torchfrtrace": "/usr/local/bin/torchfrtrace", "utilities.py": "/usr/local/bin/utilities.py", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numpy-config": "/usr/local/bin/numpy-config", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/s4pred", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for s4pred", "latest": {"1.2.1--pyhdfd78af_0": "sha256:c007aeeb83e90fe2b3caac8dcdd1d9309058c0d706d2d5f01fd14d7312d85710"}, "tags": {"1.2.0--pyhdfd78af_1": "sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa", "1.2.1--pyhdfd78af_0": "sha256:c007aeeb83e90fe2b3caac8dcdd1d9309058c0d706d2d5f01fd14d7312d85710"}, "docker": "quay.io/biocontainers/s4pred", "aliases": {"network.py": "/usr/local/bin/network.py", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "run_model.py": "/usr/local/bin/run_model.py", "torchfrtrace": "/usr/local/bin/torchfrtrace", "utilities.py": "/usr/local/bin/utilities.py", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "numpy-config": "/usr/local/bin/numpy-config", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/s4pred.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/s4pred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/s4pred:1.2.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/s4pred:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/s4pred/1.2.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/s4pred/1.2.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/s4pred/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/s4pred/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

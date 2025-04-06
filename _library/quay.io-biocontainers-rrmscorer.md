@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rrmscorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrmscorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rrmscorer/container.yaml"
-updated_at: "2025-04-05 02:58:57.734561"
-latest: "1.0.9--pyhdfd78af_0"
+updated_at: "2025-04-06 03:05:31.699041"
+latest: "1.0.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rrmscorer"
 aliases:
  - "rrmscorer"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.8--pyhdfd78af_0"
  - "1.0.9--pyhdfd78af_0"
+ - "1.0.11--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for rrmscorer"
-config: {"url": "https://biocontainers.pro/tools/rrmscorer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rrmscorer", "latest": {"1.0.9--pyhdfd78af_0": "sha256:367174497fd5dd9db8e4dca99725096831430eb925656c52b5c30e2ff15cf63e"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:90884759090940354800d74879cc65a17ccaf7bd1a4c0573f7b5e92b6956087b", "1.0.9--pyhdfd78af_0": "sha256:367174497fd5dd9db8e4dca99725096831430eb925656c52b5c30e2ff15cf63e"}, "docker": "quay.io/biocontainers/rrmscorer", "aliases": {"rrmscorer": "/usr/local/bin/rrmscorer", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "tjbench": "/usr/local/bin/tjbench", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "jackd": "/usr/local/bin/jackd"}}
+config: {"url": "https://biocontainers.pro/tools/rrmscorer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rrmscorer", "latest": {"1.0.11--pyhdfd78af_0": "sha256:06c7b879872dc5248721f2f58bd1dc03415752b5adfb1eaba7520b50d8a68334"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:90884759090940354800d74879cc65a17ccaf7bd1a4c0573f7b5e92b6956087b", "1.0.9--pyhdfd78af_0": "sha256:367174497fd5dd9db8e4dca99725096831430eb925656c52b5c30e2ff15cf63e", "1.0.11--pyhdfd78af_0": "sha256:06c7b879872dc5248721f2f58bd1dc03415752b5adfb1eaba7520b50d8a68334"}, "docker": "quay.io/biocontainers/rrmscorer", "aliases": {"rrmscorer": "/usr/local/bin/rrmscorer", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "tjbench": "/usr/local/bin/tjbench", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "jackd": "/usr/local/bin/jackd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rrmscorer.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/rrmscorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rrmscorer:1.0.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/rrmscorer:1.0.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rrmscorer/1.0.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/rrmscorer/1.0.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/rrmscorer/1.0.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/rrmscorer/1.0.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
