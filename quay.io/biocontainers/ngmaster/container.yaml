@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ngmaster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngmaster
 latest:
-  1.0.0--pyhdfd78af_0: sha256:a102083cb6e2d958ec01da8c2de2e2fcf5b8d44d0d79a17b6bb870ab32a39ac5
+  1.1.1--pyhdfd78af_0: sha256:90070552ae413260f85376bc7e171024846b031c71bd217961ed8b4bf1430a85
 tags:
   0.5.8--pyhdfd78af_1: sha256:c935646bd88a0274c22387674575f6086cf757e1226d3a0a2ad80c48e7a54998
   1.0.0--pyhdfd78af_0: sha256:a102083cb6e2d958ec01da8c2de2e2fcf5b8d44d0d79a17b6bb870ab32a39ac5
+  1.1.1--pyhdfd78af_0: sha256:90070552ae413260f85376bc7e171024846b031c71bd217961ed8b4bf1430a85
 docker: quay.io/biocontainers/ngmaster
 aliases:
   gfPcr: /usr/local/bin/gfPcr

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metabolights-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metabolights-utils
 latest:
-  1.4.2--pyhdfd78af_0: sha256:ee00994bda593f787f711a06063c769a9b3aaf1771576cfeef4bee68734b8517
+  1.4.3--pyhdfd78af_0: sha256:149d20c0c9fe35249f4104afd5730f6730e6f40c10034fa4695c312816d6fec8
 tags:
   1.1.2--pyhdfd78af_0: sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88
   1.1.5--pyhdfd78af_0: sha256:3849ce17c06a90bfc929a6249ea03c2e734a0bc2ac1ede5a1bcc4fe1da93d0a5
@@ -14,6 +14,7 @@ tags:
   1.3.10--pyhdfd78af_0: sha256:623d78ba99901fa32ab181665585e3e308844ab5889eb173740018b366f212e9
   1.3.12--pyhdfd78af_0: sha256:c04ae1a66cbd6160b273551800aa027c21eab4ea1aa326a2ee8fe2ceb62c3821
   1.4.2--pyhdfd78af_0: sha256:ee00994bda593f787f711a06063c769a9b3aaf1771576cfeef4bee68734b8517
+  1.4.3--pyhdfd78af_0: sha256:149d20c0c9fe35249f4104afd5730f6730e6f40c10034fa4695c312816d6fec8
 docker: quay.io/biocontainers/metabolights-utils
 aliases:
   dotenv: /usr/local/bin/dotenv

@@ -3,7 +3,8 @@ url: https://hub.docker.com/r/tensorflow/tensorflow
 maintainer: '@vsoch'
 description: An end-to-end open source platform for machine learning.
 latest:
-  2.19.0rc0: sha256:d7915e4106cd66fc5675dbcf188a1a9708591b0b4512a6e237b2f441e2a28caa
+  2.19.0rc0: 'crane digest tensorflow/tensorflow:2.19.0rc0: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   2.5.0-custom-op-gpu-ubuntu16: sha256:478bee6f0691b48d74adc3fcffe3e9ececf35df5c02860cc51a2c48b1d92c730
   2.5.0rc0-gpu-jupyter: sha256:9808e04142b09482bb6b3d1738430ae7472a214dd38e086d41e481b376fa9abd
@@ -13,7 +14,7 @@ tags:
   2.7.0rc0: sha256:abbc457c9b7c0725d7d0db885dbb313db3d0ae25733b083900a508efb672af94
   2.8.0: sha256:7c01f75d58fadc2cd1109d5baac1925ed131e05925d840b1b49363c794d1c4db
   2.8.0rc0: sha256:11e5d21a786da523d2f7de530c083d5c72a06e02c8895c84595d107c579027a1
-  latest-gpu: sha256:1f16fbd9be8bb84891de12533e332bbd500511caeb5cf4db501dbe39d422f9c7
+  latest-gpu: sha256:73fe35b67dad5fa5ab0824ed7efeb586820317566a705dff76142f8949ffcaff
   2.7.1-gpu: sha256:581575fc3a736398f0dff9e950f57f2e6d808296267ac98325451a0b1d101dd0
   2.7.1: sha256:c9940aa904694a1e5dc4ad3add3c933de45091d5b48e37e94993f19d1d213205
   2.6.1: sha256:8f343633898c500138979065b62ecb50be4a29f8e7adfadd8f0b168d2642eab1
@@ -42,14 +43,24 @@ tags:
   2.14.0: sha256:e39bbda78194ea735df765d6f15396d9a08354319af156ffec4ad2c6eeba469b
   2.15.0rc1: sha256:224cac1c9371f104bdf3e9318301c09ec7270403bea23a54cbd317810038740e
   2.15.0: sha256:4689c724a7d65a7d289cc2ae536fa3cd6b636b2df3e23da3a44ffdd6ac3af46f
-  2.16.0rc0: sha256:f76d733c6e58736f2c9ba2e2e2fecf09963b61866027886417ef1bce8731b778
-  2.16.1: sha256:b39aeb46e9d9dac46031d4eabba268fca619e207a2be2fb5485f31cfc423ac9e
-  2.17.0rc1: sha256:c0f42802b3f1734909630314d775bc5f03775dab18ec7105164de1240d208844
-  2.16.2: sha256:d615fb7f2d167af3a46abcc906bd909eac0a34f729eb30ad8b77ac9d5473a210
-  2.17.0: sha256:821b11952acfa67764c1f433a0629747ee49e30a69291811a2dcbef77b67cf33
-  2.18.0rc0: sha256:d3c9afe0de63f946cd3bc091cd69b6adeba1e71ab69f949580bf8a474f2aafdb
-  2.18.0: sha256:f3be5db24f080b3b228a23eb24f586058b3bec445d81500f95167c70e5473d4e
-  2.19.0rc0: sha256:d7915e4106cd66fc5675dbcf188a1a9708591b0b4512a6e237b2f441e2a28caa
+  2.16.0rc0: 'crane digest tensorflow/tensorflow:2.16.0rc0: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.16.1: 'crane digest tensorflow/tensorflow:2.16.1: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.17.0rc1: 'crane digest tensorflow/tensorflow:2.17.0rc1: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.16.2: 'crane digest tensorflow/tensorflow:2.16.2: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.17.0: 'crane digest tensorflow/tensorflow:2.17.0: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.18.0rc0: 'crane digest tensorflow/tensorflow:2.18.0rc0: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.18.0: 'crane digest tensorflow/tensorflow:2.18.0: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.19.0rc0: 'crane digest tensorflow/tensorflow:2.19.0rc0: TOOMANYREQUESTS: You have
+    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  2.19.0: 'crane digest tensorflow/tensorflow:2.19.0: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 filter:
 - 2[.]*
 features:

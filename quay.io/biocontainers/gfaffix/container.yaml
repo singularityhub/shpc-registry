@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gfaffix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gfaffix
 latest:
-  0.2.0--hc1c3326_2: sha256:1f2efd72e36003f7a5ba38c15fd433a3035d4c29d3e67caa87bb33a33a2cb5ac
+  0.2.1--hc1c3326_0: sha256:6c2f1bb401bbe622219565121d5a9d2b173dffdd46b4bffcaeabaae4b22bef6d
 tags:
   0.1.4--hec16e2b_0: sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607
   0.1.4--h031d066_2: sha256:f60080d6f5f2297ebaee98a93666f1815a094da6d1f8e1404b7917c2c14337cb
@@ -11,6 +11,7 @@ tags:
   0.2.0--hc1c3326_1: sha256:769699c57328e760baec21abadd08cdc5b1cd40d67429ddceffbb1f6774a0d5a
   0.1.5b--h7b50bb2_1: sha256:18a8767d39001847a4e34188bcdc6ff40244a8b69ff6405a9034062622736fb6
   0.2.0--hc1c3326_2: sha256:1f2efd72e36003f7a5ba38c15fd433a3035d4c29d3e67caa87bb33a33a2cb5ac
+  0.2.1--hc1c3326_0: sha256:6c2f1bb401bbe622219565121d5a9d2b173dffdd46b4bffcaeabaae4b22bef6d
 docker: quay.io/biocontainers/gfaffix
 aliases:
   gfaffix: /usr/local/bin/gfaffix

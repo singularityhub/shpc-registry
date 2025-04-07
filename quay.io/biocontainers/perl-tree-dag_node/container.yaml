@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-tree-dag_node
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-tree-dag_node
 latest:
-  1.32--pl5321hdfd78af_0: sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110
+  1.33--pl5321hdfd78af_0: sha256:887c192101cb5c0a8d958be53bb22159fcdbb3c2d9c0e639bc9d562726aa4000
 tags:
   1.32--pl5321hdfd78af_0: sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110
+  1.33--pl5321hdfd78af_0: sha256:887c192101cb5c0a8d958be53bb22159fcdbb3c2d9c0e639bc9d562726aa4000
 docker: quay.io/biocontainers/perl-tree-dag_node
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
