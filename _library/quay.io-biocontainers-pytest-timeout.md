@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-timeout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-timeout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-timeout/container.yaml"
-updated_at: "2025-04-06 03:09:41.627580"
+updated_at: "2025-04-07 03:09:55.061129"
 latest: "1.0.0--py35_0"
 container_url: "https://biocontainers.pro/tools/pytest-timeout"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genefu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genefu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genefu/container.yaml"
-updated_at: "2025-04-06 03:12:19.953337"
+updated_at: "2025-04-07 03:12:37.708947"
 latest: "2.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genefu"
 
