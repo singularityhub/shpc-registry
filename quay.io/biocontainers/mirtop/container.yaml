@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mirtop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirtop
 latest:
-  0.4.28--pyh7e72e81_0: sha256:7bf7aae31229bf54a1891cd493042a56c51e2f99cf6326ac3829ed03239d7cd4
+  0.4.30--pyh7e72e81_0: sha256:40fedcc92172ee57704e7576288c293c0bbfe4771939be4564297a58ffa48785
 tags:
   0.4.25--pyh5e36f6f_0: sha256:b5d97e763aab6b1ffb75c52ec8bac086bb7fab67a2fda7a29d454029c59e15c9
   0.4.28--pyh7e72e81_0: sha256:7bf7aae31229bf54a1891cd493042a56c51e2f99cf6326ac3829ed03239d7cd4
+  0.4.30--pyh7e72e81_0: sha256:40fedcc92172ee57704e7576288c293c0bbfe4771939be4564297a58ffa48785
 docker: quay.io/biocontainers/mirtop
 aliases:
   mirtop: /usr/local/bin/mirtop

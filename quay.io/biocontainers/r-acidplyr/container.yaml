@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-acidplyr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidplyr
 latest:
-  0.5.4--r44hdfd78af_1: sha256:132be6fe27b39f509ea33f0ca52207cbc7d59e63ab6a04bb9156d9f1336980b7
+  0.5.5--r44hdfd78af_0: sha256:275113eab71ef11711a6576b79d3820c7e01f66e6a5a875f6ec2e8364baf0511
 tags:
   0.2.0--r41hdfd78af_0: sha256:3d3d96c8325669aa2724e505f174ed2e4aa957c6e0ef174d6289b1b7c8b52cd1
   0.2.0--r41hdfd78af_1: sha256:c9c8ad610a9cc354fa3cfb93b0a46623d6d7431b1113ce6fe5d6507b20b88c50
@@ -19,4 +19,5 @@ tags:
   0.5.3--r43hdfd78af_0: sha256:ef78a9a070a487db67b4a12856789003a009776422f61470117efe33f79cb3e1
   0.5.4--r43hdfd78af_0: sha256:d789c2bff7855a7605d24a4c80c6e6c1036a607aef6d7b7dfdcad5757c13cfb7
   0.5.4--r44hdfd78af_1: sha256:132be6fe27b39f509ea33f0ca52207cbc7d59e63ab6a04bb9156d9f1336980b7
+  0.5.5--r44hdfd78af_0: sha256:275113eab71ef11711a6576b79d3820c7e01f66e6a5a875f6ec2e8364baf0511
 docker: quay.io/biocontainers/r-acidplyr

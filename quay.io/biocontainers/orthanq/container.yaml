@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/orthanq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthanq
 latest:
-  1.9.1--h5515a42_0: sha256:7d061966a475ae8a449b5417d4bb1a4a07ad330d669c7e19298e7950e3569f70
+  1.10.0--h5515a42_0: sha256:b6116c4d2a2335eacd35b1ebc71f5ae6e8d9b2134c64a2cc2fed1936a56cc2f5
 tags:
   1.1.0--h7fa7510_0: sha256:d177677b673109f318657c076ddc8c3128d4420947da6b7ebd3288ba0626e9e4
   1.2.0--h7fa7510_0: sha256:857689c5fcbf5fef3323e65976f2ee677270e5b5dc330334009a9b7d71ac3854
@@ -17,6 +17,8 @@ tags:
   1.7.9--h5515a42_1: sha256:b0acf643a1e4312eb9ff71486db482928c5ad134b81dcb0b50fc4a707d1d6d87
   1.9.1--h5515a42_0: sha256:7d061966a475ae8a449b5417d4bb1a4a07ad330d669c7e19298e7950e3569f70
   1.8.0--h5515a42_0: sha256:163c725022baddda80435d892837f877c27a6719523bb3c8255d6af3c283fb04
+  1.10.0--h5515a42_0: sha256:b6116c4d2a2335eacd35b1ebc71f5ae6e8d9b2134c64a2cc2fed1936a56cc2f5
+  1.9.3--h5515a42_0: sha256:44ed2e44056cd9c08ee6d6a65d90fe6eeafa7d9a33711598a50cc7a1d68f170d
 docker: quay.io/biocontainers/orthanq
 aliases:
   amdgpu-arch: /usr/local/bin/amdgpu-arch
