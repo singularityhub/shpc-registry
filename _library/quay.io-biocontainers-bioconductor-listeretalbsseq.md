@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-listeretalbsseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-listeretalbsseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-listeretalbsseq/container.yaml"
-updated_at: "2025-04-07 03:26:02.267368"
+updated_at: "2025-04-08 03:22:07.301440"
 latest: "1.32.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-listeretalbsseq"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genemodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genemodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genemodel/container.yaml"
-updated_at: "2025-04-07 03:30:45.632767"
+updated_at: "2025-04-08 03:26:39.686373"
 latest: "1.1.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-genemodel"
 aliases:

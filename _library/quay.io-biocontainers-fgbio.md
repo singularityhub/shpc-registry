@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgbio/container.yaml"
-updated_at: "2025-04-07 03:37:02.043133"
-latest: "2.5.0--hdfd78af_0"
+updated_at: "2025-04-08 03:32:50.578056"
+latest: "2.5.21--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgbio"
 aliases:
  - "fgbio"
@@ -26,8 +26,9 @@ versions:
  - "2.3.0--hdfd78af_0"
  - "2.4.0--hdfd78af_0"
  - "2.5.0--hdfd78af_0"
+ - "2.5.21--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fgbio"
-config: {"url": "https://biocontainers.pro/tools/fgbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgbio", "latest": {"2.5.0--hdfd78af_0": "sha256:a82e5df9da9350cdc79701a5afd3c88a9c4416291da2544bee8169a94f72f0cc"}, "tags": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8", "2.1.0--hdfd78af_0": "sha256:3342c92a9f76980f4ad6b3387188ba723813802bdda628be3a04e9a30bce4678", "2.2.1--hdfd78af_0": "sha256:cc44fe9e72af1232907caa322284bed80f48c57313503e25fa8fac150719aebb", "2.3.0--hdfd78af_0": "sha256:81a17cd5ab75c4bb85a64f1ed913b05403e539fc99323970800da8b84f1449dc", "2.4.0--hdfd78af_0": "sha256:ad405ce298ea9aafc95d402f6d66945a06ee4df5a3398d31b353a75e1402aa69", "2.5.0--hdfd78af_0": "sha256:a82e5df9da9350cdc79701a5afd3c88a9c4416291da2544bee8169a94f72f0cc"}, "docker": "quay.io/biocontainers/fgbio", "aliases": {"fgbio": "/usr/local/bin/fgbio", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/fgbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgbio", "latest": {"2.5.21--hdfd78af_0": "sha256:29c5b2570ff644ff38a8a165513d86961c67a4642a0fddf90796141b3797b53d"}, "tags": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8", "2.1.0--hdfd78af_0": "sha256:3342c92a9f76980f4ad6b3387188ba723813802bdda628be3a04e9a30bce4678", "2.2.1--hdfd78af_0": "sha256:cc44fe9e72af1232907caa322284bed80f48c57313503e25fa8fac150719aebb", "2.3.0--hdfd78af_0": "sha256:81a17cd5ab75c4bb85a64f1ed913b05403e539fc99323970800da8b84f1449dc", "2.4.0--hdfd78af_0": "sha256:ad405ce298ea9aafc95d402f6d66945a06ee4df5a3398d31b353a75e1402aa69", "2.5.0--hdfd78af_0": "sha256:a82e5df9da9350cdc79701a5afd3c88a9c4416291da2544bee8169a94f72f0cc", "2.5.21--hdfd78af_0": "sha256:29c5b2570ff644ff38a8a165513d86961c67a4642a0fddf90796141b3797b53d"}, "docker": "quay.io/biocontainers/fgbio", "aliases": {"fgbio": "/usr/local/bin/fgbio", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgbio.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/fgbio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgbio:2.5.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/fgbio:2.5.21--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgbio/2.5.0--hdfd78af_0
-$ module help quay.io/biocontainers/fgbio/2.5.0--hdfd78af_0
+$ module load quay.io/biocontainers/fgbio/2.5.21--hdfd78af_0
+$ module help quay.io/biocontainers/fgbio/2.5.21--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

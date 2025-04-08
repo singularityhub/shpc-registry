@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-tree-dag_node"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tree-dag_node/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tree-dag_node/container.yaml"
-updated_at: "2025-04-07 03:47:24.044353"
-latest: "1.32--pl5321hdfd78af_0"
+updated_at: "2025-04-08 03:43:07.693929"
+latest: "1.33--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-tree-dag_node"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.32--pl5321hdfd78af_0"
+ - "1.33--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-tree-dag_node"
-config: {"url": "https://biocontainers.pro/tools/perl-tree-dag_node", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tree-dag_node", "latest": {"1.32--pl5321hdfd78af_0": "sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110"}, "tags": {"1.32--pl5321hdfd78af_0": "sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110"}, "docker": "quay.io/biocontainers/perl-tree-dag_node", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-tree-dag_node", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tree-dag_node", "latest": {"1.33--pl5321hdfd78af_0": "sha256:887c192101cb5c0a8d958be53bb22159fcdbb3c2d9c0e639bc9d562726aa4000"}, "tags": {"1.32--pl5321hdfd78af_0": "sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110", "1.33--pl5321hdfd78af_0": "sha256:887c192101cb5c0a8d958be53bb22159fcdbb3c2d9c0e639bc9d562726aa4000"}, "docker": "quay.io/biocontainers/perl-tree-dag_node", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-tree-dag_node.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-tree-dag_node
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-tree-dag_node:1.32--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-tree-dag_node:1.33--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-tree-dag_node/1.32--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-tree-dag_node/1.32--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-tree-dag_node/1.33--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-tree-dag_node/1.33--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

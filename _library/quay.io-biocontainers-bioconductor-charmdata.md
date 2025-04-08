@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-charmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-charmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-charmdata/container.yaml"
-updated_at: "2025-04-07 03:09:59.441163"
+updated_at: "2025-04-08 03:06:21.092149"
 latest: "1.18.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-charmdata"
 aliases:

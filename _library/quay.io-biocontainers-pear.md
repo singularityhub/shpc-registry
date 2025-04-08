@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pear/container.yaml"
-updated_at: "2025-04-07 03:12:32.730493"
-latest: "0.9.6--hb1d24b7_11"
+updated_at: "2025-04-08 03:08:50.078669"
+latest: "0.9.6--hb1d24b7_12"
 container_url: "https://biocontainers.pro/tools/pear"
 aliases:
  - "pear"
@@ -14,8 +14,9 @@ versions:
  - "0.9.6--h67092d7_8"
  - "0.9.6--h9d449c0_10"
  - "0.9.6--hb1d24b7_11"
+ - "0.9.6--hb1d24b7_12"
 description: "shpc-registry automated BioContainers addition for pear"
-config: {"url": "https://biocontainers.pro/tools/pear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pear", "latest": {"0.9.6--hb1d24b7_11": "sha256:24bde857bc925bc14190960224a69f2be2d13e8e92ccfe1ffc809580209d2219"}, "tags": {"0.9.6--h67092d7_8": "sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e", "0.9.6--h9d449c0_10": "sha256:e12f7c93da40fbd416491489e5ff86dae979ccfc7530f9a4573c46725bc90f34", "0.9.6--hb1d24b7_11": "sha256:24bde857bc925bc14190960224a69f2be2d13e8e92ccfe1ffc809580209d2219"}, "docker": "quay.io/biocontainers/pear", "aliases": {"pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM"}}
+config: {"url": "https://biocontainers.pro/tools/pear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pear", "latest": {"0.9.6--hb1d24b7_12": "sha256:81b904e49eb924119240082139f35af2c7775b1893ae269ee8babdb5a97a4b65"}, "tags": {"0.9.6--h67092d7_8": "sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e", "0.9.6--h9d449c0_10": "sha256:e12f7c93da40fbd416491489e5ff86dae979ccfc7530f9a4573c46725bc90f34", "0.9.6--hb1d24b7_11": "sha256:24bde857bc925bc14190960224a69f2be2d13e8e92ccfe1ffc809580209d2219", "0.9.6--hb1d24b7_12": "sha256:81b904e49eb924119240082139f35af2c7775b1893ae269ee8babdb5a97a4b65"}, "docker": "quay.io/biocontainers/pear", "aliases": {"pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pear.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/pear
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pear:0.9.6--hb1d24b7_11
+$ shpc install quay.io/biocontainers/pear:0.9.6--hb1d24b7_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pear/0.9.6--hb1d24b7_11
-$ module help quay.io/biocontainers/pear/0.9.6--hb1d24b7_11
+$ module load quay.io/biocontainers/pear/0.9.6--hb1d24b7_12
+$ module help quay.io/biocontainers/pear/0.9.6--hb1d24b7_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

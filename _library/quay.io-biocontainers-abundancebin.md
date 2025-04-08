@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abundancebin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abundancebin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abundancebin/container.yaml"
-updated_at: "2025-04-07 03:28:53.729327"
+updated_at: "2025-04-08 03:24:54.246900"
 latest: "1.0.1--h9948957_8"
 container_url: "https://biocontainers.pro/tools/abundancebin"
 aliases:

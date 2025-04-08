@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hypergraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hypergraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hypergraph/container.yaml"
-updated_at: "2025-04-07 03:31:16.653015"
+updated_at: "2025-04-08 03:27:09.237362"
 latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hypergraph"
 
