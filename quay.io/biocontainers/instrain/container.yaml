@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/instrain
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for instrain
 latest:
-  1.9.0--pyhdfd78af_0: sha256:85b04905a63383f0674e54faba2583a4a107ee9714f37a06a468a492d1dca595
+  1.9.1--pyhdfd78af_0: sha256:3ad97f296a52e1b987f2d0bd5dad56433df7c67cd6cd5251bf18bebb3b55ccec
 tags:
   1.6.3--pyhdfd78af_0: sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a
   1.6.4--pyhdfd78af_0: sha256:539ddd8ed942f7bcc97e20d471e615d0f9a74dcf23710f9bc7c3704136b09849
@@ -12,6 +12,7 @@ tags:
   1.8.0--pyhdfd78af_0: sha256:c0ae29f1b57837947b420461c93b370064a41aea380f8fdf58140b5d12ea9262
   1.9.0--pyhdfd78af_0: sha256:85b04905a63383f0674e54faba2583a4a107ee9714f37a06a468a492d1dca595
   1.8.1--pyhdfd78af_0: sha256:ff92b5e0ec1662085ddf3d9eec0bfe48db400818dff19357a290d617530bce6d
+  1.9.1--pyhdfd78af_0: sha256:3ad97f296a52e1b987f2d0bd5dad56433df7c67cd6cd5251bf18bebb3b55ccec
 docker: quay.io/biocontainers/instrain
 aliases:
   ScaffoldLevel_dRep.py: /usr/local/bin/ScaffoldLevel_dRep.py
