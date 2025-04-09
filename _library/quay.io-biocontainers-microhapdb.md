@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microhapdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microhapdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microhapdb/container.yaml"
-updated_at: "2025-04-08 03:05:25.394345"
+updated_at: "2025-04-09 03:06:41.900208"
 latest: "0.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microhapdb"
 aliases:

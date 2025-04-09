@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flams"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flams/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flams/container.yaml"
-updated_at: "2025-04-08 03:13:53.723748"
+updated_at: "2025-04-09 03:15:29.807472"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flams"
 aliases:

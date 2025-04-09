@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flanker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flanker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flanker/container.yaml"
-updated_at: "2025-04-08 03:29:19.958952"
+updated_at: "2025-04-09 03:31:17.388957"
 latest: "0.1.5--py_0"
 container_url: "https://biocontainers.pro/tools/flanker"
 aliases:

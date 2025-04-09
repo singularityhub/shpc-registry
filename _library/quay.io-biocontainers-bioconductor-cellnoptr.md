@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellnoptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
-updated_at: "2025-04-08 03:09:40.324541"
-latest: "1.52.0--r44h3df3fcb_0"
+updated_at: "2025-04-09 03:11:07.792287"
+latest: "1.52.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellnoptr"
 aliases:
  - "diffimg"
@@ -25,8 +25,9 @@ versions:
  - "1.46.0--r43ha9d7317_0"
  - "1.48.0--r43ha9d7317_0"
  - "1.52.0--r44h3df3fcb_0"
+ - "1.52.0--r44h3df3fcb_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellnoptr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.52.0--r44h3df3fcb_0": "sha256:6ece4cbff8b50668a64106710c6c2355b63c670ed45f2eda5544eab40fcac50f"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930", "1.44.0--r42hc0cfd56_0": "sha256:8a48fee81fa0d958b09f8ed405c32ba4e4b45ce2554639c111b19d3020af5a9d", "1.44.0--r42ha9d7317_1": "sha256:3efed90bf0258675160e83d80627f7a191b5c3d33a0232f519d5d99a79d3d313", "1.46.0--r43ha9d7317_0": "sha256:2687d1e3eab85f3bff0288f866e4d51314a6b454bbb23cdcb3e22e0c5db9f914", "1.48.0--r43ha9d7317_0": "sha256:7667309895dc7374b2460159d77d66b9483da5ca894e70ad5cced2af6e7311d4", "1.52.0--r44h3df3fcb_0": "sha256:6ece4cbff8b50668a64106710c6c2355b63c670ed45f2eda5544eab40fcac50f"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.52.0--r44h3df3fcb_1": "sha256:8694371efd878d69b4abdbe3e996499e6adf6513a60206f120dd3c1d54b79352"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930", "1.44.0--r42hc0cfd56_0": "sha256:8a48fee81fa0d958b09f8ed405c32ba4e4b45ce2554639c111b19d3020af5a9d", "1.44.0--r42ha9d7317_1": "sha256:3efed90bf0258675160e83d80627f7a191b5c3d33a0232f519d5d99a79d3d313", "1.46.0--r43ha9d7317_0": "sha256:2687d1e3eab85f3bff0288f866e4d51314a6b454bbb23cdcb3e22e0c5db9f914", "1.48.0--r43ha9d7317_0": "sha256:7667309895dc7374b2460159d77d66b9483da5ca894e70ad5cced2af6e7311d4", "1.52.0--r44h3df3fcb_0": "sha256:6ece4cbff8b50668a64106710c6c2355b63c670ed45f2eda5544eab40fcac50f", "1.52.0--r44h3df3fcb_1": "sha256:8694371efd878d69b4abdbe3e996499e6adf6513a60206f120dd3c1d54b79352"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellnoptr.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellnoptr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellnoptr:1.52.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-cellnoptr:1.52.0--r44h3df3fcb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellnoptr/1.52.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-cellnoptr/1.52.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-cellnoptr/1.52.0--r44h3df3fcb_1
+$ module help quay.io/biocontainers/bioconductor-cellnoptr/1.52.0--r44h3df3fcb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

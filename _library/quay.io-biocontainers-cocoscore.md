@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cocoscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cocoscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cocoscore/container.yaml"
-updated_at: "2025-04-08 03:09:44.194672"
+updated_at: "2025-04-09 03:11:11.848050"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/cocoscore"
 aliases:
