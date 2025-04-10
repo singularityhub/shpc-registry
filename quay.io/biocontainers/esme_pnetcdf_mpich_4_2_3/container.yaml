@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/esme_pnetcdf_mpich_4_2_3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_pnetcdf_mpich_4_2_3
+latest:
+  1.14.0--h900047d_0: sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
+tags:
+  1.14.0--h900047d_0: sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
+docker: quay.io/biocontainers/esme_pnetcdf_mpich_4_2_3
+aliases:
+  cdfdiff: /usr/local/bin/cdfdiff
+  mpiexec.gforker: /usr/local/bin/mpiexec.gforker
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list

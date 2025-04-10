@@ -1,0 +1,81 @@
+url: https://biocontainers.pro/tools/metafx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metafx
+latest:
+  1.1.0--hdfd78af_0: sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
+tags:
+  1.1.0--hdfd78af_0: sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
+docker: quay.io/biocontainers/metafx
+aliases:
+  bandage_pipe.sh: /usr/local/bin/bandage_pipe.sh
+  build_model_for_bandage.py: /usr/local/bin/build_model_for_bandage.py
+  calc_features.sh: /usr/local/bin/calc_features.sh
+  chisq.sh: /usr/local/bin/chisq.sh
+  colored.sh: /usr/local/bin/colored.sh
+  cv.py: /usr/local/bin/cv.py
+  cv.sh: /usr/local/bin/cv.sh
+  extract_kmers.sh: /usr/local/bin/extract_kmers.sh
+  feature_analysis.sh: /usr/local/bin/feature_analysis.sh
+  fit.py: /usr/local/bin/fit.py
+  fit.sh: /usr/local/bin/fit.sh
+  fit_predict.py: /usr/local/bin/fit_predict.py
+  fit_predict.sh: /usr/local/bin/fit_predict.sh
+  get_G.sh: /usr/local/bin/get_G.sh
+  get_samples_categories.py: /usr/local/bin/get_samples_categories.py
+  get_samples_labels_for_colored.py: /usr/local/bin/get_samples_labels_for_colored.py
+  graph2contigs.py: /usr/local/bin/graph2contigs.py
+  join_feature_vectors.py: /usr/local/bin/join_feature_vectors.py
+  join_gfa.py: /usr/local/bin/join_gfa.py
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  metacherchant.sh: /usr/local/bin/metacherchant.sh
+  metafast.sh: /usr/local/bin/metafast.sh
+  metafast_pipe.sh: /usr/local/bin/metafast_pipe.sh
+  metafx: /usr/local/bin/metafx
+  metafx_torch.py: /usr/local/bin/metafx_torch.py
+  metaphlan_to_csv.py: /usr/local/bin/metaphlan_to_csv.py
+  metaspades_pipe.sh: /usr/local/bin/metaspades_pipe.sh
+  parse_samples_categories.py: /usr/local/bin/parse_samples_categories.py
+  parse_samples_for_spades.py: /usr/local/bin/parse_samples_for_spades.py
+  pca.py: /usr/local/bin/pca.py
+  pca.sh: /usr/local/bin/pca.sh
+  predict.py: /usr/local/bin/predict.py
+  predict.sh: /usr/local/bin/predict.sh
+  pretty_print.py: /usr/local/bin/pretty_print.py
+  select_samples_by_feature.py: /usr/local/bin/select_samples_by_feature.py
+  tax_to_csv.py: /usr/local/bin/tax_to_csv.py
+  unique.sh: /usr/local/bin/unique.sh
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  stats.sh: /usr/local/bin/stats.sh
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime
+  qmltyperegistrar: /usr/local/bin/qmltyperegistrar
+  tracegen: /usr/local/bin/tracegen
+  lame: /usr/local/bin/lame
+  pa-info: /usr/local/bin/pa-info

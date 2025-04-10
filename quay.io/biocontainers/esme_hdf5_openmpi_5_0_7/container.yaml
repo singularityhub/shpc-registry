@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/esme_hdf5_openmpi_5_0_7
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_hdf5_openmpi_5_0_7
+latest:
+  1.14.5--h11dd02c_0: sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
+tags:
+  1.14.5--h11dd02c_0: sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
+docker: quay.io/biocontainers/esme_hdf5_openmpi_5_0_7
+aliases:
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  ph5diff: /usr/local/bin/ph5diff
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  setfacl: /usr/local/bin/setfacl
+  ucc_info: /usr/local/bin/ucc_info
+  prun: /usr/local/bin/prun
+  h5fuse: /usr/local/bin/h5fuse
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup

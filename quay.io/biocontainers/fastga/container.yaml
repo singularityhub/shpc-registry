@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/fastga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastga
+latest:
+  1.2--h577a1d6_0: sha256:9eef8900d79e2f94505fe54e888152adc5289f7fdbe5862b6e19879e19628fd0
+tags:
+  1.2--h577a1d6_0: sha256:9eef8900d79e2f94505fe54e888152adc5289f7fdbe5862b6e19879e19628fd0
+docker: quay.io/biocontainers/fastga
+aliases:
+  ALNchain: /usr/local/bin/ALNchain
+  ALNplot: /usr/local/bin/ALNplot
+  ALNreset: /usr/local/bin/ALNreset
+  ALNshow: /usr/local/bin/ALNshow
+  ALNtoPAF: /usr/local/bin/ALNtoPAF
+  ALNtoPSL: /usr/local/bin/ALNtoPSL
+  FAtoGDB: /usr/local/bin/FAtoGDB
+  FastGA: /usr/local/bin/FastGA
+  GDBshow: /usr/local/bin/GDBshow
+  GDBstat: /usr/local/bin/GDBstat
+  GDBtoFA: /usr/local/bin/GDBtoFA
+  GIXcp: /usr/local/bin/GIXcp
+  GIXmake: /usr/local/bin/GIXmake
+  GIXmv: /usr/local/bin/GIXmv
+  GIXrm: /usr/local/bin/GIXrm
+  GIXshow: /usr/local/bin/GIXshow
+  ONEview: /usr/local/bin/ONEview
+  PAFtoALN: /usr/local/bin/PAFtoALN
+  PAFtoPSL: /usr/local/bin/PAFtoPSL

@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/esme_esmf_mpich_4_2_3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_esmf_mpich_4_2_3
+latest:
+  8.8.0--h0520d2b_0: sha256:3e3cc3289115ed6907ba0f41dcdb845ad4114898ddbad683165df27ef26e1fb2
+tags:
+  8.8.0--h0520d2b_0: sha256:3e3cc3289115ed6907ba0f41dcdb845ad4114898ddbad683165df27ef26e1fb2
+docker: quay.io/biocontainers/esme_esmf_mpich_4_2_3
+aliases:
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  cdfdiff: /usr/local/bin/cdfdiff
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  nc4print: /usr/local/bin/nc4print
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  ocprint: /usr/local/bin/ocprint
+  ph5diff: /usr/local/bin/ph5diff
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  setfacl: /usr/local/bin/setfacl
+  h5fuse: /usr/local/bin/h5fuse
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  nf-config: /usr/local/bin/nf-config
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add

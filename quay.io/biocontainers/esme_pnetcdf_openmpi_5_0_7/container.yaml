@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/esme_pnetcdf_openmpi_5_0_7
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_pnetcdf_openmpi_5_0_7
+latest:
+  1.14.0--h6f5e742_0: sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
+tags:
+  1.14.0--h6f5e742_0: sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
+docker: quay.io/biocontainers/esme_pnetcdf_openmpi_5_0_7
+aliases:
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  ucc_info: /usr/local/bin/ucc_info
+  prun: /usr/local/bin/prun
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup
+  nl-link-enslave: /usr/local/bin/nl-link-enslave

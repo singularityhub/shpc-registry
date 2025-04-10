@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/hisat-3n
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hisat-3n
+latest:
+  0.0.3--h503566f_0: sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
+tags:
+  0.0.3--h503566f_0: sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
+docker: quay.io/biocontainers/hisat-3n
+aliases:
+  hisat-3n: /usr/local/bin/hisat-3n
+  hisat-3n-build: /usr/local/bin/hisat-3n-build
+  hisat-3n-table: /usr/local/bin/hisat-3n-table
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

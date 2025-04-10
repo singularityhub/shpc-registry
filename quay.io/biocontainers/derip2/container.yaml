@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/derip2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for derip2
+latest:
+  0.4.0--pyhdfd78af_0: sha256:fc3563bbfd42b3cc88fd962d8cae998cfd2dcffaa3d37fa13bdb78840963b26e
+tags:
+  0.4.0--pyhdfd78af_0: sha256:fc3563bbfd42b3cc88fd962d8cae998cfd2dcffaa3d37fa13bdb78840963b26e
+docker: quay.io/biocontainers/derip2
+aliases:
+  derip2: /usr/local/bin/derip2
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/corona_lineage_dynamics
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for corona_lineage_dynamics
+latest:
+  0.1.7--r44h6a1216f_0: sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
+tags:
+  0.1.7--r44h6a1216f_0: sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
+docker: quay.io/biocontainers/corona_lineage_dynamics
+aliases:
+  corona_lineage_dynamics: /usr/local/bin/corona_lineage_dynamics
+  ta-lib-config: /usr/local/bin/ta-lib-config
+  git2: /usr/local/bin/git2
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

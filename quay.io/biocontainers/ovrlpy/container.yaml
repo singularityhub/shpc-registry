@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/ovrlpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ovrlpy
+latest:
+  0.2.1--pyhdfd78af_0: sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6
+tags:
+  0.2.1--pyhdfd78af_0: sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6
+docker: quay.io/biocontainers/ovrlpy
+aliases:
+  rav1e: /usr/local/bin/rav1e
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mutalyzer_hgvs_parser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mutalyzer_hgvs_parser
+latest:
+  0.3.8--pyh7e72e81_0: sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef
+tags:
+  0.3.8--pyh7e72e81_0: sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef
+docker: quay.io/biocontainers/mutalyzer_hgvs_parser
+aliases:
+  mutalyzer_hgvs_parser: /usr/local/bin/mutalyzer_hgvs_parser
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/rdrpcatch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rdrpcatch
+latest:
+  0.0.3--pyhdfd78af_0: sha256:df47e4f43ca9f1ee81e10633ac0bb18eab76d8c60af947023f9bd81a5d88ee93
+tags:
+  0.0.3--pyhdfd78af_0: sha256:df47e4f43ca9f1ee81e10633ac0bb18eab76d8c60af947023f9bd81a5d88ee93
+docker: quay.io/biocontainers/rdrpcatch
+aliases:
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  rdrpcatch: /usr/local/bin/rdrpcatch
+  rich-click: /usr/local/bin/rich-click
+  aria2c: /usr/local/bin/aria2c
+  seqkit: /usr/local/bin/seqkit
+  gawkbug: /usr/local/bin/gawkbug
+  mmseqs: /usr/local/bin/mmseqs
+  markdown-it: /usr/local/bin/markdown-it
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  numpy-config: /usr/local/bin/numpy-config
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset

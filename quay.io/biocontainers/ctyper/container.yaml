@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/ctyper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ctyper
+latest:
+  1.0.1--h5ca1c30_0: sha256:7671efb5395f16e30a75ca1486f06b81cd46b73816085402558d097b2bbb8555
+tags:
+  1.0.1--h5ca1c30_0: sha256:7671efb5395f16e30a75ca1486f06b81cd46b73816085402558d097b2bbb8555
+docker: quay.io/biocontainers/ctyper
+aliases:
+  ctyper: /usr/local/bin/ctyper
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

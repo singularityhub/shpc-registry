@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/aliceasm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aliceasm
+latest:
+  0.6.33--h9948957_0: sha256:f170743918a626e1c11ac7578143edcd36208a0251b6fab334e333b8d0df3fa1
+tags:
+  0.6.33--h9948957_0: sha256:f170743918a626e1c11ac7578143edcd36208a0251b6fab334e333b8d0df3fa1
+docker: quay.io/biocontainers/aliceasm
+aliases:
+  aliceasm: /usr/local/bin/aliceasm
+  bcalm: /usr/local/bin/bcalm
+  gfatools: /usr/local/bin/gfatools
+  graphunzip: /usr/local/bin/graphunzip
+  paf2gfa: /usr/local/bin/paf2gfa
+  reduce: /usr/local/bin/reduce
+  h5cc: /usr/local/bin/h5cc

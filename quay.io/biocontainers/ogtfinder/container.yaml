@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ogtfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ogtfinder
+latest:
+  0.0.1--pyhdfd78af_0: sha256:054081de20eb33658e3e562b091b1c7c3b519d557504e8b5535f0b808ee064e8
+tags:
+  0.0.1--pyhdfd78af_0: sha256:054081de20eb33658e3e562b091b1c7c3b519d557504e8b5535f0b808ee064e8
+docker: quay.io/biocontainers/ogtfinder
+aliases:
+  ogtfinder: /usr/local/bin/ogtfinder
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
