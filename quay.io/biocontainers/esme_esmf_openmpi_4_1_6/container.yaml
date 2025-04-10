@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/esme_esmf_openmpi_4_1_6
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_esmf_openmpi_4_1_6
+latest:
+  8.8.0--h27800e5_0: sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
+tags:
+  8.8.0--h27800e5_0: sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
+docker: quay.io/biocontainers/esme_esmf_openmpi_4_1_6
+aliases:
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  cdfdiff: /usr/local/bin/cdfdiff
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  nc4print: /usr/local/bin/nc4print
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  ocprint: /usr/local/bin/ocprint
+  ph5diff: /usr/local/bin/ph5diff
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  setfacl: /usr/local/bin/setfacl
+  h5fuse: /usr/local/bin/h5fuse
+  nf-config: /usr/local/bin/nf-config
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  attr: /usr/local/bin/attr
+  getfattr: /usr/local/bin/getfattr
+  setfattr: /usr/local/bin/setfattr
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server

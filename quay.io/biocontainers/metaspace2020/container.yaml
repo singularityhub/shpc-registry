@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/metaspace2020
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metaspace2020
+latest:
+  2.0.9--pyh7e72e81_0: sha256:e6084cb0cfaf3fd4c4a72521af3bf4607005f74c4bc5df547ae381e78235dcf7
+tags:
+  2.0.9--pyh7e72e81_0: sha256:e6084cb0cfaf3fd4c4a72521af3bf4607005f74c4bc5df547ae381e78235dcf7
+docker: quay.io/biocontainers/metaspace2020
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

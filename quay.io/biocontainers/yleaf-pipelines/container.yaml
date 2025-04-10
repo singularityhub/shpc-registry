@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/yleaf-pipelines
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for yleaf-pipelines
+latest:
+  3.3.0--pyh7e72e81_0: sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
+tags:
+  3.3.0--pyh7e72e81_0: sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
+docker: quay.io/biocontainers/yleaf-pipelines
+aliases:
+  Yleaf: /usr/local/bin/Yleaf
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  predict_haplogroup: /usr/local/bin/predict_haplogroup
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  xkbcli: /usr/local/bin/xkbcli
+  numpy-config: /usr/local/bin/numpy-config
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts
+  transform: /usr/local/bin/transform
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl
+  dot_builtins: /usr/local/bin/dot_builtins
+  edgepaint: /usr/local/bin/edgepaint
+  fdp: /usr/local/bin/fdp

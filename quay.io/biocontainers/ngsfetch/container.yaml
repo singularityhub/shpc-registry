@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/ngsfetch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngsfetch
+latest:
+  0.1.1--pyh7e72e81_0: sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528
+tags:
+  0.1.1--pyh7e72e81_0: sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528
+docker: quay.io/biocontainers/ngsfetch
+aliases:
+  ffq: /usr/local/bin/ffq
+  ngsfetch: /usr/local/bin/ngsfetch
+  aria2c: /usr/local/bin/aria2c
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  normalizer: /usr/local/bin/normalizer

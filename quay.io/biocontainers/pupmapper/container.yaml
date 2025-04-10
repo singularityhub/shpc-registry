@@ -1,0 +1,54 @@
+url: https://biocontainers.pro/tools/pupmapper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pupmapper
+latest:
+  0.0.9--pyhdfd78af_0: sha256:3e81aaa19953bdf2ff725abc1cfeb9ce33f537d8d4ce5766e1bd3c73df6c71db
+tags:
+  0.0.9--pyhdfd78af_0: sha256:3e81aaa19953bdf2ff725abc1cfeb9ce33f537d8d4ce5766e1bd3c73df6c71db
+docker: quay.io/biocontainers/pupmapper
+aliases:
+  bedgraphtobigwig: /usr/local/bin/bedgraphtobigwig
+  bedtobigbed: /usr/local/bin/bedtobigbed
+  bigbedinfo: /usr/local/bin/bigbedinfo
+  bigbedtobed: /usr/local/bin/bigbedtobed
+  bigtools: /usr/local/bin/bigtools
+  bigwigaverageoverbed: /usr/local/bin/bigwigaverageoverbed
+  bigwiginfo: /usr/local/bin/bigwiginfo
+  bigwigmerge: /usr/local/bin/bigwigmerge
+  bigwigtobedgraph: /usr/local/bin/bigwigtobedgraph
+  bigwigvaluesoverbed: /usr/local/bin/bigwigvaluesoverbed
+  boostchr.pl: /usr/local/bin/boostchr.pl
+  column_remover.pl.bak: /usr/local/bin/column_remover.pl.bak
+  create_randompairs.pl: /usr/local/bin/create_randompairs.pl
+  duplicate_header_remover.pl.bak: /usr/local/bin/duplicate_header_remover.pl.bak
+  fragment_4dnpairs.pl.bak: /usr/local/bin/fragment_4dnpairs.pl.bak
+  genmap: /usr/local/bin/genmap
+  juicer_shortform2pairs.pl.bak: /usr/local/bin/juicer_shortform2pairs.pl.bak
+  merged_nodup2pairs.pl.bak: /usr/local/bin/merged_nodup2pairs.pl.bak
+  old_merged_nodup2pairs.pl.bak: /usr/local/bin/old_merged_nodup2pairs.pl.bak
+  pupmapper: /usr/local/bin/pupmapper
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix
+  pairs_merger: /usr/local/bin/pairs_merger
+  process_merged_nodup.sh: /usr/local/bin/process_merged_nodup.sh
+  process_old_merged_nodup.sh: /usr/local/bin/process_old_merged_nodup.sh
+  streamer_1d: /usr/local/bin/streamer_1d
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-postscript-simple
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-postscript-simple
+latest:
+  0.09--pl5321hdfd78af_0: sha256:95b2ea245cddcf2205e8adab8355232c8770151e1aedcdd9cc5fab4746c39cd5
+tags:
+  0.09--pl5321hdfd78af_0: sha256:95b2ea245cddcf2205e8adab8355232c8770151e1aedcdd9cc5fab4746c39cd5
+docker: quay.io/biocontainers/perl-postscript-simple

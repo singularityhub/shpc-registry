@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/esme_mpich_4_2_3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_mpich_4_2_3
+latest:
+  1.0.0--mpich_ha3949f8_0: sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
+tags:
+  1.0.0--mpich_ha3949f8_0: sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
+docker: quay.io/biocontainers/esme_mpich_4_2_3
+aliases:
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  cdfdiff: /usr/local/bin/cdfdiff
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  nc4print: /usr/local/bin/nc4print
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  ocprint: /usr/local/bin/ocprint
+  ph5diff: /usr/local/bin/ph5diff
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  setfacl: /usr/local/bin/setfacl
+  gost12-256-hash: /usr/local/bin/gost12-256-hash
+  gost12-512-hash: /usr/local/bin/gost12-512-hash
+  h5fuse: /usr/local/bin/h5fuse
+  edonr256-hash: /usr/local/bin/edonr256-hash
+  edonr512-hash: /usr/local/bin/edonr512-hash
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  ed2k-link: /usr/local/bin/ed2k-link
+  has160-hash: /usr/local/bin/has160-hash
+  magnet-link: /usr/local/bin/magnet-link
+  rhash: /usr/local/bin/rhash
+  sfv-hash: /usr/local/bin/sfv-hash
+  tiger-hash: /usr/local/bin/tiger-hash
+  tth-hash: /usr/local/bin/tth-hash
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  whirlpool-hash: /usr/local/bin/whirlpool-hash
+  nf-config: /usr/local/bin/nf-config
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy

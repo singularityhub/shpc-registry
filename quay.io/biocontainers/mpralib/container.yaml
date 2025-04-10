@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/mpralib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mpralib
+latest:
+  0.6.1--pyhdfd78af_0: sha256:fa30664ceda34dd04677912e42056f0c2cb647fd381e91cd70fd2ed850a6eff8
+tags:
+  0.6.1--pyhdfd78af_0: sha256:fa30664ceda34dd04677912e42056f0c2cb647fd381e91cd70fd2ed850a6eff8
+docker: quay.io/biocontainers/mpralib
+aliases:
+  mpralib: /usr/local/bin/mpralib
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  numpy-config: /usr/local/bin/numpy-config
+  natsort: /usr/local/bin/natsort
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  h5fc: /usr/local/bin/h5fc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  tjbench: /usr/local/bin/tjbench
+  h5cc: /usr/local/bin/h5cc

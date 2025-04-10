@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/esme_netcdf-fortran_openmpi_5_0_7
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_netcdf-fortran_openmpi_5_0_7
+latest:
+  4.6.1--h3c14a6b_0: sha256:9e5e3de0d9daf685f58374149158aa6f3adbce0da20b67e20c0582fc766cede2
+tags:
+  4.6.1--h3c14a6b_0: sha256:9e5e3de0d9daf685f58374149158aa6f3adbce0da20b67e20c0582fc766cede2
+docker: quay.io/biocontainers/esme_netcdf-fortran_openmpi_5_0_7
+aliases:
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  ucc_info: /usr/local/bin/ucc_info
+  prun: /usr/local/bin/prun
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  nf-config: /usr/local/bin/nf-config
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mypmfs_py
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mypmfs_py
+latest:
+  0.1.7--pyhdfd78af_0: sha256:30cee1ca9a79df5ab402309abe273ba54d51040abf674382b44a6865f2ff46de
+tags:
+  0.1.7--pyhdfd78af_0: sha256:30cee1ca9a79df5ab402309abe273ba54d51040abf674382b44a6865f2ff46de
+docker: quay.io/biocontainers/mypmfs_py
+aliases:
+  mypmfs_py: /usr/local/bin/mypmfs_py
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcfexpress
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcfexpress
+latest:
+  0.3.4--h3ab6199_0: sha256:90f99a8fce4d3b5e8ab6c106edc11b19080ea2443ef26e14383b8b07d7c1bff2
+tags:
+  0.3.4--h3ab6199_0: sha256:90f99a8fce4d3b5e8ab6c106edc11b19080ea2443ef26e14383b8b07d7c1bff2
+docker: quay.io/biocontainers/vcfexpress
+aliases:
+  vcfexpress: /usr/local/bin/vcfexpress

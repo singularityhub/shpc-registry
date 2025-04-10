@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/seqlib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqlib
+latest:
+  1.2.0--hbefcdb2_0: sha256:69ee4e182c20a3aa694b55857bf883da73a00ea3c01abb2bef7bf483fef5f20a
+tags:
+  1.2.0--hbefcdb2_0: sha256:69ee4e182c20a3aa694b55857bf883da73a00ea3c01abb2bef7bf483fef5f20a
+docker: quay.io/biocontainers/seqlib
+aliases:
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
