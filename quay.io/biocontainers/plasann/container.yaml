@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/plasann
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plasann
 latest:
-  1.0.1--pyhdfd78af_0: sha256:d135b84720ec36780e74996b22b1e27d287e3815163fd2e46d292d89cda2d6e4
+  1.0.8--pyhdfd78af_1: sha256:e28b9d28874f9c5a624274c6b6c551ba008ea91d6e36f7b3378b7a974135ce1c
 tags:
   1.0.1--pyhdfd78af_0: sha256:d135b84720ec36780e74996b22b1e27d287e3815163fd2e46d292d89cda2d6e4
+  1.0.8--pyhdfd78af_1: sha256:e28b9d28874f9c5a624274c6b6c551ba008ea91d6e36f7b3378b7a974135ce1c
 docker: quay.io/biocontainers/plasann
 aliases:
   PlasAnn: /usr/local/bin/PlasAnn

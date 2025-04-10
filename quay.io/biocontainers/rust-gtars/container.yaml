@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rust-gtars
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rust-gtars
 latest:
-  0.2.4--h4349ce8_0: sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb
+  0.2.5--h7ef3eeb_0: sha256:d46e2bf114060eea9ec3b005e0a2746e957087c261fbf5c84f252aab486456c8
 tags:
   0.2.0--h4349ce8_1: sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7
   0.2.4--h4349ce8_0: sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb
+  0.2.5--h7ef3eeb_0: sha256:d46e2bf114060eea9ec3b005e0a2746e957087c261fbf5c84f252aab486456c8
 docker: quay.io/biocontainers/rust-gtars
 aliases:
   gtars: /usr/local/bin/gtars

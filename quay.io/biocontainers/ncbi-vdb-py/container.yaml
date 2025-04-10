@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ncbi-vdb-py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-vdb-py
 latest:
-  3.2.0--hdfd78af_0: sha256:cb78fccb382faf7538d04fb8ba685a6aa7e34432a0697f9fa6fcfa5d84720c59
+  3.2.1--hdfd78af_0: sha256:f0aac0456ebb1d0e18ef7cdf11d0564e32abcea1051de04da611a080e1f46041
 tags:
   3.0.0--hdfd78af_0: sha256:20d4b99eb6724ef8d903aa6e28fbbe0989ad6185c57a177e30c7f191ad442b83
   3.0.2--hdfd78af_0: sha256:46b9c36fea38d24c473c7d8da50d470c0f7d3a4993cd8c4d03787c0388abb98c
@@ -14,6 +14,7 @@ tags:
   3.1.1--hdfd78af_0: sha256:4f5e963924f299fbe11a92100515332f164ce98eaa51fb99175e56a99e01f848
   3.0.10--hdfd78af_0: sha256:3d6b022dfcfd296a93fe67c136f419415d86f8844d704899e5ab917014fce040
   3.2.0--hdfd78af_0: sha256:cb78fccb382faf7538d04fb8ba685a6aa7e34432a0697f9fa6fcfa5d84720c59
+  3.2.1--hdfd78af_0: sha256:f0aac0456ebb1d0e18ef7cdf11d0564e32abcea1051de04da611a080e1f46041
 docker: quay.io/biocontainers/ncbi-vdb-py
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

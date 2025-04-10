@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/flumut
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flumut
 latest:
-  0.6.3--pyhdfd78af_0: sha256:fa3ee333bf56c7e2e28029abd4f413113d55fd600ba4b99f0dec5590ef443c7c
+  0.6.4--pyhdfd78af_0: sha256:8f160e0bb8c3cb7cf915728ba9d051b396c9fa856dbeb53269aa07d37d483dca
 tags:
   0.6.0--pyhdfd78af_0: sha256:ba45a07214d993e9a92a42cf57fdee0a006dc2aa7b8788765ea2c3ebf10417f6
   0.6.2--pyhdfd78af_0: sha256:528bb50d17d5562e0bce2ef1fbeb843a0838027cccdfe339b948409c5cdbb49c
   0.6.3--pyhdfd78af_0: sha256:fa3ee333bf56c7e2e28029abd4f413113d55fd600ba4b99f0dec5590ef443c7c
+  0.6.4--pyhdfd78af_0: sha256:8f160e0bb8c3cb7cf915728ba9d051b396c9fa856dbeb53269aa07d37d483dca
 docker: quay.io/biocontainers/flumut
 aliases:
   flumut: /usr/local/bin/flumut

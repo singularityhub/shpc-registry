@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-syntactic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-syntactic
 latest:
-  0.7.1--r44hdfd78af_1: sha256:6e1f25d05c2d194abc6a8df3b2b676c2bd2683752267344a5ec84697052506e5
+  0.7.2--r44hdfd78af_0: sha256:98c6a8983b1d5860c55c53f26d9f94276b1bba570218033db7d46235b9dad5a1
 tags:
   0.5.2--r41hdfd78af_0: sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d
   0.6.3--r42hdfd78af_0: sha256:5bcba9a3f081674975e5e32c5c1603be36d711006b81ef07528f82af4db627d0
@@ -15,4 +15,5 @@ tags:
   0.7.0--r43hdfd78af_0: sha256:25ecab34ee69b6a6899953d7b992d2c021caf0638bdc7a6e0318268c008936ae
   0.7.1--r43hdfd78af_0: sha256:8aeb6633247f399789fd7f30035cfc6dc7f4e08011c02ea81a22b6c52f4cac88
   0.7.1--r44hdfd78af_1: sha256:6e1f25d05c2d194abc6a8df3b2b676c2bd2683752267344a5ec84697052506e5
+  0.7.2--r44hdfd78af_0: sha256:98c6a8983b1d5860c55c53f26d9f94276b1bba570218033db7d46235b9dad5a1
 docker: quay.io/biocontainers/r-syntactic

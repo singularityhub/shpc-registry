@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/locidex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for locidex
 latest:
-  0.1.2--pyhdfd78af_0: sha256:c409b70c0df08ae8fff1c3601c57cba0bbabc211a781b55055b2ea86a07ba4dd
+  0.3.0--pyhdfd78af_0: sha256:0d5c8e87a98f1a1460a693d4f3d1d09942b69ec4afef8a0a7cdaa735b37fc873
 tags:
   0.1.1--pyhdfd78af_1: sha256:e4d7a7f22c8635632d0eeed7b0e901eaa9cbdbf9b99c6454f47778102d9de53e
   0.1.2--pyhdfd78af_0: sha256:c409b70c0df08ae8fff1c3601c57cba0bbabc211a781b55055b2ea86a07ba4dd
+  0.3.0--pyhdfd78af_0: sha256:0d5c8e87a98f1a1460a693d4f3d1d09942b69ec4afef8a0a7cdaa735b37fc873
 docker: quay.io/biocontainers/locidex
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp
