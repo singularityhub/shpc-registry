@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/instrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instrain/container.yaml"
-updated_at: "2025-04-09 03:09:40.308317"
-latest: "1.9.0--pyhdfd78af_0"
+updated_at: "2025-04-10 03:08:39.882695"
+latest: "1.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/instrain"
 aliases:
  - "ScaffoldLevel_dRep.py"
@@ -32,8 +32,9 @@ versions:
  - "1.8.0--pyhdfd78af_0"
  - "1.9.0--pyhdfd78af_0"
  - "1.8.1--pyhdfd78af_0"
+ - "1.9.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for instrain"
-config: {"url": "https://biocontainers.pro/tools/instrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for instrain", "latest": {"1.9.0--pyhdfd78af_0": "sha256:85b04905a63383f0674e54faba2583a4a107ee9714f37a06a468a492d1dca595"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a", "1.6.4--pyhdfd78af_0": "sha256:539ddd8ed942f7bcc97e20d471e615d0f9a74dcf23710f9bc7c3704136b09849", "1.7.1--pyhdfd78af_1": "sha256:b3a669afd0c9933d30e11c019398c75c9cea45431f03f879d040966f60002848", "1.7.5--pyhdfd78af_0": "sha256:5a7b2b179b746f9b00f965a04f1fada366a9c57eacff99154d0808256cb6be3f", "1.7.6--pyhdfd78af_0": "sha256:7ef1f4de876ab50a0022e492889e0bbfae97d3c8edd67c06cc8c7ebe9976474d", "1.8.0--pyhdfd78af_0": "sha256:c0ae29f1b57837947b420461c93b370064a41aea380f8fdf58140b5d12ea9262", "1.9.0--pyhdfd78af_0": "sha256:85b04905a63383f0674e54faba2583a4a107ee9714f37a06a468a492d1dca595", "1.8.1--pyhdfd78af_0": "sha256:ff92b5e0ec1662085ddf3d9eec0bfe48db400818dff19357a290d617530bce6d"}, "docker": "quay.io/biocontainers/instrain", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "delta2vcf": "/usr/local/bin/delta2vcf", "inStrain": "/usr/local/bin/inStrain", "parse_stb.py": "/usr/local/bin/parse_stb.py", "fastANI": "/usr/local/bin/fastANI", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
+config: {"url": "https://biocontainers.pro/tools/instrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for instrain", "latest": {"1.9.1--pyhdfd78af_0": "sha256:3ad97f296a52e1b987f2d0bd5dad56433df7c67cd6cd5251bf18bebb3b55ccec"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a", "1.6.4--pyhdfd78af_0": "sha256:539ddd8ed942f7bcc97e20d471e615d0f9a74dcf23710f9bc7c3704136b09849", "1.7.1--pyhdfd78af_1": "sha256:b3a669afd0c9933d30e11c019398c75c9cea45431f03f879d040966f60002848", "1.7.5--pyhdfd78af_0": "sha256:5a7b2b179b746f9b00f965a04f1fada366a9c57eacff99154d0808256cb6be3f", "1.7.6--pyhdfd78af_0": "sha256:7ef1f4de876ab50a0022e492889e0bbfae97d3c8edd67c06cc8c7ebe9976474d", "1.8.0--pyhdfd78af_0": "sha256:c0ae29f1b57837947b420461c93b370064a41aea380f8fdf58140b5d12ea9262", "1.9.0--pyhdfd78af_0": "sha256:85b04905a63383f0674e54faba2583a4a107ee9714f37a06a468a492d1dca595", "1.8.1--pyhdfd78af_0": "sha256:ff92b5e0ec1662085ddf3d9eec0bfe48db400818dff19357a290d617530bce6d", "1.9.1--pyhdfd78af_0": "sha256:3ad97f296a52e1b987f2d0bd5dad56433df7c67cd6cd5251bf18bebb3b55ccec"}, "docker": "quay.io/biocontainers/instrain", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "delta2vcf": "/usr/local/bin/delta2vcf", "inStrain": "/usr/local/bin/inStrain", "parse_stb.py": "/usr/local/bin/parse_stb.py", "fastANI": "/usr/local/bin/fastANI", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/instrain.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/instrain
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/instrain:1.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/instrain:1.9.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/instrain/1.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/instrain/1.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/instrain/1.9.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/instrain/1.9.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
