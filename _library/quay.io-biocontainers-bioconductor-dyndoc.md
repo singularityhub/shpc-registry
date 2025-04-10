@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dyndoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dyndoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dyndoc/container.yaml"
-updated_at: "2025-04-10 03:19:54.636616"
+updated_at: "2025-04-10 03:39:59.906926"
 latest: "1.84.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dyndoc"
 

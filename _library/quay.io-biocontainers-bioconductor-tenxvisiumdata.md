@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxvisiumdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxvisiumdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxvisiumdata/container.yaml"
-updated_at: "2025-04-10 03:14:06.855532"
+updated_at: "2025-04-10 03:34:07.458603"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxvisiumdata"
 aliases:
