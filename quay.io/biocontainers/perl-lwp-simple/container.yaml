@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-lwp-simple
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-lwp-simple
 latest:
-  6.39--pl5321h9ee0642_5: sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26
+  6.67--pl5321hdfd78af_0: sha256:f7a27f879aee3fc17b5c7a0888ab277644d628236ac86b8642aaff03b4e75847
 tags:
   6.39--pl5321h9ee0642_5: sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26
+  6.67--pl5321hdfd78af_0: sha256:f7a27f879aee3fc17b5c7a0888ab277644d628236ac86b8642aaff03b4e75847
 docker: quay.io/biocontainers/perl-lwp-simple
 aliases:
   lwp-download: /usr/local/bin/lwp-download

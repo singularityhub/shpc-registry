@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rmlst_api
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rmlst_api
 latest:
-  0.1.5--pyh7cba7a3_0: sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073
+  0.1.6--pyh7e72e81_0: sha256:9210de8f9c536c74e4b2533372fbe151ee5896134d5848e893100e0c6159021f
 tags:
   0.1.5--pyh7cba7a3_0: sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073
+  0.1.6--pyh7e72e81_0: sha256:9210de8f9c536c74e4b2533372fbe151ee5896134d5848e893100e0c6159021f
 docker: quay.io/biocontainers/rmlst_api
 aliases:
   rmlst-api: /usr/local/bin/rmlst-api

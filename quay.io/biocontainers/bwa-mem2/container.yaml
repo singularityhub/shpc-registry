@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bwa-mem2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bwa-mem2
 latest:
-  2.2.1--he70b90d_6: sha256:7f6a4c2f5786cf1e2e6ebd64420ad06339bd4570ec66950fed18ab53cd4ed11a
+  2.2.1--he70b90d_8: sha256:47af02a63250e6781d3c92f603c1e974e8c1275e4a57a94ba4b32c42ebe45e77
 tags:
   2.2.1--hd03093a_2: sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a
   2.2.1--hd03093a_5: sha256:1ca6cb92cd81bb11603ceeb67bee567f3f927537aefa1da991d23a956f832e35
   2.2.1--he70b90d_6: sha256:7f6a4c2f5786cf1e2e6ebd64420ad06339bd4570ec66950fed18ab53cd4ed11a
+  2.2.1--he70b90d_8: sha256:47af02a63250e6781d3c92f603c1e974e8c1275e4a57a94ba4b32c42ebe45e77
 docker: quay.io/biocontainers/bwa-mem2
 aliases:
   bwa-mem2: /usr/local/bin/bwa-mem2

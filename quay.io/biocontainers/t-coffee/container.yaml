@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/t-coffee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for t-coffee
 latest:
-  13.46.0.919e8c6b--h4b263cb_2: sha256:0aa658887db57d5bfcb76b5a63cb62272ba4f76b942d3848783c10f8bb33e844
+  13.46.1.b8b01e06--hb2a3317_0: sha256:dc0a03578d36658146a7e5a9af0d8bf18d9ea4fff7fc7e91ee209c0f6e45a3e4
 tags:
   13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
   13.45.0.4846264--h87f3376_4: sha256:e962fe4667f81c93c668ce89f3eaeed69f10682fbfdf9cc88f4631c8451b3773
@@ -13,6 +13,7 @@ tags:
   13.46.0.919e8c6b--h4cf071a_0: sha256:b4da6261b2471ddf75560e6f285803df543665735071d4db6498cc6749833e5a
   13.45.0.4846264--h4cf071a_7: sha256:62b4a76c5a2f180cc84670599f26115d40401e546567e2a55bc00243ae70cd13
   13.46.0.919e8c6b--h4b263cb_2: sha256:0aa658887db57d5bfcb76b5a63cb62272ba4f76b942d3848783c10f8bb33e844
+  13.46.1.b8b01e06--hb2a3317_0: sha256:dc0a03578d36658146a7e5a9af0d8bf18d9ea4fff7fc7e91ee209c0f6e45a3e4
 docker: quay.io/biocontainers/t-coffee
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar

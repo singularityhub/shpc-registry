@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/snakemake-storage-plugin-azure
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-storage-plugin-azure
 latest:
-  0.4.2--pyhdfd78af_0: sha256:aa962c3988893f7d4fb19ff0e336cf84598704e64675d128700e4b1e0b84a616
+  0.4.4--pyhdfd78af_0: sha256:0b1d1d5101d02005f0578b5ea5a779e1c3e248157f947c49b5471f275de58ad7
 tags:
   0.1.4--pyhdfd78af_0: sha256:85d2db53234c0d4155c663321fdc617df478244a878493142f48a975a62fc591
   0.1.5--pyhdfd78af_0: sha256:2544da71d20dbfcf039c4de58352b30f27914fe0af1ba052e14cb284d4f9f8f3
@@ -10,6 +10,7 @@ tags:
   0.3.0--pyhdfd78af_0: sha256:08b03042ba2933ad68011f64e9ea8a25fe526bd131ef5f9cc0d733cdfe76d1e2
   0.2.2--pyhdfd78af_0: sha256:e2ccc0b7c7c1030376e2aef0f134ceff21c156273a78a306746e3c0eaf11cd74
   0.1.6--pyhdfd78af_0: sha256:ac57d47278a642d5208c3a0426a6b1758f41262e41de50321d474fc896b9f28d
+  0.4.4--pyhdfd78af_0: sha256:0b1d1d5101d02005f0578b5ea5a779e1c3e248157f947c49b5471f275de58ad7
 docker: quay.io/biocontainers/snakemake-storage-plugin-azure
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

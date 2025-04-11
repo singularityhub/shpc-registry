@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/plannotate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plannotate
 latest:
-  1.2.2--pyhdfd78af_0: sha256:b64528c8f3d1fa5dd778557d95f53fb05753b4c5e288c70393ff39454931d5ee
+  1.2.3--pypyhdfd78af_0: sha256:0b378cf0d20a5470f67a6ff65b5363e4671943beb8ffb468aeb962c68a419dfa
 tags:
   1.2.0--pyhdfd78af_3: sha256:ec3631d1d1976aaf1ee26a2928314db1ecdd9e1985c9a0d064c86bb2a2ddf27d
   1.2.0--pyhdfd78af_4: sha256:967a45f3d72306b67e1e54ca2d9cdb2ad980d008548f531c7c659355fc0fab13
   1.2.1--pyhdfd78af_0: sha256:b7e46c4ac79a4c4238ea8bcaed5648905dd5ed76aa292b99a5a28cc99b1ed5cb
   1.2.2--pyhdfd78af_0: sha256:b64528c8f3d1fa5dd778557d95f53fb05753b4c5e288c70393ff39454931d5ee
+  1.2.3--pypyhdfd78af_0: sha256:0b378cf0d20a5470f67a6ff65b5363e4671943beb8ffb468aeb962c68a419dfa
 docker: quay.io/biocontainers/plannotate
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
