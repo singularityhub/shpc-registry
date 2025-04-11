@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggtreedendro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggtreedendro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggtreedendro/container.yaml"
-updated_at: "2025-04-10 04:02:59.520901"
+updated_at: "2025-04-11 03:44:18.266975"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggtreedendro"
 

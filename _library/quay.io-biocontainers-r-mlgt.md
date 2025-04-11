@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mlgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mlgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mlgt/container.yaml"
-updated_at: "2025-04-10 03:57:30.684237"
+updated_at: "2025-04-11 03:38:49.656434"
 latest: "0.16--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-mlgt"
 aliases:

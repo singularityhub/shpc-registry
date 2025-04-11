@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msaprobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaprobs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaprobs/container.yaml"
-updated_at: "2025-04-10 03:44:12.296284"
+updated_at: "2025-04-11 03:25:32.783310"
 latest: "0.9.7--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/msaprobs"
 aliases:

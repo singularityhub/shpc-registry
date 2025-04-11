@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/calisp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calisp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calisp/container.yaml"
-updated_at: "2025-04-10 03:26:43.303568"
-latest: "3.1.1--pyhdfd78af_0"
+updated_at: "2025-04-11 03:08:01.509102"
+latest: "3.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/calisp"
 aliases:
  - "calisp"
@@ -46,8 +46,9 @@ versions:
  - "3.0.13--pyhdfd78af_0"
  - "3.1--pyhdfd78af_0"
  - "3.1.1--pyhdfd78af_0"
+ - "3.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for calisp"
-config: {"url": "https://biocontainers.pro/tools/calisp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for calisp", "latest": {"3.1.1--pyhdfd78af_0": "sha256:d358876423ee967b3b0e0b501107d9bcd6838e53ddc024fc94522e2b5e3ebf8a"}, "tags": {"3.0.11--pyhdfd78af_0": "sha256:35019850b5cddbbc69b3f8606ac25c5c437fba45cce4ee4b0cc64e2667bc0277", "3.0.12--pyhdfd78af_0": "sha256:66b4871afca632e516d69d85b3788a30f2ea8da4c5c5104bbdd2a190eb6f91a8", "3.0.13--pyhdfd78af_0": "sha256:fd51a37bf145f28332c54018afdfc7d66e83b9d1fd621057573e620773047c5a", "3.1--pyhdfd78af_0": "sha256:da99ed2c4c8a984ae4d285aac5470fff9de17c286fb40051e749eeed90c095cb", "3.1.1--pyhdfd78af_0": "sha256:d358876423ee967b3b0e0b501107d9bcd6838e53ddc024fc94522e2b5e3ebf8a"}, "docker": "quay.io/biocontainers/calisp", "aliases": {"calisp": "/usr/local/bin/calisp", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "f2py3.11": "/usr/local/bin/f2py3.11", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11"}}
+config: {"url": "https://biocontainers.pro/tools/calisp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for calisp", "latest": {"3.1.4--pyhdfd78af_0": "sha256:48de695eb880df81f1a6f5bd4a0a409309b14ed2aa4d6895dc6aa692bf35605a"}, "tags": {"3.0.11--pyhdfd78af_0": "sha256:35019850b5cddbbc69b3f8606ac25c5c437fba45cce4ee4b0cc64e2667bc0277", "3.0.12--pyhdfd78af_0": "sha256:66b4871afca632e516d69d85b3788a30f2ea8da4c5c5104bbdd2a190eb6f91a8", "3.0.13--pyhdfd78af_0": "sha256:fd51a37bf145f28332c54018afdfc7d66e83b9d1fd621057573e620773047c5a", "3.1--pyhdfd78af_0": "sha256:da99ed2c4c8a984ae4d285aac5470fff9de17c286fb40051e749eeed90c095cb", "3.1.1--pyhdfd78af_0": "sha256:d358876423ee967b3b0e0b501107d9bcd6838e53ddc024fc94522e2b5e3ebf8a", "3.1.4--pyhdfd78af_0": "sha256:48de695eb880df81f1a6f5bd4a0a409309b14ed2aa4d6895dc6aa692bf35605a"}, "docker": "quay.io/biocontainers/calisp", "aliases": {"calisp": "/usr/local/bin/calisp", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "f2py3.11": "/usr/local/bin/f2py3.11", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/calisp.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/calisp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/calisp:3.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/calisp:3.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/calisp/3.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/calisp/3.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/calisp/3.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/calisp/3.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
