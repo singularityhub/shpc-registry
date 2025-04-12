@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-lwp-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
-updated_at: "2025-04-11 03:19:08.560886"
-latest: "6.39--pl5321h9ee0642_5"
+updated_at: "2025-04-12 03:15:31.739827"
+latest: "6.67--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-lwp-simple"
 aliases:
  - "lwp-download"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "6.39--pl5321h9ee0642_5"
+ - "6.67--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-lwp-simple"
-config: {"url": "https://biocontainers.pro/tools/perl-lwp-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-simple", "latest": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "tags": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "docker": "quay.io/biocontainers/perl-lwp-simple", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-lwp-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-simple", "latest": {"6.67--pl5321hdfd78af_0": "sha256:f7a27f879aee3fc17b5c7a0888ab277644d628236ac86b8642aaff03b4e75847"}, "tags": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26", "6.67--pl5321hdfd78af_0": "sha256:f7a27f879aee3fc17b5c7a0888ab277644d628236ac86b8642aaff03b4e75847"}, "docker": "quay.io/biocontainers/perl-lwp-simple", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-lwp-simple.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-lwp-simple
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-lwp-simple:6.39--pl5321h9ee0642_5
+$ shpc install quay.io/biocontainers/perl-lwp-simple:6.67--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-lwp-simple/6.39--pl5321h9ee0642_5
-$ module help quay.io/biocontainers/perl-lwp-simple/6.39--pl5321h9ee0642_5
+$ module load quay.io/biocontainers/perl-lwp-simple/6.67--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-lwp-simple/6.67--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

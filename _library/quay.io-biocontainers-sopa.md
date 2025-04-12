@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sopa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sopa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sopa/container.yaml"
-updated_at: "2025-04-11 03:37:21.658410"
-latest: "1.1.5--pyhdfd78af_0"
+updated_at: "2025-04-12 03:33:42.922025"
+latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sopa"
 aliases:
  - "bsdunzip"
@@ -53,8 +53,9 @@ aliases:
  - "gdalmdiminfo"
 versions:
  - "1.1.5--pyhdfd78af_0"
+ - "2.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sopa"
-config: {"url": "https://biocontainers.pro/tools/sopa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sopa", "latest": {"1.1.5--pyhdfd78af_0": "sha256:5be378356ab6d99662647a8cac7883d0ffbb5e898d5d32eee79cb811dfa4ab3c"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:5be378356ab6d99662647a8cac7883d0ffbb5e898d5d32eee79cb811dfa4ab3c"}, "docker": "quay.io/biocontainers/sopa", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "checksum-profile": "/usr/local/bin/checksum-profile", "datashader": "/usr/local/bin/datashader", "elastishadow": "/usr/local/bin/elastishadow", "flake8": "/usr/local/bin/flake8", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "ome_zarr": "/usr/local/bin/ome_zarr", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pycodestyle": "/usr/local/bin/pycodestyle", "pyct": "/usr/local/bin/pyct", "pyflakes": "/usr/local/bin/pyflakes", "pyproj": "/usr/local/bin/pyproj", "sopa": "/usr/local/bin/sopa", "sozip": "/usr/local/bin/sozip", "typer": "/usr/local/bin/typer", "xrspatial": "/usr/local/bin/xrspatial", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "dask": "/usr/local/bin/dask", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo"}}
+config: {"url": "https://biocontainers.pro/tools/sopa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sopa", "latest": {"2.0.4--pyhdfd78af_0": "sha256:25840645bad54d40447c27bac0d67b6a157eb64401ddfd7e48adb855a7c97ca2"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:5be378356ab6d99662647a8cac7883d0ffbb5e898d5d32eee79cb811dfa4ab3c", "2.0.4--pyhdfd78af_0": "sha256:25840645bad54d40447c27bac0d67b6a157eb64401ddfd7e48adb855a7c97ca2"}, "docker": "quay.io/biocontainers/sopa", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "checksum-profile": "/usr/local/bin/checksum-profile", "datashader": "/usr/local/bin/datashader", "elastishadow": "/usr/local/bin/elastishadow", "flake8": "/usr/local/bin/flake8", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "ome_zarr": "/usr/local/bin/ome_zarr", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pycodestyle": "/usr/local/bin/pycodestyle", "pyct": "/usr/local/bin/pyct", "pyflakes": "/usr/local/bin/pyflakes", "pyproj": "/usr/local/bin/pyproj", "sopa": "/usr/local/bin/sopa", "sozip": "/usr/local/bin/sozip", "typer": "/usr/local/bin/typer", "xrspatial": "/usr/local/bin/xrspatial", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "dask": "/usr/local/bin/dask", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sopa.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/sopa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sopa:1.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sopa:2.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sopa/1.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/sopa/1.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/sopa/2.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/sopa/2.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

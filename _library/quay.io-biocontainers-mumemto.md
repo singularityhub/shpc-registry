@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mumemto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mumemto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mumemto/container.yaml"
-updated_at: "2025-04-11 03:08:02.631652"
-latest: "1.1.1--py310h184ae93_2"
+updated_at: "2025-04-12 03:04:34.375883"
+latest: "1.2.2--py311he264feb_0"
 container_url: "https://biocontainers.pro/tools/mumemto"
 aliases:
  - "mumemto"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.1.1--py310h184ae93_2"
  - "1.1.1--py311he264feb_2"
+ - "1.2.2--py311he264feb_0"
 description: "singularity registry hpc automated addition for mumemto"
-config: {"url": "https://biocontainers.pro/tools/mumemto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mumemto", "latest": {"1.1.1--py310h184ae93_2": "sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a"}, "tags": {"1.1.1--py310h184ae93_2": "sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a", "1.1.1--py311he264feb_2": "sha256:f546036fa9d76c91d6ed6ce5d3d86569f40f842ca04254be8dee0420d686d363"}, "docker": "quay.io/biocontainers/mumemto", "aliases": {"mumemto": "/usr/local/bin/mumemto", "mumemto_exec": "/usr/local/bin/mumemto_exec", "newscanNT.x": "/usr/local/bin/newscanNT.x", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/mumemto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mumemto", "latest": {"1.2.2--py311he264feb_0": "sha256:9715d2b732e79c02ce8f89697ef95da3ce5353e22cb748f4e590f99046f41b29"}, "tags": {"1.1.1--py310h184ae93_2": "sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a", "1.1.1--py311he264feb_2": "sha256:f546036fa9d76c91d6ed6ce5d3d86569f40f842ca04254be8dee0420d686d363", "1.2.2--py311he264feb_0": "sha256:9715d2b732e79c02ce8f89697ef95da3ce5353e22cb748f4e590f99046f41b29"}, "docker": "quay.io/biocontainers/mumemto", "aliases": {"mumemto": "/usr/local/bin/mumemto", "mumemto_exec": "/usr/local/bin/mumemto_exec", "newscanNT.x": "/usr/local/bin/newscanNT.x", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mumemto.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mumemto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mumemto:1.1.1--py310h184ae93_2
+$ shpc install quay.io/biocontainers/mumemto:1.2.2--py311he264feb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mumemto/1.1.1--py310h184ae93_2
-$ module help quay.io/biocontainers/mumemto/1.1.1--py310h184ae93_2
+$ module load quay.io/biocontainers/mumemto/1.2.2--py311he264feb_0
+$ module help quay.io/biocontainers/mumemto/1.2.2--py311he264feb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

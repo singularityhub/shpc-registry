@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_netcdf-fortran_openmpi_4_1_6"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_netcdf-fortran_openmpi_4_1_6/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_netcdf-fortran_openmpi_4_1_6/container.yaml"
-updated_at: "2025-04-11 03:49:37.988658"
+updated_at: "2025-04-12 03:46:01.768764"
 latest: "4.6.1--h0e7cbba_0"
 container_url: "https://biocontainers.pro/tools/esme_netcdf-fortran_openmpi_4_1_6"
 aliases:

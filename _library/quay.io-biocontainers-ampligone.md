@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ampligone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampligone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampligone/container.yaml"
-updated_at: "2025-04-11 03:15:25.807025"
-latest: "1.3.1--pyhdfd78af_0"
+updated_at: "2025-04-12 03:11:56.892594"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampligone"
 aliases:
  - "AmpliGone"
@@ -27,8 +27,9 @@ versions:
  - "1.2.1--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
  - "1.3.1--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ampligone"
-config: {"url": "https://biocontainers.pro/tools/ampligone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampligone", "latest": {"1.3.1--pyhdfd78af_0": "sha256:a57a3c5ff3564eb390007af4efa32e6da7da8c64f44a3dcc1298e3c67e8ff8ff"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:97c157dc60a970a2497baa887f651818a2a17b1f6265a1ca3fdcdc1157ec1aea", "1.2.1--pyhdfd78af_0": "sha256:d90364f47bd8e9777ff69d7f7cf6d6342521a635614319a91df62e0418d3d507", "1.3.0--pyhdfd78af_0": "sha256:d8cf19590adc504c03e518690491acceac7be7a6798d12f9381a7eb7a94838dc", "1.3.1--pyhdfd78af_0": "sha256:a57a3c5ff3564eb390007af4efa32e6da7da8c64f44a3dcc1298e3c67e8ff8ff"}, "docker": "quay.io/biocontainers/ampligone", "aliases": {"AmpliGone": "/usr/local/bin/AmpliGone", "ampligone": "/usr/local/bin/ampligone", "minimap2.py": "/usr/local/bin/minimap2.py", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ampligone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampligone", "latest": {"2.0.1--pyhdfd78af_0": "sha256:098da74b04871de521747aea91a406ebdfcf3b881c17ba4c258c183e6bdc6900"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:97c157dc60a970a2497baa887f651818a2a17b1f6265a1ca3fdcdc1157ec1aea", "1.2.1--pyhdfd78af_0": "sha256:d90364f47bd8e9777ff69d7f7cf6d6342521a635614319a91df62e0418d3d507", "1.3.0--pyhdfd78af_0": "sha256:d8cf19590adc504c03e518690491acceac7be7a6798d12f9381a7eb7a94838dc", "1.3.1--pyhdfd78af_0": "sha256:a57a3c5ff3564eb390007af4efa32e6da7da8c64f44a3dcc1298e3c67e8ff8ff", "2.0.1--pyhdfd78af_0": "sha256:098da74b04871de521747aea91a406ebdfcf3b881c17ba4c258c183e6bdc6900"}, "docker": "quay.io/biocontainers/ampligone", "aliases": {"AmpliGone": "/usr/local/bin/AmpliGone", "ampligone": "/usr/local/bin/ampligone", "minimap2.py": "/usr/local/bin/minimap2.py", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ampligone.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/ampligone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ampligone:1.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ampligone:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ampligone/1.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ampligone/1.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ampligone/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ampligone/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

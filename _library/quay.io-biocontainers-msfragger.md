@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msfragger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msfragger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msfragger/container.yaml"
-updated_at: "2025-04-11 03:09:03.061647"
-latest: "4.0--py312hdfd78af_1"
+updated_at: "2025-04-12 03:05:35.363861"
+latest: "4.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msfragger"
 aliases:
  - "csc-dim"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "4.0--py312hdfd78af_0"
  - "4.0--py312hdfd78af_1"
+ - "4.1--py313hdfd78af_0"
 description: "singularity registry hpc automated addition for msfragger"
-config: {"url": "https://biocontainers.pro/tools/msfragger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msfragger", "latest": {"4.0--py312hdfd78af_1": "sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c"}, "tags": {"4.0--py312hdfd78af_0": "sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5", "4.0--py312hdfd78af_1": "sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c"}, "docker": "quay.io/biocontainers/msfragger", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
+config: {"url": "https://biocontainers.pro/tools/msfragger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msfragger", "latest": {"4.1--py313hdfd78af_0": "sha256:b8367e3e3e2b6ee57bc674c1c9e86e22b151cef46bb5eb9788ef251bdaa75a3b"}, "tags": {"4.0--py312hdfd78af_0": "sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5", "4.0--py312hdfd78af_1": "sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c", "4.1--py313hdfd78af_0": "sha256:b8367e3e3e2b6ee57bc674c1c9e86e22b151cef46bb5eb9788ef251bdaa75a3b"}, "docker": "quay.io/biocontainers/msfragger", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msfragger.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/msfragger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msfragger:4.0--py312hdfd78af_1
+$ shpc install quay.io/biocontainers/msfragger:4.1--py313hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msfragger/4.0--py312hdfd78af_1
-$ module help quay.io/biocontainers/msfragger/4.0--py312hdfd78af_1
+$ module load quay.io/biocontainers/msfragger/4.1--py313hdfd78af_0
+$ module help quay.io/biocontainers/msfragger/4.1--py313hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

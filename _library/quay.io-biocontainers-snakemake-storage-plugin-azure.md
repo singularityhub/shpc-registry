@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-azure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-azure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-azure/container.yaml"
-updated_at: "2025-04-11 03:20:11.987579"
-latest: "0.4.2--pyhdfd78af_0"
+updated_at: "2025-04-12 03:16:34.001096"
+latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-azure"
 aliases:
  - "2to3-3.12"
@@ -21,8 +21,9 @@ versions:
  - "0.3.0--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
  - "0.1.6--pyhdfd78af_0"
+ - "0.4.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-azure"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-azure", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-azure", "latest": {"0.4.2--pyhdfd78af_0": "sha256:aa962c3988893f7d4fb19ff0e336cf84598704e64675d128700e4b1e0b84a616"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:85d2db53234c0d4155c663321fdc617df478244a878493142f48a975a62fc591", "0.1.5--pyhdfd78af_0": "sha256:2544da71d20dbfcf039c4de58352b30f27914fe0af1ba052e14cb284d4f9f8f3", "0.4.2--pyhdfd78af_0": "sha256:aa962c3988893f7d4fb19ff0e336cf84598704e64675d128700e4b1e0b84a616", "0.3.0--pyhdfd78af_0": "sha256:08b03042ba2933ad68011f64e9ea8a25fe526bd131ef5f9cc0d733cdfe76d1e2", "0.2.2--pyhdfd78af_0": "sha256:e2ccc0b7c7c1030376e2aef0f134ceff21c156273a78a306746e3c0eaf11cd74", "0.1.6--pyhdfd78af_0": "sha256:ac57d47278a642d5208c3a0426a6b1758f41262e41de50321d474fc896b9f28d"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-azure", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-azure", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-azure", "latest": {"0.4.4--pyhdfd78af_0": "sha256:0b1d1d5101d02005f0578b5ea5a779e1c3e248157f947c49b5471f275de58ad7"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:85d2db53234c0d4155c663321fdc617df478244a878493142f48a975a62fc591", "0.1.5--pyhdfd78af_0": "sha256:2544da71d20dbfcf039c4de58352b30f27914fe0af1ba052e14cb284d4f9f8f3", "0.4.2--pyhdfd78af_0": "sha256:aa962c3988893f7d4fb19ff0e336cf84598704e64675d128700e4b1e0b84a616", "0.3.0--pyhdfd78af_0": "sha256:08b03042ba2933ad68011f64e9ea8a25fe526bd131ef5f9cc0d733cdfe76d1e2", "0.2.2--pyhdfd78af_0": "sha256:e2ccc0b7c7c1030376e2aef0f134ceff21c156273a78a306746e3c0eaf11cd74", "0.1.6--pyhdfd78af_0": "sha256:ac57d47278a642d5208c3a0426a6b1758f41262e41de50321d474fc896b9f28d", "0.4.4--pyhdfd78af_0": "sha256:0b1d1d5101d02005f0578b5ea5a779e1c3e248157f947c49b5471f275de58ad7"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-azure", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-azure.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-azure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-azure:0.4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-azure:0.4.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-azure/0.4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-azure/0.4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-azure/0.4.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-azure/0.4.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

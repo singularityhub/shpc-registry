@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rdrtoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rdrtoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rdrtoolbox/container.yaml"
-updated_at: "2025-04-11 03:23:13.496067"
+updated_at: "2025-04-12 03:19:35.836496"
 latest: "1.56.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rdrtoolbox"
 

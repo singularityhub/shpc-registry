@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bam-readcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam-readcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam-readcount/container.yaml"
-updated_at: "2025-04-11 03:09:22.121752"
-latest: "1.0.1--h43eeafb_2"
+updated_at: "2025-04-12 03:05:54.494881"
+latest: "1.0.1--h9aeec6d_3"
 container_url: "https://biocontainers.pro/tools/bam-readcount"
 aliases:
  - "bam-readcount"
@@ -23,8 +23,9 @@ versions:
  - "0.8--py36pl526h94a8ba4_4"
  - "0.8--py27pl526h94a8ba4_4"
  - "1.0.1--h43eeafb_2"
+ - "1.0.1--h9aeec6d_3"
 description: "shpc-registry automated BioContainers addition for bam-readcount"
-config: {"url": "https://biocontainers.pro/tools/bam-readcount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam-readcount", "latest": {"1.0.1--h43eeafb_2": "sha256:fd7e0d4c6e2f6a665b091602d744016d10f32c2740d5cc1058e084ae4e7ca50a"}, "tags": {"0.8--py36pl526h94a8ba4_4": "sha256:57020eed37a155658d63bbca758d6220dba791b0067e1cd062742b5a14dc01fe", "0.8--py27pl526h94a8ba4_4": "sha256:f9e1db400d48ffdf8dd0791b33cd03470f52683b9243cf83a5584d6995b92f1e", "1.0.1--h43eeafb_2": "sha256:fd7e0d4c6e2f6a665b091602d744016d10f32c2740d5cc1058e084ae4e7ca50a"}, "docker": "quay.io/biocontainers/bam-readcount", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/bam-readcount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam-readcount", "latest": {"1.0.1--h9aeec6d_3": "sha256:9d46f724554986bff648a4063617ff5bebfe5cf38a5d9a11e6b345ccfa29baad"}, "tags": {"0.8--py36pl526h94a8ba4_4": "sha256:57020eed37a155658d63bbca758d6220dba791b0067e1cd062742b5a14dc01fe", "0.8--py27pl526h94a8ba4_4": "sha256:f9e1db400d48ffdf8dd0791b33cd03470f52683b9243cf83a5584d6995b92f1e", "1.0.1--h43eeafb_2": "sha256:fd7e0d4c6e2f6a665b091602d744016d10f32c2740d5cc1058e084ae4e7ca50a", "1.0.1--h9aeec6d_3": "sha256:9d46f724554986bff648a4063617ff5bebfe5cf38a5d9a11e6b345ccfa29baad"}, "docker": "quay.io/biocontainers/bam-readcount", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bam-readcount.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bam-readcount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bam-readcount:1.0.1--h43eeafb_2
+$ shpc install quay.io/biocontainers/bam-readcount:1.0.1--h9aeec6d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bam-readcount/1.0.1--h43eeafb_2
-$ module help quay.io/biocontainers/bam-readcount/1.0.1--h43eeafb_2
+$ module load quay.io/biocontainers/bam-readcount/1.0.1--h9aeec6d_3
+$ module help quay.io/biocontainers/bam-readcount/1.0.1--h9aeec6d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
