@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ganon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ganon
 latest:
-  2.1.0--py312hf7d24d3_3: sha256:828efa689d7082cd5edfcca13ca66decb880255c2a1e912157b691826ca07351
+  2.1.1--py39h69c296c_0: sha256:f6450920b8e74355c08b816834c6570517b8c8d00ecbfd35f087b2f8f7fc5ce8
 tags:
   1.1.2--py38h80bae55_1: sha256:80637fc5693e890f44ba56cdc00e407e319d7063801dfdeb178a53a9112d0594
   2.1.0--py39ha35b9be_0: sha256:dcef38916d0c36263d172cab4ebee64859bf95bc56a3903a4e4383a7fedec6af
@@ -13,6 +13,7 @@ tags:
   2.1.0--py310hab1bfa5_1: sha256:511658909925a8d63859f3d9a0c68186caf9b31f7013058a4515a28873940b72
   2.1.0--py312hf7d24d3_2: sha256:1d90b6b76bbf76e4d679439650a929d4212db215fc5640450fa635a3b66790f9
   2.1.0--py312hf7d24d3_3: sha256:828efa689d7082cd5edfcca13ca66decb880255c2a1e912157b691826ca07351
+  2.1.1--py39h69c296c_0: sha256:f6450920b8e74355c08b816834c6570517b8c8d00ecbfd35f087b2f8f7fc5ce8
 docker: quay.io/biocontainers/ganon
 aliases:
   binpacking: /usr/local/bin/binpacking
