@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alps/container.yaml"
-updated_at: "2025-04-12 03:22:50.092054"
+updated_at: "2025-04-13 04:32:38.185656"
 latest: "1.5.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alps"
 aliases:

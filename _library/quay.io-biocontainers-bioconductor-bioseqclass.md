@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bioseqclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioseqclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioseqclass/container.yaml"
-updated_at: "2025-04-12 03:01:11.359397"
+updated_at: "2025-04-13 04:10:20.558713"
 latest: "1.45.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioseqclass"
 aliases:

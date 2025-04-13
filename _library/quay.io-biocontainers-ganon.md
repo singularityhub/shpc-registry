@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ganon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ganon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ganon/container.yaml"
-updated_at: "2025-04-12 03:38:36.386851"
-latest: "2.1.0--py312hf7d24d3_3"
+updated_at: "2025-04-13 04:48:53.885346"
+latest: "2.1.1--py39h69c296c_0"
 container_url: "https://biocontainers.pro/tools/ganon"
 aliases:
  - "binpacking"
@@ -34,8 +34,9 @@ versions:
  - "2.1.0--py310hab1bfa5_1"
  - "2.1.0--py312hf7d24d3_2"
  - "2.1.0--py312hf7d24d3_3"
+ - "2.1.1--py39h69c296c_0"
 description: "shpc-registry automated BioContainers addition for ganon"
-config: {"url": "https://biocontainers.pro/tools/ganon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ganon", "latest": {"2.1.0--py312hf7d24d3_3": "sha256:828efa689d7082cd5edfcca13ca66decb880255c2a1e912157b691826ca07351"}, "tags": {"1.1.2--py38h80bae55_1": "sha256:80637fc5693e890f44ba56cdc00e407e319d7063801dfdeb178a53a9112d0594", "2.1.0--py39ha35b9be_0": "sha256:dcef38916d0c36263d172cab4ebee64859bf95bc56a3903a4e4383a7fedec6af", "2.0.1--py39ha35b9be_0": "sha256:5480fc81c11f2484b3d38d5bca274e72591eca9b914ba886cd360b93ebb36ef1", "1.9.0--py38hcc78a36_0": "sha256:e5b1476e57416e49e0e56f0f9c4dedad8be7b0d3ab94b0e5a419418622fbd845", "1.8.0--py39hd70b947_0": "sha256:931e532d8b0eec641f3339f6c71e207d7a9c8e93509f71caa7f353596ba1536d", "1.7.0--py39hd70b947_0": "sha256:8c718cde70dde9b59228ff7038f688a7ef65fa8706b7894823728a655f7f074d", "2.1.0--py310hab1bfa5_1": "sha256:511658909925a8d63859f3d9a0c68186caf9b31f7013058a4515a28873940b72", "2.1.0--py312hf7d24d3_2": "sha256:1d90b6b76bbf76e4d679439650a929d4212db215fc5640450fa635a3b66790f9", "2.1.0--py312hf7d24d3_3": "sha256:828efa689d7082cd5edfcca13ca66decb880255c2a1e912157b691826ca07351"}, "docker": "quay.io/biocontainers/ganon", "aliases": {"binpacking": "/usr/local/bin/binpacking", "ganon": "/usr/local/bin/ganon", "ganon-build": "/usr/local/bin/ganon-build", "ganon-classify": "/usr/local/bin/ganon-classify", "ganon-get-seq-info.sh": "/usr/local/bin/ganon-get-seq-info.sh", "taxsbp": "/usr/local/bin/taxsbp", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "tar": "/usr/local/bin/tar", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64"}}
+config: {"url": "https://biocontainers.pro/tools/ganon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ganon", "latest": {"2.1.1--py39h69c296c_0": "sha256:f6450920b8e74355c08b816834c6570517b8c8d00ecbfd35f087b2f8f7fc5ce8"}, "tags": {"1.1.2--py38h80bae55_1": "sha256:80637fc5693e890f44ba56cdc00e407e319d7063801dfdeb178a53a9112d0594", "2.1.0--py39ha35b9be_0": "sha256:dcef38916d0c36263d172cab4ebee64859bf95bc56a3903a4e4383a7fedec6af", "2.0.1--py39ha35b9be_0": "sha256:5480fc81c11f2484b3d38d5bca274e72591eca9b914ba886cd360b93ebb36ef1", "1.9.0--py38hcc78a36_0": "sha256:e5b1476e57416e49e0e56f0f9c4dedad8be7b0d3ab94b0e5a419418622fbd845", "1.8.0--py39hd70b947_0": "sha256:931e532d8b0eec641f3339f6c71e207d7a9c8e93509f71caa7f353596ba1536d", "1.7.0--py39hd70b947_0": "sha256:8c718cde70dde9b59228ff7038f688a7ef65fa8706b7894823728a655f7f074d", "2.1.0--py310hab1bfa5_1": "sha256:511658909925a8d63859f3d9a0c68186caf9b31f7013058a4515a28873940b72", "2.1.0--py312hf7d24d3_2": "sha256:1d90b6b76bbf76e4d679439650a929d4212db215fc5640450fa635a3b66790f9", "2.1.0--py312hf7d24d3_3": "sha256:828efa689d7082cd5edfcca13ca66decb880255c2a1e912157b691826ca07351", "2.1.1--py39h69c296c_0": "sha256:f6450920b8e74355c08b816834c6570517b8c8d00ecbfd35f087b2f8f7fc5ce8"}, "docker": "quay.io/biocontainers/ganon", "aliases": {"binpacking": "/usr/local/bin/binpacking", "ganon": "/usr/local/bin/ganon", "ganon-build": "/usr/local/bin/ganon-build", "ganon-classify": "/usr/local/bin/ganon-classify", "ganon-get-seq-info.sh": "/usr/local/bin/ganon-get-seq-info.sh", "taxsbp": "/usr/local/bin/taxsbp", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "tar": "/usr/local/bin/tar", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ganon.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/ganon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ganon:2.1.0--py312hf7d24d3_3
+$ shpc install quay.io/biocontainers/ganon:2.1.1--py39h69c296c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ganon/2.1.0--py312hf7d24d3_3
-$ module help quay.io/biocontainers/ganon/2.1.0--py312hf7d24d3_3
+$ module load quay.io/biocontainers/ganon/2.1.1--py39h69c296c_0
+$ module help quay.io/biocontainers/ganon/2.1.1--py39h69c296c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

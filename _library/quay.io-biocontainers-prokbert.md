@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prokbert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokbert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokbert/container.yaml"
-updated_at: "2025-04-12 03:38:22.557984"
+updated_at: "2025-04-13 04:48:39.497834"
 latest: "0.0.46--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prokbert"
 aliases:
