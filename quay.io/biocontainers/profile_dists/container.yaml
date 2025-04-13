@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/profile_dists
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for profile_dists
 latest:
-  1.0.3--pyhdfd78af_0: sha256:ac137a74a22b211918de3e93146bd66f582ee6127a65e7482b50efc8ec995408
+  1.0.4--pyhdfd78af_0: sha256:a432904c9933b7a46269885ac03ab20ad15c44f0074b35de0d90af5e1a6753ae
 tags:
   1.0.0--pyh7cba7a3_0: sha256:1dba60a50a9665d3bedd1cedd56dc0801d9669c508fe0ea3083944601ef02561
   1.0.3--pyhdfd78af_0: sha256:ac137a74a22b211918de3e93146bd66f582ee6127a65e7482b50efc8ec995408
+  1.0.4--pyhdfd78af_0: sha256:a432904c9933b7a46269885ac03ab20ad15c44f0074b35de0d90af5e1a6753ae
 docker: quay.io/biocontainers/profile_dists
 aliases:
   cmtime: /usr/local/bin/cmtime

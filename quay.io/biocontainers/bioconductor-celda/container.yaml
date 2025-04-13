@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-celda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-celda
 latest:
-  1.22.0--r44he5774e6_0: sha256:70a346a586b20a15eda5937afc87a99bb58fd14da9bb1c30069fe14a84fff546
+  1.22.0--r44he5774e6_1: sha256:6e8c831f6ef2a8dd7ed7a676a70489717f8dbe331b33d111a5d491492363418e
 tags:
   1.8.1--r41h399db7b_0: sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66
   1.14.0--r42hc247a5b_0: sha256:2939a5e9f39cfb561a72c1dffd341d7e54c4e3c7a9f4de7b135c9e142c0cb307
@@ -11,6 +11,7 @@ tags:
   1.16.1--r43hf17093f_0: sha256:922d0345b59f2c91c602c408cb0862ad7263e9b97047a4349184c9d390c080a8
   1.18.1--r43hf17093f_0: sha256:03bd97e85e62fb51a244c64cb9338b0b99f39e3f688a242c5c1e6e5a1e8b680a
   1.22.0--r44he5774e6_0: sha256:70a346a586b20a15eda5937afc87a99bb58fd14da9bb1c30069fe14a84fff546
+  1.22.0--r44he5774e6_1: sha256:6e8c831f6ef2a8dd7ed7a676a70489717f8dbe331b33d111a5d491492363418e
 docker: quay.io/biocontainers/bioconductor-celda
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
