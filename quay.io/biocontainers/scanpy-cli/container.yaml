@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scanpy-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scanpy-cli
 latest:
-  0.1.6--pyhdfd78af_0: sha256:1f50b5c5cdb0160c804d0c7456d4e87c488da3b113b2bb3865ec7b8b745d2623
+  0.2.0--pyhdfd78af_0: sha256:4800b533d7da05a1288e576f040f5b04c75e62e460ca692c08cde23e2dbd8b5e
 tags:
   0.1.6--pyhdfd78af_0: sha256:1f50b5c5cdb0160c804d0c7456d4e87c488da3b113b2bb3865ec7b8b745d2623
+  0.2.0--pyhdfd78af_0: sha256:4800b533d7da05a1288e576f040f5b04c75e62e460ca692c08cde23e2dbd8b5e
 docker: quay.io/biocontainers/scanpy-cli
 aliases:
   scanpy-cli: /usr/local/bin/scanpy-cli

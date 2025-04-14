@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ectyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ectyper
 latest:
-  2.0.0--pyhdfd78af_2: sha256:1b33a7eb198b1557cff3f03faf0cecb24b5eb5538995e651986e15940c04cc4d
+  2.0.0--pyhdfd78af_3: sha256:7e55de9fab17d114ff087ce4054a9c3a2eca7fd0541b80817b2fc478b71c9503
 tags:
   1.0.0--pyhdfd78af_1: sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465
   2.0.0--pyhdfd78af_1: sha256:2e37d012760687ca305001706211c693c857135c9f3266a98970f9cf68644bf2
   2.0.0--pyhdfd78af_2: sha256:1b33a7eb198b1557cff3f03faf0cecb24b5eb5538995e651986e15940c04cc4d
+  2.0.0--pyhdfd78af_3: sha256:7e55de9fab17d114ff087ce4054a9c3a2eca7fd0541b80817b2fc478b71c9503
 docker: quay.io/biocontainers/ectyper
 aliases:
   ectyper: /usr/local/bin/ectyper

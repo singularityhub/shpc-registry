@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/somaticseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for somaticseq
 latest:
-  3.10.0--pyhdfd78af_0: sha256:ca479f12c771118fe63a2277d98e201e5523449f56de5a1ad5fcedf4fd3888ca
+  3.11.0--pyhdfd78af_0: sha256:9a1d8500cf24b923eed2459e5216888e02508d5e535db8640b62b06415b5fee0
 tags:
   3.7.3--pyhdfd78af_0: sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501
   3.7.4--pyhdfd78af_0: sha256:d63dc3e6c1742b95fd2ff579b40b4b646738928d898f2f4fd4ff93a598098f16
   3.10.0--pyhdfd78af_0: sha256:ca479f12c771118fe63a2277d98e201e5523449f56de5a1ad5fcedf4fd3888ca
   3.9.1--pyhdfd78af_0: sha256:c48f55300118c3844454e3b90761493f5df4d9c16cfd20f486fccff3d3b518ec
   3.8.0--pyhdfd78af_0: sha256:7fb6481617fbeeca65c6486dcf779050548506a69490fdd43aab234e724877cc
+  3.11.0--pyhdfd78af_0: sha256:9a1d8500cf24b923eed2459e5216888e02508d5e535db8640b62b06415b5fee0
 docker: quay.io/biocontainers/somaticseq
 aliases:
   MuSE: /usr/local/bin/MuSE
