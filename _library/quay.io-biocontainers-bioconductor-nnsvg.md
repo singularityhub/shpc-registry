@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nnsvg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nnsvg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nnsvg/container.yaml"
-updated_at: "2025-04-13 04:11:51.248975"
+updated_at: "2025-04-14 03:11:24.461881"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nnsvg"
 aliases:

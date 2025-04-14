@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/evidencemodeler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evidencemodeler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evidencemodeler/container.yaml"
-updated_at: "2025-04-13 04:17:21.977481"
+updated_at: "2025-04-14 03:16:51.398063"
 latest: "2.1.0--h503566f_4"
 container_url: "https://biocontainers.pro/tools/evidencemodeler"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-zenodo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-zenodo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-zenodo/container.yaml"
-updated_at: "2025-04-13 04:41:33.636980"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2025-04-14 03:40:40.199958"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-zenodo"
 aliases:
  - "2to3-3.12"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-zenodo"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-zenodo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-zenodo", "latest": {"0.1.4--pyhdfd78af_0": "sha256:62388898e76cd9db605b3dc14c9174f543217643b7fa970f3bac47441fc6a0d4"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:1b66e1a7b4c6cf11b66a99e419e987b64613b6242a45327ddfe72403d21b7467", "0.1.4--pyhdfd78af_0": "sha256:62388898e76cd9db605b3dc14c9174f543217643b7fa970f3bac47441fc6a0d4"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-zenodo", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-zenodo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-zenodo", "latest": {"0.1.5--pyhdfd78af_0": "sha256:edf3407744366c16f6df392eb10b4e2e45b9cc79057e6568d993414d4eea5e90"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:1b66e1a7b4c6cf11b66a99e419e987b64613b6242a45327ddfe72403d21b7467", "0.1.4--pyhdfd78af_0": "sha256:62388898e76cd9db605b3dc14c9174f543217643b7fa970f3bac47441fc6a0d4", "0.1.5--pyhdfd78af_0": "sha256:edf3407744366c16f6df392eb10b4e2e45b9cc79057e6568d993414d4eea5e90"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-zenodo", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-zenodo.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-zenodo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-zenodo:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-zenodo:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-zenodo/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-zenodo/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-zenodo/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-zenodo/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

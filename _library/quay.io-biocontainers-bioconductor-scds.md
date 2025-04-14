@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scds/container.yaml"
-updated_at: "2025-04-13 04:52:29.314778"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2025-04-14 03:51:27.063106"
+latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scds"
 aliases:
  - "xgboost"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.22.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scds"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scds", "latest": {"1.18.0--r43hdfd78af_0": "sha256:a3c946c62163f8d76d8b547c352bfa9e5899061320597165e4ba4eae3eb11759"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1", "1.14.0--r42hdfd78af_0": "sha256:fd42af159e4785d77878908a2bd7fd57eecca4000bd272ba3e6a2742d49758e3", "1.10.0--r41hdfd78af_0": "sha256:5f9a505df7ddcbf47b7b4d90e2cf97ff12957b79ba3fd113fb3481f68e39d985", "1.16.0--r43hdfd78af_0": "sha256:6326b7c6d3140e9f3d13cce6748454381aedf139d0c393580122c788ccc501de", "1.18.0--r43hdfd78af_0": "sha256:a3c946c62163f8d76d8b547c352bfa9e5899061320597165e4ba4eae3eb11759"}, "docker": "quay.io/biocontainers/bioconductor-scds", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scds", "latest": {"1.22.0--r44hdfd78af_0": "sha256:23a5c395b9a0e6151b9367794ff8546bfc8137531545f64e95dd902eacc90dc1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1", "1.14.0--r42hdfd78af_0": "sha256:fd42af159e4785d77878908a2bd7fd57eecca4000bd272ba3e6a2742d49758e3", "1.10.0--r41hdfd78af_0": "sha256:5f9a505df7ddcbf47b7b4d90e2cf97ff12957b79ba3fd113fb3481f68e39d985", "1.16.0--r43hdfd78af_0": "sha256:6326b7c6d3140e9f3d13cce6748454381aedf139d0c393580122c788ccc501de", "1.18.0--r43hdfd78af_0": "sha256:a3c946c62163f8d76d8b547c352bfa9e5899061320597165e4ba4eae3eb11759", "1.22.0--r44hdfd78af_0": "sha256:23a5c395b9a0e6151b9367794ff8546bfc8137531545f64e95dd902eacc90dc1"}, "docker": "quay.io/biocontainers/bioconductor-scds", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scds.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scds
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scds:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scds:1.22.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scds/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scds/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scds/1.22.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scds/1.22.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
