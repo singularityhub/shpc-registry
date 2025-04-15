@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-linxreport
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-linxreport
 latest:
-  1.0.0--r43hdfd78af_0: sha256:536fd12d9acbd38c751b7226b0c9be646692d2bcfd30bf55e5f60dd7f2fd1050
+  1.1.0--r44hdfd78af_0: sha256:fedb65d9c624842013e473ed84aaa3fea4e182297fa3e1c9a853e370790dd8d5
 tags:
   1.0.0--r43hdfd78af_0: sha256:536fd12d9acbd38c751b7226b0c9be646692d2bcfd30bf55e5f60dd7f2fd1050
+  1.1.0--r44hdfd78af_0: sha256:fedb65d9c624842013e473ed84aaa3fea4e182297fa3e1c9a853e370790dd8d5
 docker: quay.io/biocontainers/r-linxreport
 aliases:
   linxreport.R: /usr/local/bin/linxreport.R
