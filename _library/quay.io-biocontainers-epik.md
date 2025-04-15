@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epik/container.yaml"
-updated_at: "2025-04-14 03:55:12.428968"
+updated_at: "2025-04-15 03:54:34.046887"
 latest: "0.2.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/epik"
 aliases:

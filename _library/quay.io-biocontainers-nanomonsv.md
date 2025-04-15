@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanomonsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomonsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomonsv/container.yaml"
-updated_at: "2025-04-14 03:26:11.467951"
-latest: "0.7.2--pyhdfd78af_0"
+updated_at: "2025-04-15 03:24:08.021579"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanomonsv"
 aliases:
  - "DateRepeats"
@@ -43,8 +43,9 @@ versions:
  - "0.7.0--pyhdfd78af_0"
  - "0.6.0--pyhdfd78af_0"
  - "0.7.2--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanomonsv"
-config: {"url": "https://biocontainers.pro/tools/nanomonsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanomonsv", "latest": {"0.7.2--pyhdfd78af_0": "sha256:e3ab7c1d8ec0e42e6581fc0769400940b4a50e40c65d32c3386af3caadeced00"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:b6a2fee29c637f006eecf7a10f9a9f4190467441ed02a04bfe6d297636f6f793", "0.5.1--pyhdfd78af_0": "sha256:f236f81fa9690c90a829ed62f736e5353ed0be0518b2bdb45fcf849d30a0f4c6", "0.7.0--pyhdfd78af_0": "sha256:5dd81ccbdcee7f6346fc569bba75e37043248138c132cadd4d5abd1659ffba60", "0.6.0--pyhdfd78af_0": "sha256:aca64678939130537d6d36aa6adbd03684c31d31828e349a73ea161be05edd9a", "0.7.2--pyhdfd78af_0": "sha256:e3ab7c1d8ec0e42e6581fc0769400940b4a50e40c65d32c3386af3caadeced00"}, "docker": "quay.io/biocontainers/nanomonsv", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "maskFile.pl": "/usr/local/bin/maskFile.pl", "nanomonsv": "/usr/local/bin/nanomonsv", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "certtool": "/usr/local/bin/certtool"}}
+config: {"url": "https://biocontainers.pro/tools/nanomonsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanomonsv", "latest": {"0.8.0--pyhdfd78af_0": "sha256:a4e1d1ce9a75a0dcc0025137e8e506edc721039535a76048c83c4a3f8f6e5298"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:b6a2fee29c637f006eecf7a10f9a9f4190467441ed02a04bfe6d297636f6f793", "0.5.1--pyhdfd78af_0": "sha256:f236f81fa9690c90a829ed62f736e5353ed0be0518b2bdb45fcf849d30a0f4c6", "0.7.0--pyhdfd78af_0": "sha256:5dd81ccbdcee7f6346fc569bba75e37043248138c132cadd4d5abd1659ffba60", "0.6.0--pyhdfd78af_0": "sha256:aca64678939130537d6d36aa6adbd03684c31d31828e349a73ea161be05edd9a", "0.7.2--pyhdfd78af_0": "sha256:e3ab7c1d8ec0e42e6581fc0769400940b4a50e40c65d32c3386af3caadeced00", "0.8.0--pyhdfd78af_0": "sha256:a4e1d1ce9a75a0dcc0025137e8e506edc721039535a76048c83c4a3f8f6e5298"}, "docker": "quay.io/biocontainers/nanomonsv", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "maskFile.pl": "/usr/local/bin/maskFile.pl", "nanomonsv": "/usr/local/bin/nanomonsv", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "certtool": "/usr/local/bin/certtool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanomonsv.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/nanomonsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanomonsv:0.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanomonsv:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanomonsv/0.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanomonsv/0.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanomonsv/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanomonsv/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

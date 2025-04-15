@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scanpy-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanpy-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanpy-cli/container.yaml"
-updated_at: "2025-04-14 03:53:28.157668"
-latest: "0.1.6--pyhdfd78af_0"
+updated_at: "2025-04-15 03:52:45.114101"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanpy-cli"
 aliases:
  - "scanpy-cli"
@@ -36,8 +36,9 @@ aliases:
  - "lstopo"
 versions:
  - "0.1.6--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scanpy-cli"
-config: {"url": "https://biocontainers.pro/tools/scanpy-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scanpy-cli", "latest": {"0.1.6--pyhdfd78af_0": "sha256:1f50b5c5cdb0160c804d0c7456d4e87c488da3b113b2bb3865ec7b8b745d2623"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:1f50b5c5cdb0160c804d0c7456d4e87c488da3b113b2bb3865ec7b8b745d2623"}, "docker": "quay.io/biocontainers/scanpy-cli", "aliases": {"scanpy-cli": "/usr/local/bin/scanpy-cli", "rich-click": "/usr/local/bin/rich-click", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
+config: {"url": "https://biocontainers.pro/tools/scanpy-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scanpy-cli", "latest": {"0.2.0--pyhdfd78af_0": "sha256:4800b533d7da05a1288e576f040f5b04c75e62e460ca692c08cde23e2dbd8b5e"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:1f50b5c5cdb0160c804d0c7456d4e87c488da3b113b2bb3865ec7b8b745d2623", "0.2.0--pyhdfd78af_0": "sha256:4800b533d7da05a1288e576f040f5b04c75e62e460ca692c08cde23e2dbd8b5e"}, "docker": "quay.io/biocontainers/scanpy-cli", "aliases": {"scanpy-cli": "/usr/local/bin/scanpy-cli", "rich-click": "/usr/local/bin/rich-click", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scanpy-cli.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/scanpy-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scanpy-cli:0.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scanpy-cli:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scanpy-cli/0.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/scanpy-cli/0.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/scanpy-cli/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/scanpy-cli/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

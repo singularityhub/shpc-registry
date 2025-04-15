@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastplong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastplong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastplong/container.yaml"
-updated_at: "2025-04-14 03:35:26.417807"
+updated_at: "2025-04-15 03:33:44.404735"
 latest: "0.2.2--heae3180_0"
 container_url: "https://biocontainers.pro/tools/fastplong"
 aliases:

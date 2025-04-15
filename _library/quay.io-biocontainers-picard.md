@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picard/container.yaml"
-updated_at: "2025-04-14 03:23:10.330233"
+updated_at: "2025-04-15 03:21:07.105350"
 latest: "3.3.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/picard"
 aliases:

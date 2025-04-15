@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/filesendercli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filesendercli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filesendercli/container.yaml"
-updated_at: "2025-04-14 03:48:00.381333"
+updated_at: "2025-04-15 03:47:04.074111"
 latest: "3.0.0"
 container_url: "https://biocontainers.pro/tools/filesendercli"
 aliases:
