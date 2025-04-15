@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-pio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-pio
+latest:
+  0.1.0--r44hdfd78af_0: sha256:48b8f1dcdb353e623d369c2da1076f934c138cb85742f7d9205b0233fe02e173
+tags:
+  0.1.0--r44hdfd78af_0: sha256:48b8f1dcdb353e623d369c2da1076f934c138cb85742f7d9205b0233fe02e173
+docker: quay.io/biocontainers/r-pio
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
