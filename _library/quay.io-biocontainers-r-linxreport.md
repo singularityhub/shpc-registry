@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-linxreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-linxreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-linxreport/container.yaml"
-updated_at: "2025-04-15 03:38:17.193863"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2025-04-16 03:37:10.867052"
+latest: "1.1.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-linxreport"
 aliases:
  - "linxreport.R"
@@ -15,8 +15,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.1.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-linxreport"
-config: {"url": "https://biocontainers.pro/tools/r-linxreport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-linxreport", "latest": {"1.0.0--r43hdfd78af_0": "sha256:536fd12d9acbd38c751b7226b0c9be646692d2bcfd30bf55e5f60dd7f2fd1050"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:536fd12d9acbd38c751b7226b0c9be646692d2bcfd30bf55e5f60dd7f2fd1050"}, "docker": "quay.io/biocontainers/r-linxreport", "aliases": {"linxreport.R": "/usr/local/bin/linxreport.R", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-linxreport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-linxreport", "latest": {"1.1.0--r44hdfd78af_0": "sha256:fedb65d9c624842013e473ed84aaa3fea4e182297fa3e1c9a853e370790dd8d5"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:536fd12d9acbd38c751b7226b0c9be646692d2bcfd30bf55e5f60dd7f2fd1050", "1.1.0--r44hdfd78af_0": "sha256:fedb65d9c624842013e473ed84aaa3fea4e182297fa3e1c9a853e370790dd8d5"}, "docker": "quay.io/biocontainers/r-linxreport", "aliases": {"linxreport.R": "/usr/local/bin/linxreport.R", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-linxreport.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-linxreport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-linxreport:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-linxreport:1.1.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-linxreport/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-linxreport/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-linxreport/1.1.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-linxreport/1.1.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haphpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haphpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haphpipe/container.yaml"
-updated_at: "2025-04-15 03:07:17.876654"
+updated_at: "2025-04-16 03:06:38.994066"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/haphpipe"
 aliases:

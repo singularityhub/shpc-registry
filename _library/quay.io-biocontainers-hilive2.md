@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hilive2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hilive2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hilive2/container.yaml"
-updated_at: "2025-04-15 03:23:37.949304"
+updated_at: "2025-04-16 03:23:08.008607"
 latest: "2.0--he629db7_3"
 container_url: "https://biocontainers.pro/tools/hilive2"
 aliases:

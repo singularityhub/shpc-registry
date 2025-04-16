@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/stc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/stc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/stc/container.yaml"
-updated_at: "2025-04-15 03:58:04.463016"
+updated_at: "2025-04-16 03:56:09.335826"
 latest: "0.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/stc"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/firecloud"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/firecloud/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/firecloud/container.yaml"
-updated_at: "2025-04-15 03:31:04.902568"
-latest: "0.16.37--pyhdfd78af_0"
+updated_at: "2025-04-16 03:30:22.426118"
+latest: "0.16.38--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/firecloud"
 aliases:
  - "bq"
@@ -26,8 +26,9 @@ versions:
  - "0.16.31--pyh3252c3a_0"
  - "0.16.35--pyh7cba7a3_0"
  - "0.16.37--pyhdfd78af_0"
+ - "0.16.38--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for firecloud"
-config: {"url": "https://biocontainers.pro/tools/firecloud", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for firecloud", "latest": {"0.16.37--pyhdfd78af_0": "sha256:0c60413ba0fc17ce703193841c3f7e8e05b6662e1c3d89abc5d14b4e646a17df"}, "tags": {"0.16.31--pyh3252c3a_0": "sha256:7570a7c2bf69d6648b89b3bada5304bbdb6a1d1a8751726387e4ef114585e7de", "0.16.35--pyh7cba7a3_0": "sha256:bad113a9e112fcb930d2cc0bd5d0543920d6c9f1f7a106a5bf926da3565c0750", "0.16.37--pyhdfd78af_0": "sha256:0c60413ba0fc17ce703193841c3f7e8e05b6662e1c3d89abc5d14b4e646a17df"}, "docker": "quay.io/biocontainers/firecloud", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "fissfc": "/usr/local/bin/fissfc", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/firecloud", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for firecloud", "latest": {"0.16.38--pyhdfd78af_0": "sha256:287fb2942d02944f92190d627d6c7c7cde9feb523a9dc0ec123f77da43151842"}, "tags": {"0.16.31--pyh3252c3a_0": "sha256:7570a7c2bf69d6648b89b3bada5304bbdb6a1d1a8751726387e4ef114585e7de", "0.16.35--pyh7cba7a3_0": "sha256:bad113a9e112fcb930d2cc0bd5d0543920d6c9f1f7a106a5bf926da3565c0750", "0.16.37--pyhdfd78af_0": "sha256:0c60413ba0fc17ce703193841c3f7e8e05b6662e1c3d89abc5d14b4e646a17df", "0.16.38--pyhdfd78af_0": "sha256:287fb2942d02944f92190d627d6c7c7cde9feb523a9dc0ec123f77da43151842"}, "docker": "quay.io/biocontainers/firecloud", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "fissfc": "/usr/local/bin/fissfc", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/firecloud.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/firecloud
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/firecloud:0.16.37--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/firecloud:0.16.38--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/firecloud/0.16.37--pyhdfd78af_0
-$ module help quay.io/biocontainers/firecloud/0.16.37--pyhdfd78af_0
+$ module load quay.io/biocontainers/firecloud/0.16.38--pyhdfd78af_0
+$ module help quay.io/biocontainers/firecloud/0.16.38--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
