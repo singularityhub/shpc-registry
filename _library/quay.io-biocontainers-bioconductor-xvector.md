@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xvector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xvector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xvector/container.yaml"
-updated_at: "2025-04-16 03:29:10.931019"
+updated_at: "2025-04-16 05:16:25.964567"
 latest: "0.46.0--r44h15a9599_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-xvector"
 

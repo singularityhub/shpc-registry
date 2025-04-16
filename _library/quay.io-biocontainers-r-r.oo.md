@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.oo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.oo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.oo/container.yaml"
-updated_at: "2025-04-16 03:49:56.199601"
+updated_at: "2025-04-16 05:37:18.419151"
 latest: "1.21.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.oo"
 aliases:

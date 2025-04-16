@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tower-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tower-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tower-cli/container.yaml"
-updated_at: "2025-04-16 03:25:25.743673"
+updated_at: "2025-04-16 05:12:37.403600"
 latest: "0.11.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tower-cli"
 aliases:
