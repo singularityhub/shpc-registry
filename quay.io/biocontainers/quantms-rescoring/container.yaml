@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/quantms-rescoring
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quantms-rescoring
 latest:
-  0.0.5--pyhdfd78af_0: sha256:9a83854f0f10dc2bbeaf63aaa4b0be95e3c950f8f4709908a5fc0745b502f845
+  0.0.9--pyhdfd78af_0: sha256:96b27926c311f88f8ef391fe9ef564e397e535bf19f2dd111babb03d7199c646
 tags:
   0.0.1--pyhdfd78af_0: sha256:41f60d189a3be4574667cce78db3dbe9ac58d880a4cc90cdd2958ec34ae30a45
   0.0.4--pyhdfd78af_0: sha256:8a12f0dfe6f8fd931b31dbeb71eaac102c610e32928ce68d1b0d67bec387339e
   0.0.5--pyhdfd78af_0: sha256:9a83854f0f10dc2bbeaf63aaa4b0be95e3c950f8f4709908a5fc0745b502f845
+  0.0.9--pyhdfd78af_0: sha256:96b27926c311f88f8ef391fe9ef564e397e535bf19f2dd111babb03d7199c646
 docker: quay.io/biocontainers/quantms-rescoring
 aliases:
   deeplc: /usr/local/bin/deeplc
