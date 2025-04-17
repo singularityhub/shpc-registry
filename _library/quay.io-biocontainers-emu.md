@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emu/container.yaml"
-updated_at: "2025-04-17 03:22:20.745592"
+updated_at: "2025-04-17 04:23:42.671730"
 latest: "3.5.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/emu"
 aliases:
