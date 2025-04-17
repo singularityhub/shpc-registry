@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/qcatch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for qcatch
+latest:
+  0.2.3--pyhdfd78af_0: sha256:9a8c634faf7566780f93348b2ff5af6497e3b3fdd593f2aaa95f515ebfdb40ff
+tags:
+  0.2.3--pyhdfd78af_0: sha256:9a8c634faf7566780f93348b2ff5af6497e3b3fdd593f2aaa95f515ebfdb40ff
+docker: quay.io/biocontainers/qcatch
+aliases:
+  pyroe: /usr/local/bin/pyroe
+  qcatch: /usr/local/bin/qcatch
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  h5delete: /usr/local/bin/h5delete

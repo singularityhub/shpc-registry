@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bbmapy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bbmapy
+latest:
+  0.0.46--pyhdfd78af_0: sha256:24b7a8948a600fd44dcaaf5c6e77be65786b32108d6d8b36094a3821fe0f4183
+tags:
+  0.0.46--pyhdfd78af_0: sha256:24b7a8948a600fd44dcaaf5c6e77be65786b32108d6d8b36094a3821fe0f4183
+docker: quay.io/biocontainers/bbmapy
+aliases:
+  bbmapy-ensure-java: /usr/local/bin/bbmapy-ensure-java
+  bbmapy-test: /usr/local/bin/bbmapy-test
+  generate-bbmapy-commands: /usr/local/bin/generate-bbmapy-commands
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
