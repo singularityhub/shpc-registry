@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/mach2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mach2
+latest:
+  1.0.1.1--pyhdfd78af_0: sha256:20d118ad610a5d9eeb7a729b5e3da0c6ea521c7c8cba511887259ba8799effa1
+tags:
+  1.0.1.1--pyhdfd78af_0: sha256:20d118ad610a5d9eeb7a729b5e3da0c6ea521c7c8cba511887259ba8799effa1
+docker: quay.io/biocontainers/mach2
+aliases:
+  debugpy: /usr/local/bin/debugpy
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  jupyter-server: /usr/local/bin/jupyter-server
+  mach2: /usr/local/bin/mach2
+  pyjson5: /usr/local/bin/pyjson5
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  jsonpointer: /usr/local/bin/jsonpointer
+  wsdump: /usr/local/bin/wsdump
+  send2trash: /usr/local/bin/send2trash
+  httpx: /usr/local/bin/httpx
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  pybabel: /usr/local/bin/pybabel
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  xkbcli: /usr/local/bin/xkbcli
+  numpy-config: /usr/local/bin/numpy-config
+  diffimg: /usr/local/bin/diffimg
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf

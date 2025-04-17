@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dmox
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dmox
+latest:
+  0.1.3--h3ab6199_0: sha256:6052484f8f96034f14df49ca153de9d8fc17a7caf46a23f939614083b2a2feed
+tags:
+  0.1.3--h3ab6199_0: sha256:6052484f8f96034f14df49ca153de9d8fc17a7caf46a23f939614083b2a2feed
+docker: quay.io/biocontainers/dmox
+aliases:
+  dmox: /usr/local/bin/dmox

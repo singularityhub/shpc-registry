@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/mimi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mimi
+latest:
+  1.0.1--pyhdfd78af_0: sha256:9a5940ef0375972dae3c12565c84362ece0fd0009a0816b7e131967bb44c1132
+tags:
+  1.0.1--pyhdfd78af_0: sha256:9a5940ef0375972dae3c12565c84362ece0fd0009a0816b7e131967bb44c1132
+docker: quay.io/biocontainers/mimi
+aliases:
+  mimi_cache_create: /usr/local/bin/mimi_cache_create
+  mimi_cache_dump: /usr/local/bin/mimi_cache_dump
+  mimi_hmdb_extract: /usr/local/bin/mimi_hmdb_extract
+  mimi_kegg_extract: /usr/local/bin/mimi_kegg_extract
+  mimi_mass_analysis: /usr/local/bin/mimi_mass_analysis
+  pyjson5: /usr/local/bin/pyjson5
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm

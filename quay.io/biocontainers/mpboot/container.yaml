@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mpboot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mpboot
+latest:
+  1.2--h503566f_0: sha256:642890074e5edc787319c717973b653234b65c5d9d9eedae3a8b32a78b5c8602
+tags:
+  1.2--h503566f_0: sha256:642890074e5edc787319c717973b653234b65c5d9d9eedae3a8b32a78b5c8602
+docker: quay.io/biocontainers/mpboot
+aliases:
+  mpboot: /usr/local/bin/mpboot
+  mpboot-avx: /usr/local/bin/mpboot-avx
