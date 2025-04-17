@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svtopovz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtopovz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtopovz/container.yaml"
-updated_at: "2025-04-16 05:31:21.894639"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2025-04-17 03:27:16.754975"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svtopovz"
 aliases:
  - "svtopovz"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for svtopovz"
-config: {"url": "https://biocontainers.pro/tools/svtopovz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svtopovz", "latest": {"0.1.3--pyhdfd78af_0": "sha256:a0c55b574579879b69733d150545dceec2304067f15e724af2865e4dddda01d5"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:acd7e2e8e5c2e4edc86a8284cba40423ff98b8a2bc018c34e3e311f8347a6de2", "0.1.3--pyhdfd78af_0": "sha256:a0c55b574579879b69733d150545dceec2304067f15e724af2865e4dddda01d5"}, "docker": "quay.io/biocontainers/svtopovz", "aliases": {"svtopovz": "/usr/local/bin/svtopovz", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/svtopovz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svtopovz", "latest": {"0.2.0--pyhdfd78af_0": "sha256:c7b487708195bd338d390cea21f5388619d26a2f8ba5bf85afac1359fccdbbbf"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:acd7e2e8e5c2e4edc86a8284cba40423ff98b8a2bc018c34e3e311f8347a6de2", "0.1.3--pyhdfd78af_0": "sha256:a0c55b574579879b69733d150545dceec2304067f15e724af2865e4dddda01d5", "0.2.0--pyhdfd78af_0": "sha256:c7b487708195bd338d390cea21f5388619d26a2f8ba5bf85afac1359fccdbbbf"}, "docker": "quay.io/biocontainers/svtopovz", "aliases": {"svtopovz": "/usr/local/bin/svtopovz", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svtopovz.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/svtopovz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svtopovz:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/svtopovz:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svtopovz/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/svtopovz/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/svtopovz/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/svtopovz/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

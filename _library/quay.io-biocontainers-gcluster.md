@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcluster/container.yaml"
-updated_at: "2025-04-16 05:42:43.191963"
+updated_at: "2025-04-17 03:38:31.754026"
 latest: "2.06--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/gcluster"
 aliases:
@@ -25,8 +25,9 @@ versions:
  - "2.0.5--hdfd78af_1"
  - "2.06--hdfd78af_0"
  - "2.06--hdfd78af_2"
+ - "2.0.7--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gcluster"
-config: {"url": "https://biocontainers.pro/tools/gcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcluster", "latest": {"2.06--hdfd78af_2": "sha256:f32e05b46ce8312c6325f7bf8a4667ea4463b5fa9fb9fea583dc43b21b2bd589"}, "tags": {"2.0.5--hdfd78af_1": "sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4", "2.06--hdfd78af_0": "sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9", "2.06--hdfd78af_2": "sha256:f32e05b46ce8312c6325f7bf8a4667ea4463b5fa9fb9fea583dc43b21b2bd589"}, "docker": "quay.io/biocontainers/gcluster", "aliases": {"Gcluster.pl": "/usr/local/bin/Gcluster.pl", "interested_gene_generation.pl": "/usr/local/bin/interested_gene_generation.pl", "test.pl": "/usr/local/bin/test.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/gcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcluster", "latest": {"2.06--hdfd78af_2": "sha256:f32e05b46ce8312c6325f7bf8a4667ea4463b5fa9fb9fea583dc43b21b2bd589"}, "tags": {"2.0.5--hdfd78af_1": "sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4", "2.06--hdfd78af_0": "sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9", "2.06--hdfd78af_2": "sha256:f32e05b46ce8312c6325f7bf8a4667ea4463b5fa9fb9fea583dc43b21b2bd589", "2.0.7--hdfd78af_0": "sha256:9fba6d689fd41594b9eca37822622872565888c74c793e6835f2d25fecdca70a"}, "docker": "quay.io/biocontainers/gcluster", "aliases": {"Gcluster.pl": "/usr/local/bin/Gcluster.pl", "interested_gene_generation.pl": "/usr/local/bin/interested_gene_generation.pl", "test.pl": "/usr/local/bin/test.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcluster.

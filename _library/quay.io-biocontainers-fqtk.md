@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqtk/container.yaml"
-updated_at: "2025-04-16 05:32:29.414244"
-latest: "0.3.1--ha6fb395_2"
+updated_at: "2025-04-17 03:28:24.209797"
+latest: "0.3.1--ha6fb395_3"
 container_url: "https://biocontainers.pro/tools/fqtk"
 aliases:
  - "fqtk"
@@ -17,8 +17,9 @@ versions:
  - "0.3.0--h4ac6f70_0"
  - "0.3.1--h919a2d8_1"
  - "0.3.1--ha6fb395_2"
+ - "0.3.1--ha6fb395_3"
 description: "singularity registry hpc automated addition for fqtk"
-config: {"url": "https://biocontainers.pro/tools/fqtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqtk", "latest": {"0.3.1--ha6fb395_2": "sha256:d64a3db4caf255127d0af0fed3bd51e3ca95a61dff365113680b6364bb89e524"}, "tags": {"0.2.0--h9f5acd7_0": "sha256:14bdfc6ceba1585638ccf09033dfe68882bd0bf75ee5f807596e9d6676f5cbcd", "0.2.1--h9f5acd7_0": "sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5", "0.2.1--h4ac6f70_2": "sha256:aff0201fcaa402c80df6127cfcbc22327e226b01fe19b3871b1e654009a35702", "0.2.2--h4ac6f70_0": "sha256:5c8e2e815530c5e35f7655a9f7984a7b7302f1186749ff47078b5155a4f0354e", "0.3.0--h4ac6f70_0": "sha256:809c83bb231e162e219b8bb68150ee4bd24dc0d058a82d6c755d4a747b2727fd", "0.3.1--h919a2d8_1": "sha256:58205d903801042d4475f1bc3566a35d8cc2a9673228f7052b7ac4dfce5906c4", "0.3.1--ha6fb395_2": "sha256:d64a3db4caf255127d0af0fed3bd51e3ca95a61dff365113680b6364bb89e524"}, "docker": "quay.io/biocontainers/fqtk", "aliases": {"fqtk": "/usr/local/bin/fqtk"}}
+config: {"url": "https://biocontainers.pro/tools/fqtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqtk", "latest": {"0.3.1--ha6fb395_3": "sha256:ce643b393db794c93c1b28c6e22640cc196fe240c1f552eec35a8916efbc5f5e"}, "tags": {"0.2.0--h9f5acd7_0": "sha256:14bdfc6ceba1585638ccf09033dfe68882bd0bf75ee5f807596e9d6676f5cbcd", "0.2.1--h9f5acd7_0": "sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5", "0.2.1--h4ac6f70_2": "sha256:aff0201fcaa402c80df6127cfcbc22327e226b01fe19b3871b1e654009a35702", "0.2.2--h4ac6f70_0": "sha256:5c8e2e815530c5e35f7655a9f7984a7b7302f1186749ff47078b5155a4f0354e", "0.3.0--h4ac6f70_0": "sha256:809c83bb231e162e219b8bb68150ee4bd24dc0d058a82d6c755d4a747b2727fd", "0.3.1--h919a2d8_1": "sha256:58205d903801042d4475f1bc3566a35d8cc2a9673228f7052b7ac4dfce5906c4", "0.3.1--ha6fb395_2": "sha256:d64a3db4caf255127d0af0fed3bd51e3ca95a61dff365113680b6364bb89e524", "0.3.1--ha6fb395_3": "sha256:ce643b393db794c93c1b28c6e22640cc196fe240c1f552eec35a8916efbc5f5e"}, "docker": "quay.io/biocontainers/fqtk", "aliases": {"fqtk": "/usr/local/bin/fqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqtk.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/fqtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqtk:0.3.1--ha6fb395_2
+$ shpc install quay.io/biocontainers/fqtk:0.3.1--ha6fb395_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqtk/0.3.1--ha6fb395_2
-$ module help quay.io/biocontainers/fqtk/0.3.1--ha6fb395_2
+$ module load quay.io/biocontainers/fqtk/0.3.1--ha6fb395_3
+$ module help quay.io/biocontainers/fqtk/0.3.1--ha6fb395_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

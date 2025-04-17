@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pipits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipits/container.yaml"
-updated_at: "2025-04-16 05:15:12.761846"
+updated_at: "2025-04-17 03:11:15.824337"
 latest: "3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pipits"
 aliases:

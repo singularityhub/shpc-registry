@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-object-insideout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-object-insideout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-object-insideout/container.yaml"
-updated_at: "2025-04-16 05:06:25.389633"
+updated_at: "2025-04-17 03:02:41.113951"
 latest: "4.05--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-object-insideout"
 aliases:

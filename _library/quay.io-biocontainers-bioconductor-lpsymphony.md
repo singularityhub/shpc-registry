@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lpsymphony"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lpsymphony/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lpsymphony/container.yaml"
-updated_at: "2025-04-16 04:57:33.594632"
+updated_at: "2025-04-17 02:53:56.225229"
 latest: "1.34.0--r44h81e381d_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lpsymphony"
 aliases:
