@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tximportdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tximportdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tximportdata/container.yaml"
-updated_at: "2025-04-17 03:10:27.393706"
+updated_at: "2025-04-17 03:25:48.625276"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tximportdata"
 

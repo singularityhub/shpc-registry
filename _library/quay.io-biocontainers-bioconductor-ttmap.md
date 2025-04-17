@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ttmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ttmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ttmap/container.yaml"
-updated_at: "2025-04-17 02:59:46.617661"
+updated_at: "2025-04-17 03:15:16.021483"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ttmap"
 

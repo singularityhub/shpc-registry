@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfiglet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfiglet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfiglet/container.yaml"
-updated_at: "2025-04-17 03:29:32.751162"
+updated_at: "2025-04-17 03:44:38.690536"
 latest: "0.7.5--py35_0"
 container_url: "https://biocontainers.pro/tools/pyfiglet"
 aliases:

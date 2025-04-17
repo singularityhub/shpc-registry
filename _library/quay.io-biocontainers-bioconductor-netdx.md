@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netdx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netdx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netdx/container.yaml"
-updated_at: "2025-04-17 03:29:30.186393"
+updated_at: "2025-04-17 03:44:36.163237"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netdx"
 
