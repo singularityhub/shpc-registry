@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ebi-eva-common-pyutils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ebi-eva-common-pyutils
 latest:
-  0.6.14--pyh7e72e81_0: sha256:a7878da2288fead197d01eda864b7b68d61e76af9c912a49740763ba6e7508f7
+  0.7.0--pyh7e72e81_0: sha256:81263f654526c6705f05c654b4e68dff7be74bf3e23f9015d3e3e75e6ccaf230
 tags:
   0.6.3--pyh7cba7a3_0: sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18
   0.6.6--pyh7cba7a3_0: sha256:0491789dfef5a02db12ab18e8eff263a99f902e5f92d52ea5495faf6d5bed282
@@ -12,6 +12,8 @@ tags:
   0.6.11--pyh7e72e81_0: sha256:11314f9d43beaac6fd0161a06bd983e941e469108cf3052a5740821aff757687
   0.6.12--pyh7e72e81_0: sha256:8fdde24afc54c48710169dfb5696dfcb01c19bee0ee39e935c6e9e61da8eae7f
   0.6.14--pyh7e72e81_0: sha256:a7878da2288fead197d01eda864b7b68d61e76af9c912a49740763ba6e7508f7
+  0.7.0--pyh7e72e81_0: sha256:81263f654526c6705f05c654b4e68dff7be74bf3e23f9015d3e3e75e6ccaf230
+  0.6.16--pyh7e72e81_0: sha256:b33f6f903bbbd2e44e7e7912addbe8e2e88282cbe86398c134081c1b8daf657d
 docker: quay.io/biocontainers/ebi-eva-common-pyutils
 aliases:
   archive_directory.py: /usr/local/bin/archive_directory.py
