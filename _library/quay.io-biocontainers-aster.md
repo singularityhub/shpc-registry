@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aster/container.yaml"
-updated_at: "2025-04-17 04:27:04.927846"
-latest: "1.19--h9948957_1"
+updated_at: "2025-04-18 03:23:37.250127"
+latest: "1.19--h9948957_2"
 container_url: "https://biocontainers.pro/tools/aster"
 aliases:
  - "asterisk"
@@ -21,8 +21,9 @@ versions:
  - "1.16--h4ac6f70_2"
  - "1.19--h4ac6f70_0"
  - "1.19--h9948957_1"
+ - "1.19--h9948957_2"
 description: "singularity registry hpc automated addition for aster"
-config: {"url": "https://biocontainers.pro/tools/aster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aster", "latest": {"1.19--h9948957_1": "sha256:028290b0dcb7d75794c35a95d28c6954c087793ad04f032e742fb3b8201d9c6b"}, "tags": {"1.3--h9f5acd7_1": "sha256:7662b11a19008b7a13b77ae116f2d20231d3ca19b47fabf4977b90b438fd4d9f", "1.13--h9f5acd7_1": "sha256:e920b1c7056a761b814990427ee02e0912436dfb1a2c577a9e06d7e0daad50fc", "1.10--h9f5acd7_0": "sha256:560eb7339e54eed72efd2206afd091a429200cba29787b2821bc4a0f86da3065", "1.15--h9f5acd7_0": "sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846", "1.15--h4ac6f70_2": "sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6", "1.16--h4ac6f70_1": "sha256:69aceadbe6052bebe779cf030deb63604c667a16a12e85eac1fd822b1989cc68", "1.16--h4ac6f70_2": "sha256:f46b3f0223878eadf569bb18b3c1a149183244bd50062221ce5065f6e2049c67", "1.19--h4ac6f70_0": "sha256:654a76711a94f2e9cacb085963e59e85a057e9aca695949665ff4b29b4b8487f", "1.19--h9948957_1": "sha256:028290b0dcb7d75794c35a95d28c6954c087793ad04f032e742fb3b8201d9c6b"}, "docker": "quay.io/biocontainers/aster", "aliases": {"asterisk": "/usr/local/bin/asterisk", "astral": "/usr/local/bin/astral", "astral-pro": "/usr/local/bin/astral-pro"}}
+config: {"url": "https://biocontainers.pro/tools/aster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aster", "latest": {"1.19--h9948957_2": "sha256:5466ad863f9544a92208ab1b2b922c45a6622f92c4bc1eadef235947c1ac6fd2"}, "tags": {"1.3--h9f5acd7_1": "sha256:7662b11a19008b7a13b77ae116f2d20231d3ca19b47fabf4977b90b438fd4d9f", "1.13--h9f5acd7_1": "sha256:e920b1c7056a761b814990427ee02e0912436dfb1a2c577a9e06d7e0daad50fc", "1.10--h9f5acd7_0": "sha256:560eb7339e54eed72efd2206afd091a429200cba29787b2821bc4a0f86da3065", "1.15--h9f5acd7_0": "sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846", "1.15--h4ac6f70_2": "sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6", "1.16--h4ac6f70_1": "sha256:69aceadbe6052bebe779cf030deb63604c667a16a12e85eac1fd822b1989cc68", "1.16--h4ac6f70_2": "sha256:f46b3f0223878eadf569bb18b3c1a149183244bd50062221ce5065f6e2049c67", "1.19--h4ac6f70_0": "sha256:654a76711a94f2e9cacb085963e59e85a057e9aca695949665ff4b29b4b8487f", "1.19--h9948957_1": "sha256:028290b0dcb7d75794c35a95d28c6954c087793ad04f032e742fb3b8201d9c6b", "1.19--h9948957_2": "sha256:5466ad863f9544a92208ab1b2b922c45a6622f92c4bc1eadef235947c1ac6fd2"}, "docker": "quay.io/biocontainers/aster", "aliases": {"asterisk": "/usr/local/bin/asterisk", "astral": "/usr/local/bin/astral", "astral-pro": "/usr/local/bin/astral-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aster.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/aster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aster:1.19--h9948957_1
+$ shpc install quay.io/biocontainers/aster:1.19--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aster/1.19--h9948957_1
-$ module help quay.io/biocontainers/aster/1.19--h9948957_1
+$ module load quay.io/biocontainers/aster/1.19--h9948957_2
+$ module help quay.io/biocontainers/aster/1.19--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

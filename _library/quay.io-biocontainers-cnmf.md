@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnmf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnmf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnmf/container.yaml"
-updated_at: "2025-04-17 04:25:52.415042"
-latest: "1.6.0--pyhdfd78af_0"
+updated_at: "2025-04-18 03:22:24.863432"
+latest: "1.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cnmf"
 aliases:
  - "cnmf"
@@ -36,8 +36,9 @@ aliases:
  - "numba"
 versions:
  - "1.6.0--pyhdfd78af_0"
+ - "1.7.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cnmf"
-config: {"url": "https://biocontainers.pro/tools/cnmf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnmf", "latest": {"1.6.0--pyhdfd78af_0": "sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff"}, "tags": {"1.6.0--pyhdfd78af_0": "sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff"}, "docker": "quay.io/biocontainers/cnmf", "aliases": {"cnmf": "/usr/local/bin/cnmf", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba"}}
+config: {"url": "https://biocontainers.pro/tools/cnmf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnmf", "latest": {"1.7.0--pyhdfd78af_0": "sha256:438926c30c159dd3a835104129d7ed31d8920d4d3648216eeb6276fdeaba5f9b"}, "tags": {"1.6.0--pyhdfd78af_0": "sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff", "1.7.0--pyhdfd78af_0": "sha256:438926c30c159dd3a835104129d7ed31d8920d4d3648216eeb6276fdeaba5f9b"}, "docker": "quay.io/biocontainers/cnmf", "aliases": {"cnmf": "/usr/local/bin/cnmf", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnmf.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cnmf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnmf:1.6.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cnmf:1.7.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnmf/1.6.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cnmf/1.6.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cnmf/1.7.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cnmf/1.7.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
