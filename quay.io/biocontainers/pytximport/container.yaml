@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pytximport
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pytximport
 latest:
-  0.11.0--pyhdfd78af_0: sha256:4802b17abb6a495123a964c6d44666cf4d726613296a791de8ce00beec69d873
+  0.12.0--pyhdfd78af_0: sha256:adc73155429123c7207ff345118fc92b94bd80204ff6d6087c72a26c91de628b
 tags:
   0.6.0--pyhdfd78af_0: sha256:0218ce68841d9b3d44bc9e20600a6ec8e3689878c63f4f3131291c040ee7e8d5
   0.7.0--pyhdfd78af_0: sha256:4f25ab3b9a60f6ca143d3e6f8587de14aaa8774db0b8868a7b34ea1b3c1e8f68
@@ -10,6 +10,7 @@ tags:
   0.10.0--pyhdfd78af_0: sha256:f243a4a6610f58ce3bbe58b01210a9bbb01806b6fef4d1d707bcc64b47c2991f
   0.9.0--pyhdfd78af_0: sha256:4fd3e8ff2021e6add68fc387e90a9a14f9f76d4daae602dca4584cc42a06fd24
   0.11.0--pyhdfd78af_0: sha256:4802b17abb6a495123a964c6d44666cf4d726613296a791de8ce00beec69d873
+  0.12.0--pyhdfd78af_0: sha256:adc73155429123c7207ff345118fc92b94bd80204ff6d6087c72a26c91de628b
 docker: quay.io/biocontainers/pytximport
 aliases:
   pytximport: /usr/local/bin/pytximport

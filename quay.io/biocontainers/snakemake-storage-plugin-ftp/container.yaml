@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/snakemake-storage-plugin-ftp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-storage-plugin-ftp
 latest:
-  0.1.2--pyhdfd78af_0: sha256:c21822103653598ed7da38887272b1e35dc99fbb08c9e8c6d81719cea282ca6b
+  0.1.3--pyhdfd78af_0: sha256:dfd9973626b72a557421a8e6aea41ab907b40ba1ad52955c6ce1a36b3586bdba
 tags:
   0.1.1--pyhdfd78af_0: sha256:4f32a13ee9b3f4d9981a593b1f950ac4e97d262d782438699333d536b6453d69
   0.1.2--pyhdfd78af_0: sha256:c21822103653598ed7da38887272b1e35dc99fbb08c9e8c6d81719cea282ca6b
+  0.1.3--pyhdfd78af_0: sha256:dfd9973626b72a557421a8e6aea41ab907b40ba1ad52955c6ce1a36b3586bdba
 docker: quay.io/biocontainers/snakemake-storage-plugin-ftp
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

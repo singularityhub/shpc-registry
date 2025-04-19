@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/fastq-dl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-dl
 latest:
-  3.0.0--pyhdfd78af_0: sha256:23b5e8228bed3af41ba9d318665a45d146add44a154a66c34d81bac9f34cf6ff
+  3.0.1--pyhdfd78af_0: sha256:82689107f8836f1d5d8e3c3695fc76219b962506a68c7ca74b4c213588025284
 tags:
   1.1.1--hdfd78af_0: sha256:6fdff94f1566200bf2b37f354aa3ceba5075e893f85e3eca2581197cdbd7d72b
   2.0.0--pyhdfd78af_0: sha256:c081dfd83208527ffa536982ff3a75a013ed09fd7f7e86c9b24d4cf7ebe2387d
@@ -11,6 +11,7 @@ tags:
   2.0.2--pyhdfd78af_0: sha256:728249d46ffc82877ac67d0093d157d3736eb67bd38767bd985862cd483cd7e4
   2.0.4--pyhdfd78af_0: sha256:a42d859a1205a049be6bacd0eabaeb66b937a8f0d0ce675cace08a371f426446
   3.0.0--pyhdfd78af_0: sha256:23b5e8228bed3af41ba9d318665a45d146add44a154a66c34d81bac9f34cf6ff
+  3.0.1--pyhdfd78af_0: sha256:82689107f8836f1d5d8e3c3695fc76219b962506a68c7ca74b4c213588025284
 docker: quay.io/biocontainers/fastq-dl
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0

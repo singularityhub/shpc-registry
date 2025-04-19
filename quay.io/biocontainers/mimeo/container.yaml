@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mimeo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mimeo
 latest:
-  1.1.2--pyhdfd78af_0: sha256:3ea749e60d87fbd4d1fa00928a5f5c4fbf38d7f81eff4296f8cb7a7c27bfe5b0
+  1.2.1--pyhdfd78af_0: sha256:e0f7a51664cea2e967fc5f3a4086e1c988ed357344f6c22af73c35a4052307fe
 tags:
   1.1.1--py_2: sha256:d00db443efbc3613769c0216db75d254dddcdcb83f85491a829d5fbcdf388dc7
   1.1.2--pyhdfd78af_0: sha256:3ea749e60d87fbd4d1fa00928a5f5c4fbf38d7f81eff4296f8cb7a7c27bfe5b0
+  1.2.1--pyhdfd78af_0: sha256:e0f7a51664cea2e967fc5f3a4086e1c988ed357344f6c22af73c35a4052307fe
 docker: quay.io/biocontainers/mimeo
 aliases:
   mimeo-filter: /usr/local/bin/mimeo-filter

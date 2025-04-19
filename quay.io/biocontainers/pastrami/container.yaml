@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pastrami
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pastrami
 latest:
-  0.9.6--pyhdfd78af_0: sha256:1d84add1a8456f1d981435406ee06b64b42fd85ee3dee037fc5e7b0981805bd2
+  1.0.0--pyh67a8953_0: sha256:56034fc83d62abbe07f1efe458e1c52837eee99f21d8753ca0ed73845f5a5243
 tags:
   0.9.6--pyhdfd78af_0: sha256:1d84add1a8456f1d981435406ee06b64b42fd85ee3dee037fc5e7b0981805bd2
+  1.0.0--pyh67a8953_0: sha256:56034fc83d62abbe07f1efe458e1c52837eee99f21d8753ca0ed73845f5a5243
 docker: quay.io/biocontainers/pastrami
 aliases:
   pastrami.py: /usr/local/bin/pastrami.py
