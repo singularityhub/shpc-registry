@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cohcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cohcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cohcap/container.yaml"
-updated_at: "2025-04-18 03:35:40.252629"
+updated_at: "2025-04-19 03:30:37.529628"
 latest: "1.48.0--pl5321r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cohcap"
 aliases:

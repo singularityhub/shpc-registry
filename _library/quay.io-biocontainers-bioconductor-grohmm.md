@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grohmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grohmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grohmm/container.yaml"
-updated_at: "2025-04-18 03:20:53.301789"
+updated_at: "2025-04-19 03:16:07.196739"
 latest: "1.36.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grohmm"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-translatome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-translatome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-translatome/container.yaml"
-updated_at: "2025-04-18 03:36:43.611951"
+updated_at: "2025-04-19 03:31:43.582731"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-translatome"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rhtslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhtslib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhtslib/container.yaml"
-updated_at: "2025-04-18 03:12:32.549581"
-latest: "3.2.0--r44h15a9599_1"
+updated_at: "2025-04-19 03:08:04.394200"
+latest: "3.2.0--r44h15a9599_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhtslib"
 aliases:
  - "tclsh8.5"
@@ -25,8 +25,9 @@ versions:
  - "2.4.0--r43ha9d7317_2"
  - "3.2.0--r44h15a9599_0"
  - "3.2.0--r44h15a9599_1"
+ - "3.2.0--r44h15a9599_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhtslib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhtslib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhtslib", "latest": {"3.2.0--r44h15a9599_1": "sha256:0dc434bc33da672579cd07d63865fcae5e461c401996b46716e0fed1af5b6afa"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d6d7e3c6ab8cad002c625c878caac47e6b621925a238734f1da866aee5fd0201", "2.0.0--r42hc0cfd56_0": "sha256:1795b8c5750882461791d8bc6ed298b0cb46b3aec34f7a0a5d13addcc8f2fa21", "1.26.0--r41hc0cfd56_2": "sha256:372592e3f1ea45c31acb4f6f1e562937d9b87d86e6e130f404e2cf54d3155c26", "1.24.0--r41hd029910_0": "sha256:29f274cd65b9f2c893d4386f8f7a4e75c107082ffc69c5a5e668c29bcad50ea6", "1.22.0--r40hd029910_1": "sha256:33ab82f70b77d16da8703f87e2763e48f2f7e66303844a7e3f11cf4e23af6d4c", "1.20.0--r40h037d062_0": "sha256:738058070ac7d24f8a02177642fedf355a96a685f5818eea109c97815ce41dad", "2.0.0--r42ha9d7317_1": "sha256:931fd943478dccf81813f7f8757383e86d0d07a0a4ab13db59f64b878bae1d77", "2.2.0--r43ha9d7317_0": "sha256:c6c1a4d48f3be83baf9c2f3bf97c0308617c8b563687a042a5e47958d4b2d2b7", "2.4.0--r43ha9d7317_1": "sha256:d381d2efb0c4bc19dd5a83d539d9d93a7d5417ac1a4ae85fa83b7d866ca73a61", "2.4.0--r43ha9d7317_2": "sha256:3f84f632b151e34391f93d07d7e3f88f0e37379fe625894d61685762180f7648", "3.2.0--r44h15a9599_0": "sha256:438d918c02b1edc64591df32e09c8e02921e6a815b036a5034a90edee41e7e6f", "3.2.0--r44h15a9599_1": "sha256:0dc434bc33da672579cd07d63865fcae5e461c401996b46716e0fed1af5b6afa"}, "docker": "quay.io/biocontainers/bioconductor-rhtslib", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhtslib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhtslib", "latest": {"3.2.0--r44h15a9599_2": "sha256:a1b571741232285372e43427faf43b6291ee28733590c7959af9c2ec2ea9a3e5"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d6d7e3c6ab8cad002c625c878caac47e6b621925a238734f1da866aee5fd0201", "2.0.0--r42hc0cfd56_0": "sha256:1795b8c5750882461791d8bc6ed298b0cb46b3aec34f7a0a5d13addcc8f2fa21", "1.26.0--r41hc0cfd56_2": "sha256:372592e3f1ea45c31acb4f6f1e562937d9b87d86e6e130f404e2cf54d3155c26", "1.24.0--r41hd029910_0": "sha256:29f274cd65b9f2c893d4386f8f7a4e75c107082ffc69c5a5e668c29bcad50ea6", "1.22.0--r40hd029910_1": "sha256:33ab82f70b77d16da8703f87e2763e48f2f7e66303844a7e3f11cf4e23af6d4c", "1.20.0--r40h037d062_0": "sha256:738058070ac7d24f8a02177642fedf355a96a685f5818eea109c97815ce41dad", "2.0.0--r42ha9d7317_1": "sha256:931fd943478dccf81813f7f8757383e86d0d07a0a4ab13db59f64b878bae1d77", "2.2.0--r43ha9d7317_0": "sha256:c6c1a4d48f3be83baf9c2f3bf97c0308617c8b563687a042a5e47958d4b2d2b7", "2.4.0--r43ha9d7317_1": "sha256:d381d2efb0c4bc19dd5a83d539d9d93a7d5417ac1a4ae85fa83b7d866ca73a61", "2.4.0--r43ha9d7317_2": "sha256:3f84f632b151e34391f93d07d7e3f88f0e37379fe625894d61685762180f7648", "3.2.0--r44h15a9599_0": "sha256:438d918c02b1edc64591df32e09c8e02921e6a815b036a5034a90edee41e7e6f", "3.2.0--r44h15a9599_1": "sha256:0dc434bc33da672579cd07d63865fcae5e461c401996b46716e0fed1af5b6afa", "3.2.0--r44h15a9599_2": "sha256:a1b571741232285372e43427faf43b6291ee28733590c7959af9c2ec2ea9a3e5"}, "docker": "quay.io/biocontainers/bioconductor-rhtslib", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhtslib.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhtslib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhtslib:3.2.0--r44h15a9599_1
+$ shpc install quay.io/biocontainers/bioconductor-rhtslib:3.2.0--r44h15a9599_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhtslib/3.2.0--r44h15a9599_1
-$ module help quay.io/biocontainers/bioconductor-rhtslib/3.2.0--r44h15a9599_1
+$ module load quay.io/biocontainers/bioconductor-rhtslib/3.2.0--r44h15a9599_2
+$ module help quay.io/biocontainers/bioconductor-rhtslib/3.2.0--r44h15a9599_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
