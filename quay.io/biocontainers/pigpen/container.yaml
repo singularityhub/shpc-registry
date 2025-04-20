@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pigpen
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pigpen
 latest:
-  0.0.6--py310ha6fb395_0: sha256:6aca2ecc43a89e420dab5ffc6550a213ee12114c1b150e9a4222d5492dbb89fc
+  0.0.6--pyhdfd78af_1: sha256:5513e9d629e3080a06dc40a50f3d53aadc355271d34c530eec081500a7cbc5f6
 tags:
   0.0.6--py310ha6fb395_0: sha256:6aca2ecc43a89e420dab5ffc6550a213ee12114c1b150e9a4222d5492dbb89fc
+  0.0.6--pyhdfd78af_1: sha256:5513e9d629e3080a06dc40a50f3d53aadc355271d34c530eec081500a7cbc5f6
 docker: quay.io/biocontainers/pigpen
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx

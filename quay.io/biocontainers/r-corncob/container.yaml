@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-corncob
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-corncob
 latest:
-  0.4.1--r44h3342da4_1: sha256:3b983f74173329535d18a6e6756088ff3bb2ee470cbbc1b77073419cf1942ea6
+  0.4.2--r44h3342da4_0: sha256:cc0e89c7a3db13be102d158725881713925a53691af6db903d05ba6bd635f385
 tags:
   0.3.0--r41h3342da4_0: sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8
   0.3.0--r42h3342da4_1: sha256:aa9f89d8deb470c3a89bb99a88e54f345d4cc008e909eea41b92e830bcf25e2f
@@ -12,6 +12,7 @@ tags:
   0.3.2--r43h3342da4_0: sha256:e5e748da79a7032828d11d69b4880d50336e7fdd7aa82e2d6a19c09ef05b1060
   0.4.1--r43h3342da4_0: sha256:c09f937a23d4a910dd09983ed0ede55ceb53a7248cf46a474e0b534e5368fad3
   0.4.1--r44h3342da4_1: sha256:3b983f74173329535d18a6e6756088ff3bb2ee470cbbc1b77073419cf1942ea6
+  0.4.2--r44h3342da4_0: sha256:cc0e89c7a3db13be102d158725881713925a53691af6db903d05ba6bd635f385
 docker: quay.io/biocontainers/r-corncob
 aliases:
   glpsol: /usr/local/bin/glpsol
