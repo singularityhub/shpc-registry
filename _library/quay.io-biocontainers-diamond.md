@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamond/container.yaml"
-updated_at: "2025-04-19 03:11:08.942579"
+updated_at: "2025-04-20 03:23:32.239096"
 latest: "2.1.11--h5ca1c30_1"
 container_url: "https://biocontainers.pro/tools/diamond"
 aliases:

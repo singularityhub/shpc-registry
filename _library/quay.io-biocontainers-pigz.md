@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pigz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pigz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pigz/container.yaml"
-updated_at: "2025-04-19 03:48:18.238446"
+updated_at: "2025-04-20 04:01:05.588079"
 latest: "2.8"
 container_url: "https://biocontainers.pro/tools/pigz"
 aliases:

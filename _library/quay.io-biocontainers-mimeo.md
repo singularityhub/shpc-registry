@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mimeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimeo/container.yaml"
-updated_at: "2025-04-19 03:46:33.996556"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2025-04-20 03:59:19.077721"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimeo"
 aliases:
  - "mimeo-filter"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.1.1--py_2"
  - "1.1.2--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mimeo"
-config: {"url": "https://biocontainers.pro/tools/mimeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimeo", "latest": {"1.1.2--pyhdfd78af_0": "sha256:3ea749e60d87fbd4d1fa00928a5f5c4fbf38d7f81eff4296f8cb7a7c27bfe5b0"}, "tags": {"1.1.1--py_2": "sha256:d00db443efbc3613769c0216db75d254dddcdcb83f85491a829d5fbcdf388dc7", "1.1.2--pyhdfd78af_0": "sha256:3ea749e60d87fbd4d1fa00928a5f5c4fbf38d7f81eff4296f8cb7a7c27bfe5b0"}, "docker": "quay.io/biocontainers/mimeo", "aliases": {"mimeo-filter": "/usr/local/bin/mimeo-filter", "mimeo-map": "/usr/local/bin/mimeo-map", "mimeo-self": "/usr/local/bin/mimeo-self", "mimeo-x": "/usr/local/bin/mimeo-x", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mimeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimeo", "latest": {"1.2.1--pyhdfd78af_0": "sha256:e0f7a51664cea2e967fc5f3a4086e1c988ed357344f6c22af73c35a4052307fe"}, "tags": {"1.1.1--py_2": "sha256:d00db443efbc3613769c0216db75d254dddcdcb83f85491a829d5fbcdf388dc7", "1.1.2--pyhdfd78af_0": "sha256:3ea749e60d87fbd4d1fa00928a5f5c4fbf38d7f81eff4296f8cb7a7c27bfe5b0", "1.2.1--pyhdfd78af_0": "sha256:e0f7a51664cea2e967fc5f3a4086e1c988ed357344f6c22af73c35a4052307fe"}, "docker": "quay.io/biocontainers/mimeo", "aliases": {"mimeo-filter": "/usr/local/bin/mimeo-filter", "mimeo-map": "/usr/local/bin/mimeo-map", "mimeo-self": "/usr/local/bin/mimeo-self", "mimeo-x": "/usr/local/bin/mimeo-x", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimeo.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mimeo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mimeo:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mimeo:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mimeo/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/mimeo/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/mimeo/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mimeo/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

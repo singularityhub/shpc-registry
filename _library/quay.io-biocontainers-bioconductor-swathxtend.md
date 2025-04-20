@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-swathxtend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-swathxtend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-swathxtend/container.yaml"
-updated_at: "2025-04-19 03:37:20.237708"
+updated_at: "2025-04-20 03:50:09.293684"
 latest: "2.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-swathxtend"
 aliases:

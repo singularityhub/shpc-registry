@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytximport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytximport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytximport/container.yaml"
-updated_at: "2025-04-19 03:14:30.887494"
-latest: "0.11.0--pyhdfd78af_0"
+updated_at: "2025-04-20 03:27:00.894665"
+latest: "0.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pytximport"
 aliases:
  - "pytximport"
@@ -41,8 +41,9 @@ versions:
  - "0.10.0--pyhdfd78af_0"
  - "0.9.0--pyhdfd78af_0"
  - "0.11.0--pyhdfd78af_0"
+ - "0.12.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pytximport"
-config: {"url": "https://biocontainers.pro/tools/pytximport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytximport", "latest": {"0.11.0--pyhdfd78af_0": "sha256:4802b17abb6a495123a964c6d44666cf4d726613296a791de8ce00beec69d873"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:0218ce68841d9b3d44bc9e20600a6ec8e3689878c63f4f3131291c040ee7e8d5", "0.7.0--pyhdfd78af_0": "sha256:4f25ab3b9a60f6ca143d3e6f8587de14aaa8774db0b8868a7b34ea1b3c1e8f68", "0.8.0--pyhdfd78af_0": "sha256:79e86b612afdc3fd493feb1870210ad86cde0eb4dae19d01e46e6fa3dcca4364", "0.10.0--pyhdfd78af_0": "sha256:f243a4a6610f58ce3bbe58b01210a9bbb01806b6fef4d1d707bcc64b47c2991f", "0.9.0--pyhdfd78af_0": "sha256:4fd3e8ff2021e6add68fc387e90a9a14f9f76d4daae602dca4584cc42a06fd24", "0.11.0--pyhdfd78af_0": "sha256:4802b17abb6a495123a964c6d44666cf4d726613296a791de8ce00beec69d873"}, "docker": "quay.io/biocontainers/pytximport", "aliases": {"pytximport": "/usr/local/bin/pytximport", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "dask": "/usr/local/bin/dask", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "bokeh": "/usr/local/bin/bokeh", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete"}}
+config: {"url": "https://biocontainers.pro/tools/pytximport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytximport", "latest": {"0.12.0--pyhdfd78af_0": "sha256:adc73155429123c7207ff345118fc92b94bd80204ff6d6087c72a26c91de628b"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:0218ce68841d9b3d44bc9e20600a6ec8e3689878c63f4f3131291c040ee7e8d5", "0.7.0--pyhdfd78af_0": "sha256:4f25ab3b9a60f6ca143d3e6f8587de14aaa8774db0b8868a7b34ea1b3c1e8f68", "0.8.0--pyhdfd78af_0": "sha256:79e86b612afdc3fd493feb1870210ad86cde0eb4dae19d01e46e6fa3dcca4364", "0.10.0--pyhdfd78af_0": "sha256:f243a4a6610f58ce3bbe58b01210a9bbb01806b6fef4d1d707bcc64b47c2991f", "0.9.0--pyhdfd78af_0": "sha256:4fd3e8ff2021e6add68fc387e90a9a14f9f76d4daae602dca4584cc42a06fd24", "0.11.0--pyhdfd78af_0": "sha256:4802b17abb6a495123a964c6d44666cf4d726613296a791de8ce00beec69d873", "0.12.0--pyhdfd78af_0": "sha256:adc73155429123c7207ff345118fc92b94bd80204ff6d6087c72a26c91de628b"}, "docker": "quay.io/biocontainers/pytximport", "aliases": {"pytximport": "/usr/local/bin/pytximport", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "dask": "/usr/local/bin/dask", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "bokeh": "/usr/local/bin/bokeh", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytximport.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/pytximport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytximport:0.11.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pytximport:0.12.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytximport/0.11.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pytximport/0.11.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pytximport/0.12.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pytximport/0.12.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

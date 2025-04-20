@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/commec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/commec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/commec/container.yaml"
-updated_at: "2025-04-19 03:03:55.160819"
-latest: "0.3.2--pyhdfd78af_0"
+updated_at: "2025-04-20 03:15:59.947946"
+latest: "0.3.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/commec"
 aliases:
  - "commec"
@@ -38,8 +38,9 @@ versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_0"
  - "0.3.2--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for commec"
-config: {"url": "https://biocontainers.pro/tools/commec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for commec", "latest": {"0.3.2--pyhdfd78af_0": "sha256:320127777be25bc0f088c4e0d302ba25aa94862714eea2029886e293f917efda"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:661260de7017898c02c752e7f1eed075dc4c341cd929fd7289db332b18cf2252", "0.2.0--pyhdfd78af_0": "sha256:8b7d42c5b872717737bee03d4be6bd8c80d59772fb80c026b62bb64a1bd7284a", "0.3.2--pyhdfd78af_0": "sha256:320127777be25bc0f088c4e0d302ba25aa94862714eea2029886e293f917efda"}, "docker": "quay.io/biocontainers/commec", "aliases": {"commec": "/usr/local/bin/commec", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "taxonkit": "/usr/local/bin/taxonkit", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview", "acdgalaxy": "/usr/local/bin/acdgalaxy", "acdlog": "/usr/local/bin/acdlog", "acdpretty": "/usr/local/bin/acdpretty", "acdtable": "/usr/local/bin/acdtable", "acdtrace": "/usr/local/bin/acdtrace", "acdvalid": "/usr/local/bin/acdvalid", "aligncopy": "/usr/local/bin/aligncopy", "aligncopypair": "/usr/local/bin/aligncopypair", "antigenic": "/usr/local/bin/antigenic", "assemblyget": "/usr/local/bin/assemblyget", "backtranambig": "/usr/local/bin/backtranambig", "backtranseq": "/usr/local/bin/backtranseq", "banana": "/usr/local/bin/banana", "biosed": "/usr/local/bin/biosed", "btwisted": "/usr/local/bin/btwisted"}}
+config: {"url": "https://biocontainers.pro/tools/commec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for commec", "latest": {"0.3.2--pyhdfd78af_1": "sha256:51fe629251349560a50bb21366c65499492a015a4cb1fb0839ad2ebea5e5eacf"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:661260de7017898c02c752e7f1eed075dc4c341cd929fd7289db332b18cf2252", "0.2.0--pyhdfd78af_0": "sha256:8b7d42c5b872717737bee03d4be6bd8c80d59772fb80c026b62bb64a1bd7284a", "0.3.2--pyhdfd78af_0": "sha256:320127777be25bc0f088c4e0d302ba25aa94862714eea2029886e293f917efda", "0.3.2--pyhdfd78af_1": "sha256:51fe629251349560a50bb21366c65499492a015a4cb1fb0839ad2ebea5e5eacf"}, "docker": "quay.io/biocontainers/commec", "aliases": {"commec": "/usr/local/bin/commec", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "taxonkit": "/usr/local/bin/taxonkit", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview", "acdgalaxy": "/usr/local/bin/acdgalaxy", "acdlog": "/usr/local/bin/acdlog", "acdpretty": "/usr/local/bin/acdpretty", "acdtable": "/usr/local/bin/acdtable", "acdtrace": "/usr/local/bin/acdtrace", "acdvalid": "/usr/local/bin/acdvalid", "aligncopy": "/usr/local/bin/aligncopy", "aligncopypair": "/usr/local/bin/aligncopypair", "antigenic": "/usr/local/bin/antigenic", "assemblyget": "/usr/local/bin/assemblyget", "backtranambig": "/usr/local/bin/backtranambig", "backtranseq": "/usr/local/bin/backtranseq", "banana": "/usr/local/bin/banana", "biosed": "/usr/local/bin/biosed", "btwisted": "/usr/local/bin/btwisted"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/commec.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/commec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/commec:0.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/commec:0.3.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/commec/0.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/commec/0.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/commec/0.3.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/commec/0.3.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

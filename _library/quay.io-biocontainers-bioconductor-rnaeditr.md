@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaeditr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaeditr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaeditr/container.yaml"
-updated_at: "2025-04-19 03:22:22.128982"
+updated_at: "2025-04-20 03:35:08.489422"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaeditr"
 
