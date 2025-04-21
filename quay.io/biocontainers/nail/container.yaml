@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nail
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nail
+latest:
+  0.3.0--h4349ce8_0: sha256:54e47136c7445593ec40965b74d74f4473a6a6bac447c8364e1c884960f7d43c
+tags:
+  0.3.0--h4349ce8_0: sha256:54e47136c7445593ec40965b74d74f4473a6a6bac447c8364e1c884960f7d43c
+docker: quay.io/biocontainers/nail
+aliases:
+  nail: /usr/local/bin/nail
