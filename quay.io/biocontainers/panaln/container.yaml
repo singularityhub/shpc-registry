@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/panaln
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panaln
+latest:
+  2.09--h5ca1c30_0: sha256:efd3994a0b6c39b37f56df0c05adf08dd19ccde9887ba5b91c5e2bd46e9925cf
+tags:
+  2.09--h5ca1c30_0: sha256:efd3994a0b6c39b37f56df0c05adf08dd19ccde9887ba5b91c5e2bd46e9925cf
+docker: quay.io/biocontainers/panaln
+aliases:
+  panaln: /usr/local/bin/panaln
