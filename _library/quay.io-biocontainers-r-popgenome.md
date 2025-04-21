@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-popgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-popgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-popgenome/container.yaml"
-updated_at: "2025-04-20 03:51:54.770646"
+updated_at: "2025-04-21 03:52:21.216297"
 latest: "2.7.2--r36h0357c0b_0"
 container_url: "https://biocontainers.pro/tools/r-popgenome"
 aliases:

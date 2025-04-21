@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beaddatapackr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beaddatapackr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beaddatapackr/container.yaml"
-updated_at: "2025-04-20 03:55:18.213224"
+updated_at: "2025-04-21 03:55:37.381887"
 latest: "1.58.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-beaddatapackr"
 

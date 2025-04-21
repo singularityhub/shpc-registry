@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gemma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemma/container.yaml"
-updated_at: "2025-04-20 03:16:11.567095"
-latest: "0.98.3--hb4ccc14_0"
+updated_at: "2025-04-21 03:17:38.204880"
+latest: "0.98.5--ha36d3ea_0"
 container_url: "https://biocontainers.pro/tools/gemma"
 aliases:
  - "gemma"
 versions:
  - "0.98.3--hb4ccc14_0"
+ - "0.98.5--ha36d3ea_0"
 description: "shpc-registry automated BioContainers addition for gemma"
-config: {"url": "https://biocontainers.pro/tools/gemma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemma", "latest": {"0.98.3--hb4ccc14_0": "sha256:a4dc7b706d43d76790238b0d747cfb59161172eef354976847780181d6a09304"}, "tags": {"0.98.3--hb4ccc14_0": "sha256:a4dc7b706d43d76790238b0d747cfb59161172eef354976847780181d6a09304"}, "docker": "quay.io/biocontainers/gemma", "aliases": {"gemma": "/usr/local/bin/gemma"}}
+config: {"url": "https://biocontainers.pro/tools/gemma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemma", "latest": {"0.98.5--ha36d3ea_0": "sha256:be57a212e931caa253ff0769c8924e1bffd5250bc9ba57cd7dc1a0c053e4424c"}, "tags": {"0.98.3--hb4ccc14_0": "sha256:a4dc7b706d43d76790238b0d747cfb59161172eef354976847780181d6a09304", "0.98.5--ha36d3ea_0": "sha256:be57a212e931caa253ff0769c8924e1bffd5250bc9ba57cd7dc1a0c053e4424c"}, "docker": "quay.io/biocontainers/gemma", "aliases": {"gemma": "/usr/local/bin/gemma"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gemma.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gemma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gemma:0.98.3--hb4ccc14_0
+$ shpc install quay.io/biocontainers/gemma:0.98.5--ha36d3ea_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gemma/0.98.3--hb4ccc14_0
-$ module help quay.io/biocontainers/gemma/0.98.3--hb4ccc14_0
+$ module load quay.io/biocontainers/gemma/0.98.5--ha36d3ea_0
+$ module help quay.io/biocontainers/gemma/0.98.5--ha36d3ea_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

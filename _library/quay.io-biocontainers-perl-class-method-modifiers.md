@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-method-modifiers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-method-modifiers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-method-modifiers/container.yaml"
-updated_at: "2025-04-20 03:39:43.531818"
+updated_at: "2025-04-21 03:40:35.782988"
 latest: "2.13--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-class-method-modifiers"
 aliases:

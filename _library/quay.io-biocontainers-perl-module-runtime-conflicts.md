@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-runtime-conflicts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-runtime-conflicts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-runtime-conflicts/container.yaml"
-updated_at: "2025-04-20 03:23:59.928082"
+updated_at: "2025-04-21 03:25:16.145419"
 latest: "0.003--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-module-runtime-conflicts"
 aliases:

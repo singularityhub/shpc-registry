@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mapad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapad/container.yaml"
-updated_at: "2025-04-20 03:26:31.310753"
-latest: "0.43.0--ha96b9cd_1"
+updated_at: "2025-04-21 03:27:45.320648"
+latest: "0.44.1--ha96b9cd_0"
 container_url: "https://biocontainers.pro/tools/mapad"
 aliases:
  - "mapad"
@@ -15,8 +15,9 @@ versions:
  - "0.42.1--hc9368f3_2"
  - "0.43.0--hc9368f3_0"
  - "0.43.0--ha96b9cd_1"
+ - "0.44.1--ha96b9cd_0"
 description: "singularity registry hpc automated addition for mapad"
-config: {"url": "https://biocontainers.pro/tools/mapad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mapad", "latest": {"0.43.0--ha96b9cd_1": "sha256:b37d4017610742eb03af3ef82348e227b0a75832a74b85f9414a035347ee2473"}, "tags": {"0.41.0--h21d3286_0": "sha256:56e55958c6d4c8c2d71e5ee50d57031efc20ea6a056d729d8d52f1fc9f45636d", "0.42.1--h21d3286_0": "sha256:4b768302a111ee3b7a4c627ef356d1162f82e09ba7408d66190d9368a8f49ff2", "0.42.1--hc9368f3_2": "sha256:33f09242d5bfb7899ea44cc67efbf628cef64cecb4b116de52eb66e10998cbf6", "0.43.0--hc9368f3_0": "sha256:a28ebe78522dc05a1e17d8a3c027f08f72f4f114a5bc07be56f3cebaef96bbe3", "0.43.0--ha96b9cd_1": "sha256:b37d4017610742eb03af3ef82348e227b0a75832a74b85f9414a035347ee2473"}, "docker": "quay.io/biocontainers/mapad", "aliases": {"mapad": "/usr/local/bin/mapad"}}
+config: {"url": "https://biocontainers.pro/tools/mapad", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mapad", "latest": {"0.44.1--ha96b9cd_0": "sha256:4d668ca759d5c44bff906b29a6eb5a5695459203ff8e6c7cb2a203abb5a2adf0"}, "tags": {"0.41.0--h21d3286_0": "sha256:56e55958c6d4c8c2d71e5ee50d57031efc20ea6a056d729d8d52f1fc9f45636d", "0.42.1--h21d3286_0": "sha256:4b768302a111ee3b7a4c627ef356d1162f82e09ba7408d66190d9368a8f49ff2", "0.42.1--hc9368f3_2": "sha256:33f09242d5bfb7899ea44cc67efbf628cef64cecb4b116de52eb66e10998cbf6", "0.43.0--hc9368f3_0": "sha256:a28ebe78522dc05a1e17d8a3c027f08f72f4f114a5bc07be56f3cebaef96bbe3", "0.43.0--ha96b9cd_1": "sha256:b37d4017610742eb03af3ef82348e227b0a75832a74b85f9414a035347ee2473", "0.44.1--ha96b9cd_0": "sha256:4d668ca759d5c44bff906b29a6eb5a5695459203ff8e6c7cb2a203abb5a2adf0"}, "docker": "quay.io/biocontainers/mapad", "aliases": {"mapad": "/usr/local/bin/mapad"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapad.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mapad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapad:0.43.0--ha96b9cd_1
+$ shpc install quay.io/biocontainers/mapad:0.44.1--ha96b9cd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapad/0.43.0--ha96b9cd_1
-$ module help quay.io/biocontainers/mapad/0.43.0--ha96b9cd_1
+$ module load quay.io/biocontainers/mapad/0.44.1--ha96b9cd_0
+$ module help quay.io/biocontainers/mapad/0.44.1--ha96b9cd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

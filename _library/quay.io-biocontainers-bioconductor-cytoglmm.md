@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytoglmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytoglmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytoglmm/container.yaml"
-updated_at: "2025-04-20 03:10:36.242179"
+updated_at: "2025-04-21 03:12:08.835071"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytoglmm"
 

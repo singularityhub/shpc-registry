@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgscatalog-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgscatalog-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgscatalog-utils/container.yaml"
-updated_at: "2025-04-20 03:59:29.736997"
+updated_at: "2025-04-21 03:59:36.890940"
 latest: "1.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgscatalog-utils"
 aliases:
