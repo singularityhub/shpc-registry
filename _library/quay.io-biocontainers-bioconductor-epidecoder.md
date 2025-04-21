@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epidecoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epidecoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epidecoder/container.yaml"
-updated_at: "2025-04-21 03:39:00.015597"
+updated_at: "2025-04-21 04:58:44.270454"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epidecoder"
 

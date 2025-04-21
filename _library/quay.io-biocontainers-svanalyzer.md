@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svanalyzer/container.yaml"
-updated_at: "2025-04-21 03:47:03.207416"
+updated_at: "2025-04-21 05:07:18.682209"
 latest: "0.36--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/svanalyzer"
 aliases:

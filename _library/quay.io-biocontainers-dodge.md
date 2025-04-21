@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dodge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dodge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dodge/container.yaml"
-updated_at: "2025-04-21 03:50:04.533856"
+updated_at: "2025-04-21 05:10:30.675482"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dodge"
 aliases:

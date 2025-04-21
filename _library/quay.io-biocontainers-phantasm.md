@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phantasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phantasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phantasm/container.yaml"
-updated_at: "2025-04-21 03:28:29.243842"
+updated_at: "2025-04-21 04:47:32.385679"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phantasm"
 aliases:

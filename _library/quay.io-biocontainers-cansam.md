@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cansam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cansam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cansam/container.yaml"
-updated_at: "2025-04-21 03:51:50.603169"
+updated_at: "2025-04-21 05:12:24.186147"
 latest: "3489bc1--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/cansam"
 aliases:

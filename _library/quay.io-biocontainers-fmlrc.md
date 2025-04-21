@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fmlrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fmlrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fmlrc/container.yaml"
-updated_at: "2025-04-21 03:53:51.964762"
+updated_at: "2025-04-21 05:14:32.054066"
 latest: "1.0.0--h9948957_6"
 container_url: "https://biocontainers.pro/tools/fmlrc"
 
