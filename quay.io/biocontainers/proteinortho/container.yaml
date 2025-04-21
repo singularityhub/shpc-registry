@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/proteinortho
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for proteinortho
 latest:
-  6.3.4--h749629c_1: sha256:a4e3722ed1ac2737d36296aa626b9faeba5b91d5c19b7dc7add50b9c9da241b5
+  6.3.5--h749629c_0: sha256:886bf2f1771e617ea05603436d35b88f4d472af97d863f465ad4471cc5220c4a
 tags:
   6.1.1--hedee03e_0: sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc
   6.3.1--h70414c8_0: sha256:c302c1030c6bb77ed2fcb22d18cdd6aaef30ef6cba3eff3ba6fe8015724f2957
@@ -12,6 +12,7 @@ tags:
   6.3.3--h70414c8_0: sha256:d174dbad0bf924323f7c5c4eb6d8c27820fbd32a25ee03916e58ed8a89bf1744
   6.3.4--h749629c_0: sha256:99e4abc629b24eda578d9fffc845348ae3f56d637e63c81e1c624470dbf9b607
   6.3.4--h749629c_1: sha256:a4e3722ed1ac2737d36296aa626b9faeba5b91d5c19b7dc7add50b9c9da241b5
+  6.3.5--h749629c_0: sha256:886bf2f1771e617ea05603436d35b88f4d472af97d863f465ad4471cc5220c4a
 docker: quay.io/biocontainers/proteinortho
 aliases:
   proteinortho: /usr/local/bin/proteinortho
