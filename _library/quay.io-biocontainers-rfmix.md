@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rfmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rfmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rfmix/container.yaml"
-updated_at: "2025-04-21 04:33:49.234967"
+updated_at: "2025-04-22 03:08:47.005922"
 latest: "2.03.r0.9505bfa--h503566f_6"
 container_url: "https://biocontainers.pro/tools/rfmix"
 aliases:

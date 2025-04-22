@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cortexpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cortexpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cortexpy/container.yaml"
-updated_at: "2025-04-21 05:02:53.007674"
+updated_at: "2025-04-22 03:35:54.349728"
 latest: "0.46.5--py38h9948957_6"
 container_url: "https://biocontainers.pro/tools/cortexpy"
 aliases:

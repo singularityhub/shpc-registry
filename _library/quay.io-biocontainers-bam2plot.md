@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bam2plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam2plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam2plot/container.yaml"
-updated_at: "2025-04-21 05:21:49.775069"
-latest: "0.3.6--pyhdfd78af_0"
+updated_at: "2025-04-22 03:53:48.314011"
+latest: "0.3.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bam2plot"
 aliases:
  - "bam2plot"
@@ -40,8 +40,9 @@ aliases:
  - "gflags_completions.sh"
 versions:
  - "0.3.6--pyhdfd78af_0"
+ - "0.3.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bam2plot"
-config: {"url": "https://biocontainers.pro/tools/bam2plot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bam2plot", "latest": {"0.3.6--pyhdfd78af_0": "sha256:f0e9c4fb20d6180c3f0cf82f78f72dc7b5c160835e35eb52aba20e39ab18fc37"}, "tags": {"0.3.6--pyhdfd78af_0": "sha256:f0e9c4fb20d6180c3f0cf82f78f72dc7b5c160835e35eb52aba20e39ab18fc37"}, "docker": "quay.io/biocontainers/bam2plot", "aliases": {"bam2plot": "/usr/local/bin/bam2plot", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "mosdepth": "/usr/local/bin/mosdepth", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "pyfastx": "/usr/local/bin/pyfastx", "minimap2.py": "/usr/local/bin/minimap2.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "annot-tsv": "/usr/local/bin/annot-tsv", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "numpy-config": "/usr/local/bin/numpy-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bam2plot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bam2plot", "latest": {"0.3.7--pyhdfd78af_0": "sha256:995793b2768ae3ac742f9b4857bb23a5aa34ca3c1a3e78d301c9b77c6ded32ec"}, "tags": {"0.3.6--pyhdfd78af_0": "sha256:f0e9c4fb20d6180c3f0cf82f78f72dc7b5c160835e35eb52aba20e39ab18fc37", "0.3.7--pyhdfd78af_0": "sha256:995793b2768ae3ac742f9b4857bb23a5aa34ca3c1a3e78d301c9b77c6ded32ec"}, "docker": "quay.io/biocontainers/bam2plot", "aliases": {"bam2plot": "/usr/local/bin/bam2plot", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "mosdepth": "/usr/local/bin/mosdepth", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "pyfastx": "/usr/local/bin/pyfastx", "minimap2.py": "/usr/local/bin/minimap2.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "annot-tsv": "/usr/local/bin/annot-tsv", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "numpy-config": "/usr/local/bin/numpy-config", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bam2plot.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/bam2plot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bam2plot:0.3.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bam2plot:0.3.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bam2plot/0.3.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/bam2plot/0.3.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/bam2plot/0.3.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/bam2plot/0.3.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
