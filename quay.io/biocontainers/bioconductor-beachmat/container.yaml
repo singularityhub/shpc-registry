@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-beachmat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-beachmat
 latest:
-  2.22.0--r44he5774e6_0: sha256:5e16ee0bb1329ed809f9209bbd96953f426851c4a7c16a9415921311a791bd83
+  2.22.0--r44he5774e6_1: sha256:b84de5a5479d0a1289e4c0ef7cfebfd28d39a71ab838b9db98a895d23033c5aa
 tags:
   2.8.0--r41h399db7b_0: sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927
   2.14.0--r42hc247a5b_0: sha256:f24cbf0d202ad3a5091f8c0cb35440f57c83880ff5757d01ac52c9acf0bd75db
@@ -12,6 +12,7 @@ tags:
   2.18.0--r43hf17093f_0: sha256:5d574ad397dd99f7a3c7e595c50ec852ae3461a04d89c74f79fd09a501e70a8f
   2.18.0--r43hf17093f_1: sha256:cfdc4f1d75a4ff8090d4fe6b49bc295fea50d717b447f2609b285aac82700366
   2.22.0--r44he5774e6_0: sha256:5e16ee0bb1329ed809f9209bbd96953f426851c4a7c16a9415921311a791bd83
+  2.22.0--r44he5774e6_1: sha256:b84de5a5479d0a1289e4c0ef7cfebfd28d39a71ab838b9db98a895d23033c5aa
 docker: quay.io/biocontainers/bioconductor-beachmat
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

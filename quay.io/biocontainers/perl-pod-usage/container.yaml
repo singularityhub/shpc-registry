@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-pod-usage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-pod-usage
 latest:
-  2.03--pl5321hdfd78af_0: sha256:c370cb5ab7e47154d495bacc597962bf6d11aaf666d1d119f0f302d57810125d
+  2.05--pl5321hdfd78af_0: sha256:09834b33d5ee78e71fb73f2e288742901ae6fec2f8026dd3f9e5a562cf38a7c7
 tags:
   2.03--pl5321hdfd78af_0: sha256:c370cb5ab7e47154d495bacc597962bf6d11aaf666d1d119f0f302d57810125d
+  2.05--pl5321hdfd78af_0: sha256:09834b33d5ee78e71fb73f2e288742901ae6fec2f8026dd3f9e5a562cf38a7c7
 docker: quay.io/biocontainers/perl-pod-usage
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

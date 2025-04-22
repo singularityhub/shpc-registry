@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/doubletdetection
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for doubletdetection
 latest:
-  4.2--pyhdfd78af_0: sha256:0464c5326cdc492273f0b97da835242445e9ab1138f6161bb7dd7844527cec12
+  4.3.0.post1--pyhdfd78af_0: sha256:3b8bdc473d926e43d58eba1994b36130bc318be5a094c0d0131f80645a22cda3
 tags:
   4.2--pyhdfd78af_0: sha256:0464c5326cdc492273f0b97da835242445e9ab1138f6161bb7dd7844527cec12
+  4.3.0.post1--pyhdfd78af_0: sha256:3b8bdc473d926e43d58eba1994b36130bc318be5a094c0d0131f80645a22cda3
 docker: quay.io/biocontainers/doubletdetection
 aliases:
   qconvex: /usr/local/bin/qconvex

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/perl-namespace-autoclean
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-namespace-autoclean
 latest:
-  0.31--pl5321h9948957_1: sha256:4b9042fc14b82ea1e65de9881babc54a2c6d90ec6acac29a64579e7a371d51cb
+  0.31--pl5321h9948957_2: sha256:73d8c615478a5e5b9513aeb7768eded95b10f329675202b179b7fef0f1afaaeb
 tags:
   0.29--pl5321h9f5acd7_1: sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba
   0.29--pl5321h4ac6f70_2: sha256:bccd791a30e197e8088a8deeccee28b0058c338b024c7121f381ed24978e9bb6
   0.31--pl5321h4ac6f70_0: sha256:9e51180781af709273d6aa704ef78673185904a0dd07a8bc3a17a2265bc96fdd
   0.31--pl5321h9948957_1: sha256:4b9042fc14b82ea1e65de9881babc54a2c6d90ec6acac29a64579e7a371d51cb
+  0.31--pl5321h9948957_2: sha256:73d8c615478a5e5b9513aeb7768eded95b10f329675202b179b7fef0f1afaaeb
 docker: quay.io/biocontainers/perl-namespace-autoclean
 aliases:
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
