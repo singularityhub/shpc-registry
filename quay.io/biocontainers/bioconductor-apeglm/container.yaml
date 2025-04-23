@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-apeglm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-apeglm
 latest:
-  1.28.0--r44he5774e6_0: sha256:5fb87382f3d02978d2c03849c4f8ccc201ca50313b16876c6c1fd29219ecce59
+  1.28.0--r44he5774e6_1: sha256:0ab3e97e2fd56b43fa22a2b207a9b634cfc34a0583f600a60523213aabbe68f9
 tags:
   1.8.0--r36he1b5a44_0: sha256:a456ba3aaeca914384d1434113b183100f81f8e6f0b23b57733c09fedbdf18fc
   1.20.0--r42hc247a5b_0: sha256:e64fde9ccf4db404b61b98db2ff6544fc345fc23970e75ce3809a78b6992f8f4
@@ -15,6 +15,7 @@ tags:
   1.24.0--r43hf17093f_0: sha256:b15689171879341c54568116e90a3717bd440aa85dea3c1618c62efb9beca1cb
   1.24.0--r43hf17093f_1: sha256:02dfd9ee511c70a4db5f4e0553bbf0309a832c74e5be707f748bbbe75f9bf611
   1.28.0--r44he5774e6_0: sha256:5fb87382f3d02978d2c03849c4f8ccc201ca50313b16876c6c1fd29219ecce59
+  1.28.0--r44he5774e6_1: sha256:0ab3e97e2fd56b43fa22a2b207a9b634cfc34a0583f600a60523213aabbe68f9
 docker: quay.io/biocontainers/bioconductor-apeglm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

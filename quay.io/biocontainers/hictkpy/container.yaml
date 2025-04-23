@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hictkpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hictkpy
 latest:
-  1.1.0--py310h9424a8c_0: sha256:68260dbce28a0bf027aaf361138a56b8ab5e4b44543f5fa2af16e95c550fec01
+  1.2.0--py39hb9d4efe_1: sha256:4d03ec6dc0548613d25f9770db68672cbddd952511a591b3e7e155962858092c
 tags:
   0.0.1--py38hafe3835_0: sha256:ff89d95ef07f27160a713ac61d2e2cf5b797adbe2fadbd83783e4a8a5c757090
   0.0.2--py310hb552151_0: sha256:9505f468b45e1a21c5ade758a564860288af2afed0978531788d3f57af6627e2
@@ -13,6 +13,7 @@ tags:
   0.0.5--py310h5382ae6_2: sha256:0c0229755697ff3edfe4188d4c1b7c1d4a35d846137387390d93bc3d5a721607
   1.0.0--py310h9424a8c_0: sha256:8d41f68a2941eb7637ebba30df3ac712bdc58d5d9bd239aae507bd6e16e5cdc2
   1.1.0--py310h9424a8c_0: sha256:68260dbce28a0bf027aaf361138a56b8ab5e4b44543f5fa2af16e95c550fec01
+  1.2.0--py39hb9d4efe_1: sha256:4d03ec6dc0548613d25f9770db68672cbddd952511a591b3e7e155962858092c
 docker: quay.io/biocontainers/hictkpy
 aliases:
   h5delete: /usr/local/bin/h5delete

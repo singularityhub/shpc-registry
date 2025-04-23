@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/msoma
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msoma
 latest:
-  0.1.0--pyhdfd78af_0: sha256:b95386a3f3e31bd2edf992e9ffc026894d5aca9978ac2dc099abcd99fac0bde1
+  0.1.2--pyhdfd78af_0: sha256:0dbe15c22c496c1131bcdb3811bdc5363484d49a3a223adae7f3da54f017f04d
 tags:
   0.1.0--pyhdfd78af_0: sha256:b95386a3f3e31bd2edf992e9ffc026894d5aca9978ac2dc099abcd99fac0bde1
+  0.1.2--pyhdfd78af_0: sha256:0dbe15c22c496c1131bcdb3811bdc5363484d49a3a223adae7f3da54f017f04d
 docker: quay.io/biocontainers/msoma
 aliases:
   bam: /usr/local/bin/bam
