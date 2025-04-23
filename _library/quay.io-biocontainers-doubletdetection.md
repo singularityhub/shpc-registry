@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/doubletdetection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doubletdetection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doubletdetection/container.yaml"
-updated_at: "2025-04-22 03:47:55.605589"
-latest: "4.2--pyhdfd78af_0"
+updated_at: "2025-04-23 03:46:45.386808"
+latest: "4.3.0.post1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/doubletdetection"
 aliases:
  - "qconvex"
@@ -35,8 +35,9 @@ aliases:
  - "lstopo-no-graphics"
 versions:
  - "4.2--pyhdfd78af_0"
+ - "4.3.0.post1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for doubletdetection"
-config: {"url": "https://biocontainers.pro/tools/doubletdetection", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for doubletdetection", "latest": {"4.2--pyhdfd78af_0": "sha256:0464c5326cdc492273f0b97da835242445e9ab1138f6161bb7dd7844527cec12"}, "tags": {"4.2--pyhdfd78af_0": "sha256:0464c5326cdc492273f0b97da835242445e9ab1138f6161bb7dd7844527cec12"}, "docker": "quay.io/biocontainers/doubletdetection", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "igraph": "/usr/local/bin/igraph", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
+config: {"url": "https://biocontainers.pro/tools/doubletdetection", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for doubletdetection", "latest": {"4.3.0.post1--pyhdfd78af_0": "sha256:3b8bdc473d926e43d58eba1994b36130bc318be5a094c0d0131f80645a22cda3"}, "tags": {"4.2--pyhdfd78af_0": "sha256:0464c5326cdc492273f0b97da835242445e9ab1138f6161bb7dd7844527cec12", "4.3.0.post1--pyhdfd78af_0": "sha256:3b8bdc473d926e43d58eba1994b36130bc318be5a094c0d0131f80645a22cda3"}, "docker": "quay.io/biocontainers/doubletdetection", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "igraph": "/usr/local/bin/igraph", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/doubletdetection.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/doubletdetection
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/doubletdetection:4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/doubletdetection:4.3.0.post1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/doubletdetection/4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/doubletdetection/4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/doubletdetection/4.3.0.post1--pyhdfd78af_0
+$ module help quay.io/biocontainers/doubletdetection/4.3.0.post1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

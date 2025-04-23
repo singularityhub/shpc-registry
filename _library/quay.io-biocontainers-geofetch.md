@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geofetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geofetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geofetch/container.yaml"
-updated_at: "2025-04-22 03:52:06.414295"
+updated_at: "2025-04-23 03:56:07.821958"
 latest: "0.12.7--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/geofetch"
 aliases:

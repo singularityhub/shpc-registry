@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snippy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snippy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snippy/container.yaml"
-updated_at: "2025-04-22 03:34:01.347107"
-latest: "4.6.0--hdfd78af_5"
+updated_at: "2025-04-23 03:30:28.423576"
+latest: "4.6.0--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/snippy"
 aliases:
  - "sam_add_rg.pl"
@@ -33,8 +33,9 @@ versions:
  - "4.6.0--hdfd78af_3"
  - "4.6.0--hdfd78af_4"
  - "4.6.0--hdfd78af_5"
+ - "4.6.0--hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for snippy"
-config: {"url": "https://biocontainers.pro/tools/snippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snippy", "latest": {"4.6.0--hdfd78af_5": "sha256:8dd6c531dcadb7cb9dd2d4efc756b3859099c69e2ff9bcd469b8f1131121f2d9"}, "tags": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70", "4.6.0--hdfd78af_3": "sha256:9495647055257f5ed6c5ad1b53faced942c788aa755c298e87bb8536d6b59cfc", "4.6.0--hdfd78af_4": "sha256:3324d693964f7f3985cc92ebd9d8fcded8a41f6224093481f2cb1378836cb055", "4.6.0--hdfd78af_5": "sha256:8dd6c531dcadb7cb9dd2d4efc756b3859099c69e2ff9bcd469b8f1131121f2d9"}, "docker": "quay.io/biocontainers/snippy", "aliases": {"sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "snippy": "/usr/local/bin/snippy", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-core": "/usr/local/bin/snippy-core", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "snp-sites": "/usr/local/bin/snp-sites", "vt": "/usr/local/bin/vt", "tabix++": "/usr/local/bin/tabix++", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py"}}
+config: {"url": "https://biocontainers.pro/tools/snippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snippy", "latest": {"4.6.0--hdfd78af_6": "sha256:33066dd32d9548a098552925a652b967b0bd4d3e9a65239210cc7f9360dd5e45"}, "tags": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70", "4.6.0--hdfd78af_3": "sha256:9495647055257f5ed6c5ad1b53faced942c788aa755c298e87bb8536d6b59cfc", "4.6.0--hdfd78af_4": "sha256:3324d693964f7f3985cc92ebd9d8fcded8a41f6224093481f2cb1378836cb055", "4.6.0--hdfd78af_5": "sha256:8dd6c531dcadb7cb9dd2d4efc756b3859099c69e2ff9bcd469b8f1131121f2d9", "4.6.0--hdfd78af_6": "sha256:33066dd32d9548a098552925a652b967b0bd4d3e9a65239210cc7f9360dd5e45"}, "docker": "quay.io/biocontainers/snippy", "aliases": {"sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "snippy": "/usr/local/bin/snippy", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-core": "/usr/local/bin/snippy-core", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "snp-sites": "/usr/local/bin/snp-sites", "vt": "/usr/local/bin/vt", "tabix++": "/usr/local/bin/tabix++", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snippy.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/snippy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snippy:4.6.0--hdfd78af_5
+$ shpc install quay.io/biocontainers/snippy:4.6.0--hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snippy/4.6.0--hdfd78af_5
-$ module help quay.io/biocontainers/snippy/4.6.0--hdfd78af_5
+$ module load quay.io/biocontainers/snippy/4.6.0--hdfd78af_6
+$ module help quay.io/biocontainers/snippy/4.6.0--hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

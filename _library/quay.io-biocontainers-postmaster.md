@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/postmaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/postmaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/postmaster/container.yaml"
-updated_at: "2025-04-22 03:45:10.558847"
-latest: "0.1.0--ha6fb395_0"
+updated_at: "2025-04-23 03:32:28.188977"
+latest: "0.1.0--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/postmaster"
 aliases:
  - "postmaster"
 versions:
  - "0.1.0--ha6fb395_0"
+ - "0.1.0--ha6fb395_1"
 description: "singularity registry hpc automated addition for postmaster"
-config: {"url": "https://biocontainers.pro/tools/postmaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for postmaster", "latest": {"0.1.0--ha6fb395_0": "sha256:4d5d721df3f89ff964d9031eb183e443d898d5b1cb02d635b5232660a9aa88b9"}, "tags": {"0.1.0--ha6fb395_0": "sha256:4d5d721df3f89ff964d9031eb183e443d898d5b1cb02d635b5232660a9aa88b9"}, "docker": "quay.io/biocontainers/postmaster", "aliases": {"postmaster": "/usr/local/bin/postmaster"}}
+config: {"url": "https://biocontainers.pro/tools/postmaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for postmaster", "latest": {"0.1.0--ha6fb395_1": "sha256:78dabf12f500b69656bf6abf39687ba1441f4cdb0e533a73505531d6b3051028"}, "tags": {"0.1.0--ha6fb395_0": "sha256:4d5d721df3f89ff964d9031eb183e443d898d5b1cb02d635b5232660a9aa88b9", "0.1.0--ha6fb395_1": "sha256:78dabf12f500b69656bf6abf39687ba1441f4cdb0e533a73505531d6b3051028"}, "docker": "quay.io/biocontainers/postmaster", "aliases": {"postmaster": "/usr/local/bin/postmaster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/postmaster.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/postmaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/postmaster:0.1.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/postmaster:0.1.0--ha6fb395_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/postmaster/0.1.0--ha6fb395_0
-$ module help quay.io/biocontainers/postmaster/0.1.0--ha6fb395_0
+$ module load quay.io/biocontainers/postmaster/0.1.0--ha6fb395_1
+$ module help quay.io/biocontainers/postmaster/0.1.0--ha6fb395_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

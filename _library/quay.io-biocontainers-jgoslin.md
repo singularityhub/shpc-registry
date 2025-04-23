@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jgoslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jgoslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jgoslin/container.yaml"
-updated_at: "2025-04-22 03:26:08.257683"
+updated_at: "2025-04-23 03:09:32.968945"
 latest: "2.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jgoslin"
 aliases:

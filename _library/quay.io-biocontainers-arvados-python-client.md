@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arvados-python-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arvados-python-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arvados-python-client/container.yaml"
-updated_at: "2025-04-22 03:20:12.882609"
+updated_at: "2025-04-23 03:48:10.153671"
 latest: "3.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arvados-python-client"
 aliases:

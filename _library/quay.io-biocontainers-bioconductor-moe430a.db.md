@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moe430a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moe430a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moe430a.db/container.yaml"
-updated_at: "2025-04-22 03:15:37.833097"
+updated_at: "2025-04-23 03:39:42.086155"
 latest: "3.13.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-moe430a.db"
 aliases:

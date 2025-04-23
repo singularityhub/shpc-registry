@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-massarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massarray/container.yaml"
-updated_at: "2025-04-22 03:16:56.928169"
+updated_at: "2025-04-23 03:44:21.822299"
 latest: "1.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-massarray"
 

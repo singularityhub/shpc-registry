@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mypmfs_py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mypmfs_py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mypmfs_py/container.yaml"
-updated_at: "2025-04-22 03:09:57.836631"
-latest: "0.1.7--pyhdfd78af_0"
+updated_at: "2025-04-23 03:49:54.516523"
+latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mypmfs_py"
 aliases:
  - "mypmfs_py"
@@ -15,8 +15,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "0.1.7--pyhdfd78af_0"
+ - "0.1.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mypmfs_py"
-config: {"url": "https://biocontainers.pro/tools/mypmfs_py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mypmfs_py", "latest": {"0.1.7--pyhdfd78af_0": "sha256:30cee1ca9a79df5ab402309abe273ba54d51040abf674382b44a6865f2ff46de"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:30cee1ca9a79df5ab402309abe273ba54d51040abf674382b44a6865f2ff46de"}, "docker": "quay.io/biocontainers/mypmfs_py", "aliases": {"mypmfs_py": "/usr/local/bin/mypmfs_py", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/mypmfs_py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mypmfs_py", "latest": {"0.1.8--pyhdfd78af_0": "sha256:74807605cff9f91f6e95428daed4354799c81df247e269680257ae20cd6e1a23"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:30cee1ca9a79df5ab402309abe273ba54d51040abf674382b44a6865f2ff46de", "0.1.8--pyhdfd78af_0": "sha256:74807605cff9f91f6e95428daed4354799c81df247e269680257ae20cd6e1a23"}, "docker": "quay.io/biocontainers/mypmfs_py", "aliases": {"mypmfs_py": "/usr/local/bin/mypmfs_py", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mypmfs_py.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mypmfs_py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mypmfs_py:0.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mypmfs_py:0.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mypmfs_py/0.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/mypmfs_py/0.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/mypmfs_py/0.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/mypmfs_py/0.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
