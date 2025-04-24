@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metatree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metatree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metatree/container.yaml"
-updated_at: "2025-04-23 03:34:57.255023"
+updated_at: "2025-04-24 03:36:11.345480"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/metatree"
 aliases:

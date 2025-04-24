@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msoma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msoma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msoma/container.yaml"
-updated_at: "2025-04-23 03:12:56.740271"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2025-04-24 03:14:32.544035"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msoma"
 aliases:
  - "bam"
@@ -37,8 +37,9 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for msoma"
-config: {"url": "https://biocontainers.pro/tools/msoma", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msoma", "latest": {"0.1.0--pyhdfd78af_0": "sha256:b95386a3f3e31bd2edf992e9ffc026894d5aca9978ac2dc099abcd99fac0bde1"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:b95386a3f3e31bd2edf992e9ffc026894d5aca9978ac2dc099abcd99fac0bde1"}, "docker": "quay.io/biocontainers/msoma", "aliases": {"bam": "/usr/local/bin/bam", "msoma": "/usr/local/bin/msoma", "pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc-server": "/usr/local/bin/pandoc-server", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/msoma", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msoma", "latest": {"0.1.2--pyhdfd78af_0": "sha256:0dbe15c22c496c1131bcdb3811bdc5363484d49a3a223adae7f3da54f017f04d"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:b95386a3f3e31bd2edf992e9ffc026894d5aca9978ac2dc099abcd99fac0bde1", "0.1.2--pyhdfd78af_0": "sha256:0dbe15c22c496c1131bcdb3811bdc5363484d49a3a223adae7f3da54f017f04d"}, "docker": "quay.io/biocontainers/msoma", "aliases": {"bam": "/usr/local/bin/bam", "msoma": "/usr/local/bin/msoma", "pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc-server": "/usr/local/bin/pandoc-server", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msoma.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/msoma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msoma:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/msoma:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msoma/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/msoma/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/msoma/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/msoma/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

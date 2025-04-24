@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas/container.yaml"
-updated_at: "2025-04-23 03:16:36.969092"
-latest: "2.0.0--h48c1dbe_3"
+updated_at: "2025-04-24 03:18:09.713896"
+latest: "2.0.0--hbb3d6a8_5"
 container_url: "https://biocontainers.pro/tools/atlas"
 aliases:
  - "atlas"
@@ -16,8 +16,9 @@ versions:
  - "2.0.0--h48c1dbe_1"
  - "2.0.0--h48c1dbe_2"
  - "2.0.0--h48c1dbe_3"
+ - "2.0.0--hbb3d6a8_5"
 description: "shpc-registry automated BioContainers addition for atlas"
-config: {"url": "https://biocontainers.pro/tools/atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atlas", "latest": {"2.0.0--h48c1dbe_3": "sha256:2513f94d98f5bdcfc22516d490964ae4e567977cd81bbaaf53d050810c7d3ffa"}, "tags": {"0.9.9--h42556f1_1": "sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383", "0.9.9--h0bf65d5_3": "sha256:a67db52475ff46c2debb1eb5704f001b1e1130aeca1d12ceb8ed6884d78e50a1", "2.0.0--h523fec3_0": "sha256:76e66fb197ec9cc664427d47650c891b14ce2ba87a14396a68fa6122ba6d449c", "2.0.0--h48c1dbe_1": "sha256:7bc2d77ea409ce6d49e2434d2acc82f5787384942e13a1cc87319d8eb522322b", "2.0.0--h48c1dbe_2": "sha256:f441ef01f768c0918e3e71610f2f39191133ef394bcef02089e6d4420799e5dc", "2.0.0--h48c1dbe_3": "sha256:2513f94d98f5bdcfc22516d490964ae4e567977cd81bbaaf53d050810c7d3ffa"}, "docker": "quay.io/biocontainers/atlas", "aliases": {"atlas": "/usr/local/bin/atlas"}}
+config: {"url": "https://biocontainers.pro/tools/atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atlas", "latest": {"2.0.0--hbb3d6a8_5": "sha256:f6917b3182de0ea0d4de3b68bfd13a9360b29573b3a7b01c3d934f3e30322c6e"}, "tags": {"0.9.9--h42556f1_1": "sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383", "0.9.9--h0bf65d5_3": "sha256:a67db52475ff46c2debb1eb5704f001b1e1130aeca1d12ceb8ed6884d78e50a1", "2.0.0--h523fec3_0": "sha256:76e66fb197ec9cc664427d47650c891b14ce2ba87a14396a68fa6122ba6d449c", "2.0.0--h48c1dbe_1": "sha256:7bc2d77ea409ce6d49e2434d2acc82f5787384942e13a1cc87319d8eb522322b", "2.0.0--h48c1dbe_2": "sha256:f441ef01f768c0918e3e71610f2f39191133ef394bcef02089e6d4420799e5dc", "2.0.0--h48c1dbe_3": "sha256:2513f94d98f5bdcfc22516d490964ae4e567977cd81bbaaf53d050810c7d3ffa", "2.0.0--hbb3d6a8_5": "sha256:f6917b3182de0ea0d4de3b68bfd13a9360b29573b3a7b01c3d934f3e30322c6e"}, "docker": "quay.io/biocontainers/atlas", "aliases": {"atlas": "/usr/local/bin/atlas"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atlas.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/atlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atlas:2.0.0--h48c1dbe_3
+$ shpc install quay.io/biocontainers/atlas:2.0.0--hbb3d6a8_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atlas/2.0.0--h48c1dbe_3
-$ module help quay.io/biocontainers/atlas/2.0.0--h48c1dbe_3
+$ module load quay.io/biocontainers/atlas/2.0.0--hbb3d6a8_5
+$ module help quay.io/biocontainers/atlas/2.0.0--hbb3d6a8_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

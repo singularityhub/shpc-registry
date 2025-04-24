@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coral/container.yaml"
-updated_at: "2025-04-23 03:36:50.654584"
+updated_at: "2025-04-24 03:38:02.829883"
 latest: "1.0.0--hf5e1fbb_1"
 container_url: "https://biocontainers.pro/tools/coral"
 aliases:

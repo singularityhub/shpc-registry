@@ -4,7 +4,7 @@ name:  "bids/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/pymvpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/pymvpa/container.yaml"
-updated_at: "2025-04-23 03:57:00.954024"
+updated_at: "2025-04-24 03:57:53.780917"
 latest: "v4.0.4"
 container_url: "https://hub.docker.com/r/bids/pymvpa"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ppcseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppcseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppcseq/container.yaml"
-updated_at: "2025-04-23 03:30:38.241989"
+updated_at: "2025-04-24 03:31:56.177190"
 latest: "1.14.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppcseq"
 

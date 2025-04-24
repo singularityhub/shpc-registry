@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lyve-set"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lyve-set/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lyve-set/container.yaml"
-updated_at: "2025-04-23 03:13:53.874519"
+updated_at: "2025-04-24 03:15:29.322979"
 latest: "2.0.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lyve-set"
 aliases:

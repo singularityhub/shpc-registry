@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-r4rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r4rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r4rna/container.yaml"
-updated_at: "2025-04-23 03:44:51.113648"
+updated_at: "2025-04-24 03:45:55.326991"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r4rna"
 

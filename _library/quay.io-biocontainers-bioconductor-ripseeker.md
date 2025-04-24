@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ripseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ripseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ripseeker/container.yaml"
-updated_at: "2025-04-23 03:19:15.302123"
+updated_at: "2025-04-24 03:20:44.955636"
 latest: "1.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ripseeker"
 aliases:

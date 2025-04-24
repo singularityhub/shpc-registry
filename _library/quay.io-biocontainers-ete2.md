@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ete2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ete2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ete2/container.yaml"
-updated_at: "2025-04-23 03:53:28.664680"
+updated_at: "2025-04-24 03:54:24.559614"
 latest: "2.3.10--py_4"
 container_url: "https://biocontainers.pro/tools/ete2"
 aliases:

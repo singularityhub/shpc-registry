@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnvpytor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvpytor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvpytor/container.yaml"
-updated_at: "2025-04-23 03:34:18.599680"
-latest: "1.3.1--pyhdfd78af_1"
+updated_at: "2025-04-24 03:35:33.101789"
+latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cnvpytor"
 aliases:
  - "cnvpytor"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.2.1--pyhdfd78af_0"
  - "1.3.1--pyhdfd78af_1"
+ - "1.3.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cnvpytor"
-config: {"url": "https://biocontainers.pro/tools/cnvpytor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvpytor", "latest": {"1.3.1--pyhdfd78af_1": "sha256:42e480d51b4c640ebb46ede4ded05486c9974c0d0bde3a3cef9884ad56674383"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:467813ab331009683df2201558f7e4dea20c9bda7f782cd8774211ef5e8b5359", "1.3.1--pyhdfd78af_1": "sha256:42e480d51b4c640ebb46ede4ded05486c9974c0d0bde3a3cef9884ad56674383"}, "docker": "quay.io/biocontainers/cnvpytor", "aliases": {"cnvpytor": "/usr/local/bin/cnvpytor", "vba_extract.py": "/usr/local/bin/vba_extract.py", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp"}}
+config: {"url": "https://biocontainers.pro/tools/cnvpytor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvpytor", "latest": {"1.3.2--pyhdfd78af_0": "sha256:614b22c8fc1fcef147bcda48bb4d53cb63c988bffc588e186acff7335013fcf1"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:467813ab331009683df2201558f7e4dea20c9bda7f782cd8774211ef5e8b5359", "1.3.1--pyhdfd78af_1": "sha256:42e480d51b4c640ebb46ede4ded05486c9974c0d0bde3a3cef9884ad56674383", "1.3.2--pyhdfd78af_0": "sha256:614b22c8fc1fcef147bcda48bb4d53cb63c988bffc588e186acff7335013fcf1"}, "docker": "quay.io/biocontainers/cnvpytor", "aliases": {"cnvpytor": "/usr/local/bin/cnvpytor", "vba_extract.py": "/usr/local/bin/vba_extract.py", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnvpytor.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/cnvpytor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnvpytor:1.3.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/cnvpytor:1.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnvpytor/1.3.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/cnvpytor/1.3.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/cnvpytor/1.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cnvpytor/1.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

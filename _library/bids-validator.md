@@ -4,7 +4,7 @@ name:  "bids/validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/validator/container.yaml"
-updated_at: "2025-04-23 03:57:02.393839"
+updated_at: "2025-04-24 03:57:55.189938"
 latest: "v1.9.2"
 container_url: "https://hub.docker.com/r/bids/validator"
 aliases:

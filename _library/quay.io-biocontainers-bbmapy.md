@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bbmapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbmapy/container.yaml"
-updated_at: "2025-04-23 03:42:10.417328"
+updated_at: "2025-04-24 03:43:17.005585"
 latest: "0.0.46--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bbmapy"
 aliases:

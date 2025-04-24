@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intad/container.yaml"
-updated_at: "2025-04-23 03:49:59.152816"
+updated_at: "2025-04-24 03:50:58.250312"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intad"
 aliases:

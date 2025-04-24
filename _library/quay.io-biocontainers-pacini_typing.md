@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pacini_typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pacini_typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pacini_typing/container.yaml"
-updated_at: "2025-04-23 03:51:38.261278"
+updated_at: "2025-04-24 03:52:35.929262"
 latest: "1.6.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pacini_typing"
 aliases:

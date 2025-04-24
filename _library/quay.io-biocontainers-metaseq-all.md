@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaseq-all"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaseq-all/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaseq-all/container.yaml"
-updated_at: "2025-04-23 03:38:12.801767"
+updated_at: "2025-04-24 03:39:23.624377"
 latest: "0.5.6--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/metaseq-all"
 aliases:

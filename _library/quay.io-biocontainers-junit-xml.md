@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/junit-xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/junit-xml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/junit-xml/container.yaml"
-updated_at: "2025-04-23 03:25:08.109305"
+updated_at: "2025-04-24 03:26:30.440937"
 latest: "1.8--py_0"
 container_url: "https://biocontainers.pro/tools/junit-xml"
 aliases:
