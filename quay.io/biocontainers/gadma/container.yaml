@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/gadma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gadma
 latest:
-  2.0.2--pyhdfd78af_0: sha256:f23540ac40719d3532655b5ccb725832defec936f04729d408aeffc661325036
+  2.0.3--pyhdfd78af_0: sha256:9dd79bd180f1488ca6ba83ce7b9aba6fc27f2f6dc97c56e0b601b83c512988ea
 tags:
   2.0.0rc22--pyhdfd78af_0: sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74
   2.0.0rc23--pyhdfd78af_0: sha256:7491eb9854ae7e776c024848e5ccd7b64842c790877cf266ac01e87e4c408a51
   2.0.0rc25--pyhdfd78af_0: sha256:ff944a1c46baa57c565d892133cf4e320ce5700600dcb711366e3d1cfdf62cf0
   2.0.0rc26--pyhdfd78af_0: sha256:064e4dc7ef7bb3445eed411090c01fbd286076213a10ce9a62829b61ad14ab3d
   2.0.2--pyhdfd78af_0: sha256:f23540ac40719d3532655b5ccb725832defec936f04729d408aeffc661325036
+  2.0.3--pyhdfd78af_0: sha256:9dd79bd180f1488ca6ba83ce7b9aba6fc27f2f6dc97c56e0b601b83c512988ea
 docker: quay.io/biocontainers/gadma
 aliases:
   demes: /usr/local/bin/demes
