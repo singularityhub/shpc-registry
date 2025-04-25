@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequencetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequencetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequencetools/container.yaml"
-updated_at: "2025-04-25 02:52:07.541618"
+updated_at: "2025-04-25 03:49:46.484728"
 latest: "1.6.0.0--hebebf5b_0"
 container_url: "https://biocontainers.pro/tools/sequencetools"
 aliases:

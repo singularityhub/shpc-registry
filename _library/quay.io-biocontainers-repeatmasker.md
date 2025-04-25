@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatmasker/container.yaml"
-updated_at: "2025-04-25 02:50:14.020204"
+updated_at: "2025-04-25 03:47:51.376882"
 latest: "4.1.8--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repeatmasker"
 aliases:

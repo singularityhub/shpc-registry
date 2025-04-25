@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/abi-dumper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/abi-dumper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/abi-dumper/container.yaml"
-updated_at: "2025-04-25 02:10:36.818236"
+updated_at: "2025-04-25 03:07:52.989788"
 latest: "1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/abi-dumper"
 aliases:

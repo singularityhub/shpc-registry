@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-chord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chord/container.yaml"
-updated_at: "2025-04-25 02:13:15.483165"
+updated_at: "2025-04-25 03:10:35.673774"
 latest: "2.03--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-chord"
 aliases:

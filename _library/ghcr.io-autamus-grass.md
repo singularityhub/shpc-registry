@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/grass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/grass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/grass/container.yaml"
-updated_at: "2025-04-25 02:10:47.763365"
+updated_at: "2025-04-25 03:08:04.356047"
 latest: "7.8.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/grass"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maxlik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maxlik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maxlik/container.yaml"
-updated_at: "2025-04-25 02:28:33.099404"
+updated_at: "2025-04-25 03:25:56.056042"
 latest: "1.3_4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-maxlik"
 aliases:

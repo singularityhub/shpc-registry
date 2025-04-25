@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assemblerflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assemblerflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assemblerflow/container.yaml"
-updated_at: "2025-04-25 02:14:10.382036"
+updated_at: "2025-04-25 03:11:31.048869"
 latest: "1.1.0.post3--py_2"
 container_url: "https://biocontainers.pro/tools/assemblerflow"
 aliases:

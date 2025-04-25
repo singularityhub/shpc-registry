@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dimspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dimspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dimspy/container.yaml"
-updated_at: "2025-04-25 02:39:33.015766"
+updated_at: "2025-04-25 03:37:03.364261"
 latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dimspy"
 aliases:

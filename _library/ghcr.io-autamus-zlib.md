@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/zlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/zlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/zlib/container.yaml"
-updated_at: "2025-04-25 02:10:13.976059"
+updated_at: "2025-04-25 03:07:29.798300"
 latest: "1.2.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/zlib"
 

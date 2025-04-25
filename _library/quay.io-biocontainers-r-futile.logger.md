@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-futile.logger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-futile.logger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-futile.logger/container.yaml"
-updated_at: "2025-04-25 02:31:41.697601"
+updated_at: "2025-04-25 03:29:06.684060"
 latest: "1.4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-futile.logger"
 aliases:

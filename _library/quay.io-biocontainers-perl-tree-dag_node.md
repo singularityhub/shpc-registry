@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tree-dag_node"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tree-dag_node/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tree-dag_node/container.yaml"
-updated_at: "2025-04-25 02:11:34.943634"
+updated_at: "2025-04-25 03:08:53.134471"
 latest: "1.33--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-tree-dag_node"
 aliases:

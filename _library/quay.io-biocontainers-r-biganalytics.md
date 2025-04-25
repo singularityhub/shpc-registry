@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biganalytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biganalytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biganalytics/container.yaml"
-updated_at: "2025-04-25 02:31:46.438589"
+updated_at: "2025-04-25 03:29:11.444004"
 latest: "1.1.14--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-biganalytics"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bigmemory.sri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bigmemory.sri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory.sri/container.yaml"
-updated_at: "2025-04-25 02:34:43.989569"
+updated_at: "2025-04-25 03:32:11.192246"
 latest: "0.1.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-bigmemory.sri"
 aliases:

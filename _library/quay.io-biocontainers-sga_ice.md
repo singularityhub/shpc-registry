@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sga_ice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sga_ice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sga_ice/container.yaml"
-updated_at: "2025-04-25 02:59:00.891292"
+updated_at: "2025-04-25 03:56:44.162383"
 latest: "1.01--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sga_ice"
 aliases:

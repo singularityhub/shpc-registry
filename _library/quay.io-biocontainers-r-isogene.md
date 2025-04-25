@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-isogene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-isogene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-isogene/container.yaml"
-updated_at: "2025-04-25 02:26:30.743963"
+updated_at: "2025-04-25 03:23:52.225791"
 latest: "1.0_24--r44h3342da4_8"
 container_url: "https://biocontainers.pro/tools/r-isogene"
 aliases:

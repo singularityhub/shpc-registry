@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riborex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riborex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riborex/container.yaml"
-updated_at: "2025-04-25 02:58:58.918413"
+updated_at: "2025-04-25 03:56:42.121717"
 latest: "2.4.0--r341_0"
 container_url: "https://biocontainers.pro/tools/riborex"
 aliases:
