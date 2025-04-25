@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-compare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-compare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-compare/container.yaml"
-updated_at: "2025-04-24 03:24:48.651389"
+updated_at: "2025-04-25 02:27:26.514647"
 latest: "1.25--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-data-compare"
 aliases:

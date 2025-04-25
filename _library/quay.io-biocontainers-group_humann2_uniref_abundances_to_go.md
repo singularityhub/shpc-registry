@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/group_humann2_uniref_abundances_to_go"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/group_humann2_uniref_abundances_to_go/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/group_humann2_uniref_abundances_to_go/container.yaml"
-updated_at: "2025-04-24 03:39:07.088560"
+updated_at: "2025-04-25 02:41:27.909043"
 latest: "1.3.0--0"
 container_url: "https://biocontainers.pro/tools/group_humann2_uniref_abundances_to_go"
 aliases:

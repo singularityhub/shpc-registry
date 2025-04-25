@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-workflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-workflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-workflow/container.yaml"
-updated_at: "2025-04-24 03:29:10.511138"
+updated_at: "2025-04-25 02:31:43.092685"
 latest: "1.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pytest-workflow"
 aliases:

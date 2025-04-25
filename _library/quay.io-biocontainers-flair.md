@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flair/container.yaml"
-updated_at: "2025-04-24 03:24:06.728038"
-latest: "2.0.0--pyhdfd78af_1"
+updated_at: "2025-04-25 02:26:45.560827"
+latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flair"
 aliases:
  - "bam2Bed12"
@@ -38,8 +38,9 @@ versions:
  - "1.7.0--pyhdfd78af_1"
  - "2.0.0--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_1"
+ - "2.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for flair"
-config: {"url": "https://biocontainers.pro/tools/flair", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flair", "latest": {"2.0.0--pyhdfd78af_1": "sha256:daf1b32daa11dfb022d2e499bffb5beb6f9e2682edeeace311d2226e0b224d9b"}, "tags": {"1.6.4--pyhdfd78af_0": "sha256:5de2354fa7fe9cb8e65048f82ca4bbb190bc813c74ffc60cc1df12f02d0b87b8", "1.7.0--pyhdfd78af_1": "sha256:f464d910b59ec4f0543b2b9dc1573bf78b6275c82b196ceecfeabb1399194cb3", "2.0.0--pyhdfd78af_0": "sha256:a36a1d3ad8defa14af4a76496df2dda7c334201ce17e6260b7e199b362f1534a", "2.0.0--pyhdfd78af_1": "sha256:daf1b32daa11dfb022d2e499bffb5beb6f9e2682edeeace311d2226e0b224d9b"}, "docker": "quay.io/biocontainers/flair", "aliases": {"bam2Bed12": "/usr/local/bin/bam2Bed12", "bed_to_psl": "/usr/local/bin/bed_to_psl", "deFLAIR": "/usr/local/bin/deFLAIR", "diff_iso_usage": "/usr/local/bin/diff_iso_usage", "diffsplice_fishers_exact": "/usr/local/bin/diffsplice_fishers_exact", "flair": "/usr/local/bin/flair", "junctions_from_sam": "/usr/local/bin/junctions_from_sam", "mark_intron_retention": "/usr/local/bin/mark_intron_retention", "mark_productivity": "/usr/local/bin/mark_productivity", "normalize_counts_matrix": "/usr/local/bin/normalize_counts_matrix", "plot_isoform_usage": "/usr/local/bin/plot_isoform_usage", "predictProductivity": "/usr/local/bin/predictProductivity", "psl_to_bed": "/usr/local/bin/psl_to_bed", "psl_to_sequence": "/usr/local/bin/psl_to_sequence", "sam_to_map": "/usr/local/bin/sam_to_map", "minimap2.py": "/usr/local/bin/minimap2.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/flair", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flair", "latest": {"2.1.2--pyhdfd78af_0": "sha256:0b34f0a98deb350854fbaf63b73e9be1403943a8bb5ad97fe8a42079ff13bcb9"}, "tags": {"1.6.4--pyhdfd78af_0": "sha256:5de2354fa7fe9cb8e65048f82ca4bbb190bc813c74ffc60cc1df12f02d0b87b8", "1.7.0--pyhdfd78af_1": "sha256:f464d910b59ec4f0543b2b9dc1573bf78b6275c82b196ceecfeabb1399194cb3", "2.0.0--pyhdfd78af_0": "sha256:a36a1d3ad8defa14af4a76496df2dda7c334201ce17e6260b7e199b362f1534a", "2.0.0--pyhdfd78af_1": "sha256:daf1b32daa11dfb022d2e499bffb5beb6f9e2682edeeace311d2226e0b224d9b", "2.1.2--pyhdfd78af_0": "sha256:0b34f0a98deb350854fbaf63b73e9be1403943a8bb5ad97fe8a42079ff13bcb9"}, "docker": "quay.io/biocontainers/flair", "aliases": {"bam2Bed12": "/usr/local/bin/bam2Bed12", "bed_to_psl": "/usr/local/bin/bed_to_psl", "deFLAIR": "/usr/local/bin/deFLAIR", "diff_iso_usage": "/usr/local/bin/diff_iso_usage", "diffsplice_fishers_exact": "/usr/local/bin/diffsplice_fishers_exact", "flair": "/usr/local/bin/flair", "junctions_from_sam": "/usr/local/bin/junctions_from_sam", "mark_intron_retention": "/usr/local/bin/mark_intron_retention", "mark_productivity": "/usr/local/bin/mark_productivity", "normalize_counts_matrix": "/usr/local/bin/normalize_counts_matrix", "plot_isoform_usage": "/usr/local/bin/plot_isoform_usage", "predictProductivity": "/usr/local/bin/predictProductivity", "psl_to_bed": "/usr/local/bin/psl_to_bed", "psl_to_sequence": "/usr/local/bin/psl_to_sequence", "sam_to_map": "/usr/local/bin/sam_to_map", "minimap2.py": "/usr/local/bin/minimap2.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flair.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/flair
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flair:2.0.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/flair:2.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flair/2.0.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/flair/2.0.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/flair/2.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/flair/2.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

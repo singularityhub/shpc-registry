@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq/container.yaml"
-updated_at: "2025-04-24 03:36:36.418417"
+updated_at: "2025-04-25 02:38:59.470776"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.alkanilineseq"
 

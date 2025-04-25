@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drug2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drug2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drug2cell/container.yaml"
-updated_at: "2025-04-24 03:09:14.924740"
+updated_at: "2025-04-25 02:12:01.294682"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drug2cell"
 aliases:
