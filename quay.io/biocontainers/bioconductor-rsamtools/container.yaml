@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rsamtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rsamtools
 latest:
-  2.22.0--r44h77050f0_0: sha256:78e781781102de992b31101125f8057280e05ef0c911ad6eb664b402a93f1720
+  2.22.0--r44h77050f0_1: sha256:a3d9e0dd1168454c366dd6181754c6553e6b4bd4fd84e2b95eea68a85d7b7fc1
 tags:
   2.8.0--r41h399db7b_0: sha256:f1a30562969e0e5c44438411b893f1dd2d55896f54429dd38e6ba5d48542d486
   2.14.0--r42hc247a5b_0: sha256:3304ee07aaf448e94400a20b54205480511334ca36cfbd4b7b28b4ee3fcd0b6d
@@ -12,6 +12,7 @@ tags:
   2.18.0--r43hf17093f_1: sha256:59615dea3f4a3cafbcda2f632fd810cebdb77838433a21e9afdc89faf559170e
   2.18.0--r43hf17093f_2: sha256:e2c7d2b401224a3c62aed6333ccb1e75464bb90c3d94be5e287afacd96daf680
   2.22.0--r44h77050f0_0: sha256:78e781781102de992b31101125f8057280e05ef0c911ad6eb664b402a93f1720
+  2.22.0--r44h77050f0_1: sha256:a3d9e0dd1168454c366dd6181754c6553e6b4bd4fd84e2b95eea68a85d7b7fc1
 docker: quay.io/biocontainers/bioconductor-rsamtools
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

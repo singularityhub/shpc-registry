@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mity
 latest:
-  1.1.0--pyhdfd78af_0: sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb
+  1.2.0--pyhdfd78af_0: sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680
 tags:
   1.1.0--pyhdfd78af_0: sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb
+  1.2.0--pyhdfd78af_0: sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680
 docker: quay.io/biocontainers/mity
 aliases:
   gsort: /usr/local/bin/gsort

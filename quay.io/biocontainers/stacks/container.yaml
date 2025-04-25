@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/stacks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stacks
 latest:
-  2.68--h077b44d_1: sha256:edf98c50c56ae9d06bcea4c50ec7e974aecae95681c27dc95a3c4ef66cdf04c7
+  2.68--h077b44d_2: sha256:08f597c63f03b3c1fc8aa4ce7f933a84d8417920da4b58eb7cbcd7ae034979f8
 tags:
   2.53--he513fc3_0: sha256:b05949757c84d6f35d8ccbb62027252d9dce3a8c22b871a0303d6bb9b274f73d
   2.65--hdcf5f25_0: sha256:b57740422d27c0279306376cad67feeca27dd4c077d753d449fbf4c66e2ce2a8
@@ -12,6 +12,7 @@ tags:
   2.55--h9a82719_1: sha256:149871c622cad674ad275e84c0f9592650ad4dddd9a78c1da6b2f0ed87af1f80
   2.65--h077b44d_1: sha256:bc04459699bcf86bf61ab4e481995edb4497204dfeb6add0b7dac9b618f8957c
   2.68--h077b44d_1: sha256:edf98c50c56ae9d06bcea4c50ec7e974aecae95681c27dc95a3c4ef66cdf04c7
+  2.68--h077b44d_2: sha256:08f597c63f03b3c1fc8aa4ce7f933a84d8417920da4b58eb7cbcd7ae034979f8
 docker: quay.io/biocontainers/stacks
 aliases:
   clone_filter: /usr/local/bin/clone_filter

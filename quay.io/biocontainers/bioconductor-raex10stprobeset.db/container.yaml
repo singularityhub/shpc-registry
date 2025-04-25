@@ -4,7 +4,8 @@ description: shpc-registry automated BioContainers addition for bioconductor-rae
 latest:
   8.8.0--r44hdfd78af_5: sha256:351552e047586c4eac39273c73ad6c9823c30b580ed6573afd08993a04445ba0
 tags:
-  8.8.0--r41hdfd78af_1: sha256:deaa23172e8e069fcbd1ce35643f822183ed02543fbfab9c0c9b959c7c0a5f53
+  8.8.0--r41hdfd78af_1: 'crane digest quay.io/biocontainers/bioconductor-raex10stprobeset.db:8.8.0--r41hdfd78af_1:
+    unrecognized HTTP status: 502 Bad Gateway'
   8.8.0--r42hdfd78af_2: sha256:db99fba02f227d8af739d4d860891afd2b4859bbfbd9ea0debdbb42dfdfb37cd
   8.8.0--r43hdfd78af_3: sha256:dea52caf84c82d980597e7ea5eeabb35de75d49e64ba9e1b9bf73e9d8b82c073
   8.8.0--r43hdfd78af_4: sha256:7599f288d32e6e20799e1b029dd8aedc6aa6dfea3689d261be7f0c72efecfaf6

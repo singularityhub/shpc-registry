@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/drep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for drep
 latest:
-  3.5.0--pyhdfd78af_0: sha256:3b10a85055a1bc351d4f481c4a93ae04882a3b29e361df7fd0989a30d52ae6dc
+  3.6.2--pyhdfd78af_0: sha256:d43260ddd3d8f3cc955f8f1574dcca1d3c0cdc7a92be23a7630701fce9312ee0
 tags:
   3.4.0--pyhdfd78af_0: sha256:29cd012e834f5597788386baf4fec63a2b83dde450d01f1c66648f0acaee4bbc
   3.4.1--pyhdfd78af_0: sha256:4745a10ed825afb1eda729190aa45a180a20125339cfa6e99698d3afe73cde34
@@ -10,6 +10,7 @@ tags:
   3.4.3--pyhdfd78af_0: sha256:5cb37e910f309ccdc7119f684b56d433ae9fdabad047d7dbd24ae10de3c3a5ad
   3.4.5--pyhdfd78af_0: sha256:13d000bd81346c169a2b387b6d8a038181cb6d5c58c55cde1d9c3528cb13d751
   3.5.0--pyhdfd78af_0: sha256:3b10a85055a1bc351d4f481c4a93ae04882a3b29e361df7fd0989a30d52ae6dc
+  3.6.2--pyhdfd78af_0: sha256:d43260ddd3d8f3cc955f8f1574dcca1d3c0cdc7a92be23a7630701fce9312ee0
 docker: quay.io/biocontainers/drep
 aliases:
   ScaffoldLevel_dRep.py: /usr/local/bin/ScaffoldLevel_dRep.py

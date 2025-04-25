@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/floria
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for floria
 latest:
-  0.0.1--h4ac6f70_0: sha256:345661481a964dc4faa28deaf1ed11ae9edcfa4579559351ad1db5f50c9b7980
+  0.0.2--ha6fb395_0: sha256:bc4cba21ad69e09f6d8ccd6776d64386559ebc06cd369b58f5d59cde3b4527c9
 tags:
   0.0.1--h4ac6f70_0: sha256:345661481a964dc4faa28deaf1ed11ae9edcfa4579559351ad1db5f50c9b7980
+  0.0.2--ha6fb395_0: sha256:bc4cba21ad69e09f6d8ccd6776d64386559ebc06cd369b58f5d59cde3b4527c9
 docker: quay.io/biocontainers/floria
 aliases:
   floria: /usr/local/bin/floria
