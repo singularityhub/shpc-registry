@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbioinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbioinf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbioinf/container.yaml"
-updated_at: "2025-04-25 03:27:14.561792"
+updated_at: "2025-04-26 03:20:14.178003"
 latest: "1.66.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbioinf"
 
@@ -16,7 +16,7 @@ versions:
  - "1.62.0--r43ha9d7317_0"
  - "1.66.0--r44h3df3fcb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbioinf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbioinf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbioinf", "latest": {"1.66.0--r44h3df3fcb_0": "sha256:3f959f6a54e56b867258bb55d0ca08b713674835a1ebbfcd7309b90e72cf9894"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:631191850d3edd75f715a58c0a8e4eed3adaf293e362095a76d08839ba16bab2", "1.58.0--r42hc0cfd56_0": "sha256:12534567c0aa0dcfbc3d7e89572dbe0ae21ec91fb139d7678e71f7b6317bfc72", "1.58.0--r42ha9d7317_1": "sha256:8209760fa1ecd0035fa3817102418c0436c53d07e9b452398684144de02d6727", "1.60.0--r43ha9d7317_0": "sha256:86a1fa90c8d477f81545979c65c2d20cdb02926be3be6d6de8a8d09e3f94ed1a", "1.62.0--r43ha9d7317_0": "sha256:dfb93e6be840e66545895b700289a5a15e1db31465738c1996fd8efbd9524cbe", "1.66.0--r44h3df3fcb_0": "sha256:3f959f6a54e56b867258bb55d0ca08b713674835a1ebbfcd7309b90e72cf9894"}, "docker": "quay.io/biocontainers/bioconductor-rbioinf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbioinf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbioinf", "latest": {"1.66.0--r44h3df3fcb_0": "sha256:3f959f6a54e56b867258bb55d0ca08b713674835a1ebbfcd7309b90e72cf9894"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:631191850d3edd75f715a58c0a8e4eed3adaf293e362095a76d08839ba16bab2", "1.58.0--r42hc0cfd56_0": "sha256:12534567c0aa0dcfbc3d7e89572dbe0ae21ec91fb139d7678e71f7b6317bfc72", "1.58.0--r42ha9d7317_1": "sha256:8209760fa1ecd0035fa3817102418c0436c53d07e9b452398684144de02d6727", "1.60.0--r43ha9d7317_0": "crane digest quay.io/biocontainers/bioconductor-rbioinf:1.60.0--r43ha9d7317_0: unrecognized HTTP status: 502 Bad Gateway", "1.62.0--r43ha9d7317_0": "sha256:dfb93e6be840e66545895b700289a5a15e1db31465738c1996fd8efbd9524cbe", "1.66.0--r44h3df3fcb_0": "sha256:3f959f6a54e56b867258bb55d0ca08b713674835a1ebbfcd7309b90e72cf9894"}, "docker": "quay.io/biocontainers/bioconductor-rbioinf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbioinf.

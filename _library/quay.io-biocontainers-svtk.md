@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtk/container.yaml"
-updated_at: "2025-04-25 03:36:22.491082"
+updated_at: "2025-04-26 03:29:15.206894"
 latest: "0.0.20190615--py312h0fa9677_6"
 container_url: "https://biocontainers.pro/tools/svtk"
 aliases:

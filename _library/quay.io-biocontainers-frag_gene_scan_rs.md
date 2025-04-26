@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/frag_gene_scan_rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/frag_gene_scan_rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/frag_gene_scan_rs/container.yaml"
-updated_at: "2025-04-25 03:53:53.267541"
+updated_at: "2025-04-26 03:46:31.954282"
 latest: "1.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/frag_gene_scan_rs"
 aliases:

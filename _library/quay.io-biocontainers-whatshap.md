@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/whatshap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whatshap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whatshap/container.yaml"
-updated_at: "2025-04-25 03:14:57.689294"
+updated_at: "2025-04-26 03:08:06.961194"
 latest: "2.5--py312hf731ba3_0"
 container_url: "https://biocontainers.pro/tools/whatshap"
 aliases:

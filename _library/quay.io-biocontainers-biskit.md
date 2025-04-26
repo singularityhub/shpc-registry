@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biskit/container.yaml"
-updated_at: "2025-04-25 03:52:15.350399"
-latest: "2.5.1--py_0"
+updated_at: "2025-04-26 03:44:55.376662"
+latest: "3.0.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/biskit"
 aliases:
  - "bis.py"
@@ -20,8 +20,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "2.5.1--py_0"
+ - "3.0.1--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for biskit"
-config: {"url": "https://biocontainers.pro/tools/biskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biskit", "latest": {"2.5.1--py_0": "sha256:18241125d090b5a6e31ae310d9affb862c03a9d0107cf300d12ae6270ad482a9"}, "tags": {"2.5.1--py_0": "sha256:18241125d090b5a6e31ae310d9affb862c03a9d0107cf300d12ae6270ad482a9"}, "docker": "quay.io/biocontainers/biskit", "aliases": {"bis.py": "/usr/local/bin/bis.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/biskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biskit", "latest": {"3.0.1--pyh7e72e81_0": "sha256:7b0125d3f355c7c30e07a9dfca8c0f4b8d66d216433b928026258eabb00e3a8e"}, "tags": {"2.5.1--py_0": "sha256:18241125d090b5a6e31ae310d9affb862c03a9d0107cf300d12ae6270ad482a9", "3.0.1--pyh7e72e81_0": "sha256:7b0125d3f355c7c30e07a9dfca8c0f4b8d66d216433b928026258eabb00e3a8e"}, "docker": "quay.io/biocontainers/biskit", "aliases": {"bis.py": "/usr/local/bin/bis.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biskit.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/biskit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biskit:2.5.1--py_0
+$ shpc install quay.io/biocontainers/biskit:3.0.1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biskit/2.5.1--py_0
-$ module help quay.io/biocontainers/biskit/2.5.1--py_0
+$ module load quay.io/biocontainers/biskit/3.0.1--pyh7e72e81_0
+$ module help quay.io/biocontainers/biskit/3.0.1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

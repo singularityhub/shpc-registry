@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/floria"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/floria/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/floria/container.yaml"
-updated_at: "2025-04-25 03:51:52.414518"
-latest: "0.0.1--h4ac6f70_0"
+updated_at: "2025-04-26 03:44:32.808653"
+latest: "0.0.2--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/floria"
 aliases:
  - "floria"
  - "vartig-dump"
 versions:
  - "0.0.1--h4ac6f70_0"
+ - "0.0.2--ha6fb395_0"
 description: "singularity registry hpc automated addition for floria"
-config: {"url": "https://biocontainers.pro/tools/floria", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for floria", "latest": {"0.0.1--h4ac6f70_0": "sha256:345661481a964dc4faa28deaf1ed11ae9edcfa4579559351ad1db5f50c9b7980"}, "tags": {"0.0.1--h4ac6f70_0": "sha256:345661481a964dc4faa28deaf1ed11ae9edcfa4579559351ad1db5f50c9b7980"}, "docker": "quay.io/biocontainers/floria", "aliases": {"floria": "/usr/local/bin/floria", "vartig-dump": "/usr/local/bin/vartig-dump"}}
+config: {"url": "https://biocontainers.pro/tools/floria", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for floria", "latest": {"0.0.2--ha6fb395_0": "sha256:bc4cba21ad69e09f6d8ccd6776d64386559ebc06cd369b58f5d59cde3b4527c9"}, "tags": {"0.0.1--h4ac6f70_0": "sha256:345661481a964dc4faa28deaf1ed11ae9edcfa4579559351ad1db5f50c9b7980", "0.0.2--ha6fb395_0": "sha256:bc4cba21ad69e09f6d8ccd6776d64386559ebc06cd369b58f5d59cde3b4527c9"}, "docker": "quay.io/biocontainers/floria", "aliases": {"floria": "/usr/local/bin/floria", "vartig-dump": "/usr/local/bin/vartig-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/floria.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/floria
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/floria:0.0.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/floria:0.0.2--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/floria/0.0.1--h4ac6f70_0
-$ module help quay.io/biocontainers/floria/0.0.1--h4ac6f70_0
+$ module load quay.io/biocontainers/floria/0.0.2--ha6fb395_0
+$ module help quay.io/biocontainers/floria/0.0.2--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
