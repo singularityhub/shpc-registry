@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/starcatpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for starcatpy
 latest:
-  1.0.8--pyh7e72e81_0: sha256:9f7bc1bf7eebe48ee7f0b423d53897b0b12530120c8aab7aa12557d7c4e932d3
+  1.0.9--pyh7e72e81_0: sha256:7be2369ce8ea4d34f981401ed3a61981ecdea504d0e2ade6f83e03c8d2899ac5
 tags:
   1.0.8--pyh7e72e81_0: sha256:9f7bc1bf7eebe48ee7f0b423d53897b0b12530120c8aab7aa12557d7c4e932d3
+  1.0.9--pyh7e72e81_0: sha256:7be2369ce8ea4d34f981401ed3a61981ecdea504d0e2ade6f83e03c8d2899ac5
 docker: quay.io/biocontainers/starcatpy
 aliases:
   starcat: /usr/local/bin/starcat

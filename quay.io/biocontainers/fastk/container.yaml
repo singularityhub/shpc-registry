@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/fastk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastk
 latest:
-  1.1.0--h71df26d_1: sha256:7ec00693028c0822c47bfe25e63e17ce7546e0573f7815e2aab62980b450793a
+  1.1.0--h71df26d_2: sha256:ce862cfc38b8337c9a5d64d719d597f09c7a01bc839dbea9c4486f4524483141
 tags:
   1.0--h3e8787d_1: sha256:4b7bfa967244033afaf0a70097d2951df519979cff99a6c6d56fc5c50356705b
   1.0--h3e8787d_2: sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1
   1.0--h4ef89c6_4: sha256:0503e48703d45e062b2b6875476241d7e95829f6b097b010e0c3476fa058f38a
   1.1.0--h4ef89c6_0: sha256:95d2510da450b5d91fa1b085418e7e7e924e8541fd605c64cf1a0b1751b68797
   1.1.0--h71df26d_1: sha256:7ec00693028c0822c47bfe25e63e17ce7546e0573f7815e2aab62980b450793a
+  1.1.0--h71df26d_2: sha256:ce862cfc38b8337c9a5d64d719d597f09c7a01bc839dbea9c4486f4524483141
 docker: quay.io/biocontainers/fastk
 aliases:
   FastK: /usr/local/bin/FastK

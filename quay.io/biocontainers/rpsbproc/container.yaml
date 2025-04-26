@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/rpsbproc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rpsbproc
 latest:
-  0.5.0--hd6d6fdc_2: sha256:42a5def83b193703015b0ac81697b366f0d736953cb6967067781ee5c7861ebe
+  0.5.0--hd6d6fdc_3: sha256:9e39ebba151552c5acbdb2b8ba0e966e61a5e6735c1a1ef8a3a5678fd8f09066
 tags:
   0.5.0--h6a68c12_0: sha256:9023c179a44a0dd6056f72f183a5de6fc6b4a8c8dca3a1362e141d858bee285b
   0.5.0--h6a68c12_1: sha256:da863cdda114498df7c921620a6f74694cbd6cf20a31070a53f169225616b14c
   0.5.0--hd6d6fdc_2: sha256:42a5def83b193703015b0ac81697b366f0d736953cb6967067781ee5c7861ebe
+  0.5.0--hd6d6fdc_3: sha256:9e39ebba151552c5acbdb2b8ba0e966e61a5e6735c1a1ef8a3a5678fd8f09066
 docker: quay.io/biocontainers/rpsbproc
 aliases:
   rpsbproc: /usr/local/bin/rpsbproc
