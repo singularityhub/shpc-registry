@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/h5sparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/h5sparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/h5sparse/container.yaml"
-updated_at: "2025-04-26 03:46:19.124302"
+updated_at: "2025-04-27 03:57:34.491116"
 latest: "0.1.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/h5sparse"
 aliases:

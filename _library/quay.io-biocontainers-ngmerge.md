@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ngmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmerge/container.yaml"
-updated_at: "2025-04-26 03:27:17.018991"
-latest: "0.3--ha92aebf_1"
+updated_at: "2025-04-27 03:37:56.398801"
+latest: "0.4--h89d970f_0"
 container_url: "https://biocontainers.pro/tools/ngmerge"
 aliases:
  - "NGmerge"
 versions:
  - "0.3--ha92aebf_1"
+ - "0.4--h89d970f_0"
 description: "shpc-registry automated BioContainers addition for ngmerge"
-config: {"url": "https://biocontainers.pro/tools/ngmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmerge", "latest": {"0.3--ha92aebf_1": "sha256:d4adad96fbfba3bedf655f684a0070a2bff5b9ba860c782ac7073bcc029a6414"}, "tags": {"0.3--ha92aebf_1": "sha256:d4adad96fbfba3bedf655f684a0070a2bff5b9ba860c782ac7073bcc029a6414"}, "docker": "quay.io/biocontainers/ngmerge", "aliases": {"NGmerge": "/usr/local/bin/NGmerge"}}
+config: {"url": "https://biocontainers.pro/tools/ngmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmerge", "latest": {"0.4--h89d970f_0": "sha256:5fe76990e1a44ffb8f76d710466ad44038443d93e90a2808d63c32bd505f2471"}, "tags": {"0.3--ha92aebf_1": "sha256:d4adad96fbfba3bedf655f684a0070a2bff5b9ba860c782ac7073bcc029a6414", "0.4--h89d970f_0": "sha256:5fe76990e1a44ffb8f76d710466ad44038443d93e90a2808d63c32bd505f2471"}, "docker": "quay.io/biocontainers/ngmerge", "aliases": {"NGmerge": "/usr/local/bin/NGmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngmerge.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ngmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngmerge:0.3--ha92aebf_1
+$ shpc install quay.io/biocontainers/ngmerge:0.4--h89d970f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngmerge/0.3--ha92aebf_1
-$ module help quay.io/biocontainers/ngmerge/0.3--ha92aebf_1
+$ module load quay.io/biocontainers/ngmerge/0.4--h89d970f_0
+$ module help quay.io/biocontainers/ngmerge/0.4--h89d970f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

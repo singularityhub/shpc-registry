@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfastaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastaq/container.yaml"
-updated_at: "2025-04-26 03:19:39.862508"
-latest: "3.17.0--py_2"
+updated_at: "2025-04-27 03:29:55.896685"
+latest: "3.18.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyfastaq"
 aliases:
  - "fastaq"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "3.17.0--py_2"
+ - "3.18.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyfastaq"
-config: {"url": "https://biocontainers.pro/tools/pyfastaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastaq", "latest": {"3.17.0--py_2": "sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496"}, "tags": {"3.17.0--py_2": "sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496"}, "docker": "quay.io/biocontainers/pyfastaq", "aliases": {"fastaq": "/usr/local/bin/fastaq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastaq", "latest": {"3.18.0--pyhdfd78af_0": "sha256:7bf274c8b737b9e580bd914bce5a197e612eef134dea451c2a481fccbf02e236"}, "tags": {"3.17.0--py_2": "sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496", "3.18.0--pyhdfd78af_0": "sha256:7bf274c8b737b9e580bd914bce5a197e612eef134dea451c2a481fccbf02e236"}, "docker": "quay.io/biocontainers/pyfastaq", "aliases": {"fastaq": "/usr/local/bin/fastaq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastaq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyfastaq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfastaq:3.17.0--py_2
+$ shpc install quay.io/biocontainers/pyfastaq:3.18.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfastaq/3.17.0--py_2
-$ module help quay.io/biocontainers/pyfastaq/3.17.0--py_2
+$ module load quay.io/biocontainers/pyfastaq/3.18.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyfastaq/3.18.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

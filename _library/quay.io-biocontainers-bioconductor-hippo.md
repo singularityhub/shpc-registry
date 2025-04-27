@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hippo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hippo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hippo/container.yaml"
-updated_at: "2025-04-26 03:08:03.618579"
+updated_at: "2025-04-27 03:17:54.236941"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hippo"
 

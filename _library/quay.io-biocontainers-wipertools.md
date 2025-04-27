@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wipertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wipertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wipertools/container.yaml"
-updated_at: "2025-04-26 03:13:28.083114"
+updated_at: "2025-04-27 03:23:30.106847"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wipertools"
 aliases:

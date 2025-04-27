@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/starcatpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starcatpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starcatpy/container.yaml"
-updated_at: "2025-04-26 03:09:41.258225"
-latest: "1.0.8--pyh7e72e81_0"
+updated_at: "2025-04-27 03:19:35.335990"
+latest: "1.0.9--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/starcatpy"
 aliases:
  - "starcat"
@@ -36,8 +36,9 @@ aliases:
  - "h5mkgrp"
 versions:
  - "1.0.8--pyh7e72e81_0"
+ - "1.0.9--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for starcatpy"
-config: {"url": "https://biocontainers.pro/tools/starcatpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for starcatpy", "latest": {"1.0.8--pyh7e72e81_0": "sha256:9f7bc1bf7eebe48ee7f0b423d53897b0b12530120c8aab7aa12557d7c4e932d3"}, "tags": {"1.0.8--pyh7e72e81_0": "sha256:9f7bc1bf7eebe48ee7f0b423d53897b0b12530120c8aab7aa12557d7c4e932d3"}, "docker": "quay.io/biocontainers/starcatpy", "aliases": {"starcat": "/usr/local/bin/starcat", "numpy-config": "/usr/local/bin/numpy-config", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
+config: {"url": "https://biocontainers.pro/tools/starcatpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for starcatpy", "latest": {"1.0.9--pyh7e72e81_0": "sha256:7be2369ce8ea4d34f981401ed3a61981ecdea504d0e2ade6f83e03c8d2899ac5"}, "tags": {"1.0.8--pyh7e72e81_0": "sha256:9f7bc1bf7eebe48ee7f0b423d53897b0b12530120c8aab7aa12557d7c4e932d3", "1.0.9--pyh7e72e81_0": "sha256:7be2369ce8ea4d34f981401ed3a61981ecdea504d0e2ade6f83e03c8d2899ac5"}, "docker": "quay.io/biocontainers/starcatpy", "aliases": {"starcat": "/usr/local/bin/starcat", "numpy-config": "/usr/local/bin/numpy-config", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/starcatpy.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/starcatpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/starcatpy:1.0.8--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/starcatpy:1.0.9--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/starcatpy/1.0.8--pyh7e72e81_0
-$ module help quay.io/biocontainers/starcatpy/1.0.8--pyh7e72e81_0
+$ module load quay.io/biocontainers/starcatpy/1.0.9--pyh7e72e81_0
+$ module help quay.io/biocontainers/starcatpy/1.0.9--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

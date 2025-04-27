@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/autocycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autocycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autocycler/container.yaml"
-updated_at: "2025-04-26 03:49:59.445197"
-latest: "0.2.1--h3ab6199_0"
+updated_at: "2025-04-27 04:01:18.763678"
+latest: "0.4.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/autocycler"
 aliases:
  - "autocycler"
 versions:
  - "0.2.1--h3ab6199_0"
+ - "0.4.0--h3ab6199_0"
+ - "0.3.0--h3ab6199_0"
 description: "singularity registry hpc automated addition for autocycler"
-config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
+config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729", "0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03", "0.3.0--h3ab6199_0": "crane digest quay.io/biocontainers/autocycler:0.3.0--h3ab6199_0: unrecognized HTTP status: 502 Bad Gateway"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autocycler.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/autocycler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autocycler:0.2.1--h3ab6199_0
+$ shpc install quay.io/biocontainers/autocycler:0.4.0--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autocycler/0.2.1--h3ab6199_0
-$ module help quay.io/biocontainers/autocycler/0.2.1--h3ab6199_0
+$ module load quay.io/biocontainers/autocycler/0.4.0--h3ab6199_0
+$ module help quay.io/biocontainers/autocycler/0.4.0--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

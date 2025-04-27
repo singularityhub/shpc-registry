@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lvsmirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lvsmirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lvsmirna/container.yaml"
-updated_at: "2025-04-26 03:31:44.039268"
+updated_at: "2025-04-27 03:42:32.244808"
 latest: "1.36.0--r36h516909a_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lvsmirna"
 aliases:

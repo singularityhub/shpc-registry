@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reduce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reduce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reduce/container.yaml"
-updated_at: "2025-04-26 03:26:05.898906"
-latest: "4.14--py312h9c9b0c2_3"
+updated_at: "2025-04-27 03:36:43.009598"
+latest: "4.15--h503566f_1"
 container_url: "https://biocontainers.pro/tools/reduce"
 aliases:
  - "reduce"
@@ -18,8 +18,9 @@ versions:
  - "4.14--py310hb119401_1"
  - "4.14--py311h9f068be_2"
  - "4.14--py312h9c9b0c2_3"
+ - "4.15--h503566f_1"
 description: "singularity registry hpc automated addition for reduce"
-config: {"url": "https://biocontainers.pro/tools/reduce", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reduce", "latest": {"4.14--py312h9c9b0c2_3": "sha256:4cbdab056f076356a600bda2efa686ff3e2bdb3fe73cd543552058d2c23db3d9"}, "tags": {"4.14--py310hb119401_1": "sha256:54116c6a44bc4a606d9505f2eeaa79cd2b7cff861bad0e656005b50633443bb0", "4.14--py311h9f068be_2": "sha256:9f5ec69926e679e63a9189e77333ec509c10a0f3c828176bfb73c0c8dab0bf56", "4.14--py312h9c9b0c2_3": "sha256:4cbdab056f076356a600bda2efa686ff3e2bdb3fe73cd543552058d2c23db3d9"}, "docker": "quay.io/biocontainers/reduce", "aliases": {"reduce": "/usr/local/bin/reduce", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/reduce", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reduce", "latest": {"4.15--h503566f_1": "sha256:f030c61d8b8967c2dfc296dd9afe4037b30cf81ef2531127be7298e8a78425cd"}, "tags": {"4.14--py310hb119401_1": "sha256:54116c6a44bc4a606d9505f2eeaa79cd2b7cff861bad0e656005b50633443bb0", "4.14--py311h9f068be_2": "sha256:9f5ec69926e679e63a9189e77333ec509c10a0f3c828176bfb73c0c8dab0bf56", "4.14--py312h9c9b0c2_3": "sha256:4cbdab056f076356a600bda2efa686ff3e2bdb3fe73cd543552058d2c23db3d9", "4.15--h503566f_1": "sha256:f030c61d8b8967c2dfc296dd9afe4037b30cf81ef2531127be7298e8a78425cd"}, "docker": "quay.io/biocontainers/reduce", "aliases": {"reduce": "/usr/local/bin/reduce", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reduce.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/reduce
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reduce:4.14--py312h9c9b0c2_3
+$ shpc install quay.io/biocontainers/reduce:4.15--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reduce/4.14--py312h9c9b0c2_3
-$ module help quay.io/biocontainers/reduce/4.14--py312h9c9b0c2_3
+$ module load quay.io/biocontainers/reduce/4.15--h503566f_1
+$ module help quay.io/biocontainers/reduce/4.15--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

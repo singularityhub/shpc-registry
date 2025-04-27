@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/git-lfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/git-lfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/git-lfs/container.yaml"
-updated_at: "2025-04-26 03:29:30.325802"
+updated_at: "2025-04-27 03:40:14.347726"
 latest: "1.5.2--0"
 container_url: "https://biocontainers.pro/tools/git-lfs"
 aliases:

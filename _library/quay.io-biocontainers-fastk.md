@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastk/container.yaml"
-updated_at: "2025-04-26 03:33:12.750237"
-latest: "1.1.0--h71df26d_1"
+updated_at: "2025-04-27 03:44:03.998411"
+latest: "1.1.0--h71df26d_2"
 container_url: "https://biocontainers.pro/tools/fastk"
 aliases:
  - "FastK"
@@ -27,8 +27,9 @@ versions:
  - "1.0--h4ef89c6_4"
  - "1.1.0--h4ef89c6_0"
  - "1.1.0--h71df26d_1"
+ - "1.1.0--h71df26d_2"
 description: "singularity registry hpc automated addition for fastk"
-config: {"url": "https://biocontainers.pro/tools/fastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastk", "latest": {"1.1.0--h71df26d_1": "sha256:7ec00693028c0822c47bfe25e63e17ce7546e0573f7815e2aab62980b450793a"}, "tags": {"1.0--h3e8787d_1": "sha256:4b7bfa967244033afaf0a70097d2951df519979cff99a6c6d56fc5c50356705b", "1.0--h3e8787d_2": "sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1", "1.0--h4ef89c6_4": "sha256:0503e48703d45e062b2b6875476241d7e95829f6b097b010e0c3476fa058f38a", "1.1.0--h4ef89c6_0": "sha256:95d2510da450b5d91fa1b085418e7e7e924e8541fd605c64cf1a0b1751b68797", "1.1.0--h71df26d_1": "sha256:7ec00693028c0822c47bfe25e63e17ce7546e0573f7815e2aab62980b450793a"}, "docker": "quay.io/biocontainers/fastk", "aliases": {"FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "Logex": "/usr/local/bin/Logex", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex"}}
+config: {"url": "https://biocontainers.pro/tools/fastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastk", "latest": {"1.1.0--h71df26d_2": "sha256:ce862cfc38b8337c9a5d64d719d597f09c7a01bc839dbea9c4486f4524483141"}, "tags": {"1.0--h3e8787d_1": "sha256:4b7bfa967244033afaf0a70097d2951df519979cff99a6c6d56fc5c50356705b", "1.0--h3e8787d_2": "sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1", "1.0--h4ef89c6_4": "sha256:0503e48703d45e062b2b6875476241d7e95829f6b097b010e0c3476fa058f38a", "1.1.0--h4ef89c6_0": "sha256:95d2510da450b5d91fa1b085418e7e7e924e8541fd605c64cf1a0b1751b68797", "1.1.0--h71df26d_1": "sha256:7ec00693028c0822c47bfe25e63e17ce7546e0573f7815e2aab62980b450793a", "1.1.0--h71df26d_2": "sha256:ce862cfc38b8337c9a5d64d719d597f09c7a01bc839dbea9c4486f4524483141"}, "docker": "quay.io/biocontainers/fastk", "aliases": {"FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "Logex": "/usr/local/bin/Logex", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastk.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/fastk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastk:1.1.0--h71df26d_1
+$ shpc install quay.io/biocontainers/fastk:1.1.0--h71df26d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastk/1.1.0--h71df26d_1
-$ module help quay.io/biocontainers/fastk/1.1.0--h71df26d_1
+$ module load quay.io/biocontainers/fastk/1.1.0--h71df26d_2
+$ module help quay.io/biocontainers/fastk/1.1.0--h71df26d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
