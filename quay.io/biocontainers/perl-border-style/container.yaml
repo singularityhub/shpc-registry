@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-border-style
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-border-style
 latest:
-  0.01--pl5321hdfd78af_3: sha256:2e3da85d6924785b303d27e6c5de01eac910958008001f89b1ede68a6c305eb1
+  0.01--pl5321hdfd78af_3: 'crane digest quay.io/biocontainers/perl-border-style:0.01--pl5321hdfd78af_3:
+    unrecognized HTTP status: 502 Bad Gateway'
 tags:
-  0.01--pl5321hdfd78af_3: sha256:2e3da85d6924785b303d27e6c5de01eac910958008001f89b1ede68a6c305eb1
+  0.01--pl5321hdfd78af_3: 'crane digest quay.io/biocontainers/perl-border-style:0.01--pl5321hdfd78af_3:
+    unrecognized HTTP status: 502 Bad Gateway'
 docker: quay.io/biocontainers/perl-border-style
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deepdetails
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deepdetails
 latest:
-  0.0.1rc1--pyhdfd78af_0: sha256:619f544a60f1b8cd456192d923949ceda567d918faaf4b9370dfb1e9258e9901
+  0.0.1rc2--pyhdfd78af_0: sha256:4cc34a3417ba4e7ffe2c18740b27f409ed237ce75274d58fbb5ed84481620d24
 tags:
   0.0.1rc1--pyhdfd78af_0: sha256:619f544a60f1b8cd456192d923949ceda567d918faaf4b9370dfb1e9258e9901
+  0.0.1rc2--pyhdfd78af_0: sha256:4cc34a3417ba4e7ffe2c18740b27f409ed237ce75274d58fbb5ed84481620d24
 docker: quay.io/biocontainers/deepdetails
 aliases:
   deepdetails: /usr/local/bin/deepdetails

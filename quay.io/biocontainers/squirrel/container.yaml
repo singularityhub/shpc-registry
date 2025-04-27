@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/squirrel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for squirrel
 latest:
-  1.0.13--pyhdfd78af_0: sha256:8f607fe8572248bbfe7ea6aac9d8075eb975ca9de5fbd3ae530bda26186c3c25
+  1.1.2--pyhdfd78af_0: sha256:ed95be96722d0635b1c1dc7ef2d05b7dec7de567e90f2272502652c7186da28a
 tags:
   1.0.8--pyhdfd78af_0: sha256:809834cfc36c79f8009e202f353989be0e78fa315ed9ede8662d1930e02825a2
   1.0.10--pyhdfd78af_0: sha256:275c570bd9127be69ba34f4038451302b6e405d2299adebd14220951cef8cc19
   1.0.11--pyhdfd78af_0: sha256:cf4ae51c5a9bd21efab9f4c026b8a5e520a6b2cc7298c589c5f1fee4920c86a2
   1.0.12--pyhdfd78af_0: sha256:a58665bd5e13a84f0ff1c119ad9163e936cb9bb159ad7a37227636752b598468
   1.0.13--pyhdfd78af_0: sha256:8f607fe8572248bbfe7ea6aac9d8075eb975ca9de5fbd3ae530bda26186c3c25
+  1.1.2--pyhdfd78af_0: sha256:ed95be96722d0635b1c1dc7ef2d05b7dec7de567e90f2272502652c7186da28a
 docker: quay.io/biocontainers/squirrel
 aliases:
   gofasta: /usr/local/bin/gofasta

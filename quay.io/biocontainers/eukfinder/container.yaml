@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/eukfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eukfinder
 latest:
-  1.2.3--py36hdbdd923_0: sha256:f4ebd933e98662c8f41c9a4479dbea1f8e1031ac427e99fe786a0e3ea2941dd1
+  1.2.4--py36h503566f_0: sha256:5e4fa3c775586d0634b999907cce8ebfb9b4ac8f422a5a429f38f6dd23985e48
 tags:
   1.2.3--py36hdbdd923_0: sha256:f4ebd933e98662c8f41c9a4479dbea1f8e1031ac427e99fe786a0e3ea2941dd1
+  1.2.4--py36h503566f_0: sha256:5e4fa3c775586d0634b999907cce8ebfb9b4ac8f422a5a429f38f6dd23985e48
 docker: quay.io/biocontainers/eukfinder
 aliases:
   Eukfinder.py: /usr/local/bin/Eukfinder.py
