@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-border-style"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-border-style/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-border-style/container.yaml"
-updated_at: "2025-04-27 03:43:33.307941"
+updated_at: "2025-04-28 03:49:38.577286"
 latest: "0.01--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-border-style"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "0.01--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-border-style"
-config: {"url": "https://biocontainers.pro/tools/perl-border-style", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-border-style", "latest": {"0.01--pl5321hdfd78af_3": "sha256:2e3da85d6924785b303d27e6c5de01eac910958008001f89b1ede68a6c305eb1"}, "tags": {"0.01--pl5321hdfd78af_3": "sha256:2e3da85d6924785b303d27e6c5de01eac910958008001f89b1ede68a6c305eb1"}, "docker": "quay.io/biocontainers/perl-border-style", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-border-style", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-border-style", "latest": {"0.01--pl5321hdfd78af_3": "crane digest quay.io/biocontainers/perl-border-style:0.01--pl5321hdfd78af_3: unrecognized HTTP status: 502 Bad Gateway"}, "tags": {"0.01--pl5321hdfd78af_3": "crane digest quay.io/biocontainers/perl-border-style:0.01--pl5321hdfd78af_3: unrecognized HTTP status: 502 Bad Gateway"}, "docker": "quay.io/biocontainers/perl-border-style", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-border-style.

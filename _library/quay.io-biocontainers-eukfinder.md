@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eukfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukfinder/container.yaml"
-updated_at: "2025-04-27 03:35:30.846722"
-latest: "1.2.3--py36hdbdd923_0"
+updated_at: "2025-04-28 03:40:35.062296"
+latest: "1.2.4--py36h503566f_0"
 container_url: "https://biocontainers.pro/tools/eukfinder"
 aliases:
  - "Eukfinder.py"
@@ -54,8 +54,9 @@ aliases:
  - "plasmidspades.py"
 versions:
  - "1.2.3--py36hdbdd923_0"
+ - "1.2.4--py36h503566f_0"
 description: "singularity registry hpc automated addition for eukfinder"
-config: {"url": "https://biocontainers.pro/tools/eukfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eukfinder", "latest": {"1.2.3--py36hdbdd923_0": "sha256:f4ebd933e98662c8f41c9a4479dbea1f8e1031ac427e99fe786a0e3ea2941dd1"}, "tags": {"1.2.3--py36hdbdd923_0": "sha256:f4ebd933e98662c8f41c9a4479dbea1f8e1031ac427e99fe786a0e3ea2941dd1"}, "docker": "quay.io/biocontainers/eukfinder", "aliases": {"Eukfinder.py": "/usr/local/bin/Eukfinder.py", "acc2tax": "/usr/local/bin/acc2tax", "centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "centrifuge_evaluate.py": "/usr/local/bin/centrifuge_evaluate.py", "centrifuge_simulate_reads.py": "/usr/local/bin/centrifuge_simulate_reads.py", "eukfinder": "/usr/local/bin/eukfinder", "plast": "/usr/local/bin/plast", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "seqkit": "/usr/local/bin/seqkit", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "trimmomatic": "/usr/local/bin/trimmomatic", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py"}}
+config: {"url": "https://biocontainers.pro/tools/eukfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eukfinder", "latest": {"1.2.4--py36h503566f_0": "sha256:5e4fa3c775586d0634b999907cce8ebfb9b4ac8f422a5a429f38f6dd23985e48"}, "tags": {"1.2.3--py36hdbdd923_0": "sha256:f4ebd933e98662c8f41c9a4479dbea1f8e1031ac427e99fe786a0e3ea2941dd1", "1.2.4--py36h503566f_0": "sha256:5e4fa3c775586d0634b999907cce8ebfb9b4ac8f422a5a429f38f6dd23985e48"}, "docker": "quay.io/biocontainers/eukfinder", "aliases": {"Eukfinder.py": "/usr/local/bin/Eukfinder.py", "acc2tax": "/usr/local/bin/acc2tax", "centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "centrifuge_evaluate.py": "/usr/local/bin/centrifuge_evaluate.py", "centrifuge_simulate_reads.py": "/usr/local/bin/centrifuge_simulate_reads.py", "eukfinder": "/usr/local/bin/eukfinder", "plast": "/usr/local/bin/plast", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "seqkit": "/usr/local/bin/seqkit", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "trimmomatic": "/usr/local/bin/trimmomatic", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukfinder.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/eukfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eukfinder:1.2.3--py36hdbdd923_0
+$ shpc install quay.io/biocontainers/eukfinder:1.2.4--py36h503566f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eukfinder/1.2.3--py36hdbdd923_0
-$ module help quay.io/biocontainers/eukfinder/1.2.3--py36hdbdd923_0
+$ module load quay.io/biocontainers/eukfinder/1.2.4--py36h503566f_0
+$ module help quay.io/biocontainers/eukfinder/1.2.4--py36h503566f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

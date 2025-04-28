@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lja/container.yaml"
-updated_at: "2025-04-27 03:33:28.594084"
+updated_at: "2025-04-28 03:38:22.800672"
 latest: "0.2--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/lja"
 aliases:

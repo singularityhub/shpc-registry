@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbgcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbgcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbgcpp/container.yaml"
-updated_at: "2025-04-27 03:52:03.178292"
+updated_at: "2025-04-28 03:59:15.236284"
 latest: "2.0.2--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/pbgcpp"
 aliases:

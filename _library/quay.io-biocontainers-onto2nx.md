@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/onto2nx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/onto2nx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/onto2nx/container.yaml"
-updated_at: "2025-04-27 03:58:02.984374"
+updated_at: "2025-04-28 04:06:07.339163"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/onto2nx"
 aliases:

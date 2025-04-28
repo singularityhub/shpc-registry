@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afpdb/container.yaml"
-updated_at: "2025-04-27 03:11:57.514277"
+updated_at: "2025-04-28 03:13:49.769136"
 latest: "0.2.3--pyhcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/afpdb"
 aliases:

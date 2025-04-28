@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viennarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viennarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viennarna/container.yaml"
-updated_at: "2025-04-27 03:45:21.093927"
+updated_at: "2025-04-28 03:51:39.671441"
 latest: "2.4.11--py36hdbcaa40_2"
 container_url: "https://biocontainers.pro/tools/viennarna"
 aliases:

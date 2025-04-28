@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protrac/container.yaml"
-updated_at: "2025-04-27 03:45:10.905579"
+updated_at: "2025-04-28 03:51:27.990636"
 latest: "2.4.2--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/protrac"
 aliases:

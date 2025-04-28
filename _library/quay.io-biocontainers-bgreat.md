@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgreat/container.yaml"
-updated_at: "2025-04-27 03:59:04.376181"
+updated_at: "2025-04-28 04:07:16.397866"
 latest: "2.0.0--hdb21b49_8"
 container_url: "https://biocontainers.pro/tools/bgreat"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "2.0.0--h5b5514e_7"
  - "2.0.0--hdb21b49_8"
 description: "shpc-registry automated BioContainers addition for bgreat"
-config: {"url": "https://biocontainers.pro/tools/bgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bgreat", "latest": {"2.0.0--hdb21b49_8": "sha256:291701fbc7979493ef4a5a137ba2a0f01f0fc932c3464cca9a07155ea84ccb2d"}, "tags": {"2.0.0--h5b5514e_4": "sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe", "2.0.0--h5b5514e_6": "sha256:283bf000d198421f9ba8839e1ef3aa6faafa8b920adbe034fc1841e681aed232", "2.0.0--h5b5514e_7": "sha256:5d7dbbceb559b761d73e5446073327f05386936f186842cdc2aab13119c13140", "2.0.0--hdb21b49_8": "sha256:291701fbc7979493ef4a5a137ba2a0f01f0fc932c3464cca9a07155ea84ccb2d"}, "docker": "quay.io/biocontainers/bgreat", "aliases": {"bgreat": "/usr/local/bin/bgreat"}}
+config: {"url": "https://biocontainers.pro/tools/bgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bgreat", "latest": {"2.0.0--hdb21b49_8": "sha256:291701fbc7979493ef4a5a137ba2a0f01f0fc932c3464cca9a07155ea84ccb2d"}, "tags": {"2.0.0--h5b5514e_4": "sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe", "2.0.0--h5b5514e_6": "crane digest quay.io/biocontainers/bgreat:2.0.0--h5b5514e_6: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n", "2.0.0--h5b5514e_7": "sha256:5d7dbbceb559b761d73e5446073327f05386936f186842cdc2aab13119c13140", "2.0.0--hdb21b49_8": "sha256:291701fbc7979493ef4a5a137ba2a0f01f0fc932c3464cca9a07155ea84ccb2d"}, "docker": "quay.io/biocontainers/bgreat", "aliases": {"bgreat": "/usr/local/bin/bgreat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bgreat.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datma/container.yaml"
-updated_at: "2025-04-27 03:20:10.189578"
+updated_at: "2025-04-28 03:23:16.844470"
 latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/datma"
 aliases:

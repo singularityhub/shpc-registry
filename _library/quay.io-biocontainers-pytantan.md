@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytantan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytantan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytantan/container.yaml"
-updated_at: "2025-04-27 03:21:13.763493"
+updated_at: "2025-04-28 03:24:32.865090"
 latest: "0.1.3--py310h5140242_0"
 container_url: "https://biocontainers.pro/tools/pytantan"
 aliases:

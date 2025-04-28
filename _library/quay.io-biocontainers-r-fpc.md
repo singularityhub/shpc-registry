@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fpc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fpc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fpc/container.yaml"
-updated_at: "2025-04-27 03:54:39.860443"
+updated_at: "2025-04-28 04:02:10.335376"
 latest: "2.1_10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-fpc"
 aliases:

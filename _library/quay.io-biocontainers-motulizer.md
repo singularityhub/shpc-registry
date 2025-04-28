@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/motulizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motulizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motulizer/container.yaml"
-updated_at: "2025-04-27 03:17:56.012664"
+updated_at: "2025-04-28 03:20:44.003702"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/motulizer"
 aliases:

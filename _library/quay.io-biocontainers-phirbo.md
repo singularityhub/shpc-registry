@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phirbo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phirbo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phirbo/container.yaml"
-updated_at: "2025-04-27 03:25:32.035848"
+updated_at: "2025-04-28 03:29:30.936855"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phirbo"
 aliases:
