@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/esme_omb_psmpi_5_10_0
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_omb_psmpi_5_10_0
+latest:
+  7.5--h398be14_0: sha256:ffa57cfde21b54939e3cf146edad1085f216bbc7600bde9ee2973cf107827dbb
+tags:
+  7.5--h398be14_0: sha256:ffa57cfde21b54939e3cf146edad1085f216bbc7600bde9ee2973cf107827dbb
+docker: quay.io/biocontainers/esme_omb_psmpi_5_10_0
+aliases:
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup

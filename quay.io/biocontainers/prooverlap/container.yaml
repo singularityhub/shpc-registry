@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/prooverlap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for prooverlap
+latest:
+  0.1.2--pyhdfd78af_0: sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
+tags:
+  0.1.2--pyhdfd78af_0: sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
+docker: quay.io/biocontainers/prooverlap
+aliases:
+  prooverlap: /usr/local/bin/prooverlap
+  numpy-config: /usr/local/bin/numpy-config
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed
+  maskFastaFromBed: /usr/local/bin/maskFastaFromBed
+  mergeBed: /usr/local/bin/mergeBed

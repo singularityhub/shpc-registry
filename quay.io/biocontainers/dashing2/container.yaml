@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dashing2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dashing2
+latest:
+  2.1.20--he9e5f93_0: sha256:98a375decdd6f495743632932cb9dedd55afc1111a30cac45ac468c77cddef38
+tags:
+  2.1.20--he9e5f93_0: sha256:98a375decdd6f495743632932cb9dedd55afc1111a30cac45ac468c77cddef38
+docker: quay.io/biocontainers/dashing2
+aliases:
+  dashing2: /usr/local/bin/dashing2
+  dashing2-64: /usr/local/bin/dashing2-64
+  dashing2-tmp: /usr/local/bin/dashing2-tmp

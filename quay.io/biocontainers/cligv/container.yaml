@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/cligv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cligv
+latest:
+  0.1.0--pyhdfd78af_0: sha256:705cc5c31a17c6f40ea91e483ab4d595ca2cb86c7ef1cd337de43226b67e218b
+tags:
+  0.1.0--pyhdfd78af_0: sha256:705cc5c31a17c6f40ea91e483ab4d595ca2cb86c7ef1cd337de43226b67e218b
+docker: quay.io/biocontainers/cligv
+aliases:
+  cligv: /usr/local/bin/cligv
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

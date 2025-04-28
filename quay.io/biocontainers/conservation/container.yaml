@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/conservation
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for conservation
+latest:
+  1.0.1--pyhdfd78af_0: sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
+tags:
+  1.0.1--pyhdfd78af_0: sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
+docker: quay.io/biocontainers/conservation
+aliases:
+  conservation: /usr/local/bin/conservation
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

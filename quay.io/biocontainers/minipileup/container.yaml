@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/minipileup
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for minipileup
+latest:
+  1.4b--h577a1d6_0: sha256:bb73a6029a50848f8552aef3b3cd6f8200108fc6b368b77760df877eaa3dc175
+tags:
+  1.4b--h577a1d6_0: sha256:bb73a6029a50848f8552aef3b3cd6f8200108fc6b368b77760df877eaa3dc175
+docker: quay.io/biocontainers/minipileup
+aliases:
+  minipileup: /usr/local/bin/minipileup

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/esme_pnetcdf_psmpi_5_10_0
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_pnetcdf_psmpi_5_10_0
+latest:
+  1.14.0--h26175d7_0: sha256:67e972d50acd030ac3bd9fcb9ee92f3387189ec04a5a0b23fbc494435eb925a4
+tags:
+  1.14.0--h26175d7_0: sha256:67e972d50acd030ac3bd9fcb9ee92f3387189ec04a5a0b23fbc494435eb925a4
+docker: quay.io/biocontainers/esme_pnetcdf_psmpi_5_10_0
+aliases:
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list

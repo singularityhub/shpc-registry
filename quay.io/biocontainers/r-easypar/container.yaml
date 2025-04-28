@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-easypar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-easypar
+latest:
+  1.0.0--r44hdfd78af_0: sha256:6f0dbcdebaecda38366371fdf5e9b58273d7112e055738f8fd5e71aaa38e13da
+tags:
+  1.0.0--r44hdfd78af_0: sha256:6f0dbcdebaecda38366371fdf5e9b58273d7112e055738f8fd5e71aaa38e13da
+docker: quay.io/biocontainers/r-easypar
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
