@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/perl-datetime-locale
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-datetime-locale
 latest:
-  1.44--pl5321h9948957_1: sha256:88014f8cfd4cec2396ccb9966c34991543de508bb22a5286bb35fd36add50b0f
+  1.45--pl5321h9948957_0: sha256:be6a197d74b5c9dd8e2c787f7186acb8d5906fb92a5868c2715322d847e46681
 tags:
   1.36--pl5321h9f5acd7_0: sha256:5dee016a721c609a03bf2ee0e6d327048e4325fda77efc2c8ddef4a29e2edd32
   1.37--pl5321h9f5acd7_0: sha256:2df055ab5cc2f3a54287e56f9b884f39107332cb15d60edaf7138fc04ebb3802
@@ -12,6 +12,7 @@ tags:
   1.43--pl5321h4ac6f70_0: sha256:7b34c2e49ffcfa616b2c19b31ba8561330f65b5aea5c6a7545e88db690dbddf8
   1.44--pl5321h4ac6f70_0: sha256:4db1c248c4d06af532d43e901fd1d7c064ae47df5108cbdcd43aefe492a1becc
   1.44--pl5321h9948957_1: sha256:88014f8cfd4cec2396ccb9966c34991543de508bb22a5286bb35fd36add50b0f
+  1.45--pl5321h9948957_0: sha256:be6a197d74b5c9dd8e2c787f7186acb8d5906fb92a5868c2715322d847e46681
 docker: quay.io/biocontainers/perl-datetime-locale
 aliases:
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
