@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tailfindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tailfindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tailfindr/container.yaml"
-updated_at: "2025-04-28 04:09:21.818449"
+updated_at: "2025-04-28 04:31:58.454980"
 latest: "1.4--r44h9948957_3"
 container_url: "https://biocontainers.pro/tools/r-tailfindr"
 aliases:

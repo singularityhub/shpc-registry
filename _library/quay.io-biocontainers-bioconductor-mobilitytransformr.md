@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mobilitytransformr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mobilitytransformr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mobilitytransformr/container.yaml"
-updated_at: "2025-04-28 03:48:33.635843"
+updated_at: "2025-04-28 04:13:54.087450"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mobilitytransformr"
 aliases:

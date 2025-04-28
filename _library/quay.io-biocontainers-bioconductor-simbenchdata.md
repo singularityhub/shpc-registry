@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simbenchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simbenchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simbenchdata/container.yaml"
-updated_at: "2025-04-28 03:28:58.153326"
+updated_at: "2025-04-28 03:56:34.101433"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simbenchdata"
 
