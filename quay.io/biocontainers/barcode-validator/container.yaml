@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/barcode-validator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for barcode-validator
+latest:
+  2.0.1--pyhdfd78af_0: sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929
+tags:
+  2.0.1--pyhdfd78af_0: sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929
+docker: quay.io/biocontainers/barcode-validator
+aliases:
+  pax11publish: /usr/local/bin/pax11publish
+  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel

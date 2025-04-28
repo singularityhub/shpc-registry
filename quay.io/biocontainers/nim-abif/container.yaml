@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nim-abif
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nim-abif
+latest:
+  0.1.0--h7b50bb2_0: sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2
+tags:
+  0.1.0--h7b50bb2_0: sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2
+docker: quay.io/biocontainers/nim-abif
+aliases:
+  abi2fq: /usr/local/bin/abi2fq
+  abif: /usr/local/bin/abif

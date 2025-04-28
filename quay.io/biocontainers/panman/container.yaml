@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/panman
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panman
+latest:
+  0.1.3--hc6f3cee_0: sha256:e83e94c302e42b4f89216255c754ccd4607692cd5dbc16d396406db9dc3ad9a7
+tags:
+  0.1.3--hc6f3cee_0: sha256:e83e94c302e42b4f89216255c754ccd4607692cd5dbc16d396406db9dc3ad9a7
+docker: quay.io/biocontainers/panman
+aliases:
+  panmanUtils: /usr/local/bin/panmanUtils
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  protoc: /usr/local/bin/protoc

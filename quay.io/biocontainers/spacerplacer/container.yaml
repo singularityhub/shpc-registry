@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/spacerplacer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spacerplacer
+latest:
+  1.0.1--pyhdfd78af_0: sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
+tags:
+  1.0.1--pyhdfd78af_0: sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
+docker: quay.io/biocontainers/spacerplacer
+aliases:
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  pax11publish: /usr/local/bin/pax11publish
+  spacerplacer: /usr/local/bin/spacerplacer
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  get_gprof: /usr/local/bin/get_gprof
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  gawkbug: /usr/local/bin/gawkbug
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
