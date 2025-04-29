@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intomics/container.yaml"
-updated_at: "2025-04-28 03:53:13.933687"
+updated_at: "2025-04-29 03:18:55.700026"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intomics"
 aliases:

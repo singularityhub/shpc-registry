@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-datetime-locale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-locale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-locale/container.yaml"
-updated_at: "2025-04-28 03:45:06.212414"
-latest: "1.44--pl5321h9948957_1"
+updated_at: "2025-04-29 03:11:02.878305"
+latest: "1.45--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime-locale"
 aliases:
  - "package-stash-conflicts"
@@ -21,8 +21,9 @@ versions:
  - "1.43--pl5321h4ac6f70_0"
  - "1.44--pl5321h4ac6f70_0"
  - "1.44--pl5321h9948957_1"
+ - "1.45--pl5321h9948957_0"
 description: "shpc-registry automated BioContainers addition for perl-datetime-locale"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime-locale", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-locale", "latest": {"1.44--pl5321h9948957_1": "sha256:88014f8cfd4cec2396ccb9966c34991543de508bb22a5286bb35fd36add50b0f"}, "tags": {"1.36--pl5321h9f5acd7_0": "sha256:5dee016a721c609a03bf2ee0e6d327048e4325fda77efc2c8ddef4a29e2edd32", "1.37--pl5321h9f5acd7_0": "sha256:2df055ab5cc2f3a54287e56f9b884f39107332cb15d60edaf7138fc04ebb3802", "1.38--pl5321h9f5acd7_0": "sha256:6797084c9cf7ad3778a1c84e4f855238397f216573378709591b93393d53fb77", "1.38--pl5321h4ac6f70_1": "sha256:5888f3b1777be561d04824f96979ca80bde3ca3ee86392d6d4e1a0af7686a45e", "1.39--pl5321h4ac6f70_0": "sha256:62de94776cdbb3a88c57f613676c2d9144ae533a4cf0b643f3e1d4fc0ddb9c1b", "1.43--pl5321h4ac6f70_0": "sha256:7b34c2e49ffcfa616b2c19b31ba8561330f65b5aea5c6a7545e88db690dbddf8", "1.44--pl5321h4ac6f70_0": "sha256:4db1c248c4d06af532d43e901fd1d7c064ae47df5108cbdcd43aefe492a1becc", "1.44--pl5321h9948957_1": "sha256:88014f8cfd4cec2396ccb9966c34991543de508bb22a5286bb35fd36add50b0f"}, "docker": "quay.io/biocontainers/perl-datetime-locale", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime-locale", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-locale", "latest": {"1.45--pl5321h9948957_0": "sha256:be6a197d74b5c9dd8e2c787f7186acb8d5906fb92a5868c2715322d847e46681"}, "tags": {"1.36--pl5321h9f5acd7_0": "sha256:5dee016a721c609a03bf2ee0e6d327048e4325fda77efc2c8ddef4a29e2edd32", "1.37--pl5321h9f5acd7_0": "sha256:2df055ab5cc2f3a54287e56f9b884f39107332cb15d60edaf7138fc04ebb3802", "1.38--pl5321h9f5acd7_0": "sha256:6797084c9cf7ad3778a1c84e4f855238397f216573378709591b93393d53fb77", "1.38--pl5321h4ac6f70_1": "sha256:5888f3b1777be561d04824f96979ca80bde3ca3ee86392d6d4e1a0af7686a45e", "1.39--pl5321h4ac6f70_0": "sha256:62de94776cdbb3a88c57f613676c2d9144ae533a4cf0b643f3e1d4fc0ddb9c1b", "1.43--pl5321h4ac6f70_0": "sha256:7b34c2e49ffcfa616b2c19b31ba8561330f65b5aea5c6a7545e88db690dbddf8", "1.44--pl5321h4ac6f70_0": "sha256:4db1c248c4d06af532d43e901fd1d7c064ae47df5108cbdcd43aefe492a1becc", "1.44--pl5321h9948957_1": "sha256:88014f8cfd4cec2396ccb9966c34991543de508bb22a5286bb35fd36add50b0f", "1.45--pl5321h9948957_0": "sha256:be6a197d74b5c9dd8e2c787f7186acb8d5906fb92a5868c2715322d847e46681"}, "docker": "quay.io/biocontainers/perl-datetime-locale", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime-locale.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/perl-datetime-locale
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-datetime-locale:1.44--pl5321h9948957_1
+$ shpc install quay.io/biocontainers/perl-datetime-locale:1.45--pl5321h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-datetime-locale/1.44--pl5321h9948957_1
-$ module help quay.io/biocontainers/perl-datetime-locale/1.44--pl5321h9948957_1
+$ module load quay.io/biocontainers/perl-datetime-locale/1.45--pl5321h9948957_0
+$ module help quay.io/biocontainers/perl-datetime-locale/1.45--pl5321h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

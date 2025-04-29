@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/instanovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instanovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instanovo/container.yaml"
-updated_at: "2025-04-28 04:07:47.783486"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-04-29 03:33:11.185072"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/instanovo"
 aliases:
  - "datasets-cli"
@@ -42,8 +42,9 @@ aliases:
  - "yat2m"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for instanovo"
-config: {"url": "https://biocontainers.pro/tools/instanovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for instanovo", "latest": {"1.0.0--pyhdfd78af_0": "sha256:e28eabae0be906b7bdf48335d561023d6ced5c332be9913e3ed0b0b3659f69e4"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:e28eabae0be906b7bdf48335d561023d6ced5c332be9913e3ed0b0b3659f69e4"}, "docker": "quay.io/biocontainers/instanovo", "aliases": {"datasets-cli": "/usr/local/bin/datasets-cli", "dotenv": "/usr/local/bin/dotenv", "huggingface-cli": "/usr/local/bin/huggingface-cli", "jiwer": "/usr/local/bin/jiwer", "neptune": "/usr/local/bin/neptune", "pygrun": "/usr/local/bin/pygrun", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jsonpointer": "/usr/local/bin/jsonpointer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wsdump": "/usr/local/bin/wsdump", "get_gprof": "/usr/local/bin/get_gprof", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "xxhsum": "/usr/local/bin/xxhsum", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m"}}
+config: {"url": "https://biocontainers.pro/tools/instanovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for instanovo", "latest": {"1.1.1--pyhdfd78af_0": "sha256:9f16d2bddaf23f5d50ffcc27e36286af5d569bea8742e4f095748c7ac630a556"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:e28eabae0be906b7bdf48335d561023d6ced5c332be9913e3ed0b0b3659f69e4", "1.1.1--pyhdfd78af_0": "sha256:9f16d2bddaf23f5d50ffcc27e36286af5d569bea8742e4f095748c7ac630a556"}, "docker": "quay.io/biocontainers/instanovo", "aliases": {"datasets-cli": "/usr/local/bin/datasets-cli", "dotenv": "/usr/local/bin/dotenv", "huggingface-cli": "/usr/local/bin/huggingface-cli", "jiwer": "/usr/local/bin/jiwer", "neptune": "/usr/local/bin/neptune", "pygrun": "/usr/local/bin/pygrun", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jsonpointer": "/usr/local/bin/jsonpointer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wsdump": "/usr/local/bin/wsdump", "get_gprof": "/usr/local/bin/get_gprof", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "xxhsum": "/usr/local/bin/xxhsum", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/instanovo.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/instanovo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/instanovo:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/instanovo:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/instanovo/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/instanovo/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/instanovo/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/instanovo/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
