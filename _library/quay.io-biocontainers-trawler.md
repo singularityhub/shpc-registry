@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trawler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trawler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trawler/container.yaml"
-updated_at: "2025-04-29 03:37:16.980695"
+updated_at: "2025-04-30 03:37:24.638068"
 latest: "2.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/trawler"
 aliases:

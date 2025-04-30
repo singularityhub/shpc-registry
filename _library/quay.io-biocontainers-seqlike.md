@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqlike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqlike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqlike/container.yaml"
-updated_at: "2025-04-29 03:21:48.682692"
+updated_at: "2025-04-30 03:21:58.069475"
 latest: "1.1.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/seqlike"
 aliases:

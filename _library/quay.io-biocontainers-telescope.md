@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telescope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telescope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telescope/container.yaml"
-updated_at: "2025-04-29 03:36:59.872895"
+updated_at: "2025-04-30 03:37:07.485578"
 latest: "1.0.3--py37hc399e3d_5"
 container_url: "https://biocontainers.pro/tools/telescope"
 aliases:

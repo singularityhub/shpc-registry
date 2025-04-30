@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-zenodo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-zenodo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-zenodo/container.yaml"
-updated_at: "2025-04-29 03:24:45.591579"
+updated_at: "2025-04-30 03:24:53.883667"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-zenodo"
 aliases:

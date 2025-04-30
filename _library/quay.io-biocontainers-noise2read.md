@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/noise2read"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/noise2read/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/noise2read/container.yaml"
-updated_at: "2025-04-29 03:37:40.088505"
+updated_at: "2025-04-30 03:37:47.805423"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/noise2read"
 aliases:

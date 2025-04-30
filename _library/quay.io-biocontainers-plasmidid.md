@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidid/container.yaml"
-updated_at: "2025-04-29 03:28:03.205330"
+updated_at: "2025-04-30 03:28:11.077038"
 latest: "1.6.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasmidid"
 aliases:

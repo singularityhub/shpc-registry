@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lowmacaannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lowmacaannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lowmacaannotation/container.yaml"
-updated_at: "2025-04-29 03:56:27.184775"
+updated_at: "2025-04-30 03:56:30.838895"
 latest: "0.99.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-lowmacaannotation"
 
