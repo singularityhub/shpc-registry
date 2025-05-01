@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/cagecleaner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cagecleaner
+latest:
+  1.2.0--pyhdfd78af_0: sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6
+tags:
+  1.2.0--pyhdfd78af_0: sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6
+docker: quay.io/biocontainers/cagecleaner
+aliases:
+  cagecleaner: /usr/local/bin/cagecleaner
+  cblaster: /usr/local/bin/cblaster
+  cidder: /usr/local/bin/cidder
+  clinker: /usr/local/bin/clinker
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  dereplicate_assemblies.sh: /usr/local/bin/dereplicate_assemblies.sh
+  download_assemblies.sh: /usr/local/bin/download_assemblies.sh
+  get_accessions.sh: /usr/local/bin/get_accessions.sh
+  granet: /usr/local/bin/granet
+  mgecut: /usr/local/bin/mgecut
+  psghelp: /usr/local/bin/psghelp
+  psgissue: /usr/local/bin/psgissue
+  psgmain: /usr/local/bin/psgmain
+  psgsettings: /usr/local/bin/psgsettings
+  psgupgrade: /usr/local/bin/psgupgrade
+  psgver: /usr/local/bin/psgver
+  runProdigalAndMakeProperGenbank.py: /usr/local/bin/runProdigalAndMakeProperGenbank.py
+  skDERcore: /usr/local/bin/skDERcore
+  skDERsum: /usr/local/bin/skDERsum
+  skani: /usr/local/bin/skani
+  skder: /usr/local/bin/skder
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  FET.pl: /usr/local/bin/FET.pl
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
