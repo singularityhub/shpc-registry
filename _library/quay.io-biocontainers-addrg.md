@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/addrg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/addrg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/addrg/container.yaml"
-updated_at: "2025-04-30 03:14:15.102326"
+updated_at: "2025-05-01 03:24:30.573409"
 latest: "0.2.1--h577a1d6_13"
 container_url: "https://biocontainers.pro/tools/addrg"
 aliases:

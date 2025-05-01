@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-aceperl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-aceperl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-aceperl/container.yaml"
-updated_at: "2025-04-30 03:13:25.638807"
+updated_at: "2025-05-01 03:23:41.161539"
 latest: "1.92--pl5321h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/perl-aceperl"
 aliases:
