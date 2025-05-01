@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reneo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reneo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reneo/container.yaml"
-updated_at: "2025-05-01 03:46:53.150033"
+updated_at: "2025-05-01 07:04:18.790609"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reneo"
 aliases:

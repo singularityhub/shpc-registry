@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsbml/container.yaml"
-updated_at: "2025-05-01 04:06:46.404211"
+updated_at: "2025-05-01 07:24:12.728920"
 latest: "2.60.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsbml"
 

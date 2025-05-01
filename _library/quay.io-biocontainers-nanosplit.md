@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanosplit/container.yaml"
-updated_at: "2025-05-01 03:57:19.186734"
+updated_at: "2025-05-01 07:14:49.651589"
 latest: "0.1.4--py36_0"
 container_url: "https://biocontainers.pro/tools/nanosplit"
 aliases:

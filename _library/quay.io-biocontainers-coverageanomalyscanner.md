@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coverageanomalyscanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
-updated_at: "2025-05-01 03:25:55.803652"
+updated_at: "2025-05-01 06:42:35.644090"
 latest: "0.2.3--h69ac913_4"
 container_url: "https://biocontainers.pro/tools/coverageanomalyscanner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xeva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xeva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xeva/container.yaml"
-updated_at: "2025-05-01 04:01:01.204959"
+updated_at: "2025-05-01 07:18:26.475830"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xeva"
 aliases:

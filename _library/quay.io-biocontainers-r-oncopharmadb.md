@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-oncopharmadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-oncopharmadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-oncopharmadb/container.yaml"
-updated_at: "2025-05-01 03:52:41.662042"
+updated_at: "2025-05-01 07:10:12.251255"
 latest: "1.9.2--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-oncopharmadb"
 
