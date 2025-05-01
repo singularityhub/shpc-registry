@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ltr_harvest_parallel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ltr_harvest_parallel
 latest:
-  1.1--hdfd78af_1: sha256:90da79dc3f17f8feb4fa2563fc449f18084b4dc3e379f70ca3130ee90e253d10
+  1.2--hdfd78af_0: sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806
 tags:
   1.1--hdfd78af_0: sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755
   1.1--hdfd78af_1: sha256:90da79dc3f17f8feb4fa2563fc449f18084b4dc3e379f70ca3130ee90e253d10
+  1.2--hdfd78af_0: sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806
 docker: quay.io/biocontainers/ltr_harvest_parallel
 aliases:
   LTR_HARVEST_parallel: /usr/local/bin/LTR_HARVEST_parallel

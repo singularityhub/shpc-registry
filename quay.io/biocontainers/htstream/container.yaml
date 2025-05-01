@@ -2,21 +2,13 @@ url: https://biocontainers.pro/tools/htstream
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for htstream
 latest:
-  1.4.1--hbefcdb2_2: "crane digest quay.io/biocontainers/htstream:1.4.1--hbefcdb2_2:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.4.1--hbefcdb2_2: sha256:2405faa34c5f9bba556c2190a73c81b9390289292bf7c3419f673db30f141f2c
 tags:
   1.3.3--h39f6147_2: sha256:9a6dfe01cf8c656645abb2c430c529cab66cd9652ba3d1c5f4d1bfc1d9b4f650
   1.3.3--he82b154_4: sha256:77d16606afea262612acc312bb3d08f2a8cfbc80d1de3ac8aac73edc5a0a7e8b
   1.3.3--hf5e1c6e_5: sha256:8b2f45de7711e0d3ea896bb07b2caf7edaec0206ef769a1d4a3b05fbb32c3996
   1.3.3--h13024bc_6: sha256:d454c0374dcf37166286779627a66b8f904d70357a18252b27ea800309ad658c
-  1.4.1--hbefcdb2_2: "crane digest quay.io/biocontainers/htstream:1.4.1--hbefcdb2_2:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.4.1--hbefcdb2_2: sha256:2405faa34c5f9bba556c2190a73c81b9390289292bf7c3419f673db30f141f2c
 docker: quay.io/biocontainers/htstream
 aliases:
   hts_AdapterTrimmer: /usr/local/bin/hts_AdapterTrimmer

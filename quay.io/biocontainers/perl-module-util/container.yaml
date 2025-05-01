@@ -2,17 +2,9 @@ url: https://biocontainers.pro/tools/perl-module-util
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-module-util
 latest:
-  1.09--pl5321hdfd78af_1: "crane digest quay.io/biocontainers/perl-module-util:1.09--pl5321hdfd78af_1:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.09--pl5321hdfd78af_1: sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9
 tags:
-  1.09--pl5321hdfd78af_1: "crane digest quay.io/biocontainers/perl-module-util:1.09--pl5321hdfd78af_1:
-    unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n
-    <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target
-    URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>.
-    If not, click the link.\n"
+  1.09--pl5321hdfd78af_1: sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9
 docker: quay.io/biocontainers/perl-module-util
 aliases:
   pm_which: /usr/local/bin/pm_which

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/lastz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lastz
 latest:
-  1.04.45--h7b50bb2_0: sha256:cac08947f66ba04f51d430239d78a3ecea1ef36b1eb6e27981e0adcc99ef3307
+  1.04.52--h7b50bb2_1: sha256:b51f91911b8f3fe68c24fbcdd658c1f23c06b5ddaa543fa6ca0f169df414828f
 tags:
   1.04.15--hec16e2b_1: sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89
   1.04.15--h031d066_3: sha256:70dddce735229fa858b5dad176ab09baf82c63db1634694569f4a1d0da34afe6
@@ -10,6 +10,7 @@ tags:
   1.04.22--h031d066_1: sha256:d7f9bd00d3c2ef56a30ad17ca8230f458eb2ea7e3ceb8765e84b0d47ee4559dc
   1.04.41--h7b50bb2_0: sha256:7a22f0b657a19689a9ebc6dadbf30ac821ed9c7aaeb69f4e34d5bfef2ee2d2f6
   1.04.45--h7b50bb2_0: sha256:cac08947f66ba04f51d430239d78a3ecea1ef36b1eb6e27981e0adcc99ef3307
+  1.04.52--h7b50bb2_1: sha256:b51f91911b8f3fe68c24fbcdd658c1f23c06b5ddaa543fa6ca0f169df414828f
 docker: quay.io/biocontainers/lastz
 aliases:
   lastz: /usr/local/bin/lastz
