@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-redux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-redux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-redux/container.yaml"
-updated_at: "2025-05-01 06:55:59.396435"
-latest: "1.1--hdfd78af_1"
+updated_at: "2025-05-02 03:32:44.873140"
+latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-redux"
 aliases:
  - "redux"
@@ -40,8 +40,9 @@ versions:
  - "1.0_beta--hdfd78af_6"
  - "1.1--hdfd78af_1"
  - "1.1.1--hdfd78af_0"
+ - "1.1.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-redux"
-config: {"url": "https://biocontainers.pro/tools/hmftools-redux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-redux", "latest": {"1.1--hdfd78af_1": "sha256:88aec019dc959299cc89f030810368fd664907e9eaa57bb853919590c4b9f6b3"}, "tags": {"1.0_beta--hdfd78af_0": "sha256:cd8b9582cdc782c83332b0d4b4c532f617c41d19d0725426413de301cd5da6ed", "1.0_beta--hdfd78af_2": "sha256:bc04457a9957c2d9f07e4de2209114062341ec65a98b7370c70bd400abedd994", "1.0_beta--hdfd78af_6": "sha256:4f06df9cfd9c1cce87c7c3c6add99b9e99a68f05e64d4c36865aab90efa11de6", "1.1--hdfd78af_1": "sha256:88aec019dc959299cc89f030810368fd664907e9eaa57bb853919590c4b9f6b3", "1.1.1--hdfd78af_0": "sha256:1f32e45396f901b836a7727daa993b2e83a9b5a4845219d6fc2d09a1155eea45"}, "docker": "quay.io/biocontainers/hmftools-redux", "aliases": {"redux": "/usr/local/bin/redux", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "tjbench": "/usr/local/bin/tjbench", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-redux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-redux", "latest": {"1.1.2--hdfd78af_0": "sha256:1fdf702500f5f017e5f30b3f30645905754f8c6b06ef05760a59a72d64d38371"}, "tags": {"1.0_beta--hdfd78af_0": "sha256:cd8b9582cdc782c83332b0d4b4c532f617c41d19d0725426413de301cd5da6ed", "1.0_beta--hdfd78af_2": "sha256:bc04457a9957c2d9f07e4de2209114062341ec65a98b7370c70bd400abedd994", "1.0_beta--hdfd78af_6": "sha256:4f06df9cfd9c1cce87c7c3c6add99b9e99a68f05e64d4c36865aab90efa11de6", "1.1--hdfd78af_1": "sha256:88aec019dc959299cc89f030810368fd664907e9eaa57bb853919590c4b9f6b3", "1.1.1--hdfd78af_0": "sha256:1f32e45396f901b836a7727daa993b2e83a9b5a4845219d6fc2d09a1155eea45", "1.1.2--hdfd78af_0": "sha256:1fdf702500f5f017e5f30b3f30645905754f8c6b06ef05760a59a72d64d38371"}, "docker": "quay.io/biocontainers/hmftools-redux", "aliases": {"redux": "/usr/local/bin/redux", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "tjbench": "/usr/local/bin/tjbench", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-redux.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/hmftools-redux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-redux:1.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/hmftools-redux:1.1.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-redux/1.1--hdfd78af_1
-$ module help quay.io/biocontainers/hmftools-redux/1.1--hdfd78af_1
+$ module load quay.io/biocontainers/hmftools-redux/1.1.2--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-redux/1.1.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

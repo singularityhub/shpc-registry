@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ogtfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ogtfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ogtfinder/container.yaml"
-updated_at: "2025-05-01 07:01:36.624070"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2025-05-02 03:38:15.570540"
+latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ogtfinder"
 aliases:
  - "ogtfinder"
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "0.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ogtfinder"
-config: {"url": "https://biocontainers.pro/tools/ogtfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ogtfinder", "latest": {"0.0.1--pyhdfd78af_0": "sha256:054081de20eb33658e3e562b091b1c7c3b519d557504e8b5535f0b808ee064e8"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:054081de20eb33658e3e562b091b1c7c3b519d557504e8b5535f0b808ee064e8"}, "docker": "quay.io/biocontainers/ogtfinder", "aliases": {"ogtfinder": "/usr/local/bin/ogtfinder", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/ogtfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ogtfinder", "latest": {"0.0.2--pyhdfd78af_0": "sha256:d696f5ea95a76ad5a7c49ce380911050efcbf6ddf06cba2126d76241774fd030"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:054081de20eb33658e3e562b091b1c7c3b519d557504e8b5535f0b808ee064e8", "0.0.2--pyhdfd78af_0": "sha256:d696f5ea95a76ad5a7c49ce380911050efcbf6ddf06cba2126d76241774fd030"}, "docker": "quay.io/biocontainers/ogtfinder", "aliases": {"ogtfinder": "/usr/local/bin/ogtfinder", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ogtfinder.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ogtfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ogtfinder:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ogtfinder:0.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ogtfinder/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ogtfinder/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ogtfinder/0.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/ogtfinder/0.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

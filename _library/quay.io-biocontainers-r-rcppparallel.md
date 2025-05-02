@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcppparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
-updated_at: "2025-05-01 06:48:16.102050"
+updated_at: "2025-05-02 03:24:30.365772"
 latest: "4.3.20--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-rcppparallel"
 aliases:

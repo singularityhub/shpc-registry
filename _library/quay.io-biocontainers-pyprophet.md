@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyprophet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyprophet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyprophet/container.yaml"
-updated_at: "2025-05-01 06:38:58.166525"
+updated_at: "2025-05-02 03:14:17.002312"
 latest: "2.2.5--py310h1fe012e_4"
 container_url: "https://biocontainers.pro/tools/pyprophet"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-html-tidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
-updated_at: "2025-05-01 07:21:02.187211"
-latest: "1.60--pl5321h7b50bb2_5"
+updated_at: "2025-05-02 03:57:50.255234"
+latest: "1.60--pl5321h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/perl-html-tidy"
 aliases:
  - "webtidy"
@@ -16,8 +16,9 @@ versions:
  - "1.60--pl5321hec16e2b_2"
  - "1.60--pl5321h031d066_3"
  - "1.60--pl5321h7b50bb2_5"
+ - "1.60--pl5321h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for perl-html-tidy"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tidy", "latest": {"1.60--pl5321h7b50bb2_5": "sha256:6da05ed111cb48b5ba9b1fcc6806ce11fc75810a4f339fbfae3313c7ab4bf686"}, "tags": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691", "1.60--pl5321h031d066_3": "sha256:9229c0cd812a606309bdea4d401c358acae404b74fa869864b42332e1df929ce", "1.60--pl5321h7b50bb2_5": "sha256:6da05ed111cb48b5ba9b1fcc6806ce11fc75810a4f339fbfae3313c7ab4bf686"}, "docker": "quay.io/biocontainers/perl-html-tidy", "aliases": {"webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tidy", "latest": {"1.60--pl5321h7b50bb2_6": "sha256:af38c45276619342f31359dab892fa7dfe245848500b09c7ec6f49aca53ef93a"}, "tags": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691", "1.60--pl5321h031d066_3": "sha256:9229c0cd812a606309bdea4d401c358acae404b74fa869864b42332e1df929ce", "1.60--pl5321h7b50bb2_5": "sha256:6da05ed111cb48b5ba9b1fcc6806ce11fc75810a4f339fbfae3313c7ab4bf686", "1.60--pl5321h7b50bb2_6": "sha256:af38c45276619342f31359dab892fa7dfe245848500b09c7ec6f49aca53ef93a"}, "docker": "quay.io/biocontainers/perl-html-tidy", "aliases": {"webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tidy.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-html-tidy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-html-tidy:1.60--pl5321h7b50bb2_5
+$ shpc install quay.io/biocontainers/perl-html-tidy:1.60--pl5321h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-html-tidy/1.60--pl5321h7b50bb2_5
-$ module help quay.io/biocontainers/perl-html-tidy/1.60--pl5321h7b50bb2_5
+$ module load quay.io/biocontainers/perl-html-tidy/1.60--pl5321h7b50bb2_6
+$ module help quay.io/biocontainers/perl-html-tidy/1.60--pl5321h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

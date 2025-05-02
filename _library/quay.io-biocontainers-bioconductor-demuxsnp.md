@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-demuxsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-demuxsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-demuxsnp/container.yaml"
-updated_at: "2025-05-01 06:38:28.195435"
+updated_at: "2025-05-02 03:13:44.022408"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-demuxsnp"
 aliases:

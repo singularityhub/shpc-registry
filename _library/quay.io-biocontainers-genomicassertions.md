@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomicassertions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomicassertions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomicassertions/container.yaml"
-updated_at: "2025-05-01 06:39:53.822705"
+updated_at: "2025-05-02 03:15:18.216558"
 latest: "0.2.5--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/genomicassertions"
 aliases:

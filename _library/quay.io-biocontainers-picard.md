@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picard/container.yaml"
-updated_at: "2025-05-01 06:58:11.945695"
-latest: "3.3.0--hdfd78af_0"
+updated_at: "2025-05-02 03:34:55.181343"
+latest: "3.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/picard"
 aliases:
  - "picard"
@@ -23,8 +23,9 @@ versions:
  - "2.25.7--hdfd78af_0"
  - "3.2.0--hdfd78af_0"
  - "3.3.0--hdfd78af_0"
+ - "3.4.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for picard"
-config: {"url": "https://biocontainers.pro/tools/picard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard", "latest": {"3.3.0--hdfd78af_0": "sha256:8b95c2742d74ccc04ce56af3ca051b9a418a246be48c9af5239f0274409e495d"}, "tags": {"2.9.2--py36_1": "sha256:2aeca0a7a8985abd6e45e97db6f9cc84f1c3b3439573dc484fa7f86e9e443be5", "2.18.23--0": "sha256:ae8e2821c8687a78606f17fafb417eea0de1ac75142ef94d428897f5d6b90876", "2.17.11--py36_0": "sha256:d1ae699f57390dbf2b28dc0a6eacf8d1ec4c962990fd0c703695ad7b934e82f0", "2.16.0--py36_0": "sha256:44ebf986e50ee71196f26eb022adbb260df067d53718d9857aeea2e6731cdbc7", "2.15.0--py35_0": "sha256:51858bc89b7ef0b3a9c6e15f2000c1c6052ec697aaa4d38dc16e4d2ee654142e", "2.14.1--py35_0": "sha256:b77b00ab69f55a842b67b9380881305130229ceb2daeeece710b3013dfa62b6c", "3.1.1--hdfd78af_0": "sha256:6ed9979090434fd3ee3f197c990f04e64279fdb0ca9d9897ed88450da8fe2658", "3.0.0--hdfd78af_1": "sha256:1807618ee8ac1af18a2a4656dd8b4d4a0a6f679b6a1e554a6603ac7a6d732d95", "2.27.5--hdfd78af_0": "sha256:573ec3f38ab84c12a619eb31cf15cc1e5d709e50c083486cce04faf14ede91d4", "2.26.11--hdfd78af_0": "sha256:229d61d04965e797b9f77dbb56d46a14646abb52c7bcdf0c9586c8382f06f851", "2.25.7--hdfd78af_0": "sha256:cdd60185fdc3a479ed6cc918e739fefcf28f3f6853c8ec3f0f5cfce09f8258c9", "3.2.0--hdfd78af_0": "sha256:0ba3a90a242cfa06362da145df868e92401c1cc8cd85cc08e85c4a5c9e55ed23", "3.3.0--hdfd78af_0": "sha256:8b95c2742d74ccc04ce56af3ca051b9a418a246be48c9af5239f0274409e495d"}, "docker": "quay.io/biocontainers/picard", "aliases": {"picard": "/usr/local/bin/picard"}}
+config: {"url": "https://biocontainers.pro/tools/picard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard", "latest": {"3.4.0--hdfd78af_0": "sha256:96b49340dea0ef5bc402d865a2b02032949f13ee57151909328d4eb1b3bcecbc"}, "tags": {"2.9.2--py36_1": "sha256:2aeca0a7a8985abd6e45e97db6f9cc84f1c3b3439573dc484fa7f86e9e443be5", "2.18.23--0": "sha256:ae8e2821c8687a78606f17fafb417eea0de1ac75142ef94d428897f5d6b90876", "2.17.11--py36_0": "sha256:d1ae699f57390dbf2b28dc0a6eacf8d1ec4c962990fd0c703695ad7b934e82f0", "2.16.0--py36_0": "sha256:44ebf986e50ee71196f26eb022adbb260df067d53718d9857aeea2e6731cdbc7", "2.15.0--py35_0": "sha256:51858bc89b7ef0b3a9c6e15f2000c1c6052ec697aaa4d38dc16e4d2ee654142e", "2.14.1--py35_0": "sha256:b77b00ab69f55a842b67b9380881305130229ceb2daeeece710b3013dfa62b6c", "3.1.1--hdfd78af_0": "sha256:6ed9979090434fd3ee3f197c990f04e64279fdb0ca9d9897ed88450da8fe2658", "3.0.0--hdfd78af_1": "sha256:1807618ee8ac1af18a2a4656dd8b4d4a0a6f679b6a1e554a6603ac7a6d732d95", "2.27.5--hdfd78af_0": "sha256:573ec3f38ab84c12a619eb31cf15cc1e5d709e50c083486cce04faf14ede91d4", "2.26.11--hdfd78af_0": "sha256:229d61d04965e797b9f77dbb56d46a14646abb52c7bcdf0c9586c8382f06f851", "2.25.7--hdfd78af_0": "sha256:cdd60185fdc3a479ed6cc918e739fefcf28f3f6853c8ec3f0f5cfce09f8258c9", "3.2.0--hdfd78af_0": "sha256:0ba3a90a242cfa06362da145df868e92401c1cc8cd85cc08e85c4a5c9e55ed23", "3.3.0--hdfd78af_0": "sha256:8b95c2742d74ccc04ce56af3ca051b9a418a246be48c9af5239f0274409e495d", "3.4.0--hdfd78af_0": "sha256:96b49340dea0ef5bc402d865a2b02032949f13ee57151909328d4eb1b3bcecbc"}, "docker": "quay.io/biocontainers/picard", "aliases": {"picard": "/usr/local/bin/picard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/picard.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/picard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/picard:3.3.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/picard:3.4.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/picard/3.3.0--hdfd78af_0
-$ module help quay.io/biocontainers/picard/3.3.0--hdfd78af_0
+$ module load quay.io/biocontainers/picard/3.4.0--hdfd78af_0
+$ module help quay.io/biocontainers/picard/3.4.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

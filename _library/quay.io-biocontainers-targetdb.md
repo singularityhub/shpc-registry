@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/targetdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/targetdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/targetdb/container.yaml"
-updated_at: "2025-05-01 07:06:03.540533"
+updated_at: "2025-05-02 03:42:44.217400"
 latest: "1.3.1--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/targetdb"
 aliases:
