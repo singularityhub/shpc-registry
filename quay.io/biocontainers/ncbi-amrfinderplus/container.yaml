@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ncbi-amrfinderplus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-amrfinderplus
 latest:
-  4.0.19--hf69ffd2_0: sha256:9a55bf4a02d62f218749f2f6fd8a52b46ec489629730cebd77e04b91c72ba336
+  4.0.22--hf69ffd2_0: sha256:fba67970b9f9d5beb47931196abb1c7ee6f3d4dbc6003bef966aeaf2afb3a92e
 tags:
   3.9.8--h671e170_0: sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7
   3.10.45--h6e70893_0: sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444
@@ -20,6 +20,7 @@ tags:
   4.0.3--hf69ffd2_1: sha256:8d78ff9d945aae4a7517ef2760631447ab676144330fd0ee3dbe7323aa4d1649
   4.0.15--hf69ffd2_0: sha256:063597b88c94c69cde7a770586dbed8913f21e6e45837caa671dd77a395e5fa5
   4.0.19--hf69ffd2_0: sha256:9a55bf4a02d62f218749f2f6fd8a52b46ec489629730cebd77e04b91c72ba336
+  4.0.22--hf69ffd2_0: sha256:fba67970b9f9d5beb47931196abb1c7ee6f3d4dbc6003bef966aeaf2afb3a92e
 docker: quay.io/biocontainers/ncbi-amrfinderplus
 aliases:
   amr_report: /usr/local/bin/amr_report

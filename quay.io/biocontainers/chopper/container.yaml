@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/chopper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chopper
 latest:
-  0.9.2--hcdda2d0_0: sha256:4b7aa2f7126eae3cd42a0965f8854c353033398780c710c378c2c5a789e719a3
+  0.10.0--hcdda2d0_0: sha256:1b02ff62b3f2034d2249c5457da2aebe01243f3e7742e17a042ef8ca27578921
 tags:
   0.2.0--hd03093a_0: sha256:e790dd0088097b57ec66516905d5113b1a480181ef8359f5df359960d2d7512d
   0.4.0--hd03093a_0: sha256:1ac2d6e9e1f8f6c20d2efc1722c0e5d4b09be26f2695163c5309f32299d09bc4
@@ -16,6 +16,7 @@ tags:
   0.9.0--hdcf5f25_1: sha256:951db53fd4df576ce240e7779650806ee90c6a1c9b1af0acdfa3016eaa5afe52
   0.9.1--hcdda2d0_0: sha256:c9b4d6efdc917a71db77bcb822500b56a70090c084812a42857bcafb5d825e4a
   0.9.2--hcdda2d0_0: sha256:4b7aa2f7126eae3cd42a0965f8854c353033398780c710c378c2c5a789e719a3
+  0.10.0--hcdda2d0_0: sha256:1b02ff62b3f2034d2249c5457da2aebe01243f3e7742e17a042ef8ca27578921
 docker: quay.io/biocontainers/chopper
 aliases:
   chopper: /usr/local/bin/chopper

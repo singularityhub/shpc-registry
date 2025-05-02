@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-restfulr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-restfulr
 latest:
-  0.0.15--r44h5ef9028_5: sha256:7d4c33a1a9fd7a77c6387cf004a133d68b590bcc55aa29590b29182abcbf3672
+  0.0.15--r44h5ef9028_6: sha256:a9b1e6d1d6940de18900be4347ea0d68f26841202be5dd3ab0298c8030a749ee
 tags:
   0.0.15--r41h73dbb54_0: sha256:340fa0079df70852cfeda06b7b65b587920b430198631b2a51cff6b1281b16df
   0.0.15--r42h73dbb54_1: sha256:5c1c466da19a9dd64c7913eaca2d62025efc0a70176f4f0947072c46b74f8568
@@ -10,4 +10,5 @@ tags:
   0.0.15--r43h56115f1_3: sha256:425129327d8e3dca29f39dbe88be581a6a7df68013d54db299a4122c1e16c0b3
   0.0.15--r43h56115f1_4: sha256:652de562cdce491ca77380359d5748a8aed98f25960803d4bd215dd50105ff97
   0.0.15--r44h5ef9028_5: sha256:7d4c33a1a9fd7a77c6387cf004a133d68b590bcc55aa29590b29182abcbf3672
+  0.0.15--r44h5ef9028_6: sha256:a9b1e6d1d6940de18900be4347ea0d68f26841202be5dd3ab0298c8030a749ee
 docker: quay.io/biocontainers/r-restfulr

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-diffustats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-diffustats
 latest:
-  1.26.0--r44he5774e6_0: sha256:b2328227ad5a71818752da05e9c2899c054e8ada9da2e1cb1c1ef1ff72a7b852
+  1.26.0--r44he5774e6_1: sha256:0a7d797463bc95e5c8051803a136920e5f21a94b61e253c048d0d00f01eddb09
 tags:
   1.8.0--r40h5f743cb_0: sha256:314f107e5d33eba99c0fe91fd44bc8bf57cb841bc26793898d0628153509c838
   1.14.0--r41hc247a5b_2: sha256:ad02aadbee0db1932a65dbfc91a85b05c0aed60f6f437e35724fbc2c2b849f04
@@ -13,6 +13,7 @@ tags:
   1.20.0--r43hf17093f_0: sha256:361527a6f17f277e46052a38e4b06c0182d38a6b1ee937bcd862a24215c9dc9c
   1.22.0--r43hf17093f_0: sha256:21a7af7078a66e76f1872855e640d4d64181c0e0bd0e89032123994b82170d07
   1.26.0--r44he5774e6_0: sha256:b2328227ad5a71818752da05e9c2899c054e8ada9da2e1cb1c1ef1ff72a7b852
+  1.26.0--r44he5774e6_1: sha256:0a7d797463bc95e5c8051803a136920e5f21a94b61e253c048d0d00f01eddb09
 docker: quay.io/biocontainers/bioconductor-diffustats
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

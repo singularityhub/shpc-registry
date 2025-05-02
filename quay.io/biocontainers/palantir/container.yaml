@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/palantir
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for palantir
 latest:
-  1.3.6--pyh7e72e81_0: sha256:9886b237c5d5e9aa379a636b9f87af0f2c118e01c4a70c980d5e0c186e10dae7
+  1.4.0--pyh7e72e81_0: sha256:066e9471361b90bde685f78f14392009ca260bd6d9c02b3cce6b86fa1be9e961
 tags:
   1.3.3--pyh7cba7a3_0: sha256:6985ec5b8d112411040ebe65bd15e2d5be655414c6f3241916c6d791e297130d
   1.3.6--pyh7e72e81_0: sha256:9886b237c5d5e9aa379a636b9f87af0f2c118e01c4a70c980d5e0c186e10dae7
+  1.4.0--pyh7e72e81_0: sha256:066e9471361b90bde685f78f14392009ca260bd6d9c02b3cce6b86fa1be9e961
 docker: quay.io/biocontainers/palantir
 aliases:
   progressbar: /usr/local/bin/progressbar

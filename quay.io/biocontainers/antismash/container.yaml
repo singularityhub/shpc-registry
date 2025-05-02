@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/antismash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for antismash
 latest:
-  7.1.0--pyh7e72e81_1: sha256:1f1db64317d9f08b1049c10d118925cddbabac3fbc3b6ddcfc6a3a87d5e6729f
+  8.0.0--pyhdfd78af_0: sha256:30350e986e4a099dd22f762aaf3078dd9a13c9a197501a1cf184f70cf3c02b1c
 tags:
   6.1.1--pyhdfd78af_0: sha256:35d78e95a7e87b67210c4fe25e77ea4452d88e3b6234a39fe0602e83baefab82
   7.1.0--pyhdfd78af_0: sha256:aae5690fb75ccfe01638292ee3b6aca1bef4d1e0fee4a59e9a07c3904225b482
   7.1.0--pyh7e72e81_1: sha256:1f1db64317d9f08b1049c10d118925cddbabac3fbc3b6ddcfc6a3a87d5e6729f
+  8.0.0--pyhdfd78af_0: sha256:30350e986e4a099dd22f762aaf3078dd9a13c9a197501a1cf184f70cf3c02b1c
 docker: quay.io/biocontainers/antismash
 aliases:
   antismash: /usr/local/bin/antismash
