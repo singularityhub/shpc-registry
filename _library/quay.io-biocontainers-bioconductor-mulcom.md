@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mulcom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mulcom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mulcom/container.yaml"
-updated_at: "2025-05-02 04:01:28.406725"
+updated_at: "2025-05-03 03:56:33.246377"
 latest: "1.56.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mulcom"
 

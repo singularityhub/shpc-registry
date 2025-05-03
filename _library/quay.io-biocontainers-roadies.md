@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roadies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roadies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roadies/container.yaml"
-updated_at: "2025-05-02 03:59:03.050016"
+updated_at: "2025-05-03 03:54:05.059680"
 latest: "0.1.4--py39h4577df3_0"
 container_url: "https://biocontainers.pro/tools/roadies"
 aliases:

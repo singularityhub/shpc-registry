@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spaln/container.yaml"
-updated_at: "2025-05-02 03:53:47.684282"
+updated_at: "2025-05-03 03:48:45.032188"
 latest: "3.0.6b--pl5321h077b44d_1"
 container_url: "https://biocontainers.pro/tools/spaln"
 aliases:

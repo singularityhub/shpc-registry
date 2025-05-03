@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbitax2lin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbitax2lin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbitax2lin/container.yaml"
-updated_at: "2025-05-02 03:37:19.062930"
-latest: "2.3.2--pyhdfd78af_0"
+updated_at: "2025-05-03 03:32:07.997773"
+latest: "2.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbitax2lin"
 aliases:
  - "ncbitax2lin"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.3.2--pyhdfd78af_0"
+ - "2.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ncbitax2lin"
-config: {"url": "https://biocontainers.pro/tools/ncbitax2lin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbitax2lin", "latest": {"2.3.2--pyhdfd78af_0": "sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f"}, "tags": {"2.3.2--pyhdfd78af_0": "sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f"}, "docker": "quay.io/biocontainers/ncbitax2lin", "aliases": {"ncbitax2lin": "/usr/local/bin/ncbitax2lin", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ncbitax2lin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbitax2lin", "latest": {"2.4.1--pyhdfd78af_0": "sha256:a6253f998bcfe94d3353e27e09877c205e9613aaed24171e5aabf66eac51d406"}, "tags": {"2.3.2--pyhdfd78af_0": "sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f", "2.4.1--pyhdfd78af_0": "sha256:a6253f998bcfe94d3353e27e09877c205e9613aaed24171e5aabf66eac51d406"}, "docker": "quay.io/biocontainers/ncbitax2lin", "aliases": {"ncbitax2lin": "/usr/local/bin/ncbitax2lin", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbitax2lin.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ncbitax2lin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbitax2lin:2.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ncbitax2lin:2.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbitax2lin/2.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/ncbitax2lin/2.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/ncbitax2lin/2.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ncbitax2lin/2.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

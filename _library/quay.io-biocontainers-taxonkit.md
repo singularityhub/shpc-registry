@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxonkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxonkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxonkit/container.yaml"
-updated_at: "2025-05-02 03:42:39.395582"
+updated_at: "2025-05-03 03:37:21.061628"
 latest: "0.19.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/taxonkit"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/localhgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/localhgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/localhgt/container.yaml"
-updated_at: "2025-05-02 03:58:32.205728"
+updated_at: "2025-05-03 03:53:33.442568"
 latest: "1.0.1--h9948957_3"
 container_url: "https://biocontainers.pro/tools/localhgt"
 aliases:

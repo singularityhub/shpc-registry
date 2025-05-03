@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/palantir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/palantir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/palantir/container.yaml"
-updated_at: "2025-05-02 03:53:03.088525"
-latest: "1.3.6--pyh7e72e81_0"
+updated_at: "2025-05-03 03:47:58.538589"
+latest: "1.4.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/palantir"
 aliases:
  - "progressbar"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.3.3--pyh7cba7a3_0"
  - "1.3.6--pyh7e72e81_0"
+ - "1.4.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for palantir"
-config: {"url": "https://biocontainers.pro/tools/palantir", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for palantir", "latest": {"1.3.6--pyh7e72e81_0": "sha256:9886b237c5d5e9aa379a636b9f87af0f2c118e01c4a70c980d5e0c186e10dae7"}, "tags": {"1.3.3--pyh7cba7a3_0": "sha256:6985ec5b8d112411040ebe65bd15e2d5be655414c6f3241916c6d791e297130d", "1.3.6--pyh7e72e81_0": "sha256:9886b237c5d5e9aa379a636b9f87af0f2c118e01c4a70c980d5e0c186e10dae7"}, "docker": "quay.io/biocontainers/palantir", "aliases": {"progressbar": "/usr/local/bin/progressbar", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/palantir", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for palantir", "latest": {"1.4.0--pyh7e72e81_0": "sha256:066e9471361b90bde685f78f14392009ca260bd6d9c02b3cce6b86fa1be9e961"}, "tags": {"1.3.3--pyh7cba7a3_0": "sha256:6985ec5b8d112411040ebe65bd15e2d5be655414c6f3241916c6d791e297130d", "1.3.6--pyh7e72e81_0": "sha256:9886b237c5d5e9aa379a636b9f87af0f2c118e01c4a70c980d5e0c186e10dae7", "1.4.0--pyh7e72e81_0": "sha256:066e9471361b90bde685f78f14392009ca260bd6d9c02b3cce6b86fa1be9e961"}, "docker": "quay.io/biocontainers/palantir", "aliases": {"progressbar": "/usr/local/bin/progressbar", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/palantir.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/palantir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/palantir:1.3.6--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/palantir:1.4.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/palantir/1.3.6--pyh7e72e81_0
-$ module help quay.io/biocontainers/palantir/1.3.6--pyh7e72e81_0
+$ module load quay.io/biocontainers/palantir/1.4.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/palantir/1.4.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

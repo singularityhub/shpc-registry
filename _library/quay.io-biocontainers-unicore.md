@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unicore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unicore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unicore/container.yaml"
-updated_at: "2025-05-02 03:50:25.018440"
+updated_at: "2025-05-03 03:45:14.247369"
 latest: "1.1.0--h7ef3eeb_0"
 container_url: "https://biocontainers.pro/tools/unicore"
 aliases:

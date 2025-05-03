@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grz-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-cli/container.yaml"
-updated_at: "2025-05-02 03:46:29.279965"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2025-05-03 03:41:09.283957"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grz-cli"
 aliases:
  - "crypt4gh"
@@ -22,8 +22,10 @@ versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for grz-cli"
-config: {"url": "https://biocontainers.pro/tools/grz-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-cli", "latest": {"0.3.0--pyhdfd78af_0": "sha256:e5580d39786198f8605153a7f7c393897de6ffb1a02f8759b0afc5d97de857cf"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:3d1d63ab7ff383a0cb440daa3f861042eb043745416cf1caeef8ee06cede240c", "0.1.4--pyhdfd78af_0": "sha256:637966566acc168f4ed8b15c639a7c108fd87e254220da177591ba6430cf0cf7", "0.3.0--pyhdfd78af_0": "sha256:e5580d39786198f8605153a7f7c393897de6ffb1a02f8759b0afc5d97de857cf"}, "docker": "quay.io/biocontainers/grz-cli", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "grz-cli": "/usr/local/bin/grz-cli", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/grz-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-cli", "latest": {"0.5.0--pyhdfd78af_0": "sha256:9d05b6e024b93d0b3265f7bd16701bb593ac1eb1478e0d2ff7c8d4f26046d4a4"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:3d1d63ab7ff383a0cb440daa3f861042eb043745416cf1caeef8ee06cede240c", "0.1.4--pyhdfd78af_0": "sha256:637966566acc168f4ed8b15c639a7c108fd87e254220da177591ba6430cf0cf7", "0.3.0--pyhdfd78af_0": "sha256:e5580d39786198f8605153a7f7c393897de6ffb1a02f8759b0afc5d97de857cf", "0.5.0--pyhdfd78af_0": "sha256:9d05b6e024b93d0b3265f7bd16701bb593ac1eb1478e0d2ff7c8d4f26046d4a4", "0.4.0--pyhdfd78af_0": "sha256:4b3bc40c957ec8aafc196d984385e820acaf028f9c85a8692af55bcbc6ba1232"}, "docker": "quay.io/biocontainers/grz-cli", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "grz-cli": "/usr/local/bin/grz-cli", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-cli.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/grz-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-cli:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/grz-cli:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-cli/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/grz-cli/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/grz-cli/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/grz-cli/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
