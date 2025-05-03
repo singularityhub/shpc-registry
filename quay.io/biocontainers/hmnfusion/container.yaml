@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmnfusion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmnfusion
 latest:
-  1.2.12--pyh7cba7a3_0: sha256:a08b9df22fe006ee25449e17037cd1e85588223f7f63faf486a4d7542fdb07e2
+  1.3.0--pyh7e72e81_0: sha256:e316cb3d9ac14079ed1c899f198d880ac8ed4bdd84799d441de7fdb7e7806acf
 tags:
   1.2.6--pyh7cba7a3_0: sha256:694bbe2e291bd7c0d34a0ec0ddcb0a4a6bf5e76cda1df44175377affca3c0898
   1.2.12--pyh7cba7a3_0: sha256:a08b9df22fe006ee25449e17037cd1e85588223f7f63faf486a4d7542fdb07e2
+  1.3.0--pyh7e72e81_0: sha256:e316cb3d9ac14079ed1c899f198d880ac8ed4bdd84799d441de7fdb7e7806acf
 docker: quay.io/biocontainers/hmnfusion
 aliases:
   hmnfusion: /usr/local/bin/hmnfusion

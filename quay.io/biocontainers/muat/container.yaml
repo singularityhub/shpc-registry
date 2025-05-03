@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/muat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for muat
 latest:
-  0.1.6--pyh7e72e81_0: sha256:dbf2c063d273170de56511c77d1dd70cf18985ee5ab627c349731b92967cfc6f
+  0.1.11--pyh7e72e81_0: sha256:00b6227cb41dccca5c4d88e085d71342971cfc97d94e0eb30191e32aa9fe97b2
 tags:
   0.1.6--pyh7e72e81_0: sha256:dbf2c063d273170de56511c77d1dd70cf18985ee5ab627c349731b92967cfc6f
+  0.1.11--pyh7e72e81_0: sha256:00b6227cb41dccca5c4d88e085d71342971cfc97d94e0eb30191e32aa9fe97b2
 docker: quay.io/biocontainers/muat
 aliases:
   annotate_mutations_with_bed.sh: /usr/local/bin/annotate_mutations_with_bed.sh

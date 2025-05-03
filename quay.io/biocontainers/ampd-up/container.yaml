@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ampd-up
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ampd-up
 latest:
-  1.0.0--pyhdfd78af_0: sha256:3f40572dbd729e91ab1f44a24f55e2214a29778880eeef6ec0ae7f41e16fdce1
+  1.0.1--pyhdfd78af_0: sha256:8160590597b4dbba7a01d9d805889f8704bc3fb795e4f9fbdc58a7d15b68d3d8
 tags:
   1.0.0--pyhdfd78af_0: sha256:3f40572dbd729e91ab1f44a24f55e2214a29778880eeef6ec0ae7f41e16fdce1
+  1.0.1--pyhdfd78af_0: sha256:8160590597b4dbba7a01d9d805889f8704bc3fb795e4f9fbdc58a7d15b68d3d8
 docker: quay.io/biocontainers/ampd-up
 aliases:
   AMPd-Up: /usr/local/bin/AMPd-Up
