@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/vamb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vamb
 latest:
-  4.1.3--py311h7b50bb2_0: sha256:25bc2cd6d26398aa369fda5ae7fc18e1224d8a2bc3cc8eb28126a85e54da49ce
+  5.0.4--pyhdfd78af_0: sha256:6ac01f01372a7519ed51cd6cfa38a726418221e97ced61945663d99421e5fb8b
 tags:
   3.0.2--py37h8902056_2: sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1
   3.0.2--py36h91eb985_2: sha256:92ae8eca6139ccd5c31216b49de194a4c0a9a46882eba0b447cc2f77ce1f409c
   4.1.3--py311h7b50bb2_0: sha256:25bc2cd6d26398aa369fda5ae7fc18e1224d8a2bc3cc8eb28126a85e54da49ce
+  5.0.4--pyhdfd78af_0: sha256:6ac01f01372a7519ed51cd6cfa38a726418221e97ced61945663d99421e5fb8b
 docker: quay.io/biocontainers/vamb
 aliases:
   concatenate.py: /usr/local/bin/concatenate.py

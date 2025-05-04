@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/superintervals
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for superintervals
 latest:
-  0.2.10--py311h8ddd9a4_0: sha256:e40210ef9f85587ab662ded3be687c25d2085f732a53e2f38f32a95b380553e4
+  0.2.10--py311h8ddd9a4_1: sha256:d977fe5d136e70e624eb26f48507017a31b6a0c7a00636b3c69687d79ec6bb0b
 tags:
   0.2.5--py310h8ea774a_0: sha256:f13ebd829255882055f089b3e40e13385e2ecac28f5c45dfef809dcbaf56d02a
   0.2.5--py312h9c9b0c2_0: sha256:fbc1b23256e4e7bc97f54468be1e245a2bcb0aa4a7288396ec0d86005d6a5e60
   0.2.9--py39he88f293_0: sha256:34b01c9f414f08c5085f31c9d459a23c7ba95ce216c83eb743f54504929ad2c0
   0.2.10--py311h8ddd9a4_0: sha256:e40210ef9f85587ab662ded3be687c25d2085f732a53e2f38f32a95b380553e4
+  0.2.10--py311h8ddd9a4_1: sha256:d977fe5d136e70e624eb26f48507017a31b6a0c7a00636b3c69687d79ec6bb0b
 docker: quay.io/biocontainers/superintervals
 aliases:
   cygdb: /usr/local/bin/cygdb

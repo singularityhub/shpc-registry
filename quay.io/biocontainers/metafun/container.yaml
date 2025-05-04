@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metafun
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metafun
 latest:
-  0.2.0--pyhdfd78af_0: sha256:e5b8f5ddb50a9cf22a3343c5fbb4f64bb281056296b9b8fe6a4417d2ff513c8a
+  0.3.0--pyhdfd78af_0: sha256:6a6d0ae6fc7ef3be9c293e5614a693a00bb15fbd4d95aada38cae4bcfd8bef13
 tags:
   0.2.0--pyhdfd78af_0: sha256:e5b8f5ddb50a9cf22a3343c5fbb4f64bb281056296b9b8fe6a4417d2ff513c8a
+  0.3.0--pyhdfd78af_0: sha256:6a6d0ae6fc7ef3be9c293e5614a693a00bb15fbd4d95aada38cae4bcfd8bef13
 docker: quay.io/biocontainers/metafun
 aliases:
   apptainer: /usr/local/bin/apptainer

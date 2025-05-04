@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/tiddit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tiddit
 latest:
-  3.9.2--py39hff726c5_0: sha256:b44b2b17463dfb9914f764d57a1a833b071269d70271f533f169d2566ff0d49a
+  3.9.3--py311h93dcfea_0: sha256:76b8450ef4612ea6a6f182bb0776dea1e1839db821f119d99e757768de2af7de
 tags:
   3.1.0--py39h59fae87_0: sha256:34f33e811439d931815c1afff963ac8b7cccb02d26d69fbb6eb166804ecc2a34
   3.6.1--py38h24c8ff8_0: sha256:2ad9f14dfdaf233430fea67805795c69dc4cb8cbe7fbb0ef8555558a42261f84
@@ -14,6 +14,7 @@ tags:
   3.6.1--py39h24fbfe6_2: sha256:30b024042f1ec39909923c131a1dce6c5a643701e52a375dc87af759fa222b8c
   3.9.0--py311h93dcfea_0: sha256:3747ba79beb01e9e794b998ae59ad6b683f87ef53807122437a2741c2e2d5396
   3.9.2--py39hff726c5_0: sha256:b44b2b17463dfb9914f764d57a1a833b071269d70271f533f169d2566ff0d49a
+  3.9.3--py311h93dcfea_0: sha256:76b8450ef4612ea6a6f182bb0776dea1e1839db821f119d99e757768de2af7de
 docker: quay.io/biocontainers/tiddit
 aliases:
   bfc: /usr/local/bin/bfc
