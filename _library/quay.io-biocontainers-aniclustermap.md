@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aniclustermap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aniclustermap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aniclustermap/container.yaml"
-updated_at: "2025-05-03 03:20:16.637853"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2025-05-04 03:32:57.351574"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aniclustermap"
 aliases:
  - "ANIclustermap"
@@ -36,8 +36,9 @@ versions:
  - "1.2.0--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for aniclustermap"
-config: {"url": "https://biocontainers.pro/tools/aniclustermap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aniclustermap", "latest": {"1.4.0--pyhdfd78af_0": "sha256:935c644eada392515f7399e0797d2a975d8fc3e5efa1d9465dd5f6ab083de75a"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:c31f2ec73178ce1edeb1d9888676cb9ba1a61c59741c0a9e25dee7f4634158ee", "1.3.0--pyhdfd78af_0": "sha256:0aab7544c233fe4df5397a7530bb2bef6aab28e819f829e5cc6220c29a161b72", "1.4.0--pyhdfd78af_0": "sha256:935c644eada392515f7399e0797d2a975d8fc3e5efa1d9465dd5f6ab083de75a"}, "docker": "quay.io/biocontainers/aniclustermap", "aliases": {"ANIclustermap": "/usr/local/bin/ANIclustermap", "f2py3.11": "/usr/local/bin/f2py3.11", "skani": "/usr/local/bin/skani", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fastANI": "/usr/local/bin/fastANI", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/aniclustermap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aniclustermap", "latest": {"2.0.1--pyhdfd78af_0": "sha256:6f0cdce9821afb56d7e029be65af3f94f8b8abb4330d3afec4310885633ab787"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:c31f2ec73178ce1edeb1d9888676cb9ba1a61c59741c0a9e25dee7f4634158ee", "1.3.0--pyhdfd78af_0": "sha256:0aab7544c233fe4df5397a7530bb2bef6aab28e819f829e5cc6220c29a161b72", "1.4.0--pyhdfd78af_0": "sha256:935c644eada392515f7399e0797d2a975d8fc3e5efa1d9465dd5f6ab083de75a", "2.0.1--pyhdfd78af_0": "sha256:6f0cdce9821afb56d7e029be65af3f94f8b8abb4330d3afec4310885633ab787"}, "docker": "quay.io/biocontainers/aniclustermap", "aliases": {"ANIclustermap": "/usr/local/bin/ANIclustermap", "f2py3.11": "/usr/local/bin/f2py3.11", "skani": "/usr/local/bin/skani", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fastANI": "/usr/local/bin/fastANI", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aniclustermap.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/aniclustermap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aniclustermap:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/aniclustermap:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aniclustermap/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/aniclustermap/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/aniclustermap/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/aniclustermap/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

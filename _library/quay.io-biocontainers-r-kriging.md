@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kriging"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kriging/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kriging/container.yaml"
-updated_at: "2025-05-03 03:16:49.890570"
+updated_at: "2025-05-04 03:29:32.677848"
 latest: "1.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-kriging"
 aliases:

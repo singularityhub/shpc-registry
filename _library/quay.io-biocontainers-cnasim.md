@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnasim/container.yaml"
-updated_at: "2025-05-03 03:33:16.462792"
-latest: "1.3.4--pyhdfd78af_0"
+updated_at: "2025-05-04 03:45:38.523509"
+latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cnasim"
 aliases:
  - "cnasim"
@@ -42,8 +42,9 @@ aliases:
  - "sam2vcf.pl"
 versions:
  - "1.3.4--pyhdfd78af_0"
+ - "1.3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cnasim"
-config: {"url": "https://biocontainers.pro/tools/cnasim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnasim", "latest": {"1.3.4--pyhdfd78af_0": "sha256:0584bf9f128bb18d514a799da840bb0ae70d4b519382716cb327c311cfa7e408"}, "tags": {"1.3.4--pyhdfd78af_0": "sha256:0584bf9f128bb18d514a799da840bb0ae70d4b519382716cb327c311cfa7e408"}, "docker": "quay.io/biocontainers/cnasim", "aliases": {"cnasim": "/usr/local/bin/cnasim", "demes": "/usr/local/bin/demes", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
+config: {"url": "https://biocontainers.pro/tools/cnasim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cnasim", "latest": {"1.3.5--pyhdfd78af_0": "sha256:57e8f4001bb3b6892210f07371c6070c6e71331196137e11e8050cc595b60635"}, "tags": {"1.3.4--pyhdfd78af_0": "sha256:0584bf9f128bb18d514a799da840bb0ae70d4b519382716cb327c311cfa7e408", "1.3.5--pyhdfd78af_0": "sha256:57e8f4001bb3b6892210f07371c6070c6e71331196137e11e8050cc595b60635"}, "docker": "quay.io/biocontainers/cnasim", "aliases": {"cnasim": "/usr/local/bin/cnasim", "demes": "/usr/local/bin/demes", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnasim.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/cnasim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnasim:1.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cnasim:1.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnasim/1.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cnasim/1.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cnasim/1.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/cnasim/1.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

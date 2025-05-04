@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-specio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-specio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-specio/container.yaml"
-updated_at: "2025-05-03 03:51:17.522558"
+updated_at: "2025-05-04 04:03:32.317257"
 latest: "0.50--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-specio"
 

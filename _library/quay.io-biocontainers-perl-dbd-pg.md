@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-dbd-pg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
-updated_at: "2025-05-03 03:40:32.846618"
-latest: "3.18.0--pl5321h3a0becb_1"
+updated_at: "2025-05-04 03:52:49.447247"
+latest: "3.18.0--pl5321h3a0becb_2"
 container_url: "https://biocontainers.pro/tools/perl-dbd-pg"
 aliases:
  - "pg_verify_checksums"
@@ -27,8 +27,9 @@ versions:
  - "3.18.0--pl5321hbeff08c_0"
  - "3.16.0--pl5321hbeff08c_3"
  - "3.18.0--pl5321h3a0becb_1"
+ - "3.18.0--pl5321h3a0becb_2"
 description: "shpc-registry automated BioContainers addition for perl-dbd-pg"
-config: {"url": "https://biocontainers.pro/tools/perl-dbd-pg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-pg", "latest": {"3.18.0--pl5321h3a0becb_1": "sha256:1a0e01c7003bbcb73901abef9a1fafb6767a969c8434020c4bb7c7f2b163a348"}, "tags": {"3.8.1--pl526h14c3975_0": "sha256:abda6024fe48d477d0f9ee3e6e26279a4f4cd0fe316a446b706c0d9ee75aab4b", "3.16.0--pl5321hec16e2b_0": "sha256:56731792fe6c89aae9cb565b187ac55423663830e46ee0cde1935678d5e0fee1", "3.15.1--pl5321hec16e2b_1": "sha256:243891b7d78398681df315fbfb093180b7fa42e8ad8d645628612f331936bac4", "3.16.0--pl5321hd072a1e_2": "sha256:b0f51db81fcb95a7e6722c32b6231d1ac3abb049779ea59f676774de396cdffb", "3.18.0--pl5321hbeff08c_0": "sha256:ad63c51c171a19edbfa9d4abfa0a92963d0330ed90e87e57404c122fa8f3777c", "3.16.0--pl5321hbeff08c_3": "sha256:e72542431090810e9c10c88d68c93d5d92dd4c7d81e33c33ada8f181200622e6", "3.18.0--pl5321h3a0becb_1": "sha256:1a0e01c7003bbcb73901abef9a1fafb6767a969c8434020c4bb7c7f2b163a348"}, "docker": "quay.io/biocontainers/perl-dbd-pg", "aliases": {"pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "pg_standby": "/usr/local/bin/pg_standby", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dbd-pg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-pg", "latest": {"3.18.0--pl5321h3a0becb_2": "sha256:b5aa06851250c7cb79184ddfebb743b6a8b11a4216c6b8dae492d81301d2bb30"}, "tags": {"3.8.1--pl526h14c3975_0": "sha256:abda6024fe48d477d0f9ee3e6e26279a4f4cd0fe316a446b706c0d9ee75aab4b", "3.16.0--pl5321hec16e2b_0": "sha256:56731792fe6c89aae9cb565b187ac55423663830e46ee0cde1935678d5e0fee1", "3.15.1--pl5321hec16e2b_1": "sha256:243891b7d78398681df315fbfb093180b7fa42e8ad8d645628612f331936bac4", "3.16.0--pl5321hd072a1e_2": "sha256:b0f51db81fcb95a7e6722c32b6231d1ac3abb049779ea59f676774de396cdffb", "3.18.0--pl5321hbeff08c_0": "sha256:ad63c51c171a19edbfa9d4abfa0a92963d0330ed90e87e57404c122fa8f3777c", "3.16.0--pl5321hbeff08c_3": "sha256:e72542431090810e9c10c88d68c93d5d92dd4c7d81e33c33ada8f181200622e6", "3.18.0--pl5321h3a0becb_1": "sha256:1a0e01c7003bbcb73901abef9a1fafb6767a969c8434020c4bb7c7f2b163a348", "3.18.0--pl5321h3a0becb_2": "sha256:b5aa06851250c7cb79184ddfebb743b6a8b11a4216c6b8dae492d81301d2bb30"}, "docker": "quay.io/biocontainers/perl-dbd-pg", "aliases": {"pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "pg_standby": "/usr/local/bin/pg_standby", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dbd-pg.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/perl-dbd-pg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-dbd-pg:3.18.0--pl5321h3a0becb_1
+$ shpc install quay.io/biocontainers/perl-dbd-pg:3.18.0--pl5321h3a0becb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-dbd-pg/3.18.0--pl5321h3a0becb_1
-$ module help quay.io/biocontainers/perl-dbd-pg/3.18.0--pl5321h3a0becb_1
+$ module load quay.io/biocontainers/perl-dbd-pg/3.18.0--pl5321h3a0becb_2
+$ module help quay.io/biocontainers/perl-dbd-pg/3.18.0--pl5321h3a0becb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

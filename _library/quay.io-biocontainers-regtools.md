@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regtools/container.yaml"
-updated_at: "2025-05-03 03:21:02.398834"
+updated_at: "2025-05-04 03:33:40.227396"
 latest: "1.0.0--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/regtools"
 aliases:

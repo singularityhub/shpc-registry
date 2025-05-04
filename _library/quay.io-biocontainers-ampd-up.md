@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ampd-up"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampd-up/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampd-up/container.yaml"
-updated_at: "2025-05-03 03:42:49.577015"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-05-04 03:55:06.542499"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampd-up"
 aliases:
  - "AMPd-Up"
@@ -36,8 +36,9 @@ aliases:
  - "python3.6"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ampd-up"
-config: {"url": "https://biocontainers.pro/tools/ampd-up", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampd-up", "latest": {"1.0.0--pyhdfd78af_0": "sha256:3f40572dbd729e91ab1f44a24f55e2214a29778880eeef6ec0ae7f41e16fdce1"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:3f40572dbd729e91ab1f44a24f55e2214a29778880eeef6ec0ae7f41e16fdce1"}, "docker": "quay.io/biocontainers/ampd-up", "aliases": {"AMPd-Up": "/usr/local/bin/AMPd-Up", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "protoc": "/usr/local/bin/protoc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/ampd-up", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampd-up", "latest": {"1.0.1--pyhdfd78af_0": "sha256:8160590597b4dbba7a01d9d805889f8704bc3fb795e4f9fbdc58a7d15b68d3d8"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:3f40572dbd729e91ab1f44a24f55e2214a29778880eeef6ec0ae7f41e16fdce1", "1.0.1--pyhdfd78af_0": "sha256:8160590597b4dbba7a01d9d805889f8704bc3fb795e4f9fbdc58a7d15b68d3d8"}, "docker": "quay.io/biocontainers/ampd-up", "aliases": {"AMPd-Up": "/usr/local/bin/AMPd-Up", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "protoc": "/usr/local/bin/protoc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ampd-up.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/ampd-up
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ampd-up:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ampd-up:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ampd-up/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ampd-up/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ampd-up/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ampd-up/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
