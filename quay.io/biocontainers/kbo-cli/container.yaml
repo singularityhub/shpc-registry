@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kbo-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kbo-cli
 latest:
-  0.1.1--h4349ce8_0: sha256:faedc6a85adf1155e01e9a6bd831fab6d750031f4e9810cac7686b98fe4150ce
+  0.2.1--h4349ce8_0: sha256:2d6da859cb6cdf8788c7f8818d0fef4da3a9d119ec0ba82a0e77595461aa960f
 tags:
   0.1.1--h4349ce8_0: sha256:faedc6a85adf1155e01e9a6bd831fab6d750031f4e9810cac7686b98fe4150ce
+  0.2.1--h4349ce8_0: sha256:2d6da859cb6cdf8788c7f8818d0fef4da3a9d119ec0ba82a0e77595461aa960f
 docker: quay.io/biocontainers/kbo-cli
 aliases:
   kbo: /usr/local/bin/kbo

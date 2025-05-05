@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/buscolite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for buscolite
 latest:
-  24.11.3--pyhdfd78af_0: sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43
+  25.4.24--pyhdfd78af_0: sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
 tags:
   23.10.26--pyhdfd78af_0: sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a
   24.11.3--pyhdfd78af_0: sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43
+  25.4.24--pyhdfd78af_0: sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
 docker: quay.io/biocontainers/buscolite
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt

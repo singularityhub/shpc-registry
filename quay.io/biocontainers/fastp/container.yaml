@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/fastp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastp
 latest:
-  0.24.0--heae3180_1: sha256:fe647f76dbda3af58a4e159ec4662b7c11f29ee65a44a9b8f43ba018fee8e8a5
+  0.24.1--heae3180_0: sha256:99eb308e4c4f1a6467beb775019bce0f88414303395fa8f27ad6da9a014bf14b
 tags:
   0.22.0--h2e03b76_0: sha256:e94097ae4ca17394b35d59a20d9a9f6d8972992bd47d1783f00c26e86ca82c2b
   0.23.2--h5f740d0_3: sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b
@@ -12,6 +12,7 @@ tags:
   0.23.4--h125f33a_4: sha256:4d3241f1ec6f67faf152a1602df1bf0249278ec8907bf2fc0eeeb2f5eec12707
   0.23.4--h125f33a_5: sha256:e497f7d3518f4ea10ec03d0e6f9f311d5f8a6486e94d6e0e2847b257f3a6aa6c
   0.24.0--heae3180_1: sha256:fe647f76dbda3af58a4e159ec4662b7c11f29ee65a44a9b8f43ba018fee8e8a5
+  0.24.1--heae3180_0: sha256:99eb308e4c4f1a6467beb775019bce0f88414303395fa8f27ad6da9a014bf14b
 docker: quay.io/biocontainers/fastp
 aliases:
   fastp: /usr/local/bin/fastp

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/s4pred
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for s4pred
 latest:
-  1.2.1--pyhdfd78af_0: sha256:c007aeeb83e90fe2b3caac8dcdd1d9309058c0d706d2d5f01fd14d7312d85710
+  1.2.1--pyhdfd78af_1: sha256:714c2eb9a4f92ff397be5c1d3250ce814656bfac24aa78fe726174fe13a53d23
 tags:
   1.2.0--pyhdfd78af_1: sha256:8ec1c8090e283ac247317ca9dd055ea248a9c11f565a6ca053ac977093e2d5aa
   1.2.1--pyhdfd78af_0: sha256:c007aeeb83e90fe2b3caac8dcdd1d9309058c0d706d2d5f01fd14d7312d85710
+  1.2.1--pyhdfd78af_1: sha256:714c2eb9a4f92ff397be5c1d3250ce814656bfac24aa78fe726174fe13a53d23
 docker: quay.io/biocontainers/s4pred
 aliases:
   network.py: /usr/local/bin/network.py
