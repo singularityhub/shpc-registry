@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metafun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metafun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metafun/container.yaml"
-updated_at: "2025-05-04 03:56:32.149515"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-05-05 03:51:04.144686"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metafun"
 aliases:
  - "apptainer"
@@ -52,8 +52,9 @@ aliases:
  - "chroot"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metafun"
-config: {"url": "https://biocontainers.pro/tools/metafun", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metafun", "latest": {"0.2.0--pyhdfd78af_0": "sha256:e5b8f5ddb50a9cf22a3343c5fbb4f64bb281056296b9b8fe6a4417d2ff513c8a"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:e5b8f5ddb50a9cf22a3343c5fbb4f64bb281056296b9b8fe6a4417d2ff513c8a"}, "docker": "quay.io/biocontainers/metafun", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "dash-update-components": "/usr/local/bin/dash-update-components", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "hatchling": "/usr/local/bin/hatchling", "metafun": "/usr/local/bin/metafun", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "sylph": "/usr/local/bin/sylph", "unsquashfs": "/usr/local/bin/unsquashfs", "renderer": "/usr/local/bin/renderer", "bsdunzip": "/usr/local/bin/bsdunzip", "dash-generate-components": "/usr/local/bin/dash-generate-components", "nextflow.bak": "/usr/local/bin/nextflow.bak", "nextflow": "/usr/local/bin/nextflow", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "flask": "/usr/local/bin/flask", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot"}}
+config: {"url": "https://biocontainers.pro/tools/metafun", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metafun", "latest": {"0.3.0--pyhdfd78af_0": "sha256:6a6d0ae6fc7ef3be9c293e5614a693a00bb15fbd4d95aada38cae4bcfd8bef13"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:e5b8f5ddb50a9cf22a3343c5fbb4f64bb281056296b9b8fe6a4417d2ff513c8a", "0.3.0--pyhdfd78af_0": "sha256:6a6d0ae6fc7ef3be9c293e5614a693a00bb15fbd4d95aada38cae4bcfd8bef13"}, "docker": "quay.io/biocontainers/metafun", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "dash-update-components": "/usr/local/bin/dash-update-components", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "hatchling": "/usr/local/bin/hatchling", "metafun": "/usr/local/bin/metafun", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "sylph": "/usr/local/bin/sylph", "unsquashfs": "/usr/local/bin/unsquashfs", "renderer": "/usr/local/bin/renderer", "bsdunzip": "/usr/local/bin/bsdunzip", "dash-generate-components": "/usr/local/bin/dash-generate-components", "nextflow.bak": "/usr/local/bin/nextflow.bak", "nextflow": "/usr/local/bin/nextflow", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "flask": "/usr/local/bin/flask", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metafun.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/metafun
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metafun:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metafun:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metafun/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/metafun/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/metafun/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/metafun/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

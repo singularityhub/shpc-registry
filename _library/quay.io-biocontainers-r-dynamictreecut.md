@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dynamictreecut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dynamictreecut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dynamictreecut/container.yaml"
-updated_at: "2025-05-04 03:47:51.386706"
+updated_at: "2025-05-05 03:42:32.333656"
 latest: "1.63_1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-dynamictreecut"
 aliases:

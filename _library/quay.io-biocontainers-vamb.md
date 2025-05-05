@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vamb/container.yaml"
-updated_at: "2025-05-04 03:49:08.198940"
-latest: "4.1.3--py311h7b50bb2_0"
+updated_at: "2025-05-05 03:43:45.865834"
+latest: "5.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vamb"
 aliases:
  - "concatenate.py"
@@ -24,8 +24,9 @@ versions:
  - "3.0.2--py37h8902056_2"
  - "3.0.2--py36h91eb985_2"
  - "4.1.3--py311h7b50bb2_0"
+ - "5.0.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vamb"
-config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"4.1.3--py311h7b50bb2_0": "sha256:25bc2cd6d26398aa369fda5ae7fc18e1224d8a2bc3cc8eb28126a85e54da49ce"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1", "3.0.2--py36h91eb985_2": "sha256:92ae8eca6139ccd5c31216b49de194a4c0a9a46882eba0b447cc2f77ce1f409c", "4.1.3--py311h7b50bb2_0": "sha256:25bc2cd6d26398aa369fda5ae7fc18e1224d8a2bc3cc8eb28126a85e54da49ce"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"5.0.4--pyhdfd78af_0": "sha256:6ac01f01372a7519ed51cd6cfa38a726418221e97ced61945663d99421e5fb8b"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1", "3.0.2--py36h91eb985_2": "sha256:92ae8eca6139ccd5c31216b49de194a4c0a9a46882eba0b447cc2f77ce1f409c", "4.1.3--py311h7b50bb2_0": "sha256:25bc2cd6d26398aa369fda5ae7fc18e1224d8a2bc3cc8eb28126a85e54da49ce", "5.0.4--pyhdfd78af_0": "sha256:6ac01f01372a7519ed51cd6cfa38a726418221e97ced61945663d99421e5fb8b"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vamb.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vamb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vamb:4.1.3--py311h7b50bb2_0
+$ shpc install quay.io/biocontainers/vamb:5.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vamb/4.1.3--py311h7b50bb2_0
-$ module help quay.io/biocontainers/vamb/4.1.3--py311h7b50bb2_0
+$ module load quay.io/biocontainers/vamb/5.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/vamb/5.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

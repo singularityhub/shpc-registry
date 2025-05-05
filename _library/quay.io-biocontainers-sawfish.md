@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sawfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sawfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sawfish/container.yaml"
-updated_at: "2025-05-04 03:59:21.871296"
-latest: "0.12.10--h9ee0642_0"
+updated_at: "2025-05-05 03:53:48.440201"
+latest: "1.0.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/sawfish"
 aliases:
  - "sawfish"
@@ -17,8 +17,9 @@ versions:
  - "0.12.8--h9ee0642_0"
  - "0.12.9--h9ee0642_0"
  - "0.12.10--h9ee0642_0"
+ - "1.0.2--h9ee0642_0"
 description: "singularity registry hpc automated addition for sawfish"
-config: {"url": "https://biocontainers.pro/tools/sawfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sawfish", "latest": {"0.12.10--h9ee0642_0": "sha256:072e1d1ce32878ce77ebd5575323434047777cfd422ac27ab62a0474b9dcb290"}, "tags": {"0.12.1--h9ee0642_0": "sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92", "0.12.3--h9ee0642_0": "sha256:31da5c53dee50431726e9f9eb709661ad99433fc01fa0c942825e6529b03efc7", "0.12.4--h9ee0642_0": "sha256:54ad9566a4a05934f7879d42f631cb8f61737f05ca9e7eb1751cb7b4e9c4d4db", "0.12.7--h9ee0642_0": "sha256:041e51c96eac3b68d987aef9a8d892bdd13467b3e554e50f67327ed29fd88041", "0.12.8--h9ee0642_0": "sha256:a73a4900f6c28c266811e6fa5266a0ccc731ce0075ee6842664387bb0043a765", "0.12.9--h9ee0642_0": "sha256:1b5d88fb8b49f7234937627ab09bbcfbfc6d5dc3477eb799c95b6dcb15ed26ee", "0.12.10--h9ee0642_0": "sha256:072e1d1ce32878ce77ebd5575323434047777cfd422ac27ab62a0474b9dcb290"}, "docker": "quay.io/biocontainers/sawfish", "aliases": {"sawfish": "/usr/local/bin/sawfish"}}
+config: {"url": "https://biocontainers.pro/tools/sawfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sawfish", "latest": {"1.0.2--h9ee0642_0": "sha256:247adc89317aed20d60eb0813065be7ef8d714c4868efe6e9d9535d303db3b5b"}, "tags": {"0.12.1--h9ee0642_0": "sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92", "0.12.3--h9ee0642_0": "sha256:31da5c53dee50431726e9f9eb709661ad99433fc01fa0c942825e6529b03efc7", "0.12.4--h9ee0642_0": "sha256:54ad9566a4a05934f7879d42f631cb8f61737f05ca9e7eb1751cb7b4e9c4d4db", "0.12.7--h9ee0642_0": "sha256:041e51c96eac3b68d987aef9a8d892bdd13467b3e554e50f67327ed29fd88041", "0.12.8--h9ee0642_0": "sha256:a73a4900f6c28c266811e6fa5266a0ccc731ce0075ee6842664387bb0043a765", "0.12.9--h9ee0642_0": "sha256:1b5d88fb8b49f7234937627ab09bbcfbfc6d5dc3477eb799c95b6dcb15ed26ee", "0.12.10--h9ee0642_0": "sha256:072e1d1ce32878ce77ebd5575323434047777cfd422ac27ab62a0474b9dcb290", "1.0.2--h9ee0642_0": "sha256:247adc89317aed20d60eb0813065be7ef8d714c4868efe6e9d9535d303db3b5b"}, "docker": "quay.io/biocontainers/sawfish", "aliases": {"sawfish": "/usr/local/bin/sawfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sawfish.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/sawfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sawfish:0.12.10--h9ee0642_0
+$ shpc install quay.io/biocontainers/sawfish:1.0.2--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sawfish/0.12.10--h9ee0642_0
-$ module help quay.io/biocontainers/sawfish/0.12.10--h9ee0642_0
+$ module load quay.io/biocontainers/sawfish/1.0.2--h9ee0642_0
+$ module help quay.io/biocontainers/sawfish/1.0.2--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

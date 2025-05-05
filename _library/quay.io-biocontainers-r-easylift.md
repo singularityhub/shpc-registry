@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-easylift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-easylift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-easylift/container.yaml"
-updated_at: "2025-05-04 03:23:45.774315"
+updated_at: "2025-05-05 03:19:37.497843"
 latest: "0.2.1--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-easylift"
 aliases:

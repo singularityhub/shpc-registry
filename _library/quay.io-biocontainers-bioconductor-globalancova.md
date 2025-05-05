@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-globalancova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globalancova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globalancova/container.yaml"
-updated_at: "2025-05-04 04:07:28.854750"
+updated_at: "2025-05-05 04:01:31.214492"
 latest: "4.24.0--r44h3df3fcb_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-globalancova"
 aliases:

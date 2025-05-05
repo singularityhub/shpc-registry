@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dbd-sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-sqlite/container.yaml"
-updated_at: "2025-05-04 04:09:42.368487"
+updated_at: "2025-05-05 04:03:37.805449"
 latest: "1.76--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-dbd-sqlite"
 aliases:
