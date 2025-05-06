@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhcgnomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcgnomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcgnomes/container.yaml"
-updated_at: "2025-05-05 03:22:54.276059"
+updated_at: "2025-05-06 03:19:18.873976"
 latest: "1.8.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/mhcgnomes"
 aliases:

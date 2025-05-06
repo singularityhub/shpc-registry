@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spieceasi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spieceasi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spieceasi/container.yaml"
-updated_at: "2025-05-05 03:55:42.739778"
+updated_at: "2025-05-06 03:54:31.374371"
 latest: "1.1.1--r44h503566f_6"
 container_url: "https://biocontainers.pro/tools/r-spieceasi"
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kbo-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kbo-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kbo-cli/container.yaml"
-updated_at: "2025-05-05 03:46:02.822928"
-latest: "0.1.1--h4349ce8_0"
+updated_at: "2025-05-06 03:44:19.772981"
+latest: "0.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kbo-cli"
 aliases:
  - "kbo"
 versions:
  - "0.1.1--h4349ce8_0"
+ - "0.2.1--h4349ce8_0"
 description: "singularity registry hpc automated addition for kbo-cli"
-config: {"url": "https://biocontainers.pro/tools/kbo-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kbo-cli", "latest": {"0.1.1--h4349ce8_0": "sha256:faedc6a85adf1155e01e9a6bd831fab6d750031f4e9810cac7686b98fe4150ce"}, "tags": {"0.1.1--h4349ce8_0": "sha256:faedc6a85adf1155e01e9a6bd831fab6d750031f4e9810cac7686b98fe4150ce"}, "docker": "quay.io/biocontainers/kbo-cli", "aliases": {"kbo": "/usr/local/bin/kbo"}}
+config: {"url": "https://biocontainers.pro/tools/kbo-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kbo-cli", "latest": {"0.2.1--h4349ce8_0": "sha256:2d6da859cb6cdf8788c7f8818d0fef4da3a9d119ec0ba82a0e77595461aa960f"}, "tags": {"0.1.1--h4349ce8_0": "sha256:faedc6a85adf1155e01e9a6bd831fab6d750031f4e9810cac7686b98fe4150ce", "0.2.1--h4349ce8_0": "sha256:2d6da859cb6cdf8788c7f8818d0fef4da3a9d119ec0ba82a0e77595461aa960f"}, "docker": "quay.io/biocontainers/kbo-cli", "aliases": {"kbo": "/usr/local/bin/kbo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kbo-cli.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kbo-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kbo-cli:0.1.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/kbo-cli:0.2.1--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kbo-cli/0.1.1--h4349ce8_0
-$ module help quay.io/biocontainers/kbo-cli/0.1.1--h4349ce8_0
+$ module load quay.io/biocontainers/kbo-cli/0.2.1--h4349ce8_0
+$ module help quay.io/biocontainers/kbo-cli/0.2.1--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

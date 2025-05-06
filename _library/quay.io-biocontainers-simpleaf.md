@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simpleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simpleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simpleaf/container.yaml"
-updated_at: "2025-05-05 03:26:04.744421"
-latest: "0.19.4--ha6fb395_0"
+updated_at: "2025-05-06 03:22:43.606435"
+latest: "0.19.5--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/simpleaf"
 aliases:
  - "alevin-fry"
@@ -43,8 +43,9 @@ versions:
  - "0.19.1--ha6fb395_0"
  - "0.18.4--ha6fb395_1"
  - "0.19.4--ha6fb395_0"
+ - "0.19.5--ha6fb395_0"
 description: "shpc-registry automated BioContainers addition for simpleaf"
-config: {"url": "https://biocontainers.pro/tools/simpleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simpleaf", "latest": {"0.19.4--ha6fb395_0": "sha256:2ab853e1c774c0372b8a115404710c12ba4d12c274367b1216b03963c843acf8"}, "tags": {"0.5.3--h9f5acd7_0": "sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032", "0.6.0--h9f5acd7_0": "sha256:fc9f851428207eb47fc4421c8e5c3bc7d3d0cd13a871d563a7342597da178ffe", "0.7.0--h9f5acd7_0": "sha256:9b827a7385ab6e64256d3face3fc025a67e6eaa12c33725707ed18c53a77abeb", "0.8.1--h9f5acd7_0": "sha256:874dbd54eab72081541c15ac90e27517fb0e8b92cf1c4b636c38ac3aadb3ffc6", "0.10.0--h9f5acd7_1": "sha256:d6cc855f9027d5c826bda1885531eeb943187b9ce78d457d36813fd7acf2be29", "0.9.0--h9f5acd7_0": "sha256:9b8a673d858b41e2609435eea1fab95f43ca3813cf614b82777f9b77a53ed159", "0.13.0--h9f5acd7_0": "sha256:3d697a1fa933d5d585bcb1b3e35fd14008fb4a5b8eddc35fb298ecbc22ecc510", "0.12.0--h9f5acd7_0": "sha256:a85dbddd313ec07c03d7410eb270e45eb2ed587761442278bdad8ee355b3348c", "0.11.1--h9f5acd7_0": "sha256:e0b6e1f34fd1211ab8f620d84bac670f5f9086c23f8fc146155d1dc01a6be249", "0.14.0--h4ac6f70_0": "sha256:5b3dd2d214f2f534fcc25a80a1c0fa9755b4652f3a3d9a1412c5c9e38bb5a757", "0.14.1--h4ac6f70_0": "sha256:cb166780c2fd8b93e93350c630ed13ab2399d5fc28dfd9ce73e7814cfad61dc8", "0.15.1--h4ac6f70_0": "sha256:b3d071f8f68f1d3e0bbf43af60e9091d12d12db688c33263a6205d6c3e288082", "0.16.2--h4ac6f70_0": "sha256:7e0b8095b5b847572aa9a2fdd6496feea136d19f14addb0694d15715dd3cb9e9", "0.17.0--h919a2d8_1": "sha256:d39b3760de41e785391e6fa0ed75d5040673ca3cc98c087fba09f9fd37363347", "0.17.2--h919a2d8_0": "sha256:cb54e63049db289ff2549877280d371c7460d09606f6d5827d8c5fadcbe8e7cd", "0.17.4--h919a2d8_0": "sha256:1cefd3ab3426a8fc9e6ddabfb53dae5b6434291889e6f331bbcfa068079da712", "0.18.4--ha6fb395_0": "sha256:c8f0adb1a59eb419d5a02d31441a07af259a96fb81461fbdb1d056489da610aa", "0.17.4--ha6fb395_1": "sha256:c99db80fdd9523346aafce0121a598a30a7c74926618bb81eb1664d02cf219c2", "0.19.1--ha6fb395_0": "sha256:06e7667e068b3d2f1ee88618e9c810e867eebc4f327637b42b14b78404ef9394", "0.18.4--ha6fb395_1": "sha256:c0e85043ac6a89e4594720ab626ce399c5bc62451ee6a4292be6c19c6941a39a", "0.19.4--ha6fb395_0": "sha256:2ab853e1c774c0372b8a115404710c12ba4d12c274367b1216b03963c843acf8"}, "docker": "quay.io/biocontainers/simpleaf", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry", "pyroe": "/usr/local/bin/pyroe", "simpleaf": "/usr/local/bin/simpleaf", "salmon": "/usr/local/bin/salmon", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "tabulate": "/usr/local/bin/tabulate"}}
+config: {"url": "https://biocontainers.pro/tools/simpleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simpleaf", "latest": {"0.19.5--ha6fb395_0": "sha256:3e2971957942246f54d8fe55b43a6dfae242a641114805f20aca147a687d73f9"}, "tags": {"0.5.3--h9f5acd7_0": "sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032", "0.6.0--h9f5acd7_0": "sha256:fc9f851428207eb47fc4421c8e5c3bc7d3d0cd13a871d563a7342597da178ffe", "0.7.0--h9f5acd7_0": "sha256:9b827a7385ab6e64256d3face3fc025a67e6eaa12c33725707ed18c53a77abeb", "0.8.1--h9f5acd7_0": "sha256:874dbd54eab72081541c15ac90e27517fb0e8b92cf1c4b636c38ac3aadb3ffc6", "0.10.0--h9f5acd7_1": "sha256:d6cc855f9027d5c826bda1885531eeb943187b9ce78d457d36813fd7acf2be29", "0.9.0--h9f5acd7_0": "sha256:9b8a673d858b41e2609435eea1fab95f43ca3813cf614b82777f9b77a53ed159", "0.13.0--h9f5acd7_0": "sha256:3d697a1fa933d5d585bcb1b3e35fd14008fb4a5b8eddc35fb298ecbc22ecc510", "0.12.0--h9f5acd7_0": "sha256:a85dbddd313ec07c03d7410eb270e45eb2ed587761442278bdad8ee355b3348c", "0.11.1--h9f5acd7_0": "sha256:e0b6e1f34fd1211ab8f620d84bac670f5f9086c23f8fc146155d1dc01a6be249", "0.14.0--h4ac6f70_0": "sha256:5b3dd2d214f2f534fcc25a80a1c0fa9755b4652f3a3d9a1412c5c9e38bb5a757", "0.14.1--h4ac6f70_0": "sha256:cb166780c2fd8b93e93350c630ed13ab2399d5fc28dfd9ce73e7814cfad61dc8", "0.15.1--h4ac6f70_0": "sha256:b3d071f8f68f1d3e0bbf43af60e9091d12d12db688c33263a6205d6c3e288082", "0.16.2--h4ac6f70_0": "sha256:7e0b8095b5b847572aa9a2fdd6496feea136d19f14addb0694d15715dd3cb9e9", "0.17.0--h919a2d8_1": "sha256:d39b3760de41e785391e6fa0ed75d5040673ca3cc98c087fba09f9fd37363347", "0.17.2--h919a2d8_0": "sha256:cb54e63049db289ff2549877280d371c7460d09606f6d5827d8c5fadcbe8e7cd", "0.17.4--h919a2d8_0": "sha256:1cefd3ab3426a8fc9e6ddabfb53dae5b6434291889e6f331bbcfa068079da712", "0.18.4--ha6fb395_0": "sha256:c8f0adb1a59eb419d5a02d31441a07af259a96fb81461fbdb1d056489da610aa", "0.17.4--ha6fb395_1": "sha256:c99db80fdd9523346aafce0121a598a30a7c74926618bb81eb1664d02cf219c2", "0.19.1--ha6fb395_0": "sha256:06e7667e068b3d2f1ee88618e9c810e867eebc4f327637b42b14b78404ef9394", "0.18.4--ha6fb395_1": "sha256:c0e85043ac6a89e4594720ab626ce399c5bc62451ee6a4292be6c19c6941a39a", "0.19.4--ha6fb395_0": "sha256:2ab853e1c774c0372b8a115404710c12ba4d12c274367b1216b03963c843acf8", "0.19.5--ha6fb395_0": "sha256:3e2971957942246f54d8fe55b43a6dfae242a641114805f20aca147a687d73f9"}, "docker": "quay.io/biocontainers/simpleaf", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry", "pyroe": "/usr/local/bin/pyroe", "simpleaf": "/usr/local/bin/simpleaf", "salmon": "/usr/local/bin/salmon", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "tabulate": "/usr/local/bin/tabulate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simpleaf.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/simpleaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simpleaf:0.19.4--ha6fb395_0
+$ shpc install quay.io/biocontainers/simpleaf:0.19.5--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simpleaf/0.19.4--ha6fb395_0
-$ module help quay.io/biocontainers/simpleaf/0.19.4--ha6fb395_0
+$ module load quay.io/biocontainers/simpleaf/0.19.5--ha6fb395_0
+$ module help quay.io/biocontainers/simpleaf/0.19.5--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

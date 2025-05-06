@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tress/container.yaml"
-updated_at: "2025-05-05 03:47:28.786387"
+updated_at: "2025-05-06 03:45:48.007840"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tress"
 

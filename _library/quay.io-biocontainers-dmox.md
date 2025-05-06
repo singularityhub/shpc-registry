@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dmox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dmox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dmox/container.yaml"
-updated_at: "2025-05-05 03:47:06.883982"
+updated_at: "2025-05-06 03:45:25.396242"
 latest: "0.1.3--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/dmox"
 aliases:

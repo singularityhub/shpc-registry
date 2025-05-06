@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wavetiling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavetiling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavetiling/container.yaml"
-updated_at: "2025-05-05 03:26:26.878933"
+updated_at: "2025-05-06 03:23:07.144052"
 latest: "1.28.0--r36h516909a_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavetiling"
 aliases:

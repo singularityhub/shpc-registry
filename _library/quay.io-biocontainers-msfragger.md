@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msfragger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msfragger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msfragger/container.yaml"
-updated_at: "2025-05-05 03:55:25.697363"
+updated_at: "2025-05-06 03:54:13.076278"
 latest: "4.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msfragger"
 aliases:
