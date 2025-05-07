@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cbaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
-updated_at: "2025-05-06 03:41:39.228573"
+updated_at: "2025-05-07 03:44:13.535107"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbaf"
 aliases:

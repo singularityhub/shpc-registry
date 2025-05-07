@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-regionalst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regionalst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regionalst/container.yaml"
-updated_at: "2025-05-06 03:37:58.861304"
+updated_at: "2025-05-07 03:40:24.879472"
 latest: "1.0.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regionalst"
 aliases:

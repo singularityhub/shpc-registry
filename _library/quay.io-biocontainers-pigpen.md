@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pigpen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pigpen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pigpen/container.yaml"
-updated_at: "2025-05-06 03:11:29.007722"
+updated_at: "2025-05-07 03:13:07.760978"
 latest: "0.0.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pigpen"
 aliases:
