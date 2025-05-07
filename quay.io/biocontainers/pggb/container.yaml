@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pggb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pggb
 latest:
-  0.7.2--h9ee0642_0: sha256:dc8f3ed159ebde6afe835f42cdbe3f3eeecd8d842ba883b70c0dd48850ab6455
+  0.7.4--h9ee0642_0: sha256:ce5cf949fbc7212c373a5672e4957cc6ac1923608b82820d072e87fde02ef35a
 tags:
   0.4.1--hdfd78af_0: sha256:18875ce064179e4e4f2a1459b87a7de2af233f4d5f50d365f813d8d9ac50fc69
   0.5.0--hdfd78af_0: sha256:a0fabae4c656e72e8cb4467401529617061e7d68db335fcabc61cc2a4abcfc64
@@ -13,6 +13,7 @@ tags:
   0.6.0--hdfd78af_0: sha256:c677564f26430a8e404c3de09905b9446c88ac269a46774631a6bca2f03124d4
   0.7.2--h9ee0642_0: sha256:dc8f3ed159ebde6afe835f42cdbe3f3eeecd8d842ba883b70c0dd48850ab6455
   0.6.0--hdfd78af_1: sha256:7a59bd109796967a0a6150f062c86e07eb913d3b0f6e5467f5f3d7e7910e2583
+  0.7.4--h9ee0642_0: sha256:ce5cf949fbc7212c373a5672e4957cc6ac1923608b82820d072e87fde02ef35a
 docker: quay.io/biocontainers/pggb
 aliases:
   gfaffix: /usr/local/bin/gfaffix

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gb-io
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gb-io
 latest:
-  0.3.5--py310hec43fc7_0: sha256:c9e3e5d38651a29d3c472149893c26582ca949440a4febfff1efdbc8bf73af54
+  0.3.6--py312h004ce86_0: sha256:e594f8f037db8fd66201f334ede6e1449aa035189a27d7fa8d173ad30c235acb
 tags:
   0.3.1--py310he6195e5_0: sha256:47d2b4deb9ad28070dc2446978e35549259300028e01368937d1695cf9866103
   0.3.2--py38h8fa8eaa_0: sha256:dafc0b9b2b8e2de754462331b009e7e5de015bddf05f8926c9e09968959f638a
@@ -10,6 +10,7 @@ tags:
   0.3.3--py311h2c52b1d_0: sha256:580ee05319d0f402c93ebca89e0b898770e654ae7cfb68ab82375858e97b80e1
   0.3.3--py311he62d035_1: sha256:c76ad2857744023c5ef232e8a942a054b1e55e26f13827df3772fc39b98b101c
   0.3.5--py310hec43fc7_0: sha256:c9e3e5d38651a29d3c472149893c26582ca949440a4febfff1efdbc8bf73af54
+  0.3.6--py312h004ce86_0: sha256:e594f8f037db8fd66201f334ede6e1449aa035189a27d7fa8d173ad30c235acb
 docker: quay.io/biocontainers/gb-io
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

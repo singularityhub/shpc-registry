@@ -8,15 +8,10 @@ latest:
 tags:
   latest: sha256:3e742d2a9d1e5e118756fa8789bd8edb4a52cb011893815ce12a0b3267878113
   chrisfilo-patch-1: sha256:f93055ee1fc5204c69140eef0a71c83d6b672a12c37dd8cf4c34e08d05b21776
-  0.5.1: 'crane digest bids/mrtrix3_connectome:0.5.1: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  0.4.2: 'crane digest bids/mrtrix3_connectome:0.4.2: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  0.3.0: 'crane digest bids/mrtrix3_connectome:0.3.0: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  0.2.2: 'crane digest bids/mrtrix3_connectome:0.2.2: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  0.5.3: 'crane digest bids/mrtrix3_connectome:0.5.3: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  0.5.1: sha256:f3e7a20ac3eb1ca674b9896ff3b04a595192f9923f853fcc573e1ca42fa4ebaf
+  0.4.2: sha256:3d701b0846038289e18e7571c7072056f1f81daa70ab3159bb48cec9d88f6ecf
+  0.3.0: sha256:64440966249b693da6733d7200d8eebcb4c0f1320f245e826227fb9f1d46a042
+  0.2.2: sha256:a0205a41f34cdc6d8b289fd28f6be46f98c2b7fdf14eaa05b793db28bea5bbdb
+  0.5.3: sha256:3e742d2a9d1e5e118756fa8789bd8edb4a52cb011893815ce12a0b3267878113
 filter:
 - v*

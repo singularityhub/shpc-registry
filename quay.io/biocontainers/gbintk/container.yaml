@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gbintk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gbintk
 latest:
-  1.0.0--py310h9ee0642_1: sha256:6957433c34ef5c1b151dfb273318983f7c5678c7c3fbabcb032a7aad154af787
+  1.0.1--py310h9ee0642_0: sha256:9fb37455c9e66ddea3a46f3ad994b35b085f3d7b0c6995cfd40ad41d484e5a11
 tags:
   0.1.0--pyhdfd78af_0: sha256:a6cd7c03a817516740edd88b301bc09eed48803a06a6aeb4a36eb97e935a7138
   1.0.0--py310h9ee0642_1: sha256:6957433c34ef5c1b151dfb273318983f7c5678c7c3fbabcb032a7aad154af787
+  1.0.1--py310h9ee0642_0: sha256:9fb37455c9e66ddea3a46f3ad994b35b085f3d7b0c6995cfd40ad41d484e5a11
 docker: quay.io/biocontainers/gbintk
 aliases:
   combine_cov: /usr/local/bin/combine_cov

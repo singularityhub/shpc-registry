@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-chord
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-chord
 latest:
-  2.1.0_beta--hdfd78af_4: sha256:3bdf6817d628edf307541c0912d3a50daa8a94cd30287e12c25da8197cfe693b
+  2.1.1--hdfd78af_0: sha256:f854bcf60b9075cd8916d82539687e9a895fd4ccf68487dd5f6d39d1d86a4977
 tags:
   2.1.0_beta--r43hdfd78af_0: sha256:3414a7d579e6d3335cc25e94221aec96a05e37bc2304ba19d40bee0f42be9346
   2.1.0_beta--hdfd78af_4: sha256:3bdf6817d628edf307541c0912d3a50daa8a94cd30287e12c25da8197cfe693b
+  2.1.1--hdfd78af_0: sha256:f854bcf60b9075cd8916d82539687e9a895fd4ccf68487dd5f6d39d1d86a4977
 docker: quay.io/biocontainers/hmftools-chord
 aliases:
   chord: /usr/local/bin/chord
