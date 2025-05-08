@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kractor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kractor
+latest:
+  1.0.0--h4349ce8_0: sha256:7596b534ec304f43aedf897766f976a86307bbca13604dc8b1e67fbfe35a6801
+tags:
+  1.0.0--h4349ce8_0: sha256:7596b534ec304f43aedf897766f976a86307bbca13604dc8b1e67fbfe35a6801
+docker: quay.io/biocontainers/kractor
+aliases:
+  kractor: /usr/local/bin/kractor

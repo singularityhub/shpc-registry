@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/sequenticon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sequenticon
+latest:
+  0.1.7--pyh7e72e81_0: sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d
+tags:
+  0.1.7--pyh7e72e81_0: sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d
+docker: quay.io/biocontainers/sequenticon
+aliases:
+  html2text: /usr/local/bin/html2text
+  pypugjs: /usr/local/bin/pypugjs
+  weasyprint: /usr/local/bin/weasyprint
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  markdown_py: /usr/local/bin/markdown_py
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

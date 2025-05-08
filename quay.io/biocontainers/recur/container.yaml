@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/recur
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for recur
+latest:
+  1.0.0--pyhdfd78af_0: sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
+tags:
+  1.0.0--pyhdfd78af_0: sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
+docker: quay.io/biocontainers/recur
+aliases:
+  recur: /usr/local/bin/recur
+  sumlabels: /usr/local/bin/sumlabels
+  sumtrees: /usr/local/bin/sumtrees
+  iqtree2: /usr/local/bin/iqtree2
+  iqtree: /usr/local/bin/iqtree
+  dendropy-format: /usr/local/bin/dendropy-format
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  markdown-it: /usr/local/bin/markdown-it
+  numpy-config: /usr/local/bin/numpy-config
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

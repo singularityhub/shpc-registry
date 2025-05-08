@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/amalgkit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amalgkit
+latest:
+  0.12.15--pyhdfd78af_0: sha256:5c83ae36b4d5d8a690a9d845e6c9b80a26eacd28caa9d768ec569041021a88d8
+tags:
+  0.12.15--pyhdfd78af_0: sha256:5c83ae36b4d5d8a690a9d845e6c9b80a26eacd28caa9d768ec569041021a88d8
+docker: quay.io/biocontainers/amalgkit
+aliases:
+  amalgkit: /usr/local/bin/amalgkit
+  numpy-config: /usr/local/bin/numpy-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
