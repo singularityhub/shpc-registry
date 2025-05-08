@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merquryfk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merquryfk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merquryfk/container.yaml"
-updated_at: "2025-05-07 03:58:13.285094"
+updated_at: "2025-05-08 03:45:59.429231"
 latest: "1.1.1--h71df26d_1"
 container_url: "https://biocontainers.pro/tools/merquryfk"
 aliases:

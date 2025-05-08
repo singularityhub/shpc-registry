@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gbintk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbintk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbintk/container.yaml"
-updated_at: "2025-05-07 03:43:47.902534"
-latest: "1.0.0--py310h9ee0642_1"
+updated_at: "2025-05-08 03:40:27.179452"
+latest: "1.0.1--py310h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gbintk"
 aliases:
  - "combine_cov"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "0.1.0--pyhdfd78af_0"
  - "1.0.0--py310h9ee0642_1"
+ - "1.0.1--py310h9ee0642_0"
 description: "singularity registry hpc automated addition for gbintk"
-config: {"url": "https://biocontainers.pro/tools/gbintk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gbintk", "latest": {"1.0.0--py310h9ee0642_1": "sha256:6957433c34ef5c1b151dfb273318983f7c5678c7c3fbabcb032a7aad154af787"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a6cd7c03a817516740edd88b301bc09eed48803a06a6aeb4a36eb97e935a7138", "1.0.0--py310h9ee0642_1": "sha256:6957433c34ef5c1b151dfb273318983f7c5678c7c3fbabcb032a7aad154af787"}, "docker": "quay.io/biocontainers/gbintk", "aliases": {"combine_cov": "/usr/local/bin/combine_cov", "gbintk": "/usr/local/bin/gbintk", "graphbin": "/usr/local/bin/graphbin", "graphbin2": "/usr/local/bin/graphbin2", "metacoag": "/usr/local/bin/metacoag", "prepResult": "/usr/local/bin/prepResult", "FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "pbr": "/usr/local/bin/pbr", "igraph": "/usr/local/bin/igraph", "numpy-config": "/usr/local/bin/numpy-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask"}}
+config: {"url": "https://biocontainers.pro/tools/gbintk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gbintk", "latest": {"1.0.1--py310h9ee0642_0": "sha256:9fb37455c9e66ddea3a46f3ad994b35b085f3d7b0c6995cfd40ad41d484e5a11"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a6cd7c03a817516740edd88b301bc09eed48803a06a6aeb4a36eb97e935a7138", "1.0.0--py310h9ee0642_1": "sha256:6957433c34ef5c1b151dfb273318983f7c5678c7c3fbabcb032a7aad154af787", "1.0.1--py310h9ee0642_0": "sha256:9fb37455c9e66ddea3a46f3ad994b35b085f3d7b0c6995cfd40ad41d484e5a11"}, "docker": "quay.io/biocontainers/gbintk", "aliases": {"combine_cov": "/usr/local/bin/combine_cov", "gbintk": "/usr/local/bin/gbintk", "graphbin": "/usr/local/bin/graphbin", "graphbin2": "/usr/local/bin/graphbin2", "metacoag": "/usr/local/bin/metacoag", "prepResult": "/usr/local/bin/prepResult", "FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "pbr": "/usr/local/bin/pbr", "igraph": "/usr/local/bin/igraph", "numpy-config": "/usr/local/bin/numpy-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gbintk.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/gbintk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gbintk:1.0.0--py310h9ee0642_1
+$ shpc install quay.io/biocontainers/gbintk:1.0.1--py310h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gbintk/1.0.0--py310h9ee0642_1
-$ module help quay.io/biocontainers/gbintk/1.0.0--py310h9ee0642_1
+$ module load quay.io/biocontainers/gbintk/1.0.1--py310h9ee0642_0
+$ module help quay.io/biocontainers/gbintk/1.0.1--py310h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

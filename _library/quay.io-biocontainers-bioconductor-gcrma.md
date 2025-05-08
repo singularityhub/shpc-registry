@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gcrma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcrma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcrma/container.yaml"
-updated_at: "2025-05-07 03:42:30.238832"
-latest: "2.78.0--r44h3df3fcb_0"
+updated_at: "2025-05-08 03:44:58.321266"
+latest: "2.78.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcrma"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.72.0--r43ha9d7317_0"
  - "2.74.0--r43ha9d7317_0"
  - "2.78.0--r44h3df3fcb_0"
+ - "2.78.0--r44h3df3fcb_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-gcrma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrma", "latest": {"2.78.0--r44h3df3fcb_0": "sha256:409d9f315d90a66a0b04db41cfab2f5460faf938f3d9ecc0820ef9fb3e386d2d"}, "tags": {"2.66.0--r41hc0cfd56_2": "sha256:5d7fe65c21e750c17b593a1dca57d9dc85d5d9ee3b2108479054618fc1bd9eb6", "2.70.0--r42hc0cfd56_0": "sha256:2c3739bbd962b544fbdcc42ad2b5b3d59dd56e7a34783a74bc6eac08fd070a11", "2.70.0--r42ha9d7317_1": "sha256:5084f8c677506c7cc9274001c0a199ae057ef95628c91e51777955f8fb7dcc39", "2.72.0--r43ha9d7317_0": "sha256:8de44a6ad516240e245094bddf8beb37dc41a13052d8ace89b321e555dd34667", "2.74.0--r43ha9d7317_0": "sha256:f4f3e8dc5c44fad2d7e93ca48be755be2ec2b45c8b0acbc630d037ad4eaa7390", "2.78.0--r44h3df3fcb_0": "sha256:409d9f315d90a66a0b04db41cfab2f5460faf938f3d9ecc0820ef9fb3e386d2d"}, "docker": "quay.io/biocontainers/bioconductor-gcrma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrma", "latest": {"2.78.0--r44h3df3fcb_1": "sha256:865514ddb2668a437aa960ea94ae41782b17558a5b83210fe3785255167bc983"}, "tags": {"2.66.0--r41hc0cfd56_2": "sha256:5d7fe65c21e750c17b593a1dca57d9dc85d5d9ee3b2108479054618fc1bd9eb6", "2.70.0--r42hc0cfd56_0": "sha256:2c3739bbd962b544fbdcc42ad2b5b3d59dd56e7a34783a74bc6eac08fd070a11", "2.70.0--r42ha9d7317_1": "sha256:5084f8c677506c7cc9274001c0a199ae057ef95628c91e51777955f8fb7dcc39", "2.72.0--r43ha9d7317_0": "sha256:8de44a6ad516240e245094bddf8beb37dc41a13052d8ace89b321e555dd34667", "2.74.0--r43ha9d7317_0": "sha256:f4f3e8dc5c44fad2d7e93ca48be755be2ec2b45c8b0acbc630d037ad4eaa7390", "2.78.0--r44h3df3fcb_0": "sha256:409d9f315d90a66a0b04db41cfab2f5460faf938f3d9ecc0820ef9fb3e386d2d", "2.78.0--r44h3df3fcb_1": "sha256:865514ddb2668a437aa960ea94ae41782b17558a5b83210fe3785255167bc983"}, "docker": "quay.io/biocontainers/bioconductor-gcrma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gcrma.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gcrma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gcrma:2.78.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-gcrma:2.78.0--r44h3df3fcb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gcrma/2.78.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-gcrma/2.78.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-gcrma/2.78.0--r44h3df3fcb_1
+$ module help quay.io/biocontainers/bioconductor-gcrma/2.78.0--r44h3df3fcb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

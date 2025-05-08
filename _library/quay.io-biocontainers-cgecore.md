@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgecore/container.yaml"
-updated_at: "2025-05-07 03:12:46.409401"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-05-08 03:25:05.109068"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgecore"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.5.6--pyh3252c3a_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cgecore"
-config: {"url": "https://biocontainers.pro/tools/cgecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgecore", "latest": {"2.0.0--pyhdfd78af_0": "sha256:7be541821fb1a26fc37bb99dfc778beb4d9df2fef14618b8deff43b2eb613aab"}, "tags": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700", "2.0.0--pyhdfd78af_0": "sha256:7be541821fb1a26fc37bb99dfc778beb4d9df2fef14618b8deff43b2eb613aab"}, "docker": "quay.io/biocontainers/cgecore", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cgecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgecore", "latest": {"2.0.1--pyhdfd78af_0": "sha256:99fba01b48dc997fc0fa2de5fda8698d4b2d751aed3c0b359ac5edbcfdb10c67"}, "tags": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700", "2.0.0--pyhdfd78af_0": "sha256:7be541821fb1a26fc37bb99dfc778beb4d9df2fef14618b8deff43b2eb613aab", "2.0.1--pyhdfd78af_0": "sha256:99fba01b48dc997fc0fa2de5fda8698d4b2d751aed3c0b359ac5edbcfdb10c67"}, "docker": "quay.io/biocontainers/cgecore", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgecore.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/cgecore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgecore:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cgecore:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgecore/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cgecore/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cgecore/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cgecore/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

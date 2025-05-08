@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-circseqaligntk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-circseqaligntk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-circseqaligntk/container.yaml"
-updated_at: "2025-05-07 03:33:12.868844"
+updated_at: "2025-05-08 03:34:13.172310"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-circseqaligntk"
 aliases:
