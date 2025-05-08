@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-bmix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-bmix
+latest:
+  1.0.0--r44hdfd78af_0: sha256:f8934ac08b053a772aad76af1082e55d1e8f4ecf96a9fcd821c945e2e27fc057
+tags:
+  1.0.0--r44hdfd78af_0: sha256:f8934ac08b053a772aad76af1082e55d1e8f4ecf96a9fcd821c945e2e27fc057
+docker: quay.io/biocontainers/r-bmix
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
