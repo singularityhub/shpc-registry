@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/treesapp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treesapp
 latest:
-  0.11.4--py37h96cfd12_1: sha256:b676af9a6f17f20ae58045c4121acdaf6119869b58e77a1407af925b50e72458
+  0.11.4--py39h2de1943_2: sha256:ff8ae704e6e788fef5c0fc7cc73a783ea9c209eb2119323f5494a44283279f0f
 tags:
   0.9.8--py36hf1ae8f4_0: sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b
   0.11.3--py36hae55d0a_0: sha256:6ccdfc4941a609d147efdfd9bda086ce6fa4555209edde7185da6d8c68064584
@@ -10,6 +10,7 @@ tags:
   0.11.4--py37h96cfd12_1: sha256:b676af9a6f17f20ae58045c4121acdaf6119869b58e77a1407af925b50e72458
   0.10.4--py36hae55d0a_1: sha256:88a52c6fdea2d4cebf64518b32018d6e727d885ea7145000e52529e12afc2d2b
   0.9.8--py37h9a982cc_0: sha256:d3c60e7972bd0b4aa88ef47372b310bb170b714d69e1975fb79e888fcc0fd45c
+  0.11.4--py39h2de1943_2: sha256:ff8ae704e6e788fef5c0fc7cc73a783ea9c209eb2119323f5494a44283279f0f
 docker: quay.io/biocontainers/treesapp
 aliases:
   epa-ng: /usr/local/bin/epa-ng
