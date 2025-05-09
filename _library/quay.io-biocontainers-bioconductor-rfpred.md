@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rfpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfpred/container.yaml"
-updated_at: "2025-05-08 05:49:22.337958"
-latest: "1.44.0--r44h3df3fcb_0"
+updated_at: "2025-05-09 03:58:33.160869"
+latest: "1.44.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfpred"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.38.0--r43ha9d7317_0"
  - "1.40.0--r43ha9d7317_0"
  - "1.44.0--r44h3df3fcb_0"
+ - "1.44.0--r44h3df3fcb_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rfpred"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rfpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfpred", "latest": {"1.44.0--r44h3df3fcb_0": "sha256:4225dec0c146c4627f9284637fb8030685a37e7e01513d71779ab9c79fe74f51"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:28ce1fc75743b112883973adbd2b247369bd70f826d343e1d05158eec501181b", "1.36.0--r42hc0cfd56_0": "sha256:594b365d3344f0a1fd0b4fc621883eafde5f696e5b45140d6d55469430765227", "1.36.0--r42ha9d7317_1": "sha256:8b827d1b0a664bf6460177746b87cc5adbdc41e657695c2415ef68b84e867453", "1.38.0--r43ha9d7317_0": "sha256:0aceae5bc82fa7ecebf382a0fd5b229220e0306c5be8cf8db5eef09610845051", "1.40.0--r43ha9d7317_0": "sha256:cee69ef4e4cdffb005b8fbe243b48bcfd7c38593e9afdd93dc9da6e2aed89c37", "1.44.0--r44h3df3fcb_0": "sha256:4225dec0c146c4627f9284637fb8030685a37e7e01513d71779ab9c79fe74f51"}, "docker": "quay.io/biocontainers/bioconductor-rfpred"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rfpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfpred", "latest": {"1.44.0--r44h3df3fcb_1": "sha256:528890bc2ed981c22daa14cceb8d0d565b8e286173c1dfc0811c35ef2ee4de23"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:28ce1fc75743b112883973adbd2b247369bd70f826d343e1d05158eec501181b", "1.36.0--r42hc0cfd56_0": "sha256:594b365d3344f0a1fd0b4fc621883eafde5f696e5b45140d6d55469430765227", "1.36.0--r42ha9d7317_1": "sha256:8b827d1b0a664bf6460177746b87cc5adbdc41e657695c2415ef68b84e867453", "1.38.0--r43ha9d7317_0": "sha256:0aceae5bc82fa7ecebf382a0fd5b229220e0306c5be8cf8db5eef09610845051", "1.40.0--r43ha9d7317_0": "sha256:cee69ef4e4cdffb005b8fbe243b48bcfd7c38593e9afdd93dc9da6e2aed89c37", "1.44.0--r44h3df3fcb_0": "sha256:4225dec0c146c4627f9284637fb8030685a37e7e01513d71779ab9c79fe74f51", "1.44.0--r44h3df3fcb_1": "sha256:528890bc2ed981c22daa14cceb8d0d565b8e286173c1dfc0811c35ef2ee4de23"}, "docker": "quay.io/biocontainers/bioconductor-rfpred"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rfpred.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rfpred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rfpred:1.44.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-rfpred:1.44.0--r44h3df3fcb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rfpred/1.44.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-rfpred/1.44.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-rfpred/1.44.0--r44h3df3fcb_1
+$ module help quay.io/biocontainers/bioconductor-rfpred/1.44.0--r44h3df3fcb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

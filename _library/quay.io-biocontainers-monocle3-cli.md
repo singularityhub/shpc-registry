@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/monocle3-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monocle3-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monocle3-cli/container.yaml"
-updated_at: "2025-05-08 05:38:21.318924"
+updated_at: "2025-05-09 03:47:12.858797"
 latest: "0.0.9--r36_1"
 container_url: "https://biocontainers.pro/tools/monocle3-cli"
 aliases:

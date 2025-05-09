@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gsmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsmap/container.yaml"
-updated_at: "2025-05-08 05:42:17.839092"
-latest: "1.71.2--pyhdfd78af_0"
+updated_at: "2025-05-09 03:51:09.642976"
+latest: "1.73.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gsmap"
 aliases:
  - "checksum-profile"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.70--pyhdfd78af_0"
  - "1.71.2--pyhdfd78af_0"
+ - "1.73.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gsmap"
-config: {"url": "https://biocontainers.pro/tools/gsmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsmap", "latest": {"1.71.2--pyhdfd78af_0": "sha256:e030593b8b6d0356238a723115ecc5cb211a39c05e2e1d7ed0f9488d52865537"}, "tags": {"1.70--pyhdfd78af_0": "sha256:fa692f6f9164d02034d40f4f8a35e406d8a330995aa3298e007e866a98eb3e46", "1.71.2--pyhdfd78af_0": "sha256:e030593b8b6d0356238a723115ecc5cb211a39c05e2e1d7ed0f9488d52865537"}, "docker": "quay.io/biocontainers/gsmap", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "gsmap": "/usr/local/bin/gsmap", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyfiglet": "/usr/local/bin/pyfiglet", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "elastipubsub5": "/usr/local/bin/elastipubsub5", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "scanpy": "/usr/local/bin/scanpy", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
+config: {"url": "https://biocontainers.pro/tools/gsmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsmap", "latest": {"1.73.4--pyhdfd78af_0": "sha256:b9485ba3f2791491d2ad0481e232d075d8f7718069fdd61d143f41061dac0d19"}, "tags": {"1.70--pyhdfd78af_0": "sha256:fa692f6f9164d02034d40f4f8a35e406d8a330995aa3298e007e866a98eb3e46", "1.71.2--pyhdfd78af_0": "sha256:e030593b8b6d0356238a723115ecc5cb211a39c05e2e1d7ed0f9488d52865537", "1.73.4--pyhdfd78af_0": "sha256:b9485ba3f2791491d2ad0481e232d075d8f7718069fdd61d143f41061dac0d19"}, "docker": "quay.io/biocontainers/gsmap", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "gsmap": "/usr/local/bin/gsmap", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyfiglet": "/usr/local/bin/pyfiglet", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "elastipubsub5": "/usr/local/bin/elastipubsub5", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "scanpy": "/usr/local/bin/scanpy", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsmap.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/gsmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gsmap:1.71.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gsmap:1.73.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gsmap/1.71.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/gsmap/1.71.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/gsmap/1.73.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/gsmap/1.73.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

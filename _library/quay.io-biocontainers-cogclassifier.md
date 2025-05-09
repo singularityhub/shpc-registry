@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cogclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cogclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cogclassifier/container.yaml"
-updated_at: "2025-05-08 05:38:07.371879"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2025-05-09 03:46:58.810732"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cogclassifier"
 aliases:
  - "COGclassifier"
@@ -22,8 +22,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.5--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cogclassifier"
-config: {"url": "https://biocontainers.pro/tools/cogclassifier", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cogclassifier", "latest": {"1.0.5--pyhdfd78af_0": "sha256:4b3368fae3d9807167a9d3f59d0c81e9ec2661db833f60e48744da0dd7851476"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:4b3368fae3d9807167a9d3f59d0c81e9ec2661db833f60e48744da0dd7851476"}, "docker": "quay.io/biocontainers/cogclassifier", "aliases": {"COGclassifier": "/usr/local/bin/COGclassifier", "plot_cog_classifier_barchart": "/usr/local/bin/plot_cog_classifier_barchart", "plot_cog_classifier_piechart": "/usr/local/bin/plot_cog_classifier_piechart", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/cogclassifier", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cogclassifier", "latest": {"2.0.0--pyhdfd78af_0": "sha256:f3e88f4239cdc54307be8172334fa2be06545c01ed693c69be7f0d17ac79f5b4"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:4b3368fae3d9807167a9d3f59d0c81e9ec2661db833f60e48744da0dd7851476", "2.0.0--pyhdfd78af_0": "sha256:f3e88f4239cdc54307be8172334fa2be06545c01ed693c69be7f0d17ac79f5b4"}, "docker": "quay.io/biocontainers/cogclassifier", "aliases": {"COGclassifier": "/usr/local/bin/COGclassifier", "plot_cog_classifier_barchart": "/usr/local/bin/plot_cog_classifier_barchart", "plot_cog_classifier_piechart": "/usr/local/bin/plot_cog_classifier_piechart", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cogclassifier.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/cogclassifier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cogclassifier:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cogclassifier:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cogclassifier/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/cogclassifier/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/cogclassifier/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cogclassifier/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-sharedir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-sharedir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-sharedir/container.yaml"
-updated_at: "2025-05-08 05:25:40.621659"
+updated_at: "2025-05-09 03:34:48.431316"
 latest: "1.118--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-sharedir"
 

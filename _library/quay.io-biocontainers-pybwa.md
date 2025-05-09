@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybwa/container.yaml"
-updated_at: "2025-05-08 05:16:50.785690"
-latest: "2.0.0--py312h47d5410_0"
+updated_at: "2025-05-09 03:26:07.170410"
+latest: "2.1.0--py311hb456a96_0"
 container_url: "https://biocontainers.pro/tools/pybwa"
 aliases:
  - "py.test"
@@ -23,8 +23,10 @@ versions:
  - "1.6.0--py311hb456a96_0"
  - "1.5.2--py310h64e62c9_0"
  - "1.4.8--py311h384fd50_0"
+ - "2.1.0--py311hb456a96_0"
+ - "2.0.1--py312h47d5410_0"
 description: "singularity registry hpc automated addition for pybwa"
-config: {"url": "https://biocontainers.pro/tools/pybwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybwa", "latest": {"2.0.0--py312h47d5410_0": "sha256:5f07c1ad677c3b5f8ad48918ad43f8e5307af9986451bf5a6510914696b898ba"}, "tags": {"1.4.3--py310h397c9d8_0": "sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173", "1.4.6--py312h4711d71_0": "sha256:ddb510356dec4cea4801d66c1bc61c13e1637c6437ccc4768c38c6708cb5b862", "1.4.7--py39h0699b22_0": "sha256:bdfe598f35528578f11a908cf83873254cdf0256df6ab0ad2364b9f3a548d285", "2.0.0--py312h47d5410_0": "sha256:5f07c1ad677c3b5f8ad48918ad43f8e5307af9986451bf5a6510914696b898ba", "1.6.0--py311hb456a96_0": "sha256:596932c73c4d680291e8a61014a36780d83e9ccfd6182c4d1904d490692672ce", "1.5.2--py310h64e62c9_0": "sha256:a821545fb96a2124b99cbe01dcf78d9eefe18fb3dd4c6ed181bbec6ff7eaac2c", "1.4.8--py311h384fd50_0": "sha256:a2ff5483291ddff677b22f704d72f3e8039d362e4429be70ba08dd8614f9f93f"}, "docker": "quay.io/biocontainers/pybwa", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybwa", "latest": {"2.1.0--py311hb456a96_0": "sha256:84dacb1f795150db2c0f997e2f18a96633c1a36b16a4b13e5c2b12c427116eb2"}, "tags": {"1.4.3--py310h397c9d8_0": "sha256:4b5e9430a809f0a2e0859a9669853be192a0b63f2288122a9b456b554baf5173", "1.4.6--py312h4711d71_0": "sha256:ddb510356dec4cea4801d66c1bc61c13e1637c6437ccc4768c38c6708cb5b862", "1.4.7--py39h0699b22_0": "sha256:bdfe598f35528578f11a908cf83873254cdf0256df6ab0ad2364b9f3a548d285", "2.0.0--py312h47d5410_0": "sha256:5f07c1ad677c3b5f8ad48918ad43f8e5307af9986451bf5a6510914696b898ba", "1.6.0--py311hb456a96_0": "sha256:596932c73c4d680291e8a61014a36780d83e9ccfd6182c4d1904d490692672ce", "1.5.2--py310h64e62c9_0": "sha256:a821545fb96a2124b99cbe01dcf78d9eefe18fb3dd4c6ed181bbec6ff7eaac2c", "1.4.8--py311h384fd50_0": "sha256:a2ff5483291ddff677b22f704d72f3e8039d362e4429be70ba08dd8614f9f93f", "2.1.0--py311hb456a96_0": "sha256:84dacb1f795150db2c0f997e2f18a96633c1a36b16a4b13e5c2b12c427116eb2", "2.0.1--py312h47d5410_0": "sha256:0b0e4dde1afb9a1f02b72e8694d9ed6d8da8d61171b23cf3cc24adc3feadecd7"}, "docker": "quay.io/biocontainers/pybwa", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybwa.
@@ -39,7 +41,7 @@ $ shpc install quay.io/biocontainers/pybwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybwa:2.0.0--py312h47d5410_0
+$ shpc install quay.io/biocontainers/pybwa:2.1.0--py311hb456a96_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybwa/2.0.0--py312h47d5410_0
-$ module help quay.io/biocontainers/pybwa/2.0.0--py312h47d5410_0
+$ module load quay.io/biocontainers/pybwa/2.1.0--py311hb456a96_0
+$ module help quay.io/biocontainers/pybwa/2.1.0--py311hb456a96_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

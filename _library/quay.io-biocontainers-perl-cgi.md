@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-cgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cgi/container.yaml"
-updated_at: "2025-05-08 05:30:27.750708"
-latest: "4.67--pl5321h7b50bb2_1"
+updated_at: "2025-05-09 03:39:29.873157"
+latest: "4.67--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/perl-cgi"
 aliases:
  - "perl5.32.1"
@@ -18,8 +18,9 @@ versions:
  - "4.56--pl5321h7b50bb2_2"
  - "4.67--pl5321h7b50bb2_0"
  - "4.67--pl5321h7b50bb2_1"
+ - "4.67--pl5321h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for perl-cgi"
-config: {"url": "https://biocontainers.pro/tools/perl-cgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cgi", "latest": {"4.67--pl5321h7b50bb2_1": "sha256:d85925be057da9f32f99f911989acc92602daf0b5ea8df5d8936cd948a8be2cb"}, "tags": {"4.54--pl5321hec16e2b_1": "sha256:447db43794c1be154b87efacf3fd69c5aec24cd1173f2cd20059582e038ef192", "4.55--pl5321hec16e2b_0": "sha256:f693ea25a5f6473faf11e8e3d9f1d982a2d1d2732ce6309d20ac13f5a69dd549", "4.56--pl5321hec16e2b_0": "sha256:15126906cb3d0c3e39a99e79597ff9aa9feb3e78d70a8e6d6c2299dcd406c241", "4.56--pl5321h031d066_1": "sha256:352193a3ae081eeaedda923eac0f399711fcdd9679122c6bbf2b43a695a5f6ba", "4.56--pl5321h7b50bb2_2": "sha256:9cabbdd3415e505873d158e080a6af05e13a224d54c2b4262a1827e627dbf824", "4.67--pl5321h7b50bb2_0": "sha256:d4c76f10d9a2c79cb184d0f9b601586a9690107f6f82dbd177fbe2190edb9801", "4.67--pl5321h7b50bb2_1": "sha256:d85925be057da9f32f99f911989acc92602daf0b5ea8df5d8936cd948a8be2cb"}, "docker": "quay.io/biocontainers/perl-cgi", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-cgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cgi", "latest": {"4.67--pl5321h7b50bb2_2": "sha256:c092724d48bab26707e08796fda5337c39195c5a1d01c91510e0a35b0219cb0f"}, "tags": {"4.54--pl5321hec16e2b_1": "sha256:447db43794c1be154b87efacf3fd69c5aec24cd1173f2cd20059582e038ef192", "4.55--pl5321hec16e2b_0": "sha256:f693ea25a5f6473faf11e8e3d9f1d982a2d1d2732ce6309d20ac13f5a69dd549", "4.56--pl5321hec16e2b_0": "sha256:15126906cb3d0c3e39a99e79597ff9aa9feb3e78d70a8e6d6c2299dcd406c241", "4.56--pl5321h031d066_1": "sha256:352193a3ae081eeaedda923eac0f399711fcdd9679122c6bbf2b43a695a5f6ba", "4.56--pl5321h7b50bb2_2": "sha256:9cabbdd3415e505873d158e080a6af05e13a224d54c2b4262a1827e627dbf824", "4.67--pl5321h7b50bb2_0": "sha256:d4c76f10d9a2c79cb184d0f9b601586a9690107f6f82dbd177fbe2190edb9801", "4.67--pl5321h7b50bb2_1": "sha256:d85925be057da9f32f99f911989acc92602daf0b5ea8df5d8936cd948a8be2cb", "4.67--pl5321h7b50bb2_2": "sha256:c092724d48bab26707e08796fda5337c39195c5a1d01c91510e0a35b0219cb0f"}, "docker": "quay.io/biocontainers/perl-cgi", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-cgi.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/perl-cgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-cgi:4.67--pl5321h7b50bb2_1
+$ shpc install quay.io/biocontainers/perl-cgi:4.67--pl5321h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-cgi/4.67--pl5321h7b50bb2_1
-$ module help quay.io/biocontainers/perl-cgi/4.67--pl5321h7b50bb2_1
+$ module load quay.io/biocontainers/perl-cgi/4.67--pl5321h7b50bb2_2
+$ module help quay.io/biocontainers/perl-cgi/4.67--pl5321h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
