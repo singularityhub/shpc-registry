@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/iow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for iow
 latest:
-  1.0.7--py312h9c9b0c2_0: sha256:65aa24757871a0d7d2a5d62e14fda43910eee1dff14c667c23177494feadcaae
+  1.0.8--py310h8ea774a_0: sha256:0daf80decc6ac8120220f6d0a56f000e4606e05d12f236b0b1b618c5a883cc0d
 tags:
   1.0.5--py39h67e14b5_2: sha256:5c61cc23aa5cf7186302bca3bd5e97d2b0c4a79150a307e9aba19b3447061bf1
   1.0.5--py39he10ea66_3: sha256:3df0b0a3153a7bd2c77a6bff36605f920fad8d66a7b7e2a5007d5e0bd4338b38
@@ -11,6 +11,7 @@ tags:
   1.0.5--py311h9f068be_5: sha256:2aed0cc2116af51a68e0a3fb23c6417481da39c1640ff060a163471f3cd72506
   1.0.5--py310h8ea774a_6: sha256:2103bafdfa9a333b733e6077b5eeb73a6480d13740b075d08ba2a221dfaa971c
   1.0.7--py312h9c9b0c2_0: sha256:65aa24757871a0d7d2a5d62e14fda43910eee1dff14c667c23177494feadcaae
+  1.0.8--py310h8ea774a_0: sha256:0daf80decc6ac8120220f6d0a56f000e4606e05d12f236b0b1b618c5a883cc0d
 docker: quay.io/biocontainers/iow
 aliases:
   bp: /usr/local/bin/bp

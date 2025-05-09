@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/roadies
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for roadies
 latest:
-  0.1.4--py39h4577df3_0: sha256:8331eaa357a71cef8fcc803d90b0b6851562e4422ac1fa8ac31fa33048145683
+  0.1.10--py39pl5321h5ca1c30_0: sha256:0b5f3dfc1c1eb043a30bcfeaa1f9f0d2822ee9558d7058a8a8aee933ce38af5e
 tags:
   0.1.4--py39h4577df3_0: sha256:8331eaa357a71cef8fcc803d90b0b6851562e4422ac1fa8ac31fa33048145683
+  0.1.10--py39pl5321h5ca1c30_0: sha256:0b5f3dfc1c1eb043a30bcfeaa1f9f0d2822ee9558d7058a8a8aee933ce38af5e
 docker: quay.io/biocontainers/roadies
 aliases:
   hmmeralign: /usr/local/bin/hmmeralign
