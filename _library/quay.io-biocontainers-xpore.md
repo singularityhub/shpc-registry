@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xpore/container.yaml"
-updated_at: "2025-05-09 03:13:23.192813"
+updated_at: "2025-05-10 03:07:40.696723"
 latest: "2.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/xpore"
 aliases:

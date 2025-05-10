@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grz-pydantic-models"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-pydantic-models/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-pydantic-models/container.yaml"
-updated_at: "2025-05-09 03:32:26.049662"
-latest: "1.2.1--pyhdfd78af_0"
+updated_at: "2025-05-10 03:27:12.682530"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grz-pydantic-models"
 aliases:
  - "idle3.13"
@@ -14,8 +14,10 @@ aliases:
  - "python3.13-config"
 versions:
  - "1.2.1--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for grz-pydantic-models"
-config: {"url": "https://biocontainers.pro/tools/grz-pydantic-models", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-pydantic-models", "latest": {"1.2.1--pyhdfd78af_0": "sha256:abbfad8a96a77ca3acc6ddf73afb7f95d5629e8861168b9857d8da9cacd8c05d"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:abbfad8a96a77ca3acc6ddf73afb7f95d5629e8861168b9857d8da9cacd8c05d"}, "docker": "quay.io/biocontainers/grz-pydantic-models", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/grz-pydantic-models", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-pydantic-models", "latest": {"1.4.0--pyhdfd78af_0": "sha256:5323198c250fafa7dd26226804405c74e6fdbf85b9c713e502c04dd028edbc56"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:abbfad8a96a77ca3acc6ddf73afb7f95d5629e8861168b9857d8da9cacd8c05d", "1.4.0--pyhdfd78af_0": "sha256:5323198c250fafa7dd26226804405c74e6fdbf85b9c713e502c04dd028edbc56", "1.3.0--pyhdfd78af_0": "sha256:09736cae59fe85cb5ed09d846edf856ae018ddc2b59da2a4226a05fa3989a220"}, "docker": "quay.io/biocontainers/grz-pydantic-models", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-pydantic-models.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/grz-pydantic-models
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-pydantic-models:1.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/grz-pydantic-models:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-pydantic-models/1.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/grz-pydantic-models/1.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/grz-pydantic-models/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/grz-pydantic-models/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

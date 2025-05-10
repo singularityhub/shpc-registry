@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scoring-matrices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoring-matrices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoring-matrices/container.yaml"
-updated_at: "2025-05-09 03:17:22.754871"
-latest: "0.3.0--py313h031d066_0"
+updated_at: "2025-05-10 03:11:39.890520"
+latest: "0.3.0--py311haab0aaa_1"
 container_url: "https://biocontainers.pro/tools/scoring-matrices"
 aliases:
  - "2to3-3.9"
@@ -20,8 +20,9 @@ versions:
  - "0.2.2--py310h7c593f9_0"
  - "0.2.2--py310h7c593f9_1"
  - "0.3.0--py313h031d066_0"
+ - "0.3.0--py311haab0aaa_1"
 description: "singularity registry hpc automated addition for scoring-matrices"
-config: {"url": "https://biocontainers.pro/tools/scoring-matrices", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scoring-matrices", "latest": {"0.3.0--py313h031d066_0": "sha256:3809737a4ccb17b85a4e21c2ba39be285a409729c0294ec1fb3d079f3ce52568"}, "tags": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f", "0.2.0--py310h4b81fae_0": "sha256:c0439d5f21bed2b935d77393eb643112f8536dc2510abb8a93fae0fb77dc3177", "0.2.1--py39hf95cd2a_0": "sha256:a0af7a117d53e5b879c68e2a9a97d66e5c6e7f084cb0158415652baa8da83a5b", "0.2.2--py310h7c593f9_0": "sha256:1cff82a9d37e73599e7799c0bd16d3d206aff1aab4e9b42e1ba60c2a4c4503d7", "0.2.2--py310h7c593f9_1": "sha256:2250ff2eaf99ad8fb6a75b56d0383c3b4535ed02813a2d1ea203f6b42094497d", "0.3.0--py313h031d066_0": "sha256:3809737a4ccb17b85a4e21c2ba39be285a409729c0294ec1fb3d079f3ce52568"}, "docker": "quay.io/biocontainers/scoring-matrices", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/scoring-matrices", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scoring-matrices", "latest": {"0.3.0--py311haab0aaa_1": "sha256:e294021a5ccaae0465b5133af82af20821cd647d0bf11aaa8c9fea1f58a086aa"}, "tags": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f", "0.2.0--py310h4b81fae_0": "sha256:c0439d5f21bed2b935d77393eb643112f8536dc2510abb8a93fae0fb77dc3177", "0.2.1--py39hf95cd2a_0": "sha256:a0af7a117d53e5b879c68e2a9a97d66e5c6e7f084cb0158415652baa8da83a5b", "0.2.2--py310h7c593f9_0": "sha256:1cff82a9d37e73599e7799c0bd16d3d206aff1aab4e9b42e1ba60c2a4c4503d7", "0.2.2--py310h7c593f9_1": "sha256:2250ff2eaf99ad8fb6a75b56d0383c3b4535ed02813a2d1ea203f6b42094497d", "0.3.0--py313h031d066_0": "sha256:3809737a4ccb17b85a4e21c2ba39be285a409729c0294ec1fb3d079f3ce52568", "0.3.0--py311haab0aaa_1": "sha256:e294021a5ccaae0465b5133af82af20821cd647d0bf11aaa8c9fea1f58a086aa"}, "docker": "quay.io/biocontainers/scoring-matrices", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scoring-matrices.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/scoring-matrices
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scoring-matrices:0.3.0--py313h031d066_0
+$ shpc install quay.io/biocontainers/scoring-matrices:0.3.0--py311haab0aaa_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scoring-matrices/0.3.0--py313h031d066_0
-$ module help quay.io/biocontainers/scoring-matrices/0.3.0--py313h031d066_0
+$ module load quay.io/biocontainers/scoring-matrices/0.3.0--py311haab0aaa_1
+$ module help quay.io/biocontainers/scoring-matrices/0.3.0--py311haab0aaa_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

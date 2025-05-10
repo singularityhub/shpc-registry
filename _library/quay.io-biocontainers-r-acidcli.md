@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-acidcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidcli/container.yaml"
-updated_at: "2025-05-09 03:16:26.528620"
-latest: "0.3.1--r44hdfd78af_0"
+updated_at: "2025-05-10 03:10:42.724155"
+latest: "0.3.2--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidcli"
 
 versions:
@@ -18,8 +18,9 @@ versions:
  - "0.3.0--r43hdfd78af_0"
  - "0.3.0--r44hdfd78af_1"
  - "0.3.1--r44hdfd78af_0"
+ - "0.3.2--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidcli"
-config: {"url": "https://biocontainers.pro/tools/r-acidcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidcli", "latest": {"0.3.1--r44hdfd78af_0": "sha256:bb0593cf15287f7e40dd68427fbc183edee9c7d6275e2b813cc77ae83f170d9e"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e", "0.2.5--r42hdfd78af_0": "sha256:8af160273025875429f3318b9e6fe69a6cc05df3616b02e74ba8d6a16c4e0b94", "0.2.5--r42hdfd78af_1": "sha256:63db18130bc765abfc42ed08eb9770bd9765bf09a908dd8585aca000892f9f01", "0.2.7--r42hdfd78af_0": "sha256:62dbf9f522d4950e4a8e87b0c96715619f4207cf1d62a3e59aa3259f4f789c6c", "0.2.7--r42hdfd78af_1": "sha256:04156c07eb788ff9d13fbf8d730ebacb1faff524bd48402921ea28ec695f5a17", "0.2.8--r43hdfd78af_0": "sha256:e9d7a33ed9f5c94f12d93099677b0c1f805ca617cd13a6f91ddfb37f851b2b07", "0.3.0--r43hdfd78af_0": "sha256:d3714ddfac9026d4edc0c17291d136357c7621637108fbe44ba692f4e1f7a3ac", "0.3.0--r44hdfd78af_1": "sha256:63026fff7df18176f26d3c727837cf084632224b99a1c6644d8a90c25bb883f5", "0.3.1--r44hdfd78af_0": "sha256:bb0593cf15287f7e40dd68427fbc183edee9c7d6275e2b813cc77ae83f170d9e"}, "docker": "quay.io/biocontainers/r-acidcli"}
+config: {"url": "https://biocontainers.pro/tools/r-acidcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidcli", "latest": {"0.3.2--r44hdfd78af_0": "sha256:f2d9291d76f90bd33577b2ccdefa339f8bdaf3dca5bfad1c6685401dd55556cd"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e", "0.2.5--r42hdfd78af_0": "sha256:8af160273025875429f3318b9e6fe69a6cc05df3616b02e74ba8d6a16c4e0b94", "0.2.5--r42hdfd78af_1": "sha256:63db18130bc765abfc42ed08eb9770bd9765bf09a908dd8585aca000892f9f01", "0.2.7--r42hdfd78af_0": "sha256:62dbf9f522d4950e4a8e87b0c96715619f4207cf1d62a3e59aa3259f4f789c6c", "0.2.7--r42hdfd78af_1": "sha256:04156c07eb788ff9d13fbf8d730ebacb1faff524bd48402921ea28ec695f5a17", "0.2.8--r43hdfd78af_0": "sha256:e9d7a33ed9f5c94f12d93099677b0c1f805ca617cd13a6f91ddfb37f851b2b07", "0.3.0--r43hdfd78af_0": "sha256:d3714ddfac9026d4edc0c17291d136357c7621637108fbe44ba692f4e1f7a3ac", "0.3.0--r44hdfd78af_1": "sha256:63026fff7df18176f26d3c727837cf084632224b99a1c6644d8a90c25bb883f5", "0.3.1--r44hdfd78af_0": "sha256:bb0593cf15287f7e40dd68427fbc183edee9c7d6275e2b813cc77ae83f170d9e", "0.3.2--r44hdfd78af_0": "sha256:f2d9291d76f90bd33577b2ccdefa339f8bdaf3dca5bfad1c6685401dd55556cd"}, "docker": "quay.io/biocontainers/r-acidcli"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidcli.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-acidcli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidcli:0.3.1--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidcli:0.3.2--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidcli/0.3.1--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-acidcli/0.3.1--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-acidcli/0.3.2--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-acidcli/0.3.2--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

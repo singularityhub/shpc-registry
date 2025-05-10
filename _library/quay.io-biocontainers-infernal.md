@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/infernal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/infernal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/infernal/container.yaml"
-updated_at: "2025-05-09 03:29:01.822961"
+updated_at: "2025-05-10 03:23:37.170076"
 latest: "1.1.5--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/infernal"
 aliases:

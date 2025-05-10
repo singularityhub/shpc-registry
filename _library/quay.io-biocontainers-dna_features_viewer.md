@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dna_features_viewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dna_features_viewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dna_features_viewer/container.yaml"
-updated_at: "2025-05-09 03:45:46.482645"
-latest: "3.1.3--pyh7cba7a3_0"
+updated_at: "2025-05-10 03:41:13.933284"
+latest: "3.1.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/dna_features_viewer"
 aliases:
  - "fonttools"
@@ -22,8 +22,9 @@ versions:
  - "3.1.1--pyh5e36f6f_0"
  - "3.1.2--pyh7cba7a3_0"
  - "3.1.3--pyh7cba7a3_0"
+ - "3.1.5--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for dna_features_viewer"
-config: {"url": "https://biocontainers.pro/tools/dna_features_viewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dna_features_viewer", "latest": {"3.1.3--pyh7cba7a3_0": "sha256:68557d293c9daece938e58882087d4053e744c77f33b7dc23e17d86e072c1d91"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:eeef07193d6c5ac4e4d31291fa6d6d8778c601a328055dc34dbf8b185db542a6", "3.1.2--pyh7cba7a3_0": "sha256:cf5aa72c320ebeb24c59436992ae7d09a23c3965beefc449a8db25e6f1d669e5", "3.1.3--pyh7cba7a3_0": "sha256:68557d293c9daece938e58882087d4053e744c77f33b7dc23e17d86e072c1d91"}, "docker": "quay.io/biocontainers/dna_features_viewer", "aliases": {"fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/dna_features_viewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dna_features_viewer", "latest": {"3.1.5--pyh7e72e81_0": "sha256:77b2f3e50f4e97825fce83c10dcd7babd2ffc56582c74d62536401f357e82e62"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:eeef07193d6c5ac4e4d31291fa6d6d8778c601a328055dc34dbf8b185db542a6", "3.1.2--pyh7cba7a3_0": "sha256:cf5aa72c320ebeb24c59436992ae7d09a23c3965beefc449a8db25e6f1d669e5", "3.1.3--pyh7cba7a3_0": "sha256:68557d293c9daece938e58882087d4053e744c77f33b7dc23e17d86e072c1d91", "3.1.5--pyh7e72e81_0": "sha256:77b2f3e50f4e97825fce83c10dcd7babd2ffc56582c74d62536401f357e82e62"}, "docker": "quay.io/biocontainers/dna_features_viewer", "aliases": {"fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dna_features_viewer.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/dna_features_viewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dna_features_viewer:3.1.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/dna_features_viewer:3.1.5--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dna_features_viewer/3.1.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/dna_features_viewer/3.1.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/dna_features_viewer/3.1.5--pyh7e72e81_0
+$ module help quay.io/biocontainers/dna_features_viewer/3.1.5--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

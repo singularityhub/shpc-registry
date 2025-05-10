@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/roadies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roadies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roadies/container.yaml"
-updated_at: "2025-05-09 03:37:41.756675"
-latest: "0.1.4--py39h4577df3_0"
+updated_at: "2025-05-10 03:32:44.166922"
+latest: "0.1.10--py39pl5321h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/roadies"
 aliases:
  - "hmmeralign"
@@ -62,8 +62,9 @@ aliases:
  - "gawk-5.3.0"
 versions:
  - "0.1.4--py39h4577df3_0"
+ - "0.1.10--py39pl5321h5ca1c30_0"
 description: "singularity registry hpc automated addition for roadies"
-config: {"url": "https://biocontainers.pro/tools/roadies", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for roadies", "latest": {"0.1.4--py39h4577df3_0": "sha256:8331eaa357a71cef8fcc803d90b0b6851562e4422ac1fa8ac31fa33048145683"}, "tags": {"0.1.4--py39h4577df3_0": "sha256:8331eaa357a71cef8fcc803d90b0b6851562e4422ac1fa8ac31fa33048145683"}, "docker": "quay.io/biocontainers/roadies", "aliases": {"hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "opal.jar": "/usr/local/bin/opal.jar", "quicktree": "/usr/local/bin/quicktree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "treeshrink": "/usr/local/bin/treeshrink", "bsmp2info": "/usr/local/bin/bsmp2info", "eido": "/usr/local/bin/eido", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "systematic-mutations": "/usr/local/bin/systematic-mutations", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "prank": "/usr/local/bin/prank", "TMalign": "/usr/local/bin/TMalign", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "poa": "/usr/local/bin/poa", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0"}}
+config: {"url": "https://biocontainers.pro/tools/roadies", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for roadies", "latest": {"0.1.10--py39pl5321h5ca1c30_0": "sha256:0b5f3dfc1c1eb043a30bcfeaa1f9f0d2822ee9558d7058a8a8aee933ce38af5e"}, "tags": {"0.1.4--py39h4577df3_0": "sha256:8331eaa357a71cef8fcc803d90b0b6851562e4422ac1fa8ac31fa33048145683", "0.1.10--py39pl5321h5ca1c30_0": "sha256:0b5f3dfc1c1eb043a30bcfeaa1f9f0d2822ee9558d7058a8a8aee933ce38af5e"}, "docker": "quay.io/biocontainers/roadies", "aliases": {"hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "opal.jar": "/usr/local/bin/opal.jar", "quicktree": "/usr/local/bin/quicktree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "treeshrink": "/usr/local/bin/treeshrink", "bsmp2info": "/usr/local/bin/bsmp2info", "eido": "/usr/local/bin/eido", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "systematic-mutations": "/usr/local/bin/systematic-mutations", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "prank": "/usr/local/bin/prank", "TMalign": "/usr/local/bin/TMalign", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "poa": "/usr/local/bin/poa", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/roadies.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/roadies
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/roadies:0.1.4--py39h4577df3_0
+$ shpc install quay.io/biocontainers/roadies:0.1.10--py39pl5321h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/roadies/0.1.4--py39h4577df3_0
-$ module help quay.io/biocontainers/roadies/0.1.4--py39h4577df3_0
+$ module load quay.io/biocontainers/roadies/0.1.10--py39pl5321h5ca1c30_0
+$ module help quay.io/biocontainers/roadies/0.1.10--py39pl5321h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodblipidmaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodblipidmaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodblipidmaps/container.yaml"
-updated_at: "2025-05-09 03:54:14.339870"
+updated_at: "2025-05-10 03:49:59.331100"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodblipidmaps"
 
