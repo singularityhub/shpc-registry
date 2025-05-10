@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/barcode-validator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for barcode-validator
 latest:
-  2.0.1--pyhdfd78af_0: sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929
+  2.0.1--pyhdfd78af_1: sha256:e5d3a41bb9126ac13da7dcbc0c2824790c096dc6388afe9af63dbbe1e4bb4ff5
 tags:
   2.0.1--pyhdfd78af_0: sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929
+  2.0.1--pyhdfd78af_1: sha256:e5d3a41bb9126ac13da7dcbc0c2824790c096dc6388afe9af63dbbe1e4bb4ff5
 docker: quay.io/biocontainers/barcode-validator
 aliases:
   pax11publish: /usr/local/bin/pax11publish

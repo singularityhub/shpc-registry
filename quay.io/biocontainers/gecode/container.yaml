@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/gecode
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gecode
 latest:
-  6.2.0--h4c32e4d_5: sha256:eaf0dd5fef155bc6533ba34f8488989db6170e8c21999706c889108a9c9a681c
+  6.2.0--h4c32e4d_6: sha256:1ea4b3a206aea31518eb0344a66df8c1b07f7978d2a4be33afa9504cdbab7d00
 tags:
   6.2.0--h3272c59_1: sha256:1a6df1734b89669e4a73d66a3f5a3888bab83540abfdc268944ebfafb3e6d363
   6.2.0--h8561491_2: sha256:70a939e5996a05b370b458bab27d97cc8056de40a1241b4bcee556dcb0bd54f8
   6.2.0--h53e199c_4: sha256:568ab90648ba7c986c3bcc908d8258fe1500cf96c606a0d5773e258d2a83a90e
   6.2.0--h4c32e4d_5: sha256:eaf0dd5fef155bc6533ba34f8488989db6170e8c21999706c889108a9c9a681c
+  6.2.0--h4c32e4d_6: sha256:1ea4b3a206aea31518eb0344a66df8c1b07f7978d2a4be33afa9504cdbab7d00
 docker: quay.io/biocontainers/gecode
 aliases:
   all-interval: /usr/local/bin/all-interval
