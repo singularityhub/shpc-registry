@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vireosnp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vireosnp
 latest:
-  0.5.8--pyh7cba7a3_0: sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624
+  0.5.9--pyh7e72e81_0: sha256:5366592f7e9424333d7020bfc83588317b3592c06e2a318cd787b031722df5a4
 tags:
   0.5.8--pyh7cba7a3_0: sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624
+  0.5.9--pyh7e72e81_0: sha256:5366592f7e9424333d7020bfc83588317b3592c06e2a318cd787b031722df5a4
 docker: quay.io/biocontainers/vireosnp
 aliases:
   GTbarcode: /usr/local/bin/GTbarcode

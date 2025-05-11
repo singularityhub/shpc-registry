@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cdskit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cdskit
 latest:
-  0.14.2--pyhdfd78af_0: sha256:be2898469a9f232235b899c529861bfb34633506e14207d2528e85bc1afc97ea
+  0.14.4--pyh7e72e81_0: sha256:2dc05d61a0e56a12f273858fb0596d5d55fd0f56ffde474fad4d6bdc235db395
 tags:
   0.14.2--pyhdfd78af_0: sha256:be2898469a9f232235b899c529861bfb34633506e14207d2528e85bc1afc97ea
+  0.14.4--pyh7e72e81_0: sha256:2dc05d61a0e56a12f273858fb0596d5d55fd0f56ffde474fad4d6bdc235db395
 docker: quay.io/biocontainers/cdskit
 aliases:
   cdskit: /usr/local/bin/cdskit

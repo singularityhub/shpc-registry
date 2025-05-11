@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/astropy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for astropy
 latest:
-  5.2.2: sha256:ada7ab6c02052d01ffc9e226a49f1dd18e5823b43d8526950f2b03f71c80fe03
+  6.1.7: sha256:e174470548914696f4d49bbcd96fbfb638739398d416a2f8e672c6e40df98aa0
 tags:
   3.0.5--py37h7b6447c_1: sha256:b625091c19ca3f2daf47399b777aefd812e37077c6b7b02e239f6833efb87790
   5.2.2: sha256:ada7ab6c02052d01ffc9e226a49f1dd18e5823b43d8526950f2b03f71c80fe03
+  6.1.7: sha256:e174470548914696f4d49bbcd96fbfb638739398d416a2f8e672c6e40df98aa0
 docker: quay.io/biocontainers/astropy
 aliases:
   fits2bitmap: /usr/local/bin/fits2bitmap

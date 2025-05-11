@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ucsc-cell-browser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ucsc-cell-browser
 latest:
-  1.2.12--pyhdfd78af_0: sha256:3e9be7ab9fea715df3a966de8cecde7e30c40d548a6b2fe51e7b1c57143a3bc5
+  1.2.14--pyhdfd78af_0: sha256:c0cd17324b3b5ed0e3074fcd16097bce7d41f5a2825f66993012c5760c6db2ef
 tags:
   1.1.1--pyhdfd78af_1: sha256:f3a65e13b73dbdfa24b4183dd7b4a1ad49737d58fabb93efff9f4f3bdf665c11
   1.2.2--pyhdfd78af_0: sha256:ab35da61d3b259400d174751d9780ac4d2fe6279b54258ac4af7868bb9ccc18b
@@ -12,6 +12,7 @@ tags:
   1.2.6--pyhdfd78af_0: sha256:4e2a2b0b4eecf9f4a8a9a97cacbc56907a9ff4872f121827f0a677396cb069a1
   1.2.8--pyhdfd78af_0: sha256:78c65e2c193a14f0bd9361497e301b086ae8cb5757b39d04f91dc3ed52d1cc51
   1.2.12--pyhdfd78af_0: sha256:3e9be7ab9fea715df3a966de8cecde7e30c40d548a6b2fe51e7b1c57143a3bc5
+  1.2.14--pyhdfd78af_0: sha256:c0cd17324b3b5ed0e3074fcd16097bce7d41f5a2825f66993012c5760c6db2ef
 docker: quay.io/biocontainers/ucsc-cell-browser
 aliases:
   cbBuild: /usr/local/bin/cbBuild
