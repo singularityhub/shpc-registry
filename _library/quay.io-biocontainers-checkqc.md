@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkqc/container.yaml"
-updated_at: "2025-05-10 03:49:40.465176"
-latest: "4.0.5--pyhdfd78af_0"
+updated_at: "2025-05-11 03:58:47.252189"
+latest: "4.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkqc"
 aliases:
  - "checkqc"
@@ -40,8 +40,9 @@ versions:
  - "4.0.1--pyhdfd78af_0"
  - "4.0.4--pyhdfd78af_0"
  - "4.0.5--pyhdfd78af_0"
+ - "4.0.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkqc"
-config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"4.0.5--pyhdfd78af_0": "sha256:5b01b36a17d7489aeb320eaeb26221f31678106c84c5b5c5891404b2a1d02a29"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8", "3.7.0--pyhdfd78af_0": "sha256:0ed4e0db46a8dd04045115b5712621808b54b8fc69e14588fa6285cd5656f5b4", "3.8.0--pyhdfd78af_0": "sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81", "3.8.1--pyhdfd78af_0": "sha256:d878c0559b193809bb5b285f16f95e8c9f22a01b348e2bddf008a483debcf451", "3.8.2--pyhdfd78af_1": "sha256:eb2896860bed6c4f9401a28e0c0be51816a85139825230c00358dcd413b469be", "4.0.1--pyhdfd78af_0": "sha256:324d321bcb9e27cdb79e6d018a00312411164b3098be83048edc4b14361a0185", "4.0.4--pyhdfd78af_0": "sha256:99e477d637782d8008af0ed09cabe19ab2e753e38573ac000276b10208bd089f", "4.0.5--pyhdfd78af_0": "sha256:5b01b36a17d7489aeb320eaeb26221f31678106c84c5b5c5891404b2a1d02a29"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"4.0.7--pyhdfd78af_0": "sha256:0b53f0e43111a2469e0dcc1448592ff40748956fbff8f910cecbe64bb80adc0f"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8", "3.7.0--pyhdfd78af_0": "sha256:0ed4e0db46a8dd04045115b5712621808b54b8fc69e14588fa6285cd5656f5b4", "3.8.0--pyhdfd78af_0": "sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81", "3.8.1--pyhdfd78af_0": "sha256:d878c0559b193809bb5b285f16f95e8c9f22a01b348e2bddf008a483debcf451", "3.8.2--pyhdfd78af_1": "sha256:eb2896860bed6c4f9401a28e0c0be51816a85139825230c00358dcd413b469be", "4.0.1--pyhdfd78af_0": "sha256:324d321bcb9e27cdb79e6d018a00312411164b3098be83048edc4b14361a0185", "4.0.4--pyhdfd78af_0": "sha256:99e477d637782d8008af0ed09cabe19ab2e753e38573ac000276b10208bd089f", "4.0.5--pyhdfd78af_0": "sha256:5b01b36a17d7489aeb320eaeb26221f31678106c84c5b5c5891404b2a1d02a29", "4.0.7--pyhdfd78af_0": "sha256:0b53f0e43111a2469e0dcc1448592ff40748956fbff8f910cecbe64bb80adc0f"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkqc.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/checkqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkqc:4.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/checkqc:4.0.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkqc/4.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/checkqc/4.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/checkqc/4.0.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkqc/4.0.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

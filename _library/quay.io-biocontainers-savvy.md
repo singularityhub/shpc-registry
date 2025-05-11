@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/savvy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savvy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savvy/container.yaml"
-updated_at: "2025-05-10 03:56:05.360965"
+updated_at: "2025-05-11 04:04:55.427120"
 latest: "2.1.0--h5b0a936_3"
 container_url: "https://biocontainers.pro/tools/savvy"
 aliases:

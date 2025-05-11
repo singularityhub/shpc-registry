@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conifer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conifer/container.yaml"
-updated_at: "2025-05-10 03:32:46.836334"
+updated_at: "2025-05-11 03:42:25.103560"
 latest: "1.0.2--h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/conifer"
 aliases:

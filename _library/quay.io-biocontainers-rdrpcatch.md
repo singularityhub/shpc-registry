@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rdrpcatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdrpcatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdrpcatch/container.yaml"
-updated_at: "2025-05-10 03:11:57.049717"
-latest: "0.0.4--pyhdfd78af_0"
+updated_at: "2025-05-11 03:21:55.219133"
+latest: "0.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rdrpcatch"
 aliases:
  - "gawk-5.3.1"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.0.3--pyhdfd78af_0"
  - "0.0.4--pyhdfd78af_0"
+ - "0.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for rdrpcatch"
-config: {"url": "https://biocontainers.pro/tools/rdrpcatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdrpcatch", "latest": {"0.0.4--pyhdfd78af_0": "sha256:b37362aabcee99a2859dea358a88f07d8d79c3dbe12aca65049050b27f841848"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:df47e4f43ca9f1ee81e10633ac0bb18eab76d8c60af947023f9bd81a5d88ee93", "0.0.4--pyhdfd78af_0": "sha256:b37362aabcee99a2859dea358a88f07d8d79c3dbe12aca65049050b27f841848"}, "docker": "quay.io/biocontainers/rdrpcatch", "aliases": {"gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "rdrpcatch": "/usr/local/bin/rdrpcatch", "rich-click": "/usr/local/bin/rich-click", "aria2c": "/usr/local/bin/aria2c", "seqkit": "/usr/local/bin/seqkit", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
+config: {"url": "https://biocontainers.pro/tools/rdrpcatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdrpcatch", "latest": {"0.0.6--pyhdfd78af_0": "sha256:e2732a33d2b2932b9451522ce470039bd8d4cdf8567ae42093e7a826ffb2df92"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:df47e4f43ca9f1ee81e10633ac0bb18eab76d8c60af947023f9bd81a5d88ee93", "0.0.4--pyhdfd78af_0": "sha256:b37362aabcee99a2859dea358a88f07d8d79c3dbe12aca65049050b27f841848", "0.0.6--pyhdfd78af_0": "sha256:e2732a33d2b2932b9451522ce470039bd8d4cdf8567ae42093e7a826ffb2df92"}, "docker": "quay.io/biocontainers/rdrpcatch", "aliases": {"gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "rdrpcatch": "/usr/local/bin/rdrpcatch", "rich-click": "/usr/local/bin/rich-click", "aria2c": "/usr/local/bin/aria2c", "seqkit": "/usr/local/bin/seqkit", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdrpcatch.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/rdrpcatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rdrpcatch:0.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/rdrpcatch:0.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rdrpcatch/0.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/rdrpcatch/0.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/rdrpcatch/0.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/rdrpcatch/0.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

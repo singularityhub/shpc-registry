@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-psygenet2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psygenet2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psygenet2r/container.yaml"
-updated_at: "2025-05-10 03:18:31.287346"
+updated_at: "2025-05-11 03:28:17.992337"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psygenet2r"
 
