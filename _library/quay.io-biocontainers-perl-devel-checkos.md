@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-checkos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-checkos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-checkos/container.yaml"
-updated_at: "2025-05-11 03:44:56.498041"
+updated_at: "2025-05-12 03:44:03.125519"
 latest: "1.81--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-devel-checkos"
 aliases:

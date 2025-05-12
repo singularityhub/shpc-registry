@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schavott"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schavott/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schavott/container.yaml"
-updated_at: "2025-05-11 03:24:09.694362"
+updated_at: "2025-05-12 03:23:46.811891"
 latest: "0.5.0--pyh145b6a8_2"
 container_url: "https://biocontainers.pro/tools/schavott"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-escape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-escape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-escape/container.yaml"
-updated_at: "2025-05-11 03:26:10.082978"
+updated_at: "2025-05-12 03:25:47.520579"
 latest: "2010.002--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-string-escape"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2010.002--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-string-escape"
-config: {"url": "https://biocontainers.pro/tools/perl-string-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-escape", "latest": {"2010.002--pl5321hdfd78af_1": "crane digest quay.io/biocontainers/perl-string-escape:2010.002--pl5321hdfd78af_1: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"2010.002--pl5321hdfd78af_1": "crane digest quay.io/biocontainers/perl-string-escape:2010.002--pl5321hdfd78af_1: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/perl-string-escape", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-string-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-escape", "latest": {"2010.002--pl5321hdfd78af_1": "sha256:0473605d5000be9deb58fbbb3d2ec9f9ddcc72bc7c5cd0c1b458877a0302b6f7"}, "tags": {"2010.002--pl5321hdfd78af_1": "sha256:0473605d5000be9deb58fbbb3d2ec9f9ddcc72bc7c5cd0c1b458877a0302b6f7"}, "docker": "quay.io/biocontainers/perl-string-escape", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-string-escape.

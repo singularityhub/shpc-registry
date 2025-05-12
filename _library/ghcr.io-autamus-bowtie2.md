@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bowtie2/container.yaml"
-updated_at: "2025-05-11 04:06:28.480162"
+updated_at: "2025-05-12 04:05:27.089570"
 latest: "2.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bowtie2"
 aliases:

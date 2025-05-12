@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/astropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astropy/container.yaml"
-updated_at: "2025-05-11 03:30:08.281516"
-latest: "5.2.2"
+updated_at: "2025-05-12 03:29:43.317402"
+latest: "6.1.7"
 container_url: "https://biocontainers.pro/tools/astropy"
 aliases:
  - "fits2bitmap"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "3.0.5--py37h7b6447c_1"
  - "5.2.2"
+ - "6.1.7"
 description: "shpc-registry automated BioContainers addition for astropy"
-config: {"url": "https://biocontainers.pro/tools/astropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astropy", "latest": {"5.2.2": "sha256:ada7ab6c02052d01ffc9e226a49f1dd18e5823b43d8526950f2b03f71c80fe03"}, "tags": {"3.0.5--py37h7b6447c_1": "sha256:b625091c19ca3f2daf47399b777aefd812e37077c6b7b02e239f6833efb87790", "5.2.2": "sha256:ada7ab6c02052d01ffc9e226a49f1dd18e5823b43d8526950f2b03f71c80fe03"}, "docker": "quay.io/biocontainers/astropy", "aliases": {"fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/astropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astropy", "latest": {"6.1.7": "sha256:e174470548914696f4d49bbcd96fbfb638739398d416a2f8e672c6e40df98aa0"}, "tags": {"3.0.5--py37h7b6447c_1": "sha256:b625091c19ca3f2daf47399b777aefd812e37077c6b7b02e239f6833efb87790", "5.2.2": "sha256:ada7ab6c02052d01ffc9e226a49f1dd18e5823b43d8526950f2b03f71c80fe03", "6.1.7": "sha256:e174470548914696f4d49bbcd96fbfb638739398d416a2f8e672c6e40df98aa0"}, "docker": "quay.io/biocontainers/astropy", "aliases": {"fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/astropy.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/astropy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/astropy:5.2.2
+$ shpc install quay.io/biocontainers/astropy:6.1.7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/astropy/5.2.2
-$ module help quay.io/biocontainers/astropy/5.2.2
+$ module load quay.io/biocontainers/astropy/6.1.7
+$ module help quay.io/biocontainers/astropy/6.1.7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-protect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-protect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-protect/container.yaml"
-updated_at: "2025-05-11 03:51:49.906486"
+updated_at: "2025-05-12 03:50:50.747276"
 latest: "2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-protect"
 aliases:

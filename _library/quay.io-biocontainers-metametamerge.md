@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metametamerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metametamerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metametamerge/container.yaml"
-updated_at: "2025-05-11 03:31:22.730034"
+updated_at: "2025-05-12 03:30:57.561626"
 latest: "1.1--py_2"
 container_url: "https://biocontainers.pro/tools/metametamerge"
 aliases:

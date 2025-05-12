@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vireosnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vireosnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vireosnp/container.yaml"
-updated_at: "2025-05-11 03:55:43.553598"
-latest: "0.5.8--pyh7cba7a3_0"
+updated_at: "2025-05-12 03:54:43.311374"
+latest: "0.5.9--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/vireosnp"
 aliases:
  - "GTbarcode"
@@ -31,8 +31,9 @@ aliases:
  - "transicc"
 versions:
  - "0.5.8--pyh7cba7a3_0"
+ - "0.5.9--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for vireosnp"
-config: {"url": "https://biocontainers.pro/tools/vireosnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vireosnp", "latest": {"0.5.8--pyh7cba7a3_0": "sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624"}, "tags": {"0.5.8--pyh7cba7a3_0": "sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624"}, "docker": "quay.io/biocontainers/vireosnp", "aliases": {"GTbarcode": "/usr/local/bin/GTbarcode", "vireo": "/usr/local/bin/vireo", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/vireosnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vireosnp", "latest": {"0.5.9--pyh7e72e81_0": "sha256:5366592f7e9424333d7020bfc83588317b3592c06e2a318cd787b031722df5a4"}, "tags": {"0.5.8--pyh7cba7a3_0": "sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624", "0.5.9--pyh7e72e81_0": "sha256:5366592f7e9424333d7020bfc83588317b3592c06e2a318cd787b031722df5a4"}, "docker": "quay.io/biocontainers/vireosnp", "aliases": {"GTbarcode": "/usr/local/bin/GTbarcode", "vireo": "/usr/local/bin/vireo", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vireosnp.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/vireosnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vireosnp:0.5.8--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/vireosnp:0.5.9--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vireosnp/0.5.8--pyh7cba7a3_0
-$ module help quay.io/biocontainers/vireosnp/0.5.8--pyh7cba7a3_0
+$ module load quay.io/biocontainers/vireosnp/0.5.9--pyh7e72e81_0
+$ module help quay.io/biocontainers/vireosnp/0.5.9--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

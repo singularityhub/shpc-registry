@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kfoots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kfoots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kfoots/container.yaml"
-updated_at: "2025-05-11 03:40:34.104320"
+updated_at: "2025-05-12 03:39:48.454511"
 latest: "1.0--r44h7b50bb2_11"
 container_url: "https://biocontainers.pro/tools/kfoots"
 

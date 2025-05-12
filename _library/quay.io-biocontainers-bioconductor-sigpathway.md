@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sigpathway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigpathway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigpathway/container.yaml"
-updated_at: "2025-05-11 03:38:52.689566"
+updated_at: "2025-05-12 03:38:12.953642"
 latest: "1.66.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigpathway"
 

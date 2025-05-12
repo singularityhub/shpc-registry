@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panoct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panoct/container.yaml"
-updated_at: "2025-05-11 03:56:40.982110"
+updated_at: "2025-05-12 03:55:39.084320"
 latest: "3.23--pl526_1"
 container_url: "https://biocontainers.pro/tools/panoct"
 aliases:

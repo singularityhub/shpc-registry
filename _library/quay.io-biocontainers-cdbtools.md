@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cdbtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdbtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdbtools/container.yaml"
-updated_at: "2025-05-11 03:26:24.759305"
-latest: "0.99--hdcf5f25_10"
+updated_at: "2025-05-12 03:26:02.272737"
+latest: "0.99--h077b44d_12"
 container_url: "https://biocontainers.pro/tools/cdbtools"
 aliases:
  - "cdbfasta"
@@ -15,8 +15,9 @@ versions:
  - "0.99--hd03093a_8"
  - "0.99--hdcf5f25_9"
  - "0.99--hdcf5f25_10"
+ - "0.99--h077b44d_12"
 description: "shpc-registry automated BioContainers addition for cdbtools"
-config: {"url": "https://biocontainers.pro/tools/cdbtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdbtools", "latest": {"0.99--hdcf5f25_10": "sha256:7e233b5a547398aada67dbd02e68340212b8bb369c16bcb02347d48f46c0c0cc"}, "tags": {"0.99--hd03093a_7": "sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570", "0.99--hd03093a_8": "sha256:43d3098ede010b7cdd493ee0fe4b3650df84c89419a2642a2095356d26a8423f", "0.99--hdcf5f25_9": "sha256:7f8776cf60345014e3040c965f8379f40d61e3d35492a89868a7d5a2b852dea8", "0.99--hdcf5f25_10": "sha256:7e233b5a547398aada67dbd02e68340212b8bb369c16bcb02347d48f46c0c0cc"}, "docker": "quay.io/biocontainers/cdbtools", "aliases": {"cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank"}}
+config: {"url": "https://biocontainers.pro/tools/cdbtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdbtools", "latest": {"0.99--h077b44d_12": "sha256:780f0ad11a7225d493e6c5f0d0787fdce3551fa3318ddf34018e05646a7b19ec"}, "tags": {"0.99--hd03093a_7": "sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570", "0.99--hd03093a_8": "sha256:43d3098ede010b7cdd493ee0fe4b3650df84c89419a2642a2095356d26a8423f", "0.99--hdcf5f25_9": "sha256:7f8776cf60345014e3040c965f8379f40d61e3d35492a89868a7d5a2b852dea8", "0.99--hdcf5f25_10": "sha256:7e233b5a547398aada67dbd02e68340212b8bb369c16bcb02347d48f46c0c0cc", "0.99--h077b44d_12": "sha256:780f0ad11a7225d493e6c5f0d0787fdce3551fa3318ddf34018e05646a7b19ec"}, "docker": "quay.io/biocontainers/cdbtools", "aliases": {"cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cdbtools.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/cdbtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cdbtools:0.99--hdcf5f25_10
+$ shpc install quay.io/biocontainers/cdbtools:0.99--h077b44d_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cdbtools/0.99--hdcf5f25_10
-$ module help quay.io/biocontainers/cdbtools/0.99--hdcf5f25_10
+$ module load quay.io/biocontainers/cdbtools/0.99--h077b44d_12
+$ module help quay.io/biocontainers/cdbtools/0.99--h077b44d_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

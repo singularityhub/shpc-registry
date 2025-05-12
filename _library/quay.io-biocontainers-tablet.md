@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tablet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tablet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tablet/container.yaml"
-updated_at: "2025-05-11 03:56:52.184361"
+updated_at: "2025-05-12 03:55:49.805173"
 latest: "1.17.08.17--1"
 container_url: "https://biocontainers.pro/tools/tablet"
 aliases:

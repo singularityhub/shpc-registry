@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isospecpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isospecpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isospecpy/container.yaml"
-updated_at: "2025-05-11 03:27:21.506921"
+updated_at: "2025-05-12 03:26:58.611188"
 latest: "2.2.2--py311h8ddd9a4_2"
 container_url: "https://biocontainers.pro/tools/isospecpy"
 aliases:
