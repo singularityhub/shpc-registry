@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cagecleaner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cagecleaner
 latest:
-  1.2.0--pyhdfd78af_0: sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6
+  1.2.2--pyhdfd78af_0: sha256:3bf3a3dd924a5285558e0fc54a35d4cbb368a2720f7177e533be50200c9e47c8
 tags:
   1.2.0--pyhdfd78af_0: sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6
+  1.2.2--pyhdfd78af_0: sha256:3bf3a3dd924a5285558e0fc54a35d4cbb368a2720f7177e533be50200c9e47c8
 docker: quay.io/biocontainers/cagecleaner
 aliases:
   cagecleaner: /usr/local/bin/cagecleaner
