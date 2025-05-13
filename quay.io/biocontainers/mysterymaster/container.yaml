@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mysterymaster
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mysterymaster
 latest:
-  0.0.4--hdfd78af_0: sha256:c5b180d72087f3864908a4c3f6a68b5bf4b456aff4a7094597c0e2ad92ddf599
+  0.0.8--hdfd78af_0: sha256:516f5b2eda1b59b164a65ebf0f1325c85eeaf875c6a5aaf50b05a8fd8b2ec84a
 tags:
   0.0.4--hdfd78af_0: sha256:c5b180d72087f3864908a4c3f6a68b5bf4b456aff4a7094597c0e2ad92ddf599
+  0.0.8--hdfd78af_0: sha256:516f5b2eda1b59b164a65ebf0f1325c85eeaf875c6a5aaf50b05a8fd8b2ec84a
 docker: quay.io/biocontainers/mysterymaster
 aliases:
   FindBarcodes: /usr/local/bin/FindBarcodes
