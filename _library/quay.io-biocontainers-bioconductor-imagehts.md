@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imagehts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imagehts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imagehts/container.yaml"
-updated_at: "2025-05-12 03:57:11.897393"
+updated_at: "2025-05-13 03:55:14.583167"
 latest: "1.48.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imagehts"
 aliases:

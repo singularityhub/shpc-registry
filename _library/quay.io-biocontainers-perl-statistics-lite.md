@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-statistics-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-lite/container.yaml"
-updated_at: "2025-05-12 03:45:11.113038"
+updated_at: "2025-05-13 03:43:08.606086"
 latest: "3.62--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-statistics-lite"
 aliases:

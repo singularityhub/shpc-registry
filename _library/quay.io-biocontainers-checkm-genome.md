@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkm-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkm-genome/container.yaml"
-updated_at: "2025-05-12 03:34:57.592028"
+updated_at: "2025-05-13 03:32:45.103504"
 latest: "1.2.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/checkm-genome"
 aliases:

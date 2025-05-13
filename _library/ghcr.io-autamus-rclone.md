@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/rclone/container.yaml"
-updated_at: "2025-05-12 04:05:28.766972"
+updated_at: "2025-05-13 04:03:34.002182"
 latest: "1.59.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rclone"
 aliases:

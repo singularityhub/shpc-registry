@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/desalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/desalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/desalt/container.yaml"
-updated_at: "2025-05-12 03:34:09.917960"
+updated_at: "2025-05-13 03:31:57.329038"
 latest: "1.5.6--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/desalt"
 aliases:

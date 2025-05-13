@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scvir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scvir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scvir/container.yaml"
-updated_at: "2025-05-12 03:31:49.966275"
+updated_at: "2025-05-13 03:29:36.846787"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scvir"
 aliases:

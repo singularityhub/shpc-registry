@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-eventual"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-eventual/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-eventual/container.yaml"
-updated_at: "2025-05-12 03:26:01.422406"
+updated_at: "2025-05-13 03:23:44.760417"
 latest: "0.094003--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-eventual"
 aliases:

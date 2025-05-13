@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chiron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chiron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chiron/container.yaml"
-updated_at: "2025-05-12 03:59:14.878555"
+updated_at: "2025-05-13 03:57:18.256096"
 latest: "0.6.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/chiron"
 aliases:

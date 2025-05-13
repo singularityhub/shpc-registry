@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-mock/container.yaml"
-updated_at: "2025-05-12 03:44:12.194391"
+updated_at: "2025-05-13 03:42:08.514156"
 latest: "1.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-mock"
 aliases:
