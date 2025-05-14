@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mysterymaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysterymaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysterymaster/container.yaml"
-updated_at: "2025-05-13 03:32:20.587318"
-latest: "0.0.4--hdfd78af_0"
+updated_at: "2025-05-14 03:30:45.102122"
+latest: "0.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mysterymaster"
 aliases:
  - "FindBarcodes"
@@ -37,8 +37,9 @@ aliases:
  - "jinfo"
 versions:
  - "0.0.4--hdfd78af_0"
+ - "0.0.8--hdfd78af_0"
 description: "singularity registry hpc automated addition for mysterymaster"
-config: {"url": "https://biocontainers.pro/tools/mysterymaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mysterymaster", "latest": {"0.0.4--hdfd78af_0": "sha256:c5b180d72087f3864908a4c3f6a68b5bf4b456aff4a7094597c0e2ad92ddf599"}, "tags": {"0.0.4--hdfd78af_0": "sha256:c5b180d72087f3864908a4c3f6a68b5bf4b456aff4a7094597c0e2ad92ddf599"}, "docker": "quay.io/biocontainers/mysterymaster", "aliases": {"FindBarcodes": "/usr/local/bin/FindBarcodes", "mysterymaster": "/usr/local/bin/mysterymaster", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/mysterymaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mysterymaster", "latest": {"0.0.8--hdfd78af_0": "sha256:516f5b2eda1b59b164a65ebf0f1325c85eeaf875c6a5aaf50b05a8fd8b2ec84a"}, "tags": {"0.0.4--hdfd78af_0": "sha256:c5b180d72087f3864908a4c3f6a68b5bf4b456aff4a7094597c0e2ad92ddf599", "0.0.8--hdfd78af_0": "sha256:516f5b2eda1b59b164a65ebf0f1325c85eeaf875c6a5aaf50b05a8fd8b2ec84a"}, "docker": "quay.io/biocontainers/mysterymaster", "aliases": {"FindBarcodes": "/usr/local/bin/FindBarcodes", "mysterymaster": "/usr/local/bin/mysterymaster", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mysterymaster.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mysterymaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mysterymaster:0.0.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/mysterymaster:0.0.8--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mysterymaster/0.0.4--hdfd78af_0
-$ module help quay.io/biocontainers/mysterymaster/0.0.4--hdfd78af_0
+$ module load quay.io/biocontainers/mysterymaster/0.0.8--hdfd78af_0
+$ module help quay.io/biocontainers/mysterymaster/0.0.8--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

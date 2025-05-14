@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/randfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/randfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/randfold/container.yaml"
-updated_at: "2025-05-13 03:15:00.821990"
+updated_at: "2025-05-14 03:13:28.704686"
 latest: "2.0.1--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/randfold"
 aliases:

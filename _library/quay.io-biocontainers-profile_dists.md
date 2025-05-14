@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/profile_dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/profile_dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/profile_dists/container.yaml"
-updated_at: "2025-05-13 03:46:38.773814"
-latest: "1.0.4--pyhdfd78af_0"
+updated_at: "2025-05-14 03:44:55.799743"
+latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/profile_dists"
 aliases:
  - "cmtime"
@@ -62,8 +62,9 @@ versions:
  - "1.0.0--pyh7cba7a3_0"
  - "1.0.3--pyhdfd78af_0"
  - "1.0.4--pyhdfd78af_0"
+ - "1.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for profile_dists"
-config: {"url": "https://biocontainers.pro/tools/profile_dists", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for profile_dists", "latest": {"1.0.4--pyhdfd78af_0": "sha256:a432904c9933b7a46269885ac03ab20ad15c44f0074b35de0d90af5e1a6753ae"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:1dba60a50a9665d3bedd1cedd56dc0801d9669c508fe0ea3083944601ef02561", "1.0.3--pyhdfd78af_0": "sha256:ac137a74a22b211918de3e93146bd66f582ee6127a65e7482b50efc8ec995408", "1.0.4--pyhdfd78af_0": "sha256:a432904c9933b7a46269885ac03ab20ad15c44f0074b35de0d90af5e1a6753ae"}, "docker": "quay.io/biocontainers/profile_dists", "aliases": {"cmtime": "/usr/local/bin/cmtime", "cpuinfo": "/usr/local/bin/cpuinfo", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "profile_dists": "/usr/local/bin/profile_dists", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "pt2to3": "/usr/local/bin/pt2to3"}}
+config: {"url": "https://biocontainers.pro/tools/profile_dists", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for profile_dists", "latest": {"1.0.5--pyhdfd78af_0": "sha256:8c4ff1cf9261369aee79f88eac992298d4927e9c0bba6f9676f409edce072977"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:1dba60a50a9665d3bedd1cedd56dc0801d9669c508fe0ea3083944601ef02561", "1.0.3--pyhdfd78af_0": "sha256:ac137a74a22b211918de3e93146bd66f582ee6127a65e7482b50efc8ec995408", "1.0.4--pyhdfd78af_0": "sha256:a432904c9933b7a46269885ac03ab20ad15c44f0074b35de0d90af5e1a6753ae", "1.0.5--pyhdfd78af_0": "sha256:8c4ff1cf9261369aee79f88eac992298d4927e9c0bba6f9676f409edce072977"}, "docker": "quay.io/biocontainers/profile_dists", "aliases": {"cmtime": "/usr/local/bin/cmtime", "cpuinfo": "/usr/local/bin/cpuinfo", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "profile_dists": "/usr/local/bin/profile_dists", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "pt2to3": "/usr/local/bin/pt2to3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/profile_dists.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/profile_dists
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/profile_dists:1.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/profile_dists:1.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/profile_dists/1.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/profile_dists/1.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/profile_dists/1.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/profile_dists/1.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
