@@ -5,6 +5,7 @@ latest:
   2.0rc6--py_0: sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd
 tags:
   2.0rc6--py_0: sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd
+  2.0.6--pyhdfd78af_0: sha256:5de7798a31e7d8d7ac0fe20b1074b081286678a3e652ad2b6b1cfa2341d8c827
 docker: quay.io/biocontainers/integron_finder
 aliases:
   integron_finder: /usr/local/bin/integron_finder

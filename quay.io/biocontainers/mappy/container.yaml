@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mappy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mappy
 latest:
-  2.28--py312h4711d71_3: sha256:a728673f1f96d8d0c9dac9168fcd9576d95e6d5abbf7eee13467b01722bcec2f
+  2.29--py310h397c9d8_0: sha256:d64a2a6e6775a1df8614e0beb42dad4844f1017194b8f6fd53fade007d93e72d
 tags:
   2.9--py36_1: sha256:92f01d29efba73925dcdbeccd332850d25caa568012b86af83daf353b659550a
   2.17--py36h955c1b8_2: sha256:32549721f3553f8372a583c24e02a8033d42b647588ce959e1eddf00ab1498c0
@@ -20,6 +20,7 @@ tags:
   2.28--py38h6bfa29d_1: sha256:45ebde5bbf419f7a3e7ab8901d731f69766e6c0b9fd4df8af4289621ed64a4f6
   2.28--py310h1af8fb7_2: sha256:39f9b955d362a116eaff8585b3345200819483bf103b7b84bd2194e7b1c9691d
   2.28--py312h4711d71_3: sha256:a728673f1f96d8d0c9dac9168fcd9576d95e6d5abbf7eee13467b01722bcec2f
+  2.29--py310h397c9d8_0: sha256:d64a2a6e6775a1df8614e0beb42dad4844f1017194b8f6fd53fade007d93e72d
 docker: quay.io/biocontainers/mappy
 aliases:
   minimap2.py: /usr/local/bin/minimap2.py

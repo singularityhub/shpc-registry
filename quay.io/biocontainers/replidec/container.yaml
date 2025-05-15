@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/replidec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for replidec
 latest:
-  0.3.1.1--pyhdfd78af_0: sha256:2c1736600b613ebd6c84e3e7bf1e13e5437cf7656da900db8888d95814bf9d97
+  0.3.4--pyhdfd78af_0: sha256:819e73b29af0bd062f7b55080bdda9f1c73822d389ca1f05abb49d010874f133
 tags:
   0.3.1.1--pyhdfd78af_0: sha256:2c1736600b613ebd6c84e3e7bf1e13e5437cf7656da900db8888d95814bf9d97
+  0.3.4--pyhdfd78af_0: sha256:819e73b29af0bd062f7b55080bdda9f1c73822d389ca1f05abb49d010874f133
 docker: quay.io/biocontainers/replidec
 aliases:
   Replidec: /usr/local/bin/Replidec

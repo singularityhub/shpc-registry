@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nextflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextflow
 latest:
-  24.10.5--h2a3209d_1: sha256:11a44825acf8dd32b83f50bc8775471eb558acff9dfc795e5547dde0726612b1
+  25.04.2--h2a3209d_0: sha256:f291777e1f10d9f859275d17e78080faca23dc4a4d40b1c730f45bca4ec76f6e
 tags:
   22.10.0--h4a94de4_0: sha256:c04ca8aca1b35ce4a912acbe5df5b795179d28440da9b27cc87198a8ea1ea859
   22.10.1--h4a94de4_0: sha256:0e58fcbbf77e6fc6e3d77507ff624d81bcc9c436026093a8cda5b5deb72f048c
@@ -23,6 +23,8 @@ tags:
   24.10.4--hdfd78af_0: sha256:f3f36c65ce9f6dfe6cfd95351ad6f5e509e8251630aa209df68acef5a6a34156
   24.10.5--hdfd78af_0: sha256:5002eaed2feba81ba7624ecb6abe750fd0f4eeb0fc04d490b14b1bcfcf92fa90
   24.10.5--h2a3209d_1: sha256:11a44825acf8dd32b83f50bc8775471eb558acff9dfc795e5547dde0726612b1
+  25.04.2--h2a3209d_0: sha256:f291777e1f10d9f859275d17e78080faca23dc4a4d40b1c730f45bca4ec76f6e
+  24.10.6--h2a3209d_0: sha256:2087acf87f4f088f46a31273a510559af664333ca64ef999ea603a1bf8414764
 docker: quay.io/biocontainers/nextflow
 aliases:
   nextflow: /usr/local/bin/nextflow
