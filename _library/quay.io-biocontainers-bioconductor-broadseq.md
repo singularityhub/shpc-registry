@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-broadseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-broadseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-broadseq/container.yaml"
-updated_at: "2025-05-15 03:40:26.105754"
+updated_at: "2025-05-15 04:07:17.839718"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-broadseq"
 aliases:

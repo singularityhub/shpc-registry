@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adaptest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adaptest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adaptest/container.yaml"
-updated_at: "2025-05-15 03:44:19.032440"
+updated_at: "2025-05-15 04:11:12.866353"
 latest: "1.7.1--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adaptest"
 aliases:

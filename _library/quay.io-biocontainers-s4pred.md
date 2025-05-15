@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/s4pred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/s4pred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/s4pred/container.yaml"
-updated_at: "2025-05-15 03:19:23.181879"
+updated_at: "2025-05-15 03:46:25.834449"
 latest: "1.2.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/s4pred"
 aliases:
