@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kanpig
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kanpig
+latest:
+  1.1.0--ha6fb395_1: sha256:470885468c68bd966fdecaacbe488d21f725bb9f66732dbb633558a36190bab6
+tags:
+  1.1.0--ha6fb395_1: sha256:470885468c68bd966fdecaacbe488d21f725bb9f66732dbb633558a36190bab6
+docker: quay.io/biocontainers/kanpig
+aliases:
+  kanpig: /usr/local/bin/kanpig

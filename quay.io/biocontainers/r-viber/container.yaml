@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/r-viber
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-viber
+latest:
+  1.0.0--r44hdfd78af_0: sha256:95cb978a2cb344cd74b884a389a7a4c01ed2dc78f87fcf9a52865a61539feee5
+tags:
+  1.0.0--r44hdfd78af_0: sha256:95cb978a2cb344cd74b884a389a7a4c01ed2dc78f87fcf9a52865a61539feee5
+docker: quay.io/biocontainers/r-viber
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

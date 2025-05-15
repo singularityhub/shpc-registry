@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/r-amlmapr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-amlmapr
+latest:
+  0.1.0--r44hdfd78af_0: sha256:f69925f934e1325a2084f1fd95a341372d8a04e8685a1e544772e22bdee2cd1d
+tags:
+  0.1.0--r44hdfd78af_0: sha256:f69925f934e1325a2084f1fd95a341372d8a04e8685a1e544772e22bdee2cd1d
+docker: quay.io/biocontainers/r-amlmapr
+aliases:
+  git2: /usr/local/bin/git2
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/blobtk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for blobtk
+latest:
+  0.6.5--py310h237a769_0: sha256:a6ef4954953d8ccb25cb0ad9a4e7005947db856ea9974d1969b63a4be0f1c4f7
+tags:
+  0.6.5--py310h237a769_0: sha256:a6ef4954953d8ccb25cb0ad9a4e7005947db856ea9974d1969b63a4be0f1c4f7
+docker: quay.io/biocontainers/blobtk
+aliases:
+  blobtk: /usr/local/bin/blobtk
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

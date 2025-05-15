@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/shiba
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for shiba
+latest:
+  0.6.1--py313hdfd78af_0: sha256:504a469d9fefc584a465b2360d3d2ddf51c65298eaa012cae310379b826e1a9c
+tags:
+  0.6.1--py313hdfd78af_0: sha256:504a469d9fefc584a465b2360d3d2ddf51c65298eaa012cae310379b826e1a9c
+docker: quay.io/biocontainers/shiba
+aliases:
+  flattenGTF: /usr/local/bin/flattenGTF
+  genRandomReads: /usr/local/bin/genRandomReads
+  prepDE.py: /usr/local/bin/prepDE.py
+  propmapped: /usr/local/bin/propmapped
+  qualityScores: /usr/local/bin/qualityScores
+  regtools: /usr/local/bin/regtools
+  removeDup: /usr/local/bin/removeDup
+  repair: /usr/local/bin/repair
+  scshiba.py: /usr/local/bin/scshiba.py
+  shiba.py: /usr/local/bin/shiba.py
+  stringtie: /usr/local/bin/stringtie
+  sublong: /usr/local/bin/sublong
+  subread-fullscan: /usr/local/bin/subread-fullscan
+  exactSNP: /usr/local/bin/exactSNP
+  featureCounts: /usr/local/bin/featureCounts
+  subindel: /usr/local/bin/subindel
+  subjunc: /usr/local/bin/subjunc
+  subread-align: /usr/local/bin/subread-align
+  subread-buildindex: /usr/local/bin/subread-buildindex
+  h5fuse: /usr/local/bin/h5fuse
+  scanpy: /usr/local/bin/scanpy
+  annot-tsv: /usr/local/bin/annot-tsv
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
