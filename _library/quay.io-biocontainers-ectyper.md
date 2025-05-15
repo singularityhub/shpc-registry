@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ectyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ectyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ectyper/container.yaml"
-updated_at: "2025-05-14 03:40:01.867795"
-latest: "2.0.0--pyhdfd78af_3"
+updated_at: "2025-05-15 03:16:27.233485"
+latest: "2.0.0--pyhdfd78af_4"
 container_url: "https://biocontainers.pro/tools/ectyper"
 aliases:
  - "ectyper"
@@ -24,8 +24,9 @@ versions:
  - "2.0.0--pyhdfd78af_1"
  - "2.0.0--pyhdfd78af_2"
  - "2.0.0--pyhdfd78af_3"
+ - "2.0.0--pyhdfd78af_4"
 description: "shpc-registry automated BioContainers addition for ectyper"
-config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"2.0.0--pyhdfd78af_3": "sha256:7e55de9fab17d114ff087ce4054a9c3a2eca7fd0541b80817b2fc478b71c9503"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465", "2.0.0--pyhdfd78af_1": "sha256:2e37d012760687ca305001706211c693c857135c9f3266a98970f9cf68644bf2", "2.0.0--pyhdfd78af_2": "sha256:1b33a7eb198b1557cff3f03faf0cecb24b5eb5538995e651986e15940c04cc4d", "2.0.0--pyhdfd78af_3": "sha256:7e55de9fab17d114ff087ce4054a9c3a2eca7fd0541b80817b2fc478b71c9503"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {"ectyper": "/usr/local/bin/ectyper", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes"}}
+config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"2.0.0--pyhdfd78af_4": "sha256:eb98dad0da8a8dbf8864ab724aa51bd59db1a5a80705cadb9c6e0a834ab4ba85"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465", "2.0.0--pyhdfd78af_1": "sha256:2e37d012760687ca305001706211c693c857135c9f3266a98970f9cf68644bf2", "2.0.0--pyhdfd78af_2": "sha256:1b33a7eb198b1557cff3f03faf0cecb24b5eb5538995e651986e15940c04cc4d", "2.0.0--pyhdfd78af_3": "sha256:7e55de9fab17d114ff087ce4054a9c3a2eca7fd0541b80817b2fc478b71c9503", "2.0.0--pyhdfd78af_4": "sha256:eb98dad0da8a8dbf8864ab724aa51bd59db1a5a80705cadb9c6e0a834ab4ba85"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {"ectyper": "/usr/local/bin/ectyper", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ectyper.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ectyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ectyper:2.0.0--pyhdfd78af_3
+$ shpc install quay.io/biocontainers/ectyper:2.0.0--pyhdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_3
-$ module help quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_3
+$ module load quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_4
+$ module help quay.io/biocontainers/ectyper/2.0.0--pyhdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assembly-stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly-stats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly-stats/container.yaml"
-updated_at: "2025-05-14 03:28:46.704725"
+updated_at: "2025-05-15 03:12:40.194763"
 latest: "1.0.1--h9948957_9"
 container_url: "https://biocontainers.pro/tools/assembly-stats"
 aliases:

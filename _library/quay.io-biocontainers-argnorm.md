@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/argnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argnorm/container.yaml"
-updated_at: "2025-05-14 03:35:57.679890"
-latest: "0.8.0--pyhdfd78af_0"
+updated_at: "2025-05-15 03:31:16.877665"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/argnorm"
 aliases:
  - "argnorm"
@@ -26,8 +26,9 @@ versions:
  - "0.2.0--pyhdfd78af_1"
  - "0.7.0--pyhdfd78af_0"
  - "0.8.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for argnorm"
-config: {"url": "https://biocontainers.pro/tools/argnorm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for argnorm", "latest": {"0.8.0--pyhdfd78af_0": "sha256:9da7af55ba1173745db82684c60459740920553fc0dd32be370be26bd721ea08"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:f23591e91a6394225c6e8f3527bc2d5dde35a88b6eb4d65b3f06d6b60d149f4d", "0.6.0--pyhdfd78af_0": "sha256:660423d1206726066431f892a93d06aa64e31b474ba7d98d1be4324c8ccaafe1", "0.5.0--pyhdfd78af_0": "sha256:1c388bd40271884fdb0c6afb72bb70fd6ca55b3a84b7cea2df31557945c02cba", "0.4.0--pyhdfd78af_0": "sha256:941ceb242a6b9ab4aabba22211f46e9d3a5075c8b56d4f1e298bdf73c658e9d0", "0.3.0--pyhdfd78af_0": "sha256:fdeb068082a9e5e76518634f1c6556bd37f9adac4e256c200edb7225b4303a0b", "0.2.0--pyhdfd78af_1": "sha256:7fe55a81250917eebe2c40f4563af0b96a1c6faa8769a65ba465e96cd41113c6", "0.7.0--pyhdfd78af_0": "sha256:ad4ac63f91c6b13b47c737532dae67bfa8eb215a2b22f0e4ea21a06859aedbdb", "0.8.0--pyhdfd78af_0": "sha256:9da7af55ba1173745db82684c60459740920553fc0dd32be370be26bd721ea08"}, "docker": "quay.io/biocontainers/argnorm", "aliases": {"argnorm": "/usr/local/bin/argnorm", "pronto": "/usr/local/bin/pronto", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/argnorm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for argnorm", "latest": {"1.0.0--pyhdfd78af_0": "sha256:ae3d123d0d5d1b8ce728c40e661286f2fc4cd5fe9b56af69f1da3c23e64ba556"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:f23591e91a6394225c6e8f3527bc2d5dde35a88b6eb4d65b3f06d6b60d149f4d", "0.6.0--pyhdfd78af_0": "sha256:660423d1206726066431f892a93d06aa64e31b474ba7d98d1be4324c8ccaafe1", "0.5.0--pyhdfd78af_0": "sha256:1c388bd40271884fdb0c6afb72bb70fd6ca55b3a84b7cea2df31557945c02cba", "0.4.0--pyhdfd78af_0": "sha256:941ceb242a6b9ab4aabba22211f46e9d3a5075c8b56d4f1e298bdf73c658e9d0", "0.3.0--pyhdfd78af_0": "sha256:fdeb068082a9e5e76518634f1c6556bd37f9adac4e256c200edb7225b4303a0b", "0.2.0--pyhdfd78af_1": "sha256:7fe55a81250917eebe2c40f4563af0b96a1c6faa8769a65ba465e96cd41113c6", "0.7.0--pyhdfd78af_0": "sha256:ad4ac63f91c6b13b47c737532dae67bfa8eb215a2b22f0e4ea21a06859aedbdb", "0.8.0--pyhdfd78af_0": "sha256:9da7af55ba1173745db82684c60459740920553fc0dd32be370be26bd721ea08", "1.0.0--pyhdfd78af_0": "sha256:ae3d123d0d5d1b8ce728c40e661286f2fc4cd5fe9b56af69f1da3c23e64ba556"}, "docker": "quay.io/biocontainers/argnorm", "aliases": {"argnorm": "/usr/local/bin/argnorm", "pronto": "/usr/local/bin/pronto", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/argnorm.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/argnorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/argnorm:0.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/argnorm:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/argnorm/0.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/argnorm/0.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/argnorm/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/argnorm/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
