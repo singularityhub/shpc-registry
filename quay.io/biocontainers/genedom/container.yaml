@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/genedom
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genedom
+latest:
+  0.2.2--pyh7e72e81_0: sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
+tags:
+  0.2.2--pyh7e72e81_0: sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
+docker: quay.io/biocontainers/genedom
+aliases:
+  dnachisel: /usr/local/bin/dnachisel
+  html2text: /usr/local/bin/html2text
+  pypugjs: /usr/local/bin/pypugjs
+  weasyprint: /usr/local/bin/weasyprint
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  markdown_py: /usr/local/bin/markdown_py
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress

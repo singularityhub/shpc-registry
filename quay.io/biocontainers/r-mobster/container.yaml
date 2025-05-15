@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/r-mobster
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-mobster
+latest:
+  0.1.1--r44hdfd78af_0: sha256:f5ddfbbde5d76961f242235558f77c37b5f292f1f9ab9e0a8615821fd20cb06a
+tags:
+  0.1.1--r44hdfd78af_0: sha256:f5ddfbbde5d76961f242235558f77c37b5f292f1f9ab9e0a8615821fd20cb06a
+docker: quay.io/biocontainers/r-mobster
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
