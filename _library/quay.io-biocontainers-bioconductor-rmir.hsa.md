@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmir.hsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmir.hsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmir.hsa/container.yaml"
-updated_at: "2025-05-15 03:45:16.550212"
+updated_at: "2025-05-16 03:21:25.327834"
 latest: "1.0.5--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmir.hsa"
 

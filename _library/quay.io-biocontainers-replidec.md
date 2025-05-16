@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/replidec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/replidec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/replidec/container.yaml"
-updated_at: "2025-05-15 03:51:44.846396"
-latest: "0.3.1.1--pyhdfd78af_0"
+updated_at: "2025-05-16 03:28:10.624509"
+latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/replidec"
 aliases:
  - "Replidec"
@@ -38,8 +38,9 @@ aliases:
  - "esl-selectn"
 versions:
  - "0.3.1.1--pyhdfd78af_0"
+ - "0.3.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for replidec"
-config: {"url": "https://biocontainers.pro/tools/replidec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for replidec", "latest": {"0.3.1.1--pyhdfd78af_0": "sha256:2c1736600b613ebd6c84e3e7bf1e13e5437cf7656da900db8888d95814bf9d97"}, "tags": {"0.3.1.1--pyhdfd78af_0": "sha256:2c1736600b613ebd6c84e3e7bf1e13e5437cf7656da900db8888d95814bf9d97"}, "docker": "quay.io/biocontainers/replidec", "aliases": {"Replidec": "/usr/local/bin/Replidec", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "test_pcre": "/usr/local/bin/test_pcre", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "f2py3.11": "/usr/local/bin/f2py3.11", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "edirect.py": "/usr/local/bin/edirect.py", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn"}}
+config: {"url": "https://biocontainers.pro/tools/replidec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for replidec", "latest": {"0.3.4--pyhdfd78af_0": "sha256:819e73b29af0bd062f7b55080bdda9f1c73822d389ca1f05abb49d010874f133"}, "tags": {"0.3.1.1--pyhdfd78af_0": "sha256:2c1736600b613ebd6c84e3e7bf1e13e5437cf7656da900db8888d95814bf9d97", "0.3.4--pyhdfd78af_0": "sha256:819e73b29af0bd062f7b55080bdda9f1c73822d389ca1f05abb49d010874f133"}, "docker": "quay.io/biocontainers/replidec", "aliases": {"Replidec": "/usr/local/bin/Replidec", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "test_pcre": "/usr/local/bin/test_pcre", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "f2py3.11": "/usr/local/bin/f2py3.11", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "edirect.py": "/usr/local/bin/edirect.py", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/replidec.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/replidec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/replidec:0.3.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/replidec:0.3.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/replidec/0.3.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/replidec/0.3.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/replidec/0.3.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/replidec/0.3.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

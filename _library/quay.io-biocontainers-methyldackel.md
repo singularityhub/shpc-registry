@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methyldackel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methyldackel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methyldackel/container.yaml"
-updated_at: "2025-05-15 04:05:36.133051"
-latest: "0.6.1--h577a1d6_8"
+updated_at: "2025-05-16 03:42:10.898827"
+latest: "0.6.1--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/methyldackel"
 aliases:
  - "MethylDackel"
@@ -18,8 +18,9 @@ versions:
  - "0.6.1--h6141fd1_6"
  - "0.6.1--he4a0461_7"
  - "0.6.1--h577a1d6_8"
+ - "0.6.1--h577a1d6_9"
 description: "shpc-registry automated BioContainers addition for methyldackel"
-config: {"url": "https://biocontainers.pro/tools/methyldackel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methyldackel", "latest": {"0.6.1--h577a1d6_8": "sha256:f4db2ed9d3d170308b05a07018c4069049ff105be4ad3d513de81d9d19d93831"}, "tags": {"0.6.1--hb0d9459_4": "sha256:35881d0588da6d8f54dd397bd02318870467c5a07dacddd1bba019020eb1b652", "0.6.1--hc88714e_5": "sha256:4a3fcad9ffe74bff2689c8e43c05f1c15424f8ed099772cc7f1deff9330546fa", "0.6.1--h6141fd1_6": "sha256:f18480ebab78a2e76c9d7c64dc353a993fa128605f5207d657294664a63e3558", "0.6.1--he4a0461_7": "sha256:619d8d3f8d4f3c3e1301069fe919b0346266393a6e6cea6a488d21726cb9e5f7", "0.6.1--h577a1d6_8": "sha256:f4db2ed9d3d170308b05a07018c4069049ff105be4ad3d513de81d9d19d93831"}, "docker": "quay.io/biocontainers/methyldackel", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/methyldackel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methyldackel", "latest": {"0.6.1--h577a1d6_9": "sha256:60779fbde67cfa644e102008aa54dabe9a9a2cd28daf0fb87a89f0c70e78bf10"}, "tags": {"0.6.1--hb0d9459_4": "sha256:35881d0588da6d8f54dd397bd02318870467c5a07dacddd1bba019020eb1b652", "0.6.1--hc88714e_5": "sha256:4a3fcad9ffe74bff2689c8e43c05f1c15424f8ed099772cc7f1deff9330546fa", "0.6.1--h6141fd1_6": "sha256:f18480ebab78a2e76c9d7c64dc353a993fa128605f5207d657294664a63e3558", "0.6.1--he4a0461_7": "sha256:619d8d3f8d4f3c3e1301069fe919b0346266393a6e6cea6a488d21726cb9e5f7", "0.6.1--h577a1d6_8": "sha256:f4db2ed9d3d170308b05a07018c4069049ff105be4ad3d513de81d9d19d93831", "0.6.1--h577a1d6_9": "sha256:60779fbde67cfa644e102008aa54dabe9a9a2cd28daf0fb87a89f0c70e78bf10"}, "docker": "quay.io/biocontainers/methyldackel", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methyldackel.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/methyldackel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methyldackel:0.6.1--h577a1d6_8
+$ shpc install quay.io/biocontainers/methyldackel:0.6.1--h577a1d6_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methyldackel/0.6.1--h577a1d6_8
-$ module help quay.io/biocontainers/methyldackel/0.6.1--h577a1d6_8
+$ module load quay.io/biocontainers/methyldackel/0.6.1--h577a1d6_9
+$ module help quay.io/biocontainers/methyldackel/0.6.1--h577a1d6_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

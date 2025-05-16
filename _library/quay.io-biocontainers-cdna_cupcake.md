@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdna_cupcake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdna_cupcake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdna_cupcake/container.yaml"
-updated_at: "2025-05-15 03:39:48.907202"
+updated_at: "2025-05-16 03:15:44.501062"
 latest: "29.0.0--py39h5371cbf_0"
 container_url: "https://biocontainers.pro/tools/cdna_cupcake"
 aliases:

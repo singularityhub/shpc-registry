@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hdf5array"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hdf5array/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hdf5array/container.yaml"
-updated_at: "2025-05-15 03:44:54.126318"
-latest: "1.34.0--r44h15a9599_0"
+updated_at: "2025-05-16 03:21:02.070464"
+latest: "1.34.0--r44h15a9599_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hdf5array"
 
 versions:
@@ -20,8 +20,9 @@ versions:
  - "1.30.0--r43ha9d7317_0"
  - "1.30.0--r43ha9d7317_1"
  - "1.34.0--r44h15a9599_0"
+ - "1.34.0--r44h15a9599_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hdf5array"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hdf5array", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hdf5array", "latest": {"1.34.0--r44h15a9599_0": "sha256:4a570e2bf33ba87bedd9e08c08a1edc716e13b9392ae0020fd7b0bc97fe44caa"}, "tags": {"1.8.1--r351_0": "sha256:341279c7b92bea33158baf6347e735d33a81179dfae1d0d4c73281783ff478b8", "1.26.0--r42h171f361_1": "sha256:5ba35f6bbd5e85eb668105a6b83b44a4552a5918e61b8cad4f73b34b0cb440be", "1.22.1--r41hc0cfd56_1": "sha256:c742438075e837da0a76fc0a516697f4a2a7be998d58d105c541117719cb043a", "1.20.0--r41ha2fdcc6_1": "sha256:7c567bb7ad91c6b5ac19c8f90f5078831e892b31fb750b7f1d9219c4b1d797fc", "1.18.1--r40hd029910_0": "sha256:c620fb25254d5a79766eebc8454859665c5b6668fc83ecad8befb757efdfbfb2", "1.16.0--r40h037d062_0": "sha256:b2b0d190627aaf6c0df60fac5cd112249a0745c2b48f6ae66f6f177e11bdef17", "1.26.0--r42h58c1800_2": "sha256:2f3d64907bbc563659d8adc9a53f5b364b742f96c3869bce6a352f189f705434", "1.28.1--r43ha9d7317_0": "sha256:ec6b6d755f28ddab3a818c6e5e6fd3a4b5d22b78be67319bd46a868f8046d427", "1.30.0--r43ha9d7317_0": "sha256:81ea2296993670912f98f80ab3fe24143d04b60267ed26386376c98180e6f64e", "1.30.0--r43ha9d7317_1": "sha256:4b58d02a0dc18dc01064ec0f9ea631c70bac17fdd58f0c436e56cb62d76a7a47", "1.34.0--r44h15a9599_0": "sha256:4a570e2bf33ba87bedd9e08c08a1edc716e13b9392ae0020fd7b0bc97fe44caa"}, "docker": "quay.io/biocontainers/bioconductor-hdf5array"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hdf5array", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hdf5array", "latest": {"1.34.0--r44h15a9599_1": "sha256:88098ba84e0deb3b9236b3ebbf34e9efbcfbf198e22c2423df25e9357522b183"}, "tags": {"1.8.1--r351_0": "sha256:341279c7b92bea33158baf6347e735d33a81179dfae1d0d4c73281783ff478b8", "1.26.0--r42h171f361_1": "sha256:5ba35f6bbd5e85eb668105a6b83b44a4552a5918e61b8cad4f73b34b0cb440be", "1.22.1--r41hc0cfd56_1": "sha256:c742438075e837da0a76fc0a516697f4a2a7be998d58d105c541117719cb043a", "1.20.0--r41ha2fdcc6_1": "sha256:7c567bb7ad91c6b5ac19c8f90f5078831e892b31fb750b7f1d9219c4b1d797fc", "1.18.1--r40hd029910_0": "sha256:c620fb25254d5a79766eebc8454859665c5b6668fc83ecad8befb757efdfbfb2", "1.16.0--r40h037d062_0": "sha256:b2b0d190627aaf6c0df60fac5cd112249a0745c2b48f6ae66f6f177e11bdef17", "1.26.0--r42h58c1800_2": "sha256:2f3d64907bbc563659d8adc9a53f5b364b742f96c3869bce6a352f189f705434", "1.28.1--r43ha9d7317_0": "sha256:ec6b6d755f28ddab3a818c6e5e6fd3a4b5d22b78be67319bd46a868f8046d427", "1.30.0--r43ha9d7317_0": "sha256:81ea2296993670912f98f80ab3fe24143d04b60267ed26386376c98180e6f64e", "1.30.0--r43ha9d7317_1": "sha256:4b58d02a0dc18dc01064ec0f9ea631c70bac17fdd58f0c436e56cb62d76a7a47", "1.34.0--r44h15a9599_0": "sha256:4a570e2bf33ba87bedd9e08c08a1edc716e13b9392ae0020fd7b0bc97fe44caa", "1.34.0--r44h15a9599_1": "sha256:88098ba84e0deb3b9236b3ebbf34e9efbcfbf198e22c2423df25e9357522b183"}, "docker": "quay.io/biocontainers/bioconductor-hdf5array"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hdf5array.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hdf5array
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hdf5array:1.34.0--r44h15a9599_0
+$ shpc install quay.io/biocontainers/bioconductor-hdf5array:1.34.0--r44h15a9599_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hdf5array/1.34.0--r44h15a9599_0
-$ module help quay.io/biocontainers/bioconductor-hdf5array/1.34.0--r44h15a9599_0
+$ module load quay.io/biocontainers/bioconductor-hdf5array/1.34.0--r44h15a9599_1
+$ module help quay.io/biocontainers/bioconductor-hdf5array/1.34.0--r44h15a9599_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

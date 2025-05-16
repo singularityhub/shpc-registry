@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/integron_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/integron_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/integron_finder/container.yaml"
-updated_at: "2025-05-15 04:05:34.989360"
+updated_at: "2025-05-16 03:42:09.762739"
 latest: "2.0rc6--py_0"
 container_url: "https://biocontainers.pro/tools/integron_finder"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "cmstat"
 versions:
  - "2.0rc6--py_0"
+ - "2.0.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for integron_finder"
-config: {"url": "https://biocontainers.pro/tools/integron_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for integron_finder", "latest": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "tags": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "docker": "quay.io/biocontainers/integron_finder", "aliases": {"integron_finder": "/usr/local/bin/integron_finder", "integron_merge": "/usr/local/bin/integron_merge", "integron_split": "/usr/local/bin/integron_split", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/integron_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for integron_finder", "latest": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "tags": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd", "2.0.6--pyhdfd78af_0": "sha256:5de7798a31e7d8d7ac0fe20b1074b081286678a3e652ad2b6b1cfa2341d8c827"}, "docker": "quay.io/biocontainers/integron_finder", "aliases": {"integron_finder": "/usr/local/bin/integron_finder", "integron_merge": "/usr/local/bin/integron_merge", "integron_split": "/usr/local/bin/integron_split", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/integron_finder.
