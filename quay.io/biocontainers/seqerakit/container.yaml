@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/seqerakit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqerakit
 latest:
-  0.5.3--pyhdfd78af_0: sha256:b06752a4b05e55f95fae5eb74de442cd0135f8ed9ded6ef333dc1ef15d3177ca
+  0.5.4--pyhdfd78af_0: sha256:2babecab9d42970c371404f172bb920436024a10279db677000f1cafd726c7dc
 tags:
   0.4.2--pyhdfd78af_0: sha256:8162bcdf3e991c9dcaac249c8332943103271169b61b0ad8498aa3e0aa5f78b0
   0.4.4--pyhdfd78af_0: sha256:7fb524504772fbe2746f29371df54ecba9cfb5187b688b705e492a50b479da5b
@@ -13,6 +13,7 @@ tags:
   0.5.1--pyhdfd78af_0: sha256:296683430202559b73ccd6ebefc7bbe9071e34fe3521a7480275dc03dcaf081c
   0.5.2--pyhdfd78af_0: sha256:ec5b5e5b2e8c403eebb8426fefbdddb1ba7e60301c44550a1e3997775f371789
   0.5.3--pyhdfd78af_0: sha256:b06752a4b05e55f95fae5eb74de442cd0135f8ed9ded6ef333dc1ef15d3177ca
+  0.5.4--pyhdfd78af_0: sha256:2babecab9d42970c371404f172bb920436024a10279db677000f1cafd726c7dc
 docker: quay.io/biocontainers/seqerakit
 aliases:
   seqerakit: /usr/local/bin/seqerakit

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/strangepg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strangepg
 latest:
-  0.8.19.3--h0ac75b0_0: sha256:28ccb6d5af13e120b08f8161a68ed64052ef627a0a674652a8a6b9d96e91de47
+  0.8.20--h0ac75b0_0: sha256:37c88a931bcd349926a736d859b5b47b60905343812ca7b3444dd5eba87c407e
 tags:
   0.8.0--h9a53f25_0: sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b
   0.8.4--h9a53f25_0: sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38
@@ -12,6 +12,7 @@ tags:
   0.8.17--h0ac75b0_0: sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19
   0.8.18.1--h0ac75b0_0: sha256:e935a87c8d6fd84d4814b1e4da9f83d7c903a753155d56663a594e4cf3f044c7
   0.8.19.3--h0ac75b0_0: sha256:28ccb6d5af13e120b08f8161a68ed64052ef627a0a674652a8a6b9d96e91de47
+  0.8.20--h0ac75b0_0: sha256:37c88a931bcd349926a736d859b5b47b60905343812ca7b3444dd5eba87c407e
 docker: quay.io/biocontainers/strangepg
 aliases:
   strawk: /usr/local/bin/strawk
