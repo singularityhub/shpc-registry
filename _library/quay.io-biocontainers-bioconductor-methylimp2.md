@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylimp2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylimp2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylimp2/container.yaml"
-updated_at: "2025-05-16 03:40:52.311676"
+updated_at: "2025-05-17 03:37:52.735438"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylimp2"
 aliases:
