@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bustools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bustools
 latest:
-  0.44.1--h6f0a7f7_1: sha256:58b0fe62b641715faa5dcc24216d04b56b44253c2fd65d06d82abf7b2dd7c08e
+  0.45.0--h6f0a7f7_0: sha256:9aa4537f73752aa423c23d1a9c3652532ee81a6122dcf5cbb344c7113823c0be
 tags:
   0.41.0--h15996b6_2: sha256:97f0688f3fc0c4f8f642f52e0b1643e4921b816f1a7855bba5dbe31a904c924c
   0.42.0--h15996b6_0: sha256:fd56d2b95a3883b71e1291d881a6edee6d3824e120197c4d459d140d09a5b22a
@@ -15,6 +15,7 @@ tags:
   0.44.0--he1fd2f9_0: sha256:b4a5ae90844dae00bd6572c82c72a808e0c33a16ab892b0337b0a663868910ec
   0.44.1--he1fd2f9_0: sha256:d618abda1155814a9db24f28f0f99e0b3c2b48f8bf42a55789de516253066f81
   0.44.1--h6f0a7f7_1: sha256:58b0fe62b641715faa5dcc24216d04b56b44253c2fd65d06d82abf7b2dd7c08e
+  0.45.0--h6f0a7f7_0: sha256:9aa4537f73752aa423c23d1a9c3652532ee81a6122dcf5cbb344c7113823c0be
 docker: quay.io/biocontainers/bustools
 aliases:
   bustools: /usr/local/bin/bustools

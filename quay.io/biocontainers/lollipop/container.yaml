@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/lollipop
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lollipop
 latest:
-  0.5.2--pyhdfd78af_0: sha256:09227db80f7a74c3026117e3d0015cfa415101e301c2ab08759c6be3cd3012dc
+  0.5.3--pyhdfd78af_0: sha256:f99c08c33e6c2a7c053ee0c53cb62a55f6094861e3f59ac2f35dc3f3c9849f3e
 tags:
   0.1.0--pyhdfd78af_0: sha256:2c5a1ae184e1225709ef11f5b3828d1c55063891c69dc6798a39842fa016d9ed
   0.2.0--pyhdfd78af_0: sha256:debb768fb6bd64ab709170c28ddb414c76c5437281e8ca0e130e6d42bb846ba1
@@ -12,6 +12,7 @@ tags:
   0.5.0--pyhdfd78af_0: sha256:fb6daa85b75f2d400bb664719d80bfd7079febbe43858930f3a2e2eed683be7e
   0.5.1--pyhdfd78af_0: sha256:db2bf5f84a08fc94361095304aed7366c54e7874780816e7203e0b78188530aa
   0.5.2--pyhdfd78af_0: sha256:09227db80f7a74c3026117e3d0015cfa415101e301c2ab08759c6be3cd3012dc
+  0.5.3--pyhdfd78af_0: sha256:f99c08c33e6c2a7c053ee0c53cb62a55f6094861e3f59ac2f35dc3f3c9849f3e
 docker: quay.io/biocontainers/lollipop
 aliases:
   tqdm: /usr/local/bin/tqdm

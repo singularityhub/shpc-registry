@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/skder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for skder
 latest:
-  1.2.9--py312hf731ba3_0: sha256:293c0ddb16558d727e2c2f6c94d50ca6636a72a3f39489be7eb95db02355b38a
+  1.3.1--py310h184ae93_1: sha256:f2cddc28387fa4bdcb89abe5b66e48ecd6f5dad5e13e96303853cb74247d98e2
 tags:
   1.0--py310h0dbaff4_0: sha256:38fdcb0465610414b995547f61ef7f4cf0f04419adbb4a7dc66dc7e4d612f3ae
   1.0.4--py310h0dbaff4_0: sha256:c1c99cdbc2ccdb0e2cc4d5678351e464c29d33c44e19608925cb2d6232a6bc1c
@@ -15,6 +15,7 @@ tags:
   1.2.8--py312h28adbb1_0: sha256:d167c3c5ce9255dbd629a6c5cf039294880685a9239a694a32f6b5a0f5e32198
   1.2.8--py312hf731ba3_1: sha256:26a2483c0d13aab8f055479b3fc869eb8ac0f0822fb84c50f7b600695202421d
   1.2.9--py312hf731ba3_0: sha256:293c0ddb16558d727e2c2f6c94d50ca6636a72a3f39489be7eb95db02355b38a
+  1.3.1--py310h184ae93_1: sha256:f2cddc28387fa4bdcb89abe5b66e48ecd6f5dad5e13e96303853cb74247d98e2
 docker: quay.io/biocontainers/skder
 aliases:
   gimme_taxa.py: /usr/local/bin/gimme_taxa.py

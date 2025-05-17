@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pbstarphase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pbstarphase
 latest:
-  1.3.2--h9ee0642_0: sha256:93935bbcc3dd8f461e4d81b461f47d4bc4430a1e18b9b4d55e6065ca4801af62
+  1.4.0--h9ee0642_0: sha256:49b4bf43a8268b77c9e9bb80fe8db01357719f93798f9d80b66c838e63839693
 tags:
   0.7.3--h9ee0642_0: sha256:37a9f7c48cc4fd17cef5f5ca8f11d3dac57c903f77cc0da423299c144e61dae9
   0.8.1--h9ee0642_0: sha256:4f0c93013ea154357a42104d8e75d5c75bae7efd7ad6a65b2d82d7707abd4047
@@ -21,6 +21,7 @@ tags:
   1.2.0--h9ee0642_0: sha256:2ffd984e7bfa983a2e0754299cabf651178cd2f0ddd483b7adbd08edc7f936c6
   1.3.1--h9ee0642_0: sha256:b4dbd54bcd4d34211f8a4605c1bca54a70065a091085011a1791b70fd7420c7d
   1.3.2--h9ee0642_0: sha256:93935bbcc3dd8f461e4d81b461f47d4bc4430a1e18b9b4d55e6065ca4801af62
+  1.4.0--h9ee0642_0: sha256:49b4bf43a8268b77c9e9bb80fe8db01357719f93798f9d80b66c838e63839693
 docker: quay.io/biocontainers/pbstarphase
 aliases:
   pbstarphase: /usr/local/bin/pbstarphase
