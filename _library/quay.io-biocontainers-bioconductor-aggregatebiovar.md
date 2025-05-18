@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aggregatebiovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aggregatebiovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aggregatebiovar/container.yaml"
-updated_at: "2025-05-17 03:58:00.904756"
+updated_at: "2025-05-18 04:07:54.665372"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aggregatebiovar"
 

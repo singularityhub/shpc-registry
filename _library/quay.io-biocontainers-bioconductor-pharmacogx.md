@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pharmacogx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pharmacogx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pharmacogx/container.yaml"
-updated_at: "2025-05-17 03:21:43.503238"
+updated_at: "2025-05-18 03:31:40.978328"
 latest: "3.10.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pharmacogx"
 

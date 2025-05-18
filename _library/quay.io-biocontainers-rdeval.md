@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rdeval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdeval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdeval/container.yaml"
-updated_at: "2025-05-17 03:43:55.223044"
-latest: "0.0.5--h35c04b2_0"
+updated_at: "2025-05-18 03:53:55.513423"
+latest: "0.0.7--r44h35c04b2_1"
 container_url: "https://biocontainers.pro/tools/rdeval"
 aliases:
  - "rdeval"
@@ -13,8 +13,9 @@ versions:
  - "0.0.2--hdcf5f25_1"
  - "0.0.4--h35c04b2_0"
  - "0.0.5--h35c04b2_0"
+ - "0.0.7--r44h35c04b2_1"
 description: "singularity registry hpc automated addition for rdeval"
-config: {"url": "https://biocontainers.pro/tools/rdeval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdeval", "latest": {"0.0.5--h35c04b2_0": "sha256:51782ae6867e69707bacb7d1b37094f969e6adf46507d9de7a03bf52c3a67eb7"}, "tags": {"0.0.2--hdcf5f25_1": "sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24", "0.0.4--h35c04b2_0": "sha256:0870bbd69e1bca9b639a679077685bf7bb412d545580248ccf290896224038d8", "0.0.5--h35c04b2_0": "sha256:51782ae6867e69707bacb7d1b37094f969e6adf46507d9de7a03bf52c3a67eb7"}, "docker": "quay.io/biocontainers/rdeval", "aliases": {"rdeval": "/usr/local/bin/rdeval"}}
+config: {"url": "https://biocontainers.pro/tools/rdeval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rdeval", "latest": {"0.0.7--r44h35c04b2_1": "sha256:af5e8b890270c37b0d437e883b81bc682dfac4672fb3230efc2fe5ec81136f99"}, "tags": {"0.0.2--hdcf5f25_1": "sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24", "0.0.4--h35c04b2_0": "sha256:0870bbd69e1bca9b639a679077685bf7bb412d545580248ccf290896224038d8", "0.0.5--h35c04b2_0": "sha256:51782ae6867e69707bacb7d1b37094f969e6adf46507d9de7a03bf52c3a67eb7", "0.0.7--r44h35c04b2_1": "sha256:af5e8b890270c37b0d437e883b81bc682dfac4672fb3230efc2fe5ec81136f99"}, "docker": "quay.io/biocontainers/rdeval", "aliases": {"rdeval": "/usr/local/bin/rdeval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdeval.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/rdeval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rdeval:0.0.5--h35c04b2_0
+$ shpc install quay.io/biocontainers/rdeval:0.0.7--r44h35c04b2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rdeval/0.0.5--h35c04b2_0
-$ module help quay.io/biocontainers/rdeval/0.0.5--h35c04b2_0
+$ module load quay.io/biocontainers/rdeval/0.0.7--r44h35c04b2_1
+$ module help quay.io/biocontainers/rdeval/0.0.7--r44h35c04b2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

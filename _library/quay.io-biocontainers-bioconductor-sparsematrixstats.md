@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sparsematrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
-updated_at: "2025-05-17 03:45:53.759772"
-latest: "1.18.0--r44he5774e6_0"
+updated_at: "2025-05-18 03:55:53.964968"
+latest: "1.18.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsematrixstats"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "1.14.0--r43hf17093f_0"
  - "1.14.0--r43hf17093f_1"
  - "1.18.0--r44he5774e6_0"
+ - "1.18.0--r44he5774e6_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsematrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats", "latest": {"1.18.0--r44he5774e6_0": "sha256:178bbbb998c41a5113da49a541dc8b70a8669e448e63fa459d3f48f409765e1f"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431", "1.10.0--r42hc247a5b_0": "sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818", "1.10.0--r42hf17093f_1": "sha256:41cbe2dc321f4be2925ab4677c087992a7d2c3f86068325c56dec1b5a3fb77f6", "1.12.2--r43hf17093f_0": "sha256:fe7a9933e883ac162244bd9911217125ed5b5b0a2012259ff865c67790b4b4be", "1.14.0--r43hf17093f_0": "sha256:0fd0ec2c4508567a228783f3578fb3d19ebe594bd97cb91520053bebe1dc747f", "1.14.0--r43hf17093f_1": "sha256:e62a3213b5e88f3d8399482183cff05e55fb0f2958d3e8305ec8c68594383a5f", "1.18.0--r44he5774e6_0": "sha256:178bbbb998c41a5113da49a541dc8b70a8669e448e63fa459d3f48f409765e1f"}, "docker": "quay.io/biocontainers/bioconductor-sparsematrixstats"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsematrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats", "latest": {"1.18.0--r44he5774e6_1": "sha256:0fe610ef21c7ed22c464caee2de7349f5a0574f72a185db5f22da743725f1066"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431", "1.10.0--r42hc247a5b_0": "sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818", "1.10.0--r42hf17093f_1": "sha256:41cbe2dc321f4be2925ab4677c087992a7d2c3f86068325c56dec1b5a3fb77f6", "1.12.2--r43hf17093f_0": "sha256:fe7a9933e883ac162244bd9911217125ed5b5b0a2012259ff865c67790b4b4be", "1.14.0--r43hf17093f_0": "sha256:0fd0ec2c4508567a228783f3578fb3d19ebe594bd97cb91520053bebe1dc747f", "1.14.0--r43hf17093f_1": "sha256:e62a3213b5e88f3d8399482183cff05e55fb0f2958d3e8305ec8c68594383a5f", "1.18.0--r44he5774e6_0": "sha256:178bbbb998c41a5113da49a541dc8b70a8669e448e63fa459d3f48f409765e1f", "1.18.0--r44he5774e6_1": "sha256:0fe610ef21c7ed22c464caee2de7349f5a0574f72a185db5f22da743725f1066"}, "docker": "quay.io/biocontainers/bioconductor-sparsematrixstats"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsematrixstats.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats:1.18.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats:1.18.0--r44he5774e6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsematrixstats/1.18.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-sparsematrixstats/1.18.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-sparsematrixstats/1.18.0--r44he5774e6_1
+$ module help quay.io/biocontainers/bioconductor-sparsematrixstats/1.18.0--r44he5774e6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
