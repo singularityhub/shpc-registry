@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/vcftools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcftools
 latest:
-  0.1.16--pl5321h077b44d_12: sha256:66612f4531210d76a81bec305b837a02401622f1bebeaf76597c6e388ddcf5e5
+  0.1.17--pl5321h077b44d_0: sha256:a6ef07658eb0f678ded605d7108700bbf15381a877f8effa88b15b80d9de0f03
 tags:
   0.1.15--he941832_2: sha256:cf8d53415e0011bc4f44b5eb04b15607f3a738cbe5a49379ac28d9a2bbd23948
   0.1.16--pl5321hd03093a_7: sha256:bd6df7b77ae7b49710f58e536edc6672989a951d1dda8f7fbc01be6f02243a5b
@@ -10,6 +10,7 @@ tags:
   0.1.16--pl5321hdcf5f25_10: sha256:85d85bbc4219564d4ea59ee6c48c20d651b6b8971383775ae53fe6eac61fd361
   0.1.16--pl5321hdcf5f25_11: sha256:40c31b7fb63f53a12c249bef59cee8044969f885918f857da4e9ae0cd43f94ae
   0.1.16--pl5321h077b44d_12: sha256:66612f4531210d76a81bec305b837a02401622f1bebeaf76597c6e388ddcf5e5
+  0.1.17--pl5321h077b44d_0: sha256:a6ef07658eb0f678ded605d7108700bbf15381a877f8effa88b15b80d9de0f03
 docker: quay.io/biocontainers/vcftools
 aliases:
   vcftools: /usr/local/bin/vcftools

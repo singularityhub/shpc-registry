@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bubblegun
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bubblegun
 latest:
-  1.1.9--pyhdfd78af_0: sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2
+  1.1.10--pyhdfd78af_0: sha256:76b4bb42d54fd8fe1de74e1a3b2489798c7599e922817d8562633f40d68c685a
 tags:
   1.1.9--pyhdfd78af_0: sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2
+  1.1.10--pyhdfd78af_0: sha256:76b4bb42d54fd8fe1de74e1a3b2489798c7599e922817d8562633f40d68c685a
 docker: quay.io/biocontainers/bubblegun
 aliases:
   BubbleGun: /usr/local/bin/BubbleGun

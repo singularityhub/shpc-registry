@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/snakemake-executor-plugin-kubernetes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-executor-plugin-kubernetes
 latest:
-  0.4.0--pyhdfd78af_0: sha256:73972a306ee330d4b1349a9ed0a38f063223b122157836c9565d33f8880d5276
+  0.4.1--pyhdfd78af_0: sha256:fe9f1a8a89d562495964a04dbc2dbfc9c68043836120ef70806724ddeca363ca
 tags:
   0.1.4--pyhdfd78af_0: sha256:6aab8d09f4e04e77cbac75eca157ebe0892bf18579fe6fa5307fdba96a93967c
   0.1.5--pyhdfd78af_0: sha256:3a4d25d89cf7136112c973dcb6cb8e2adfe36a1d614ddd3dcdf08659b81daeb7
@@ -12,6 +12,7 @@ tags:
   0.3.0--pyhdfd78af_0: sha256:fab6d58db88c1182b4a0018514cc5b9bacb2d6f63a107fec6d0c2800d06db1fb
   0.3.2--pyhdfd78af_0: sha256:951c9ed1ba578c7cc61103c02d09743ba1f7cb3bc807dd7c7e81e6b000f98ed4
   0.4.0--pyhdfd78af_0: sha256:73972a306ee330d4b1349a9ed0a38f063223b122157836c9565d33f8880d5276
+  0.4.1--pyhdfd78af_0: sha256:fe9f1a8a89d562495964a04dbc2dbfc9c68043836120ef70806724ddeca363ca
 docker: quay.io/biocontainers/snakemake-executor-plugin-kubernetes
 aliases:
   wsdump: /usr/local/bin/wsdump
