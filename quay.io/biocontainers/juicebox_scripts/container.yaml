@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/juicebox_scripts
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for juicebox_scripts
+latest:
+  0.1.0gita7ae991--hdfd78af_0: sha256:0b43122e7c93d9f4ad1c14631dc52f7218a4200d13a382c27c1a68c1a3b6223a
+tags:
+  0.1.0gita7ae991--hdfd78af_0: sha256:0b43122e7c93d9f4ad1c14631dc52f7218a4200d13a382c27c1a68c1a3b6223a
+docker: quay.io/biocontainers/juicebox_scripts
+aliases:
+  agp2assembly.py: /usr/local/bin/agp2assembly.py
+  degap_assembly.py: /usr/local/bin/degap_assembly.py
+  juicebox_assembly_converter.py: /usr/local/bin/juicebox_assembly_converter.py
+  juicebox_assembly_purger.py: /usr/local/bin/juicebox_assembly_purger.py
+  makeAgpFromFasta.py: /usr/local/bin/makeAgpFromFasta.py
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/gbdraw
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gbdraw
+latest:
+  0.1.1--pyhdfd78af_0: sha256:8dc9cb7cd155088f811eea39706a5191258dea8141a93a141b2c9becdc0d5f5c
+tags:
+  0.1.1--pyhdfd78af_0: sha256:8dc9cb7cd155088f811eea39706a5191258dea8141a93a141b2c9becdc0d5f5c
+docker: quay.io/biocontainers/gbdraw
+aliases:
+  cairosvg: /usr/local/bin/cairosvg
+  gbdraw: /usr/local/bin/gbdraw
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
