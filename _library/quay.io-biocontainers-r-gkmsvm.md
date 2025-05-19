@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gkmsvm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
-updated_at: "2025-05-19 03:29:43.362299"
+updated_at: "2025-05-19 03:40:55.955374"
 latest: "0.83.0--r44h40dc89f_1"
 container_url: "https://biocontainers.pro/tools/r-gkmsvm"
 

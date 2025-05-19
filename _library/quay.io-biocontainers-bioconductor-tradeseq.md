@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tradeseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tradeseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tradeseq/container.yaml"
-updated_at: "2025-05-19 03:35:44.663477"
+updated_at: "2025-05-19 03:46:54.263398"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tradeseq"
 
