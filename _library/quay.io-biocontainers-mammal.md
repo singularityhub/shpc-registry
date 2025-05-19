@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mammal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mammal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mammal/container.yaml"
-updated_at: "2025-05-18 03:49:55.402389"
+updated_at: "2025-05-19 03:51:07.055915"
 latest: "1.1.1--h503566f_3"
 container_url: "https://biocontainers.pro/tools/mammal"
 aliases:

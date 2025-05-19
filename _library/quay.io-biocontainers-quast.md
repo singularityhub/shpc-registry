@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quast/container.yaml"
-updated_at: "2025-05-18 04:05:48.321398"
+updated_at: "2025-05-19 04:07:35.401284"
 latest: "5.3.0--py313pl5321h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/quast"
 aliases:

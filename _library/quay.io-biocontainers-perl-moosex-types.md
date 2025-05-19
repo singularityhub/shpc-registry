@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-moosex-types"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types/container.yaml"
-updated_at: "2025-05-18 03:40:31.898182"
-latest: "0.50--pl5321hdfd78af_2"
+updated_at: "2025-05-19 03:41:27.389655"
+latest: "0.51--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types"
 
 versions:
  - "0.50--pl5321hdfd78af_2"
+ - "0.51--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-moosex-types"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-types", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types", "latest": {"0.50--pl5321hdfd78af_2": "sha256:7da57031b0eb83f86efbbfbed65670a1514ee960ae6e4552fdd7c11b77e084d8"}, "tags": {"0.50--pl5321hdfd78af_2": "sha256:7da57031b0eb83f86efbbfbed65670a1514ee960ae6e4552fdd7c11b77e084d8"}, "docker": "quay.io/biocontainers/perl-moosex-types"}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-types", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types", "latest": {"0.51--pl5321hdfd78af_0": "sha256:7544177d7792751d61fb5dbac4fd06b269c1dd8fd7d365107ce41428817a15d0"}, "tags": {"0.50--pl5321hdfd78af_2": "sha256:7da57031b0eb83f86efbbfbed65670a1514ee960ae6e4552fdd7c11b77e084d8", "0.51--pl5321hdfd78af_0": "sha256:7544177d7792751d61fb5dbac4fd06b269c1dd8fd7d365107ce41428817a15d0"}, "docker": "quay.io/biocontainers/perl-moosex-types"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-types.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-moosex-types
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-moosex-types:0.50--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-moosex-types:0.51--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-moosex-types/0.50--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-moosex-types/0.50--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-moosex-types/0.51--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-moosex-types/0.51--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

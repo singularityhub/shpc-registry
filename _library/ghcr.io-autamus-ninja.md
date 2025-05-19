@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ninja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ninja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ninja/container.yaml"
-updated_at: "2025-05-18 03:19:50.732045"
+updated_at: "2025-05-19 03:20:31.743527"
 latest: "1.11.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ninja"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sr2silo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sr2silo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sr2silo/container.yaml"
-updated_at: "2025-05-18 04:07:37.914512"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2025-05-19 04:09:28.466745"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sr2silo"
 aliases:
  - "jdiff"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "0.0.4--pyhdfd78af_0"
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sr2silo"
-config: {"url": "https://biocontainers.pro/tools/sr2silo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sr2silo", "latest": {"0.1.1--pyhdfd78af_0": "sha256:6673ec6d768c4161b8fb443ccd553b4455c8013a83df301f16086b9cc190adf0"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:7fc220fe537894206e614a1d40223ca962249d41978dea86d07a15b17fb6e77b", "0.1.1--pyhdfd78af_0": "sha256:6673ec6d768c4161b8fb443ccd553b4455c8013a83df301f16086b9cc190adf0"}, "docker": "quay.io/biocontainers/sr2silo", "aliases": {"jdiff": "/usr/local/bin/jdiff", "moto_proxy": "/usr/local/bin/moto_proxy", "moto_server": "/usr/local/bin/moto_server", "openapi-spec-validator": "/usr/local/bin/openapi-spec-validator", "sr2silo": "/usr/local/bin/sr2silo", "typer": "/usr/local/bin/typer", "flask": "/usr/local/bin/flask", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/sr2silo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sr2silo", "latest": {"0.1.2--pyhdfd78af_0": "sha256:539b8a5654fe914b6cd2e03143c4ea64ace2e3cbcafbd23eca20c3752d6ed5df"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:7fc220fe537894206e614a1d40223ca962249d41978dea86d07a15b17fb6e77b", "0.1.1--pyhdfd78af_0": "sha256:6673ec6d768c4161b8fb443ccd553b4455c8013a83df301f16086b9cc190adf0", "0.1.2--pyhdfd78af_0": "sha256:539b8a5654fe914b6cd2e03143c4ea64ace2e3cbcafbd23eca20c3752d6ed5df"}, "docker": "quay.io/biocontainers/sr2silo", "aliases": {"jdiff": "/usr/local/bin/jdiff", "moto_proxy": "/usr/local/bin/moto_proxy", "moto_server": "/usr/local/bin/moto_server", "openapi-spec-validator": "/usr/local/bin/openapi-spec-validator", "sr2silo": "/usr/local/bin/sr2silo", "typer": "/usr/local/bin/typer", "flask": "/usr/local/bin/flask", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sr2silo.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/sr2silo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sr2silo:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sr2silo:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sr2silo/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/sr2silo/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/sr2silo/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/sr2silo/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

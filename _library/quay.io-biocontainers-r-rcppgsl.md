@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcppgsl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcppgsl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcppgsl/container.yaml"
-updated_at: "2025-05-18 04:00:53.763702"
+updated_at: "2025-05-19 04:02:31.608579"
 latest: "0.3.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rcppgsl"
 aliases:

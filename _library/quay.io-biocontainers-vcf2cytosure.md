@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2cytosure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2cytosure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2cytosure/container.yaml"
-updated_at: "2025-05-18 03:51:33.908457"
+updated_at: "2025-05-19 03:52:49.145741"
 latest: "0.9.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/vcf2cytosure"
 aliases:

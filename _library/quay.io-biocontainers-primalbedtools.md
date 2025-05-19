@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/primalbedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primalbedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primalbedtools/container.yaml"
-updated_at: "2025-05-18 03:52:23.526368"
-latest: "0.6.2--pyhdfd78af_0"
+updated_at: "2025-05-19 03:53:40.978561"
+latest: "0.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primalbedtools"
 aliases:
  - "primalbedtools"
@@ -15,8 +15,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "0.6.2--pyhdfd78af_0"
+ - "0.8.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for primalbedtools"
-config: {"url": "https://biocontainers.pro/tools/primalbedtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primalbedtools", "latest": {"0.6.2--pyhdfd78af_0": "sha256:47428c46e378db2f66cd4f229df511abdbb8cb2fb5c7309fee42db3bf616a730"}, "tags": {"0.6.2--pyhdfd78af_0": "sha256:47428c46e378db2f66cd4f229df511abdbb8cb2fb5c7309fee42db3bf616a730"}, "docker": "quay.io/biocontainers/primalbedtools", "aliases": {"primalbedtools": "/usr/local/bin/primalbedtools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/primalbedtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primalbedtools", "latest": {"0.8.1--pyhdfd78af_0": "sha256:053852e0433587543c5044c10804e5bbfbba1dfd2c9709837571561b5ce8bc22"}, "tags": {"0.6.2--pyhdfd78af_0": "sha256:47428c46e378db2f66cd4f229df511abdbb8cb2fb5c7309fee42db3bf616a730", "0.8.1--pyhdfd78af_0": "sha256:053852e0433587543c5044c10804e5bbfbba1dfd2c9709837571561b5ce8bc22"}, "docker": "quay.io/biocontainers/primalbedtools", "aliases": {"primalbedtools": "/usr/local/bin/primalbedtools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primalbedtools.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/primalbedtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/primalbedtools:0.6.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/primalbedtools:0.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/primalbedtools/0.6.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/primalbedtools/0.6.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/primalbedtools/0.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/primalbedtools/0.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

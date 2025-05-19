@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liana/container.yaml"
-updated_at: "2025-05-18 04:01:12.366247"
+updated_at: "2025-05-19 04:02:51.356394"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liana"
 aliases:

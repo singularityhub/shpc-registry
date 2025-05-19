@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sprai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sprai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sprai/container.yaml"
-updated_at: "2025-05-18 03:40:19.883146"
+updated_at: "2025-05-19 03:41:14.971613"
 latest: "0.9.9.23--py27pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/sprai"
 aliases:

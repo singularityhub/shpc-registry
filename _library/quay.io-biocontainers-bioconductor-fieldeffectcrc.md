@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fieldeffectcrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fieldeffectcrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fieldeffectcrc/container.yaml"
-updated_at: "2025-05-18 03:49:04.217414"
+updated_at: "2025-05-19 03:50:14.428171"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fieldeffectcrc"
 aliases:
