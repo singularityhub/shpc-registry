@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/plasmidcommunity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plasmidcommunity
 latest:
-  1.0.2--r44hdfd78af_0: sha256:2ae9baf6640eb890cad41055f412ed94940802b576b53d255ae8df268b6a6d8d
+  1.0.2--r44hdfd78af_1: sha256:acade9571d213a70c8ca5c5840e6ebcbb62ccd856e827422d7114ae9e70286e5
 tags:
   1.0.2--r44hdfd78af_0: sha256:2ae9baf6640eb890cad41055f412ed94940802b576b53d255ae8df268b6a6d8d
+  1.0.2--r44hdfd78af_1: sha256:acade9571d213a70c8ca5c5840e6ebcbb62ccd856e827422d7114ae9e70286e5
 docker: quay.io/biocontainers/plasmidcommunity
 aliases:
   PlasmidTransModel.R: /usr/local/bin/PlasmidTransModel.R

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bayescode
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bayescode
 latest:
-  1.3.3--h503566f_1: sha256:caadbdd390a2574452d31d715089bd51578c9ed8b75aba72beccdeaad9c75877
+  1.3.4--h9948957_0: sha256:eebaef4287dbf28ae917bab300745f0acd2ae9dc72a2ba9904ce3d9678e90cb4
 tags:
   1.1.6--h87f3376_0: sha256:ddd7226130607fb02749c521dc14cc61d5851bc72bd253beab380d8f820ea28f
   1.1.6--hdbdd923_2: sha256:5f0130c0c7ff73e8d27b2d77bf2d72b1c314fcebeb73e2bc5ad9d5af29384249
@@ -12,6 +12,7 @@ tags:
   1.3.2--hdbdd923_0: sha256:b5fabc33a84370920e76ff875c45775eb7a75192fbd770edeb5d61856e88ca42
   1.3.2--h503566f_1: sha256:ef1327170f4e5980c3ced52c5bf5b10dc4fe0afd89cbcf652ad9e9a068721a98
   1.3.3--h503566f_1: sha256:caadbdd390a2574452d31d715089bd51578c9ed8b75aba72beccdeaad9c75877
+  1.3.4--h9948957_0: sha256:eebaef4287dbf28ae917bab300745f0acd2ae9dc72a2ba9904ce3d9678e90cb4
 docker: quay.io/biocontainers/bayescode
 aliases:
   attr: /usr/local/bin/attr
