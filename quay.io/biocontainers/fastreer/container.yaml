@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/fastreer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastreer
+latest:
+  1.13.30--pyhdfd78af_0: sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31
+tags:
+  1.13.30--pyhdfd78af_0: sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31
+docker: quay.io/biocontainers/fastreer
+aliases:
+  fastreeR: /usr/local/bin/fastreeR
+  jwebserver: /usr/local/bin/jwebserver
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  hb-info: /usr/local/bin/hb-info
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
