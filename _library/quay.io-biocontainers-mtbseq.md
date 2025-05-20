@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mtbseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtbseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtbseq/container.yaml"
-updated_at: "2025-05-19 04:13:55.183417"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2025-05-20 03:56:38.095855"
+latest: "1.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mtbseq"
 aliases:
  - "GenomeAnalysisTK"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.0.4--hdfd78af_2"
  - "1.1.0--hdfd78af_0"
+ - "1.1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for mtbseq"
-config: {"url": "https://biocontainers.pro/tools/mtbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtbseq", "latest": {"1.1.0--hdfd78af_0": "sha256:c8fa7c7d24d007574cc88532ea0a8d028528a9d25682aebb2e73abfe7a2f36db"}, "tags": {"1.0.4--hdfd78af_2": "sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948", "1.1.0--hdfd78af_0": "sha256:c8fa7c7d24d007574cc88532ea0a8d028528a9d25682aebb2e73abfe7a2f36db"}, "docker": "quay.io/biocontainers/mtbseq", "aliases": {"GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "MTBseq": "/usr/local/bin/MTBseq", "gatk3": "/usr/local/bin/gatk3", "picard": "/usr/local/bin/picard", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
+config: {"url": "https://biocontainers.pro/tools/mtbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtbseq", "latest": {"1.1.0--hdfd78af_1": "sha256:696f26d00302c5c4337b0ad23c0162eb2a4466e67d7a49a0d6696e7052f3f419"}, "tags": {"1.0.4--hdfd78af_2": "sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948", "1.1.0--hdfd78af_0": "sha256:c8fa7c7d24d007574cc88532ea0a8d028528a9d25682aebb2e73abfe7a2f36db", "1.1.0--hdfd78af_1": "sha256:696f26d00302c5c4337b0ad23c0162eb2a4466e67d7a49a0d6696e7052f3f419"}, "docker": "quay.io/biocontainers/mtbseq", "aliases": {"GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "MTBseq": "/usr/local/bin/MTBseq", "gatk3": "/usr/local/bin/gatk3", "picard": "/usr/local/bin/picard", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mtbseq.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/mtbseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mtbseq:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mtbseq:1.1.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mtbseq/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/mtbseq/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/mtbseq/1.1.0--hdfd78af_1
+$ module help quay.io/biocontainers/mtbseq/1.1.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

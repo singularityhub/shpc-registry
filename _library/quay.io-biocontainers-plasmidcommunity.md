@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plasmidcommunity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidcommunity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidcommunity/container.yaml"
-updated_at: "2025-05-19 04:06:02.340753"
-latest: "1.0.2--r44hdfd78af_0"
+updated_at: "2025-05-20 03:48:41.935965"
+latest: "1.0.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plasmidcommunity"
 aliases:
  - "PlasmidTransModel.R"
@@ -62,8 +62,9 @@ aliases:
  - "isosize"
 versions:
  - "1.0.2--r44hdfd78af_0"
+ - "1.0.2--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for plasmidcommunity"
-config: {"url": "https://biocontainers.pro/tools/plasmidcommunity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasmidcommunity", "latest": {"1.0.2--r44hdfd78af_0": "sha256:2ae9baf6640eb890cad41055f412ed94940802b576b53d255ae8df268b6a6d8d"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:2ae9baf6640eb890cad41055f412ed94940802b576b53d255ae8df268b6a6d8d"}, "docker": "quay.io/biocontainers/plasmidcommunity", "aliases": {"PlasmidTransModel.R": "/usr/local/bin/PlasmidTransModel.R", "PlasmidTransModel.sh": "/usr/local/bin/PlasmidTransModel.sh", "assignCommunity.R": "/usr/local/bin/assignCommunity.R", "assignCommunity.sh": "/usr/local/bin/assignCommunity.sh", "enosys": "/usr/local/bin/enosys", "exch": "/usr/local/bin/exch", "fadvise": "/usr/local/bin/fadvise", "getCommunity.R": "/usr/local/bin/getCommunity.R", "getCommunity.sh": "/usr/local/bin/getCommunity.sh", "heatmap.full.genome.pipeline.R": "/usr/local/bin/heatmap.full.genome.pipeline.R", "irqtop": "/usr/local/bin/irqtop", "lastlog2": "/usr/local/bin/lastlog2", "lsclocks": "/usr/local/bin/lsclocks", "lsfd": "/usr/local/bin/lsfd", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "pan.R": "/usr/local/bin/pan.R", "pan.sh": "/usr/local/bin/pan.sh", "pipesz": "/usr/local/bin/pipesz", "plasmidCommunity.R": "/usr/local/bin/plasmidCommunity.R", "plasmidCommunity.sh": "/usr/local/bin/plasmidCommunity.sh", "prlimit": "/usr/local/bin/prlimit", "setpgid": "/usr/local/bin/setpgid", "silhouetteCurve.R": "/usr/local/bin/silhouetteCurve.R", "silhouetteCurve.sh": "/usr/local/bin/silhouetteCurve.sh", "subNetwork.R": "/usr/local/bin/subNetwork.R", "uclampset": "/usr/local/bin/uclampset", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject", "fallocate": "/usr/local/bin/fallocate", "fincore": "/usr/local/bin/fincore", "findmnt": "/usr/local/bin/findmnt", "getopt": "/usr/local/bin/getopt", "hardlink": "/usr/local/bin/hardlink", "hexdump": "/usr/local/bin/hexdump", "i386": "/usr/local/bin/i386", "ionice": "/usr/local/bin/ionice", "ipcmk": "/usr/local/bin/ipcmk", "ipcrm": "/usr/local/bin/ipcrm", "ipcs": "/usr/local/bin/ipcs", "isosize": "/usr/local/bin/isosize"}}
+config: {"url": "https://biocontainers.pro/tools/plasmidcommunity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasmidcommunity", "latest": {"1.0.2--r44hdfd78af_1": "sha256:acade9571d213a70c8ca5c5840e6ebcbb62ccd856e827422d7114ae9e70286e5"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:2ae9baf6640eb890cad41055f412ed94940802b576b53d255ae8df268b6a6d8d", "1.0.2--r44hdfd78af_1": "sha256:acade9571d213a70c8ca5c5840e6ebcbb62ccd856e827422d7114ae9e70286e5"}, "docker": "quay.io/biocontainers/plasmidcommunity", "aliases": {"PlasmidTransModel.R": "/usr/local/bin/PlasmidTransModel.R", "PlasmidTransModel.sh": "/usr/local/bin/PlasmidTransModel.sh", "assignCommunity.R": "/usr/local/bin/assignCommunity.R", "assignCommunity.sh": "/usr/local/bin/assignCommunity.sh", "enosys": "/usr/local/bin/enosys", "exch": "/usr/local/bin/exch", "fadvise": "/usr/local/bin/fadvise", "getCommunity.R": "/usr/local/bin/getCommunity.R", "getCommunity.sh": "/usr/local/bin/getCommunity.sh", "heatmap.full.genome.pipeline.R": "/usr/local/bin/heatmap.full.genome.pipeline.R", "irqtop": "/usr/local/bin/irqtop", "lastlog2": "/usr/local/bin/lastlog2", "lsclocks": "/usr/local/bin/lsclocks", "lsfd": "/usr/local/bin/lsfd", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "pan.R": "/usr/local/bin/pan.R", "pan.sh": "/usr/local/bin/pan.sh", "pipesz": "/usr/local/bin/pipesz", "plasmidCommunity.R": "/usr/local/bin/plasmidCommunity.R", "plasmidCommunity.sh": "/usr/local/bin/plasmidCommunity.sh", "prlimit": "/usr/local/bin/prlimit", "setpgid": "/usr/local/bin/setpgid", "silhouetteCurve.R": "/usr/local/bin/silhouetteCurve.R", "silhouetteCurve.sh": "/usr/local/bin/silhouetteCurve.sh", "subNetwork.R": "/usr/local/bin/subNetwork.R", "uclampset": "/usr/local/bin/uclampset", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject", "fallocate": "/usr/local/bin/fallocate", "fincore": "/usr/local/bin/fincore", "findmnt": "/usr/local/bin/findmnt", "getopt": "/usr/local/bin/getopt", "hardlink": "/usr/local/bin/hardlink", "hexdump": "/usr/local/bin/hexdump", "i386": "/usr/local/bin/i386", "ionice": "/usr/local/bin/ionice", "ipcmk": "/usr/local/bin/ipcmk", "ipcrm": "/usr/local/bin/ipcrm", "ipcs": "/usr/local/bin/ipcs", "isosize": "/usr/local/bin/isosize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmidcommunity.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/plasmidcommunity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plasmidcommunity:1.0.2--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/plasmidcommunity:1.0.2--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plasmidcommunity/1.0.2--r44hdfd78af_0
-$ module help quay.io/biocontainers/plasmidcommunity/1.0.2--r44hdfd78af_0
+$ module load quay.io/biocontainers/plasmidcommunity/1.0.2--r44hdfd78af_1
+$ module help quay.io/biocontainers/plasmidcommunity/1.0.2--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

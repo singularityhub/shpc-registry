@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snow/container.yaml"
-updated_at: "2025-05-19 03:56:31.637796"
+updated_at: "2025-05-20 03:39:10.728799"
 latest: "0.4_1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-snow"
 aliases:
