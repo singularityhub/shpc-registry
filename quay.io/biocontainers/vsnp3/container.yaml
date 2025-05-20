@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/vsnp3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vsnp3
 latest:
-  3.28--hdfd78af_0: sha256:f738cca80a8a76e2e5bb3879cff7166939d3d64631c276079b0d22062365582d
+  3.29--hdfd78af_0: sha256:d6ee6220cb71d20a1fc399ebb1f8b6d999ed96e0b2c091d28935fa9cc59d0d74
 tags:
   3.11--hdfd78af_0: sha256:46565b1b5a04d8be44ec45e4b3091a11aee21de88b95630316c829d0278d26ce
   3.14--hdfd78af_0: sha256:402193885485ca03cac344708670c4a49b485d523499806897f8a2059e050bb0
@@ -22,6 +22,7 @@ tags:
   3.26--hdfd78af_0: sha256:6173c7865f74c77634676dee7869f202fabc4453a03444614889a3d5a2055f1d
   3.28--hdfd78af_0: sha256:f738cca80a8a76e2e5bb3879cff7166939d3d64631c276079b0d22062365582d
   3.27--hdfd78af_0: sha256:84086e55b18c8238dcc8734fa9b429a8db777abf37d5d3e560e57592f99ef867
+  3.29--hdfd78af_0: sha256:d6ee6220cb71d20a1fc399ebb1f8b6d999ed96e0b2c091d28935fa9cc59d0d74
 docker: quay.io/biocontainers/vsnp3
 aliases:
   cairosvg: /usr/local/bin/cairosvg

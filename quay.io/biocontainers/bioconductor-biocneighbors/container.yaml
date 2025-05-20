@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-biocneighbors
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocneighbors
 latest:
-  2.0.0--r44he5774e6_0: sha256:b3325b28475e1c3fefea4efbf11b77f680f7fe4641ae866dc76fdf3450c9f570
+  2.0.0--r44he5774e6_1: sha256:180f00ad5bae71dff9346caf557182f2051e39ec12be7dd24a2417b9e0cd67bd
 tags:
   1.8.2--r40h399db7b_0: sha256:d3e81972b2b3d74b4c292e52d535bd08a40a48f61eb3ff64391ec50d79a6a265
   1.16.0--r42hc247a5b_0: sha256:4583e2dec513d165cc21f2ff476096305c9e8dbee77dc51ce3bebcabe5ad71c0
@@ -13,6 +13,7 @@ tags:
   1.20.0--r43hf17093f_0: sha256:ce532e03757443b32bc73cc18e289318f8ee2685c7daeee0c7dd6414d721e996
   1.20.0--r43hf17093f_1: sha256:262f74a963dc75f3518b69a926ef6cc6f9c84cbabbf486beaa1212f935197829
   2.0.0--r44he5774e6_0: sha256:b3325b28475e1c3fefea4efbf11b77f680f7fe4641ae866dc76fdf3450c9f570
+  2.0.0--r44he5774e6_1: sha256:180f00ad5bae71dff9346caf557182f2051e39ec12be7dd24a2417b9e0cd67bd
 docker: quay.io/biocontainers/bioconductor-biocneighbors
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

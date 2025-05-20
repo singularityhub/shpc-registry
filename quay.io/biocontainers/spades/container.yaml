@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/spades
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spades
 latest:
-  4.1.0--haf24da9_0: sha256:8665f3f861883a1a4d712aa69d7f75e083a936d05c7fda9fed203437f3aa2d1a
+  4.2.0--h8d6e82b_1: sha256:1ea4b6af674cd6fdc78df23d96d176781fb407fddf9cd6c0f2ebce3b5888b1ee
 tags:
   3.15.4--h95f258a_0: sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1
   3.15.5--h95f258a_1: sha256:ce6565d2e86ca1a0baacca9888837c246ec1cab0f2821ed3ba40acc6e0dd5d0e
@@ -11,6 +11,7 @@ tags:
   4.0.0--h6dccd9a_3: sha256:aa0d1b64664833c94201b8659fc3b4d91ddf8f48c7fc2ea88488d4edc27bfad0
   4.0.0--haf24da9_4: sha256:28e2e42eb6fc4456462da830868332650b4b821554f037e348553079086ae1d5
   4.1.0--haf24da9_0: sha256:8665f3f861883a1a4d712aa69d7f75e083a936d05c7fda9fed203437f3aa2d1a
+  4.2.0--h8d6e82b_1: sha256:1ea4b6af674cd6fdc78df23d96d176781fb407fddf9cd6c0f2ebce3b5888b1ee
 docker: quay.io/biocontainers/spades
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5
