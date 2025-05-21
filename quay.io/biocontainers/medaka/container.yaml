@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/medaka
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for medaka
 latest:
-  2.0.1--py38h8774169_0: sha256:ddd58ae50f9c77db7c62b72a8cafc3d6284b3596bc05715897e7bc1c9bb1fcc7
+  2.0.1--py38ha0c3a46_2: sha256:14cbff6fd058912cb79784e5e17e336e4643e6163b66330f27d786c7ed1e22bf
 tags:
   1.2.2--py36hbcc4abb_0: sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8
   1.11.3--py39h05d5c5e_0: sha256:ac4af46fe8046c60f78f72aad077e445319d1b8b985288e9460ae5fbe846c326
@@ -12,6 +12,7 @@ tags:
   1.6.1--py38h84d2cc8_2: sha256:6d250f5507e74b0b613ecf16949df43b609b00f0ce5b458cf4ff2890b2870c8b
   2.0.0--py311hfd2b166_0: sha256:8d2a21ca0f28b18187f690995bc8bc58394495515b31d843613644570da8903a
   2.0.1--py38h8774169_0: sha256:ddd58ae50f9c77db7c62b72a8cafc3d6284b3596bc05715897e7bc1c9bb1fcc7
+  2.0.1--py38ha0c3a46_2: sha256:14cbff6fd058912cb79784e5e17e336e4643e6163b66330f27d786c7ed1e22bf
 docker: quay.io/biocontainers/medaka
 aliases:
   check_compression: /usr/local/bin/check_compression
