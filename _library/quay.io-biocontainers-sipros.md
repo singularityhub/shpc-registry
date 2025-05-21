@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sipros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sipros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sipros/container.yaml"
-updated_at: "2025-05-20 03:28:26.920136"
-latest: "4.01--hdfd78af_0"
+updated_at: "2025-05-21 03:28:34.435951"
+latest: "4.02--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sipros"
 aliases:
  - "EnsembleScripts_sipros_ensemble_filtering"
@@ -54,8 +54,9 @@ aliases:
  - "ikdasm"
 versions:
  - "4.01--hdfd78af_0"
+ - "4.02--hdfd78af_1"
 description: "singularity registry hpc automated addition for sipros"
-config: {"url": "https://biocontainers.pro/tools/sipros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sipros", "latest": {"4.01--hdfd78af_0": "sha256:9fa6d9d642eba6a678b76774a2b47e10426201fc06b3a0dfabf893702f88b831"}, "tags": {"4.01--hdfd78af_0": "sha256:9fa6d9d642eba6a678b76774a2b47e10426201fc06b3a0dfabf893702f88b831"}, "docker": "quay.io/biocontainers/sipros", "aliases": {"EnsembleScripts_sipros_ensemble_filtering": "/usr/local/bin/EnsembleScripts_sipros_ensemble_filtering", "EnsembleScripts_sipros_peptides_assembling": "/usr/local/bin/EnsembleScripts_sipros_peptides_assembling", "EnsembleScripts_sipros_prepare_protein_database": "/usr/local/bin/EnsembleScripts_sipros_prepare_protein_database", "EnsembleScripts_sipros_psm_tabulating": "/usr/local/bin/EnsembleScripts_sipros_psm_tabulating", "Raxport": "/usr/local/bin/Raxport", "Raxport.exe": "/usr/local/bin/Raxport.exe", "SiprosEnsembleOMP": "/usr/local/bin/SiprosEnsembleOMP", "SiprosV4OMP": "/usr/local/bin/SiprosV4OMP", "V4Scripts_ClusterSip": "/usr/local/bin/V4Scripts_ClusterSip", "V4Scripts_getLabelPCTinEachFT": "/usr/local/bin/V4Scripts_getLabelPCTinEachFT", "V4Scripts_getSpectraCountInEachFT": "/usr/local/bin/V4Scripts_getSpectraCountInEachFT", "V4Scripts_makeDBforLabelSearch": "/usr/local/bin/V4Scripts_makeDBforLabelSearch", "V4Scripts_refineProteinFDR": "/usr/local/bin/V4Scripts_refineProteinFDR", "V4Scripts_sipros_peptides_assembling": "/usr/local/bin/V4Scripts_sipros_peptides_assembling", "V4Scripts_sipros_peptides_filtering": "/usr/local/bin/V4Scripts_sipros_peptides_filtering", "aprofutil": "/usr/local/bin/aprofutil", "configGenerator": "/usr/local/bin/configGenerator", "copyConfigTemplate": "/usr/local/bin/copyConfigTemplate", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
+config: {"url": "https://biocontainers.pro/tools/sipros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sipros", "latest": {"4.02--hdfd78af_1": "sha256:65e08cd356d0f6310e9ce027c768bd4b829424f2be23f4878f56d836e612b4fe"}, "tags": {"4.01--hdfd78af_0": "sha256:9fa6d9d642eba6a678b76774a2b47e10426201fc06b3a0dfabf893702f88b831", "4.02--hdfd78af_1": "sha256:65e08cd356d0f6310e9ce027c768bd4b829424f2be23f4878f56d836e612b4fe"}, "docker": "quay.io/biocontainers/sipros", "aliases": {"EnsembleScripts_sipros_ensemble_filtering": "/usr/local/bin/EnsembleScripts_sipros_ensemble_filtering", "EnsembleScripts_sipros_peptides_assembling": "/usr/local/bin/EnsembleScripts_sipros_peptides_assembling", "EnsembleScripts_sipros_prepare_protein_database": "/usr/local/bin/EnsembleScripts_sipros_prepare_protein_database", "EnsembleScripts_sipros_psm_tabulating": "/usr/local/bin/EnsembleScripts_sipros_psm_tabulating", "Raxport": "/usr/local/bin/Raxport", "Raxport.exe": "/usr/local/bin/Raxport.exe", "SiprosEnsembleOMP": "/usr/local/bin/SiprosEnsembleOMP", "SiprosV4OMP": "/usr/local/bin/SiprosV4OMP", "V4Scripts_ClusterSip": "/usr/local/bin/V4Scripts_ClusterSip", "V4Scripts_getLabelPCTinEachFT": "/usr/local/bin/V4Scripts_getLabelPCTinEachFT", "V4Scripts_getSpectraCountInEachFT": "/usr/local/bin/V4Scripts_getSpectraCountInEachFT", "V4Scripts_makeDBforLabelSearch": "/usr/local/bin/V4Scripts_makeDBforLabelSearch", "V4Scripts_refineProteinFDR": "/usr/local/bin/V4Scripts_refineProteinFDR", "V4Scripts_sipros_peptides_assembling": "/usr/local/bin/V4Scripts_sipros_peptides_assembling", "V4Scripts_sipros_peptides_filtering": "/usr/local/bin/V4Scripts_sipros_peptides_filtering", "aprofutil": "/usr/local/bin/aprofutil", "configGenerator": "/usr/local/bin/configGenerator", "copyConfigTemplate": "/usr/local/bin/copyConfigTemplate", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sipros.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/sipros
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sipros:4.01--hdfd78af_0
+$ shpc install quay.io/biocontainers/sipros:4.02--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sipros/4.01--hdfd78af_0
-$ module help quay.io/biocontainers/sipros/4.01--hdfd78af_0
+$ module load quay.io/biocontainers/sipros/4.02--hdfd78af_1
+$ module help quay.io/biocontainers/sipros/4.02--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

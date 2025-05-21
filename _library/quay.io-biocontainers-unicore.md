@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unicore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unicore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unicore/container.yaml"
-updated_at: "2025-05-20 03:55:17.386819"
-latest: "1.1.0--h7ef3eeb_0"
+updated_at: "2025-05-21 03:56:11.562762"
+latest: "1.1.1--h7ef3eeb_0"
 container_url: "https://biocontainers.pro/tools/unicore"
 aliases:
  - "checksum-profile"
@@ -53,8 +53,9 @@ versions:
  - "1.0.1--h7ef3eeb_0"
  - "1.0.2--h7ef3eeb_0"
  - "1.1.0--h7ef3eeb_0"
+ - "1.1.1--h7ef3eeb_0"
 description: "singularity registry hpc automated addition for unicore"
-config: {"url": "https://biocontainers.pro/tools/unicore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unicore", "latest": {"1.1.0--h7ef3eeb_0": "sha256:e960167c0f60983c316ccd5831febb67401ff7f35039a52c42ea88aa064db866"}, "tags": {"1.0.1--h7ef3eeb_0": "sha256:ebf035d6f930214a1fda9d8f3580ba192f0a0e0f69305f4421660e08b42b0ca3", "1.0.2--h7ef3eeb_0": "sha256:066a697bbd949df9766a10565f05b57955ec8d6754a05f12b11add7d4e6c7e04", "1.1.0--h7ef3eeb_0": "sha256:e960167c0f60983c316ccd5831febb67401ff7f35039a52c42ea88aa064db866"}, "docker": "quay.io/biocontainers/unicore", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "datasets-cli": "/usr/local/bin/datasets-cli", "elastishadow": "/usr/local/bin/elastishadow", "foldmason": "/usr/local/bin/foldmason", "foldseek": "/usr/local/bin/foldseek", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "torchfrtrace": "/usr/local/bin/torchfrtrace", "transformers-cli": "/usr/local/bin/transformers-cli", "unicore": "/usr/local/bin/unicore", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "get_gprof": "/usr/local/bin/get_gprof", "iqtree2": "/usr/local/bin/iqtree2", "aria2c": "/usr/local/bin/aria2c", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "gawkbug": "/usr/local/bin/gawkbug", "xxhsum": "/usr/local/bin/xxhsum", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary"}}
+config: {"url": "https://biocontainers.pro/tools/unicore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unicore", "latest": {"1.1.1--h7ef3eeb_0": "sha256:b1a8b6a0864d09a5b2e33945aea0a816d06f2dbedc05878f3efe58760a18e75d"}, "tags": {"1.0.1--h7ef3eeb_0": "sha256:ebf035d6f930214a1fda9d8f3580ba192f0a0e0f69305f4421660e08b42b0ca3", "1.0.2--h7ef3eeb_0": "sha256:066a697bbd949df9766a10565f05b57955ec8d6754a05f12b11add7d4e6c7e04", "1.1.0--h7ef3eeb_0": "sha256:e960167c0f60983c316ccd5831febb67401ff7f35039a52c42ea88aa064db866", "1.1.1--h7ef3eeb_0": "sha256:b1a8b6a0864d09a5b2e33945aea0a816d06f2dbedc05878f3efe58760a18e75d"}, "docker": "quay.io/biocontainers/unicore", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "datasets-cli": "/usr/local/bin/datasets-cli", "elastishadow": "/usr/local/bin/elastishadow", "foldmason": "/usr/local/bin/foldmason", "foldseek": "/usr/local/bin/foldseek", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "torchfrtrace": "/usr/local/bin/torchfrtrace", "transformers-cli": "/usr/local/bin/transformers-cli", "unicore": "/usr/local/bin/unicore", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "get_gprof": "/usr/local/bin/get_gprof", "iqtree2": "/usr/local/bin/iqtree2", "aria2c": "/usr/local/bin/aria2c", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "gawkbug": "/usr/local/bin/gawkbug", "xxhsum": "/usr/local/bin/xxhsum", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unicore.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/unicore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unicore:1.1.0--h7ef3eeb_0
+$ shpc install quay.io/biocontainers/unicore:1.1.1--h7ef3eeb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unicore/1.1.0--h7ef3eeb_0
-$ module help quay.io/biocontainers/unicore/1.1.0--h7ef3eeb_0
+$ module load quay.io/biocontainers/unicore/1.1.1--h7ef3eeb_0
+$ module help quay.io/biocontainers/unicore/1.1.1--h7ef3eeb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

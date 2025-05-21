@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/heaptrack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/heaptrack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/heaptrack/container.yaml"
-updated_at: "2025-05-20 03:14:07.376574"
+updated_at: "2025-05-21 03:13:34.993942"
 latest: "1.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/heaptrack"
 aliases:

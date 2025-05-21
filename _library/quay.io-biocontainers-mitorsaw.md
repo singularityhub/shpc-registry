@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mitorsaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitorsaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitorsaw/container.yaml"
-updated_at: "2025-05-20 03:24:17.121171"
-latest: "0.1.1--h9ee0642_0"
+updated_at: "2025-05-21 03:24:12.451805"
+latest: "0.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/mitorsaw"
 aliases:
  - "mitorsaw"
 versions:
  - "0.1.1--h9ee0642_0"
+ - "0.2.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for mitorsaw"
-config: {"url": "https://biocontainers.pro/tools/mitorsaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mitorsaw", "latest": {"0.1.1--h9ee0642_0": "sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090"}, "tags": {"0.1.1--h9ee0642_0": "sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090"}, "docker": "quay.io/biocontainers/mitorsaw", "aliases": {"mitorsaw": "/usr/local/bin/mitorsaw"}}
+config: {"url": "https://biocontainers.pro/tools/mitorsaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mitorsaw", "latest": {"0.2.0--h9ee0642_0": "sha256:dbe020c9db456a6af7353565d03f6ea0a17772a2f356ca55d59eb252e6ab5378"}, "tags": {"0.1.1--h9ee0642_0": "sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090", "0.2.0--h9ee0642_0": "sha256:dbe020c9db456a6af7353565d03f6ea0a17772a2f356ca55d59eb252e6ab5378"}, "docker": "quay.io/biocontainers/mitorsaw", "aliases": {"mitorsaw": "/usr/local/bin/mitorsaw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mitorsaw.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mitorsaw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mitorsaw:0.1.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/mitorsaw:0.2.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mitorsaw/0.1.1--h9ee0642_0
-$ module help quay.io/biocontainers/mitorsaw/0.1.1--h9ee0642_0
+$ module load quay.io/biocontainers/mitorsaw/0.2.0--h9ee0642_0
+$ module help quay.io/biocontainers/mitorsaw/0.2.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

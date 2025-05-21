@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nim-abif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nim-abif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nim-abif/container.yaml"
-updated_at: "2025-05-20 03:24:19.149947"
-latest: "0.1.0--h7b50bb2_0"
+updated_at: "2025-05-21 03:24:14.562348"
+latest: "0.2.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/nim-abif"
 aliases:
  - "abi2fq"
  - "abif"
 versions:
  - "0.1.0--h7b50bb2_0"
+ - "0.2.0--h7b50bb2_0"
 description: "singularity registry hpc automated addition for nim-abif"
-config: {"url": "https://biocontainers.pro/tools/nim-abif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nim-abif", "latest": {"0.1.0--h7b50bb2_0": "sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2"}, "tags": {"0.1.0--h7b50bb2_0": "sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2"}, "docker": "quay.io/biocontainers/nim-abif", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "abif": "/usr/local/bin/abif"}}
+config: {"url": "https://biocontainers.pro/tools/nim-abif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nim-abif", "latest": {"0.2.0--h7b50bb2_0": "sha256:626e00686e1826dc8d8a82a5ed9350ed36a9185ed1d45639bf14bcf930dc9002"}, "tags": {"0.1.0--h7b50bb2_0": "sha256:006c1fd7361afb5a99daafafb0d8044e6db0a65d8fe4ddf3627f7f6576d303b2", "0.2.0--h7b50bb2_0": "sha256:626e00686e1826dc8d8a82a5ed9350ed36a9185ed1d45639bf14bcf930dc9002"}, "docker": "quay.io/biocontainers/nim-abif", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "abif": "/usr/local/bin/abif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nim-abif.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nim-abif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nim-abif:0.1.0--h7b50bb2_0
+$ shpc install quay.io/biocontainers/nim-abif:0.2.0--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nim-abif/0.1.0--h7b50bb2_0
-$ module help quay.io/biocontainers/nim-abif/0.1.0--h7b50bb2_0
+$ module load quay.io/biocontainers/nim-abif/0.2.0--h7b50bb2_0
+$ module help quay.io/biocontainers/nim-abif/0.2.0--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

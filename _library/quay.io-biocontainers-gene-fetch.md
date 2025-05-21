@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gene-fetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gene-fetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gene-fetch/container.yaml"
-updated_at: "2025-05-20 03:27:19.315323"
+updated_at: "2025-05-21 03:27:23.231034"
 latest: "1.0.11--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/gene-fetch"
 aliases:
