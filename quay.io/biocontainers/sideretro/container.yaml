@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/sideretro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sideretro
+latest:
+  1.1.6--hb728cf0_0: sha256:00c63d8956c571250a1f0ef72eaecd7f41404f3e663284ae12f3af8fe6f1de98
+tags:
+  1.1.6--hb728cf0_0: sha256:00c63d8956c571250a1f0ef72eaecd7f41404f3e663284ae12f3af8fe6f1de98
+docker: quay.io/biocontainers/sideretro
+aliases:
+  sider: /usr/local/bin/sider
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
