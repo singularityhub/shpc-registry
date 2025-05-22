@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/jcvi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jcvi
 latest:
-  1.4.16--py38h24c8ff8_0: sha256:4920c62bc7abad31991cb8e64dbcb1829c9ac49876e715c45dd903f5c080bc32
+  1.5.4--py310h20b60a1_0: sha256:2263d2f4e55f69ac0e958adb6f135d252bcd2141eec20eb9f3dbb6bb312b4d03
 tags:
   1.1.5--py36h29c9776_0: sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db
   1.3.9--py310hd6be1da_0: sha256:15d98b5ffb701e60a0afd41681f018ff8a436b36828562280b26c65326b722e0
@@ -11,6 +11,7 @@ tags:
   1.4.11--py39hec7c8de_0: sha256:1c5638f2a3dc8bd4b414ff210393181dd07b0722e1cb81b85f034c0aca5ec4ed
   1.3.9--py310hd6be1da_1: sha256:522f8ef8da0a58d4b6079e8732efd8bc5e9f9f83043e36043bc144bb39d3c40f
   1.4.16--py38h24c8ff8_0: sha256:4920c62bc7abad31991cb8e64dbcb1829c9ac49876e715c45dd903f5c080bc32
+  1.5.4--py310h20b60a1_0: sha256:2263d2f4e55f69ac0e958adb6f135d252bcd2141eec20eb9f3dbb6bb312b4d03
 docker: quay.io/biocontainers/jcvi
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py
