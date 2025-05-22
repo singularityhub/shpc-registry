@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-date"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-date/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-date/container.yaml"
-updated_at: "2025-05-21 03:46:16.655363"
+updated_at: "2025-05-22 03:45:24.940855"
 latest: "6.06--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-date"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phipack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phipack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phipack/container.yaml"
-updated_at: "2025-05-21 03:19:30.418589"
-latest: "1.1--h7b50bb2_5"
+updated_at: "2025-05-22 03:19:16.047329"
+latest: "1.1--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/phipack"
 aliases:
  - "Phi"
@@ -14,8 +14,9 @@ versions:
  - "1.1--hec16e2b_2"
  - "1.1--h031d066_4"
  - "1.1--h7b50bb2_5"
+ - "1.1--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for phipack"
-config: {"url": "https://biocontainers.pro/tools/phipack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phipack", "latest": {"1.1--h7b50bb2_5": "sha256:d083c28d1a4f37a23990c8453615bcade5da1b2d068716c035775746d929a106"}, "tags": {"1.1--hec16e2b_2": "sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96", "1.1--h031d066_4": "sha256:e6405c4d06d41949a45c9fc6bdf1e8f27bcb127f2e3330a8fb33f9580ec0e224", "1.1--h7b50bb2_5": "sha256:d083c28d1a4f37a23990c8453615bcade5da1b2d068716c035775746d929a106"}, "docker": "quay.io/biocontainers/phipack", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile"}}
+config: {"url": "https://biocontainers.pro/tools/phipack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phipack", "latest": {"1.1--h7b50bb2_6": "sha256:42c7f954689f1ffb58cf6fd812b69c6ff846e0ca01e3be9554df0392eca5534d"}, "tags": {"1.1--hec16e2b_2": "sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96", "1.1--h031d066_4": "sha256:e6405c4d06d41949a45c9fc6bdf1e8f27bcb127f2e3330a8fb33f9580ec0e224", "1.1--h7b50bb2_5": "sha256:d083c28d1a4f37a23990c8453615bcade5da1b2d068716c035775746d929a106", "1.1--h7b50bb2_6": "sha256:42c7f954689f1ffb58cf6fd812b69c6ff846e0ca01e3be9554df0392eca5534d"}, "docker": "quay.io/biocontainers/phipack", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phipack.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/phipack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phipack:1.1--h7b50bb2_5
+$ shpc install quay.io/biocontainers/phipack:1.1--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phipack/1.1--h7b50bb2_5
-$ module help quay.io/biocontainers/phipack/1.1--h7b50bb2_5
+$ module load quay.io/biocontainers/phipack/1.1--h7b50bb2_6
+$ module help quay.io/biocontainers/phipack/1.1--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

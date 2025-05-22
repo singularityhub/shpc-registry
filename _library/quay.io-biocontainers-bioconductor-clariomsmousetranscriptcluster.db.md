@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clariomsmousetranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clariomsmousetranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clariomsmousetranscriptcluster.db/container.yaml"
-updated_at: "2025-05-21 03:39:34.717131"
+updated_at: "2025-05-22 03:38:41.087829"
 latest: "8.8.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-clariomsmousetranscriptcluster.db"
 

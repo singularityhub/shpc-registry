@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/deacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deacon/container.yaml"
-updated_at: "2025-05-21 03:26:39.755535"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2025-05-22 03:26:01.051922"
+latest: "0.3.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/deacon"
 aliases:
  - "deacon"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.3.0--h4349ce8_0"
+ - "0.2.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for deacon"
-config: {"url": "https://biocontainers.pro/tools/deacon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deacon", "latest": {"0.1.0--h4349ce8_0": "sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6"}, "tags": {"0.1.0--h4349ce8_0": "sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6"}, "docker": "quay.io/biocontainers/deacon", "aliases": {"deacon": "/usr/local/bin/deacon"}}
+config: {"url": "https://biocontainers.pro/tools/deacon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deacon", "latest": {"0.3.0--h4349ce8_0": "sha256:14f3d7c7cf75f0fc81dc1194587236f76de34d872ab8168c39599e7ff6409872"}, "tags": {"0.1.0--h4349ce8_0": "sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6", "0.3.0--h4349ce8_0": "sha256:14f3d7c7cf75f0fc81dc1194587236f76de34d872ab8168c39599e7ff6409872", "0.2.0--h4349ce8_0": "sha256:6143d3962e4109e76db9b944d81cc5b1aecf50dbc5c3d41780b207af2ed58dee"}, "docker": "quay.io/biocontainers/deacon", "aliases": {"deacon": "/usr/local/bin/deacon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deacon.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/deacon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deacon:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/deacon:0.3.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deacon/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/deacon/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/deacon/0.3.0--h4349ce8_0
+$ module help quay.io/biocontainers/deacon/0.3.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

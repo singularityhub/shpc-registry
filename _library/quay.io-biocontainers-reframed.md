@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reframed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reframed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reframed/container.yaml"
-updated_at: "2025-05-21 03:33:36.036531"
-latest: "1.5.4--pyhdfd78af_0"
+updated_at: "2025-05-22 03:32:48.970580"
+latest: "1.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reframed"
 aliases:
  - "isympy"
@@ -25,8 +25,9 @@ versions:
  - "1.5.2--pyhdfd78af_0"
  - "1.5.3--pyhdfd78af_0"
  - "1.5.4--pyhdfd78af_0"
+ - "1.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for reframed"
-config: {"url": "https://biocontainers.pro/tools/reframed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reframed", "latest": {"1.5.4--pyhdfd78af_0": "sha256:80edc2b9b612334214f32a084a08a8ef22ccc45f194e006efdadb05e1914cd18"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:58695701f85c98f0ebc3e8acd79a049dae787ad27a760b62f884f71ec82c0fe7", "1.5.1--pyhdfd78af_0": "sha256:1e87390e93fe6c92ce2393edf59d9f7b91de9fadf7df67364de5fe48eaa208d5", "1.5.1--pyhdfd78af_1": "sha256:c876b5aac75694f9a09406114e6608af6afd10f73b9ca88ac06f47beb1850d15", "1.5.2--pyhdfd78af_0": "sha256:dc73b5c3082efdfb3e1574de6fa14838fd894dbdf9680766b75eff8812ef72e1", "1.5.3--pyhdfd78af_0": "sha256:2d411a5f79e6eb01528305faf9f1f7ee31ea6963b80bf14c0ae659618928dc24", "1.5.4--pyhdfd78af_0": "sha256:80edc2b9b612334214f32a084a08a8ef22ccc45f194e006efdadb05e1914cd18"}, "docker": "quay.io/biocontainers/reframed", "aliases": {"isympy": "/usr/local/bin/isympy", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/reframed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reframed", "latest": {"1.6.0--pyhdfd78af_0": "sha256:f76b639c6ab1302bf00dbd1883e1c974e3502139d1fd149870886e220df271dc"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:58695701f85c98f0ebc3e8acd79a049dae787ad27a760b62f884f71ec82c0fe7", "1.5.1--pyhdfd78af_0": "sha256:1e87390e93fe6c92ce2393edf59d9f7b91de9fadf7df67364de5fe48eaa208d5", "1.5.1--pyhdfd78af_1": "sha256:c876b5aac75694f9a09406114e6608af6afd10f73b9ca88ac06f47beb1850d15", "1.5.2--pyhdfd78af_0": "sha256:dc73b5c3082efdfb3e1574de6fa14838fd894dbdf9680766b75eff8812ef72e1", "1.5.3--pyhdfd78af_0": "sha256:2d411a5f79e6eb01528305faf9f1f7ee31ea6963b80bf14c0ae659618928dc24", "1.5.4--pyhdfd78af_0": "sha256:80edc2b9b612334214f32a084a08a8ef22ccc45f194e006efdadb05e1914cd18", "1.6.0--pyhdfd78af_0": "sha256:f76b639c6ab1302bf00dbd1883e1c974e3502139d1fd149870886e220df271dc"}, "docker": "quay.io/biocontainers/reframed", "aliases": {"isympy": "/usr/local/bin/isympy", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reframed.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/reframed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reframed:1.5.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/reframed:1.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reframed/1.5.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/reframed/1.5.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/reframed/1.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/reframed/1.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

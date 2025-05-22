@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbskera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbskera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbskera/container.yaml"
-updated_at: "2025-05-21 04:04:58.391410"
+updated_at: "2025-05-22 04:03:43.227624"
 latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbskera"
 aliases:

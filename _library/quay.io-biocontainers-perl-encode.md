@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-encode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-encode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-encode/container.yaml"
-updated_at: "2025-05-21 03:54:40.213747"
+updated_at: "2025-05-22 03:53:38.977107"
 latest: "3.19--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/perl-encode"
 
