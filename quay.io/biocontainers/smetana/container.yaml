@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smetana
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for smetana
 latest:
-  1.2.0--pyhdfd78af_0: sha256:f41f3271828e26831f255b069c21092e03f8ab12525caae9678b3f1dd6444adb
+  1.2.1--pyhdfd78af_0: sha256:3fcc415766df9840eaaa9b1a1ca35d984c84237c8126b17c5e5749b28542e587
 tags:
   1.2.0--pyhdfd78af_0: sha256:f41f3271828e26831f255b069c21092e03f8ab12525caae9678b3f1dd6444adb
+  1.2.1--pyhdfd78af_0: sha256:3fcc415766df9840eaaa9b1a1ca35d984c84237c8126b17c5e5749b28542e587
 docker: quay.io/biocontainers/smetana
 aliases:
   smetana: /usr/local/bin/smetana

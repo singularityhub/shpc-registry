@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nextclade
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextclade
 latest:
-  3.13.0--h9ee0642_0: sha256:c1d9674ba690731ee09fdc75d9eaf93ecd0712e0357c67a16e146f2eab8c44f7
+  3.13.3--h9ee0642_0: sha256:2b778873cd60853c15c6e1dd7f2961c102d9bb5106e8bff835811a3816f06f9d
 tags:
   2.7.0--h9ee0642_0: sha256:4c252a1f1f9227e4dee96cbc2422ef82e4f921fac9c3ec9986ea357d4de74e57
   2.8.0--h9ee0642_0: sha256:4cfde8d9b8080d97c4f9e36d0e30ad92d3b189bbfddfefe1e1cbbc04f7aaa2d3
@@ -32,6 +32,7 @@ tags:
   3.10.2--h9ee0642_0: sha256:ff6f8c3d450e5e2e797948e814fde57a30d9d3b142d82f92072361e5d018b64b
   3.13.0--h9ee0642_0: sha256:c1d9674ba690731ee09fdc75d9eaf93ecd0712e0357c67a16e146f2eab8c44f7
   3.12.0--h9ee0642_0: sha256:8157c6969b76f7fcf4bd660f9bb1baab8c70162cf79f8d8e4adad512e17a999b
+  3.13.3--h9ee0642_0: sha256:2b778873cd60853c15c6e1dd7f2961c102d9bb5106e8bff835811a3816f06f9d
 docker: quay.io/biocontainers/nextclade
 aliases:
   nextclade: /usr/local/bin/nextclade
