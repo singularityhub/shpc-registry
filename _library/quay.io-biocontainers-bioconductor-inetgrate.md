@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-inetgrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inetgrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inetgrate/container.yaml"
-updated_at: "2025-05-22 03:58:34.808203"
+updated_at: "2025-05-23 03:57:08.724819"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-inetgrate"
 aliases:

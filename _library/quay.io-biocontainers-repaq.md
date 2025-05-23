@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/repaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repaq/container.yaml"
-updated_at: "2025-05-22 03:16:51.155294"
-latest: "0.3.0--h43eeafb_4"
+updated_at: "2025-05-23 03:16:30.690513"
+latest: "0.5.1--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/repaq"
 aliases:
  - "repaq"
 versions:
  - "0.3.0--h5b5514e_2"
  - "0.3.0--h43eeafb_4"
+ - "0.5.1--h5ca1c30_0"
 description: "shpc-registry automated BioContainers addition for repaq"
-config: {"url": "https://biocontainers.pro/tools/repaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repaq", "latest": {"0.3.0--h43eeafb_4": "sha256:b4c3e20c78af9f220b208ce2ee8d2bf8b4e77dea9a75ffb74a65ab98cc8e5242"}, "tags": {"0.3.0--h5b5514e_2": "sha256:a3049ac4dd58c8c01b6109b6488c682f86f0d80bdd29ce4c605bc4b75a8740ea", "0.3.0--h43eeafb_4": "sha256:b4c3e20c78af9f220b208ce2ee8d2bf8b4e77dea9a75ffb74a65ab98cc8e5242"}, "docker": "quay.io/biocontainers/repaq", "aliases": {"repaq": "/usr/local/bin/repaq"}}
+config: {"url": "https://biocontainers.pro/tools/repaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repaq", "latest": {"0.5.1--h5ca1c30_0": "sha256:c4ee0142d9dd458378e1546ed701baf531f7a4b446da5774a85bf1623bc165b7"}, "tags": {"0.3.0--h5b5514e_2": "sha256:a3049ac4dd58c8c01b6109b6488c682f86f0d80bdd29ce4c605bc4b75a8740ea", "0.3.0--h43eeafb_4": "sha256:b4c3e20c78af9f220b208ce2ee8d2bf8b4e77dea9a75ffb74a65ab98cc8e5242", "0.5.1--h5ca1c30_0": "sha256:c4ee0142d9dd458378e1546ed701baf531f7a4b446da5774a85bf1623bc165b7"}, "docker": "quay.io/biocontainers/repaq", "aliases": {"repaq": "/usr/local/bin/repaq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repaq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/repaq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repaq:0.3.0--h43eeafb_4
+$ shpc install quay.io/biocontainers/repaq:0.5.1--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repaq/0.3.0--h43eeafb_4
-$ module help quay.io/biocontainers/repaq/0.3.0--h43eeafb_4
+$ module load quay.io/biocontainers/repaq/0.5.1--h5ca1c30_0
+$ module help quay.io/biocontainers/repaq/0.5.1--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
