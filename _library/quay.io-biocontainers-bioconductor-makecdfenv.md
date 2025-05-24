@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-makecdfenv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-makecdfenv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-makecdfenv/container.yaml"
-updated_at: "2025-05-23 03:16:55.240869"
-latest: "1.82.0--r44h3df3fcb_0"
+updated_at: "2025-05-24 03:11:41.576851"
+latest: "1.82.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-makecdfenv"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.76.0--r43ha9d7317_0"
  - "1.78.0--r43ha9d7317_0"
  - "1.82.0--r44h3df3fcb_0"
+ - "1.82.0--r44h3df3fcb_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-makecdfenv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-makecdfenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-makecdfenv", "latest": {"1.82.0--r44h3df3fcb_0": "sha256:7c26b12f7a6a405c9be3b27d8eeb7a882560bf0a9e57a7324a98966209b68352"}, "tags": {"1.70.0--r41hc0cfd56_2": "sha256:b857c62c45081ddc3d3707fa6efaf2c18239edcf0b135aab71e9b67e05843c9b", "1.74.0--r42hc0cfd56_0": "sha256:5447b1a11e69602cf03f4dda87355fcb167e019eb9896c4b1ba94282cfe18ee6", "1.74.0--r42ha9d7317_1": "sha256:547a18f00bfcea008e9364ccd741528e43a8d6cda7b873f307aa76176a3c7fe3", "1.76.0--r43ha9d7317_0": "sha256:214874761d6e664f467f1a63824ae7516a71d45159bf3c06f84919b65cc655f4", "1.78.0--r43ha9d7317_0": "sha256:2483171532c1e582a5f732374d8a0afe482b70f89c514fe997689a2293f13731", "1.82.0--r44h3df3fcb_0": "sha256:7c26b12f7a6a405c9be3b27d8eeb7a882560bf0a9e57a7324a98966209b68352"}, "docker": "quay.io/biocontainers/bioconductor-makecdfenv"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-makecdfenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-makecdfenv", "latest": {"1.82.0--r44h3df3fcb_1": "sha256:c64d059ddef095f521fb20a896fb443283cb7583699480ea2c00c3ca5d4bcf50"}, "tags": {"1.70.0--r41hc0cfd56_2": "sha256:b857c62c45081ddc3d3707fa6efaf2c18239edcf0b135aab71e9b67e05843c9b", "1.74.0--r42hc0cfd56_0": "sha256:5447b1a11e69602cf03f4dda87355fcb167e019eb9896c4b1ba94282cfe18ee6", "1.74.0--r42ha9d7317_1": "sha256:547a18f00bfcea008e9364ccd741528e43a8d6cda7b873f307aa76176a3c7fe3", "1.76.0--r43ha9d7317_0": "sha256:214874761d6e664f467f1a63824ae7516a71d45159bf3c06f84919b65cc655f4", "1.78.0--r43ha9d7317_0": "sha256:2483171532c1e582a5f732374d8a0afe482b70f89c514fe997689a2293f13731", "1.82.0--r44h3df3fcb_0": "sha256:7c26b12f7a6a405c9be3b27d8eeb7a882560bf0a9e57a7324a98966209b68352", "1.82.0--r44h3df3fcb_1": "sha256:c64d059ddef095f521fb20a896fb443283cb7583699480ea2c00c3ca5d4bcf50"}, "docker": "quay.io/biocontainers/bioconductor-makecdfenv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-makecdfenv.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-makecdfenv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-makecdfenv:1.82.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-makecdfenv:1.82.0--r44h3df3fcb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-makecdfenv/1.82.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-makecdfenv/1.82.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-makecdfenv/1.82.0--r44h3df3fcb_1
+$ module help quay.io/biocontainers/bioconductor-makecdfenv/1.82.0--r44h3df3fcb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

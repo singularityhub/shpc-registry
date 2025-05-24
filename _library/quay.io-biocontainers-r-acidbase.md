@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-acidbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidbase/container.yaml"
-updated_at: "2025-05-23 03:55:17.955186"
-latest: "0.7.4--r44hdfd78af_0"
+updated_at: "2025-05-24 03:50:00.014059"
+latest: "0.7.5--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidbase"
 
 versions:
@@ -23,8 +23,9 @@ versions:
  - "0.6.23--r43hdfd78af_0"
  - "0.7.3--r44hdfd78af_2"
  - "0.7.4--r44hdfd78af_0"
+ - "0.7.5--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidbase"
-config: {"url": "https://biocontainers.pro/tools/r-acidbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidbase", "latest": {"0.7.4--r44hdfd78af_0": "sha256:c34504e47d04de0238504820067040af964e2d530703281664a24378d5848b51"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc", "0.6.9--r42hdfd78af_0": "sha256:8bed78a11cef0db40395015c2e902d417f6fed5b07b87406f78c453a2b33ba3f", "0.5.0--r41hdfd78af_1": "sha256:57f49058c0eb7e1784aaa7045a6ebca13ee7c1bdd7e1572d1ce1a70438fba188", "0.6.12--r42hdfd78af_0": "sha256:a1f0a1d80b88a21e96f9312eaa7a1cf3db5e4137ba92eef82d73b14e3bcc5d29", "0.6.12--r42hdfd78af_1": "sha256:4f7a41b606c3ecfb9dbb74c3be5b5d82d131aa7c0421a58e4365251cea234912", "0.6.13--r42hdfd78af_0": "sha256:8bc47efd0d27bb15f26708eb2388e54afa1bae7e38d6429f96b41a1eb87146dc", "0.6.16--r42hdfd78af_0": "sha256:4cf49ffce63e516baa167ab0175c6bbbf5632468009b0966c936ea3b2e8df5d5", "0.6.16--r43hdfd78af_1": "sha256:c1d76607183a20b2e7f05dfd789b0bc7f2c4169dd7acfcdd874fe681849e5425", "0.6.19--r43hdfd78af_0": "sha256:0f97e916d63913dac74e03a7c7d979037ad7602a75aedf6713a50c7f094c3e9c", "0.6.21--r43hdfd78af_0": "sha256:1584c2625714c78c2f86f7115307a6dc1a304c79835249d917715a909362d5d2", "0.7.3--r43hdfd78af_1": "sha256:4e9bf919423356a030c41a618e728555ea7f377d99cba90530c3764d4796869e", "0.6.23--r43hdfd78af_0": "sha256:8731fd1dced867240258db0c8efb57a87853d201b136a1ddf7625ab1515f6737", "0.7.3--r44hdfd78af_2": "sha256:d9ab0ea3e82222115561357db3dbf67f9bd19f29f94af7332a3722b516a587cb", "0.7.4--r44hdfd78af_0": "sha256:c34504e47d04de0238504820067040af964e2d530703281664a24378d5848b51"}, "docker": "quay.io/biocontainers/r-acidbase"}
+config: {"url": "https://biocontainers.pro/tools/r-acidbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidbase", "latest": {"0.7.5--r44hdfd78af_0": "sha256:8f84e1bec710bdba8dd4e15da4a67574af37b81499cb6688503a57a8b1945809"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc", "0.6.9--r42hdfd78af_0": "sha256:8bed78a11cef0db40395015c2e902d417f6fed5b07b87406f78c453a2b33ba3f", "0.5.0--r41hdfd78af_1": "sha256:57f49058c0eb7e1784aaa7045a6ebca13ee7c1bdd7e1572d1ce1a70438fba188", "0.6.12--r42hdfd78af_0": "sha256:a1f0a1d80b88a21e96f9312eaa7a1cf3db5e4137ba92eef82d73b14e3bcc5d29", "0.6.12--r42hdfd78af_1": "sha256:4f7a41b606c3ecfb9dbb74c3be5b5d82d131aa7c0421a58e4365251cea234912", "0.6.13--r42hdfd78af_0": "sha256:8bc47efd0d27bb15f26708eb2388e54afa1bae7e38d6429f96b41a1eb87146dc", "0.6.16--r42hdfd78af_0": "sha256:4cf49ffce63e516baa167ab0175c6bbbf5632468009b0966c936ea3b2e8df5d5", "0.6.16--r43hdfd78af_1": "sha256:c1d76607183a20b2e7f05dfd789b0bc7f2c4169dd7acfcdd874fe681849e5425", "0.6.19--r43hdfd78af_0": "sha256:0f97e916d63913dac74e03a7c7d979037ad7602a75aedf6713a50c7f094c3e9c", "0.6.21--r43hdfd78af_0": "sha256:1584c2625714c78c2f86f7115307a6dc1a304c79835249d917715a909362d5d2", "0.7.3--r43hdfd78af_1": "sha256:4e9bf919423356a030c41a618e728555ea7f377d99cba90530c3764d4796869e", "0.6.23--r43hdfd78af_0": "sha256:8731fd1dced867240258db0c8efb57a87853d201b136a1ddf7625ab1515f6737", "0.7.3--r44hdfd78af_2": "sha256:d9ab0ea3e82222115561357db3dbf67f9bd19f29f94af7332a3722b516a587cb", "0.7.4--r44hdfd78af_0": "sha256:c34504e47d04de0238504820067040af964e2d530703281664a24378d5848b51", "0.7.5--r44hdfd78af_0": "sha256:8f84e1bec710bdba8dd4e15da4a67574af37b81499cb6688503a57a8b1945809"}, "docker": "quay.io/biocontainers/r-acidbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidbase.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/r-acidbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidbase:0.7.4--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidbase:0.7.5--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidbase/0.7.4--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-acidbase/0.7.4--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-acidbase/0.7.5--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-acidbase/0.7.5--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

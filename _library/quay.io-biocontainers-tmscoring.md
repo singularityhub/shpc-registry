@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tmscoring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmscoring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmscoring/container.yaml"
-updated_at: "2025-05-23 03:17:16.207591"
+updated_at: "2025-05-24 03:12:02.717889"
 latest: "0.4.post0--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/tmscoring"
 aliases:

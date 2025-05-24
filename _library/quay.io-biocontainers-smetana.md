@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smetana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smetana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smetana/container.yaml"
-updated_at: "2025-05-23 03:58:46.948435"
-latest: "1.2.0--pyhdfd78af_0"
+updated_at: "2025-05-24 03:53:28.215225"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smetana"
 aliases:
  - "smetana"
@@ -21,8 +21,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.0--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for smetana"
-config: {"url": "https://biocontainers.pro/tools/smetana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for smetana", "latest": {"1.2.0--pyhdfd78af_0": "sha256:f41f3271828e26831f255b069c21092e03f8ab12525caae9678b3f1dd6444adb"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:f41f3271828e26831f255b069c21092e03f8ab12525caae9678b3f1dd6444adb"}, "docker": "quay.io/biocontainers/smetana", "aliases": {"smetana": "/usr/local/bin/smetana", "isympy": "/usr/local/bin/isympy", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/smetana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for smetana", "latest": {"1.2.1--pyhdfd78af_0": "sha256:3fcc415766df9840eaaa9b1a1ca35d984c84237c8126b17c5e5749b28542e587"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:f41f3271828e26831f255b069c21092e03f8ab12525caae9678b3f1dd6444adb", "1.2.1--pyhdfd78af_0": "sha256:3fcc415766df9840eaaa9b1a1ca35d984c84237c8126b17c5e5749b28542e587"}, "docker": "quay.io/biocontainers/smetana", "aliases": {"smetana": "/usr/local/bin/smetana", "isympy": "/usr/local/bin/isympy", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smetana.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/smetana
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smetana:1.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/smetana:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smetana/1.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/smetana/1.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/smetana/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/smetana/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

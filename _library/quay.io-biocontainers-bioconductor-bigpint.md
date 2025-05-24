@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bigpint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bigpint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bigpint/container.yaml"
-updated_at: "2025-05-23 03:48:49.493908"
+updated_at: "2025-05-24 03:43:30.502485"
 latest: "1.15.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bigpint"
 aliases:

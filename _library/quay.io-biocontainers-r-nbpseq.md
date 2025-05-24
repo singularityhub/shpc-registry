@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nbpseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nbpseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nbpseq/container.yaml"
-updated_at: "2025-05-23 03:49:58.479633"
+updated_at: "2025-05-24 03:44:39.010902"
 latest: "0.3.1--r44h5ef9028_4"
 container_url: "https://biocontainers.pro/tools/r-nbpseq"
 
