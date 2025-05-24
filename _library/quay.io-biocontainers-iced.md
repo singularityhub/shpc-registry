@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iced/container.yaml"
-updated_at: "2025-05-24 03:34:39.766450"
+updated_at: "2025-05-24 11:35:15.572178"
 latest: "0.5.13--py39hbcbf7aa_0"
 container_url: "https://biocontainers.pro/tools/iced"
 aliases:

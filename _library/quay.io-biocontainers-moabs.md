@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moabs/container.yaml"
-updated_at: "2025-05-24 03:21:21.589661"
+updated_at: "2025-05-24 11:21:52.751996"
 latest: "1.3.9.6--pl5321r42ha503a2d_6"
 container_url: "https://biocontainers.pro/tools/moabs"
 aliases:

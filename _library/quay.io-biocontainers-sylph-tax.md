@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sylph-tax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sylph-tax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sylph-tax/container.yaml"
-updated_at: "2025-05-24 03:40:16.703155"
+updated_at: "2025-05-24 11:41:02.779839"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sylph-tax"
 aliases:

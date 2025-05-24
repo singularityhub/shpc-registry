@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedtcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedtcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedtcgadata/container.yaml"
-updated_at: "2025-05-24 03:35:55.652378"
+updated_at: "2025-05-24 11:36:34.039453"
 latest: "1.28.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedtcgadata"
 aliases:

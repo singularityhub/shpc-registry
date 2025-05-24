@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-universalmotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-universalmotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-universalmotif/container.yaml"
-updated_at: "2025-05-24 03:19:08.845809"
+updated_at: "2025-05-24 11:19:41.247123"
 latest: "1.24.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-universalmotif"
 aliases:

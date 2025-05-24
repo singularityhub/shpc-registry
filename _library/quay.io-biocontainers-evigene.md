@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/evigene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evigene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evigene/container.yaml"
-updated_at: "2025-05-24 03:14:18.552781"
+updated_at: "2025-05-24 11:14:48.421265"
 latest: "23.7.15--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/evigene"
 aliases:

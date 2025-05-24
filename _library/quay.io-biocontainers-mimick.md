@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimick/container.yaml"
-updated_at: "2025-05-24 03:47:48.863820"
+updated_at: "2025-05-24 11:48:39.589781"
 latest: "1.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mimick"
 aliases:

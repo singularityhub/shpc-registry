@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quantwiz-iq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantwiz-iq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantwiz-iq/container.yaml"
-updated_at: "2025-05-24 03:50:20.582691"
+updated_at: "2025-05-24 11:51:12.065953"
 latest: "2.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/quantwiz-iq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pigengene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pigengene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pigengene/container.yaml"
-updated_at: "2025-05-24 03:51:06.182343"
+updated_at: "2025-05-24 11:51:58.021221"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pigengene"
 aliases:
