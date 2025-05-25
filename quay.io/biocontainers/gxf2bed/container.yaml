@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gxf2bed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gxf2bed
 latest:
-  0.2.5--ha6fb395_0: sha256:00d3715dbb530a7b8fc7e7593fda1676aa6f7fadc5a9f82ea3b722347d6fcd1a
+  0.2.6--ha6fb395_0: sha256:5a93b85a5950b4cb57adc863fff30ddef3e9fb5f78c30f0bc3837d1ab01660f5
 tags:
   0.1.0--h4ac6f70_0: sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff
   0.2.0--h4ac6f70_0: sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c
@@ -11,6 +11,7 @@ tags:
   0.2.3--h919a2d8_1: sha256:0ce89631945422564d9645a6ac2c07aba08809062fb73a95d53f1837a54ed5f0
   0.2.4--ha6fb395_0: sha256:465417657ded316ecadb733f100b20ef8d583439e671d1484f9d651818cec9f5
   0.2.5--ha6fb395_0: sha256:00d3715dbb530a7b8fc7e7593fda1676aa6f7fadc5a9f82ea3b722347d6fcd1a
+  0.2.6--ha6fb395_0: sha256:5a93b85a5950b4cb57adc863fff30ddef3e9fb5f78c30f0bc3837d1ab01660f5
 docker: quay.io/biocontainers/gxf2bed
 aliases:
   gxf2bed: /usr/local/bin/gxf2bed

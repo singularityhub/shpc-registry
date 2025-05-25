@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-file-fetch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-file-fetch
 latest:
-  1.04--pl5321hdfd78af_0: sha256:c9e0026cba235d8f03cf84c7df8e2888a382b4861a111ec2459ee77e921b7100
+  1.08--pl5321hdfd78af_0: sha256:8200fee2518894635bdcf299e015fda8d25f44ba44c83e05a608a6869374712c
 tags:
   1.04--pl5321hdfd78af_0: sha256:c9e0026cba235d8f03cf84c7df8e2888a382b4861a111ec2459ee77e921b7100
+  1.08--pl5321hdfd78af_0: sha256:8200fee2518894635bdcf299e015fda8d25f44ba44c83e05a608a6869374712c
 docker: quay.io/biocontainers/perl-file-fetch
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
