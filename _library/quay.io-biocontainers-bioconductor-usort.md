@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-usort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-usort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-usort/container.yaml"
-updated_at: "2025-05-24 11:16:11.616395"
+updated_at: "2025-05-25 03:29:38.845973"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-usort"
 aliases:

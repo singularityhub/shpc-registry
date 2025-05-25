@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteasy/container.yaml"
-updated_at: "2025-05-24 11:51:59.137859"
+updated_at: "2025-05-25 04:06:07.408608"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteasy"
 aliases:

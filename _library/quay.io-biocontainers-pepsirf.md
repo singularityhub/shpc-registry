@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pepsirf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pepsirf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pepsirf/container.yaml"
-updated_at: "2025-05-24 11:37:38.531443"
-latest: "1.6.0--h4056dc3_2"
+updated_at: "2025-05-25 03:51:41.281203"
+latest: "1.7.1--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/pepsirf"
 aliases:
  - "pepsirf"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.6.0--hb7da652_0"
  - "1.6.0--h4056dc3_2"
+ - "1.7.1--h077b44d_0"
 description: "singularity registry hpc automated addition for pepsirf"
-config: {"url": "https://biocontainers.pro/tools/pepsirf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pepsirf", "latest": {"1.6.0--h4056dc3_2": "sha256:0c3e20a1366a3afd490f2219a4c907b2a050f0664aa98d98dee667de3ded72ae"}, "tags": {"1.6.0--hb7da652_0": "sha256:77334dcc29ffadc3721bdd6e196c1766f150474744fbd184de303aa7b3247727", "1.6.0--h4056dc3_2": "sha256:0c3e20a1366a3afd490f2219a4c907b2a050f0664aa98d98dee667de3ded72ae"}, "docker": "quay.io/biocontainers/pepsirf", "aliases": {"pepsirf": "/usr/local/bin/pepsirf", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pepsirf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pepsirf", "latest": {"1.7.1--h077b44d_0": "sha256:905f75b2393d66a494ba2a3c7a9a518778523d875973ef64a7c9796e8309f617"}, "tags": {"1.6.0--hb7da652_0": "sha256:77334dcc29ffadc3721bdd6e196c1766f150474744fbd184de303aa7b3247727", "1.6.0--h4056dc3_2": "sha256:0c3e20a1366a3afd490f2219a4c907b2a050f0664aa98d98dee667de3ded72ae", "1.7.1--h077b44d_0": "sha256:905f75b2393d66a494ba2a3c7a9a518778523d875973ef64a7c9796e8309f617"}, "docker": "quay.io/biocontainers/pepsirf", "aliases": {"pepsirf": "/usr/local/bin/pepsirf", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pepsirf.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pepsirf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pepsirf:1.6.0--h4056dc3_2
+$ shpc install quay.io/biocontainers/pepsirf:1.7.1--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pepsirf/1.6.0--h4056dc3_2
-$ module help quay.io/biocontainers/pepsirf/1.6.0--h4056dc3_2
+$ module load quay.io/biocontainers/pepsirf/1.7.1--h077b44d_0
+$ module help quay.io/biocontainers/pepsirf/1.7.1--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

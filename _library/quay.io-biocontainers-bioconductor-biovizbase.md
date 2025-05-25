@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biovizbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biovizbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biovizbase/container.yaml"
-updated_at: "2025-05-24 11:30:09.648355"
+updated_at: "2025-05-25 03:44:07.380516"
 latest: "1.54.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-biovizbase"
 

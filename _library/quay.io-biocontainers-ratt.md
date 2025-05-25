@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ratt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratt/container.yaml"
-updated_at: "2025-05-24 11:50:55.020356"
-latest: "1.0.3--0"
+updated_at: "2025-05-25 04:05:02.020935"
+latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ratt"
 aliases:
  - "ratt"
@@ -21,8 +21,9 @@ aliases:
  - "mummerplot"
 versions:
  - "1.0.3--0"
+ - "1.1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ratt"
-config: {"url": "https://biocontainers.pro/tools/ratt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ratt", "latest": {"1.0.3--0": "sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd"}, "tags": {"1.0.3--0": "sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd"}, "docker": "quay.io/biocontainers/ratt", "aliases": {"ratt": "/usr/local/bin/ratt", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/ratt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ratt", "latest": {"1.1.0--hdfd78af_0": "sha256:c24eee59ed6f13b4f182c22bd6cd216aca1aa2607c21350c33f56030521e60db"}, "tags": {"1.0.3--0": "sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd", "1.1.0--hdfd78af_0": "sha256:c24eee59ed6f13b4f182c22bd6cd216aca1aa2607c21350c33f56030521e60db"}, "docker": "quay.io/biocontainers/ratt", "aliases": {"ratt": "/usr/local/bin/ratt", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ratt.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ratt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ratt:1.0.3--0
+$ shpc install quay.io/biocontainers/ratt:1.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ratt/1.0.3--0
-$ module help quay.io/biocontainers/ratt/1.0.3--0
+$ module load quay.io/biocontainers/ratt/1.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/ratt/1.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

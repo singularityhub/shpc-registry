@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mime-quotedprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-quotedprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-quotedprint/container.yaml"
-updated_at: "2025-05-24 11:28:32.926886"
+updated_at: "2025-05-25 03:42:27.541370"
 latest: "3.13--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-mime-quotedprint"
 aliases:

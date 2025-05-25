@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lineagepulse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lineagepulse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lineagepulse/container.yaml"
-updated_at: "2025-05-24 11:39:07.017753"
+updated_at: "2025-05-25 03:53:07.959234"
 latest: "1.21.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lineagepulse"
 aliases:

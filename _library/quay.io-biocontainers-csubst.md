@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/csubst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csubst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csubst/container.yaml"
-updated_at: "2025-05-24 11:18:21.322618"
-latest: "1.4.0--py310hc1935f2_0"
+updated_at: "2025-05-25 03:31:50.233989"
+latest: "1.4.0--py310hc1935f2_1"
 container_url: "https://biocontainers.pro/tools/csubst"
 aliases:
  - "csubst"
@@ -37,8 +37,9 @@ aliases:
  - "balsam"
 versions:
  - "1.4.0--py310hc1935f2_0"
+ - "1.4.0--py310hc1935f2_1"
 description: "singularity registry hpc automated addition for csubst"
-config: {"url": "https://biocontainers.pro/tools/csubst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csubst", "latest": {"1.4.0--py310hc1935f2_0": "sha256:81a4f8998d9a2ef7a7c6d95b7fb71563959ae644d9b0f493a49b57a9db0cfb70"}, "tags": {"1.4.0--py310hc1935f2_0": "sha256:81a4f8998d9a2ef7a7c6d95b7fb71563959ae644d9b0f493a49b57a9db0cfb70"}, "docker": "quay.io/biocontainers/csubst", "aliases": {"csubst": "/usr/local/bin/csubst", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
+config: {"url": "https://biocontainers.pro/tools/csubst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csubst", "latest": {"1.4.0--py310hc1935f2_1": "sha256:7d37ed41027b70ac4c384944d93fe1d4bb37366addffc5cabd0a823889c316eb"}, "tags": {"1.4.0--py310hc1935f2_0": "sha256:81a4f8998d9a2ef7a7c6d95b7fb71563959ae644d9b0f493a49b57a9db0cfb70", "1.4.0--py310hc1935f2_1": "sha256:7d37ed41027b70ac4c384944d93fe1d4bb37366addffc5cabd0a823889c316eb"}, "docker": "quay.io/biocontainers/csubst", "aliases": {"csubst": "/usr/local/bin/csubst", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csubst.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/csubst
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/csubst:1.4.0--py310hc1935f2_0
+$ shpc install quay.io/biocontainers/csubst:1.4.0--py310hc1935f2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/csubst/1.4.0--py310hc1935f2_0
-$ module help quay.io/biocontainers/csubst/1.4.0--py310hc1935f2_0
+$ module load quay.io/biocontainers/csubst/1.4.0--py310hc1935f2_1
+$ module help quay.io/biocontainers/csubst/1.4.0--py310hc1935f2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
