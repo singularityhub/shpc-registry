@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/r-ldweaver
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-ldweaver
 latest:
-  1.5.1--r43hdbdd923_0: sha256:a16cecb51d93523cf4e0ba12f7dcb6bf651c0e37412a24ca471198cc2239418b
+  1.5.2--r43h5ca1c30_0: sha256:cdebf21e2a97c501f4757a8ed1db1f5284224bd7c444deb63775adc1f884fb04
 tags:
   1.2--r43hdbdd923_0: sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418
   1.3.1--r43hdbdd923_0: sha256:ea683acb70033d4e3dfcd8503b777e461f6bf08b006a1c4a6d7804c54d18b98c
   1.4--r43hdbdd923_0: sha256:d711ca69b2ab4313e2a80eb6a3be2dc2175e9bfdbc3a5cac891f900a2c98b22d
   1.5--r43hdbdd923_0: sha256:b83b11c4fae82362bc87ccfb0f68a8bc7b6a4dd4336c5f14c07e33a3ce0b1234
   1.5.1--r43hdbdd923_0: sha256:a16cecb51d93523cf4e0ba12f7dcb6bf651c0e37412a24ca471198cc2239418b
+  1.5.2--r43h5ca1c30_0: sha256:cdebf21e2a97c501f4757a8ed1db1f5284224bd7c444deb63775adc1f884fb04
 docker: quay.io/biocontainers/r-ldweaver
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

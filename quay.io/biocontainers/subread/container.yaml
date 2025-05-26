@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/subread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for subread
 latest:
-  2.0.8--h577a1d6_0: sha256:6ed5a6f3080b0fe7756fd23b0a9093ef19caeb939ca402b65ec798ad3bda587c
+  2.1.1--h577a1d6_0: sha256:a0f7ea960dd0f55240b330b5c4515388a493e266a7b427d6a59a39164bc14865
 tags:
   2.0.1--h7132678_2: sha256:6f4696f9eb45f8de613b889ec9adfcb200be4658de651edd14404bdd606ce729
   2.0.3--h7132678_0: sha256:b8168397dd5c80756a36f79e0895cc2db73088c913f1e6e4fb10e80700a4b450
@@ -11,6 +11,7 @@ tags:
   2.0.6--he4a0461_0: sha256:ea3bf25194820592a3e8124ddb04870ee195774ffb5c37e0a156d57b5c8854db
   2.0.6--he4a0461_2: sha256:114390a783c77f7739d86e474bedfa5a4e65309a2f71d4db430803fb04601f5d
   2.0.8--h577a1d6_0: sha256:6ed5a6f3080b0fe7756fd23b0a9093ef19caeb939ca402b65ec798ad3bda587c
+  2.1.1--h577a1d6_0: sha256:a0f7ea960dd0f55240b330b5c4515388a493e266a7b427d6a59a39164bc14865
 docker: quay.io/biocontainers/subread
 aliases:
   detectionCall: /usr/local/bin/detectionCall
