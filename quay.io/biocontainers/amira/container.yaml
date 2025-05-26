@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/amira
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amira
+latest:
+  0.9.2--pyhdfd78af_0: sha256:2b3a888cf0837a8f3a8fd245c4b09230a7ff023b7573894bb5cb16095be440bf
+tags:
+  0.9.2--pyhdfd78af_0: sha256:2b3a888cf0837a8f3a8fd245c4b09230a7ff023b7573894bb5cb16095be440bf
+docker: quay.io/biocontainers/amira
+aliases:
+  amira: /usr/local/bin/amira
+  sourmash: /usr/local/bin/sourmash
+  fastaq: /usr/local/bin/fastaq
+  screed: /usr/local/bin/screed
+  rampler: /usr/local/bin/rampler
+  racon: /usr/local/bin/racon
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  jellyfish: /usr/local/bin/jellyfish
+  annot-tsv: /usr/local/bin/annot-tsv
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

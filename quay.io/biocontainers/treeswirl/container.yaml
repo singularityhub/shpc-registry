@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/treeswirl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for treeswirl
+latest:
+  2.0.0--h778a338_0: sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
+tags:
+  2.0.0--h778a338_0: sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
+docker: quay.io/biocontainers/treeswirl
+aliases:
+  TreeSwirl: /usr/local/bin/TreeSwirl
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
