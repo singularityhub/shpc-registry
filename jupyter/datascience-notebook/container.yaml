@@ -3,8 +3,7 @@ url: https://hub.docker.com/r/jupyter/datascience-notebook
 maintainer: '@vsoch'
 description: Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2023-10-20': 'crane digest jupyter/datascience-notebook:2023-10-20: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '4.0': sha256:5e5bf78bfa351c0255cea5269a0461afbf6b50b51e923a7436229208ea8487f9
 tags:
   '4.0': sha256:5e5bf78bfa351c0255cea5269a0461afbf6b50b51e923a7436229208ea8487f9
   latest: sha256:476c6e673e7d5d8b5059f8680b1c6a988942a79263da651bf302dc696ab311f2
@@ -30,36 +29,6 @@ tags:
   '2023-01-30': sha256:8488d97f786edee0c44bfc3e0b64dd7f6b743abbcd57b6bddbbcae0d68abc1e6
   '2023-03-13': sha256:d128d6577567375c17d0f90113f2f9ab1105268f14eabe6fcf782c9813eb61de
   '2023-02-28': sha256:1ccab5f21fe947f3aa373f8c17287b3e9c5efc5e229bc77c28280e24d872ffb6
-  '2023-04-14': 'crane digest jupyter/datascience-notebook:2023-04-14: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-03-27': 'crane digest jupyter/datascience-notebook:2023-03-27: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-05-15': 'crane digest jupyter/datascience-notebook:2023-05-15: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-04-27': 'crane digest jupyter/datascience-notebook:2023-04-27: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-06-13': 'crane digest jupyter/datascience-notebook:2023-06-13: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-05-30': 'crane digest jupyter/datascience-notebook:2023-05-30: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-11': 'crane digest jupyter/datascience-notebook:2023-07-11: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-06-29': 'crane digest jupyter/datascience-notebook:2023-06-29: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-14': 'crane digest jupyter/datascience-notebook:2023-08-14: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-31': 'crane digest jupyter/datascience-notebook:2023-07-31: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-09-11': 'crane digest jupyter/datascience-notebook:2023-09-11: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-28': 'crane digest jupyter/datascience-notebook:2023-08-28: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-10-10': 'crane digest jupyter/datascience-notebook:2023-10-10: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-09-25': 'crane digest jupyter/datascience-notebook:2023-09-25: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-10-20': 'crane digest jupyter/datascience-notebook:2023-10-20: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0
