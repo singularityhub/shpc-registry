@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wade/container.yaml"
-updated_at: "2025-05-26 03:23:41.884540"
+updated_at: "2025-05-26 11:49:54.604486"
 latest: "0.2.6--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/wade"
 aliases:

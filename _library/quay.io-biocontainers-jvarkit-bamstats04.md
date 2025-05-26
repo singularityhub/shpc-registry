@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jvarkit-bamstats04"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jvarkit-bamstats04/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jvarkit-bamstats04/container.yaml"
-updated_at: "2025-05-26 03:50:06.617454"
+updated_at: "2025-05-26 12:16:14.983497"
 latest: "2021.10.13--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jvarkit-bamstats04"
 aliases:

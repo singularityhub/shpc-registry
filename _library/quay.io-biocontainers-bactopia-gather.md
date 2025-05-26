@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bactopia-gather"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-gather/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-gather/container.yaml"
-updated_at: "2025-05-26 03:56:30.655348"
+updated_at: "2025-05-26 12:22:43.018543"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-gather"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refgenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refgenie/container.yaml"
-updated_at: "2025-05-26 03:23:13.018321"
+updated_at: "2025-05-26 11:49:26.042343"
 latest: "0.12.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refgenie"
 aliases:
