@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-file-fetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-fetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-fetch/container.yaml"
-updated_at: "2025-05-25 03:42:10.486338"
-latest: "1.04--pl5321hdfd78af_0"
+updated_at: "2025-05-26 03:38:33.688257"
+latest: "1.08--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-fetch"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.04--pl5321hdfd78af_0"
+ - "1.08--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-file-fetch"
-config: {"url": "https://biocontainers.pro/tools/perl-file-fetch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-fetch", "latest": {"1.04--pl5321hdfd78af_0": "sha256:c9e0026cba235d8f03cf84c7df8e2888a382b4861a111ec2459ee77e921b7100"}, "tags": {"1.04--pl5321hdfd78af_0": "sha256:c9e0026cba235d8f03cf84c7df8e2888a382b4861a111ec2459ee77e921b7100"}, "docker": "quay.io/biocontainers/perl-file-fetch", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-fetch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-fetch", "latest": {"1.08--pl5321hdfd78af_0": "sha256:8200fee2518894635bdcf299e015fda8d25f44ba44c83e05a608a6869374712c"}, "tags": {"1.04--pl5321hdfd78af_0": "sha256:c9e0026cba235d8f03cf84c7df8e2888a382b4861a111ec2459ee77e921b7100", "1.08--pl5321hdfd78af_0": "sha256:8200fee2518894635bdcf299e015fda8d25f44ba44c83e05a608a6869374712c"}, "docker": "quay.io/biocontainers/perl-file-fetch", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-fetch.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-file-fetch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-fetch:1.04--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-file-fetch:1.08--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-fetch/1.04--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-file-fetch/1.04--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-file-fetch/1.08--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-file-fetch/1.08--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
