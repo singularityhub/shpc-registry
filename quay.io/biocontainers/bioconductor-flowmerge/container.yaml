@@ -4,8 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-flo
 latest:
   2.54.0--r44hdfd78af_0: sha256:2bac51ae6963a4e9f2f12de91e17cbcfa1c37547f8af080bb7c5d904390865bb
 tags:
-  2.40.0--r41hdfd78af_0: 'crane digest quay.io/biocontainers/bioconductor-flowmerge:2.40.0--r41hdfd78af_0:
-    unrecognized HTTP status: 502 Bad Gateway'
+  2.40.0--r41hdfd78af_0: sha256:46190eb2cc7985afea40b6494d42b2077e89942686bd0b9d1386264cdf66dfa5
   2.46.0--r42hdfd78af_0: sha256:794aeb400b2d7726598fd2da50cacae6672693343c4e8da121d5da59586da267
   2.48.0--r43hdfd78af_0: sha256:899bac47d1fbe10c1c788f7a0ce6b82d2ea66aa9792fe0b75eccfdcd6903e278
   2.50.0--r43hdfd78af_0: sha256:97205351570c402beac048461781b8359e90b46eea05de3692f66e7ca5591848
