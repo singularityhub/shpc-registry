@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alfred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alfred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alfred/container.yaml"
-updated_at: "2025-05-27 03:55:46.442857"
+updated_at: "2025-05-27 11:45:44.506009"
 latest: "0.3.2--h4d20210_1"
 container_url: "https://biocontainers.pro/tools/alfred"
 aliases:

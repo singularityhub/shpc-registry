@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reactome-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reactome-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reactome-cli/container.yaml"
-updated_at: "2025-05-27 03:43:45.782665"
+updated_at: "2025-05-27 11:33:20.471235"
 latest: "0.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reactome-cli"
 aliases:

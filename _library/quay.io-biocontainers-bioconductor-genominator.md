@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genominator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genominator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genominator/container.yaml"
-updated_at: "2025-05-27 03:37:16.281006"
+updated_at: "2025-05-27 11:26:37.138107"
 latest: "1.40.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genominator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-papi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-papi/container.yaml"
-updated_at: "2025-05-27 03:47:17.317233"
+updated_at: "2025-05-27 11:36:56.703606"
 latest: "1.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-papi"
 aliases:
