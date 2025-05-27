@@ -1,0 +1,13 @@
+docker: quay.io/jupyter/datascience-notebook
+url: https://quay.io/repository/jupyter/datascience-notebook
+maintainer: '@HasseJohansen'
+description: Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks
+latest:
+  '2025-05-26': sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
+tags:
+  '2025-05-26': sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
+filter:
+- 2025-*
+aliases:
+- name: run-notebook
+  command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0
