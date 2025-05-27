@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pedesigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pedesigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pedesigner/container.yaml"
-updated_at: "2025-05-27 15:19:29.288890"
+updated_at: "2025-05-27 19:57:04.708866"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pedesigner"
 aliases:

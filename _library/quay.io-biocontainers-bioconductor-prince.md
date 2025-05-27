@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prince"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prince/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prince/container.yaml"
-updated_at: "2025-05-27 15:48:51.519603"
+updated_at: "2025-05-27 20:27:29.928236"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prince"
 aliases:

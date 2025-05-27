@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-test2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-test2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-test2cdf/container.yaml"
-updated_at: "2025-05-27 15:44:53.904570"
+updated_at: "2025-05-27 20:23:25.696525"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-test2cdf"
 

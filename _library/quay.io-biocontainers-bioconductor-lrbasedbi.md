@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lrbasedbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrbasedbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrbasedbi/container.yaml"
-updated_at: "2025-05-27 15:49:41.386066"
+updated_at: "2025-05-27 20:28:21.103501"
 latest: "2.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrbasedbi"
 
