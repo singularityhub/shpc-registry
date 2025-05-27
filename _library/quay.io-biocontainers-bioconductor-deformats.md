@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deformats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deformats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deformats/container.yaml"
-updated_at: "2025-05-27 12:16:59.277489"
+updated_at: "2025-05-27 15:37:40.179604"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deformats"
 aliases:
