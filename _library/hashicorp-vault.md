@@ -4,7 +4,7 @@ name:  "hashicorp/vault"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/hashicorp/vault/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/hashicorp/vault/container.yaml"
-updated_at: "2025-05-27 19:52:41.864212"
+updated_at: "2025-05-27 22:54:15.343723"
 latest: "1.19"
 container_url: "https://hub.docker.com/hashicorp/vault"
 aliases:
