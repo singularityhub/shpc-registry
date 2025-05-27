@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/smithwaterman
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for smithwaterman
+latest:
+  1.0.0--h9948957_0: sha256:87cc7439f8312e49192dc934bad7f55ce66140c97f1d888662b50fe25b851d8e
+tags:
+  1.0.0--h9948957_0: sha256:87cc7439f8312e49192dc934bad7f55ce66140c97f1d888662b50fe25b851d8e
+docker: quay.io/biocontainers/smithwaterman
+aliases:
+  smithwaterman: /usr/local/bin/smithwaterman

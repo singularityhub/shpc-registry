@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/unetcoreograph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unetcoreograph
+latest:
+  2.4.3--hdfd78af_0: sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd
+tags:
+  2.4.3--hdfd78af_0: sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd
+docker: quay.io/biocontainers/unetcoreograph
+aliases:
+  h5fuse: /usr/local/bin/h5fuse
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  dav1d: /usr/local/bin/dav1d
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
