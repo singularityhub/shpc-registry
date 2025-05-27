@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/bio2zarr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bio2zarr
+latest:
+  0.1.6--pyhdfd78af_0: sha256:ef111ecb4ec0ab7eb0766c1826fd9134e0bb081585209bdd9481f700835488f1
+tags:
+  0.1.6--pyhdfd78af_0: sha256:ef111ecb4ec0ab7eb0766c1826fd9134e0bb081585209bdd9481f700835488f1
+docker: quay.io/biocontainers/bio2zarr
+aliases:
+  plink2zarr: /usr/local/bin/plink2zarr
+  tskit: /usr/local/bin/tskit
+  tskit2zarr: /usr/local/bin/tskit2zarr
+  vcf2zarr: /usr/local/bin/vcf2zarr
+  vcfpartition: /usr/local/bin/vcfpartition
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  annot-tsv: /usr/local/bin/annot-tsv
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabulate: /usr/local/bin/tabulate
+  numpy-config: /usr/local/bin/numpy-config
+  jsonschema: /usr/local/bin/jsonschema
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
