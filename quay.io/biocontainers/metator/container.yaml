@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metator
 latest:
-  1.3.7--py310h184ae93_0: sha256:7721be1aa351decc23b03a806e671dac57815d17f082e954b3ebf1cdbd0c83f1
+  1.3.10--py310h184ae93_0: sha256:fe2453193a7cb0eb2a8d615185422fc4f2ce84cc83f8a4eea98299392b3cba0f
 tags:
   1.3.7--py310h184ae93_0: sha256:7721be1aa351decc23b03a806e671dac57815d17f082e954b3ebf1cdbd0c83f1
   1.3.7--py39h2de1943_0: sha256:464210b3bd16aefe06722a6f4fa11c7899a95b9da26fcd1969aa1a005df047ee
+  1.3.10--py310h184ae93_0: sha256:fe2453193a7cb0eb2a8d615185422fc4f2ce84cc83f8a4eea98299392b3cba0f
 docker: quay.io/biocontainers/metator
 aliases:
   boostchr.pl: /usr/local/bin/boostchr.pl

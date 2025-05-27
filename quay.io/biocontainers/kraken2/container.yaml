@@ -13,6 +13,7 @@ tags:
   2.1.3--pl5321hdcf5f25_3: sha256:9ea12c3f39c41ff7631f02e18ac5b492ae38bfe3d47cbcd05e874f48ec37c56b
   2.1.3--pl5321h077b44d_4: sha256:a57825271a3306c9d35bee7ab6b497032fe34c37919165c0c235b5080ac5b3da
   2.14--pl5321h077b44d_0: sha256:bb8bc0cf086413faf02715d060457f6078ff271f6d18d54b2734d740ac27e2d6
+  2.1.5--pl5321h077b44d_0: sha256:3fc4bff398ade0eba6674cc60d1de4879a26ec0e8f0ef0c27dc8decbed167db4
 docker: quay.io/biocontainers/kraken2
 aliases:
   kraken2: /usr/local/bin/kraken2
