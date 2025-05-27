@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepvariant/container.yaml"
-updated_at: "2025-05-26 12:19:06.718999"
-latest: "1.5.0--py36hf3e76ba_0"
+updated_at: "2025-05-27 03:47:01.077197"
+latest: "1.9.0--pyh697b589_0"
 container_url: "https://biocontainers.pro/tools/deepvariant"
 aliases:
  - "bq"
@@ -27,8 +27,10 @@ aliases:
 versions:
  - "1.4.0--py36hf3e76ba_0"
  - "1.5.0--py36hf3e76ba_0"
+ - "1.9.0--pyh697b589_0"
+ - "1.8.0--pyh697b589_0"
 description: "shpc-registry automated BioContainers addition for deepvariant"
-config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.5.0--py36hf3e76ba_0": "sha256:1c34e133cd05dfe3c19468670c0011f6df639d7459710cced7cda2954f5a9da6"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3", "1.5.0--py36hf3e76ba_0": "sha256:1c34e133cd05dfe3c19468670c0011f6df639d7459710cced7cda2954f5a9da6"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "freeze_graph": "/usr/local/bin/freeze_graph", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "unzip": "/usr/local/bin/unzip", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb"}}
+config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.9.0--pyh697b589_0": "sha256:94678441a0056851502a7e0502c0e9fa03951816fb596bd9e6bc30680fd42e00"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3", "1.5.0--py36hf3e76ba_0": "sha256:1c34e133cd05dfe3c19468670c0011f6df639d7459710cced7cda2954f5a9da6", "1.9.0--pyh697b589_0": "sha256:94678441a0056851502a7e0502c0e9fa03951816fb596bd9e6bc30680fd42e00", "1.8.0--pyh697b589_0": "sha256:68c78859826e2c7dc40a460f3f0c3b9818b05c0522f43731910f0a7efb047d96"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "freeze_graph": "/usr/local/bin/freeze_graph", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "unzip": "/usr/local/bin/unzip", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepvariant.
@@ -43,7 +45,7 @@ $ shpc install quay.io/biocontainers/deepvariant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepvariant:1.5.0--py36hf3e76ba_0
+$ shpc install quay.io/biocontainers/deepvariant:1.9.0--pyh697b589_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepvariant/1.5.0--py36hf3e76ba_0
-$ module help quay.io/biocontainers/deepvariant/1.5.0--py36hf3e76ba_0
+$ module load quay.io/biocontainers/deepvariant/1.9.0--pyh697b589_0
+$ module help quay.io/biocontainers/deepvariant/1.9.0--pyh697b589_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

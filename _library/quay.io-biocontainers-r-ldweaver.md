@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ldweaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldweaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldweaver/container.yaml"
-updated_at: "2025-05-26 12:14:15.820889"
-latest: "1.5.1--r43hdbdd923_0"
+updated_at: "2025-05-27 03:42:11.717128"
+latest: "1.5.2--r43h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/r-ldweaver"
 aliases:
  - "2to3-3.12"
@@ -33,8 +33,9 @@ versions:
  - "1.4--r43hdbdd923_0"
  - "1.5--r43hdbdd923_0"
  - "1.5.1--r43hdbdd923_0"
+ - "1.5.2--r43h5ca1c30_0"
 description: "singularity registry hpc automated addition for r-ldweaver"
-config: {"url": "https://biocontainers.pro/tools/r-ldweaver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ldweaver", "latest": {"1.5.1--r43hdbdd923_0": "sha256:a16cecb51d93523cf4e0ba12f7dcb6bf651c0e37412a24ca471198cc2239418b"}, "tags": {"1.2--r43hdbdd923_0": "sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418", "1.3.1--r43hdbdd923_0": "sha256:ea683acb70033d4e3dfcd8503b777e461f6bf08b006a1c4a6d7804c54d18b98c", "1.4--r43hdbdd923_0": "sha256:d711ca69b2ab4313e2a80eb6a3be2dc2175e9bfdbc3a5cac891f900a2c98b22d", "1.5--r43hdbdd923_0": "sha256:b83b11c4fae82362bc87ccfb0f68a8bc7b6a4dd4336c5f14c07e33a3ce0b1234", "1.5.1--r43hdbdd923_0": "sha256:a16cecb51d93523cf4e0ba12f7dcb6bf651c0e37412a24ca471198cc2239418b"}, "docker": "quay.io/biocontainers/r-ldweaver", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-ldweaver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ldweaver", "latest": {"1.5.2--r43h5ca1c30_0": "sha256:cdebf21e2a97c501f4757a8ed1db1f5284224bd7c444deb63775adc1f884fb04"}, "tags": {"1.2--r43hdbdd923_0": "sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418", "1.3.1--r43hdbdd923_0": "sha256:ea683acb70033d4e3dfcd8503b777e461f6bf08b006a1c4a6d7804c54d18b98c", "1.4--r43hdbdd923_0": "sha256:d711ca69b2ab4313e2a80eb6a3be2dc2175e9bfdbc3a5cac891f900a2c98b22d", "1.5--r43hdbdd923_0": "sha256:b83b11c4fae82362bc87ccfb0f68a8bc7b6a4dd4336c5f14c07e33a3ce0b1234", "1.5.1--r43hdbdd923_0": "sha256:a16cecb51d93523cf4e0ba12f7dcb6bf651c0e37412a24ca471198cc2239418b", "1.5.2--r43h5ca1c30_0": "sha256:cdebf21e2a97c501f4757a8ed1db1f5284224bd7c444deb63775adc1f884fb04"}, "docker": "quay.io/biocontainers/r-ldweaver", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ldweaver.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/r-ldweaver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ldweaver:1.5.1--r43hdbdd923_0
+$ shpc install quay.io/biocontainers/r-ldweaver:1.5.2--r43h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ldweaver/1.5.1--r43hdbdd923_0
-$ module help quay.io/biocontainers/r-ldweaver/1.5.1--r43hdbdd923_0
+$ module load quay.io/biocontainers/r-ldweaver/1.5.2--r43h5ca1c30_0
+$ module help quay.io/biocontainers/r-ldweaver/1.5.2--r43h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aliceasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aliceasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aliceasm/container.yaml"
-updated_at: "2025-05-26 12:16:19.852732"
+updated_at: "2025-05-27 03:44:14.619847"
 latest: "0.6.34--h9948957_0"
 container_url: "https://biocontainers.pro/tools/aliceasm"
 aliases:

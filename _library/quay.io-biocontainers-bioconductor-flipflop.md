@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flipflop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flipflop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flipflop/container.yaml"
-updated_at: "2025-05-26 12:13:44.098140"
+updated_at: "2025-05-27 03:41:40.617781"
 latest: "1.18.0--r351hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flipflop"
 aliases:

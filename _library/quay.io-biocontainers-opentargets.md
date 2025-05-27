@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opentargets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets/container.yaml"
-updated_at: "2025-05-26 12:19:06.430053"
+updated_at: "2025-05-27 03:47:00.792445"
 latest: "3.1.16--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/opentargets"
 

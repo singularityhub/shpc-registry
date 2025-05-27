@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cogent3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cogent3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cogent3/container.yaml"
-updated_at: "2025-05-26 12:02:34.763647"
-latest: "2025.3.22a4--pyhdfd78af_0"
+updated_at: "2025-05-27 03:30:37.403954"
+latest: "2025.5.8a6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cogent3"
 aliases:
  - "numba"
@@ -36,8 +36,9 @@ versions:
  - "2024.12.19a2--pyhdfd78af_0"
  - "2025.3.22a2--pyhdfd78af_0"
  - "2025.3.22a4--pyhdfd78af_0"
+ - "2025.5.8a6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cogent3"
-config: {"url": "https://biocontainers.pro/tools/cogent3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cogent3", "latest": {"2025.3.22a4--pyhdfd78af_0": "sha256:a10580b1ca8ee8f766a58874331fe2e164eacc08d1f547b85d1ad7146526fd33"}, "tags": {"2022.8.24a1--pyhdfd78af_0": "sha256:1b0138ed723f6016e7ecd6f1fd5c459ca5f1aba1383c448d80d5271e8cdd99fd", "2023.7.18a1--pyhdfd78af_0": "sha256:91a8398da9748f6a96f103302338c0e9ea458b49091e374c92de649ac01c02a7", "2023.9.22a1--pyhdfd78af_0": "sha256:0a6e0ad7e0508b05159fee92441b5f21904d79274075c6066d1944c14f821bc0", "2023.12.15a1--pyhdfd78af_0": "sha256:7f6d49fe8136331710d09211d1370806563150ad6b93f58158afa41b1965f4c2", "2024.2.5a1--pyhdfd78af_0": "sha256:43cf4f70135cf212f705dfb035f93fb6c6ed39f7274983d9ee3ea85a00f91338", "2024.5.7a1--pyhdfd78af_0": "sha256:11dba48c768e4b0886e5c7c723ac7280e7121afec36a8db8998b99a7dcdf7885", "2024.7.19a1--pyhdfd78af_0": "sha256:dfb72c1dd4b13691b90dbf1d1cb844f9ea4863a1cf1c1cf1f665d73cbd73e34c", "2024.7.19a5--pyhdfd78af_0": "sha256:f24b05aa64505f72f9a6fbc1981f7c944606c6aa4165b99d4964df62c2e10054", "2024.7.19a6--pyhdfd78af_0": "sha256:1b75fa6f8f35a496b644ac82e323a8c936b1b703b756b93537b52cc5053288fb", "2024.7.19a8--pyhdfd78af_0": "sha256:a6ff051fbc61d075f48997e4d63c2e42f55f2e0345c5da9e244536485e53ef94", "2024.7.19a9--pyhdfd78af_0": "sha256:6dc4fb77ef8384d8a05fad2e98eba2f6357b62c7618ede61f4253b53807b9efd", "2024.12.19a1--pyhdfd78af_0": "sha256:0dc87528ae847099fe46a0ca874b4497e0703e9e219279be35b8f8db147e390d", "2024.11.29a2--pyhdfd78af_0": "sha256:779f850f6faa89d90bf50b28b6fdf72e031845d99fe709c27fbde502b5852620", "2024.12.19a2--pyhdfd78af_0": "sha256:0cc78510348d8d50d69155a8b625eeeb2e440fb9c1eb86be84eb611c0974d005", "2025.3.22a2--pyhdfd78af_0": "sha256:fc43d0c103d9af1606f529048e669ee9efd9875792741ecf64f461478e3490e6", "2025.3.22a4--pyhdfd78af_0": "sha256:a10580b1ca8ee8f766a58874331fe2e164eacc08d1f547b85d1ad7146526fd33"}, "docker": "quay.io/biocontainers/cogent3", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/cogent3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cogent3", "latest": {"2025.5.8a6--pyhdfd78af_0": "sha256:fbcc78c7d91a6735d0d7e4556feee23dcf873d8bed219196c07de68f68037e0b"}, "tags": {"2022.8.24a1--pyhdfd78af_0": "sha256:1b0138ed723f6016e7ecd6f1fd5c459ca5f1aba1383c448d80d5271e8cdd99fd", "2023.7.18a1--pyhdfd78af_0": "sha256:91a8398da9748f6a96f103302338c0e9ea458b49091e374c92de649ac01c02a7", "2023.9.22a1--pyhdfd78af_0": "sha256:0a6e0ad7e0508b05159fee92441b5f21904d79274075c6066d1944c14f821bc0", "2023.12.15a1--pyhdfd78af_0": "sha256:7f6d49fe8136331710d09211d1370806563150ad6b93f58158afa41b1965f4c2", "2024.2.5a1--pyhdfd78af_0": "sha256:43cf4f70135cf212f705dfb035f93fb6c6ed39f7274983d9ee3ea85a00f91338", "2024.5.7a1--pyhdfd78af_0": "sha256:11dba48c768e4b0886e5c7c723ac7280e7121afec36a8db8998b99a7dcdf7885", "2024.7.19a1--pyhdfd78af_0": "sha256:dfb72c1dd4b13691b90dbf1d1cb844f9ea4863a1cf1c1cf1f665d73cbd73e34c", "2024.7.19a5--pyhdfd78af_0": "sha256:f24b05aa64505f72f9a6fbc1981f7c944606c6aa4165b99d4964df62c2e10054", "2024.7.19a6--pyhdfd78af_0": "sha256:1b75fa6f8f35a496b644ac82e323a8c936b1b703b756b93537b52cc5053288fb", "2024.7.19a8--pyhdfd78af_0": "sha256:a6ff051fbc61d075f48997e4d63c2e42f55f2e0345c5da9e244536485e53ef94", "2024.7.19a9--pyhdfd78af_0": "sha256:6dc4fb77ef8384d8a05fad2e98eba2f6357b62c7618ede61f4253b53807b9efd", "2024.12.19a1--pyhdfd78af_0": "sha256:0dc87528ae847099fe46a0ca874b4497e0703e9e219279be35b8f8db147e390d", "2024.11.29a2--pyhdfd78af_0": "sha256:779f850f6faa89d90bf50b28b6fdf72e031845d99fe709c27fbde502b5852620", "2024.12.19a2--pyhdfd78af_0": "sha256:0cc78510348d8d50d69155a8b625eeeb2e440fb9c1eb86be84eb611c0974d005", "2025.3.22a2--pyhdfd78af_0": "sha256:fc43d0c103d9af1606f529048e669ee9efd9875792741ecf64f461478e3490e6", "2025.3.22a4--pyhdfd78af_0": "sha256:a10580b1ca8ee8f766a58874331fe2e164eacc08d1f547b85d1ad7146526fd33", "2025.5.8a6--pyhdfd78af_0": "sha256:fbcc78c7d91a6735d0d7e4556feee23dcf873d8bed219196c07de68f68037e0b"}, "docker": "quay.io/biocontainers/cogent3", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cogent3.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cogent3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cogent3:2025.3.22a4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cogent3:2025.5.8a6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cogent3/2025.3.22a4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cogent3/2025.3.22a4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cogent3/2025.5.8a6--pyhdfd78af_0
+$ module help quay.io/biocontainers/cogent3/2025.5.8a6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

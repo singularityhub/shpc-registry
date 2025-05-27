@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metagene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagene/container.yaml"
-updated_at: "2025-05-26 11:56:44.796285"
+updated_at: "2025-05-27 03:24:48.265178"
 latest: "2.31.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagene"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/renano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/renano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/renano/container.yaml"
-updated_at: "2025-05-26 12:11:28.905786"
+updated_at: "2025-05-27 03:39:28.510683"
 latest: "1.3--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/renano"
 aliases:

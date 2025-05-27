@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isaac4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isaac4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isaac4/container.yaml"
-updated_at: "2025-05-26 12:03:48.895508"
+updated_at: "2025-05-27 03:31:50.922730"
 latest: "04.18.11.09--h07bff40_0"
 container_url: "https://biocontainers.pro/tools/isaac4"
 aliases:

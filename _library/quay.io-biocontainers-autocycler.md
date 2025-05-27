@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autocycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autocycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autocycler/container.yaml"
-updated_at: "2025-05-26 12:22:13.254918"
+updated_at: "2025-05-27 03:50:04.670607"
 latest: "0.4.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/autocycler"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "0.4.0--h3ab6199_0"
  - "0.3.0--h3ab6199_0"
 description: "singularity registry hpc automated addition for autocycler"
-config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729", "0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03", "0.3.0--h3ab6199_0": "crane digest quay.io/biocontainers/autocycler:0.3.0--h3ab6199_0: unrecognized HTTP status: 502 Bad Gateway"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
+config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729", "0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03", "0.3.0--h3ab6199_0": "sha256:229a995a856ad394f4b37c3fd3665e43f94414419c107ccf3ea3cbf44eb6b5e9"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autocycler.

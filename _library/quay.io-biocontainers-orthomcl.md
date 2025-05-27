@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthomcl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthomcl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthomcl/container.yaml"
-updated_at: "2025-05-26 11:47:46.658614"
+updated_at: "2025-05-27 03:15:48.997825"
 latest: "2.0.9--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/orthomcl"
 aliases:

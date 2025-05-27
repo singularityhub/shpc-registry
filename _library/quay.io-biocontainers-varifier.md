@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varifier/container.yaml"
-updated_at: "2025-05-26 12:33:29.680426"
+updated_at: "2025-05-27 04:01:19.560958"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varifier"
 aliases:
