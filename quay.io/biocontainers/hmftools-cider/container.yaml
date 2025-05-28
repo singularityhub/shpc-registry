@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hmftools-cider
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-cider
 latest:
-  1.0.3--hdfd78af_0: sha256:e8a9c169b5480d3f036d54a476d0ca54158853e11ebe5b85ab40ee29d3b349de
+  1.0.4--hdfd78af_0: sha256:d60679f747cd871713442bef9db677e3da6a437a227878da356fadc351d88ed8
 tags:
   1.0.3--hdfd78af_0: sha256:e8a9c169b5480d3f036d54a476d0ca54158853e11ebe5b85ab40ee29d3b349de
+  1.0.4--hdfd78af_0: sha256:d60679f747cd871713442bef9db677e3da6a437a227878da356fadc351d88ed8
 docker: quay.io/biocontainers/hmftools-cider
 aliases:
   cider: /usr/local/bin/cider

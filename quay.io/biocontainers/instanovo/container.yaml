@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/instanovo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for instanovo
 latest:
-  1.1.1--pyhdfd78af_0: sha256:9f16d2bddaf23f5d50ffcc27e36286af5d569bea8742e4f095748c7ac630a556
+  1.1.2--pyhdfd78af_0: sha256:f5f93712066ca1b9716dc0867881b3af60e90698a293d6a6614a2565a6b830c5
 tags:
   1.0.0--pyhdfd78af_0: sha256:e28eabae0be906b7bdf48335d561023d6ced5c332be9913e3ed0b0b3659f69e4
   1.1.1--pyhdfd78af_0: sha256:9f16d2bddaf23f5d50ffcc27e36286af5d569bea8742e4f095748c7ac630a556
+  1.1.2--pyhdfd78af_0: sha256:f5f93712066ca1b9716dc0867881b3af60e90698a293d6a6614a2565a6b830c5
 docker: quay.io/biocontainers/instanovo
 aliases:
   datasets-cli: /usr/local/bin/datasets-cli

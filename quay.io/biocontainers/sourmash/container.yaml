@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/sourmash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sourmash
 latest:
-  4.8.14--hdfd78af_0: sha256:3277b243c6bc37f3b958be077cd29f2be70eb0050a3ff0ad127a742e36b19c1d
+  4.9.0--hdfd78af_0: sha256:ee3030a185f71b658a9e0198d445fe05c3db071f0be281b1af83aa74bf8d6c89
 tags:
   2.0.0a9--py35hfc679d8_0: sha256:215d557b61de173de83ebb47b43248c1a564a5e2e5a01bbf2c98e9885b56a5f0
   2.0.0a11--py35hfc679d8_0: sha256:604da7a56c5344033e6dd4406a7a93426cef5b8ea2ad03f36b744182592f3e00
@@ -17,6 +17,7 @@ tags:
   4.8.11--hdfd78af_0: sha256:3d8cfb6cb2ebae5ee08decebde4be6e307b692d9b33632726953758fb94f4ad4
   4.8.12--hdfd78af_0: sha256:22663014fde1d887ff00de57fbd444f4468b71f56830b0f67b220198187d6a3d
   4.8.14--hdfd78af_0: sha256:3277b243c6bc37f3b958be077cd29f2be70eb0050a3ff0ad127a742e36b19c1d
+  4.9.0--hdfd78af_0: sha256:ee3030a185f71b658a9e0198d445fe05c3db071f0be281b1af83aa74bf8d6c89
 docker: quay.io/biocontainers/sourmash
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
