@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/twilight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twilight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twilight/container.yaml"
-updated_at: "2025-05-27 23:36:37.913500"
-latest: "0.1.2--h5ca1c30_1"
+updated_at: "2025-05-28 03:55:00.424221"
+latest: "0.1.3--h6bb9b41_2"
 container_url: "https://biocontainers.pro/tools/twilight"
 aliases:
  - "twilight"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1.1--h5ca1c30_0"
  - "0.1.2--h5ca1c30_1"
+ - "0.1.3--h6bb9b41_2"
 description: "singularity registry hpc automated addition for twilight"
-config: {"url": "https://biocontainers.pro/tools/twilight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twilight", "latest": {"0.1.2--h5ca1c30_1": "sha256:71f29b4dc9e76102ed490735b0f5d67919c63d6ab18f062d2d6d05361ef7fc71"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:5f9fc2cf6f69becab69808399ecc7b236dc7addb60733ff5ff0c7fadff604e8d", "0.1.2--h5ca1c30_1": "sha256:71f29b4dc9e76102ed490735b0f5d67919c63d6ab18f062d2d6d05361ef7fc71"}, "docker": "quay.io/biocontainers/twilight", "aliases": {"twilight": "/usr/local/bin/twilight", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/twilight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twilight", "latest": {"0.1.3--h6bb9b41_2": "sha256:53a3fdf599337607fb8661c24184aa0f5db54a82547ccddde7787c447b829012"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:5f9fc2cf6f69becab69808399ecc7b236dc7addb60733ff5ff0c7fadff604e8d", "0.1.2--h5ca1c30_1": "sha256:71f29b4dc9e76102ed490735b0f5d67919c63d6ab18f062d2d6d05361ef7fc71", "0.1.3--h6bb9b41_2": "sha256:53a3fdf599337607fb8661c24184aa0f5db54a82547ccddde7787c447b829012"}, "docker": "quay.io/biocontainers/twilight", "aliases": {"twilight": "/usr/local/bin/twilight", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/twilight.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/twilight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/twilight:0.1.2--h5ca1c30_1
+$ shpc install quay.io/biocontainers/twilight:0.1.3--h6bb9b41_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/twilight/0.1.2--h5ca1c30_1
-$ module help quay.io/biocontainers/twilight/0.1.2--h5ca1c30_1
+$ module load quay.io/biocontainers/twilight/0.1.3--h6bb9b41_2
+$ module help quay.io/biocontainers/twilight/0.1.3--h6bb9b41_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

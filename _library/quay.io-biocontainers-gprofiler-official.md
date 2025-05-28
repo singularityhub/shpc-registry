@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gprofiler-official"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gprofiler-official/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gprofiler-official/container.yaml"
-updated_at: "2025-05-27 23:13:41.563657"
-latest: "1.0.0--py_0"
+updated_at: "2025-05-28 03:34:14.003053"
+latest: "1.0.0--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/gprofiler-official"
 aliases:
  - "chardetect"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.0.0--py_0"
+ - "1.0.0--pyh7e72e81_1"
 description: "shpc-registry automated BioContainers addition for gprofiler-official"
-config: {"url": "https://biocontainers.pro/tools/gprofiler-official", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gprofiler-official", "latest": {"1.0.0--py_0": "sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5"}, "tags": {"1.0.0--py_0": "sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5"}, "docker": "quay.io/biocontainers/gprofiler-official", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/gprofiler-official", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gprofiler-official", "latest": {"1.0.0--pyh7e72e81_1": "sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683"}, "tags": {"1.0.0--py_0": "sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5", "1.0.0--pyh7e72e81_1": "sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683"}, "docker": "quay.io/biocontainers/gprofiler-official", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gprofiler-official.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/gprofiler-official
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gprofiler-official:1.0.0--py_0
+$ shpc install quay.io/biocontainers/gprofiler-official:1.0.0--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gprofiler-official/1.0.0--py_0
-$ module help quay.io/biocontainers/gprofiler-official/1.0.0--py_0
+$ module load quay.io/biocontainers/gprofiler-official/1.0.0--pyh7e72e81_1
+$ module help quay.io/biocontainers/gprofiler-official/1.0.0--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
