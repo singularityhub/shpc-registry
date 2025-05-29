@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/groot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/groot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/groot/container.yaml"
-updated_at: "2025-05-29 03:38:17.371443"
+updated_at: "2025-05-29 04:23:14.790653"
 latest: "1.1.2--h047eeb3_6"
 container_url: "https://biocontainers.pro/tools/groot"
 aliases:

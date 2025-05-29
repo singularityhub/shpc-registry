@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recur/container.yaml"
-updated_at: "2025-05-29 03:20:02.494812"
+updated_at: "2025-05-29 04:05:48.509260"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recur"
 aliases:
