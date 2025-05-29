@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/scripps-msms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scripps-msms
+latest:
+  2.6.1--h9ee0642_0: sha256:5946560ae7b34324f4929c71e598976b36aee7a473ad2a8133ee76fa70421c6f
+tags:
+  2.6.1--h9ee0642_0: sha256:5946560ae7b34324f4929c71e598976b36aee7a473ad2a8133ee76fa70421c6f
+docker: quay.io/biocontainers/scripps-msms
+aliases:
+  msms: /usr/local/bin/msms
+  pdb_to_xyzr: /usr/local/bin/pdb_to_xyzr
+  pdb_to_xyzrn: /usr/local/bin/pdb_to_xyzrn
