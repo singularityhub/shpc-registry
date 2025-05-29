@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/mmcif
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mmcif
+latest:
+  0.91.0--py310h8ea774a_0: sha256:a5514e483afef2fdc43209a928241f7e4ee3b0b7b9d9bc16148fde1853592fb6
+tags:
+  0.91.0--py310h8ea774a_0: sha256:a5514e483afef2fdc43209a928241f7e4ee3b0b7b9d9bc16148fde1853592fb6
+docker: quay.io/biocontainers/mmcif
+aliases:
+  build_dict_cli: /usr/local/bin/build_dict_cli
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  normalizer: /usr/local/bin/normalizer
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

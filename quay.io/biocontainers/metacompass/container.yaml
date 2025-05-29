@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/metacompass
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacompass
+latest:
+  1.12--h9948957_0: sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
+tags:
+  1.12--h9948957_0: sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
+docker: quay.io/biocontainers/metacompass
+aliases:
+  go_metacompass.py: /usr/local/bin/go_metacompass.py
+  kmer-mask: /usr/local/bin/kmer-mask
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  megahit: /usr/local/bin/megahit
+  megahit_toolkit: /usr/local/bin/megahit_toolkit
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
