@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snap-aligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snap-aligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snap-aligner/container.yaml"
-updated_at: "2025-05-28 03:19:51.866859"
+updated_at: "2025-05-29 03:20:31.948306"
 latest: "2.0.5--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/snap-aligner"
 aliases:

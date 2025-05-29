@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastx/container.yaml"
-updated_at: "2025-05-28 03:20:10.035086"
+updated_at: "2025-05-29 03:20:52.177129"
 latest: "2.2.0--py39h0699b22_0"
 container_url: "https://biocontainers.pro/tools/pyfastx"
 aliases:
