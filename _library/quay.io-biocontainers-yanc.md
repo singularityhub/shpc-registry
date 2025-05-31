@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yanc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yanc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yanc/container.yaml"
-updated_at: "2025-05-30 04:03:25.849004"
+updated_at: "2025-05-31 04:02:32.957340"
 latest: "0.3.3--py36_1"
 container_url: "https://biocontainers.pro/tools/yanc"
 aliases:

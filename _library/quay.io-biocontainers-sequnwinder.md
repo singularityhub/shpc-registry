@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequnwinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequnwinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequnwinder/container.yaml"
-updated_at: "2025-05-30 03:21:26.524477"
+updated_at: "2025-05-31 03:20:23.391224"
 latest: "0.1.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sequnwinder"
 aliases:

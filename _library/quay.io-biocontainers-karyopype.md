@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/karyopype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/karyopype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/karyopype/container.yaml"
-updated_at: "2025-05-30 03:31:18.728950"
+updated_at: "2025-05-31 03:30:22.061105"
 latest: "0.1.6--py_0"
 container_url: "https://biocontainers.pro/tools/karyopype"
 aliases:

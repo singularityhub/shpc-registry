@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xpclr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpclr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xpclr/container.yaml"
-updated_at: "2025-05-30 03:56:00.197628"
+updated_at: "2025-05-31 03:55:13.922877"
 latest: "1.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/xpclr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-e1071"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-e1071/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-e1071/container.yaml"
-updated_at: "2025-05-30 03:46:25.929753"
+updated_at: "2025-05-31 03:45:42.688964"
 latest: "1.6_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-e1071"
 aliases:

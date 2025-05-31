@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/severus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/severus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/severus/container.yaml"
-updated_at: "2025-05-30 03:21:53.421356"
+updated_at: "2025-05-31 03:20:51.153007"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/severus"
 aliases:

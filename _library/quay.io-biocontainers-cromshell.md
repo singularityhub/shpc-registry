@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cromshell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cromshell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cromshell/container.yaml"
-updated_at: "2025-05-30 03:25:57.060501"
+updated_at: "2025-05-31 03:24:56.640529"
 latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cromshell"
 aliases:

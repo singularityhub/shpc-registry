@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calour"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calour/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calour/container.yaml"
-updated_at: "2025-05-30 03:21:49.499027"
+updated_at: "2025-05-31 03:20:47.136011"
 latest: "2020.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/calour"
 aliases:

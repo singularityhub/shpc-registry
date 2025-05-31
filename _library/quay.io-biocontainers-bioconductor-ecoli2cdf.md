@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecoli2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoli2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoli2cdf/container.yaml"
-updated_at: "2025-05-30 03:48:48.293475"
+updated_at: "2025-05-31 03:48:02.168357"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoli2cdf"
 

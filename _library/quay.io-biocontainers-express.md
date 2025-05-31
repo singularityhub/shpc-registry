@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/express"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/express/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/express/container.yaml"
-updated_at: "2025-05-30 03:48:30.891773"
+updated_at: "2025-05-31 03:47:44.876590"
 latest: "1.5.1--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/express"
 aliases:
