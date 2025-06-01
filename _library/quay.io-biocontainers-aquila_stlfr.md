@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquila_stlfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila_stlfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquila_stlfr/container.yaml"
-updated_at: "2025-05-31 03:26:33.325328"
+updated_at: "2025-06-01 03:56:22.794086"
 latest: "1.2.11--py_0"
 container_url: "https://biocontainers.pro/tools/aquila_stlfr"
 aliases:

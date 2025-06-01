@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/antismash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/antismash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/antismash/container.yaml"
-updated_at: "2025-05-31 03:33:02.440918"
+updated_at: "2025-06-01 04:02:37.367868"
 latest: "8.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/antismash"
 aliases:

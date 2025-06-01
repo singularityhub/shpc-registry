@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnvrd2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvrd2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvrd2/container.yaml"
-updated_at: "2025-05-31 03:17:19.693793"
+updated_at: "2025-06-01 03:47:26.237719"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvrd2"
 aliases:

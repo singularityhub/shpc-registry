@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-color-theme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-color-theme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-color-theme/container.yaml"
-updated_at: "2025-05-31 03:27:07.548773"
+updated_at: "2025-06-01 03:56:55.840362"
 latest: "0.10.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-color-theme"
 aliases:

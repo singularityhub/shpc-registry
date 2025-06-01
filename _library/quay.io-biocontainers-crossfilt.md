@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crossfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crossfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crossfilt/container.yaml"
-updated_at: "2025-05-31 03:59:54.273415"
+updated_at: "2025-06-01 04:28:21.032191"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crossfilt"
 aliases:
