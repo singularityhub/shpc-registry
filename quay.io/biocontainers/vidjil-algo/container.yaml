@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vidjil-algo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vidjil-algo
+latest:
+  2025.02--h077b44d_0: sha256:94da6f000be3ce1e97fdadeb2d728e63578607af0ad06d8e34adc2a137e12821
+tags:
+  2025.02--h077b44d_0: sha256:94da6f000be3ce1e97fdadeb2d728e63578607af0ad06d8e34adc2a137e12821
+docker: quay.io/biocontainers/vidjil-algo
+aliases:
+  vidjil-algo: /usr/local/bin/vidjil-algo

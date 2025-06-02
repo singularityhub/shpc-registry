@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/magmax
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for magmax
+latest:
+  1.0.0--ha6fb395_0: sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486
+tags:
+  1.0.0--ha6fb395_0: sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486
+docker: quay.io/biocontainers/magmax
+aliases:
+  binspreader: /usr/local/bin/binspreader
+  magmax: /usr/local/bin/magmax
+  pathracer: /usr/local/bin/pathracer
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  skani: /usr/local/bin/skani
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
+  spades-hpc: /usr/local/bin/spades-hpc
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  spaligner: /usr/local/bin/spaligner
+  spades-convert-bin-to-fasta: /usr/local/bin/spades-convert-bin-to-fasta
+  spades-gsimplifier: /usr/local/bin/spades-gsimplifier
+  spades-kmer-estimating: /usr/local/bin/spades-kmer-estimating
+  spades-read-filter: /usr/local/bin/spades-read-filter
+  spades-bwa: /usr/local/bin/spades-bwa
+  spades-core: /usr/local/bin/spades-core
+  spades-corrector-core: /usr/local/bin/spades-corrector-core
+  spades-gbuilder: /usr/local/bin/spades-gbuilder
+  spades-gmapper: /usr/local/bin/spades-gmapper
+  spades-hammer: /usr/local/bin/spades-hammer
+  spades-ionhammer: /usr/local/bin/spades-ionhammer
+  spades-kmercount: /usr/local/bin/spades-kmercount
+  metaspades.py: /usr/local/bin/metaspades.py
+  plasmidspades.py: /usr/local/bin/plasmidspades.py
+  rnaspades.py: /usr/local/bin/rnaspades.py
+  spades.py: /usr/local/bin/spades.py
+  spades_init.py: /usr/local/bin/spades_init.py
+  seqtk: /usr/local/bin/seqtk
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC

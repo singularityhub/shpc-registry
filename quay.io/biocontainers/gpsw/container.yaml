@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/gpsw
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gpsw
+latest:
+  0.6.3--pyhdfd78af_0: sha256:7c4dd10779e0dbbd7f730ef955b2a69b44ff80deeccea8f9ac9efa2f8102d2c9
+tags:
+  0.6.3--pyhdfd78af_0: sha256:7c4dd10779e0dbbd7f730ef955b2a69b44ff80deeccea8f9ac9efa2f8102d2c9
+docker: quay.io/biocontainers/gpsw
+aliases:
+  apptainer: /usr/local/bin/apptainer
+  cnitool: /usr/local/bin/cnitool
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  fuse-overlayfs: /usr/local/bin/fuse-overlayfs
+  gpsw: /usr/local/bin/gpsw
+  mksquashfs: /usr/local/bin/mksquashfs
+  mount.fuse3: /usr/local/bin/mount.fuse3
+  run-singularity: /usr/local/bin/run-singularity
+  scmp_sys_resolver: /usr/local/bin/scmp_sys_resolver
+  singularity: /usr/local/bin/singularity
+  sqfscat: /usr/local/bin/sqfscat
+  sqfstar: /usr/local/bin/sqfstar
+  squashfuse: /usr/local/bin/squashfuse
+  squashfuse_ll: /usr/local/bin/squashfuse_ll
+  unsquashfs: /usr/local/bin/unsquashfs
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  bsdunzip: /usr/local/bin/bsdunzip
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake: /usr/local/bin/snakemake

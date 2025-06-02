@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/unmicst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unmicst
+latest:
+  2.6.6--pyh7e72e81_0: sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
+tags:
+  2.6.6--pyh7e72e81_0: sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
+docker: quay.io/biocontainers/unmicst
+aliases:
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  flatc: /usr/local/bin/flatc
+  rav1e: /usr/local/bin/rav1e
+  h5fuse: /usr/local/bin/h5fuse
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  dav1d: /usr/local/bin/dav1d
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli

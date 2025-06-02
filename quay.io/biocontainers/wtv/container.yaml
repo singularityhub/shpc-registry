@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/wtv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for wtv
+latest:
+  0.0.2--pyhdfd78af_0: sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a
+tags:
+  0.0.2--pyhdfd78af_0: sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a
+docker: quay.io/biocontainers/wtv
+aliases:
+  wtv-cli: /usr/local/bin/wtv-cli
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pg_config: /usr/local/bin/pg_config
+  numba: /usr/local/bin/numba
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
