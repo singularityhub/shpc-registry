@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ltr_harvest_parallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_harvest_parallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_harvest_parallel/container.yaml"
-updated_at: "2025-06-01 04:11:29.855227"
-latest: "1.2--hdfd78af_0"
+updated_at: "2025-06-02 03:52:16.999407"
+latest: "1.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ltr_harvest_parallel"
 aliases:
  - "LTR_HARVEST_parallel"
@@ -22,8 +22,9 @@ versions:
  - "1.1--hdfd78af_0"
  - "1.1--hdfd78af_1"
  - "1.2--hdfd78af_0"
+ - "1.2--hdfd78af_2"
 description: "singularity registry hpc automated addition for ltr_harvest_parallel"
-config: {"url": "https://biocontainers.pro/tools/ltr_harvest_parallel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ltr_harvest_parallel", "latest": {"1.2--hdfd78af_0": "sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806"}, "tags": {"1.1--hdfd78af_0": "sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755", "1.1--hdfd78af_1": "sha256:90da79dc3f17f8feb4fa2563fc449f18084b4dc3e379f70ca3130ee90e253d10", "1.2--hdfd78af_0": "sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806"}, "docker": "quay.io/biocontainers/ltr_harvest_parallel", "aliases": {"LTR_HARVEST_parallel": "/usr/local/bin/LTR_HARVEST_parallel", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_harvest_parallel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ltr_harvest_parallel", "latest": {"1.2--hdfd78af_2": "sha256:df2dea0676c2345c69c8aa719f74254815ba82728e64617c83c3d5bd26e6baab"}, "tags": {"1.1--hdfd78af_0": "sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755", "1.1--hdfd78af_1": "sha256:90da79dc3f17f8feb4fa2563fc449f18084b4dc3e379f70ca3130ee90e253d10", "1.2--hdfd78af_0": "sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806", "1.2--hdfd78af_2": "sha256:df2dea0676c2345c69c8aa719f74254815ba82728e64617c83c3d5bd26e6baab"}, "docker": "quay.io/biocontainers/ltr_harvest_parallel", "aliases": {"LTR_HARVEST_parallel": "/usr/local/bin/LTR_HARVEST_parallel", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_harvest_parallel.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/ltr_harvest_parallel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ltr_harvest_parallel:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/ltr_harvest_parallel:1.2--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ltr_harvest_parallel/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/ltr_harvest_parallel/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/ltr_harvest_parallel/1.2--hdfd78af_2
+$ module help quay.io/biocontainers/ltr_harvest_parallel/1.2--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

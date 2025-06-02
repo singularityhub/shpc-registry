@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpf-count-cds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpf-count-cds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpf-count-cds/container.yaml"
-updated_at: "2025-06-01 03:50:35.668505"
+updated_at: "2025-06-02 03:30:57.704081"
 latest: "0.0.1--py_1"
 container_url: "https://biocontainers.pro/tools/rpf-count-cds"
 aliases:

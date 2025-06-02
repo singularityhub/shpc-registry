@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scry/container.yaml"
-updated_at: "2025-06-01 03:45:23.624553"
+updated_at: "2025-06-02 03:25:38.593151"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scry"
 

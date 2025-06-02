@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agrvate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agrvate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agrvate/container.yaml"
-updated_at: "2025-06-01 04:22:40.411750"
+updated_at: "2025-06-02 04:03:43.415474"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agrvate"
 aliases:

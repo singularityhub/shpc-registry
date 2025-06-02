@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reads2graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reads2graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reads2graph/container.yaml"
-updated_at: "2025-06-01 04:26:42.718067"
+updated_at: "2025-06-02 04:07:50.971480"
 latest: "1.0.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/reads2graph"
 aliases:

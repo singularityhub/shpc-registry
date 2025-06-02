@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chemminedrugs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chemminedrugs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chemminedrugs/container.yaml"
-updated_at: "2025-06-01 03:58:38.844104"
+updated_at: "2025-06-02 03:39:11.275330"
 latest: "1.0.2--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-chemminedrugs"
 aliases:

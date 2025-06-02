@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irida-staramr-results"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-staramr-results/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-staramr-results/container.yaml"
-updated_at: "2025-06-01 04:31:20.888491"
+updated_at: "2025-06-02 04:12:39.738291"
 latest: "0.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/irida-staramr-results"
 aliases:

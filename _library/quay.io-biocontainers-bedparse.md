@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedparse/container.yaml"
-updated_at: "2025-06-01 04:17:29.345780"
+updated_at: "2025-06-02 03:58:25.746964"
 latest: "0.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/bedparse"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/go-figure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/go-figure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/go-figure/container.yaml"
-updated_at: "2025-06-01 03:59:50.648681"
+updated_at: "2025-06-02 03:40:24.285691"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/go-figure"
 aliases:

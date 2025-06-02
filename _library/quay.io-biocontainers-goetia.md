@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goetia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goetia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goetia/container.yaml"
-updated_at: "2025-06-01 04:04:39.828320"
+updated_at: "2025-06-02 03:45:19.293100"
 latest: "0.14--py36hd181a71_1"
 container_url: "https://biocontainers.pro/tools/goetia"
 aliases:
