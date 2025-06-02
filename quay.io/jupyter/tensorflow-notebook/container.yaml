@@ -1,0 +1,13 @@
+docker: quay.io/jupyter/tensorflow-notebook
+url: https://quay.io/repository/jupyter/tensorflow-notebook
+maintainer: "@HasseJohansen"
+description: Jupyter TensorFlow Notebook from https://github.com/jupyter/docker-stacks
+latest:
+  "2025-06-02": sha256:fcd545494caf7ea38d531512784d380c3efa4c13e635071fc914d7d80ac4f5b6
+tags:
+  "2025-06-02": sha256:fcd545494caf7ea38d531512784d380c3efa4c13e635071fc914d7d80ac4f5b6
+filter:
+  - 2025-*
+aliases:
+  - name: run-notebook
+    command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0
