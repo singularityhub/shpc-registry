@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicdatahumanimr90"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdatahumanimr90/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdatahumanimr90/container.yaml"
-updated_at: "2025-06-02 04:04:20.754296"
+updated_at: "2025-06-02 13:15:12.864488"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdatahumanimr90"
 aliases:

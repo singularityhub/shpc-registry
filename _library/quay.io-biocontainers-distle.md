@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/distle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/distle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/distle/container.yaml"
-updated_at: "2025-06-02 03:51:51.257163"
+updated_at: "2025-06-02 13:01:05.416057"
 latest: "0.2.0--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/distle"
 aliases:
