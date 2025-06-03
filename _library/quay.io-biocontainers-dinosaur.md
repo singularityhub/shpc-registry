@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dinosaur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinosaur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinosaur/container.yaml"
-updated_at: "2025-06-02 13:02:21.972592"
+updated_at: "2025-06-03 03:47:45.522236"
 latest: "1.2.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dinosaur"
 aliases:

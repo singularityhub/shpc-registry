@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corncob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corncob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corncob/container.yaml"
-updated_at: "2025-06-02 12:32:44.730912"
+updated_at: "2025-06-03 03:20:32.320334"
 latest: "0.4.2--r44h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-corncob"
 aliases:

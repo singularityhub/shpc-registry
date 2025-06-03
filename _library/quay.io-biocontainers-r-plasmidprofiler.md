@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plasmidprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plasmidprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plasmidprofiler/container.yaml"
-updated_at: "2025-06-02 13:14:42.930890"
+updated_at: "2025-06-03 03:58:44.740178"
 latest: "0.1.6--r3.3.1_3"
 container_url: "https://biocontainers.pro/tools/r-plasmidprofiler"
 aliases:

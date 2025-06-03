@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/appspam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/appspam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/appspam/container.yaml"
-updated_at: "2025-06-02 12:32:49.022987"
+updated_at: "2025-06-03 03:20:36.336447"
 latest: "1.03--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/appspam"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathogist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogist/container.yaml"
-updated_at: "2025-06-02 13:22:24.778842"
+updated_at: "2025-06-03 04:05:56.160146"
 latest: "0.3.6--py_1"
 container_url: "https://biocontainers.pro/tools/pathogist"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bowtie2/container.yaml"
-updated_at: "2025-06-02 12:32:57.704945"
+updated_at: "2025-06-03 03:20:44.442979"
 latest: "2.5.4--he96a11b_5"
 container_url: "https://biocontainers.pro/tools/bowtie2"
 aliases:

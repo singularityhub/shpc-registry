@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fenr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fenr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fenr/container.yaml"
-updated_at: "2025-06-02 12:54:43.560129"
+updated_at: "2025-06-03 03:40:56.304115"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fenr"
 aliases:

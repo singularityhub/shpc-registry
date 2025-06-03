@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cryfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryfa/container.yaml"
-updated_at: "2025-06-02 13:11:49.281960"
+updated_at: "2025-06-03 03:56:11.081748"
 latest: "20.04--h9948957_3"
 container_url: "https://biocontainers.pro/tools/cryfa"
 aliases:

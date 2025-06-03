@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/harmonypy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmonypy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harmonypy/container.yaml"
-updated_at: "2025-06-02 12:55:56.400058"
+updated_at: "2025-06-03 03:42:00.845999"
 latest: "0.0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/harmonypy"
 aliases:

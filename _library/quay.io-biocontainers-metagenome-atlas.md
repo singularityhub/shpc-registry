@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagenome-atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
-updated_at: "2025-06-02 13:03:51.976078"
+updated_at: "2025-06-03 03:49:08.450419"
 latest: "19.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metagenome-atlas"
 aliases:

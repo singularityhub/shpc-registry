@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tmux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmux/container.yaml"
-updated_at: "2025-06-02 13:05:30.241139"
+updated_at: "2025-06-03 03:50:36.308512"
 latest: "2.1--1"
 container_url: "https://biocontainers.pro/tools/tmux"
 aliases:

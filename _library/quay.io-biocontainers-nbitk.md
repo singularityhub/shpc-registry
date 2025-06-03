@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nbitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nbitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nbitk/container.yaml"
-updated_at: "2025-06-02 12:49:17.016090"
+updated_at: "2025-06-03 03:35:56.054601"
 latest: "0.5.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nbitk"
 aliases:
