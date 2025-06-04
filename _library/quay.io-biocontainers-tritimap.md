@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tritimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tritimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tritimap/container.yaml"
-updated_at: "2025-06-03 03:32:38.609537"
+updated_at: "2025-06-04 03:33:57.847632"
 latest: "0.9.7--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/tritimap"
 aliases:

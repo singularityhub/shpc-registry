@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-eggnog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-eggnog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-eggnog/container.yaml"
-updated_at: "2025-06-03 03:55:38.139654"
-latest: "0.3.0--r44hdfd78af_1"
+updated_at: "2025-06-04 03:57:34.839943"
+latest: "0.3.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-eggnog"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ versions:
  - "0.2.2--r43hdfd78af_0"
  - "0.3.0--r43hdfd78af_0"
  - "0.3.0--r44hdfd78af_1"
+ - "0.3.1--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-eggnog"
-config: {"url": "https://biocontainers.pro/tools/r-eggnog", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-eggnog", "latest": {"0.3.0--r44hdfd78af_1": "sha256:7066ae29a15568060d2333f94cbe76f1a8d9988a135fe16282e473b51c4fd375"}, "tags": {"0.2.2--r43hdfd78af_0": "sha256:51c618c6bf64ca49c9d77a96fcf52cf40dd772e91f67c2d5b8dbe20587c27633", "0.3.0--r43hdfd78af_0": "sha256:48cd6a5bc9e7909b0da7cbf4f6efcb608f2bcd776c616a3d87621402833c2048", "0.3.0--r44hdfd78af_1": "sha256:7066ae29a15568060d2333f94cbe76f1a8d9988a135fe16282e473b51c4fd375"}, "docker": "quay.io/biocontainers/r-eggnog", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-eggnog", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-eggnog", "latest": {"0.3.1--r44hdfd78af_0": "sha256:bf54241d005cb573e9d84683e2ec6be9fe43dcd995feacc96012b7d3fc31e4a9"}, "tags": {"0.2.2--r43hdfd78af_0": "sha256:51c618c6bf64ca49c9d77a96fcf52cf40dd772e91f67c2d5b8dbe20587c27633", "0.3.0--r43hdfd78af_0": "sha256:48cd6a5bc9e7909b0da7cbf4f6efcb608f2bcd776c616a3d87621402833c2048", "0.3.0--r44hdfd78af_1": "sha256:7066ae29a15568060d2333f94cbe76f1a8d9988a135fe16282e473b51c4fd375", "0.3.1--r44hdfd78af_0": "sha256:bf54241d005cb573e9d84683e2ec6be9fe43dcd995feacc96012b7d3fc31e4a9"}, "docker": "quay.io/biocontainers/r-eggnog", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-eggnog.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/r-eggnog
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-eggnog:0.3.0--r44hdfd78af_1
+$ shpc install quay.io/biocontainers/r-eggnog:0.3.1--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-eggnog/0.3.0--r44hdfd78af_1
-$ module help quay.io/biocontainers/r-eggnog/0.3.0--r44hdfd78af_1
+$ module load quay.io/biocontainers/r-eggnog/0.3.1--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-eggnog/0.3.1--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

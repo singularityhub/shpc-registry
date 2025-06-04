@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/longcalld"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longcalld/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longcalld/container.yaml"
-updated_at: "2025-06-03 03:48:36.431512"
-latest: "0.0.4--h7d57edc_0"
+updated_at: "2025-06-04 03:50:36.141158"
+latest: "0.0.4--h7d57edc_1"
 container_url: "https://biocontainers.pro/tools/longcalld"
 aliases:
  - "longcallD"
 versions:
  - "0.0.4--h7d57edc_0"
+ - "0.0.4--h7d57edc_1"
 description: "singularity registry hpc automated addition for longcalld"
-config: {"url": "https://biocontainers.pro/tools/longcalld", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longcalld", "latest": {"0.0.4--h7d57edc_0": "sha256:2faac568a800c57b996353c203c1c4bce9a50b498ee1ce40a7c8ecc4fa261455"}, "tags": {"0.0.4--h7d57edc_0": "sha256:2faac568a800c57b996353c203c1c4bce9a50b498ee1ce40a7c8ecc4fa261455"}, "docker": "quay.io/biocontainers/longcalld", "aliases": {"longcallD": "/usr/local/bin/longcallD"}}
+config: {"url": "https://biocontainers.pro/tools/longcalld", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longcalld", "latest": {"0.0.4--h7d57edc_1": "sha256:623c78e058a4ee356c05b7bee3d4b48646deac99108301f89540fc6509041283"}, "tags": {"0.0.4--h7d57edc_0": "sha256:2faac568a800c57b996353c203c1c4bce9a50b498ee1ce40a7c8ecc4fa261455", "0.0.4--h7d57edc_1": "sha256:623c78e058a4ee356c05b7bee3d4b48646deac99108301f89540fc6509041283"}, "docker": "quay.io/biocontainers/longcalld", "aliases": {"longcallD": "/usr/local/bin/longcallD"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longcalld.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/longcalld
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longcalld:0.0.4--h7d57edc_0
+$ shpc install quay.io/biocontainers/longcalld:0.0.4--h7d57edc_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longcalld/0.0.4--h7d57edc_0
-$ module help quay.io/biocontainers/longcalld/0.0.4--h7d57edc_0
+$ module load quay.io/biocontainers/longcalld/0.0.4--h7d57edc_1
+$ module help quay.io/biocontainers/longcalld/0.0.4--h7d57edc_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

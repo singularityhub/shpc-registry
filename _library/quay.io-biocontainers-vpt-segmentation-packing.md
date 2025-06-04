@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vpt-segmentation-packing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vpt-segmentation-packing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vpt-segmentation-packing/container.yaml"
-updated_at: "2025-06-03 03:25:55.008456"
+updated_at: "2025-06-04 03:26:48.092254"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vpt-segmentation-packing"
 aliases:

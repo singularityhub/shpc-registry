@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snapgene-reader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snapgene-reader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snapgene-reader/container.yaml"
-updated_at: "2025-06-03 03:35:40.910458"
-latest: "0.1.22--pyhdfd78af_0"
+updated_at: "2025-06-04 03:37:02.872393"
+latest: "0.1.23--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snapgene-reader"
 aliases:
  - "html2text"
@@ -20,8 +20,9 @@ versions:
  - "0.1.20--pyh5e36f6f_0"
  - "0.1.21--pyhdfd78af_0"
  - "0.1.22--pyhdfd78af_0"
+ - "0.1.23--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snapgene-reader"
-config: {"url": "https://biocontainers.pro/tools/snapgene-reader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snapgene-reader", "latest": {"0.1.22--pyhdfd78af_0": "sha256:d05f3e63012b6f83165b7a977a8f90da1a18553d1fbb2862f4366c06e6c8ee46"}, "tags": {"0.1.20--pyh5e36f6f_0": "sha256:b078df049cdb7d95bf8f783f13b474410ed43bb5a5e48822284af7f324328730", "0.1.21--pyhdfd78af_0": "sha256:e6b430ba251fcc91a1f9e63ead2193ce7cf59435d6eb3de42346beff4f6753ca", "0.1.22--pyhdfd78af_0": "sha256:d05f3e63012b6f83165b7a977a8f90da1a18553d1fbb2862f4366c06e6c8ee46"}, "docker": "quay.io/biocontainers/snapgene-reader", "aliases": {"html2text": "/usr/local/bin/html2text", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/snapgene-reader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snapgene-reader", "latest": {"0.1.23--pyhdfd78af_0": "sha256:d57f5441880d415a2dce7c4c7d2f03d9b1fff0141f303ac2f073d51a20f44734"}, "tags": {"0.1.20--pyh5e36f6f_0": "sha256:b078df049cdb7d95bf8f783f13b474410ed43bb5a5e48822284af7f324328730", "0.1.21--pyhdfd78af_0": "sha256:e6b430ba251fcc91a1f9e63ead2193ce7cf59435d6eb3de42346beff4f6753ca", "0.1.22--pyhdfd78af_0": "sha256:d05f3e63012b6f83165b7a977a8f90da1a18553d1fbb2862f4366c06e6c8ee46", "0.1.23--pyhdfd78af_0": "sha256:d57f5441880d415a2dce7c4c7d2f03d9b1fff0141f303ac2f073d51a20f44734"}, "docker": "quay.io/biocontainers/snapgene-reader", "aliases": {"html2text": "/usr/local/bin/html2text", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snapgene-reader.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/snapgene-reader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snapgene-reader:0.1.22--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snapgene-reader:0.1.23--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snapgene-reader/0.1.22--pyhdfd78af_0
-$ module help quay.io/biocontainers/snapgene-reader/0.1.22--pyhdfd78af_0
+$ module load quay.io/biocontainers/snapgene-reader/0.1.23--pyhdfd78af_0
+$ module help quay.io/biocontainers/snapgene-reader/0.1.23--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

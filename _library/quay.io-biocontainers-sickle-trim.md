@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sickle-trim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sickle-trim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sickle-trim/container.yaml"
-updated_at: "2025-06-03 03:21:02.988442"
+updated_at: "2025-06-04 03:21:40.536656"
 latest: "1.33--h577a1d6_11"
 container_url: "https://biocontainers.pro/tools/sickle-trim"
 aliases:

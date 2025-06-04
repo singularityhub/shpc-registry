@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gctb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gctb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gctb/container.yaml"
-updated_at: "2025-06-03 03:52:56.785507"
+updated_at: "2025-06-04 03:54:57.596898"
 latest: "2.0--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/gctb"
 aliases:

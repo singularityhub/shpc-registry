@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtdb_to_taxdump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdb_to_taxdump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdb_to_taxdump/container.yaml"
-updated_at: "2025-06-03 04:01:33.053759"
+updated_at: "2025-06-04 04:03:20.096186"
 latest: "0.1.9--pyhcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/gtdb_to_taxdump"
 aliases:
