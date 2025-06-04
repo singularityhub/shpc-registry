@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcbiclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcbiclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcbiclust/container.yaml"
-updated_at: "2025-06-04 03:40:12.318126"
+updated_at: "2025-06-04 15:18:41.662552"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcbiclust"
 aliases:

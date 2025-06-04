@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-updateobject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-updateobject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-updateobject/container.yaml"
-updated_at: "2025-06-04 03:34:35.819373"
+updated_at: "2025-06-04 15:13:13.908966"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-updateobject"
 

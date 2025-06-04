@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/datascience-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/datascience-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/datascience-notebook/container.yaml"
-updated_at: "2025-06-04 03:19:26.165239"
+updated_at: "2025-06-04 14:59:06.501580"
 latest: "2025-05-26"
 container_url: "https://quay.io/repository/jupyter/datascience-notebook"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2025-05-26"
 description: "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/datascience-notebook", "url": "https://quay.io/repository/jupyter/datascience-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8"}, "tags": {"2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8"}, "filter": ["2025-*"], "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/datascience-notebook", "url": "https://quay.io/repository/jupyter/datascience-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8"}, "tags": {"2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/datascience-notebook.
