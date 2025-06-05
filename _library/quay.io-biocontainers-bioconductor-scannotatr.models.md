@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scannotatr.models"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scannotatr.models/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scannotatr.models/container.yaml"
-updated_at: "2025-06-05 03:51:22.985121"
+updated_at: "2025-06-05 12:36:05.186941"
 latest: "0.99.10--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-scannotatr.models"
 

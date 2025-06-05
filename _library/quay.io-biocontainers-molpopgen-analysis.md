@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/molpopgen-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molpopgen-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molpopgen-analysis/container.yaml"
-updated_at: "2025-06-05 03:47:31.555936"
+updated_at: "2025-06-05 12:32:11.560314"
 latest: "0.8.8--ha24e720_10"
 container_url: "https://biocontainers.pro/tools/molpopgen-analysis"
 aliases:

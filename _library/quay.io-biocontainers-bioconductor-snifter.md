@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snifter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snifter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snifter/container.yaml"
-updated_at: "2025-06-05 03:58:12.727431"
+updated_at: "2025-06-05 12:42:53.070135"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snifter"
 
