@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-beanplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-beanplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-beanplot/container.yaml"
-updated_at: "2025-06-04 15:15:14.542383"
+updated_at: "2025-06-05 03:35:50.545060"
 latest: "1.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-beanplot"
 aliases:

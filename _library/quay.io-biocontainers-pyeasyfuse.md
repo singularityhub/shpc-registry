@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyeasyfuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyeasyfuse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyeasyfuse/container.yaml"
-updated_at: "2025-06-04 15:19:26.620085"
+updated_at: "2025-06-05 03:40:16.741379"
 latest: "2.0.3--py37r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyeasyfuse"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphlan/container.yaml"
-updated_at: "2025-06-04 15:39:11.680146"
-latest: "4.1.1--pyhdfd78af_0"
+updated_at: "2025-06-05 04:00:54.940461"
+latest: "4.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaphlan"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "4.0.6--pyhca03a8a_0"
  - "4.1.0--pyhca03a8a_0"
  - "4.1.1--pyhdfd78af_0"
+ - "4.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metaphlan"
-config: {"url": "https://biocontainers.pro/tools/metaphlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaphlan", "latest": {"4.1.1--pyhdfd78af_0": "sha256:12f13127d709817dd27342b91e5ff1ee5a649a789effc6b303bb620af2571019"}, "tags": {"4.0.3--pyhca03a8a_0": "sha256:27232335b55baa59202253dd1d12f3ea42c665e94fff1115f1c59eb515707975", "4.0.4--pyhca03a8a_0": "sha256:2d21c3c3ae6dc2f35eebfe24f533ac9748626bd0c7e8632173d9170b191783b7", "4.0.6--pyhca03a8a_0": "sha256:384f10cfbabe93a1458e66601c187a7497eee4aaef7a8d4bbfe9991a01537c20", "4.1.0--pyhca03a8a_0": "sha256:2aefc5d5897d9f6400541767714ee15389f89e7a8beca0b13ccab916ab58dc31", "4.1.1--pyhdfd78af_0": "sha256:12f13127d709817dd27342b91e5ff1ee5a649a789effc6b303bb620af2571019"}, "docker": "quay.io/biocontainers/metaphlan"}
+config: {"url": "https://biocontainers.pro/tools/metaphlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaphlan", "latest": {"4.2.2--pyhdfd78af_0": "sha256:8a9e82712396d02bfe530adb258eca8bc949365cbfa47eb3c4d86957a420d809"}, "tags": {"4.0.3--pyhca03a8a_0": "sha256:27232335b55baa59202253dd1d12f3ea42c665e94fff1115f1c59eb515707975", "4.0.4--pyhca03a8a_0": "sha256:2d21c3c3ae6dc2f35eebfe24f533ac9748626bd0c7e8632173d9170b191783b7", "4.0.6--pyhca03a8a_0": "sha256:384f10cfbabe93a1458e66601c187a7497eee4aaef7a8d4bbfe9991a01537c20", "4.1.0--pyhca03a8a_0": "sha256:2aefc5d5897d9f6400541767714ee15389f89e7a8beca0b13ccab916ab58dc31", "4.1.1--pyhdfd78af_0": "sha256:12f13127d709817dd27342b91e5ff1ee5a649a789effc6b303bb620af2571019", "4.2.2--pyhdfd78af_0": "sha256:8a9e82712396d02bfe530adb258eca8bc949365cbfa47eb3c4d86957a420d809"}, "docker": "quay.io/biocontainers/metaphlan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaphlan.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/metaphlan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaphlan:4.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metaphlan:4.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaphlan/4.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/metaphlan/4.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/metaphlan/4.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/metaphlan/4.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

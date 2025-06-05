@@ -4,7 +4,7 @@ name:  "singularityhub/singularity-deploy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/singularityhub/singularity-deploy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/singularityhub/singularity-deploy/container.yaml"
-updated_at: "2025-06-04 15:47:58.947584"
+updated_at: "2025-06-05 04:10:08.671437"
 latest: "salad"
 container_url: "https://github.com/singularityhub/singularity-deploy"
 aliases:
