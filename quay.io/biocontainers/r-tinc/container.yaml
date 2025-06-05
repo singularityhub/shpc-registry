@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/r-tinc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-tinc
+latest:
+  0.1.0--r44hdfd78af_0: sha256:fa03ac106dfb8e6d1edfe2266a6dcc54b6eb12f9f09b6b52ea6cab156c0c6106
+tags:
+  0.1.0--r44hdfd78af_0: sha256:fa03ac106dfb8e6d1edfe2266a6dcc54b6eb12f9f09b6b52ea6cab156c0c6106
+docker: quay.io/biocontainers/r-tinc
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
