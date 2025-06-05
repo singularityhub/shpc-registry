@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pytwobit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pytwobit
+latest:
+  0.3.1--pyhdfd78af_0: sha256:f982b966ed488bf7bff4ce6041de4fb25af103b2af654de2ef366e25a92aa5b8
+tags:
+  0.3.1--pyhdfd78af_0: sha256:f982b966ed488bf7bff4ce6041de4fb25af103b2af654de2ef366e25a92aa5b8
+docker: quay.io/biocontainers/pytwobit
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer

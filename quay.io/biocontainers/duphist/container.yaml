@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/duphist
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for duphist
+latest:
+  1.0.0--hdfd78af_0: sha256:ac9b9434fb41ba6925387a99c6c1397917e60efa56f74c3bd3b888378a8beec2
+tags:
+  1.0.0--hdfd78af_0: sha256:ac9b9434fb41ba6925387a99c6c1397917e60efa56f74c3bd3b888378a8beec2
+docker: quay.io/biocontainers/duphist
+aliases:
+  duphist: /usr/local/bin/duphist
+  prank: /usr/local/bin/prank
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
