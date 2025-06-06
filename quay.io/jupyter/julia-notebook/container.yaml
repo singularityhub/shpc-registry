@@ -5,6 +5,7 @@ description: Jupyter Julia Notebook from https://github.com/jupyter/docker-stack
 latest:
   "2025-05-30": sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee
 tags:
+  latest: sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee
   "2025-05-30": sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee
 aliases:
   - name: run-notebook

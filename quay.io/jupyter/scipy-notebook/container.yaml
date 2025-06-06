@@ -5,6 +5,7 @@ description: Jupyter SciPy Notebook from https://github.com/jupyter/docker-stack
 latest:
   "2025-06-02": sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf
 tags:
+  latest: sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf
   "2025-06-02": sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf
 aliases:
   - name: run-notebook

@@ -5,6 +5,7 @@ description: Jupyter Base Notebook from https://github.com/jupyter/docker-stacks
 latest:
   "2025-05-30": sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04
 tags:
+  latest: sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04
   "2025-05-30": sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04
 aliases:
   - name: run-notebook

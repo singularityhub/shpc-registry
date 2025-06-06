@@ -5,6 +5,7 @@ description: Jupyter PySpark Notebook from https://github.com/jupyter/docker-sta
 latest:
   "2025-05-30": sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3
 tags:
+  latest: sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3
   "2025-05-30": sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3
 aliases:
   - name: run-notebook

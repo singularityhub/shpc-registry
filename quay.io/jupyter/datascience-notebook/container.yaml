@@ -5,6 +5,7 @@ description: Jupyter Datascience Notebook from https://github.com/jupyter/docker
 latest:
   "2025-05-26": sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
 tags:
+  latest: sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
   "2025-05-26": sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
 aliases:
   - name: run-notebook
