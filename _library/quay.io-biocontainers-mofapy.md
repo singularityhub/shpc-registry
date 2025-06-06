@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mofapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mofapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mofapy/container.yaml"
-updated_at: "2025-06-05 12:43:59.607663"
+updated_at: "2025-06-06 03:58:18.767253"
 latest: "1.2--py_1"
 container_url: "https://biocontainers.pro/tools/mofapy"
 aliases:

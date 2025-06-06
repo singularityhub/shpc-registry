@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mykatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykatlas/container.yaml"
-updated_at: "2025-06-05 12:07:03.963897"
+updated_at: "2025-06-06 03:22:26.610950"
 latest: "0.6.1--py39hdff8610_8"
 container_url: "https://biocontainers.pro/tools/mykatlas"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/migrate-n"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migrate-n/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migrate-n/container.yaml"
-updated_at: "2025-06-05 12:23:35.823683"
+updated_at: "2025-06-06 03:38:29.748008"
 latest: "3.6.11--haf0c795_7"
 container_url: "https://biocontainers.pro/tools/migrate-n"
 aliases:

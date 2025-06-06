@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/targetdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/targetdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/targetdb/container.yaml"
-updated_at: "2025-06-05 12:41:53.819419"
-latest: "1.3.1--pyh864c0ab_0"
+updated_at: "2025-06-06 03:56:17.719082"
+latest: "1.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/targetdb"
 aliases:
  - "dpocket"
@@ -43,8 +43,9 @@ aliases:
  - "psktool"
 versions:
  - "1.3.1--pyh864c0ab_0"
+ - "1.3.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for targetdb"
-config: {"url": "https://biocontainers.pro/tools/targetdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for targetdb", "latest": {"1.3.1--pyh864c0ab_0": "sha256:4a523b0f824316de7958ed1221b19ed581d71fb9ccef85fadc65e6a10c4ace46"}, "tags": {"1.3.1--pyh864c0ab_0": "sha256:4a523b0f824316de7958ed1221b19ed581d71fb9ccef85fadc65e6a10c4ace46"}, "docker": "quay.io/biocontainers/targetdb", "aliases": {"dpocket": "/usr/local/bin/dpocket", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "fpocket": "/usr/local/bin/fpocket", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "hyper": "/usr/local/bin/hyper", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "lame": "/usr/local/bin/lame", "mdpocket": "/usr/local/bin/mdpocket", "opencv_annotation": "/usr/local/bin/opencv_annotation", "opencv_interactive-calibration": "/usr/local/bin/opencv_interactive-calibration", "opencv_version": "/usr/local/bin/opencv_version", "opencv_visualisation": "/usr/local/bin/opencv_visualisation", "opencv_waldboost_detector": "/usr/local/bin/opencv_waldboost_detector", "setup_vars_opencv4.sh": "/usr/local/bin/setup_vars_opencv4.sh", "targetDB": "/usr/local/bin/targetDB", "target_DB": "/usr/local/bin/target_DB", "tmrdemo": "/usr/local/bin/tmrdemo", "tpocket": "/usr/local/bin/tpocket", "x264": "/usr/local/bin/x264", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/targetdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for targetdb", "latest": {"1.3.3--pyhdfd78af_0": "sha256:cbeaf40cb3fbf187dd0eac52b28af7561a1e7b8a98ea0ec7d3db781dc15c2e48"}, "tags": {"1.3.1--pyh864c0ab_0": "sha256:4a523b0f824316de7958ed1221b19ed581d71fb9ccef85fadc65e6a10c4ace46", "1.3.3--pyhdfd78af_0": "sha256:cbeaf40cb3fbf187dd0eac52b28af7561a1e7b8a98ea0ec7d3db781dc15c2e48"}, "docker": "quay.io/biocontainers/targetdb", "aliases": {"dpocket": "/usr/local/bin/dpocket", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "fpocket": "/usr/local/bin/fpocket", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "hyper": "/usr/local/bin/hyper", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "lame": "/usr/local/bin/lame", "mdpocket": "/usr/local/bin/mdpocket", "opencv_annotation": "/usr/local/bin/opencv_annotation", "opencv_interactive-calibration": "/usr/local/bin/opencv_interactive-calibration", "opencv_version": "/usr/local/bin/opencv_version", "opencv_visualisation": "/usr/local/bin/opencv_visualisation", "opencv_waldboost_detector": "/usr/local/bin/opencv_waldboost_detector", "setup_vars_opencv4.sh": "/usr/local/bin/setup_vars_opencv4.sh", "targetDB": "/usr/local/bin/targetDB", "target_DB": "/usr/local/bin/target_DB", "tmrdemo": "/usr/local/bin/tmrdemo", "tpocket": "/usr/local/bin/tpocket", "x264": "/usr/local/bin/x264", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/targetdb.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/targetdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/targetdb:1.3.1--pyh864c0ab_0
+$ shpc install quay.io/biocontainers/targetdb:1.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/targetdb/1.3.1--pyh864c0ab_0
-$ module help quay.io/biocontainers/targetdb/1.3.1--pyh864c0ab_0
+$ module load quay.io/biocontainers/targetdb/1.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/targetdb/1.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

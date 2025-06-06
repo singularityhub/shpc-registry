@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-onto-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-onto-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-onto-perl/container.yaml"
-updated_at: "2025-06-05 12:06:34.439731"
+updated_at: "2025-06-06 03:21:57.975583"
 latest: "1.45--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-onto-perl"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnasamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasamba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasamba/container.yaml"
-updated_at: "2025-06-05 12:11:32.301928"
+updated_at: "2025-06-06 03:26:45.347486"
 latest: "0.2.5--py37h8902056_1"
 container_url: "https://biocontainers.pro/tools/rnasamba"
 aliases:

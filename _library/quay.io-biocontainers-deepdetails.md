@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepdetails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepdetails/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepdetails/container.yaml"
-updated_at: "2025-06-05 12:19:39.763287"
+updated_at: "2025-06-06 03:34:40.164512"
 latest: "0.0.1rc2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepdetails"
 aliases:
