@@ -4,15 +4,16 @@ name:  "quay.io/jupyter/julia-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/julia-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/julia-notebook/container.yaml"
-updated_at: "2025-06-06 03:18:42.716064"
+updated_at: "2025-06-06 12:06:46.664935"
 latest: "2025-05-30"
 container_url: "https://quay.io/repository/jupyter/julia-notebook"
 aliases:
  - "run-notebook"
 versions:
+ - "latest"
  - "2025-05-30"
 description: "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/julia-notebook", "url": "https://quay.io/repository/jupyter/julia-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee"}, "tags": {"2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/julia-notebook", "url": "https://quay.io/repository/jupyter/julia-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee"}, "tags": {"latest": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee", "2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/julia-notebook.

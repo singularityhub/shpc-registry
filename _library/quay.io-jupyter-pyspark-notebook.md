@@ -4,15 +4,16 @@ name:  "quay.io/jupyter/pyspark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/pyspark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/pyspark-notebook/container.yaml"
-updated_at: "2025-06-06 03:18:43.561932"
+updated_at: "2025-06-06 12:06:47.523132"
 latest: "2025-05-30"
 container_url: "https://quay.io/repository/jupyter/pyspark-notebook"
 aliases:
  - "run-notebook"
 versions:
+ - "latest"
  - "2025-05-30"
 description: "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/pyspark-notebook", "url": "https://quay.io/repository/jupyter/pyspark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3"}, "tags": {"2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/pyspark-notebook", "url": "https://quay.io/repository/jupyter/pyspark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3"}, "tags": {"latest": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3", "2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/pyspark-notebook.

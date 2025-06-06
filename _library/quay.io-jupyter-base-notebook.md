@@ -4,15 +4,16 @@ name:  "quay.io/jupyter/base-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/base-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/base-notebook/container.yaml"
-updated_at: "2025-06-06 03:18:44.975634"
+updated_at: "2025-06-06 12:06:48.953591"
 latest: "2025-05-30"
 container_url: "https://quay.io/repository/jupyter/base-notebook"
 aliases:
  - "run-notebook"
 versions:
+ - "latest"
  - "2025-05-30"
 description: "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/base-notebook", "url": "https://quay.io/repository/jupyter/base-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04"}, "tags": {"2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/base-notebook", "url": "https://quay.io/repository/jupyter/base-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04"}, "tags": {"latest": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04", "2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/base-notebook.

@@ -4,15 +4,16 @@ name:  "quay.io/jupyter/scipy-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/scipy-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/scipy-notebook/container.yaml"
-updated_at: "2025-06-06 03:18:44.130499"
+updated_at: "2025-06-06 12:06:48.098785"
 latest: "2025-06-02"
 container_url: "https://quay.io/repository/jupyter/scipy-notebook"
 aliases:
  - "run-notebook"
 versions:
+ - "latest"
  - "2025-06-02"
 description: "Jupyter SciPy Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/scipy-notebook", "url": "https://quay.io/repository/jupyter/scipy-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter SciPy Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-02": "sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf"}, "tags": {"2025-06-02": "sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/scipy-notebook", "url": "https://quay.io/repository/jupyter/scipy-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter SciPy Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-02": "sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf"}, "tags": {"latest": "sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf", "2025-06-02": "sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/scipy-notebook.
