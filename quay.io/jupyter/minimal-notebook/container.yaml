@@ -5,6 +5,7 @@ description: Jupyter Minimal Notebook from https://github.com/jupyter/docker-sta
 latest:
   "2025-05-30": sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2
 tags:
+  latest: sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2
   "2025-05-30": sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2
 aliases:
   - name: run-notebook

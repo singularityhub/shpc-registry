@@ -5,6 +5,7 @@ description: Jupyter All Spark Notebook from https://github.com/jupyter/docker-s
 latest:
   "2025-06-02": sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26
 tags:
+  latest: sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26
   "2025-06-02": sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26
 aliases:
   - name: run-notebook
