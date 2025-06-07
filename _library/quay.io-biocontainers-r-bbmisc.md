@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bbmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bbmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bbmisc/container.yaml"
-updated_at: "2025-06-06 12:31:31.390605"
+updated_at: "2025-06-07 03:40:54.157064"
 latest: "1.11--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-bbmisc"
 aliases:

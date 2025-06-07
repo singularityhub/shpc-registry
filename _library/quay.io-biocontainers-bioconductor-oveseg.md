@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oveseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oveseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oveseg/container.yaml"
-updated_at: "2025-06-06 12:49:06.897723"
+updated_at: "2025-06-07 03:58:04.840505"
 latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oveseg"
 aliases:

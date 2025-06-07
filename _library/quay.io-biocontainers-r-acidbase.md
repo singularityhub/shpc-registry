@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidbase/container.yaml"
-updated_at: "2025-06-06 12:49:04.016122"
+updated_at: "2025-06-07 03:58:02.025389"
 latest: "0.7.5--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidbase"
 
