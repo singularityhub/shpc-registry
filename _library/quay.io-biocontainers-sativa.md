@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sativa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sativa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sativa/container.yaml"
-updated_at: "2025-06-07 03:34:21.206581"
+updated_at: "2025-06-08 03:45:28.181286"
 latest: "0.9.3--py312h031d066_0"
 container_url: "https://biocontainers.pro/tools/sativa"
 aliases:

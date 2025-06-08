@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libarbdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libarbdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libarbdb/container.yaml"
-updated_at: "2025-06-07 03:58:48.214285"
+updated_at: "2025-06-08 04:10:37.850656"
 latest: "6.0.6--haa8b8d8_8"
 container_url: "https://biocontainers.pro/tools/libarbdb"
 aliases:

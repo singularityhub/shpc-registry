@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepnog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepnog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepnog/container.yaml"
-updated_at: "2025-06-07 04:06:08.095788"
+updated_at: "2025-06-08 04:18:09.481701"
 latest: "1.2.3--pyh3252c3a_1"
 container_url: "https://biocontainers.pro/tools/deepnog"
 aliases:

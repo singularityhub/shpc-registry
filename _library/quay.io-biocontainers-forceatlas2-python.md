@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forceatlas2-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forceatlas2-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forceatlas2-python/container.yaml"
-updated_at: "2025-06-07 03:59:17.735695"
+updated_at: "2025-06-08 04:11:08.355357"
 latest: "1.1--py_1"
 container_url: "https://biocontainers.pro/tools/forceatlas2-python"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varfish-server-worker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-server-worker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-server-worker/container.yaml"
-updated_at: "2025-06-07 03:28:38.991588"
+updated_at: "2025-06-08 03:39:41.193348"
 latest: "0.17.2--h13c227e_0"
 container_url: "https://biocontainers.pro/tools/varfish-server-worker"
 aliases:

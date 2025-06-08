@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bitstring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bitstring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bitstring/container.yaml"
-updated_at: "2025-06-07 03:41:14.605254"
+updated_at: "2025-06-08 03:52:36.833019"
 latest: "3.1.5--py35_1"
 container_url: "https://biocontainers.pro/tools/bitstring"
 aliases:

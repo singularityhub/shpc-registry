@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sdeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdeper/container.yaml"
-updated_at: "2025-06-07 03:27:58.207051"
+updated_at: "2025-06-08 03:38:58.266431"
 latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sdeper"
 aliases:
