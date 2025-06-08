@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/hmmratac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmmratac
 latest:
-  1.2.10--hdfd78af_1: sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425
+  1.2.10--hdfd78af_1: 
+    sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425
 tags:
-  1.2.9--0: sha256:7c72d394e6306a6ad0aeec0eba8b67d962bc1d3eb18738544cd34fb0161fe210
-  1.2.10--hdfd78af_1: sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425
+  1.2.9--0: 
+    sha256:7c72d394e6306a6ad0aeec0eba8b67d962bc1d3eb18738544cd34fb0161fe210
+  1.2.10--hdfd78af_1: 
+    sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425
 docker: quay.io/biocontainers/hmmratac
 aliases:
   HMMRATAC: /usr/local/bin/HMMRATAC

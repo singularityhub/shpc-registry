@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/radte
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for radte
 latest:
-  0.2.3--r44hdfd78af_0: sha256:3c384aedee9a3b1d09915b3cda4b88ba37e74d6e76b7c0a959d495cdce00967b
+  0.2.3--r44hdfd78af_0: 
+    sha256:3c384aedee9a3b1d09915b3cda4b88ba37e74d6e76b7c0a959d495cdce00967b
 tags:
-  0.2.3--r44hdfd78af_0: sha256:3c384aedee9a3b1d09915b3cda4b88ba37e74d6e76b7c0a959d495cdce00967b
+  0.2.3--r44hdfd78af_0: 
+    sha256:3c384aedee9a3b1d09915b3cda4b88ba37e74d6e76b7c0a959d495cdce00967b
 docker: quay.io/biocontainers/radte
 aliases:
   radte: /usr/local/bin/radte

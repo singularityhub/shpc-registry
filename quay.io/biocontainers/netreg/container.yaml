@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/netreg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for netreg
 latest:
-  1.8.0--h9fd3d4c_0: sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a
+  1.8.0--h9fd3d4c_0: 
+    sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a
 tags:
-  1.8.0--h9fd3d4c_0: sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a
+  1.8.0--h9fd3d4c_0: 
+    sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a
 docker: quay.io/biocontainers/netreg
 aliases:
   netReg: /usr/local/bin/netReg

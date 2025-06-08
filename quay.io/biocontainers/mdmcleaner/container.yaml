@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mdmcleaner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mdmcleaner
 latest:
-  0.8.7--pyh7cba7a3_0: sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
+  0.8.7--pyh7cba7a3_0: 
+    sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
 tags:
-  0.8.7--pyh7cba7a3_0: sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
+  0.8.7--pyh7cba7a3_0: 
+    sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
 docker: quay.io/biocontainers/mdmcleaner
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

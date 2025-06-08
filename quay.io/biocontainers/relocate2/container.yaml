@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/relocate2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for relocate2
 latest:
-  2.0.1--hdfd78af_6: sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
+  2.0.1--hdfd78af_6: 
+    sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
 tags:
-  2.0.1--hdfd78af_6: sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
+  2.0.1--hdfd78af_6: 
+    sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
 docker: quay.io/biocontainers/relocate2
 aliases:
   characterizer.pl: /usr/local/bin/characterizer.pl

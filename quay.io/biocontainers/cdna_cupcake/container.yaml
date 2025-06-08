@@ -2,19 +2,31 @@ url: https://biocontainers.pro/tools/cdna_cupcake
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cdna_cupcake
 latest:
-  29.0.0--py39h5371cbf_0: sha256:e466bdeef9cb131e2b559e5c26b2b7e5b920dfb26421a182f4d8a7e9e3c5b995
+  29.0.0--py39h5371cbf_0: 
+    sha256:e466bdeef9cb131e2b559e5c26b2b7e5b920dfb26421a182f4d8a7e9e3c5b995
 tags:
-  9.1.1--py37hc1659b7_0: sha256:7b13318ebd5878b6367276413511e8dfdd91b578bdd731a0e4f09a66ca56ac21
-  29.0.0--py39h5371cbf_0: sha256:e466bdeef9cb131e2b559e5c26b2b7e5b920dfb26421a182f4d8a7e9e3c5b995
-  28.0.0--py39h5371cbf_1: sha256:497dc15e50333f2b6a60c0eecce6b5fb9cc5d36ba741b44bbc2e65901480413a
-  22.0.0--py38h9af456f_1: sha256:af05b2dca07da577203934d1c59a15ab3d1438121b706cddc9c63e395737d957
-  19.0.0--py37h97743b1_0: sha256:7e78150f589ab8889bb752092024878488845f102b69559fcd6126cf7aac1ae1
-  18.1.0--py37h97743b1_0: sha256:a4172805f9fd1cb63ff32482f8669cbac758ccc9c9452ef601754a99cfd7f7b2
-  29.0.0--py310h79ef01b_0: sha256:22d8cc252cacb4edeebd312fd9616aaf4e0a421dbbd625dc3abdd3a1e209be29
-  28.0.0--py310h79ef01b_1: sha256:ad7f9be0f3ad33a0998aeee9a602ecb047e2a8711196e4c5e529164de115f61f
-  22.0.0--py39hcbe4a3b_1: sha256:8f7534fe46267f5ee6e4d61065af1ca9d04fd26480012f2d5686810337e31bab
-  19.0.0--py38hd504320_0: sha256:326d0014861901d6965a6b484f09aee1155ed6162ad388864b9c09dc03d2f978
-  18.1.0--py38hd504320_0: sha256:6779e38a98a14cd2276d32f48c9238a1c97377d5098c9a33dad0720ea0974a5d
+  9.1.1--py37hc1659b7_0: 
+    sha256:7b13318ebd5878b6367276413511e8dfdd91b578bdd731a0e4f09a66ca56ac21
+  29.0.0--py39h5371cbf_0: 
+    sha256:e466bdeef9cb131e2b559e5c26b2b7e5b920dfb26421a182f4d8a7e9e3c5b995
+  28.0.0--py39h5371cbf_1: 
+    sha256:497dc15e50333f2b6a60c0eecce6b5fb9cc5d36ba741b44bbc2e65901480413a
+  22.0.0--py38h9af456f_1: 
+    sha256:af05b2dca07da577203934d1c59a15ab3d1438121b706cddc9c63e395737d957
+  19.0.0--py37h97743b1_0: 
+    sha256:7e78150f589ab8889bb752092024878488845f102b69559fcd6126cf7aac1ae1
+  18.1.0--py37h97743b1_0: 
+    sha256:a4172805f9fd1cb63ff32482f8669cbac758ccc9c9452ef601754a99cfd7f7b2
+  29.0.0--py310h79ef01b_0: 
+    sha256:22d8cc252cacb4edeebd312fd9616aaf4e0a421dbbd625dc3abdd3a1e209be29
+  28.0.0--py310h79ef01b_1: 
+    sha256:ad7f9be0f3ad33a0998aeee9a602ecb047e2a8711196e4c5e529164de115f61f
+  22.0.0--py39hcbe4a3b_1: 
+    sha256:8f7534fe46267f5ee6e4d61065af1ca9d04fd26480012f2d5686810337e31bab
+  19.0.0--py38hd504320_0: 
+    sha256:326d0014861901d6965a6b484f09aee1155ed6162ad388864b9c09dc03d2f978
+  18.1.0--py38hd504320_0: 
+    sha256:6779e38a98a14cd2276d32f48c9238a1c97377d5098c9a33dad0720ea0974a5d
 docker: quay.io/biocontainers/cdna_cupcake
 aliases:
   BED.py: /usr/local/bin/BED.py
@@ -30,7 +42,8 @@ aliases:
   VariantPhaseCleaner.py: /usr/local/bin/VariantPhaseCleaner.py
   VariantPhaser.py: /usr/local/bin/VariantPhaser.py
   alignment_stats_from_sam.py: /usr/local/bin/alignment_stats_from_sam.py
-  calc_expected_accuracy_from_fastq.py: /usr/local/bin/calc_expected_accuracy_from_fastq.py
+  calc_expected_accuracy_from_fastq.py: 
+    /usr/local/bin/calc_expected_accuracy_from_fastq.py
   calc_probe_hit_from_sam.py: /usr/local/bin/calc_probe_hit_from_sam.py
   chain_fusion_samples.py: /usr/local/bin/chain_fusion_samples.py
   chain_samples.py: /usr/local/bin/chain_samples.py
@@ -40,7 +53,8 @@ aliases:
   coordinate_mapper.py: /usr/local/bin/coordinate_mapper.py
   create_fake_genome.py: /usr/local/bin/create_fake_genome.py
   dedup_FLNC_per_cluster.py: /usr/local/bin/dedup_FLNC_per_cluster.py
-  demux_by_barcode_for_subsampling.py: /usr/local/bin/demux_by_barcode_for_subsampling.py
+  demux_by_barcode_for_subsampling.py: 
+    /usr/local/bin/demux_by_barcode_for_subsampling.py
   demux_by_barcode_groups.py: /usr/local/bin/demux_by_barcode_groups.py
   demux_isoseq2_no_genome.py: /usr/local/bin/demux_isoseq2_no_genome.py
   demux_isoseq_no_genome.py: /usr/local/bin/demux_isoseq_no_genome.py
@@ -57,7 +71,8 @@ aliases:
   get_seqs_from_list.py: /usr/local/bin/get_seqs_from_list.py
   group_ORF_sequences.py: /usr/local/bin/group_ORF_sequences.py
   ice_pbdagcon2.py: /usr/local/bin/ice_pbdagcon2.py
-  make_file_for_subsampling_from_collapsed.py: /usr/local/bin/make_file_for_subsampling_from_collapsed.py
+  make_file_for_subsampling_from_collapsed.py: 
+    /usr/local/bin/make_file_for_subsampling_from_collapsed.py
   match_w_annotation.py: /usr/local/bin/match_w_annotation.py
   parse_matchAnnot.py: /usr/local/bin/parse_matchAnnot.py
   picking_up_ice2.py: /usr/local/bin/picking_up_ice2.py
@@ -74,13 +89,16 @@ aliases:
   sam_to_gff3.py: /usr/local/bin/sam_to_gff3.py
   scrub_sample_GFF_junctions.py: /usr/local/bin/scrub_sample_GFF_junctions.py
   simulate.py: /usr/local/bin/simulate.py
-  simulate_phasing_data_from_fasta.py: /usr/local/bin/simulate_phasing_data_from_fasta.py
+  simulate_phasing_data_from_fasta.py: 
+    /usr/local/bin/simulate_phasing_data_from_fasta.py
   snps_to_vcf.py: /usr/local/bin/snps_to_vcf.py
   subsample.py: /usr/local/bin/subsample.py
   subsample_with_category.py: /usr/local/bin/subsample_with_category.py
   summarize_gmap_sam.py: /usr/local/bin/summarize_gmap_sam.py
-  summarize_sample_GFF_junctions.py: /usr/local/bin/summarize_sample_GFF_junctions.py
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  summarize_sample_GFF_junctions.py: 
+    /usr/local/bin/summarize_sample_GFF_junctions.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

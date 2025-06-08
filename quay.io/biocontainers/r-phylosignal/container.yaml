@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-phylosignal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-phylosignal
 latest:
-  1.2--r351h29659fb_3: sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5
+  1.2--r351h29659fb_3: 
+    sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5
 tags:
-  1.2--r351h29659fb_3: sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5
+  1.2--r351h29659fb_3: 
+    sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5
 docker: quay.io/biocontainers/r-phylosignal
 aliases:
   c89: /usr/local/bin/c89

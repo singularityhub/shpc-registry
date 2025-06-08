@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ripcal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ripcal
 latest:
-  2.0--hdfd78af_0: sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
+  2.0--hdfd78af_0: 
+    sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
 tags:
-  2.0--hdfd78af_0: sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
+  2.0--hdfd78af_0: 
+    sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
 docker: quay.io/biocontainers/ripcal
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp

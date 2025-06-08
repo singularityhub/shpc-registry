@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/sequenticon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sequenticon
 latest:
-  0.1.7--pyh7e72e81_0: sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d
+  0.1.8--pyh7e72e81_0: 
+    sha256:d94eaa55b179f060ef24bb0cc653fa732de0274de9770d96c0112a4ab56713cf
 tags:
-  0.1.7--pyh7e72e81_0: sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d
+  0.1.7--pyh7e72e81_0: 
+    sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d
+  0.1.8--pyh7e72e81_0: 
+    sha256:d94eaa55b179f060ef24bb0cc653fa732de0274de9770d96c0112a4ab56713cf
 docker: quay.io/biocontainers/sequenticon
 aliases:
   html2text: /usr/local/bin/html2text

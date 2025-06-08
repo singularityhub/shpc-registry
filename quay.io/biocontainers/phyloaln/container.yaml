@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/phyloaln
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phyloaln
 latest:
-  1.0.0--hdfd78af_0: sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6
+  1.1.0--hdfd78af_0: 
+    sha256:4e47ca4ad54c4996e07080bd8aad236cadedc6ca6396aa1fb113a0066c2e7485
 tags:
-  1.0.0--hdfd78af_0: sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6
+  1.0.0--hdfd78af_0: 
+    sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6
+  1.1.0--hdfd78af_0: 
+    sha256:4e47ca4ad54c4996e07080bd8aad236cadedc6ca6396aa1fb113a0066c2e7485
 docker: quay.io/biocontainers/phyloaln
 aliases:
   PhyloAln: /usr/local/bin/PhyloAln

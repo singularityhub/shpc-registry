@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/glpk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for glpk
 latest:
-  4.57--0: sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41
+  4.57--0: 
+    sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41
 tags:
-  4.57--0: sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41
+  4.57--0: 
+    sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41
 docker: quay.io/biocontainers/glpk
 aliases:
   glpsol: /usr/local/bin/glpsol

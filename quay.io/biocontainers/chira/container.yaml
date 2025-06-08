@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/chira
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chira
 latest:
-  1.4.3--hdfd78af_2: sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
+  1.4.3--hdfd78af_2: 
+    sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
 tags:
-  1.4.3--hdfd78af_2: sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
+  1.4.3--hdfd78af_2: 
+    sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
 docker: quay.io/biocontainers/chira
 aliases:
   CopomuS.py: /usr/local/bin/CopomuS.py

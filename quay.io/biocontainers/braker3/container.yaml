@@ -2,12 +2,17 @@ url: https://biocontainers.pro/tools/braker3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for braker3
 latest:
-  3.0.8--hdfd78af_0: sha256:c91b3357bbb6180ef26d64b8d84252ca7b5e660b64ff0042f5f33b21b9d2ed53
+  3.0.8--hdfd78af_0: 
+    sha256:c91b3357bbb6180ef26d64b8d84252ca7b5e660b64ff0042f5f33b21b9d2ed53
 tags:
-  3.0.3--hdfd78af_0: sha256:6fa0c95a47fd078799d389410769a09f9a62eb041a29c2bf486a0b8372fea3b1
-  3.0.6--hdfd78af_0: sha256:ed3aa8302511c2f4a2cde807f3b7875df499ff578bddefc8b5109623f2e2c648
-  3.0.7--hdfd78af_0: sha256:7683ea1f5d7071ffdac74090f3caae2c6e3166905bee6e56dcd5571cfc195e67
-  3.0.8--hdfd78af_0: sha256:c91b3357bbb6180ef26d64b8d84252ca7b5e660b64ff0042f5f33b21b9d2ed53
+  3.0.3--hdfd78af_0: 
+    sha256:6fa0c95a47fd078799d389410769a09f9a62eb041a29c2bf486a0b8372fea3b1
+  3.0.6--hdfd78af_0: 
+    sha256:ed3aa8302511c2f4a2cde807f3b7875df499ff578bddefc8b5109623f2e2c648
+  3.0.7--hdfd78af_0: 
+    sha256:7683ea1f5d7071ffdac74090f3caae2c6e3166905bee6e56dcd5571cfc195e67
+  3.0.8--hdfd78af_0: 
+    sha256:c91b3357bbb6180ef26d64b8d84252ca7b5e660b64ff0042f5f33b21b9d2ed53
 docker: quay.io/biocontainers/braker3
 aliases:
   LICENSE.txt: /usr/local/bin/LICENSE.txt
@@ -60,7 +65,8 @@ aliases:
   findGenesInIntrons.pl: /usr/local/bin/findGenesInIntrons.pl
   findRepetitiveProtSeqs.py: /usr/local/bin/findRepetitiveProtSeqs.py
   fix_gtf_ids.py: /usr/local/bin/fix_gtf_ids.py
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   gatech_pmp2hints.pl: /usr/local/bin/gatech_pmp2hints.pl
   genePredCheck: /usr/local/bin/genePredCheck

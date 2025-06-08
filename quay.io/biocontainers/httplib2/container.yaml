@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/httplib2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for httplib2
 latest:
-  0.9.2--py35_0: sha256:ad3a9c763698a0a66b8b775b3a81dcaa9eae59d1748d861b4f0b72b4b3f1c44d
+  0.9.2--py35_0: 
+    sha256:ad3a9c763698a0a66b8b775b3a81dcaa9eae59d1748d861b4f0b72b4b3f1c44d
 tags:
-  0.9.2--py35_0: sha256:ad3a9c763698a0a66b8b775b3a81dcaa9eae59d1748d861b4f0b72b4b3f1c44d
-  0.9.2--py36_0: sha256:d1bbea5f2e85c47899632967c5f18d82afa446bfee3b1a1bf342b60af8a693a6
+  0.9.2--py35_0: 
+    sha256:ad3a9c763698a0a66b8b775b3a81dcaa9eae59d1748d861b4f0b72b4b3f1c44d
+  0.9.2--py36_0: 
+    sha256:d1bbea5f2e85c47899632967c5f18d82afa446bfee3b1a1bf342b60af8a693a6
 docker: quay.io/biocontainers/httplib2
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

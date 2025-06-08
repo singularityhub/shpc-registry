@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-idr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-idr
 latest:
-  1.2--r3.2.2_0: sha256:08bcf2745088ac986ae8df6452c8985a4f4e3fff20d98754cf2ea504da7199f6
+  1.2--r3.2.2_0: 
+    sha256:08bcf2745088ac986ae8df6452c8985a4f4e3fff20d98754cf2ea504da7199f6
 tags:
-  1.2--r3.2.2_0: sha256:08bcf2745088ac986ae8df6452c8985a4f4e3fff20d98754cf2ea504da7199f6
-  1.2--r3.4.1_0: sha256:abfe20b41947f62174af1af5974d93320aa486c60ea9d8297f10b18abf77f7a1
+  1.2--r3.2.2_0: 
+    sha256:08bcf2745088ac986ae8df6452c8985a4f4e3fff20d98754cf2ea504da7199f6
+  1.2--r3.4.1_0: 
+    sha256:abfe20b41947f62174af1af5974d93320aa486c60ea9d8297f10b18abf77f7a1
 docker: quay.io/biocontainers/r-idr
 aliases:
   pngcp: /usr/local/bin/pngcp

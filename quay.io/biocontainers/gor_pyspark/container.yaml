@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gor_pyspark
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gor_pyspark
 latest:
-  3.22.6--pyh7cba7a3_0: sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
+  3.22.6--pyh7cba7a3_0: 
+    sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
 tags:
-  3.22.6--pyh7cba7a3_0: sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
+  3.22.6--pyh7cba7a3_0: 
+    sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
 docker: quay.io/biocontainers/gor_pyspark
 aliases:
   beeline: /usr/local/bin/beeline

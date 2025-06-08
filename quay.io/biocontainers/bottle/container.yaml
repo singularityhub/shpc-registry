@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/bottle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bottle
 latest:
-  0.12.9--py35_0: sha256:5211b3969ef63a85e4b012d165933bb9bc0958c23416b2e47caf6ead466a76b5
+  0.12.9--py35_0: 
+    sha256:5211b3969ef63a85e4b012d165933bb9bc0958c23416b2e47caf6ead466a76b5
 tags:
-  0.12.9--py35_0: sha256:5211b3969ef63a85e4b012d165933bb9bc0958c23416b2e47caf6ead466a76b5
-  0.12.9--py36_0: sha256:bf7e5cc37027a2ce9653390fbf4d4d68b59bd0ddbbad91f127dd77676d7057c9
+  0.12.9--py35_0: 
+    sha256:5211b3969ef63a85e4b012d165933bb9bc0958c23416b2e47caf6ead466a76b5
+  0.12.9--py36_0: 
+    sha256:bf7e5cc37027a2ce9653390fbf4d4d68b59bd0ddbbad91f127dd77676d7057c9
 docker: quay.io/biocontainers/bottle
 aliases:
   bottle.py: /usr/local/bin/bottle.py
