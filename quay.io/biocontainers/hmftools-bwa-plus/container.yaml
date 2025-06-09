@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/hmftools-bwa-plus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-bwa-plus
+latest:
+  1.0.0--h077b44d_0: 
+    sha256:52f2858d7dc41038dac22756c31186541c0c4218287de16f41d013ff7452b273
+tags:
+  1.0.0--h077b44d_0: 
+    sha256:52f2858d7dc41038dac22756c31186541c0c4218287de16f41d013ff7452b273
+docker: quay.io/biocontainers/hmftools-bwa-plus
+aliases:
+  bwa-plus: /usr/local/bin/bwa-plus
+  bwa-plus.avx: /usr/local/bin/bwa-plus.avx
+  bwa-plus.avx2: /usr/local/bin/bwa-plus.avx2
+  bwa-plus.avx512bw: /usr/local/bin/bwa-plus.avx512bw
+  bwa-plus.sse41: /usr/local/bin/bwa-plus.sse41
+  bwa-plus.sse42: /usr/local/bin/bwa-plus.sse42
+  sambamba: /usr/local/bin/sambamba
