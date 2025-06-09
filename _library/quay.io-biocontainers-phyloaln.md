@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyloaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloaln/container.yaml"
-updated_at: "2025-06-08 05:56:40.850139"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2025-06-09 04:11:41.203160"
+latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyloaln"
 aliases:
  - "PhyloAln"
@@ -45,8 +45,9 @@ aliases:
  - "difference-uid-lists"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.1.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for phyloaln"
-config: {"url": "https://biocontainers.pro/tools/phyloaln", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyloaln", "latest": {"1.0.0--hdfd78af_0": "sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6"}, "tags": {"1.0.0--hdfd78af_0": "sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6"}, "docker": "quay.io/biocontainers/phyloaln", "aliases": {"PhyloAln": "/usr/local/bin/PhyloAln", "alignseq.pl": "/usr/local/bin/alignseq.pl", "connect.pl": "/usr/local/bin/connect.pl", "merge_seqs.py": "/usr/local/bin/merge_seqs.py", "revertransseq.pl": "/usr/local/bin/revertransseq.pl", "root_tree.py": "/usr/local/bin/root_tree.py", "select_seqs.py": "/usr/local/bin/select_seqs.py", "test_effect.py": "/usr/local/bin/test_effect.py", "transseq.pl": "/usr/local/bin/transseq.pl", "trim_matrix.py": "/usr/local/bin/trim_matrix.py", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "RNAmultifold": "/usr/local/bin/RNAmultifold", "gawkbug": "/usr/local/bin/gawkbug", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists"}}
+config: {"url": "https://biocontainers.pro/tools/phyloaln", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyloaln", "latest": {"1.1.0--hdfd78af_0": "sha256:4e47ca4ad54c4996e07080bd8aad236cadedc6ca6396aa1fb113a0066c2e7485"}, "tags": {"1.0.0--hdfd78af_0": "sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6", "1.1.0--hdfd78af_0": "sha256:4e47ca4ad54c4996e07080bd8aad236cadedc6ca6396aa1fb113a0066c2e7485"}, "docker": "quay.io/biocontainers/phyloaln", "aliases": {"PhyloAln": "/usr/local/bin/PhyloAln", "alignseq.pl": "/usr/local/bin/alignseq.pl", "connect.pl": "/usr/local/bin/connect.pl", "merge_seqs.py": "/usr/local/bin/merge_seqs.py", "revertransseq.pl": "/usr/local/bin/revertransseq.pl", "root_tree.py": "/usr/local/bin/root_tree.py", "select_seqs.py": "/usr/local/bin/select_seqs.py", "test_effect.py": "/usr/local/bin/test_effect.py", "transseq.pl": "/usr/local/bin/transseq.pl", "trim_matrix.py": "/usr/local/bin/trim_matrix.py", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "RNAmultifold": "/usr/local/bin/RNAmultifold", "gawkbug": "/usr/local/bin/gawkbug", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyloaln.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/phyloaln
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyloaln:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/phyloaln:1.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyloaln/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/phyloaln/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/phyloaln/1.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/phyloaln/1.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

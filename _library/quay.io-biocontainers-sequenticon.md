@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequenticon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenticon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenticon/container.yaml"
-updated_at: "2025-06-08 05:39:46.802155"
-latest: "0.1.7--pyh7e72e81_0"
+updated_at: "2025-06-09 03:53:48.829647"
+latest: "0.1.8--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/sequenticon"
 aliases:
  - "html2text"
@@ -33,8 +33,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.7--pyh7e72e81_0"
+ - "0.1.8--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for sequenticon"
-config: {"url": "https://biocontainers.pro/tools/sequenticon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequenticon", "latest": {"0.1.7--pyh7e72e81_0": "sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d"}, "tags": {"0.1.7--pyh7e72e81_0": "sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d"}, "docker": "quay.io/biocontainers/sequenticon", "aliases": {"html2text": "/usr/local/bin/html2text", "pypugjs": "/usr/local/bin/pypugjs", "weasyprint": "/usr/local/bin/weasyprint", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "markdown_py": "/usr/local/bin/markdown_py", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/sequenticon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequenticon", "latest": {"0.1.8--pyh7e72e81_0": "sha256:d94eaa55b179f060ef24bb0cc653fa732de0274de9770d96c0112a4ab56713cf"}, "tags": {"0.1.7--pyh7e72e81_0": "sha256:a6ac520b02b62f94cd9a3296353abcc4144e200624549c837d38a1c2b46e948d", "0.1.8--pyh7e72e81_0": "sha256:d94eaa55b179f060ef24bb0cc653fa732de0274de9770d96c0112a4ab56713cf"}, "docker": "quay.io/biocontainers/sequenticon", "aliases": {"html2text": "/usr/local/bin/html2text", "pypugjs": "/usr/local/bin/pypugjs", "weasyprint": "/usr/local/bin/weasyprint", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "markdown_py": "/usr/local/bin/markdown_py", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequenticon.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/sequenticon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequenticon:0.1.7--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/sequenticon:0.1.8--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequenticon/0.1.7--pyh7e72e81_0
-$ module help quay.io/biocontainers/sequenticon/0.1.7--pyh7e72e81_0
+$ module load quay.io/biocontainers/sequenticon/0.1.8--pyh7e72e81_0
+$ module help quay.io/biocontainers/sequenticon/0.1.8--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

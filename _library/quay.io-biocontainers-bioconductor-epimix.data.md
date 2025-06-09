@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epimix.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epimix.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epimix.data/container.yaml"
-updated_at: "2025-06-08 05:18:48.623482"
+updated_at: "2025-06-09 03:32:41.140548"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epimix.data"
 aliases:

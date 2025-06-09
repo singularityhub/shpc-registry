@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/pytorch-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/pytorch-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/pytorch-notebook/container.yaml"
-updated_at: "2025-06-08 05:11:34.366592"
+updated_at: "2025-06-09 03:25:20.884494"
 latest: "2025-06-02"
 container_url: "https://quay.io/repository/jupyter/pytorch-notebook"
 aliases:
@@ -14,8 +14,12 @@ versions:
  - "2025-06-02"
  - "cuda12-2025-06-02"
  - "cuda11-2025-06-02"
+ - "2025-05-30"
+ - "2025-03-24"
+ - "2025-02-26"
+ - "2025-01-28"
 description: "Jupyter PyTorch Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/pytorch-notebook", "url": "https://quay.io/repository/jupyter/pytorch-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PyTorch Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-02": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31"}, "tags": {"latest": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31", "2025-06-02": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31", "cuda12-2025-06-02": "sha256:7266ffb8e19e9a61bf05437bdcc854c7c02a7b1ce1fd0af94e5dd41f3335a3df", "cuda11-2025-06-02": "sha256:9a230d0c3334bf92f5000ec83ccff4b1df045ad54935364f5ce510c60316b7ad"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/pytorch-notebook", "url": "https://quay.io/repository/jupyter/pytorch-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PyTorch Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-02": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31"}, "tags": {"latest": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31", "2025-06-02": "sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31", "cuda12-2025-06-02": "sha256:7266ffb8e19e9a61bf05437bdcc854c7c02a7b1ce1fd0af94e5dd41f3335a3df", "cuda11-2025-06-02": "sha256:9a230d0c3334bf92f5000ec83ccff4b1df045ad54935364f5ce510c60316b7ad", "2025-05-30": "sha256:608f916f0b03014606c96e25bc375d3280bd5a90844cde0896568ed8e4f49f91", "2025-03-24": "sha256:de7914bae2df832c345457955d1da00582d6849e7807358cac5cea8b314544f6", "2025-02-26": "sha256:6014e504860c570e2d92bf0f7140273cb7f0a105f6b6fe425a6a276a1f6d11cf", "2025-01-28": "sha256:556496d6c30216b11ad3f55432e3247439b85f38a76cc63998b1694284ea8b75"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/pytorch-notebook.
