@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/uniqsketch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for uniqsketch
+latest:
+  1.1.0--h077b44d_0: 
+    sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc
+tags:
+  1.1.0--h077b44d_0: 
+    sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc
+docker: quay.io/biocontainers/uniqsketch
+aliases:
+  comparesketch: /usr/local/bin/comparesketch
+  querysketch: /usr/local/bin/querysketch
+  uniqsketch: /usr/local/bin/uniqsketch
