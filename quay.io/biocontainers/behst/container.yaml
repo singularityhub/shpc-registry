@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/behst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for behst
 latest:
-  3.8--0: sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
+  3.8--0: 
+    sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
 tags:
-  3.8--0: sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
+  3.8--0: 
+    sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
 docker: quay.io/biocontainers/behst
 aliases:
   behst: /usr/local/bin/behst
@@ -14,12 +16,15 @@ aliases:
   behst.py: /usr/local/bin/behst.py
   chromRegionLength.r: /usr/local/bin/chromRegionLength.r
   dataframeSumAllValues.r: /usr/local/bin/dataframeSumAllValues.r
-  difference_from_first_TSS_script_mordor.r: /usr/local/bin/difference_from_first_TSS_script_mordor.r
-  difference_from_first_TSS_script_mordor_chrom_wide.r: /usr/local/bin/difference_from_first_TSS_script_mordor_chrom_wide.r
+  difference_from_first_TSS_script_mordor.r: 
+    /usr/local/bin/difference_from_first_TSS_script_mordor.r
+  difference_from_first_TSS_script_mordor_chrom_wide.r: 
+    /usr/local/bin/difference_from_first_TSS_script_mordor_chrom_wide.r
   download_behst_data.sh: /usr/local/bin/download_behst_data.sh
   gProfilerCall.r: /usr/local/bin/gProfilerCall.r
   gene_annotation_parser.py: /usr/local/bin/gene_annotation_parser.py
-  gene_annotation_parser_load_pickled_files.py: /usr/local/bin/gene_annotation_parser_load_pickled_files.py
+  gene_annotation_parser_load_pickled_files.py: 
+    /usr/local/bin/gene_annotation_parser_load_pickled_files.py
   hiC_parser.py: /usr/local/bin/hiC_parser.py
   hiC_parser_load_pickle_file.py: /usr/local/bin/hiC_parser_load_pickle_file.py
   list_of_files: /usr/local/bin/list_of_files
@@ -30,8 +35,10 @@ aliases:
   retrieveMinRowCol.r: /usr/local/bin/retrieveMinRowCol.r
   script_all_heatmaps.sh: /usr/local/bin/script_all_heatmaps.sh
   script_multi_project_run.sh: /usr/local/bin/script_multi_project_run.sh
-  script_multi_project_run_WITHOUT_LOOP.sh: /usr/local/bin/script_multi_project_run_WITHOUT_LOOP.sh
-  script_multi_project_run_input_parameters.sh: /usr/local/bin/script_multi_project_run_input_parameters.sh
+  script_multi_project_run_WITHOUT_LOOP.sh: 
+    /usr/local/bin/script_multi_project_run_WITHOUT_LOOP.sh
+  script_multi_project_run_input_parameters.sh: 
+    /usr/local/bin/script_multi_project_run_input_parameters.sh
   temp_test.sh: /usr/local/bin/temp_test.sh
   intersection_matrix.py: /usr/local/bin/intersection_matrix.py
   intron_exon_reads.py: /usr/local/bin/intron_exon_reads.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mlst-cge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mlst-cge
 latest:
-  2.0.9--hdfd78af_0: sha256:d26eff02a8c314a9aba49273daea8dfc08515098290e487b251de10a9def8662
+  2.0.9--hdfd78af_0: 
+    sha256:d26eff02a8c314a9aba49273daea8dfc08515098290e487b251de10a9def8662
 tags:
-  2.0.9--hdfd78af_0: sha256:d26eff02a8c314a9aba49273daea8dfc08515098290e487b251de10a9def8662
+  2.0.9--hdfd78af_0: 
+    sha256:d26eff02a8c314a9aba49273daea8dfc08515098290e487b251de10a9def8662
 docker: quay.io/biocontainers/mlst-cge
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh

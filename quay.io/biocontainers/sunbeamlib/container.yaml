@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/sunbeamlib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sunbeamlib
 latest:
-  5.0.1--pyhdfd78af_0: sha256:7abffe01e2ee0ba3b141730bc7aa2881ad16f3e378bbfa6cea61ffd7188f9732
+  5.0.5--pyhdfd78af_0: 
+    sha256:8fda559ec272480d35748617ed8b580b2e6192468e996b76dc400f709ffe8b30
 tags:
-  5.0.1--pyhdfd78af_0: sha256:7abffe01e2ee0ba3b141730bc7aa2881ad16f3e378bbfa6cea61ffd7188f9732
+  5.0.1--pyhdfd78af_0: 
+    sha256:7abffe01e2ee0ba3b141730bc7aa2881ad16f3e378bbfa6cea61ffd7188f9732
+  5.0.5--pyhdfd78af_0: 
+    sha256:8fda559ec272480d35748617ed8b580b2e6192468e996b76dc400f709ffe8b30
 docker: quay.io/biocontainers/sunbeamlib
 aliases:
   phc: /usr/local/bin/phc

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/fastalite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastalite
 latest:
-  0.4.1--pyh7cba7a3_0: sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808
+  0.4.1--pyh7cba7a3_0: 
+    sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808
 tags:
-  0.3--py_0: sha256:b0c2635fb3f9eceee1dd8896c924c809d5737a7851c374693126da7541a7b932
-  0.4.1--pyh7cba7a3_0: sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808
+  0.3--py_0: 
+    sha256:b0c2635fb3f9eceee1dd8896c924c809d5737a7851c374693126da7541a7b932
+  0.4.1--pyh7cba7a3_0: 
+    sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808
 docker: quay.io/biocontainers/fastalite
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

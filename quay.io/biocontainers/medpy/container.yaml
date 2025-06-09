@@ -2,36 +2,47 @@ url: https://biocontainers.pro/tools/medpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for medpy
 latest:
-  0.4.0--py37h8dc5575_3: sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
+  0.4.0--py37h8dc5575_3: 
+    sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
 tags:
-  0.4.0--py37h8dc5575_3: sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
-  0.4.0--py38h7243aa2_3: sha256:5b0fa6a3b5e9939461dd64eb7c859c1eba6f377684ef1583bf66c565b63fc740
+  0.4.0--py37h8dc5575_3: 
+    sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
+  0.4.0--py38h7243aa2_3: 
+    sha256:5b0fa6a3b5e9939461dd64eb7c859c1eba6f377684ef1583bf66c565b63fc740
 docker: quay.io/biocontainers/medpy
 aliases:
   itkTestDriver: /usr/local/bin/itkTestDriver
   medpy_anisotropic_diffusion.py: /usr/local/bin/medpy_anisotropic_diffusion.py
-  medpy_apparent_diffusion_coefficient.py: /usr/local/bin/medpy_apparent_diffusion_coefficient.py
+  medpy_apparent_diffusion_coefficient.py: 
+    /usr/local/bin/medpy_apparent_diffusion_coefficient.py
   medpy_binary_resampling.py: /usr/local/bin/medpy_binary_resampling.py
   medpy_convert.py: /usr/local/bin/medpy_convert.py
-  medpy_create_empty_volume_by_example.py: /usr/local/bin/medpy_create_empty_volume_by_example.py
-  medpy_dicom_slices_to_volume.py: /usr/local/bin/medpy_dicom_slices_to_volume.py
+  medpy_create_empty_volume_by_example.py: 
+    /usr/local/bin/medpy_create_empty_volume_by_example.py
+  medpy_dicom_slices_to_volume.py: 
+    /usr/local/bin/medpy_dicom_slices_to_volume.py
   medpy_dicom_to_4D.py: /usr/local/bin/medpy_dicom_to_4D.py
   medpy_diff.py: /usr/local/bin/medpy_diff.py
   medpy_extract_contour.py: /usr/local/bin/medpy_extract_contour.py
   medpy_extract_min_max.py: /usr/local/bin/medpy_extract_min_max.py
   medpy_extract_sub_volume.py: /usr/local/bin/medpy_extract_sub_volume.py
-  medpy_extract_sub_volume_auto.py: /usr/local/bin/medpy_extract_sub_volume_auto.py
-  medpy_extract_sub_volume_by_example.py: /usr/local/bin/medpy_extract_sub_volume_by_example.py
+  medpy_extract_sub_volume_auto.py: 
+    /usr/local/bin/medpy_extract_sub_volume_auto.py
+  medpy_extract_sub_volume_by_example.py: 
+    /usr/local/bin/medpy_extract_sub_volume_by_example.py
   medpy_fit_into_shape.py: /usr/local/bin/medpy_fit_into_shape.py
   medpy_gradient.py: /usr/local/bin/medpy_gradient.py
   medpy_graphcut_label.py: /usr/local/bin/medpy_graphcut_label.py
-  medpy_graphcut_label_bgreduced.py: /usr/local/bin/medpy_graphcut_label_bgreduced.py
-  medpy_graphcut_label_w_regional.py: /usr/local/bin/medpy_graphcut_label_w_regional.py
+  medpy_graphcut_label_bgreduced.py: 
+    /usr/local/bin/medpy_graphcut_label_bgreduced.py
+  medpy_graphcut_label_w_regional.py: 
+    /usr/local/bin/medpy_graphcut_label_w_regional.py
   medpy_graphcut_label_wsplit.py: /usr/local/bin/medpy_graphcut_label_wsplit.py
   medpy_graphcut_voxel.py: /usr/local/bin/medpy_graphcut_voxel.py
   medpy_grid.py: /usr/local/bin/medpy_grid.py
   medpy_info.py: /usr/local/bin/medpy_info.py
-  medpy_intensity_range_standardization.py: /usr/local/bin/medpy_intensity_range_standardization.py
+  medpy_intensity_range_standardization.py: 
+    /usr/local/bin/medpy_intensity_range_standardization.py
   medpy_intersection.py: /usr/local/bin/medpy_intersection.py
   medpy_join_masks.py: /usr/local/bin/medpy_join_masks.py
   medpy_join_xd_to_xplus1d.py: /usr/local/bin/medpy_join_xd_to_xplus1d.py

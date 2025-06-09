@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/treebest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treebest
 latest:
-  1.9.2_ep78--hfc679d8_2: sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e
+  1.9.2_ep78--hfc679d8_2: 
+    sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e
 tags:
-  1.9.2_ep78--hfc679d8_2: sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e
+  1.9.2_ep78--hfc679d8_2: 
+    sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e
 docker: quay.io/biocontainers/treebest
 aliases:
   treebest: /usr/local/bin/treebest

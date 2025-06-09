@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/clinod
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clinod
 latest:
-  1.3--hdfd78af_4: sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
+  1.3--hdfd78af_4: 
+    sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
 tags:
-  1.3--hdfd78af_4: sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
+  1.3--hdfd78af_4: 
+    sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
 docker: quay.io/biocontainers/clinod
 aliases:
   analyze: /usr/local/bin/analyze

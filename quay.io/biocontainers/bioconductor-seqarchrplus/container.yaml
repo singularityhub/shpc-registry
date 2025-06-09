@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-seqarchrplus
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-seqarchrplus
+description: singularity registry hpc automated addition for 
+  bioconductor-seqarchrplus
 latest:
-  1.2.0--r43hdfd78af_0: sha256:7580226eed190929524902857d3a9e4fc1d8885db1df9f9e30d9bf288c29cf45
+  1.2.0--r43hdfd78af_0: 
+    sha256:7580226eed190929524902857d3a9e4fc1d8885db1df9f9e30d9bf288c29cf45
 tags:
-  1.0.0--r43hdfd78af_0: sha256:58632c882731971c8223e2f2b4da4cecfa812b079746d1786b35aab8397d22e3
-  1.2.0--r43hdfd78af_0: sha256:7580226eed190929524902857d3a9e4fc1d8885db1df9f9e30d9bf288c29cf45
+  1.0.0--r43hdfd78af_0: 
+    sha256:58632c882731971c8223e2f2b4da4cecfa812b079746d1786b35aab8397d22e3
+  1.2.0--r43hdfd78af_0: 
+    sha256:7580226eed190929524902857d3a9e4fc1d8885db1df9f9e30d9bf288c29cf45
 docker: quay.io/biocontainers/bioconductor-seqarchrplus
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
@@ -27,8 +31,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   pandoc: /usr/local/bin/pandoc
   python3.1: /usr/local/bin/python3.1

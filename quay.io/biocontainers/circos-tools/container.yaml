@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/circos-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circos-tools
 latest:
-  0.23--hdfd78af_3: sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
+  0.23--hdfd78af_3: 
+    sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
 tags:
-  0.23--hdfd78af_3: sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
+  0.23--hdfd78af_3: 
+    sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
 docker: quay.io/biocontainers/circos-tools
 aliases:
   binlinks: /usr/local/bin/binlinks

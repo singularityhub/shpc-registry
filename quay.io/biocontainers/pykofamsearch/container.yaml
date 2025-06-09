@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pykofamsearch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pykofamsearch
 latest:
-  2024.10.20--pyh7e72e81_0: sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
+  2024.10.20--pyh7e72e81_0: 
+    sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
 tags:
-  2024.10.20--pyh7e72e81_0: sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
+  2024.10.20--pyh7e72e81_0: 
+    sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5
 docker: quay.io/biocontainers/pykofamsearch
 aliases:
   pykofamsearch: /usr/local/bin/pykofamsearch

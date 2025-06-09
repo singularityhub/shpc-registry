@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bio-vcf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bio-vcf
 latest:
-  0.9.5--hdfd78af_0: sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
+  0.9.5--hdfd78af_0: 
+    sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
 tags:
-  0.9.5--hdfd78af_0: sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
+  0.9.5--hdfd78af_0: 
+    sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
 docker: quay.io/biocontainers/bio-vcf
 aliases:
   bio-vcf: /usr/local/bin/bio-vcf

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/viromeqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viromeqc
 latest:
-  1.0.2--py310h7cba7a3_0: sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
+  1.0.2--py310h7cba7a3_0: 
+    sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
 tags:
-  1.0.2--py310h7cba7a3_0: sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
+  1.0.2--py310h7cba7a3_0: 
+    sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
 docker: quay.io/biocontainers/viromeqc
 aliases:
   fastq_len_filter.py: /usr/local/bin/fastq_len_filter.py

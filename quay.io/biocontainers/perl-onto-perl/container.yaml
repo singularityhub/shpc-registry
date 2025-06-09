@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-onto-perl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-onto-perl
 latest:
-  1.45--pl5321hdfd78af_3: sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf
+  1.45--pl5321hdfd78af_3: 
+    sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf
 tags:
-  1.45--pl5321hdfd78af_3: sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf
+  1.45--pl5321hdfd78af_3: 
+    sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf
 docker: quay.io/biocontainers/perl-onto-perl
 aliases:
   bioportal_csv2obo.pl: /usr/local/bin/bioportal_csv2obo.pl
@@ -14,20 +16,27 @@ aliases:
   get_child_terms.pl: /usr/local/bin/get_child_terms.pl
   get_descendent_terms.pl: /usr/local/bin/get_descendent_terms.pl
   get_lowest_common_ancestor.pl: /usr/local/bin/get_lowest_common_ancestor.pl
-  get_obsolete_term_id_vs_def_in_go.pl: /usr/local/bin/get_obsolete_term_id_vs_def_in_go.pl
-  get_obsolete_term_id_vs_name_in_go.pl: /usr/local/bin/get_obsolete_term_id_vs_name_in_go.pl
+  get_obsolete_term_id_vs_def_in_go.pl: 
+    /usr/local/bin/get_obsolete_term_id_vs_def_in_go.pl
+  get_obsolete_term_id_vs_name_in_go.pl: 
+    /usr/local/bin/get_obsolete_term_id_vs_name_in_go.pl
   get_obsolete_terms.pl: /usr/local/bin/get_obsolete_terms.pl
   get_parent_terms.pl: /usr/local/bin/get_parent_terms.pl
-  get_relationship_id_vs_relationship_def.pl: /usr/local/bin/get_relationship_id_vs_relationship_def.pl
-  get_relationship_id_vs_relationship_name.pl: /usr/local/bin/get_relationship_id_vs_relationship_name.pl
-  get_relationship_id_vs_relationship_namespace.pl: /usr/local/bin/get_relationship_id_vs_relationship_namespace.pl
+  get_relationship_id_vs_relationship_def.pl: 
+    /usr/local/bin/get_relationship_id_vs_relationship_def.pl
+  get_relationship_id_vs_relationship_name.pl: 
+    /usr/local/bin/get_relationship_id_vs_relationship_name.pl
+  get_relationship_id_vs_relationship_namespace.pl: 
+    /usr/local/bin/get_relationship_id_vs_relationship_namespace.pl
   get_relationship_types.pl: /usr/local/bin/get_relationship_types.pl
   get_root_terms.pl: /usr/local/bin/get_root_terms.pl
   get_subontology_from.pl: /usr/local/bin/get_subontology_from.pl
   get_term_id_vs_term_def.pl: /usr/local/bin/get_term_id_vs_term_def.pl
   get_term_id_vs_term_name.pl: /usr/local/bin/get_term_id_vs_term_name.pl
-  get_term_id_vs_term_namespace.pl: /usr/local/bin/get_term_id_vs_term_namespace.pl
-  get_term_local_neighbourhood.pl: /usr/local/bin/get_term_local_neighbourhood.pl
+  get_term_id_vs_term_namespace.pl: 
+    /usr/local/bin/get_term_id_vs_term_namespace.pl
+  get_term_local_neighbourhood.pl: 
+    /usr/local/bin/get_term_local_neighbourhood.pl
   get_term_synonyms.pl: /usr/local/bin/get_term_synonyms.pl
   get_terms.pl: /usr/local/bin/get_terms.pl
   get_terms_and_synonyms.pl: /usr/local/bin/get_terms_and_synonyms.pl

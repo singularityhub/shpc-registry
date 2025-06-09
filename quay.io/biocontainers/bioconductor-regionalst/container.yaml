@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-regionalst
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-regionalst
+description: singularity registry hpc automated addition for 
+  bioconductor-regionalst
 latest:
-  1.0.1--r43hdfd78af_0: sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
+  1.0.1--r43hdfd78af_0: 
+    sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
 tags:
-  1.0.1--r43hdfd78af_0: sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
+  1.0.1--r43hdfd78af_0: 
+    sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
 docker: quay.io/biocontainers/bioconductor-regionalst
 aliases:
   xgboost: /usr/local/bin/xgboost
@@ -23,7 +26,9 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   pandoc: /usr/local/bin/pandoc

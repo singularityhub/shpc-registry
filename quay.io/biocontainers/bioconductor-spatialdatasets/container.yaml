@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-spatialdatasets
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-spatialdatasets
+description: singularity registry hpc automated addition for 
+  bioconductor-spatialdatasets
 latest:
-  1.4.0--r44hdfd78af_0: sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
+  1.4.0--r44hdfd78af_0: 
+    sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
 tags:
-  1.0.0--r43hdfd78af_0: sha256:a9b0536ff2f5b587588578f18c74769ac643db6880c31a0b2c0c07bdc689e78d
-  1.4.0--r44hdfd78af_0: sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
+  1.0.0--r43hdfd78af_0: 
+    sha256:a9b0536ff2f5b587588578f18c74769ac643db6880c31a0b2c0c07bdc689e78d
+  1.4.0--r44hdfd78af_0: 
+    sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
 docker: quay.io/biocontainers/bioconductor-spatialdatasets
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
@@ -14,7 +18,8 @@ aliases:
   pydoc3.12: /usr/local/bin/pydoc3.12
   python3.12: /usr/local/bin/python3.12
   python3.12-config: /usr/local/bin/python3.12-config
-  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config

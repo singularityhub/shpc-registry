@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rnamining
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnamining
 latest:
-  1.0.4--pyhdfd78af_0: sha256:8f0f438ee08a64768e26714f32379ee3f323ac2840e53eb25548f0acde536d52
+  1.0.4--pyhdfd78af_0: 
+    sha256:8f0f438ee08a64768e26714f32379ee3f323ac2840e53eb25548f0acde536d52
 tags:
-  1.0.4--pyhdfd78af_0: sha256:8f0f438ee08a64768e26714f32379ee3f323ac2840e53eb25548f0acde536d52
+  1.0.4--pyhdfd78af_0: 
+    sha256:8f0f438ee08a64768e26714f32379ee3f323ac2840e53eb25548f0acde536d52
 docker: quay.io/biocontainers/rnamining
 aliases:
   rnamining: /usr/local/bin/rnamining

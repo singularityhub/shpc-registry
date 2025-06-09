@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gmsc-mapper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gmsc-mapper
 latest:
-  0.1.0--pyhdfd78af_0: sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
+  0.1.0--pyhdfd78af_0: 
+    sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
 tags:
-  0.1.0--pyhdfd78af_0: sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
+  0.1.0--pyhdfd78af_0: 
+    sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
 docker: quay.io/biocontainers/gmsc-mapper
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp

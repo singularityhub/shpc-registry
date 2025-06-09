@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pdbx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pdbx
 latest:
-  1.0.0--py311hdbdd923_1: sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8
+  827b2a2--py311h8ddd9a4_1: 
+    sha256:ad11349d3a5a4ed57a9899e34e151b26becdf704dd4d820155056ce7dc167a4f
 tags:
-  1.0.0--py311hdbdd923_1: sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8
+  1.0.0--py311hdbdd923_1: 
+    sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8
+  827b2a2--py311h8ddd9a4_1: 
+    sha256:ad11349d3a5a4ed57a9899e34e151b26becdf704dd4d820155056ce7dc167a4f
 docker: quay.io/biocontainers/pdbx
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

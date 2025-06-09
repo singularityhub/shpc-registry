@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/physiofit4galaxy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for physiofit4galaxy
 latest:
-  2.2.1--pyhdfd78af_1: sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
+  2.2.1--pyhdfd78af_1: 
+    sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
 tags:
-  2.2.1--pyhdfd78af_1: sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
+  2.2.1--pyhdfd78af_1: 
+    sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
 docker: quay.io/biocontainers/physiofit4galaxy
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

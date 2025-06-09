@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/squeegee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for squeegee
 latest:
-  0.2.0--hdfd78af_0: sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
+  0.2.0--hdfd78af_0: 
+    sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
 tags:
-  0.2.0--hdfd78af_0: sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
+  0.2.0--hdfd78af_0: 
+    sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
 docker: quay.io/biocontainers/squeegee
 aliases:
   existDB: /usr/local/bin/existDB

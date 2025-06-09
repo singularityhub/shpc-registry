@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/riboraptor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for riboraptor
 latest:
-  0.2.2--py_2: sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02
+  0.2.2--py_2: 
+    sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02
 tags:
-  0.2.2--py_2: sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02
+  0.2.2--py_2: 
+    sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02
 docker: quay.io/biocontainers/riboraptor

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nvc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nvc
 latest:
-  0.0.4--py_2: sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d
+  0.0.4--py_2: 
+    sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d
 tags:
-  0.0.4--py_2: sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d
+  0.0.4--py_2: 
+    sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d
 docker: quay.io/biocontainers/nvc
 aliases:
   naive_variant_caller.py: /usr/local/bin/naive_variant_caller.py

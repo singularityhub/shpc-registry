@@ -1,23 +1,24 @@
 docker: couchdb
 url: https://hub.docker.com/_/couchdb
 maintainer: '@vsoch'
-description: CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative
-  indexing.
+description: CouchDB is a database that uses JSON for documents, an HTTP API, & 
+  JavaScript/declarative indexing.
 latest:
-  '3.5': sha256:1b28dc51a240436da6056e1abe8f20c7d3c3da31d177660604154757417098e5
+  '3.5': sha256:dfb99cac32d466013e2ef578d09f9831a9bc86043b1c453cf671c069902c75a1
 tags:
   '2': sha256:30dc067ce470fd437f4074d41f150fa81c1ff9c923a371d38f155d1a36159f4e
   3.1.1: sha256:b422509b1648306dee1038f41756a982aefa17f986fa8ba18f6cd80e433dafdf
   3.2.0: sha256:721df2c2a5da1b477e3976f3f10c3d1f015ba3c0101fb49efdcb7062b695a32c
   3.2.1: sha256:37a7a9aab050c8c376b012d9c52da58e2c94d221b0eb5567edb88d8ceca096ee
-  latest: sha256:1b28dc51a240436da6056e1abe8f20c7d3c3da31d177660604154757417098e5
-  '3': sha256:1b28dc51a240436da6056e1abe8f20c7d3c3da31d177660604154757417098e5
+  latest: 
+    sha256:dfb99cac32d466013e2ef578d09f9831a9bc86043b1c453cf671c069902c75a1
+  '3': sha256:dfb99cac32d466013e2ef578d09f9831a9bc86043b1c453cf671c069902c75a1
   '3.2': sha256:d32613dffcfb62cce58f65a9709fd46d66715db1a9dba3bb1033bc52df516d19
   '3.1': sha256:27e15e61dbdf09524f3246e187affedb1074b47be78d4d589c2c74570f846466
   '3.0': sha256:3257ad20542c483e744cf747641fb20d6b75ef627ff273f78be9e371e35f9608
   '3.3': sha256:307a3f5276f64c0db28f226b7b5c180b8f2c851afa681cfb4fbb1b1fe7fd5587
-  '3.4': sha256:eaccac1af6288e7c81f62ccb093a5ec4a03d7762ea85347fb00a1793571a57f6
-  '3.5': sha256:1b28dc51a240436da6056e1abe8f20c7d3c3da31d177660604154757417098e5
+  '3.4': sha256:a51497d96fe1d562b93fe03aade9fd38d02ba927c3d9457f86ff2dd7b5b97c4e
+  '3.5': sha256:dfb99cac32d466013e2ef578d09f9831a9bc86043b1c453cf671c069902c75a1
 aliases:
   couchdb: /opt/couchdb/bin/couchdb
   couchdb.cmd: /opt/couchdb/bin/couchdb.cmd
