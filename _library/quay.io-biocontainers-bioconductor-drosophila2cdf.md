@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drosophila2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosophila2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosophila2cdf/container.yaml"
-updated_at: "2025-06-09 03:53:55.628013"
+updated_at: "2025-06-09 04:05:38.171006"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosophila2cdf"
 

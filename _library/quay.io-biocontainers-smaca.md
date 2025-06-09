@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smaca/container.yaml"
-updated_at: "2025-06-09 03:29:44.736389"
+updated_at: "2025-06-09 03:41:06.064262"
 latest: "1.2.3--py311hc1104ee_6"
 container_url: "https://biocontainers.pro/tools/smaca"
 aliases:

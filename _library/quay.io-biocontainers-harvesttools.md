@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/harvesttools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harvesttools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harvesttools/container.yaml"
-updated_at: "2025-06-09 03:39:12.042056"
+updated_at: "2025-06-09 03:50:44.360734"
 latest: "1.2--ha9fde67_2"
 container_url: "https://biocontainers.pro/tools/harvesttools"
 aliases:

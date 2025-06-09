@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqpower/container.yaml"
-updated_at: "2025-06-09 04:00:31.708368"
+updated_at: "2025-06-09 04:11:55.452213"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqpower"
 

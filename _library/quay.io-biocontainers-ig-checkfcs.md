@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ig-checkfcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ig-checkfcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ig-checkfcs/container.yaml"
-updated_at: "2025-06-09 04:14:57.083870"
+updated_at: "2025-06-09 04:25:43.491138"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/ig-checkfcs"
 aliases:
