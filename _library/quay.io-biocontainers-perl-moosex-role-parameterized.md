@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-role-parameterized"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-role-parameterized/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-role-parameterized/container.yaml"
-updated_at: "2025-06-09 04:07:43.615380"
+updated_at: "2025-06-10 03:52:39.948774"
 latest: "1.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-role-parameterized"
 aliases:

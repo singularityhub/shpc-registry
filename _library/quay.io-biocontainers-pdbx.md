@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pdbx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdbx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdbx/container.yaml"
-updated_at: "2025-06-09 04:24:17.002726"
-latest: "1.0.0--py311hdbdd923_1"
+updated_at: "2025-06-10 04:09:31.362761"
+latest: "827b2a2--py311h8ddd9a4_1"
 container_url: "https://biocontainers.pro/tools/pdbx"
 aliases:
  - "2to3-3.11"
@@ -15,8 +15,9 @@ aliases:
  - "python3.11-config"
 versions:
  - "1.0.0--py311hdbdd923_1"
+ - "827b2a2--py311h8ddd9a4_1"
 description: "singularity registry hpc automated addition for pdbx"
-config: {"url": "https://biocontainers.pro/tools/pdbx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pdbx", "latest": {"1.0.0--py311hdbdd923_1": "sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8"}, "tags": {"1.0.0--py311hdbdd923_1": "sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8"}, "docker": "quay.io/biocontainers/pdbx", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/pdbx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pdbx", "latest": {"827b2a2--py311h8ddd9a4_1": "sha256:ad11349d3a5a4ed57a9899e34e151b26becdf704dd4d820155056ce7dc167a4f"}, "tags": {"1.0.0--py311hdbdd923_1": "sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8", "827b2a2--py311h8ddd9a4_1": "sha256:ad11349d3a5a4ed57a9899e34e151b26becdf704dd4d820155056ce7dc167a4f"}, "docker": "quay.io/biocontainers/pdbx", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pdbx.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pdbx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pdbx:1.0.0--py311hdbdd923_1
+$ shpc install quay.io/biocontainers/pdbx:827b2a2--py311h8ddd9a4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pdbx/1.0.0--py311hdbdd923_1
-$ module help quay.io/biocontainers/pdbx/1.0.0--py311hdbdd923_1
+$ module load quay.io/biocontainers/pdbx/827b2a2--py311h8ddd9a4_1
+$ module help quay.io/biocontainers/pdbx/827b2a2--py311h8ddd9a4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
