@@ -1,10 +1,11 @@
 docker: ghcr.io/autamus/zfp
 url: https://github.com/orgs/autamus/packages/container/package/zfp
 maintainer: '@vsoch'
-description: zfp is a compressed number format for multidimensional floating-point
-  and integer arrays.
+description: zfp is a compressed number format for multidimensional 
+  floating-point and integer arrays.
 latest:
   0.5.5: sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3
 tags:
   0.5.5: sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3
-  latest: sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3
+  latest: 
+    sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3

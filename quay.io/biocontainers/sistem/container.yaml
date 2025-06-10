@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sistem
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sistem
 latest:
-  1.0.3--pyh7e72e81_0: sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306
+  1.0.3--pyh7e72e81_0: 
+    sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306
 tags:
-  1.0.3--pyh7e72e81_0: sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306
+  1.0.3--pyh7e72e81_0: 
+    sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306
 docker: quay.io/biocontainers/sistem
 aliases:
   dwgsim: /usr/local/bin/dwgsim

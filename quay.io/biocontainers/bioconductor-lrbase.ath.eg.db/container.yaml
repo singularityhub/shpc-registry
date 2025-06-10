@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-lrbase.ath.eg.db
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-lrbase.ath.eg.db
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-lrbase.ath.eg.db
 latest:
-  2.0.0--r41hdfd78af_0: sha256:0df2ccbd6aa30d0b48ae1aea7c9814a77e2f3604e1d75e5ee5739746a4206535
+  2.0.0--r41hdfd78af_0: 
+    sha256:0df2ccbd6aa30d0b48ae1aea7c9814a77e2f3604e1d75e5ee5739746a4206535
 tags:
-  2.0.0--r41hdfd78af_0: sha256:0df2ccbd6aa30d0b48ae1aea7c9814a77e2f3604e1d75e5ee5739746a4206535
+  2.0.0--r41hdfd78af_0: 
+    sha256:0df2ccbd6aa30d0b48ae1aea7c9814a77e2f3604e1d75e5ee5739746a4206535
 docker: quay.io/biocontainers/bioconductor-lrbase.ath.eg.db
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

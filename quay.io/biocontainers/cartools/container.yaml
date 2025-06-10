@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cartools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cartools
 latest:
-  1.1.3--pyh7cba7a3_0: sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
+  1.1.3--pyh7cba7a3_0: 
+    sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
 tags:
-  1.1.3--pyh7cba7a3_0: sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
+  1.1.3--pyh7cba7a3_0: 
+    sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
 docker: quay.io/biocontainers/cartools
 aliases:
   CARTools.py: /usr/local/bin/CARTools.py

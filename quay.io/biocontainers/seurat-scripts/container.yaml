@@ -2,21 +2,28 @@ url: https://biocontainers.pro/tools/seurat-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seurat-scripts
 latest:
-  4.4.0--hdfd78af_0: sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
+  4.4.0--hdfd78af_0: 
+    sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
 tags:
-  4.0.0--hdfd78af_0: sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
-  4.4.0--hdfd78af_0: sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
+  4.0.0--hdfd78af_0: 
+    sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
+  4.4.0--hdfd78af_0: 
+    sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
 docker: quay.io/biocontainers/seurat-scripts
 aliases:
-  r-seurat-scripts-post-install-tests.bats: /usr/local/bin/r-seurat-scripts-post-install-tests.bats
-  r-seurat-scripts-post-install-tests.sh: /usr/local/bin/r-seurat-scripts-post-install-tests.sh
-  seurat-classify-against-reference.R: /usr/local/bin/seurat-classify-against-reference.R
+  r-seurat-scripts-post-install-tests.bats: 
+    /usr/local/bin/r-seurat-scripts-post-install-tests.bats
+  r-seurat-scripts-post-install-tests.sh: 
+    /usr/local/bin/r-seurat-scripts-post-install-tests.sh
+  seurat-classify-against-reference.R: 
+    /usr/local/bin/seurat-classify-against-reference.R
   seurat-convert.R: /usr/local/bin/seurat-convert.R
   seurat-dim-plot.R: /usr/local/bin/seurat-dim-plot.R
   seurat-export-cellbrowser.R: /usr/local/bin/seurat-export-cellbrowser.R
   seurat-filter-cells.R: /usr/local/bin/seurat-filter-cells.R
   seurat-find-clusters.R: /usr/local/bin/seurat-find-clusters.R
-  seurat-find-conserved-markers.R: /usr/local/bin/seurat-find-conserved-markers.R
+  seurat-find-conserved-markers.R: 
+    /usr/local/bin/seurat-find-conserved-markers.R
   seurat-find-markers.R: /usr/local/bin/seurat-find-markers.R
   seurat-find-neighbours.R: /usr/local/bin/seurat-find-neighbours.R
   seurat-find-variable-genes.R: /usr/local/bin/seurat-find-variable-genes.R
@@ -32,7 +39,8 @@ aliases:
   seurat-run-tsne.R: /usr/local/bin/seurat-run-tsne.R
   seurat-run-umap.R: /usr/local/bin/seurat-run-umap.R
   seurat-scale-data.R: /usr/local/bin/seurat-scale-data.R
-  seurat-select-integration-features.R: /usr/local/bin/seurat-select-integration-features.R
+  seurat-select-integration-features.R: 
+    /usr/local/bin/seurat-select-integration-features.R
   seurat-split-object.R: /usr/local/bin/seurat-split-object.R
   mirror_server: /usr/local/bin/mirror_server
   mirror_server_stop: /usr/local/bin/mirror_server_stop

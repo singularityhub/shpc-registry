@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pneumocat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pneumocat
 latest:
-  1.2--3: sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478
+  1.2--3: 
+    sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478
 tags:
-  1.2--3: sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478
+  1.2--3: 
+    sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478
 docker: quay.io/biocontainers/pneumocat
 aliases:
   PneumoCaT.py: /usr/local/bin/PneumoCaT.py

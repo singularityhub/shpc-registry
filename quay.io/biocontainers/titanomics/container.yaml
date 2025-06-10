@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/titanomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for titanomics
 latest:
-  0.1--pyh5e36f6f_0: sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
+  0.1--pyh5e36f6f_0: 
+    sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
 tags:
-  0.1--pyh5e36f6f_0: sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
+  0.1--pyh5e36f6f_0: 
+    sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
 docker: quay.io/biocontainers/titanomics
 aliases:
   countAssembly.py: /usr/local/bin/countAssembly.py

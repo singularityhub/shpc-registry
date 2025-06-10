@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/embl-api-validator
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for embl-api-validator
+description: shpc-registry automated BioContainers addition for 
+  embl-api-validator
 latest:
-  1.1.180--1: sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a
+  1.1.180--1: 
+    sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a
 tags:
-  1.1.180--1: sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a
+  1.1.180--1: 
+    sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a
 docker: quay.io/biocontainers/embl-api-validator
 aliases:
   embl-api-validator: /usr/local/bin/embl-api-validator

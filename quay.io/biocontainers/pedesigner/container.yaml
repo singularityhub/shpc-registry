@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pedesigner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pedesigner
 latest:
-  0.2.0--pyhdfd78af_0: sha256:b8cce844e5647e0019fe53eeeea0ffc7c7d6f85c7295df2fa47cdc2ddbf60fa7
+  0.2.0--pyhdfd78af_0: 
+    sha256:b8cce844e5647e0019fe53eeeea0ffc7c7d6f85c7295df2fa47cdc2ddbf60fa7
 tags:
-  0.2.0--pyhdfd78af_0: sha256:b8cce844e5647e0019fe53eeeea0ffc7c7d6f85c7295df2fa47cdc2ddbf60fa7
+  0.2.0--pyhdfd78af_0: 
+    sha256:b8cce844e5647e0019fe53eeeea0ffc7c7d6f85c7295df2fa47cdc2ddbf60fa7
 docker: quay.io/biocontainers/pedesigner
 aliases:
   cas-offinder: /usr/local/bin/cas-offinder

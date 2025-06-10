@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/quantpi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quantpi
 latest:
-  1.0.0--pyh7e72e81_0: sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
+  1.0.0--pyh7e72e81_0: 
+    sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
 tags:
-  0.2.0--pyh5e36f6f_0: sha256:bac071f4a5508e72ba978b9f7bf7d352871d81f94c2f3933b5115d4955337dd3
-  1.0.0--pyh7e72e81_0: sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
+  0.2.0--pyh5e36f6f_0: 
+    sha256:bac071f4a5508e72ba978b9f7bf7d352871d81f94c2f3933b5115d4955337dd3
+  1.0.0--pyh7e72e81_0: 
+    sha256:d6806b2d003c847ad34047798f7f85c80d7b8d5e81571e9e8fb9fe058b05a72e
 docker: quay.io/biocontainers/quantpi
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
@@ -36,7 +39,8 @@ aliases:
   humann_build_custom_database: /usr/local/bin/humann_build_custom_database
   humann_config: /usr/local/bin/humann_config
   humann_databases: /usr/local/bin/humann_databases
-  humann_genefamilies_genus_level: /usr/local/bin/humann_genefamilies_genus_level
+  humann_genefamilies_genus_level: 
+    /usr/local/bin/humann_genefamilies_genus_level
   humann_humann1_kegg: /usr/local/bin/humann_humann1_kegg
   humann_infer_taxonomy: /usr/local/bin/humann_infer_taxonomy
   humann_join_tables: /usr/local/bin/humann_join_tables
@@ -77,13 +81,15 @@ aliases:
   phylophlan_setup_database: /usr/local/bin/phylophlan_setup_database
   phylophlan_strain_finder: /usr/local/bin/phylophlan_strain_finder
   phylophlan_write_config_file: /usr/local/bin/phylophlan_write_config_file
-  phylophlan_write_default_configs.sh: /usr/local/bin/phylophlan_write_default_configs.sh
+  phylophlan_write_default_configs.sh: 
+    /usr/local/bin/phylophlan_write_default_configs.sh
   plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
   quantpi: /usr/local/bin/quantpi
   read_fastx.py: /usr/local/bin/read_fastx.py
-  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  remove_minimap2_duplicated_headers: 
+    /usr/local/bin/remove_minimap2_duplicated_headers
   rich-click: /usr/local/bin/rich-click
   sample2markers.py: /usr/local/bin/sample2markers.py
   starcode: /usr/local/bin/starcode

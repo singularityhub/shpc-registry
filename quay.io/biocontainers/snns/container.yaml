@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/snns
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snns
 latest:
-  4.3--h9ee0642_3: sha256:6025b0da71a906f2c9f19ba70504e08f7cfbdd4584e5f239e75da9ee9fa2877c
+  4.3--h9ee0642_3: 
+    sha256:6025b0da71a906f2c9f19ba70504e08f7cfbdd4584e5f239e75da9ee9fa2877c
 tags:
-  4.3--h9ee0642_3: sha256:6025b0da71a906f2c9f19ba70504e08f7cfbdd4584e5f239e75da9ee9fa2877c
+  4.3--h9ee0642_3: 
+    sha256:6025b0da71a906f2c9f19ba70504e08f7cfbdd4584e5f239e75da9ee9fa2877c
 docker: quay.io/biocontainers/snns
 aliases:
   analyze: /usr/local/bin/analyze

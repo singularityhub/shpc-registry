@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/misopy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for misopy
 latest:
-  0.5.4--py27h9801fc8_5: sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
+  0.5.4--py27h9801fc8_5: 
+    sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
 tags:
-  0.5.4--py27h9801fc8_5: sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
+  0.5.4--py27h9801fc8_5: 
+    sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
 docker: quay.io/biocontainers/misopy
 aliases:
   compare_miso: /usr/local/bin/compare_miso

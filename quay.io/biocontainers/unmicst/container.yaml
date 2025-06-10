@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/unmicst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unmicst
 latest:
-  2.6.6--pyh7e72e81_0: sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
+  2.6.6--pyh7e72e81_0: 
+    sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
 tags:
-  2.6.6--pyh7e72e81_0: sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
+  2.6.6--pyh7e72e81_0: 
+    sha256:49397a37ee7ee5346bd18152922d70ca8328ea605d60d1f63106a6b8f649bc8d
 docker: quay.io/biocontainers/unmicst
 aliases:
   protoc-28.3.0: /usr/local/bin/protoc-28.3.0

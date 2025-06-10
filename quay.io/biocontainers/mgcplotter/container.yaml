@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mgcplotter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgcplotter
 latest:
-  1.0.1--pyhdfd78af_0: sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
+  1.0.1--pyhdfd78af_0: 
+    sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
 tags:
-  1.0.1--pyhdfd78af_0: sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
+  1.0.1--pyhdfd78af_0: 
+    sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
 docker: quay.io/biocontainers/mgcplotter
 aliases:
   COGclassifier: /usr/local/bin/COGclassifier

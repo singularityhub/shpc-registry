@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/soapdenovo2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for soapdenovo2
 latest:
-  2.40--1: sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3
+  2.40--1: 
+    sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3
 tags:
-  2.40--1: sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3
+  2.40--1: 
+    sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3
 docker: quay.io/biocontainers/soapdenovo2

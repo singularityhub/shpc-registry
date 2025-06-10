@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-fmsb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fmsb
 latest:
-  0.6.3--r36h6115d3f_4: sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3
+  0.6.3--r36h6115d3f_4: 
+    sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3
 tags:
-  0.6.3--r36h6115d3f_4: sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3
+  0.6.3--r36h6115d3f_4: 
+    sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3
 docker: quay.io/biocontainers/r-fmsb
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mgca
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgca
 latest:
-  0.0.0--pl5321hdfd78af_0: sha256:4675d02e7579368f3c4b61bfe579a608f10c5ecad7bc2ccbdbafe5bcadcea2dd
+  0.0.0--pl5321hdfd78af_0: 
+    sha256:4675d02e7579368f3c4b61bfe579a608f10c5ecad7bc2ccbdbafe5bcadcea2dd
 tags:
-  0.0.0--pl5321hdfd78af_0: sha256:4675d02e7579368f3c4b61bfe579a608f10c5ecad7bc2ccbdbafe5bcadcea2dd
+  0.0.0--pl5321hdfd78af_0: 
+    sha256:4675d02e7579368f3c4b61bfe579a608f10c5ecad7bc2ccbdbafe5bcadcea2dd
 docker: quay.io/biocontainers/mgca
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats
@@ -44,7 +46,8 @@ aliases:
   cas_all_but_1_db.psq: /usr/local/bin/cas_all_but_1_db.psq
   cas_all_but_1_db.ptf: /usr/local/bin/cas_all_but_1_db.ptf
   cas_all_but_1_db.pto: /usr/local/bin/cas_all_but_1_db.pto
-  compare_predictions_to_phages.py: /usr/local/bin/compare_predictions_to_phages.py
+  compare_predictions_to_phages.py: 
+    /usr/local/bin/compare_predictions_to_phages.py
   covels-SE: /usr/local/bin/covels-SE
   coves-SE: /usr/local/bin/coves-SE
   createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl

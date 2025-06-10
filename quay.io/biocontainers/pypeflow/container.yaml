@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pypeflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pypeflow
 latest:
-  2.2.0--py27_0: sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3
+  2.2.0--py27_0: 
+    sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3
 tags:
-  2.2.0--py27_0: sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3
+  2.2.0--py27_0: 
+    sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3
 docker: quay.io/biocontainers/pypeflow
 aliases:
   heartbeat-wrapper: /usr/local/bin/heartbeat-wrapper

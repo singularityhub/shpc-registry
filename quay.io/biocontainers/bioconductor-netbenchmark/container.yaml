@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-netbenchmark
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-netbenchmark
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-netbenchmark
 latest:
-  1.19.0--r40h5f743cb_0: sha256:925ec6dbc621f8cb711cbb70da5ea157d3b8c4ebbbef8a223fc712f2282c5d84
+  1.19.0--r40h5f743cb_0: 
+    sha256:925ec6dbc621f8cb711cbb70da5ea157d3b8c4ebbbef8a223fc712f2282c5d84
 tags:
-  1.19.0--r40h5f743cb_0: sha256:925ec6dbc621f8cb711cbb70da5ea157d3b8c4ebbbef8a223fc712f2282c5d84
+  1.19.0--r40h5f743cb_0: 
+    sha256:925ec6dbc621f8cb711cbb70da5ea157d3b8c4ebbbef8a223fc712f2282c5d84
 docker: quay.io/biocontainers/bioconductor-netbenchmark
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/megagta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for megagta
 latest:
-  0.1_alpha--0: sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
+  0.1_alpha--0: 
+    sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
 tags:
-  0.1_alpha--0: sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
+  0.1_alpha--0: 
+    sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
 docker: quay.io/biocontainers/megagta
 aliases:
   hmmc2: /usr/local/bin/hmmc2
@@ -13,7 +15,8 @@ aliases:
   megagta.py: /usr/local/bin/megagta.py
   post_proc.sh: /usr/local/bin/post_proc.sh
   prepare_gene_ref.sh: /usr/local/bin/prepare_gene_ref.sh
-  xander_customized_hmmer_version_for_prepare_gene.sh: /usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh
+  xander_customized_hmmer_version_for_prepare_gene.sh: 
+    /usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh
   easy_install-2.7: /usr/local/bin/easy_install-2.7
   alimask: /usr/local/bin/alimask
   hmmconvert: /usr/local/bin/hmmconvert

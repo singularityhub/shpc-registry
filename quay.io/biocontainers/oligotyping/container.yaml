@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/oligotyping
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oligotyping
 latest:
-  2.1--py27_0: sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
+  2.1--py27_0: 
+    sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
 tags:
-  2.1--py27_0: sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
+  2.1--py27_0: 
+    sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
 docker: quay.io/biocontainers/oligotyping
 aliases:
   createlang: /usr/local/bin/createlang
@@ -40,27 +42,35 @@ aliases:
   o-bars-for-each-column.R: /usr/local/bin/o-bars-for-each-column.R
   o-boxplots.R: /usr/local/bin/o-boxplots.R
   o-cluster-analysis.R: /usr/local/bin/o-cluster-analysis.R
-  o-create-GG-alignment-template-from-taxon: /usr/local/bin/o-create-GG-alignment-template-from-taxon
+  o-create-GG-alignment-template-from-taxon: 
+    /usr/local/bin/o-create-GG-alignment-template-from-taxon
   o-fasta-length-distribution: /usr/local/bin/o-fasta-length-distribution
   o-gen-dicts-for-qual-stats: /usr/local/bin/o-gen-dicts-for-qual-stats
-  o-gen-stackbar-with-sets-from-ENVIRONMENT: /usr/local/bin/o-gen-stackbar-with-sets-from-ENVIRONMENT
-  o-generate-consensus-from-alignment: /usr/local/bin/o-generate-consensus-from-alignment
-  o-generate-environment-from-matrix-counts: /usr/local/bin/o-generate-environment-from-matrix-counts
+  o-gen-stackbar-with-sets-from-ENVIRONMENT: 
+    /usr/local/bin/o-gen-stackbar-with-sets-from-ENVIRONMENT
+  o-generate-consensus-from-alignment: 
+    /usr/local/bin/o-generate-consensus-from-alignment
+  o-generate-environment-from-matrix-counts: 
+    /usr/local/bin/o-generate-environment-from-matrix-counts
   o-generate-exclusive-figures: /usr/local/bin/o-generate-exclusive-figures
   o-generate-gephi-network-file: /usr/local/bin/o-generate-gephi-network-file
   o-generate-html-output: /usr/local/bin/o-generate-html-output
   o-generate-matching-qual-file: /usr/local/bin/o-generate-matching-qual-file
-  o-generate-matrix-files-from-ENVIRONMENT: /usr/local/bin/o-generate-matrix-files-from-ENVIRONMENT
+  o-generate-matrix-files-from-ENVIRONMENT: 
+    /usr/local/bin/o-generate-matrix-files-from-ENVIRONMENT
   o-generate-oligo-base-networks: /usr/local/bin/o-generate-oligo-base-networks
   o-get-reads-from-fasta: /usr/local/bin/o-get-reads-from-fasta
   o-get-sample-info-from-fasta: /usr/local/bin/o-get-sample-info-from-fasta
   o-heatmap.R: /usr/local/bin/o-heatmap.R
-  o-keep-or-remove-samples-from-fasta: /usr/local/bin/o-keep-or-remove-samples-from-fasta
+  o-keep-or-remove-samples-from-fasta: 
+    /usr/local/bin/o-keep-or-remove-samples-from-fasta
   o-lines-for-each-column.R: /usr/local/bin/o-lines-for-each-column.R
-  o-metaMDS-analysis-with-metadata.R: /usr/local/bin/o-metaMDS-analysis-with-metadata.R
+  o-metaMDS-analysis-with-metadata.R: 
+    /usr/local/bin/o-metaMDS-analysis-with-metadata.R
   o-metaMDS-analysis.R: /usr/local/bin/o-metaMDS-analysis.R
   o-pad-with-gaps: /usr/local/bin/o-pad-with-gaps
-  o-populate-datasets-from-VAMPS-download: /usr/local/bin/o-populate-datasets-from-VAMPS-download
+  o-populate-datasets-from-VAMPS-download: 
+    /usr/local/bin/o-populate-datasets-from-VAMPS-download
   o-remove-gaps: /usr/local/bin/o-remove-gaps
   o-sequence-distances: /usr/local/bin/o-sequence-distances
   o-smart-trim: /usr/local/bin/o-smart-trim
@@ -69,9 +79,11 @@ aliases:
   o-subsample-matrix-file: /usr/local/bin/o-subsample-matrix-file
   o-treat-homopolymer-regions: /usr/local/bin/o-treat-homopolymer-regions
   o-trim: /usr/local/bin/o-trim
-  o-trim-uninformative-columns-from-alignment: /usr/local/bin/o-trim-uninformative-columns-from-alignment
+  o-trim-uninformative-columns-from-alignment: 
+    /usr/local/bin/o-trim-uninformative-columns-from-alignment
   o-visualize-distance-matrix.R: /usr/local/bin/o-visualize-distance-matrix.R
-  o-visualize-qual-scores-along-columns.py: /usr/local/bin/o-visualize-qual-scores-along-columns.py
+  o-visualize-qual-scores-along-columns.py: 
+    /usr/local/bin/o-visualize-qual-scores-along-columns.py
   oligotype: /usr/local/bin/oligotype
   pct2rgb.py: /usr/local/bin/pct2rgb.py
   pg_receivexlog: /usr/local/bin/pg_receivexlog

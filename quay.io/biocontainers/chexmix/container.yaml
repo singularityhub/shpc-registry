@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/chexmix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chexmix
 latest:
-  0.52--hdfd78af_0: sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
+  0.52--hdfd78af_0: 
+    sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
 tags:
-  0.52--hdfd78af_0: sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
+  0.52--hdfd78af_0: 
+    sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
 docker: quay.io/biocontainers/chexmix
 aliases:
   centrimo-plots: /usr/local/bin/centrimo-plots

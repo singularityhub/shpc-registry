@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/gene-trajectory-python
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for gene-trajectory-python
+description: singularity registry hpc automated addition for 
+  gene-trajectory-python
 latest:
-  1.0.4--pyhdfd78af_0: sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
+  1.0.4--pyhdfd78af_0: 
+    sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
 tags:
-  1.0.4--pyhdfd78af_0: sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
+  1.0.4--pyhdfd78af_0: 
+    sha256:b236f62ea4f326ed2e56f6bb35b547cba90d956f0a3365628ac107ba71b2085e
 docker: quay.io/biocontainers/gene-trajectory-python
 aliases:
   qconvex: /usr/local/bin/qconvex

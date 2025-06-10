@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/maxquant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for maxquant
 latest:
-  2.0.3.0--py310hdfd78af_1: sha256:3fddb6ffc8888e58537d07991d923f80252015463879b8719d98324ec317f7fe
+  2.0.3.0--py310hdfd78af_1: 
+    sha256:3fddb6ffc8888e58537d07991d923f80252015463879b8719d98324ec317f7fe
 tags:
-  2.0.3.0--py310hdfd78af_1: sha256:3fddb6ffc8888e58537d07991d923f80252015463879b8719d98324ec317f7fe
+  2.0.3.0--py310hdfd78af_1: 
+    sha256:3fddb6ffc8888e58537d07991d923f80252015463879b8719d98324ec317f7fe
 docker: quay.io/biocontainers/maxquant
 aliases:
   CheckDll.exe: /usr/local/bin/CheckDll.exe
@@ -21,7 +23,8 @@ aliases:
   MaxQuantGui.exe.config: /usr/local/bin/MaxQuantGui.exe.config
   MaxQuantServer.exe: /usr/local/bin/MaxQuantServer.exe
   MaxQuantTask.exe: /usr/local/bin/MaxQuantTask.exe
-  MaxQuantTaskCore.runtimeconfig.json: /usr/local/bin/MaxQuantTaskCore.runtimeconfig.json
+  MaxQuantTaskCore.runtimeconfig.json: 
+    /usr/local/bin/MaxQuantTaskCore.runtimeconfig.json
   MqparConverter.exe: /usr/local/bin/MqparConverter.exe
   Sciex.Data.Processing.DLL: /usr/local/bin/Sciex.Data.Processing.DLL
   csc: /usr/local/bin/csc

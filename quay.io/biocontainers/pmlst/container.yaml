@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pmlst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pmlst
 latest:
-  2.0.3--hdfd78af_0: sha256:d59751d9b505d04c2cfdd2debd87daba5697387bf02b8ce6a5ddc1fe73be7150
+  2.0.3--hdfd78af_0: 
+    sha256:d59751d9b505d04c2cfdd2debd87daba5697387bf02b8ce6a5ddc1fe73be7150
 tags:
-  2.0.3--hdfd78af_0: sha256:d59751d9b505d04c2cfdd2debd87daba5697387bf02b8ce6a5ddc1fe73be7150
+  2.0.3--hdfd78af_0: 
+    sha256:d59751d9b505d04c2cfdd2debd87daba5697387bf02b8ce6a5ddc1fe73be7150
 docker: quay.io/biocontainers/pmlst
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nii2dcm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nii2dcm
 latest:
-  0.1.2--pyhdfd78af_0: sha256:b9bec833a1db2346f159cd0959d72f4fcb6e3169bca335a782074a2c54912eed
+  0.1.2--pyhdfd78af_0: 
+    sha256:b9bec833a1db2346f159cd0959d72f4fcb6e3169bca335a782074a2c54912eed
 tags:
-  0.1.2--pyhdfd78af_0: sha256:b9bec833a1db2346f159cd0959d72f4fcb6e3169bca335a782074a2c54912eed
+  0.1.2--pyhdfd78af_0: 
+    sha256:b9bec833a1db2346f159cd0959d72f4fcb6e3169bca335a782074a2c54912eed
 docker: quay.io/biocontainers/nii2dcm
 aliases:
   keyring: /usr/local/bin/keyring
@@ -47,4 +49,5 @@ aliases:
   dbus-run-session: /usr/local/bin/dbus-run-session
   dbus-send: /usr/local/bin/dbus-send
   dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-update-activation-environment: 
+    /usr/local/bin/dbus-update-activation-environment

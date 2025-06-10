@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-plotly
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-plotly
 latest:
-  4.5.6--r3.3.1_0: sha256:4596363c4d77ff6cb52a8117d5fe642eb043927594f7c39b47d5fcdf0596e9f4
+  4.5.6--r3.3.1_0: 
+    sha256:4596363c4d77ff6cb52a8117d5fe642eb043927594f7c39b47d5fcdf0596e9f4
 tags:
-  4.5.6--r3.3.1_0: sha256:4596363c4d77ff6cb52a8117d5fe642eb043927594f7c39b47d5fcdf0596e9f4
+  4.5.6--r3.3.1_0: 
+    sha256:4596363c4d77ff6cb52a8117d5fe642eb043927594f7c39b47d5fcdf0596e9f4
 docker: quay.io/biocontainers/r-plotly
 aliases:
   uconv: /usr/local/bin/uconv

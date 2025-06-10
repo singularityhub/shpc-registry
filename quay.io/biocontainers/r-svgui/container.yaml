@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-svgui
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-svgui
 latest:
-  0.9_55--r3.2.2_0: sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c
+  0.9_55--r3.2.2_0: 
+    sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c
 tags:
-  0.9_55--r3.2.2_0: sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c
+  0.9_55--r3.2.2_0: 
+    sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c
 docker: quay.io/biocontainers/r-svgui
 aliases:
   pngcp: /usr/local/bin/pngcp

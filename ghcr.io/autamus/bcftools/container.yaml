@@ -1,14 +1,19 @@
 docker: ghcr.io/autamus/bcftools
 url: https://github.com/orgs/autamus/packages/container/package/bcftools
 maintainer: '@vsoch'
-description: BCFtools is a set of utilities that manipulate variant calls in the Variant
-  Call Format (VCF) and its binary counterpart BCF.
+description: BCFtools is a set of utilities that manipulate variant calls in the
+  Variant Call Format (VCF) and its binary counterpart BCF.
 latest:
-  '1.14': sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
+  '1.14': 
+    sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
 tags:
-  '1.12': sha256:b77a402c04d702bf2c4cac914552c2515e630d9e6ecf36fcd332469f026388d9
-  '1.13': sha256:f362b16aec2b3fc6d1e6119882ff113066684432cfcb8882990c6d2a4ce2569a
-  '1.14': sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
-  latest: sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
+  '1.12': 
+    sha256:b77a402c04d702bf2c4cac914552c2515e630d9e6ecf36fcd332469f026388d9
+  '1.13': 
+    sha256:f362b16aec2b3fc6d1e6119882ff113066684432cfcb8882990c6d2a4ce2569a
+  '1.14': 
+    sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
+  latest: 
+    sha256:3d7d9fdf54f860f4bd689a13c7a394390b5f941e40d0a701dea1cfbd22786ccd
 aliases:
   bcftools: /opt/view/bin/bcftools

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pydotplus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pydotplus
 latest:
-  2.0.2--py36_0: sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7
+  2.0.2--py36_0: 
+    sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7
 tags:
-  2.0.2--py36_0: sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7
+  2.0.2--py36_0: 
+    sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7
 docker: quay.io/biocontainers/pydotplus
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

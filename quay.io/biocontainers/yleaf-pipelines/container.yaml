@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/yleaf-pipelines
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for yleaf-pipelines
 latest:
-  3.3.0--pyh7e72e81_0: sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
+  3.3.0--pyh7e72e81_0: 
+    sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
 tags:
-  3.3.0--pyh7e72e81_0: sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
+  3.3.0--pyh7e72e81_0: 
+    sha256:61d3e37c9aeba05120acade97883fe4fc32838706b7fc3bf5efe7330e1558a69
 docker: quay.io/biocontainers/yleaf-pipelines
 aliases:
   Yleaf: /usr/local/bin/Yleaf

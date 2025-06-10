@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/recur
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for recur
 latest:
-  1.0.0--pyhdfd78af_0: sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
+  1.0.0--pyhdfd78af_0: 
+    sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
 tags:
-  1.0.0--pyhdfd78af_0: sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
+  1.0.0--pyhdfd78af_0: 
+    sha256:f586febd45ee4b7fda23f860735f2923364cbd116fe70577be63e9df258eda30
 docker: quay.io/biocontainers/recur
 aliases:
   recur: /usr/local/bin/recur

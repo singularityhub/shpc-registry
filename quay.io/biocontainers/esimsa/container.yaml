@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/esimsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for esimsa
 latest:
-  1.0--h470a237_1: sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2
+  1.0--h470a237_1: 
+    sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2
 tags:
-  1.0--h470a237_1: sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2
+  1.0--h470a237_1: 
+    sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2
 docker: quay.io/biocontainers/esimsa
 aliases:
   esimsa: /usr/local/bin/esimsa

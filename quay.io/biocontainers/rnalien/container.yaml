@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rnalien
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnalien
 latest:
-  1.8.0--hdfd78af_2: sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
+  1.8.0--hdfd78af_2: 
+    sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
 tags:
-  1.8.0--hdfd78af_2: sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
+  1.8.0--hdfd78af_2: 
+    sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
 docker: quay.io/biocontainers/rnalien
 aliases:
   LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm

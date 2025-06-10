@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/tin-score-calculation
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for tin-score-calculation
+description: shpc-registry automated BioContainers addition for 
+  tin-score-calculation
 latest:
-  0.6.3--pyh5e36f6f_0: sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
+  0.6.3--pyh5e36f6f_0: 
+    sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
 tags:
-  0.6.3--pyh5e36f6f_0: sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
+  0.6.3--pyh5e36f6f_0: 
+    sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
 docker: quay.io/biocontainers/tin-score-calculation
 aliases:
   FPKM-UQ.py: /usr/local/bin/FPKM-UQ.py
@@ -40,7 +43,8 @@ aliases:
   split_paired_bam.py: /usr/local/bin/split_paired_bam.py
   summarize-tin.py: /usr/local/bin/summarize-tin.py
   tin.py: /usr/local/bin/tin.py
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

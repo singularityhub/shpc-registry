@@ -2,14 +2,17 @@ url: https://biocontainers.pro/tools/genome2tree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genome2tree
 latest:
-  1.0.0--pyhdfd78af_0: sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
+  1.0.0--pyhdfd78af_0: 
+    sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
 tags:
-  1.0.0--pyhdfd78af_0: sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
+  1.0.0--pyhdfd78af_0: 
+    sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
 docker: quay.io/biocontainers/genome2tree
 aliases:
   Genome2Tree.py: /usr/local/bin/Genome2Tree.py
   clipkit: /usr/local/bin/clipkit
-  convert_orthofinder_tree_ids.py: /usr/local/bin/convert_orthofinder_tree_ids.py
+  convert_orthofinder_tree_ids.py: 
+    /usr/local/bin/convert_orthofinder_tree_ids.py
   fastme: /usr/local/bin/fastme
   gawk-5.3.1: /usr/local/bin/gawk-5.3.1
   make_ultrametric.py: /usr/local/bin/make_ultrametric.py
@@ -36,12 +39,14 @@ aliases:
   pk_column_score: /usr/local/bin/pk_column_score
   pk_comp_bias_per_site: /usr/local/bin/pk_comp_bias_per_site
   pk_compositional_bias_per_site: /usr/local/bin/pk_compositional_bias_per_site
-  pk_covarying_evolutionary_rates: /usr/local/bin/pk_covarying_evolutionary_rates
+  pk_covarying_evolutionary_rates: 
+    /usr/local/bin/pk_covarying_evolutionary_rates
   pk_cover: /usr/local/bin/pk_cover
   pk_create_concat: /usr/local/bin/pk_create_concat
   pk_create_concatenation_matrix: /usr/local/bin/pk_create_concatenation_matrix
   pk_cs: /usr/local/bin/pk_cs
-  pk_degree_of_violation_of_a_molecular_clock: /usr/local/bin/pk_degree_of_violation_of_a_molecular_clock
+  pk_degree_of_violation_of_a_molecular_clock: 
+    /usr/local/bin/pk_degree_of_violation_of_a_molecular_clock
   pk_dvmc: /usr/local/bin/pk_dvmc
   pk_erps: /usr/local/bin/pk_erps
   pk_evo_rate: /usr/local/bin/pk_evo_rate
@@ -60,13 +65,15 @@ aliases:
   pk_internode_labeler: /usr/local/bin/pk_internode_labeler
   pk_is_monophyletic: /usr/local/bin/pk_is_monophyletic
   pk_labels: /usr/local/bin/pk_labels
-  pk_last_common_ancestor_subtree: /usr/local/bin/pk_last_common_ancestor_subtree
+  pk_last_common_ancestor_subtree: 
+    /usr/local/bin/pk_last_common_ancestor_subtree
   pk_lb_score: /usr/local/bin/pk_lb_score
   pk_lbs: /usr/local/bin/pk_lbs
   pk_lca_subtree: /usr/local/bin/pk_lca_subtree
   pk_long_branch_score: /usr/local/bin/pk_long_branch_score
   pk_monophyly_check: /usr/local/bin/pk_monophyly_check
-  pk_nearest_neighbor_interchange: /usr/local/bin/pk_nearest_neighbor_interchange
+  pk_nearest_neighbor_interchange: 
+    /usr/local/bin/pk_nearest_neighbor_interchange
   pk_nni: /usr/local/bin/pk_nni
   pk_p2n: /usr/local/bin/pk_p2n
   pk_pairwise_id: /usr/local/bin/pk_pairwise_id
@@ -91,8 +98,10 @@ aliases:
   pk_recode: /usr/local/bin/pk_recode
   pk_rel_comp_var: /usr/local/bin/pk_rel_comp_var
   pk_rel_comp_var_taxon: /usr/local/bin/pk_rel_comp_var_taxon
-  pk_relative_composition_variability: /usr/local/bin/pk_relative_composition_variability
-  pk_relative_composition_variability_taxon: /usr/local/bin/pk_relative_composition_variability_taxon
+  pk_relative_composition_variability: 
+    /usr/local/bin/pk_relative_composition_variability
+  pk_relative_composition_variability_taxon: 
+    /usr/local/bin/pk_relative_composition_variability_taxon
   pk_rename_fasta: /usr/local/bin/pk_rename_fasta
   pk_rename_fasta_entries: /usr/local/bin/pk_rename_fasta_entries
   pk_rename_tips: /usr/local/bin/pk_rename_tips

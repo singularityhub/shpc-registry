@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/how_are_we_stranded_here
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for how_are_we_stranded_here
+description: shpc-registry automated BioContainers addition for 
+  how_are_we_stranded_here
 latest:
-  1.0.1--pyhfa5458b_0: sha256:ad7581058ab8b39a888b527e23e69b74d23df3d95a91734646d3ee11b9af4f74
+  1.0.1--pyhfa5458b_0: 
+    sha256:ad7581058ab8b39a888b527e23e69b74d23df3d95a91734646d3ee11b9af4f74
 tags:
-  1.0.1--pyhfa5458b_0: sha256:ad7581058ab8b39a888b527e23e69b74d23df3d95a91734646d3ee11b9af4f74
+  1.0.1--pyhfa5458b_0: 
+    sha256:ad7581058ab8b39a888b527e23e69b74d23df3d95a91734646d3ee11b9af4f74
 docker: quay.io/biocontainers/how_are_we_stranded_here
 aliases:
   FPKM-UQ.py: /usr/local/bin/FPKM-UQ.py
@@ -40,7 +43,8 @@ aliases:
   split_paired_bam.py: /usr/local/bin/split_paired_bam.py
   tin.py: /usr/local/bin/tin.py
   gtf2bed: /usr/local/bin/gtf2bed
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

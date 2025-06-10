@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-hook-lexwrap
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-hook-lexwrap
+description: shpc-registry automated BioContainers addition for 
+  perl-hook-lexwrap
 latest:
-  0.26--pl526_1: sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f
+  0.26--pl526_1: 
+    sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f
 tags:
-  0.26--pl526_1: sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f
+  0.26--pl526_1: 
+    sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f
 docker: quay.io/biocontainers/perl-hook-lexwrap
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2
