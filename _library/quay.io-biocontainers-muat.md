@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/muat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muat/container.yaml"
-updated_at: "2025-06-10 04:05:59.268538"
+updated_at: "2025-06-11 03:28:35.259569"
 latest: "0.1.12--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/muat"
 aliases:

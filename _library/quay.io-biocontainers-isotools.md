@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isotools/container.yaml"
-updated_at: "2025-06-10 03:58:42.555863"
-latest: "0.3.4--pyhdfd78af_0"
+updated_at: "2025-06-11 03:34:01.107761"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isotools"
 aliases:
  - "cpat"
@@ -42,8 +42,9 @@ aliases:
  - "get_scores_in_intervals.py"
 versions:
  - "0.3.4--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for isotools"
-config: {"url": "https://biocontainers.pro/tools/isotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isotools", "latest": {"0.3.4--pyhdfd78af_0": "sha256:9252f5ebfa6067a5c64c419f55dd0aa0729c69c09ab1e1568ec36f34bb099bc6"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:9252f5ebfa6067a5c64c419f55dd0aa0729c69c09ab1e1568ec36f34bb099bc6"}, "docker": "quay.io/biocontainers/isotools", "aliases": {"cpat": "/usr/local/bin/cpat", "cpat.py": "/usr/local/bin/cpat.py", "make_hexamer_tab": "/usr/local/bin/make_hexamer_tab", "make_hexamer_tab.py": "/usr/local/bin/make_hexamer_tab.py", "make_logitModel": "/usr/local/bin/make_logitModel", "make_logitModel.py": "/usr/local/bin/make_logitModel.py", "run_isotools": "/usr/local/bin/run_isotools", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
+config: {"url": "https://biocontainers.pro/tools/isotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isotools", "latest": {"2.0.0--pyhdfd78af_0": "sha256:3b85b60d668f4b5ec9036fa0d780806d8b1e1019c8f77bd079b03f031bf253b5"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:9252f5ebfa6067a5c64c419f55dd0aa0729c69c09ab1e1568ec36f34bb099bc6", "2.0.0--pyhdfd78af_0": "sha256:3b85b60d668f4b5ec9036fa0d780806d8b1e1019c8f77bd079b03f031bf253b5"}, "docker": "quay.io/biocontainers/isotools", "aliases": {"cpat": "/usr/local/bin/cpat", "cpat.py": "/usr/local/bin/cpat.py", "make_hexamer_tab": "/usr/local/bin/make_hexamer_tab", "make_hexamer_tab.py": "/usr/local/bin/make_hexamer_tab.py", "make_logitModel": "/usr/local/bin/make_logitModel", "make_logitModel.py": "/usr/local/bin/make_logitModel.py", "run_isotools": "/usr/local/bin/run_isotools", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isotools.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/isotools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isotools:0.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/isotools:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isotools/0.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/isotools/0.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/isotools/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/isotools/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

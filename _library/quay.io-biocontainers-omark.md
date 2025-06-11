@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/omark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omark/container.yaml"
-updated_at: "2025-06-10 03:41:03.320101"
-latest: "0.3.1--pyh7e72e81_0"
+updated_at: "2025-06-11 03:58:49.283910"
+latest: "0.3.1--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/omark"
 aliases:
  - "omamer"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.3.0--pyh7cba7a3_0"
  - "0.3.1--pyh7e72e81_0"
+ - "0.3.1--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for omark"
-config: {"url": "https://biocontainers.pro/tools/omark", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for omark", "latest": {"0.3.1--pyh7e72e81_0": "sha256:e0e3a5d89860fbaa6e305c7e76f3aa121a820d52d11111dea3b732960b6e354d"}, "tags": {"0.3.0--pyh7cba7a3_0": "sha256:64c6a0e8b03869b354217112455d94350bff23dab956e50a6be73e606032a882", "0.3.1--pyh7e72e81_0": "sha256:e0e3a5d89860fbaa6e305c7e76f3aa121a820d52d11111dea3b732960b6e354d"}, "docker": "quay.io/biocontainers/omark", "aliases": {"omamer": "/usr/local/bin/omamer", "omark": "/usr/local/bin/omark", "cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro"}}
+config: {"url": "https://biocontainers.pro/tools/omark", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for omark", "latest": {"0.3.1--pyh7e72e81_1": "sha256:e01856e9427a03843d240348499a5b0647ede92ad7a2ba0f8294beaf9921a366"}, "tags": {"0.3.0--pyh7cba7a3_0": "sha256:64c6a0e8b03869b354217112455d94350bff23dab956e50a6be73e606032a882", "0.3.1--pyh7e72e81_0": "sha256:e0e3a5d89860fbaa6e305c7e76f3aa121a820d52d11111dea3b732960b6e354d", "0.3.1--pyh7e72e81_1": "sha256:e01856e9427a03843d240348499a5b0647ede92ad7a2ba0f8294beaf9921a366"}, "docker": "quay.io/biocontainers/omark", "aliases": {"omamer": "/usr/local/bin/omamer", "omark": "/usr/local/bin/omark", "cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/omark.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/omark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/omark:0.3.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/omark:0.3.1--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/omark/0.3.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/omark/0.3.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/omark/0.3.1--pyh7e72e81_1
+$ module help quay.io/biocontainers/omark/0.3.1--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
