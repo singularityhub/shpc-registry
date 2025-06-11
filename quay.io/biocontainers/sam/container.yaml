@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/sam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sam
 latest:
-  3.5--1: sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed
+  3.5--1: 
+    sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed
 tags:
-  3.5--1: sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed
+  3.5--1: 
+    sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed
 docker: quay.io/biocontainers/sam

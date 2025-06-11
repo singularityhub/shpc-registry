@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/igua
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for igua
 latest:
-  0.1.0--py310hec43fc7_0: sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112
+  0.1.0--py310hec43fc7_0: 
+    sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112
 tags:
-  0.1.0--py310hec43fc7_0: sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112
+  0.1.0--py310hec43fc7_0: 
+    sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112
+  0.1.0--py39h5b94c0b_0: 
+    sha256:c67508d2d1ada627294724652c49ce25d6f83e21dc70233ccd84afc8df0fdc1d
 docker: quay.io/biocontainers/igua
 aliases:
   igua: /usr/local/bin/igua

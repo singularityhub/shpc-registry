@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/imsindel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for imsindel
 latest:
-  1.0.2--hdfd78af_1: sha256:fdbfbe599dd67a1863dde678452b0527be4d73f0df3e2b73f937ffd41ea649a2
+  1.0.2--hdfd78af_1: 
+    sha256:fdbfbe599dd67a1863dde678452b0527be4d73f0df3e2b73f937ffd41ea649a2
 tags:
-  1.0.2--hdfd78af_1: sha256:fdbfbe599dd67a1863dde678452b0527be4d73f0df3e2b73f937ffd41ea649a2
+  1.0.2--hdfd78af_1: 
+    sha256:fdbfbe599dd67a1863dde678452b0527be4d73f0df3e2b73f937ffd41ea649a2
 docker: quay.io/biocontainers/imsindel
 aliases:
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl

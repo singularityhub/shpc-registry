@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/linkedsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for linkedsv
 latest:
-  0.1.0--h077b44d_0: sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
+  0.1.0--h077b44d_0: 
+    sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
 tags:
-  0.1.0--h077b44d_0: sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
+  0.1.0--h077b44d_0: 
+    sha256:afc1cc2f7d36f313c6d9e03ce2304a0232739223caa085587ca0026d561b9960
 docker: quay.io/biocontainers/linkedsv
 aliases:
   bfc: /usr/local/bin/bfc

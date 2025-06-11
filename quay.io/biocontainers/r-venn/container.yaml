@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-venn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-venn
 latest:
-  1.2--r3.3.2_0: sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9
+  1.2--r3.3.2_0: 
+    sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9
 tags:
-  1.2--r3.3.2_0: sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9
+  1.2--r3.3.2_0: 
+    sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9
 docker: quay.io/biocontainers/r-venn
 aliases:
   uconv: /usr/local/bin/uconv

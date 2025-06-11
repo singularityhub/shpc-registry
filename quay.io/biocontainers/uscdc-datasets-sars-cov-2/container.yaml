@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/uscdc-datasets-sars-cov-2
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for uscdc-datasets-sars-cov-2
+description: shpc-registry automated BioContainers addition for 
+  uscdc-datasets-sars-cov-2
 latest:
-  0.7.2--hdfd78af_0: sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
+  0.7.2--hdfd78af_0: 
+    sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
 tags:
-  0.7.2--hdfd78af_0: sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
+  0.7.2--hdfd78af_0: 
+    sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
 docker: quay.io/biocontainers/uscdc-datasets-sars-cov-2
 aliases:
   GenFSGopher.pl: /usr/local/bin/GenFSGopher.pl

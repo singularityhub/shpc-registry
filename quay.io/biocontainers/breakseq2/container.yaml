@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/breakseq2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for breakseq2
 latest:
-  2.2--py27_2: sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8
+  2.2--py27_2: 
+    sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8
 tags:
-  2.2--py27_2: sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8
+  2.2--py27_2: 
+    sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8
 docker: quay.io/biocontainers/breakseq2
 aliases:
   breakseq2_gen_bplib.py: /usr/local/bin/breakseq2_gen_bplib.py

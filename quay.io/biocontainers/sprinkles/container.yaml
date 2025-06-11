@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/sprinkles
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sprinkles
 latest:
-  0.4.6--py35_1: sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16
+  0.4.6--py35_1: 
+    sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16
 tags:
-  0.4.6--py35_1: sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16
-  0.4.6--py36_1: sha256:bc7089ecf6c1bf34c7f5ac2e82fdd484f3f14808be8c889231745204705b6494
+  0.4.6--py35_1: 
+    sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16
+  0.4.6--py36_1: 
+    sha256:bc7089ecf6c1bf34c7f5ac2e82fdd484f3f14808be8c889231745204705b6494
 docker: quay.io/biocontainers/sprinkles
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

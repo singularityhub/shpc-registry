@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/telosearchlr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for telosearchlr
 latest:
-  1.0.1--pyhdfd78af_0: sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
+  1.0.1--pyhdfd78af_0: 
+    sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
 tags:
-  1.0.1--pyhdfd78af_0: sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
+  1.0.1--pyhdfd78af_0: 
+    sha256:2f1a5fa68a57cb4adc9956c11448d81bb2533d78b618109c4ce4b3d328769c15
 docker: quay.io/biocontainers/telosearchlr
 aliases:
   TeloSearchLR.py: /usr/local/bin/TeloSearchLR.py

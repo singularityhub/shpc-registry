@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/circexplorer2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circexplorer2
 latest:
-  2.3.8--pyh5e36f6f_2: sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d
+  2.3.8--pyh5e36f6f_2: 
+    sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d
 tags:
-  2.3.8--pyh5e36f6f_2: sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d
+  2.3.8--pyh5e36f6f_2: 
+    sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d
 docker: quay.io/biocontainers/circexplorer2
 aliases:
   CIRCexplorer2: /usr/local/bin/CIRCexplorer2

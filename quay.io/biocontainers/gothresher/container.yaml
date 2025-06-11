@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gothresher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gothresher
 latest:
-  1.0.29--pyh7cba7a3_0: sha256:c6ea5b152e67b3001d9a3ef7f5042a78ab7af03dd22227feb5dcc35b6f349e22
+  1.0.29--pyh7cba7a3_0: 
+    sha256:c6ea5b152e67b3001d9a3ef7f5042a78ab7af03dd22227feb5dcc35b6f349e22
 tags:
-  1.0.29--pyh7cba7a3_0: sha256:c6ea5b152e67b3001d9a3ef7f5042a78ab7af03dd22227feb5dcc35b6f349e22
+  1.0.29--pyh7cba7a3_0: 
+    sha256:c6ea5b152e67b3001d9a3ef7f5042a78ab7af03dd22227feb5dcc35b6f349e22
 docker: quay.io/biocontainers/gothresher
 aliases:
   gothresher: /usr/local/bin/gothresher

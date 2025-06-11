@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sloika
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sloika
 latest:
-  2.0.1--np112_0: sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037
+  2.0.1--np112_0: 
+    sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037
 tags:
-  2.0.1--np112_0: sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037
+  2.0.1--np112_0: 
+    sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037
 docker: quay.io/biocontainers/sloika
 aliases:
   basecall_network.py: /usr/local/bin/basecall_network.py

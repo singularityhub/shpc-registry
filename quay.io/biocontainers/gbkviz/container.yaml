@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gbkviz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gbkviz
 latest:
-  1.2.0--pyhdfd78af_0: sha256:e9517cd58c6df31b8a26bf2a582cdfdd2e6d3fb8670b18e6cdd7f5bf8997182c
+  1.2.0--pyhdfd78af_0: 
+    sha256:e9517cd58c6df31b8a26bf2a582cdfdd2e6d3fb8670b18e6cdd7f5bf8997182c
 tags:
-  1.2.0--pyhdfd78af_0: sha256:e9517cd58c6df31b8a26bf2a582cdfdd2e6d3fb8670b18e6cdd7f5bf8997182c
+  1.2.0--pyhdfd78af_0: 
+    sha256:e9517cd58c6df31b8a26bf2a582cdfdd2e6d3fb8670b18e6cdd7f5bf8997182c
 docker: quay.io/biocontainers/gbkviz
 aliases:
   base58: /usr/local/bin/base58

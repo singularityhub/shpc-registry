@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-pmcmr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pmcmr
 latest:
-  4.1--r3.2.2_0: sha256:3ebf33ab110cfc129e8a0499bdf4a9ff990ab90e594b7702b74cffc11c68e79b
+  4.1--r3.2.2_0: 
+    sha256:3ebf33ab110cfc129e8a0499bdf4a9ff990ab90e594b7702b74cffc11c68e79b
 tags:
-  4.1--r3.2.2_0: sha256:3ebf33ab110cfc129e8a0499bdf4a9ff990ab90e594b7702b74cffc11c68e79b
-  4.1--r3.3.2_0: sha256:bd013f6861fb27628002f8c49464fae1d3bd21f8c78cbdddbc768a97c7fc9a7e
+  4.1--r3.2.2_0: 
+    sha256:3ebf33ab110cfc129e8a0499bdf4a9ff990ab90e594b7702b74cffc11c68e79b
+  4.1--r3.3.2_0: 
+    sha256:bd013f6861fb27628002f8c49464fae1d3bd21f8c78cbdddbc768a97c7fc9a7e
 docker: quay.io/biocontainers/r-pmcmr
 aliases:
   pngcp: /usr/local/bin/pngcp

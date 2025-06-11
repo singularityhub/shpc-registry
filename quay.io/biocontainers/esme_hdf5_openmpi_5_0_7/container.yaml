@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_hdf5_openmpi_5_0_7
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_hdf5_openmpi_5_0_7
+description: singularity registry hpc automated addition for 
+  esme_hdf5_openmpi_5_0_7
 latest:
-  1.14.5--h11dd02c_0: sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
+  1.14.5--h11dd02c_0: 
+    sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
 tags:
-  1.14.5--h11dd02c_0: sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
+  1.14.5--h11dd02c_0: 
+    sha256:928c443afb53f1bef0890d0a22a6b2d0e6d1c45f038380cf13b2d8184c2cae22
 docker: quay.io/biocontainers/esme_hdf5_openmpi_5_0_7
 aliases:
   chacl: /usr/local/bin/chacl

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nextgenmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextgenmap
 latest:
-  0.5.5--hc9558a2_4: sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00
+  0.5.5--hc9558a2_4: 
+    sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00
 tags:
-  0.5.5--hc9558a2_4: sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00
+  0.5.5--hc9558a2_4: 
+    sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00
 docker: quay.io/biocontainers/nextgenmap
 aliases:
   addr2line: /usr/local/bin/addr2line

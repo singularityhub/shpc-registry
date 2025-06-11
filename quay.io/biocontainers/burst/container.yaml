@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/burst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for burst
 latest:
-  v1.0--hdfd78af_1: sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
+  v1.0--hdfd78af_1: 
+    sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
 tags:
-  v1.0--hdfd78af_1: sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
+  v1.0--hdfd78af_1: 
+    sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
 docker: quay.io/biocontainers/burst
 aliases:
   bcov2-strip: /usr/local/bin/bcov2-strip

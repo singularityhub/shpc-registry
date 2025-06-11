@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/uniprot-id-mapper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for uniprot-id-mapper
 latest:
-  1.1.4--pyh7e72e81_0: sha256:25fa26c240aa5a0517a304aa1d0e2a832a397c7f6223d3b651a436f2eeec58b5
+  1.1.4--pyh7e72e81_0: 
+    sha256:25fa26c240aa5a0517a304aa1d0e2a832a397c7f6223d3b651a436f2eeec58b5
 tags:
-  1.1.4--pyh7e72e81_0: sha256:25fa26c240aa5a0517a304aa1d0e2a832a397c7f6223d3b651a436f2eeec58b5
+  1.1.4--pyh7e72e81_0: 
+    sha256:25fa26c240aa5a0517a304aa1d0e2a832a397c7f6223d3b651a436f2eeec58b5
 docker: quay.io/biocontainers/uniprot-id-mapper
 aliases:
   protmap: /usr/local/bin/protmap

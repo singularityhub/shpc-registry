@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/msfragger
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msfragger
 latest:
-  4.1--py313hdfd78af_0: sha256:b8367e3e3e2b6ee57bc674c1c9e86e22b151cef46bb5eb9788ef251bdaa75a3b
+  4.2--py311hdfd78af_0: 
+    sha256:496ddac6f2902c9199bc517634d42351574d0431e48066acfa7fd4e7ddb6c656
 tags:
-  4.0--py312hdfd78af_0: sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5
-  4.0--py312hdfd78af_1: sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c
-  4.1--py313hdfd78af_0: sha256:b8367e3e3e2b6ee57bc674c1c9e86e22b151cef46bb5eb9788ef251bdaa75a3b
+  4.0--py312hdfd78af_0: 
+    sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5
+  4.0--py312hdfd78af_1: 
+    sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c
+  4.1--py313hdfd78af_0: 
+    sha256:b8367e3e3e2b6ee57bc674c1c9e86e22b151cef46bb5eb9788ef251bdaa75a3b
+  4.2--py311hdfd78af_0: 
+    sha256:496ddac6f2902c9199bc517634d42351574d0431e48066acfa7fd4e7ddb6c656
 docker: quay.io/biocontainers/msfragger
 aliases:
   csc-dim: /usr/local/bin/csc-dim

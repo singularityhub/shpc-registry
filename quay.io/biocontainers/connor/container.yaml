@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/connor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for connor
 latest:
-  0.6--py27_2: sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa
+  0.6--py27_2: 
+    sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa
 tags:
-  0.6--py27_2: sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa
-  0.6--py36_2: sha256:3a995b2bb13e1f410ce364efa653d75efe611c4444aa46c5b414398a2b52aeb7
+  0.6--py27_2: 
+    sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa
+  0.6--py36_2: 
+    sha256:3a995b2bb13e1f410ce364efa653d75efe611c4444aa46c5b414398a2b52aeb7
 docker: quay.io/biocontainers/connor
 aliases:
   connor: /usr/local/bin/connor

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/uropa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for uropa
 latest:
-  4.0.3--pyhdfd78af_0: sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411
+  4.0.3--pyhdfd78af_0: 
+    sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411
 tags:
-  4.0.2--pyhdfd78af_0: sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83
-  4.0.3--pyhdfd78af_0: sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411
+  4.0.2--pyhdfd78af_0: 
+    sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83
+  4.0.3--pyhdfd78af_0: 
+    sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411
 docker: quay.io/biocontainers/uropa
 aliases:
   uropa: /usr/local/bin/uropa
@@ -17,4 +20,5 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
