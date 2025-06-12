@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/beem-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for beem-bio
+latest:
+  1.0.1--h9948957_0: 
+    sha256:b6806e4203ec9544035b3e3e0818618043e434b823a85ca2b587008475442419
+tags:
+  1.0.1--h9948957_0: 
+    sha256:b6806e4203ec9544035b3e3e0818618043e434b823a85ca2b587008475442419
+docker: quay.io/biocontainers/beem-bio
+aliases:
+  BeEM: /usr/local/bin/BeEM
