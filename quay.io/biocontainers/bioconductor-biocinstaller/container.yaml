@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-biocinstaller
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-biocinstaller
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-biocinstaller
 latest:
-  1.32.1--r351_0: sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b
+  1.32.1--r351_0: 
+    sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b
 tags:
-  1.32.1--r351_0: sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b
+  1.32.1--r351_0: 
+    sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b
 docker: quay.io/biocontainers/bioconductor-biocinstaller
 aliases:
   c89: /usr/local/bin/c89

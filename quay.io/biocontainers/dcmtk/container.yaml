@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dcmtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dcmtk
 latest:
-  3.6.7--h92a7bdf_0: sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855
+  3.6.7--h92a7bdf_0: 
+    sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855
 tags:
-  3.6.7--h92a7bdf_0: sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855
+  3.6.7--h92a7bdf_0: 
+    sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855
 docker: quay.io/biocontainers/dcmtk
 aliases:
   cda2dcm: /usr/local/bin/cda2dcm

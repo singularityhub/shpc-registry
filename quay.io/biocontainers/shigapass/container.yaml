@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/shigapass
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for shigapass
 latest:
-  1.5.0--hdfd78af_0: sha256:99f53b36fc61bc2fd0fd2b233314569aad0a24e6645c7bcfe9b27a606d2319f9
+  1.5.0--hdfd78af_0: 
+    sha256:99f53b36fc61bc2fd0fd2b233314569aad0a24e6645c7bcfe9b27a606d2319f9
 tags:
-  1.5.0--hdfd78af_0: sha256:99f53b36fc61bc2fd0fd2b233314569aad0a24e6645c7bcfe9b27a606d2319f9
+  1.5.0--hdfd78af_0: 
+    sha256:99f53b36fc61bc2fd0fd2b233314569aad0a24e6645c7bcfe9b27a606d2319f9
 docker: quay.io/biocontainers/shigapass
 aliases:
   ShigaPass.sh: /usr/local/bin/ShigaPass.sh

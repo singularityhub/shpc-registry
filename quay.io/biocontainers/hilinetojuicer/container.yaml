@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hilinetojuicer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hilinetojuicer
 latest:
-  0.0.2--pyhdfd78af_0: sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
+  0.0.2--pyhdfd78af_0: 
+    sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
 tags:
-  0.0.2--pyhdfd78af_0: sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
+  0.0.2--pyhdfd78af_0: 
+    sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
 docker: quay.io/biocontainers/hilinetojuicer
 aliases:
   HiLineToJuicer: /usr/local/bin/HiLineToJuicer

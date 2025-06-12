@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/baczy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for baczy
 latest:
-  1.0.3--pyhdfd78af_0: sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
+  1.0.3--pyhdfd78af_0: 
+    sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
 tags:
-  1.0.3--pyhdfd78af_0: sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
+  1.0.3--pyhdfd78af_0: 
+    sha256:a19356a20eb85f2ce51ff77b26d957ec7a37b32baeab4205a5dfc30cd5d1279c
 docker: quay.io/biocontainers/baczy
 aliases:
   baczy: /usr/local/bin/baczy

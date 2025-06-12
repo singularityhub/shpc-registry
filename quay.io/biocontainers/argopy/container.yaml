@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/argopy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for argopy
 latest:
-  0.1.15: sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
+  0.1.15: 
+    sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
 tags:
-  0.1.15: sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
+  0.1.15: 
+    sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
 docker: quay.io/biocontainers/argopy
 aliases:
   h5tools_test_utils: /usr/local/bin/h5tools_test_utils

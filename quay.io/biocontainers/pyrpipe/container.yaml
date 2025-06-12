@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pyrpipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyrpipe
 latest:
-  0.0.5--py_0: sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842
+  0.0.5--py_0: 
+    sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842
 tags:
-  0.0.5--py_0: sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842
+  0.0.5--py_0: 
+    sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842
 docker: quay.io/biocontainers/pyrpipe
 aliases:
   cairosvg: /usr/local/bin/cairosvg

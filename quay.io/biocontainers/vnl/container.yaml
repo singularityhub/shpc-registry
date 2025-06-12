@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/vnl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vnl
 latest:
-  1.17.0--0: sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a
+  1.17.0--0: 
+    sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a
 tags:
-  1.17.0--0: sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a
+  1.17.0--0: 
+    sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a
 docker: quay.io/biocontainers/vnl

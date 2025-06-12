@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/gogstools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gogstools
 latest:
-  0.1.2--py310hdfd78af_0: sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
+  0.1.2--py310hdfd78af_0: 
+    sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
 tags:
-  0.1.1--py310hdfd78af_0: sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
-  0.1.2--py310hdfd78af_0: sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
+  0.1.1--py310hdfd78af_0: 
+    sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
+  0.1.2--py310hdfd78af_0: 
+    sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
 docker: quay.io/biocontainers/gogstools
 aliases:
   gff2embl: /usr/local/bin/gff2embl
@@ -33,7 +36,8 @@ aliases:
   bam2starch-megarow: /usr/local/bin/bam2starch-megarow
   bam2starch-typical: /usr/local/bin/bam2starch-typical
   bam2starch_gnuParallel: /usr/local/bin/bam2starch_gnuParallel
-  bam2starch_gnuParallel-float128: /usr/local/bin/bam2starch_gnuParallel-float128
+  bam2starch_gnuParallel-float128: 
+    /usr/local/bin/bam2starch_gnuParallel-float128
   bam2starch_gnuParallel-megarow: /usr/local/bin/bam2starch_gnuParallel-megarow
   bam2starch_gnuParallel-typical: /usr/local/bin/bam2starch_gnuParallel-typical
   bam2starch_sge: /usr/local/bin/bam2starch_sge

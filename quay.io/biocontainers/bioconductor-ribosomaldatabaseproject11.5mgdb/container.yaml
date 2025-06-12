@@ -1,10 +1,15 @@
-url: https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb
+url: 
+  https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-ribosomaldatabaseproject11.5mgdb
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-ribosomaldatabaseproject11.5mgdb
 latest:
-  1.00.0--r40hdfd78af_6: sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
+  1.00.0--r40hdfd78af_6: 
+    sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
 tags:
-  1.00.0--r40hdfd78af_6: sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
+  1.00.0--r40hdfd78af_6: 
+    sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
 docker: quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

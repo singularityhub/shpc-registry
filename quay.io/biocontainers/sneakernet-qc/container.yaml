@@ -2,12 +2,17 @@ url: https://biocontainers.pro/tools/sneakernet-qc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sneakernet-qc
 latest:
-  0.27.2--pl5321hdfd78af_0: sha256:e9cbb7b407688c98c4580efe94229b528ce2180504225d2c5e76d9b78a518317
+  0.27.2--pl5321hdfd78af_0: 
+    sha256:e9cbb7b407688c98c4580efe94229b528ce2180504225d2c5e76d9b78a518317
 tags:
-  0.25.0--pl5321hdfd78af_0: sha256:9dada7767430f3b4eb06d66cf2ffb8e7ec78ec6f8302743c145a82077ab4b3a4
-  0.26.0--pl5321hdfd78af_0: sha256:8a3f518991f9665e897be087071cf981080d1572f2ab3dfdb0fa47d6108ff724
-  0.27.0--pl5321hdfd78af_1: sha256:758e2404b2c817c457b0698a5bbf1cb3544bb7c4b4060b38c51ec6dc22cfc375
-  0.27.2--pl5321hdfd78af_0: sha256:e9cbb7b407688c98c4580efe94229b528ce2180504225d2c5e76d9b78a518317
+  0.25.0--pl5321hdfd78af_0: 
+    sha256:9dada7767430f3b4eb06d66cf2ffb8e7ec78ec6f8302743c145a82077ab4b3a4
+  0.26.0--pl5321hdfd78af_0: 
+    sha256:8a3f518991f9665e897be087071cf981080d1572f2ab3dfdb0fa47d6108ff724
+  0.27.0--pl5321hdfd78af_1: 
+    sha256:758e2404b2c817c457b0698a5bbf1cb3544bb7c4b4060b38c51ec6dc22cfc375
+  0.27.2--pl5321hdfd78af_0: 
+    sha256:e9cbb7b407688c98c4580efe94229b528ce2180504225d2c5e76d9b78a518317
 docker: quay.io/biocontainers/sneakernet-qc
 aliases:
   SalmID.py: /usr/local/bin/SalmID.py
@@ -39,7 +44,8 @@ aliases:
   mlst-show_seqs: /usr/local/bin/mlst-show_seqs
   mobsuiteRepresentativeFasta.pl: /usr/local/bin/mobsuiteRepresentativeFasta.pl
   pl2bat.pl: /usr/local/bin/pl2bat.pl
-  read_length_quality_stats_fastq.py: /usr/local/bin/read_length_quality_stats_fastq.py
+  read_length_quality_stats_fastq.py: 
+    /usr/local/bin/read_length_quality_stats_fastq.py
   saute: /usr/local/bin/saute
   saute_prot: /usr/local/bin/saute_prot
   shovill: /usr/local/bin/shovill
@@ -51,7 +57,8 @@ aliases:
   sn_createSampleSheet.pl: /usr/local/bin/sn_createSampleSheet.pl
   sn_crypto_assembleAll.pl: /usr/local/bin/sn_crypto_assembleAll.pl
   sn_crypto_gp60.pl: /usr/local/bin/sn_crypto_gp60.pl
-  sn_detectContamination-kraken.pl: /usr/local/bin/sn_detectContamination-kraken.pl
+  sn_detectContamination-kraken.pl: 
+    /usr/local/bin/sn_detectContamination-kraken.pl
   sn_detectContamination-mlst.pl: /usr/local/bin/sn_detectContamination-mlst.pl
   sn_detectContamination.pl: /usr/local/bin/sn_detectContamination.pl
   sn_genotype.pl: /usr/local/bin/sn_genotype.pl
@@ -71,7 +78,8 @@ aliases:
   sn_sarscov2_assembleAll.pl: /usr/local/bin/sn_sarscov2_assembleAll.pl
   sn_saveFailedGenomes.pl: /usr/local/bin/sn_saveFailedGenomes.pl
   sn_staramr.pl: /usr/local/bin/sn_staramr.pl
-  transferFilesToRemoteComputers.pl: /usr/local/bin/transferFilesToRemoteComputers.pl
+  transferFilesToRemoteComputers.pl: 
+    /usr/local/bin/transferFilesToRemoteComputers.pl
   validateTaxonomy.pl: /usr/local/bin/validateTaxonomy.pl
   icarus.py: /usr/local/bin/icarus.py
   kaleido: /usr/local/bin/kaleido

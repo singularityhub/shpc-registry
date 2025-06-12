@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cytosnake
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cytosnake
 latest:
-  0.0.2--pyhdfd78af_0: sha256:c8bdb1461b7faf7333f3295bf7743b59ef3d6d5a11d6a14d3f9e4cc1603e4f7f
+  0.0.2--pyhdfd78af_0: 
+    sha256:c8bdb1461b7faf7333f3295bf7743b59ef3d6d5a11d6a14d3f9e4cc1603e4f7f
 tags:
-  0.0.2--pyhdfd78af_0: sha256:c8bdb1461b7faf7333f3295bf7743b59ef3d6d5a11d6a14d3f9e4cc1603e4f7f
+  0.0.2--pyhdfd78af_0: 
+    sha256:c8bdb1461b7faf7333f3295bf7743b59ef3d6d5a11d6a14d3f9e4cc1603e4f7f
 docker: quay.io/biocontainers/cytosnake
 aliases:
   cytosnake: /usr/local/bin/cytosnake

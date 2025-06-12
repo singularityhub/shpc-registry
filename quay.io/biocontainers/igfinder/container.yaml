@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/igfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for igfinder
 latest:
-  1.0--pyhdfd78af_0: sha256:86954fe4ceb062e2f9f8ef484935d25547abdb81cf719a09c746cd63662b9477
+  1.0--pyhdfd78af_0: 
+    sha256:86954fe4ceb062e2f9f8ef484935d25547abdb81cf719a09c746cd63662b9477
 tags:
-  1.0--pyhdfd78af_0: sha256:86954fe4ceb062e2f9f8ef484935d25547abdb81cf719a09c746cd63662b9477
+  1.0--pyhdfd78af_0: 
+    sha256:86954fe4ceb062e2f9f8ef484935d25547abdb81cf719a09c746cd63662b9477
 docker: quay.io/biocontainers/igfinder
 aliases:
   igfinder: /usr/local/bin/igfinder

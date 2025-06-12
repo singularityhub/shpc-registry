@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/psauron
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psauron
 latest:
-  1.1.0--pyhdfd78af_0: sha256:a8ee26f2c05302d5b390444ec3f62f59b19a97b30ddbf68f5f8d54db2690ccfe
+  1.1.0--pyhdfd78af_0: 
+    sha256:a8ee26f2c05302d5b390444ec3f62f59b19a97b30ddbf68f5f8d54db2690ccfe
 tags:
-  1.1.0--pyhdfd78af_0: sha256:a8ee26f2c05302d5b390444ec3f62f59b19a97b30ddbf68f5f8d54db2690ccfe
+  1.1.0--pyhdfd78af_0: 
+    sha256:a8ee26f2c05302d5b390444ec3f62f59b19a97b30ddbf68f5f8d54db2690ccfe
 docker: quay.io/biocontainers/psauron
 aliases:
   acc-lda: /usr/local/bin/acc-lda
@@ -45,10 +47,12 @@ aliases:
   compile-questions: /usr/local/bin/compile-questions
   compile-train-graphs: /usr/local/bin/compile-train-graphs
   compile-train-graphs-fsts: /usr/local/bin/compile-train-graphs-fsts
-  compile-train-graphs-without-lexicon: /usr/local/bin/compile-train-graphs-without-lexicon
+  compile-train-graphs-without-lexicon: 
+    /usr/local/bin/compile-train-graphs-without-lexicon
   compose-transforms: /usr/local/bin/compose-transforms
   compress-uncompress-speex: /usr/local/bin/compress-uncompress-speex
-  compute-and-process-kaldi-pitch-feats: /usr/local/bin/compute-and-process-kaldi-pitch-feats
+  compute-and-process-kaldi-pitch-feats: 
+    /usr/local/bin/compute-and-process-kaldi-pitch-feats
   compute-atwv: /usr/local/bin/compute-atwv
   compute-cmvn-stats: /usr/local/bin/compute-cmvn-stats
   compute-cmvn-stats-two-channel: /usr/local/bin/compute-cmvn-stats-two-channel
@@ -186,7 +190,8 @@ aliases:
   gmm-copy: /usr/local/bin/gmm-copy
   gmm-decode-biglm-faster: /usr/local/bin/gmm-decode-biglm-faster
   gmm-decode-faster: /usr/local/bin/gmm-decode-faster
-  gmm-decode-faster-regtree-fmllr: /usr/local/bin/gmm-decode-faster-regtree-fmllr
+  gmm-decode-faster-regtree-fmllr: 
+    /usr/local/bin/gmm-decode-faster-regtree-fmllr
   gmm-decode-faster-regtree-mllr: /usr/local/bin/gmm-decode-faster-regtree-mllr
   gmm-decode-simple: /usr/local/bin/gmm-decode-simple
   gmm-est: /usr/local/bin/gmm-est
@@ -231,7 +236,8 @@ aliases:
   gmm-latgen-biglm-faster: /usr/local/bin/gmm-latgen-biglm-faster
   gmm-latgen-faster: /usr/local/bin/gmm-latgen-faster
   gmm-latgen-faster-parallel: /usr/local/bin/gmm-latgen-faster-parallel
-  gmm-latgen-faster-regtree-fmllr: /usr/local/bin/gmm-latgen-faster-regtree-fmllr
+  gmm-latgen-faster-regtree-fmllr: 
+    /usr/local/bin/gmm-latgen-faster-regtree-fmllr
   gmm-latgen-map: /usr/local/bin/gmm-latgen-map
   gmm-latgen-simple: /usr/local/bin/gmm-latgen-simple
   gmm-make-regtree: /usr/local/bin/gmm-make-regtree
@@ -287,11 +293,15 @@ aliases:
   lattice-depth: /usr/local/bin/lattice-depth
   lattice-depth-per-frame: /usr/local/bin/lattice-depth-per-frame
   lattice-determinize: /usr/local/bin/lattice-determinize
-  lattice-determinize-non-compact: /usr/local/bin/lattice-determinize-non-compact
-  lattice-determinize-phone-pruned: /usr/local/bin/lattice-determinize-phone-pruned
-  lattice-determinize-phone-pruned-parallel: /usr/local/bin/lattice-determinize-phone-pruned-parallel
+  lattice-determinize-non-compact: 
+    /usr/local/bin/lattice-determinize-non-compact
+  lattice-determinize-phone-pruned: 
+    /usr/local/bin/lattice-determinize-phone-pruned
+  lattice-determinize-phone-pruned-parallel: 
+    /usr/local/bin/lattice-determinize-phone-pruned-parallel
   lattice-determinize-pruned: /usr/local/bin/lattice-determinize-pruned
-  lattice-determinize-pruned-parallel: /usr/local/bin/lattice-determinize-pruned-parallel
+  lattice-determinize-pruned-parallel: 
+    /usr/local/bin/lattice-determinize-pruned-parallel
   lattice-difference: /usr/local/bin/lattice-difference
   lattice-equivalent: /usr/local/bin/lattice-equivalent
   lattice-expand: /usr/local/bin/lattice-expand
@@ -301,7 +311,8 @@ aliases:
   lattice-lmrescore: /usr/local/bin/lattice-lmrescore
   lattice-lmrescore-const-arpa: /usr/local/bin/lattice-lmrescore-const-arpa
   lattice-lmrescore-kaldi-rnnlm: /usr/local/bin/lattice-lmrescore-kaldi-rnnlm
-  lattice-lmrescore-kaldi-rnnlm-pruned: /usr/local/bin/lattice-lmrescore-kaldi-rnnlm-pruned
+  lattice-lmrescore-kaldi-rnnlm-pruned: 
+    /usr/local/bin/lattice-lmrescore-kaldi-rnnlm-pruned
   lattice-lmrescore-pruned: /usr/local/bin/lattice-lmrescore-pruned
   lattice-lmrescore-rnnlm: /usr/local/bin/lattice-lmrescore-rnnlm
   lattice-mbr-decode: /usr/local/bin/lattice-mbr-decode
@@ -361,9 +372,11 @@ aliases:
   nnet-am-switch-preconditioning: /usr/local/bin/nnet-am-switch-preconditioning
   nnet-am-widen: /usr/local/bin/nnet-am-widen
   nnet-combine: /usr/local/bin/nnet-combine
-  nnet-combine-egs-discriminative: /usr/local/bin/nnet-combine-egs-discriminative
+  nnet-combine-egs-discriminative: 
+    /usr/local/bin/nnet-combine-egs-discriminative
   nnet-combine-fast: /usr/local/bin/nnet-combine-fast
-  nnet-compare-hash-discriminative: /usr/local/bin/nnet-compare-hash-discriminative
+  nnet-compare-hash-discriminative: 
+    /usr/local/bin/nnet-compare-hash-discriminative
   nnet-compute: /usr/local/bin/nnet-compute
   nnet-compute-from-egs: /usr/local/bin/nnet-compute-from-egs
   nnet-compute-prob: /usr/local/bin/nnet-compute-prob
@@ -375,7 +388,8 @@ aliases:
   nnet-get-egs: /usr/local/bin/nnet-get-egs
   nnet-get-egs-discriminative: /usr/local/bin/nnet-get-egs-discriminative
   nnet-get-feature-transform: /usr/local/bin/nnet-get-feature-transform
-  nnet-get-feature-transform-multi: /usr/local/bin/nnet-get-feature-transform-multi
+  nnet-get-feature-transform-multi: 
+    /usr/local/bin/nnet-get-feature-transform-multi
   nnet-get-weighted-egs: /usr/local/bin/nnet-get-weighted-egs
   nnet-info: /usr/local/bin/nnet-info
   nnet-init: /usr/local/bin/nnet-init
@@ -390,11 +404,14 @@ aliases:
   nnet-set-learnrate: /usr/local/bin/nnet-set-learnrate
   nnet-show-progress: /usr/local/bin/nnet-show-progress
   nnet-shuffle-egs: /usr/local/bin/nnet-shuffle-egs
-  nnet-shuffle-egs-discriminative: /usr/local/bin/nnet-shuffle-egs-discriminative
+  nnet-shuffle-egs-discriminative: 
+    /usr/local/bin/nnet-shuffle-egs-discriminative
   nnet-subset-egs: /usr/local/bin/nnet-subset-egs
   nnet-to-raw-nnet: /usr/local/bin/nnet-to-raw-nnet
-  nnet-train-discriminative-parallel: /usr/local/bin/nnet-train-discriminative-parallel
-  nnet-train-discriminative-simple: /usr/local/bin/nnet-train-discriminative-simple
+  nnet-train-discriminative-parallel: 
+    /usr/local/bin/nnet-train-discriminative-parallel
+  nnet-train-discriminative-simple: 
+    /usr/local/bin/nnet-train-discriminative-simple
   nnet-train-ensemble: /usr/local/bin/nnet-train-ensemble
   nnet-train-frmshuff: /usr/local/bin/nnet-train-frmshuff
   nnet-train-mmi-sequential: /usr/local/bin/nnet-train-mmi-sequential
@@ -436,13 +453,17 @@ aliases:
   nnet3-compute-prob: /usr/local/bin/nnet3-compute-prob
   nnet3-copy: /usr/local/bin/nnet3-copy
   nnet3-copy-egs: /usr/local/bin/nnet3-copy-egs
-  nnet3-discriminative-compute-from-egs: /usr/local/bin/nnet3-discriminative-compute-from-egs
-  nnet3-discriminative-compute-objf: /usr/local/bin/nnet3-discriminative-compute-objf
+  nnet3-discriminative-compute-from-egs: 
+    /usr/local/bin/nnet3-discriminative-compute-from-egs
+  nnet3-discriminative-compute-objf: 
+    /usr/local/bin/nnet3-discriminative-compute-objf
   nnet3-discriminative-copy-egs: /usr/local/bin/nnet3-discriminative-copy-egs
   nnet3-discriminative-get-egs: /usr/local/bin/nnet3-discriminative-get-egs
   nnet3-discriminative-merge-egs: /usr/local/bin/nnet3-discriminative-merge-egs
-  nnet3-discriminative-shuffle-egs: /usr/local/bin/nnet3-discriminative-shuffle-egs
-  nnet3-discriminative-subset-egs: /usr/local/bin/nnet3-discriminative-subset-egs
+  nnet3-discriminative-shuffle-egs: 
+    /usr/local/bin/nnet3-discriminative-shuffle-egs
+  nnet3-discriminative-subset-egs: 
+    /usr/local/bin/nnet3-discriminative-subset-egs
   nnet3-discriminative-train: /usr/local/bin/nnet3-discriminative-train
   nnet3-egs-augment-image: /usr/local/bin/nnet3-egs-augment-image
   nnet3-get-egs: /usr/local/bin/nnet3-get-egs
@@ -454,7 +475,8 @@ aliases:
   nnet3-latgen-faster-batch: /usr/local/bin/nnet3-latgen-faster-batch
   nnet3-latgen-faster-lookahead: /usr/local/bin/nnet3-latgen-faster-lookahead
   nnet3-latgen-faster-looped: /usr/local/bin/nnet3-latgen-faster-looped
-  nnet3-latgen-faster-looped-parallel: /usr/local/bin/nnet3-latgen-faster-looped-parallel
+  nnet3-latgen-faster-looped-parallel: 
+    /usr/local/bin/nnet3-latgen-faster-looped-parallel
   nnet3-latgen-faster-parallel: /usr/local/bin/nnet3-latgen-faster-parallel
   nnet3-latgen-grammar: /usr/local/bin/nnet3-latgen-grammar
   nnet3-merge-egs: /usr/local/bin/nnet3-merge-egs
@@ -466,22 +488,32 @@ aliases:
   nnet3-xvector-compute-batched: /usr/local/bin/nnet3-xvector-compute-batched
   nnet3-xvector-get-egs: /usr/local/bin/nnet3-xvector-get-egs
   online-audio-client: /usr/local/bin/online-audio-client
-  online-audio-server-decode-faster: /usr/local/bin/online-audio-server-decode-faster
+  online-audio-server-decode-faster: 
+    /usr/local/bin/online-audio-server-decode-faster
   online-gmm-decode-faster: /usr/local/bin/online-gmm-decode-faster
   online-net-client: /usr/local/bin/online-net-client
-  online-server-gmm-decode-faster: /usr/local/bin/online-server-gmm-decode-faster
+  online-server-gmm-decode-faster: 
+    /usr/local/bin/online-server-gmm-decode-faster
   online-wav-gmm-decode-faster: /usr/local/bin/online-wav-gmm-decode-faster
-  online2-tcp-nnet3-decode-faster: /usr/local/bin/online2-tcp-nnet3-decode-faster
-  online2-tcp-nnet3-decode-faster-emscripten: /usr/local/bin/online2-tcp-nnet3-decode-faster-emscripten
+  online2-tcp-nnet3-decode-faster: 
+    /usr/local/bin/online2-tcp-nnet3-decode-faster
+  online2-tcp-nnet3-decode-faster-emscripten: 
+    /usr/local/bin/online2-tcp-nnet3-decode-faster-emscripten
   online2-wav-dump-features: /usr/local/bin/online2-wav-dump-features
   online2-wav-gmm-latgen-faster: /usr/local/bin/online2-wav-gmm-latgen-faster
   online2-wav-nnet2-am-compute: /usr/local/bin/online2-wav-nnet2-am-compute
-  online2-wav-nnet2-latgen-faster: /usr/local/bin/online2-wav-nnet2-latgen-faster
-  online2-wav-nnet2-latgen-threaded: /usr/local/bin/online2-wav-nnet2-latgen-threaded
-  online2-wav-nnet3-latgen-faster: /usr/local/bin/online2-wav-nnet3-latgen-faster
-  online2-wav-nnet3-latgen-grammar: /usr/local/bin/online2-wav-nnet3-latgen-grammar
-  online2-wav-nnet3-latgen-incremental: /usr/local/bin/online2-wav-nnet3-latgen-incremental
-  online2-wav-nnet3-wake-word-decoder-faster: /usr/local/bin/online2-wav-nnet3-wake-word-decoder-faster
+  online2-wav-nnet2-latgen-faster: 
+    /usr/local/bin/online2-wav-nnet2-latgen-faster
+  online2-wav-nnet2-latgen-threaded: 
+    /usr/local/bin/online2-wav-nnet2-latgen-threaded
+  online2-wav-nnet3-latgen-faster: 
+    /usr/local/bin/online2-wav-nnet3-latgen-faster
+  online2-wav-nnet3-latgen-grammar: 
+    /usr/local/bin/online2-wav-nnet3-latgen-grammar
+  online2-wav-nnet3-latgen-incremental: 
+    /usr/local/bin/online2-wav-nnet3-latgen-incremental
+  online2-wav-nnet3-wake-word-decoder-faster: 
+    /usr/local/bin/online2-wav-nnet3-wake-word-decoder-faster
   paste-feats: /usr/local/bin/paste-feats
   paste-post: /usr/local/bin/paste-post
   paste-vectors: /usr/local/bin/paste-vectors

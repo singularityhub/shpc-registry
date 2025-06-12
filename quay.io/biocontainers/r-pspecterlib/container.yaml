@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-pspecterlib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-pspecterlib
 latest:
-  1.1.0--r43hdfd78af_0: sha256:52faf5bdee53d70cc4e63a6b9efb0ff01635e87e9945de40807a36aabc5d43d6
+  1.1.0--r43hdfd78af_0: 
+    sha256:52faf5bdee53d70cc4e63a6b9efb0ff01635e87e9945de40807a36aabc5d43d6
 tags:
-  1.1.0--r43hdfd78af_0: sha256:52faf5bdee53d70cc4e63a6b9efb0ff01635e87e9945de40807a36aabc5d43d6
+  1.1.0--r43hdfd78af_0: 
+    sha256:52faf5bdee53d70cc4e63a6b9efb0ff01635e87e9945de40807a36aabc5d43d6
 docker: quay.io/biocontainers/r-pspecterlib
 aliases:
   aprofutil: /usr/local/bin/aprofutil

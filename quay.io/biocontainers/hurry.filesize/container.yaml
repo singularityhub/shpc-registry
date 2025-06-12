@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/hurry.filesize
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hurry.filesize
 latest:
-  0.9--py35_0: sha256:a329503beb300a0eb893423a7f393ed39323dc48c4c8af03871b91ab72ccbacf
+  0.9--py35_0: 
+    sha256:a329503beb300a0eb893423a7f393ed39323dc48c4c8af03871b91ab72ccbacf
 tags:
-  0.9--py35_0: sha256:a329503beb300a0eb893423a7f393ed39323dc48c4c8af03871b91ab72ccbacf
-  0.9--py36_0: sha256:dabc7974c6084bfd143cc0c42cd168dfadd6f3658d26fddc3994d008287160bf
+  0.9--py35_0: 
+    sha256:a329503beb300a0eb893423a7f393ed39323dc48c4c8af03871b91ab72ccbacf
+  0.9--py36_0: 
+    sha256:dabc7974c6084bfd143cc0c42cd168dfadd6f3658d26fddc3994d008287160bf
 docker: quay.io/biocontainers/hurry.filesize
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

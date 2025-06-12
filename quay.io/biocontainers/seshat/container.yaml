@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/seshat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seshat
 latest:
-  0.10.0--py313hdfd78af_0: sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
+  0.10.0--py313hdfd78af_0: 
+    sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
 tags:
-  0.10.0--py313hdfd78af_0: sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
+  0.10.0--py313hdfd78af_0: 
+    sha256:1895148f05711b25ab9b4ea09e08df8b89a2bd7cf9b2ceb33d0dca93c8c1c7bc
 docker: quay.io/biocontainers/seshat
 aliases:
   chromedriver-path: /usr/local/bin/chromedriver-path

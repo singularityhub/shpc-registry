@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mitofinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mitofinder
 latest:
-  1.4.1--py27h9801fc8_1: sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
+  1.4.1--py27h9801fc8_1: 
+    sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
 tags:
-  1.4.1--py27h9801fc8_1: sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
+  1.4.1--py27h9801fc8_1: 
+    sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
 docker: quay.io/biocontainers/mitofinder
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
@@ -25,7 +27,8 @@ aliases:
   covels-SE: /usr/local/bin/covels-SE
   coves-SE: /usr/local/bin/coves-SE
   eufindtRNA: /usr/local/bin/eufindtRNA
-  export_mitochondrial_contigs.py: /usr/local/bin/export_mitochondrial_contigs.py
+  export_mitochondrial_contigs.py: 
+    /usr/local/bin/export_mitochondrial_contigs.py
   extract_genes.py: /usr/local/bin/extract_genes.py
   extract_seq.py: /usr/local/bin/extract_seq.py
   fa2fq: /usr/local/bin/fa2fq

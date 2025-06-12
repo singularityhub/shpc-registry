@@ -2,12 +2,15 @@ url: https://biocontainers.pro/tools/pyscenic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyscenic
 latest:
-  0.12.1--pyhdfd78af_0: sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
+  0.12.1--pyhdfd78af_0: 
+    sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
 tags:
-  0.12.1--pyhdfd78af_0: sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
+  0.12.1--pyhdfd78af_0: 
+    sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100
 docker: quay.io/biocontainers/pyscenic
 aliases:
-  arboreto_with_multiprocessing.py: /usr/local/bin/arboreto_with_multiprocessing.py
+  arboreto_with_multiprocessing.py: 
+    /usr/local/bin/arboreto_with_multiprocessing.py
   checksum-profile: /usr/local/bin/checksum-profile
   csv2loom: /usr/local/bin/csv2loom
   db2feather: /usr/local/bin/db2feather

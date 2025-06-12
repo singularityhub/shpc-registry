@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-yrimulti
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-yrimulti
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-yrimulti
 latest:
-  0.18.0--r40_0: sha256:fe5d8663b24f26fe6c9580186fab8ee10e43b75f655be07dc594183b7c57fada
+  0.18.0--r40_0: 
+    sha256:fe5d8663b24f26fe6c9580186fab8ee10e43b75f655be07dc594183b7c57fada
 tags:
-  0.18.0--r40_0: sha256:fe5d8663b24f26fe6c9580186fab8ee10e43b75f655be07dc594183b7c57fada
+  0.18.0--r40_0: 
+    sha256:fe5d8663b24f26fe6c9580186fab8ee10e43b75f655be07dc594183b7c57fada
 docker: quay.io/biocontainers/bioconductor-yrimulti
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
