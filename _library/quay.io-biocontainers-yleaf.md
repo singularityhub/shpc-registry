@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yleaf/container.yaml"
-updated_at: "2025-06-11 03:30:13.787042"
+updated_at: "2025-06-12 03:28:05.750221"
 latest: "3.2.1--pyh1286868_0"
 container_url: "https://biocontainers.pro/tools/yleaf"
 aliases:

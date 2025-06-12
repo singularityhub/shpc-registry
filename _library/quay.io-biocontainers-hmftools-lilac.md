@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-lilac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-lilac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-lilac/container.yaml"
-updated_at: "2025-06-11 04:09:20.017690"
+updated_at: "2025-06-12 04:07:10.950793"
 latest: "1.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-lilac"
 aliases:

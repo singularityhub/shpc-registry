@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phlame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phlame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phlame/container.yaml"
-updated_at: "2025-06-11 03:43:10.931275"
+updated_at: "2025-06-12 03:41:08.333944"
 latest: "1.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phlame"
 aliases:

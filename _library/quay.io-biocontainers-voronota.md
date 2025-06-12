@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/voronota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voronota/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voronota/container.yaml"
-updated_at: "2025-06-11 03:31:35.973914"
-latest: "1.29.4370--h5755088_0"
+updated_at: "2025-06-12 03:29:27.367808"
+latest: "1.29.4408--h5755088_0"
 container_url: "https://biocontainers.pro/tools/voronota"
 aliases:
  - "glewinfo"
@@ -53,8 +53,9 @@ aliases:
  - "xkbcli"
 versions:
  - "1.29.4370--h5755088_0"
+ - "1.29.4408--h5755088_0"
 description: "singularity registry hpc automated addition for voronota"
-config: {"url": "https://biocontainers.pro/tools/voronota", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for voronota", "latest": {"1.29.4370--h5755088_0": "sha256:89afab0cbb88ae37fb7991c097ef394af61f9dd376d1c04e5f51a0b18bb1849d"}, "tags": {"1.29.4370--h5755088_0": "sha256:89afab0cbb88ae37fb7991c097ef394af61f9dd376d1c04e5f51a0b18bb1849d"}, "docker": "quay.io/biocontainers/voronota", "aliases": {"glewinfo": "/usr/local/bin/glewinfo", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "visualinfo": "/usr/local/bin/visualinfo", "voronota": "/usr/local/bin/voronota", "voronota-cadscore": "/usr/local/bin/voronota-cadscore", "voronota-contacts": "/usr/local/bin/voronota-contacts", "voronota-gl": "/usr/local/bin/voronota-gl", "voronota-js": "/usr/local/bin/voronota-js", "voronota-js-fast-iface-cadscore": "/usr/local/bin/voronota-js-fast-iface-cadscore", "voronota-js-fast-iface-cadscore-matrix": "/usr/local/bin/voronota-js-fast-iface-cadscore-matrix", "voronota-js-fast-iface-contacts": "/usr/local/bin/voronota-js-fast-iface-contacts", "voronota-js-fast-iface-data-graph": "/usr/local/bin/voronota-js-fast-iface-data-graph", "voronota-js-fast-iface-voromqa": "/usr/local/bin/voronota-js-fast-iface-voromqa", "voronota-js-ifeatures-voromqa": "/usr/local/bin/voronota-js-ifeatures-voromqa", "voronota-js-ligand-cadscore": "/usr/local/bin/voronota-js-ligand-cadscore", "voronota-js-membrane-voromqa": "/usr/local/bin/voronota-js-membrane-voromqa", "voronota-js-only-global-voromqa": "/usr/local/bin/voronota-js-only-global-voromqa", "voronota-js-pdb-utensil-detect-inter-structure-contacts": "/usr/local/bin/voronota-js-pdb-utensil-detect-inter-structure-contacts", "voronota-js-pdb-utensil-download-structure": "/usr/local/bin/voronota-js-pdb-utensil-download-structure", "voronota-js-pdb-utensil-filter-atoms": "/usr/local/bin/voronota-js-pdb-utensil-filter-atoms", "voronota-js-pdb-utensil-print-sequence-from-structure": "/usr/local/bin/voronota-js-pdb-utensil-print-sequence-from-structure", "voronota-js-pdb-utensil-rename-chains": "/usr/local/bin/voronota-js-pdb-utensil-rename-chains", "voronota-js-pdb-utensil-renumber-by-sequence": "/usr/local/bin/voronota-js-pdb-utensil-renumber-by-sequence", "voronota-js-pdb-utensil-split-to-models": "/usr/local/bin/voronota-js-pdb-utensil-split-to-models", "voronota-js-voroif-gnn": "/usr/local/bin/voronota-js-voroif-gnn", "voronota-js-voromqa": "/usr/local/bin/voronota-js-voromqa", "voronota-lt": "/usr/local/bin/voronota-lt", "voronota-membrane": "/usr/local/bin/voronota-membrane", "voronota-pocket": "/usr/local/bin/voronota-pocket", "voronota-resources": "/usr/local/bin/voronota-resources", "voronota-volumes": "/usr/local/bin/voronota-volumes", "voronota-voromqa": "/usr/local/bin/voronota-voromqa", "wayland-scanner": "/usr/local/bin/wayland-scanner", "xkbcli": "/usr/local/bin/xkbcli"}}
+config: {"url": "https://biocontainers.pro/tools/voronota", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for voronota", "latest": {"1.29.4408--h5755088_0": "sha256:262cb703d4e6393cf038f882731f684f3eb020100d712b006ed55a7514da2f03"}, "tags": {"1.29.4370--h5755088_0": "sha256:89afab0cbb88ae37fb7991c097ef394af61f9dd376d1c04e5f51a0b18bb1849d", "1.29.4408--h5755088_0": "sha256:262cb703d4e6393cf038f882731f684f3eb020100d712b006ed55a7514da2f03"}, "docker": "quay.io/biocontainers/voronota", "aliases": {"glewinfo": "/usr/local/bin/glewinfo", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "visualinfo": "/usr/local/bin/visualinfo", "voronota": "/usr/local/bin/voronota", "voronota-cadscore": "/usr/local/bin/voronota-cadscore", "voronota-contacts": "/usr/local/bin/voronota-contacts", "voronota-gl": "/usr/local/bin/voronota-gl", "voronota-js": "/usr/local/bin/voronota-js", "voronota-js-fast-iface-cadscore": "/usr/local/bin/voronota-js-fast-iface-cadscore", "voronota-js-fast-iface-cadscore-matrix": "/usr/local/bin/voronota-js-fast-iface-cadscore-matrix", "voronota-js-fast-iface-contacts": "/usr/local/bin/voronota-js-fast-iface-contacts", "voronota-js-fast-iface-data-graph": "/usr/local/bin/voronota-js-fast-iface-data-graph", "voronota-js-fast-iface-voromqa": "/usr/local/bin/voronota-js-fast-iface-voromqa", "voronota-js-ifeatures-voromqa": "/usr/local/bin/voronota-js-ifeatures-voromqa", "voronota-js-ligand-cadscore": "/usr/local/bin/voronota-js-ligand-cadscore", "voronota-js-membrane-voromqa": "/usr/local/bin/voronota-js-membrane-voromqa", "voronota-js-only-global-voromqa": "/usr/local/bin/voronota-js-only-global-voromqa", "voronota-js-pdb-utensil-detect-inter-structure-contacts": "/usr/local/bin/voronota-js-pdb-utensil-detect-inter-structure-contacts", "voronota-js-pdb-utensil-download-structure": "/usr/local/bin/voronota-js-pdb-utensil-download-structure", "voronota-js-pdb-utensil-filter-atoms": "/usr/local/bin/voronota-js-pdb-utensil-filter-atoms", "voronota-js-pdb-utensil-print-sequence-from-structure": "/usr/local/bin/voronota-js-pdb-utensil-print-sequence-from-structure", "voronota-js-pdb-utensil-rename-chains": "/usr/local/bin/voronota-js-pdb-utensil-rename-chains", "voronota-js-pdb-utensil-renumber-by-sequence": "/usr/local/bin/voronota-js-pdb-utensil-renumber-by-sequence", "voronota-js-pdb-utensil-split-to-models": "/usr/local/bin/voronota-js-pdb-utensil-split-to-models", "voronota-js-voroif-gnn": "/usr/local/bin/voronota-js-voroif-gnn", "voronota-js-voromqa": "/usr/local/bin/voronota-js-voromqa", "voronota-lt": "/usr/local/bin/voronota-lt", "voronota-membrane": "/usr/local/bin/voronota-membrane", "voronota-pocket": "/usr/local/bin/voronota-pocket", "voronota-resources": "/usr/local/bin/voronota-resources", "voronota-volumes": "/usr/local/bin/voronota-volumes", "voronota-voromqa": "/usr/local/bin/voronota-voromqa", "wayland-scanner": "/usr/local/bin/wayland-scanner", "xkbcli": "/usr/local/bin/xkbcli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/voronota.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/voronota
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/voronota:1.29.4370--h5755088_0
+$ shpc install quay.io/biocontainers/voronota:1.29.4408--h5755088_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/voronota/1.29.4370--h5755088_0
-$ module help quay.io/biocontainers/voronota/1.29.4370--h5755088_0
+$ module load quay.io/biocontainers/voronota/1.29.4408--h5755088_0
+$ module help quay.io/biocontainers/voronota/1.29.4408--h5755088_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

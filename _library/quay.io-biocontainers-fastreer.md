@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastreer/container.yaml"
-updated_at: "2025-06-11 03:34:28.584471"
-latest: "1.13.30--pyhdfd78af_0"
+updated_at: "2025-06-12 03:32:19.149347"
+latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fastreer"
 aliases:
  - "fastreeR"
@@ -36,8 +36,9 @@ aliases:
  - "javap"
 versions:
  - "1.13.30--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for fastreer"
-config: {"url": "https://biocontainers.pro/tools/fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastreer", "latest": {"1.13.30--pyhdfd78af_0": "sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31"}, "tags": {"1.13.30--pyhdfd78af_0": "sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31"}, "docker": "quay.io/biocontainers/fastreer", "aliases": {"fastreeR": "/usr/local/bin/fastreeR", "jwebserver": "/usr/local/bin/jwebserver", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
+config: {"url": "https://biocontainers.pro/tools/fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastreer", "latest": {"2.0.0--pyhdfd78af_1": "sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71"}, "tags": {"1.13.30--pyhdfd78af_0": "sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31", "2.0.0--pyhdfd78af_1": "sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71"}, "docker": "quay.io/biocontainers/fastreer", "aliases": {"fastreeR": "/usr/local/bin/fastreeR", "jwebserver": "/usr/local/bin/jwebserver", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastreer.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/fastreer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastreer:1.13.30--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fastreer:2.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastreer/1.13.30--pyhdfd78af_0
-$ module help quay.io/biocontainers/fastreer/1.13.30--pyhdfd78af_0
+$ module load quay.io/biocontainers/fastreer/2.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/fastreer/2.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-sv-prep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sv-prep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sv-prep/container.yaml"
-updated_at: "2025-06-11 03:34:05.025631"
+updated_at: "2025-06-12 03:31:55.604978"
 latest: "1.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-sv-prep"
 aliases:

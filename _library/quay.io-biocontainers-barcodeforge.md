@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barcodeforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcodeforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcodeforge/container.yaml"
-updated_at: "2025-06-11 03:42:43.655468"
+updated_at: "2025-06-12 03:40:41.043671"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barcodeforge"
 aliases:

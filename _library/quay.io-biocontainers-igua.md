@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igua/container.yaml"
-updated_at: "2025-06-11 03:49:38.040131"
+updated_at: "2025-06-12 03:47:37.802670"
 latest: "0.1.0--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/igua"
 aliases:
@@ -36,8 +36,9 @@ aliases:
  - "h5jam"
 versions:
  - "0.1.0--py310hec43fc7_0"
+ - "0.1.0--py39h5b94c0b_0"
 description: "singularity registry hpc automated addition for igua"
-config: {"url": "https://biocontainers.pro/tools/igua", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for igua", "latest": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112"}, "tags": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112"}, "docker": "quay.io/biocontainers/igua", "aliases": {"igua": "/usr/local/bin/igua", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "h5fuse": "/usr/local/bin/h5fuse", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
+config: {"url": "https://biocontainers.pro/tools/igua", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for igua", "latest": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112"}, "tags": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112", "0.1.0--py39h5b94c0b_0": "sha256:c67508d2d1ada627294724652c49ce25d6f83e21dc70233ccd84afc8df0fdc1d"}, "docker": "quay.io/biocontainers/igua", "aliases": {"igua": "/usr/local/bin/igua", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "h5fuse": "/usr/local/bin/h5fuse", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igua.

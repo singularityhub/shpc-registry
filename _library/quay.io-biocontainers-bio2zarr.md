@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bio2zarr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio2zarr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio2zarr/container.yaml"
-updated_at: "2025-06-11 03:33:59.699580"
+updated_at: "2025-06-12 03:31:50.275574"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bio2zarr"
 aliases:

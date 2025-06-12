@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctat-metagenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-metagenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-metagenomics/container.yaml"
-updated_at: "2025-06-11 03:35:25.244121"
+updated_at: "2025-06-12 03:33:15.922345"
 latest: "1.0.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/ctat-metagenomics"
 aliases:

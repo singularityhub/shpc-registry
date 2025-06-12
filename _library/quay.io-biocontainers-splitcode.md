@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/splitcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitcode/container.yaml"
-updated_at: "2025-06-11 03:59:52.957803"
-latest: "0.31.2--h077b44d_1"
+updated_at: "2025-06-12 03:57:53.114973"
+latest: "0.31.2--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/splitcode"
 aliases:
  - "splitcode"
@@ -13,8 +13,9 @@ versions:
  - "0.29.4--hdcf5f25_0"
  - "0.30.0--hdcf5f25_0"
  - "0.31.2--h077b44d_1"
+ - "0.31.2--h077b44d_2"
 description: "singularity registry hpc automated addition for splitcode"
-config: {"url": "https://biocontainers.pro/tools/splitcode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitcode", "latest": {"0.31.2--h077b44d_1": "sha256:597ed4f936de2766cbcd5f2b8335f96a6b1eec74d5f0b0017887be8990c4bf17"}, "tags": {"0.29.4--hdcf5f25_0": "sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b", "0.30.0--hdcf5f25_0": "sha256:0612da997efbfd2e7a38933825a7256437667bb702b6fc41f736952d7ffdb7e1", "0.31.2--h077b44d_1": "sha256:597ed4f936de2766cbcd5f2b8335f96a6b1eec74d5f0b0017887be8990c4bf17"}, "docker": "quay.io/biocontainers/splitcode", "aliases": {"splitcode": "/usr/local/bin/splitcode"}}
+config: {"url": "https://biocontainers.pro/tools/splitcode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitcode", "latest": {"0.31.2--h077b44d_2": "sha256:d56f61565cac70d44a9af38ba755532b6f1788f172ebd2144ab9a57e0f2f6b08"}, "tags": {"0.29.4--hdcf5f25_0": "sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b", "0.30.0--hdcf5f25_0": "sha256:0612da997efbfd2e7a38933825a7256437667bb702b6fc41f736952d7ffdb7e1", "0.31.2--h077b44d_1": "sha256:597ed4f936de2766cbcd5f2b8335f96a6b1eec74d5f0b0017887be8990c4bf17", "0.31.2--h077b44d_2": "sha256:d56f61565cac70d44a9af38ba755532b6f1788f172ebd2144ab9a57e0f2f6b08"}, "docker": "quay.io/biocontainers/splitcode", "aliases": {"splitcode": "/usr/local/bin/splitcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splitcode.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/splitcode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splitcode:0.31.2--h077b44d_1
+$ shpc install quay.io/biocontainers/splitcode:0.31.2--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splitcode/0.31.2--h077b44d_1
-$ module help quay.io/biocontainers/splitcode/0.31.2--h077b44d_1
+$ module load quay.io/biocontainers/splitcode/0.31.2--h077b44d_2
+$ module help quay.io/biocontainers/splitcode/0.31.2--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
