@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dastk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dastk
 latest:
-  1.0.1--pyh7cba7a3_0: sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
+  1.0.1--pyh7cba7a3_0: 
+    sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
 tags:
-  1.0.1--pyh7cba7a3_0: sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
+  1.0.1--pyh7cba7a3_0: 
+    sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
 docker: quay.io/biocontainers/dastk
 aliases:
   barcode_plot: /usr/local/bin/barcode_plot

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/occultercut
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for occultercut
 latest:
-  1.1--h503566f_1: sha256:9ad315e3970584d3746eae4c848cd56822de6b01f6f8e6f6dd0f27ed971d7362
+  1.1--h503566f_1: 
+    sha256:9ad315e3970584d3746eae4c848cd56822de6b01f6f8e6f6dd0f27ed971d7362
 tags:
-  1.1--h503566f_1: sha256:9ad315e3970584d3746eae4c848cd56822de6b01f6f8e6f6dd0f27ed971d7362
+  1.1--h503566f_1: 
+    sha256:9ad315e3970584d3746eae4c848cd56822de6b01f6f8e6f6dd0f27ed971d7362
 docker: quay.io/biocontainers/occultercut
 aliases:
   OcculterCut: /usr/local/bin/OcculterCut

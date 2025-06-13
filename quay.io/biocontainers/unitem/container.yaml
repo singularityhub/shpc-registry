@@ -2,12 +2,17 @@ url: https://biocontainers.pro/tools/unitem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unitem
 latest:
-  1.2.6--pyhdfd78af_0: sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
+  1.2.6--pyhdfd78af_0: 
+    sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
 tags:
-  1.2.1--pyhdfd78af_0: sha256:f91f000bbe2867fd260df8f34421d4c2941c00d05fd3e48fafaf43f5c8e20d64
-  1.2.4--pyhdfd78af_0: sha256:ecdc26233d603ed8cebb3c6fb87095affa26f6a4e19b78c9a7977a81702e2c20
-  1.2.5--pyhdfd78af_0: sha256:a3835948a4b73902d5bc4b50daf81fea4a6ec432d4f6a16e69f96952c3699ee0
-  1.2.6--pyhdfd78af_0: sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
+  1.2.1--pyhdfd78af_0: 
+    sha256:f91f000bbe2867fd260df8f34421d4c2941c00d05fd3e48fafaf43f5c8e20d64
+  1.2.4--pyhdfd78af_0: 
+    sha256:ecdc26233d603ed8cebb3c6fb87095affa26f6a4e19b78c9a7977a81702e2c20
+  1.2.5--pyhdfd78af_0: 
+    sha256:a3835948a4b73902d5bc4b50daf81fea4a6ec432d4f6a16e69f96952c3699ee0
+  1.2.6--pyhdfd78af_0: 
+    sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
 docker: quay.io/biocontainers/unitem
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan
@@ -16,7 +21,8 @@ aliases:
   Makefile.in: /usr/local/bin/Makefile.in
   aclocal.bak: /usr/local/bin/aclocal.bak
   aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl
-  aggregateContigOverlapsByBin.pl: /usr/local/bin/aggregateContigOverlapsByBin.pl
+  aggregateContigOverlapsByBin.pl: 
+    /usr/local/bin/aggregateContigOverlapsByBin.pl
   autoheader.bak: /usr/local/bin/autoheader.bak
   autom4te.bak: /usr/local/bin/autom4te.bak
   automake.bak: /usr/local/bin/automake.bak
@@ -46,7 +52,8 @@ aliases:
   idba_ud: /usr/local/bin/idba_ud
   idba_ud.o: /usr/local/bin/idba_ud.o
   ifnames.bak: /usr/local/bin/ifnames.bak
-  jgi_summarize_bam_contig_depths: /usr/local/bin/jgi_summarize_bam_contig_depths
+  jgi_summarize_bam_contig_depths: 
+    /usr/local/bin/jgi_summarize_bam_contig_depths
   merge_depths.pl: /usr/local/bin/merge_depths.pl
   metabat: /usr/local/bin/metabat
   metabat1: /usr/local/bin/metabat1

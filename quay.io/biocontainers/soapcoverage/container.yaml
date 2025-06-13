@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/soapcoverage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for soapcoverage
 latest:
-  2.7.7--0: sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638
+  2.7.7--0: 
+    sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638
 tags:
-  2.7.7--0: sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638
+  2.7.7--0: 
+    sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638
 docker: quay.io/biocontainers/soapcoverage
 aliases:
   soap.coverage: /usr/local/bin/soap.coverage

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/reactome-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reactome-cli
 latest:
-  0.0.0--hdfd78af_0: sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f
+  0.0.0--hdfd78af_0: 
+    sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f
 tags:
-  0.0.0--hdfd78af_0: sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f
+  0.0.0--hdfd78af_0: 
+    sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f
 docker: quay.io/biocontainers/reactome-cli
 aliases:
   reactome: /usr/local/bin/reactome

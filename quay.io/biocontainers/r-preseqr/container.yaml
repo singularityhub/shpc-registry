@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-preseqr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-preseqr
 latest:
-  2.0.0--r3.2.2_0: sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88
+  2.0.0--r3.2.2_0: 
+    sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88
 tags:
-  2.0.0--r3.2.2_0: sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88
-  2.0.0--r3.3.2_0: sha256:760e18f27b11e960f1104a0fc98fb822834905e8546a8903061344c595319552
+  2.0.0--r3.2.2_0: 
+    sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88
+  2.0.0--r3.3.2_0: 
+    sha256:760e18f27b11e960f1104a0fc98fb822834905e8546a8903061344c595319552
 docker: quay.io/biocontainers/r-preseqr
 aliases:
   pngcp: /usr/local/bin/pngcp

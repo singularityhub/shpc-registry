@@ -1,13 +1,15 @@
 docker: ghcr.io/autamus/ed
 url: https://github.com/orgs/autamus/packages/container/package/ed
 maintainer: '@vsoch'
-description: GNU ed is a line-oriented text editor used to create, display, modify
-  and otherwise manipulate text files, both interactively and via shell scripts https://www.gnu.org/software/ed.
+description: GNU ed is a line-oriented text editor used to create, display, 
+  modify and otherwise manipulate text files, both interactively and via shell 
+  scripts https://www.gnu.org/software/ed.
 latest:
   '1.4': sha256:08cbe11543da7e0255c27144d629688b85cc9d50d4aba0e654b826b12117bf6f
 tags:
   '1.4': sha256:08cbe11543da7e0255c27144d629688b85cc9d50d4aba0e654b826b12117bf6f
-  latest: sha256:08cbe11543da7e0255c27144d629688b85cc9d50d4aba0e654b826b12117bf6f
+  latest: 
+    sha256:08cbe11543da7e0255c27144d629688b85cc9d50d4aba0e654b826b12117bf6f
 aliases:
   ed: /opt/view/bin/ed
   red: /opt/view/bin/red

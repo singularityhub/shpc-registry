@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metaplex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metaplex
 latest:
-  1.1.0--pyh5e36f6f_0: sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
+  1.1.0--pyh5e36f6f_0: 
+    sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
 tags:
-  1.1.0--pyh5e36f6f_0: sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
+  1.1.0--pyh5e36f6f_0: 
+    sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
 docker: quay.io/biocontainers/metaplex
 aliases:
   Metaplex-calculate-IJR: /usr/local/bin/Metaplex-calculate-IJR

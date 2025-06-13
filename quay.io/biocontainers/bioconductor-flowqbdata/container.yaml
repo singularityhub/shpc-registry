@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-flowqbdata
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-flowqbdata
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-flowqbdata
 latest:
-  1.10.0--r36_1: sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca
+  1.10.0--r36_1: 
+    sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca
 tags:
-  1.8.0--r351_0: sha256:21ba5446edca5b9e66499fff734ce4dd585fc0c9e867b578ae98ec9a34c8dd13
-  1.10.0--r36_1: sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca
+  1.8.0--r351_0: 
+    sha256:21ba5446edca5b9e66499fff734ce4dd585fc0c9e867b578ae98ec9a34c8dd13
+  1.10.0--r36_1: 
+    sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca
 docker: quay.io/biocontainers/bioconductor-flowqbdata
 aliases:
   wget: /usr/local/bin/wget

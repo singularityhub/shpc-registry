@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cpc2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cpc2
 latest:
-  1.0.1--hdfd78af_0: sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
+  1.0.1--hdfd78af_0: 
+    sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
 tags:
-  1.0.1--hdfd78af_0: sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
+  1.0.1--hdfd78af_0: 
+    sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
 docker: quay.io/biocontainers/cpc2
 aliases:
   CPC2.py: /usr/local/bin/CPC2.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hivtrace
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hivtrace
 latest:
-  1.5.0--py_0: sha256:24d874c0c474ab22bd1ce90dea2ca29fe212e006325493970f55a034719d220a
+  1.5.0--py_0: 
+    sha256:24d874c0c474ab22bd1ce90dea2ca29fe212e006325493970f55a034719d220a
 tags:
-  1.5.0--py_0: sha256:24d874c0c474ab22bd1ce90dea2ca29fe212e006325493970f55a034719d220a
+  1.5.0--py_0: 
+    sha256:24d874c0c474ab22bd1ce90dea2ca29fe212e006325493970f55a034719d220a
 docker: quay.io/biocontainers/hivtrace
 aliases:
   TNS: /usr/local/bin/TNS

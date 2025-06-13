@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/chap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chap
 latest:
-  0.9.1--h2df963e_2: sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
+  0.9.1--h2df963e_2: 
+    sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
 tags:
-  0.9.1--h2df963e_2: sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
+  0.9.1--h2df963e_2: 
+    sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
 docker: quay.io/biocontainers/chap
 aliases:
   GMXRC: /usr/local/bin/GMXRC

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/consplice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for consplice
 latest:
-  0.0.6--pyh5e36f6f_0: sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
+  0.0.6--pyh5e36f6f_0: 
+    sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
 tags:
-  0.0.6--pyh5e36f6f_0: sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
+  0.0.6--pyh5e36f6f_0: 
+    sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
 docker: quay.io/biocontainers/consplice
 aliases:
   consplice: /usr/local/bin/consplice

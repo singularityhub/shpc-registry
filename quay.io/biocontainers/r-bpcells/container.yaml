@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/r-bpcells
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-bpcells
 latest:
-  0.3.0--r44h89edbeb_0: sha256:807523a4d4a94819a0fbe70d7ea483e6280cf839dd485b4090103dfdf221a3f6
+  0.3.0--r44h89edbeb_1: 
+    sha256:33ad4d04fa7ab20f135e50a1ceca30658d77c6698e4d506851664b8138177b60
 tags:
-  0.3.0--r44h89edbeb_0: sha256:807523a4d4a94819a0fbe70d7ea483e6280cf839dd485b4090103dfdf221a3f6
+  0.3.0--r44h89edbeb_0: 
+    sha256:807523a4d4a94819a0fbe70d7ea483e6280cf839dd485b4090103dfdf221a3f6
+  0.3.0--r44h89edbeb_1: 
+    sha256:33ad4d04fa7ab20f135e50a1ceca30658d77c6698e4d506851664b8138177b60
 docker: quay.io/biocontainers/r-bpcells
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

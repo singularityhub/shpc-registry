@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/reparation_blast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for reparation_blast
 latest:
-  1.0.9--pl5321hdfd78af_3: sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
+  1.0.9--pl5321hdfd78af_3: 
+    sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
 tags:
-  v1.0.7--pl526_1: sha256:554f57c3c55f8a594cca24a5915b3f88ec06a137b8c2f400ddbdce4740123b49
-  1.0.9--pl5321hdfd78af_3: sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
+  v1.0.7--pl526_1: 
+    sha256:554f57c3c55f8a594cca24a5915b3f88ec06a137b8c2f400ddbdce4740123b49
+  1.0.9--pl5321hdfd78af_3: 
+    sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
 docker: quay.io/biocontainers/reparation_blast
 aliases:
   anomaly: /usr/local/bin/anomaly
@@ -30,8 +33,10 @@ aliases:
   fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
   fastx_clipper: /usr/local/bin/fastx_clipper
   fastx_collapser: /usr/local/bin/fastx_collapser
-  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
-  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_nucleotide_distribution_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
   fastx_quality_stats: /usr/local/bin/fastx_quality_stats
   fastx_renamer: /usr/local/bin/fastx_renamer
   fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement

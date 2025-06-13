@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/perl-filedirutil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-filedirutil
 latest:
-  v0.04--pl526_0: sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b
+  v0.04--pl526_0: 
+    sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b
 tags:
-  v0.04--pl526_0: sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b
-  0.04--pl5321hdfd78af_0: sha256:5c44a5df59a57572f7e29212182b214a06ecad069b93098cfe29efe2bfd3ef54
+  v0.04--pl526_0: 
+    sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b
+  0.04--pl5321hdfd78af_0: 
+    sha256:5c44a5df59a57572f7e29212182b214a06ecad069b93098cfe29efe2bfd3ef54
 docker: quay.io/biocontainers/perl-filedirutil
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

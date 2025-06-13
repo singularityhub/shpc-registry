@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/goatools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for goatools
 latest:
-  1.2.3--pyh7cba7a3_2: sha256:945dd097fc598d527e8c8e6b1defef3d48d05deb0ca4e3bd0be73ab0a6768745
+  1.2.3--pyh7cba7a3_2: 
+    sha256:945dd097fc598d527e8c8e6b1defef3d48d05deb0ca4e3bd0be73ab0a6768745
 tags:
-  1.2.3--pyh7cba7a3_2: sha256:945dd097fc598d527e8c8e6b1defef3d48d05deb0ca4e3bd0be73ab0a6768745
+  1.2.3--pyh7cba7a3_2: 
+    sha256:945dd097fc598d527e8c8e6b1defef3d48d05deb0ca4e3bd0be73ab0a6768745
 docker: quay.io/biocontainers/goatools
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py

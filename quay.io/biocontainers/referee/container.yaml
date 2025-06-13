@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/referee
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for referee
 latest:
-  1.2--hdfd78af_0: sha256:b1b2b229870c4ad009556a58ff5ff07ddf7110bcee24c72546dd54c7062110a3
+  1.2--hdfd78af_0: 
+    sha256:b1b2b229870c4ad009556a58ff5ff07ddf7110bcee24c72546dd54c7062110a3
 tags:
-  1.2--hdfd78af_0: sha256:b1b2b229870c4ad009556a58ff5ff07ddf7110bcee24c72546dd54c7062110a3
+  1.2--hdfd78af_0: 
+    sha256:b1b2b229870c4ad009556a58ff5ff07ddf7110bcee24c72546dd54c7062110a3
 docker: quay.io/biocontainers/referee
 aliases:
   referee.py: /usr/local/bin/referee.py

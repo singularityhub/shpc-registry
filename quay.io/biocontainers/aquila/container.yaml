@@ -2,12 +2,15 @@ url: https://biocontainers.pro/tools/aquila
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aquila
 latest:
-  1.0.0--py_0: sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876
+  1.0.0--py_0: 
+    sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876
 tags:
-  1.0.0--py_0: sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876
+  1.0.0--py_0: 
+    sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876
 docker: quay.io/biocontainers/aquila
 aliases:
-  Aquila_assembly_based_variants_call: /usr/local/bin/Aquila_assembly_based_variants_call
+  Aquila_assembly_based_variants_call: 
+    /usr/local/bin/Aquila_assembly_based_variants_call
   Aquila_clean: /usr/local/bin/Aquila_clean
   Aquila_phasing_all_variants: /usr/local/bin/Aquila_phasing_all_variants
   Aquila_step0_sortbam: /usr/local/bin/Aquila_step0_sortbam

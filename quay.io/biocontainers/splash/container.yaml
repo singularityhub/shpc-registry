@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/splash
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for splash
 latest:
-  2.11.0--py313h9ee0642_0: sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
+  2.11.0--py313h9ee0642_0: 
+    sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
 tags:
-  2.11.0--py313h9ee0642_0: sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
+  2.11.0--py313h9ee0642_0: 
+    sha256:7a65568e7d34aa4fe0a18f0adc0a1bc49d2361e24684bb2e1a47802364800043
 docker: quay.io/biocontainers/splash
 aliases:
   bkc: /usr/local/bin/bkc

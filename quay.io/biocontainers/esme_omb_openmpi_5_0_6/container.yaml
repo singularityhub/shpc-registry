@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_omb_openmpi_5_0_6
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_omb_openmpi_5_0_6
+description: singularity registry hpc automated addition for 
+  esme_omb_openmpi_5_0_6
 latest:
-  7.5--h746f453_0: sha256:2214d6ba9c4675069b5bd1b8971992b6dc12f366cf1cb85010d01e9a5cb5a446
+  7.5--h746f453_0: 
+    sha256:2214d6ba9c4675069b5bd1b8971992b6dc12f366cf1cb85010d01e9a5cb5a446
 tags:
-  7.5--h746f453_0: sha256:2214d6ba9c4675069b5bd1b8971992b6dc12f366cf1cb85010d01e9a5cb5a446
+  7.5--h746f453_0: 
+    sha256:2214d6ba9c4675069b5bd1b8971992b6dc12f366cf1cb85010d01e9a5cb5a446
 docker: quay.io/biocontainers/esme_omb_openmpi_5_0_6
 aliases:
   prte: /usr/local/bin/prte

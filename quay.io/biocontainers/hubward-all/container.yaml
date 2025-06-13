@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hubward-all
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hubward-all
 latest:
-  0.2.1--hdfd78af_3: sha256:9edb13a551985ca2b32984042c3ad732ada8484ce5bf2c4a8395729582284e45
+  0.2.1--hdfd78af_3: 
+    sha256:9edb13a551985ca2b32984042c3ad732ada8484ce5bf2c4a8395729582284e45
 tags:
-  0.2.1--hdfd78af_3: sha256:9edb13a551985ca2b32984042c3ad732ada8484ce5bf2c4a8395729582284e45
+  0.2.1--hdfd78af_3: 
+    sha256:9edb13a551985ca2b32984042c3ad732ada8484ce5bf2c4a8395729582284e45
 docker: quay.io/biocontainers/hubward-all
 aliases:
   CrossMap.py: /usr/local/bin/CrossMap.py
@@ -27,7 +29,8 @@ aliases:
   wigToBigWig: /usr/local/bin/wigToBigWig
   bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
   bedToBigBed: /usr/local/bin/bedToBigBed
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

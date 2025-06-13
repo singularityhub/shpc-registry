@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-diagram
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-diagram
 latest:
-  1.6.3--r3.2.2_0: sha256:f00fa7bf20242d4aa3a37852cba130b36d2c45d25fb924a331faefea7cc6b3eb
+  1.6.3--r3.2.2_0: 
+    sha256:f00fa7bf20242d4aa3a37852cba130b36d2c45d25fb924a331faefea7cc6b3eb
 tags:
-  1.6.3--r3.2.2_0: sha256:f00fa7bf20242d4aa3a37852cba130b36d2c45d25fb924a331faefea7cc6b3eb
-  1.6.3--r3.3.2_0: sha256:92d7a9160e0487496156ee1495aeff38081ff3b5b663c068832c4c55f599cd0a
+  1.6.3--r3.2.2_0: 
+    sha256:f00fa7bf20242d4aa3a37852cba130b36d2c45d25fb924a331faefea7cc6b3eb
+  1.6.3--r3.3.2_0: 
+    sha256:92d7a9160e0487496156ee1495aeff38081ff3b5b663c068832c4c55f599cd0a
 docker: quay.io/biocontainers/r-diagram
 aliases:
   pngcp: /usr/local/bin/pngcp

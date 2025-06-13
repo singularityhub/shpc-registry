@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/haplotype-lso
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haplotype-lso
 latest:
-  0.4.4--py_3: sha256:0632606721c7e81d8d6c8330da7a656390a270957661273ff45beee45e2f750f
+  0.4.4--py_3: 
+    sha256:0632606721c7e81d8d6c8330da7a656390a270957661273ff45beee45e2f750f
 tags:
-  0.4.4--py_3: sha256:0632606721c7e81d8d6c8330da7a656390a270957661273ff45beee45e2f750f
+  0.4.4--py_3: 
+    sha256:0632606721c7e81d8d6c8330da7a656390a270957661273ff45beee45e2f750f
 docker: quay.io/biocontainers/haplotype-lso
 aliases:
   abi-dump.2.10.8: /usr/local/bin/abi-dump.2.10.8

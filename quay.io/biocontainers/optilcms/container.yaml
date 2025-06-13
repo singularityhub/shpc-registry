@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/optilcms
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for optilcms
 latest:
-  1.1.0--r43hdfd78af_0: sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
+  1.1.0--r43hdfd78af_0: 
+    sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
 tags:
-  1.1.0--r43hdfd78af_0: sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
+  1.1.0--r43hdfd78af_0: 
+    sha256:441a7f90394e0b818536529d5b6a21dfae429f08740255591fb63b494f724c9f
 docker: quay.io/biocontainers/optilcms
 aliases:
   h5fuse: /usr/local/bin/h5fuse

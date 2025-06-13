@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gnali
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gnali
 latest:
-  1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
+  1.1.0--pyhdfd78af_0: 
+    sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
 tags:
-  1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
+  1.1.0--pyhdfd78af_0: 
+    sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
 docker: quay.io/biocontainers/gnali
 aliases:
   bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl

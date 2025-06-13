@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scrnasim-toolz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scrnasim-toolz
 latest:
-  0.1.1--pyhdfd78af_0: sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
+  0.1.1--pyhdfd78af_0: 
+    sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
 tags:
-  0.1.1--pyhdfd78af_0: sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
+  0.1.1--pyhdfd78af_0: 
+    sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
 docker: quay.io/biocontainers/scrnasim-toolz
 aliases:
   cdna-generator: /usr/local/bin/cdna-generator

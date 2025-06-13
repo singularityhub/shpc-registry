@@ -1,8 +1,8 @@
 docker: ghcr.io/autamus/abyss
 url: https://github.com/orgs/autamus/packages/container/package/abyss
 maintainer: '@vsoch'
-description: ABySS is a de novo, parallel, paired-end sequence assembler that is designed
-  for short reads.
+description: ABySS is a de novo, parallel, paired-end sequence assembler that is
+  designed for short reads.
 latest:
   2.3.4: sha256:83bd8f690ff2e4590351dc8666ce48483a0b1352c9b9a0e98a48477a788d1097
 tags:
@@ -11,7 +11,8 @@ tags:
   2.3.2: sha256:4a3e34ffc609596244f00a8a695dd9497d69f449ddb99cd8f969a1584d707ff4
   2.3.3: sha256:2a62660b7b550401059324ae4c073aef46974504327f67fade111f248b6fa68c
   2.3.4: sha256:83bd8f690ff2e4590351dc8666ce48483a0b1352c9b9a0e98a48477a788d1097
-  latest: sha256:83bd8f690ff2e4590351dc8666ce48483a0b1352c9b9a0e98a48477a788d1097
+  latest: 
+    sha256:83bd8f690ff2e4590351dc8666ce48483a0b1352c9b9a0e98a48477a788d1097
 aliases:
   abyss-align: /opt/view/bin/abyss-align
   abyss-bloom: /opt/view/bin/abyss-bloom

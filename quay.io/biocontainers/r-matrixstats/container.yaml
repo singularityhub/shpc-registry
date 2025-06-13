@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-matrixstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-matrixstats
 latest:
-  0.51.0--r3.3.1_1: sha256:71471ead96651b6ff7529602a31b0c7d17dd01e788243aeaf7eca6480d56a0a8
+  0.51.0--r3.3.1_1: 
+    sha256:71471ead96651b6ff7529602a31b0c7d17dd01e788243aeaf7eca6480d56a0a8
 tags:
-  0.51.0--r3.3.1_1: sha256:71471ead96651b6ff7529602a31b0c7d17dd01e788243aeaf7eca6480d56a0a8
-  0.51.0--r3.3.2_1: sha256:83454ac3066548b026f4674a34c21fcd4036df6ca835b226781359a9f9cbc359
+  0.51.0--r3.3.1_1: 
+    sha256:71471ead96651b6ff7529602a31b0c7d17dd01e788243aeaf7eca6480d56a0a8
+  0.51.0--r3.3.2_1: 
+    sha256:83454ac3066548b026f4674a34c21fcd4036df6ca835b226781359a9f9cbc359
 docker: quay.io/biocontainers/r-matrixstats
 aliases:
   uconv: /usr/local/bin/uconv

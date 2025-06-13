@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/h5sparse
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for h5sparse
 latest:
-  0.1.0--pyh086e186_0: sha256:0b9588ad20522bc0cb5dfdbbfd04e88f6ae30475abed19ceb59682a89a358ed2
+  0.1.0--pyh086e186_0: 
+    sha256:0b9588ad20522bc0cb5dfdbbfd04e88f6ae30475abed19ceb59682a89a358ed2
 tags:
-  0.1.0--pyh086e186_0: sha256:0b9588ad20522bc0cb5dfdbbfd04e88f6ae30475abed19ceb59682a89a358ed2
+  0.1.0--pyh086e186_0: 
+    sha256:0b9588ad20522bc0cb5dfdbbfd04e88f6ae30475abed19ceb59682a89a358ed2
 docker: quay.io/biocontainers/h5sparse
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

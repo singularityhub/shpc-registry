@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/find_circ
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for find_circ
 latest:
-  1.2--hdfd78af_0: sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
+  1.2--hdfd78af_0: 
+    sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
 tags:
-  1.2--hdfd78af_0: sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
+  1.2--hdfd78af_0: 
+    sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
 docker: quay.io/biocontainers/find_circ
 aliases:
   cmp_bed.py: /usr/local/bin/cmp_bed.py

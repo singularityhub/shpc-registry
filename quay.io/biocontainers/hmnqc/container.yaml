@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hmnqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmnqc
 latest:
-  0.5.1--pyhdfd78af_0: sha256:184c81c95a86098b8e4625d63408c62d30405dc08a733666c8eb36e30e37664d
+  0.5.1--pyhdfd78af_0: 
+    sha256:184c81c95a86098b8e4625d63408c62d30405dc08a733666c8eb36e30e37664d
 tags:
-  0.5.1--pyhdfd78af_0: sha256:184c81c95a86098b8e4625d63408c62d30405dc08a733666c8eb36e30e37664d
+  0.5.1--pyhdfd78af_0: 
+    sha256:184c81c95a86098b8e4625d63408c62d30405dc08a733666c8eb36e30e37664d
 docker: quay.io/biocontainers/hmnqc
 aliases:
   cnv_annotate.py: /usr/local/bin/cnv_annotate.py

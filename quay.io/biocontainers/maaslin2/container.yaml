@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/maaslin2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for maaslin2
 latest:
-  1.16.0--r43hdfd78af_0: sha256:fdaa297c1796094ffaa5f05a133f1020b7da5cd71bc965198484ce19eee4df94
+  1.16.0--r43hdfd78af_0: 
+    sha256:fdaa297c1796094ffaa5f05a133f1020b7da5cd71bc965198484ce19eee4df94
 tags:
-  0.99.2--r351_0: sha256:103717510efdd6075aef6598ac98cafaaa8c5fcdb7e5bfe0a348349fe26d8d16
-  0.99.12--r36_0: sha256:1cd7721f5db27b07ffc11c8f7a94bf04e10ed1ec1df03cdd41fc153284200002
-  1.16.0--r43hdfd78af_0: sha256:fdaa297c1796094ffaa5f05a133f1020b7da5cd71bc965198484ce19eee4df94
+  0.99.2--r351_0: 
+    sha256:103717510efdd6075aef6598ac98cafaaa8c5fcdb7e5bfe0a348349fe26d8d16
+  0.99.12--r36_0: 
+    sha256:1cd7721f5db27b07ffc11c8f7a94bf04e10ed1ec1df03cdd41fc153284200002
+  1.16.0--r43hdfd78af_0: 
+    sha256:fdaa297c1796094ffaa5f05a133f1020b7da5cd71bc965198484ce19eee4df94
 docker: quay.io/biocontainers/maaslin2
 aliases:
   Maaslin2.R: /usr/local/bin/Maaslin2.R
