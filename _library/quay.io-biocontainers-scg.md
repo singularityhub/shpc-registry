@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scg/container.yaml"
-updated_at: "2025-06-12 03:51:27.447815"
+updated_at: "2025-06-13 03:41:35.712724"
 latest: "0.3.1--py_2"
 container_url: "https://biocontainers.pro/tools/scg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tartare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tartare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tartare/container.yaml"
-updated_at: "2025-06-12 04:09:45.371799"
+updated_at: "2025-06-13 03:59:54.054158"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tartare"
 

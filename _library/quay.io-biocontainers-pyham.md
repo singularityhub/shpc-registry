@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyham"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyham/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyham/container.yaml"
-updated_at: "2025-06-12 03:38:04.666631"
+updated_at: "2025-06-13 03:28:03.157908"
 latest: "1.1.11--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pyham"
 aliases:

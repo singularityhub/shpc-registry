@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dlbcl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dlbcl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dlbcl/container.yaml"
-updated_at: "2025-06-12 04:13:52.787981"
+updated_at: "2025-06-13 04:04:01.990339"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dlbcl"
 

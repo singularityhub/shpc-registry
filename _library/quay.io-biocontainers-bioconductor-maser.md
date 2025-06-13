@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maser/container.yaml"
-updated_at: "2025-06-12 04:11:22.891984"
+updated_at: "2025-06-13 04:01:32.319666"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maser"
 aliases:

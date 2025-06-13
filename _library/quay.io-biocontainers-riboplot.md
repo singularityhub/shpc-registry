@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboplot/container.yaml"
-updated_at: "2025-06-12 03:49:50.687456"
+updated_at: "2025-06-13 03:39:58.752566"
 latest: "0.3.1--py27_2"
 container_url: "https://biocontainers.pro/tools/riboplot"
 aliases:

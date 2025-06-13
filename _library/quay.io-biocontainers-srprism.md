@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srprism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srprism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srprism/container.yaml"
-updated_at: "2025-06-12 03:56:05.957625"
+updated_at: "2025-06-13 03:46:13.257341"
 latest: "2.4.24--hd6d6fdc_6"
 container_url: "https://biocontainers.pro/tools/srprism"
 aliases:

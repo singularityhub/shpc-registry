@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/legsta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/legsta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/legsta/container.yaml"
-updated_at: "2025-06-12 04:01:31.161939"
+updated_at: "2025-06-13 03:51:39.343602"
 latest: "0.5.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/legsta"
 aliases:

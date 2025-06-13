@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pcne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcne/container.yaml"
-updated_at: "2025-06-12 04:18:55.393753"
-latest: "0.2.0--hdfd78af_0"
+updated_at: "2025-06-13 04:09:06.037172"
+latest: "0.2.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pcne"
 aliases:
  - "PCNE.R"
@@ -37,8 +37,9 @@ aliases:
  - "soap2sam.pl"
 versions:
  - "0.2.0--hdfd78af_0"
+ - "0.2.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for pcne"
-config: {"url": "https://biocontainers.pro/tools/pcne", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcne", "latest": {"0.2.0--hdfd78af_0": "sha256:b0b009b6a6447c6d27a4f389ae2abdc02abe6e9059edad0594942057c7c9f2d9"}, "tags": {"0.2.0--hdfd78af_0": "sha256:b0b009b6a6447c6d27a4f389ae2abdc02abe6e9059edad0594942057c7c9f2d9"}, "docker": "quay.io/biocontainers/pcne", "aliases": {"PCNE.R": "/usr/local/bin/PCNE.R", "pcne": "/usr/local/bin/pcne", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "annot-tsv": "/usr/local/bin/annot-tsv", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "hb-info": "/usr/local/bin/hb-info", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pcne", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcne", "latest": {"0.2.0--hdfd78af_1": "sha256:6329599d6e5a37c30bcec73d1ec696cfbbcac945192cfe382a3be20470f19dac"}, "tags": {"0.2.0--hdfd78af_0": "sha256:b0b009b6a6447c6d27a4f389ae2abdc02abe6e9059edad0594942057c7c9f2d9", "0.2.0--hdfd78af_1": "sha256:6329599d6e5a37c30bcec73d1ec696cfbbcac945192cfe382a3be20470f19dac"}, "docker": "quay.io/biocontainers/pcne", "aliases": {"PCNE.R": "/usr/local/bin/PCNE.R", "pcne": "/usr/local/bin/pcne", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "annot-tsv": "/usr/local/bin/annot-tsv", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "hb-info": "/usr/local/bin/hb-info", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcne.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/pcne
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pcne:0.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pcne:0.2.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pcne/0.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/pcne/0.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/pcne/0.2.0--hdfd78af_1
+$ module help quay.io/biocontainers/pcne/0.2.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

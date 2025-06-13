@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seaborn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seaborn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seaborn/container.yaml"
-updated_at: "2025-06-12 03:46:44.344583"
-latest: "0.7.1"
+updated_at: "2025-06-13 03:36:46.090386"
+latest: "0.13.2"
 container_url: "https://biocontainers.pro/tools/seaborn"
 aliases:
  - "compile-et.pl"
@@ -20,8 +20,9 @@ aliases:
  - "pk12util"
 versions:
  - "0.7.1"
+ - "0.13.2"
 description: "shpc-registry automated BioContainers addition for seaborn"
-config: {"url": "https://biocontainers.pro/tools/seaborn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seaborn", "latest": {"0.7.1": "sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067"}, "tags": {"0.7.1": "sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067"}, "docker": "quay.io/biocontainers/seaborn", "aliases": {"compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
+config: {"url": "https://biocontainers.pro/tools/seaborn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seaborn", "latest": {"0.13.2": "sha256:d68ac9553a87d5aba6c1881122a0b82354ad760cd247acbf59bc8ebcf035d018"}, "tags": {"0.7.1": "sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067", "0.13.2": "sha256:d68ac9553a87d5aba6c1881122a0b82354ad760cd247acbf59bc8ebcf035d018"}, "docker": "quay.io/biocontainers/seaborn", "aliases": {"compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seaborn.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/seaborn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seaborn:0.7.1
+$ shpc install quay.io/biocontainers/seaborn:0.13.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seaborn/0.7.1
-$ module help quay.io/biocontainers/seaborn/0.7.1
+$ module load quay.io/biocontainers/seaborn/0.13.2
+$ module help quay.io/biocontainers/seaborn/0.13.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
