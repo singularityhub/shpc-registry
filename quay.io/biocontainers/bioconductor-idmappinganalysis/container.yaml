@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-idmappinganalysis
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-idmappinganalysis
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-idmappinganalysis
 latest:
-  1.30.0--r36_0: sha256:2aadda96485c49cf8d4c9c7c559d91d5902326fa32f2c3702b7b43c63a26f249
+  1.30.0--r36_0: 
+    sha256:2aadda96485c49cf8d4c9c7c559d91d5902326fa32f2c3702b7b43c63a26f249
 tags:
-  1.30.0--r36_0: sha256:2aadda96485c49cf8d4c9c7c559d91d5902326fa32f2c3702b7b43c63a26f249
+  1.30.0--r36_0: 
+    sha256:2aadda96485c49cf8d4c9c7c559d91d5902326fa32f2c3702b7b43c63a26f249
 docker: quay.io/biocontainers/bioconductor-idmappinganalysis
 aliases:
   extcheck: /usr/local/bin/extcheck

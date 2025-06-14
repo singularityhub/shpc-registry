@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sashimi-py
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sashimi-py
 latest:
-  0.1.5--pyh7cba7a3_0: sha256:d1a990031ad0970612693d38af33d2112a8f52a947a3ceba5a49c6a7c08d5278
+  0.1.5--pyh7cba7a3_0: 
+    sha256:d1a990031ad0970612693d38af33d2112a8f52a947a3ceba5a49c6a7c08d5278
 tags:
-  0.1.5--pyh7cba7a3_0: sha256:d1a990031ad0970612693d38af33d2112a8f52a947a3ceba5a49c6a7c08d5278
+  0.1.5--pyh7cba7a3_0: 
+    sha256:d1a990031ad0970612693d38af33d2112a8f52a947a3ceba5a49c6a7c08d5278
 docker: quay.io/biocontainers/sashimi-py
 aliases:
   dask: /usr/local/bin/dask

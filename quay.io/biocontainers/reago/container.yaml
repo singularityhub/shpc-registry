@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/reago
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reago
 latest:
-  _1.1--py27_0: sha256:9e473d818b6f09991e11f8ba0b72ee922e212eb14d0d3092fb83c7efdc4b7a4b
+  _1.1--py27_0: 
+    sha256:9e473d818b6f09991e11f8ba0b72ee922e212eb14d0d3092fb83c7efdc4b7a4b
 tags:
-  _1.1--py27_0: sha256:9e473d818b6f09991e11f8ba0b72ee922e212eb14d0d3092fb83c7efdc4b7a4b
+  _1.1--py27_0: 
+    sha256:9e473d818b6f09991e11f8ba0b72ee922e212eb14d0d3092fb83c7efdc4b7a4b
 docker: quay.io/biocontainers/reago
 aliases:
   reago.py: /usr/local/bin/reago.py

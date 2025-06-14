@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metaphlan2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaphlan2
 latest:
-  2.96.1--py_0: sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
+  2.96.1--py_0: 
+    sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
 tags:
-  2.96.1--py_0: sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
+  2.96.1--py_0: 
+    sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
 docker: quay.io/biocontainers/metaphlan2
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py

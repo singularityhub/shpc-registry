@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-config-simple
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-config-simple
+description: shpc-registry automated BioContainers addition for 
+  perl-config-simple
 latest:
-  4.58--pl5321hdfd78af_2: sha256:bead54b8d8e4c6cec1c7aa7c63f34b77be030f23f709cae90c7ea4843577de41
+  4.58--pl5321hdfd78af_2: 
+    sha256:bead54b8d8e4c6cec1c7aa7c63f34b77be030f23f709cae90c7ea4843577de41
 tags:
-  4.58--pl5321hdfd78af_2: sha256:bead54b8d8e4c6cec1c7aa7c63f34b77be030f23f709cae90c7ea4843577de41
+  4.58--pl5321hdfd78af_2: 
+    sha256:bead54b8d8e4c6cec1c7aa7c63f34b77be030f23f709cae90c7ea4843577de41
 docker: quay.io/biocontainers/perl-config-simple
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

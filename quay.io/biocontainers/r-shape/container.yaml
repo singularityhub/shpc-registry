@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-shape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-shape
 latest:
-  1.4.2--r3.2.2_0: sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6
+  1.4.2--r3.2.2_0: 
+    sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6
 tags:
-  1.4.2--r3.2.2_0: sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6
+  1.4.2--r3.2.2_0: 
+    sha256:a8f52e13db94dc543fc2a2f3d92690e6cca88b9675669f57837f6ecd0b15e6a6
 docker: quay.io/biocontainers/r-shape
 aliases:
   pngcp: /usr/local/bin/pngcp

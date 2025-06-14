@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/im-pipelines
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for im-pipelines
 latest:
-  1.1.6--pyh3252c3a_0: sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
+  1.1.6--pyh3252c3a_0: 
+    sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
 tags:
-  1.1.6--pyh3252c3a_0: sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
+  1.1.6--pyh3252c3a_0: 
+    sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
 docker: quay.io/biocontainers/im-pipelines
 aliases:
   cluster_3d: /usr/local/bin/cluster_3d

@@ -1,14 +1,17 @@
 docker: ghcr.io/autamus/glpk
 url: https://github.com/orgs/autamus/packages/container/package/glpk
 maintainer: '@vsoch'
-description: The GLPK package is a set of routines written in ANSI C and organized
-  in the form of a callable library. This package is intended for solving large-scale
-  linear programming (LP), mixed integer linear programming (MIP), and other related
-  problems.
+description: The GLPK package is a set of routines written in ANSI C and 
+  organized in the form of a callable library. This package is intended for 
+  solving large-scale linear programming (LP), mixed integer linear programming 
+  (MIP), and other related problems.
 latest:
-  '4.65': sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
+  '4.65': 
+    sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
 tags:
-  '4.65': sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
-  latest: sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
+  '4.65': 
+    sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
+  latest: 
+    sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa
 aliases:
   glpsol: /opt/view/bin/glpsol

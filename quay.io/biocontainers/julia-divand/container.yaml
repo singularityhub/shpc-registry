@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/julia-divand
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for julia-divand
 latest:
-  2.7.9--h9ee0642_0: sha256:c84319ee092fe784baf42b20e604e5392fb55f8a4c2fed8afad8b0d324a92bfa
+  2.7.9--h9ee0642_0: 
+    sha256:c84319ee092fe784baf42b20e604e5392fb55f8a4c2fed8afad8b0d324a92bfa
 tags:
-  2.7.9--h9ee0642_0: sha256:c84319ee092fe784baf42b20e604e5392fb55f8a4c2fed8afad8b0d324a92bfa
+  2.7.9--h9ee0642_0: 
+    sha256:c84319ee092fe784baf42b20e604e5392fb55f8a4c2fed8afad8b0d324a92bfa
 docker: quay.io/biocontainers/julia-divand
 aliases:
   7z: /usr/local/bin/7z
@@ -48,7 +50,8 @@ aliases:
   mbedtls_pk_sign: /usr/local/bin/mbedtls_pk_sign
   mbedtls_pk_verify: /usr/local/bin/mbedtls_pk_verify
   mbedtls_psa_constant_names: /usr/local/bin/mbedtls_psa_constant_names
-  mbedtls_query_compile_time_config: /usr/local/bin/mbedtls_query_compile_time_config
+  mbedtls_query_compile_time_config: 
+    /usr/local/bin/mbedtls_query_compile_time_config
   mbedtls_req_app: /usr/local/bin/mbedtls_req_app
   mbedtls_rsa_decrypt: /usr/local/bin/mbedtls_rsa_decrypt
   mbedtls_rsa_encrypt: /usr/local/bin/mbedtls_rsa_encrypt

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/plasmidid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plasmidid
 latest:
-  1.6.5--hdfd78af_0: sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f
+  1.6.5--hdfd78af_0: 
+    sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f
 tags:
-  1.6.5--hdfd78af_0: sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f
+  1.6.5--hdfd78af_0: 
+    sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f
 docker: quay.io/biocontainers/plasmidid
 aliases:
   adapt_filter_coverage.sh: /usr/local/bin/adapt_filter_coverage.sh

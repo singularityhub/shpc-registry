@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bialign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bialign
 latest:
-  0.3b5--py310hec16e2b_0: sha256:e4b01cb68fc2ee8b8251a89d1bec35ae2c02cfd8fbb386490402601723dcb061
+  0.3b5--py310hec16e2b_0: 
+    sha256:e4b01cb68fc2ee8b8251a89d1bec35ae2c02cfd8fbb386490402601723dcb061
 tags:
-  0.3b5--py310hec16e2b_0: sha256:e4b01cb68fc2ee8b8251a89d1bec35ae2c02cfd8fbb386490402601723dcb061
+  0.3b5--py310hec16e2b_0: 
+    sha256:e4b01cb68fc2ee8b8251a89d1bec35ae2c02cfd8fbb386490402601723dcb061
 docker: quay.io/biocontainers/bialign
 aliases:
   bialign.py: /usr/local/bin/bialign.py

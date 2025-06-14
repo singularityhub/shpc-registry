@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bygul
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bygul
 latest:
-  1.0.4--pyhdfd78af_0: sha256:e60d75b98a932f5e52453bbbb130228680d7c75445518bae7553c6ca3a05ab66
+  1.0.5--pyhdfd78af_0: 
+    sha256:6484d874b6c147332e736732f514c8a55b5ab0b80befa4de67a68ee711d7ab19
 tags:
-  1.0.4--pyhdfd78af_0: sha256:e60d75b98a932f5e52453bbbb130228680d7c75445518bae7553c6ca3a05ab66
+  1.0.4--pyhdfd78af_0: 
+    sha256:e60d75b98a932f5e52453bbbb130228680d7c75445518bae7553c6ca3a05ab66
+  1.0.5--pyhdfd78af_0: 
+    sha256:6484d874b6c147332e736732f514c8a55b5ab0b80befa4de67a68ee711d7ab19
 docker: quay.io/biocontainers/bygul
 aliases:
   bygul: /usr/local/bin/bygul

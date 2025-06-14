@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/msa4u
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msa4u
 latest:
-  0.4.0--pyh7e72e81_0: sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
+  0.4.0--pyh7e72e81_0: 
+    sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
 tags:
-  0.4.0--pyh7e72e81_0: sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
+  0.4.0--pyh7e72e81_0: 
+    sha256:4ccae955c77ae83173df38dff82513243df527b3a75d7eb929690230cdb023c2
 docker: quay.io/biocontainers/msa4u
 aliases:
   msa4u: /usr/local/bin/msa4u

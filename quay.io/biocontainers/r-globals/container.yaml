@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-globals
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-globals
 latest:
-  0.7.1--r3.3.1_0: sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41
+  0.7.1--r3.3.1_0: 
+    sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41
 tags:
-  0.7.1--r3.3.1_0: sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41
+  0.7.1--r3.3.1_0: 
+    sha256:cb7b2926841006a446ce00b0876e1f07dae4d1d30e4df57fb78d16ae42d51f41
 docker: quay.io/biocontainers/r-globals
 aliases:
   uconv: /usr/local/bin/uconv

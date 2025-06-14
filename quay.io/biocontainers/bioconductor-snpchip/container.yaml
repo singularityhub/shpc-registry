@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-snpchip
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-snpchip
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-snpchip
 latest:
-  2.32.0--r36_0: sha256:1ac20f039864d3beb966a492182918336351058ae3d50a675026d32df4b7f139
+  2.32.0--r36_0: 
+    sha256:1ac20f039864d3beb966a492182918336351058ae3d50a675026d32df4b7f139
 tags:
-  2.32.0--r36_0: sha256:1ac20f039864d3beb966a492182918336351058ae3d50a675026d32df4b7f139
+  2.32.0--r36_0: 
+    sha256:1ac20f039864d3beb966a492182918336351058ae3d50a675026d32df4b7f139
 docker: quay.io/biocontainers/bioconductor-snpchip
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

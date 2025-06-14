@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rnavirhost
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnavirhost
 latest:
-  1.0.5--pyh7cba7a3_0: sha256:f922b050d9858502fe9cf3910789307b0020b99a40106fd70fa2181acefc750c
+  1.0.5--pyh7cba7a3_0: 
+    sha256:f922b050d9858502fe9cf3910789307b0020b99a40106fd70fa2181acefc750c
 tags:
-  1.0.5--pyh7cba7a3_0: sha256:f922b050d9858502fe9cf3910789307b0020b99a40106fd70fa2181acefc750c
+  1.0.5--pyh7cba7a3_0: 
+    sha256:f922b050d9858502fe9cf3910789307b0020b99a40106fd70fa2181acefc750c
 docker: quay.io/biocontainers/rnavirhost
 aliases:
   rnavirhost: /usr/local/bin/rnavirhost

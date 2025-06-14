@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/fununifrac
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fununifrac
 latest:
-  0.0.1--pyh7cba7a3_0: sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
+  0.0.1--pyh7cba7a3_0: 
+    sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
 tags:
-  0.0.1--pyh7cba7a3_0: sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
+  0.0.1--pyh7cba7a3_0: 
+    sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
 docker: quay.io/biocontainers/fununifrac
 aliases:
   compute_edges.py: /usr/local/bin/compute_edges.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mergevcf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mergevcf
 latest:
-  1.0.1--py_2: sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39
+  1.0.1--py_2: 
+    sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39
 tags:
-  1.0.1--py_2: sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39
+  1.0.1--py_2: 
+    sha256:eaa0807f12067eef8439a6caa681d1928ca552b728903c44fe13d995c3b84c39
 docker: quay.io/biocontainers/mergevcf
 aliases:
   mergevcf: /usr/local/bin/mergevcf

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sctriangulate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sctriangulate
 latest:
-  0.13.0--pyhdfd78af_0: sha256:860a63dfc76b760000299f9cd2e80317f296d759b791aec5e69a4b74b145eb60
+  0.13.0--pyhdfd78af_0: 
+    sha256:860a63dfc76b760000299f9cd2e80317f296d759b791aec5e69a4b74b145eb60
 tags:
-  0.13.0--pyhdfd78af_0: sha256:860a63dfc76b760000299f9cd2e80317f296d759b791aec5e69a4b74b145eb60
+  0.13.0--pyhdfd78af_0: 
+    sha256:860a63dfc76b760000299f9cd2e80317f296d759b791aec5e69a4b74b145eb60
 docker: quay.io/biocontainers/sctriangulate
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/viral-ngs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for viral-ngs
 latest:
-  1.13.4--py35_0: sha256:62958ed363da6f0ae7e716911ed5385cc66e4158d719e9b435d2757b6cb64e85
+  1.13.4--py35_0: 
+    sha256:62958ed363da6f0ae7e716911ed5385cc66e4158d719e9b435d2757b6cb64e85
 tags:
-  1.13.4--py35_0: sha256:62958ed363da6f0ae7e716911ed5385cc66e4158d719e9b435d2757b6cb64e85
+  1.13.4--py35_0: 
+    sha256:62958ed363da6f0ae7e716911ed5385cc66e4158d719e9b435d2757b6cb64e85
 docker: quay.io/biocontainers/viral-ngs
 aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK

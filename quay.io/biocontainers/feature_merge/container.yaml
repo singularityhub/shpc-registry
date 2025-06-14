@@ -2,16 +2,20 @@ url: https://biocontainers.pro/tools/feature_merge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for feature_merge
 latest:
-  1.3.0--pyh3252c3a_0: sha256:760b393f025e33e036b00708e16febb5c07c51c64993c7182d1309d3b05aacc5
+  1.3.0--pyh3252c3a_0: 
+    sha256:760b393f025e33e036b00708e16febb5c07c51c64993c7182d1309d3b05aacc5
 tags:
-  1.3.0--pyh3252c3a_0: sha256:760b393f025e33e036b00708e16febb5c07c51c64993c7182d1309d3b05aacc5
+  1.3.0--pyh3252c3a_0: 
+    sha256:760b393f025e33e036b00708e16febb5c07c51c64993c7182d1309d3b05aacc5
 docker: quay.io/biocontainers/feature_merge
 aliases:
   feature_merge: /usr/local/bin/feature_merge
   pbr: /usr/local/bin/pbr
   gffutils-cli: /usr/local/bin/gffutils-cli
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   faidx: /usr/local/bin/faidx

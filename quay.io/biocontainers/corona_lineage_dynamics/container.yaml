@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/corona_lineage_dynamics
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for corona_lineage_dynamics
+description: singularity registry hpc automated addition for 
+  corona_lineage_dynamics
 latest:
-  0.1.7--r44h6a1216f_0: sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
+  0.1.7--r44h6a1216f_0: 
+    sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
 tags:
-  0.1.7--r44h6a1216f_0: sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
+  0.1.7--r44h6a1216f_0: 
+    sha256:80f23d2fbfb770b4ae62f52fa8d19b288995bd0c1a371280546e5bee4f9481e4
 docker: quay.io/biocontainers/corona_lineage_dynamics
 aliases:
   corona_lineage_dynamics: /usr/local/bin/corona_lineage_dynamics

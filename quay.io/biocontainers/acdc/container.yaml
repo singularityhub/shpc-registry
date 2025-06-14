@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/acdc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for acdc
 latest:
-  1.02--h4ac6f70_0: sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
+  1.02--h4ac6f70_0: 
+    sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
 tags:
-  1.02--h4ac6f70_0: sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
+  1.02--h4ac6f70_0: 
+    sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
 docker: quay.io/biocontainers/acdc
 aliases:
   acdc: /usr/local/bin/acdc

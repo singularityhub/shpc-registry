@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/longqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for longqc
 latest:
-  1.2.0c--hdfd78af_0: sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
+  1.2.0c--hdfd78af_0: 
+    sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
 tags:
-  1.2.0c--hdfd78af_0: sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
+  1.2.0c--hdfd78af_0: 
+    sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
 docker: quay.io/biocontainers/longqc
 aliases:
   _version.py: /usr/local/bin/_version.py

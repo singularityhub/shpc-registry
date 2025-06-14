@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-mulder2012
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mulder2012
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mulder2012
 latest:
-  0.26.0--r36_0: sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5
+  0.26.0--r36_0: 
+    sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5
 tags:
-  0.26.0--r36_0: sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5
+  0.26.0--r36_0: 
+    sha256:29b1f80c608e35826d518882697f89bdb3f476a5d311cb2cefa3449b75bebcb5
 docker: quay.io/biocontainers/bioconductor-mulder2012
 aliases:
   giffilter: /usr/local/bin/giffilter
