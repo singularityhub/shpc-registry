@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytolib/container.yaml"
-updated_at: "2025-06-13 03:51:35.144614"
+updated_at: "2025-06-14 03:44:59.433452"
 latest: "2.18.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytolib"
 

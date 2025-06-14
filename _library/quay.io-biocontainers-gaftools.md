@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gaftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gaftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gaftools/container.yaml"
-updated_at: "2025-06-13 03:26:43.286357"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2025-06-14 03:20:38.695925"
+latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gaftools"
 aliases:
  - "gaftools"
@@ -16,8 +16,9 @@ aliases:
  - "python3.11-config"
 versions:
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gaftools"
-config: {"url": "https://biocontainers.pro/tools/gaftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gaftools", "latest": {"1.1.1--pyhdfd78af_0": "sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402"}, "docker": "quay.io/biocontainers/gaftools", "aliases": {"gaftools": "/usr/local/bin/gaftools", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/gaftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gaftools", "latest": {"1.1.3--pyhdfd78af_0": "sha256:5ca4eccd402ae1beac9978c71aad83678714dec556fb4ef80df4fceb419e067f"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402", "1.1.3--pyhdfd78af_0": "sha256:5ca4eccd402ae1beac9978c71aad83678714dec556fb4ef80df4fceb419e067f"}, "docker": "quay.io/biocontainers/gaftools", "aliases": {"gaftools": "/usr/local/bin/gaftools", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gaftools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/gaftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gaftools:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gaftools:1.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gaftools/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/gaftools/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/gaftools/1.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/gaftools/1.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

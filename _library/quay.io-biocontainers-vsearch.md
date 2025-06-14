@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vsearch/container.yaml"
-updated_at: "2025-06-13 04:05:14.797712"
+updated_at: "2025-06-14 03:58:27.782910"
 latest: "2.30.0--hd6d6fdc_0"
 container_url: "https://biocontainers.pro/tools/vsearch"
 aliases:

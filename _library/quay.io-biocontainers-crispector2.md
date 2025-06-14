@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crispector2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispector2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispector2/container.yaml"
-updated_at: "2025-06-13 03:55:24.957667"
+updated_at: "2025-06-14 03:48:46.034216"
 latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crispector2"
 aliases:

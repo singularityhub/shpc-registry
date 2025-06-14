@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amira/container.yaml"
-updated_at: "2025-06-13 03:29:56.288605"
-latest: "0.9.2--pyhdfd78af_0"
+updated_at: "2025-06-14 03:23:48.496228"
+latest: "0.9.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amira"
 aliases:
  - "amira"
@@ -36,8 +36,9 @@ aliases:
  - "bowtie2sam.pl"
 versions:
  - "0.9.2--pyhdfd78af_0"
+ - "0.9.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for amira"
-config: {"url": "https://biocontainers.pro/tools/amira", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amira", "latest": {"0.9.2--pyhdfd78af_0": "sha256:2b3a888cf0837a8f3a8fd245c4b09230a7ff023b7573894bb5cb16095be440bf"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:2b3a888cf0837a8f3a8fd245c4b09230a7ff023b7573894bb5cb16095be440bf"}, "docker": "quay.io/biocontainers/amira", "aliases": {"amira": "/usr/local/bin/amira", "sourmash": "/usr/local/bin/sourmash", "fastaq": "/usr/local/bin/fastaq", "screed": "/usr/local/bin/screed", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "jellyfish": "/usr/local/bin/jellyfish", "annot-tsv": "/usr/local/bin/annot-tsv", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/amira", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amira", "latest": {"0.9.3--pyhdfd78af_0": "sha256:48d7beb84aa7d932cadf90983cca4a9e2f7bdbc44b31bc65533e7eaf09edc7a2"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:2b3a888cf0837a8f3a8fd245c4b09230a7ff023b7573894bb5cb16095be440bf", "0.9.3--pyhdfd78af_0": "sha256:48d7beb84aa7d932cadf90983cca4a9e2f7bdbc44b31bc65533e7eaf09edc7a2"}, "docker": "quay.io/biocontainers/amira", "aliases": {"amira": "/usr/local/bin/amira", "sourmash": "/usr/local/bin/sourmash", "fastaq": "/usr/local/bin/fastaq", "screed": "/usr/local/bin/screed", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "jellyfish": "/usr/local/bin/jellyfish", "annot-tsv": "/usr/local/bin/annot-tsv", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amira.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/amira
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amira:0.9.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/amira:0.9.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amira/0.9.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/amira/0.9.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/amira/0.9.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/amira/0.9.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
