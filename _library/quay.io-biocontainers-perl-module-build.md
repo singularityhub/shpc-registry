@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-build"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-build/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-build/container.yaml"
-updated_at: "2025-06-14 03:25:32.799440"
+updated_at: "2025-06-15 03:38:21.786403"
 latest: "0.4231--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-build"
 

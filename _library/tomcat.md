@@ -4,7 +4,7 @@ name:  "tomcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/tomcat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/tomcat/container.yaml"
-updated_at: "2025-06-14 03:14:50.566412"
+updated_at: "2025-06-15 03:27:33.655499"
 latest: "11-jdk21"
 container_url: "https://hub.docker.com/_/tomcat"
 

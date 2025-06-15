@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/evidencemodeler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evidencemodeler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evidencemodeler/container.yaml"
-updated_at: "2025-06-14 03:57:51.572582"
-latest: "2.1.0--h503566f_4"
+updated_at: "2025-06-15 04:10:58.161703"
+latest: "2.1.0--h9948957_5"
 container_url: "https://biocontainers.pro/tools/evidencemodeler"
 aliases:
  - "evidence_modeler.pl"
@@ -18,8 +18,9 @@ versions:
  - "2.1.0--hdbdd923_1"
  - "2.1.0--hdbdd923_2"
  - "2.1.0--h503566f_4"
+ - "2.1.0--h9948957_5"
 description: "shpc-registry automated BioContainers addition for evidencemodeler"
-config: {"url": "https://biocontainers.pro/tools/evidencemodeler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for evidencemodeler", "latest": {"2.1.0--h503566f_4": "sha256:23a40580cbd0d25de89f10d98d58630e7185c8b00dbe59f463f1532c8728244c"}, "tags": {"v1.1.1--0": "sha256:1fc0accf25612d643919a4781d2e94184b35090d2b3da3f389d24a60cf77cb21", "1.1.1--hdfd78af_3": "sha256:1b241906bc27843924e692aef5f86c73dc01734c1b8af3b43232a127608285a1", "2.1.0--h87f3376_0": "sha256:d6ccd1414e1a8ef3a93343380de1fa93a11a84d8fa3aecda341ed3b2cdac5463", "2.1.0--hdbdd923_1": "sha256:112c8e7cd384a4ce5405ca33467dff0f5cfe5b2e1978126c27e33ac717ffd91c", "2.1.0--hdbdd923_2": "sha256:6e2c85d58498318d7ff9664ce739100d2a495351eb8b3d65e101a47a73cd2481", "2.1.0--h503566f_4": "sha256:23a40580cbd0d25de89f10d98d58630e7185c8b00dbe59f463f1532c8728244c"}, "docker": "quay.io/biocontainers/evidencemodeler", "aliases": {"evidence_modeler.pl": "/usr/local/bin/evidence_modeler.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/evidencemodeler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for evidencemodeler", "latest": {"2.1.0--h9948957_5": "sha256:5c6c5a02547adcd2ea93947c1956e24bf10953641b1c1ff53e018f65446cfaf1"}, "tags": {"v1.1.1--0": "sha256:1fc0accf25612d643919a4781d2e94184b35090d2b3da3f389d24a60cf77cb21", "1.1.1--hdfd78af_3": "sha256:1b241906bc27843924e692aef5f86c73dc01734c1b8af3b43232a127608285a1", "2.1.0--h87f3376_0": "sha256:d6ccd1414e1a8ef3a93343380de1fa93a11a84d8fa3aecda341ed3b2cdac5463", "2.1.0--hdbdd923_1": "sha256:112c8e7cd384a4ce5405ca33467dff0f5cfe5b2e1978126c27e33ac717ffd91c", "2.1.0--hdbdd923_2": "sha256:6e2c85d58498318d7ff9664ce739100d2a495351eb8b3d65e101a47a73cd2481", "2.1.0--h503566f_4": "sha256:23a40580cbd0d25de89f10d98d58630e7185c8b00dbe59f463f1532c8728244c", "2.1.0--h9948957_5": "sha256:5c6c5a02547adcd2ea93947c1956e24bf10953641b1c1ff53e018f65446cfaf1"}, "docker": "quay.io/biocontainers/evidencemodeler", "aliases": {"evidence_modeler.pl": "/usr/local/bin/evidence_modeler.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/evidencemodeler.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/evidencemodeler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/evidencemodeler:2.1.0--h503566f_4
+$ shpc install quay.io/biocontainers/evidencemodeler:2.1.0--h9948957_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/evidencemodeler/2.1.0--h503566f_4
-$ module help quay.io/biocontainers/evidencemodeler/2.1.0--h503566f_4
+$ module load quay.io/biocontainers/evidencemodeler/2.1.0--h9948957_5
+$ module help quay.io/biocontainers/evidencemodeler/2.1.0--h9948957_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

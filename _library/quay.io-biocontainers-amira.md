@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amira/container.yaml"
-updated_at: "2025-06-14 03:23:48.496228"
+updated_at: "2025-06-15 03:36:36.652776"
 latest: "0.9.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amira"
 aliases:

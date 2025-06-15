@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-traminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-traminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-traminer/container.yaml"
-updated_at: "2025-06-14 03:24:14.972589"
+updated_at: "2025-06-15 03:37:03.347809"
 latest: "2.0_9--r40h0357c0b_2"
 container_url: "https://biocontainers.pro/tools/r-traminer"
 aliases:
