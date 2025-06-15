@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/goblin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for goblin
 latest:
-  1.0.0--hdfd78af_0: sha256:4d0e9431beb155608c52c0a5692385dbc77d5d1972de64533b542dc8adeede23
+  1.0.0--hdfd78af_0: 
+    sha256:4d0e9431beb155608c52c0a5692385dbc77d5d1972de64533b542dc8adeede23
 tags:
-  1.0.0--hdfd78af_0: sha256:4d0e9431beb155608c52c0a5692385dbc77d5d1972de64533b542dc8adeede23
+  1.0.0--hdfd78af_0: 
+    sha256:4d0e9431beb155608c52c0a5692385dbc77d5d1972de64533b542dc8adeede23
 docker: quay.io/biocontainers/goblin
 aliases:
   executor: /usr/local/bin/executor

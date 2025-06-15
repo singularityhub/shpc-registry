@@ -2,16 +2,20 @@ url: https://biocontainers.pro/tools/hypercluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hypercluster
 latest:
-  0.1.13--0: sha256:92dd67815ebc956a377eb166da7db1fe877deb8b50dda56a595ba6ea43bad2ca
+  0.1.13--0: 
+    sha256:92dd67815ebc956a377eb166da7db1fe877deb8b50dda56a595ba6ea43bad2ca
 tags:
-  0.1.9--0: sha256:7805ec8b2df2bbf7f4c0cf1dbb5209b9834d11e37353156c7acf22cc78a7886e
-  0.1.13--0: sha256:92dd67815ebc956a377eb166da7db1fe877deb8b50dda56a595ba6ea43bad2ca
+  0.1.9--0: 
+    sha256:7805ec8b2df2bbf7f4c0cf1dbb5209b9834d11e37353156c7acf22cc78a7886e
+  0.1.13--0: 
+    sha256:92dd67815ebc956a377eb166da7db1fe877deb8b50dda56a595ba6ea43bad2ca
 docker: quay.io/biocontainers/hypercluster
 aliases:
   community: /usr/local/bin/community
   croco-0.6-config: /usr/local/bin/croco-0.6-config
   csslint-0.6: /usr/local/bin/csslint-0.6
-  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  x86_64-conda_cos6-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
   mpichversion: /usr/local/bin/mpichversion
   mpivars: /usr/local/bin/mpivars
   parkill: /usr/local/bin/parkill

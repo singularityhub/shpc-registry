@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/drtransformer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for drtransformer
 latest:
-  1.0--pyhdfd78af_0: sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
+  1.0--pyhdfd78af_0: 
+    sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
 tags:
-  1.0--pyhdfd78af_0: sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
+  1.0--pyhdfd78af_0: 
+    sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
 docker: quay.io/biocontainers/drtransformer
 aliases:
   DrPlotter: /usr/local/bin/DrPlotter

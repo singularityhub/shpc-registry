@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/helitronscanner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for helitronscanner
 latest:
-  1.0--hdfd78af_0: sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
+  1.0--hdfd78af_0: 
+    sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
 tags:
-  1.0--hdfd78af_0: sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
+  1.0--hdfd78af_0: 
+    sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
 docker: quay.io/biocontainers/helitronscanner
 aliases:
   HelitronScanner: /usr/local/bin/HelitronScanner

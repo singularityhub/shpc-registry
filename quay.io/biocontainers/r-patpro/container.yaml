@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-patpro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-patpro
 latest:
-  1.1.0--r3.3.1_0: sha256:23b5a6de0f641c35e0f154428e74a6b42d5ea7692ed797cc8c7f569e74bcfa8f
+  1.1.0--r3.3.1_0: 
+    sha256:23b5a6de0f641c35e0f154428e74a6b42d5ea7692ed797cc8c7f569e74bcfa8f
 tags:
-  1.1.0--r3.3.1_0: sha256:23b5a6de0f641c35e0f154428e74a6b42d5ea7692ed797cc8c7f569e74bcfa8f
-  1.1.0--r3.4.1_0: sha256:1903e3e12c354f0d622707c192dae05d276dedccdfbc965863033ed54d7972a1
+  1.1.0--r3.3.1_0: 
+    sha256:23b5a6de0f641c35e0f154428e74a6b42d5ea7692ed797cc8c7f569e74bcfa8f
+  1.1.0--r3.4.1_0: 
+    sha256:1903e3e12c354f0d622707c192dae05d276dedccdfbc965863033ed54d7972a1
 docker: quay.io/biocontainers/r-patpro
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

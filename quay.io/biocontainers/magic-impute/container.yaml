@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/magic-impute
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for magic-impute
 latest:
-  3.0.0--pyh7cba7a3_0: sha256:2e97f6ad0130e9d9e598cc450522503014872e4fee31e0bfd49421c0b363afea
+  3.0.0--pyh7cba7a3_0: 
+    sha256:2e97f6ad0130e9d9e598cc450522503014872e4fee31e0bfd49421c0b363afea
 tags:
-  3.0.0--pyh7cba7a3_0: sha256:2e97f6ad0130e9d9e598cc450522503014872e4fee31e0bfd49421c0b363afea
+  3.0.0--pyh7cba7a3_0: 
+    sha256:2e97f6ad0130e9d9e598cc450522503014872e4fee31e0bfd49421c0b363afea
 docker: quay.io/biocontainers/magic-impute
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

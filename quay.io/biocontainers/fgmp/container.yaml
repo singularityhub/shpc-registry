@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/fgmp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fgmp
 latest:
-  1.0.3--pl5321hdfd78af_3: sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
+  1.0.3--pl5321hdfd78af_3: 
+    sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
 tags:
-  1.0.3--pl5321hdfd78af_3: sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
+  1.0.3--pl5321hdfd78af_3: 
+    sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
 docker: quay.io/biocontainers/fgmp
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
@@ -83,7 +85,8 @@ aliases:
   filterShrimp.pl: /usr/local/bin/filterShrimp.pl
   filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
   gbrowse.conf: /usr/local/bin/gbrowse.conf

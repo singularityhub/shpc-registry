@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dmtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dmtools
 latest:
-  0.2.6--hda3def1_0: sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
+  0.2.6--hda3def1_0: 
+    sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
 tags:
-  0.2.6--hda3def1_0: sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
+  0.2.6--hda3def1_0: 
+    sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
 docker: quay.io/biocontainers/dmtools
 aliases:
   bam2dm: /usr/local/bin/bam2dm

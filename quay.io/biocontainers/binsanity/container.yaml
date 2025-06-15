@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/binsanity
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for binsanity
 latest:
-  0.5.4--pyh5e36f6f_0: sha256:f26930aa4e25a370288a7361a42844eaa7017c4b97c11642cfacff3113b99731
+  0.5.4--pyh5e36f6f_0: 
+    sha256:f26930aa4e25a370288a7361a42844eaa7017c4b97c11642cfacff3113b99731
 tags:
-  0.5.4--pyh5e36f6f_0: sha256:f26930aa4e25a370288a7361a42844eaa7017c4b97c11642cfacff3113b99731
+  0.5.4--pyh5e36f6f_0: 
+    sha256:f26930aa4e25a370288a7361a42844eaa7017c4b97c11642cfacff3113b99731
 docker: quay.io/biocontainers/binsanity
 aliases:
   Binsanity: /usr/local/bin/Binsanity

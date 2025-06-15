@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ismapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ismapper
 latest:
-  2.0.2--pyhdfd78af_1: sha256:0e7fb587312e2bb4f8e5b1f400c52a143f7bf36e63ee3fc1824a1604c191dae7
+  2.0.2--pyhdfd78af_1: 
+    sha256:0e7fb587312e2bb4f8e5b1f400c52a143f7bf36e63ee3fc1824a1604c191dae7
 tags:
-  2.0.2--pyhdfd78af_1: sha256:0e7fb587312e2bb4f8e5b1f400c52a143f7bf36e63ee3fc1824a1604c191dae7
+  2.0.2--pyhdfd78af_1: 
+    sha256:0e7fb587312e2bb4f8e5b1f400c52a143f7bf36e63ee3fc1824a1604c191dae7
 docker: quay.io/biocontainers/ismapper
 aliases:
   compiled_table.py: /usr/local/bin/compiled_table.py

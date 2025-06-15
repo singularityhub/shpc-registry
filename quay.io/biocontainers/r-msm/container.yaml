@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-msm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-msm
 latest:
-  1.6.7--r351h96ca727_0: sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed
+  1.6.7--r351h96ca727_0: 
+    sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed
 tags:
-  1.6.7--r351h96ca727_0: sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed
+  1.6.7--r351h96ca727_0: 
+    sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed
 docker: quay.io/biocontainers/r-msm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

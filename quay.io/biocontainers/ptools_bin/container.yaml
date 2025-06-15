@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ptools_bin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ptools_bin
 latest:
-  0.0.7--pyh5e36f6f_0: sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
+  0.0.7--pyh5e36f6f_0: 
+    sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
 tags:
-  0.0.7--pyh5e36f6f_0: sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
+  0.0.7--pyh5e36f6f_0: 
+    sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
 docker: quay.io/biocontainers/ptools_bin
 aliases:
   10x_bam2fastq: /usr/local/bin/10x_bam2fastq

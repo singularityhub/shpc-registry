@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phava
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phava
 latest:
-  0.2.3--pyhdfd78af_0: sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
+  0.2.3--pyhdfd78af_0: 
+    sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
 tags:
-  0.2.3--pyhdfd78af_0: sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
+  0.2.3--pyhdfd78af_0: 
+    sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
 docker: quay.io/biocontainers/phava
 aliases:
   gawk-5.3.0: /usr/local/bin/gawk-5.3.0

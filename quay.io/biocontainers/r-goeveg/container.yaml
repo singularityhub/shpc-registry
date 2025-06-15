@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/r-goeveg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-goeveg
 latest:
-  0.4.2--r351h6115d3f_0: sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c
+  0.4.2--r351h6115d3f_0: 
+    sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c
 tags:
-  0.4.2--r351h6115d3f_0: sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c
+  0.4.2--r351h6115d3f_0: 
+    sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c
 docker: quay.io/biocontainers/r-goeveg

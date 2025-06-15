@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-statistics-lite
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-statistics-lite
+description: shpc-registry automated BioContainers addition for 
+  perl-statistics-lite
 latest:
-  3.62--pl5321hdfd78af_2: sha256:afbb4b8afee2632b1686cd33c5cb4cf8709aab76667896fafb3c47258c9556db
+  3.62--pl5321hdfd78af_2: 
+    sha256:afbb4b8afee2632b1686cd33c5cb4cf8709aab76667896fafb3c47258c9556db
 tags:
-  3.62--pl5321hdfd78af_2: sha256:afbb4b8afee2632b1686cd33c5cb4cf8709aab76667896fafb3c47258c9556db
+  3.62--pl5321hdfd78af_2: 
+    sha256:afbb4b8afee2632b1686cd33c5cb4cf8709aab76667896fafb3c47258c9556db
 docker: quay.io/biocontainers/perl-statistics-lite
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

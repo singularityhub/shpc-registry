@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/esme_mpich_4_2_3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for esme_mpich_4_2_3
 latest:
-  1.0.0--mpich_ha3949f8_0: sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
+  1.0.0--mpich_ha3949f8_0: 
+    sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
 tags:
-  1.0.0--mpich_ha3949f8_0: sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
+  1.0.0--mpich_ha3949f8_0: 
+    sha256:6e48db285688c73db966de23234dcec69b70e61227d9e0d0a3557f487c08360d
 docker: quay.io/biocontainers/esme_mpich_4_2_3
 aliases:
   ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo

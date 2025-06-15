@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pling
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pling
 latest:
-  2.0.0--pyhdfd78af_0: sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd
+  2.0.1--pyhdfd78af_0: 
+    sha256:33c06c3030cdea728714f147816dcfcf97f0e40c2261ff547af0a817a239848a
 tags:
-  2.0.0--pyhdfd78af_0: sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd
+  2.0.0--pyhdfd78af_0: 
+    sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd
+  2.0.1--pyhdfd78af_0: 
+    sha256:33c06c3030cdea728714f147816dcfcf97f0e40c2261ff547af0a817a239848a
 docker: quay.io/biocontainers/pling
 aliases:
   dingII: /usr/local/bin/dingII

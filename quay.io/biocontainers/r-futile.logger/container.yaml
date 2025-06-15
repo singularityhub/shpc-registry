@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-futile.logger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-futile.logger
 latest:
-  1.4.1--r3.2.2_0: sha256:afa20cf00605709de829c126d26bb844ba277820c0269dec5df55a2fa9d19d99
+  1.4.1--r3.2.2_0: 
+    sha256:afa20cf00605709de829c126d26bb844ba277820c0269dec5df55a2fa9d19d99
 tags:
-  1.4.1--r3.2.2_0: sha256:afa20cf00605709de829c126d26bb844ba277820c0269dec5df55a2fa9d19d99
-  1.4.1--r3.3.2_0: sha256:4b8c17c17b010aa09c944a5e68e3c54acbad41157ef5a3395d95bd6aa6769caf
+  1.4.1--r3.2.2_0: 
+    sha256:afa20cf00605709de829c126d26bb844ba277820c0269dec5df55a2fa9d19d99
+  1.4.1--r3.3.2_0: 
+    sha256:4b8c17c17b010aa09c944a5e68e3c54acbad41157ef5a3395d95bd6aa6769caf
 docker: quay.io/biocontainers/r-futile.logger
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ig-checkfcs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ig-checkfcs
 latest:
-  1.0.0--0: sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0
+  1.0.0--0: 
+    sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0
 tags:
-  1.0.0--0: sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0
+  1.0.0--0: 
+    sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0
 docker: quay.io/biocontainers/ig-checkfcs
 aliases:
   checkFCS.R: /usr/local/bin/checkFCS.R

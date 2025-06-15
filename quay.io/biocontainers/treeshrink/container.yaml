@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/treeshrink
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for treeshrink
 latest:
-  1.3.9--py39r42hdfd78af_0: sha256:19f5a8c600594bbbc36735fc5aaabfe50e41d417faaa8d14787524aa2f741aba
+  1.3.9--pyhdfd78af_1: 
+    sha256:40e120bd34086afc6799dbf58ffef35d0734c89be4acf1ac8e558dbf790e26dd
 tags:
-  1.3.9--py39r42hdfd78af_0: sha256:19f5a8c600594bbbc36735fc5aaabfe50e41d417faaa8d14787524aa2f741aba
+  1.3.9--py39r42hdfd78af_0: 
+    sha256:19f5a8c600594bbbc36735fc5aaabfe50e41d417faaa8d14787524aa2f741aba
+  1.3.9--pyhdfd78af_1: 
+    sha256:40e120bd34086afc6799dbf58ffef35d0734c89be4acf1ac8e558dbf790e26dd
 docker: quay.io/biocontainers/treeshrink
 aliases:
   decompose.py: /usr/local/bin/decompose.py

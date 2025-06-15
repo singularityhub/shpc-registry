@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/r-seurat-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-seurat-scripts
 latest:
-  0.0.4--r341_2: sha256:4b27228c2e275c7f231678f3d5b234c97f84aa7db14a120d3e3b04b3d5b5bf4d
+  0.0.4--r341_2: 
+    sha256:4b27228c2e275c7f231678f3d5b234c97f84aa7db14a120d3e3b04b3d5b5bf4d
 tags:
-  0.0.4--r341_2: sha256:4b27228c2e275c7f231678f3d5b234c97f84aa7db14a120d3e3b04b3d5b5bf4d
+  0.0.4--r341_2: 
+    sha256:4b27228c2e275c7f231678f3d5b234c97f84aa7db14a120d3e3b04b3d5b5bf4d
 docker: quay.io/biocontainers/r-seurat-scripts
 aliases:
-  r-seurat-scripts-post-install-tests.bats: /usr/local/bin/r-seurat-scripts-post-install-tests.bats
-  r-seurat-scripts-post-install-tests.sh: /usr/local/bin/r-seurat-scripts-post-install-tests.sh
+  r-seurat-scripts-post-install-tests.bats: 
+    /usr/local/bin/r-seurat-scripts-post-install-tests.bats
+  r-seurat-scripts-post-install-tests.sh: 
+    /usr/local/bin/r-seurat-scripts-post-install-tests.sh
   seurat-create-seurat-object.R: /usr/local/bin/seurat-create-seurat-object.R
   seurat-dim-plot.R: /usr/local/bin/seurat-dim-plot.R
   seurat-filter-cells.R: /usr/local/bin/seurat-filter-cells.R

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/coidb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for coidb
 latest:
-  0.4.8--pyhdfd78af_0: sha256:ad5542278764cea1da787a991334152e4ceb3769abfe34b5000cfc7e3f164a0f
+  0.4.8--pyhdfd78af_0: 
+    sha256:ad5542278764cea1da787a991334152e4ceb3769abfe34b5000cfc7e3f164a0f
 tags:
-  0.4.8--pyhdfd78af_0: sha256:ad5542278764cea1da787a991334152e4ceb3769abfe34b5000cfc7e3f164a0f
+  0.4.8--pyhdfd78af_0: 
+    sha256:ad5542278764cea1da787a991334152e4ceb3769abfe34b5000cfc7e3f164a0f
 docker: quay.io/biocontainers/coidb
 aliases:
   cluster_bold.py: /usr/local/bin/cluster_bold.py

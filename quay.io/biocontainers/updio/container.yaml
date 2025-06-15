@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/updio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for updio
 latest:
-  1.1.0--hdfd78af_0: sha256:a2d5411ff8c89eb7f11885004f89ebc2cdd664fdc727759f887067866d138c15
+  1.1.0--hdfd78af_0: 
+    sha256:a2d5411ff8c89eb7f11885004f89ebc2cdd664fdc727759f887067866d138c15
 tags:
-  1.1.0--hdfd78af_0: sha256:a2d5411ff8c89eb7f11885004f89ebc2cdd664fdc727759f887067866d138c15
+  1.1.0--hdfd78af_0: 
+    sha256:a2d5411ff8c89eb7f11885004f89ebc2cdd664fdc727759f887067866d138c15
 docker: quay.io/biocontainers/updio
 aliases:
   tab-to-vcf: /usr/local/bin/tab-to-vcf

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-yaml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-yaml
 latest:
-  2.1.13--r3.3.1_1: sha256:56da0381eccb94a3e8df2c2696bcac8956a29eadb1365a52e4454bc150607c50
+  2.1.13--r3.3.1_1: 
+    sha256:56da0381eccb94a3e8df2c2696bcac8956a29eadb1365a52e4454bc150607c50
 tags:
-  2.1.13--r3.3.1_1: sha256:56da0381eccb94a3e8df2c2696bcac8956a29eadb1365a52e4454bc150607c50
-  2.1.13--r3.3.2_1: sha256:91ee09626f6decea57ed147ab9662b4e8b4791042a0e9a7ebbc5b88f98743498
+  2.1.13--r3.3.1_1: 
+    sha256:56da0381eccb94a3e8df2c2696bcac8956a29eadb1365a52e4454bc150607c50
+  2.1.13--r3.3.2_1: 
+    sha256:91ee09626f6decea57ed147ab9662b4e8b4791042a0e9a7ebbc5b88f98743498
 docker: quay.io/biocontainers/r-yaml
 aliases:
   uconv: /usr/local/bin/uconv

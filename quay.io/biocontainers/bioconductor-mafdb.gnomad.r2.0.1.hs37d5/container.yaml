@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.hs37d5
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 latest:
-  3.8.0--r351_0: sha256:a5f7b20c78a1e87de934dad3fb4e65f651713ea5591300e070ce41eb96d47d77
+  3.8.0--r351_0: 
+    sha256:a5f7b20c78a1e87de934dad3fb4e65f651713ea5591300e070ce41eb96d47d77
 tags:
-  3.8.0--r351_0: sha256:a5f7b20c78a1e87de934dad3fb4e65f651713ea5591300e070ce41eb96d47d77
+  3.8.0--r351_0: 
+    sha256:a5f7b20c78a1e87de934dad3fb4e65f651713ea5591300e070ce41eb96d47d77
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 aliases:
   wget: /usr/local/bin/wget

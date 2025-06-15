@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/perl-html-tagset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-html-tagset
 latest:
-  3.20--pl5321hdfd78af_4: sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0
+  3.24--pl5321hdfd78af_0: 
+    sha256:a874f286d4d7134a9f7c0570f9c1d5c6c72a7f2e13cddcbd2aa65e92d4f3a3cf
 tags:
-  3.20--pl5321hdfd78af_4: sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0
+  3.20--pl5321hdfd78af_4: 
+    sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0
+  3.24--pl5321hdfd78af_0: 
+    sha256:a874f286d4d7134a9f7c0570f9c1d5c6c72a7f2e13cddcbd2aa65e92d4f3a3cf
 docker: quay.io/biocontainers/perl-html-tagset
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/robust-bias-aware
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for robust-bias-aware
 latest:
-  0.0.1--pyh7cba7a3_1: sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
+  0.0.1--pyh7cba7a3_1: 
+    sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
 tags:
-  0.0.1--pyh7cba7a3_1: sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
+  0.0.1--pyh7cba7a3_1: 
+    sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
 docker: quay.io/biocontainers/robust-bias-aware
 aliases:
   robust-bias-aware: /usr/local/bin/robust-bias-aware

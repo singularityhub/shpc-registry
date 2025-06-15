@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mango
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mango
 latest:
-  0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
+  0.0.5--pyh864c0ab_4: 
+    sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
 tags:
-  0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
+  0.0.5--pyh864c0ab_4: 
+    sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
 docker: quay.io/biocontainers/mango
 aliases:
   adam-shell: /usr/local/bin/adam-shell
