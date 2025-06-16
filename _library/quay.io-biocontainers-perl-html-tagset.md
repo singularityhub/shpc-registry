@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-html-tagset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tagset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tagset/container.yaml"
-updated_at: "2025-06-15 04:10:11.939981"
-latest: "3.20--pl5321hdfd78af_4"
+updated_at: "2025-06-16 04:08:37.158428"
+latest: "3.24--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-html-tagset"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "3.20--pl5321hdfd78af_4"
+ - "3.24--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-html-tagset"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tagset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tagset", "latest": {"3.20--pl5321hdfd78af_4": "sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0"}, "tags": {"3.20--pl5321hdfd78af_4": "sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0"}, "docker": "quay.io/biocontainers/perl-html-tagset", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tagset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tagset", "latest": {"3.24--pl5321hdfd78af_0": "sha256:a874f286d4d7134a9f7c0570f9c1d5c6c72a7f2e13cddcbd2aa65e92d4f3a3cf"}, "tags": {"3.20--pl5321hdfd78af_4": "sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0", "3.24--pl5321hdfd78af_0": "sha256:a874f286d4d7134a9f7c0570f9c1d5c6c72a7f2e13cddcbd2aa65e92d4f3a3cf"}, "docker": "quay.io/biocontainers/perl-html-tagset", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tagset.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-html-tagset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-html-tagset:3.20--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-html-tagset:3.24--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-html-tagset/3.20--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-html-tagset/3.20--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-html-tagset/3.24--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-html-tagset/3.24--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

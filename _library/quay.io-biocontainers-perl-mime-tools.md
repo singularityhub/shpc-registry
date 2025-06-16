@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-mime-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-tools/container.yaml"
-updated_at: "2025-06-15 03:53:43.093532"
-latest: "5.508--pl5321hdfd78af_2"
+updated_at: "2025-06-16 03:51:45.682337"
+latest: "5.515--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mime-tools"
 aliases:
  - "binhex.pl"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "5.508--pl5321hdfd78af_2"
+ - "5.515--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-mime-tools"
-config: {"url": "https://biocontainers.pro/tools/perl-mime-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-tools", "latest": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "tags": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "docker": "quay.io/biocontainers/perl-mime-tools", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mime-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-tools", "latest": {"5.515--pl5321hdfd78af_0": "sha256:21659b3ad2ac2443061eadcde37b1cb1233b475bc9c6cec39bb9896aa4f5b24c"}, "tags": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021", "5.515--pl5321hdfd78af_0": "sha256:21659b3ad2ac2443061eadcde37b1cb1233b475bc9c6cec39bb9896aa4f5b24c"}, "docker": "quay.io/biocontainers/perl-mime-tools", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mime-tools.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-mime-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-mime-tools:5.508--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-mime-tools:5.515--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-mime-tools/5.508--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-mime-tools/5.508--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-mime-tools/5.515--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-mime-tools/5.515--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

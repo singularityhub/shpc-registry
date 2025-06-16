@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdust/container.yaml"
-updated_at: "2025-06-15 03:42:46.693697"
+updated_at: "2025-06-16 03:40:42.281931"
 latest: "0.1--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/sdust"
 aliases:

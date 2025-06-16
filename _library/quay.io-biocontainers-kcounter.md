@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kcounter/container.yaml"
-updated_at: "2025-06-15 03:42:27.021227"
+updated_at: "2025-06-16 03:40:22.219694"
 latest: "0.1.1--py311haab0aaa_6"
 container_url: "https://biocontainers.pro/tools/kcounter"
 aliases:

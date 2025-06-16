@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pling/container.yaml"
-updated_at: "2025-06-15 03:53:24.315913"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-06-16 03:51:26.674487"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pling"
 aliases:
  - "dingII"
@@ -48,8 +48,9 @@ aliases:
  - "repeat-match"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pling"
-config: {"url": "https://biocontainers.pro/tools/pling", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pling", "latest": {"2.0.0--pyhdfd78af_0": "sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd"}, "docker": "quay.io/biocontainers/pling", "aliases": {"dingII": "/usr/local/bin/dingII", "plasnet": "/usr/local/bin/plasnet", "pling": "/usr/local/bin/pling", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sourmash": "/usr/local/bin/sourmash", "eido": "/usr/local/bin/eido", "screed": "/usr/local/bin/screed", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "stone": "/usr/local/bin/stone", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match"}}
+config: {"url": "https://biocontainers.pro/tools/pling", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pling", "latest": {"2.0.1--pyhdfd78af_0": "sha256:33c06c3030cdea728714f147816dcfcf97f0e40c2261ff547af0a817a239848a"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:1816d07b1639c6b3cc06600cef7ecc6737632c2827d6a7afb7e739112905c6dd", "2.0.1--pyhdfd78af_0": "sha256:33c06c3030cdea728714f147816dcfcf97f0e40c2261ff547af0a817a239848a"}, "docker": "quay.io/biocontainers/pling", "aliases": {"dingII": "/usr/local/bin/dingII", "plasnet": "/usr/local/bin/plasnet", "pling": "/usr/local/bin/pling", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sourmash": "/usr/local/bin/sourmash", "eido": "/usr/local/bin/eido", "screed": "/usr/local/bin/screed", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "stone": "/usr/local/bin/stone", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pling.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/pling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pling:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pling:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pling/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pling/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pling/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pling/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

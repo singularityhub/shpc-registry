@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthologer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthologer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthologer/container.yaml"
-updated_at: "2025-06-15 04:04:26.096187"
+updated_at: "2025-06-16 04:02:41.731075"
 latest: "3.7.1--py311hf097cbd_0"
 container_url: "https://biocontainers.pro/tools/orthologer"
 aliases:
