@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/lmas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lmas
 latest:
-  2.0.8--hdfd78af_0: sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
+  2.0.8--hdfd78af_0: 
+    sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
 tags:
-  2.0.8--hdfd78af_0: sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
+  2.0.8--hdfd78af_0: 
+    sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
 docker: quay.io/biocontainers/lmas
 aliases:
   LMAS: /usr/local/bin/LMAS

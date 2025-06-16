@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-outliers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-outliers
 latest:
-  0.14--r3.3.1_0: sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519
+  0.14--r3.3.1_0: 
+    sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519
 tags:
-  0.14--r3.3.1_0: sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519
-  0.14--r3.3.2_0: sha256:7bb3a9fa38f42266272862099516ec516b83109e618a1675cc65c66a19418cfa
+  0.14--r3.3.1_0: 
+    sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519
+  0.14--r3.3.2_0: 
+    sha256:7bb3a9fa38f42266272862099516ec516b83109e618a1675cc65c66a19418cfa
 docker: quay.io/biocontainers/r-outliers
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

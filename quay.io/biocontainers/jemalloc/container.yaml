@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/jemalloc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jemalloc
 latest:
-  4.5.0--0: sha256:0afee061d5ea9867dab6b33c24f87cf07b4f45d24ac253486ab15ac5585bc8af
+  4.5.0--0: 
+    sha256:0afee061d5ea9867dab6b33c24f87cf07b4f45d24ac253486ab15ac5585bc8af
 tags:
-  4.5.0--0: sha256:0afee061d5ea9867dab6b33c24f87cf07b4f45d24ac253486ab15ac5585bc8af
+  4.5.0--0: 
+    sha256:0afee061d5ea9867dab6b33c24f87cf07b4f45d24ac253486ab15ac5585bc8af
 docker: quay.io/biocontainers/jemalloc
 aliases:
   jemalloc-config: /usr/local/bin/jemalloc-config

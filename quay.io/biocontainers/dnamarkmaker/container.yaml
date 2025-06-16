@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dnamarkmaker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dnamarkmaker
 latest:
-  1.0--pyhdfd78af_0: sha256:d505ceae0a192f1065c561b169fcbfb757df6a66ec8a7f83fea420197270a60b
+  1.0--pyhdfd78af_0: 
+    sha256:d505ceae0a192f1065c561b169fcbfb757df6a66ec8a7f83fea420197270a60b
 tags:
-  1.0--pyhdfd78af_0: sha256:d505ceae0a192f1065c561b169fcbfb757df6a66ec8a7f83fea420197270a60b
+  1.0--pyhdfd78af_0: 
+    sha256:d505ceae0a192f1065c561b169fcbfb757df6a66ec8a7f83fea420197270a60b
 docker: quay.io/biocontainers/dnamarkmaker
 aliases:
   DNAMarkMaker: /usr/local/bin/DNAMarkMaker

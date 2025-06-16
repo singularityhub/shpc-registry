@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/fastkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastkit
 latest:
-  1.0.2--pyhdfd78af_0: sha256:eb7377932917cac0f7016234a1a05b14881fdee1b6b96ecea4cab71fb5555201
+  1.0.2--pyhdfd78af_0: 
+    sha256:eb7377932917cac0f7016234a1a05b14881fdee1b6b96ecea4cab71fb5555201
 tags:
-  1.0.2--pyhdfd78af_0: sha256:eb7377932917cac0f7016234a1a05b14881fdee1b6b96ecea4cab71fb5555201
+  1.0.2--pyhdfd78af_0: 
+    sha256:eb7377932917cac0f7016234a1a05b14881fdee1b6b96ecea4cab71fb5555201
 docker: quay.io/biocontainers/fastkit
 aliases:
   fastkit: /usr/local/bin/fastkit

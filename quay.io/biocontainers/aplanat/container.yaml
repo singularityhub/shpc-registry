@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/aplanat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aplanat
 latest:
-  0.5.6--pyhfa5458b_0: sha256:552b0c20fa2f4c421661559e79af69a3a23e79550a4f6f650b4dba01b9cacfa7
+  0.5.6--pyhfa5458b_0: 
+    sha256:552b0c20fa2f4c421661559e79af69a3a23e79550a4f6f650b4dba01b9cacfa7
 tags:
-  0.5.6--pyhfa5458b_0: sha256:552b0c20fa2f4c421661559e79af69a3a23e79550a4f6f650b4dba01b9cacfa7
+  0.5.6--pyhfa5458b_0: 
+    sha256:552b0c20fa2f4c421661559e79af69a3a23e79550a4f6f650b4dba01b9cacfa7
 docker: quay.io/biocontainers/aplanat
 aliases:
   aplanat: /usr/local/bin/aplanat

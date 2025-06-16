@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hg-color
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hg-color
 latest:
-  1.1.1--he1b5a44_1: sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
+  1.1.1--he1b5a44_1: 
+    sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
 tags:
-  1.1.1--he1b5a44_1: sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
+  1.1.1--he1b5a44_1: 
+    sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
 docker: quay.io/biocontainers/hg-color
 aliases:
   HG-CoLoR: /usr/local/bin/HG-CoLoR

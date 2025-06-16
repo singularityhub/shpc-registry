@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-nozzle.r1
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-nozzle.r1
 latest:
-  1.1_1--r3.2.2_0: sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b
+  1.1_1--r3.2.2_0: 
+    sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b
 tags:
-  1.1_1--r3.2.2_0: sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b
-  1.1_1--r3.3.2_0: sha256:31b43ca95536d044efc5777c9f9c7b61d8e7f573a4864c8d390b0bf9007a5e9e
+  1.1_1--r3.2.2_0: 
+    sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b
+  1.1_1--r3.3.2_0: 
+    sha256:31b43ca95536d044efc5777c9f9c7b61d8e7f573a4864c8d390b0bf9007a5e9e
 docker: quay.io/biocontainers/r-nozzle.r1
 aliases:
   pngcp: /usr/local/bin/pngcp

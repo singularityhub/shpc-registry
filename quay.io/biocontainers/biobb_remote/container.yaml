@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/biobb_remote
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_remote
 latest:
-  1.2.2--pyhdfd78af_0: sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
+  1.2.2--pyhdfd78af_0: 
+    sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
 tags:
-  1.2.2--pyhdfd78af_0: sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
+  1.2.2--pyhdfd78af_0: 
+    sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
 docker: quay.io/biocontainers/biobb_remote
 aliases:
   credentials: /usr/local/bin/credentials

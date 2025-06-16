@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pout2mzid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pout2mzid
 latest:
-  0.3.03--boost1.62_2: sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb
+  0.3.03--boost1.62_2: 
+    sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb
 tags:
-  0.3.03--boost1.62_2: sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb
+  0.3.03--boost1.62_2: 
+    sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb
 docker: quay.io/biocontainers/pout2mzid
 aliases:
   pout2mzid: /usr/local/bin/pout2mzid

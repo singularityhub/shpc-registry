@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mikrokondo-tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mikrokondo-tools
 latest:
-  0.0.1rc0--pyhdfd78af_0: sha256:c9eeeebddc4daccb238979afdf4a0d4ddd943c0a4a615625561167d2154d0907
+  0.0.1rc0--pyhdfd78af_0: 
+    sha256:c9eeeebddc4daccb238979afdf4a0d4ddd943c0a4a615625561167d2154d0907
 tags:
-  0.0.1rc0--pyhdfd78af_0: sha256:c9eeeebddc4daccb238979afdf4a0d4ddd943c0a4a615625561167d2154d0907
+  0.0.1rc0--pyhdfd78af_0: 
+    sha256:c9eeeebddc4daccb238979afdf4a0d4ddd943c0a4a615625561167d2154d0907
 docker: quay.io/biocontainers/mikrokondo-tools
 aliases:
   idle3.13: /usr/local/bin/idle3.13

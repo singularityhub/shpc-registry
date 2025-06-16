@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/stag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for stag
 latest:
-  0.8.3--pyhdfd78af_1: sha256:f395b265201f45d23d3add60b7a7e3b25a10ec1e51f75ed0f653c78f355a0848
+  0.8.3--pyhdfd78af_1: 
+    sha256:f395b265201f45d23d3add60b7a7e3b25a10ec1e51f75ed0f653c78f355a0848
 tags:
-  0.8.3--pyhdfd78af_1: sha256:f395b265201f45d23d3add60b7a7e3b25a10ec1e51f75ed0f653c78f355a0848
+  0.8.3--pyhdfd78af_1: 
+    sha256:f395b265201f45d23d3add60b7a7e3b25a10ec1e51f75ed0f653c78f355a0848
 docker: quay.io/biocontainers/stag
 aliases:
   stag: /usr/local/bin/stag

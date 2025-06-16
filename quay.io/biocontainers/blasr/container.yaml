@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/blasr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blasr
 latest:
-  5.3.9c6f0a5--0: sha256:468c306f0186016051b5451687e3e04e19033e135e98d8a2d1b82366c556e0aa
+  5.3.9c6f0a5--0: 
+    sha256:468c306f0186016051b5451687e3e04e19033e135e98d8a2d1b82366c556e0aa
 tags:
-  5.3.f8bfa9c--0: sha256:8526342becc0d68a4b65c36cbdefac086bb11179066122354c94ded59175c08c
-  5.3.9c6f0a5--0: sha256:468c306f0186016051b5451687e3e04e19033e135e98d8a2d1b82366c556e0aa
+  5.3.f8bfa9c--0: 
+    sha256:8526342becc0d68a4b65c36cbdefac086bb11179066122354c94ded59175c08c
+  5.3.9c6f0a5--0: 
+    sha256:468c306f0186016051b5451687e3e04e19033e135e98d8a2d1b82366c556e0aa
 docker: quay.io/biocontainers/blasr
 aliases:
   bam2sam: /usr/local/bin/bam2sam

@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/rapclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rapclust
 latest:
-  0.1.2--pyh24bf2e0_1: sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83
+  0.1.2--pyh24bf2e0_1: 
+    sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83
 tags:
-  0.1.2--pyh24bf2e0_1: sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83
+  0.1.2--pyh24bf2e0_1: 
+    sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83
 docker: quay.io/biocontainers/rapclust

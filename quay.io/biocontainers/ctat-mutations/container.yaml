@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ctat-mutations
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ctat-mutations
 latest:
-  2.0.1--py27_5: sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c
+  2.0.1--py27_5: 
+    sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c
 tags:
-  2.0.1--py27_5: sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c
+  2.0.1--py27_5: 
+    sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c
 docker: quay.io/biocontainers/ctat-mutations
 aliases:
   ctat_mutations: /usr/local/bin/ctat_mutations

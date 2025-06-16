@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ciri-full
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ciri-full
 latest:
-  2.1.2--hdfd78af_0: sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
+  2.1.2--hdfd78af_0: 
+    sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
 tags:
-  2.1.2--hdfd78af_0: sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
+  2.1.2--hdfd78af_0: 
+    sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
 docker: quay.io/biocontainers/ciri-full
 aliases:
   CIRI: /usr/local/bin/CIRI

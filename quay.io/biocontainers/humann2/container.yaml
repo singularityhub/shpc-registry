@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/humann2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for humann2
 latest:
-  2.8.1--py27_0: sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
+  2.8.1--py27_0: 
+    sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
 tags:
-  2.8.1--py27_0: sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
+  2.8.1--py27_0: 
+    sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
 docker: quay.io/biocontainers/humann2
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
@@ -22,7 +24,8 @@ aliases:
   humann2_build_custom_database: /usr/local/bin/humann2_build_custom_database
   humann2_config: /usr/local/bin/humann2_config
   humann2_databases: /usr/local/bin/humann2_databases
-  humann2_genefamilies_genus_level: /usr/local/bin/humann2_genefamilies_genus_level
+  humann2_genefamilies_genus_level: 
+    /usr/local/bin/humann2_genefamilies_genus_level
   humann2_humann1_kegg: /usr/local/bin/humann2_humann1_kegg
   humann2_infer_taxonomy: /usr/local/bin/humann2_infer_taxonomy
   humann2_join_tables: /usr/local/bin/humann2_join_tables

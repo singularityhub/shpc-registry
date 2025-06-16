@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/quickbam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quickbam
 latest:
-  1.0.0--h4f9202f_1: sha256:44ea701b2fc72a8eadb45737d4be3fbdf831021adc0050337b62d5dac1c95bef
+  1.0.0--h4f9202f_1: 
+    sha256:44ea701b2fc72a8eadb45737d4be3fbdf831021adc0050337b62d5dac1c95bef
 tags:
-  1.0.0--h4f9202f_1: sha256:44ea701b2fc72a8eadb45737d4be3fbdf831021adc0050337b62d5dac1c95bef
+  1.0.0--h4f9202f_1: 
+    sha256:44ea701b2fc72a8eadb45737d4be3fbdf831021adc0050337b62d5dac1c95bef
 docker: quay.io/biocontainers/quickbam
 aliases:
   flagstats-quickbam: /usr/local/bin/flagstats-quickbam

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kinsimriboswitch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kinsimriboswitch
 latest:
-  0.3--pl5262r40ha325a96_3: sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
+  0.3--pl5262r40ha325a96_3: 
+    sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
 tags:
-  0.3--pl5262r40ha325a96_3: sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
+  0.3--pl5262r40ha325a96_3: 
+    sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
 docker: quay.io/biocontainers/kinsimriboswitch
 aliases:
   addr2line: /usr/local/bin/addr2line

@@ -7,6 +7,7 @@ latest:
   3.3.0: sha256:fce17f6d8fad6ee7266d371967da40f03ef9e0907980d4ecce7d6a12dc8db877
 tags:
   3.3.0: sha256:fce17f6d8fad6ee7266d371967da40f03ef9e0907980d4ecce7d6a12dc8db877
-  latest: sha256:fce17f6d8fad6ee7266d371967da40f03ef9e0907980d4ecce7d6a12dc8db877
+  latest: 
+    sha256:fce17f6d8fad6ee7266d371967da40f03ef9e0907980d4ecce7d6a12dc8db877
 aliases:
   ior: /opt/view/bin/ior

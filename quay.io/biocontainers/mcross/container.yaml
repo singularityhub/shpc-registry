@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mcross
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mcross
 latest:
-  0.9.5--hdfd78af_0: sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
+  0.9.5--hdfd78af_0: 
+    sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
 tags:
-  0.9.5--hdfd78af_0: sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
+  0.9.5--hdfd78af_0: 
+    sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
 docker: quay.io/biocontainers/mcross
 aliases:
   gen_word_enrich_matrix.pl: /usr/local/bin/gen_word_enrich_matrix.pl
