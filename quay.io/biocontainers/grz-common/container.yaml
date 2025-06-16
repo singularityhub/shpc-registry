@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/grz-common
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for grz-common
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0
+docker: quay.io/biocontainers/grz-common
+aliases:
+  crypt4gh: /usr/local/bin/crypt4gh
+  crypt4gh-keygen: /usr/local/bin/crypt4gh-keygen
+  dotenv: /usr/local/bin/dotenv
+  markdown-it: /usr/local/bin/markdown-it
+  jp.py: /usr/local/bin/jp.py
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
