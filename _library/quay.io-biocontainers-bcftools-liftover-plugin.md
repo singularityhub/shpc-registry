@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcftools-liftover-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools-liftover-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools-liftover-plugin/container.yaml"
-updated_at: "2025-06-16 04:11:26.938013"
+updated_at: "2025-06-16 05:20:38.202826"
 latest: "1.21--hb66fcc3_0"
 container_url: "https://biocontainers.pro/tools/bcftools-liftover-plugin"
 aliases:

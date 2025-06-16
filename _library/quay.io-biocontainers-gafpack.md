@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gafpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gafpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gafpack/container.yaml"
-updated_at: "2025-06-16 04:11:10.952920"
+updated_at: "2025-06-16 05:20:22.867075"
 latest: "0.1.2--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/gafpack"
 aliases:

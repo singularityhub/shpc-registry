@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-findpython"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-findpython/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-findpython/container.yaml"
-updated_at: "2025-06-16 04:09:15.211722"
+updated_at: "2025-06-16 05:18:33.398473"
 latest: "1.0.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-findpython"
 aliases:
