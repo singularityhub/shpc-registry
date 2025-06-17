@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aliceasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aliceasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aliceasm/container.yaml"
-updated_at: "2025-06-16 04:47:23.727403"
-latest: "0.6.34--h9948957_0"
+updated_at: "2025-06-17 03:33:26.109659"
+latest: "0.6.37--h9948957_0"
 container_url: "https://biocontainers.pro/tools/aliceasm"
 aliases:
  - "aliceasm"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.6.33--h9948957_0"
  - "0.6.34--h9948957_0"
+ - "0.6.37--h9948957_0"
 description: "singularity registry hpc automated addition for aliceasm"
-config: {"url": "https://biocontainers.pro/tools/aliceasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aliceasm", "latest": {"0.6.34--h9948957_0": "sha256:4503307bf5b49211cd79488111d03a9283127e0d7d03629f42359906d75ec9e6"}, "tags": {"0.6.33--h9948957_0": "sha256:f170743918a626e1c11ac7578143edcd36208a0251b6fab334e333b8d0df3fa1", "0.6.34--h9948957_0": "sha256:4503307bf5b49211cd79488111d03a9283127e0d7d03629f42359906d75ec9e6"}, "docker": "quay.io/biocontainers/aliceasm", "aliases": {"aliceasm": "/usr/local/bin/aliceasm", "bcalm": "/usr/local/bin/bcalm", "gfatools": "/usr/local/bin/gfatools", "graphunzip": "/usr/local/bin/graphunzip", "paf2gfa": "/usr/local/bin/paf2gfa", "reduce": "/usr/local/bin/reduce", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/aliceasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aliceasm", "latest": {"0.6.37--h9948957_0": "sha256:b1128edda739bf5f6429b2138147f1354246c34533dd71e08b3087fb5da71a61"}, "tags": {"0.6.33--h9948957_0": "sha256:f170743918a626e1c11ac7578143edcd36208a0251b6fab334e333b8d0df3fa1", "0.6.34--h9948957_0": "sha256:4503307bf5b49211cd79488111d03a9283127e0d7d03629f42359906d75ec9e6", "0.6.37--h9948957_0": "sha256:b1128edda739bf5f6429b2138147f1354246c34533dd71e08b3087fb5da71a61"}, "docker": "quay.io/biocontainers/aliceasm", "aliases": {"aliceasm": "/usr/local/bin/aliceasm", "bcalm": "/usr/local/bin/bcalm", "gfatools": "/usr/local/bin/gfatools", "graphunzip": "/usr/local/bin/graphunzip", "paf2gfa": "/usr/local/bin/paf2gfa", "reduce": "/usr/local/bin/reduce", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aliceasm.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/aliceasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aliceasm:0.6.34--h9948957_0
+$ shpc install quay.io/biocontainers/aliceasm:0.6.37--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aliceasm/0.6.34--h9948957_0
-$ module help quay.io/biocontainers/aliceasm/0.6.34--h9948957_0
+$ module load quay.io/biocontainers/aliceasm/0.6.37--h9948957_0
+$ module help quay.io/biocontainers/aliceasm/0.6.37--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

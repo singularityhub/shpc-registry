@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reseek/container.yaml"
-updated_at: "2025-06-16 04:47:00.087749"
-latest: "2.4--h503566f_0"
+updated_at: "2025-06-17 03:33:02.349676"
+latest: "2.5--h503566f_0"
 container_url: "https://biocontainers.pro/tools/reseek"
 aliases:
  - "reseek"
@@ -14,8 +14,9 @@ versions:
  - "2.02--hdbdd923_0"
  - "2.3--h503566f_0"
  - "2.4--h503566f_0"
+ - "2.5--h503566f_0"
 description: "singularity registry hpc automated addition for reseek"
-config: {"url": "https://biocontainers.pro/tools/reseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reseek", "latest": {"2.4--h503566f_0": "sha256:fe83355b376878d7ba38cae355cbf51cbd1b8b419d3af5cbd8da75b5b2d9fa4b"}, "tags": {"2.0.1--hdbdd923_0": "sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e", "2.02--hdbdd923_0": "sha256:69f027e649a341c4e3e69d6c792639d2049d250170de5b4d5936ae7bf4f08f8b", "2.3--h503566f_0": "sha256:c492c4ed79b242595bdfc09f376214010956e5c4af42633cb941b3c07612cdfb", "2.4--h503566f_0": "sha256:fe83355b376878d7ba38cae355cbf51cbd1b8b419d3af5cbd8da75b5b2d9fa4b"}, "docker": "quay.io/biocontainers/reseek", "aliases": {"reseek": "/usr/local/bin/reseek"}}
+config: {"url": "https://biocontainers.pro/tools/reseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reseek", "latest": {"2.5--h503566f_0": "sha256:f0a4ab43e7ed8c096b10b2c19f4d83d6e4068269454e24f8065cde27e56e1c6f"}, "tags": {"2.0.1--hdbdd923_0": "sha256:e5c1a4aa7d0111dc5447fbd1aab901ccf85d869954be922c6fe121d1f40f651e", "2.02--hdbdd923_0": "sha256:69f027e649a341c4e3e69d6c792639d2049d250170de5b4d5936ae7bf4f08f8b", "2.3--h503566f_0": "sha256:c492c4ed79b242595bdfc09f376214010956e5c4af42633cb941b3c07612cdfb", "2.4--h503566f_0": "sha256:fe83355b376878d7ba38cae355cbf51cbd1b8b419d3af5cbd8da75b5b2d9fa4b", "2.5--h503566f_0": "sha256:f0a4ab43e7ed8c096b10b2c19f4d83d6e4068269454e24f8065cde27e56e1c6f"}, "docker": "quay.io/biocontainers/reseek", "aliases": {"reseek": "/usr/local/bin/reseek"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reseek.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/reseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reseek:2.4--h503566f_0
+$ shpc install quay.io/biocontainers/reseek:2.5--h503566f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reseek/2.4--h503566f_0
-$ module help quay.io/biocontainers/reseek/2.4--h503566f_0
+$ module load quay.io/biocontainers/reseek/2.5--h503566f_0
+$ module help quay.io/biocontainers/reseek/2.5--h503566f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
