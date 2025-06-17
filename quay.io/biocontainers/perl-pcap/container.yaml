@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-pcap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-pcap
 latest:
-  3.5.2--pl5321hec16e2b_2: sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
+  3.5.2--pl5321hec16e2b_2: 
+    sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
 tags:
-  3.5.2--pl5321hec16e2b_2: sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
+  3.5.2--pl5321hec16e2b_2: 
+    sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
 docker: quay.io/biocontainers/perl-pcap
 aliases:
   bamToBw.pl: /usr/local/bin/bamToBw.pl

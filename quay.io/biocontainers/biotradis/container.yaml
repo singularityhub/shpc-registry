@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/biotradis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biotradis
 latest:
-  1.4.5--hdfd78af_5: sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
+  1.4.5--hdfd78af_5: 
+    sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
 tags:
-  1.4.5--hdfd78af_5: sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
+  1.4.5--hdfd78af_5: 
+    sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
 docker: quay.io/biocontainers/biotradis
 aliases:
   add_tradis_tags: /usr/local/bin/add_tradis_tags

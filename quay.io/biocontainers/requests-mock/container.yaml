@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/requests-mock
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for requests-mock
 latest:
-  1.0.0--py27_1: sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a
+  1.0.0--py27_1: 
+    sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a
 tags:
-  1.0.0--py27_1: sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a
-  1.0.0--py36_1: sha256:c796346b1ac4cad1c3ff7c129705a8a10ef5927a64d975e2648e941a4df91cf2
+  1.0.0--py27_1: 
+    sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a
+  1.0.0--py36_1: 
+    sha256:c796346b1ac4cad1c3ff7c129705a8a10ef5927a64d975e2648e941a4df91cf2
 docker: quay.io/biocontainers/requests-mock
 aliases:
   pbr: /usr/local/bin/pbr

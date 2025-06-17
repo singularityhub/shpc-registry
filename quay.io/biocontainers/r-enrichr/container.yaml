@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-enrichr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-enrichr
 latest:
-  1.0--r36h6115d3f_1: sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83
+  1.0--r36h6115d3f_1: 
+    sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83
 tags:
-  1.0--r36h6115d3f_1: sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83
+  1.0--r36h6115d3f_1: 
+    sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83
 docker: quay.io/biocontainers/r-enrichr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

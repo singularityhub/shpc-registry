@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/perl-file-sharedir-install
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-file-sharedir-install
+description: shpc-registry automated BioContainers addition for 
+  perl-file-sharedir-install
 latest:
-  0.13--pl526_0: sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1
+  0.14--pl5321hdfd78af_0: 
+    sha256:1f4844f8ca38bd8fa3510f0de703f6c5c31474ab8210b7b1b4b27cb3042baf4b
 tags:
-  0.13--pl526_0: sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1
+  0.13--pl526_0: 
+    sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1
+  0.14--pl5321hdfd78af_0: 
+    sha256:1f4844f8ca38bd8fa3510f0de703f6c5c31474ab8210b7b1b4b27cb3042baf4b
 docker: quay.io/biocontainers/perl-file-sharedir-install
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

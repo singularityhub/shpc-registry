@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pacini_typing
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pacini_typing
 latest:
-  1.6.4--pyhdfd78af_0: sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916
+  2.0.2--pyhdfd78af_0: 
+    sha256:129c1f7317e580ef641d5af308d34b59a1b878c56579afec3f923034f4251081
 tags:
-  1.6.4--pyhdfd78af_0: sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916
+  1.6.4--pyhdfd78af_0: 
+    sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916
+  2.0.2--pyhdfd78af_0: 
+    sha256:129c1f7317e580ef641d5af308d34b59a1b878c56579afec3f923034f4251081
 docker: quay.io/biocontainers/pacini_typing
 aliases:
   Pacini-typing: /usr/local/bin/Pacini-typing

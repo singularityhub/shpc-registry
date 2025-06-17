@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/koeken
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for koeken
 latest:
-  0.2.6--py27h24bf2e0_1: sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
+  0.2.6--py27h24bf2e0_1: 
+    sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
 tags:
-  0.2.6--py27h24bf2e0_1: sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
+  0.2.6--py27h24bf2e0_1: 
+    sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
 docker: quay.io/biocontainers/koeken
 aliases:
   add_alpha_to_mapping_file.py: /usr/local/bin/add_alpha_to_mapping_file.py
@@ -17,10 +19,12 @@ aliases:
   ampliconnoise.py: /usr/local/bin/ampliconnoise.py
   assign_taxonomy.py: /usr/local/bin/assign_taxonomy.py
   beta_diversity.py: /usr/local/bin/beta_diversity.py
-  beta_diversity_through_plots.py: /usr/local/bin/beta_diversity_through_plots.py
+  beta_diversity_through_plots.py: 
+    /usr/local/bin/beta_diversity_through_plots.py
   beta_significance.py: /usr/local/bin/beta_significance.py
   blast_wrapper.py: /usr/local/bin/blast_wrapper.py
-  categorized_dist_scatterplot.py: /usr/local/bin/categorized_dist_scatterplot.py
+  categorized_dist_scatterplot.py: 
+    /usr/local/bin/categorized_dist_scatterplot.py
   check_id_map.py: /usr/local/bin/check_id_map.py
   clean_raxml_parsimony_tree.py: /usr/local/bin/clean_raxml_parsimony_tree.py
   cluster_quality.py: /usr/local/bin/cluster_quality.py
@@ -33,10 +37,12 @@ aliases:
   compare_trajectories.py: /usr/local/bin/compare_trajectories.py
   compute_core_microbiome.py: /usr/local/bin/compute_core_microbiome.py
   compute_taxonomy_ratios.py: /usr/local/bin/compute_taxonomy_ratios.py
-  conditional_uncovered_probability.py: /usr/local/bin/conditional_uncovered_probability.py
+  conditional_uncovered_probability.py: 
+    /usr/local/bin/conditional_uncovered_probability.py
   consensus_tree.py: /usr/local/bin/consensus_tree.py
   convert_fastaqual_fastq.py: /usr/local/bin/convert_fastaqual_fastq.py
-  convert_unifrac_sample_mapping_to_otu_table.py: /usr/local/bin/convert_unifrac_sample_mapping_to_otu_table.py
+  convert_unifrac_sample_mapping_to_otu_table.py: 
+    /usr/local/bin/convert_unifrac_sample_mapping_to_otu_table.py
   core_diversity_analyses.py: /usr/local/bin/core_diversity_analyses.py
   count_seqs.py: /usr/local/bin/count_seqs.py
   demultiplex_fasta.py: /usr/local/bin/demultiplex_fasta.py
@@ -47,18 +53,22 @@ aliases:
   detrend.py: /usr/local/bin/detrend.py
   differential_abundance.py: /usr/local/bin/differential_abundance.py
   dissimilarity_mtx_stats.py: /usr/local/bin/dissimilarity_mtx_stats.py
-  distance_matrix_from_mapping.py: /usr/local/bin/distance_matrix_from_mapping.py
-  estimate_observation_richness.py: /usr/local/bin/estimate_observation_richness.py
+  distance_matrix_from_mapping.py: 
+    /usr/local/bin/distance_matrix_from_mapping.py
+  estimate_observation_richness.py: 
+    /usr/local/bin/estimate_observation_richness.py
   exclude_seqs_by_blast.py: /usr/local/bin/exclude_seqs_by_blast.py
   extract_barcodes.py: /usr/local/bin/extract_barcodes.py
-  extract_reads_from_interleaved_file.py: /usr/local/bin/extract_reads_from_interleaved_file.py
+  extract_reads_from_interleaved_file.py: 
+    /usr/local/bin/extract_reads_from_interleaved_file.py
   extract_seqs_by_sample_id.py: /usr/local/bin/extract_seqs_by_sample_id.py
   filter_alignment.py: /usr/local/bin/filter_alignment.py
   filter_distance_matrix.py: /usr/local/bin/filter_distance_matrix.py
   filter_fasta.py: /usr/local/bin/filter_fasta.py
   filter_otus_by_sample.py: /usr/local/bin/filter_otus_by_sample.py
   filter_otus_from_otu_table.py: /usr/local/bin/filter_otus_from_otu_table.py
-  filter_samples_from_otu_table.py: /usr/local/bin/filter_samples_from_otu_table.py
+  filter_samples_from_otu_table.py: 
+    /usr/local/bin/filter_samples_from_otu_table.py
   filter_taxa_from_otu_table.py: /usr/local/bin/filter_taxa_from_otu_table.py
   filter_tree.py: /usr/local/bin/filter_tree.py
   fix_arb_fasta.py: /usr/local/bin/fix_arb_fasta.py
@@ -81,7 +91,8 @@ aliases:
   make_bipartite_network.py: /usr/local/bin/make_bipartite_network.py
   make_bootstrapped_tree.py: /usr/local/bin/make_bootstrapped_tree.py
   make_distance_boxplots.py: /usr/local/bin/make_distance_boxplots.py
-  make_distance_comparison_plots.py: /usr/local/bin/make_distance_comparison_plots.py
+  make_distance_comparison_plots.py: 
+    /usr/local/bin/make_distance_comparison_plots.py
   make_emperor.py: /usr/local/bin/make_emperor.py
   make_fastq.py: /usr/local/bin/make_fastq.py
   make_library_id_lists.py: /usr/local/bin/make_library_id_lists.py
@@ -102,12 +113,15 @@ aliases:
   multiple_extract_barcodes.py: /usr/local/bin/multiple_extract_barcodes.py
   multiple_join_paired_ends.py: /usr/local/bin/multiple_join_paired_ends.py
   multiple_rarefactions.py: /usr/local/bin/multiple_rarefactions.py
-  multiple_rarefactions_even_depth.py: /usr/local/bin/multiple_rarefactions_even_depth.py
-  multiple_split_libraries_fastq.py: /usr/local/bin/multiple_split_libraries_fastq.py
+  multiple_rarefactions_even_depth.py: 
+    /usr/local/bin/multiple_rarefactions_even_depth.py
+  multiple_split_libraries_fastq.py: 
+    /usr/local/bin/multiple_split_libraries_fastq.py
   neighbor_joining.py: /usr/local/bin/neighbor_joining.py
   nmds.py: /usr/local/bin/nmds.py
   normalize_table.py: /usr/local/bin/normalize_table.py
-  observation_metadata_correlation.py: /usr/local/bin/observation_metadata_correlation.py
+  observation_metadata_correlation.py: 
+    /usr/local/bin/observation_metadata_correlation.py
   ompi-dvm: /usr/local/bin/ompi-dvm
   ompi-ps: /usr/local/bin/ompi-ps
   ompi-top: /usr/local/bin/ompi-top
@@ -117,20 +131,29 @@ aliases:
   otu_category_significance.py: /usr/local/bin/otu_category_significance.py
   parallel_align_seqs_pynast.py: /usr/local/bin/parallel_align_seqs_pynast.py
   parallel_alpha_diversity.py: /usr/local/bin/parallel_alpha_diversity.py
-  parallel_assign_taxonomy_blast.py: /usr/local/bin/parallel_assign_taxonomy_blast.py
-  parallel_assign_taxonomy_rdp.py: /usr/local/bin/parallel_assign_taxonomy_rdp.py
-  parallel_assign_taxonomy_uclust.py: /usr/local/bin/parallel_assign_taxonomy_uclust.py
+  parallel_assign_taxonomy_blast.py: 
+    /usr/local/bin/parallel_assign_taxonomy_blast.py
+  parallel_assign_taxonomy_rdp.py: 
+    /usr/local/bin/parallel_assign_taxonomy_rdp.py
+  parallel_assign_taxonomy_uclust.py: 
+    /usr/local/bin/parallel_assign_taxonomy_uclust.py
   parallel_beta_diversity.py: /usr/local/bin/parallel_beta_diversity.py
   parallel_blast.py: /usr/local/bin/parallel_blast.py
-  parallel_identify_chimeric_seqs.py: /usr/local/bin/parallel_identify_chimeric_seqs.py
-  parallel_map_reads_to_reference.py: /usr/local/bin/parallel_map_reads_to_reference.py
+  parallel_identify_chimeric_seqs.py: 
+    /usr/local/bin/parallel_identify_chimeric_seqs.py
+  parallel_map_reads_to_reference.py: 
+    /usr/local/bin/parallel_map_reads_to_reference.py
   parallel_merge_otu_tables.py: /usr/local/bin/parallel_merge_otu_tables.py
-  parallel_multiple_rarefactions.py: /usr/local/bin/parallel_multiple_rarefactions.py
+  parallel_multiple_rarefactions.py: 
+    /usr/local/bin/parallel_multiple_rarefactions.py
   parallel_pick_otus_blast.py: /usr/local/bin/parallel_pick_otus_blast.py
-  parallel_pick_otus_sortmerna.py: /usr/local/bin/parallel_pick_otus_sortmerna.py
+  parallel_pick_otus_sortmerna.py: 
+    /usr/local/bin/parallel_pick_otus_sortmerna.py
   parallel_pick_otus_trie.py: /usr/local/bin/parallel_pick_otus_trie.py
-  parallel_pick_otus_uclust_ref.py: /usr/local/bin/parallel_pick_otus_uclust_ref.py
-  parallel_pick_otus_usearch61_ref.py: /usr/local/bin/parallel_pick_otus_usearch61_ref.py
+  parallel_pick_otus_uclust_ref.py: 
+    /usr/local/bin/parallel_pick_otus_uclust_ref.py
+  parallel_pick_otus_usearch61_ref.py: 
+    /usr/local/bin/parallel_pick_otus_usearch61_ref.py
   pick_closed_reference_otus.py: /usr/local/bin/pick_closed_reference_otus.py
   pick_de_novo_otus.py: /usr/local/bin/pick_de_novo_otus.py
   pick_open_reference_otus.py: /usr/local/bin/pick_open_reference_otus.py
@@ -166,7 +189,8 @@ aliases:
   split_libraries_lea_seq.py: /usr/local/bin/split_libraries_lea_seq.py
   split_otu_table.py: /usr/local/bin/split_otu_table.py
   split_otu_table_by_taxonomy.py: /usr/local/bin/split_otu_table_by_taxonomy.py
-  split_sequence_file_on_sample_ids.py: /usr/local/bin/split_sequence_file_on_sample_ids.py
+  split_sequence_file_on_sample_ids.py: 
+    /usr/local/bin/split_sequence_file_on_sample_ids.py
   start_parallel_jobs.py: /usr/local/bin/start_parallel_jobs.py
   start_parallel_jobs_sc.py: /usr/local/bin/start_parallel_jobs_sc.py
   start_parallel_jobs_slurm.py: /usr/local/bin/start_parallel_jobs_slurm.py
@@ -175,11 +199,13 @@ aliases:
   sumaclust: /usr/local/bin/sumaclust
   summarize_otu_by_cat.py: /usr/local/bin/summarize_otu_by_cat.py
   summarize_taxa.py: /usr/local/bin/summarize_taxa.py
-  summarize_taxa_through_plots.py: /usr/local/bin/summarize_taxa_through_plots.py
+  summarize_taxa_through_plots.py: 
+    /usr/local/bin/summarize_taxa_through_plots.py
   supervised_learning.py: /usr/local/bin/supervised_learning.py
   swarm: /usr/local/bin/swarm
   swarm_breaker.py: /usr/local/bin/swarm_breaker.py
-  transform_coordinate_matrices.py: /usr/local/bin/transform_coordinate_matrices.py
+  transform_coordinate_matrices.py: 
+    /usr/local/bin/transform_coordinate_matrices.py
   tree_compare.py: /usr/local/bin/tree_compare.py
   trflp_file_to_otu_table.py: /usr/local/bin/trflp_file_to_otu_table.py
   trim_sff_primers.py: /usr/local/bin/trim_sff_primers.py
@@ -188,7 +214,8 @@ aliases:
   uclust: /usr/local/bin/uclust
   unweight_fasta.py: /usr/local/bin/unweight_fasta.py
   upgma_cluster.py: /usr/local/bin/upgma_cluster.py
-  validate_demultiplexed_fasta.py: /usr/local/bin/validate_demultiplexed_fasta.py
+  validate_demultiplexed_fasta.py: 
+    /usr/local/bin/validate_demultiplexed_fasta.py
   validate_mapping_file.py: /usr/local/bin/validate_mapping_file.py
   enhancer.py: /usr/local/bin/enhancer.py
   explode.py: /usr/local/bin/explode.py

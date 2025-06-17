@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-bio-rna-treekin
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for perl-bio-rna-treekin
+description: singularity registry hpc automated addition for 
+  perl-bio-rna-treekin
 latest:
-  0.05--pl5321hdfd78af_0: sha256:09db42abfb173f2379f6c7d6029aa9948073d42ba878d716161faa346a533747
+  0.05--pl5321hdfd78af_0: 
+    sha256:09db42abfb173f2379f6c7d6029aa9948073d42ba878d716161faa346a533747
 tags:
-  0.05--pl5321hdfd78af_0: sha256:09db42abfb173f2379f6c7d6029aa9948073d42ba878d716161faa346a533747
+  0.05--pl5321hdfd78af_0: 
+    sha256:09db42abfb173f2379f6c7d6029aa9948073d42ba878d716161faa346a533747
 docker: quay.io/biocontainers/perl-bio-rna-treekin
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

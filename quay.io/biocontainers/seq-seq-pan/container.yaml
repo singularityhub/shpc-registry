@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/seq-seq-pan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seq-seq-pan
 latest:
-  1.1.0--py_1: sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
+  1.1.0--py_1: 
+    sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
 tags:
-  1.1.0--py_1: sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
+  1.1.0--py_1: 
+    sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
 docker: quay.io/biocontainers/seq-seq-pan
 aliases:
   addUnalignedIntervals: /usr/local/bin/addUnalignedIntervals

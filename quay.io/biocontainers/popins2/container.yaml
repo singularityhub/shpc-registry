@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/popins2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for popins2
 latest:
-  0.13.0--h077b44d_0: sha256:4d4dd597f00e35aab37370c0b0a75c2cee58155cc493bf44e773ae0e838c0e29
+  0.13.0--h077b44d_0: 
+    sha256:4d4dd597f00e35aab37370c0b0a75c2cee58155cc493bf44e773ae0e838c0e29
 tags:
-  0.13.0--h077b44d_0: sha256:4d4dd597f00e35aab37370c0b0a75c2cee58155cc493bf44e773ae0e838c0e29
+  0.13.0--h077b44d_0: 
+    sha256:4d4dd597f00e35aab37370c0b0a75c2cee58155cc493bf44e773ae0e838c0e29
 docker: quay.io/biocontainers/popins2
 aliases:
   Bifrost: /usr/local/bin/Bifrost

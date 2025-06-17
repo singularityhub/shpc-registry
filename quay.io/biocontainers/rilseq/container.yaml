@@ -2,14 +2,18 @@ url: https://biocontainers.pro/tools/rilseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rilseq
 latest:
-  0.82--pyhdfd78af_0: sha256:4ea40a494d6b70358559d977fb17e836019dc41ab87693514d6ef804e640d18c
+  0.82--pyhdfd78af_0: 
+    sha256:4ea40a494d6b70358559d977fb17e836019dc41ab87693514d6ef804e640d18c
 tags:
-  0.82--pyhdfd78af_0: sha256:4ea40a494d6b70358559d977fb17e836019dc41ab87693514d6ef804e640d18c
+  0.82--pyhdfd78af_0: 
+    sha256:4ea40a494d6b70358559d977fb17e836019dc41ab87693514d6ef804e640d18c
 docker: quay.io/biocontainers/rilseq
 aliases:
   RILseq_significant_regions.py: /usr/local/bin/RILseq_significant_regions.py
-  count_chimeric_reads_per_gene.py: /usr/local/bin/count_chimeric_reads_per_gene.py
-  generate_BED_file_of_endpoints.py: /usr/local/bin/generate_BED_file_of_endpoints.py
+  count_chimeric_reads_per_gene.py: 
+    /usr/local/bin/count_chimeric_reads_per_gene.py
+  generate_BED_file_of_endpoints.py: 
+    /usr/local/bin/generate_BED_file_of_endpoints.py
   generate_genes_gff.py: /usr/local/bin/generate_genes_gff.py
   generate_transcripts_gff.py: /usr/local/bin/generate_transcripts_gff.py
   get_sequences_for_meme.py: /usr/local/bin/get_sequences_for_meme.py

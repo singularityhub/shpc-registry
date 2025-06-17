@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/pywgsim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pywgsim
 latest:
-  0.5.2--py310h397c9d8_3: sha256:419aaebebd10ea85f09b67d748f66ef27badc526157de29f4b52efa63311be31
+  0.6.0--py310h397c9d8_0: 
+    sha256:63a793e904dacdb8138ea244ef70e14f7cfb0a920449d68a49dd25358a7ce44b
 tags:
-  0.5.2--py36h91eb985_0: sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2
-  0.5.2--py310h1425a21_0: sha256:862a6e42a8acc7046e6fdab65c1569414c81a27bf71bc041aaae4e20d145821f
-  0.5.2--py310h397c9d8_3: sha256:419aaebebd10ea85f09b67d748f66ef27badc526157de29f4b52efa63311be31
+  0.5.2--py36h91eb985_0: 
+    sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2
+  0.5.2--py310h1425a21_0: 
+    sha256:862a6e42a8acc7046e6fdab65c1569414c81a27bf71bc041aaae4e20d145821f
+  0.5.2--py310h397c9d8_3: 
+    sha256:419aaebebd10ea85f09b67d748f66ef27badc526157de29f4b52efa63311be31
+  0.6.0--py310h397c9d8_0: 
+    sha256:63a793e904dacdb8138ea244ef70e14f7cfb0a920449d68a49dd25358a7ce44b
 docker: quay.io/biocontainers/pywgsim
 aliases:
   pywgsim: /usr/local/bin/pywgsim

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/caper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for caper
 latest:
-  1.1.0--py_0: sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67
+  1.1.0--py_0: 
+    sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67
 tags:
-  1.1.0--py_0: sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67
+  1.1.0--py_0: 
+    sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67
 docker: quay.io/biocontainers/caper
 aliases:
   autouri: /usr/local/bin/autouri
@@ -19,12 +21,15 @@ aliases:
   pygtail: /usr/local/bin/pygtail
   pyhocon: /usr/local/bin/pyhocon
   run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
-  run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
+  run_mysql_server_singularity.sh: 
+    /usr/local/bin/run_mysql_server_singularity.sh
   wsdump.py: /usr/local/bin/wsdump.py
   pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
   pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   coloredlogs: /usr/local/bin/coloredlogs

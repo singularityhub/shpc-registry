@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/radiantkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for radiantkit
 latest:
-  0.1.0--pyhdfd78af_1: sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
+  0.1.0--pyhdfd78af_1: 
+    sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
 tags:
-  0.1.0--pyhdfd78af_1: sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
+  0.1.0--pyhdfd78af_1: 
+    sha256:92404762b726eebff33409f6353f829ae6c712f5484a953812e1bdb61a274bec
 docker: quay.io/biocontainers/radiantkit
 aliases:
   czi2tif: /usr/local/bin/czi2tif

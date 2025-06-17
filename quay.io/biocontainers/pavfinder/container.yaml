@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pavfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pavfinder
 latest:
-  1.8.5--pyhdfd78af_0: sha256:dbee394feeb19045fd0e91b470a3edf8f17263bd1d04ac59c632ffc69dad851e
+  1.8.5--pyhdfd78af_0: 
+    sha256:dbee394feeb19045fd0e91b470a3edf8f17263bd1d04ac59c632ffc69dad851e
 tags:
-  1.8.5--pyhdfd78af_0: sha256:dbee394feeb19045fd0e91b470a3edf8f17263bd1d04ac59c632ffc69dad851e
+  1.8.5--pyhdfd78af_0: 
+    sha256:dbee394feeb19045fd0e91b470a3edf8f17263bd1d04ac59c632ffc69dad851e
 docker: quay.io/biocontainers/pavfinder
 aliases:
   abyss-db-csv: /usr/local/bin/abyss-db-csv

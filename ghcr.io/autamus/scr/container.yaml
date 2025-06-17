@@ -1,13 +1,17 @@
 docker: ghcr.io/autamus/scr
 url: https://github.com/orgs/autamus/packages/container/package/scr
 maintainer: '@vsoch'
-description: SCR caches checkpoint data in storage on the compute nodes of a Linux
-  cluster to provide a fast, scalable checkpoint/restart capability for MPI codes.
+description: SCR caches checkpoint data in storage on the compute nodes of a 
+  Linux cluster to provide a fast, scalable checkpoint/restart capability for 
+  MPI codes.
 latest:
-  3.0.rc.1: sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
+  3.0.rc.1: 
+    sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
 tags:
-  3.0.rc.1: sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
-  latest: sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
+  3.0.rc.1: 
+    sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
+  latest: 
+    sha256:864198a7d35665f0bb176ac3f9e5f1a20f221b203732011be30760e0322b9742
 aliases:
   scancel: /opt/view/bin/scancel
   scontrol: /opt/view/bin/scontrol

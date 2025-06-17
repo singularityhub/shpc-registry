@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-sendmailr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sendmailr
 latest:
-  1.2_1--r3.3.2_0: sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b
+  1.2_1--r3.3.2_0: 
+    sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b
 tags:
-  1.2_1--r3.3.2_0: sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b
-  1.2_1--r3.2.2_0: sha256:3fdc191340ab9b95c441034583ce5876ccca58211a060b6388b884a9246ff7e8
+  1.2_1--r3.3.2_0: 
+    sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b
+  1.2_1--r3.2.2_0: 
+    sha256:3fdc191340ab9b95c441034583ce5876ccca58211a060b6388b884a9246ff7e8
 docker: quay.io/biocontainers/r-sendmailr
 aliases:
   uconv: /usr/local/bin/uconv

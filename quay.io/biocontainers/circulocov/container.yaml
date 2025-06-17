@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/circulocov
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for circulocov
 latest:
-  0.1.20240104--pyhdfd78af_0: sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
+  0.1.20240104--pyhdfd78af_0: 
+    sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
 tags:
-  0.1.20240104--pyhdfd78af_0: sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
+  0.1.20240104--pyhdfd78af_0: 
+    sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
 docker: quay.io/biocontainers/circulocov
 aliases:
   circulocov: /usr/local/bin/circulocov

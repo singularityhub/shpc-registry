@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-scatterplot3d
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-scatterplot3d
 latest:
-  0.3_36--r3.2.2_0: sha256:e8250f50916e233ef728001fe4ce929f38f66f4def4a481bfdaa352d45ece31e
+  0.3_36--r3.2.2_0: 
+    sha256:e8250f50916e233ef728001fe4ce929f38f66f4def4a481bfdaa352d45ece31e
 tags:
-  0.3_36--r3.2.2_0: sha256:e8250f50916e233ef728001fe4ce929f38f66f4def4a481bfdaa352d45ece31e
-  0.3_36--r3.3.2_0: sha256:041eaf3bea9c52b4375da590b05b4420687c8b50e055c4b95a83c955a48167ef
+  0.3_36--r3.2.2_0: 
+    sha256:e8250f50916e233ef728001fe4ce929f38f66f4def4a481bfdaa352d45ece31e
+  0.3_36--r3.3.2_0: 
+    sha256:041eaf3bea9c52b4375da590b05b4420687c8b50e055c4b95a83c955a48167ef
 docker: quay.io/biocontainers/r-scatterplot3d
 aliases:
   pngcp: /usr/local/bin/pngcp

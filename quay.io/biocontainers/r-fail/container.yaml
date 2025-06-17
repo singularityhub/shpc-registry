@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-fail
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fail
 latest:
-  1.3--r3.2.2_0: sha256:0b83f46c19a94743cdf9b7af1df9addb87401330a0b070740856eefdad0bcf42
+  1.3--r3.2.2_0: 
+    sha256:0b83f46c19a94743cdf9b7af1df9addb87401330a0b070740856eefdad0bcf42
 tags:
-  1.3--r3.2.2_0: sha256:0b83f46c19a94743cdf9b7af1df9addb87401330a0b070740856eefdad0bcf42
-  1.3--r3.3.2_0: sha256:d30f0dcec15e6d26e5959b389c1e745c26325d0b7305225d4c86a56e3d8af3aa
+  1.3--r3.2.2_0: 
+    sha256:0b83f46c19a94743cdf9b7af1df9addb87401330a0b070740856eefdad0bcf42
+  1.3--r3.3.2_0: 
+    sha256:d30f0dcec15e6d26e5959b389c1e745c26325d0b7305225d4c86a56e3d8af3aa
 docker: quay.io/biocontainers/r-fail
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/salsa2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for salsa2
 latest:
-  2.3--py27h16ec135_1: sha256:cd6de91db7b2b19d986e25cbb2e047f51b68b7be5ab631fa2547067b6754150c
+  2.3--py27h16ec135_1: 
+    sha256:cd6de91db7b2b19d986e25cbb2e047f51b68b7be5ab631fa2547067b6754150c
 tags:
-  2.3--py27h16ec135_1: sha256:cd6de91db7b2b19d986e25cbb2e047f51b68b7be5ab631fa2547067b6754150c
+  2.3--py27h16ec135_1: 
+    sha256:cd6de91db7b2b19d986e25cbb2e047f51b68b7be5ab631fa2547067b6754150c
 docker: quay.io/biocontainers/salsa2
 aliases:
   RE_sites.py: /usr/local/bin/RE_sites.py

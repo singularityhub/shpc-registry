@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-algorithm-diff
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-algorithm-diff
+description: shpc-registry automated BioContainers addition for 
+  perl-algorithm-diff
 latest:
-  1.1903--pl526_2: sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786
+  1.1903--pl526_2: 
+    sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786
 tags:
-  1.1903--pl526_2: sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786
+  1.1903--pl526_2: 
+    sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786
 docker: quay.io/biocontainers/perl-algorithm-diff
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

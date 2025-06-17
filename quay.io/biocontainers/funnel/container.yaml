@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/funnel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for funnel
 latest:
-  0.9.0--0: sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54
+  0.9.0--0: 
+    sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54
 tags:
-  0.9.0--0: sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54
+  0.9.0--0: 
+    sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54
 docker: quay.io/biocontainers/funnel
 aliases:
   funnel: /usr/local/bin/funnel

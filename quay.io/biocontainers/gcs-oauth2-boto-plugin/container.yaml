@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/gcs-oauth2-boto-plugin
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for gcs-oauth2-boto-plugin
+description: shpc-registry automated BioContainers addition for 
+  gcs-oauth2-boto-plugin
 latest:
-  1.9--py27_1: sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10
+  1.9--py27_1: 
+    sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10
 tags:
-  1.9--py27_1: sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10
+  1.9--py27_1: 
+    sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10
 docker: quay.io/biocontainers/gcs-oauth2-boto-plugin
 aliases:
   pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile

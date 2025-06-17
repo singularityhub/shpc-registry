@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-testthat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-testthat
 latest:
-  1.0.2--r3.3.1_1: sha256:1111d65f82f06b2f11c6e4d15c3aaf5559a1b076905563d923d11986dd30391f
+  1.0.2--r3.3.1_1: 
+    sha256:1111d65f82f06b2f11c6e4d15c3aaf5559a1b076905563d923d11986dd30391f
 tags:
-  1.0.2--r3.3.1_1: sha256:1111d65f82f06b2f11c6e4d15c3aaf5559a1b076905563d923d11986dd30391f
-  1.0.2--r3.3.2_1: sha256:a3a0dbc8fed232daf82f8a7b2918ba20c3091a6da988e8ac67c769ada64aa4bc
+  1.0.2--r3.3.1_1: 
+    sha256:1111d65f82f06b2f11c6e4d15c3aaf5559a1b076905563d923d11986dd30391f
+  1.0.2--r3.3.2_1: 
+    sha256:a3a0dbc8fed232daf82f8a7b2918ba20c3091a6da988e8ac67c769ada64aa4bc
 docker: quay.io/biocontainers/r-testthat
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cath-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cath-tools
 latest:
-  0.16.5--h78a066a_0: sha256:88f72ad7bccaa8a2726e1c2b064abc2651359c6677891d8d65df13de76ad1418
+  0.16.5--h78a066a_0: 
+    sha256:88f72ad7bccaa8a2726e1c2b064abc2651359c6677891d8d65df13de76ad1418
 tags:
-  0.16.5--h78a066a_0: sha256:88f72ad7bccaa8a2726e1c2b064abc2651359c6677891d8d65df13de76ad1418
+  0.16.5--h78a066a_0: 
+    sha256:88f72ad7bccaa8a2726e1c2b064abc2651359c6677891d8d65df13de76ad1418
 docker: quay.io/biocontainers/cath-tools
 aliases:
   cath-assign-domains: /usr/local/bin/cath-assign-domains
