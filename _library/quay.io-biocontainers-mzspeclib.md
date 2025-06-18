@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mzspeclib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzspeclib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzspeclib/container.yaml"
-updated_at: "2025-06-17 03:36:40.306627"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2025-06-18 03:35:32.593117"
+latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzspeclib"
 aliases:
  - "mzspeclib"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mzspeclib"
-config: {"url": "https://biocontainers.pro/tools/mzspeclib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzspeclib", "latest": {"1.0.3--pyhdfd78af_0": "sha256:04314bb61d76de28d79e400a7e3341b227103a82db68ca786efcb7470bd7add6"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:5adce54d8d71af223161a4c6e5b7a805fe5fb43480e6a5aa4602412bc2853b60", "1.0.3--pyhdfd78af_0": "sha256:04314bb61d76de28d79e400a7e3341b227103a82db68ca786efcb7470bd7add6"}, "docker": "quay.io/biocontainers/mzspeclib", "aliases": {"mzspeclib": "/usr/local/bin/mzspeclib", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/mzspeclib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzspeclib", "latest": {"1.0.5--pyhdfd78af_0": "sha256:250b98ddfb20fb5c005bccebc42eda1d3584cb42e0b8a4c98909323d6de500a7"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:5adce54d8d71af223161a4c6e5b7a805fe5fb43480e6a5aa4602412bc2853b60", "1.0.3--pyhdfd78af_0": "sha256:04314bb61d76de28d79e400a7e3341b227103a82db68ca786efcb7470bd7add6", "1.0.5--pyhdfd78af_0": "sha256:250b98ddfb20fb5c005bccebc42eda1d3584cb42e0b8a4c98909323d6de500a7"}, "docker": "quay.io/biocontainers/mzspeclib", "aliases": {"mzspeclib": "/usr/local/bin/mzspeclib", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mzspeclib.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/mzspeclib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mzspeclib:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mzspeclib:1.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mzspeclib/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/mzspeclib/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/mzspeclib/1.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/mzspeclib/1.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "adminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/adminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/adminer/container.yaml"
-updated_at: "2025-06-17 03:20:02.383506"
-latest: "5.2.1"
+updated_at: "2025-06-18 03:18:49.542864"
+latest: "5.3.0"
 container_url: "https://hub.docker.com/_/adminer"
 
 versions:
@@ -19,8 +19,9 @@ versions:
  - "4.17.1"
  - "5.2.1"
  - "5.1.0"
+ - "5.3.0"
 description: "Database management in a single PHP file."
-config: {"docker": "adminer", "url": "https://hub.docker.com/_/adminer", "maintainer": "@vsoch", "description": "Database management in a single PHP file.", "latest": {"5.2.1": "sha256:44926b66af50cc8accc306a0857567e9d1964cfa0214f8e5ce249d25dbdb6801"}, "tags": {"4.8.0-fastcgi": "sha256:5368f087fed03f49e9de8731ee3d9998d7e78391720d500309b5bcde2a401058", "4.8.1": "sha256:34d37131366c5aa84e1693dbed48593ed6f95fb450b576c1a7a59d3a9c9e8802", "4.8.1-fastcgi": "sha256:470601adfd8d1ab5f1006c82ad76022283ce91ea86c56064218514b13b5f7d48", "latest": "sha256:44926b66af50cc8accc306a0857567e9d1964cfa0214f8e5ce249d25dbdb6801", "4": "sha256:27fda9960597e524a79c1c0d8343cd099004da44cd9bb28d62a58d23b14c7c2d", "5": "sha256:44926b66af50cc8accc306a0857567e9d1964cfa0214f8e5ce249d25dbdb6801", "5.0.6": "sha256:82b68b3aad528d09d66ea4cb6930dbc5c8f44317a6bd9d952dcfb99ab00ae601", "4.17.1": "sha256:27fda9960597e524a79c1c0d8343cd099004da44cd9bb28d62a58d23b14c7c2d", "5.2.1": "sha256:44926b66af50cc8accc306a0857567e9d1964cfa0214f8e5ce249d25dbdb6801", "5.1.0": "sha256:0b26fae1673904a6fa4733951be3c3ac906e5921ba140852a8f72bdec894fa15"}}
+config: {"docker": "adminer", "url": "https://hub.docker.com/_/adminer", "maintainer": "@vsoch", "description": "Database management in a single PHP file.", "latest": {"5.3.0": "sha256:5ee6e18fce9d4ec5d2e82c7f2937b414b076908f11963fe175116e561011b305"}, "tags": {"4.8.0-fastcgi": "sha256:5368f087fed03f49e9de8731ee3d9998d7e78391720d500309b5bcde2a401058", "4.8.1": "sha256:34d37131366c5aa84e1693dbed48593ed6f95fb450b576c1a7a59d3a9c9e8802", "4.8.1-fastcgi": "sha256:470601adfd8d1ab5f1006c82ad76022283ce91ea86c56064218514b13b5f7d48", "latest": "sha256:5ee6e18fce9d4ec5d2e82c7f2937b414b076908f11963fe175116e561011b305", "4": "sha256:ea00bd23d9f4930d9c6a600df19d36e6ad8b9264357f24d95cc4a9753c0826a2", "5": "sha256:5ee6e18fce9d4ec5d2e82c7f2937b414b076908f11963fe175116e561011b305", "5.0.6": "sha256:82b68b3aad528d09d66ea4cb6930dbc5c8f44317a6bd9d952dcfb99ab00ae601", "4.17.1": "sha256:ea00bd23d9f4930d9c6a600df19d36e6ad8b9264357f24d95cc4a9753c0826a2", "5.2.1": "sha256:44926b66af50cc8accc306a0857567e9d1964cfa0214f8e5ce249d25dbdb6801", "5.1.0": "sha256:0b26fae1673904a6fa4733951be3c3ac906e5921ba140852a8f72bdec894fa15", "5.3.0": "sha256:5ee6e18fce9d4ec5d2e82c7f2937b414b076908f11963fe175116e561011b305"}}
 ---
 
 This module is a singularity container wrapper for adminer.
@@ -35,7 +36,7 @@ $ shpc install adminer
 Or a specific version:
 
 ```bash
-$ shpc install adminer:5.2.1
+$ shpc install adminer:5.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load adminer/5.2.1
-$ module help adminer/5.2.1
+$ module load adminer/5.3.0
+$ module help adminer/5.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

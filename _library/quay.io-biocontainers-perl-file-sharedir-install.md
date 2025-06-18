@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-file-sharedir-install"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-sharedir-install/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-sharedir-install/container.yaml"
-updated_at: "2025-06-17 03:31:33.410703"
-latest: "0.13--pl526_0"
+updated_at: "2025-06-18 03:30:22.585242"
+latest: "0.14--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-sharedir-install"
 aliases:
  - "perl5.26.2"
  - "podselect"
 versions:
  - "0.13--pl526_0"
+ - "0.14--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-file-sharedir-install"
-config: {"url": "https://biocontainers.pro/tools/perl-file-sharedir-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-sharedir-install", "latest": {"0.13--pl526_0": "sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1"}, "tags": {"0.13--pl526_0": "sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1"}, "docker": "quay.io/biocontainers/perl-file-sharedir-install", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-sharedir-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-sharedir-install", "latest": {"0.14--pl5321hdfd78af_0": "sha256:1f4844f8ca38bd8fa3510f0de703f6c5c31474ab8210b7b1b4b27cb3042baf4b"}, "tags": {"0.13--pl526_0": "sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1", "0.14--pl5321hdfd78af_0": "sha256:1f4844f8ca38bd8fa3510f0de703f6c5c31474ab8210b7b1b4b27cb3042baf4b"}, "docker": "quay.io/biocontainers/perl-file-sharedir-install", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-sharedir-install.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-file-sharedir-install
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-sharedir-install:0.13--pl526_0
+$ shpc install quay.io/biocontainers/perl-file-sharedir-install:0.14--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-sharedir-install/0.13--pl526_0
-$ module help quay.io/biocontainers/perl-file-sharedir-install/0.13--pl526_0
+$ module load quay.io/biocontainers/perl-file-sharedir-install/0.14--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-file-sharedir-install/0.14--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

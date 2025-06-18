@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/twilight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twilight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twilight/container.yaml"
-updated_at: "2025-06-17 03:49:37.883658"
+updated_at: "2025-06-18 03:48:45.685987"
 latest: "0.1.3--h6bb9b41_2"
 container_url: "https://biocontainers.pro/tools/twilight"
 aliases:
