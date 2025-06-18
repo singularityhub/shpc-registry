@@ -2,12 +2,15 @@ url: https://biocontainers.pro/tools/galaxy-ops
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy-ops
 latest:
-  1.1.0--py_2: sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241
+  1.1.0--py_2: 
+    sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241
 tags:
-  1.1.0--py_2: sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241
+  1.1.0--py_2: 
+    sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241
 docker: quay.io/biocontainers/galaxy-ops
 aliases:
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

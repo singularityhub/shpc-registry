@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/biscot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biscot
 latest:
-  2.3.3--pyh7cba7a3_0: sha256:01a513dec4efbf395ea83fb5fccd6e04cb8fbe6cb98117579b4de0943bd78c72
+  2.3.3--pyh7cba7a3_0: 
+    sha256:01a513dec4efbf395ea83fb5fccd6e04cb8fbe6cb98117579b4de0943bd78c72
 tags:
-  2.3.3--pyh7cba7a3_0: sha256:01a513dec4efbf395ea83fb5fccd6e04cb8fbe6cb98117579b4de0943bd78c72
+  2.3.3--pyh7cba7a3_0: 
+    sha256:01a513dec4efbf395ea83fb5fccd6e04cb8fbe6cb98117579b4de0943bd78c72
 docker: quay.io/biocontainers/biscot
 aliases:
   biscot: /usr/local/bin/biscot

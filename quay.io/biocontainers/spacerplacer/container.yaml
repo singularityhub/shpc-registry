@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/spacerplacer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spacerplacer
 latest:
-  1.0.1--pyhdfd78af_0: sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
+  1.0.1--pyhdfd78af_0: 
+    sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
 tags:
-  1.0.1--pyhdfd78af_0: sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
+  1.0.1--pyhdfd78af_0: 
+    sha256:efe0aa076b76775b80d825f3a38cb990c57938d1a3e96f26e10614930cbeb29b
 docker: quay.io/biocontainers/spacerplacer
 aliases:
   dot_sandbox: /usr/local/bin/dot_sandbox

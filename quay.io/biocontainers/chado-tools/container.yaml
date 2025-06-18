@@ -2,18 +2,23 @@ url: https://biocontainers.pro/tools/chado-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chado-tools
 latest:
-  0.2.15--py_0: sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5
+  0.2.15--py_0: 
+    sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5
 tags:
-  0.2.8--py_0: sha256:743862c49d3bb2561e6772922f4c2773857a48fc625e803f0cd32d283dc95662
-  0.2.15--py_0: sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5
+  0.2.8--py_0: 
+    sha256:743862c49d3bb2561e6772922f4c2773857a48fc625e803f0cd32d283dc95662
+  0.2.15--py_0: 
+    sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5
 docker: quay.io/biocontainers/chado-tools
 aliases:
   chado: /usr/local/bin/chado
   pronto: /usr/local/bin/pronto
   gffutils-cli: /usr/local/bin/gffutils-cli
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
   pybabel: /usr/local/bin/pybabel
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   faidx: /usr/local/bin/faidx

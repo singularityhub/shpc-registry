@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/arcsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for arcsv
 latest:
-  1.0.2--hdfd78af_0: sha256:5d41245ef7eb2687bea9b2e604ee89a9696b9889370b35069a976ea42da15540
+  1.0.2--hdfd78af_0: 
+    sha256:5d41245ef7eb2687bea9b2e604ee89a9696b9889370b35069a976ea42da15540
 tags:
-  1.0.2--hdfd78af_0: sha256:5d41245ef7eb2687bea9b2e604ee89a9696b9889370b35069a976ea42da15540
+  1.0.2--hdfd78af_0: 
+    sha256:5d41245ef7eb2687bea9b2e604ee89a9696b9889370b35069a976ea42da15540
 docker: quay.io/biocontainers/arcsv
 aliases:
   ArcSV: /usr/local/bin/ArcSV

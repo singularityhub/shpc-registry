@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phylopypruner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phylopypruner
 latest:
-  1.2.6--pyhdfd78af_0: sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f
+  1.2.6--pyhdfd78af_0: 
+    sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f
 tags:
-  1.2.6--pyhdfd78af_0: sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f
+  1.2.6--pyhdfd78af_0: 
+    sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f
 docker: quay.io/biocontainers/phylopypruner
 aliases:
   phylopypruner: /usr/local/bin/phylopypruner

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/saspector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for saspector
 latest:
-  0.0.5--pyhdfd78af_0: sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
+  0.0.5--pyhdfd78af_0: 
+    sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
 tags:
-  0.0.5--pyhdfd78af_0: sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
+  0.0.5--pyhdfd78af_0: 
+    sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
 docker: quay.io/biocontainers/saspector
 aliases:
   SASpector: /usr/local/bin/SASpector

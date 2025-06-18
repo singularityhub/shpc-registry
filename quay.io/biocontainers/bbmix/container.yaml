@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bbmix
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bbmix
 latest:
-  0.2.2--pyhdfd78af_0: sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
+  0.2.2--pyhdfd78af_0: 
+    sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
 tags:
-  0.2.2--pyhdfd78af_0: sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
+  0.2.2--pyhdfd78af_0: 
+    sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
 docker: quay.io/biocontainers/bbmix
 aliases:
   qconvex: /usr/local/bin/qconvex

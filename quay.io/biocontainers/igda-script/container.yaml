@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/igda-script
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igda-script
 latest:
-  1.0.1--hdfd78af_0: sha256:25f3cd265886e95fb92cc42a3d5e82503b01659e6778685a9e0f15246cafe43d
+  1.0.1--hdfd78af_0: 
+    sha256:25f3cd265886e95fb92cc42a3d5e82503b01659e6778685a9e0f15246cafe43d
 tags:
-  1.0.1--hdfd78af_0: sha256:25f3cd265886e95fb92cc42a3d5e82503b01659e6778685a9e0f15246cafe43d
+  1.0.1--hdfd78af_0: 
+    sha256:25f3cd265886e95fb92cc42a3d5e82503b01659e6778685a9e0f15246cafe43d
 docker: quay.io/biocontainers/igda-script
 aliases:
   add_gq_to_vcf: /usr/local/bin/add_gq_to_vcf
@@ -125,7 +127,8 @@ aliases:
   getsnvfreq_by_interval: /usr/local/bin/getsnvfreq_by_interval
   getuniqgenomealign: /usr/local/bin/getuniqgenomealign
   getuniqgenomealign_interval: /usr/local/bin/getuniqgenomealign_interval
-  getuniqgenomealign_sample_names: /usr/local/bin/getuniqgenomealign_sample_names
+  getuniqgenomealign_sample_names: 
+    /usr/local/bin/getuniqgenomealign_sample_names
   getuniqrows: /usr/local/bin/getuniqrows
   getuniqsnv: /usr/local/bin/getuniqsnv
   getuniqsnv_dir: /usr/local/bin/getuniqsnv_dir

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hat-phasing
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hat-phasing
 latest:
-  0.1.8--pyh5e36f6f_0: sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
+  0.1.8--pyh5e36f6f_0: 
+    sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
 tags:
-  0.1.8--pyh5e36f6f_0: sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
+  0.1.8--pyh5e36f6f_0: 
+    sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
 docker: quay.io/biocontainers/hat-phasing
 aliases:
   HAT: /usr/local/bin/HAT

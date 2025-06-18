@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/slamdunk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slamdunk
 latest:
-  0.4.3--py_0: sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
+  0.4.3--py_0: 
+    sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
 tags:
-  0.4.3--py_0: sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
+  0.4.3--py_0: 
+    sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
 docker: quay.io/biocontainers/slamdunk
 aliases:
   addr2line: /usr/local/bin/addr2line

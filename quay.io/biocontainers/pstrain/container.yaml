@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pstrain
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pstrain
 latest:
-  1.0.3--h9ee0642_0: sha256:abf2b54cf286247dab72e52f881c8da3d1d17a6c92ae457218778219e9237eb3
+  1.0.3--h9ee0642_0: 
+    sha256:abf2b54cf286247dab72e52f881c8da3d1d17a6c92ae457218778219e9237eb3
 tags:
-  1.0.3--h9ee0642_0: sha256:abf2b54cf286247dab72e52f881c8da3d1d17a6c92ae457218778219e9237eb3
+  1.0.3--h9ee0642_0: 
+    sha256:abf2b54cf286247dab72e52f881c8da3d1d17a6c92ae457218778219e9237eb3
 docker: quay.io/biocontainers/pstrain
 aliases:
   GenomeAnalysisTK.jar: /usr/local/bin/GenomeAnalysisTK.jar
@@ -28,7 +30,8 @@ aliases:
   phylophlan_setup_database: /usr/local/bin/phylophlan_setup_database
   phylophlan_strain_finder: /usr/local/bin/phylophlan_strain_finder
   phylophlan_write_config_file: /usr/local/bin/phylophlan_write_config_file
-  phylophlan_write_default_configs.sh: /usr/local/bin/phylophlan_write_default_configs.sh
+  phylophlan_write_default_configs.sh: 
+    /usr/local/bin/phylophlan_write_default_configs.sh
   picard.jar: /usr/local/bin/picard.jar
   pipeline.py: /usr/local/bin/pipeline.py
   pipeline_V30.py: /usr/local/bin/pipeline_V30.py

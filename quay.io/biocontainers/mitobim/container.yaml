@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mitobim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mitobim
 latest:
-  1.9.1--hdfd78af_1: sha256:0e64e7e086bb0c369747abd9871cae67d1163424da4c655d237b814f65d75968
+  1.9.1--hdfd78af_1: 
+    sha256:0e64e7e086bb0c369747abd9871cae67d1163424da4c655d237b814f65d75968
 tags:
-  1.9.1--hdfd78af_1: sha256:0e64e7e086bb0c369747abd9871cae67d1163424da4c655d237b814f65d75968
+  1.9.1--hdfd78af_1: 
+    sha256:0e64e7e086bb0c369747abd9871cae67d1163424da4c655d237b814f65d75968
 docker: quay.io/biocontainers/mitobim
 aliases:
   MITObim.pl: /usr/local/bin/MITObim.pl

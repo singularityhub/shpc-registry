@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/socksipy-branch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for socksipy-branch
 latest:
-  1.01--py_1: sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356
+  1.01--py_1: 
+    sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356
 tags:
-  1.01--py_1: sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356
+  1.01--py_1: 
+    sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356
 docker: quay.io/biocontainers/socksipy-branch
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

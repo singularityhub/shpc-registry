@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ensembl-genomio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ensembl-genomio
 latest:
-  1.6.1--pyhdfd78af_0: sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
+  1.6.1--pyhdfd78af_0: 
+    sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
 tags:
-  1.6.1--pyhdfd78af_0: sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
+  1.6.1--pyhdfd78af_0: 
+    sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
 docker: quay.io/biocontainers/ensembl-genomio
 aliases:
   annotation_update_description: /usr/local/bin/annotation_update_description
@@ -37,7 +39,8 @@ aliases:
   spython: /usr/local/bin/spython
   dotenv: /usr/local/bin/dotenv
   pybabel: /usr/local/bin/pybabel
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

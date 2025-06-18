@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bamsurgeon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bamsurgeon
 latest:
-  1.4.1--pyhdfd78af_0: sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
+  1.4.1--pyhdfd78af_0: 
+    sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
 tags:
-  1.4.1--pyhdfd78af_0: sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
+  1.4.1--pyhdfd78af_0: 
+    sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
 docker: quay.io/biocontainers/bamsurgeon
 aliases:
   addindel.py: /usr/local/bin/addindel.py

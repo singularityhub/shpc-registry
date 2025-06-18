@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mvirs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mvirs
 latest:
-  1.1.1--pyhdfd78af_0: sha256:ab69cb32229f1cf0a47a929875402efe01d175fd3a62175f4330902ea5ccce87
+  1.1.1--pyhdfd78af_0: 
+    sha256:ab69cb32229f1cf0a47a929875402efe01d175fd3a62175f4330902ea5ccce87
 tags:
-  1.1.1--pyhdfd78af_0: sha256:ab69cb32229f1cf0a47a929875402efe01d175fd3a62175f4330902ea5ccce87
+  1.1.1--pyhdfd78af_0: 
+    sha256:ab69cb32229f1cf0a47a929875402efe01d175fd3a62175f4330902ea5ccce87
 docker: quay.io/biocontainers/mvirs
 aliases:
   mvirs: /usr/local/bin/mvirs

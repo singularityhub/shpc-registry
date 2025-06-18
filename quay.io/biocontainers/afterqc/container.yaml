@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/afterqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for afterqc
 latest:
-  0.9.7--hdfd78af_4: sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60
+  0.9.7--hdfd78af_4: 
+    sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60
 tags:
-  0.9.7--hdfd78af_4: sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60
+  0.9.7--hdfd78af_4: 
+    sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60
 docker: quay.io/biocontainers/afterqc
 aliases:
   after.py: /usr/local/bin/after.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-beyondcell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-beyondcell
 latest:
-  1.3.3--r42h9ee0642_1: sha256:4589879b941c714daf80ab2ecd1d879b40f2d1be317149695caa25ba0d706a0b
+  1.3.3--r42h9ee0642_1: 
+    sha256:4589879b941c714daf80ab2ecd1d879b40f2d1be317149695caa25ba0d706a0b
 tags:
-  1.3.3--r42h9ee0642_1: sha256:4589879b941c714daf80ab2ecd1d879b40f2d1be317149695caa25ba0d706a0b
+  1.3.3--r42h9ee0642_1: 
+    sha256:4589879b941c714daf80ab2ecd1d879b40f2d1be317149695caa25ba0d706a0b
 docker: quay.io/biocontainers/r-beyondcell
 aliases:
   geosop: /usr/local/bin/geosop

@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-hmyrib36
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-hmyrib36
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-hmyrib36
 latest:
-  1.26.0--r40hdfd78af_1: sha256:2029909334cb3198fc3ae06d07fe59f3cb9ff9944ad5a4280c5d36a4429c2901
+  1.26.0--r40hdfd78af_1: 
+    sha256:2029909334cb3198fc3ae06d07fe59f3cb9ff9944ad5a4280c5d36a4429c2901
 tags:
-  1.26.0--r40hdfd78af_1: sha256:2029909334cb3198fc3ae06d07fe59f3cb9ff9944ad5a4280c5d36a4429c2901
+  1.26.0--r40hdfd78af_1: 
+    sha256:2029909334cb3198fc3ae06d07fe59f3cb9ff9944ad5a4280c5d36a4429c2901
 docker: quay.io/biocontainers/bioconductor-hmyrib36
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

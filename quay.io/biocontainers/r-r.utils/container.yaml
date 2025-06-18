@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-r.utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-r.utils
 latest:
-  2.5.0--r3.3.1_0: sha256:94d04a6ddb735ad74f51fc9b7fd7487de3f6f409fbde31fe6ef1357e089f9a34
+  2.5.0--r3.3.1_0: 
+    sha256:94d04a6ddb735ad74f51fc9b7fd7487de3f6f409fbde31fe6ef1357e089f9a34
 tags:
-  2.5.0--r3.3.1_0: sha256:94d04a6ddb735ad74f51fc9b7fd7487de3f6f409fbde31fe6ef1357e089f9a34
-  2.5.0--r3.3.2_0: sha256:7946117f05bc61b795953bedecf829070c423297519bf547ee03c3f869fe6dbd
+  2.5.0--r3.3.1_0: 
+    sha256:94d04a6ddb735ad74f51fc9b7fd7487de3f6f409fbde31fe6ef1357e089f9a34
+  2.5.0--r3.3.2_0: 
+    sha256:7946117f05bc61b795953bedecf829070c423297519bf547ee03c3f869fe6dbd
 docker: quay.io/biocontainers/r-r.utils
 aliases:
   uconv: /usr/local/bin/uconv

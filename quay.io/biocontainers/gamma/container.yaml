@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gamma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gamma
 latest:
-  2.2--hdfd78af_0: sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249
+  2.2--hdfd78af_0: 
+    sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249
 tags:
-  2.2--hdfd78af_0: sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249
+  2.2--hdfd78af_0: 
+    sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249
 docker: quay.io/biocontainers/gamma
 aliases:
   GAMMA-S.py: /usr/local/bin/GAMMA-S.py

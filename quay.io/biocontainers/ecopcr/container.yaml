@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ecopcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ecopcr
 latest:
-  0.5.0--py27_1: sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930
+  0.5.0--py27_1: 
+    sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930
 tags:
-  0.5.0--py27_1: sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930
+  0.5.0--py27_1: 
+    sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930
 docker: quay.io/biocontainers/ecopcr
 aliases:
   ecoPCR: /usr/local/bin/ecoPCR

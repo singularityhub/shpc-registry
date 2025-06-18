@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-bio-searchio-hmmer
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for perl-bio-searchio-hmmer
+description: singularity registry hpc automated addition for 
+  perl-bio-searchio-hmmer
 latest:
-  1.7.3--pl5321hdfd78af_0: sha256:7af398e6d0d9a95613ea46f060b9af2b1f8caa02304b88aea6c685acb1d49e82
+  1.7.3--pl5321hdfd78af_0: 
+    sha256:7af398e6d0d9a95613ea46f060b9af2b1f8caa02304b88aea6c685acb1d49e82
 tags:
-  1.7.3--pl5321hdfd78af_0: sha256:7af398e6d0d9a95613ea46f060b9af2b1f8caa02304b88aea6c685acb1d49e82
+  1.7.3--pl5321hdfd78af_0: 
+    sha256:7af398e6d0d9a95613ea46f060b9af2b1f8caa02304b88aea6c685acb1d49e82
 docker: quay.io/biocontainers/perl-bio-searchio-hmmer
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

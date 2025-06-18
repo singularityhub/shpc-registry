@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-spiffy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-spiffy
 latest:
-  0.46--pl5321hdfd78af_4: sha256:f42fe5c3e7cd9269aa59d4991f60131919181eb0be623c958f1e9375707940bc
+  0.46--pl5321hdfd78af_4: 
+    sha256:f42fe5c3e7cd9269aa59d4991f60131919181eb0be623c958f1e9375707940bc
 tags:
-  0.46--pl5321hdfd78af_4: sha256:f42fe5c3e7cd9269aa59d4991f60131919181eb0be623c958f1e9375707940bc
+  0.46--pl5321hdfd78af_4: 
+    sha256:f42fe5c3e7cd9269aa59d4991f60131919181eb0be623c958f1e9375707940bc
 docker: quay.io/biocontainers/perl-spiffy
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

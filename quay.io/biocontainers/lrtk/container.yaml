@@ -2,17 +2,25 @@ url: https://biocontainers.pro/tools/lrtk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lrtk
 latest:
-  2.0--pyh7cba7a3_0: sha256:ca7b8c93574aaac62151506a79df9cc4799e58b2103029c321ebe6d7524fd69f
+  2.0--pyh7cba7a3_0: 
+    sha256:ca7b8c93574aaac62151506a79df9cc4799e58b2103029c321ebe6d7524fd69f
 tags:
-  1.5--pyh5e36f6f_0: sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3
-  1.6--pyh7cba7a3_0: sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144
-  1.9--pyh7cba7a3_0: sha256:5909742ba040b8e196f9202d0c299004e402c0dca8b4445a8e08f895ff7a8dc0
-  1.8--pyh7cba7a3_0: sha256:561651a0307ac565ce2b28911cca983f3746692919a41c11be69355c1825d186
-  1.7--pyh7cba7a3_0: sha256:c3b8ab319a75a03422d6f71fc87843ccdac5065e48f11232c30063179b42bee6
-  2.0--pyh7cba7a3_0: sha256:ca7b8c93574aaac62151506a79df9cc4799e58b2103029c321ebe6d7524fd69f
+  1.5--pyh5e36f6f_0: 
+    sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3
+  1.6--pyh7cba7a3_0: 
+    sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144
+  1.9--pyh7cba7a3_0: 
+    sha256:5909742ba040b8e196f9202d0c299004e402c0dca8b4445a8e08f895ff7a8dc0
+  1.8--pyh7cba7a3_0: 
+    sha256:561651a0307ac565ce2b28911cca983f3746692919a41c11be69355c1825d186
+  1.7--pyh7cba7a3_0: 
+    sha256:c3b8ab319a75a03422d6f71fc87843ccdac5065e48f11232c30063179b42bee6
+  2.0--pyh7cba7a3_0: 
+    sha256:ca7b8c93574aaac62151506a79df9cc4799e58b2103029c321ebe6d7524fd69f
 docker: quay.io/biocontainers/lrtk
 aliases:
-  Aquila_assembly_based_variants_call: /usr/local/bin/Aquila_assembly_based_variants_call
+  Aquila_assembly_based_variants_call: 
+    /usr/local/bin/Aquila_assembly_based_variants_call
   Aquila_clean: /usr/local/bin/Aquila_clean
   Aquila_phasing_all_variants: /usr/local/bin/Aquila_phasing_all_variants
   Aquila_step0_sortbam: /usr/local/bin/Aquila_step0_sortbam
@@ -23,7 +31,8 @@ aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   HAPCUT2: /usr/local/bin/HAPCUT2
   LinkFragments.py: /usr/local/bin/LinkFragments.py
-  calculate_haplotype_statistics.py: /usr/local/bin/calculate_haplotype_statistics.py
+  calculate_haplotype_statistics.py: 
+    /usr/local/bin/calculate_haplotype_statistics.py
   extractHAIRS: /usr/local/bin/extractHAIRS
   gatk-register: /usr/local/bin/gatk-register
   hapcut2: /usr/local/bin/hapcut2
@@ -42,7 +51,8 @@ aliases:
   dc: /usr/local/bin/dc
   fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
   freebayes-parallel: /usr/local/bin/freebayes-parallel
-  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
   abba-baba: /usr/local/bin/abba-baba
   bFst: /usr/local/bin/bFst
   bed2region: /usr/local/bin/bed2region
