@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/feems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/feems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/feems/container.yaml"
-updated_at: "2025-06-18 03:49:40.004323"
+updated_at: "2025-06-19 03:49:55.202634"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/feems"
 aliases:

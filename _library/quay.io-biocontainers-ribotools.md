@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotools/container.yaml"
-updated_at: "2025-06-18 03:59:57.306542"
+updated_at: "2025-06-19 04:00:25.695823"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribotools"
 aliases:

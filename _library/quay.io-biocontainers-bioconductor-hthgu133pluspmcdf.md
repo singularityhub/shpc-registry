@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hthgu133pluspmcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hthgu133pluspmcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hthgu133pluspmcdf/container.yaml"
-updated_at: "2025-06-18 03:20:14.475695"
+updated_at: "2025-06-19 03:20:58.185130"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-hthgu133pluspmcdf"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-datetime-timezone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-timezone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-timezone/container.yaml"
-updated_at: "2025-06-18 04:06:07.010538"
+updated_at: "2025-06-19 04:06:40.034024"
 latest: "2.52--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/perl-datetime-timezone"
 aliases:
