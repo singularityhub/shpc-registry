@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mmdb2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mmdb2
+latest:
+  2.0.22--h5ca1c30_1: 
+    sha256:eb0a4cff44d27e98be22951cfb514c31c434956a6c99b5c79a3b29b1ca9c0479
+tags:
+  2.0.22--h5ca1c30_1: 
+    sha256:eb0a4cff44d27e98be22951cfb514c31c434956a6c99b5c79a3b29b1ca9c0479
+docker: quay.io/biocontainers/mmdb2
+aliases:
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin

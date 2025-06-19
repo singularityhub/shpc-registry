@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/madre
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for madre
+latest:
+  0.0.4--pyhdfd78af_0: 
+    sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228
+tags:
+  0.0.4--pyhdfd78af_0: 
+    sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228
+docker: quay.io/biocontainers/madre
+aliases:
+  calculate-abundances: /usr/local/bin/calculate-abundances
+  database-reduction: /usr/local/bin/database-reduction
+  madre: /usr/local/bin/madre
+  read-classification: /usr/local/bin/read-classification
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
