@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scglue
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scglue
 latest:
-  0.3.2--pyhdfd78af_0: sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6
+  0.3.2--pyhdfd78af_0: 
+    sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6
 tags:
-  0.3.2--pyhdfd78af_0: sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6
+  0.3.2--pyhdfd78af_0: 
+    sha256:ea72cbd88acdcb09d6c3eedc1617fc5451002e8760fe3758d650db12dd8d7fc6
 docker: quay.io/biocontainers/scglue
 aliases:
   torchrun: /usr/local/bin/torchrun

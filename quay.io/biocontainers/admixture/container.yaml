@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/admixture
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for admixture
 latest:
-  1.3.0--0: sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45
+  1.3.0--0: 
+    sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45
 tags:
-  1.3.0--0: sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45
+  1.3.0--0: 
+    sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45
 docker: quay.io/biocontainers/admixture
 aliases:
   admixture: /usr/local/bin/admixture

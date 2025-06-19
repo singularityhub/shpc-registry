@@ -1,13 +1,17 @@
 docker: ghcr.io/autamus/legion
 url: https://github.com/orgs/autamus/packages/container/package/legion
 maintainer: '@vsoch'
-description: Legion is a data-centric parallel programming system for writing portable
-  high performance programs targeted at distributed heterogeneous architectures.
+description: Legion is a data-centric parallel programming system for writing 
+  portable high performance programs targeted at distributed heterogeneous 
+  architectures.
 latest:
-  21.03.0: sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
+  21.03.0: 
+    sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
 tags:
-  21.03.0: sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
-  latest: sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
+  21.03.0: 
+    sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
+  latest: 
+    sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c
 aliases:
   legion_prof.py: /opt/view/bin/legion_prof.py
   legion_serializer.py: /opt/view/bin/legion_serializer.py

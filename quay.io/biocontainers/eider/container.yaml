@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/eider
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eider
 latest:
-  0.1--hdfd78af_0: sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0
+  0.1--hdfd78af_0: 
+    sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0
 tags:
-  0.1--hdfd78af_0: sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0
+  0.1--hdfd78af_0: 
+    sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0
 docker: quay.io/biocontainers/eider
 aliases:
   eider: /usr/local/bin/eider

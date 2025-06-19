@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/r-robustrankaggreg
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for r-robustrankaggreg
+description: shpc-registry automated BioContainers addition for 
+  r-robustrankaggreg
 latest:
-  1.1--r3.2.2_0: sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f
+  1.1--r3.2.2_0: 
+    sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f
 tags:
-  1.1--r3.2.2_0: sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f
-  1.1--r3.4.1_0: sha256:4a697deba7df65f8c97e5c810dffc2c818e84612deb0786ae34d277415b80f7e
+  1.1--r3.2.2_0: 
+    sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f
+  1.1--r3.4.1_0: 
+    sha256:4a697deba7df65f8c97e5c810dffc2c818e84612deb0786ae34d277415b80f7e
 docker: quay.io/biocontainers/r-robustrankaggreg
 aliases:
   pngcp: /usr/local/bin/pngcp

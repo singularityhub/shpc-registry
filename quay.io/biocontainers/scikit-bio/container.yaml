@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/scikit-bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scikit-bio
 latest:
-  0.4.2--np112py35_0: sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6
+  0.4.2--np112py35_0: 
+    sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6
 tags:
-  0.4.2--np112py35_0: sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6
-  0.4.2--np112py27_0: sha256:6c70893a8f601abbcda5dfdef34ef4644d1545ea785ebc3e8fba700454a861f1
+  0.4.2--np112py35_0: 
+    sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6
+  0.4.2--np112py27_0: 
+    sha256:6c70893a8f601abbcda5dfdef34ef4644d1545ea785ebc3e8fba700454a861f1
 docker: quay.io/biocontainers/scikit-bio
 aliases:
   nosetests-3.5: /usr/local/bin/nosetests-3.5

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/fpa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fpa
 latest:
-  0.5--hbcae180_2: sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66
+  0.5--hbcae180_2: 
+    sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66
 tags:
-  0.5--hbcae180_2: sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66
+  0.5--hbcae180_2: 
+    sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66
 docker: quay.io/biocontainers/fpa
 aliases:
   fpa: /usr/local/bin/fpa

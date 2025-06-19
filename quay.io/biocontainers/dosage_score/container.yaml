@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dosage_score
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dosage_score
 latest:
-  1.0.0--pyhdfd78af_0: sha256:be3d45111cd73763039c83a10938a4cc8d96c85b6edf8877ee32f7706cbab084
+  1.0.0--pyhdfd78af_0: 
+    sha256:be3d45111cd73763039c83a10938a4cc8d96c85b6edf8877ee32f7706cbab084
 tags:
-  1.0.0--pyhdfd78af_0: sha256:be3d45111cd73763039c83a10938a4cc8d96c85b6edf8877ee32f7706cbab084
+  1.0.0--pyhdfd78af_0: 
+    sha256:be3d45111cd73763039c83a10938a4cc8d96c85b6edf8877ee32f7706cbab084
 docker: quay.io/biocontainers/dosage_score
 aliases:
   dosage_score: /usr/local/bin/dosage_score

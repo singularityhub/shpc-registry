@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-mitoodedata
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mitoodedata
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mitoodedata
 latest:
-  1.26.0--r40hdfd78af_1: sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
+  1.26.0--r40hdfd78af_1: 
+    sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
 tags:
-  1.26.0--r40hdfd78af_1: sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
+  1.26.0--r40hdfd78af_1: 
+    sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
 docker: quay.io/biocontainers/bioconductor-mitoodedata
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

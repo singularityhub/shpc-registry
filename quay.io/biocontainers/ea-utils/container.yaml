@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ea-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ea-utils
 latest:
-  1.1.2.779--h543ed2d_2: sha256:35e5bcaaf423f9f49e6ebeff426687974b8ab51d46befd189b82bb2d6dd08496
+  1.1.2.779--h543ed2d_2: 
+    sha256:35e5bcaaf423f9f49e6ebeff426687974b8ab51d46befd189b82bb2d6dd08496
 tags:
-  1.1.2.779--h543ed2d_2: sha256:35e5bcaaf423f9f49e6ebeff426687974b8ab51d46befd189b82bb2d6dd08496
+  1.1.2.779--h543ed2d_2: 
+    sha256:35e5bcaaf423f9f49e6ebeff426687974b8ab51d46befd189b82bb2d6dd08496
 docker: quay.io/biocontainers/ea-utils
 aliases:
   alc: /usr/local/bin/alc

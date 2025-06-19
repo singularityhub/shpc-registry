@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/rjchallis-assembly-stats
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for rjchallis-assembly-stats
+description: shpc-registry automated BioContainers addition for 
+  rjchallis-assembly-stats
 latest:
-  17.02--hdfd78af_0: sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50
+  17.02--hdfd78af_0: 
+    sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50
 tags:
-  17.02--hdfd78af_0: sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50
+  17.02--hdfd78af_0: 
+    sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50
 docker: quay.io/biocontainers/rjchallis-assembly-stats
 aliases:
   asm2stats.minmaxgc.pl: /usr/local/bin/asm2stats.minmaxgc.pl

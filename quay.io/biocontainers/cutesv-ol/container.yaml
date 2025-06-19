@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cutesv-ol
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cutesv-ol
 latest:
-  1.0.1--py312h7b50bb2_0: sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b
+  1.0.1--py312h7b50bb2_0: 
+    sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b
 tags:
-  1.0.1--py312h7b50bb2_0: sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b
+  1.0.1--py312h7b50bb2_0: 
+    sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b
 docker: quay.io/biocontainers/cutesv-ol
 aliases:
   cuteSV: /usr/local/bin/cuteSV

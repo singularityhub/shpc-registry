@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/jacusa2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jacusa2
 latest:
-  2.0.4--hdfd78af_0: sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
+  2.0.4--hdfd78af_0: 
+    sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
 tags:
-  2.0.4--hdfd78af_0: sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
+  2.0.4--hdfd78af_0: 
+    sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1
 docker: quay.io/biocontainers/jacusa2
 aliases:
   JACUSA2: /usr/local/bin/JACUSA2

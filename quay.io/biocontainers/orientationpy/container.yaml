@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/orientationpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orientationpy
 latest:
-  0.2.0.4--pyhdfd78af_0: sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
+  0.2.0.4--pyhdfd78af_0: 
+    sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
 tags:
-  0.2.0.4--pyhdfd78af_0: sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
+  0.2.0.4--pyhdfd78af_0: 
+    sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
 docker: quay.io/biocontainers/orientationpy
 aliases:
   numba: /usr/local/bin/numba

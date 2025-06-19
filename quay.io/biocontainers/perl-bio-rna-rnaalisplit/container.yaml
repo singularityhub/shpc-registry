@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit
+description: shpc-registry automated BioContainers addition for 
+  perl-bio-rna-rnaalisplit
 latest:
-  0.11--pl5321hdfd78af_0: sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
+  0.11--pl5321hdfd78af_0: 
+    sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
 tags:
-  v0.09--pl526_0: sha256:049a1e17d7c79397e4aba07ce740c2842bc82b670780b0b65b4641b687fef7d1
-  0.11--pl5321hdfd78af_0: sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
+  v0.09--pl526_0: 
+    sha256:049a1e17d7c79397e4aba07ce740c2842bc82b670780b0b65b4641b687fef7d1
+  0.11--pl5321hdfd78af_0: 
+    sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
 docker: quay.io/biocontainers/perl-bio-rna-rnaalisplit
 aliases:
   FUNCS.pm: /usr/local/bin/FUNCS.pm
@@ -17,7 +21,8 @@ aliases:
   R-view: /usr/local/bin/R-view
   RNAalisplit.pl: /usr/local/bin/RNAalisplit.pl
   RNAz: /usr/local/bin/RNAz
-  SelectSubFamilyFromStockholm.pl: /usr/local/bin/SelectSubFamilyFromStockholm.pl
+  SelectSubFamilyFromStockholm.pl: 
+    /usr/local/bin/SelectSubFamilyFromStockholm.pl
   Stockholm.pm: /usr/local/bin/Stockholm.pm
   appcov: /usr/local/bin/appcov
   eval_alignment.pl: /usr/local/bin/eval_alignment.pl

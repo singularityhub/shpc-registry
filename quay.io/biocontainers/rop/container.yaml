@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rop
 latest:
-  1.1.2--py27heb79e2c_3: sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
+  1.1.2--py27heb79e2c_3: 
+    sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
 tags:
-  1.1.2--py27heb79e2c_3: sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
+  1.1.2--py27heb79e2c_3: 
+    sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
 docker: quay.io/biocontainers/rop
 aliases:
   bam2fastx: /usr/local/bin/bam2fastx
@@ -24,8 +26,10 @@ aliases:
   fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
   fastx_clipper: /usr/local/bin/fastx_clipper
   fastx_collapser: /usr/local/bin/fastx_collapser
-  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
-  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_nucleotide_distribution_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
   fastx_quality_stats: /usr/local/bin/fastx_quality_stats
   fastx_renamer: /usr/local/bin/fastx_renamer
   fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/parallel-virfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for parallel-virfinder
 latest:
-  0.3.1--py310hdfd78af_0: sha256:271b7e00bf3d4201a5c9a62de90518236b8c5d58d2703eb7b0c7f858a8cb5942
+  0.3.1--py310hdfd78af_0: 
+    sha256:271b7e00bf3d4201a5c9a62de90518236b8c5d58d2703eb7b0c7f858a8cb5942
 tags:
-  0.3.1--py310hdfd78af_0: sha256:271b7e00bf3d4201a5c9a62de90518236b8c5d58d2703eb7b0c7f858a8cb5942
+  0.3.1--py310hdfd78af_0: 
+    sha256:271b7e00bf3d4201a5c9a62de90518236b8c5d58d2703eb7b0c7f858a8cb5942
 docker: quay.io/biocontainers/parallel-virfinder
 aliases:
   dadaist2-mergeseqs: /usr/local/bin/dadaist2-mergeseqs

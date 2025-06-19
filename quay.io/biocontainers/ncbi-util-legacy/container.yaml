@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ncbi-util-legacy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-util-legacy
 latest:
-  6.1--h0e27e84_3: sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
+  6.1--h0e27e84_3: 
+    sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
 tags:
-  6.1--h0e27e84_3: sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
+  6.1--h0e27e84_3: 
+    sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
 docker: quay.io/biocontainers/ncbi-util-legacy
 aliases:
   Nentrez: /usr/local/bin/Nentrez

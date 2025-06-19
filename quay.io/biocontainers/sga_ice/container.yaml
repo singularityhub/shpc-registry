@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sga_ice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sga_ice
 latest:
-  1.01--hdfd78af_0: sha256:e4d6af4ff2a6499d0960eccc4d99f396345d4b2e74cb4ad261f34ca1f006d623
+  1.01--hdfd78af_0: 
+    sha256:e4d6af4ff2a6499d0960eccc4d99f396345d4b2e74cb4ad261f34ca1f006d623
 tags:
-  1.01--hdfd78af_0: sha256:e4d6af4ff2a6499d0960eccc4d99f396345d4b2e74cb4ad261f34ca1f006d623
+  1.01--hdfd78af_0: 
+    sha256:e4d6af4ff2a6499d0960eccc4d99f396345d4b2e74cb4ad261f34ca1f006d623
 docker: quay.io/biocontainers/sga_ice
 aliases:
   SGA-ICE.py: /usr/local/bin/SGA-ICE.py

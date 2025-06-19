@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/genomics-data-index
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genomics-data-index
 latest:
-  0.9.2--pyhdfd78af_0: sha256:ca4f20e31807c9321384e179c6c6932eaef2cf4a21d9e484bbf1792d20f21905
+  0.9.2--pyhdfd78af_0: 
+    sha256:ca4f20e31807c9321384e179c6c6932eaef2cf4a21d9e484bbf1792d20f21905
 tags:
-  0.9.2--pyhdfd78af_0: sha256:ca4f20e31807c9321384e179c6c6932eaef2cf4a21d9e484bbf1792d20f21905
+  0.9.2--pyhdfd78af_0: 
+    sha256:ca4f20e31807c9321384e179c6c6932eaef2cf4a21d9e484bbf1792d20f21905
 docker: quay.io/biocontainers/genomics-data-index
 aliases:
   attr: /usr/local/bin/attr

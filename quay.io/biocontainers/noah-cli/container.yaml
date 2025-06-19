@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/noah-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for noah-cli
 latest:
-  0.2.0--pyhdfd78af_0: sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
+  0.2.0--pyhdfd78af_0: 
+    sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
 tags:
-  0.2.0--pyhdfd78af_0: sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
+  0.2.0--pyhdfd78af_0: 
+    sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
 docker: quay.io/biocontainers/noah-cli
 aliases:
   fab: /usr/local/bin/fab

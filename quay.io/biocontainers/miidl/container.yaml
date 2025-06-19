@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/miidl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for miidl
 latest:
-  0.0.5--pyh5e36f6f_0: sha256:f7695d4ba7ae1d34002d626b3ce9c6ce9c519ce2fcbff289a24e2c480a47096f
+  0.0.5--pyh5e36f6f_0: 
+    sha256:f7695d4ba7ae1d34002d626b3ce9c6ce9c519ce2fcbff289a24e2c480a47096f
 tags:
-  0.0.5--pyh5e36f6f_0: sha256:f7695d4ba7ae1d34002d626b3ce9c6ce9c519ce2fcbff289a24e2c480a47096f
+  0.0.5--pyh5e36f6f_0: 
+    sha256:f7695d4ba7ae1d34002d626b3ce9c6ce9c519ce2fcbff289a24e2c480a47096f
 docker: quay.io/biocontainers/miidl
 aliases:
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx

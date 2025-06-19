@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-matrixeqtl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-matrixeqtl
 latest:
-  2.1.1--r3.3.1_0: sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a
+  2.1.1--r3.3.1_0: 
+    sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a
 tags:
-  2.1.1--r3.3.1_0: sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a
-  2.1.1--r3.4.1_0: sha256:8c380999661833964d8286b268d0b5f0e95fcbeaace83743c8e71b3a758822e6
+  2.1.1--r3.3.1_0: 
+    sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a
+  2.1.1--r3.4.1_0: 
+    sha256:8c380999661833964d8286b268d0b5f0e95fcbeaace83743c8e71b3a758822e6
 docker: quay.io/biocontainers/r-matrixeqtl
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

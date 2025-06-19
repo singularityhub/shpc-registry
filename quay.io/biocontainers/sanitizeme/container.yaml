@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sanitizeme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sanitizeme
 latest:
-  1.1--hdfd78af_2: sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
+  1.1--hdfd78af_2: 
+    sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
 tags:
-  1.1--hdfd78af_2: sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
+  1.1--hdfd78af_2: 
+    sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
 docker: quay.io/biocontainers/sanitizeme
 aliases:
   SanitizeMePaired_CLI.py: /usr/local/bin/SanitizeMePaired_CLI.py

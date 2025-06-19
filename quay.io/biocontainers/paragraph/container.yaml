@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/paragraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for paragraph
 latest:
-  2.3--h21f15d8_1: sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
+  2.3--h21f15d8_1: 
+    sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
 tags:
-  2.3--h21f15d8_1: sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
+  2.3--h21f15d8_1: 
+    sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
 docker: quay.io/biocontainers/paragraph
 aliases:
   __init__.py: /usr/local/bin/__init__.py

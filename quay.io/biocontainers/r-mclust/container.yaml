@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-mclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mclust
 latest:
-  5.2--r3.3.2_0: sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092
+  5.2--r3.3.2_0: 
+    sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092
 tags:
-  5.2--r3.3.2_0: sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092
+  5.2--r3.3.2_0: 
+    sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092
 docker: quay.io/biocontainers/r-mclust
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

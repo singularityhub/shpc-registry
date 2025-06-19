@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-bioga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bioga
 latest:
-  1.0.0--r44he5774e6_0: sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
+  1.0.0--r44he5774e6_0: 
+    sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
 tags:
-  1.0.0--r44he5774e6_0: sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
+  1.0.0--r44he5774e6_0: 
+    sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
 docker: quay.io/biocontainers/bioconductor-bioga
 aliases:
   cllayerinfo: /usr/local/bin/cllayerinfo
@@ -32,7 +34,8 @@ aliases:
   python3.13-config: /usr/local/bin/python3.13-config
   pandoc-server: /usr/local/bin/pandoc-server
   lame: /usr/local/bin/lame
-  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
