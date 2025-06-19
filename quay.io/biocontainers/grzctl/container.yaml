@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/grzctl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for grzctl
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:a9a6307776305d81b2b511b80066ce6441297210ebf67e7c7dbe95539fa24296
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:a9a6307776305d81b2b511b80066ce6441297210ebf67e7c7dbe95539fa24296
+docker: quay.io/biocontainers/grzctl
+aliases:
+  crypt4gh: /usr/local/bin/crypt4gh
+  crypt4gh-keygen: /usr/local/bin/crypt4gh-keygen
+  grz-cli: /usr/local/bin/grz-cli
+  grzctl: /usr/local/bin/grzctl
+  alembic: /usr/local/bin/alembic
+  dotenv: /usr/local/bin/dotenv
+  mako-render: /usr/local/bin/mako-render
+  markdown-it: /usr/local/bin/markdown-it
+  jp.py: /usr/local/bin/jp.py
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
