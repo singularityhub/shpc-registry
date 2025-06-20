@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/treeswirl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for treeswirl
 latest:
-  2.0.0--h778a338_0: sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
+  2.0.0--h778a338_0: 
+    sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
 tags:
-  2.0.0--h778a338_0: sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
+  2.0.0--h778a338_0: 
+    sha256:414b927d22c33936a3ebcf08ddd196d0702da99c66a7b9cb38a00d8316fb6e77
 docker: quay.io/biocontainers/treeswirl
 aliases:
   TreeSwirl: /usr/local/bin/TreeSwirl

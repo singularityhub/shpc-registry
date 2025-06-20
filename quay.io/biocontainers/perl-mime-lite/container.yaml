@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-mime-lite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-mime-lite
 latest:
-  3.030--pl5321hdfd78af_2: sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00
+  3.030--pl5321hdfd78af_2: 
+    sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00
 tags:
-  3.030--pl5321hdfd78af_2: sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00
+  3.030--pl5321hdfd78af_2: 
+    sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00
 docker: quay.io/biocontainers/perl-mime-lite
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

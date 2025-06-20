@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/shmlast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shmlast
 latest:
-  1.6--py_0: sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
+  1.6--py_0: 
+    sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
 tags:
-  1.6--py_0: sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
+  1.6--py_0: 
+    sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
 docker: quay.io/biocontainers/shmlast
 aliases:
   doit: /usr/local/bin/doit

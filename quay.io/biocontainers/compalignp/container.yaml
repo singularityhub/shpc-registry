@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/compalignp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for compalignp
 latest:
-  1.0--h516909a_2: sha256:3c47ec2fb3cf54d395056629eca6e53da4428b8b27e8473800cbf123262b36db
+  1.0--h516909a_2: 
+    sha256:3c47ec2fb3cf54d395056629eca6e53da4428b8b27e8473800cbf123262b36db
 tags:
-  1.0--h516909a_2: sha256:3c47ec2fb3cf54d395056629eca6e53da4428b8b27e8473800cbf123262b36db
+  1.0--h516909a_2: 
+    sha256:3c47ec2fb3cf54d395056629eca6e53da4428b8b27e8473800cbf123262b36db
 docker: quay.io/biocontainers/compalignp
 aliases:
   afetch: /usr/local/bin/afetch

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/prooverlap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for prooverlap
 latest:
-  0.1.2--pyhdfd78af_0: sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
+  0.1.2--pyhdfd78af_0: 
+    sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
 tags:
-  0.1.2--pyhdfd78af_0: sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
+  0.1.2--pyhdfd78af_0: 
+    sha256:c04836955b50d0fc4f2a63d089686d3faed88236b87d957cb8fbb07655b4d749
 docker: quay.io/biocontainers/prooverlap
 aliases:
   prooverlap: /usr/local/bin/prooverlap

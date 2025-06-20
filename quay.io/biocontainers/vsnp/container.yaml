@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/vsnp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vsnp
 latest:
-  2.03--hdfd78af_2: sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
+  2.03--hdfd78af_2: 
+    sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
 tags:
-  2.03--hdfd78af_2: sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
+  2.03--hdfd78af_2: 
+    sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
 docker: quay.io/biocontainers/vsnp
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

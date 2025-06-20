@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/perl-file-find-rule
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-file-find-rule
+description: shpc-registry automated BioContainers addition for 
+  perl-file-find-rule
 latest:
-  0.34--pl5321hdfd78af_6: sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8
+  0.35--pl5321hdfd78af_0: 
+    sha256:1b8e1f092aa1d63df4a5c42f2a972067f76ae61b78476710b4d1fbffc05b52ec
 tags:
-  0.34--pl5321hdfd78af_6: sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8
+  0.34--pl5321hdfd78af_6: 
+    sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8
+  0.35--pl5321hdfd78af_0: 
+    sha256:1b8e1f092aa1d63df4a5c42f2a972067f76ae61b78476710b4d1fbffc05b52ec
 docker: quay.io/biocontainers/perl-file-find-rule
 aliases:
   findrule: /usr/local/bin/findrule

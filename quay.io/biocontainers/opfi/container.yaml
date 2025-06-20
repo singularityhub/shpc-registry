@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/opfi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for opfi
 latest:
-  0.1.2--pyhdfd78af_0: sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
+  0.1.2--pyhdfd78af_0: 
+    sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
 tags:
-  0.1.2--pyhdfd78af_0: sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
+  0.1.2--pyhdfd78af_0: 
+    sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
 docker: quay.io/biocontainers/opfi
 aliases:
   grf-alignment: /usr/local/bin/grf-alignment

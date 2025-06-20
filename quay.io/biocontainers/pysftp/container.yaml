@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/pysftp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pysftp
 latest:
-  0.2.9--py35_0: sha256:abae9d8c31557b05ea03473c3c27c352df403f29d8fba18d7498562a64564fe3
+  0.2.9--py35_0: 
+    sha256:abae9d8c31557b05ea03473c3c27c352df403f29d8fba18d7498562a64564fe3
 tags:
-  0.2.9--py35_0: sha256:abae9d8c31557b05ea03473c3c27c352df403f29d8fba18d7498562a64564fe3
-  0.2.9--py36_0: sha256:bd849915f358e832bd288bcf892a330b112774b8284b2f38373a05a83db8c02b
+  0.2.9--py35_0: 
+    sha256:abae9d8c31557b05ea03473c3c27c352df403f29d8fba18d7498562a64564fe3
+  0.2.9--py36_0: 
+    sha256:bd849915f358e832bd288bcf892a330b112774b8284b2f38373a05a83db8c02b
 docker: quay.io/biocontainers/pysftp
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

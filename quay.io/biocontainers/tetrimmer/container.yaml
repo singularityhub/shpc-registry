@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tetrimmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tetrimmer
 latest:
-  1.4.0--hdfd78af_0: sha256:d675937c69ef4093ace82009d3e63f2bb10f3328553d1a033ddd989710df2c6a
+  1.4.0--hdfd78af_0: 
+    sha256:d675937c69ef4093ace82009d3e63f2bb10f3328553d1a033ddd989710df2c6a
 tags:
-  1.4.0--hdfd78af_0: sha256:d675937c69ef4093ace82009d3e63f2bb10f3328553d1a033ddd989710df2c6a
+  1.4.0--hdfd78af_0: 
+    sha256:d675937c69ef4093ace82009d3e63f2bb10f3328553d1a033ddd989710df2c6a
 docker: quay.io/biocontainers/tetrimmer
 aliases:
   BuildDatabase: /usr/local/bin/BuildDatabase

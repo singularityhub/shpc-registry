@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cistrome-ceas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cistrome-ceas
 latest:
-  1.0.2b1--py_2: sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
+  1.0.2b1--py_2: 
+    sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
 tags:
-  1.0.2b1--py_2: sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
+  1.0.2b1--py_2: 
+    sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
 docker: quay.io/biocontainers/cistrome-ceas
 aliases:
   ChIPAssoc: /usr/local/bin/ChIPAssoc
@@ -14,7 +16,8 @@ aliases:
   gca: /usr/local/bin/gca
   sitepro: /usr/local/bin/sitepro
   siteproBW: /usr/local/bin/siteproBW
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

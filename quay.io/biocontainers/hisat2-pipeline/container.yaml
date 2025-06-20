@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/hisat2-pipeline
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hisat2-pipeline
 latest:
-  1.0.8--pyhdfd78af_0: sha256:669ee6a586b7105e2529d39f879e4f99ecf738fc5765a544725c4a7638a99d51
+  1.1.0--pyhdfd78af_0: 
+    sha256:eee657621b68b0b01333d38a5f65f0c2d855a77fac32ddbae35b359d232e298a
 tags:
-  1.0.6--pyhdfd78af_0: sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d
-  1.0.7--pyhdfd78af_0: sha256:dfcdeb6b41fe0243b31eb34bb2573b2e5489334cfe6a04299202c4a3ebd20179
-  1.0.8--pyhdfd78af_0: sha256:669ee6a586b7105e2529d39f879e4f99ecf738fc5765a544725c4a7638a99d51
+  1.0.6--pyhdfd78af_0: 
+    sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d
+  1.0.7--pyhdfd78af_0: 
+    sha256:dfcdeb6b41fe0243b31eb34bb2573b2e5489334cfe6a04299202c4a3ebd20179
+  1.0.8--pyhdfd78af_0: 
+    sha256:669ee6a586b7105e2529d39f879e4f99ecf738fc5765a544725c4a7638a99d51
+  1.1.0--pyhdfd78af_0: 
+    sha256:eee657621b68b0b01333d38a5f65f0c2d855a77fac32ddbae35b359d232e298a
 docker: quay.io/biocontainers/hisat2-pipeline
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv
@@ -23,8 +29,10 @@ aliases:
   hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
   hisat2-pipeline: /usr/local/bin/hisat2-pipeline
   hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
-  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
-  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_snps_haplotypes_UCSC.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
   hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
   hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py

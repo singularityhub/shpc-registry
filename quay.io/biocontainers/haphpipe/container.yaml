@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/haphpipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haphpipe
 latest:
-  1.0.3--py_0: sha256:e9f8327bbbfdfc0052c96be6091b4ef202159a587a0741674db6acfbdf1a6624
+  1.0.3--py_0: 
+    sha256:e9f8327bbbfdfc0052c96be6091b4ef202159a587a0741674db6acfbdf1a6624
 tags:
-  1.0.3--py_0: sha256:e9f8327bbbfdfc0052c96be6091b4ef202159a587a0741674db6acfbdf1a6624
+  1.0.3--py_0: 
+    sha256:e9f8327bbbfdfc0052c96be6091b4ef202159a587a0741674db6acfbdf1a6624
 docker: quay.io/biocontainers/haphpipe
 aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK

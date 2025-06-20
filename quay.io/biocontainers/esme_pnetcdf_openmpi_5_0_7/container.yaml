@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_pnetcdf_openmpi_5_0_7
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_pnetcdf_openmpi_5_0_7
+description: singularity registry hpc automated addition for 
+  esme_pnetcdf_openmpi_5_0_7
 latest:
-  1.14.0--h6f5e742_0: sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
+  1.14.0--h6f5e742_0: 
+    sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
 tags:
-  1.14.0--h6f5e742_0: sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
+  1.14.0--h6f5e742_0: 
+    sha256:1c6e8e64d2d0eeeb87846ffa3bff306d6239beb766372e538bb1b03205c5fe44
 docker: quay.io/biocontainers/esme_pnetcdf_openmpi_5_0_7
 aliases:
   cdfdiff: /usr/local/bin/cdfdiff

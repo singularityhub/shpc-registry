@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scvis
 latest:
-  0.1.0--scvis_0: sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038
+  0.1.0--scvis_0: 
+    sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038
 tags:
-  0.1.0--scvis_0: sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038
+  0.1.0--scvis_0: 
+    sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038
 docker: quay.io/biocontainers/scvis
 aliases:
   scvis: /usr/local/bin/scvis

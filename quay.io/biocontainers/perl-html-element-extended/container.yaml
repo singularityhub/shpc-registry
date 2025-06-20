@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-html-element-extended
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-html-element-extended
+description: shpc-registry automated BioContainers addition for 
+  perl-html-element-extended
 latest:
-  1.18--pl5321hdfd78af_2: sha256:32bfec5175c4739648cee9eff9362ff169c22f32814448c2c4901ccb8d5bb6ec
+  1.18--pl5321hdfd78af_2: 
+    sha256:32bfec5175c4739648cee9eff9362ff169c22f32814448c2c4901ccb8d5bb6ec
 tags:
-  1.18--pl5321hdfd78af_2: sha256:32bfec5175c4739648cee9eff9362ff169c22f32814448c2c4901ccb8d5bb6ec
+  1.18--pl5321hdfd78af_2: 
+    sha256:32bfec5175c4739648cee9eff9362ff169c22f32814448c2c4901ccb8d5bb6ec
 docker: quay.io/biocontainers/perl-html-element-extended
 aliases:
   htmltree: /usr/local/bin/htmltree

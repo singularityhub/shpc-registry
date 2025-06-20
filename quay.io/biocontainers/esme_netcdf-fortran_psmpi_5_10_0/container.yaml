@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_netcdf-fortran_psmpi_5_10_0
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_netcdf-fortran_psmpi_5_10_0
+description: singularity registry hpc automated addition for 
+  esme_netcdf-fortran_psmpi_5_10_0
 latest:
-  4.6.1--h2c645b5_0: sha256:9cdf307bd102627e0c1da1a5efdc439238fc8057e17fdcc00233f0af32193795
+  4.6.1--h2c645b5_0: 
+    sha256:9cdf307bd102627e0c1da1a5efdc439238fc8057e17fdcc00233f0af32193795
 tags:
-  4.6.1--h2c645b5_0: sha256:9cdf307bd102627e0c1da1a5efdc439238fc8057e17fdcc00233f0af32193795
+  4.6.1--h2c645b5_0: 
+    sha256:9cdf307bd102627e0c1da1a5efdc439238fc8057e17fdcc00233f0af32193795
 docker: quay.io/biocontainers/esme_netcdf-fortran_psmpi_5_10_0
 aliases:
   nf-config: /usr/local/bin/nf-config

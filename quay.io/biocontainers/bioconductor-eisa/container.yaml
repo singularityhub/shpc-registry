@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-eisa
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-eisa
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-eisa
 latest:
-  1.42.0--r40hdfd78af_1: sha256:c4cdaabdefcf660827c698982154d149e40b8ea3c13fe92b07625bd2eae49621
+  1.42.0--r40hdfd78af_1: 
+    sha256:c4cdaabdefcf660827c698982154d149e40b8ea3c13fe92b07625bd2eae49621
 tags:
-  1.42.0--r40hdfd78af_1: sha256:c4cdaabdefcf660827c698982154d149e40b8ea3c13fe92b07625bd2eae49621
+  1.42.0--r40hdfd78af_1: 
+    sha256:c4cdaabdefcf660827c698982154d149e40b8ea3c13fe92b07625bd2eae49621
 docker: quay.io/biocontainers/bioconductor-eisa
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

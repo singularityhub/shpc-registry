@@ -2,16 +2,19 @@ url: https://biocontainers.pro/tools/graph2pro-var
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graph2pro-var
 latest:
-  1.0.0--h9ee0642_1: sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25
+  1.0.0--h9ee0642_1: 
+    sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25
 tags:
-  1.0.0--h9ee0642_1: sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25
+  1.0.0--h9ee0642_1: 
+    sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25
 docker: quay.io/biocontainers/graph2pro-var
 aliases:
   DBGraph2Pro: /usr/local/bin/DBGraph2Pro
   DBGraphPep2Pro: /usr/local/bin/DBGraphPep2Pro
   FragGeneScan: /usr/local/bin/FragGeneScan
   combineFragandDBGraph_fastg.py: /usr/local/bin/combineFragandDBGraph_fastg.py
-  combineFragandDBGraph_fastg_old.py: /usr/local/bin/combineFragandDBGraph_fastg_old.py
+  combineFragandDBGraph_fastg_old.py: 
+    /usr/local/bin/combineFragandDBGraph_fastg_old.py
   combineSpec_files.py: /usr/local/bin/combineSpec_files.py
   combineThree_o.py: /usr/local/bin/combineThree_o.py
   createFixedReverseKR.py: /usr/local/bin/createFixedReverseKR.py

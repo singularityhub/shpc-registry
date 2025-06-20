@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/kodoja
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kodoja
 latest:
-  0.0.10--0: sha256:b98d74a9ebf41ed901fc27d7800cd69692b1c04500a9985594deec8ef4978a8b
+  0.0.10--0: 
+    sha256:b98d74a9ebf41ed901fc27d7800cd69692b1c04500a9985594deec8ef4978a8b
 tags:
-  0.0.9--0: sha256:6137381e18c94657d493e3351977ca06a04eeceb0d5d90cc684470cb75e1006b
-  0.0.10--0: sha256:b98d74a9ebf41ed901fc27d7800cd69692b1c04500a9985594deec8ef4978a8b
+  0.0.9--0: 
+    sha256:6137381e18c94657d493e3351977ca06a04eeceb0d5d90cc684470cb75e1006b
+  0.0.10--0: 
+    sha256:b98d74a9ebf41ed901fc27d7800cd69692b1c04500a9985594deec8ef4978a8b
 docker: quay.io/biocontainers/kodoja
 aliases:
   addTaxonNames: /usr/local/bin/addTaxonNames

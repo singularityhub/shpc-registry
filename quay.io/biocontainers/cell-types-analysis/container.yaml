@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/cell-types-analysis
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for cell-types-analysis
+description: shpc-registry automated BioContainers addition for 
+  cell-types-analysis
 latest:
-  0.1.11--hdfd78af_1: sha256:330643417b81897cd9f8c20fb51f472394719bb55db31035224a582c2d3aeed7
+  0.1.11--hdfd78af_1: 
+    sha256:330643417b81897cd9f8c20fb51f472394719bb55db31035224a582c2d3aeed7
 tags:
-  0.1.9--0: sha256:34f4133564860be6b6df7a6fc7b30829fe87391364ed11dddb62a3bfdbfcc022
-  0.1.11--hdfd78af_1: sha256:330643417b81897cd9f8c20fb51f472394719bb55db31035224a582c2d3aeed7
+  0.1.9--0: 
+    sha256:34f4133564860be6b6df7a6fc7b30829fe87391364ed11dddb62a3bfdbfcc022
+  0.1.11--hdfd78af_1: 
+    sha256:330643417b81897cd9f8c20fb51f472394719bb55db31035224a582c2d3aeed7
 docker: quay.io/biocontainers/cell-types-analysis
 aliases:
   bats: /usr/local/bin/bats
@@ -18,8 +22,10 @@ aliases:
   get_empirical_dist.R: /usr/local/bin/get_empirical_dist.R
   get_tool_performance_table.R: /usr/local/bin/get_tool_performance_table.R
   get_tool_pvals.R: /usr/local/bin/get_tool_pvals.R
-  label_analysis_run_post_install_tests.bats: /usr/local/bin/label_analysis_run_post_install_tests.bats
-  label_analysis_run_post_install_tests.sh: /usr/local/bin/label_analysis_run_post_install_tests.sh
+  label_analysis_run_post_install_tests.bats: 
+    /usr/local/bin/label_analysis_run_post_install_tests.bats
+  label_analysis_run_post_install_tests.sh: 
+    /usr/local/bin/label_analysis_run_post_install_tests.sh
   extcheck: /usr/local/bin/extcheck
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
   javah: /usr/local/bin/javah

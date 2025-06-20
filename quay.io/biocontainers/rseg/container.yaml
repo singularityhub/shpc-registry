@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rseg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rseg
 latest:
-  0.4.9--he941832_1: sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2
+  0.4.9--he941832_1: 
+    sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2
 tags:
-  0.4.9--he941832_1: sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2
+  0.4.9--he941832_1: 
+    sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2
 docker: quay.io/biocontainers/rseg
 aliases:
   deadzones: /usr/local/bin/deadzones

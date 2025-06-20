@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/aligncov
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aligncov
 latest:
-  0.0.2--pyh7cba7a3_0: sha256:edf8b9880cd0a40f126eec89bded53a4a4acacbb293562083483a7c4bc0ebc84
+  0.0.2--pyh7cba7a3_0: 
+    sha256:edf8b9880cd0a40f126eec89bded53a4a4acacbb293562083483a7c4bc0ebc84
 tags:
-  0.0.2--pyh7cba7a3_0: sha256:edf8b9880cd0a40f126eec89bded53a4a4acacbb293562083483a7c4bc0ebc84
+  0.0.2--pyh7cba7a3_0: 
+    sha256:edf8b9880cd0a40f126eec89bded53a4a4acacbb293562083483a7c4bc0ebc84
 docker: quay.io/biocontainers/aligncov
 aliases:
   aligncov: /usr/local/bin/aligncov

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-wavetiling
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-wavetiling
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-wavetiling
 latest:
-  1.28.0--r36h516909a_0: sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766
+  1.28.0--r36h516909a_0: 
+    sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766
 tags:
-  1.28.0--r36h516909a_0: sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766
+  1.28.0--r36h516909a_0: 
+    sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766
 docker: quay.io/biocontainers/bioconductor-wavetiling
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

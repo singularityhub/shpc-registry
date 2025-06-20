@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phytop
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phytop
 latest:
-  0.3--pyhdc42f0e_0: sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
+  0.3--pyhdc42f0e_0: 
+    sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
 tags:
-  0.3--pyhdc42f0e_0: sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
+  0.3--pyhdc42f0e_0: 
+    sha256:3772e15c3f09eed44bd8b11b21bc306454bec19d2c2d4379fe0b8264fd2b27a1
 docker: quay.io/biocontainers/phytop
 aliases:
   ldapadd: /usr/local/bin/ldapadd

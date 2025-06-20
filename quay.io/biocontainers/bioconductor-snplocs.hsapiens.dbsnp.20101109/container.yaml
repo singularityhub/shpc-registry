@@ -1,8 +1,12 @@
-url: https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp.20101109
+url: 
+  https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp.20101109
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp.20101109
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-snplocs.hsapiens.dbsnp.20101109
 latest:
-  0.99.7--r41hdfd78af_9: sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
+  0.99.7--r41hdfd78af_9: 
+    sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
 tags:
-  0.99.7--r41hdfd78af_9: sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
+  0.99.7--r41hdfd78af_9: 
+    sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109

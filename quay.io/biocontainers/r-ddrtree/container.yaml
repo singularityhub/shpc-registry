@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-ddrtree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ddrtree
 latest:
-  0.1.5--r3.3.1_0: sha256:51fef9ef708a0114045cc595b2a07901e6344104265f85c19bd1bb1c8118cf3e
+  0.1.5--r3.3.1_0: 
+    sha256:51fef9ef708a0114045cc595b2a07901e6344104265f85c19bd1bb1c8118cf3e
 tags:
-  0.1.5--r3.3.1_0: sha256:51fef9ef708a0114045cc595b2a07901e6344104265f85c19bd1bb1c8118cf3e
-  0.1.5--r3.3.2_0: sha256:ca9d1ec7ce136347f6bb60321ea20952a1a0a586d51853204407def0abbdd92a
+  0.1.5--r3.3.1_0: 
+    sha256:51fef9ef708a0114045cc595b2a07901e6344104265f85c19bd1bb1c8118cf3e
+  0.1.5--r3.3.2_0: 
+    sha256:ca9d1ec7ce136347f6bb60321ea20952a1a0a586d51853204407def0abbdd92a
 docker: quay.io/biocontainers/r-ddrtree
 aliases:
   uconv: /usr/local/bin/uconv
