@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/maverick
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for maverick
+latest:
+  1.0.5--h9948957_0: 
+    sha256:f85370ab31ea251a02b2510db83a44722d19280acfa78fe99bb87e9e214466a9
+tags:
+  1.0.5--h9948957_0: 
+    sha256:f85370ab31ea251a02b2510db83a44722d19280acfa78fe99bb87e9e214466a9
+docker: quay.io/biocontainers/maverick
+aliases:
+  MavericK: /usr/local/bin/MavericK

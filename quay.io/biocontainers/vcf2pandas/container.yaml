@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/vcf2pandas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcf2pandas
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:160e8afe9d9fad0c9f5abe5cc275910aef15dcfbcb36df0ef768cfad28dfebec
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:160e8afe9d9fad0c9f5abe5cc275910aef15dcfbcb36df0ef768cfad28dfebec
+docker: quay.io/biocontainers/vcf2pandas
+aliases:
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  numpy-config: /usr/local/bin/numpy-config
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

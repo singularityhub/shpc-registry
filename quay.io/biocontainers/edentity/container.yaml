@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/edentity
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for edentity
+latest:
+  1.4.5--pyhdfd78af_0: 
+    sha256:2bf030733462c8a9cf6a41bd71e796751fcbfa1066c947a9b49fb28c6679cfbf
+tags:
+  1.4.5--pyhdfd78af_0: 
+    sha256:2bf030733462c8a9cf6a41bd71e796751fcbfa1066c947a9b49fb28c6679cfbf
+docker: quay.io/biocontainers/edentity
+aliases:
+  edentity: /usr/local/bin/edentity
+  phc: /usr/local/bin/phc
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  dotenv: /usr/local/bin/dotenv
+  typer: /usr/local/bin/typer
+  eido: /usr/local/bin/eido
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  multiqc: /usr/local/bin/multiqc
+  rich-click: /usr/local/bin/rich-click
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  fastp: /usr/local/bin/fastp
+  vsearch: /usr/local/bin/vsearch
+  cutadapt: /usr/local/bin/cutadapt
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  coloredlogs: /usr/local/bin/coloredlogs
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
