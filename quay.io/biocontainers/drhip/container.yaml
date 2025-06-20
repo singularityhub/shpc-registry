@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/drhip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for drhip
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763
+docker: quay.io/biocontainers/drhip
+aliases:
+  drhip: /usr/local/bin/drhip
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
