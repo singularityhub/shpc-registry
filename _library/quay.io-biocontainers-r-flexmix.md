@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flexmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flexmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flexmix/container.yaml"
-updated_at: "2025-06-19 03:56:00.662525"
+updated_at: "2025-06-20 03:55:03.619594"
 latest: "2.3_14--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flexmix"
 aliases:

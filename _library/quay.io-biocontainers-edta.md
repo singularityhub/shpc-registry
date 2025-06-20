@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edta/container.yaml"
-updated_at: "2025-06-19 03:48:39.882148"
+updated_at: "2025-06-20 03:48:01.502734"
 latest: "2.2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/edta"
 aliases:
