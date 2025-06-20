@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-igraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-igraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-igraph/container.yaml"
-updated_at: "2025-06-20 03:50:59.301918"
+updated_at: "2025-06-20 06:33:27.459591"
 latest: "0.7.1.post6--py35_2"
 container_url: "https://biocontainers.pro/tools/python-igraph"
 aliases:

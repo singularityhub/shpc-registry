@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpsplit/container.yaml"
-updated_at: "2025-06-20 03:51:19.906704"
+updated_at: "2025-06-20 06:33:47.897600"
 latest: "0.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpsplit"
 aliases:

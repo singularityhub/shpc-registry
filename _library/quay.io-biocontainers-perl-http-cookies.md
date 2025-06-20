@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-cookies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-cookies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-cookies/container.yaml"
-updated_at: "2025-06-20 03:29:00.670055"
+updated_at: "2025-06-20 06:11:30.602736"
 latest: "6.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-cookies"
 aliases:

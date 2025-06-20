@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variantbreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variantbreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variantbreak/container.yaml"
-updated_at: "2025-06-20 04:05:15.241948"
+updated_at: "2025-06-20 06:47:41.713917"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/variantbreak"
 aliases:

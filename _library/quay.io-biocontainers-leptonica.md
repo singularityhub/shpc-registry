@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leptonica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leptonica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leptonica/container.yaml"
-updated_at: "2025-06-20 03:42:43.411406"
+updated_at: "2025-06-20 06:25:09.595579"
 latest: "1.73--1"
 container_url: "https://biocontainers.pro/tools/leptonica"
 aliases:

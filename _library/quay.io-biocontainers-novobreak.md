@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novobreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novobreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novobreak/container.yaml"
-updated_at: "2025-06-20 03:23:09.713073"
+updated_at: "2025-06-20 06:05:44.355169"
 latest: "1.1.3rc--h577a1d6_10"
 container_url: "https://biocontainers.pro/tools/novobreak"
 aliases:

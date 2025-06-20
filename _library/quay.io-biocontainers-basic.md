@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/basic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/basic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/basic/container.yaml"
-updated_at: "2025-06-20 03:40:03.681779"
+updated_at: "2025-06-20 06:22:30.555171"
 latest: "1.5.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/basic"
 aliases:

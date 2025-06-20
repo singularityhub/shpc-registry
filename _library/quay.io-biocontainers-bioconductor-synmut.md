@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-synmut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synmut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synmut/container.yaml"
-updated_at: "2025-06-20 04:08:58.988177"
+updated_at: "2025-06-20 06:51:30.644364"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synmut"
 aliases:

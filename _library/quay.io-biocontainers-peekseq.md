@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peekseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peekseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peekseq/container.yaml"
-updated_at: "2025-06-20 04:03:38.061184"
+updated_at: "2025-06-20 06:46:01.937169"
 latest: "0.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peekseq"
 aliases:

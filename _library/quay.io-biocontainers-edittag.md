@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edittag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edittag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edittag/container.yaml"
-updated_at: "2025-06-20 03:51:26.682124"
+updated_at: "2025-06-20 06:33:54.600302"
 latest: "1.1--py_2"
 container_url: "https://biocontainers.pro/tools/edittag"
 aliases:

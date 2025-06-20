@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-temp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-temp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-temp/container.yaml"
-updated_at: "2025-06-20 03:32:33.595213"
+updated_at: "2025-06-20 06:15:01.115480"
 latest: "0.2304--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-file-temp"
 aliases:

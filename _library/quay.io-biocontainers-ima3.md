@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ima3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ima3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ima3/container.yaml"
-updated_at: "2025-06-20 03:43:13.776421"
+updated_at: "2025-06-20 06:25:39.952784"
 latest: "1.13--h503566f_2"
 container_url: "https://biocontainers.pro/tools/ima3"
 aliases:

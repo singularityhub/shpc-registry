@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mtseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mtseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mtseeker/container.yaml"
-updated_at: "2025-06-20 04:06:12.263731"
+updated_at: "2025-06-20 06:48:40.615750"
 latest: "1.3.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mtseeker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylopandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylopandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylopandas/container.yaml"
-updated_at: "2025-06-20 04:04:49.258453"
+updated_at: "2025-06-20 06:47:15.205461"
 latest: "0.8.0--py_0"
 container_url: "https://biocontainers.pro/tools/phylopandas"
 aliases:

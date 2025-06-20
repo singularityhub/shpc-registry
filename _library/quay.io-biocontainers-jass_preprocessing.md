@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jass_preprocessing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jass_preprocessing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jass_preprocessing/container.yaml"
-updated_at: "2025-06-20 03:45:36.589323"
+updated_at: "2025-06-20 06:28:03.212864"
 latest: "2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jass_preprocessing"
 aliases:

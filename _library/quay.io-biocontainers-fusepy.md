@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusepy/container.yaml"
-updated_at: "2025-06-20 03:43:03.323001"
+updated_at: "2025-06-20 06:25:29.499159"
 latest: "2.0.4--py36_0"
 container_url: "https://biocontainers.pro/tools/fusepy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ldsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldsc/container.yaml"
-updated_at: "2025-06-20 03:22:40.560581"
+updated_at: "2025-06-20 06:05:15.081166"
 latest: "1.0.1--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ldsc"
 aliases:

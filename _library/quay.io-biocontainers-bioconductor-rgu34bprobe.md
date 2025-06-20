@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgu34bprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgu34bprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgu34bprobe/container.yaml"
-updated_at: "2025-06-20 03:27:02.001229"
+updated_at: "2025-06-20 06:09:33.445644"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgu34bprobe"
 

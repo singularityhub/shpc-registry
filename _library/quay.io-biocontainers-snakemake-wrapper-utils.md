@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-wrapper-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-wrapper-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-wrapper-utils/container.yaml"
-updated_at: "2025-06-20 04:01:59.645063"
+updated_at: "2025-06-20 06:44:22.690892"
 latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-wrapper-utils"
 aliases:

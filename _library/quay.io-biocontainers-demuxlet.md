@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/demuxlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demuxlet/container.yaml"
-updated_at: "2025-06-20 03:35:58.981419"
+updated_at: "2025-06-20 06:18:24.041940"
 latest: "1.0--hd7c9bc9_6"
 container_url: "https://biocontainers.pro/tools/demuxlet"
 aliases:
