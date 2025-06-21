@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rpfbagr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rpfbagr
 latest:
-  2.2.2--pyh5e36f6f_0: sha256:5e5152d2899fa1e8e9cec2573f38c1d86f16a1764bc017f047aae96fd27d4f08
+  2.2.2--pyh5e36f6f_0: 
+    sha256:5e5152d2899fa1e8e9cec2573f38c1d86f16a1764bc017f047aae96fd27d4f08
 tags:
-  2.2.2--pyh5e36f6f_0: sha256:5e5152d2899fa1e8e9cec2573f38c1d86f16a1764bc017f047aae96fd27d4f08
+  2.2.2--pyh5e36f6f_0: 
+    sha256:5e5152d2899fa1e8e9cec2573f38c1d86f16a1764bc017f047aae96fd27d4f08
 docker: quay.io/biocontainers/rpfbagr
 aliases:
   cameo: /usr/local/bin/cameo

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/covsonar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for covsonar
 latest:
-  2.0.0a1--pyhdfd78af_0: sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
+  2.0.0a1--pyhdfd78af_0: 
+    sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
 tags:
-  2.0.0a1--pyhdfd78af_0: sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
+  2.0.0a1--pyhdfd78af_0: 
+    sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
 docker: quay.io/biocontainers/covsonar
 aliases:
   mpire-dashboard: /usr/local/bin/mpire-dashboard

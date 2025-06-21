@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/mqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mqc
 latest:
-  1.10--py27pl5.22.0r3.4.1_1: sha256:102114a8d459c9dd786f0afb7863b024c6538fe49708d28f498fb0dc4f90ebb2
+  1.10--py27pl5.22.0r3.4.1_1: 
+    sha256:102114a8d459c9dd786f0afb7863b024c6538fe49708d28f498fb0dc4f90ebb2
 tags:
-  1.9--py27pl5.22.0r3.4.1_0: sha256:1abd23ca1d37b020bcf0910ffd39eefdd1242017ac0876c85648c2c270de77e1
-  1.10--py27pl5.22.0r3.4.1_1: sha256:102114a8d459c9dd786f0afb7863b024c6538fe49708d28f498fb0dc4f90ebb2
+  1.9--py27pl5.22.0r3.4.1_0: 
+    sha256:1abd23ca1d37b020bcf0910ffd39eefdd1242017ac0876c85648c2c270de77e1
+  1.10--py27pl5.22.0r3.4.1_1: 
+    sha256:102114a8d459c9dd786f0afb7863b024c6538fe49708d28f498fb0dc4f90ebb2
 docker: quay.io/biocontainers/mqc
 aliases:
   counts_in_region: /usr/local/bin/counts_in_region
@@ -24,8 +27,10 @@ aliases:
   fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
   fastx_clipper: /usr/local/bin/fastx_clipper
   fastx_collapser: /usr/local/bin/fastx_collapser
-  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
-  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_nucleotide_distribution_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: 
+    /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
   fastx_quality_stats: /usr/local/bin/fastx_quality_stats
   fastx_renamer: /usr/local/bin/fastx_renamer
   fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement

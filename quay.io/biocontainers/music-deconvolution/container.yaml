@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/music-deconvolution
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for music-deconvolution
+description: shpc-registry automated BioContainers addition for 
+  music-deconvolution
 latest:
-  0.1.1--r351_0: sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65
+  0.1.1--r351_0: 
+    sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65
 tags:
-  0.1.1--r351_0: sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65
+  0.1.1--r351_0: 
+    sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65
 docker: quay.io/biocontainers/music-deconvolution
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

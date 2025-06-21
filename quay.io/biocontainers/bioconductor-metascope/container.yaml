@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-metascope
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-metascope
+description: singularity registry hpc automated addition for 
+  bioconductor-metascope
 latest:
-  1.2.0--r43hdfd78af_0: sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
+  1.2.0--r43hdfd78af_0: 
+    sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
 tags:
-  1.0.0--r43hdfd78af_0: sha256:693ce54e7968fe6b18f7d71f7c8aa8ee85500361cb3b4ffbc04fb01221fa6da6
-  1.2.0--r43hdfd78af_0: sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
+  1.0.0--r43hdfd78af_0: 
+    sha256:693ce54e7968fe6b18f7d71f7c8aa8ee85500361cb3b4ffbc04fb01221fa6da6
+  1.2.0--r43hdfd78af_0: 
+    sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
 docker: quay.io/biocontainers/bioconductor-metascope
 aliases:
   hb-info: /usr/local/bin/hb-info
@@ -22,8 +26,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   pandoc: /usr/local/bin/pandoc
   python3.1: /usr/local/bin/python3.1

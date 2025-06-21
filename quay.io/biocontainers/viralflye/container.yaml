@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/viralflye
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viralflye
 latest:
-  0.2--pyhdfd78af_0: sha256:27f7afa18200e4ba5d84f26aaf0711bdc899b99e0aab309569c86c12edd6f732
+  0.2--pyhdfd78af_0: 
+    sha256:27f7afa18200e4ba5d84f26aaf0711bdc899b99e0aab309569c86c12edd6f732
 tags:
-  0.2--pyhdfd78af_0: sha256:27f7afa18200e4ba5d84f26aaf0711bdc899b99e0aab309569c86c12edd6f732
+  0.2--pyhdfd78af_0: 
+    sha256:27f7afa18200e4ba5d84f26aaf0711bdc899b99e0aab309569c86c12edd6f732
 docker: quay.io/biocontainers/viralflye
 aliases:
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
@@ -19,7 +21,8 @@ aliases:
   coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
   fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
   freebayes-parallel: /usr/local/bin/freebayes-parallel
-  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
   bc: /usr/local/bin/bc
   dc: /usr/local/bin/dc
   freebayes: /usr/local/bin/freebayes

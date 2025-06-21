@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/debreak
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for debreak
 latest:
-  1.3--h9ee0642_0: sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
+  1.3--h9ee0642_0: 
+    sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
 tags:
-  1.3--h9ee0642_0: sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
+  1.3--h9ee0642_0: 
+    sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
 docker: quay.io/biocontainers/debreak
 aliases:
   bsalign: /usr/local/bin/bsalign
@@ -18,7 +20,8 @@ aliases:
   debreak_merge_contig.py: /usr/local/bin/debreak_merge_contig.py
   debreak_rescuedupfromins.py: /usr/local/bin/debreak_rescuedupfromins.py
   debreak_rescuelargeins.py: /usr/local/bin/debreak_rescuelargeins.py
-  debreak_resdup_selfalignment.py: /usr/local/bin/debreak_resdup_selfalignment.py
+  debreak_resdup_selfalignment.py: 
+    /usr/local/bin/debreak_resdup_selfalignment.py
   debreak_writevcf.py: /usr/local/bin/debreak_writevcf.py
   genefusion.py: /usr/local/bin/genefusion.py
   wtdbg-cns: /usr/local/bin/wtdbg-cns

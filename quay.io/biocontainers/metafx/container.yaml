@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metafx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metafx
 latest:
-  1.1.0--hdfd78af_0: sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
+  1.1.0--hdfd78af_0: 
+    sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
 tags:
-  1.1.0--hdfd78af_0: sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
+  1.1.0--hdfd78af_0: 
+    sha256:866e48779f3eab9fad21880afe95e5ee9102bca51d909f6f24be0d04568200d4
 docker: quay.io/biocontainers/metafx
 aliases:
   bandage_pipe.sh: /usr/local/bin/bandage_pipe.sh
@@ -22,7 +24,8 @@ aliases:
   fit_predict.sh: /usr/local/bin/fit_predict.sh
   get_G.sh: /usr/local/bin/get_G.sh
   get_samples_categories.py: /usr/local/bin/get_samples_categories.py
-  get_samples_labels_for_colored.py: /usr/local/bin/get_samples_labels_for_colored.py
+  get_samples_labels_for_colored.py: 
+    /usr/local/bin/get_samples_labels_for_colored.py
   graph2contigs.py: /usr/local/bin/graph2contigs.py
   join_feature_vectors.py: /usr/local/bin/join_feature_vectors.py
   join_gfa.py: /usr/local/bin/join_gfa.py

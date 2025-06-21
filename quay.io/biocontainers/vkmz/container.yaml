@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/vkmz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vkmz
 latest:
-  1.4.6--py_0: sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e
+  1.4.6--py_0: 
+    sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e
 tags:
-  v1.4dev1--py_0: sha256:29fa5c80607bd3d81283aac5694297f1806d29bf26547e04864e164abde87e2a
-  1.4.6--py_0: sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e
+  v1.4dev1--py_0: 
+    sha256:29fa5c80607bd3d81283aac5694297f1806d29bf26547e04864e164abde87e2a
+  1.4.6--py_0: 
+    sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e
 docker: quay.io/biocontainers/vkmz
 aliases:
   vkmz: /usr/local/bin/vkmz

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-fftwtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fftwtools
 latest:
-  0.9.7--r3.2.2_0: sha256:2f5e40fbf4dac579c7d091c24e80592adf6f34cd6a4a43494d7c0d7ef08bf40e
+  0.9.7--r3.2.2_0: 
+    sha256:2f5e40fbf4dac579c7d091c24e80592adf6f34cd6a4a43494d7c0d7ef08bf40e
 tags:
-  0.9.7--r3.2.2_0: sha256:2f5e40fbf4dac579c7d091c24e80592adf6f34cd6a4a43494d7c0d7ef08bf40e
-  0.9.7--r3.3.2_0: sha256:92597392fab728f9008b3989d43f12f9cd47d4177be11c88eebd7c04eb0a04b8
+  0.9.7--r3.2.2_0: 
+    sha256:2f5e40fbf4dac579c7d091c24e80592adf6f34cd6a4a43494d7c0d7ef08bf40e
+  0.9.7--r3.3.2_0: 
+    sha256:92597392fab728f9008b3989d43f12f9cd47d4177be11c88eebd7c04eb0a04b8
 docker: quay.io/biocontainers/r-fftwtools
 aliases:
   pngcp: /usr/local/bin/pngcp

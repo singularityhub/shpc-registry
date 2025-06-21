@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/etoki
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for etoki
 latest:
-  1.2.3--hdfd78af_0: sha256:39636c489192f85e4a17c21b7419461331a1ca59a96cbb79be8dc2ff76ef598e
+  1.2.3--hdfd78af_0: 
+    sha256:39636c489192f85e4a17c21b7419461331a1ca59a96cbb79be8dc2ff76ef598e
 tags:
-  1.2.3--hdfd78af_0: sha256:39636c489192f85e4a17c21b7419461331a1ca59a96cbb79be8dc2ff76ef598e
+  1.2.3--hdfd78af_0: 
+    sha256:39636c489192f85e4a17c21b7419461331a1ca59a96cbb79be8dc2ff76ef598e
 docker: quay.io/biocontainers/etoki
 aliases:
   EToKi.py: /usr/local/bin/EToKi.py

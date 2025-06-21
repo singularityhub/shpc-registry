@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/ruby
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ruby
 latest:
-  2.2.3--1: sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846
+  2.2.3--1: 
+    sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846
 tags:
-  2.2.3--1: sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846
+  2.2.3--1: 
+    sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846
 docker: quay.io/biocontainers/ruby

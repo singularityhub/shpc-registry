@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/minimizers
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for minimizers
 latest:
-  0.1.2--pyhdfd78af_0: sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
+  0.1.2--pyhdfd78af_0: 
+    sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
 tags:
-  0.1.2--pyhdfd78af_0: sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
+  0.1.2--pyhdfd78af_0: 
+    sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
 docker: quay.io/biocontainers/minimizers
 aliases:
   bio: /usr/local/bin/bio

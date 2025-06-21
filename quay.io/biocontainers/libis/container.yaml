@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/libis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libis
 latest:
-  0.1.6--py_0: sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
+  0.1.6--py_0: 
+    sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
 tags:
-  0.1.6--py_0: sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
+  0.1.6--py_0: 
+    sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
 docker: quay.io/biocontainers/libis
 aliases:
   LiBis: /usr/local/bin/LiBis

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pymisc-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pymisc-utils
 latest:
-  0.2.11--pyh7cba7a3_6: sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08
+  0.2.11--pyh7cba7a3_6: 
+    sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08
 tags:
-  0.2.11--pyh7cba7a3_6: sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08
+  0.2.11--pyh7cba7a3_6: 
+    sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08
 docker: quay.io/biocontainers/pymisc-utils
 aliases:
   __init__.py: /usr/local/bin/__init__.py
@@ -18,8 +20,10 @@ aliases:
   deprecated_decorator.py: /usr/local/bin/deprecated_decorator.py
   external_sparse_matrix_list.py: /usr/local/bin/external_sparse_matrix_list.py
   gene_ontology_utils.py: /usr/local/bin/gene_ontology_utils.py
-  incremental_count_vectorizer.py: /usr/local/bin/incremental_count_vectorizer.py
-  incremental_gaussian_estimator.py: /usr/local/bin/incremental_gaussian_estimator.py
+  incremental_count_vectorizer.py: 
+    /usr/local/bin/incremental_count_vectorizer.py
+  incremental_gaussian_estimator.py: 
+    /usr/local/bin/incremental_gaussian_estimator.py
   latex.py: /usr/local/bin/latex.py
   logging_utils.py: /usr/local/bin/logging_utils.py
   math_utils.py: /usr/local/bin/math_utils.py

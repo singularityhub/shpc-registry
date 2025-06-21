@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-htmltools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-htmltools
 latest:
-  0.3--r3.2.2_0: sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a
+  0.3--r3.2.2_0: 
+    sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a
 tags:
-  0.3--r3.2.2_0: sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a
-  0.3--r3.3.2_0: sha256:1977bb1940de2af153a6bf179d535ca547cae885c2d5a9997361f72ddfb6b514
+  0.3--r3.2.2_0: 
+    sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a
+  0.3--r3.3.2_0: 
+    sha256:1977bb1940de2af153a6bf179d535ca547cae885c2d5a9997361f72ddfb6b514
 docker: quay.io/biocontainers/r-htmltools
 aliases:
   pngcp: /usr/local/bin/pngcp

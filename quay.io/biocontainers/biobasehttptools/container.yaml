@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/biobasehttptools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobasehttptools
 latest:
-  1.1.0--hdfd78af_1: sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
+  1.1.0--hdfd78af_1: 
+    sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
 tags:
-  1.1.0--hdfd78af_1: sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
+  1.1.0--hdfd78af_1: 
+    sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
 docker: quay.io/biocontainers/biobasehttptools
 aliases:
   AccessionToTaxId: /usr/local/bin/AccessionToTaxId

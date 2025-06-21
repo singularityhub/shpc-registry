@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/erne
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for erne
 latest:
-  2.1.1--heaa942f_2: sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2
+  2.1.1--heaa942f_2: 
+    sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2
 tags:
-  2.1.1--heaa942f_2: sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2
+  2.1.1--heaa942f_2: 
+    sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2
 docker: quay.io/biocontainers/erne
 aliases:
   erne-bs5: /usr/local/bin/erne-bs5

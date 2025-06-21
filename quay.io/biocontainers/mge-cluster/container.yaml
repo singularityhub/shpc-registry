@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mge-cluster
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mge-cluster
 latest:
-  1.1.0--pyh5ace695_0: sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
+  1.1.0--pyh5ace695_0: 
+    sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
 tags:
-  1.1.0--pyh5ace695_0: sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
+  1.1.0--pyh5ace695_0: 
+    sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
 docker: quay.io/biocontainers/mge-cluster
 aliases:
   Bifrost: /usr/local/bin/Bifrost

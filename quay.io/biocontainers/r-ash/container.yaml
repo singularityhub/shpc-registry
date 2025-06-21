@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-ash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ash
 latest:
-  1.0_15--r3.3.1_1: sha256:02bf211bcf2a42746efb38e6a4cdfc757b89951faf3dc04fb94bec70100e7041
+  1.0_15--r3.3.1_1: 
+    sha256:02bf211bcf2a42746efb38e6a4cdfc757b89951faf3dc04fb94bec70100e7041
 tags:
-  1.0_15--r3.3.1_1: sha256:02bf211bcf2a42746efb38e6a4cdfc757b89951faf3dc04fb94bec70100e7041
+  1.0_15--r3.3.1_1: 
+    sha256:02bf211bcf2a42746efb38e6a4cdfc757b89951faf3dc04fb94bec70100e7041
 docker: quay.io/biocontainers/r-ash
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

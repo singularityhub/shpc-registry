@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sphinx-argparse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sphinx-argparse
 latest:
-  0.1.15--py36_0: sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431
+  0.1.15--py36_0: 
+    sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431
 tags:
-  0.1.15--py36_0: sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431
+  0.1.15--py36_0: 
+    sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431
 docker: quay.io/biocontainers/sphinx-argparse
 aliases:
   sphinx-apidoc: /usr/local/bin/sphinx-apidoc
