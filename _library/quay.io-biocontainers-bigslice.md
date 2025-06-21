@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigslice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigslice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigslice/container.yaml"
-updated_at: "2025-06-20 06:19:04.349182"
+updated_at: "2025-06-21 03:33:27.035678"
 latest: "2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigslice"
 aliases:

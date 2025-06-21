@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipseqr/container.yaml"
-updated_at: "2025-06-20 06:21:11.422563"
+updated_at: "2025-06-21 03:35:37.899738"
 latest: "1.60.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipseqr"
 

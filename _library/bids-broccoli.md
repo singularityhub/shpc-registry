@@ -4,19 +4,19 @@ name:  "bids/broccoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/broccoli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
-updated_at: "2025-06-20 06:02:25.346434"
+updated_at: "2025-06-21 03:16:02.029154"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/broccoli"
 
 versions:
  - "enh_v"
  - "enh_various"
-description: "BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language).  (https://github.com/BIDS-Apps/BROCCOLI)"
-config: {"docker": "bids/broccoli", "latest": {"enh_various": "sha256:64050b22ef4a843a6651b3d782cdf26d7c6e6994ff7994ae9707b7e359ad3602"}, "tags": {"enh_v": "sha256:1ae7cc35e6299fbd6ee020fbe39379d65bc7103b853eae707b8f3f2581c3bee4", "enh_various": "sha256:64050b22ef4a843a6651b3d782cdf26d7c6e6994ff7994ae9707b7e359ad3602"}, "filter": ["enh_v"], "maintainer": "@vsoch", "description": "BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language).  (https://github.com/BIDS-Apps/BROCCOLI)", "url": "https://hub.docker.com/r/bids/broccoli"}
+description: "BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language). (https://github.com/BIDS-Apps/BROCCOLI)"
+config: {"docker": "bids/broccoli", "latest": {"enh_various": "sha256:64050b22ef4a843a6651b3d782cdf26d7c6e6994ff7994ae9707b7e359ad3602"}, "tags": {"enh_v": "sha256:1ae7cc35e6299fbd6ee020fbe39379d65bc7103b853eae707b8f3f2581c3bee4", "enh_various": "sha256:64050b22ef4a843a6651b3d782cdf26d7c6e6994ff7994ae9707b7e359ad3602"}, "filter": ["enh_v"], "maintainer": "@vsoch", "description": "BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language). (https://github.com/BIDS-Apps/BROCCOLI)", "url": "https://hub.docker.com/r/bids/broccoli"}
 ---
 
 This module is a singularity container wrapper for bids/broccoli.
-BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language).  (https://github.com/BIDS-Apps/BROCCOLI)
+BROCCOLI is a software for analysis of fMRI (functional magnetic resonance imaging) data and is written in OpenCL (Open Computing Language). (https://github.com/BIDS-Apps/BROCCOLI)
 After [installing shpc](#install) you will want to install this container module:
 
 

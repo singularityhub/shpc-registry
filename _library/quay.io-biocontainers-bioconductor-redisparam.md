@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-redisparam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
-updated_at: "2025-06-20 06:25:58.499614"
+updated_at: "2025-06-21 03:40:31.671131"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-redisparam"
 

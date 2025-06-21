@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bbknn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbknn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbknn/container.yaml"
-updated_at: "2025-06-20 06:09:56.554335"
+updated_at: "2025-06-21 03:23:56.006448"
 latest: "1.6.0--py311haab0aaa_4"
 container_url: "https://biocontainers.pro/tools/bbknn"
 aliases:

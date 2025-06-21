@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-comet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-comet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-comet/container.yaml"
-updated_at: "2025-06-20 06:11:14.682795"
+updated_at: "2025-06-21 03:25:17.561958"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-comet"
 

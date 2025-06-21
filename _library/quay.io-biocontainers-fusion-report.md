@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fusion-report"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-report/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-report/container.yaml"
-updated_at: "2025-06-20 06:46:30.430893"
-latest: "4.0.0--py313hdfd78af_1"
+updated_at: "2025-06-21 04:00:54.554899"
+latest: "4.0.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fusion-report"
 aliases:
  - "fusion_report"
@@ -22,8 +22,9 @@ versions:
  - "3.1.2--pyhdfd78af_0"
  - "4.0.0--pyhdfd78af_0"
  - "4.0.0--py313hdfd78af_1"
+ - "4.0.1--py313hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fusion-report"
-config: {"url": "https://biocontainers.pro/tools/fusion-report", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-report", "latest": {"4.0.0--py313hdfd78af_1": "sha256:9eba54dac079deca1cb1870aa20097966770f2fca79051e2c3b0b8a84f891097"}, "tags": {"2.1.5--pyhdfd78af_0": "sha256:b65b79c3c3f23131ae94c824bb1a4dec0fe8ceebeede5233b4602e4895158958", "3.1.1--pyhdfd78af_0": "sha256:7b7cc39375c3eafb3646dfdb676684123c07a46016bf6129b1868f6d7bd7d366", "3.1.2--pyhdfd78af_0": "sha256:9493a2082650b2d573352d801a30be2ae76b2ff8d6154008208024a96a0fc87d", "4.0.0--pyhdfd78af_0": "sha256:6557042c17f8bfb0ed52818e5d5b7e585ac25634f3919fa1601c308b2560c1c5", "4.0.0--py313hdfd78af_1": "sha256:9eba54dac079deca1cb1870aa20097966770f2fca79051e2c3b0b8a84f891097"}, "docker": "quay.io/biocontainers/fusion-report", "aliases": {"fusion_report": "/usr/local/bin/fusion_report", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/fusion-report", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-report", "latest": {"4.0.1--py313hdfd78af_0": "sha256:ffde76a667059ac02aab5550fc425e34ec90b0bd83987e6ae8e70b961ff2e2f5"}, "tags": {"2.1.5--pyhdfd78af_0": "sha256:b65b79c3c3f23131ae94c824bb1a4dec0fe8ceebeede5233b4602e4895158958", "3.1.1--pyhdfd78af_0": "sha256:7b7cc39375c3eafb3646dfdb676684123c07a46016bf6129b1868f6d7bd7d366", "3.1.2--pyhdfd78af_0": "sha256:9493a2082650b2d573352d801a30be2ae76b2ff8d6154008208024a96a0fc87d", "4.0.0--pyhdfd78af_0": "sha256:6557042c17f8bfb0ed52818e5d5b7e585ac25634f3919fa1601c308b2560c1c5", "4.0.0--py313hdfd78af_1": "sha256:9eba54dac079deca1cb1870aa20097966770f2fca79051e2c3b0b8a84f891097", "4.0.1--py313hdfd78af_0": "sha256:ffde76a667059ac02aab5550fc425e34ec90b0bd83987e6ae8e70b961ff2e2f5"}, "docker": "quay.io/biocontainers/fusion-report", "aliases": {"fusion_report": "/usr/local/bin/fusion_report", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusion-report.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/fusion-report
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fusion-report:4.0.0--py313hdfd78af_1
+$ shpc install quay.io/biocontainers/fusion-report:4.0.1--py313hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fusion-report/4.0.0--py313hdfd78af_1
-$ module help quay.io/biocontainers/fusion-report/4.0.0--py313hdfd78af_1
+$ module load quay.io/biocontainers/fusion-report/4.0.1--py313hdfd78af_0
+$ module help quay.io/biocontainers/fusion-report/4.0.1--py313hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

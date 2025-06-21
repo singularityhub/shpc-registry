@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-easypar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-easypar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-easypar/container.yaml"
-updated_at: "2025-06-20 06:27:22.161060"
+updated_at: "2025-06-21 03:41:55.739021"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-easypar"
 aliases:

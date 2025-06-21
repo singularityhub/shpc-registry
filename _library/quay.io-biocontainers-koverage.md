@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/koverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/koverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/koverage/container.yaml"
-updated_at: "2025-06-20 06:33:29.987183"
+updated_at: "2025-06-21 03:47:58.787895"
 latest: "0.1.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/koverage"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minia/container.yaml"
-updated_at: "2025-06-20 06:21:21.393472"
+updated_at: "2025-06-21 03:35:48.091116"
 latest: "3.2.6--h22625ea_5"
 container_url: "https://biocontainers.pro/tools/minia"
 aliases:

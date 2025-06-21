@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-file-find-rule"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-find-rule/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-find-rule/container.yaml"
-updated_at: "2025-06-20 06:46:23.578300"
-latest: "0.34--pl5321hdfd78af_6"
+updated_at: "2025-06-21 04:00:48.084952"
+latest: "0.35--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-find-rule"
 aliases:
  - "findrule"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.34--pl5321hdfd78af_6"
+ - "0.35--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-file-find-rule"
-config: {"url": "https://biocontainers.pro/tools/perl-file-find-rule", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-find-rule", "latest": {"0.34--pl5321hdfd78af_6": "sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8"}, "tags": {"0.34--pl5321hdfd78af_6": "sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8"}, "docker": "quay.io/biocontainers/perl-file-find-rule", "aliases": {"findrule": "/usr/local/bin/findrule", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-find-rule", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-find-rule", "latest": {"0.35--pl5321hdfd78af_0": "sha256:1b8e1f092aa1d63df4a5c42f2a972067f76ae61b78476710b4d1fbffc05b52ec"}, "tags": {"0.34--pl5321hdfd78af_6": "sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8", "0.35--pl5321hdfd78af_0": "sha256:1b8e1f092aa1d63df4a5c42f2a972067f76ae61b78476710b4d1fbffc05b52ec"}, "docker": "quay.io/biocontainers/perl-file-find-rule", "aliases": {"findrule": "/usr/local/bin/findrule", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-find-rule.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-file-find-rule
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-find-rule:0.34--pl5321hdfd78af_6
+$ shpc install quay.io/biocontainers/perl-file-find-rule:0.35--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-find-rule/0.34--pl5321hdfd78af_6
-$ module help quay.io/biocontainers/perl-file-find-rule/0.34--pl5321hdfd78af_6
+$ module load quay.io/biocontainers/perl-file-find-rule/0.35--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-file-find-rule/0.35--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

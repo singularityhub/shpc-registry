@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxbraindata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxbraindata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxbraindata/container.yaml"
-updated_at: "2025-06-20 06:07:10.323827"
+updated_at: "2025-06-21 03:21:01.214632"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxbraindata"
 aliases:

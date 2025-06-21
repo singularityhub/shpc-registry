@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ragene21sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ragene21sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ragene21sttranscriptcluster.db/container.yaml"
-updated_at: "2025-06-20 06:07:59.800836"
+updated_at: "2025-06-21 03:21:53.326711"
 latest: "8.8.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-ragene21sttranscriptcluster.db"
 
