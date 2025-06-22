@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kid
 latest:
-  0.9.6--py27_2: sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97
+  0.9.6--py27_2: 
+    sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97
 tags:
-  0.9.6--py27_2: sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97
+  0.9.6--py27_2: 
+    sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97
 docker: quay.io/biocontainers/kid
 aliases:
   kid: /usr/local/bin/kid

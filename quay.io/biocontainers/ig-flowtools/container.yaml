@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ig-flowtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ig-flowtools
 latest:
-  2.0.2--hdfd78af_5: sha256:7d222412a463d39efdca910988bd30e668b9ce9b5c028c8067ed541e37dd34ec
+  2.0.2--hdfd78af_5: 
+    sha256:7d222412a463d39efdca910988bd30e668b9ce9b5c028c8067ed541e37dd34ec
 tags:
-  2.0.2--hdfd78af_5: sha256:7d222412a463d39efdca910988bd30e668b9ce9b5c028c8067ed541e37dd34ec
+  2.0.2--hdfd78af_5: 
+    sha256:7d222412a463d39efdca910988bd30e668b9ce9b5c028c8067ed541e37dd34ec
 docker: quay.io/biocontainers/ig-flowtools
 aliases:
   FCS1Dplotggcyto.R: /usr/local/bin/FCS1Dplotggcyto.R
@@ -52,4 +54,5 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

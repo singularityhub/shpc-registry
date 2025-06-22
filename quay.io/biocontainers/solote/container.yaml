@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/solote
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for solote
 latest:
-  1.09--hdfd78af_0: sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
+  1.09--hdfd78af_0: 
+    sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
 tags:
-  1.09--hdfd78af_0: sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
+  1.09--hdfd78af_0: 
+    sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
 docker: quay.io/biocontainers/solote
 aliases:
   SoloTE_RepeatMasker_to_BED.py: /usr/local/bin/SoloTE_RepeatMasker_to_BED.py

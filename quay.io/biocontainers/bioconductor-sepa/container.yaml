@@ -1,14 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-sepa
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-sepa
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-sepa
 latest:
-  1.13.0--r36_1: sha256:8cfa8a7252fd0ed01150015ce795c69c1a6c9bbd78d223db0269c8245c054286
+  1.13.0--r36_1: 
+    sha256:8cfa8a7252fd0ed01150015ce795c69c1a6c9bbd78d223db0269c8245c054286
 tags:
-  1.8.0--r3.4.1_0: sha256:94c8958d4dfc1140b75651f3a3318da9b60436c9708f050827501febdd862d1c
-  1.13.0--r36_1: sha256:8cfa8a7252fd0ed01150015ce795c69c1a6c9bbd78d223db0269c8245c054286
-  1.12.0--r351_0: sha256:40f1cdc24ea5f839a87f83b116ddc7eb6841b063c0f5ad3bbf06dbeba3c24e64
-  1.10.0--r341_0: sha256:485a5b6470acd78c0132758dcd50fee56d41ddeb5786c8f132a744d5cc71d636
-  1.10.0--r351_0: sha256:6da0608da0a1fa15cddff40337de805ed12aa3fc517af0009baa572f41e96358
+  1.8.0--r3.4.1_0: 
+    sha256:94c8958d4dfc1140b75651f3a3318da9b60436c9708f050827501febdd862d1c
+  1.13.0--r36_1: 
+    sha256:8cfa8a7252fd0ed01150015ce795c69c1a6c9bbd78d223db0269c8245c054286
+  1.12.0--r351_0: 
+    sha256:40f1cdc24ea5f839a87f83b116ddc7eb6841b063c0f5ad3bbf06dbeba3c24e64
+  1.10.0--r341_0: 
+    sha256:485a5b6470acd78c0132758dcd50fee56d41ddeb5786c8f132a744d5cc71d636
+  1.10.0--r351_0: 
+    sha256:6da0608da0a1fa15cddff40337de805ed12aa3fc517af0009baa572f41e96358
 docker: quay.io/biocontainers/bioconductor-sepa
 aliases:
   wget: /usr/local/bin/wget

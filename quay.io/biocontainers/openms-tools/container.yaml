@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/openms-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openms-tools
 latest:
-  2.4.0--hc9558a2_3: sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
+  2.4.0--hc9558a2_3: 
+    sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
 tags:
-  2.4.0--hc9558a2_3: sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
+  2.4.0--hc9558a2_3: 
+    sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
 docker: quay.io/biocontainers/openms-tools
 aliases:
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch
@@ -69,7 +71,8 @@ aliases:
   IsobaricAnalyzer: /usr/local/bin/IsobaricAnalyzer
   LabeledEval: /usr/local/bin/LabeledEval
   LowMemPeakPickerHiRes: /usr/local/bin/LowMemPeakPickerHiRes
-  LowMemPeakPickerHiResRandomAccess: /usr/local/bin/LowMemPeakPickerHiResRandomAccess
+  LowMemPeakPickerHiResRandomAccess: 
+    /usr/local/bin/LowMemPeakPickerHiResRandomAccess
   LuciphorAdapter: /usr/local/bin/LuciphorAdapter
   MRMMapper: /usr/local/bin/MRMMapper
   MRMPairFinder: /usr/local/bin/MRMPairFinder
@@ -161,7 +164,8 @@ aliases:
   SpectraFilterWindowMower: /usr/local/bin/SpectraFilterWindowMower
   SpectraMerger: /usr/local/bin/SpectraMerger
   SpectraSTSearchAdapter: /usr/local/bin/SpectraSTSearchAdapter
-  SvmTheoreticalSpectrumGeneratorTrainer: /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
+  SvmTheoreticalSpectrumGeneratorTrainer: 
+    /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
   TICCalculator: /usr/local/bin/TICCalculator
   TOFCalibration: /usr/local/bin/TOFCalibration
   TargetedFileConverter: /usr/local/bin/TargetedFileConverter

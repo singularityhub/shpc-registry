@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/doit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for doit
 latest:
-  0.29.0--py27_0: sha256:5d108d2dbf44553540fc2363ea964adb389ce0fc3528e0f3b12b35cd36723e9e
+  0.29.0--py27_0: 
+    sha256:5d108d2dbf44553540fc2363ea964adb389ce0fc3528e0f3b12b35cd36723e9e
 tags:
-  0.29.0--py27_0: sha256:5d108d2dbf44553540fc2363ea964adb389ce0fc3528e0f3b12b35cd36723e9e
+  0.29.0--py27_0: 
+    sha256:5d108d2dbf44553540fc2363ea964adb389ce0fc3528e0f3b12b35cd36723e9e
 docker: quay.io/biocontainers/doit
 aliases:
   doit: /usr/local/bin/doit

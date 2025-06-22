@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-flowfitexampledata
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-flowfitexampledata
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-flowfitexampledata
 latest:
-  1.26.0--r40hdfd78af_1: sha256:d6ac531f4d03551bc301de56b01deb8141a506d8c9deb9675108f1c83f904b33
+  1.26.0--r40hdfd78af_1: 
+    sha256:d6ac531f4d03551bc301de56b01deb8141a506d8c9deb9675108f1c83f904b33
 tags:
-  1.26.0--r40hdfd78af_1: sha256:d6ac531f4d03551bc301de56b01deb8141a506d8c9deb9675108f1c83f904b33
+  1.26.0--r40hdfd78af_1: 
+    sha256:d6ac531f4d03551bc301de56b01deb8141a506d8c9deb9675108f1c83f904b33
 docker: quay.io/biocontainers/bioconductor-flowfitexampledata
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

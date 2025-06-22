@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ribotools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ribotools
 latest:
-  1.0.4--pyhdfd78af_0: sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
+  1.0.4--pyhdfd78af_0: 
+    sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
 tags:
-  1.0.4--pyhdfd78af_0: sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
+  1.0.4--pyhdfd78af_0: 
+    sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
 docker: quay.io/biocontainers/ribotools
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx
@@ -26,7 +28,8 @@ aliases:
   bedx-to-bedy: /usr/local/bin/bedx-to-bedy
   call-htseq-count: /usr/local/bin/call-htseq-count
   cmdstan_model: /usr/local/bin/cmdstan_model
-  collect-read-length-orf-profiles: /usr/local/bin/collect-read-length-orf-profiles
+  collect-read-length-orf-profiles: 
+    /usr/local/bin/collect-read-length-orf-profiles
   compile-rpbp-models: /usr/local/bin/compile-rpbp-models
   convert-ccds-to-bed: /usr/local/bin/convert-ccds-to-bed
   count-aligned-reads: /usr/local/bin/count-aligned-reads
@@ -34,11 +37,13 @@ aliases:
   create-base-genome-profile: /usr/local/bin/create-base-genome-profile
   create-mygene-report: /usr/local/bin/create-mygene-report
   create-orf-profiles: /usr/local/bin/create-orf-profiles
-  create-read-length-orf-profiles: /usr/local/bin/create-read-length-orf-profiles
+  create-read-length-orf-profiles: 
+    /usr/local/bin/create-read-length-orf-profiles
   dash-update-components: /usr/local/bin/dash-update-components
   dna-to-aa: /usr/local/bin/dna-to-aa
   download-srr-files: /usr/local/bin/download-srr-files
-  estimate-metagene-profile-bayes-factors: /usr/local/bin/estimate-metagene-profile-bayes-factors
+  estimate-metagene-profile-bayes-factors: 
+    /usr/local/bin/estimate-metagene-profile-bayes-factors
   estimate-orf-bayes-factors: /usr/local/bin/estimate-orf-bayes-factors
   extract-bed-sequences: /usr/local/bin/extract-bed-sequences
   extract-cds-coordinates: /usr/local/bin/extract-cds-coordinates
@@ -48,7 +53,8 @@ aliases:
   fasta-to-fastq: /usr/local/bin/fasta-to-fastq
   fastq-pe-dedupe: /usr/local/bin/fastq-pe-dedupe
   filter-bam-by-ids: /usr/local/bin/filter-bam-by-ids
-  filter-nonunique-peptide-matches: /usr/local/bin/filter-nonunique-peptide-matches
+  filter-nonunique-peptide-matches: 
+    /usr/local/bin/filter-nonunique-peptide-matches
   fix-all-bed-files: /usr/local/bin/fix-all-bed-files
   flexbar: /usr/local/bin/flexbar
   genl-ctrl-list: /usr/local/bin/genl-ctrl-list
@@ -131,7 +137,8 @@ aliases:
   remove-multimapping-reads: /usr/local/bin/remove-multimapping-reads
   reorder-fasta: /usr/local/bin/reorder-fasta
   rpbp-predictions-dashboard: /usr/local/bin/rpbp-predictions-dashboard
-  rpbp-profile-construction-dashboard: /usr/local/bin/rpbp-profile-construction-dashboard
+  rpbp-profile-construction-dashboard: 
+    /usr/local/bin/rpbp-profile-construction-dashboard
   run-all-rpbp-instances: /usr/local/bin/run-all-rpbp-instances
   run-bowtie: /usr/local/bin/run-bowtie
   run-dea: /usr/local/bin/run-dea
@@ -146,9 +153,12 @@ aliases:
   split-long-chromosomes: /usr/local/bin/split-long-chromosomes
   subtract-bed: /usr/local/bin/subtract-bed
   summarize-rpbp-predictions: /usr/local/bin/summarize-rpbp-predictions
-  summarize-rpbp-profile-construction: /usr/local/bin/summarize-rpbp-profile-construction
-  visualize-metagene-profile-bayes-factor: /usr/local/bin/visualize-metagene-profile-bayes-factor
-  visualize-orf-type-metagene-profiles: /usr/local/bin/visualize-orf-type-metagene-profiles
+  summarize-rpbp-profile-construction: 
+    /usr/local/bin/summarize-rpbp-profile-construction
+  visualize-metagene-profile-bayes-factor: 
+    /usr/local/bin/visualize-metagene-profile-bayes-factor
+  visualize-orf-type-metagene-profiles: 
+    /usr/local/bin/visualize-orf-type-metagene-profiles
   isort: /usr/local/bin/isort
   pylint: /usr/local/bin/pylint
   pyreverse: /usr/local/bin/pyreverse

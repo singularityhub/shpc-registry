@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mutamr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mutamr
 latest:
-  0.0.1--pyhdfd78af_0: sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
+  0.0.1--pyhdfd78af_0: 
+    sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
 tags:
-  0.0.1--pyhdfd78af_0: sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
+  0.0.1--pyhdfd78af_0: 
+    sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
 docker: quay.io/biocontainers/mutamr
 aliases:
   delly: /usr/local/bin/delly
@@ -21,7 +23,8 @@ aliases:
   coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
   fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
   freebayes-parallel: /usr/local/bin/freebayes-parallel
-  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
   freebayes: /usr/local/bin/freebayes
   abba-baba: /usr/local/bin/abba-baba
   bFst: /usr/local/bin/bFst

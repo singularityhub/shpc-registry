@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/httpretty
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for httpretty
 latest:
-  0.8.10--py35_0: sha256:407748f7af0d6b8670666b28c2875a13059bf52c54f55922a47d2dc69616f1b8
+  0.8.10--py35_0: 
+    sha256:407748f7af0d6b8670666b28c2875a13059bf52c54f55922a47d2dc69616f1b8
 tags:
-  0.8.10--py35_0: sha256:407748f7af0d6b8670666b28c2875a13059bf52c54f55922a47d2dc69616f1b8
-  0.8.10--py36_0: sha256:e1af3b3e9805c1e52b7529c57e9a8b3a4de492763ae4feb94b03b2da87637d2f
+  0.8.10--py35_0: 
+    sha256:407748f7af0d6b8670666b28c2875a13059bf52c54f55922a47d2dc69616f1b8
+  0.8.10--py36_0: 
+    sha256:e1af3b3e9805c1e52b7529c57e9a8b3a4de492763ae4feb94b03b2da87637d2f
 docker: quay.io/biocontainers/httpretty
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

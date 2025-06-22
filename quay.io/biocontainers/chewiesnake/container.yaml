@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/chewiesnake
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chewiesnake
 latest:
-  3.0.0--hdfd78af_2: sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
+  3.0.0--hdfd78af_2: 
+    sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
 tags:
-  3.0.0--hdfd78af_2: sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
+  3.0.0--hdfd78af_2: 
+    sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
 docker: quay.io/biocontainers/chewiesnake
 aliases:
   Clustering_DistanceMatrix.R: /usr/local/bin/Clustering_DistanceMatrix.R

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_esmf_openmpi_4_1_6
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_esmf_openmpi_4_1_6
+description: singularity registry hpc automated addition for 
+  esme_esmf_openmpi_4_1_6
 latest:
-  8.8.0--h27800e5_0: sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
+  8.8.0--h27800e5_0: 
+    sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
 tags:
-  8.8.0--h27800e5_0: sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
+  8.8.0--h27800e5_0: 
+    sha256:1792a6e199f2e8499996ebdbbc6597565c6b61a78f557e1ecb7ae9893754e985
 docker: quay.io/biocontainers/esme_esmf_openmpi_4_1_6
 aliases:
   ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo

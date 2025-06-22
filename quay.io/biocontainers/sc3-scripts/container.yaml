@@ -2,16 +2,23 @@ url: https://biocontainers.pro/tools/sc3-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sc3-scripts
 latest:
-  0.0.6--r351_0: sha256:208ddcf87c6eaff3cea703f14221eb2cbfdf8fc6f6d34c6fd30ae74b624e45c2
+  0.0.6--r351_0: 
+    sha256:208ddcf87c6eaff3cea703f14221eb2cbfdf8fc6f6d34c6fd30ae74b624e45c2
 tags:
-  0.0.6--r351_0: sha256:208ddcf87c6eaff3cea703f14221eb2cbfdf8fc6f6d34c6fd30ae74b624e45c2
+  0.0.6--r351_0: 
+    sha256:208ddcf87c6eaff3cea703f14221eb2cbfdf8fc6f6d34c6fd30ae74b624e45c2
 docker: quay.io/biocontainers/sc3-scripts
 aliases:
-  bioconductor-sc3-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-sc3-scripts-post-install-tests.bats
-  bioconductor-sc3-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-sc3-scripts-post-install-tests.sh
-  bioconductor-scater-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
-  bioconductor-scater-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
-  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
+  bioconductor-sc3-scripts-post-install-tests.bats: 
+    /usr/local/bin/bioconductor-sc3-scripts-post-install-tests.bats
+  bioconductor-sc3-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-sc3-scripts-post-install-tests.sh
+  bioconductor-scater-scripts-post-install-tests.bats: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
+  bioconductor-scater-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
+  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
   sc3-sc3-calc-biology.R: /usr/local/bin/sc3-sc3-calc-biology.R
   sc3-sc3-calc-consens.R: /usr/local/bin/sc3-sc3-calc-consens.R
   sc3-sc3-calc-dists.R: /usr/local/bin/sc3-sc3-calc-dists.R
@@ -30,9 +37,12 @@ aliases:
   scater-plot-reduced-dim.R: /usr/local/bin/scater-plot-reduced-dim.R
   scater-run-pca.R: /usr/local/bin/scater-run-pca.R
   scater-run-tsne.R: /usr/local/bin/scater-run-tsne.R
-  singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
-  singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
-  singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
+  singlecellexperiment-create-single-cell-experiment.R: 
+    /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
+  singlecellexperiment-get-random-cells.R: 
+    /usr/local/bin/singlecellexperiment-get-random-cells.R
+  singlecellexperiment-get-random-genes.R: 
+    /usr/local/bin/singlecellexperiment-get-random-genes.R
   idn2: /usr/local/bin/idn2
   conda_build.sh: /usr/local/bin/conda_build.sh
   wget: /usr/local/bin/wget

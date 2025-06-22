@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nanosim-h
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanosim-h
 latest:
-  1.1.0.4--pyr40h145b6a8_2: sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
+  1.1.0.4--pyr40h145b6a8_2: 
+    sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
 tags:
-  1.1.0.4--pyr40h145b6a8_2: sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
+  1.1.0.4--pyr40h145b6a8_2: 
+    sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
 docker: quay.io/biocontainers/nanosim-h
 aliases:
   fastq-interleave: /usr/local/bin/fastq-interleave

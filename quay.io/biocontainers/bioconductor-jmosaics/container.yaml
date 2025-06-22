@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-jmosaics
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-jmosaics
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-jmosaics
 latest:
-  1.10.0--0: sha256:b9bc798dd3c3e95aa1bd0a889b52412f3dcc6ed80dfee08bd35eee7bafe0c87d
+  1.10.0--0: 
+    sha256:b9bc798dd3c3e95aa1bd0a889b52412f3dcc6ed80dfee08bd35eee7bafe0c87d
 tags:
-  1.10.0--0: sha256:b9bc798dd3c3e95aa1bd0a889b52412f3dcc6ed80dfee08bd35eee7bafe0c87d
-  1.10.0--r3.4.1_0: sha256:89c24768019c6879b119ac48b87cf8932ed71e686d896551d6c6aa0b21210226
+  1.10.0--0: 
+    sha256:b9bc798dd3c3e95aa1bd0a889b52412f3dcc6ed80dfee08bd35eee7bafe0c87d
+  1.10.0--r3.4.1_0: 
+    sha256:89c24768019c6879b119ac48b87cf8932ed71e686d896551d6c6aa0b21210226
 docker: quay.io/biocontainers/bioconductor-jmosaics
 aliases:
   perl5.22.0: /usr/local/bin/perl5.22.0

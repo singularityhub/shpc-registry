@@ -1,8 +1,9 @@
 docker: ghcr.io/autamus/phist
 url: https://github.com/orgs/autamus/packages/container/package/phist
 maintainer: '@vsoch'
-description: The Pipelined, Hybrid-parallel Iterative Solver Toolkit provides implementations
-  of and interfaces to block iterative solvers for sparse linear and eigenvalue problems.
+description: The Pipelined, Hybrid-parallel Iterative Solver Toolkit provides 
+  implementations of and interfaces to block iterative solvers for sparse linear
+  and eigenvalue problems.
 latest:
   1.9.6: sha256:ad676b1b34f14db06433d27ec98c4b1a8f5c9bc939334cb10d2d487086501f20
 tags:

@@ -2,15 +2,23 @@ url: https://biocontainers.pro/tools/dsh-bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dsh-bio
 latest:
-  3.0--hdfd78af_0: sha256:838268e85cc4412677d7bb35db0175034aefb0e915cd6ecc5c4ad1b3c868f221
+  3.0--hdfd78af_0: 
+    sha256:838268e85cc4412677d7bb35db0175034aefb0e915cd6ecc5c4ad1b3c868f221
 tags:
-  2.1--hdfd78af_0: sha256:12c3a5b7898c793f40016f34b98f4695cebdac5efd51eab79748f3f24e2f62cd
-  2.2--hdfd78af_0: sha256:51d028c6a41ede60edae9ec32457d65cfc098b2ca0ed946607142fecc58d22bc
-  2.2.1--hdfd78af_0: sha256:e6d19a2c750ef589f44040b1ba2b6df2f3157a8646e8561cb6a6866105bb11a1
-  2.2.2--hdfd78af_0: sha256:b96640313d8f3b27166c841b95150735a2b095d1b5d8d7a6580ad7612ec3b6a7
-  2.3--hdfd78af_0: sha256:4fbde2a2e701fb63a854fe937161253b38768559d94f44040b1ddac5a2d9611a
-  2.4--hdfd78af_0: sha256:438312aa88603ff138d60c9dd0c535f589720131ec179c174a1281bcffd1a879
-  3.0--hdfd78af_0: sha256:838268e85cc4412677d7bb35db0175034aefb0e915cd6ecc5c4ad1b3c868f221
+  2.1--hdfd78af_0: 
+    sha256:12c3a5b7898c793f40016f34b98f4695cebdac5efd51eab79748f3f24e2f62cd
+  2.2--hdfd78af_0: 
+    sha256:51d028c6a41ede60edae9ec32457d65cfc098b2ca0ed946607142fecc58d22bc
+  2.2.1--hdfd78af_0: 
+    sha256:e6d19a2c750ef589f44040b1ba2b6df2f3157a8646e8561cb6a6866105bb11a1
+  2.2.2--hdfd78af_0: 
+    sha256:b96640313d8f3b27166c841b95150735a2b095d1b5d8d7a6580ad7612ec3b6a7
+  2.3--hdfd78af_0: 
+    sha256:4fbde2a2e701fb63a854fe937161253b38768559d94f44040b1ddac5a2d9611a
+  2.4--hdfd78af_0: 
+    sha256:438312aa88603ff138d60c9dd0c535f589720131ec179c174a1281bcffd1a879
+  3.0--hdfd78af_0: 
+    sha256:838268e85cc4412677d7bb35db0175034aefb0e915cd6ecc5c4ad1b3c868f221
 docker: quay.io/biocontainers/dsh-bio
 aliases:
   dsh-bio: /usr/local/bin/dsh-bio
@@ -28,7 +36,8 @@ aliases:
   dsh-create-sequence-dictionary: /usr/local/bin/dsh-create-sequence-dictionary
   dsh-disinterleave-fastq: /usr/local/bin/dsh-disinterleave-fastq
   dsh-downsample-fastq: /usr/local/bin/dsh-downsample-fastq
-  dsh-downsample-interleaved-fastq: /usr/local/bin/dsh-downsample-interleaved-fastq
+  dsh-downsample-interleaved-fastq: 
+    /usr/local/bin/dsh-downsample-interleaved-fastq
   dsh-export-segments: /usr/local/bin/dsh-export-segments
   dsh-extract-fastq: /usr/local/bin/dsh-extract-fastq
   dsh-extract-fastq-by-length: /usr/local/bin/dsh-extract-fastq-by-length
@@ -62,7 +71,8 @@ aliases:
   dsh-rename-bed-references: /usr/local/bin/dsh-rename-bed-references
   dsh-rename-gff3-references: /usr/local/bin/dsh-rename-gff3-references
   dsh-rename-vcf-references: /usr/local/bin/dsh-rename-vcf-references
-  dsh-segments-to-cytoscape-nodes: /usr/local/bin/dsh-segments-to-cytoscape-nodes
+  dsh-segments-to-cytoscape-nodes: 
+    /usr/local/bin/dsh-segments-to-cytoscape-nodes
   dsh-segments-to-property-graph: /usr/local/bin/dsh-segments-to-property-graph
   dsh-split-bed: /usr/local/bin/dsh-split-bed
   dsh-split-fasta: /usr/local/bin/dsh-split-fasta
@@ -74,8 +84,10 @@ aliases:
   dsh-split-sam: /usr/local/bin/dsh-split-sam
   dsh-split-vcf: /usr/local/bin/dsh-split-vcf
   dsh-text-to-fastq: /usr/local/bin/dsh-text-to-fastq
-  dsh-traversals-to-cytoscape-edges: /usr/local/bin/dsh-traversals-to-cytoscape-edges
-  dsh-traversals-to-property-graph: /usr/local/bin/dsh-traversals-to-property-graph
+  dsh-traversals-to-cytoscape-edges: 
+    /usr/local/bin/dsh-traversals-to-cytoscape-edges
+  dsh-traversals-to-property-graph: 
+    /usr/local/bin/dsh-traversals-to-property-graph
   dsh-traverse-paths: /usr/local/bin/dsh-traverse-paths
   dsh-truncate-fasta: /usr/local/bin/dsh-truncate-fasta
   dsh-truncate-paths: /usr/local/bin/dsh-truncate-paths

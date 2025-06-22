@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/eval
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for eval
 latest:
-  2.2.8--pl526_1: sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
+  2.2.8--pl526_1: 
+    sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
 tags:
-  2.2.8--pl526_1: sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
+  2.2.8--pl526_1: 
+    sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
 docker: quay.io/biocontainers/eval
 aliases:
   RangeFinder.py: /usr/local/bin/RangeFinder.py
@@ -18,7 +20,8 @@ aliases:
   get_overlap_stats.pl: /usr/local/bin/get_overlap_stats.pl
   gff3_to_gtf.pl: /usr/local/bin/gff3_to_gtf.pl
   graph_gtfs.pl: /usr/local/bin/graph_gtfs.pl
-  make_intron_lenght_vs_performance_graph.pl: /usr/local/bin/make_intron_lenght_vs_performance_graph.pl
+  make_intron_lenght_vs_performance_graph.pl: 
+    /usr/local/bin/make_intron_lenght_vs_performance_graph.pl
   merge_gtf_transcripts.py: /usr/local/bin/merge_gtf_transcripts.py
   validate_gtf.pl: /usr/local/bin/validate_gtf.pl
   validate_splice_sites.pl: /usr/local/bin/validate_splice_sites.pl

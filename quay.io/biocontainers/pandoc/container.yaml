@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pandoc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pandoc
 latest:
-  2.1.3--0: sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe
+  2.1.3--0: 
+    sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe
 tags:
-  2.1.3--0: sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe
+  2.1.3--0: 
+    sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe
 docker: quay.io/biocontainers/pandoc
 aliases:
   pandoc: /usr/local/bin/pandoc

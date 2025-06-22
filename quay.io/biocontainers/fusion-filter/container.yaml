@@ -2,18 +2,24 @@ url: https://biocontainers.pro/tools/fusion-filter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fusion-filter
 latest:
-  0.5.0--hdfd78af_4: sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
+  0.5.0--hdfd78af_4: 
+    sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
 tags:
-  0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
-  0.5.0--hdfd78af_4: sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
+  0.5.0--hdfd78af_3: 
+    sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
+  0.5.0--hdfd78af_4: 
+    sha256:ceecbb2ca1a763aab72563247282df25a5b65d5987476c29da045e2001b63808
 docker: quay.io/biocontainers/fusion-filter
 aliases:
   atoiindex: /usr/local/bin/atoiindex
-  blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
+  blast_and_promiscuity_filter.pl: 
+    /usr/local/bin/blast_and_promiscuity_filter.pl
   blast_check_pair.pl: /usr/local/bin/blast_check_pair.pl
   blast_filter.pl: /usr/local/bin/blast_filter.pl
-  blast_outfmt6_replace_trans_id_w_gene_symbol.pl: /usr/local/bin/blast_outfmt6_replace_trans_id_w_gene_symbol.pl
-  build_chr_gene_alignment_index.pl: /usr/local/bin/build_chr_gene_alignment_index.pl
+  blast_outfmt6_replace_trans_id_w_gene_symbol.pl: 
+    /usr/local/bin/blast_outfmt6_replace_trans_id_w_gene_symbol.pl
+  build_chr_gene_alignment_index.pl: 
+    /usr/local/bin/build_chr_gene_alignment_index.pl
   build_fusion_annot_db_index.pl: /usr/local/bin/build_fusion_annot_db_index.pl
   build_prot_info_db.pl: /usr/local/bin/build_prot_info_db.pl
   cmetindex: /usr/local/bin/cmetindex
@@ -21,7 +27,8 @@ aliases:
   dbsnp_iit: /usr/local/bin/dbsnp_iit
   ensembl_genes: /usr/local/bin/ensembl_genes
   fa_coords: /usr/local/bin/fa_coords
-  gencode_extract_relevant_gtf_exons.pl: /usr/local/bin/gencode_extract_relevant_gtf_exons.pl
+  gencode_extract_relevant_gtf_exons.pl: 
+    /usr/local/bin/gencode_extract_relevant_gtf_exons.pl
   get-genome: /usr/local/bin/get-genome
   gff3_genes: /usr/local/bin/gff3_genes
   gff3_introns: /usr/local/bin/gff3_introns
@@ -53,13 +60,17 @@ aliases:
   iit_get: /usr/local/bin/iit_get
   iit_store: /usr/local/bin/iit_store
   index_blast_pairs.pl: /usr/local/bin/index_blast_pairs.pl
-  index_blast_pairs.remove_gene_pair.pl: /usr/local/bin/index_blast_pairs.remove_gene_pair.pl
-  index_blast_pairs.remove_overlapping_genes.pl: /usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl
+  index_blast_pairs.remove_gene_pair.pl: 
+    /usr/local/bin/index_blast_pairs.remove_gene_pair.pl
+  index_blast_pairs.remove_overlapping_genes.pl: 
+    /usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl
   index_cdna_seqs.pl: /usr/local/bin/index_cdna_seqs.pl
   index_pfam_domain_info.pl: /usr/local/bin/index_pfam_domain_info.pl
   indexdb_cat: /usr/local/bin/indexdb_cat
-  isoform_blast_gene_chr_conversion.pl: /usr/local/bin/isoform_blast_gene_chr_conversion.pl
-  isoform_blast_mapping_indexer.pl: /usr/local/bin/isoform_blast_mapping_indexer.pl
+  isoform_blast_gene_chr_conversion.pl: 
+    /usr/local/bin/isoform_blast_gene_chr_conversion.pl
+  isoform_blast_mapping_indexer.pl: 
+    /usr/local/bin/isoform_blast_mapping_indexer.pl
   just_blast_test.pl: /usr/local/bin/just_blast_test.pl
   make_super_locus.pl: /usr/local/bin/make_super_locus.pl
   md_coords: /usr/local/bin/md_coords
@@ -68,7 +79,8 @@ aliases:
   psl_genes: /usr/local/bin/psl_genes
   psl_introns: /usr/local/bin/psl_introns
   psl_splicesites: /usr/local/bin/psl_splicesites
-  remove_long_intron_readthru_transcripts.pl: /usr/local/bin/remove_long_intron_readthru_transcripts.pl
+  remove_long_intron_readthru_transcripts.pl: 
+    /usr/local/bin/remove_long_intron_readthru_transcripts.pl
   sam_sort: /usr/local/bin/sam_sort
   snpindex: /usr/local/bin/snpindex
   trindex: /usr/local/bin/trindex

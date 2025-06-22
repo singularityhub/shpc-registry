@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hamip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hamip
 latest:
-  0.0.3.2--py_0: sha256:1af48747c1ad4c2cfe9e212772329b33cfc79400c7de8b7a4506afe4b75d6097
+  0.0.3.2--py_0: 
+    sha256:1af48747c1ad4c2cfe9e212772329b33cfc79400c7de8b7a4506afe4b75d6097
 tags:
-  0.0.3.2--py_0: sha256:1af48747c1ad4c2cfe9e212772329b33cfc79400c7de8b7a4506afe4b75d6097
+  0.0.3.2--py_0: 
+    sha256:1af48747c1ad4c2cfe9e212772329b33cfc79400c7de8b7a4506afe4b75d6097
 docker: quay.io/biocontainers/hamip
 aliases:
   HaMiP: /usr/local/bin/HaMiP

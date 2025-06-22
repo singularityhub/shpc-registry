@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/blastmining
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for blastmining
 latest:
-  1.2.0--pyhdfd78af_0: sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
+  1.2.0--pyhdfd78af_0: 
+    sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
 tags:
-  1.2.0--pyhdfd78af_0: sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
+  1.2.0--pyhdfd78af_0: 
+    sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
 docker: quay.io/biocontainers/blastmining
 aliases:
   blastMining: /usr/local/bin/blastMining

@@ -2,13 +2,16 @@ url: https://biocontainers.pro/tools/genbank_to
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genbank_to
 latest:
-  0.42--pyhdfd78af_0: sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432
+  0.42--pyhdfd78af_0: 
+    sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432
 tags:
-  0.42--pyhdfd78af_0: sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432
+  0.42--pyhdfd78af_0: 
+    sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432
 docker: quay.io/biocontainers/genbank_to
 aliases:
   genbank_to: /usr/local/bin/genbank_to
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

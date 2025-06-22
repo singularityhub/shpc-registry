@@ -6,6 +6,7 @@ latest:
   2.3.0: sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214
 tags:
   2.3.0: sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214
-  latest: sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214
+  latest: 
+    sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214
 aliases:
   alpspython: /opt/view/bin/alpspython

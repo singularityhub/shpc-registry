@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pyvcf3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyvcf3
 latest:
-  1.0.3--pyhdfd78af_0: sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310
+  1.0.4--py311haab0aaa_0: 
+    sha256:41d0904479b69a84b9c9e2775b4eef38385e7905cfcdc5277e493b8bbdbcf28a
 tags:
-  1.0.3--pyhdfd78af_0: sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310
+  1.0.3--pyhdfd78af_0: 
+    sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310
+  1.0.4--py311haab0aaa_0: 
+    sha256:41d0904479b69a84b9c9e2775b4eef38385e7905cfcdc5277e493b8bbdbcf28a
 docker: quay.io/biocontainers/pyvcf3
 aliases:
   vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
