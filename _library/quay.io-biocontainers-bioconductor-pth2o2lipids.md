@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pth2o2lipids"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pth2o2lipids/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pth2o2lipids/container.yaml"
-updated_at: "2025-06-21 03:53:40.489413"
+updated_at: "2025-06-22 04:05:39.594001"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pth2o2lipids"
 aliases:

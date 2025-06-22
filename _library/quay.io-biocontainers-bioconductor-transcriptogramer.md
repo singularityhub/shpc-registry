@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-transcriptogramer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transcriptogramer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transcriptogramer/container.yaml"
-updated_at: "2025-06-21 03:35:26.390748"
+updated_at: "2025-06-22 03:47:21.373348"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transcriptogramer"
 aliases:

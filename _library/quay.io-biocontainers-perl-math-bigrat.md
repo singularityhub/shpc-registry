@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-bigrat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-bigrat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-bigrat/container.yaml"
-updated_at: "2025-06-21 03:41:02.707787"
+updated_at: "2025-06-22 03:52:51.979244"
 latest: "0.2624--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-math-bigrat"
 aliases:

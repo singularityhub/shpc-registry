@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-receptloss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
-updated_at: "2025-06-21 03:57:45.308862"
+updated_at: "2025-06-22 04:09:44.044834"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-receptloss"
 

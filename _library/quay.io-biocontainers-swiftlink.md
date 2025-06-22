@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swiftlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swiftlink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swiftlink/container.yaml"
-updated_at: "2025-06-21 03:16:09.918533"
+updated_at: "2025-06-22 03:28:41.984989"
 latest: "1.0--h20b91ae_2"
 container_url: "https://biocontainers.pro/tools/swiftlink"
 aliases:

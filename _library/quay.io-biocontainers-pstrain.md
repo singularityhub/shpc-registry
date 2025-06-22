@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pstrain/container.yaml"
-updated_at: "2025-06-21 03:35:51.590080"
+updated_at: "2025-06-22 03:47:45.853732"
 latest: "1.0.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pstrain"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/container.yaml"
-updated_at: "2025-06-21 03:58:00.154371"
+updated_at: "2025-06-22 04:09:58.785431"
 latest: "3.7.1--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-fitcons.ucsc.hg19"
 

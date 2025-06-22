@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-switchbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-switchbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-switchbox/container.yaml"
-updated_at: "2025-06-21 03:55:52.428030"
+updated_at: "2025-06-22 04:07:51.670237"
 latest: "1.42.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-switchbox"
 

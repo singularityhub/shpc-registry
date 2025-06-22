@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rucs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rucs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rucs/container.yaml"
-updated_at: "2025-06-21 04:00:29.605618"
-latest: "1.0.2--hdfd78af_1"
+updated_at: "2025-06-22 04:12:27.934301"
+latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rucs"
 aliases:
  - "install_db.sh"
@@ -22,8 +22,9 @@ aliases:
  - "pm-collect"
 versions:
  - "1.0.2--hdfd78af_1"
+ - "1.0.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rucs"
-config: {"url": "https://biocontainers.pro/tools/rucs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rucs", "latest": {"1.0.2--hdfd78af_1": "sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426"}, "tags": {"1.0.2--hdfd78af_1": "sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426"}, "docker": "quay.io/biocontainers/rucs", "aliases": {"install_db.sh": "/usr/local/bin/install_db.sh", "rucs": "/usr/local/bin/rucs", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "tabulate": "/usr/local/bin/tabulate", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
+config: {"url": "https://biocontainers.pro/tools/rucs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rucs", "latest": {"1.0.3--hdfd78af_0": "sha256:770b679b66ee31e4649d5d5ef83d94d8e3868b8c3f31e18bebd4cb470e2b92e3"}, "tags": {"1.0.2--hdfd78af_1": "sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426", "1.0.3--hdfd78af_0": "sha256:770b679b66ee31e4649d5d5ef83d94d8e3868b8c3f31e18bebd4cb470e2b92e3"}, "docker": "quay.io/biocontainers/rucs", "aliases": {"install_db.sh": "/usr/local/bin/install_db.sh", "rucs": "/usr/local/bin/rucs", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "tabulate": "/usr/local/bin/tabulate", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rucs.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/rucs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rucs:1.0.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/rucs:1.0.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rucs/1.0.2--hdfd78af_1
-$ module help quay.io/biocontainers/rucs/1.0.2--hdfd78af_1
+$ module load quay.io/biocontainers/rucs/1.0.3--hdfd78af_0
+$ module help quay.io/biocontainers/rucs/1.0.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

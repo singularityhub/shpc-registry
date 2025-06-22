@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/riboloco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboloco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboloco/container.yaml"
-updated_at: "2025-06-21 03:20:06.563514"
-latest: "0.3.9--pyh5e36f6f_0"
+updated_at: "2025-06-22 03:32:32.089150"
+latest: "0.3.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/riboloco"
 aliases:
  - "riboloco"
@@ -23,8 +23,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.3.9--pyh5e36f6f_0"
+ - "0.3.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for riboloco"
-config: {"url": "https://biocontainers.pro/tools/riboloco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboloco", "latest": {"0.3.9--pyh5e36f6f_0": "sha256:d4d030962525df782068d81b56ab27195b354340fe78be307bac801e3d2edc86"}, "tags": {"0.3.9--pyh5e36f6f_0": "sha256:d4d030962525df782068d81b56ab27195b354340fe78be307bac801e3d2edc86"}, "docker": "quay.io/biocontainers/riboloco", "aliases": {"riboloco": "/usr/local/bin/riboloco", "riboloco_convert_gtf": "/usr/local/bin/riboloco_convert_gtf", "riboloco_find_orfs": "/usr/local/bin/riboloco_find_orfs", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/riboloco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboloco", "latest": {"0.3.10--pyhdfd78af_0": "sha256:c7a2e4d784ff6a6e2ceccb34816360cd0ebca51dcd5487e71886ae3aa2f3b330"}, "tags": {"0.3.9--pyh5e36f6f_0": "sha256:d4d030962525df782068d81b56ab27195b354340fe78be307bac801e3d2edc86", "0.3.10--pyhdfd78af_0": "sha256:c7a2e4d784ff6a6e2ceccb34816360cd0ebca51dcd5487e71886ae3aa2f3b330"}, "docker": "quay.io/biocontainers/riboloco", "aliases": {"riboloco": "/usr/local/bin/riboloco", "riboloco_convert_gtf": "/usr/local/bin/riboloco_convert_gtf", "riboloco_find_orfs": "/usr/local/bin/riboloco_find_orfs", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboloco.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/riboloco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riboloco:0.3.9--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/riboloco:0.3.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riboloco/0.3.9--pyh5e36f6f_0
-$ module help quay.io/biocontainers/riboloco/0.3.9--pyh5e36f6f_0
+$ module load quay.io/biocontainers/riboloco/0.3.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/riboloco/0.3.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

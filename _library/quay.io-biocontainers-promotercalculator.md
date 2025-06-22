@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/promotercalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/promotercalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/promotercalculator/container.yaml"
-updated_at: "2025-06-21 04:06:24.400791"
+updated_at: "2025-06-22 04:18:24.007705"
 latest: "1.2.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/promotercalculator"
 aliases:

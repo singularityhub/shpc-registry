@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
-updated_at: "2025-06-21 03:51:18.568885"
+updated_at: "2025-06-22 04:03:14.989751"
 latest: "2.22.0--r44h15a9599_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maftools"
 aliases:
