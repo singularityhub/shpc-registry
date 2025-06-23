@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kestrel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kestrel
 latest:
-  1.0.3--hdfd78af_0: sha256:142347b53b28f128685e576890dde7393e33594d8288deba31b46a327433ec6f
+  1.0.3--hdfd78af_0: 
+    sha256:142347b53b28f128685e576890dde7393e33594d8288deba31b46a327433ec6f
 tags:
-  1.0.3--hdfd78af_0: sha256:142347b53b28f128685e576890dde7393e33594d8288deba31b46a327433ec6f
+  1.0.3--hdfd78af_0: 
+    sha256:142347b53b28f128685e576890dde7393e33594d8288deba31b46a327433ec6f
 docker: quay.io/biocontainers/kestrel
 aliases:
   kestrel: /usr/local/bin/kestrel

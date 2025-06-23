@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hmntrimmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmntrimmer
 latest:
-  0.6.5--he93f0d0_1: sha256:991bdff92a4104559ab9666a424042bc190af22fe5e480ce8a50b99cc642f9d3
+  0.6.5--he93f0d0_1: 
+    sha256:991bdff92a4104559ab9666a424042bc190af22fe5e480ce8a50b99cc642f9d3
 tags:
-  0.6.5--he93f0d0_1: sha256:991bdff92a4104559ab9666a424042bc190af22fe5e480ce8a50b99cc642f9d3
+  0.6.5--he93f0d0_1: 
+    sha256:991bdff92a4104559ab9666a424042bc190af22fe5e480ce8a50b99cc642f9d3
 docker: quay.io/biocontainers/hmntrimmer
 aliases:
   HmnTrimmer: /usr/local/bin/HmnTrimmer

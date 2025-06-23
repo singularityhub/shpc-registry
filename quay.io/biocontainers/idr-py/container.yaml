@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/idr-py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for idr-py
 latest:
-  0.4.2--py_0: sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80
+  0.4.2--py_0: 
+    sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80
 tags:
-  0.4.2--py_0: sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80
+  0.4.2--py_0: 
+    sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80
 docker: quay.io/biocontainers/idr-py
 aliases:
   omero: /usr/local/bin/omero

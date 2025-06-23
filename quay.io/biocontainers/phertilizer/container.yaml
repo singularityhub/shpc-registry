@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phertilizer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phertilizer
 latest:
-  0.1.0--pyhdfd78af_0: sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
+  0.1.0--pyhdfd78af_0: 
+    sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
 tags:
-  0.1.0--pyhdfd78af_0: sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
+  0.1.0--pyhdfd78af_0: 
+    sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
 docker: quay.io/biocontainers/phertilizer
 aliases:
   phertilizer: /usr/local/bin/phertilizer

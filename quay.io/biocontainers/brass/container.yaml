@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/brass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for brass
 latest:
-  5.1.6--7: sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
+  5.1.6--7: 
+    sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
 tags:
-  5.1.6--7: sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
+  5.1.6--7: 
+    sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
 docker: quay.io/biocontainers/brass
 aliases:
   augment-bam: /usr/local/bin/augment-bam
@@ -62,12 +64,14 @@ aliases:
   fastasubseq: /usr/local/bin/fastasubseq
   fastatranslate: /usr/local/bin/fastatranslate
   fastavalidcds: /usr/local/bin/fastavalidcds
-  filter_with_microbes_and_remapping.pl: /usr/local/bin/filter_with_microbes_and_remapping.pl
+  filter_with_microbes_and_remapping.pl: 
+    /usr/local/bin/filter_with_microbes_and_remapping.pl
   filterout-bam: /usr/local/bin/filterout-bam
   findbp: /usr/local/bin/findbp
   findbp-all: /usr/local/bin/findbp-all
   gcov2perl: /usr/local/bin/gcov2perl
-  get_abs_bkpts_from_clipped_reads.pl: /usr/local/bin/get_abs_bkpts_from_clipped_reads.pl
+  get_abs_bkpts_from_clipped_reads.pl: 
+    /usr/local/bin/get_abs_bkpts_from_clipped_reads.pl
   gfClient: /usr/local/bin/gfClient
   gfServer: /usr/local/bin/gfServer
   gnos_pull.pl: /usr/local/bin/gnos_pull.pl
@@ -75,7 +79,8 @@ aliases:
   ipcress: /usr/local/bin/ipcress
   lneato: /usr/local/bin/lneato
   make-repeat-file: /usr/local/bin/make-repeat-file
-  match_rg_patterns_to_library.pl: /usr/local/bin/match_rg_patterns_to_library.pl
+  match_rg_patterns_to_library.pl: 
+    /usr/local/bin/match_rg_patterns_to_library.pl
   merge_double_rgs.pl: /usr/local/bin/merge_double_rgs.pl
   monitor.pl: /usr/local/bin/monitor.pl
   nibFrag: /usr/local/bin/nibFrag

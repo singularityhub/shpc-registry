@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/pybel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybel
 latest:
-  0.13.2--py_0: sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162
+  0.13.2--py_0: 
+    sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162
 tags:
-  0.9.3--py27_1: sha256:07c178e0ea6aa307fa61abea3837145d3d72aec22cbb64f745bbc0593461fb59
-  0.13.2--py_0: sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162
+  0.9.3--py27_1: 
+    sha256:07c178e0ea6aa307fa61abea3837145d3d72aec22cbb64f745bbc0593461fb59
+  0.13.2--py_0: 
+    sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162
 docker: quay.io/biocontainers/pybel
 aliases:
   geoff: /usr/local/bin/geoff

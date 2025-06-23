@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scexecute
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scexecute
 latest:
-  1.3.3--hdfd78af_0: sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
+  1.3.3--hdfd78af_0: 
+    sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
 tags:
-  1.3.3--hdfd78af_0: sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
+  1.3.3--hdfd78af_0: 
+    sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
 docker: quay.io/biocontainers/scexecute
 aliases:
   helpviewer: /usr/local/bin/helpviewer

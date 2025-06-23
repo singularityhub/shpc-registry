@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/obitools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for obitools
 latest:
-  1.2.13--py27h9801fc8_4: sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
+  1.2.13--py27h9801fc8_4: 
+    sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
 tags:
-  1.2.13--py27h9801fc8_4: sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
+  1.2.13--py27h9801fc8_4: 
+    sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
 docker: quay.io/biocontainers/obitools
 aliases:
   ali2consensus: /usr/local/bin/ali2consensus

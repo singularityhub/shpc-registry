@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-ada
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ada
 latest:
-  2.0_5--r3.3.1_0: sha256:f886ba187372ac256270673111821cb0aaeb0fe95443829e43e5517e9bb367ad
+  2.0_5--r3.3.1_0: 
+    sha256:f886ba187372ac256270673111821cb0aaeb0fe95443829e43e5517e9bb367ad
 tags:
-  2.0_5--r3.3.1_0: sha256:f886ba187372ac256270673111821cb0aaeb0fe95443829e43e5517e9bb367ad
-  2.0_5--r3.3.2_0: sha256:7c599b836b2d029e0ce5e3d100977467df639804618a404b7257afce78ae7705
+  2.0_5--r3.3.1_0: 
+    sha256:f886ba187372ac256270673111821cb0aaeb0fe95443829e43e5517e9bb367ad
+  2.0_5--r3.3.2_0: 
+    sha256:7c599b836b2d029e0ce5e3d100977467df639804618a404b7257afce78ae7705
 docker: quay.io/biocontainers/r-ada
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

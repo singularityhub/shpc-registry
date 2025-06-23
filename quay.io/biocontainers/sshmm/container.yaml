@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sshmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sshmm
 latest:
-  1.0.7--py27he4fc25b_4: sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1
+  1.0.7--py27he4fc25b_4: 
+    sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1
 tags:
-  1.0.7--py27he4fc25b_4: sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1
+  1.0.7--py27he4fc25b_4: 
+    sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1
 docker: quay.io/biocontainers/sshmm
 aliases:
   AccessFold: /usr/local/bin/AccessFold

@@ -2,16 +2,21 @@ url: https://biocontainers.pro/tools/hicberg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hicberg
 latest:
-  1.0.0--py312hcf36b3e_0: sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8
+  1.0.1--py312hcf36b3e_0: 
+    sha256:7944f787d6244b79e74097f1b15ae74543e74e085b66df98307f5630fdcdcecd
 tags:
-  1.0.0--py312hcf36b3e_0: sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8
+  1.0.0--py312hcf36b3e_0: 
+    sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8
+  1.0.1--py312hcf36b3e_0: 
+    sha256:7944f787d6244b79e74097f1b15ae74543e74e085b66df98307f5630fdcdcecd
 docker: quay.io/biocontainers/hicberg
 aliases:
   boostchr.pl: /usr/local/bin/boostchr.pl
   checksum-profile: /usr/local/bin/checksum-profile
   column_remover.pl.bak: /usr/local/bin/column_remover.pl.bak
   create_randompairs.pl: /usr/local/bin/create_randompairs.pl
-  duplicate_header_remover.pl.bak: /usr/local/bin/duplicate_header_remover.pl.bak
+  duplicate_header_remover.pl.bak: 
+    /usr/local/bin/duplicate_header_remover.pl.bak
   elastishadow: /usr/local/bin/elastishadow
   fragment_4dnpairs.pl.bak: /usr/local/bin/fragment_4dnpairs.pl.bak
   h5fuse: /usr/local/bin/h5fuse

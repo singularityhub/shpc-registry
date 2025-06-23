@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-argparser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-argparser
 latest:
-  0.4--r3.3.1_0: sha256:63aa30c67e7a8f6e66cc0b444f009b2609f6beab3f8e21e1d9ea295343caa556
+  0.4--r3.3.1_0: 
+    sha256:63aa30c67e7a8f6e66cc0b444f009b2609f6beab3f8e21e1d9ea295343caa556
 tags:
-  0.4--r3.3.1_0: sha256:63aa30c67e7a8f6e66cc0b444f009b2609f6beab3f8e21e1d9ea295343caa556
-  0.4--r3.3.2_0: sha256:864891470848c90f1f4bb0d0a7ae4d457c6be34c3e7e85c8c83fa96b551cacf9
+  0.4--r3.3.1_0: 
+    sha256:63aa30c67e7a8f6e66cc0b444f009b2609f6beab3f8e21e1d9ea295343caa556
+  0.4--r3.3.2_0: 
+    sha256:864891470848c90f1f4bb0d0a7ae4d457c6be34c3e7e85c8c83fa96b551cacf9
 docker: quay.io/biocontainers/r-argparser
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

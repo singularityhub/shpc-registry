@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-isobayes
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-isobayes
+description: singularity registry hpc automated addition for 
+  bioconductor-isobayes
 latest:
-  1.4.0--r44he5774e6_0: sha256:90b914c39a3a02bbebe20aa8e51c80c44bda6b9896eef954a1e247885e04c584
+  1.4.0--r44he5774e6_0: 
+    sha256:90b914c39a3a02bbebe20aa8e51c80c44bda6b9896eef954a1e247885e04c584
 tags:
-  1.0.1--r43hf17093f_0: sha256:a141de8f24ee20604e153a49a0cb2b88be09cd596cf7a806dddcd4b3f130cd1d
-  1.4.0--r44he5774e6_0: sha256:90b914c39a3a02bbebe20aa8e51c80c44bda6b9896eef954a1e247885e04c584
+  1.0.1--r43hf17093f_0: 
+    sha256:a141de8f24ee20604e153a49a0cb2b88be09cd596cf7a806dddcd4b3f130cd1d
+  1.4.0--r44he5774e6_0: 
+    sha256:90b914c39a3a02bbebe20aa8e51c80c44bda6b9896eef954a1e247885e04c584
 docker: quay.io/biocontainers/bioconductor-isobayes
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
@@ -22,6 +26,8 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete

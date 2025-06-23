@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/latentstrainanalysis
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for latentstrainanalysis
+description: shpc-registry automated BioContainers addition for 
+  latentstrainanalysis
 latest:
-  0.0.1--hdfd78af_3: sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
+  0.0.1--hdfd78af_3: 
+    sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
 tags:
-  0.0.1--hdfd78af_3: sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
+  0.0.1--hdfd78af_3: 
+    sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
 docker: quay.io/biocontainers/latentstrainanalysis
 aliases:
   HashCounting.sh: /usr/local/bin/HashCounting.sh

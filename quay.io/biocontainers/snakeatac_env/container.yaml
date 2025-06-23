@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/snakeatac_env
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakeatac_env
 latest:
-  0.1.1--pyha70a07d_0: sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
+  0.1.1--pyha70a07d_0: 
+    sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
 tags:
-  0.1.1--pyha70a07d_0: sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
+  0.1.1--pyha70a07d_0: 
+    sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
 docker: quay.io/biocontainers/snakeatac_env
 aliases:
   SnpSift: /usr/local/bin/SnpSift

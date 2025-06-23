@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/czlab_perl_lib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for czlab_perl_lib
 latest:
-  1.0.1--hdfd78af_0: sha256:8aed5e0ef53ff42dad850377b17847187806f48b241dee1918157f3d69213643
+  1.0.1--hdfd78af_0: 
+    sha256:8aed5e0ef53ff42dad850377b17847187806f48b241dee1918157f3d69213643
 tags:
-  1.0.1--hdfd78af_0: sha256:8aed5e0ef53ff42dad850377b17847187806f48b241dee1918157f3d69213643
+  1.0.1--hdfd78af_0: 
+    sha256:8aed5e0ef53ff42dad850377b17847187806f48b241dee1918157f3d69213643
 docker: quay.io/biocontainers/czlab_perl_lib
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

@@ -2,13 +2,16 @@ url: https://biocontainers.pro/tools/datma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for datma
 latest:
-  2.0--hdfd78af_0: sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
+  2.0--hdfd78af_0: 
+    sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
 tags:
-  2.0--hdfd78af_0: sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
+  2.0--hdfd78af_0: 
+    sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
 docker: quay.io/biocontainers/datma
 aliases:
   assembly_annotation_tool.py: /usr/local/bin/assembly_annotation_tool.py
-  assembly_annotation_tool_seq.py: /usr/local/bin/assembly_annotation_tool_seq.py
+  assembly_annotation_tool_seq.py: 
+    /usr/local/bin/assembly_annotation_tool_seq.py
   binning: /usr/local/bin/binning
   binning_tool.py: /usr/local/bin/binning_tool.py
   checkm: /usr/local/bin/checkm

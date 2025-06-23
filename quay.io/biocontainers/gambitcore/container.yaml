@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gambitcore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gambitcore
 latest:
-  0.0.2--py310h1fe012e_0: sha256:4541cc7838cd694d0aeafc9ae4c2d2a81a43463416c46d397058f4fef8c6181c
+  0.0.2--py310h1fe012e_0: 
+    sha256:4541cc7838cd694d0aeafc9ae4c2d2a81a43463416c46d397058f4fef8c6181c
 tags:
-  0.0.2--py310h1fe012e_0: sha256:4541cc7838cd694d0aeafc9ae4c2d2a81a43463416c46d397058f4fef8c6181c
+  0.0.2--py310h1fe012e_0: 
+    sha256:4541cc7838cd694d0aeafc9ae4c2d2a81a43463416c46d397058f4fef8c6181c
 docker: quay.io/biocontainers/gambitcore
 aliases:
   gambit: /usr/local/bin/gambit

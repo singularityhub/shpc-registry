@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_pio_mpich_4_2_3
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_pio_mpich_4_2_3
+description: singularity registry hpc automated addition for 
+  esme_pio_mpich_4_2_3
 latest:
-  2.6.2--h900047d_0: sha256:fd0f279357e73592e68f5b2b1b73bf3d37a4d4586464a140d553828c6593b0df
+  2.6.2--h900047d_0: 
+    sha256:fd0f279357e73592e68f5b2b1b73bf3d37a4d4586464a140d553828c6593b0df
 tags:
-  2.6.2--h900047d_0: sha256:fd0f279357e73592e68f5b2b1b73bf3d37a4d4586464a140d553828c6593b0df
+  2.6.2--h900047d_0: 
+    sha256:fd0f279357e73592e68f5b2b1b73bf3d37a4d4586464a140d553828c6593b0df
 docker: quay.io/biocontainers/esme_pio_mpich_4_2_3
 aliases:
   mpiexec.gforker: /usr/local/bin/mpiexec.gforker

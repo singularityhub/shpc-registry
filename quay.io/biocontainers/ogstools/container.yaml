@@ -12,8 +12,10 @@ aliases:
   AddFaultToVoxelGrid: /usr/local/bin/AddFaultToVoxelGrid
   AddLayer: /usr/local/bin/AddLayer
   AssignRasterDataToMesh: /usr/local/bin/AssignRasterDataToMesh
-  ComputeNodeAreasFromSurfaceMesh: /usr/local/bin/ComputeNodeAreasFromSurfaceMesh
-  CreateBoundaryConditionsAlongPolylines: /usr/local/bin/CreateBoundaryConditionsAlongPolylines
+  ComputeNodeAreasFromSurfaceMesh: 
+    /usr/local/bin/ComputeNodeAreasFromSurfaceMesh
+  CreateBoundaryConditionsAlongPolylines: 
+    /usr/local/bin/CreateBoundaryConditionsAlongPolylines
   ExpToCasExe: /usr/local/bin/ExpToCasExe
   ExpToCasExe-7.8.1: /usr/local/bin/ExpToCasExe-7.8.1
   ExtractBoundary: /usr/local/bin/ExtractBoundary
@@ -42,7 +44,8 @@ aliases:
   RemoveGhostData: /usr/local/bin/RemoveGhostData
   RemoveUnusedPoints: /usr/local/bin/RemoveUnusedPoints
   ReorderMesh: /usr/local/bin/ReorderMesh
-  ResetPropertiesInPolygonalRegion: /usr/local/bin/ResetPropertiesInPolygonalRegion
+  ResetPropertiesInPolygonalRegion: 
+    /usr/local/bin/ResetPropertiesInPolygonalRegion
   TIN2VTK: /usr/local/bin/TIN2VTK
   TecPlotTools: /usr/local/bin/TecPlotTools
   VTK2OGS: /usr/local/bin/VTK2OGS
@@ -54,14 +57,17 @@ aliases:
   assistant6: /usr/local/bin/assistant6
   checkMesh: /usr/local/bin/checkMesh
   cllayerinfo: /usr/local/bin/cllayerinfo
-  computeSurfaceNodeIDsInPolygonalRegion: /usr/local/bin/computeSurfaceNodeIDsInPolygonalRegion
+  computeSurfaceNodeIDsInPolygonalRegion: 
+    /usr/local/bin/computeSurfaceNodeIDsInPolygonalRegion
   constructMeshesFromGeometry: /usr/local/bin/constructMeshesFromGeometry
   convertGEO: /usr/local/bin/convertGEO
   convertToLinearMesh: /usr/local/bin/convertToLinearMesh
-  convertVtkDataArrayToVtkDataArray: /usr/local/bin/convertVtkDataArrayToVtkDataArray
+  convertVtkDataArrayToVtkDataArray: 
+    /usr/local/bin/convertVtkDataArrayToVtkDataArray
   createIntermediateRasters: /usr/local/bin/createIntermediateRasters
   createLayeredMeshFromRasters: /usr/local/bin/createLayeredMeshFromRasters
-  createMeshElemPropertiesFromASCRaster: /usr/local/bin/createMeshElemPropertiesFromASCRaster
+  createMeshElemPropertiesFromASCRaster: 
+    /usr/local/bin/createMeshElemPropertiesFromASCRaster
   createNeumannBc: /usr/local/bin/createNeumannBc
   createQuadraticMesh: /usr/local/bin/createQuadraticMesh
   createRaster: /usr/local/bin/createRaster

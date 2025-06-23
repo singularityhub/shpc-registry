@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cured
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cured
 latest:
-  1.05--hdfd78af_0: sha256:785ade3df94f43bf3aad1f6c972152c01e45725e8a6f6cd5a9b7ccf02bcfd4b8
+  1.05--hdfd78af_0: 
+    sha256:785ade3df94f43bf3aad1f6c972152c01e45725e8a6f6cd5a9b7ccf02bcfd4b8
 tags:
-  1.05--hdfd78af_0: sha256:785ade3df94f43bf3aad1f6c972152c01e45725e8a6f6cd5a9b7ccf02bcfd4b8
+  1.05--hdfd78af_0: 
+    sha256:785ade3df94f43bf3aad1f6c972152c01e45725e8a6f6cd5a9b7ccf02bcfd4b8
 docker: quay.io/biocontainers/cured
 aliases:
   Bifrost: /usr/local/bin/Bifrost

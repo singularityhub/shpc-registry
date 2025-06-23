@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_pnetcdf_mpich_4_2_3
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_pnetcdf_mpich_4_2_3
+description: singularity registry hpc automated addition for 
+  esme_pnetcdf_mpich_4_2_3
 latest:
-  1.14.0--h900047d_0: sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
+  1.14.0--h900047d_0: 
+    sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
 tags:
-  1.14.0--h900047d_0: sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
+  1.14.0--h900047d_0: 
+    sha256:6394e19134e3d95d57c6fd54834ff60d179f1e39c2b556df7ff3255510f610d6
 docker: quay.io/biocontainers/esme_pnetcdf_mpich_4_2_3
 aliases:
   cdfdiff: /usr/local/bin/cdfdiff

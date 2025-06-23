@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/spliceai-wrapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spliceai-wrapper
 latest:
-  0.1.0--0: sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2
+  0.1.0--0: 
+    sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2
 tags:
-  0.1.0--0: sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2
+  0.1.0--0: 
+    sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2
 docker: quay.io/biocontainers/spliceai-wrapper
 aliases:
   spliceai: /usr/local/bin/spliceai

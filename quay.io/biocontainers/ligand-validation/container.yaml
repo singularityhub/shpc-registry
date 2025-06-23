@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ligand-validation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ligand-validation
 latest:
-  0.0.1--pyh7e72e81_0: sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
+  0.0.1--pyh7e72e81_0: 
+    sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
 tags:
-  0.0.1--pyh7e72e81_0: sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
+  0.0.1--pyh7e72e81_0: 
+    sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
 docker: quay.io/biocontainers/ligand-validation
 aliases:
   PDBValidation: /usr/local/bin/PDBValidation
@@ -36,22 +38,34 @@ aliases:
   voronota-contacts: /usr/local/bin/voronota-contacts
   voronota-gl: /usr/local/bin/voronota-gl
   voronota-js: /usr/local/bin/voronota-js
-  voronota-js-fast-iface-cadscore: /usr/local/bin/voronota-js-fast-iface-cadscore
-  voronota-js-fast-iface-cadscore-matrix: /usr/local/bin/voronota-js-fast-iface-cadscore-matrix
-  voronota-js-fast-iface-contacts: /usr/local/bin/voronota-js-fast-iface-contacts
-  voronota-js-fast-iface-data-graph: /usr/local/bin/voronota-js-fast-iface-data-graph
+  voronota-js-fast-iface-cadscore: 
+    /usr/local/bin/voronota-js-fast-iface-cadscore
+  voronota-js-fast-iface-cadscore-matrix: 
+    /usr/local/bin/voronota-js-fast-iface-cadscore-matrix
+  voronota-js-fast-iface-contacts: 
+    /usr/local/bin/voronota-js-fast-iface-contacts
+  voronota-js-fast-iface-data-graph: 
+    /usr/local/bin/voronota-js-fast-iface-data-graph
   voronota-js-fast-iface-voromqa: /usr/local/bin/voronota-js-fast-iface-voromqa
   voronota-js-ifeatures-voromqa: /usr/local/bin/voronota-js-ifeatures-voromqa
   voronota-js-ligand-cadscore: /usr/local/bin/voronota-js-ligand-cadscore
   voronota-js-membrane-voromqa: /usr/local/bin/voronota-js-membrane-voromqa
-  voronota-js-only-global-voromqa: /usr/local/bin/voronota-js-only-global-voromqa
-  voronota-js-pdb-utensil-detect-inter-structure-contacts: /usr/local/bin/voronota-js-pdb-utensil-detect-inter-structure-contacts
-  voronota-js-pdb-utensil-download-structure: /usr/local/bin/voronota-js-pdb-utensil-download-structure
-  voronota-js-pdb-utensil-filter-atoms: /usr/local/bin/voronota-js-pdb-utensil-filter-atoms
-  voronota-js-pdb-utensil-print-sequence-from-structure: /usr/local/bin/voronota-js-pdb-utensil-print-sequence-from-structure
-  voronota-js-pdb-utensil-rename-chains: /usr/local/bin/voronota-js-pdb-utensil-rename-chains
-  voronota-js-pdb-utensil-renumber-by-sequence: /usr/local/bin/voronota-js-pdb-utensil-renumber-by-sequence
-  voronota-js-pdb-utensil-split-to-models: /usr/local/bin/voronota-js-pdb-utensil-split-to-models
+  voronota-js-only-global-voromqa: 
+    /usr/local/bin/voronota-js-only-global-voromqa
+  voronota-js-pdb-utensil-detect-inter-structure-contacts: 
+    /usr/local/bin/voronota-js-pdb-utensil-detect-inter-structure-contacts
+  voronota-js-pdb-utensil-download-structure: 
+    /usr/local/bin/voronota-js-pdb-utensil-download-structure
+  voronota-js-pdb-utensil-filter-atoms: 
+    /usr/local/bin/voronota-js-pdb-utensil-filter-atoms
+  voronota-js-pdb-utensil-print-sequence-from-structure: 
+    /usr/local/bin/voronota-js-pdb-utensil-print-sequence-from-structure
+  voronota-js-pdb-utensil-rename-chains: 
+    /usr/local/bin/voronota-js-pdb-utensil-rename-chains
+  voronota-js-pdb-utensil-renumber-by-sequence: 
+    /usr/local/bin/voronota-js-pdb-utensil-renumber-by-sequence
+  voronota-js-pdb-utensil-split-to-models: 
+    /usr/local/bin/voronota-js-pdb-utensil-split-to-models
   voronota-js-voroif-gnn: /usr/local/bin/voronota-js-voroif-gnn
   voronota-js-voromqa: /usr/local/bin/voronota-js-voromqa
   voronota-lt: /usr/local/bin/voronota-lt

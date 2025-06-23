@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-bio-kmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-bio-kmer
 latest:
-  0.55--pl5321h031d066_0: sha256:4d89f8003d7470e6cf0b9718f271eb5cd3f69a35880e4541a5815d8079b6a1c0
+  0.55--pl5321h031d066_0: 
+    sha256:4d89f8003d7470e6cf0b9718f271eb5cd3f69a35880e4541a5815d8079b6a1c0
 tags:
-  0.55--pl5321h031d066_0: sha256:4d89f8003d7470e6cf0b9718f271eb5cd3f69a35880e4541a5815d8079b6a1c0
+  0.55--pl5321h031d066_0: 
+    sha256:4d89f8003d7470e6cf0b9718f271eb5cd3f69a35880e4541a5815d8079b6a1c0
 docker: quay.io/biocontainers/perl-bio-kmer
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar
