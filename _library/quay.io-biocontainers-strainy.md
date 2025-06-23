@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainy/container.yaml"
-updated_at: "2025-06-23 03:55:58.477516"
+updated_at: "2025-06-23 04:18:51.792459"
 latest: "1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/strainy"
 aliases:

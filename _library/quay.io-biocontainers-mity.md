@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mity/container.yaml"
-updated_at: "2025-06-23 03:53:18.494428"
+updated_at: "2025-06-23 04:16:12.450839"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mity"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.mirnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
-updated_at: "2025-06-23 03:44:44.295570"
+updated_at: "2025-06-23 04:07:41.954922"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq"
 aliases:

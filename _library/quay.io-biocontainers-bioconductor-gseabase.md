@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gseabase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseabase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseabase/container.yaml"
-updated_at: "2025-06-23 04:10:09.085404"
+updated_at: "2025-06-23 04:32:59.217114"
 latest: "1.68.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseabase"
 
