@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/hymet2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hymet2
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:dd635b1c1edcfe3fb739b21fb986499eb41b498dbf4b060804f6cd7e1950337e
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:dd635b1c1edcfe3fb739b21fb986499eb41b498dbf4b060804f6cd7e1950337e
+docker: quay.io/biocontainers/hymet2
+aliases:
+  config.pl: /usr/local/bin/config.pl
+  csvclean: /usr/local/bin/csvclean
+  csvcut: /usr/local/bin/csvcut
+  csvformat: /usr/local/bin/csvformat
+  csvgrep: /usr/local/bin/csvgrep
+  csvjoin: /usr/local/bin/csvjoin
+  csvjson: /usr/local/bin/csvjson
+  csvlook: /usr/local/bin/csvlook
+  csvpy: /usr/local/bin/csvpy
+  csvsort: /usr/local/bin/csvsort
+  csvsql: /usr/local/bin/csvsql
+  csvstack: /usr/local/bin/csvstack
+  csvstat: /usr/local/bin/csvstat
+  hymet: /usr/local/bin/hymet
+  hymet-config: /usr/local/bin/hymet-config
+  in2csv: /usr/local/bin/in2csv
+  main.pl: /usr/local/bin/main.pl
+  mashmap: /usr/local/bin/mashmap
+  mashmap-align: /usr/local/bin/mashmap-align
+  sql2csv: /usr/local/bin/sql2csv
+  slugify: /usr/local/bin/slugify
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  pybabel: /usr/local/bin/pybabel
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  annot-tsv: /usr/local/bin/annot-tsv
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  numpy-config: /usr/local/bin/numpy-config
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  idn2: /usr/local/bin/idn2
+  tqdm: /usr/local/bin/tqdm
+  wget: /usr/local/bin/wget
+  htsfile: /usr/local/bin/htsfile

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/varlinker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for varlinker
+latest:
+  0.1.0--h4349ce8_0: 
+    sha256:2052f8e4e8edbd79c63c201d7e5133386560385708d309c842a6a6ca10e9fc41
+tags:
+  0.1.0--h4349ce8_0: 
+    sha256:2052f8e4e8edbd79c63c201d7e5133386560385708d309c842a6a6ca10e9fc41
+docker: quay.io/biocontainers/varlinker
+aliases:
+  varlinker: /usr/local/bin/varlinker

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-alien-build-plugin-download-gitlab
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  perl-alien-build-plugin-download-gitlab
+latest:
+  0.01--pl5321hdfd78af_0: 
+    sha256:dd32e869f0fe81868836826918ac17c4de81714798e83718e2781da8fd99a013
+tags:
+  0.01--pl5321hdfd78af_0: 
+    sha256:dd32e869f0fe81868836826918ac17c4de81714798e83718e2781da8fd99a013
+docker: quay.io/biocontainers/perl-alien-build-plugin-download-gitlab
