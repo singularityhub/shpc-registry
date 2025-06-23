@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/clumppling
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clumppling
+latest:
+  0.3.2--pyhdfd78af_0: 
+    sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad
+tags:
+  0.3.2--pyhdfd78af_0: 
+    sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad
+docker: quay.io/biocontainers/clumppling
+aliases:
+  community: /usr/local/bin/community
+  osqp_demo: /usr/local/bin/osqp_demo
+  osqp_tester: /usr/local/bin/osqp_tester
+  f2py3.11: /usr/local/bin/f2py3.11
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
