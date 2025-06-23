@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtfparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtfparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtfparse/container.yaml"
-updated_at: "2025-06-22 03:49:25.972384"
+updated_at: "2025-06-23 03:50:05.929711"
 latest: "2.5.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gtfparse"
 aliases:

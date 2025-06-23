@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nmrml2isa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmrml2isa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nmrml2isa/container.yaml"
-updated_at: "2025-06-22 04:07:19.905530"
+updated_at: "2025-06-23 04:08:00.226629"
 latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nmrml2isa"
 aliases:

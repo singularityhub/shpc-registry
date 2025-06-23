@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pifcosm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pifcosm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pifcosm/container.yaml"
-updated_at: "2025-06-22 03:30:38.895179"
+updated_at: "2025-06-23 03:31:22.767581"
 latest: "0.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pifcosm"
 aliases:

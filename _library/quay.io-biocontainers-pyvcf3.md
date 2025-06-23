@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyvcf3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvcf3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvcf3/container.yaml"
-updated_at: "2025-06-22 04:08:43.278268"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2025-06-23 04:09:25.561607"
+latest: "1.0.4--py311haab0aaa_0"
 container_url: "https://biocontainers.pro/tools/pyvcf3"
 aliases:
  - "vcf_sample_filter.py"
@@ -19,8 +19,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.4--py311haab0aaa_0"
 description: "singularity registry hpc automated addition for pyvcf3"
-config: {"url": "https://biocontainers.pro/tools/pyvcf3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyvcf3", "latest": {"1.0.3--pyhdfd78af_0": "sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310"}, "docker": "quay.io/biocontainers/pyvcf3", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pyvcf3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyvcf3", "latest": {"1.0.4--py311haab0aaa_0": "sha256:41d0904479b69a84b9c9e2775b4eef38385e7905cfcdc5277e493b8bbdbcf28a"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:b470c6112e57cbc524517001c3d4235da61d7288b91283bdd17bd9669808d310", "1.0.4--py311haab0aaa_0": "sha256:41d0904479b69a84b9c9e2775b4eef38385e7905cfcdc5277e493b8bbdbcf28a"}, "docker": "quay.io/biocontainers/pyvcf3", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyvcf3.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pyvcf3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyvcf3:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyvcf3:1.0.4--py311haab0aaa_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyvcf3/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyvcf3/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyvcf3/1.0.4--py311haab0aaa_0
+$ module help quay.io/biocontainers/pyvcf3/1.0.4--py311haab0aaa_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

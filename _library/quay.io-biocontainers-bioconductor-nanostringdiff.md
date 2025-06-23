@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanostringdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanostringdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanostringdiff/container.yaml"
-updated_at: "2025-06-22 04:18:10.636157"
+updated_at: "2025-06-23 04:19:05.751839"
 latest: "1.36.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanostringdiff"
 

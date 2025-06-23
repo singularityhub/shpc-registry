@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gappa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gappa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gappa/container.yaml"
-updated_at: "2025-06-22 03:58:46.801392"
+updated_at: "2025-06-23 03:59:17.693212"
 latest: "0.9.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/gappa"
 aliases:

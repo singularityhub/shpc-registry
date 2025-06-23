@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rosella"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rosella/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rosella/container.yaml"
-updated_at: "2025-06-22 03:47:21.088126"
+updated_at: "2025-06-23 03:48:01.867521"
 latest: "0.5.5--h8e1a5b0_0"
 container_url: "https://biocontainers.pro/tools/rosella"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamutil/container.yaml"
-updated_at: "2025-06-22 03:29:02.422230"
+updated_at: "2025-06-23 03:29:49.825918"
 latest: "1.0.15--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/bamutil"
 aliases:

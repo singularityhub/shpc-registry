@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-gdgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gdgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdgraph/container.yaml"
-updated_at: "2025-06-22 03:39:13.436467"
-latest: "1.54--pl5321hdfd78af_1"
+updated_at: "2025-06-23 03:39:55.998341"
+latest: "1.56--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-gdgraph"
 
 versions:
  - "1.54--pl5321hdfd78af_1"
+ - "1.56--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-gdgraph"
-config: {"url": "https://biocontainers.pro/tools/perl-gdgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gdgraph", "latest": {"1.54--pl5321hdfd78af_1": "sha256:c107388fd4f1c3dde4d9a8b01d04f22f2e5717e7a3c399d8082325b4f5c6282d"}, "tags": {"1.54--pl5321hdfd78af_1": "sha256:c107388fd4f1c3dde4d9a8b01d04f22f2e5717e7a3c399d8082325b4f5c6282d"}, "docker": "quay.io/biocontainers/perl-gdgraph"}
+config: {"url": "https://biocontainers.pro/tools/perl-gdgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gdgraph", "latest": {"1.56--pl5321hdfd78af_0": "sha256:e4a86aed062ca43418ace1bad29b33788b3ea3965067710430e673f6c670c262"}, "tags": {"1.54--pl5321hdfd78af_1": "sha256:c107388fd4f1c3dde4d9a8b01d04f22f2e5717e7a3c399d8082325b4f5c6282d", "1.56--pl5321hdfd78af_0": "sha256:e4a86aed062ca43418ace1bad29b33788b3ea3965067710430e673f6c670c262"}, "docker": "quay.io/biocontainers/perl-gdgraph"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-gdgraph.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-gdgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-gdgraph:1.54--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-gdgraph:1.56--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-gdgraph/1.54--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-gdgraph/1.54--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-gdgraph/1.56--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-gdgraph/1.56--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
