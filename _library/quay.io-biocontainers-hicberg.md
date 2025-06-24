@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicberg/container.yaml"
-updated_at: "2025-06-23 04:14:36.938787"
-latest: "1.0.0--py312hcf36b3e_0"
+updated_at: "2025-06-24 03:44:23.039376"
+latest: "1.0.1--py312hcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/hicberg"
 aliases:
  - "boostchr.pl"
@@ -51,8 +51,9 @@ aliases:
  - "mqtt5canary"
 versions:
  - "1.0.0--py312hcf36b3e_0"
+ - "1.0.1--py312hcf36b3e_0"
 description: "singularity registry hpc automated addition for hicberg"
-config: {"url": "https://biocontainers.pro/tools/hicberg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hicberg", "latest": {"1.0.0--py312hcf36b3e_0": "sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8"}, "tags": {"1.0.0--py312hcf36b3e_0": "sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8"}, "docker": "quay.io/biocontainers/hicberg", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "checksum-profile": "/usr/local/bin/checksum-profile", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "elastishadow": "/usr/local/bin/elastishadow", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "h5fuse": "/usr/local/bin/h5fuse", "hicberg": "/usr/local/bin/hicberg", "hicstuff": "/usr/local/bin/hicstuff", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "pyfastx": "/usr/local/bin/pyfastx", "cooler": "/usr/local/bin/cooler", "get_gprof": "/usr/local/bin/get_gprof", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "dask": "/usr/local/bin/dask", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary"}}
+config: {"url": "https://biocontainers.pro/tools/hicberg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hicberg", "latest": {"1.0.1--py312hcf36b3e_0": "sha256:7944f787d6244b79e74097f1b15ae74543e74e085b66df98307f5630fdcdcecd"}, "tags": {"1.0.0--py312hcf36b3e_0": "sha256:5d5c3002442a943a38ba9119c6a12f8d2865f154dc36c225e01397e7b0a7dcb8", "1.0.1--py312hcf36b3e_0": "sha256:7944f787d6244b79e74097f1b15ae74543e74e085b66df98307f5630fdcdcecd"}, "docker": "quay.io/biocontainers/hicberg", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "checksum-profile": "/usr/local/bin/checksum-profile", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "elastishadow": "/usr/local/bin/elastishadow", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "h5fuse": "/usr/local/bin/h5fuse", "hicberg": "/usr/local/bin/hicberg", "hicstuff": "/usr/local/bin/hicstuff", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "pyfastx": "/usr/local/bin/pyfastx", "cooler": "/usr/local/bin/cooler", "get_gprof": "/usr/local/bin/get_gprof", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "dask": "/usr/local/bin/dask", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicberg.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/hicberg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicberg:1.0.0--py312hcf36b3e_0
+$ shpc install quay.io/biocontainers/hicberg:1.0.1--py312hcf36b3e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicberg/1.0.0--py312hcf36b3e_0
-$ module help quay.io/biocontainers/hicberg/1.0.0--py312hcf36b3e_0
+$ module load quay.io/biocontainers/hicberg/1.0.1--py312hcf36b3e_0
+$ module help quay.io/biocontainers/hicberg/1.0.1--py312hcf36b3e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

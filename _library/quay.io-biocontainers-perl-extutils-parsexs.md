@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-extutils-parsexs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-parsexs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-parsexs/container.yaml"
-updated_at: "2025-06-23 04:34:19.380790"
-latest: "3.44--pl5321hdfd78af_0"
+updated_at: "2025-06-24 04:04:21.503614"
+latest: "3.57--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-parsexs"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "3.44--pl5321hdfd78af_0"
+ - "3.57--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-extutils-parsexs"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-parsexs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-parsexs", "latest": {"3.44--pl5321hdfd78af_0": "sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd"}, "tags": {"3.44--pl5321hdfd78af_0": "sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd"}, "docker": "quay.io/biocontainers/perl-extutils-parsexs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-parsexs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-parsexs", "latest": {"3.57--pl5321hdfd78af_0": "sha256:ca3a8797f1ed6370bc237a3b10c500885fc5c5180e3ef5fa56425eddb63f0acc"}, "tags": {"3.44--pl5321hdfd78af_0": "sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd", "3.57--pl5321hdfd78af_0": "sha256:ca3a8797f1ed6370bc237a3b10c500885fc5c5180e3ef5fa56425eddb63f0acc"}, "docker": "quay.io/biocontainers/perl-extutils-parsexs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-parsexs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-extutils-parsexs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-extutils-parsexs:3.44--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-extutils-parsexs:3.57--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-extutils-parsexs/3.44--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-extutils-parsexs/3.44--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-extutils-parsexs/3.57--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-extutils-parsexs/3.57--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
