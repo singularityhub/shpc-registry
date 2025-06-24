@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phytest
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phytest
 latest:
-  1.4.1--pyhdfd78af_0: sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
+  1.4.1--pyhdfd78af_0: 
+    sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
 tags:
-  1.4.1--pyhdfd78af_0: sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
+  1.4.1--pyhdfd78af_0: 
+    sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
 docker: quay.io/biocontainers/phytest
 aliases:
   phytest: /usr/local/bin/phytest

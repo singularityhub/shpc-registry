@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-test-sys-info
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-test-sys-info
+description: shpc-registry automated BioContainers addition for 
+  perl-test-sys-info
 latest:
-  0.23--pl5321hdfd78af_1: sha256:1583756760bc1c07f1f94239f463be97bcd8f88fc0f0396474414d9e0f2c7e13
+  0.23--pl5321hdfd78af_1: 
+    sha256:1583756760bc1c07f1f94239f463be97bcd8f88fc0f0396474414d9e0f2c7e13
 tags:
-  0.23--pl5321hdfd78af_1: sha256:1583756760bc1c07f1f94239f463be97bcd8f88fc0f0396474414d9e0f2c7e13
+  0.23--pl5321hdfd78af_1: 
+    sha256:1583756760bc1c07f1f94239f463be97bcd8f88fc0f0396474414d9e0f2c7e13
 docker: quay.io/biocontainers/perl-test-sys-info
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

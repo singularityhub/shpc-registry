@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/moca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for moca
 latest:
-  0.4.3--py_1: sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac
+  0.4.3--py_1: 
+    sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac
 tags:
-  0.4.3--py_1: sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac
+  0.4.3--py_1: 
+    sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac
 docker: quay.io/biocontainers/moca
 aliases:
   moca: /usr/local/bin/moca

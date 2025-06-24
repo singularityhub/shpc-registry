@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metamlst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metamlst
 latest:
-  1.2.3--hdfd78af_0: sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
+  1.2.3--hdfd78af_0: 
+    sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
 tags:
-  1.2.3--hdfd78af_0: sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
+  1.2.3--hdfd78af_0: 
+    sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
 docker: quay.io/biocontainers/metamlst
 aliases:
   breadth_depth.py: /usr/local/bin/breadth_depth.py
@@ -18,7 +20,8 @@ aliases:
   mlst.py: /usr/local/bin/mlst.py
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

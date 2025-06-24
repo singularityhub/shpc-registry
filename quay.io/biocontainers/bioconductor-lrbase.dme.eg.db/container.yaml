@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-lrbase.dme.eg.db
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-lrbase.dme.eg.db
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-lrbase.dme.eg.db
 latest:
-  2.0.0--r41hdfd78af_0: sha256:f54fa5ee240b212083047ee97ca44e72fb00a3a1d1c5db9b4e8193a87b180055
+  2.0.0--r41hdfd78af_0: 
+    sha256:f54fa5ee240b212083047ee97ca44e72fb00a3a1d1c5db9b4e8193a87b180055
 tags:
-  2.0.0--r41hdfd78af_0: sha256:f54fa5ee240b212083047ee97ca44e72fb00a3a1d1c5db9b4e8193a87b180055
+  2.0.0--r41hdfd78af_0: 
+    sha256:f54fa5ee240b212083047ee97ca44e72fb00a3a1d1c5db9b4e8193a87b180055
 docker: quay.io/biocontainers/bioconductor-lrbase.dme.eg.db
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

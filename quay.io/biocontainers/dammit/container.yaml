@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dammit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dammit
 latest:
-  1.2--pyh5ca1d4c_0: sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
+  1.2--pyh5ca1d4c_0: 
+    sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
 tags:
-  1.2--pyh5ca1d4c_0: sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
+  1.2--pyh5ca1d4c_0: 
+    sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
 docker: quay.io/biocontainers/dammit
 aliases:
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
@@ -26,7 +28,8 @@ aliases:
   blat2gbrowse.pl: /usr/local/bin/blat2gbrowse.pl
   blat2hints.pl: /usr/local/bin/blat2hints.pl
   block2prfl.pl: /usr/local/bin/block2prfl.pl
-  cdna_alignment_orf_to_genome_orf.pl: /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
+  cdna_alignment_orf_to_genome_orf.pl: 
+    /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
   cegma2gff.pl: /usr/local/bin/cegma2gff.pl
   checkParamArchive.pl: /usr/local/bin/checkParamArchive.pl
   checkUTR: /usr/local/bin/checkUTR
@@ -72,7 +75,8 @@ aliases:
   filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
   find-knots.py: /usr/local/bin/find-knots.py
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
   gbrowse.conf: /usr/local/bin/gbrowse.conf
@@ -85,8 +89,10 @@ aliases:
   getLinesMatching.pl: /usr/local/bin/getLinesMatching.pl
   getSeq: /usr/local/bin/getSeq
   get_FL_accs.pl: /usr/local/bin/get_FL_accs.pl
-  get_longest_ORF_per_transcript.pl: /usr/local/bin/get_longest_ORF_per_transcript.pl
-  get_top_longest_fasta_entries.pl: /usr/local/bin/get_top_longest_fasta_entries.pl
+  get_longest_ORF_per_transcript.pl: 
+    /usr/local/bin/get_longest_ORF_per_transcript.pl
+  get_top_longest_fasta_entries.pl: 
+    /usr/local/bin/get_top_longest_fasta_entries.pl
   gff2gbSmallDNA.pl: /usr/local/bin/gff2gbSmallDNA.pl
   gff2ps_mycustom: /usr/local/bin/gff2ps_mycustom
   gff3_file_to_bed.pl: /usr/local/bin/gff3_file_to_bed.pl
@@ -157,7 +163,8 @@ aliases:
   randomSplit.pl: /usr/local/bin/randomSplit.pl
   ratewig.pl: /usr/local/bin/ratewig.pl
   readstats.py: /usr/local/bin/readstats.py
-  refine_gff3_group_iso_strip_utrs.pl: /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
+  refine_gff3_group_iso_strip_utrs.pl: 
+    /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
   refine_hexamer_scores.pl: /usr/local/bin/refine_hexamer_scores.pl
   remove_eclipsed_ORFs.pl: /usr/local/bin/remove_eclipsed_ORFs.pl
   retroDB2hints.pl: /usr/local/bin/retroDB2hints.pl
@@ -168,9 +175,12 @@ aliases:
   samMap.pl: /usr/local/bin/samMap.pl
   sample-reads-randomly.py: /usr/local/bin/sample-reads-randomly.py
   scipiogff2gff.pl: /usr/local/bin/scipiogff2gff.pl
-  score_CDS_likelihood_all_6_frames.pl: /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
-  select_best_ORFs_per_transcript.pl: /usr/local/bin/select_best_ORFs_per_transcript.pl
-  seq_n_baseprobs_to_loglikelihood_vals.pl: /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
+  score_CDS_likelihood_all_6_frames.pl: 
+    /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
+  select_best_ORFs_per_transcript.pl: 
+    /usr/local/bin/select_best_ORFs_per_transcript.pl
+  seq_n_baseprobs_to_loglikelihood_vals.pl: 
+    /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
   setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
   shmlast: /usr/local/bin/shmlast
   simpleFastaHeaders.pl: /usr/local/bin/simpleFastaHeaders.pl

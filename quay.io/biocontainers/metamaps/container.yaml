@@ -2,20 +2,25 @@ url: https://biocontainers.pro/tools/metamaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metamaps
 latest:
-  0.1.98102e9--h21ec9f0_2: sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
+  0.1.98102e9--h21ec9f0_2: 
+    sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
 tags:
-  0.1.98102e9--h7ff8a90_1: sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
-  0.1.98102e9--h21ec9f0_2: sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
+  0.1.98102e9--h7ff8a90_1: 
+    sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
+  0.1.98102e9--h21ec9f0_2: 
+    sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
 docker: quay.io/biocontainers/metamaps
 aliases:
   DBinfo.pl: /usr/local/bin/DBinfo.pl
-  annotateRefSeqSequencesWithUniqueTaxonIDs.pl: /usr/local/bin/annotateRefSeqSequencesWithUniqueTaxonIDs.pl
+  annotateRefSeqSequencesWithUniqueTaxonIDs.pl: 
+    /usr/local/bin/annotateRefSeqSequencesWithUniqueTaxonIDs.pl
   benchmarkInference.pl: /usr/local/bin/benchmarkInference.pl
   buildDB.pl: /usr/local/bin/buildDB.pl
   callCentrifugeOnConvertedDB.pl: /usr/local/bin/callCentrifugeOnConvertedDB.pl
   callKraken2OnConvertedDB.pl: /usr/local/bin/callKraken2OnConvertedDB.pl
   callKrakenOnConvertedDB.pl: /usr/local/bin/callKrakenOnConvertedDB.pl
-  combineAndAnnotateReferences.pl: /usr/local/bin/combineAndAnnotateReferences.pl
+  combineAndAnnotateReferences.pl: 
+    /usr/local/bin/combineAndAnnotateReferences.pl
   convertMetaMapsToCentrifuge.pl: /usr/local/bin/convertMetaMapsToCentrifuge.pl
   convertMetaMapsToKraken.pl: /usr/local/bin/convertMetaMapsToKraken.pl
   convertMetaMapsToMash.pl: /usr/local/bin/convertMetaMapsToMash.pl

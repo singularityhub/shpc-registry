@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mapula
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapula
 latest:
-  2.1.2--pyhdfd78af_0: sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a
+  2.1.2--pyhdfd78af_0: 
+    sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a
 tags:
-  2.1.2--pyhdfd78af_0: sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a
+  2.1.2--pyhdfd78af_0: 
+    sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a
 docker: quay.io/biocontainers/mapula
 aliases:
   aplanat: /usr/local/bin/aplanat

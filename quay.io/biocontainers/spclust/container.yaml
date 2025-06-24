@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/spclust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spclust
 latest:
-  28.5.19--h425c490_1: sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
+  28.5.19--h425c490_1: 
+    sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
 tags:
-  28.5.19--h425c490_1: sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
+  28.5.19--h425c490_1: 
+    sha256:d7e6e2ecc4a8764b94066caf555659c2fc4a144392b39b161e7bbac1450c44f5
 docker: quay.io/biocontainers/spclust
 aliases:
   guispclust: /usr/local/bin/guispclust

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/strainflye
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strainflye
 latest:
-  0.2.0--pyhca03a8a_0: sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
+  0.2.0--pyhca03a8a_0: 
+    sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
 tags:
-  0.2.0--pyhca03a8a_0: sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
+  0.2.0--pyhca03a8a_0: 
+    sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
 docker: quay.io/biocontainers/strainflye
 aliases:
   pysamstats: /usr/local/bin/pysamstats

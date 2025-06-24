@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/abacat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abacat
 latest:
-  0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
+  0.0.4a--py_0: 
+    sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
 tags:
-  0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
+  0.0.4a--py_0: 
+    sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
 docker: quay.io/biocontainers/abacat
 aliases:
   phenotyping.py: /usr/local/bin/phenotyping.py

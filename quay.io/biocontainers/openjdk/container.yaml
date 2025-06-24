@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/openjdk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openjdk
 latest:
-  11.0.1: sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4
+  11.0.1: 
+    sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4
 tags:
-  8.0.121: sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9
-  11.0.1: sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4
+  8.0.121: 
+    sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9
+  11.0.1: 
+    sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4
 docker: quay.io/biocontainers/openjdk
 aliases:
   extcheck: /usr/local/bin/extcheck

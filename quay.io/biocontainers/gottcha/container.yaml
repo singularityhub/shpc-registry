@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gottcha
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gottcha
 latest:
-  1.0--pl526_2: sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591
+  1.0--pl526_2: 
+    sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591
 tags:
-  1.0--pl526_2: sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591
+  1.0--pl526_2: 
+    sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591
 docker: quay.io/biocontainers/gottcha
 aliases:
   convert_abu2list.pl: /usr/local/bin/convert_abu2list.pl

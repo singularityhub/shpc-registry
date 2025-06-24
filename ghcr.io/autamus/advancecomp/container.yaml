@@ -1,13 +1,14 @@
 docker: ghcr.io/autamus/advancecomp
 url: https://github.com/orgs/autamus/packages/container/package/advancecomp
 maintainer: '@vsoch'
-description: AdvanceCOMP is a set of cross-platform command line data (re-)compression
-  tools.
+description: AdvanceCOMP is a set of cross-platform command line data 
+  (re-)compression tools.
 latest:
   '2.1': sha256:afa119f8df0887fdb6cf8afae6f6e48dc33d12d726d5b3064880cc096a095d5a
 tags:
   '2.1': sha256:afa119f8df0887fdb6cf8afae6f6e48dc33d12d726d5b3064880cc096a095d5a
-  latest: sha256:afa119f8df0887fdb6cf8afae6f6e48dc33d12d726d5b3064880cc096a095d5a
+  latest: 
+    sha256:afa119f8df0887fdb6cf8afae6f6e48dc33d12d726d5b3064880cc096a095d5a
 aliases:
   advdef: /opt/view/bin/advdef
   advmng: /opt/view/bin/advmng

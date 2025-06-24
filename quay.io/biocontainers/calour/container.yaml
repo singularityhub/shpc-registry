@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/calour
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for calour
 latest:
-  2020.8.6--pyhdfd78af_0: sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587
+  2020.8.6--pyhdfd78af_0: 
+    sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587
 tags:
-  2020.8.6--pyhdfd78af_0: sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587
+  2020.8.6--pyhdfd78af_0: 
+    sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587
 docker: quay.io/biocontainers/calour
 aliases:
   attr: /usr/local/bin/attr

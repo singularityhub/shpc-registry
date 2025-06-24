@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/neptune-signature
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for neptune-signature
 latest:
-  2.0.0--pyhdfd78af_0: sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352
+  2.0.0--pyhdfd78af_0: 
+    sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352
 tags:
-  2.0.0--pyhdfd78af_0: sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352
+  2.0.0--pyhdfd78af_0: 
+    sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352
 docker: quay.io/biocontainers/neptune-signature
 aliases:
   neptune: /usr/local/bin/neptune

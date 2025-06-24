@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/vcfpy2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcfpy2
 latest:
-  0.1.2--pyhdfd78af_0: sha256:433d87585fc1466cae66506645811d7cf76973eebda4611937796a9d1f03eeef
+  0.1.2--pyhdfd78af_0: 
+    sha256:433d87585fc1466cae66506645811d7cf76973eebda4611937796a9d1f03eeef
 tags:
-  0.1.2--pyhdfd78af_0: sha256:433d87585fc1466cae66506645811d7cf76973eebda4611937796a9d1f03eeef
+  0.1.2--pyhdfd78af_0: 
+    sha256:433d87585fc1466cae66506645811d7cf76973eebda4611937796a9d1f03eeef
 docker: quay.io/biocontainers/vcfpy2
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rcx-tk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rcx-tk
 latest:
-  0.1.0--pyhdfd78af_0: sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07
+  0.1.0--pyhdfd78af_0: 
+    sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07
 tags:
-  0.1.0--pyhdfd78af_0: sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07
+  0.1.0--pyhdfd78af_0: 
+    sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07
 docker: quay.io/biocontainers/rcx-tk
 aliases:
   dmypy: /usr/local/bin/dmypy

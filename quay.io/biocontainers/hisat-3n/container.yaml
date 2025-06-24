@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hisat-3n
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hisat-3n
 latest:
-  0.0.3--h503566f_0: sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
+  0.0.3--h503566f_0: 
+    sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
 tags:
-  0.0.3--h503566f_0: sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
+  0.0.3--h503566f_0: 
+    sha256:be5b339b288df410b1825d4630d836b02bf24d92c09f98532dc3080930eefa90
 docker: quay.io/biocontainers/hisat-3n
 aliases:
   hisat-3n: /usr/local/bin/hisat-3n

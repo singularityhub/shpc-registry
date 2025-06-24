@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-flipflop
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-flipflop
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-flipflop
 latest:
-  1.18.0--r351hfc679d8_0: sha256:7b87b2c95653cb8a46b9b032506526aa7dba7eaeb83983aad724044bb506881b
+  1.18.0--r351hfc679d8_0: 
+    sha256:7b87b2c95653cb8a46b9b032506526aa7dba7eaeb83983aad724044bb506881b
 tags:
-  1.18.0--r351hfc679d8_0: sha256:7b87b2c95653cb8a46b9b032506526aa7dba7eaeb83983aad724044bb506881b
-  1.18.0--r341hfc679d8_0: sha256:ab42ae21a7563af95ec649423f041ae3dc8aefbc4395ea709562c02ea3b5ecb1
+  1.18.0--r351hfc679d8_0: 
+    sha256:7b87b2c95653cb8a46b9b032506526aa7dba7eaeb83983aad724044bb506881b
+  1.18.0--r341hfc679d8_0: 
+    sha256:ab42ae21a7563af95ec649423f041ae3dc8aefbc4395ea709562c02ea3b5ecb1
 docker: quay.io/biocontainers/bioconductor-flipflop
 aliases:
   wget: /usr/local/bin/wget

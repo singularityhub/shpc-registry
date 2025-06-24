@@ -2,13 +2,19 @@ url: https://biocontainers.pro/tools/pasa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pasa
 latest:
-  2.5.3--h9948957_2: sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
+  2.5.3--h9948957_2: 
+    sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
 tags:
-  2.5.2--h87f3376_0: sha256:969eeabed1ceebf3be4d305442e0aa4b89c5f57896ce6fda939e65c7d22dea62
-  2.5.2--hdbdd923_3: sha256:4abcd6adbdf6eaeda313453a7390214830cef924ccf789ee1ca11b95a3bd7efa
-  2.5.3--h4ac6f70_0: sha256:8c5229cee4d3d0ccf3431eafac7680aace233f38c58f72bdc4995e6c1d639d72
-  2.5.3--h4ac6f70_1: sha256:335fd08a3bf79bac2f550d1e32e1179b1bde3e868d51f638762f5711ee214837
-  2.5.3--h9948957_2: sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
+  2.5.2--h87f3376_0: 
+    sha256:969eeabed1ceebf3be4d305442e0aa4b89c5f57896ce6fda939e65c7d22dea62
+  2.5.2--hdbdd923_3: 
+    sha256:4abcd6adbdf6eaeda313453a7390214830cef924ccf789ee1ca11b95a3bd7efa
+  2.5.3--h4ac6f70_0: 
+    sha256:8c5229cee4d3d0ccf3431eafac7680aace233f38c58f72bdc4995e6c1d639d72
+  2.5.3--h4ac6f70_1: 
+    sha256:335fd08a3bf79bac2f550d1e32e1179b1bde3e868d51f638762f5711ee214837
+  2.5.3--h9948957_2: 
+    sha256:25eccab61118b952c6e4ec02409aae2c6169bd34981e298f3ac88dcd5c1b78b4
 docker: quay.io/biocontainers/pasa
 aliases:
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
@@ -35,7 +41,8 @@ aliases:
   bulk-counts: /usr/local/bin/bulk-counts
   cdbfasta: /usr/local/bin/cdbfasta
   cdbyank: /usr/local/bin/cdbyank
-  cdna_alignment_orf_to_genome_orf.pl: /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
+  cdna_alignment_orf_to_genome_orf.pl: 
+    /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
   cmetindex: /usr/local/bin/cmetindex
   color_defs.pl: /usr/local/bin/color_defs.pl
   compute_base_probs.pl: /usr/local/bin/compute_base_probs.pl
@@ -59,8 +66,10 @@ aliases:
   gene_list_to_gff.pl: /usr/local/bin/gene_list_to_gff.pl
   get-genome: /usr/local/bin/get-genome
   get_FL_accs.pl: /usr/local/bin/get_FL_accs.pl
-  get_longest_ORF_per_transcript.pl: /usr/local/bin/get_longest_ORF_per_transcript.pl
-  get_top_longest_fasta_entries.pl: /usr/local/bin/get_top_longest_fasta_entries.pl
+  get_longest_ORF_per_transcript.pl: 
+    /usr/local/bin/get_longest_ORF_per_transcript.pl
+  get_top_longest_fasta_entries.pl: 
+    /usr/local/bin/get_top_longest_fasta_entries.pl
   gff3_file_to_bed.pl: /usr/local/bin/gff3_file_to_bed.pl
   gff3_file_to_proteins.pl: /usr/local/bin/gff3_file_to_proteins.pl
   gff3_gene_to_gtf_format.pl: /usr/local/bin/gff3_gene_to_gtf_format.pl
@@ -124,16 +133,20 @@ aliases:
   psl_genes: /usr/local/bin/psl_genes
   psl_introns: /usr/local/bin/psl_introns
   psl_splicesites: /usr/local/bin/psl_splicesites
-  refine_gff3_group_iso_strip_utrs.pl: /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
+  refine_gff3_group_iso_strip_utrs.pl: 
+    /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
   refine_hexamer_scores.pl: /usr/local/bin/refine_hexamer_scores.pl
   remove_eclipsed_ORFs.pl: /usr/local/bin/remove_eclipsed_ORFs.pl
   res2R.pl: /usr/local/bin/res2R.pl
   sam_sort: /usr/local/bin/sam_sort
   saslauthd: /usr/local/bin/saslauthd
   sc-counts: /usr/local/bin/sc-counts
-  score_CDS_likelihood_all_6_frames.pl: /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
-  select_best_ORFs_per_transcript.pl: /usr/local/bin/select_best_ORFs_per_transcript.pl
-  seq_n_baseprobs_to_loglikelihood_vals.pl: /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
+  score_CDS_likelihood_all_6_frames.pl: 
+    /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
+  select_best_ORFs_per_transcript.pl: 
+    /usr/local/bin/select_best_ORFs_per_transcript.pl
+  seq_n_baseprobs_to_loglikelihood_vals.pl: 
+    /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
   shuffle_embed.pl: /usr/local/bin/shuffle_embed.pl
   sim_server: /usr/local/bin/sim_server
   slclust: /usr/local/bin/slclust

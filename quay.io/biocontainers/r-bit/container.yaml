@@ -2,8 +2,11 @@ url: https://biocontainers.pro/tools/r-bit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bit
 latest:
-  1.1_12--r3.2.2_0: sha256:7196d94a76350dca9b9fb98cc7a6149c98a1b5f45546eba7bc3c83c1baec6d87
+  1.1_12--r3.2.2_0: 
+    sha256:7196d94a76350dca9b9fb98cc7a6149c98a1b5f45546eba7bc3c83c1baec6d87
 tags:
-  1.1_12--r3.2.2_0: sha256:7196d94a76350dca9b9fb98cc7a6149c98a1b5f45546eba7bc3c83c1baec6d87
-  1.1_12--r3.3.2_0: sha256:1efb97dfb1ca7219766dccb992ed5bebca9ba2ea1183091d322ed11bd67bd209
+  1.1_12--r3.2.2_0: 
+    sha256:7196d94a76350dca9b9fb98cc7a6149c98a1b5f45546eba7bc3c83c1baec6d87
+  1.1_12--r3.3.2_0: 
+    sha256:1efb97dfb1ca7219766dccb992ed5bebca9ba2ea1183091d322ed11bd67bd209
 docker: quay.io/biocontainers/r-bit

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ditasic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ditasic
 latest:
-  0.2--h9ee0642_2: sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
+  0.2--h9ee0642_2: 
+    sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
 tags:
-  0.2--h9ee0642_2: sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
+  0.2--h9ee0642_2: 
+    sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
 docker: quay.io/biocontainers/ditasic
 aliases:
   ditasic: /usr/local/bin/ditasic

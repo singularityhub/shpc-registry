@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/parallel-fastq-dump
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for parallel-fastq-dump
+description: shpc-registry automated BioContainers addition for 
+  parallel-fastq-dump
 latest:
-  0.6.7--pyhdfd78af_0: sha256:fbe4c724527843494bc9ea3a61b2e16eb6f3ac8dcbb935112a966f031535b9e2
+  0.6.7--pyhdfd78af_0: 
+    sha256:fbe4c724527843494bc9ea3a61b2e16eb6f3ac8dcbb935112a966f031535b9e2
 tags:
-  0.6.7--pyhdfd78af_0: sha256:fbe4c724527843494bc9ea3a61b2e16eb6f3ac8dcbb935112a966f031535b9e2
+  0.6.7--pyhdfd78af_0: 
+    sha256:fbe4c724527843494bc9ea3a61b2e16eb6f3ac8dcbb935112a966f031535b9e2
 docker: quay.io/biocontainers/parallel-fastq-dump
 aliases:
   abi-dump.2.10.9: /usr/local/bin/abi-dump.2.10.9

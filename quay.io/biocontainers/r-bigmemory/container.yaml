@@ -2,8 +2,11 @@ url: https://biocontainers.pro/tools/r-bigmemory
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bigmemory
 latest:
-  4.5.19--r3.2.2_0: sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358
+  4.5.19--r3.2.2_0: 
+    sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358
 tags:
-  4.5.19--r3.2.2_0: sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358
-  4.5.19--r3.3.2_0: sha256:80d177c09cf18da0072454de22d0c4c734f93d061df4c16801a976035c3063fd
+  4.5.19--r3.2.2_0: 
+    sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358
+  4.5.19--r3.3.2_0: 
+    sha256:80d177c09cf18da0072454de22d0c4c734f93d061df4c16801a976035c3063fd
 docker: quay.io/biocontainers/r-bigmemory
