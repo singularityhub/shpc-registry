@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-extutils-manifest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-manifest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-manifest/container.yaml"
-updated_at: "2025-06-24 03:28:28.751954"
-latest: "1.73--pl5321hdfd78af_0"
+updated_at: "2025-06-25 03:29:24.294820"
+latest: "1.75--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-manifest"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.73--pl5321hdfd78af_0"
+ - "1.75--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-extutils-manifest"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-manifest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-manifest", "latest": {"1.73--pl5321hdfd78af_0": "sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e"}, "tags": {"1.73--pl5321hdfd78af_0": "sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e"}, "docker": "quay.io/biocontainers/perl-extutils-manifest", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-manifest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-manifest", "latest": {"1.75--pl5321hdfd78af_0": "sha256:7f90bd1562c7edb16362b2ad01ad4f9d1179f55ede8cb1a84b105426903e66e0"}, "tags": {"1.73--pl5321hdfd78af_0": "sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e", "1.75--pl5321hdfd78af_0": "sha256:7f90bd1562c7edb16362b2ad01ad4f9d1179f55ede8cb1a84b105426903e66e0"}, "docker": "quay.io/biocontainers/perl-extutils-manifest", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-manifest.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-extutils-manifest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-extutils-manifest:1.73--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-extutils-manifest:1.75--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-extutils-manifest/1.73--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-extutils-manifest/1.73--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-extutils-manifest/1.75--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-extutils-manifest/1.75--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

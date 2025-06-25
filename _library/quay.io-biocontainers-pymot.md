@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymot/container.yaml"
-updated_at: "2025-06-24 04:10:51.809287"
+updated_at: "2025-06-25 04:10:05.721693"
 latest: "13.09.2016--py_2"
 container_url: "https://biocontainers.pro/tools/pymot"
 aliases:

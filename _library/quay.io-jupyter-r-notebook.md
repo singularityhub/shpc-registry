@@ -4,16 +4,17 @@ name:  "quay.io/jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/r-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/r-notebook/container.yaml"
-updated_at: "2025-06-24 03:21:41.794425"
-latest: "2025-06-02"
+updated_at: "2025-06-25 03:22:54.610604"
+latest: "2025-06-23"
 container_url: "https://quay.io/repository/jupyter/r-notebook"
 aliases:
  - "run-notebook"
 versions:
  - "latest"
  - "2025-06-02"
+ - "2025-06-23"
 description: "Jupyter R Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/r-notebook", "url": "https://quay.io/repository/jupyter/r-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter R Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-02": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093"}, "tags": {"latest": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093", "2025-06-02": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/r-notebook", "url": "https://quay.io/repository/jupyter/r-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter R Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-23": "sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103"}, "tags": {"latest": "sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103", "2025-06-02": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093", "2025-06-23": "sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/r-notebook.
@@ -28,7 +29,7 @@ $ shpc install quay.io/jupyter/r-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/r-notebook:2025-06-02
+$ shpc install quay.io/jupyter/r-notebook:2025-06-23
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/r-notebook/2025-06-02
-$ module help quay.io/jupyter/r-notebook/2025-06-02
+$ module load quay.io/jupyter/r-notebook/2025-06-23
+$ module help quay.io/jupyter/r-notebook/2025-06-23
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

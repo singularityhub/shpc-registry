@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmdiffbamsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmdiffbamsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmdiffbamsubset/container.yaml"
-updated_at: "2025-06-24 03:33:44.020061"
+updated_at: "2025-06-25 03:34:26.437023"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmdiffbamsubset"
 

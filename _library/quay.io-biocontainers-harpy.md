@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/harpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harpy/container.yaml"
-updated_at: "2025-06-24 03:49:30.373751"
+updated_at: "2025-06-25 03:49:37.175970"
 latest: "2.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/harpy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ndexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ndexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ndexr/container.yaml"
-updated_at: "2025-06-24 03:40:30.563185"
+updated_at: "2025-06-25 03:41:01.409526"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ndexr"
 aliases:

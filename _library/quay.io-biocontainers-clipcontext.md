@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clipcontext"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clipcontext/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clipcontext/container.yaml"
-updated_at: "2025-06-24 04:06:39.189322"
+updated_at: "2025-06-25 04:06:02.634790"
 latest: "0.7--py_0"
 container_url: "https://biocontainers.pro/tools/clipcontext"
 aliases:

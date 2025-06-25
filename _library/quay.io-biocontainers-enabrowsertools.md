@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enabrowsertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enabrowsertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enabrowsertools/container.yaml"
-updated_at: "2025-06-24 03:33:14.932199"
-latest: "1.5.4--0"
+updated_at: "2025-06-25 03:33:58.267938"
+latest: "1.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enabrowsertools"
 aliases:
  - "assemblyGet.py"
@@ -28,8 +28,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.5.4--0"
+ - "1.7.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for enabrowsertools"
-config: {"url": "https://biocontainers.pro/tools/enabrowsertools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enabrowsertools", "latest": {"1.5.4--0": "sha256:794a909aec3167fd4d143f6a3c05d8e465a45d635501856b2d3a1919b923ee1c"}, "tags": {"1.5.4--0": "sha256:794a909aec3167fd4d143f6a3c05d8e465a45d635501856b2d3a1919b923ee1c"}, "docker": "quay.io/biocontainers/enabrowsertools", "aliases": {"assemblyGet.py": "/usr/local/bin/assemblyGet.py", "enaDataGet": "/usr/local/bin/enaDataGet", "enaDataGet.py": "/usr/local/bin/enaDataGet.py", "enaGroupGet": "/usr/local/bin/enaGroupGet", "enaGroupGet.py": "/usr/local/bin/enaGroupGet.py", "readGet.py": "/usr/local/bin/readGet.py", "sequenceGet.py": "/usr/local/bin/sequenceGet.py", "utils.py": "/usr/local/bin/utils.py", "utils_py2.py": "/usr/local/bin/utils_py2.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/enabrowsertools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enabrowsertools", "latest": {"1.7.1--hdfd78af_0": "sha256:b1f00bb01f2a8338341e85da371e112beb5b8b70eedbfd4e950d8bcd172cddab"}, "tags": {"1.5.4--0": "sha256:794a909aec3167fd4d143f6a3c05d8e465a45d635501856b2d3a1919b923ee1c", "1.7.1--hdfd78af_0": "sha256:b1f00bb01f2a8338341e85da371e112beb5b8b70eedbfd4e950d8bcd172cddab"}, "docker": "quay.io/biocontainers/enabrowsertools", "aliases": {"assemblyGet.py": "/usr/local/bin/assemblyGet.py", "enaDataGet": "/usr/local/bin/enaDataGet", "enaDataGet.py": "/usr/local/bin/enaDataGet.py", "enaGroupGet": "/usr/local/bin/enaGroupGet", "enaGroupGet.py": "/usr/local/bin/enaGroupGet.py", "readGet.py": "/usr/local/bin/readGet.py", "sequenceGet.py": "/usr/local/bin/sequenceGet.py", "utils.py": "/usr/local/bin/utils.py", "utils_py2.py": "/usr/local/bin/utils_py2.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enabrowsertools.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/enabrowsertools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enabrowsertools:1.5.4--0
+$ shpc install quay.io/biocontainers/enabrowsertools:1.7.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enabrowsertools/1.5.4--0
-$ module help quay.io/biocontainers/enabrowsertools/1.5.4--0
+$ module load quay.io/biocontainers/enabrowsertools/1.7.1--hdfd78af_0
+$ module help quay.io/biocontainers/enabrowsertools/1.7.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

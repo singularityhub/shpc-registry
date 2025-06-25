@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-scatterregions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-scatterregions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-scatterregions/container.yaml"
-updated_at: "2025-06-24 03:38:55.275021"
+updated_at: "2025-06-25 03:39:30.798418"
 latest: "0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-scatterregions"
 aliases:

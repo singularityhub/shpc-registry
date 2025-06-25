@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribodiff/container.yaml"
-updated_at: "2025-06-24 04:04:11.709237"
+updated_at: "2025-06-25 04:03:40.896854"
 latest: "0.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/ribodiff"
 aliases:
