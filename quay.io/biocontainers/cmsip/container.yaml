@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cmsip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cmsip
 latest:
-  0.0.3.0--py_0: sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14
+  0.0.3.0--py_0: 
+    sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14
 tags:
-  0.0.3.0--py_0: sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14
+  0.0.3.0--py_0: 
+    sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14
 docker: quay.io/biocontainers/cmsip
 aliases:
   LiBis: /usr/local/bin/LiBis

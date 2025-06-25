@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_netcdf-fortran_openmpi_5_0_6
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_netcdf-fortran_openmpi_5_0_6
+description: singularity registry hpc automated addition for 
+  esme_netcdf-fortran_openmpi_5_0_6
 latest:
-  4.6.1--hb88f572_0: sha256:94502e885c7b0228f50478951b236d97adab6274398fbdbec92760e931edc434
+  4.6.1--hb88f572_0: 
+    sha256:94502e885c7b0228f50478951b236d97adab6274398fbdbec92760e931edc434
 tags:
-  4.6.1--hb88f572_0: sha256:94502e885c7b0228f50478951b236d97adab6274398fbdbec92760e931edc434
+  4.6.1--hb88f572_0: 
+    sha256:94502e885c7b0228f50478951b236d97adab6274398fbdbec92760e931edc434
 docker: quay.io/biocontainers/esme_netcdf-fortran_openmpi_5_0_6
 aliases:
   prte: /usr/local/bin/prte

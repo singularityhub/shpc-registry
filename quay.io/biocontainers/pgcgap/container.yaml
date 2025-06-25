@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/pgcgap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pgcgap
 latest:
-  1.0.35--pl5321hdfd78af_1: sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
+  1.0.35--pl5321hdfd78af_1: 
+    sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
 tags:
-  1.0.9--2: sha256:4da5f372609e1167cf939cbb2e276634c14c0b7874e531f1845a70af587df90a
-  1.0.35--pl5321hdfd78af_0: sha256:16b7429e5beac461255299ee58e2c2c7cf154e1d1c46d915c935abde2783eba8
-  1.0.35--pl5321hdfd78af_1: sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
+  1.0.9--2: 
+    sha256:4da5f372609e1167cf939cbb2e276634c14c0b7874e531f1845a70af587df90a
+  1.0.35--pl5321hdfd78af_0: 
+    sha256:16b7429e5beac461255299ee58e2c2c7cf154e1d1c46d915c935abde2783eba8
+  1.0.35--pl5321hdfd78af_1: 
+    sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
 docker: quay.io/biocontainers/pgcgap
 aliases:
   COG.pl: /usr/local/bin/COG.pl
@@ -41,7 +45,8 @@ aliases:
   generateCorrectionLayouts: /usr/local/bin/generateCorrectionLayouts
   get_ANImatrix.pl: /usr/local/bin/get_ANImatrix.pl
   get_Mash_Matrix.pl: /usr/local/bin/get_Mash_Matrix.pl
-  get_flag_relative_abundances_table.pl: /usr/local/bin/get_flag_relative_abundances_table.pl
+  get_flag_relative_abundances_table.pl: 
+    /usr/local/bin/get_flag_relative_abundances_table.pl
   gubbins: /usr/local/bin/gubbins
   iterative_cdhit: /usr/local/bin/iterative_cdhit
   loadCorrectedReads: /usr/local/bin/loadCorrectedReads
@@ -71,15 +76,20 @@ aliases:
   pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
   pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
   pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
-  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
+  parallel_all_against_all_blastp: 
+    /usr/local/bin/parallel_all_against_all_blastp
   pgcgap: /usr/local/bin/pgcgap
   plot_3Dpie.R: /usr/local/bin/plot_3Dpie.R
-  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
-  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  prefixEditDistance-matchLimitGenerate: 
+    /usr/local/bin/prefixEditDistance-matchLimitGenerate
+  protein_alignment_from_nucleotides: 
+    /usr/local/bin/protein_alignment_from_nucleotides
   query_pan_genome: /usr/local/bin/query_pan_genome
   roary: /usr/local/bin/roary
-  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
-  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-create_pan_genome_plots.R: 
+    /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: 
+    /usr/local/bin/roary-pan_genome_reorder_spreadsheet
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   run_gubbins.py: /usr/local/bin/run_gubbins.py

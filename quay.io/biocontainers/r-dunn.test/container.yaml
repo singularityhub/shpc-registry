@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-dunn.test
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dunn.test
 latest:
-  1.3.1--r3.2.2_0: sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f
+  1.3.1--r3.2.2_0: 
+    sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f
 tags:
-  1.3.1--r3.2.2_0: sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f
-  1.3.1--r3.3.2_0: sha256:adce6a889acbd3508d1a90efbb4c6a0f5aa476ded60ad564d85a60fbf180b45d
+  1.3.1--r3.2.2_0: 
+    sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f
+  1.3.1--r3.3.2_0: 
+    sha256:adce6a889acbd3508d1a90efbb4c6a0f5aa476ded60ad564d85a60fbf180b45d
 docker: quay.io/biocontainers/r-dunn.test
 aliases:
   pngcp: /usr/local/bin/pngcp

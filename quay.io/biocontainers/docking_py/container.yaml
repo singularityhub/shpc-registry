@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/docking_py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for docking_py
 latest:
-  0.2.3--py_0: sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
+  0.2.3--py_0: 
+    sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
 tags:
-  0.2.3--py_0: sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
+  0.2.3--py_0: 
+    sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
 docker: quay.io/biocontainers/docking_py
 aliases:
   adt: /usr/local/bin/adt

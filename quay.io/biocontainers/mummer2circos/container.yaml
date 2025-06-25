@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mummer2circos
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mummer2circos
 latest:
-  1.4.2--pyhdfd78af_0: sha256:6664bf249fc4f2e377917dfc6b9a81178cd123fc3c10aa73b6a14a2dbbb2fe20
+  1.4.2--pyhdfd78af_0: 
+    sha256:6664bf249fc4f2e377917dfc6b9a81178cd123fc3c10aa73b6a14a2dbbb2fe20
 tags:
-  1.4.2--pyhdfd78af_0: sha256:6664bf249fc4f2e377917dfc6b9a81178cd123fc3c10aa73b6a14a2dbbb2fe20
+  1.4.2--pyhdfd78af_0: 
+    sha256:6664bf249fc4f2e377917dfc6b9a81178cd123fc3c10aa73b6a14a2dbbb2fe20
 docker: quay.io/biocontainers/mummer2circos
 aliases:
   mummer2circos: /usr/local/bin/mummer2circos

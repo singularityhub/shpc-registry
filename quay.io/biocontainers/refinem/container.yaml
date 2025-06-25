@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/refinem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for refinem
 latest:
-  0.1.2--pyh3252c3a_0: sha256:ba71ba1c758a2f4ca6bb8b7c13f1d098632653a998b751455a8dc5c71534515f
+  0.1.2--pyh3252c3a_0: 
+    sha256:ba71ba1c758a2f4ca6bb8b7c13f1d098632653a998b751455a8dc5c71534515f
 tags:
-  0.1.2--pyh3252c3a_0: sha256:ba71ba1c758a2f4ca6bb8b7c13f1d098632653a998b751455a8dc5c71534515f
+  0.1.2--pyh3252c3a_0: 
+    sha256:ba71ba1c758a2f4ca6bb8b7c13f1d098632653a998b751455a8dc5c71534515f
 docker: quay.io/biocontainers/refinem
 aliases:
   aalookup_unit_test: /usr/local/bin/aalookup_unit_test

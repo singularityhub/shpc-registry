@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/seabreeze-genomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seabreeze-genomics
 latest:
-  1.4.0--pyhdfd78af_0: sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c
+  1.4.0--pyhdfd78af_0: 
+    sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c
 tags:
-  1.4.0--pyhdfd78af_0: sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c
+  1.4.0--pyhdfd78af_0: 
+    sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c
 docker: quay.io/biocontainers/seabreeze-genomics
 aliases:
   seabreeze: /usr/local/bin/seabreeze

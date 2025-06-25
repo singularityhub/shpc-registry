@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pcdl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pcdl
 latest:
-  3.3.6--pyhdfd78af_0: sha256:19189b0d49e7696f43fdebc40d101d207dacf29fa710308ad19d8073249d1950
+  3.3.7--pyhdfd78af_0: 
+    sha256:b469ac253dc28de3e7562ed75f27c6501a9fe8d8ac690e344790b93cbc6d1f90
 tags:
-  3.3.6--pyhdfd78af_0: sha256:19189b0d49e7696f43fdebc40d101d207dacf29fa710308ad19d8073249d1950
+  3.3.6--pyhdfd78af_0: 
+    sha256:19189b0d49e7696f43fdebc40d101d207dacf29fa710308ad19d8073249d1950
+  3.3.7--pyhdfd78af_0: 
+    sha256:b469ac253dc28de3e7562ed75f27c6501a9fe8d8ac690e344790b93cbc6d1f90
 docker: quay.io/biocontainers/pcdl
 aliases:
   androiddeployqt6: /usr/local/bin/androiddeployqt6
@@ -44,7 +48,8 @@ aliases:
   protoc-gen-upb: /usr/local/bin/protoc-gen-upb
   protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
   protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
-  protoc-gen-upb_minitable-29.3.0: /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
   protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
   protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
   qdbus6: /usr/local/bin/qdbus6

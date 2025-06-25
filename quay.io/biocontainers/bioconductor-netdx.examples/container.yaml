@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-netdx.examples
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-netdx.examples
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-netdx.examples
 latest:
-  0.99.3--r40_0: sha256:276b1c5e684b3a4466fdb8ac3a607270244664a1ce36293c23ae5d5347f48f05
+  0.99.3--r40_0: 
+    sha256:276b1c5e684b3a4466fdb8ac3a607270244664a1ce36293c23ae5d5347f48f05
 tags:
-  0.99.3--r40_0: sha256:276b1c5e684b3a4466fdb8ac3a607270244664a1ce36293c23ae5d5347f48f05
+  0.99.3--r40_0: 
+    sha256:276b1c5e684b3a4466fdb8ac3a607270244664a1ce36293c23ae5d5347f48f05
 docker: quay.io/biocontainers/bioconductor-netdx.examples
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

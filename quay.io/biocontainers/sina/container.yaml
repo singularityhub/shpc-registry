@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sina
 latest:
-  1.7.2--h9aa86b4_0: sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
+  1.7.2--h9aa86b4_0: 
+    sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
 tags:
-  1.7.2--h9aa86b4_0: sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
+  1.7.2--h9aa86b4_0: 
+    sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
 docker: quay.io/biocontainers/sina
 aliases:
   arb_2_ascii: /usr/local/bin/arb_2_ascii

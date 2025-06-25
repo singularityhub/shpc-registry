@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-fastmatch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fastmatch
 latest:
-  1.1_0--r3.3.1_0: sha256:7f8ef39eaa3fb25bade9c3a870b4a71eb059238c3c252625e6c6d5fb766a1988
+  1.1_0--r3.3.1_0: 
+    sha256:7f8ef39eaa3fb25bade9c3a870b4a71eb059238c3c252625e6c6d5fb766a1988
 tags:
-  1.1_0--r3.3.1_0: sha256:7f8ef39eaa3fb25bade9c3a870b4a71eb059238c3c252625e6c6d5fb766a1988
-  1.1_0--r3.3.2_0: sha256:86be8ae40d2c7c0f2c5ba117e0b6e195cdcb076b15bc7b42bddcf737a309adac
+  1.1_0--r3.3.1_0: 
+    sha256:7f8ef39eaa3fb25bade9c3a870b4a71eb059238c3c252625e6c6d5fb766a1988
+  1.1_0--r3.3.2_0: 
+    sha256:86be8ae40d2c7c0f2c5ba117e0b6e195cdcb076b15bc7b42bddcf737a309adac
 docker: quay.io/biocontainers/r-fastmatch
 aliases:
   uconv: /usr/local/bin/uconv

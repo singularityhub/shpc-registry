@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/qhery
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for qhery
 latest:
-  0.1.2--pyhdfd78af_0: sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
+  0.1.2--pyhdfd78af_0: 
+    sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
 tags:
-  0.1.2--pyhdfd78af_0: sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
+  0.1.2--pyhdfd78af_0: 
+    sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
 docker: quay.io/biocontainers/qhery
 aliases:
   lofreq: /usr/local/bin/lofreq

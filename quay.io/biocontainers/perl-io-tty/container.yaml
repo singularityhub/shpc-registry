@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-io-tty
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-io-tty
 latest:
-  1.16--pl5321hec16e2b_1: sha256:68e6b3892eb8cb18004a236671377f321971d50e55819ec70a407e3276db76a0
+  1.16--pl5321hec16e2b_1: 
+    sha256:68e6b3892eb8cb18004a236671377f321971d50e55819ec70a407e3276db76a0
 tags:
-  1.16--pl5321hec16e2b_1: sha256:68e6b3892eb8cb18004a236671377f321971d50e55819ec70a407e3276db76a0
+  1.16--pl5321hec16e2b_1: 
+    sha256:68e6b3892eb8cb18004a236671377f321971d50e55819ec70a407e3276db76a0
 docker: quay.io/biocontainers/perl-io-tty
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ctxcore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ctxcore
 latest:
-  0.2.0--pyh7e72e81_0: sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4
+  0.2.0--pyh7e72e81_0: 
+    sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4
 tags:
-  0.2.0--pyh7e72e81_0: sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4
+  0.2.0--pyh7e72e81_0: 
+    sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4
 docker: quay.io/biocontainers/ctxcore
 aliases:
   protoc-25.3.0: /usr/local/bin/protoc-25.3.0

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bacgwasim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bacgwasim
 latest:
-  2.1.1--pyhdfd78af_0: sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
+  2.1.1--pyhdfd78af_0: 
+    sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
 tags:
-  2.1.1--pyhdfd78af_0: sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
+  2.1.1--pyhdfd78af_0: 
+    sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
 docker: quay.io/biocontainers/bacgwasim
 aliases:
   BacGWASim: /usr/local/bin/BacGWASim
@@ -14,7 +16,8 @@ aliases:
   snp-sites: /usr/local/bin/snp-sites
   stone: /usr/local/bin/stone
   dendropy-format: /usr/local/bin/dendropy-format
-  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   pulptest: /usr/local/bin/pulptest
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config

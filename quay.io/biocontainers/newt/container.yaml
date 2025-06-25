@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/newt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for newt
 latest:
-  0.52.18--py27_3: sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685
+  0.52.18--py27_3: 
+    sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685
 tags:
-  0.52.18--py27_3: sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685
-  0.52.18--py36_3: sha256:69246b68bb1bfe3af98238be8682440b03ce0467e4b8d62063cfb1a4f312c353
+  0.52.18--py27_3: 
+    sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685
+  0.52.18--py36_3: 
+    sha256:69246b68bb1bfe3af98238be8682440b03ce0467e4b8d62063cfb1a4f312c353
 docker: quay.io/biocontainers/newt
 aliases:
   slsh: /usr/local/bin/slsh

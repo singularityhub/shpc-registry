@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mquad
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mquad
 latest:
-  0.1.8b--pyhdfd78af_0: sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
+  0.1.8b--pyhdfd78af_0: 
+    sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
 tags:
-  0.1.8b--pyhdfd78af_0: sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
+  0.1.8b--pyhdfd78af_0: 
+    sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
 docker: quay.io/biocontainers/mquad
 aliases:
   GTbarcode: /usr/local/bin/GTbarcode

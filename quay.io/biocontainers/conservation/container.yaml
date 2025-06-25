@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/conservation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for conservation
 latest:
-  1.0.1--pyhdfd78af_0: sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
+  1.0.1--pyhdfd78af_0: 
+    sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
 tags:
-  1.0.1--pyhdfd78af_0: sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
+  1.0.1--pyhdfd78af_0: 
+    sha256:58a7a5212ba44db218d890b34b57edc229f952a705f34c264c77cd85fc4625d1
 docker: quay.io/biocontainers/conservation
 aliases:
   conservation: /usr/local/bin/conservation

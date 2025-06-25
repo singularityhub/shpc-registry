@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-missforest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-missforest
 latest:
-  1.4--r3.3.1_0: sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5
+  1.4--r3.3.1_0: 
+    sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5
 tags:
-  1.4--r3.3.1_0: sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5
-  1.4--r3.3.2_0: sha256:a5e2747ac10e6afc5cf367cbd2dce7557a2610d248ca6d7112e505dfb5673399
+  1.4--r3.3.1_0: 
+    sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5
+  1.4--r3.3.2_0: 
+    sha256:a5e2747ac10e6afc5cf367cbd2dce7557a2610d248ca6d7112e505dfb5673399
 docker: quay.io/biocontainers/r-missforest
 aliases:
   uconv: /usr/local/bin/uconv

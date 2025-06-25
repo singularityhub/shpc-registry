@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/tiberius
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tiberius
 latest:
-  1.1.1--pyhdfd78af_0: sha256:10d8cf3e70206123f573dd77193d310a0679c00dcff19e142330b1453a552dca
+  1.1.1--pyhdfd78af_0: 
+    sha256:10d8cf3e70206123f573dd77193d310a0679c00dcff19e142330b1453a552dca
 tags:
-  1.0.0--pyh7e72e81_0: sha256:54f5b47779f81f85817cb53be173594d30b6982f3244eb796a710e6e191a9cd1
-  1.1.1--pyhdfd78af_0: sha256:10d8cf3e70206123f573dd77193d310a0679c00dcff19e142330b1453a552dca
+  1.0.0--pyh7e72e81_0: 
+    sha256:54f5b47779f81f85817cb53be173594d30b6982f3244eb796a710e6e191a9cd1
+  1.1.1--pyhdfd78af_0: 
+    sha256:10d8cf3e70206123f573dd77193d310a0679c00dcff19e142330b1453a552dca
 docker: quay.io/biocontainers/tiberius
 aliases:
   annotation_gtf.py: /usr/local/bin/annotation_gtf.py
@@ -52,7 +55,8 @@ aliases:
   mqtt5_canary: /usr/local/bin/mqtt5_canary
   mqtt5canary: /usr/local/bin/mqtt5canary
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

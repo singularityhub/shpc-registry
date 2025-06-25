@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/marker-magu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for marker-magu
 latest:
-  0.4.0--pyhdfd78af_0: sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+  0.4.0--pyhdfd78af_0: 
+    sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
 tags:
-  0.4.0--pyhdfd78af_0: sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+  0.4.0--pyhdfd78af_0: 
+    sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
 docker: quay.io/biocontainers/marker-magu
 aliases:
   bwa-mem2: /usr/local/bin/bwa-mem2
@@ -16,7 +18,8 @@ aliases:
   coverm: /usr/local/bin/coverm
   dashing: /usr/local/bin/dashing
   markermagu: /usr/local/bin/markermagu
-  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  remove_minimap2_duplicated_headers: 
+    /usr/local/bin/remove_minimap2_duplicated_headers
   starcode: /usr/local/bin/starcode
   fastANI: /usr/local/bin/fastANI
   seqkit: /usr/local/bin/seqkit

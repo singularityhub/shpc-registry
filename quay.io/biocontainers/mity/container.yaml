@@ -2,10 +2,15 @@ url: https://biocontainers.pro/tools/mity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mity
 latest:
-  1.2.0--pyhdfd78af_0: sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680
+  2.0.0--pyhdfd78af_0: 
+    sha256:ce96dbaad38c58be592adad26c2ca665fdb84cfeff2e4e4f1533c2a373db8606
 tags:
-  1.1.0--pyhdfd78af_0: sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb
-  1.2.0--pyhdfd78af_0: sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680
+  1.1.0--pyhdfd78af_0: 
+    sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb
+  1.2.0--pyhdfd78af_0: 
+    sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680
+  2.0.0--pyhdfd78af_0: 
+    sha256:ce96dbaad38c58be592adad26c2ca665fdb84cfeff2e4e4f1533c2a373db8606
 docker: quay.io/biocontainers/mity
 aliases:
   gsort: /usr/local/bin/gsort
@@ -22,7 +27,8 @@ aliases:
   coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
   fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
   freebayes-parallel: /usr/local/bin/freebayes-parallel
-  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
   freebayes: /usr/local/bin/freebayes
   abba-baba: /usr/local/bin/abba-baba
   bFst: /usr/local/bin/bFst
