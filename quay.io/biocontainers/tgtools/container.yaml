@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/tgtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tgtools
+latest:
+  0.0.4--pyhdfd78af_0: 
+    sha256:e7de4b597c87b04facd423a8bb773b569baf02b1501780aa76b14e594203dfcd
+tags:
+  0.0.4--pyhdfd78af_0: 
+    sha256:e7de4b597c87b04facd423a8bb773b569baf02b1501780aa76b14e594203dfcd
+docker: quay.io/biocontainers/tgtools
+aliases:
+  tgtools: /usr/local/bin/tgtools
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  tqdm: /usr/local/bin/tqdm
