@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bio-ripser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bio-ripser
+latest:
+  1.2.1--h9948957_0: 
+    sha256:385c9a0f577576576b1f3bb28b701f8d206058abe666ed3e554d92849f076a64
+tags:
+  1.2.1--h9948957_0: 
+    sha256:385c9a0f577576576b1f3bb28b701f8d206058abe666ed3e554d92849f076a64
+docker: quay.io/biocontainers/bio-ripser
+aliases:
+  ripser: /usr/local/bin/ripser
+  ripser-coeff: /usr/local/bin/ripser-coeff
+  ripser-debug: /usr/local/bin/ripser-debug

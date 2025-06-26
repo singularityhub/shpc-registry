@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/vbz-h5py-plugin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vbz-h5py-plugin
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d334e329da15a6d54d9f61ff421b74ee79323a04421250657d8eed3d882a86a0
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d334e329da15a6d54d9f61ff421b74ee79323a04421250657d8eed3d882a86a0
+docker: quay.io/biocontainers/vbz-h5py-plugin
+aliases:
+  h5fuse: /usr/local/bin/h5fuse
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  h5delete: /usr/local/bin/h5delete
+  numpy-config: /usr/local/bin/numpy-config
+  h5fc: /usr/local/bin/h5fc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack

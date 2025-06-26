@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dnadotplot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dnadotplot
+latest:
+  0.1.4--hc1c3326_0: 
+    sha256:ca1fb41b447d19c0b79843e1489891f651bebc6c5602b52d4d977121f2ef50cf
+tags:
+  0.1.4--hc1c3326_0: 
+    sha256:ca1fb41b447d19c0b79843e1489891f651bebc6c5602b52d4d977121f2ef50cf
+docker: quay.io/biocontainers/dnadotplot
+aliases:
+  dnadotplot: /usr/local/bin/dnadotplot
