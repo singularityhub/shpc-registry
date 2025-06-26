@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bttoxin_scanner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bttoxin_scanner
 latest:
-  2.0.1--0: sha256:cf103aae0025f32a3c40b95cb03fc06117787d00df81766ebed0d1dc5f5531d3
+  2.0.1--0: 
+    sha256:cf103aae0025f32a3c40b95cb03fc06117787d00df81766ebed0d1dc5f5531d3
 tags:
-  2.0.1--0: sha256:cf103aae0025f32a3c40b95cb03fc06117787d00df81766ebed0d1dc5f5531d3
+  2.0.1--0: 
+    sha256:cf103aae0025f32a3c40b95cb03fc06117787d00df81766ebed0d1dc5f5531d3
 docker: quay.io/biocontainers/bttoxin_scanner
 aliases:
   BtToxin_scanner: /usr/local/bin/BtToxin_scanner
@@ -50,7 +52,8 @@ aliases:
   get_all_info_nucl.pl: /usr/local/bin/get_all_info_nucl.pl
   get_all_info_orfs.pl: /usr/local/bin/get_all_info_orfs.pl
   get_all_info_prot.pl: /usr/local/bin/get_all_info_prot.pl
-  get_flag_relative_abundances_table.pl: /usr/local/bin/get_flag_relative_abundances_table.pl
+  get_flag_relative_abundances_table.pl: 
+    /usr/local/bin/get_flag_relative_abundances_table.pl
   get_genes_table.pl: /usr/local/bin/get_genes_table.pl
   gubbins: /usr/local/bin/gubbins
   iterative_cdhit: /usr/local/bin/iterative_cdhit
@@ -85,17 +88,22 @@ aliases:
   pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
   pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
   pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
-  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
+  parallel_all_against_all_blastp: 
+    /usr/local/bin/parallel_all_against_all_blastp
   pgcgap: /usr/local/bin/pgcgap
   plot_3Dpie.R: /usr/local/bin/plot_3Dpie.R
-  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
-  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  prefixEditDistance-matchLimitGenerate: 
+    /usr/local/bin/prefixEditDistance-matchLimitGenerate
+  protein_alignment_from_nucleotides: 
+    /usr/local/bin/protein_alignment_from_nucleotides
   query_pan_genome: /usr/local/bin/query_pan_genome
   raxml-ng: /usr/local/bin/raxml-ng
   raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
   roary: /usr/local/bin/roary
-  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
-  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-create_pan_genome_plots.R: 
+    /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: 
+    /usr/local/bin/roary-pan_genome_reorder_spreadsheet
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   run_gubbins.py: /usr/local/bin/run_gubbins.py

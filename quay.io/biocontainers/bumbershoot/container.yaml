@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bumbershoot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bumbershoot
 latest:
-  3_0_21142_0e4f4a4--h7d875b9_0: sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
+  3_0_21142_0e4f4a4--h7d875b9_0: 
+    sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
 tags:
-  3_0_21142_0e4f4a4--h7d875b9_0: sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
+  3_0_21142_0e4f4a4--h7d875b9_0: 
+    sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
 docker: quay.io/biocontainers/bumbershoot
 aliases:
   adjustScanRankerScoreByGroup: /usr/local/bin/adjustScanRankerScoreByGroup

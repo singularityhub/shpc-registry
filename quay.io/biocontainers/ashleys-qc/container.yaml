@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ashleys-qc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ashleys-qc
 latest:
-  0.2.1--pyh7cba7a3_0: sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
+  0.2.1--pyh7cba7a3_0: 
+    sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
 tags:
-  0.2.1--pyh7cba7a3_0: sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
+  0.2.1--pyh7cba7a3_0: 
+    sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
 docker: quay.io/biocontainers/ashleys-qc
 aliases:
   ashleys: /usr/local/bin/ashleys

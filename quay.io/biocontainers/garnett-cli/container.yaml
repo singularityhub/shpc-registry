@@ -2,16 +2,21 @@ url: https://biocontainers.pro/tools/garnett-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for garnett-cli
 latest:
-  0.0.5--hdfd78af_1: sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
+  0.0.5--hdfd78af_1: 
+    sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
 tags:
-  v0.0.1--r36_0: sha256:c0b059234123ae7592838e1b6c0990f75ffb5f18247c027eae3df176d022fe65
-  0.0.5--hdfd78af_1: sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
+  v0.0.1--r36_0: 
+    sha256:c0b059234123ae7592838e1b6c0990f75ffb5f18247c027eae3df176d022fe65
+  0.0.5--hdfd78af_1: 
+    sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
 docker: quay.io/biocontainers/garnett-cli
 aliases:
   garnett_check_markers.R: /usr/local/bin/garnett_check_markers.R
   garnett_classify_cells.R: /usr/local/bin/garnett_classify_cells.R
-  garnett_cli_post_install_tests.bats: /usr/local/bin/garnett_cli_post_install_tests.bats
-  garnett_cli_post_install_tests.sh: /usr/local/bin/garnett_cli_post_install_tests.sh
+  garnett_cli_post_install_tests.bats: 
+    /usr/local/bin/garnett_cli_post_install_tests.bats
+  garnett_cli_post_install_tests.sh: 
+    /usr/local/bin/garnett_cli_post_install_tests.sh
   garnett_get_feature_genes.R: /usr/local/bin/garnett_get_feature_genes.R
   garnett_train_classifier.R: /usr/local/bin/garnett_train_classifier.R
   make_test_data.R: /usr/local/bin/make_test_data.R

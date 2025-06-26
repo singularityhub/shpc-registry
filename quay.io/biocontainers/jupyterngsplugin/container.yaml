@@ -2,16 +2,19 @@ url: https://biocontainers.pro/tools/jupyterngsplugin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jupyterngsplugin
 latest:
-  0.0.13a3--py_0: sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
+  0.0.13a3--py_0: 
+    sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
 tags:
-  0.0.13a3--py_0: sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
+  0.0.13a3--py_0: 
+    sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
 docker: quay.io/biocontainers/jupyterngsplugin
 aliases:
   croco-0.6-config: /usr/local/bin/croco-0.6-config
   csslint-0.6: /usr/local/bin/csslint-0.6
   jupyter-console: /usr/local/bin/jupyter-console
   jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
-  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  x86_64-conda_cos6-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
   g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
   jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
   jupyter-nbextension: /usr/local/bin/jupyter-nbextension

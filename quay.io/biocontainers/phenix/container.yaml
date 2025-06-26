@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phenix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phenix
 latest:
-  1.4.1a--py27h3dcb392_1: sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d
+  1.4.1a--py27h3dcb392_1: 
+    sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d
 tags:
-  1.4.1a--py27h3dcb392_1: sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d
+  1.4.1a--py27h3dcb392_1: 
+    sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d
 docker: quay.io/biocontainers/phenix
 aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK

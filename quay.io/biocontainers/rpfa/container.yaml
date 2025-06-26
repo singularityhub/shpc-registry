@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rpfa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rpfa
 latest:
-  1.0.1--pyh5e36f6f_0: sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
+  1.0.1--pyh5e36f6f_0: 
+    sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
 tags:
-  1.0.1--pyh5e36f6f_0: sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
+  1.0.1--pyh5e36f6f_0: 
+    sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
 docker: quay.io/biocontainers/rpfa
 aliases:
   black: /usr/local/bin/black

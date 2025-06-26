@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/contignet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for contignet
 latest:
-  1.0.1.post3--pyh7cba7a3_0: sha256:c2fee770172ab67ec0ae0e78f203b84496fb8ed003a8e80da5df768ea6e174f1
+  1.0.1.post3--pyh7cba7a3_0: 
+    sha256:c2fee770172ab67ec0ae0e78f203b84496fb8ed003a8e80da5df768ea6e174f1
 tags:
-  1.0.1.post3--pyh7cba7a3_0: sha256:c2fee770172ab67ec0ae0e78f203b84496fb8ed003a8e80da5df768ea6e174f1
+  1.0.1.post3--pyh7cba7a3_0: 
+    sha256:c2fee770172ab67ec0ae0e78f203b84496fb8ed003a8e80da5df768ea6e174f1
 docker: quay.io/biocontainers/contignet
 aliases:
   ContigNet: /usr/local/bin/ContigNet

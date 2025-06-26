@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/galaxy-tool-util
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy-tool-util
 latest:
-  21.9.1--pyhdfd78af_0: sha256:4e24f41bbc203613d67c8b938dfe447a84f18289ba0ddadfde82252bb5e529ad
+  21.9.1--pyhdfd78af_0: 
+    sha256:4e24f41bbc203613d67c8b938dfe447a84f18289ba0ddadfde82252bb5e529ad
 tags:
-  21.9.1--pyhdfd78af_0: sha256:4e24f41bbc203613d67c8b938dfe447a84f18289ba0ddadfde82252bb5e529ad
+  21.9.1--pyhdfd78af_0: 
+    sha256:4e24f41bbc203613d67c8b938dfe447a84f18289ba0ddadfde82252bb5e529ad
 docker: quay.io/biocontainers/galaxy-tool-util
 aliases:
   cheetah: /usr/local/bin/cheetah
@@ -17,7 +19,8 @@ aliases:
   mulled-build-tool: /usr/local/bin/mulled-build-tool
   mulled-list: /usr/local/bin/mulled-list
   mulled-search: /usr/local/bin/mulled-search
-  mulled-update-singularity-containers: /usr/local/bin/mulled-update-singularity-containers
+  mulled-update-singularity-containers: 
+    /usr/local/bin/mulled-update-singularity-containers
   conda-env: /usr/local/bin/conda-env
   cph: /usr/local/bin/cph
   rst2html4.py: /usr/local/bin/rst2html4.py

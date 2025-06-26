@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/vase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vase
 latest:
-  0.5.1--pyh086e186_0: sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
+  0.5.1--pyh086e186_0: 
+    sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
 tags:
-  0.5.1--pyh086e186_0: sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
+  0.5.1--pyh086e186_0: 
+    sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
 docker: quay.io/biocontainers/vase
 aliases:
   burden_test_vase: /usr/local/bin/burden_test_vase

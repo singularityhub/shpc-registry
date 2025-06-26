@@ -2,15 +2,20 @@ url: https://biocontainers.pro/tools/plascope
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plascope
 latest:
-  1.3.1--hdfd78af_4: sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
+  1.3.1--hdfd78af_4: 
+    sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
 tags:
-  1.3.1--hdfd78af_4: sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
-  1.3--1: sha256:f2d5e2f849ef67d352e907ee5e08fe28b86d54dbffb7b2a8352293c944e4056c
+  1.3.1--hdfd78af_4: 
+    sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
+  1.3--1: 
+    sha256:f2d5e2f849ef67d352e907ee5e08fe28b86d54dbffb7b2a8352293c944e4056c
 docker: quay.io/biocontainers/plascope
 aliases:
   centrifuge: /usr/local/bin/centrifuge
-  centrifuge-BuildSharedSequence.pl: /usr/local/bin/centrifuge-BuildSharedSequence.pl
-  centrifuge-RemoveEmptySequence.pl: /usr/local/bin/centrifuge-RemoveEmptySequence.pl
+  centrifuge-BuildSharedSequence.pl: 
+    /usr/local/bin/centrifuge-BuildSharedSequence.pl
+  centrifuge-RemoveEmptySequence.pl: 
+    /usr/local/bin/centrifuge-RemoveEmptySequence.pl
   centrifuge-RemoveN.pl: /usr/local/bin/centrifuge-RemoveN.pl
   centrifuge-build: /usr/local/bin/centrifuge-build
   centrifuge-build-bin: /usr/local/bin/centrifuge-build-bin

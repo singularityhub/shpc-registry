@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rnalyze
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnalyze
 latest:
-  1.0.1--hdfd78af_1: sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
+  1.0.1--hdfd78af_1: 
+    sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
 tags:
-  1.0.1--hdfd78af_1: sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
+  1.0.1--hdfd78af_1: 
+    sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
 docker: quay.io/biocontainers/rnalyze
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3
@@ -103,8 +105,10 @@ aliases:
   hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
   hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
   hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
-  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
-  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_snps_haplotypes_UCSC.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
   hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
   kaleido: /usr/local/bin/kaleido

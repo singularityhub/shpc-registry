@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/r-splitstackshape
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for r-splitstackshape
+description: shpc-registry automated BioContainers addition for 
+  r-splitstackshape
 latest:
-  1.4.2--r3.3.1_0: sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3
+  1.4.2--r3.3.1_0: 
+    sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3
 tags:
-  1.4.2--r3.3.1_0: sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3
-  1.4.2--r3.3.2_0: sha256:9f9e8a524dfe02575164dd7d0738de2b971c8abcd0e344611c402139d47dd348
+  1.4.2--r3.3.1_0: 
+    sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3
+  1.4.2--r3.3.2_0: 
+    sha256:9f9e8a524dfe02575164dd7d0738de2b971c8abcd0e344611c402139d47dd348
 docker: quay.io/biocontainers/r-splitstackshape
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/pyinotify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyinotify
 latest:
-  0.9.6--py35_0: sha256:50c178e08d440af2be5d950869a761133e606bca6c13bbc9c53880d0f28d1f4f
+  0.9.6--py35_0: 
+    sha256:50c178e08d440af2be5d950869a761133e606bca6c13bbc9c53880d0f28d1f4f
 tags:
-  0.9.6--py35_0: sha256:50c178e08d440af2be5d950869a761133e606bca6c13bbc9c53880d0f28d1f4f
-  0.9.6--py36_0: sha256:79b41e109ee461260461ed910b173488e46f050ea43b7315dcba3934a780815b
+  0.9.6--py35_0: 
+    sha256:50c178e08d440af2be5d950869a761133e606bca6c13bbc9c53880d0f28d1f4f
+  0.9.6--py36_0: 
+    sha256:79b41e109ee461260461ed910b173488e46f050ea43b7315dcba3934a780815b
 docker: quay.io/biocontainers/pyinotify
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

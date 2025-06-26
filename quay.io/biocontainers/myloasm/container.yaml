@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/myloasm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for myloasm
 latest:
-  0.1.0--ha6fb395_0: sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165
+  0.1.0--ha6fb395_0: 
+    sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165
 tags:
-  0.1.0--ha6fb395_0: sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165
+  0.1.0--ha6fb395_0: 
+    sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165
 docker: quay.io/biocontainers/myloasm
 aliases:
   myloasm: /usr/local/bin/myloasm

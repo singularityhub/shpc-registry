@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/yleaf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for yleaf
 latest:
-  3.2.1--pyh1286868_0: sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1
+  3.2.1--pyh1286868_0: 
+    sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1
 tags:
-  3.2.1--pyh1286868_0: sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1
+  3.2.1--pyh1286868_0: 
+    sha256:bec92487fcf943f736268521b469c55ee0532f5ec652d5f340079ca0e652a6d1
 docker: quay.io/biocontainers/yleaf
 aliases:
   Yleaf: /usr/local/bin/Yleaf

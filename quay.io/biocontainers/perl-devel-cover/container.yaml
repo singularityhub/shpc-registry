@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-devel-cover
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-devel-cover
 latest:
-  1.33--pl526h14c3975_0: sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb
+  1.33--pl526h14c3975_0: 
+    sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb
 tags:
-  1.33--pl526h14c3975_0: sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb
+  1.33--pl526h14c3975_0: 
+    sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb
 docker: quay.io/biocontainers/perl-devel-cover
 aliases:
   cover: /usr/local/bin/cover

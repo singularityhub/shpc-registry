@@ -1,13 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-bobafit
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-bobafit
+description: singularity registry hpc automated addition for 
+  bioconductor-bobafit
 latest:
-  1.10.0--r44hdfd78af_0: sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
+  1.10.0--r44hdfd78af_0: 
+    sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
 tags:
-  1.2.0--r42hdfd78af_0: sha256:079dea89a1567be08cbe7255353cf23398a4a575e0ad5208a3f59b5de5d10700
-  1.4.0--r43hdfd78af_0: sha256:7ea9c60e410f3323039f79ec64047fc0611fca7ad2ea76b51f27527b1c51ed65
-  1.6.0--r43hdfd78af_0: sha256:ec8da7d72ce3e50c8786c191e8a5823ddaa0393f5be606f972a66056b076584e
-  1.10.0--r44hdfd78af_0: sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
+  1.2.0--r42hdfd78af_0: 
+    sha256:079dea89a1567be08cbe7255353cf23398a4a575e0ad5208a3f59b5de5d10700
+  1.4.0--r43hdfd78af_0: 
+    sha256:7ea9c60e410f3323039f79ec64047fc0611fca7ad2ea76b51f27527b1c51ed65
+  1.6.0--r43hdfd78af_0: 
+    sha256:ec8da7d72ce3e50c8786c191e8a5823ddaa0393f5be606f972a66056b076584e
+  1.10.0--r44hdfd78af_0: 
+    sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
 docker: quay.io/biocontainers/bioconductor-bobafit
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
@@ -16,8 +22,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   2to3-3.10: /usr/local/bin/2to3-3.10

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nedrex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nedrex
 latest:
-  0.1.4--pyhdfd78af_0: sha256:071673fdb4cfcebf8a2a75783ccac2d2c299a0ed0e1f3d5723f1b3acd0eb3130
+  0.1.4--pyhdfd78af_0: 
+    sha256:071673fdb4cfcebf8a2a75783ccac2d2c299a0ed0e1f3d5723f1b3acd0eb3130
 tags:
-  0.1.4--pyhdfd78af_0: sha256:071673fdb4cfcebf8a2a75783ccac2d2c299a0ed0e1f3d5723f1b3acd0eb3130
+  0.1.4--pyhdfd78af_0: 
+    sha256:071673fdb4cfcebf8a2a75783ccac2d2c299a0ed0e1f3d5723f1b3acd0eb3130
 docker: quay.io/biocontainers/nedrex
 aliases:
   normalizer: /usr/local/bin/normalizer

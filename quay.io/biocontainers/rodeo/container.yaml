@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rodeo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rodeo
 latest:
-  2.3.3--hdfd78af_1: sha256:c195bddea9a4b799e0166cf45e7c42ffe32871dfd1df7d73ca6b96b6ac953072
+  2.3.3--hdfd78af_1: 
+    sha256:c195bddea9a4b799e0166cf45e7c42ffe32871dfd1df7d73ca6b96b6ac953072
 tags:
-  2.3.3--hdfd78af_1: sha256:c195bddea9a4b799e0166cf45e7c42ffe32871dfd1df7d73ca6b96b6ac953072
+  2.3.3--hdfd78af_1: 
+    sha256:c195bddea9a4b799e0166cf45e7c42ffe32871dfd1df7d73ca6b96b6ac953072
 docker: quay.io/biocontainers/rodeo
 aliases:
   My_Record.py: /usr/local/bin/My_Record.py

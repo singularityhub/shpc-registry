@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/grimer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grimer
 latest:
-  1.1.0--pyhdfd78af_0: sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
+  1.1.0--pyhdfd78af_0: 
+    sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
 tags:
-  1.1.0--pyhdfd78af_0: sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
+  1.1.0--pyhdfd78af_0: 
+    sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
 docker: quay.io/biocontainers/grimer
 aliases:
   grimer: /usr/local/bin/grimer

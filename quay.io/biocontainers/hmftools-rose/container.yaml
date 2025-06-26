@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-rose
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-rose
 latest:
-  1.3--hdfd78af_0: sha256:f93518ccaf822558aa99c38c4ad96b8e630fcc83dbc85b18b994ec047c5d2dc6
+  1.3--hdfd78af_0: 
+    sha256:f93518ccaf822558aa99c38c4ad96b8e630fcc83dbc85b18b994ec047c5d2dc6
 tags:
-  1.3--hdfd78af_0: sha256:f93518ccaf822558aa99c38c4ad96b8e630fcc83dbc85b18b994ec047c5d2dc6
+  1.3--hdfd78af_0: 
+    sha256:f93518ccaf822558aa99c38c4ad96b8e630fcc83dbc85b18b994ec047c5d2dc6
 docker: quay.io/biocontainers/hmftools-rose
 aliases:
   rose: /usr/local/bin/rose

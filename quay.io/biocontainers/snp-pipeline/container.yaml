@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/snp-pipeline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snp-pipeline
 latest:
-  2.2.1--pyh3252c3a_0: sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
+  2.2.1--pyh3252c3a_0: 
+    sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
 tags:
-  2.2.1--pyh3252c3a_0: sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
+  2.2.1--pyh3252c3a_0: 
+    sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
 docker: quay.io/biocontainers/snp-pipeline
 aliases:
   alignSampleToReference.sh: /usr/local/bin/alignSampleToReference.sh

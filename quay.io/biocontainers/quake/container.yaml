@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/quake
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quake
 latest:
-  0.3.5--py27hed98c23_4: sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
+  0.3.5--py27hed98c23_4: 
+    sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
 tags:
-  0.3.5--py27hed98c23_4: sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
+  0.3.5--py27hed98c23_4: 
+    sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
 docker: quay.io/biocontainers/quake
 aliases:
   build_bithash: /usr/local/bin/build_bithash

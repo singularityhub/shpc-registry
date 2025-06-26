@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_esmf_psmpi_5_10_0
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_esmf_psmpi_5_10_0
+description: singularity registry hpc automated addition for 
+  esme_esmf_psmpi_5_10_0
 latest:
-  8.8.0--ha6a134a_0: sha256:8e120010f0e657fc178ecc9cfb542fe92517632ecebe77de020a3fbd6a882261
+  8.8.0--ha6a134a_0: 
+    sha256:8e120010f0e657fc178ecc9cfb542fe92517632ecebe77de020a3fbd6a882261
 tags:
-  8.8.0--ha6a134a_0: sha256:8e120010f0e657fc178ecc9cfb542fe92517632ecebe77de020a3fbd6a882261
+  8.8.0--ha6a134a_0: 
+    sha256:8e120010f0e657fc178ecc9cfb542fe92517632ecebe77de020a3fbd6a882261
 docker: quay.io/biocontainers/esme_esmf_psmpi_5_10_0
 aliases:
   ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo

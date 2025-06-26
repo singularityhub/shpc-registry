@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/fuma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fuma
 latest:
-  4.0.0--pyhb7b1952_0: sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
+  4.0.0--pyhb7b1952_0: 
+    sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
 tags:
-  4.0.0--pyhb7b1952_0: sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
+  4.0.0--pyhb7b1952_0: 
+    sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
 docker: quay.io/biocontainers/fuma
 aliases:
-  chimerascan-exclude-transcriptome-events: /usr/local/bin/chimerascan-exclude-transcriptome-events
-  chimerascan-relative-bedpe-to-CG: /usr/local/bin/chimerascan-relative-bedpe-to-CG
+  chimerascan-exclude-transcriptome-events: 
+    /usr/local/bin/chimerascan-exclude-transcriptome-events
+  chimerascan-relative-bedpe-to-CG: 
+    /usr/local/bin/chimerascan-relative-bedpe-to-CG
   defuse-clusters-to-CG: /usr/local/bin/defuse-clusters-to-CG
   fuma: /usr/local/bin/fuma
   fuma-gencode-gtf-to-bed: /usr/local/bin/fuma-gencode-gtf-to-bed
