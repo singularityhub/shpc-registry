@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agat/container.yaml"
-updated_at: "2025-06-25 03:59:42.065804"
+updated_at: "2025-06-26 03:59:22.124588"
 latest: "1.4.2--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agat"
 aliases:
