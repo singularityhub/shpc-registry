@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schpl/container.yaml"
-updated_at: "2025-06-26 04:17:20.414867"
+updated_at: "2025-06-27 04:00:35.410317"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/schpl"
 aliases:

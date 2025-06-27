@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cobs/container.yaml"
-updated_at: "2025-06-26 04:25:13.333852"
+updated_at: "2025-06-27 04:01:54.995538"
 latest: "0.3.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/cobs"
 aliases:

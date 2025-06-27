@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-io-prompt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
-updated_at: "2025-06-26 04:37:54.596593"
-latest: "0.997004--pl5321hdfd78af_3"
+updated_at: "2025-06-27 03:53:41.008725"
+latest: "0.997004--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-io-prompt"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.997004--pl5321hdfd78af_3"
+ - "0.997004--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for perl-io-prompt"
-config: {"url": "https://biocontainers.pro/tools/perl-io-prompt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-prompt", "latest": {"0.997004--pl5321hdfd78af_3": "sha256:3bddc3f1ff0b848d876616db4cabb4f493a84e7c53effdc354e2cfa5250bc618"}, "tags": {"0.997004--pl5321hdfd78af_3": "sha256:3bddc3f1ff0b848d876616db4cabb4f493a84e7c53effdc354e2cfa5250bc618"}, "docker": "quay.io/biocontainers/perl-io-prompt", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-io-prompt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-prompt", "latest": {"0.997004--pl5321hdfd78af_4": "sha256:f382614c6b043167dac73d69395c41c399e2a644a42b835da934f991e831d33a"}, "tags": {"0.997004--pl5321hdfd78af_3": "sha256:3bddc3f1ff0b848d876616db4cabb4f493a84e7c53effdc354e2cfa5250bc618", "0.997004--pl5321hdfd78af_4": "sha256:f382614c6b043167dac73d69395c41c399e2a644a42b835da934f991e831d33a"}, "docker": "quay.io/biocontainers/perl-io-prompt", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-io-prompt.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-io-prompt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-io-prompt:0.997004--pl5321hdfd78af_3
+$ shpc install quay.io/biocontainers/perl-io-prompt:0.997004--pl5321hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-io-prompt/0.997004--pl5321hdfd78af_3
-$ module help quay.io/biocontainers/perl-io-prompt/0.997004--pl5321hdfd78af_3
+$ module load quay.io/biocontainers/perl-io-prompt/0.997004--pl5321hdfd78af_4
+$ module help quay.io/biocontainers/perl-io-prompt/0.997004--pl5321hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
