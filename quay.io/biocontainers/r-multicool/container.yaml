@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-multicool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-multicool
 latest:
-  0.1_10--r3.3.2_0: sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af
+  0.1_10--r3.3.2_0: 
+    sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af
 tags:
-  0.1_9--r3.3.1_2: sha256:05789391e3c5be983239a3b0d659291ee93bf9dff8abc95b47838e74df847b32
-  0.1_10--r3.3.2_0: sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af
+  0.1_9--r3.3.1_2: 
+    sha256:05789391e3c5be983239a3b0d659291ee93bf9dff8abc95b47838e74df847b32
+  0.1_10--r3.3.2_0: 
+    sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af
 docker: quay.io/biocontainers/r-multicool
 aliases:
   uconv: /usr/local/bin/uconv

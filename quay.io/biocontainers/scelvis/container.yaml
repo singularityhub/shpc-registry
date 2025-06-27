@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scelvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scelvis
 latest:
-  0.8.9--pyhdfd78af_0: sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e
+  0.8.9--pyhdfd78af_0: 
+    sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e
 tags:
-  0.8.9--pyhdfd78af_0: sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e
+  0.8.9--pyhdfd78af_0: 
+    sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e
 docker: quay.io/biocontainers/scelvis
 aliases:
   dash-generate-components: /usr/local/bin/dash-generate-components

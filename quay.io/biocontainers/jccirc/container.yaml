@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/jccirc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jccirc
 latest:
-  1.0.0--hdfd78af_0: sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf
+  1.0.0--hdfd78af_0: 
+    sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf
 tags:
-  1.0.0--hdfd78af_0: sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf
+  1.0.0--hdfd78af_0: 
+    sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf
 docker: quay.io/biocontainers/jccirc
 aliases:
   CircSimu: /usr/local/bin/CircSimu

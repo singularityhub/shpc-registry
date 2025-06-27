@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-bio-bpwrapper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-bio-bpwrapper
 latest:
-  1.15--pl5321hdfd78af_0: sha256:c8a67ab6720fdadec9d1d0f9b49db6487b84ee1e1266153b2ac04b1d528db494
+  1.15--pl5321hdfd78af_0: 
+    sha256:c8a67ab6720fdadec9d1d0f9b49db6487b84ee1e1266153b2ac04b1d528db494
 tags:
-  1.15--pl5321hdfd78af_0: sha256:c8a67ab6720fdadec9d1d0f9b49db6487b84ee1e1266153b2ac04b1d528db494
+  1.15--pl5321hdfd78af_0: 
+    sha256:c8a67ab6720fdadec9d1d0f9b49db6487b84ee1e1266153b2ac04b1d528db494
 docker: quay.io/biocontainers/perl-bio-bpwrapper
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar

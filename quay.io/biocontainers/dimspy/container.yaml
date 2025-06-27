@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dimspy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dimspy
 latest:
-  2.0.0--pyhdfd78af_1: sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
+  2.0.0--pyhdfd78af_1: 
+    sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
 tags:
-  2.0.0--pyhdfd78af_1: sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
+  2.0.0--pyhdfd78af_1: 
+    sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
 docker: quay.io/biocontainers/dimspy
 aliases:
   csc: /usr/local/bin/csc

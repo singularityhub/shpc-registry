@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-png
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-png
 latest:
-  0.1.7--r3.2.2_0: sha256:16bc038f99b3f37c172d888d88733e801befc5ff047a15e20ea0d103230810ca
+  0.1.7--r3.2.2_0: 
+    sha256:16bc038f99b3f37c172d888d88733e801befc5ff047a15e20ea0d103230810ca
 tags:
-  0.1.7--r3.2.2_0: sha256:16bc038f99b3f37c172d888d88733e801befc5ff047a15e20ea0d103230810ca
-  0.1.7--r3.3.2_0: sha256:638216bdf560b9e9f130b87abf7946dca43445bf430322c96c62a5fa18e22c98
+  0.1.7--r3.2.2_0: 
+    sha256:16bc038f99b3f37c172d888d88733e801befc5ff047a15e20ea0d103230810ca
+  0.1.7--r3.3.2_0: 
+    sha256:638216bdf560b9e9f130b87abf7946dca43445bf430322c96c62a5fa18e22c98
 docker: quay.io/biocontainers/r-png
 aliases:
   pngcp: /usr/local/bin/pngcp

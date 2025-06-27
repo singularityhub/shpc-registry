@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/odamnet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for odamnet
 latest:
-  1.1.0--pyhdfd78af_0: sha256:65e50cbcc2e630283ddc25f6eb1d7e63aa510ec22752993b929c76554d749798
+  1.1.0--pyhdfd78af_0: 
+    sha256:65e50cbcc2e630283ddc25f6eb1d7e63aa510ec22752993b929c76554d749798
 tags:
-  1.1.0--pyhdfd78af_0: sha256:65e50cbcc2e630283ddc25f6eb1d7e63aa510ec22752993b929c76554d749798
+  1.1.0--pyhdfd78af_0: 
+    sha256:65e50cbcc2e630283ddc25f6eb1d7e63aa510ec22752993b929c76554d749798
 docker: quay.io/biocontainers/odamnet
 aliases:
   odamnet: /usr/local/bin/odamnet

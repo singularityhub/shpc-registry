@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bart
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bart
 latest:
-  0.1.2--pyhdfd78af_0: sha256:dcffc51445b6c747f40fe0fc3b3aa8b5898f89b8060982531b2d0cc6a59f37c2
+  0.1.2--pyhdfd78af_0: 
+    sha256:dcffc51445b6c747f40fe0fc3b3aa8b5898f89b8060982531b2d0cc6a59f37c2
 tags:
-  0.1.2--pyhdfd78af_0: sha256:dcffc51445b6c747f40fe0fc3b3aa8b5898f89b8060982531b2d0cc6a59f37c2
+  0.1.2--pyhdfd78af_0: 
+    sha256:dcffc51445b6c747f40fe0fc3b3aa8b5898f89b8060982531b2d0cc6a59f37c2
 docker: quay.io/biocontainers/bart
 aliases:
   bart: /usr/local/bin/bart

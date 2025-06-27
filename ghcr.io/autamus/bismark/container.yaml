@@ -1,14 +1,18 @@
 docker: ghcr.io/autamus/bismark
 url: https://github.com/orgs/autamus/packages/container/package/bismark
 maintainer: '@vsoch'
-description: Bismark is a program to map bisulfite treated sequencing reads to a genome
-  of interest and perform methylation calls in a single step.
+description: Bismark is a program to map bisulfite treated sequencing reads to a
+  genome of interest and perform methylation calls in a single step.
 latest:
-  0.23.1: sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
+  0.23.1: 
+    sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
 tags:
-  0.23.0: sha256:297e5839757a5ae3d7f383fd8716c8dad44ce8653f63a85df238a12f85875bee
-  0.23.1: sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
-  latest: sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
+  0.23.0: 
+    sha256:297e5839757a5ae3d7f383fd8716c8dad44ce8653f63a85df238a12f85875bee
+  0.23.1: 
+    sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
+  latest: 
+    sha256:d195fa20066ac440c08ab4ee7df403039621625732f972347328a0d88e2b8690
 aliases:
   bismark: /opt/view/bin/bismark
   bismark_genome_preparation: /opt/view/bin/bismark_genome_preparation

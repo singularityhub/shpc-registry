@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dxua
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dxua
 latest:
-  1.5.31--0: sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887
+  1.5.31--0: 
+    sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887
 tags:
-  1.5.31--0: sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887
+  1.5.31--0: 
+    sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887
 docker: quay.io/biocontainers/dxua
 aliases:
   dxua: /usr/local/bin/dxua

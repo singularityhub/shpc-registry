@@ -2,25 +2,45 @@ url: https://biocontainers.pro/tools/phykit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phykit
 latest:
-  2.0.1--pyhdfd78af_0: sha256:decc681e85bbc1c7c6ae985c12bbbdcc6ccfb904c695bc55204531b2701c60cf
+  2.0.2--pyhdfd78af_0: 
+    sha256:165edbab6fdf0720b2b151b3698072a910a10dc270f9d6d2750bb0b8a29657ef
 tags:
-  1.11.7--pyhdfd78af_0: sha256:ffdcba2863564bc3fa85d40e5bbd18170b4066784078893ee0ed8a3dfb9cc0f1
-  1.11.14--pyhdfd78af_0: sha256:c340b1e0f9adf7025a8a50a1296dbb5d25b633d923160d05778730b7701e7f0f
-  1.11.15--pyhdfd78af_0: sha256:f35a6bd839b25a3b26d4c7ffcc21761f7de47a15602e8c2457c9f488beef0a30
-  1.12.0--pyhdfd78af_0: sha256:fd083496b38a1693bc1cc18f2c5a7a3356dc57d30a7bdd234824af0837603321
-  1.11.16--pyhdfd78af_0: sha256:fb573aadb7722981a74cd58ac86c41c7f3a4221678265dfb3806271c8fb502c4
-  1.12.5--pyhdfd78af_0: sha256:06aaece3fdada93b90defb631634819ef8a3af9fd30c5e3128c72d4c36621d35
-  1.13.1--pyhdfd78af_0: sha256:eddf16b7ff2c6ca233b8aca71c400f1a94fdf5506c081f7c976a11c603f478c1
-  1.19.0--pyhdfd78af_0: sha256:5ca1bc295c9fc5aa61acf024c89e07adbd55030b7205834bbe599d8f149b14be
-  1.17.0--pyhdfd78af_0: sha256:8a8fca8bb3d10b5b47bdcc7520e5b215ecb40049018b70fffd0e3a2d40310fdc
-  1.16.0--pyhdfd78af_0: sha256:e2a6ae0abade5205aefcddd6068c05b83ec97a8b579a48907ec7f53ceee616a9
-  1.14.0--pyhdfd78af_0: sha256:866eb29b4ff3a1d79c6ca8a7c0594bbc94f7af0415f94e2620dd285dfe403c82
-  1.19.2--pyhdfd78af_0: sha256:0c801018996b9e85c8f28d22d4bbf5acea631337a653443927f0e7a243dad7ef
-  1.19.4--pyhdfd78af_0: sha256:43b1dcdf323e2404a64b3f6d7788d424f2add82b65c0918cb19f5375b1333eaa
-  1.19.9--pyhdfd78af_0: sha256:ff31072dadaae81684abf56bfeea2cf6d1f2d2947faf08613998e232a68c6fee
-  1.20.0--pyhdfd78af_0: sha256:3921d7c64e8adca027be9ad1f97134f8da3720d8db68a2a66373d5f8a3be66f2
-  2.0.0--pyhdfd78af_0: sha256:47075c813d23e9bad6fc2160b0c717039e59c75f76e5cbed3973743b2b1e0e03
-  2.0.1--pyhdfd78af_0: sha256:decc681e85bbc1c7c6ae985c12bbbdcc6ccfb904c695bc55204531b2701c60cf
+  1.11.7--pyhdfd78af_0: 
+    sha256:ffdcba2863564bc3fa85d40e5bbd18170b4066784078893ee0ed8a3dfb9cc0f1
+  1.11.14--pyhdfd78af_0: 
+    sha256:c340b1e0f9adf7025a8a50a1296dbb5d25b633d923160d05778730b7701e7f0f
+  1.11.15--pyhdfd78af_0: 
+    sha256:f35a6bd839b25a3b26d4c7ffcc21761f7de47a15602e8c2457c9f488beef0a30
+  1.12.0--pyhdfd78af_0: 
+    sha256:fd083496b38a1693bc1cc18f2c5a7a3356dc57d30a7bdd234824af0837603321
+  1.11.16--pyhdfd78af_0: 
+    sha256:fb573aadb7722981a74cd58ac86c41c7f3a4221678265dfb3806271c8fb502c4
+  1.12.5--pyhdfd78af_0: 
+    sha256:06aaece3fdada93b90defb631634819ef8a3af9fd30c5e3128c72d4c36621d35
+  1.13.1--pyhdfd78af_0: 
+    sha256:eddf16b7ff2c6ca233b8aca71c400f1a94fdf5506c081f7c976a11c603f478c1
+  1.19.0--pyhdfd78af_0: 
+    sha256:5ca1bc295c9fc5aa61acf024c89e07adbd55030b7205834bbe599d8f149b14be
+  1.17.0--pyhdfd78af_0: 
+    sha256:8a8fca8bb3d10b5b47bdcc7520e5b215ecb40049018b70fffd0e3a2d40310fdc
+  1.16.0--pyhdfd78af_0: 
+    sha256:e2a6ae0abade5205aefcddd6068c05b83ec97a8b579a48907ec7f53ceee616a9
+  1.14.0--pyhdfd78af_0: 
+    sha256:866eb29b4ff3a1d79c6ca8a7c0594bbc94f7af0415f94e2620dd285dfe403c82
+  1.19.2--pyhdfd78af_0: 
+    sha256:0c801018996b9e85c8f28d22d4bbf5acea631337a653443927f0e7a243dad7ef
+  1.19.4--pyhdfd78af_0: 
+    sha256:43b1dcdf323e2404a64b3f6d7788d424f2add82b65c0918cb19f5375b1333eaa
+  1.19.9--pyhdfd78af_0: 
+    sha256:ff31072dadaae81684abf56bfeea2cf6d1f2d2947faf08613998e232a68c6fee
+  1.20.0--pyhdfd78af_0: 
+    sha256:3921d7c64e8adca027be9ad1f97134f8da3720d8db68a2a66373d5f8a3be66f2
+  2.0.0--pyhdfd78af_0: 
+    sha256:47075c813d23e9bad6fc2160b0c717039e59c75f76e5cbed3973743b2b1e0e03
+  2.0.1--pyhdfd78af_0: 
+    sha256:decc681e85bbc1c7c6ae985c12bbbdcc6ccfb904c695bc55204531b2701c60cf
+  2.0.2--pyhdfd78af_0: 
+    sha256:165edbab6fdf0720b2b151b3698072a910a10dc270f9d6d2750bb0b8a29657ef
 docker: quay.io/biocontainers/phykit
 aliases:
   phykit: /usr/local/bin/phykit
@@ -40,12 +60,14 @@ aliases:
   pk_collapse: /usr/local/bin/pk_collapse
   pk_collapse_branches: /usr/local/bin/pk_collapse_branches
   pk_column_score: /usr/local/bin/pk_column_score
-  pk_covarying_evolutionary_rates: /usr/local/bin/pk_covarying_evolutionary_rates
+  pk_covarying_evolutionary_rates: 
+    /usr/local/bin/pk_covarying_evolutionary_rates
   pk_cover: /usr/local/bin/pk_cover
   pk_create_concat: /usr/local/bin/pk_create_concat
   pk_create_concatenation_matrix: /usr/local/bin/pk_create_concatenation_matrix
   pk_cs: /usr/local/bin/pk_cs
-  pk_degree_of_violation_of_a_molecular_clock: /usr/local/bin/pk_degree_of_violation_of_a_molecular_clock
+  pk_degree_of_violation_of_a_molecular_clock: 
+    /usr/local/bin/pk_degree_of_violation_of_a_molecular_clock
   pk_dvmc: /usr/local/bin/pk_dvmc
   pk_evo_rate: /usr/local/bin/pk_evo_rate
   pk_evolutionary_rate: /usr/local/bin/pk_evolutionary_rate
@@ -61,13 +83,15 @@ aliases:
   pk_internode_labeler: /usr/local/bin/pk_internode_labeler
   pk_is_monophyletic: /usr/local/bin/pk_is_monophyletic
   pk_labels: /usr/local/bin/pk_labels
-  pk_last_common_ancestor_subtree: /usr/local/bin/pk_last_common_ancestor_subtree
+  pk_last_common_ancestor_subtree: 
+    /usr/local/bin/pk_last_common_ancestor_subtree
   pk_lb_score: /usr/local/bin/pk_lb_score
   pk_lbs: /usr/local/bin/pk_lbs
   pk_lca_subtree: /usr/local/bin/pk_lca_subtree
   pk_long_branch_score: /usr/local/bin/pk_long_branch_score
   pk_monophyly_check: /usr/local/bin/pk_monophyly_check
-  pk_nearest_neighbor_interchange: /usr/local/bin/pk_nearest_neighbor_interchange
+  pk_nearest_neighbor_interchange: 
+    /usr/local/bin/pk_nearest_neighbor_interchange
   pk_nni: /usr/local/bin/pk_nni
   pk_p2n: /usr/local/bin/pk_p2n
   pk_pairwise_id: /usr/local/bin/pk_pairwise_id
@@ -89,7 +113,8 @@ aliases:
   pk_ptt: /usr/local/bin/pk_ptt
   pk_rcv: /usr/local/bin/pk_rcv
   pk_rel_comp_var: /usr/local/bin/pk_rel_comp_var
-  pk_relative_composition_variability: /usr/local/bin/pk_relative_composition_variability
+  pk_relative_composition_variability: 
+    /usr/local/bin/pk_relative_composition_variability
   pk_rename_fasta: /usr/local/bin/pk_rename_fasta
   pk_rename_fasta_entries: /usr/local/bin/pk_rename_fasta_entries
   pk_rename_tips: /usr/local/bin/pk_rename_tips

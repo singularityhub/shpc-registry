@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dirseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dirseq
 latest:
-  0.4.3--hdfd78af_0: sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
+  0.4.3--hdfd78af_0: 
+    sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
 tags:
-  0.4.3--hdfd78af_0: sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
+  0.4.3--hdfd78af_0: 
+    sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
 docker: quay.io/biocontainers/dirseq
 aliases:
   bioruby: /usr/local/bin/bioruby

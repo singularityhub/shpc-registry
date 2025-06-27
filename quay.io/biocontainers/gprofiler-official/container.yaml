@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/gprofiler-official
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for gprofiler-official
+description: shpc-registry automated BioContainers addition for 
+  gprofiler-official
 latest:
-  1.0.0--pyh7e72e81_1: sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683
+  1.0.0--pyh7e72e81_1: 
+    sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683
 tags:
-  1.0.0--py_0: sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5
-  1.0.0--pyh7e72e81_1: sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683
+  1.0.0--py_0: 
+    sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5
+  1.0.0--pyh7e72e81_1: 
+    sha256:a34c29d3b1c91c3f9f0aa0603d5c65eb2e475aec1574a930bb093e8873b59683
 docker: quay.io/biocontainers/gprofiler-official
 aliases:
   chardetect: /usr/local/bin/chardetect

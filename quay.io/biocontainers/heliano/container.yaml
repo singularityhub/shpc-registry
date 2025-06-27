@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/heliano
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for heliano
 latest:
-  1.2.1--hdfd78af_0: sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d
+  1.3.1--hdfd78af_0: 
+    sha256:538cdc8d2e9decbec4ffd46892fad018263713d6cfe40bf8987f1a15620abab9
 tags:
-  1.2.1--hdfd78af_0: sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d
+  1.2.1--hdfd78af_0: 
+    sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d
+  1.3.1--hdfd78af_0: 
+    sha256:538cdc8d2e9decbec4ffd46892fad018263713d6cfe40bf8987f1a15620abab9
 docker: quay.io/biocontainers/heliano
 aliases:
   dialign2-2: /usr/local/bin/dialign2-2

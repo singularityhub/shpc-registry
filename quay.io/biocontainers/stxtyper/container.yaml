@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/stxtyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for stxtyper
 latest:
-  1.0.25--hdcf5f25_0: sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
+  1.0.25--hdcf5f25_0: 
+    sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
 tags:
-  1.0.25--hdcf5f25_0: sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
+  1.0.25--hdcf5f25_0: 
+    sha256:92303029a74ee3acde78cdd73a71950e719cccdb29d4cf39746ba733cb5e339e
 docker: quay.io/biocontainers/stxtyper
 aliases:
   fasta_extract: /usr/local/bin/fasta_extract

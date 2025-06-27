@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mgltools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mgltools
 latest:
-  1.5.7--h9ee0642_1: sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
+  1.5.7--h9ee0642_1: 
+    sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
 tags:
-  1.5.7--h9ee0642_1: sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
+  1.5.7--h9ee0642_1: 
+    sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
 docker: quay.io/biocontainers/mgltools
 aliases:
   adt: /usr/local/bin/adt

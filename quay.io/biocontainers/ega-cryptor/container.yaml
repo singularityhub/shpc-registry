@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ega-cryptor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ega-cryptor
 latest:
-  2.0.0--hdfd78af_0: sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
+  2.0.0--hdfd78af_0: 
+    sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
 tags:
-  2.0.0--hdfd78af_0: sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
+  2.0.0--hdfd78af_0: 
+    sha256:b5ea7c9602f597f7ce929cb0ea288ec466e9139117a9282b3580c6fb554f83c9
 docker: quay.io/biocontainers/ega-cryptor
 aliases:
   ega-cryptor: /usr/local/bin/ega-cryptor

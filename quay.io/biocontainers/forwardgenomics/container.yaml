@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/forwardgenomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for forwardgenomics
 latest:
-  1.0--hdfd78af_0: sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
+  1.0--hdfd78af_0: 
+    sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
 tags:
-  1.0--hdfd78af_0: sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
+  1.0--hdfd78af_0: 
+    sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
 docker: quay.io/biocontainers/forwardgenomics
 aliases:
   all_dists: /usr/local/bin/all_dists
@@ -22,9 +24,12 @@ aliases:
   f2py3.11: /usr/local/bin/f2py3.11
   forwardGenomics.R: /usr/local/bin/forwardGenomics.R
   forwardGenomics_fullAnalysis.R: /usr/local/bin/forwardGenomics_fullAnalysis.R
-  forwardGenomics_globalAnalysis.R: /usr/local/bin/forwardGenomics_globalAnalysis.R
-  forwardGenomics_initialization.R: /usr/local/bin/forwardGenomics_initialization.R
-  forwardGenomics_localAnalysis.R: /usr/local/bin/forwardGenomics_localAnalysis.R
+  forwardGenomics_globalAnalysis.R: 
+    /usr/local/bin/forwardGenomics_globalAnalysis.R
+  forwardGenomics_initialization.R: 
+    /usr/local/bin/forwardGenomics_initialization.R
+  forwardGenomics_localAnalysis.R: 
+    /usr/local/bin/forwardGenomics_localAnalysis.R
   hmm_train: /usr/local/bin/hmm_train
   hmm_tweak: /usr/local/bin/hmm_tweak
   hmm_view: /usr/local/bin/hmm_view

@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/bcftools-liftover-plugin
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bcftools-liftover-plugin
+description: singularity registry hpc automated addition for 
+  bcftools-liftover-plugin
 latest:
-  1.21--hb66fcc3_0: sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd
+  1.22--hb66fcc3_0: 
+    sha256:554db4ef4a5d2a498c0fe0d2595c25488e5675d94e9f0e1663d2f97396b3ce36
 tags:
-  1.21--hb66fcc3_0: sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd
+  1.21--hb66fcc3_0: 
+    sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd
+  1.22--hb66fcc3_0: 
+    sha256:554db4ef4a5d2a498c0fe0d2595c25488e5675d94e9f0e1663d2f97396b3ce36
 docker: quay.io/biocontainers/bcftools-liftover-plugin
 aliases:
   gff2gff.py: /usr/local/bin/gff2gff.py

@@ -1,22 +1,37 @@
 url: https://biocontainers.pro/tools/openms-thirdparty
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for openms-thirdparty
+description: shpc-registry automated BioContainers addition for 
+  openms-thirdparty
 latest:
-  3.4.1--h9ee0642_0: sha256:feb3ebb68c0f92aadd5d4350cded1bb644dd176876513a52b237ad39757020a4
+  3.4.1--h9ee0642_0: 
+    sha256:feb3ebb68c0f92aadd5d4350cded1bb644dd176876513a52b237ad39757020a4
 tags:
-  2.8.0--h9ee0642_3: sha256:4c909e5c1288c6210436bf61757f4c956158d5ff68c427f9becc821aba57a699
-  2.8.0--h9ee0642_4: sha256:b6be6724591801021d3a1910b37b0f92a6a349756b77de865ad1bfdb68944147
-  2.9.1--h9ee0642_1: sha256:955c89076f5d70aa6e4276db79fe85e41f86cf015b465f579da75928fdff07d6
-  3.0.0--h9ee0642_0: sha256:1f0a14cfe700004182d567a583e7b05e59d5ca3b1df73be747815a91160d91f0
-  2.9.1--h9ee0642_4: sha256:bb1d90fb9799651ccda21f5068ed9ca0969b0215a8974bff36cfdf834da1f153
-  3.0.0--h9ee0642_1: sha256:ed4395c7e8cf60ea5b601a63be3f02155489e32a97581e2a8babc3cd4924d6ad
-  3.1.0--h9ee0642_2: sha256:ec10d33288f52085ad8177071f742551ae0319f330cd47036b66707c775aa9de
-  3.1.0--h9ee0642_3: sha256:e42fe1813b211034338dc10b8851e4af662938c6156d9914646d0dde3568ee18
-  3.1.0--h9ee0642_4: sha256:10690e33488ac340dc24094c13ea4b8692372da4ddc7b329bdf5d04883e4327b
-  3.2.0--h9ee0642_4: sha256:2547af4ad3d36de7de7658dde46a7dd1f761d3ad642cd23eb5736d72e673891c
-  3.2.0--h9ee0642_5: sha256:4068b79e2f684dbe2a3055e38192d0bea069540ac58ba5d6bb712b8e715bc3de
-  3.3.0--h9ee0642_8: sha256:3f02df234f3cd0e6f917cbd4ece8e4fe083dae7f55a9cca0c9a4331b4aac52c1
-  3.4.1--h9ee0642_0: sha256:feb3ebb68c0f92aadd5d4350cded1bb644dd176876513a52b237ad39757020a4
+  2.8.0--h9ee0642_3: 
+    sha256:4c909e5c1288c6210436bf61757f4c956158d5ff68c427f9becc821aba57a699
+  2.8.0--h9ee0642_4: 
+    sha256:b6be6724591801021d3a1910b37b0f92a6a349756b77de865ad1bfdb68944147
+  2.9.1--h9ee0642_1: 
+    sha256:955c89076f5d70aa6e4276db79fe85e41f86cf015b465f579da75928fdff07d6
+  3.0.0--h9ee0642_0: 
+    sha256:1f0a14cfe700004182d567a583e7b05e59d5ca3b1df73be747815a91160d91f0
+  2.9.1--h9ee0642_4: 
+    sha256:bb1d90fb9799651ccda21f5068ed9ca0969b0215a8974bff36cfdf834da1f153
+  3.0.0--h9ee0642_1: 
+    sha256:ed4395c7e8cf60ea5b601a63be3f02155489e32a97581e2a8babc3cd4924d6ad
+  3.1.0--h9ee0642_2: 
+    sha256:ec10d33288f52085ad8177071f742551ae0319f330cd47036b66707c775aa9de
+  3.1.0--h9ee0642_3: 
+    sha256:e42fe1813b211034338dc10b8851e4af662938c6156d9914646d0dde3568ee18
+  3.1.0--h9ee0642_4: 
+    sha256:10690e33488ac340dc24094c13ea4b8692372da4ddc7b329bdf5d04883e4327b
+  3.2.0--h9ee0642_4: 
+    sha256:2547af4ad3d36de7de7658dde46a7dd1f761d3ad642cd23eb5736d72e673891c
+  3.2.0--h9ee0642_5: 
+    sha256:4068b79e2f684dbe2a3055e38192d0bea069540ac58ba5d6bb712b8e715bc3de
+  3.3.0--h9ee0642_8: 
+    sha256:3f02df234f3cd0e6f917cbd4ece8e4fe083dae7f55a9cca0c9a4331b4aac52c1
+  3.4.1--h9ee0642_0: 
+    sha256:feb3ebb68c0f92aadd5d4350cded1bb644dd176876513a52b237ad39757020a4
 docker: quay.io/biocontainers/openms-thirdparty
 aliases:
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch
@@ -182,7 +197,8 @@ aliases:
   SpectraMerger: /usr/local/bin/SpectraMerger
   SpectraSTSearchAdapter: /usr/local/bin/SpectraSTSearchAdapter
   StaticModification: /usr/local/bin/StaticModification
-  SvmTheoreticalSpectrumGeneratorTrainer: /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
+  SvmTheoreticalSpectrumGeneratorTrainer: 
+    /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
   TICCalculator: /usr/local/bin/TICCalculator
   TOFCalibration: /usr/local/bin/TOFCalibration
   TargetedFileConverter: /usr/local/bin/TargetedFileConverter
