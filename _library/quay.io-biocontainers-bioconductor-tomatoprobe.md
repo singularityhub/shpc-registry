@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tomatoprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomatoprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomatoprobe/container.yaml"
-updated_at: "2025-06-27 03:44:34.101166"
+updated_at: "2025-06-28 03:40:00.013094"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomatoprobe"
 

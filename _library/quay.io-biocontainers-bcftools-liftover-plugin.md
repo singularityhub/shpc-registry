@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bcftools-liftover-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools-liftover-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools-liftover-plugin/container.yaml"
-updated_at: "2025-06-27 03:51:25.674974"
-latest: "1.21--hb66fcc3_0"
+updated_at: "2025-06-28 03:47:01.483288"
+latest: "1.22--hb66fcc3_0"
 container_url: "https://biocontainers.pro/tools/bcftools-liftover-plugin"
 aliases:
  - "gff2gff.py"
@@ -22,8 +22,9 @@ aliases:
  - "tabix"
 versions:
  - "1.21--hb66fcc3_0"
+ - "1.22--hb66fcc3_0"
 description: "singularity registry hpc automated addition for bcftools-liftover-plugin"
-config: {"url": "https://biocontainers.pro/tools/bcftools-liftover-plugin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bcftools-liftover-plugin", "latest": {"1.21--hb66fcc3_0": "sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd"}, "tags": {"1.21--hb66fcc3_0": "sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd"}, "docker": "quay.io/biocontainers/bcftools-liftover-plugin", "aliases": {"gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bcftools-liftover-plugin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bcftools-liftover-plugin", "latest": {"1.22--hb66fcc3_0": "sha256:554db4ef4a5d2a498c0fe0d2595c25488e5675d94e9f0e1663d2f97396b3ce36"}, "tags": {"1.21--hb66fcc3_0": "sha256:3463e6c3c37c3d97d76731adcffd25c41a67aadde8dfb16aae40bdf3e6d4b1dd", "1.22--hb66fcc3_0": "sha256:554db4ef4a5d2a498c0fe0d2595c25488e5675d94e9f0e1663d2f97396b3ce36"}, "docker": "quay.io/biocontainers/bcftools-liftover-plugin", "aliases": {"gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcftools-liftover-plugin.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bcftools-liftover-plugin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bcftools-liftover-plugin:1.21--hb66fcc3_0
+$ shpc install quay.io/biocontainers/bcftools-liftover-plugin:1.22--hb66fcc3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bcftools-liftover-plugin/1.21--hb66fcc3_0
-$ module help quay.io/biocontainers/bcftools-liftover-plugin/1.21--hb66fcc3_0
+$ module load quay.io/biocontainers/bcftools-liftover-plugin/1.22--hb66fcc3_0
+$ module help quay.io/biocontainers/bcftools-liftover-plugin/1.22--hb66fcc3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

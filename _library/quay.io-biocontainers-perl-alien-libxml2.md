@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-alien-libxml2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-alien-libxml2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-alien-libxml2/container.yaml"
-updated_at: "2025-06-27 03:26:17.439945"
-latest: "0.17--pl5321h577a1d6_1"
+updated_at: "2025-06-28 03:21:02.611055"
+latest: "0.20--pl5321hd2ab53c_0"
 container_url: "https://biocontainers.pro/tools/perl-alien-libxml2"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.17--pl5321hec16e2b_0"
  - "0.17--pl5321h577a1d6_1"
+ - "0.20--pl5321hd2ab53c_0"
 description: "singularity registry hpc automated addition for perl-alien-libxml2"
-config: {"url": "https://biocontainers.pro/tools/perl-alien-libxml2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-alien-libxml2", "latest": {"0.17--pl5321h577a1d6_1": "sha256:1299cbc836e5762319d91797994a0c5a2dc6eb892b26bcc13c84c4459bebea28"}, "tags": {"0.17--pl5321hec16e2b_0": "sha256:0eb2ce58b6d12cfc45c3a10b4bfae1e5922463984e461e0844db8e79d3f9a963", "0.17--pl5321h577a1d6_1": "sha256:1299cbc836e5762319d91797994a0c5a2dc6eb892b26bcc13c84c4459bebea28"}, "docker": "quay.io/biocontainers/perl-alien-libxml2", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-alien-libxml2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-alien-libxml2", "latest": {"0.20--pl5321hd2ab53c_0": "sha256:e0669188f7698deef95d97e401770ddcbeb848ea56f864a37396ca0d991b5a59"}, "tags": {"0.17--pl5321hec16e2b_0": "sha256:0eb2ce58b6d12cfc45c3a10b4bfae1e5922463984e461e0844db8e79d3f9a963", "0.17--pl5321h577a1d6_1": "sha256:1299cbc836e5762319d91797994a0c5a2dc6eb892b26bcc13c84c4459bebea28", "0.20--pl5321hd2ab53c_0": "sha256:e0669188f7698deef95d97e401770ddcbeb848ea56f864a37396ca0d991b5a59"}, "docker": "quay.io/biocontainers/perl-alien-libxml2", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-alien-libxml2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-alien-libxml2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-alien-libxml2:0.17--pl5321h577a1d6_1
+$ shpc install quay.io/biocontainers/perl-alien-libxml2:0.20--pl5321hd2ab53c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-alien-libxml2/0.17--pl5321h577a1d6_1
-$ module help quay.io/biocontainers/perl-alien-libxml2/0.17--pl5321h577a1d6_1
+$ module load quay.io/biocontainers/perl-alien-libxml2/0.20--pl5321hd2ab53c_0
+$ module help quay.io/biocontainers/perl-alien-libxml2/0.20--pl5321hd2ab53c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

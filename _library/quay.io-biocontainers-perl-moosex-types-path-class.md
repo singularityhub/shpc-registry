@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-types-path-class"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types-path-class/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types-path-class/container.yaml"
-updated_at: "2025-06-27 03:31:04.706226"
+updated_at: "2025-06-28 03:25:59.495398"
 latest: "0.09--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types-path-class"
 aliases:

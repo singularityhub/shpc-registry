@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-archive-tar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
-updated_at: "2025-06-27 03:56:19.374043"
-latest: "2.40--pl5321hdfd78af_0"
+updated_at: "2025-06-28 03:52:03.110453"
+latest: "3.04--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-tar"
 
 versions:
  - "2.40--pl5321hdfd78af_0"
+ - "3.04--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-archive-tar"
-config: {"url": "https://biocontainers.pro/tools/perl-archive-tar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar", "latest": {"2.40--pl5321hdfd78af_0": "sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff"}, "tags": {"2.40--pl5321hdfd78af_0": "sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff"}, "docker": "quay.io/biocontainers/perl-archive-tar"}
+config: {"url": "https://biocontainers.pro/tools/perl-archive-tar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar", "latest": {"3.04--pl5321hdfd78af_0": "sha256:1a80f4ed4c7f3a0f64a58ed45b483c6754057142e34e5e77a4fd6b8dc4aadc94"}, "tags": {"2.40--pl5321hdfd78af_0": "sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff", "3.04--pl5321hdfd78af_0": "sha256:1a80f4ed4c7f3a0f64a58ed45b483c6754057142e34e5e77a4fd6b8dc4aadc94"}, "docker": "quay.io/biocontainers/perl-archive-tar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-archive-tar.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-archive-tar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-archive-tar:2.40--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-archive-tar:3.04--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-archive-tar/2.40--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-archive-tar/2.40--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-archive-tar/3.04--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-archive-tar/3.04--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
