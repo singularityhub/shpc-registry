@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/banner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for banner
 latest:
-  0.0.2--py_0: sha256:7eca270d000bd194ff5a95f3831e38f9f5b8f5a799da26f9ee67059f1ebae41f
+  0.0.2--py_0: 
+    sha256:7eca270d000bd194ff5a95f3831e38f9f5b8f5a799da26f9ee67059f1ebae41f
 tags:
-  0.0.2--py_0: sha256:7eca270d000bd194ff5a95f3831e38f9f5b8f5a799da26f9ee67059f1ebae41f
+  0.0.2--py_0: 
+    sha256:7eca270d000bd194ff5a95f3831e38f9f5b8f5a799da26f9ee67059f1ebae41f
 docker: quay.io/biocontainers/banner
 aliases:
   banner: /usr/local/bin/banner

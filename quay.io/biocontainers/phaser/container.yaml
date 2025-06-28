@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phaser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phaser
 latest:
-  0.1.1ad5f89--py27pl5321h9f5acd7_0: sha256:27c691d5e7a7a2f1114ebbf3cfe8dc92d7d6a9a6c921d506ad80d7f486f33615
+  0.1.1ad5f89--py27pl5321h9f5acd7_0: 
+    sha256:27c691d5e7a7a2f1114ebbf3cfe8dc92d7d6a9a6c921d506ad80d7f486f33615
 tags:
-  0.1.1ad5f89--py27pl5321h9f5acd7_0: sha256:27c691d5e7a7a2f1114ebbf3cfe8dc92d7d6a9a6c921d506ad80d7f486f33615
+  0.1.1ad5f89--py27pl5321h9f5acd7_0: 
+    sha256:27c691d5e7a7a2f1114ebbf3cfe8dc92d7d6a9a6c921d506ad80d7f486f33615
 docker: quay.io/biocontainers/phaser
 aliases:
   phaser.py: /usr/local/bin/phaser.py

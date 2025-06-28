@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-tidyspatialexperiment
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-tidyspatialexperiment
+description: singularity registry hpc automated addition for 
+  bioconductor-tidyspatialexperiment
 latest:
-  1.2.0--r44hdfd78af_0: sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
+  1.2.0--r44hdfd78af_0: 
+    sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
 tags:
-  1.2.0--r44hdfd78af_0: sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
+  1.2.0--r44hdfd78af_0: 
+    sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
 docker: quay.io/biocontainers/bioconductor-tidyspatialexperiment
 aliases:
   dec265: /usr/local/bin/dec265
@@ -21,7 +24,8 @@ aliases:
   pydoc3.13: /usr/local/bin/pydoc3.13
   python3.13: /usr/local/bin/python3.13
   python3.13-config: /usr/local/bin/python3.13-config
-  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config

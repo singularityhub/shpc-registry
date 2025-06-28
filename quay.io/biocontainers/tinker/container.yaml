@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tinker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tinker
 latest:
-  8.11.3--h8d36177_0: sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
+  8.11.3--h8d36177_0: 
+    sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
 tags:
-  8.11.3--h8d36177_0: sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
+  8.11.3--h8d36177_0: 
+    sha256:de7cef5f4c523818056246abce919d8c6b5f8a1ded48c2c2b03e847a5e4ad38f
 docker: quay.io/biocontainers/tinker
 aliases:
   alchemy: /usr/local/bin/alchemy

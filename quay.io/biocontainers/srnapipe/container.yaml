@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/srnapipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for srnapipe
 latest:
-  1.2--pl5321r41hdfd78af_0: sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9
+  1.2.1--pl5321r44hdfd78af_0: 
+    sha256:dac75e6cc4a5db08b5abf1b41aa0f5abf201443074568b1ed75fab3f86c26dfb
 tags:
-  1.2--pl5321r41hdfd78af_0: sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9
+  1.2--pl5321r41hdfd78af_0: 
+    sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9
+  1.2.1--pl5321r44hdfd78af_0: 
+    sha256:dac75e6cc4a5db08b5abf1b41aa0f5abf201443074568b1ed75fab3f86c26dfb
 docker: quay.io/biocontainers/srnapipe
 aliases:
   srnapipe: /usr/local/bin/srnapipe

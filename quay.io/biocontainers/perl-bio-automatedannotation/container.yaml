@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/perl-bio-automatedannotation
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-bio-automatedannotation
+description: shpc-registry automated BioContainers addition for 
+  perl-bio-automatedannotation
 latest:
-  2021.01.04.08.19.58.619--pl5321hdfd78af_0: sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe
+  2023.03.14.16.40.01.685--pl5321hdfd78af_0: 
+    sha256:b4f6418595eeb162fe183f9c14517002ea4d314213828e82498057188f4acbeb
 tags:
-  2021.01.04.08.19.58.619--pl5321hdfd78af_0: sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe
+  2021.01.04.08.19.58.619--pl5321hdfd78af_0: 
+    sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe
+  2023.03.14.16.40.01.685--pl5321hdfd78af_0: 
+    sha256:b4f6418595eeb162fe183f9c14517002ea4d314213828e82498057188f4acbeb
 docker: quay.io/biocontainers/perl-bio-automatedannotation
 aliases:
   annotate_bacteria: /usr/local/bin/annotate_bacteria

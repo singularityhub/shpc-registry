@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/oncotator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oncotator
 latest:
-  1.9.9.0--py27h516909a_2: sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1
+  1.9.9.0--py27h516909a_2: 
+    sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1
 tags:
-  1.9.9.0--py27h516909a_2: sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1
+  1.9.9.0--py27h516909a_2: 
+    sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1
 docker: quay.io/biocontainers/oncotator
 aliases:
   Oncotator: /usr/local/bin/Oncotator
@@ -13,7 +15,8 @@ aliases:
   initializeDatasource: /usr/local/bin/initializeDatasource
   initializeTranscriptDatasource: /usr/local/bin/initializeTranscriptDatasource
   oncotator: /usr/local/bin/oncotator
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

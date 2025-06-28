@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/vcf2maf-umccr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcf2maf-umccr
 latest:
-  1.6.21.20230511--hdfd78af_0: sha256:37aff48e7147e12f1a0196f757145874b2d50557633540da7cd1cd7147baca11
+  1.6.21.20230511--hdfd78af_0: 
+    sha256:37aff48e7147e12f1a0196f757145874b2d50557633540da7cd1cd7147baca11
 tags:
-  1.6.21.20230511--hdfd78af_0: sha256:37aff48e7147e12f1a0196f757145874b2d50557633540da7cd1cd7147baca11
+  1.6.21.20230511--hdfd78af_0: 
+    sha256:37aff48e7147e12f1a0196f757145874b2d50557633540da7cd1cd7147baca11
 docker: quay.io/biocontainers/vcf2maf-umccr
 aliases:
   maf2maf.pl: /usr/local/bin/maf2maf.pl

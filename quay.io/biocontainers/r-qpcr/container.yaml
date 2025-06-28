@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/r-qpcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-qpcr
 latest:
-  1.4_1--r36hcdcec82_1: sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41
+  1.4_1--r36hcdcec82_1: 
+    sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41
 tags:
-  1.4_1--r36hcdcec82_1: sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41
+  1.4_1--r36hcdcec82_1: 
+    sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41
 docker: quay.io/biocontainers/r-qpcr

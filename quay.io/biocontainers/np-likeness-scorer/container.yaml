@@ -1,12 +1,17 @@
 url: https://biocontainers.pro/tools/np-likeness-scorer
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for np-likeness-scorer
+description: shpc-registry automated BioContainers addition for 
+  np-likeness-scorer
 latest:
-  2.1--py35_0: sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f
+  2.1--py35_0: 
+    sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f
 tags:
-  2.1--py35_0: sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f
-  2.1--py36_0: sha256:58209cdfbdc821d90a23974751e9a9642514ce8cba2a041a9696e4e027e19210
-  2.1--py27_0: sha256:855a046d35c2196ef9e05859556e2d80e2b5bf1a9b7c1b462c28638b6ef9d0ea
+  2.1--py35_0: 
+    sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f
+  2.1--py36_0: 
+    sha256:58209cdfbdc821d90a23974751e9a9642514ce8cba2a041a9696e4e027e19210
+  2.1--py27_0: 
+    sha256:855a046d35c2196ef9e05859556e2d80e2b5bf1a9b7c1b462c28638b6ef9d0ea
 docker: quay.io/biocontainers/np-likeness-scorer
 aliases:
   np-likeness: /usr/local/bin/np-likeness

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioexcel_seqqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioexcel_seqqc
 latest:
-  0.6--py_0: sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc
+  0.6--py_0: 
+    sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc
 tags:
-  0.6--py_0: sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc
+  0.6--py_0: 
+    sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc
 docker: quay.io/biocontainers/bioexcel_seqqc
 aliases:
   bxcl_seqqc: /usr/local/bin/bxcl_seqqc

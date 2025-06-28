@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/biobb_wf_mutations
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for biobb_wf_mutations
+description: shpc-registry automated BioContainers addition for 
+  biobb_wf_mutations
 latest:
-  0.0.6--py_0: sha256:1ba4802bea11a7c4814b999a69d796fe6cf701fc2bb6176ba905440e7f004d10
+  0.0.6--py_0: 
+    sha256:1ba4802bea11a7c4814b999a69d796fe6cf701fc2bb6176ba905440e7f004d10
 tags:
-  0.0.6--py_0: sha256:1ba4802bea11a7c4814b999a69d796fe6cf701fc2bb6176ba905440e7f004d10
+  0.0.6--py_0: 
+    sha256:1ba4802bea11a7c4814b999a69d796fe6cf701fc2bb6176ba905440e7f004d10
 docker: quay.io/biocontainers/biobb_wf_mutations
 aliases:
   GMXRC: /usr/local/bin/GMXRC

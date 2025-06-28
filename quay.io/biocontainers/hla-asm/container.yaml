@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hla-asm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hla-asm
 latest:
-  1.0.1--pl5321hdfd78af_0: sha256:567cf55c0ca7d834508c8b4646eed8083b78290fcd06972828b32dfd77f01863
+  1.0.1--pl5321hdfd78af_0: 
+    sha256:567cf55c0ca7d834508c8b4646eed8083b78290fcd06972828b32dfd77f01863
 tags:
-  1.0.1--pl5321hdfd78af_0: sha256:567cf55c0ca7d834508c8b4646eed8083b78290fcd06972828b32dfd77f01863
+  1.0.1--pl5321hdfd78af_0: 
+    sha256:567cf55c0ca7d834508c8b4646eed8083b78290fcd06972828b32dfd77f01863
 docker: quay.io/biocontainers/hla-asm
 aliases:
   HLA-ASM.pl: /usr/local/bin/HLA-ASM.pl

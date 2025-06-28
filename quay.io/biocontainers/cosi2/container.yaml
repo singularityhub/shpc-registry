@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/cosi2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cosi2
 latest:
-  2.3.0rc4--py27h2d50403_1: sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376
+  2.3.0rc4--py27h2d50403_1: 
+    sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376
 tags:
-  2.3.0rc4--py27h2d50403_1: sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376
-  2.3.0rc4--py36h2d50403_1: sha256:8c777997517d925dc4c6ebcd766f72e89c912bd9eda416d1886a3f440818d982
+  2.3.0rc4--py27h2d50403_1: 
+    sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376
+  2.3.0rc4--py36h2d50403_1: 
+    sha256:8c777997517d925dc4c6ebcd766f72e89c912bd9eda416d1886a3f440818d982
 docker: quay.io/biocontainers/cosi2
 aliases:
   coalescent: /usr/local/bin/coalescent

@@ -1,11 +1,16 @@
-url: https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.grch38
+url: 
+  https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.grch38
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 latest:
-  3.10.0--r40_1: sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b
+  3.10.0--r40_1: 
+    sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b
 tags:
-  3.7.0--r36_3: sha256:9cd2dde7535ea11e1e10d02546318185aaa9410793f2d3c1c95956198071b2f1
-  3.10.0--r40_1: sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b
+  3.7.0--r36_3: 
+    sha256:9cd2dde7535ea11e1e10d02546318185aaa9410793f2d3c1c95956198071b2f1
+  3.10.0--r40_1: 
+    sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b
 docker: quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

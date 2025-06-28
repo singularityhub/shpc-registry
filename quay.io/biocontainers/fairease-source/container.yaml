@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/fairease-source
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fairease-source
 latest:
-  1.4.4--pyhdfd78af_0: sha256:6741d7892c13589ebc2b79d60e44bc83525f2a66010fbc3917654dc7b04da9c5
+  1.4.4--pyhdfd78af_0: 
+    sha256:6741d7892c13589ebc2b79d60e44bc83525f2a66010fbc3917654dc7b04da9c5
 tags:
-  1.4.1--pyh7cba7a3_0: sha256:3c393d22f743433735142e70fff80a061ca107913da2bdf14f2c20f4dee1af87
-  1.4.4--pyhdfd78af_0: sha256:6741d7892c13589ebc2b79d60e44bc83525f2a66010fbc3917654dc7b04da9c5
+  1.4.1--pyh7cba7a3_0: 
+    sha256:3c393d22f743433735142e70fff80a061ca107913da2bdf14f2c20f4dee1af87
+  1.4.4--pyhdfd78af_0: 
+    sha256:6741d7892c13589ebc2b79d60e44bc83525f2a66010fbc3917654dc7b04da9c5
 docker: quay.io/biocontainers/fairease-source
 aliases:
   create_probes_earth_map.py: /usr/local/bin/create_probes_earth_map.py
@@ -18,7 +21,8 @@ aliases:
   insitu_evaluation.py: /usr/local/bin/insitu_evaluation.py
   insitu_tac_platforms_finder.py: /usr/local/bin/insitu_tac_platforms_finder.py
   insitu_tac_pre_processing.py: /usr/local/bin/insitu_tac_pre_processing.py
-  insitu_tac_timeseries_extractor.py: /usr/local/bin/insitu_tac_timeseries_extractor.py
+  insitu_tac_timeseries_extractor.py: 
+    /usr/local/bin/insitu_tac_timeseries_extractor.py
   kml2pykml: /usr/local/bin/kml2pykml
   mean_variance_nc_variable.py: /usr/local/bin/mean_variance_nc_variable.py
   metadata_merger.py: /usr/local/bin/metadata_merger.py
@@ -28,7 +32,8 @@ aliases:
   nc4tonc3: /usr/local/bin/nc4tonc3
   ncinfo: /usr/local/bin/ncinfo
   obs_postpro.py: /usr/local/bin/obs_postpro.py
-  pointwise_datasets_concatenator.py: /usr/local/bin/pointwise_datasets_concatenator.py
+  pointwise_datasets_concatenator.py: 
+    /usr/local/bin/pointwise_datasets_concatenator.py
   ptmp_to_temp.py: /usr/local/bin/ptmp_to_temp.py
   quality_check_applier.py: /usr/local/bin/quality_check_applier.py
   real_time_concatenator.py: /usr/local/bin/real_time_concatenator.py

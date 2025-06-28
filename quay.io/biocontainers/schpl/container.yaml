@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/schpl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for schpl
 latest:
-  1.0.5--pyhdfd78af_0: sha256:699ebddaf96ab45040cfb781ef935857beb5a8a0bd0f4e53dda6e0e8b38b375a
+  1.0.5--pyhdfd78af_0: 
+    sha256:699ebddaf96ab45040cfb781ef935857beb5a8a0bd0f4e53dda6e0e8b38b375a
 tags:
-  1.0.5--pyhdfd78af_0: sha256:699ebddaf96ab45040cfb781ef935857beb5a8a0bd0f4e53dda6e0e8b38b375a
+  1.0.5--pyhdfd78af_0: 
+    sha256:699ebddaf96ab45040cfb781ef935857beb5a8a0bd0f4e53dda6e0e8b38b375a
 docker: quay.io/biocontainers/schpl
 aliases:
   qconvex: /usr/local/bin/qconvex

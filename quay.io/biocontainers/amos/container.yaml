@@ -2,15 +2,19 @@ url: https://biocontainers.pro/tools/amos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for amos
 latest:
-  3.1.0--py35_3: sha256:28d17a46f4eeb4a403c5e8159e4068a8116d873561474bc70e7d795a528fb433
+  3.1.0--py35_3: 
+    sha256:28d17a46f4eeb4a403c5e8159e4068a8116d873561474bc70e7d795a528fb433
 tags:
-  3.1.0--py35_3: sha256:28d17a46f4eeb4a403c5e8159e4068a8116d873561474bc70e7d795a528fb433
-  3.1.0--py35pl5.22.0_3: sha256:f14ef87deb009b993c388074872e770f83602afb38452133eaa9c0fd43fcecf0
+  3.1.0--py35_3: 
+    sha256:28d17a46f4eeb4a403c5e8159e4068a8116d873561474bc70e7d795a528fb433
+  3.1.0--py35pl5.22.0_3: 
+    sha256:f14ef87deb009b993c388074872e770f83602afb38452133eaa9c0fd43fcecf0
 docker: quay.io/biocontainers/amos
 aliases:
   AMOScmp: /usr/local/bin/AMOScmp
   AMOScmp-shortReads: /usr/local/bin/AMOScmp-shortReads
-  AMOScmp-shortReads-alignmentTrimmed: /usr/local/bin/AMOScmp-shortReads-alignmentTrimmed
+  AMOScmp-shortReads-alignmentTrimmed: 
+    /usr/local/bin/AMOScmp-shortReads-alignmentTrimmed
   Bundler: /usr/local/bin/Bundler
   Chainer: /usr/local/bin/Chainer
   FRCurve: /usr/local/bin/FRCurve

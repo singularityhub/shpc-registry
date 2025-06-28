@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/stream_atac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stream_atac
 latest:
-  0.3.5--py_5: sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5
+  0.3.5--py_5: 
+    sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5
 tags:
-  0.3.5--py_5: sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5
+  0.3.5--py_5: 
+    sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5
 docker: quay.io/biocontainers/stream_atac
 aliases:
   stream_atac: /usr/local/bin/stream_atac

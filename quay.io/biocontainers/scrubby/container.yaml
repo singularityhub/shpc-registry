@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scrubby
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scrubby
 latest:
-  0.2.1--h715e4b3_0: sha256:cf76bdd409c58022ef5001b38ee43c4e40dd2f7c6fc016814bdb47ebf1cb2536
+  0.2.1--h715e4b3_0: 
+    sha256:cf76bdd409c58022ef5001b38ee43c4e40dd2f7c6fc016814bdb47ebf1cb2536
 tags:
-  0.2.1--h715e4b3_0: sha256:cf76bdd409c58022ef5001b38ee43c4e40dd2f7c6fc016814bdb47ebf1cb2536
+  0.2.1--h715e4b3_0: 
+    sha256:cf76bdd409c58022ef5001b38ee43c4e40dd2f7c6fc016814bdb47ebf1cb2536
 docker: quay.io/biocontainers/scrubby
 aliases:
   bsmp2info: /usr/local/bin/bsmp2info

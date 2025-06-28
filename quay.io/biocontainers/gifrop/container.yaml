@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gifrop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gifrop
 latest:
-  0.0.9--hdfd78af_0: sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f
+  0.0.9--hdfd78af_0: 
+    sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f
 tags:
-  0.0.9--hdfd78af_0: sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f
+  0.0.9--hdfd78af_0: 
+    sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f
 docker: quay.io/biocontainers/gifrop
 aliases:
   abricate: /usr/local/bin/abricate
@@ -26,12 +28,16 @@ aliases:
   pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
   pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
   pan_pipe: /usr/local/bin/pan_pipe
-  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
-  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  parallel_all_against_all_blastp: 
+    /usr/local/bin/parallel_all_against_all_blastp
+  protein_alignment_from_nucleotides: 
+    /usr/local/bin/protein_alignment_from_nucleotides
   query_pan_genome: /usr/local/bin/query_pan_genome
   roary: /usr/local/bin/roary
-  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
-  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-create_pan_genome_plots.R: 
+    /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: 
+    /usr/local/bin/roary-pan_genome_reorder_spreadsheet
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   submodule_test.R: /usr/local/bin/submodule_test.R

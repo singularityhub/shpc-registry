@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-lmgene
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-lmgene
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-lmgene
 latest:
-  2.43.0--r40_0: sha256:5af2be8103ddfa2301ccb8ba30a02574250d9d7f5f39c445699402bb2a90fe06
+  2.43.0--r40_0: 
+    sha256:5af2be8103ddfa2301ccb8ba30a02574250d9d7f5f39c445699402bb2a90fe06
 tags:
-  2.43.0--r40_0: sha256:5af2be8103ddfa2301ccb8ba30a02574250d9d7f5f39c445699402bb2a90fe06
+  2.43.0--r40_0: 
+    sha256:5af2be8103ddfa2301ccb8ba30a02574250d9d7f5f39c445699402bb2a90fe06
 docker: quay.io/biocontainers/bioconductor-lmgene
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

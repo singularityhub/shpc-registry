@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/m-party
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for m-party
 latest:
-  0.2.2--hdfd78af_0: sha256:83269e576dc7ad79d145f860f8316973bdee0bb38aee2a8c41b1bcf393b8f411
+  0.2.2--hdfd78af_0: 
+    sha256:83269e576dc7ad79d145f860f8316973bdee0bb38aee2a8c41b1bcf393b8f411
 tags:
-  0.2.2--hdfd78af_0: sha256:83269e576dc7ad79d145f860f8316973bdee0bb38aee2a8c41b1bcf393b8f411
+  0.2.2--hdfd78af_0: 
+    sha256:83269e576dc7ad79d145f860f8316973bdee0bb38aee2a8c41b1bcf393b8f411
 docker: quay.io/biocontainers/m-party
 aliases:
   CDHIT_parser.py: /usr/local/bin/CDHIT_parser.py

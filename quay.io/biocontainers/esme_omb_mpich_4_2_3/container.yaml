@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_omb_mpich_4_2_3
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_omb_mpich_4_2_3
+description: singularity registry hpc automated addition for 
+  esme_omb_mpich_4_2_3
 latest:
-  7.5--h8eb057c_0: sha256:eae76fdaa3d08a33d867ea59e31a18bde01d4c380e8977664eae78ba35f1f5af
+  7.5--h8eb057c_0: 
+    sha256:eae76fdaa3d08a33d867ea59e31a18bde01d4c380e8977664eae78ba35f1f5af
 tags:
-  7.5--h8eb057c_0: sha256:eae76fdaa3d08a33d867ea59e31a18bde01d4c380e8977664eae78ba35f1f5af
+  7.5--h8eb057c_0: 
+    sha256:eae76fdaa3d08a33d867ea59e31a18bde01d4c380e8977664eae78ba35f1f5af
 docker: quay.io/biocontainers/esme_omb_mpich_4_2_3
 aliases:
   ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon

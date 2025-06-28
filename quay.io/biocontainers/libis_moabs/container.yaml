@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/libis_moabs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libis_moabs
 latest:
-  0.0.7--py_0: sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e
+  0.0.7--py_0: 
+    sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e
 tags:
-  0.0.7--py_0: sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e
+  0.0.7--py_0: 
+    sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e
 docker: quay.io/biocontainers/libis_moabs
 aliases:
   LiBis: /usr/local/bin/LiBis

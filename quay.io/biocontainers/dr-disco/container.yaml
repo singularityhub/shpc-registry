@@ -2,19 +2,29 @@ url: https://biocontainers.pro/tools/dr-disco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dr-disco
 latest:
-  0.18.3--pyh086e186_0: sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3
+  0.18.3--pyh086e186_0: 
+    sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3
 tags:
-  0.9.0--py27_0: sha256:3c23f84ec053b5ad48a9771ea1946d99d44d71a6c99692f80643f921e26622b3
-  0.18.0--pyh5ca1d4c_0: sha256:9a796b3af392a7fc71c0604199eed8c926f5beea5b6396e4515fc102fb092c38
-  0.16.3--pyh24bf2e0_0: sha256:1002d7fa20fc0b59e43a55e796276043703bb55cc0a95f6a24b960d82022dc42
-  0.14.0--py27_0: sha256:d6864c98592ae65fbf010e4a18b84829ab66f4372f7e9ca8c979a4d3ae57b0ed
-  0.11.0--py27_0: sha256:5c57a6073a008eeb2273f49b2890083ffb564f72c2727f399f9b3e89109fa167
-  0.10.0--py27_0: sha256:172515ed1483f10460bf73d4c9fa8e5be44cd747db230a97813b1d76def9f700
-  0.18.3--pyh086e186_0: sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3
+  0.9.0--py27_0: 
+    sha256:3c23f84ec053b5ad48a9771ea1946d99d44d71a6c99692f80643f921e26622b3
+  0.18.0--pyh5ca1d4c_0: 
+    sha256:9a796b3af392a7fc71c0604199eed8c926f5beea5b6396e4515fc102fb092c38
+  0.16.3--pyh24bf2e0_0: 
+    sha256:1002d7fa20fc0b59e43a55e796276043703bb55cc0a95f6a24b960d82022dc42
+  0.14.0--py27_0: 
+    sha256:d6864c98592ae65fbf010e4a18b84829ab66f4372f7e9ca8c979a4d3ae57b0ed
+  0.11.0--py27_0: 
+    sha256:5c57a6073a008eeb2273f49b2890083ffb564f72c2727f399f9b3e89109fa167
+  0.10.0--py27_0: 
+    sha256:172515ed1483f10460bf73d4c9fa8e5be44cd747db230a97813b1d76def9f700
+  0.18.3--pyh086e186_0: 
+    sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3
 docker: quay.io/biocontainers/dr-disco
 aliases:
-  chimerascan-exclude-transcriptome-events: /usr/local/bin/chimerascan-exclude-transcriptome-events
-  chimerascan-relative-bedpe-to-CG: /usr/local/bin/chimerascan-relative-bedpe-to-CG
+  chimerascan-exclude-transcriptome-events: 
+    /usr/local/bin/chimerascan-exclude-transcriptome-events
+  chimerascan-relative-bedpe-to-CG: 
+    /usr/local/bin/chimerascan-relative-bedpe-to-CG
   defuse-clusters-to-CG: /usr/local/bin/defuse-clusters-to-CG
   dr-disco: /usr/local/bin/dr-disco
   fuma: /usr/local/bin/fuma

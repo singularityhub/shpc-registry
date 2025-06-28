@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/genomebaser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomebaser
 latest:
-  0.1.2--py27_1: sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313
+  0.1.2--py27_1: 
+    sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313
 tags:
-  0.1.2--py27_1: sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313
+  0.1.2--py27_1: 
+    sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313
 docker: quay.io/biocontainers/genomebaser
 aliases:
   GenomeBaser: /usr/local/bin/GenomeBaser

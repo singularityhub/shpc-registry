@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/deltamsi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deltamsi
 latest:
-  1.0.1--pyh7cba7a3_0: sha256:23f80a7a139ba23d521bc446afb55e595b9ca2c503bc413e80dfd0f2cdde687d
+  1.0.1--pyh7cba7a3_0: 
+    sha256:23f80a7a139ba23d521bc446afb55e595b9ca2c503bc413e80dfd0f2cdde687d
 tags:
-  1.0.1--pyh7cba7a3_0: sha256:23f80a7a139ba23d521bc446afb55e595b9ca2c503bc413e80dfd0f2cdde687d
+  1.0.1--pyh7cba7a3_0: 
+    sha256:23f80a7a139ba23d521bc446afb55e595b9ca2c503bc413e80dfd0f2cdde687d
 docker: quay.io/biocontainers/deltamsi
 aliases:
   DeltaMSI: /usr/local/bin/DeltaMSI

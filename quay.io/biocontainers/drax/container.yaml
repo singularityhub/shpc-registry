@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/drax
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for drax
 latest:
-  0.0.0--hdfd78af_4: sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
+  0.0.0--hdfd78af_4: 
+    sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
 tags:
-  0.0.0--hdfd78af_4: sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
+  0.0.0--hdfd78af_4: 
+    sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
 docker: quay.io/biocontainers/drax
 aliases:
   addTaxonNames: /usr/local/bin/addTaxonNames
