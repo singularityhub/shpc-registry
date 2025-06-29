@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geiger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geiger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geiger/container.yaml"
-updated_at: "2025-06-28 04:06:57.315618"
+updated_at: "2025-06-29 04:28:05.192653"
 latest: "2.0.6--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-geiger"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prestor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prestor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prestor/container.yaml"
-updated_at: "2025-06-28 03:49:39.282993"
+updated_at: "2025-06-29 04:11:16.031063"
 latest: "0.0.5--r36_0"
 container_url: "https://biocontainers.pro/tools/r-prestor"
 aliases:

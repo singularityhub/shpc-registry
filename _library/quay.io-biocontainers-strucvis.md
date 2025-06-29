@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strucvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strucvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strucvis/container.yaml"
-updated_at: "2025-06-28 03:46:10.244024"
+updated_at: "2025-06-29 04:07:52.164675"
 latest: "0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strucvis"
 aliases:

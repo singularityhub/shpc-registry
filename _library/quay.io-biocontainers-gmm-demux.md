@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmm-demux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmm-demux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmm-demux/container.yaml"
-updated_at: "2025-06-28 03:43:18.584858"
+updated_at: "2025-06-29 04:05:04.193734"
 latest: "0.2.2.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gmm-demux"
 aliases:

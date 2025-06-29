@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/srnapipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srnapipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srnapipe/container.yaml"
-updated_at: "2025-06-28 03:20:32.718677"
-latest: "1.2--pl5321r41hdfd78af_0"
+updated_at: "2025-06-29 03:43:10.490743"
+latest: "1.2.1--pl5321r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/srnapipe"
 aliases:
  - "srnapipe"
@@ -21,8 +21,9 @@ aliases:
  - "bamToBed"
 versions:
  - "1.2--pl5321r41hdfd78af_0"
+ - "1.2.1--pl5321r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for srnapipe"
-config: {"url": "https://biocontainers.pro/tools/srnapipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srnapipe", "latest": {"1.2--pl5321r41hdfd78af_0": "sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9"}, "tags": {"1.2--pl5321r41hdfd78af_0": "sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9"}, "docker": "quay.io/biocontainers/srnapipe", "aliases": {"srnapipe": "/usr/local/bin/srnapipe", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "moose-outdated": "/usr/local/bin/moose-outdated", "bwa": "/usr/local/bin/bwa", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
+config: {"url": "https://biocontainers.pro/tools/srnapipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srnapipe", "latest": {"1.2.1--pl5321r44hdfd78af_0": "sha256:dac75e6cc4a5db08b5abf1b41aa0f5abf201443074568b1ed75fab3f86c26dfb"}, "tags": {"1.2--pl5321r41hdfd78af_0": "sha256:7ad7a6a1622f2b435abbca94f22a544ce703e47529a8602da516ec01d22291d9", "1.2.1--pl5321r44hdfd78af_0": "sha256:dac75e6cc4a5db08b5abf1b41aa0f5abf201443074568b1ed75fab3f86c26dfb"}, "docker": "quay.io/biocontainers/srnapipe", "aliases": {"srnapipe": "/usr/local/bin/srnapipe", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "moose-outdated": "/usr/local/bin/moose-outdated", "bwa": "/usr/local/bin/bwa", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srnapipe.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/srnapipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/srnapipe:1.2--pl5321r41hdfd78af_0
+$ shpc install quay.io/biocontainers/srnapipe:1.2.1--pl5321r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/srnapipe/1.2--pl5321r41hdfd78af_0
-$ module help quay.io/biocontainers/srnapipe/1.2--pl5321r41hdfd78af_0
+$ module load quay.io/biocontainers/srnapipe/1.2.1--pl5321r44hdfd78af_0
+$ module help quay.io/biocontainers/srnapipe/1.2.1--pl5321r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

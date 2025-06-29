@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-misha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misha/container.yaml"
-updated_at: "2025-06-28 03:57:01.121433"
+updated_at: "2025-06-29 04:18:26.821585"
 latest: "4.1.0--r44h503566f_8"
 container_url: "https://biocontainers.pro/tools/r-misha"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-unicode-stringprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-stringprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-stringprep/container.yaml"
-updated_at: "2025-06-28 03:39:35.774448"
+updated_at: "2025-06-29 04:01:28.140826"
 latest: "1.105--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-unicode-stringprep"
 aliases:

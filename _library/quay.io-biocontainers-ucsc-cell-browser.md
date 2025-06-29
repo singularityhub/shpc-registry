@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ucsc-cell-browser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ucsc-cell-browser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ucsc-cell-browser/container.yaml"
-updated_at: "2025-06-28 03:33:38.053315"
+updated_at: "2025-06-29 03:55:42.101714"
 latest: "1.2.15--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ucsc-cell-browser"
 aliases:

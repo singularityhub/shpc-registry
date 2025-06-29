@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genmod/container.yaml"
-updated_at: "2025-06-28 03:35:36.796149"
+updated_at: "2025-06-29 03:57:36.330141"
 latest: "3.10.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/genmod"
 aliases:

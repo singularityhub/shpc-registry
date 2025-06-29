@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-automatedannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-automatedannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-automatedannotation/container.yaml"
-updated_at: "2025-06-28 03:32:21.717842"
-latest: "2021.01.04.08.19.58.619--pl5321hdfd78af_0"
+updated_at: "2025-06-29 03:54:29.087766"
+latest: "2023.03.14.16.40.01.685--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-automatedannotation"
 aliases:
  - "annotate_bacteria"
@@ -23,8 +23,9 @@ aliases:
  - "bp_filter_search"
 versions:
  - "2021.01.04.08.19.58.619--pl5321hdfd78af_0"
+ - "2023.03.14.16.40.01.685--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-bio-automatedannotation"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-automatedannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-automatedannotation", "latest": {"2021.01.04.08.19.58.619--pl5321hdfd78af_0": "sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe"}, "tags": {"2021.01.04.08.19.58.619--pl5321hdfd78af_0": "sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe"}, "docker": "quay.io/biocontainers/perl-bio-automatedannotation", "aliases": {"annotate_bacteria": "/usr/local/bin/annotate_bacteria", "gene_name_occurances": "/usr/local/bin/gene_name_occurances", "parse_genes_from_gffs": "/usr/local/bin/parse_genes_from_gffs", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-automatedannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-automatedannotation", "latest": {"2023.03.14.16.40.01.685--pl5321hdfd78af_0": "sha256:b4f6418595eeb162fe183f9c14517002ea4d314213828e82498057188f4acbeb"}, "tags": {"2021.01.04.08.19.58.619--pl5321hdfd78af_0": "sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe", "2023.03.14.16.40.01.685--pl5321hdfd78af_0": "sha256:b4f6418595eeb162fe183f9c14517002ea4d314213828e82498057188f4acbeb"}, "docker": "quay.io/biocontainers/perl-bio-automatedannotation", "aliases": {"annotate_bacteria": "/usr/local/bin/annotate_bacteria", "gene_name_occurances": "/usr/local/bin/gene_name_occurances", "parse_genes_from_gffs": "/usr/local/bin/parse_genes_from_gffs", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-automatedannotation.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/perl-bio-automatedannotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-automatedannotation:2021.01.04.08.19.58.619--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-bio-automatedannotation:2023.03.14.16.40.01.685--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-automatedannotation/2021.01.04.08.19.58.619--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-bio-automatedannotation/2021.01.04.08.19.58.619--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-bio-automatedannotation/2023.03.14.16.40.01.685--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-bio-automatedannotation/2023.03.14.16.40.01.685--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

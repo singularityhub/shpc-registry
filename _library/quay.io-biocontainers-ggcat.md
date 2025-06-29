@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ggcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggcat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggcat/container.yaml"
-updated_at: "2025-06-28 03:47:14.208747"
+updated_at: "2025-06-29 04:08:54.590299"
 latest: "1.1.0--ha96b9cd_1"
 container_url: "https://biocontainers.pro/tools/ggcat"
 aliases:

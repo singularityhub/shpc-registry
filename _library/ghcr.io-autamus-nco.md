@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/nco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/nco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/nco/container.yaml"
-updated_at: "2025-06-28 04:07:24.727399"
+updated_at: "2025-06-29 04:28:31.950136"
 latest: "5.0.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/nco"
 aliases:

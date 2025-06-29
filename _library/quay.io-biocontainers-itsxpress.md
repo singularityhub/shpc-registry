@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itsxpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsxpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsxpress/container.yaml"
-updated_at: "2025-06-28 03:52:03.398328"
+updated_at: "2025-06-29 04:13:36.229385"
 latest: "2.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itsxpress"
 aliases:

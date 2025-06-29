@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ampir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampir/container.yaml"
-updated_at: "2025-06-28 03:22:20.814133"
+updated_at: "2025-06-29 03:44:54.296869"
 latest: "1.1.0"
 container_url: "https://biocontainers.pro/tools/r-ampir"
 
