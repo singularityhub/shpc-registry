@@ -1,0 +1,77 @@
+url: https://biocontainers.pro/tools/vpt-plugin-cellpose2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  vpt-plugin-cellpose2
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:f17ec074dec05ade290776d3da72b59617101b7ce0791c2e337bc437eae1fc26
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:f17ec074dec05ade290776d3da72b59617101b7ce0791c2e337bc437eae1fc26
+docker: quay.io/biocontainers/vpt-plugin-cellpose2
+aliases:
+  backend-test-tools: /usr/local/bin/backend-test-tools
+  benchmark_app: /usr/local/bin/benchmark_app
+  cellpose: /usr/local/bin/cellpose
+  check-model: /usr/local/bin/check-model
+  check-node: /usr/local/bin/check-node
+  gdal2tiles.py: /usr/local/bin/gdal2tiles.py
+  gdal2xyz.py: /usr/local/bin/gdal2xyz.py
+  gdal_calc.py: /usr/local/bin/gdal_calc.py
+  gdal_edit.py: /usr/local/bin/gdal_edit.py
+  gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
+  gdal_merge.py: /usr/local/bin/gdal_merge.py
+  gdal_pansharpen.py: /usr/local/bin/gdal_pansharpen.py
+  gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
+  gdal_proximity.py: /usr/local/bin/gdal_proximity.py
+  gdal_retile.py: /usr/local/bin/gdal_retile.py
+  gdal_sieve.py: /usr/local/bin/gdal_sieve.py
+  gdalattachpct.py: /usr/local/bin/gdalattachpct.py
+  gdalcompare.py: /usr/local/bin/gdalcompare.py
+  gdalmove.py: /usr/local/bin/gdalmove.py
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  jiv: /usr/local/bin/jiv
+  ogr_layer_algebra.py: /usr/local/bin/ogr_layer_algebra.py
+  ogrmerge.py: /usr/local/bin/ogrmerge.py
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_model_diagnostics: /usr/local/bin/opencv_model_diagnostics
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  opt_in_out: /usr/local/bin/opt_in_out
+  ovc: /usr/local/bin/ovc
+  pct2rgb.py: /usr/local/bin/pct2rgb.py
+  pyproj: /usr/local/bin/pyproj
+  qtpy: /usr/local/bin/qtpy
+  rgb2pct.py: /usr/local/bin/rgb2pct.py
+  rio: /usr/local/bin/rio
+  roifile: /usr/local/bin/roifile
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  sozip: /usr/local/bin/sozip
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
+  x264: /usr/local/bin/x264
+  dotenv: /usr/local/bin/dotenv
+  bsdunzip: /usr/local/bin/bsdunzip
+  protoc-24.4.0: /usr/local/bin/protoc-24.4.0
+  x265: /usr/local/bin/x265
+  rav1e: /usr/local/bin/rav1e
+  pg_amcheck: /usr/local/bin/pg_amcheck

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/argparse-tui
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for argparse-tui
+latest:
+  0.3.1--pyhdfd78af_0: 
+    sha256:df1a1e5d235dc853bcbc0ead048d2d7eda2bb18ba26868e20b55fa14438e3f39
+tags:
+  0.3.1--pyhdfd78af_0: 
+    sha256:df1a1e5d235dc853bcbc0ead048d2d7eda2bb18ba26868e20b55fa14438e3f39
+docker: quay.io/biocontainers/argparse-tui
+aliases:
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

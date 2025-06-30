@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/r-bascule
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-bascule
+latest:
+  1.0.1--r44hdfd78af_0: 
+    sha256:fdfcaace7d880ec7c38f37fc085daa2e3c48965a35726241311dcd4e45a01502
+tags:
+  1.0.1--r44hdfd78af_0: 
+    sha256:fdfcaace7d880ec7c38f37fc085daa2e3c48965a35726241311dcd4e45a01502
+docker: quay.io/biocontainers/r-bascule
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

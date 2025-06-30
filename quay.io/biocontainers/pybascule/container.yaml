@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/pybascule
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pybascule
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:be9abfc8dca7c6147ddae06b894a51fb3d6349d8ac15e2b63eaa64f9ec3e210f
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:be9abfc8dca7c6147ddae06b894a51fb3d6349d8ac15e2b63eaa64f9ec3e210f
+docker: quay.io/biocontainers/pybascule
+aliases:
+  torchrun: /usr/local/bin/torchrun
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  protoc: /usr/local/bin/protoc
+  tqdm: /usr/local/bin/tqdm
