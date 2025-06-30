@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctyper/container.yaml"
-updated_at: "2025-06-30 04:11:25.790695"
+updated_at: "2025-06-30 05:14:24.193930"
 latest: "1.0.1--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/ctyper"
 aliases:

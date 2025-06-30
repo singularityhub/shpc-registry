@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ribodipa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribodipa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribodipa/container.yaml"
-updated_at: "2025-06-30 04:01:20.832919"
+updated_at: "2025-06-30 05:04:33.793199"
 latest: "1.14.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribodipa"
 

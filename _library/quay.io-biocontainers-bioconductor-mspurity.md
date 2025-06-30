@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mspurity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mspurity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mspurity/container.yaml"
-updated_at: "2025-06-30 04:13:51.553070"
+updated_at: "2025-06-30 05:16:47.899814"
 latest: "1.32.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mspurity"
 aliases:

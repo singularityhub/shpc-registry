@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybigwig/container.yaml"
-updated_at: "2025-06-30 03:57:41.099710"
+updated_at: "2025-06-30 05:01:00.002678"
 latest: "0.3.24--py311hd8c7dd8_0"
 container_url: "https://biocontainers.pro/tools/pybigwig"
 aliases:
