@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/axe-demultiplexer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for axe-demultiplexer
+latest:
+  0.3.3--h3a4d415_0: 
+    sha256:1d9892b922bb6940348d195289987402b27070dc4f52760aa2b35d75bba7092a
+tags:
+  0.3.3--h3a4d415_0: 
+    sha256:1d9892b922bb6940348d195289987402b27070dc4f52760aa2b35d75bba7092a
+docker: quay.io/biocontainers/axe-demultiplexer
+aliases:
+  axe-demux: /usr/local/bin/axe-demux

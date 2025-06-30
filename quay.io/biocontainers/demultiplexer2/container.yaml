@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/demultiplexer2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for demultiplexer2
+latest:
+  1.1.5--pyhdfd78af_0: 
+    sha256:1db6976ac6d04ca0b9ed8b630774ab0b47e8064be89d49906f036cf26cfecbd2
+tags:
+  1.1.5--pyhdfd78af_0: 
+    sha256:1db6976ac6d04ca0b9ed8b630774ab0b47e8064be89d49906f036cf26cfecbd2
+docker: quay.io/biocontainers/demultiplexer2
+aliases:
+  demultiplexer2: /usr/local/bin/demultiplexer2
+  luddite: /usr/local/bin/luddite
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
