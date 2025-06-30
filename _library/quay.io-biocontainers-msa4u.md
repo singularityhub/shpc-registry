@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msa4u"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msa4u/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msa4u/container.yaml"
-updated_at: "2025-06-29 04:21:52.086720"
+updated_at: "2025-06-30 04:11:53.647618"
 latest: "0.4.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/msa4u"
 aliases:

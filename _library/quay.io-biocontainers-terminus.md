@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/terminus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/terminus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/terminus/container.yaml"
-updated_at: "2025-06-29 04:27:16.206710"
+updated_at: "2025-06-30 04:17:21.166471"
 latest: "0.1.0--hff1259d_8"
 container_url: "https://biocontainers.pro/tools/terminus"
 aliases:

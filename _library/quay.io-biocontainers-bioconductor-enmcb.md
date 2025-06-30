@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enmcb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enmcb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enmcb/container.yaml"
-updated_at: "2025-06-29 04:07:44.308092"
+updated_at: "2025-06-30 03:57:18.524479"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enmcb"
 

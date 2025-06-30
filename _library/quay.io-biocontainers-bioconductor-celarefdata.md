@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-celarefdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celarefdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celarefdata/container.yaml"
-updated_at: "2025-06-29 03:42:44.422300"
+updated_at: "2025-06-30 03:31:09.696019"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celarefdata"
 aliases:

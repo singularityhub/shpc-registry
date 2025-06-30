@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timeomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timeomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timeomics/container.yaml"
-updated_at: "2025-06-29 04:21:56.258706"
+updated_at: "2025-06-30 04:11:57.871571"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timeomics"
 

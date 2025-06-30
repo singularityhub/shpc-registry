@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-survtype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-survtype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-survtype/container.yaml"
-updated_at: "2025-06-29 04:25:53.143379"
+updated_at: "2025-06-30 04:15:56.983423"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-survtype"
 aliases:
