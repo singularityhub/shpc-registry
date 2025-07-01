@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmat/container.yaml"
-updated_at: "2025-06-30 05:01:24.565518"
+updated_at: "2025-07-01 04:12:19.865728"
 latest: "3.33.0--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmat"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-searchio-hmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-searchio-hmmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-searchio-hmmer/container.yaml"
-updated_at: "2025-06-30 04:51:06.724501"
+updated_at: "2025-07-01 04:01:45.335027"
 latest: "1.7.3--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-searchio-hmmer"
 aliases:

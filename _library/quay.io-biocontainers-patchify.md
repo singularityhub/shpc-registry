@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/patchify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/patchify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/patchify/container.yaml"
-updated_at: "2025-06-30 04:39:42.794536"
+updated_at: "2025-07-01 03:49:52.584117"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/patchify"
 aliases:
