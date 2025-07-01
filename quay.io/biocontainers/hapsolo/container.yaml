@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hapsolo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hapsolo
 latest:
-  2021.10.09--py27hdfd78af_0: sha256:6f18656313b26c681c746bbaeea52984afe7467b2171c48fa3be467a9d53c213
+  2021.10.09--py27hdfd78af_0: 
+    sha256:6f18656313b26c681c746bbaeea52984afe7467b2171c48fa3be467a9d53c213
 tags:
-  2021.10.09--py27hdfd78af_0: sha256:6f18656313b26c681c746bbaeea52984afe7467b2171c48fa3be467a9d53c213
+  2021.10.09--py27hdfd78af_0: 
+    sha256:6f18656313b26c681c746bbaeea52984afe7467b2171c48fa3be467a9d53c213
 docker: quay.io/biocontainers/hapsolo
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
@@ -59,7 +61,8 @@ aliases:
   filterShrimp.pl: /usr/local/bin/filterShrimp.pl
   filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
   gbrowse.conf: /usr/local/bin/gbrowse.conf

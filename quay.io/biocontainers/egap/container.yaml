@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/egap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for egap
 latest:
-  3.1--pyhdfd78af_0: sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
+  3.1--pyhdfd78af_0: 
+    sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
 tags:
-  2.6.6--pyhdfd78af_0: sha256:1aade4d91acfefe260c50653fa909b31f91a9426d893d224901d0c1114dd27d6
-  3.1--pyhdfd78af_0: sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
-  3.0.0f--pyhdfd78af_0: sha256:6b536c06c07ddd56e08a1d63e07e8bb111817516caa20fa0ce4d18d5ada157f2
+  2.6.6--pyhdfd78af_0: 
+    sha256:1aade4d91acfefe260c50653fa909b31f91a9426d893d224901d0c1114dd27d6
+  3.1--pyhdfd78af_0: 
+    sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
+  3.0.0f--pyhdfd78af_0: 
+    sha256:6b536c06c07ddd56e08a1d63e07e8bb111817516caa20fa0ce4d18d5ada157f2
 docker: quay.io/biocontainers/egap
 aliases:
   Bifrost: /usr/local/bin/Bifrost
@@ -49,20 +53,23 @@ aliases:
   checkstrand.sh: /usr/local/bin/checkstrand.sh
   chromosome_scaffolder.sh: /usr/local/bin/chromosome_scaffolder.sh
   classify_reads.pl: /usr/local/bin/classify_reads.pl
-  closeGaps.oneDirectory.fromMinKmerLen.perl: /usr/local/bin/closeGaps.oneDirectory.fromMinKmerLen.perl
+  closeGaps.oneDirectory.fromMinKmerLen.perl: 
+    /usr/local/bin/closeGaps.oneDirectory.fromMinKmerLen.perl
   closeGaps.oneDirectory.perl: /usr/local/bin/closeGaps.oneDirectory.perl
   closeGaps.perl: /usr/local/bin/closeGaps.perl
   closeGapsInScaffFastaFile.perl: /usr/local/bin/closeGapsInScaffFastaFile.perl
   closeGapsLocally.perl: /usr/local/bin/closeGapsLocally.perl
   close_gaps.sh: /usr/local/bin/close_gaps.sh
   close_scaffold_gaps.sh: /usr/local/bin/close_scaffold_gaps.sh
-  collectReadSequencesForLocalGapClosing: /usr/local/bin/collectReadSequencesForLocalGapClosing
+  collectReadSequencesForLocalGapClosing: 
+    /usr/local/bin/collectReadSequencesForLocalGapClosing
   comparelabels.sh: /usr/local/bin/comparelabels.sh
   compleasm: /usr/local/bin/compleasm
   compute_contig_positions.pl: /usr/local/bin/compute_contig_positions.pl
   compute_coverage.pl: /usr/local/bin/compute_coverage.pl
   compute_sr_cov.pl: /usr/local/bin/compute_sr_cov.pl
-  compute_sr_cov.revisedForGCContig.pl: /usr/local/bin/compute_sr_cov.revisedForGCContig.pl
+  compute_sr_cov.revisedForGCContig.pl: 
+    /usr/local/bin/compute_sr_cov.revisedForGCContig.pl
   copyfile.sh: /usr/local/bin/copyfile.sh
   correct_with_k_unitigs.sh: /usr/local/bin/correct_with_k_unitigs.sh
   correct_with_k_unitigs_fast.pl: /usr/local/bin/correct_with_k_unitigs_fast.pl
@@ -70,8 +77,10 @@ aliases:
   countduplicates.sh: /usr/local/bin/countduplicates.sh
   createFastaSuperReadSequences: /usr/local/bin/createFastaSuperReadSequences
   createKUnitigMaxOverlaps: /usr/local/bin/createKUnitigMaxOverlaps
-  createSuperReadSequenceAndPlacementFileFromCombined.perl: /usr/local/bin/createSuperReadSequenceAndPlacementFileFromCombined.perl
-  createSuperReadsForDirectory.perl: /usr/local/bin/createSuperReadsForDirectory.perl
+  createSuperReadSequenceAndPlacementFileFromCombined.perl: 
+    /usr/local/bin/createSuperReadSequenceAndPlacementFileFromCombined.perl
+  createSuperReadsForDirectory.perl: 
+    /usr/local/bin/createSuperReadsForDirectory.perl
   create_end_pairs.perl: /usr/local/bin/create_end_pairs.perl
   create_end_pairs.pl: /usr/local/bin/create_end_pairs.pl
   create_k_unitigs_large_k: /usr/local/bin/create_k_unitigs_large_k
@@ -86,14 +95,19 @@ aliases:
   deduplicate_contigs.sh: /usr/local/bin/deduplicate_contigs.sh
   deduplicate_unitigs.sh: /usr/local/bin/deduplicate_unitigs.sh
   demuxserver.sh: /usr/local/bin/demuxserver.sh
-  determineUnjoinablePacbioSubmegas.perl: /usr/local/bin/determineUnjoinablePacbioSubmegas.perl
-  eliminateBadSuperReadsUsingList: /usr/local/bin/eliminateBadSuperReadsUsingList
+  determineUnjoinablePacbioSubmegas.perl: 
+    /usr/local/bin/determineUnjoinablePacbioSubmegas.perl
+  eliminateBadSuperReadsUsingList: 
+    /usr/local/bin/eliminateBadSuperReadsUsingList
   error_corrected2frg: /usr/local/bin/error_corrected2frg
   evaluate_splits.pl: /usr/local/bin/evaluate_splits.pl
   expand_fastq: /usr/local/bin/expand_fastq
-  extendSuperReadsBasedOnUniqueExtensions: /usr/local/bin/extendSuperReadsBasedOnUniqueExtensions
-  extendSuperReadsForUniqueKmerNeighbors: /usr/local/bin/extendSuperReadsForUniqueKmerNeighbors
-  extractJoinableAndNextPassReadsFromJoinKUnitigs.perl: /usr/local/bin/extractJoinableAndNextPassReadsFromJoinKUnitigs.perl
+  extendSuperReadsBasedOnUniqueExtensions: 
+    /usr/local/bin/extendSuperReadsBasedOnUniqueExtensions
+  extendSuperReadsForUniqueKmerNeighbors: 
+    /usr/local/bin/extendSuperReadsForUniqueKmerNeighbors
+  extractJoinableAndNextPassReadsFromJoinKUnitigs.perl: 
+    /usr/local/bin/extractJoinableAndNextPassReadsFromJoinKUnitigs.perl
   extract_merges.pl: /usr/local/bin/extract_merges.pl
   extract_merges_mega-reads.pl: /usr/local/bin/extract_merges_mega-reads.pl
   extract_unique_mega-reads.pl: /usr/local/bin/extract_unique_mega-reads.pl
@@ -119,7 +133,8 @@ aliases:
   filter_redundancy.pl: /usr/local/bin/filter_redundancy.pl
   final_polish.sh: /usr/local/bin/final_polish.sh
   findGapsInCoverageOfPacbios: /usr/local/bin/findGapsInCoverageOfPacbios
-  findMatchesBetweenKUnitigsAndReads: /usr/local/bin/findMatchesBetweenKUnitigsAndReads
+  findMatchesBetweenKUnitigsAndReads: 
+    /usr/local/bin/findMatchesBetweenKUnitigsAndReads
   find_contained_reads.pl: /usr/local/bin/find_contained_reads.pl
   find_repeats.pl: /usr/local/bin/find_repeats.pl
   findrepeats.sh: /usr/local/bin/findrepeats.sh
@@ -128,18 +143,26 @@ aliases:
   fragScaff.pl: /usr/local/bin/fragScaff.pl
   fragScaff.sh: /usr/local/bin/fragScaff.sh
   gawk-5.3.1: /usr/local/bin/gawk-5.3.1
-  getATBiasInCoverageForIllumina_v2: /usr/local/bin/getATBiasInCoverageForIllumina_v2
+  getATBiasInCoverageForIllumina_v2: 
+    /usr/local/bin/getATBiasInCoverageForIllumina_v2
   getEndSequencesOfContigs.perl: /usr/local/bin/getEndSequencesOfContigs.perl
   getGCBiasStatistics.perl: /usr/local/bin/getGCBiasStatistics.perl
-  getLengthStatisticsForKUnitigsFile.perl: /usr/local/bin/getLengthStatisticsForKUnitigsFile.perl
+  getLengthStatisticsForKUnitigsFile.perl: 
+    /usr/local/bin/getLengthStatisticsForKUnitigsFile.perl
   getMeanAndStdevByGCCount.perl: /usr/local/bin/getMeanAndStdevByGCCount.perl
-  getMeanAndStdevForGapsByGapNumUsingCeleraAsmFile.perl: /usr/local/bin/getMeanAndStdevForGapsByGapNumUsingCeleraAsmFile.perl
-  getMeanAndStdevForGapsByGapNumUsingCeleraTerminatorDirectory.perl: /usr/local/bin/getMeanAndStdevForGapsByGapNumUsingCeleraTerminatorDirectory.perl
-  getNumBasesPerReadInFastaFile.perl: /usr/local/bin/getNumBasesPerReadInFastaFile.perl
+  getMeanAndStdevForGapsByGapNumUsingCeleraAsmFile.perl: 
+    /usr/local/bin/getMeanAndStdevForGapsByGapNumUsingCeleraAsmFile.perl
+  getMeanAndStdevForGapsByGapNumUsingCeleraTerminatorDirectory.perl: 
+    /usr/local/bin/getMeanAndStdevForGapsByGapNumUsingCeleraTerminatorDirectory.perl
+  getNumBasesPerReadInFastaFile.perl: 
+    /usr/local/bin/getNumBasesPerReadInFastaFile.perl
   getSequenceForClosedGaps.perl: /usr/local/bin/getSequenceForClosedGaps.perl
-  getSequenceForLocallyClosedGaps.perl: /usr/local/bin/getSequenceForLocallyClosedGaps.perl
-  getSuperReadInsertCountsFromReadPlacementFile: /usr/local/bin/getSuperReadInsertCountsFromReadPlacementFile
-  getSuperReadInsertCountsFromReadPlacementFileTwoPasses: /usr/local/bin/getSuperReadInsertCountsFromReadPlacementFileTwoPasses
+  getSequenceForLocallyClosedGaps.perl: 
+    /usr/local/bin/getSequenceForLocallyClosedGaps.perl
+  getSuperReadInsertCountsFromReadPlacementFile: 
+    /usr/local/bin/getSuperReadInsertCountsFromReadPlacementFile
+  getSuperReadInsertCountsFromReadPlacementFileTwoPasses: 
+    /usr/local/bin/getSuperReadInsertCountsFromReadPlacementFileTwoPasses
   getSuperReadPlacements.perl: /usr/local/bin/getSuperReadPlacements.perl
   getUnitigTypeFromAsmFile.perl: /usr/local/bin/getUnitigTypeFromAsmFile.perl
   get_seqs: /usr/local/bin/get_seqs
@@ -160,18 +183,24 @@ aliases:
   irqtop: /usr/local/bin/irqtop
   jf_aligner: /usr/local/bin/jf_aligner
   joinKUnitigs_v3: /usr/local/bin/joinKUnitigs_v3
-  join_mega_reads_trim.onepass.nomatch.pl: /usr/local/bin/join_mega_reads_trim.onepass.nomatch.pl
-  join_mega_reads_trim.onepass.pl: /usr/local/bin/join_mega_reads_trim.onepass.pl
-  join_mega_reads_trim.onepass.ref.pl: /usr/local/bin/join_mega_reads_trim.onepass.ref.pl
-  join_mega_reads_trim.onepass.rna.pl: /usr/local/bin/join_mega_reads_trim.onepass.rna.pl
+  join_mega_reads_trim.onepass.nomatch.pl: 
+    /usr/local/bin/join_mega_reads_trim.onepass.nomatch.pl
+  join_mega_reads_trim.onepass.pl: 
+    /usr/local/bin/join_mega_reads_trim.onepass.pl
+  join_mega_reads_trim.onepass.ref.pl: 
+    /usr/local/bin/join_mega_reads_trim.onepass.ref.pl
+  join_mega_reads_trim.onepass.rna.pl: 
+    /usr/local/bin/join_mega_reads_trim.onepass.rna.pl
   kdbmeta.3: /usr/local/bin/kdbmeta.3
   kdbmeta.3.2.0: /usr/local/bin/kdbmeta.3.2.0
   killBadKUnitigs: /usr/local/bin/killBadKUnitigs
   longest_path: /usr/local/bin/longest_path
   lrz: /usr/local/bin/lrz
   lsirq: /usr/local/bin/lsirq
-  makeAdjustmentFactorsForNumReadsForAStatBasedOnGC: /usr/local/bin/makeAdjustmentFactorsForNumReadsForAStatBasedOnGC
-  makeAdjustmentFactorsForNumReadsForAStatBasedOnGC_v2: /usr/local/bin/makeAdjustmentFactorsForNumReadsForAStatBasedOnGC_v2
+  makeAdjustmentFactorsForNumReadsForAStatBasedOnGC: 
+    /usr/local/bin/makeAdjustmentFactorsForNumReadsForAStatBasedOnGC
+  makeAdjustmentFactorsForNumReadsForAStatBasedOnGC_v2: 
+    /usr/local/bin/makeAdjustmentFactorsForNumReadsForAStatBasedOnGC_v2
   make_mate_frg.pl: /usr/local/bin/make_mate_frg.pl
   make_mr_frg.pl: /usr/local/bin/make_mr_frg.pl
   make_rejoin_links.pl: /usr/local/bin/make_rejoin_links.pl
@@ -179,14 +208,17 @@ aliases:
   masurca: /usr/local/bin/masurca
   masurca-superreads: /usr/local/bin/masurca-superreads
   mega_reads_assemble_cluster.sh: /usr/local/bin/mega_reads_assemble_cluster.sh
-  mega_reads_assemble_cluster2.sh: /usr/local/bin/mega_reads_assemble_cluster2.sh
+  mega_reads_assemble_cluster2.sh: 
+    /usr/local/bin/mega_reads_assemble_cluster2.sh
   mega_reads_assemble_polish.sh: /usr/local/bin/mega_reads_assemble_polish.sh
   mega_reads_assemble_ref.sh: /usr/local/bin/mega_reads_assemble_ref.sh
   mergeSuperReadsUniquely.pl: /usr/local/bin/mergeSuperReadsUniquely.pl
   merge_contigs.pl: /usr/local/bin/merge_contigs.pl
   merge_coords: /usr/local/bin/merge_coords
-  merge_matches_and_tile_coords_file.pl: /usr/local/bin/merge_matches_and_tile_coords_file.pl
-  merge_matches_and_tile_coords_file_new.pl: /usr/local/bin/merge_matches_and_tile_coords_file_new.pl
+  merge_matches_and_tile_coords_file.pl: 
+    /usr/local/bin/merge_matches_and_tile_coords_file.pl
+  merge_matches_and_tile_coords_file_new.pl: 
+    /usr/local/bin/merge_matches_and_tile_coords_file_new.pl
   merge_mate_pairs: /usr/local/bin/merge_mate_pairs
   merge_mega-reads.pl: /usr/local/bin/merge_mega-reads.pl
   merge_sequences_simple.pl: /usr/local/bin/merge_sequences_simple.pl
@@ -200,7 +232,8 @@ aliases:
   novademux.sh: /usr/local/bin/novademux.sh
   nsenter: /usr/local/bin/nsenter
   opal.jar: /usr/local/bin/opal.jar
-  outputAlekseysJellyfishReductionFile.perl: /usr/local/bin/outputAlekseysJellyfishReductionFile.perl
+  outputAlekseysJellyfishReductionFile.perl: 
+    /usr/local/bin/outputAlekseysJellyfishReductionFile.perl
   outputJoinedPairs.perl: /usr/local/bin/outputJoinedPairs.perl
   outputRecordsNotOnList: /usr/local/bin/outputRecordsNotOnList
   output_reconciled_scaffolds.pl: /usr/local/bin/output_reconciled_scaffolds.pl
@@ -215,7 +248,8 @@ aliases:
   plothist.sh: /usr/local/bin/plothist.sh
   plotreadposition.sh: /usr/local/bin/plotreadposition.sh
   polca.sh: /usr/local/bin/polca.sh
-  polish_with_illumina_assembly.sh: /usr/local/bin/polish_with_illumina_assembly.sh
+  polish_with_illumina_assembly.sh: 
+    /usr/local/bin/polish_with_illumina_assembly.sh
   polyfilter.sh: /usr/local/bin/polyfilter.sh
   prefetch-orig.3.2.0: /usr/local/bin/prefetch-orig.3.2.0
   prefetch.3: /usr/local/bin/prefetch.3
@@ -253,10 +287,12 @@ aliases:
   rcexplain.3.2.0: /usr/local/bin/rcexplain.3.2.0
   rdbg: /usr/local/bin/rdbg
   recompute_astat_superreads.sh: /usr/local/bin/recompute_astat_superreads.sh
-  recompute_astat_superreads_CA8.sh: /usr/local/bin/recompute_astat_superreads_CA8.sh
+  recompute_astat_superreads_CA8.sh: 
+    /usr/local/bin/recompute_astat_superreads_CA8.sh
   reconcile_consensus.pl: /usr/local/bin/reconcile_consensus.pl
   reconcile_matches.pl: /usr/local/bin/reconcile_matches.pl
-  reconciliate_mega_reads.maximal.nucmer.pl: /usr/local/bin/reconciliate_mega_reads.maximal.nucmer.pl
+  reconciliate_mega_reads.maximal.nucmer.pl: 
+    /usr/local/bin/reconciliate_mega_reads.maximal.nucmer.pl
   recover_scaffolds.pl: /usr/local/bin/recover_scaffolds.pl
   reduce_sr: /usr/local/bin/reduce_sr
   reducecolumns.sh: /usr/local/bin/reducecolumns.sh

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pycsg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pycsg
 latest:
-  0.3.12--py_1: sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a
+  0.3.12--py_1: 
+    sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a
 tags:
-  0.3.12--py_1: sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a
+  0.3.12--py_1: 
+    sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a
 docker: quay.io/biocontainers/pycsg
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

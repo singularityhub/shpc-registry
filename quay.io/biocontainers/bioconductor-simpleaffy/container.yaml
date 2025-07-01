@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-simpleaffy
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-simpleaffy
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-simpleaffy
 latest:
-  2.66.0--r40hd029910_1: sha256:65b75e18da460914d614918ac61292b11138cd7702d4c96db64154be31941f2e
+  2.66.0--r40hd029910_1: 
+    sha256:65b75e18da460914d614918ac61292b11138cd7702d4c96db64154be31941f2e
 tags:
-  2.66.0--r40hd029910_1: sha256:65b75e18da460914d614918ac61292b11138cd7702d4c96db64154be31941f2e
+  2.66.0--r40hd029910_1: 
+    sha256:65b75e18da460914d614918ac61292b11138cd7702d4c96db64154be31941f2e
 docker: quay.io/biocontainers/bioconductor-simpleaffy
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

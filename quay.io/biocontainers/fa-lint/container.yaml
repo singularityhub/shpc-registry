@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/fa-lint
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fa-lint
 latest:
-  1.0.0--he881be0_0: sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066
+  1.2.0--he881be0_0: 
+    sha256:385eeb4ba9d9daa8b14b88b2d0e4f239f6bc9b4ef5957a9d6f0156a45670a001
 tags:
-  1.0.0--he881be0_0: sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066
+  1.0.0--he881be0_0: 
+    sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066
+  1.2.0--he881be0_0: 
+    sha256:385eeb4ba9d9daa8b14b88b2d0e4f239f6bc9b4ef5957a9d6f0156a45670a001
+  1.1.0--he881be0_0: 
+    sha256:9e42890ad53b4f8ab5d399ef41cd278f9f36795a2efcff6de138f240e6e4b417
 docker: quay.io/biocontainers/fa-lint
 aliases:
   fa-lint: /usr/local/bin/fa-lint

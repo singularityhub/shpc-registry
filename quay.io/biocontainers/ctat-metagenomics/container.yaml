@@ -1,15 +1,20 @@
 url: https://biocontainers.pro/tools/ctat-metagenomics
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for ctat-metagenomics
+description: shpc-registry automated BioContainers addition for 
+  ctat-metagenomics
 latest:
-  1.0.1--hdfd78af_4: sha256:69ce538bcc6fd685d8f429720febc4b74cca9ec93516e5a630d555c475495918
+  1.0.1--hdfd78af_4: 
+    sha256:69ce538bcc6fd685d8f429720febc4b74cca9ec93516e5a630d555c475495918
 tags:
-  1.0.1--hdfd78af_4: sha256:69ce538bcc6fd685d8f429720febc4b74cca9ec93516e5a630d555c475495918
+  1.0.1--hdfd78af_4: 
+    sha256:69ce538bcc6fd685d8f429720febc4b74cca9ec93516e5a630d555c475495918
 docker: quay.io/biocontainers/ctat-metagenomics
 aliases:
   centrifuge: /usr/local/bin/centrifuge
-  centrifuge-BuildSharedSequence.pl: /usr/local/bin/centrifuge-BuildSharedSequence.pl
-  centrifuge-RemoveEmptySequence.pl: /usr/local/bin/centrifuge-RemoveEmptySequence.pl
+  centrifuge-BuildSharedSequence.pl: 
+    /usr/local/bin/centrifuge-BuildSharedSequence.pl
+  centrifuge-RemoveEmptySequence.pl: 
+    /usr/local/bin/centrifuge-RemoveEmptySequence.pl
   centrifuge-RemoveN.pl: /usr/local/bin/centrifuge-RemoveN.pl
   centrifuge-build: /usr/local/bin/centrifuge-build
   centrifuge-build-bin: /usr/local/bin/centrifuge-build-bin

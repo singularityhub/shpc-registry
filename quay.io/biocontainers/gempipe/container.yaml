@@ -2,18 +2,29 @@ url: https://biocontainers.pro/tools/gempipe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gempipe
 latest:
-  1.38.1--pyhdfd78af_0: sha256:3f4ecf7235eeac54457fde89c463ba4cf8ba40c6243d522a16a2cece122af6df
+  1.38.1--pyhdfd78af_0: 
+    sha256:3f4ecf7235eeac54457fde89c463ba4cf8ba40c6243d522a16a2cece122af6df
 tags:
-  1.33.4--pyhdfd78af_0: sha256:d1095e4427fc39b5629de75d05841e1249df041c17af08c8bec8b0361c6eaa7b
-  1.34.2--pyhdfd78af_0: sha256:1f1f035b5645727e4c983f792c3a61ed0bcc768d53227d2bc9af94e7caff89b3
-  1.35.3--pyhdfd78af_0: sha256:caf1dd7687e098ee35b25c8c9843b3b9b6eb0d20b6674acf612fa8d1544638ab
-  1.37.0--pyhdfd78af_0: sha256:e2f0e80ee3824c17abe2f6e383690d9a423a5d21afa5607fd369fceadb380c54
-  1.36.0--pyhdfd78af_0: sha256:90ca61bb1737255ba1f2537966711e7809db529d53c287394b89d9efe09fd428
-  1.35.5--pyhdfd78af_0: sha256:4ee4efd02a4fa6b74efce6245e662fa78e90418a5b328b5d668a0e803475df16
-  1.37.4--pyhdfd78af_0: sha256:72c753abdef56975100f649cd82f4e4eb122cf0eea64f40d6ec7ead95e6ecd84
-  1.37.6--pyhdfd78af_0: sha256:e74a12a8c554fe92e596e836f6726a31aaa94851753e1ab1b0d4e539ce86c3c5
-  1.37.7--pyhdfd78af_0: sha256:d0f01894bb11bfb248e8e22cce9dbcec97c2591043da19c53da71d938590c9a6
-  1.38.1--pyhdfd78af_0: sha256:3f4ecf7235eeac54457fde89c463ba4cf8ba40c6243d522a16a2cece122af6df
+  1.33.4--pyhdfd78af_0: 
+    sha256:d1095e4427fc39b5629de75d05841e1249df041c17af08c8bec8b0361c6eaa7b
+  1.34.2--pyhdfd78af_0: 
+    sha256:1f1f035b5645727e4c983f792c3a61ed0bcc768d53227d2bc9af94e7caff89b3
+  1.35.3--pyhdfd78af_0: 
+    sha256:caf1dd7687e098ee35b25c8c9843b3b9b6eb0d20b6674acf612fa8d1544638ab
+  1.37.0--pyhdfd78af_0: 
+    sha256:e2f0e80ee3824c17abe2f6e383690d9a423a5d21afa5607fd369fceadb380c54
+  1.36.0--pyhdfd78af_0: 
+    sha256:90ca61bb1737255ba1f2537966711e7809db529d53c287394b89d9efe09fd428
+  1.35.5--pyhdfd78af_0: 
+    sha256:4ee4efd02a4fa6b74efce6245e662fa78e90418a5b328b5d668a0e803475df16
+  1.37.4--pyhdfd78af_0: 
+    sha256:72c753abdef56975100f649cd82f4e4eb122cf0eea64f40d6ec7ead95e6ecd84
+  1.37.6--pyhdfd78af_0: 
+    sha256:e74a12a8c554fe92e596e836f6726a31aaa94851753e1ab1b0d4e539ce86c3c5
+  1.37.7--pyhdfd78af_0: 
+    sha256:d0f01894bb11bfb248e8e22cce9dbcec97c2591043da19c53da71d938590c9a6
+  1.38.1--pyhdfd78af_0: 
+    sha256:3f4ecf7235eeac54457fde89c463ba4cf8ba40c6243d522a16a2cece122af6df
 docker: quay.io/biocontainers/gempipe
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
@@ -59,7 +70,8 @@ aliases:
   systematic-mutations: /usr/local/bin/systematic-mutations
   bamToWig.py: /usr/local/bin/bamToWig.py
   compare_masking.pl: /usr/local/bin/compare_masking.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   merge_masking.pl: /usr/local/bin/merge_masking.pl
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

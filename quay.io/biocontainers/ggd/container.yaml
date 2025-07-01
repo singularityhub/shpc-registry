@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ggd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ggd
 latest:
-  1.1.3--pyh3252c3a_0: sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
+  1.1.3--pyh3252c3a_0: 
+    sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
 tags:
-  1.1.3--pyh3252c3a_0: sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
+  1.1.3--pyh3252c3a_0: 
+    sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
 docker: quay.io/biocontainers/ggd
 aliases:
   bsdcat: /usr/local/bin/bsdcat

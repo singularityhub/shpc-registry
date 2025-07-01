@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/oncogemini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oncogemini
 latest:
-  1.0.0--pyh3252c3a_0: sha256:833ad1c2cfa1b7aa6d61f000d4de7f8ed9bc86c9e579f99b8852b7f7d1de76bd
+  1.0.0--pyh3252c3a_0: 
+    sha256:833ad1c2cfa1b7aa6d61f000d4de7f8ed9bc86c9e579f99b8852b7f7d1de76bd
 tags:
-  1.0.0--pyh3252c3a_0: sha256:833ad1c2cfa1b7aa6d61f000d4de7f8ed9bc86c9e579f99b8852b7f7d1de76bd
+  1.0.0--pyh3252c3a_0: 
+    sha256:833ad1c2cfa1b7aa6d61f000d4de7f8ed9bc86c9e579f99b8852b7f7d1de76bd
 docker: quay.io/biocontainers/oncogemini
 aliases:
   oncogemini: /usr/local/bin/oncogemini

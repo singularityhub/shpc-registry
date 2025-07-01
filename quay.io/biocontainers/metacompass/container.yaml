@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metacompass
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metacompass
 latest:
-  1.12--h9948957_0: sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
+  1.12--h9948957_0: 
+    sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
 tags:
-  1.12--h9948957_0: sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
+  1.12--h9948957_0: 
+    sha256:42054ac7f3fc2df10895e8504319e97a37fb88a8b81301e5a9c16280588c9e67
 docker: quay.io/biocontainers/metacompass
 aliases:
   go_metacompass.py: /usr/local/bin/go_metacompass.py

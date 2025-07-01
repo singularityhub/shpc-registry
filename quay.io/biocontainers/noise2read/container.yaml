@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/noise2read
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for noise2read
 latest:
-  0.3.0--pyhdfd78af_0: sha256:e1adb863909e5529cc6ce0ef8ce7eb1ef6beddb16f04cb58a8b224d0d793651e
+  0.3.0--pyhdfd78af_0: 
+    sha256:e1adb863909e5529cc6ce0ef8ce7eb1ef6beddb16f04cb58a8b224d0d793651e
 tags:
-  0.3.0--pyhdfd78af_0: sha256:e1adb863909e5529cc6ce0ef8ce7eb1ef6beddb16f04cb58a8b224d0d793651e
+  0.3.0--pyhdfd78af_0: 
+    sha256:e1adb863909e5529cc6ce0ef8ce7eb1ef6beddb16f04cb58a8b224d0d793651e
 docker: quay.io/biocontainers/noise2read
 aliases:
   alembic: /usr/local/bin/alembic

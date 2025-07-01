@@ -2,14 +2,17 @@ url: https://biocontainers.pro/tools/circlator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circlator
 latest:
-  1.5.5--py_3: sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
+  1.5.5--py_3: 
+    sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
 tags:
-  1.5.5--py_3: sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
+  1.5.5--py_3: 
+    sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
 docker: quay.io/biocontainers/circlator
 aliases:
   AMOScmp: /usr/local/bin/AMOScmp
   AMOScmp-shortReads: /usr/local/bin/AMOScmp-shortReads
-  AMOScmp-shortReads-alignmentTrimmed: /usr/local/bin/AMOScmp-shortReads-alignmentTrimmed
+  AMOScmp-shortReads-alignmentTrimmed: 
+    /usr/local/bin/AMOScmp-shortReads-alignmentTrimmed
   Bundler: /usr/local/bin/Bundler
   Chainer: /usr/local/bin/Chainer
   FRCurve: /usr/local/bin/FRCurve
@@ -215,7 +218,8 @@ aliases:
   postCAqc: /usr/local/bin/postCAqc
   preTA: /usr/local/bin/preTA
   preassembleFrgs: /usr/local/bin/preassembleFrgs
-  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
+  prefixEditDistance-matchLimitGenerate: 
+    /usr/local/bin/prefixEditDistance-matchLimitGenerate
   printScaff: /usr/local/bin/printScaff
   pullTArchive: /usr/local/bin/pullTArchive
   pyrosim: /usr/local/bin/pyrosim

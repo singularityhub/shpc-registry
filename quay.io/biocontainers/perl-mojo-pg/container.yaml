@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-mojo-pg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-mojo-pg
 latest:
-  4.27--pl5321hdfd78af_0: sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40
+  4.27--pl5321hdfd78af_0: 
+    sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40
 tags:
-  4.27--pl5321hdfd78af_0: sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40
+  4.27--pl5321hdfd78af_0: 
+    sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40
 docker: quay.io/biocontainers/perl-mojo-pg
 aliases:
   hypnotoad: /usr/local/bin/hypnotoad

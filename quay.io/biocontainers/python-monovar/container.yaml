@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/python-monovar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for python-monovar
 latest:
-  0.1--hdfd78af_0: sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
+  0.1--hdfd78af_0: 
+    sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
 tags:
-  0.1--hdfd78af_0: sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
+  0.1--hdfd78af_0: 
+    sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
 docker: quay.io/biocontainers/python-monovar
 aliases:
   monovar.py: /usr/local/bin/monovar.py

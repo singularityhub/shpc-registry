@@ -2,14 +2,23 @@ url: https://biocontainers.pro/tools/lsabgc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lsabgc
 latest:
-  1.1.3--pyh7e72e81_0: sha256:d19bdfd1828b2600a1da22c4e946ce0b76e9423e7c6f496cf189dc9e5c8e56a7
+  1.1.4--pyh7e72e81_0: 
+    sha256:4ba695ce3aa38a70a4f5ec5702ed5d958d0cf97cd3f685f604a8a2ecf8a5bee1
 tags:
-  1.0.5--pyh7e72e81_0: sha256:59344015d94d3d2475aa5912131dcc3a8af2dbaee765b47db964e902383d9ff9
-  1.1.2--pyh7e72e81_0: sha256:22eafb773c9634bdf54ff6867eac7c86bdf41b358f3d548ac7110d5f2459b535
-  1.0.9--pyh7e72e81_0: sha256:ab311548f45f1c2381058ed7a892ba3d7e561a10f110f3ce8845a8a3432ed130
-  1.1.2--pyh7e72e81_1: sha256:960ec8c89716370022665f03f56f6d103c952d02af73d71ecb54bc7cfc7c7ac4
-  1.1.2--pyh7e72e81_3: sha256:16840995291b7cf7e4f9b5e8bae1900fbd7d3c14dca3a12703501c998347876b
-  1.1.3--pyh7e72e81_0: sha256:d19bdfd1828b2600a1da22c4e946ce0b76e9423e7c6f496cf189dc9e5c8e56a7
+  1.0.5--pyh7e72e81_0: 
+    sha256:59344015d94d3d2475aa5912131dcc3a8af2dbaee765b47db964e902383d9ff9
+  1.1.2--pyh7e72e81_0: 
+    sha256:22eafb773c9634bdf54ff6867eac7c86bdf41b358f3d548ac7110d5f2459b535
+  1.0.9--pyh7e72e81_0: 
+    sha256:ab311548f45f1c2381058ed7a892ba3d7e561a10f110f3ce8845a8a3432ed130
+  1.1.2--pyh7e72e81_1: 
+    sha256:960ec8c89716370022665f03f56f6d103c952d02af73d71ecb54bc7cfc7c7ac4
+  1.1.2--pyh7e72e81_3: 
+    sha256:16840995291b7cf7e4f9b5e8bae1900fbd7d3c14dca3a12703501c998347876b
+  1.1.3--pyh7e72e81_0: 
+    sha256:d19bdfd1828b2600a1da22c4e946ce0b76e9423e7c6f496cf189dc9e5c8e56a7
+  1.1.4--pyh7e72e81_0: 
+    sha256:4ba695ce3aa38a70a4f5ec5702ed5d958d0cf97cd3f685f604a8a2ecf8a5bee1
 docker: quay.io/biocontainers/lsabgc
 aliases:
   GSeeF: /usr/local/bin/GSeeF
@@ -27,12 +36,15 @@ aliases:
   cgc: /usr/local/bin/cgc
   clusterHeatmap.R: /usr/local/bin/clusterHeatmap.R
   codoff: /usr/local/bin/codoff
-  convertMiniprotGffToGbkAndProt.py: /usr/local/bin/convertMiniprotGffToGbkAndProt.py
-  convert_orthofinder_tree_ids.py: /usr/local/bin/convert_orthofinder_tree_ids.py
+  convertMiniprotGffToGbkAndProt.py: 
+    /usr/local/bin/convertMiniprotGffToGbkAndProt.py
+  convert_orthofinder_tree_ids.py: 
+    /usr/local/bin/convert_orthofinder_tree_ids.py
   enet_predict_pyseer: /usr/local/bin/enet_predict_pyseer
   extractBiG-SCAPEclusters.py: /usr/local/bin/extractBiG-SCAPEclusters.py
   fai: /usr/local/bin/fai
-  fastgenomicsNeighborhoodToGenBanks.py: /usr/local/bin/fastgenomicsNeighborhoodToGenBanks.py
+  fastgenomicsNeighborhoodToGenBanks.py: 
+    /usr/local/bin/fastgenomicsNeighborhoodToGenBanks.py
   fastme: /usr/local/bin/fastme
   findOrthologs.py: /usr/local/bin/findOrthologs.py
   fsa2xml: /usr/local/bin/fsa2xml
@@ -64,7 +76,8 @@ aliases:
   popstrat: /usr/local/bin/popstrat
   prepTG: /usr/local/bin/prepTG
   primary_transcript.py: /usr/local/bin/primary_transcript.py
-  processAndReformatUserProvidedGenbanks.py: /usr/local/bin/processAndReformatUserProvidedGenbanks.py
+  processAndReformatUserProvidedGenbanks.py: 
+    /usr/local/bin/processAndReformatUserProvidedGenbanks.py
   processNCBIGenBank.py: /usr/local/bin/processNCBIGenBank.py
   prodigal-gv: /usr/local/bin/prodigal-gv
   pyseer: /usr/local/bin/pyseer
@@ -75,7 +88,8 @@ aliases:
   rcl-relevel.pl: /usr/local/bin/rcl-relevel.pl
   rcl-select.pl: /usr/local/bin/rcl-select.pl
   rcldo.pl: /usr/local/bin/rcldo.pl
-  runProdigalAndMakeProperGenbank.py: /usr/local/bin/runProdigalAndMakeProperGenbank.py
+  runProdigalAndMakeProperGenbank.py: 
+    /usr/local/bin/runProdigalAndMakeProperGenbank.py
   runRBH: /usr/local/bin/runRBH
   salt: /usr/local/bin/salt
   salt_gc_vs_ribo_aai.R: /usr/local/bin/salt_gc_vs_ribo_aai.R

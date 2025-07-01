@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ccne
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ccne
 latest:
-  1.1.2--hdfd78af_0: sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
+  1.1.2--hdfd78af_0: 
+    sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
 tags:
-  1.1.2--hdfd78af_0: sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
+  1.1.2--hdfd78af_0: 
+    sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
 docker: quay.io/biocontainers/ccne
 aliases:
   alignmentSieve: /usr/local/bin/alignmentSieve

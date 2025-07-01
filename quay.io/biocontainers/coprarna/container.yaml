@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/coprarna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coprarna
 latest:
-  2.1.4--hdfd78af_0: sha256:bfb26f26c82780b4744c1045cabc9ea717f8fb5d91af9ea211f80ffd2bc3e4ce
+  2.1.4--hdfd78af_0: 
+    sha256:bfb26f26c82780b4744c1045cabc9ea717f8fb5d91af9ea211f80ffd2bc3e4ce
 tags:
-  2.1.4--hdfd78af_0: sha256:bfb26f26c82780b4744c1045cabc9ea717f8fb5d91af9ea211f80ffd2bc3e4ce
+  2.1.4--hdfd78af_0: 
+    sha256:bfb26f26c82780b4744c1045cabc9ea717f8fb5d91af9ea211f80ffd2bc3e4ce
 docker: quay.io/biocontainers/coprarna
 aliases:
   CopraRNA2.pl: /usr/local/bin/CopraRNA2.pl

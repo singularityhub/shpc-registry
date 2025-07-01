@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/voluptuous
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for voluptuous
 latest:
-  0.8.8--py35_0: sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb
+  0.8.8--py35_0: 
+    sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb
 tags:
-  0.8.8--py35_0: sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb
-  0.8.8--py36_0: sha256:e526b18575d30120ad887ebcd1bc0fc39731ac228810369de952e7e8941dea57
+  0.8.8--py35_0: 
+    sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb
+  0.8.8--py36_0: 
+    sha256:e526b18575d30120ad887ebcd1bc0fc39731ac228810369de952e7e8941dea57
 docker: quay.io/biocontainers/voluptuous
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

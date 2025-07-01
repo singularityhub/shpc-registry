@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-flowspy
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-flowspy
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-flowspy
 latest:
-  1.4.0--r40h399db7b_2: sha256:c7c50ccd79ba04b6c989d2914f094b1b752dca37a093479ada94e82ec32bca0e
+  1.4.0--r40h399db7b_2: 
+    sha256:c7c50ccd79ba04b6c989d2914f094b1b752dca37a093479ada94e82ec32bca0e
 tags:
-  1.4.0--r40h399db7b_2: sha256:c7c50ccd79ba04b6c989d2914f094b1b752dca37a093479ada94e82ec32bca0e
+  1.4.0--r40h399db7b_2: 
+    sha256:c7c50ccd79ba04b6c989d2914f094b1b752dca37a093479ada94e82ec32bca0e
 docker: quay.io/biocontainers/bioconductor-flowspy
 aliases:
   pandoc: /usr/local/bin/pandoc
@@ -14,4 +17,5 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

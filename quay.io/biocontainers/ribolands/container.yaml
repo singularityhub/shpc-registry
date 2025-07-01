@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ribolands
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ribolands
 latest:
-  0.6.1--py_0: sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
+  0.6.1--py_0: 
+    sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
 tags:
-  0.6.1--py_0: sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
+  0.6.1--py_0: 
+    sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
 docker: quay.io/biocontainers/ribolands
 aliases:
   BarMap.py: /usr/local/bin/BarMap.py

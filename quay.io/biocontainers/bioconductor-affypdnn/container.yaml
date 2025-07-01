@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-affypdnn
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-affypdnn
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-affypdnn
 latest:
-  1.60.0--r36_0: sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9
+  1.60.0--r36_0: 
+    sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9
 tags:
-  1.60.0--r36_0: sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9
+  1.60.0--r36_0: 
+    sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9
 docker: quay.io/biocontainers/bioconductor-affypdnn
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

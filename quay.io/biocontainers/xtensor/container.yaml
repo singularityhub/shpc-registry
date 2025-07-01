@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/xtensor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xtensor
 latest:
-  0.19.1: sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f
+  0.19.1: 
+    sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f
 tags:
-  0.19.1: sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f
+  0.19.1: 
+    sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f
 docker: quay.io/biocontainers/xtensor

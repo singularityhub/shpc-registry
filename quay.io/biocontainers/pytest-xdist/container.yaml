@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/pytest-xdist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pytest-xdist
 latest:
-  1.14--py36_0: sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90
+  1.14--py36_0: 
+    sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90
 tags:
-  1.14--py36_0: sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90
-  1.14--py35_0: sha256:6d96e1396d4cfb2bec5658147176bf616de09cf623c1576bc5d47e28e6d5291b
+  1.14--py36_0: 
+    sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90
+  1.14--py35_0: 
+    sha256:6d96e1396d4cfb2bec5658147176bf616de09cf623c1576bc5d47e28e6d5291b
 docker: quay.io/biocontainers/pytest-xdist
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

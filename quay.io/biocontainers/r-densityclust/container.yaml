@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-densityclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-densityclust
 latest:
-  0.2.1--r3.3.1_0: sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76
+  0.2.1--r3.3.1_0: 
+    sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76
 tags:
-  0.2.1--r3.3.1_0: sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76
-  0.2.1--r3.3.2_0: sha256:ab36073784f635a5ebbbc72631e36fec98ed900479cccad319a8ca3a87ac6163
+  0.2.1--r3.3.1_0: 
+    sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76
+  0.2.1--r3.3.2_0: 
+    sha256:ab36073784f635a5ebbbc72631e36fec98ed900479cccad319a8ca3a87ac6163
 docker: quay.io/biocontainers/r-densityclust
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mydbfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mydbfinder
 latest:
-  1.0.5--hdfd78af_0: sha256:c6cba933ac6348f1cb532533a060f16debc740a86c604dd7d14da09ef6b86d42
+  1.0.5--hdfd78af_0: 
+    sha256:c6cba933ac6348f1cb532533a060f16debc740a86c604dd7d14da09ef6b86d42
 tags:
-  1.0.5--hdfd78af_0: sha256:c6cba933ac6348f1cb532533a060f16debc740a86c604dd7d14da09ef6b86d42
+  1.0.5--hdfd78af_0: 
+    sha256:c6cba933ac6348f1cb532533a060f16debc740a86c604dd7d14da09ef6b86d42
 docker: quay.io/biocontainers/mydbfinder
 aliases:
   curate_database.py: /usr/local/bin/curate_database.py

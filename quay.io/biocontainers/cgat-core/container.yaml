@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cgat-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgat-core
 latest:
-  0.5.14--py_0: sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036
+  0.5.14--py_0: 
+    sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036
 tags:
-  0.5.14--py_0: sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036
+  0.5.14--py_0: 
+    sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036
 docker: quay.io/biocontainers/cgat-core
 aliases:
   time: /usr/local/bin/time

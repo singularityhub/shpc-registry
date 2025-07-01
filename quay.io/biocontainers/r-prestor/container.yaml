@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-prestor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-prestor
 latest:
-  0.0.5--r36_0: sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72
+  0.0.5--r36_0: 
+    sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72
 tags:
-  0.0.5--r36_0: sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72
+  0.0.5--r36_0: 
+    sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72
 docker: quay.io/biocontainers/r-prestor
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

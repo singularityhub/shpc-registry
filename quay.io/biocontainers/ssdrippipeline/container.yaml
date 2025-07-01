@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ssdrippipeline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ssdrippipeline
 latest:
-  0.0.5--kuan: sha256:27374442467d8d83d60c5569e40ad48941eb78dd4540932f2e6fee479c4ac3c4
+  0.0.5--kuan: 
+    sha256:27374442467d8d83d60c5569e40ad48941eb78dd4540932f2e6fee479c4ac3c4
 tags:
-  0.0.5--kuan: sha256:27374442467d8d83d60c5569e40ad48941eb78dd4540932f2e6fee479c4ac3c4
+  0.0.5--kuan: 
+    sha256:27374442467d8d83d60c5569e40ad48941eb78dd4540932f2e6fee479c4ac3c4
 docker: quay.io/biocontainers/ssdrippipeline
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl
@@ -106,7 +108,8 @@ aliases:
   getDiffExpression.pl: /usr/local/bin/getDiffExpression.pl
   getDifferentialBedGraph.pl: /usr/local/bin/getDifferentialBedGraph.pl
   getDifferentialPeaks: /usr/local/bin/getDifferentialPeaks
-  getDifferentialPeaksReplicates.pl: /usr/local/bin/getDifferentialPeaksReplicates.pl
+  getDifferentialPeaksReplicates.pl: 
+    /usr/local/bin/getDifferentialPeaksReplicates.pl
   getDistalPeaks.pl: /usr/local/bin/getDistalPeaks.pl
   getFocalPeaks.pl: /usr/local/bin/getFocalPeaks.pl
   getGWASoverlap.pl: /usr/local/bin/getGWASoverlap.pl

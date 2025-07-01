@@ -1,8 +1,11 @@
 url: https://biocontainers.pro/tools/bioconductor-pcagopromoter
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-pcagopromoter
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-pcagopromoter
 latest:
-  1.30.0--r36_0: sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2
+  1.30.0--r36_0: 
+    sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2
 tags:
-  1.30.0--r36_0: sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2
+  1.30.0--r36_0: 
+    sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2
 docker: quay.io/biocontainers/bioconductor-pcagopromoter

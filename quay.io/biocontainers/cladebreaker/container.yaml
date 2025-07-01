@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cladebreaker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cladebreaker
 latest:
-  0.2.3--py39hdfd78af_0: sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835
+  0.2.3--py39hdfd78af_0: 
+    sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835
 tags:
-  0.2.3--py39hdfd78af_0: sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835
+  0.2.3--py39hdfd78af_0: 
+    sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835
 docker: quay.io/biocontainers/cladebreaker
 aliases:
   check_samplesheet.py: /usr/local/bin/check_samplesheet.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-go-perl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-go-perl
 latest:
-  0.15--pl5321hdfd78af_4: sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
+  0.15--pl5321hdfd78af_4: 
+    sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
 tags:
-  0.15--pl5321hdfd78af_4: sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
+  0.15--pl5321hdfd78af_4: 
+    sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
 docker: quay.io/biocontainers/perl-go-perl
 aliases:
   go-apply-xslt: /usr/local/bin/go-apply-xslt

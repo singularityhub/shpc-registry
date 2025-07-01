@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pirs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pirs
 latest:
-  2.0.2--h466657f_6: sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
+  2.0.2--h466657f_6: 
+    sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
 tags:
-  2.0.2--h466657f_6: sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
+  2.0.2--h466657f_6: 
+    sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
 docker: quay.io/biocontainers/pirs
 aliases:
   2bwt-builder: /usr/local/bin/2bwt-builder
