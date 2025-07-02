@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/quicksnp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quicksnp
 latest:
-  1.0.1--py311hdfd78af_0: sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
+  1.0.1--py311hdfd78af_0: 
+    sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
 tags:
-  1.0.1--py311hdfd78af_0: sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
+  1.0.1--py311hdfd78af_0: 
+    sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
 docker: quay.io/biocontainers/quicksnp
 aliases:
   QuickSNP.py: /usr/local/bin/QuickSNP.py

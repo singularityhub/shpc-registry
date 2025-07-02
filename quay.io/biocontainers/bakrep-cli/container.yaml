@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bakrep-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bakrep-cli
 latest:
-  1.0.0--pyhdfd78af_0: sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2
+  1.1.0--pyhdfd78af_0: 
+    sha256:3c5d4137af8fde859315a3eb3825f6cbdbd7cf64f09909bcc0f435fc4f2898e4
 tags:
-  1.0.0--pyhdfd78af_0: sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2
+  1.0.0--pyhdfd78af_0: 
+    sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2
+  1.1.0--pyhdfd78af_0: 
+    sha256:3c5d4137af8fde859315a3eb3825f6cbdbd7cf64f09909bcc0f435fc4f2898e4
 docker: quay.io/biocontainers/bakrep-cli
 aliases:
   bakrep: /usr/local/bin/bakrep

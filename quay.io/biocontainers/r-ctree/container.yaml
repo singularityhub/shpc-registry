@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-ctree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-ctree
 latest:
-  1.1.0--r44hdfd78af_0: sha256:74b16c0dd669ab385fc9f471c859b7f85c783885e4560242f22beec4d509d8b3
+  1.1.0--r44hdfd78af_0: 
+    sha256:74b16c0dd669ab385fc9f471c859b7f85c783885e4560242f22beec4d509d8b3
 tags:
-  1.1.0--r44hdfd78af_0: sha256:74b16c0dd669ab385fc9f471c859b7f85c783885e4560242f22beec4d509d8b3
+  1.1.0--r44hdfd78af_0: 
+    sha256:74b16c0dd669ab385fc9f471c859b7f85c783885e4560242f22beec4d509d8b3
 docker: quay.io/biocontainers/r-ctree
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

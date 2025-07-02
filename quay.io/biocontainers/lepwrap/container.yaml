@@ -2,16 +2,21 @@ url: https://biocontainers.pro/tools/lepwrap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lepwrap
 latest:
-  4.0.1--hdfd78af_0: sha256:89a2b06635972d79052a229373b8744176238bda9d1db82a1425ec30265f982c
+  5.0--hdfd78af_0: 
+    sha256:27b8a73da4791abc20b41da0fab02110210fbbfda3460ad083dbf836aeb14563
 tags:
-  4.0.1--hdfd78af_0: sha256:89a2b06635972d79052a229373b8744176238bda9d1db82a1425ec30265f982c
+  4.0.1--hdfd78af_0: 
+    sha256:89a2b06635972d79052a229373b8744176238bda9d1db82a1425ec30265f982c
+  5.0--hdfd78af_0: 
+    sha256:27b8a73da4791abc20b41da0fab02110210fbbfda3460ad083dbf836aeb14563
 docker: quay.io/biocontainers/lepwrap
 aliases:
   COPYING: /usr/local/bin/COPYING
   FilterLinkageMap.r: /usr/local/bin/FilterLinkageMap.r
   HM_all_lastz_mThreads.pl: /usr/local/bin/HM_all_lastz_mThreads.pl
   HM_axtChainRecipBestNet.pl: /usr/local/bin/HM_axtChainRecipBestNet.pl
-  HM_axtChainRecipBestNet_fixed3.pl: /usr/local/bin/HM_axtChainRecipBestNet_fixed3.pl
+  HM_axtChainRecipBestNet_fixed3.pl: 
+    /usr/local/bin/HM_axtChainRecipBestNet_fixed3.pl
   LASummary.r: /usr/local/bin/LASummary.r
   LASummarySexAvg.r: /usr/local/bin/LASummarySexAvg.r
   LGcutoff.sh: /usr/local/bin/LGcutoff.sh
@@ -152,7 +157,8 @@ aliases:
   pulptest: /usr/local/bin/pulptest
   cbc: /usr/local/bin/cbc
   clp: /usr/local/bin/clp
-  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config

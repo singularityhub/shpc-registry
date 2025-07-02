@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-moosex-nonmoose
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-moosex-nonmoose
+description: shpc-registry automated BioContainers addition for 
+  perl-moosex-nonmoose
 latest:
-  0.26--pl5321hdfd78af_4: sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac
+  0.26--pl5321hdfd78af_4: 
+    sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac
 tags:
-  0.26--pl5321hdfd78af_4: sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac
+  0.26--pl5321hdfd78af_4: 
+    sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac
 docker: quay.io/biocontainers/perl-moosex-nonmoose
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

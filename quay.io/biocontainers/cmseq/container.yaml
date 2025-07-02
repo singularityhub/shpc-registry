@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cmseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cmseq
 latest:
-  1.0.4--pyhb7b1952_0: sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16
+  1.0.4--pyhb7b1952_0: 
+    sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16
 tags:
-  1.0.4--pyhb7b1952_0: sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16
+  1.0.4--pyhb7b1952_0: 
+    sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16
 docker: quay.io/biocontainers/cmseq
 aliases:
   breadth_depth.py: /usr/local/bin/breadth_depth.py
@@ -12,7 +14,8 @@ aliases:
   consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

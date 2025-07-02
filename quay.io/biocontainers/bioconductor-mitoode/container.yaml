@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-mitoode
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mitoode
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mitoode
 latest:
-  1.25.0--r40h037d062_0: sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977
+  1.25.0--r40h037d062_0: 
+    sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977
 tags:
-  1.25.0--r40h037d062_0: sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977
+  1.25.0--r40h037d062_0: 
+    sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977
 docker: quay.io/biocontainers/bioconductor-mitoode
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

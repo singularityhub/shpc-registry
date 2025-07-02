@@ -2,15 +2,19 @@ url: https://biocontainers.pro/tools/transposonpsi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for transposonpsi
 latest:
-  1.0.0--hdfd78af_3: sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3
+  1.0.0--hdfd78af_3: 
+    sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3
 tags:
-  1.0.0--hdfd78af_2: sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada
-  1.0.0--hdfd78af_3: sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3
+  1.0.0--hdfd78af_2: 
+    sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada
+  1.0.0--hdfd78af_3: 
+    sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3
 docker: quay.io/biocontainers/transposonpsi
 aliases:
   BPbtab: /usr/local/bin/BPbtab
   TBLASTN_hit_chainer.pl: /usr/local/bin/TBLASTN_hit_chainer.pl
-  TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl: /usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl
+  TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl: 
+    /usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl
   TPSI_btab_to_gff3.pl: /usr/local/bin/TPSI_btab_to_gff3.pl
   TPSI_chains_to_fasta.pl: /usr/local/bin/TPSI_chains_to_fasta.pl
   TPSI_chains_to_gff3.pl: /usr/local/bin/TPSI_chains_to_gff3.pl

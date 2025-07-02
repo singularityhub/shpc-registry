@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ssuissero
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ssuissero
 latest:
-  1.0.1--hdfd78af_1: sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
+  1.0.1--hdfd78af_1: 
+    sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
 tags:
-  1.0.1--hdfd78af_1: sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
+  1.0.1--hdfd78af_1: 
+    sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
 docker: quay.io/biocontainers/ssuissero
 aliases:
   SsuisSero.sh: /usr/local/bin/SsuisSero.sh

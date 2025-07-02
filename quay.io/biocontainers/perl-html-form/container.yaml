@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/perl-html-form
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-html-form
 latest:
-  6.07--pl5321hdfd78af_0: sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6
+  6.11--pl5321hdfd78af_0: 
+    sha256:7f8d6a2a77012d8ea855d4c33729b293495ad0aff31f3c5c6112e1da273f1940
 tags:
-  6.07--pl5321hdfd78af_0: sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6
+  6.07--pl5321hdfd78af_0: 
+    sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6
+  6.11--pl5321hdfd78af_0: 
+    sha256:7f8d6a2a77012d8ea855d4c33729b293495ad0aff31f3c5c6112e1da273f1940
 docker: quay.io/biocontainers/perl-html-form
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -1,11 +1,15 @@
 url: https://biocontainers.pro/tools/bioconductor-pathwaysplice
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-pathwaysplice
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-pathwaysplice
 latest:
-  1.10.0--r36_0: sha256:8fcb69f6cffec24ca02ae37d94ff8baa91481de1af6f12d259f5e9d8e4945438
+  1.10.0--r36_0: 
+    sha256:8fcb69f6cffec24ca02ae37d94ff8baa91481de1af6f12d259f5e9d8e4945438
 tags:
-  1.8.0--r36_1: sha256:ab5b603c917566b3ae73ee123f084191b4cd8aeee393ef3de14da8bcc301804a
-  1.10.0--r36_0: sha256:8fcb69f6cffec24ca02ae37d94ff8baa91481de1af6f12d259f5e9d8e4945438
+  1.8.0--r36_1: 
+    sha256:ab5b603c917566b3ae73ee123f084191b4cd8aeee393ef3de14da8bcc301804a
+  1.10.0--r36_0: 
+    sha256:8fcb69f6cffec24ca02ae37d94ff8baa91481de1af6f12d259f5e9d8e4945438
 docker: quay.io/biocontainers/bioconductor-pathwaysplice
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

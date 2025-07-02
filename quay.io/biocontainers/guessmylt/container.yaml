@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/guessmylt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for guessmylt
 latest:
-  0.2.5--py_0: sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
+  0.2.5--py_0: 
+    sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
 tags:
-  0.2.5--py_0: sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
+  0.2.5--py_0: 
+    sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
 docker: quay.io/biocontainers/guessmylt
 aliases:
   GUESSmyLT: /usr/local/bin/GUESSmyLT
@@ -14,9 +16,12 @@ aliases:
   Trinity: /usr/local/bin/Trinity
   TrinityStats.pl: /usr/local/bin/TrinityStats.pl
   Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
-  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
-  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
-  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  abundance_estimates_to_matrix.pl: 
+    /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: 
+    /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: 
+    /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
   analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
   augustus2browser.pl: /usr/local/bin/augustus2browser.pl
   augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
@@ -39,7 +44,8 @@ aliases:
   clusterAndSplitGenes.pl: /usr/local/bin/clusterAndSplitGenes.pl
   contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
   createAugustusJoblist.pl: /usr/local/bin/createAugustusJoblist.pl
-  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  define_clusters_by_cutting_tree.pl: 
+    /usr/local/bin/define_clusters_by_cutting_tree.pl
   del_from_prfl.pl: /usr/local/bin/del_from_prfl.pl
   espoca: /usr/local/bin/espoca
   evalCGP.pl: /usr/local/bin/evalCGP.pl
@@ -47,11 +53,13 @@ aliases:
   exonerate2hints.pl: /usr/local/bin/exonerate2hints.pl
   exoniphyDb2hints.pl: /usr/local/bin/exoniphyDb2hints.pl
   extractTranscriptEnds.pl: /usr/local/bin/extractTranscriptEnds.pl
-  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  extract_supertranscript_from_reference.py: 
+    /usr/local/bin/extract_supertranscript_from_reference.py
   filter-ppx.pl: /usr/local/bin/filter-ppx.pl
   filterGenes.pl: /usr/local/bin/filterGenes.pl
   filterGenesIn_mRNAname.pl: /usr/local/bin/filterGenesIn_mRNAname.pl
-  filterGenesIn_mRNAname.pl.patch: /usr/local/bin/filterGenesIn_mRNAname.pl.patch
+  filterGenesIn_mRNAname.pl.patch: 
+    /usr/local/bin/filterGenesIn_mRNAname.pl.patch
   filterGenesOut_mRNAname.pl: /usr/local/bin/filterGenesOut_mRNAname.pl
   filterInFrameStopCodons.pl: /usr/local/bin/filterInFrameStopCodons.pl
   filterMaf.pl: /usr/local/bin/filterMaf.pl
@@ -66,7 +74,8 @@ aliases:
   generate_plot.py: /usr/local/bin/generate_plot.py
   getAnnoFasta.pl: /usr/local/bin/getAnnoFasta.pl
   getSeq: /usr/local/bin/getSeq
-  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  get_Trinity_gene_to_trans_map.pl: 
+    /usr/local/bin/get_Trinity_gene_to_trans_map.pl
   gff2gbSmallDNA.pl: /usr/local/bin/gff2gbSmallDNA.pl
   gff2ps_mycustom: /usr/local/bin/gff2ps_mycustom
   gffGetmRNA.pl: /usr/local/bin/gffGetmRNA.pl
@@ -102,16 +111,20 @@ aliases:
   pslMap.pl: /usr/local/bin/pslMap.pl
   randomSplit.pl: /usr/local/bin/randomSplit.pl
   ratewig.pl: /usr/local/bin/ratewig.pl
-  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  retrieve_sequences_from_fasta.pl: 
+    /usr/local/bin/retrieve_sequences_from_fasta.pl
   retroDB2hints.pl: /usr/local/bin/retroDB2hints.pl
   rmRedundantHints.pl: /usr/local/bin/rmRedundantHints.pl
   runAllSim4.pl: /usr/local/bin/runAllSim4.pl
   run_BUSCO.py: /usr/local/bin/run_BUSCO.py
   run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
-  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
-  run_Trinity_from_samples_file.pl: /usr/local/bin/run_Trinity_from_samples_file.pl
+  run_DE_analysis_from_samples_file.pl: 
+    /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  run_Trinity_from_samples_file.pl: 
+    /usr/local/bin/run_Trinity_from_samples_file.pl
   run_busco: /usr/local/bin/run_busco
-  run_expr_quantification_from_samples_file.pl: /usr/local/bin/run_expr_quantification_from_samples_file.pl
+  run_expr_quantification_from_samples_file.pl: 
+    /usr/local/bin/run_expr_quantification_from_samples_file.pl
   samMap.pl: /usr/local/bin/samMap.pl
   scipiogff2gff.pl: /usr/local/bin/scipiogff2gff.pl
   seqtk-trinity: /usr/local/bin/seqtk-trinity

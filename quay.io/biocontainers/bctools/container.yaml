@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bctools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bctools
 latest:
-  0.2.2--2: sha256:c80fd13aa1b90b803ac327c1ca0df62a2f3219514acac984330d5a494434904a
+  0.2.2--2: 
+    sha256:c80fd13aa1b90b803ac327c1ca0df62a2f3219514acac984330d5a494434904a
 tags:
-  0.2.2--2: sha256:c80fd13aa1b90b803ac327c1ca0df62a2f3219514acac984330d5a494434904a
+  0.2.2--2: 
+    sha256:c80fd13aa1b90b803ac327c1ca0df62a2f3219514acac984330d5a494434904a
 docker: quay.io/biocontainers/bctools
 aliases:
   convert_bc_to_binary_RY.py: /usr/local/bin/convert_bc_to_binary_RY.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/mpa-server
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mpa-server
 latest:
-  3.4--hdfd78af_3: sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
+  3.4--hdfd78af_3: 
+    sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
 tags:
-  3.4--hdfd78af_3: sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
+  3.4--hdfd78af_3: 
+    sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
 docker: quay.io/biocontainers/mpa-server
 aliases:
   cpp: /usr/local/bin/cpp

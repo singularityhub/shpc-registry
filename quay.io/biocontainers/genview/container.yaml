@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/genview
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genview
 latest:
-  0.2--pyhdfd78af_0: sha256:1ea55dfb61eb4a4f0663fd8454cd57d9881903cdc8c167aed9ad87c0b14fb331
+  0.2--pyhdfd78af_0: 
+    sha256:1ea55dfb61eb4a4f0663fd8454cd57d9881903cdc8c167aed9ad87c0b14fb331
 tags:
-  0.2--pyhdfd78af_0: sha256:1ea55dfb61eb4a4f0663fd8454cd57d9881903cdc8c167aed9ad87c0b14fb331
+  0.2--pyhdfd78af_0: 
+    sha256:1ea55dfb61eb4a4f0663fd8454cd57d9881903cdc8c167aed9ad87c0b14fb331
 docker: quay.io/biocontainers/genview
 aliases:
   genview-makedb: /usr/local/bin/genview-makedb

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-upsetr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-upsetr
 latest:
-  1.0.3--r3.3.1_1: sha256:68823e9a7e86ab178728063ef77f37cee8a926212011c4323954682f2d7ab706
+  1.0.3--r3.3.1_1: 
+    sha256:68823e9a7e86ab178728063ef77f37cee8a926212011c4323954682f2d7ab706
 tags:
-  1.0.3--r3.3.1_1: sha256:68823e9a7e86ab178728063ef77f37cee8a926212011c4323954682f2d7ab706
-  1.0.3--r3.3.2_1: sha256:f9bba618f5d8fa90c4e872729fbd1946c1e1b99f12e69f1d58ab6412ed28c5bf
+  1.0.3--r3.3.1_1: 
+    sha256:68823e9a7e86ab178728063ef77f37cee8a926212011c4323954682f2d7ab706
+  1.0.3--r3.3.2_1: 
+    sha256:f9bba618f5d8fa90c4e872729fbd1946c1e1b99f12e69f1d58ab6412ed28c5bf
 docker: quay.io/biocontainers/r-upsetr
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

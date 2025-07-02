@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-rtsne
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rtsne
 latest:
-  0.13--r3.3.2_0: sha256:f387066bdd0ca9c807fd49ac978b61a2dda15fde8b4eed36a2b6e83df90122c0
+  0.13--r3.3.2_0: 
+    sha256:f387066bdd0ca9c807fd49ac978b61a2dda15fde8b4eed36a2b6e83df90122c0
 tags:
-  0.13--r3.3.2_0: sha256:f387066bdd0ca9c807fd49ac978b61a2dda15fde8b4eed36a2b6e83df90122c0
-  0.13--r3.3.1_0: sha256:172f51dfbefcf795e4043bb55168fcf2a6898a767298b917ec4e353bff09b294
+  0.13--r3.3.2_0: 
+    sha256:f387066bdd0ca9c807fd49ac978b61a2dda15fde8b4eed36a2b6e83df90122c0
+  0.13--r3.3.1_0: 
+    sha256:172f51dfbefcf795e4043bb55168fcf2a6898a767298b917ec4e353bff09b294
 docker: quay.io/biocontainers/r-rtsne
 aliases:
   uconv: /usr/local/bin/uconv

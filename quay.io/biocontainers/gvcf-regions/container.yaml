@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gvcf-regions
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gvcf-regions
 latest:
-  2016.06.23--py_1: sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836
+  2016.06.23--py_1: 
+    sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836
 tags:
-  2016.06.23--py_1: sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836
+  2016.06.23--py_1: 
+    sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836
 docker: quay.io/biocontainers/gvcf-regions
 aliases:
   gvcf_regions.py: /usr/local/bin/gvcf_regions.py

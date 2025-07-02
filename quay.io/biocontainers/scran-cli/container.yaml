@@ -2,18 +2,23 @@ url: https://biocontainers.pro/tools/scran-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scran-cli
 latest:
-  v0.0.1--hdfd78af_1: sha256:74ce0ecaea33088ac546dc617d29cf46bb890f08f7aed6a9de7b5c3f359af5bc
+  v0.0.1--hdfd78af_1: 
+    sha256:74ce0ecaea33088ac546dc617d29cf46bb890f08f7aed6a9de7b5c3f359af5bc
 tags:
-  v0.0.1--hdfd78af_1: sha256:74ce0ecaea33088ac546dc617d29cf46bb890f08f7aed6a9de7b5c3f359af5bc
+  v0.0.1--hdfd78af_1: 
+    sha256:74ce0ecaea33088ac546dc617d29cf46bb890f08f7aed6a9de7b5c3f359af5bc
 docker: quay.io/biocontainers/scran-cli
 aliases:
   dropletutils-barcoderanks.R: /usr/local/bin/dropletutils-barcoderanks.R
-  dropletutils-downsample-matrix.R: /usr/local/bin/dropletutils-downsample-matrix.R
+  dropletutils-downsample-matrix.R: 
+    /usr/local/bin/dropletutils-downsample-matrix.R
   dropletutils-empty-drops.R: /usr/local/bin/dropletutils-empty-drops.R
   dropletutils-make-test-sdrf.R: /usr/local/bin/dropletutils-make-test-sdrf.R
   dropletutils-read-10x-counts.R: /usr/local/bin/dropletutils-read-10x-counts.R
-  dropletutils-scripts-post-install-tests.bats: /usr/local/bin/dropletutils-scripts-post-install-tests.bats
-  dropletutils-scripts-post-install-tests.sh: /usr/local/bin/dropletutils-scripts-post-install-tests.sh
+  dropletutils-scripts-post-install-tests.bats: 
+    /usr/local/bin/dropletutils-scripts-post-install-tests.bats
+  dropletutils-scripts-post-install-tests.sh: 
+    /usr/local/bin/dropletutils-scripts-post-install-tests.sh
   igraph_extract_clusters.R: /usr/local/bin/igraph_extract_clusters.R
   old-scran-cli-filter-sce.R: /usr/local/bin/old-scran-cli-filter-sce.R
   scran-build-snn-graph.R: /usr/local/bin/scran-build-snn-graph.R
@@ -26,11 +31,13 @@ aliases:
   scran-denoise-pca.R: /usr/local/bin/scran-denoise-pca.R
   scran-find-markers.R: /usr/local/bin/scran-find-markers.R
   scran-get-clustered-pcs.R: /usr/local/bin/scran-get-clustered-pcs.R
-  scran-model-gene-var-with-spikes.R: /usr/local/bin/scran-model-gene-var-with-spikes.R
+  scran-model-gene-var-with-spikes.R: 
+    /usr/local/bin/scran-model-gene-var-with-spikes.R
   scran-model-gene-var.R: /usr/local/bin/scran-model-gene-var.R
   scran-trend-var.R: /usr/local/bin/scran-trend-var.R
   scran_post_install_tests.bats: /usr/local/bin/scran_post_install_tests.bats
   scran_post_install_tests.sh: /usr/local/bin/scran_post_install_tests.sh
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

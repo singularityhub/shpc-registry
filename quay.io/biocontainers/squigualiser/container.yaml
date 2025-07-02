@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/squigualiser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for squigualiser
 latest:
-  0.6.3--pyhca03a8a_0: sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
+  0.6.3--pyhca03a8a_0: 
+    sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
 tags:
-  0.6.3--pyhca03a8a_0: sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
+  0.6.3--pyhca03a8a_0: 
+    sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
 docker: quay.io/biocontainers/squigualiser
 aliases:
   selenium-manager: /usr/local/bin/selenium-manager

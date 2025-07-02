@@ -1,11 +1,14 @@
 docker: ghcr.io/autamus/intel-mkl
 url: https://github.com/orgs/autamus/packages/container/package/intel-mkl
 maintainer: '@vsoch'
-description: Intel oneAPI Math Kernel Library, formerly just Intel Math Kernel Library,
-  is a library of optimized math routines for science, engineering, and financial
-  applications.
+description: Intel oneAPI Math Kernel Library, formerly just Intel Math Kernel 
+  Library, is a library of optimized math routines for science, engineering, and
+  financial applications.
 latest:
-  2020.4.304: sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51
+  2020.4.304: 
+    sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51
 tags:
-  2020.4.304: sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51
-  latest: sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51
+  2020.4.304: 
+    sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51
+  latest: 
+    sha256:63b34cf7c73fc23f07d661ae58f935bad1e79ebd4b69f3f585b47d0a70481f51

@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/cromwell
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cromwell
 latest:
-  0.40--1: sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218
+  0.40--1: 
+    sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218
 tags:
-  0.40--1: sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218
+  0.40--1: 
+    sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218
 docker: quay.io/biocontainers/cromwell

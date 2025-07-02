@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/brockman-pipeline
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for brockman-pipeline
+description: shpc-registry automated BioContainers addition for 
+  brockman-pipeline
 latest:
-  1.0--hdfd78af_4: sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6
+  1.0--hdfd78af_4: 
+    sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6
 tags:
-  1.0--hdfd78af_4: sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6
+  1.0--hdfd78af_4: 
+    sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6
 docker: quay.io/biocontainers/brockman-pipeline
 aliases:
   AMUSED: /usr/local/bin/AMUSED

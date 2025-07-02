@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-km.ci
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-km.ci
 latest:
-  0.5_2--r3.3.2_0: sha256:406cfcbd6fec30675fb7bca79cd58a04740edc5b975d933b58da61419a9ca6e9
+  0.5_2--r3.3.2_0: 
+    sha256:406cfcbd6fec30675fb7bca79cd58a04740edc5b975d933b58da61419a9ca6e9
 tags:
-  0.5_2--r3.3.2_0: sha256:406cfcbd6fec30675fb7bca79cd58a04740edc5b975d933b58da61419a9ca6e9
-  0.5_2--r3.4.1_0: sha256:a82fd5631892ae9a521a65a49745e2f90033fd61451eeee8c41471a01e17a118
+  0.5_2--r3.3.2_0: 
+    sha256:406cfcbd6fec30675fb7bca79cd58a04740edc5b975d933b58da61419a9ca6e9
+  0.5_2--r3.4.1_0: 
+    sha256:a82fd5631892ae9a521a65a49745e2f90033fd61451eeee8c41471a01e17a118
 docker: quay.io/biocontainers/r-km.ci
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

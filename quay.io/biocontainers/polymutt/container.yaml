@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/polymutt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for polymutt
 latest:
-  0.18--0: sha256:f11e5ab8924daefe40459b70a277bbf72bcf87414c6616c8ce1ae3ee3a2a9503
+  0.18--0: 
+    sha256:f11e5ab8924daefe40459b70a277bbf72bcf87414c6616c8ce1ae3ee3a2a9503
 tags:
-  0.18--0: sha256:f11e5ab8924daefe40459b70a277bbf72bcf87414c6616c8ce1ae3ee3a2a9503
+  0.18--0: 
+    sha256:f11e5ab8924daefe40459b70a277bbf72bcf87414c6616c8ce1ae3ee3a2a9503
 docker: quay.io/biocontainers/polymutt
 aliases:
   bugpoint: /usr/local/bin/bugpoint

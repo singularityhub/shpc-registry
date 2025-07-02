@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-freerange
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-freerange
 latest:
-  0.2.8--r36_0: sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f
+  0.2.8--r36_0: 
+    sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f
 tags:
-  0.2.8--r36_0: sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f
+  0.2.8--r36_0: 
+    sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f
 docker: quay.io/biocontainers/r-freerange
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
