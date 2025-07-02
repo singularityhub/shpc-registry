@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msoma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msoma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msoma/container.yaml"
-updated_at: "2025-07-01 04:26:11.250188"
+updated_at: "2025-07-02 04:05:09.340867"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msoma"
 aliases:

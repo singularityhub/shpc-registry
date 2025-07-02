@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grz-db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-db/container.yaml"
-updated_at: "2025-07-01 04:23:39.523167"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2025-07-02 04:02:38.544387"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grz-db"
 aliases:
  - "alembic"
@@ -16,8 +16,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for grz-db"
-config: {"url": "https://biocontainers.pro/tools/grz-db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-db", "latest": {"0.1.0--pyhdfd78af_0": "sha256:b0db71f5a1d852f434208c715a2526fd6b953ee04abb3e52d728e01455bcd9cf"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:b0db71f5a1d852f434208c715a2526fd6b953ee04abb3e52d728e01455bcd9cf"}, "docker": "quay.io/biocontainers/grz-db", "aliases": {"alembic": "/usr/local/bin/alembic", "mako-render": "/usr/local/bin/mako-render", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/grz-db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-db", "latest": {"0.2.0--pyhdfd78af_0": "sha256:7c7daf6afd453db5e3fffbffb6e030fc20fa0abd4424104c3b065ae39fbc704f"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:b0db71f5a1d852f434208c715a2526fd6b953ee04abb3e52d728e01455bcd9cf", "0.2.0--pyhdfd78af_0": "sha256:7c7daf6afd453db5e3fffbffb6e030fc20fa0abd4424104c3b065ae39fbc704f"}, "docker": "quay.io/biocontainers/grz-db", "aliases": {"alembic": "/usr/local/bin/alembic", "mako-render": "/usr/local/bin/mako-render", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-db.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/grz-db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-db:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/grz-db:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-db/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/grz-db/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/grz-db/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/grz-db/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

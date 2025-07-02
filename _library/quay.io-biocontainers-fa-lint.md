@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/fa-lint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fa-lint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fa-lint/container.yaml"
-updated_at: "2025-07-01 04:21:22.957610"
-latest: "1.0.0--he881be0_0"
+updated_at: "2025-07-02 04:00:20.967990"
+latest: "1.2.0--he881be0_0"
 container_url: "https://biocontainers.pro/tools/fa-lint"
 aliases:
  - "fa-lint"
 versions:
  - "1.0.0--he881be0_0"
+ - "1.2.0--he881be0_0"
+ - "1.1.0--he881be0_0"
 description: "singularity registry hpc automated addition for fa-lint"
-config: {"url": "https://biocontainers.pro/tools/fa-lint", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fa-lint", "latest": {"1.0.0--he881be0_0": "sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066"}, "tags": {"1.0.0--he881be0_0": "sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066"}, "docker": "quay.io/biocontainers/fa-lint", "aliases": {"fa-lint": "/usr/local/bin/fa-lint"}}
+config: {"url": "https://biocontainers.pro/tools/fa-lint", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fa-lint", "latest": {"1.2.0--he881be0_0": "sha256:385eeb4ba9d9daa8b14b88b2d0e4f239f6bc9b4ef5957a9d6f0156a45670a001"}, "tags": {"1.0.0--he881be0_0": "sha256:a52da083275c9e35810e0cb374e50da8ebb7b8cc30c237d8e1abbe5d9f83a066", "1.2.0--he881be0_0": "sha256:385eeb4ba9d9daa8b14b88b2d0e4f239f6bc9b4ef5957a9d6f0156a45670a001", "1.1.0--he881be0_0": "sha256:9e42890ad53b4f8ab5d399ef41cd278f9f36795a2efcff6de138f240e6e4b417"}, "docker": "quay.io/biocontainers/fa-lint", "aliases": {"fa-lint": "/usr/local/bin/fa-lint"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fa-lint.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/fa-lint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fa-lint:1.0.0--he881be0_0
+$ shpc install quay.io/biocontainers/fa-lint:1.2.0--he881be0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fa-lint/1.0.0--he881be0_0
-$ module help quay.io/biocontainers/fa-lint/1.0.0--he881be0_0
+$ module load quay.io/biocontainers/fa-lint/1.2.0--he881be0_0
+$ module help quay.io/biocontainers/fa-lint/1.2.0--he881be0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

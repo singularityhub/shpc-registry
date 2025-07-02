@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rustybam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustybam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustybam/container.yaml"
-updated_at: "2025-07-01 04:10:57.363567"
-latest: "0.1.33--hb7f6b01_2"
+updated_at: "2025-07-02 03:49:57.318077"
+latest: "0.1.34--hf24ce72_0"
 container_url: "https://biocontainers.pro/tools/rustybam"
 aliases:
  - "rb"
@@ -17,8 +17,9 @@ versions:
  - "0.1.33--h756b843_0"
  - "0.1.33--h0d9f037_1"
  - "0.1.33--hb7f6b01_2"
+ - "0.1.34--hf24ce72_0"
 description: "shpc-registry automated BioContainers addition for rustybam"
-config: {"url": "https://biocontainers.pro/tools/rustybam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustybam", "latest": {"0.1.33--hb7f6b01_2": "sha256:4433bf1b4f0eef6a27fadb897a82d8cd06f8591ab54c64b9bfed8de6b3727b6d"}, "tags": {"0.1.30--hc52b9a9_1": "sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771", "0.1.31--hc52b9a9_0": "sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5", "0.1.31--h756b843_2": "sha256:b88b57c995e9228801c0fa2361dfe11aab419e43865af900d2596f0f373bb079", "0.1.33--h756b843_0": "sha256:0c31acc94fe676fd7d853da74660187d9a146acbacb4266abd2ec559fd5641a3", "0.1.33--h0d9f037_1": "sha256:64b1298013a906d5d984e989ca4bc9b3ae5ebad87aa7ce966ba4466e0cb7eeae", "0.1.33--hb7f6b01_2": "sha256:4433bf1b4f0eef6a27fadb897a82d8cd06f8591ab54c64b9bfed8de6b3727b6d"}, "docker": "quay.io/biocontainers/rustybam", "aliases": {"rb": "/usr/local/bin/rb", "rustybam": "/usr/local/bin/rustybam"}}
+config: {"url": "https://biocontainers.pro/tools/rustybam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustybam", "latest": {"0.1.34--hf24ce72_0": "sha256:d56d52e5e0942b0e33666050e6e7618c2f3c94bf3cdc9a52e730755dfde824bd"}, "tags": {"0.1.30--hc52b9a9_1": "sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771", "0.1.31--hc52b9a9_0": "sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5", "0.1.31--h756b843_2": "sha256:b88b57c995e9228801c0fa2361dfe11aab419e43865af900d2596f0f373bb079", "0.1.33--h756b843_0": "sha256:0c31acc94fe676fd7d853da74660187d9a146acbacb4266abd2ec559fd5641a3", "0.1.33--h0d9f037_1": "sha256:64b1298013a906d5d984e989ca4bc9b3ae5ebad87aa7ce966ba4466e0cb7eeae", "0.1.33--hb7f6b01_2": "sha256:4433bf1b4f0eef6a27fadb897a82d8cd06f8591ab54c64b9bfed8de6b3727b6d", "0.1.34--hf24ce72_0": "sha256:d56d52e5e0942b0e33666050e6e7618c2f3c94bf3cdc9a52e730755dfde824bd"}, "docker": "quay.io/biocontainers/rustybam", "aliases": {"rb": "/usr/local/bin/rb", "rustybam": "/usr/local/bin/rustybam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rustybam.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/rustybam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rustybam:0.1.33--hb7f6b01_2
+$ shpc install quay.io/biocontainers/rustybam:0.1.34--hf24ce72_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rustybam/0.1.33--hb7f6b01_2
-$ module help quay.io/biocontainers/rustybam/0.1.33--hb7f6b01_2
+$ module load quay.io/biocontainers/rustybam/0.1.34--hf24ce72_0
+$ module help quay.io/biocontainers/rustybam/0.1.34--hf24ce72_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

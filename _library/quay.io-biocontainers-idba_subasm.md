@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/idba_subasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idba_subasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idba_subasm/container.yaml"
-updated_at: "2025-07-01 03:59:38.601860"
+updated_at: "2025-07-02 03:38:45.557708"
 latest: "1.1.3a2--py311pl5321h8ddd9a4_9"
 container_url: "https://biocontainers.pro/tools/idba_subasm"
 aliases:
