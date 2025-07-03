@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kwip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kwip
 latest:
-  0.2.0--h5b5514e_5: sha256:6324ef01803096631bafd696c5b31b267a264ef92289d3652abe26d8081661c8
+  0.2.0--h5b5514e_5: 
+    sha256:6324ef01803096631bafd696c5b31b267a264ef92289d3652abe26d8081661c8
 tags:
-  0.2.0--h5b5514e_5: sha256:6324ef01803096631bafd696c5b31b267a264ef92289d3652abe26d8081661c8
+  0.2.0--h5b5514e_5: 
+    sha256:6324ef01803096631bafd696c5b31b267a264ef92289d3652abe26d8081661c8
 docker: quay.io/biocontainers/kwip
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py

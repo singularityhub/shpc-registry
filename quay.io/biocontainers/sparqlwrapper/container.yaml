@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/sparqlwrapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sparqlwrapper
 latest:
-  1.7.6--py35_0: sha256:a09056e543436b14c95527a7172064157f432c6e6acd13a6e573bab34d581c77
+  1.7.6--py35_0: 
+    sha256:a09056e543436b14c95527a7172064157f432c6e6acd13a6e573bab34d581c77
 tags:
-  1.7.6--py35_0: sha256:a09056e543436b14c95527a7172064157f432c6e6acd13a6e573bab34d581c77
-  1.7.6--py36_0: sha256:bbd874984d39c063e3702345e639c76721786b1b172e7d046517de549f2bdd18
+  1.7.6--py35_0: 
+    sha256:a09056e543436b14c95527a7172064157f432c6e6acd13a6e573bab34d581c77
+  1.7.6--py36_0: 
+    sha256:bbd874984d39c063e3702345e639c76721786b1b172e7d046517de549f2bdd18
 docker: quay.io/biocontainers/sparqlwrapper
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf

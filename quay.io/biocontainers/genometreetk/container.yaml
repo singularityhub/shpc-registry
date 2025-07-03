@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/genometreetk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genometreetk
 latest:
-  0.1.6--py_2: sha256:0ffe9e0cecde8aa8e7c102ae0a0e21a2ca562d8bbe92981b408678b6f15e678b
+  0.1.6--py_2: 
+    sha256:0ffe9e0cecde8aa8e7c102ae0a0e21a2ca562d8bbe92981b408678b6f15e678b
 tags:
-  0.1.6--py_2: sha256:0ffe9e0cecde8aa8e7c102ae0a0e21a2ca562d8bbe92981b408678b6f15e678b
+  0.1.6--py_2: 
+    sha256:0ffe9e0cecde8aa8e7c102ae0a0e21a2ca562d8bbe92981b408678b6f15e678b
 docker: quay.io/biocontainers/genometreetk
 aliases:
   _ssu-align: /usr/local/bin/_ssu-align

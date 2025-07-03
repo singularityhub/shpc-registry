@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cladeomatic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cladeomatic
 latest:
-  0.1.1--pyhdfd78af_0: sha256:5132eae0fc5fcd22d97f1b7b29efde93dbaa7b6d27e3e0f8fe032b431096aae7
+  0.1.1--pyhdfd78af_0: 
+    sha256:5132eae0fc5fcd22d97f1b7b29efde93dbaa7b6d27e3e0f8fe032b431096aae7
 tags:
-  0.1.1--pyhdfd78af_0: sha256:5132eae0fc5fcd22d97f1b7b29efde93dbaa7b6d27e3e0f8fe032b431096aae7
+  0.1.1--pyhdfd78af_0: 
+    sha256:5132eae0fc5fcd22d97f1b7b29efde93dbaa7b6d27e3e0f8fe032b431096aae7
 docker: quay.io/biocontainers/cladeomatic
 aliases:
   cladeomatic: /usr/local/bin/cladeomatic

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/illumina-cleanup
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for illumina-cleanup
 latest:
-  1.0.0--hdfd78af_2: sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
+  1.0.0--hdfd78af_2: 
+    sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
 tags:
-  1.0.0--hdfd78af_2: sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
+  1.0.0--hdfd78af_2: 
+    sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
 docker: quay.io/biocontainers/illumina-cleanup
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

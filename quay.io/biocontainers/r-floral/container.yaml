@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-floral
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-floral
 latest:
-  0.4.0--r44hdfd78af_0: sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d
+  0.4.0--r44hdfd78af_0: 
+    sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d
 tags:
-  0.4.0--r44hdfd78af_0: sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d
+  0.4.0--r44hdfd78af_0: 
+    sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d
 docker: quay.io/biocontainers/r-floral
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
@@ -19,8 +21,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   hb-info: /usr/local/bin/hb-info
   tjbench: /usr/local/bin/tjbench

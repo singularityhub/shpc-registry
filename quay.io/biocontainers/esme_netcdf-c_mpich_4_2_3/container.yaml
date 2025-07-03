@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_netcdf-c_mpich_4_2_3
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_netcdf-c_mpich_4_2_3
+description: singularity registry hpc automated addition for 
+  esme_netcdf-c_mpich_4_2_3
 latest:
-  4.9.2--h96833bc_0: sha256:b0748fcaa9bdcb6f31fdbf0d1626f489ee9ab993304ee389a728c0acc547143e
+  4.9.2--h96833bc_0: 
+    sha256:b0748fcaa9bdcb6f31fdbf0d1626f489ee9ab993304ee389a728c0acc547143e
 tags:
-  4.9.2--h96833bc_0: sha256:b0748fcaa9bdcb6f31fdbf0d1626f489ee9ab993304ee389a728c0acc547143e
+  4.9.2--h96833bc_0: 
+    sha256:b0748fcaa9bdcb6f31fdbf0d1626f489ee9ab993304ee389a728c0acc547143e
 docker: quay.io/biocontainers/esme_netcdf-c_mpich_4_2_3
 aliases:
   mpiexec.gforker: /usr/local/bin/mpiexec.gforker

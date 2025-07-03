@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hpcblast
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hpcblast
 latest:
-  1.0.2--pyhdfd78af_0: sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
+  1.0.2--pyhdfd78af_0: 
+    sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
 tags:
-  1.0.2--pyhdfd78af_0: sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
+  1.0.2--pyhdfd78af_0: 
+    sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
 docker: quay.io/biocontainers/hpcblast
 aliases:
   hpc-blast: /usr/local/bin/hpc-blast

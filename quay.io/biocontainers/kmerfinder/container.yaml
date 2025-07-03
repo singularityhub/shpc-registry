@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kmerfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmerfinder
 latest:
-  3.0.2--hdfd78af_0: sha256:9ace41c4c22d53b8eca2e90a72c3c76b7e99bb0db1e4ef6e8ebcdd356cd2b908
+  3.0.2--hdfd78af_0: 
+    sha256:9ace41c4c22d53b8eca2e90a72c3c76b7e99bb0db1e4ef6e8ebcdd356cd2b908
 tags:
-  3.0.2--hdfd78af_0: sha256:9ace41c4c22d53b8eca2e90a72c3c76b7e99bb0db1e4ef6e8ebcdd356cd2b908
+  3.0.2--hdfd78af_0: 
+    sha256:9ace41c4c22d53b8eca2e90a72c3c76b7e99bb0db1e4ef6e8ebcdd356cd2b908
 docker: quay.io/biocontainers/kmerfinder
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh

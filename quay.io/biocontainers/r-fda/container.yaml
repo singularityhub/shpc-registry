@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-fda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fda
 latest:
-  2.4.4--r3.2.2_0: sha256:57b1e9287ec46284078937e77db823dedc0a9db24fa223c2b2407016ce7fd423
+  2.4.4--r3.2.2_0: 
+    sha256:57b1e9287ec46284078937e77db823dedc0a9db24fa223c2b2407016ce7fd423
 tags:
-  2.4.4--r3.2.2_0: sha256:57b1e9287ec46284078937e77db823dedc0a9db24fa223c2b2407016ce7fd423
-  2.4.4--r3.3.2_0: sha256:baca5277ae545cb47c43e00f6ca23b654ebb211b55537585ced45fc07f65479b
+  2.4.4--r3.2.2_0: 
+    sha256:57b1e9287ec46284078937e77db823dedc0a9db24fa223c2b2407016ce7fd423
+  2.4.4--r3.3.2_0: 
+    sha256:baca5277ae545cb47c43e00f6ca23b654ebb211b55537585ced45fc07f65479b
 docker: quay.io/biocontainers/r-fda
 aliases:
   pngcp: /usr/local/bin/pngcp

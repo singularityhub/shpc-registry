@@ -3,7 +3,10 @@ url: https://github.com/orgs/autamus/packages/container/package/fraggenescan
 maintainer: '@vsoch'
 description: An application for finding (fragmented) genes in short reads.
 latest:
-  '1.31': sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772
+  '1.31': 
+    sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772
 tags:
-  '1.31': sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772
-  latest: sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772
+  '1.31': 
+    sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772
+  latest: 
+    sha256:8b24bdf1e4bc2b8d3a79b45736adf2293db279a743db1e5ea1f2f5f43ca8a772

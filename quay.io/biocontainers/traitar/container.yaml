@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/traitar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for traitar
 latest:
-  3.0.1--pyhdfd78af_0: sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0
+  3.0.1--pyhdfd78af_0: 
+    sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0
 tags:
-  1.1.2--py_0: sha256:fee1195a60b294ad745e393d269b33325e4bcdf461fd3501ef87464d5e720d30
-  3.0.1--pyhdfd78af_0: sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0
+  1.1.2--py_0: 
+    sha256:fee1195a60b294ad745e393d269b33325e4bcdf461fd3501ef87464d5e720d30
+  3.0.1--pyhdfd78af_0: 
+    sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0
 docker: quay.io/biocontainers/traitar
 aliases:
   domtblout2gene_generic.py: /usr/local/bin/domtblout2gene_generic.py

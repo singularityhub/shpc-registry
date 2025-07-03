@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/heasoft
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for heasoft
 latest:
-  6.35.1--hedafe93_0: sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729
+  6.35.1--hedafe93_1: 
+    sha256:8389346bf6257140cd4a61cee8e0daed572c5c48b844abc641d59742ef2241ff
 tags:
-  6.35.1--hedafe93_0: sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729
+  6.35.1--hedafe93_0: 
+    sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729
+  6.35.1--hedafe93_1: 
+    sha256:8389346bf6257140cd4a61cee8e0daed572c5c48b844abc641d59742ef2241ff
 docker: quay.io/biocontainers/heasoft
 aliases:
   debugpy: /usr/local/bin/debugpy
@@ -20,7 +24,8 @@ aliases:
   protoc-gen-upb: /usr/local/bin/protoc-gen-upb
   protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
   protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
-  protoc-gen-upb_minitable-29.3.0: /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
   protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
   protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
   samp_hub: /usr/local/bin/samp_hub

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tadrep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tadrep
 latest:
-  0.9.2--pyhdfd78af_0: sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
+  0.9.2--pyhdfd78af_0: 
+    sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
 tags:
-  0.9.2--pyhdfd78af_0: sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
+  0.9.2--pyhdfd78af_0: 
+    sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
 docker: quay.io/biocontainers/tadrep
 aliases:
   archspec: /usr/local/bin/archspec

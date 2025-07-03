@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/smoove
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smoove
 latest:
-  0.2.8--h9ee0642_1: sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
+  0.2.8--h9ee0642_1: 
+    sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
 tags:
-  0.2.8--h9ee0642_1: sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
+  0.2.8--h9ee0642_1: 
+    sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
 docker: quay.io/biocontainers/smoove
 aliases:
   cnvanator_to_bedpes.py: /usr/local/bin/cnvanator_to_bedpes.py

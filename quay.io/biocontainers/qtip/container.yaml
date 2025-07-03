@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/qtip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qtip
 latest:
-  1.6.2--py36h7eb728f_1: sha256:01aad908463d64cc9c8fea19c968f5c2ae43b66a1df8d77298502342b8562498
+  1.6.2--py36h7eb728f_1: 
+    sha256:01aad908463d64cc9c8fea19c968f5c2ae43b66a1df8d77298502342b8562498
 tags:
-  1.6.2--py36h7eb728f_1: sha256:01aad908463d64cc9c8fea19c968f5c2ae43b66a1df8d77298502342b8562498
-  1.6.2--py35h7eb728f_1: sha256:3c0f6389479c70a547c5d16e60b8b813c6fe587b8bbf1c67f27081704c8aabc1
+  1.6.2--py36h7eb728f_1: 
+    sha256:01aad908463d64cc9c8fea19c968f5c2ae43b66a1df8d77298502342b8562498
+  1.6.2--py35h7eb728f_1: 
+    sha256:3c0f6389479c70a547c5d16e60b8b813c6fe587b8bbf1c67f27081704c8aabc1
 docker: quay.io/biocontainers/qtip
 aliases:
   qtip: /usr/local/bin/qtip

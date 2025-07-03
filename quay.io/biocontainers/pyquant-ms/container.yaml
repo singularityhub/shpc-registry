@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pyquant-ms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyquant-ms
 latest:
-  0.2.4--py27h4329609_5: sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
+  0.2.4--py27h4329609_5: 
+    sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
 tags:
-  0.2.4--py27h4329609_5: sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
+  0.2.4--py27h4329609_5: 
+    sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
 docker: quay.io/biocontainers/pyquant-ms
 aliases:
   fastadigest.py: /usr/local/bin/fastadigest.py

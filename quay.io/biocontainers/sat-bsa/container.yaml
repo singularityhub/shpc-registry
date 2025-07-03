@@ -2,17 +2,21 @@ url: https://biocontainers.pro/tools/sat-bsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sat-bsa
 latest:
-  1.12--hdfd78af_1: sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
+  1.12--hdfd78af_1: 
+    sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
 tags:
-  1.12--hdfd78af_1: sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
+  1.12--hdfd78af_1: 
+    sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
 docker: quay.io/biocontainers/sat-bsa
 aliases:
-  1_1_select_reads_name_from_bam.pl: /usr/local/bin/1_1_select_reads_name_from_bam.pl
+  1_1_select_reads_name_from_bam.pl: 
+    /usr/local/bin/1_1_select_reads_name_from_bam.pl
   1_2_pick_up_reads.pl: /usr/local/bin/1_2_pick_up_reads.pl
   1_3_fa_size.pl: /usr/local/bin/1_3_fa_size.pl
   3_1_filter_mapQ_for_sam.pl: /usr/local/bin/3_1_filter_mapQ_for_sam.pl
   4_1_fa_size.pl: /usr/local/bin/4_1_fa_size.pl
-  4_1_promoter_transcription_region.pl: /usr/local/bin/4_1_promoter_transcription_region.pl
+  4_1_promoter_transcription_region.pl: 
+    /usr/local/bin/4_1_promoter_transcription_region.pl
   4_2_select_pileup.pl: /usr/local/bin/4_2_select_pileup.pl
   4_3_mut_count_pileup.pl: /usr/local/bin/4_3_mut_count_pileup.pl
   4_4_Fisher.R: /usr/local/bin/4_4_Fisher.R

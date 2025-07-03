@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-protect
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-protect
 latest:
-  2.3--hdfd78af_0: sha256:92de287398729ff4d0a37f23b593554c1afbd02fefb1122b087ce188ad79f6b7
+  2.3--hdfd78af_0: 
+    sha256:92de287398729ff4d0a37f23b593554c1afbd02fefb1122b087ce188ad79f6b7
 tags:
-  2.3--hdfd78af_0: sha256:92de287398729ff4d0a37f23b593554c1afbd02fefb1122b087ce188ad79f6b7
+  2.3--hdfd78af_0: 
+    sha256:92de287398729ff4d0a37f23b593554c1afbd02fefb1122b087ce188ad79f6b7
 docker: quay.io/biocontainers/hmftools-protect
 aliases:
   protect: /usr/local/bin/protect

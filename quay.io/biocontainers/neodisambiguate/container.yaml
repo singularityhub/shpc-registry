@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/neodisambiguate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for neodisambiguate
 latest:
-  1.1.0--hdfd78af_0: sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
+  1.1.0--hdfd78af_0: 
+    sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
 tags:
-  1.1.0--hdfd78af_0: sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
+  1.1.0--hdfd78af_0: 
+    sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
 docker: quay.io/biocontainers/neodisambiguate
 aliases:
   neodisambiguate: /usr/local/bin/neodisambiguate

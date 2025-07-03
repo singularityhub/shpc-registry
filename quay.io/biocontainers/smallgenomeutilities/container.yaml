@@ -1,16 +1,25 @@
 url: https://biocontainers.pro/tools/smallgenomeutilities
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for smallgenomeutilities
+description: shpc-registry automated BioContainers addition for 
+  smallgenomeutilities
 latest:
-  0.5.2--pyhdfd78af_0: sha256:a968ac92772f4e728e95e18805c4c541b3ac4852a94d3a89292f0d4db39bc20f
+  0.5.2--pyhdfd78af_0: 
+    sha256:a968ac92772f4e728e95e18805c4c541b3ac4852a94d3a89292f0d4db39bc20f
 tags:
-  0.3.8--pyhdfd78af_0: sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
-  0.3.9--pyhdfd78af_0: sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238
-  0.4.0--pyhdfd78af_0: sha256:2c09d78a430eb9fed59aebf2989a9f4c2a9cb6cae0fba4e7d016c4433acabba9
-  0.4.1--pyhdfd78af_0: sha256:0b1891616ea45ff254b8af0927b376e3f79dab9f7b7ece1abbef3086cce1b144
-  0.5.0--pyhdfd78af_1: sha256:19bdc7f0d6623d896f0f9d1ac6c2734b0e4d3f7ef824392119bedf0b92ccac28
-  0.5.1--pyhdfd78af_0: sha256:24571e4a984edf133c177b2004082cb540d32597e286a979a554755466fdde9f
-  0.5.2--pyhdfd78af_0: sha256:a968ac92772f4e728e95e18805c4c541b3ac4852a94d3a89292f0d4db39bc20f
+  0.3.8--pyhdfd78af_0: 
+    sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
+  0.3.9--pyhdfd78af_0: 
+    sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238
+  0.4.0--pyhdfd78af_0: 
+    sha256:2c09d78a430eb9fed59aebf2989a9f4c2a9cb6cae0fba4e7d016c4433acabba9
+  0.4.1--pyhdfd78af_0: 
+    sha256:0b1891616ea45ff254b8af0927b376e3f79dab9f7b7ece1abbef3086cce1b144
+  0.5.0--pyhdfd78af_1: 
+    sha256:19bdc7f0d6623d896f0f9d1ac6c2734b0e4d3f7ef824392119bedf0b92ccac28
+  0.5.1--pyhdfd78af_0: 
+    sha256:24571e4a984edf133c177b2004082cb540d32597e286a979a554755466fdde9f
+  0.5.2--pyhdfd78af_0: 
+    sha256:a968ac92772f4e728e95e18805c4c541b3ac4852a94d3a89292f0d4db39bc20f
 docker: quay.io/biocontainers/smallgenomeutilities
 aliases:
   aln2basecnt: /usr/local/bin/aln2basecnt
@@ -32,7 +41,8 @@ aliases:
   pysamstats: /usr/local/bin/pysamstats
   remove_gaps_msa: /usr/local/bin/remove_gaps_msa
   coverage: /usr/local/bin/coverage
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

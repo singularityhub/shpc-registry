@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/esme_pio_openmpi_5_0_7
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_pio_openmpi_5_0_7
+description: singularity registry hpc automated addition for 
+  esme_pio_openmpi_5_0_7
 latest:
-  2.6.5--h6f5e742_0: sha256:ade4d42dc46826adc8ccf3c7ea6e29a152b0f1936a7464258871360018278d24
+  2.6.5--h6f5e742_0: 
+    sha256:ade4d42dc46826adc8ccf3c7ea6e29a152b0f1936a7464258871360018278d24
 tags:
-  2.6.5--h6f5e742_0: sha256:ade4d42dc46826adc8ccf3c7ea6e29a152b0f1936a7464258871360018278d24
+  2.6.5--h6f5e742_0: 
+    sha256:ade4d42dc46826adc8ccf3c7ea6e29a152b0f1936a7464258871360018278d24
 docker: quay.io/biocontainers/esme_pio_openmpi_5_0_7
 aliases:
   prte: /usr/local/bin/prte

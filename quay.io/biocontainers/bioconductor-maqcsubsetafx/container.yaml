@@ -1,10 +1,14 @@
 url: https://biocontainers.pro/tools/bioconductor-maqcsubsetafx
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-maqcsubsetafx
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-maqcsubsetafx
 latest:
-  1.30.0--r41hdfd78af_0: sha256:df8790be130d50dbf02ed7e471e2dc82a9f2aecbb5aa4b697ff39c9fef46678a
+  1.30.0--r41hdfd78af_0: 
+    sha256:df8790be130d50dbf02ed7e471e2dc82a9f2aecbb5aa4b697ff39c9fef46678a
 tags:
-  1.30.0--r41hdfd78af_0: sha256:df8790be130d50dbf02ed7e471e2dc82a9f2aecbb5aa4b697ff39c9fef46678a
+  1.30.0--r41hdfd78af_0: 
+    sha256:df8790be130d50dbf02ed7e471e2dc82a9f2aecbb5aa4b697ff39c9fef46678a
 docker: quay.io/biocontainers/bioconductor-maqcsubsetafx
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
