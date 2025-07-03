@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/verifybamid2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifybamid2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifybamid2/container.yaml"
-updated_at: "2025-07-02 03:51:47.053351"
+updated_at: "2025-07-03 03:53:10.315899"
 latest: "2.0.1--h345183b_12"
 container_url: "https://biocontainers.pro/tools/verifybamid2"
 aliases:

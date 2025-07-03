@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-html-form"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-form/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-form/container.yaml"
-updated_at: "2025-07-02 03:47:49.995095"
-latest: "6.07--pl5321hdfd78af_0"
+updated_at: "2025-07-03 03:49:11.394852"
+latest: "6.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-html-form"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "6.07--pl5321hdfd78af_0"
+ - "6.11--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-html-form"
-config: {"url": "https://biocontainers.pro/tools/perl-html-form", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-form", "latest": {"6.07--pl5321hdfd78af_0": "sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6"}, "tags": {"6.07--pl5321hdfd78af_0": "sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6"}, "docker": "quay.io/biocontainers/perl-html-form", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-form", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-form", "latest": {"6.11--pl5321hdfd78af_0": "sha256:7f8d6a2a77012d8ea855d4c33729b293495ad0aff31f3c5c6112e1da273f1940"}, "tags": {"6.07--pl5321hdfd78af_0": "sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6", "6.11--pl5321hdfd78af_0": "sha256:7f8d6a2a77012d8ea855d4c33729b293495ad0aff31f3c5c6112e1da273f1940"}, "docker": "quay.io/biocontainers/perl-html-form", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-form.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-html-form
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-html-form:6.07--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-html-form:6.11--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-html-form/6.07--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-html-form/6.07--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-html-form/6.11--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-html-form/6.11--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

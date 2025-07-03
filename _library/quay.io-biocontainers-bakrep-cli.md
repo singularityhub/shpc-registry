@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bakrep-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakrep-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bakrep-cli/container.yaml"
-updated_at: "2025-07-02 03:32:46.493490"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-07-03 03:34:00.168376"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bakrep-cli"
 aliases:
  - "bakrep"
@@ -16,8 +16,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bakrep-cli"
-config: {"url": "https://biocontainers.pro/tools/bakrep-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bakrep-cli", "latest": {"1.0.0--pyhdfd78af_0": "sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2"}, "docker": "quay.io/biocontainers/bakrep-cli", "aliases": {"bakrep": "/usr/local/bin/bakrep", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/bakrep-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bakrep-cli", "latest": {"1.1.0--pyhdfd78af_0": "sha256:3c5d4137af8fde859315a3eb3825f6cbdbd7cf64f09909bcc0f435fc4f2898e4"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d78f21a9f2f8f9f7854ce51c6656f066c9e216407ea82c345dc836732be901e2", "1.1.0--pyhdfd78af_0": "sha256:3c5d4137af8fde859315a3eb3825f6cbdbd7cf64f09909bcc0f435fc4f2898e4"}, "docker": "quay.io/biocontainers/bakrep-cli", "aliases": {"bakrep": "/usr/local/bin/bakrep", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bakrep-cli.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bakrep-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bakrep-cli:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bakrep-cli:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bakrep-cli/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bakrep-cli/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bakrep-cli/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bakrep-cli/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
