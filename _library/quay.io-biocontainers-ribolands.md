@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribolands"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribolands/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribolands/container.yaml"
-updated_at: "2025-07-03 18:55:46.238665"
+updated_at: "2025-07-03 18:57:40.943645"
 latest: "0.6.1--py_0"
 container_url: "https://biocontainers.pro/tools/ribolands"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crypto_typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crypto_typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crypto_typer/container.yaml"
-updated_at: "2025-07-03 18:43:03.047949"
+updated_at: "2025-07-03 18:44:36.671963"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/crypto_typer"
 aliases:

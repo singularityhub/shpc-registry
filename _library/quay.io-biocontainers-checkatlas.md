@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkatlas/container.yaml"
-updated_at: "2025-07-03 19:05:32.499797"
+updated_at: "2025-07-03 19:07:55.854837"
 latest: "0.4.17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkatlas"
 aliases:

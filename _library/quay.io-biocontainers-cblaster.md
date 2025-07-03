@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cblaster/container.yaml"
-updated_at: "2025-07-03 19:06:48.254905"
+updated_at: "2025-07-03 19:09:13.784513"
 latest: "1.3.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cblaster"
 aliases:

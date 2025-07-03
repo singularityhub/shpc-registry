@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytwobit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytwobit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytwobit/container.yaml"
-updated_at: "2025-07-03 18:59:30.716577"
+updated_at: "2025-07-03 19:01:33.946151"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pytwobit"
 aliases:

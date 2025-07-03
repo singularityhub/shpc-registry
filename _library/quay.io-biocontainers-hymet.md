@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hymet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hymet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hymet/container.yaml"
-updated_at: "2025-07-03 18:34:53.960703"
+updated_at: "2025-07-03 18:36:02.486519"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hymet"
 aliases:
