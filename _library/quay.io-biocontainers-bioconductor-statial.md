@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-statial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-statial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-statial/container.yaml"
-updated_at: "2025-07-03 03:54:31.515444"
+updated_at: "2025-07-03 18:55:54.511798"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-statial"
 aliases:

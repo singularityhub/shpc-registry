@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-m10kcod.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m10kcod.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m10kcod.db/container.yaml"
-updated_at: "2025-07-03 04:12:56.035984"
+updated_at: "2025-07-03 19:14:27.051913"
 latest: "3.4.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-m10kcod.db"
 

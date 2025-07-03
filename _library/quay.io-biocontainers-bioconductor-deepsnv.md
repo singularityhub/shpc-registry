@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deepsnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deepsnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deepsnv/container.yaml"
-updated_at: "2025-07-03 03:39:37.806188"
+updated_at: "2025-07-03 18:40:46.772991"
 latest: "1.52.0--r44h77050f0_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-deepsnv"
 

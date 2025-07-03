@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/topas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/topas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/topas/container.yaml"
-updated_at: "2025-07-03 03:53:28.776562"
+updated_at: "2025-07-03 18:54:48.681779"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/topas"
 aliases:

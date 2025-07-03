@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beem-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beem-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beem-bio/container.yaml"
-updated_at: "2025-07-03 03:27:09.987375"
+updated_at: "2025-07-03 18:28:22.112534"
 latest: "1.0.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/beem-bio"
 aliases:
