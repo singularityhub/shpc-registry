@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/coot-headless
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for coot-headless
+latest:
+  1.1.17--py310h5b8adf8_0: 
+    sha256:9016d29c37cf7c494b1e636cfd45a90d3463f4df13be3efdd7e19127bbdf1aee
+tags:
+  1.1.17--py310h5b8adf8_0: 
+    sha256:9016d29c37cf7c494b1e636cfd45a90d3463f4df13be3efdd7e19127bbdf1aee
+docker: quay.io/biocontainers/coot-headless
+aliases:
+  debuginfod: /usr/local/bin/debuginfod
+  debuginfod-find: /usr/local/bin/debuginfod-find
+  eu-addr2line: /usr/local/bin/eu-addr2line
+  eu-ar: /usr/local/bin/eu-ar
+  eu-elfclassify: /usr/local/bin/eu-elfclassify
+  eu-elfcmp: /usr/local/bin/eu-elfcmp
+  eu-elfcompress: /usr/local/bin/eu-elfcompress
+  eu-elflint: /usr/local/bin/eu-elflint
+  eu-findtextrel: /usr/local/bin/eu-findtextrel
+  eu-make-debug-archive: /usr/local/bin/eu-make-debug-archive
+  eu-nm: /usr/local/bin/eu-nm
+  eu-objdump: /usr/local/bin/eu-objdump
+  eu-ranlib: /usr/local/bin/eu-ranlib
+  eu-readelf: /usr/local/bin/eu-readelf
+  eu-size: /usr/local/bin/eu-size
+  eu-srcfiles: /usr/local/bin/eu-srcfiles
+  eu-stack: /usr/local/bin/eu-stack
+  eu-strings: /usr/local/bin/eu-strings
+  eu-strip: /usr/local/bin/eu-strip
+  eu-unstrip: /usr/local/bin/eu-unstrip
+  gemmi: /usr/local/bin/gemmi
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  bsdunzip: /usr/local/bin/bsdunzip
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
