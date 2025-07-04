@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/metawrap-mg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metawrap-mg
 latest:
-  1.3.0--hdfd78af_1: sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
+  1.3.0--hdfd78af_1: 
+    sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
 tags:
-  1.3.0--hdfd78af_0: sha256:596315ae2c594b181673d14e1b08616137e0207d65f9ad1268ddcc76f2d35c14
-  1.3.0--hdfd78af_1: sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
+  1.3.0--hdfd78af_0: 
+    sha256:596315ae2c594b181673d14e1b08616137e0207d65f9ad1268ddcc76f2d35c14
+  1.3.0--hdfd78af_1: 
+    sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
 docker: quay.io/biocontainers/metawrap-mg
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan
@@ -16,7 +19,8 @@ aliases:
   aascan_unit_test: /usr/local/bin/aascan_unit_test
   aclocal.bak: /usr/local/bin/aclocal.bak
   aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl
-  aggregateContigOverlapsByBin.pl: /usr/local/bin/aggregateContigOverlapsByBin.pl
+  aggregateContigOverlapsByBin.pl: 
+    /usr/local/bin/aggregateContigOverlapsByBin.pl
   align_format_unit_test: /usr/local/bin/align_format_unit_test
   alignments-filter: /usr/local/bin/alignments-filter
   autoheader.bak: /usr/local/bin/autoheader.bak
@@ -85,7 +89,8 @@ aliases:
   idba_ud: /usr/local/bin/idba_ud
   idba_ud.o: /usr/local/bin/idba_ud.o
   ifnames.bak: /usr/local/bin/ifnames.bak
-  jgi_summarize_bam_contig_depths: /usr/local/bin/jgi_summarize_bam_contig_depths
+  jgi_summarize_bam_contig_depths: 
+    /usr/local/bin/jgi_summarize_bam_contig_depths
   kraken: /usr/local/bin/kraken
   kraken-build: /usr/local/bin/kraken-build
   kraken-filter: /usr/local/bin/kraken-filter

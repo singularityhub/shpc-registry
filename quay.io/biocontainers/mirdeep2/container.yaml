@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/mirdeep2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirdeep2
 latest:
-  2.0.1.3--hdfd78af_2: sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
+  2.0.1.3--hdfd78af_2: 
+    sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
 tags:
-  2.0.1.3--hdfd78af_1: sha256:94afd5adf4401fbb5e4890e2330ce911126e12d9fddc9d7aa1424831116ea257
-  2.0.1.3--hdfd78af_2: sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
+  2.0.1.3--hdfd78af_1: 
+    sha256:94afd5adf4401fbb5e4890e2330ce911126e12d9fddc9d7aa1424831116ea257
+  2.0.1.3--hdfd78af_2: 
+    sha256:8d36f15bf1cbd9b04af13ea372e589fe0dfcb6d202c1dc0ca18469179494d094
 docker: quay.io/biocontainers/mirdeep2
 aliases:
   afetch: /usr/local/bin/afetch
@@ -17,7 +20,8 @@ aliases:
   compstruct: /usr/local/bin/compstruct
   convert_bowtie_output.pl: /usr/local/bin/convert_bowtie_output.pl
   excise_precursors.pl: /usr/local/bin/excise_precursors.pl
-  excise_precursors_iterative_final.pl: /usr/local/bin/excise_precursors_iterative_final.pl
+  excise_precursors_iterative_final.pl: 
+    /usr/local/bin/excise_precursors_iterative_final.pl
   extract_miRNAs.pl: /usr/local/bin/extract_miRNAs.pl
   fastaparse.pl: /usr/local/bin/fastaparse.pl
   fastaselect.pl: /usr/local/bin/fastaselect.pl
@@ -46,7 +50,8 @@ aliases:
   sanity_check_genome.pl: /usr/local/bin/sanity_check_genome.pl
   sanity_check_mapping_file.pl: /usr/local/bin/sanity_check_mapping_file.pl
   sanity_check_mature_ref.pl: /usr/local/bin/sanity_check_mature_ref.pl
-  sanity_check_reads_ready_file.pl: /usr/local/bin/sanity_check_reads_ready_file.pl
+  sanity_check_reads_ready_file.pl: 
+    /usr/local/bin/sanity_check_reads_ready_file.pl
   select_for_randfold.pl: /usr/local/bin/select_for_randfold.pl
   seqsplit: /usr/local/bin/seqsplit
   seqstat: /usr/local/bin/seqstat

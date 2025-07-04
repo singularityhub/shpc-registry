@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/panman
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panman
 latest:
-  0.1.3--hc6f3cee_0: sha256:e83e94c302e42b4f89216255c754ccd4607692cd5dbc16d396406db9dc3ad9a7
+  0.1.4--hac847a2_0: 
+    sha256:ae2e1ab9f4ef57d3bef248e5580f95a615a5aff9bb53be05cac03a0c56ea0a27
 tags:
-  0.1.3--hc6f3cee_0: sha256:e83e94c302e42b4f89216255c754ccd4607692cd5dbc16d396406db9dc3ad9a7
+  0.1.3--hc6f3cee_0: 
+    sha256:e83e94c302e42b4f89216255c754ccd4607692cd5dbc16d396406db9dc3ad9a7
+  0.1.4--hac847a2_0: 
+    sha256:ae2e1ab9f4ef57d3bef248e5580f95a615a5aff9bb53be05cac03a0c56ea0a27
 docker: quay.io/biocontainers/panman
 aliases:
   panmanUtils: /usr/local/bin/panmanUtils

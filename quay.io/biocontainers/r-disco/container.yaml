@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-disco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-disco
 latest:
-  0.6--r351h6115d3f_0: sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738
+  0.6--r351h6115d3f_0: 
+    sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738
 tags:
-  0.6--r351h6115d3f_0: sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738
+  0.6--r351h6115d3f_0: 
+    sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738
 docker: quay.io/biocontainers/r-disco
 aliases:
   c89: /usr/local/bin/c89

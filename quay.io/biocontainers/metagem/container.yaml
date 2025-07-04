@@ -2,15 +2,18 @@ url: https://biocontainers.pro/tools/metagem
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metagem
 latest:
-  1.0.5--hdfd78af_0: sha256:c7608826154ac6cca1b29c1eb213695a9aa256948e8b0566f7fa15408b40eb53
+  1.0.5--hdfd78af_0: 
+    sha256:c7608826154ac6cca1b29c1eb213695a9aa256948e8b0566f7fa15408b40eb53
 tags:
-  1.0.5--hdfd78af_0: sha256:c7608826154ac6cca1b29c1eb213695a9aa256948e8b0566f7fa15408b40eb53
+  1.0.5--hdfd78af_0: 
+    sha256:c7608826154ac6cca1b29c1eb213695a9aa256948e8b0566f7fa15408b40eb53
 docker: quay.io/biocontainers/metagem
 aliases:
   Makefile.am: /usr/local/bin/Makefile.am
   Makefile.in: /usr/local/bin/Makefile.in
   aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl
-  aggregateContigOverlapsByBin.pl: /usr/local/bin/aggregateContigOverlapsByBin.pl
+  aggregateContigOverlapsByBin.pl: 
+    /usr/local/bin/aggregateContigOverlapsByBin.pl
   autoheader.bak: /usr/local/bin/autoheader.bak
   autom4te.bak: /usr/local/bin/autom4te.bak
   autoreconf.bak: /usr/local/bin/autoreconf.bak
@@ -46,7 +49,8 @@ aliases:
   idba_ud: /usr/local/bin/idba_ud
   idba_ud.o: /usr/local/bin/idba_ud.o
   ifnames.bak: /usr/local/bin/ifnames.bak
-  jgi_summarize_bam_contig_depths: /usr/local/bin/jgi_summarize_bam_contig_depths
+  jgi_summarize_bam_contig_depths: 
+    /usr/local/bin/jgi_summarize_bam_contig_depths
   merge_cutup_clustering.py: /usr/local/bin/merge_cutup_clustering.py
   merge_depths.pl: /usr/local/bin/merge_depths.pl
   metabat: /usr/local/bin/metabat

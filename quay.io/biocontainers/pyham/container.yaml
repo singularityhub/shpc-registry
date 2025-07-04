@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pyham
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyham
 latest:
-  1.1.11--pyh7cba7a3_0: sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
+  1.1.11--pyh7cba7a3_0: 
+    sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
 tags:
-  1.1.11--pyh7cba7a3_0: sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
+  1.1.11--pyh7cba7a3_0: 
+    sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
 docker: quay.io/biocontainers/pyham
 aliases:
   mpg123: /usr/local/bin/mpg123

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-refnet
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-refnet
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-refnet
 latest:
-  1.24.0--r40_0: sha256:831a26b4eb76d602ec467d53724e920229b409d26328a0e01cedaaeaa3bf6e19
+  1.24.0--r40_0: 
+    sha256:831a26b4eb76d602ec467d53724e920229b409d26328a0e01cedaaeaa3bf6e19
 tags:
-  1.24.0--r40_0: sha256:831a26b4eb76d602ec467d53724e920229b409d26328a0e01cedaaeaa3bf6e19
+  1.24.0--r40_0: 
+    sha256:831a26b4eb76d602ec467d53724e920229b409d26328a0e01cedaaeaa3bf6e19
 docker: quay.io/biocontainers/bioconductor-refnet
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

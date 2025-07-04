@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/genedom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genedom
 latest:
-  0.2.2--pyh7e72e81_0: sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
+  0.2.2--pyh7e72e81_0: 
+    sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
 tags:
-  0.2.2--pyh7e72e81_0: sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
+  0.2.2--pyh7e72e81_0: 
+    sha256:cbed0c674d2fa2dff9726961deeb8bfcdcee0c2887c1b6353aebae2e77ed3c1d
 docker: quay.io/biocontainers/genedom
 aliases:
   dnachisel: /usr/local/bin/dnachisel

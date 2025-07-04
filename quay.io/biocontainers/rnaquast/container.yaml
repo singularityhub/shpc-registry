@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/rnaquast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnaquast
 latest:
-  2.3.0--h9ee0642_0: sha256:b1064d92b9c2cbf506902718e13325f08f6439a361a07fa46086175ced940a2a
+  2.3.0--h9ee0642_0: 
+    sha256:b1064d92b9c2cbf506902718e13325f08f6439a361a07fa46086175ced940a2a
 tags:
-  2.2.1--h9ee0642_0: sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989
-  2.2.3--h9ee0642_0: sha256:917929562006aa015b8b529935ec345110155326df2950980e075089ec415edc
-  2.3.0--h9ee0642_0: sha256:b1064d92b9c2cbf506902718e13325f08f6439a361a07fa46086175ced940a2a
+  2.2.1--h9ee0642_0: 
+    sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989
+  2.2.3--h9ee0642_0: 
+    sha256:917929562006aa015b8b529935ec345110155326df2950980e075089ec415edc
+  2.3.0--h9ee0642_0: 
+    sha256:b1064d92b9c2cbf506902718e13325f08f6439a361a07fa46086175ced940a2a
 docker: quay.io/biocontainers/rnaquast
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
@@ -65,7 +69,8 @@ aliases:
   filterShrimp.pl: /usr/local/bin/filterShrimp.pl
   filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
   gbrowse.conf: /usr/local/bin/gbrowse.conf

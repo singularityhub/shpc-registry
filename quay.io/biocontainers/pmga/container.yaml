@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pmga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pmga
 latest:
-  3.0.2--hdfd78af_0: sha256:f644e4f578a795adf9eb1f434bd9fc26b1953d127b1038c58a9f7ea55e1f53c3
+  3.0.2--hdfd78af_0: 
+    sha256:f644e4f578a795adf9eb1f434bd9fc26b1953d127b1038c58a9f7ea55e1f53c3
 tags:
-  3.0.2--hdfd78af_0: sha256:f644e4f578a795adf9eb1f434bd9fc26b1953d127b1038c58a9f7ea55e1f53c3
+  3.0.2--hdfd78af_0: 
+    sha256:f644e4f578a795adf9eb1f434bd9fc26b1953d127b1038c58a9f7ea55e1f53c3
 docker: quay.io/biocontainers/pmga
 aliases:
   executor: /usr/local/bin/executor

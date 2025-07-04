@@ -2,22 +2,26 @@ url: https://biocontainers.pro/tools/phylotoast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylotoast
 latest:
-  1.4.0rc2--py27_0: sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
+  1.4.0rc2--py27_0: 
+    sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
 tags:
-  1.4.0rc2--py27_0: sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
+  1.4.0rc2--py27_0: 
+    sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
 docker: quay.io/biocontainers/phylotoast
 aliases:
   LDA.py: /usr/local/bin/LDA.py
   LDA_bubble.py: /usr/local/bin/LDA_bubble.py
   PCoA.py: /usr/local/bin/PCoA.py
   PCoA_bubble.py: /usr/local/bin/PCoA_bubble.py
-  assign_taxonomy_by_blast_result.py: /usr/local/bin/assign_taxonomy_by_blast_result.py
+  assign_taxonomy_by_blast_result.py: 
+    /usr/local/bin/assign_taxonomy_by_blast_result.py
   barcode_filter.py: /usr/local/bin/barcode_filter.py
   biom_relative_abundance.py: /usr/local/bin/biom_relative_abundance.py
   condense_workflow.py: /usr/local/bin/condense_workflow.py
   core_overlap_plot.py: /usr/local/bin/core_overlap_plot.py
   diversity.py: /usr/local/bin/diversity.py
-  extract_shared_or_unique_otuids.py: /usr/local/bin/extract_shared_or_unique_otuids.py
+  extract_shared_or_unique_otuids.py: 
+    /usr/local/bin/extract_shared_or_unique_otuids.py
   filter_biom.py: /usr/local/bin/filter_biom.py
   filter_keep_otus_by_sample.py: /usr/local/bin/filter_keep_otus_by_sample.py
   filter_rep_set.py: /usr/local/bin/filter_rep_set.py

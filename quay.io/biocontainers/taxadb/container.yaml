@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/taxadb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taxadb
 latest:
-  0.12.1--pyh5e36f6f_0: sha256:aae29d5472dfb6a8f1dfef1ae91dc08e107f52628e41e17b2e9c182eb651c3f7
+  0.12.1--pyh5e36f6f_0: 
+    sha256:aae29d5472dfb6a8f1dfef1ae91dc08e107f52628e41e17b2e9c182eb651c3f7
 tags:
-  0.12.1--pyh5e36f6f_0: sha256:aae29d5472dfb6a8f1dfef1ae91dc08e107f52628e41e17b2e9c182eb651c3f7
+  0.12.1--pyh5e36f6f_0: 
+    sha256:aae29d5472dfb6a8f1dfef1ae91dc08e107f52628e41e17b2e9c182eb651c3f7
 docker: quay.io/biocontainers/taxadb
 aliases:
   pwiz.py: /usr/local/bin/pwiz.py

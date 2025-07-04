@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ifcnv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ifcnv
 latest:
-  0.2.1--pyh5e36f6f_0: sha256:df61e8ca4b9e6ba1550c10afe31684b6ad5e7023350e99744e8822908467d3ad
+  0.2.1--pyh5e36f6f_0: 
+    sha256:df61e8ca4b9e6ba1550c10afe31684b6ad5e7023350e99744e8822908467d3ad
 tags:
-  0.2.1--pyh5e36f6f_0: sha256:df61e8ca4b9e6ba1550c10afe31684b6ad5e7023350e99744e8822908467d3ad
+  0.2.1--pyh5e36f6f_0: 
+    sha256:df61e8ca4b9e6ba1550c10afe31684b6ad5e7023350e99744e8822908467d3ad
 docker: quay.io/biocontainers/ifcnv
 aliases:
   ifCNV: /usr/local/bin/ifCNV

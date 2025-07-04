@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/r-taxa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-taxa
 latest:
-  0.3.2--r351h6115d3f_0: sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5
+  0.3.2--r351h6115d3f_0: 
+    sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5
 tags:
-  0.3.2--r351h6115d3f_0: sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5
+  0.3.2--r351h6115d3f_0: 
+    sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5
 docker: quay.io/biocontainers/r-taxa

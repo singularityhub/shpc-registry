@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/seacells
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seacells
 latest:
-  0.3.3--pyhdfd78af_0: sha256:91c45856659bc71c0c9ef64fd18eb31f305d2e3a01da77b4e614325d4691b25b
+  0.3.3--pyhdfd78af_0: 
+    sha256:91c45856659bc71c0c9ef64fd18eb31f305d2e3a01da77b4e614325d4691b25b
 tags:
-  0.3.3--pyhdfd78af_0: sha256:91c45856659bc71c0c9ef64fd18eb31f305d2e3a01da77b4e614325d4691b25b
+  0.3.3--pyhdfd78af_0: 
+    sha256:91c45856659bc71c0c9ef64fd18eb31f305d2e3a01da77b4e614325d4691b25b
 docker: quay.io/biocontainers/seacells
 aliases:
   progressbar: /usr/local/bin/progressbar

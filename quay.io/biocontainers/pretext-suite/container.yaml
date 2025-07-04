@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pretext-suite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pretext-suite
 latest:
-  0.0.2--hdfd78af_1: sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
+  0.0.2--hdfd78af_1: 
+    sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
 tags:
-  0.0.2--hdfd78af_1: sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
+  0.0.2--hdfd78af_1: 
+    sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
 docker: quay.io/biocontainers/pretext-suite
 aliases:
   PretextGraph: /usr/local/bin/PretextGraph

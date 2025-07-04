@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-jsonlite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-jsonlite
 latest:
-  0.9.19--r3.3.1_1: sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342
+  0.9.19--r3.3.1_1: 
+    sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342
 tags:
-  0.9.19--r3.3.1_1: sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342
-  0.9.19--r3.3.2_1: sha256:b99c86a99aeb209805b41eb225e78bd6b37e7f3c23bce8b2e7dd8514fea6546e
+  0.9.19--r3.3.1_1: 
+    sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342
+  0.9.19--r3.3.2_1: 
+    sha256:b99c86a99aeb209805b41eb225e78bd6b37e7f3c23bce8b2e7dd8514fea6546e
 docker: quay.io/biocontainers/r-jsonlite
 aliases:
   uconv: /usr/local/bin/uconv

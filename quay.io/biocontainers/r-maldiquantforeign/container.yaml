@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/r-maldiquantforeign
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for r-maldiquantforeign
+description: shpc-registry automated BioContainers addition for 
+  r-maldiquantforeign
 latest:
-  0.12--r351h6115d3f_0: sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c
+  0.12--r351h6115d3f_0: 
+    sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c
 tags:
-  0.12--r351h6115d3f_0: sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c
+  0.12--r351h6115d3f_0: 
+    sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c
 docker: quay.io/biocontainers/r-maldiquantforeign
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

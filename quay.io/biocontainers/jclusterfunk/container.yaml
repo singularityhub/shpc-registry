@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/jclusterfunk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jclusterfunk
 latest:
-  0.0.25--hdfd78af_0: sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
+  0.0.25--hdfd78af_0: 
+    sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
 tags:
-  0.0.25--hdfd78af_0: sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
+  0.0.25--hdfd78af_0: 
+    sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
 docker: quay.io/biocontainers/jclusterfunk
 aliases:
   jclusterfunk: /usr/local/bin/jclusterfunk

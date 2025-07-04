@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/go-figure
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for go-figure
 latest:
-  1.0.2--hdfd78af_0: sha256:588a19ba7947131fc224f1d8f7344d5c66921af47ff7961c655457b513687f92
+  1.0.2--hdfd78af_0: 
+    sha256:588a19ba7947131fc224f1d8f7344d5c66921af47ff7961c655457b513687f92
 tags:
-  1.0.2--hdfd78af_0: sha256:588a19ba7947131fc224f1d8f7344d5c66921af47ff7961c655457b513687f92
+  1.0.2--hdfd78af_0: 
+    sha256:588a19ba7947131fc224f1d8f7344d5c66921af47ff7961c655457b513687f92
 docker: quay.io/biocontainers/go-figure
 aliases:
   go.obo: /usr/local/bin/go.obo

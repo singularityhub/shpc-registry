@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/prosolo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prosolo
 latest:
-  0.6.1--hc7800f0_1: sha256:bde4ce85e0e9b46e4f609eacb8678975d5c9147613ad813b969b58f48de191ce
+  0.6.1--hc7800f0_1: 
+    sha256:bde4ce85e0e9b46e4f609eacb8678975d5c9147613ad813b969b58f48de191ce
 tags:
-  0.6.1--hc7800f0_1: sha256:bde4ce85e0e9b46e4f609eacb8678975d5c9147613ad813b969b58f48de191ce
+  0.6.1--hc7800f0_1: 
+    sha256:bde4ce85e0e9b46e4f609eacb8678975d5c9147613ad813b969b58f48de191ce
 docker: quay.io/biocontainers/prosolo
 aliases:
   bugpoint: /usr/local/bin/bugpoint

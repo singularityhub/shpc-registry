@@ -6,6 +6,7 @@ latest:
   2.1.1: sha256:fc247776706f7537b8abaa11cf13404ebdb94cb33c8d9ac111febd09c10debd1
 tags:
   2.1.1: sha256:fc247776706f7537b8abaa11cf13404ebdb94cb33c8d9ac111febd09c10debd1
-  latest: sha256:fc247776706f7537b8abaa11cf13404ebdb94cb33c8d9ac111febd09c10debd1
+  latest: 
+    sha256:fc247776706f7537b8abaa11cf13404ebdb94cb33c8d9ac111febd09c10debd1
 aliases:
   alan: /opt/view/bin/alan

@@ -2,10 +2,15 @@ url: https://biocontainers.pro/tools/tagger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tagger
 latest:
-  1.1--py27h02d93b8_0: sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d
+  1.1--py312hf731ba3_2: 
+    sha256:3d2ae62e8431ae854eb326c9fb7ab007c946a95dc2fa41ea50ec63279025a93e
 tags:
-  1.1--py27h02d93b8_0: sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d
-  1.1--py35h02d93b8_0: sha256:ee425ba56ee868d773084cf0d7859d61d75adf930c3589ae517e3dc799fcb87d
+  1.1--py27h02d93b8_0: 
+    sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d
+  1.1--py35h02d93b8_0: 
+    sha256:ee425ba56ee868d773084cf0d7859d61d75adf930c3589ae517e3dc799fcb87d
+  1.1--py312hf731ba3_2: 
+    sha256:3d2ae62e8431ae854eb326c9fb7ab007c946a95dc2fa41ea50ec63279025a93e
 docker: quay.io/biocontainers/tagger
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig

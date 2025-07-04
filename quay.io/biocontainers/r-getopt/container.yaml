@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-getopt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-getopt
 latest:
-  1.20.0--r3.2.2_0: sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384
+  1.20.0--r3.2.2_0: 
+    sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384
 tags:
-  1.20.0--r3.2.2_0: sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384
-  1.20.0--r3.3.2_0: sha256:680792f1456bd27cfcf34c2cd84911f5552af7e2df534d4a1d5444ce20ce40d1
+  1.20.0--r3.2.2_0: 
+    sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384
+  1.20.0--r3.3.2_0: 
+    sha256:680792f1456bd27cfcf34c2cd84911f5552af7e2df534d4a1d5444ce20ce40d1
 docker: quay.io/biocontainers/r-getopt
 aliases:
   pngcp: /usr/local/bin/pngcp

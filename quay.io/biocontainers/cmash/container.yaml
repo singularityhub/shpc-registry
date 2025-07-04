@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cmash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cmash
 latest:
-  0.5.2--pyh5e36f6f_0: sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
+  0.5.2--pyh5e36f6f_0: 
+    sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
 tags:
-  0.5.2--pyh5e36f6f_0: sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
+  0.5.2--pyh5e36f6f_0: 
+    sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
 docker: quay.io/biocontainers/cmash
 aliases:
   MakeDNADatabase.py: /usr/local/bin/MakeDNADatabase.py
@@ -13,7 +15,8 @@ aliases:
   MakeStreamingPrefilter.py: /usr/local/bin/MakeStreamingPrefilter.py
   QueryDNADatabase.py: /usr/local/bin/QueryDNADatabase.py
   StreamingQueryDNADatabase.py: /usr/local/bin/StreamingQueryDNADatabase.py
-  StreamingQueryDNADatabase_queue.py: /usr/local/bin/StreamingQueryDNADatabase_queue.py
+  StreamingQueryDNADatabase_queue.py: 
+    /usr/local/bin/StreamingQueryDNADatabase_queue.py
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
   abundance-dist.py: /usr/local/bin/abundance-dist.py
   annotate-partitions.py: /usr/local/bin/annotate-partitions.py

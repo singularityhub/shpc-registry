@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/pyvcf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyvcf
 latest:
-  0.6.8.dev0--py35_0: sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71
+  0.6.8.dev0--py35_0: 
+    sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71
 tags:
-  0.6.8.dev0--py35_0: sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71
-  0.6.8--py36_0: sha256:b52b7394552fd31e5d43127bebe46ae53d5b51e53badfc7d7d711b3e63d5f220
+  0.6.8.dev0--py35_0: 
+    sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71
+  0.6.8--py36_0: 
+    sha256:b52b7394552fd31e5d43127bebe46ae53d5b51e53badfc7d7d711b3e63d5f220
 docker: quay.io/biocontainers/pyvcf
 aliases:
   vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/cellrank-krylov
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cellrank-krylov
 latest:
-  1.5.1--pyh1e54042_0: sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
+  1.5.1--pyh1e54042_0: 
+    sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
 tags:
-  1.5.1--pyh1e54042_0: sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
+  1.5.1--pyh1e54042_0: 
+    sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
 docker: quay.io/biocontainers/cellrank-krylov
 aliases:
   acpl: /usr/local/bin/acpl

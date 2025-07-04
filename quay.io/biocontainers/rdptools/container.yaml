@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rdptools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rdptools
 latest:
-  2.0.3--hdfd78af_1: sha256:51d6fc5c033c4a7713b92e343c91589884999b1851f046784f4fd5098381c803
+  2.0.3--hdfd78af_1: 
+    sha256:51d6fc5c033c4a7713b92e343c91589884999b1851f046784f4fd5098381c803
 tags:
-  2.0.3--hdfd78af_1: sha256:51d6fc5c033c4a7713b92e343c91589884999b1851f046784f4fd5098381c803
+  2.0.3--hdfd78af_1: 
+    sha256:51d6fc5c033c4a7713b92e343c91589884999b1851f046784f4fd5098381c803
 docker: quay.io/biocontainers/rdptools
 aliases:
   AbundanceStats: /usr/local/bin/AbundanceStats

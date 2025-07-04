@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-ngsplotdb-hg38
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ngsplotdb-hg38
 latest:
-  3.00--hdfd78af_6: sha256:09b7858813aa06ca087e5a1536d4b571c193b9b843786e9cfd250c95c4b54f89
+  3.00--hdfd78af_6: 
+    sha256:09b7858813aa06ca087e5a1536d4b571c193b9b843786e9cfd250c95c4b54f89
 tags:
-  3.00--hdfd78af_6: sha256:09b7858813aa06ca087e5a1536d4b571c193b9b843786e9cfd250c95c4b54f89
+  3.00--hdfd78af_6: 
+    sha256:09b7858813aa06ca087e5a1536d4b571c193b9b843786e9cfd250c95c4b54f89
 docker: quay.io/biocontainers/r-ngsplotdb-hg38
 aliases:
   ExtractGName.R: /usr/local/bin/ExtractGName.R
@@ -42,4 +44,5 @@ aliases:
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

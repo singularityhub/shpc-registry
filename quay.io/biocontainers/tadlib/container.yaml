@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/tadlib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tadlib
 latest:
-  0.4.5.post1--pyhdfd78af_0: sha256:0e405b87da643bd51bf5482039e34852a0998b8cb8846c85ba3d155e0173b2e9
+  0.4.5.post1--pyhdfd78af_1: 
+    sha256:791ac401ad832f4945e5c811d4217d69ec36210990930caeb3f4de7452ed37b6
 tags:
-  0.4.5.post1--pyhdfd78af_0: sha256:0e405b87da643bd51bf5482039e34852a0998b8cb8846c85ba3d155e0173b2e9
+  0.4.5.post1--pyhdfd78af_0: 
+    sha256:0e405b87da643bd51bf5482039e34852a0998b8cb8846c85ba3d155e0173b2e9
+  0.4.5.post1--pyhdfd78af_1: 
+    sha256:791ac401ad832f4945e5c811d4217d69ec36210990930caeb3f4de7452ed37b6
 docker: quay.io/biocontainers/tadlib
 aliases:
   calfea: /usr/local/bin/calfea

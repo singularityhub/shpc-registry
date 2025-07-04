@@ -2,14 +2,19 @@ url: https://biocontainers.pro/tools/scater-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scater-scripts
 latest:
-  0.0.5--1: sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
+  0.0.5--1: 
+    sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
 tags:
-  0.0.5--1: sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
+  0.0.5--1: 
+    sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
 docker: quay.io/biocontainers/scater-scripts
 aliases:
-  bioconductor-scater-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
-  bioconductor-scater-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
-  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
+  bioconductor-scater-scripts-post-install-tests.bats: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
+  bioconductor-scater-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
+  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
   scater-calculate-cpm.R: /usr/local/bin/scater-calculate-cpm.R
   scater-calculate-qc-metrics.R: /usr/local/bin/scater-calculate-qc-metrics.R
   scater-extract-qc-metric.R: /usr/local/bin/scater-extract-qc-metric.R
@@ -19,9 +24,12 @@ aliases:
   scater-plot-reduced-dim.R: /usr/local/bin/scater-plot-reduced-dim.R
   scater-run-pca.R: /usr/local/bin/scater-run-pca.R
   scater-run-tsne.R: /usr/local/bin/scater-run-tsne.R
-  singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
-  singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
-  singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
+  singlecellexperiment-create-single-cell-experiment.R: 
+    /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
+  singlecellexperiment-get-random-cells.R: 
+    /usr/local/bin/singlecellexperiment-get-random-cells.R
+  singlecellexperiment-get-random-genes.R: 
+    /usr/local/bin/singlecellexperiment-get-random-genes.R
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
