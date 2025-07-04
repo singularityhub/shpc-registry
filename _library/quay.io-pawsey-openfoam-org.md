@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/openfoam-org"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam-org/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/openfoam-org/container.yaml"
-updated_at: "2025-07-03 19:17:11.280661"
+updated_at: "2025-07-04 04:10:55.054660"
 latest: "10"
 container_url: "https://quay.io/repository/pawsey/openfoam-org"
 
@@ -14,7 +14,7 @@ versions:
  - "8"
  - "7"
 description: "OpenFOAM (openfoam.org) images built on top of MPICH."
-config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"10": "sha256:f7cd85fa83a5fb3f1838eafd511df64ecf935dc06bbefa78a1e9df9b19a8ef82"}, "tags": {"10": "sha256:f7cd85fa83a5fb3f1838eafd511df64ecf935dc06bbefa78a1e9df9b19a8ef82", "9": "sha256:8beb9105b4173c742bcbbed3fb4d715929e446cc492c9b8dee7b25d9f499c433", "8": "sha256:ddc8c9d502d77c1f6d3b46282a41eed19c622deedb40d511c4991abc9a25f2bb", "7": "sha256:370c77f1c3920a19c16eb53596441280e38bbfca344a36332efaa45e32ace369"}, "overrides": {"10": "aliases/10.yaml", "9": "aliases/9.yaml", "8": "aliases/8.yaml", "7": "aliases/7.yaml"}}
+config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"10": "sha256:28fac3f4a4eb564df635dbae9d55eaf7940a466807a5e81ee412863c316a9137"}, "tags": {"10": "sha256:28fac3f4a4eb564df635dbae9d55eaf7940a466807a5e81ee412863c316a9137", "9": "sha256:4bf84cb30534e8ab12d79e2f29708a4c9492064b432c9b4274d143f3d28f829e", "8": "sha256:ddc8c9d502d77c1f6d3b46282a41eed19c622deedb40d511c4991abc9a25f2bb", "7": "sha256:370c77f1c3920a19c16eb53596441280e38bbfca344a36332efaa45e32ace369"}, "overrides": {"10": "aliases/10.yaml", "9": "aliases/9.yaml", "8": "aliases/8.yaml", "7": "aliases/7.yaml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/openfoam-org.

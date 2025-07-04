@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/a3partitioner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/a3partitioner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/a3partitioner/container.yaml"
-updated_at: "2025-07-03 18:42:25.574695"
+updated_at: "2025-07-04 03:37:45.899633"
 latest: "0.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/a3partitioner"
 aliases:

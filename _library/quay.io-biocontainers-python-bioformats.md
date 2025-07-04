@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-bioformats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-bioformats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-bioformats/container.yaml"
-updated_at: "2025-07-03 19:14:24.428197"
+updated_at: "2025-07-04 04:08:18.152147"
 latest: "4.0.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/python-bioformats"
 aliases:

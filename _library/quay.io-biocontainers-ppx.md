@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ppx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppx/container.yaml"
-updated_at: "2025-07-03 18:53:31.965600"
-latest: "1.4.4--pyhdfd78af_0"
+updated_at: "2025-07-04 03:48:27.884435"
+latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ppx"
 aliases:
  - "ppx"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.3.0--pyhdfd78af_0"
  - "1.4.4--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ppx"
-config: {"url": "https://biocontainers.pro/tools/ppx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppx", "latest": {"1.4.4--pyhdfd78af_0": "sha256:b3d45fc6e069a52ec010d72b866f391b4a8d16944b16ea44ed8fe1309787e605"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:902f69ad385b7ebbe9bb1d72e08d557a5cf6374a099489e610e4913f03eb39a0", "1.4.4--pyhdfd78af_0": "sha256:b3d45fc6e069a52ec010d72b866f391b4a8d16944b16ea44ed8fe1309787e605"}, "docker": "quay.io/biocontainers/ppx", "aliases": {"ppx": "/usr/local/bin/ppx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ppx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppx", "latest": {"1.5.0--pyhdfd78af_0": "sha256:ca5f46a2053462060251c9a7974f7a0c6f4907df985b2fa82d2801f6794be1ad"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:902f69ad385b7ebbe9bb1d72e08d557a5cf6374a099489e610e4913f03eb39a0", "1.4.4--pyhdfd78af_0": "sha256:b3d45fc6e069a52ec010d72b866f391b4a8d16944b16ea44ed8fe1309787e605", "1.5.0--pyhdfd78af_0": "sha256:ca5f46a2053462060251c9a7974f7a0c6f4907df985b2fa82d2801f6794be1ad"}, "docker": "quay.io/biocontainers/ppx", "aliases": {"ppx": "/usr/local/bin/ppx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ppx.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ppx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ppx:1.4.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ppx:1.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ppx/1.4.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/ppx/1.4.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/ppx/1.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ppx/1.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

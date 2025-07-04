@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grz-common"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-common/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-common/container.yaml"
-updated_at: "2025-07-03 18:38:49.041467"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2025-07-04 03:34:23.420084"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grz-common"
 aliases:
  - "crypt4gh"
@@ -24,8 +24,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for grz-common"
-config: {"url": "https://biocontainers.pro/tools/grz-common", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-common", "latest": {"0.1.0--pyhdfd78af_0": "sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0"}, "docker": "quay.io/biocontainers/grz-common", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "dotenv": "/usr/local/bin/dotenv", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/grz-common", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-common", "latest": {"1.0.2--pyhdfd78af_0": "sha256:95438729df0e35a75e15a2ba50e29debf1a938525483796b88eb93ab7ad32f3e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0", "1.0.2--pyhdfd78af_0": "sha256:95438729df0e35a75e15a2ba50e29debf1a938525483796b88eb93ab7ad32f3e"}, "docker": "quay.io/biocontainers/grz-common", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "dotenv": "/usr/local/bin/dotenv", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-common.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/grz-common
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-common:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/grz-common:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-common/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/grz-common/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/grz-common/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/grz-common/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

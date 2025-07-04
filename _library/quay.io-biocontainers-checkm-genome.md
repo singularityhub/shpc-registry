@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkm-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkm-genome/container.yaml"
-updated_at: "2025-07-03 18:27:17.689245"
-latest: "1.2.3--pyhdfd78af_1"
+updated_at: "2025-07-04 03:23:22.844086"
+latest: "1.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkm-genome"
 aliases:
  - "checkm"
@@ -25,8 +25,9 @@ versions:
  - "1.2.2--pyhdfd78af_1"
  - "1.2.3--pyhdfd78af_0"
  - "1.2.3--pyhdfd78af_1"
+ - "1.2.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkm-genome"
-config: {"url": "https://biocontainers.pro/tools/checkm-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkm-genome", "latest": {"1.2.3--pyhdfd78af_1": "sha256:737c37915fa08180bde55e5822635181ee0485b616c1361821386081dc105a13"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb", "1.2.2--pyhdfd78af_0": "sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715", "1.2.2--pyhdfd78af_1": "sha256:c746d0ef763a97d920c1e0019ad4c50fd0d622ab5ee14f52d7f641a306205917", "1.2.3--pyhdfd78af_0": "sha256:5066c4de041e8c7d853f6b1687e73fea1af25475960d79c31271e76d652fbba8", "1.2.3--pyhdfd78af_1": "sha256:737c37915fa08180bde55e5822635181ee0485b616c1361821386081dc105a13"}, "docker": "quay.io/biocontainers/checkm-genome", "aliases": {"checkm": "/usr/local/bin/checkm", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
+config: {"url": "https://biocontainers.pro/tools/checkm-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkm-genome", "latest": {"1.2.4--pyhdfd78af_0": "sha256:3523362bd852cb7c4eb06e092870a574a711250e8601562647d80b741acc2edd"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb", "1.2.2--pyhdfd78af_0": "sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715", "1.2.2--pyhdfd78af_1": "sha256:c746d0ef763a97d920c1e0019ad4c50fd0d622ab5ee14f52d7f641a306205917", "1.2.3--pyhdfd78af_0": "sha256:5066c4de041e8c7d853f6b1687e73fea1af25475960d79c31271e76d652fbba8", "1.2.3--pyhdfd78af_1": "sha256:737c37915fa08180bde55e5822635181ee0485b616c1361821386081dc105a13", "1.2.4--pyhdfd78af_0": "sha256:3523362bd852cb7c4eb06e092870a574a711250e8601562647d80b741acc2edd"}, "docker": "quay.io/biocontainers/checkm-genome", "aliases": {"checkm": "/usr/local/bin/checkm", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkm-genome.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/checkm-genome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkm-genome:1.2.3--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/checkm-genome:1.2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkm-genome/1.2.3--pyhdfd78af_1
-$ module help quay.io/biocontainers/checkm-genome/1.2.3--pyhdfd78af_1
+$ module load quay.io/biocontainers/checkm-genome/1.2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkm-genome/1.2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

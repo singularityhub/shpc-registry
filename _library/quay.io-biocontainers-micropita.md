@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/micropita"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micropita/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micropita/container.yaml"
-updated_at: "2025-07-03 18:46:57.051036"
+updated_at: "2025-07-04 03:42:01.798702"
 latest: "1.1.0--1"
 container_url: "https://biocontainers.pro/tools/micropita"
 
