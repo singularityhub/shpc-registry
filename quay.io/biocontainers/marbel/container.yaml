@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/marbel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for marbel
 latest:
-  0.2.3--pyh7e72e81_0: sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093
+  0.2.4--pyh7e72e81_0: 
+    sha256:eee2aea447b3a03a0f96053d09bdd1755d566595453c8cdf65c9ee0ec5244e8a
 tags:
-  0.2.3--pyh7e72e81_0: sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093
+  0.2.3--pyh7e72e81_0: 
+    sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093
+  0.2.4--pyh7e72e81_0: 
+    sha256:eee2aea447b3a03a0f96053d09bdd1755d566595453c8cdf65c9ee0ec5244e8a
 docker: quay.io/biocontainers/marbel
 aliases:
   bottle.py: /usr/local/bin/bottle.py
@@ -27,7 +31,8 @@ aliases:
   protoc-gen-upb: /usr/local/bin/protoc-gen-upb
   protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
   protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
-  protoc-gen-upb_minitable-29.3.0: /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
   protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
   protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
   pytensor-cache: /usr/local/bin/pytensor-cache

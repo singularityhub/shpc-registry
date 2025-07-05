@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/secapr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for secapr
 latest:
-  2.2.8--pyh5e36f6f_0: sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226
+  2.2.8--pyh5e36f6f_0: 
+    sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226
 tags:
-  2.2.8--pyh5e36f6f_0: sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226
+  2.2.8--pyh5e36f6f_0: 
+    sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226
 docker: quay.io/biocontainers/secapr
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

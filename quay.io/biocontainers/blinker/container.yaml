@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/blinker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blinker
 latest:
-  1.4--py35_0: sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368
+  1.4--py35_0: 
+    sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368
 tags:
-  1.4--py35_0: sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368
-  1.4--py36_0: sha256:af917c9e231dabe8987da1f5af3c5bf8fa9b7dc92162abe67a033abc13a51a5e
+  1.4--py35_0: 
+    sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368
+  1.4--py36_0: 
+    sha256:af917c9e231dabe8987da1f5af3c5bf8fa9b7dc92162abe67a033abc13a51a5e
 docker: quay.io/biocontainers/blinker
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

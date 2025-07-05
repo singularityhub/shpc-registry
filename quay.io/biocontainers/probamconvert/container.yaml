@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/probamconvert
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for probamconvert
 latest:
-  1.0.2--2: sha256:730e785329fab8f3c91c3fe612834e6e53764b6ce6c73364f2c87f455df7758e
+  1.0.2--2: 
+    sha256:730e785329fab8f3c91c3fe612834e6e53764b6ce6c73364f2c87f455df7758e
 tags:
-  1.0.2--2: sha256:730e785329fab8f3c91c3fe612834e6e53764b6ce6c73364f2c87f455df7758e
+  1.0.2--2: 
+    sha256:730e785329fab8f3c91c3fe612834e6e53764b6ce6c73364f2c87f455df7758e
 docker: quay.io/biocontainers/probamconvert
 aliases:
   proBAM.py: /usr/local/bin/proBAM.py

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-peakpick
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-peakpick
 latest:
-  0.11--r44hdfd78af_0: sha256:e43d9c1d52db9653f05f97952b4766caae3dad00e41509c27e5eb1af34ee8c66
+  0.11--r44hdfd78af_0: 
+    sha256:e43d9c1d52db9653f05f97952b4766caae3dad00e41509c27e5eb1af34ee8c66
 tags:
-  0.11--r44hdfd78af_0: sha256:e43d9c1d52db9653f05f97952b4766caae3dad00e41509c27e5eb1af34ee8c66
+  0.11--r44hdfd78af_0: 
+    sha256:e43d9c1d52db9653f05f97952b4766caae3dad00e41509c27e5eb1af34ee8c66
 docker: quay.io/biocontainers/r-peakpick
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

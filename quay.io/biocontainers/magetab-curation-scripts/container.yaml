@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/magetab-curation-scripts
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for magetab-curation-scripts
+description: shpc-registry automated BioContainers addition for 
+  magetab-curation-scripts
 latest:
-  1.1.0--hdfd78af_0: sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
+  1.1.0--hdfd78af_0: 
+    sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
 tags:
-  1.1.0--hdfd78af_0: sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
+  1.1.0--hdfd78af_0: 
+    sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
 docker: quay.io/biocontainers/magetab-curation-scripts
 aliases:
   adf_checker.pl: /usr/local/bin/adf_checker.pl

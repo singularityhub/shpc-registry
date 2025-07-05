@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/kernel_density_plots
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for kernel_density_plots
+description: singularity registry hpc automated addition for 
+  kernel_density_plots
 latest:
-  0.1--pyhdfd78af_0: sha256:d0d485e48a254d9ae75db97ba1a4f869f578534c8d40e85d978a53621226d69a
+  0.1--pyhdfd78af_0: 
+    sha256:d0d485e48a254d9ae75db97ba1a4f869f578534c8d40e85d978a53621226d69a
 tags:
-  0.1--pyhdfd78af_0: sha256:d0d485e48a254d9ae75db97ba1a4f869f578534c8d40e85d978a53621226d69a
+  0.1--pyhdfd78af_0: 
+    sha256:d0d485e48a254d9ae75db97ba1a4f869f578534c8d40e85d978a53621226d69a
 docker: quay.io/biocontainers/kernel_density_plots
 aliases:
   kernel_plot.py: /usr/local/bin/kernel_plot.py

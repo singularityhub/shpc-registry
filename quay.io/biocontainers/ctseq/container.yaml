@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ctseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ctseq
 latest:
-  0.0.2--py_0: sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4
+  0.0.2--py_0: 
+    sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4
 tags:
-  0.0.2--py_0: sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4
+  0.0.2--py_0: 
+    sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4
 docker: quay.io/biocontainers/ctseq
 aliases:
   Bismark_alignment_modes.pdf: /usr/local/bin/Bismark_alignment_modes.pdf
@@ -21,7 +23,8 @@ aliases:
   compare_HLA.py.bak: /usr/local/bin/compare_HLA.py.bak
   compare_HLA_Omixon.py: /usr/local/bin/compare_HLA_Omixon.py
   compare_HLA_Omixon.py.bak: /usr/local/bin/compare_HLA_Omixon.py.bak
-  copy_bismark_files_for_release.pl: /usr/local/bin/copy_bismark_files_for_release.pl
+  copy_bismark_files_for_release.pl: 
+    /usr/local/bin/copy_bismark_files_for_release.pl
   coverage2cytosine: /usr/local/bin/coverage2cytosine
   ctseq: /usr/local/bin/ctseq
   deduplicate_bismark: /usr/local/bin/deduplicate_bismark
@@ -40,27 +43,37 @@ aliases:
   hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
   hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
   hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
-  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
-  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_snps_haplotypes_UCSC.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
   hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
   hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
   hisatgenotype.py: /usr/local/bin/hisatgenotype.py
-  hisatgenotype_HLA_genotyping_PGs.py: /usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py
-  hisatgenotype_HLA_genotyping_PGs.py.bak: /usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py.bak
+  hisatgenotype_HLA_genotyping_PGs.py: 
+    /usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py
+  hisatgenotype_HLA_genotyping_PGs.py.bak: 
+    /usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py.bak
   hisatgenotype_build_genome.py: /usr/local/bin/hisatgenotype_build_genome.py
   hisatgenotype_convert_codis.py: /usr/local/bin/hisatgenotype_convert_codis.py
-  hisatgenotype_convert_codis.py.bak: /usr/local/bin/hisatgenotype_convert_codis.py.bak
-  hisatgenotype_extract_codis_data.py: /usr/local/bin/hisatgenotype_extract_codis_data.py
-  hisatgenotype_extract_codis_data.py.bak: /usr/local/bin/hisatgenotype_extract_codis_data.py.bak
-  hisatgenotype_extract_cyp_data.py: /usr/local/bin/hisatgenotype_extract_cyp_data.py
-  hisatgenotype_extract_cyp_data.py.bak: /usr/local/bin/hisatgenotype_extract_cyp_data.py.bak
+  hisatgenotype_convert_codis.py.bak: 
+    /usr/local/bin/hisatgenotype_convert_codis.py.bak
+  hisatgenotype_extract_codis_data.py: 
+    /usr/local/bin/hisatgenotype_extract_codis_data.py
+  hisatgenotype_extract_codis_data.py.bak: 
+    /usr/local/bin/hisatgenotype_extract_codis_data.py.bak
+  hisatgenotype_extract_cyp_data.py: 
+    /usr/local/bin/hisatgenotype_extract_cyp_data.py
+  hisatgenotype_extract_cyp_data.py.bak: 
+    /usr/local/bin/hisatgenotype_extract_cyp_data.py.bak
   hisatgenotype_extract_reads.py: /usr/local/bin/hisatgenotype_extract_reads.py
   hisatgenotype_extract_vars.py: /usr/local/bin/hisatgenotype_extract_vars.py
   hisatgenotype_hla_cyp.py: /usr/local/bin/hisatgenotype_hla_cyp.py
   hisatgenotype_locus.py: /usr/local/bin/hisatgenotype_locus.py
   hisatgenotype_locus_samples.py: /usr/local/bin/hisatgenotype_locus_samples.py
-  hisatgenotype_locus_samples.py.bak: /usr/local/bin/hisatgenotype_locus_samples.py.bak
+  hisatgenotype_locus_samples.py.bak: 
+    /usr/local/bin/hisatgenotype_locus_samples.py.bak
   license.txt: /usr/local/bin/license.txt
   methylation_consistency: /usr/local/bin/methylation_consistency
   run_extract_CP.sh: /usr/local/bin/run_extract_CP.sh

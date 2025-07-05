@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bel-resources
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bel-resources
 latest:
-  0.0.3--py_0: sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932
+  0.0.3--py_0: 
+    sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932
 tags:
-  0.0.3--py_0: sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932
+  0.0.3--py_0: 
+    sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932
 docker: quay.io/biocontainers/bel-resources
 aliases:
   bel-resources: /usr/local/bin/bel-resources

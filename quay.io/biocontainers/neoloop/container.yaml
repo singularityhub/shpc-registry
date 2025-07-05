@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/neoloop
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for neoloop
 latest:
-  0.4.3.post2--pyhdfd78af_0: sha256:71f2acb1330cd61786bae1308b214681cc455bb970e22b83e18b9eae9035ead1
+  0.4.3.post2--pyhdfd78af_0: 
+    sha256:71f2acb1330cd61786bae1308b214681cc455bb970e22b83e18b9eae9035ead1
 tags:
-  0.4.3.post2--pyhdfd78af_0: sha256:71f2acb1330cd61786bae1308b214681cc455bb970e22b83e18b9eae9035ead1
+  0.4.3.post2--pyhdfd78af_0: 
+    sha256:71f2acb1330cd61786bae1308b214681cc455bb970e22b83e18b9eae9035ead1
 docker: quay.io/biocontainers/neoloop
 aliases:
   add_prefix_to_cool.py: /usr/local/bin/add_prefix_to_cool.py

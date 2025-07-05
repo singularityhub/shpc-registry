@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/buscolite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for buscolite
 latest:
-  25.4.24--pyhdfd78af_0: sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
+  25.4.24--pyhdfd78af_0: 
+    sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
 tags:
-  23.10.26--pyhdfd78af_0: sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a
-  24.11.3--pyhdfd78af_0: sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43
-  25.4.24--pyhdfd78af_0: sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
+  23.10.26--pyhdfd78af_0: 
+    sha256:eaa3ed539c8e98e8a31e503d63b7242a5772116a237b167c3d7bc6916de2ea7a
+  24.11.3--pyhdfd78af_0: 
+    sha256:cee024cf6effb9de5ae5cd247ec7c7bf2f0cee4147f13a2ed77562e55178ca43
+  25.4.24--pyhdfd78af_0: 
+    sha256:09489b2a9db8b8dcc19d88423677d74b3de06bad0198f8bd541413e3b2f5701b
 docker: quay.io/biocontainers/buscolite
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
@@ -25,7 +29,8 @@ aliases:
   stringtie2fa.py: /usr/local/bin/stringtie2fa.py
   bamToWig.py: /usr/local/bin/bamToWig.py
   compare_masking.pl: /usr/local/bin/compare_masking.pl
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   merge_masking.pl: /usr/local/bin/merge_masking.pl
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl

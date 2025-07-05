@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dvorfs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dvorfs
 latest:
-  1.0.1--pyhdfd78af_0: sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f
+  1.0.1--pyhdfd78af_0: 
+    sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f
 tags:
-  1.0.1--pyhdfd78af_0: sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f
+  1.0.1--pyhdfd78af_0: 
+    sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f
 docker: quay.io/biocontainers/dvorfs
 aliases:
   dba: /usr/local/bin/dba

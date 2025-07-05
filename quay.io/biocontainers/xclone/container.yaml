@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/xclone
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for xclone
 latest:
-  0.3.8--pyhdfd78af_0: sha256:8f86479229202a139c139c7d3d6a5cade03c2021a034e7cc86f0ffbc1138b80f
+  0.3.8--pyhdfd78af_0: 
+    sha256:8f86479229202a139c139c7d3d6a5cade03c2021a034e7cc86f0ffbc1138b80f
 tags:
-  0.3.8--pyhdfd78af_0: sha256:8f86479229202a139c139c7d3d6a5cade03c2021a034e7cc86f0ffbc1138b80f
+  0.3.8--pyhdfd78af_0: 
+    sha256:8f86479229202a139c139c7d3d6a5cade03c2021a034e7cc86f0ffbc1138b80f
 docker: quay.io/biocontainers/xclone
 aliases:
   bsdunzip: /usr/local/bin/bsdunzip

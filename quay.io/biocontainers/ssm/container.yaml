@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ssm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ssm
 latest:
-  1.4--h503566f_0: 
-    sha256:d6fa86bff564c981c07ed310a8b9d1b6faf3f507f7e9758c719232ac11f1d4a6
+  1.4--h503566f_1: 
+    sha256:8076b35756146a5a29105b9b2b24c3ad14eaac8a98ec49a5086e6869dba81bcd
 tags:
   1.4--h503566f_0: 
     sha256:d6fa86bff564c981c07ed310a8b9d1b6faf3f507f7e9758c719232ac11f1d4a6
+  1.4--h503566f_1: 
+    sha256:8076b35756146a5a29105b9b2b24c3ad14eaac8a98ec49a5086e6869dba81bcd
 docker: quay.io/biocontainers/ssm
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

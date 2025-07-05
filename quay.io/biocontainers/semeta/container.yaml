@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/semeta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for semeta
 latest:
-  1.0--0: sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45
+  1.0--0: 
+    sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45
 tags:
-  1.0--0: sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45
+  1.0--0: 
+    sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45
 docker: quay.io/biocontainers/semeta
 aliases:
   SeMeta_Assign: /usr/local/bin/SeMeta_Assign

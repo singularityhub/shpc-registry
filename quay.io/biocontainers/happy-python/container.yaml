@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/happy-python
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for happy-python
 latest:
-  0.2.1rc0--pyhdfd78af_0: sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
+  0.2.1rc0--pyhdfd78af_0: 
+    sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
 tags:
-  0.2.1rc0--pyhdfd78af_0: sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
+  0.2.1rc0--pyhdfd78af_0: 
+    sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
 docker: quay.io/biocontainers/happy-python
 aliases:
   happy: /usr/local/bin/happy

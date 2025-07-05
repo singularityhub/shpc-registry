@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-prroc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-prroc
 latest:
-  1.1--r3.3.1_0: sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4
+  1.1--r3.3.1_0: 
+    sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4
 tags:
-  1.1--r3.3.1_0: sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4
-  1.1--r3.3.2_0: sha256:7794ce526a64b72cd89c20e009ab574c5b2e36282a801409fa38ce79bbd5d90a
+  1.1--r3.3.1_0: 
+    sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4
+  1.1--r3.3.2_0: 
+    sha256:7794ce526a64b72cd89c20e009ab574c5b2e36282a801409fa38ce79bbd5d90a
 docker: quay.io/biocontainers/r-prroc
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

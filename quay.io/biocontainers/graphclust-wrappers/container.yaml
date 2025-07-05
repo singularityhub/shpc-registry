@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/graphclust-wrappers
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for graphclust-wrappers
+description: shpc-registry automated BioContainers addition for 
+  graphclust-wrappers
 latest:
-  0.6.0--2: sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
+  0.6.0--2: 
+    sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
 tags:
-  0.6.0--2: sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
+  0.6.0--2: 
+    sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
 docker: quay.io/biocontainers/graphclust-wrappers
 aliases:
   NSPDK_candidateClusters.pl: /usr/local/bin/NSPDK_candidateClusters.pl
@@ -12,7 +15,8 @@ aliases:
   aggregate_align_metrics.py: /usr/local/bin/aggregate_align_metrics.py
   alifold.pl: /usr/local/bin/alifold.pl
   clustal_to_alma.py: /usr/local/bin/clustal_to_alma.py
-  extract_conservation_metrics.py: /usr/local/bin/extract_conservation_metrics.py
+  extract_conservation_metrics.py: 
+    /usr/local/bin/extract_conservation_metrics.py
   fasta2shrep_gspan.pl: /usr/local/bin/fasta2shrep_gspan.pl
   foldFasta.pl: /usr/local/bin/foldFasta.pl
   gc_align_clusters.pl: /usr/local/bin/gc_align_clusters.pl

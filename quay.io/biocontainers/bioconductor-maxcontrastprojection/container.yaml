@@ -1,12 +1,17 @@
 url: https://biocontainers.pro/tools/bioconductor-maxcontrastprojection
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-maxcontrastprojection
 latest:
-  1.11.0--r40_0: sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
+  1.11.0--r40_0: 
+    sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
 tags:
-  1.8.0--r36_1: sha256:4d6f964efd92bdfa522aec1a0d5488b1661aeebe14d06a7e0cb9665bc6d4cc0b
-  1.11.0--r40_0: sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
-  1.10.0--r36_0: sha256:4979c84eed6c633d5b0d1bb426482d84b02672271bf7b60fd387dad1153deeb8
+  1.8.0--r36_1: 
+    sha256:4d6f964efd92bdfa522aec1a0d5488b1661aeebe14d06a7e0cb9665bc6d4cc0b
+  1.11.0--r40_0: 
+    sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
+  1.10.0--r36_0: 
+    sha256:4979c84eed6c633d5b0d1bb426482d84b02672271bf7b60fd387dad1153deeb8
 docker: quay.io/biocontainers/bioconductor-maxcontrastprojection
 aliases:
   mpichversion: /usr/local/bin/mpichversion

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-omxplore
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-omxplore
+description: singularity registry hpc automated addition for 
+  bioconductor-omxplore
 latest:
-  1.0.0--r44hdfd78af_0: sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
+  1.0.0--r44hdfd78af_0: 
+    sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
 tags:
-  1.0.0--r44hdfd78af_0: sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
+  1.0.0--r44hdfd78af_0: 
+    sha256:f385875642f8a28d12bc52f7f4fc2ecdbdf3638f682e869798a27680570740c8
 docker: quay.io/biocontainers/bioconductor-omxplore
 aliases:
   h5fuse: /usr/local/bin/h5fuse

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/rambo-k
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rambo-k
 latest:
-  1.21--1: sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8
+  1.21--1: 
+    sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8
 tags:
-  1.21--1: sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8
+  1.21--1: 
+    sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8
 docker: quay.io/biocontainers/rambo-k
 aliases:
   RAMBOK.py: /usr/local/bin/RAMBOK.py

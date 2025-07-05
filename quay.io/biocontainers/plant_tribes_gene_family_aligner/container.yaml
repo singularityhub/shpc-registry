@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/plant_tribes_gene_family_aligner
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for plant_tribes_gene_family_aligner
+description: shpc-registry automated BioContainers addition for 
+  plant_tribes_gene_family_aligner
 latest:
-  1.0.4--hdfd78af_1: sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
+  1.0.4--hdfd78af_1: 
+    sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
 tags:
-  1.0.4--hdfd78af_1: sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
+  1.0.4--hdfd78af_1: 
+    sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
 docker: quay.io/biocontainers/plant_tribes_gene_family_aligner
 aliases:
   GeneFamilyAligner: /usr/local/bin/GeneFamilyAligner

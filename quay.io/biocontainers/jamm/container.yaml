@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/jamm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jamm
 latest:
-  1.0.8.0--hdfd78af_1: sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
+  1.0.8.0--hdfd78af_1: 
+    sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
 tags:
-  1.0.8.0--hdfd78af_1: sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
+  1.0.8.0--hdfd78af_1: 
+    sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
 docker: quay.io/biocontainers/jamm
 aliases:
   JAMM.sh: /usr/local/bin/JAMM.sh
@@ -23,5 +25,6 @@ aliases:
   perl5.32.0: /usr/local/bin/perl5.32.0
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   streamzip: /usr/local/bin/streamzip

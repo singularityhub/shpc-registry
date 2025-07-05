@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gc-meox-tms
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gc-meox-tms
 latest:
-  1.0.1--pyhdfd78af_0: sha256:16088e38bc03ab8cc3fc5285b5a0d3700c6f6a65fd2f5e3e68696a5409d7cdda
+  1.0.1--pyhdfd78af_0: 
+    sha256:16088e38bc03ab8cc3fc5285b5a0d3700c6f6a65fd2f5e3e68696a5409d7cdda
 tags:
-  1.0.1--pyhdfd78af_0: sha256:16088e38bc03ab8cc3fc5285b5a0d3700c6f6a65fd2f5e3e68696a5409d7cdda
+  1.0.1--pyhdfd78af_0: 
+    sha256:16088e38bc03ab8cc3fc5285b5a0d3700c6f6a65fd2f5e3e68696a5409d7cdda
 docker: quay.io/biocontainers/gc-meox-tms
 aliases:
   fonttools: /usr/local/bin/fonttools

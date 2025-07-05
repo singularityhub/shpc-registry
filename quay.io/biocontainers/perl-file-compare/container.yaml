@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-file-compare
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-file-compare
+description: shpc-registry automated BioContainers addition for 
+  perl-file-compare
 latest:
-  1.1006--pl5321hdfd78af_2: sha256:556b56114d4c7c599704ba5dfd068ee5fb1d42d9acd4d7502971d0e0ab8e83cb
+  1.1006--pl5321hdfd78af_2: 
+    sha256:556b56114d4c7c599704ba5dfd068ee5fb1d42d9acd4d7502971d0e0ab8e83cb
 tags:
-  1.1006--pl5321hdfd78af_2: sha256:556b56114d4c7c599704ba5dfd068ee5fb1d42d9acd4d7502971d0e0ab8e83cb
+  1.1006--pl5321hdfd78af_2: 
+    sha256:556b56114d4c7c599704ba5dfd068ee5fb1d42d9acd4d7502971d0e0ab8e83cb
 docker: quay.io/biocontainers/perl-file-compare
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

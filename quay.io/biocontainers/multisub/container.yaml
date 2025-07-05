@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/multisub
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for multisub
 latest:
-  1.0.0--pyh5e36f6f_0: sha256:97ce32b60e254d817c9d3ed0b68be2b6ad8fd03504f27ba79df83dbb999ff475
+  1.0.0--pyh5e36f6f_0: 
+    sha256:97ce32b60e254d817c9d3ed0b68be2b6ad8fd03504f27ba79df83dbb999ff475
 tags:
-  1.0.0--pyh5e36f6f_0: sha256:97ce32b60e254d817c9d3ed0b68be2b6ad8fd03504f27ba79df83dbb999ff475
+  1.0.0--pyh5e36f6f_0: 
+    sha256:97ce32b60e254d817c9d3ed0b68be2b6ad8fd03504f27ba79df83dbb999ff475
 docker: quay.io/biocontainers/multisub
 aliases:
   multiSub: /usr/local/bin/multiSub

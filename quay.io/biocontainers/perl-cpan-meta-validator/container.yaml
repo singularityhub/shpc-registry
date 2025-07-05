@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-cpan-meta-validator
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-cpan-meta-validator
+description: shpc-registry automated BioContainers addition for 
+  perl-cpan-meta-validator
 latest:
-  2.140640--pl526_1: sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb
+  2.140640--pl526_1: 
+    sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb
 tags:
-  2.140640--pl526_1: sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb
+  2.140640--pl526_1: 
+    sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb
 docker: quay.io/biocontainers/perl-cpan-meta-validator
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

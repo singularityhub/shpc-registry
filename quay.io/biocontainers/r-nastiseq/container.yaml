@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-nastiseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-nastiseq
 latest:
-  1.0--r40h9ee0642_4: sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
+  1.0--r40h9ee0642_4: 
+    sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
 tags:
-  1.0--r40h9ee0642_4: sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
+  1.0--r40h9ee0642_4: 
+    sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
 docker: quay.io/biocontainers/r-nastiseq
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9
@@ -12,6 +14,7 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

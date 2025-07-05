@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-scdotplot
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-scdotplot
+description: singularity registry hpc automated addition for 
+  bioconductor-scdotplot
 latest:
-  1.0.0--r44hdfd78af_0: sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
+  1.0.0--r44hdfd78af_0: 
+    sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
 tags:
-  1.0.0--r44hdfd78af_0: sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
+  1.0.0--r44hdfd78af_0: 
+    sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
 docker: quay.io/biocontainers/bioconductor-scdotplot
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua
@@ -23,7 +26,9 @@ aliases:
   onig-config: /usr/local/bin/onig-config
   pandoc: /usr/local/bin/pandoc
   hb-info: /usr/local/bin/hb-info
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   tjbench: /usr/local/bin/tjbench
