@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-data-munge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-munge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-munge/container.yaml"
-updated_at: "2025-07-04 04:07:01.112504"
-latest: "0.097--pl5321hdfd78af_1"
+updated_at: "2025-07-05 04:00:47.270470"
+latest: "0.111--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-data-munge"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.097--pl5321hdfd78af_1"
+ - "0.111--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-data-munge"
-config: {"url": "https://biocontainers.pro/tools/perl-data-munge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-munge", "latest": {"0.097--pl5321hdfd78af_1": "sha256:eb9d09dd0d178697df7269dff385db0d1006795fc58a717cc11d2e5d0666e513"}, "tags": {"0.097--pl5321hdfd78af_1": "sha256:eb9d09dd0d178697df7269dff385db0d1006795fc58a717cc11d2e5d0666e513"}, "docker": "quay.io/biocontainers/perl-data-munge", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-data-munge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-munge", "latest": {"0.111--pl5321hdfd78af_0": "sha256:70e55cdbc157061a9bb352d00829b3ca90a498a75624e430cabe4e519cf963a9"}, "tags": {"0.097--pl5321hdfd78af_1": "sha256:eb9d09dd0d178697df7269dff385db0d1006795fc58a717cc11d2e5d0666e513", "0.111--pl5321hdfd78af_0": "sha256:70e55cdbc157061a9bb352d00829b3ca90a498a75624e430cabe4e519cf963a9"}, "docker": "quay.io/biocontainers/perl-data-munge", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-munge.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-data-munge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-data-munge:0.097--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-data-munge:0.111--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-data-munge/0.097--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-data-munge/0.097--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-data-munge/0.111--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-data-munge/0.111--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

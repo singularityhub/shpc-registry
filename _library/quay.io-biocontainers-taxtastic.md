@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxtastic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxtastic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxtastic/container.yaml"
-updated_at: "2025-07-04 03:22:13.302576"
-latest: "0.11.0--pyhdfd78af_0"
+updated_at: "2025-07-05 03:17:38.284436"
+latest: "0.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxtastic"
 aliases:
  - "taxit"
@@ -22,8 +22,9 @@ versions:
  - "0.10.0--pyhdfd78af_0"
  - "0.10.0--pyhdfd78af_1"
  - "0.11.0--pyhdfd78af_0"
+ - "0.12.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for taxtastic"
-config: {"url": "https://biocontainers.pro/tools/taxtastic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxtastic", "latest": {"0.11.0--pyhdfd78af_0": "sha256:db8501b54dff4f1e6acf7002f032cb6d30febd10196de465c4df74ffaea25932"}, "tags": {"0.9.3--pyhdfd78af_0": "sha256:bfa4893b29c3b5cf94991b05eaa4346184fc2b37d6bd9682547e8bd948d685dc", "0.10.0--pyhdfd78af_0": "sha256:31399b9a15f5cc0970f4afce7f0f1b1c108b688307baf8eb9cbbdb4dcb72b155", "0.10.0--pyhdfd78af_1": "sha256:675c611cb8bfdc6bbbb0a2cbf606818d54dda54118762290cb3bd033ea112e1e", "0.11.0--pyhdfd78af_0": "sha256:db8501b54dff4f1e6acf7002f032cb6d30febd10196de465c4df74ffaea25932"}, "docker": "quay.io/biocontainers/taxtastic", "aliases": {"taxit": "/usr/local/bin/taxit", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/taxtastic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxtastic", "latest": {"0.12.0--pyhdfd78af_0": "sha256:b876f5959b0d312add23f4a5751281d1af51068b124cdbf37df1de54cc374db1"}, "tags": {"0.9.3--pyhdfd78af_0": "sha256:bfa4893b29c3b5cf94991b05eaa4346184fc2b37d6bd9682547e8bd948d685dc", "0.10.0--pyhdfd78af_0": "sha256:31399b9a15f5cc0970f4afce7f0f1b1c108b688307baf8eb9cbbdb4dcb72b155", "0.10.0--pyhdfd78af_1": "sha256:675c611cb8bfdc6bbbb0a2cbf606818d54dda54118762290cb3bd033ea112e1e", "0.11.0--pyhdfd78af_0": "sha256:db8501b54dff4f1e6acf7002f032cb6d30febd10196de465c4df74ffaea25932", "0.12.0--pyhdfd78af_0": "sha256:b876f5959b0d312add23f4a5751281d1af51068b124cdbf37df1de54cc374db1"}, "docker": "quay.io/biocontainers/taxtastic", "aliases": {"taxit": "/usr/local/bin/taxit", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxtastic.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/taxtastic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxtastic:0.11.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/taxtastic:0.12.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxtastic/0.11.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/taxtastic/0.11.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/taxtastic/0.12.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/taxtastic/0.12.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

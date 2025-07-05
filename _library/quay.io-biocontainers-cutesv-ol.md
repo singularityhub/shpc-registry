@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutesv-ol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutesv-ol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutesv-ol/container.yaml"
-updated_at: "2025-07-04 03:20:49.250530"
+updated_at: "2025-07-05 03:16:16.871909"
 latest: "1.0.1--py312h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/cutesv-ol"
 aliases:

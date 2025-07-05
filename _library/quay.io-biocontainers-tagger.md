@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagger/container.yaml"
-updated_at: "2025-07-04 03:28:53.055503"
-latest: "1.1--py27h02d93b8_0"
+updated_at: "2025-07-05 03:23:58.660736"
+latest: "1.1--py312hf731ba3_2"
 container_url: "https://biocontainers.pro/tools/tagger"
 aliases:
  - "ccache-swig"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.1--py27h02d93b8_0"
  - "1.1--py35h02d93b8_0"
+ - "1.1--py312hf731ba3_2"
 description: "shpc-registry automated BioContainers addition for tagger"
-config: {"url": "https://biocontainers.pro/tools/tagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagger", "latest": {"1.1--py27h02d93b8_0": "sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d"}, "tags": {"1.1--py27h02d93b8_0": "sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d", "1.1--py35h02d93b8_0": "sha256:ee425ba56ee868d773084cf0d7859d61d75adf930c3589ae517e3dc799fcb87d"}, "docker": "quay.io/biocontainers/tagger", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "tagcorpus": "/usr/local/bin/tagcorpus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/tagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagger", "latest": {"1.1--py312hf731ba3_2": "sha256:3d2ae62e8431ae854eb326c9fb7ab007c946a95dc2fa41ea50ec63279025a93e"}, "tags": {"1.1--py27h02d93b8_0": "sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d", "1.1--py35h02d93b8_0": "sha256:ee425ba56ee868d773084cf0d7859d61d75adf930c3589ae517e3dc799fcb87d", "1.1--py312hf731ba3_2": "sha256:3d2ae62e8431ae854eb326c9fb7ab007c946a95dc2fa41ea50ec63279025a93e"}, "docker": "quay.io/biocontainers/tagger", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "tagcorpus": "/usr/local/bin/tagcorpus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tagger.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tagger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tagger:1.1--py27h02d93b8_0
+$ shpc install quay.io/biocontainers/tagger:1.1--py312hf731ba3_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tagger/1.1--py27h02d93b8_0
-$ module help quay.io/biocontainers/tagger/1.1--py27h02d93b8_0
+$ module load quay.io/biocontainers/tagger/1.1--py312hf731ba3_2
+$ module help quay.io/biocontainers/tagger/1.1--py312hf731ba3_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

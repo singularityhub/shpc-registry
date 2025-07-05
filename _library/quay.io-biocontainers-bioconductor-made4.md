@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-made4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-made4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-made4/container.yaml"
-updated_at: "2025-07-04 03:49:48.329326"
+updated_at: "2025-07-05 03:44:07.473226"
 latest: "1.80.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-made4"
 

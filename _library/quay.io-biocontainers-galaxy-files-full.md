@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-files-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-files-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-files-full/container.yaml"
-updated_at: "2025-07-04 03:54:09.435288"
-latest: "24.2.3--pyh7e72e81_0"
+updated_at: "2025-07-05 03:48:20.348354"
+latest: "25.0.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/galaxy-files-full"
 aliases:
  - "protoc-29.3.0"
@@ -43,8 +43,10 @@ aliases:
  - "grpc_php_plugin"
 versions:
  - "24.2.3--pyh7e72e81_0"
+ - "25.0.1--pyh7e72e81_0"
+ - "24.2.4--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for galaxy-files-full"
-config: {"url": "https://biocontainers.pro/tools/galaxy-files-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-files-full", "latest": {"24.2.3--pyh7e72e81_0": "sha256:11c1dea1213d99c3b0f59b399fef341e24665bfd8ed12cc37a792a75e925c70d"}, "tags": {"24.2.3--pyh7e72e81_0": "sha256:11c1dea1213d99c3b0f59b399fef341e24665bfd8ed12cc37a792a75e925c70d"}, "docker": "quay.io/biocontainers/galaxy-files-full", "aliases": {"protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "wdc": "/usr/local/bin/wdc", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "docutils": "/usr/local/bin/docutils", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-files-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-files-full", "latest": {"25.0.1--pyh7e72e81_0": "sha256:ac1db6d55f1273b0dcb0867ce2ce03e103ba05c7b9323490bba661afe02cc170"}, "tags": {"24.2.3--pyh7e72e81_0": "sha256:11c1dea1213d99c3b0f59b399fef341e24665bfd8ed12cc37a792a75e925c70d", "25.0.1--pyh7e72e81_0": "sha256:ac1db6d55f1273b0dcb0867ce2ce03e103ba05c7b9323490bba661afe02cc170", "24.2.4--pyh7e72e81_0": "sha256:e2269b91c08ca2f07380a4cc25c3768378fb742c3ad02cbe37b74d91c6b60d9c"}, "docker": "quay.io/biocontainers/galaxy-files-full", "aliases": {"protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "wdc": "/usr/local/bin/wdc", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "docutils": "/usr/local/bin/docutils", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-files-full.
@@ -59,7 +61,7 @@ $ shpc install quay.io/biocontainers/galaxy-files-full
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-files-full:24.2.3--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/galaxy-files-full:25.0.1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-files-full/24.2.3--pyh7e72e81_0
-$ module help quay.io/biocontainers/galaxy-files-full/24.2.3--pyh7e72e81_0
+$ module load quay.io/biocontainers/galaxy-files-full/25.0.1--pyh7e72e81_0
+$ module help quay.io/biocontainers/galaxy-files-full/25.0.1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

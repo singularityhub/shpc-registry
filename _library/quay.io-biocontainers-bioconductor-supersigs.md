@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-supersigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-supersigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-supersigs/container.yaml"
-updated_at: "2025-07-04 03:47:29.616415"
+updated_at: "2025-07-05 03:41:58.800072"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-supersigs"
 

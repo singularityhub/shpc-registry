@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cell2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cell2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cell2cell/container.yaml"
-updated_at: "2025-07-04 04:05:47.900115"
+updated_at: "2025-07-05 03:59:36.084129"
 latest: "0.7.4--py310h9948957_3"
 container_url: "https://biocontainers.pro/tools/cell2cell"
 aliases:
