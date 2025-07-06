@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-permute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-permute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-permute/container.yaml"
-updated_at: "2025-07-05 04:03:35.251032"
+updated_at: "2025-07-06 04:17:38.265430"
 latest: "0.8_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-permute"
 aliases:

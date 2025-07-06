@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-random"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-random/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-random/container.yaml"
-updated_at: "2025-07-05 03:41:03.379091"
+updated_at: "2025-07-06 03:54:54.474121"
 latest: "0.30--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-string-random"
 aliases:

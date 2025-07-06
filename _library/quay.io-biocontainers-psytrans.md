@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psytrans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psytrans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psytrans/container.yaml"
-updated_at: "2025-07-05 03:24:46.932348"
+updated_at: "2025-07-06 03:38:17.745851"
 latest: "2.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/psytrans"
 aliases:

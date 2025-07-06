@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dwgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dwgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dwgsim/container.yaml"
-updated_at: "2025-07-05 03:31:40.360557"
-latest: "1.1.14--h96c455f_1"
+updated_at: "2025-07-06 03:45:21.169211"
+latest: "1.1.14--h96c455f_2"
 container_url: "https://biocontainers.pro/tools/dwgsim"
 aliases:
  - "dwgsim"
@@ -15,8 +15,9 @@ versions:
  - "1.1.13--h50ea8bc_3"
  - "1.1.14--h50ea8bc_0"
  - "1.1.14--h96c455f_1"
+ - "1.1.14--h96c455f_2"
 description: "shpc-registry automated BioContainers addition for dwgsim"
-config: {"url": "https://biocontainers.pro/tools/dwgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dwgsim", "latest": {"1.1.14--h96c455f_1": "sha256:32530684006d0726f60e16fccccae75b5dc7e32e6c5804625c921e688927c5b1"}, "tags": {"1.1.13--h20b1175_1": "sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2", "1.1.13--h50ea8bc_3": "sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89", "1.1.14--h50ea8bc_0": "sha256:80e8e75009c34d231578d6fcb54829725cdac7af4fde553d7f9f16749a505794", "1.1.14--h96c455f_1": "sha256:32530684006d0726f60e16fccccae75b5dc7e32e6c5804625c921e688927c5b1"}, "docker": "quay.io/biocontainers/dwgsim", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval"}}
+config: {"url": "https://biocontainers.pro/tools/dwgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dwgsim", "latest": {"1.1.14--h96c455f_2": "sha256:5f8e7e6545ce23b2db3e50a24326de96ab8dccff755d2798d5e160a5e9698ebb"}, "tags": {"1.1.13--h20b1175_1": "sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2", "1.1.13--h50ea8bc_3": "sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89", "1.1.14--h50ea8bc_0": "sha256:80e8e75009c34d231578d6fcb54829725cdac7af4fde553d7f9f16749a505794", "1.1.14--h96c455f_1": "sha256:32530684006d0726f60e16fccccae75b5dc7e32e6c5804625c921e688927c5b1", "1.1.14--h96c455f_2": "sha256:5f8e7e6545ce23b2db3e50a24326de96ab8dccff755d2798d5e160a5e9698ebb"}, "docker": "quay.io/biocontainers/dwgsim", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dwgsim.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/dwgsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dwgsim:1.1.14--h96c455f_1
+$ shpc install quay.io/biocontainers/dwgsim:1.1.14--h96c455f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dwgsim/1.1.14--h96c455f_1
-$ module help quay.io/biocontainers/dwgsim/1.1.14--h96c455f_1
+$ module load quay.io/biocontainers/dwgsim/1.1.14--h96c455f_2
+$ module help quay.io/biocontainers/dwgsim/1.1.14--h96c455f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

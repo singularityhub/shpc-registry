@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isodate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isodate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isodate/container.yaml"
-updated_at: "2025-07-05 03:55:02.403343"
+updated_at: "2025-07-06 04:09:01.295987"
 latest: "0.5.4--py36_0"
 container_url: "https://biocontainers.pro/tools/isodate"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sclcbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sclcbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sclcbam/container.yaml"
-updated_at: "2025-07-05 03:49:28.638496"
+updated_at: "2025-07-06 04:03:25.233362"
 latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sclcbam"
 

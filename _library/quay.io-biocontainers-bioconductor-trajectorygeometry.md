@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trajectorygeometry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trajectorygeometry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trajectorygeometry/container.yaml"
-updated_at: "2025-07-05 03:25:48.186646"
+updated_at: "2025-07-06 03:39:20.439917"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trajectorygeometry"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/derna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/derna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/derna/container.yaml"
-updated_at: "2025-07-05 03:23:12.089537"
+updated_at: "2025-07-06 03:36:41.042798"
 latest: "1.0.4--h503566f_1"
 container_url: "https://biocontainers.pro/tools/derna"
 aliases:

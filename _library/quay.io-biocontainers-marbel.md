@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/marbel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marbel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marbel/container.yaml"
-updated_at: "2025-07-05 03:42:15.232160"
-latest: "0.2.3--pyh7e72e81_0"
+updated_at: "2025-07-06 03:56:06.843489"
+latest: "0.2.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/marbel"
 aliases:
  - "bottle.py"
@@ -59,8 +59,9 @@ aliases:
  - "x86_64-conda-linux-gnu.cfg"
 versions:
  - "0.2.3--pyh7e72e81_0"
+ - "0.2.4--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for marbel"
-config: {"url": "https://biocontainers.pro/tools/marbel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marbel", "latest": {"0.2.3--pyh7e72e81_0": "sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093"}, "tags": {"0.2.3--pyh7e72e81_0": "sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093"}, "docker": "quay.io/biocontainers/marbel", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "dot_sandbox": "/usr/local/bin/dot_sandbox", "ete4": "/usr/local/bin/ete4", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "h2benchmark": "/usr/local/bin/h2benchmark", "marbel": "/usr/local/bin/marbel", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "pytensor-cache": "/usr/local/bin/pytensor-cache", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "typer": "/usr/local/bin/typer", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "wayland-scanner": "/usr/local/bin/wayland-scanner", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
+config: {"url": "https://biocontainers.pro/tools/marbel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marbel", "latest": {"0.2.4--pyh7e72e81_0": "sha256:eee2aea447b3a03a0f96053d09bdd1755d566595453c8cdf65c9ee0ec5244e8a"}, "tags": {"0.2.3--pyh7e72e81_0": "sha256:97c0c9a7bd2e6525a46b714f0e4e5b6338d43fcf19da1d358472185ce9735093", "0.2.4--pyh7e72e81_0": "sha256:eee2aea447b3a03a0f96053d09bdd1755d566595453c8cdf65c9ee0ec5244e8a"}, "docker": "quay.io/biocontainers/marbel", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "dot_sandbox": "/usr/local/bin/dot_sandbox", "ete4": "/usr/local/bin/ete4", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "h2benchmark": "/usr/local/bin/h2benchmark", "marbel": "/usr/local/bin/marbel", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "pytensor-cache": "/usr/local/bin/pytensor-cache", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "typer": "/usr/local/bin/typer", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "wayland-scanner": "/usr/local/bin/wayland-scanner", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/marbel.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/marbel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/marbel:0.2.3--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/marbel:0.2.4--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/marbel/0.2.3--pyh7e72e81_0
-$ module help quay.io/biocontainers/marbel/0.2.3--pyh7e72e81_0
+$ module load quay.io/biocontainers/marbel/0.2.4--pyh7e72e81_0
+$ module help quay.io/biocontainers/marbel/0.2.4--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
