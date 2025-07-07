@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bcgtree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bcgtree
 latest:
-  1.2.1--pl5321hdfd78af_0: sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
+  1.2.1--pl5321hdfd78af_0: 
+    sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
 tags:
-  1.2.1--pl5321hdfd78af_0: sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
+  1.2.1--pl5321hdfd78af_0: 
+    sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
 docker: quay.io/biocontainers/bcgtree
 aliases:
   Gblocks: /usr/local/bin/Gblocks

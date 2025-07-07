@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/iptkl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for iptkl
 latest:
-  0.6.8--pyh5e36f6f_0: sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
+  0.6.8--pyh5e36f6f_0: 
+    sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
 tags:
-  0.6.8--pyh5e36f6f_0: sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
+  0.6.8--pyh5e36f6f_0: 
+    sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
 docker: quay.io/biocontainers/iptkl
 aliases:
   colorcet: /usr/local/bin/colorcet

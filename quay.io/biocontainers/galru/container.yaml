@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/galru
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galru
 latest:
-  1.0.0--py_0: sha256:9c225f7c554e24791d53ad26bf2054f433f8190910c011f04181efc0db1a7129
+  1.0.0--py_0: 
+    sha256:9c225f7c554e24791d53ad26bf2054f433f8190910c011f04181efc0db1a7129
 tags:
-  1.0.0--py_0: sha256:9c225f7c554e24791d53ad26bf2054f433f8190910c011f04181efc0db1a7129
+  1.0.0--py_0: 
+    sha256:9c225f7c554e24791d53ad26bf2054f433f8190910c011f04181efc0db1a7129
 docker: quay.io/biocontainers/galru
 aliases:
   galru: /usr/local/bin/galru

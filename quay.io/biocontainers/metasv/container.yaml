@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/metasv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metasv
 latest:
-  0.5.4--py27h9801fc8_4: sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9
+  0.5.4--py27h9801fc8_4: 
+    sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9
 tags:
-  0.5.4--py27h9801fc8_4: sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9
+  0.5.4--py27h9801fc8_4: 
+    sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9
 docker: quay.io/biocontainers/metasv
 aliases:
   age_align: /usr/local/bin/age_align

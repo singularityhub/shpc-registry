@@ -2,17 +2,24 @@ url: https://biocontainers.pro/tools/funannotate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for funannotate
 latest:
-  1.8.17--pyhdfd78af_1: sha256:d18a7b094ecb4d468fb097a91747e5315e42494e8fc7f4d2837a98d102d1c3fb
+  1.8.17--pyhdfd78af_1: 
+    sha256:d18a7b094ecb4d468fb097a91747e5315e42494e8fc7f4d2837a98d102d1c3fb
 tags:
-  1.8.9--pyhdfd78af_3: sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a
-  1.8.13--pyhdfd78af_0: sha256:4ceceffb1621cd8a31a88e2ab9c725170b711e358e115ba8ef96fb239979127b
-  1.8.15--pyhdfd78af_2: sha256:cccfe472b34494d3ea7ccfdd7e9c608c51e53f6fba75a5f1d91835e3f2b2fd16
-  1.8.17--pyhdfd78af_0: sha256:5f0cb4ff635bf90b349cf90bff79f48dfe8681a2e6b21aa7a8dfa082f26c017b
-  1.8.17--pyhdfd78af_1: sha256:d18a7b094ecb4d468fb097a91747e5315e42494e8fc7f4d2837a98d102d1c3fb
+  1.8.9--pyhdfd78af_3: 
+    sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a
+  1.8.13--pyhdfd78af_0: 
+    sha256:4ceceffb1621cd8a31a88e2ab9c725170b711e358e115ba8ef96fb239979127b
+  1.8.15--pyhdfd78af_2: 
+    sha256:cccfe472b34494d3ea7ccfdd7e9c608c51e53f6fba75a5f1d91835e3f2b2fd16
+  1.8.17--pyhdfd78af_0: 
+    sha256:5f0cb4ff635bf90b349cf90bff79f48dfe8681a2e6b21aa7a8dfa082f26c017b
+  1.8.17--pyhdfd78af_1: 
+    sha256:d18a7b094ecb4d468fb097a91747e5315e42494e8fc7f4d2837a98d102d1c3fb
 docker: quay.io/biocontainers/funannotate
 aliases:
   CodingQuarry: /usr/local/bin/CodingQuarry
-  CufflinksGTF_to_CodingQuarryGFF3.py: /usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py
+  CufflinksGTF_to_CodingQuarryGFF3.py: 
+    /usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   PtR: /usr/local/bin/PtR
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
@@ -22,9 +29,12 @@ aliases:
   TrinityStats.pl: /usr/local/bin/TrinityStats.pl
   Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl
-  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
-  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
-  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  abundance_estimates_to_matrix.pl: 
+    /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: 
+    /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: 
+    /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
   analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
   ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
@@ -59,7 +69,8 @@ aliases:
   block2prfl.pl: /usr/local/bin/block2prfl.pl
   cdbfasta: /usr/local/bin/cdbfasta
   cdbyank: /usr/local/bin/cdbyank
-  cdna_alignment_orf_to_genome_orf.pl: /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
+  cdna_alignment_orf_to_genome_orf.pl: 
+    /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
   cds-trainer.pl: /usr/local/bin/cds-trainer.pl
   cegma2gff.pl: /usr/local/bin/cegma2gff.pl
   checkParamArchive.pl: /usr/local/bin/checkParamArchive.pl
@@ -79,7 +90,8 @@ aliases:
   cpuid: /usr/local/bin/cpuid
   createAugustusJoblist.pl: /usr/local/bin/createAugustusJoblist.pl
   dbsnp_iit: /usr/local/bin/dbsnp_iit
-  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  define_clusters_by_cutting_tree.pl: 
+    /usr/local/bin/define_clusters_by_cutting_tree.pl
   del_from_prfl.pl: /usr/local/bin/del_from_prfl.pl
   distro: /usr/local/bin/distro
   ensembl_genes: /usr/local/bin/ensembl_genes
@@ -102,7 +114,8 @@ aliases:
   extractTranscriptEnds.pl: /usr/local/bin/extractTranscriptEnds.pl
   extract_exons.py: /usr/local/bin/extract_exons.py
   extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
-  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  extract_supertranscript_from_reference.py: 
+    /usr/local/bin/extract_supertranscript_from_reference.py
   fa_coords: /usr/local/bin/fa_coords
   fasta: /usr/local/bin/fasta
   fasta2esd: /usr/local/bin/fasta2esd
@@ -152,7 +165,8 @@ aliases:
   filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
   find_enrichment.py: /usr/local/bin/find_enrichment.py
-  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_in_frame_stop_codon_genes.py: 
+    /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
   forge: /usr/local/bin/forge
   funannotate: /usr/local/bin/funannotate
@@ -166,9 +180,12 @@ aliases:
   getLinesMatching.pl: /usr/local/bin/getLinesMatching.pl
   getSeq: /usr/local/bin/getSeq
   get_FL_accs.pl: /usr/local/bin/get_FL_accs.pl
-  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
-  get_longest_ORF_per_transcript.pl: /usr/local/bin/get_longest_ORF_per_transcript.pl
-  get_top_longest_fasta_entries.pl: /usr/local/bin/get_top_longest_fasta_entries.pl
+  get_Trinity_gene_to_trans_map.pl: 
+    /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  get_longest_ORF_per_transcript.pl: 
+    /usr/local/bin/get_longest_ORF_per_transcript.pl
+  get_top_longest_fasta_entries.pl: 
+    /usr/local/bin/get_top_longest_fasta_entries.pl
   gff2gbSmallDNA.pl: /usr/local/bin/gff2gbSmallDNA.pl
   gff2ps_mycustom: /usr/local/bin/gff2ps_mycustom
   gff3_file_to_bed.pl: /usr/local/bin/gff3_file_to_bed.pl
@@ -223,8 +240,10 @@ aliases:
   hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
   hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
   hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
-  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
-  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_snps_haplotypes_UCSC.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
   hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
   hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
@@ -301,13 +320,16 @@ aliases:
   proteinortho6.pl: /usr/local/bin/proteinortho6.pl
   proteinortho_cleanupblastgraph: /usr/local/bin/proteinortho_cleanupblastgraph
   proteinortho_clustering: /usr/local/bin/proteinortho_clustering
-  proteinortho_compareProteinorthoGraphs.pl: /usr/local/bin/proteinortho_compareProteinorthoGraphs.pl
+  proteinortho_compareProteinorthoGraphs.pl: 
+    /usr/local/bin/proteinortho_compareProteinorthoGraphs.pl
   proteinortho_do_mcl.pl: /usr/local/bin/proteinortho_do_mcl.pl
-  proteinortho_extract_from_graph.pl: /usr/local/bin/proteinortho_extract_from_graph.pl
+  proteinortho_extract_from_graph.pl: 
+    /usr/local/bin/proteinortho_extract_from_graph.pl
   proteinortho_ffadj_mcs.py: /usr/local/bin/proteinortho_ffadj_mcs.py
   proteinortho_formatUsearch.pl: /usr/local/bin/proteinortho_formatUsearch.pl
   proteinortho_grab_proteins.pl: /usr/local/bin/proteinortho_grab_proteins.pl
-  proteinortho_graphMinusRemovegraph: /usr/local/bin/proteinortho_graphMinusRemovegraph
+  proteinortho_graphMinusRemovegraph: 
+    /usr/local/bin/proteinortho_graphMinusRemovegraph
   proteinortho_history.pl: /usr/local/bin/proteinortho_history.pl
   proteinortho_singletons.pl: /usr/local/bin/proteinortho_singletons.pl
   proteinortho_summary.pl: /usr/local/bin/proteinortho_summary.pl
@@ -320,11 +342,13 @@ aliases:
   psl_splicesites: /usr/local/bin/psl_splicesites
   randomSplit.pl: /usr/local/bin/randomSplit.pl
   ratewig.pl: /usr/local/bin/ratewig.pl
-  refine_gff3_group_iso_strip_utrs.pl: /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
+  refine_gff3_group_iso_strip_utrs.pl: 
+    /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
   refine_hexamer_scores.pl: /usr/local/bin/refine_hexamer_scores.pl
   remove_eclipsed_ORFs.pl: /usr/local/bin/remove_eclipsed_ORFs.pl
   res2R.pl: /usr/local/bin/res2R.pl
-  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  retrieve_sequences_from_fasta.pl: 
+    /usr/local/bin/retrieve_sequences_from_fasta.pl
   retroDB2hints.pl: /usr/local/bin/retroDB2hints.pl
   rmRedundantHints.pl: /usr/local/bin/rmRedundantHints.pl
   runAllSim4.pl: /usr/local/bin/runAllSim4.pl
@@ -332,14 +356,18 @@ aliases:
   run_CQ-PM_stranded.sh: /usr/local/bin/run_CQ-PM_stranded.sh
   run_CQ-PM_unstranded.sh: /usr/local/bin/run_CQ-PM_unstranded.sh
   run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
-  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  run_DE_analysis_from_samples_file.pl: 
+    /usr/local/bin/run_DE_analysis_from_samples_file.pl
   samMap.pl: /usr/local/bin/samMap.pl
   sam_sort: /usr/local/bin/sam_sort
   saslauthd: /usr/local/bin/saslauthd
   scipiogff2gff.pl: /usr/local/bin/scipiogff2gff.pl
-  score_CDS_likelihood_all_6_frames.pl: /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
-  select_best_ORFs_per_transcript.pl: /usr/local/bin/select_best_ORFs_per_transcript.pl
-  seq_n_baseprobs_to_loglikelihood_vals.pl: /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
+  score_CDS_likelihood_all_6_frames.pl: 
+    /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
+  select_best_ORFs_per_transcript.pl: 
+    /usr/local/bin/select_best_ORFs_per_transcript.pl
+  seq_n_baseprobs_to_loglikelihood_vals.pl: 
+    /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
   shuffle_embed.pl: /usr/local/bin/shuffle_embed.pl

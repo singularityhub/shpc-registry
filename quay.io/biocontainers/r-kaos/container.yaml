@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-kaos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-kaos
 latest:
-  0.1.0--r351h6115d3f_0: sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f
+  0.1.0--r351h6115d3f_0: 
+    sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f
 tags:
-  0.1.0--r351h6115d3f_0: sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f
+  0.1.0--r351h6115d3f_0: 
+    sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f
 docker: quay.io/biocontainers/r-kaos
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/harvest-variants
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for harvest-variants
 latest:
-  1.1.0--pyhdfd78af_0: sha256:95790580fc79985b9a9a9f99a496803bb6634a517f6a39034bb73ccc735bc467
+  1.1.0--pyhdfd78af_0: 
+    sha256:95790580fc79985b9a9a9f99a496803bb6634a517f6a39034bb73ccc735bc467
 tags:
-  1.1.0--pyhdfd78af_0: sha256:95790580fc79985b9a9a9f99a496803bb6634a517f6a39034bb73ccc735bc467
+  1.1.0--pyhdfd78af_0: 
+    sha256:95790580fc79985b9a9a9f99a496803bb6634a517f6a39034bb73ccc735bc467
 docker: quay.io/biocontainers/harvest-variants
 aliases:
   Phi: /usr/local/bin/Phi

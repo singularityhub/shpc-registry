@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-geomap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-geomap
 latest:
-  2.3_8--r3.2.2_0: sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3
+  2.3_8--r3.2.2_0: 
+    sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3
 tags:
-  2.3_8--r3.2.2_0: sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3
-  2.3_8--r3.3.2_0: sha256:7e447d0719252144969daea5c7f7494c6b59fbedfd1d11191605ceddcbce6125
+  2.3_8--r3.2.2_0: 
+    sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3
+  2.3_8--r3.3.2_0: 
+    sha256:7e447d0719252144969daea5c7f7494c6b59fbedfd1d11191605ceddcbce6125
 docker: quay.io/biocontainers/r-geomap
 aliases:
   pngcp: /usr/local/bin/pngcp

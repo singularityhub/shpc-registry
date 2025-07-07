@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/amused
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for amused
 latest:
-  1.0--hdfd78af_3: sha256:f187cfd645c3544e245f106e9e7234750da644af5abd1e2fff034b6ad379ffa5
+  1.0--hdfd78af_3: 
+    sha256:f187cfd645c3544e245f106e9e7234750da644af5abd1e2fff034b6ad379ffa5
 tags:
-  1.0--hdfd78af_3: sha256:f187cfd645c3544e245f106e9e7234750da644af5abd1e2fff034b6ad379ffa5
+  1.0--hdfd78af_3: 
+    sha256:f187cfd645c3544e245f106e9e7234750da644af5abd1e2fff034b6ad379ffa5
 docker: quay.io/biocontainers/amused
 aliases:
   AMUSED: /usr/local/bin/AMUSED

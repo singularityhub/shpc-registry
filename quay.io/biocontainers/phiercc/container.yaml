@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/phiercc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phiercc
 latest:
-  1.24--pyhdfd78af_0: sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
+  1.24--pyhdfd78af_0: 
+    sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
 tags:
-  1.24--pyhdfd78af_0: sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
+  1.24--pyhdfd78af_0: 
+    sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
 docker: quay.io/biocontainers/phiercc
 aliases:
   HCCeval: /usr/local/bin/HCCeval

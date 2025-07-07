@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/crisprlungo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for crisprlungo
 latest:
-  0.1.14--py310h086e186_0: sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
+  0.1.14--py310h086e186_0: 
+    sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
 tags:
-  0.1.14--py310h086e186_0: sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
+  0.1.14--py310h086e186_0: 
+    sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
 docker: quay.io/biocontainers/crisprlungo
 aliases:
   CRISPResso: /usr/local/bin/CRISPResso

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-minion-backend-sqlite
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for perl-minion-backend-sqlite
+description: singularity registry hpc automated addition for 
+  perl-minion-backend-sqlite
 latest:
-  5.0.7--pl5321hdfd78af_0: sha256:124f029d01bb90064afb60bb4d646d9482105bda49c241cb0113261405a3370b
+  5.0.7--pl5321hdfd78af_0: 
+    sha256:124f029d01bb90064afb60bb4d646d9482105bda49c241cb0113261405a3370b
 tags:
-  5.0.7--pl5321hdfd78af_0: sha256:124f029d01bb90064afb60bb4d646d9482105bda49c241cb0113261405a3370b
+  5.0.7--pl5321hdfd78af_0: 
+    sha256:124f029d01bb90064afb60bb4d646d9482105bda49c241cb0113261405a3370b
 docker: quay.io/biocontainers/perl-minion-backend-sqlite
 aliases:
   hypnotoad: /usr/local/bin/hypnotoad

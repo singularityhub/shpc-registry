@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sbml2sbol
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sbml2sbol
 latest:
-  0.1.13: sha256:642d80ca0925299608e9734dbf028042f8d68f4bcb36594601976e9861c13857
+  0.1.13: 
+    sha256:642d80ca0925299608e9734dbf028042f8d68f4bcb36594601976e9861c13857
 tags:
-  0.1.13: sha256:642d80ca0925299608e9734dbf028042f8d68f4bcb36594601976e9861c13857
+  0.1.13: 
+    sha256:642d80ca0925299608e9734dbf028042f8d68f4bcb36594601976e9861c13857
 docker: quay.io/biocontainers/sbml2sbol
 aliases:
   normalizer: /usr/local/bin/normalizer

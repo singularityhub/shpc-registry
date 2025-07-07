@@ -2,16 +2,22 @@ url: https://biocontainers.pro/tools/mapsplice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapsplice
 latest:
-  2.2.1--py27h07887db_0: sha256:a473414a6429a137524b84acdf52fae67e186d0d382a67fe433b63f0ac6e28a7
+  2.2.1--py39hc2f06e3_2: 
+    sha256:416669be45b47d825d4c22f79fa8ba6e1ea37311d62f7d3deb9679a0c4a8767b
 tags:
-  2.2.1--py27h07887db_0: sha256:a473414a6429a137524b84acdf52fae67e186d0d382a67fe433b63f0ac6e28a7
-  2.2.1--py37h07887db_0: sha256:a16cb8b49a735c27421f660505dfa015bbe39784ae72eaaabbf966ec7f29eaca
+  2.2.1--py27h07887db_0: 
+    sha256:a473414a6429a137524b84acdf52fae67e186d0d382a67fe433b63f0ac6e28a7
+  2.2.1--py37h07887db_0: 
+    sha256:a16cb8b49a735c27421f660505dfa015bbe39784ae72eaaabbf966ec7f29eaca
+  2.2.1--py39hc2f06e3_2: 
+    sha256:416669be45b47d825d4c22f79fa8ba6e1ea37311d62f7d3deb9679a0c4a8767b
 docker: quay.io/biocontainers/mapsplice
 aliases:
   AddFusionStrandConsistent: /usr/local/bin/AddFusionStrandConsistent
   Convert2FusionAlignment: /usr/local/bin/Convert2FusionAlignment
   DNA2StdRegion: /usr/local/bin/DNA2StdRegion
-  FilterFusionAlignmentsByFilteredFusions: /usr/local/bin/FilterFusionAlignmentsByFilteredFusions
+  FilterFusionAlignmentsByFilteredFusions: 
+    /usr/local/bin/FilterFusionAlignmentsByFilteredFusions
   FilterFusionByNormalPaired: /usr/local/bin/FilterFusionByNormalPaired
   MPSSam2fq: /usr/local/bin/MPSSam2fq
   RemovePairNo: /usr/local/bin/RemovePairNo
@@ -27,14 +33,18 @@ aliases:
   collectstats: /usr/local/bin/collectstats
   comp_fusiondb_offset: /usr/local/bin/comp_fusiondb_offset
   filter_1hits: /usr/local/bin/filter_1hits
-  filterjuncbyROCarguNonCanonical: /usr/local/bin/filterjuncbyROCarguNonCanonical
+  filterjuncbyROCarguNonCanonical: 
+    /usr/local/bin/filterjuncbyROCarguNonCanonical
   filteroriginalfusion: /usr/local/bin/filteroriginalfusion
   filterremappedfusion: /usr/local/bin/filterremappedfusion
   find_mate_sam_fq: /usr/local/bin/find_mate_sam_fq
-  fusionsam2junc_filteranchor_newfmt: /usr/local/bin/fusionsam2junc_filteranchor_newfmt
+  fusionsam2junc_filteranchor_newfmt: 
+    /usr/local/bin/fusionsam2junc_filteranchor_newfmt
   generate_combined_sequence: /usr/local/bin/generate_combined_sequence
-  generate_fusiongene_convert_coordinate_trim: /usr/local/bin/generate_fusiongene_convert_coordinate_trim
-  generate_fusiongene_convert_coordinate_trim_dRanger: /usr/local/bin/generate_fusiongene_convert_coordinate_trim_dRanger
+  generate_fusiongene_convert_coordinate_trim: 
+    /usr/local/bin/generate_fusiongene_convert_coordinate_trim
+  generate_fusiongene_convert_coordinate_trim_dRanger: 
+    /usr/local/bin/generate_fusiongene_convert_coordinate_trim_dRanger
   gtf2genetab: /usr/local/bin/gtf2genetab
   junc2bed: /usr/local/bin/junc2bed
   junc_db: /usr/local/bin/junc_db
@@ -47,7 +57,8 @@ aliases:
   parseCluster: /usr/local/bin/parseCluster
   read_chromo_size: /usr/local/bin/read_chromo_size
   reads2unmappedsam: /usr/local/bin/reads2unmappedsam
-  recover_fusion_alignments_order: /usr/local/bin/recover_fusion_alignments_order
+  recover_fusion_alignments_order: 
+    /usr/local/bin/recover_fusion_alignments_order
   sam2fq: /usr/local/bin/sam2fq
   search_fusion_gene: /usr/local/bin/search_fusion_gene
   search_unmapped_reads: /usr/local/bin/search_unmapped_reads

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bigslice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bigslice
 latest:
-  2.0--pyhdfd78af_0: sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9
+  2.0--pyhdfd78af_0: 
+    sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9
 tags:
-  2.0--pyhdfd78af_0: sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9
+  2.0--pyhdfd78af_0: 
+    sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9
 docker: quay.io/biocontainers/bigslice
 aliases:
   bigslice: /usr/local/bin/bigslice

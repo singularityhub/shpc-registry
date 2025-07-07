@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/braid-mrf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for braid-mrf
 latest:
-  1.0.9--pyhfa5458b_0: sha256:bd333596034e38b0ec8ba0a7c9989af34d5d7bb7c132098ee12bf7856040a783
+  1.0.9--pyhfa5458b_0: 
+    sha256:bd333596034e38b0ec8ba0a7c9989af34d5d7bb7c132098ee12bf7856040a783
 tags:
-  1.0.9--pyhfa5458b_0: sha256:bd333596034e38b0ec8ba0a7c9989af34d5d7bb7c132098ee12bf7856040a783
+  1.0.9--pyhfa5458b_0: 
+    sha256:bd333596034e38b0ec8ba0a7c9989af34d5d7bb7c132098ee12bf7856040a783
 docker: quay.io/biocontainers/braid-mrf
 aliases:
   numba: /usr/local/bin/numba

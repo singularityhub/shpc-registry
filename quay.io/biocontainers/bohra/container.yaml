@@ -2,17 +2,27 @@ url: https://biocontainers.pro/tools/bohra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bohra
 latest:
-  2.3.8--pyhdfd78af_0: sha256:32c1cfc03594cbc90b767e21c28578d66c32986182eb8efbc1f57358e42402af
+  2.3.8--pyhdfd78af_0: 
+    sha256:32c1cfc03594cbc90b767e21c28578d66c32986182eb8efbc1f57358e42402af
 tags:
-  1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
-  1.2.19--py_1: sha256:d68e2efbed09911274a79d0af128a71e7a72bf415d56e778f063bfa89300d798
-  1.2.20--pyhdfd78af_0: sha256:8ab86c803c7c7b440b80a2311b71c774fb96cc8db24eb9db5cf27c276b65116e
-  2.2.1--pyhdfd78af_0: sha256:2b10a205a1f91a3344a92ada0477b709f9b080631502470de544098655f6480c
-  2.3.0--pyhdfd78af_0: sha256:ac326b83ef957582f52350bb1995576f72d042f9069247dd4ab5126eda504f01
-  2.3.2--pyhdfd78af_0: sha256:69396ed6fb00573c4839e82f5f3931066ba9f4a8e2fadd525886d57c277b0042
-  2.3.6--pyhdfd78af_0: sha256:c0e2f51d42d803d45c336e1a7e43f5380374891c9609204c09739dff6309f879
-  2.3.7--pyhdfd78af_0: sha256:d844c71ce12f6acfacf67ea97c6dbb471c9b8287921009ef0640d3b065bdc279
-  2.3.8--pyhdfd78af_0: sha256:32c1cfc03594cbc90b767e21c28578d66c32986182eb8efbc1f57358e42402af
+  1.2.9--py_0: 
+    sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
+  1.2.19--py_1: 
+    sha256:d68e2efbed09911274a79d0af128a71e7a72bf415d56e778f063bfa89300d798
+  1.2.20--pyhdfd78af_0: 
+    sha256:8ab86c803c7c7b440b80a2311b71c774fb96cc8db24eb9db5cf27c276b65116e
+  2.2.1--pyhdfd78af_0: 
+    sha256:2b10a205a1f91a3344a92ada0477b709f9b080631502470de544098655f6480c
+  2.3.0--pyhdfd78af_0: 
+    sha256:ac326b83ef957582f52350bb1995576f72d042f9069247dd4ab5126eda504f01
+  2.3.2--pyhdfd78af_0: 
+    sha256:69396ed6fb00573c4839e82f5f3931066ba9f4a8e2fadd525886d57c277b0042
+  2.3.6--pyhdfd78af_0: 
+    sha256:c0e2f51d42d803d45c336e1a7e43f5380374891c9609204c09739dff6309f879
+  2.3.7--pyhdfd78af_0: 
+    sha256:d844c71ce12f6acfacf67ea97c6dbb471c9b8287921009ef0640d3b065bdc279
+  2.3.8--pyhdfd78af_0: 
+    sha256:32c1cfc03594cbc90b767e21c28578d66c32986182eb8efbc1f57358e42402af
 docker: quay.io/biocontainers/bohra
 aliases:
   abricate: /usr/local/bin/abricate
@@ -41,12 +51,16 @@ aliases:
   pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
   pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
   pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
-  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
-  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  parallel_all_against_all_blastp: 
+    /usr/local/bin/parallel_all_against_all_blastp
+  protein_alignment_from_nucleotides: 
+    /usr/local/bin/protein_alignment_from_nucleotides
   query_pan_genome: /usr/local/bin/query_pan_genome
   roary: /usr/local/bin/roary
-  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
-  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-create_pan_genome_plots.R: 
+    /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: 
+    /usr/local/bin/roary-pan_genome_reorder_spreadsheet
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   shovill: /usr/local/bin/shovill
@@ -63,7 +77,8 @@ aliases:
   vcfnormalizesvs: /usr/local/bin/vcfnormalizesvs
   vcfnull2ref: /usr/local/bin/vcfnull2ref
   vcfunphase: /usr/local/bin/vcfunphase
-  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  x86_64-conda_cos6-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
   yapp: /usr/local/bin/yapp
   snp-sites: /usr/local/bin/snp-sites
   fix-sqn-date: /usr/local/bin/fix-sqn-date

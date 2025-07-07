@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/whokaryote
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for whokaryote
 latest:
-  1.1.2--pyhdfd78af_0: sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
+  1.1.2--pyhdfd78af_0: 
+    sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
 tags:
-  1.1.2--pyhdfd78af_0: sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
+  1.1.2--pyhdfd78af_0: 
+    sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
 docker: quay.io/biocontainers/whokaryote
 aliases:
   tiara: /usr/local/bin/tiara

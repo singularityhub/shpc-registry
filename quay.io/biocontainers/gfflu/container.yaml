@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gfflu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfflu
 latest:
-  0.0.2--pyhdfd78af_0: sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
+  0.0.2--pyhdfd78af_0: 
+    sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
 tags:
-  0.0.2--pyhdfd78af_0: sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
+  0.0.2--pyhdfd78af_0: 
+    sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
 docker: quay.io/biocontainers/gfflu
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb
@@ -15,7 +17,8 @@ aliases:
   uuid: /usr/local/bin/uuid
   uuid-config: /usr/local/bin/uuid-config
   test_pcre: /usr/local/bin/test_pcre
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

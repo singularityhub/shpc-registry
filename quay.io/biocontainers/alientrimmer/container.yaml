@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/alientrimmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alientrimmer
 latest:
-  2.1--hdfd78af_0: sha256:91a567bb7e0dbd0aebacdda11d8fcbd903dcb96c230d8766373283bd5cc6f86e
+  2.1--hdfd78af_0: 
+    sha256:91a567bb7e0dbd0aebacdda11d8fcbd903dcb96c230d8766373283bd5cc6f86e
 tags:
-  2.1--hdfd78af_0: sha256:91a567bb7e0dbd0aebacdda11d8fcbd903dcb96c230d8766373283bd5cc6f86e
+  2.1--hdfd78af_0: 
+    sha256:91a567bb7e0dbd0aebacdda11d8fcbd903dcb96c230d8766373283bd5cc6f86e
 docker: quay.io/biocontainers/alientrimmer
 aliases:
   alientrimmer: /usr/local/bin/alientrimmer

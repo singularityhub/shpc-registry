@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/redundans
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for redundans
 latest:
-  2.01--py310pl5321h43eeafb_0: sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
+  2.01--py310pl5321h43eeafb_0: 
+    sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
 tags:
-  2.01--py310pl5321h43eeafb_0: sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
+  2.01--py310pl5321h43eeafb_0: 
+    sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
 docker: quay.io/biocontainers/redundans
 aliases:
   FastaIndex.py: /usr/local/bin/FastaIndex.py

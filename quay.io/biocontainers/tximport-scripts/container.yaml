@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tximport-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tximport-scripts
 latest:
-  0.0.1--hdfd78af_1: sha256:2f5b1a942e7c760576907a652fc8de0c7ea304c08899d8b955c79a7d0f23d8e1
+  0.0.1--hdfd78af_1: 
+    sha256:2f5b1a942e7c760576907a652fc8de0c7ea304c08899d8b955c79a7d0f23d8e1
 tags:
-  0.0.1--hdfd78af_1: sha256:2f5b1a942e7c760576907a652fc8de0c7ea304c08899d8b955c79a7d0f23d8e1
+  0.0.1--hdfd78af_1: 
+    sha256:2f5b1a942e7c760576907a652fc8de0c7ea304c08899d8b955c79a7d0f23d8e1
 docker: quay.io/biocontainers/tximport-scripts
 aliases:
   tximport.R: /usr/local/bin/tximport.R
@@ -13,6 +15,7 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

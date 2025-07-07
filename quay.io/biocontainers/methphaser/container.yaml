@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/methphaser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methphaser
 latest:
-  0.0.3--hdfd78af_0: sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
+  0.0.3--hdfd78af_0: 
+    sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
 tags:
-  0.0.3--hdfd78af_0: sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
+  0.0.3--hdfd78af_0: 
+    sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
 docker: quay.io/biocontainers/methphaser
 aliases:
   meth_phaser_parallel: /usr/local/bin/meth_phaser_parallel

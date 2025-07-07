@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/tepid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tepid
 latest:
-  0.10--py_0: sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a
+  0.10--py_0: 
+    sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a
 tags:
-  0.8--py_3: sha256:fada1cc701ef110ca03c5e8a27cdf32e84c6d4f9678be95c74c5f52e7578d28d
-  0.10--py_0: sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a
+  0.8--py_3: 
+    sha256:fada1cc701ef110ca03c5e8a27cdf32e84c6d4f9678be95c74c5f52e7578d28d
+  0.10--py_0: 
+    sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a
 docker: quay.io/biocontainers/tepid
 aliases:
   samblaster: /usr/local/bin/samblaster

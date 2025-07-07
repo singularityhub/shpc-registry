@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/bioconductor-stdeconvolve
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-stdeconvolve
+description: singularity registry hpc automated addition for 
+  bioconductor-stdeconvolve
 latest:
-  1.2.0--r42hdfd78af_0: sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
+  1.2.0--r42hdfd78af_0: 
+    sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
 tags:
-  1.2.0--r42hdfd78af_0: sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
+  1.2.0--r42hdfd78af_0: 
+    sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
 docker: quay.io/biocontainers/bioconductor-stdeconvolve
 aliases:
   jpackage: /usr/local/bin/jpackage

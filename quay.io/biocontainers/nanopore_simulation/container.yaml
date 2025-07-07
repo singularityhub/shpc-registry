@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/nanopore_simulation
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for nanopore_simulation
+description: shpc-registry automated BioContainers addition for 
+  nanopore_simulation
 latest:
-  0.3--py_2: sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3
+  0.3--py_2: 
+    sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3
 tags:
-  0.3--py_2: sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3
+  0.3--py_2: 
+    sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3
 docker: quay.io/biocontainers/nanopore_simulation
 aliases:
   simulatION: /usr/local/bin/simulatION

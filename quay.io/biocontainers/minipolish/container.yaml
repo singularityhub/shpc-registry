@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/minipolish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minipolish
 latest:
-  0.1.3--pyhdfd78af_0: sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a
+  0.2.0--pyhdfd78af_0: 
+    sha256:85bf13beaa427a9d940b3a00f676360b6082f50d4d4a02b1dcb457b8a3f13bc4
 tags:
-  0.1.3--pyhdfd78af_0: sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a
+  0.1.3--pyhdfd78af_0: 
+    sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a
+  0.2.0--pyhdfd78af_0: 
+    sha256:85bf13beaa427a9d940b3a00f676360b6082f50d4d4a02b1dcb457b8a3f13bc4
 docker: quay.io/biocontainers/minipolish
 aliases:
   minipolish: /usr/local/bin/minipolish

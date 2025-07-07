@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-text-soundex
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-text-soundex
+description: shpc-registry automated BioContainers addition for 
+  perl-text-soundex
 latest:
-  3.05--0: sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0
+  3.05--0: 
+    sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0
 tags:
-  3.05--0: sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0
+  3.05--0: 
+    sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0
 docker: quay.io/biocontainers/perl-text-soundex
 aliases:
   perl5.22.0: /usr/local/bin/perl5.22.0

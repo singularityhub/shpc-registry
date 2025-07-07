@@ -1,13 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-trena
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-trena
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-trena
 latest:
-  1.20.0--r42hdfd78af_0: sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76
+  1.20.0--r42hdfd78af_0: 
+    sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76
 tags:
-  1.8.0--r36_0: sha256:7e63e017e02111e4607d47ac7c4cdb93e73ce12b8b7b7c56ebdda865eb47cdce
-  1.16.0--r41hdfd78af_0: sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e
-  1.14.0--r41hdfd78af_0: sha256:2b09120d0461526d0d7de195916994c5825b1c0cc0ce1cb4a60295ebc7c99f4b
-  1.20.0--r42hdfd78af_0: sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76
+  1.8.0--r36_0: 
+    sha256:7e63e017e02111e4607d47ac7c4cdb93e73ce12b8b7b7c56ebdda865eb47cdce
+  1.16.0--r41hdfd78af_0: 
+    sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e
+  1.14.0--r41hdfd78af_0: 
+    sha256:2b09120d0461526d0d7de195916994c5825b1c0cc0ce1cb4a60295ebc7c99f4b
+  1.20.0--r42hdfd78af_0: 
+    sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76
 docker: quay.io/biocontainers/bioconductor-trena
 aliases:
   xgboost: /usr/local/bin/xgboost

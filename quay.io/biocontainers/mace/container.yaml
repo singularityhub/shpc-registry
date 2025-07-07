@@ -2,15 +2,18 @@ url: https://biocontainers.pro/tools/mace
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mace
 latest:
-  1.2--py27hdeff1b7_3: sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
+  1.2--py27hdeff1b7_3: 
+    sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
 tags:
-  1.2--py27hdeff1b7_3: sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
+  1.2--py27hdeff1b7_3: 
+    sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
 docker: quay.io/biocontainers/mace
 aliases:
   mace.py: /usr/local/bin/mace.py
   preprocessor.py: /usr/local/bin/preprocessor.py
   wigToBigWig: /usr/local/bin/wigToBigWig
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

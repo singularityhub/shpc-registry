@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/magphi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for magphi
 latest:
-  2.0.2--pyhdfd78af_0: sha256:6ff54634e57ae43f754b61a96c28024c05e69ca5b4b423ba18c31c1aa7780431
+  2.0.2--pyhdfd78af_0: 
+    sha256:6ff54634e57ae43f754b61a96c28024c05e69ca5b4b423ba18c31c1aa7780431
 tags:
-  2.0.2--pyhdfd78af_0: sha256:6ff54634e57ae43f754b61a96c28024c05e69ca5b4b423ba18c31c1aa7780431
+  2.0.2--pyhdfd78af_0: 
+    sha256:6ff54634e57ae43f754b61a96c28024c05e69ca5b4b423ba18c31c1aa7780431
 docker: quay.io/biocontainers/magphi
 aliases:
   Magphi: /usr/local/bin/Magphi
