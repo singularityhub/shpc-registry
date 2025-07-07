@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lipidomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lipidomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lipidomer/container.yaml"
-updated_at: "2025-07-07 03:55:24.486968"
+updated_at: "2025-07-07 06:02:05.428540"
 latest: "0.1.2--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-lipidomer"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pwomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwomics/container.yaml"
-updated_at: "2025-07-07 04:14:27.670162"
+updated_at: "2025-07-07 06:20:51.757177"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwomics"
 
