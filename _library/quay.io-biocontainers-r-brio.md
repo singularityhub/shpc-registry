@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-brio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-brio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-brio/container.yaml"
-updated_at: "2025-07-06 03:46:09.868254"
+updated_at: "2025-07-07 03:44:47.527351"
 latest: "0.3.17--r36_0"
 container_url: "https://biocontainers.pro/tools/r-brio"
 aliases:

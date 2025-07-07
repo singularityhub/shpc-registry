@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpkmforgenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpkmforgenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpkmforgenes/container.yaml"
-updated_at: "2025-07-06 03:38:04.891027"
+updated_at: "2025-07-07 03:36:26.825587"
 latest: "1.0.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/rpkmforgenes"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hamroaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hamroaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hamroaster/container.yaml"
-updated_at: "2025-07-06 03:38:59.821829"
+updated_at: "2025-07-07 03:37:23.206828"
 latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hamroaster"
 aliases:

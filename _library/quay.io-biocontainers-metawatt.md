@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawatt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawatt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawatt/container.yaml"
-updated_at: "2025-07-06 04:01:35.818459"
+updated_at: "2025-07-07 04:00:44.398286"
 latest: "3.5.3--2"
 container_url: "https://biocontainers.pro/tools/metawatt"
 aliases:
