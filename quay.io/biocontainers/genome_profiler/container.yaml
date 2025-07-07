@@ -1,0 +1,55 @@
+url: https://biocontainers.pro/tools/genome_profiler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genome_profiler
+latest:
+  0.4.2--pyhdfd78af_0: 
+    sha256:70d6ab215f48325a8de8fc1f8ad0b2206d3fc92357f061fe348b16dab90d2285
+tags:
+  0.4.2--pyhdfd78af_0: 
+    sha256:70d6ab215f48325a8de8fc1f8ad0b2206d3fc92357f061fe348b16dab90d2285
+docker: quay.io/biocontainers/genome_profiler
+aliases:
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  bio: /usr/local/bin/bio
+  constants.py: /usr/local/bin/constants.py
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  ectyper: /usr/local/bin/ectyper
+  ectyper_init: /usr/local/bin/ectyper_init
+  fasta_filter.py: /usr/local/bin/fasta_filter.py
+  genome_profiler: /usr/local/bin/genome_profiler
+  integron_finder: /usr/local/bin/integron_finder
+  integron_merge: /usr/local/bin/integron_merge
+  integron_split: /usr/local/bin/integron_split
+  isPredict.py: /usr/local/bin/isPredict.py
+  is_analysis.py: /usr/local/bin/is_analysis.py
+  isescan.py: /usr/local/bin/isescan.py
+  pred.py: /usr/local/bin/pred.py
+  pyssw.py: /usr/local/bin/pyssw.py
+  ssw_wrap.py: /usr/local/bin/ssw_wrap.py
+  tools.py: /usr/local/bin/tools.py
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  dotenv: /usr/local/bin/dotenv
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  any2fasta: /usr/local/bin/any2fasta
+  TMalign: /usr/local/bin/TMalign
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  funzip: /usr/local/bin/funzip
+  httpx: /usr/local/bin/httpx
+  poa: /usr/local/bin/poa
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  clustalo: /usr/local/bin/clustalo
+  certtool: /usr/local/bin/certtool
