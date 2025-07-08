@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/celltypist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for celltypist
 latest:
-  1.6.3--pyhdfd78af_0: 
-    sha256:053cf7fd75276403a8f99f5170becf2595cc682b196b2fba26998efe4decbaa1
+  1.7.1--pyhdfd78af_0: 
+    sha256:158f0099760e14aa911e81db251a249256547192c711a494462e0b403a148244
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:0ff91df0cb1b0635c7a1969f4ac54943329c4252cd73bb79fbfefef4207c37f6
@@ -23,6 +23,8 @@ tags:
     sha256:acc300410b66531ca9f460e526c179bba7df4bf911b721fbaca3298f75b4c531
   1.6.3--pyhdfd78af_0: 
     sha256:053cf7fd75276403a8f99f5170becf2595cc682b196b2fba26998efe4decbaa1
+  1.7.1--pyhdfd78af_0: 
+    sha256:158f0099760e14aa911e81db251a249256547192c711a494462e0b403a148244
 docker: quay.io/biocontainers/celltypist
 aliases:
   celltypist: /usr/local/bin/celltypist

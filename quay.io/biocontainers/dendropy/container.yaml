@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dendropy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dendropy
 latest:
-  5.0.8--pyhdfd78af_0: 
-    sha256:67527f4adba0657b6ce7cdbcccde3f7e8d0891eeddcbd280f58c2a7bec6f950a
+  5.0.8--pyhdfd78af_1: 
+    sha256:2860ea1b4b318105da63eb6107a5d58a21c9a057447a59f581ae7e4573b2f413
 tags:
   4.5.2--pyh3252c3a_0: 
     sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0
@@ -17,6 +17,8 @@ tags:
     sha256:96c391d7e2bbd464406d63d9edbb66bc16e6f96a1ad433981761efa5994c29a9
   5.0.8--pyhdfd78af_0: 
     sha256:67527f4adba0657b6ce7cdbcccde3f7e8d0891eeddcbd280f58c2a7bec6f950a
+  5.0.8--pyhdfd78af_1: 
+    sha256:2860ea1b4b318105da63eb6107a5d58a21c9a057447a59f581ae7e4573b2f413
 docker: quay.io/biocontainers/dendropy
 aliases:
   dendropy-format: /usr/local/bin/dendropy-format
