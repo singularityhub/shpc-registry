@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singlecelltk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
-updated_at: "2025-07-07 05:45:37.262473"
+updated_at: "2025-07-08 03:33:05.192461"
 latest: "2.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecelltk"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-devel-size"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-size/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-size/container.yaml"
-updated_at: "2025-07-07 05:49:09.339393"
-latest: "0.84--pl5321h7b50bb2_1"
+updated_at: "2025-07-08 03:36:44.210665"
+latest: "0.85--pl5321h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-size"
 aliases:
  - "perl5.32.1"
@@ -16,8 +16,9 @@ versions:
  - "0.84--pl5321h031d066_0"
  - "0.83--pl5321h031d066_5"
  - "0.84--pl5321h7b50bb2_1"
+ - "0.85--pl5321h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for perl-devel-size"
-config: {"url": "https://biocontainers.pro/tools/perl-devel-size", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-size", "latest": {"0.84--pl5321h7b50bb2_1": "sha256:81fc34c747c1e6cc92fafad5c3d6035fb2b093dded0bd97c90cf5fa71e9c86dc"}, "tags": {"0.83--pl5321hec16e2b_2": "sha256:78e2a7daddff55951a9f3dc8c200b0fb9d8cfab58a7f2e36cfa4772489bc28a4", "0.83--pl5321h031d066_4": "sha256:ecb9c9ab7bde911d422868561dbab7a266ed8f777c79bfeb0fb3a05a21870f7b", "0.84--pl5321h031d066_0": "sha256:6be350c067fcff9dba0f8e4a09fe6ff052a40708c9c3b9a3eb9be2a322812ec5", "0.83--pl5321h031d066_5": "sha256:9faf3da4afb15504b09eeaf1d66dd667bba50a2ae37d61715922d645b54a1fe3", "0.84--pl5321h7b50bb2_1": "sha256:81fc34c747c1e6cc92fafad5c3d6035fb2b093dded0bd97c90cf5fa71e9c86dc"}, "docker": "quay.io/biocontainers/perl-devel-size", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-devel-size", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-size", "latest": {"0.85--pl5321h7b50bb2_0": "sha256:5c41e6e9947e3ca6cfc0a621c058fcdf0bc6f8c32a3d89312664fae45a1ee55b"}, "tags": {"0.83--pl5321hec16e2b_2": "sha256:78e2a7daddff55951a9f3dc8c200b0fb9d8cfab58a7f2e36cfa4772489bc28a4", "0.83--pl5321h031d066_4": "sha256:ecb9c9ab7bde911d422868561dbab7a266ed8f777c79bfeb0fb3a05a21870f7b", "0.84--pl5321h031d066_0": "sha256:6be350c067fcff9dba0f8e4a09fe6ff052a40708c9c3b9a3eb9be2a322812ec5", "0.83--pl5321h031d066_5": "sha256:9faf3da4afb15504b09eeaf1d66dd667bba50a2ae37d61715922d645b54a1fe3", "0.84--pl5321h7b50bb2_1": "sha256:81fc34c747c1e6cc92fafad5c3d6035fb2b093dded0bd97c90cf5fa71e9c86dc", "0.85--pl5321h7b50bb2_0": "sha256:5c41e6e9947e3ca6cfc0a621c058fcdf0bc6f8c32a3d89312664fae45a1ee55b"}, "docker": "quay.io/biocontainers/perl-devel-size", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-devel-size.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-devel-size
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-devel-size:0.84--pl5321h7b50bb2_1
+$ shpc install quay.io/biocontainers/perl-devel-size:0.85--pl5321h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-devel-size/0.84--pl5321h7b50bb2_1
-$ module help quay.io/biocontainers/perl-devel-size/0.84--pl5321h7b50bb2_1
+$ module load quay.io/biocontainers/perl-devel-size/0.85--pl5321h7b50bb2_0
+$ module help quay.io/biocontainers/perl-devel-size/0.85--pl5321h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

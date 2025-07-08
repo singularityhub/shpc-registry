@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pod5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pod5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pod5/container.yaml"
-updated_at: "2025-07-07 06:13:28.045752"
-latest: "0.3.15--pyhdfd78af_0"
+updated_at: "2025-07-08 04:01:40.731479"
+latest: "0.3.27--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pod5"
 aliases:
  - "pod5"
@@ -36,8 +36,9 @@ aliases:
  - "grpc_php_plugin"
 versions:
  - "0.3.15--pyhdfd78af_0"
+ - "0.3.27--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pod5"
-config: {"url": "https://biocontainers.pro/tools/pod5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pod5", "latest": {"0.3.15--pyhdfd78af_0": "sha256:977a384695fb67e5539cc7cf42c137d192046109cefa3129140a5c258d1355cf"}, "tags": {"0.3.15--pyhdfd78af_0": "sha256:977a384695fb67e5539cc7cf42c137d192046109cefa3129140a5c258d1355cf"}, "docker": "quay.io/biocontainers/pod5", "aliases": {"pod5": "/usr/local/bin/pod5", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/pod5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pod5", "latest": {"0.3.27--pyhdfd78af_0": "sha256:b5ebe0ed2e9aabac0b2e0562c53fb7795d43b7a3e0d90ffd3aa6e70ba95cca3d"}, "tags": {"0.3.15--pyhdfd78af_0": "sha256:977a384695fb67e5539cc7cf42c137d192046109cefa3129140a5c258d1355cf", "0.3.27--pyhdfd78af_0": "sha256:b5ebe0ed2e9aabac0b2e0562c53fb7795d43b7a3e0d90ffd3aa6e70ba95cca3d"}, "docker": "quay.io/biocontainers/pod5", "aliases": {"pod5": "/usr/local/bin/pod5", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pod5.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/pod5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pod5:0.3.15--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pod5:0.3.27--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pod5/0.3.15--pyhdfd78af_0
-$ module help quay.io/biocontainers/pod5/0.3.15--pyhdfd78af_0
+$ module load quay.io/biocontainers/pod5/0.3.27--pyhdfd78af_0
+$ module help quay.io/biocontainers/pod5/0.3.27--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-immucellaimouse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-immucellaimouse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-immucellaimouse/container.yaml"
-updated_at: "2025-07-07 05:43:16.683736"
+updated_at: "2025-07-08 03:30:40.420269"
 latest: "1.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-immucellaimouse"
 aliases:

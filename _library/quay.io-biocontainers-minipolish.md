@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minipolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minipolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minipolish/container.yaml"
-updated_at: "2025-07-07 05:36:30.958971"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2025-07-08 03:23:43.917422"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/minipolish"
 aliases:
  - "minipolish"
@@ -21,8 +21,9 @@ aliases:
  - "pydoc3.10"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for minipolish"
-config: {"url": "https://biocontainers.pro/tools/minipolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minipolish", "latest": {"0.1.3--pyhdfd78af_0": "sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a"}, "docker": "quay.io/biocontainers/minipolish", "aliases": {"minipolish": "/usr/local/bin/minipolish", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/minipolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minipolish", "latest": {"0.2.0--pyhdfd78af_0": "sha256:85bf13beaa427a9d940b3a00f676360b6082f50d4d4a02b1dcb457b8a3f13bc4"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:fd0aa34f422701ed03d91da451dae7febb6adee8cb55ca3b918a931d7796202a", "0.2.0--pyhdfd78af_0": "sha256:85bf13beaa427a9d940b3a00f676360b6082f50d4d4a02b1dcb457b8a3f13bc4"}, "docker": "quay.io/biocontainers/minipolish", "aliases": {"minipolish": "/usr/local/bin/minipolish", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minipolish.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/minipolish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minipolish:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/minipolish:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minipolish/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/minipolish/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/minipolish/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/minipolish/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

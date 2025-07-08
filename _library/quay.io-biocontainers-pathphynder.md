@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pathphynder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathphynder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathphynder/container.yaml"
-updated_at: "2025-07-07 05:56:43.579439"
-latest: "1.2.3--py312hdfd78af_0"
+updated_at: "2025-07-08 03:44:31.238180"
+latest: "1.2.4--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pathphynder"
 aliases:
  - "pathPhynder"
@@ -40,8 +40,9 @@ versions:
  - "1.2.1--py312hdfd78af_1"
  - "1.2.1--py312hdfd78af_3"
  - "1.2.3--py312hdfd78af_0"
+ - "1.2.4--py313hdfd78af_0"
 description: "singularity registry hpc automated addition for pathphynder"
-config: {"url": "https://biocontainers.pro/tools/pathphynder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathphynder", "latest": {"1.2.3--py312hdfd78af_0": "sha256:05b124fb4cbcfddb3999f92c4799716c70a605d0195278bc806d34e85e353dd2"}, "tags": {"1.2.1--py312hdfd78af_0": "sha256:d459e1c88803dc3faa0d92cef3e1f85b9aceaa7920f0bbc0639dee016ce19c7a", "1.2.1--py312hdfd78af_1": "sha256:e42b188d0cded3db9e531cf3bc4b7a22844fdae79bfc0442a76491bbd24ac2a4", "1.2.1--py312hdfd78af_3": "sha256:9ae460b9aa2bacdbf9dc2551ac9dc3990ad2854208e03b2ebc36a67210dd3464", "1.2.3--py312hdfd78af_0": "sha256:05b124fb4cbcfddb3999f92c4799716c70a605d0195278bc806d34e85e353dd2"}, "docker": "quay.io/biocontainers/pathphynder", "aliases": {"pathPhynder": "/usr/local/bin/pathPhynder", "phynder": "/usr/local/bin/phynder", "annot-tsv": "/usr/local/bin/annot-tsv", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pathphynder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathphynder", "latest": {"1.2.4--py313hdfd78af_0": "sha256:aa50ec25f11035baf109c38d8e1e15ef5100cff7fd9c44c068f50af6635a5c99"}, "tags": {"1.2.1--py312hdfd78af_0": "sha256:d459e1c88803dc3faa0d92cef3e1f85b9aceaa7920f0bbc0639dee016ce19c7a", "1.2.1--py312hdfd78af_1": "sha256:e42b188d0cded3db9e531cf3bc4b7a22844fdae79bfc0442a76491bbd24ac2a4", "1.2.1--py312hdfd78af_3": "sha256:9ae460b9aa2bacdbf9dc2551ac9dc3990ad2854208e03b2ebc36a67210dd3464", "1.2.3--py312hdfd78af_0": "sha256:05b124fb4cbcfddb3999f92c4799716c70a605d0195278bc806d34e85e353dd2", "1.2.4--py313hdfd78af_0": "sha256:aa50ec25f11035baf109c38d8e1e15ef5100cff7fd9c44c068f50af6635a5c99"}, "docker": "quay.io/biocontainers/pathphynder", "aliases": {"pathPhynder": "/usr/local/bin/pathPhynder", "phynder": "/usr/local/bin/phynder", "annot-tsv": "/usr/local/bin/annot-tsv", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathphynder.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/pathphynder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pathphynder:1.2.3--py312hdfd78af_0
+$ shpc install quay.io/biocontainers/pathphynder:1.2.4--py313hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pathphynder/1.2.3--py312hdfd78af_0
-$ module help quay.io/biocontainers/pathphynder/1.2.3--py312hdfd78af_0
+$ module load quay.io/biocontainers/pathphynder/1.2.4--py313hdfd78af_0
+$ module help quay.io/biocontainers/pathphynder/1.2.4--py313hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
