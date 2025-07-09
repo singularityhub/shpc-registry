@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromsize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromsize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromsize/container.yaml"
-updated_at: "2025-07-08 03:23:25.296039"
-latest: "0.0.2--ha6fb395_1"
+updated_at: "2025-07-09 03:25:48.760350"
+latest: "0.0.3--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/chromsize"
 aliases:
  - "chromsize"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.0.2--h919a2d8_0"
  - "0.0.2--ha6fb395_1"
+ - "0.0.3--ha6fb395_0"
 description: "singularity registry hpc automated addition for chromsize"
-config: {"url": "https://biocontainers.pro/tools/chromsize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chromsize", "latest": {"0.0.2--ha6fb395_1": "sha256:d608f1195e25f47e116479fbf3aa41bcabab3e035e86d9a012cd7988f0369d35"}, "tags": {"0.0.2--h919a2d8_0": "sha256:b48f455bd374dd3f10932b58ddf4a3892b8c8b8ef4dea8e6d6b6aae6673aa79c", "0.0.2--ha6fb395_1": "sha256:d608f1195e25f47e116479fbf3aa41bcabab3e035e86d9a012cd7988f0369d35"}, "docker": "quay.io/biocontainers/chromsize", "aliases": {"chromsize": "/usr/local/bin/chromsize", "chromsize-benchmark": "/usr/local/bin/chromsize-benchmark"}}
+config: {"url": "https://biocontainers.pro/tools/chromsize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chromsize", "latest": {"0.0.3--ha6fb395_0": "sha256:9dbf344f6b4f9b7dbc2b1d8ef103d7c7199ada637697308fd3c1633c848a967f"}, "tags": {"0.0.2--h919a2d8_0": "sha256:b48f455bd374dd3f10932b58ddf4a3892b8c8b8ef4dea8e6d6b6aae6673aa79c", "0.0.2--ha6fb395_1": "sha256:d608f1195e25f47e116479fbf3aa41bcabab3e035e86d9a012cd7988f0369d35", "0.0.3--ha6fb395_0": "sha256:9dbf344f6b4f9b7dbc2b1d8ef103d7c7199ada637697308fd3c1633c848a967f"}, "docker": "quay.io/biocontainers/chromsize", "aliases": {"chromsize": "/usr/local/bin/chromsize", "chromsize-benchmark": "/usr/local/bin/chromsize-benchmark"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromsize.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/chromsize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromsize:0.0.2--ha6fb395_1
+$ shpc install quay.io/biocontainers/chromsize:0.0.3--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromsize/0.0.2--ha6fb395_1
-$ module help quay.io/biocontainers/chromsize/0.0.2--ha6fb395_1
+$ module load quay.io/biocontainers/chromsize/0.0.3--ha6fb395_0
+$ module help quay.io/biocontainers/chromsize/0.0.3--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

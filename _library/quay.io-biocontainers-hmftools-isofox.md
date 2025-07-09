@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-isofox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
-updated_at: "2025-07-08 03:35:04.516451"
+updated_at: "2025-07-09 03:37:10.869397"
 latest: "1.7.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-isofox"
 aliases:

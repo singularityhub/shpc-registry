@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blobtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blobtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blobtk/container.yaml"
-updated_at: "2025-07-08 04:10:25.887188"
-latest: "0.6.5--py310h237a769_0"
+updated_at: "2025-07-09 04:11:42.196355"
+latest: "0.7.1--py39hf6b2c50_0"
 container_url: "https://biocontainers.pro/tools/blobtk"
 aliases:
  - "blobtk"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.6.5--py310h237a769_0"
+ - "0.7.1--py39hf6b2c50_0"
 description: "singularity registry hpc automated addition for blobtk"
-config: {"url": "https://biocontainers.pro/tools/blobtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blobtk", "latest": {"0.6.5--py310h237a769_0": "sha256:a6ef4954953d8ccb25cb0ad9a4e7005947db856ea9974d1969b63a4be0f1c4f7"}, "tags": {"0.6.5--py310h237a769_0": "sha256:a6ef4954953d8ccb25cb0ad9a4e7005947db856ea9974d1969b63a4be0f1c4f7"}, "docker": "quay.io/biocontainers/blobtk", "aliases": {"blobtk": "/usr/local/bin/blobtk", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/blobtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blobtk", "latest": {"0.7.1--py39hf6b2c50_0": "sha256:b7562088994b661ccde4b72e665fa18ec655447bea04f5a2fba471aaa7b14621"}, "tags": {"0.6.5--py310h237a769_0": "sha256:a6ef4954953d8ccb25cb0ad9a4e7005947db856ea9974d1969b63a4be0f1c4f7", "0.7.1--py39hf6b2c50_0": "sha256:b7562088994b661ccde4b72e665fa18ec655447bea04f5a2fba471aaa7b14621"}, "docker": "quay.io/biocontainers/blobtk", "aliases": {"blobtk": "/usr/local/bin/blobtk", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blobtk.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/blobtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blobtk:0.6.5--py310h237a769_0
+$ shpc install quay.io/biocontainers/blobtk:0.7.1--py39hf6b2c50_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blobtk/0.6.5--py310h237a769_0
-$ module help quay.io/biocontainers/blobtk/0.6.5--py310h237a769_0
+$ module load quay.io/biocontainers/blobtk/0.7.1--py39hf6b2c50_0
+$ module help quay.io/biocontainers/blobtk/0.7.1--py39hf6b2c50_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

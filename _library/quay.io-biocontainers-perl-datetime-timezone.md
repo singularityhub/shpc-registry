@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-datetime-timezone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-timezone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-timezone/container.yaml"
-updated_at: "2025-07-08 04:00:14.883013"
-latest: "2.52--pl5321h9f5acd7_1"
+updated_at: "2025-07-09 04:01:38.579552"
+latest: "2.65--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime-timezone"
 aliases:
  - "package-stash-conflicts"
@@ -14,8 +14,10 @@ aliases:
  - "streamzip"
 versions:
  - "2.52--pl5321h9f5acd7_1"
+ - "2.65--pl5321h9948957_0"
+ - "2.57--pl5321h9948957_0"
 description: "shpc-registry automated BioContainers addition for perl-datetime-timezone"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime-timezone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-timezone", "latest": {"2.52--pl5321h9f5acd7_1": "sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34"}, "tags": {"2.52--pl5321h9f5acd7_1": "sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34"}, "docker": "quay.io/biocontainers/perl-datetime-timezone", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime-timezone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-timezone", "latest": {"2.65--pl5321h9948957_0": "sha256:626f050a9b67977514d614669ff7d61824d5ea55e257508f62816e0e87fda88b"}, "tags": {"2.52--pl5321h9f5acd7_1": "sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34", "2.65--pl5321h9948957_0": "sha256:626f050a9b67977514d614669ff7d61824d5ea55e257508f62816e0e87fda88b", "2.57--pl5321h9948957_0": "sha256:7d015ee7e03431c5252cc37db64a07141b8df6b44a9af3e224a2ed3741abd97d"}, "docker": "quay.io/biocontainers/perl-datetime-timezone", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime-timezone.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-datetime-timezone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-datetime-timezone:2.52--pl5321h9f5acd7_1
+$ shpc install quay.io/biocontainers/perl-datetime-timezone:2.65--pl5321h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-datetime-timezone/2.52--pl5321h9f5acd7_1
-$ module help quay.io/biocontainers/perl-datetime-timezone/2.52--pl5321h9f5acd7_1
+$ module load quay.io/biocontainers/perl-datetime-timezone/2.65--pl5321h9948957_0
+$ module help quay.io/biocontainers/perl-datetime-timezone/2.65--pl5321h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
