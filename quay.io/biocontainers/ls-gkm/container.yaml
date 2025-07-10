@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ls-gkm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ls-gkm
 latest:
-  0.0.1--h2d50403_1: 
-    sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90
+  0.1.1--h9948957_0: 
+    sha256:b87d49749eed12f2c203c9f55214f48447f8c53b4b2b65d0caa858de86f2a6d7
 tags:
   0.0.1--h2d50403_1: 
     sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90
+  0.1.1--h9948957_0: 
+    sha256:b87d49749eed12f2c203c9f55214f48447f8c53b4b2b65d0caa858de86f2a6d7
 docker: quay.io/biocontainers/ls-gkm
 aliases:
   gkmpredict: /usr/local/bin/gkmpredict

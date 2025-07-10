@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ppanggolin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ppanggolin
 latest:
-  2.2.3--hbcbf7aa_0: 
-    sha256:84099fd5d4e5251c7806f89b477d237c9cb106318ad9193b443e5d4451d7a307
+  2.2.4--h1fe012e_0: 
+    sha256:90fdace53679eb2d81b776f9d14f488d9f033ae3bf3a35ccc18e74bfade9cf3f
 tags:
   v0.3.88--py36h516909a_1: 
     sha256:24940dd298e4db3cd4a99d26b23835b218cb7a5c03cdfb7b5e285bf5d4dbeba2
@@ -41,6 +41,8 @@ tags:
     sha256:be1ac946ef4471e1131046929a634f23bcda8d799284c34b1811a5deb17c74b5
   2.2.3--hbcbf7aa_0: 
     sha256:84099fd5d4e5251c7806f89b477d237c9cb106318ad9193b443e5d4451d7a307
+  2.2.4--h1fe012e_0: 
+    sha256:90fdace53679eb2d81b776f9d14f488d9f033ae3bf3a35ccc18e74bfade9cf3f
 docker: quay.io/biocontainers/ppanggolin
 aliases:
   gawk-5.0.1: /usr/local/bin/gawk-5.0.1

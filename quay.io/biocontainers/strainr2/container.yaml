@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/strainr2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strainr2
 latest:
-  2.2.1--r44h577a1d6_0: 
-    sha256:eae4c6ac8e247804f40d007530cfc70b6cb5f043f852c7f8acc2675dd6984b5c
+  2.3.0--r44h577a1d6_0: 
+    sha256:6b52cf35ef53fe87cb9be60640dc14bfa44673d5bbc91087481565f0fd41b0ec
 tags:
   1.0.0--py312r43h031d066_0: 
     sha256:874eb1c063b537f4dfdf963bdd8316aa8905605e691f6dcd05039d8b8e6b8420
@@ -17,6 +17,8 @@ tags:
     sha256:16511c69028e3678f51a2772782bd81921abb8b3a6e363fc6b51d9418187d204
   2.2.1--r44h577a1d6_0: 
     sha256:eae4c6ac8e247804f40d007530cfc70b6cb5f043f852c7f8acc2675dd6984b5c
+  2.3.0--r44h577a1d6_0: 
+    sha256:6b52cf35ef53fe87cb9be60640dc14bfa44673d5bbc91087481565f0fd41b0ec
 docker: quay.io/biocontainers/strainr2
 aliases:
   Plot.R: /usr/local/bin/Plot.R

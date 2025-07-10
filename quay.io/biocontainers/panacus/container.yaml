@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/panacus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panacus
 latest:
-  0.3.3--hc1c3326_0: 
-    sha256:6ecac73a8deb4ccafd121de4bc87ad30c16b02a5aa9704cbb0fd6b3efb675c45
+  0.4.1--hc1c3326_0: 
+    sha256:0ec877fd0954933658d9b3a4131d65d672c20f9df0cbbdf95862113ff38b96a3
 tags:
   0.2--hec16e2b_0: 
     sha256:f3e1a7d43d4694a287483512a7190f611193486ea91913ffe0e64e156d803bff
@@ -23,6 +23,8 @@ tags:
     sha256:5e26c0d82ab33cffe646d843868cbd49c5d6e5bfaaa807c4ca41ad8ba7d868d0
   0.3.3--hc1c3326_0: 
     sha256:6ecac73a8deb4ccafd121de4bc87ad30c16b02a5aa9704cbb0fd6b3efb675c45
+  0.4.1--hc1c3326_0: 
+    sha256:0ec877fd0954933658d9b3a4131d65d672c20f9df0cbbdf95862113ff38b96a3
 docker: quay.io/biocontainers/panacus
 aliases:
   panacus: /usr/local/bin/panacus
