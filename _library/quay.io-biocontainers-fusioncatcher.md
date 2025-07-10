@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusioncatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusioncatcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher/container.yaml"
-updated_at: "2025-07-09 03:32:09.754484"
+updated_at: "2025-07-10 03:32:17.099522"
 latest: "1.33--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/fusioncatcher"
 

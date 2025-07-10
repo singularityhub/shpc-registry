@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sonicparanoid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sonicparanoid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sonicparanoid/container.yaml"
-updated_at: "2025-07-09 03:25:25.315668"
+updated_at: "2025-07-10 03:25:23.112710"
 latest: "2.0.8--py310h20b60a1_1"
 container_url: "https://biocontainers.pro/tools/sonicparanoid"
 aliases:

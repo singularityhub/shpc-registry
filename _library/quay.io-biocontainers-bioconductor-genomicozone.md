@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicozone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicozone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicozone/container.yaml"
-updated_at: "2025-07-09 03:51:36.919539"
+updated_at: "2025-07-10 03:52:22.388450"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicozone"
 

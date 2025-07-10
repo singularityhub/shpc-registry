@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flye/container.yaml"
-updated_at: "2025-07-09 03:41:20.565082"
+updated_at: "2025-07-10 03:41:40.648000"
 latest: "2.9.6--py310h275bdba_0"
 container_url: "https://biocontainers.pro/tools/flye"
 aliases:

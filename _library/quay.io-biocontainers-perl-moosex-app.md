@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-moosex-app"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
-updated_at: "2025-07-09 03:51:25.339786"
+updated_at: "2025-07-10 03:52:10.430934"
 latest: "1.3701--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-app"
 
 versions:
  - "1.42--pl5321hdfd78af_0"
  - "1.3701--pl526_2"
+ - "1.43--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-moosex-app"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-app", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-app", "latest": {"1.3701--pl526_2": "sha256:3c4609ec6dbe72538b6a6f66efbc1f1631770f0b5a2142f9cce52d34fbe811d3"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b", "1.3701--pl526_2": "sha256:3c4609ec6dbe72538b6a6f66efbc1f1631770f0b5a2142f9cce52d34fbe811d3"}, "docker": "quay.io/biocontainers/perl-moosex-app"}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-app", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-app", "latest": {"1.3701--pl526_2": "sha256:3c4609ec6dbe72538b6a6f66efbc1f1631770f0b5a2142f9cce52d34fbe811d3"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b", "1.3701--pl526_2": "sha256:3c4609ec6dbe72538b6a6f66efbc1f1631770f0b5a2142f9cce52d34fbe811d3", "1.43--pl5321hdfd78af_0": "sha256:80762fef4eae7055622432f711164c153cc8fa0f48664dfd4b142ea25ef9f851"}, "docker": "quay.io/biocontainers/perl-moosex-app"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-app.

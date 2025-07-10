@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/m6anet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/m6anet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/m6anet/container.yaml"
-updated_at: "2025-07-09 04:12:32.756950"
+updated_at: "2025-07-10 04:13:53.169997"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/m6anet"
 aliases:

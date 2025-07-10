@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bandle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bandle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bandle/container.yaml"
-updated_at: "2025-07-09 03:34:59.521594"
+updated_at: "2025-07-10 03:35:11.820503"
 latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bandle"
 aliases:

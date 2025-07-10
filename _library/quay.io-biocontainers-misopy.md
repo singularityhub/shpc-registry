@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/misopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/misopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/misopy/container.yaml"
-updated_at: "2025-07-09 03:57:31.896987"
+updated_at: "2025-07-10 03:58:29.893813"
 latest: "0.5.4--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/misopy"
 aliases:

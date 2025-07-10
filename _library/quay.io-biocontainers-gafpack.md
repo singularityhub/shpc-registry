@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gafpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gafpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gafpack/container.yaml"
-updated_at: "2025-07-09 04:01:32.270940"
-latest: "0.1.2--h4349ce8_0"
+updated_at: "2025-07-10 04:02:35.201147"
+latest: "0.1.3--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/gafpack"
 aliases:
  - "gafpack"
 versions:
  - "0.1.0--h4349ce8_0"
  - "0.1.2--h4349ce8_0"
+ - "0.1.3--h4349ce8_0"
 description: "singularity registry hpc automated addition for gafpack"
-config: {"url": "https://biocontainers.pro/tools/gafpack", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gafpack", "latest": {"0.1.2--h4349ce8_0": "sha256:3abf427684adcc42ddeb9b86438819f1e6eec2371a5474da2c3e0ecaebd16e73"}, "tags": {"0.1.0--h4349ce8_0": "sha256:df4babed8bc7dee369accc91560f8f8172cebbf65b233fecb0f3674f312e5529", "0.1.2--h4349ce8_0": "sha256:3abf427684adcc42ddeb9b86438819f1e6eec2371a5474da2c3e0ecaebd16e73"}, "docker": "quay.io/biocontainers/gafpack", "aliases": {"gafpack": "/usr/local/bin/gafpack"}}
+config: {"url": "https://biocontainers.pro/tools/gafpack", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gafpack", "latest": {"0.1.3--h4349ce8_0": "sha256:2fa9847fe2f441b2e87849af854d44bd9c8af884a134250a98a7dfb5b0aedf70"}, "tags": {"0.1.0--h4349ce8_0": "sha256:df4babed8bc7dee369accc91560f8f8172cebbf65b233fecb0f3674f312e5529", "0.1.2--h4349ce8_0": "sha256:3abf427684adcc42ddeb9b86438819f1e6eec2371a5474da2c3e0ecaebd16e73", "0.1.3--h4349ce8_0": "sha256:2fa9847fe2f441b2e87849af854d44bd9c8af884a134250a98a7dfb5b0aedf70"}, "docker": "quay.io/biocontainers/gafpack", "aliases": {"gafpack": "/usr/local/bin/gafpack"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gafpack.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gafpack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gafpack:0.1.2--h4349ce8_0
+$ shpc install quay.io/biocontainers/gafpack:0.1.3--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gafpack/0.1.2--h4349ce8_0
-$ module help quay.io/biocontainers/gafpack/0.1.2--h4349ce8_0
+$ module load quay.io/biocontainers/gafpack/0.1.3--h4349ce8_0
+$ module help quay.io/biocontainers/gafpack/0.1.3--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
