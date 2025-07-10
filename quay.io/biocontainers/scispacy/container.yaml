@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/scispacy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scispacy
+latest:
+  0.5.5--pyhdfd78af_0: 
+    sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4
+tags:
+  0.5.5--pyhdfd78af_0: 
+    sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4
+docker: quay.io/biocontainers/scispacy
+aliases:
+  spacy: /usr/local/bin/spacy
+  weasel: /usr/local/bin/weasel
+  typer: /usr/local/bin/typer
+  pybind11-config: /usr/local/bin/pybind11-config
+  markdown-it: /usr/local/bin/markdown-it
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  pygmentize: /usr/local/bin/pygmentize
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/newmap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for newmap
+latest:
+  0.2--py310h8ea774a_1: 
+    sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75
+tags:
+  0.2--py310h8ea774a_1: 
+    sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75
+docker: quay.io/biocontainers/newmap
+aliases:
+  newmap: /usr/local/bin/newmap
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
