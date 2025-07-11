@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gecco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gecco/container.yaml"
-updated_at: "2025-07-11 03:47:50.843568"
+updated_at: "2025-07-11 15:10:18.692112"
 latest: "0.9.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gecco"
 aliases:

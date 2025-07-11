@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mason"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mason/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mason/container.yaml"
-updated_at: "2025-07-11 03:44:47.062402"
+updated_at: "2025-07-11 15:07:28.472649"
 latest: "2.0.9--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/mason"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plannotate/container.yaml"
-updated_at: "2025-07-11 04:21:57.577511"
+updated_at: "2025-07-11 15:41:58.217399"
 latest: "1.2.3--pypyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plannotate"
 aliases:

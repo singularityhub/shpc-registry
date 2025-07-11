@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gsubfn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsubfn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsubfn/container.yaml"
-updated_at: "2025-07-11 03:57:53.575639"
+updated_at: "2025-07-11 15:19:41.375650"
 latest: "0.6_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gsubfn"
 aliases:
