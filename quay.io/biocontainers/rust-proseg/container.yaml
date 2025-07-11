@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/rust-proseg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rust-proseg
+latest:
+  2.0.5--h4349ce8_0: 
+    sha256:41468b8a80a377ddf4ce2d0d48406ce881087651fbe10b7aed4d5f5dd399c085
+tags:
+  2.0.5--h4349ce8_0: 
+    sha256:41468b8a80a377ddf4ce2d0d48406ce881087651fbe10b7aed4d5f5dd399c085
+docker: quay.io/biocontainers/rust-proseg
+aliases:
+  proseg: /usr/local/bin/proseg
+  proseg-to-baysor: /usr/local/bin/proseg-to-baysor
