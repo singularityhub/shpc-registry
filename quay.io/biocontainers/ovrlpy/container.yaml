@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ovrlpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ovrlpy
 latest:
-  0.2.1--pyhdfd78af_0: 
-    sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6
+  1.0.1--pyhdfd78af_0: 
+    sha256:f34613381533f09eac9bc087a2992e057b4475a1ccee2f10278bf3792df209ea
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6
+  1.0.1--pyhdfd78af_0: 
+    sha256:f34613381533f09eac9bc087a2992e057b4475a1ccee2f10278bf3792df209ea
 docker: quay.io/biocontainers/ovrlpy
 aliases:
   rav1e: /usr/local/bin/rav1e
