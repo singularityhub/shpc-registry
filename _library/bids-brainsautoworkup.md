@@ -4,7 +4,7 @@ name:  "bids/brainsautoworkup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/brainsautoworkup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/brainsautoworkup/container.yaml"
-updated_at: "2025-07-10 04:16:38.336207"
+updated_at: "2025-07-11 04:33:25.845979"
 latest: "latest"
 container_url: "https://hub.docker.com/r/bids/brainsautoworkup"
 

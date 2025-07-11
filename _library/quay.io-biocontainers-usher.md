@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/usher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usher/container.yaml"
-updated_at: "2025-07-10 03:56:49.288905"
+updated_at: "2025-07-11 04:12:40.465608"
 latest: "0.6.4--h719ac0c_0"
 container_url: "https://biocontainers.pro/tools/usher"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fobitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fobitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fobitools/container.yaml"
-updated_at: "2025-07-10 03:26:43.887154"
+updated_at: "2025-07-11 03:41:25.750571"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fobitools"
 

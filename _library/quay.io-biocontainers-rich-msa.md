@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rich-msa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rich-msa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rich-msa/container.yaml"
-updated_at: "2025-07-10 04:03:31.046626"
+updated_at: "2025-07-11 04:19:48.382721"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rich-msa"
 aliases:

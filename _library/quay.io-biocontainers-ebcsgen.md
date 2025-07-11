@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebcsgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebcsgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebcsgen/container.yaml"
-updated_at: "2025-07-10 03:36:43.089748"
+updated_at: "2025-07-11 03:51:51.843673"
 latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ebcsgen"
 aliases:

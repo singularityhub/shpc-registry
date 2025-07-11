@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutamr/container.yaml"
-updated_at: "2025-07-10 03:43:59.175495"
+updated_at: "2025-07-11 03:59:24.867707"
 latest: "0.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mutamr"
 aliases:

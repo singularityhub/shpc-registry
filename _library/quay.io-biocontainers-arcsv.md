@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arcsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcsv/container.yaml"
-updated_at: "2025-07-10 03:45:50.162252"
+updated_at: "2025-07-11 04:01:20.090617"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arcsv"
 aliases:

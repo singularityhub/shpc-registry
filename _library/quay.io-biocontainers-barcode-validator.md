@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/barcode-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcode-validator/container.yaml"
-updated_at: "2025-07-10 03:37:58.938243"
-latest: "2.0.3--pyhdfd78af_0"
+updated_at: "2025-07-11 03:53:12.206260"
+latest: "2.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barcode-validator"
 aliases:
  - "pax11publish"
@@ -38,8 +38,9 @@ versions:
  - "2.0.1--pyhdfd78af_0"
  - "2.0.1--pyhdfd78af_1"
  - "2.0.3--pyhdfd78af_0"
+ - "2.0.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for barcode-validator"
-config: {"url": "https://biocontainers.pro/tools/barcode-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barcode-validator", "latest": {"2.0.3--pyhdfd78af_0": "sha256:0c1573a63729861852873a8b321ad7cced41b4733948a138fc4047afcab68b84"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929", "2.0.1--pyhdfd78af_1": "sha256:e5d3a41bb9126ac13da7dcbc0c2824790c096dc6388afe9af63dbbe1e4bb4ff5", "2.0.3--pyhdfd78af_0": "sha256:0c1573a63729861852873a8b321ad7cced41b4733948a138fc4047afcab68b84"}, "docker": "quay.io/biocontainers/barcode-validator", "aliases": {"pax11publish": "/usr/local/bin/pax11publish", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel"}}
+config: {"url": "https://biocontainers.pro/tools/barcode-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barcode-validator", "latest": {"2.0.8--pyhdfd78af_0": "sha256:4605fb02599e6dfcdad4cb54d84b2ad1a2dd758e7931878c8594d42841aacc76"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fddf506d39853f9e514f2423aabb37899cb946975515d51faf9281249f113929", "2.0.1--pyhdfd78af_1": "sha256:e5d3a41bb9126ac13da7dcbc0c2824790c096dc6388afe9af63dbbe1e4bb4ff5", "2.0.3--pyhdfd78af_0": "sha256:0c1573a63729861852873a8b321ad7cced41b4733948a138fc4047afcab68b84", "2.0.8--pyhdfd78af_0": "sha256:4605fb02599e6dfcdad4cb54d84b2ad1a2dd758e7931878c8594d42841aacc76"}, "docker": "quay.io/biocontainers/barcode-validator", "aliases": {"pax11publish": "/usr/local/bin/pax11publish", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barcode-validator.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/barcode-validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/barcode-validator:2.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/barcode-validator:2.0.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/barcode-validator/2.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/barcode-validator/2.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/barcode-validator/2.0.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/barcode-validator/2.0.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

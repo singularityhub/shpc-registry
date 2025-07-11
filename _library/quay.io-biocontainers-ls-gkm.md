@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ls-gkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ls-gkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ls-gkm/container.yaml"
-updated_at: "2025-07-10 03:56:17.997589"
-latest: "0.0.1--h2d50403_1"
+updated_at: "2025-07-11 04:12:06.559421"
+latest: "0.1.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/ls-gkm"
 aliases:
  - "gkmpredict"
  - "gkmtrain"
 versions:
  - "0.0.1--h2d50403_1"
+ - "0.1.1--h9948957_0"
 description: "shpc-registry automated BioContainers addition for ls-gkm"
-config: {"url": "https://biocontainers.pro/tools/ls-gkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ls-gkm", "latest": {"0.0.1--h2d50403_1": "sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90"}, "tags": {"0.0.1--h2d50403_1": "sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90"}, "docker": "quay.io/biocontainers/ls-gkm", "aliases": {"gkmpredict": "/usr/local/bin/gkmpredict", "gkmtrain": "/usr/local/bin/gkmtrain"}}
+config: {"url": "https://biocontainers.pro/tools/ls-gkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ls-gkm", "latest": {"0.1.1--h9948957_0": "sha256:b87d49749eed12f2c203c9f55214f48447f8c53b4b2b65d0caa858de86f2a6d7"}, "tags": {"0.0.1--h2d50403_1": "sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90", "0.1.1--h9948957_0": "sha256:b87d49749eed12f2c203c9f55214f48447f8c53b4b2b65d0caa858de86f2a6d7"}, "docker": "quay.io/biocontainers/ls-gkm", "aliases": {"gkmpredict": "/usr/local/bin/gkmpredict", "gkmtrain": "/usr/local/bin/gkmtrain"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ls-gkm.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ls-gkm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ls-gkm:0.0.1--h2d50403_1
+$ shpc install quay.io/biocontainers/ls-gkm:0.1.1--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ls-gkm/0.0.1--h2d50403_1
-$ module help quay.io/biocontainers/ls-gkm/0.0.1--h2d50403_1
+$ module load quay.io/biocontainers/ls-gkm/0.1.1--h9948957_0
+$ module help quay.io/biocontainers/ls-gkm/0.1.1--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
