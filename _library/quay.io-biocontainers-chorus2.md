@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chorus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chorus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chorus2/container.yaml"
-updated_at: "2025-07-11 15:21:59.654728"
+updated_at: "2025-07-12 03:56:33.568639"
 latest: "2.01--py39ha5a061d_2"
 container_url: "https://biocontainers.pro/tools/chorus2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavis/container.yaml"
-updated_at: "2025-07-11 15:21:00.933398"
+updated_at: "2025-07-12 03:54:34.869294"
 latest: "2.2.6--py_0"
 container_url: "https://biocontainers.pro/tools/mavis"
 aliases:

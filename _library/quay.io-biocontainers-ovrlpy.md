@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ovrlpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ovrlpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ovrlpy/container.yaml"
-updated_at: "2025-07-11 15:06:39.250897"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2025-07-12 04:10:18.042436"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ovrlpy"
 aliases:
  - "rav1e"
@@ -35,8 +35,9 @@ aliases:
  - "qvoronoi"
 versions:
  - "0.2.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ovrlpy"
-config: {"url": "https://biocontainers.pro/tools/ovrlpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ovrlpy", "latest": {"0.2.1--pyhdfd78af_0": "sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6"}, "docker": "quay.io/biocontainers/ovrlpy", "aliases": {"rav1e": "/usr/local/bin/rav1e", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/ovrlpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ovrlpy", "latest": {"1.0.1--pyhdfd78af_0": "sha256:f34613381533f09eac9bc087a2992e057b4475a1ccee2f10278bf3792df209ea"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:a8bda007636c0ce8cbca929bb324b5872acb470679298e128d0ea258d28a0dc6", "1.0.1--pyhdfd78af_0": "sha256:f34613381533f09eac9bc087a2992e057b4475a1ccee2f10278bf3792df209ea"}, "docker": "quay.io/biocontainers/ovrlpy", "aliases": {"rav1e": "/usr/local/bin/rav1e", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ovrlpy.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/ovrlpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ovrlpy:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ovrlpy:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ovrlpy/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ovrlpy/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ovrlpy/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ovrlpy/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

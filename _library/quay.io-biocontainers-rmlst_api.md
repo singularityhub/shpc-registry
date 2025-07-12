@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rmlst_api"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmlst_api/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmlst_api/container.yaml"
-updated_at: "2025-07-11 15:31:24.821525"
-latest: "0.1.6--pyh7e72e81_0"
+updated_at: "2025-07-12 04:09:05.635685"
+latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rmlst_api"
 aliases:
  - "rmlst-api"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.1.5--pyh7cba7a3_0"
  - "0.1.6--pyh7e72e81_0"
+ - "0.1.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for rmlst_api"
-config: {"url": "https://biocontainers.pro/tools/rmlst_api", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rmlst_api", "latest": {"0.1.6--pyh7e72e81_0": "sha256:9210de8f9c536c74e4b2533372fbe151ee5896134d5848e893100e0c6159021f"}, "tags": {"0.1.5--pyh7cba7a3_0": "sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073", "0.1.6--pyh7e72e81_0": "sha256:9210de8f9c536c74e4b2533372fbe151ee5896134d5848e893100e0c6159021f"}, "docker": "quay.io/biocontainers/rmlst_api", "aliases": {"rmlst-api": "/usr/local/bin/rmlst-api", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/rmlst_api", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rmlst_api", "latest": {"0.1.8--pyhdfd78af_0": "sha256:852c809fa59e3a0c94e4091491d5ced299b8c34837e0a70618f269aa6a86a75b"}, "tags": {"0.1.5--pyh7cba7a3_0": "sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073", "0.1.6--pyh7e72e81_0": "sha256:9210de8f9c536c74e4b2533372fbe151ee5896134d5848e893100e0c6159021f", "0.1.8--pyhdfd78af_0": "sha256:852c809fa59e3a0c94e4091491d5ced299b8c34837e0a70618f269aa6a86a75b"}, "docker": "quay.io/biocontainers/rmlst_api", "aliases": {"rmlst-api": "/usr/local/bin/rmlst-api", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmlst_api.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/rmlst_api
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rmlst_api:0.1.6--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/rmlst_api:0.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rmlst_api/0.1.6--pyh7e72e81_0
-$ module help quay.io/biocontainers/rmlst_api/0.1.6--pyh7e72e81_0
+$ module load quay.io/biocontainers/rmlst_api/0.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/rmlst_api/0.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

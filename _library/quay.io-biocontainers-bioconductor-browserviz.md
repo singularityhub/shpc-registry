@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-browserviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-browserviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-browserviz/container.yaml"
-updated_at: "2025-07-11 15:17:08.315842"
+updated_at: "2025-07-12 04:14:55.869588"
 latest: "2.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-browserviz"
 aliases:
