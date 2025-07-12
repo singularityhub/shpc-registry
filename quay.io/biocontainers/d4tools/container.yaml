@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/d4tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for d4tools
 latest:
-  0.3.11--h3ab6199_2: 
-    sha256:1d67bd02b3c8df64473065a26789ba88f223b2140bcc0db1025fd97dfbabced2
+  0.3.11--ha986137_3: 
+    sha256:ec82fec4e1b68eb80ea25c0c8b278e377c31122824a0ade191445cc2a408e139
 tags:
   0.3.8--h87f3376_0: 
     sha256:cee34924572fe75db1e653d33953b6824701544478f2a38d40abe2cc59132916
@@ -17,6 +17,8 @@ tags:
     sha256:2f5baeb28d6ea84216bd0f68e5691c822862750dedd8f634efab1b8a243d64a8
   0.3.11--h3ab6199_2: 
     sha256:1d67bd02b3c8df64473065a26789ba88f223b2140bcc0db1025fd97dfbabced2
+  0.3.11--ha986137_3: 
+    sha256:ec82fec4e1b68eb80ea25c0c8b278e377c31122824a0ade191445cc2a408e139
 docker: quay.io/biocontainers/d4tools
 aliases:
   d4tools: /usr/local/bin/d4tools
