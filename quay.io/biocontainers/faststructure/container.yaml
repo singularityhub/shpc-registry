@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/faststructure
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for faststructure
 latest:
-  1.0--py27h6b1b274_5: 
-    sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda
+  1.0--py311h1f01909_6: 
+    sha256:b974245471cdcec5a787dd834fc3e57f40a0b90f9251b672b3278246afd62a83
 tags:
   1.0--py27h6b1b274_5: 
     sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda
+  1.0--py311h1f01909_6: 
+    sha256:b974245471cdcec5a787dd834fc3e57f40a0b90f9251b672b3278246afd62a83
 docker: quay.io/biocontainers/faststructure
 aliases:
   chooseK.py: /usr/local/bin/chooseK.py
