@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pchicdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pchicdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pchicdata/container.yaml"
-updated_at: "2025-07-12 03:53:47.421916"
+updated_at: "2025-07-13 04:09:01.882680"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pchicdata"
 aliases:

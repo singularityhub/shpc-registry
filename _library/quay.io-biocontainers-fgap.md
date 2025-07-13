@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgap/container.yaml"
-updated_at: "2025-07-12 04:15:17.373648"
-latest: "1.8.1--0"
+updated_at: "2025-07-13 04:30:33.213766"
+latest: "1.8.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/fgap"
 aliases:
  - "FGAP"
@@ -31,8 +31,9 @@ aliases:
  - "sndfile-metadata-set"
 versions:
  - "1.8.1--0"
+ - "1.8.1--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for fgap"
-config: {"url": "https://biocontainers.pro/tools/fgap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgap", "latest": {"1.8.1--0": "sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d"}, "tags": {"1.8.1--0": "sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d"}, "docker": "quay.io/biocontainers/fgap", "aliases": {"FGAP": "/usr/local/bin/FGAP", "fgap.m": "/usr/local/bin/fgap.m", "mkoctfile": "/usr/local/bin/mkoctfile", "mkoctfile-4.2.1": "/usr/local/bin/mkoctfile-4.2.1", "octave": "/usr/local/bin/octave", "octave-4.2.1": "/usr/local/bin/octave-4.2.1", "octave-cli": "/usr/local/bin/octave-cli", "octave-cli-4.2.1": "/usr/local/bin/octave-cli-4.2.1", "octave-config": "/usr/local/bin/octave-config", "octave-config-4.2.1": "/usr/local/bin/octave-config-4.2.1", "sndfile-regtest": "/usr/local/bin/sndfile-regtest", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
+config: {"url": "https://biocontainers.pro/tools/fgap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgap", "latest": {"1.8.1--hdfd78af_2": "sha256:2a02a52f1a1d43034a75daca4024ca307c0c9109f47238f8b25b21b7785825f3"}, "tags": {"1.8.1--0": "sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d", "1.8.1--hdfd78af_2": "sha256:2a02a52f1a1d43034a75daca4024ca307c0c9109f47238f8b25b21b7785825f3"}, "docker": "quay.io/biocontainers/fgap", "aliases": {"FGAP": "/usr/local/bin/FGAP", "fgap.m": "/usr/local/bin/fgap.m", "mkoctfile": "/usr/local/bin/mkoctfile", "mkoctfile-4.2.1": "/usr/local/bin/mkoctfile-4.2.1", "octave": "/usr/local/bin/octave", "octave-4.2.1": "/usr/local/bin/octave-4.2.1", "octave-cli": "/usr/local/bin/octave-cli", "octave-cli-4.2.1": "/usr/local/bin/octave-cli-4.2.1", "octave-config": "/usr/local/bin/octave-config", "octave-config-4.2.1": "/usr/local/bin/octave-config-4.2.1", "sndfile-regtest": "/usr/local/bin/sndfile-regtest", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgap.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/fgap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgap:1.8.1--0
+$ shpc install quay.io/biocontainers/fgap:1.8.1--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgap/1.8.1--0
-$ module help quay.io/biocontainers/fgap/1.8.1--0
+$ module load quay.io/biocontainers/fgap/1.8.1--hdfd78af_2
+$ module help quay.io/biocontainers/fgap/1.8.1--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

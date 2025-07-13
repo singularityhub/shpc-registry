@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphviz/container.yaml"
-updated_at: "2025-07-12 04:01:03.786337"
-latest: "2.24--pl5321h4b32bfc_1"
+updated_at: "2025-07-13 04:16:19.356373"
+latest: "2.26--pl5321h46c88eb_0"
 container_url: "https://biocontainers.pro/tools/perl-graphviz"
 aliases:
  - "xpath"
@@ -20,8 +20,10 @@ aliases:
  - "delaunay"
 versions:
  - "2.24--pl5321h4b32bfc_1"
+ - "2.26--pl5321h46c88eb_0"
+ - "2.25--pl5321h46c88eb_0"
 description: "shpc-registry automated BioContainers addition for perl-graphviz"
-config: {"url": "https://biocontainers.pro/tools/perl-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphviz", "latest": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "tags": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "docker": "quay.io/biocontainers/perl-graphviz", "aliases": {"xpath": "/usr/local/bin/xpath", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay"}}
+config: {"url": "https://biocontainers.pro/tools/perl-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphviz", "latest": {"2.26--pl5321h46c88eb_0": "sha256:f9383b1ff4569c3084a9105459faf17cdb7c14d3678e1dfcc30e2e0805dfe22d"}, "tags": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe", "2.26--pl5321h46c88eb_0": "sha256:f9383b1ff4569c3084a9105459faf17cdb7c14d3678e1dfcc30e2e0805dfe22d", "2.25--pl5321h46c88eb_0": "sha256:c6d0123941dae64641809dec5efec5bf0b1f59095a7d43feeec3e6d3b9705a04"}, "docker": "quay.io/biocontainers/perl-graphviz", "aliases": {"xpath": "/usr/local/bin/xpath", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-graphviz.
@@ -36,7 +38,7 @@ $ shpc install quay.io/biocontainers/perl-graphviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-graphviz:2.24--pl5321h4b32bfc_1
+$ shpc install quay.io/biocontainers/perl-graphviz:2.26--pl5321h46c88eb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-graphviz/2.24--pl5321h4b32bfc_1
-$ module help quay.io/biocontainers/perl-graphviz/2.24--pl5321h4b32bfc_1
+$ module load quay.io/biocontainers/perl-graphviz/2.26--pl5321h46c88eb_0
+$ module help quay.io/biocontainers/perl-graphviz/2.26--pl5321h46c88eb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

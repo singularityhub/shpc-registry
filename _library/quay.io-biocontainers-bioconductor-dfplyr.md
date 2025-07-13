@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dfplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dfplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dfplyr/container.yaml"
-updated_at: "2025-07-12 03:29:30.250627"
+updated_at: "2025-07-13 03:44:29.968785"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dfplyr"
 aliases:

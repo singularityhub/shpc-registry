@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iontreedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iontreedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iontreedata/container.yaml"
-updated_at: "2025-07-12 04:13:48.777785"
+updated_at: "2025-07-13 04:29:04.718809"
 latest: "1.18.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iontreedata"
 aliases:

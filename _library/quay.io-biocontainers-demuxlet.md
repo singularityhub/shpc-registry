@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/demuxlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demuxlet/container.yaml"
-updated_at: "2025-07-12 03:32:49.776252"
-latest: "1.0--hd7c9bc9_6"
+updated_at: "2025-07-13 03:47:53.386805"
+latest: "1.0--h5ca1c30_7"
 container_url: "https://biocontainers.pro/tools/demuxlet"
 aliases:
  - "demuxlet"
@@ -23,8 +23,9 @@ versions:
  - "1.0--h35e0156_4"
  - "1.0--hfd13048_5"
  - "1.0--hd7c9bc9_6"
+ - "1.0--h5ca1c30_7"
 description: "shpc-registry automated BioContainers addition for demuxlet"
-config: {"url": "https://biocontainers.pro/tools/demuxlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxlet", "latest": {"1.0--hd7c9bc9_6": "sha256:53cc05ac26cb8becdd7c7a074cbf3925c9636578cef6251bcb210478bced7efb"}, "tags": {"1.0--h35e0156_4": "sha256:3fdeed309bd076f7fe864ff1760d4d90f5e641c540eb71788af6f78285ae3fbc", "1.0--hfd13048_5": "sha256:878c008b1f512148d1499e3b79d4336f011d704613b21f9a5d00777cf147d5ac", "1.0--hd7c9bc9_6": "sha256:53cc05ac26cb8becdd7c7a074cbf3925c9636578cef6251bcb210478bced7efb"}, "docker": "quay.io/biocontainers/demuxlet", "aliases": {"demuxlet": "/usr/local/bin/demuxlet", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
+config: {"url": "https://biocontainers.pro/tools/demuxlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxlet", "latest": {"1.0--h5ca1c30_7": "sha256:8c863d787a217cf90d9dc0a755cedbe88b7e75b82ce04c9b00dda8bd70917ca1"}, "tags": {"1.0--h35e0156_4": "sha256:3fdeed309bd076f7fe864ff1760d4d90f5e641c540eb71788af6f78285ae3fbc", "1.0--hfd13048_5": "sha256:878c008b1f512148d1499e3b79d4336f011d704613b21f9a5d00777cf147d5ac", "1.0--hd7c9bc9_6": "sha256:53cc05ac26cb8becdd7c7a074cbf3925c9636578cef6251bcb210478bced7efb", "1.0--h5ca1c30_7": "sha256:8c863d787a217cf90d9dc0a755cedbe88b7e75b82ce04c9b00dda8bd70917ca1"}, "docker": "quay.io/biocontainers/demuxlet", "aliases": {"demuxlet": "/usr/local/bin/demuxlet", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demuxlet.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/demuxlet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/demuxlet:1.0--hd7c9bc9_6
+$ shpc install quay.io/biocontainers/demuxlet:1.0--h5ca1c30_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/demuxlet/1.0--hd7c9bc9_6
-$ module help quay.io/biocontainers/demuxlet/1.0--hd7c9bc9_6
+$ module load quay.io/biocontainers/demuxlet/1.0--h5ca1c30_7
+$ module help quay.io/biocontainers/demuxlet/1.0--h5ca1c30_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
