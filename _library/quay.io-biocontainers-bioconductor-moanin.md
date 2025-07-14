@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moanin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
-updated_at: "2025-07-13 04:27:57.332116"
+updated_at: "2025-07-14 04:28:34.974984"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moanin"
 

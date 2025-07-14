@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reactome-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reactome-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reactome-cli/container.yaml"
-updated_at: "2025-07-13 04:33:14.719087"
-latest: "0.0.0--hdfd78af_0"
+updated_at: "2025-07-14 04:33:50.290816"
+latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reactome-cli"
 aliases:
  - "reactome"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "0.0.0--hdfd78af_0"
+ - "1.0.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for reactome-cli"
-config: {"url": "https://biocontainers.pro/tools/reactome-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reactome-cli", "latest": {"0.0.0--hdfd78af_0": "sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f"}, "tags": {"0.0.0--hdfd78af_0": "sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f"}, "docker": "quay.io/biocontainers/reactome-cli", "aliases": {"reactome": "/usr/local/bin/reactome", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/reactome-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reactome-cli", "latest": {"1.0.0--hdfd78af_0": "sha256:8c7efc9a8aee2b078723f0c975a0bfff71d037bc1f5d26d50249caf3cb9c50e0"}, "tags": {"0.0.0--hdfd78af_0": "sha256:3c2b716f0071ce5a5e4b37394b1f8789ca79e929f8f59be784ed2aa13d327d9f", "1.0.0--hdfd78af_0": "sha256:8c7efc9a8aee2b078723f0c975a0bfff71d037bc1f5d26d50249caf3cb9c50e0"}, "docker": "quay.io/biocontainers/reactome-cli", "aliases": {"reactome": "/usr/local/bin/reactome", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reactome-cli.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/reactome-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reactome-cli:0.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/reactome-cli:1.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reactome-cli/0.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/reactome-cli/0.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/reactome-cli/1.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/reactome-cli/1.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

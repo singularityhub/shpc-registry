@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/faststructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/faststructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/faststructure/container.yaml"
-updated_at: "2025-07-13 03:54:20.908422"
-latest: "1.0--py27h6b1b274_5"
+updated_at: "2025-07-14 03:55:16.698923"
+latest: "1.0--py311h1f01909_6"
 container_url: "https://biocontainers.pro/tools/faststructure"
 aliases:
  - "chooseK.py"
@@ -23,8 +23,9 @@ aliases:
  - "repc"
 versions:
  - "1.0--py27h6b1b274_5"
+ - "1.0--py311h1f01909_6"
 description: "shpc-registry automated BioContainers addition for faststructure"
-config: {"url": "https://biocontainers.pro/tools/faststructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for faststructure", "latest": {"1.0--py27h6b1b274_5": "sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda"}, "tags": {"1.0--py27h6b1b274_5": "sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda"}, "docker": "quay.io/biocontainers/faststructure", "aliases": {"chooseK.py": "/usr/local/bin/chooseK.py", "distruct.py": "/usr/local/bin/distruct.py", "structure.py": "/usr/local/bin/structure.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
+config: {"url": "https://biocontainers.pro/tools/faststructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for faststructure", "latest": {"1.0--py311h1f01909_6": "sha256:b974245471cdcec5a787dd834fc3e57f40a0b90f9251b672b3278246afd62a83"}, "tags": {"1.0--py27h6b1b274_5": "sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda", "1.0--py311h1f01909_6": "sha256:b974245471cdcec5a787dd834fc3e57f40a0b90f9251b672b3278246afd62a83"}, "docker": "quay.io/biocontainers/faststructure", "aliases": {"chooseK.py": "/usr/local/bin/chooseK.py", "distruct.py": "/usr/local/bin/distruct.py", "structure.py": "/usr/local/bin/structure.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/faststructure.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/faststructure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/faststructure:1.0--py27h6b1b274_5
+$ shpc install quay.io/biocontainers/faststructure:1.0--py311h1f01909_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/faststructure/1.0--py27h6b1b274_5
-$ module help quay.io/biocontainers/faststructure/1.0--py27h6b1b274_5
+$ module load quay.io/biocontainers/faststructure/1.0--py311h1f01909_6
+$ module help quay.io/biocontainers/faststructure/1.0--py311h1f01909_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

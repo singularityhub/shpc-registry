@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scran/container.yaml"
-updated_at: "2025-07-13 04:32:37.056767"
+updated_at: "2025-07-14 04:33:12.961292"
 latest: "1.34.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-scran"
 aliases:

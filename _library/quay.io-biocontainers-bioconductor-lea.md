@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lea/container.yaml"
-updated_at: "2025-07-13 04:25:54.283159"
+updated_at: "2025-07-14 04:26:33.260120"
 latest: "3.18.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lea"
 
