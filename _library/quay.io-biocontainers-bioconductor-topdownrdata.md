@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-topdownrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topdownrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topdownrdata/container.yaml"
-updated_at: "2025-07-14 03:56:52.623768"
+updated_at: "2025-07-14 04:24:02.968595"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topdownrdata"
 aliases:
