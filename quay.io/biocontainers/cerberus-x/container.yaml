@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/cerberus-x
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cerberus-x
+latest:
+  1.5.0--pyhdfd78af_0: 
+    sha256:372cc2ed74a8ba3281b6e886d1a639ba5436177301fdab80d71abe26bc4b5133
+tags:
+  1.5.0--pyhdfd78af_0: 
+    sha256:372cc2ed74a8ba3281b6e886d1a639ba5436177301fdab80d71abe26bc4b5133
+docker: quay.io/biocontainers/cerberus-x
+aliases:
+  cerberus.py: /usr/local/bin/cerberus.py
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  flash2: /usr/local/bin/flash2
+  hydra-status.py: /usr/local/bin/hydra-status.py
+  pathview-cerberus.R: /usr/local/bin/pathview-cerberus.R
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  archspec: /usr/local/bin/archspec
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  pyrodigal: /usr/local/bin/pyrodigal
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
