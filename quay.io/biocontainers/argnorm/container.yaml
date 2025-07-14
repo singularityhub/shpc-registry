@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/argnorm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for argnorm
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:ae3d123d0d5d1b8ce728c40e661286f2fc4cd5fe9b56af69f1da3c23e64ba556
+  1.1.0--pyhdfd78af_0: 
+    sha256:d05c922a9f62533638765434bca87f34c61fb2d697eb4f47ed77b5719c5e79af
 tags:
   0.2.0--pyh7cba7a3_0: 
     sha256:f23591e91a6394225c6e8f3527bc2d5dde35a88b6eb4d65b3f06d6b60d149f4d
@@ -23,6 +23,8 @@ tags:
     sha256:9da7af55ba1173745db82684c60459740920553fc0dd32be370be26bd721ea08
   1.0.0--pyhdfd78af_0: 
     sha256:ae3d123d0d5d1b8ce728c40e661286f2fc4cd5fe9b56af69f1da3c23e64ba556
+  1.1.0--pyhdfd78af_0: 
+    sha256:d05c922a9f62533638765434bca87f34c61fb2d697eb4f47ed77b5719c5e79af
 docker: quay.io/biocontainers/argnorm
 aliases:
   argnorm: /usr/local/bin/argnorm
