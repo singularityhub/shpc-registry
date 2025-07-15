@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   ncbi-datasets-pyclient
 latest:
-  18.3.1--pyh7e72e81_0: 
-    sha256:5f41dc8102378820f2adf25b3756d948b5ebbaaff01a7ba305ca816f4457d138
+  18.4.0--pyh7e72e81_0: 
+    sha256:a8a77dc44f3ce3e61243da24d6f603d405e5acf708580c259977add817093d3b
 tags:
   17.3.0--pyh7e72e81_0: 
     sha256:a36f3f33dbea1df476c494b242b99e1fe677134d31cb47a8c7e75c9ba89e0037
@@ -16,6 +16,8 @@ tags:
     sha256:5f41dc8102378820f2adf25b3756d948b5ebbaaff01a7ba305ca816f4457d138
   18.2.3--pyh7e72e81_0: 
     sha256:ed5cf42969b5f7d04fe54b478fa7fc29067ab79ef6eb037f5514f2db76047f11
+  18.4.0--pyh7e72e81_0: 
+    sha256:a8a77dc44f3ce3e61243da24d6f603d405e5acf708580c259977add817093d3b
 docker: quay.io/biocontainers/ncbi-datasets-pyclient
 aliases:
   idle3.13: /usr/local/bin/idle3.13
