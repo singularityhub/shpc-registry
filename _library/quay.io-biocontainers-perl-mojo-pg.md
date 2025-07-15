@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mojo-pg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mojo-pg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mojo-pg/container.yaml"
-updated_at: "2025-07-14 04:44:30.366524"
+updated_at: "2025-07-15 04:13:59.161427"
 latest: "4.27--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mojo-pg"
 aliases:

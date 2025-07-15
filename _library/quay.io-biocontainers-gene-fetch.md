@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gene-fetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gene-fetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gene-fetch/container.yaml"
-updated_at: "2025-07-14 04:57:56.311293"
-latest: "1.0.11--pyh7e72e81_0"
+updated_at: "2025-07-15 04:27:23.534508"
+latest: "1.0.13--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/gene-fetch"
 aliases:
  - "gene-fetch"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.11--pyh7e72e81_0"
+ - "1.0.13--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for gene-fetch"
-config: {"url": "https://biocontainers.pro/tools/gene-fetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gene-fetch", "latest": {"1.0.11--pyh7e72e81_0": "sha256:af4403a41ff513ce177292f0845abf0371948dec425bbdde42f12227cbb8dc84"}, "tags": {"1.0.11--pyh7e72e81_0": "sha256:af4403a41ff513ce177292f0845abf0371948dec425bbdde42f12227cbb8dc84"}, "docker": "quay.io/biocontainers/gene-fetch", "aliases": {"gene-fetch": "/usr/local/bin/gene-fetch", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/gene-fetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gene-fetch", "latest": {"1.0.13--pyh7e72e81_0": "sha256:68e954d1f463ca8f18b732beb11c911f980f6374add25b30013f64e3bf36c03f"}, "tags": {"1.0.11--pyh7e72e81_0": "sha256:af4403a41ff513ce177292f0845abf0371948dec425bbdde42f12227cbb8dc84", "1.0.13--pyh7e72e81_0": "sha256:68e954d1f463ca8f18b732beb11c911f980f6374add25b30013f64e3bf36c03f"}, "docker": "quay.io/biocontainers/gene-fetch", "aliases": {"gene-fetch": "/usr/local/bin/gene-fetch", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gene-fetch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/gene-fetch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gene-fetch:1.0.11--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/gene-fetch:1.0.13--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gene-fetch/1.0.11--pyh7e72e81_0
-$ module help quay.io/biocontainers/gene-fetch/1.0.11--pyh7e72e81_0
+$ module load quay.io/biocontainers/gene-fetch/1.0.13--pyh7e72e81_0
+$ module help quay.io/biocontainers/gene-fetch/1.0.13--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

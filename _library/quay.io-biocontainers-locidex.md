@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/locidex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locidex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locidex/container.yaml"
-updated_at: "2025-07-14 04:27:00.289163"
+updated_at: "2025-07-15 03:56:29.315851"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/locidex"
 aliases:

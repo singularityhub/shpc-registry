@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtb/container.yaml"
-updated_at: "2025-07-14 04:28:11.979291"
+updated_at: "2025-07-15 03:57:41.149142"
 latest: "6.6.1"
 container_url: "https://biocontainers.pro/tools/xtb"
 aliases:

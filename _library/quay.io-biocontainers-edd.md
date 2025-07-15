@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edd/container.yaml"
-updated_at: "2025-07-14 04:56:46.933046"
+updated_at: "2025-07-15 04:26:14.311329"
 latest: "1.1.19--py27h4329609_4"
 container_url: "https://biocontainers.pro/tools/edd"
 aliases:

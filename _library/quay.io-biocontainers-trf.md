@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/trf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trf/container.yaml"
-updated_at: "2025-07-14 04:38:50.117554"
-latest: "4.09--2"
+updated_at: "2025-07-15 04:08:18.773262"
+latest: "4.10.0rc2--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/trf"
 aliases:
  - "trf"
 versions:
  - "4.09--2"
+ - "4.10.0rc2--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for trf"
-config: {"url": "https://biocontainers.pro/tools/trf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trf", "latest": {"4.09--2": "sha256:4a0b67b77a23eb690a07c3db8eee233110adb9001b8072de8cc1e151fd3b6e16"}, "tags": {"4.09--2": "sha256:4a0b67b77a23eb690a07c3db8eee233110adb9001b8072de8cc1e151fd3b6e16"}, "docker": "quay.io/biocontainers/trf", "aliases": {"trf": "/usr/local/bin/trf"}}
+config: {"url": "https://biocontainers.pro/tools/trf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trf", "latest": {"4.10.0rc2--h7b50bb2_0": "sha256:cdc772abecc74098ba875b4af5bf6f23149a1b08655cf168c1e1830525c51ae8"}, "tags": {"4.09--2": "sha256:4a0b67b77a23eb690a07c3db8eee233110adb9001b8072de8cc1e151fd3b6e16", "4.10.0rc2--h7b50bb2_0": "sha256:cdc772abecc74098ba875b4af5bf6f23149a1b08655cf168c1e1830525c51ae8"}, "docker": "quay.io/biocontainers/trf", "aliases": {"trf": "/usr/local/bin/trf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/trf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trf:4.09--2
+$ shpc install quay.io/biocontainers/trf:4.10.0rc2--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trf/4.09--2
-$ module help quay.io/biocontainers/trf/4.09--2
+$ module load quay.io/biocontainers/trf/4.10.0rc2--h7b50bb2_0
+$ module help quay.io/biocontainers/trf/4.10.0rc2--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cthreepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cthreepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cthreepo/container.yaml"
-updated_at: "2025-07-14 04:42:59.142900"
+updated_at: "2025-07-15 04:12:27.907722"
 latest: "0.1.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/cthreepo"
 aliases:

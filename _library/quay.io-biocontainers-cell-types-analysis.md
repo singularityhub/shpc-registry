@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cell-types-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cell-types-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cell-types-analysis/container.yaml"
-updated_at: "2025-07-14 04:21:07.748355"
+updated_at: "2025-07-15 03:50:36.429750"
 latest: "0.1.11--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cell-types-analysis"
 aliases:

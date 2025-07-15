@@ -4,7 +4,7 @@ name:  "bids/rshrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/rshrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/rshrf/container.yaml"
-updated_at: "2025-07-14 04:11:11.130111"
+updated_at: "2025-07-15 03:40:35.441046"
 latest: "1.5.8"
 container_url: "https://hub.docker.com/r/bids/rshrf"
 aliases:

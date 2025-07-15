@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcftoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcftoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcftoolbox/container.yaml"
-updated_at: "2025-07-14 04:55:21.890012"
+updated_at: "2025-07-15 04:24:49.610575"
 latest: "1.5.1--py_0"
 container_url: "https://biocontainers.pro/tools/vcftoolbox"
 aliases:

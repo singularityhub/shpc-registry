@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_remote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_remote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_remote/container.yaml"
-updated_at: "2025-07-14 04:18:38.620014"
+updated_at: "2025-07-15 03:48:06.378865"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_remote"
 aliases:

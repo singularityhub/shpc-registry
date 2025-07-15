@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapula"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapula/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapula/container.yaml"
-updated_at: "2025-07-14 04:53:29.409157"
+updated_at: "2025-07-15 04:22:57.323646"
 latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mapula"
 aliases:

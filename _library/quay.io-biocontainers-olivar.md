@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/olivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/olivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/olivar/container.yaml"
-updated_at: "2025-07-14 04:55:28.859007"
+updated_at: "2025-07-15 04:24:56.556582"
 latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/olivar"
 aliases:

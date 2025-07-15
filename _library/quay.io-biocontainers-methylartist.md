@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylartist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylartist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylartist/container.yaml"
-updated_at: "2025-07-14 04:55:14.378371"
+updated_at: "2025-07-15 04:24:42.127334"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methylartist"
 aliases:

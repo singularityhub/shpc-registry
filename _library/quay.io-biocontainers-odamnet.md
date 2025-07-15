@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/odamnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/odamnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/odamnet/container.yaml"
-updated_at: "2025-07-14 04:46:53.301332"
+updated_at: "2025-07-15 04:16:21.991594"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/odamnet"
 aliases:

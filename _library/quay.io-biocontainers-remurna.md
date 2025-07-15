@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/remurna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remurna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remurna/container.yaml"
-updated_at: "2025-07-14 05:01:33.813841"
-latest: "1.0--0"
+updated_at: "2025-07-15 04:31:00.523835"
+latest: "1.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/remurna"
 aliases:
  - "remuRNA"
 versions:
  - "1.0--0"
+ - "1.0--h503566f_1"
 description: "shpc-registry automated BioContainers addition for remurna"
-config: {"url": "https://biocontainers.pro/tools/remurna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for remurna", "latest": {"1.0--0": "sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c"}, "tags": {"1.0--0": "sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c"}, "docker": "quay.io/biocontainers/remurna", "aliases": {"remuRNA": "/usr/local/bin/remuRNA"}}
+config: {"url": "https://biocontainers.pro/tools/remurna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for remurna", "latest": {"1.0--h503566f_1": "sha256:30402c327f72930443fe3af2ff5bfa1eb8c970fde2b3fbc53445a00c2726d210"}, "tags": {"1.0--0": "sha256:a3b90926ce6014f4aa879fa264f2802498f2cf34fda8473bc706d58219d0888c", "1.0--h503566f_1": "sha256:30402c327f72930443fe3af2ff5bfa1eb8c970fde2b3fbc53445a00c2726d210"}, "docker": "quay.io/biocontainers/remurna", "aliases": {"remuRNA": "/usr/local/bin/remuRNA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/remurna.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/remurna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/remurna:1.0--0
+$ shpc install quay.io/biocontainers/remurna:1.0--h503566f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/remurna/1.0--0
-$ module help quay.io/biocontainers/remurna/1.0--0
+$ module load quay.io/biocontainers/remurna/1.0--h503566f_1
+$ module help quay.io/biocontainers/remurna/1.0--h503566f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

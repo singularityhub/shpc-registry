@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geometadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geometadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geometadb/container.yaml"
-updated_at: "2025-07-14 04:25:14.415304"
-latest: "1.64.0--r43hdfd78af_0"
+updated_at: "2025-07-15 03:54:43.302409"
+latest: "1.68.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geometadb"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.60.0--r42hdfd78af_0"
  - "1.62.0--r43hdfd78af_0"
  - "1.64.0--r43hdfd78af_0"
+ - "1.68.1--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geometadb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geometadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geometadb", "latest": {"1.64.0--r43hdfd78af_0": "sha256:e3845bd217a5e7658972bbaeac53ebb294ab91c17f153ff141a22736b3aa7769"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:bd0b8aad6570684116d2355d794e3396a46779638aa6351247ca4c4285fc56fd", "1.60.0--r42hdfd78af_0": "sha256:d06993b580587f7f03a0fc344c6db957cac91a069c65e7da49c5fc28a5e4bca0", "1.62.0--r43hdfd78af_0": "sha256:ea3051d161514c49ae196b44482850e74d53ef09c5c24ede888e82c075508ecb", "1.64.0--r43hdfd78af_0": "sha256:e3845bd217a5e7658972bbaeac53ebb294ab91c17f153ff141a22736b3aa7769"}, "docker": "quay.io/biocontainers/bioconductor-geometadb"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geometadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geometadb", "latest": {"1.68.1--r44hdfd78af_0": "sha256:9c6a3c7754aa29fab12627abff51bc1ff3c822cb158392f5574b7e3b5d238619"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:bd0b8aad6570684116d2355d794e3396a46779638aa6351247ca4c4285fc56fd", "1.60.0--r42hdfd78af_0": "sha256:d06993b580587f7f03a0fc344c6db957cac91a069c65e7da49c5fc28a5e4bca0", "1.62.0--r43hdfd78af_0": "sha256:ea3051d161514c49ae196b44482850e74d53ef09c5c24ede888e82c075508ecb", "1.64.0--r43hdfd78af_0": "sha256:e3845bd217a5e7658972bbaeac53ebb294ab91c17f153ff141a22736b3aa7769", "1.68.1--r44hdfd78af_0": "sha256:9c6a3c7754aa29fab12627abff51bc1ff3c822cb158392f5574b7e3b5d238619"}, "docker": "quay.io/biocontainers/bioconductor-geometadb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geometadb.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geometadb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geometadb:1.64.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geometadb:1.68.1--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geometadb/1.64.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geometadb/1.64.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geometadb/1.68.1--r44hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geometadb/1.68.1--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
