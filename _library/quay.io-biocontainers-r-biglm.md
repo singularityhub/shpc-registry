@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biglm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biglm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biglm/container.yaml"
-updated_at: "2025-07-15 04:14:21.928085"
+updated_at: "2025-07-16 04:13:47.693151"
 latest: "0.9_1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-biglm"
 aliases:

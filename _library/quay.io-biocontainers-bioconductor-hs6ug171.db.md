@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hs6ug171.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hs6ug171.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hs6ug171.db/container.yaml"
-updated_at: "2025-07-15 03:47:19.946008"
+updated_at: "2025-07-16 03:45:03.687207"
 latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-hs6ug171.db"
 
