@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gaas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gaas
 latest:
-  1.2.0--pl526r35_0: 
-    sha256:76fdeb9e6857d04df57be5746ea60bd8c0aaad7c675f956306b9b1e6fe494d26
+  1.2.0--pl5321r42hdfd78af_1: 
+    sha256:b6de2111e0076a2ddce42177d8bb061e56cebc77e18f7d76b0994792335451e3
 tags:
   1.2.0--pl526r35_0: 
     sha256:76fdeb9e6857d04df57be5746ea60bd8c0aaad7c675f956306b9b1e6fe494d26
+  1.2.0--pl5321r42hdfd78af_1: 
+    sha256:b6de2111e0076a2ddce42177d8bb061e56cebc77e18f7d76b0994792335451e3
 docker: quay.io/biocontainers/gaas
 aliases:
   bp_einfo: /usr/local/bin/bp_einfo

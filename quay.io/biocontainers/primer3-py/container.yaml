@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/primer3-py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for primer3-py
 latest:
-  2.0.3--py310h1fe012e_4: 
-    sha256:3bfa6a73d287f1db85379e9125a4d00c2a1bf6d61d000d830e4e64ab98f4d1bb
+  2.2.0--py39hbcbf7aa_1: 
+    sha256:a6a27a9090774dc486152b6f1daefc17619ef76f1c7f2e83cf54d32624eedd86
 tags:
   0.6.1--py27h9801fc8_1: 
     sha256:61a01cd51d6f5e74dff60f08b12aeefb44e74b51a26b2c7146d92fac7fa66593
@@ -33,6 +33,8 @@ tags:
     sha256:002b7de7942ba2facb418385561011665b6334304858cb93b3ed9c98e77ada29
   2.0.3--py310h1fe012e_4: 
     sha256:3bfa6a73d287f1db85379e9125a4d00c2a1bf6d61d000d830e4e64ab98f4d1bb
+  2.2.0--py39hbcbf7aa_1: 
+    sha256:a6a27a9090774dc486152b6f1daefc17619ef76f1c7f2e83cf54d32624eedd86
 docker: quay.io/biocontainers/primer3-py
 aliases:
   python2-config: /usr/local/bin/python2-config
