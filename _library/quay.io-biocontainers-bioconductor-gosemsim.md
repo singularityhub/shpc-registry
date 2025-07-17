@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gosemsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gosemsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gosemsim/container.yaml"
-updated_at: "2025-07-17 04:26:47.047993"
+updated_at: "2025-07-17 11:40:39.610496"
 latest: "2.32.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gosemsim"
 aliases:
