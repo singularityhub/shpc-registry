@@ -1,0 +1,75 @@
+url: https://biocontainers.pro/tools/addeam
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for addeam
+latest:
+  1.0.0--py313h1510ab2_0: 
+    sha256:60a3bc0518c5995d0e2b226afb4d714f05b4d9ef5545fdc7180cff678292c1e3
+tags:
+  1.0.0--py313h1510ab2_0: 
+    sha256:60a3bc0518c5995d0e2b226afb4d714f05b4d9ef5545fdc7180cff678292c1e3
+docker: quay.io/biocontainers/addeam
+aliases:
+  addeam-bam2prof.py: /usr/local/bin/addeam-bam2prof.py
+  addeam-cluster.py: /usr/local/bin/addeam-cluster.py
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  bam2prof: /usr/local/bin/bam2prof
+  designer6: /usr/local/bin/designer6
+  diffprof: /usr/local/bin/diffprof
+  exr2aces: /usr/local/bin/exr2aces
+  exrenvmap: /usr/local/bin/exrenvmap
+  exrheader: /usr/local/bin/exrheader
+  exrinfo: /usr/local/bin/exrinfo
+  exrmakepreview: /usr/local/bin/exrmakepreview
+  exrmaketiled: /usr/local/bin/exrmaketiled
+  exrmanifest: /usr/local/bin/exrmanifest
+  exrmetrics: /usr/local/bin/exrmetrics
+  exrmultipart: /usr/local/bin/exrmultipart
+  exrmultiview: /usr/local/bin/exrmultiview
+  exrstdattr: /usr/local/bin/exrstdattr
+  ffplay: /usr/local/bin/ffplay
+  jiv: /usr/local/bin/jiv
+  linguist6: /usr/local/bin/linguist6
+  opencv_model_diagnostics: /usr/local/bin/opencv_model_diagnostics
+  pixeltool6: /usr/local/bin/pixeltool6
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qdoc6: /usr/local/bin/qdoc6
+  qmake6: /usr/local/bin/qmake6
+  qml6: /usr/local/bin/qml6
+  qmleasing6: /usr/local/bin/qmleasing6
+  qmlls6: /usr/local/bin/qmlls6
+  qmlpreview6: /usr/local/bin/qmlpreview6
+  qmlscene6: /usr/local/bin/qmlscene6
+  qt6.conf: /usr/local/bin/qt6.conf
+  qtdiag6: /usr/local/bin/qtdiag6
+  qtplugininfo6: /usr/local/bin/qtplugininfo6
+  ref-cache: /usr/local/bin/ref-cache
+  sdl2-config: /usr/local/bin/sdl2-config
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  pax11publish: /usr/local/bin/pax11publish
+  protoc-29.3.0: /usr/local/bin/protoc-29.3.0
+  protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify

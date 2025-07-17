@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bio-unicorn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bio-unicorn
+latest:
+  1.0.0--h7b50bb2_0: 
+    sha256:d9df0b89889386745db760ea8b548b0ac3a95a61334ea12ac401d414169e1c61
+tags:
+  1.0.0--h7b50bb2_0: 
+    sha256:d9df0b89889386745db760ea8b548b0ac3a95a61334ea12ac401d414169e1c61
+docker: quay.io/biocontainers/bio-unicorn
+aliases:
+  ref-cache: /usr/local/bin/ref-cache
+  unicorn: /usr/local/bin/unicorn
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

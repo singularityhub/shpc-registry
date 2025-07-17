@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/showali
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for showali
+latest:
+  1.0.1--h7b50bb2_0: 
+    sha256:713e426e0c5429e5f8d353db7e6a099f6617c14ff39a1b9c5d440a3da3cc7d41
+tags:
+  1.0.1--h7b50bb2_0: 
+    sha256:713e426e0c5429e5f8d353db7e6a099f6617c14ff39a1b9c5d440a3da3cc7d41
+docker: quay.io/biocontainers/showali
+aliases:
+  showali: /usr/local/bin/showali
