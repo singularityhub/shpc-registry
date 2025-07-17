@@ -1,0 +1,90 @@
+url: https://biocontainers.pro/tools/vpt-cellpose2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vpt-cellpose2
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:7eb0ff612ff450194859ae029a00f7900c95007d9d70db3681eeeaef7fe97a2a
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:7eb0ff612ff450194859ae029a00f7900c95007d9d70db3681eeeaef7fe97a2a
+docker: quay.io/biocontainers/vpt-cellpose2
+aliases:
+  backend-test-tools: /usr/local/bin/backend-test-tools
+  benchmark_app: /usr/local/bin/benchmark_app
+  cellpose: /usr/local/bin/cellpose
+  check-model: /usr/local/bin/check-model
+  check-node: /usr/local/bin/check-node
+  cli_exit_tools: /usr/local/bin/cli_exit_tools
+  dcm-dump: /usr/local/bin/dcm-dump
+  dcm-getframe: /usr/local/bin/dcm-getframe
+  debugpy: /usr/local/bin/debugpy
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  dec265: /usr/local/bin/dec265
+  gdal2tiles.py: /usr/local/bin/gdal2tiles.py
+  gdal2xyz.py: /usr/local/bin/gdal2xyz.py
+  gdal_calc.py: /usr/local/bin/gdal_calc.py
+  gdal_edit.py: /usr/local/bin/gdal_edit.py
+  gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
+  gdal_merge.py: /usr/local/bin/gdal_merge.py
+  gdal_pansharpen.py: /usr/local/bin/gdal_pansharpen.py
+  gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
+  gdal_proximity.py: /usr/local/bin/gdal_proximity.py
+  gdal_retile.py: /usr/local/bin/gdal_retile.py
+  gdal_sieve.py: /usr/local/bin/gdal_sieve.py
+  gdalattachpct.py: /usr/local/bin/gdalattachpct.py
+  gdalcompare.py: /usr/local/bin/gdalcompare.py
+  gdalmove.py: /usr/local/bin/gdalmove.py
+  gsf: /usr/local/bin/gsf
+  gsf-office-thumbnailer: /usr/local/bin/gsf-office-thumbnailer
+  gsf-vba-dump: /usr/local/bin/gsf-vba-dump
+  hdrcopy: /usr/local/bin/hdrcopy
+  jiv: /usr/local/bin/jiv
+  matdump: /usr/local/bin/matdump
+  ogr_layer_algebra.py: /usr/local/bin/ogr_layer_algebra.py
+  ogrmerge.py: /usr/local/bin/ogrmerge.py
+  opencv_model_diagnostics: /usr/local/bin/opencv_model_diagnostics
+  openslide-quickhash1sum: /usr/local/bin/openslide-quickhash1sum
+  openslide-show-properties: /usr/local/bin/openslide-show-properties
+  openslide-write-png: /usr/local/bin/openslide-write-png
+  opt_in_out: /usr/local/bin/opt_in_out
+  ovc: /usr/local/bin/ovc
+  pct2rgb.py: /usr/local/bin/pct2rgb.py
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  pyproj: /usr/local/bin/pyproj
+  qtpy: /usr/local/bin/qtpy
+  rgb2pct.py: /usr/local/bin/rgb2pct.py
+  rio: /usr/local/bin/rio
+  roifile: /usr/local/bin/roifile
+  slidetool: /usr/local/bin/slidetool
+  vips: /usr/local/bin/vips
+  vipsedit: /usr/local/bin/vipsedit
+  vipsheader: /usr/local/bin/vipsheader
+  vipsprofile: /usr/local/bin/vipsprofile
+  vipsthumbnail: /usr/local/bin/vipsthumbnail
+  vpt: /usr/local/bin/vpt
+  wrapt_timeout_decorator: /usr/local/bin/wrapt_timeout_decorator
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  orc-bugreport: /usr/local/bin/orc-bugreport
+  orcc: /usr/local/bin/orcc
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc

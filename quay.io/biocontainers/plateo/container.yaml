@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/plateo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plateo
+latest:
+  0.3.1--pyh7e72e81_0: 
+    sha256:f3fab9d1238c3dc78454de449afd3e26dc862cbb6f77fa311a3c35ba50a42508
+tags:
+  0.3.1--pyh7e72e81_0: 
+    sha256:f3fab9d1238c3dc78454de449afd3e26dc862cbb6f77fa311a3c35ba50a42508
+docker: quay.io/biocontainers/plateo
+aliases:
+  html2text: /usr/local/bin/html2text
+  pypugjs: /usr/local/bin/pypugjs
+  weasyprint: /usr/local/bin/weasyprint
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  markdown_py: /usr/local/bin/markdown_py
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

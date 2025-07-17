@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dos2unix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dos2unix
+latest:
+  7.5.2: sha256:f9ae717e6827571c03147d9d321ebc999f2513fc13854e714a0e51f92fdf65ac
+tags:
+  7.5.2: sha256:f9ae717e6827571c03147d9d321ebc999f2513fc13854e714a0e51f92fdf65ac
+docker: quay.io/biocontainers/dos2unix
+aliases:
+  dos2unix: /usr/local/bin/dos2unix
+  mac2unix: /usr/local/bin/mac2unix
+  unix2dos: /usr/local/bin/unix2dos
+  unix2mac: /usr/local/bin/unix2mac

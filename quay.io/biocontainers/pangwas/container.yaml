@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/pangwas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangwas
+latest:
+  0.1.0--pyh7e72e81_0: 
+    sha256:82991058d6f7ea19d3f876f8327f8a7d3b6424dfda78c7c058190b274c69e52f
+tags:
+  0.1.0--pyh7e72e81_0: 
+    sha256:82991058d6f7ea19d3f876f8327f8a7d3b6424dfda78c7c058190b274c69e52f
+docker: quay.io/biocontainers/pangwas
+aliases:
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  annotate_hits_pyseer: /usr/local/bin/annotate_hits_pyseer
+  bakta: /usr/local/bin/bakta
+  bakta_db: /usr/local/bin/bakta_db
+  bakta_plot: /usr/local/bin/bakta_plot
+  bakta_proteins: /usr/local/bin/bakta_proteins
+  cairosvg: /usr/local/bin/cairosvg
+  dna_mutation: /usr/local/bin/dna_mutation
+  enet_predict_pyseer: /usr/local/bin/enet_predict_pyseer
+  fasta2parts: /usr/local/bin/fasta2parts
+  pangwas: /usr/local/bin/pangwas
+  phandango_mapper: /usr/local/bin/phandango_mapper
+  pilercr: /usr/local/bin/pilercr
+  pl2bat.pl: /usr/local/bin/pl2bat.pl
+  pyseer: /usr/local/bin/pyseer
+  scree_plot_pyseer: /usr/local/bin/scree_plot_pyseer
+  similarity_pyseer: /usr/local/bin/similarity_pyseer
+  square_mash: /usr/local/bin/square_mash
+  sumlabels: /usr/local/bin/sumlabels
+  sumtrees: /usr/local/bin/sumtrees
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  fasta_check: /usr/local/bin/fasta_check
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128
+  bam2bed_sge-megarow: /usr/local/bin/bam2bed_sge-megarow

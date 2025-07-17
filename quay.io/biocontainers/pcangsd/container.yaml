@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/pcangsd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pcangsd
+latest:
+  1.36.4--py310h8ea774a_0: 
+    sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745
+tags:
+  1.36.4--py310h8ea774a_0: 
+    sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745
+docker: quay.io/biocontainers/pcangsd
+aliases:
+  pcangsd: /usr/local/bin/pcangsd
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
