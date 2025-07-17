@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcagui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcagui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcagui/container.yaml"
-updated_at: "2025-07-17 11:36:37.204655"
+updated_at: "2025-07-17 11:37:16.907925"
 latest: "1.37.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcagui"
 aliases:
