@@ -21,6 +21,8 @@ tags:
     sha256:52cd844e55162e1d81410596ec8d74cca561b05582ed786028a226bb466ce44e
   1.5--h577a1d6_0: 
     sha256:fa31824fde8dbc30d138a840dd393961133b827d03bb5b76c9fed46fcf010caa
+  1.5--h577a1d6_1: 
+    sha256:adc42bdf55fb21db1c3d395ef852558b5ccc7a23d64985b89119c7a55af99759
 docker: quay.io/biocontainers/seqtk
 aliases:
   seqtk: /usr/local/bin/seqtk
