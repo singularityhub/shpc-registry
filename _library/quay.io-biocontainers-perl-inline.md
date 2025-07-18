@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-inline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-inline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-inline/container.yaml"
-updated_at: "2025-07-17 10:57:44.998410"
-latest: "0.86--pl5321hdfd78af_0"
+updated_at: "2025-07-18 03:47:01.627530"
+latest: "0.87--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-inline"
 
 versions:
  - "0.86--pl5321hdfd78af_0"
+ - "0.87--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-inline"
-config: {"url": "https://biocontainers.pro/tools/perl-inline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-inline", "latest": {"0.86--pl5321hdfd78af_0": "sha256:ac3abd535af748ced430327458b4528d5780dbb174e4a4af0d0a262de15c46d5"}, "tags": {"0.86--pl5321hdfd78af_0": "sha256:ac3abd535af748ced430327458b4528d5780dbb174e4a4af0d0a262de15c46d5"}, "docker": "quay.io/biocontainers/perl-inline"}
+config: {"url": "https://biocontainers.pro/tools/perl-inline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-inline", "latest": {"0.87--pl5321hdfd78af_0": "sha256:76ed7853f98aae1f2c6e8dff3c4446f08166b53557a10ed3607d597d59fa2b91"}, "tags": {"0.86--pl5321hdfd78af_0": "sha256:ac3abd535af748ced430327458b4528d5780dbb174e4a4af0d0a262de15c46d5", "0.87--pl5321hdfd78af_0": "sha256:76ed7853f98aae1f2c6e8dff3c4446f08166b53557a10ed3607d597d59fa2b91"}, "docker": "quay.io/biocontainers/perl-inline"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-inline.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-inline
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-inline:0.86--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-inline:0.87--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-inline/0.86--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-inline/0.86--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-inline/0.87--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-inline/0.87--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

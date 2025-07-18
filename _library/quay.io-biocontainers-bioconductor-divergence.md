@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-divergence"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-divergence/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-divergence/container.yaml"
-updated_at: "2025-07-17 11:33:15.499843"
+updated_at: "2025-07-18 04:22:17.040176"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-divergence"
 aliases:
