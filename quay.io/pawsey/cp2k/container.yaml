@@ -1,7 +1,7 @@
 docker: quay.io/pawsey/cp2k
 url: https://singularity-hpc.readthedocs.io
 description: Pawsey build of CP2K built on top of MPICH and ROCm for AMD GPUs
-maintainer: @craigmeyer
+maintainer: "@craigmeyer"
 features:
   gpu: true
 
