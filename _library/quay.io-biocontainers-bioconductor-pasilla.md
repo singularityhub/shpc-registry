@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pasilla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasilla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasilla/container.yaml"
-updated_at: "2025-07-18 10:27:58.773051"
+updated_at: "2025-07-19 04:08:12.087315"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasilla"
 

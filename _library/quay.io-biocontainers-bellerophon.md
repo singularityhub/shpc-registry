@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bellerophon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellerophon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellerophon/container.yaml"
-updated_at: "2025-07-18 10:11:34.714042"
+updated_at: "2025-07-19 03:51:55.141551"
 latest: "1.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/bellerophon"
 aliases:
