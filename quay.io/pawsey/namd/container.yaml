@@ -1,7 +1,7 @@
 docker: quay.io/pawsey/namd
 url: https://singularity-hpc.readthedocs.io
 description: Pawsey build of NAMD built on top of MPICH and ROCm
-maintainer: @craigmeyer
+maintainer: "@craigmeyer"
 
 latest:
   3.0.1-rocm6.3.0:
