@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tomoda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomoda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomoda/container.yaml"
-updated_at: "2025-07-20 00:28:49.817139"
+updated_at: "2025-07-20 00:34:19.829488"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomoda"
 

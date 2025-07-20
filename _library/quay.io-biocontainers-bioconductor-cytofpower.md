@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytofpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
-updated_at: "2025-07-20 00:06:26.147572"
+updated_at: "2025-07-20 00:07:39.603633"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofpower"
 

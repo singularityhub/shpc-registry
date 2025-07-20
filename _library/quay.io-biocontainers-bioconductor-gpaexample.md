@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gpaexample"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gpaexample/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gpaexample/container.yaml"
-updated_at: "2025-07-20 00:33:38.181052"
+updated_at: "2025-07-20 00:39:53.274610"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gpaexample"
 

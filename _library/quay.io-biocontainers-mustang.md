@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mustang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mustang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mustang/container.yaml"
-updated_at: "2025-07-20 00:15:37.006527"
+updated_at: "2025-07-20 00:19:01.590135"
 latest: "3.2.4--h9948957_0"
 container_url: "https://biocontainers.pro/tools/mustang"
 aliases:

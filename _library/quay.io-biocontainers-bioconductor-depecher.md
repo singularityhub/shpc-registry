@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-depecher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
-updated_at: "2025-07-20 00:23:56.043756"
+updated_at: "2025-07-20 00:28:45.223961"
 latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depecher"
 aliases:
