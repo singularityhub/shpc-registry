@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/busco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for busco
 latest:
-  5.8.3--pyhdfd78af_1: 
-    sha256:b30817d24908f69a10c0d1ff74719fa989da92d6839ed116dd0c1033349ed0d7
+  6.0.0--pyhdfd78af_0: 
+    sha256:02e2da8a35e601683f7189273cb6611d0e967fb34d3239b38d181f99fb31e2e8
 tags:
   4.1.2--py37r40_0: 
     sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1
@@ -31,6 +31,8 @@ tags:
     sha256:74dfa85a259b578bfefd7d34d96dcc2434f1999f73663f8c5cf5227066251757
   5.8.3--pyhdfd78af_1: 
     sha256:b30817d24908f69a10c0d1ff74719fa989da92d6839ed116dd0c1033349ed0d7
+  6.0.0--pyhdfd78af_0: 
+    sha256:02e2da8a35e601683f7189273cb6611d0e967fb34d3239b38d181f99fb31e2e8
 docker: quay.io/biocontainers/busco
 aliases:
   busco: /usr/local/bin/busco
