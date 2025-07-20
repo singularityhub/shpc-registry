@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-spreadsheet-writeexcel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-spreadsheet-writeexcel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-spreadsheet-writeexcel/container.yaml"
-updated_at: "2025-07-20 00:21:58.060987"
+updated_at: "2025-07-20 04:06:08.705253"
 latest: "2.40--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-spreadsheet-writeexcel"
 aliases:
