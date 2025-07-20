@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kerneltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kerneltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kerneltree/container.yaml"
-updated_at: "2025-07-19 03:47:15.209787"
+updated_at: "2025-07-20 00:21:57.879844"
 latest: "0.0.5--py27heb79e2c_1"
 container_url: "https://biocontainers.pro/tools/kerneltree"
 aliases:

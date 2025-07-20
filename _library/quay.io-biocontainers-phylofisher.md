@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylofisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylofisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylofisher/container.yaml"
-updated_at: "2025-07-19 03:41:39.179263"
+updated_at: "2025-07-20 00:16:14.613672"
 latest: "1.2.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylofisher"
 aliases:

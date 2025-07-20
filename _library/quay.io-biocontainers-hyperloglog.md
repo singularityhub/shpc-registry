@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hyperloglog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyperloglog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyperloglog/container.yaml"
-updated_at: "2025-07-19 04:07:55.015974"
+updated_at: "2025-07-20 00:42:13.541163"
 latest: "0.0.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hyperloglog"
 aliases:

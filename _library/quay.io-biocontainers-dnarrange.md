@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnarrange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnarrange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnarrange/container.yaml"
-updated_at: "2025-07-19 03:45:50.767110"
+updated_at: "2025-07-20 00:20:31.940830"
 latest: "1.6.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/dnarrange"
 aliases:
