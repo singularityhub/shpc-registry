@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/ccp4srs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ccp4srs
+latest:
+  2024.06.14--h077b44d_0: 
+    sha256:c0589ecfdf9cf21a8627edf3ba90222d630b15080929db810bcd7d61c1b8f0f4
+tags:
+  2024.06.14--h077b44d_0: 
+    sha256:c0589ecfdf9cf21a8627edf3ba90222d630b15080929db810bcd7d61c1b8f0f4
+docker: quay.io/biocontainers/ccp4srs
+aliases:
+  pdb2to3: /usr/local/bin/pdb2to3
+  srsgen: /usr/local/bin/srsgen
+  srsview: /usr/local/bin/srsview
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin

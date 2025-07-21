@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/tortoize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tortoize
+latest:
+  2.0.15--haf24da9_0: 
+    sha256:db076092de8cd90efaf881ea506e97dd2ca2b4b3aaf15651a236fab649088ca6
+tags:
+  2.0.15--haf24da9_0: 
+    sha256:db076092de8cd90efaf881ea506e97dd2ca2b4b3aaf15651a236fab649088ca6
+docker: quay.io/biocontainers/tortoize
+aliases:
+  mkdssp: /usr/local/bin/mkdssp
+  tortoize: /usr/local/bin/tortoize
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

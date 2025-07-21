@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/cats-rb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cats-rb
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:016d55a3b6911c5338a6c98b2b3e17913974307bf053ce3b2cf5e412f735e074
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:016d55a3b6911c5338a6c98b2b3e17913974307bf053ce3b2cf5e412f735e074
+docker: quay.io/biocontainers/cats-rb
+aliases:
+  CATS_general_assembly_stats.R: /usr/local/bin/CATS_general_assembly_stats.R
+  CATS_rb_compare: /usr/local/bin/CATS_rb_compare
+  CATS_rb_comparison.Rmd: /usr/local/bin/CATS_rb_comparison.Rmd
+  CATS_rb_index: /usr/local/bin/CATS_rb_index
+  CATS_rb_map: /usr/local/bin/CATS_rb_map
+  canonical.pl: /usr/local/bin/canonical.pl
+  catchr.pl: /usr/local/bin/catchr.pl
+  clade.pl: /usr/local/bin/clade.pl
+  eij2ild.pl: /usr/local/bin/eij2ild.pl
+  eij4mer.pl: /usr/local/bin/eij4mer.pl
+  eijnc.pl: /usr/local/bin/eijnc.pl
+  makblk.pl: /usr/local/bin/makblk.pl
+  makdbs: /usr/local/bin/makdbs
+  make_eij.pl: /usr/local/bin/make_eij.pl
+  make_ssp.pl: /usr/local/bin/make_ssp.pl
+  makeidx.pl: /usr/local/bin/makeidx.pl
+  makmdm: /usr/local/bin/makmdm
+  sortgrcd: /usr/local/bin/sortgrcd
+  spaln: /usr/local/bin/spaln
+  spspaln.pl: /usr/local/bin/spspaln.pl
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  gawkbug: /usr/local/bin/gawkbug
+  pandoc-server: /usr/local/bin/pandoc-server
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
