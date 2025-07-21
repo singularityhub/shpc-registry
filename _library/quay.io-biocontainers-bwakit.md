@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwakit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwakit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwakit/container.yaml"
-updated_at: "2025-07-20 04:36:54.328495"
+updated_at: "2025-07-21 04:36:45.616702"
 latest: "0.7.18.dev1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bwakit"
 aliases:

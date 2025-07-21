@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/saffrontree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saffrontree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saffrontree/container.yaml"
-updated_at: "2025-07-20 04:01:37.674053"
-latest: "0.1.2--py36_0"
+updated_at: "2025-07-21 04:01:19.167942"
+latest: "0.1.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/saffrontree"
 aliases:
  - "saffrontree"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.1.2--py36_0"
  - "0.1.2--py35_0"
+ - "0.1.2--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for saffrontree"
-config: {"url": "https://biocontainers.pro/tools/saffrontree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for saffrontree", "latest": {"0.1.2--py36_0": "sha256:d241b781876a35dd5be994bb5a64a1df99faa18be646e709c34040cac647d9ad"}, "tags": {"0.1.2--py36_0": "sha256:d241b781876a35dd5be994bb5a64a1df99faa18be646e709c34040cac647d9ad", "0.1.2--py35_0": "sha256:2662797ab601464ac076fec3aebab378c7b241e7a86ec4a3839522bbdc0ab532"}, "docker": "quay.io/biocontainers/saffrontree", "aliases": {"saffrontree": "/usr/local/bin/saffrontree", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py"}}
+config: {"url": "https://biocontainers.pro/tools/saffrontree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for saffrontree", "latest": {"0.1.2--pyhdfd78af_2": "sha256:2bb5de289a5d73ec65b0ea09f91e338d076c446516fabd8e1e480947c8107fdd"}, "tags": {"0.1.2--py36_0": "sha256:d241b781876a35dd5be994bb5a64a1df99faa18be646e709c34040cac647d9ad", "0.1.2--py35_0": "sha256:2662797ab601464ac076fec3aebab378c7b241e7a86ec4a3839522bbdc0ab532", "0.1.2--pyhdfd78af_2": "sha256:2bb5de289a5d73ec65b0ea09f91e338d076c446516fabd8e1e480947c8107fdd"}, "docker": "quay.io/biocontainers/saffrontree", "aliases": {"saffrontree": "/usr/local/bin/saffrontree", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/saffrontree.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/saffrontree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/saffrontree:0.1.2--py36_0
+$ shpc install quay.io/biocontainers/saffrontree:0.1.2--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/saffrontree/0.1.2--py36_0
-$ module help quay.io/biocontainers/saffrontree/0.1.2--py36_0
+$ module load quay.io/biocontainers/saffrontree/0.1.2--pyhdfd78af_2
+$ module help quay.io/biocontainers/saffrontree/0.1.2--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
