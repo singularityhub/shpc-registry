@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-missmethyl
 latest:
-  1.32.0--r42hdfd78af_0: 
-    sha256:820a426a01944f1883331d4b314537f1ded09f532f3b4555a5f2b168e0d49fe1
+  1.40.0--r44hdfd78af_0: 
+    sha256:888409f2bda6ef99514fc85d7a74a5d88c75d8ae2366a63bb4b627c0eac1f256
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9
   1.32.0--r42hdfd78af_0: 
     sha256:820a426a01944f1883331d4b314537f1ded09f532f3b4555a5f2b168e0d49fe1
+  1.40.0--r44hdfd78af_0: 
+    sha256:888409f2bda6ef99514fc85d7a74a5d88c75d8ae2366a63bb4b627c0eac1f256
 docker: quay.io/biocontainers/bioconductor-missmethyl
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

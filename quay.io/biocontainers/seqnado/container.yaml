@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/seqnado
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqnado
 latest:
-  0.7.3--pyhdfd78af_0: 
-    sha256:d77fc8b7bdf92572492f932e3e90f17513499c0255c7f6b93d2501adfb8ddd25
+  0.7.6--pyhdfd78af_0: 
+    sha256:db4462898372717c7917ca650612f5df706134190f918aee02f2a3466bbf2469
 tags:
   0.4.1--pyhdfd78af_0: 
     sha256:c36716cc66b2388ffc68a64a3e18af733b536056b3a3d4841daa27db093f2587
@@ -29,6 +29,8 @@ tags:
     sha256:3f17c89a701840d96cecbed60230f0a1fb9cb69760c020d2b1c6f2c46d1f1375
   0.7.3--pyhdfd78af_0: 
     sha256:d77fc8b7bdf92572492f932e3e90f17513499c0255c7f6b93d2501adfb8ddd25
+  0.7.6--pyhdfd78af_0: 
+    sha256:db4462898372717c7917ca650612f5df706134190f918aee02f2a3466bbf2469
 docker: quay.io/biocontainers/seqnado
 aliases:
   cnitool: /usr/local/bin/cnitool

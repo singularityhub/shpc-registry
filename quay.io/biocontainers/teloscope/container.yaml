@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/teloscope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for teloscope
 latest:
-  0.1.0--h35c04b2_0: 
-    sha256:e2a7048e544f8da42869b6b06eab4d9e327effb9eb84a1c7ee401e4d8e987591
+  0.1.1--h35c04b2_0: 
+    sha256:97edfa398e690cf6dc52f047e6e8767367df024e4a56da94da186c53fe923506
 tags:
   0.0.2--hdcf5f25_0: 
     sha256:85e24762b701b9f61f1640106667cfc49efeec4f1802aca6ed065e476a3957b8
@@ -19,6 +19,8 @@ tags:
     sha256:e2a7048e544f8da42869b6b06eab4d9e327effb9eb84a1c7ee401e4d8e987591
   0.0.9--h35c04b2_0: 
     sha256:e9c61c760fe83206cd695b2e97633133d2505d29b83f375fcd0b53a5d992671d
+  0.1.1--h35c04b2_0: 
+    sha256:97edfa398e690cf6dc52f047e6e8767367df024e4a56da94da186c53fe923506
 docker: quay.io/biocontainers/teloscope
 aliases:
   teloscope: /usr/local/bin/teloscope
