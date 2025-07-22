@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tdbasedufeadv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tdbasedufeadv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tdbasedufeadv/container.yaml"
-updated_at: "2025-07-22 01:15:51.087980"
+updated_at: "2025-07-22 04:12:17.816953"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tdbasedufeadv"
 aliases:

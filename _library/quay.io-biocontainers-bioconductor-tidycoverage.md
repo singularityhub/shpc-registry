@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidycoverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidycoverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidycoverage/container.yaml"
-updated_at: "2025-07-22 00:51:19.365039"
+updated_at: "2025-07-22 03:47:14.640945"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidycoverage"
 aliases:

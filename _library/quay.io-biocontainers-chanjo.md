@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chanjo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chanjo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chanjo/container.yaml"
-updated_at: "2025-07-22 01:00:57.625795"
+updated_at: "2025-07-22 03:57:04.449448"
 latest: "3.3.0--py27_0"
 container_url: "https://biocontainers.pro/tools/chanjo"
 aliases:

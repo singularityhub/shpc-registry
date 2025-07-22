@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lace/container.yaml"
-updated_at: "2025-07-22 01:21:32.499238"
+updated_at: "2025-07-22 04:18:05.493593"
 latest: "2.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lace"
 

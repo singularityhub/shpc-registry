@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clincnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clincnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clincnv/container.yaml"
-updated_at: "2025-07-22 00:55:37.577111"
+updated_at: "2025-07-22 03:51:38.228674"
 latest: "1.18.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clincnv"
 aliases:

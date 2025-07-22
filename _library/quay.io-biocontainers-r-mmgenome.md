@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mmgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmgenome/container.yaml"
-updated_at: "2025-07-22 01:02:45.122734"
+updated_at: "2025-07-22 03:58:53.930327"
 latest: "0.7.1--r44h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-mmgenome"
 aliases:
