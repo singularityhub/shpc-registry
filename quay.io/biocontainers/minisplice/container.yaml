@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/minisplice
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for minisplice
+latest:
+  0.4--h577a1d6_0: 
+    sha256:86d994d8f59239685b32362379b0a539c7e7ce78b909ae59b3982acd409b3b37
+tags:
+  0.4--h577a1d6_0: 
+    sha256:86d994d8f59239685b32362379b0a539c7e7ce78b909ae59b3982acd409b3b37
+docker: quay.io/biocontainers/minisplice
+aliases:
+  minisplice: /usr/local/bin/minisplice

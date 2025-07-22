@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/hal2vg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hal2vg
+latest:
+  1.1.8--hee927d3_0: 
+    sha256:18a6184d8e0234c9ea38ba7d2e73e306ebf824c2ba573a55102024af6957d9f5
+tags:
+  1.1.8--hee927d3_0: 
+    sha256:18a6184d8e0234c9ea38ba7d2e73e306ebf824c2ba573a55102024af6957d9f5
+docker: quay.io/biocontainers/hal2vg
+aliases:
+  clip-vg: /usr/local/bin/clip-vg
+  count-vg-hap-cov: /usr/local/bin/count-vg-hap-cov
+  filter-paf-deletions: /usr/local/bin/filter-paf-deletions
+  hal2vg: /usr/local/bin/hal2vg
+  halMergeChroms: /usr/local/bin/halMergeChroms
+  halRemoveDupes: /usr/local/bin/halRemoveDupes
+  halUnclip: /usr/local/bin/halUnclip
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  h5fc: /usr/local/bin/h5fc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart
+  h5stat: /usr/local/bin/h5stat
+  h5unjam: /usr/local/bin/h5unjam
+  h5dump: /usr/local/bin/h5dump
