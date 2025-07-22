@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/npyscreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npyscreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npyscreen/container.yaml"
-updated_at: "2025-07-21 04:00:54.389882"
+updated_at: "2025-07-22 00:57:38.893317"
 latest: "4.10.5--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/npyscreen"
 aliases:

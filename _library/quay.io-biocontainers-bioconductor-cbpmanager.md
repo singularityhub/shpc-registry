@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cbpmanager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbpmanager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbpmanager/container.yaml"
-updated_at: "2025-07-21 03:54:40.791602"
+updated_at: "2025-07-22 00:51:45.915963"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbpmanager"
 aliases:

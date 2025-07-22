@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orientationpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orientationpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orientationpy/container.yaml"
-updated_at: "2025-07-21 04:04:28.302681"
+updated_at: "2025-07-22 01:01:09.056638"
 latest: "0.2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orientationpy"
 aliases:

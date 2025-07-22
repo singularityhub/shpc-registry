@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scispacy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scispacy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scispacy/container.yaml"
-updated_at: "2025-07-21 04:12:06.014362"
-latest: "0.5.5--pyhdfd78af_0"
+updated_at: "2025-07-22 01:08:34.707790"
+latest: "0.5.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scispacy"
 aliases:
  - "spacy"
@@ -23,8 +23,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.5.5--pyhdfd78af_0"
+ - "0.5.5--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for scispacy"
-config: {"url": "https://biocontainers.pro/tools/scispacy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scispacy", "latest": {"0.5.5--pyhdfd78af_0": "sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4"}, "tags": {"0.5.5--pyhdfd78af_0": "sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4"}, "docker": "quay.io/biocontainers/scispacy", "aliases": {"spacy": "/usr/local/bin/spacy", "weasel": "/usr/local/bin/weasel", "typer": "/usr/local/bin/typer", "pybind11-config": "/usr/local/bin/pybind11-config", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/scispacy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scispacy", "latest": {"0.5.5--pyhdfd78af_1": "sha256:2da115e0234d050e9bfc293e29d410b2bbc9974c2d558550cdfa86a6fe5b5863"}, "tags": {"0.5.5--pyhdfd78af_0": "sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4", "0.5.5--pyhdfd78af_1": "sha256:2da115e0234d050e9bfc293e29d410b2bbc9974c2d558550cdfa86a6fe5b5863"}, "docker": "quay.io/biocontainers/scispacy", "aliases": {"spacy": "/usr/local/bin/spacy", "weasel": "/usr/local/bin/weasel", "typer": "/usr/local/bin/typer", "pybind11-config": "/usr/local/bin/pybind11-config", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scispacy.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/scispacy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scispacy:0.5.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scispacy:0.5.5--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scispacy/0.5.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/scispacy/0.5.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/scispacy/0.5.5--pyhdfd78af_1
+$ module help quay.io/biocontainers/scispacy/0.5.5--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

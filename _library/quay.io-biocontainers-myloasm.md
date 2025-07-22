@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/myloasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myloasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myloasm/container.yaml"
-updated_at: "2025-07-21 04:22:17.526178"
+updated_at: "2025-07-22 01:18:04.653717"
 latest: "0.1.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/myloasm"
 aliases:

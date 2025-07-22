@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pathfindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pathfindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pathfindr/container.yaml"
-updated_at: "2025-07-21 04:34:55.163591"
+updated_at: "2025-07-22 01:30:06.498010"
 latest: "2.5.0--r44h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-pathfindr"
 aliases:
