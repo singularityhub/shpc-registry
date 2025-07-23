@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phip-stat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phip-stat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phip-stat/container.yaml"
-updated_at: "2025-07-22 04:27:32.212439"
+updated_at: "2025-07-23 04:28:41.927950"
 latest: "0.5.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/phip-stat"
 aliases:

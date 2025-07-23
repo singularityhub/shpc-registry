@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-term-progressbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
-updated_at: "2025-07-22 03:55:30.010211"
+updated_at: "2025-07-23 03:57:03.687180"
 latest: "2.22--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-term-progressbar"
 aliases:

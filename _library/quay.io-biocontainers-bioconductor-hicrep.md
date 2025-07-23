@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
-updated_at: "2025-07-22 03:43:22.929944"
+updated_at: "2025-07-23 03:45:05.495920"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicrep"
 aliases:

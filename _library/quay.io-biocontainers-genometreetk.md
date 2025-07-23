@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genometreetk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometreetk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometreetk/container.yaml"
-updated_at: "2025-07-22 04:03:39.489935"
+updated_at: "2025-07-23 04:05:06.478350"
 latest: "0.1.6--py_2"
 container_url: "https://biocontainers.pro/tools/genometreetk"
 aliases:

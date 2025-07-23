@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prokaryote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokaryote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokaryote/container.yaml"
-updated_at: "2025-07-22 04:28:34.483042"
+updated_at: "2025-07-23 04:29:43.560136"
 latest: "2.4.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/prokaryote"
 aliases:

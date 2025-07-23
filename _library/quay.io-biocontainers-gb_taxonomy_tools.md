@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gb_taxonomy_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
-updated_at: "2025-07-22 03:54:41.168207"
-latest: "1.0.1--h503566f_6"
+updated_at: "2025-07-23 03:56:15.384865"
+latest: "1.0.1--h503566f_7"
 container_url: "https://biocontainers.pro/tools/gb_taxonomy_tools"
 aliases:
  - "gid-taxid"
@@ -16,8 +16,9 @@ versions:
  - "1.0.1--h87f3376_3"
  - "1.0.1--hdbdd923_5"
  - "1.0.1--h503566f_6"
+ - "1.0.1--h503566f_7"
 description: "shpc-registry automated BioContainers addition for gb_taxonomy_tools"
-config: {"url": "https://biocontainers.pro/tools/gb_taxonomy_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gb_taxonomy_tools", "latest": {"1.0.1--h503566f_6": "sha256:b3fe10d254584a144f35c9afc07bcd531b72ebb7a79ff61703a1697df4157824"}, "tags": {"1.0.1--h87f3376_3": "sha256:d8b7b6baa53f8e88b62be2ab8b21b9299d812606c6827852f08c04b2f0d05b62", "1.0.1--hdbdd923_5": "sha256:8639e375f6934327f2943cdfe95390b20c982034956b43d6dc4db28a824635eb", "1.0.1--h503566f_6": "sha256:b3fe10d254584a144f35c9afc07bcd531b72ebb7a79ff61703a1697df4157824"}, "docker": "quay.io/biocontainers/gb_taxonomy_tools", "aliases": {"gid-taxid": "/usr/local/bin/gid-taxid", "taxonomy-reader": "/usr/local/bin/taxonomy-reader", "taxonomy2tree": "/usr/local/bin/taxonomy2tree", "tree2ps": "/usr/local/bin/tree2ps"}}
+config: {"url": "https://biocontainers.pro/tools/gb_taxonomy_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gb_taxonomy_tools", "latest": {"1.0.1--h503566f_7": "sha256:9ef673d5cf8efa65d116a0ae16072605e2f7aaa505f1738fa81ce30cdc940784"}, "tags": {"1.0.1--h87f3376_3": "sha256:d8b7b6baa53f8e88b62be2ab8b21b9299d812606c6827852f08c04b2f0d05b62", "1.0.1--hdbdd923_5": "sha256:8639e375f6934327f2943cdfe95390b20c982034956b43d6dc4db28a824635eb", "1.0.1--h503566f_6": "sha256:b3fe10d254584a144f35c9afc07bcd531b72ebb7a79ff61703a1697df4157824", "1.0.1--h503566f_7": "sha256:9ef673d5cf8efa65d116a0ae16072605e2f7aaa505f1738fa81ce30cdc940784"}, "docker": "quay.io/biocontainers/gb_taxonomy_tools", "aliases": {"gid-taxid": "/usr/local/bin/gid-taxid", "taxonomy-reader": "/usr/local/bin/taxonomy-reader", "taxonomy2tree": "/usr/local/bin/taxonomy2tree", "tree2ps": "/usr/local/bin/tree2ps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gb_taxonomy_tools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/gb_taxonomy_tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gb_taxonomy_tools:1.0.1--h503566f_6
+$ shpc install quay.io/biocontainers/gb_taxonomy_tools:1.0.1--h503566f_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gb_taxonomy_tools/1.0.1--h503566f_6
-$ module help quay.io/biocontainers/gb_taxonomy_tools/1.0.1--h503566f_6
+$ module load quay.io/biocontainers/gb_taxonomy_tools/1.0.1--h503566f_7
+$ module help quay.io/biocontainers/gb_taxonomy_tools/1.0.1--h503566f_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

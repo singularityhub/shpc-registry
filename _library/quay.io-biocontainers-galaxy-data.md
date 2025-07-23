@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-data/container.yaml"
-updated_at: "2025-07-22 04:17:12.480724"
+updated_at: "2025-07-23 04:18:29.659953"
 latest: "25.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-data"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-learnbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-learnbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-learnbayes/container.yaml"
-updated_at: "2025-07-22 03:42:17.245061"
+updated_at: "2025-07-23 03:44:00.283924"
 latest: "2.15--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-learnbayes"
 aliases:
