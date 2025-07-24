@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkv/container.yaml"
-updated_at: "2025-07-23 04:22:54.868675"
+updated_at: "2025-07-24 04:22:02.962804"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkv"
 aliases:

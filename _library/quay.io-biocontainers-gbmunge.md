@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gbmunge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbmunge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbmunge/container.yaml"
-updated_at: "2025-07-23 04:08:07.889508"
+updated_at: "2025-07-24 04:06:53.107048"
 latest: "2018.07.06--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/gbmunge"
 aliases:

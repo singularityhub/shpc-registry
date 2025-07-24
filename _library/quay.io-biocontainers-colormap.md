@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colormap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colormap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colormap/container.yaml"
-updated_at: "2025-07-23 03:52:59.737813"
+updated_at: "2025-07-24 03:51:29.141002"
 latest: "0.9.8--py36_0"
 container_url: "https://biocontainers.pro/tools/colormap"
 aliases:

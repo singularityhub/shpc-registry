@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pipelign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipelign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipelign/container.yaml"
-updated_at: "2025-07-23 03:53:24.777390"
+updated_at: "2025-07-24 03:51:54.417165"
 latest: "0.2--py_2"
 container_url: "https://biocontainers.pro/tools/pipelign"
 aliases:

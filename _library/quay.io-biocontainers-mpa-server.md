@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mpa-server"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpa-server/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpa-server/container.yaml"
-updated_at: "2025-07-23 04:09:05.662100"
+updated_at: "2025-07-24 04:07:52.382983"
 latest: "3.4--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/mpa-server"
 aliases:

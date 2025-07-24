@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ed/container.yaml"
-updated_at: "2025-07-23 03:42:48.875430"
+updated_at: "2025-07-24 03:41:07.096348"
 latest: "1.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ed"
 aliases:

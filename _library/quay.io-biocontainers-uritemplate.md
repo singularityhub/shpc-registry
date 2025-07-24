@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uritemplate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uritemplate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uritemplate/container.yaml"
-updated_at: "2025-07-23 03:44:15.654523"
+updated_at: "2025-07-24 03:42:35.016225"
 latest: "0.6--py36_0"
 container_url: "https://biocontainers.pro/tools/uritemplate"
 aliases:

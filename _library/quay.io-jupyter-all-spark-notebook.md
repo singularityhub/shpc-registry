@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/all-spark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/all-spark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/all-spark-notebook/container.yaml"
-updated_at: "2025-07-23 03:43:10.645935"
+updated_at: "2025-07-24 03:41:29.153906"
 latest: "2025-06-30"
 container_url: "https://quay.io/repository/jupyter/all-spark-notebook"
 aliases:

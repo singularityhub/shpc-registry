@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smeg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smeg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smeg/container.yaml"
-updated_at: "2025-07-23 03:47:02.778277"
+updated_at: "2025-07-24 03:45:25.766272"
 latest: "1.1.5--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/smeg"
 aliases:

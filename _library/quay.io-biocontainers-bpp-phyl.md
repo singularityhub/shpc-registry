@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bpp-phyl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-phyl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-phyl/container.yaml"
-updated_at: "2025-07-23 03:53:09.282012"
+updated_at: "2025-07-24 03:51:38.798636"
 latest: "2.4.1--h9948957_5"
 container_url: "https://biocontainers.pro/tools/bpp-phyl"
 

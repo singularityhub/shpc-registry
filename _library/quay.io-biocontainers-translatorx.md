@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translatorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translatorx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translatorx/container.yaml"
-updated_at: "2025-07-23 04:27:04.965633"
+updated_at: "2025-07-24 04:26:20.896194"
 latest: "1.1--2"
 container_url: "https://biocontainers.pro/tools/translatorx"
 aliases:
