@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bigwig-nim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bigwig-nim
+latest:
+  0.0.3--h9ee0642_0: 
+    sha256:11eeae5169ed58c1e045970877d55c4c85878e190ac712d2ed950f4843e71ef8
+tags:
+  0.0.3--h9ee0642_0: 
+    sha256:11eeae5169ed58c1e045970877d55c4c85878e190ac712d2ed950f4843e71ef8
+docker: quay.io/biocontainers/bigwig-nim
+aliases:
+  bigwig: /usr/local/bin/bigwig

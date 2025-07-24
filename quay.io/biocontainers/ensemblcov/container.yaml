@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ensemblcov
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ensemblcov
+latest:
+  0.1.0--h4349ce8_0: 
+    sha256:12a05da63a83cf9bab2c9a7dd9651cc8831ab0f1124fb9e0ab51d48dd30ecefd
+tags:
+  0.1.0--h4349ce8_0: 
+    sha256:12a05da63a83cf9bab2c9a7dd9651cc8831ab0f1124fb9e0ab51d48dd30ecefd
+docker: quay.io/biocontainers/ensemblcov
+aliases:
+  ensemblcov: /usr/local/bin/ensemblcov
