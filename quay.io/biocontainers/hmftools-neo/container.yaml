@@ -13,6 +13,8 @@ tags:
     sha256:9bf223ada46f351b7770f9f1395e73628214bff6273cc3ef6ff74f6fab28bfba
   1.2--hdfd78af_1: 
     sha256:1f974492b1fbbb525be3f9bb9af3ecab1ee143743e547155bda461abdfe27989
+  1.2.1--hdfd78af_0: 
+    sha256:43c9a8354239135b302dcb913f4827b5aba34e6387ae53db6cc4335cf4280368
 docker: quay.io/biocontainers/hmftools-neo
 aliases:
   jwebserver: /usr/local/bin/jwebserver
