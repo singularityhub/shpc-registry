@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cawlign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cawlign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cawlign/container.yaml"
-updated_at: "2025-07-24 04:23:42.064139"
+updated_at: "2025-07-25 04:23:16.263846"
 latest: "0.1.11--he91c24d_0"
 container_url: "https://biocontainers.pro/tools/cawlign"
 aliases:
