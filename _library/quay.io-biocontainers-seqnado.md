@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqnado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqnado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqnado/container.yaml"
-updated_at: "2025-07-25 05:06:08.463533"
+updated_at: "2025-07-25 05:07:51.386607"
 latest: "0.7.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqnado"
 aliases:

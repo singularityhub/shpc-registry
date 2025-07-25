@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anvio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anvio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anvio/container.yaml"
-updated_at: "2025-07-25 05:22:46.018912"
+updated_at: "2025-07-25 05:24:52.823858"
 latest: "7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/anvio"
 aliases:
