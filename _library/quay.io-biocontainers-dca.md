@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dca/container.yaml"
-updated_at: "2025-07-25 04:25:00.293255"
+updated_at: "2025-07-25 05:26:38.232880"
 latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dca"
 aliases:

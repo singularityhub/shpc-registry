@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/meme/container.yaml"
-updated_at: "2025-07-25 03:41:30.934528"
+updated_at: "2025-07-25 04:41:35.657114"
 latest: "5.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/meme"
 aliases:

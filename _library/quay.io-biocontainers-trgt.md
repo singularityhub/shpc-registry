@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trgt/container.yaml"
-updated_at: "2025-07-25 04:16:47.177919"
+updated_at: "2025-07-25 05:17:51.203550"
 latest: "3.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/trgt"
 aliases:

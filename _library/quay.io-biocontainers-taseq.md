@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taseq/container.yaml"
-updated_at: "2025-07-25 04:12:55.309366"
+updated_at: "2025-07-25 05:13:54.033281"
 latest: "1.1.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/taseq"
 aliases:

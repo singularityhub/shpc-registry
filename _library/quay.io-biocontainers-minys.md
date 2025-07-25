@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minys"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minys/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minys/container.yaml"
-updated_at: "2025-07-25 03:46:00.941369"
+updated_at: "2025-07-25 04:46:13.595437"
 latest: "1.1--h9948957_6"
 container_url: "https://biocontainers.pro/tools/minys"
 aliases:

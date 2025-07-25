@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytables/container.yaml"
-updated_at: "2025-07-25 04:06:54.733681"
+updated_at: "2025-07-25 05:07:44.410162"
 latest: "3.4.4"
 container_url: "https://biocontainers.pro/tools/pytables"
 aliases:
