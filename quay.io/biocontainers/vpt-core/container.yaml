@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vpt-core
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vpt-core
 latest:
-  1.2.0--pyhdfd78af_0: 
-    sha256:b497c9526050d1bb88e6b35e20f767d8c0183632224db1d008bbc5f025552f72
+  1.2.0--pyhdfd78af_1: 
+    sha256:8d98a5eabcaa055f18400fa90d6467cf88b147826b981d0236ab0bd760b70e8b
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:b497c9526050d1bb88e6b35e20f767d8c0183632224db1d008bbc5f025552f72
+  1.2.0--pyhdfd78af_1: 
+    sha256:8d98a5eabcaa055f18400fa90d6467cf88b147826b981d0236ab0bd760b70e8b
 docker: quay.io/biocontainers/vpt-core
 aliases:
   dec265: /usr/local/bin/dec265

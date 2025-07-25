@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/marker-magu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for marker-magu
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+  0.4.0--pyhdfd78af_1: 
+    sha256:640f96d2038c39b485697c506f6fbb0be5be9e5982d336b3d97f8b03873d7fff
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+  0.4.0--pyhdfd78af_1: 
+    sha256:640f96d2038c39b485697c506f6fbb0be5be9e5982d336b3d97f8b03873d7fff
 docker: quay.io/biocontainers/marker-magu
 aliases:
   bwa-mem2: /usr/local/bin/bwa-mem2
