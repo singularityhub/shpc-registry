@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-crypt-openssl-random"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-crypt-openssl-random/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-crypt-openssl-random/container.yaml"
-updated_at: "2025-07-25 05:02:14.317674"
+updated_at: "2025-07-26 03:48:00.367135"
 latest: "0.11--pl5321hc234bb7_7"
 container_url: "https://biocontainers.pro/tools/perl-crypt-openssl-random"
 aliases:

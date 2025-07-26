@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drive/container.yaml"
-updated_at: "2025-07-25 05:30:49.569683"
+updated_at: "2025-07-26 04:15:10.846559"
 latest: "0.3.9--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/drive"
 aliases:

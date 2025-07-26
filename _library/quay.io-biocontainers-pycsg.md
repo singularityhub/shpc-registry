@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycsg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycsg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycsg/container.yaml"
-updated_at: "2025-07-25 05:07:18.287172"
+updated_at: "2025-07-26 03:52:49.879437"
 latest: "0.3.12--py_1"
 container_url: "https://biocontainers.pro/tools/pycsg"
 aliases:

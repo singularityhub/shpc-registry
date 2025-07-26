@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsx/container.yaml"
-updated_at: "2025-07-25 05:34:06.895449"
+updated_at: "2025-07-26 04:18:18.579028"
 latest: "1.1.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/itsx"
 aliases:

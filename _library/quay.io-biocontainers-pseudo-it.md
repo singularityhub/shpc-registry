@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pseudo-it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseudo-it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseudo-it/container.yaml"
-updated_at: "2025-07-25 05:04:06.838304"
+updated_at: "2025-07-26 03:49:47.504729"
 latest: "3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pseudo-it"
 aliases:

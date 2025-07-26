@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eigensoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eigensoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eigensoft/container.yaml"
-updated_at: "2025-07-25 04:43:11.808829"
+updated_at: "2025-07-26 03:29:46.761662"
 latest: "8.0.0--h75d7a4a_6"
 container_url: "https://biocontainers.pro/tools/eigensoft"
 aliases:

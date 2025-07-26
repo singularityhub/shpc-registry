@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.rppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.rppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.rppa/container.yaml"
-updated_at: "2025-07-25 04:54:39.495971"
+updated_at: "2025-07-26 03:40:43.103411"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.rppa"
 aliases:

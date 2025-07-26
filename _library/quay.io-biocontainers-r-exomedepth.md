@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-exomedepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-exomedepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-exomedepth/container.yaml"
-updated_at: "2025-07-25 04:49:06.053688"
-latest: "1.1.16--r44h9f7ea62_4"
+updated_at: "2025-07-26 03:35:24.590284"
+latest: "1.1.18--r44hb2a3317_0"
 container_url: "https://biocontainers.pro/tools/r-exomedepth"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.1.16--r42hfb3cda0_2"
  - "1.1.16--r43hfb3cda0_3"
  - "1.1.16--r44h9f7ea62_4"
+ - "1.1.18--r44hb2a3317_0"
 description: "shpc-registry automated BioContainers addition for r-exomedepth"
-config: {"url": "https://biocontainers.pro/tools/r-exomedepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-exomedepth", "latest": {"1.1.16--r44h9f7ea62_4": "sha256:a9e1ddb3c852780bd0c40ddfe748232d43bc0ccc82a78b3b0ca996428ed34860"}, "tags": {"1.1.15--r41h833e266_4": "sha256:f7334c772f7021dbb89c372c7ffaad7b942d9eb1c13dd845522f8811648ffaf9", "1.1.16--r41h833e266_0": "sha256:d54cb6d7fc94f45fd6c3ead257e51263f0f68a1997b67fd81338e97105fe82eb", "1.1.16--r42hfb3cda0_2": "sha256:1455140a848025c0a8ee77becdcd904fd8cce95b6656b0e138f079438f03acbb", "1.1.16--r43hfb3cda0_3": "sha256:33a39c1cde9a14626a42738db867e5081b891c85571fc4b9d8e301dff828867f", "1.1.16--r44h9f7ea62_4": "sha256:a9e1ddb3c852780bd0c40ddfe748232d43bc0ccc82a78b3b0ca996428ed34860"}, "docker": "quay.io/biocontainers/r-exomedepth"}
+config: {"url": "https://biocontainers.pro/tools/r-exomedepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-exomedepth", "latest": {"1.1.18--r44hb2a3317_0": "sha256:e3d2da2745292c576a7ee6f3fca890c0c148ea45f6ed6ad4ed0c511627b42927"}, "tags": {"1.1.15--r41h833e266_4": "sha256:f7334c772f7021dbb89c372c7ffaad7b942d9eb1c13dd845522f8811648ffaf9", "1.1.16--r41h833e266_0": "sha256:d54cb6d7fc94f45fd6c3ead257e51263f0f68a1997b67fd81338e97105fe82eb", "1.1.16--r42hfb3cda0_2": "sha256:1455140a848025c0a8ee77becdcd904fd8cce95b6656b0e138f079438f03acbb", "1.1.16--r43hfb3cda0_3": "sha256:33a39c1cde9a14626a42738db867e5081b891c85571fc4b9d8e301dff828867f", "1.1.16--r44h9f7ea62_4": "sha256:a9e1ddb3c852780bd0c40ddfe748232d43bc0ccc82a78b3b0ca996428ed34860", "1.1.18--r44hb2a3317_0": "sha256:e3d2da2745292c576a7ee6f3fca890c0c148ea45f6ed6ad4ed0c511627b42927"}, "docker": "quay.io/biocontainers/r-exomedepth"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-exomedepth.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-exomedepth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-exomedepth:1.1.16--r44h9f7ea62_4
+$ shpc install quay.io/biocontainers/r-exomedepth:1.1.18--r44hb2a3317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-exomedepth/1.1.16--r44h9f7ea62_4
-$ module help quay.io/biocontainers/r-exomedepth/1.1.16--r44h9f7ea62_4
+$ module load quay.io/biocontainers/r-exomedepth/1.1.18--r44hb2a3317_0
+$ module help quay.io/biocontainers/r-exomedepth/1.1.18--r44hb2a3317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

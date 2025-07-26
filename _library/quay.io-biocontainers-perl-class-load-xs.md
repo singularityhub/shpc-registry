@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-load-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-load-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-load-xs/container.yaml"
-updated_at: "2025-07-25 05:23:46.377011"
+updated_at: "2025-07-26 04:08:26.616691"
 latest: "0.10--pl5321h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/perl-class-load-xs"
 aliases:

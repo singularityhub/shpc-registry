@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfatools/container.yaml"
-updated_at: "2025-07-25 05:32:38.963470"
+updated_at: "2025-07-26 04:16:56.518980"
 latest: "0.5--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/gfatools"
 aliases:

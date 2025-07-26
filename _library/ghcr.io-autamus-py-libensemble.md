@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/py-libensemble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/py-libensemble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/py-libensemble/container.yaml"
-updated_at: "2025-07-25 04:42:29.566563"
+updated_at: "2025-07-26 03:29:06.241036"
 latest: "0.9.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/py-libensemble"
 

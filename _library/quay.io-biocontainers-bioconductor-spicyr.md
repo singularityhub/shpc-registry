@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spicyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
-updated_at: "2025-07-25 05:08:25.061074"
+updated_at: "2025-07-26 03:53:52.520543"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spicyr"
 aliases:

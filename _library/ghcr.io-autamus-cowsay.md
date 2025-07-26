@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cowsay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cowsay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cowsay/container.yaml"
-updated_at: "2025-07-25 04:42:47.896174"
+updated_at: "2025-07-26 03:29:23.621402"
 latest: "3.04"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cowsay"
 aliases:

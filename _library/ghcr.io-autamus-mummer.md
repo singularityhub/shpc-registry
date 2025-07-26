@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mummer/container.yaml"
-updated_at: "2025-07-25 04:42:36.942098"
+updated_at: "2025-07-26 03:29:13.266754"
 latest: "3.23"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mummer"
 aliases:

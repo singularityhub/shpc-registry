@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xnnpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xnnpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xnnpack/container.yaml"
-updated_at: "2025-07-25 04:42:44.051445"
+updated_at: "2025-07-26 03:29:19.976346"
 latest: "2022.02.16"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xnnpack"
 

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/migrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/migrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/migrate/container.yaml"
-updated_at: "2025-07-25 04:42:02.762095"
+updated_at: "2025-07-26 03:28:41.299819"
 latest: "3.7.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/migrate"
 aliases:

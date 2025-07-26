@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/valgrind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/valgrind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/valgrind/container.yaml"
-updated_at: "2025-07-25 04:42:42.279797"
+updated_at: "2025-07-26 03:29:18.305514"
 latest: "3.17.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/valgrind"
 aliases:

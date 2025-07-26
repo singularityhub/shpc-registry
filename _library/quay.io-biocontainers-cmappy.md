@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmappy/container.yaml"
-updated_at: "2025-07-25 05:05:38.176341"
+updated_at: "2025-07-26 03:51:13.125836"
 latest: "4.0.1--py39h2de1943_8"
 container_url: "https://biocontainers.pro/tools/cmappy"
 aliases:

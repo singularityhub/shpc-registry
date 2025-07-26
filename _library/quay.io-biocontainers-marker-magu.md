@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/marker-magu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marker-magu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marker-magu/container.yaml"
-updated_at: "2025-07-25 05:02:38.606725"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2025-07-26 03:48:23.547242"
+latest: "0.4.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/marker-magu"
 aliases:
  - "bwa-mem2"
@@ -45,8 +45,9 @@ aliases:
  - "df"
 versions:
  - "0.4.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for marker-magu"
-config: {"url": "https://biocontainers.pro/tools/marker-magu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marker-magu", "latest": {"0.4.0--pyhdfd78af_0": "sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086"}, "docker": "quay.io/biocontainers/marker-magu", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "markermagu": "/usr/local/bin/markermagu", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "seqkit": "/usr/local/bin/seqkit", "fastp": "/usr/local/bin/fastp", "igzip": "/usr/local/bin/igzip", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df"}}
+config: {"url": "https://biocontainers.pro/tools/marker-magu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marker-magu", "latest": {"0.4.0--pyhdfd78af_1": "sha256:640f96d2038c39b485697c506f6fbb0be5be9e5982d336b3d97f8b03873d7fff"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086", "0.4.0--pyhdfd78af_1": "sha256:640f96d2038c39b485697c506f6fbb0be5be9e5982d336b3d97f8b03873d7fff"}, "docker": "quay.io/biocontainers/marker-magu", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "markermagu": "/usr/local/bin/markermagu", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "seqkit": "/usr/local/bin/seqkit", "fastp": "/usr/local/bin/fastp", "igzip": "/usr/local/bin/igzip", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/marker-magu.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/marker-magu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/marker-magu:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/marker-magu:0.4.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/marker-magu/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/marker-magu/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/marker-magu/0.4.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/marker-magu/0.4.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

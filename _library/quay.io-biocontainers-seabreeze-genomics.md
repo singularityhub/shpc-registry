@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seabreeze-genomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seabreeze-genomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seabreeze-genomics/container.yaml"
-updated_at: "2025-07-25 05:02:44.543303"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2025-07-26 03:48:29.232358"
+latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seabreeze-genomics"
 aliases:
  - "seabreeze"
@@ -36,8 +36,9 @@ aliases:
  - "jupyter"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for seabreeze-genomics"
-config: {"url": "https://biocontainers.pro/tools/seabreeze-genomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seabreeze-genomics", "latest": {"1.4.0--pyhdfd78af_0": "sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c"}, "docker": "quay.io/biocontainers/seabreeze-genomics", "aliases": {"seabreeze": "/usr/local/bin/seabreeze", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/seabreeze-genomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seabreeze-genomics", "latest": {"1.5.0--pyhdfd78af_0": "sha256:6f804a4c0a1bffd907631be4dc8d70aa73efb19af708c3c631d7f36846dcb619"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:7c0565c5ced75aba48be0285941f5c01fe06d03d8ace4b9db5d8d9c90a61f61c", "1.5.0--pyhdfd78af_0": "sha256:6f804a4c0a1bffd907631be4dc8d70aa73efb19af708c3c631d7f36846dcb619"}, "docker": "quay.io/biocontainers/seabreeze-genomics", "aliases": {"seabreeze": "/usr/local/bin/seabreeze", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seabreeze-genomics.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/seabreeze-genomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seabreeze-genomics:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seabreeze-genomics:1.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seabreeze-genomics/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/seabreeze-genomics/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/seabreeze-genomics/1.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/seabreeze-genomics/1.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-sage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sage/container.yaml"
-updated_at: "2025-07-25 05:29:35.980548"
-latest: "4.0_beta--hdfd78af_4"
+updated_at: "2025-07-26 04:14:00.176439"
+latest: "4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-sage"
 aliases:
  - "SAGE"
@@ -28,8 +28,9 @@ versions:
  - "3.4.4--hdfd78af_0"
  - "4.0_beta--hdfd78af_1"
  - "4.0_beta--hdfd78af_4"
+ - "4.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-sage"
-config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"4.0_beta--hdfd78af_4": "sha256:60a0c53ac2fe6ebc6ece1467d0a0beaccbfe6149a6850d7e68c2fbe84b82296e"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1", "3.2.3--hdfd78af_0": "sha256:9711d591611abea80ceb161042efc4f6684cd276eb416cbeb60bc3da10078ce3", "3.4--hdfd78af_1": "sha256:87ab9632273ebc30fbe2a32cfd4f25e6c16c80668a23f376d584f1f8d3688c34", "3.4.2--hdfd78af_0": "sha256:7f7612702c75074a5e542996a5c0d573edc8601768f3ee8658d586a3662a3d00", "3.4.3--hdfd78af_0": "sha256:606410e57eb5eece65ba77a098f6015808af209f5ff8f327ab0dda1ce0d716f0", "3.4.4--hdfd78af_0": "sha256:f04ed632a1cbce61c26424dd4547533fdc3ff294165b3e3c0b25f8a72075b65e", "4.0_beta--hdfd78af_1": "sha256:073ede15e21fef2c8a7ba4d7070a18f2e91fba5150860d30560954e192f048f9", "4.0_beta--hdfd78af_4": "sha256:60a0c53ac2fe6ebc6ece1467d0a0beaccbfe6149a6850d7e68c2fbe84b82296e"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"4.1--hdfd78af_0": "sha256:c8c9a05324584d2b5a97fc4bcaf485abd69df9f2ed9cd1f52ca460da88309ac8"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1", "3.2.3--hdfd78af_0": "sha256:9711d591611abea80ceb161042efc4f6684cd276eb416cbeb60bc3da10078ce3", "3.4--hdfd78af_1": "sha256:87ab9632273ebc30fbe2a32cfd4f25e6c16c80668a23f376d584f1f8d3688c34", "3.4.2--hdfd78af_0": "sha256:7f7612702c75074a5e542996a5c0d573edc8601768f3ee8658d586a3662a3d00", "3.4.3--hdfd78af_0": "sha256:606410e57eb5eece65ba77a098f6015808af209f5ff8f327ab0dda1ce0d716f0", "3.4.4--hdfd78af_0": "sha256:f04ed632a1cbce61c26424dd4547533fdc3ff294165b3e3c0b25f8a72075b65e", "4.0_beta--hdfd78af_1": "sha256:073ede15e21fef2c8a7ba4d7070a18f2e91fba5150860d30560954e192f048f9", "4.0_beta--hdfd78af_4": "sha256:60a0c53ac2fe6ebc6ece1467d0a0beaccbfe6149a6850d7e68c2fbe84b82296e", "4.1--hdfd78af_0": "sha256:c8c9a05324584d2b5a97fc4bcaf485abd69df9f2ed9cd1f52ca460da88309ac8"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-sage.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/hmftools-sage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-sage:4.0_beta--hdfd78af_4
+$ shpc install quay.io/biocontainers/hmftools-sage:4.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-sage/4.0_beta--hdfd78af_4
-$ module help quay.io/biocontainers/hmftools-sage/4.0_beta--hdfd78af_4
+$ module load quay.io/biocontainers/hmftools-sage/4.1--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-sage/4.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

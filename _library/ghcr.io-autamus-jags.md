@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/jags"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/jags/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/jags/container.yaml"
-updated_at: "2025-07-25 04:42:30.452257"
+updated_at: "2025-07-26 03:29:07.087615"
 latest: "4.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/jags"
 aliases:

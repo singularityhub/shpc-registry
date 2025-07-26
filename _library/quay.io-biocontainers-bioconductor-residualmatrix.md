@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-residualmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-residualmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-residualmatrix/container.yaml"
-updated_at: "2025-07-25 05:28:56.376428"
+updated_at: "2025-07-26 04:13:21.994867"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-residualmatrix"
 

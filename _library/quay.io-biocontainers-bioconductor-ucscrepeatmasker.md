@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ucscrepeatmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ucscrepeatmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ucscrepeatmasker/container.yaml"
-updated_at: "2025-07-25 04:43:16.111367"
+updated_at: "2025-07-26 03:29:50.982836"
 latest: "3.15.2--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-ucscrepeatmasker"
 aliases:
