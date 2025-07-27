@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/d4binding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/d4binding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/d4binding/container.yaml"
-updated_at: "2025-07-26 03:39:22.186204"
-latest: "0.3.11--h503566f_2"
+updated_at: "2025-07-27 04:00:19.091970"
+latest: "0.3.11--ha986137_4"
 container_url: "https://biocontainers.pro/tools/d4binding"
 aliases:
  - "starcode"
@@ -14,8 +14,9 @@ versions:
  - "0.3.11--hdbdd923_0"
  - "0.3.11--hdbdd923_1"
  - "0.3.11--h503566f_2"
+ - "0.3.11--ha986137_4"
 description: "singularity registry hpc automated addition for d4binding"
-config: {"url": "https://biocontainers.pro/tools/d4binding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for d4binding", "latest": {"0.3.11--h503566f_2": "sha256:fac99582e1e585b2ba47b5b4270f6221176443dbe00f12ee02388805ecde7929"}, "tags": {"0.3.4--h87f3376_0": "sha256:5f55a16b97075b91f86c54ff4dd7fe11324af217880775ab1ee53433517657bb", "0.3.11--hdbdd923_0": "sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad", "0.3.11--hdbdd923_1": "sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d", "0.3.11--h503566f_2": "sha256:fac99582e1e585b2ba47b5b4270f6221176443dbe00f12ee02388805ecde7929"}, "docker": "quay.io/biocontainers/d4binding", "aliases": {"starcode": "/usr/local/bin/starcode"}}
+config: {"url": "https://biocontainers.pro/tools/d4binding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for d4binding", "latest": {"0.3.11--ha986137_4": "sha256:529c425e6f3e7c3bfeee9414c437c83996e502564b2e660861f7d68291cada93"}, "tags": {"0.3.4--h87f3376_0": "sha256:5f55a16b97075b91f86c54ff4dd7fe11324af217880775ab1ee53433517657bb", "0.3.11--hdbdd923_0": "sha256:02616373b3a95aa54e0cc9290ffa351de52f314a6c52f3a5dd6dbf203a631fad", "0.3.11--hdbdd923_1": "sha256:609f9a78941e48399cc237c35cecb9dd33f80a051e7e2c8f0cb6b217618a325d", "0.3.11--h503566f_2": "sha256:fac99582e1e585b2ba47b5b4270f6221176443dbe00f12ee02388805ecde7929", "0.3.11--ha986137_4": "sha256:529c425e6f3e7c3bfeee9414c437c83996e502564b2e660861f7d68291cada93"}, "docker": "quay.io/biocontainers/d4binding", "aliases": {"starcode": "/usr/local/bin/starcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/d4binding.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/d4binding
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/d4binding:0.3.11--h503566f_2
+$ shpc install quay.io/biocontainers/d4binding:0.3.11--ha986137_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/d4binding/0.3.11--h503566f_2
-$ module help quay.io/biocontainers/d4binding/0.3.11--h503566f_2
+$ module load quay.io/biocontainers/d4binding/0.3.11--ha986137_4
+$ module help quay.io/biocontainers/d4binding/0.3.11--ha986137_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

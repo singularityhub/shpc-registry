@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-pair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-pair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-pair/container.yaml"
-updated_at: "2025-07-26 04:13:53.958800"
+updated_at: "2025-07-27 04:35:19.810169"
 latest: "1.0--h503566f_6"
 container_url: "https://biocontainers.pro/tools/fastq-pair"
 aliases:
