@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/ldblockshow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ldblockshow
 latest:
-  1.40--pl5321hdcf5f25_3: 
-    sha256:4658b8eeda5aac52691f625bc0e6eea7d97dd7bf85ebbee0570ff23673d3827e
+  1.41--pl5321h077b44d_0: 
+    sha256:fdede8c44f22f7201fe1434236a87baf73a3d66bc64395349bd4c9eb31159768
 tags:
   1.40--pl5321hd03093a_2: 
     sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2
   1.40--pl5321hdcf5f25_3: 
     sha256:4658b8eeda5aac52691f625bc0e6eea7d97dd7bf85ebbee0570ff23673d3827e
+  1.41--pl5321h077b44d_0: 
+    sha256:fdede8c44f22f7201fe1434236a87baf73a3d66bc64395349bd4c9eb31159768
 docker: quay.io/biocontainers/ldblockshow
 aliases:
   LDBlockShow: /usr/local/bin/LDBlockShow

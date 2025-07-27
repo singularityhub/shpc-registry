@@ -13,6 +13,8 @@ tags:
     sha256:53a3fdf599337607fb8661c24184aa0f5db54a82547ccddde7787c447b829012
   0.1.4--h6bb9b41_0: 
     sha256:f22960b03460001376d1b378f8f0bc3e417747c9b9674738520dba0417e8e301
+  0.1.4a--h6bb9b41_0: 
+    sha256:9312306a40414223a3e58e2b867b3727e1918896895cddcb84f0f738e30ca876
 docker: quay.io/biocontainers/twilight
 aliases:
   twilight: /usr/local/bin/twilight

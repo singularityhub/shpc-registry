@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/wtv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wtv
 latest:
-  0.0.2--pyhdfd78af_0: 
-    sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a
+  0.1.0--pyhdfd78af_0: 
+    sha256:e1e68dbebf2752d92fd6943c6a665f77433da89a74688f6d35b8777462f93f44
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a
+  0.1.0--pyhdfd78af_0: 
+    sha256:e1e68dbebf2752d92fd6943c6a665f77433da89a74688f6d35b8777462f93f44
 docker: quay.io/biocontainers/wtv
 aliases:
   wtv-cli: /usr/local/bin/wtv-cli

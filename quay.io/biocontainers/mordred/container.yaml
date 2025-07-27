@@ -5,6 +5,8 @@ latest:
   1.2.0: sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f
 tags:
   1.2.0: sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f
+  1.2.0--2: 
+    sha256:b14ebefaa2ef833eb0d39083eaf957b22dabd2a330fb201b0f14ee142c200411
 docker: quay.io/biocontainers/mordred
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6
