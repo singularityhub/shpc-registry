@@ -13,12 +13,12 @@ aliases:
 description: Pawsey build of TensorFlow for AMD GPUs.
 
 latest:
-  2.17-rocm6.3.3:
+  2.17-rocm6.3.3: 
     sha256:2ad901150db9bb762e3645be5e0496b28fe0e516eb603c0551bcadb979216454
 tags:
-  2.17-rocm6.3.3:
+  2.17-rocm6.3.3: 
     sha256:2ad901150db9bb762e3645be5e0496b28fe0e516eb603c0551bcadb979216454
-  2.15.1-rocm6.3.3:
+  2.15.1-rocm6.3.3: 
     sha256:4e13a5b53a0ffc272e3165365fd95ce445e54981943a907933c3de353177fbd4
   2.12.1.570-rocm5.6.0: 
     sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099

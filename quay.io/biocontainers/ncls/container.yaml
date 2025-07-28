@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ncls
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncls
 latest:
-  0.0.68--py312h0fa9677_5: 
-    sha256:3b6487a2947f4399ae80f9fee010408189ebed3217e5536b2f4e7214c4414153
+  0.0.70--py39hbcbf7aa_0: 
+    sha256:a9afa42166725de8018e2d249b201a42ea5dd4a4c6ec69c1d8491c2e2c7ab7bd
 tags:
   0.0.56--py27h3dcb392_0: 
     sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9
@@ -17,6 +17,8 @@ tags:
     sha256:434afa28f07d1e86cc46aa8ac65c032bb4c8531927d4b6f99dbab7283798fa2a
   0.0.68--py312h0fa9677_5: 
     sha256:3b6487a2947f4399ae80f9fee010408189ebed3217e5536b2f4e7214c4414153
+  0.0.70--py39hbcbf7aa_0: 
+    sha256:a9afa42166725de8018e2d249b201a42ea5dd4a4c6ec69c1d8491c2e2c7ab7bd
 docker: quay.io/biocontainers/ncls
 aliases:
   f2py2: /usr/local/bin/f2py2

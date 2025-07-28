@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mantis-msi2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mantis-msi2
 latest:
-  2.0.0--h4ac6f70_1: 
-    sha256:277a297535b9ba599a443961482f0deff2ab5a8dd8113e81c923716c7f6db5b0
+  2.0.0--h9948957_3: 
+    sha256:717b682d878ce91dfa4e4078d3e7f9513b199338c00df9f5cbe6b1fce8b3e7f1
 tags:
   2.0.0--h9f5acd7_0: 
     sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45
   2.0.0--h4ac6f70_1: 
     sha256:277a297535b9ba599a443961482f0deff2ab5a8dd8113e81c923716c7f6db5b0
+  2.0.0--h9948957_3: 
+    sha256:717b682d878ce91dfa4e4078d3e7f9513b199338c00df9f5cbe6b1fce8b3e7f1
 docker: quay.io/biocontainers/mantis-msi2
 aliases:
   calculate_instability.py: /usr/local/bin/calculate_instability.py

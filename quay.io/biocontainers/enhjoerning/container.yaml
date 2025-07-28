@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enhjoerning
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enhjoerning
 latest:
-  2.0.2--h577a1d6_0: 
-    sha256:8535e7493b746b2631ee72077ee6cffd36e821fe0e1dc1b40a336b7de752edd1
+  2.0.3--h577a1d6_0: 
+    sha256:ab3bf169c27fe29134f87ecfb8cda9d308c6a6d3e1b5af22636072063adfa177
 tags:
   2.0.2--h577a1d6_0: 
     sha256:8535e7493b746b2631ee72077ee6cffd36e821fe0e1dc1b40a336b7de752edd1
+  2.0.3--h577a1d6_0: 
+    sha256:ab3bf169c27fe29134f87ecfb8cda9d308c6a6d3e1b5af22636072063adfa177
 docker: quay.io/biocontainers/enhjoerning
 aliases:
   unicorn: /usr/local/bin/unicorn
