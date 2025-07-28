@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/netmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netmd/container.yaml"
-updated_at: "2025-07-27 04:35:06.686166"
-latest: "1.0.0--pyh3c853c9_0"
+updated_at: "2025-07-28 04:32:59.521143"
+latest: "1.0.1--pyh3c853c9_0"
 container_url: "https://biocontainers.pro/tools/netmd"
 aliases:
  - "community"
@@ -40,8 +40,9 @@ aliases:
  - "python3.12"
 versions:
  - "1.0.0--pyh3c853c9_0"
+ - "1.0.1--pyh3c853c9_0"
 description: "singularity registry hpc automated addition for netmd"
-config: {"url": "https://biocontainers.pro/tools/netmd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for netmd", "latest": {"1.0.0--pyh3c853c9_0": "sha256:73ab6c32a24f80b026a1b977ea2453bf66ad0a1581128288eeed4f77f2438c3d"}, "tags": {"1.0.0--pyh3c853c9_0": "sha256:73ab6c32a24f80b026a1b977ea2453bf66ad0a1581128288eeed4f77f2438c3d"}, "docker": "quay.io/biocontainers/netmd", "aliases": {"community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "netmd": "/usr/local/bin/netmd", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h5fuse": "/usr/local/bin/h5fuse", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jupyter-trust": "/usr/local/bin/jupyter-trust", "h5delete": "/usr/local/bin/h5delete", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "numba": "/usr/local/bin/numba", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12"}}
+config: {"url": "https://biocontainers.pro/tools/netmd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for netmd", "latest": {"1.0.1--pyh3c853c9_0": "sha256:a379faa95ba40ad23afecec25ff55e2dc3568236ec2e5fa3f46d00bde41cb480"}, "tags": {"1.0.0--pyh3c853c9_0": "sha256:73ab6c32a24f80b026a1b977ea2453bf66ad0a1581128288eeed4f77f2438c3d", "1.0.1--pyh3c853c9_0": "sha256:a379faa95ba40ad23afecec25ff55e2dc3568236ec2e5fa3f46d00bde41cb480"}, "docker": "quay.io/biocontainers/netmd", "aliases": {"community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "netmd": "/usr/local/bin/netmd", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h5fuse": "/usr/local/bin/h5fuse", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jupyter-trust": "/usr/local/bin/jupyter-trust", "h5delete": "/usr/local/bin/h5delete", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "numba": "/usr/local/bin/numba", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/netmd.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/netmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/netmd:1.0.0--pyh3c853c9_0
+$ shpc install quay.io/biocontainers/netmd:1.0.1--pyh3c853c9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/netmd/1.0.0--pyh3c853c9_0
-$ module help quay.io/biocontainers/netmd/1.0.0--pyh3c853c9_0
+$ module load quay.io/biocontainers/netmd/1.0.1--pyh3c853c9_0
+$ module help quay.io/biocontainers/netmd/1.0.1--pyh3c853c9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

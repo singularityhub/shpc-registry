@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scoop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoop/container.yaml"
-updated_at: "2025-07-27 03:59:45.426307"
-latest: "0.7.1.1--pyh864c0ab_4"
+updated_at: "2025-07-28 03:58:16.043835"
+latest: "0.7.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scoop"
 aliases:
  - "curve_keygen"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.7.1.1--pyh864c0ab_4"
+ - "0.7.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scoop"
-config: {"url": "https://biocontainers.pro/tools/scoop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scoop", "latest": {"0.7.1.1--pyh864c0ab_4": "sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879"}, "tags": {"0.7.1.1--pyh864c0ab_4": "sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879"}, "docker": "quay.io/biocontainers/scoop", "aliases": {"curve_keygen": "/usr/local/bin/curve_keygen", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/scoop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scoop", "latest": {"0.7.2.0--pyhdfd78af_0": "sha256:919ee184bc60df84da86ff7029a9fe688e7dfcc9bb4ab441790c9ac7fad50f99"}, "tags": {"0.7.1.1--pyh864c0ab_4": "sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879", "0.7.2.0--pyhdfd78af_0": "sha256:919ee184bc60df84da86ff7029a9fe688e7dfcc9bb4ab441790c9ac7fad50f99"}, "docker": "quay.io/biocontainers/scoop", "aliases": {"curve_keygen": "/usr/local/bin/curve_keygen", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scoop.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/scoop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scoop:0.7.1.1--pyh864c0ab_4
+$ shpc install quay.io/biocontainers/scoop:0.7.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scoop/0.7.1.1--pyh864c0ab_4
-$ module help quay.io/biocontainers/scoop/0.7.1.1--pyh864c0ab_4
+$ module load quay.io/biocontainers/scoop/0.7.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/scoop/0.7.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wtv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtv/container.yaml"
-updated_at: "2025-07-27 04:22:14.189741"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2025-07-28 04:20:20.518231"
+latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wtv"
 aliases:
  - "wtv-cli"
@@ -36,8 +36,9 @@ aliases:
  - "pydoc3.12"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for wtv"
-config: {"url": "https://biocontainers.pro/tools/wtv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wtv", "latest": {"0.0.2--pyhdfd78af_0": "sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a"}, "docker": "quay.io/biocontainers/wtv", "aliases": {"wtv-cli": "/usr/local/bin/wtv-cli", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_config": "/usr/local/bin/pg_config", "numba": "/usr/local/bin/numba", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12"}}
+config: {"url": "https://biocontainers.pro/tools/wtv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wtv", "latest": {"0.1.0--pyhdfd78af_0": "sha256:e1e68dbebf2752d92fd6943c6a665f77433da89a74688f6d35b8777462f93f44"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:4352c3ff3083a390da25af6543f2a0e90169e9aef628d9c6e1e0382d8b65765a", "0.1.0--pyhdfd78af_0": "sha256:e1e68dbebf2752d92fd6943c6a665f77433da89a74688f6d35b8777462f93f44"}, "docker": "quay.io/biocontainers/wtv", "aliases": {"wtv-cli": "/usr/local/bin/wtv-cli", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_config": "/usr/local/bin/pg_config", "numba": "/usr/local/bin/numba", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wtv.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/wtv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wtv:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/wtv:0.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wtv/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/wtv/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/wtv/0.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/wtv/0.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

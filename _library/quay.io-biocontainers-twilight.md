@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/twilight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twilight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twilight/container.yaml"
-updated_at: "2025-07-27 04:32:07.874341"
+updated_at: "2025-07-28 04:30:03.414273"
 latest: "0.1.4--h6bb9b41_0"
 container_url: "https://biocontainers.pro/tools/twilight"
 aliases:
@@ -18,8 +18,9 @@ versions:
  - "0.1.2--h5ca1c30_1"
  - "0.1.3--h6bb9b41_2"
  - "0.1.4--h6bb9b41_0"
+ - "0.1.4a--h6bb9b41_0"
 description: "singularity registry hpc automated addition for twilight"
-config: {"url": "https://biocontainers.pro/tools/twilight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twilight", "latest": {"0.1.4--h6bb9b41_0": "sha256:f22960b03460001376d1b378f8f0bc3e417747c9b9674738520dba0417e8e301"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:5f9fc2cf6f69becab69808399ecc7b236dc7addb60733ff5ff0c7fadff604e8d", "0.1.2--h5ca1c30_1": "sha256:71f29b4dc9e76102ed490735b0f5d67919c63d6ab18f062d2d6d05361ef7fc71", "0.1.3--h6bb9b41_2": "sha256:53a3fdf599337607fb8661c24184aa0f5db54a82547ccddde7787c447b829012", "0.1.4--h6bb9b41_0": "sha256:f22960b03460001376d1b378f8f0bc3e417747c9b9674738520dba0417e8e301"}, "docker": "quay.io/biocontainers/twilight", "aliases": {"twilight": "/usr/local/bin/twilight", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/twilight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twilight", "latest": {"0.1.4--h6bb9b41_0": "sha256:f22960b03460001376d1b378f8f0bc3e417747c9b9674738520dba0417e8e301"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:5f9fc2cf6f69becab69808399ecc7b236dc7addb60733ff5ff0c7fadff604e8d", "0.1.2--h5ca1c30_1": "sha256:71f29b4dc9e76102ed490735b0f5d67919c63d6ab18f062d2d6d05361ef7fc71", "0.1.3--h6bb9b41_2": "sha256:53a3fdf599337607fb8661c24184aa0f5db54a82547ccddde7787c447b829012", "0.1.4--h6bb9b41_0": "sha256:f22960b03460001376d1b378f8f0bc3e417747c9b9674738520dba0417e8e301", "0.1.4a--h6bb9b41_0": "sha256:9312306a40414223a3e58e2b867b3727e1918896895cddcb84f0f738e30ca876"}, "docker": "quay.io/biocontainers/twilight", "aliases": {"twilight": "/usr/local/bin/twilight", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/twilight.

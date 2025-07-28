@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mordred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mordred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mordred/container.yaml"
-updated_at: "2025-07-27 04:40:43.747306"
+updated_at: "2025-07-28 04:38:31.482950"
 latest: "1.2.0"
 container_url: "https://biocontainers.pro/tools/mordred"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "1.2.0"
+ - "1.2.0--2"
 description: "shpc-registry automated BioContainers addition for mordred"
-config: {"url": "https://biocontainers.pro/tools/mordred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mordred", "latest": {"1.2.0": "sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f"}, "tags": {"1.2.0": "sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f"}, "docker": "quay.io/biocontainers/mordred", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "tqdm": "/usr/local/bin/tqdm", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/mordred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mordred", "latest": {"1.2.0": "sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f"}, "tags": {"1.2.0": "sha256:674d6ecd86d346b3b7855fd350480aeedcbcfd59f01d0a6ceb54f03b2355429f", "1.2.0--2": "sha256:b14ebefaa2ef833eb0d39083eaf957b22dabd2a330fb201b0f14ee142c200411"}, "docker": "quay.io/biocontainers/mordred", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "tqdm": "/usr/local/bin/tqdm", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mordred.

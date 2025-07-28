@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-rose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-rose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-rose/container.yaml"
-updated_at: "2025-07-27 04:21:51.781694"
+updated_at: "2025-07-28 04:19:59.080956"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-rose"
 aliases:
