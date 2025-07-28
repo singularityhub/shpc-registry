@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/pmidcite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pmidcite
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:8499c6c505362df5f3e21a3434416b479d9a7884611342e66062f729bfe8a81b
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:8499c6c505362df5f3e21a3434416b479d9a7884611342e66062f729bfe8a81b
+docker: quay.io/biocontainers/pmidcite
+aliases:
+  icite: /usr/local/bin/icite
+  sumpaps: /usr/local/bin/sumpaps
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer

@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/bandwagon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bandwagon
+latest:
+  0.3.4--pyh7e72e81_0: 
+    sha256:b76828cdec9d5c7f3b4a47bd973911afc0c5e0b0ecb808c51bfaeb4c5cd6289d
+tags:
+  0.3.4--pyh7e72e81_0: 
+    sha256:b76828cdec9d5c7f3b4a47bd973911afc0c5e0b0ecb808c51bfaeb4c5cd6289d
+docker: quay.io/biocontainers/bandwagon
+aliases:
+  html2text: /usr/local/bin/html2text
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
