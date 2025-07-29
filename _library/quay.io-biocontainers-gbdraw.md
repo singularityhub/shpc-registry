@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gbdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbdraw/container.yaml"
-updated_at: "2025-07-28 09:05:40.946673"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-07-29 03:53:05.838879"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gbdraw"
 aliases:
  - "cairosvg"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gbdraw"
-config: {"url": "https://biocontainers.pro/tools/gbdraw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gbdraw", "latest": {"0.2.0--pyhdfd78af_0": "sha256:ba8e50f4b1928638c49e34979a0259fba5ebd812098140fc704f300309b04c63"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:8dc9cb7cd155088f811eea39706a5191258dea8141a93a141b2c9becdc0d5f5c", "0.2.0--pyhdfd78af_0": "sha256:ba8e50f4b1928638c49e34979a0259fba5ebd812098140fc704f300309b04c63"}, "docker": "quay.io/biocontainers/gbdraw", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "gbdraw": "/usr/local/bin/gbdraw", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/gbdraw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gbdraw", "latest": {"0.3.0--pyhdfd78af_0": "sha256:de2b02a16e6071a1f61ab868e30ff3ae850a5886c4e356af6fb7ade041d5c5d2"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:8dc9cb7cd155088f811eea39706a5191258dea8141a93a141b2c9becdc0d5f5c", "0.2.0--pyhdfd78af_0": "sha256:ba8e50f4b1928638c49e34979a0259fba5ebd812098140fc704f300309b04c63", "0.3.0--pyhdfd78af_0": "sha256:de2b02a16e6071a1f61ab868e30ff3ae850a5886c4e356af6fb7ade041d5c5d2"}, "docker": "quay.io/biocontainers/gbdraw", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "gbdraw": "/usr/local/bin/gbdraw", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gbdraw.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/gbdraw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gbdraw:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gbdraw:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gbdraw/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/gbdraw/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/gbdraw/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/gbdraw/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

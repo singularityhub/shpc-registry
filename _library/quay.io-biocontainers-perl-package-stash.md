@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-package-stash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-package-stash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-package-stash/container.yaml"
-updated_at: "2025-07-28 09:44:24.166399"
+updated_at: "2025-07-29 04:32:09.445806"
 latest: "0.40--pl5321h87f3376_1"
 container_url: "https://biocontainers.pro/tools/perl-package-stash"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-velvetoptimiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-velvetoptimiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-velvetoptimiser/container.yaml"
-updated_at: "2025-07-28 09:32:32.674274"
+updated_at: "2025-07-29 04:20:07.664614"
 latest: "2.2.6--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-velvetoptimiser"
 aliases:

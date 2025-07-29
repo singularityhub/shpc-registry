@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/alen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alen/container.yaml"
-updated_at: "2025-07-28 09:36:18.988631"
-latest: "0.3.1--h4349ce8_0"
+updated_at: "2025-07-29 04:23:56.541407"
+latest: "0.3.2--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/alen"
 aliases:
  - "alen"
 versions:
  - "0.3.1--h4349ce8_0"
+ - "0.3.2--h4349ce8_0"
 description: "singularity registry hpc automated addition for alen"
-config: {"url": "https://biocontainers.pro/tools/alen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alen", "latest": {"0.3.1--h4349ce8_0": "sha256:cfbf29e4baa7b723f45ea2ef797cb6d9714fd6a89283a80d6e150e93e5eb2e79"}, "tags": {"0.3.1--h4349ce8_0": "sha256:cfbf29e4baa7b723f45ea2ef797cb6d9714fd6a89283a80d6e150e93e5eb2e79"}, "docker": "quay.io/biocontainers/alen", "aliases": {"alen": "/usr/local/bin/alen"}}
+config: {"url": "https://biocontainers.pro/tools/alen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alen", "latest": {"0.3.2--h4349ce8_0": "sha256:864e85c918cfc1e123d1a26c9a11b84b9c6dc8f184a49f6962e725cd5bd295c8"}, "tags": {"0.3.1--h4349ce8_0": "sha256:cfbf29e4baa7b723f45ea2ef797cb6d9714fd6a89283a80d6e150e93e5eb2e79", "0.3.2--h4349ce8_0": "sha256:864e85c918cfc1e123d1a26c9a11b84b9c6dc8f184a49f6962e725cd5bd295c8"}, "docker": "quay.io/biocontainers/alen", "aliases": {"alen": "/usr/local/bin/alen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alen.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/alen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alen:0.3.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/alen:0.3.2--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alen/0.3.1--h4349ce8_0
-$ module help quay.io/biocontainers/alen/0.3.1--h4349ce8_0
+$ module load quay.io/biocontainers/alen/0.3.2--h4349ce8_0
+$ module help quay.io/biocontainers/alen/0.3.2--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

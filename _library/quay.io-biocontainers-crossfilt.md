@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crossfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crossfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crossfilt/container.yaml"
-updated_at: "2025-07-28 09:39:39.633128"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2025-07-29 04:27:18.632480"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crossfilt"
 aliases:
  - "crossfilt-filter"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.5--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crossfilt"
-config: {"url": "https://biocontainers.pro/tools/crossfilt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crossfilt", "latest": {"0.1.5--pyhdfd78af_0": "sha256:3e72aea13b5378e36d21acaf10e014a41654ffc2dbc99c30a978dfd5ea035660"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:420e1ea89aabd483ce2bf232a708a908f5a6360b9358fa56858eb0c3790a3753", "0.1.5--pyhdfd78af_0": "sha256:3e72aea13b5378e36d21acaf10e014a41654ffc2dbc99c30a978dfd5ea035660"}, "docker": "quay.io/biocontainers/crossfilt", "aliases": {"crossfilt-filter": "/usr/local/bin/crossfilt-filter", "crossfilt-lift": "/usr/local/bin/crossfilt-lift", "crossfilt-split": "/usr/local/bin/crossfilt-split", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/crossfilt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crossfilt", "latest": {"0.2.1--pyhdfd78af_0": "sha256:2b78e4ec5f4931f899be82271a371778dd6cf16c082227b91eb678ef63749818"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:420e1ea89aabd483ce2bf232a708a908f5a6360b9358fa56858eb0c3790a3753", "0.1.5--pyhdfd78af_0": "sha256:3e72aea13b5378e36d21acaf10e014a41654ffc2dbc99c30a978dfd5ea035660", "0.2.1--pyhdfd78af_0": "sha256:2b78e4ec5f4931f899be82271a371778dd6cf16c082227b91eb678ef63749818"}, "docker": "quay.io/biocontainers/crossfilt", "aliases": {"crossfilt-filter": "/usr/local/bin/crossfilt-filter", "crossfilt-lift": "/usr/local/bin/crossfilt-lift", "crossfilt-split": "/usr/local/bin/crossfilt-split", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crossfilt.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/crossfilt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crossfilt:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crossfilt:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crossfilt/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/crossfilt/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/crossfilt/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/crossfilt/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

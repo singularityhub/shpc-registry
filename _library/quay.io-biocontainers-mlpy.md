@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlpy/container.yaml"
-updated_at: "2025-07-28 09:47:44.456625"
+updated_at: "2025-07-29 04:35:36.604437"
 latest: "3.5.0--py27hc30c61c_3"
 container_url: "https://biocontainers.pro/tools/mlpy"
 aliases:

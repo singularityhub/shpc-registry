@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shapely"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapely/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapely/container.yaml"
-updated_at: "2025-07-28 09:36:16.402810"
+updated_at: "2025-07-29 04:23:53.969651"
 latest: "2.0.4"
 container_url: "https://biocontainers.pro/tools/shapely"
 aliases:

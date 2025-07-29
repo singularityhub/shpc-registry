@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ervdetective"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ervdetective/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ervdetective/container.yaml"
-updated_at: "2025-07-28 09:50:22.431988"
-latest: "1.0.8--pyhdfd78af_0"
+updated_at: "2025-07-29 04:38:17.344553"
+latest: "1.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ervdetective"
 aliases:
  - "ervdetective"
@@ -36,8 +36,9 @@ aliases:
  - "gm2ranges"
 versions:
  - "1.0.8--pyhdfd78af_0"
+ - "1.0.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ervdetective"
-config: {"url": "https://biocontainers.pro/tools/ervdetective", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ervdetective", "latest": {"1.0.8--pyhdfd78af_0": "sha256:575e0e4ae18235dbe60c735f3e478030a50107be8f181a699ca3465d08ae44bc"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:575e0e4ae18235dbe60c735f3e478030a50107be8f181a699ca3465d08ae44bc"}, "docker": "quay.io/biocontainers/ervdetective", "aliases": {"ervdetective": "/usr/local/bin/ervdetective", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "just-first-key": "/usr/local/bin/just-first-key", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges"}}
+config: {"url": "https://biocontainers.pro/tools/ervdetective", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ervdetective", "latest": {"1.0.9--pyhdfd78af_0": "sha256:1ae95e8d5dacb0c696aa6b5545d80cb884a44717737014d535b3eb76723b5a39"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:575e0e4ae18235dbe60c735f3e478030a50107be8f181a699ca3465d08ae44bc", "1.0.9--pyhdfd78af_0": "sha256:1ae95e8d5dacb0c696aa6b5545d80cb884a44717737014d535b3eb76723b5a39"}, "docker": "quay.io/biocontainers/ervdetective", "aliases": {"ervdetective": "/usr/local/bin/ervdetective", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "just-first-key": "/usr/local/bin/just-first-key", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ervdetective.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/ervdetective
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ervdetective:1.0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ervdetective:1.0.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ervdetective/1.0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/ervdetective/1.0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/ervdetective/1.0.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/ervdetective/1.0.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

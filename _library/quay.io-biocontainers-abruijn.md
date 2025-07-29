@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abruijn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abruijn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abruijn/container.yaml"
-updated_at: "2025-07-28 09:52:12.817271"
+updated_at: "2025-07-29 04:40:08.780292"
 latest: "2.1b--py27_0"
 container_url: "https://biocontainers.pro/tools/abruijn"
 aliases:

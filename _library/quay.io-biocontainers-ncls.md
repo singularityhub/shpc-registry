@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncls/container.yaml"
-updated_at: "2025-07-28 09:24:40.797217"
-latest: "0.0.68--py312h0fa9677_5"
+updated_at: "2025-07-29 04:12:13.127356"
+latest: "0.0.70--py39hbcbf7aa_0"
 container_url: "https://biocontainers.pro/tools/ncls"
 aliases:
  - "f2py2"
@@ -24,8 +24,9 @@ versions:
  - "0.0.68--py310h7c593f9_3"
  - "0.0.68--py312hf67a6ed_4"
  - "0.0.68--py312h0fa9677_5"
+ - "0.0.70--py39hbcbf7aa_0"
 description: "shpc-registry automated BioContainers addition for ncls"
-config: {"url": "https://biocontainers.pro/tools/ncls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncls", "latest": {"0.0.68--py312h0fa9677_5": "sha256:3b6487a2947f4399ae80f9fee010408189ebed3217e5536b2f4e7214c4414153"}, "tags": {"0.0.56--py27h3dcb392_0": "sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9", "0.0.68--py38he5da3d1_1": "sha256:ee615c4d10f6a228902f228b0b25c535527c57016ac5eaa7c135d0765f11b5d2", "0.0.68--py310h4b81fae_2": "sha256:468f377c12c85d8dacccd4b0105fee22f405241f8abd837216d91c80de9fdcfb", "0.0.68--py310h7c593f9_3": "sha256:a617339adc391f015c0ca930bf649f4dca4e7ac6104b0e2f47784730695b6e46", "0.0.68--py312hf67a6ed_4": "sha256:434afa28f07d1e86cc46aa8ac65c032bb4c8531927d4b6f99dbab7283798fa2a", "0.0.68--py312h0fa9677_5": "sha256:3b6487a2947f4399ae80f9fee010408189ebed3217e5536b2f4e7214c4414153"}, "docker": "quay.io/biocontainers/ncls", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ncls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncls", "latest": {"0.0.70--py39hbcbf7aa_0": "sha256:a9afa42166725de8018e2d249b201a42ea5dd4a4c6ec69c1d8491c2e2c7ab7bd"}, "tags": {"0.0.56--py27h3dcb392_0": "sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9", "0.0.68--py38he5da3d1_1": "sha256:ee615c4d10f6a228902f228b0b25c535527c57016ac5eaa7c135d0765f11b5d2", "0.0.68--py310h4b81fae_2": "sha256:468f377c12c85d8dacccd4b0105fee22f405241f8abd837216d91c80de9fdcfb", "0.0.68--py310h7c593f9_3": "sha256:a617339adc391f015c0ca930bf649f4dca4e7ac6104b0e2f47784730695b6e46", "0.0.68--py312hf67a6ed_4": "sha256:434afa28f07d1e86cc46aa8ac65c032bb4c8531927d4b6f99dbab7283798fa2a", "0.0.68--py312h0fa9677_5": "sha256:3b6487a2947f4399ae80f9fee010408189ebed3217e5536b2f4e7214c4414153", "0.0.70--py39hbcbf7aa_0": "sha256:a9afa42166725de8018e2d249b201a42ea5dd4a4c6ec69c1d8491c2e2c7ab7bd"}, "docker": "quay.io/biocontainers/ncls", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncls.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ncls
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncls:0.0.68--py312h0fa9677_5
+$ shpc install quay.io/biocontainers/ncls:0.0.70--py39hbcbf7aa_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncls/0.0.68--py312h0fa9677_5
-$ module help quay.io/biocontainers/ncls/0.0.68--py312h0fa9677_5
+$ module load quay.io/biocontainers/ncls/0.0.70--py39hbcbf7aa_0
+$ module help quay.io/biocontainers/ncls/0.0.70--py39hbcbf7aa_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

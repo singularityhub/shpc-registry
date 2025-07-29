@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaalishapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaalishapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaalishapes/container.yaml"
-updated_at: "2025-07-28 09:07:31.739817"
+updated_at: "2025-07-29 03:54:57.253857"
 latest: "2.5.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/rnaalishapes"
 aliases:

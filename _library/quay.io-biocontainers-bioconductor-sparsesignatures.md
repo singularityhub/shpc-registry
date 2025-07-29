@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparsesignatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
-updated_at: "2025-07-28 09:31:33.130538"
+updated_at: "2025-07-29 04:19:08.469129"
 latest: "2.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsesignatures"
 

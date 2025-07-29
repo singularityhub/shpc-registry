@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peptide-shaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptide-shaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptide-shaker/container.yaml"
-updated_at: "2025-07-28 09:48:38.509564"
+updated_at: "2025-07-29 04:36:32.501744"
 latest: "3.0.11--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peptide-shaker"
 aliases:

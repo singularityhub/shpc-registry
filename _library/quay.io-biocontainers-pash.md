@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pash/container.yaml"
-updated_at: "2025-07-28 09:28:24.147878"
+updated_at: "2025-07-29 04:15:59.094112"
 latest: "3.0.6.2--0"
 container_url: "https://biocontainers.pro/tools/pash"
 aliases:

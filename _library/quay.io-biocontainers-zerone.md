@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zerone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zerone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zerone/container.yaml"
-updated_at: "2025-07-28 09:06:10.004923"
-latest: "1.0--h577a1d6_7"
+updated_at: "2025-07-29 03:53:35.082023"
+latest: "1.0--h577a1d6_8"
 container_url: "https://biocontainers.pro/tools/zerone"
 aliases:
  - "zerone"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h7132678_4"
  - "1.0--he4a0461_6"
  - "1.0--h577a1d6_7"
+ - "1.0--h577a1d6_8"
 description: "shpc-registry automated BioContainers addition for zerone"
-config: {"url": "https://biocontainers.pro/tools/zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zerone", "latest": {"1.0--h577a1d6_7": "sha256:8cb6173b48a4cff17addedc7c7cb418a846ac39992a5bba970cf1b38b4294cd4"}, "tags": {"1.0--h7132678_4": "sha256:bf6485873c9659356c16f57d9c641534e6916e77b3d7a58089346a747f3fd72a", "1.0--he4a0461_6": "sha256:58e6efb5c3e14466d9ff20db153fd948cc619332252d92ea95f8f97e8d1f0fe2", "1.0--h577a1d6_7": "sha256:8cb6173b48a4cff17addedc7c7cb418a846ac39992a5bba970cf1b38b4294cd4"}, "docker": "quay.io/biocontainers/zerone", "aliases": {"zerone": "/usr/local/bin/zerone"}}
+config: {"url": "https://biocontainers.pro/tools/zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zerone", "latest": {"1.0--h577a1d6_8": "sha256:900eb4ecf53f9aa6f1bf7d84a02cb0f3bf3ad9eb76bb4bf62c046422e28288f3"}, "tags": {"1.0--h7132678_4": "sha256:bf6485873c9659356c16f57d9c641534e6916e77b3d7a58089346a747f3fd72a", "1.0--he4a0461_6": "sha256:58e6efb5c3e14466d9ff20db153fd948cc619332252d92ea95f8f97e8d1f0fe2", "1.0--h577a1d6_7": "sha256:8cb6173b48a4cff17addedc7c7cb418a846ac39992a5bba970cf1b38b4294cd4", "1.0--h577a1d6_8": "sha256:900eb4ecf53f9aa6f1bf7d84a02cb0f3bf3ad9eb76bb4bf62c046422e28288f3"}, "docker": "quay.io/biocontainers/zerone", "aliases": {"zerone": "/usr/local/bin/zerone"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zerone.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/zerone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zerone:1.0--h577a1d6_7
+$ shpc install quay.io/biocontainers/zerone:1.0--h577a1d6_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zerone/1.0--h577a1d6_7
-$ module help quay.io/biocontainers/zerone/1.0--h577a1d6_7
+$ module load quay.io/biocontainers/zerone/1.0--h577a1d6_8
+$ module help quay.io/biocontainers/zerone/1.0--h577a1d6_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

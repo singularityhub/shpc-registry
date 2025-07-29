@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-triform"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-triform/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-triform/container.yaml"
-updated_at: "2025-07-28 09:38:06.928082"
+updated_at: "2025-07-29 04:25:43.758461"
 latest: "1.29.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-triform"
 aliases:

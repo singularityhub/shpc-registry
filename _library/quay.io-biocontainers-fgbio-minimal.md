@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgbio-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgbio-minimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgbio-minimal/container.yaml"
-updated_at: "2025-07-28 09:27:51.901972"
+updated_at: "2025-07-29 04:15:26.853798"
 latest: "2.5.21--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgbio-minimal"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dunovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dunovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dunovo/container.yaml"
-updated_at: "2025-07-28 09:54:42.383741"
+updated_at: "2025-07-29 04:42:39.012219"
 latest: "3.0.2--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/dunovo"
 aliases:
