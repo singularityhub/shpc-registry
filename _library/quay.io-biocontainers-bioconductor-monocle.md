@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-monocle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
-updated_at: "2025-07-29 04:01:59.405912"
+updated_at: "2025-07-30 03:56:07.123911"
 latest: "2.34.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-monocle"
 aliases:

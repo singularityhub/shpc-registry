@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simug"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simug/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simug/container.yaml"
-updated_at: "2025-07-29 03:53:15.105423"
+updated_at: "2025-07-30 03:47:29.541026"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/simug"
 aliases:

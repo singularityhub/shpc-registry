@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
-updated_at: "2025-07-29 04:35:11.129845"
+updated_at: "2025-07-30 04:28:06.434091"
 latest: "0.5.5--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidexperiment"
 

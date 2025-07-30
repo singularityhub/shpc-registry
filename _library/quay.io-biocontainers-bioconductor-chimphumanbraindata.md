@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chimphumanbraindata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimphumanbraindata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimphumanbraindata/container.yaml"
-updated_at: "2025-07-29 04:39:49.177192"
+updated_at: "2025-07-30 04:32:32.451116"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimphumanbraindata"
 

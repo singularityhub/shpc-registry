@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rdavidwebservice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rdavidwebservice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rdavidwebservice/container.yaml"
-updated_at: "2025-07-29 04:15:00.526107"
+updated_at: "2025-07-30 04:08:44.469816"
 latest: "1.28.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rdavidwebservice"
 aliases:

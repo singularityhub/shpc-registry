@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kobas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kobas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kobas/container.yaml"
-updated_at: "2025-07-29 04:33:50.778429"
+updated_at: "2025-07-30 04:26:51.044574"
 latest: "3.0.3--py_3"
 container_url: "https://biocontainers.pro/tools/kobas"
 aliases:

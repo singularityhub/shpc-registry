@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lisaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lisaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lisaclust/container.yaml"
-updated_at: "2025-07-29 04:34:42.289605"
+updated_at: "2025-07-30 04:27:39.516832"
 latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lisaclust"
 aliases:

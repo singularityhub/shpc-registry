@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sapfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sapfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sapfinder/container.yaml"
-updated_at: "2025-07-29 04:25:47.280340"
+updated_at: "2025-07-30 04:19:10.324065"
 latest: "1.26.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sapfinder"
 aliases:
