@@ -1,4 +1,52 @@
 aliases:
+  DPMFoam: /opt/OpenFOAM/OpenFOAM-9/bin/DPMFoam
+  MPPICFoam: /opt/OpenFOAM/OpenFOAM-9/bin/MPPICFoam
+  buoyantReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-9/bin/buoyantReactingParticleFoam
+  coalChemistryFoam: /opt/OpenFOAM/OpenFOAM-9/bin/coalChemistryFoam
+  compressibleInterFilmFoam: /opt/OpenFOAM/OpenFOAM-9/bin/compressibleInterFilmFoam
+  fireFoam: /opt/OpenFOAM/OpenFOAM-9/bin/fireFoam
+  foamCleanCase: /opt/OpenFOAM/OpenFOAM-9/bin/foamCleanCase
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-9/bin/foamCleanPath
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-9/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-9/bin/foamCloneCase
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-9/bin/foamCreateVideo
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-9/bin/foamEtcFile
+  foamExec: /opt/OpenFOAM/OpenFOAM-9/bin/foamExec
+  foamGet: /opt/OpenFOAM/OpenFOAM-9/bin/foamGet
+  foamInfo: /opt/OpenFOAM/OpenFOAM-9/bin/foamInfo
+  foamJob: /opt/OpenFOAM/OpenFOAM-9/bin/foamJob
+  foamLog: /opt/OpenFOAM/OpenFOAM-9/bin/foamLog
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-9/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-9/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-9/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-9/bin/foamNewBC
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-9/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-9/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-9/bin/foamNewTemplate
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-9/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-9/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-9/bin/foamSequenceVTKFiles
+  foamTags: /opt/OpenFOAM/OpenFOAM-9/bin/foamTags
+  icoUncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-9/bin/icoUncoupledKinematicParcelFoam
+  interPhaseChangeFoam: /opt/OpenFOAM/OpenFOAM-9/bin/interPhaseChangeFoam
+  mergeOrSplitBaffles: /opt/OpenFOAM/OpenFOAM-9/bin/mergeOrSplitBaffles
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-9/bin/mpirunDebug
+  org-html: /opt/OpenFOAM/OpenFOAM-9/bin/org-html
+  org-latex: /opt/OpenFOAM/OpenFOAM-9/bin/org-latex
+  org-pdflatex: /opt/OpenFOAM/OpenFOAM-9/bin/org-pdflatex
+  paraFoam: /opt/OpenFOAM/OpenFOAM-9/bin/paraFoam
+  reactingMultiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-9/bin/reactingMultiphaseEulerFoam
+  reactingParcelFoam: /opt/OpenFOAM/OpenFOAM-9/bin/reactingParcelFoam
+  reactingParticleFoam: /opt/OpenFOAM/OpenFOAM-9/bin/reactingParticleFoam
+  reactingTwoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-9/bin/reactingTwoPhaseEulerFoam
+  rhoReactingBuoyantFoam: /opt/OpenFOAM/OpenFOAM-9/bin/rhoReactingBuoyantFoam
+  rhoReactingFoam: /opt/OpenFOAM/OpenFOAM-9/bin/rhoReactingFoam
+  simpleReactingParcelFoam: /opt/OpenFOAM/OpenFOAM-9/bin/simpleReactingParcelFoam
+  simpleReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-9/bin/simpleReactingParticleFoam
+  sprayFoam: /opt/OpenFOAM/OpenFOAM-9/bin/sprayFoam
+  surfaceFeatureExtract: /opt/OpenFOAM/OpenFOAM-9/bin/surfaceFeatureExtract
+  twoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-9/bin/twoPhaseEulerFoam
+  uncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-9/bin/uncoupledKinematicParcelFoam
   PDRFoam: /opt/OpenFOAM/OpenFOAM-9/platforms/linux64GccDPInt32Opt/bin/PDRFoam
   PDRMesh: /opt/OpenFOAM/OpenFOAM-9/platforms/linux64GccDPInt32Opt/bin/PDRMesh
   SRFPimpleFoam: /opt/OpenFOAM/OpenFOAM-9/platforms/linux64GccDPInt32Opt/bin/SRFPimpleFoam

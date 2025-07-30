@@ -1,4 +1,52 @@
 aliases:
+  DPMDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/DPMDyMFoam
+  MPPICDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/MPPICDyMFoam
+  buoyantBoussinesqPimpleFoam: /opt/OpenFOAM/OpenFOAM-7/bin/buoyantBoussinesqPimpleFoam
+  buoyantBoussinesqSimpleFoam: /opt/OpenFOAM/OpenFOAM-7/bin/buoyantBoussinesqSimpleFoam
+  cavitatingDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/cavitatingDyMFoam
+  compressibleInterDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/compressibleInterDyMFoam
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-7/bin/foamCleanPath
+  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-7/bin/foamCleanPolyMesh
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-7/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-7/bin/foamCloneCase
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-7/bin/foamCreateVideo
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-7/bin/foamEtcFile
+  foamExec: /opt/OpenFOAM/OpenFOAM-7/bin/foamExec
+  foamGet: /opt/OpenFOAM/OpenFOAM-7/bin/foamGet
+  foamInfo: /opt/OpenFOAM/OpenFOAM-7/bin/foamInfo
+  foamJob: /opt/OpenFOAM/OpenFOAM-7/bin/foamJob
+  foamLog: /opt/OpenFOAM/OpenFOAM-7/bin/foamLog
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-7/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-7/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-7/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-7/bin/foamNewBC
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-7/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-7/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-7/bin/foamNewTemplate
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-7/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-7/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-7/bin/foamSequenceVTKFiles
+  foamTags: /opt/OpenFOAM/OpenFOAM-7/bin/foamTags
+  icoUncoupledKinematicParcelDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/icoUncoupledKinematicParcelDyMFoam
+  interDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/interDyMFoam
+  interPhaseChangeDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/interPhaseChangeDyMFoam
+  mergedDyM: /opt/OpenFOAM/OpenFOAM-7/bin/mergedDyM
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-7/bin/mpirunDebug
+  multiphaseInterDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/multiphaseInterDyMFoam
+  org-html: /opt/OpenFOAM/OpenFOAM-7/bin/org-html
+  org-latex: /opt/OpenFOAM/OpenFOAM-7/bin/org-latex
+  org-pdflatex: /opt/OpenFOAM/OpenFOAM-7/bin/org-pdflatex
+  paraFoam: /opt/OpenFOAM/OpenFOAM-7/bin/paraFoam
+  pimpleDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/pimpleDyMFoam
+  potentialFreeSurfaceDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/potentialFreeSurfaceDyMFoam
+  rhoCentralDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/rhoCentralDyMFoam
+  rhoPimpleDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/rhoPimpleDyMFoam
+  sonicDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/sonicDyMFoam
+  sonicFoam: /opt/OpenFOAM/OpenFOAM-7/bin/sonicFoam
+  sonicLiquidFoam: /opt/OpenFOAM/OpenFOAM-7/bin/sonicLiquidFoam
+  sprayDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/sprayDyMFoam
+  surfaceFeatureExtract: /opt/OpenFOAM/OpenFOAM-7/bin/surfaceFeatureExtract
+  uncoupledKinematicParcelDyMFoam: /opt/OpenFOAM/OpenFOAM-7/bin/uncoupledKinematicParcelDyMFoam
   DPMFoam: /opt/OpenFOAM/OpenFOAM-7/platforms/linux64GccDPInt32Opt/bin/DPMFoam
   MPPICFoam: /opt/OpenFOAM/OpenFOAM-7/platforms/linux64GccDPInt32Opt/bin/MPPICFoam
   PDRFoam: /opt/OpenFOAM/OpenFOAM-7/platforms/linux64GccDPInt32Opt/bin/PDRFoam

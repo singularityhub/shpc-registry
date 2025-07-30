@@ -3,8 +3,9 @@ url: https://quay.io/repository/pawsey/openfoam-org
 maintainer: '@alexisespinosa'
 description: OpenFOAM (openfoam.org) images built on top of MPICH.
 latest:
-  '10': sha256:7b923a567b7792a7da827a09d60aedb90d2f324f69892ab86b2f8d970ecf8fb1
+  '12': sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753
 tags:
+  '12': sha256:09f54e09369bfd212a4c11334a13a18ca6aed5d4a7452ecac11cd2d145152753
   '10': sha256:7b923a567b7792a7da827a09d60aedb90d2f324f69892ab86b2f8d970ecf8fb1
   '9': sha256:7df46fc4cc0844c66ddfb897f47bf79b3e4c33c3a9d9bf8169d2ac6ea896841f
   '8': sha256:a552ba767634ae7e87a8db9585476348ccbebdc3ae1d264f7af87384c291d4aa
