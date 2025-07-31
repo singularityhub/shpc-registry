@@ -1,4 +1,37 @@
 aliases:
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-8/bin/foamCleanPath
+  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-8/bin/foamCleanPolyMesh
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-8/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-8/bin/foamCloneCase
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-8/bin/foamCreateVideo
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-8/bin/foamEtcFile
+  foamExec: /opt/OpenFOAM/OpenFOAM-8/bin/foamExec
+  foamGet: /opt/OpenFOAM/OpenFOAM-8/bin/foamGet
+  foamInfo: /opt/OpenFOAM/OpenFOAM-8/bin/foamInfo
+  foamJob: /opt/OpenFOAM/OpenFOAM-8/bin/foamJob
+  foamLog: /opt/OpenFOAM/OpenFOAM-8/bin/foamLog
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-8/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-8/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-8/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-8/bin/foamNewBC
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-8/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-8/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-8/bin/foamNewTemplate
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-8/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-8/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-8/bin/foamSequenceVTKFiles
+  foamTags: /opt/OpenFOAM/OpenFOAM-8/bin/foamTags
+  icoUncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-8/bin/icoUncoupledKinematicParcelFoam
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-8/bin/mpirunDebug
+  org-html: /opt/OpenFOAM/OpenFOAM-8/bin/org-html
+  org-latex: /opt/OpenFOAM/OpenFOAM-8/bin/org-latex
+  org-pdflatex: /opt/OpenFOAM/OpenFOAM-8/bin/org-pdflatex
+  paraFoam: /opt/OpenFOAM/OpenFOAM-8/bin/paraFoam
+  reactingMultiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-8/bin/reactingMultiphaseEulerFoam
+  reactingTwoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-8/bin/reactingTwoPhaseEulerFoam
+  surfaceFeatureExtract: /opt/OpenFOAM/OpenFOAM-8/bin/surfaceFeatureExtract
+  twoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-8/bin/twoPhaseEulerFoam
+  uncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-8/bin/uncoupledKinematicParcelFoam
   DPMFoam: /opt/OpenFOAM/OpenFOAM-8/platforms/linux64GccDPInt32Opt/bin/DPMFoam
   MPPICFoam: /opt/OpenFOAM/OpenFOAM-8/platforms/linux64GccDPInt32Opt/bin/MPPICFoam
   PDRFoam: /opt/OpenFOAM/OpenFOAM-8/platforms/linux64GccDPInt32Opt/bin/PDRFoam
