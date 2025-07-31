@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/alphafill
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alphafill
+latest:
+  2.2.0--haf24da9_0: 
+    sha256:1e46f583b5b296af079d6d2820d56439c463220e7bd10223be92ae06d6509d13
+tags:
+  2.2.0--haf24da9_0: 
+    sha256:1e46f583b5b296af079d6d2820d56439c463220e7bd10223be92ae06d6509d13
+docker: quay.io/biocontainers/alphafill
+aliases:
+  alphafill: /usr/local/bin/alphafill

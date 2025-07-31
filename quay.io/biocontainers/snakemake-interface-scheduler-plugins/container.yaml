@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/snakemake-interface-scheduler-plugins
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  snakemake-interface-scheduler-plugins
+latest:
+  2.0.0--pyhdfd78af_0: 
+    sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9
+tags:
+  2.0.0--pyhdfd78af_0: 
+    sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9
+docker: quay.io/biocontainers/snakemake-interface-scheduler-plugins
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

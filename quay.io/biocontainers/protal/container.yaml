@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/protal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for protal
+latest:
+  0.1.0a--h5ca1c30_0: 
+    sha256:e63c8c9a12b3c073a3c3b7cf5b300bc30417acc1fff7de993a5e642e1aea8af3
+tags:
+  0.1.0a--h5ca1c30_0: 
+    sha256:e63c8c9a12b3c073a3c3b7cf5b300bc30417acc1fff7de993a5e642e1aea8af3
+docker: quay.io/biocontainers/protal
+aliases:
+  protal: /usr/local/bin/protal
+  protal_avx2: /usr/local/bin/protal_avx2
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

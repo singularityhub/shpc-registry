@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/cif-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cif-tools
+latest:
+  1.0.12--h077b44d_0: 
+    sha256:55e7990c00174aecca6204b87d4e2a8dc64dcc78f68e204b885c8dff7e6789ed
+tags:
+  1.0.12--h077b44d_0: 
+    sha256:55e7990c00174aecca6204b87d4e2a8dc64dcc78f68e204b885c8dff7e6789ed
+docker: quay.io/biocontainers/cif-tools
+aliases:
+  cif-diff: /usr/local/bin/cif-diff
+  cif-grep: /usr/local/bin/cif-grep
+  cif-merge: /usr/local/bin/cif-merge
+  cif-validate: /usr/local/bin/cif-validate
+  cif2pdb: /usr/local/bin/cif2pdb
+  mmCQL: /usr/local/bin/mmCQL
+  pdb2cif: /usr/local/bin/pdb2cif
