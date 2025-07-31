@@ -1,4 +1,34 @@
 aliases:
+  foamCheckJobs: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCheckJobs
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCleanPath
+  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCleanPolyMesh
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCloneCase
+  foamCopySettings: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCopySettings
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamCreateVideo
+  foamEndJob: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamEndJob
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamEtcFile
+  foamGetDict: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamGetDict
+  foamInstallationTest: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamInstallationTest
+  foamJob: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamJob
+  foamLog: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamLog
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewBC
+  foamNewCase: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewCase
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamNewTemplate
+  foamPrintJobs: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamPrintJobs
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamSequenceVTKFiles
+  foamSolverSweeps: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamSolverSweeps
+  foamSystemCheck: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamSystemCheck
+  foamTestTutorial: /opt/OpenFOAM/OpenFOAM-v2206/bin/foamTestTutorial
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-v2206/bin/mpirunDebug
+  paraFoam: /opt/OpenFOAM/OpenFOAM-v2206/bin/paraFoam
   DPMDyMFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/DPMDyMFoam
   DPMFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/DPMFoam
   FLMAToSurface: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/FLMAToSurface
@@ -85,8 +115,6 @@ aliases:
   extrudeEdgesInto2DSurface: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/extrudeEdgesInto2DSurface
   extrudeMesh: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/extrudeMesh
   extrudeToRegionMesh: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/extrudeToRegionMesh
-  faParkerFukushimaFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/faParkerFukushimaFoam
-  faSavageHutterFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/faSavageHutterFoam
   faceAgglomerate: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/faceAgglomerate
   financialFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/financialFoam
   fireFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/fireFoam
@@ -117,7 +145,6 @@ aliases:
   generateBoundaryLayers: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/generateBoundaryLayers
   generateMoments: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/generateMoments
   gmshToFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/gmshToFoam
-  gridToSTL: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/gridToSTL
   icoFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/icoFoam
   icoReactingMultiphaseInterFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/icoReactingMultiphaseInterFoam
   icoUncoupledKinematicParcelDyMFoam: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/icoUncoupledKinematicParcelDyMFoam
@@ -211,7 +238,6 @@ aliases:
   refineMesh: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/refineMesh
   refineWallLayer: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/refineWallLayer
   refinementLevel: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/refinementLevel
-  releaseAreaMapping: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/releaseAreaMapping
   removeFaces: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/removeFaces
   removeSurfaceFacets: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/removeSurfaceFacets
   renumberMesh: /opt/OpenFOAM/OpenFOAM-v2206/platforms/linux64GccDPInt32Opt/bin/renumberMesh
