@@ -1,4 +1,34 @@
 aliases:
+  foamCheckJobs: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCheckJobs
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCleanPath
+  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCleanPolyMesh
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCloneCase
+  foamCopySettings: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCopySettings
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamCreateVideo
+  foamEndJob: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamEndJob
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamEtcFile
+  foamGetDict: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamGetDict
+  foamInstallationTest: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamInstallationTest
+  foamJob: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamJob
+  foamLog: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamLog
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewBC
+  foamNewCase: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewCase
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamNewTemplate
+  foamPrintJobs: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamPrintJobs
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamSequenceVTKFiles
+  foamSolverSweeps: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamSolverSweeps
+  foamSystemCheck: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamSystemCheck
+  foamTestTutorial: /opt/OpenFOAM/OpenFOAM-v2212/bin/foamTestTutorial
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-v2212/bin/mpirunDebug
+  paraFoam: /opt/OpenFOAM/OpenFOAM-v2212/bin/paraFoam
   DPMDyMFoam: /opt/OpenFOAM/OpenFOAM-v2212/platforms/linux64GccDPInt32Opt/bin/DPMDyMFoam
   DPMFoam: /opt/OpenFOAM/OpenFOAM-v2212/platforms/linux64GccDPInt32Opt/bin/DPMFoam
   FLMAToSurface: /opt/OpenFOAM/OpenFOAM-v2212/platforms/linux64GccDPInt32Opt/bin/FLMAToSurface
