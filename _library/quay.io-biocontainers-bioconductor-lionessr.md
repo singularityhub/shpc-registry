@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lionessr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lionessr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lionessr/container.yaml"
-updated_at: "2025-07-31 04:06:53.684583"
+updated_at: "2025-07-31 11:25:40.507418"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lionessr"
 

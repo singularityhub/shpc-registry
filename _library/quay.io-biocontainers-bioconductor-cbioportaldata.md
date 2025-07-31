@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cbioportaldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbioportaldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbioportaldata/container.yaml"
-updated_at: "2025-07-31 03:51:19.599288"
+updated_at: "2025-07-31 11:09:56.808104"
 latest: "2.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbioportaldata"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dwgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dwgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dwgsim/container.yaml"
-updated_at: "2025-07-31 03:49:41.147516"
+updated_at: "2025-07-31 11:08:21.979037"
 latest: "1.1.14--h96c455f_2"
 container_url: "https://biocontainers.pro/tools/dwgsim"
 aliases:

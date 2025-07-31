@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytoviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytoviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytoviewer/container.yaml"
-updated_at: "2025-07-31 03:55:20.703586"
+updated_at: "2025-07-31 11:14:01.302603"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytoviewer"
 aliases:

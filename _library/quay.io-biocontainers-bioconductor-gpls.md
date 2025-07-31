@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gpls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gpls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gpls/container.yaml"
-updated_at: "2025-07-31 04:16:56.406038"
+updated_at: "2025-07-31 11:35:53.899829"
 latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gpls"
 

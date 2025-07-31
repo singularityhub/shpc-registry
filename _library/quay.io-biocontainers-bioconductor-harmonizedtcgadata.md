@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harmonizedtcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
-updated_at: "2025-07-31 04:32:40.210288"
+updated_at: "2025-07-31 11:51:52.851486"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdflib-jsonld"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdflib-jsonld/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdflib-jsonld/container.yaml"
-updated_at: "2025-07-31 04:19:31.555243"
+updated_at: "2025-07-31 11:38:33.317563"
 latest: "0.4--py27_0"
 container_url: "https://biocontainers.pro/tools/rdflib-jsonld"
 aliases:

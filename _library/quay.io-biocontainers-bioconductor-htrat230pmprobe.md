@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htrat230pmprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htrat230pmprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htrat230pmprobe/container.yaml"
-updated_at: "2025-07-31 04:24:23.828856"
+updated_at: "2025-07-31 11:43:29.849941"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-htrat230pmprobe"
 
