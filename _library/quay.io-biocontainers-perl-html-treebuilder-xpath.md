@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-treebuilder-xpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-treebuilder-xpath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-treebuilder-xpath/container.yaml"
-updated_at: "2025-07-30 04:06:50.297717"
+updated_at: "2025-07-31 04:06:02.683211"
 latest: "0.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-treebuilder-xpath"
 aliases:

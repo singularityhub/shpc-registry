@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-narrowpeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-narrowpeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-narrowpeaks/container.yaml"
-updated_at: "2025-07-30 03:53:20.142618"
+updated_at: "2025-07-31 03:52:13.275626"
 latest: "1.31.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-narrowpeaks"
 aliases:

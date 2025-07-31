@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/faqcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/faqcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/faqcs/container.yaml"
-updated_at: "2025-07-30 04:17:58.167843"
+updated_at: "2025-07-31 04:17:31.980799"
 latest: "2.12--r44h077b44d_0"
 container_url: "https://biocontainers.pro/tools/faqcs"
 aliases:

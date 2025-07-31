@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-massir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massir/container.yaml"
-updated_at: "2025-07-30 04:20:16.332090"
+updated_at: "2025-07-31 04:19:53.126225"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-massir"
 
