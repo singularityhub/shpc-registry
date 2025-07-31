@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/curesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curesim/container.yaml"
-updated_at: "2025-07-31 11:17:46.389690"
+updated_at: "2025-07-31 11:18:39.702530"
 latest: "1.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/curesim"
 aliases:

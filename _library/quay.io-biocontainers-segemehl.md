@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segemehl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segemehl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segemehl/container.yaml"
-updated_at: "2025-07-31 11:09:29.882851"
+updated_at: "2025-07-31 11:10:35.689525"
 latest: "0.3.4--h3e6c209_12"
 container_url: "https://biocontainers.pro/tools/segemehl"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jmespath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jmespath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jmespath/container.yaml"
-updated_at: "2025-07-31 11:08:24.911996"
+updated_at: "2025-07-31 11:09:32.486958"
 latest: "0.9.0--py36_0"
 container_url: "https://biocontainers.pro/tools/jmespath"
 aliases:
