@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ldweaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldweaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldweaver/container.yaml"
-updated_at: "2025-08-01 04:04:39.864971"
+updated_at: "2025-08-01 10:22:45.848498"
 latest: "1.5.2--r43h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/r-ldweaver"
 aliases:

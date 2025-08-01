@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-microrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microrna/container.yaml"
-updated_at: "2025-08-01 04:05:53.246032"
+updated_at: "2025-08-01 10:24:03.918216"
 latest: "1.64.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-microrna"
 

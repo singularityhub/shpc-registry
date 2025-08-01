@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ampvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampvis/container.yaml"
-updated_at: "2025-08-01 04:03:25.647548"
+updated_at: "2025-08-01 10:21:26.466615"
 latest: "1.27.0--r44h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-ampvis"
 
