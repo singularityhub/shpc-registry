@@ -7,6 +7,8 @@ latest:
 tags:
   0.2--py310h8ea774a_1: 
     sha256:623369e1282526e349897d2ee7ddfe2022c50c470bee5c31ba3c7bd8e11c2f75
+  0.2--py312h9c9b0c2_1: 
+    sha256:51c072591ec72ee36f58aad7c3f9a1693d43868c7f66b028d7f5ea9e09b6170d
 docker: quay.io/biocontainers/newmap
 aliases:
   newmap: /usr/local/bin/newmap

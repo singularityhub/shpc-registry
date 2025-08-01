@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/matchms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for matchms
 latest:
-  0.30.2--pyhdfd78af_0: 
-    sha256:c8ba6401755a772e8cbd9612be5382214477ff98ef7217b8810ca582e1ab6362
+  0.30.2--pyhdfd78af_1: 
+    sha256:2ad9dd27b18668e45f3262d904ba6be6ad532ffa40fff8036864b1ef0f728f08
 tags:
   0.9.2--pyh5e36f6f_0: 
     sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0
@@ -55,6 +55,8 @@ tags:
     sha256:17d6b9d081bdebe5c45b5922045ffbe943dd0f8e392929cefe799b7ff9b7f444
   0.30.2--pyhdfd78af_0: 
     sha256:c8ba6401755a772e8cbd9612be5382214477ff98ef7217b8810ca582e1ab6362
+  0.30.2--pyhdfd78af_1: 
+    sha256:2ad9dd27b18668e45f3262d904ba6be6ad532ffa40fff8036864b1ef0f728f08
 docker: quay.io/biocontainers/matchms
 aliases:
   numba: /usr/local/bin/numba

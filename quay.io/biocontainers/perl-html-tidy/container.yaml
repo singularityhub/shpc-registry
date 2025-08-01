@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-html-tidy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-html-tidy
 latest:
-  1.60--pl5321h7b50bb2_6: 
-    sha256:af38c45276619342f31359dab892fa7dfe245848500b09c7ec6f49aca53ef93a
+  1.60--pl5321h7b50bb2_7: 
+    sha256:828ab2d70c35d6fd6a603f6577c6ca30671a67d753a37f7dca761c314f71070a
 tags:
   1.60--pl5321hec16e2b_2: 
     sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691
@@ -13,6 +13,8 @@ tags:
     sha256:6da05ed111cb48b5ba9b1fcc6806ce11fc75810a4f339fbfae3313c7ab4bf686
   1.60--pl5321h7b50bb2_6: 
     sha256:af38c45276619342f31359dab892fa7dfe245848500b09c7ec6f49aca53ef93a
+  1.60--pl5321h7b50bb2_7: 
+    sha256:828ab2d70c35d6fd6a603f6577c6ca30671a67d753a37f7dca761c314f71070a
 docker: quay.io/biocontainers/perl-html-tidy
 aliases:
   webtidy: /usr/local/bin/webtidy

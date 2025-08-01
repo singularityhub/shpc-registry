@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/unetcoreograph
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unetcoreograph
 latest:
-  2.4.3--hdfd78af_0: 
-    sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd
+  2.4.5--hdfd78af_0: 
+    sha256:105b474e43452bf8c45f900992ba4c2760573afc0d4b503dc51df18a9d8ec224
 tags:
   2.4.3--hdfd78af_0: 
     sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd
+  2.4.5--hdfd78af_0: 
+    sha256:105b474e43452bf8c45f900992ba4c2760573afc0d4b503dc51df18a9d8ec224
 docker: quay.io/biocontainers/unetcoreograph
 aliases:
   h5fuse: /usr/local/bin/h5fuse

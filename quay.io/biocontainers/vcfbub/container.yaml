@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vcfbub
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcfbub
 latest:
-  0.1.2--hc1c3326_0: 
-    sha256:ebf4b01dac5b382e4473e3af8c5baa4e98c9cbf9bab0e5f8f9ce3ac0169004bc
+  0.1.2--hc1c3326_1: 
+    sha256:b949ad6f53fa0b856d1b87a256d86bb55b6be4840e014f7bba13b2fb279df9bd
 tags:
   0.1.0--hec16e2b_0: 
     sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd
@@ -15,6 +15,8 @@ tags:
     sha256:c8818c7645d4d0dc1b398e22a1d27636e68b9b97f8f63cdb0895fb745c1c8ba2
   0.1.2--hc1c3326_0: 
     sha256:ebf4b01dac5b382e4473e3af8c5baa4e98c9cbf9bab0e5f8f9ce3ac0169004bc
+  0.1.2--hc1c3326_1: 
+    sha256:b949ad6f53fa0b856d1b87a256d86bb55b6be4840e014f7bba13b2fb279df9bd
 docker: quay.io/biocontainers/vcfbub
 aliases:
   vcfbub: /usr/local/bin/vcfbub

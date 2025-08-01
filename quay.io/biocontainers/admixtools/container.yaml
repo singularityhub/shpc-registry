@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/admixtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for admixtools
 latest:
-  7.0.2--h75d7a4a_5: 
-    sha256:6ff060a6c1ef2264203bb2cb2462556d40162d9d5f232a02ff8079337bb68bd4
+  8.0.2--h75d7a4a_0: 
+    sha256:a1bc4b2691aada2ae5388f558db110bd6731d12883eef22624a9a8c6177ff9d0
 tags:
   7.0.2--h2469040_2: 
     sha256:a5f678de46f4eaf6be870bd46f63a137cf8eec027d9c09e890a29e8b6e9c600b
@@ -11,6 +11,8 @@ tags:
     sha256:d36c4dd46423f3a03a643103b5c996c0179d328b5d013be490ca3060ca7cb47a
   7.0.2--h75d7a4a_5: 
     sha256:6ff060a6c1ef2264203bb2cb2462556d40162d9d5f232a02ff8079337bb68bd4
+  8.0.2--h75d7a4a_0: 
+    sha256:a1bc4b2691aada2ae5388f558db110bd6731d12883eef22624a9a8c6177ff9d0
 docker: quay.io/biocontainers/admixtools
 aliases:
   convertf: /usr/local/bin/convertf
