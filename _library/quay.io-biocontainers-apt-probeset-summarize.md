@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/apt-probeset-summarize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apt-probeset-summarize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apt-probeset-summarize/container.yaml"
-updated_at: "2025-07-31 11:49:20.158214"
+updated_at: "2025-08-01 04:42:21.010660"
 latest: "2.10.0--h9948957_6"
 container_url: "https://biocontainers.pro/tools/apt-probeset-summarize"
 aliases:

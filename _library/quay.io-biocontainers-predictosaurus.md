@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/predictosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predictosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predictosaurus/container.yaml"
-updated_at: "2025-07-31 11:40:20.613734"
+updated_at: "2025-08-01 04:33:45.916216"
 latest: "0.3.2--hcb96839_0"
 container_url: "https://biocontainers.pro/tools/predictosaurus"
 aliases:

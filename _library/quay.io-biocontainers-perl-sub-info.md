@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-info/container.yaml"
-updated_at: "2025-07-31 11:30:10.230958"
+updated_at: "2025-08-01 04:24:04.903650"
 latest: "0.002--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-sub-info"
 aliases:

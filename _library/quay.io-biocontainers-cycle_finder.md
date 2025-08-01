@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cycle_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cycle_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cycle_finder/container.yaml"
-updated_at: "2025-07-31 11:48:59.155583"
+updated_at: "2025-08-01 04:42:00.364122"
 latest: "1.0.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/cycle_finder"
 aliases:

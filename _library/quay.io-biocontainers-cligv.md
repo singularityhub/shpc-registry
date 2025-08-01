@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cligv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cligv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cligv/container.yaml"
-updated_at: "2025-07-31 11:10:11.884051"
+updated_at: "2025-08-01 04:04:29.491036"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cligv"
 aliases:

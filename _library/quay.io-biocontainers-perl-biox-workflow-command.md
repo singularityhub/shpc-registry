@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-biox-workflow-command"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biox-workflow-command/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biox-workflow-command/container.yaml"
-updated_at: "2025-07-31 11:48:49.240171"
+updated_at: "2025-08-01 04:41:50.622108"
 latest: "2.4.1--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-biox-workflow-command"
 aliases:
