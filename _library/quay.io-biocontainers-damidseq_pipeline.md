@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/damidseq_pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/damidseq_pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/damidseq_pipeline/container.yaml"
-updated_at: "2025-08-01 10:40:01.860561"
-latest: "1.6--pl5321hdfd78af_0"
+updated_at: "2025-08-02 03:50:29.790084"
+latest: "1.6.1--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/damidseq_pipeline"
 aliases:
  - "damidseq_pipeline"
@@ -27,8 +27,9 @@ versions:
  - "1.4--pl5321hdfd78af_5"
  - "1.5.3--pl5321hdfd78af_0"
  - "1.6--pl5321hdfd78af_0"
+ - "1.6.1--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for damidseq_pipeline"
-config: {"url": "https://biocontainers.pro/tools/damidseq_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for damidseq_pipeline", "latest": {"1.6--pl5321hdfd78af_0": "sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e"}, "tags": {"1.4--pl5321hdfd78af_5": "sha256:9d79de14d9026b53a3b7b7b586bc4324967c5a0466dbf625d0e6e5e30186444f", "1.5.3--pl5321hdfd78af_0": "sha256:74d6aa3665ab09cf628a2a159b509b0ebba889189c8733e40c784dd1a779de65", "1.6--pl5321hdfd78af_0": "sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e"}, "docker": "quay.io/biocontainers/damidseq_pipeline", "aliases": {"damidseq_pipeline": "/usr/local/bin/damidseq_pipeline", "gatc.track.maker.pl": "/usr/local/bin/gatc.track.maker.pl", "gff2tdf.pl": "/usr/local/bin/gff2tdf.pl", "igvtools": "/usr/local/bin/igvtools", "varfilter.py": "/usr/local/bin/varfilter.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/damidseq_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for damidseq_pipeline", "latest": {"1.6.1--pl5321hdfd78af_0": "sha256:d43c29f59a242a96e916e0dd1edca404417676d839eb996edab0f61dc7cffc08"}, "tags": {"1.4--pl5321hdfd78af_5": "sha256:9d79de14d9026b53a3b7b7b586bc4324967c5a0466dbf625d0e6e5e30186444f", "1.5.3--pl5321hdfd78af_0": "sha256:74d6aa3665ab09cf628a2a159b509b0ebba889189c8733e40c784dd1a779de65", "1.6--pl5321hdfd78af_0": "sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e", "1.6.1--pl5321hdfd78af_0": "sha256:d43c29f59a242a96e916e0dd1edca404417676d839eb996edab0f61dc7cffc08"}, "docker": "quay.io/biocontainers/damidseq_pipeline", "aliases": {"damidseq_pipeline": "/usr/local/bin/damidseq_pipeline", "gatc.track.maker.pl": "/usr/local/bin/gatc.track.maker.pl", "gff2tdf.pl": "/usr/local/bin/gff2tdf.pl", "igvtools": "/usr/local/bin/igvtools", "varfilter.py": "/usr/local/bin/varfilter.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/damidseq_pipeline.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/damidseq_pipeline
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/damidseq_pipeline:1.6--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/damidseq_pipeline:1.6.1--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/damidseq_pipeline/1.6--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/damidseq_pipeline/1.6--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/damidseq_pipeline/1.6.1--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/damidseq_pipeline/1.6.1--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

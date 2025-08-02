@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unetcoreograph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unetcoreograph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unetcoreograph/container.yaml"
-updated_at: "2025-08-01 10:23:31.142671"
-latest: "2.4.3--hdfd78af_0"
+updated_at: "2025-08-02 03:35:02.551901"
+latest: "2.4.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unetcoreograph"
 aliases:
  - "h5fuse"
@@ -35,8 +35,9 @@ aliases:
  - "qvoronoi"
 versions:
  - "2.4.3--hdfd78af_0"
+ - "2.4.5--hdfd78af_0"
 description: "singularity registry hpc automated addition for unetcoreograph"
-config: {"url": "https://biocontainers.pro/tools/unetcoreograph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unetcoreograph", "latest": {"2.4.3--hdfd78af_0": "sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd"}, "tags": {"2.4.3--hdfd78af_0": "sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd"}, "docker": "quay.io/biocontainers/unetcoreograph", "aliases": {"h5fuse": "/usr/local/bin/h5fuse", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "dav1d": "/usr/local/bin/dav1d", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/unetcoreograph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unetcoreograph", "latest": {"2.4.5--hdfd78af_0": "sha256:105b474e43452bf8c45f900992ba4c2760573afc0d4b503dc51df18a9d8ec224"}, "tags": {"2.4.3--hdfd78af_0": "sha256:cb8f83fbcb15cff7d986c514f932b75144d2c3349ec74f6f792123394d3589bd", "2.4.5--hdfd78af_0": "sha256:105b474e43452bf8c45f900992ba4c2760573afc0d4b503dc51df18a9d8ec224"}, "docker": "quay.io/biocontainers/unetcoreograph", "aliases": {"h5fuse": "/usr/local/bin/h5fuse", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "dav1d": "/usr/local/bin/dav1d", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unetcoreograph.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/unetcoreograph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unetcoreograph:2.4.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/unetcoreograph:2.4.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unetcoreograph/2.4.3--hdfd78af_0
-$ module help quay.io/biocontainers/unetcoreograph/2.4.3--hdfd78af_0
+$ module load quay.io/biocontainers/unetcoreograph/2.4.5--hdfd78af_0
+$ module help quay.io/biocontainers/unetcoreograph/2.4.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

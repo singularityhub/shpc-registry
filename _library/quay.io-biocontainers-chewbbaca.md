@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chewbbaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chewbbaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chewbbaca/container.yaml"
-updated_at: "2025-08-01 10:29:42.154050"
-latest: "3.4.0--pyhdfd78af_0"
+updated_at: "2025-08-02 03:40:49.692333"
+latest: "3.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chewbbaca"
 aliases:
  - "chewBBACA.py"
@@ -37,8 +37,9 @@ versions:
  - "3.3.9--pyhdfd78af_0"
  - "3.3.10--pyhdfd78af_0"
  - "3.4.0--pyhdfd78af_0"
+ - "3.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for chewbbaca"
-config: {"url": "https://biocontainers.pro/tools/chewbbaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chewbbaca", "latest": {"3.4.0--pyhdfd78af_0": "sha256:ab5e0186a72ea6a424fb8a37ead087f8b085adcdb73c4347c9508963e187cfbc"}, "tags": {"2.8.5--pyhdfd78af_0": "sha256:3c32318871e17ad1e6b4b0d38085fb6ca25e250ced5721798705944d8fc3c9a0", "3.0.0--pyhdfd78af_0": "sha256:293aba861b02baa4bfef96577bc3e10a71381acdefc4117d3f6682ef71304aab", "2.8.5--pyhdfd78af_1": "sha256:4cd89b7427fcfeb607852783168b8cffbc22578b935dc06dc3e52d0193ecff15", "3.1.0--pyhdfd78af_0": "sha256:77e84237fe1c1d8ad50b4e8f1053da0dbd89ea2808ed811a2c33007b24e3f729", "3.1.2--pyhdfd78af_0": "sha256:f1184575813037b7e97a5d53ce269e83a41e62099afcdaf20a6641883d895d69", "3.2.0--pyhdfd78af_0": "sha256:cb16e6fb7055a697983b186197f154aa7b3da558b6813337522e1475bdc347e8", "3.3.0--pyhdfd78af_1": "sha256:723147a53e9a10aa42a12a1aaa5f667fb2d26e198fd2e3d3652637f2ede3201f", "3.3.1--pyhdfd78af_0": "sha256:c54559bc7056078883338a1b49bb75922e6d4dd15566c4566aa8f929d0e683bd", "3.3.2--pyhdfd78af_0": "sha256:56f1c2fdc0b5704601ccf5a98178b76efe5746c2de2a8dd769744f0799c5029b", "3.3.3--pyhdfd78af_0": "sha256:8f555edfc02c2bc471447abcf704c31f26c6fbc706543d15d6d95de4f56ce4b0", "3.3.4--pyhdfd78af_0": "sha256:b7528c759e4daf7093f2ef9023689c662c5ee51dfd332138f357ea8519e8d972", "3.3.5--pyhdfd78af_0": "sha256:61597e5ea3c3657689033592abdba2f91bc0cad1ccfea4009c4b591093cf70b8", "3.3.7--pyhdfd78af_0": "sha256:6839f4097f7b6a3451954f5c87d6693d6e64d68fbebf8f4cce47a36cef0e03ce", "3.3.9--pyhdfd78af_0": "sha256:d875bc8393e07ff3882c7d73da69fe7bddc13c07f2603487432bcf87e89561fc", "3.3.10--pyhdfd78af_0": "sha256:7319470168718affb429d4dab8bd78834dd31ceea576917afe4cea3525fe7d95", "3.4.0--pyhdfd78af_0": "sha256:ab5e0186a72ea6a424fb8a37ead087f8b085adcdb73c4347c9508963e187cfbc"}, "docker": "quay.io/biocontainers/chewbbaca", "aliases": {"chewBBACA.py": "/usr/local/bin/chewBBACA.py", "chewie": "/usr/local/bin/chewie", "clustalw": "/usr/local/bin/clustalw", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "clustalw2": "/usr/local/bin/clustalw2", "index-themes": "/usr/local/bin/index-themes", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi"}}
+config: {"url": "https://biocontainers.pro/tools/chewbbaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chewbbaca", "latest": {"3.4.1--pyhdfd78af_0": "sha256:57a741791904d9c70e210b4528afac2eabba176ed6ab041fcc58f5a0090e412c"}, "tags": {"2.8.5--pyhdfd78af_0": "sha256:3c32318871e17ad1e6b4b0d38085fb6ca25e250ced5721798705944d8fc3c9a0", "3.0.0--pyhdfd78af_0": "sha256:293aba861b02baa4bfef96577bc3e10a71381acdefc4117d3f6682ef71304aab", "2.8.5--pyhdfd78af_1": "sha256:4cd89b7427fcfeb607852783168b8cffbc22578b935dc06dc3e52d0193ecff15", "3.1.0--pyhdfd78af_0": "sha256:77e84237fe1c1d8ad50b4e8f1053da0dbd89ea2808ed811a2c33007b24e3f729", "3.1.2--pyhdfd78af_0": "sha256:f1184575813037b7e97a5d53ce269e83a41e62099afcdaf20a6641883d895d69", "3.2.0--pyhdfd78af_0": "sha256:cb16e6fb7055a697983b186197f154aa7b3da558b6813337522e1475bdc347e8", "3.3.0--pyhdfd78af_1": "sha256:723147a53e9a10aa42a12a1aaa5f667fb2d26e198fd2e3d3652637f2ede3201f", "3.3.1--pyhdfd78af_0": "sha256:c54559bc7056078883338a1b49bb75922e6d4dd15566c4566aa8f929d0e683bd", "3.3.2--pyhdfd78af_0": "sha256:56f1c2fdc0b5704601ccf5a98178b76efe5746c2de2a8dd769744f0799c5029b", "3.3.3--pyhdfd78af_0": "sha256:8f555edfc02c2bc471447abcf704c31f26c6fbc706543d15d6d95de4f56ce4b0", "3.3.4--pyhdfd78af_0": "sha256:b7528c759e4daf7093f2ef9023689c662c5ee51dfd332138f357ea8519e8d972", "3.3.5--pyhdfd78af_0": "sha256:61597e5ea3c3657689033592abdba2f91bc0cad1ccfea4009c4b591093cf70b8", "3.3.7--pyhdfd78af_0": "sha256:6839f4097f7b6a3451954f5c87d6693d6e64d68fbebf8f4cce47a36cef0e03ce", "3.3.9--pyhdfd78af_0": "sha256:d875bc8393e07ff3882c7d73da69fe7bddc13c07f2603487432bcf87e89561fc", "3.3.10--pyhdfd78af_0": "sha256:7319470168718affb429d4dab8bd78834dd31ceea576917afe4cea3525fe7d95", "3.4.0--pyhdfd78af_0": "sha256:ab5e0186a72ea6a424fb8a37ead087f8b085adcdb73c4347c9508963e187cfbc", "3.4.1--pyhdfd78af_0": "sha256:57a741791904d9c70e210b4528afac2eabba176ed6ab041fcc58f5a0090e412c"}, "docker": "quay.io/biocontainers/chewbbaca", "aliases": {"chewBBACA.py": "/usr/local/bin/chewBBACA.py", "chewie": "/usr/local/bin/chewie", "clustalw": "/usr/local/bin/clustalw", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "clustalw2": "/usr/local/bin/clustalw2", "index-themes": "/usr/local/bin/index-themes", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chewbbaca.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/chewbbaca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chewbbaca:3.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chewbbaca:3.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chewbbaca/3.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/chewbbaca/3.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/chewbbaca/3.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/chewbbaca/3.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

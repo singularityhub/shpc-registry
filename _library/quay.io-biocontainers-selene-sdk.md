@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selene-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selene-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selene-sdk/container.yaml"
-updated_at: "2025-08-01 10:30:04.739357"
+updated_at: "2025-08-02 03:41:11.106090"
 latest: "0.6.0--py38h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/selene-sdk"
 aliases:

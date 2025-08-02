@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cromwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cromwell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cromwell/container.yaml"
-updated_at: "2025-08-01 11:01:21.886803"
+updated_at: "2025-08-02 04:10:47.182554"
 latest: "0.40--1"
 container_url: "https://biocontainers.pro/tools/cromwell"
 
