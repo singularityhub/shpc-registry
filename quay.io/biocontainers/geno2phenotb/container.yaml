@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/geno2phenotb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for geno2phenotb
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:cb0f94de875ebc002ffefda694952428898b13c0a384e7dd07d01bbec5a4bbd5
+  1.0.1--pyhdfd78af_1: 
+    sha256:835f6f7a3c7ec3360a6e6977e3033c683e0ffe9bdf5124a98c20b579575c8c83
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:43fe9d40dc675b423216b913be9de98740163efcc15525e6a6077d0d35bbbc1e
   1.0.1--pyhdfd78af_0: 
     sha256:cb0f94de875ebc002ffefda694952428898b13c0a384e7dd07d01bbec5a4bbd5
+  1.0.1--pyhdfd78af_1: 
+    sha256:835f6f7a3c7ec3360a6e6977e3033c683e0ffe9bdf5124a98c20b579575c8c83
 docker: quay.io/biocontainers/geno2phenotb
 aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK

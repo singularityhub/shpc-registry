@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/pantax
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pantax
 latest:
-  1.2.0--py310h4349ce8_0: 
-    sha256:ef5c68b92973b7e4c25d00c0b6bc926df9c4a98c3f5b46007b0628168765bf59
+  2.0.0--py310h3e1df6f_0: 
+    sha256:93fc7fba9c59e6995382e3de00ebd4f46ed8d69d81f131f52dde0e2687ab8bde
 tags:
   1.0.2--py310h4349ce8_0: 
     sha256:b832a0781fe810230f5eb9e6661d76939b92b8fef3a93a1de8ee02be9ccbdf7f
   1.2.0--py310h4349ce8_0: 
     sha256:ef5c68b92973b7e4c25d00c0b6bc926df9c4a98c3f5b46007b0628168765bf59
+  2.0.0--py310h3e1df6f_0: 
+    sha256:93fc7fba9c59e6995382e3de00ebd4f46ed8d69d81f131f52dde0e2687ab8bde
 docker: quay.io/biocontainers/pantax
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

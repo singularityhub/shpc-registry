@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cram-archiver
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cram-archiver
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:868f5a91d295ff26f84af74f70faa53b808401aae12a8ffeea04d1945ba817eb
+  1.1.0--pyhdfd78af_0: 
+    sha256:f9307a1cd1be65b5a4aeca4143d0c4b17a2acc507be6cb70644886eae219ba4b
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:868f5a91d295ff26f84af74f70faa53b808401aae12a8ffeea04d1945ba817eb
+  1.1.0--pyhdfd78af_0: 
+    sha256:f9307a1cd1be65b5a4aeca4143d0c4b17a2acc507be6cb70644886eae219ba4b
 docker: quay.io/biocontainers/cram-archiver
 aliases:
   cram-archiver: /usr/local/bin/cram-archiver

@@ -7,6 +7,8 @@ latest:
 tags:
   1.36.4--py310h8ea774a_0: 
     sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745
+  1.36.4--py311h8ddd9a4_0: 
+    sha256:1e284c6aa693c620bc7fd26ac6ba2e56313c6355abedcdd348e9a0b09392a92d
 docker: quay.io/biocontainers/pcangsd
 aliases:
   pcangsd: /usr/local/bin/pcangsd

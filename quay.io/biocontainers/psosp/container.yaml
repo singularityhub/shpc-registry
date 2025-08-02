@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/psosp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psosp
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:d28761f3eb49eae281dcf55103ae4b1906e0e59461dc60fe87a4d84af884d395
+  1.1.2--pyhdfd78af_2: 
+    sha256:12e50a529213262109bcd1b99e6a85b7ec28b77f61b5082c6859e00b55b7e9f4
 tags:
   1.1.1--pyhdfd78af_0: 
     sha256:1b2eb4a7ec891811c5d384adfb79a4d784ad4c10cab54d84690c2c1a6a9f5839
   1.1.2--pyhdfd78af_0: 
     sha256:d28761f3eb49eae281dcf55103ae4b1906e0e59461dc60fe87a4d84af884d395
+  1.1.2--pyhdfd78af_2: 
+    sha256:12e50a529213262109bcd1b99e6a85b7ec28b77f61b5082c6859e00b55b7e9f4
 docker: quay.io/biocontainers/psosp
 aliases:
   bed2fasta: /usr/local/bin/bed2fasta

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nanoblaster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanoblaster
 latest:
-  0.16--h9948957_7: 
-    sha256:44c14b6ecdf35a66206e158b37856802a2a6e363d0140e3102e8082b64dceaec
+  0.16--h9948957_8: 
+    sha256:45a9099b54f6860b7e96f8987e2c8420f71c958c401d4298b7b44dfda753cbb5
 tags:
   0.16--h9f5acd7_4: 
     sha256:73ee53ad59067f97d64f82bcca43fa0906f68e57342a695e4d7b708bdef99424
@@ -11,6 +11,8 @@ tags:
     sha256:6632cc7f9598e16fbf6710b39cc564d7fbdeb7d24d825f0631f81f4054386610
   0.16--h9948957_7: 
     sha256:44c14b6ecdf35a66206e158b37856802a2a6e363d0140e3102e8082b64dceaec
+  0.16--h9948957_8: 
+    sha256:45a9099b54f6860b7e96f8987e2c8420f71c958c401d4298b7b44dfda753cbb5
 docker: quay.io/biocontainers/nanoblaster
 aliases:
   nanoblaster: /usr/local/bin/nanoblaster
