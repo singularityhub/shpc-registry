@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fqtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fqtools
 latest:
-  2.0--h577a1d6_14: 
-    sha256:5cc628fa0555261abe28a23f3999f54d3e6f23027033105f4a78e162b601dd08
+  2.0--h577a1d6_15: 
+    sha256:50e60bcb5a1fc8aa76c0a78e2495fd5c6cec25e119306d83d07766a85fa56e48
 tags:
   2.0--h6233b05_9: 
     sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb
@@ -17,6 +17,8 @@ tags:
     sha256:25c87f17b0dae1d3ef4bcd72489dde766b28e831295f611c771527c443a6b45b
   2.0--h577a1d6_14: 
     sha256:5cc628fa0555261abe28a23f3999f54d3e6f23027033105f4a78e162b601dd08
+  2.0--h577a1d6_15: 
+    sha256:50e60bcb5a1fc8aa76c0a78e2495fd5c6cec25e119306d83d07766a85fa56e48
 docker: quay.io/biocontainers/fqtools
 aliases:
   fqtools: /usr/local/bin/fqtools

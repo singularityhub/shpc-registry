@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/freyja
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for freyja
 latest:
-  1.5.3--py311h9ee0642_3: 
-    sha256:3207db9c33bcbc76f01d1d72ee76b72935c9d8012df9422684e75fdd864b9342
+  2.0.0--py311h9ee0642_0: 
+    sha256:47f695645e17ecd61e3404a252b29753794732eb17ea42d16e65711a3ae4aa1a
 tags:
   1.3.9--pyhdfd78af_0: 
     sha256:d5a2f3350b27d0fbe1fcf26567a92512545d3ef99d31f0c52a9ddb42a6f8c225
@@ -33,6 +33,8 @@ tags:
     sha256:90b4448ff035481d48c0fec0b6fd8c0332b8ec2c5e01ba48a495a822b7f61e1f
   1.5.3--py311h9ee0642_3: 
     sha256:3207db9c33bcbc76f01d1d72ee76b72935c9d8012df9422684e75fdd864b9342
+  2.0.0--py311h9ee0642_0: 
+    sha256:47f695645e17ecd61e3404a252b29753794732eb17ea42d16e65711a3ae4aa1a
 docker: quay.io/biocontainers/freyja
 aliases:
   faToVcf: /usr/local/bin/faToVcf

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   biocommons.seqrepo
 latest:
-  0.6.9--pyhdfd78af_0: 
-    sha256:20b5af7a2defae3f50c627e5873b45dca552b12e57d57b5e60dbb0969e77afe3
+  0.6.11--pyhdfd78af_0: 
+    sha256:51ed93ee2da28b6f91938734855a08b9a345361ba718571403603eabc6bebf8c
 tags:
   0.6.5--pyhdfd78af_0: 
     sha256:0d81c542e2264b4b8773759139a07a8bc824ff6755d4a813dc588604e70c1f6b
@@ -12,6 +12,8 @@ tags:
     sha256:e38f8fbbb3fe72712c004ecfb6c9fa8a1399c02259b90774788b3db9998217fb
   0.6.9--pyhdfd78af_0: 
     sha256:20b5af7a2defae3f50c627e5873b45dca552b12e57d57b5e60dbb0969e77afe3
+  0.6.11--pyhdfd78af_0: 
+    sha256:51ed93ee2da28b6f91938734855a08b9a345361ba718571403603eabc6bebf8c
 docker: quay.io/biocontainers/biocommons.seqrepo
 aliases:
   pyppeteer-install: /usr/local/bin/pyppeteer-install

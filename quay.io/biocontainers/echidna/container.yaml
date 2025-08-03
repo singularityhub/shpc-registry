@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/echidna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for echidna
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:d5f63b341611815e918f3325ca752374994610874106537f3f3b01e63b3e006a
+  1.0.3--pyhdfd78af_0: 
+    sha256:a2d63fc6d4e592ca72882dd908123103f294b2d23554bdfc51c80351f506ddb3
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:d5f63b341611815e918f3325ca752374994610874106537f3f3b01e63b3e006a
+  1.0.3--pyhdfd78af_0: 
+    sha256:a2d63fc6d4e592ca72882dd908123103f294b2d23554bdfc51c80351f506ddb3
 docker: quay.io/biocontainers/echidna
 aliases:
   protoc-28.2.0: /usr/local/bin/protoc-28.2.0

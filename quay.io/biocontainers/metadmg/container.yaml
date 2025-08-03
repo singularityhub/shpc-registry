@@ -13,6 +13,8 @@ tags:
     sha256:120431c5ec94f98b07811b7d4999a284753ca975f9f7be2bd237a4667ce43baa
   0.4--h379c67c_2: 
     sha256:41f0cc393ab9b521c550fdf9da2302632789cf0178d1bad7db3bb45c0a7b54e7
+  0.4.2--h2d82557_0: 
+    sha256:787e62f4ad57b9567e717936c6771136ca8ad6de31bdf6846e18cad60b26128a
 docker: quay.io/biocontainers/metadmg
 aliases:
   compressbam: /usr/local/bin/compressbam

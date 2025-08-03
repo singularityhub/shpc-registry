@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ngseqbasic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngseqbasic
 latest:
-  2.0.1--pl5.22.0.1_1: 
-    sha256:4fd3e6d18e9921cba95e36563ff5203f37930a68dd6aa4aab2fd58270ef98847
+  20.0--hdfd78af_0: 
+    sha256:4af071515985fa6d6492798eb58cfd56cbcd7ccaa14de6d43c34b75dab493ef6
 tags:
   2.0.1--pl5.22.0.1_1: 
     sha256:4fd3e6d18e9921cba95e36563ff5203f37930a68dd6aa4aab2fd58270ef98847
+  20.0--hdfd78af_0: 
+    sha256:4af071515985fa6d6492798eb58cfd56cbcd7ccaa14de6d43c34b75dab493ef6
 docker: quay.io/biocontainers/ngseqbasic
 aliases:
   NGseqBasic: /usr/local/bin/NGseqBasic
