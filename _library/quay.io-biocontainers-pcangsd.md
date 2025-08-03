@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcangsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcangsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcangsd/container.yaml"
-updated_at: "2025-08-02 03:32:14.560562"
+updated_at: "2025-08-03 03:56:49.598135"
 latest: "1.36.4--py310h8ea774a_0"
 container_url: "https://biocontainers.pro/tools/pcangsd"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.36.4--py310h8ea774a_0"
+ - "1.36.4--py311h8ddd9a4_0"
 description: "singularity registry hpc automated addition for pcangsd"
-config: {"url": "https://biocontainers.pro/tools/pcangsd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcangsd", "latest": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745"}, "tags": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745"}, "docker": "quay.io/biocontainers/pcangsd", "aliases": {"pcangsd": "/usr/local/bin/pcangsd", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pcangsd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcangsd", "latest": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745"}, "tags": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745", "1.36.4--py311h8ddd9a4_0": "sha256:1e284c6aa693c620bc7fd26ac6ba2e56313c6355abedcdd348e9a0b09392a92d"}, "docker": "quay.io/biocontainers/pcangsd", "aliases": {"pcangsd": "/usr/local/bin/pcangsd", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcangsd.

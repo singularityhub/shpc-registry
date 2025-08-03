@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-d3heatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-d3heatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-d3heatmap/container.yaml"
-updated_at: "2025-08-02 03:41:54.407581"
+updated_at: "2025-08-03 04:06:25.239287"
 latest: "0.6.1.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-d3heatmap"
 aliases:

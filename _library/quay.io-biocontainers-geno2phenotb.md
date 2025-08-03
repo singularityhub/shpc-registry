@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/geno2phenotb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geno2phenotb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geno2phenotb/container.yaml"
-updated_at: "2025-08-02 04:15:02.478019"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2025-08-03 04:39:46.962771"
+latest: "1.0.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/geno2phenotb"
 aliases:
  - "GenomeAnalysisTK"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for geno2phenotb"
-config: {"url": "https://biocontainers.pro/tools/geno2phenotb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geno2phenotb", "latest": {"1.0.1--pyhdfd78af_0": "sha256:cb0f94de875ebc002ffefda694952428898b13c0a384e7dd07d01bbec5a4bbd5"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:43fe9d40dc675b423216b913be9de98740163efcc15525e6a6077d0d35bbbc1e", "1.0.1--pyhdfd78af_0": "sha256:cb0f94de875ebc002ffefda694952428898b13c0a384e7dd07d01bbec5a4bbd5"}, "docker": "quay.io/biocontainers/geno2phenotb", "aliases": {"GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "MTBseq": "/usr/local/bin/MTBseq", "gatk3": "/usr/local/bin/gatk3", "geno2phenotb": "/usr/local/bin/geno2phenotb", "picard": "/usr/local/bin/picard", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd", "schemagen": "/usr/local/bin/schemagen", "servertool": "/usr/local/bin/servertool", "tnameserv": "/usr/local/bin/tnameserv", "wsgen": "/usr/local/bin/wsgen", "wsimport": "/usr/local/bin/wsimport", "xjc": "/usr/local/bin/xjc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py3.7": "/usr/local/bin/f2py3.7", "jfr": "/usr/local/bin/jfr", "2to3-3.7": "/usr/local/bin/2to3-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/geno2phenotb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geno2phenotb", "latest": {"1.0.1--pyhdfd78af_1": "sha256:835f6f7a3c7ec3360a6e6977e3033c683e0ffe9bdf5124a98c20b579575c8c83"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:43fe9d40dc675b423216b913be9de98740163efcc15525e6a6077d0d35bbbc1e", "1.0.1--pyhdfd78af_0": "sha256:cb0f94de875ebc002ffefda694952428898b13c0a384e7dd07d01bbec5a4bbd5", "1.0.1--pyhdfd78af_1": "sha256:835f6f7a3c7ec3360a6e6977e3033c683e0ffe9bdf5124a98c20b579575c8c83"}, "docker": "quay.io/biocontainers/geno2phenotb", "aliases": {"GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "MTBseq": "/usr/local/bin/MTBseq", "gatk3": "/usr/local/bin/gatk3", "geno2phenotb": "/usr/local/bin/geno2phenotb", "picard": "/usr/local/bin/picard", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd", "schemagen": "/usr/local/bin/schemagen", "servertool": "/usr/local/bin/servertool", "tnameserv": "/usr/local/bin/tnameserv", "wsgen": "/usr/local/bin/wsgen", "wsimport": "/usr/local/bin/wsimport", "xjc": "/usr/local/bin/xjc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py3.7": "/usr/local/bin/f2py3.7", "jfr": "/usr/local/bin/jfr", "2to3-3.7": "/usr/local/bin/2to3-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geno2phenotb.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/geno2phenotb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geno2phenotb:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/geno2phenotb:1.0.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geno2phenotb/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/geno2phenotb/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/geno2phenotb/1.0.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/geno2phenotb/1.0.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

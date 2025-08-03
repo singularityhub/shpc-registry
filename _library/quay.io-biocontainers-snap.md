@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/snap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snap/container.yaml"
-updated_at: "2025-08-02 03:33:41.240342"
-latest: "2013_11_29--h031d066_6"
+updated_at: "2025-08-03 03:58:15.283322"
+latest: "2017_03_01--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/snap"
 
 versions:
  - "2013_11_29--hec16e2b_4"
  - "2013_11_29--h031d066_6"
+ - "2017_03_01--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for snap"
-config: {"url": "https://biocontainers.pro/tools/snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snap", "latest": {"2013_11_29--h031d066_6": "sha256:893d8da506c16de868830ae6a40d6ef2c2147c1ee477384a7d69e4bb1b56a538"}, "tags": {"2013_11_29--hec16e2b_4": "sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936", "2013_11_29--h031d066_6": "sha256:893d8da506c16de868830ae6a40d6ef2c2147c1ee477384a7d69e4bb1b56a538"}, "docker": "quay.io/biocontainers/snap"}
+config: {"url": "https://biocontainers.pro/tools/snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snap", "latest": {"2017_03_01--h7b50bb2_0": "sha256:996999d2c4bf4899977b23a18fe0805fc5469baae2ffbaf2f9872905ca8d7bd7"}, "tags": {"2013_11_29--hec16e2b_4": "sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936", "2013_11_29--h031d066_6": "sha256:893d8da506c16de868830ae6a40d6ef2c2147c1ee477384a7d69e4bb1b56a538", "2017_03_01--h7b50bb2_0": "sha256:996999d2c4bf4899977b23a18fe0805fc5469baae2ffbaf2f9872905ca8d7bd7"}, "docker": "quay.io/biocontainers/snap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/snap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snap:2013_11_29--h031d066_6
+$ shpc install quay.io/biocontainers/snap:2017_03_01--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snap/2013_11_29--h031d066_6
-$ module help quay.io/biocontainers/snap/2013_11_29--h031d066_6
+$ module load quay.io/biocontainers/snap/2017_03_01--h7b50bb2_0
+$ module help quay.io/biocontainers/snap/2017_03_01--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

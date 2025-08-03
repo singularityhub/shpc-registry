@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/squigualiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squigualiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squigualiser/container.yaml"
-updated_at: "2025-08-02 04:14:28.325593"
-latest: "0.6.3--pyhca03a8a_0"
+updated_at: "2025-08-03 04:39:12.012944"
+latest: "0.6.4--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/squigualiser"
 aliases:
  - "selenium-manager"
@@ -37,8 +37,9 @@ aliases:
  - "transicc"
 versions:
  - "0.6.3--pyhca03a8a_0"
+ - "0.6.4--pyhdc42f0e_0"
 description: "singularity registry hpc automated addition for squigualiser"
-config: {"url": "https://biocontainers.pro/tools/squigualiser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squigualiser", "latest": {"0.6.3--pyhca03a8a_0": "sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d"}, "tags": {"0.6.3--pyhca03a8a_0": "sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d"}, "docker": "quay.io/biocontainers/squigualiser", "aliases": {"selenium-manager": "/usr/local/bin/selenium-manager", "squigualiser": "/usr/local/bin/squigualiser", "pyfastx": "/usr/local/bin/pyfastx", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/squigualiser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squigualiser", "latest": {"0.6.4--pyhdc42f0e_0": "sha256:25b7690981a515d1d9cfae1b2c03cbfc27cc90cfd0d60150223ed133574d2d79"}, "tags": {"0.6.3--pyhca03a8a_0": "sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d", "0.6.4--pyhdc42f0e_0": "sha256:25b7690981a515d1d9cfae1b2c03cbfc27cc90cfd0d60150223ed133574d2d79"}, "docker": "quay.io/biocontainers/squigualiser", "aliases": {"selenium-manager": "/usr/local/bin/selenium-manager", "squigualiser": "/usr/local/bin/squigualiser", "pyfastx": "/usr/local/bin/pyfastx", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/squigualiser.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/squigualiser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/squigualiser:0.6.3--pyhca03a8a_0
+$ shpc install quay.io/biocontainers/squigualiser:0.6.4--pyhdc42f0e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/squigualiser/0.6.3--pyhca03a8a_0
-$ module help quay.io/biocontainers/squigualiser/0.6.3--pyhca03a8a_0
+$ module load quay.io/biocontainers/squigualiser/0.6.4--pyhdc42f0e_0
+$ module help quay.io/biocontainers/squigualiser/0.6.4--pyhdc42f0e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

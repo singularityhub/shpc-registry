@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bio-unicorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio-unicorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio-unicorn/container.yaml"
-updated_at: "2025-08-02 03:46:18.071829"
-latest: "1.0.0--h7b50bb2_0"
+updated_at: "2025-08-03 04:10:48.279487"
+latest: "2.0.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/bio-unicorn"
 aliases:
  - "ref-cache"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.0--h7b50bb2_0"
+ - "2.0.0--h577a1d6_0"
 description: "singularity registry hpc automated addition for bio-unicorn"
-config: {"url": "https://biocontainers.pro/tools/bio-unicorn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bio-unicorn", "latest": {"1.0.0--h7b50bb2_0": "sha256:d9df0b89889386745db760ea8b548b0ac3a95a61334ea12ac401d414169e1c61"}, "tags": {"1.0.0--h7b50bb2_0": "sha256:d9df0b89889386745db760ea8b548b0ac3a95a61334ea12ac401d414169e1c61"}, "docker": "quay.io/biocontainers/bio-unicorn", "aliases": {"ref-cache": "/usr/local/bin/ref-cache", "unicorn": "/usr/local/bin/unicorn", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bio-unicorn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bio-unicorn", "latest": {"2.0.0--h577a1d6_0": "sha256:c0e587e751ecfcddc5d3e0b102a2a9296030099525f919ffd4f528c2a2237f02"}, "tags": {"1.0.0--h7b50bb2_0": "sha256:d9df0b89889386745db760ea8b548b0ac3a95a61334ea12ac401d414169e1c61", "2.0.0--h577a1d6_0": "sha256:c0e587e751ecfcddc5d3e0b102a2a9296030099525f919ffd4f528c2a2237f02"}, "docker": "quay.io/biocontainers/bio-unicorn", "aliases": {"ref-cache": "/usr/local/bin/ref-cache", "unicorn": "/usr/local/bin/unicorn", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bio-unicorn.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bio-unicorn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bio-unicorn:1.0.0--h7b50bb2_0
+$ shpc install quay.io/biocontainers/bio-unicorn:2.0.0--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bio-unicorn/1.0.0--h7b50bb2_0
-$ module help quay.io/biocontainers/bio-unicorn/1.0.0--h7b50bb2_0
+$ module load quay.io/biocontainers/bio-unicorn/2.0.0--h577a1d6_0
+$ module help quay.io/biocontainers/bio-unicorn/2.0.0--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

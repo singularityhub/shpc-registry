@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cram-archiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cram-archiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cram-archiver/container.yaml"
-updated_at: "2025-08-02 03:59:26.778028"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-08-03 04:23:54.880915"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cram-archiver"
 aliases:
  - "cram-archiver"
@@ -37,8 +37,9 @@ aliases:
  - "wgsim"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cram-archiver"
-config: {"url": "https://biocontainers.pro/tools/cram-archiver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cram-archiver", "latest": {"1.0.0--pyhdfd78af_0": "sha256:868f5a91d295ff26f84af74f70faa53b808401aae12a8ffeea04d1945ba817eb"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:868f5a91d295ff26f84af74f70faa53b808401aae12a8ffeea04d1945ba817eb"}, "docker": "quay.io/biocontainers/cram-archiver", "aliases": {"cram-archiver": "/usr/local/bin/cram-archiver", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
+config: {"url": "https://biocontainers.pro/tools/cram-archiver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cram-archiver", "latest": {"1.1.0--pyhdfd78af_0": "sha256:f9307a1cd1be65b5a4aeca4143d0c4b17a2acc507be6cb70644886eae219ba4b"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:868f5a91d295ff26f84af74f70faa53b808401aae12a8ffeea04d1945ba817eb", "1.1.0--pyhdfd78af_0": "sha256:f9307a1cd1be65b5a4aeca4143d0c4b17a2acc507be6cb70644886eae219ba4b"}, "docker": "quay.io/biocontainers/cram-archiver", "aliases": {"cram-archiver": "/usr/local/bin/cram-archiver", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cram-archiver.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/cram-archiver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cram-archiver:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cram-archiver:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cram-archiver/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cram-archiver/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cram-archiver/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cram-archiver/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

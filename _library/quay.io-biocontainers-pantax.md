@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pantax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantax/container.yaml"
-updated_at: "2025-08-02 04:01:41.112893"
-latest: "1.2.0--py310h4349ce8_0"
+updated_at: "2025-08-03 04:26:11.538366"
+latest: "2.0.0--py310h3e1df6f_0"
 container_url: "https://biocontainers.pro/tools/pantax"
 aliases:
  - "GraphAligner"
@@ -67,8 +67,9 @@ aliases:
 versions:
  - "1.0.2--py310h4349ce8_0"
  - "1.2.0--py310h4349ce8_0"
+ - "2.0.0--py310h3e1df6f_0"
 description: "singularity registry hpc automated addition for pantax"
-config: {"url": "https://biocontainers.pro/tools/pantax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pantax", "latest": {"1.2.0--py310h4349ce8_0": "sha256:ef5c68b92973b7e4c25d00c0b6bc926df9c4a98c3f5b46007b0628168765bf59"}, "tags": {"1.0.2--py310h4349ce8_0": "sha256:b832a0781fe810230f5eb9e6661d76939b92b8fef3a93a1de8ee02be9ccbdf7f", "1.2.0--py310h4349ce8_0": "sha256:ef5c68b92973b7e4c25d00c0b6bc926df9c4a98c3f5b46007b0628168765bf59"}, "docker": "quay.io/biocontainers/pantax", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "aln_json_process.py": "/usr/local/bin/aln_json_process.py", "build_graph.py": "/usr/local/bin/build_graph.py", "data_preprocessing": "/usr/local/bin/data_preprocessing", "extract_complete_genome.py": "/usr/local/bin/extract_complete_genome.py", "fastix": "/usr/local/bin/fastix", "gaf_filter.py": "/usr/local/bin/gaf_filter.py", "gaf_filter2.py": "/usr/local/bin/gaf_filter2.py", "genomes_cluster.py": "/usr/local/bin/genomes_cluster.py", "get_genomes_info.py": "/usr/local/bin/get_genomes_info.py", "gfaffix": "/usr/local/bin/gfaffix", "mash2net.py": "/usr/local/bin/mash2net.py", "net2communities.py": "/usr/local/bin/net2communities.py", "odgi": "/usr/local/bin/odgi", "otu_range.py": "/usr/local/bin/otu_range.py", "paf2net.py": "/usr/local/bin/paf2net.py", "pantax": "/usr/local/bin/pantax", "partition-before-pggb": "/usr/local/bin/partition-before-pggb", "pggb": "/usr/local/bin/pggb", "prepare_building.py": "/usr/local/bin/prepare_building.py", "read_classification.py": "/usr/local/bin/read_classification.py", "seqwish": "/usr/local/bin/seqwish", "smoothxg": "/usr/local/bin/smoothxg", "species_abundance_cal.py": "/usr/local/bin/species_abundance_cal.py", "split_approx_mappings_in_chunks.py": "/usr/local/bin/split_approx_mappings_in_chunks.py", "staticsData.py": "/usr/local/bin/staticsData.py", "strain_abundance_cal.py": "/usr/local/bin/strain_abundance_cal.py", "strain_abundance_cal2.py": "/usr/local/bin/strain_abundance_cal2.py", "toolkits.py": "/usr/local/bin/toolkits.py", "vg": "/usr/local/bin/vg", "wfmash": "/usr/local/bin/wfmash", "pybind11-config": "/usr/local/bin/pybind11-config", "time": "/usr/local/bin/time", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave"}}
+config: {"url": "https://biocontainers.pro/tools/pantax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pantax", "latest": {"2.0.0--py310h3e1df6f_0": "sha256:93fc7fba9c59e6995382e3de00ebd4f46ed8d69d81f131f52dde0e2687ab8bde"}, "tags": {"1.0.2--py310h4349ce8_0": "sha256:b832a0781fe810230f5eb9e6661d76939b92b8fef3a93a1de8ee02be9ccbdf7f", "1.2.0--py310h4349ce8_0": "sha256:ef5c68b92973b7e4c25d00c0b6bc926df9c4a98c3f5b46007b0628168765bf59", "2.0.0--py310h3e1df6f_0": "sha256:93fc7fba9c59e6995382e3de00ebd4f46ed8d69d81f131f52dde0e2687ab8bde"}, "docker": "quay.io/biocontainers/pantax", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "aln_json_process.py": "/usr/local/bin/aln_json_process.py", "build_graph.py": "/usr/local/bin/build_graph.py", "data_preprocessing": "/usr/local/bin/data_preprocessing", "extract_complete_genome.py": "/usr/local/bin/extract_complete_genome.py", "fastix": "/usr/local/bin/fastix", "gaf_filter.py": "/usr/local/bin/gaf_filter.py", "gaf_filter2.py": "/usr/local/bin/gaf_filter2.py", "genomes_cluster.py": "/usr/local/bin/genomes_cluster.py", "get_genomes_info.py": "/usr/local/bin/get_genomes_info.py", "gfaffix": "/usr/local/bin/gfaffix", "mash2net.py": "/usr/local/bin/mash2net.py", "net2communities.py": "/usr/local/bin/net2communities.py", "odgi": "/usr/local/bin/odgi", "otu_range.py": "/usr/local/bin/otu_range.py", "paf2net.py": "/usr/local/bin/paf2net.py", "pantax": "/usr/local/bin/pantax", "partition-before-pggb": "/usr/local/bin/partition-before-pggb", "pggb": "/usr/local/bin/pggb", "prepare_building.py": "/usr/local/bin/prepare_building.py", "read_classification.py": "/usr/local/bin/read_classification.py", "seqwish": "/usr/local/bin/seqwish", "smoothxg": "/usr/local/bin/smoothxg", "species_abundance_cal.py": "/usr/local/bin/species_abundance_cal.py", "split_approx_mappings_in_chunks.py": "/usr/local/bin/split_approx_mappings_in_chunks.py", "staticsData.py": "/usr/local/bin/staticsData.py", "strain_abundance_cal.py": "/usr/local/bin/strain_abundance_cal.py", "strain_abundance_cal2.py": "/usr/local/bin/strain_abundance_cal2.py", "toolkits.py": "/usr/local/bin/toolkits.py", "vg": "/usr/local/bin/vg", "wfmash": "/usr/local/bin/wfmash", "pybind11-config": "/usr/local/bin/pybind11-config", "time": "/usr/local/bin/time", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pantax.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/pantax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pantax:1.2.0--py310h4349ce8_0
+$ shpc install quay.io/biocontainers/pantax:2.0.0--py310h3e1df6f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pantax/1.2.0--py310h4349ce8_0
-$ module help quay.io/biocontainers/pantax/1.2.0--py310h4349ce8_0
+$ module load quay.io/biocontainers/pantax/2.0.0--py310h3e1df6f_0
+$ module help quay.io/biocontainers/pantax/2.0.0--py310h3e1df6f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

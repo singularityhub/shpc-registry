@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psosp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psosp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psosp/container.yaml"
-updated_at: "2025-08-02 04:09:50.835670"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2025-08-03 04:34:28.952792"
+latest: "1.1.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/psosp"
 aliases:
  - "bed2fasta"
@@ -57,8 +57,9 @@ aliases:
 versions:
  - "1.1.1--pyhdfd78af_0"
  - "1.1.2--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_2"
 description: "singularity registry hpc automated addition for psosp"
-config: {"url": "https://biocontainers.pro/tools/psosp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psosp", "latest": {"1.1.2--pyhdfd78af_0": "sha256:d28761f3eb49eae281dcf55103ae4b1906e0e59461dc60fe87a4d84af884d395"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:1b2eb4a7ec891811c5d384adfb79a4d784ad4c10cab54d84690c2c1a6a9f5839", "1.1.2--pyhdfd78af_0": "sha256:d28761f3eb49eae281dcf55103ae4b1906e0e59461dc60fe87a4d84af884d395"}, "docker": "quay.io/biocontainers/psosp", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "checkv": "/usr/local/bin/checkv", "derangement": "/usr/local/bin/derangement", "dtc": "/usr/local/bin/dtc", "fasta-file-indexer": "/usr/local/bin/fasta-file-indexer", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prodigal-gv": "/usr/local/bin/prodigal-gv", "prosite2meme": "/usr/local/bin/prosite2meme", "psosp": "/usr/local/bin/psosp", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "corepack": "/usr/local/bin/corepack", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich"}}
+config: {"url": "https://biocontainers.pro/tools/psosp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psosp", "latest": {"1.1.2--pyhdfd78af_2": "sha256:12e50a529213262109bcd1b99e6a85b7ec28b77f61b5082c6859e00b55b7e9f4"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:1b2eb4a7ec891811c5d384adfb79a4d784ad4c10cab54d84690c2c1a6a9f5839", "1.1.2--pyhdfd78af_0": "sha256:d28761f3eb49eae281dcf55103ae4b1906e0e59461dc60fe87a4d84af884d395", "1.1.2--pyhdfd78af_2": "sha256:12e50a529213262109bcd1b99e6a85b7ec28b77f61b5082c6859e00b55b7e9f4"}, "docker": "quay.io/biocontainers/psosp", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "checkv": "/usr/local/bin/checkv", "derangement": "/usr/local/bin/derangement", "dtc": "/usr/local/bin/dtc", "fasta-file-indexer": "/usr/local/bin/fasta-file-indexer", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prodigal-gv": "/usr/local/bin/prodigal-gv", "prosite2meme": "/usr/local/bin/prosite2meme", "psosp": "/usr/local/bin/psosp", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "corepack": "/usr/local/bin/corepack", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psosp.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/psosp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psosp:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/psosp:1.1.2--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psosp/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/psosp/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/psosp/1.1.2--pyhdfd78af_2
+$ module help quay.io/biocontainers/psosp/1.1.2--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

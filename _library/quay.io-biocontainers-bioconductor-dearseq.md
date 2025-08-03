@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dearseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dearseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dearseq/container.yaml"
-updated_at: "2025-08-02 04:00:09.375399"
+updated_at: "2025-08-03 04:24:38.948807"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dearseq"
 

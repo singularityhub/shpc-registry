@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoblaster/container.yaml"
-updated_at: "2025-08-02 03:49:29.763773"
-latest: "0.16--h9948957_7"
+updated_at: "2025-08-03 04:13:59.179196"
+latest: "0.16--h9948957_8"
 container_url: "https://biocontainers.pro/tools/nanoblaster"
 aliases:
  - "nanoblaster"
@@ -13,8 +13,9 @@ versions:
  - "0.16--h9f5acd7_4"
  - "0.16--h4ac6f70_6"
  - "0.16--h9948957_7"
+ - "0.16--h9948957_8"
 description: "shpc-registry automated BioContainers addition for nanoblaster"
-config: {"url": "https://biocontainers.pro/tools/nanoblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoblaster", "latest": {"0.16--h9948957_7": "sha256:44c14b6ecdf35a66206e158b37856802a2a6e363d0140e3102e8082b64dceaec"}, "tags": {"0.16--h9f5acd7_4": "sha256:73ee53ad59067f97d64f82bcca43fa0906f68e57342a695e4d7b708bdef99424", "0.16--h4ac6f70_6": "sha256:6632cc7f9598e16fbf6710b39cc564d7fbdeb7d24d825f0631f81f4054386610", "0.16--h9948957_7": "sha256:44c14b6ecdf35a66206e158b37856802a2a6e363d0140e3102e8082b64dceaec"}, "docker": "quay.io/biocontainers/nanoblaster", "aliases": {"nanoblaster": "/usr/local/bin/nanoblaster"}}
+config: {"url": "https://biocontainers.pro/tools/nanoblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoblaster", "latest": {"0.16--h9948957_8": "sha256:45a9099b54f6860b7e96f8987e2c8420f71c958c401d4298b7b44dfda753cbb5"}, "tags": {"0.16--h9f5acd7_4": "sha256:73ee53ad59067f97d64f82bcca43fa0906f68e57342a695e4d7b708bdef99424", "0.16--h4ac6f70_6": "sha256:6632cc7f9598e16fbf6710b39cc564d7fbdeb7d24d825f0631f81f4054386610", "0.16--h9948957_7": "sha256:44c14b6ecdf35a66206e158b37856802a2a6e363d0140e3102e8082b64dceaec", "0.16--h9948957_8": "sha256:45a9099b54f6860b7e96f8987e2c8420f71c958c401d4298b7b44dfda753cbb5"}, "docker": "quay.io/biocontainers/nanoblaster", "aliases": {"nanoblaster": "/usr/local/bin/nanoblaster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoblaster.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/nanoblaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoblaster:0.16--h9948957_7
+$ shpc install quay.io/biocontainers/nanoblaster:0.16--h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoblaster/0.16--h9948957_7
-$ module help quay.io/biocontainers/nanoblaster/0.16--h9948957_7
+$ module load quay.io/biocontainers/nanoblaster/0.16--h9948957_8
+$ module help quay.io/biocontainers/nanoblaster/0.16--h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

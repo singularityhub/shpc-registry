@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dream4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dream4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dream4/container.yaml"
-updated_at: "2025-08-02 03:33:21.334658"
+updated_at: "2025-08-03 03:57:55.373394"
 latest: "1.30.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dream4"
 
