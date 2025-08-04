@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/smakcr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for smakcr
+latest:
+  0.1.0--h4349ce8_0: 
+    sha256:9c30a249a44b76b978390f750e45c231b62b0a39e104b2210ab23398753f3c9f
+tags:
+  0.1.0--h4349ce8_0: 
+    sha256:9c30a249a44b76b978390f750e45c231b62b0a39e104b2210ab23398753f3c9f
+docker: quay.io/biocontainers/smakcr
+aliases:
+  smakcr: /usr/local/bin/smakcr

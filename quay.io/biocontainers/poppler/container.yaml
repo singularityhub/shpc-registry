@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/poppler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for poppler
+latest:
+  25.07.0: 
+    sha256:7e2c2a14ff8dac2ba5abec10ce1239fb99371513a42a6f1e645c9045002a2042
+tags:
+  25.07.0: 
+    sha256:7e2c2a14ff8dac2ba5abec10ce1239fb99371513a42a6f1e645c9045002a2042
+docker: quay.io/biocontainers/poppler
+aliases:
+  pdfsig: /usr/local/bin/pdfsig
+  pdfattach: /usr/local/bin/pdfattach
+  pdfdetach: /usr/local/bin/pdfdetach
+  pdffonts: /usr/local/bin/pdffonts
+  pdfimages: /usr/local/bin/pdfimages
+  pdfinfo: /usr/local/bin/pdfinfo
+  pdfseparate: /usr/local/bin/pdfseparate
+  pdftocairo: /usr/local/bin/pdftocairo
+  pdftohtml: /usr/local/bin/pdftohtml
+  pdftoppm: /usr/local/bin/pdftoppm
+  pdftops: /usr/local/bin/pdftops
+  pdftotext: /usr/local/bin/pdftotext
+  pdfunite: /usr/local/bin/pdfunite
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/remag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for remag
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07
+docker: quay.io/biocontainers/remag
+aliases:
+  remag: /usr/local/bin/remag
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  rich-click: /usr/local/bin/rich-click
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  markdown-it: /usr/local/bin/markdown-it
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
