@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/fishplotpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fishplotpy
+latest:
+  1.0.0--pyh7e72e81_0: 
+    sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac
+tags:
+  1.0.0--pyh7e72e81_0: 
+    sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac
+docker: quay.io/biocontainers/fishplotpy
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

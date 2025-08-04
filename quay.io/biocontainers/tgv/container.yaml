@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/tgv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tgv
+latest:
+  0.0.6--h521fa98_0: 
+    sha256:6b741f8410ddd7cd0ed00759726dec6111045da8d1a57adcb41e91d8a0c286ae
+tags:
+  0.0.6--h521fa98_0: 
+    sha256:6b741f8410ddd7cd0ed00759726dec6111045da8d1a57adcb41e91d8a0c286ae
+docker: quay.io/biocontainers/tgv
+aliases:
+  tgv: /usr/local/bin/tgv
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/bioemu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioemu
+latest:
+  1.1.0--pyh7e72e81_0: 
+    sha256:ab171cd780c821eb50ce1200132a78ca665871f43dba11fb9f8818415485e26d
+tags:
+  1.1.0--pyh7e72e81_0: 
+    sha256:ab171cd780c821eb50ce1200132a78ca665871f43dba11fb9f8818415485e26d
+docker: quay.io/biocontainers/bioemu
+aliases:
+  bio: /usr/local/bin/bio
+  fasta_filter.py: /usr/local/bin/fasta_filter.py
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  mdconvert: /usr/local/bin/mdconvert
+  mdinspect: /usr/local/bin/mdinspect
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  pygrun: /usr/local/bin/pygrun
+  tiny-agents: /usr/local/bin/tiny-agents
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  typer: /usr/local/bin/typer
+  cpuinfo: /usr/local/bin/cpuinfo
+  httpx: /usr/local/bin/httpx
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  h5fuse: /usr/local/bin/h5fuse
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  markdown-it: /usr/local/bin/markdown-it
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info

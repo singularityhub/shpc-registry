@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/metabolishmm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metabolishmm
+latest:
+  2.22--pyhdfd78af_0: 
+    sha256:f5f50ead4801a12434875c8cf304d385405d5e4ba057044900f476088e203b10
+tags:
+  2.22--pyhdfd78af_0: 
+    sha256:f5f50ead4801a12434875c8cf304d385405d5e4ba057044900f476088e203b10
+docker: quay.io/biocontainers/metabolishmm
+aliases:
+  create-genome-phylogeny: /usr/local/bin/create-genome-phylogeny
+  search-custom-markers: /usr/local/bin/search-custom-markers
+  single-marker-phylogeny: /usr/local/bin/single-marker-phylogeny
+  summarize-metabolism: /usr/local/bin/summarize-metabolism
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
