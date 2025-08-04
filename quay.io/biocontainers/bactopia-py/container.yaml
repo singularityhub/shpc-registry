@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bactopia-py
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-py
 latest:
-  1.5.0--pyhdfd78af_0: 
-    sha256:64996b6049990289658291f0aafd6ef9e3bf13b87bbf03cd4ae08aa68ebf46cc
+  1.6.1--pyhdfd78af_0: 
+    sha256:df84d42f93d495e9c7c4042d188ec44f0f4254fd7ac54bb2497c887aacfd84a4
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:9c862327762822dbb3fc8384da027bc919cf91695812e5917c62b0d95515b261
@@ -31,6 +31,10 @@ tags:
     sha256:64bb162d27828ca592f9ce06fe3663abcde4f92af8fdc2d319574124cba98867
   1.5.0--pyhdfd78af_0: 
     sha256:64996b6049990289658291f0aafd6ef9e3bf13b87bbf03cd4ae08aa68ebf46cc
+  1.6.1--pyhdfd78af_0: 
+    sha256:df84d42f93d495e9c7c4042d188ec44f0f4254fd7ac54bb2497c887aacfd84a4
+  1.5.1--pyhdfd78af_0: 
+    sha256:b7bb412483e8669a51871cda348e5ce8547b863cce31226622033aa3df10b050
 docker: quay.io/biocontainers/bactopia-py
 aliases:
   bactopia-citations: /usr/local/bin/bactopia-citations

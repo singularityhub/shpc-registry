@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pytantan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pytantan
 latest:
-  0.1.3--py310h5140242_0: 
-    sha256:489e18aff1773bad4256b9cb0e269868799c664f108a36918292b42e80212b89
+  0.1.3--py312hdcc493e_1: 
+    sha256:67dca70c9fb63e3fd286acaee259be149eeff6617bed688445e5dc7fa8a123ce
 tags:
   0.1.3--py310h5140242_0: 
     sha256:489e18aff1773bad4256b9cb0e269868799c664f108a36918292b42e80212b89
+  0.1.3--py312hdcc493e_1: 
+    sha256:67dca70c9fb63e3fd286acaee259be149eeff6617bed688445e5dc7fa8a123ce
 docker: quay.io/biocontainers/pytantan
 aliases:
   archspec: /usr/local/bin/archspec

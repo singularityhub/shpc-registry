@@ -1,17 +1,16 @@
 docker: quay.io/pawsey/cp2k
 url: https://singularity-hpc.readthedocs.io
 description: Pawsey build of CP2K built on top of MPICH and ROCm for AMD GPUs
-maintainer: "@craigmeyer"
+maintainer: '@craigmeyer'
 features:
   gpu: true
 
 latest:
-  2024.3-rocm6.3.0:
+  2024.3-rocm6.3.0: 
     sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677
 tags:
-  2024.3-rocm6.3.0:
+  2024.3-rocm6.3.0: 
     sha256:a3f49b16b1a4f758997153fc66751d3112cbcdb1f480ffb51cd0bde9cb7a1677
-
 aliases:
   cp2k.popt: /opt/cp2k/bin/cp2k.popt
   cp2k.psmp.dbcsr_gpu.pw_gpu: /opt/cp2k/bin/cp2k.psmp.dbcsr_gpu.pw_gpu
@@ -29,5 +28,6 @@ aliases:
   dbt_unittest.psmp: /opt/cp2k/bin/dbt_unittest.psmp
   grid_miniapp.psmp: /opt/cp2k/bin/grid_miniapp.psmp
   libcp2k_unittest.psmp: /opt/cp2k/bin/libcp2k_unittest.psmp
-  parallel_rng_types_unittest.psmp: /opt/cp2k/bin/parallel_rng_types_unittest.psmp
+  parallel_rng_types_unittest.psmp: 
+    /opt/cp2k/bin/parallel_rng_types_unittest.psmp
   nequip_unittest.psmp: /opt/cp2k/bin/nequip_unittest.psmp

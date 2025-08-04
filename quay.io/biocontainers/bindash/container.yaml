@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bindash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bindash
 latest:
-  2.5--h077b44d_0: 
-    sha256:7af6215d6bde7e765dce877b679041eeb22a83b3f91709b36a03dcd3416265a3
+  2.6--h077b44d_0: 
+    sha256:7d144f26071f3771cb9376beca07575961f5cd7c659799722f72170720199845
 tags:
   1.0--h5b5514e_2: 
     sha256:2c9b9be4093f73188173d1cd22c4518be613c2d75af805aca8497d08edd7d135
@@ -25,6 +25,8 @@ tags:
     sha256:318dcc8797959edc9b2436b92fa9cfac4904755b27173732b4534d4d03c69822
   2.5--h077b44d_0: 
     sha256:7af6215d6bde7e765dce877b679041eeb22a83b3f91709b36a03dcd3416265a3
+  2.6--h077b44d_0: 
+    sha256:7d144f26071f3771cb9376beca07575961f5cd7c659799722f72170720199845
 docker: quay.io/biocontainers/bindash
 aliases:
   bindash: /usr/local/bin/bindash

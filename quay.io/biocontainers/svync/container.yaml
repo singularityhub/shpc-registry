@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/svync
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svync
 latest:
-  0.2.0--h9ee0642_0: 
-    sha256:f9cfca2103218974a75749646171201e5f8e842518279c30590a0b48f0ec1aef
+  0.3.0--h9ee0642_0: 
+    sha256:b73875e24e8370daca56508fd2c35a1276de0080efb348bc4693b9f2f4765246
 tags:
   0.1.2--h9ee0642_0: 
     sha256:fb3bd276f4251c479746b3f6bf5985a3fce141a4d53a8f337c24baebb63c9541
   0.2.0--h9ee0642_0: 
     sha256:f9cfca2103218974a75749646171201e5f8e842518279c30590a0b48f0ec1aef
+  0.3.0--h9ee0642_0: 
+    sha256:b73875e24e8370daca56508fd2c35a1276de0080efb348bc4693b9f2f4765246
 docker: quay.io/biocontainers/svync
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv
