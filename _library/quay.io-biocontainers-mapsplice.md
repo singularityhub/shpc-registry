@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapsplice/container.yaml"
-updated_at: "2025-08-04 04:34:54.696805"
+updated_at: "2025-08-04 04:51:19.598198"
 latest: "2.2.1--py39hc2f06e3_2"
 container_url: "https://biocontainers.pro/tools/mapsplice"
 aliases:

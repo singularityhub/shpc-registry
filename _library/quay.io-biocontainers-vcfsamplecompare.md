@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfsamplecompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
-updated_at: "2025-08-04 04:25:49.830814"
+updated_at: "2025-08-04 04:42:15.456473"
 latest: "2.013--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vcfsamplecompare"
 aliases:

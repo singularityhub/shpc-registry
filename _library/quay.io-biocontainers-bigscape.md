@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigscape/container.yaml"
-updated_at: "2025-08-04 04:35:36.071966"
+updated_at: "2025-08-04 04:52:00.097753"
 latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigscape"
 aliases:

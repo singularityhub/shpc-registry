@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanonet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanonet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanonet/container.yaml"
-updated_at: "2025-08-04 04:45:11.699267"
+updated_at: "2025-08-04 05:01:30.809678"
 latest: "2.0.0--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/nanonet"
 aliases:

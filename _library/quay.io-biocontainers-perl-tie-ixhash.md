@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-ixhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-ixhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-ixhash/container.yaml"
-updated_at: "2025-08-04 04:01:19.004812"
+updated_at: "2025-08-04 04:17:29.260291"
 latest: "1.23--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-tie-ixhash"
 aliases:

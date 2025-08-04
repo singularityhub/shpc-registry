@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trnascanimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trnascanimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trnascanimport/container.yaml"
-updated_at: "2025-08-04 04:23:15.256251"
+updated_at: "2025-08-04 04:39:39.358506"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trnascanimport"
 aliases:

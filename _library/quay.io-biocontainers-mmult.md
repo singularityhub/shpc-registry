@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmult"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmult/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmult/container.yaml"
-updated_at: "2025-08-04 04:41:24.119400"
+updated_at: "2025-08-04 04:57:43.816479"
 latest: "0.0.0.2--r40h8b68381_0"
 container_url: "https://biocontainers.pro/tools/mmult"
 aliases:
