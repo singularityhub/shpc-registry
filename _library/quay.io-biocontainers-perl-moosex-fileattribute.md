@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-fileattribute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-fileattribute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-fileattribute/container.yaml"
-updated_at: "2025-08-03 04:28:03.945367"
+updated_at: "2025-08-04 04:33:51.685541"
 latest: "0.03--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-moosex-fileattribute"
 aliases:

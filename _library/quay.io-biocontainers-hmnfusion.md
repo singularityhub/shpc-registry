@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmnfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnfusion/container.yaml"
-updated_at: "2025-08-03 04:26:53.529910"
-latest: "1.3.0--pyh7e72e81_0"
+updated_at: "2025-08-04 04:32:40.376813"
+latest: "1.4.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/hmnfusion"
 aliases:
  - "hmnfusion"
@@ -38,8 +38,10 @@ versions:
  - "1.2.6--pyh7cba7a3_0"
  - "1.2.12--pyh7cba7a3_0"
  - "1.3.0--pyh7e72e81_0"
+ - "1.4.0--pyh7e72e81_0"
+ - "1.3.1--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for hmnfusion"
-config: {"url": "https://biocontainers.pro/tools/hmnfusion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnfusion", "latest": {"1.3.0--pyh7e72e81_0": "sha256:e316cb3d9ac14079ed1c899f198d880ac8ed4bdd84799d441de7fdb7e7806acf"}, "tags": {"1.2.6--pyh7cba7a3_0": "sha256:694bbe2e291bd7c0d34a0ec0ddcb0a4a6bf5e76cda1df44175377affca3c0898", "1.2.12--pyh7cba7a3_0": "sha256:a08b9df22fe006ee25449e17037cd1e85588223f7f63faf486a4d7542fdb07e2", "1.3.0--pyh7e72e81_0": "sha256:e316cb3d9ac14079ed1c899f198d880ac8ed4bdd84799d441de7fdb7e7806acf"}, "docker": "quay.io/biocontainers/hmnfusion", "aliases": {"hmnfusion": "/usr/local/bin/hmnfusion", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
+config: {"url": "https://biocontainers.pro/tools/hmnfusion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnfusion", "latest": {"1.4.0--pyh7e72e81_0": "sha256:3ee516551c73c2461cb23c80815bbeb7b5cad47a5e6bb7c8b44dd3f5b9fe26eb"}, "tags": {"1.2.6--pyh7cba7a3_0": "sha256:694bbe2e291bd7c0d34a0ec0ddcb0a4a6bf5e76cda1df44175377affca3c0898", "1.2.12--pyh7cba7a3_0": "sha256:a08b9df22fe006ee25449e17037cd1e85588223f7f63faf486a4d7542fdb07e2", "1.3.0--pyh7e72e81_0": "sha256:e316cb3d9ac14079ed1c899f198d880ac8ed4bdd84799d441de7fdb7e7806acf", "1.4.0--pyh7e72e81_0": "sha256:3ee516551c73c2461cb23c80815bbeb7b5cad47a5e6bb7c8b44dd3f5b9fe26eb", "1.3.1--pyh7e72e81_0": "sha256:9524d957f06af2194969516af6775f36572b078148a2c52d4d42d4e39a96eb78"}, "docker": "quay.io/biocontainers/hmnfusion", "aliases": {"hmnfusion": "/usr/local/bin/hmnfusion", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmnfusion.
@@ -54,7 +56,7 @@ $ shpc install quay.io/biocontainers/hmnfusion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmnfusion:1.3.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/hmnfusion:1.4.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmnfusion/1.3.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/hmnfusion/1.3.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/hmnfusion/1.4.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/hmnfusion/1.4.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

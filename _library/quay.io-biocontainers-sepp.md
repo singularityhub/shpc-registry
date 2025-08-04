@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp/container.yaml"
-updated_at: "2025-08-03 04:10:14.715357"
+updated_at: "2025-08-04 04:15:53.627581"
 latest: "4.5.5--py310h1fe012e_3"
 container_url: "https://biocontainers.pro/tools/sepp"
 

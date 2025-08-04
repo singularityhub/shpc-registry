@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngseqbasic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngseqbasic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngseqbasic/container.yaml"
-updated_at: "2025-08-03 04:04:44.074106"
-latest: "2.0.1--pl5.22.0.1_1"
+updated_at: "2025-08-04 04:10:16.578121"
+latest: "20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngseqbasic"
 aliases:
  - "NGseqBasic"
@@ -62,8 +62,9 @@ aliases:
  - "c2ph"
 versions:
  - "2.0.1--pl5.22.0.1_1"
+ - "20.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ngseqbasic"
-config: {"url": "https://biocontainers.pro/tools/ngseqbasic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngseqbasic", "latest": {"2.0.1--pl5.22.0.1_1": "sha256:4fd3e6d18e9921cba95e36563ff5203f37930a68dd6aa4aab2fd58270ef98847"}, "tags": {"2.0.1--pl5.22.0.1_1": "sha256:4fd3e6d18e9921cba95e36563ff5203f37930a68dd6aa4aab2fd58270ef98847"}, "docker": "quay.io/biocontainers/ngseqbasic", "aliases": {"NGseqBasic": "/usr/local/bin/NGseqBasic", "bedClip": "/usr/local/bin/bedClip", "bedGraphPack": "/usr/local/bin/bedGraphPack", "innochecksum": "/usr/local/bin/innochecksum", "msql2mysql": "/usr/local/bin/msql2mysql", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql_client_test": "/usr/local/bin/mysql_client_test", "mysql_convert_table_format": "/usr/local/bin/mysql_convert_table_format", "mysql_find_rows": "/usr/local/bin/mysql_find_rows", "mysql_fix_extensions": "/usr/local/bin/mysql_fix_extensions", "mysql_plugin": "/usr/local/bin/mysql_plugin", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_setpermission": "/usr/local/bin/mysql_setpermission", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysql_waitpid": "/usr/local/bin/mysql_waitpid", "mysql_zap": "/usr/local/bin/mysql_zap", "mysqlaccess": "/usr/local/bin/mysqlaccess", "mysqlaccess.conf": "/usr/local/bin/mysqlaccess.conf", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlbug": "/usr/local/bin/mysqlbug", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlhotcopy": "/usr/local/bin/mysqlhotcopy", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "mysqltest": "/usr/local/bin/mysqltest", "replace": "/usr/local/bin/replace", "resolve_stack_dump": "/usr/local/bin/resolve_stack_dump", "resolveip": "/usr/local/bin/resolveip", "testEnvironment": "/usr/local/bin/testEnvironment", "trim_galore": "/usr/local/bin/trim_galore", "flash": "/usr/local/bin/flash", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph"}}
+config: {"url": "https://biocontainers.pro/tools/ngseqbasic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngseqbasic", "latest": {"20.0--hdfd78af_0": "sha256:4af071515985fa6d6492798eb58cfd56cbcd7ccaa14de6d43c34b75dab493ef6"}, "tags": {"2.0.1--pl5.22.0.1_1": "sha256:4fd3e6d18e9921cba95e36563ff5203f37930a68dd6aa4aab2fd58270ef98847", "20.0--hdfd78af_0": "sha256:4af071515985fa6d6492798eb58cfd56cbcd7ccaa14de6d43c34b75dab493ef6"}, "docker": "quay.io/biocontainers/ngseqbasic", "aliases": {"NGseqBasic": "/usr/local/bin/NGseqBasic", "bedClip": "/usr/local/bin/bedClip", "bedGraphPack": "/usr/local/bin/bedGraphPack", "innochecksum": "/usr/local/bin/innochecksum", "msql2mysql": "/usr/local/bin/msql2mysql", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql_client_test": "/usr/local/bin/mysql_client_test", "mysql_convert_table_format": "/usr/local/bin/mysql_convert_table_format", "mysql_find_rows": "/usr/local/bin/mysql_find_rows", "mysql_fix_extensions": "/usr/local/bin/mysql_fix_extensions", "mysql_plugin": "/usr/local/bin/mysql_plugin", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_setpermission": "/usr/local/bin/mysql_setpermission", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysql_waitpid": "/usr/local/bin/mysql_waitpid", "mysql_zap": "/usr/local/bin/mysql_zap", "mysqlaccess": "/usr/local/bin/mysqlaccess", "mysqlaccess.conf": "/usr/local/bin/mysqlaccess.conf", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlbug": "/usr/local/bin/mysqlbug", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlhotcopy": "/usr/local/bin/mysqlhotcopy", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "mysqltest": "/usr/local/bin/mysqltest", "replace": "/usr/local/bin/replace", "resolve_stack_dump": "/usr/local/bin/resolve_stack_dump", "resolveip": "/usr/local/bin/resolveip", "testEnvironment": "/usr/local/bin/testEnvironment", "trim_galore": "/usr/local/bin/trim_galore", "flash": "/usr/local/bin/flash", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngseqbasic.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/ngseqbasic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngseqbasic:2.0.1--pl5.22.0.1_1
+$ shpc install quay.io/biocontainers/ngseqbasic:20.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngseqbasic/2.0.1--pl5.22.0.1_1
-$ module help quay.io/biocontainers/ngseqbasic/2.0.1--pl5.22.0.1_1
+$ module load quay.io/biocontainers/ngseqbasic/20.0--hdfd78af_0
+$ module help quay.io/biocontainers/ngseqbasic/20.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

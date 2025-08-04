@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biocommons.seqrepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocommons.seqrepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocommons.seqrepo/container.yaml"
-updated_at: "2025-08-03 04:05:21.992042"
-latest: "0.6.9--pyhdfd78af_0"
+updated_at: "2025-08-04 04:10:55.299353"
+latest: "0.6.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biocommons.seqrepo"
 aliases:
  - "pyppeteer-install"
@@ -27,8 +27,9 @@ versions:
  - "0.6.5--pyhdfd78af_0"
  - "0.6.6--pyhdfd78af_0"
  - "0.6.9--pyhdfd78af_0"
+ - "0.6.11--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biocommons.seqrepo"
-config: {"url": "https://biocontainers.pro/tools/biocommons.seqrepo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biocommons.seqrepo", "latest": {"0.6.9--pyhdfd78af_0": "sha256:20b5af7a2defae3f50c627e5873b45dca552b12e57d57b5e60dbb0969e77afe3"}, "tags": {"0.6.5--pyhdfd78af_0": "sha256:0d81c542e2264b4b8773759139a07a8bc824ff6755d4a813dc588604e70c1f6b", "0.6.6--pyhdfd78af_0": "sha256:e38f8fbbb3fe72712c004ecfb6c9fa8a1399c02259b90774788b3db9998217fb", "0.6.9--pyhdfd78af_0": "sha256:20b5af7a2defae3f50c627e5873b45dca552b12e57d57b5e60dbb0969e77afe3"}, "docker": "quay.io/biocontainers/biocommons.seqrepo", "aliases": {"pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/biocommons.seqrepo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biocommons.seqrepo", "latest": {"0.6.11--pyhdfd78af_0": "sha256:51ed93ee2da28b6f91938734855a08b9a345361ba718571403603eabc6bebf8c"}, "tags": {"0.6.5--pyhdfd78af_0": "sha256:0d81c542e2264b4b8773759139a07a8bc824ff6755d4a813dc588604e70c1f6b", "0.6.6--pyhdfd78af_0": "sha256:e38f8fbbb3fe72712c004ecfb6c9fa8a1399c02259b90774788b3db9998217fb", "0.6.9--pyhdfd78af_0": "sha256:20b5af7a2defae3f50c627e5873b45dca552b12e57d57b5e60dbb0969e77afe3", "0.6.11--pyhdfd78af_0": "sha256:51ed93ee2da28b6f91938734855a08b9a345361ba718571403603eabc6bebf8c"}, "docker": "quay.io/biocontainers/biocommons.seqrepo", "aliases": {"pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biocommons.seqrepo.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/biocommons.seqrepo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biocommons.seqrepo:0.6.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biocommons.seqrepo:0.6.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biocommons.seqrepo/0.6.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/biocommons.seqrepo/0.6.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/biocommons.seqrepo/0.6.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/biocommons.seqrepo/0.6.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

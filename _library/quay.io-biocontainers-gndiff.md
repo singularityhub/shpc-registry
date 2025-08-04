@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gndiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gndiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gndiff/container.yaml"
-updated_at: "2025-08-03 03:58:28.718685"
-latest: "0.3.0--he881be0_0"
+updated_at: "2025-08-04 04:03:55.711007"
+latest: "0.3.0--he881be0_1"
 container_url: "https://biocontainers.pro/tools/gndiff"
 aliases:
  - "gndiff"
@@ -13,8 +13,9 @@ versions:
  - "0.2.0--he881be0_0"
  - "0.3.0--he881be0_0"
  - "0.2.1--he881be0_0"
+ - "0.3.0--he881be0_1"
 description: "singularity registry hpc automated addition for gndiff"
-config: {"url": "https://biocontainers.pro/tools/gndiff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gndiff", "latest": {"0.3.0--he881be0_0": "sha256:75aedb69713921dac68c75af6d59710779ce90c6c0f355a7f90064a9e7eabeb0"}, "tags": {"0.2.0--he881be0_0": "sha256:ccb9a26b2c6309efe0b397a4a180184828a184b0aaf700e22068464f20093a31", "0.3.0--he881be0_0": "sha256:75aedb69713921dac68c75af6d59710779ce90c6c0f355a7f90064a9e7eabeb0", "0.2.1--he881be0_0": "sha256:81b16ab43e940f2b8c8dec239d6acdaf5fcd36d32093ef542c6672dc7890b88a"}, "docker": "quay.io/biocontainers/gndiff", "aliases": {"gndiff": "/usr/local/bin/gndiff"}}
+config: {"url": "https://biocontainers.pro/tools/gndiff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gndiff", "latest": {"0.3.0--he881be0_1": "sha256:cd1521d098914b824816a71812a1acba447272b4618d296ca61650a33bb5c59e"}, "tags": {"0.2.0--he881be0_0": "sha256:ccb9a26b2c6309efe0b397a4a180184828a184b0aaf700e22068464f20093a31", "0.3.0--he881be0_0": "sha256:75aedb69713921dac68c75af6d59710779ce90c6c0f355a7f90064a9e7eabeb0", "0.2.1--he881be0_0": "sha256:81b16ab43e940f2b8c8dec239d6acdaf5fcd36d32093ef542c6672dc7890b88a", "0.3.0--he881be0_1": "sha256:cd1521d098914b824816a71812a1acba447272b4618d296ca61650a33bb5c59e"}, "docker": "quay.io/biocontainers/gndiff", "aliases": {"gndiff": "/usr/local/bin/gndiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gndiff.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gndiff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gndiff:0.3.0--he881be0_0
+$ shpc install quay.io/biocontainers/gndiff:0.3.0--he881be0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gndiff/0.3.0--he881be0_0
-$ module help quay.io/biocontainers/gndiff/0.3.0--he881be0_0
+$ module load quay.io/biocontainers/gndiff/0.3.0--he881be0_1
+$ module help quay.io/biocontainers/gndiff/0.3.0--he881be0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
