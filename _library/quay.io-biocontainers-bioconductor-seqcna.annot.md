@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqcna.annot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqcna.annot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqcna.annot/container.yaml"
-updated_at: "2025-08-04 04:17:11.816788"
+updated_at: "2025-08-05 03:52:50.285761"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqcna.annot"
 

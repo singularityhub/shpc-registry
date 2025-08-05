@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gotohscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotohscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotohscan/container.yaml"
-updated_at: "2025-08-04 05:01:54.472229"
-latest: "1.3--h7b50bb2_7"
+updated_at: "2025-08-05 04:37:02.648833"
+latest: "2.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/gotohscan"
 aliases:
  - "GotohScan"
@@ -13,8 +13,9 @@ versions:
  - "1.3--hec16e2b_4"
  - "1.3--h031d066_6"
  - "1.3--h7b50bb2_7"
+ - "2.0--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for gotohscan"
-config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"1.3--h7b50bb2_7": "sha256:3a6e2850100990e3e87537234f8d2058a70c855144fd491e585e18d8bdda57fe"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae", "1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4", "1.3--h7b50bb2_7": "sha256:3a6e2850100990e3e87537234f8d2058a70c855144fd491e585e18d8bdda57fe"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
+config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"2.0--h7b50bb2_0": "sha256:7c73ebb50f612361d31803810f18d0ffff3b5d13339aabe96cd82880da03d90a"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae", "1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4", "1.3--h7b50bb2_7": "sha256:3a6e2850100990e3e87537234f8d2058a70c855144fd491e585e18d8bdda57fe", "2.0--h7b50bb2_0": "sha256:7c73ebb50f612361d31803810f18d0ffff3b5d13339aabe96cd82880da03d90a"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gotohscan.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gotohscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gotohscan:1.3--h7b50bb2_7
+$ shpc install quay.io/biocontainers/gotohscan:2.0--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gotohscan/1.3--h7b50bb2_7
-$ module help quay.io/biocontainers/gotohscan/1.3--h7b50bb2_7
+$ module load quay.io/biocontainers/gotohscan/2.0--h7b50bb2_0
+$ module help quay.io/biocontainers/gotohscan/2.0--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

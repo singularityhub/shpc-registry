@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mutscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutscan/container.yaml"
-updated_at: "2025-08-04 04:41:55.416676"
-latest: "1.14.0--h5ca1c30_5"
+updated_at: "2025-08-05 04:17:20.528735"
+latest: "1.14.1--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/mutscan"
 aliases:
  - "mutscan"
@@ -13,8 +13,9 @@ versions:
  - "1.14.0--h5b5514e_2"
  - "1.14.0--h43eeafb_4"
  - "1.14.0--h5ca1c30_5"
+ - "1.14.1--h5ca1c30_0"
 description: "shpc-registry automated BioContainers addition for mutscan"
-config: {"url": "https://biocontainers.pro/tools/mutscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mutscan", "latest": {"1.14.0--h5ca1c30_5": "sha256:5d3217e0464650611728e9a8eb82b2de30b84c3cb3514d525ec72ce9157ffba6"}, "tags": {"1.14.0--h5b5514e_2": "sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602", "1.14.0--h43eeafb_4": "sha256:6dc463ec1888dd98172ee37d1af038ceea0fc59593b5967e84952a4a00376013", "1.14.0--h5ca1c30_5": "sha256:5d3217e0464650611728e9a8eb82b2de30b84c3cb3514d525ec72ce9157ffba6"}, "docker": "quay.io/biocontainers/mutscan", "aliases": {"mutscan": "/usr/local/bin/mutscan"}}
+config: {"url": "https://biocontainers.pro/tools/mutscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mutscan", "latest": {"1.14.1--h5ca1c30_0": "sha256:c2c76f05d3cde502ff1c6882d510210d42728bf7da37f0d6a276ae5ab6ad63bb"}, "tags": {"1.14.0--h5b5514e_2": "sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602", "1.14.0--h43eeafb_4": "sha256:6dc463ec1888dd98172ee37d1af038ceea0fc59593b5967e84952a4a00376013", "1.14.0--h5ca1c30_5": "sha256:5d3217e0464650611728e9a8eb82b2de30b84c3cb3514d525ec72ce9157ffba6", "1.14.1--h5ca1c30_0": "sha256:c2c76f05d3cde502ff1c6882d510210d42728bf7da37f0d6a276ae5ab6ad63bb"}, "docker": "quay.io/biocontainers/mutscan", "aliases": {"mutscan": "/usr/local/bin/mutscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutscan.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/mutscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutscan:1.14.0--h5ca1c30_5
+$ shpc install quay.io/biocontainers/mutscan:1.14.1--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutscan/1.14.0--h5ca1c30_5
-$ module help quay.io/biocontainers/mutscan/1.14.0--h5ca1c30_5
+$ module load quay.io/biocontainers/mutscan/1.14.1--h5ca1c30_0
+$ module help quay.io/biocontainers/mutscan/1.14.1--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

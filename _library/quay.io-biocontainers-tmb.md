@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmb/container.yaml"
-updated_at: "2025-08-04 04:57:15.459588"
-latest: "1.3.0--pyh5e36f6f_0"
+updated_at: "2025-08-05 04:32:27.857447"
+latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tmb"
 aliases:
  - "mosdepth"
@@ -23,8 +23,9 @@ aliases:
  - "bedToIgv"
 versions:
  - "1.3.0--pyh5e36f6f_0"
+ - "1.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tmb"
-config: {"url": "https://biocontainers.pro/tools/tmb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmb", "latest": {"1.3.0--pyh5e36f6f_0": "sha256:74b5ab0c643003bafedf3d08ee465e1c8287aefbb274b284e8108fe4d0394cb3"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:74b5ab0c643003bafedf3d08ee465e1c8287aefbb274b284e8108fe4d0394cb3"}, "docker": "quay.io/biocontainers/tmb", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "pyEffGenomeSize.py": "/usr/local/bin/pyEffGenomeSize.py", "pyTMB.py": "/usr/local/bin/pyTMB.py", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
+config: {"url": "https://biocontainers.pro/tools/tmb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmb", "latest": {"1.5.0--pyhdfd78af_0": "sha256:b121fab620468a5b6e8bff50da6060d9ad7766cc0b387c60e2d3f4d823cdc4c8"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:74b5ab0c643003bafedf3d08ee465e1c8287aefbb274b284e8108fe4d0394cb3", "1.5.0--pyhdfd78af_0": "sha256:b121fab620468a5b6e8bff50da6060d9ad7766cc0b387c60e2d3f4d823cdc4c8"}, "docker": "quay.io/biocontainers/tmb", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "pyEffGenomeSize.py": "/usr/local/bin/pyEffGenomeSize.py", "pyTMB.py": "/usr/local/bin/pyTMB.py", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tmb.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/tmb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tmb:1.3.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/tmb:1.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tmb/1.3.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/tmb/1.3.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/tmb/1.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/tmb/1.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

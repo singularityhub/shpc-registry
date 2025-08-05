@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytantan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytantan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytantan/container.yaml"
-updated_at: "2025-08-04 04:20:12.219032"
-latest: "0.1.3--py310h5140242_0"
+updated_at: "2025-08-05 03:55:51.043304"
+latest: "0.1.3--py312hdcc493e_1"
 container_url: "https://biocontainers.pro/tools/pytantan"
 aliases:
  - "archspec"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.3--py310h5140242_0"
+ - "0.1.3--py312hdcc493e_1"
 description: "singularity registry hpc automated addition for pytantan"
-config: {"url": "https://biocontainers.pro/tools/pytantan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytantan", "latest": {"0.1.3--py310h5140242_0": "sha256:489e18aff1773bad4256b9cb0e269868799c664f108a36918292b42e80212b89"}, "tags": {"0.1.3--py310h5140242_0": "sha256:489e18aff1773bad4256b9cb0e269868799c664f108a36918292b42e80212b89"}, "docker": "quay.io/biocontainers/pytantan", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytantan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytantan", "latest": {"0.1.3--py312hdcc493e_1": "sha256:67dca70c9fb63e3fd286acaee259be149eeff6617bed688445e5dc7fa8a123ce"}, "tags": {"0.1.3--py310h5140242_0": "sha256:489e18aff1773bad4256b9cb0e269868799c664f108a36918292b42e80212b89", "0.1.3--py312hdcc493e_1": "sha256:67dca70c9fb63e3fd286acaee259be149eeff6617bed688445e5dc7fa8a123ce"}, "docker": "quay.io/biocontainers/pytantan", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytantan.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pytantan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytantan:0.1.3--py310h5140242_0
+$ shpc install quay.io/biocontainers/pytantan:0.1.3--py312hdcc493e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytantan/0.1.3--py310h5140242_0
-$ module help quay.io/biocontainers/pytantan/0.1.3--py310h5140242_0
+$ module load quay.io/biocontainers/pytantan/0.1.3--py312hdcc493e_1
+$ module help quay.io/biocontainers/pytantan/0.1.3--py312hdcc493e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

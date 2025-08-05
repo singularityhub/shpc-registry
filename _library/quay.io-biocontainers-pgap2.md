@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgap2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgap2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgap2/container.yaml"
-updated_at: "2025-08-04 04:19:06.412996"
+updated_at: "2025-08-05 03:54:46.457495"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgap2"
 aliases:

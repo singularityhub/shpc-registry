@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirdeep2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirdeep2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirdeep2/container.yaml"
-updated_at: "2025-08-04 04:39:19.835284"
+updated_at: "2025-08-05 04:14:42.563604"
 latest: "2.0.1.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/mirdeep2"
 aliases:

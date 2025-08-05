@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svync/container.yaml"
-updated_at: "2025-08-04 04:56:58.753372"
-latest: "0.2.0--h9ee0642_0"
+updated_at: "2025-08-05 04:32:11.563304"
+latest: "0.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/svync"
 aliases:
  - "annot-tsv"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1.2--h9ee0642_0"
  - "0.2.0--h9ee0642_0"
+ - "0.3.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for svync"
-config: {"url": "https://biocontainers.pro/tools/svync", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svync", "latest": {"0.2.0--h9ee0642_0": "sha256:f9cfca2103218974a75749646171201e5f8e842518279c30590a0b48f0ec1aef"}, "tags": {"0.1.2--h9ee0642_0": "sha256:fb3bd276f4251c479746b3f6bf5985a3fce141a4d53a8f337c24baebb63c9541", "0.2.0--h9ee0642_0": "sha256:f9cfca2103218974a75749646171201e5f8e842518279c30590a0b48f0ec1aef"}, "docker": "quay.io/biocontainers/svync", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "svync": "/usr/local/bin/svync", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/svync", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svync", "latest": {"0.3.0--h9ee0642_0": "sha256:b73875e24e8370daca56508fd2c35a1276de0080efb348bc4693b9f2f4765246"}, "tags": {"0.1.2--h9ee0642_0": "sha256:fb3bd276f4251c479746b3f6bf5985a3fce141a4d53a8f337c24baebb63c9541", "0.2.0--h9ee0642_0": "sha256:f9cfca2103218974a75749646171201e5f8e842518279c30590a0b48f0ec1aef", "0.3.0--h9ee0642_0": "sha256:b73875e24e8370daca56508fd2c35a1276de0080efb348bc4693b9f2f4765246"}, "docker": "quay.io/biocontainers/svync", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "svync": "/usr/local/bin/svync", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svync.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/svync
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svync:0.2.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/svync:0.3.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svync/0.2.0--h9ee0642_0
-$ module help quay.io/biocontainers/svync/0.2.0--h9ee0642_0
+$ module load quay.io/biocontainers/svync/0.3.0--h9ee0642_0
+$ module help quay.io/biocontainers/svync/0.3.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

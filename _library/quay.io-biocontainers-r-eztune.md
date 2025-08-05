@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-eztune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-eztune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-eztune/container.yaml"
-updated_at: "2025-08-04 04:56:02.113492"
+updated_at: "2025-08-05 04:31:16.071064"
 latest: "3.1.1--r44h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-eztune"
 aliases:

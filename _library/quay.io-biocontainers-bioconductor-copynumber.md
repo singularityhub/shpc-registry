@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-copynumber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copynumber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copynumber/container.yaml"
-updated_at: "2025-08-04 04:42:54.633658"
+updated_at: "2025-08-05 04:18:19.461382"
 latest: "1.38.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-copynumber"
 

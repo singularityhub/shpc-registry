@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bindash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bindash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bindash/container.yaml"
-updated_at: "2025-08-04 04:36:25.341470"
-latest: "2.5--h077b44d_0"
+updated_at: "2025-08-05 04:11:48.210999"
+latest: "2.6--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/bindash"
 aliases:
  - "bindash"
@@ -20,8 +20,9 @@ versions:
  - "2.3--h077b44d_4"
  - "2.4--h077b44d_0"
  - "2.5--h077b44d_0"
+ - "2.6--h077b44d_0"
 description: "shpc-registry automated BioContainers addition for bindash"
-config: {"url": "https://biocontainers.pro/tools/bindash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bindash", "latest": {"2.5--h077b44d_0": "sha256:7af6215d6bde7e765dce877b679041eeb22a83b3f91709b36a03dcd3416265a3"}, "tags": {"1.0--h5b5514e_2": "sha256:2c9b9be4093f73188173d1cd22c4518be613c2d75af805aca8497d08edd7d135", "1.0--h5b5514e_3": "sha256:c1fa64d7d213a2cbc73a86c10f726f5d2d675fccb632adcece6ef2a4f593ffac", "2.1--h43eeafb_0": "sha256:a86199f683465a08c5535fcb63f37b702d9ecb08037d0fddbe85e3193d64f62e", "2.0--h43eeafb_0": "sha256:f8092cad1633485eca64e7eadd1b92364411d50252bd818051cfa94f3ab305ef", "2.3--hdcf5f25_2": "sha256:228d7249b7398cddf3b6a6d5f82b11d14c0259de665aaac8844ab5da2469dae2", "2.2--h43eeafb_0": "sha256:71b2b5c8e8483d097ff899309bb891ebc27db47d9c663f0600a9a4ac4d455be4", "2.3--hdcf5f25_3": "sha256:5148033fcc949a2114e88ceff3476163f3cd067f972aa03cfc71454af908dec6", "2.3--h077b44d_4": "sha256:5974fb58ba35dbee3495c4feaa4aa91d1e5c39f9ac9131a0bff8a9304ffe736f", "2.4--h077b44d_0": "sha256:318dcc8797959edc9b2436b92fa9cfac4904755b27173732b4534d4d03c69822", "2.5--h077b44d_0": "sha256:7af6215d6bde7e765dce877b679041eeb22a83b3f91709b36a03dcd3416265a3"}, "docker": "quay.io/biocontainers/bindash", "aliases": {"bindash": "/usr/local/bin/bindash"}}
+config: {"url": "https://biocontainers.pro/tools/bindash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bindash", "latest": {"2.6--h077b44d_0": "sha256:7d144f26071f3771cb9376beca07575961f5cd7c659799722f72170720199845"}, "tags": {"1.0--h5b5514e_2": "sha256:2c9b9be4093f73188173d1cd22c4518be613c2d75af805aca8497d08edd7d135", "1.0--h5b5514e_3": "sha256:c1fa64d7d213a2cbc73a86c10f726f5d2d675fccb632adcece6ef2a4f593ffac", "2.1--h43eeafb_0": "sha256:a86199f683465a08c5535fcb63f37b702d9ecb08037d0fddbe85e3193d64f62e", "2.0--h43eeafb_0": "sha256:f8092cad1633485eca64e7eadd1b92364411d50252bd818051cfa94f3ab305ef", "2.3--hdcf5f25_2": "sha256:228d7249b7398cddf3b6a6d5f82b11d14c0259de665aaac8844ab5da2469dae2", "2.2--h43eeafb_0": "sha256:71b2b5c8e8483d097ff899309bb891ebc27db47d9c663f0600a9a4ac4d455be4", "2.3--hdcf5f25_3": "sha256:5148033fcc949a2114e88ceff3476163f3cd067f972aa03cfc71454af908dec6", "2.3--h077b44d_4": "sha256:5974fb58ba35dbee3495c4feaa4aa91d1e5c39f9ac9131a0bff8a9304ffe736f", "2.4--h077b44d_0": "sha256:318dcc8797959edc9b2436b92fa9cfac4904755b27173732b4534d4d03c69822", "2.5--h077b44d_0": "sha256:7af6215d6bde7e765dce877b679041eeb22a83b3f91709b36a03dcd3416265a3", "2.6--h077b44d_0": "sha256:7d144f26071f3771cb9376beca07575961f5cd7c659799722f72170720199845"}, "docker": "quay.io/biocontainers/bindash", "aliases": {"bindash": "/usr/local/bin/bindash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bindash.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bindash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bindash:2.5--h077b44d_0
+$ shpc install quay.io/biocontainers/bindash:2.6--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bindash/2.5--h077b44d_0
-$ module help quay.io/biocontainers/bindash/2.5--h077b44d_0
+$ module load quay.io/biocontainers/bindash/2.6--h077b44d_0
+$ module help quay.io/biocontainers/bindash/2.6--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

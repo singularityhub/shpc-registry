@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dos2unix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dos2unix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dos2unix/container.yaml"
-updated_at: "2025-08-04 04:35:36.998255"
+updated_at: "2025-08-05 04:11:00.352430"
 latest: "7.5.2"
 container_url: "https://biocontainers.pro/tools/dos2unix"
 aliases:

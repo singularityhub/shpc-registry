@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uvaia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uvaia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uvaia/container.yaml"
-updated_at: "2025-08-04 04:24:50.292372"
+updated_at: "2025-08-05 04:00:23.537305"
 latest: "2.0.1--heee599d_3"
 container_url: "https://biocontainers.pro/tools/uvaia"
 aliases:

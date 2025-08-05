@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-csaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csaw/container.yaml"
-updated_at: "2025-08-04 04:54:12.241710"
+updated_at: "2025-08-05 04:29:28.075424"
 latest: "1.40.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csaw"
 aliases:
