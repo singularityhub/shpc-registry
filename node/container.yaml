@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: Node.js is a software platform for scalable server-side and 
   networking applications.
 latest:
-  24-alpine3.22: 
-    sha256:49e45bf002728e35c3a466737d8bcfe12c29731c7c2f3e223f9a7c794fff19a4
+  '24.5': 'crane digest node:24.5: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   15.14.0-alpine: 
     sha256:6edd37368174c15d4cc59395ca2643be8e2a1c9846714bc92c5f5c5a92fb8929
@@ -32,7 +32,7 @@ tags:
   17.6.0: 
     sha256:08e37ce0636ad9796900a180f2539f3110648e4f2c1b541bc0d4d3039e6b3251
   latest: 
-    sha256:8369522c586f6cafcf77e44630e7036e4972933892f8b45e42d9baeb012d521c
+    sha256:dd5c5e4d0a67471a683116483409d1e46605a79521b000c668cff29df06efd51
   '17': sha256:1845a99ada85e286535bbf12e1261ea688b28b7e8bcf6521590edbbea9f41cf9
   '17.8': 
     sha256:0b553d28086d90b9b3be3339beb97401f8c0a83c17230a37ad99ff88fdad3b3f
@@ -90,7 +90,7 @@ tags:
     sha256:83841d113e09345a28b146e431f15b062341c5449218e501ba45ef8f9cff6049
   '19.8': 
     sha256:1fab548e95c779df229e4b50d8d20e222597bda15aeece508098c5ba7723302e
-  '20': sha256:68d27797e56fa39248e0372b1017075c11f3a81b5baa2daa7d23af4b3f8f6918
+  '20': sha256:2c071012e93673d595e1399564c4a48a70a5c0a0acd7db8211d5e6f6316b431a
   20-alpine3.17: 
     sha256:984d5610f7f2440171e01a6cf2619ead898fe8908827dab10d331da174dc8e53
   '20.1': 
@@ -130,7 +130,7 @@ tags:
     sha256:65998e325b06014d4f1417a8a6afb1540d1ac66521cca76f2221a6953947f9ee
   '21.7': 
     sha256:4b232062fa976e3a966c49e9b6279efa56c8d207a67270868f51b3d155c4e33d
-  '22': sha256:0c0734eb7051babbb3e95cd74e684f940552b31472152edf0bb23e54ab44a0d7
+  '22': sha256:3218f0d1b9e4b63def322e9ae362d581fbeac1ef21b51fc502ef91386667ce92
   22-alpine3.19: 
     sha256:40dc4b415c17b85bea9be05314b4a753f45a4e1716bb31c01182e6c53d51a654
   '22.1': 
@@ -180,15 +180,19 @@ tags:
     sha256:9a25b5a6f9a90218b73a62205f111e71de5e4289aee952b4dd7e86f7498f2544
   '23.10': 
     sha256:990d0ab35ae15d8a322ee1eeaf4f7cf14e367d3d0ee2f472704b7b3df4c9e7c1
-  '24': sha256:8369522c586f6cafcf77e44630e7036e4972933892f8b45e42d9baeb012d521c
-  24-alpine3.22: 
-    sha256:49e45bf002728e35c3a466737d8bcfe12c29731c7c2f3e223f9a7c794fff19a4
-  '24.1': 
-    sha256:c332080545f1de96deb1c407e6fbe9a7bc2be3645e127845fdcce57a7af3cf56
-  '24.0': 
-    sha256:7cd385e17f9d66b2c3ae40597359286073a33266db71b5f01ce2d87db81b52f7
-  '24.2': 
-    sha256:d1db2ecd11f417ab2ff4fef891b4d27194c367d101f9b9cd546a26e424e93d31
+  '24': sha256:dd5c5e4d0a67471a683116483409d1e46605a79521b000c668cff29df06efd51
+  24-alpine3.22: 'crane digest node:24-alpine3.22: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '24.1': 'crane digest node:24.1: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '24.0': 'crane digest node:24.0: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '24.2': 'crane digest node:24.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '24.5': 'crane digest node:24.5: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '24.4': 'crane digest node:24.4: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
   node: /usr/local/bin/node
   nodejs: /usr/local/bin/nodejs

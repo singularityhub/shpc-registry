@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mameshiba
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mameshiba
 latest:
-  0.6.2--hdfd78af_0: 
-    sha256:39f085d57bf2c508f5aece56e77001a7f6ee25667ed09093c92ca7080d52a8fc
+  0.6.3--hdfd78af_0: 
+    sha256:c7a7192a6b35e8c882b2da0b1bec08f5c3becb9290b47f04f481606bb2c020b0
 tags:
   0.6.1--hdfd78af_0: 
     sha256:612e140f521d43fe33add47e3345da618d6a8fa333e554c7dc7c9cbbe9c92e02
   0.6.2--hdfd78af_0: 
     sha256:39f085d57bf2c508f5aece56e77001a7f6ee25667ed09093c92ca7080d52a8fc
+  0.6.3--hdfd78af_0: 
+    sha256:c7a7192a6b35e8c882b2da0b1bec08f5c3becb9290b47f04f481606bb2c020b0
 docker: quay.io/biocontainers/mameshiba
 aliases:
   flattenGTF: /usr/local/bin/flattenGTF
