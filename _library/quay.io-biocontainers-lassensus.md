@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lassensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lassensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lassensus/container.yaml"
-updated_at: "2025-08-05 04:14:22.511008"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2025-08-06 04:11:01.145096"
+latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lassensus"
 aliases:
  - "demux_fast5"
@@ -51,8 +51,9 @@ aliases:
  - "x86_64-conda-linux-gnu.cfg"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for lassensus"
-config: {"url": "https://biocontainers.pro/tools/lassensus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lassensus", "latest": {"0.0.2--pyhdfd78af_0": "sha256:1543ab0eb1e6f0c76a552ae43cfbe7f2180fa00391fcbf496b4d1c1cc5b6ed5a"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:1543ab0eb1e6f0c76a552ae43cfbe7f2180fa00391fcbf496b4d1c1cc5b6ed5a"}, "docker": "quay.io/biocontainers/lassensus", "aliases": {"demux_fast5": "/usr/local/bin/demux_fast5", "gff2gff": "/usr/local/bin/gff2gff", "ivar": "/usr/local/bin/ivar", "lassaseq": "/usr/local/bin/lassaseq", "lassensus": "/usr/local/bin/lassensus", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_consensus_joint": "/usr/local/bin/medaka_consensus_joint", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "ref-cache": "/usr/local/bin/ref-cache", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "minimap2.py": "/usr/local/bin/minimap2.py", "h5fuse": "/usr/local/bin/h5fuse", "iqtree2": "/usr/local/bin/iqtree2", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "iqtree": "/usr/local/bin/iqtree", "gawkbug": "/usr/local/bin/gawkbug", "isympy": "/usr/local/bin/isympy", "seqtk": "/usr/local/bin/seqtk", "torchrun": "/usr/local/bin/torchrun", "tar": "/usr/local/bin/tar", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
+config: {"url": "https://biocontainers.pro/tools/lassensus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lassensus", "latest": {"0.0.3--pyhdfd78af_0": "sha256:2d709dd05afb4257b58bcede8ff8add975d745dd06468b1920f7ea08f093c901"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:1543ab0eb1e6f0c76a552ae43cfbe7f2180fa00391fcbf496b4d1c1cc5b6ed5a", "0.0.3--pyhdfd78af_0": "sha256:2d709dd05afb4257b58bcede8ff8add975d745dd06468b1920f7ea08f093c901"}, "docker": "quay.io/biocontainers/lassensus", "aliases": {"demux_fast5": "/usr/local/bin/demux_fast5", "gff2gff": "/usr/local/bin/gff2gff", "ivar": "/usr/local/bin/ivar", "lassaseq": "/usr/local/bin/lassaseq", "lassensus": "/usr/local/bin/lassensus", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_consensus_joint": "/usr/local/bin/medaka_consensus_joint", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "ref-cache": "/usr/local/bin/ref-cache", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "minimap2.py": "/usr/local/bin/minimap2.py", "h5fuse": "/usr/local/bin/h5fuse", "iqtree2": "/usr/local/bin/iqtree2", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "iqtree": "/usr/local/bin/iqtree", "gawkbug": "/usr/local/bin/gawkbug", "isympy": "/usr/local/bin/isympy", "seqtk": "/usr/local/bin/seqtk", "torchrun": "/usr/local/bin/torchrun", "tar": "/usr/local/bin/tar", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lassensus.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/lassensus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lassensus:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/lassensus:0.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lassensus/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/lassensus/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/lassensus/0.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/lassensus/0.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

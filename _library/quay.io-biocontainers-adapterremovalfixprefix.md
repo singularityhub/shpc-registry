@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adapterremovalfixprefix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adapterremovalfixprefix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adapterremovalfixprefix/container.yaml"
-updated_at: "2025-08-05 04:15:39.718885"
+updated_at: "2025-08-06 04:12:16.500223"
 latest: "0.0.5--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/adapterremovalfixprefix"
 aliases:

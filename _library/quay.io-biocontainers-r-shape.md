@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shape/container.yaml"
-updated_at: "2025-08-05 04:13:30.259780"
+updated_at: "2025-08-06 04:10:11.401244"
 latest: "1.4.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-shape"
 aliases:

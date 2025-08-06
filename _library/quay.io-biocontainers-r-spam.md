@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spam/container.yaml"
-updated_at: "2025-08-05 03:51:24.038654"
+updated_at: "2025-08-06 03:48:20.971033"
 latest: "1.4_0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-spam"
 aliases:

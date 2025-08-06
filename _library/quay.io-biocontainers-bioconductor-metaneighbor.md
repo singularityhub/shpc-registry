@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metaneighbor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaneighbor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaneighbor/container.yaml"
-updated_at: "2025-08-05 04:04:49.443867"
+updated_at: "2025-08-06 04:01:43.299465"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaneighbor"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/openfoam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/openfoam/container.yaml"
-updated_at: "2025-08-05 04:41:40.013506"
+updated_at: "2025-08-06 04:38:04.354842"
 latest: "v2412"
 container_url: "https://quay.io/repository/pawsey/openfoam"
 
@@ -15,8 +15,10 @@ versions:
  - "v2012"
  - "v2006"
  - "v1912"
+ - "v2312-rocm573-gcc"
+ - "v2312-rocm5.4-gcc"
 description: "OpenFOAM (openfoam.com) images built on top of MPICH."
-config: {"docker": "quay.io/pawsey/openfoam", "url": "https://quay.io/repository/pawsey/openfoam", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.com) images built on top of MPICH.", "latest": {"v2412": "sha256:2cb2483c0c55691cb4ba60054fee2d57ece3259f33d927971b4843858cf8ef70"}, "tags": {"v2412": "sha256:2cb2483c0c55691cb4ba60054fee2d57ece3259f33d927971b4843858cf8ef70", "v2212": "sha256:e32b955c1daa6a55563cb0712069fb4ff8c5c5105170cd86d990baff688e6077", "v2206": "sha256:280ac49a6cbb55b95582fa23156a30ed85097bc3c44551ffe1c82d376143f557", "v2012": "sha256:efdb5fe0c9868992dcf361884414d71f8a79ed44113f0df279058a33a18bc455", "v2006": "sha256:36c9bdfe806242d7ccb993731631faec06d3a3c316d37729e57397f94f104e09", "v1912": "sha256:f053492bd5b7aa96e1d958715ed62f0072dcfdab6fbff3c307092776ea7fa742"}, "overrides": {"v2412": "aliases/v2412.yaml", "v2212": "aliases/v2212.yaml", "v2206": "aliases/v2206.yaml", "v2012": "aliases/v2012.yaml", "v2006": "aliases/v2006.yaml", "v1912": "aliases/v1912.yaml"}}
+config: {"docker": "quay.io/pawsey/openfoam", "url": "https://quay.io/repository/pawsey/openfoam", "maintainer": "@alexisespinosa", "description": "OpenFOAM (openfoam.com) images built on top of MPICH.", "latest": {"v2412": "sha256:2cb2483c0c55691cb4ba60054fee2d57ece3259f33d927971b4843858cf8ef70"}, "tags": {"v2412": "sha256:2cb2483c0c55691cb4ba60054fee2d57ece3259f33d927971b4843858cf8ef70", "v2212": "sha256:e32b955c1daa6a55563cb0712069fb4ff8c5c5105170cd86d990baff688e6077", "v2206": "sha256:280ac49a6cbb55b95582fa23156a30ed85097bc3c44551ffe1c82d376143f557", "v2012": "sha256:efdb5fe0c9868992dcf361884414d71f8a79ed44113f0df279058a33a18bc455", "v2006": "sha256:36c9bdfe806242d7ccb993731631faec06d3a3c316d37729e57397f94f104e09", "v1912": "sha256:f053492bd5b7aa96e1d958715ed62f0072dcfdab6fbff3c307092776ea7fa742", "v2312-rocm573-gcc": "sha256:1f36c091ab61245a31d691911e393c2c1f961fe7b61912ce8a8a8a0dfd973457", "v2312-rocm5.4-gcc": "sha256:30259d9ee933fd4a82d418c893d8a7fab26b7da9b53a43eb4242ef34fb278bb4"}, "overrides": {"v2412": "aliases/v2412.yaml", "v2212": "aliases/v2212.yaml", "v2206": "aliases/v2206.yaml", "v2012": "aliases/v2012.yaml", "v2006": "aliases/v2006.yaml", "v1912": "aliases/v1912.yaml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/openfoam.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chimera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimera/container.yaml"
-updated_at: "2025-08-05 03:59:37.482956"
+updated_at: "2025-08-06 03:56:30.216121"
 latest: "1.32.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimera"
 aliases:

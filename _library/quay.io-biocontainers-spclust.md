@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spclust/container.yaml"
-updated_at: "2025-08-05 04:06:20.699318"
+updated_at: "2025-08-06 04:03:12.554808"
 latest: "28.5.19--h425c490_1"
 container_url: "https://biocontainers.pro/tools/spclust"
 aliases:

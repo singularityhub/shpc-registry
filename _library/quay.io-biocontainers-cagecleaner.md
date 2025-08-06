@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cagecleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cagecleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cagecleaner/container.yaml"
-updated_at: "2025-08-05 04:41:20.090454"
+updated_at: "2025-08-06 04:37:44.476780"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cagecleaner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwread/container.yaml"
-updated_at: "2025-08-05 04:28:14.842203"
+updated_at: "2025-08-06 04:24:42.686411"
 latest: "0.0.5--py310h4b81fae_1"
 container_url: "https://biocontainers.pro/tools/bwread"
 aliases:
