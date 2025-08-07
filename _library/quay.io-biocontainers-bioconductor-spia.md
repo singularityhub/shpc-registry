@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spia/container.yaml"
-updated_at: "2025-08-07 04:35:01.638499"
+updated_at: "2025-08-07 10:12:43.756705"
 latest: "2.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spia"
 

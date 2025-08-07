@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sourcetracker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourcetracker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourcetracker/container.yaml"
-updated_at: "2025-08-07 03:51:50.525264"
+updated_at: "2025-08-07 09:31:35.136278"
 latest: "2.0.1--pyh24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/sourcetracker"
 

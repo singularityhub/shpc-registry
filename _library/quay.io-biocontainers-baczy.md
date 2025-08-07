@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baczy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baczy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baczy/container.yaml"
-updated_at: "2025-08-07 03:50:27.350041"
+updated_at: "2025-08-07 09:30:11.534673"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baczy"
 aliases:

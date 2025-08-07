@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-interface-scheduler-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-scheduler-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-scheduler-plugins/container.yaml"
-updated_at: "2025-08-07 04:40:35.020005"
+updated_at: "2025-08-07 10:18:04.438111"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-scheduler-plugins"
 aliases:
