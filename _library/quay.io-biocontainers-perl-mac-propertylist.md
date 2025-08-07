@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mac-propertylist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mac-propertylist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mac-propertylist/container.yaml"
-updated_at: "2025-08-06 04:17:13.237336"
+updated_at: "2025-08-07 04:19:17.095929"
 latest: "1.504--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mac-propertylist"
 aliases:

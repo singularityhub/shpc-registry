@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chap/container.yaml"
-updated_at: "2025-08-06 04:02:36.938216"
+updated_at: "2025-08-07 04:03:14.603876"
 latest: "0.9.1--h2df963e_2"
 container_url: "https://biocontainers.pro/tools/chap"
 aliases:

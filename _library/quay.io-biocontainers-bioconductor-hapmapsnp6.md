@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hapmapsnp6"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmapsnp6/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmapsnp6/container.yaml"
-updated_at: "2025-08-06 04:35:08.489598"
+updated_at: "2025-08-07 04:37:56.427130"
 latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmapsnp6"
 

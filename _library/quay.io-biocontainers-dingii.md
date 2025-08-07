@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dingii"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dingii/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dingii/container.yaml"
-updated_at: "2025-08-06 04:09:10.690696"
+updated_at: "2025-08-07 04:10:24.803127"
 latest: "0.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dingii"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqcomplexity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqcomplexity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqcomplexity/container.yaml"
-updated_at: "2025-08-06 04:25:54.513603"
+updated_at: "2025-08-07 04:28:28.602315"
 latest: "0.1.2"
 container_url: "https://biocontainers.pro/tools/seqcomplexity"
 aliases:

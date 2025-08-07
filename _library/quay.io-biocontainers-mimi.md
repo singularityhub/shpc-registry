@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimi/container.yaml"
-updated_at: "2025-08-06 04:15:18.947038"
+updated_at: "2025-08-07 04:17:11.335942"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimi"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-xnomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xnomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xnomial/container.yaml"
-updated_at: "2025-08-06 03:54:41.717585"
+updated_at: "2025-08-07 03:54:57.014592"
 latest: "1.0.4--0"
 container_url: "https://biocontainers.pro/tools/r-xnomial"
 aliases:
