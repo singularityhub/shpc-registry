@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   pathogen-profiler
 latest:
-  5.0.2--pyh7e72e81_0: 
-    sha256:b66c08495dbb96cf1856c56a7cfa418ec0c35fedf3c92c3bafe2b93333410a84
+  5.0.3--pyh7e72e81_0: 
+    sha256:b607b0c469c322fcb5fd278560cb2b19491cd54722a98690b39fb5daccdab8a5
 tags:
   2.0.1--pypyh5e36f6f_0: 
     sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2
@@ -46,6 +46,8 @@ tags:
     sha256:d630dcfd1dad4b5df5bc4620d342ad8542be657bd1e795f914001307c2a5879f
   5.0.2--pyh7e72e81_0: 
     sha256:b66c08495dbb96cf1856c56a7cfa418ec0c35fedf3c92c3bafe2b93333410a84
+  5.0.3--pyh7e72e81_0: 
+    sha256:b607b0c469c322fcb5fd278560cb2b19491cd54722a98690b39fb5daccdab8a5
 docker: quay.io/biocontainers/pathogen-profiler
 aliases:
   add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py

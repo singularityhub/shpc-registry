@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bifrost-httr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bifrost-httr
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:9bb0a1a964f519c47ce838f02d87bb853db262787023f46f3b3753e5825e6a55
+  0.4.2--pyhdfd78af_0: 
+    sha256:b2f508ae086265217ed1f7eeddb25fcf6f88c491b69a1466f9ca0702eb77c938
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:e620a8aeb721a7f52ca824f0a8397cd8bebaf950b82d6c571ba177902221d3c1
@@ -11,6 +11,8 @@ tags:
     sha256:9bb0a1a964f519c47ce838f02d87bb853db262787023f46f3b3753e5825e6a55
   0.2.1--pyhdfd78af_1: 
     sha256:c7e87d380e969d61ba55926a8e8e48eef22eecd006caed342a0980097818357d
+  0.4.2--pyhdfd78af_0: 
+    sha256:b2f508ae086265217ed1f7eeddb25fcf6f88c491b69a1466f9ca0702eb77c938
 docker: quay.io/biocontainers/bifrost-httr
 aliases:
   bifrost-httr: /usr/local/bin/bifrost-httr

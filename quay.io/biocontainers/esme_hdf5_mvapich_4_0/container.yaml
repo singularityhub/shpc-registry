@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_hdf5_mvapich_4_0
 latest:
-  1.14.5--h1382715_0: 
-    sha256:3818a76d66da7339b3d025789d148db01b4d7d26d427317ec62c66a47f0303b7
+  1.14.6--h1382715_0: 
+    sha256:f6cdfbe27954c663aa6841371d862a884d22214bc254299a1dc2617b8568b3cd
 tags:
   1.14.5--h1382715_0: 
     sha256:3818a76d66da7339b3d025789d148db01b4d7d26d427317ec62c66a47f0303b7
+  1.14.6--h1382715_0: 
+    sha256:f6cdfbe27954c663aa6841371d862a884d22214bc254299a1dc2617b8568b3cd
 docker: quay.io/biocontainers/esme_hdf5_mvapich_4_0
 aliases:
   chacl: /usr/local/bin/chacl

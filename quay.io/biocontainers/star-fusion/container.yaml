@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/star-fusion
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for star-fusion
 latest:
-  1.15.1--hdfd78af_0: 
-    sha256:a3efd083322e471d61f94006c2f2adb404b9875ffbc6504d08a03772c85470fd
+  1.15.1--hdfd78af_1: 
+    sha256:ce28765c46a4471ce49b28fdbc4a4eb4ef1b2a7641038693df8ec4e540f6f4c2
 tags:
   1.9.1--hdfd78af_1: 
     sha256:99d2238f789f6ffd4d78c81557912221ed89c6fae6289292e57a4a9f22a6c054
@@ -27,6 +27,8 @@ tags:
     sha256:f8cb37d5b1cc7ebffab45dc8bb5cdc7b9973f4f5e472f96bbf42551fac2039c9
   1.15.1--hdfd78af_0: 
     sha256:a3efd083322e471d61f94006c2f2adb404b9875ffbc6504d08a03772c85470fd
+  1.15.1--hdfd78af_1: 
+    sha256:ce28765c46a4471ce49b28fdbc4a4eb4ef1b2a7641038693df8ec4e540f6f4c2
 docker: quay.io/biocontainers/star-fusion
 aliases:
   PtR: /usr/local/bin/PtR
