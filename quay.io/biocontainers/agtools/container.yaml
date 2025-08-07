@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/agtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for agtools
+latest:
+  0.1.1--py313hdfd78af_0: 
+    sha256:0625a4041dbba43b8cb16063052807426abeab604818ae443f2abddb8a88b962
+tags:
+  0.1.1--py313hdfd78af_0: 
+    sha256:0625a4041dbba43b8cb16063052807426abeab604818ae443f2abddb8a88b962
+docker: quay.io/biocontainers/agtools
+aliases:
+  agtools: /usr/local/bin/agtools
+  igraph: /usr/local/bin/igraph
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  glpsol: /usr/local/bin/glpsol

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/esme_hdf5_mpich_4_3_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_hdf5_mpich_4_3_1
+latest:
+  1.14.6--h256ee8a_0: 
+    sha256:2cd22ec8c8c06290b68ba562061fdfc08eabb384882a4845eda642cf349de226
+tags:
+  1.14.6--h256ee8a_0: 
+    sha256:2cd22ec8c8c06290b68ba562061fdfc08eabb384882a4845eda642cf349de226
+docker: quay.io/biocontainers/esme_hdf5_mpich_4_3_1
+aliases:
+  mpiexec.gforker: /usr/local/bin/mpiexec.gforker
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  setfacl: /usr/local/bin/setfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  ph5diff: /usr/local/bin/ph5diff
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  h5fuse: /usr/local/bin/h5fuse
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list

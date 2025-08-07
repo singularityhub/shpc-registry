@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/esme_pio_mpich_4_3_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_pio_mpich_4_3_1
+latest:
+  2.6.6--h1bacafc_0: 
+    sha256:81cd2d23a2ee0012530961620a9604c3c5f9f2b67adac0738097d1bc79dd51d9
+tags:
+  2.6.6--h1bacafc_0: 
+    sha256:81cd2d23a2ee0012530961620a9604c3c5f9f2b67adac0738097d1bc79dd51d9
+docker: quay.io/biocontainers/esme_pio_mpich_4_3_1
+aliases:
+  mpiexec.gforker: /usr/local/bin/mpiexec.gforker
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete

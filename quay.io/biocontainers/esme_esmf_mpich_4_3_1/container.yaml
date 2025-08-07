@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/esme_esmf_mpich_4_3_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_esmf_mpich_4_3_1
+latest:
+  8.8.1--he052a23_0: 
+    sha256:5d33c89e38db02b34120a4b7123f6195825d3d9530ac4beeb52ffc902580d536
+tags:
+  8.8.1--he052a23_0: 
+    sha256:5d33c89e38db02b34120a4b7123f6195825d3d9530ac4beeb52ffc902580d536
+docker: quay.io/biocontainers/esme_esmf_mpich_4_3_1
+aliases:
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  mpiexec.gforker: /usr/local/bin/mpiexec.gforker
+  nc4print: /usr/local/bin/nc4print
+  ocprint: /usr/local/bin/ocprint
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  setfacl: /usr/local/bin/setfacl
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  ph5diff: /usr/local/bin/ph5diff
+  nf-config: /usr/local/bin/nf-config
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
