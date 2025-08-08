@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sincei
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sincei
 latest:
-  0.5--pyhdfd78af_0: 
-    sha256:7d0324e8a1f2f3c0ece7c189a8be1e0b85f5f20a63cbe96a75baa8f5310730d7
+  0.5.1--pyhdfd78af_0: 
+    sha256:a42c3695fb67a947c564827a3c05396ae8e968f0dd495ce92d0b217b59635042
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:2cd635a92b2878ffa5b2d706a9005120729a298f16dec623d912332ca2c6f688
@@ -13,6 +13,8 @@ tags:
     sha256:acafa2ed0c2515d3201451015c501cb35ef8dcc800f6059b324ed4b0e7dd549d
   0.5--pyhdfd78af_0: 
     sha256:7d0324e8a1f2f3c0ece7c189a8be1e0b85f5f20a63cbe96a75baa8f5310730d7
+  0.5.1--pyhdfd78af_0: 
+    sha256:a42c3695fb67a947c564827a3c05396ae8e968f0dd495ce92d0b217b59635042
 docker: quay.io/biocontainers/sincei
 aliases:
   bigwigAverage: /usr/local/bin/bigwigAverage

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/agat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for agat
 latest:
-  1.5.0--pl5321hdfd78af_0: 
-    sha256:e8a888a4c36cc0daaff506d71dfaf11fb8e12bc9efb9bf931a727ae5bbcf5871
+  1.5.1--pl5321hdfd78af_0: 
+    sha256:c8d7ea94b5f5ff9ef96c2d2197c0217e305c1c75baad7bb92c1a7ed32f39ab48
 tags:
   0.9.2--pl5321hdfd78af_1: 
     sha256:4cbcf112341c5aa401c59fb9567ab3f87a894db6a22bb20c9fcee76e76ad6203
@@ -31,6 +31,8 @@ tags:
     sha256:e8a888a4c36cc0daaff506d71dfaf11fb8e12bc9efb9bf931a727ae5bbcf5871
   1.4.2--pl5321hdfd78af_2: 
     sha256:659fc9099d1ca0982260cb3b6e51b250080783099d8bbce3ae7ae6a972e84b79
+  1.5.1--pl5321hdfd78af_0: 
+    sha256:c8d7ea94b5f5ff9ef96c2d2197c0217e305c1c75baad7bb92c1a7ed32f39ab48
 docker: quay.io/biocontainers/agat
 aliases:
   agat_convert_bed2gff.pl: /usr/local/bin/agat_convert_bed2gff.pl

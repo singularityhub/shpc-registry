@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ndex2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ndex2
 latest:
-  3.10.0--pyhdfd78af_0: 
-    sha256:07bb843aaa26c82d20c844e341c1e6965d0c8360c2a049b23d768e5a8d565ada
+  3.11.0--pyhdfd78af_0: 
+    sha256:719d90727e2188f0326aa2cbd8939f219fa3894a6503099de87b350fd8e9f024
 tags:
   3.5.1--pyh7cba7a3_0: 
     sha256:4f32a6fc99d70e78560e2bf17c500819c174797f1bdf583164b1638043b1c0cf
@@ -17,6 +17,8 @@ tags:
     sha256:ccfbec74febfb61bbaa7ee66a21f863dadd8f387ac0d665cbff1a8ad89c7a03b
   3.10.0--pyhdfd78af_0: 
     sha256:07bb843aaa26c82d20c844e341c1e6965d0c8360c2a049b23d768e5a8d565ada
+  3.11.0--pyhdfd78af_0: 
+    sha256:719d90727e2188f0326aa2cbd8939f219fa3894a6503099de87b350fd8e9f024
 docker: quay.io/biocontainers/ndex2
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

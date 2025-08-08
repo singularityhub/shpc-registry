@@ -4,15 +4,15 @@ maintainer: '@vsoch'
 description: The Basic Local Alignment Search Tool (BLAST) finds regions of 
   local similarity between sequences.
 latest:
-  2.16.0: 
-    sha256:d7329b9c524e9d16009d6a132c292fc0c255a9eb23f02f4fda211287fcec4699
+  2.17.0: 
+    sha256:81f118d2e4f7e11494d27fdbb99c9430423105afff50c4ae158db41d58a3fc57
 tags:
   2.11.0: 
     sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922
   2.12.0: 
     sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517
   latest: 
-    sha256:d7329b9c524e9d16009d6a132c292fc0c255a9eb23f02f4fda211287fcec4699
+    sha256:81f118d2e4f7e11494d27fdbb99c9430423105afff50c4ae158db41d58a3fc57
   2.13.0: 
     sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced
   2.14.0: 
@@ -23,3 +23,5 @@ tags:
     sha256:77a24a340683c2f4883e2d5295bf63277743579239ada939370c19ca5622ef5f
   2.16.0: 
     sha256:d7329b9c524e9d16009d6a132c292fc0c255a9eb23f02f4fda211287fcec4699
+  2.17.0: 
+    sha256:81f118d2e4f7e11494d27fdbb99c9430423105afff50c4ae158db41d58a3fc57
