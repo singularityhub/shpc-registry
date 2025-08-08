@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/10x_bamtofastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/10x_bamtofastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/10x_bamtofastq/container.yaml"
-updated_at: "2025-08-07 09:33:20.210683"
+updated_at: "2025-08-08 03:52:40.318212"
 latest: "1.4.1"
 container_url: "https://biocontainers.pro/tools/10x_bamtofastq"
 aliases:

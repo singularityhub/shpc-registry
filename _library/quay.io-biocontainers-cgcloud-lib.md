@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgcloud-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgcloud-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgcloud-lib/container.yaml"
-updated_at: "2025-08-07 09:36:25.698080"
+updated_at: "2025-08-08 03:55:40.695388"
 latest: "1.6.0--py_4"
 container_url: "https://biocontainers.pro/tools/cgcloud-lib"
 aliases:

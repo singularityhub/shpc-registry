@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fmlrc2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fmlrc2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fmlrc2/container.yaml"
-updated_at: "2025-08-07 10:13:07.960637"
-latest: "0.1.7--hb7a5142_0"
+updated_at: "2025-08-08 04:31:21.516234"
+latest: "0.1.8--h7f95895_0"
 container_url: "https://biocontainers.pro/tools/fmlrc2"
 aliases:
  - "fmlrc2"
@@ -13,8 +13,9 @@ aliases:
  - "starcode"
 versions:
  - "0.1.7--hb7a5142_0"
+ - "0.1.8--h7f95895_0"
 description: "shpc-registry automated BioContainers addition for fmlrc2"
-config: {"url": "https://biocontainers.pro/tools/fmlrc2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fmlrc2", "latest": {"0.1.7--hb7a5142_0": "sha256:9020d1fa0e5147e0d7205c298b20a64d115561aaaaba800793578c74e16eaf28"}, "tags": {"0.1.7--hb7a5142_0": "sha256:9020d1fa0e5147e0d7205c298b20a64d115561aaaaba800793578c74e16eaf28"}, "docker": "quay.io/biocontainers/fmlrc2", "aliases": {"fmlrc2": "/usr/local/bin/fmlrc2", "fmlrc2-convert": "/usr/local/bin/fmlrc2-convert", "starcode": "/usr/local/bin/starcode"}}
+config: {"url": "https://biocontainers.pro/tools/fmlrc2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fmlrc2", "latest": {"0.1.8--h7f95895_0": "sha256:d402c528d93382bdaab3c9b7c1996124cb6276ff281b4d9e14d81245c1dc6ca3"}, "tags": {"0.1.7--hb7a5142_0": "sha256:9020d1fa0e5147e0d7205c298b20a64d115561aaaaba800793578c74e16eaf28", "0.1.8--h7f95895_0": "sha256:d402c528d93382bdaab3c9b7c1996124cb6276ff281b4d9e14d81245c1dc6ca3"}, "docker": "quay.io/biocontainers/fmlrc2", "aliases": {"fmlrc2": "/usr/local/bin/fmlrc2", "fmlrc2-convert": "/usr/local/bin/fmlrc2-convert", "starcode": "/usr/local/bin/starcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fmlrc2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/fmlrc2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fmlrc2:0.1.7--hb7a5142_0
+$ shpc install quay.io/biocontainers/fmlrc2:0.1.8--h7f95895_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fmlrc2/0.1.7--hb7a5142_0
-$ module help quay.io/biocontainers/fmlrc2/0.1.7--hb7a5142_0
+$ module load quay.io/biocontainers/fmlrc2/0.1.8--h7f95895_0
+$ module help quay.io/biocontainers/fmlrc2/0.1.8--h7f95895_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

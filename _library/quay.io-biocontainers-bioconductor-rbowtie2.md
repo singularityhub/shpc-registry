@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rbowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbowtie2/container.yaml"
-updated_at: "2025-08-07 09:40:16.891309"
-latest: "2.8.0--r43hf17093f_1"
+updated_at: "2025-08-08 03:59:25.468289"
+latest: "2.12.3--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbowtie2"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.6.0--r43h639f7a0_0"
  - "2.8.0--r43hf17093f_0"
  - "2.8.0--r43hf17093f_1"
+ - "2.12.3--r44h77050f0_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbowtie2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbowtie2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbowtie2", "latest": {"2.8.0--r43hf17093f_1": "sha256:c2f6b7c3b3478a45291570d6ed62d53c44cf6d3bf2afe4ac524577358b28009c"}, "tags": {"2.0.0--r41he06c1ba_2": "sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3", "2.4.0--r42he06c1ba_0": "sha256:b4f16088639ce0c82658ca4a13e3cc45fe982d41e11af01c1fc971bca2925086", "2.4.0--r42h639f7a0_1": "sha256:6a54fced241e4a40453f34862db0fb59dce451fbf105231d524d82c38dec0ed6", "2.6.0--r43h639f7a0_0": "sha256:e13033bb0c0a287128e00683dd3ca5290bb5345fa464e4627c05f1397011201c", "2.8.0--r43hf17093f_0": "sha256:c8ea23e8d24db1b1992724116965a69fe5f5b7310098f60dd4a007b34acb8214", "2.8.0--r43hf17093f_1": "sha256:c2f6b7c3b3478a45291570d6ed62d53c44cf6d3bf2afe4ac524577358b28009c"}, "docker": "quay.io/biocontainers/bioconductor-rbowtie2"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbowtie2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbowtie2", "latest": {"2.12.3--r44h77050f0_0": "sha256:74e871c6aff6d93388f14aca0d4ab68b117dcb3f0eacd3c5e2f83e17931a7f6e"}, "tags": {"2.0.0--r41he06c1ba_2": "sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3", "2.4.0--r42he06c1ba_0": "sha256:b4f16088639ce0c82658ca4a13e3cc45fe982d41e11af01c1fc971bca2925086", "2.4.0--r42h639f7a0_1": "sha256:6a54fced241e4a40453f34862db0fb59dce451fbf105231d524d82c38dec0ed6", "2.6.0--r43h639f7a0_0": "sha256:e13033bb0c0a287128e00683dd3ca5290bb5345fa464e4627c05f1397011201c", "2.8.0--r43hf17093f_0": "sha256:c8ea23e8d24db1b1992724116965a69fe5f5b7310098f60dd4a007b34acb8214", "2.8.0--r43hf17093f_1": "sha256:c2f6b7c3b3478a45291570d6ed62d53c44cf6d3bf2afe4ac524577358b28009c", "2.12.3--r44h77050f0_0": "sha256:74e871c6aff6d93388f14aca0d4ab68b117dcb3f0eacd3c5e2f83e17931a7f6e"}, "docker": "quay.io/biocontainers/bioconductor-rbowtie2"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbowtie2.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbowtie2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbowtie2:2.8.0--r43hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-rbowtie2:2.12.3--r44h77050f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbowtie2/2.8.0--r43hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-rbowtie2/2.8.0--r43hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-rbowtie2/2.12.3--r44h77050f0_0
+$ module help quay.io/biocontainers/bioconductor-rbowtie2/2.12.3--r44h77050f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

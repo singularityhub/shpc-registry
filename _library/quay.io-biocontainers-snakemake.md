@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake/container.yaml"
-updated_at: "2025-08-07 09:49:58.370896"
+updated_at: "2025-08-08 04:08:51.177689"
 latest: "9.8.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake"
 

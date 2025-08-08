@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/npinv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npinv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npinv/container.yaml"
-updated_at: "2025-08-07 09:38:45.839838"
+updated_at: "2025-08-08 03:57:57.040195"
 latest: "1.24--py312h7e72e81_6"
 container_url: "https://biocontainers.pro/tools/npinv"
 aliases:

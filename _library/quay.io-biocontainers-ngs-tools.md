@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-tools/container.yaml"
-updated_at: "2025-08-07 09:44:10.098938"
+updated_at: "2025-08-08 04:03:12.564448"
 latest: "1.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-tools"
 aliases:

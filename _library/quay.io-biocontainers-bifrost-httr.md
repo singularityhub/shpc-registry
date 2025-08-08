@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bifrost-httr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost-httr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost-httr/container.yaml"
-updated_at: "2025-08-07 09:44:00.176444"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2025-08-08 04:03:02.848917"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bifrost-httr"
 aliases:
  - "bifrost-httr"
@@ -42,8 +42,9 @@ versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_1"
+ - "0.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bifrost-httr"
-config: {"url": "https://biocontainers.pro/tools/bifrost-httr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bifrost-httr", "latest": {"0.3.1--pyhdfd78af_0": "sha256:9bb0a1a964f519c47ce838f02d87bb853db262787023f46f3b3753e5825e6a55"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:e620a8aeb721a7f52ca824f0a8397cd8bebaf950b82d6c571ba177902221d3c1", "0.3.1--pyhdfd78af_0": "sha256:9bb0a1a964f519c47ce838f02d87bb853db262787023f46f3b3753e5825e6a55", "0.2.1--pyhdfd78af_1": "sha256:c7e87d380e969d61ba55926a8e8e48eef22eecd006caed342a0980097818357d"}, "docker": "quay.io/biocontainers/bifrost-httr", "aliases": {"bifrost-httr": "/usr/local/bin/bifrost-httr", "cmdstan_model": "/usr/local/bin/cmdstan_model", "install_cmdstan": "/usr/local/bin/install_cmdstan", "install_cxx_toolchain": "/usr/local/bin/install_cxx_toolchain", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "natsort": "/usr/local/bin/natsort"}}
+config: {"url": "https://biocontainers.pro/tools/bifrost-httr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bifrost-httr", "latest": {"0.4.2--pyhdfd78af_0": "sha256:b2f508ae086265217ed1f7eeddb25fcf6f88c491b69a1466f9ca0702eb77c938"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:e620a8aeb721a7f52ca824f0a8397cd8bebaf950b82d6c571ba177902221d3c1", "0.3.1--pyhdfd78af_0": "sha256:9bb0a1a964f519c47ce838f02d87bb853db262787023f46f3b3753e5825e6a55", "0.2.1--pyhdfd78af_1": "sha256:c7e87d380e969d61ba55926a8e8e48eef22eecd006caed342a0980097818357d", "0.4.2--pyhdfd78af_0": "sha256:b2f508ae086265217ed1f7eeddb25fcf6f88c491b69a1466f9ca0702eb77c938"}, "docker": "quay.io/biocontainers/bifrost-httr", "aliases": {"bifrost-httr": "/usr/local/bin/bifrost-httr", "cmdstan_model": "/usr/local/bin/cmdstan_model", "install_cmdstan": "/usr/local/bin/install_cmdstan", "install_cxx_toolchain": "/usr/local/bin/install_cxx_toolchain", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "natsort": "/usr/local/bin/natsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bifrost-httr.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/bifrost-httr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bifrost-httr:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bifrost-httr:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bifrost-httr/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/bifrost-httr/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/bifrost-httr/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/bifrost-httr/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopython"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopython/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopython/container.yaml"
-updated_at: "2025-08-07 09:56:55.438375"
+updated_at: "2025-08-08 04:15:36.071563"
 latest: "1.81"
 container_url: "https://biocontainers.pro/tools/biopython"
 
@@ -15,8 +15,9 @@ versions:
  - "1.75"
  - "1.81"
  - "1.79"
+ - "1.76--2"
 description: "shpc-registry automated BioContainers addition for biopython"
-config: {"url": "https://biocontainers.pro/tools/biopython", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopython", "latest": {"1.81": "sha256:10d755c731c82a22d91fc346f338ba47d5fd4f3b357828f5bbc903c9be865614"}, "tags": {"1.70--np112py36_1": "sha256:ebeefa970033653f1b3deb9b428f6ede3a9f628bee7a4a2b1194b2d2e0be1346", "1.78": "sha256:8bdeb52fb15b5f61c40292f73d85a3a77cda4bbd95d29e710ddaad7a6bf76720", "1.76": "sha256:b0204cf662a3d858f6c28627124b83ed6f564e2b156b8788092f2dd9256c9290", "1.75": "sha256:fa2c959d7b17b27dd1d3ca3dcc18ac4002f971d1731d57ddcdbd204afab90dba", "1.81": "sha256:10d755c731c82a22d91fc346f338ba47d5fd4f3b357828f5bbc903c9be865614", "1.79": "sha256:937556be7fd782859ece3138e0b8beae3f4645ae8c8fcf304bd56d06084ae37b"}, "docker": "quay.io/biocontainers/biopython"}
+config: {"url": "https://biocontainers.pro/tools/biopython", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopython", "latest": {"1.81": "sha256:10d755c731c82a22d91fc346f338ba47d5fd4f3b357828f5bbc903c9be865614"}, "tags": {"1.70--np112py36_1": "sha256:ebeefa970033653f1b3deb9b428f6ede3a9f628bee7a4a2b1194b2d2e0be1346", "1.78": "sha256:8bdeb52fb15b5f61c40292f73d85a3a77cda4bbd95d29e710ddaad7a6bf76720", "1.76": "sha256:b0204cf662a3d858f6c28627124b83ed6f564e2b156b8788092f2dd9256c9290", "1.75": "sha256:fa2c959d7b17b27dd1d3ca3dcc18ac4002f971d1731d57ddcdbd204afab90dba", "1.81": "sha256:10d755c731c82a22d91fc346f338ba47d5fd4f3b357828f5bbc903c9be865614", "1.79": "sha256:937556be7fd782859ece3138e0b8beae3f4645ae8c8fcf304bd56d06084ae37b", "1.76--2": "sha256:426257e8db023f4cfeb11ecaf7cdda95afc7fd5805e15a2804973b534b350c84"}, "docker": "quay.io/biocontainers/biopython"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopython.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corset/container.yaml"
-updated_at: "2025-08-07 09:39:12.286561"
+updated_at: "2025-08-08 03:58:22.777182"
 latest: "1.09--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/corset"
 aliases:

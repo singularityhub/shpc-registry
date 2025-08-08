@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ratchrloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ratchrloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ratchrloc/container.yaml"
-updated_at: "2025-08-07 09:36:16.253500"
+updated_at: "2025-08-08 03:55:31.577115"
 latest: "2.1.6--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ratchrloc"
 

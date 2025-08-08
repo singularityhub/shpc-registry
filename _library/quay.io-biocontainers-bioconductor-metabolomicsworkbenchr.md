@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabolomicsworkbenchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/container.yaml"
-updated_at: "2025-08-07 10:13:19.561272"
+updated_at: "2025-08-08 04:31:32.830461"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabolomicsworkbenchr"
 

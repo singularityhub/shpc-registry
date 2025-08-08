@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pia/container.yaml"
-updated_at: "2025-08-07 10:13:46.011333"
-latest: "1.5.5--hdfd78af_2"
+updated_at: "2025-08-08 04:31:58.562509"
+latest: "1.5.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pia"
 aliases:
  - "jwebserver"
@@ -43,8 +43,9 @@ versions:
  - "1.5.2--hdfd78af_0"
  - "1.5.5--hdfd78af_0"
  - "1.5.5--hdfd78af_2"
+ - "1.5.6--hdfd78af_0"
 description: "singularity registry hpc automated addition for pia"
-config: {"url": "https://biocontainers.pro/tools/pia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pia", "latest": {"1.5.5--hdfd78af_2": "sha256:941c064a0b417ac05cbf7a829d981f659ab8ae9789705f9022edb0852954494a"}, "tags": {"1.4.8--hdfd78af_0": "sha256:61139d86ad772df04a3e10f075d359cc55a5d4210915e303b8f04e53aad22610", "1.4.9--hdfd78af_0": "sha256:4580aa19e0b76b675648a04db2e2cf91f471aafc47eb24db66ff43f6b8bc2d0b", "1.5.0--hdfd78af_0": "sha256:e30502ef904e882ec27c0f1980f4613f0c5005b85496bcb7369133c3b1ae58e0", "1.4.10--hdfd78af_1": "sha256:806de8beb3eed4137bc898fcc33d8377cd102069aae9a59bd9b11a6d0d7b34ed", "1.5.2--hdfd78af_0": "sha256:91c7f027577fab0f86da91a6efe2aff12a10fb5cb20cf081e48e4b1211f0c488", "1.5.5--hdfd78af_0": "sha256:32b5fc39ad20655b4a978c628810eae4fbb9b343832de38d2ae1fced607eda53", "1.5.5--hdfd78af_2": "sha256:941c064a0b417ac05cbf7a829d981f659ab8ae9789705f9022edb0852954494a"}, "docker": "quay.io/biocontainers/pia", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "pia": "/usr/local/bin/pia", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/pia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pia", "latest": {"1.5.6--hdfd78af_0": "sha256:d8fdd930fcba59cb3ea99a381f59cc90a55e80a86262acf58984002ee2231b5f"}, "tags": {"1.4.8--hdfd78af_0": "sha256:61139d86ad772df04a3e10f075d359cc55a5d4210915e303b8f04e53aad22610", "1.4.9--hdfd78af_0": "sha256:4580aa19e0b76b675648a04db2e2cf91f471aafc47eb24db66ff43f6b8bc2d0b", "1.5.0--hdfd78af_0": "sha256:e30502ef904e882ec27c0f1980f4613f0c5005b85496bcb7369133c3b1ae58e0", "1.4.10--hdfd78af_1": "sha256:806de8beb3eed4137bc898fcc33d8377cd102069aae9a59bd9b11a6d0d7b34ed", "1.5.2--hdfd78af_0": "sha256:91c7f027577fab0f86da91a6efe2aff12a10fb5cb20cf081e48e4b1211f0c488", "1.5.5--hdfd78af_0": "sha256:32b5fc39ad20655b4a978c628810eae4fbb9b343832de38d2ae1fced607eda53", "1.5.5--hdfd78af_2": "sha256:941c064a0b417ac05cbf7a829d981f659ab8ae9789705f9022edb0852954494a", "1.5.6--hdfd78af_0": "sha256:d8fdd930fcba59cb3ea99a381f59cc90a55e80a86262acf58984002ee2231b5f"}, "docker": "quay.io/biocontainers/pia", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "pia": "/usr/local/bin/pia", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pia.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/pia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pia:1.5.5--hdfd78af_2
+$ shpc install quay.io/biocontainers/pia:1.5.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pia/1.5.5--hdfd78af_2
-$ module help quay.io/biocontainers/pia/1.5.5--hdfd78af_2
+$ module load quay.io/biocontainers/pia/1.5.6--hdfd78af_0
+$ module help quay.io/biocontainers/pia/1.5.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

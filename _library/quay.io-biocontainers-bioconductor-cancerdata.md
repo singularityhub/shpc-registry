@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
-updated_at: "2025-08-07 09:38:14.039870"
+updated_at: "2025-08-08 03:57:26.193388"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerdata"
 

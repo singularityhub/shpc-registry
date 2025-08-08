@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/datamash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datamash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datamash/container.yaml"
-updated_at: "2025-08-07 10:10:56.865169"
-latest: "1.8"
+updated_at: "2025-08-08 04:29:13.794517"
+latest: "1.9"
 container_url: "https://biocontainers.pro/tools/datamash"
 aliases:
  - "datamash"
 versions:
  - "1.1.0--0"
  - "1.8"
+ - "1.9"
 description: "shpc-registry automated BioContainers addition for datamash"
-config: {"url": "https://biocontainers.pro/tools/datamash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datamash", "latest": {"1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "tags": {"1.1.0--0": "sha256:1084e31ef6c77957777ed214bca83b7fdb9f68c1d9cc368d96582bd003cb652b", "1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "docker": "quay.io/biocontainers/datamash", "aliases": {"datamash": "/usr/local/bin/datamash"}}
+config: {"url": "https://biocontainers.pro/tools/datamash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datamash", "latest": {"1.9": "sha256:c19b502e94912a0dd9bac64f2c14069b3449a9766235d7b78cc7d0cdc1abb24e"}, "tags": {"1.1.0--0": "sha256:1084e31ef6c77957777ed214bca83b7fdb9f68c1d9cc368d96582bd003cb652b", "1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214", "1.9": "sha256:c19b502e94912a0dd9bac64f2c14069b3449a9766235d7b78cc7d0cdc1abb24e"}, "docker": "quay.io/biocontainers/datamash", "aliases": {"datamash": "/usr/local/bin/datamash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/datamash.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/datamash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/datamash:1.8
+$ shpc install quay.io/biocontainers/datamash:1.9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/datamash/1.8
-$ module help quay.io/biocontainers/datamash/1.8
+$ module load quay.io/biocontainers/datamash/1.9
+$ module help quay.io/biocontainers/datamash/1.9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

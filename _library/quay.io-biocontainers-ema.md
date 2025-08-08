@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ema/container.yaml"
-updated_at: "2025-08-07 09:33:57.221179"
+updated_at: "2025-08-08 03:53:16.343294"
 latest: "0.7.0--h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/ema"
 aliases:

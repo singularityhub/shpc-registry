@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanomotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomotif/container.yaml"
-updated_at: "2025-08-07 10:02:54.021457"
-latest: "0.6.2--pyh7e72e81_0"
+updated_at: "2025-08-08 04:21:24.452347"
+latest: "0.7.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/nanomotif"
 aliases:
  - "nanomotif"
@@ -47,8 +47,9 @@ versions:
  - "0.5.6--pyh7e72e81_0"
  - "0.5.8--pyh7e72e81_0"
  - "0.6.2--pyh7e72e81_0"
+ - "0.7.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for nanomotif"
-config: {"url": "https://biocontainers.pro/tools/nanomotif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanomotif", "latest": {"0.6.2--pyh7e72e81_0": "sha256:9dbd6931427d29f5c4e41217ddeada64290129c90e2ce1736811c58cd25b6e5c"}, "tags": {"0.1.13--pyh7cba7a3_0": "sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b", "0.1.15--pyh7cba7a3_0": "sha256:cec36c6bfce00d855b86bb77c51b2f09c84203fe3eb4138c62c68ba1a7fb0479", "0.1.19--pyh7cba7a3_0": "sha256:619610f22e9e5854ac47f376d4bda1896eb93f3d99e500253e2c4da624aeb6ba", "0.1.20--pyh7cba7a3_0": "sha256:9aad5cfee75e9254f4000a2e0de9c41d3bd4eb717ec0eab062580bbf52ce3262", "0.4.7--pyh7cba7a3_0": "sha256:d3e53839bc4bf6a72be22acd5de22a7d5b33de210ae10d7155df7169ae7988f2", "0.4.8--pyh7e72e81_0": "sha256:129d1ef1bf3963d9716603ccdc35510fe7efdaf64db1d3acd732cb220fd569c3", "0.4.11--pyh7e72e81_0": "sha256:a5482720f0d2e1560e1f37223a7565783b354c084d672ec945312b5b94d58e0b", "0.4.12--pyh7e72e81_0": "sha256:2a27f0145b125f033a2482baf56e5d481bc89f2087e7ce7985f2736bb322815c", "0.4.13--pyh7e72e81_0": "sha256:6e537908492dc550694ac32549cced98d7be315b27e33fc3238e4e6ba0fd69a5", "0.4.15--pyh7e72e81_0": "sha256:a0eb6daa9bc33297bf16316c9dd31ea64e468c41a0b77fe17fe4fd0babb703a1", "0.4.16--pyh7e72e81_0": "sha256:8da1e7fc3c04df1988cfc6e8ee8772da6fbea7c5003d836fa7f58dfb2b9700a0", "0.5.0--pyh7e72e81_0": "sha256:71269d8489538546a224ae3256367d01ecf92e751a8428e8368d8999dc3308fa", "0.4.17--pyh7e72e81_0": "sha256:9d876e00942d337e9c743433bfc195310b1f7a59145db2f9f2c570b6e3967463", "0.5.6--pyh7e72e81_0": "sha256:8d4d72b1ff314cd35457dc70bda9147fc65d043700dfb3b1d3a74a282175d76b", "0.5.8--pyh7e72e81_0": "sha256:114589e4d72a2d0deb03341738d46b55e89d6cb75706ab7d364696c757b879e1", "0.6.2--pyh7e72e81_0": "sha256:9dbd6931427d29f5c4e41217ddeada64290129c90e2ce1736811c58cd25b6e5c"}, "docker": "quay.io/biocontainers/nanomotif", "aliases": {"nanomotif": "/usr/local/bin/nanomotif", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/nanomotif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanomotif", "latest": {"0.7.0--pyh7e72e81_0": "sha256:3cfae3a248ae9ce619389b605d7bfca2406708ae459aae1fc7ba6bde2f80ed63"}, "tags": {"0.1.13--pyh7cba7a3_0": "sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b", "0.1.15--pyh7cba7a3_0": "sha256:cec36c6bfce00d855b86bb77c51b2f09c84203fe3eb4138c62c68ba1a7fb0479", "0.1.19--pyh7cba7a3_0": "sha256:619610f22e9e5854ac47f376d4bda1896eb93f3d99e500253e2c4da624aeb6ba", "0.1.20--pyh7cba7a3_0": "sha256:9aad5cfee75e9254f4000a2e0de9c41d3bd4eb717ec0eab062580bbf52ce3262", "0.4.7--pyh7cba7a3_0": "sha256:d3e53839bc4bf6a72be22acd5de22a7d5b33de210ae10d7155df7169ae7988f2", "0.4.8--pyh7e72e81_0": "sha256:129d1ef1bf3963d9716603ccdc35510fe7efdaf64db1d3acd732cb220fd569c3", "0.4.11--pyh7e72e81_0": "sha256:a5482720f0d2e1560e1f37223a7565783b354c084d672ec945312b5b94d58e0b", "0.4.12--pyh7e72e81_0": "sha256:2a27f0145b125f033a2482baf56e5d481bc89f2087e7ce7985f2736bb322815c", "0.4.13--pyh7e72e81_0": "sha256:6e537908492dc550694ac32549cced98d7be315b27e33fc3238e4e6ba0fd69a5", "0.4.15--pyh7e72e81_0": "sha256:a0eb6daa9bc33297bf16316c9dd31ea64e468c41a0b77fe17fe4fd0babb703a1", "0.4.16--pyh7e72e81_0": "sha256:8da1e7fc3c04df1988cfc6e8ee8772da6fbea7c5003d836fa7f58dfb2b9700a0", "0.5.0--pyh7e72e81_0": "sha256:71269d8489538546a224ae3256367d01ecf92e751a8428e8368d8999dc3308fa", "0.4.17--pyh7e72e81_0": "sha256:9d876e00942d337e9c743433bfc195310b1f7a59145db2f9f2c570b6e3967463", "0.5.6--pyh7e72e81_0": "sha256:8d4d72b1ff314cd35457dc70bda9147fc65d043700dfb3b1d3a74a282175d76b", "0.5.8--pyh7e72e81_0": "sha256:114589e4d72a2d0deb03341738d46b55e89d6cb75706ab7d364696c757b879e1", "0.6.2--pyh7e72e81_0": "sha256:9dbd6931427d29f5c4e41217ddeada64290129c90e2ce1736811c58cd25b6e5c", "0.7.0--pyh7e72e81_0": "sha256:3cfae3a248ae9ce619389b605d7bfca2406708ae459aae1fc7ba6bde2f80ed63"}, "docker": "quay.io/biocontainers/nanomotif", "aliases": {"nanomotif": "/usr/local/bin/nanomotif", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanomotif.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/nanomotif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanomotif:0.6.2--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/nanomotif:0.7.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanomotif/0.6.2--pyh7e72e81_0
-$ module help quay.io/biocontainers/nanomotif/0.6.2--pyh7e72e81_0
+$ module load quay.io/biocontainers/nanomotif/0.7.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/nanomotif/0.7.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

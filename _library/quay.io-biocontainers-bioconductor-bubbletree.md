@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bubbletree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bubbletree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bubbletree/container.yaml"
-updated_at: "2025-08-07 09:29:23.614564"
+updated_at: "2025-08-08 03:48:49.760693"
 latest: "2.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bubbletree"
 aliases:

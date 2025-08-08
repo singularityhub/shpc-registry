@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-clone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-clone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-clone/container.yaml"
-updated_at: "2025-08-07 10:12:32.024803"
+updated_at: "2025-08-08 04:30:46.538791"
 latest: "0.06--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-moosex-clone"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svdss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svdss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svdss/container.yaml"
-updated_at: "2025-08-07 09:44:43.684255"
+updated_at: "2025-08-08 04:03:45.334882"
 latest: "2.1.0--h9013031_0"
 container_url: "https://biocontainers.pro/tools/svdss"
 aliases:

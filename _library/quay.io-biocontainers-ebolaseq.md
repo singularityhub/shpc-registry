@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ebolaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebolaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebolaseq/container.yaml"
-updated_at: "2025-08-07 09:57:02.259498"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2025-08-08 04:15:42.672092"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ebolaseq"
 aliases:
  - "ebolaseq"
@@ -37,8 +37,9 @@ aliases:
  - "mafft-linsi"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ebolaseq"
-config: {"url": "https://biocontainers.pro/tools/ebolaseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ebolaseq", "latest": {"0.1.3--pyhdfd78af_0": "sha256:a243cd16fe60b34e48a7bacb556eda1e51b9f99e03468c0ec8f55603906bd47b"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:a243cd16fe60b34e48a7bacb556eda1e51b9f99e03468c0ec8f55603906bd47b"}, "docker": "quay.io/biocontainers/ebolaseq", "aliases": {"ebolaseq": "/usr/local/bin/ebolaseq", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree2": "/usr/local/bin/iqtree2", "iqtree": "/usr/local/bin/iqtree", "gawkbug": "/usr/local/bin/gawkbug", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "awk": "/usr/local/bin/awk", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "gawk": "/usr/local/bin/gawk", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi"}}
+config: {"url": "https://biocontainers.pro/tools/ebolaseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ebolaseq", "latest": {"0.1.6--pyhdfd78af_0": "sha256:9400082d7d50763fa2cc7159f2a75c18638cbdbeab252bbd9c8e02f219baa43c"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:a243cd16fe60b34e48a7bacb556eda1e51b9f99e03468c0ec8f55603906bd47b", "0.1.6--pyhdfd78af_0": "sha256:9400082d7d50763fa2cc7159f2a75c18638cbdbeab252bbd9c8e02f219baa43c"}, "docker": "quay.io/biocontainers/ebolaseq", "aliases": {"ebolaseq": "/usr/local/bin/ebolaseq", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree2": "/usr/local/bin/iqtree2", "iqtree": "/usr/local/bin/iqtree", "gawkbug": "/usr/local/bin/gawkbug", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "awk": "/usr/local/bin/awk", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "gawk": "/usr/local/bin/gawk", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ebolaseq.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/ebolaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ebolaseq:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ebolaseq:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ebolaseq/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/ebolaseq/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/ebolaseq/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/ebolaseq/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

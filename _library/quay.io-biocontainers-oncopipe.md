@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncopipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncopipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncopipe/container.yaml"
-updated_at: "2025-08-07 09:44:22.866517"
+updated_at: "2025-08-08 04:03:25.072420"
 latest: "1.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oncopipe"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/picopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picopore/container.yaml"
-updated_at: "2025-08-07 10:00:43.130650"
+updated_at: "2025-08-08 04:19:17.380008"
 latest: "1.2.0--pyh8b68c5b_1"
 container_url: "https://biocontainers.pro/tools/picopore"
 aliases:

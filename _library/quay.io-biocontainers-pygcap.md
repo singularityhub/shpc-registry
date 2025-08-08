@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygcap/container.yaml"
-updated_at: "2025-08-07 09:46:05.730324"
+updated_at: "2025-08-08 04:05:04.997322"
 latest: "1.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygcap"
 aliases:
