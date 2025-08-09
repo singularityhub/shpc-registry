@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scisi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scisi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scisi/container.yaml"
-updated_at: "2025-08-08 03:56:08.448636"
+updated_at: "2025-08-09 03:50:26.130097"
 latest: "1.65.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scisi"
 

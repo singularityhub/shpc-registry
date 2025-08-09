@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-diptest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diptest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diptest/container.yaml"
-updated_at: "2025-08-08 04:35:05.314799"
+updated_at: "2025-08-09 03:54:03.628031"
 latest: "0.75_7--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-diptest"
 aliases:

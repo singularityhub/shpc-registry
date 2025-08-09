@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-citrusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-citrusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-citrusprobe/container.yaml"
-updated_at: "2025-08-08 04:15:09.753358"
+updated_at: "2025-08-09 03:48:56.856424"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-citrusprobe"
 

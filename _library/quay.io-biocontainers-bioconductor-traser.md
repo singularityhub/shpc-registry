@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-traser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-traser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-traser/container.yaml"
-updated_at: "2025-08-08 04:17:55.323632"
+updated_at: "2025-08-09 03:53:48.401447"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-traser"
 aliases:

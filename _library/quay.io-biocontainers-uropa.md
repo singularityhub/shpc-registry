@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uropa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uropa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uropa/container.yaml"
-updated_at: "2025-08-08 03:54:09.257488"
+updated_at: "2025-08-09 04:07:45.317377"
 latest: "4.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/uropa"
 aliases:

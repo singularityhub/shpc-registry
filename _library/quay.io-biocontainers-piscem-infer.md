@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/piscem-infer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piscem-infer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piscem-infer/container.yaml"
-updated_at: "2025-08-08 04:24:13.613870"
-latest: "0.6.0--h4349ce8_0"
+updated_at: "2025-08-09 03:48:31.270892"
+latest: "0.7.0--h090f6cf_0"
 container_url: "https://biocontainers.pro/tools/piscem-infer"
 aliases:
  - "piscem-infer"
 versions:
  - "0.6.0--h4349ce8_0"
+ - "0.7.0--h090f6cf_0"
 description: "singularity registry hpc automated addition for piscem-infer"
-config: {"url": "https://biocontainers.pro/tools/piscem-infer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piscem-infer", "latest": {"0.6.0--h4349ce8_0": "sha256:e73bbcfed24977527fce0669a6b4c76a30fefbff6021223c3cec296363ec6893"}, "tags": {"0.6.0--h4349ce8_0": "sha256:e73bbcfed24977527fce0669a6b4c76a30fefbff6021223c3cec296363ec6893"}, "docker": "quay.io/biocontainers/piscem-infer", "aliases": {"piscem-infer": "/usr/local/bin/piscem-infer"}}
+config: {"url": "https://biocontainers.pro/tools/piscem-infer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for piscem-infer", "latest": {"0.7.0--h090f6cf_0": "sha256:56507a06187a0c7faca8911fe51c23f568f45adbd201cefadbcd307c6821de8f"}, "tags": {"0.6.0--h4349ce8_0": "sha256:e73bbcfed24977527fce0669a6b4c76a30fefbff6021223c3cec296363ec6893", "0.7.0--h090f6cf_0": "sha256:56507a06187a0c7faca8911fe51c23f568f45adbd201cefadbcd307c6821de8f"}, "docker": "quay.io/biocontainers/piscem-infer", "aliases": {"piscem-infer": "/usr/local/bin/piscem-infer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piscem-infer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/piscem-infer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piscem-infer:0.6.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/piscem-infer:0.7.0--h090f6cf_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piscem-infer/0.6.0--h4349ce8_0
-$ module help quay.io/biocontainers/piscem-infer/0.6.0--h4349ce8_0
+$ module load quay.io/biocontainers/piscem-infer/0.7.0--h090f6cf_0
+$ module help quay.io/biocontainers/piscem-infer/0.7.0--h090f6cf_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

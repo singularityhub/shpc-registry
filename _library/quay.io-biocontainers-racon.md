@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/racon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/racon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/racon/container.yaml"
-updated_at: "2025-08-08 04:30:31.000811"
-latest: "1.5.0--h077b44d_6"
+updated_at: "2025-08-09 03:58:16.223599"
+latest: "1.5.0--h077b44d_7"
 container_url: "https://biocontainers.pro/tools/racon"
 aliases:
  - "racon"
@@ -24,8 +24,9 @@ versions:
  - "1.5.0--hdcf5f25_4"
  - "1.5.0--hdcf5f25_5"
  - "1.5.0--h077b44d_6"
+ - "1.5.0--h077b44d_7"
 description: "shpc-registry automated BioContainers addition for racon"
-config: {"url": "https://biocontainers.pro/tools/racon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for racon", "latest": {"1.5.0--h077b44d_6": "sha256:3bf485ec09a4c79b8e59f47c841b20210f84fccc911ed077d6e57a71c5fef462"}, "tags": {"1.5.0--h7ff8a90_0": "sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df", "1.5.0--h21ec9f0_2": "sha256:1f8ba10982e9e534dfcdca612f330f08979ad5a146aac3ca1b1af7df29599130", "1.5.0--h21ec9f0_3": "sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803", "1.5.0--hdcf5f25_4": "sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd", "1.5.0--hdcf5f25_5": "sha256:ac2f5eedb1dfbbd455d7f74d2323f760dd8376333046559018e1efa07994919e", "1.5.0--h077b44d_6": "sha256:3bf485ec09a4c79b8e59f47c841b20210f84fccc911ed077d6e57a71c5fef462"}, "docker": "quay.io/biocontainers/racon", "aliases": {"racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "rampler": "/usr/local/bin/rampler", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/racon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for racon", "latest": {"1.5.0--h077b44d_7": "sha256:3ad4efe1730e94e06494bfa74e0a1ce9a24e9d730ce2ae795b2d739e23e21680"}, "tags": {"1.5.0--h7ff8a90_0": "sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df", "1.5.0--h21ec9f0_2": "sha256:1f8ba10982e9e534dfcdca612f330f08979ad5a146aac3ca1b1af7df29599130", "1.5.0--h21ec9f0_3": "sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803", "1.5.0--hdcf5f25_4": "sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd", "1.5.0--hdcf5f25_5": "sha256:ac2f5eedb1dfbbd455d7f74d2323f760dd8376333046559018e1efa07994919e", "1.5.0--h077b44d_6": "sha256:3bf485ec09a4c79b8e59f47c841b20210f84fccc911ed077d6e57a71c5fef462", "1.5.0--h077b44d_7": "sha256:3ad4efe1730e94e06494bfa74e0a1ce9a24e9d730ce2ae795b2d739e23e21680"}, "docker": "quay.io/biocontainers/racon", "aliases": {"racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "rampler": "/usr/local/bin/rampler", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/racon.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/racon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/racon:1.5.0--h077b44d_6
+$ shpc install quay.io/biocontainers/racon:1.5.0--h077b44d_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/racon/1.5.0--h077b44d_6
-$ module help quay.io/biocontainers/racon/1.5.0--h077b44d_6
+$ module load quay.io/biocontainers/racon/1.5.0--h077b44d_7
+$ module help quay.io/biocontainers/racon/1.5.0--h077b44d_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gawk/container.yaml"
-updated_at: "2025-08-08 03:48:38.085284"
+updated_at: "2025-08-09 03:40:46.613036"
 latest: "5.3.1"
 container_url: "https://biocontainers.pro/tools/gawk"
 aliases:
@@ -15,8 +15,9 @@ versions:
  - "5.1.0"
  - "5.3.0"
  - "5.3.1"
+ - "5.1.0--2"
 description: "shpc-registry automated BioContainers addition for gawk"
-config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.3.1": "sha256:14649372ffb4ac76e26ac7357262f2cdd3d731ace344118ad0ce79fc49f03a9d"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa", "5.3.0": "sha256:701d6199235b36d054c24b1d0a889ca5e9740e301e4b46651f54d59576b73cd0", "5.3.1": "sha256:14649372ffb4ac76e26ac7357262f2cdd3d731ace344118ad0ce79fc49f03a9d"}, "docker": "quay.io/biocontainers/gawk", "aliases": {"gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk"}}
+config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.3.1": "sha256:14649372ffb4ac76e26ac7357262f2cdd3d731ace344118ad0ce79fc49f03a9d"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa", "5.3.0": "sha256:701d6199235b36d054c24b1d0a889ca5e9740e301e4b46651f54d59576b73cd0", "5.3.1": "sha256:14649372ffb4ac76e26ac7357262f2cdd3d731ace344118ad0ce79fc49f03a9d", "5.1.0--2": "sha256:592abd02d046e9ff0195252cbf398d6c0098be23de48ffb77f827c9ccdf77c93"}, "docker": "quay.io/biocontainers/gawk", "aliases": {"gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gawk.
