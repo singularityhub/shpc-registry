@@ -1,17 +1,15 @@
 docker: quay.io/pawsey/namd
 url: https://singularity-hpc.readthedocs.io
 description: Pawsey build of NAMD built on top of MPICH and ROCm
-maintainer: "@craigmeyer"
+maintainer: '@craigmeyer'
 
 latest:
-  3.0.1-rocm6.3.0:
+  3.0.1-rocm6.3.0: 
     sha256:1098a0896521eaa2929fc72738b213c797199a3f885ada35fe17e35ba0ecc1fd
 tags:
-  3.0.1-rocm6.3.0:
+  3.0.1-rocm6.3.0: 
     sha256:1098a0896521eaa2929fc72738b213c797199a3f885ada35fe17e35ba0ecc1fd
-  3.0.1:
-    sha256:256fd50371294ef26c5f277e508e6986c7c2bf9853771c5c6f02b7886f8e07c2
-
+  3.0.1: sha256:256fd50371294ef26c5f277e508e6986c7c2bf9853771c5c6f02b7886f8e07c2
 aliases:
   charmrun: /opt/namd/bin/charmrun
   namd3: /opt/namd/bin/namd3

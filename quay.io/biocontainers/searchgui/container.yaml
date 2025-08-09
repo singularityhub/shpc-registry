@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/searchgui
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for searchgui
 latest:
-  4.3.14--hdfd78af_0: 
-    sha256:48fced4027484df8975d54adb8656049d5ad1c0defd17bbe4e8b4b5c4e57b99b
+  4.3.15--hdfd78af_0: 
+    sha256:55fcb7b79922725737ddde120305f85021feb1cf30afc38612fde4233d151b1b
 tags:
   3.3.9--1: 
     sha256:2688f67cb1f19b544525554c0ea007b53db8ee5a98bb5a637a9334c05b94f7e1
@@ -23,6 +23,8 @@ tags:
     sha256:8245609358553d34aa52812e015db128fff0967a2edb7988e9f211ddb761ce75
   4.3.14--hdfd78af_0: 
     sha256:48fced4027484df8975d54adb8656049d5ad1c0defd17bbe4e8b4b5c4e57b99b
+  4.3.15--hdfd78af_0: 
+    sha256:55fcb7b79922725737ddde120305f85021feb1cf30afc38612fde4233d151b1b
 docker: quay.io/biocontainers/searchgui
 aliases:
   csc: /usr/local/bin/csc

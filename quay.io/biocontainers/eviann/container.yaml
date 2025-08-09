@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/eviann
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eviann
 latest:
-  2.0.3--pl5321haf24da9_1: 
-    sha256:b45c0d8efc1e497785443336987cb9315bd65341c130eec9b8f3b50b5121498b
+  2.0.3--pl5321haf24da9_2: 
+    sha256:f0705bf836de500ccb1b41300ce18aa0daafaf73cb9e7fab98a5c1798b3a44a5
 tags:
   2.0.3--pl5321haf24da9_1: 
     sha256:b45c0d8efc1e497785443336987cb9315bd65341c130eec9b8f3b50b5121498b
+  2.0.3--pl5321haf24da9_2: 
+    sha256:f0705bf836de500ccb1b41300ce18aa0daafaf73cb9e7fab98a5c1798b3a44a5
 docker: quay.io/biocontainers/eviann
 aliases:
   Changelog.txt: /usr/local/bin/Changelog.txt

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-bio-samtools
 latest:
-  1.43--pl5321h577a1d6_5: 
-    sha256:506e744162326b31d644e36c5a6b50bf4cd728459ca4adc66a7a8b5a1a2f9010
+  1.43--pl5321h577a1d6_6: 
+    sha256:4239b383e30ec266d40f5864f6713f04d3894bb1a5828552f9be88dbcdbd7416
 tags:
   1.43--pl5321h7132678_3: 
     sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d
@@ -12,6 +12,8 @@ tags:
     sha256:4fb899b33e91a9f7bb0ab712ee91da5e0ab7a779229f114ef8f030d591b67156
   1.43--pl5321h577a1d6_5: 
     sha256:506e744162326b31d644e36c5a6b50bf4cd728459ca4adc66a7a8b5a1a2f9010
+  1.43--pl5321h577a1d6_6: 
+    sha256:4239b383e30ec266d40f5864f6713f04d3894bb1a5828552f9be88dbcdbd7416
 docker: quay.io/biocontainers/perl-bio-samtools
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

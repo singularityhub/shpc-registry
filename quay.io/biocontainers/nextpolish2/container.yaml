@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nextpolish2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nextpolish2
 latest:
-  0.2.1--hcdda2d0_2: 
-    sha256:139ee09d62512c7d60b7a054b03b6224d3ac001bc6884dc7a97bcaac44779076
+  0.2.1--h74ec884_3: 
+    sha256:43b749cda7a34eb0a9798433cf4f426ce99b7caf08b1eec339f8c733d0f1b43c
 tags:
   0.1.0--hd03093a_0: 
     sha256:365eec84cc21ecfcc17dad88441c6126b95720f14d9da45bedc22126a09772f7
@@ -13,6 +13,8 @@ tags:
     sha256:745502812cb406e9450f696037b5a42953104bee5f0bd72bfd2acf44e734c4f9
   0.2.1--hcdda2d0_2: 
     sha256:139ee09d62512c7d60b7a054b03b6224d3ac001bc6884dc7a97bcaac44779076
+  0.2.1--h74ec884_3: 
+    sha256:43b749cda7a34eb0a9798433cf4f426ce99b7caf08b1eec339f8c733d0f1b43c
 docker: quay.io/biocontainers/nextpolish2
 aliases:
   nextPolish2: /usr/local/bin/nextPolish2

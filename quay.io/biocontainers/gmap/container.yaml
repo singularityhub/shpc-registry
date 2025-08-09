@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gmap
 latest:
-  2025.04.19--pl5321hb1d24b7_0: 
-    sha256:4bb2cd36057c398b16452e7495721c7cd9f4d6c9ea990b88f95cf67a68cf9718
+  2025.07.31--pl5321hb1d24b7_0: 
+    sha256:88f25e4636f44e9959583b6bf27e5fa0c21c62d6ffae70eaf72ff2c25cf6b939
 tags:
   2020.06.01--pl526h2f06484_1: 
     sha256:a4cf2182c8b982aa4e8214fcbc12b5acd88c8da1e751d005a9bb14e2c13358a8
@@ -41,4 +41,6 @@ tags:
     sha256:4bb2cd36057c398b16452e7495721c7cd9f4d6c9ea990b88f95cf67a68cf9718
   2024.11.20--pl5321hb1d24b7_3: 
     sha256:656036199eb1006d9e23b49bc31576129707c9360025766677caaa71d7f28123
+  2025.07.31--pl5321hb1d24b7_0: 
+    sha256:88f25e4636f44e9959583b6bf27e5fa0c21c62d6ffae70eaf72ff2c25cf6b939
 docker: quay.io/biocontainers/gmap

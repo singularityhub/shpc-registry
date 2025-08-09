@@ -5,6 +5,8 @@ latest:
   3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
 tags:
   3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
+  3.1.1--2: 
+    sha256:08e0d964393d576f9c86b1d26016c42d979e475f88e1426c00ce3e809baf65f9
 docker: quay.io/biocontainers/openbabel
 aliases:
   obfitall: /usr/local/bin/obfitall
