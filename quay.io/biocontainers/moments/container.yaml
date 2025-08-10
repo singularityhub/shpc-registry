@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/moments
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for moments
 latest:
-  1.4.4--py310h1fe012e_0: 
-    sha256:7750608e9090c88b7c9c92f276e94b1b99ede0a579cb48ffec23f11b7ee7b25e
+  1.4.5--py312hc9302aa_0: 
+    sha256:d81e4d02a95831a9345bfb90638db6499ac17118776ce98b375efe23aa7f757d
 tags:
   1.1.5--py38h9af456f_0: 
     sha256:6e5fe05c7146d9dd1c9f82c51428e21252136fe9d0af4e66749d954c2ebcc81a
@@ -15,6 +15,8 @@ tags:
     sha256:af1e51788f1a511d93f982cf63dc2e99eb4a9831aef82ff929d8a5089225bb56
   1.4.4--py310h1fe012e_0: 
     sha256:7750608e9090c88b7c9c92f276e94b1b99ede0a579cb48ffec23f11b7ee7b25e
+  1.4.5--py312hc9302aa_0: 
+    sha256:d81e4d02a95831a9345bfb90638db6499ac17118776ce98b375efe23aa7f757d
 docker: quay.io/biocontainers/moments
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

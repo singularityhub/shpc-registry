@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/minigraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minigraph
 latest:
-  0.21--h577a1d6_2: 
-    sha256:603bbdbb0d0c6fcce278bb2f240c0c41d3532d8403e212f117e1ef6515614e23
+  0.21--h577a1d6_3: 
+    sha256:d631402d4a954896639a09e637962bef8b60acacd9176a10436a28a445132494
 tags:
   0.19--h7132678_1: 
     sha256:724ed20de63a1b0e6ce756719edcf53c0df06885a640101cdd6fd5769e8d6a88
@@ -17,6 +17,8 @@ tags:
     sha256:498b027990a2ec3678f220881226d1cbfa4db0e9bf67fc68d9b337d311cea3ce
   0.21--h577a1d6_2: 
     sha256:603bbdbb0d0c6fcce278bb2f240c0c41d3532d8403e212f117e1ef6515614e23
+  0.21--h577a1d6_3: 
+    sha256:d631402d4a954896639a09e637962bef8b60acacd9176a10436a28a445132494
 docker: quay.io/biocontainers/minigraph
 aliases:
   minigraph: /usr/local/bin/minigraph

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tower-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tower-cli
 latest:
-  0.13.0--hdfd78af_0: 
-    sha256:f9668a1329a8e71fd4e184c70344991d352b7778b7d0615191cedd4c09bfe7e8
+  0.14.0--hdfd78af_0: 
+    sha256:85b7dbae0ae8f36668b6ceda448db33ecb44bc0b4998fd7e5712541ab009dbdc
 tags:
   0.8.0--h9ee0642_0: 
     sha256:98825f778dd02b2803950474dbe80ffb3d0da267d98f65153ff2c2019c995eec
@@ -29,6 +29,8 @@ tags:
     sha256:f9668a1329a8e71fd4e184c70344991d352b7778b7d0615191cedd4c09bfe7e8
   0.12.2--hdfd78af_0: 
     sha256:cb156582705302be82371f6a21979e62066725f342d0ae063c1dad5402298b2b
+  0.14.0--hdfd78af_0: 
+    sha256:85b7dbae0ae8f36668b6ceda448db33ecb44bc0b4998fd7e5712541ab009dbdc
 docker: quay.io/biocontainers/tower-cli
 aliases:
   tw: /usr/local/bin/tw

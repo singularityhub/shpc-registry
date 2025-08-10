@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/synapseclient
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for synapseclient
 latest:
-  4.5.0--pyhdfd78af_0: 
-    sha256:ed783bb3461007254ea3a86f545c2642449324fe280bb99e8b0225ee3448edc8
+  4.9.0--pyhdfd78af_0: 
+    sha256:19805735b8dadf454350c80aa1f423f2d4aee2847c4a008d8a59ba77f0094029
 tags:
   2.7.0--pyh7cba7a3_0: 
     sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084
@@ -33,6 +33,8 @@ tags:
     sha256:ed783bb3461007254ea3a86f545c2642449324fe280bb99e8b0225ee3448edc8
   4.4.1--pyhdfd78af_0: 
     sha256:77fad921578f6bcd90f9917c9d42b5f9218894e627b24140d9b9aa9f9871c8b9
+  4.9.0--pyhdfd78af_0: 
+    sha256:19805735b8dadf454350c80aa1f423f2d4aee2847c4a008d8a59ba77f0094029
 docker: quay.io/biocontainers/synapseclient
 aliases:
   keyring: /usr/local/bin/keyring

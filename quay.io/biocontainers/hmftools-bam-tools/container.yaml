@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-bam-tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-bam-tools
 latest:
-  1.4.1--hdfd78af_0: 
-    sha256:ab37f46af16a6ef03c722d05a4d634448dc46ea0709e41d2d0c5443218900793
+  1.4.2--hdfd78af_0: 
+    sha256:600326631442b235a625061fe36e31ab1447448f21d41071c2954db73dd8e5b8
 tags:
   1.2--hdfd78af_0: 
     sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76
@@ -15,6 +15,8 @@ tags:
     sha256:a900d3252a9516657d2cc70055eff5ae7e43c262a9463e2d8264f68e5d5f4871
   1.4.1--hdfd78af_0: 
     sha256:ab37f46af16a6ef03c722d05a4d634448dc46ea0709e41d2d0c5443218900793
+  1.4.2--hdfd78af_0: 
+    sha256:600326631442b235a625061fe36e31ab1447448f21d41071c2954db73dd8e5b8
 docker: quay.io/biocontainers/hmftools-bam-tools
 aliases:
   jwebserver: /usr/local/bin/jwebserver

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/coverm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coverm
 latest:
-  0.7.0--hb4818e0_2: 
-    sha256:39b58239cd836d7aef5d70ac4e15f0d822c96fcca7acae52d0e5c71d76033ce6
+  0.7.0--hcb7b614_4: 
+    sha256:5ffbc121d083abcbb3acb5b1b7e222a733d5228789616ab6bb8e3e1b00898db0
 tags:
   0.6.1--h1535e20_5: 
     sha256:852de57f3f00862cd7524eb979fca849e887699d33af53661c4faf72aaef53bb
@@ -13,6 +13,8 @@ tags:
     sha256:2c1f5a05cf2cf7e8371b94fcb73b30eaedaf486a44cf1f53f66548f34bbccb9d
   0.7.0--hb4818e0_2: 
     sha256:39b58239cd836d7aef5d70ac4e15f0d822c96fcca7acae52d0e5c71d76033ce6
+  0.7.0--hcb7b614_4: 
+    sha256:5ffbc121d083abcbb3acb5b1b7e222a733d5228789616ab6bb8e3e1b00898db0
 docker: quay.io/biocontainers/coverm
 aliases:
   coverm: /usr/local/bin/coverm

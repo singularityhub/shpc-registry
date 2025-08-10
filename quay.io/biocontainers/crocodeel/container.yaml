@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/crocodeel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for crocodeel
 latest:
-  1.0.7--pyhdfd78af_0: 
-    sha256:cca7781ee658736a2ff77e8fbf6e82bc1d994cca43032fd1723418bde115d60e
+  1.0.8--pyhdfd78af_0: 
+    sha256:05a0445f8d2640b4133129c04d9e1aaf8ce3976247e4ed179ba202c6871cb8a1
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:057f6ae1954a735fc71109effd1373148400cf4ffd3c0b1820e289703ea2a988
@@ -13,6 +13,8 @@ tags:
     sha256:ed3d98055883265ae4ab86b8f393af842f0bf43e132fadcad309850c4422806c
   1.0.7--pyhdfd78af_0: 
     sha256:cca7781ee658736a2ff77e8fbf6e82bc1d994cca43032fd1723418bde115d60e
+  1.0.8--pyhdfd78af_0: 
+    sha256:05a0445f8d2640b4133129c04d9e1aaf8ce3976247e4ed179ba202c6871cb8a1
 docker: quay.io/biocontainers/crocodeel
 aliases:
   crocodeel: /usr/local/bin/crocodeel

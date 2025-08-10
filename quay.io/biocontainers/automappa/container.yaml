@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/automappa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for automappa
 latest:
-  2.1.0--pyh5e36f6f_0: 
-    sha256:a36de99781d7a478599094f166e090d6b578be6a86386a20becbe13fe0dcf553
+  2.2.1--pyhdfd78af_0: 
+    sha256:9d395514ab4fbb56b7ff63116feab3c87884a4261c06cc67d39a9a3962ea7c8c
 tags:
   2.1.0--pyh5e36f6f_0: 
     sha256:a36de99781d7a478599094f166e090d6b578be6a86386a20becbe13fe0dcf553
+  2.2.1--pyhdfd78af_0: 
+    sha256:9d395514ab4fbb56b7ff63116feab3c87884a4261c06cc67d39a9a3962ea7c8c
 docker: quay.io/biocontainers/automappa
 aliases:
   automappa: /usr/local/bin/automappa
