@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eastr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eastr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eastr/container.yaml"
-updated_at: "2025-08-09 03:59:58.934660"
+updated_at: "2025-08-10 04:24:29.493719"
 latest: "1.1.2--py311h2de2dd3_1"
 container_url: "https://biocontainers.pro/tools/eastr"
 aliases:

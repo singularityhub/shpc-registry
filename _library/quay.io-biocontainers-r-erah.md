@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-erah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-erah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-erah/container.yaml"
-updated_at: "2025-08-09 04:01:54.031427"
-latest: "2.0.1--r44h40dc89f_1"
+updated_at: "2025-08-10 04:26:29.440691"
+latest: "2.2.0--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-erah"
 aliases:
  - "h5fuse.sh"
@@ -38,8 +38,9 @@ versions:
  - "1.1.2--r43hdbdd923_0"
  - "2.0.1--r43h21a89ab_0"
  - "2.0.1--r44h40dc89f_1"
+ - "2.2.0--r44h40dc89f_0"
 description: "singularity registry hpc automated addition for r-erah"
-config: {"url": "https://biocontainers.pro/tools/r-erah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-erah", "latest": {"2.0.1--r44h40dc89f_1": "sha256:d5d7ae7eb203e300d4edaed339e412441cab670d802139cb1e0f2b60ae3a343e"}, "tags": {"1.1.2--r43hdbdd923_0": "sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6", "2.0.1--r43h21a89ab_0": "sha256:a8db4695aecdcf7c0ba1b95cad420a1098273e85ba335651401f70669fc60e6f", "2.0.1--r44h40dc89f_1": "sha256:d5d7ae7eb203e300d4edaed339e412441cab670d802139cb1e0f2b60ae3a343e"}, "docker": "quay.io/biocontainers/r-erah", "aliases": {"h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "hb-info": "/usr/local/bin/hb-info", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack"}}
+config: {"url": "https://biocontainers.pro/tools/r-erah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-erah", "latest": {"2.2.0--r44h40dc89f_0": "sha256:89f4b6acac992160ea33d7aa69c4bb525ed833ca0839a61e694ada1650b330c5"}, "tags": {"1.1.2--r43hdbdd923_0": "sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6", "2.0.1--r43h21a89ab_0": "sha256:a8db4695aecdcf7c0ba1b95cad420a1098273e85ba335651401f70669fc60e6f", "2.0.1--r44h40dc89f_1": "sha256:d5d7ae7eb203e300d4edaed339e412441cab670d802139cb1e0f2b60ae3a343e", "2.2.0--r44h40dc89f_0": "sha256:89f4b6acac992160ea33d7aa69c4bb525ed833ca0839a61e694ada1650b330c5"}, "docker": "quay.io/biocontainers/r-erah", "aliases": {"h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "hb-info": "/usr/local/bin/hb-info", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-erah.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/r-erah
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-erah:2.0.1--r44h40dc89f_1
+$ shpc install quay.io/biocontainers/r-erah:2.2.0--r44h40dc89f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-erah/2.0.1--r44h40dc89f_1
-$ module help quay.io/biocontainers/r-erah/2.0.1--r44h40dc89f_1
+$ module load quay.io/biocontainers/r-erah/2.2.0--r44h40dc89f_0
+$ module help quay.io/biocontainers/r-erah/2.2.0--r44h40dc89f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirge/container.yaml"
-updated_at: "2025-08-09 03:56:48.105159"
+updated_at: "2025-08-10 04:21:13.013059"
 latest: "2.0.6--pyh5ca1d4c_6"
 container_url: "https://biocontainers.pro/tools/mirge"
 

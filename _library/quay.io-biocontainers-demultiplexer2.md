@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/demultiplexer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demultiplexer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demultiplexer2/container.yaml"
-updated_at: "2025-08-09 03:42:30.403638"
-latest: "1.1.5--pyhdfd78af_0"
+updated_at: "2025-08-10 04:06:57.047801"
+latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/demultiplexer2"
 aliases:
  - "demultiplexer2"
@@ -18,8 +18,9 @@ aliases:
  - "tqdm"
 versions:
  - "1.1.5--pyhdfd78af_0"
+ - "1.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for demultiplexer2"
-config: {"url": "https://biocontainers.pro/tools/demultiplexer2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for demultiplexer2", "latest": {"1.1.5--pyhdfd78af_0": "sha256:1db6976ac6d04ca0b9ed8b630774ab0b47e8064be89d49906f036cf26cfecbd2"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:1db6976ac6d04ca0b9ed8b630774ab0b47e8064be89d49906f036cf26cfecbd2"}, "docker": "quay.io/biocontainers/demultiplexer2", "aliases": {"demultiplexer2": "/usr/local/bin/demultiplexer2", "luddite": "/usr/local/bin/luddite", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/demultiplexer2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for demultiplexer2", "latest": {"1.1.6--pyhdfd78af_0": "sha256:bd7cf187d6773b0844a81e6994fb5a51d1ec073c2a8e6305d6a6215ca4d7d4dd"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:1db6976ac6d04ca0b9ed8b630774ab0b47e8064be89d49906f036cf26cfecbd2", "1.1.6--pyhdfd78af_0": "sha256:bd7cf187d6773b0844a81e6994fb5a51d1ec073c2a8e6305d6a6215ca4d7d4dd"}, "docker": "quay.io/biocontainers/demultiplexer2", "aliases": {"demultiplexer2": "/usr/local/bin/demultiplexer2", "luddite": "/usr/local/bin/luddite", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demultiplexer2.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/demultiplexer2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/demultiplexer2:1.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/demultiplexer2:1.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/demultiplexer2/1.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/demultiplexer2/1.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/demultiplexer2/1.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/demultiplexer2/1.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

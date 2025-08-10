@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ghostz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostz/container.yaml"
-updated_at: "2025-08-09 04:07:43.600857"
-latest: "1.0.2--h503566f_6"
+updated_at: "2025-08-10 04:32:21.322335"
+latest: "1.0.2--h503566f_7"
 container_url: "https://biocontainers.pro/tools/ghostz"
 aliases:
  - "ghostz"
@@ -13,8 +13,9 @@ versions:
  - "1.0.2--h87f3376_3"
  - "1.0.2--hdbdd923_5"
  - "1.0.2--h503566f_6"
+ - "1.0.2--h503566f_7"
 description: "shpc-registry automated BioContainers addition for ghostz"
-config: {"url": "https://biocontainers.pro/tools/ghostz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostz", "latest": {"1.0.2--h503566f_6": "sha256:e0bf1f7f18fe9a271af8577acf95f2c63c181a69f79856974a7dc75733823c1f"}, "tags": {"1.0.2--h87f3376_3": "sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460", "1.0.2--hdbdd923_5": "sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568", "1.0.2--h503566f_6": "sha256:e0bf1f7f18fe9a271af8577acf95f2c63c181a69f79856974a7dc75733823c1f"}, "docker": "quay.io/biocontainers/ghostz", "aliases": {"ghostz": "/usr/local/bin/ghostz"}}
+config: {"url": "https://biocontainers.pro/tools/ghostz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostz", "latest": {"1.0.2--h503566f_7": "sha256:e6f24ed7ea79572556896beaa53ed5cdc03e4c9f9ffa7faecb64bf442875f3c3"}, "tags": {"1.0.2--h87f3376_3": "sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460", "1.0.2--hdbdd923_5": "sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568", "1.0.2--h503566f_6": "sha256:e0bf1f7f18fe9a271af8577acf95f2c63c181a69f79856974a7dc75733823c1f", "1.0.2--h503566f_7": "sha256:e6f24ed7ea79572556896beaa53ed5cdc03e4c9f9ffa7faecb64bf442875f3c3"}, "docker": "quay.io/biocontainers/ghostz", "aliases": {"ghostz": "/usr/local/bin/ghostz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghostz.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ghostz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ghostz:1.0.2--h503566f_6
+$ shpc install quay.io/biocontainers/ghostz:1.0.2--h503566f_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ghostz/1.0.2--h503566f_6
-$ module help quay.io/biocontainers/ghostz/1.0.2--h503566f_6
+$ module load quay.io/biocontainers/ghostz/1.0.2--h503566f_7
+$ module help quay.io/biocontainers/ghostz/1.0.2--h503566f_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

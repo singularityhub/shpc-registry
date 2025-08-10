@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openbabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openbabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openbabel/container.yaml"
-updated_at: "2025-08-09 03:51:25.389084"
+updated_at: "2025-08-10 04:15:50.293404"
 latest: "3.1.1"
 container_url: "https://biocontainers.pro/tools/openbabel"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "obprop"
 versions:
  - "3.1.1"
+ - "3.1.1--2"
 description: "shpc-registry automated BioContainers addition for openbabel"
-config: {"url": "https://biocontainers.pro/tools/openbabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openbabel", "latest": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564"}, "tags": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564"}, "docker": "quay.io/biocontainers/openbabel", "aliases": {"obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/openbabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openbabel", "latest": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564"}, "tags": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564", "3.1.1--2": "sha256:08e0d964393d576f9c86b1d26016c42d979e475f88e1426c00ce3e809baf65f9"}, "docker": "quay.io/biocontainers/openbabel", "aliases": {"obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openbabel.

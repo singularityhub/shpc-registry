@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hivprtplus2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
-updated_at: "2025-08-09 03:28:09.606538"
+updated_at: "2025-08-10 03:52:38.361121"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gencore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gencore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gencore/container.yaml"
-updated_at: "2025-08-09 03:34:29.412564"
-latest: "0.17.2--he5ce664_3"
+updated_at: "2025-08-10 03:58:51.342817"
+latest: "0.17.2--he5ce664_4"
 container_url: "https://biocontainers.pro/tools/gencore"
 aliases:
  - "gencore"
@@ -16,8 +16,9 @@ versions:
  - "0.17.2--h12f7fa2_1"
  - "0.17.2--h122430f_2"
  - "0.17.2--he5ce664_3"
+ - "0.17.2--he5ce664_4"
 description: "shpc-registry automated BioContainers addition for gencore"
-config: {"url": "https://biocontainers.pro/tools/gencore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gencore", "latest": {"0.17.2--he5ce664_3": "sha256:306e96b52edf573f101ce2899249dffbfcff5c421dc3b2179d4418f78f411744"}, "tags": {"0.17.2--h12f7fa2_1": "sha256:3dd2342c4121701cd9b56c1b39e1f558b33b361ae9c5497e8c0df4210a83fe46", "0.17.2--h122430f_2": "sha256:7e39bc1a1e3d525183ba1fcef515c5bbdda71d110569f70eec8b3fb4680833b9", "0.17.2--he5ce664_3": "sha256:306e96b52edf573f101ce2899249dffbfcff5c421dc3b2179d4418f78f411744"}, "docker": "quay.io/biocontainers/gencore", "aliases": {"gencore": "/usr/local/bin/gencore", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/gencore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gencore", "latest": {"0.17.2--he5ce664_4": "sha256:c72598ba7242108f630606291fcc5ea5fcd0a8effcc99a75f59011b63959ae90"}, "tags": {"0.17.2--h12f7fa2_1": "sha256:3dd2342c4121701cd9b56c1b39e1f558b33b361ae9c5497e8c0df4210a83fe46", "0.17.2--h122430f_2": "sha256:7e39bc1a1e3d525183ba1fcef515c5bbdda71d110569f70eec8b3fb4680833b9", "0.17.2--he5ce664_3": "sha256:306e96b52edf573f101ce2899249dffbfcff5c421dc3b2179d4418f78f411744", "0.17.2--he5ce664_4": "sha256:c72598ba7242108f630606291fcc5ea5fcd0a8effcc99a75f59011b63959ae90"}, "docker": "quay.io/biocontainers/gencore", "aliases": {"gencore": "/usr/local/bin/gencore", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gencore.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/gencore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gencore:0.17.2--he5ce664_3
+$ shpc install quay.io/biocontainers/gencore:0.17.2--he5ce664_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gencore/0.17.2--he5ce664_3
-$ module help quay.io/biocontainers/gencore/0.17.2--he5ce664_3
+$ module load quay.io/biocontainers/gencore/0.17.2--he5ce664_4
+$ module help quay.io/biocontainers/gencore/0.17.2--he5ce664_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

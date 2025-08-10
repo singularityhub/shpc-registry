@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ensemblvep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensemblvep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensemblvep/container.yaml"
-updated_at: "2025-08-09 03:35:59.770242"
+updated_at: "2025-08-10 04:00:26.577511"
 latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensemblvep"
 

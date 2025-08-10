@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-outlierd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-outlierd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-outlierd/container.yaml"
-updated_at: "2025-08-09 03:23:54.072592"
+updated_at: "2025-08-10 03:48:02.635615"
 latest: "1.53.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-outlierd"
 aliases:
