@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/gustaf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gustaf
 latest:
-  1.0.10--h9948957_0: 
-    sha256:493b7db866bafe4ff5b5b42f5a07aa1246b11afc015d0b0af03bfe0f2298d792
+  1.0.10--h8ecad89_1: 
+    sha256:61126fba9c19c24981cf6c03de7c7ca8808e42edf2051e37bc499e75ce959459
 tags:
   1.0.8--h9ee0642_2: 
     sha256:6fb3a15cfce7d2dee26544322b825794bc21979c76d10295f4816059863e0bc0
   1.0.10--h9948957_0: 
     sha256:493b7db866bafe4ff5b5b42f5a07aa1246b11afc015d0b0af03bfe0f2298d792
+  1.0.10--h8ecad89_1: 
+    sha256:61126fba9c19c24981cf6c03de7c7ca8808e42edf2051e37bc499e75ce959459
 docker: quay.io/biocontainers/gustaf
 aliases:
   gustaf: /usr/local/bin/gustaf

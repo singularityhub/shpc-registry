@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/htslib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for htslib
 latest:
-  1.22--h566b1c6_0: 
-    sha256:8f7391311768d9cc87bab2a73710ad3cea4a39f9c4370c86affe24c305c9d9f9
+  1.22.1--h566b1c6_0: 
+    sha256:ff9d466929dc2d587128afc213fc4516d936ccc5e7fa39f39d3769f76b471293
 tags:
   1.9--h244ad75_9: 
     sha256:9209c206f0654baa3edb709f7bc1a6f4a05b340b4d99a1160875d3c7ff797c8b
@@ -39,6 +39,8 @@ tags:
     sha256:e396c5b0f9df2261ec533a43163eca3491c10f03c038fb3cf6262d37e4238dcb
   1.22--h566b1c6_0: 
     sha256:8f7391311768d9cc87bab2a73710ad3cea4a39f9c4370c86affe24c305c9d9f9
+  1.22.1--h566b1c6_0: 
+    sha256:ff9d466929dc2d587128afc213fc4516d936ccc5e7fa39f39d3769f76b471293
 docker: quay.io/biocontainers/htslib
 aliases:
   htsfile: /usr/local/bin/htsfile

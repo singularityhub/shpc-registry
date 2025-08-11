@@ -2,11 +2,11 @@ url: https://biocontainers.pro/tools/tesseract
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tesseract
 latest:
-  3.04.01--1: 
-    sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a
+  5.5.1: sha256:7946e54026ee7d1e8db3525a9a72857cc8791431f699610b909ecf8775df43d7
 tags:
   3.04.01--1: 
     sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a
+  5.5.1: sha256:7946e54026ee7d1e8db3525a9a72857cc8791431f699610b909ecf8775df43d7
 docker: quay.io/biocontainers/tesseract
 aliases:
   convertfilestopdf: /usr/local/bin/convertfilestopdf
