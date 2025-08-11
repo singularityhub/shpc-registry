@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/olga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/olga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/olga/container.yaml"
-updated_at: "2025-08-10 04:22:07.341402"
+updated_at: "2025-08-11 04:20:52.255918"
 latest: "1.2.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/olga"
 aliases:

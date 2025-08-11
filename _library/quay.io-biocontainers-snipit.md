@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snipit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snipit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snipit/container.yaml"
-updated_at: "2025-08-10 03:58:25.991572"
+updated_at: "2025-08-11 03:57:36.786171"
 latest: "1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snipit"
 aliases:

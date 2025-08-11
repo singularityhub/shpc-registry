@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-parsewords"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-parsewords/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-parsewords/container.yaml"
-updated_at: "2025-08-10 04:05:59.864951"
+updated_at: "2025-08-11 04:04:58.042392"
 latest: "3.31--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-parsewords"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coverm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverm/container.yaml"
-updated_at: "2025-08-10 04:17:20.555572"
-latest: "0.7.0--hb4818e0_2"
+updated_at: "2025-08-11 04:16:11.073018"
+latest: "0.7.0--hcb7b614_4"
 container_url: "https://biocontainers.pro/tools/coverm"
 aliases:
  - "coverm"
@@ -27,8 +27,9 @@ versions:
  - "0.6.1--h07ea13f_6"
  - "0.7.0--h07ea13f_1"
  - "0.7.0--hb4818e0_2"
+ - "0.7.0--hcb7b614_4"
 description: "shpc-registry automated BioContainers addition for coverm"
-config: {"url": "https://biocontainers.pro/tools/coverm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coverm", "latest": {"0.7.0--hb4818e0_2": "sha256:39b58239cd836d7aef5d70ac4e15f0d822c96fcca7acae52d0e5c71d76033ce6"}, "tags": {"0.6.1--h1535e20_5": "sha256:852de57f3f00862cd7524eb979fca849e887699d33af53661c4faf72aaef53bb", "0.6.1--h07ea13f_6": "sha256:24e24dd7e50146ef997d5e3e9e6fd6b3f473a53c11c30532b263cd97d90bc494", "0.7.0--h07ea13f_1": "sha256:2c1f5a05cf2cf7e8371b94fcb73b30eaedaf486a44cf1f53f66548f34bbccb9d", "0.7.0--hb4818e0_2": "sha256:39b58239cd836d7aef5d70ac4e15f0d822c96fcca7acae52d0e5c71d76033ce6"}, "docker": "quay.io/biocontainers/coverm", "aliases": {"coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
+config: {"url": "https://biocontainers.pro/tools/coverm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coverm", "latest": {"0.7.0--hcb7b614_4": "sha256:5ffbc121d083abcbb3acb5b1b7e222a733d5228789616ab6bb8e3e1b00898db0"}, "tags": {"0.6.1--h1535e20_5": "sha256:852de57f3f00862cd7524eb979fca849e887699d33af53661c4faf72aaef53bb", "0.6.1--h07ea13f_6": "sha256:24e24dd7e50146ef997d5e3e9e6fd6b3f473a53c11c30532b263cd97d90bc494", "0.7.0--h07ea13f_1": "sha256:2c1f5a05cf2cf7e8371b94fcb73b30eaedaf486a44cf1f53f66548f34bbccb9d", "0.7.0--hb4818e0_2": "sha256:39b58239cd836d7aef5d70ac4e15f0d822c96fcca7acae52d0e5c71d76033ce6", "0.7.0--hcb7b614_4": "sha256:5ffbc121d083abcbb3acb5b1b7e222a733d5228789616ab6bb8e3e1b00898db0"}, "docker": "quay.io/biocontainers/coverm", "aliases": {"coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coverm.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/coverm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coverm:0.7.0--hb4818e0_2
+$ shpc install quay.io/biocontainers/coverm:0.7.0--hcb7b614_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coverm/0.7.0--hb4818e0_2
-$ module help quay.io/biocontainers/coverm/0.7.0--hb4818e0_2
+$ module load quay.io/biocontainers/coverm/0.7.0--hcb7b614_4
+$ module help quay.io/biocontainers/coverm/0.7.0--hcb7b614_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

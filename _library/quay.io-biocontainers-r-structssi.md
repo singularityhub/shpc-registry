@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-structssi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-structssi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-structssi/container.yaml"
-updated_at: "2025-08-10 04:18:20.176495"
+updated_at: "2025-08-11 04:17:10.532942"
 latest: "1.1.1--r44h3121a25_11"
 container_url: "https://biocontainers.pro/tools/r-structssi"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sam2pairwise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam2pairwise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam2pairwise/container.yaml"
-updated_at: "2025-08-10 04:12:24.655086"
+updated_at: "2025-08-11 04:11:18.135171"
 latest: "1.0.0--h9948957_1"
 container_url: "https://biocontainers.pro/tools/sam2pairwise"
 aliases:

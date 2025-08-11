@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rust-gtars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-gtars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-gtars/container.yaml"
-updated_at: "2025-08-10 03:54:30.781917"
-latest: "0.2.8--h7ef3eeb_0"
+updated_at: "2025-08-11 03:53:40.350986"
+latest: "0.3.0--h7ef3eeb_0"
 container_url: "https://biocontainers.pro/tools/rust-gtars"
 aliases:
  - "gtars"
@@ -15,8 +15,9 @@ versions:
  - "0.2.5--h7ef3eeb_0"
  - "0.2.6--h7ef3eeb_0"
  - "0.2.8--h7ef3eeb_0"
+ - "0.3.0--h7ef3eeb_0"
 description: "singularity registry hpc automated addition for rust-gtars"
-config: {"url": "https://biocontainers.pro/tools/rust-gtars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rust-gtars", "latest": {"0.2.8--h7ef3eeb_0": "sha256:c9910285e0c5437d2b83c81b36f71d9a32f2733295ff46c92c8c3976d399c385"}, "tags": {"0.2.0--h4349ce8_1": "sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7", "0.2.4--h4349ce8_0": "sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb", "0.2.5--h7ef3eeb_0": "sha256:d46e2bf114060eea9ec3b005e0a2746e957087c261fbf5c84f252aab486456c8", "0.2.6--h7ef3eeb_0": "sha256:a08fc492abac66be2cd6f1677abeff3e68b143a497b169dd9c0aaecc454563c6", "0.2.8--h7ef3eeb_0": "sha256:c9910285e0c5437d2b83c81b36f71d9a32f2733295ff46c92c8c3976d399c385"}, "docker": "quay.io/biocontainers/rust-gtars", "aliases": {"gtars": "/usr/local/bin/gtars"}}
+config: {"url": "https://biocontainers.pro/tools/rust-gtars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rust-gtars", "latest": {"0.3.0--h7ef3eeb_0": "sha256:9039041a0fdaf03097af5d2a09d97868f2d62feb1b7b2a800653bbf0b959bcb7"}, "tags": {"0.2.0--h4349ce8_1": "sha256:74c31e3f586b159c0a5b9a839a37d2c2878644f9e5b25974ba4c25394397c3c7", "0.2.4--h4349ce8_0": "sha256:b4e254fdbc9952bf624ddafece0efca6e89ef1d7c7f78c34f95b71270ebee6eb", "0.2.5--h7ef3eeb_0": "sha256:d46e2bf114060eea9ec3b005e0a2746e957087c261fbf5c84f252aab486456c8", "0.2.6--h7ef3eeb_0": "sha256:a08fc492abac66be2cd6f1677abeff3e68b143a497b169dd9c0aaecc454563c6", "0.2.8--h7ef3eeb_0": "sha256:c9910285e0c5437d2b83c81b36f71d9a32f2733295ff46c92c8c3976d399c385", "0.3.0--h7ef3eeb_0": "sha256:9039041a0fdaf03097af5d2a09d97868f2d62feb1b7b2a800653bbf0b959bcb7"}, "docker": "quay.io/biocontainers/rust-gtars", "aliases": {"gtars": "/usr/local/bin/gtars"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-gtars.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/rust-gtars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rust-gtars:0.2.8--h7ef3eeb_0
+$ shpc install quay.io/biocontainers/rust-gtars:0.3.0--h7ef3eeb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rust-gtars/0.2.8--h7ef3eeb_0
-$ module help quay.io/biocontainers/rust-gtars/0.2.8--h7ef3eeb_0
+$ module load quay.io/biocontainers/rust-gtars/0.3.0--h7ef3eeb_0
+$ module help quay.io/biocontainers/rust-gtars/0.3.0--h7ef3eeb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

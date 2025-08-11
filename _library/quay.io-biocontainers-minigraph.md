@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minigraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minigraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minigraph/container.yaml"
-updated_at: "2025-08-10 04:36:46.652198"
-latest: "0.21--h577a1d6_2"
+updated_at: "2025-08-11 04:35:02.045373"
+latest: "0.21--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/minigraph"
 aliases:
  - "minigraph"
@@ -16,8 +16,9 @@ versions:
  - "0.21--he4a0461_0"
  - "0.21--he4a0461_1"
  - "0.21--h577a1d6_2"
+ - "0.21--h577a1d6_3"
 description: "shpc-registry automated BioContainers addition for minigraph"
-config: {"url": "https://biocontainers.pro/tools/minigraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minigraph", "latest": {"0.21--h577a1d6_2": "sha256:603bbdbb0d0c6fcce278bb2f240c0c41d3532d8403e212f117e1ef6515614e23"}, "tags": {"0.19--h7132678_1": "sha256:724ed20de63a1b0e6ce756719edcf53c0df06885a640101cdd6fd5769e8d6a88", "0.20--h7132678_0": "sha256:e41e5ae2793d0b47165223220e06567566860e01b795900356a2513e5ff48e1d", "0.20--he4a0461_2": "sha256:530228e3e79a97454e1d852e5b866353d6a8148dc8cd2ba08c7ebc01f2d04f63", "0.21--he4a0461_0": "sha256:258164a3f0d5d9d4277ab49d1371fac77587c8342361b0914ba49f6e2c54fc76", "0.21--he4a0461_1": "sha256:498b027990a2ec3678f220881226d1cbfa4db0e9bf67fc68d9b337d311cea3ce", "0.21--h577a1d6_2": "sha256:603bbdbb0d0c6fcce278bb2f240c0c41d3532d8403e212f117e1ef6515614e23"}, "docker": "quay.io/biocontainers/minigraph", "aliases": {"minigraph": "/usr/local/bin/minigraph"}}
+config: {"url": "https://biocontainers.pro/tools/minigraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minigraph", "latest": {"0.21--h577a1d6_3": "sha256:d631402d4a954896639a09e637962bef8b60acacd9176a10436a28a445132494"}, "tags": {"0.19--h7132678_1": "sha256:724ed20de63a1b0e6ce756719edcf53c0df06885a640101cdd6fd5769e8d6a88", "0.20--h7132678_0": "sha256:e41e5ae2793d0b47165223220e06567566860e01b795900356a2513e5ff48e1d", "0.20--he4a0461_2": "sha256:530228e3e79a97454e1d852e5b866353d6a8148dc8cd2ba08c7ebc01f2d04f63", "0.21--he4a0461_0": "sha256:258164a3f0d5d9d4277ab49d1371fac77587c8342361b0914ba49f6e2c54fc76", "0.21--he4a0461_1": "sha256:498b027990a2ec3678f220881226d1cbfa4db0e9bf67fc68d9b337d311cea3ce", "0.21--h577a1d6_2": "sha256:603bbdbb0d0c6fcce278bb2f240c0c41d3532d8403e212f117e1ef6515614e23", "0.21--h577a1d6_3": "sha256:d631402d4a954896639a09e637962bef8b60acacd9176a10436a28a445132494"}, "docker": "quay.io/biocontainers/minigraph", "aliases": {"minigraph": "/usr/local/bin/minigraph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minigraph.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/minigraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minigraph:0.21--h577a1d6_2
+$ shpc install quay.io/biocontainers/minigraph:0.21--h577a1d6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minigraph/0.21--h577a1d6_2
-$ module help quay.io/biocontainers/minigraph/0.21--h577a1d6_2
+$ module load quay.io/biocontainers/minigraph/0.21--h577a1d6_3
+$ module help quay.io/biocontainers/minigraph/0.21--h577a1d6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

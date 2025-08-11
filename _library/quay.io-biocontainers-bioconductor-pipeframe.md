@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pipeframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pipeframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pipeframe/container.yaml"
-updated_at: "2025-08-10 04:29:20.509498"
+updated_at: "2025-08-11 04:27:45.101403"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pipeframe"
 aliases:

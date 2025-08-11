@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chembl_structure_pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
-updated_at: "2025-08-10 04:35:42.591143"
+updated_at: "2025-08-11 04:34:00.826273"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/chembl_structure_pipeline"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tificc"
 versions:
  - "1.0.0"
+ - "1.0.0--2"
 description: "shpc-registry automated BioContainers addition for chembl_structure_pipeline"
-config: {"url": "https://biocontainers.pro/tools/chembl_structure_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_structure_pipeline", "latest": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "tags": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "docker": "quay.io/biocontainers/chembl_structure_pipeline", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/chembl_structure_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_structure_pipeline", "latest": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "tags": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2", "1.0.0--2": "sha256:a9f7a35b85fcadc0e300ef153e756aeab1d9a599efddb98a8c9ee426dec95147"}, "docker": "quay.io/biocontainers/chembl_structure_pipeline", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chembl_structure_pipeline.

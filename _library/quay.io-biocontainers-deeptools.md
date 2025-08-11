@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptools/container.yaml"
-updated_at: "2025-08-10 04:15:15.052199"
+updated_at: "2025-08-11 04:14:06.173201"
 latest: "3.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeptools"
 aliases:

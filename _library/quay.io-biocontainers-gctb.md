@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gctb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gctb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gctb/container.yaml"
-updated_at: "2025-08-10 04:28:23.392397"
-latest: "2.0--h7b50bb2_3"
+updated_at: "2025-08-11 04:26:48.534430"
+latest: "2.0--h503566f_4"
 container_url: "https://biocontainers.pro/tools/gctb"
 aliases:
  - "gctb"
@@ -13,8 +13,9 @@ versions:
  - "2.0--hec16e2b_0"
  - "2.0--h031d066_2"
  - "2.0--h7b50bb2_3"
+ - "2.0--h503566f_4"
 description: "singularity registry hpc automated addition for gctb"
-config: {"url": "https://biocontainers.pro/tools/gctb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gctb", "latest": {"2.0--h7b50bb2_3": "sha256:f179926f49de57f6b4895ad37889f95288d6ef98b6b425e854939ed3ce5b7ead"}, "tags": {"2.0--hec16e2b_0": "sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8", "2.0--h031d066_2": "sha256:d05efac776e958b32da3cb593c829bd24249908b80ebfc93172e62eb74979d53", "2.0--h7b50bb2_3": "sha256:f179926f49de57f6b4895ad37889f95288d6ef98b6b425e854939ed3ce5b7ead"}, "docker": "quay.io/biocontainers/gctb", "aliases": {"gctb": "/usr/local/bin/gctb"}}
+config: {"url": "https://biocontainers.pro/tools/gctb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gctb", "latest": {"2.0--h503566f_4": "sha256:1276c54b2c5d7da89508b77afa733ee882e160f82857e05192401c5ec8e2c7fb"}, "tags": {"2.0--hec16e2b_0": "sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8", "2.0--h031d066_2": "sha256:d05efac776e958b32da3cb593c829bd24249908b80ebfc93172e62eb74979d53", "2.0--h7b50bb2_3": "sha256:f179926f49de57f6b4895ad37889f95288d6ef98b6b425e854939ed3ce5b7ead", "2.0--h503566f_4": "sha256:1276c54b2c5d7da89508b77afa733ee882e160f82857e05192401c5ec8e2c7fb"}, "docker": "quay.io/biocontainers/gctb", "aliases": {"gctb": "/usr/local/bin/gctb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gctb.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gctb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gctb:2.0--h7b50bb2_3
+$ shpc install quay.io/biocontainers/gctb:2.0--h503566f_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gctb/2.0--h7b50bb2_3
-$ module help quay.io/biocontainers/gctb/2.0--h7b50bb2_3
+$ module load quay.io/biocontainers/gctb/2.0--h503566f_4
+$ module help quay.io/biocontainers/gctb/2.0--h503566f_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcollectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcollectl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcollectl/container.yaml"
-updated_at: "2025-08-10 04:01:20.985520"
+updated_at: "2025-08-11 04:00:24.207291"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcollectl"
 aliases:

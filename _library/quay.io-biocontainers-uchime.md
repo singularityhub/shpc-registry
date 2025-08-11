@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uchime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uchime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uchime/container.yaml"
-updated_at: "2025-08-10 03:48:37.216873"
+updated_at: "2025-08-11 03:48:07.246821"
 latest: "4.2--h9948957_0"
 container_url: "https://biocontainers.pro/tools/uchime"
 aliases:

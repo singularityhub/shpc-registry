@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/remag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remag/container.yaml"
-updated_at: "2025-08-10 04:06:13.240313"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2025-08-11 04:05:11.325867"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/remag"
 aliases:
  - "remag"
@@ -36,8 +36,10 @@ aliases:
  - "hwloc-patch"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for remag"
-config: {"url": "https://biocontainers.pro/tools/remag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for remag", "latest": {"0.1.2--pyhdfd78af_0": "sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07"}, "docker": "quay.io/biocontainers/remag", "aliases": {"remag": "/usr/local/bin/remag", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "rich-click": "/usr/local/bin/rich-click", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
+config: {"url": "https://biocontainers.pro/tools/remag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for remag", "latest": {"0.2.0--pyhdfd78af_0": "sha256:b8eb60d1c67846177ebb2b068fbfa35ff7295387535ec1bc60b606bbbdf96289"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07", "0.2.0--pyhdfd78af_0": "sha256:b8eb60d1c67846177ebb2b068fbfa35ff7295387535ec1bc60b606bbbdf96289", "0.1.5--pyhdfd78af_0": "sha256:b63e1f4f9d42a393f87b433820e222592a4398d2784661feb947d7928bbfb071"}, "docker": "quay.io/biocontainers/remag", "aliases": {"remag": "/usr/local/bin/remag", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "rich-click": "/usr/local/bin/rich-click", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/remag.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/remag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/remag:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/remag:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/remag/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/remag/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/remag/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/remag/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
