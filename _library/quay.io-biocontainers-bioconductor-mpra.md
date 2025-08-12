@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mpra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
-updated_at: "2025-08-11 04:26:17.832514"
+updated_at: "2025-08-12 03:59:32.689822"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpra"
 aliases:

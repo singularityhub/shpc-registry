@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netbenchmark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netbenchmark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netbenchmark/container.yaml"
-updated_at: "2025-08-11 04:28:30.439769"
+updated_at: "2025-08-12 04:01:44.661321"
 latest: "1.19.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netbenchmark"
 aliases:

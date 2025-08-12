@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/springsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/springsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/springsuite/container.yaml"
-updated_at: "2025-08-11 04:06:32.834747"
+updated_at: "2025-08-12 03:39:56.028236"
 latest: "0.2--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/springsuite"
 aliases:

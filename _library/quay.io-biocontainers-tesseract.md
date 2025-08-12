@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tesseract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesseract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesseract/container.yaml"
-updated_at: "2025-08-11 04:35:05.973482"
-latest: "3.04.01--1"
+updated_at: "2025-08-12 04:08:19.098244"
+latest: "5.5.1"
 container_url: "https://biocontainers.pro/tools/tesseract"
 aliases:
  - "convertfilestopdf"
@@ -24,8 +24,9 @@ aliases:
  - "xtractprotos"
 versions:
  - "3.04.01--1"
+ - "5.5.1"
 description: "shpc-registry automated BioContainers addition for tesseract"
-config: {"url": "https://biocontainers.pro/tools/tesseract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesseract", "latest": {"3.04.01--1": "sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a"}, "tags": {"3.04.01--1": "sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a"}, "docker": "quay.io/biocontainers/tesseract", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos"}}
+config: {"url": "https://biocontainers.pro/tools/tesseract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesseract", "latest": {"5.5.1": "sha256:7946e54026ee7d1e8db3525a9a72857cc8791431f699610b909ecf8775df43d7"}, "tags": {"3.04.01--1": "sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a", "5.5.1": "sha256:7946e54026ee7d1e8db3525a9a72857cc8791431f699610b909ecf8775df43d7"}, "docker": "quay.io/biocontainers/tesseract", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tesseract.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/tesseract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tesseract:3.04.01--1
+$ shpc install quay.io/biocontainers/tesseract:5.5.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tesseract/3.04.01--1
-$ module help quay.io/biocontainers/tesseract/3.04.01--1
+$ module load quay.io/biocontainers/tesseract/5.5.1
+$ module help quay.io/biocontainers/tesseract/5.5.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

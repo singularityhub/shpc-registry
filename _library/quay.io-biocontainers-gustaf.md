@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gustaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gustaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gustaf/container.yaml"
-updated_at: "2025-08-11 04:13:16.621533"
-latest: "1.0.10--h9948957_0"
+updated_at: "2025-08-12 03:46:36.775379"
+latest: "1.0.10--h8ecad89_1"
 container_url: "https://biocontainers.pro/tools/gustaf"
 aliases:
  - "gustaf"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.8--h9ee0642_2"
  - "1.0.10--h9948957_0"
+ - "1.0.10--h8ecad89_1"
 description: "shpc-registry automated BioContainers addition for gustaf"
-config: {"url": "https://biocontainers.pro/tools/gustaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gustaf", "latest": {"1.0.10--h9948957_0": "sha256:493b7db866bafe4ff5b5b42f5a07aa1246b11afc015d0b0af03bfe0f2298d792"}, "tags": {"1.0.8--h9ee0642_2": "sha256:6fb3a15cfce7d2dee26544322b825794bc21979c76d10295f4816059863e0bc0", "1.0.10--h9948957_0": "sha256:493b7db866bafe4ff5b5b42f5a07aa1246b11afc015d0b0af03bfe0f2298d792"}, "docker": "quay.io/biocontainers/gustaf", "aliases": {"gustaf": "/usr/local/bin/gustaf", "gustaf_mate_joining": "/usr/local/bin/gustaf_mate_joining"}}
+config: {"url": "https://biocontainers.pro/tools/gustaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gustaf", "latest": {"1.0.10--h8ecad89_1": "sha256:61126fba9c19c24981cf6c03de7c7ca8808e42edf2051e37bc499e75ce959459"}, "tags": {"1.0.8--h9ee0642_2": "sha256:6fb3a15cfce7d2dee26544322b825794bc21979c76d10295f4816059863e0bc0", "1.0.10--h9948957_0": "sha256:493b7db866bafe4ff5b5b42f5a07aa1246b11afc015d0b0af03bfe0f2298d792", "1.0.10--h8ecad89_1": "sha256:61126fba9c19c24981cf6c03de7c7ca8808e42edf2051e37bc499e75ce959459"}, "docker": "quay.io/biocontainers/gustaf", "aliases": {"gustaf": "/usr/local/bin/gustaf", "gustaf_mate_joining": "/usr/local/bin/gustaf_mate_joining"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gustaf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gustaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gustaf:1.0.10--h9948957_0
+$ shpc install quay.io/biocontainers/gustaf:1.0.10--h8ecad89_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gustaf/1.0.10--h9948957_0
-$ module help quay.io/biocontainers/gustaf/1.0.10--h9948957_0
+$ module load quay.io/biocontainers/gustaf/1.0.10--h8ecad89_1
+$ module help quay.io/biocontainers/gustaf/1.0.10--h8ecad89_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

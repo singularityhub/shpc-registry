@@ -4,8 +4,8 @@ name:  "rabbitmq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rabbitmq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rabbitmq/container.yaml"
-updated_at: "2025-08-11 04:36:11.829942"
-latest: "4.1-rc"
+updated_at: "2025-08-12 04:09:23.901222"
+latest: "4.2-rc"
 container_url: "https://hub.docker.com/r/_/rabbitmq"
 aliases:
  - "rabbitmq-defaults"
@@ -44,8 +44,9 @@ versions:
  - "4.0"
  - "4.1-rc"
  - "4.1"
+ - "4.2-rc"
 description: "RabbitMQ is an open source multi-protocol messaging broker."
-config: {"docker": "rabbitmq", "url": "https://hub.docker.com/r/_/rabbitmq", "maintainer": "@vsoch", "description": "RabbitMQ is an open source multi-protocol messaging broker.", "latest": {"4.1-rc": "sha256:c16079c91875c4c639ee1ab2ca54407f5cf38fd37cd84fc5013a2fc38e7b5dfb"}, "tags": {"3.8.15-rc.2-alpine": "sha256:56682567544860464b89625edbd28b524ca12aa5cae4e76ee9e5b887a2db7a06", "3.8.16-alpine": "sha256:87f7fde78fb62b1aa145efe7d81c0b450f8c13e608ee322794c872956380f90e", "3.8.17-alpine": "sha256:3033061a6e7e48897fb79d6922e282d92c8ced016721aaadee9a67cb25c9b03c", "3.8.17-rc.1-alpine": "sha256:a33f53d57c9c35999aa352b67c4e53ce956d147c38d50a809ed19da7783358ac", "3.8.18-beta.1-alpine": "sha256:341d8787808c860599bf6a87e482ccc9efbd69aa3a246554d924a693ad64d9ff", "3.9.0-beta.2-alpine": "sha256:b1a3a20958ddbbd2ad7c169c8d40c7a2d0d6a23d53380ff2b9aee876e14f8630", "3.9.5": "sha256:3b3f7b55be78e1b3c7330671ffc3f5e3670f66f040a4a429109a7f56c90464dc", "3.9.8": "sha256:19e69a7a65fa6b1d0a5c658bad8ec03d2c9900a98ebbc744c34d49179ff517bf", "3.9.10": "sha256:0d862496f77a3bd377eb5de437411a4388885f0f0c2452291e97a85bc89df87a", "3.9.11": "sha256:884146137011519524d506a12687127f3d2c7c37c2cc11206dc72c59bedea5e2", "3.9.13": "sha256:f5c8c7fd99e4c88527276df319556fdcb56e4d289614c5fefda5ee8d17c5ea89", "latest": "sha256:57b66fb32302c1f8a0b034cd97155516882d13a8b0dea890a0b6705713ed6991", "3": "sha256:999f7c676ad654892d1c222de71433da04723e47ed95fe6dd54acd5df3d1566a", "3.10-rc": "sha256:8bc95a99b637276b8cebda5c4d8bf0cbac8ea5cc0ac9410f71c1d570e799c9c6", "3.9": "sha256:ff02642ec7b0d1e23a2cf4172c2c1d4a82f39e7b79762414f0c1ac41618b8458", "3.8": "sha256:5e859a09297ff0532312d5a95d4cf87b524991b265df0b7e3111be0db1391360", "3.10": "sha256:0c60abebb44a80791cc03cd2204f0871879ffeeaf903e0f53543053fe3461361", "3.11": "sha256:d3a929ba16d0da7f3e495949139f73ee1c79ad4f87821ce8b43514f2c376d4fd", "3.12-rc": "sha256:370cda42768ccc1139d70a66666391ac2b37f96315d01b98de127ca44f7e4c9c", "3.12": "sha256:4dc5d5a5076f7c458b7f3468e2282f329a8911cc3c31c4ed4aefcedb27917da2", "3.13-rc": "sha256:779df7e2ba678d97cf33032c77e29baac9fb7dd2f5df930b768170870ca8fd9d", "3.13": "sha256:999f7c676ad654892d1c222de71433da04723e47ed95fe6dd54acd5df3d1566a", "4.0-rc": "sha256:965acfc6c377d25368228289f083ac6f65c672037eb819345d6e191f8af30e42", "4": "sha256:57b66fb32302c1f8a0b034cd97155516882d13a8b0dea890a0b6705713ed6991", "4.0": "sha256:98a755e5f624860b4e05c5d7af4121a36414adbb43b4b19ceaedaa6b044a0774", "4.1-rc": "sha256:c16079c91875c4c639ee1ab2ca54407f5cf38fd37cd84fc5013a2fc38e7b5dfb", "4.1": "sha256:57b66fb32302c1f8a0b034cd97155516882d13a8b0dea890a0b6705713ed6991"}, "aliases": {"rabbitmq-defaults": "/opt/rabbitmq/sbin/rabbitmq-defaults", "rabbitmq-diagnostics": "/opt/rabbitmq/sbin/rabbitmq-diagnostics", "rabbitmq-env": "/opt/rabbitmq/sbin/rabbitmq-env", "rabbitmq-plugins": "/opt/rabbitmq/sbin/rabbitmq-plugins", "rabbitmq-queues": "/opt/rabbitmq/sbin/rabbitmq-queues", "rabbitmq-server": "/opt/rabbitmq/sbin/rabbitmq-server", "rabbitmq-upgrade": "/opt/rabbitmq/sbin/rabbitmq-upgrade", "rabbitmqctl": "/opt/rabbitmq/sbin/rabbitmqctl"}}
+config: {"docker": "rabbitmq", "url": "https://hub.docker.com/r/_/rabbitmq", "maintainer": "@vsoch", "description": "RabbitMQ is an open source multi-protocol messaging broker.", "latest": {"4.2-rc": "sha256:ffa37a4d60b5528e4555d1b95bd91d8013e8801372911213b6910c3265e59e06"}, "tags": {"3.8.15-rc.2-alpine": "sha256:56682567544860464b89625edbd28b524ca12aa5cae4e76ee9e5b887a2db7a06", "3.8.16-alpine": "sha256:87f7fde78fb62b1aa145efe7d81c0b450f8c13e608ee322794c872956380f90e", "3.8.17-alpine": "sha256:3033061a6e7e48897fb79d6922e282d92c8ced016721aaadee9a67cb25c9b03c", "3.8.17-rc.1-alpine": "sha256:a33f53d57c9c35999aa352b67c4e53ce956d147c38d50a809ed19da7783358ac", "3.8.18-beta.1-alpine": "sha256:341d8787808c860599bf6a87e482ccc9efbd69aa3a246554d924a693ad64d9ff", "3.9.0-beta.2-alpine": "sha256:b1a3a20958ddbbd2ad7c169c8d40c7a2d0d6a23d53380ff2b9aee876e14f8630", "3.9.5": "sha256:3b3f7b55be78e1b3c7330671ffc3f5e3670f66f040a4a429109a7f56c90464dc", "3.9.8": "sha256:19e69a7a65fa6b1d0a5c658bad8ec03d2c9900a98ebbc744c34d49179ff517bf", "3.9.10": "sha256:0d862496f77a3bd377eb5de437411a4388885f0f0c2452291e97a85bc89df87a", "3.9.11": "sha256:884146137011519524d506a12687127f3d2c7c37c2cc11206dc72c59bedea5e2", "3.9.13": "sha256:f5c8c7fd99e4c88527276df319556fdcb56e4d289614c5fefda5ee8d17c5ea89", "latest": "sha256:2e8542e479c35d56106528295d9602a97510b895f347bbd969fe65d8df276f14", "3": "sha256:e772f8518943cf09eb9d7a1232c18f2524bc37eee5b28079f26ce3c914bd47a1", "3.10-rc": "sha256:8bc95a99b637276b8cebda5c4d8bf0cbac8ea5cc0ac9410f71c1d570e799c9c6", "3.9": "sha256:ff02642ec7b0d1e23a2cf4172c2c1d4a82f39e7b79762414f0c1ac41618b8458", "3.8": "sha256:5e859a09297ff0532312d5a95d4cf87b524991b265df0b7e3111be0db1391360", "3.10": "sha256:0c60abebb44a80791cc03cd2204f0871879ffeeaf903e0f53543053fe3461361", "3.11": "sha256:d3a929ba16d0da7f3e495949139f73ee1c79ad4f87821ce8b43514f2c376d4fd", "3.12-rc": "sha256:370cda42768ccc1139d70a66666391ac2b37f96315d01b98de127ca44f7e4c9c", "3.12": "sha256:4dc5d5a5076f7c458b7f3468e2282f329a8911cc3c31c4ed4aefcedb27917da2", "3.13-rc": "sha256:779df7e2ba678d97cf33032c77e29baac9fb7dd2f5df930b768170870ca8fd9d", "3.13": "sha256:e772f8518943cf09eb9d7a1232c18f2524bc37eee5b28079f26ce3c914bd47a1", "4.0-rc": "sha256:965acfc6c377d25368228289f083ac6f65c672037eb819345d6e191f8af30e42", "4": "sha256:2e8542e479c35d56106528295d9602a97510b895f347bbd969fe65d8df276f14", "4.0": "sha256:ce9a6ad9c7d2a4a237251657fc5f31e1b6a0588610bddc3971f9a7395ef1d7ed", "4.1-rc": "sha256:c16079c91875c4c639ee1ab2ca54407f5cf38fd37cd84fc5013a2fc38e7b5dfb", "4.1": "sha256:2e8542e479c35d56106528295d9602a97510b895f347bbd969fe65d8df276f14", "4.2-rc": "sha256:ffa37a4d60b5528e4555d1b95bd91d8013e8801372911213b6910c3265e59e06"}, "aliases": {"rabbitmq-defaults": "/opt/rabbitmq/sbin/rabbitmq-defaults", "rabbitmq-diagnostics": "/opt/rabbitmq/sbin/rabbitmq-diagnostics", "rabbitmq-env": "/opt/rabbitmq/sbin/rabbitmq-env", "rabbitmq-plugins": "/opt/rabbitmq/sbin/rabbitmq-plugins", "rabbitmq-queues": "/opt/rabbitmq/sbin/rabbitmq-queues", "rabbitmq-server": "/opt/rabbitmq/sbin/rabbitmq-server", "rabbitmq-upgrade": "/opt/rabbitmq/sbin/rabbitmq-upgrade", "rabbitmqctl": "/opt/rabbitmq/sbin/rabbitmqctl"}}
 ---
 
 This module is a singularity container wrapper for rabbitmq.
@@ -60,7 +61,7 @@ $ shpc install rabbitmq
 Or a specific version:
 
 ```bash
-$ shpc install rabbitmq:4.1-rc
+$ shpc install rabbitmq:4.2-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rabbitmq/4.1-rc
-$ module help rabbitmq/4.1-rc
+$ module load rabbitmq/4.2-rc
+$ module help rabbitmq/4.2-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

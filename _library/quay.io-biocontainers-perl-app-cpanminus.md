@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-app-cpanminus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-app-cpanminus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-app-cpanminus/container.yaml"
-updated_at: "2025-08-11 04:18:32.722118"
+updated_at: "2025-08-12 03:51:50.863443"
 latest: "1.7044--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-app-cpanminus"
 aliases:

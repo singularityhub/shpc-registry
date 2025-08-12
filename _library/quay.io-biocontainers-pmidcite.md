@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pmidcite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmidcite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmidcite/container.yaml"
-updated_at: "2025-08-11 04:16:39.773204"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2025-08-12 03:49:59.029766"
+latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmidcite"
 aliases:
  - "icite"
@@ -17,8 +17,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pmidcite"
-config: {"url": "https://biocontainers.pro/tools/pmidcite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pmidcite", "latest": {"0.1.2--pyhdfd78af_0": "sha256:8499c6c505362df5f3e21a3434416b479d9a7884611342e66062f729bfe8a81b"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:8499c6c505362df5f3e21a3434416b479d9a7884611342e66062f729bfe8a81b"}, "docker": "quay.io/biocontainers/pmidcite", "aliases": {"icite": "/usr/local/bin/icite", "sumpaps": "/usr/local/bin/sumpaps", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/pmidcite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pmidcite", "latest": {"0.1.3--pyhdfd78af_0": "sha256:48963cab4761757bbd812c733c3ba1bfdd4d7de86bc005adf110e73c1d761a85"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:8499c6c505362df5f3e21a3434416b479d9a7884611342e66062f729bfe8a81b", "0.1.3--pyhdfd78af_0": "sha256:48963cab4761757bbd812c733c3ba1bfdd4d7de86bc005adf110e73c1d761a85"}, "docker": "quay.io/biocontainers/pmidcite", "aliases": {"icite": "/usr/local/bin/icite", "sumpaps": "/usr/local/bin/sumpaps", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmidcite.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pmidcite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pmidcite:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pmidcite:0.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pmidcite/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/pmidcite/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/pmidcite/0.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/pmidcite/0.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

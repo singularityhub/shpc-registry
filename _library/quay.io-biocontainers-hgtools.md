@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hgtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hgtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hgtools/container.yaml"
-updated_at: "2025-08-11 04:28:10.715751"
-latest: "8.2.1--py_0"
+updated_at: "2025-08-12 04:01:25.072198"
+latest: "10.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hgtools"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "8.2.1--py_0"
+ - "10.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hgtools"
-config: {"url": "https://biocontainers.pro/tools/hgtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hgtools", "latest": {"8.2.1--py_0": "sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f"}, "tags": {"8.2.1--py_0": "sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f"}, "docker": "quay.io/biocontainers/hgtools", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/hgtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hgtools", "latest": {"10.1.0--pyhdfd78af_0": "sha256:bd5c5cb48808bef3b31f27252f5a907d62fb4eaea2bddb188deae221679fb32c"}, "tags": {"8.2.1--py_0": "sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f", "10.1.0--pyhdfd78af_0": "sha256:bd5c5cb48808bef3b31f27252f5a907d62fb4eaea2bddb188deae221679fb32c"}, "docker": "quay.io/biocontainers/hgtools", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hgtools.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/hgtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hgtools:8.2.1--py_0
+$ shpc install quay.io/biocontainers/hgtools:10.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hgtools/8.2.1--py_0
-$ module help quay.io/biocontainers/hgtools/8.2.1--py_0
+$ module load quay.io/biocontainers/hgtools/10.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/hgtools/10.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

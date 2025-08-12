@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabulate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabulate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabulate/container.yaml"
-updated_at: "2025-08-11 04:26:10.778633"
+updated_at: "2025-08-12 03:59:25.674935"
 latest: "0.7.5--py36_0"
 container_url: "https://biocontainers.pro/tools/tabulate"
 aliases:

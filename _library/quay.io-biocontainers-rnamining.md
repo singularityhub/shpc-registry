@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnamining"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnamining/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnamining/container.yaml"
-updated_at: "2025-08-11 04:23:55.376444"
+updated_at: "2025-08-12 03:57:11.548013"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rnamining"
 aliases:

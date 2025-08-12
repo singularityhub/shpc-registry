@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bucketcache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bucketcache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bucketcache/container.yaml"
-updated_at: "2025-08-11 03:52:14.656614"
+updated_at: "2025-08-12 03:25:44.096939"
 latest: "0.12.0--py27_0"
 container_url: "https://biocontainers.pro/tools/bucketcache"
 aliases:

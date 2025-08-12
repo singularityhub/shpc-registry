@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msmetaenhancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msmetaenhancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msmetaenhancer/container.yaml"
-updated_at: "2025-08-11 04:33:23.051891"
+updated_at: "2025-08-12 04:06:36.662097"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msmetaenhancer"
 aliases:

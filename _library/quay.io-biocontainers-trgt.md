@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trgt/container.yaml"
-updated_at: "2025-08-11 04:13:26.452065"
-latest: "3.0.0--h9ee0642_0"
+updated_at: "2025-08-12 03:46:46.594775"
+latest: "4.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/trgt"
 aliases:
  - "trgt"
@@ -26,8 +26,9 @@ versions:
  - "1.5.1--h9ee0642_0"
  - "3.0.0--h9ee0642_0"
  - "2.1.0--h9ee0642_0"
+ - "4.0.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for trgt"
-config: {"url": "https://biocontainers.pro/tools/trgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trgt", "latest": {"3.0.0--h9ee0642_0": "sha256:01a2017a2e6d89ce85827f31ffc8b0ec47848b8dd5a57bcfc3fb5bb65b37e811"}, "tags": {"0.3.4--hdfd78af_0": "sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7", "0.4.0--hdfd78af_0": "sha256:337aff680c8552224faefaa2f5bcedb7f7ec94ae585e085fc8ae4538c56b114d", "0.5.0--hdfd78af_0": "sha256:033eddc9aead1e2971c0a202f50eb642f708212a635f086cdb3cb9dc63752da1", "0.7.0--hdfd78af_0": "sha256:8630b3706c6fe0b25e8d8782cd4d02c1950b394a3b2eea6dbe3c7f0bfca670e9", "0.8.0--hdfd78af_0": "sha256:16d9c13b9be273013e76790df0e8421499fdc331ecab667726de2bb3f39d1918", "0.9.0--hdfd78af_0": "sha256:d64172ab796bac16e22e8e4527b0fdd304df3b7cc71356f8ad0a0dcabf3aa499", "1.2.0--h9ee0642_0": "sha256:87b351011a365419679271efb9cdf8c8d405521bf10132d6f1527167f7f3c4df", "1.1.0--h9ee0642_0": "sha256:c10ada4848c92d75ae1fb52b2a0182fb8dbde092dd9a78e4df287f47f1d69fef", "1.0.0--h9ee0642_0": "sha256:b09b469bcc140ca88aba0a4450f38d339c1377559454f43b340fe6aa95b2fca7", "1.4.1--h9ee0642_0": "sha256:f8d3083812bb7a47147d29bda275099db3bee329c459ae99ceb0ceff42811532", "1.3.0--h9ee0642_0": "sha256:92e55b1db16cc0b634305158eb8838e3ac19f80aba12de553a418147358c6953", "2.0.0--h9ee0642_0": "sha256:680ffeaf5a9cfd1754a893e787c2d53a34cb51abe1576178c43967cf688e69be", "1.5.1--h9ee0642_0": "sha256:d44833a32564fcc05c25e0e2065011e9f7ae4d51868cc9d5fb81c1f10c4516d9", "3.0.0--h9ee0642_0": "sha256:01a2017a2e6d89ce85827f31ffc8b0ec47848b8dd5a57bcfc3fb5bb65b37e811", "2.1.0--h9ee0642_0": "sha256:efc6e2f405019c537574cce39ee7d6042fe7686b0af2382b6fbcd59a3e7072da"}, "docker": "quay.io/biocontainers/trgt", "aliases": {"trgt": "/usr/local/bin/trgt", "trvz": "/usr/local/bin/trvz"}}
+config: {"url": "https://biocontainers.pro/tools/trgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trgt", "latest": {"4.0.0--h9ee0642_0": "sha256:633e316ed683adec3026cea1448134f137693bc05b9025ec656ee23cf9229e14"}, "tags": {"0.3.4--hdfd78af_0": "sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7", "0.4.0--hdfd78af_0": "sha256:337aff680c8552224faefaa2f5bcedb7f7ec94ae585e085fc8ae4538c56b114d", "0.5.0--hdfd78af_0": "sha256:033eddc9aead1e2971c0a202f50eb642f708212a635f086cdb3cb9dc63752da1", "0.7.0--hdfd78af_0": "sha256:8630b3706c6fe0b25e8d8782cd4d02c1950b394a3b2eea6dbe3c7f0bfca670e9", "0.8.0--hdfd78af_0": "sha256:16d9c13b9be273013e76790df0e8421499fdc331ecab667726de2bb3f39d1918", "0.9.0--hdfd78af_0": "sha256:d64172ab796bac16e22e8e4527b0fdd304df3b7cc71356f8ad0a0dcabf3aa499", "1.2.0--h9ee0642_0": "sha256:87b351011a365419679271efb9cdf8c8d405521bf10132d6f1527167f7f3c4df", "1.1.0--h9ee0642_0": "sha256:c10ada4848c92d75ae1fb52b2a0182fb8dbde092dd9a78e4df287f47f1d69fef", "1.0.0--h9ee0642_0": "sha256:b09b469bcc140ca88aba0a4450f38d339c1377559454f43b340fe6aa95b2fca7", "1.4.1--h9ee0642_0": "sha256:f8d3083812bb7a47147d29bda275099db3bee329c459ae99ceb0ceff42811532", "1.3.0--h9ee0642_0": "sha256:92e55b1db16cc0b634305158eb8838e3ac19f80aba12de553a418147358c6953", "2.0.0--h9ee0642_0": "sha256:680ffeaf5a9cfd1754a893e787c2d53a34cb51abe1576178c43967cf688e69be", "1.5.1--h9ee0642_0": "sha256:d44833a32564fcc05c25e0e2065011e9f7ae4d51868cc9d5fb81c1f10c4516d9", "3.0.0--h9ee0642_0": "sha256:01a2017a2e6d89ce85827f31ffc8b0ec47848b8dd5a57bcfc3fb5bb65b37e811", "2.1.0--h9ee0642_0": "sha256:efc6e2f405019c537574cce39ee7d6042fe7686b0af2382b6fbcd59a3e7072da", "4.0.0--h9ee0642_0": "sha256:633e316ed683adec3026cea1448134f137693bc05b9025ec656ee23cf9229e14"}, "docker": "quay.io/biocontainers/trgt", "aliases": {"trgt": "/usr/local/bin/trgt", "trvz": "/usr/local/bin/trvz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trgt.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/trgt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trgt:3.0.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/trgt:4.0.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trgt/3.0.0--h9ee0642_0
-$ module help quay.io/biocontainers/trgt/3.0.0--h9ee0642_0
+$ module load quay.io/biocontainers/trgt/4.0.0--h9ee0642_0
+$ module help quay.io/biocontainers/trgt/4.0.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

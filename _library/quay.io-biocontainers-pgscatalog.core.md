@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgscatalog.core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgscatalog.core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgscatalog.core/container.yaml"
-updated_at: "2025-08-11 04:27:44.542450"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-08-12 04:00:59.042393"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgscatalog.core"
 aliases:
  - "pgscatalog-combine"
@@ -30,8 +30,9 @@ versions:
  - "0.3.1--pyhdfd78af_0"
  - "0.3.3--pyhdfd78af_0"
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pgscatalog.core"
-config: {"url": "https://biocontainers.pro/tools/pgscatalog.core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgscatalog.core", "latest": {"1.0.0--pyhdfd78af_0": "sha256:9810f3e1734ad094afadf62f1f8e8c51800be8e2c27ee85864e642e5040c7008"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:4e28290cb8f99f246d1aed560f5b9ef844244221979267dd7bda0e8d591a7d52", "0.3.1--pyhdfd78af_0": "sha256:0a2a286c2ecbcc75cec7124dc637b035284b3bd7f67dffa97515fc48da3868f9", "0.3.3--pyhdfd78af_0": "sha256:2efd7a343d3ef32db79b40ca5062d4afc0a6909364971945705160bdeb4b884d", "1.0.0--pyhdfd78af_0": "sha256:9810f3e1734ad094afadf62f1f8e8c51800be8e2c27ee85864e642e5040c7008"}, "docker": "quay.io/biocontainers/pgscatalog.core", "aliases": {"pgscatalog-combine": "/usr/local/bin/pgscatalog-combine", "pgscatalog-download": "/usr/local/bin/pgscatalog-download", "pgscatalog-relabel": "/usr/local/bin/pgscatalog-relabel", "httpx": "/usr/local/bin/httpx", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/pgscatalog.core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgscatalog.core", "latest": {"1.0.1--pyhdfd78af_0": "sha256:c164e11f37ceb7094a6b7c7bcc8c06d3f2a9d0a134c15b706fc715e8e547eca4"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:4e28290cb8f99f246d1aed560f5b9ef844244221979267dd7bda0e8d591a7d52", "0.3.1--pyhdfd78af_0": "sha256:0a2a286c2ecbcc75cec7124dc637b035284b3bd7f67dffa97515fc48da3868f9", "0.3.3--pyhdfd78af_0": "sha256:2efd7a343d3ef32db79b40ca5062d4afc0a6909364971945705160bdeb4b884d", "1.0.0--pyhdfd78af_0": "sha256:9810f3e1734ad094afadf62f1f8e8c51800be8e2c27ee85864e642e5040c7008", "1.0.1--pyhdfd78af_0": "sha256:c164e11f37ceb7094a6b7c7bcc8c06d3f2a9d0a134c15b706fc715e8e547eca4"}, "docker": "quay.io/biocontainers/pgscatalog.core", "aliases": {"pgscatalog-combine": "/usr/local/bin/pgscatalog-combine", "pgscatalog-download": "/usr/local/bin/pgscatalog-download", "pgscatalog-relabel": "/usr/local/bin/pgscatalog-relabel", "httpx": "/usr/local/bin/httpx", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgscatalog.core.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/pgscatalog.core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgscatalog.core:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pgscatalog.core:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgscatalog.core/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pgscatalog.core/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pgscatalog.core/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pgscatalog.core/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
