@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/geopandas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for geopandas
 latest:
-  1.0.1: sha256:6c9877f08b72dbb1052281213333da095e88f6fba105405ad61b8ccc59d6a0dc
+  1.1.1: sha256:a22822669876c538c32c3e9b1d5eae3dc921ca75892d0f81611adda510af780f
 tags:
   1.0.1: sha256:6c9877f08b72dbb1052281213333da095e88f6fba105405ad61b8ccc59d6a0dc
+  1.1.1: sha256:a22822669876c538c32c3e9b1d5eae3dc921ca75892d0f81611adda510af780f
 docker: quay.io/biocontainers/geopandas
 aliases:
   gdal_footprint: /usr/local/bin/gdal_footprint

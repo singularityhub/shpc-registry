@@ -6,11 +6,11 @@ filter:
 - ^(?!.*add_github-actions).*$
 
 latest:
-  latest: 
-    sha256:e8302da47e3200915c1d3a9406d9446f04da7244e4995b7135afd2b79d4f63db
+  latest: 'crane digest vanessa/salad:latest: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
-  latest: 
-    sha256:e8302da47e3200915c1d3a9406d9446f04da7244e4995b7135afd2b79d4f63db
+  latest: 'crane digest vanessa/salad:latest: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
   salad: /code/salad
 

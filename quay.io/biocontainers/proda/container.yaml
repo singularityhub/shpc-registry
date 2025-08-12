@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/proda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for proda
 latest:
-  1.0--h503566f_6: 
-    sha256:ab5c7e006886b925a599213b6ee1bd3b2bff5c47cad13f77c8e36c69bab531d0
+  1.0--h503566f_7: 
+    sha256:24879237efb5ec0ee211e91a3cdc9ba0934447cc7f333f4e631861021e637ba9
 tags:
   1.0--h87f3376_3: 
     sha256:b4788dd0b42ed61d31a252d006ceaafa5c37c3f987ff4d2f552cfd633cad6677
@@ -11,6 +11,8 @@ tags:
     sha256:bad866f9cd7786eaffe8e3b0b47cc3daa5a77c5280378f7bb45cccbf37556d18
   1.0--h503566f_6: 
     sha256:ab5c7e006886b925a599213b6ee1bd3b2bff5c47cad13f77c8e36c69bab531d0
+  1.0--h503566f_7: 
+    sha256:24879237efb5ec0ee211e91a3cdc9ba0934447cc7f333f4e631861021e637ba9
 docker: quay.io/biocontainers/proda
 aliases:
   proda: /usr/local/bin/proda

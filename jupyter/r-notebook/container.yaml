@@ -3,8 +3,8 @@ url: https://hub.docker.com/r/jupyter/r-notebook
 maintainer: '@vsoch'
 description: Jupyter R Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2023-10-20': 'crane digest jupyter/r-notebook:2023-10-20: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '2023-10-20': 
+    sha256:e845470a05d348b642911ae2cbfca2a9df260c8f5d5ac5e22d96ba9ac557a70e
 tags:
   '4.0': sha256:8c9e0ae86ef780855cba13e48adbcd9a43a12f93e61fe424a1e3398700ce0b51
   latest: 
@@ -61,28 +61,28 @@ tags:
     sha256:594c0ebafb5c4f97af9e81f70516d60f99173e2c31c19d3b8466c59d92e223b3
   '2023-04-27': 
     sha256:6f676aa985f559169aee2b82dc3e998bf0a3f12474a2c0f6b2cb4f806ed6770b
-  '2023-06-12': 'crane digest jupyter/r-notebook:2023-06-12: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-05-30': 'crane digest jupyter/r-notebook:2023-05-30: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-11': 'crane digest jupyter/r-notebook:2023-07-11: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-06-29': 'crane digest jupyter/r-notebook:2023-06-29: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-07': 'crane digest jupyter/r-notebook:2023-08-07: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-31': 'crane digest jupyter/r-notebook:2023-07-31: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-09-11': 'crane digest jupyter/r-notebook:2023-09-11: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-28': 'crane digest jupyter/r-notebook:2023-08-28: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-10-10': 'crane digest jupyter/r-notebook:2023-10-10: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-09-25': 'crane digest jupyter/r-notebook:2023-09-25: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-10-20': 'crane digest jupyter/r-notebook:2023-10-20: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '2023-06-12': 
+    sha256:23287aeedfdd35b7b58f06afc64ef9ab062d43b12753c09cfc696b1e1e1ccc2b
+  '2023-05-30': 
+    sha256:a56fa010c19609bd865290f8471076eec0c35ea86ce8ce2401caddff142e11e4
+  '2023-07-11': 
+    sha256:d6bd36b41117e1aa0491ea012ed12ce78937d801f0b1459d4b6b91652a25d6a8
+  '2023-06-29': 
+    sha256:5abe7b579af5aff276d4bcfade6d9db4ef211b4862983a356b4837c187d8041a
+  '2023-08-07': 
+    sha256:9863e1294ca8595a8c4a56b53b5ed6ce0692b9a1db888023f009a02051563f68
+  '2023-07-31': 
+    sha256:77285e2c3afc4b2f7354573dfc67171b344109d7e3d73804d8d3bb24bae181f7
+  '2023-09-11': 
+    sha256:e873ea905cc42113a74a99d46cb58100404bf7656fbfc719aa5ec06204d74685
+  '2023-08-28': 
+    sha256:7f2bfa61c33e0950afae9f9f9550e579312d91c3d29d016e6a35c81889275678
+  '2023-10-10': 
+    sha256:7c490fc940b206f7b043f3893f6222596cced2842e5886be0ce2364a496e8b22
+  '2023-09-25': 
+    sha256:0b949f07f5a7ad683596f868be49250f17e04514ef67095c112df6d00ce257dc
+  '2023-10-20': 
+    sha256:e845470a05d348b642911ae2cbfca2a9df260c8f5d5ac5e22d96ba9ac557a70e
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

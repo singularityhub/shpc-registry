@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/esme_mvapich_4_0
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for esme_mvapich_4_0
 latest:
-  1.0.1--mvapich_hf727a01_0: 
-    sha256:0ab7aeb0fd3de658e40d7f97295caec6f1da56138967541af99589cfe8638d3c
+  1.0.2--mvapich_hf727a01_0: 
+    sha256:4d8152bac9f72a648bc70b3888deba66c213fe677a15ac7ce40ae9ab83d0c603
 tags:
   1.0.1--mvapich_hf727a01_0: 
     sha256:0ab7aeb0fd3de658e40d7f97295caec6f1da56138967541af99589cfe8638d3c
+  1.0.2--mvapich_hf727a01_0: 
+    sha256:4d8152bac9f72a648bc70b3888deba66c213fe677a15ac7ce40ae9ab83d0c603
 docker: quay.io/biocontainers/esme_mvapich_4_0
 aliases:
   ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo

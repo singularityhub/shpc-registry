@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rscape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rscape
 latest:
-  2.0.4.a--h503566f_0: 
-    sha256:b9ea6ed595d8d8382ff828dffbcd0eeedf64e17eaa5621eb33c73aa4dc8332e0
+  2.0.4.a--h503566f_1: 
+    sha256:c9c34fb2c95faf30ea5439437c3b05543d5b023a61826009616b71af19962174
 tags:
   1.4.0--h87f3376_2: 
     sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b
@@ -13,6 +13,8 @@ tags:
     sha256:052eeba106dc6288dc937bb112ff6dcabfc6fe1fa490a95cd68fbc4796b8483a
   2.0.4.a--h503566f_0: 
     sha256:b9ea6ed595d8d8382ff828dffbcd0eeedf64e17eaa5621eb33c73aa4dc8332e0
+  2.0.4.a--h503566f_1: 
+    sha256:c9c34fb2c95faf30ea5439437c3b05543d5b023a61826009616b71af19962174
 docker: quay.io/biocontainers/rscape
 aliases:
   FUNCS.pm: /usr/local/bin/FUNCS.pm

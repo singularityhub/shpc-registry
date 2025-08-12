@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/checkatlas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for checkatlas
 latest:
-  0.5.6--pyhdfd78af_0: 
-    sha256:e9771277362c31f690ac0f7efb067853214d0c500d69bbec4e033e275c81cc17
+  0.6.0--pyhdfd78af_0: 
+    sha256:08a8328a5c1cc68878511e539323eb5562f9b3d26aa0f4894bd28be77a400755
 tags:
   0.4.2--pyhdfd78af_0: 
     sha256:36e53f3615f7a959d69f702f1bee3e73a1d6566df1f103590bc2fab82c9861ee
@@ -11,6 +11,8 @@ tags:
     sha256:dc1937c4b26f162b0c175a5564445b534b24ad7db7d0b2a17459d32ff2f88588
   0.5.6--pyhdfd78af_0: 
     sha256:e9771277362c31f690ac0f7efb067853214d0c500d69bbec4e033e275c81cc17
+  0.6.0--pyhdfd78af_0: 
+    sha256:08a8328a5c1cc68878511e539323eb5562f9b3d26aa0f4894bd28be77a400755
 docker: quay.io/biocontainers/checkatlas
 aliases:
   checkatlas: /usr/local/bin/checkatlas
