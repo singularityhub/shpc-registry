@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/perl-test-script
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-test-script
 latest:
-  1.29--pl5321hdfd78af_0: 
-    sha256:0ba5271fd111359586ac057f9a5562aa945ceca3a7143f58e86c99b6c4d5355e
+  1.31--pl5321hdfd78af_0: 
+    sha256:15ede536bb88f691d36b6c27b31077b54aafb145e81e76d35f3e1980e051ef3b
 tags:
   1.29--pl5321hdfd78af_0: 
     sha256:0ba5271fd111359586ac057f9a5562aa945ceca3a7143f58e86c99b6c4d5355e
+  1.31--pl5321hdfd78af_0: 
+    sha256:15ede536bb88f691d36b6c27b31077b54aafb145e81e76d35f3e1980e051ef3b
+  1.30--pl5321hdfd78af_0: 
+    sha256:0f8413768f2d73efa6752b2a582e0d17c0c428fdd7bfc01c42e85f6fd494bbe5
 docker: quay.io/biocontainers/perl-test-script
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/kcftools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kcftools
 latest:
-  0.1.0--hdfd78af_0: 
-    sha256:ec5614c5e200f11684cbfc8a6cdfd01297dd03abb069cb37b1717fc66b455aad
+  0.2.0--hdfd78af_0: 
+    sha256:d35f0bb1e903e65d127f8e6c0b054bdb5f59d76d38f1891c063508b8424ef028
 tags:
   0.0.1--hdfd78af_0: 
     sha256:177d5779bbd70211e65a6d006c854a40bb28fb2d8c7a80032a74340e1642630d
   0.1.0--hdfd78af_0: 
     sha256:ec5614c5e200f11684cbfc8a6cdfd01297dd03abb069cb37b1717fc66b455aad
+  0.2.0--hdfd78af_0: 
+    sha256:d35f0bb1e903e65d127f8e6c0b054bdb5f59d76d38f1891c063508b8424ef028
 docker: quay.io/biocontainers/kcftools
 aliases:
   kcftools: /usr/local/bin/kcftools

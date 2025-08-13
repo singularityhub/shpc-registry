@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/staden_io_lib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for staden_io_lib
 latest:
-  1.15.0--hfc9290b_4: 
-    sha256:c95cddf6ab9a94389e6d06a1d0f38e52b715104b0951464b58ddc62121cf2987
+  1.15.1--hfc9290b_0: 
+    sha256:8f17523407cb55fcde8c54e04b077ee185ae3ff481ee24af70230993e69833f9
 tags:
   1.14.14--h9ed8d9f_5: 
     sha256:68bee137512586171be556687d66f42b8c53f7f9204d9448e9dadfdf57ec0b43
@@ -23,6 +23,8 @@ tags:
     sha256:6f44af55effe31cac71287d87a872a9f0b51b911db8f783d81e733ba3f0df57f
   1.15.0--hfc9290b_4: 
     sha256:c95cddf6ab9a94389e6d06a1d0f38e52b715104b0951464b58ddc62121cf2987
+  1.15.1--hfc9290b_0: 
+    sha256:8f17523407cb55fcde8c54e04b077ee185ae3ff481ee24af70230993e69833f9
 docker: quay.io/biocontainers/staden_io_lib
 aliases:
   append_sff: /usr/local/bin/append_sff

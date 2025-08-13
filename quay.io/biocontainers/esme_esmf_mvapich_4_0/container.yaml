@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_esmf_mvapich_4_0
 latest:
-  8.8.0--h437bdb2_0: 
-    sha256:a2add4d8f2ed860714af3998a481a6ef481ac6e25a509811bd54af4be3eda4b4
+  8.8.1--h437bdb2_0: 
+    sha256:953a7d7a951783fe4978589e9e6c5f1ee9ca097e42937256dda2214433949897
 tags:
   8.8.0--h437bdb2_0: 
     sha256:a2add4d8f2ed860714af3998a481a6ef481ac6e25a509811bd54af4be3eda4b4
+  8.8.1--h437bdb2_0: 
+    sha256:953a7d7a951783fe4978589e9e6c5f1ee9ca097e42937256dda2214433949897
 docker: quay.io/biocontainers/esme_esmf_mvapich_4_0
 aliases:
   ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
