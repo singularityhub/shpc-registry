@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gpsw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpsw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpsw/container.yaml"
-updated_at: "2025-08-12 03:23:03.161724"
-latest: "0.7.0--pyhdfd78af_0"
+updated_at: "2025-08-13 03:25:58.749520"
+latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpsw"
 aliases:
  - "apptainer"
@@ -51,8 +51,10 @@ aliases:
 versions:
  - "0.6.3--pyhdfd78af_0"
  - "0.7.0--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gpsw"
-config: {"url": "https://biocontainers.pro/tools/gpsw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpsw", "latest": {"0.7.0--pyhdfd78af_0": "sha256:cd6daa7ffca3467da3e7719dc68f31d8b4cfd795bdcb3ab85d9ecb0574d28265"}, "tags": {"0.6.3--pyhdfd78af_0": "sha256:7c4dd10779e0dbbd7f730ef955b2a69b44ff80deeccea8f9ac9efa2f8102d2c9", "0.7.0--pyhdfd78af_0": "sha256:cd6daa7ffca3467da3e7719dc68f31d8b4cfd795bdcb3ab85d9ecb0574d28265"}, "docker": "quay.io/biocontainers/gpsw", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "dot_sandbox": "/usr/local/bin/dot_sandbox", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "gpsw": "/usr/local/bin/gpsw", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "unsquashfs": "/usr/local/bin/unsquashfs", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "bsdunzip": "/usr/local/bin/bsdunzip", "wayland-scanner": "/usr/local/bin/wayland-scanner", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake"}}
+config: {"url": "https://biocontainers.pro/tools/gpsw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpsw", "latest": {"0.9.0--pyhdfd78af_0": "sha256:57fb59c811c49e2184f2bf80261a2aa0634818c498020a6dae4ecafa3f57e738"}, "tags": {"0.6.3--pyhdfd78af_0": "sha256:7c4dd10779e0dbbd7f730ef955b2a69b44ff80deeccea8f9ac9efa2f8102d2c9", "0.7.0--pyhdfd78af_0": "sha256:cd6daa7ffca3467da3e7719dc68f31d8b4cfd795bdcb3ab85d9ecb0574d28265", "0.9.0--pyhdfd78af_0": "sha256:57fb59c811c49e2184f2bf80261a2aa0634818c498020a6dae4ecafa3f57e738", "0.8.0--pyhdfd78af_0": "sha256:e62af16990b1c5e1792cfd009725fe41116918b593ba00ba2887754bae023d14"}, "docker": "quay.io/biocontainers/gpsw", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "dot_sandbox": "/usr/local/bin/dot_sandbox", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "gpsw": "/usr/local/bin/gpsw", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "unsquashfs": "/usr/local/bin/unsquashfs", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "bsdunzip": "/usr/local/bin/bsdunzip", "wayland-scanner": "/usr/local/bin/wayland-scanner", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gpsw.
@@ -67,7 +69,7 @@ $ shpc install quay.io/biocontainers/gpsw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gpsw:0.7.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gpsw:0.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gpsw/0.7.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/gpsw/0.7.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/gpsw/0.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/gpsw/0.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

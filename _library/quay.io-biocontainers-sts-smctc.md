@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sts-smctc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sts-smctc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sts-smctc/container.yaml"
-updated_at: "2025-08-12 03:44:01.282749"
-latest: "1.0--h0704011_12"
+updated_at: "2025-08-13 03:48:48.032533"
+latest: "1.0--h0704011_13"
 container_url: "https://biocontainers.pro/tools/sts-smctc"
 
 versions:
  - "1.0--h589041f_9"
  - "1.0--heacdb12_11"
  - "1.0--h0704011_12"
+ - "1.0--h0704011_13"
 description: "shpc-registry automated BioContainers addition for sts-smctc"
-config: {"url": "https://biocontainers.pro/tools/sts-smctc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sts-smctc", "latest": {"1.0--h0704011_12": "sha256:4d36b2e2ce3ca66b4d73860d6eb40e911b5e1b3f4512898f18606736bcb592d9"}, "tags": {"1.0--h589041f_9": "sha256:f84a369cf8f5417fb688ba91adad90bb48a26c832a98cbc45e70e090331e937e", "1.0--heacdb12_11": "sha256:b9b0b7ed6a8672de98ab6aaae7e36985d8a93e98ef2d155b9eae4014e96cbe1f", "1.0--h0704011_12": "sha256:4d36b2e2ce3ca66b4d73860d6eb40e911b5e1b3f4512898f18606736bcb592d9"}, "docker": "quay.io/biocontainers/sts-smctc"}
+config: {"url": "https://biocontainers.pro/tools/sts-smctc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sts-smctc", "latest": {"1.0--h0704011_13": "sha256:3a17ce7736033f009bb91dce6d56baefd7e8d349cffaf458ee17ded347edd3de"}, "tags": {"1.0--h589041f_9": "sha256:f84a369cf8f5417fb688ba91adad90bb48a26c832a98cbc45e70e090331e937e", "1.0--heacdb12_11": "sha256:b9b0b7ed6a8672de98ab6aaae7e36985d8a93e98ef2d155b9eae4014e96cbe1f", "1.0--h0704011_12": "sha256:4d36b2e2ce3ca66b4d73860d6eb40e911b5e1b3f4512898f18606736bcb592d9", "1.0--h0704011_13": "sha256:3a17ce7736033f009bb91dce6d56baefd7e8d349cffaf458ee17ded347edd3de"}, "docker": "quay.io/biocontainers/sts-smctc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sts-smctc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sts-smctc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sts-smctc:1.0--h0704011_12
+$ shpc install quay.io/biocontainers/sts-smctc:1.0--h0704011_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sts-smctc/1.0--h0704011_12
-$ module help quay.io/biocontainers/sts-smctc/1.0--h0704011_12
+$ module load quay.io/biocontainers/sts-smctc/1.0--h0704011_13
+$ module help quay.io/biocontainers/sts-smctc/1.0--h0704011_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

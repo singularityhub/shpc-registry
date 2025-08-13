@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proda/container.yaml"
-updated_at: "2025-08-12 03:29:13.299352"
-latest: "1.0--h503566f_6"
+updated_at: "2025-08-13 03:32:30.940440"
+latest: "1.0--h503566f_7"
 container_url: "https://biocontainers.pro/tools/proda"
 aliases:
  - "proda"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h87f3376_3"
  - "1.0--hdbdd923_5"
  - "1.0--h503566f_6"
+ - "1.0--h503566f_7"
 description: "shpc-registry automated BioContainers addition for proda"
-config: {"url": "https://biocontainers.pro/tools/proda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proda", "latest": {"1.0--h503566f_6": "sha256:ab5c7e006886b925a599213b6ee1bd3b2bff5c47cad13f77c8e36c69bab531d0"}, "tags": {"1.0--h87f3376_3": "sha256:b4788dd0b42ed61d31a252d006ceaafa5c37c3f987ff4d2f552cfd633cad6677", "1.0--hdbdd923_5": "sha256:bad866f9cd7786eaffe8e3b0b47cc3daa5a77c5280378f7bb45cccbf37556d18", "1.0--h503566f_6": "sha256:ab5c7e006886b925a599213b6ee1bd3b2bff5c47cad13f77c8e36c69bab531d0"}, "docker": "quay.io/biocontainers/proda", "aliases": {"proda": "/usr/local/bin/proda"}}
+config: {"url": "https://biocontainers.pro/tools/proda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proda", "latest": {"1.0--h503566f_7": "sha256:24879237efb5ec0ee211e91a3cdc9ba0934447cc7f333f4e631861021e637ba9"}, "tags": {"1.0--h87f3376_3": "sha256:b4788dd0b42ed61d31a252d006ceaafa5c37c3f987ff4d2f552cfd633cad6677", "1.0--hdbdd923_5": "sha256:bad866f9cd7786eaffe8e3b0b47cc3daa5a77c5280378f7bb45cccbf37556d18", "1.0--h503566f_6": "sha256:ab5c7e006886b925a599213b6ee1bd3b2bff5c47cad13f77c8e36c69bab531d0", "1.0--h503566f_7": "sha256:24879237efb5ec0ee211e91a3cdc9ba0934447cc7f333f4e631861021e637ba9"}, "docker": "quay.io/biocontainers/proda", "aliases": {"proda": "/usr/local/bin/proda"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proda.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/proda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proda:1.0--h503566f_6
+$ shpc install quay.io/biocontainers/proda:1.0--h503566f_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proda/1.0--h503566f_6
-$ module help quay.io/biocontainers/proda/1.0--h503566f_6
+$ module load quay.io/biocontainers/proda/1.0--h503566f_7
+$ module help quay.io/biocontainers/proda/1.0--h503566f_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

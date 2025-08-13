@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cagecleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cagecleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cagecleaner/container.yaml"
-updated_at: "2025-08-12 03:45:42.753804"
-latest: "1.2.2--pyhdfd78af_0"
+updated_at: "2025-08-13 03:50:33.218473"
+latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cagecleaner"
 aliases:
  - "cagecleaner"
@@ -58,8 +58,10 @@ aliases:
 versions:
  - "1.2.0--pyhdfd78af_0"
  - "1.2.2--pyhdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
+ - "1.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cagecleaner"
-config: {"url": "https://biocontainers.pro/tools/cagecleaner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cagecleaner", "latest": {"1.2.2--pyhdfd78af_0": "sha256:3bf3a3dd924a5285558e0fc54a35d4cbb368a2720f7177e533be50200c9e47c8"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6", "1.2.2--pyhdfd78af_0": "sha256:3bf3a3dd924a5285558e0fc54a35d4cbb368a2720f7177e533be50200c9e47c8"}, "docker": "quay.io/biocontainers/cagecleaner", "aliases": {"cagecleaner": "/usr/local/bin/cagecleaner", "cblaster": "/usr/local/bin/cblaster", "cidder": "/usr/local/bin/cidder", "clinker": "/usr/local/bin/clinker", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "dereplicate_assemblies.sh": "/usr/local/bin/dereplicate_assemblies.sh", "download_assemblies.sh": "/usr/local/bin/download_assemblies.sh", "get_accessions.sh": "/usr/local/bin/get_accessions.sh", "granet": "/usr/local/bin/granet", "mgecut": "/usr/local/bin/mgecut", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "skDERcore": "/usr/local/bin/skDERcore", "skDERsum": "/usr/local/bin/skDERsum", "skani": "/usr/local/bin/skani", "skder": "/usr/local/bin/skder", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gffutils-cli": "/usr/local/bin/gffutils-cli", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme"}}
+config: {"url": "https://biocontainers.pro/tools/cagecleaner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cagecleaner", "latest": {"1.3.1--pyhdfd78af_0": "sha256:4772938dce2a1befbf9a6d184230963237f3ece618e22619c7e57142131b5df7"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:ba5b8cc282c611777f6476f79c7791b290c18b1303c4d22ed876a4f1be04c3b6", "1.2.2--pyhdfd78af_0": "sha256:3bf3a3dd924a5285558e0fc54a35d4cbb368a2720f7177e533be50200c9e47c8", "1.3.1--pyhdfd78af_0": "sha256:4772938dce2a1befbf9a6d184230963237f3ece618e22619c7e57142131b5df7", "1.2.3--pyhdfd78af_0": "sha256:e750684cb27873fe971e0276717c3b2897eb23ed62b8a180e1f99f189ee2fb8a"}, "docker": "quay.io/biocontainers/cagecleaner", "aliases": {"cagecleaner": "/usr/local/bin/cagecleaner", "cblaster": "/usr/local/bin/cblaster", "cidder": "/usr/local/bin/cidder", "clinker": "/usr/local/bin/clinker", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "dereplicate_assemblies.sh": "/usr/local/bin/dereplicate_assemblies.sh", "download_assemblies.sh": "/usr/local/bin/download_assemblies.sh", "get_accessions.sh": "/usr/local/bin/get_accessions.sh", "granet": "/usr/local/bin/granet", "mgecut": "/usr/local/bin/mgecut", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "skDERcore": "/usr/local/bin/skDERcore", "skDERsum": "/usr/local/bin/skDERsum", "skani": "/usr/local/bin/skani", "skder": "/usr/local/bin/skder", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gffutils-cli": "/usr/local/bin/gffutils-cli", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cagecleaner.
@@ -74,7 +76,7 @@ $ shpc install quay.io/biocontainers/cagecleaner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cagecleaner:1.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cagecleaner:1.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cagecleaner/1.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/cagecleaner/1.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/cagecleaner/1.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cagecleaner/1.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/modle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modle/container.yaml"
-updated_at: "2025-08-12 03:40:06.720347"
+updated_at: "2025-08-13 03:44:30.170637"
 latest: "1.1.0--h63853f4_0"
 container_url: "https://biocontainers.pro/tools/modle"
 aliases:

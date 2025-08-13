@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/socru"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/socru/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/socru/container.yaml"
-updated_at: "2025-08-12 03:58:07.830415"
-latest: "2.2.4--py_1"
+updated_at: "2025-08-13 04:03:25.573231"
+latest: "2.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/socru"
 aliases:
  - "socru"
@@ -26,8 +26,9 @@ aliases:
  - "pm-collect"
 versions:
  - "2.2.4--py_1"
+ - "2.2.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for socru"
-config: {"url": "https://biocontainers.pro/tools/socru", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socru", "latest": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "tags": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "docker": "quay.io/biocontainers/socru", "aliases": {"socru": "/usr/local/bin/socru", "socru_create": "/usr/local/bin/socru_create", "socru_rebuild_profile": "/usr/local/bin/socru_rebuild_profile", "socru_shrink_database": "/usr/local/bin/socru_shrink_database", "socru_species": "/usr/local/bin/socru_species", "socru_update_profile": "/usr/local/bin/socru_update_profile", "barrnap": "/usr/local/bin/barrnap", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
+config: {"url": "https://biocontainers.pro/tools/socru", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socru", "latest": {"2.2.5--pyhdfd78af_0": "sha256:e839ef384c41dbda96fa0a96c4301f2fd6a196252cca522295cf3b382c6d6c14"}, "tags": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8", "2.2.5--pyhdfd78af_0": "sha256:e839ef384c41dbda96fa0a96c4301f2fd6a196252cca522295cf3b382c6d6c14"}, "docker": "quay.io/biocontainers/socru", "aliases": {"socru": "/usr/local/bin/socru", "socru_create": "/usr/local/bin/socru_create", "socru_rebuild_profile": "/usr/local/bin/socru_rebuild_profile", "socru_shrink_database": "/usr/local/bin/socru_shrink_database", "socru_species": "/usr/local/bin/socru_species", "socru_update_profile": "/usr/local/bin/socru_update_profile", "barrnap": "/usr/local/bin/barrnap", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/socru.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/socru
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/socru:2.2.4--py_1
+$ shpc install quay.io/biocontainers/socru:2.2.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/socru/2.2.4--py_1
-$ module help quay.io/biocontainers/socru/2.2.4--py_1
+$ module load quay.io/biocontainers/socru/2.2.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/socru/2.2.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

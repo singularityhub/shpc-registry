@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_mvapich_4_0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_mvapich_4_0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_mvapich_4_0/container.yaml"
-updated_at: "2025-08-12 03:26:24.142701"
-latest: "1.0.1--mvapich_hf727a01_0"
+updated_at: "2025-08-13 03:29:28.123972"
+latest: "1.0.2--mvapich_hf727a01_0"
 container_url: "https://biocontainers.pro/tools/esme_mvapich_4_0"
 aliases:
  - "ESMF_PrintInfo"
@@ -50,8 +50,9 @@ aliases:
  - "rhash"
 versions:
  - "1.0.1--mvapich_hf727a01_0"
+ - "1.0.2--mvapich_hf727a01_0"
 description: "singularity registry hpc automated addition for esme_mvapich_4_0"
-config: {"url": "https://biocontainers.pro/tools/esme_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_mvapich_4_0", "latest": {"1.0.1--mvapich_hf727a01_0": "sha256:0ab7aeb0fd3de658e40d7f97295caec6f1da56138967541af99589cfe8638d3c"}, "tags": {"1.0.1--mvapich_hf727a01_0": "sha256:0ab7aeb0fd3de658e40d7f97295caec6f1da56138967541af99589cfe8638d3c"}, "docker": "quay.io/biocontainers/esme_mvapich_4_0", "aliases": {"ESMF_PrintInfo": "/usr/local/bin/ESMF_PrintInfo", "ESMF_PrintInfoC": "/usr/local/bin/ESMF_PrintInfoC", "ESMF_Regrid": "/usr/local/bin/ESMF_Regrid", "ESMF_RegridWeightGen": "/usr/local/bin/ESMF_RegridWeightGen", "ESMF_Scrip2Unstruct": "/usr/local/bin/ESMF_Scrip2Unstruct", "ESMF_WebServController": "/usr/local/bin/ESMF_WebServController", "ESMX_Builder": "/usr/local/bin/ESMX_Builder", "chacl": "/usr/local/bin/chacl", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "getfacl": "/usr/local/bin/getfacl", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "h5fuse": "/usr/local/bin/h5fuse", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "rhash": "/usr/local/bin/rhash"}}
+config: {"url": "https://biocontainers.pro/tools/esme_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_mvapich_4_0", "latest": {"1.0.2--mvapich_hf727a01_0": "sha256:4d8152bac9f72a648bc70b3888deba66c213fe677a15ac7ce40ae9ab83d0c603"}, "tags": {"1.0.1--mvapich_hf727a01_0": "sha256:0ab7aeb0fd3de658e40d7f97295caec6f1da56138967541af99589cfe8638d3c", "1.0.2--mvapich_hf727a01_0": "sha256:4d8152bac9f72a648bc70b3888deba66c213fe677a15ac7ce40ae9ab83d0c603"}, "docker": "quay.io/biocontainers/esme_mvapich_4_0", "aliases": {"ESMF_PrintInfo": "/usr/local/bin/ESMF_PrintInfo", "ESMF_PrintInfoC": "/usr/local/bin/ESMF_PrintInfoC", "ESMF_Regrid": "/usr/local/bin/ESMF_Regrid", "ESMF_RegridWeightGen": "/usr/local/bin/ESMF_RegridWeightGen", "ESMF_Scrip2Unstruct": "/usr/local/bin/ESMF_Scrip2Unstruct", "ESMF_WebServController": "/usr/local/bin/ESMF_WebServController", "ESMX_Builder": "/usr/local/bin/ESMX_Builder", "chacl": "/usr/local/bin/chacl", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "getfacl": "/usr/local/bin/getfacl", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "h5fuse": "/usr/local/bin/h5fuse", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "rhash": "/usr/local/bin/rhash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_mvapich_4_0.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/esme_mvapich_4_0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_mvapich_4_0:1.0.1--mvapich_hf727a01_0
+$ shpc install quay.io/biocontainers/esme_mvapich_4_0:1.0.2--mvapich_hf727a01_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_mvapich_4_0/1.0.1--mvapich_hf727a01_0
-$ module help quay.io/biocontainers/esme_mvapich_4_0/1.0.1--mvapich_hf727a01_0
+$ module load quay.io/biocontainers/esme_mvapich_4_0/1.0.2--mvapich_hf727a01_0
+$ module help quay.io/biocontainers/esme_mvapich_4_0/1.0.2--mvapich_hf727a01_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

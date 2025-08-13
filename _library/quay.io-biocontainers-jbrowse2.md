@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jbrowse2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jbrowse2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jbrowse2/container.yaml"
-updated_at: "2025-08-12 03:24:16.373681"
+updated_at: "2025-08-13 03:27:14.685700"
 latest: "3.6.3--hbbc3ce4_0"
 container_url: "https://biocontainers.pro/tools/jbrowse2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scaden"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scaden/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scaden/container.yaml"
-updated_at: "2025-08-12 03:22:58.117902"
+updated_at: "2025-08-13 03:25:53.477813"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scaden"
 aliases:

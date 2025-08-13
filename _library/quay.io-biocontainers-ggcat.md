@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ggcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggcat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggcat/container.yaml"
-updated_at: "2025-08-12 03:24:52.063900"
-latest: "1.1.0--ha96b9cd_1"
+updated_at: "2025-08-13 03:27:51.984346"
+latest: "2.0.0--ha96b9cd_0"
 container_url: "https://biocontainers.pro/tools/ggcat"
 aliases:
  - "ggcat"
 versions:
  - "1.1.0--hc9368f3_0"
  - "1.1.0--ha96b9cd_1"
+ - "2.0.0--ha96b9cd_0"
 description: "singularity registry hpc automated addition for ggcat"
-config: {"url": "https://biocontainers.pro/tools/ggcat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ggcat", "latest": {"1.1.0--ha96b9cd_1": "sha256:1d82424373280ba967de6cdcc3fbb389087654f6707875820d35039b22aed776"}, "tags": {"1.1.0--hc9368f3_0": "sha256:f7e2035f5143323eda8d70be605b34c0c8ea2e55dfa56b1da71bbebc09af45a3", "1.1.0--ha96b9cd_1": "sha256:1d82424373280ba967de6cdcc3fbb389087654f6707875820d35039b22aed776"}, "docker": "quay.io/biocontainers/ggcat", "aliases": {"ggcat": "/usr/local/bin/ggcat"}}
+config: {"url": "https://biocontainers.pro/tools/ggcat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ggcat", "latest": {"2.0.0--ha96b9cd_0": "sha256:7a6e55c4661e59557f64a77d39b046152a639ae9fa9f39334cc427d3bdd71c98"}, "tags": {"1.1.0--hc9368f3_0": "sha256:f7e2035f5143323eda8d70be605b34c0c8ea2e55dfa56b1da71bbebc09af45a3", "1.1.0--ha96b9cd_1": "sha256:1d82424373280ba967de6cdcc3fbb389087654f6707875820d35039b22aed776", "2.0.0--ha96b9cd_0": "sha256:7a6e55c4661e59557f64a77d39b046152a639ae9fa9f39334cc427d3bdd71c98"}, "docker": "quay.io/biocontainers/ggcat", "aliases": {"ggcat": "/usr/local/bin/ggcat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ggcat.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ggcat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ggcat:1.1.0--ha96b9cd_1
+$ shpc install quay.io/biocontainers/ggcat:2.0.0--ha96b9cd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ggcat/1.1.0--ha96b9cd_1
-$ module help quay.io/biocontainers/ggcat/1.1.0--ha96b9cd_1
+$ module load quay.io/biocontainers/ggcat/2.0.0--ha96b9cd_0
+$ module help quay.io/biocontainers/ggcat/2.0.0--ha96b9cd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

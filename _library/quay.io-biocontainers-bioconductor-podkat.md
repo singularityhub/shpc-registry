@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-podkat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-podkat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-podkat/container.yaml"
-updated_at: "2025-08-12 04:02:39.570495"
+updated_at: "2025-08-13 04:08:08.512993"
 latest: "1.34.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-podkat"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sspace_basic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sspace_basic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sspace_basic/container.yaml"
-updated_at: "2025-08-12 03:36:42.554748"
-latest: "2.1.1--hdfd78af_1"
+updated_at: "2025-08-13 03:40:47.785362"
+latest: "2.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/sspace_basic"
 aliases:
  - "ExtendOrFormatContigs.pl"
@@ -59,8 +59,9 @@ aliases:
 versions:
  - "2.1.1--hdfd78af_0"
  - "2.1.1--hdfd78af_1"
+ - "2.1.1--hdfd78af_2"
 description: "singularity registry hpc automated addition for sspace_basic"
-config: {"url": "https://biocontainers.pro/tools/sspace_basic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sspace_basic", "latest": {"2.1.1--hdfd78af_1": "sha256:bab84e087a2b3c3578062e32bc41661a7a05106c391245f002a63415b1d73b8a"}, "tags": {"2.1.1--hdfd78af_0": "sha256:550f347a07069a424c7cf7e9fbf6b4c15df7d88c0517960be1de21567aabb400", "2.1.1--hdfd78af_1": "sha256:bab84e087a2b3c3578062e32bc41661a7a05106c391245f002a63415b1d73b8a"}, "docker": "quay.io/biocontainers/sspace_basic", "aliases": {"ExtendOrFormatContigs.pl": "/usr/local/bin/ExtendOrFormatContigs.pl", "ExtendOrFormatContigs.pl.bak": "/usr/local/bin/ExtendOrFormatContigs.pl.bak", "PairingAndScaffolding.pl": "/usr/local/bin/PairingAndScaffolding.pl", "PairingAndScaffolding.pl.bak": "/usr/local/bin/PairingAndScaffolding.pl.bak", "SSPACE_Basic.pl": "/usr/local/bin/SSPACE_Basic.pl", "SSPACE_Basic.pl.bak": "/usr/local/bin/SSPACE_Basic.pl.bak", "TQS.py": "/usr/local/bin/TQS.py", "TQS.readme": "/usr/local/bin/TQS.readme", "TQSexport.py": "/usr/local/bin/TQSexport.py", "TQSfastq.py": "/usr/local/bin/TQSfastq.py", "estimate_insert_size.pl": "/usr/local/bin/estimate_insert_size.pl", "estimate_insert_size.pl.bak": "/usr/local/bin/estimate_insert_size.pl.bak", "fq_all2std.pl": "/usr/local/bin/fq_all2std.pl", "fq_all2std.pl.bak": "/usr/local/bin/fq_all2std.pl.bak", "qseq2fasta.pl": "/usr/local/bin/qseq2fasta.pl", "qseq2fasta.pl.bak": "/usr/local/bin/qseq2fasta.pl.bak", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "qseq2fastq.pl.bak": "/usr/local/bin/qseq2fastq.pl.bak", "readLibFiles.pl": "/usr/local/bin/readLibFiles.pl", "readLibFiles.pl.bak": "/usr/local/bin/readLibFiles.pl.bak", "sam_bam2tab.pl": "/usr/local/bin/sam_bam2tab.pl", "sam_bam2tab.pl.bak": "/usr/local/bin/sam_bam2tab.pl.bak", "sspace_basic": "/usr/local/bin/sspace_basic", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/sspace_basic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sspace_basic", "latest": {"2.1.1--hdfd78af_2": "sha256:3ae230364090927aaa15001beb9a34a7a237368a78b5d2b6f4c2e44b3d9c99ce"}, "tags": {"2.1.1--hdfd78af_0": "sha256:550f347a07069a424c7cf7e9fbf6b4c15df7d88c0517960be1de21567aabb400", "2.1.1--hdfd78af_1": "sha256:bab84e087a2b3c3578062e32bc41661a7a05106c391245f002a63415b1d73b8a", "2.1.1--hdfd78af_2": "sha256:3ae230364090927aaa15001beb9a34a7a237368a78b5d2b6f4c2e44b3d9c99ce"}, "docker": "quay.io/biocontainers/sspace_basic", "aliases": {"ExtendOrFormatContigs.pl": "/usr/local/bin/ExtendOrFormatContigs.pl", "ExtendOrFormatContigs.pl.bak": "/usr/local/bin/ExtendOrFormatContigs.pl.bak", "PairingAndScaffolding.pl": "/usr/local/bin/PairingAndScaffolding.pl", "PairingAndScaffolding.pl.bak": "/usr/local/bin/PairingAndScaffolding.pl.bak", "SSPACE_Basic.pl": "/usr/local/bin/SSPACE_Basic.pl", "SSPACE_Basic.pl.bak": "/usr/local/bin/SSPACE_Basic.pl.bak", "TQS.py": "/usr/local/bin/TQS.py", "TQS.readme": "/usr/local/bin/TQS.readme", "TQSexport.py": "/usr/local/bin/TQSexport.py", "TQSfastq.py": "/usr/local/bin/TQSfastq.py", "estimate_insert_size.pl": "/usr/local/bin/estimate_insert_size.pl", "estimate_insert_size.pl.bak": "/usr/local/bin/estimate_insert_size.pl.bak", "fq_all2std.pl": "/usr/local/bin/fq_all2std.pl", "fq_all2std.pl.bak": "/usr/local/bin/fq_all2std.pl.bak", "qseq2fasta.pl": "/usr/local/bin/qseq2fasta.pl", "qseq2fasta.pl.bak": "/usr/local/bin/qseq2fasta.pl.bak", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "qseq2fastq.pl.bak": "/usr/local/bin/qseq2fastq.pl.bak", "readLibFiles.pl": "/usr/local/bin/readLibFiles.pl", "readLibFiles.pl.bak": "/usr/local/bin/readLibFiles.pl.bak", "sam_bam2tab.pl": "/usr/local/bin/sam_bam2tab.pl", "sam_bam2tab.pl.bak": "/usr/local/bin/sam_bam2tab.pl.bak", "sspace_basic": "/usr/local/bin/sspace_basic", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sspace_basic.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/sspace_basic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sspace_basic:2.1.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/sspace_basic:2.1.1--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sspace_basic/2.1.1--hdfd78af_1
-$ module help quay.io/biocontainers/sspace_basic/2.1.1--hdfd78af_1
+$ module load quay.io/biocontainers/sspace_basic/2.1.1--hdfd78af_2
+$ module help quay.io/biocontainers/sspace_basic/2.1.1--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
