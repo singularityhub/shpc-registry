@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fsnviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsnviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsnviz/container.yaml"
-updated_at: "2025-08-13 03:51:41.333072"
+updated_at: "2025-08-14 03:50:32.001034"
 latest: "0.3.0--pyhdfd78af_6"
 container_url: "https://biocontainers.pro/tools/fsnviz"
 aliases:

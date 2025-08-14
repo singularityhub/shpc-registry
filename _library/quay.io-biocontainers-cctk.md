@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cctk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cctk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cctk/container.yaml"
-updated_at: "2025-08-13 03:27:04.983137"
+updated_at: "2025-08-14 03:27:23.835543"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cctk"
 aliases:

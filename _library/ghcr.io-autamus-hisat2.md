@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hisat2/container.yaml"
-updated_at: "2025-08-13 04:15:24.534298"
+updated_at: "2025-08-14 04:13:52.903334"
 latest: "2.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hisat2"
 aliases:

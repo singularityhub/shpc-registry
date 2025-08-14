@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-battenberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-battenberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-battenberg/container.yaml"
-updated_at: "2025-08-13 03:53:58.698833"
+updated_at: "2025-08-14 03:52:44.664954"
 latest: "1.4.1--pl5321h031d066_9"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-battenberg"
 aliases:

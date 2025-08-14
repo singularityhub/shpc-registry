@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kcftools/container.yaml"
-updated_at: "2025-08-13 03:33:23.775974"
-latest: "0.1.0--hdfd78af_0"
+updated_at: "2025-08-14 03:33:29.521448"
+latest: "0.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kcftools"
 aliases:
  - "kcftools"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.0.1--hdfd78af_0"
  - "0.1.0--hdfd78af_0"
+ - "0.2.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for kcftools"
-config: {"url": "https://biocontainers.pro/tools/kcftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kcftools", "latest": {"0.1.0--hdfd78af_0": "sha256:ec5614c5e200f11684cbfc8a6cdfd01297dd03abb069cb37b1717fc66b455aad"}, "tags": {"0.0.1--hdfd78af_0": "sha256:177d5779bbd70211e65a6d006c854a40bb28fb2d8c7a80032a74340e1642630d", "0.1.0--hdfd78af_0": "sha256:ec5614c5e200f11684cbfc8a6cdfd01297dd03abb069cb37b1717fc66b455aad"}, "docker": "quay.io/biocontainers/kcftools", "aliases": {"kcftools": "/usr/local/bin/kcftools", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc": "/usr/local/bin/kmc", "kmc_tools": "/usr/local/bin/kmc_tools", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
+config: {"url": "https://biocontainers.pro/tools/kcftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kcftools", "latest": {"0.2.0--hdfd78af_0": "sha256:d35f0bb1e903e65d127f8e6c0b054bdb5f59d76d38f1891c063508b8424ef028"}, "tags": {"0.0.1--hdfd78af_0": "sha256:177d5779bbd70211e65a6d006c854a40bb28fb2d8c7a80032a74340e1642630d", "0.1.0--hdfd78af_0": "sha256:ec5614c5e200f11684cbfc8a6cdfd01297dd03abb069cb37b1717fc66b455aad", "0.2.0--hdfd78af_0": "sha256:d35f0bb1e903e65d127f8e6c0b054bdb5f59d76d38f1891c063508b8424ef028"}, "docker": "quay.io/biocontainers/kcftools", "aliases": {"kcftools": "/usr/local/bin/kcftools", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc": "/usr/local/bin/kmc", "kmc_tools": "/usr/local/bin/kmc_tools", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kcftools.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/kcftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kcftools:0.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/kcftools:0.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kcftools/0.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/kcftools/0.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/kcftools/0.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/kcftools/0.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

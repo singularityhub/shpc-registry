@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-platecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
-updated_at: "2025-08-13 04:11:33.230653"
+updated_at: "2025-08-14 04:09:54.994240"
 latest: "1.40.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-platecore"
 aliases:

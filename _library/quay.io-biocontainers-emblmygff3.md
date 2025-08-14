@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/emblmygff3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emblmygff3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emblmygff3/container.yaml"
-updated_at: "2025-08-13 04:08:33.444041"
-latest: "2.3--pyhdfd78af_0"
+updated_at: "2025-08-14 04:06:56.413125"
+latest: "2.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/emblmygff3"
 aliases:
  - "EMBLmyGFF3"
@@ -27,8 +27,9 @@ versions:
  - "2--py_1"
  - "2.2--pyhdfd78af_1"
  - "2.3--pyhdfd78af_0"
+ - "2.4--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for emblmygff3"
-config: {"url": "https://biocontainers.pro/tools/emblmygff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emblmygff3", "latest": {"2.3--pyhdfd78af_0": "sha256:aa44953a8b546bcbc8a5cb9c34750a74f386a75f4c5de5bde47f4855afac312d"}, "tags": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020", "2--py_1": "sha256:e7af473b044cdb424a4df52d9eb1ffa90e95dd9a63b3af51f904617fa0827b87", "2.2--pyhdfd78af_1": "sha256:1944dc1f926281cd2368e406c3c8a46a34ebaddcaf3ea2e58b921a4af5481fc0", "2.3--pyhdfd78af_0": "sha256:aa44953a8b546bcbc8a5cb9c34750a74f386a75f4c5de5bde47f4855afac312d"}, "docker": "quay.io/biocontainers/emblmygff3", "aliases": {"EMBLmyGFF3": "/usr/local/bin/EMBLmyGFF3", "EMBLmyGFF3-augustus-example": "/usr/local/bin/EMBLmyGFF3-augustus-example", "EMBLmyGFF3-maker-example": "/usr/local/bin/EMBLmyGFF3-maker-example", "EMBLmyGFF3-prokka-example": "/usr/local/bin/EMBLmyGFF3-prokka-example", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/emblmygff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emblmygff3", "latest": {"2.4--pyhdfd78af_1": "sha256:8cb91c30b24d92d15922427812f01fa83344b9024c59e52a802e12b566124183"}, "tags": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020", "2--py_1": "sha256:e7af473b044cdb424a4df52d9eb1ffa90e95dd9a63b3af51f904617fa0827b87", "2.2--pyhdfd78af_1": "sha256:1944dc1f926281cd2368e406c3c8a46a34ebaddcaf3ea2e58b921a4af5481fc0", "2.3--pyhdfd78af_0": "sha256:aa44953a8b546bcbc8a5cb9c34750a74f386a75f4c5de5bde47f4855afac312d", "2.4--pyhdfd78af_1": "sha256:8cb91c30b24d92d15922427812f01fa83344b9024c59e52a802e12b566124183"}, "docker": "quay.io/biocontainers/emblmygff3", "aliases": {"EMBLmyGFF3": "/usr/local/bin/EMBLmyGFF3", "EMBLmyGFF3-augustus-example": "/usr/local/bin/EMBLmyGFF3-augustus-example", "EMBLmyGFF3-maker-example": "/usr/local/bin/EMBLmyGFF3-maker-example", "EMBLmyGFF3-prokka-example": "/usr/local/bin/EMBLmyGFF3-prokka-example", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emblmygff3.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/emblmygff3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/emblmygff3:2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/emblmygff3:2.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/emblmygff3/2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/emblmygff3/2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/emblmygff3/2.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/emblmygff3/2.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

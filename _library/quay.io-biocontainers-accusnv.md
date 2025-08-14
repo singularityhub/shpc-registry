@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/accusnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/accusnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/accusnv/container.yaml"
-updated_at: "2025-08-13 04:04:53.367174"
+updated_at: "2025-08-14 04:03:23.025857"
 latest: "1.0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/accusnv"
 aliases:

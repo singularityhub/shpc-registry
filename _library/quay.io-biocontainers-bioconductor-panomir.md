@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-panomir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panomir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panomir/container.yaml"
-updated_at: "2025-08-13 04:04:47.563471"
+updated_at: "2025-08-14 04:03:17.374325"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panomir"
 aliases:

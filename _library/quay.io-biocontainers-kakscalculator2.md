@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kakscalculator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kakscalculator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kakscalculator2/container.yaml"
-updated_at: "2025-08-13 03:46:03.003691"
+updated_at: "2025-08-14 03:45:13.778572"
 latest: "2.0.1--h9948957_6"
 container_url: "https://biocontainers.pro/tools/kakscalculator2"
 aliases:

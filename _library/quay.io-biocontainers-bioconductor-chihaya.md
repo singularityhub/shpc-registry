@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chihaya"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chihaya/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chihaya/container.yaml"
-updated_at: "2025-08-13 04:06:07.566938"
+updated_at: "2025-08-14 04:04:36.279967"
 latest: "1.2.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chihaya"
 aliases:

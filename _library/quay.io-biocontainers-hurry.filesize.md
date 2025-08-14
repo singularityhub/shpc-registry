@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hurry.filesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hurry.filesize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hurry.filesize/container.yaml"
-updated_at: "2025-08-13 03:51:04.088310"
+updated_at: "2025-08-14 03:49:56.233502"
 latest: "0.9--py35_0"
 container_url: "https://biocontainers.pro/tools/hurry.filesize"
 aliases:

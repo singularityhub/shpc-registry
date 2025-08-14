@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dumbbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dumbbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dumbbench/container.yaml"
-updated_at: "2025-08-13 03:32:15.572628"
+updated_at: "2025-08-14 03:32:26.566945"
 latest: "0.111--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-dumbbench"
 aliases:

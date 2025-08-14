@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bzip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bzip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bzip2/container.yaml"
-updated_at: "2025-08-13 03:32:59.409537"
+updated_at: "2025-08-14 03:33:07.014957"
 latest: "1.0.8"
 container_url: "https://biocontainers.pro/tools/bzip2"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "bzip2recover"
 versions:
  - "1.0.8"
+ - "1.0.8--2"
 description: "shpc-registry automated BioContainers addition for bzip2"
-config: {"url": "https://biocontainers.pro/tools/bzip2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bzip2", "latest": {"1.0.8": "sha256:4cf525c3120b73c85922fd6b688a30bb5a3aee93a2323ef3539ff204e297aa24"}, "tags": {"1.0.8": "sha256:4cf525c3120b73c85922fd6b688a30bb5a3aee93a2323ef3539ff204e297aa24"}, "docker": "quay.io/biocontainers/bzip2", "aliases": {"bzip2": "/usr/local/bin/bzip2", "bzip2recover": "/usr/local/bin/bzip2recover"}}
+config: {"url": "https://biocontainers.pro/tools/bzip2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bzip2", "latest": {"1.0.8": "sha256:4cf525c3120b73c85922fd6b688a30bb5a3aee93a2323ef3539ff204e297aa24"}, "tags": {"1.0.8": "sha256:4cf525c3120b73c85922fd6b688a30bb5a3aee93a2323ef3539ff204e297aa24", "1.0.8--2": "sha256:c3bbdaf1017f94a15343104f3a8da764093a1f960d66a3e64eeb10150afcffe5"}, "docker": "quay.io/biocontainers/bzip2", "aliases": {"bzip2": "/usr/local/bin/bzip2", "bzip2recover": "/usr/local/bin/bzip2recover"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bzip2.

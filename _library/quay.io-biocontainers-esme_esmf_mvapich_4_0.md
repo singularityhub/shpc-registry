@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_esmf_mvapich_4_0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_esmf_mvapich_4_0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_esmf_mvapich_4_0/container.yaml"
-updated_at: "2025-08-13 03:58:07.534830"
-latest: "8.8.0--h437bdb2_0"
+updated_at: "2025-08-14 03:56:52.145305"
+latest: "8.8.1--h437bdb2_0"
 container_url: "https://biocontainers.pro/tools/esme_esmf_mvapich_4_0"
 aliases:
  - "ESMF_PrintInfo"
@@ -50,8 +50,9 @@ aliases:
  - "nf-ct-events"
 versions:
  - "8.8.0--h437bdb2_0"
+ - "8.8.1--h437bdb2_0"
 description: "singularity registry hpc automated addition for esme_esmf_mvapich_4_0"
-config: {"url": "https://biocontainers.pro/tools/esme_esmf_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_esmf_mvapich_4_0", "latest": {"8.8.0--h437bdb2_0": "sha256:a2add4d8f2ed860714af3998a481a6ef481ac6e25a509811bd54af4be3eda4b4"}, "tags": {"8.8.0--h437bdb2_0": "sha256:a2add4d8f2ed860714af3998a481a6ef481ac6e25a509811bd54af4be3eda4b4"}, "docker": "quay.io/biocontainers/esme_esmf_mvapich_4_0", "aliases": {"ESMF_PrintInfo": "/usr/local/bin/ESMF_PrintInfo", "ESMF_PrintInfoC": "/usr/local/bin/ESMF_PrintInfoC", "ESMF_Regrid": "/usr/local/bin/ESMF_Regrid", "ESMF_RegridWeightGen": "/usr/local/bin/ESMF_RegridWeightGen", "ESMF_Scrip2Unstruct": "/usr/local/bin/ESMF_Scrip2Unstruct", "ESMF_WebServController": "/usr/local/bin/ESMF_WebServController", "ESMX_Builder": "/usr/local/bin/ESMX_Builder", "chacl": "/usr/local/bin/chacl", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "getfacl": "/usr/local/bin/getfacl", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "h5fuse": "/usr/local/bin/h5fuse", "nf-config": "/usr/local/bin/nf-config", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events"}}
+config: {"url": "https://biocontainers.pro/tools/esme_esmf_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_esmf_mvapich_4_0", "latest": {"8.8.1--h437bdb2_0": "sha256:953a7d7a951783fe4978589e9e6c5f1ee9ca097e42937256dda2214433949897"}, "tags": {"8.8.0--h437bdb2_0": "sha256:a2add4d8f2ed860714af3998a481a6ef481ac6e25a509811bd54af4be3eda4b4", "8.8.1--h437bdb2_0": "sha256:953a7d7a951783fe4978589e9e6c5f1ee9ca097e42937256dda2214433949897"}, "docker": "quay.io/biocontainers/esme_esmf_mvapich_4_0", "aliases": {"ESMF_PrintInfo": "/usr/local/bin/ESMF_PrintInfo", "ESMF_PrintInfoC": "/usr/local/bin/ESMF_PrintInfoC", "ESMF_Regrid": "/usr/local/bin/ESMF_Regrid", "ESMF_RegridWeightGen": "/usr/local/bin/ESMF_RegridWeightGen", "ESMF_Scrip2Unstruct": "/usr/local/bin/ESMF_Scrip2Unstruct", "ESMF_WebServController": "/usr/local/bin/ESMF_WebServController", "ESMX_Builder": "/usr/local/bin/ESMX_Builder", "chacl": "/usr/local/bin/chacl", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "getfacl": "/usr/local/bin/getfacl", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "h5fuse": "/usr/local/bin/h5fuse", "nf-config": "/usr/local/bin/nf-config", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_esmf_mvapich_4_0.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/esme_esmf_mvapich_4_0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_esmf_mvapich_4_0:8.8.0--h437bdb2_0
+$ shpc install quay.io/biocontainers/esme_esmf_mvapich_4_0:8.8.1--h437bdb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_esmf_mvapich_4_0/8.8.0--h437bdb2_0
-$ module help quay.io/biocontainers/esme_esmf_mvapich_4_0/8.8.0--h437bdb2_0
+$ module load quay.io/biocontainers/esme_esmf_mvapich_4_0/8.8.1--h437bdb2_0
+$ module help quay.io/biocontainers/esme_esmf_mvapich_4_0/8.8.1--h437bdb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

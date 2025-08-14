@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mzmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzmine/container.yaml"
-updated_at: "2025-08-13 04:04:56.572371"
-latest: "3.9.0--hdfd78af_0"
+updated_at: "2025-08-14 04:03:26.194715"
+latest: "4.7.27--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzmine"
 aliases:
  - "MZmine"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "3.6.0--hdfd78af_0"
  - "3.9.0--hdfd78af_0"
+ - "4.7.27--hdfd78af_0"
 description: "singularity registry hpc automated addition for mzmine"
-config: {"url": "https://biocontainers.pro/tools/mzmine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzmine", "latest": {"3.9.0--hdfd78af_0": "sha256:1e6c27fbd85d89874358b54e0eb55de26864fe495fdc82ef9bae13b52831f60e"}, "tags": {"3.6.0--hdfd78af_0": "sha256:edd6dba424ade27ced35737b9489030fba7316bcde6e18cfad153e972447a85c", "3.9.0--hdfd78af_0": "sha256:1e6c27fbd85d89874358b54e0eb55de26864fe495fdc82ef9bae13b52831f60e"}, "docker": "quay.io/biocontainers/mzmine", "aliases": {"MZmine": "/usr/local/bin/MZmine", "MZmine.bat": "/usr/local/bin/MZmine.bat", "hb-info": "/usr/local/bin/hb-info", "jwebserver": "/usr/local/bin/jwebserver", "mzmine": "/usr/local/bin/mzmine", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
+config: {"url": "https://biocontainers.pro/tools/mzmine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mzmine", "latest": {"4.7.27--hdfd78af_0": "sha256:7f229fc423d6362db2482b438a19793d7b0738fd2f694feb5f640c1ebfe2df94"}, "tags": {"3.6.0--hdfd78af_0": "sha256:edd6dba424ade27ced35737b9489030fba7316bcde6e18cfad153e972447a85c", "3.9.0--hdfd78af_0": "sha256:1e6c27fbd85d89874358b54e0eb55de26864fe495fdc82ef9bae13b52831f60e", "4.7.27--hdfd78af_0": "sha256:7f229fc423d6362db2482b438a19793d7b0738fd2f694feb5f640c1ebfe2df94"}, "docker": "quay.io/biocontainers/mzmine", "aliases": {"MZmine": "/usr/local/bin/MZmine", "MZmine.bat": "/usr/local/bin/MZmine.bat", "hb-info": "/usr/local/bin/hb-info", "jwebserver": "/usr/local/bin/jwebserver", "mzmine": "/usr/local/bin/mzmine", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mzmine.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/mzmine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mzmine:3.9.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mzmine:4.7.27--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mzmine/3.9.0--hdfd78af_0
-$ module help quay.io/biocontainers/mzmine/3.9.0--hdfd78af_0
+$ module load quay.io/biocontainers/mzmine/4.7.27--hdfd78af_0
+$ module help quay.io/biocontainers/mzmine/4.7.27--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellnoptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
-updated_at: "2025-08-13 03:43:54.148187"
+updated_at: "2025-08-14 03:43:15.892126"
 latest: "1.52.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellnoptr"
 aliases:

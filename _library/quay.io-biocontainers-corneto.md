@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/corneto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corneto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corneto/container.yaml"
-updated_at: "2025-08-13 03:28:25.249285"
-latest: "1.0.0a0--pyhdfd78af_0"
+updated_at: "2025-08-14 03:28:41.950980"
+latest: "1.0.0b2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/corneto"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0a0--pyhdfd78af_0"
+ - "1.0.0b2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for corneto"
-config: {"url": "https://biocontainers.pro/tools/corneto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for corneto", "latest": {"1.0.0a0--pyhdfd78af_0": "sha256:d69b3ffc69ef3742d0999cb971b6a54d4b81d9f0e4f8a67ad052bd3d0ebd071e"}, "tags": {"1.0.0a0--pyhdfd78af_0": "sha256:d69b3ffc69ef3742d0999cb971b6a54d4b81d9f0e4f8a67ad052bd3d0ebd071e"}, "docker": "quay.io/biocontainers/corneto", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/corneto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for corneto", "latest": {"1.0.0b2--pyhdfd78af_0": "sha256:77d9683df5f351c40cad340cab0d08545b1b4f5ccd52d8cf8bf2cc7e2a41691c"}, "tags": {"1.0.0a0--pyhdfd78af_0": "sha256:d69b3ffc69ef3742d0999cb971b6a54d4b81d9f0e4f8a67ad052bd3d0ebd071e", "1.0.0b2--pyhdfd78af_0": "sha256:77d9683df5f351c40cad340cab0d08545b1b4f5ccd52d8cf8bf2cc7e2a41691c"}, "docker": "quay.io/biocontainers/corneto", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/corneto.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/corneto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/corneto:1.0.0a0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/corneto:1.0.0b2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/corneto/1.0.0a0--pyhdfd78af_0
-$ module help quay.io/biocontainers/corneto/1.0.0a0--pyhdfd78af_0
+$ module load quay.io/biocontainers/corneto/1.0.0b2--pyhdfd78af_0
+$ module help quay.io/biocontainers/corneto/1.0.0b2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

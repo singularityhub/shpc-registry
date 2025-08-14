@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/razers3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/razers3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/razers3/container.yaml"
-updated_at: "2025-08-13 03:51:21.550672"
-latest: "3.5.8--haf24da9_6"
+updated_at: "2025-08-14 03:50:12.998435"
+latest: "3.5.8--haf24da9_7"
 container_url: "https://biocontainers.pro/tools/razers3"
 aliases:
  - "razers3"
@@ -15,8 +15,9 @@ versions:
  - "3.5.8--h6dccd9a_4"
  - "3.5.8--h6dccd9a_5"
  - "3.5.8--haf24da9_6"
+ - "3.5.8--haf24da9_7"
 description: "shpc-registry automated BioContainers addition for razers3"
-config: {"url": "https://biocontainers.pro/tools/razers3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for razers3", "latest": {"3.5.8--haf24da9_6": "sha256:a730187662ea79919620df2ecb72b575d2452652134ff91a06b560221b32b106"}, "tags": {"3.5.8--h19e8d03_2": "sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae", "3.5.8--h19e8d03_3": "sha256:3b029bec8af6bdd00a79a510927e89179cee6f388b1f8355e99df0809f3d6945", "3.5.8--h6dccd9a_4": "sha256:2d65a111d157a968ab96dbdd23ca6bdc4e7f69a4114c0c60f3197b99ca379b31", "3.5.8--h6dccd9a_5": "sha256:57ebf7f88e9fa187de5bb1dfd48fb3a56e9839461699eefbab0f03852b39ceee", "3.5.8--haf24da9_6": "sha256:a730187662ea79919620df2ecb72b575d2452652134ff91a06b560221b32b106"}, "docker": "quay.io/biocontainers/razers3", "aliases": {"razers3": "/usr/local/bin/razers3"}}
+config: {"url": "https://biocontainers.pro/tools/razers3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for razers3", "latest": {"3.5.8--haf24da9_7": "sha256:77b0ae740da8a8d4f67b1e6d19e47c0965e616dc2fd416fb7b2233ca237ca09b"}, "tags": {"3.5.8--h19e8d03_2": "sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae", "3.5.8--h19e8d03_3": "sha256:3b029bec8af6bdd00a79a510927e89179cee6f388b1f8355e99df0809f3d6945", "3.5.8--h6dccd9a_4": "sha256:2d65a111d157a968ab96dbdd23ca6bdc4e7f69a4114c0c60f3197b99ca379b31", "3.5.8--h6dccd9a_5": "sha256:57ebf7f88e9fa187de5bb1dfd48fb3a56e9839461699eefbab0f03852b39ceee", "3.5.8--haf24da9_6": "sha256:a730187662ea79919620df2ecb72b575d2452652134ff91a06b560221b32b106", "3.5.8--haf24da9_7": "sha256:77b0ae740da8a8d4f67b1e6d19e47c0965e616dc2fd416fb7b2233ca237ca09b"}, "docker": "quay.io/biocontainers/razers3", "aliases": {"razers3": "/usr/local/bin/razers3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/razers3.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/razers3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/razers3:3.5.8--haf24da9_6
+$ shpc install quay.io/biocontainers/razers3:3.5.8--haf24da9_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/razers3/3.5.8--haf24da9_6
-$ module help quay.io/biocontainers/razers3/3.5.8--haf24da9_6
+$ module load quay.io/biocontainers/razers3/3.5.8--haf24da9_7
+$ module help quay.io/biocontainers/razers3/3.5.8--haf24da9_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
