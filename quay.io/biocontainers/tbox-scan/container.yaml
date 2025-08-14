@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tbox-scan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tbox-scan
 latest:
-  1.0.2--hdfd78af_1: 
-    sha256:364b8ebbc21dea4338e7aacab9bd31e356408eece5be275972f3b9576d79712c
+  1.0.2--hdfd78af_2: 
+    sha256:ed33446507482443db999053970cd6b9e8085316b67359d9e97a28380b51c6c2
 tags:
   1.0.2--hdfd78af_1: 
     sha256:364b8ebbc21dea4338e7aacab9bd31e356408eece5be275972f3b9576d79712c
+  1.0.2--hdfd78af_2: 
+    sha256:ed33446507482443db999053970cd6b9e8085316b67359d9e97a28380b51c6c2
 docker: quay.io/biocontainers/tbox-scan
 aliases:
   tbox-scan: /usr/local/bin/tbox-scan

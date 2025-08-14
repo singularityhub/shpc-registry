@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bte
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bte
 latest:
-  0.9.3--py310h184ae93_0: 
-    sha256:7101d07fa48f566b537ad000235b9096a49c05c6379ad1c0014e1799c3f19dbe
+  0.9.3--py310h184ae93_1: 
+    sha256:458680be32ffeaaf15f0db8626aa3e5af000e870d68fb198a5f71b1bc97f1a40
 tags:
   0.9.0--py39h243b37b_0: 
     sha256:c5c3b26425685b56742b3cbcba4350178166567ca1e0d25578aae6e74b57f5e4
@@ -15,6 +15,8 @@ tags:
     sha256:81ac28b7032674d279326f91301b10af51100865e02eb94fb4ff829767d3ec8b
   0.9.3--py310h184ae93_0: 
     sha256:7101d07fa48f566b537ad000235b9096a49c05c6379ad1c0014e1799c3f19dbe
+  0.9.3--py310h184ae93_1: 
+    sha256:458680be32ffeaaf15f0db8626aa3e5af000e870d68fb198a5f71b1bc97f1a40
 docker: quay.io/biocontainers/bte
 aliases:
   protoc: /usr/local/bin/protoc

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-survcomp
 latest:
-  1.56.0--r44he5774e6_0: 
-    sha256:0f60ca9afd0476d4ff229bb0c38c92195f4ce8c02906e61fbe7c8711cb379901
+  1.56.0--r44he5774e6_1: 
+    sha256:bee32ac1bf648d47f2ecda1936bf8b5bc245f02e91186fa7a79848eddf726aa4
 tags:
   1.44.1--r41hc247a5b_1: 
     sha256:7e9b331f948570c8fe5498279f2f2456342c2a8e7b55aa7d4707e52516497017
@@ -20,4 +20,6 @@ tags:
     sha256:76f9b7aad317368feea89401267420b80a55d6f75ba6f556a662e2bf21fa38ed
   1.56.0--r44he5774e6_0: 
     sha256:0f60ca9afd0476d4ff229bb0c38c92195f4ce8c02906e61fbe7c8711cb379901
+  1.56.0--r44he5774e6_1: 
+    sha256:bee32ac1bf648d47f2ecda1936bf8b5bc245f02e91186fa7a79848eddf726aa4
 docker: quay.io/biocontainers/bioconductor-survcomp
