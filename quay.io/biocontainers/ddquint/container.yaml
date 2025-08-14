@@ -1,0 +1,62 @@
+url: https://biocontainers.pro/tools/ddquint
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ddquint
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:4fda719b4d88f86dfd8f51278cffe52f11d4a50f16604f22b5255dfc184a06ae
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:4fda719b4d88f86dfd8f51278cffe52f11d4a50f16604f22b5255dfc184a06ae
+docker: quay.io/biocontainers/ddquint
+aliases:
+  ddquint: /usr/local/bin/ddquint
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.2: /usr/local/bin/wxrc-3.2
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  send2trash: /usr/local/bin/send2trash
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  xkbcli: /usr/local/bin/xkbcli
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource

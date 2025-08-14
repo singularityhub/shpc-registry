@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/taxburst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taxburst
+latest:
+  0.3.1--pyhdfd78af_0: 
+    sha256:03cbd1b1e5370aaffbf35ae0bf79350b1b4e8cac2bca0205461e7b610e4937e3
+tags:
+  0.3.1--pyhdfd78af_0: 
+    sha256:03cbd1b1e5370aaffbf35ae0bf79350b1b4e8cac2bca0205461e7b610e4937e3
+docker: quay.io/biocontainers/taxburst
+aliases:
+  taxburst: /usr/local/bin/taxburst
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

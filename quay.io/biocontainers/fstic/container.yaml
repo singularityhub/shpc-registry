@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fstic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fstic
+latest:
+  1.0.0--h4349ce8_0: 
+    sha256:170556752d24a2e3edb49434d4f18889554d595b293892bbc4e7bc2cf6c445d3
+tags:
+  1.0.0--h4349ce8_0: 
+    sha256:170556752d24a2e3edb49434d4f18889554d595b293892bbc4e7bc2cf6c445d3
+docker: quay.io/biocontainers/fstic
+aliases:
+  fstic: /usr/local/bin/fstic

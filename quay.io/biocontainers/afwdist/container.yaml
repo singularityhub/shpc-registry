@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/afwdist
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for afwdist
+latest:
+  1.0.0--h4349ce8_0: 
+    sha256:fe1bc4878ba580700413c5cb1ce22a9c6aac3d1b8d2a9269bef03806369f7330
+tags:
+  1.0.0--h4349ce8_0: 
+    sha256:fe1bc4878ba580700413c5cb1ce22a9c6aac3d1b8d2a9269bef03806369f7330
+docker: quay.io/biocontainers/afwdist
+aliases:
+  afwdist: /usr/local/bin/afwdist

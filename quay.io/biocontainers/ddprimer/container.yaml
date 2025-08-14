@@ -1,0 +1,85 @@
+url: https://biocontainers.pro/tools/ddprimer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ddprimer
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:03be4be8de03a0d358191208c9d3b0f44322ebf44f42f19848afd98a9d6d1cdf
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:03be4be8de03a0d358191208c9d3b0f44322ebf44f42f19848afd98a9d6d1cdf
+docker: quay.io/biocontainers/ddprimer
+aliases:
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  ddprimer: /usr/local/bin/ddprimer
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2gff: /usr/local/bin/gff2gff
+  gff2xml: /usr/local/bin/gff2xml
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  roh-viz: /usr/local/bin/roh-viz
+  sort-by-length: /usr/local/bin/sort-by-length
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.2: /usr/local/bin/wxrc-3.2
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  ref-cache: /usr/local/bin/ref-cache
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
