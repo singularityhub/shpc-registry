@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpy2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpy2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpy2/container.yaml"
-updated_at: "2025-08-14 04:04:58.834719"
+updated_at: "2025-08-15 04:07:50.731104"
 latest: "2.9.4"
 container_url: "https://biocontainers.pro/tools/rpy2"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "2.9.4"
+ - "2.9.4--2"
 description: "shpc-registry automated BioContainers addition for rpy2"
-config: {"url": "https://biocontainers.pro/tools/rpy2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpy2", "latest": {"2.9.4": "sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542"}, "tags": {"2.9.4": "sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542"}, "docker": "quay.io/biocontainers/rpy2", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/rpy2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpy2", "latest": {"2.9.4": "sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542"}, "tags": {"2.9.4": "sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542", "2.9.4--2": "sha256:3da465dbc8040234bd38e657da9480b9b634808dcbe2cf639b1e346dcab416b4"}, "docker": "quay.io/biocontainers/rpy2", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpy2.

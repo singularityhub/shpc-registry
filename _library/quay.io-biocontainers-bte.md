@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bte/container.yaml"
-updated_at: "2025-08-14 04:01:53.641889"
-latest: "0.9.3--py310h184ae93_0"
+updated_at: "2025-08-15 04:04:42.040525"
+latest: "0.9.3--py310h184ae93_1"
 container_url: "https://biocontainers.pro/tools/bte"
 aliases:
  - "protoc"
@@ -20,8 +20,9 @@ versions:
  - "0.9.0--py310h5b5d71c_2"
  - "0.9.0--py38h820c706_2"
  - "0.9.3--py310h184ae93_0"
+ - "0.9.3--py310h184ae93_1"
 description: "singularity registry hpc automated addition for bte"
-config: {"url": "https://biocontainers.pro/tools/bte", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bte", "latest": {"0.9.3--py310h184ae93_0": "sha256:7101d07fa48f566b537ad000235b9096a49c05c6379ad1c0014e1799c3f19dbe"}, "tags": {"0.9.0--py39h243b37b_0": "sha256:c5c3b26425685b56742b3cbcba4350178166567ca1e0d25578aae6e74b57f5e4", "0.9.0--py39h243b37b_1": "sha256:a029aef02dd7b6020027b84aac5798b5c5985ed72981dca0d1f87be30eaee4cb", "0.9.0--py310h5b5d71c_2": "sha256:bbf8ea04801e50af36567b04c7c33ab6fa1a24c17e3bfc0e21520bf4a8d54f1f", "0.9.0--py38h820c706_2": "sha256:81ac28b7032674d279326f91301b10af51100865e02eb94fb4ff829767d3ec8b", "0.9.3--py310h184ae93_0": "sha256:7101d07fa48f566b537ad000235b9096a49c05c6379ad1c0014e1799c3f19dbe"}, "docker": "quay.io/biocontainers/bte", "aliases": {"protoc": "/usr/local/bin/protoc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bte", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bte", "latest": {"0.9.3--py310h184ae93_1": "sha256:458680be32ffeaaf15f0db8626aa3e5af000e870d68fb198a5f71b1bc97f1a40"}, "tags": {"0.9.0--py39h243b37b_0": "sha256:c5c3b26425685b56742b3cbcba4350178166567ca1e0d25578aae6e74b57f5e4", "0.9.0--py39h243b37b_1": "sha256:a029aef02dd7b6020027b84aac5798b5c5985ed72981dca0d1f87be30eaee4cb", "0.9.0--py310h5b5d71c_2": "sha256:bbf8ea04801e50af36567b04c7c33ab6fa1a24c17e3bfc0e21520bf4a8d54f1f", "0.9.0--py38h820c706_2": "sha256:81ac28b7032674d279326f91301b10af51100865e02eb94fb4ff829767d3ec8b", "0.9.3--py310h184ae93_0": "sha256:7101d07fa48f566b537ad000235b9096a49c05c6379ad1c0014e1799c3f19dbe", "0.9.3--py310h184ae93_1": "sha256:458680be32ffeaaf15f0db8626aa3e5af000e870d68fb198a5f71b1bc97f1a40"}, "docker": "quay.io/biocontainers/bte", "aliases": {"protoc": "/usr/local/bin/protoc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bte.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bte
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bte:0.9.3--py310h184ae93_0
+$ shpc install quay.io/biocontainers/bte:0.9.3--py310h184ae93_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bte/0.9.3--py310h184ae93_0
-$ module help quay.io/biocontainers/bte/0.9.3--py310h184ae93_0
+$ module load quay.io/biocontainers/bte/0.9.3--py310h184ae93_1
+$ module help quay.io/biocontainers/bte/0.9.3--py310h184ae93_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

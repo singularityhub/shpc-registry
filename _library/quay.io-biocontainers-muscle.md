@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muscle/container.yaml"
-updated_at: "2025-08-14 03:40:41.742217"
-latest: "5.3--h9948957_2"
+updated_at: "2025-08-15 03:42:38.323939"
+latest: "5.3--h9948957_3"
 container_url: "https://biocontainers.pro/tools/muscle"
 aliases:
  - "muscle"
@@ -16,8 +16,9 @@ versions:
  - "5.3--h4ac6f70_0"
  - "5.2--h4ac6f70_0"
  - "5.3--h9948957_2"
+ - "5.3--h9948957_3"
 description: "shpc-registry automated BioContainers addition for muscle"
-config: {"url": "https://biocontainers.pro/tools/muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muscle", "latest": {"5.3--h9948957_2": "sha256:4902236c01a62ae8cbbd7842b0f737cdeb10964e5b0cab43fec2307c2416be9a"}, "tags": {"5.1--h9f5acd7_1": "sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69", "5.1--h9f5acd7_2": "sha256:5145c135276cb6178bdaccec0556b087533f04b44b4d5583d1ac442b3aeb0a68", "5.1--h4ac6f70_3": "sha256:3c1d2f181e13a36880ba757609b7672abc2f3ea09be237cee2510e22c6a60992", "5.3--h4ac6f70_0": "sha256:516e1137f2067651d8cd748c369b8ac255864675040c2120d261ef6cf0d68bbd", "5.2--h4ac6f70_0": "sha256:bb11a1b7a62ff880ff512090ca5147069048207fe0eda92838e3f68aa95a06c8", "5.3--h9948957_2": "sha256:4902236c01a62ae8cbbd7842b0f737cdeb10964e5b0cab43fec2307c2416be9a"}, "docker": "quay.io/biocontainers/muscle", "aliases": {"muscle": "/usr/local/bin/muscle"}}
+config: {"url": "https://biocontainers.pro/tools/muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muscle", "latest": {"5.3--h9948957_3": "sha256:d8a60b266ec5ff7c3be76e2ed3ffb8d42cb4ecc882d5d6e0af6d5c54a428bcdb"}, "tags": {"5.1--h9f5acd7_1": "sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69", "5.1--h9f5acd7_2": "sha256:5145c135276cb6178bdaccec0556b087533f04b44b4d5583d1ac442b3aeb0a68", "5.1--h4ac6f70_3": "sha256:3c1d2f181e13a36880ba757609b7672abc2f3ea09be237cee2510e22c6a60992", "5.3--h4ac6f70_0": "sha256:516e1137f2067651d8cd748c369b8ac255864675040c2120d261ef6cf0d68bbd", "5.2--h4ac6f70_0": "sha256:bb11a1b7a62ff880ff512090ca5147069048207fe0eda92838e3f68aa95a06c8", "5.3--h9948957_2": "sha256:4902236c01a62ae8cbbd7842b0f737cdeb10964e5b0cab43fec2307c2416be9a", "5.3--h9948957_3": "sha256:d8a60b266ec5ff7c3be76e2ed3ffb8d42cb4ecc882d5d6e0af6d5c54a428bcdb"}, "docker": "quay.io/biocontainers/muscle", "aliases": {"muscle": "/usr/local/bin/muscle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/muscle.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/muscle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/muscle:5.3--h9948957_2
+$ shpc install quay.io/biocontainers/muscle:5.3--h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/muscle/5.3--h9948957_2
-$ module help quay.io/biocontainers/muscle/5.3--h9948957_2
+$ module load quay.io/biocontainers/muscle/5.3--h9948957_3
+$ module help quay.io/biocontainers/muscle/5.3--h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

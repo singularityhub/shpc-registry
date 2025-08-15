@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libmuscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmuscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmuscle/container.yaml"
-updated_at: "2025-08-14 03:54:09.845268"
-latest: "3.7--h470a237_1"
+updated_at: "2025-08-15 03:56:55.098980"
+latest: "3.7--h503566f_2"
 container_url: "https://biocontainers.pro/tools/libmuscle"
 
 versions:
  - "3.7--h470a237_1"
+ - "3.7--h503566f_2"
 description: "shpc-registry automated BioContainers addition for libmuscle"
-config: {"url": "https://biocontainers.pro/tools/libmuscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmuscle", "latest": {"3.7--h470a237_1": "sha256:653702fb482a0b91674a1c787db9784f5601f20d1e4474358b68a12cf181ed09"}, "tags": {"3.7--h470a237_1": "sha256:653702fb482a0b91674a1c787db9784f5601f20d1e4474358b68a12cf181ed09"}, "docker": "quay.io/biocontainers/libmuscle"}
+config: {"url": "https://biocontainers.pro/tools/libmuscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmuscle", "latest": {"3.7--h503566f_2": "sha256:426ed4f825bb2b295b8caced6fa7a3fe7c967435701fc4debb607461d4ecf2e8"}, "tags": {"3.7--h470a237_1": "sha256:653702fb482a0b91674a1c787db9784f5601f20d1e4474358b68a12cf181ed09", "3.7--h503566f_2": "sha256:426ed4f825bb2b295b8caced6fa7a3fe7c967435701fc4debb607461d4ecf2e8"}, "docker": "quay.io/biocontainers/libmuscle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libmuscle.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libmuscle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libmuscle:3.7--h470a237_1
+$ shpc install quay.io/biocontainers/libmuscle:3.7--h503566f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libmuscle/3.7--h470a237_1
-$ module help quay.io/biocontainers/libmuscle/3.7--h470a237_1
+$ module load quay.io/biocontainers/libmuscle/3.7--h503566f_2
+$ module help quay.io/biocontainers/libmuscle/3.7--h503566f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

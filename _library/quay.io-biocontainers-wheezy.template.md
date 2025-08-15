@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wheezy.template"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wheezy.template/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wheezy.template/container.yaml"
-updated_at: "2025-08-14 03:27:17.859030"
+updated_at: "2025-08-15 03:28:47.558907"
 latest: "0.1.178--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/wheezy.template"
 aliases:

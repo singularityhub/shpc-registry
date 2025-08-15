@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dna-nn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dna-nn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dna-nn/container.yaml"
-updated_at: "2025-08-14 03:48:39.167740"
-latest: "0.1--h077b44d_2"
+updated_at: "2025-08-15 03:51:09.425608"
+latest: "0.1--h077b44d_3"
 container_url: "https://biocontainers.pro/tools/dna-nn"
 aliases:
  - "dna-brnn"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1--hdcf5f25_1"
  - "0.1--h077b44d_2"
+ - "0.1--h077b44d_3"
 description: "singularity registry hpc automated addition for dna-nn"
-config: {"url": "https://biocontainers.pro/tools/dna-nn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dna-nn", "latest": {"0.1--h077b44d_2": "sha256:250a75501f486881314819c576418f514b642365c56b24a3544fe90344971572"}, "tags": {"0.1--hdcf5f25_1": "sha256:4280b6531853bd3794eafc0e1af334c0f030fd242abc91f30fc985faab5f309d", "0.1--h077b44d_2": "sha256:250a75501f486881314819c576418f514b642365c56b24a3544fe90344971572"}, "docker": "quay.io/biocontainers/dna-nn", "aliases": {"dna-brnn": "/usr/local/bin/dna-brnn", "dna-cnn": "/usr/local/bin/dna-cnn", "gen-fq": "/usr/local/bin/gen-fq", "parse-rm.js": "/usr/local/bin/parse-rm.js", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/dna-nn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dna-nn", "latest": {"0.1--h077b44d_3": "sha256:45030c5b094a98c32f622f765ae2f25c2eacb3890ce5742aa5758e2010d6acd7"}, "tags": {"0.1--hdcf5f25_1": "sha256:4280b6531853bd3794eafc0e1af334c0f030fd242abc91f30fc985faab5f309d", "0.1--h077b44d_2": "sha256:250a75501f486881314819c576418f514b642365c56b24a3544fe90344971572", "0.1--h077b44d_3": "sha256:45030c5b094a98c32f622f765ae2f25c2eacb3890ce5742aa5758e2010d6acd7"}, "docker": "quay.io/biocontainers/dna-nn", "aliases": {"dna-brnn": "/usr/local/bin/dna-brnn", "dna-cnn": "/usr/local/bin/dna-cnn", "gen-fq": "/usr/local/bin/gen-fq", "parse-rm.js": "/usr/local/bin/parse-rm.js", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dna-nn.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/dna-nn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dna-nn:0.1--h077b44d_2
+$ shpc install quay.io/biocontainers/dna-nn:0.1--h077b44d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dna-nn/0.1--h077b44d_2
-$ module help quay.io/biocontainers/dna-nn/0.1--h077b44d_2
+$ module load quay.io/biocontainers/dna-nn/0.1--h077b44d_3
+$ module help quay.io/biocontainers/dna-nn/0.1--h077b44d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

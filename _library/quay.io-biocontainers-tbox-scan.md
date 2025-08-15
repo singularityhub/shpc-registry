@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tbox-scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbox-scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbox-scan/container.yaml"
-updated_at: "2025-08-14 03:45:17.147337"
-latest: "1.0.2--hdfd78af_1"
+updated_at: "2025-08-15 03:47:32.301371"
+latest: "1.0.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/tbox-scan"
 aliases:
  - "tbox-scan"
@@ -21,8 +21,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "1.0.2--hdfd78af_1"
+ - "1.0.2--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for tbox-scan"
-config: {"url": "https://biocontainers.pro/tools/tbox-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbox-scan", "latest": {"1.0.2--hdfd78af_1": "sha256:364b8ebbc21dea4338e7aacab9bd31e356408eece5be275972f3b9576d79712c"}, "tags": {"1.0.2--hdfd78af_1": "sha256:364b8ebbc21dea4338e7aacab9bd31e356408eece5be275972f3b9576d79712c"}, "docker": "quay.io/biocontainers/tbox-scan", "aliases": {"tbox-scan": "/usr/local/bin/tbox-scan", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/tbox-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbox-scan", "latest": {"1.0.2--hdfd78af_2": "sha256:ed33446507482443db999053970cd6b9e8085316b67359d9e97a28380b51c6c2"}, "tags": {"1.0.2--hdfd78af_1": "sha256:364b8ebbc21dea4338e7aacab9bd31e356408eece5be275972f3b9576d79712c", "1.0.2--hdfd78af_2": "sha256:ed33446507482443db999053970cd6b9e8085316b67359d9e97a28380b51c6c2"}, "docker": "quay.io/biocontainers/tbox-scan", "aliases": {"tbox-scan": "/usr/local/bin/tbox-scan", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbox-scan.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tbox-scan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tbox-scan:1.0.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/tbox-scan:1.0.2--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tbox-scan/1.0.2--hdfd78af_1
-$ module help quay.io/biocontainers/tbox-scan/1.0.2--hdfd78af_1
+$ module load quay.io/biocontainers/tbox-scan/1.0.2--hdfd78af_2
+$ module help quay.io/biocontainers/tbox-scan/1.0.2--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
