@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgenometracksdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgenometracksdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgenometracksdata/container.yaml"
-updated_at: "2025-08-15 03:38:56.408982"
+updated_at: "2025-08-15 05:24:11.193376"
 latest: "0.99.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgenometracksdata"
 
