@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/distree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for distree
+latest:
+  1.0.0--h4349ce8_0: 
+    sha256:46cc14910d5608c66366e3285c2d233239434e89bf1376b4323654ac427e73a1
+tags:
+  1.0.0--h4349ce8_0: 
+    sha256:46cc14910d5608c66366e3285c2d233239434e89bf1376b4323654ac427e73a1
+docker: quay.io/biocontainers/distree
+aliases:
+  distree: /usr/local/bin/distree

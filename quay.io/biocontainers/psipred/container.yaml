@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/psipred
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for psipred
+latest:
+  4.0--h7b50bb2_0: 
+    sha256:bd1fdf9b51c353de2641347b1459cd8d18c2859061db056d04bcd53ba57cb8ec
+tags:
+  4.0--h7b50bb2_0: 
+    sha256:bd1fdf9b51c353de2641347b1459cd8d18c2859061db056d04bcd53ba57cb8ec
+docker: quay.io/biocontainers/psipred
+aliases:
+  chkparse: /usr/local/bin/chkparse
+  psipass2: /usr/local/bin/psipass2
+  psipred: /usr/local/bin/psipred
+  runpsipred: /usr/local/bin/runpsipred
+  runpsipred_single: /usr/local/bin/runpsipred_single
+  runpsipredplus: /usr/local/bin/runpsipredplus
+  seq2mtx: /usr/local/bin/seq2mtx
+  tcsh: /usr/local/bin/tcsh
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv
+  psktool: /usr/local/bin/psktool
+  sexp-conv: /usr/local/bin/sexp-conv
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb

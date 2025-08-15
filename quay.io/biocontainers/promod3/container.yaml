@@ -1,0 +1,99 @@
+url: https://biocontainers.pro/tools/promod3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for promod3
+latest:
+  3.6.0--py310h184ae93_0: 
+    sha256:45fc2b349e10d23552bec8bb7b4e88e4b05c5567451cbe731c158c0fba33a7d2
+tags:
+  3.6.0--py310h184ae93_0: 
+    sha256:45fc2b349e10d23552bec8bb7b4e88e4b05c5567451cbe731c158c0fba33a7d2
+docker: quay.io/biocontainers/promod3
+aliases:
+  chemdict_tool: /usr/local/bin/chemdict_tool
+  dng: /usr/local/bin/dng
+  glewinfo: /usr/local/bin/glewinfo
+  lddt: /usr/local/bin/lddt
+  molck: /usr/local/bin/molck
+  ost: /usr/local/bin/ost
+  parasail_aligner: /usr/local/bin/parasail_aligner
+  parasail_stats: /usr/local/bin/parasail_stats
+  pm: /usr/local/bin/pm
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  tmalign: /usr/local/bin/tmalign
+  tmscore: /usr/local/bin/tmscore
+  visualinfo: /usr/local/bin/visualinfo
+  voronota: /usr/local/bin/voronota
+  voronota-cadscore: /usr/local/bin/voronota-cadscore
+  voronota-contacts: /usr/local/bin/voronota-contacts
+  voronota-gl: /usr/local/bin/voronota-gl
+  voronota-js: /usr/local/bin/voronota-js
+  voronota-js-fast-iface-cadscore: 
+    /usr/local/bin/voronota-js-fast-iface-cadscore
+  voronota-js-fast-iface-cadscore-matrix: 
+    /usr/local/bin/voronota-js-fast-iface-cadscore-matrix
+  voronota-js-fast-iface-contacts: 
+    /usr/local/bin/voronota-js-fast-iface-contacts
+  voronota-js-fast-iface-data-graph: 
+    /usr/local/bin/voronota-js-fast-iface-data-graph
+  voronota-js-fast-iface-voromqa: /usr/local/bin/voronota-js-fast-iface-voromqa
+  voronota-js-ifeatures-voromqa: /usr/local/bin/voronota-js-ifeatures-voromqa
+  voronota-js-ligand-cadscore: /usr/local/bin/voronota-js-ligand-cadscore
+  voronota-js-membrane-voromqa: /usr/local/bin/voronota-js-membrane-voromqa
+  voronota-js-only-global-voromqa: 
+    /usr/local/bin/voronota-js-only-global-voromqa
+  voronota-js-pdb-utensil-detect-inter-structure-contacts: 
+    /usr/local/bin/voronota-js-pdb-utensil-detect-inter-structure-contacts
+  voronota-js-pdb-utensil-download-structure: 
+    /usr/local/bin/voronota-js-pdb-utensil-download-structure
+  voronota-js-pdb-utensil-filter-atoms: 
+    /usr/local/bin/voronota-js-pdb-utensil-filter-atoms
+  voronota-js-pdb-utensil-print-sequence-from-structure: 
+    /usr/local/bin/voronota-js-pdb-utensil-print-sequence-from-structure
+  voronota-js-pdb-utensil-rename-chains: 
+    /usr/local/bin/voronota-js-pdb-utensil-rename-chains
+  voronota-js-pdb-utensil-renumber-by-sequence: 
+    /usr/local/bin/voronota-js-pdb-utensil-renumber-by-sequence
+  voronota-js-pdb-utensil-split-to-models: 
+    /usr/local/bin/voronota-js-pdb-utensil-split-to-models
+  voronota-js-voroif-gnn: /usr/local/bin/voronota-js-voroif-gnn
+  voronota-js-voromqa: /usr/local/bin/voronota-js-voromqa
+  voronota-lt: /usr/local/bin/voronota-lt
+  voronota-membrane: /usr/local/bin/voronota-membrane
+  voronota-pocket: /usr/local/bin/voronota-pocket
+  voronota-resources: /usr/local/bin/voronota-resources
+  voronota-volumes: /usr/local/bin/voronota-volumes
+  voronota-voromqa: /usr/local/bin/voronota-voromqa
+  pax11publish: /usr/local/bin/pax11publish
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
