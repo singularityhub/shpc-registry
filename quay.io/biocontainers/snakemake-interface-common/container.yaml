@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-interface-common
 latest:
-  1.20.1--pyhdfd78af_0: 
-    sha256:56aee7d68c829577b77721717ed0d0b5b73cb1c8d7e4cc699c68d8deda92eb24
+  1.21.0--pyhdfd78af_0: 
+    sha256:36fcae59c1fc8ca9bcc347372a2576af108972825c49b77e45a2367151708c0c
 tags:
   1.3.2--pyhdfd78af_0: 
     sha256:7e93336aa4916239ce3f22b8fda19fca1cf7c62ab2c128a208ea0237d43d3654
@@ -46,6 +46,10 @@ tags:
     sha256:56aee7d68c829577b77721717ed0d0b5b73cb1c8d7e4cc699c68d8deda92eb24
   1.19.4--pyhdfd78af_0: 
     sha256:d2205762655ba3c6a83b051b6fef019d8ac1f212fbdd52231ba7a4bf20dd08a2
+  1.21.0--pyhdfd78af_0: 
+    sha256:36fcae59c1fc8ca9bcc347372a2576af108972825c49b77e45a2367151708c0c
+  1.20.2--pyhdfd78af_0: 
+    sha256:18bc426b6ae9495ed7844884f251c4f1c156f2671116d8b04265d720bf93ffbb
 docker: quay.io/biocontainers/snakemake-interface-common
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

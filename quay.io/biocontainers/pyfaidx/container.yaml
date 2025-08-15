@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyfaidx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyfaidx
 latest:
-  0.8.1.4--pyhdfd78af_0: 
-    sha256:b3d59aadb5b9694a6af7be5d72f7cedd72e2e0686eefa6b518ed491ca4f25b3d
+  0.8.2--pyhdfd78af_0: 
+    sha256:10343a9af358545a392e613b283c4dad879a917ec49368496c6cbf2a60a87b66
 tags:
   0.7.1--pyh5e36f6f_0: 
     sha256:c43ce473073b34c4ad0a50ab04a3f392ff3bfbbea93336fe5c16d51ceca27b13
@@ -21,6 +21,8 @@ tags:
     sha256:448ab1fa6c37fc348e598c83001b7dcb271b45609357784244cc8d189e3be84c
   0.8.1.4--pyhdfd78af_0: 
     sha256:b3d59aadb5b9694a6af7be5d72f7cedd72e2e0686eefa6b518ed491ca4f25b3d
+  0.8.2--pyhdfd78af_0: 
+    sha256:10343a9af358545a392e613b283c4dad879a917ec49368496c6cbf2a60a87b66
 docker: quay.io/biocontainers/pyfaidx
 aliases:
   vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

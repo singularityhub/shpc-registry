@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/changeo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for changeo
 latest:
-  1.3.3--pyhdfd78af_0: 
-    sha256:038959650a795a50aeda6934b6d1b8300440253cca5639feee423f1f49e9452c
+  1.3.4--pyhdfd78af_0: 
+    sha256:773d366abfd8b0e9b85d20f80541bab3ac66bc9aa38b97582a59fd4592e48198
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:aa3dc82f13ac8ac5f932b8fa97397bf9138c955196e8c3695b1df5c89ab8d3df
@@ -13,6 +13,8 @@ tags:
     sha256:db2820f381987fe39de1d9e289cfbd00152a2a9523d2c5e4a2e976a56d7fd320
   1.3.3--pyhdfd78af_0: 
     sha256:038959650a795a50aeda6934b6d1b8300440253cca5639feee423f1f49e9452c
+  1.3.4--pyhdfd78af_0: 
+    sha256:773d366abfd8b0e9b85d20f80541bab3ac66bc9aa38b97582a59fd4592e48198
 docker: quay.io/biocontainers/changeo
 aliases:
   AlignRecords.py: /usr/local/bin/AlignRecords.py

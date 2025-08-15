@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_pio_mvapich_4_0
 latest:
-  2.6.5--hf580d27_0: 
-    sha256:f64c967cf94983051e52ca9cfcd86a00bf03dbff03f9b50219e802f96b5dea3a
+  2.6.6--hf580d27_0: 
+    sha256:40ffa4098ee1eacfa0a98ea3680aa0d21d6569c82f6875fefe8378fe457d27f0
 tags:
   2.6.5--hf580d27_0: 
     sha256:f64c967cf94983051e52ca9cfcd86a00bf03dbff03f9b50219e802f96b5dea3a
+  2.6.6--hf580d27_0: 
+    sha256:40ffa4098ee1eacfa0a98ea3680aa0d21d6569c82f6875fefe8378fe457d27f0
 docker: quay.io/biocontainers/esme_pio_mvapich_4_0
 aliases:
   fi_info: /usr/local/bin/fi_info

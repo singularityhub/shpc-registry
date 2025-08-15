@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/viroconstrictor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viroconstrictor
 latest:
-  1.5.4--pyhdfd78af_0: 
-    sha256:01bc3808db3e8be8fce6ab0369b811fcfed24ab13a7a26acddf0417f51f49c2d
+  1.5.5--pyhdfd78af_0: 
+    sha256:c1a932406b5f1b04ac83628d1fd3993d2163b6897e51001af327e8346207c348
 tags:
   1.2.6--pyhdfd78af_0: 
     sha256:ddf08f93f73db8abc301cbe4de578a015d73c3f5e31616f8c9d4d6de1af4e804
@@ -31,6 +31,8 @@ tags:
     sha256:d92935a044dabba584e9f3992bb9ae7707d63baabc7d659c788840ae14fa0f2d
   1.5.4--pyhdfd78af_0: 
     sha256:01bc3808db3e8be8fce6ab0369b811fcfed24ab13a7a26acddf0417f51f49c2d
+  1.5.5--pyhdfd78af_0: 
+    sha256:c1a932406b5f1b04ac83628d1fd3993d2163b6897e51001af327e8346207c348
 docker: quay.io/biocontainers/viroconstrictor
 aliases:
   AminoExtract: /usr/local/bin/AminoExtract
