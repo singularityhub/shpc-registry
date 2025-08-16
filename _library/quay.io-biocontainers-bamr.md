@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamr/container.yaml"
-updated_at: "2025-08-15 05:48:36.594766"
+updated_at: "2025-08-16 03:56:01.013638"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamr"
 aliases:

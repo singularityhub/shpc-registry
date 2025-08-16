@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pfam_scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pfam_scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pfam_scan/container.yaml"
-updated_at: "2025-08-15 05:27:57.508772"
+updated_at: "2025-08-16 03:35:14.598039"
 latest: "1.6--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pfam_scan"
 aliases:

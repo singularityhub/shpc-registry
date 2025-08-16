@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samrefiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samrefiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samrefiner/container.yaml"
-updated_at: "2025-08-15 05:37:36.666148"
+updated_at: "2025-08-16 03:44:39.323812"
 latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samrefiner"
 aliases:

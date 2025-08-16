@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-knitr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-knitr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-knitr/container.yaml"
-updated_at: "2025-08-15 05:15:08.319143"
+updated_at: "2025-08-16 03:22:28.176056"
 latest: "1.12.3--0"
 container_url: "https://biocontainers.pro/tools/r-knitr"
 aliases:

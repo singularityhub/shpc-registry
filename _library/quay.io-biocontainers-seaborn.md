@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seaborn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seaborn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seaborn/container.yaml"
-updated_at: "2025-08-15 05:59:17.371917"
+updated_at: "2025-08-16 04:05:43.501945"
 latest: "0.13.2"
 container_url: "https://biocontainers.pro/tools/seaborn"
 aliases:

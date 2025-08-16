@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyclone/container.yaml"
-updated_at: "2025-08-15 05:33:52.537494"
+updated_at: "2025-08-16 03:40:46.760427"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyclone"
 aliases:

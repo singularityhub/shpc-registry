@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ir/container.yaml"
-updated_at: "2025-08-15 05:43:20.030179"
-latest: "2.8.0--h031d066_6"
+updated_at: "2025-08-16 03:50:39.548155"
+latest: "2.8.0--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/ir"
 aliases:
  - "ir"
@@ -13,8 +13,9 @@ versions:
  - "2.8.0--hec16e2b_4"
  - "2.8.0--hec16e2b_5"
  - "2.8.0--h031d066_6"
+ - "2.8.0--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for ir"
-config: {"url": "https://biocontainers.pro/tools/ir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ir", "latest": {"2.8.0--h031d066_6": "sha256:94ebabf6c337139a96099b44996800777c13bb115b1c5549e16dc1782b6034ab"}, "tags": {"2.8.0--hec16e2b_4": "sha256:a705547b48500cdfa7f6926c11e4139e405a3b7f458ddae8768a43254a92e3b8", "2.8.0--hec16e2b_5": "sha256:d37e8e71d6764c068bdd86f13010d49c63401ac53efaee267f5a25e663d975ed", "2.8.0--h031d066_6": "sha256:94ebabf6c337139a96099b44996800777c13bb115b1c5549e16dc1782b6034ab"}, "docker": "quay.io/biocontainers/ir", "aliases": {"ir": "/usr/local/bin/ir"}}
+config: {"url": "https://biocontainers.pro/tools/ir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ir", "latest": {"2.8.0--h7b50bb2_8": "sha256:f0c86e38a1ac9c8b01cd2beab3c77d1ea90666f571972db4aabd7b71ba6eaca9"}, "tags": {"2.8.0--hec16e2b_4": "sha256:a705547b48500cdfa7f6926c11e4139e405a3b7f458ddae8768a43254a92e3b8", "2.8.0--hec16e2b_5": "sha256:d37e8e71d6764c068bdd86f13010d49c63401ac53efaee267f5a25e663d975ed", "2.8.0--h031d066_6": "sha256:94ebabf6c337139a96099b44996800777c13bb115b1c5549e16dc1782b6034ab", "2.8.0--h7b50bb2_8": "sha256:f0c86e38a1ac9c8b01cd2beab3c77d1ea90666f571972db4aabd7b71ba6eaca9"}, "docker": "quay.io/biocontainers/ir", "aliases": {"ir": "/usr/local/bin/ir"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ir.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ir:2.8.0--h031d066_6
+$ shpc install quay.io/biocontainers/ir:2.8.0--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ir/2.8.0--h031d066_6
-$ module help quay.io/biocontainers/ir/2.8.0--h031d066_6
+$ module load quay.io/biocontainers/ir/2.8.0--h7b50bb2_8
+$ module help quay.io/biocontainers/ir/2.8.0--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

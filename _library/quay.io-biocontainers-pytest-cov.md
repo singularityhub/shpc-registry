@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-cov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-cov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-cov/container.yaml"
-updated_at: "2025-08-15 05:41:47.362391"
+updated_at: "2025-08-16 03:49:02.036513"
 latest: "2.4.0--py34_0"
 container_url: "https://biocontainers.pro/tools/pytest-cov"
 aliases:

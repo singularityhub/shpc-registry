@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ashlar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ashlar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ashlar/container.yaml"
-updated_at: "2025-08-15 05:35:29.205784"
+updated_at: "2025-08-16 03:42:27.830308"
 latest: "1.19.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ashlar"
 aliases:

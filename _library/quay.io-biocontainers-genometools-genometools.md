@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genometools-genometools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometools-genometools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometools-genometools/container.yaml"
-updated_at: "2025-08-15 05:29:54.633272"
-latest: "1.6.5--py38h234d545_3"
+updated_at: "2025-08-16 03:36:59.978625"
+latest: "1.6.5--py39h096c0ac_4"
 container_url: "https://biocontainers.pro/tools/genometools-genometools"
 aliases:
  - "genometools-config"
@@ -23,8 +23,9 @@ versions:
  - "1.6.5--py310h3db02ab_0"
  - "1.6.5--py38hf7b97cc_1"
  - "1.6.5--py38h234d545_3"
+ - "1.6.5--py39h096c0ac_4"
 description: "shpc-registry automated BioContainers addition for genometools-genometools"
-config: {"url": "https://biocontainers.pro/tools/genometools-genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools-genometools", "latest": {"1.6.5--py38h234d545_3": "sha256:18bbb5910f80141d7dd7edc7111016d75cb3889355b5d16ea325d028861d1caa"}, "tags": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87", "1.6.2--py310he7ef181_4": "sha256:0e1dd9d0291cc80debd77b89d0b2b0d953eb142926864e779a2d341bbe6d95ad", "1.6.2--py38hf7b97cc_6": "sha256:76a74f69d55a9b690de5acf7e9b9dd3250ba466a591b6048ab7dc19dc3d2ac4b", "1.6.3--py39h58cc16e_0": "sha256:12bfb73e1f2aba122dccb0531094638557b685d5620cd8ec8d648041d483e293", "1.6.5--py310h3db02ab_0": "sha256:65d7359028377625e74677325e9f2383a0cbe0115d449777e18d70f0d9893fae", "1.6.5--py38hf7b97cc_1": "sha256:930cd315d7ec168d5b595210c11f10e459f6998f0929d1672f98c5723c8c073a", "1.6.5--py38h234d545_3": "sha256:18bbb5910f80141d7dd7edc7111016d75cb3889355b5d16ea325d028861d1caa"}, "docker": "quay.io/biocontainers/genometools-genometools", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/genometools-genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools-genometools", "latest": {"1.6.5--py39h096c0ac_4": "sha256:7fb16c6151332185cff6b2887bb50c2a5943407e14b6d45e343c9b64c417dfd1"}, "tags": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87", "1.6.2--py310he7ef181_4": "sha256:0e1dd9d0291cc80debd77b89d0b2b0d953eb142926864e779a2d341bbe6d95ad", "1.6.2--py38hf7b97cc_6": "sha256:76a74f69d55a9b690de5acf7e9b9dd3250ba466a591b6048ab7dc19dc3d2ac4b", "1.6.3--py39h58cc16e_0": "sha256:12bfb73e1f2aba122dccb0531094638557b685d5620cd8ec8d648041d483e293", "1.6.5--py310h3db02ab_0": "sha256:65d7359028377625e74677325e9f2383a0cbe0115d449777e18d70f0d9893fae", "1.6.5--py38hf7b97cc_1": "sha256:930cd315d7ec168d5b595210c11f10e459f6998f0929d1672f98c5723c8c073a", "1.6.5--py38h234d545_3": "sha256:18bbb5910f80141d7dd7edc7111016d75cb3889355b5d16ea325d028861d1caa", "1.6.5--py39h096c0ac_4": "sha256:7fb16c6151332185cff6b2887bb50c2a5943407e14b6d45e343c9b64c417dfd1"}, "docker": "quay.io/biocontainers/genometools-genometools", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genometools-genometools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/genometools-genometools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genometools-genometools:1.6.5--py38h234d545_3
+$ shpc install quay.io/biocontainers/genometools-genometools:1.6.5--py39h096c0ac_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genometools-genometools/1.6.5--py38h234d545_3
-$ module help quay.io/biocontainers/genometools-genometools/1.6.5--py38h234d545_3
+$ module load quay.io/biocontainers/genometools-genometools/1.6.5--py39h096c0ac_4
+$ module help quay.io/biocontainers/genometools-genometools/1.6.5--py39h096c0ac_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

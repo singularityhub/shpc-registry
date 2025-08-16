@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dapcy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dapcy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dapcy/container.yaml"
-updated_at: "2025-08-15 06:01:11.827491"
-latest: "1.3.0.post1--pyhdfd78af_0"
+updated_at: "2025-08-16 04:07:41.462381"
+latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dapcy"
 aliases:
  - "qconvex"
@@ -37,8 +37,9 @@ versions:
  - "0.1.1--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
  - "1.3.0.post1--pyhdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dapcy"
-config: {"url": "https://biocontainers.pro/tools/dapcy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dapcy", "latest": {"1.3.0.post1--pyhdfd78af_0": "sha256:e54cf7ecaa5d2a0e955d0f66aa9dbc20fe132d9d46a353a23d895a51c10f6d85"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864", "1.0.1--pyhdfd78af_0": "sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397", "1.3.0.post1--pyhdfd78af_0": "sha256:e54cf7ecaa5d2a0e955d0f66aa9dbc20fe132d9d46a353a23d895a51c10f6d85"}, "docker": "quay.io/biocontainers/dapcy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "dask": "/usr/local/bin/dask", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh"}}
+config: {"url": "https://biocontainers.pro/tools/dapcy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dapcy", "latest": {"1.3.1--pyhdfd78af_0": "sha256:22fda6e1f4a49787266b3a4b47f640fd525eb135c6cebdbd501c4654cdbb0d74"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864", "1.0.1--pyhdfd78af_0": "sha256:498fed56cf646bf277b5cf77d06906e87ac1494eb314890aefae605990bca397", "1.3.0.post1--pyhdfd78af_0": "sha256:e54cf7ecaa5d2a0e955d0f66aa9dbc20fe132d9d46a353a23d895a51c10f6d85", "1.3.1--pyhdfd78af_0": "sha256:22fda6e1f4a49787266b3a4b47f640fd525eb135c6cebdbd501c4654cdbb0d74"}, "docker": "quay.io/biocontainers/dapcy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "dask": "/usr/local/bin/dask", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dapcy.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/dapcy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dapcy:1.3.0.post1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dapcy:1.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dapcy/1.3.0.post1--pyhdfd78af_0
-$ module help quay.io/biocontainers/dapcy/1.3.0.post1--pyhdfd78af_0
+$ module load quay.io/biocontainers/dapcy/1.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/dapcy/1.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

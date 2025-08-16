@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genome-uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome-uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome-uploader/container.yaml"
-updated_at: "2025-08-15 05:54:36.368558"
+updated_at: "2025-08-16 04:01:25.807022"
 latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genome-uploader"
 aliases:

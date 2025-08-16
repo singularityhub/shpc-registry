@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifi_trimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifi_trimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifi_trimmer/container.yaml"
-updated_at: "2025-08-15 05:31:49.412862"
+updated_at: "2025-08-16 03:38:42.635849"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hifi_trimmer"
 aliases:

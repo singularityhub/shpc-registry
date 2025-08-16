@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selenzy_wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selenzy_wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selenzy_wrapper/container.yaml"
-updated_at: "2025-08-15 05:23:54.710102"
+updated_at: "2025-08-16 03:31:31.468240"
 latest: "0.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/selenzy_wrapper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gpatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpatch/container.yaml"
-updated_at: "2025-08-15 05:51:19.338890"
+updated_at: "2025-08-16 03:58:29.834180"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpatch"
 aliases:

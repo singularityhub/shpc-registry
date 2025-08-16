@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquila"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquila/container.yaml"
-updated_at: "2025-08-15 05:41:27.506620"
+updated_at: "2025-08-16 03:48:40.890453"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/aquila"
 aliases:

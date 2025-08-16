@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multtest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multtest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multtest/container.yaml"
-updated_at: "2025-08-15 05:37:45.540687"
+updated_at: "2025-08-16 03:44:48.421333"
 latest: "2.62.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-multtest"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgap2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgap2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgap2/container.yaml"
-updated_at: "2025-08-15 05:23:04.759247"
-latest: "1.0.4--pyhdfd78af_0"
+updated_at: "2025-08-16 03:30:47.421727"
+latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgap2"
 aliases:
  - "ClonalFrameML"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "1.0.3--pyhdfd78af_0"
  - "1.0.4--pyhdfd78af_0"
+ - "1.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pgap2"
-config: {"url": "https://biocontainers.pro/tools/pgap2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgap2", "latest": {"1.0.4--pyhdfd78af_0": "sha256:839d7eb05b5ed6a903d4f32b60bd61ebb0e2af923b96754c11465ea56efba292"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:aed887ef1ac44e627739a0bacba705ce04cb51437289f669a686af6c1e1540de", "1.0.4--pyhdfd78af_0": "sha256:839d7eb05b5ed6a903d4f32b60bd61ebb0e2af923b96754c11465ea56efba292"}, "docker": "quay.io/biocontainers/pgap2", "aliases": {"ClonalFrameML": "/usr/local/bin/ClonalFrameML", "RNAconsensus": "/usr/local/bin/RNAconsensus", "clipkit": "/usr/local/bin/clipkit", "fitsverify": "/usr/local/bin/fitsverify", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "miniprot": "/usr/local/bin/miniprot", "minizip": "/usr/local/bin/minizip", "pgap2": "/usr/local/bin/pgap2", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "run_fastbaps": "/usr/local/bin/run_fastbaps", "tajimas_d": "/usr/local/bin/tajimas_d", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "sozip": "/usr/local/bin/sozip", "trust": "/usr/local/bin/trust", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "bsdunzip": "/usr/local/bin/bsdunzip", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "iqtree2": "/usr/local/bin/iqtree2", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload"}}
+config: {"url": "https://biocontainers.pro/tools/pgap2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgap2", "latest": {"1.0.6--pyhdfd78af_0": "sha256:40b46f57b1ea861d1d30e1b6fc0df3c149b6c82721b27f38af4f2f39aa193369"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:aed887ef1ac44e627739a0bacba705ce04cb51437289f669a686af6c1e1540de", "1.0.4--pyhdfd78af_0": "sha256:839d7eb05b5ed6a903d4f32b60bd61ebb0e2af923b96754c11465ea56efba292", "1.0.6--pyhdfd78af_0": "sha256:40b46f57b1ea861d1d30e1b6fc0df3c149b6c82721b27f38af4f2f39aa193369"}, "docker": "quay.io/biocontainers/pgap2", "aliases": {"ClonalFrameML": "/usr/local/bin/ClonalFrameML", "RNAconsensus": "/usr/local/bin/RNAconsensus", "clipkit": "/usr/local/bin/clipkit", "fitsverify": "/usr/local/bin/fitsverify", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "miniprot": "/usr/local/bin/miniprot", "minizip": "/usr/local/bin/minizip", "pgap2": "/usr/local/bin/pgap2", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "run_fastbaps": "/usr/local/bin/run_fastbaps", "tajimas_d": "/usr/local/bin/tajimas_d", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "sozip": "/usr/local/bin/sozip", "trust": "/usr/local/bin/trust", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "bsdunzip": "/usr/local/bin/bsdunzip", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "iqtree2": "/usr/local/bin/iqtree2", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgap2.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/pgap2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgap2:1.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pgap2:1.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgap2/1.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/pgap2/1.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/pgap2/1.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/pgap2/1.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

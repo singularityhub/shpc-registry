@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_pio_mvapich_4_0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_pio_mvapich_4_0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_pio_mvapich_4_0/container.yaml"
-updated_at: "2025-08-15 05:20:49.060233"
-latest: "2.6.5--hf580d27_0"
+updated_at: "2025-08-16 03:28:29.748830"
+latest: "2.6.6--hf580d27_0"
 container_url: "https://biocontainers.pro/tools/esme_pio_mvapich_4_0"
 aliases:
  - "fi_info"
@@ -38,8 +38,9 @@ aliases:
  - "nl-classid-lookup"
 versions:
  - "2.6.5--hf580d27_0"
+ - "2.6.6--hf580d27_0"
 description: "singularity registry hpc automated addition for esme_pio_mvapich_4_0"
-config: {"url": "https://biocontainers.pro/tools/esme_pio_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_pio_mvapich_4_0", "latest": {"2.6.5--hf580d27_0": "sha256:f64c967cf94983051e52ca9cfcd86a00bf03dbff03f9b50219e802f96b5dea3a"}, "tags": {"2.6.5--hf580d27_0": "sha256:f64c967cf94983051e52ca9cfcd86a00bf03dbff03f9b50219e802f96b5dea3a"}, "docker": "quay.io/biocontainers/esme_pio_mvapich_4_0", "aliases": {"fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup"}}
+config: {"url": "https://biocontainers.pro/tools/esme_pio_mvapich_4_0", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_pio_mvapich_4_0", "latest": {"2.6.6--hf580d27_0": "sha256:40ffa4098ee1eacfa0a98ea3680aa0d21d6569c82f6875fefe8378fe457d27f0"}, "tags": {"2.6.5--hf580d27_0": "sha256:f64c967cf94983051e52ca9cfcd86a00bf03dbff03f9b50219e802f96b5dea3a", "2.6.6--hf580d27_0": "sha256:40ffa4098ee1eacfa0a98ea3680aa0d21d6569c82f6875fefe8378fe457d27f0"}, "docker": "quay.io/biocontainers/esme_pio_mvapich_4_0", "aliases": {"fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_pio_mvapich_4_0.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/esme_pio_mvapich_4_0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_pio_mvapich_4_0:2.6.5--hf580d27_0
+$ shpc install quay.io/biocontainers/esme_pio_mvapich_4_0:2.6.6--hf580d27_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_pio_mvapich_4_0/2.6.5--hf580d27_0
-$ module help quay.io/biocontainers/esme_pio_mvapich_4_0/2.6.5--hf580d27_0
+$ module load quay.io/biocontainers/esme_pio_mvapich_4_0/2.6.6--hf580d27_0
+$ module help quay.io/biocontainers/esme_pio_mvapich_4_0/2.6.6--hf580d27_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
