@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/phlame
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phlame
 latest:
-  1.0.8--pyhdfd78af_0: 
-    sha256:1a1872c9c68f688b3e042d1a6c35dc25edc60d279ed21a5e7f242ee67f200f8c
+  1.1.0--pyhdfd78af_0: 
+    sha256:4a0f9fccd7d5ed7bd28c48d87414495822aab4c3265ff723c3ba4eda9132a49c
 tags:
   1.0.8--pyhdfd78af_0: 
     sha256:1a1872c9c68f688b3e042d1a6c35dc25edc60d279ed21a5e7f242ee67f200f8c
+  1.1.0--pyhdfd78af_0: 
+    sha256:4a0f9fccd7d5ed7bd28c48d87414495822aab4c3265ff723c3ba4eda9132a49c
 docker: quay.io/biocontainers/phlame
 aliases:
   pax11publish: /usr/local/bin/pax11publish

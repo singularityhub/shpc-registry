@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/svtopovz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svtopovz
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:c7b487708195bd338d390cea21f5388619d26a2f8ba5bf85afac1359fccdbbbf
+  0.3.0--pyhdfd78af_0: 
+    sha256:c0dd906246d5ecde7ba93f98146c0c0654b66f847843f9c93a2509cf1dc779ca
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:acd7e2e8e5c2e4edc86a8284cba40423ff98b8a2bc018c34e3e311f8347a6de2
@@ -11,6 +11,8 @@ tags:
     sha256:a0c55b574579879b69733d150545dceec2304067f15e724af2865e4dddda01d5
   0.2.0--pyhdfd78af_0: 
     sha256:c7b487708195bd338d390cea21f5388619d26a2f8ba5bf85afac1359fccdbbbf
+  0.3.0--pyhdfd78af_0: 
+    sha256:c0dd906246d5ecde7ba93f98146c0c0654b66f847843f9c93a2509cf1dc779ca
 docker: quay.io/biocontainers/svtopovz
 aliases:
   svtopovz: /usr/local/bin/svtopovz

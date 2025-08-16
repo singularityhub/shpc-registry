@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tortoize
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tortoize
 latest:
-  2.0.15--haf24da9_0: 
-    sha256:db076092de8cd90efaf881ea506e97dd2ca2b4b3aaf15651a236fab649088ca6
+  2.0.15--haf24da9_1: 
+    sha256:cf56b3410bbbbe3199cd11345b86e86b610a3631933887a7e167a57a3c5fe94c
 tags:
   2.0.15--haf24da9_0: 
     sha256:db076092de8cd90efaf881ea506e97dd2ca2b4b3aaf15651a236fab649088ca6
+  2.0.15--haf24da9_1: 
+    sha256:cf56b3410bbbbe3199cd11345b86e86b610a3631933887a7e167a57a3c5fe94c
 docker: quay.io/biocontainers/tortoize
 aliases:
   mkdssp: /usr/local/bin/mkdssp

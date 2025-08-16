@@ -12,6 +12,8 @@ tags:
     sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f
   0.10.1--1: 
     sha256:1aebd005b07662125dc7aa8a334ce1735a91577ecfd878352eac66ce07425a3f
+  0.10.1--2: 
+    sha256:e79099dc16351335d32232cdb8cd27169c58435712250b3e8d27b05eccd71b21
 docker: quay.io/biocontainers/chembl_webresource_client
 aliases:
   chembl_act: /usr/local/bin/chembl_act

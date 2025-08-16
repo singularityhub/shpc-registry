@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kraken-ea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kraken-ea
 latest:
-  0.10.5ea.3--pl526ha92aebf_3: 
-    sha256:1132b67ea0367f52f127c0c1111b09d5672760a964a0ac0ffcd178dffb9633a3
+  0.10.5ea.3--pl5321h077b44d_5: 
+    sha256:6056315672d0427bde208ae7fa9d322b438b0a787cafefd74db5c1e57f0e5f2c
 tags:
   0.10.5ea.3--pl526ha92aebf_3: 
     sha256:1132b67ea0367f52f127c0c1111b09d5672760a964a0ac0ffcd178dffb9633a3
+  0.10.5ea.3--pl5321h077b44d_5: 
+    sha256:6056315672d0427bde208ae7fa9d322b438b0a787cafefd74db5c1e57f0e5f2c
 docker: quay.io/biocontainers/kraken-ea
 aliases:
   kraken: /usr/local/bin/kraken
