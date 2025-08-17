@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eukulele"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukulele/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukulele/container.yaml"
-updated_at: "2025-08-16 03:40:54.834935"
+updated_at: "2025-08-17 03:51:47.416497"
 latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eukulele"
 aliases:

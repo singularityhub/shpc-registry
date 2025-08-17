@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paragraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paragraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paragraph/container.yaml"
-updated_at: "2025-08-16 03:17:01.744329"
+updated_at: "2025-08-17 03:28:44.461662"
 latest: "2.3--h21f15d8_1"
 container_url: "https://biocontainers.pro/tools/paragraph"
 aliases:

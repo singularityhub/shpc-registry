@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magcluster/container.yaml"
-updated_at: "2025-08-16 04:01:11.477219"
+updated_at: "2025-08-17 04:11:47.088785"
 latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magcluster"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgdspider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgdspider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgdspider/container.yaml"
-updated_at: "2025-08-16 03:20:44.008920"
+updated_at: "2025-08-17 03:32:17.384537"
 latest: "2.1.1.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pgdspider"
 aliases:

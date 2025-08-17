@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/karect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/karect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/karect/container.yaml"
-updated_at: "2025-08-16 03:59:51.658786"
-latest: "1.0--h9948957_7"
+updated_at: "2025-08-17 04:10:28.777760"
+latest: "1.0--h9948957_9"
 container_url: "https://biocontainers.pro/tools/karect"
 aliases:
  - "karect"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h9f5acd7_4"
  - "1.0--h4ac6f70_6"
  - "1.0--h9948957_7"
+ - "1.0--h9948957_9"
 description: "shpc-registry automated BioContainers addition for karect"
-config: {"url": "https://biocontainers.pro/tools/karect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karect", "latest": {"1.0--h9948957_7": "sha256:05c73faa622c6d27d1c24ee19adf7947cb055284e341b878c318bf1fff9df9d0"}, "tags": {"1.0--h9f5acd7_4": "sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df", "1.0--h4ac6f70_6": "sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389", "1.0--h9948957_7": "sha256:05c73faa622c6d27d1c24ee19adf7947cb055284e341b878c318bf1fff9df9d0"}, "docker": "quay.io/biocontainers/karect", "aliases": {"karect": "/usr/local/bin/karect"}}
+config: {"url": "https://biocontainers.pro/tools/karect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karect", "latest": {"1.0--h9948957_9": "sha256:9c4d286298865c530161bb793464a2ccaea569f5128220532724f050f70544d2"}, "tags": {"1.0--h9f5acd7_4": "sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df", "1.0--h4ac6f70_6": "sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389", "1.0--h9948957_7": "sha256:05c73faa622c6d27d1c24ee19adf7947cb055284e341b878c318bf1fff9df9d0", "1.0--h9948957_9": "sha256:9c4d286298865c530161bb793464a2ccaea569f5128220532724f050f70544d2"}, "docker": "quay.io/biocontainers/karect", "aliases": {"karect": "/usr/local/bin/karect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/karect.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/karect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/karect:1.0--h9948957_7
+$ shpc install quay.io/biocontainers/karect:1.0--h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/karect/1.0--h9948957_7
-$ module help quay.io/biocontainers/karect/1.0--h9948957_7
+$ module load quay.io/biocontainers/karect/1.0--h9948957_9
+$ module help quay.io/biocontainers/karect/1.0--h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

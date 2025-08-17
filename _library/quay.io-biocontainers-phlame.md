@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phlame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phlame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phlame/container.yaml"
-updated_at: "2025-08-16 03:40:53.106832"
-latest: "1.0.8--pyhdfd78af_0"
+updated_at: "2025-08-17 03:51:45.719271"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phlame"
 aliases:
  - "pax11publish"
@@ -37,8 +37,9 @@ aliases:
  - "balsam"
 versions:
  - "1.0.8--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phlame"
-config: {"url": "https://biocontainers.pro/tools/phlame", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phlame", "latest": {"1.0.8--pyhdfd78af_0": "sha256:1a1872c9c68f688b3e042d1a6c35dc25edc60d279ed21a5e7f242ee67f200f8c"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:1a1872c9c68f688b3e042d1a6c35dc25edc60d279ed21a5e7f242ee67f200f8c"}, "docker": "quay.io/biocontainers/phlame", "aliases": {"pax11publish": "/usr/local/bin/pax11publish", "phlame": "/usr/local/bin/phlame", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
+config: {"url": "https://biocontainers.pro/tools/phlame", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phlame", "latest": {"1.1.0--pyhdfd78af_0": "sha256:4a0f9fccd7d5ed7bd28c48d87414495822aab4c3265ff723c3ba4eda9132a49c"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:1a1872c9c68f688b3e042d1a6c35dc25edc60d279ed21a5e7f242ee67f200f8c", "1.1.0--pyhdfd78af_0": "sha256:4a0f9fccd7d5ed7bd28c48d87414495822aab4c3265ff723c3ba4eda9132a49c"}, "docker": "quay.io/biocontainers/phlame", "aliases": {"pax11publish": "/usr/local/bin/pax11publish", "phlame": "/usr/local/bin/phlame", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phlame.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/phlame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phlame:1.0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phlame:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phlame/1.0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/phlame/1.0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/phlame/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phlame/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

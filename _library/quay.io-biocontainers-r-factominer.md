@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-factominer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-factominer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-factominer/container.yaml"
-updated_at: "2025-08-16 03:29:45.347086"
+updated_at: "2025-08-17 03:40:58.236036"
 latest: "1.38--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-factominer"
 aliases:

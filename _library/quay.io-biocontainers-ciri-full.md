@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ciri-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciri-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciri-full/container.yaml"
-updated_at: "2025-08-16 03:45:52.543501"
-latest: "2.1.2--hdfd78af_0"
+updated_at: "2025-08-17 03:56:40.511615"
+latest: "2.1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ciri-full"
 aliases:
  - "CIRI"
@@ -41,8 +41,9 @@ aliases:
  - "javap"
 versions:
  - "2.1.2--hdfd78af_0"
+ - "2.1.2--hdfd78af_1"
 description: "singularity registry hpc automated addition for ciri-full"
-config: {"url": "https://biocontainers.pro/tools/ciri-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ciri-full", "latest": {"2.1.2--hdfd78af_0": "sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403"}, "tags": {"2.1.2--hdfd78af_0": "sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403"}, "docker": "quay.io/biocontainers/ciri-full", "aliases": {"CIRI": "/usr/local/bin/CIRI", "CIRI-AS": "/usr/local/bin/CIRI-AS", "CIRI-AS.pl": "/usr/local/bin/CIRI-AS.pl", "CIRI-full": "/usr/local/bin/CIRI-full", "CIRI-full.jar": "/usr/local/bin/CIRI-full.jar", "CIRI.pl": "/usr/local/bin/CIRI.pl", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
+config: {"url": "https://biocontainers.pro/tools/ciri-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ciri-full", "latest": {"2.1.2--hdfd78af_1": "sha256:5a6b789f1e15814b7a49cd8e10d09899c77fa99cef27bf47038db60833233cf8"}, "tags": {"2.1.2--hdfd78af_0": "sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403", "2.1.2--hdfd78af_1": "sha256:5a6b789f1e15814b7a49cd8e10d09899c77fa99cef27bf47038db60833233cf8"}, "docker": "quay.io/biocontainers/ciri-full", "aliases": {"CIRI": "/usr/local/bin/CIRI", "CIRI-AS": "/usr/local/bin/CIRI-AS", "CIRI-AS.pl": "/usr/local/bin/CIRI-AS.pl", "CIRI-full": "/usr/local/bin/CIRI-full", "CIRI-full.jar": "/usr/local/bin/CIRI-full.jar", "CIRI.pl": "/usr/local/bin/CIRI.pl", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ciri-full.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/ciri-full
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ciri-full:2.1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/ciri-full:2.1.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ciri-full/2.1.2--hdfd78af_0
-$ module help quay.io/biocontainers/ciri-full/2.1.2--hdfd78af_0
+$ module load quay.io/biocontainers/ciri-full/2.1.2--hdfd78af_1
+$ module help quay.io/biocontainers/ciri-full/2.1.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

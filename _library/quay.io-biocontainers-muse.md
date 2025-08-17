@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/muse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muse/container.yaml"
-updated_at: "2025-08-16 04:01:59.165695"
+updated_at: "2025-08-17 04:12:33.717164"
 latest: "2.1.2--h3b3e331_3"
 container_url: "https://biocontainers.pro/tools/muse"
 aliases:

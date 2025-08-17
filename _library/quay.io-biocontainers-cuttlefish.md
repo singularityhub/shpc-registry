@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cuttlefish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cuttlefish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cuttlefish/container.yaml"
-updated_at: "2025-08-16 03:56:01.586973"
-latest: "2.2.0--h6a68c12_3"
+updated_at: "2025-08-17 04:06:43.810839"
+latest: "2.2.0--h6b3f7d6_5"
 container_url: "https://biocontainers.pro/tools/cuttlefish"
 aliases:
  - "cuttlefish"
@@ -15,8 +15,9 @@ versions:
  - "2.2.0--hf1761c0_0"
  - "2.2.0--h6a68c12_2"
  - "2.2.0--h6a68c12_3"
+ - "2.2.0--h6b3f7d6_5"
 description: "shpc-registry automated BioContainers addition for cuttlefish"
-config: {"url": "https://biocontainers.pro/tools/cuttlefish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cuttlefish", "latest": {"2.2.0--h6a68c12_3": "sha256:69a7d519944f015be2a9246d9ac2612bf2d200c05e2b6b5dd3f8a0e6678c535a"}, "tags": {"2.1.0--hf1761c0_0": "sha256:aa009abd48c372125e060d39f49f1690be74b6dac276d451bf1cc4c847a914d6", "2.1.1--hf1761c0_0": "sha256:8bccced83dd6bbf87843cf08851563c812ef7c36afda2efbcf0d54f9102b913f", "2.2.0--hf1761c0_0": "sha256:63cdd7778b144a37684ae53b8e760ed00852f3010aa79292b3f1a6a6470f0992", "2.2.0--h6a68c12_2": "sha256:3686e0b6e29fad1b1c4e345b5ed9a84c02535b59740f2d8be80014c9bf34c891", "2.2.0--h6a68c12_3": "sha256:69a7d519944f015be2a9246d9ac2612bf2d200c05e2b6b5dd3f8a0e6678c535a"}, "docker": "quay.io/biocontainers/cuttlefish", "aliases": {"cuttlefish": "/usr/local/bin/cuttlefish"}}
+config: {"url": "https://biocontainers.pro/tools/cuttlefish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cuttlefish", "latest": {"2.2.0--h6b3f7d6_5": "sha256:9c99fde753a6bd60022602e69317806f363cf998b463821d2ea6ecaf0c0e11f2"}, "tags": {"2.1.0--hf1761c0_0": "sha256:aa009abd48c372125e060d39f49f1690be74b6dac276d451bf1cc4c847a914d6", "2.1.1--hf1761c0_0": "sha256:8bccced83dd6bbf87843cf08851563c812ef7c36afda2efbcf0d54f9102b913f", "2.2.0--hf1761c0_0": "sha256:63cdd7778b144a37684ae53b8e760ed00852f3010aa79292b3f1a6a6470f0992", "2.2.0--h6a68c12_2": "sha256:3686e0b6e29fad1b1c4e345b5ed9a84c02535b59740f2d8be80014c9bf34c891", "2.2.0--h6a68c12_3": "sha256:69a7d519944f015be2a9246d9ac2612bf2d200c05e2b6b5dd3f8a0e6678c535a", "2.2.0--h6b3f7d6_5": "sha256:9c99fde753a6bd60022602e69317806f363cf998b463821d2ea6ecaf0c0e11f2"}, "docker": "quay.io/biocontainers/cuttlefish", "aliases": {"cuttlefish": "/usr/local/bin/cuttlefish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cuttlefish.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/cuttlefish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cuttlefish:2.2.0--h6a68c12_3
+$ shpc install quay.io/biocontainers/cuttlefish:2.2.0--h6b3f7d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cuttlefish/2.2.0--h6a68c12_3
-$ module help quay.io/biocontainers/cuttlefish/2.2.0--h6a68c12_3
+$ module load quay.io/biocontainers/cuttlefish/2.2.0--h6b3f7d6_5
+$ module help quay.io/biocontainers/cuttlefish/2.2.0--h6b3f7d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
