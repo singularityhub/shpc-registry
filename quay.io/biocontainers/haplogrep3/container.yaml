@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/haplogrep3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haplogrep3
 latest:
-  3.2.2--hdfd78af_0: 
-    sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6
+  3.2.2--hdfd78af_1: 
+    sha256:089c23a368cb6d0e9889ed8f1593c148537a2cb951b4c453324113375dce4e30
 tags:
   3.2.2--hdfd78af_0: 
     sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6
+  3.2.2--hdfd78af_1: 
+    sha256:089c23a368cb6d0e9889ed8f1593c148537a2cb951b4c453324113375dce4e30
 docker: quay.io/biocontainers/haplogrep3
 aliases:
   haplogrep3: /usr/local/bin/haplogrep3

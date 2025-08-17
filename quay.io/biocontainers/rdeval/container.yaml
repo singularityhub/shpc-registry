@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rdeval
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rdeval
 latest:
-  0.0.7--r44h35c04b2_1: 
-    sha256:af5e8b890270c37b0d437e883b81bc682dfac4672fb3230efc2fe5ec81136f99
+  0.0.7--r44h35c04b2_2: 
+    sha256:6caa9b5f72f759ae2c64e59e38904b70072f90392ebb76ee4d2b85923db3b49b
 tags:
   0.0.2--hdcf5f25_1: 
     sha256:3aebbe70df71e3c8c642ad5dea11f9ef431afad30631bcb96451abdcf5f02c24
@@ -13,6 +13,8 @@ tags:
     sha256:51782ae6867e69707bacb7d1b37094f969e6adf46507d9de7a03bf52c3a67eb7
   0.0.7--r44h35c04b2_1: 
     sha256:af5e8b890270c37b0d437e883b81bc682dfac4672fb3230efc2fe5ec81136f99
+  0.0.7--r44h35c04b2_2: 
+    sha256:6caa9b5f72f759ae2c64e59e38904b70072f90392ebb76ee4d2b85923db3b49b
 docker: quay.io/biocontainers/rdeval
 aliases:
   rdeval: /usr/local/bin/rdeval

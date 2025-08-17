@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rnashapes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnashapes
 latest:
-  3.4.0--pl5321h9948957_2: 
-    sha256:83412581b1d38dedc3ac3fc8c5ea0dc51e35257773e68d3c579243fd3c200e99
+  3.4.0--pl5321h9948957_3: 
+    sha256:a1a4ce573089359df1144fd44efb1ef0813d8f0157f1352228194091a80694b3
 tags:
   3.3.2--pl5321h9f5acd7_2: 
     sha256:3b3a69fe945c63eb221f7dde72dc94a03359d381c9cc4b067dcbc3a653e51db5
@@ -13,6 +13,8 @@ tags:
     sha256:c52fc4c7a6738c0e9c86d7c8eca259666489eedea267800482270f1916a50d2f
   3.4.0--pl5321h9948957_2: 
     sha256:83412581b1d38dedc3ac3fc8c5ea0dc51e35257773e68d3c579243fd3c200e99
+  3.4.0--pl5321h9948957_3: 
+    sha256:a1a4ce573089359df1144fd44efb1ef0813d8f0157f1352228194091a80694b3
 docker: quay.io/biocontainers/rnashapes
 aliases:
   RNAshapes: /usr/local/bin/RNAshapes
