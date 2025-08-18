@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haplogrep3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplogrep3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplogrep3/container.yaml"
-updated_at: "2025-08-17 03:55:07.319601"
-latest: "3.2.2--hdfd78af_0"
+updated_at: "2025-08-18 04:09:41.926521"
+latest: "3.2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/haplogrep3"
 aliases:
  - "haplogrep3"
@@ -38,8 +38,9 @@ aliases:
  - "jinfo"
 versions:
  - "3.2.2--hdfd78af_0"
+ - "3.2.2--hdfd78af_1"
 description: "singularity registry hpc automated addition for haplogrep3"
-config: {"url": "https://biocontainers.pro/tools/haplogrep3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplogrep3", "latest": {"3.2.2--hdfd78af_0": "sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6"}, "tags": {"3.2.2--hdfd78af_0": "sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6"}, "docker": "quay.io/biocontainers/haplogrep3", "aliases": {"haplogrep3": "/usr/local/bin/haplogrep3", "haplogrep3.jar": "/usr/local/bin/haplogrep3.jar", "haplogrep3.yaml": "/usr/local/bin/haplogrep3.yaml", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/haplogrep3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplogrep3", "latest": {"3.2.2--hdfd78af_1": "sha256:089c23a368cb6d0e9889ed8f1593c148537a2cb951b4c453324113375dce4e30"}, "tags": {"3.2.2--hdfd78af_0": "sha256:ea4feff3e9dafc35d5952fcdd36cfe87b5ec89dd43f464470ad622a1fce59cf6", "3.2.2--hdfd78af_1": "sha256:089c23a368cb6d0e9889ed8f1593c148537a2cb951b4c453324113375dce4e30"}, "docker": "quay.io/biocontainers/haplogrep3", "aliases": {"haplogrep3": "/usr/local/bin/haplogrep3", "haplogrep3.jar": "/usr/local/bin/haplogrep3.jar", "haplogrep3.yaml": "/usr/local/bin/haplogrep3.yaml", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplogrep3.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/haplogrep3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haplogrep3:3.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/haplogrep3:3.2.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haplogrep3/3.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/haplogrep3/3.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/haplogrep3/3.2.2--hdfd78af_1
+$ module help quay.io/biocontainers/haplogrep3/3.2.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

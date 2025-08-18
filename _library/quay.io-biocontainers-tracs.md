@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tracs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracs/container.yaml"
-updated_at: "2025-08-17 04:16:22.287184"
+updated_at: "2025-08-18 04:32:02.259736"
 latest: "1.0.1--py312h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/tracs"
 aliases:

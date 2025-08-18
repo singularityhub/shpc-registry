@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexsweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexsweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexsweep/container.yaml"
-updated_at: "2025-08-17 03:31:57.648182"
+updated_at: "2025-08-18 03:45:12.656759"
 latest: "1.0--pyhbffedc5_0"
 container_url: "https://biocontainers.pro/tools/flexsweep"
 aliases:

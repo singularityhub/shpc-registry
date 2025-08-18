@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-chromvarmotifs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
-updated_at: "2025-08-17 04:12:02.500905"
+updated_at: "2025-08-18 04:27:28.201555"
 latest: "0.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-chromvarmotifs"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-annotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotate/container.yaml"
-updated_at: "2025-08-17 04:17:29.525812"
+updated_at: "2025-08-18 04:33:14.443210"
 latest: "1.84.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotate"
 

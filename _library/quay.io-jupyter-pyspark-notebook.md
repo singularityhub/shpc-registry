@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/pyspark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/pyspark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/pyspark-notebook/container.yaml"
-updated_at: "2025-08-17 03:28:38.555303"
-latest: "2025-07-14"
+updated_at: "2025-08-18 03:41:41.886250"
+latest: "2025-08-15"
 container_url: "https://quay.io/repository/jupyter/pyspark-notebook"
 aliases:
  - "run-notebook"
@@ -15,8 +15,9 @@ versions:
  - "2025-06-16"
  - "2025-07-14"
  - "2025-06-30"
+ - "2025-08-15"
 description: "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/pyspark-notebook", "url": "https://quay.io/repository/jupyter/pyspark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-07-14": "sha256:b97366efa13188a11ba7b503dcb41c871121323c1d6588df4cdb219c8701b142"}, "tags": {"latest": "sha256:b97366efa13188a11ba7b503dcb41c871121323c1d6588df4cdb219c8701b142", "2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3", "2025-06-16": "sha256:ac028861a31baeba4ee8905235c526f94f2e8971627a71cb0ec7b363f800a333", "2025-07-14": "sha256:b97366efa13188a11ba7b503dcb41c871121323c1d6588df4cdb219c8701b142", "2025-06-30": "sha256:d81e3385397a8e7e7ca34d7be5aa55c5872138298c571176fbdac834ce8f8629"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/pyspark-notebook", "url": "https://quay.io/repository/jupyter/pyspark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter PySpark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-08-15": "sha256:e77fedc10a70c7fd929b348282b2b2bd57b1cce571f746301db4f3de685f1c73"}, "tags": {"latest": "sha256:e77fedc10a70c7fd929b348282b2b2bd57b1cce571f746301db4f3de685f1c73", "2025-05-30": "sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3", "2025-06-16": "sha256:ac028861a31baeba4ee8905235c526f94f2e8971627a71cb0ec7b363f800a333", "2025-07-14": "sha256:b97366efa13188a11ba7b503dcb41c871121323c1d6588df4cdb219c8701b142", "2025-06-30": "sha256:d81e3385397a8e7e7ca34d7be5aa55c5872138298c571176fbdac834ce8f8629", "2025-08-15": "sha256:e77fedc10a70c7fd929b348282b2b2bd57b1cce571f746301db4f3de685f1c73"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/pyspark-notebook.
@@ -31,7 +32,7 @@ $ shpc install quay.io/jupyter/pyspark-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/pyspark-notebook:2025-07-14
+$ shpc install quay.io/jupyter/pyspark-notebook:2025-08-15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/pyspark-notebook/2025-07-14
-$ module help quay.io/jupyter/pyspark-notebook/2025-07-14
+$ module load quay.io/jupyter/pyspark-notebook/2025-08-15
+$ module help quay.io/jupyter/pyspark-notebook/2025-08-15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

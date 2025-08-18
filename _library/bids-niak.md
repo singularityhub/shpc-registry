@@ -4,7 +4,7 @@ name:  "bids/niak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/niak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/niak/container.yaml"
-updated_at: "2025-08-17 04:20:17.929556"
+updated_at: "2025-08-18 04:36:12.056459"
 latest: "latest"
 container_url: "https://hub.docker.com/r/bids/niak"
 

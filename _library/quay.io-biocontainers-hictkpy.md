@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hictkpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hictkpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hictkpy/container.yaml"
-updated_at: "2025-08-17 03:52:49.749917"
+updated_at: "2025-08-18 04:07:15.484388"
 latest: "1.3.0--py39hb9d4efe_0"
 container_url: "https://biocontainers.pro/tools/hictkpy"
 aliases:

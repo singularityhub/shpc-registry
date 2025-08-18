@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-par-packer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-par-packer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-par-packer/container.yaml"
-updated_at: "2025-08-17 03:46:24.912750"
+updated_at: "2025-08-18 04:00:27.948665"
 latest: "1.036--pl5321h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/perl-par-packer"
 aliases:
