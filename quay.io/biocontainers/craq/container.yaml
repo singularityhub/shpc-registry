@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/craq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for craq
 latest:
-  1.0.9--hdfd78af_0: 
-    sha256:87af03fc19b41c9e4dd0a4869eef768ea51cdfd59ddfdf7a6c2cdf8a8837642e
+  1.0.9--hdfd78af_1: 
+    sha256:de341237ec368a1e9ac617791273e5390d7cf265d8ab403234221b442033a898
 tags:
   1.0.9--hdfd78af_0: 
     sha256:87af03fc19b41c9e4dd0a4869eef768ea51cdfd59ddfdf7a6c2cdf8a8837642e
+  1.0.9--hdfd78af_1: 
+    sha256:de341237ec368a1e9ac617791273e5390d7cf265d8ab403234221b442033a898
 docker: quay.io/biocontainers/craq
 aliases:
   craq: /usr/local/bin/craq

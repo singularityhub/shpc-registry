@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_io
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_io
 latest:
-  5.0.1--pyhdfd78af_0: 
-    sha256:ec016a370a50db468ab99da577ad6a86e563ac01a3d09d18727e7fe3ecb9c86c
+  5.1.0--pyhdfd78af_0: 
+    sha256:e026c5cf1d9049c44673de3d04d9de6d8c80009482def7814a075e52d538c958
 tags:
   3.8.0--pyhdfd78af_0: 
     sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94
@@ -19,6 +19,8 @@ tags:
     sha256:a74a5defb5710c47c153f10dc97047eb84ec26fb9a38764d8873c8f8304abdaf
   5.0.1--pyhdfd78af_0: 
     sha256:ec016a370a50db468ab99da577ad6a86e563ac01a3d09d18727e7fe3ecb9c86c
+  5.1.0--pyhdfd78af_0: 
+    sha256:e026c5cf1d9049c44673de3d04d9de6d8c80009482def7814a075e52d538c958
 docker: quay.io/biocontainers/biobb_io
 aliases:
   alphafold: /usr/local/bin/alphafold

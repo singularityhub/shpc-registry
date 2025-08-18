@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ngmlr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngmlr
 latest:
-  0.2.7--h077b44d_9: 
-    sha256:67d21a2b355fe836e0d39a05901d9898cd355fdc9433bbeaf3aacd3deeb90b11
+  0.2.7--h077b44d_10: 
+    sha256:a74cb275caae48fc350c3407188cc4f99ecfec75c13dbd66aa449a92e7d320ea
 tags:
   0.2.7--hd03093a_4: 
     sha256:2ddaed41716f36fa1aefeec4273ef37faaa6160242a21c0fa1df3497bc72c078
@@ -15,6 +15,8 @@ tags:
     sha256:7e829ced4551d094118b64366a730f0f6116afb1550f976ebd65d9cc376c0974
   0.2.7--h077b44d_9: 
     sha256:67d21a2b355fe836e0d39a05901d9898cd355fdc9433bbeaf3aacd3deeb90b11
+  0.2.7--h077b44d_10: 
+    sha256:a74cb275caae48fc350c3407188cc4f99ecfec75c13dbd66aa449a92e7d320ea
 docker: quay.io/biocontainers/ngmlr
 aliases:
   ngmlr: /usr/local/bin/ngmlr

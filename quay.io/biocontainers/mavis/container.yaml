@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mavis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mavis
 latest:
-  2.2.6--py_0: 
-    sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171
+  3.1.2--pyhdfd78af_0: 
+    sha256:83947746ddd80dfffcfeab8d7d2493d2c21f47f391ca62e7714f6bc90b977ada
 tags:
   2.2.6--py_0: 
     sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171
+  3.1.2--pyhdfd78af_0: 
+    sha256:83947746ddd80dfffcfeab8d7d2493d2c21f47f391ca62e7714f6bc90b977ada
 docker: quay.io/biocontainers/mavis
 aliases:
   calculate_ref_alt_counts: /usr/local/bin/calculate_ref_alt_counts

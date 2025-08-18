@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cats-rb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cats-rb
 latest:
-  1.0.0--hdfd78af_0: 
-    sha256:016d55a3b6911c5338a6c98b2b3e17913974307bf053ce3b2cf5e412f735e074
+  1.0.1--hdfd78af_0: 
+    sha256:408d24b6a8fa7697a6d72b494dc717055d04703095a9f41a8a63162ba32e06ba
 tags:
   1.0.0--hdfd78af_0: 
     sha256:016d55a3b6911c5338a6c98b2b3e17913974307bf053ce3b2cf5e412f735e074
+  1.0.1--hdfd78af_0: 
+    sha256:408d24b6a8fa7697a6d72b494dc717055d04703095a9f41a8a63162ba32e06ba
 docker: quay.io/biocontainers/cats-rb
 aliases:
   CATS_general_assembly_stats.R: /usr/local/bin/CATS_general_assembly_stats.R

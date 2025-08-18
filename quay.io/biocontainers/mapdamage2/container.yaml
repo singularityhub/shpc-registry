@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mapdamage2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapdamage2
 latest:
-  2.2.2--pyr43hdfd78af_0: 
-    sha256:d2a88384d7082e3f0ef42eef072421b847e839809196f07185f5064c95bcc6ca
+  2.2.3--py312h4711d71_0: 
+    sha256:079bce0ad68ed508d204002bb897b83862d9d6f7ba2bbca62841bdab5e0d1742
 tags:
   2.2.1--pyr40_0: 
     sha256:12d0be7dba8a81b937faf6a78dbf8b6c80efcb4840fb6b2e2bb95db5982daeaf
   2.2.2--pyr43hdfd78af_0: 
     sha256:d2a88384d7082e3f0ef42eef072421b847e839809196f07185f5064c95bcc6ca
+  2.2.3--py312h4711d71_0: 
+    sha256:079bce0ad68ed508d204002bb897b83862d9d6f7ba2bbca62841bdab5e0d1742
 docker: quay.io/biocontainers/mapdamage2
 aliases:
   mapDamage: /usr/local/bin/mapDamage

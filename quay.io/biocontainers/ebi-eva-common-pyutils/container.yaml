@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   ebi-eva-common-pyutils
 latest:
-  0.7.1--pyh7e72e81_0: 
-    sha256:d829cd8b0f0c260fa00510deb69a43efc318dfa09951ce4131b7f50977e193c5
+  0.7.4--pyh7e72e81_0: 
+    sha256:3bd52884dd99db2ed0a7a0d71c6913d7b981dcbf323160835797016dd7047349
 tags:
   0.6.3--pyh7cba7a3_0: 
     sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18
@@ -28,6 +28,8 @@ tags:
     sha256:b33f6f903bbbd2e44e7e7912addbe8e2e88282cbe86398c134081c1b8daf657d
   0.7.1--pyh7e72e81_0: 
     sha256:d829cd8b0f0c260fa00510deb69a43efc318dfa09951ce4131b7f50977e193c5
+  0.7.4--pyh7e72e81_0: 
+    sha256:3bd52884dd99db2ed0a7a0d71c6913d7b981dcbf323160835797016dd7047349
 docker: quay.io/biocontainers/ebi-eva-common-pyutils
 aliases:
   archive_directory.py: /usr/local/bin/archive_directory.py
