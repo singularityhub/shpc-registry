@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/esme_hdf5_mvapich_4_0_ofi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_hdf5_mvapich_4_0_ofi
+latest:
+  1.14.6--h43f4046_0: 
+    sha256:b84b6e9c6d3695d36048822e478a50f651740765e19c19292e90476dbeaa82f0
+tags:
+  1.14.6--h43f4046_0: 
+    sha256:b84b6e9c6d3695d36048822e478a50f651740765e19c19292e90476dbeaa82f0
+docker: quay.io/biocontainers/esme_hdf5_mvapich_4_0_ofi
+aliases:
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  setfacl: /usr/local/bin/setfacl
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  ph5diff: /usr/local/bin/ph5diff
+  h5fuse: /usr/local/bin/h5fuse
+  attr: /usr/local/bin/attr
+  getfattr: /usr/local/bin/getfattr
+  setfattr: /usr/local/bin/setfattr
+  h5delete: /usr/local/bin/h5delete
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack

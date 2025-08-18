@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/crunchstat-summary
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crunchstat-summary
+latest:
+  3.1.2--pyhdfd78af_0: 
+    sha256:5c519257e99a5ed22796075726c0e905a5c93f8d60a56ebf0b20828604a37833
+tags:
+  3.1.2--pyhdfd78af_0: 
+    sha256:5c519257e99a5ed22796075726c0e905a5c93f8d60a56ebf0b20828604a37833
+docker: quay.io/biocontainers/crunchstat-summary
+aliases:
+  arv-copy: /usr/local/bin/arv-copy
+  arv-federation-migrate: /usr/local/bin/arv-federation-migrate
+  arv-get: /usr/local/bin/arv-get
+  arv-keepdocker: /usr/local/bin/arv-keepdocker
+  arv-ls: /usr/local/bin/arv-ls
+  arv-normalize: /usr/local/bin/arv-normalize
+  arv-put: /usr/local/bin/arv-put
+  arv-ws: /usr/local/bin/arv-ws
+  crunchstat-summary: /usr/local/bin/crunchstat-summary
+  websockets: /usr/local/bin/websockets
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer
