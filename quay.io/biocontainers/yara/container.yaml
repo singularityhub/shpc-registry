@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/yara
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for yara
 latest:
-  1.0.3--hd6d6fdc_0: 
-    sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394
+  1.0.5--haf24da9_0: 
+    sha256:8b8ea7d89289f9e40d6ab87490f42627a98590b2df69daf6a06c0455337f91ed
 tags:
   1.0.2--h9ee0642_3: 
     sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed
   1.0.3--hd6d6fdc_0: 
     sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394
+  1.0.5--haf24da9_0: 
+    sha256:8b8ea7d89289f9e40d6ab87490f42627a98590b2df69daf6a06c0455337f91ed
 docker: quay.io/biocontainers/yara
 aliases:
   yara_indexer: /usr/local/bin/yara_indexer

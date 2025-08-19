@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/spatialleiden
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spatialleiden
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:452186fde924dc3f078f1444c37b49c67d92fa46b844773c699ecfa54e5d49cd
+  0.3.0--pyhdfd78af_0: 
+    sha256:39923a1eae049aba0d272f3644b00e5b9822c13b24908192eacc9bb7d49c4c06
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:6e0d9157b766f4bf234dbefbdd28f8596dca504734f8d9086a7d82cad297dfa0
   0.2.0--pyhdfd78af_0: 
     sha256:452186fde924dc3f078f1444c37b49c67d92fa46b844773c699ecfa54e5d49cd
+  0.3.0--pyhdfd78af_0: 
+    sha256:39923a1eae049aba0d272f3644b00e5b9822c13b24908192eacc9bb7d49c4c06
 docker: quay.io/biocontainers/spatialleiden
 aliases:
   qconvex: /usr/local/bin/qconvex

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/steamboat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for steamboat
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73
+  1.1.1--pyhdfd78af_0: 
+    sha256:279cde32d32d6ffe45bbb194c0a2381c963a65dc04d227fa2c9bfacc5aba9989
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73
+  1.1.1--pyhdfd78af_0: 
+    sha256:279cde32d32d6ffe45bbb194c0a2381c963a65dc04d227fa2c9bfacc5aba9989
 docker: quay.io/biocontainers/steamboat
 aliases:
   gisaid-batch: /usr/local/bin/gisaid-batch

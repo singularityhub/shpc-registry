@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gotree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gotree
 latest:
-  0.4.5--h9ee0642_0: 
-    sha256:2da23422878495ec6e5051920a32d58f6e93498cba642a3c1ef7d85c27b74aff
+  0.5.0--he881be0_0: 
+    sha256:0dcbaa0f83e89dcb6e2bce1c07783d26b5789257bcb4dd3ed815a5e50a02620c
 tags:
   0.4.3--h4b4d50d_2: 
     sha256:3b0f023c7c7860e1854fbfcfcd15f176ff02f3e6f2e01da02477edb51e2b4244
@@ -11,6 +11,8 @@ tags:
     sha256:efb97b708609f0b3a4e2864e5c6597f96433528471091fd41f470622c8702709
   0.4.5--h9ee0642_0: 
     sha256:2da23422878495ec6e5051920a32d58f6e93498cba642a3c1ef7d85c27b74aff
+  0.5.0--he881be0_0: 
+    sha256:0dcbaa0f83e89dcb6e2bce1c07783d26b5789257bcb4dd3ed815a5e50a02620c
 docker: quay.io/biocontainers/gotree
 aliases:
   gotree: /usr/local/bin/gotree

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gargammel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gargammel
 latest:
-  1.1.2--he905c8f_6: 
-    sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49
+  1.1.4--hb66fcc3_0: 
+    sha256:b0975a41756dfb9700eb44629020524c606845dba5934551281f405d771b5049
 tags:
   1.1.2--h51667aa_5: 
     sha256:84dc92dc17243162063fc7b48d3ca13778c6b8a7b1670f6de824283baf646b4c
   1.1.2--he905c8f_6: 
     sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49
+  1.1.4--hb66fcc3_0: 
+    sha256:b0975a41756dfb9700eb44629020524c606845dba5934551281f405d771b5049
 docker: quay.io/biocontainers/gargammel

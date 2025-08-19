@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/blue-crab
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for blue-crab
 latest:
-  0.4.0--pyh05cac1d_0: 
-    sha256:858c2dd093c36243aeec959559bfadbf7ccf4839e17a44eeb294ec972ccc0f21
+  0.4.0--pyh05cac1d_1: 
+    sha256:7c9d1aac9b73ab49a4bf04b2c0f0e64b426ded37eb447e4973f6ce7d04259f04
 tags:
   0.4.0--pyh05cac1d_0: 
     sha256:858c2dd093c36243aeec959559bfadbf7ccf4839e17a44eeb294ec972ccc0f21
+  0.4.0--pyh05cac1d_1: 
+    sha256:7c9d1aac9b73ab49a4bf04b2c0f0e64b426ded37eb447e4973f6ce7d04259f04
 docker: quay.io/biocontainers/blue-crab
 aliases:
   blue-crab: /usr/local/bin/blue-crab

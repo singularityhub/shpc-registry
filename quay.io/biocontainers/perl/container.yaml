@@ -11,4 +11,6 @@ tags:
     sha256:28cadea2fb89c5cd34b9104ad8b403cd1291497edabe143dd37213450b7579cc
   '5.32': 
     sha256:1889c73a71acbe17b2857a0ff437fd919a5bc69f1d8299be85d40316b91a4e01
+  5.26--2: 
+    sha256:6c3d58d8e56855b658da7cb1f2afdeab5cd1c0e85c4549c080884f8af42380c5
 docker: quay.io/biocontainers/perl

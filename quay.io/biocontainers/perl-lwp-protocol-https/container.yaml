@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-lwp-protocol-https
 latest:
-  6.10--pl5321hdfd78af_0: 
-    sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9
+  6.14--pl5321hdfd78af_1: 
+    sha256:d0b8d0dff90d2ded8b46946e40476c884822889436884ab192e431c02a1d309c
 tags:
   6.10--pl5321hdfd78af_0: 
     sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9
+  6.14--pl5321hdfd78af_1: 
+    sha256:d0b8d0dff90d2ded8b46946e40476c884822889436884ab192e431c02a1d309c
 docker: quay.io/biocontainers/perl-lwp-protocol-https
 aliases:
   lwp-download: /usr/local/bin/lwp-download

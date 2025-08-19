@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/endorspy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for endorspy
 latest:
-  1.3--hdfd78af_0: 
-    sha256:61c08031ae2905dc8fa29c85f5adb6df161a485564cccff1de8132c5104bc2f8
+  1.4--hdfd78af_0: 
+    sha256:65762b9e3f150fc168cbcf082d2043c2aa30c43a8718bbe9468b051ade56f59c
 tags:
   0.5--hdfd78af_0: 
     sha256:402476bda3cc7d9df3d802c271a0821faa677619529b8d1c53c929257efb83a5
@@ -15,6 +15,8 @@ tags:
     sha256:b63b3eeb03d8acd54eb7b1825a03f60b5b7651d4b8d4cb08ffa6269e2f74421f
   1.3--hdfd78af_0: 
     sha256:61c08031ae2905dc8fa29c85f5adb6df161a485564cccff1de8132c5104bc2f8
+  1.4--hdfd78af_0: 
+    sha256:65762b9e3f150fc168cbcf082d2043c2aa30c43a8718bbe9468b051ade56f59c
 docker: quay.io/biocontainers/endorspy
 aliases:
   endorspy: /usr/local/bin/endorspy

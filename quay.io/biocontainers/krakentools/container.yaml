@@ -9,6 +9,8 @@ tags:
     sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2
   1.2--pyh7e72e81_1: 
     sha256:d92330044c3df13734272cb8a64e5102d54024747f00991449a57e36b7e0cfda
+  1.2.1--pyh7e72e81_0: 
+    sha256:2ba3f8128d3d86c8f3e90485f8dd1a96c0bd83fd10f891dc019ebd1986913350
 docker: quay.io/biocontainers/krakentools
 aliases:
   alpha_diversity.py: /usr/local/bin/alpha_diversity.py

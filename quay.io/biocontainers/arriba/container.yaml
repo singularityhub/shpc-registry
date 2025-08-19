@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/arriba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arriba
 latest:
-  2.5.0--h432159b_0: 
-    sha256:7c2da5de9d8289911ee7f0bea55bd6ac6c681998f29ed52dc0bb5d3c1eabb357
+  2.5.0--h87b9561_1: 
+    sha256:2b5b3788eb76d82a5d104f429a52af84e83e2135e98d724f52757d866a01d776
 tags:
   2.3.0--ha04fe3b_1: 
     sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5
@@ -17,6 +17,8 @@ tags:
     sha256:00bf59e106421e315438646f8aa0b8125f8769fe47f437e5485453c8f3a841b5
   2.5.0--h432159b_0: 
     sha256:7c2da5de9d8289911ee7f0bea55bd6ac6c681998f29ed52dc0bb5d3c1eabb357
+  2.5.0--h87b9561_1: 
+    sha256:2b5b3788eb76d82a5d104f429a52af84e83e2135e98d724f52757d866a01d776
 docker: quay.io/biocontainers/arriba
 aliases:
   arriba: /usr/local/bin/arriba
