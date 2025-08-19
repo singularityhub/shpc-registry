@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder/container.yaml"
-updated_at: "2025-08-18 04:08:53.340816"
+updated_at: "2025-08-19 03:38:01.182978"
 latest: "1.0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_gene_family_phylogeny_builder"
 aliases:

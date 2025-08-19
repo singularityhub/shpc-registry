@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hapcut2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapcut2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapcut2/container.yaml"
-updated_at: "2025-08-18 03:42:35.481284"
-latest: "1.3.4--h577a1d6_1"
+updated_at: "2025-08-19 03:13:27.235550"
+latest: "1.3.4--h7e4f606_2"
 container_url: "https://biocontainers.pro/tools/hapcut2"
 aliases:
  - "HAPCUT2"
@@ -28,8 +28,9 @@ versions:
  - "1.3.3--h6141fd1_5"
  - "1.3.4--he4a0461_0"
  - "1.3.4--h577a1d6_1"
+ - "1.3.4--h7e4f606_2"
 description: "shpc-registry automated BioContainers addition for hapcut2"
-config: {"url": "https://biocontainers.pro/tools/hapcut2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hapcut2", "latest": {"1.3.4--h577a1d6_1": "sha256:77f1e880224163270af693076a7ed525dac03c27e700eec210c3699cbad43897"}, "tags": {"1.3.3--hb0d9459_3": "sha256:40f48104f97e5a17d14c9deece97b7ce5f006e09a1bd78c6d058d23ed7e08d7c", "1.3.3--hc88714e_4": "sha256:ce67ba04c780abb3a02c294480a815919022fddebd98ec7a7af8b7835b497880", "1.3.3--h6141fd1_5": "sha256:4d7caef6482b10e82d5648eaeb5d3f1a4f7bca313e47b5cd09d02f1f191fa74e", "1.3.4--he4a0461_0": "sha256:499fc79e1dfdb84b2620ce036651d2ba92c321755d595fdb39022b7517463a89", "1.3.4--h577a1d6_1": "sha256:77f1e880224163270af693076a7ed525dac03c27e700eec210c3699cbad43897"}, "docker": "quay.io/biocontainers/hapcut2", "aliases": {"HAPCUT2": "/usr/local/bin/HAPCUT2", "LinkFragments.py": "/usr/local/bin/LinkFragments.py", "calculate_haplotype_statistics.py": "/usr/local/bin/calculate_haplotype_statistics.py", "extractHAIRS": "/usr/local/bin/extractHAIRS", "hapcut2": "/usr/local/bin/hapcut2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/hapcut2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hapcut2", "latest": {"1.3.4--h7e4f606_2": "sha256:784c89f0e20d16df2dc01646ae0623d591e69e4794be5f9e616a4bb2d4026a5d"}, "tags": {"1.3.3--hb0d9459_3": "sha256:40f48104f97e5a17d14c9deece97b7ce5f006e09a1bd78c6d058d23ed7e08d7c", "1.3.3--hc88714e_4": "sha256:ce67ba04c780abb3a02c294480a815919022fddebd98ec7a7af8b7835b497880", "1.3.3--h6141fd1_5": "sha256:4d7caef6482b10e82d5648eaeb5d3f1a4f7bca313e47b5cd09d02f1f191fa74e", "1.3.4--he4a0461_0": "sha256:499fc79e1dfdb84b2620ce036651d2ba92c321755d595fdb39022b7517463a89", "1.3.4--h577a1d6_1": "sha256:77f1e880224163270af693076a7ed525dac03c27e700eec210c3699cbad43897", "1.3.4--h7e4f606_2": "sha256:784c89f0e20d16df2dc01646ae0623d591e69e4794be5f9e616a4bb2d4026a5d"}, "docker": "quay.io/biocontainers/hapcut2", "aliases": {"HAPCUT2": "/usr/local/bin/HAPCUT2", "LinkFragments.py": "/usr/local/bin/LinkFragments.py", "calculate_haplotype_statistics.py": "/usr/local/bin/calculate_haplotype_statistics.py", "extractHAIRS": "/usr/local/bin/extractHAIRS", "hapcut2": "/usr/local/bin/hapcut2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hapcut2.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/hapcut2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hapcut2:1.3.4--h577a1d6_1
+$ shpc install quay.io/biocontainers/hapcut2:1.3.4--h7e4f606_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hapcut2/1.3.4--h577a1d6_1
-$ module help quay.io/biocontainers/hapcut2/1.3.4--h577a1d6_1
+$ module load quay.io/biocontainers/hapcut2/1.3.4--h7e4f606_2
+$ module help quay.io/biocontainers/hapcut2/1.3.4--h7e4f606_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

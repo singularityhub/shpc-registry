@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mapdamage2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapdamage2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapdamage2/container.yaml"
-updated_at: "2025-08-18 03:54:43.646515"
-latest: "2.2.2--pyr43hdfd78af_0"
+updated_at: "2025-08-19 03:24:45.489670"
+latest: "2.2.3--py312h4711d71_0"
 container_url: "https://biocontainers.pro/tools/mapdamage2"
 aliases:
  - "mapDamage"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.2.1--pyr40_0"
  - "2.2.2--pyr43hdfd78af_0"
+ - "2.2.3--py312h4711d71_0"
 description: "shpc-registry automated BioContainers addition for mapdamage2"
-config: {"url": "https://biocontainers.pro/tools/mapdamage2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapdamage2", "latest": {"2.2.2--pyr43hdfd78af_0": "sha256:d2a88384d7082e3f0ef42eef072421b847e839809196f07185f5064c95bcc6ca"}, "tags": {"2.2.1--pyr40_0": "sha256:12d0be7dba8a81b937faf6a78dbf8b6c80efcb4840fb6b2e2bb95db5982daeaf", "2.2.2--pyr43hdfd78af_0": "sha256:d2a88384d7082e3f0ef42eef072421b847e839809196f07185f5064c95bcc6ca"}, "docker": "quay.io/biocontainers/mapdamage2", "aliases": {"mapDamage": "/usr/local/bin/mapDamage", "seqtk": "/usr/local/bin/seqtk", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/mapdamage2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapdamage2", "latest": {"2.2.3--py312h4711d71_0": "sha256:079bce0ad68ed508d204002bb897b83862d9d6f7ba2bbca62841bdab5e0d1742"}, "tags": {"2.2.1--pyr40_0": "sha256:12d0be7dba8a81b937faf6a78dbf8b6c80efcb4840fb6b2e2bb95db5982daeaf", "2.2.2--pyr43hdfd78af_0": "sha256:d2a88384d7082e3f0ef42eef072421b847e839809196f07185f5064c95bcc6ca", "2.2.3--py312h4711d71_0": "sha256:079bce0ad68ed508d204002bb897b83862d9d6f7ba2bbca62841bdab5e0d1742"}, "docker": "quay.io/biocontainers/mapdamage2", "aliases": {"mapDamage": "/usr/local/bin/mapDamage", "seqtk": "/usr/local/bin/seqtk", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapdamage2.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mapdamage2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapdamage2:2.2.2--pyr43hdfd78af_0
+$ shpc install quay.io/biocontainers/mapdamage2:2.2.3--py312h4711d71_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapdamage2/2.2.2--pyr43hdfd78af_0
-$ module help quay.io/biocontainers/mapdamage2/2.2.2--pyr43hdfd78af_0
+$ module load quay.io/biocontainers/mapdamage2/2.2.3--py312h4711d71_0
+$ module help quay.io/biocontainers/mapdamage2/2.2.3--py312h4711d71_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

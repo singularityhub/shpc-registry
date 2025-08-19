@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybedlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedlite/container.yaml"
-updated_at: "2025-08-18 04:29:38.378054"
+updated_at: "2025-08-19 03:57:11.488925"
 latest: "1.0.0--py310h1fe012e_3"
 container_url: "https://biocontainers.pro/tools/pybedlite"
 aliases:

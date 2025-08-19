@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-specio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-specio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-specio/container.yaml"
-updated_at: "2025-08-18 04:34:38.550965"
-latest: "0.50--pl5321hdfd78af_0"
+updated_at: "2025-08-19 04:01:44.488519"
+latest: "0.52--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-specio"
 
 versions:
  - "0.48--pl5321hdfd78af_0"
  - "0.49--pl5321hdfd78af_0"
  - "0.50--pl5321hdfd78af_0"
+ - "0.52--pl5321hdfd78af_0"
+ - "0.51--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-specio"
-config: {"url": "https://biocontainers.pro/tools/perl-specio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio", "latest": {"0.50--pl5321hdfd78af_0": "sha256:701b85a4e3c2928ec8113db77406c8b667e5d23567fa8dc52d59a9ba68e07b1b"}, "tags": {"0.48--pl5321hdfd78af_0": "sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839", "0.49--pl5321hdfd78af_0": "sha256:39ead8cbc457b1f7351b4a7d7ae799fe55b795de140af1ca05f2e103411212de", "0.50--pl5321hdfd78af_0": "sha256:701b85a4e3c2928ec8113db77406c8b667e5d23567fa8dc52d59a9ba68e07b1b"}, "docker": "quay.io/biocontainers/perl-specio"}
+config: {"url": "https://biocontainers.pro/tools/perl-specio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio", "latest": {"0.52--pl5321hdfd78af_0": "sha256:36dc486a514e733b9c20b544c6161286120db4c6570df7b0f8bc1a435e479ce6"}, "tags": {"0.48--pl5321hdfd78af_0": "sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839", "0.49--pl5321hdfd78af_0": "sha256:39ead8cbc457b1f7351b4a7d7ae799fe55b795de140af1ca05f2e103411212de", "0.50--pl5321hdfd78af_0": "sha256:701b85a4e3c2928ec8113db77406c8b667e5d23567fa8dc52d59a9ba68e07b1b", "0.52--pl5321hdfd78af_0": "sha256:36dc486a514e733b9c20b544c6161286120db4c6570df7b0f8bc1a435e479ce6", "0.51--pl5321hdfd78af_0": "sha256:b6dd99717d4853d974d86a08f43c76ab8c294d775fba15c138d5abb5f8b041ab"}, "docker": "quay.io/biocontainers/perl-specio"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-specio.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-specio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-specio:0.50--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-specio:0.52--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-specio/0.50--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-specio/0.50--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-specio/0.52--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-specio/0.52--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

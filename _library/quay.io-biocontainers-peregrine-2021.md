@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peregrine-2021"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peregrine-2021/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peregrine-2021/container.yaml"
-updated_at: "2025-08-18 04:31:51.704712"
+updated_at: "2025-08-19 03:59:13.514050"
 latest: "0.4.13--h503566f_4"
 container_url: "https://biocontainers.pro/tools/peregrine-2021"
 aliases:

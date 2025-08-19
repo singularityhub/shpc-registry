@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavis/container.yaml"
-updated_at: "2025-08-18 04:29:29.419569"
-latest: "2.2.6--py_0"
+updated_at: "2025-08-19 03:57:03.320433"
+latest: "3.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mavis"
 aliases:
  - "calculate_ref_alt_counts"
@@ -22,8 +22,9 @@ aliases:
  - "guess-ploidy.py"
 versions:
  - "2.2.6--py_0"
+ - "3.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mavis"
-config: {"url": "https://biocontainers.pro/tools/mavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavis", "latest": {"2.2.6--py_0": "sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171"}, "tags": {"2.2.6--py_0": "sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171"}, "docker": "quay.io/biocontainers/mavis", "aliases": {"calculate_ref_alt_counts": "/usr/local/bin/calculate_ref_alt_counts", "mavis": "/usr/local/bin/mavis", "blat": "/usr/local/bin/blat", "geos-config": "/usr/local/bin/geos-config", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/mavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavis", "latest": {"3.1.2--pyhdfd78af_0": "sha256:83947746ddd80dfffcfeab8d7d2493d2c21f47f391ca62e7714f6bc90b977ada"}, "tags": {"2.2.6--py_0": "sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171", "3.1.2--pyhdfd78af_0": "sha256:83947746ddd80dfffcfeab8d7d2493d2c21f47f391ca62e7714f6bc90b977ada"}, "docker": "quay.io/biocontainers/mavis", "aliases": {"calculate_ref_alt_counts": "/usr/local/bin/calculate_ref_alt_counts", "mavis": "/usr/local/bin/mavis", "blat": "/usr/local/bin/blat", "geos-config": "/usr/local/bin/geos-config", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mavis.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mavis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mavis:2.2.6--py_0
+$ shpc install quay.io/biocontainers/mavis:3.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mavis/2.2.6--py_0
-$ module help quay.io/biocontainers/mavis/2.2.6--py_0
+$ module load quay.io/biocontainers/mavis/3.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mavis/3.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

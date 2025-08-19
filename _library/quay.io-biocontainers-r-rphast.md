@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rphast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rphast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rphast/container.yaml"
-updated_at: "2025-08-18 04:18:42.322182"
+updated_at: "2025-08-19 03:47:12.310485"
 latest: "1.6.11--r45hb7dc0eb_0"
 container_url: "https://biocontainers.pro/tools/r-rphast"
 

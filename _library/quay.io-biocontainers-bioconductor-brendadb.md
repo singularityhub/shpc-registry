@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brendadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brendadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brendadb/container.yaml"
-updated_at: "2025-08-18 04:04:32.749118"
+updated_at: "2025-08-19 03:33:58.680566"
 latest: "1.20.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brendadb"
 

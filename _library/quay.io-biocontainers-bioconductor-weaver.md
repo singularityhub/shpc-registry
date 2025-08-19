@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-weaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weaver/container.yaml"
-updated_at: "2025-08-18 04:16:01.346013"
+updated_at: "2025-08-19 03:44:41.023810"
 latest: "1.72.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weaver"
 

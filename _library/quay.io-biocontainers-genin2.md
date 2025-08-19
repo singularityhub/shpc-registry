@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genin2/container.yaml"
-updated_at: "2025-08-18 04:10:39.932854"
+updated_at: "2025-08-19 03:39:40.846615"
 latest: "2.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genin2"
 aliases:

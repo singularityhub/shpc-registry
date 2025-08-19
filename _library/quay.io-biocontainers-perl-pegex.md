@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-pegex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pegex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pegex/container.yaml"
-updated_at: "2025-08-18 04:00:44.639187"
-latest: "0.61--pl5321hdfd78af_2"
+updated_at: "2025-08-19 03:30:25.952832"
+latest: "0.75--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pegex"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.61--pl5321hdfd78af_2"
+ - "0.75--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-pegex"
-config: {"url": "https://biocontainers.pro/tools/perl-pegex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pegex", "latest": {"0.61--pl5321hdfd78af_2": "sha256:a0b8cbc904080608eea28e284481aeb42678c997490631e593f9a728ceaaac15"}, "tags": {"0.61--pl5321hdfd78af_2": "sha256:a0b8cbc904080608eea28e284481aeb42678c997490631e593f9a728ceaaac15"}, "docker": "quay.io/biocontainers/perl-pegex", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pegex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pegex", "latest": {"0.75--pl5321hdfd78af_0": "sha256:24d1e4b80c7250123fdcb8b96f145ff25237de794befa70af43156951927bbcd"}, "tags": {"0.61--pl5321hdfd78af_2": "sha256:a0b8cbc904080608eea28e284481aeb42678c997490631e593f9a728ceaaac15", "0.75--pl5321hdfd78af_0": "sha256:24d1e4b80c7250123fdcb8b96f145ff25237de794befa70af43156951927bbcd"}, "docker": "quay.io/biocontainers/perl-pegex", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pegex.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-pegex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-pegex:0.61--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-pegex:0.75--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-pegex/0.61--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-pegex/0.61--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-pegex/0.75--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-pegex/0.75--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

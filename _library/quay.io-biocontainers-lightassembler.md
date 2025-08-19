@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lightassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightassembler/container.yaml"
-updated_at: "2025-08-18 03:46:44.359818"
-latest: "1.0--h077b44d_6"
+updated_at: "2025-08-19 03:17:17.264393"
+latest: "1.0--h077b44d_8"
 container_url: "https://biocontainers.pro/tools/lightassembler"
 aliases:
  - "LightAssembler"
@@ -15,8 +15,9 @@ versions:
  - "1.0--hd03093a_3"
  - "1.0--hdcf5f25_5"
  - "1.0--h077b44d_6"
+ - "1.0--h077b44d_8"
 description: "shpc-registry automated BioContainers addition for lightassembler"
-config: {"url": "https://biocontainers.pro/tools/lightassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightassembler", "latest": {"1.0--h077b44d_6": "sha256:478cd50456dc444e0852267b1ae7657db747ae9d02393c92028448a97e31c29d"}, "tags": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3", "1.0--hdcf5f25_5": "sha256:7c914decd36dc948c1d892745d24428cdee5bd8532d216515f9b7dda052546d0", "1.0--h077b44d_6": "sha256:478cd50456dc444e0852267b1ae7657db747ae9d02393c92028448a97e31c29d"}, "docker": "quay.io/biocontainers/lightassembler", "aliases": {"LightAssembler": "/usr/local/bin/LightAssembler", "libtoolize": "/usr/local/bin/libtoolize", "libtool": "/usr/local/bin/libtool"}}
+config: {"url": "https://biocontainers.pro/tools/lightassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightassembler", "latest": {"1.0--h077b44d_8": "sha256:5155c223c5cf0aacaf8c4b1b470ea5dd61377d98a01fb8f2484ce8775da7df9f"}, "tags": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3", "1.0--hdcf5f25_5": "sha256:7c914decd36dc948c1d892745d24428cdee5bd8532d216515f9b7dda052546d0", "1.0--h077b44d_6": "sha256:478cd50456dc444e0852267b1ae7657db747ae9d02393c92028448a97e31c29d", "1.0--h077b44d_8": "sha256:5155c223c5cf0aacaf8c4b1b470ea5dd61377d98a01fb8f2484ce8775da7df9f"}, "docker": "quay.io/biocontainers/lightassembler", "aliases": {"LightAssembler": "/usr/local/bin/LightAssembler", "libtoolize": "/usr/local/bin/libtoolize", "libtool": "/usr/local/bin/libtool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lightassembler.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/lightassembler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lightassembler:1.0--h077b44d_6
+$ shpc install quay.io/biocontainers/lightassembler:1.0--h077b44d_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lightassembler/1.0--h077b44d_6
-$ module help quay.io/biocontainers/lightassembler/1.0--h077b44d_6
+$ module load quay.io/biocontainers/lightassembler/1.0--h077b44d_8
+$ module help quay.io/biocontainers/lightassembler/1.0--h077b44d_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

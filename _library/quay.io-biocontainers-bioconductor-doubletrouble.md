@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doubletrouble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doubletrouble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doubletrouble/container.yaml"
-updated_at: "2025-08-18 04:23:59.873279"
+updated_at: "2025-08-19 03:52:03.296212"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doubletrouble"
 aliases:

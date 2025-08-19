@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-raceid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-raceid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-raceid/container.yaml"
-updated_at: "2025-08-18 04:21:28.277976"
+updated_at: "2025-08-19 03:49:45.317502"
 latest: "0.2.3"
 container_url: "https://biocontainers.pro/tools/r-raceid"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.2.3"
+ - "0.2.3--2"
 description: "shpc-registry automated BioContainers addition for r-raceid"
-config: {"url": "https://biocontainers.pro/tools/r-raceid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-raceid", "latest": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004"}, "tags": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004"}, "docker": "quay.io/biocontainers/r-raceid", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-raceid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-raceid", "latest": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004"}, "tags": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004", "0.2.3--2": "sha256:a2c9d1c2362d27d93e127c6a8114f259d1712a7af4a933289fd00c9914a3b251"}, "docker": "quay.io/biocontainers/r-raceid", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-raceid.

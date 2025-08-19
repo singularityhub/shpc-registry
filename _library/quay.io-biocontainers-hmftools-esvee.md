@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-esvee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-esvee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-esvee/container.yaml"
-updated_at: "2025-08-18 04:26:43.748229"
-latest: "1.0_beta--hdfd78af_6"
+updated_at: "2025-08-19 03:54:33.095365"
+latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-esvee"
 aliases:
  - "esvee"
@@ -39,8 +39,9 @@ versions:
  - "1.0_beta--hdfd78af_2"
  - "1.0_beta--hdfd78af_5"
  - "1.0_beta--hdfd78af_6"
+ - "1.1.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-esvee"
-config: {"url": "https://biocontainers.pro/tools/hmftools-esvee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-esvee", "latest": {"1.0_beta--hdfd78af_6": "sha256:486dd5547b03b1528765c9f86a1eaa3f124b51d7e8b6b0e844df3d3b741e710c"}, "tags": {"1.0_beta--hdfd78af_0": "sha256:c4040b163c7b18e30e36e3f5a6d05157b19d51450fbe42f70bd99599c061be54", "1.0_beta--hdfd78af_2": "sha256:84491748a8cbcf53a943e6cd9e38dca35bf56c81c89368789cdfe4f84c28b50b", "1.0_beta--hdfd78af_5": "sha256:1c8205c530619f02b8a80dac335583d32a3bd0375998e514ecd141f74f231296", "1.0_beta--hdfd78af_6": "sha256:486dd5547b03b1528765c9f86a1eaa3f124b51d7e8b6b0e844df3d3b741e710c"}, "docker": "quay.io/biocontainers/hmftools-esvee", "aliases": {"esvee": "/usr/local/bin/esvee", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-esvee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-esvee", "latest": {"1.1.2--hdfd78af_0": "sha256:2b7a21037c03a3b4ac234e0f906ab7e928a28e9f3a285d32255b34e3348ee812"}, "tags": {"1.0_beta--hdfd78af_0": "sha256:c4040b163c7b18e30e36e3f5a6d05157b19d51450fbe42f70bd99599c061be54", "1.0_beta--hdfd78af_2": "sha256:84491748a8cbcf53a943e6cd9e38dca35bf56c81c89368789cdfe4f84c28b50b", "1.0_beta--hdfd78af_5": "sha256:1c8205c530619f02b8a80dac335583d32a3bd0375998e514ecd141f74f231296", "1.0_beta--hdfd78af_6": "sha256:486dd5547b03b1528765c9f86a1eaa3f124b51d7e8b6b0e844df3d3b741e710c", "1.1.2--hdfd78af_0": "sha256:2b7a21037c03a3b4ac234e0f906ab7e928a28e9f3a285d32255b34e3348ee812"}, "docker": "quay.io/biocontainers/hmftools-esvee", "aliases": {"esvee": "/usr/local/bin/esvee", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-esvee.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/hmftools-esvee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-esvee:1.0_beta--hdfd78af_6
+$ shpc install quay.io/biocontainers/hmftools-esvee:1.1.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-esvee/1.0_beta--hdfd78af_6
-$ module help quay.io/biocontainers/hmftools-esvee/1.0_beta--hdfd78af_6
+$ module load quay.io/biocontainers/hmftools-esvee/1.1.2--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-esvee/1.1.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

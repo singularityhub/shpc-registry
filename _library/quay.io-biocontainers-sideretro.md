@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sideretro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sideretro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sideretro/container.yaml"
-updated_at: "2025-08-18 04:16:39.146788"
+updated_at: "2025-08-19 03:45:16.890628"
 latest: "1.1.6--hb728cf0_0"
 container_url: "https://biocontainers.pro/tools/sideretro"
 aliases:
