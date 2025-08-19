@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/esme_pnetcdf_mvapich_4_0_ucx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_pnetcdf_mvapich_4_0_ucx
+latest:
+  1.14.1--hf580d27_0: 
+    sha256:4cbe8cd364e63d1edcb0011a7d25c4eff3d7c446ff51afaa3393299c5c5392ef
+tags:
+  1.14.1--hf580d27_0: 
+    sha256:4cbe8cd364e63d1edcb0011a7d25c4eff3d7c446ff51afaa3393299c5c5392ef
+docker: quay.io/biocontainers/esme_pnetcdf_mvapich_4_0_ucx
+aliases:
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version

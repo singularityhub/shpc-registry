@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/esme_netcdf-fortran_mvapich_4_0_ucx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_netcdf-fortran_mvapich_4_0_ucx
+latest:
+  4.6.2--h6842b15_0: 
+    sha256:2032cc030ccd924d5f1bd663abbfb92d5641e24d89008f8a4fd9ca66d14a2a0c
+tags:
+  4.6.2--h6842b15_0: 
+    sha256:2032cc030ccd924d5f1bd663abbfb92d5641e24d89008f8a4fd9ca66d14a2a0c
+docker: quay.io/biocontainers/esme_netcdf-fortran_mvapich_4_0_ucx
+aliases:
+  nf-config: /usr/local/bin/nf-config

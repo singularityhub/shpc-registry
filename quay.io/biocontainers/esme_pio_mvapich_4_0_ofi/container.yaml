@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/esme_pio_mvapich_4_0_ofi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_pio_mvapich_4_0_ofi
+latest:
+  2.6.6--hb2a3317_0: 
+    sha256:48c02b67e2a1b47fb4ac698589af73818c56be0715cf3ca7282ef997378db1fc
+tags:
+  2.6.6--hb2a3317_0: 
+    sha256:48c02b67e2a1b47fb4ac698589af73818c56be0715cf3ca7282ef997378db1fc
+docker: quay.io/biocontainers/esme_pio_mvapich_4_0_ofi
