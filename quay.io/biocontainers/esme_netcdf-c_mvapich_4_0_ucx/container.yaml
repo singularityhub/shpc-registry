@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/esme_netcdf-c_mvapich_4_0_ucx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_netcdf-c_mvapich_4_0_ucx
+latest:
+  4.9.3--hdf4d085_0: 
+    sha256:cf3f446e9a4963ede92e422a44db1ed01d73539be99c28bf6a44056ca3ed02ef
+tags:
+  4.9.3--hdf4d085_0: 
+    sha256:cf3f446e9a4963ede92e422a44db1ed01d73539be99c28bf6a44056ca3ed02ef
+docker: quay.io/biocontainers/esme_netcdf-c_mvapich_4_0_ucx
+aliases:
+  nc4print: /usr/local/bin/nc4print
+  ocprint: /usr/local/bin/ocprint
+  nc-config: /usr/local/bin/nc-config
+  nccopy: /usr/local/bin/nccopy
+  ncdump: /usr/local/bin/ncdump
+  ncgen: /usr/local/bin/ncgen
+  ncgen3: /usr/local/bin/ncgen3

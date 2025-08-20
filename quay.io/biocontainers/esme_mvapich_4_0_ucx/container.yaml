@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/esme_mvapich_4_0_ucx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_mvapich_4_0_ucx
+latest:
+  1.0.2--mvapich_ucx_h33124db_0: 
+    sha256:37754d922386207b58765532dc3bded85c8ee819db98e6e73905b222c4a27c36
+tags:
+  1.0.2--mvapich_ucx_h33124db_0: 
+    sha256:37754d922386207b58765532dc3bded85c8ee819db98e6e73905b222c4a27c36
+docker: quay.io/biocontainers/esme_mvapich_4_0_ucx
+aliases:
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  gost12-256-hash: /usr/local/bin/gost12-256-hash
+  gost12-512-hash: /usr/local/bin/gost12-512-hash
+  edonr256-hash: /usr/local/bin/edonr256-hash
+  edonr512-hash: /usr/local/bin/edonr512-hash
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  ed2k-link: /usr/local/bin/ed2k-link
+  has160-hash: /usr/local/bin/has160-hash
+  magnet-link: /usr/local/bin/magnet-link
+  nc4print: /usr/local/bin/nc4print
+  ocprint: /usr/local/bin/ocprint
+  rhash: /usr/local/bin/rhash
+  sfv-hash: /usr/local/bin/sfv-hash
+  tiger-hash: /usr/local/bin/tiger-hash
+  tth-hash: /usr/local/bin/tth-hash
+  whirlpool-hash: /usr/local/bin/whirlpool-hash

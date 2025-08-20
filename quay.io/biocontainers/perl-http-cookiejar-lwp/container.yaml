@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-http-cookiejar-lwp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  perl-http-cookiejar-lwp
+latest:
+  0.014--pl5321hdfd78af_0: 
+    sha256:dc3d788afe3dfc4e4d2ba433b59d56221afd5cea763ab29d83cd7970e5618d7a
+tags:
+  0.014--pl5321hdfd78af_0: 
+    sha256:dc3d788afe3dfc4e4d2ba433b59d56221afd5cea763ab29d83cd7970e5618d7a
+docker: quay.io/biocontainers/perl-http-cookiejar-lwp
