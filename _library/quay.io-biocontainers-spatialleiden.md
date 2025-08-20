@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spatialleiden"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatialleiden/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatialleiden/container.yaml"
-updated_at: "2025-08-19 03:24:26.242027"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-08-20 03:22:55.976520"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spatialleiden"
 aliases:
  - "qconvex"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for spatialleiden"
-config: {"url": "https://biocontainers.pro/tools/spatialleiden", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spatialleiden", "latest": {"0.2.0--pyhdfd78af_0": "sha256:452186fde924dc3f078f1444c37b49c67d92fa46b844773c699ecfa54e5d49cd"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:6e0d9157b766f4bf234dbefbdd28f8596dca504734f8d9086a7d82cad297dfa0", "0.2.0--pyhdfd78af_0": "sha256:452186fde924dc3f078f1444c37b49c67d92fa46b844773c699ecfa54e5d49cd"}, "docker": "quay.io/biocontainers/spatialleiden", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
+config: {"url": "https://biocontainers.pro/tools/spatialleiden", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spatialleiden", "latest": {"0.3.0--pyhdfd78af_0": "sha256:39923a1eae049aba0d272f3644b00e5b9822c13b24908192eacc9bb7d49c4c06"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:6e0d9157b766f4bf234dbefbdd28f8596dca504734f8d9086a7d82cad297dfa0", "0.2.0--pyhdfd78af_0": "sha256:452186fde924dc3f078f1444c37b49c67d92fa46b844773c699ecfa54e5d49cd", "0.3.0--pyhdfd78af_0": "sha256:39923a1eae049aba0d272f3644b00e5b9822c13b24908192eacc9bb7d49c4c06"}, "docker": "quay.io/biocontainers/spatialleiden", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spatialleiden.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/spatialleiden
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spatialleiden:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/spatialleiden:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spatialleiden/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/spatialleiden/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/spatialleiden/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/spatialleiden/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

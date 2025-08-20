@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eukrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukrep/container.yaml"
-updated_at: "2025-08-19 03:42:19.744820"
-latest: "0.6.7--pyh5e36f6f_2"
+updated_at: "2025-08-20 03:41:17.882415"
+latest: "0.6.7--pyh7e72e81_3"
 container_url: "https://biocontainers.pro/tools/eukrep"
 aliases:
  - "EukRep"
@@ -22,8 +22,9 @@ aliases:
  - "python3.7m-config"
 versions:
  - "0.6.7--pyh5e36f6f_2"
+ - "0.6.7--pyh7e72e81_3"
 description: "shpc-registry automated BioContainers addition for eukrep"
-config: {"url": "https://biocontainers.pro/tools/eukrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukrep", "latest": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "tags": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "docker": "quay.io/biocontainers/eukrep", "aliases": {"EukRep": "/usr/local/bin/EukRep", "kpal": "/usr/local/bin/kpal", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/eukrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukrep", "latest": {"0.6.7--pyh7e72e81_3": "sha256:87b341ad1558f3cf045e0fdd5e48d95f4be6f4298c4196b0554a8b929f07e125"}, "tags": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31", "0.6.7--pyh7e72e81_3": "sha256:87b341ad1558f3cf045e0fdd5e48d95f4be6f4298c4196b0554a8b929f07e125"}, "docker": "quay.io/biocontainers/eukrep", "aliases": {"EukRep": "/usr/local/bin/EukRep", "kpal": "/usr/local/bin/kpal", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukrep.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/eukrep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eukrep:0.6.7--pyh5e36f6f_2
+$ shpc install quay.io/biocontainers/eukrep:0.6.7--pyh7e72e81_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eukrep/0.6.7--pyh5e36f6f_2
-$ module help quay.io/biocontainers/eukrep/0.6.7--pyh5e36f6f_2
+$ module load quay.io/biocontainers/eukrep/0.6.7--pyh7e72e81_3
+$ module help quay.io/biocontainers/eukrep/0.6.7--pyh7e72e81_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gargammel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gargammel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gargammel/container.yaml"
-updated_at: "2025-08-19 03:28:18.481145"
-latest: "1.1.2--he905c8f_6"
+updated_at: "2025-08-20 03:26:59.545474"
+latest: "1.1.4--hb66fcc3_0"
 container_url: "https://biocontainers.pro/tools/gargammel"
 
 versions:
  - "1.1.2--h51667aa_5"
  - "1.1.2--he905c8f_6"
+ - "1.1.4--hb66fcc3_0"
 description: "shpc-registry automated BioContainers addition for gargammel"
-config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "tags": {"1.1.2--h51667aa_5": "sha256:84dc92dc17243162063fc7b48d3ca13778c6b8a7b1670f6de824283baf646b4c", "1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "docker": "quay.io/biocontainers/gargammel"}
+config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.4--hb66fcc3_0": "sha256:b0975a41756dfb9700eb44629020524c606845dba5934551281f405d771b5049"}, "tags": {"1.1.2--h51667aa_5": "sha256:84dc92dc17243162063fc7b48d3ca13778c6b8a7b1670f6de824283baf646b4c", "1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49", "1.1.4--hb66fcc3_0": "sha256:b0975a41756dfb9700eb44629020524c606845dba5934551281f405d771b5049"}, "docker": "quay.io/biocontainers/gargammel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gargammel.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gargammel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gargammel:1.1.2--he905c8f_6
+$ shpc install quay.io/biocontainers/gargammel:1.1.4--hb66fcc3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gargammel/1.1.2--he905c8f_6
-$ module help quay.io/biocontainers/gargammel/1.1.2--he905c8f_6
+$ module load quay.io/biocontainers/gargammel/1.1.4--hb66fcc3_0
+$ module help quay.io/biocontainers/gargammel/1.1.4--hb66fcc3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

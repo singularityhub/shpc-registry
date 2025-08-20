@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgscatalog-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgscatalog-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgscatalog-utils/container.yaml"
-updated_at: "2025-08-19 03:50:47.545218"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-08-20 03:49:54.030453"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgscatalog-utils"
 aliases:
  - "pgscatalog-aggregate"
@@ -48,8 +48,9 @@ versions:
  - "1.4.1--pyhdfd78af_1"
  - "1.4.4--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pgscatalog-utils"
-config: {"url": "https://biocontainers.pro/tools/pgscatalog-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgscatalog-utils", "latest": {"2.0.0--pyhdfd78af_0": "sha256:78b6b7862ef1514b494468ca9437a25c6bad5dac8dd16106e8663483cc1423ef"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:237a44157750d4641b61bcfec3efa12fa97b3f0e2e97252f125e604b3fbd4c3f", "1.3.1--pyhdfd78af_0": "sha256:dc7c3a1afb1f3c6d8bb2dc795eb9167c932de9f8b64ae29a03568dbeebfe8a83", "1.4.1--pyhdfd78af_1": "sha256:1d954205f0bd557e7a057a1935705314da3d5da7d07b3197363aa77e2b78bc7c", "1.4.4--pyhdfd78af_0": "sha256:91cd591c976414bd54d0a615c10258789987631c8ab604e554e862d60f33000b", "2.0.0--pyhdfd78af_0": "sha256:78b6b7862ef1514b494468ca9437a25c6bad5dac8dd16106e8663483cc1423ef"}, "docker": "quay.io/biocontainers/pgscatalog-utils", "aliases": {"pgscatalog-aggregate": "/usr/local/bin/pgscatalog-aggregate", "pgscatalog-ancestry-adjust": "/usr/local/bin/pgscatalog-ancestry-adjust", "pgscatalog-combine": "/usr/local/bin/pgscatalog-combine", "pgscatalog-download": "/usr/local/bin/pgscatalog-download", "pgscatalog-intersect": "/usr/local/bin/pgscatalog-intersect", "pgscatalog-match": "/usr/local/bin/pgscatalog-match", "pgscatalog-matchmerge": "/usr/local/bin/pgscatalog-matchmerge", "pgscatalog-relabel": "/usr/local/bin/pgscatalog-relabel", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave", "nl-link-ifindex2name": "/usr/local/bin/nl-link-ifindex2name", "nl-link-list": "/usr/local/bin/nl-link-list"}}
+config: {"url": "https://biocontainers.pro/tools/pgscatalog-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgscatalog-utils", "latest": {"2.0.1--pyhdfd78af_0": "sha256:979c5fe830d36d6d960c37ea7baa97bd482f38f6b37279179a5fbd3a2ac6fd80"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:237a44157750d4641b61bcfec3efa12fa97b3f0e2e97252f125e604b3fbd4c3f", "1.3.1--pyhdfd78af_0": "sha256:dc7c3a1afb1f3c6d8bb2dc795eb9167c932de9f8b64ae29a03568dbeebfe8a83", "1.4.1--pyhdfd78af_1": "sha256:1d954205f0bd557e7a057a1935705314da3d5da7d07b3197363aa77e2b78bc7c", "1.4.4--pyhdfd78af_0": "sha256:91cd591c976414bd54d0a615c10258789987631c8ab604e554e862d60f33000b", "2.0.0--pyhdfd78af_0": "sha256:78b6b7862ef1514b494468ca9437a25c6bad5dac8dd16106e8663483cc1423ef", "2.0.1--pyhdfd78af_0": "sha256:979c5fe830d36d6d960c37ea7baa97bd482f38f6b37279179a5fbd3a2ac6fd80"}, "docker": "quay.io/biocontainers/pgscatalog-utils", "aliases": {"pgscatalog-aggregate": "/usr/local/bin/pgscatalog-aggregate", "pgscatalog-ancestry-adjust": "/usr/local/bin/pgscatalog-ancestry-adjust", "pgscatalog-combine": "/usr/local/bin/pgscatalog-combine", "pgscatalog-download": "/usr/local/bin/pgscatalog-download", "pgscatalog-intersect": "/usr/local/bin/pgscatalog-intersect", "pgscatalog-match": "/usr/local/bin/pgscatalog-match", "pgscatalog-matchmerge": "/usr/local/bin/pgscatalog-matchmerge", "pgscatalog-relabel": "/usr/local/bin/pgscatalog-relabel", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave", "nl-link-ifindex2name": "/usr/local/bin/nl-link-ifindex2name", "nl-link-list": "/usr/local/bin/nl-link-list"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgscatalog-utils.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/pgscatalog-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgscatalog-utils:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pgscatalog-utils:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgscatalog-utils/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pgscatalog-utils/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pgscatalog-utils/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pgscatalog-utils/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

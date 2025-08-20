@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowstats/container.yaml"
-updated_at: "2025-08-19 03:38:11.108983"
+updated_at: "2025-08-20 03:37:02.099371"
 latest: "4.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowstats"
 

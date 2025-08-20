@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/t1k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t1k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t1k/container.yaml"
-updated_at: "2025-08-19 03:39:53.383597"
+updated_at: "2025-08-20 03:38:47.072100"
 latest: "1.0.8--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/t1k"
 aliases:

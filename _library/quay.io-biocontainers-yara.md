@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/yara"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yara/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yara/container.yaml"
-updated_at: "2025-08-19 03:13:36.239140"
-latest: "1.0.3--hd6d6fdc_0"
+updated_at: "2025-08-20 03:11:32.262487"
+latest: "1.0.5--haf24da9_0"
 container_url: "https://biocontainers.pro/tools/yara"
 aliases:
  - "yara_indexer"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.2--h9ee0642_3"
  - "1.0.3--hd6d6fdc_0"
+ - "1.0.5--haf24da9_0"
 description: "shpc-registry automated BioContainers addition for yara"
-config: {"url": "https://biocontainers.pro/tools/yara", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yara", "latest": {"1.0.3--hd6d6fdc_0": "sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394"}, "tags": {"1.0.2--h9ee0642_3": "sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed", "1.0.3--hd6d6fdc_0": "sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394"}, "docker": "quay.io/biocontainers/yara", "aliases": {"yara_indexer": "/usr/local/bin/yara_indexer", "yara_mapper": "/usr/local/bin/yara_mapper"}}
+config: {"url": "https://biocontainers.pro/tools/yara", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yara", "latest": {"1.0.5--haf24da9_0": "sha256:8b8ea7d89289f9e40d6ab87490f42627a98590b2df69daf6a06c0455337f91ed"}, "tags": {"1.0.2--h9ee0642_3": "sha256:f67336baca2b0479e118507914e8daf70680c7b4e138d893f7281490fcd2e1ed", "1.0.3--hd6d6fdc_0": "sha256:7044b6e25fc49cec393cdb6fdd1816c4269cf75adea08ad172f996fa984b6394", "1.0.5--haf24da9_0": "sha256:8b8ea7d89289f9e40d6ab87490f42627a98590b2df69daf6a06c0455337f91ed"}, "docker": "quay.io/biocontainers/yara", "aliases": {"yara_indexer": "/usr/local/bin/yara_indexer", "yara_mapper": "/usr/local/bin/yara_mapper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yara.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/yara
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yara:1.0.3--hd6d6fdc_0
+$ shpc install quay.io/biocontainers/yara:1.0.5--haf24da9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yara/1.0.3--hd6d6fdc_0
-$ module help quay.io/biocontainers/yara/1.0.3--hd6d6fdc_0
+$ module load quay.io/biocontainers/yara/1.0.5--haf24da9_0
+$ module help quay.io/biocontainers/yara/1.0.5--haf24da9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

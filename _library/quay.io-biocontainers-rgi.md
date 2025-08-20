@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgi/container.yaml"
-updated_at: "2025-08-19 03:52:41.757233"
-latest: "6.0.4--pyh05cac1d_0"
+updated_at: "2025-08-20 03:51:53.808632"
+latest: "6.0.4--pyh05cac1d_1"
 container_url: "https://biocontainers.pro/tools/rgi"
 aliases:
  - "ct-energy"
@@ -38,8 +38,9 @@ versions:
  - "6.0.3--pyha8f3691_0"
  - "6.0.3--pyha8f3691_1"
  - "6.0.4--pyh05cac1d_0"
+ - "6.0.4--pyh05cac1d_1"
 description: "shpc-registry automated BioContainers addition for rgi"
-config: {"url": "https://biocontainers.pro/tools/rgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi", "latest": {"6.0.4--pyh05cac1d_0": "sha256:c335f1c576ab802df12a55fb5f91c0c26108c53465f226f450f77d15d43ee8b7"}, "tags": {"6.0.0--pyha8f3691_0": "sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4", "6.0.1--pyha8f3691_1": "sha256:b651feac3b55e93cc181d44012c157bdb2a71e95f9cf776d4cffd828da8e0014", "6.0.2--pyha8f3691_0": "sha256:b9d7e7025ebbfbf3edb26d7b9c686f23d29bf5f630608aa39afe30c0bcee96aa", "6.0.3--pyha8f3691_0": "sha256:27b9cd957831c075971e3f6bc52be4be5bbbae4f144a6240c7f5776bc0fa6f38", "6.0.3--pyha8f3691_1": "sha256:2ef0a291697b721b6e7ca2a328f7b7c4f338a962468cf13885a3c734777c326b", "6.0.4--pyh05cac1d_0": "sha256:c335f1c576ab802df12a55fb5f91c0c26108c53465f226f450f77d15d43ee8b7"}, "docker": "quay.io/biocontainers/rgi", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "filetype": "/usr/local/bin/filetype", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "melt.pl": "/usr/local/bin/melt.pl", "rgi": "/usr/local/bin/rgi", "ss-count.pl": "/usr/local/bin/ss-count.pl", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bamtools": "/usr/local/bin/bamtools", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "diamond": "/usr/local/bin/diamond"}}
+config: {"url": "https://biocontainers.pro/tools/rgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi", "latest": {"6.0.4--pyh05cac1d_1": "sha256:a1e6ca20d77d7090964a9b2d41f81ea675adaa3a1dc5b5602c6a6b69269912ab"}, "tags": {"6.0.0--pyha8f3691_0": "sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4", "6.0.1--pyha8f3691_1": "sha256:b651feac3b55e93cc181d44012c157bdb2a71e95f9cf776d4cffd828da8e0014", "6.0.2--pyha8f3691_0": "sha256:b9d7e7025ebbfbf3edb26d7b9c686f23d29bf5f630608aa39afe30c0bcee96aa", "6.0.3--pyha8f3691_0": "sha256:27b9cd957831c075971e3f6bc52be4be5bbbae4f144a6240c7f5776bc0fa6f38", "6.0.3--pyha8f3691_1": "sha256:2ef0a291697b721b6e7ca2a328f7b7c4f338a962468cf13885a3c734777c326b", "6.0.4--pyh05cac1d_0": "sha256:c335f1c576ab802df12a55fb5f91c0c26108c53465f226f450f77d15d43ee8b7", "6.0.4--pyh05cac1d_1": "sha256:a1e6ca20d77d7090964a9b2d41f81ea675adaa3a1dc5b5602c6a6b69269912ab"}, "docker": "quay.io/biocontainers/rgi", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "filetype": "/usr/local/bin/filetype", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "melt.pl": "/usr/local/bin/melt.pl", "rgi": "/usr/local/bin/rgi", "ss-count.pl": "/usr/local/bin/ss-count.pl", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bamtools": "/usr/local/bin/bamtools", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "diamond": "/usr/local/bin/diamond"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgi.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/rgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rgi:6.0.4--pyh05cac1d_0
+$ shpc install quay.io/biocontainers/rgi:6.0.4--pyh05cac1d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rgi/6.0.4--pyh05cac1d_0
-$ module help quay.io/biocontainers/rgi/6.0.4--pyh05cac1d_0
+$ module load quay.io/biocontainers/rgi/6.0.4--pyh05cac1d_1
+$ module help quay.io/biocontainers/rgi/6.0.4--pyh05cac1d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

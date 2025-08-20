@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svmlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svmlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svmlight/container.yaml"
-updated_at: "2025-08-19 03:21:20.589856"
-latest: "6.02--h7b50bb2_7"
+updated_at: "2025-08-20 03:19:41.482547"
+latest: "6.02--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/svmlight"
 aliases:
  - "svm_classify"
@@ -14,8 +14,9 @@ versions:
  - "6.02--hec16e2b_4"
  - "6.02--h031d066_6"
  - "6.02--h7b50bb2_7"
+ - "6.02--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for svmlight"
-config: {"url": "https://biocontainers.pro/tools/svmlight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svmlight", "latest": {"6.02--h7b50bb2_7": "sha256:28c47e71452b6ce433a624481ea93043475fb0394d5d0e580e7b8edafe305264"}, "tags": {"6.02--hec16e2b_4": "sha256:d7131f4d49cbef87a5655498cd83f4606bcb2646871b413635de1b8f7914aa37", "6.02--h031d066_6": "sha256:2fb4c7ff5cf27e6ca26391fd03c7c025524424651db96b80c40d272c8b98c441", "6.02--h7b50bb2_7": "sha256:28c47e71452b6ce433a624481ea93043475fb0394d5d0e580e7b8edafe305264"}, "docker": "quay.io/biocontainers/svmlight", "aliases": {"svm_classify": "/usr/local/bin/svm_classify", "svm_learn": "/usr/local/bin/svm_learn"}}
+config: {"url": "https://biocontainers.pro/tools/svmlight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svmlight", "latest": {"6.02--h7b50bb2_8": "sha256:ba2b479bacbac8342a987a01a874be03fd0c99486e286e2ddb1aff253184ff15"}, "tags": {"6.02--hec16e2b_4": "sha256:d7131f4d49cbef87a5655498cd83f4606bcb2646871b413635de1b8f7914aa37", "6.02--h031d066_6": "sha256:2fb4c7ff5cf27e6ca26391fd03c7c025524424651db96b80c40d272c8b98c441", "6.02--h7b50bb2_7": "sha256:28c47e71452b6ce433a624481ea93043475fb0394d5d0e580e7b8edafe305264", "6.02--h7b50bb2_8": "sha256:ba2b479bacbac8342a987a01a874be03fd0c99486e286e2ddb1aff253184ff15"}, "docker": "quay.io/biocontainers/svmlight", "aliases": {"svm_classify": "/usr/local/bin/svm_classify", "svm_learn": "/usr/local/bin/svm_learn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svmlight.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/svmlight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svmlight:6.02--h7b50bb2_7
+$ shpc install quay.io/biocontainers/svmlight:6.02--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svmlight/6.02--h7b50bb2_7
-$ module help quay.io/biocontainers/svmlight/6.02--h7b50bb2_7
+$ module load quay.io/biocontainers/svmlight/6.02--h7b50bb2_8
+$ module help quay.io/biocontainers/svmlight/6.02--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

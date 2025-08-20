@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-lwp-protocol-https"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-protocol-https/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-protocol-https/container.yaml"
-updated_at: "2025-08-19 03:24:43.508100"
-latest: "6.10--pl5321hdfd78af_0"
+updated_at: "2025-08-20 03:23:13.855474"
+latest: "6.14--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lwp-protocol-https"
 aliases:
  - "lwp-download"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "6.10--pl5321hdfd78af_0"
+ - "6.14--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-lwp-protocol-https"
-config: {"url": "https://biocontainers.pro/tools/perl-lwp-protocol-https", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-protocol-https", "latest": {"6.10--pl5321hdfd78af_0": "sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9"}, "tags": {"6.10--pl5321hdfd78af_0": "sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9"}, "docker": "quay.io/biocontainers/perl-lwp-protocol-https", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-lwp-protocol-https", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-protocol-https", "latest": {"6.14--pl5321hdfd78af_1": "sha256:d0b8d0dff90d2ded8b46946e40476c884822889436884ab192e431c02a1d309c"}, "tags": {"6.10--pl5321hdfd78af_0": "sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9", "6.14--pl5321hdfd78af_1": "sha256:d0b8d0dff90d2ded8b46946e40476c884822889436884ab192e431c02a1d309c"}, "docker": "quay.io/biocontainers/perl-lwp-protocol-https", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-lwp-protocol-https.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-lwp-protocol-https
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-lwp-protocol-https:6.10--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-lwp-protocol-https:6.14--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-lwp-protocol-https/6.10--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-lwp-protocol-https/6.10--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-lwp-protocol-https/6.14--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/perl-lwp-protocol-https/6.14--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

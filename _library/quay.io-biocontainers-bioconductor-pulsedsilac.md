@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pulsedsilac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pulsedsilac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pulsedsilac/container.yaml"
-updated_at: "2025-08-19 03:48:04.396881"
+updated_at: "2025-08-20 03:47:06.123023"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pulsedsilac"
 

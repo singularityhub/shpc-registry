@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-image-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-image-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-image-info/container.yaml"
-updated_at: "2025-08-19 03:30:37.981923"
-latest: "1.42--pl5321hdfd78af_0"
+updated_at: "2025-08-20 03:29:20.404033"
+latest: "1.45--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-image-info"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.42--pl5321hdfd78af_0"
+ - "1.45--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-image-info"
-config: {"url": "https://biocontainers.pro/tools/perl-image-info", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-image-info", "latest": {"1.42--pl5321hdfd78af_0": "sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b"}, "docker": "quay.io/biocontainers/perl-image-info", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-image-info", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-image-info", "latest": {"1.45--pl5321hdfd78af_0": "sha256:3c56810cc2fcb8ec4725a836e391001702dd321ac4db6b945d156f96bbbb846d"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b", "1.45--pl5321hdfd78af_0": "sha256:3c56810cc2fcb8ec4725a836e391001702dd321ac4db6b945d156f96bbbb846d"}, "docker": "quay.io/biocontainers/perl-image-info", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-image-info.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-image-info
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-image-info:1.42--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-image-info:1.45--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-image-info/1.42--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-image-info/1.42--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-image-info/1.45--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-image-info/1.45--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

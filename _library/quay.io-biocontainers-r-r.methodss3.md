@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.methodss3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.methodss3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.methodss3/container.yaml"
-updated_at: "2025-08-19 03:44:17.359210"
+updated_at: "2025-08-20 03:43:16.492118"
 latest: "1.7.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.methodss3"
 aliases:

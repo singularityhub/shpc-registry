@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/steamboat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/steamboat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/steamboat/container.yaml"
-updated_at: "2025-08-19 03:48:29.320511"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-08-20 03:47:30.888773"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/steamboat"
 aliases:
  - "gisaid-batch"
@@ -25,8 +25,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for steamboat"
-config: {"url": "https://biocontainers.pro/tools/steamboat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for steamboat", "latest": {"1.0.0--pyhdfd78af_0": "sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73"}, "docker": "quay.io/biocontainers/steamboat", "aliases": {"gisaid-batch": "/usr/local/bin/gisaid-batch", "executor": "/usr/local/bin/executor", "rich-click": "/usr/local/bin/rich-click", "numpy-config": "/usr/local/bin/numpy-config", "markdown-it": "/usr/local/bin/markdown-it", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/steamboat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for steamboat", "latest": {"1.1.1--pyhdfd78af_0": "sha256:279cde32d32d6ffe45bbb194c0a2381c963a65dc04d227fa2c9bfacc5aba9989"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:51dba40d060281f5a570e67b00055ac7da49abb2fd007fec828541ae1f2cdb73", "1.1.1--pyhdfd78af_0": "sha256:279cde32d32d6ffe45bbb194c0a2381c963a65dc04d227fa2c9bfacc5aba9989"}, "docker": "quay.io/biocontainers/steamboat", "aliases": {"gisaid-batch": "/usr/local/bin/gisaid-batch", "executor": "/usr/local/bin/executor", "rich-click": "/usr/local/bin/rich-click", "numpy-config": "/usr/local/bin/numpy-config", "markdown-it": "/usr/local/bin/markdown-it", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/steamboat.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/steamboat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/steamboat:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/steamboat:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/steamboat/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/steamboat/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/steamboat/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/steamboat/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

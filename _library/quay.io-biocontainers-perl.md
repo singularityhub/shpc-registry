@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl/container.yaml"
-updated_at: "2025-08-19 03:29:11.139245"
+updated_at: "2025-08-20 03:27:53.281285"
 latest: "5.32"
 container_url: "https://biocontainers.pro/tools/perl"
 
@@ -12,8 +12,9 @@ versions:
  - "5.26.2"
  - "5.26"
  - "5.32"
+ - "5.26--2"
 description: "shpc-registry automated BioContainers addition for perl"
-config: {"url": "https://biocontainers.pro/tools/perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl", "latest": {"5.32": "sha256:1889c73a71acbe17b2857a0ff437fd919a5bc69f1d8299be85d40316b91a4e01"}, "tags": {"5.26.2": "sha256:8ae3c6d2fc43fb73efb20e26dd1d780ef05c32977435bb0bdfa670037913848f", "5.26": "sha256:28cadea2fb89c5cd34b9104ad8b403cd1291497edabe143dd37213450b7579cc", "5.32": "sha256:1889c73a71acbe17b2857a0ff437fd919a5bc69f1d8299be85d40316b91a4e01"}, "docker": "quay.io/biocontainers/perl"}
+config: {"url": "https://biocontainers.pro/tools/perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl", "latest": {"5.32": "sha256:1889c73a71acbe17b2857a0ff437fd919a5bc69f1d8299be85d40316b91a4e01"}, "tags": {"5.26.2": "sha256:8ae3c6d2fc43fb73efb20e26dd1d780ef05c32977435bb0bdfa670037913848f", "5.26": "sha256:28cadea2fb89c5cd34b9104ad8b403cd1291497edabe143dd37213450b7579cc", "5.32": "sha256:1889c73a71acbe17b2857a0ff437fd919a5bc69f1d8299be85d40316b91a4e01", "5.26--2": "sha256:6c3d58d8e56855b658da7cb1f2afdeab5cd1c0e85c4549c080884f8af42380c5"}, "docker": "quay.io/biocontainers/perl"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl.

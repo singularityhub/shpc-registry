@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blue-crab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blue-crab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blue-crab/container.yaml"
-updated_at: "2025-08-19 03:22:50.529751"
-latest: "0.4.0--pyh05cac1d_0"
+updated_at: "2025-08-20 03:21:15.329645"
+latest: "0.4.0--pyh05cac1d_1"
 container_url: "https://biocontainers.pro/tools/blue-crab"
 aliases:
  - "blue-crab"
@@ -41,8 +41,9 @@ aliases:
  - "grpc_node_plugin"
 versions:
  - "0.4.0--pyh05cac1d_0"
+ - "0.4.0--pyh05cac1d_1"
 description: "singularity registry hpc automated addition for blue-crab"
-config: {"url": "https://biocontainers.pro/tools/blue-crab", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blue-crab", "latest": {"0.4.0--pyh05cac1d_0": "sha256:858c2dd093c36243aeec959559bfadbf7ccf4839e17a44eeb294ec972ccc0f21"}, "tags": {"0.4.0--pyh05cac1d_0": "sha256:858c2dd093c36243aeec959559bfadbf7ccf4839e17a44eeb294ec972ccc0f21"}, "docker": "quay.io/biocontainers/blue-crab", "aliases": {"blue-crab": "/usr/local/bin/blue-crab", "h2benchmark": "/usr/local/bin/h2benchmark", "pod5": "/usr/local/bin/pod5", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "flatc": "/usr/local/bin/flatc", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/blue-crab", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blue-crab", "latest": {"0.4.0--pyh05cac1d_1": "sha256:7c9d1aac9b73ab49a4bf04b2c0f0e64b426ded37eb447e4973f6ce7d04259f04"}, "tags": {"0.4.0--pyh05cac1d_0": "sha256:858c2dd093c36243aeec959559bfadbf7ccf4839e17a44eeb294ec972ccc0f21", "0.4.0--pyh05cac1d_1": "sha256:7c9d1aac9b73ab49a4bf04b2c0f0e64b426ded37eb447e4973f6ce7d04259f04"}, "docker": "quay.io/biocontainers/blue-crab", "aliases": {"blue-crab": "/usr/local/bin/blue-crab", "h2benchmark": "/usr/local/bin/h2benchmark", "pod5": "/usr/local/bin/pod5", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "flatc": "/usr/local/bin/flatc", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "h5delete": "/usr/local/bin/h5delete", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blue-crab.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/blue-crab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blue-crab:0.4.0--pyh05cac1d_0
+$ shpc install quay.io/biocontainers/blue-crab:0.4.0--pyh05cac1d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blue-crab/0.4.0--pyh05cac1d_0
-$ module help quay.io/biocontainers/blue-crab/0.4.0--pyh05cac1d_0
+$ module load quay.io/biocontainers/blue-crab/0.4.0--pyh05cac1d_1
+$ module help quay.io/biocontainers/blue-crab/0.4.0--pyh05cac1d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
