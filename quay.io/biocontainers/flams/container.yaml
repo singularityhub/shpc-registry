@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/flams
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flams
 latest:
-  1.1.5--pyhdfd78af_1: 
-    sha256:8f10cd0810e659bd21bb7db9d64ed8a1dd87cba382a442202d5f35b64c8cd7c3
+  1.1.6--pyhdfd78af_0: 
+    sha256:291087bd2fc4fcdc17ca2d781c980fdc76309c131a0885c190cb6482bed7f94c
 tags:
   0.0.6--pyhdfd78af_0: 
     sha256:eba6351ca1267bce0bb11f35207ad3a8259595a1d4275a69adf2a5d61f569747
@@ -21,6 +21,8 @@ tags:
     sha256:0699439d39046d28728cd1eb1d5aecba9c08d3e43a4e3f482f9c3e4964be280c
   1.1.5--pyhdfd78af_1: 
     sha256:8f10cd0810e659bd21bb7db9d64ed8a1dd87cba382a442202d5f35b64c8cd7c3
+  1.1.6--pyhdfd78af_0: 
+    sha256:291087bd2fc4fcdc17ca2d781c980fdc76309c131a0885c190cb6482bed7f94c
 docker: quay.io/biocontainers/flams
 aliases:
   FLAMS: /usr/local/bin/FLAMS

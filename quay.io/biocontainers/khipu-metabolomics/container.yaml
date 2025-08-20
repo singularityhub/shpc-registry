@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/khipu-metabolomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for khipu-metabolomics
 latest:
-  2.0.2--pyhdfd78af_0: 
-    sha256:38ae3c734341e5e36cd0494e9ce16718b26a9ed6db10c63b0c7b183d09cb0de3
+  2.0.4--pyhdfd78af_0: 
+    sha256:ba0ed1b613fd910bd2dc6ba07197c988a622dc6fa49c56c9d50cdff6fa99809d
 tags:
   0.7.5--pyhdfd78af_0: 
     sha256:bd7b7d241795c9eb53d898cc40a50743fc9793b25f8a26650ac9a2b8a00b033e
   2.0.2--pyhdfd78af_0: 
     sha256:38ae3c734341e5e36cd0494e9ce16718b26a9ed6db10c63b0c7b183d09cb0de3
+  2.0.4--pyhdfd78af_0: 
+    sha256:ba0ed1b613fd910bd2dc6ba07197c988a622dc6fa49c56c9d50cdff6fa99809d
 docker: quay.io/biocontainers/khipu-metabolomics
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

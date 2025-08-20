@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hisat2-pipeline
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hisat2-pipeline
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:eee657621b68b0b01333d38a5f65f0c2d855a77fac32ddbae35b359d232e298a
+  1.1.1--pyhdfd78af_0: 
+    sha256:06d71d9cffe5323dc1c34c6d0230229cbdb66119c8edee549959ba2e574a4e96
 tags:
   1.0.6--pyhdfd78af_0: 
     sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d
@@ -13,6 +13,8 @@ tags:
     sha256:669ee6a586b7105e2529d39f879e4f99ecf738fc5765a544725c4a7638a99d51
   1.1.0--pyhdfd78af_0: 
     sha256:eee657621b68b0b01333d38a5f65f0c2d855a77fac32ddbae35b359d232e298a
+  1.1.1--pyhdfd78af_0: 
+    sha256:06d71d9cffe5323dc1c34c6d0230229cbdb66119c8edee549959ba2e574a4e96
 docker: quay.io/biocontainers/hisat2-pipeline
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv

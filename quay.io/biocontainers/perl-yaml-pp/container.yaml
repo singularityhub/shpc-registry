@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-yaml-pp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-yaml-pp
 latest:
-  0.021--pl5321hdfd78af_2: 
-    sha256:1feaca22e6431d84bb2948c953acf939a6a88e1490b8d7c0395a0eff904bf6a3
+  0.39.0--pl5321hdfd78af_0: 
+    sha256:bdf746405035032313134630ef469f600e55006da2576d8fe1f77068643b087e
 tags:
   0.021--pl5321hdfd78af_2: 
     sha256:1feaca22e6431d84bb2948c953acf939a6a88e1490b8d7c0395a0eff904bf6a3
+  0.39.0--pl5321hdfd78af_0: 
+    sha256:bdf746405035032313134630ef469f600e55006da2576d8fe1f77068643b087e
 docker: quay.io/biocontainers/perl-yaml-pp
 aliases:
   yamlpp5-events: /usr/local/bin/yamlpp5-events

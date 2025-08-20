@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/jarvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jarvis
 latest:
-  1.1--h7b50bb2_5: 
-    sha256:92feae79d0f07116cc239dfb664422786d02625865cb34246e1abb4614d596d7
+  1.1--h7b50bb2_6: 
+    sha256:07a143ed26b6d06fe535bf947b80964b723b49402dc3873e5efa1827487a7fcc
 tags:
   1.1--hec16e2b_2: 
     sha256:f8f4754f154a2e1e85c90c9ba39c782f1e15256969e2db64694f34e17dad1d3b
@@ -11,6 +11,8 @@ tags:
     sha256:117b2e8a7aef1adbd82e04e038237761c5034f411cc4637c989c2ecc43bf57b9
   1.1--h7b50bb2_5: 
     sha256:92feae79d0f07116cc239dfb664422786d02625865cb34246e1abb4614d596d7
+  1.1--h7b50bb2_6: 
+    sha256:07a143ed26b6d06fe535bf947b80964b723b49402dc3873e5efa1827487a7fcc
 docker: quay.io/biocontainers/jarvis
 aliases:
   JARVIS: /usr/local/bin/JARVIS

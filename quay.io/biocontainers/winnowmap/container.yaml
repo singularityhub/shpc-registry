@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/winnowmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for winnowmap
 latest:
-  2.03--h5ca1c30_3: 
-    sha256:73d64ea3b08d0c50cf5c637c9b0ab8414fd075df47903c275d5721b8ae298beb
+  2.03--h5ca1c30_4: 
+    sha256:3ab994c4f1c719915d0913652b77ec4cbf1ffd35690576401f78c67857213abf
 tags:
   2.03--h5b5514e_1: 
     sha256:e38b81b7d387ce4f38b290c83ad06a84f26331c4e9decfd503b8ddbf4a931aa9
@@ -11,6 +11,8 @@ tags:
     sha256:7777b40ec169259b9a4f2f144d1f48111601a18a41a00aef3bc6a93a3ac08243
   2.03--h5ca1c30_3: 
     sha256:73d64ea3b08d0c50cf5c637c9b0ab8414fd075df47903c275d5721b8ae298beb
+  2.03--h5ca1c30_4: 
+    sha256:3ab994c4f1c719915d0913652b77ec4cbf1ffd35690576401f78c67857213abf
 docker: quay.io/biocontainers/winnowmap
 aliases:
   meryl-analyze: /usr/local/bin/meryl-analyze

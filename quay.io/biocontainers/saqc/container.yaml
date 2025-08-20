@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/saqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for saqc
 latest:
-  2.4.1: sha256:4508837687c7239c1628bfdadc7e6e6a986faa04fc2ab3270602f04d29c872f8
+  2.6.0: sha256:b5adc861e7b1b8251999de2dedc680529bfbe7325ed9232a2b4eb1f258f435d2
 tags:
   2.4.1: sha256:4508837687c7239c1628bfdadc7e6e6a986faa04fc2ab3270602f04d29c872f8
+  2.6.0: sha256:b5adc861e7b1b8251999de2dedc680529bfbe7325ed9232a2b4eb1f258f435d2
 docker: quay.io/biocontainers/saqc
 aliases:
   protoc-25.1.0: /usr/local/bin/protoc-25.1.0
