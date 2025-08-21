@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/latch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for latch
 latest:
-  2.65.2--pyhdfd78af_0: 
-    sha256:c80e967ac77a101b229cd832cc8e97d103d2cda6bc3b145f9c905649c16b82da
+  2.66.3--pyhdfd78af_0: 
+    sha256:ef583ce05f31e63cf1b5cd786549a4091b3e254f976ffd8db72e2a262bda15e3
 tags:
   2.19.11--pyhdfd78af_0: 
     sha256:439b0bf3495c40a02297b70a3c0d90e6b1d3b3120a5c727038abbc52653b27b4
@@ -29,6 +29,10 @@ tags:
     sha256:10c8f2bd7248d3de7af777fa706d7d31e08677c050ddbb7f7c52c3ba8963a06f
   2.65.2--pyhdfd78af_0: 
     sha256:c80e967ac77a101b229cd832cc8e97d103d2cda6bc3b145f9c905649c16b82da
+  2.66.3--pyhdfd78af_0: 
+    sha256:ef583ce05f31e63cf1b5cd786549a4091b3e254f976ffd8db72e2a262bda15e3
+  2.65.7--pyhdfd78af_0: 
+    sha256:a1412bde2268f9840ebab2e80d47fa8a265d8b536cf988b3b22511294fb5f454
 docker: quay.io/biocontainers/latch
 aliases:
   apython: /usr/local/bin/apython

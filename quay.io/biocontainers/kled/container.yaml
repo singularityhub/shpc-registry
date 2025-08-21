@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kled
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kled
 latest:
-  1.2.9H11--h4f462e4_0: 
-    sha256:039c3c9ed97f0bb90c4ad1058e987487bae9caded46d68fe17021a66ffb76e8c
+  1.2.10--h4f462e4_0: 
+    sha256:4ee94fb09e446d5f62a06346692e80fa318d7ba16bc92dac76911455ad7faf72
 tags:
   1.2.9H11--h4f462e4_0: 
     sha256:039c3c9ed97f0bb90c4ad1058e987487bae9caded46d68fe17021a66ffb76e8c
+  1.2.10--h4f462e4_0: 
+    sha256:4ee94fb09e446d5f62a06346692e80fa318d7ba16bc92dac76911455ad7faf72
 docker: quay.io/biocontainers/kled
 aliases:
   HapKled: /usr/local/bin/HapKled

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spectral_hk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spectral_hk
 latest:
-  0.1--0: 
-    sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3
+  0.1--h7b50bb2_2: 
+    sha256:c772257cfb94bce083a849c5d43af6c8acfe86b65a2f9d303b4e8ed9a0de24e6
 tags:
   0.1--0: 
     sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3
+  0.1--h7b50bb2_2: 
+    sha256:c772257cfb94bce083a849c5d43af6c8acfe86b65a2f9d303b4e8ed9a0de24e6
 docker: quay.io/biocontainers/spectral_hk
 aliases:
   spectral_hk: /usr/local/bin/spectral_hk

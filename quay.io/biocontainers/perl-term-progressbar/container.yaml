@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-term-progressbar
 latest:
-  2.22--pl5321hdfd78af_1: 
-    sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90
+  2.23--pl5321hdfd78af_0: 
+    sha256:9891b35e9c32311c31c1d5d232de58781068ed25563fa35d2c20aa7ce1343282
 tags:
   2.22--pl5321hdfd78af_1: 
     sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90
+  2.23--pl5321hdfd78af_0: 
+    sha256:9891b35e9c32311c31c1d5d232de58781068ed25563fa35d2c20aa7ce1343282
 docker: quay.io/biocontainers/perl-term-progressbar
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

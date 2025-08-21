@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/biofluff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biofluff
 latest:
-  3.0.4--py_0: 
-    sha256:de3bcfe7a39627baab3ef4f957a96299dfb78075ecb90bc4aa7f772051802064
+  3.0.4--pyhdfd78af_1: 
+    sha256:b92d5f43922fafa035e807aefb28f55bbe408f4c25b29806c4a15b00c4e3672b
 tags:
   3.0.4--py_0: 
     sha256:de3bcfe7a39627baab3ef4f957a96299dfb78075ecb90bc4aa7f772051802064
+  3.0.4--pyhdfd78af_1: 
+    sha256:b92d5f43922fafa035e807aefb28f55bbe408f4c25b29806c4a15b00c4e3672b
 docker: quay.io/biocontainers/biofluff
 aliases:
   fluff: /usr/local/bin/fluff

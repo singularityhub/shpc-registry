@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/trtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trtools
 latest:
-  6.1.0--pyhdfd78af_0: 
-    sha256:d7e9b4f9e658149d668f89857ba90ef595da9d099c9dc573dda55527c4bb6010
+  6.1.0--pyhdfd78af_1: 
+    sha256:05af7f1cfe9951fbfc864412da63816809586f1ec0af1d3589349c64dea494fd
 tags:
   4.2.1--pyhb765511_0: 
     sha256:503e5b4beab6b212fdd777e59cc6f84b944d63665105b77d0e3374d8391d498a
@@ -21,6 +21,8 @@ tags:
     sha256:589bb46b09e335ef8c2fb46ba0b79e273424b36302f86bb4e0a96fef26c7e5ee
   6.1.0--pyhdfd78af_0: 
     sha256:d7e9b4f9e658149d668f89857ba90ef595da9d099c9dc573dda55527c4bb6010
+  6.1.0--pyhdfd78af_1: 
+    sha256:05af7f1cfe9951fbfc864412da63816809586f1ec0af1d3589349c64dea494fd
 docker: quay.io/biocontainers/trtools
 aliases:
   compareSTR: /usr/local/bin/compareSTR
