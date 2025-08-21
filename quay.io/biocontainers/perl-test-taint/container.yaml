@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-test-taint
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-test-taint
+latest:
+  1.08--pl5321h7b50bb2_1: 
+    sha256:9ead510e06bc625cd01ec07094fadc65e457e7cd612c466712cd57b8f6db9714
+tags:
+  1.08--pl5321h7b50bb2_1: 
+    sha256:9ead510e06bc625cd01ec07094fadc65e457e7cd612c466712cd57b8f6db9714
+docker: quay.io/biocontainers/perl-test-taint

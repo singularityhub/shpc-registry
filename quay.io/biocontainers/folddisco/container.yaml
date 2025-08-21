@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/folddisco
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for folddisco
+latest:
+  1.7514114--ha6fb395_1: 
+    sha256:aea72513f1a7f41352951cd05237f1edff72a48676780ab3e83b17e1bb5e87f5
+tags:
+  1.7514114--ha6fb395_1: 
+    sha256:aea72513f1a7f41352951cd05237f1edff72a48676780ab3e83b17e1bb5e87f5
+docker: quay.io/biocontainers/folddisco
+aliases:
+  folddisco: /usr/local/bin/folddisco
