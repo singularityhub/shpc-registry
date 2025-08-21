@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ampliqueso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ampliqueso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ampliqueso/container.yaml"
-updated_at: "2025-08-20 04:00:06.356721"
+updated_at: "2025-08-21 03:57:33.302138"
 latest: "1.20.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ampliqueso"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/saqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saqc/container.yaml"
-updated_at: "2025-08-20 03:21:34.748709"
-latest: "2.4.1"
+updated_at: "2025-08-21 03:19:55.672308"
+latest: "2.6.0"
 container_url: "https://biocontainers.pro/tools/saqc"
 aliases:
  - "protoc-25.1.0"
@@ -37,8 +37,9 @@ aliases:
  - "nl-link-list"
 versions:
  - "2.4.1"
+ - "2.6.0"
 description: "singularity registry hpc automated addition for saqc"
-config: {"url": "https://biocontainers.pro/tools/saqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saqc", "latest": {"2.4.1": "sha256:4508837687c7239c1628bfdadc7e6e6a986faa04fc2ab3270602f04d29c872f8"}, "tags": {"2.4.1": "sha256:4508837687c7239c1628bfdadc7e6e6a986faa04fc2ab3270602f04d29c872f8"}, "docker": "quay.io/biocontainers/saqc", "aliases": {"protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "saqc": "/usr/local/bin/saqc", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave", "nl-link-ifindex2name": "/usr/local/bin/nl-link-ifindex2name", "nl-link-list": "/usr/local/bin/nl-link-list"}}
+config: {"url": "https://biocontainers.pro/tools/saqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saqc", "latest": {"2.6.0": "sha256:b5adc861e7b1b8251999de2dedc680529bfbe7325ed9232a2b4eb1f258f435d2"}, "tags": {"2.4.1": "sha256:4508837687c7239c1628bfdadc7e6e6a986faa04fc2ab3270602f04d29c872f8", "2.6.0": "sha256:b5adc861e7b1b8251999de2dedc680529bfbe7325ed9232a2b4eb1f258f435d2"}, "docker": "quay.io/biocontainers/saqc", "aliases": {"protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "saqc": "/usr/local/bin/saqc", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add", "nl-addr-delete": "/usr/local/bin/nl-addr-delete", "nl-addr-list": "/usr/local/bin/nl-addr-list", "nl-class-add": "/usr/local/bin/nl-class-add", "nl-class-delete": "/usr/local/bin/nl-class-delete", "nl-class-list": "/usr/local/bin/nl-class-list", "nl-classid-lookup": "/usr/local/bin/nl-classid-lookup", "nl-cls-add": "/usr/local/bin/nl-cls-add", "nl-cls-delete": "/usr/local/bin/nl-cls-delete", "nl-cls-list": "/usr/local/bin/nl-cls-list", "nl-fib-lookup": "/usr/local/bin/nl-fib-lookup", "nl-link-enslave": "/usr/local/bin/nl-link-enslave", "nl-link-ifindex2name": "/usr/local/bin/nl-link-ifindex2name", "nl-link-list": "/usr/local/bin/nl-link-list"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/saqc.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/saqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/saqc:2.4.1
+$ shpc install quay.io/biocontainers/saqc:2.6.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/saqc/2.4.1
-$ module help quay.io/biocontainers/saqc/2.4.1
+$ module load quay.io/biocontainers/saqc/2.6.0
+$ module help quay.io/biocontainers/saqc/2.6.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

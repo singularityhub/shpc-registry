@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/winnowmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/winnowmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/winnowmap/container.yaml"
-updated_at: "2025-08-20 03:53:31.122888"
-latest: "2.03--h5ca1c30_3"
+updated_at: "2025-08-21 03:51:08.297491"
+latest: "2.03--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/winnowmap"
 aliases:
  - "meryl-analyze"
@@ -18,8 +18,9 @@ versions:
  - "2.03--h5b5514e_1"
  - "2.03--h43eeafb_2"
  - "2.03--h5ca1c30_3"
+ - "2.03--h5ca1c30_4"
 description: "shpc-registry automated BioContainers addition for winnowmap"
-config: {"url": "https://biocontainers.pro/tools/winnowmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for winnowmap", "latest": {"2.03--h5ca1c30_3": "sha256:73d64ea3b08d0c50cf5c637c9b0ab8414fd075df47903c275d5721b8ae298beb"}, "tags": {"2.03--h5b5514e_1": "sha256:e38b81b7d387ce4f38b290c83ad06a84f26331c4e9decfd503b8ddbf4a931aa9", "2.03--h43eeafb_2": "sha256:7777b40ec169259b9a4f2f144d1f48111601a18a41a00aef3bc6a93a3ac08243", "2.03--h5ca1c30_3": "sha256:73d64ea3b08d0c50cf5c637c9b0ab8414fd075df47903c275d5721b8ae298beb"}, "docker": "quay.io/biocontainers/winnowmap", "aliases": {"meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "winnowmap": "/usr/local/bin/winnowmap", "meryl": "/usr/local/bin/meryl"}}
+config: {"url": "https://biocontainers.pro/tools/winnowmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for winnowmap", "latest": {"2.03--h5ca1c30_4": "sha256:3ab994c4f1c719915d0913652b77ec4cbf1ffd35690576401f78c67857213abf"}, "tags": {"2.03--h5b5514e_1": "sha256:e38b81b7d387ce4f38b290c83ad06a84f26331c4e9decfd503b8ddbf4a931aa9", "2.03--h43eeafb_2": "sha256:7777b40ec169259b9a4f2f144d1f48111601a18a41a00aef3bc6a93a3ac08243", "2.03--h5ca1c30_3": "sha256:73d64ea3b08d0c50cf5c637c9b0ab8414fd075df47903c275d5721b8ae298beb", "2.03--h5ca1c30_4": "sha256:3ab994c4f1c719915d0913652b77ec4cbf1ffd35690576401f78c67857213abf"}, "docker": "quay.io/biocontainers/winnowmap", "aliases": {"meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "winnowmap": "/usr/local/bin/winnowmap", "meryl": "/usr/local/bin/meryl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/winnowmap.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/winnowmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/winnowmap:2.03--h5ca1c30_3
+$ shpc install quay.io/biocontainers/winnowmap:2.03--h5ca1c30_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/winnowmap/2.03--h5ca1c30_3
-$ module help quay.io/biocontainers/winnowmap/2.03--h5ca1c30_3
+$ module load quay.io/biocontainers/winnowmap/2.03--h5ca1c30_4
+$ module help quay.io/biocontainers/winnowmap/2.03--h5ca1c30_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasn1-modules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasn1-modules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasn1-modules/container.yaml"
-updated_at: "2025-08-20 03:10:53.364087"
+updated_at: "2025-08-21 03:09:53.025981"
 latest: "0.0.8--py35_0"
 container_url: "https://biocontainers.pro/tools/pyasn1-modules"
 aliases:

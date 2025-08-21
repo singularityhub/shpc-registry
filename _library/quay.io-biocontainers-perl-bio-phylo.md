@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-bio-phylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-phylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-phylo/container.yaml"
-updated_at: "2025-08-20 03:29:20.123642"
-latest: "0.58--pl5321hdfd78af_5"
+updated_at: "2025-08-21 03:27:21.836792"
+latest: "2.0.1--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-phylo"
 
 versions:
  - "0.58--pl5321hdfd78af_4"
  - "0.58--pl5321hdfd78af_5"
+ - "2.0.1--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-bio-phylo"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-phylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-phylo", "latest": {"0.58--pl5321hdfd78af_5": "sha256:e26f8fd4a7a0aaf46af4aa1ad2ecc8fd052ff6bd4b3050a988f9b7452132768e"}, "tags": {"0.58--pl5321hdfd78af_4": "sha256:716235c463ddf8a63daf863ae90b4cdae320dfdafa38a9dfbcc7bca565b94846", "0.58--pl5321hdfd78af_5": "sha256:e26f8fd4a7a0aaf46af4aa1ad2ecc8fd052ff6bd4b3050a988f9b7452132768e"}, "docker": "quay.io/biocontainers/perl-bio-phylo"}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-phylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-phylo", "latest": {"2.0.1--pl5321hdfd78af_0": "sha256:8356c8d1130bd326ca1b1c3be02307965644b295538cda9e7172c930984c79c1"}, "tags": {"0.58--pl5321hdfd78af_4": "sha256:716235c463ddf8a63daf863ae90b4cdae320dfdafa38a9dfbcc7bca565b94846", "0.58--pl5321hdfd78af_5": "sha256:e26f8fd4a7a0aaf46af4aa1ad2ecc8fd052ff6bd4b3050a988f9b7452132768e", "2.0.1--pl5321hdfd78af_0": "sha256:8356c8d1130bd326ca1b1c3be02307965644b295538cda9e7172c930984c79c1"}, "docker": "quay.io/biocontainers/perl-bio-phylo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-phylo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-bio-phylo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-phylo:0.58--pl5321hdfd78af_5
+$ shpc install quay.io/biocontainers/perl-bio-phylo:2.0.1--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-phylo/0.58--pl5321hdfd78af_5
-$ module help quay.io/biocontainers/perl-bio-phylo/0.58--pl5321hdfd78af_5
+$ module load quay.io/biocontainers/perl-bio-phylo/2.0.1--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-bio-phylo/2.0.1--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
