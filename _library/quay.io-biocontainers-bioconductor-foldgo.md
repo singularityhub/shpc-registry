@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-foldgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-foldgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-foldgo/container.yaml"
-updated_at: "2025-08-21 03:28:07.769100"
+updated_at: "2025-08-21 06:27:21.482342"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-foldgo"
 aliases:

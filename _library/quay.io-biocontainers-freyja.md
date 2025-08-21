@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/freyja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freyja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/freyja/container.yaml"
-updated_at: "2025-08-21 03:40:51.157553"
+updated_at: "2025-08-21 06:40:03.119107"
 latest: "2.0.0--py311h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/freyja"
 aliases:
