@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/krepp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for krepp
+latest:
+  0.5.1--h370f27c_0: 
+    sha256:af93e14f91c0a0c59008d0197df4c12f12bebb0eddc15e2a6cc89a1501a31ebd
+tags:
+  0.5.1--h370f27c_0: 
+    sha256:af93e14f91c0a0c59008d0197df4c12f12bebb0eddc15e2a6cc89a1501a31ebd
+docker: quay.io/biocontainers/krepp
+aliases:
+  krepp: /usr/local/bin/krepp

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ngsrelate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngsrelate
+latest:
+  2.0--hea85c65_0: 
+    sha256:542dfb1db540a68037384ac53e54788fa6625eb83d7a19e4e2acd79da959ecaf
+tags:
+  2.0--hea85c65_0: 
+    sha256:542dfb1db540a68037384ac53e54788fa6625eb83d7a19e4e2acd79da959ecaf
+docker: quay.io/biocontainers/ngsrelate
+aliases:
+  ngsRelate: /usr/local/bin/ngsRelate
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
