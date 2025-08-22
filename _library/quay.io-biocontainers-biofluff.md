@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biofluff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biofluff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biofluff/container.yaml"
-updated_at: "2025-08-21 06:32:35.891484"
-latest: "3.0.4--py_0"
+updated_at: "2025-08-22 03:34:04.187617"
+latest: "3.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biofluff"
 aliases:
  - "fluff"
@@ -22,8 +22,9 @@ aliases:
  - "annotate.py"
 versions:
  - "3.0.4--py_0"
+ - "3.0.4--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for biofluff"
-config: {"url": "https://biocontainers.pro/tools/biofluff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biofluff", "latest": {"3.0.4--py_0": "sha256:de3bcfe7a39627baab3ef4f957a96299dfb78075ecb90bc4aa7f772051802064"}, "tags": {"3.0.4--py_0": "sha256:de3bcfe7a39627baab3ef4f957a96299dfb78075ecb90bc4aa7f772051802064"}, "docker": "quay.io/biocontainers/biofluff", "aliases": {"fluff": "/usr/local/bin/fluff", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
+config: {"url": "https://biocontainers.pro/tools/biofluff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biofluff", "latest": {"3.0.4--pyhdfd78af_1": "sha256:b92d5f43922fafa035e807aefb28f55bbe408f4c25b29806c4a15b00c4e3672b"}, "tags": {"3.0.4--py_0": "sha256:de3bcfe7a39627baab3ef4f957a96299dfb78075ecb90bc4aa7f772051802064", "3.0.4--pyhdfd78af_1": "sha256:b92d5f43922fafa035e807aefb28f55bbe408f4c25b29806c4a15b00c4e3672b"}, "docker": "quay.io/biocontainers/biofluff", "aliases": {"fluff": "/usr/local/bin/fluff", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biofluff.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/biofluff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biofluff:3.0.4--py_0
+$ shpc install quay.io/biocontainers/biofluff:3.0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biofluff/3.0.4--py_0
-$ module help quay.io/biocontainers/biofluff/3.0.4--py_0
+$ module load quay.io/biocontainers/biofluff/3.0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/biofluff/3.0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

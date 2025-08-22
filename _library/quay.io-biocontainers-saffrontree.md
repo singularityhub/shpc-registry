@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/saffrontree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saffrontree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saffrontree/container.yaml"
-updated_at: "2025-08-21 06:36:06.641016"
+updated_at: "2025-08-22 03:37:33.043460"
 latest: "0.1.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/saffrontree"
 aliases:

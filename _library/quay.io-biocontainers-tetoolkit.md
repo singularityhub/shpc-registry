@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetoolkit/container.yaml"
-updated_at: "2025-08-21 06:13:39.136685"
+updated_at: "2025-08-22 03:15:29.658914"
 latest: "2.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/tetoolkit"
 aliases:

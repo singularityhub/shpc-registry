@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gndiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gndiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gndiff/container.yaml"
-updated_at: "2025-08-21 06:20:02.059217"
+updated_at: "2025-08-22 03:21:35.913963"
 latest: "0.3.0--he881be0_1"
 container_url: "https://biocontainers.pro/tools/gndiff"
 aliases:

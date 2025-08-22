@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biscot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biscot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biscot/container.yaml"
-updated_at: "2025-08-21 06:45:06.629764"
+updated_at: "2025-08-22 03:46:18.023725"
 latest: "2.3.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/biscot"
 aliases:

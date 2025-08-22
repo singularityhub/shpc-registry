@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-term-progressbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
-updated_at: "2025-08-21 06:11:58.344154"
-latest: "2.22--pl5321hdfd78af_1"
+updated_at: "2025-08-22 03:13:57.234835"
+latest: "2.23--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-progressbar"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.22--pl5321hdfd78af_1"
+ - "2.23--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-term-progressbar"
-config: {"url": "https://biocontainers.pro/tools/perl-term-progressbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-progressbar", "latest": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "tags": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "docker": "quay.io/biocontainers/perl-term-progressbar", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-term-progressbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-progressbar", "latest": {"2.23--pl5321hdfd78af_0": "sha256:9891b35e9c32311c31c1d5d232de58781068ed25563fa35d2c20aa7ce1343282"}, "tags": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90", "2.23--pl5321hdfd78af_0": "sha256:9891b35e9c32311c31c1d5d232de58781068ed25563fa35d2c20aa7ce1343282"}, "docker": "quay.io/biocontainers/perl-term-progressbar", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-progressbar.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-term-progressbar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-term-progressbar:2.22--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-term-progressbar:2.23--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-term-progressbar/2.22--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-term-progressbar/2.22--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-term-progressbar/2.23--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-term-progressbar/2.23--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

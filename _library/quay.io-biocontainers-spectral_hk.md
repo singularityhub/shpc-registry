@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/spectral_hk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectral_hk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectral_hk/container.yaml"
-updated_at: "2025-08-21 06:10:53.281663"
-latest: "0.1--0"
+updated_at: "2025-08-22 03:12:55.800412"
+latest: "0.1--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/spectral_hk"
 aliases:
  - "spectral_hk"
 versions:
  - "0.1--0"
+ - "0.1--h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for spectral_hk"
-config: {"url": "https://biocontainers.pro/tools/spectral_hk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectral_hk", "latest": {"0.1--0": "sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3"}, "tags": {"0.1--0": "sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3"}, "docker": "quay.io/biocontainers/spectral_hk", "aliases": {"spectral_hk": "/usr/local/bin/spectral_hk"}}
+config: {"url": "https://biocontainers.pro/tools/spectral_hk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectral_hk", "latest": {"0.1--h7b50bb2_2": "sha256:c772257cfb94bce083a849c5d43af6c8acfe86b65a2f9d303b4e8ed9a0de24e6"}, "tags": {"0.1--0": "sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3", "0.1--h7b50bb2_2": "sha256:c772257cfb94bce083a849c5d43af6c8acfe86b65a2f9d303b4e8ed9a0de24e6"}, "docker": "quay.io/biocontainers/spectral_hk", "aliases": {"spectral_hk": "/usr/local/bin/spectral_hk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectral_hk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/spectral_hk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spectral_hk:0.1--0
+$ shpc install quay.io/biocontainers/spectral_hk:0.1--h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spectral_hk/0.1--0
-$ module help quay.io/biocontainers/spectral_hk/0.1--0
+$ module load quay.io/biocontainers/spectral_hk/0.1--h7b50bb2_2
+$ module help quay.io/biocontainers/spectral_hk/0.1--h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

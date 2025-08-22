@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coveb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coveb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coveb/container.yaml"
-updated_at: "2025-08-21 06:49:32.986028"
+updated_at: "2025-08-22 03:50:32.675726"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coveb"
 aliases:
