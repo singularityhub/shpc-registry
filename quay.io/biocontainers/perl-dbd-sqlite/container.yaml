@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-dbd-sqlite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-dbd-sqlite
 latest:
-  1.76--pl5321h7b50bb2_1: 
-    sha256:9df5bdaad2fe9a5293facc96949d6d8547a94669268bcb93391a37f08ea1c8f2
+  1.76--pl5321h7b50bb2_2: 
+    sha256:f530fe969da7d4961ac16f8d7382d36361012e7f669aea32c85d9c50a6276660
 tags:
   1.70--pl5321hec16e2b_2: 
     sha256:6ddfa524aa249c46d9759dfed87fec14e56daf4d552b0ceceb641678c4005175
@@ -15,6 +15,8 @@ tags:
     sha256:9df5bdaad2fe9a5293facc96949d6d8547a94669268bcb93391a37f08ea1c8f2
   1.72--pl5321h031d066_2: 
     sha256:a092650c29394ec1bfcd93d900f5612a80f82155f9237cf002433114ed7f4638
+  1.76--pl5321h7b50bb2_2: 
+    sha256:f530fe969da7d4961ac16f8d7382d36361012e7f669aea32c85d9c50a6276660
 docker: quay.io/biocontainers/perl-dbd-sqlite
 aliases:
   dbilogstrip: /usr/local/bin/dbilogstrip

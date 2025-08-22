@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/stemcnv-check
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for stemcnv-check
 latest:
-  0.5.2--pyhdfd78af_0: 
-    sha256:8383d8026a43e79bc412553f05e7fde1950a4aa8f9b2756ef9418afe9e610a79
+  0.5.4--pyhdfd78af_0: 
+    sha256:fe545cbbafec489798ad833e156588bfcfe597f6717bcf7b00b3654e3c508b6a
 tags:
   0.5.1--pyhdfd78af_0: 
     sha256:3c4994a79d5a149aec5e4870a6876992aac6cd00d426d47fabdd053f355feb37
@@ -11,6 +11,8 @@ tags:
     sha256:cf9d7c5d8824b146f8227ff78818b862cc11c7f3fa78f898809e85a950275a14
   0.5.2--pyhdfd78af_0: 
     sha256:8383d8026a43e79bc412553f05e7fde1950a4aa8f9b2756ef9418afe9e610a79
+  0.5.4--pyhdfd78af_0: 
+    sha256:fe545cbbafec489798ad833e156588bfcfe597f6717bcf7b00b3654e3c508b6a
 docker: quay.io/biocontainers/stemcnv-check
 aliases:
   apptainer: /usr/local/bin/apptainer

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/star
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for star
 latest:
-  2.7.11b--h5ca1c30_6: 
-    sha256:9c4778a9d7e07d16057f7859b1e98e034e4ccdb13b5ef3edacda81b5573f7467
+  2.7.11b--h5ca1c30_7: 
+    sha256:d5139d9e29bc8a871a020ca5b21bc0599fac428bd061d4b13d863f4cb4400d31
 tags:
   2.7.10a--h9ee0642_0: 
     sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4
@@ -21,6 +21,8 @@ tags:
     sha256:2da18df1fa9eb6137abdd933b0742169a44806db69549bdc214b19aaba7bfdcb
   2.7.11b--h5ca1c30_6: 
     sha256:9c4778a9d7e07d16057f7859b1e98e034e4ccdb13b5ef3edacda81b5573f7467
+  2.7.11b--h5ca1c30_7: 
+    sha256:d5139d9e29bc8a871a020ca5b21bc0599fac428bd061d4b13d863f4cb4400d31
 docker: quay.io/biocontainers/star
 aliases:
   STAR: /usr/local/bin/STAR

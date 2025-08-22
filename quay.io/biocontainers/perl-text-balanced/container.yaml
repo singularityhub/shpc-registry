@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-text-balanced
 latest:
-  2.06--pl5321hdfd78af_0: 
-    sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d
+  2.07--pl5321hdfd78af_0: 
+    sha256:5762de1b983579a5a67ba3313f720bdaed28b2d58e70d9e3c3e89b4ef2576ccf
 tags:
   2.06--pl5321hdfd78af_0: 
     sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d
+  2.07--pl5321hdfd78af_0: 
+    sha256:5762de1b983579a5a67ba3313f720bdaed28b2d58e70d9e3c3e89b4ef2576ccf
 docker: quay.io/biocontainers/perl-text-balanced
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

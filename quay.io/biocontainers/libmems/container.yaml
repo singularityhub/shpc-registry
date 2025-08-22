@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/libmems
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libmems
 latest:
-  1.6.0--h376f1d3_6: 
-    sha256:98e3fdf02207775549ef6188e5a48e06482fcde2f56077787b539609bb18d15f
+  1.6.0--h9948957_8: 
+    sha256:3b9e6757ec2636790397ff81ae1ed3ba1b40aa486a114a7c439c2a80bb8602e6
 tags:
   1.6.0--h2df963e_5: 
     sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0
   1.6.0--h376f1d3_6: 
     sha256:98e3fdf02207775549ef6188e5a48e06482fcde2f56077787b539609bb18d15f
+  1.6.0--h9948957_8: 
+    sha256:3b9e6757ec2636790397ff81ae1ed3ba1b40aa486a114a7c439c2a80bb8602e6
 docker: quay.io/biocontainers/libmems
