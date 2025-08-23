@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/crossmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crossmap
 latest:
-  0.7.0--pyhdfd78af_0: 
-    sha256:cc8bbb5eaa8028ebf0f44a2499d1342c7e94e1989d4c3d7e0cc456e36b12053a
+  0.7.3--pyhdfd78af_0: 
+    sha256:0c480da07a3c26d1e8f869bee6db0461f827d3954d1f0499f57efa43d9d2e569
 tags:
   0.6.4--pyhb7b1952_0: 
     sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2
@@ -11,6 +11,8 @@ tags:
     sha256:408e372cd4583860fe0ae403d2b1234b0c04b1108e53690ad779d54a9ca42b8c
   0.7.0--pyhdfd78af_0: 
     sha256:cc8bbb5eaa8028ebf0f44a2499d1342c7e94e1989d4c3d7e0cc456e36b12053a
+  0.7.3--pyhdfd78af_0: 
+    sha256:0c480da07a3c26d1e8f869bee6db0461f827d3954d1f0499f57efa43d9d2e569
 docker: quay.io/biocontainers/crossmap
 aliases:
   CrossMap.py: /usr/local/bin/CrossMap.py

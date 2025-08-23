@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sickle-trim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sickle-trim
 latest:
-  1.33--h577a1d6_11: 
-    sha256:7b37614ea3ebc02e6f593965934d0ec3e9b23fb06ed121d362d022718034f13d
+  1.33--h577a1d6_12: 
+    sha256:b70ce5367388df09e4d35f4c13462ede0ea600d3aa5a0cea5067732b0925a121
 tags:
   1.33--h7132678_7: 
     sha256:5488d89b91129983d095ad4392557abdbc25285fe9110426db2105960453a75d
@@ -13,6 +13,8 @@ tags:
     sha256:6408258dff0e11f6e8240bbb23e8f931cb79978de86570d5feb671e33ffbb3aa
   1.33--h577a1d6_11: 
     sha256:7b37614ea3ebc02e6f593965934d0ec3e9b23fb06ed121d362d022718034f13d
+  1.33--h577a1d6_12: 
+    sha256:b70ce5367388df09e4d35f4c13462ede0ea600d3aa5a0cea5067732b0925a121
 docker: quay.io/biocontainers/sickle-trim
 aliases:
   sickle: /usr/local/bin/sickle

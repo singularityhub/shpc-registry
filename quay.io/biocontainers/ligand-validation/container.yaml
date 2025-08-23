@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ligand-validation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ligand-validation
 latest:
-  0.0.1--pyh7e72e81_0: 
-    sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
+  0.0.1--pyh7e72e81_1: 
+    sha256:8f6e77ec0a59fd49ea344e7a13bee561471e949bb83f9db52ec90097b961a9ba
 tags:
   0.0.1--pyh7e72e81_0: 
     sha256:4666cfabf2fe7856e974c8ec67f46be147d1e4ea4e8876a1cdbec9918ed643b4
+  0.0.1--pyh7e72e81_1: 
+    sha256:8f6e77ec0a59fd49ea344e7a13bee561471e949bb83f9db52ec90097b961a9ba
 docker: quay.io/biocontainers/ligand-validation
 aliases:
   PDBValidation: /usr/local/bin/PDBValidation

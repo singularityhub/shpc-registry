@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/pyskani
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyskani
 latest:
-  0.1.3--py310hec43fc7_0: 
-    sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde
+  0.2.0--py311h5e00ca1_0: 
+    sha256:fdb9021dc837b4794ed0114205dcd4d0464e6cf19f7965211338e557bf1d0940
 tags:
   0.1.3--py310hec43fc7_0: 
     sha256:c645d30f42158a785c132816bb01ed88befdf76ad587dd0144d4522e4ff2cdde
   0.1.3--py39h5b94c0b_0: 
     sha256:3501dcb31e6e5a894dc3e6784ccd48c23a6e5ad1de7c2c8c44a893e6af8c2e69
+  0.2.0--py311h5e00ca1_0: 
+    sha256:fdb9021dc837b4794ed0114205dcd4d0464e6cf19f7965211338e557bf1d0940
 docker: quay.io/biocontainers/pyskani
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

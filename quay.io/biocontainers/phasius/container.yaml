@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phasius
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phasius
 latest:
-  0.5.0--ha6fb395_0: 
-    sha256:d4e6c297f2f4dd46cd349f96eb66e64daf1d03580cc6f4b9e9a4afc431c1729b
+  0.6.0--ha6fb395_0: 
+    sha256:f741f94ddfd3ffde023236241b9e7b75cc5c00820b9b82c8d660390bb460d142
 tags:
   0.1.0--h9f5acd7_0: 
     sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58
@@ -17,6 +17,8 @@ tags:
     sha256:155a67476cceab5deafc19328c19cebbe676aa7c37c63794da2c5cc354f27164
   0.5.0--ha6fb395_0: 
     sha256:d4e6c297f2f4dd46cd349f96eb66e64daf1d03580cc6f4b9e9a4afc431c1729b
+  0.6.0--ha6fb395_0: 
+    sha256:f741f94ddfd3ffde023236241b9e7b75cc5c00820b9b82c8d660390bb460d142
 docker: quay.io/biocontainers/phasius
 aliases:
   phasius: /usr/local/bin/phasius

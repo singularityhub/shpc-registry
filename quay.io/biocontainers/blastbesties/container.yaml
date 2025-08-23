@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/blastbesties
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blastbesties
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:181ff7c1d8a0da57aeacadf96c420f04105133d925f2131a5d48bc9486d17a96
+  1.2.0--pyhdfd78af_0: 
+    sha256:ad33a7db98569261c213300198f273e412b9aafea05224c2c5fa593ed2dc90cb
 tags:
   1.1.1--py_2: 
     sha256:d96bcb7b1c4fcdb05ee4d0fab02c4aefc39f2de77f0710f7682733c890c863ce
   1.1.2--pyhdfd78af_0: 
     sha256:181ff7c1d8a0da57aeacadf96c420f04105133d925f2131a5d48bc9486d17a96
+  1.2.0--pyhdfd78af_0: 
+    sha256:ad33a7db98569261c213300198f273e412b9aafea05224c2c5fa593ed2dc90cb
 docker: quay.io/biocontainers/blastbesties
 aliases:
   blastbesties: /usr/local/bin/blastbesties

@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-extutils-parsexs
 latest:
-  3.57--pl5321hdfd78af_0: 
-    sha256:ca3a8797f1ed6370bc237a3b10c500885fc5c5180e3ef5fa56425eddb63f0acc
+  3.58--pl5321hdfd78af_0: 
+    sha256:3850f402842314a382f260c912c89569e92e5aeec79161b6c5e0072aee86e392
 tags:
   3.44--pl5321hdfd78af_0: 
     sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd
   3.57--pl5321hdfd78af_0: 
     sha256:ca3a8797f1ed6370bc237a3b10c500885fc5c5180e3ef5fa56425eddb63f0acc
+  3.58--pl5321hdfd78af_0: 
+    sha256:3850f402842314a382f260c912c89569e92e5aeec79161b6c5e0072aee86e392
 docker: quay.io/biocontainers/perl-extutils-parsexs
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
