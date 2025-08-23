@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stemcnv-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stemcnv-check/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stemcnv-check/container.yaml"
-updated_at: "2025-08-22 03:21:48.369557"
-latest: "0.5.2--pyhdfd78af_0"
+updated_at: "2025-08-23 03:15:54.104142"
+latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stemcnv-check"
 aliases:
  - "apptainer"
@@ -52,8 +52,9 @@ versions:
  - "0.5.1--pyhdfd78af_0"
  - "0.5.1--pyhdfd78af_1"
  - "0.5.2--pyhdfd78af_0"
+ - "0.5.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for stemcnv-check"
-config: {"url": "https://biocontainers.pro/tools/stemcnv-check", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for stemcnv-check", "latest": {"0.5.2--pyhdfd78af_0": "sha256:8383d8026a43e79bc412553f05e7fde1950a4aa8f9b2756ef9418afe9e610a79"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:3c4994a79d5a149aec5e4870a6876992aac6cd00d426d47fabdd053f355feb37", "0.5.1--pyhdfd78af_1": "sha256:cf9d7c5d8824b146f8227ff78818b862cc11c7f3fa78f898809e85a950275a14", "0.5.2--pyhdfd78af_0": "sha256:8383d8026a43e79bc412553f05e7fde1950a4aa8f9b2756ef9418afe9e610a79"}, "docker": "quay.io/biocontainers/stemcnv-check", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "deep": "/usr/local/bin/deep", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "stemcnv-check": "/usr/local/bin/stemcnv-check", "unsquashfs": "/usr/local/bin/unsquashfs", "bsdunzip": "/usr/local/bin/bsdunzip", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "vba_extract.py": "/usr/local/bin/vba_extract.py", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/stemcnv-check", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for stemcnv-check", "latest": {"0.5.4--pyhdfd78af_0": "sha256:fe545cbbafec489798ad833e156588bfcfe597f6717bcf7b00b3654e3c508b6a"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:3c4994a79d5a149aec5e4870a6876992aac6cd00d426d47fabdd053f355feb37", "0.5.1--pyhdfd78af_1": "sha256:cf9d7c5d8824b146f8227ff78818b862cc11c7f3fa78f898809e85a950275a14", "0.5.2--pyhdfd78af_0": "sha256:8383d8026a43e79bc412553f05e7fde1950a4aa8f9b2756ef9418afe9e610a79", "0.5.4--pyhdfd78af_0": "sha256:fe545cbbafec489798ad833e156588bfcfe597f6717bcf7b00b3654e3c508b6a"}, "docker": "quay.io/biocontainers/stemcnv-check", "aliases": {"apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "deep": "/usr/local/bin/deep", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "stemcnv-check": "/usr/local/bin/stemcnv-check", "unsquashfs": "/usr/local/bin/unsquashfs", "bsdunzip": "/usr/local/bin/bsdunzip", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "vba_extract.py": "/usr/local/bin/vba_extract.py", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stemcnv-check.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/stemcnv-check
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stemcnv-check:0.5.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/stemcnv-check:0.5.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stemcnv-check/0.5.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/stemcnv-check/0.5.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/stemcnv-check/0.5.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/stemcnv-check/0.5.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

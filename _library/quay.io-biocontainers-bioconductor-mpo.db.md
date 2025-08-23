@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mpo.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpo.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpo.db/container.yaml"
-updated_at: "2025-08-22 03:26:25.892617"
+updated_at: "2025-08-23 03:20:26.211903"
 latest: "0.99.8--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpo.db"
 aliases:

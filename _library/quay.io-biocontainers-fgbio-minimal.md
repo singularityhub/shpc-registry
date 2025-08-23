@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgbio-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgbio-minimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgbio-minimal/container.yaml"
-updated_at: "2025-08-22 03:54:17.656167"
-latest: "2.5.21--hdfd78af_0"
+updated_at: "2025-08-23 03:48:07.072099"
+latest: "3.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgbio-minimal"
 aliases:
  - "fgbio"
@@ -42,8 +42,9 @@ versions:
  - "2.4.0--hdfd78af_0"
  - "2.5.0--hdfd78af_0"
  - "2.5.21--hdfd78af_0"
+ - "3.0.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for fgbio-minimal"
-config: {"url": "https://biocontainers.pro/tools/fgbio-minimal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgbio-minimal", "latest": {"2.5.21--hdfd78af_0": "sha256:e3f647dd31340529ba9e7640442b3e44b73b679bb8eac691a650eb89263632e3"}, "tags": {"2.1.0--hdfd78af_0": "sha256:80bddcd05e5495f25c0c920c2c1a0811f110c708d2512d3eeae8af520c472936", "2.2.0--hdfd78af_0": "sha256:8eb650dbd14b333e6f016141fa2ac0a00214051d29a09613aeb53088b49f0b4b", "2.2.1--hdfd78af_0": "sha256:d29b3912295a19d98187c227ba6729fa70545ec98e5a7c68ebb3c6163bfd338f", "2.3.0--hdfd78af_0": "sha256:d31cb8ec4544fb3dc314171deba04751cf5e3de8a204ab7109cbcb2b2e48fc92", "2.4.0--hdfd78af_0": "sha256:c10e8b1a6f3515bc56111441efff018ae5dbec2e89dce0f62d30eff7004b52cb", "2.5.0--hdfd78af_0": "sha256:dede98992f0f633b99c1af67c99a7bb2dd8289791381857f6b2ad2ff2d3d7daf", "2.5.21--hdfd78af_0": "sha256:e3f647dd31340529ba9e7640442b3e44b73b679bb8eac691a650eb89263632e3"}, "docker": "quay.io/biocontainers/fgbio-minimal", "aliases": {"fgbio": "/usr/local/bin/fgbio", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
+config: {"url": "https://biocontainers.pro/tools/fgbio-minimal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgbio-minimal", "latest": {"3.0.0--hdfd78af_0": "sha256:c60c94ab30d555c14170b72cef06680fa754064da4f91912773958af8487fbd8"}, "tags": {"2.1.0--hdfd78af_0": "sha256:80bddcd05e5495f25c0c920c2c1a0811f110c708d2512d3eeae8af520c472936", "2.2.0--hdfd78af_0": "sha256:8eb650dbd14b333e6f016141fa2ac0a00214051d29a09613aeb53088b49f0b4b", "2.2.1--hdfd78af_0": "sha256:d29b3912295a19d98187c227ba6729fa70545ec98e5a7c68ebb3c6163bfd338f", "2.3.0--hdfd78af_0": "sha256:d31cb8ec4544fb3dc314171deba04751cf5e3de8a204ab7109cbcb2b2e48fc92", "2.4.0--hdfd78af_0": "sha256:c10e8b1a6f3515bc56111441efff018ae5dbec2e89dce0f62d30eff7004b52cb", "2.5.0--hdfd78af_0": "sha256:dede98992f0f633b99c1af67c99a7bb2dd8289791381857f6b2ad2ff2d3d7daf", "2.5.21--hdfd78af_0": "sha256:e3f647dd31340529ba9e7640442b3e44b73b679bb8eac691a650eb89263632e3", "3.0.0--hdfd78af_0": "sha256:c60c94ab30d555c14170b72cef06680fa754064da4f91912773958af8487fbd8"}, "docker": "quay.io/biocontainers/fgbio-minimal", "aliases": {"fgbio": "/usr/local/bin/fgbio", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgbio-minimal.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/fgbio-minimal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgbio-minimal:2.5.21--hdfd78af_0
+$ shpc install quay.io/biocontainers/fgbio-minimal:3.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgbio-minimal/2.5.21--hdfd78af_0
-$ module help quay.io/biocontainers/fgbio-minimal/2.5.21--hdfd78af_0
+$ module load quay.io/biocontainers/fgbio-minimal/3.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/fgbio-minimal/3.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

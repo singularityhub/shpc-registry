@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/libgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgenome/container.yaml"
-updated_at: "2025-08-22 03:47:41.312469"
-latest: "1.3.1--h9948957_8"
+updated_at: "2025-08-23 03:41:25.100525"
+latest: "1.3.1--h9948957_9"
 container_url: "https://biocontainers.pro/tools/libgenome"
 
 versions:
  - "1.3.1--h9f5acd7_5"
  - "1.3.1--h4ac6f70_7"
  - "1.3.1--h9948957_8"
+ - "1.3.1--h9948957_9"
 description: "shpc-registry automated BioContainers addition for libgenome"
-config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h9948957_8": "sha256:1f469c7f81291b9979dea61f2f49b1a2c0016e4dd80f9a1d2d390d06ba63056f"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a", "1.3.1--h4ac6f70_7": "sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979", "1.3.1--h9948957_8": "sha256:1f469c7f81291b9979dea61f2f49b1a2c0016e4dd80f9a1d2d390d06ba63056f"}, "docker": "quay.io/biocontainers/libgenome"}
+config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h9948957_9": "sha256:900328094557fd0d5e4926cbb70c495c0d3fac60d1ada1bb9b3d5c089d5f1495"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a", "1.3.1--h4ac6f70_7": "sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979", "1.3.1--h9948957_8": "sha256:1f469c7f81291b9979dea61f2f49b1a2c0016e4dd80f9a1d2d390d06ba63056f", "1.3.1--h9948957_9": "sha256:900328094557fd0d5e4926cbb70c495c0d3fac60d1ada1bb9b3d5c089d5f1495"}, "docker": "quay.io/biocontainers/libgenome"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgenome.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/libgenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libgenome:1.3.1--h9948957_8
+$ shpc install quay.io/biocontainers/libgenome:1.3.1--h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libgenome/1.3.1--h9948957_8
-$ module help quay.io/biocontainers/libgenome/1.3.1--h9948957_8
+$ module load quay.io/biocontainers/libgenome/1.3.1--h9948957_9
+$ module help quay.io/biocontainers/libgenome/1.3.1--h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

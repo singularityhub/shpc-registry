@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prophyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophyle/container.yaml"
-updated_at: "2025-08-22 03:54:44.806147"
-latest: "0.3.3.2--py39h746d604_3"
+updated_at: "2025-08-23 03:48:35.001980"
+latest: "0.3.3.2--py310h5140242_4"
 container_url: "https://biocontainers.pro/tools/prophyle"
 aliases:
  - "prophyle"
@@ -35,8 +35,9 @@ versions:
  - "0.3.3.2--py310h6cc9453_1"
  - "0.3.3.2--py310hdf79db3_2"
  - "0.3.3.2--py39h746d604_3"
+ - "0.3.3.2--py310h5140242_4"
 description: "shpc-registry automated BioContainers addition for prophyle"
-config: {"url": "https://biocontainers.pro/tools/prophyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophyle", "latest": {"0.3.3.2--py39h746d604_3": "sha256:2c3be523cbf355bb458fd151e9fb5ad06e9ac764fbb46f732b5ea5b26e51c95b"}, "tags": {"0.3.1.0--py36h8b12597_5": "sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83", "0.3.3.1--py39h4e691d4_0": "sha256:673cd302cca6d863eb9fe7e4968b73b764b966cc41f4ddffc26150719f4e22f7", "0.3.3.2--py310h6cc9453_1": "sha256:7f576ea378949e69d7b7f5321e5ad3ca4328bd67c5046548c9f5a461b9cc0a44", "0.3.3.2--py310hdf79db3_2": "sha256:7869c3bcf7067d14343b1a709d0156b179eb4e0898645252f44757beda0d400d", "0.3.3.2--py39h746d604_3": "sha256:2c3be523cbf355bb458fd151e9fb5ad06e9ac764fbb46f732b5ea5b26e51c95b"}, "docker": "quay.io/biocontainers/prophyle", "aliases": {"prophyle": "/usr/local/bin/prophyle", "prophyle_analyze.py": "/usr/local/bin/prophyle_analyze.py", "prophyle_assignment.py": "/usr/local/bin/prophyle_assignment.py", "prophyle_ncbi_tree.py": "/usr/local/bin/prophyle_ncbi_tree.py", "prophyle_otu_table.py": "/usr/local/bin/prophyle_otu_table.py", "prophyle_paired_end.py": "/usr/local/bin/prophyle_paired_end.py", "prophyle_plot_tree.py": "/usr/local/bin/prophyle_plot_tree.py", "prophyle_propagation_makefile.py": "/usr/local/bin/prophyle_propagation_makefile.py", "prophyle_propagation_postprocessing.py": "/usr/local/bin/prophyle_propagation_postprocessing.py", "prophyle_propagation_preprocessing.py": "/usr/local/bin/prophyle_propagation_preprocessing.py", "prophyle_split_allseq.py": "/usr/local/bin/prophyle_split_allseq.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
+config: {"url": "https://biocontainers.pro/tools/prophyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophyle", "latest": {"0.3.3.2--py310h5140242_4": "sha256:973854ed590bfbf7b513d876b5519627c1f7f5981e0fbae4d58c2887c232bcf5"}, "tags": {"0.3.1.0--py36h8b12597_5": "sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83", "0.3.3.1--py39h4e691d4_0": "sha256:673cd302cca6d863eb9fe7e4968b73b764b966cc41f4ddffc26150719f4e22f7", "0.3.3.2--py310h6cc9453_1": "sha256:7f576ea378949e69d7b7f5321e5ad3ca4328bd67c5046548c9f5a461b9cc0a44", "0.3.3.2--py310hdf79db3_2": "sha256:7869c3bcf7067d14343b1a709d0156b179eb4e0898645252f44757beda0d400d", "0.3.3.2--py39h746d604_3": "sha256:2c3be523cbf355bb458fd151e9fb5ad06e9ac764fbb46f732b5ea5b26e51c95b", "0.3.3.2--py310h5140242_4": "sha256:973854ed590bfbf7b513d876b5519627c1f7f5981e0fbae4d58c2887c232bcf5"}, "docker": "quay.io/biocontainers/prophyle", "aliases": {"prophyle": "/usr/local/bin/prophyle", "prophyle_analyze.py": "/usr/local/bin/prophyle_analyze.py", "prophyle_assignment.py": "/usr/local/bin/prophyle_assignment.py", "prophyle_ncbi_tree.py": "/usr/local/bin/prophyle_ncbi_tree.py", "prophyle_otu_table.py": "/usr/local/bin/prophyle_otu_table.py", "prophyle_paired_end.py": "/usr/local/bin/prophyle_paired_end.py", "prophyle_plot_tree.py": "/usr/local/bin/prophyle_plot_tree.py", "prophyle_propagation_makefile.py": "/usr/local/bin/prophyle_propagation_makefile.py", "prophyle_propagation_postprocessing.py": "/usr/local/bin/prophyle_propagation_postprocessing.py", "prophyle_propagation_preprocessing.py": "/usr/local/bin/prophyle_propagation_preprocessing.py", "prophyle_split_allseq.py": "/usr/local/bin/prophyle_split_allseq.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophyle.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/prophyle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prophyle:0.3.3.2--py39h746d604_3
+$ shpc install quay.io/biocontainers/prophyle:0.3.3.2--py310h5140242_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prophyle/0.3.3.2--py39h746d604_3
-$ module help quay.io/biocontainers/prophyle/0.3.3.2--py39h746d604_3
+$ module load quay.io/biocontainers/prophyle/0.3.3.2--py310h5140242_4
+$ module help quay.io/biocontainers/prophyle/0.3.3.2--py310h5140242_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

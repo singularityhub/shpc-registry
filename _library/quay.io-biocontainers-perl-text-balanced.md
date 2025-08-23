@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-text-balanced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-balanced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-balanced/container.yaml"
-updated_at: "2025-08-22 03:34:15.470932"
-latest: "2.06--pl5321hdfd78af_0"
+updated_at: "2025-08-23 03:28:07.228916"
+latest: "2.07--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-balanced"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.06--pl5321hdfd78af_0"
+ - "2.07--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-text-balanced"
-config: {"url": "https://biocontainers.pro/tools/perl-text-balanced", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-balanced", "latest": {"2.06--pl5321hdfd78af_0": "sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d"}, "tags": {"2.06--pl5321hdfd78af_0": "sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d"}, "docker": "quay.io/biocontainers/perl-text-balanced", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-text-balanced", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-balanced", "latest": {"2.07--pl5321hdfd78af_0": "sha256:5762de1b983579a5a67ba3313f720bdaed28b2d58e70d9e3c3e89b4ef2576ccf"}, "tags": {"2.06--pl5321hdfd78af_0": "sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d", "2.07--pl5321hdfd78af_0": "sha256:5762de1b983579a5a67ba3313f720bdaed28b2d58e70d9e3c3e89b4ef2576ccf"}, "docker": "quay.io/biocontainers/perl-text-balanced", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-text-balanced.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-text-balanced
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-text-balanced:2.06--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-text-balanced:2.07--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-text-balanced/2.06--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-text-balanced/2.06--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-text-balanced/2.07--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-text-balanced/2.07--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
