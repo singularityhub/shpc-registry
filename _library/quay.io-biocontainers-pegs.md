@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pegs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegs/container.yaml"
-updated_at: "2025-08-24 03:26:08.567700"
+updated_at: "2025-08-24 03:31:26.118383"
 latest: "0.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pegs"
 aliases:

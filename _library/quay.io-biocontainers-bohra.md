@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bohra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bohra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bohra/container.yaml"
-updated_at: "2025-08-24 03:59:26.033633"
+updated_at: "2025-08-24 04:03:50.420122"
 latest: "2.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bohra"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ionquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ionquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ionquant/container.yaml"
-updated_at: "2025-08-24 03:47:12.593667"
+updated_at: "2025-08-24 03:52:00.424471"
 latest: "1.11.9--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ionquant"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/remurna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remurna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remurna/container.yaml"
-updated_at: "2025-08-24 03:58:25.839132"
+updated_at: "2025-08-24 04:02:50.836456"
 latest: "1.0--h503566f_1"
 container_url: "https://biocontainers.pro/tools/remurna"
 aliases:
