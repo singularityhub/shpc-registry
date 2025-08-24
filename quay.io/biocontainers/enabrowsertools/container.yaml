@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/enabrowsertools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for enabrowsertools
 latest:
-  1.7.1--hdfd78af_0: 
-    sha256:b1f00bb01f2a8338341e85da371e112beb5b8b70eedbfd4e950d8bcd172cddab
+  1.7.2--hdfd78af_0: 
+    sha256:9929615147cbb0001f711cf1935b4b2d8ddffca8c19958ce7c0c6c94a74bcbcc
 tags:
   1.5.4--0: 
     sha256:794a909aec3167fd4d143f6a3c05d8e465a45d635501856b2d3a1919b923ee1c
   1.7.1--hdfd78af_0: 
     sha256:b1f00bb01f2a8338341e85da371e112beb5b8b70eedbfd4e950d8bcd172cddab
+  1.7.2--hdfd78af_0: 
+    sha256:9929615147cbb0001f711cf1935b4b2d8ddffca8c19958ce7c0c6c94a74bcbcc
 docker: quay.io/biocontainers/enabrowsertools
 aliases:
   assemblyGet.py: /usr/local/bin/assemblyGet.py

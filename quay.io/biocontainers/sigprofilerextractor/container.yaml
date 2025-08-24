@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   sigprofilerextractor
 latest:
-  1.2.1--pyhdfd78af_0: 
-    sha256:4645554aef7f52c03fd17ec204f03522616caf365ec859b31a0ec12281c1db52
+  1.2.2--pyhdfd78af_0: 
+    sha256:62b92f3cbe2a16f3f3590cc3acaca7c89860adf7fa1e42d1897edb2219721923
 tags:
   1.2.1--pyhdfd78af_0: 
     sha256:4645554aef7f52c03fd17ec204f03522616caf365ec859b31a0ec12281c1db52
+  1.2.2--pyhdfd78af_0: 
+    sha256:62b92f3cbe2a16f3f3590cc3acaca7c89860adf7fa1e42d1897edb2219721923
 docker: quay.io/biocontainers/sigprofilerextractor
 aliases:
   SigProfilerAssignment: /usr/local/bin/SigProfilerAssignment

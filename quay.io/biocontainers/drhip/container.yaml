@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/drhip
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for drhip
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763
+  0.1.2--pyhdfd78af_0: 
+    sha256:80af18b53c31a6f3d63beb358ce1f9b73b52d84f90c60d607cfa112d7fd5c360
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763
+  0.1.2--pyhdfd78af_0: 
+    sha256:80af18b53c31a6f3d63beb358ce1f9b73b52d84f90c60d607cfa112d7fd5c360
 docker: quay.io/biocontainers/drhip
 aliases:
   drhip: /usr/local/bin/drhip

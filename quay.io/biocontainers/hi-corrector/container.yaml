@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hi-corrector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hi-corrector
 latest:
-  1.2--h9bc3f66_4: 
-    sha256:39f22362e282a1dcecd5d92b474b64342b30dc54dc25c6a68ab46b0716371557
+  1.2--h719ac0c_5: 
+    sha256:b28ab0cf62cf0e8cbfd1eafa14429e43c257851b26111321c4725398bbf190eb
 tags:
   1.2--hee9e358_1: 
     sha256:8c26d1ede2a04b33857c38a1f6a13cbd887e3d8cba652f85304393773da599f7
@@ -11,6 +11,8 @@ tags:
     sha256:c12104407b54f45ce67fd9847b1afd9c7eba45707447cdfb58e9d2183852b63d
   1.2--h9bc3f66_4: 
     sha256:39f22362e282a1dcecd5d92b474b64342b30dc54dc25c6a68ab46b0716371557
+  1.2--h719ac0c_5: 
+    sha256:b28ab0cf62cf0e8cbfd1eafa14429e43c257851b26111321c4725398bbf190eb
 docker: quay.io/biocontainers/hi-corrector
 aliases:
   export_norm_data: /usr/local/bin/export_norm_data

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_pnetcdf_mvapich_4_0
 latest:
-  1.14.0--hf580d27_0: 
-    sha256:853f25fdac4ba3c9ddace19e0d0a0909385808e40330d24a779be27237dcca92
+  1.14.1--hf580d27_0: 
+    sha256:35f010623cedd5aff18c57f830a2bd875c2c02470563c110cf154378cc7346e0
 tags:
   1.14.0--hf580d27_0: 
     sha256:853f25fdac4ba3c9ddace19e0d0a0909385808e40330d24a779be27237dcca92
+  1.14.1--hf580d27_0: 
+    sha256:35f010623cedd5aff18c57f830a2bd875c2c02470563c110cf154378cc7346e0
 docker: quay.io/biocontainers/esme_pnetcdf_mvapich_4_0
 aliases:
   fi_info: /usr/local/bin/fi_info

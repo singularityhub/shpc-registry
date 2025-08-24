@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/spacepharer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spacepharer
 latest:
-  5.c2e680a--pl5321h6a68c12_5: 
-    sha256:0017996d9436758eac2260d3139ab060ca88defc823ca10b21f48aa085638fe7
+  5.c2e680a--hd6d6fdc_7: 
+    sha256:918e07e3620df875b7e21ec36e62eb7b6444d28e6b1e74bff6f213d8dd9bf3cf
 tags:
   5.c2e680a--pl5321hf1761c0_1: 
     sha256:2d65181967a4d8ff4db3f48d7980fa2195545d6439bfed56fe59cd8c5b26c704
@@ -13,6 +13,8 @@ tags:
     sha256:f5946a2e9854e6556364c53c62ea564bd6a37fa5fe408bdcaf6a26db273c7b3f
   5.c2e680a--pl5321h6a68c12_5: 
     sha256:0017996d9436758eac2260d3139ab060ca88defc823ca10b21f48aa085638fe7
+  5.c2e680a--hd6d6fdc_7: 
+    sha256:918e07e3620df875b7e21ec36e62eb7b6444d28e6b1e74bff6f213d8dd9bf3cf
 docker: quay.io/biocontainers/spacepharer
 aliases:
   spacepharer: /usr/local/bin/spacepharer

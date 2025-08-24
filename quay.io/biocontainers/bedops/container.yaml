@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bedops
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bedops
 latest:
-  2.4.42--h9948957_0: 
-    sha256:300a14638783c9a862303a46a610f92d8bb376ed925caab7e991eec39c859b1b
+  2.4.42--hd6d6fdc_1: 
+    sha256:7595db230f8f575c96b655fefba008ac041f350830c9a1c0a19bd4e3b2cb6e5c
 tags:
   2.4.23--0: 
     sha256:338c6d81e4fc2f29f3a6b76a29ab628f13a28442ba1a05b98775fd8062b9cde1
@@ -17,6 +17,8 @@ tags:
     sha256:6a0e38089cd0e79ac2c4ef482c198b9ec20986d6a4440eaa17ba1602d8f710cd
   2.4.42--h9948957_0: 
     sha256:300a14638783c9a862303a46a610f92d8bb376ed925caab7e991eec39c859b1b
+  2.4.42--hd6d6fdc_1: 
+    sha256:7595db230f8f575c96b655fefba008ac041f350830c9a1c0a19bd4e3b2cb6e5c
 docker: quay.io/biocontainers/bedops
 aliases:
   bedops: /usr/local/bin/bedops

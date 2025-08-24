@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_netcdf-fortran_mvapich_4_0
 latest:
-  4.6.1--h6842b15_0: 
-    sha256:6ef93bd4502e8a27dac755909391b4abe81cfb4c89459885b6d410bad83b4d96
+  4.6.2--h6842b15_0: 
+    sha256:f3c0c888d166cae47e7eebb812f83cfc0adf63d49e7b3f1e5b581d8b5aeb0ec8
 tags:
   4.6.1--h6842b15_0: 
     sha256:6ef93bd4502e8a27dac755909391b4abe81cfb4c89459885b6d410bad83b4d96
+  4.6.2--h6842b15_0: 
+    sha256:f3c0c888d166cae47e7eebb812f83cfc0adf63d49e7b3f1e5b581d8b5aeb0ec8
 docker: quay.io/biocontainers/esme_netcdf-fortran_mvapich_4_0
 aliases:
   fi_info: /usr/local/bin/fi_info
