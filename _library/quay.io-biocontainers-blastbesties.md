@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blastbesties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastbesties/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blastbesties/container.yaml"
-updated_at: "2025-08-23 03:33:51.657500"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2025-08-24 03:51:44.069128"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blastbesties"
 aliases:
  - "blastbesties"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.1.1--py_2"
  - "1.1.2--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for blastbesties"
-config: {"url": "https://biocontainers.pro/tools/blastbesties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastbesties", "latest": {"1.1.2--pyhdfd78af_0": "sha256:181ff7c1d8a0da57aeacadf96c420f04105133d925f2131a5d48bc9486d17a96"}, "tags": {"1.1.1--py_2": "sha256:d96bcb7b1c4fcdb05ee4d0fab02c4aefc39f2de77f0710f7682733c890c863ce", "1.1.2--pyhdfd78af_0": "sha256:181ff7c1d8a0da57aeacadf96c420f04105133d925f2131a5d48bc9486d17a96"}, "docker": "quay.io/biocontainers/blastbesties", "aliases": {"blastbesties": "/usr/local/bin/blastbesties", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/blastbesties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastbesties", "latest": {"1.2.0--pyhdfd78af_0": "sha256:ad33a7db98569261c213300198f273e412b9aafea05224c2c5fa593ed2dc90cb"}, "tags": {"1.1.1--py_2": "sha256:d96bcb7b1c4fcdb05ee4d0fab02c4aefc39f2de77f0710f7682733c890c863ce", "1.1.2--pyhdfd78af_0": "sha256:181ff7c1d8a0da57aeacadf96c420f04105133d925f2131a5d48bc9486d17a96", "1.2.0--pyhdfd78af_0": "sha256:ad33a7db98569261c213300198f273e412b9aafea05224c2c5fa593ed2dc90cb"}, "docker": "quay.io/biocontainers/blastbesties", "aliases": {"blastbesties": "/usr/local/bin/blastbesties", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blastbesties.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/blastbesties
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blastbesties:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/blastbesties:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blastbesties/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/blastbesties/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/blastbesties/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/blastbesties/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

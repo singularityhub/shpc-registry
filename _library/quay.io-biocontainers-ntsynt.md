@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntsynt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntsynt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntsynt/container.yaml"
-updated_at: "2025-08-23 03:11:00.390190"
+updated_at: "2025-08-24 03:28:19.623803"
 latest: "1.0.3--py311he264feb_0"
 container_url: "https://biocontainers.pro/tools/ntsynt"
 aliases:

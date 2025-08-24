@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vdjer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vdjer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vdjer/container.yaml"
-updated_at: "2025-08-23 03:20:26.484859"
+updated_at: "2025-08-24 03:37:47.676726"
 latest: "0.12--h5ca1c30_8"
 container_url: "https://biocontainers.pro/tools/vdjer"
 aliases:

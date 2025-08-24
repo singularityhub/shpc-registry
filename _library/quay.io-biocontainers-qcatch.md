@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/qcatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcatch/container.yaml"
-updated_at: "2025-08-23 03:32:56.153128"
-latest: "0.2.5--pyhdfd78af_0"
+updated_at: "2025-08-24 03:50:45.890160"
+latest: "0.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qcatch"
 aliases:
  - "pyroe"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.2.3--pyhdfd78af_0"
  - "0.2.5--pyhdfd78af_0"
+ - "0.2.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for qcatch"
-config: {"url": "https://biocontainers.pro/tools/qcatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qcatch", "latest": {"0.2.5--pyhdfd78af_0": "sha256:4c7c735d6d9d7e8fb792f0d26006dd2746d5f469d752a635f504c010c7d5d194"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:9a8c634faf7566780f93348b2ff5af6497e3b3fdd593f2aaa95f515ebfdb40ff", "0.2.5--pyhdfd78af_0": "sha256:4c7c735d6d9d7e8fb792f0d26006dd2746d5f469d752a635f504c010c7d5d194"}, "docker": "quay.io/biocontainers/qcatch", "aliases": {"pyroe": "/usr/local/bin/pyroe", "qcatch": "/usr/local/bin/qcatch", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
+config: {"url": "https://biocontainers.pro/tools/qcatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qcatch", "latest": {"0.2.6--pyhdfd78af_0": "sha256:01d9203bd1f91536ae044875652c11b999e334d62f141e48c0b43eb90713d997"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:9a8c634faf7566780f93348b2ff5af6497e3b3fdd593f2aaa95f515ebfdb40ff", "0.2.5--pyhdfd78af_0": "sha256:4c7c735d6d9d7e8fb792f0d26006dd2746d5f469d752a635f504c010c7d5d194", "0.2.6--pyhdfd78af_0": "sha256:01d9203bd1f91536ae044875652c11b999e334d62f141e48c0b43eb90713d997"}, "docker": "quay.io/biocontainers/qcatch", "aliases": {"pyroe": "/usr/local/bin/pyroe", "qcatch": "/usr/local/bin/qcatch", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qcatch.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/qcatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qcatch:0.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/qcatch:0.2.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qcatch/0.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/qcatch/0.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/qcatch/0.2.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/qcatch/0.2.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

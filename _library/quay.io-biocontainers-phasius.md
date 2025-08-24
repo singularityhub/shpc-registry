@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phasius"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phasius/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phasius/container.yaml"
-updated_at: "2025-08-23 03:48:36.951509"
-latest: "0.5.0--ha6fb395_0"
+updated_at: "2025-08-24 04:06:54.649509"
+latest: "0.6.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/phasius"
 aliases:
  - "phasius"
@@ -16,8 +16,9 @@ versions:
  - "0.1.0--h9948957_3"
  - "0.3.0--ha6fb395_0"
  - "0.5.0--ha6fb395_0"
+ - "0.6.0--ha6fb395_0"
 description: "singularity registry hpc automated addition for phasius"
-config: {"url": "https://biocontainers.pro/tools/phasius", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phasius", "latest": {"0.5.0--ha6fb395_0": "sha256:d4e6c297f2f4dd46cd349f96eb66e64daf1d03580cc6f4b9e9a4afc431c1729b"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58", "0.1.0--h4ac6f70_2": "sha256:aca9a69957b856f6848e20a33e38a7efd9821e82382ccbff5715e1841c9214c9", "0.2.0--ha6fb395_0": "sha256:a27c2919f963d01ecba127cb72e4df65980430a463e2173b2031d21c0a764eda", "0.1.0--h9948957_3": "sha256:bae1f9690358b7d21a25c73d3663d0df3ef6d5aa1a61a484c28d8423767bb97c", "0.3.0--ha6fb395_0": "sha256:155a67476cceab5deafc19328c19cebbe676aa7c37c63794da2c5cc354f27164", "0.5.0--ha6fb395_0": "sha256:d4e6c297f2f4dd46cd349f96eb66e64daf1d03580cc6f4b9e9a4afc431c1729b"}, "docker": "quay.io/biocontainers/phasius", "aliases": {"phasius": "/usr/local/bin/phasius"}}
+config: {"url": "https://biocontainers.pro/tools/phasius", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phasius", "latest": {"0.6.0--ha6fb395_0": "sha256:f741f94ddfd3ffde023236241b9e7b75cc5c00820b9b82c8d660390bb460d142"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58", "0.1.0--h4ac6f70_2": "sha256:aca9a69957b856f6848e20a33e38a7efd9821e82382ccbff5715e1841c9214c9", "0.2.0--ha6fb395_0": "sha256:a27c2919f963d01ecba127cb72e4df65980430a463e2173b2031d21c0a764eda", "0.1.0--h9948957_3": "sha256:bae1f9690358b7d21a25c73d3663d0df3ef6d5aa1a61a484c28d8423767bb97c", "0.3.0--ha6fb395_0": "sha256:155a67476cceab5deafc19328c19cebbe676aa7c37c63794da2c5cc354f27164", "0.5.0--ha6fb395_0": "sha256:d4e6c297f2f4dd46cd349f96eb66e64daf1d03580cc6f4b9e9a4afc431c1729b", "0.6.0--ha6fb395_0": "sha256:f741f94ddfd3ffde023236241b9e7b75cc5c00820b9b82c8d660390bb460d142"}, "docker": "quay.io/biocontainers/phasius", "aliases": {"phasius": "/usr/local/bin/phasius"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phasius.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/phasius
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phasius:0.5.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/phasius:0.6.0--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phasius/0.5.0--ha6fb395_0
-$ module help quay.io/biocontainers/phasius/0.5.0--ha6fb395_0
+$ module load quay.io/biocontainers/phasius/0.6.0--ha6fb395_0
+$ module help quay.io/biocontainers/phasius/0.6.0--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

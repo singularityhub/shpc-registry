@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/minialign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minialign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minialign/container.yaml"
-updated_at: "2025-08-23 03:31:10.597197"
-latest: "0.5.3--1"
+updated_at: "2025-08-24 03:48:56.723340"
+latest: "0.6.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/minialign"
 aliases:
  - "minialign"
 versions:
  - "0.5.3--1"
+ - "0.6.0--h577a1d6_0"
 description: "shpc-registry automated BioContainers addition for minialign"
-config: {"url": "https://biocontainers.pro/tools/minialign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minialign", "latest": {"0.5.3--1": "sha256:86cd5b148280d613debc15c44fdf8657ad3bdad2adbbf3c2535982ce1cec4a49"}, "tags": {"0.5.3--1": "sha256:86cd5b148280d613debc15c44fdf8657ad3bdad2adbbf3c2535982ce1cec4a49"}, "docker": "quay.io/biocontainers/minialign", "aliases": {"minialign": "/usr/local/bin/minialign"}}
+config: {"url": "https://biocontainers.pro/tools/minialign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minialign", "latest": {"0.6.0--h577a1d6_0": "sha256:520a962e45c55ae314fbcd2bb7417d2d7ad98ecdde721e4a93aea4a4d5b3b688"}, "tags": {"0.5.3--1": "sha256:86cd5b148280d613debc15c44fdf8657ad3bdad2adbbf3c2535982ce1cec4a49", "0.6.0--h577a1d6_0": "sha256:520a962e45c55ae314fbcd2bb7417d2d7ad98ecdde721e4a93aea4a4d5b3b688"}, "docker": "quay.io/biocontainers/minialign", "aliases": {"minialign": "/usr/local/bin/minialign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minialign.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/minialign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minialign:0.5.3--1
+$ shpc install quay.io/biocontainers/minialign:0.6.0--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minialign/0.5.3--1
-$ module help quay.io/biocontainers/minialign/0.5.3--1
+$ module load quay.io/biocontainers/minialign/0.6.0--h577a1d6_0
+$ module help quay.io/biocontainers/minialign/0.6.0--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

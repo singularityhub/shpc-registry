@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/minimal-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/minimal-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/minimal-notebook/container.yaml"
-updated_at: "2025-08-23 03:04:09.090531"
-latest: "2025-06-23"
+updated_at: "2025-08-24 03:21:20.324387"
+latest: "2025-08-18"
 container_url: "https://quay.io/repository/jupyter/minimal-notebook"
 aliases:
  - "run-notebook"
@@ -13,8 +13,9 @@ versions:
  - "latest"
  - "2025-05-30"
  - "2025-06-23"
+ - "2025-08-18"
 description: "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/minimal-notebook", "url": "https://quay.io/repository/jupyter/minimal-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-06-23": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a"}, "tags": {"latest": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a", "2025-05-30": "sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2", "2025-06-23": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/minimal-notebook", "url": "https://quay.io/repository/jupyter/minimal-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-08-18": "sha256:83b6d0b5da37638d0957f812a07707e4e25ce44227c64588395c124140f96831"}, "tags": {"latest": "sha256:83b6d0b5da37638d0957f812a07707e4e25ce44227c64588395c124140f96831", "2025-05-30": "sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2", "2025-06-23": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a", "2025-08-18": "sha256:83b6d0b5da37638d0957f812a07707e4e25ce44227c64588395c124140f96831"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/minimal-notebook.
@@ -29,7 +30,7 @@ $ shpc install quay.io/jupyter/minimal-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/minimal-notebook:2025-06-23
+$ shpc install quay.io/jupyter/minimal-notebook:2025-08-18
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/minimal-notebook/2025-06-23
-$ module help quay.io/jupyter/minimal-notebook/2025-06-23
+$ module load quay.io/jupyter/minimal-notebook/2025-08-18
+$ module help quay.io/jupyter/minimal-notebook/2025-08-18
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

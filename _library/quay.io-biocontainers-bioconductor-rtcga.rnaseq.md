@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.rnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.rnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.rnaseq/container.yaml"
-updated_at: "2025-08-23 03:50:10.592276"
+updated_at: "2025-08-24 04:08:28.692369"
 latest: "20151101.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.rnaseq"
 aliases:

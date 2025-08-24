@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/livekraken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/livekraken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/livekraken/container.yaml"
-updated_at: "2025-08-23 03:15:54.646176"
-latest: "1.0--pl5321h9948957_11"
+updated_at: "2025-08-24 03:33:06.679414"
+latest: "1.0--pl5321h9948957_12"
 container_url: "https://biocontainers.pro/tools/livekraken"
 aliases:
  - "livekraken"
@@ -29,8 +29,9 @@ versions:
  - "1.0--pl5321h376f1d3_9"
  - "1.0--pl5321h4ac6f70_10"
  - "1.0--pl5321h9948957_11"
+ - "1.0--pl5321h9948957_12"
 description: "shpc-registry automated BioContainers addition for livekraken"
-config: {"url": "https://biocontainers.pro/tools/livekraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for livekraken", "latest": {"1.0--pl5321h9948957_11": "sha256:ed7ad74ee8d648846360d6f397957095121f6e0f285e3d53f2ae2670b3ddb8b0"}, "tags": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b", "1.0--pl5321h376f1d3_9": "sha256:29a1fbcecc0d59940c91f58a74831f73d27d7be0f07fca264f3c3069063136e0", "1.0--pl5321h4ac6f70_10": "sha256:89357f353388bc12fe884c808583f543c9734851399607066159db24c2f4af9e", "1.0--pl5321h9948957_11": "sha256:ed7ad74ee8d648846360d6f397957095121f6e0f285e3d53f2ae2670b3ddb8b0"}, "docker": "quay.io/biocontainers/livekraken", "aliases": {"livekraken": "/usr/local/bin/livekraken", "livekraken-build": "/usr/local/bin/livekraken-build", "livekraken-filter": "/usr/local/bin/livekraken-filter", "livekraken-mpa-report": "/usr/local/bin/livekraken-mpa-report", "livekraken-report": "/usr/local/bin/livekraken-report", "livekraken-translate": "/usr/local/bin/livekraken-translate", "livekraken_sankey_diagram.py": "/usr/local/bin/livekraken_sankey_diagram.py", "jellyfish": "/usr/local/bin/jellyfish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/livekraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for livekraken", "latest": {"1.0--pl5321h9948957_12": "sha256:e5464cea6ac607612d0cfeeb0973b327642daea13e1c614946cd4253d225af38"}, "tags": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b", "1.0--pl5321h376f1d3_9": "sha256:29a1fbcecc0d59940c91f58a74831f73d27d7be0f07fca264f3c3069063136e0", "1.0--pl5321h4ac6f70_10": "sha256:89357f353388bc12fe884c808583f543c9734851399607066159db24c2f4af9e", "1.0--pl5321h9948957_11": "sha256:ed7ad74ee8d648846360d6f397957095121f6e0f285e3d53f2ae2670b3ddb8b0", "1.0--pl5321h9948957_12": "sha256:e5464cea6ac607612d0cfeeb0973b327642daea13e1c614946cd4253d225af38"}, "docker": "quay.io/biocontainers/livekraken", "aliases": {"livekraken": "/usr/local/bin/livekraken", "livekraken-build": "/usr/local/bin/livekraken-build", "livekraken-filter": "/usr/local/bin/livekraken-filter", "livekraken-mpa-report": "/usr/local/bin/livekraken-mpa-report", "livekraken-report": "/usr/local/bin/livekraken-report", "livekraken-translate": "/usr/local/bin/livekraken-translate", "livekraken_sankey_diagram.py": "/usr/local/bin/livekraken_sankey_diagram.py", "jellyfish": "/usr/local/bin/jellyfish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/livekraken.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/livekraken
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/livekraken:1.0--pl5321h9948957_11
+$ shpc install quay.io/biocontainers/livekraken:1.0--pl5321h9948957_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/livekraken/1.0--pl5321h9948957_11
-$ module help quay.io/biocontainers/livekraken/1.0--pl5321h9948957_11
+$ module load quay.io/biocontainers/livekraken/1.0--pl5321h9948957_12
+$ module help quay.io/biocontainers/livekraken/1.0--pl5321h9948957_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

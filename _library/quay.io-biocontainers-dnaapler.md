@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnaapler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaapler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaapler/container.yaml"
-updated_at: "2025-08-23 03:09:12.260666"
-latest: "1.2.0--pyhdfd78af_0"
+updated_at: "2025-08-24 03:26:31.721527"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnaapler"
 aliases:
  - "dnaapler"
@@ -51,8 +51,9 @@ versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dnaapler"
-config: {"url": "https://biocontainers.pro/tools/dnaapler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnaapler", "latest": {"1.2.0--pyhdfd78af_0": "sha256:a5e62ee2c58e7421924c3ec258f6593a238e190135669ded5d1048d7d9495c28"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66", "0.3.0--pyhdfd78af_0": "sha256:6ae49745a944bbcd5c29b5c24ee2349937bba1e6e95978d4403dc014966884cc", "0.2.0--pyhdfd78af_0": "sha256:afbf56ef8a9387897ea08722b29b1512dc7bd9b9d95e773c78745b6d3d9e4516", "0.3.2--pyhdfd78af_0": "sha256:367b872a1a117b1b4a5853bc514fcbdf04d4f694a55338bd7e615e113fa05e9f", "0.4.0--pyhdfd78af_0": "sha256:e67a95fc0b2d6552ecc932d550422fbc9d0f03723e12fd08ad14ec8312e2dc85", "0.5.0--pyhdfd78af_0": "sha256:e3a103f47310eb5403e2518de5bc4f23d64c852fa4326866f88c4f8996032b0c", "0.5.1--pyhdfd78af_0": "sha256:5151a8b039cb5c86f8df9ce3d59fa7fd74e26cc3fe65dbf45b509644813b1bd8", "0.7.0--pyhdfd78af_0": "sha256:94a72fe3851952e57dcd2085d335027372dda1f7373a829122202325959ff4ac", "0.6.0--pyhdfd78af_0": "sha256:6e3307dfeef52f677fe22761933fc38e4dd9351be183ab5455c3255e67b6405b", "0.5.2--pyhdfd78af_0": "sha256:cde95bf63c810bdfe4e99afc029947525ae45f6341608f4a3fbce9cb26a52229", "0.8.0--pyhdfd78af_0": "sha256:a57f1e420948be070cc8096ff707c234d3a9c13ccc26db9dcc5ac709788b3c84", "0.8.1--pyhdfd78af_0": "sha256:4fffb40d7d7e1ee20c916dfcc6e65950fcb7b2d20bcf9700b8b5d0ea00734fbd", "1.0.1--pyhdfd78af_0": "sha256:9b2985f91e1a9c6f2c01303345b4b39ef8b03c79e60044078f64eda9c2a3c46e", "1.1.0--pyhdfd78af_0": "sha256:70c3d6c8fa6acdbc1fce3bbef8788cd42b604748c95795407d81d5661b9abf84", "1.2.0--pyhdfd78af_0": "sha256:a5e62ee2c58e7421924c3ec258f6593a238e190135669ded5d1048d7d9495c28"}, "docker": "quay.io/biocontainers/dnaapler", "aliases": {"dnaapler": "/usr/local/bin/dnaapler", "pyrodigal": "/usr/local/bin/pyrodigal", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
+config: {"url": "https://biocontainers.pro/tools/dnaapler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnaapler", "latest": {"1.3.0--pyhdfd78af_0": "sha256:7c10b207550b3bf3c673f5b79d572ea32420f691fcd05932c8da25af2d8412c2"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66", "0.3.0--pyhdfd78af_0": "sha256:6ae49745a944bbcd5c29b5c24ee2349937bba1e6e95978d4403dc014966884cc", "0.2.0--pyhdfd78af_0": "sha256:afbf56ef8a9387897ea08722b29b1512dc7bd9b9d95e773c78745b6d3d9e4516", "0.3.2--pyhdfd78af_0": "sha256:367b872a1a117b1b4a5853bc514fcbdf04d4f694a55338bd7e615e113fa05e9f", "0.4.0--pyhdfd78af_0": "sha256:e67a95fc0b2d6552ecc932d550422fbc9d0f03723e12fd08ad14ec8312e2dc85", "0.5.0--pyhdfd78af_0": "sha256:e3a103f47310eb5403e2518de5bc4f23d64c852fa4326866f88c4f8996032b0c", "0.5.1--pyhdfd78af_0": "sha256:5151a8b039cb5c86f8df9ce3d59fa7fd74e26cc3fe65dbf45b509644813b1bd8", "0.7.0--pyhdfd78af_0": "sha256:94a72fe3851952e57dcd2085d335027372dda1f7373a829122202325959ff4ac", "0.6.0--pyhdfd78af_0": "sha256:6e3307dfeef52f677fe22761933fc38e4dd9351be183ab5455c3255e67b6405b", "0.5.2--pyhdfd78af_0": "sha256:cde95bf63c810bdfe4e99afc029947525ae45f6341608f4a3fbce9cb26a52229", "0.8.0--pyhdfd78af_0": "sha256:a57f1e420948be070cc8096ff707c234d3a9c13ccc26db9dcc5ac709788b3c84", "0.8.1--pyhdfd78af_0": "sha256:4fffb40d7d7e1ee20c916dfcc6e65950fcb7b2d20bcf9700b8b5d0ea00734fbd", "1.0.1--pyhdfd78af_0": "sha256:9b2985f91e1a9c6f2c01303345b4b39ef8b03c79e60044078f64eda9c2a3c46e", "1.1.0--pyhdfd78af_0": "sha256:70c3d6c8fa6acdbc1fce3bbef8788cd42b604748c95795407d81d5661b9abf84", "1.2.0--pyhdfd78af_0": "sha256:a5e62ee2c58e7421924c3ec258f6593a238e190135669ded5d1048d7d9495c28", "1.3.0--pyhdfd78af_0": "sha256:7c10b207550b3bf3c673f5b79d572ea32420f691fcd05932c8da25af2d8412c2"}, "docker": "quay.io/biocontainers/dnaapler", "aliases": {"dnaapler": "/usr/local/bin/dnaapler", "pyrodigal": "/usr/local/bin/pyrodigal", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnaapler.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/dnaapler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnaapler:1.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dnaapler:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnaapler/1.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dnaapler/1.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dnaapler/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dnaapler/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
