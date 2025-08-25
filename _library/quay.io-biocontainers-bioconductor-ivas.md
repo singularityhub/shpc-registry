@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ivas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ivas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ivas/container.yaml"
-updated_at: "2025-08-24 03:50:16.125645"
+updated_at: "2025-08-25 03:40:36.798310"
 latest: "2.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ivas"
 aliases:

@@ -4,8 +4,8 @@ name:  "redis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/redis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/redis/container.yaml"
-updated_at: "2025-08-24 03:26:40.813470"
-latest: "8-alpine3.21"
+updated_at: "2025-08-25 03:17:30.891478"
+latest: "8-alpine3.22"
 container_url: "https://hub.docker.com/r/_/redis"
 aliases:
  - "redis-benchmark"
@@ -47,8 +47,10 @@ versions:
  - "8-alpine3.21"
  - "8.0"
  - "8.2-m01"
+ - "8-alpine3.22"
+ - "8.2"
 description: "Redis is an open-source, networked, in-memory, key-value data store with optional durability."
-config: {"docker": "redis", "url": "https://hub.docker.com/r/_/redis", "maintainer": "@vsoch", "description": "Redis is an open-source, networked, in-memory, key-value data store with optional durability.", "filter": ["^(?!.*32bit).*$"], "latest": {"8-alpine3.21": "sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c"}, "tags": {"6.2.3-alpine": "sha256:f8f0e809a4281714c33edf86f6da6cc2d4058c8549e44d8c83303c28b3123072", "6.2.4-alpine": "sha256:0039796b887fd30e460353f14e46ba1004152aa97f5f59094cc21eac445fc89b", "6.2.5": "sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27", "6.2.6": "sha256:b7fd1a2c89d09a836f659d72c52d27b9f71202c97014a47639f87c992e8c0f1b", "7.0-rc": "sha256:359475c7f0c0a8a28444ca36799b087bb98c8f9db0ee9fa5c13017b4d1693fb5", "latest": "sha256:f957ce918b51f3ac10414244bedd0043c47db44a819f98b9902af1bd9d0afcea", "6": "sha256:37440b1f783e3dcabb49eaaaa1bb52a619275072eadf9dadbaa271e5b69bfe2c", "6-alpine3.15": "sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e", "6.2": "sha256:37440b1f783e3dcabb49eaaaa1bb52a619275072eadf9dadbaa271e5b69bfe2c", "7": "sha256:49061c0de5717822cf6702ef3197f6817f26b98d46765c308c1e23e6b261997b", "7-alpine3.15": "sha256:541e6d75df5dfb08e8859929bab06da265673808a6f2285abe6b7c76c1c98c6e", "7.0": "sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3", "7-alpine3.16": "sha256:2700d5097763fda285c463f4eefc3d0730a2df2a9d48e66707b19d5a5e5f23d4", "6-alpine3.16": "sha256:aeaf1a7251c9cdaead1bef13d68aac16b0e22326ecfefdb6079008ffab81065d", "7-alpine3.17": "sha256:cbcf5bfbc3eaa232b1fa99e539459f46915a41334d46b54bf894f8837a7f071e", "6-alpine3.17": "sha256:0bb58d0fec5900dd82002b53b9d2dc0dfbd1831e7d2570cb4e66ff1a9464b134", "7.2-rc": "sha256:7263f36e388ca406f67ec5614a3d0099d7634804e5e26536fdde85ca7d8efa94", "7-alpine3.18": "sha256:3ce533b2b057f74b235d1d8697ae08b1b6ff0a5e16827ea6a377b6365693c7ed", "7.2": "sha256:c5dbd5bb88464705a302a3a1114d610e4baa13179c7c67946047528790cc19dd", "7-alpine3.19": "sha256:8f157725f8eee31e65a8d4765f1f986d76aedc1a0503345dfb63a2b1b5a441ee", "7-alpine3.20": "sha256:c1e88455c85225310bbea54816e9c3f4b5295815e6dbf80c34d40afc6df28275", "7.4-rc": "sha256:4d08a8fc92f2ae6508cc4a622a95a75c0549f43da7c13542e8deb031e1c0b629", "7.4": "sha256:49061c0de5717822cf6702ef3197f6817f26b98d46765c308c1e23e6b261997b", "8.0-M01": "sha256:418c6ae4c128641049a692135a683d3eca6746deb96b56b45e34993782b1596f", "8.0-M02": "sha256:671dbd33aafb8bc88656dc182921261ad592b2f907cc32b0f1bad57b2fd6e0e5", "8.0-M03": "sha256:f35d7bf9f1fdbcb7a0296ab01a5e7e72643a0a5d40fc263a189627bd09afe7c9", "7-alpine3.21": "sha256:bb186d083732f669da90be8b0f975a37812b15e913465bb14d845db72a4e3e08", "8.0-M04": "sha256:9c6bb76658f8e6f7ca8d0d96c8fcdfb12e9795579c89918aea4fa2ad9817c2f0", "8": "sha256:f957ce918b51f3ac10414244bedd0043c47db44a819f98b9902af1bd9d0afcea", "8-alpine3.21": "sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c", "8.0": "sha256:f957ce918b51f3ac10414244bedd0043c47db44a819f98b9902af1bd9d0afcea", "8.2-m01": "sha256:0022f77ef5fcee063d0e009d03a6696c47159d97c64ce1e8d176b485c66f7f57"}, "aliases": {"redis-benchmark": "/usr/local/bin/redis-benchmark", "redis-check-aof": "/usr/local/bin/redis-check-aof", "redis-check-rdb": "/usr/local/bin/redis-check-rdb", "redis-cli": "/usr/local/bin/redis-cli", "redis-sentinel": "/usr/local/bin/redis-sentinel", "redis-server": "/usr/local/bin/redis-server"}}
+config: {"docker": "redis", "url": "https://hub.docker.com/r/_/redis", "maintainer": "@vsoch", "description": "Redis is an open-source, networked, in-memory, key-value data store with optional durability.", "filter": ["^(?!.*32bit).*$"], "latest": {"8-alpine3.22": "sha256:987c376c727652f99625c7d205a1cba3cb2c53b92b0b62aade2bd48ee1593232"}, "tags": {"6.2.3-alpine": "sha256:f8f0e809a4281714c33edf86f6da6cc2d4058c8549e44d8c83303c28b3123072", "6.2.4-alpine": "sha256:0039796b887fd30e460353f14e46ba1004152aa97f5f59094cc21eac445fc89b", "6.2.5": "sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27", "6.2.6": "sha256:b7fd1a2c89d09a836f659d72c52d27b9f71202c97014a47639f87c992e8c0f1b", "7.0-rc": "sha256:359475c7f0c0a8a28444ca36799b087bb98c8f9db0ee9fa5c13017b4d1693fb5", "latest": "sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760", "6": "sha256:f03dda4477b065b161ac3338645710405c5c9fbecb1c983af495b1b1d444bcd1", "6-alpine3.15": "sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e", "6.2": "sha256:f03dda4477b065b161ac3338645710405c5c9fbecb1c983af495b1b1d444bcd1", "7": "sha256:4421962706d7a901cbd435282515704040203d67c653160e3a46a27b79c40e19", "7-alpine3.15": "sha256:541e6d75df5dfb08e8859929bab06da265673808a6f2285abe6b7c76c1c98c6e", "7.0": "sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3", "7-alpine3.16": "sha256:2700d5097763fda285c463f4eefc3d0730a2df2a9d48e66707b19d5a5e5f23d4", "6-alpine3.16": "sha256:aeaf1a7251c9cdaead1bef13d68aac16b0e22326ecfefdb6079008ffab81065d", "7-alpine3.17": "sha256:cbcf5bfbc3eaa232b1fa99e539459f46915a41334d46b54bf894f8837a7f071e", "6-alpine3.17": "sha256:0bb58d0fec5900dd82002b53b9d2dc0dfbd1831e7d2570cb4e66ff1a9464b134", "7.2-rc": "sha256:7263f36e388ca406f67ec5614a3d0099d7634804e5e26536fdde85ca7d8efa94", "7-alpine3.18": "sha256:3ce533b2b057f74b235d1d8697ae08b1b6ff0a5e16827ea6a377b6365693c7ed", "7.2": "sha256:ad6e6118cdb8dc3b42eda6691073d9135cfefd74a6787109b1a926e90269ddbe", "7-alpine3.19": "sha256:8f157725f8eee31e65a8d4765f1f986d76aedc1a0503345dfb63a2b1b5a441ee", "7-alpine3.20": "sha256:c1e88455c85225310bbea54816e9c3f4b5295815e6dbf80c34d40afc6df28275", "7.4-rc": "sha256:4d08a8fc92f2ae6508cc4a622a95a75c0549f43da7c13542e8deb031e1c0b629", "7.4": "sha256:4421962706d7a901cbd435282515704040203d67c653160e3a46a27b79c40e19", "8.0-M01": "sha256:418c6ae4c128641049a692135a683d3eca6746deb96b56b45e34993782b1596f", "8.0-M02": "sha256:671dbd33aafb8bc88656dc182921261ad592b2f907cc32b0f1bad57b2fd6e0e5", "8.0-M03": "sha256:f35d7bf9f1fdbcb7a0296ab01a5e7e72643a0a5d40fc263a189627bd09afe7c9", "7-alpine3.21": "sha256:bb186d083732f669da90be8b0f975a37812b15e913465bb14d845db72a4e3e08", "8.0-M04": "sha256:9c6bb76658f8e6f7ca8d0d96c8fcdfb12e9795579c89918aea4fa2ad9817c2f0", "8": "sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760", "8-alpine3.21": "sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c", "8.0": "sha256:30abfcce7d0527dceb081dfa17cea0a6c2c315bf5a4ec7b2799118e852fdd553", "8.2-m01": "sha256:0022f77ef5fcee063d0e009d03a6696c47159d97c64ce1e8d176b485c66f7f57", "8-alpine3.22": "sha256:987c376c727652f99625c7d205a1cba3cb2c53b92b0b62aade2bd48ee1593232", "8.2": "sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760"}, "aliases": {"redis-benchmark": "/usr/local/bin/redis-benchmark", "redis-check-aof": "/usr/local/bin/redis-check-aof", "redis-check-rdb": "/usr/local/bin/redis-check-rdb", "redis-cli": "/usr/local/bin/redis-cli", "redis-sentinel": "/usr/local/bin/redis-sentinel", "redis-server": "/usr/local/bin/redis-server"}}
 ---
 
 This module is a singularity container wrapper for redis.
@@ -63,7 +65,7 @@ $ shpc install redis
 Or a specific version:
 
 ```bash
-$ shpc install redis:8-alpine3.21
+$ shpc install redis:8-alpine3.22
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load redis/8-alpine3.21
-$ module help redis/8-alpine3.21
+$ module load redis/8-alpine3.22
+$ module help redis/8-alpine3.22
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

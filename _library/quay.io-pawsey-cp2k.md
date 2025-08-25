@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/cp2k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/cp2k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/cp2k/container.yaml"
-updated_at: "2025-08-24 04:15:59.709881"
+updated_at: "2025-08-25 04:05:47.414786"
 latest: "2024.3-rocm6.3.0"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:

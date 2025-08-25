@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chicagotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chicagotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chicagotools/container.yaml"
-updated_at: "2025-08-24 04:04:35.777018"
+updated_at: "2025-08-25 03:54:36.549571"
 latest: "1.2.0--2"
 container_url: "https://biocontainers.pro/tools/chicagotools"
 aliases:

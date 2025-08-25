@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/geant4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/geant4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/geant4/container.yaml"
-updated_at: "2025-08-24 04:16:08.943867"
+updated_at: "2025-08-25 04:05:56.263965"
 latest: "11.0.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/geant4"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rename"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rename/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rename/container.yaml"
-updated_at: "2025-08-24 03:27:53.608372"
+updated_at: "2025-08-25 03:18:42.205887"
 latest: "1.601--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rename"
 aliases:

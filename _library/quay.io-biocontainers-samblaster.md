@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samblaster/container.yaml"
-updated_at: "2025-08-24 03:47:14.333368"
-latest: "0.1.26--h9948957_6"
+updated_at: "2025-08-25 03:37:43.582574"
+latest: "0.1.26--h9948957_7"
 container_url: "https://biocontainers.pro/tools/samblaster"
 aliases:
  - "samblaster"
@@ -14,8 +14,9 @@ versions:
  - "0.1.26--h4ac6f70_4"
  - "0.1.26--h4ac6f70_5"
  - "0.1.26--h9948957_6"
+ - "0.1.26--h9948957_7"
 description: "shpc-registry automated BioContainers addition for samblaster"
-config: {"url": "https://biocontainers.pro/tools/samblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samblaster", "latest": {"0.1.26--h9948957_6": "sha256:323e00c3a7668c9ef1b29dc423141556c2a294d629b6ba0d2ea5c9b14021e139"}, "tags": {"0.1.26--h9f5acd7_2": "sha256:60c9465e285cc975c65de5629e38979a1284e7fb9a9095d24a7ba33e365c2075", "0.1.26--h4ac6f70_4": "sha256:dc65616f9d96c1c42c706d818f7c6fd3880e8aeae0d824be8966c37ce992db3c", "0.1.26--h4ac6f70_5": "sha256:209eefe935ab2fb15ccaec252f1f78677cf9fd92905b91e632e4895692aa56b0", "0.1.26--h9948957_6": "sha256:323e00c3a7668c9ef1b29dc423141556c2a294d629b6ba0d2ea5c9b14021e139"}, "docker": "quay.io/biocontainers/samblaster", "aliases": {"samblaster": "/usr/local/bin/samblaster"}}
+config: {"url": "https://biocontainers.pro/tools/samblaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samblaster", "latest": {"0.1.26--h9948957_7": "sha256:d8272f8b05b77c64de817e667c19df0419f7ba99674c1cf37b468e905a566dfb"}, "tags": {"0.1.26--h9f5acd7_2": "sha256:60c9465e285cc975c65de5629e38979a1284e7fb9a9095d24a7ba33e365c2075", "0.1.26--h4ac6f70_4": "sha256:dc65616f9d96c1c42c706d818f7c6fd3880e8aeae0d824be8966c37ce992db3c", "0.1.26--h4ac6f70_5": "sha256:209eefe935ab2fb15ccaec252f1f78677cf9fd92905b91e632e4895692aa56b0", "0.1.26--h9948957_6": "sha256:323e00c3a7668c9ef1b29dc423141556c2a294d629b6ba0d2ea5c9b14021e139", "0.1.26--h9948957_7": "sha256:d8272f8b05b77c64de817e667c19df0419f7ba99674c1cf37b468e905a566dfb"}, "docker": "quay.io/biocontainers/samblaster", "aliases": {"samblaster": "/usr/local/bin/samblaster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samblaster.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/samblaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samblaster:0.1.26--h9948957_6
+$ shpc install quay.io/biocontainers/samblaster:0.1.26--h9948957_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samblaster/0.1.26--h9948957_6
-$ module help quay.io/biocontainers/samblaster/0.1.26--h9948957_6
+$ module load quay.io/biocontainers/samblaster/0.1.26--h9948957_7
+$ module help quay.io/biocontainers/samblaster/0.1.26--h9948957_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

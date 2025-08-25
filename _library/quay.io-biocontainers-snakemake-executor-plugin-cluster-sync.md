@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-cluster-sync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/container.yaml"
-updated_at: "2025-08-24 03:35:34.985917"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2025-08-25 03:26:18.543683"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-cluster-sync"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-cluster-sync"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-cluster-sync", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-cluster-sync", "latest": {"0.1.4--pyhdfd78af_0": "sha256:d1ea7df5771243f8f977beda7656d8f21f41843e3036b02bacc233e4a6e272cf"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:5699bfa5e3d33ec5df6e83001226b88516e127a37fb8b6cbcdd8339d2da04193", "0.1.4--pyhdfd78af_0": "sha256:d1ea7df5771243f8f977beda7656d8f21f41843e3036b02bacc233e4a6e272cf"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-cluster-sync", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-cluster-sync", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-cluster-sync", "latest": {"0.1.5--pyhdfd78af_0": "sha256:5dda66939f0701b64ae6cca60cb548329c25d4977a53c09da6d11970d725226e"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:5699bfa5e3d33ec5df6e83001226b88516e127a37fb8b6cbcdd8339d2da04193", "0.1.4--pyhdfd78af_0": "sha256:d1ea7df5771243f8f977beda7656d8f21f41843e3036b02bacc233e4a6e272cf", "0.1.5--pyhdfd78af_0": "sha256:5dda66939f0701b64ae6cca60cb548329c25d4977a53c09da6d11970d725226e"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-cluster-sync", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-cluster-sync.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-cluster-sync
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-cluster-sync:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-cluster-sync:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

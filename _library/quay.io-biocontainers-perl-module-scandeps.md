@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-module-scandeps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-scandeps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-scandeps/container.yaml"
-updated_at: "2025-08-24 03:34:40.989253"
-latest: "1.33--pl5321hdfd78af_0"
+updated_at: "2025-08-25 03:25:24.677528"
+latest: "1.37--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-scandeps"
 aliases:
  - "scandeps.pl"
@@ -15,8 +15,9 @@ versions:
  - "1.31--pl5321hdfd78af_0"
  - "1.32--pl5321hdfd78af_0"
  - "1.33--pl5321hdfd78af_0"
+ - "1.37--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-module-scandeps"
-config: {"url": "https://biocontainers.pro/tools/perl-module-scandeps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-scandeps", "latest": {"1.33--pl5321hdfd78af_0": "sha256:7b5cdd2a1d953b804e6b13da82bbe901e7f456ef29e13b01124bb7bf363cf9d2"}, "tags": {"1.31--pl5321hdfd78af_0": "sha256:41f9cdce004b44452870d0e8b71731f479eb701e5ddc1074aff55a69878b13b8", "1.32--pl5321hdfd78af_0": "sha256:78ca9d66768dc7aa65ce68b1bd744fe5bdcb67f678750b4c0c82783f32fcc2b8", "1.33--pl5321hdfd78af_0": "sha256:7b5cdd2a1d953b804e6b13da82bbe901e7f456ef29e13b01124bb7bf363cf9d2"}, "docker": "quay.io/biocontainers/perl-module-scandeps", "aliases": {"scandeps.pl": "/usr/local/bin/scandeps.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-scandeps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-scandeps", "latest": {"1.37--pl5321hdfd78af_0": "sha256:0ebc9c87ad79c8a7028d0a4c16eb1f125b20c53017573158642494cb38f28245"}, "tags": {"1.31--pl5321hdfd78af_0": "sha256:41f9cdce004b44452870d0e8b71731f479eb701e5ddc1074aff55a69878b13b8", "1.32--pl5321hdfd78af_0": "sha256:78ca9d66768dc7aa65ce68b1bd744fe5bdcb67f678750b4c0c82783f32fcc2b8", "1.33--pl5321hdfd78af_0": "sha256:7b5cdd2a1d953b804e6b13da82bbe901e7f456ef29e13b01124bb7bf363cf9d2", "1.37--pl5321hdfd78af_0": "sha256:0ebc9c87ad79c8a7028d0a4c16eb1f125b20c53017573158642494cb38f28245"}, "docker": "quay.io/biocontainers/perl-module-scandeps", "aliases": {"scandeps.pl": "/usr/local/bin/scandeps.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-scandeps.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-module-scandeps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-module-scandeps:1.33--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-module-scandeps:1.37--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-module-scandeps/1.33--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-module-scandeps/1.33--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-module-scandeps/1.37--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-module-scandeps/1.37--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

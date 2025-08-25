@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matrixeqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matrixeqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matrixeqtl/container.yaml"
-updated_at: "2025-08-24 03:55:59.612357"
+updated_at: "2025-08-25 03:46:12.361882"
 latest: "2.1.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-matrixeqtl"
 aliases:

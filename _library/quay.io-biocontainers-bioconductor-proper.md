@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proper/container.yaml"
-updated_at: "2025-08-24 03:41:27.485633"
+updated_at: "2025-08-25 03:32:03.711167"
 latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proper"
 aliases:

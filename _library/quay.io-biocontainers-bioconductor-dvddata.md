@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dvddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dvddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dvddata/container.yaml"
-updated_at: "2025-08-24 04:06:35.900473"
+updated_at: "2025-08-25 03:56:33.212442"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dvddata"
 

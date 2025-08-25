@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fail/container.yaml"
-updated_at: "2025-08-24 03:38:03.216379"
+updated_at: "2025-08-25 03:28:44.067294"
 latest: "1.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fail"
 aliases:

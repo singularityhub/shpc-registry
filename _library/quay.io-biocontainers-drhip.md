@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drhip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drhip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drhip/container.yaml"
-updated_at: "2025-08-24 03:59:16.649152"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2025-08-25 03:49:24.962038"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drhip"
 aliases:
  - "drhip"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for drhip"
-config: {"url": "https://biocontainers.pro/tools/drhip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drhip", "latest": {"0.1.1--pyhdfd78af_0": "sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763"}, "docker": "quay.io/biocontainers/drhip", "aliases": {"drhip": "/usr/local/bin/drhip", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/drhip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drhip", "latest": {"0.1.2--pyhdfd78af_0": "sha256:80af18b53c31a6f3d63beb358ce1f9b73b52d84f90c60d607cfa112d7fd5c360"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:c6f2385ce2d8e1f465b1727c719c7165851a22d3dd32d6e7692fcfb7a0751763", "0.1.2--pyhdfd78af_0": "sha256:80af18b53c31a6f3d63beb358ce1f9b73b52d84f90c60d607cfa112d7fd5c360"}, "docker": "quay.io/biocontainers/drhip", "aliases": {"drhip": "/usr/local/bin/drhip", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drhip.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/drhip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drhip:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/drhip:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drhip/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/drhip/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/drhip/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/drhip/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

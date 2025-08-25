@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epicore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epicore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epicore/container.yaml"
-updated_at: "2025-08-24 03:49:57.891038"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2025-08-25 03:40:19.123404"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/epicore"
 aliases:
  - "epicore"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.5--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for epicore"
-config: {"url": "https://biocontainers.pro/tools/epicore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epicore", "latest": {"0.1.5--pyhdfd78af_0": "sha256:08e00190cac219aab7f602d421a3497dae66a236e9386df71bb0af7c3fb4d18f"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:fbf4efa4dc3ace168814188cf02d3ae0d582fef120e961035d1e94ba345037d8", "0.1.5--pyhdfd78af_0": "sha256:08e00190cac219aab7f602d421a3497dae66a236e9386df71bb0af7c3fb4d18f"}, "docker": "quay.io/biocontainers/epicore", "aliases": {"epicore": "/usr/local/bin/epicore", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/epicore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epicore", "latest": {"0.1.6--pyhdfd78af_0": "sha256:03dddfd0718e0e107765350ab7aca8fbb66aa933c6206a6fb5c2929d9a428b86"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:fbf4efa4dc3ace168814188cf02d3ae0d582fef120e961035d1e94ba345037d8", "0.1.5--pyhdfd78af_0": "sha256:08e00190cac219aab7f602d421a3497dae66a236e9386df71bb0af7c3fb4d18f", "0.1.6--pyhdfd78af_0": "sha256:03dddfd0718e0e107765350ab7aca8fbb66aa933c6206a6fb5c2929d9a428b86"}, "docker": "quay.io/biocontainers/epicore", "aliases": {"epicore": "/usr/local/bin/epicore", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epicore.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/epicore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epicore:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/epicore:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epicore/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/epicore/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/epicore/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/epicore/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydoe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydoe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydoe/container.yaml"
-updated_at: "2025-08-24 04:06:25.256529"
+updated_at: "2025-08-25 03:56:22.601302"
 latest: "0.3.8--py35_0"
 container_url: "https://biocontainers.pro/tools/pydoe"
 aliases:

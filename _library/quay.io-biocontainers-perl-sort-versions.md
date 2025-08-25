@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sort-versions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sort-versions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sort-versions/container.yaml"
-updated_at: "2025-08-24 04:07:05.639143"
+updated_at: "2025-08-25 03:57:02.714088"
 latest: "1.62--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-sort-versions"
 aliases:

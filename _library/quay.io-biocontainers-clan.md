@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clan/container.yaml"
-updated_at: "2025-08-24 03:47:52.615049"
+updated_at: "2025-08-25 03:38:20.626796"
 latest: "0.05--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/clan"
 aliases:

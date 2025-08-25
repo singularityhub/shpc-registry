@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rfastp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfastp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfastp/container.yaml"
-updated_at: "2025-08-24 03:42:58.216338"
+updated_at: "2025-08-25 03:33:32.456701"
 latest: "1.16.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfastp"
 

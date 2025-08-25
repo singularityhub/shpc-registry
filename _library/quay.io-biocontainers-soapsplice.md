@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapsplice/container.yaml"
-updated_at: "2025-08-24 03:42:39.077414"
+updated_at: "2025-08-25 03:33:13.689526"
 latest: "1.10--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/soapsplice"
 aliases:
