@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/graphaligner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graphaligner
 latest:
-  1.0.20--h06902ac_0: 
-    sha256:79c319cfe1ef1025e5f31ec836ddf3faf94fef407fcdafb7df7695ea97042448
+  1.0.20--h06902ac_1: 
+    sha256:4a6b6eb30120be6dc4ed20467595a25bf2cf24aa71758e37eb24e4190242a9ce
 tags:
   1.0.9--he1c1bb9_1: 
     sha256:4677d55eed9562f4dc13596ead51774a6eccf5b8ff877f562983f3daa86495ed
@@ -23,6 +23,8 @@ tags:
     sha256:2a537e6ac2cf7e75eb6c9a766651c4c1c3fd85f52977e0b503369e9a9243aea2
   1.0.20--h06902ac_0: 
     sha256:79c319cfe1ef1025e5f31ec836ddf3faf94fef407fcdafb7df7695ea97042448
+  1.0.20--h06902ac_1: 
+    sha256:4a6b6eb30120be6dc4ed20467595a25bf2cf24aa71758e37eb24e4190242a9ce
 docker: quay.io/biocontainers/graphaligner
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

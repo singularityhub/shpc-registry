@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mmseqs2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mmseqs2
 latest:
-  17.b804f--hd6d6fdc_1: 
-    sha256:912f11bbc736cdb5786378f81a1c3a617d140f19ee2e4f2ec55872db32c48273
+  18.8cc5c--hd6d6fdc_0: 
+    sha256:3503bfe576d560e550df2872af86a1ad1bcc1c06cfb7caadd3e7a95649f5f0ef
 tags:
   9.d36de--h76f5088_0: 
     sha256:15cc8415dc55469edc6d31aa1f71e1a4e0db425e425c2914be857d1f5c01ee71
@@ -33,6 +33,8 @@ tags:
     sha256:912f11bbc736cdb5786378f81a1c3a617d140f19ee2e4f2ec55872db32c48273
   17-b804f: 
     sha256:561786fa5ce3acb15f5a26b157013c7195c71fa35668fdaaa2fbb2ffae17691f
+  18.8cc5c--hd6d6fdc_0: 
+    sha256:3503bfe576d560e550df2872af86a1ad1bcc1c06cfb7caadd3e7a95649f5f0ef
 docker: quay.io/biocontainers/mmseqs2
 aliases:
   gawk-5.0.0: /usr/local/bin/gawk-5.0.0

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ribotin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ribotin
 latest:
-  1.4--hb891895_0: 
-    sha256:3047a798d310308b92b757a0e46d5270187802b6a2751ab89fd33cd480a95ff4
+  1.5--h077b44d_0: 
+    sha256:283a06abeac657766393cef6965b757d9549efb6e62dc5db060074ec03df5027
 tags:
   1.0--hdcf5f25_0: 
     sha256:445bb1f939a241d4b77837736ecf0086dc3d39651008b3f260458e944db93d54
@@ -17,6 +17,8 @@ tags:
     sha256:5c47f84e6f53574fd72b881af45af011c952a8c9622c066eedea90a0ba33d2c4
   1.4--hb891895_0: 
     sha256:3047a798d310308b92b757a0e46d5270187802b6a2751ab89fd33cd480a95ff4
+  1.5--h077b44d_0: 
+    sha256:283a06abeac657766393cef6965b757d9549efb6e62dc5db060074ec03df5027
 docker: quay.io/biocontainers/ribotin
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

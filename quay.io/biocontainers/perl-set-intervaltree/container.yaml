@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-set-intervaltree
 latest:
-  0.12--pl5321h503566f_5: 
-    sha256:b040974a06e6abfb7bbdfd8235f5e49406fe3e6b1e7790eb0beb4f5fbf7b4479
+  0.12--pl5321h503566f_6: 
+    sha256:b8bb9d7a68a5d7dbf56bd17e35c7e2e97b2d614b5579ff1fe819c2aa5d9de889
 tags:
   0.12--pl5321h87f3376_2: 
     sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2
@@ -12,6 +12,8 @@ tags:
     sha256:dad6100a5e20e246ed3049035febc7d39350070f42e3a54a2e6816c0a6c02111
   0.12--pl5321h503566f_5: 
     sha256:b040974a06e6abfb7bbdfd8235f5e49406fe3e6b1e7790eb0beb4f5fbf7b4479
+  0.12--pl5321h503566f_6: 
+    sha256:b8bb9d7a68a5d7dbf56bd17e35c7e2e97b2d614b5579ff1fe819c2aa5d9de889
 docker: quay.io/biocontainers/perl-set-intervaltree
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

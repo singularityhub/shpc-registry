@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/fastga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastga
 latest:
-  1.3--h577a1d6_0: 
-    sha256:c247b19349772a19761f3685775ecd1d62735efc695fb33a5f30766b39e5f1a7
+  1.3.1--h577a1d6_0: 
+    sha256:edb30189d52b3837896d73f9c7f7d4ddfa8b1ae325a6709293096aff90f2a11f
 tags:
   1.2--h577a1d6_0: 
     sha256:9eef8900d79e2f94505fe54e888152adc5289f7fdbe5862b6e19879e19628fd0
   1.3--h577a1d6_0: 
     sha256:c247b19349772a19761f3685775ecd1d62735efc695fb33a5f30766b39e5f1a7
+  1.3.1--h577a1d6_0: 
+    sha256:edb30189d52b3837896d73f9c7f7d4ddfa8b1ae325a6709293096aff90f2a11f
 docker: quay.io/biocontainers/fastga
 aliases:
   ALNchain: /usr/local/bin/ALNchain
