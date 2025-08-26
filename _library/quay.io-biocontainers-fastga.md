@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastga/container.yaml"
-updated_at: "2025-08-25 03:44:25.951131"
-latest: "1.3--h577a1d6_0"
+updated_at: "2025-08-26 03:38:41.723140"
+latest: "1.3.1--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/fastga"
 aliases:
  - "ALNchain"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.2--h577a1d6_0"
  - "1.3--h577a1d6_0"
+ - "1.3.1--h577a1d6_0"
 description: "singularity registry hpc automated addition for fastga"
-config: {"url": "https://biocontainers.pro/tools/fastga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastga", "latest": {"1.3--h577a1d6_0": "sha256:c247b19349772a19761f3685775ecd1d62735efc695fb33a5f30766b39e5f1a7"}, "tags": {"1.2--h577a1d6_0": "sha256:9eef8900d79e2f94505fe54e888152adc5289f7fdbe5862b6e19879e19628fd0", "1.3--h577a1d6_0": "sha256:c247b19349772a19761f3685775ecd1d62735efc695fb33a5f30766b39e5f1a7"}, "docker": "quay.io/biocontainers/fastga", "aliases": {"ALNchain": "/usr/local/bin/ALNchain", "ALNplot": "/usr/local/bin/ALNplot", "ALNreset": "/usr/local/bin/ALNreset", "ALNshow": "/usr/local/bin/ALNshow", "ALNtoPAF": "/usr/local/bin/ALNtoPAF", "ALNtoPSL": "/usr/local/bin/ALNtoPSL", "FAtoGDB": "/usr/local/bin/FAtoGDB", "FastGA": "/usr/local/bin/FastGA", "GDBshow": "/usr/local/bin/GDBshow", "GDBstat": "/usr/local/bin/GDBstat", "GDBtoFA": "/usr/local/bin/GDBtoFA", "GIXcp": "/usr/local/bin/GIXcp", "GIXmake": "/usr/local/bin/GIXmake", "GIXmv": "/usr/local/bin/GIXmv", "GIXrm": "/usr/local/bin/GIXrm", "GIXshow": "/usr/local/bin/GIXshow", "ONEview": "/usr/local/bin/ONEview", "PAFtoALN": "/usr/local/bin/PAFtoALN", "PAFtoPSL": "/usr/local/bin/PAFtoPSL"}}
+config: {"url": "https://biocontainers.pro/tools/fastga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastga", "latest": {"1.3.1--h577a1d6_0": "sha256:edb30189d52b3837896d73f9c7f7d4ddfa8b1ae325a6709293096aff90f2a11f"}, "tags": {"1.2--h577a1d6_0": "sha256:9eef8900d79e2f94505fe54e888152adc5289f7fdbe5862b6e19879e19628fd0", "1.3--h577a1d6_0": "sha256:c247b19349772a19761f3685775ecd1d62735efc695fb33a5f30766b39e5f1a7", "1.3.1--h577a1d6_0": "sha256:edb30189d52b3837896d73f9c7f7d4ddfa8b1ae325a6709293096aff90f2a11f"}, "docker": "quay.io/biocontainers/fastga", "aliases": {"ALNchain": "/usr/local/bin/ALNchain", "ALNplot": "/usr/local/bin/ALNplot", "ALNreset": "/usr/local/bin/ALNreset", "ALNshow": "/usr/local/bin/ALNshow", "ALNtoPAF": "/usr/local/bin/ALNtoPAF", "ALNtoPSL": "/usr/local/bin/ALNtoPSL", "FAtoGDB": "/usr/local/bin/FAtoGDB", "FastGA": "/usr/local/bin/FastGA", "GDBshow": "/usr/local/bin/GDBshow", "GDBstat": "/usr/local/bin/GDBstat", "GDBtoFA": "/usr/local/bin/GDBtoFA", "GIXcp": "/usr/local/bin/GIXcp", "GIXmake": "/usr/local/bin/GIXmake", "GIXmv": "/usr/local/bin/GIXmv", "GIXrm": "/usr/local/bin/GIXrm", "GIXshow": "/usr/local/bin/GIXshow", "ONEview": "/usr/local/bin/ONEview", "PAFtoALN": "/usr/local/bin/PAFtoALN", "PAFtoPSL": "/usr/local/bin/PAFtoPSL"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastga.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/fastga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastga:1.3--h577a1d6_0
+$ shpc install quay.io/biocontainers/fastga:1.3.1--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastga/1.3--h577a1d6_0
-$ module help quay.io/biocontainers/fastga/1.3--h577a1d6_0
+$ module load quay.io/biocontainers/fastga/1.3.1--h577a1d6_0
+$ module help quay.io/biocontainers/fastga/1.3.1--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

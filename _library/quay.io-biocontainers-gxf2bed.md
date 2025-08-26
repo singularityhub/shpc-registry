@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gxf2bed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxf2bed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxf2bed/container.yaml"
-updated_at: "2025-08-25 03:29:08.948343"
-latest: "0.2.6--ha6fb395_0"
+updated_at: "2025-08-26 03:22:51.629842"
+latest: "0.2.7--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/gxf2bed"
 aliases:
  - "gxf2bed"
@@ -18,8 +18,9 @@ versions:
  - "0.2.4--ha6fb395_0"
  - "0.2.5--ha6fb395_0"
  - "0.2.6--ha6fb395_0"
+ - "0.2.7--ha6fb395_0"
 description: "singularity registry hpc automated addition for gxf2bed"
-config: {"url": "https://biocontainers.pro/tools/gxf2bed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxf2bed", "latest": {"0.2.6--ha6fb395_0": "sha256:5a93b85a5950b4cb57adc863fff30ddef3e9fb5f78c30f0bc3837d1ab01660f5"}, "tags": {"0.1.0--h4ac6f70_0": "sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff", "0.2.0--h4ac6f70_0": "sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c", "0.2.1--h4ac6f70_0": "sha256:d9ef314567e4a3c104c44e28739c21cc889bd54289583948c20e203e3b79e3ae", "0.2.2--h4ac6f70_0": "sha256:61b5e9bfde210a5bf4998da0d398cb1e6a94097f3ec71ab963eef14e919cd328", "0.2.3--h919a2d8_1": "sha256:0ce89631945422564d9645a6ac2c07aba08809062fb73a95d53f1837a54ed5f0", "0.2.4--ha6fb395_0": "sha256:465417657ded316ecadb733f100b20ef8d583439e671d1484f9d651818cec9f5", "0.2.5--ha6fb395_0": "sha256:00d3715dbb530a7b8fc7e7593fda1676aa6f7fadc5a9f82ea3b722347d6fcd1a", "0.2.6--ha6fb395_0": "sha256:5a93b85a5950b4cb57adc863fff30ddef3e9fb5f78c30f0bc3837d1ab01660f5"}, "docker": "quay.io/biocontainers/gxf2bed", "aliases": {"gxf2bed": "/usr/local/bin/gxf2bed"}}
+config: {"url": "https://biocontainers.pro/tools/gxf2bed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxf2bed", "latest": {"0.2.7--ha6fb395_0": "sha256:65986fa9dccaa5369166c9c64dc9afc5b74ad472002c0405807732c301c1a472"}, "tags": {"0.1.0--h4ac6f70_0": "sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff", "0.2.0--h4ac6f70_0": "sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c", "0.2.1--h4ac6f70_0": "sha256:d9ef314567e4a3c104c44e28739c21cc889bd54289583948c20e203e3b79e3ae", "0.2.2--h4ac6f70_0": "sha256:61b5e9bfde210a5bf4998da0d398cb1e6a94097f3ec71ab963eef14e919cd328", "0.2.3--h919a2d8_1": "sha256:0ce89631945422564d9645a6ac2c07aba08809062fb73a95d53f1837a54ed5f0", "0.2.4--ha6fb395_0": "sha256:465417657ded316ecadb733f100b20ef8d583439e671d1484f9d651818cec9f5", "0.2.5--ha6fb395_0": "sha256:00d3715dbb530a7b8fc7e7593fda1676aa6f7fadc5a9f82ea3b722347d6fcd1a", "0.2.6--ha6fb395_0": "sha256:5a93b85a5950b4cb57adc863fff30ddef3e9fb5f78c30f0bc3837d1ab01660f5", "0.2.7--ha6fb395_0": "sha256:65986fa9dccaa5369166c9c64dc9afc5b74ad472002c0405807732c301c1a472"}, "docker": "quay.io/biocontainers/gxf2bed", "aliases": {"gxf2bed": "/usr/local/bin/gxf2bed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gxf2bed.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/gxf2bed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gxf2bed:0.2.6--ha6fb395_0
+$ shpc install quay.io/biocontainers/gxf2bed:0.2.7--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gxf2bed/0.2.6--ha6fb395_0
-$ module help quay.io/biocontainers/gxf2bed/0.2.6--ha6fb395_0
+$ module load quay.io/biocontainers/gxf2bed/0.2.7--ha6fb395_0
+$ module help quay.io/biocontainers/gxf2bed/0.2.7--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

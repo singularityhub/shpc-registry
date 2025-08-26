@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orfik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orfik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orfik/container.yaml"
-updated_at: "2025-08-25 03:58:50.750731"
+updated_at: "2025-08-26 03:53:29.341174"
 latest: "1.26.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orfik"
 aliases:

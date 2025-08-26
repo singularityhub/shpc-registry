@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-ipc-run"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ipc-run/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ipc-run/container.yaml"
-updated_at: "2025-08-25 03:39:54.167679"
-latest: "20200505.0--pl5321hdfd78af_0"
+updated_at: "2025-08-26 03:34:00.902757"
+latest: "20250809.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ipc-run"
 
 versions:
  - "20200505.0--pl5321hdfd78af_0"
+ - "20250809.0--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-ipc-run"
-config: {"url": "https://biocontainers.pro/tools/perl-ipc-run", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ipc-run", "latest": {"20200505.0--pl5321hdfd78af_0": "sha256:6c6e6fb061f995933b527f98afb56b0d8aa10cc0d517aa4cb554d49d2cc29958"}, "tags": {"20200505.0--pl5321hdfd78af_0": "sha256:6c6e6fb061f995933b527f98afb56b0d8aa10cc0d517aa4cb554d49d2cc29958"}, "docker": "quay.io/biocontainers/perl-ipc-run"}
+config: {"url": "https://biocontainers.pro/tools/perl-ipc-run", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ipc-run", "latest": {"20250809.0--pl5321hdfd78af_0": "sha256:fe781b81704637a723baa65f4aedeb4e1009d864dad9b828bbfaed6aeacb6ea9"}, "tags": {"20200505.0--pl5321hdfd78af_0": "sha256:6c6e6fb061f995933b527f98afb56b0d8aa10cc0d517aa4cb554d49d2cc29958", "20250809.0--pl5321hdfd78af_0": "sha256:fe781b81704637a723baa65f4aedeb4e1009d864dad9b828bbfaed6aeacb6ea9"}, "docker": "quay.io/biocontainers/perl-ipc-run"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-ipc-run.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-ipc-run
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-ipc-run:20200505.0--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-ipc-run:20250809.0--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-ipc-run/20200505.0--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-ipc-run/20200505.0--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-ipc-run/20250809.0--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-ipc-run/20250809.0--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

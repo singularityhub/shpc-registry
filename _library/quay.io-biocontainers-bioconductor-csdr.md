@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-csdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csdr/container.yaml"
-updated_at: "2025-08-25 03:20:47.801024"
+updated_at: "2025-08-26 03:14:24.213263"
 latest: "1.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csdr"
 

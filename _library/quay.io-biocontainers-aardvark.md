@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aardvark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aardvark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aardvark/container.yaml"
-updated_at: "2025-08-25 04:05:01.447542"
+updated_at: "2025-08-26 03:59:44.341846"
 latest: "0.7.4--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/aardvark"
 aliases:

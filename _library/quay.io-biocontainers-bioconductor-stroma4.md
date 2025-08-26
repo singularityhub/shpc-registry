@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stroma4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stroma4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stroma4/container.yaml"
-updated_at: "2025-08-25 03:36:37.374552"
+updated_at: "2025-08-26 03:30:34.780362"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stroma4"
 aliases:

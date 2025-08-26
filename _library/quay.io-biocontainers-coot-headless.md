@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coot-headless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coot-headless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coot-headless/container.yaml"
-updated_at: "2025-08-25 03:36:18.682535"
-latest: "1.1.17--py311he85460a_2"
+updated_at: "2025-08-26 03:30:15.136384"
+latest: "1.1.18--py39h0a7431f_0"
 container_url: "https://biocontainers.pro/tools/coot-headless"
 aliases:
  - "debuginfod"
@@ -57,8 +57,9 @@ aliases:
 versions:
  - "1.1.17--py310h5b8adf8_0"
  - "1.1.17--py311he85460a_2"
+ - "1.1.18--py39h0a7431f_0"
 description: "singularity registry hpc automated addition for coot-headless"
-config: {"url": "https://biocontainers.pro/tools/coot-headless", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coot-headless", "latest": {"1.1.17--py311he85460a_2": "sha256:14ba5a89b9888e5066dd30d4714343d976308572e8216d2fb6c007602619edb8"}, "tags": {"1.1.17--py310h5b8adf8_0": "sha256:9016d29c37cf7c494b1e636cfd45a90d3463f4df13be3efdd7e19127bbdf1aee", "1.1.17--py311he85460a_2": "sha256:14ba5a89b9888e5066dd30d4714343d976308572e8216d2fb6c007602619edb8"}, "docker": "quay.io/biocontainers/coot-headless", "aliases": {"debuginfod": "/usr/local/bin/debuginfod", "debuginfod-find": "/usr/local/bin/debuginfod-find", "eu-addr2line": "/usr/local/bin/eu-addr2line", "eu-ar": "/usr/local/bin/eu-ar", "eu-elfclassify": "/usr/local/bin/eu-elfclassify", "eu-elfcmp": "/usr/local/bin/eu-elfcmp", "eu-elfcompress": "/usr/local/bin/eu-elfcompress", "eu-elflint": "/usr/local/bin/eu-elflint", "eu-findtextrel": "/usr/local/bin/eu-findtextrel", "eu-make-debug-archive": "/usr/local/bin/eu-make-debug-archive", "eu-nm": "/usr/local/bin/eu-nm", "eu-objdump": "/usr/local/bin/eu-objdump", "eu-ranlib": "/usr/local/bin/eu-ranlib", "eu-readelf": "/usr/local/bin/eu-readelf", "eu-size": "/usr/local/bin/eu-size", "eu-srcfiles": "/usr/local/bin/eu-srcfiles", "eu-stack": "/usr/local/bin/eu-stack", "eu-strings": "/usr/local/bin/eu-strings", "eu-strip": "/usr/local/bin/eu-strip", "eu-unstrip": "/usr/local/bin/eu-unstrip", "gemmi": "/usr/local/bin/gemmi", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "bsdunzip": "/usr/local/bin/bsdunzip", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
+config: {"url": "https://biocontainers.pro/tools/coot-headless", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coot-headless", "latest": {"1.1.18--py39h0a7431f_0": "sha256:8f3f49fee062a3f94d576c3b125a15b904b776afee54c0d99a0a42ffd5305710"}, "tags": {"1.1.17--py310h5b8adf8_0": "sha256:9016d29c37cf7c494b1e636cfd45a90d3463f4df13be3efdd7e19127bbdf1aee", "1.1.17--py311he85460a_2": "sha256:14ba5a89b9888e5066dd30d4714343d976308572e8216d2fb6c007602619edb8", "1.1.18--py39h0a7431f_0": "sha256:8f3f49fee062a3f94d576c3b125a15b904b776afee54c0d99a0a42ffd5305710"}, "docker": "quay.io/biocontainers/coot-headless", "aliases": {"debuginfod": "/usr/local/bin/debuginfod", "debuginfod-find": "/usr/local/bin/debuginfod-find", "eu-addr2line": "/usr/local/bin/eu-addr2line", "eu-ar": "/usr/local/bin/eu-ar", "eu-elfclassify": "/usr/local/bin/eu-elfclassify", "eu-elfcmp": "/usr/local/bin/eu-elfcmp", "eu-elfcompress": "/usr/local/bin/eu-elfcompress", "eu-elflint": "/usr/local/bin/eu-elflint", "eu-findtextrel": "/usr/local/bin/eu-findtextrel", "eu-make-debug-archive": "/usr/local/bin/eu-make-debug-archive", "eu-nm": "/usr/local/bin/eu-nm", "eu-objdump": "/usr/local/bin/eu-objdump", "eu-ranlib": "/usr/local/bin/eu-ranlib", "eu-readelf": "/usr/local/bin/eu-readelf", "eu-size": "/usr/local/bin/eu-size", "eu-srcfiles": "/usr/local/bin/eu-srcfiles", "eu-stack": "/usr/local/bin/eu-stack", "eu-strings": "/usr/local/bin/eu-strings", "eu-strip": "/usr/local/bin/eu-strip", "eu-unstrip": "/usr/local/bin/eu-unstrip", "gemmi": "/usr/local/bin/gemmi", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "bsdunzip": "/usr/local/bin/bsdunzip", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coot-headless.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/coot-headless
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coot-headless:1.1.17--py311he85460a_2
+$ shpc install quay.io/biocontainers/coot-headless:1.1.18--py39h0a7431f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coot-headless/1.1.17--py311he85460a_2
-$ module help quay.io/biocontainers/coot-headless/1.1.17--py311he85460a_2
+$ module load quay.io/biocontainers/coot-headless/1.1.18--py39h0a7431f_0
+$ module help quay.io/biocontainers/coot-headless/1.1.18--py39h0a7431f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

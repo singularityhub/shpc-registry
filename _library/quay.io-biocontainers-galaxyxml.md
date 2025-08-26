@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxyxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxyxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxyxml/container.yaml"
-updated_at: "2025-08-25 03:53:50.238815"
-latest: "0.5.4--pyh7e72e81_0"
+updated_at: "2025-08-26 03:48:27.416386"
+latest: "0.5.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/galaxyxml"
 aliases:
  - "futurize"
@@ -22,8 +22,9 @@ versions:
  - "0.4.14--pyh5e36f6f_0"
  - "0.5.3--pyh7cba7a3_0"
  - "0.5.4--pyh7e72e81_0"
+ - "0.5.5--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for galaxyxml"
-config: {"url": "https://biocontainers.pro/tools/galaxyxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxyxml", "latest": {"0.5.4--pyh7e72e81_0": "sha256:989d703aa7e2d85de0a0134eb2297654a156964e166c510f9c240b1a1e004a59"}, "tags": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452", "0.4.14--pyh5e36f6f_0": "sha256:ba6924ce90aaddf0ea8405f6a92fc8a25150ccc3f4a1ea694e6c39f5f95f2ab4", "0.5.3--pyh7cba7a3_0": "sha256:9c0930a4c51d040372d3f722c77bef0b300281608988a337f9a9e78e1d8bc11e", "0.5.4--pyh7e72e81_0": "sha256:989d703aa7e2d85de0a0134eb2297654a156964e166c510f9c240b1a1e004a59"}, "docker": "quay.io/biocontainers/galaxyxml", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/galaxyxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxyxml", "latest": {"0.5.5--pyh7e72e81_0": "sha256:0334f5a5f3f287a26ad40492856031d89b024ae19a9bf4418a2489bfbb270be8"}, "tags": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452", "0.4.14--pyh5e36f6f_0": "sha256:ba6924ce90aaddf0ea8405f6a92fc8a25150ccc3f4a1ea694e6c39f5f95f2ab4", "0.5.3--pyh7cba7a3_0": "sha256:9c0930a4c51d040372d3f722c77bef0b300281608988a337f9a9e78e1d8bc11e", "0.5.4--pyh7e72e81_0": "sha256:989d703aa7e2d85de0a0134eb2297654a156964e166c510f9c240b1a1e004a59", "0.5.5--pyh7e72e81_0": "sha256:0334f5a5f3f287a26ad40492856031d89b024ae19a9bf4418a2489bfbb270be8"}, "docker": "quay.io/biocontainers/galaxyxml", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxyxml.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/galaxyxml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxyxml:0.5.4--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/galaxyxml:0.5.5--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxyxml/0.5.4--pyh7e72e81_0
-$ module help quay.io/biocontainers/galaxyxml/0.5.4--pyh7e72e81_0
+$ module load quay.io/biocontainers/galaxyxml/0.5.5--pyh7e72e81_0
+$ module help quay.io/biocontainers/galaxyxml/0.5.5--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
