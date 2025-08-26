@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/esme_psmpi_5_12_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esme_psmpi_5_12_1
+latest:
+  1.0.2--psmpi__h90a7f1b_0: 
+    sha256:031dda342773d5a9fb721dfa96d6cbb2e721c6fd5fc6e68ced32d7631b632a22
+tags:
+  1.0.2--psmpi__h90a7f1b_0: 
+    sha256:031dda342773d5a9fb721dfa96d6cbb2e721c6fd5fc6e68ced32d7631b632a22
+docker: quay.io/biocontainers/esme_psmpi_5_12_1
+aliases:
+  fido2-assert: /usr/local/bin/fido2-assert
+  fido2-cred: /usr/local/bin/fido2-cred
+  fido2-token: /usr/local/bin/fido2-token
+  pcc: /usr/local/bin/pcc
+  prte-info: /usr/local/bin/prte-info
+  prte-submit: /usr/local/bin/prte-submit
+  prte-term: /usr/local/bin/prte-term
+  scp: /usr/local/bin/scp
+  sftp: /usr/local/bin/sftp
+  ssh: /usr/local/bin/ssh
+  ssh-add: /usr/local/bin/ssh-add
+  ssh-agent: /usr/local/bin/ssh-agent
+  ssh-keygen: /usr/local/bin/ssh-keygen
+  ssh-keyscan: /usr/local/bin/ssh-keyscan
+  sshd: /usr/local/bin/sshd
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  prun: /usr/local/bin/prun
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  gost12-256-hash: /usr/local/bin/gost12-256-hash
+  gost12-512-hash: /usr/local/bin/gost12-512-hash
+  edonr256-hash: /usr/local/bin/edonr256-hash
+  edonr512-hash: /usr/local/bin/edonr512-hash
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  ed2k-link: /usr/local/bin/ed2k-link
+  has160-hash: /usr/local/bin/has160-hash
+  magnet-link: /usr/local/bin/magnet-link
+  rhash: /usr/local/bin/rhash

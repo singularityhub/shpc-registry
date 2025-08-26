@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/cactus-gfa-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cactus-gfa-tools
+latest:
+  0.1--h9948957_0: 
+    sha256:6fafebd3c38f4a45ea0f8427f9056fa9ce1a6e9bc96969cf76628381ba0dd0e9
+tags:
+  0.1--h9948957_0: 
+    sha256:6fafebd3c38f4a45ea0f8427f9056fa9ce1a6e9bc96969cf76628381ba0dd0e9
+docker: quay.io/biocontainers/cactus-gfa-tools
+aliases:
+  faprefix.sh: /usr/local/bin/faprefix.sh
+  gaf2paf: /usr/local/bin/gaf2paf
+  gaf2unstable: /usr/local/bin/gaf2unstable
+  gaffilter: /usr/local/bin/gaffilter
+  mzgaf2paf: /usr/local/bin/mzgaf2paf
+  paf2lastz: /usr/local/bin/paf2lastz
+  paf2stable: /usr/local/bin/paf2stable
+  pafcoverage: /usr/local/bin/pafcoverage
+  pafmask: /usr/local/bin/pafmask
+  rgfa-split: /usr/local/bin/rgfa-split
+  rgfa2paf: /usr/local/bin/rgfa2paf

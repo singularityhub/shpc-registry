@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/esme_omb_psmpi_5_12_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_omb_psmpi_5_12_1
+latest:
+  7.5.1--hcc2a5ad_0: 
+    sha256:9e8d077dec001629e03097a0bc79be0137963214fc9e8d8f51dc96212a30d4b2
+tags:
+  7.5.1--hcc2a5ad_0: 
+    sha256:9e8d077dec001629e03097a0bc79be0137963214fc9e8d8f51dc96212a30d4b2
+docker: quay.io/biocontainers/esme_omb_psmpi_5_12_1
+aliases:
+  fido2-assert: /usr/local/bin/fido2-assert
+  fido2-cred: /usr/local/bin/fido2-cred
+  fido2-token: /usr/local/bin/fido2-token
+  pcc: /usr/local/bin/pcc
+  prte-info: /usr/local/bin/prte-info
+  prte-submit: /usr/local/bin/prte-submit
+  prte-term: /usr/local/bin/prte-term
+  scp: /usr/local/bin/scp
+  sftp: /usr/local/bin/sftp
+  ssh: /usr/local/bin/ssh
+  ssh-add: /usr/local/bin/ssh-add
+  ssh-agent: /usr/local/bin/ssh-agent
+  ssh-keygen: /usr/local/bin/ssh-keygen
+  ssh-keyscan: /usr/local/bin/ssh-keyscan
+  sshd: /usr/local/bin/sshd
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  prun: /usr/local/bin/prun
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete

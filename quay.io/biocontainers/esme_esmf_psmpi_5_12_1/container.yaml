@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/esme_esmf_psmpi_5_12_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_esmf_psmpi_5_12_1
+latest:
+  8.9.0--h499a0f0_0: 
+    sha256:f5e38d4db531abbbecbef41326ac2e702c06f19297644423d496a1c3ef4177dc
+tags:
+  8.9.0--h499a0f0_0: 
+    sha256:f5e38d4db531abbbecbef41326ac2e702c06f19297644423d496a1c3ef4177dc
+docker: quay.io/biocontainers/esme_esmf_psmpi_5_12_1
+aliases:
+  fido2-assert: /usr/local/bin/fido2-assert
+  fido2-cred: /usr/local/bin/fido2-cred
+  fido2-token: /usr/local/bin/fido2-token
+  pcc: /usr/local/bin/pcc
+  prte-info: /usr/local/bin/prte-info
+  prte-submit: /usr/local/bin/prte-submit
+  prte-term: /usr/local/bin/prte-term
+  scp: /usr/local/bin/scp
+  sftp: /usr/local/bin/sftp
+  ssh: /usr/local/bin/ssh
+  ssh-add: /usr/local/bin/ssh-add
+  ssh-agent: /usr/local/bin/ssh-agent
+  ssh-keygen: /usr/local/bin/ssh-keygen
+  ssh-keyscan: /usr/local/bin/ssh-keyscan
+  sshd: /usr/local/bin/sshd
+  prte: /usr/local/bin/prte
+  prte_info: /usr/local/bin/prte_info
+  prted: /usr/local/bin/prted
+  prterun: /usr/local/bin/prterun
+  pterm: /usr/local/bin/pterm
+  prun: /usr/local/bin/prun
+  ESMF_PrintInfo: /usr/local/bin/ESMF_PrintInfo
+  ESMF_PrintInfoC: /usr/local/bin/ESMF_PrintInfoC
+  ESMF_Regrid: /usr/local/bin/ESMF_Regrid
+  ESMF_RegridWeightGen: /usr/local/bin/ESMF_RegridWeightGen
+  ESMF_Scrip2Unstruct: /usr/local/bin/ESMF_Scrip2Unstruct
+  ESMF_WebServController: /usr/local/bin/ESMF_WebServController
+  ESMX_Builder: /usr/local/bin/ESMX_Builder
+  nc4print: /usr/local/bin/nc4print
+  ocprint: /usr/local/bin/ocprint
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  setfacl: /usr/local/bin/setfacl
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
