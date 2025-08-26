@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/autocycler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for autocycler
 latest:
-  0.5.0--h3ab6199_0: 
-    sha256:ae29391c61b493ed26d4bfd867a7039b2da980444f470ef46e7f5477b037ba6e
+  0.5.2--h3ab6199_0: 
+    sha256:58e79c1610e1208b43723c894506bcc30d5ba7e53ae2e5416878b7a39041405c
 tags:
   0.2.1--h3ab6199_0: 
     sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729
@@ -13,6 +13,8 @@ tags:
     sha256:229a995a856ad394f4b37c3fd3665e43f94414419c107ccf3ea3cbf44eb6b5e9
   0.5.0--h3ab6199_0: 
     sha256:ae29391c61b493ed26d4bfd867a7039b2da980444f470ef46e7f5477b037ba6e
+  0.5.2--h3ab6199_0: 
+    sha256:58e79c1610e1208b43723c894506bcc30d5ba7e53ae2e5416878b7a39041405c
 docker: quay.io/biocontainers/autocycler
 aliases:
   autocycler: /usr/local/bin/autocycler

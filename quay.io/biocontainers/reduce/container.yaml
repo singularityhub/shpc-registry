@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/reduce
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reduce
 latest:
-  4.15--py311he264feb_2: 
-    sha256:b20f0d3aaba1bf55191db4af7dbffeae7a15fde91785f1e7c5850d3f68dd8b82
+  4.15--py311he264feb_3: 
+    sha256:9f650daee99e852d9207bcff9ea5999f02e7ea4cbd83d63ff4ad4c034f35849e
 tags:
   4.14--py310hb119401_1: 
     sha256:54116c6a44bc4a606d9505f2eeaa79cd2b7cff861bad0e656005b50633443bb0
@@ -15,6 +15,8 @@ tags:
     sha256:f030c61d8b8967c2dfc296dd9afe4037b30cf81ef2531127be7298e8a78425cd
   4.15--py311he264feb_2: 
     sha256:b20f0d3aaba1bf55191db4af7dbffeae7a15fde91785f1e7c5850d3f68dd8b82
+  4.15--py311he264feb_3: 
+    sha256:9f650daee99e852d9207bcff9ea5999f02e7ea4cbd83d63ff4ad4c034f35849e
 docker: quay.io/biocontainers/reduce
 aliases:
   reduce: /usr/local/bin/reduce

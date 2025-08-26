@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-xxx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-xxx
 latest:
-  0.35--pl5321hdfd78af_1: 
-    sha256:2b4ad8cd1c713d4cc8b1a7dfb5d8a9c09904552565e954fa139ebe1cc5771e91
+  0.38--pl5321hdfd78af_0: 
+    sha256:004875d85de476e48e164accc84238649eea423d8b5fc342cff63d574dde5ebd
 tags:
   0.35--pl5321hdfd78af_1: 
     sha256:2b4ad8cd1c713d4cc8b1a7dfb5d8a9c09904552565e954fa139ebe1cc5771e91
+  0.38--pl5321hdfd78af_0: 
+    sha256:004875d85de476e48e164accc84238649eea423d8b5fc342cff63d574dde5ebd
 docker: quay.io/biocontainers/perl-xxx
 aliases:
   yamlpp5-events: /usr/local/bin/yamlpp5-events

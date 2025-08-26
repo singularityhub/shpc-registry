@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-mailtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-mailtools
 latest:
-  2.21--pl5321hdfd78af_1: 
-    sha256:cfaf3ffb7de0693322e6bd85fe1b8650b7855dec3e20fa4f7e03036a36df279a
+  2.22--pl5321hdfd78af_0: 
+    sha256:cfaea3388a2f0fffddc93f65ca64a65fbebe632c2f767fb91de78c8ade3a9dfa
 tags:
   2.21--pl5321hdfd78af_1: 
     sha256:cfaf3ffb7de0693322e6bd85fe1b8650b7855dec3e20fa4f7e03036a36df279a
+  2.22--pl5321hdfd78af_0: 
+    sha256:cfaea3388a2f0fffddc93f65ca64a65fbebe632c2f767fb91de78c8ade3a9dfa
 docker: quay.io/biocontainers/perl-mailtools
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

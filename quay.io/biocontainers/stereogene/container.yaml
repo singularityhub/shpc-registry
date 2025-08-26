@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/stereogene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stereogene
 latest:
-  2.20--h503566f_7: 
-    sha256:a84c897d26e4e7ddae9ed97986d950d29750269344b7ffa4ec35f15a27ce4753
+  2.20--h503566f_8: 
+    sha256:f6fc4d0ce765a112f6d9952a003e811238379967f067ad666d0b0651a8af7b1a
 tags:
   2.20--h87f3376_4: 
     sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773
@@ -11,6 +11,8 @@ tags:
     sha256:67c21ec2810635fde7d7fa048b7b6df4caf39de7592c600e0e8da4e1499d6bf8
   2.20--h503566f_7: 
     sha256:a84c897d26e4e7ddae9ed97986d950d29750269344b7ffa4ec35f15a27ce4753
+  2.20--h503566f_8: 
+    sha256:f6fc4d0ce765a112f6d9952a003e811238379967f067ad666d0b0651a8af7b1a
 docker: quay.io/biocontainers/stereogene
 aliases:
   Binner: /usr/local/bin/Binner
