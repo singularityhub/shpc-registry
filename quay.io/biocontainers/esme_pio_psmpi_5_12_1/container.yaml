@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/esme_pio_psmpi_5_12_1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_pio_psmpi_5_12_1
+latest:
+  2.6.6--hb2a3317_0: 
+    sha256:8bca4b7b0a03640c045af950110af44cf28d5d2a50fbc3244203aa679f46a090
+tags:
+  2.6.6--hb2a3317_0: 
+    sha256:8bca4b7b0a03640c045af950110af44cf28d5d2a50fbc3244203aa679f46a090
+docker: quay.io/biocontainers/esme_pio_psmpi_5_12_1

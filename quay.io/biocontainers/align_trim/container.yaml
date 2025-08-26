@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/align_trim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for align_trim
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3
+docker: quay.io/biocontainers/align_trim
+aliases:
+  align_trim: /usr/local/bin/align_trim
+  primalbedtools: /usr/local/bin/primalbedtools
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
