@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/accusnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/accusnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/accusnv/container.yaml"
-updated_at: "2025-08-26 03:50:52.961107"
-latest: "1.0.0.3--pyhdfd78af_0"
+updated_at: "2025-08-27 03:42:58.022087"
+latest: "1.0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/accusnv"
 aliases:
  - "accusnv"
@@ -44,8 +44,9 @@ aliases:
  - "move"
 versions:
  - "1.0.0.3--pyhdfd78af_0"
+ - "1.0.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for accusnv"
-config: {"url": "https://biocontainers.pro/tools/accusnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for accusnv", "latest": {"1.0.0.3--pyhdfd78af_0": "sha256:1a3e82f198e4ad82616542dee1cbeea4767431ad6e3bd3b558cc9666f06ef793"}, "tags": {"1.0.0.3--pyhdfd78af_0": "sha256:1a3e82f198e4ad82616542dee1cbeea4767431ad6e3bd3b558cc9666f06ef793"}, "docker": "quay.io/biocontainers/accusnv", "aliases": {"accusnv": "/usr/local/bin/accusnv", "accusnv_downstream": "/usr/local/bin/accusnv_downstream", "accusnv_snakemake": "/usr/local/bin/accusnv_snakemake", "gff2gff": "/usr/local/bin/gff2gff", "phc": "/usr/local/bin/phc", "ref-cache": "/usr/local/bin/ref-cache", "roh-viz": "/usr/local/bin/roh-viz", "sickle": "/usr/local/bin/sickle", "vrfs-variances": "/usr/local/bin/vrfs-variances", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move"}}
+config: {"url": "https://biocontainers.pro/tools/accusnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for accusnv", "latest": {"1.0.0.5--pyhdfd78af_0": "sha256:c1637f6c3788efcc708eba6f95fd8129b62110627bc028d3da896efee1cbee72"}, "tags": {"1.0.0.3--pyhdfd78af_0": "sha256:1a3e82f198e4ad82616542dee1cbeea4767431ad6e3bd3b558cc9666f06ef793", "1.0.0.5--pyhdfd78af_0": "sha256:c1637f6c3788efcc708eba6f95fd8129b62110627bc028d3da896efee1cbee72"}, "docker": "quay.io/biocontainers/accusnv", "aliases": {"accusnv": "/usr/local/bin/accusnv", "accusnv_downstream": "/usr/local/bin/accusnv_downstream", "accusnv_snakemake": "/usr/local/bin/accusnv_snakemake", "gff2gff": "/usr/local/bin/gff2gff", "phc": "/usr/local/bin/phc", "ref-cache": "/usr/local/bin/ref-cache", "roh-viz": "/usr/local/bin/roh-viz", "sickle": "/usr/local/bin/sickle", "vrfs-variances": "/usr/local/bin/vrfs-variances", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/accusnv.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/accusnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/accusnv:1.0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/accusnv:1.0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/accusnv/1.0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/accusnv/1.0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/accusnv/1.0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/accusnv/1.0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneoverlap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneoverlap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneoverlap/container.yaml"
-updated_at: "2025-08-26 03:13:27.721407"
+updated_at: "2025-08-27 03:06:27.706658"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneoverlap"
 

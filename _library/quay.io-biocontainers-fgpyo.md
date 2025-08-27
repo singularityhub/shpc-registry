@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgpyo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgpyo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgpyo/container.yaml"
-updated_at: "2025-08-26 03:55:16.569065"
-latest: "1.2.0--pyhdfd78af_1"
+updated_at: "2025-08-27 03:47:18.124666"
+latest: "1.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fgpyo"
 aliases:
  - "2to3-3.10"
@@ -34,8 +34,9 @@ versions:
  - "1.0.0--pyhdfd78af_1"
  - "1.2.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_1"
+ - "1.3.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for fgpyo"
-config: {"url": "https://biocontainers.pro/tools/fgpyo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgpyo", "latest": {"1.2.0--pyhdfd78af_1": "sha256:36e197ac670e0c62beef36219ecd62227205d2e7b0e3c6401cd8f2d1f384d3fc"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:84a3d6c8bb8b341403007ed54edf11d218aabadc777a27b7eccb1741d29b05cb", "0.0.6--pyhdfd78af_0": "sha256:1e4d36c00d27f78bfea912b4e05dd808da3a4be0b8f45018884d0551eeadb4a6", "0.0.7--pyhdfd78af_0": "sha256:28b830ca50a804ffbbcec4f6044aee7aa1bd7dd463538dc662548efb9a7b5938", "0.0.8--pyhdfd78af_0": "sha256:dc6626ee0cd133440c0cbfc005258e479008c71320e6f0142c9f390fc8f488cc", "0.1.0--pyhdfd78af_0": "sha256:44a6ede8d1aab2d130e40cb605588bf2c9046297f125d05757c66d9e5a51b8da", "0.1.2--pyhdfd78af_0": "sha256:d0eac5044dafe692f381420a4caf62d2a540e806bcaa08800ec281094d4f1743", "0.1.3--pyhdfd78af_0": "sha256:75d579cdaab75ecdda1221b8eb7a0ec179700ede9ce601e4331af3110af7358d", "0.2.0--pyhdfd78af_0": "sha256:95df4844ed3b62cd2ebf1c3afe2373d91bd738dcca7a224a46eb75a9a4eedd25", "0.3.0--pyhdfd78af_0": "sha256:2d4555f752543186f49251963c09517c17550cd6cf12138eb63494c2ef5a420b", "0.4.0--pyhdfd78af_0": "sha256:e61fa349924a29597dfee46f4b9235a6ef0f75cdf55ee6b19564d88f34a99b91", "0.7.1--pyhdfd78af_0": "sha256:502a87af5e81d322e3465980539da7d08a7390cad1b17f43c8043b56a2809086", "0.6.0--pyhdfd78af_0": "sha256:1e336b72cf0b843117471c8a6a03a074e1ddc18400280c98495777139268f0da", "0.5.0--pyhdfd78af_0": "sha256:1c35e0316904fc6d62886e7ed06b44d68ab58dfdd50cf8efa955b885b3f4aaeb", "0.8.0--pyhdfd78af_0": "sha256:e05e6f254712f840afd86352912526ea0f8049114599163008c9a4ceed45338f", "1.0.0--pyhdfd78af_0": "sha256:11cfea604fe76dfe13acd8daa06856273ab89fc16364ef154df4267d1eeafd2a", "1.1.0--pyhdfd78af_0": "sha256:0523b396378f77713eee991ba74419a1c2f0cc9cf66fbea3a34f2be21c8c5629", "1.0.0--pyhdfd78af_1": "sha256:04a7f43f066158f49b0ee5863befac967d0e76a4bbcdb76fff469a0955e9ebdb", "1.2.0--pyhdfd78af_0": "sha256:5c12a413ee81e8f64ef83608984bda74d9ac5ac6c1c95d76d7e85f67fdebade9", "1.2.0--pyhdfd78af_1": "sha256:36e197ac670e0c62beef36219ecd62227205d2e7b0e3c6401cd8f2d1f384d3fc"}, "docker": "quay.io/biocontainers/fgpyo", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/fgpyo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgpyo", "latest": {"1.3.0--pyhdfd78af_1": "sha256:610f26c5a7d9423dc1c981cb3d88f504df7f992642a0089e42f1b962e18727b5"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:84a3d6c8bb8b341403007ed54edf11d218aabadc777a27b7eccb1741d29b05cb", "0.0.6--pyhdfd78af_0": "sha256:1e4d36c00d27f78bfea912b4e05dd808da3a4be0b8f45018884d0551eeadb4a6", "0.0.7--pyhdfd78af_0": "sha256:28b830ca50a804ffbbcec4f6044aee7aa1bd7dd463538dc662548efb9a7b5938", "0.0.8--pyhdfd78af_0": "sha256:dc6626ee0cd133440c0cbfc005258e479008c71320e6f0142c9f390fc8f488cc", "0.1.0--pyhdfd78af_0": "sha256:44a6ede8d1aab2d130e40cb605588bf2c9046297f125d05757c66d9e5a51b8da", "0.1.2--pyhdfd78af_0": "sha256:d0eac5044dafe692f381420a4caf62d2a540e806bcaa08800ec281094d4f1743", "0.1.3--pyhdfd78af_0": "sha256:75d579cdaab75ecdda1221b8eb7a0ec179700ede9ce601e4331af3110af7358d", "0.2.0--pyhdfd78af_0": "sha256:95df4844ed3b62cd2ebf1c3afe2373d91bd738dcca7a224a46eb75a9a4eedd25", "0.3.0--pyhdfd78af_0": "sha256:2d4555f752543186f49251963c09517c17550cd6cf12138eb63494c2ef5a420b", "0.4.0--pyhdfd78af_0": "sha256:e61fa349924a29597dfee46f4b9235a6ef0f75cdf55ee6b19564d88f34a99b91", "0.7.1--pyhdfd78af_0": "sha256:502a87af5e81d322e3465980539da7d08a7390cad1b17f43c8043b56a2809086", "0.6.0--pyhdfd78af_0": "sha256:1e336b72cf0b843117471c8a6a03a074e1ddc18400280c98495777139268f0da", "0.5.0--pyhdfd78af_0": "sha256:1c35e0316904fc6d62886e7ed06b44d68ab58dfdd50cf8efa955b885b3f4aaeb", "0.8.0--pyhdfd78af_0": "sha256:e05e6f254712f840afd86352912526ea0f8049114599163008c9a4ceed45338f", "1.0.0--pyhdfd78af_0": "sha256:11cfea604fe76dfe13acd8daa06856273ab89fc16364ef154df4267d1eeafd2a", "1.1.0--pyhdfd78af_0": "sha256:0523b396378f77713eee991ba74419a1c2f0cc9cf66fbea3a34f2be21c8c5629", "1.0.0--pyhdfd78af_1": "sha256:04a7f43f066158f49b0ee5863befac967d0e76a4bbcdb76fff469a0955e9ebdb", "1.2.0--pyhdfd78af_0": "sha256:5c12a413ee81e8f64ef83608984bda74d9ac5ac6c1c95d76d7e85f67fdebade9", "1.2.0--pyhdfd78af_1": "sha256:36e197ac670e0c62beef36219ecd62227205d2e7b0e3c6401cd8f2d1f384d3fc", "1.3.0--pyhdfd78af_1": "sha256:610f26c5a7d9423dc1c981cb3d88f504df7f992642a0089e42f1b962e18727b5"}, "docker": "quay.io/biocontainers/fgpyo", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgpyo.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/fgpyo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgpyo:1.2.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/fgpyo:1.3.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgpyo/1.2.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/fgpyo/1.2.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/fgpyo/1.3.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/fgpyo/1.3.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

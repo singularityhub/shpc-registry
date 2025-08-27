@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/influx-si-data-manager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
-updated_at: "2025-08-26 03:32:07.978608"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2025-08-27 03:24:47.694917"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/influx-si-data-manager"
 aliases:
  - "influx_si_data_manager"
@@ -20,8 +20,9 @@ versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for influx-si-data-manager"
-config: {"url": "https://biocontainers.pro/tools/influx-si-data-manager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for influx-si-data-manager", "latest": {"1.1.0--pyhdfd78af_0": "sha256:559a505eafc6510e676abe8e3c4fe33233d290e1fd75e44aece2f507db4a5b2a"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3", "1.0.0--pyhdfd78af_0": "sha256:9fc7dff24f6a41a7be93eb882abcb3ef7e41dcff19a9f5f34fd939ce493e133c", "1.0.2--pyhdfd78af_0": "sha256:a298fbddb5f328f986ef2ce801db60867518a9ad3d761b8144ef6a1e8e71ff15", "1.0.3--pyhdfd78af_0": "sha256:98df8b7e7e0a29823beedc41d3242c30a99da178a215731eafdc2e9e88dcfe35", "1.1.0--pyhdfd78af_0": "sha256:559a505eafc6510e676abe8e3c4fe33233d290e1fd75e44aece2f507db4a5b2a"}, "docker": "quay.io/biocontainers/influx-si-data-manager", "aliases": {"influx_si_data_manager": "/usr/local/bin/influx_si_data_manager", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/influx-si-data-manager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for influx-si-data-manager", "latest": {"1.1.1--pyhdfd78af_0": "sha256:9b141e9a50e716ee11bd4bdfff6a9e73346ee51c30d802309a714446ae0dac4f"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3", "1.0.0--pyhdfd78af_0": "sha256:9fc7dff24f6a41a7be93eb882abcb3ef7e41dcff19a9f5f34fd939ce493e133c", "1.0.2--pyhdfd78af_0": "sha256:a298fbddb5f328f986ef2ce801db60867518a9ad3d761b8144ef6a1e8e71ff15", "1.0.3--pyhdfd78af_0": "sha256:98df8b7e7e0a29823beedc41d3242c30a99da178a215731eafdc2e9e88dcfe35", "1.1.0--pyhdfd78af_0": "sha256:559a505eafc6510e676abe8e3c4fe33233d290e1fd75e44aece2f507db4a5b2a", "1.1.1--pyhdfd78af_0": "sha256:9b141e9a50e716ee11bd4bdfff6a9e73346ee51c30d802309a714446ae0dac4f"}, "docker": "quay.io/biocontainers/influx-si-data-manager", "aliases": {"influx_si_data_manager": "/usr/local/bin/influx_si_data_manager", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/influx-si-data-manager.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/influx-si-data-manager
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/influx-si-data-manager:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/influx-si-data-manager:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/influx-si-data-manager/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/influx-si-data-manager/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/influx-si-data-manager/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/influx-si-data-manager/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

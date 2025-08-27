@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pm4ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pm4ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pm4ngs/container.yaml"
-updated_at: "2025-08-26 03:45:44.871903"
+updated_at: "2025-08-27 03:37:54.363170"
 latest: "0.0.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pm4ngs"
 aliases:

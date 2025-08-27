@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sigqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigqc/container.yaml"
-updated_at: "2025-08-26 03:36:51.432924"
+updated_at: "2025-08-27 03:29:21.260891"
 latest: "0.1.24--r44h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-sigqc"
 aliases:

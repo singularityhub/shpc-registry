@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yahs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yahs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yahs/container.yaml"
-updated_at: "2025-08-26 03:59:06.432135"
+updated_at: "2025-08-27 03:51:05.507470"
 latest: "1.2a.2--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/yahs"
 aliases:

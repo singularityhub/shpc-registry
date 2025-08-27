@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spagrn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spagrn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spagrn/container.yaml"
-updated_at: "2025-08-26 03:23:17.123028"
+updated_at: "2025-08-27 03:16:09.364880"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spagrn"
 aliases:
