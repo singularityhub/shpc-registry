@@ -5,10 +5,10 @@ description: Tools for working with genomic variation graphs.
   https://github.com/vgteam/vg
 latest:
   latest: 
-    sha256:7cffb002bcddd6a12d994477f9842e0abe096c9b8d3b64166f42397550d0fb5c
+    sha256:fb3fe73e4c67ea37eb29ed95815238068d0d7a333275e64cdf2991b09760052c
 tags:
   latest: 
-    sha256:7cffb002bcddd6a12d994477f9842e0abe096c9b8d3b64166f42397550d0fb5c
+    sha256:fb3fe73e4c67ea37eb29ed95815238068d0d7a333275e64cdf2991b09760052c
 filter:
 - latest
 aliases:

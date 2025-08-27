@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fastani
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastani
 latest:
-  1.34--hb66fcc3_6: 
-    sha256:71c96f0deeba5cb88e960ab769ac20f3c59e29bbc0d995366aac0ec47308077d
+  1.34--hb66fcc3_7: 
+    sha256:0723121d8154f7e4917304142824d12bff93494d2b2ed4ab072d51eccf6c8494
 tags:
   1.33--h0fdf51a_1: 
     sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe
@@ -23,6 +23,8 @@ tags:
     sha256:1aa6615be04dedd4907a7bbce2b57938a42d5f94913b068c31cbcfd437e1130b
   1.34--hb66fcc3_6: 
     sha256:71c96f0deeba5cb88e960ab769ac20f3c59e29bbc0d995366aac0ec47308077d
+  1.34--hb66fcc3_7: 
+    sha256:0723121d8154f7e4917304142824d12bff93494d2b2ed4ab072d51eccf6c8494
 docker: quay.io/biocontainers/fastani
 aliases:
   fastANI: /usr/local/bin/fastANI

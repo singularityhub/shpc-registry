@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/homopolish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for homopolish
 latest:
-  0.4.1--pyhdfd78af_1: 
-    sha256:e30f915041bd1cc4712b95754a533a07f6f16833274652d4beb662ddc4e9bcf6
+  0.4.2--pyhdfd78af_0: 
+    sha256:d4a6282bfd74e2b2eda3d7a46e450dc7da2d829b0f08c7724add774c266c31b5
 tags:
   0.3.3--pyh5e36f6f_0: 
     sha256:8717223d613b96c1d4263f56163133c6d2aeb8f338b215bf6807af5b096e4b07
   0.4.1--pyhdfd78af_1: 
     sha256:e30f915041bd1cc4712b95754a533a07f6f16833274652d4beb662ddc4e9bcf6
+  0.4.2--pyhdfd78af_0: 
+    sha256:d4a6282bfd74e2b2eda3d7a46e450dc7da2d829b0f08c7724add774c266c31b5
 docker: quay.io/biocontainers/homopolish
 aliases:
   homopolish: /usr/local/bin/homopolish
