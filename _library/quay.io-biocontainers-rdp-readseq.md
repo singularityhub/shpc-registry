@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdp-readseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp-readseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdp-readseq/container.yaml"
-updated_at: "2025-08-28 03:49:21.098751"
+updated_at: "2025-08-28 12:39:32.210332"
 latest: "2.0.2--1"
 container_url: "https://biocontainers.pro/tools/rdp-readseq"
 aliases:

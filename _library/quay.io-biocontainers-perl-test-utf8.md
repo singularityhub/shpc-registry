@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-utf8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
-updated_at: "2025-08-28 03:28:43.591085"
+updated_at: "2025-08-28 12:18:06.998436"
 latest: "1.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-utf8"
 aliases:

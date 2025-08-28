@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicsupersignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicsupersignature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicsupersignature/container.yaml"
-updated_at: "2025-08-28 03:38:35.457724"
+updated_at: "2025-08-28 12:28:20.005276"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicsupersignature"
 aliases:

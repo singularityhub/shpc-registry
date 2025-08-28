@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-musicatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
-updated_at: "2025-08-28 03:22:32.156199"
+updated_at: "2025-08-28 12:11:49.735602"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-musicatk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dcgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dcgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dcgsa/container.yaml"
-updated_at: "2025-08-28 03:41:22.646871"
+updated_at: "2025-08-28 12:31:07.223817"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dcgsa"
 

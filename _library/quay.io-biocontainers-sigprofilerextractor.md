@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sigprofilerextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerextractor/container.yaml"
-updated_at: "2025-08-28 03:49:43.833306"
+updated_at: "2025-08-28 12:39:56.260537"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerextractor"
 aliases:
