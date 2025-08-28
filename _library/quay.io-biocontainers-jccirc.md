@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jccirc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jccirc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jccirc/container.yaml"
-updated_at: "2025-08-27 03:29:17.750088"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2025-08-28 03:19:02.061606"
+latest: "1.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jccirc"
 aliases:
  - "CircSimu"
@@ -17,8 +17,9 @@ aliases:
  - "bwa"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for jccirc"
-config: {"url": "https://biocontainers.pro/tools/jccirc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jccirc", "latest": {"1.0.0--hdfd78af_0": "sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf"}, "tags": {"1.0.0--hdfd78af_0": "sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf"}, "docker": "quay.io/biocontainers/jccirc", "aliases": {"CircSimu": "/usr/local/bin/CircSimu", "CircSimu.pl": "/usr/local/bin/CircSimu.pl", "JCcirc": "/usr/local/bin/JCcirc", "JCcirc.pl": "/usr/local/bin/JCcirc.pl", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/jccirc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jccirc", "latest": {"1.0.0--hdfd78af_1": "sha256:4bfdc6b8d8470ae5df824b5474ba1d2885c6840a92efa2998bbc65ae14d8f3e9"}, "tags": {"1.0.0--hdfd78af_0": "sha256:d3d0085306e9a5c6790bb915c0bd9557572d3050962a257284dd55fff70d5edf", "1.0.0--hdfd78af_1": "sha256:4bfdc6b8d8470ae5df824b5474ba1d2885c6840a92efa2998bbc65ae14d8f3e9"}, "docker": "quay.io/biocontainers/jccirc", "aliases": {"CircSimu": "/usr/local/bin/CircSimu", "CircSimu.pl": "/usr/local/bin/CircSimu.pl", "JCcirc": "/usr/local/bin/JCcirc", "JCcirc.pl": "/usr/local/bin/JCcirc.pl", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jccirc.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/jccirc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jccirc:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/jccirc:1.0.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jccirc/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/jccirc/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/jccirc/1.0.0--hdfd78af_1
+$ module help quay.io/biocontainers/jccirc/1.0.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

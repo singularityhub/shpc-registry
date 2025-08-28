@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gsmoothr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsmoothr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsmoothr/container.yaml"
-updated_at: "2025-08-27 03:25:02.574569"
+updated_at: "2025-08-28 03:30:16.558631"
 latest: "0.1.7--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gsmoothr"
 aliases:

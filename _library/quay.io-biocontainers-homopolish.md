@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/homopolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homopolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homopolish/container.yaml"
-updated_at: "2025-08-27 03:24:56.890848"
-latest: "0.4.1--pyhdfd78af_1"
+updated_at: "2025-08-28 03:14:22.905539"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/homopolish"
 aliases:
  - "homopolish"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.3.3--pyh5e36f6f_0"
  - "0.4.1--pyhdfd78af_1"
+ - "0.4.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for homopolish"
-config: {"url": "https://biocontainers.pro/tools/homopolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for homopolish", "latest": {"0.4.1--pyhdfd78af_1": "sha256:e30f915041bd1cc4712b95754a533a07f6f16833274652d4beb662ddc4e9bcf6"}, "tags": {"0.3.3--pyh5e36f6f_0": "sha256:8717223d613b96c1d4263f56163133c6d2aeb8f338b215bf6807af5b096e4b07", "0.4.1--pyhdfd78af_1": "sha256:e30f915041bd1cc4712b95754a533a07f6f16833274652d4beb662ddc4e9bcf6"}, "docker": "quay.io/biocontainers/homopolish", "aliases": {"homopolish": "/usr/local/bin/homopolish", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/homopolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for homopolish", "latest": {"0.4.2--pyhdfd78af_0": "sha256:d4a6282bfd74e2b2eda3d7a46e450dc7da2d829b0f08c7724add774c266c31b5"}, "tags": {"0.3.3--pyh5e36f6f_0": "sha256:8717223d613b96c1d4263f56163133c6d2aeb8f338b215bf6807af5b096e4b07", "0.4.1--pyhdfd78af_1": "sha256:e30f915041bd1cc4712b95754a533a07f6f16833274652d4beb662ddc4e9bcf6", "0.4.2--pyhdfd78af_0": "sha256:d4a6282bfd74e2b2eda3d7a46e450dc7da2d829b0f08c7724add774c266c31b5"}, "docker": "quay.io/biocontainers/homopolish", "aliases": {"homopolish": "/usr/local/bin/homopolish", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/homopolish.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/homopolish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/homopolish:0.4.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/homopolish:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/homopolish/0.4.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/homopolish/0.4.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/homopolish/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/homopolish/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

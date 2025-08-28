@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gmrp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmrp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmrp/container.yaml"
-updated_at: "2025-08-27 03:26:15.897192"
+updated_at: "2025-08-28 03:48:58.519164"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmrp"
 aliases:

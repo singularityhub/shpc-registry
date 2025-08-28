@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-disambiguate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
-updated_at: "2025-08-27 03:38:32.445173"
+updated_at: "2025-08-28 03:15:54.676857"
 latest: "2018.05.03--h077b44d_11"
 container_url: "https://biocontainers.pro/tools/ngs-disambiguate"
 aliases:

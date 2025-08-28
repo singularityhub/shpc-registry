@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piper/container.yaml"
-updated_at: "2025-08-27 03:44:12.756774"
+updated_at: "2025-08-28 03:08:49.755709"
 latest: "0.14.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hiannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiannotator/container.yaml"
-updated_at: "2025-08-27 03:44:11.672639"
+updated_at: "2025-08-28 03:10:54.337441"
 latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiannotator"
 

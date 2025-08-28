@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntcard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntcard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntcard/container.yaml"
-updated_at: "2025-08-27 03:43:48.224162"
-latest: "1.2.2--pl5321h077b44d_6"
+updated_at: "2025-08-28 03:15:56.572972"
+latest: "1.2.2--pl5321h077b44d_7"
 container_url: "https://biocontainers.pro/tools/ntcard"
 aliases:
  - "ntcard"
@@ -17,8 +17,9 @@ versions:
  - "1.2.2--pl5321hdcf5f25_4"
  - "1.2.2--pl5321hdcf5f25_5"
  - "1.2.2--pl5321h077b44d_6"
+ - "1.2.2--pl5321h077b44d_7"
 description: "shpc-registry automated BioContainers addition for ntcard"
-config: {"url": "https://biocontainers.pro/tools/ntcard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntcard", "latest": {"1.2.2--pl5321h077b44d_6": "sha256:69d9f372b5294c455814fb5dce45cfcd8749f1d02831f76a0c5177a11cebbcd1"}, "tags": {"1.2.2--pl5321hd03093a_2": "sha256:a445aa915d02f930ae426e19ddb2b1656da3db034b3b5ecde8a9e4d5256026cd", "1.2.2--pl5321hdcf5f25_4": "sha256:6a792af561e9ab6437cbba3e341d81a41790f651401e8d2944b98f7ab68d585c", "1.2.2--pl5321hdcf5f25_5": "sha256:425e77544c4de84ba8cd285af01d8b001ac8f8b8e8e892a578ac6091bc0c054e", "1.2.2--pl5321h077b44d_6": "sha256:69d9f372b5294c455814fb5dce45cfcd8749f1d02831f76a0c5177a11cebbcd1"}, "docker": "quay.io/biocontainers/ntcard", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/ntcard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntcard", "latest": {"1.2.2--pl5321h077b44d_7": "sha256:91a9d53f7233b137a195158c50830b333e696f6027f0dd7d315656b4ad3c4b93"}, "tags": {"1.2.2--pl5321hd03093a_2": "sha256:a445aa915d02f930ae426e19ddb2b1656da3db034b3b5ecde8a9e4d5256026cd", "1.2.2--pl5321hdcf5f25_4": "sha256:6a792af561e9ab6437cbba3e341d81a41790f651401e8d2944b98f7ab68d585c", "1.2.2--pl5321hdcf5f25_5": "sha256:425e77544c4de84ba8cd285af01d8b001ac8f8b8e8e892a578ac6091bc0c054e", "1.2.2--pl5321h077b44d_6": "sha256:69d9f372b5294c455814fb5dce45cfcd8749f1d02831f76a0c5177a11cebbcd1", "1.2.2--pl5321h077b44d_7": "sha256:91a9d53f7233b137a195158c50830b333e696f6027f0dd7d315656b4ad3c4b93"}, "docker": "quay.io/biocontainers/ntcard", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntcard.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ntcard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntcard:1.2.2--pl5321h077b44d_6
+$ shpc install quay.io/biocontainers/ntcard:1.2.2--pl5321h077b44d_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntcard/1.2.2--pl5321h077b44d_6
-$ module help quay.io/biocontainers/ntcard/1.2.2--pl5321h077b44d_6
+$ module load quay.io/biocontainers/ntcard/1.2.2--pl5321h077b44d_7
+$ module help quay.io/biocontainers/ntcard/1.2.2--pl5321h077b44d_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
