@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   galaxy-job-execution
 latest:
-  25.0.1--pyh7e72e81_0: 
-    sha256:0f665729dfa9489428808e3b70c3b1e54f644ba475098db32a018f167e39feeb
+  25.0.2--pyhdfd78af_0: 
+    sha256:88829e4328b502966d7f1e623fb092a3f365829daeadad54816a66b62d8ffb7a
 tags:
   24.2.4--pyhdfd78af_0: 
     sha256:dab643515ffdf586dfa4785710876ac5be4ba325d3a21edb65ac507314e37fb9
   25.0.1--pyh7e72e81_0: 
     sha256:0f665729dfa9489428808e3b70c3b1e54f644ba475098db32a018f167e39feeb
+  25.0.2--pyhdfd78af_0: 
+    sha256:88829e4328b502966d7f1e623fb092a3f365829daeadad54816a66b62d8ffb7a
 docker: quay.io/biocontainers/galaxy-job-execution
 aliases:
   bagit.py: /usr/local/bin/bagit.py

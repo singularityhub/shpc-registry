@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/flexiformatter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexiformatter
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:19a5920df83b2ca638d263ef9b80bcf620b9892963ae3b95ca273f23d1935fb6
+  1.0.3--pyhdfd78af_0: 
+    sha256:1e6715d1cd078c486cc7d63784c57a973aa91a4be4215d9738bef7cbcff55725
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:19a5920df83b2ca638d263ef9b80bcf620b9892963ae3b95ca273f23d1935fb6
+  1.0.3--pyhdfd78af_0: 
+    sha256:1e6715d1cd078c486cc7d63784c57a973aa91a4be4215d9738bef7cbcff55725
 docker: quay.io/biocontainers/flexiformatter
 aliases:
   flexiformatter: /usr/local/bin/flexiformatter

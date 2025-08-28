@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/olivar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for olivar
 latest:
-  1.3.2--pyhdfd78af_0: 
-    sha256:ae3bec88be29042130f94500c2aa9ceb76c1cd7552244448935117ae78af5641
+  1.3.3--pyhdfd78af_1: 
+    sha256:8b326ddffc1906848d98b9f2c1ee85ce5382524fc87b60da23452fa7ff639d7b
 tags:
   1.1.0--pyh7cba7a3_0: 
     sha256:314307a875b910b948a43ce9ffec931d0942151045f13f062681cfa92bfebfe7
@@ -25,6 +25,8 @@ tags:
     sha256:b5987902d0120b63484402477be491f3f3ce866f8ae30cfb5d2ec80f3df1749d
   1.3.2--pyhdfd78af_0: 
     sha256:ae3bec88be29042130f94500c2aa9ceb76c1cd7552244448935117ae78af5641
+  1.3.3--pyhdfd78af_1: 
+    sha256:8b326ddffc1906848d98b9f2c1ee85ce5382524fc87b60da23452fa7ff639d7b
 docker: quay.io/biocontainers/olivar
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

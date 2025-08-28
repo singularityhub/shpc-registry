@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sourmash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sourmash
 latest:
-  4.9.3--hdfd78af_0: 
-    sha256:c32fe83f80681bd1a8be2adf1e830decf2d40751737ba45d6f96ea2c34976805
+  4.9.4--hdfd78af_0: 
+    sha256:cf32bc7e7039340772184a79333a88d7988a2213a1209716b6e11977fa0d6719
 tags:
   2.0.0a9--py35hfc679d8_0: 
     sha256:215d557b61de173de83ebb47b43248c1a564a5e2e5a01bbf2c98e9885b56a5f0
@@ -35,6 +35,8 @@ tags:
     sha256:ee3030a185f71b658a9e0198d445fe05c3db071f0be281b1af83aa74bf8d6c89
   4.9.3--hdfd78af_0: 
     sha256:c32fe83f80681bd1a8be2adf1e830decf2d40751737ba45d6f96ea2c34976805
+  4.9.4--hdfd78af_0: 
+    sha256:cf32bc7e7039340772184a79333a88d7988a2213a1209716b6e11977fa0d6719
 docker: quay.io/biocontainers/sourmash
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
