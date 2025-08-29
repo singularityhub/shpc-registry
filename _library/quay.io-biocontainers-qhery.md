@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qhery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qhery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qhery/container.yaml"
-updated_at: "2025-08-28 12:36:06.659402"
+updated_at: "2025-08-29 03:46:59.238340"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qhery"
 aliases:

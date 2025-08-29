@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/olivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/olivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/olivar/container.yaml"
-updated_at: "2025-08-28 11:55:03.812396"
-latest: "1.3.2--pyhdfd78af_0"
+updated_at: "2025-08-29 03:06:32.721774"
+latest: "1.3.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/olivar"
 aliases:
  - "f2py3.11"
@@ -46,8 +46,9 @@ versions:
  - "1.2.1--pyhdfd78af_0"
  - "1.3.1--pyhdfd78af_0"
  - "1.3.2--pyhdfd78af_0"
+ - "1.3.3--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for olivar"
-config: {"url": "https://biocontainers.pro/tools/olivar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for olivar", "latest": {"1.3.2--pyhdfd78af_0": "sha256:ae3bec88be29042130f94500c2aa9ceb76c1cd7552244448935117ae78af5641"}, "tags": {"1.1.0--pyh7cba7a3_0": "sha256:314307a875b910b948a43ce9ffec931d0942151045f13f062681cfa92bfebfe7", "1.1.1--pyh7cba7a3_0": "sha256:18aaa04f8e14d3608aa35ae438dcd2df678ee07edfe2488968c19f399e64402a", "1.1.2--pyhdfd78af_1": "sha256:866405634a5a93221726b3894aac518821e3b85827e907a25273bfd4b61c27b2", "1.1.3--pyhdfd78af_0": "sha256:4a60d4149d36d7769696759f6914b9a90688130b78776c707330213e3af6e858", "1.1.4--pyhdfd78af_0": "sha256:31a8143102a2f3edfed2da82f16f9fbf799aad8234440739cd383c5d336c0c4a", "1.1.5--pyhdfd78af_0": "sha256:6a3a0bda6eb20a4254ef3d625e62079ebe813916612f9d53345799b01fa0af92", "1.2.0--pyhdfd78af_0": "sha256:66ffddcb1c65b8258c0700483bb9071d8ed423ce0379bbfc0c3a215e046d6be4", "1.2.1--pyhdfd78af_0": "sha256:0efda4881d786a38c3f44f997f8b4136a6f04a54cc37e9d8eade0a5d0461753e", "1.3.1--pyhdfd78af_0": "sha256:b5987902d0120b63484402477be491f3f3ce866f8ae30cfb5d2ec80f3df1749d", "1.3.2--pyhdfd78af_0": "sha256:ae3bec88be29042130f94500c2aa9ceb76c1cd7552244448935117ae78af5641"}, "docker": "quay.io/biocontainers/olivar", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "olivar": "/usr/local/bin/olivar", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table"}}
+config: {"url": "https://biocontainers.pro/tools/olivar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for olivar", "latest": {"1.3.3--pyhdfd78af_1": "sha256:8b326ddffc1906848d98b9f2c1ee85ce5382524fc87b60da23452fa7ff639d7b"}, "tags": {"1.1.0--pyh7cba7a3_0": "sha256:314307a875b910b948a43ce9ffec931d0942151045f13f062681cfa92bfebfe7", "1.1.1--pyh7cba7a3_0": "sha256:18aaa04f8e14d3608aa35ae438dcd2df678ee07edfe2488968c19f399e64402a", "1.1.2--pyhdfd78af_1": "sha256:866405634a5a93221726b3894aac518821e3b85827e907a25273bfd4b61c27b2", "1.1.3--pyhdfd78af_0": "sha256:4a60d4149d36d7769696759f6914b9a90688130b78776c707330213e3af6e858", "1.1.4--pyhdfd78af_0": "sha256:31a8143102a2f3edfed2da82f16f9fbf799aad8234440739cd383c5d336c0c4a", "1.1.5--pyhdfd78af_0": "sha256:6a3a0bda6eb20a4254ef3d625e62079ebe813916612f9d53345799b01fa0af92", "1.2.0--pyhdfd78af_0": "sha256:66ffddcb1c65b8258c0700483bb9071d8ed423ce0379bbfc0c3a215e046d6be4", "1.2.1--pyhdfd78af_0": "sha256:0efda4881d786a38c3f44f997f8b4136a6f04a54cc37e9d8eade0a5d0461753e", "1.3.1--pyhdfd78af_0": "sha256:b5987902d0120b63484402477be491f3f3ce866f8ae30cfb5d2ec80f3df1749d", "1.3.2--pyhdfd78af_0": "sha256:ae3bec88be29042130f94500c2aa9ceb76c1cd7552244448935117ae78af5641", "1.3.3--pyhdfd78af_1": "sha256:8b326ddffc1906848d98b9f2c1ee85ce5382524fc87b60da23452fa7ff639d7b"}, "docker": "quay.io/biocontainers/olivar", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "olivar": "/usr/local/bin/olivar", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/olivar.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/olivar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/olivar:1.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/olivar:1.3.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/olivar/1.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/olivar/1.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/olivar/1.3.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/olivar/1.3.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

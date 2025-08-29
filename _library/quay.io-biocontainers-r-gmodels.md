@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gmodels"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gmodels/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gmodels/container.yaml"
-updated_at: "2025-08-28 12:36:38.863578"
+updated_at: "2025-08-29 03:47:31.683953"
 latest: "2.16.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gmodels"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affyqcreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affyqcreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affyqcreport/container.yaml"
-updated_at: "2025-08-28 12:11:49.450270"
+updated_at: "2025-08-29 03:23:09.745856"
 latest: "1.68.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-affyqcreport"
 aliases:

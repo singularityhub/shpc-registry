@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shiba/container.yaml"
-updated_at: "2025-08-28 12:25:13.652336"
-latest: "0.6.3--py313hdfd78af_0"
+updated_at: "2025-08-29 03:36:19.819713"
+latest: "0.7.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shiba"
 aliases:
  - "flattenGTF"
@@ -50,8 +50,9 @@ versions:
  - "0.6.1--py313hdfd78af_0"
  - "0.6.2--py313hdfd78af_0"
  - "0.6.3--py313hdfd78af_0"
+ - "0.7.1--py313hdfd78af_0"
 description: "singularity registry hpc automated addition for shiba"
-config: {"url": "https://biocontainers.pro/tools/shiba", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shiba", "latest": {"0.6.3--py313hdfd78af_0": "sha256:48302cb2a0b0b2eafc3a6a3cbcb465693501dfbdf54467e7b2e7087986b26eda"}, "tags": {"0.6.1--py313hdfd78af_0": "sha256:504a469d9fefc584a465b2360d3d2ddf51c65298eaa012cae310379b826e1a9c", "0.6.2--py313hdfd78af_0": "sha256:1cad5e25b1391b4929b1b63eb6d28a209087b39834eb73e0718f1275d31ad3c1", "0.6.3--py313hdfd78af_0": "sha256:48302cb2a0b0b2eafc3a6a3cbcb465693501dfbdf54467e7b2e7087986b26eda"}, "docker": "quay.io/biocontainers/shiba", "aliases": {"flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "regtools": "/usr/local/bin/regtools", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "scshiba.py": "/usr/local/bin/scshiba.py", "shiba.py": "/usr/local/bin/shiba.py", "stringtie": "/usr/local/bin/stringtie", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info"}}
+config: {"url": "https://biocontainers.pro/tools/shiba", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shiba", "latest": {"0.7.1--py313hdfd78af_0": "sha256:87abbe5df253a34d2ed551f078e471de299196ea93dbe16e1a12ac00e01706b2"}, "tags": {"0.6.1--py313hdfd78af_0": "sha256:504a469d9fefc584a465b2360d3d2ddf51c65298eaa012cae310379b826e1a9c", "0.6.2--py313hdfd78af_0": "sha256:1cad5e25b1391b4929b1b63eb6d28a209087b39834eb73e0718f1275d31ad3c1", "0.6.3--py313hdfd78af_0": "sha256:48302cb2a0b0b2eafc3a6a3cbcb465693501dfbdf54467e7b2e7087986b26eda", "0.7.1--py313hdfd78af_0": "sha256:87abbe5df253a34d2ed551f078e471de299196ea93dbe16e1a12ac00e01706b2"}, "docker": "quay.io/biocontainers/shiba", "aliases": {"flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "regtools": "/usr/local/bin/regtools", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "scshiba.py": "/usr/local/bin/scshiba.py", "shiba.py": "/usr/local/bin/shiba.py", "stringtie": "/usr/local/bin/stringtie", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shiba.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/shiba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shiba:0.6.3--py313hdfd78af_0
+$ shpc install quay.io/biocontainers/shiba:0.7.1--py313hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shiba/0.6.3--py313hdfd78af_0
-$ module help quay.io/biocontainers/shiba/0.6.3--py313hdfd78af_0
+$ module load quay.io/biocontainers/shiba/0.7.1--py313hdfd78af_0
+$ module help quay.io/biocontainers/shiba/0.7.1--py313hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

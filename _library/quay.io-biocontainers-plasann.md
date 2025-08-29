@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasann/container.yaml"
-updated_at: "2025-08-28 11:59:09.300352"
+updated_at: "2025-08-29 03:10:22.778768"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasann"
 aliases:
