@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/doubletd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doubletd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doubletd/container.yaml"
-updated_at: "2025-08-29 03:41:26.320796"
+updated_at: "2025-08-30 03:34:37.078643"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/doubletd"
 aliases:

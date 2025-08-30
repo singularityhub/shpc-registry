@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggseqalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggseqalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggseqalign/container.yaml"
-updated_at: "2025-08-29 03:51:12.955862"
+updated_at: "2025-08-30 03:43:54.248688"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggseqalign"
 aliases:

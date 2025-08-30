@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chain2paf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chain2paf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chain2paf/container.yaml"
-updated_at: "2025-08-29 03:29:01.437499"
+updated_at: "2025-08-30 03:22:14.828176"
 latest: "0.1.1--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/chain2paf"
 aliases:

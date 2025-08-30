@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ataqv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ataqv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ataqv/container.yaml"
-updated_at: "2025-08-29 03:06:53.354647"
+updated_at: "2025-08-30 03:01:02.461715"
 latest: "1.3.1--py310h50a2689_5"
 container_url: "https://biocontainers.pro/tools/ataqv"
 aliases:

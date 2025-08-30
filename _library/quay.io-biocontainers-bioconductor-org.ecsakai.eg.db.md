@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.ecsakai.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.ecsakai.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.ecsakai.eg.db/container.yaml"
-updated_at: "2025-08-29 03:50:22.247141"
+updated_at: "2025-08-30 03:43:05.409213"
 latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.ecsakai.eg.db"
 aliases:

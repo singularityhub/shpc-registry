@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/captus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/captus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/captus/container.yaml"
-updated_at: "2025-08-29 03:29:33.541038"
+updated_at: "2025-08-30 03:22:45.677004"
 latest: "1.5.4--pyh05cac1d_0"
 container_url: "https://biocontainers.pro/tools/captus"
 aliases:

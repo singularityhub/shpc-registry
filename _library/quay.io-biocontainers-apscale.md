@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/apscale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apscale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apscale/container.yaml"
-updated_at: "2025-08-29 03:06:13.578708"
+updated_at: "2025-08-30 03:00:21.288396"
 latest: "4.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/apscale"
 aliases:

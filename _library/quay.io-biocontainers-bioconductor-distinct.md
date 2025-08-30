@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-distinct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
-updated_at: "2025-08-29 03:42:43.521080"
+updated_at: "2025-08-30 03:35:51.507804"
 latest: "1.18.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-distinct"
 
