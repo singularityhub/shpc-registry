@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eviann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eviann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eviann/container.yaml"
-updated_at: "2025-08-30 03:38:25.039392"
+updated_at: "2025-08-31 03:50:28.571345"
 latest: "2.0.3--pl5321haf24da9_2"
 container_url: "https://biocontainers.pro/tools/eviann"
 aliases:
