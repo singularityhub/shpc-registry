@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq-hasher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-hasher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-hasher/container.yaml"
-updated_at: "2025-08-31 03:40:34.708102"
+updated_at: "2025-09-01 03:54:48.596830"
 latest: "0.2.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/seq-hasher"
 aliases:

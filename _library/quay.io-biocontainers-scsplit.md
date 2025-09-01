@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scsplit/container.yaml"
-updated_at: "2025-08-31 03:25:00.254678"
+updated_at: "2025-09-01 03:39:21.779839"
 latest: "1.0.8.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/scsplit"
 aliases:

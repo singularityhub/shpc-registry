@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/revbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revbayes/container.yaml"
-updated_at: "2025-08-31 03:49:21.508575"
+updated_at: "2025-09-01 04:03:45.288142"
 latest: "1.3.0--hf316886_1"
 container_url: "https://biocontainers.pro/tools/revbayes"
 aliases:

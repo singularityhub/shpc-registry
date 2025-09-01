@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.blood.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
-updated_at: "2025-08-31 03:39:46.414398"
+updated_at: "2025-09-01 03:54:00.050174"
 latest: "2.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic"
 aliases:
