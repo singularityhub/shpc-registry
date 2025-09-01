@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dbcanlight
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dbcanlight
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:a8b0da21fe5d70a669151b7636e66fa8f0a08fa0ded15a90098c4c9be34337f3
+  1.1.1--pyhdfd78af_0: 
+    sha256:f8dc8e39ab493e6839d58326d6dd673ca7596dc035f604ffadd8fc9a4978f82a
 tags:
   1.0.0--pyh7cba7a3_0: 
     sha256:8cc910f8687f27de48da644fefeaa80c0be5355a1885c47ca8a90ac6fc40aa18
@@ -13,6 +13,8 @@ tags:
     sha256:cf12ca9d485fd317e746eab9a9c4d86fb45ece13637fee9b59d9f6b14326cc4e
   1.1.0--pyhdfd78af_0: 
     sha256:a8b0da21fe5d70a669151b7636e66fa8f0a08fa0ded15a90098c4c9be34337f3
+  1.1.1--pyhdfd78af_0: 
+    sha256:f8dc8e39ab493e6839d58326d6dd673ca7596dc035f604ffadd8fc9a4978f82a
 docker: quay.io/biocontainers/dbcanlight
 aliases:
   dbcanLight: /usr/local/bin/dbcanLight

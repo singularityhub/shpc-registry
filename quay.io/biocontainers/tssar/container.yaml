@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tssar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tssar
 latest:
-  1.0.1--r44h7b50bb2_9: 
-    sha256:c62f2cddbed21aa1eaff7e2130ee327f594790897539d3fab1e1b98b9415bd38
+  1.0.1--r44h7b50bb2_10: 
+    sha256:9d34fde49c59dbff736330d15a3c320c3711001a0850f5fb99ecdc2257c69b95
 tags:
   1.0.1--r41hec16e2b_4: 
     sha256:57c20ce056beb17bae4200b20fd596885faf5674102e6d52fc429cc939dae191
@@ -15,6 +15,8 @@ tags:
     sha256:41254e9bbf607a9fe2b5832da6ec5980e8f70f588ca3d69cdd2eb216b4273a8e
   1.0.1--r44h7b50bb2_9: 
     sha256:c62f2cddbed21aa1eaff7e2130ee327f594790897539d3fab1e1b98b9415bd38
+  1.0.1--r44h7b50bb2_10: 
+    sha256:9d34fde49c59dbff736330d15a3c320c3711001a0850f5fb99ecdc2257c69b95
 docker: quay.io/biocontainers/tssar
 aliases:
   TSSAR: /usr/local/bin/TSSAR

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-test2-plugin-nowarnings
 latest:
-  0.09--pl5321hdfd78af_0: 
-    sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a
+  0.10--pl5321hdfd78af_0: 
+    sha256:6375a177393884a6a00edf74fd1b9e722b9342365bf2900308d2674744f554b9
 tags:
   0.09--pl5321hdfd78af_0: 
     sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a
+  0.10--pl5321hdfd78af_0: 
+    sha256:6375a177393884a6a00edf74fd1b9e722b9342365bf2900308d2674744f554b9
 docker: quay.io/biocontainers/perl-test2-plugin-nowarnings
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

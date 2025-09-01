@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/egap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for egap
 latest:
-  3.1--pyhdfd78af_0: 
-    sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
+  3.2c--pyhdfd78af_0: 
+    sha256:5a8dd18170c77cccdbc8e7d9f25d807c0816ba1b9c50af7432a4af43ad61ec5b
 tags:
   2.6.6--pyhdfd78af_0: 
     sha256:1aade4d91acfefe260c50653fa909b31f91a9426d893d224901d0c1114dd27d6
@@ -11,6 +11,10 @@ tags:
     sha256:5e5d691104ccd4fe909dc4f38ce534667a8febbcfc7b5bec6eb0c4098b9c204b
   3.0.0f--pyhdfd78af_0: 
     sha256:6b536c06c07ddd56e08a1d63e07e8bb111817516caa20fa0ce4d18d5ada157f2
+  3.2c--pyhdfd78af_0: 
+    sha256:5a8dd18170c77cccdbc8e7d9f25d807c0816ba1b9c50af7432a4af43ad61ec5b
+  3.1b--pyhdfd78af_0: 
+    sha256:a6094dd5956d79aafa0a77f3d76b6377022861934d2af0b97fcdf7cc463ac8ec
 docker: quay.io/biocontainers/egap
 aliases:
   Bifrost: /usr/local/bin/Bifrost

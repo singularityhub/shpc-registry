@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/grz-db
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-db
 latest:
-  0.3.0--pyhdfd78af_0: 
-    sha256:2ccc38b35969d0c5f3364c57a4219d5f93abbcd89e93cac91b92653d6cacff2d
+  0.5.0--pyhdfd78af_0: 
+    sha256:36edc6f835cb6f6add801b769b6a20057c348b8655e99ca657d219b031b5290d
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:b0db71f5a1d852f434208c715a2526fd6b953ee04abb3e52d728e01455bcd9cf
@@ -13,6 +13,10 @@ tags:
     sha256:2ccc38b35969d0c5f3364c57a4219d5f93abbcd89e93cac91b92653d6cacff2d
   0.2.1--pyhdfd78af_0: 
     sha256:09373eacefd40538ee853be4149c2c3f57e7b3561e95e25544377f8a7f6bc03c
+  0.5.0--pyhdfd78af_0: 
+    sha256:36edc6f835cb6f6add801b769b6a20057c348b8655e99ca657d219b031b5290d
+  0.4.0--pyhdfd78af_0: 
+    sha256:cd5b6a4e09942d9532c877c6457a1a37706865510f95df03750cff2cb5ea3937
 docker: quay.io/biocontainers/grz-db
 aliases:
   alembic: /usr/local/bin/alembic

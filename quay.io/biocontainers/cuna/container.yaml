@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cuna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cuna
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:338dfe1c604f8e89425db23eab252b46c357dd45b80f258455dcb9332a6f93e1
+  0.3.0--pyhdfd78af_0: 
+    sha256:5aa5284485154e67296975ceb19c5d43da3597a16f70b5ff89c50fa2920d932e
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:338dfe1c604f8e89425db23eab252b46c357dd45b80f258455dcb9332a6f93e1
+  0.3.0--pyhdfd78af_0: 
+    sha256:5aa5284485154e67296975ceb19c5d43da3597a16f70b5ff89c50fa2920d932e
 docker: quay.io/biocontainers/cuna
 aliases:
   cuna: /usr/local/bin/cuna

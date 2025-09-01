@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pbsim3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pbsim3
 latest:
-  3.0.5--h9948957_1: 
-    sha256:7dafbaa72a80f985d0209710ddb78595e67f4f8e94f283c391c1d9912a64516f
+  3.0.5--h9948957_2: 
+    sha256:70d2ee306d7dec472c45a0b4e121418f64230fecd5263ed5f0abe36d9cacff6f
 tags:
   3.0.0--h4ac6f70_0: 
     sha256:940e5060c68c8d6abe39efac4d0d1a7f31033b7058834b3be773372b5a39ddb5
@@ -17,6 +17,8 @@ tags:
     sha256:32d1c0a6116fb260f874fa5f2ae39d9c318ed162ce8dd302216a9c2849ce9270
   3.0.5--h9948957_1: 
     sha256:7dafbaa72a80f985d0209710ddb78595e67f4f8e94f283c391c1d9912a64516f
+  3.0.5--h9948957_2: 
+    sha256:70d2ee306d7dec472c45a0b4e121418f64230fecd5263ed5f0abe36d9cacff6f
 docker: quay.io/biocontainers/pbsim3
 aliases:
   pbsim: /usr/local/bin/pbsim

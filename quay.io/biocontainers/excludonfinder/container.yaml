@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/excludonfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for excludonfinder
 latest:
-  0.1.4--hdfd78af_1: 
-    sha256:57e3dc56179df8013eb3bd58beb866007632b5d73d67c3d8d34b4fd934e95187
+  0.1.5--hdfd78af_0: 
+    sha256:18f1f2798baaeef4f448b4e112115d634e14d543009f786070dcde11f14b2c3c
 tags:
   0.1.1--hdfd78af_0: 
     sha256:dfd37d1b78b37246aac808f45e247edadf3e2124eaef98d2a23d14d7de69154b
@@ -11,6 +11,8 @@ tags:
     sha256:32e630811f51b3e773aadff6f26980742780eeabf152a557d569d2ac243a7dda
   0.1.4--hdfd78af_1: 
     sha256:57e3dc56179df8013eb3bd58beb866007632b5d73d67c3d8d34b4fd934e95187
+  0.1.5--hdfd78af_0: 
+    sha256:18f1f2798baaeef4f448b4e112115d634e14d543009f786070dcde11f14b2c3c
 docker: quay.io/biocontainers/excludonfinder
 aliases:
   ExcludonFinder: /usr/local/bin/ExcludonFinder

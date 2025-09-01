@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyani-plus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyani-plus
 latest:
-  0.0.1--pyhdfd78af_0: 
-    sha256:485e34904f4484cc9202993e071ba3f0f3b790471a444617784f5555048be364
+  1.0.0--pyhdfd78af_0: 
+    sha256:f5d456d9789f21902cf6ef03d7ab602eb3847a163817a6f2adba12e47cef890f
 tags:
   0.0.1--pyhdfd78af_0: 
     sha256:485e34904f4484cc9202993e071ba3f0f3b790471a444617784f5555048be364
+  1.0.0--pyhdfd78af_0: 
+    sha256:f5d456d9789f21902cf6ef03d7ab602eb3847a163817a6f2adba12e47cef890f
 docker: quay.io/biocontainers/pyani-plus
 aliases:
   pyani-plus: /usr/local/bin/pyani-plus

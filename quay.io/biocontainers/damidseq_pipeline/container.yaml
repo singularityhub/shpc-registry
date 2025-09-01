@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   damidseq_pipeline
 latest:
-  1.6.1--pl5321hdfd78af_0: 
-    sha256:d43c29f59a242a96e916e0dd1edca404417676d839eb996edab0f61dc7cffc08
+  1.6.2--pl5321hdfd78af_0: 
+    sha256:1b7a9905b602fae042f85871d0a7d4f590b4df1250acd7186b192a0dacef80e4
 tags:
   1.4--pl5321hdfd78af_5: 
     sha256:9d79de14d9026b53a3b7b7b586bc4324967c5a0466dbf625d0e6e5e30186444f
@@ -14,6 +14,8 @@ tags:
     sha256:0175847f687372125ec8b64bb1c09b8c18a91d7f4f52b1caa0709c516997be6e
   1.6.1--pl5321hdfd78af_0: 
     sha256:d43c29f59a242a96e916e0dd1edca404417676d839eb996edab0f61dc7cffc08
+  1.6.2--pl5321hdfd78af_0: 
+    sha256:1b7a9905b602fae042f85871d0a7d4f590b4df1250acd7186b192a0dacef80e4
 docker: quay.io/biocontainers/damidseq_pipeline
 aliases:
   damidseq_pipeline: /usr/local/bin/damidseq_pipeline
