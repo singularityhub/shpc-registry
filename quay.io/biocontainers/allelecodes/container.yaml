@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/allelecodes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for allelecodes
+latest:
+  2.1--py313hdfd78af_0: 
+    sha256:486ef8acd57c35d90bc9143545cd76613eb80d06a20bf7b4d1d97ed82f076174
+tags:
+  2.1--py313hdfd78af_0: 
+    sha256:486ef8acd57c35d90bc9143545cd76613eb80d06a20bf7b4d1d97ed82f076174
+docker: quay.io/biocontainers/allelecodes
+aliases:
+  assignAlleleCodes: /usr/local/bin/assignAlleleCodes
+  assignAlleleCodes_py3.6.py: /usr/local/bin/assignAlleleCodes_py3.6.py
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

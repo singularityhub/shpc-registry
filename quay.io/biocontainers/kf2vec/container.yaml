@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/kf2vec
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kf2vec
+latest:
+  1.0.62--pyh5e193fb_0: 
+    sha256:3f148dfd01c3bcdb490ad826fa4cae333a09ccc2d2132677be168acd0db86a94
+tags:
+  1.0.62--pyh5e193fb_0: 
+    sha256:3f148dfd01c3bcdb490ad826fa4cae333a09ccc2d2132677be168acd0db86a94
+docker: quay.io/biocontainers/kf2vec
+aliases:
+  TreeCluster.py: /usr/local/bin/TreeCluster.py
+  kf2vec: /usr/local/bin/kf2vec
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  seqkit: /usr/local/bin/seqkit
+  jellyfish: /usr/local/bin/jellyfish
+  seqtk: /usr/local/bin/seqtk
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl

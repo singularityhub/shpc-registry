@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/srf-n-trf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for srf-n-trf
+latest:
+  0.1.1--h4349ce8_0: 
+    sha256:dd242691f5c1899f4efa24a7fea54bcec70a3d26767b523c88db29cd94db07ad
+tags:
+  0.1.1--h4349ce8_0: 
+    sha256:dd242691f5c1899f4efa24a7fea54bcec70a3d26767b523c88db29cd94db07ad
+docker: quay.io/biocontainers/srf-n-trf
+aliases:
+  srf-n-trf: /usr/local/bin/srf-n-trf
