@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rvisdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rvisdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rvisdiff/container.yaml"
-updated_at: "2025-09-01 04:12:43.431739"
+updated_at: "2025-09-01 05:00:43.127086"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rvisdiff"
 aliases:

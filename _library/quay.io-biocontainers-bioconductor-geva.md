@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geva/container.yaml"
-updated_at: "2025-09-01 03:52:42.159129"
+updated_at: "2025-09-01 04:40:39.515980"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geva"
 
