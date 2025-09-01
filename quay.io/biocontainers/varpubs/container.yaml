@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/varpubs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for varpubs
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:4c6823f336b7acea1116461c11e171567a44af78213180884e3920c1a45c1125
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:4c6823f336b7acea1116461c11e171567a44af78213180884e3920c1a45c1125
+docker: quay.io/biocontainers/varpubs
+aliases:
+  distro: /usr/local/bin/distro
+  openai: /usr/local/bin/openai
+  varpubs: /usr/local/bin/varpubs
+  ref-cache: /usr/local/bin/ref-cache
+  httpx: /usr/local/bin/httpx
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  annot-tsv: /usr/local/bin/annot-tsv
+  humanfriendly: /usr/local/bin/humanfriendly
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

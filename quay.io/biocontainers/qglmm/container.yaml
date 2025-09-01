@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/qglmm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for qglmm
+latest:
+  0.1.1--pyhcf36b3e_0: 
+    sha256:b575196e535d55ad39e5fb845df5cadfe291580e47eaa561df556a1031771dd8
+tags:
+  0.1.1--pyhcf36b3e_0: 
+    sha256:b575196e535d55ad39e5fb845df5cadfe291580e47eaa561df556a1031771dd8
+docker: quay.io/biocontainers/qglmm
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

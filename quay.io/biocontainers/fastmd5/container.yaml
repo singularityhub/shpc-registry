@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastmd5
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastmd5
+latest:
+  1.0.0--h3ab6199_0: 
+    sha256:77174d0332ac5a0fe338b629df526f775e2049b58539e6250cbdf6577c411ac7
+tags:
+  1.0.0--h3ab6199_0: 
+    sha256:77174d0332ac5a0fe338b629df526f775e2049b58539e6250cbdf6577c411ac7
+docker: quay.io/biocontainers/fastmd5
+aliases:
+  fastmd5: /usr/local/bin/fastmd5
