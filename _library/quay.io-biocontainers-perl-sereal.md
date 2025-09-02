@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-sereal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sereal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sereal/container.yaml"
-updated_at: "2025-09-01 04:41:05.775093"
-latest: "4.019--pl5321hdfd78af_0"
+updated_at: "2025-09-02 03:37:08.978411"
+latest: "5.004--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sereal"
 
 versions:
  - "4.019--pl5321hdfd78af_0"
+ - "5.004--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-sereal"
-config: {"url": "https://biocontainers.pro/tools/perl-sereal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sereal", "latest": {"4.019--pl5321hdfd78af_0": "sha256:2aab85171de1cdb367ddbf6b6e4ecea735504f8bf45af717aa877b1cdc162f84"}, "tags": {"4.019--pl5321hdfd78af_0": "sha256:2aab85171de1cdb367ddbf6b6e4ecea735504f8bf45af717aa877b1cdc162f84"}, "docker": "quay.io/biocontainers/perl-sereal"}
+config: {"url": "https://biocontainers.pro/tools/perl-sereal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sereal", "latest": {"5.004--pl5321hdfd78af_0": "sha256:a08e3df08ee0ada57fb111c9c16d5398ff80dec80c4763d2c8f209c08a2f8e37"}, "tags": {"4.019--pl5321hdfd78af_0": "sha256:2aab85171de1cdb367ddbf6b6e4ecea735504f8bf45af717aa877b1cdc162f84", "5.004--pl5321hdfd78af_0": "sha256:a08e3df08ee0ada57fb111c9c16d5398ff80dec80c4763d2c8f209c08a2f8e37"}, "docker": "quay.io/biocontainers/perl-sereal"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sereal.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-sereal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sereal:4.019--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-sereal:5.004--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sereal/4.019--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-sereal/4.019--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-sereal/5.004--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-sereal/5.004--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

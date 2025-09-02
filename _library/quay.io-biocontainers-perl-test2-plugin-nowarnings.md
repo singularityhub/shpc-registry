@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-test2-plugin-nowarnings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test2-plugin-nowarnings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test2-plugin-nowarnings/container.yaml"
-updated_at: "2025-09-01 04:19:00.928813"
-latest: "0.09--pl5321hdfd78af_0"
+updated_at: "2025-09-02 03:15:29.354345"
+latest: "0.10--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test2-plugin-nowarnings"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.09--pl5321hdfd78af_0"
+ - "0.10--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-test2-plugin-nowarnings"
-config: {"url": "https://biocontainers.pro/tools/perl-test2-plugin-nowarnings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test2-plugin-nowarnings", "latest": {"0.09--pl5321hdfd78af_0": "sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a"}, "tags": {"0.09--pl5321hdfd78af_0": "sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a"}, "docker": "quay.io/biocontainers/perl-test2-plugin-nowarnings", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test2-plugin-nowarnings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test2-plugin-nowarnings", "latest": {"0.10--pl5321hdfd78af_0": "sha256:6375a177393884a6a00edf74fd1b9e722b9342365bf2900308d2674744f554b9"}, "tags": {"0.09--pl5321hdfd78af_0": "sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a", "0.10--pl5321hdfd78af_0": "sha256:6375a177393884a6a00edf74fd1b9e722b9342365bf2900308d2674744f554b9"}, "docker": "quay.io/biocontainers/perl-test2-plugin-nowarnings", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test2-plugin-nowarnings.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-test2-plugin-nowarnings
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-test2-plugin-nowarnings:0.09--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-test2-plugin-nowarnings:0.10--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-test2-plugin-nowarnings/0.09--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-test2-plugin-nowarnings/0.09--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-test2-plugin-nowarnings/0.10--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-test2-plugin-nowarnings/0.10--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

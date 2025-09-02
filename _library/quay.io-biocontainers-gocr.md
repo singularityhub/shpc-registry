@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gocr/container.yaml"
-updated_at: "2025-09-01 04:53:23.132596"
-latest: "0.50--h7b50bb2_6"
+updated_at: "2025-09-02 03:49:18.205087"
+latest: "0.52--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/gocr"
 aliases:
  - "gocr"
@@ -14,8 +14,10 @@ versions:
  - "0.50--hec16e2b_4"
  - "0.50--h031d066_5"
  - "0.50--h7b50bb2_6"
+ - "0.52--h7b50bb2_0"
+ - "0.50--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for gocr"
-config: {"url": "https://biocontainers.pro/tools/gocr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gocr", "latest": {"0.50--h7b50bb2_6": "sha256:d0bf23bae8e695e77e51ccb0e07d2b18d08e540bb9d2c281776dbbbb5d49883b"}, "tags": {"0.50--hec16e2b_4": "sha256:af5d9ac323d151e22e20d3cee1124fbeefa75e9709f99a9ae9b8d8a2d28ff55b", "0.50--h031d066_5": "sha256:562dc988b5b1aa80c654d72b1f859a31da164cda427344a4584f6b1117aea1e3", "0.50--h7b50bb2_6": "sha256:d0bf23bae8e695e77e51ccb0e07d2b18d08e540bb9d2c281776dbbbb5d49883b"}, "docker": "quay.io/biocontainers/gocr", "aliases": {"gocr": "/usr/local/bin/gocr", "gocr.tcl": "/usr/local/bin/gocr.tcl"}}
+config: {"url": "https://biocontainers.pro/tools/gocr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gocr", "latest": {"0.52--h7b50bb2_0": "sha256:74db92c6d465584d3b76671d4289eb75e73d574ac74d6bb4fa460d146d6d0b44"}, "tags": {"0.50--hec16e2b_4": "sha256:af5d9ac323d151e22e20d3cee1124fbeefa75e9709f99a9ae9b8d8a2d28ff55b", "0.50--h031d066_5": "sha256:562dc988b5b1aa80c654d72b1f859a31da164cda427344a4584f6b1117aea1e3", "0.50--h7b50bb2_6": "sha256:d0bf23bae8e695e77e51ccb0e07d2b18d08e540bb9d2c281776dbbbb5d49883b", "0.52--h7b50bb2_0": "sha256:74db92c6d465584d3b76671d4289eb75e73d574ac74d6bb4fa460d146d6d0b44", "0.50--h7b50bb2_7": "sha256:398f75831a19ab809fa456a9559c457c8d4720bf137a7c292ed6acdc69282e2a"}, "docker": "quay.io/biocontainers/gocr", "aliases": {"gocr": "/usr/local/bin/gocr", "gocr.tcl": "/usr/local/bin/gocr.tcl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gocr.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/gocr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gocr:0.50--h7b50bb2_6
+$ shpc install quay.io/biocontainers/gocr:0.52--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gocr/0.50--h7b50bb2_6
-$ module help quay.io/biocontainers/gocr/0.50--h7b50bb2_6
+$ module load quay.io/biocontainers/gocr/0.52--h7b50bb2_0
+$ module help quay.io/biocontainers/gocr/0.52--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

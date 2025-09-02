@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms2rescore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2rescore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2rescore/container.yaml"
-updated_at: "2025-09-01 04:31:36.264653"
+updated_at: "2025-09-02 03:27:54.200009"
 latest: "3.1.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ms2rescore"
 aliases:

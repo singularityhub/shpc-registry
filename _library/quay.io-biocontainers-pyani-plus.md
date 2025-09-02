@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyani-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyani-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyani-plus/container.yaml"
-updated_at: "2025-09-01 04:34:39.322448"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2025-09-02 03:30:49.851427"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyani-plus"
 aliases:
  - "pyani-plus"
@@ -36,8 +36,9 @@ aliases:
  - "archive-nihocc"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyani-plus"
-config: {"url": "https://biocontainers.pro/tools/pyani-plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyani-plus", "latest": {"0.0.1--pyhdfd78af_0": "sha256:485e34904f4484cc9202993e071ba3f0f3b790471a444617784f5555048be364"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:485e34904f4484cc9202993e071ba3f0f3b790471a444617784f5555048be364"}, "docker": "quay.io/biocontainers/pyani-plus", "aliases": {"pyani-plus": "/usr/local/bin/pyani-plus", "sourmash": "/usr/local/bin/sourmash", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "screed": "/usr/local/bin/screed", "fastANI": "/usr/local/bin/fastANI", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "mapview": "/usr/local/bin/mapview", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
+config: {"url": "https://biocontainers.pro/tools/pyani-plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyani-plus", "latest": {"1.0.0--pyhdfd78af_0": "sha256:f5d456d9789f21902cf6ef03d7ab602eb3847a163817a6f2adba12e47cef890f"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:485e34904f4484cc9202993e071ba3f0f3b790471a444617784f5555048be364", "1.0.0--pyhdfd78af_0": "sha256:f5d456d9789f21902cf6ef03d7ab602eb3847a163817a6f2adba12e47cef890f"}, "docker": "quay.io/biocontainers/pyani-plus", "aliases": {"pyani-plus": "/usr/local/bin/pyani-plus", "sourmash": "/usr/local/bin/sourmash", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "screed": "/usr/local/bin/screed", "fastANI": "/usr/local/bin/fastANI", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "mapview": "/usr/local/bin/mapview", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyani-plus.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/pyani-plus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyani-plus:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyani-plus:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyani-plus/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyani-plus/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyani-plus/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyani-plus/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

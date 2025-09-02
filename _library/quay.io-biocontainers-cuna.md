@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cuna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cuna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cuna/container.yaml"
-updated_at: "2025-09-01 04:21:49.106956"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-09-02 03:18:09.873445"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cuna"
 aliases:
  - "cuna"
@@ -39,8 +39,9 @@ aliases:
  - "orc-scan"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cuna"
-config: {"url": "https://biocontainers.pro/tools/cuna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cuna", "latest": {"0.2.0--pyhdfd78af_0": "sha256:338dfe1c604f8e89425db23eab252b46c357dd45b80f258455dcb9332a6f93e1"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:338dfe1c604f8e89425db23eab252b46c357dd45b80f258455dcb9332a6f93e1"}, "docker": "quay.io/biocontainers/cuna", "aliases": {"cuna": "/usr/local/bin/cuna", "h2benchmark": "/usr/local/bin/h2benchmark", "pod5": "/usr/local/bin/pod5", "ref-cache": "/usr/local/bin/ref-cache", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
+config: {"url": "https://biocontainers.pro/tools/cuna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cuna", "latest": {"0.3.0--pyhdfd78af_0": "sha256:5aa5284485154e67296975ceb19c5d43da3597a16f70b5ff89c50fa2920d932e"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:338dfe1c604f8e89425db23eab252b46c357dd45b80f258455dcb9332a6f93e1", "0.3.0--pyhdfd78af_0": "sha256:5aa5284485154e67296975ceb19c5d43da3597a16f70b5ff89c50fa2920d932e"}, "docker": "quay.io/biocontainers/cuna", "aliases": {"cuna": "/usr/local/bin/cuna", "h2benchmark": "/usr/local/bin/h2benchmark", "pod5": "/usr/local/bin/pod5", "ref-cache": "/usr/local/bin/ref-cache", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cuna.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/cuna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cuna:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cuna:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cuna/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cuna/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cuna/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cuna/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-peptidespectrummatching"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-peptidespectrummatching/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-peptidespectrummatching/container.yaml"
-updated_at: "2025-09-01 05:01:28.403171"
+updated_at: "2025-09-02 03:56:59.148529"
 latest: "0.0.7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-peptidespectrummatching"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mpboot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpboot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpboot/container.yaml"
-updated_at: "2025-09-01 04:59:26.752393"
+updated_at: "2025-09-02 03:55:04.850645"
 latest: "1.2--h503566f_0"
 container_url: "https://biocontainers.pro/tools/mpboot"
 aliases:
