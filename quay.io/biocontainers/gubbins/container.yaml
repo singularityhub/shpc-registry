@@ -17,6 +17,8 @@ tags:
     sha256:6335899ad6d161d81bd90bc6e0a0b6612f09a29fe6880928c7c47e84572e0f3e
   3.4--py310pl5321h577a1d6_3: 
     sha256:8dbfe6a59029e7167ec8922661ad4caf3f9304315d0007bc3ac6a90b0865a624
+  3.4.3--py39h746d604_0: 
+    sha256:1101ded211c6416820b5667c2d236e9257e71d3308273d09c1c7bf837a89e839
 docker: quay.io/biocontainers/gubbins
 aliases:
   extract_gubbins_clade.py: /usr/local/bin/extract_gubbins_clade.py

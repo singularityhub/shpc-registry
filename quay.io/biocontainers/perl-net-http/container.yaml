@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/perl-net-http
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-net-http
 latest:
-  6.22--pl5321hdfd78af_0: 
-    sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585
+  6.24--pl5321hdfd78af_0: 
+    sha256:ccd989f4d457f43a4c1218cc0fe36be25dd027c48136a9c9acd82e690db0abc0
 tags:
   6.22--pl5321hdfd78af_0: 
     sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585
+  6.24--pl5321hdfd78af_0: 
+    sha256:ccd989f4d457f43a4c1218cc0fe36be25dd027c48136a9c9acd82e690db0abc0
+  6.23--pl5321hdfd78af_0: 
+    sha256:b2d779d97ab25a85fb329a20ef05ebf8b9de9285551c563197edd15ea62dd768
 docker: quay.io/biocontainers/perl-net-http
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

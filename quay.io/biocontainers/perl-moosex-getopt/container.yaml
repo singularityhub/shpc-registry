@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-moosex-getopt
 latest:
-  0.75--pl5321hdfd78af_0: 
-    sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f
+  0.78--pl5321hdfd78af_0: 
+    sha256:a0ece12ad28302750cf6e4e5b7bf7125ffe2bb54acda4adc757980a954a78936
 tags:
   0.75--pl5321hdfd78af_0: 
     sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f
+  0.78--pl5321hdfd78af_0: 
+    sha256:a0ece12ad28302750cf6e4e5b7bf7125ffe2bb54acda4adc757980a954a78936
 docker: quay.io/biocontainers/perl-moosex-getopt
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

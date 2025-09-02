@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alfred
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for alfred
 latest:
-  0.3.2--h4d20210_1: 
-    sha256:5a9e9b86b04bf0deee961b451d842d3b47ae421a60d5ed7eb866db1a481dff75
+  0.5.1--h4d20210_0: 
+    sha256:956196211b79187e4f52d2eefc640472101d7ea682ff46bc14df2abd63c8428a
 tags:
   0.2.6--ha41ced6_1: 
     sha256:f5421a70045aed56fa245214c31ad2a121160121e2d7b4f8230371c03e98fa51
@@ -25,6 +25,8 @@ tags:
     sha256:52f4ed069dc53d8fd06fe4065249683772f5809f507f65f602625c75eb6bec75
   0.3.2--h4d20210_1: 
     sha256:5a9e9b86b04bf0deee961b451d842d3b47ae421a60d5ed7eb866db1a481dff75
+  0.5.1--h4d20210_0: 
+    sha256:956196211b79187e4f52d2eefc640472101d7ea682ff46bc14df2abd63c8428a
 docker: quay.io/biocontainers/alfred
 aliases:
   alfred: /usr/local/bin/alfred
