@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-moosex-nonmoose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-nonmoose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-nonmoose/container.yaml"
-updated_at: "2025-09-02 03:52:01.499536"
-latest: "0.26--pl5321hdfd78af_4"
+updated_at: "2025-09-03 03:41:37.145843"
+latest: "0.27--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-nonmoose"
 aliases:
  - "moose-outdated"
@@ -15,8 +15,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.26--pl5321hdfd78af_4"
+ - "0.27--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-moosex-nonmoose"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-nonmoose", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-nonmoose", "latest": {"0.26--pl5321hdfd78af_4": "sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac"}, "tags": {"0.26--pl5321hdfd78af_4": "sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac"}, "docker": "quay.io/biocontainers/perl-moosex-nonmoose", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-nonmoose", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-nonmoose", "latest": {"0.27--pl5321hdfd78af_0": "sha256:3967d9b7d2763a48dfe7284a3f834f082c69c18a7cb8bbf5760243250242c953"}, "tags": {"0.26--pl5321hdfd78af_4": "sha256:0264ffa97abf573b8441cdd3f10742923391a74b4f2075c0ea9038ba9f087eac", "0.27--pl5321hdfd78af_0": "sha256:3967d9b7d2763a48dfe7284a3f834f082c69c18a7cb8bbf5760243250242c953"}, "docker": "quay.io/biocontainers/perl-moosex-nonmoose", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-nonmoose.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-moosex-nonmoose
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-moosex-nonmoose:0.26--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-moosex-nonmoose:0.27--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-moosex-nonmoose/0.26--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-moosex-nonmoose/0.26--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-moosex-nonmoose/0.27--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-moosex-nonmoose/0.27--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

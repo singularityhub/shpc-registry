@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-edda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-edda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-edda/container.yaml"
-updated_at: "2025-09-02 03:54:17.845235"
+updated_at: "2025-09-03 03:43:58.992620"
 latest: "1.26.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-edda"
 aliases:

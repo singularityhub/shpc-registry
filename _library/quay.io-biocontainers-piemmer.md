@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piemmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piemmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piemmer/container.yaml"
-updated_at: "2025-09-02 03:31:03.908767"
+updated_at: "2025-09-03 03:20:06.608453"
 latest: "1.0.5--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/piemmer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-frenchfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frenchfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frenchfish/container.yaml"
-updated_at: "2025-09-02 03:11:12.098950"
+updated_at: "2025-09-03 02:59:50.942503"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frenchfish"
 

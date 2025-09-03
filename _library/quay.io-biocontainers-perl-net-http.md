@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-net-http"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-http/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-http/container.yaml"
-updated_at: "2025-09-02 03:49:55.514446"
-latest: "6.22--pl5321hdfd78af_0"
+updated_at: "2025-09-03 03:39:29.173472"
+latest: "6.24--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-net-http"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "6.22--pl5321hdfd78af_0"
+ - "6.24--pl5321hdfd78af_0"
+ - "6.23--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-net-http"
-config: {"url": "https://biocontainers.pro/tools/perl-net-http", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-net-http", "latest": {"6.22--pl5321hdfd78af_0": "sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585"}, "tags": {"6.22--pl5321hdfd78af_0": "sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585"}, "docker": "quay.io/biocontainers/perl-net-http", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-net-http", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-net-http", "latest": {"6.24--pl5321hdfd78af_0": "sha256:ccd989f4d457f43a4c1218cc0fe36be25dd027c48136a9c9acd82e690db0abc0"}, "tags": {"6.22--pl5321hdfd78af_0": "sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585", "6.24--pl5321hdfd78af_0": "sha256:ccd989f4d457f43a4c1218cc0fe36be25dd027c48136a9c9acd82e690db0abc0", "6.23--pl5321hdfd78af_0": "sha256:b2d779d97ab25a85fb329a20ef05ebf8b9de9285551c563197edd15ea62dd768"}, "docker": "quay.io/biocontainers/perl-net-http", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-net-http.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-net-http
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-net-http:6.22--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-net-http:6.24--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-net-http/6.22--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-net-http/6.22--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-net-http/6.24--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-net-http/6.24--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

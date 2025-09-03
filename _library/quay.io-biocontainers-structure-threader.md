@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/structure-threader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/structure-threader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/structure-threader/container.yaml"
-updated_at: "2025-09-02 03:50:57.611790"
-latest: "1.3.11--py313hdfd78af_0"
+updated_at: "2025-09-03 03:40:31.905412"
+latest: "1.3.11--py313hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/structure-threader"
 aliases:
  - "MavericK"
@@ -36,8 +36,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.3.11--py313hdfd78af_0"
+ - "1.3.11--py313hdfd78af_1"
 description: "singularity registry hpc automated addition for structure-threader"
-config: {"url": "https://biocontainers.pro/tools/structure-threader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for structure-threader", "latest": {"1.3.11--py313hdfd78af_0": "sha256:2f71c4dad6a0ccf2305341686dc339e293dec3aea80587c28be9bcfe6ad09a21"}, "tags": {"1.3.11--py313hdfd78af_0": "sha256:2f71c4dad6a0ccf2305341686dc339e293dec3aea80587c28be9bcfe6ad09a21"}, "docker": "quay.io/biocontainers/structure-threader", "aliases": {"MavericK": "/usr/local/bin/MavericK", "alstructure_wrapper.R": "/usr/local/bin/alstructure_wrapper.R", "fastStructure": "/usr/local/bin/fastStructure", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "structure": "/usr/local/bin/structure", "structure_threader": "/usr/local/bin/structure_threader", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/structure-threader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for structure-threader", "latest": {"1.3.11--py313hdfd78af_1": "sha256:6a264f8aa9ea69747fd10dd0dd1342db4a082d2c77442849a5cd734a334789be"}, "tags": {"1.3.11--py313hdfd78af_0": "sha256:2f71c4dad6a0ccf2305341686dc339e293dec3aea80587c28be9bcfe6ad09a21", "1.3.11--py313hdfd78af_1": "sha256:6a264f8aa9ea69747fd10dd0dd1342db4a082d2c77442849a5cd734a334789be"}, "docker": "quay.io/biocontainers/structure-threader", "aliases": {"MavericK": "/usr/local/bin/MavericK", "alstructure_wrapper.R": "/usr/local/bin/alstructure_wrapper.R", "fastStructure": "/usr/local/bin/fastStructure", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "structure": "/usr/local/bin/structure", "structure_threader": "/usr/local/bin/structure_threader", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/structure-threader.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/structure-threader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/structure-threader:1.3.11--py313hdfd78af_0
+$ shpc install quay.io/biocontainers/structure-threader:1.3.11--py313hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/structure-threader/1.3.11--py313hdfd78af_0
-$ module help quay.io/biocontainers/structure-threader/1.3.11--py313hdfd78af_0
+$ module load quay.io/biocontainers/structure-threader/1.3.11--py313hdfd78af_1
+$ module help quay.io/biocontainers/structure-threader/1.3.11--py313hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-minion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-minion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-minion/container.yaml"
-updated_at: "2025-09-02 03:38:19.481315"
-latest: "10.31--pl5321hdfd78af_0"
+updated_at: "2025-09-03 03:27:29.496214"
+latest: "11.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-minion"
 aliases:
  - "hypnotoad"
@@ -44,8 +44,9 @@ versions:
  - "10.29--pl5321hdfd78af_0"
  - "10.30--pl5321hdfd78af_0"
  - "10.31--pl5321hdfd78af_0"
+ - "11.0--pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for perl-minion"
-config: {"url": "https://biocontainers.pro/tools/perl-minion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-minion", "latest": {"10.31--pl5321hdfd78af_0": "sha256:985b22c89bc06cf2c0cfcc2bbeba37b31dfadd1f3475654afbd986e4c5adc686"}, "tags": {"10.25--pl5321hdfd78af_0": "sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2", "10.27--pl5321hdfd78af_0": "sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3", "10.26--pl5321hdfd78af_0": "sha256:43035972fbd10c4ebf1c6eb8cf7ecdaf482f1fa5987c71dcc735b9ad82580170", "10.28--pl5321hdfd78af_0": "sha256:349a1c0ee336e6a28961da55039ba87f632c9d386f8cdb38863f52d52bec789e", "10.29--pl5321hdfd78af_0": "sha256:e394c5343be4dc852ae053053b8edac5311a098ccc040b80738cc40699f104df", "10.30--pl5321hdfd78af_0": "sha256:21fe71f4b8fa27b098035bbfb81b8a07c355831bce7d6e28e63f620636da1e5d", "10.31--pl5321hdfd78af_0": "sha256:985b22c89bc06cf2c0cfcc2bbeba37b31dfadd1f3475654afbd986e4c5adc686"}, "docker": "quay.io/biocontainers/perl-minion", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
+config: {"url": "https://biocontainers.pro/tools/perl-minion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-minion", "latest": {"11.0--pl5321hdfd78af_0": "sha256:07e9a8ae46c7242f32c6dc6d70c844ce747fdff12315590aca05b56098f3a543"}, "tags": {"10.25--pl5321hdfd78af_0": "sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2", "10.27--pl5321hdfd78af_0": "sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3", "10.26--pl5321hdfd78af_0": "sha256:43035972fbd10c4ebf1c6eb8cf7ecdaf482f1fa5987c71dcc735b9ad82580170", "10.28--pl5321hdfd78af_0": "sha256:349a1c0ee336e6a28961da55039ba87f632c9d386f8cdb38863f52d52bec789e", "10.29--pl5321hdfd78af_0": "sha256:e394c5343be4dc852ae053053b8edac5311a098ccc040b80738cc40699f104df", "10.30--pl5321hdfd78af_0": "sha256:21fe71f4b8fa27b098035bbfb81b8a07c355831bce7d6e28e63f620636da1e5d", "10.31--pl5321hdfd78af_0": "sha256:985b22c89bc06cf2c0cfcc2bbeba37b31dfadd1f3475654afbd986e4c5adc686", "11.0--pl5321hdfd78af_0": "sha256:07e9a8ae46c7242f32c6dc6d70c844ce747fdff12315590aca05b56098f3a543"}, "docker": "quay.io/biocontainers/perl-minion", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-minion.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/perl-minion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-minion:10.31--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-minion:11.0--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-minion/10.31--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-minion/10.31--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-minion/11.0--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-minion/11.0--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

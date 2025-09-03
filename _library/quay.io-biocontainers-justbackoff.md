@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/justbackoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/justbackoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/justbackoff/container.yaml"
-updated_at: "2025-09-02 03:57:15.828620"
+updated_at: "2025-09-03 03:47:03.906789"
 latest: "0.4.0--py_1"
 container_url: "https://biocontainers.pro/tools/justbackoff"
 aliases:
