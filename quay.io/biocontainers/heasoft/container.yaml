@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/heasoft
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for heasoft
 latest:
-  6.35.2--hedafe93_0: 
-    sha256:78c138c6331b22562310352b5272fe4fc4c1dd02ef52b4d9479c08fcb8e2a162
+  6.35.2--hedafe93_1: 
+    sha256:7b401e9248501bfa0d62e612c84d6ce84d283acd336d36b5651e0879690408be
 tags:
   6.35.1--hedafe93_0: 
     sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729
@@ -11,6 +11,8 @@ tags:
     sha256:8389346bf6257140cd4a61cee8e0daed572c5c48b844abc641d59742ef2241ff
   6.35.2--hedafe93_0: 
     sha256:78c138c6331b22562310352b5272fe4fc4c1dd02ef52b4d9479c08fcb8e2a162
+  6.35.2--hedafe93_1: 
+    sha256:7b401e9248501bfa0d62e612c84d6ce84d283acd336d36b5651e0879690408be
 docker: quay.io/biocontainers/heasoft
 aliases:
   debugpy: /usr/local/bin/debugpy

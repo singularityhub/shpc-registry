@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-azimuth
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-azimuth
 latest:
-  0.5.0--r43hdbdd923_0: 
-    sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330
+  0.5.0--r44h503566f_2: 
+    sha256:a76362ebf2fde4398e50a3f8d7b6a115c5c2275afeabbf52b0288d00da9a6e72
 tags:
   0.5.0--r43hdbdd923_0: 
     sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330
+  0.5.0--r44h503566f_2: 
+    sha256:a76362ebf2fde4398e50a3f8d7b6a115c5c2275afeabbf52b0288d00da9a6e72
 docker: quay.io/biocontainers/r-azimuth
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-datetime
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-datetime
 latest:
-  1.65--pl5321h9948957_0: 
-    sha256:f78cf7c9d5916e0750751ddfc96d19ca9c05d2cd5f87727c84301bb3d1ddc6e1
+  1.66--pl5321h9948957_0: 
+    sha256:050d7fe643f7fff58b046e0c89c16791c37e09f8271d4180d057afc27205a3db
 tags:
   1.58--pl5321h9f5acd7_1: 
     sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc
@@ -15,4 +15,6 @@ tags:
     sha256:d1b932e7d1d9f90c2b45f9d9479425b39e6000866419f85b4ac6e746aa468511
   1.65--pl5321h9948957_0: 
     sha256:f78cf7c9d5916e0750751ddfc96d19ca9c05d2cd5f87727c84301bb3d1ddc6e1
+  1.66--pl5321h9948957_0: 
+    sha256:050d7fe643f7fff58b046e0c89c16791c37e09f8271d4180d057afc27205a3db
 docker: quay.io/biocontainers/perl-datetime

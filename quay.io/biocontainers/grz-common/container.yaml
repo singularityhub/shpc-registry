@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/grz-common
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-common
 latest:
-  1.2.0--pyhdfd78af_0: 
-    sha256:e9e72210683ff19ec6c3a8a6eef20d901560656c6e23af30d9874535b9326d62
+  1.3.0--pyhdfd78af_0: 
+    sha256:3d19431706a527b6a4b01b52bf3b922d2ec9cf34bf1f9e8c476c027487217be7
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:743bf023463b437eafe3cedf0a4e28d21447936ea332353e0fa5f61dca6566e0
@@ -15,6 +15,10 @@ tags:
     sha256:acd37eb9a44452adaa9a7512855e76dee90fc089ddca01545ca9c987b25ea3a1
   1.0.3--pyhdfd78af_0: 
     sha256:a443d4540b15cc23a307dd07bc488cf778b98a5453f5ccd8b627eaec9c31edfd
+  1.3.0--pyhdfd78af_0: 
+    sha256:3d19431706a527b6a4b01b52bf3b922d2ec9cf34bf1f9e8c476c027487217be7
+  1.2.1--pyhdfd78af_0: 
+    sha256:f675412754d6e6edc5738fd135b3ca69202d4ce21aabfd96a8bc90204aca2ce2
 docker: quay.io/biocontainers/grz-common
 aliases:
   crypt4gh: /usr/local/bin/crypt4gh

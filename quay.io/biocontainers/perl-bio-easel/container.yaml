@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-bio-easel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bio-easel
 latest:
-  0.16--pl5321h7b50bb2_2: 
-    sha256:3786336ac1296f76b30bb69c983ff5aa17179d96ed2d3eebd95dca2d594a1200
+  0.17--pl5321h7b50bb2_0: 
+    sha256:dd5a4624456faefee134cd550a60c621fd4d5ba64fd4f20d8e6f48efeddc483c
 tags:
   0.15--pl5321hec16e2b_2: 
     sha256:5b6155d97943e7c22e78385f4cd47b09428fc2de08c6935bf614e44f990c2ed8
@@ -13,6 +13,8 @@ tags:
     sha256:99249963c1cedee43ca488d8864cebe07d1944ed1a3710007429d205e4d1dd98
   0.16--pl5321h7b50bb2_2: 
     sha256:3786336ac1296f76b30bb69c983ff5aa17179d96ed2d3eebd95dca2d594a1200
+  0.17--pl5321h7b50bb2_0: 
+    sha256:dd5a4624456faefee134cd550a60c621fd4d5ba64fd4f20d8e6f48efeddc483c
 docker: quay.io/biocontainers/perl-bio-easel
 aliases:
   esl-alidepair.pl: /usr/local/bin/esl-alidepair.pl
