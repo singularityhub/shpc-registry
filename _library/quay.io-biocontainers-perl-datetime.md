@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-datetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime/container.yaml"
-updated_at: "2025-09-03 03:38:19.714512"
-latest: "1.65--pl5321h9948957_0"
+updated_at: "2025-09-04 03:39:17.633834"
+latest: "1.66--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.59--pl5321h4ac6f70_1"
  - "1.59--pl5321h9948957_2"
  - "1.65--pl5321h9948957_0"
+ - "1.66--pl5321h9948957_0"
 description: "shpc-registry automated BioContainers addition for perl-datetime"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime", "latest": {"1.65--pl5321h9948957_0": "sha256:f78cf7c9d5916e0750751ddfc96d19ca9c05d2cd5f87727c84301bb3d1ddc6e1"}, "tags": {"1.58--pl5321h9f5acd7_1": "sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc", "1.59--pl5321h9f5acd7_0": "sha256:829050a5ac76481ae22af618b416d93101929dd1f55427a4306b02bb3ded3375", "1.59--pl5321h4ac6f70_1": "sha256:372a1f48112bddfd78d1c5cbdf4ffc87436ab6c53a9b44ee8a14940036f05136", "1.59--pl5321h9948957_2": "sha256:d1b932e7d1d9f90c2b45f9d9479425b39e6000866419f85b4ac6e746aa468511", "1.65--pl5321h9948957_0": "sha256:f78cf7c9d5916e0750751ddfc96d19ca9c05d2cd5f87727c84301bb3d1ddc6e1"}, "docker": "quay.io/biocontainers/perl-datetime"}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime", "latest": {"1.66--pl5321h9948957_0": "sha256:050d7fe643f7fff58b046e0c89c16791c37e09f8271d4180d057afc27205a3db"}, "tags": {"1.58--pl5321h9f5acd7_1": "sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc", "1.59--pl5321h9f5acd7_0": "sha256:829050a5ac76481ae22af618b416d93101929dd1f55427a4306b02bb3ded3375", "1.59--pl5321h4ac6f70_1": "sha256:372a1f48112bddfd78d1c5cbdf4ffc87436ab6c53a9b44ee8a14940036f05136", "1.59--pl5321h9948957_2": "sha256:d1b932e7d1d9f90c2b45f9d9479425b39e6000866419f85b4ac6e746aa468511", "1.65--pl5321h9948957_0": "sha256:f78cf7c9d5916e0750751ddfc96d19ca9c05d2cd5f87727c84301bb3d1ddc6e1", "1.66--pl5321h9948957_0": "sha256:050d7fe643f7fff58b046e0c89c16791c37e09f8271d4180d057afc27205a3db"}, "docker": "quay.io/biocontainers/perl-datetime"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-datetime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-datetime:1.65--pl5321h9948957_0
+$ shpc install quay.io/biocontainers/perl-datetime:1.66--pl5321h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-datetime/1.65--pl5321h9948957_0
-$ module help quay.io/biocontainers/perl-datetime/1.65--pl5321h9948957_0
+$ module load quay.io/biocontainers/perl-datetime/1.66--pl5321h9948957_0
+$ module help quay.io/biocontainers/perl-datetime/1.66--pl5321h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

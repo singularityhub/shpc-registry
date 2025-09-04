@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamdash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamdash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamdash/container.yaml"
-updated_at: "2025-09-03 03:47:45.836033"
-latest: "0.4.3--pyhdfd78af_0"
+updated_at: "2025-09-04 03:48:26.216158"
+latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamdash"
 aliases:
  - "bamdash"
@@ -27,8 +27,9 @@ versions:
  - "0.2.4--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
  - "0.4.3--pyhdfd78af_0"
+ - "0.4.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bamdash"
-config: {"url": "https://biocontainers.pro/tools/bamdash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamdash", "latest": {"0.4.3--pyhdfd78af_0": "sha256:faa0f25a53361b5713b305701175646e37d141aad2049e34dc88904746b73488"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89", "0.2.2--pyhdfd78af_0": "sha256:19a0d354a4f8af8198cc77976f545fdf2ab288913f36a1931e26bfb9f46dbe62", "0.2.3--pyhdfd78af_0": "sha256:8ae7b5d05d47492a0038ba9c5bdef9d2b5b3e4214b7ebddc06c84b3ff59f384a", "0.2.4--pyhdfd78af_0": "sha256:5448bef748798f6ab7bd013049319fec12c011e678593af9a98f265701504bd9", "0.3.1--pyhdfd78af_0": "sha256:616c90010dcc1c9841ee2ba721f2001ceec40c6a5ab01dcbf53a523cbc2248d9", "0.4.3--pyhdfd78af_0": "sha256:faa0f25a53361b5713b305701175646e37d141aad2049e34dc88904746b73488"}, "docker": "quay.io/biocontainers/bamdash", "aliases": {"bamdash": "/usr/local/bin/bamdash", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bamdash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamdash", "latest": {"0.4.4--pyhdfd78af_0": "sha256:98a84a9f372692a003382061d1dd1087cc25c12fff78a954b0fd019e10786800"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89", "0.2.2--pyhdfd78af_0": "sha256:19a0d354a4f8af8198cc77976f545fdf2ab288913f36a1931e26bfb9f46dbe62", "0.2.3--pyhdfd78af_0": "sha256:8ae7b5d05d47492a0038ba9c5bdef9d2b5b3e4214b7ebddc06c84b3ff59f384a", "0.2.4--pyhdfd78af_0": "sha256:5448bef748798f6ab7bd013049319fec12c011e678593af9a98f265701504bd9", "0.3.1--pyhdfd78af_0": "sha256:616c90010dcc1c9841ee2ba721f2001ceec40c6a5ab01dcbf53a523cbc2248d9", "0.4.3--pyhdfd78af_0": "sha256:faa0f25a53361b5713b305701175646e37d141aad2049e34dc88904746b73488", "0.4.4--pyhdfd78af_0": "sha256:98a84a9f372692a003382061d1dd1087cc25c12fff78a954b0fd019e10786800"}, "docker": "quay.io/biocontainers/bamdash", "aliases": {"bamdash": "/usr/local/bin/bamdash", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamdash.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bamdash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamdash:0.4.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bamdash:0.4.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamdash/0.4.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/bamdash/0.4.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/bamdash/0.4.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/bamdash/0.4.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

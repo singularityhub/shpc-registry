@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-azimuth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-azimuth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-azimuth/container.yaml"
-updated_at: "2025-09-03 03:12:01.495393"
-latest: "0.5.0--r43hdbdd923_0"
+updated_at: "2025-09-04 03:13:22.312498"
+latest: "0.5.0--r44h503566f_2"
 container_url: "https://biocontainers.pro/tools/r-azimuth"
 aliases:
  - "pandoc-lua"
@@ -36,8 +36,9 @@ aliases:
  - "h5format_convert"
 versions:
  - "0.5.0--r43hdbdd923_0"
+ - "0.5.0--r44h503566f_2"
 description: "singularity registry hpc automated addition for r-azimuth"
-config: {"url": "https://biocontainers.pro/tools/r-azimuth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-azimuth", "latest": {"0.5.0--r43hdbdd923_0": "sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330"}, "tags": {"0.5.0--r43hdbdd923_0": "sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330"}, "docker": "quay.io/biocontainers/r-azimuth", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
+config: {"url": "https://biocontainers.pro/tools/r-azimuth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-azimuth", "latest": {"0.5.0--r44h503566f_2": "sha256:a76362ebf2fde4398e50a3f8d7b6a115c5c2275afeabbf52b0288d00da9a6e72"}, "tags": {"0.5.0--r43hdbdd923_0": "sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330", "0.5.0--r44h503566f_2": "sha256:a76362ebf2fde4398e50a3f8d7b6a115c5c2275afeabbf52b0288d00da9a6e72"}, "docker": "quay.io/biocontainers/r-azimuth", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-azimuth.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/r-azimuth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-azimuth:0.5.0--r43hdbdd923_0
+$ shpc install quay.io/biocontainers/r-azimuth:0.5.0--r44h503566f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-azimuth/0.5.0--r43hdbdd923_0
-$ module help quay.io/biocontainers/r-azimuth/0.5.0--r43hdbdd923_0
+$ module load quay.io/biocontainers/r-azimuth/0.5.0--r44h503566f_2
+$ module help quay.io/biocontainers/r-azimuth/0.5.0--r44h503566f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

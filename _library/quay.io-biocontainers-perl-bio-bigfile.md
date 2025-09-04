@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-bigfile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-bigfile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-bigfile/container.yaml"
-updated_at: "2025-09-03 03:45:15.647205"
-latest: "1.07--pl5321h41f7678_5"
+updated_at: "2025-09-04 03:45:59.403708"
+latest: "1.07--pl5321h41f7678_7"
 container_url: "https://biocontainers.pro/tools/perl-bio-bigfile"
 aliases:
  - "bigWigToWig.pl"
@@ -52,8 +52,9 @@ versions:
  - "1.07--pl5321h0e0aaa8_3"
  - "1.07--pl5321h84c94e8_4"
  - "1.07--pl5321h41f7678_5"
+ - "1.07--pl5321h41f7678_7"
 description: "shpc-registry automated BioContainers addition for perl-bio-bigfile"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-bigfile", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-bigfile", "latest": {"1.07--pl5321h41f7678_5": "sha256:aa94f9858c56735fd1d0c78acd6e915fee43cbed929a8ad87ee2af497565a984"}, "tags": {"1.07--pl526hab1572f_1": "sha256:1a20db37bc1ba1e679ebe4d6a7483d00263ef17ff2812dd5882ca18d862aaded", "1.07--pl5321h0e0aaa8_3": "sha256:8aec7603ddfb3086d96a0754e4c6198d61deff0a50557afadda578a3ac336dcf", "1.07--pl5321h84c94e8_4": "sha256:2079082675435b5cdf81cb324ef1a4bfcb48187542a7239a8e018e99b5b40ce6", "1.07--pl5321h41f7678_5": "sha256:aa94f9858c56735fd1d0c78acd6e915fee43cbed929a8ad87ee2af497565a984"}, "docker": "quay.io/biocontainers/perl-bio-bigfile", "aliases": {"bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "ibd2sdi": "/usr/local/bin/ibd2sdi", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "innochecksum": "/usr/local/bin/innochecksum", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql.server": "/usr/local/bin/mysql.server", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-bigfile", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-bigfile", "latest": {"1.07--pl5321h41f7678_7": "sha256:75870059e454aa7102bfcd681ba83be6aa484d499db64ba94bf2aabb92c386f8"}, "tags": {"1.07--pl526hab1572f_1": "sha256:1a20db37bc1ba1e679ebe4d6a7483d00263ef17ff2812dd5882ca18d862aaded", "1.07--pl5321h0e0aaa8_3": "sha256:8aec7603ddfb3086d96a0754e4c6198d61deff0a50557afadda578a3ac336dcf", "1.07--pl5321h84c94e8_4": "sha256:2079082675435b5cdf81cb324ef1a4bfcb48187542a7239a8e018e99b5b40ce6", "1.07--pl5321h41f7678_5": "sha256:aa94f9858c56735fd1d0c78acd6e915fee43cbed929a8ad87ee2af497565a984", "1.07--pl5321h41f7678_7": "sha256:75870059e454aa7102bfcd681ba83be6aa484d499db64ba94bf2aabb92c386f8"}, "docker": "quay.io/biocontainers/perl-bio-bigfile", "aliases": {"bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "ibd2sdi": "/usr/local/bin/ibd2sdi", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "innochecksum": "/usr/local/bin/innochecksum", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql.server": "/usr/local/bin/mysql.server", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-bigfile.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/perl-bio-bigfile
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-bigfile:1.07--pl5321h41f7678_5
+$ shpc install quay.io/biocontainers/perl-bio-bigfile:1.07--pl5321h41f7678_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-bigfile/1.07--pl5321h41f7678_5
-$ module help quay.io/biocontainers/perl-bio-bigfile/1.07--pl5321h41f7678_5
+$ module load quay.io/biocontainers/perl-bio-bigfile/1.07--pl5321h41f7678_7
+$ module help quay.io/biocontainers/perl-bio-bigfile/1.07--pl5321h41f7678_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

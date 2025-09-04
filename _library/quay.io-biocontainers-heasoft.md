@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/heasoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heasoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heasoft/container.yaml"
-updated_at: "2025-09-03 03:04:00.602825"
-latest: "6.35.2--hedafe93_0"
+updated_at: "2025-09-04 03:05:10.150432"
+latest: "6.35.2--hedafe93_1"
 container_url: "https://biocontainers.pro/tools/heasoft"
 aliases:
  - "debugpy"
@@ -58,8 +58,9 @@ versions:
  - "6.35.1--hedafe93_0"
  - "6.35.1--hedafe93_1"
  - "6.35.2--hedafe93_0"
+ - "6.35.2--hedafe93_1"
 description: "singularity registry hpc automated addition for heasoft"
-config: {"url": "https://biocontainers.pro/tools/heasoft", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for heasoft", "latest": {"6.35.2--hedafe93_0": "sha256:78c138c6331b22562310352b5272fe4fc4c1dd02ef52b4d9479c08fcb8e2a162"}, "tags": {"6.35.1--hedafe93_0": "sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729", "6.35.1--hedafe93_1": "sha256:8389346bf6257140cd4a61cee8e0daed572c5c48b844abc641d59742ef2241ff", "6.35.2--hedafe93_0": "sha256:78c138c6331b22562310352b5272fe4fc4c1dd02ef52b4d9479c08fcb8e2a162"}, "docker": "quay.io/biocontainers/heasoft", "aliases": {"debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "h2benchmark": "/usr/local/bin/h2benchmark", "ld": "/usr/local/bin/ld", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "showtable-astropy": "/usr/local/bin/showtable-astropy", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "dask": "/usr/local/bin/dask", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "curve_keygen": "/usr/local/bin/curve_keygen", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython"}}
+config: {"url": "https://biocontainers.pro/tools/heasoft", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for heasoft", "latest": {"6.35.2--hedafe93_1": "sha256:7b401e9248501bfa0d62e612c84d6ce84d283acd336d36b5651e0879690408be"}, "tags": {"6.35.1--hedafe93_0": "sha256:aa88c37a6fce696755d4895454999dfebdbdcf2f666bf3851fe5c3159edcd729", "6.35.1--hedafe93_1": "sha256:8389346bf6257140cd4a61cee8e0daed572c5c48b844abc641d59742ef2241ff", "6.35.2--hedafe93_0": "sha256:78c138c6331b22562310352b5272fe4fc4c1dd02ef52b4d9479c08fcb8e2a162", "6.35.2--hedafe93_1": "sha256:7b401e9248501bfa0d62e612c84d6ce84d283acd336d36b5651e0879690408be"}, "docker": "quay.io/biocontainers/heasoft", "aliases": {"debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "h2benchmark": "/usr/local/bin/h2benchmark", "ld": "/usr/local/bin/ld", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "showtable-astropy": "/usr/local/bin/showtable-astropy", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "dask": "/usr/local/bin/dask", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "curve_keygen": "/usr/local/bin/curve_keygen", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/heasoft.
@@ -74,7 +75,7 @@ $ shpc install quay.io/biocontainers/heasoft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/heasoft:6.35.2--hedafe93_0
+$ shpc install quay.io/biocontainers/heasoft:6.35.2--hedafe93_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/heasoft/6.35.2--hedafe93_0
-$ module help quay.io/biocontainers/heasoft/6.35.2--hedafe93_0
+$ module load quay.io/biocontainers/heasoft/6.35.2--hedafe93_1
+$ module help quay.io/biocontainers/heasoft/6.35.2--hedafe93_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
