@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/trimmomatic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trimmomatic
 latest:
-  0.39--hdfd78af_2: 
-    sha256:b52e7e3159fda36b7b5c119a9a1e673e6a63e480eff8617b689c031f76998870
+  0.40--hdfd78af_0: 
+    sha256:3264d96f3aa0d095d6792b92180357cb74a15c6d93445baa1677386c1dae659f
 tags:
   0.39--hdfd78af_2: 
     sha256:b52e7e3159fda36b7b5c119a9a1e673e6a63e480eff8617b689c031f76998870
+  0.40--hdfd78af_0: 
+    sha256:3264d96f3aa0d095d6792b92180357cb74a15c6d93445baa1677386c1dae659f
 docker: quay.io/biocontainers/trimmomatic
 aliases:
   trimmomatic: /usr/local/bin/trimmomatic

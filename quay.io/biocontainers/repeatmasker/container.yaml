@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/repeatmasker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for repeatmasker
 latest:
-  4.1.9--pl5321hdfd78af_0: 
-    sha256:fffed03dd6967cff454f08b273f6f6b8f2d17330441b88207d2c9e748a7a3309
+  4.2.1--pl5321hdfd78af_0: 
+    sha256:2a0b1966e790eb54e2f89421e5c1a493db69e47adf505f58b2d10f910f7d733a
 tags:
   4.1.2.p1--pl5321hdfd78af_1: 
     sha256:c1e8e28e521e04cd0477e78771aa31f4e3e208204dfc986aeb7ce97d2b007c22
@@ -17,6 +17,8 @@ tags:
     sha256:c12473b260964cac3e6398a188868084db240b358fe573ef20586fb86a608540
   4.1.9--pl5321hdfd78af_0: 
     sha256:fffed03dd6967cff454f08b273f6f6b8f2d17330441b88207d2c9e748a7a3309
+  4.2.1--pl5321hdfd78af_0: 
+    sha256:2a0b1966e790eb54e2f89421e5c1a493db69e47adf505f58b2d10f910f7d733a
 docker: quay.io/biocontainers/repeatmasker
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats

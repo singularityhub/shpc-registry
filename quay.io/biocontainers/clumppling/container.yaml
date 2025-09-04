@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/clumppling
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clumppling
 latest:
-  0.3.2--pyhdfd78af_0: 
-    sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad
+  1.0.2--pyhdfd78af_0: 
+    sha256:15cdba909aa28be3b95dc99f4b7351cf54e08e15462685ba73b45710971c0bf5
 tags:
   0.3.2--pyhdfd78af_0: 
     sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad
+  1.0.2--pyhdfd78af_0: 
+    sha256:15cdba909aa28be3b95dc99f4b7351cf54e08e15462685ba73b45710971c0bf5
 docker: quay.io/biocontainers/clumppling
 aliases:
   community: /usr/local/bin/community

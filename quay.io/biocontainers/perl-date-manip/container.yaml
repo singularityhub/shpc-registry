@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-date-manip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-date-manip
 latest:
-  6.88--pl5321hdfd78af_0: 
-    sha256:40d5912a2e28cd49e7400f1c77f201b0a479b0636e53929f20c2c1ff36b4d260
+  6.98--pl5321hdfd78af_0: 
+    sha256:f372da06249dc22b6a1ff8776ad7bd70e0f9184207ef27d891660b488f3076dd
 tags:
   6.88--pl5321hdfd78af_0: 
     sha256:40d5912a2e28cd49e7400f1c77f201b0a479b0636e53929f20c2c1ff36b4d260
+  6.98--pl5321hdfd78af_0: 
+    sha256:f372da06249dc22b6a1ff8776ad7bd70e0f9184207ef27d891660b488f3076dd
 docker: quay.io/biocontainers/perl-date-manip
 aliases:
   dm_date: /usr/local/bin/dm_date

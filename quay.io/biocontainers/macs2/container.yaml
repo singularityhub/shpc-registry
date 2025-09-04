@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/macs2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for macs2
 latest:
-  2.2.9.1--py39hbcbf7aa_3: 
-    sha256:626b8772df0f8814510a7020747bfad414b3fe61e766b9f146b87f32b2747efc
+  2.2.9.1--py311haab0aaa_4: 
+    sha256:6a3fca1b38c3a6fb8829708a7835c420302a91aa50b0c6e1df09d157fab31a1b
 tags:
   2.2.7.1--py38hbff2b2d_5: 
     sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10
@@ -17,6 +17,8 @@ tags:
     sha256:92483b3cddae71c954853f38cee7ce1c49d0370d7624de051a8779275a2b8877
   2.2.9.1--py39hbcbf7aa_3: 
     sha256:626b8772df0f8814510a7020747bfad414b3fe61e766b9f146b87f32b2747efc
+  2.2.9.1--py311haab0aaa_4: 
+    sha256:6a3fca1b38c3a6fb8829708a7835c420302a91aa50b0c6e1df09d157fab31a1b
 docker: quay.io/biocontainers/macs2
 aliases:
   macs2: /usr/local/bin/macs2

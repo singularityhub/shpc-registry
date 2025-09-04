@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pybdei
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pybdei
 latest:
-  0.13--py312h19d751e_0: 
-    sha256:6def5028bfd3617d283c793ba59b88d5c1593c53f5a6e53253cd2613ee22df29
+  0.13--py310hef477bb_1: 
+    sha256:2d1ad82ff7fc2cd9a03e7209d75a4098bdcd2d86345c8756da8a341d00083d39
 tags:
   0.13--py312h19d751e_0: 
     sha256:6def5028bfd3617d283c793ba59b88d5c1593c53f5a6e53253cd2613ee22df29
+  0.13--py310hef477bb_1: 
+    sha256:2d1ad82ff7fc2cd9a03e7209d75a4098bdcd2d86345c8756da8a341d00083d39
 docker: quay.io/biocontainers/pybdei
 aliases:
   bdei_infer: /usr/local/bin/bdei_infer

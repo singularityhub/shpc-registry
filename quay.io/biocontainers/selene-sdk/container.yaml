@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/selene-sdk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for selene-sdk
 latest:
-  0.6.0--py38h7b50bb2_1: 
-    sha256:7401ffb6fd5aed84cf9f133504543070e3a2f7cc3ad31a065f3311ac33c4a4a1
+  0.6.0--py312h0fa9677_2: 
+    sha256:f323e59c0c29bc6890e616ce7c08905f758f3fc04ac4ec580ee5bc72584e4764
 tags:
   0.5.0--py37h77a2a36_1: 
     sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e
@@ -19,6 +19,8 @@ tags:
     sha256:84091579c88f5337804f1f34e8ed4631959dd797918def4d9f792446d6934d83
   0.6.0--py38h7b50bb2_1: 
     sha256:7401ffb6fd5aed84cf9f133504543070e3a2f7cc3ad31a065f3311ac33c4a4a1
+  0.6.0--py312h0fa9677_2: 
+    sha256:f323e59c0c29bc6890e616ce7c08905f758f3fc04ac4ec580ee5bc72584e4764
 docker: quay.io/biocontainers/selene-sdk
 aliases:
   selene_sdk: /usr/local/bin/selene_sdk

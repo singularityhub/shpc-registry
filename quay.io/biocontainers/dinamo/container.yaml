@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dinamo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dinamo
 latest:
-  1.0--h9948957_7: 
-    sha256:e7fcc07237130e8ffbb1e3a0ca247d80bb60c151dca41eacd4d0a139bbc255d0
+  1.0--h9948957_8: 
+    sha256:76d803f8154815e53dcde484d2481ed884b2ddee6c7b5c8c4fb04f6ac60bdedc
 tags:
   1.0--h2df963e_2: 
     sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3
@@ -17,6 +17,8 @@ tags:
     sha256:4a136d45a85d64b8552b50eaa72b9225a14bd5410f4e912bacdf50e38d1d0457
   1.0--h9948957_7: 
     sha256:e7fcc07237130e8ffbb1e3a0ca247d80bb60c151dca41eacd4d0a139bbc255d0
+  1.0--h9948957_8: 
+    sha256:76d803f8154815e53dcde484d2481ed884b2ddee6c7b5c8c4fb04f6ac60bdedc
 docker: quay.io/biocontainers/dinamo
 aliases:
   dinamo: /usr/local/bin/dinamo

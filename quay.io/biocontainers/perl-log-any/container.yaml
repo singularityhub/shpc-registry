@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-log-any
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-log-any
 latest:
-  1.710--pl5321hdfd78af_0: 
-    sha256:d29ad40e05510837a43ccd6095abba878e4f91742d24d41969371bc2f5505e00
+  1.718--pl5321hdfd78af_0: 
+    sha256:a6f72754459fa4e176ca6104900c8c60a57806b472e5aec8c1a9cfbeadfd65d9
 tags:
   1.710--pl5321hdfd78af_0: 
     sha256:d29ad40e05510837a43ccd6095abba878e4f91742d24d41969371bc2f5505e00
+  1.718--pl5321hdfd78af_0: 
+    sha256:a6f72754459fa4e176ca6104900c8c60a57806b472e5aec8c1a9cfbeadfd65d9
 docker: quay.io/biocontainers/perl-log-any
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
