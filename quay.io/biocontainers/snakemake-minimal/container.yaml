@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   snakemake-minimal
 latest:
-  9.9.0--pyhdfd78af_0: 
-    sha256:457ac76c1ee0ba60af3024bd5b64b92b3708ee434b7a71c9cda05e29f979f38f
+  9.10.1--pyhdfd78af_0: 
+    sha256:3abf908ef042da8ff9c6ec6246bac51e72fbc1fc8dedb4a6ae5e0b8f090306f5
 tags:
   5.9.1--py_0: 
     sha256:d0c0397751c49c07d7b23e406fce211450ee937c49fc294364fddb3f070975b1
@@ -100,6 +100,8 @@ tags:
     sha256:457ac76c1ee0ba60af3024bd5b64b92b3708ee434b7a71c9cda05e29f979f38f
   9.8.2--pyhdfd78af_0: 
     sha256:012991d8086efc49564e3fe53163fc8722ab002bc674194e883afa3225a6351a
+  9.10.1--pyhdfd78af_0: 
+    sha256:3abf908ef042da8ff9c6ec6246bac51e72fbc1fc8dedb4a6ae5e0b8f090306f5
 docker: quay.io/biocontainers/snakemake-minimal
 aliases:
   snakemake: /usr/local/bin/snakemake

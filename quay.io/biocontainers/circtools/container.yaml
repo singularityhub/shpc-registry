@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/circtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for circtools
 latest:
-  2.0.1--pyhdfd78af_0: 
-    sha256:22bdf4dbd9a0874a233909b229e3645382281c4918a33a0a1bd7097fd18207a4
+  2.0.3--pyhdfd78af_0: 
+    sha256:64d839ee75dab57e3e42818190f053fa2bf3e1e29932dc4d9dfa50a302c55b1b
 tags:
   1.2.1--pyh7cba7a3_0: 
     sha256:7317627874031c4c9924d40b76602662a2d400c9ee4c1c626998c287e5e7bd65
@@ -17,6 +17,8 @@ tags:
     sha256:ba27503d61226cb468385da4ce7ba6a4688f5d0a59f6749f0212b46847032ea0
   2.0.1--pyhdfd78af_0: 
     sha256:22bdf4dbd9a0874a233909b229e3645382281c4918a33a0a1bd7097fd18207a4
+  2.0.3--pyhdfd78af_0: 
+    sha256:64d839ee75dab57e3e42818190f053fa2bf3e1e29932dc4d9dfa50a302c55b1b
 docker: quay.io/biocontainers/circtools
 aliases:
   DCC: /usr/local/bin/DCC

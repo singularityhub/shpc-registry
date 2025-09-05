@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phcue-ck
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phcue-ck
 latest:
-  0.2.0--hc234bb7_3: 
-    sha256:2f325db39efe48fd124d43af26f980e98e4d6241b1d81ae7bab853cba3147f7d
+  0.2.0--h3dc2dae_4: 
+    sha256:d1a4afeda2e5eee2c156d5b38f913cb3a71d389ea66ff9d144570c2ada4283b4
 tags:
   0.2.0--h1f4ba0c_0: 
     sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550
@@ -11,6 +11,8 @@ tags:
     sha256:ddd4e8463e210aaff076345b37cf87c508295a2c8d791aca617ddfcd317bb936
   0.2.0--hc234bb7_3: 
     sha256:2f325db39efe48fd124d43af26f980e98e4d6241b1d81ae7bab853cba3147f7d
+  0.2.0--h3dc2dae_4: 
+    sha256:d1a4afeda2e5eee2c156d5b38f913cb3a71d389ea66ff9d144570c2ada4283b4
 docker: quay.io/biocontainers/phcue-ck
 aliases:
   phcue-ck: /usr/local/bin/phcue-ck

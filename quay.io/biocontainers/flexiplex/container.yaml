@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/flexiplex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexiplex
 latest:
-  1.02.4--py310h184ae93_0: 
-    sha256:a0684525ff1775d1e3a6eab7c3d5e18cf1d271418423b53c2eac07bdf247aef7
+  1.02.5--py39h2de1943_0: 
+    sha256:33064dc9183f12c59f528f9538769ac0f1b455ec13df523811eeb12520dde254
 tags:
   0.97.1--py39h1f90b4d_0: 
     sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3
@@ -25,6 +25,8 @@ tags:
     sha256:51f8da3e68b2e0205616dc7efab7b546e47949a717e3014768bcc054f59f9916
   1.02.4--py310h184ae93_0: 
     sha256:a0684525ff1775d1e3a6eab7c3d5e18cf1d271418423b53c2eac07bdf247aef7
+  1.02.5--py39h2de1943_0: 
+    sha256:33064dc9183f12c59f528f9538769ac0f1b455ec13df523811eeb12520dde254
 docker: quay.io/biocontainers/flexiplex
 aliases:
   flexiplex: /usr/local/bin/flexiplex
