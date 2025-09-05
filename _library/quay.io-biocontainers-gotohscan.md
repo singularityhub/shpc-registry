@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gotohscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotohscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotohscan/container.yaml"
-updated_at: "2025-09-04 03:31:19.341785"
+updated_at: "2025-09-05 03:33:22.830340"
 latest: "2.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/gotohscan"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "1.3--h7b50bb2_7"
  - "2.0--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for gotohscan"
-config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"2.0--h7b50bb2_0": "sha256:7c73ebb50f612361d31803810f18d0ffff3b5d13339aabe96cd82880da03d90a"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae", "1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4", "1.3--h7b50bb2_7": "sha256:3a6e2850100990e3e87537234f8d2058a70c855144fd491e585e18d8bdda57fe", "2.0--h7b50bb2_0": "sha256:7c73ebb50f612361d31803810f18d0ffff3b5d13339aabe96cd82880da03d90a"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
+config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"2.0--h7b50bb2_0": "sha256:dc4c9a0224b8d5d2d03ed07382a2793492ec0727b08fb9adb55a1c222a67a908"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae", "1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4", "1.3--h7b50bb2_7": "sha256:3a6e2850100990e3e87537234f8d2058a70c855144fd491e585e18d8bdda57fe", "2.0--h7b50bb2_0": "sha256:dc4c9a0224b8d5d2d03ed07382a2793492ec0727b08fb9adb55a1c222a67a908"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gotohscan.

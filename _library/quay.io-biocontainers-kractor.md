@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/kractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kractor/container.yaml"
-updated_at: "2025-09-04 03:22:39.480335"
-latest: "1.0.1--h4349ce8_0"
+updated_at: "2025-09-05 03:24:53.718951"
+latest: "2.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kractor"
 aliases:
  - "kractor"
 versions:
  - "1.0.0--h4349ce8_0"
  - "1.0.1--h4349ce8_0"
+ - "2.0.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for kractor"
-config: {"url": "https://biocontainers.pro/tools/kractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kractor", "latest": {"1.0.1--h4349ce8_0": "sha256:1a9a715084dae52e436c7a291d0585ae68674ecd1a28163124c41d8a17e301bf"}, "tags": {"1.0.0--h4349ce8_0": "sha256:7596b534ec304f43aedf897766f976a86307bbca13604dc8b1e67fbfe35a6801", "1.0.1--h4349ce8_0": "sha256:1a9a715084dae52e436c7a291d0585ae68674ecd1a28163124c41d8a17e301bf"}, "docker": "quay.io/biocontainers/kractor", "aliases": {"kractor": "/usr/local/bin/kractor"}}
+config: {"url": "https://biocontainers.pro/tools/kractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kractor", "latest": {"2.0.0--h4349ce8_0": "sha256:6c68c3089085440655dc70b22250265f5fbce25f4ab1c389d358ed65c3e3b564"}, "tags": {"1.0.0--h4349ce8_0": "sha256:7596b534ec304f43aedf897766f976a86307bbca13604dc8b1e67fbfe35a6801", "1.0.1--h4349ce8_0": "sha256:1a9a715084dae52e436c7a291d0585ae68674ecd1a28163124c41d8a17e301bf", "2.0.0--h4349ce8_0": "sha256:6c68c3089085440655dc70b22250265f5fbce25f4ab1c389d358ed65c3e3b564"}, "docker": "quay.io/biocontainers/kractor", "aliases": {"kractor": "/usr/local/bin/kractor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kractor.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/kractor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kractor:1.0.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/kractor:2.0.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kractor/1.0.1--h4349ce8_0
-$ module help quay.io/biocontainers/kractor/1.0.1--h4349ce8_0
+$ module load quay.io/biocontainers/kractor/2.0.0--h4349ce8_0
+$ module help quay.io/biocontainers/kractor/2.0.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

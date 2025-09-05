@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybdei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybdei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybdei/container.yaml"
-updated_at: "2025-09-04 03:30:10.034351"
-latest: "0.13--py312h19d751e_0"
+updated_at: "2025-09-05 03:32:13.325897"
+latest: "0.13--py310hef477bb_1"
 container_url: "https://biocontainers.pro/tools/pybdei"
 aliases:
  - "bdei_infer"
@@ -42,8 +42,9 @@ aliases:
  - "lupdate-pro"
 versions:
  - "0.13--py312h19d751e_0"
+ - "0.13--py310hef477bb_1"
 description: "singularity registry hpc automated addition for pybdei"
-config: {"url": "https://biocontainers.pro/tools/pybdei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybdei", "latest": {"0.13--py312h19d751e_0": "sha256:6def5028bfd3617d283c793ba59b88d5c1593c53f5a6e53253cd2613ee22df29"}, "tags": {"0.13--py312h19d751e_0": "sha256:6def5028bfd3617d283c793ba59b88d5c1593c53f5a6e53253cd2613ee22df29"}, "docker": "quay.io/biocontainers/pybdei", "aliases": {"bdei_infer": "/usr/local/bin/bdei_infer", "bdei_loglikelihood": "/usr/local/bin/bdei_loglikelihood", "bdei_u": "/usr/local/bin/bdei_u", "generate_bd": "/usr/local/bin/generate_bd", "generate_bdei": "/usr/local/bin/generate_bdei", "generate_bdss": "/usr/local/bin/generate_bdss", "generate_mtbd": "/usr/local/bin/generate_mtbd", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "numpy-config": "/usr/local/bin/numpy-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
+config: {"url": "https://biocontainers.pro/tools/pybdei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybdei", "latest": {"0.13--py310hef477bb_1": "sha256:2d1ad82ff7fc2cd9a03e7209d75a4098bdcd2d86345c8756da8a341d00083d39"}, "tags": {"0.13--py312h19d751e_0": "sha256:6def5028bfd3617d283c793ba59b88d5c1593c53f5a6e53253cd2613ee22df29", "0.13--py310hef477bb_1": "sha256:2d1ad82ff7fc2cd9a03e7209d75a4098bdcd2d86345c8756da8a341d00083d39"}, "docker": "quay.io/biocontainers/pybdei", "aliases": {"bdei_infer": "/usr/local/bin/bdei_infer", "bdei_loglikelihood": "/usr/local/bin/bdei_loglikelihood", "bdei_u": "/usr/local/bin/bdei_u", "generate_bd": "/usr/local/bin/generate_bd", "generate_bdei": "/usr/local/bin/generate_bdei", "generate_bdss": "/usr/local/bin/generate_bdss", "generate_mtbd": "/usr/local/bin/generate_mtbd", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "numpy-config": "/usr/local/bin/numpy-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybdei.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/pybdei
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybdei:0.13--py312h19d751e_0
+$ shpc install quay.io/biocontainers/pybdei:0.13--py310hef477bb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybdei/0.13--py312h19d751e_0
-$ module help quay.io/biocontainers/pybdei/0.13--py312h19d751e_0
+$ module load quay.io/biocontainers/pybdei/0.13--py310hef477bb_1
+$ module help quay.io/biocontainers/pybdei/0.13--py310hef477bb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

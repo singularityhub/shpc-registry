@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sponge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sponge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sponge/container.yaml"
-updated_at: "2025-09-04 03:32:38.783711"
+updated_at: "2025-09-05 03:34:41.069324"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sponge"
 aliases:
