@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biasedurn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biasedurn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biasedurn/container.yaml"
-updated_at: "2025-09-05 03:42:21.634978"
+updated_at: "2025-09-06 03:40:20.443744"
 latest: "1.07--r3.3.1_2"
 container_url: "https://biocontainers.pro/tools/r-biasedurn"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/semidbm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/semidbm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/semidbm/container.yaml"
-updated_at: "2025-09-05 03:46:01.104280"
+updated_at: "2025-09-06 03:44:16.906966"
 latest: "0.5.1--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/semidbm"
 aliases:

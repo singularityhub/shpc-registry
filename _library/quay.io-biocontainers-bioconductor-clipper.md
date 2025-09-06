@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
-updated_at: "2025-09-05 03:22:29.402064"
+updated_at: "2025-09-06 03:19:07.055130"
 latest: "1.46.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clipper"
 aliases:

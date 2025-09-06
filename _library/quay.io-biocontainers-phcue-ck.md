@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phcue-ck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phcue-ck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phcue-ck/container.yaml"
-updated_at: "2025-09-05 03:22:20.563539"
-latest: "0.2.0--hc234bb7_3"
+updated_at: "2025-09-06 03:18:57.733348"
+latest: "0.2.0--h3dc2dae_4"
 container_url: "https://biocontainers.pro/tools/phcue-ck"
 aliases:
  - "phcue-ck"
@@ -13,8 +13,9 @@ versions:
  - "0.2.0--h1f4ba0c_0"
  - "0.2.0--h5076881_2"
  - "0.2.0--hc234bb7_3"
+ - "0.2.0--h3dc2dae_4"
 description: "singularity registry hpc automated addition for phcue-ck"
-config: {"url": "https://biocontainers.pro/tools/phcue-ck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phcue-ck", "latest": {"0.2.0--hc234bb7_3": "sha256:2f325db39efe48fd124d43af26f980e98e4d6241b1d81ae7bab853cba3147f7d"}, "tags": {"0.2.0--h1f4ba0c_0": "sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550", "0.2.0--h5076881_2": "sha256:ddd4e8463e210aaff076345b37cf87c508295a2c8d791aca617ddfcd317bb936", "0.2.0--hc234bb7_3": "sha256:2f325db39efe48fd124d43af26f980e98e4d6241b1d81ae7bab853cba3147f7d"}, "docker": "quay.io/biocontainers/phcue-ck", "aliases": {"phcue-ck": "/usr/local/bin/phcue-ck"}}
+config: {"url": "https://biocontainers.pro/tools/phcue-ck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phcue-ck", "latest": {"0.2.0--h3dc2dae_4": "sha256:d1a4afeda2e5eee2c156d5b38f913cb3a71d389ea66ff9d144570c2ada4283b4"}, "tags": {"0.2.0--h1f4ba0c_0": "sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550", "0.2.0--h5076881_2": "sha256:ddd4e8463e210aaff076345b37cf87c508295a2c8d791aca617ddfcd317bb936", "0.2.0--hc234bb7_3": "sha256:2f325db39efe48fd124d43af26f980e98e4d6241b1d81ae7bab853cba3147f7d", "0.2.0--h3dc2dae_4": "sha256:d1a4afeda2e5eee2c156d5b38f913cb3a71d389ea66ff9d144570c2ada4283b4"}, "docker": "quay.io/biocontainers/phcue-ck", "aliases": {"phcue-ck": "/usr/local/bin/phcue-ck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phcue-ck.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/phcue-ck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phcue-ck:0.2.0--hc234bb7_3
+$ shpc install quay.io/biocontainers/phcue-ck:0.2.0--h3dc2dae_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phcue-ck/0.2.0--hc234bb7_3
-$ module help quay.io/biocontainers/phcue-ck/0.2.0--hc234bb7_3
+$ module load quay.io/biocontainers/phcue-ck/0.2.0--h3dc2dae_4
+$ module help quay.io/biocontainers/phcue-ck/0.2.0--h3dc2dae_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

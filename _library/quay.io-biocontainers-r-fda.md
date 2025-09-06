@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fda/container.yaml"
-updated_at: "2025-09-05 03:47:57.897420"
+updated_at: "2025-09-06 03:46:22.927626"
 latest: "2.4.4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fda"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmatchview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmatchview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmatchview/container.yaml"
-updated_at: "2025-09-05 03:20:37.016868"
+updated_at: "2025-09-06 03:17:07.545794"
 latest: "1.2.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/xmatchview"
 aliases:

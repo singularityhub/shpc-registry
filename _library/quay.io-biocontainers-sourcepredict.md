@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sourcepredict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourcepredict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourcepredict/container.yaml"
-updated_at: "2025-09-05 03:27:25.539318"
+updated_at: "2025-09-06 03:24:20.602671"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sourcepredict"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/usearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usearch/container.yaml"
-updated_at: "2025-09-05 03:48:27.843349"
+updated_at: "2025-09-06 03:46:55.107895"
 latest: "12.0_beta--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/usearch"
 aliases:

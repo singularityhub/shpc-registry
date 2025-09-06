@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parascopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parascopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parascopy/container.yaml"
-updated_at: "2025-09-05 03:46:45.885523"
+updated_at: "2025-09-06 03:45:05.460341"
 latest: "1.11.0--py38h0517ac9_1"
 container_url: "https://biocontainers.pro/tools/parascopy"
 aliases:

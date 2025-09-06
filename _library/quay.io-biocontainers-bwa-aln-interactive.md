@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-aln-interactive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-aln-interactive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-aln-interactive/container.yaml"
-updated_at: "2025-09-05 03:24:10.806327"
+updated_at: "2025-09-06 03:20:53.884662"
 latest: "0.7.18--h577a1d6_2"
 container_url: "https://biocontainers.pro/tools/bwa-aln-interactive"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paml/container.yaml"
-updated_at: "2025-09-05 03:06:24.183837"
+updated_at: "2025-09-06 03:01:52.065410"
 latest: "4.10.9--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/paml"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/inmoose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inmoose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inmoose/container.yaml"
-updated_at: "2025-09-05 03:08:51.991222"
-latest: "0.8.0--py312h2973bf2_0"
+updated_at: "2025-09-06 03:04:29.552846"
+latest: "0.8.1--py39h8931b72_0"
 container_url: "https://biocontainers.pro/tools/inmoose"
 aliases:
  - "qconvex"
@@ -40,8 +40,9 @@ versions:
  - "0.7.6--py310ha6711e0_0"
  - "0.7.8--py39h8931b72_0"
  - "0.8.0--py312h2973bf2_0"
+ - "0.8.1--py39h8931b72_0"
 description: "singularity registry hpc automated addition for inmoose"
-config: {"url": "https://biocontainers.pro/tools/inmoose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inmoose", "latest": {"0.8.0--py312h2973bf2_0": "sha256:cbfb93d9a44908e051c899efc9bcc9cacd6f1eed193a7611581bd684465c8cd5"}, "tags": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f", "0.7.2--py39h91a4a08_0": "sha256:74a3148ff1648720527a8f5b811e137be2f10cafaad2749ab29a9dc154ad15be", "0.7.2--py312h2973bf2_1": "sha256:9e9086382e6be27bd39a754727e949a02ae0d11c1f7115af08c85e519fe4b91f", "0.7.6--py310ha6711e0_0": "sha256:ad68e864c6a7305a44685d76516cc9869ea45da3227c52445e86fc164929b4db", "0.7.8--py39h8931b72_0": "sha256:32f42b77f72244009e2a5d02dd6590d9cc849f13e4729066af4f158eae6f1166", "0.8.0--py312h2973bf2_0": "sha256:cbfb93d9a44908e051c899efc9bcc9cacd6f1eed193a7611581bd684465c8cd5"}, "docker": "quay.io/biocontainers/inmoose", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
+config: {"url": "https://biocontainers.pro/tools/inmoose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inmoose", "latest": {"0.8.1--py39h8931b72_0": "sha256:9d2ec649f0c232eca0557bd84dc7fe468e1ea683635079e8efa316e1731d8b37"}, "tags": {"0.7.2--py310h24e864b_0": "sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f", "0.7.2--py39h91a4a08_0": "sha256:74a3148ff1648720527a8f5b811e137be2f10cafaad2749ab29a9dc154ad15be", "0.7.2--py312h2973bf2_1": "sha256:9e9086382e6be27bd39a754727e949a02ae0d11c1f7115af08c85e519fe4b91f", "0.7.6--py310ha6711e0_0": "sha256:ad68e864c6a7305a44685d76516cc9869ea45da3227c52445e86fc164929b4db", "0.7.8--py39h8931b72_0": "sha256:32f42b77f72244009e2a5d02dd6590d9cc849f13e4729066af4f158eae6f1166", "0.8.0--py312h2973bf2_0": "sha256:cbfb93d9a44908e051c899efc9bcc9cacd6f1eed193a7611581bd684465c8cd5", "0.8.1--py39h8931b72_0": "sha256:9d2ec649f0c232eca0557bd84dc7fe468e1ea683635079e8efa316e1731d8b37"}, "docker": "quay.io/biocontainers/inmoose", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/inmoose.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/inmoose
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/inmoose:0.8.0--py312h2973bf2_0
+$ shpc install quay.io/biocontainers/inmoose:0.8.1--py39h8931b72_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/inmoose/0.8.0--py312h2973bf2_0
-$ module help quay.io/biocontainers/inmoose/0.8.0--py312h2973bf2_0
+$ module load quay.io/biocontainers/inmoose/0.8.1--py39h8931b72_0
+$ module help quay.io/biocontainers/inmoose/0.8.1--py39h8931b72_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

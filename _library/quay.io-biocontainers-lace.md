@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lace/container.yaml"
-updated_at: "2025-09-05 03:14:40.664867"
+updated_at: "2025-09-06 03:10:44.569281"
 latest: "1.14.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/lace"
 aliases:

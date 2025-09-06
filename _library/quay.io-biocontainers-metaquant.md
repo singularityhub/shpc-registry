@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaquant/container.yaml"
-updated_at: "2025-09-05 03:21:37.347060"
+updated_at: "2025-09-06 03:18:12.096009"
 latest: "0.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/metaquant"
 aliases:

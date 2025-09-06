@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coot-headless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coot-headless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coot-headless/container.yaml"
-updated_at: "2025-09-05 03:08:32.135956"
+updated_at: "2025-09-06 03:04:08.150852"
 latest: "1.1.18--py39h0a7431f_0"
 container_url: "https://biocontainers.pro/tools/coot-headless"
 aliases:

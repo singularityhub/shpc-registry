@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aseb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aseb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aseb/container.yaml"
-updated_at: "2025-09-05 03:07:07.259415"
+updated_at: "2025-09-06 03:02:36.818278"
 latest: "1.50.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-aseb"
 

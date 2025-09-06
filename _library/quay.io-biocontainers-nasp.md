@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nasp/container.yaml"
-updated_at: "2025-09-05 03:21:26.185196"
+updated_at: "2025-09-06 03:18:00.047053"
 latest: "1.2.1--py36hf8e0771_1"
 container_url: "https://biocontainers.pro/tools/nasp"
 aliases:

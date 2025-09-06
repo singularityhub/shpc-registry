@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bactopia-teton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-teton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-teton/container.yaml"
-updated_at: "2025-09-05 03:17:43.038792"
+updated_at: "2025-09-06 03:14:02.137410"
 latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-teton"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-date-manip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-date-manip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-date-manip/container.yaml"
-updated_at: "2025-09-05 03:12:37.478143"
+updated_at: "2025-09-06 03:08:31.626142"
 latest: "6.98--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-date-manip"
 aliases:

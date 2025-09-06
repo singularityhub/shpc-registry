@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treeqmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeqmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeqmc/container.yaml"
-updated_at: "2025-09-05 03:08:34.302233"
+updated_at: "2025-09-06 03:04:10.538897"
 latest: "3.0.1--hee07fbb_0"
 container_url: "https://biocontainers.pro/tools/treeqmc"
 aliases:

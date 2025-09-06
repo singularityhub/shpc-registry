@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conterminator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conterminator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conterminator/container.yaml"
-updated_at: "2025-09-05 03:33:55.471634"
+updated_at: "2025-09-06 03:31:18.534599"
 latest: "1.c74b5--h95f258a_1"
 container_url: "https://biocontainers.pro/tools/conterminator"
 aliases:

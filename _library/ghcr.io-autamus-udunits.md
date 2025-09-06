@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/udunits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/udunits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/udunits/container.yaml"
-updated_at: "2025-09-05 03:01:10.957311"
+updated_at: "2025-09-06 02:56:20.450544"
 latest: "2.2.28"
 container_url: "https://github.com/orgs/autamus/packages/container/package/udunits"
 aliases:

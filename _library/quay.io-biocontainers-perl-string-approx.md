@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-string-approx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-approx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-approx/container.yaml"
-updated_at: "2025-09-05 03:36:07.011923"
-latest: "3.27--pl5321h7b50bb2_5"
+updated_at: "2025-09-06 03:33:39.764146"
+latest: "3.27--pl5321h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/perl-string-approx"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "3.27--pl5321hec16e2b_3"
  - "3.27--pl5321h031d066_4"
  - "3.27--pl5321h7b50bb2_5"
+ - "3.27--pl5321h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for perl-string-approx"
-config: {"url": "https://biocontainers.pro/tools/perl-string-approx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-approx", "latest": {"3.27--pl5321h7b50bb2_5": "sha256:12322787b9a54b4d6824dd38b9034f21fcfc9ec0d223c0d8138c4c8392b16b1a"}, "tags": {"3.27--pl5321hec16e2b_3": "sha256:252a2c8c4b99365d0e85e3a0fd9a34d67c56834418d85c1bd638afe88c82c05b", "3.27--pl5321h031d066_4": "sha256:7da4081dc31004f9076b43f9a2584de3dc3abacd8a3133db7fddada27f7a38e5", "3.27--pl5321h7b50bb2_5": "sha256:12322787b9a54b4d6824dd38b9034f21fcfc9ec0d223c0d8138c4c8392b16b1a"}, "docker": "quay.io/biocontainers/perl-string-approx", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-string-approx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-approx", "latest": {"3.27--pl5321h7b50bb2_6": "sha256:de125d97c4d741428634cc769af7c4100e055a4cc80e8bcb8f61e63d9f112436"}, "tags": {"3.27--pl5321hec16e2b_3": "sha256:252a2c8c4b99365d0e85e3a0fd9a34d67c56834418d85c1bd638afe88c82c05b", "3.27--pl5321h031d066_4": "sha256:7da4081dc31004f9076b43f9a2584de3dc3abacd8a3133db7fddada27f7a38e5", "3.27--pl5321h7b50bb2_5": "sha256:12322787b9a54b4d6824dd38b9034f21fcfc9ec0d223c0d8138c4c8392b16b1a", "3.27--pl5321h7b50bb2_6": "sha256:de125d97c4d741428634cc769af7c4100e055a4cc80e8bcb8f61e63d9f112436"}, "docker": "quay.io/biocontainers/perl-string-approx", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-string-approx.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-string-approx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-string-approx:3.27--pl5321h7b50bb2_5
+$ shpc install quay.io/biocontainers/perl-string-approx:3.27--pl5321h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-string-approx/3.27--pl5321h7b50bb2_5
-$ module help quay.io/biocontainers/perl-string-approx/3.27--pl5321h7b50bb2_5
+$ module load quay.io/biocontainers/perl-string-approx/3.27--pl5321h7b50bb2_6
+$ module help quay.io/biocontainers/perl-string-approx/3.27--pl5321h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

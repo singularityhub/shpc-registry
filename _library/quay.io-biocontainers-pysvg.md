@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysvg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysvg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysvg/container.yaml"
-updated_at: "2025-09-05 03:05:03.322063"
+updated_at: "2025-09-06 03:00:28.005882"
 latest: "0.2.2--py27_0"
 container_url: "https://biocontainers.pro/tools/pysvg"
 aliases:

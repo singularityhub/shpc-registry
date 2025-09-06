@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rotate/container.yaml"
-updated_at: "2025-09-05 03:49:44.504799"
+updated_at: "2025-09-06 03:48:17.949567"
 latest: "1.0--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/rotate"
 aliases:
