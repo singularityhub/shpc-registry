@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geneexpressionfromgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geneexpressionfromgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geneexpressionfromgeo/container.yaml"
-updated_at: "2025-09-06 03:38:08.485889"
+updated_at: "2025-09-07 03:45:41.357163"
 latest: "1.2--r44h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-geneexpressionfromgeo"
 aliases:

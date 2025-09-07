@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qcatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcatch/container.yaml"
-updated_at: "2025-09-06 03:40:35.065644"
+updated_at: "2025-09-07 03:48:07.629120"
 latest: "0.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qcatch"
 aliases:

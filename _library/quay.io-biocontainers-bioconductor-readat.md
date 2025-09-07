@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-readat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-readat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-readat/container.yaml"
-updated_at: "2025-09-06 03:40:03.076078"
+updated_at: "2025-09-07 03:47:35.788200"
 latest: "1.11.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-readat"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parsnp/container.yaml"
-updated_at: "2025-09-06 03:42:05.387627"
+updated_at: "2025-09-07 03:49:39.633922"
 latest: "2.1.4--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/parsnp"
 aliases:

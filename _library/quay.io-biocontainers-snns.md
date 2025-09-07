@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snns/container.yaml"
-updated_at: "2025-09-06 03:09:58.477240"
+updated_at: "2025-09-07 03:18:29.555232"
 latest: "4.3--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/snns"
 aliases:

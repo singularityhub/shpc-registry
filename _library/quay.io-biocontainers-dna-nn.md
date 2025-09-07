@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dna-nn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dna-nn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dna-nn/container.yaml"
-updated_at: "2025-09-06 03:04:00.149958"
+updated_at: "2025-09-07 03:12:45.617928"
 latest: "0.1--h077b44d_3"
 container_url: "https://biocontainers.pro/tools/dna-nn"
 aliases:

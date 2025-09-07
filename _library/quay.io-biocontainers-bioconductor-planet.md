@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-planet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-planet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-planet/container.yaml"
-updated_at: "2025-09-06 03:42:54.861310"
+updated_at: "2025-09-07 03:50:29.435917"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-planet"
 

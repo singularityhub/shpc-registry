@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnadotplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnadotplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnadotplot/container.yaml"
-updated_at: "2025-09-06 03:02:04.717748"
+updated_at: "2025-09-07 03:10:54.094266"
 latest: "0.1.4--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/dnadotplot"
 aliases:
