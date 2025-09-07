@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_pdb_tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_pdb_tools
 latest:
-  5.1.0--pyhdfd78af_0: 
-    sha256:9eeec189f61c4c10e1e6528af3525a1fd54827dbe6b6c1102827cefcd41ff835
+  5.1.1--pyhdfd78af_0: 
+    sha256:461c4c26d798b4b979aa7293b1c08c341a0effabd21b7f9ee9527a946f0e272a
 tags:
   4.1.0--pyhdfd78af_0: 
     sha256:bd76759c00dc1f28427c45610a889012d4bd30fb4976bf5b66ff78e3d02d6cfa
@@ -17,6 +17,8 @@ tags:
     sha256:90975b5a0bbb25c25b24b99b940f1a64f9d1798f6279134a0cb4497b798eec6c
   5.1.0--pyhdfd78af_0: 
     sha256:9eeec189f61c4c10e1e6528af3525a1fd54827dbe6b6c1102827cefcd41ff835
+  5.1.1--pyhdfd78af_0: 
+    sha256:461c4c26d798b4b979aa7293b1c08c341a0effabd21b7f9ee9527a946f0e272a
 docker: quay.io/biocontainers/biobb_pdb_tools
 aliases:
   biobb_pdb_chain: /usr/local/bin/biobb_pdb_chain

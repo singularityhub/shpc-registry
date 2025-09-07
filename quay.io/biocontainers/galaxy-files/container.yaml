@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/galaxy-files
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for galaxy-files
 latest:
-  25.0.1--pyhdfd78af_0: 
-    sha256:c57abf1553632d2df207d9ff31e5b7ebf73cf89dc89a062e73f48218007f3e14
+  25.0.2--pyhdfd78af_0: 
+    sha256:af0b8afa4c99332b11ef5e4c3188502dff3aeca64a1d16b93301633ea3310642
 tags:
   23.0.4--pyhdfd78af_0: 
     sha256:7cd7affd47066001f2b2f491aa1653c231b501bf2f48f1c1e980cb0d941f4d94
@@ -37,6 +37,8 @@ tags:
     sha256:c57abf1553632d2df207d9ff31e5b7ebf73cf89dc89a062e73f48218007f3e14
   24.2.4--pyhdfd78af_0: 
     sha256:3ea9134b1ccf29b21343bc364a603a6152a0033e5fda1272d0a8b5ef3d6d5e9a
+  25.0.2--pyhdfd78af_0: 
+    sha256:af0b8afa4c99332b11ef5e4c3188502dff3aeca64a1d16b93301633ea3310642
 docker: quay.io/biocontainers/galaxy-files
 aliases:
   cheetah: /usr/local/bin/cheetah

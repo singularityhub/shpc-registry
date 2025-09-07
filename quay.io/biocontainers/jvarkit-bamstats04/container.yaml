@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/jvarkit-bamstats04
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jvarkit-bamstats04
 latest:
-  2021.10.13--hdfd78af_0: 
-    sha256:93b48c27baaeca45fe873db7ca0c43184742e48b59ba6b8718d0ea7875c657d0
+  2025.07.28--hdfd78af_0: 
+    sha256:7ab065fed659ceff13847245ead7f78cba3d00bd67a9ebb13001e02f286ca798
 tags:
   2021.10.13--hdfd78af_0: 
     sha256:93b48c27baaeca45fe873db7ca0c43184742e48b59ba6b8718d0ea7875c657d0
+  2025.07.28--hdfd78af_0: 
+    sha256:7ab065fed659ceff13847245ead7f78cba3d00bd67a9ebb13001e02f286ca798
 docker: quay.io/biocontainers/jvarkit-bamstats04
 aliases:
   bamstats04.sh: /usr/local/bin/bamstats04.sh

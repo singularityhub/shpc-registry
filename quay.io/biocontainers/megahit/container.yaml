@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/megahit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for megahit
 latest:
-  1.2.9--haf24da9_7: 
-    sha256:fba35e9c335120243a4d98d9d51a41a9284b9ddb812227d9e334cabada1e063f
+  1.2.9--haf24da9_8: 
+    sha256:a1e51b68962e54eb5b0576db7dc366d05f81ee1aa5d56a983133a8675e905c75
 tags:
   1.2.9--h2e03b76_1: 
     sha256:08798a4ea02e792fcf38286ba6bfa702c6ffe4d809981e3839bf17d306965972
@@ -17,6 +17,8 @@ tags:
     sha256:981168c6ef435137e36c26bdf7d0cebcbeeb6c44b9477d2627c47f6f0ddbafb1
   1.2.9--haf24da9_7: 
     sha256:fba35e9c335120243a4d98d9d51a41a9284b9ddb812227d9e334cabada1e063f
+  1.2.9--haf24da9_8: 
+    sha256:a1e51b68962e54eb5b0576db7dc366d05f81ee1aa5d56a983133a8675e905c75
 docker: quay.io/biocontainers/megahit
 aliases:
   megahit: /usr/local/bin/megahit

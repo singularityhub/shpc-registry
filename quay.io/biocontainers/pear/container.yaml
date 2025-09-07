@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pear
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pear
 latest:
-  0.9.6--hb1d24b7_12: 
-    sha256:81b904e49eb924119240082139f35af2c7775b1893ae269ee8babdb5a97a4b65
+  0.9.6--hb1d24b7_13: 
+    sha256:df9a05af9f8084a9497193c2014d8c83f6706623f80fe04dbde11b9687a45700
 tags:
   0.9.6--h67092d7_8: 
     sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e
@@ -13,6 +13,8 @@ tags:
     sha256:24bde857bc925bc14190960224a69f2be2d13e8e92ccfe1ffc809580209d2219
   0.9.6--hb1d24b7_12: 
     sha256:81b904e49eb924119240082139f35af2c7775b1893ae269ee8babdb5a97a4b65
+  0.9.6--hb1d24b7_13: 
+    sha256:df9a05af9f8084a9497193c2014d8c83f6706623f80fe04dbde11b9687a45700
 docker: quay.io/biocontainers/pear
 aliases:
   pear: /usr/local/bin/pear

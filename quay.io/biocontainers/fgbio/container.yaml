@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fgbio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fgbio
 latest:
-  2.5.21--hdfd78af_0: 
-    sha256:29c5b2570ff644ff38a8a165513d86961c67a4642a0fddf90796141b3797b53d
+  3.0.0--hdfd78af_0: 
+    sha256:81a9447ffed0ad662d3c5f51424193e0da9c889be057ae5cbefcd57eadb9ad4b
 tags:
   2.0.2--hdfd78af_0: 
     sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8
@@ -19,6 +19,8 @@ tags:
     sha256:a82e5df9da9350cdc79701a5afd3c88a9c4416291da2544bee8169a94f72f0cc
   2.5.21--hdfd78af_0: 
     sha256:29c5b2570ff644ff38a8a165513d86961c67a4642a0fddf90796141b3797b53d
+  3.0.0--hdfd78af_0: 
+    sha256:81a9447ffed0ad662d3c5f51424193e0da9c889be057ae5cbefcd57eadb9ad4b
 docker: quay.io/biocontainers/fgbio
 aliases:
   fgbio: /usr/local/bin/fgbio
