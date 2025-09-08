@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/cascade-reg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cascade-reg
+latest:
+  0.5.1--pyhdfd78af_0: 
+    sha256:cd904fd0660d96a7c7ac3589a3bd99cebb5612ef4aa0123feb1c45c9e002d6af
+tags:
+  0.5.1--pyhdfd78af_0: 
+    sha256:cd904fd0660d96a7c7ac3589a3bd99cebb5612ef4aa0123feb1c45c9e002d6af
+docker: quay.io/biocontainers/cascade-reg
+aliases:
+  cascade: /usr/local/bin/cascade
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  h5fuse: /usr/local/bin/h5fuse
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  scanpy: /usr/local/bin/scanpy
+  tensorboard: /usr/local/bin/tensorboard
+  markdown-it: /usr/local/bin/markdown-it
+  markdown_py: /usr/local/bin/markdown_py
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib

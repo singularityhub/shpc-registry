@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/decenttree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for decenttree
+latest:
+  1.0.0--h3f9e6b0_0: 
+    sha256:de0910c2a2b990d9df31c89591ba1d422d30cea13cfde6d2faea1cc9c4c3a70e
+tags:
+  1.0.0--h3f9e6b0_0: 
+    sha256:de0910c2a2b990d9df31c89591ba1d422d30cea13cfde6d2faea1cc9c4c3a70e
+docker: quay.io/biocontainers/decenttree
+aliases:
+  decenttree: /usr/local/bin/decenttree

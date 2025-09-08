@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/rastair
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rastair
+latest:
+  0.8.2--r44h4349ce8_0: 
+    sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3
+tags:
+  0.8.2--r44h4349ce8_0: 
+    sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3
+docker: quay.io/biocontainers/rastair
+aliases:
+  rastair: /usr/local/bin/rastair
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

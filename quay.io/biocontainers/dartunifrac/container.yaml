@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dartunifrac
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dartunifrac
+latest:
+  0.2.3--h3ab6199_0: 
+    sha256:43589b888cd2003e40093f81513a8fb32a2626291204461e8da5d7d3d4d808b2
+tags:
+  0.2.3--h3ab6199_0: 
+    sha256:43589b888cd2003e40093f81513a8fb32a2626291204461e8da5d7d3d4d808b2
+docker: quay.io/biocontainers/dartunifrac
+aliases:
+  dartunifrac: /usr/local/bin/dartunifrac
+  striped_unifrac: /usr/local/bin/striped_unifrac
