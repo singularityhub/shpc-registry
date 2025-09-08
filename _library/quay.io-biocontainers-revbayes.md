@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/revbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revbayes/container.yaml"
-updated_at: "2025-09-07 03:45:13.477347"
-latest: "1.3.0--hf316886_1"
+updated_at: "2025-09-08 03:47:59.117652"
+latest: "1.3.1--hf316886_0"
 container_url: "https://biocontainers.pro/tools/revbayes"
 aliases:
  - "rb"
@@ -26,8 +26,9 @@ versions:
  - "1.2.4--hdf94a1f_0"
  - "1.2.5--h719ac0c_1"
  - "1.3.0--hf316886_1"
+ - "1.3.1--hf316886_0"
 description: "shpc-registry automated BioContainers addition for revbayes"
-config: {"url": "https://biocontainers.pro/tools/revbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revbayes", "latest": {"1.3.0--hf316886_1": "sha256:c1bf45559067c8650d9ccce801f31876db9961d9cd7698774565d0470f23895b"}, "tags": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428", "1.0.13--hdf94a1f_7": "sha256:d677b591ea546f9db2f2dfb947bd63c52f8e47fed4f8455c6830fe3b81d401f8", "1.2.4--hdf94a1f_0": "sha256:7c90ae14e621957e21e0ae0e9728469b95baf0eff7e468742eb4fdd183e88c06", "1.2.5--h719ac0c_1": "sha256:2ba30697ce346e88d981e09006e918beb3ddf712c06b45c7b594c7f4424b8010", "1.3.0--hf316886_1": "sha256:c1bf45559067c8650d9ccce801f31876db9961d9cd7698774565d0470f23895b"}, "docker": "quay.io/biocontainers/revbayes", "aliases": {"rb": "/usr/local/bin/rb", "rb-mpi": "/usr/local/bin/rb-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/revbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revbayes", "latest": {"1.3.1--hf316886_0": "sha256:bb5a8e27d86eb6c12427aee97f754046473ce247efc5a3d0f5a23d6f1710ef39"}, "tags": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428", "1.0.13--hdf94a1f_7": "sha256:d677b591ea546f9db2f2dfb947bd63c52f8e47fed4f8455c6830fe3b81d401f8", "1.2.4--hdf94a1f_0": "sha256:7c90ae14e621957e21e0ae0e9728469b95baf0eff7e468742eb4fdd183e88c06", "1.2.5--h719ac0c_1": "sha256:2ba30697ce346e88d981e09006e918beb3ddf712c06b45c7b594c7f4424b8010", "1.3.0--hf316886_1": "sha256:c1bf45559067c8650d9ccce801f31876db9961d9cd7698774565d0470f23895b", "1.3.1--hf316886_0": "sha256:bb5a8e27d86eb6c12427aee97f754046473ce247efc5a3d0f5a23d6f1710ef39"}, "docker": "quay.io/biocontainers/revbayes", "aliases": {"rb": "/usr/local/bin/rb", "rb-mpi": "/usr/local/bin/rb-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/revbayes.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/revbayes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/revbayes:1.3.0--hf316886_1
+$ shpc install quay.io/biocontainers/revbayes:1.3.1--hf316886_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/revbayes/1.3.0--hf316886_1
-$ module help quay.io/biocontainers/revbayes/1.3.0--hf316886_1
+$ module load quay.io/biocontainers/revbayes/1.3.1--hf316886_0
+$ module help quay.io/biocontainers/revbayes/1.3.1--hf316886_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

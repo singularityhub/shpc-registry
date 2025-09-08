@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bigslice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigslice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigslice/container.yaml"
-updated_at: "2025-09-07 03:41:15.089851"
-latest: "2.0--pyhdfd78af_0"
+updated_at: "2025-09-08 03:44:05.084990"
+latest: "2.0.2--pyh8ed023e_0"
 container_url: "https://biocontainers.pro/tools/bigslice"
 aliases:
  - "bigslice"
@@ -38,8 +38,9 @@ aliases:
  - "protoc"
 versions:
  - "2.0--pyhdfd78af_0"
+ - "2.0.2--pyh8ed023e_0"
 description: "singularity registry hpc automated addition for bigslice"
-config: {"url": "https://biocontainers.pro/tools/bigslice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigslice", "latest": {"2.0--pyhdfd78af_0": "sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9"}, "tags": {"2.0--pyhdfd78af_0": "sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9"}, "docker": "quay.io/biocontainers/bigslice", "aliases": {"bigslice": "/usr/local/bin/bigslice", "download_bigslice_hmmdb": "/usr/local/bin/download_bigslice_hmmdb", "vectorize_bgcs": "/usr/local/bin/vectorize_bgcs", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/bigslice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigslice", "latest": {"2.0.2--pyh8ed023e_0": "sha256:6bf1004841ae2e081e7298c70011e592bd581ca67528233195508e5fe0ae6df5"}, "tags": {"2.0--pyhdfd78af_0": "sha256:41905776a625e42a9a83debd3574eab62420b46ba2b32a525be7e325f33f0af9", "2.0.2--pyh8ed023e_0": "sha256:6bf1004841ae2e081e7298c70011e592bd581ca67528233195508e5fe0ae6df5"}, "docker": "quay.io/biocontainers/bigslice", "aliases": {"bigslice": "/usr/local/bin/bigslice", "download_bigslice_hmmdb": "/usr/local/bin/download_bigslice_hmmdb", "vectorize_bgcs": "/usr/local/bin/vectorize_bgcs", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigslice.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/bigslice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bigslice:2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bigslice:2.0.2--pyh8ed023e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bigslice/2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bigslice/2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bigslice/2.0.2--pyh8ed023e_0
+$ module help quay.io/biocontainers/bigslice/2.0.2--pyh8ed023e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

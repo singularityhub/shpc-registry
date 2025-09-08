@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jvarkit-bamstats04"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jvarkit-bamstats04/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jvarkit-bamstats04/container.yaml"
-updated_at: "2025-09-07 03:41:23.227545"
-latest: "2021.10.13--hdfd78af_0"
+updated_at: "2025-09-08 03:44:13.045033"
+latest: "2025.07.28--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jvarkit-bamstats04"
 aliases:
  - "bamstats04.sh"
@@ -36,8 +36,9 @@ aliases:
  - "jcmd"
 versions:
  - "2021.10.13--hdfd78af_0"
+ - "2025.07.28--hdfd78af_0"
 description: "singularity registry hpc automated addition for jvarkit-bamstats04"
-config: {"url": "https://biocontainers.pro/tools/jvarkit-bamstats04", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jvarkit-bamstats04", "latest": {"2021.10.13--hdfd78af_0": "sha256:93b48c27baaeca45fe873db7ca0c43184742e48b59ba6b8718d0ea7875c657d0"}, "tags": {"2021.10.13--hdfd78af_0": "sha256:93b48c27baaeca45fe873db7ca0c43184742e48b59ba6b8718d0ea7875c657d0"}, "docker": "quay.io/biocontainers/jvarkit-bamstats04", "aliases": {"bamstats04.sh": "/usr/local/bin/bamstats04.sh", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
+config: {"url": "https://biocontainers.pro/tools/jvarkit-bamstats04", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jvarkit-bamstats04", "latest": {"2025.07.28--hdfd78af_0": "sha256:7ab065fed659ceff13847245ead7f78cba3d00bd67a9ebb13001e02f286ca798"}, "tags": {"2021.10.13--hdfd78af_0": "sha256:93b48c27baaeca45fe873db7ca0c43184742e48b59ba6b8718d0ea7875c657d0", "2025.07.28--hdfd78af_0": "sha256:7ab065fed659ceff13847245ead7f78cba3d00bd67a9ebb13001e02f286ca798"}, "docker": "quay.io/biocontainers/jvarkit-bamstats04", "aliases": {"bamstats04.sh": "/usr/local/bin/bamstats04.sh", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jvarkit-bamstats04.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/jvarkit-bamstats04
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jvarkit-bamstats04:2021.10.13--hdfd78af_0
+$ shpc install quay.io/biocontainers/jvarkit-bamstats04:2025.07.28--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jvarkit-bamstats04/2021.10.13--hdfd78af_0
-$ module help quay.io/biocontainers/jvarkit-bamstats04/2021.10.13--hdfd78af_0
+$ module load quay.io/biocontainers/jvarkit-bamstats04/2025.07.28--hdfd78af_0
+$ module help quay.io/biocontainers/jvarkit-bamstats04/2025.07.28--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

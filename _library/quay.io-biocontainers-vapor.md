@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vapor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vapor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vapor/container.yaml"
-updated_at: "2025-09-07 03:42:56.558567"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2025-09-08 03:45:44.988022"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vapor"
 aliases:
  - "vapor.py"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.2"
+ - "1.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vapor"
-config: {"url": "https://biocontainers.pro/tools/vapor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vapor", "latest": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a", "1.0.2": "sha256:5cb6db8005b3730592c0067bb4e68e6b17272f23dbd63bc5a849416ca01f72af"}, "docker": "quay.io/biocontainers/vapor", "aliases": {"vapor.py": "/usr/local/bin/vapor.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/vapor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vapor", "latest": {"1.0.3--pyhdfd78af_0": "sha256:6b7329dc3ef9a1a57a44f69ee84e87ead881544c061e374bed36a30cccc4649f"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a", "1.0.2": "sha256:5cb6db8005b3730592c0067bb4e68e6b17272f23dbd63bc5a849416ca01f72af", "1.0.3--pyhdfd78af_0": "sha256:6b7329dc3ef9a1a57a44f69ee84e87ead881544c061e374bed36a30cccc4649f"}, "docker": "quay.io/biocontainers/vapor", "aliases": {"vapor.py": "/usr/local/bin/vapor.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vapor.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/vapor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vapor:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vapor:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vapor/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/vapor/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/vapor/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/vapor/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

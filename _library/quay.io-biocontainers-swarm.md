@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/swarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swarm/container.yaml"
-updated_at: "2025-09-07 03:40:40.343983"
-latest: "3.1.5--h9948957_2"
+updated_at: "2025-09-08 03:43:31.007594"
+latest: "3.1.5--h9948957_3"
 container_url: "https://biocontainers.pro/tools/swarm"
 aliases:
  - "amplicon_contingency_table.py"
@@ -30,8 +30,9 @@ versions:
  - "3.1.5--h4ac6f70_0"
  - "3.1.5--h4ac6f70_1"
  - "3.1.5--h9948957_2"
+ - "3.1.5--h9948957_3"
 description: "shpc-registry automated BioContainers addition for swarm"
-config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.5--h9948957_2": "sha256:9b29ed5884850d74f3fc1e25971135923b119238e5b6989675955b9fffd83397"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812", "3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e", "3.1.3--h9f5acd7_0": "sha256:fdecbf07162301924b6d6029c11c3b269b08a6d0ec54294e8cbb0561a40fb7e1", "3.1.3--h4ac6f70_2": "sha256:46852e6d910b7f33cd6d5b7a396fed14f5a8db3de5eb85d4f595297e6c563545", "3.1.4--h4ac6f70_0": "sha256:7eff004b6420c2258b996cb1ea1763070ee259a738d16866317e6f4aca9823ca", "3.1.5--h4ac6f70_0": "sha256:0cc1028c87c4f2a33460f5ca3eb7bf0edd5419a4ab2e78ee08e5cb6f3c99065a", "3.1.5--h4ac6f70_1": "sha256:755396c08aa057f33334afe68cfee2b5c949445a1ad338cc07dd0006e073281c", "3.1.5--h9948957_2": "sha256:9b29ed5884850d74f3fc1e25971135923b119238e5b6989675955b9fffd83397"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.5--h9948957_3": "sha256:e0c3fdf8126aca9fd016204e5e69652b9e21e0c21fbaf00021f982090f63ff03"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812", "3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e", "3.1.3--h9f5acd7_0": "sha256:fdecbf07162301924b6d6029c11c3b269b08a6d0ec54294e8cbb0561a40fb7e1", "3.1.3--h4ac6f70_2": "sha256:46852e6d910b7f33cd6d5b7a396fed14f5a8db3de5eb85d4f595297e6c563545", "3.1.4--h4ac6f70_0": "sha256:7eff004b6420c2258b996cb1ea1763070ee259a738d16866317e6f4aca9823ca", "3.1.5--h4ac6f70_0": "sha256:0cc1028c87c4f2a33460f5ca3eb7bf0edd5419a4ab2e78ee08e5cb6f3c99065a", "3.1.5--h4ac6f70_1": "sha256:755396c08aa057f33334afe68cfee2b5c949445a1ad338cc07dd0006e073281c", "3.1.5--h9948957_2": "sha256:9b29ed5884850d74f3fc1e25971135923b119238e5b6989675955b9fffd83397", "3.1.5--h9948957_3": "sha256:e0c3fdf8126aca9fd016204e5e69652b9e21e0c21fbaf00021f982090f63ff03"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swarm.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/swarm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/swarm:3.1.5--h9948957_2
+$ shpc install quay.io/biocontainers/swarm:3.1.5--h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/swarm/3.1.5--h9948957_2
-$ module help quay.io/biocontainers/swarm/3.1.5--h9948957_2
+$ module load quay.io/biocontainers/swarm/3.1.5--h9948957_3
+$ module help quay.io/biocontainers/swarm/3.1.5--h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

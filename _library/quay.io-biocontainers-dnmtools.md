@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnmtools/container.yaml"
-updated_at: "2025-09-07 03:16:14.722969"
-latest: "1.5.0--hb66fcc3_0"
+updated_at: "2025-09-08 03:19:21.333513"
+latest: "1.5.1--hb66fcc3_0"
 container_url: "https://biocontainers.pro/tools/dnmtools"
 aliases:
  - "dnmtools"
@@ -21,8 +21,9 @@ versions:
  - "1.4.4--h4dfc31f_0"
  - "1.4.4--hb66fcc3_1"
  - "1.5.0--hb66fcc3_0"
+ - "1.5.1--hb66fcc3_0"
 description: "singularity registry hpc automated addition for dnmtools"
-config: {"url": "https://biocontainers.pro/tools/dnmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnmtools", "latest": {"1.5.0--hb66fcc3_0": "sha256:3b7b706bad0260f628619f9a6daa2ab556a4676d0ab2684842688fab1997ec09"}, "tags": {"1.2.1--h9f5acd7_0": "sha256:ef65bb16ddfdb036345e434c31fea50167717a170b91a73220ce48edab3cc499", "1.2.1--h4ac6f70_1": "sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79", "1.3.0--hbb19d65_1": "sha256:c139fc37e15d4aa10673a9595a5e6a2d38ec771162ed968c6e113aebf59f5cfa", "1.4.2--h0432e7c_0": "sha256:a7e05346c7a6c343c0dc96aaf502fe456a5db2bc97a2f8b17cd8f07817a03dd3", "1.4.3--h4dfc31f_0": "sha256:08b15c5a64e989c486504d9f0c887d20d115686ab947244ef954f98626b1d3ab", "1.4.4--h4dfc31f_0": "sha256:5979d1bad18499d3f3603c6a5dbe22477afc23aaa494623e6da93eadf1cb7830", "1.4.4--hb66fcc3_1": "sha256:9715a9f7930714f4bad71ba06846539bcc91a7001a88f5594c546bae6a55740b", "1.5.0--hb66fcc3_0": "sha256:3b7b706bad0260f628619f9a6daa2ab556a4676d0ab2684842688fab1997ec09"}, "docker": "quay.io/biocontainers/dnmtools", "aliases": {"dnmtools": "/usr/local/bin/dnmtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/dnmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnmtools", "latest": {"1.5.1--hb66fcc3_0": "sha256:5cd7bc4f88928e3c74df8c47f813773778ecdf2bd9777d94b23580c5169c13e8"}, "tags": {"1.2.1--h9f5acd7_0": "sha256:ef65bb16ddfdb036345e434c31fea50167717a170b91a73220ce48edab3cc499", "1.2.1--h4ac6f70_1": "sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79", "1.3.0--hbb19d65_1": "sha256:c139fc37e15d4aa10673a9595a5e6a2d38ec771162ed968c6e113aebf59f5cfa", "1.4.2--h0432e7c_0": "sha256:a7e05346c7a6c343c0dc96aaf502fe456a5db2bc97a2f8b17cd8f07817a03dd3", "1.4.3--h4dfc31f_0": "sha256:08b15c5a64e989c486504d9f0c887d20d115686ab947244ef954f98626b1d3ab", "1.4.4--h4dfc31f_0": "sha256:5979d1bad18499d3f3603c6a5dbe22477afc23aaa494623e6da93eadf1cb7830", "1.4.4--hb66fcc3_1": "sha256:9715a9f7930714f4bad71ba06846539bcc91a7001a88f5594c546bae6a55740b", "1.5.0--hb66fcc3_0": "sha256:3b7b706bad0260f628619f9a6daa2ab556a4676d0ab2684842688fab1997ec09", "1.5.1--hb66fcc3_0": "sha256:5cd7bc4f88928e3c74df8c47f813773778ecdf2bd9777d94b23580c5169c13e8"}, "docker": "quay.io/biocontainers/dnmtools", "aliases": {"dnmtools": "/usr/local/bin/dnmtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnmtools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/dnmtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnmtools:1.5.0--hb66fcc3_0
+$ shpc install quay.io/biocontainers/dnmtools:1.5.1--hb66fcc3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnmtools/1.5.0--hb66fcc3_0
-$ module help quay.io/biocontainers/dnmtools/1.5.0--hb66fcc3_0
+$ module load quay.io/biocontainers/dnmtools/1.5.1--hb66fcc3_0
+$ module help quay.io/biocontainers/dnmtools/1.5.1--hb66fcc3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

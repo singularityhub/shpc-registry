@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-ansitable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-ansitable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-ansitable/container.yaml"
-updated_at: "2025-09-07 03:35:54.641153"
+updated_at: "2025-09-08 03:38:43.649637"
 latest: "0.48--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-text-ansitable"
 aliases:

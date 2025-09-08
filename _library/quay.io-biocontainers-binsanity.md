@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binsanity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binsanity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binsanity/container.yaml"
-updated_at: "2025-09-07 03:13:32.015022"
+updated_at: "2025-09-08 03:16:42.045312"
 latest: "0.5.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/binsanity"
 aliases:
