@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/phu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phu
+latest:
+  0.2.1--pyhdfd78af_0: 
+    sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1
+tags:
+  0.2.1--pyhdfd78af_0: 
+    sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1
+docker: quay.io/biocontainers/phu
+aliases:
+  dmypy: /usr/local/bin/dmypy
+  mypy: /usr/local/bin/mypy
+  mypyc: /usr/local/bin/mypyc
+  phu: /usr/local/bin/phu
+  ruff: /usr/local/bin/ruff
+  stubgen: /usr/local/bin/stubgen
+  stubtest: /usr/local/bin/stubtest
+  vclust: /usr/local/bin/vclust
+  typer: /usr/local/bin/typer
+  seqkit: /usr/local/bin/seqkit
+  markdown-it: /usr/local/bin/markdown-it
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

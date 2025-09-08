@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pqlseqpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pqlseqpy
+latest:
+  0.1.2--pyh7e72e81_0: 
+    sha256:c908f5ef6774ededa45652fe1442f1ee75a314d358f60807519d1d0687c584ae
+tags:
+  0.1.2--pyh7e72e81_0: 
+    sha256:c908f5ef6774ededa45652fe1442f1ee75a314d358f60807519d1d0687c584ae
+docker: quay.io/biocontainers/pqlseqpy
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
