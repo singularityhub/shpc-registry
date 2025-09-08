@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prettyunits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prettyunits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prettyunits/container.yaml"
-updated_at: "2025-09-08 03:11:15.120617"
+updated_at: "2025-09-08 04:49:32.297009"
 latest: "1.0.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-prettyunits"
 aliases:
