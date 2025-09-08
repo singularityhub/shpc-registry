@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/anndata2ri
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anndata2ri
 latest:
-  1.3.2--pyhdfd78af_0: 
-    sha256:68c43eba90f3ad9eff766b74e0910146c5a58cc14ea3e7688ecb6dffd9e2df09
+  2.0--pyhdfd78af_0: 
+    sha256:364d2aa8567c81f96e31db933ebfecc5d91ab97c20553abadc768ba812128791
 tags:
   1.1--pyhdfd78af_0: 
     sha256:f8725d1eeacd7a8cd2a8a654871b5c8e5a84930ba6f0f7232290045b7f017141
@@ -15,6 +15,8 @@ tags:
     sha256:32cb0e790e08118c43274da55ea71b5ae383ef492731903b2ee930b3372566bd
   1.3.2--pyhdfd78af_0: 
     sha256:68c43eba90f3ad9eff766b74e0910146c5a58cc14ea3e7688ecb6dffd9e2df09
+  2.0--pyhdfd78af_0: 
+    sha256:364d2aa8567c81f96e31db933ebfecc5d91ab97c20553abadc768ba812128791
 docker: quay.io/biocontainers/anndata2ri
 aliases:
   dunamai: /usr/local/bin/dunamai

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/virheat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for virheat
 latest:
-  0.7.4--pyhdfd78af_0: 
-    sha256:31e7d018215bff040f2dfcad5370a8337bf32261fc19fee43b9cad5ed38dd676
+  0.7.6--pyhdfd78af_0: 
+    sha256:504ebde6e527172f0c4d30b4d3b0b311bdcbd455b875881bcfbeadd42a96e3f3
 tags:
   0.5.3--pyhdfd78af_0: 
     sha256:ebe9c7b49e69cf69453ba8b49e7514d7d7b8183c30ae66d2e7a302ac5389e178
@@ -19,6 +19,8 @@ tags:
     sha256:d196ee9c8f5c794c8770a1b6a6d49978e66f66200986201b0afe47115d578737
   0.7.4--pyhdfd78af_0: 
     sha256:31e7d018215bff040f2dfcad5370a8337bf32261fc19fee43b9cad5ed38dd676
+  0.7.6--pyhdfd78af_0: 
+    sha256:504ebde6e527172f0c4d30b4d3b0b311bdcbd455b875881bcfbeadd42a96e3f3
 docker: quay.io/biocontainers/virheat
 aliases:
   virheat: /usr/local/bin/virheat

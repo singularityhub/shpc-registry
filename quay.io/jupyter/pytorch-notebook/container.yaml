@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter PyTorch Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2025-07-28': 
-    sha256:dc69c8193a2239f3cc2e50d7fa0743037da10864084930768e371949d7cfca1e
+  '2025-09-08': 
+    sha256:fffb1001fdd79e256862aba1aacd454feb945f76da917579378a8b47241c3af8
 tags:
   latest: 
-    sha256:00f6047c6a3ef235553dc3901115a97c34736ddcd01fc0138f5c1dea8df0d276
+    sha256:fffb1001fdd79e256862aba1aacd454feb945f76da917579378a8b47241c3af8
   '2025-06-02': 
     sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31
   cuda12-2025-06-02: 
@@ -37,6 +37,14 @@ tags:
     sha256:1afc91b9b3a0cccc2c5b1918c95a84f96afaf2846359f61e4be9dc24d8d05018
   '2025-03-31': 
     sha256:05f9d1139bbd20586004a93a1b4636c3197e66befff661edcec738d85c484d4e
+  '2025-09-08': 
+    sha256:fffb1001fdd79e256862aba1aacd454feb945f76da917579378a8b47241c3af8
+  '2024-12-31': 
+    sha256:8c5456d6ce6881e9685e7d728d328b09a9b0d87553c106e6c40bec2b4cf331d8
+  '2024-11-25': 
+    sha256:a266f8a201cfff22bc700072ba0edbc9573b452bf8715027291cb5c45f9388fb
+  '2024-10-29': 
+    sha256:36cb7df867ea58b139b6192ad9834bd17cd3618d7aa392e8a0e2bface165c297
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 
