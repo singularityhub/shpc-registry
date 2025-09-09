@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/annembed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annembed
 latest:
-  0.2.4--hafc0c1d_0: 
-    sha256:9a850bbb59c5d3f03022b9561dc24817070312f3a8b7ef8bff377f6a0310abb4
+  0.2.5--h3ab6199_0: 
+    sha256:b2ac7a5bb9e66b0b2085b11617d4de553bcc038d08d332ea50a48877de67895b
 tags:
   0.1.1--hdbdd923_0: 
     sha256:076f6e8d4dee428ac1a14e199fa64031735fca3b82e3366a5ea1bdcd4f7b929f
@@ -21,6 +21,8 @@ tags:
     sha256:aaa581b26fe8b4265c2b86e5a9d2e80aac6fa51d467d916c18f13be521060df3
   0.2.4--hafc0c1d_0: 
     sha256:9a850bbb59c5d3f03022b9561dc24817070312f3a8b7ef8bff377f6a0310abb4
+  0.2.5--h3ab6199_0: 
+    sha256:b2ac7a5bb9e66b0b2085b11617d4de553bcc038d08d332ea50a48877de67895b
 docker: quay.io/biocontainers/annembed
 aliases:
   annembed: /usr/local/bin/annembed

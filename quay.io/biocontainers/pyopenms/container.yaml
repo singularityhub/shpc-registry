@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyopenms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyopenms
 latest:
-  3.4.1--py311he9bd0e4_0: 
-    sha256:c41451d5bb8a36f28c85bcf262f8e40b6c2f6d050f25f31ca083ea869d4501ad
+  3.4.1--py310h7ad0250_2: 
+    sha256:7af2d762d79bb75650920a0c0b6d8fec3b0a2ea5fa57a73890264be6bc87690d
 tags:
   2.8.0--py36h24c8720_1: 
     sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c
@@ -31,6 +31,8 @@ tags:
     sha256:489a507291f6f5006ba0a74b00b331243f71de7c908b27169388de5043a85836
   3.4.1--py311he9bd0e4_0: 
     sha256:c41451d5bb8a36f28c85bcf262f8e40b6c2f6d050f25f31ca083ea869d4501ad
+  3.4.1--py310h7ad0250_2: 
+    sha256:7af2d762d79bb75650920a0c0b6d8fec3b0a2ea5fa57a73890264be6bc87690d
 docker: quay.io/biocontainers/pyopenms
 aliases:
   svm-predict: /usr/local/bin/svm-predict

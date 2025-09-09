@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kronik
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kronik
 latest:
-  2.20--h9948957_7: 
-    sha256:be4df36bafc5a56c5972c7c8f64900525490600a87f2dcec74a01b7699e01ea1
+  2.20--h9948957_9: 
+    sha256:20cfe335869c0fa6ab52797867950d50cb5b4a420b5b9159c2b4e1acc57a9b57
 tags:
   2.20--h9f5acd7_4: 
     sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a
@@ -11,6 +11,8 @@ tags:
     sha256:bfb99c879872dd8aef84e4e2664beaac7bd896a3d6707f4ec8f0a249f1db7e88
   2.20--h9948957_7: 
     sha256:be4df36bafc5a56c5972c7c8f64900525490600a87f2dcec74a01b7699e01ea1
+  2.20--h9948957_9: 
+    sha256:20cfe335869c0fa6ab52797867950d50cb5b4a420b5b9159c2b4e1acc57a9b57
 docker: quay.io/biocontainers/kronik
 aliases:
   kronik: /usr/local/bin/kronik

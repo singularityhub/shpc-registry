@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scoring-matrices
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scoring-matrices
 latest:
-  0.3.2--py311haab0aaa_0: 
-    sha256:6ab0ca8ea4afb6959b1091e3b11e44ea7954136f083c8436c880c03508d76cd4
+  0.3.3--py311haab0aaa_0: 
+    sha256:8b9dde4b4bb1c2eab8fd050d6733b81bec0a739df642d989624e0f9dbfaa9e70
 tags:
   0.2.0--py39hf95cd2a_0: 
     sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f
@@ -21,6 +21,8 @@ tags:
     sha256:e294021a5ccaae0465b5133af82af20821cd647d0bf11aaa8c9fea1f58a086aa
   0.3.2--py311haab0aaa_0: 
     sha256:6ab0ca8ea4afb6959b1091e3b11e44ea7954136f083c8436c880c03508d76cd4
+  0.3.3--py311haab0aaa_0: 
+    sha256:8b9dde4b4bb1c2eab8fd050d6733b81bec0a739df642d989624e0f9dbfaa9e70
 docker: quay.io/biocontainers/scoring-matrices
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

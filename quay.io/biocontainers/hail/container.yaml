@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/hail
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hail
 latest:
-  0.2.61--py36hf1ae8f4_1: 
-    sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88
+  0.2.61--py311h9948957_3: 
+    sha256:a2f269760c018028397b3ccd719b066c162acbbb21aa0b9a01dcbb2d91733a8b
 tags:
   0.2.61--py36hf1ae8f4_1: 
     sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88
   0.2.61--py37h9a982cc_1: 
     sha256:a87929a0a07cf7680e2cc953a29dad2ac0821ebba83335e37add59f349c74c9c
+  0.2.61--py311h9948957_3: 
+    sha256:a2f269760c018028397b3ccd719b066c162acbbb21aa0b9a01dcbb2d91733a8b
 docker: quay.io/biocontainers/hail
 aliases:
   beeline: /usr/local/bin/beeline
