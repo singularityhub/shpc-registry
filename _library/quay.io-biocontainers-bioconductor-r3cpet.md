@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-r3cpet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r3cpet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r3cpet/container.yaml"
-updated_at: "2025-09-08 04:59:47.458134"
+updated_at: "2025-09-09 03:17:24.754258"
 latest: "1.38.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r3cpet"
 aliases:

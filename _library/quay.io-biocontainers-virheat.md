@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virheat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virheat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virheat/container.yaml"
-updated_at: "2025-09-08 05:18:25.038902"
-latest: "0.7.4--pyhdfd78af_0"
+updated_at: "2025-09-09 03:36:56.149941"
+latest: "0.7.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virheat"
 aliases:
  - "virheat"
@@ -36,8 +36,9 @@ versions:
  - "0.7.1--pyhdfd78af_0"
  - "0.7.3--pyhdfd78af_0"
  - "0.7.4--pyhdfd78af_0"
+ - "0.7.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for virheat"
-config: {"url": "https://biocontainers.pro/tools/virheat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virheat", "latest": {"0.7.4--pyhdfd78af_0": "sha256:31e7d018215bff040f2dfcad5370a8337bf32261fc19fee43b9cad5ed38dd676"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:ebe9c7b49e69cf69453ba8b49e7514d7d7b8183c30ae66d2e7a302ac5389e178", "0.5.4--pyhdfd78af_0": "sha256:a55ee4751494441c898d9b743d10379f98c05de73fa3dd503ef6998de8a7cb80", "0.6--pyhdfd78af_0": "sha256:ded4091f05b77ccd3364cf292d3dde5211caddacce8cb81b20a631014fa58cc2", "0.7--pyhdfd78af_0": "sha256:866fac19accb52b8a206483bb206d3b1a7d4d6f03a1f434a7936e87fb805dffe", "0.7.1--pyhdfd78af_0": "sha256:72e6c878731c1daac7026073a627c8fe55acd6b924463b192198a6a72d03136f", "0.7.3--pyhdfd78af_0": "sha256:d196ee9c8f5c794c8770a1b6a6d49978e66f66200986201b0afe47115d578737", "0.7.4--pyhdfd78af_0": "sha256:31e7d018215bff040f2dfcad5370a8337bf32261fc19fee43b9cad5ed38dd676"}, "docker": "quay.io/biocontainers/virheat", "aliases": {"virheat": "/usr/local/bin/virheat", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/virheat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virheat", "latest": {"0.7.6--pyhdfd78af_0": "sha256:504ebde6e527172f0c4d30b4d3b0b311bdcbd455b875881bcfbeadd42a96e3f3"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:ebe9c7b49e69cf69453ba8b49e7514d7d7b8183c30ae66d2e7a302ac5389e178", "0.5.4--pyhdfd78af_0": "sha256:a55ee4751494441c898d9b743d10379f98c05de73fa3dd503ef6998de8a7cb80", "0.6--pyhdfd78af_0": "sha256:ded4091f05b77ccd3364cf292d3dde5211caddacce8cb81b20a631014fa58cc2", "0.7--pyhdfd78af_0": "sha256:866fac19accb52b8a206483bb206d3b1a7d4d6f03a1f434a7936e87fb805dffe", "0.7.1--pyhdfd78af_0": "sha256:72e6c878731c1daac7026073a627c8fe55acd6b924463b192198a6a72d03136f", "0.7.3--pyhdfd78af_0": "sha256:d196ee9c8f5c794c8770a1b6a6d49978e66f66200986201b0afe47115d578737", "0.7.4--pyhdfd78af_0": "sha256:31e7d018215bff040f2dfcad5370a8337bf32261fc19fee43b9cad5ed38dd676", "0.7.6--pyhdfd78af_0": "sha256:504ebde6e527172f0c4d30b4d3b0b311bdcbd455b875881bcfbeadd42a96e3f3"}, "docker": "quay.io/biocontainers/virheat", "aliases": {"virheat": "/usr/local/bin/virheat", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virheat.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/virheat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virheat:0.7.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/virheat:0.7.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virheat/0.7.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/virheat/0.7.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/virheat/0.7.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/virheat/0.7.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

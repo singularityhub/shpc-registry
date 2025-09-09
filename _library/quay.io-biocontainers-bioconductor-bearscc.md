@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bearscc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bearscc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bearscc/container.yaml"
-updated_at: "2025-09-08 04:48:09.316750"
+updated_at: "2025-09-09 03:05:05.013335"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bearscc"
 aliases:
