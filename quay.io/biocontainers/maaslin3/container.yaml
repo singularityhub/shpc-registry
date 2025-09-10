@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/maaslin3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for maaslin3
 latest:
-  0.99.16--r44hdfd78af_0: 
-    sha256:4a7f3a2b58fc77a065f0715ef2b08267b7501eddcda4e549c3ec03e93df96011
+  0.99.16--r44hdfd78af_1: 
+    sha256:0230c34fe06d736f57208e603042e7ca9c86fe760f89808aaa778c37201e968b
 tags:
   0.99.16--r44hdfd78af_0: 
     sha256:4a7f3a2b58fc77a065f0715ef2b08267b7501eddcda4e549c3ec03e93df96011
+  0.99.16--r44hdfd78af_1: 
+    sha256:0230c34fe06d736f57208e603042e7ca9c86fe760f89808aaa778c37201e968b
 docker: quay.io/biocontainers/maaslin3
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

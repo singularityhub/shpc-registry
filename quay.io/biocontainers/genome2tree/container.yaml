@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/genome2tree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genome2tree
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
+  1.1.0--pyhdfd78af_0: 
+    sha256:38f1adb95e3b598897554cca1bcd99148bf10a6b3b9226783c16c0b6a8b2fb4d
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:eeea200653a78801c4ef9101c3b4b0c5bde0283aa325de0697a31686b85e31d5
+  1.1.0--pyhdfd78af_0: 
+    sha256:38f1adb95e3b598897554cca1bcd99148bf10a6b3b9226783c16c0b6a8b2fb4d
 docker: quay.io/biocontainers/genome2tree
 aliases:
   Genome2Tree.py: /usr/local/bin/Genome2Tree.py

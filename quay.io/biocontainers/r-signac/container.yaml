@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-signac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-signac
 latest:
-  1.14.0--r44he56ddfa_2: 
-    sha256:471f0a127c041233ff18d58294c628430ec525b3e5d209fce66e98302d45f02d
+  1.15.0--r44he56ddfa_0: 
+    sha256:fd7ef8d8b767f798abe236d9eae9e8862e8a87ee01b92f6343a7b07b65e2e670
 tags:
   1.8.0--r41hecf12ef_0: 
     sha256:f212100013aac7cf43778f9fa5d9fc9e2aea39ed90d58919ea99c43f99405fb8
@@ -33,6 +33,8 @@ tags:
     sha256:eaaa8b337d1dc716513689d2b7679f4a3c948d8c98df58185bd135b87f534599
   1.14.0--r44he56ddfa_2: 
     sha256:471f0a127c041233ff18d58294c628430ec525b3e5d209fce66e98302d45f02d
+  1.15.0--r44he56ddfa_0: 
+    sha256:fd7ef8d8b767f798abe236d9eae9e8862e8a87ee01b92f6343a7b07b65e2e670
 docker: quay.io/biocontainers/r-signac
 aliases:
   geosop: /usr/local/bin/geosop

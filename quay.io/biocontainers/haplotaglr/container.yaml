@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/haplotaglr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haplotaglr
 latest:
-  1.1.12--pyhdfd78af_0: 
-    sha256:2f33c2b5c4ddf427caa1177564b8865a761ee2b609bb64ecdb35aac2a5a97283
+  1.1.13--pyhdfd78af_0: 
+    sha256:f22bb4a9cb7101cec1bc695aa2ff826dd6e7d696548b1c567c6230426300fe74
 tags:
   1.1.4--pyhdfd78af_0: 
     sha256:46677901cc9c64e1883bb181f8c0b475e243efcd95ab4548d727dd96e9ea684d
@@ -17,6 +17,8 @@ tags:
     sha256:abd54d7cb8cdf5cdbfe82fcd0739a530dd3773a7556da0cd279ad2641239f09a
   1.1.12--pyhdfd78af_0: 
     sha256:2f33c2b5c4ddf427caa1177564b8865a761ee2b609bb64ecdb35aac2a5a97283
+  1.1.13--pyhdfd78af_0: 
+    sha256:f22bb4a9cb7101cec1bc695aa2ff826dd6e7d696548b1c567c6230426300fe74
 docker: quay.io/biocontainers/haplotaglr
 aliases:
   HaplotagLR: /usr/local/bin/HaplotagLR

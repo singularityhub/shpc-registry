@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/disco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for disco
 latest:
-  1.2--h43eeafb_6: 
-    sha256:dd6db5c54bf38ae0555dbb967a3420250b50ac894494956bd95e30a595d323a0
+  1.3--h5ca1c30_0: 
+    sha256:36b832636da0d8dc38ab6624a92ef2c05739d55f7d85b03bda405dda01e60075
 tags:
   1.2--h5b5514e_5: 
     sha256:141ebbe6888731e5cb93b7b10a8835d210323db21ead0b4364c1e204eac457f5
   1.2--h43eeafb_6: 
     sha256:dd6db5c54bf38ae0555dbb967a3420250b50ac894494956bd95e30a595d323a0
+  1.3--h5ca1c30_0: 
+    sha256:36b832636da0d8dc38ab6624a92ef2c05739d55f7d85b03bda405dda01e60075
 docker: quay.io/biocontainers/disco
 aliases:
   buildG: /usr/local/bin/buildG

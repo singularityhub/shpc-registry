@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/verticall
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for verticall
 latest:
-  0.4.2--pyhdfd78af_0: 
-    sha256:d64bef89f09b5ab1ef74f683533c30b486a9944a3a868eab036c7a44d95c4b8c
+  0.4.3--pyhdfd78af_0: 
+    sha256:bc9bf1bfb8b957dae1bbd31ec42a52d0f0a54a2ae1cd1430b0cd42c69764e157
 tags:
   0.4.1--pyhdfd78af_0: 
     sha256:b1b058ddf350dc7386421144e30a9831f2354d46845b253f749b369663375220
   0.4.2--pyhdfd78af_0: 
     sha256:d64bef89f09b5ab1ef74f683533c30b486a9944a3a868eab036c7a44d95c4b8c
+  0.4.3--pyhdfd78af_0: 
+    sha256:bc9bf1bfb8b957dae1bbd31ec42a52d0f0a54a2ae1cd1430b0cd42c69764e157
 docker: quay.io/biocontainers/verticall
 aliases:
   verticall: /usr/local/bin/verticall
