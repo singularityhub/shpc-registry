@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/apscale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apscale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apscale/container.yaml"
-updated_at: "2025-09-09 03:05:39.293757"
-latest: "4.1.2--pyhdfd78af_0"
+updated_at: "2025-09-10 02:59:26.129961"
+latest: "4.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/apscale"
 aliases:
  - "apscale"
@@ -55,8 +55,10 @@ versions:
  - "3.0.2--pyhdfd78af_0"
  - "4.1.2--pyhdfd78af_0"
  - "4.0.7--pyhdfd78af_0"
+ - "4.2.2--pyhdfd78af_0"
+ - "4.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for apscale"
-config: {"url": "https://biocontainers.pro/tools/apscale", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for apscale", "latest": {"4.1.2--pyhdfd78af_0": "sha256:4a64c65a7895b59f4cceade1582a8c0ca9fe052da5c4d061c128845fa1f2426f"}, "tags": {"1.5.5--pyhdfd78af_0": "sha256:20a12979eebb17044c7bba3251d839639588de59ad369da56c4e04066d0054e1", "1.6.3--pyhdfd78af_0": "sha256:d43160d4b16413d3b5008c99fdce6313e4ec78f1e2e5f993447a6771f2d31f78", "1.7.1--pyhdfd78af_0": "sha256:e1fa43969efa3d2e4576763e8e29ebb84371947fadf363961294c6bf396da752", "2.0.2--pyhdfd78af_0": "sha256:a78ae25d207486327803e739ff4948fd2bb124c8a8313fe28bad60b40e53029d", "2.0.3--pyhdfd78af_0": "sha256:08b22e084d1fbfc4ccf346521e26fef8d67c74e8773ae2b3442e5eee3a1e5310", "2.0.4--pyhdfd78af_0": "sha256:2ab36f259a8949f1cade3fe7650065ba2ac77a68900f7e2a9fa2497437536ef0", "3.0.2--pyhdfd78af_0": "sha256:399d47784c42545ac41ede9fd290f60b1ad723c86e562d16d3965b8f40aa5d94", "4.1.2--pyhdfd78af_0": "sha256:4a64c65a7895b59f4cceade1582a8c0ca9fe052da5c4d061c128845fa1f2426f", "4.0.7--pyhdfd78af_0": "sha256:7ae87da31ec00428dfd6e5ad262386918c710c1476a41c9e3e9453c4d4ff392c"}, "docker": "quay.io/biocontainers/apscale", "aliases": {"apscale": "/usr/local/bin/apscale", "csv-import": "/usr/local/bin/csv-import", "demultiplexer": "/usr/local/bin/demultiplexer", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9"}}
+config: {"url": "https://biocontainers.pro/tools/apscale", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for apscale", "latest": {"4.2.2--pyhdfd78af_0": "sha256:3ff370a07f7f813d931ffc2435527facc240121fc9f8df29beaf8baf5a101a6b"}, "tags": {"1.5.5--pyhdfd78af_0": "sha256:20a12979eebb17044c7bba3251d839639588de59ad369da56c4e04066d0054e1", "1.6.3--pyhdfd78af_0": "sha256:d43160d4b16413d3b5008c99fdce6313e4ec78f1e2e5f993447a6771f2d31f78", "1.7.1--pyhdfd78af_0": "sha256:e1fa43969efa3d2e4576763e8e29ebb84371947fadf363961294c6bf396da752", "2.0.2--pyhdfd78af_0": "sha256:a78ae25d207486327803e739ff4948fd2bb124c8a8313fe28bad60b40e53029d", "2.0.3--pyhdfd78af_0": "sha256:08b22e084d1fbfc4ccf346521e26fef8d67c74e8773ae2b3442e5eee3a1e5310", "2.0.4--pyhdfd78af_0": "sha256:2ab36f259a8949f1cade3fe7650065ba2ac77a68900f7e2a9fa2497437536ef0", "3.0.2--pyhdfd78af_0": "sha256:399d47784c42545ac41ede9fd290f60b1ad723c86e562d16d3965b8f40aa5d94", "4.1.2--pyhdfd78af_0": "sha256:4a64c65a7895b59f4cceade1582a8c0ca9fe052da5c4d061c128845fa1f2426f", "4.0.7--pyhdfd78af_0": "sha256:7ae87da31ec00428dfd6e5ad262386918c710c1476a41c9e3e9453c4d4ff392c", "4.2.2--pyhdfd78af_0": "sha256:3ff370a07f7f813d931ffc2435527facc240121fc9f8df29beaf8baf5a101a6b", "4.1.6--pyhdfd78af_0": "sha256:0db58f5669df215017e6a88a71f1963882e085cbe598775a1b3ba719111cc738"}, "docker": "quay.io/biocontainers/apscale", "aliases": {"apscale": "/usr/local/bin/apscale", "csv-import": "/usr/local/bin/csv-import", "demultiplexer": "/usr/local/bin/demultiplexer", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/apscale.
@@ -71,7 +73,7 @@ $ shpc install quay.io/biocontainers/apscale
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/apscale:4.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/apscale:4.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/apscale/4.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/apscale/4.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/apscale/4.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/apscale/4.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

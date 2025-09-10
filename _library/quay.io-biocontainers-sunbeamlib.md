@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sunbeamlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sunbeamlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sunbeamlib/container.yaml"
-updated_at: "2025-09-09 03:11:24.461058"
-latest: "5.1.2--pyhdfd78af_0"
+updated_at: "2025-09-10 03:04:49.206777"
+latest: "5.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sunbeamlib"
 aliases:
  - "phc"
@@ -40,8 +40,9 @@ versions:
  - "5.0.5--pyhdfd78af_0"
  - "5.1.0--pyhdfd78af_0"
  - "5.1.2--pyhdfd78af_0"
+ - "5.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sunbeamlib"
-config: {"url": "https://biocontainers.pro/tools/sunbeamlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sunbeamlib", "latest": {"5.1.2--pyhdfd78af_0": "sha256:8c55df24da0a84e99bc0019be5b47a0c610b06c818c4f154b86498a60cd7dc16"}, "tags": {"5.0.1--pyhdfd78af_0": "sha256:7abffe01e2ee0ba3b141730bc7aa2881ad16f3e378bbfa6cea61ffd7188f9732", "5.0.5--pyhdfd78af_0": "sha256:8fda559ec272480d35748617ed8b580b2e6192468e996b76dc400f709ffe8b30", "5.1.0--pyhdfd78af_0": "sha256:c8810252b2aa05eb840acf34b973d642cd7aa3d7ec62ecf98da5e772c7e86355", "5.1.2--pyhdfd78af_0": "sha256:8c55df24da0a84e99bc0019be5b47a0c610b06c818c4f154b86498a60cd7dc16"}, "docker": "quay.io/biocontainers/sunbeamlib", "aliases": {"phc": "/usr/local/bin/phc", "sunbeam": "/usr/local/bin/sunbeam", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test"}}
+config: {"url": "https://biocontainers.pro/tools/sunbeamlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sunbeamlib", "latest": {"5.2.2--pyhdfd78af_0": "sha256:2e907b2202e9b9e256f34dbd65498e987735d0baa24b1eb42c450075c574c3ab"}, "tags": {"5.0.1--pyhdfd78af_0": "sha256:7abffe01e2ee0ba3b141730bc7aa2881ad16f3e378bbfa6cea61ffd7188f9732", "5.0.5--pyhdfd78af_0": "sha256:8fda559ec272480d35748617ed8b580b2e6192468e996b76dc400f709ffe8b30", "5.1.0--pyhdfd78af_0": "sha256:c8810252b2aa05eb840acf34b973d642cd7aa3d7ec62ecf98da5e772c7e86355", "5.1.2--pyhdfd78af_0": "sha256:8c55df24da0a84e99bc0019be5b47a0c610b06c818c4f154b86498a60cd7dc16", "5.2.2--pyhdfd78af_0": "sha256:2e907b2202e9b9e256f34dbd65498e987735d0baa24b1eb42c450075c574c3ab"}, "docker": "quay.io/biocontainers/sunbeamlib", "aliases": {"phc": "/usr/local/bin/phc", "sunbeam": "/usr/local/bin/sunbeam", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sunbeamlib.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/sunbeamlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sunbeamlib:5.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sunbeamlib:5.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sunbeamlib/5.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/sunbeamlib/5.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/sunbeamlib/5.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/sunbeamlib/5.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kronik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kronik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kronik/container.yaml"
-updated_at: "2025-09-09 03:33:45.222097"
-latest: "2.20--h9948957_7"
+updated_at: "2025-09-10 03:26:22.130657"
+latest: "2.20--h9948957_9"
 container_url: "https://biocontainers.pro/tools/kronik"
 aliases:
  - "kronik"
@@ -13,8 +13,9 @@ versions:
  - "2.20--h9f5acd7_4"
  - "2.20--h4ac6f70_6"
  - "2.20--h9948957_7"
+ - "2.20--h9948957_9"
 description: "shpc-registry automated BioContainers addition for kronik"
-config: {"url": "https://biocontainers.pro/tools/kronik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronik", "latest": {"2.20--h9948957_7": "sha256:be4df36bafc5a56c5972c7c8f64900525490600a87f2dcec74a01b7699e01ea1"}, "tags": {"2.20--h9f5acd7_4": "sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a", "2.20--h4ac6f70_6": "sha256:bfb99c879872dd8aef84e4e2664beaac7bd896a3d6707f4ec8f0a249f1db7e88", "2.20--h9948957_7": "sha256:be4df36bafc5a56c5972c7c8f64900525490600a87f2dcec74a01b7699e01ea1"}, "docker": "quay.io/biocontainers/kronik", "aliases": {"kronik": "/usr/local/bin/kronik"}}
+config: {"url": "https://biocontainers.pro/tools/kronik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronik", "latest": {"2.20--h9948957_9": "sha256:20cfe335869c0fa6ab52797867950d50cb5b4a420b5b9159c2b4e1acc57a9b57"}, "tags": {"2.20--h9f5acd7_4": "sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a", "2.20--h4ac6f70_6": "sha256:bfb99c879872dd8aef84e4e2664beaac7bd896a3d6707f4ec8f0a249f1db7e88", "2.20--h9948957_7": "sha256:be4df36bafc5a56c5972c7c8f64900525490600a87f2dcec74a01b7699e01ea1", "2.20--h9948957_9": "sha256:20cfe335869c0fa6ab52797867950d50cb5b4a420b5b9159c2b4e1acc57a9b57"}, "docker": "quay.io/biocontainers/kronik", "aliases": {"kronik": "/usr/local/bin/kronik"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kronik.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kronik
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kronik:2.20--h9948957_7
+$ shpc install quay.io/biocontainers/kronik:2.20--h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kronik/2.20--h9948957_7
-$ module help quay.io/biocontainers/kronik/2.20--h9948957_7
+$ module load quay.io/biocontainers/kronik/2.20--h9948957_9
+$ module help quay.io/biocontainers/kronik/2.20--h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

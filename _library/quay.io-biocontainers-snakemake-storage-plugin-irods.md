@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-irods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-irods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-irods/container.yaml"
-updated_at: "2025-09-09 03:36:12.603595"
+updated_at: "2025-09-10 03:28:39.446568"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-irods"
 aliases:

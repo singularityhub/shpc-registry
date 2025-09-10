@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/filtlong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filtlong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filtlong/container.yaml"
-updated_at: "2025-09-09 03:51:11.660001"
-latest: "0.2.1--hdcf5f25_4"
+updated_at: "2025-09-10 03:42:35.892391"
+latest: "0.3.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/filtlong"
 aliases:
  - "filtlong"
@@ -13,8 +13,9 @@ versions:
  - "0.2.1--hd03093a_1"
  - "0.2.1--hdcf5f25_3"
  - "0.2.1--hdcf5f25_4"
+ - "0.3.0--h077b44d_0"
 description: "shpc-registry automated BioContainers addition for filtlong"
-config: {"url": "https://biocontainers.pro/tools/filtlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filtlong", "latest": {"0.2.1--hdcf5f25_4": "sha256:e6038605a5d350d0c20e798aa20e4de27018dd5b4db9d9cd3586393d805ea782"}, "tags": {"0.2.1--hd03093a_1": "sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b", "0.2.1--hdcf5f25_3": "sha256:4cb81b47e89b1f97ec8c6b6edee723d2fb9e6c79acbeab2e3101dcb9bbf7b3d8", "0.2.1--hdcf5f25_4": "sha256:e6038605a5d350d0c20e798aa20e4de27018dd5b4db9d9cd3586393d805ea782"}, "docker": "quay.io/biocontainers/filtlong", "aliases": {"filtlong": "/usr/local/bin/filtlong"}}
+config: {"url": "https://biocontainers.pro/tools/filtlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filtlong", "latest": {"0.3.0--h077b44d_0": "sha256:c07ba721a030e009091163884d9b16f6ccba5b57304865428887f38589d6abb8"}, "tags": {"0.2.1--hd03093a_1": "sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b", "0.2.1--hdcf5f25_3": "sha256:4cb81b47e89b1f97ec8c6b6edee723d2fb9e6c79acbeab2e3101dcb9bbf7b3d8", "0.2.1--hdcf5f25_4": "sha256:e6038605a5d350d0c20e798aa20e4de27018dd5b4db9d9cd3586393d805ea782", "0.3.0--h077b44d_0": "sha256:c07ba721a030e009091163884d9b16f6ccba5b57304865428887f38589d6abb8"}, "docker": "quay.io/biocontainers/filtlong", "aliases": {"filtlong": "/usr/local/bin/filtlong"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/filtlong.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/filtlong
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/filtlong:0.2.1--hdcf5f25_4
+$ shpc install quay.io/biocontainers/filtlong:0.3.0--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/filtlong/0.2.1--hdcf5f25_4
-$ module help quay.io/biocontainers/filtlong/0.2.1--hdcf5f25_4
+$ module load quay.io/biocontainers/filtlong/0.3.0--h077b44d_0
+$ module help quay.io/biocontainers/filtlong/0.3.0--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

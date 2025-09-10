@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gmicr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmicr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmicr/container.yaml"
-updated_at: "2025-09-09 03:32:38.051084"
+updated_at: "2025-09-10 03:25:19.243742"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmicr"
 

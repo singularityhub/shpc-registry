@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-digest-hmac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-hmac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-hmac/container.yaml"
-updated_at: "2025-09-09 03:30:09.097773"
-latest: "1.04--pl5321hdfd78af_0"
+updated_at: "2025-09-10 03:22:59.914674"
+latest: "1.05--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-digest-hmac"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.04--pl5321hdfd78af_0"
+ - "1.05--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-digest-hmac"
-config: {"url": "https://biocontainers.pro/tools/perl-digest-hmac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-hmac", "latest": {"1.04--pl5321hdfd78af_0": "sha256:6265d28a02dcb3511a0a0019757cb8b2ba7ee2dbe48cc5820a5a5d6e6ab92a74"}, "tags": {"1.04--pl5321hdfd78af_0": "sha256:6265d28a02dcb3511a0a0019757cb8b2ba7ee2dbe48cc5820a5a5d6e6ab92a74"}, "docker": "quay.io/biocontainers/perl-digest-hmac", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-digest-hmac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-hmac", "latest": {"1.05--pl5321hdfd78af_0": "sha256:49171f5faeb3ae20561b807e166caf67dd30c142f9922fcc092a38971541679a"}, "tags": {"1.04--pl5321hdfd78af_0": "sha256:6265d28a02dcb3511a0a0019757cb8b2ba7ee2dbe48cc5820a5a5d6e6ab92a74", "1.05--pl5321hdfd78af_0": "sha256:49171f5faeb3ae20561b807e166caf67dd30c142f9922fcc092a38971541679a"}, "docker": "quay.io/biocontainers/perl-digest-hmac", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-digest-hmac.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-digest-hmac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-digest-hmac:1.04--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-digest-hmac:1.05--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-digest-hmac/1.04--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-digest-hmac/1.04--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-digest-hmac/1.05--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-digest-hmac/1.05--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
