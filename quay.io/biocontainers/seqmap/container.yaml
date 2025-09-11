@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/seqmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqmap
 latest:
-  1.0.13--hc9558a2_1: 
-    sha256:ebd8f57ab1e2ae461b228641ef9766b110c98698359e3689fb5b2c4ae3d09abf
+  1.0.13--h9948957_3: 
+    sha256:8ff16fa14ba7c656e6729b50b783e09954697b1277051293326feaaf88e5d1f2
 tags:
   1.0.13--hc9558a2_1: 
     sha256:ebd8f57ab1e2ae461b228641ef9766b110c98698359e3689fb5b2c4ae3d09abf
+  1.0.13--h9948957_3: 
+    sha256:8ff16fa14ba7c656e6729b50b783e09954697b1277051293326feaaf88e5d1f2
 docker: quay.io/biocontainers/seqmap
 aliases:
   seqmap: /usr/local/bin/seqmap

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/goleft
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for goleft
 latest:
-  0.2.6--h9ee0642_0: 
-    sha256:9d20b4348d7779d41233f927ce3c783e4c4f7db43f92db6dd641677326d7a633
+  0.2.6--he881be0_1: 
+    sha256:b31894aecee423043ccace3a56969aa19667f23457d904b73ca5a77a5e756d11
 tags:
   0.2.4--h9ee0642_1: 
     sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75
   0.2.6--h9ee0642_0: 
     sha256:9d20b4348d7779d41233f927ce3c783e4c4f7db43f92db6dd641677326d7a633
+  0.2.6--he881be0_1: 
+    sha256:b31894aecee423043ccace3a56969aa19667f23457d904b73ca5a77a5e756d11
 docker: quay.io/biocontainers/goleft
 aliases:
   goleft: /usr/local/bin/goleft

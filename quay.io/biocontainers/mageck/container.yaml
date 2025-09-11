@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mageck
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mageck
 latest:
-  0.5.9.5--py312hf731ba3_6: 
-    sha256:31fd8669ff75f60a4a04a3908054aa638aac90d27d0b05c4ae5fb1eef45b26a2
+  0.5.9.5--py310h184ae93_8: 
+    sha256:d75024a642ed1799ad86abb85784e4f891dee76f62d07658c5d596f3d80c2d5b
 tags:
   0.5.9--py27h6bb024c_0: 
     sha256:a48b9632470df5d854c43fb986f95df8e1b3749265a6f4de81dcd06db9bb3537
@@ -15,4 +15,6 @@ tags:
     sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b
   0.5.9.5--py312hf731ba3_6: 
     sha256:31fd8669ff75f60a4a04a3908054aa638aac90d27d0b05c4ae5fb1eef45b26a2
+  0.5.9.5--py310h184ae93_8: 
+    sha256:d75024a642ed1799ad86abb85784e4f891dee76f62d07658c5d596f3d80c2d5b
 docker: quay.io/biocontainers/mageck
