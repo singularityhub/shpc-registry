@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/fermikit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fermikit
+latest:
+  0.14.dev1--pl5321h86e5fe9_2: 
+    sha256:14b203f68c425e5a8a727205f9176ab5a2213b3aa55a3d930a32dc56bd86b38d
+tags:
+  0.14.dev1--pl5321h86e5fe9_2: 
+    sha256:14b203f68c425e5a8a727205f9176ab5a2213b3aa55a3d930a32dc56bd86b38d
+docker: quay.io/biocontainers/fermikit
+aliases:
+  bfc: /usr/local/bin/bfc
+  fermi2: /usr/local/bin/fermi2
+  fermi2.pl: /usr/local/bin/fermi2.pl
+  hapdip.js: /usr/local/bin/hapdip.js
+  htsbox: /usr/local/bin/htsbox
+  ropebwt2: /usr/local/bin/ropebwt2
+  run-calling: /usr/local/bin/run-calling
+  trimadap-mt: /usr/local/bin/trimadap-mt
+  seqtk: /usr/local/bin/seqtk
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  k8: /usr/local/bin/k8
