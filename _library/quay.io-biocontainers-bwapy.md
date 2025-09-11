@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwapy/container.yaml"
-updated_at: "2025-09-10 02:58:54.501986"
+updated_at: "2025-09-11 03:03:29.785811"
 latest: "0.1.4--py311h384fd50_10"
 container_url: "https://biocontainers.pro/tools/bwapy"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sistem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sistem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sistem/container.yaml"
-updated_at: "2025-09-10 03:29:08.923562"
-latest: "1.0.3--pyh7e72e81_0"
+updated_at: "2025-09-11 03:33:33.969481"
+latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sistem"
 aliases:
  - "dwgsim"
@@ -37,8 +37,9 @@ aliases:
  - "samtools.pl"
 versions:
  - "1.0.3--pyh7e72e81_0"
+ - "1.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sistem"
-config: {"url": "https://biocontainers.pro/tools/sistem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sistem", "latest": {"1.0.3--pyh7e72e81_0": "sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306"}, "tags": {"1.0.3--pyh7e72e81_0": "sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306"}, "docker": "quay.io/biocontainers/sistem", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "faidx": "/usr/local/bin/faidx", "numpy-config": "/usr/local/bin/numpy-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
+config: {"url": "https://biocontainers.pro/tools/sistem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sistem", "latest": {"1.0.4--pyhdfd78af_0": "sha256:55552546e4690d237ce66c254566fad2864b62301c49673b0f1d01fb835c08a1"}, "tags": {"1.0.3--pyh7e72e81_0": "sha256:eaf492f22a252ce8d1e07d9bd9b7dac81ea3939dbb50f5fdd9162ea5db66b306", "1.0.4--pyhdfd78af_0": "sha256:55552546e4690d237ce66c254566fad2864b62301c49673b0f1d01fb835c08a1"}, "docker": "quay.io/biocontainers/sistem", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "annot-tsv": "/usr/local/bin/annot-tsv", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "faidx": "/usr/local/bin/faidx", "numpy-config": "/usr/local/bin/numpy-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sistem.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/sistem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sistem:1.0.3--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/sistem:1.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sistem/1.0.3--pyh7e72e81_0
-$ module help quay.io/biocontainers/sistem/1.0.3--pyh7e72e81_0
+$ module load quay.io/biocontainers/sistem/1.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/sistem/1.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

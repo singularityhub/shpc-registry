@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/disco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/disco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/disco/container.yaml"
-updated_at: "2025-09-10 03:22:33.391905"
-latest: "1.2--h43eeafb_6"
+updated_at: "2025-09-11 03:26:48.441935"
+latest: "1.3--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/disco"
 aliases:
  - "buildG"
@@ -48,8 +48,9 @@ aliases:
 versions:
  - "1.2--h5b5514e_5"
  - "1.2--h43eeafb_6"
+ - "1.3--h5ca1c30_0"
 description: "shpc-registry automated BioContainers addition for disco"
-config: {"url": "https://biocontainers.pro/tools/disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for disco", "latest": {"1.2--h43eeafb_6": "sha256:dd6db5c54bf38ae0555dbb967a3420250b50ac894494956bd95e30a595d323a0"}, "tags": {"1.2--h5b5514e_5": "sha256:141ebbe6888731e5cb93b7b10a8835d210323db21ead0b4364c1e204eac457f5", "1.2--h43eeafb_6": "sha256:dd6db5c54bf38ae0555dbb967a3420250b50ac894494956bd95e30a595d323a0"}, "docker": "quay.io/biocontainers/disco", "aliases": {"buildG": "/usr/local/bin/buildG", "buildG-MPI": "/usr/local/bin/buildG-MPI", "buildG-MPIRMA": "/usr/local/bin/buildG-MPIRMA", "disco.cfg": "/usr/local/bin/disco.cfg", "disco_2.cfg": "/usr/local/bin/disco_2.cfg", "disco_3.cfg": "/usr/local/bin/disco_3.cfg", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "fullsimplify": "/usr/local/bin/fullsimplify", "parsimplify": "/usr/local/bin/parsimplify", "runAssembly-MPI.sh": "/usr/local/bin/runAssembly-MPI.sh", "runAssembly.sh": "/usr/local/bin/runAssembly.sh", "runDisco-MPI-ALPS.sh": "/usr/local/bin/runDisco-MPI-ALPS.sh", "runDisco-MPI-AllineaMAP.sh": "/usr/local/bin/runDisco-MPI-AllineaMAP.sh", "runDisco-MPI-SLURM.sh": "/usr/local/bin/runDisco-MPI-SLURM.sh", "runDisco-MPI.sh": "/usr/local/bin/runDisco-MPI.sh", "runDisco.sh": "/usr/local/bin/runDisco.sh", "runECC.sh": "/usr/local/bin/runECC.sh", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
+config: {"url": "https://biocontainers.pro/tools/disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for disco", "latest": {"1.3--h5ca1c30_0": "sha256:36b832636da0d8dc38ab6624a92ef2c05739d55f7d85b03bda405dda01e60075"}, "tags": {"1.2--h5b5514e_5": "sha256:141ebbe6888731e5cb93b7b10a8835d210323db21ead0b4364c1e204eac457f5", "1.2--h43eeafb_6": "sha256:dd6db5c54bf38ae0555dbb967a3420250b50ac894494956bd95e30a595d323a0", "1.3--h5ca1c30_0": "sha256:36b832636da0d8dc38ab6624a92ef2c05739d55f7d85b03bda405dda01e60075"}, "docker": "quay.io/biocontainers/disco", "aliases": {"buildG": "/usr/local/bin/buildG", "buildG-MPI": "/usr/local/bin/buildG-MPI", "buildG-MPIRMA": "/usr/local/bin/buildG-MPIRMA", "disco.cfg": "/usr/local/bin/disco.cfg", "disco_2.cfg": "/usr/local/bin/disco_2.cfg", "disco_3.cfg": "/usr/local/bin/disco_3.cfg", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "fullsimplify": "/usr/local/bin/fullsimplify", "parsimplify": "/usr/local/bin/parsimplify", "runAssembly-MPI.sh": "/usr/local/bin/runAssembly-MPI.sh", "runAssembly.sh": "/usr/local/bin/runAssembly.sh", "runDisco-MPI-ALPS.sh": "/usr/local/bin/runDisco-MPI-ALPS.sh", "runDisco-MPI-AllineaMAP.sh": "/usr/local/bin/runDisco-MPI-AllineaMAP.sh", "runDisco-MPI-SLURM.sh": "/usr/local/bin/runDisco-MPI-SLURM.sh", "runDisco-MPI.sh": "/usr/local/bin/runDisco-MPI.sh", "runDisco.sh": "/usr/local/bin/runDisco.sh", "runECC.sh": "/usr/local/bin/runECC.sh", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/disco.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/disco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/disco:1.2--h43eeafb_6
+$ shpc install quay.io/biocontainers/disco:1.3--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/disco/1.2--h43eeafb_6
-$ module help quay.io/biocontainers/disco/1.2--h43eeafb_6
+$ module load quay.io/biocontainers/disco/1.3--h5ca1c30_0
+$ module help quay.io/biocontainers/disco/1.3--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

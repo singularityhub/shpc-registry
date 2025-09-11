@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_cmip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_cmip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_cmip/container.yaml"
-updated_at: "2025-09-10 03:05:27.747174"
+updated_at: "2025-09-11 03:10:11.669271"
 latest: "5.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_cmip"
 aliases:

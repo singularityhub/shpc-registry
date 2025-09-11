@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lockfile-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lockfile-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lockfile-simple/container.yaml"
-updated_at: "2025-09-10 03:06:51.465453"
+updated_at: "2025-09-11 03:11:35.199396"
 latest: "0.208--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lockfile-simple"
 

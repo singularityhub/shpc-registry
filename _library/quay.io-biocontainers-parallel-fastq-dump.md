@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parallel-fastq-dump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parallel-fastq-dump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parallel-fastq-dump/container.yaml"
-updated_at: "2025-09-10 03:32:28.756574"
+updated_at: "2025-09-11 03:36:56.177610"
 latest: "0.6.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parallel-fastq-dump"
 aliases:

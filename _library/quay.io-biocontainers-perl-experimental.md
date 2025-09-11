@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-experimental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-experimental/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-experimental/container.yaml"
-updated_at: "2025-09-10 03:24:23.515667"
+updated_at: "2025-09-11 03:28:41.236585"
 latest: "0.036--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-experimental"
 aliases:

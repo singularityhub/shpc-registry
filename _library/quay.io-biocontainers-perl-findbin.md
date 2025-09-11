@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-findbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-findbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin/container.yaml"
-updated_at: "2025-09-10 03:06:52.835185"
-latest: "1.51--pl5321hdfd78af_3"
+updated_at: "2025-09-11 03:11:36.567138"
+latest: "1.54--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-findbin"
 
 versions:
  - "1.51--pl5321hdfd78af_3"
+ - "1.54--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-findbin"
-config: {"url": "https://biocontainers.pro/tools/perl-findbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin", "latest": {"1.51--pl5321hdfd78af_3": "sha256:a6994160382956da8a8b33179d683663d5a8f28fd6c3cf303cfbd5480dffb236"}, "tags": {"1.51--pl5321hdfd78af_3": "sha256:a6994160382956da8a8b33179d683663d5a8f28fd6c3cf303cfbd5480dffb236"}, "docker": "quay.io/biocontainers/perl-findbin"}
+config: {"url": "https://biocontainers.pro/tools/perl-findbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin", "latest": {"1.54--pl5321hdfd78af_0": "sha256:8e3ccba99178452a6ec70b741879d9b1fda9d1c3be3a960703a96ce17b416e18"}, "tags": {"1.51--pl5321hdfd78af_3": "sha256:a6994160382956da8a8b33179d683663d5a8f28fd6c3cf303cfbd5480dffb236", "1.54--pl5321hdfd78af_0": "sha256:8e3ccba99178452a6ec70b741879d9b1fda9d1c3be3a960703a96ce17b416e18"}, "docker": "quay.io/biocontainers/perl-findbin"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-findbin.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-findbin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-findbin:1.51--pl5321hdfd78af_3
+$ shpc install quay.io/biocontainers/perl-findbin:1.54--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-findbin/1.51--pl5321hdfd78af_3
-$ module help quay.io/biocontainers/perl-findbin/1.51--pl5321hdfd78af_3
+$ module load quay.io/biocontainers/perl-findbin/1.54--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-findbin/1.54--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

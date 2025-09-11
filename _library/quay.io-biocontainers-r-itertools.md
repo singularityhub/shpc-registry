@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-itertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-itertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-itertools/container.yaml"
-updated_at: "2025-09-10 03:34:40.372067"
+updated_at: "2025-09-11 03:39:07.401143"
 latest: "0.1_3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-itertools"
 aliases:

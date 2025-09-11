@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ensembl-vep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-vep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-vep/container.yaml"
-updated_at: "2025-09-10 03:45:02.116951"
-latest: "114.2--pl5321h2a3209d_1"
+updated_at: "2025-09-11 03:49:36.769567"
+latest: "115--pl5321h2a3209d_0"
 container_url: "https://biocontainers.pro/tools/ensembl-vep"
 aliases:
  - "filter_vep"
@@ -40,8 +40,9 @@ versions:
  - "114.1--pl5321h2a3209d_0"
  - "114.2--pl5321h2a3209d_0"
  - "114.2--pl5321h2a3209d_1"
+ - "115--pl5321h2a3209d_0"
 description: "shpc-registry automated BioContainers addition for ensembl-vep"
-config: {"url": "https://biocontainers.pro/tools/ensembl-vep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ensembl-vep", "latest": {"114.2--pl5321h2a3209d_1": "sha256:405267c2d6c9fb555d8be8c65a77ff13a41a4654a008d54231965611fa0a9cb3"}, "tags": {"98.1--pl526hecc5488_0": "sha256:a5fb98373509dab9ad59d363b3ce5da77a9bd8a2c7578a2f64e63e8d0f80afe0", "112.0--pl5321h2a3209d_0": "sha256:ae08eb972c5a4280ce6457b93db2e9fdc4e39e5760d0e10a991de44ed01c9d20", "111.0--pl5321h2a3209d_0": "sha256:18b618045bdde6d766fd5ce3d4a43337b39e03e1e78477ccb323081fa99dea30", "110.1--pl5321h2a3209d_0": "sha256:bf2dba86687cc291035ff8dee550abb87f835b0c83550eaa9c547dc743e30ced", "110.0--pl5321h2a3209d_0": "sha256:fa8127d8fd570a7506f273a3b9ea0764f383da75f6a975b0ede3a22dc53f3b47", "109.3--pl5321h2a3209d_1": "sha256:6c583cd4ccf7faa306f31c0265f6c2d82612e7b7945d8311cbbe116419a06360", "113.0--pl5321h2a3209d_0": "sha256:e720f3c97170dab9d910885b9483f45fa707879cedb066164034b9c0d5b12e6b", "113.3--pl5321h2a3209d_0": "sha256:38ca6acfb692f0909d80e1d7eb90523238c88b6534b8a5099707c9478cb2af16", "113.2--pl5321h2a3209d_0": "sha256:1b7acb760dcb4534e60b70d7ed3ae72563d91bbfaab89265876c78c47a7e679e", "113.3--pl5321h2a3209d_2": "sha256:8fefa6cf1d6e91fccd68462507c2cef4cba991b5d22a535f81954bd7b8b308ac", "113.4--pl5321h2a3209d_0": "sha256:fa3fe8bd0109c7b4dfec8f84193d5e7c894cbee1c78f3345e4d74db85de92d34", "114.0--pl5321h2a3209d_0": "sha256:d1b6ade78c7ec6ae329207582255ac69344a5179fb051678723e1098dd2f7b6f", "114.1--pl5321h2a3209d_0": "sha256:fc3bed043f66cbd0b341f5b4f43a1eb1bd8cb1fdd6134b6cf8151a8651b09cd3", "114.2--pl5321h2a3209d_0": "sha256:cdda98fcb095e1290c9a2e0487b568623240a19b25c3470bf37bd5b9b1f06a8e", "114.2--pl5321h2a3209d_1": "sha256:405267c2d6c9fb555d8be8c65a77ff13a41a4654a008d54231965611fa0a9cb3"}, "docker": "quay.io/biocontainers/ensembl-vep", "aliases": {"filter_vep": "/usr/local/bin/filter_vep", "haplo": "/usr/local/bin/haplo", "variant_recoder": "/usr/local/bin/variant_recoder", "vep": "/usr/local/bin/vep", "vep_convert_cache": "/usr/local/bin/vep_convert_cache", "vep_install": "/usr/local/bin/vep_install", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "unzip": "/usr/local/bin/unzip", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
+config: {"url": "https://biocontainers.pro/tools/ensembl-vep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ensembl-vep", "latest": {"115--pl5321h2a3209d_0": "sha256:e25b41d45fe8ba054cbf0731ac250d0a9a2d7e08c207f7dcad3453768acd6d38"}, "tags": {"98.1--pl526hecc5488_0": "sha256:a5fb98373509dab9ad59d363b3ce5da77a9bd8a2c7578a2f64e63e8d0f80afe0", "112.0--pl5321h2a3209d_0": "sha256:ae08eb972c5a4280ce6457b93db2e9fdc4e39e5760d0e10a991de44ed01c9d20", "111.0--pl5321h2a3209d_0": "sha256:18b618045bdde6d766fd5ce3d4a43337b39e03e1e78477ccb323081fa99dea30", "110.1--pl5321h2a3209d_0": "sha256:bf2dba86687cc291035ff8dee550abb87f835b0c83550eaa9c547dc743e30ced", "110.0--pl5321h2a3209d_0": "sha256:fa8127d8fd570a7506f273a3b9ea0764f383da75f6a975b0ede3a22dc53f3b47", "109.3--pl5321h2a3209d_1": "sha256:6c583cd4ccf7faa306f31c0265f6c2d82612e7b7945d8311cbbe116419a06360", "113.0--pl5321h2a3209d_0": "sha256:e720f3c97170dab9d910885b9483f45fa707879cedb066164034b9c0d5b12e6b", "113.3--pl5321h2a3209d_0": "sha256:38ca6acfb692f0909d80e1d7eb90523238c88b6534b8a5099707c9478cb2af16", "113.2--pl5321h2a3209d_0": "sha256:1b7acb760dcb4534e60b70d7ed3ae72563d91bbfaab89265876c78c47a7e679e", "113.3--pl5321h2a3209d_2": "sha256:8fefa6cf1d6e91fccd68462507c2cef4cba991b5d22a535f81954bd7b8b308ac", "113.4--pl5321h2a3209d_0": "sha256:fa3fe8bd0109c7b4dfec8f84193d5e7c894cbee1c78f3345e4d74db85de92d34", "114.0--pl5321h2a3209d_0": "sha256:d1b6ade78c7ec6ae329207582255ac69344a5179fb051678723e1098dd2f7b6f", "114.1--pl5321h2a3209d_0": "sha256:fc3bed043f66cbd0b341f5b4f43a1eb1bd8cb1fdd6134b6cf8151a8651b09cd3", "114.2--pl5321h2a3209d_0": "sha256:cdda98fcb095e1290c9a2e0487b568623240a19b25c3470bf37bd5b9b1f06a8e", "114.2--pl5321h2a3209d_1": "sha256:405267c2d6c9fb555d8be8c65a77ff13a41a4654a008d54231965611fa0a9cb3", "115--pl5321h2a3209d_0": "sha256:e25b41d45fe8ba054cbf0731ac250d0a9a2d7e08c207f7dcad3453768acd6d38"}, "docker": "quay.io/biocontainers/ensembl-vep", "aliases": {"filter_vep": "/usr/local/bin/filter_vep", "haplo": "/usr/local/bin/haplo", "variant_recoder": "/usr/local/bin/variant_recoder", "vep": "/usr/local/bin/vep", "vep_convert_cache": "/usr/local/bin/vep_convert_cache", "vep_install": "/usr/local/bin/vep_install", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "unzip": "/usr/local/bin/unzip", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ensembl-vep.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/ensembl-vep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ensembl-vep:114.2--pl5321h2a3209d_1
+$ shpc install quay.io/biocontainers/ensembl-vep:115--pl5321h2a3209d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ensembl-vep/114.2--pl5321h2a3209d_1
-$ module help quay.io/biocontainers/ensembl-vep/114.2--pl5321h2a3209d_1
+$ module load quay.io/biocontainers/ensembl-vep/115--pl5321h2a3209d_0
+$ module help quay.io/biocontainers/ensembl-vep/115--pl5321h2a3209d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

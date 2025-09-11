@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/allelecodes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/allelecodes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/allelecodes/container.yaml"
-updated_at: "2025-09-10 03:06:22.160555"
+updated_at: "2025-09-11 03:11:05.995675"
 latest: "2.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/allelecodes"
 aliases:

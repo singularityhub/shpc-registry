@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haploclique"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploclique/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploclique/container.yaml"
-updated_at: "2025-09-10 03:11:58.977292"
-latest: "1.3.1--h48762f8_2"
+updated_at: "2025-09-11 03:16:43.090195"
+latest: "1.3.1--h2b6358e_4"
 container_url: "https://biocontainers.pro/tools/haploclique"
 aliases:
  - "bamtools-2.4.1"
@@ -22,8 +22,9 @@ aliases:
  - "ncurses5-config"
 versions:
  - "1.3.1--h48762f8_2"
+ - "1.3.1--h2b6358e_4"
 description: "shpc-registry automated BioContainers addition for haploclique"
-config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h48762f8_2": "sha256:47323cb0fe52f41da532572b92056d7cc18daa26256fb56917e76cb42801b571"}, "tags": {"1.3.1--h48762f8_2": "sha256:47323cb0fe52f41da532572b92056d7cc18daa26256fb56917e76cb42801b571"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique", "bamtools": "/usr/local/bin/bamtools", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h2b6358e_4": "sha256:ca1fdf56d7d1b535970caf9c0141a7fee634c1205b0782f8dfdc5a009418bc14"}, "tags": {"1.3.1--h48762f8_2": "sha256:47323cb0fe52f41da532572b92056d7cc18daa26256fb56917e76cb42801b571", "1.3.1--h2b6358e_4": "sha256:ca1fdf56d7d1b535970caf9c0141a7fee634c1205b0782f8dfdc5a009418bc14"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique", "bamtools": "/usr/local/bin/bamtools", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploclique.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/haploclique
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haploclique:1.3.1--h48762f8_2
+$ shpc install quay.io/biocontainers/haploclique:1.3.1--h2b6358e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haploclique/1.3.1--h48762f8_2
-$ module help quay.io/biocontainers/haploclique/1.3.1--h48762f8_2
+$ module load quay.io/biocontainers/haploclique/1.3.1--h2b6358e_4
+$ module help quay.io/biocontainers/haploclique/1.3.1--h2b6358e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

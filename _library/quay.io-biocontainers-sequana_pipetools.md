@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequana_pipetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequana_pipetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequana_pipetools/container.yaml"
-updated_at: "2025-09-10 03:08:14.693877"
-latest: "1.2.2--pyhdfd78af_0"
+updated_at: "2025-09-11 03:12:57.877308"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sequana_pipetools"
 aliases:
  - "pykwalify"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.9.4--pyh7cba7a3_0"
  - "1.2.2--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sequana_pipetools"
-config: {"url": "https://biocontainers.pro/tools/sequana_pipetools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequana_pipetools", "latest": {"1.2.2--pyhdfd78af_0": "sha256:de6ca9490e16e7190c62224a2f69038261d7994b605fd25fcabea88de27efb7f"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:9bd37c8704648a8ecfee50de9f8552d2bd2f1f038e9c9c7d4655c66ab50db4a5", "1.2.2--pyhdfd78af_0": "sha256:de6ca9490e16e7190c62224a2f69038261d7994b605fd25fcabea88de27efb7f"}, "docker": "quay.io/biocontainers/sequana_pipetools", "aliases": {"pykwalify": "/usr/local/bin/pykwalify", "sequana_completion": "/usr/local/bin/sequana_completion", "sequana_slurm_status": "/usr/local/bin/sequana_slurm_status", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "browse": "/usr/local/bin/browse", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/sequana_pipetools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequana_pipetools", "latest": {"1.3.0--pyhdfd78af_0": "sha256:4019712c5c59b37dd77bf4f8f381a52a46fd7f4809651ab373f26aed7b6b426d"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:9bd37c8704648a8ecfee50de9f8552d2bd2f1f038e9c9c7d4655c66ab50db4a5", "1.2.2--pyhdfd78af_0": "sha256:de6ca9490e16e7190c62224a2f69038261d7994b605fd25fcabea88de27efb7f", "1.3.0--pyhdfd78af_0": "sha256:4019712c5c59b37dd77bf4f8f381a52a46fd7f4809651ab373f26aed7b6b426d"}, "docker": "quay.io/biocontainers/sequana_pipetools", "aliases": {"pykwalify": "/usr/local/bin/pykwalify", "sequana_completion": "/usr/local/bin/sequana_completion", "sequana_slurm_status": "/usr/local/bin/sequana_slurm_status", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "browse": "/usr/local/bin/browse", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequana_pipetools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/sequana_pipetools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequana_pipetools:1.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sequana_pipetools:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequana_pipetools/1.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/sequana_pipetools/1.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/sequana_pipetools/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sequana_pipetools/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

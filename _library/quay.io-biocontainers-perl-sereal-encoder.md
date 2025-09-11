@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-sereal-encoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sereal-encoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sereal-encoder/container.yaml"
-updated_at: "2025-09-10 03:31:03.109539"
-latest: "4.025--pl5321h7b50bb2_3"
+updated_at: "2025-09-11 03:35:28.658811"
+latest: "5.004--pl5321h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/perl-sereal-encoder"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "4.025--pl5321hec16e2b_1"
  - "4.025--pl5321h7b50bb2_2"
  - "4.025--pl5321h7b50bb2_3"
+ - "5.004--pl5321h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for perl-sereal-encoder"
-config: {"url": "https://biocontainers.pro/tools/perl-sereal-encoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sereal-encoder", "latest": {"4.025--pl5321h7b50bb2_3": "sha256:f2e3d559b76b6cd7739839e10ffd625b840b44227ef01bc2cccd2bda51944006"}, "tags": {"4.025--pl5321hec16e2b_1": "sha256:93c3c37178e783b2dc5cb1609aa8898e95499bb657088bd9acbaa6dfdd3e1808", "4.025--pl5321h7b50bb2_2": "sha256:6fe92c2e692dfce1c5f5a565c3bc51562631a38ff5942588bba97215cef7dd13", "4.025--pl5321h7b50bb2_3": "sha256:f2e3d559b76b6cd7739839e10ffd625b840b44227ef01bc2cccd2bda51944006"}, "docker": "quay.io/biocontainers/perl-sereal-encoder", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sereal-encoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sereal-encoder", "latest": {"5.004--pl5321h7b50bb2_0": "sha256:ac9c943cbc705df1fe98d9b6b1c01089f732da78751257c0a0962a8ab5b4fa5a"}, "tags": {"4.025--pl5321hec16e2b_1": "sha256:93c3c37178e783b2dc5cb1609aa8898e95499bb657088bd9acbaa6dfdd3e1808", "4.025--pl5321h7b50bb2_2": "sha256:6fe92c2e692dfce1c5f5a565c3bc51562631a38ff5942588bba97215cef7dd13", "4.025--pl5321h7b50bb2_3": "sha256:f2e3d559b76b6cd7739839e10ffd625b840b44227ef01bc2cccd2bda51944006", "5.004--pl5321h7b50bb2_0": "sha256:ac9c943cbc705df1fe98d9b6b1c01089f732da78751257c0a0962a8ab5b4fa5a"}, "docker": "quay.io/biocontainers/perl-sereal-encoder", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sereal-encoder.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-sereal-encoder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sereal-encoder:4.025--pl5321h7b50bb2_3
+$ shpc install quay.io/biocontainers/perl-sereal-encoder:5.004--pl5321h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sereal-encoder/4.025--pl5321h7b50bb2_3
-$ module help quay.io/biocontainers/perl-sereal-encoder/4.025--pl5321h7b50bb2_3
+$ module load quay.io/biocontainers/perl-sereal-encoder/5.004--pl5321h7b50bb2_0
+$ module help quay.io/biocontainers/perl-sereal-encoder/5.004--pl5321h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

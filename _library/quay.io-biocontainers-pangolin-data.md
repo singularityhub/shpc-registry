@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangolin-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangolin-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangolin-data/container.yaml"
-updated_at: "2025-09-10 03:32:34.750993"
+updated_at: "2025-09-11 03:37:02.139634"
 latest: "1.34--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pangolin-data"
 aliases:

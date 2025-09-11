@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyteomics/container.yaml"
-updated_at: "2025-09-10 03:13:53.769158"
+updated_at: "2025-09-11 03:18:39.437811"
 latest: "4.7.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyteomics"
 aliases:

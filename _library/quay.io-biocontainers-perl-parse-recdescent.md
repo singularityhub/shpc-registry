@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parse-recdescent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parse-recdescent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parse-recdescent/container.yaml"
-updated_at: "2025-09-10 03:29:43.935458"
+updated_at: "2025-09-11 03:34:09.316455"
 latest: "1.967015--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parse-recdescent"
 aliases:

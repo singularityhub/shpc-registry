@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soi/container.yaml"
-updated_at: "2025-09-10 03:40:22.942971"
+updated_at: "2025-09-11 03:44:51.188920"
 latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/soi"
 aliases:

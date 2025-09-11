@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/legion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/legion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/legion/container.yaml"
-updated_at: "2025-09-10 02:57:18.238282"
+updated_at: "2025-09-11 03:01:51.254555"
 latest: "21.03.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/legion"
 aliases:

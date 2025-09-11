@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/maaslin3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maaslin3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maaslin3/container.yaml"
-updated_at: "2025-09-10 03:38:45.330804"
-latest: "0.99.16--r44hdfd78af_0"
+updated_at: "2025-09-11 03:43:12.983553"
+latest: "0.99.16--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/maaslin3"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -27,8 +27,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.99.16--r44hdfd78af_0"
+ - "0.99.16--r44hdfd78af_1"
 description: "singularity registry hpc automated addition for maaslin3"
-config: {"url": "https://biocontainers.pro/tools/maaslin3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maaslin3", "latest": {"0.99.16--r44hdfd78af_0": "sha256:4a7f3a2b58fc77a065f0715ef2b08267b7501eddcda4e549c3ec03e93df96011"}, "tags": {"0.99.16--r44hdfd78af_0": "sha256:4a7f3a2b58fc77a065f0715ef2b08267b7501eddcda4e549c3ec03e93df96011"}, "docker": "quay.io/biocontainers/maaslin3", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/maaslin3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maaslin3", "latest": {"0.99.16--r44hdfd78af_1": "sha256:0230c34fe06d736f57208e603042e7ca9c86fe760f89808aaa778c37201e968b"}, "tags": {"0.99.16--r44hdfd78af_0": "sha256:4a7f3a2b58fc77a065f0715ef2b08267b7501eddcda4e549c3ec03e93df96011", "0.99.16--r44hdfd78af_1": "sha256:0230c34fe06d736f57208e603042e7ca9c86fe760f89808aaa778c37201e968b"}, "docker": "quay.io/biocontainers/maaslin3", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maaslin3.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/maaslin3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/maaslin3:0.99.16--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/maaslin3:0.99.16--r44hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/maaslin3/0.99.16--r44hdfd78af_0
-$ module help quay.io/biocontainers/maaslin3/0.99.16--r44hdfd78af_0
+$ module load quay.io/biocontainers/maaslin3/0.99.16--r44hdfd78af_1
+$ module help quay.io/biocontainers/maaslin3/0.99.16--r44hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

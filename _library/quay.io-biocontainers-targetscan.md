@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/targetscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/targetscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/targetscan/container.yaml"
-updated_at: "2025-09-10 03:03:37.714812"
+updated_at: "2025-09-11 03:08:22.945874"
 latest: "7.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/targetscan"
 aliases:

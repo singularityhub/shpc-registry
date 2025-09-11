@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pirate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pirate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pirate/container.yaml"
-updated_at: "2025-09-10 03:42:47.408176"
+updated_at: "2025-09-11 03:47:18.019515"
 latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pirate"
 aliases:
