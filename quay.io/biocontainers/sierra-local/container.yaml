@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/sierra-local
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sierra-local
+latest:
+  0.4.3--py310hdfd78af_0: 
+    sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780
+tags:
+  0.4.3--py310hdfd78af_0: 
+    sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780
+docker: quay.io/biocontainers/sierra-local
+aliases:
+  sierralocal: /usr/local/bin/sierralocal
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

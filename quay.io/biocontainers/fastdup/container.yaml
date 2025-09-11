@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/fastdup
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastdup
+latest:
+  1.0.0--hc033996_0: 
+    sha256:edc06762b4951f6ee33b9ebbabba323fdbf476f04c396fc6cf2e40e297c784f1
+tags:
+  1.0.0--hc033996_0: 
+    sha256:edc06762b4951f6ee33b9ebbabba323fdbf476f04c396fc6cf2e40e297c784f1
+docker: quay.io/biocontainers/fastdup
+aliases:
+  fastdup: /usr/local/bin/fastdup
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
