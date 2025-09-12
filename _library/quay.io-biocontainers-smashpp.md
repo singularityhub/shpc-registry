@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smashpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smashpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smashpp/container.yaml"
-updated_at: "2025-09-11 05:08:22.588687"
+updated_at: "2025-09-12 03:07:49.572995"
 latest: "23.09--h9948957_1"
 container_url: "https://biocontainers.pro/tools/smashpp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccfindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccfindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccfindr/container.yaml"
-updated_at: "2025-09-11 05:18:49.947804"
+updated_at: "2025-09-12 03:19:19.306286"
 latest: "1.22.0--r43h7c4fd5e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccfindr"
 aliases:

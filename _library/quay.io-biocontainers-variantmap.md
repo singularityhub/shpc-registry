@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variantmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variantmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variantmap/container.yaml"
-updated_at: "2025-09-11 05:35:21.417518"
+updated_at: "2025-09-12 03:37:12.640324"
 latest: "1.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/variantmap"
 aliases:

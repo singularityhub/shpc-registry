@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unitig-counter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitig-counter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitig-counter/container.yaml"
-updated_at: "2025-09-11 05:37:03.234514"
-latest: "1.1.0--h56fc30b_0"
+updated_at: "2025-09-12 03:39:13.278813"
+latest: "1.1.0--h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/unitig-counter"
 aliases:
  - "cdbg-ops"
@@ -13,8 +13,9 @@ aliases:
  - "unitig-counter"
 versions:
  - "1.1.0--h56fc30b_0"
+ - "1.1.0--h5ca1c30_2"
 description: "shpc-registry automated BioContainers addition for unitig-counter"
-config: {"url": "https://biocontainers.pro/tools/unitig-counter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitig-counter", "latest": {"1.1.0--h56fc30b_0": "sha256:ae6f8424538cf528728dfa0979619e3b742b67551bd8b34007768949d1ac4d19"}, "tags": {"1.1.0--h56fc30b_0": "sha256:ae6f8424538cf528728dfa0979619e3b742b67551bd8b34007768949d1ac4d19"}, "docker": "quay.io/biocontainers/unitig-counter", "aliases": {"cdbg-ops": "/usr/local/bin/cdbg-ops", "gatb-h5dump": "/usr/local/bin/gatb-h5dump", "unitig-counter": "/usr/local/bin/unitig-counter"}}
+config: {"url": "https://biocontainers.pro/tools/unitig-counter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitig-counter", "latest": {"1.1.0--h5ca1c30_2": "sha256:1c9d0446e7258cb56703f1ead0b526b3a9b0fd191d1291e12294cbc9f7ffdcdd"}, "tags": {"1.1.0--h56fc30b_0": "sha256:ae6f8424538cf528728dfa0979619e3b742b67551bd8b34007768949d1ac4d19", "1.1.0--h5ca1c30_2": "sha256:1c9d0446e7258cb56703f1ead0b526b3a9b0fd191d1291e12294cbc9f7ffdcdd"}, "docker": "quay.io/biocontainers/unitig-counter", "aliases": {"cdbg-ops": "/usr/local/bin/cdbg-ops", "gatb-h5dump": "/usr/local/bin/gatb-h5dump", "unitig-counter": "/usr/local/bin/unitig-counter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unitig-counter.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/unitig-counter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unitig-counter:1.1.0--h56fc30b_0
+$ shpc install quay.io/biocontainers/unitig-counter:1.1.0--h5ca1c30_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unitig-counter/1.1.0--h56fc30b_0
-$ module help quay.io/biocontainers/unitig-counter/1.1.0--h56fc30b_0
+$ module load quay.io/biocontainers/unitig-counter/1.1.0--h5ca1c30_2
+$ module help quay.io/biocontainers/unitig-counter/1.1.0--h5ca1c30_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bayestyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayestyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayestyper/container.yaml"
-updated_at: "2025-09-11 05:33:37.405161"
+updated_at: "2025-09-12 03:35:13.212670"
 latest: "1.5--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/bayestyper"
 aliases:

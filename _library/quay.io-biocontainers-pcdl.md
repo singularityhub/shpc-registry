@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcdl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcdl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcdl/container.yaml"
-updated_at: "2025-09-11 05:34:21.328688"
+updated_at: "2025-09-12 03:36:03.606293"
 latest: "3.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pcdl"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seqmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqmap/container.yaml"
-updated_at: "2025-09-11 05:24:18.785108"
-latest: "1.0.13--hc9558a2_1"
+updated_at: "2025-09-12 03:25:02.987383"
+latest: "1.0.13--h9948957_3"
 container_url: "https://biocontainers.pro/tools/seqmap"
 aliases:
  - "seqmap"
 versions:
  - "1.0.13--hc9558a2_1"
+ - "1.0.13--h9948957_3"
 description: "shpc-registry automated BioContainers addition for seqmap"
-config: {"url": "https://biocontainers.pro/tools/seqmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqmap", "latest": {"1.0.13--hc9558a2_1": "sha256:ebd8f57ab1e2ae461b228641ef9766b110c98698359e3689fb5b2c4ae3d09abf"}, "tags": {"1.0.13--hc9558a2_1": "sha256:ebd8f57ab1e2ae461b228641ef9766b110c98698359e3689fb5b2c4ae3d09abf"}, "docker": "quay.io/biocontainers/seqmap", "aliases": {"seqmap": "/usr/local/bin/seqmap"}}
+config: {"url": "https://biocontainers.pro/tools/seqmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqmap", "latest": {"1.0.13--h9948957_3": "sha256:8ff16fa14ba7c656e6729b50b783e09954697b1277051293326feaaf88e5d1f2"}, "tags": {"1.0.13--hc9558a2_1": "sha256:ebd8f57ab1e2ae461b228641ef9766b110c98698359e3689fb5b2c4ae3d09abf", "1.0.13--h9948957_3": "sha256:8ff16fa14ba7c656e6729b50b783e09954697b1277051293326feaaf88e5d1f2"}, "docker": "quay.io/biocontainers/seqmap", "aliases": {"seqmap": "/usr/local/bin/seqmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqmap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seqmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqmap:1.0.13--hc9558a2_1
+$ shpc install quay.io/biocontainers/seqmap:1.0.13--h9948957_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqmap/1.0.13--hc9558a2_1
-$ module help quay.io/biocontainers/seqmap/1.0.13--hc9558a2_1
+$ module load quay.io/biocontainers/seqmap/1.0.13--h9948957_3
+$ module help quay.io/biocontainers/seqmap/1.0.13--h9948957_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

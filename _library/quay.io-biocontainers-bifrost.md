@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bifrost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost/container.yaml"
-updated_at: "2025-09-11 05:03:23.056402"
+updated_at: "2025-09-12 03:02:32.405952"
 latest: "1.3.5--h5ca1c30_3"
 container_url: "https://biocontainers.pro/tools/bifrost"
 aliases:

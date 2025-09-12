@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tracy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracy/container.yaml"
-updated_at: "2025-09-11 05:34:35.972211"
+updated_at: "2025-09-12 03:36:19.894935"
 latest: "0.8.1--h4d20210_0"
 container_url: "https://biocontainers.pro/tools/tracy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abawaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abawaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abawaca/container.yaml"
-updated_at: "2025-09-11 05:47:18.360870"
+updated_at: "2025-09-12 03:50:51.168394"
 latest: "1.00--h9948957_8"
 container_url: "https://biocontainers.pro/tools/abawaca"
 aliases:

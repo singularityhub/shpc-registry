@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-libwww-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-libwww-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-libwww-perl/container.yaml"
-updated_at: "2025-09-11 05:47:50.777870"
+updated_at: "2025-09-12 03:51:27.788924"
 latest: "6.79--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-libwww-perl"
 aliases:

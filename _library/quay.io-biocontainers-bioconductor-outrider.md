@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-outrider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-outrider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-outrider/container.yaml"
-updated_at: "2025-09-11 05:34:59.768278"
+updated_at: "2025-09-12 03:36:46.723577"
 latest: "1.24.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-outrider"
 aliases:

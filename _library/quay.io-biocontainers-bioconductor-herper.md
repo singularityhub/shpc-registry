@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-herper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-herper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-herper/container.yaml"
-updated_at: "2025-09-11 05:26:16.154270"
+updated_at: "2025-09-12 03:27:08.569880"
 latest: "1.12.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-herper"
 

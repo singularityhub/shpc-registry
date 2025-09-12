@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomicconsensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomicconsensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomicconsensus/container.yaml"
-updated_at: "2025-09-11 05:11:53.616286"
+updated_at: "2025-09-12 03:11:46.370103"
 latest: "3.0.2--py27h470a237_2"
 container_url: "https://biocontainers.pro/tools/genomicconsensus"
 aliases:

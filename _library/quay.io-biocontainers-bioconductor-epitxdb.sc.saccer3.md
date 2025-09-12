@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3/container.yaml"
-updated_at: "2025-09-11 05:25:30.808998"
+updated_at: "2025-09-12 03:26:19.478366"
 latest: "0.99.5--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-epitxdb.sc.saccer3"
 

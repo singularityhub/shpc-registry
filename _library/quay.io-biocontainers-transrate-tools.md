@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/transrate-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transrate-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transrate-tools/container.yaml"
-updated_at: "2025-09-11 05:25:42.098315"
-latest: "1.0.0--ha7703dc_8"
+updated_at: "2025-09-12 03:26:31.267488"
+latest: "1.0.0--h2bd4fab_10"
 container_url: "https://biocontainers.pro/tools/transrate-tools"
 aliases:
  - "bam-read"
 versions:
  - "1.0.0--ha7703dc_8"
+ - "1.0.0--h2bd4fab_10"
 description: "shpc-registry automated BioContainers addition for transrate-tools"
-config: {"url": "https://biocontainers.pro/tools/transrate-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transrate-tools", "latest": {"1.0.0--ha7703dc_8": "sha256:6137af01b3ad7c6431b47e62a823bfb34b018900316154d0aa634065e24c29ec"}, "tags": {"1.0.0--ha7703dc_8": "sha256:6137af01b3ad7c6431b47e62a823bfb34b018900316154d0aa634065e24c29ec"}, "docker": "quay.io/biocontainers/transrate-tools", "aliases": {"bam-read": "/usr/local/bin/bam-read"}}
+config: {"url": "https://biocontainers.pro/tools/transrate-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transrate-tools", "latest": {"1.0.0--h2bd4fab_10": "sha256:765f220e7476a867073489fb25f548034d0b55827d9d9729582c12df375122b9"}, "tags": {"1.0.0--ha7703dc_8": "sha256:6137af01b3ad7c6431b47e62a823bfb34b018900316154d0aa634065e24c29ec", "1.0.0--h2bd4fab_10": "sha256:765f220e7476a867073489fb25f548034d0b55827d9d9729582c12df375122b9"}, "docker": "quay.io/biocontainers/transrate-tools", "aliases": {"bam-read": "/usr/local/bin/bam-read"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transrate-tools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/transrate-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transrate-tools:1.0.0--ha7703dc_8
+$ shpc install quay.io/biocontainers/transrate-tools:1.0.0--h2bd4fab_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transrate-tools/1.0.0--ha7703dc_8
-$ module help quay.io/biocontainers/transrate-tools/1.0.0--ha7703dc_8
+$ module load quay.io/biocontainers/transrate-tools/1.0.0--h2bd4fab_10
+$ module help quay.io/biocontainers/transrate-tools/1.0.0--h2bd4fab_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

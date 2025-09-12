@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alpine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpine/container.yaml"
-updated_at: "2025-09-11 05:01:47.878753"
+updated_at: "2025-09-12 03:00:45.975313"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpine"
 aliases:
