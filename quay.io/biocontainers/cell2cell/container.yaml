@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cell2cell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cell2cell
 latest:
-  0.7.4--py310h9948957_3: 
-    sha256:6cbd96d993cf8a015d7263938ab2292f5f7cac90fcd474160c2dbcbabdc6a379
+  0.8.1--py39h2de1943_1: 
+    sha256:33477ba3d471da1f80e1fc74aeaf41e9b33a3c2289a2643d7a9bf60ad981a157
 tags:
   0.7.4--py38h4ac6f70_0: 
     sha256:34cc506e87d9d9ba29917b4f1fadb40ef0c34c29cc9db56b21db48ca914b2b44
@@ -13,6 +13,8 @@ tags:
     sha256:76211c9dd801b2cfee75d898706f071b44ab1d765a98aaf4c8be01cf86a7f75e
   0.7.4--py310h9948957_3: 
     sha256:6cbd96d993cf8a015d7263938ab2292f5f7cac90fcd474160c2dbcbabdc6a379
+  0.8.1--py39h2de1943_1: 
+    sha256:33477ba3d471da1f80e1fc74aeaf41e9b33a3c2289a2643d7a9bf60ad981a157
 docker: quay.io/biocontainers/cell2cell
 aliases:
   gseapy: /usr/local/bin/gseapy

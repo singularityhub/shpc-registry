@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/phyling
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phyling
 latest:
-  2.3.0--pyhdfd78af_0: 
-    sha256:aa080a8d12d9fe19fc850756fc4bbd36ecb16f5b4bc267ddea4f8a7f83e2cab7
+  2.3.1--pyhdfd78af_0: 
+    sha256:9cd10a34937b19e93fe00cf0e3fabb89860f63438dfcd9b3576f63be914382d0
 tags:
   2.3.0--pyhdfd78af_0: 
     sha256:aa080a8d12d9fe19fc850756fc4bbd36ecb16f5b4bc267ddea4f8a7f83e2cab7
+  2.3.1--pyhdfd78af_0: 
+    sha256:9cd10a34937b19e93fe00cf0e3fabb89860f63438dfcd9b3576f63be914382d0
 docker: quay.io/biocontainers/phyling
 aliases:
   astral: /usr/local/bin/astral

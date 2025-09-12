@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/splicemap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for splicemap
 latest:
-  3.3.5.2--h9948957_6: 
-    sha256:f74d5ca812effa892c41ddf3313f4d05796b25b4bebe92d4607c934672eb3b02
+  3.3.5.2--h9948957_7: 
+    sha256:b70f93b92bf2af147e945701e39c81ff640d6500d8339c9b668164caf031717e
 tags:
   3.3.5.2--h9f5acd7_4: 
     sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc
@@ -11,6 +11,8 @@ tags:
     sha256:567888d0de7a736ba9fdf75ddd320eb80cf4738bad8c13cbb3514abdf291002b
   3.3.5.2--h9948957_6: 
     sha256:f74d5ca812effa892c41ddf3313f4d05796b25b4bebe92d4607c934672eb3b02
+  3.3.5.2--h9948957_7: 
+    sha256:b70f93b92bf2af147e945701e39c81ff640d6500d8339c9b668164caf031717e
 docker: quay.io/biocontainers/splicemap
 aliases:
   SpliceMap: /usr/local/bin/SpliceMap

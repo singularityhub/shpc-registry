@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-bio-procedural
 latest:
-  1.7.4--pl5321h9ee0642_0: 
-    sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6
+  1.7.4--pl5321hdfd78af_1: 
+    sha256:38ea383b708466e567058b17d4f6f2e4ed53142f51e2360f58a2fb9a844abbed
 tags:
   1.7.4--pl5321h9ee0642_0: 
     sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6
+  1.7.4--pl5321hdfd78af_1: 
+    sha256:38ea383b708466e567058b17d4f6f2e4ed53142f51e2360f58a2fb9a844abbed
 docker: quay.io/biocontainers/perl-bio-procedural
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

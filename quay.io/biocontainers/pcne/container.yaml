@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pcne
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pcne
 latest:
-  1.0.0--hdfd78af_1: 
-    sha256:36a1772788deaaf86d8f26df43eb405dfef6a4e186bfd9acef5d600b55703a18
+  2.0.0--hdfd78af_0: 
+    sha256:bbf1df79f7f5a880cab055cf1cc73abddbccc14a4187435a360f22abedd42a81
 tags:
   0.2.0--hdfd78af_0: 
     sha256:b0b009b6a6447c6d27a4f389ae2abdc02abe6e9059edad0594942057c7c9f2d9
@@ -11,6 +11,8 @@ tags:
     sha256:6329599d6e5a37c30bcec73d1ec696cfbbcac945192cfe382a3be20470f19dac
   1.0.0--hdfd78af_1: 
     sha256:36a1772788deaaf86d8f26df43eb405dfef6a4e186bfd9acef5d600b55703a18
+  2.0.0--hdfd78af_0: 
+    sha256:bbf1df79f7f5a880cab055cf1cc73abddbccc14a4187435a360f22abedd42a81
 docker: quay.io/biocontainers/pcne
 aliases:
   PCNE.R: /usr/local/bin/PCNE.R
