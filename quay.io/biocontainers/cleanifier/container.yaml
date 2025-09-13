@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cleanifier
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cleanifier
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:850d21d5042678aa185117bc666af1f790e1ff730c77f2dc3b126edd4a468663
+  1.1.3--pyhdfd78af_0: 
+    sha256:7bf69c50c0797928db5686acb91f3b4b2bee2f53dca7bd21015ac4f3a2f01d1f
 tags:
   0.1.3--pyhdfd78af_0: 
     sha256:b19e6e1042ab803192c38ab2a6d0b729ece5a129c3656b3068264e647fde3b00
@@ -17,6 +17,8 @@ tags:
     sha256:051291c632f34594fb21ca9d808158f95c0dd031721220a98e15956f9f7cabe1
   1.1.2--pyhdfd78af_0: 
     sha256:850d21d5042678aa185117bc666af1f790e1ff730c77f2dc3b126edd4a468663
+  1.1.3--pyhdfd78af_0: 
+    sha256:7bf69c50c0797928db5686acb91f3b4b2bee2f53dca7bd21015ac4f3a2f01d1f
 docker: quay.io/biocontainers/cleanifier
 aliases:
   cleanifier: /usr/local/bin/cleanifier

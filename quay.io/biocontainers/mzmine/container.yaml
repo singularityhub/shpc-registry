@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mzmine
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mzmine
 latest:
-  4.7.27--hdfd78af_0: 
-    sha256:7f229fc423d6362db2482b438a19793d7b0738fd2f694feb5f640c1ebfe2df94
+  4.7.29--hdfd78af_0: 
+    sha256:be31357474da94245bbb1646f630ff59d9c62bdbc8ef7e0579b2cd4521c59014
 tags:
   3.6.0--hdfd78af_0: 
     sha256:edd6dba424ade27ced35737b9489030fba7316bcde6e18cfad153e972447a85c
@@ -11,6 +11,8 @@ tags:
     sha256:1e6c27fbd85d89874358b54e0eb55de26864fe495fdc82ef9bae13b52831f60e
   4.7.27--hdfd78af_0: 
     sha256:7f229fc423d6362db2482b438a19793d7b0738fd2f694feb5f640c1ebfe2df94
+  4.7.29--hdfd78af_0: 
+    sha256:be31357474da94245bbb1646f630ff59d9c62bdbc8ef7e0579b2cd4521c59014
 docker: quay.io/biocontainers/mzmine
 aliases:
   MZmine: /usr/local/bin/MZmine

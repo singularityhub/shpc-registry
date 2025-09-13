@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/panoct
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for panoct
 latest:
-  3.23--pl526_1: 
-    sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc
+  3.23--pl5321hdfd78af_2: 
+    sha256:5b9e3babb82a7f088c9e39af6a9f48200446a2b4859e546deed511924ed6b637
 tags:
   3.23--pl526_1: 
     sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc
+  3.23--pl5321hdfd78af_2: 
+    sha256:5b9e3babb82a7f088c9e39af6a9f48200446a2b4859e546deed511924ed6b637
 docker: quay.io/biocontainers/panoct
 aliases:
   gene_order.pl: /usr/local/bin/gene_order.pl

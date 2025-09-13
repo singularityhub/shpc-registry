@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/oakvar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oakvar
 latest:
-  2.12.19--pyhdfd78af_0: 
-    sha256:155b9ab524b02f782ee827d7548bbaf885693cf88d3b13ee54f763ab92191153
+  2.12.21--pyhdfd78af_0: 
+    sha256:956f0c055d7ffb018fed0eb3fc1887aef25a1b6b29139be42a4116c70f4892eb
 tags:
   2.8.40--pyh7cba7a3_0: 
     sha256:53c7659f32a608d9e7128d0b8684f1753c43e4dad6e2cd191da4a8db01c91be5
@@ -55,6 +55,8 @@ tags:
     sha256:fd00af5e4bdc2d72fdc34e834471ee9d5b6588c13548ed39ace3dc974de643bb
   2.12.19--pyhdfd78af_0: 
     sha256:155b9ab524b02f782ee827d7548bbaf885693cf88d3b13ee54f763ab92191153
+  2.12.21--pyhdfd78af_0: 
+    sha256:956f0c055d7ffb018fed0eb3fc1887aef25a1b6b29139be42a4116c70f4892eb
 docker: quay.io/biocontainers/oakvar
 aliases:
   elastipubsub5: /usr/local/bin/elastipubsub5

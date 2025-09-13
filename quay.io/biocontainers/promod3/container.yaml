@@ -7,6 +7,8 @@ latest:
 tags:
   3.6.0--py310h184ae93_0: 
     sha256:45fc2b349e10d23552bec8bb7b4e88e4b05c5567451cbe731c158c0fba33a7d2
+  3.6.0--py311he264feb_0: 
+    sha256:399ce3794a2dcb88dfb9f60c5243ab9a8a2dd982e9bc0752c4783788ffa79368
 docker: quay.io/biocontainers/promod3
 aliases:
   chemdict_tool: /usr/local/bin/chemdict_tool
