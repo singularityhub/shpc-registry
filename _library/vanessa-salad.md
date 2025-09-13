@@ -4,7 +4,7 @@ name:  "vanessa/salad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/vanessa/salad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/vanessa/salad/container.yaml"
-updated_at: "2025-09-12 02:56:51.325468"
+updated_at: "2025-09-13 02:49:16.465483"
 latest: "latest"
 container_url: "https://hub.docker.com/r/vanessa/salad"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "latest"
 description: "A container all about fork and spoon puns."
-config: {"docker": "vanessa/salad", "url": "https://hub.docker.com/r/vanessa/salad", "maintainer": "@vsoch", "description": "A container all about fork and spoon puns.", "filter": ["^(?!.*add_github-actions).*$"], "latest": {"latest": "crane digest vanessa/salad:latest: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"latest": "crane digest vanessa/salad:latest: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": {"salad": "/code/salad"}, "docker_scripts": {"fork": "docker_fork.sh"}, "singularity_scripts": {"fork": "singularity_fork.sh"}, "env": {"maintainer": "vsoch"}}
+config: {"docker": "vanessa/salad", "url": "https://hub.docker.com/r/vanessa/salad", "maintainer": "@vsoch", "description": "A container all about fork and spoon puns.", "filter": ["^(?!.*add_github-actions).*$"], "latest": {"latest": "sha256:e8302da47e3200915c1d3a9406d9446f04da7244e4995b7135afd2b79d4f63db"}, "tags": {"latest": "sha256:e8302da47e3200915c1d3a9406d9446f04da7244e4995b7135afd2b79d4f63db"}, "aliases": {"salad": "/code/salad"}, "docker_scripts": {"fork": "docker_fork.sh"}, "singularity_scripts": {"fork": "singularity_fork.sh"}, "env": {"maintainer": "vsoch"}}
 ---
 
 This module is a singularity container wrapper for vanessa/salad.

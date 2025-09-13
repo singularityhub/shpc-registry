@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequenticon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenticon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenticon/container.yaml"
-updated_at: "2025-09-12 03:40:36.461043"
+updated_at: "2025-09-13 03:29:20.049740"
 latest: "0.1.8--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/sequenticon"
 aliases:

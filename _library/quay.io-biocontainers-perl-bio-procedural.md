@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-procedural"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-procedural/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-procedural/container.yaml"
-updated_at: "2025-09-12 03:50:23.468588"
-latest: "1.7.4--pl5321h9ee0642_0"
+updated_at: "2025-09-13 03:38:17.915533"
+latest: "1.7.4--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-bio-procedural"
 aliases:
  - "bp_aacomp"
@@ -20,8 +20,9 @@ aliases:
  - "bp_gccalc"
 versions:
  - "1.7.4--pl5321h9ee0642_0"
+ - "1.7.4--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-bio-procedural"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-procedural", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-procedural", "latest": {"1.7.4--pl5321h9ee0642_0": "sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6"}, "tags": {"1.7.4--pl5321h9ee0642_0": "sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6"}, "docker": "quay.io/biocontainers/perl-bio-procedural", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-procedural", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-procedural", "latest": {"1.7.4--pl5321hdfd78af_1": "sha256:38ea383b708466e567058b17d4f6f2e4ed53142f51e2360f58a2fb9a844abbed"}, "tags": {"1.7.4--pl5321h9ee0642_0": "sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6", "1.7.4--pl5321hdfd78af_1": "sha256:38ea383b708466e567058b17d4f6f2e4ed53142f51e2360f58a2fb9a844abbed"}, "docker": "quay.io/biocontainers/perl-bio-procedural", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-procedural.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-bio-procedural
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-procedural:1.7.4--pl5321h9ee0642_0
+$ shpc install quay.io/biocontainers/perl-bio-procedural:1.7.4--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-procedural/1.7.4--pl5321h9ee0642_0
-$ module help quay.io/biocontainers/perl-bio-procedural/1.7.4--pl5321h9ee0642_0
+$ module load quay.io/biocontainers/perl-bio-procedural/1.7.4--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/perl-bio-procedural/1.7.4--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

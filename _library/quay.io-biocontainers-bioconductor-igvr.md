@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-igvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-igvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-igvr/container.yaml"
-updated_at: "2025-09-12 03:01:29.257004"
+updated_at: "2025-09-13 02:53:18.413180"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-igvr"
 aliases:

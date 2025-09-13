@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocfhir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocfhir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocfhir/container.yaml"
-updated_at: "2025-09-12 03:18:41.753501"
+updated_at: "2025-09-13 03:09:09.376555"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocfhir"
 aliases:

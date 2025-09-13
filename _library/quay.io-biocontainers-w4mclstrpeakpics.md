@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/w4mclstrpeakpics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
-updated_at: "2025-09-12 03:31:59.766166"
+updated_at: "2025-09-13 03:21:35.691152"
 latest: "0.98.1--r351_1"
 container_url: "https://biocontainers.pro/tools/w4mclstrpeakpics"
 

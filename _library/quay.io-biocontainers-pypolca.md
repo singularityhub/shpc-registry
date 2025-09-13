@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pypolca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypolca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypolca/container.yaml"
-updated_at: "2025-09-12 02:59:16.825833"
-latest: "0.3.1--pyhdfd78af_1"
+updated_at: "2025-09-13 02:51:21.838134"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pypolca"
 aliases:
  - "pypolca"
@@ -43,8 +43,9 @@ versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_1"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pypolca"
-config: {"url": "https://biocontainers.pro/tools/pypolca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pypolca", "latest": {"0.3.1--pyhdfd78af_1": "sha256:93d320de2b313449814af69b4bdec2cf71854b306db1294fd0ad69b7be128ddc"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:bd2df98b05ced93aa1930458fbed6ba2396aa4fed08efa87ba276d33bacaec1e", "0.2.0--pyhdfd78af_0": "sha256:13d0d9c402401802d6d429c8c93e28442d1422f4d0f493a4ea8803725c6e7a3a", "0.2.1--pyhdfd78af_0": "sha256:203895a4b08f4681d959fd3a89c29dea1207838659d338b76226a81947053f0e", "0.3.1--pyhdfd78af_0": "sha256:82af8f2cba0f8c9aa8c1d221e0ac16bba423ba010ebba5e98840d08405f63519", "0.3.1--pyhdfd78af_1": "sha256:93d320de2b313449814af69b4bdec2cf71854b306db1294fd0ad69b7be128ddc"}, "docker": "quay.io/biocontainers/pypolca", "aliases": {"pypolca": "/usr/local/bin/pypolca", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats"}}
+config: {"url": "https://biocontainers.pro/tools/pypolca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pypolca", "latest": {"0.4.0--pyhdfd78af_0": "sha256:dbfb8c090f5c0161384a9b690dcfef69abf0df1c05961db0050e099e3f840fba"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:bd2df98b05ced93aa1930458fbed6ba2396aa4fed08efa87ba276d33bacaec1e", "0.2.0--pyhdfd78af_0": "sha256:13d0d9c402401802d6d429c8c93e28442d1422f4d0f493a4ea8803725c6e7a3a", "0.2.1--pyhdfd78af_0": "sha256:203895a4b08f4681d959fd3a89c29dea1207838659d338b76226a81947053f0e", "0.3.1--pyhdfd78af_0": "sha256:82af8f2cba0f8c9aa8c1d221e0ac16bba423ba010ebba5e98840d08405f63519", "0.3.1--pyhdfd78af_1": "sha256:93d320de2b313449814af69b4bdec2cf71854b306db1294fd0ad69b7be128ddc", "0.4.0--pyhdfd78af_0": "sha256:dbfb8c090f5c0161384a9b690dcfef69abf0df1c05961db0050e099e3f840fba"}, "docker": "quay.io/biocontainers/pypolca", "aliases": {"pypolca": "/usr/local/bin/pypolca", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypolca.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/pypolca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pypolca:0.3.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/pypolca:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pypolca/0.3.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/pypolca/0.3.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/pypolca/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pypolca/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

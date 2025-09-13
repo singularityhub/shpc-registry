@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-spreadsheet-parseexcel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
-updated_at: "2025-09-12 03:41:43.258233"
+updated_at: "2025-09-13 03:30:22.364518"
 latest: "0.66--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel"
 aliases:

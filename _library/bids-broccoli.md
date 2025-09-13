@@ -4,7 +4,7 @@ name:  "bids/broccoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/broccoli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
-updated_at: "2025-09-12 02:58:03.228894"
+updated_at: "2025-09-13 02:50:17.163503"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/broccoli"
 

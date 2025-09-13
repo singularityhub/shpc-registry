@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mysqlclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysqlclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysqlclient/container.yaml"
-updated_at: "2025-09-12 03:12:18.458828"
+updated_at: "2025-09-13 03:03:12.348130"
 latest: "1.3.10--py36_0"
 container_url: "https://biocontainers.pro/tools/mysqlclient"
 aliases:
