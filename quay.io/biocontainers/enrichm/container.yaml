@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/enrichm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for enrichm
 latest:
-  0.6.5--pyhdfd78af_0: 
-    sha256:e97f9c0e571ae3c3f4c0e007f7d7af7ea2abec92affdd4fc4684266073f24eb7
+  0.6.6--pyhdfd78af_0: 
+    sha256:05faf9f1fc2b8bc6c136288b2b7df5f9f9e3b8a3ba50a38276f8343cd8fab6e7
 tags:
   0.6.4--pyhdfd78af_0: 
     sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09
   0.6.5--pyhdfd78af_0: 
     sha256:e97f9c0e571ae3c3f4c0e007f7d7af7ea2abec92affdd4fc4684266073f24eb7
+  0.6.6--pyhdfd78af_0: 
+    sha256:05faf9f1fc2b8bc6c136288b2b7df5f9f9e3b8a3ba50a38276f8343cd8fab6e7
 docker: quay.io/biocontainers/enrichm
 aliases:
   chronic: /usr/local/bin/chronic

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/presto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for presto
 latest:
-  0.7.5--pyhdfd78af_0: 
-    sha256:c50dc5bb86be281b99eaab5bdbe2f5899b7da07a6231daece3cf14d3ea9bfd07
+  0.7.6--pyhdfd78af_0: 
+    sha256:5caeaf5a8674f622d5be94ce16f1ce64638690c5adc4e8416a9f485a2fd06ec6
 tags:
   0.7.1--pyhdfd78af_0: 
     sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5
@@ -13,6 +13,8 @@ tags:
     sha256:e62ce5a6b59d31dae19fcb34807d79f64f6924737f6adbc6ad0ced1f4152c803
   0.7.5--pyhdfd78af_0: 
     sha256:c50dc5bb86be281b99eaab5bdbe2f5899b7da07a6231daece3cf14d3ea9bfd07
+  0.7.6--pyhdfd78af_0: 
+    sha256:5caeaf5a8674f622d5be94ce16f1ce64638690c5adc4e8416a9f485a2fd06ec6
 docker: quay.io/biocontainers/presto
 aliases:
   AlignSets.py: /usr/local/bin/AlignSets.py

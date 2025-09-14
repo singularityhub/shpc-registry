@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/xunit-wrapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xunit-wrapper
 latest:
-  0.12--pyh864c0ab_2: 
-    sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd
+  0.12--pyh7e72e81_3: 
+    sha256:715afa3d87e43cad151cfd3c95167cab40c97c3f1d1562584df593a2fa965569
 tags:
   0.12--pyh864c0ab_2: 
     sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd
+  0.12--pyh7e72e81_3: 
+    sha256:715afa3d87e43cad151cfd3c95167cab40c97c3f1d1562584df593a2fa965569
 docker: quay.io/biocontainers/xunit-wrapper
 aliases:
   futurize: /usr/local/bin/futurize

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/phist
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phist
 latest:
-  1.0.0--py310hd03093a_0: 
-    sha256:d497c280cb71ec4231c99a7df31e1d7de1b745fdba97231cbfa7c682bcd88b7d
+  1.0.0--py311h2de2dd3_1: 
+    sha256:8812f2f7c84ed6748d8d64485b21c3d44a6a029480f81929f40b44dc81fa2f20
 tags:
   1.0.0--py310hd03093a_0: 
     sha256:d497c280cb71ec4231c99a7df31e1d7de1b745fdba97231cbfa7c682bcd88b7d
+  1.0.0--py311h2de2dd3_1: 
+    sha256:8812f2f7c84ed6748d8d64485b21c3d44a6a029480f81929f40b44dc81fa2f20
 docker: quay.io/biocontainers/phist
 aliases:
   kmer-db: /usr/local/bin/kmer-db

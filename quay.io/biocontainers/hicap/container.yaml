@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/hicap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hicap
 latest:
-  1.0.4--pyhdfd78af_1: 
-    sha256:7682262b9e83d8e55d7fd9cc395a2ba62b76b2584632c9137eaba98d2a93a297
+  1.0.4--pyhdfd78af_2: 
+    sha256:c9d2d2bb63c1a869543217f79cd08c85989a8fac145f61b5402babbc4670764a
 tags:
   1.0.3--py_0: 
     sha256:182ca8d8a1978d42c96ac8431a05d0c52f64346556633931f41edba1c85499cc
   1.0.4--pyhdfd78af_1: 
     sha256:7682262b9e83d8e55d7fd9cc395a2ba62b76b2584632c9137eaba98d2a93a297
+  1.0.4--pyhdfd78af_2: 
+    sha256:c9d2d2bb63c1a869543217f79cd08c85989a8fac145f61b5402babbc4670764a
 docker: quay.io/biocontainers/hicap
 aliases:
   hicap: /usr/local/bin/hicap

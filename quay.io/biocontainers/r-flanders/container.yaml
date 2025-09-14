@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-flanders
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-flanders
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:af630d3e2869b613792815040bc34e7ffab535d80ee6ff0960061c11f75c6428
+  1.0.1--r44hdfd78af_0: 
+    sha256:82b70fec09b6aa48f02666b727b207b098b09d3b0f63344772f1a3a890a1d64a
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:af630d3e2869b613792815040bc34e7ffab535d80ee6ff0960061c11f75c6428
+  1.0.1--r44hdfd78af_0: 
+    sha256:82b70fec09b6aa48f02666b727b207b098b09d3b0f63344772f1a3a890a1d64a
 docker: quay.io/biocontainers/r-flanders
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

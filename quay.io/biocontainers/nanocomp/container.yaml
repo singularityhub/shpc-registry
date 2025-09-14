@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nanocomp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanocomp
 latest:
-  1.25.3--pyhdfd78af_0: 
-    sha256:d5cf19a38617d829f807b61fd55df2e5a14f6b39ad0a357a19ae98fb45fa326b
+  1.25.4--pyhdfd78af_0: 
+    sha256:f6071957d414a1e310bb421710956b2f476473b85d546d8e133099693ce03395
 tags:
   1.9.2--py_1: 
     sha256:2fde57e4bdb7ea7104a036d29753609a3d33aa9950f7eadcc2856ecfbf36f1cc
@@ -31,6 +31,8 @@ tags:
     sha256:14c8dbe5318fc989ec4c522696ea07a72071085ca3642a903fc65aacfda6beb0
   1.25.3--pyhdfd78af_0: 
     sha256:d5cf19a38617d829f807b61fd55df2e5a14f6b39ad0a357a19ae98fb45fa326b
+  1.25.4--pyhdfd78af_0: 
+    sha256:f6071957d414a1e310bb421710956b2f476473b85d546d8e133099693ce03395
 docker: quay.io/biocontainers/nanocomp
 aliases:
   NanoComp: /usr/local/bin/NanoComp

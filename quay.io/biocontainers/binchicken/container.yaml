@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/binchicken
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for binchicken
 latest:
-  0.13.0--pyhdfd78af_0: 
-    sha256:bce48872568b680164682b9216dd4daacea52fd733e4a044d8cf121a3bbe9ae3
+  0.13.4--pyhdfd78af_0: 
+    sha256:543a2d3afcb5668ca0019a2143aba3f0ad09dec240490893ffab8cb931faaf6b
 tags:
   0.10.0--pyhdfd78af_0: 
     sha256:81ae87b0316acc59615df7cfa4c3a75828f65d463c26cbff2d4434a267a35137
@@ -19,6 +19,8 @@ tags:
     sha256:9c3ac18708420f794ce160b189f09768232012571916ca15cd04dee928d1460e
   0.13.0--pyhdfd78af_0: 
     sha256:bce48872568b680164682b9216dd4daacea52fd733e4a044d8cf121a3bbe9ae3
+  0.13.4--pyhdfd78af_0: 
+    sha256:543a2d3afcb5668ca0019a2143aba3f0ad09dec240490893ffab8cb931faaf6b
 docker: quay.io/biocontainers/binchicken
 aliases:
   binchicken: /usr/local/bin/binchicken

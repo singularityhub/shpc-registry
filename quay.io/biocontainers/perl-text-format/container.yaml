@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-text-format
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-text-format
 latest:
-  0.62--pl5321hdfd78af_0: 
-    sha256:2612b36e56bcf3f7db4e09aef2e9fed83f3e7777c1748b52b220f23ed7fd6c59
+  0.63--pl5321hdfd78af_0: 
+    sha256:69c75cdc91d2bca303e6d99c0a4abc80cb97ddb12e29c0168c6cd1bf0b033191
 tags:
   0.62--pl5321hdfd78af_0: 
     sha256:2612b36e56bcf3f7db4e09aef2e9fed83f3e7777c1748b52b220f23ed7fd6c59
+  0.63--pl5321hdfd78af_0: 
+    sha256:69c75cdc91d2bca303e6d99c0a4abc80cb97ddb12e29c0168c6cd1bf0b033191
 docker: quay.io/biocontainers/perl-text-format
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

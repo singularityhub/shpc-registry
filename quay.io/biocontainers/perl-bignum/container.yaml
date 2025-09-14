@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/perl-bignum
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bignum
 latest:
-  0.66--pl5321hdfd78af_0: 
-    sha256:a4055064d51384ad031bb2acd9836248ac4ad75e0cf1fa97d1f7910d3f7d15d6
+  0.67--pl5321hdfd78af_0: 
+    sha256:ff46e2f4ba2c1a411b5a8866e2a521fe0167754615363ce4cb4d3ab19377f2c4
 tags:
   0.66--pl5321hdfd78af_0: 
     sha256:a4055064d51384ad031bb2acd9836248ac4ad75e0cf1fa97d1f7910d3f7d15d6
+  0.67--pl5321hdfd78af_0: 
+    sha256:ff46e2f4ba2c1a411b5a8866e2a521fe0167754615363ce4cb4d3ab19377f2c4
 docker: quay.io/biocontainers/perl-bignum
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
