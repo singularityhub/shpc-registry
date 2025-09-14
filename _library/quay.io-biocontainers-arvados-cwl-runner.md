@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arvados-cwl-runner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arvados-cwl-runner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arvados-cwl-runner/container.yaml"
-updated_at: "2025-09-13 03:35:56.061375"
-latest: "2.7.0--pyh7cba7a3_0"
+updated_at: "2025-09-14 03:51:15.331212"
+latest: "3.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arvados-cwl-runner"
 aliases:
  - "arv-copy"
@@ -36,8 +36,9 @@ versions:
  - "2.0.4--pyh864c0ab_0"
  - "2.6.3--pyh7cba7a3_0"
  - "2.7.0--pyh7cba7a3_0"
+ - "3.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for arvados-cwl-runner"
-config: {"url": "https://biocontainers.pro/tools/arvados-cwl-runner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arvados-cwl-runner", "latest": {"2.7.0--pyh7cba7a3_0": "sha256:c62a92ef00c64a2ce208f8df6ee9bafc6f1f813f0121f659d2cca1cfb9ece3b7"}, "tags": {"2.0.4--pyh864c0ab_0": "sha256:a47ea1748a9d708108650476477cf08bf17b03897398b5f9ea3b4348b0caf29d", "2.6.3--pyh7cba7a3_0": "sha256:4c049e9a0499a11e81e614dcdcbb3fdec994e038ed825d2f1c82efc6491f8fee", "2.7.0--pyh7cba7a3_0": "sha256:c62a92ef00c64a2ce208f8df6ee9bafc6f1f813f0121f659d2cca1cfb9ece3b7"}, "docker": "quay.io/biocontainers/arvados-cwl-runner", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-migrate-docker19": "/usr/local/bin/arv-migrate-docker19", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "arvados-cwl-runner": "/usr/local/bin/arvados-cwl-runner", "bagit.py": "/usr/local/bin/bagit.py", "cwl-runner": "/usr/local/bin/cwl-runner", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "coloredlogs": "/usr/local/bin/coloredlogs"}}
+config: {"url": "https://biocontainers.pro/tools/arvados-cwl-runner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arvados-cwl-runner", "latest": {"3.1.2--pyhdfd78af_0": "sha256:3928ce3ce4b757e564349afe63e304cf51804d5b079c7a9853cd73a4923ce945"}, "tags": {"2.0.4--pyh864c0ab_0": "sha256:a47ea1748a9d708108650476477cf08bf17b03897398b5f9ea3b4348b0caf29d", "2.6.3--pyh7cba7a3_0": "sha256:4c049e9a0499a11e81e614dcdcbb3fdec994e038ed825d2f1c82efc6491f8fee", "2.7.0--pyh7cba7a3_0": "sha256:c62a92ef00c64a2ce208f8df6ee9bafc6f1f813f0121f659d2cca1cfb9ece3b7", "3.1.2--pyhdfd78af_0": "sha256:3928ce3ce4b757e564349afe63e304cf51804d5b079c7a9853cd73a4923ce945"}, "docker": "quay.io/biocontainers/arvados-cwl-runner", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-migrate-docker19": "/usr/local/bin/arv-migrate-docker19", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "arvados-cwl-runner": "/usr/local/bin/arvados-cwl-runner", "bagit.py": "/usr/local/bin/bagit.py", "cwl-runner": "/usr/local/bin/cwl-runner", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "coloredlogs": "/usr/local/bin/coloredlogs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arvados-cwl-runner.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/arvados-cwl-runner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arvados-cwl-runner:2.7.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/arvados-cwl-runner:3.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arvados-cwl-runner/2.7.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/arvados-cwl-runner/2.7.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/arvados-cwl-runner/3.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/arvados-cwl-runner/3.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

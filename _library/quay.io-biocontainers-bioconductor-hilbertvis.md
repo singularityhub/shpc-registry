@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hilbertvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hilbertvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hilbertvis/container.yaml"
-updated_at: "2025-09-13 03:39:23.175066"
+updated_at: "2025-09-14 03:54:40.405719"
 latest: "1.64.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hilbertvis"
 

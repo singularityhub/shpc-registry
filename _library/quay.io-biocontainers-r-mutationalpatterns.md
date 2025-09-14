@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mutationalpatterns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mutationalpatterns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mutationalpatterns/container.yaml"
-updated_at: "2025-09-13 03:38:16.485814"
+updated_at: "2025-09-14 03:53:35.428854"
 latest: "0.2b--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mutationalpatterns"
 aliases:

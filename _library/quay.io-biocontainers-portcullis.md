@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/portcullis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/portcullis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/portcullis/container.yaml"
-updated_at: "2025-09-13 02:53:12.078110"
-latest: "1.2.4--py39hc12ff1f_3"
+updated_at: "2025-09-14 03:07:54.339853"
+latest: "1.2.4--py39hc87ae8a_4"
 container_url: "https://biocontainers.pro/tools/portcullis"
 aliases:
  - "junctools"
@@ -26,8 +26,9 @@ versions:
  - "1.2.4--py39hd60473f_1"
  - "1.2.4--py38ha12e192_1"
  - "1.2.4--py39hc12ff1f_3"
+ - "1.2.4--py39hc87ae8a_4"
 description: "shpc-registry automated BioContainers addition for portcullis"
-config: {"url": "https://biocontainers.pro/tools/portcullis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for portcullis", "latest": {"1.2.4--py39hc12ff1f_3": "sha256:f9c4a79a2c0aff78840aef4901553bb2a06180e62f4617f792bfb700d22d250d"}, "tags": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e", "1.2.4--py39hd60473f_1": "sha256:de0e6c9d79d48d3ec37999a34675199c234eec0431411b72d4112d126f2e8b70", "1.2.4--py38ha12e192_1": "sha256:21849e4f13eb89ade3d0a3133a1f309c5129e375ad7d9ed2332152731d637fbb", "1.2.4--py39hc12ff1f_3": "sha256:f9c4a79a2c0aff78840aef4901553bb2a06180e62f4617f792bfb700d22d250d"}, "docker": "quay.io/biocontainers/portcullis", "aliases": {"junctools": "/usr/local/bin/junctools", "portcullis": "/usr/local/bin/portcullis", "portcullis_rule_filter": "/usr/local/bin/portcullis_rule_filter", "tabulate": "/usr/local/bin/tabulate", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.8": "/usr/local/bin/f2py3.8", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/portcullis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for portcullis", "latest": {"1.2.4--py39hc87ae8a_4": "sha256:17b854463759ff18f7be1a368ca3522eefbb6b89e58793ae80813db153327b04"}, "tags": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e", "1.2.4--py39hd60473f_1": "sha256:de0e6c9d79d48d3ec37999a34675199c234eec0431411b72d4112d126f2e8b70", "1.2.4--py38ha12e192_1": "sha256:21849e4f13eb89ade3d0a3133a1f309c5129e375ad7d9ed2332152731d637fbb", "1.2.4--py39hc12ff1f_3": "sha256:f9c4a79a2c0aff78840aef4901553bb2a06180e62f4617f792bfb700d22d250d", "1.2.4--py39hc87ae8a_4": "sha256:17b854463759ff18f7be1a368ca3522eefbb6b89e58793ae80813db153327b04"}, "docker": "quay.io/biocontainers/portcullis", "aliases": {"junctools": "/usr/local/bin/junctools", "portcullis": "/usr/local/bin/portcullis", "portcullis_rule_filter": "/usr/local/bin/portcullis_rule_filter", "tabulate": "/usr/local/bin/tabulate", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.8": "/usr/local/bin/f2py3.8", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/portcullis.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/portcullis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/portcullis:1.2.4--py39hc12ff1f_3
+$ shpc install quay.io/biocontainers/portcullis:1.2.4--py39hc87ae8a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/portcullis/1.2.4--py39hc12ff1f_3
-$ module help quay.io/biocontainers/portcullis/1.2.4--py39hc12ff1f_3
+$ module load quay.io/biocontainers/portcullis/1.2.4--py39hc87ae8a_4
+$ module help quay.io/biocontainers/portcullis/1.2.4--py39hc87ae8a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

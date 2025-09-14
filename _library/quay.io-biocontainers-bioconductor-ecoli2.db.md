@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecoli2.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoli2.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoli2.db/container.yaml"
-updated_at: "2025-09-13 03:17:41.325682"
+updated_at: "2025-09-14 03:32:52.384642"
 latest: "3.13.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoli2.db"
 aliases:

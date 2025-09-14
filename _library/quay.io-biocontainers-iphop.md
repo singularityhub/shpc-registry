@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iphop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iphop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iphop/container.yaml"
-updated_at: "2025-09-13 02:58:13.502652"
+updated_at: "2025-09-14 03:13:02.536220"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/iphop"
 aliases:

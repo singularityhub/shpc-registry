@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panoct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panoct/container.yaml"
-updated_at: "2025-09-13 03:13:15.449376"
-latest: "3.23--pl526_1"
+updated_at: "2025-09-14 03:28:22.344396"
+latest: "3.23--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/panoct"
 aliases:
  - "gene_order.pl"
@@ -15,8 +15,9 @@ aliases:
  - "podselect"
 versions:
  - "3.23--pl526_1"
+ - "3.23--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for panoct"
-config: {"url": "https://biocontainers.pro/tools/panoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoct", "latest": {"3.23--pl526_1": "sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc"}, "tags": {"3.23--pl526_1": "sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc"}, "docker": "quay.io/biocontainers/panoct", "aliases": {"gene_order.pl": "/usr/local/bin/gene_order.pl", "panoct.pl": "/usr/local/bin/panoct.pl", "paralog_matchtable.pl": "/usr/local/bin/paralog_matchtable.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/panoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoct", "latest": {"3.23--pl5321hdfd78af_2": "sha256:5b9e3babb82a7f088c9e39af6a9f48200446a2b4859e546deed511924ed6b637"}, "tags": {"3.23--pl526_1": "sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc", "3.23--pl5321hdfd78af_2": "sha256:5b9e3babb82a7f088c9e39af6a9f48200446a2b4859e546deed511924ed6b637"}, "docker": "quay.io/biocontainers/panoct", "aliases": {"gene_order.pl": "/usr/local/bin/gene_order.pl", "panoct.pl": "/usr/local/bin/panoct.pl", "paralog_matchtable.pl": "/usr/local/bin/paralog_matchtable.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panoct.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/panoct
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panoct:3.23--pl526_1
+$ shpc install quay.io/biocontainers/panoct:3.23--pl5321hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panoct/3.23--pl526_1
-$ module help quay.io/biocontainers/panoct/3.23--pl526_1
+$ module load quay.io/biocontainers/panoct/3.23--pl5321hdfd78af_2
+$ module help quay.io/biocontainers/panoct/3.23--pl5321hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

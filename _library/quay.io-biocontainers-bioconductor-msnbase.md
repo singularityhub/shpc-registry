@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msnbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
-updated_at: "2025-09-13 02:50:49.418931"
+updated_at: "2025-09-14 03:05:28.843029"
 latest: "2.32.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-msnbase"
 aliases:

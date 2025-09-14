@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phame/container.yaml"
-updated_at: "2025-09-13 03:16:01.618090"
-latest: "1.0.3--1"
+updated_at: "2025-09-14 03:31:10.934218"
+latest: "1.0.3--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/phame"
 aliases:
  - "CanSNPs.pl"
@@ -60,8 +60,9 @@ aliases:
  - "consensus.sh"
 versions:
  - "1.0.3--1"
+ - "1.0.3--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for phame"
-config: {"url": "https://biocontainers.pro/tools/phame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phame", "latest": {"1.0.3--1": "sha256:96bed72a499aeb080cc8686df017298ae1ec0b823cf7a842bffdddbad5ff7455"}, "tags": {"1.0.3--1": "sha256:96bed72a499aeb080cc8686df017298ae1ec0b823cf7a842bffdddbad5ff7455"}, "docker": "quay.io/biocontainers/phame", "aliases": {"CanSNPs.pl": "/usr/local/bin/CanSNPs.pl", "ParseTree.pl": "/usr/local/bin/ParseTree.pl", "SNP_INDEL_count.pl": "/usr/local/bin/SNP_INDEL_count.pl", "SNP_analysis.pl": "/usr/local/bin/SNP_analysis.pl", "buildSNPDB.pl": "/usr/local/bin/buildSNPDB.pl", "catAlign.pl": "/usr/local/bin/catAlign.pl", "ccmake": "/usr/local/bin/ccmake", "checkNUCmer.pl": "/usr/local/bin/checkNUCmer.pl", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "extractGenes.pl": "/usr/local/bin/extractGenes.pl", "get_repeat_coords.pl": "/usr/local/bin/get_repeat_coords.pl", "gost-hash": "/usr/local/bin/gost-hash", "has160-hash": "/usr/local/bin/has160-hash", "hyphy": "/usr/local/bin/hyphy", "magnet-link": "/usr/local/bin/magnet-link", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "parallel_run.pl": "/usr/local/bin/parallel_run.pl", "parseGapsNUCmer.pl": "/usr/local/bin/parseGapsNUCmer.pl", "parseSitePAML.pl": "/usr/local/bin/parseSitePAML.pl", "phame": "/usr/local/bin/phame", "removeGaps.pl": "/usr/local/bin/removeGaps.pl", "removeRepeats.pl": "/usr/local/bin/removeRepeats.pl", "rhash": "/usr/local/bin/rhash", "runContigNUCmer.pl": "/usr/local/bin/runContigNUCmer.pl", "runHyPhy.pl": "/usr/local/bin/runHyPhy.pl", "runNUCmer.pl": "/usr/local/bin/runNUCmer.pl", "runPAML.pl": "/usr/local/bin/runPAML.pl", "runReadsMapping.pl": "/usr/local/bin/runReadsMapping.pl", "runReadsToGenome.pl": "/usr/local/bin/runReadsToGenome.pl", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "translate.pl": "/usr/local/bin/translate.pl", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh"}}
+config: {"url": "https://biocontainers.pro/tools/phame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phame", "latest": {"1.0.3--pl5321hdfd78af_3": "sha256:f8f5968ab6ea7c080c0b29dd0ec1a2fa558a2ce49a69a04fa272864d2a7e793b"}, "tags": {"1.0.3--1": "sha256:96bed72a499aeb080cc8686df017298ae1ec0b823cf7a842bffdddbad5ff7455", "1.0.3--pl5321hdfd78af_3": "sha256:f8f5968ab6ea7c080c0b29dd0ec1a2fa558a2ce49a69a04fa272864d2a7e793b"}, "docker": "quay.io/biocontainers/phame", "aliases": {"CanSNPs.pl": "/usr/local/bin/CanSNPs.pl", "ParseTree.pl": "/usr/local/bin/ParseTree.pl", "SNP_INDEL_count.pl": "/usr/local/bin/SNP_INDEL_count.pl", "SNP_analysis.pl": "/usr/local/bin/SNP_analysis.pl", "buildSNPDB.pl": "/usr/local/bin/buildSNPDB.pl", "catAlign.pl": "/usr/local/bin/catAlign.pl", "ccmake": "/usr/local/bin/ccmake", "checkNUCmer.pl": "/usr/local/bin/checkNUCmer.pl", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "extractGenes.pl": "/usr/local/bin/extractGenes.pl", "get_repeat_coords.pl": "/usr/local/bin/get_repeat_coords.pl", "gost-hash": "/usr/local/bin/gost-hash", "has160-hash": "/usr/local/bin/has160-hash", "hyphy": "/usr/local/bin/hyphy", "magnet-link": "/usr/local/bin/magnet-link", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "parallel_run.pl": "/usr/local/bin/parallel_run.pl", "parseGapsNUCmer.pl": "/usr/local/bin/parseGapsNUCmer.pl", "parseSitePAML.pl": "/usr/local/bin/parseSitePAML.pl", "phame": "/usr/local/bin/phame", "removeGaps.pl": "/usr/local/bin/removeGaps.pl", "removeRepeats.pl": "/usr/local/bin/removeRepeats.pl", "rhash": "/usr/local/bin/rhash", "runContigNUCmer.pl": "/usr/local/bin/runContigNUCmer.pl", "runHyPhy.pl": "/usr/local/bin/runHyPhy.pl", "runNUCmer.pl": "/usr/local/bin/runNUCmer.pl", "runPAML.pl": "/usr/local/bin/runPAML.pl", "runReadsMapping.pl": "/usr/local/bin/runReadsMapping.pl", "runReadsToGenome.pl": "/usr/local/bin/runReadsToGenome.pl", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "translate.pl": "/usr/local/bin/translate.pl", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phame.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/phame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phame:1.0.3--1
+$ shpc install quay.io/biocontainers/phame:1.0.3--pl5321hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phame/1.0.3--1
-$ module help quay.io/biocontainers/phame/1.0.3--1
+$ module load quay.io/biocontainers/phame/1.0.3--pl5321hdfd78af_3
+$ module help quay.io/biocontainers/phame/1.0.3--pl5321hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

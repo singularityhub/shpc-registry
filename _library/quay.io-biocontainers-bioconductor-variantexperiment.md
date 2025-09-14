@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-variantexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variantexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variantexperiment/container.yaml"
-updated_at: "2025-09-13 02:55:28.571887"
+updated_at: "2025-09-14 03:10:12.877368"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-variantexperiment"
 

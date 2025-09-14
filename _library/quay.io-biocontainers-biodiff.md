@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biodiff/container.yaml"
-updated_at: "2025-09-13 03:06:35.702139"
+updated_at: "2025-09-14 03:21:34.137725"
 latest: "0.2.2--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/biodiff"
 aliases:

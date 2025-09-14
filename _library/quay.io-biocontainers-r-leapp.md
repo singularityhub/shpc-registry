@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-leapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leapp/container.yaml"
-updated_at: "2025-09-13 03:17:27.136033"
+updated_at: "2025-09-14 03:32:37.622111"
 latest: "1.3--r44h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-leapp"
 

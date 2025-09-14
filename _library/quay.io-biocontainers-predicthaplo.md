@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/predicthaplo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predicthaplo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predicthaplo/container.yaml"
-updated_at: "2025-09-13 03:28:11.763558"
-latest: "2.1.4--h9b88814_5"
+updated_at: "2025-09-14 03:43:31.217082"
+latest: "2.1.4--h9b88814_6"
 container_url: "https://biocontainers.pro/tools/predicthaplo"
 aliases:
  - "predicthaplo"
@@ -13,8 +13,9 @@ versions:
  - "2.1.4--h9b88814_3"
  - "2.1.4--h9b88814_4"
  - "2.1.4--h9b88814_5"
+ - "2.1.4--h9b88814_6"
 description: "shpc-registry automated BioContainers addition for predicthaplo"
-config: {"url": "https://biocontainers.pro/tools/predicthaplo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for predicthaplo", "latest": {"2.1.4--h9b88814_5": "sha256:5a9889594b9274038d5cc759389aa77eeb18ee8ff9d0f9277b71cfd4ee7abb9f"}, "tags": {"2.1.4--h9b88814_3": "sha256:89587c8e93a7f2c0035787d80ae508f83c8b77215a1f34f515502a038a69e8e7", "2.1.4--h9b88814_4": "sha256:8790ff4b7a48bb6ec9400abef6fee0ad686b9c1223ffbcfa308050d42bc2b20d", "2.1.4--h9b88814_5": "sha256:5a9889594b9274038d5cc759389aa77eeb18ee8ff9d0f9277b71cfd4ee7abb9f"}, "docker": "quay.io/biocontainers/predicthaplo", "aliases": {"predicthaplo": "/usr/local/bin/predicthaplo"}}
+config: {"url": "https://biocontainers.pro/tools/predicthaplo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for predicthaplo", "latest": {"2.1.4--h9b88814_6": "sha256:f416c436093bba6607c49d040a823c4b6f097c199f2e4cf95b2918d7c27d0fd9"}, "tags": {"2.1.4--h9b88814_3": "sha256:89587c8e93a7f2c0035787d80ae508f83c8b77215a1f34f515502a038a69e8e7", "2.1.4--h9b88814_4": "sha256:8790ff4b7a48bb6ec9400abef6fee0ad686b9c1223ffbcfa308050d42bc2b20d", "2.1.4--h9b88814_5": "sha256:5a9889594b9274038d5cc759389aa77eeb18ee8ff9d0f9277b71cfd4ee7abb9f", "2.1.4--h9b88814_6": "sha256:f416c436093bba6607c49d040a823c4b6f097c199f2e4cf95b2918d7c27d0fd9"}, "docker": "quay.io/biocontainers/predicthaplo", "aliases": {"predicthaplo": "/usr/local/bin/predicthaplo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/predicthaplo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/predicthaplo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/predicthaplo:2.1.4--h9b88814_5
+$ shpc install quay.io/biocontainers/predicthaplo:2.1.4--h9b88814_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/predicthaplo/2.1.4--h9b88814_5
-$ module help quay.io/biocontainers/predicthaplo/2.1.4--h9b88814_5
+$ module load quay.io/biocontainers/predicthaplo/2.1.4--h9b88814_6
+$ module help quay.io/biocontainers/predicthaplo/2.1.4--h9b88814_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

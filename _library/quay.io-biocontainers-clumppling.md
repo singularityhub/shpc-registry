@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clumppling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clumppling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clumppling/container.yaml"
-updated_at: "2025-09-13 03:16:13.489388"
+updated_at: "2025-09-14 03:31:22.905480"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clumppling"
 aliases:
