@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/biocantor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biocantor
 latest:
-  1.1.0--pyh7cba7a3_0: 
-    sha256:088e14eae98bdfee2682fcdcd7515927d99f8318c12d502d683ee9363ac85be1
+  1.3.0--pyh7e72e81_0: 
+    sha256:d6862146c0bdd633d712ab34091ec49d45d341862d4daa22b328357fa78b6df7
 tags:
   1.0.0--pyh7cba7a3_0: 
     sha256:c377d728ec1bb6d547d3a21f4c42d078dd0ec58403988b52531b4162349ac04e
   1.1.0--pyh7cba7a3_0: 
     sha256:088e14eae98bdfee2682fcdcd7515927d99f8318c12d502d683ee9363ac85be1
+  1.3.0--pyh7e72e81_0: 
+    sha256:d6862146c0bdd633d712ab34091ec49d45d341862d4daa22b328357fa78b6df7
 docker: quay.io/biocontainers/biocantor
 aliases:
   gffutils-cli: /usr/local/bin/gffutils-cli

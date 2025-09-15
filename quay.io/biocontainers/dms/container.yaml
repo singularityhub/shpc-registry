@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/dms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dms
 latest:
-  1.1--hc9558a2_0: 
-    sha256:6f1b91fe03e79e3a509c8cf5ec275db845a741960233ec6abf36290307514486
+  1.1--h9948957_2: 
+    sha256:f62517e6881cf8d245e00559a9a001b5bc1134afac6c7ed14592f2f5b816638b
 tags:
   1.1--hc9558a2_0: 
     sha256:6f1b91fe03e79e3a509c8cf5ec275db845a741960233ec6abf36290307514486
+  1.1--h9948957_2: 
+    sha256:f62517e6881cf8d245e00559a9a001b5bc1134afac6c7ed14592f2f5b816638b
 docker: quay.io/biocontainers/dms
 aliases:
   MS-comp-taxa: /usr/local/bin/MS-comp-taxa

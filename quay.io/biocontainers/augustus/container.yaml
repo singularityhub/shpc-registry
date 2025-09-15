@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/augustus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for augustus
 latest:
-  3.5.0--pl5321h57ba348_8: 
-    sha256:c7a0f8599386bf653467836175f4f2aa5ca2c296a5f8473ea4061aaedd67464b
+  3.5.0--pl5321h9716f88_9: 
+    sha256:e3654ffeea9a5e95e8148cd6f153e6581bd119bc8b4edc9963d41bef427ba905
 tags:
   3.5.0--pl5321hf46c7bb_0: 
     sha256:eb986e9aaf4263ab10693f9d8b69e695510a79ab3cbea1bbf20d0ebfbf4fdf0c
@@ -21,6 +21,8 @@ tags:
     sha256:994c6d999d08d2cb248a448e2eaf8d194d981c41a3326b234d2b110b315e2570
   3.5.0--pl5321h57ba348_8: 
     sha256:c7a0f8599386bf653467836175f4f2aa5ca2c296a5f8473ea4061aaedd67464b
+  3.5.0--pl5321h9716f88_9: 
+    sha256:e3654ffeea9a5e95e8148cd6f153e6581bd119bc8b4edc9963d41bef427ba905
 docker: quay.io/biocontainers/augustus
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt

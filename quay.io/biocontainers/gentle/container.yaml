@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gentle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gentle
 latest:
-  1.9.5.alpha1--h81ca284_0: 
-    sha256:04edafdd231d2012a50b050431cac7b915f726885fb836a8eecad0cbce502c08
+  1.9.5.alpha1--h229bc75_2: 
+    sha256:d50c673c017c907c466f959da9d304d6ee5f3026316fcd5be543244655450d06
 tags:
   1.9.5.alpha1--h81ca284_0: 
     sha256:04edafdd231d2012a50b050431cac7b915f726885fb836a8eecad0cbce502c08
+  1.9.5.alpha1--h229bc75_2: 
+    sha256:d50c673c017c907c466f959da9d304d6ee5f3026316fcd5be543244655450d06
 docker: quay.io/biocontainers/gentle
 aliases:
   GENtle: /usr/local/bin/GENtle

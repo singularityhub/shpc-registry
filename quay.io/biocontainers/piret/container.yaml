@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/piret
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for piret
 latest:
-  0.3.4--1: 
-    sha256:fabd1d451c63de953572096cbcc45bc9d5764f528bf630368c44c68c6c12c5dc
+  0.3.4--r44hdfd78af_3: 
+    sha256:3f5e4576a838c9bf1eaefc3d226e165d68688953a3ce49125a1a30bfa1f16694
 tags:
   0.3.4--1: 
     sha256:fabd1d451c63de953572096cbcc45bc9d5764f528bf630368c44c68c6c12c5dc
+  0.3.4--r44hdfd78af_3: 
+    sha256:3f5e4576a838c9bf1eaefc3d226e165d68688953a3ce49125a1a30bfa1f16694
 docker: quay.io/biocontainers/piret
 aliases:
   detectionCall: /usr/local/bin/detectionCall
