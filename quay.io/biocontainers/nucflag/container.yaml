@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/nucflag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nucflag
+latest:
+  0.3.7--pyhdfd78af_0: 
+    sha256:05d1b2e7203687979a9fa8d9d110958c3fdc603619f2162cd2be10d2bd086922
+tags:
+  0.3.7--pyhdfd78af_0: 
+    sha256:05d1b2e7203687979a9fa8d9d110958c3fdc603619f2162cd2be10d2bd086922
+docker: quay.io/biocontainers/nucflag
+aliases:
+  nucflag: /usr/local/bin/nucflag
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
