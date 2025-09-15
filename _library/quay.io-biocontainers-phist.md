@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phist/container.yaml"
-updated_at: "2025-09-14 03:40:45.618067"
-latest: "1.0.0--py310hd03093a_0"
+updated_at: "2025-09-15 03:45:28.316166"
+latest: "1.0.0--py311h2de2dd3_1"
 container_url: "https://biocontainers.pro/tools/phist"
 aliases:
  - "kmer-db"
@@ -20,8 +20,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--py310hd03093a_0"
+ - "1.0.0--py311h2de2dd3_1"
 description: "singularity registry hpc automated addition for phist"
-config: {"url": "https://biocontainers.pro/tools/phist", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phist", "latest": {"1.0.0--py310hd03093a_0": "sha256:d497c280cb71ec4231c99a7df31e1d7de1b745fdba97231cbfa7c682bcd88b7d"}, "tags": {"1.0.0--py310hd03093a_0": "sha256:d497c280cb71ec4231c99a7df31e1d7de1b745fdba97231cbfa7c682bcd88b7d"}, "docker": "quay.io/biocontainers/phist", "aliases": {"kmer-db": "/usr/local/bin/kmer-db", "phist": "/usr/local/bin/phist", "phist.py": "/usr/local/bin/phist.py", "matcher": "/usr/local/bin/matcher", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/phist", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phist", "latest": {"1.0.0--py311h2de2dd3_1": "sha256:8812f2f7c84ed6748d8d64485b21c3d44a6a029480f81929f40b44dc81fa2f20"}, "tags": {"1.0.0--py310hd03093a_0": "sha256:d497c280cb71ec4231c99a7df31e1d7de1b745fdba97231cbfa7c682bcd88b7d", "1.0.0--py311h2de2dd3_1": "sha256:8812f2f7c84ed6748d8d64485b21c3d44a6a029480f81929f40b44dc81fa2f20"}, "docker": "quay.io/biocontainers/phist", "aliases": {"kmer-db": "/usr/local/bin/kmer-db", "phist": "/usr/local/bin/phist", "phist.py": "/usr/local/bin/phist.py", "matcher": "/usr/local/bin/matcher", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phist.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/phist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phist:1.0.0--py310hd03093a_0
+$ shpc install quay.io/biocontainers/phist:1.0.0--py311h2de2dd3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phist/1.0.0--py310hd03093a_0
-$ module help quay.io/biocontainers/phist/1.0.0--py310hd03093a_0
+$ module load quay.io/biocontainers/phist/1.0.0--py311h2de2dd3_1
+$ module help quay.io/biocontainers/phist/1.0.0--py311h2de2dd3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

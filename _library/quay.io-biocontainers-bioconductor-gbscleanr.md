@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gbscleanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gbscleanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gbscleanr/container.yaml"
-updated_at: "2025-09-14 03:12:09.651602"
+updated_at: "2025-09-15 03:17:30.802383"
 latest: "2.0.2--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gbscleanr"
 aliases:

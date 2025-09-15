@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-camutqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camutqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camutqc/container.yaml"
-updated_at: "2025-09-14 03:25:20.380600"
+updated_at: "2025-09-15 03:30:21.457307"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-camutqc"
 aliases:

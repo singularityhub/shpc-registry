@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abundancebin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abundancebin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abundancebin/container.yaml"
-updated_at: "2025-09-14 03:39:54.314805"
-latest: "1.0.1--h9948957_8"
+updated_at: "2025-09-15 03:44:36.834954"
+latest: "1.0.1--h9948957_9"
 container_url: "https://biocontainers.pro/tools/abundancebin"
 aliases:
  - "abundancebin"
@@ -14,8 +14,9 @@ versions:
  - "1.0.1--h9f5acd7_5"
  - "1.0.1--h4ac6f70_6"
  - "1.0.1--h9948957_8"
+ - "1.0.1--h9948957_9"
 description: "shpc-registry automated BioContainers addition for abundancebin"
-config: {"url": "https://biocontainers.pro/tools/abundancebin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abundancebin", "latest": {"1.0.1--h9948957_8": "sha256:1478b3baf78eb33d85fa360b3c23cbc0e0e8cbb9b9e8690ee6d836953b35fbfa"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:e76410ccbe886ff5c22e61568f392b8bcbd4f7afc05afd2b82dca10ce3569623", "1.0.1--h9f5acd7_5": "sha256:df5f713e91203566a88789a7ea9a600d92c57c6e9224a6753e02f1014ff7d231", "1.0.1--h4ac6f70_6": "sha256:8bda624b6531d074a4ae6dbdf9352f888e5079dfecf3a5fe32a4af4f3c067ae7", "1.0.1--h9948957_8": "sha256:1478b3baf78eb33d85fa360b3c23cbc0e0e8cbb9b9e8690ee6d836953b35fbfa"}, "docker": "quay.io/biocontainers/abundancebin", "aliases": {"abundancebin": "/usr/local/bin/abundancebin"}}
+config: {"url": "https://biocontainers.pro/tools/abundancebin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abundancebin", "latest": {"1.0.1--h9948957_9": "sha256:d2f9495bfb22992da4dfe66a96b0b63f6288c7e5eefc06be726d0dded710ea95"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:e76410ccbe886ff5c22e61568f392b8bcbd4f7afc05afd2b82dca10ce3569623", "1.0.1--h9f5acd7_5": "sha256:df5f713e91203566a88789a7ea9a600d92c57c6e9224a6753e02f1014ff7d231", "1.0.1--h4ac6f70_6": "sha256:8bda624b6531d074a4ae6dbdf9352f888e5079dfecf3a5fe32a4af4f3c067ae7", "1.0.1--h9948957_8": "sha256:1478b3baf78eb33d85fa360b3c23cbc0e0e8cbb9b9e8690ee6d836953b35fbfa", "1.0.1--h9948957_9": "sha256:d2f9495bfb22992da4dfe66a96b0b63f6288c7e5eefc06be726d0dded710ea95"}, "docker": "quay.io/biocontainers/abundancebin", "aliases": {"abundancebin": "/usr/local/bin/abundancebin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abundancebin.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/abundancebin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abundancebin:1.0.1--h9948957_8
+$ shpc install quay.io/biocontainers/abundancebin:1.0.1--h9948957_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abundancebin/1.0.1--h9948957_8
-$ module help quay.io/biocontainers/abundancebin/1.0.1--h9948957_8
+$ module load quay.io/biocontainers/abundancebin/1.0.1--h9948957_9
+$ module help quay.io/biocontainers/abundancebin/1.0.1--h9948957_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

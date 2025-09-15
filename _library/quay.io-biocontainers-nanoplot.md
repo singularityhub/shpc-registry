@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplot/container.yaml"
-updated_at: "2025-09-14 03:41:36.160075"
-latest: "1.46.0--pyhdfd78af_0"
+updated_at: "2025-09-15 03:46:19.007015"
+latest: "1.46.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanoplot"
 aliases:
  - "NanoPlot"
@@ -35,8 +35,9 @@ versions:
  - "1.44.1--pyhdfd78af_0"
  - "1.46.0--pyhdfd78af_0"
  - "1.45.0--pyhdfd78af_0"
+ - "1.46.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanoplot"
-config: {"url": "https://biocontainers.pro/tools/nanoplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplot", "latest": {"1.46.0--pyhdfd78af_0": "sha256:5db61bb6c26016b829b116b2f3b68a9d443afae9348160b714c36d46ffb6dce9"}, "tags": {"1.8.1--py36_0": "sha256:b73d5b3c734675e473b3ecea4cd72df9f224877b51f8f8e68693a10b98dc733f", "1.36.1--pyhdfd78af_0": "sha256:89592cc9e68e6d4f95d7695f7c70841a638013a4d210a139f0608ded1902af40", "1.35.5--pyhdfd78af_0": "sha256:2218e1ddeddd55857c36bb77d20533ef16fcd45e5f6126b9f895c219daa2c3f0", "1.32.1--py_0": "sha256:03ba69a3f1b359c9cdbaa1275add8cbbe1749908a5c9cc81d81c0498a1536bb8", "1.31.0--py_0": "sha256:949bd5be4f6ce9cb4d0e919751a02cfb1b5108428e2a9cae3c73e2279891183e", "1.30.1--py_0": "sha256:a99cdf02d901dbe170640a709c1529fb94a520101addb7c7e5cc11eb559a3fcf", "1.43.0--pyhdfd78af_1": "sha256:ead345e36f33aac4f8062e0635baa3c1ba047708680921c37fb53a531d6587cf", "1.42.0--pyhdfd78af_0": "sha256:8eb31b6d172a997cb9bc5b00efc36e0376829dcb7bf3b64fd7490608f2b64cbf", "1.41.6--pyhdfd78af_0": "sha256:06e4ce10ed6c0cbea939eb8fe9df9d9e457734b9fbc872469c2c82805822a5a5", "1.40.2--pyhdfd78af_0": "sha256:8caeeac4d2358a7ec0299a5d04023b1cf04eecc2b2beb963be52c8f9cf99198f", "1.39.0--pyhdfd78af_0": "sha256:75c8f61b1b2c6a8c62c9e622e088b98f3298ac6aa136d9b259d89246295cd7cd", "1.44.1--pyhdfd78af_0": "sha256:85f6fc3c9cd76fd51c4bcf457ad46ce6ad6b868b88f2983c5e4fcfe86f44190c", "1.46.0--pyhdfd78af_0": "sha256:5db61bb6c26016b829b116b2f3b68a9d443afae9348160b714c36d46ffb6dce9", "1.45.0--pyhdfd78af_0": "sha256:21684e0a194ab5fbde9991fe17a2c79ac113b430952922b9b1db05d407b27747"}, "docker": "quay.io/biocontainers/nanoplot", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "pauvre": "/usr/local/bin/pauvre", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/nanoplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplot", "latest": {"1.46.1--pyhdfd78af_0": "sha256:7018e3116f992e97f7f841a3b28591f4c314b9f0f3866acf113e515a0dbcc478"}, "tags": {"1.8.1--py36_0": "sha256:b73d5b3c734675e473b3ecea4cd72df9f224877b51f8f8e68693a10b98dc733f", "1.36.1--pyhdfd78af_0": "sha256:89592cc9e68e6d4f95d7695f7c70841a638013a4d210a139f0608ded1902af40", "1.35.5--pyhdfd78af_0": "sha256:2218e1ddeddd55857c36bb77d20533ef16fcd45e5f6126b9f895c219daa2c3f0", "1.32.1--py_0": "sha256:03ba69a3f1b359c9cdbaa1275add8cbbe1749908a5c9cc81d81c0498a1536bb8", "1.31.0--py_0": "sha256:949bd5be4f6ce9cb4d0e919751a02cfb1b5108428e2a9cae3c73e2279891183e", "1.30.1--py_0": "sha256:a99cdf02d901dbe170640a709c1529fb94a520101addb7c7e5cc11eb559a3fcf", "1.43.0--pyhdfd78af_1": "sha256:ead345e36f33aac4f8062e0635baa3c1ba047708680921c37fb53a531d6587cf", "1.42.0--pyhdfd78af_0": "sha256:8eb31b6d172a997cb9bc5b00efc36e0376829dcb7bf3b64fd7490608f2b64cbf", "1.41.6--pyhdfd78af_0": "sha256:06e4ce10ed6c0cbea939eb8fe9df9d9e457734b9fbc872469c2c82805822a5a5", "1.40.2--pyhdfd78af_0": "sha256:8caeeac4d2358a7ec0299a5d04023b1cf04eecc2b2beb963be52c8f9cf99198f", "1.39.0--pyhdfd78af_0": "sha256:75c8f61b1b2c6a8c62c9e622e088b98f3298ac6aa136d9b259d89246295cd7cd", "1.44.1--pyhdfd78af_0": "sha256:85f6fc3c9cd76fd51c4bcf457ad46ce6ad6b868b88f2983c5e4fcfe86f44190c", "1.46.0--pyhdfd78af_0": "sha256:5db61bb6c26016b829b116b2f3b68a9d443afae9348160b714c36d46ffb6dce9", "1.45.0--pyhdfd78af_0": "sha256:21684e0a194ab5fbde9991fe17a2c79ac113b430952922b9b1db05d407b27747", "1.46.1--pyhdfd78af_0": "sha256:7018e3116f992e97f7f841a3b28591f4c314b9f0f3866acf113e515a0dbcc478"}, "docker": "quay.io/biocontainers/nanoplot", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "pauvre": "/usr/local/bin/pauvre", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoplot.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/nanoplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoplot:1.46.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanoplot:1.46.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoplot/1.46.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanoplot/1.46.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanoplot/1.46.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanoplot/1.46.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

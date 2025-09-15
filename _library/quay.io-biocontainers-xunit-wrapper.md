@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xunit-wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xunit-wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xunit-wrapper/container.yaml"
-updated_at: "2025-09-14 03:47:15.890438"
-latest: "0.12--pyh864c0ab_2"
+updated_at: "2025-09-15 03:52:12.278741"
+latest: "0.12--pyh7e72e81_3"
 container_url: "https://biocontainers.pro/tools/xunit-wrapper"
 aliases:
  - "futurize"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.12--pyh864c0ab_2"
+ - "0.12--pyh7e72e81_3"
 description: "shpc-registry automated BioContainers addition for xunit-wrapper"
-config: {"url": "https://biocontainers.pro/tools/xunit-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xunit-wrapper", "latest": {"0.12--pyh864c0ab_2": "sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd"}, "tags": {"0.12--pyh864c0ab_2": "sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd"}, "docker": "quay.io/biocontainers/xunit-wrapper", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/xunit-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xunit-wrapper", "latest": {"0.12--pyh7e72e81_3": "sha256:715afa3d87e43cad151cfd3c95167cab40c97c3f1d1562584df593a2fa965569"}, "tags": {"0.12--pyh864c0ab_2": "sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd", "0.12--pyh7e72e81_3": "sha256:715afa3d87e43cad151cfd3c95167cab40c97c3f1d1562584df593a2fa965569"}, "docker": "quay.io/biocontainers/xunit-wrapper", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xunit-wrapper.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/xunit-wrapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xunit-wrapper:0.12--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/xunit-wrapper:0.12--pyh7e72e81_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xunit-wrapper/0.12--pyh864c0ab_2
-$ module help quay.io/biocontainers/xunit-wrapper/0.12--pyh864c0ab_2
+$ module load quay.io/biocontainers/xunit-wrapper/0.12--pyh7e72e81_3
+$ module help quay.io/biocontainers/xunit-wrapper/0.12--pyh7e72e81_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-migsadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-migsadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-migsadata/container.yaml"
-updated_at: "2025-09-14 03:14:57.341059"
+updated_at: "2025-09-15 03:20:13.622668"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-migsadata"
 aliases:

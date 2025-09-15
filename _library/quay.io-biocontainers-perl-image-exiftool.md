@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-image-exiftool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-image-exiftool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-image-exiftool/container.yaml"
-updated_at: "2025-09-14 03:45:43.874143"
-latest: "13.30--pl5321hdfd78af_0"
+updated_at: "2025-09-15 03:50:35.019398"
+latest: "13.36--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-image-exiftool"
 aliases:
  - "exiftool"
@@ -16,8 +16,10 @@ versions:
  - "12.50--pl5321hdfd78af_0"
  - "12.60--pl5321hdfd78af_0"
  - "13.30--pl5321hdfd78af_0"
+ - "13.36--pl5321hdfd78af_0"
+ - "13.35--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-image-exiftool"
-config: {"url": "https://biocontainers.pro/tools/perl-image-exiftool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-image-exiftool", "latest": {"13.30--pl5321hdfd78af_0": "sha256:4d3779ea26a505a21cf347ee71a689468a84508c264a43b00971c16ec7f9fb03"}, "tags": {"12.42--pl5321hdfd78af_0": "sha256:22d34da34949fc4ae338ae70d782c0331280173e1f4c20b0e49404e7d3ded2ab", "12.50--pl5321hdfd78af_0": "sha256:83e271dfe7b6fa3881c3ed324b2fba3ff48aaea658709b7fb80c05ea647ea676", "12.60--pl5321hdfd78af_0": "sha256:9819e264063a4653bf98e306ede7dbc997f294354a8db2b9874e1b891f176e66", "13.30--pl5321hdfd78af_0": "sha256:4d3779ea26a505a21cf347ee71a689468a84508c264a43b00971c16ec7f9fb03"}, "docker": "quay.io/biocontainers/perl-image-exiftool", "aliases": {"exiftool": "/usr/local/bin/exiftool", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-image-exiftool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-image-exiftool", "latest": {"13.36--pl5321hdfd78af_0": "sha256:0cf490e15714b33551200fefa29e884566a247e1d8e5f99946c80423e9319163"}, "tags": {"12.42--pl5321hdfd78af_0": "sha256:22d34da34949fc4ae338ae70d782c0331280173e1f4c20b0e49404e7d3ded2ab", "12.50--pl5321hdfd78af_0": "sha256:83e271dfe7b6fa3881c3ed324b2fba3ff48aaea658709b7fb80c05ea647ea676", "12.60--pl5321hdfd78af_0": "sha256:9819e264063a4653bf98e306ede7dbc997f294354a8db2b9874e1b891f176e66", "13.30--pl5321hdfd78af_0": "sha256:4d3779ea26a505a21cf347ee71a689468a84508c264a43b00971c16ec7f9fb03", "13.36--pl5321hdfd78af_0": "sha256:0cf490e15714b33551200fefa29e884566a247e1d8e5f99946c80423e9319163", "13.35--pl5321hdfd78af_0": "sha256:cc43f9a199046669648767e94f3a761e0029043ba31aad60631c3f702fd089fc"}, "docker": "quay.io/biocontainers/perl-image-exiftool", "aliases": {"exiftool": "/usr/local/bin/exiftool", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-image-exiftool.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-image-exiftool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-image-exiftool:13.30--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-image-exiftool:13.36--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-image-exiftool/13.30--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-image-exiftool/13.30--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-image-exiftool/13.36--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-image-exiftool/13.36--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

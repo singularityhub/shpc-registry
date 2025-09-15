@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/learnmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/learnmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/learnmsa/container.yaml"
-updated_at: "2025-09-14 03:51:06.920896"
+updated_at: "2025-09-15 03:56:16.812673"
 latest: "2.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/learnmsa"
 aliases:

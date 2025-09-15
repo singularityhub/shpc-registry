@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/polypolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polypolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polypolish/container.yaml"
-updated_at: "2025-09-14 03:52:24.980991"
-latest: "0.6.0--h3ab6199_3"
+updated_at: "2025-09-15 03:57:38.420843"
+latest: "0.6.1--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/polypolish"
 aliases:
  - "polypolish"
@@ -23,8 +23,9 @@ versions:
  - "0.5.0--hdbdd923_4"
  - "0.6.0--hdbdd923_0"
  - "0.6.0--h3ab6199_3"
+ - "0.6.1--h3ab6199_0"
 description: "singularity registry hpc automated addition for polypolish"
-config: {"url": "https://biocontainers.pro/tools/polypolish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for polypolish", "latest": {"0.6.0--h3ab6199_3": "sha256:bc9fcf66c0a45abd5831ae73fc1ad754874ad433d9495351b67665022145b1ae"}, "tags": {"0.5.0--h87f3376_2": "sha256:b404c83acb84c8a7bbcdc8a7e83af00e81de0d87a9d45528d4131ad57c0dd1cb", "0.5.0--h87f3376_3": "sha256:d81aa78d125ff2971620a000785e594d8da73ab3afda9ef4c7a6d40ca680ae6d", "0.5.0--hdbdd923_4": "sha256:4039e2317464283afcc6bf182767c908b2ea3b561b8b70f3a8748c8ab9716d81", "0.6.0--hdbdd923_0": "sha256:cb37a584e7de9905f52ce8d0cb578f32dc1a6b86a48dd98314cb38d21c3bc76d", "0.6.0--h3ab6199_3": "sha256:bc9fcf66c0a45abd5831ae73fc1ad754874ad433d9495351b67665022145b1ae"}, "docker": "quay.io/biocontainers/polypolish", "aliases": {"polypolish": "/usr/local/bin/polypolish", "polypolish_insert_filter.pxd": "/usr/local/bin/polypolish_insert_filter.pxd", "polypolish_insert_filter.py": "/usr/local/bin/polypolish_insert_filter.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/polypolish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for polypolish", "latest": {"0.6.1--h3ab6199_0": "sha256:f4cde0f1b5f3926b12400d0dc3d180356324e09a5dcf2b925d16837375f8c8fd"}, "tags": {"0.5.0--h87f3376_2": "sha256:b404c83acb84c8a7bbcdc8a7e83af00e81de0d87a9d45528d4131ad57c0dd1cb", "0.5.0--h87f3376_3": "sha256:d81aa78d125ff2971620a000785e594d8da73ab3afda9ef4c7a6d40ca680ae6d", "0.5.0--hdbdd923_4": "sha256:4039e2317464283afcc6bf182767c908b2ea3b561b8b70f3a8748c8ab9716d81", "0.6.0--hdbdd923_0": "sha256:cb37a584e7de9905f52ce8d0cb578f32dc1a6b86a48dd98314cb38d21c3bc76d", "0.6.0--h3ab6199_3": "sha256:bc9fcf66c0a45abd5831ae73fc1ad754874ad433d9495351b67665022145b1ae", "0.6.1--h3ab6199_0": "sha256:f4cde0f1b5f3926b12400d0dc3d180356324e09a5dcf2b925d16837375f8c8fd"}, "docker": "quay.io/biocontainers/polypolish", "aliases": {"polypolish": "/usr/local/bin/polypolish", "polypolish_insert_filter.pxd": "/usr/local/bin/polypolish_insert_filter.pxd", "polypolish_insert_filter.py": "/usr/local/bin/polypolish_insert_filter.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/polypolish.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/polypolish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/polypolish:0.6.0--h3ab6199_3
+$ shpc install quay.io/biocontainers/polypolish:0.6.1--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/polypolish/0.6.0--h3ab6199_3
-$ module help quay.io/biocontainers/polypolish/0.6.0--h3ab6199_3
+$ module load quay.io/biocontainers/polypolish/0.6.1--h3ab6199_0
+$ module help quay.io/biocontainers/polypolish/0.6.1--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
