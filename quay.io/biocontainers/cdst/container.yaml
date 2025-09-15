@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/cdst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cdst
+latest:
+  0.2.1--pyhdfd78af_0: 
+    sha256:48e698495f85e0f28e31578b6939595b02f3c4b1174b596e01ba088e16f9f314
+tags:
+  0.2.1--pyhdfd78af_0: 
+    sha256:48e698495f85e0f28e31578b6939595b02f3c4b1174b596e01ba088e16f9f314
+docker: quay.io/biocontainers/cdst
+aliases:
+  cdst: /usr/local/bin/cdst
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
