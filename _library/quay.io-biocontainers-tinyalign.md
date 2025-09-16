@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinyalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinyalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinyalign/container.yaml"
-updated_at: "2025-09-15 03:40:15.784362"
+updated_at: "2025-09-16 03:28:01.438576"
 latest: "0.2--py38h4a8c8d9_2"
 container_url: "https://biocontainers.pro/tools/tinyalign"
 aliases:

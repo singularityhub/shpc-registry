@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dms/container.yaml"
-updated_at: "2025-09-15 03:43:18.320418"
-latest: "1.1--hc9558a2_0"
+updated_at: "2025-09-16 03:31:00.357148"
+latest: "1.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/dms"
 aliases:
  - "MS-comp-taxa"
@@ -15,8 +15,9 @@ aliases:
  - "MS-table-to-single"
 versions:
  - "1.1--hc9558a2_0"
+ - "1.1--h9948957_2"
 description: "shpc-registry automated BioContainers addition for dms"
-config: {"url": "https://biocontainers.pro/tools/dms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dms", "latest": {"1.1--hc9558a2_0": "sha256:6f1b91fe03e79e3a509c8cf5ec275db845a741960233ec6abf36290307514486"}, "tags": {"1.1--hc9558a2_0": "sha256:6f1b91fe03e79e3a509c8cf5ec275db845a741960233ec6abf36290307514486"}, "docker": "quay.io/biocontainers/dms", "aliases": {"MS-comp-taxa": "/usr/local/bin/MS-comp-taxa", "MS-comp-taxa-dynamic": "/usr/local/bin/MS-comp-taxa-dynamic", "MS-make-ref": "/usr/local/bin/MS-make-ref", "MS-single-to-table": "/usr/local/bin/MS-single-to-table", "MS-table-to-single": "/usr/local/bin/MS-table-to-single"}}
+config: {"url": "https://biocontainers.pro/tools/dms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dms", "latest": {"1.1--h9948957_2": "sha256:f62517e6881cf8d245e00559a9a001b5bc1134afac6c7ed14592f2f5b816638b"}, "tags": {"1.1--hc9558a2_0": "sha256:6f1b91fe03e79e3a509c8cf5ec275db845a741960233ec6abf36290307514486", "1.1--h9948957_2": "sha256:f62517e6881cf8d245e00559a9a001b5bc1134afac6c7ed14592f2f5b816638b"}, "docker": "quay.io/biocontainers/dms", "aliases": {"MS-comp-taxa": "/usr/local/bin/MS-comp-taxa", "MS-comp-taxa-dynamic": "/usr/local/bin/MS-comp-taxa-dynamic", "MS-make-ref": "/usr/local/bin/MS-make-ref", "MS-single-to-table": "/usr/local/bin/MS-single-to-table", "MS-table-to-single": "/usr/local/bin/MS-table-to-single"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dms.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/dms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dms:1.1--hc9558a2_0
+$ shpc install quay.io/biocontainers/dms:1.1--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dms/1.1--hc9558a2_0
-$ module help quay.io/biocontainers/dms/1.1--hc9558a2_0
+$ module load quay.io/biocontainers/dms/1.1--h9948957_2
+$ module help quay.io/biocontainers/dms/1.1--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

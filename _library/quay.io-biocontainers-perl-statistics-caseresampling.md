@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-statistics-caseresampling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-caseresampling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-caseresampling/container.yaml"
-updated_at: "2025-09-15 03:54:46.785070"
+updated_at: "2025-09-16 03:41:38.652626"
 latest: "0.15--pl5321h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/perl-statistics-caseresampling"
 aliases:

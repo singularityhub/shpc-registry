@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piret"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piret/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piret/container.yaml"
-updated_at: "2025-09-15 03:45:45.699737"
-latest: "0.3.4--1"
+updated_at: "2025-09-16 03:33:21.901596"
+latest: "0.3.4--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/piret"
 aliases:
  - "detectionCall"
@@ -63,8 +63,9 @@ aliases:
  - "rst2pseudoxml.py"
 versions:
  - "0.3.4--1"
+ - "0.3.4--r44hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for piret"
-config: {"url": "https://biocontainers.pro/tools/piret", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piret", "latest": {"0.3.4--1": "sha256:fabd1d451c63de953572096cbcc45bc9d5764f528bf630368c44c68c6c12c5dc"}, "tags": {"0.3.4--1": "sha256:fabd1d451c63de953572096cbcc45bc9d5764f528bf630368c44c68c6c12c5dc"}, "docker": "quay.io/biocontainers/piret", "aliases": {"detectionCall": "/usr/local/bin/detectionCall", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hisatgenotype.py": "/usr/local/bin/hisatgenotype.py", "hisatgenotype_build_genome.py": "/usr/local/bin/hisatgenotype_build_genome.py", "hisatgenotype_extract_reads.py": "/usr/local/bin/hisatgenotype_extract_reads.py", "hisatgenotype_extract_vars.py": "/usr/local/bin/hisatgenotype_extract_vars.py", "hisatgenotype_hla_cyp.py": "/usr/local/bin/hisatgenotype_hla_cyp.py", "hisatgenotype_locus.py": "/usr/local/bin/hisatgenotype_locus.py", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "piret": "/usr/local/bin/piret", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "stringtie": "/usr/local/bin/stringtie", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "txUnique": "/usr/local/bin/txUnique", "bamtools": "/usr/local/bin/bamtools", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
+config: {"url": "https://biocontainers.pro/tools/piret", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piret", "latest": {"0.3.4--r44hdfd78af_3": "sha256:3f5e4576a838c9bf1eaefc3d226e165d68688953a3ce49125a1a30bfa1f16694"}, "tags": {"0.3.4--1": "sha256:fabd1d451c63de953572096cbcc45bc9d5764f528bf630368c44c68c6c12c5dc", "0.3.4--r44hdfd78af_3": "sha256:3f5e4576a838c9bf1eaefc3d226e165d68688953a3ce49125a1a30bfa1f16694"}, "docker": "quay.io/biocontainers/piret", "aliases": {"detectionCall": "/usr/local/bin/detectionCall", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hisatgenotype.py": "/usr/local/bin/hisatgenotype.py", "hisatgenotype_build_genome.py": "/usr/local/bin/hisatgenotype_build_genome.py", "hisatgenotype_extract_reads.py": "/usr/local/bin/hisatgenotype_extract_reads.py", "hisatgenotype_extract_vars.py": "/usr/local/bin/hisatgenotype_extract_vars.py", "hisatgenotype_hla_cyp.py": "/usr/local/bin/hisatgenotype_hla_cyp.py", "hisatgenotype_locus.py": "/usr/local/bin/hisatgenotype_locus.py", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "piret": "/usr/local/bin/piret", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "stringtie": "/usr/local/bin/stringtie", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "txUnique": "/usr/local/bin/txUnique", "bamtools": "/usr/local/bin/bamtools", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piret.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/piret
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piret:0.3.4--1
+$ shpc install quay.io/biocontainers/piret:0.3.4--r44hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piret/0.3.4--1
-$ module help quay.io/biocontainers/piret/0.3.4--1
+$ module load quay.io/biocontainers/piret/0.3.4--r44hdfd78af_3
+$ module help quay.io/biocontainers/piret/0.3.4--r44hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

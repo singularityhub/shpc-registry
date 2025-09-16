@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uniprot-id-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniprot-id-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniprot-id-mapper/container.yaml"
-updated_at: "2025-09-15 03:34:02.163035"
+updated_at: "2025-09-16 03:21:56.047217"
 latest: "1.1.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/uniprot-id-mapper"
 aliases:

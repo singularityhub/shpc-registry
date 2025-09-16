@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samrefiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samrefiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samrefiner/container.yaml"
-updated_at: "2025-09-15 03:25:29.684591"
-latest: "1.4.2--pyhdfd78af_0"
+updated_at: "2025-09-16 03:13:31.671751"
+latest: "1.4.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samrefiner"
 aliases:
  - "SAM_Refiner"
@@ -19,8 +19,9 @@ versions:
  - "1.4--pyhdfd78af_0"
  - "1.4.1--pyhdfd78af_0"
  - "1.4.2--pyhdfd78af_0"
+ - "1.4.2.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for samrefiner"
-config: {"url": "https://biocontainers.pro/tools/samrefiner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samrefiner", "latest": {"1.4.2--pyhdfd78af_0": "sha256:0f6989edd5866f8e99e37f98ddb7329cd6f16c4b37d453bcbc4c2be37528a458"}, "tags": {"1.4--pyhdfd78af_0": "sha256:85126a1652fc2156b48be7715febef8c88cceb40134c4d03c0ebedc6c29b04f3", "1.4.1--pyhdfd78af_0": "sha256:7a74e7675e95ff5921a5740c18fbdf68fcacdeb76c9784493cec7b44732cf540", "1.4.2--pyhdfd78af_0": "sha256:0f6989edd5866f8e99e37f98ddb7329cd6f16c4b37d453bcbc4c2be37528a458"}, "docker": "quay.io/biocontainers/samrefiner", "aliases": {"SAM_Refiner": "/usr/local/bin/SAM_Refiner", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/samrefiner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samrefiner", "latest": {"1.4.2.1--pyhdfd78af_0": "sha256:e25a5a664e6f7053fb1d10b2a8f08dddb2eb728aa7535d3b27c1379598eaa256"}, "tags": {"1.4--pyhdfd78af_0": "sha256:85126a1652fc2156b48be7715febef8c88cceb40134c4d03c0ebedc6c29b04f3", "1.4.1--pyhdfd78af_0": "sha256:7a74e7675e95ff5921a5740c18fbdf68fcacdeb76c9784493cec7b44732cf540", "1.4.2--pyhdfd78af_0": "sha256:0f6989edd5866f8e99e37f98ddb7329cd6f16c4b37d453bcbc4c2be37528a458", "1.4.2.1--pyhdfd78af_0": "sha256:e25a5a664e6f7053fb1d10b2a8f08dddb2eb728aa7535d3b27c1379598eaa256"}, "docker": "quay.io/biocontainers/samrefiner", "aliases": {"SAM_Refiner": "/usr/local/bin/SAM_Refiner", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samrefiner.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/samrefiner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samrefiner:1.4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/samrefiner:1.4.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samrefiner/1.4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/samrefiner/1.4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/samrefiner/1.4.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/samrefiner/1.4.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

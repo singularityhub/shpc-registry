@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/suvtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suvtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suvtk/container.yaml"
-updated_at: "2025-09-15 03:43:28.262297"
-latest: "0.1.5--pyh64700be_0"
+updated_at: "2025-09-16 03:31:10.006716"
+latest: "0.1.6--pyh64700be_0"
 container_url: "https://biocontainers.pro/tools/suvtk"
 aliases:
  - "pyrodigal-gv"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.5--pyh64700be_0"
+ - "0.1.6--pyh64700be_0"
 description: "singularity registry hpc automated addition for suvtk"
-config: {"url": "https://biocontainers.pro/tools/suvtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for suvtk", "latest": {"0.1.5--pyh64700be_0": "sha256:266f718b1ffa72c37dc751d743aa521be2cdf04bb34e8f6d7cafc0a5a58fdec3"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:02c78fbe13a92f935af0821d51790ff48eae117145a3d77660c4bec54cb5fd3c", "0.1.5--pyh64700be_0": "sha256:266f718b1ffa72c37dc751d743aa521be2cdf04bb34e8f6d7cafc0a5a58fdec3"}, "docker": "quay.io/biocontainers/suvtk", "aliases": {"pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "suvtk": "/usr/local/bin/suvtk", "table2asn": "/usr/local/bin/table2asn", "archspec": "/usr/local/bin/archspec", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "pyrodigal": "/usr/local/bin/pyrodigal", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/suvtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for suvtk", "latest": {"0.1.6--pyh64700be_0": "sha256:de64f962d1955c281427135dade28b14068af1630f0c47e9169a964474bdf68e"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:02c78fbe13a92f935af0821d51790ff48eae117145a3d77660c4bec54cb5fd3c", "0.1.5--pyh64700be_0": "sha256:266f718b1ffa72c37dc751d743aa521be2cdf04bb34e8f6d7cafc0a5a58fdec3", "0.1.6--pyh64700be_0": "sha256:de64f962d1955c281427135dade28b14068af1630f0c47e9169a964474bdf68e"}, "docker": "quay.io/biocontainers/suvtk", "aliases": {"pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "suvtk": "/usr/local/bin/suvtk", "table2asn": "/usr/local/bin/table2asn", "archspec": "/usr/local/bin/archspec", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "pyrodigal": "/usr/local/bin/pyrodigal", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/suvtk.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/suvtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/suvtk:0.1.5--pyh64700be_0
+$ shpc install quay.io/biocontainers/suvtk:0.1.6--pyh64700be_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/suvtk/0.1.5--pyh64700be_0
-$ module help quay.io/biocontainers/suvtk/0.1.5--pyh64700be_0
+$ module load quay.io/biocontainers/suvtk/0.1.6--pyh64700be_0
+$ module help quay.io/biocontainers/suvtk/0.1.6--pyh64700be_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

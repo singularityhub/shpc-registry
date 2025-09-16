@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pqlseqpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pqlseqpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pqlseqpy/container.yaml"
-updated_at: "2025-09-15 04:00:18.544602"
+updated_at: "2025-09-16 03:46:36.183200"
 latest: "0.1.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pqlseqpy"
 aliases:

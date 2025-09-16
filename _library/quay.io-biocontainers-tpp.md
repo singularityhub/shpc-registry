@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tpp/container.yaml"
-updated_at: "2025-09-15 03:30:19.818803"
+updated_at: "2025-09-16 03:18:17.948432"
 latest: "5.0.0--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/tpp"
 aliases:

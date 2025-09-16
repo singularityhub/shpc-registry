@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quaqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quaqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quaqc/container.yaml"
-updated_at: "2025-09-15 03:24:03.890395"
-latest: "1.3d--h577a1d6_1"
+updated_at: "2025-09-16 03:12:06.471884"
+latest: "1.5--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/quaqc"
 aliases:
  - "quaqc"
@@ -16,8 +16,10 @@ aliases:
 versions:
  - "1.3d--h577a1d6_0"
  - "1.3d--h577a1d6_1"
+ - "1.5--h577a1d6_0"
+ - "1.4--h577a1d6_0"
 description: "singularity registry hpc automated addition for quaqc"
-config: {"url": "https://biocontainers.pro/tools/quaqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quaqc", "latest": {"1.3d--h577a1d6_1": "sha256:e4d924aa3ff79389b522bae80c79c6f2f861495d1b390d2144da462126589251"}, "tags": {"1.3d--h577a1d6_0": "sha256:6a3a5c6afaea221e2087aa9a54a2a0a9ff755668299b48699cb81285639a46fa", "1.3d--h577a1d6_1": "sha256:e4d924aa3ff79389b522bae80c79c6f2f861495d1b390d2144da462126589251"}, "docker": "quay.io/biocontainers/quaqc", "aliases": {"quaqc": "/usr/local/bin/quaqc", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/quaqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quaqc", "latest": {"1.5--h577a1d6_0": "sha256:e127075cf82490e508867c97d4d3f0b377c8131f904b34bc06685caa56f8acce"}, "tags": {"1.3d--h577a1d6_0": "sha256:6a3a5c6afaea221e2087aa9a54a2a0a9ff755668299b48699cb81285639a46fa", "1.3d--h577a1d6_1": "sha256:e4d924aa3ff79389b522bae80c79c6f2f861495d1b390d2144da462126589251", "1.5--h577a1d6_0": "sha256:e127075cf82490e508867c97d4d3f0b377c8131f904b34bc06685caa56f8acce", "1.4--h577a1d6_0": "sha256:be72be2034316dd50c62ebf6c03cd53d5e2e9ab141cbb251c84b1fed2d334cec"}, "docker": "quay.io/biocontainers/quaqc", "aliases": {"quaqc": "/usr/local/bin/quaqc", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quaqc.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/quaqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quaqc:1.3d--h577a1d6_1
+$ shpc install quay.io/biocontainers/quaqc:1.5--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quaqc/1.3d--h577a1d6_1
-$ module help quay.io/biocontainers/quaqc/1.3d--h577a1d6_1
+$ module load quay.io/biocontainers/quaqc/1.5--h577a1d6_0
+$ module help quay.io/biocontainers/quaqc/1.5--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
