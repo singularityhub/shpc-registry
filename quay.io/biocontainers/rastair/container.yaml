@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rastair
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rastair
 latest:
-  0.8.2--r44h4349ce8_0: 
-    sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3
+  0.8.2--r44h4349ce8_2: 
+    sha256:3657bb00893f725d91ae2ab2fc32821f0a9ca4fa43c175ee1237fc58ba67fc8c
 tags:
   0.8.2--r44h4349ce8_0: 
     sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3
+  0.8.2--r44h4349ce8_2: 
+    sha256:3657bb00893f725d91ae2ab2fc32821f0a9ca4fa43c175ee1237fc58ba67fc8c
 docker: quay.io/biocontainers/rastair
 aliases:
   rastair: /usr/local/bin/rastair

@@ -3,7 +3,7 @@ url: https://hub.docker.com/r/rocker/tidyverse
 maintainer: '@vsoch'
 description: 'Version-stable build of R, rstudio, and R packages '
 latest:
-  4.5.1: sha256:897c3c61fe51c0cf5b28c5128f71d99367a73607a2712f0e0f9d1b8c4651b398
+  4.5.1: sha256:6a7e93b235cbdbdf63ca81b11aa7e771cceb1d1b54b30dd8f92f560475155119
 tags:
   4.2.2: sha256:fa2ba674c05b42fd45b06d3f9f087d27fff934331bb67a4de91f4308d705b3ce
   3.6.3: sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74
@@ -19,7 +19,7 @@ tags:
   4.4.2: sha256:ea10e1a66bd303807cf601b46e9a7d098dd7ceb3fe36eab0e7cef95936d7df58
   4.4.3: sha256:d27129f94d975d2c28d2992545fea4f922df992a03ce19c31a831b847f4572ba
   4.5.0: sha256:4f41fd7b375e58fde20e00ed4d05c6eac1271314177fa22d94e1ea44d1ed1cff
-  4.5.1: sha256:897c3c61fe51c0cf5b28c5128f71d99367a73607a2712f0e0f9d1b8c4651b398
+  4.5.1: sha256:6a7e93b235cbdbdf63ca81b11aa7e771cceb1d1b54b30dd8f92f560475155119
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:

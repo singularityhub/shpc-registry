@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vcfsim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcfsim
 latest:
-  1.0.16.alpha--pyhdc42f0e_0: 
-    sha256:aa799c31189e85102d94438a0e5b0e4bccf6c20efae71895331681213da4635c
+  1.0.24.alpha--pyhdc42f0e_0: 
+    sha256:f1ca4bd5e3de1c78919de45ebb7741a07d792a531bfa98544019d4a74d648da9
 tags:
   1.0.8.alpha--pyhca03a8a_0: 
     sha256:4d690c5dd2fc88c5ce2a5279e6a431e0dd66be96a0fb12f20a0a310c7c79ea1e
@@ -19,6 +19,8 @@ tags:
     sha256:2137a8330eda69709f0a211f7397618d884c48ed57e2988adcbc7c6f10b34f27
   1.0.16.alpha--pyhdc42f0e_0: 
     sha256:aa799c31189e85102d94438a0e5b0e4bccf6c20efae71895331681213da4635c
+  1.0.24.alpha--pyhdc42f0e_0: 
+    sha256:f1ca4bd5e3de1c78919de45ebb7741a07d792a531bfa98544019d4a74d648da9
 docker: quay.io/biocontainers/vcfsim
 aliases:
   demes: /usr/local/bin/demes
