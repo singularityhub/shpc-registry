@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/alloshp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alloshp
+latest:
+  2025.09.08d--h7b50bb2_0: 
+    sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b
+tags:
+  2025.09.08d--h7b50bb2_0: 
+    sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b
+docker: quay.io/biocontainers/alloshp
+aliases:
+  GSAlign: /usr/local/bin/GSAlign
+  Red: /usr/local/bin/Red
+  WGA: /usr/local/bin/WGA
+  WGA.bak: /usr/local/bin/WGA.bak
+  bwt_index: /usr/local/bin/bwt_index
+  vcf2alignment: /usr/local/bin/vcf2alignment
+  vcf2synteny: /usr/local/bin/vcf2synteny
+  version.txt: /usr/local/bin/version.txt
+  zless: /usr/local/bin/zless
+  pax11publish: /usr/local/bin/pax11publish
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew

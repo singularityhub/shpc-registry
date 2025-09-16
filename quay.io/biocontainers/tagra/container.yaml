@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/tagra
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tagra
+latest:
+  0.2.5--pyhdfd78af_0: 
+    sha256:33c6a75b39f12c5c62a2b0df942a429b5232c7788a5f9bab972ad1f1c2c4807a
+tags:
+  0.2.5--pyhdfd78af_0: 
+    sha256:33c6a75b39f12c5c62a2b0df942a429b5232c7788a5f9bab972ad1f1c2c4807a
+docker: quay.io/biocontainers/tagra
+aliases:
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  tagra: /usr/local/bin/tagra
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

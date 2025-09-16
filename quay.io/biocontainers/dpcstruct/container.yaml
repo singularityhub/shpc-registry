@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/dpcstruct
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dpcstruct
+latest:
+  0.1.1--h9948957_0: 
+    sha256:335be7f0625002e142be64084a6c634b4636436b2028dc1f8908add2795a17bd
+tags:
+  0.1.1--h9948957_0: 
+    sha256:335be7f0625002e142be64084a6c634b4636436b2028dc1f8908add2795a17bd
+docker: quay.io/biocontainers/dpcstruct
+aliases:
+  dpcstruct: /usr/local/bin/dpcstruct
+  dpcstruct-postfilters: /usr/local/bin/dpcstruct-postfilters
+  dpcstruct-prefilters: /usr/local/bin/dpcstruct-prefilters
+  dpcstruct-primarycluster: /usr/local/bin/dpcstruct-primarycluster
+  dpcstruct-secondarycluster: /usr/local/bin/dpcstruct-secondarycluster
+  dpcstruct-traceback: /usr/local/bin/dpcstruct-traceback
