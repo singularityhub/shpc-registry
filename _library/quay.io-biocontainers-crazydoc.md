@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crazydoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crazydoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crazydoc/container.yaml"
-updated_at: "2025-09-16 03:28:39.889069"
+updated_at: "2025-09-16 04:31:10.175284"
 latest: "0.2.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/crazydoc"
 aliases:

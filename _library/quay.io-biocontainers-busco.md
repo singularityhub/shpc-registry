@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/busco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/busco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/busco/container.yaml"
-updated_at: "2025-09-16 03:16:33.357014"
+updated_at: "2025-09-16 04:18:18.338385"
 latest: "6.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/busco"
 aliases:

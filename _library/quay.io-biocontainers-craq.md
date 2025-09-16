@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/craq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/craq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/craq/container.yaml"
-updated_at: "2025-09-16 03:13:08.903863"
+updated_at: "2025-09-16 04:14:43.812527"
 latest: "1.0.9--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/craq"
 aliases:

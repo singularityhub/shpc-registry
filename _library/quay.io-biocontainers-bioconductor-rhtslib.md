@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhtslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhtslib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhtslib/container.yaml"
-updated_at: "2025-09-16 03:45:42.755240"
+updated_at: "2025-09-16 04:49:11.789082"
 latest: "3.2.0--r44h15a9599_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhtslib"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gbdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbdraw/container.yaml"
-updated_at: "2025-09-16 03:21:28.052218"
+updated_at: "2025-09-16 04:23:32.954248"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gbdraw"
 aliases:
