@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/crass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crass
 latest:
-  1.0.1--h5ca1c30_6: 
-    sha256:f9e7d0c71186ed13258993a5f68c18657c69ee1569a18d2e6d8b9cb2a1c0fb22
+  1.0.1--hcb2000e_7: 
+    sha256:2b5c598702f6ed724c755b409593001da5bf92a24a7687f0f6fa855c3c7c2b17
 tags:
   1.0.1--h5b5514e_3: 
     sha256:62a56fe76ea875d720f6c57627c61769198ab2c479d22f0bf8f1f8b70fbe3632
@@ -11,6 +11,8 @@ tags:
     sha256:73b1688d71dd97b2ea0fd00bc8e6b312d3f507ff5d7ebc63d162e9e612e9d2ef
   1.0.1--h5ca1c30_6: 
     sha256:f9e7d0c71186ed13258993a5f68c18657c69ee1569a18d2e6d8b9cb2a1c0fb22
+  1.0.1--hcb2000e_7: 
+    sha256:2b5c598702f6ed724c755b409593001da5bf92a24a7687f0f6fa855c3c7c2b17
 docker: quay.io/biocontainers/crass
 aliases:
   crass: /usr/local/bin/crass

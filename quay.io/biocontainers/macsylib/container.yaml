@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/macsylib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for macsylib
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:b4ed97b7b41bf18630d8011c41a5f8c6c98db0a2559cba27dd5f594243964568
+  1.0.3--pyhdfd78af_0: 
+    sha256:a58a388847122a917d523743b5512a3fd4f655851c4453a5c65431f4e6eee9a1
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:b4ed97b7b41bf18630d8011c41a5f8c6c98db0a2559cba27dd5f594243964568
+  1.0.3--pyhdfd78af_0: 
+    sha256:a58a388847122a917d523743b5512a3fd4f655851c4453a5c65431f4e6eee9a1
 docker: quay.io/biocontainers/macsylib
 aliases:
   msl_data: /usr/local/bin/msl_data

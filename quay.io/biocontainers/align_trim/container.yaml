@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/align_trim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for align_trim
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3
+  1.0.2--pyhdfd78af_0: 
+    sha256:c11f7e8f838a521d25a162ffd55efe5c3916e828545fac82e07e7f6866badeae
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3
+  1.0.2--pyhdfd78af_0: 
+    sha256:c11f7e8f838a521d25a162ffd55efe5c3916e828545fac82e07e7f6866badeae
 docker: quay.io/biocontainers/align_trim
 aliases:
   align_trim: /usr/local/bin/align_trim

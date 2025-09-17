@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-term-detect-software
 latest:
-  0.223--pl5321hdfd78af_0: 
-    sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395
+  0.227--pl5321hdfd78af_0: 
+    sha256:38f53b84520b6889415eef593a91445d6b4a63e8f90565736b11d591a8469e46
 tags:
   0.223--pl5321hdfd78af_0: 
     sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395
+  0.227--pl5321hdfd78af_0: 
+    sha256:38f53b84520b6889415eef593a91445d6b4a63e8f90565736b11d591a8469e46
 docker: quay.io/biocontainers/perl-term-detect-software
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

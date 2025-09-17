@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mirscore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mirscore
 latest:
-  0.3.2--hdfd78af_0: 
-    sha256:8abe8072ce80eb0c656834bf16a4acffacfb98f9e1874dbde7204b3aaa4efca6
+  0.3.4--hdfd78af_0: 
+    sha256:9c4a1a7d218da961471d089743bc8f3c95bf641ab50581a6908e0f2d0929f315
 tags:
   0.3.0--hdfd78af_0: 
     sha256:fc7f9856831f67ca5a0f4c1f268d2e37a21014e6eed7cbaff838611a1df0ebb2
@@ -11,6 +11,8 @@ tags:
     sha256:6eced079ab7b3fa9b2eb4d1ef571226d9078f58cfcb345dc587c321b8169c7cb
   0.3.2--hdfd78af_0: 
     sha256:8abe8072ce80eb0c656834bf16a4acffacfb98f9e1874dbde7204b3aaa4efca6
+  0.3.4--hdfd78af_0: 
+    sha256:9c4a1a7d218da961471d089743bc8f3c95bf641ab50581a6908e0f2d0929f315
 docker: quay.io/biocontainers/mirscore
 aliases:
   RNAconsensus: /usr/local/bin/RNAconsensus
