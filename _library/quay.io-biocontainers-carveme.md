@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/carveme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carveme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carveme/container.yaml"
-updated_at: "2025-09-16 04:03:24.618681"
-latest: "1.6.4--pyhdfd78af_0"
+updated_at: "2025-09-17 03:01:56.865668"
+latest: "1.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/carveme"
 aliases:
  - "acpl"
@@ -79,8 +79,9 @@ versions:
  - "1.6.1--pyhdfd78af_0"
  - "1.6.2--pyhdfd78af_0"
  - "1.6.4--pyhdfd78af_0"
+ - "1.6.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for carveme"
-config: {"url": "https://biocontainers.pro/tools/carveme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for carveme", "latest": {"1.6.4--pyhdfd78af_0": "sha256:5b758e9de85b3e4c20a69e0269440c5c7d05d4a742cbe9a0e7924786d04f3f55"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:422ffcdb5339416ae0595217b1ba2ddd5dbf8387c7224c03db807d02e0a8aba9", "1.6.2--pyhdfd78af_0": "sha256:1bea3dba2b2cced8360afa01a6f74916ddcbf50cfe97a78cd5b9b9f396242349", "1.6.4--pyhdfd78af_0": "sha256:5b758e9de85b3e4c20a69e0269440c5c7d05d4a742cbe9a0e7924786d04f3f55"}, "docker": "quay.io/biocontainers/carveme", "aliases": {"acpl": "/usr/local/bin/acpl", "amk_ccc": "/usr/local/bin/amk_ccc", "amk_fft2": "/usr/local/bin/amk_fft2", "amk_grf": "/usr/local/bin/amk_grf", "amk_hy": "/usr/local/bin/amk_hy", "amk_m2": "/usr/local/bin/amk_m2", "amk_p2": "/usr/local/bin/amk_p2", "atst": "/usr/local/bin/atst", "benchmark": "/usr/local/bin/benchmark", "build_universe": "/usr/local/bin/build_universe", "carve": "/usr/local/bin/carve", "curate_universe": "/usr/local/bin/curate_universe", "dltest": "/usr/local/bin/dltest", "gapfill": "/usr/local/bin/gapfill", "gbase": "/usr/local/bin/gbase", "gcv": "/usr/local/bin/gcv", "gmk_hy": "/usr/local/bin/gmk_hy", "gmk_m2": "/usr/local/bin/gmk_m2", "gmk_m3": "/usr/local/bin/gmk_m3", "gmk_msh": "/usr/local/bin/gmk_msh", "gmk_ub2": "/usr/local/bin/gmk_ub2", "gmtst": "/usr/local/bin/gmtst", "gord": "/usr/local/bin/gord", "gotst": "/usr/local/bin/gotst", "gscat": "/usr/local/bin/gscat", "gtst": "/usr/local/bin/gtst", "ipopt": "/usr/local/bin/ipopt", "ipopt_sens": "/usr/local/bin/ipopt_sens", "isql": "/usr/local/bin/isql", "iusql": "/usr/local/bin/iusql", "mcv": "/usr/local/bin/mcv", "merge_community": "/usr/local/bin/merge_community", "mmk_m2": "/usr/local/bin/mmk_m2", "mmk_m3": "/usr/local/bin/mmk_m3", "mord": "/usr/local/bin/mord", "mtst": "/usr/local/bin/mtst", "odbc_config": "/usr/local/bin/odbc_config", "odbcinst": "/usr/local/bin/odbcinst", "perl5.22.2": "/usr/local/bin/perl5.22.2", "scip": "/usr/local/bin/scip", "slencheck": "/usr/local/bin/slencheck", "tableproxy64": "/usr/local/bin/tableproxy64", "gmap": "/usr/local/bin/gmap", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "isympy": "/usr/local/bin/isympy", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
+config: {"url": "https://biocontainers.pro/tools/carveme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for carveme", "latest": {"1.6.6--pyhdfd78af_0": "sha256:3c969235f1697018435cc254f790cbbb5b7547bb0d4b8954662166428857ca11"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:422ffcdb5339416ae0595217b1ba2ddd5dbf8387c7224c03db807d02e0a8aba9", "1.6.2--pyhdfd78af_0": "sha256:1bea3dba2b2cced8360afa01a6f74916ddcbf50cfe97a78cd5b9b9f396242349", "1.6.4--pyhdfd78af_0": "sha256:5b758e9de85b3e4c20a69e0269440c5c7d05d4a742cbe9a0e7924786d04f3f55", "1.6.6--pyhdfd78af_0": "sha256:3c969235f1697018435cc254f790cbbb5b7547bb0d4b8954662166428857ca11"}, "docker": "quay.io/biocontainers/carveme", "aliases": {"acpl": "/usr/local/bin/acpl", "amk_ccc": "/usr/local/bin/amk_ccc", "amk_fft2": "/usr/local/bin/amk_fft2", "amk_grf": "/usr/local/bin/amk_grf", "amk_hy": "/usr/local/bin/amk_hy", "amk_m2": "/usr/local/bin/amk_m2", "amk_p2": "/usr/local/bin/amk_p2", "atst": "/usr/local/bin/atst", "benchmark": "/usr/local/bin/benchmark", "build_universe": "/usr/local/bin/build_universe", "carve": "/usr/local/bin/carve", "curate_universe": "/usr/local/bin/curate_universe", "dltest": "/usr/local/bin/dltest", "gapfill": "/usr/local/bin/gapfill", "gbase": "/usr/local/bin/gbase", "gcv": "/usr/local/bin/gcv", "gmk_hy": "/usr/local/bin/gmk_hy", "gmk_m2": "/usr/local/bin/gmk_m2", "gmk_m3": "/usr/local/bin/gmk_m3", "gmk_msh": "/usr/local/bin/gmk_msh", "gmk_ub2": "/usr/local/bin/gmk_ub2", "gmtst": "/usr/local/bin/gmtst", "gord": "/usr/local/bin/gord", "gotst": "/usr/local/bin/gotst", "gscat": "/usr/local/bin/gscat", "gtst": "/usr/local/bin/gtst", "ipopt": "/usr/local/bin/ipopt", "ipopt_sens": "/usr/local/bin/ipopt_sens", "isql": "/usr/local/bin/isql", "iusql": "/usr/local/bin/iusql", "mcv": "/usr/local/bin/mcv", "merge_community": "/usr/local/bin/merge_community", "mmk_m2": "/usr/local/bin/mmk_m2", "mmk_m3": "/usr/local/bin/mmk_m3", "mord": "/usr/local/bin/mord", "mtst": "/usr/local/bin/mtst", "odbc_config": "/usr/local/bin/odbc_config", "odbcinst": "/usr/local/bin/odbcinst", "perl5.22.2": "/usr/local/bin/perl5.22.2", "scip": "/usr/local/bin/scip", "slencheck": "/usr/local/bin/slencheck", "tableproxy64": "/usr/local/bin/tableproxy64", "gmap": "/usr/local/bin/gmap", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "isympy": "/usr/local/bin/isympy", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/carveme.
@@ -95,7 +96,7 @@ $ shpc install quay.io/biocontainers/carveme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/carveme:1.6.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/carveme:1.6.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -107,8 +108,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/carveme/1.6.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/carveme/1.6.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/carveme/1.6.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/carveme/1.6.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

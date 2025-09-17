@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hesslab-gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
-updated_at: "2025-09-16 04:17:44.406835"
-latest: "0.5.1--py39hbf8eff0_0"
+updated_at: "2025-09-17 03:15:43.899608"
+latest: "0.5.1--py39hbcbf7aa_1"
 container_url: "https://biocontainers.pro/tools/hesslab-gambit"
 aliases:
  - "alembic"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.5.1--py39hbf8eff0_0"
  - "0.5.1--py310h1425a21_0"
+ - "0.5.1--py39hbcbf7aa_1"
 description: "shpc-registry automated BioContainers addition for hesslab-gambit"
-config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02", "0.5.1--py310h1425a21_0": "sha256:b705e8788aec71e51a7808eb70be4985dbe707c27840cf11593cba0405b41811"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbcbf7aa_1": "sha256:93a90fbef6e553f2c18c4e647e904afff2cada848d5598648418893afc83f8e5"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02", "0.5.1--py310h1425a21_0": "sha256:b705e8788aec71e51a7808eb70be4985dbe707c27840cf11593cba0405b41811", "0.5.1--py39hbcbf7aa_1": "sha256:93a90fbef6e553f2c18c4e647e904afff2cada848d5598648418893afc83f8e5"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hesslab-gambit.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/hesslab-gambit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hesslab-gambit:0.5.1--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/hesslab-gambit:0.5.1--py39hbcbf7aa_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hesslab-gambit/0.5.1--py39hbf8eff0_0
-$ module help quay.io/biocontainers/hesslab-gambit/0.5.1--py39hbf8eff0_0
+$ module load quay.io/biocontainers/hesslab-gambit/0.5.1--py39hbcbf7aa_1
+$ module help quay.io/biocontainers/hesslab-gambit/0.5.1--py39hbcbf7aa_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

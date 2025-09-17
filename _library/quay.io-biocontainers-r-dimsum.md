@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dimsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dimsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dimsum/container.yaml"
-updated_at: "2025-09-16 04:28:53.805061"
-latest: "1.4--r40hdfd78af_0"
+updated_at: "2025-09-17 03:26:28.204429"
+latest: "1.4--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-dimsum"
 aliases:
  - "DiMSum"
@@ -29,8 +29,9 @@ versions:
  - "1.3--r40hdfd78af_2"
  - "1.3.2--r40hdfd78af_0"
  - "1.4--r40hdfd78af_0"
+ - "1.4--r40hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-dimsum"
-config: {"url": "https://biocontainers.pro/tools/r-dimsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dimsum", "latest": {"1.4--r40hdfd78af_0": "sha256:c16125fe257e97e92078b44b8ffe85e4bfaa85ce5a8efe81a135a2d86c2f7de8"}, "tags": {"1.2.9--r41hdfd78af_0": "sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e", "1.2.11--r42hdfd78af_1": "sha256:49dc119451afd6a109d76423a93241ab43ec9f988bcc4182ff8debdede1b790a", "1.3--r40hdfd78af_1": "sha256:57716658e0b4d77ffb3ac1a4fc8d41274100beff85f78207adcd591ca9951ac4", "1.3--r36hdfd78af_2": "sha256:df2a0fbfb31da63dd4657de8f8585d26ca9fa358979ef1b51b296377344c4aac", "1.3--r40hdfd78af_2": "sha256:a646afb8fdad502f087879e3ed0de755e22df313070086f456f36464843907fc", "1.3.2--r40hdfd78af_0": "sha256:8b9314e007592edf17c1fb2e6201c9a9966ed9baf925da5d0bf21954c4f166c0", "1.4--r40hdfd78af_0": "sha256:c16125fe257e97e92078b44b8ffe85e4bfaa85ce5a8efe81a135a2d86c2f7de8"}, "docker": "quay.io/biocontainers/r-dimsum", "aliases": {"DiMSum": "/usr/local/bin/DiMSum", "DiMSum.R": "/usr/local/bin/DiMSum.R", "starcode": "/usr/local/bin/starcode", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "fastqc": "/usr/local/bin/fastqc", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-dimsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dimsum", "latest": {"1.4--r40hdfd78af_2": "sha256:fbaa6ccdcb9c1eb9da94dc07088149efa4c086be5be2a70053f64a952b80c0b7"}, "tags": {"1.2.9--r41hdfd78af_0": "sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e", "1.2.11--r42hdfd78af_1": "sha256:49dc119451afd6a109d76423a93241ab43ec9f988bcc4182ff8debdede1b790a", "1.3--r40hdfd78af_1": "sha256:57716658e0b4d77ffb3ac1a4fc8d41274100beff85f78207adcd591ca9951ac4", "1.3--r36hdfd78af_2": "sha256:df2a0fbfb31da63dd4657de8f8585d26ca9fa358979ef1b51b296377344c4aac", "1.3--r40hdfd78af_2": "sha256:a646afb8fdad502f087879e3ed0de755e22df313070086f456f36464843907fc", "1.3.2--r40hdfd78af_0": "sha256:8b9314e007592edf17c1fb2e6201c9a9966ed9baf925da5d0bf21954c4f166c0", "1.4--r40hdfd78af_0": "sha256:c16125fe257e97e92078b44b8ffe85e4bfaa85ce5a8efe81a135a2d86c2f7de8", "1.4--r40hdfd78af_2": "sha256:fbaa6ccdcb9c1eb9da94dc07088149efa4c086be5be2a70053f64a952b80c0b7"}, "docker": "quay.io/biocontainers/r-dimsum", "aliases": {"DiMSum": "/usr/local/bin/DiMSum", "DiMSum.R": "/usr/local/bin/DiMSum.R", "starcode": "/usr/local/bin/starcode", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "fastqc": "/usr/local/bin/fastqc", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dimsum.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/r-dimsum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dimsum:1.4--r40hdfd78af_0
+$ shpc install quay.io/biocontainers/r-dimsum:1.4--r40hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dimsum/1.4--r40hdfd78af_0
-$ module help quay.io/biocontainers/r-dimsum/1.4--r40hdfd78af_0
+$ module load quay.io/biocontainers/r-dimsum/1.4--r40hdfd78af_2
+$ module help quay.io/biocontainers/r-dimsum/1.4--r40hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
