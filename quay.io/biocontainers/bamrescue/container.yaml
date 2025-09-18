@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bamrescue
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bamrescue
+latest:
+  0.3.0--h4349ce8_1: 
+    sha256:57a3eefaedb8aa17be327a6f3939f6889528e6709bd37e949c629351bbb37d85
+tags:
+  0.3.0--h4349ce8_1: 
+    sha256:57a3eefaedb8aa17be327a6f3939f6889528e6709bd37e949c629351bbb37d85
+docker: quay.io/biocontainers/bamrescue
+aliases:
+  bamrescue: /usr/local/bin/bamrescue
