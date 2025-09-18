@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dream-stellar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dream-stellar
+latest:
+  2.1.0--haf24da9_0: 
+    sha256:6ca3fb6b3c1e86ad0f03d89e5cae439902e67762de97d8db60b903bd9d07c239
+tags:
+  2.1.0--haf24da9_0: 
+    sha256:6ca3fb6b3c1e86ad0f03d89e5cae439902e67762de97d8db60b903bd9d07c239
+docker: quay.io/biocontainers/dream-stellar
+aliases:
+  dream-stellar: /usr/local/bin/dream-stellar

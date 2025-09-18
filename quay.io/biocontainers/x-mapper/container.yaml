@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/x-mapper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for x-mapper
+latest:
+  1.2.0--hdfd78af_0: 
+    sha256:cb742e16760a5d5249636145b62114599a398b0c34f33f7bb2944993075fb5d6
+tags:
+  1.2.0--hdfd78af_0: 
+    sha256:cb742e16760a5d5249636145b62114599a398b0c34f33f7bb2944993075fb5d6
+docker: quay.io/biocontainers/x-mapper
+aliases:
+  x-mapper: /usr/local/bin/x-mapper
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  hb-info: /usr/local/bin/hb-info
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo

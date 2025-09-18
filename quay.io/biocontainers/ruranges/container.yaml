@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ruranges
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ruranges
+latest:
+  0.0.13--py312h570fbca_1: 
+    sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669
+tags:
+  0.0.13--py312h570fbca_1: 
+    sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669
+docker: quay.io/biocontainers/ruranges
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
