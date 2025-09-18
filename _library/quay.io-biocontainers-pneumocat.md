@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pneumocat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pneumocat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pneumocat/container.yaml"
-updated_at: "2025-09-18 03:35:18.115015"
+updated_at: "2025-09-18 06:12:07.302390"
 latest: "1.2--3"
 container_url: "https://biocontainers.pro/tools/pneumocat"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hpctoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpctoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hpctoolkit/container.yaml"
-updated_at: "2025-09-18 02:59:28.483956"
+updated_at: "2025-09-18 05:37:19.415977"
 latest: "2021.10.15"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpctoolkit"
 aliases:

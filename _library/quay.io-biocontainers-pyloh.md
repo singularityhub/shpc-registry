@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyloh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyloh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyloh/container.yaml"
-updated_at: "2025-09-18 03:06:06.313664"
+updated_at: "2025-09-18 05:43:47.684923"
 latest: "1.4.3--py_2"
 container_url: "https://biocontainers.pro/tools/pyloh"
 aliases:

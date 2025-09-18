@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iclipro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iclipro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iclipro/container.yaml"
-updated_at: "2025-09-18 03:34:37.099655"
+updated_at: "2025-09-18 06:11:26.720076"
 latest: "0.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/iclipro"
 aliases:

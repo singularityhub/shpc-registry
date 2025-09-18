@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlalchemy-datatables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlalchemy-datatables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlalchemy-datatables/container.yaml"
-updated_at: "2025-09-18 03:33:16.162536"
+updated_at: "2025-09-18 06:10:08.132907"
 latest: "2.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/sqlalchemy-datatables"
 aliases:

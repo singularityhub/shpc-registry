@@ -4,7 +4,7 @@ name:  "bids/hcppipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/hcppipelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/hcppipelines/container.yaml"
-updated_at: "2025-09-18 02:59:59.610860"
+updated_at: "2025-09-18 05:37:49.482657"
 latest: "v4.3.0-3"
 container_url: "https://hub.docker.com/r/bids/hcppipelines"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/helitronscanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/helitronscanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/helitronscanner/container.yaml"
-updated_at: "2025-09-18 03:06:06.858093"
+updated_at: "2025-09-18 05:43:48.219072"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/helitronscanner"
 aliases:

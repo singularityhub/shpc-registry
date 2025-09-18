@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/finemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/finemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/finemap/container.yaml"
-updated_at: "2025-09-18 03:05:16.565508"
+updated_at: "2025-09-18 05:42:58.423432"
 latest: "1.4.2--hb192632_1"
 container_url: "https://biocontainers.pro/tools/finemap"
 aliases:

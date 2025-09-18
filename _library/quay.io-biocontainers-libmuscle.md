@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libmuscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmuscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmuscle/container.yaml"
-updated_at: "2025-09-18 03:39:16.906038"
+updated_at: "2025-09-18 06:16:01.773029"
 latest: "3.7--h503566f_2"
 container_url: "https://biocontainers.pro/tools/libmuscle"
 
